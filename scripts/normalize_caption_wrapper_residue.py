@@ -37,7 +37,6 @@ EDITORIAL_NOTE = (
     "Caption/paste wrapper residue normalized in place; SSOT substance preserved."
 )
 
-
 @dataclass(frozen=True)
 class FileChange:
     path: Path
@@ -47,12 +46,10 @@ class FileChange:
     transcripts_prefix_stripped: bool = False
     leading_music_stripped: bool = False
 
-
 def strip_bom(text: str) -> str:
     if text.startswith("\ufeff"):
         return text[1:]
     return text
-
 
 def split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     text = strip_bom(text)
@@ -60,7 +57,6 @@ def split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     if not match:
         return {}, text
     return parse_simple_frontmatter(match.group(1)), text[match.end() :]
-
 
 def parse_simple_frontmatter(raw: str) -> dict[str, Any]:
     data: dict[str, Any] = {}
@@ -80,7 +76,6 @@ def parse_simple_frontmatter(raw: str) -> dict[str, Any]:
             data[key] = value
     return data
 
-
 def dump_simple_frontmatter(data: dict[str, Any]) -> str:
     lines: list[str] = []
     for key, value in data.items():
@@ -95,10 +90,8 @@ def dump_simple_frontmatter(data: dict[str, Any]) -> str:
         lines.append(f"{key}: {rendered}")
     return "\n".join(lines)
 
-
 def dump_frontmatter(data: dict[str, Any]) -> str:
     return f"---\n{dump_simple_frontmatter(data).rstrip()}\n---\n\n"
-
 
 def is_transcript_archive_capture(meta: dict[str, Any], path: Path) -> bool:
     if not path.name.startswith("source-") or not path.name.endswith(".md"):
@@ -109,7 +102,6 @@ def is_transcript_archive_capture(meta: dict[str, Any], path: Path) -> bool:
     if kind and kind not in {"transcript", "cleaned-transcript"}:
         return False
     return True
-
 
 def split_body_sections(body: str) -> tuple[str, str, str]:
     match = TRANSCRIPT_SECTION_RE.search(body)
@@ -128,19 +120,16 @@ def split_body_sections(body: str) -> tuple[str, str, str]:
         idx += 1
     return "".join(lines[:idx]), "", "".join(lines[idx:])
 
-
 def merge_body_sections(prefix: str, transcript_header: str, transcript_body: str) -> str:
     if not transcript_header:
         return prefix + transcript_body
     return prefix + transcript_header + transcript_body
-
 
 def append_editorial_note(meta: dict[str, Any], note: str) -> None:
     existing = str(meta.get("editorial_note") or "").strip()
     if note.lower() in existing.lower():
         return
     meta["editorial_note"] = f"{existing} {note}".strip() if existing else note
-
 
 def classify_wrapper_tier(
     *,
@@ -159,10 +148,8 @@ def classify_wrapper_tier(
         return "clean"
     return "clean"
 
-
 def has_html_entities(text: str) -> bool:
     return any(marker in text for marker in ENTITY_MARKERS)
-
 
 def decode_html_entities(text: str) -> tuple[str, bool]:
     if not has_html_entities(text):
@@ -170,23 +157,19 @@ def decode_html_entities(text: str) -> tuple[str, bool]:
     decoded = html.unescape(text)
     return decoded, decoded != text
 
-
 def strip_caption_header(text: str) -> tuple[str, bool]:
     stripped = CAPTION_HEADER_RE.sub("", text, count=1)
     return stripped, stripped != text
 
-
 def strip_transcripts_prefix(text: str) -> tuple[str, bool]:
     stripped = TRANSCRIPTS_PREFIX_RE.sub("", text, count=1)
     return stripped, stripped != text
-
 
 def strip_leading_music(text: str) -> tuple[str, bool]:
     stripped = LEADING_MUSIC_RE.sub("", text, count=1).lstrip()
     if stripped != text.lstrip():
         return stripped, True
     return text, False
-
 
 def normalize_transcript_body(
     body: str,
@@ -233,7 +216,6 @@ def normalize_transcript_body(
         transcripts_prefix_stripped=transcripts_prefix,
         leading_music_stripped=leading_music,
     )
-
 
 def normalize_text(path: Path, text: str, *, tag_only: bool = False) -> tuple[bool, str, FileChange | None]:
     meta, body = split_frontmatter(text)
@@ -301,7 +283,6 @@ def normalize_text(path: Path, text: str, *, tag_only: bool = False) -> tuple[bo
         ),
     )
 
-
 def candidate_paths(root: Path, explicit: list[Path] | None = None) -> list[Path]:
     if explicit:
         return sorted({p.resolve() for p in explicit})
@@ -317,7 +298,6 @@ def candidate_paths(root: Path, explicit: list[Path] | None = None) -> list[Path
         if is_transcript_archive_capture(meta, path):
             paths.append(path)
     return sorted(set(paths))
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -367,7 +347,6 @@ def main() -> int:
         rel = change.path.relative_to(REPO_ROOT).as_posix()
         print(f"- {rel} [{joined}] tier={change.wrapper_tier}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

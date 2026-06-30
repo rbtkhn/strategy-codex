@@ -83,7 +83,6 @@ INTERVIEW_KINDS = frozenset({"transcript", "cleaned-transcript", "interview"})
 AUTHORED_KINDS = frozenset({"substack-post", "article", "essay", "newsletter", "rss-item"})
 _SLUG_FILENAME_PATTERNS: dict[str, re.Pattern[str]] = {}
 
-
 def slug_token_in_capture_filename(slug: str, filename: str) -> bool:
     """Match slug as a hyphen-delimited token in capture filenames (not substring)."""
     key = slug.casefold()
@@ -99,7 +98,6 @@ def slug_token_in_capture_filename(slug: str, filename: str) -> bool:
             return True
     return False
 
-
 def norm_scalar(value: object) -> str:
     if value is None:
         return ""
@@ -107,15 +105,12 @@ def norm_scalar(value: object) -> str:
         return norm_scalar(value[0]) if value else ""
     return str(value).strip()
 
-
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
-
 
 def shelf_index_path(slug: str, voices_dir: Path | None = None) -> Path:
     base = voices_dir or VOICES_DIR
     return base / slug / f"{slug}-index.md"
-
 
 def companion_paths(slug: str, voices_dir: Path | None = None) -> list[Path]:
     base = voices_dir or VOICES_DIR
@@ -127,7 +122,6 @@ def companion_paths(slug: str, voices_dir: Path | None = None) -> list[Path]:
         out.extend(sorted(shelf.glob(pattern)))
     return out
 
-
 def _pape_janssen_studio(meta: dict[str, object], body: str) -> bool:
     if re.search(
         r"cyrus\s+janssen\s+studio|pape\s*\(\s*cyrus\s+janssen|cannot beat iran|can not beat iran",
@@ -137,7 +131,6 @@ def _pape_janssen_studio(meta: dict[str, object], body: str) -> bool:
         return True
     title = norm_scalar(meta.get("title"))
     return "Cyrus Janssen studio" in title or "Can NOT Beat Iran" in title
-
 
 def _jiang_named_guest(meta: dict[str, object]) -> bool:
     pattern = GUEST_NAME_PATTERNS.get("jiang")
@@ -155,7 +148,6 @@ def _jiang_named_guest(meta: dict[str, object]) -> bool:
         return True
     return False
 
-
 def _jiang_is_host(meta: dict[str, object]) -> bool:
     pattern = GUEST_NAME_PATTERNS.get("jiang")
     if pattern is None:
@@ -172,7 +164,6 @@ def _jiang_is_host(meta: dict[str, object]) -> bool:
         return True
     return False
 
-
 def _jiang_ph_owned_filename(path: Path) -> bool:
     name = path.name.casefold()
     if name == JIANG_SNEAKO_INTERVIEW.casefold():
@@ -183,7 +174,6 @@ def _jiang_ph_owned_filename(path: Path) -> bool:
     if name.startswith("source-interviews-"):
         return True
     return False
-
 
 def is_jiang_external_interview(
     meta: dict[str, object], path: Path, body: str = ""
@@ -210,7 +200,6 @@ def is_jiang_external_interview(
         return False
     return True
 
-
 def _guest_slots(meta: dict[str, object]) -> list[str]:
     slots: list[str] = []
     guest = norm_scalar(meta.get("guest"))
@@ -226,7 +215,6 @@ def _guest_slots(meta: dict[str, object]) -> list[str]:
         elif people:
             slots.append(str(people))
     return slots
-
 
 def is_davis_guest_index_capture(meta: dict[str, object], path: Path) -> bool:
     """True when capture belongs on davis-index (cross-host guest appearances)."""
@@ -257,7 +245,6 @@ def is_davis_guest_index_capture(meta: dict[str, object], path: Path) -> bool:
         return True
     return False
 
-
 def is_diesen_guest_index_capture(meta: dict[str, object], path: Path) -> bool:
     """True when capture belongs on diesen-index (cross-host guest appearances)."""
     blob = " ".join([norm_scalar(meta.get("host")), *_guest_slots(meta)])
@@ -280,7 +267,6 @@ def is_diesen_guest_index_capture(meta: dict[str, object], path: Path) -> bool:
         return False
     return "diesen" in name
 
-
 def is_mercouris_guest_index_capture(meta: dict[str, object], path: Path) -> bool:
     """True when capture belongs on mercouris-index (cross-host guest appearances)."""
     if not (
@@ -300,7 +286,6 @@ def is_mercouris_guest_index_capture(meta: dict[str, object], path: Path) -> boo
     if MERCOURIS_GUEST.search(norm_scalar(meta.get("host"))):
         return False
     return "mercouris" in path.name.casefold()
-
 
 def is_alkhorshid_guest_index_capture(meta: dict[str, object], path: Path) -> bool:
     """True when capture belongs on alkhorshid-index (cross-host guest appearances)."""
@@ -322,7 +307,6 @@ def is_alkhorshid_guest_index_capture(meta: dict[str, object], path: Path) -> bo
         return False
     return slug_token_in_capture_filename("alkhorshid", path.name)
 
-
 def is_split_identity_guest_index_capture(slug: str, meta: dict[str, object], path: Path) -> bool:
     if slug == "davis":
         return is_davis_guest_index_capture(meta, path)
@@ -333,7 +317,6 @@ def is_split_identity_guest_index_capture(slug: str, meta: dict[str, object], pa
     if slug == "alkhorshid":
         return is_alkhorshid_guest_index_capture(meta, path)
     return False
-
 
 def shelf_capture_excluded(slug: str, path: Path, meta: dict[str, object], body: str = "") -> bool:
     name = path.name.casefold()
@@ -374,7 +357,6 @@ def shelf_capture_excluded(slug: str, path: Path, meta: dict[str, object], body:
         return False
     return False
 
-
 def _guest_named(meta: dict[str, object], slug: str) -> bool:
     pattern = GUEST_NAME_PATTERNS.get(slug)
     if pattern is None:
@@ -398,7 +380,6 @@ def _guest_named(meta: dict[str, object], slug: str) -> bool:
         return True
     return False
 
-
 def capture_matches_shelf(slug: str, path: Path, meta: dict[str, object], body: str = "") -> bool:
     if slug == "jiang":
         return is_jiang_external_interview(meta, path, body)
@@ -415,7 +396,6 @@ def capture_matches_shelf(slug: str, path: Path, meta: dict[str, object], body: 
         return True
     return False
 
-
 def resolve_shelf_slugs(path: Path, meta: dict[str, object], body: str = "") -> list[str]:
     slugs: list[str] = []
     for slug in sorted(WRITER_SHELF_SLUGS | GUEST_REBUILD_SHELF_SLUGS):
@@ -425,9 +405,7 @@ def resolve_shelf_slugs(path: Path, meta: dict[str, object], body: str = "") -> 
             slugs.append(slug)
     return slugs
 
-
 CaptureClass = Literal["authored", "guest", "other"]
-
 
 def classify_capture_class(slug: str, path: Path, meta: dict[str, object], body: str = "") -> CaptureClass:
     kind = norm_scalar(meta.get("kind"))
@@ -450,7 +428,6 @@ def classify_capture_class(slug: str, path: Path, meta: dict[str, object], body:
         return "authored"
     return "guest" if slug_fold not in name else "authored"
 
-
 def pub_date_for_capture(meta: dict[str, object], path: Path) -> str:
     pub = norm_scalar(meta.get("pub_date"))
     if len(pub) >= 10:
@@ -460,12 +437,10 @@ def pub_date_for_capture(meta: dict[str, object], path: Path) -> str:
         return day
     return day
 
-
 def month_heading(pub_date: str) -> str:
     if len(pub_date) >= 7:
         return f"## {pub_date[:7]}"
     return f"## {pub_date}"
-
 
 def short_title(meta: dict[str, object], path: Path) -> str:
     title = norm_scalar(meta.get("title"))
@@ -478,10 +453,8 @@ def short_title(meta: dict[str, object], path: Path) -> str:
         title = title[:69] + "…"
     return title
 
-
 def archive_rel_link(path: Path) -> str:
     return f"../../../source-archive/statecraft/{path.parent.name}/{path.name}"
-
 
 def format_index_row(
     slug: str,
@@ -501,11 +474,9 @@ def format_index_row(
         suffix = f" — **guest** · {host}"
     return f"- [{label}]({rel}){suffix}"
 
-
 def capture_cited_in_index(index_text: str, path: Path) -> bool:
     rel = f"source-archive/statecraft/{path.parent.name}/{path.name}".replace("\\", "/")
     return path.name in index_text or rel in index_text
-
 
 def append_capture_to_index(
     slug: str,

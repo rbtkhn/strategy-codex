@@ -1,6 +1,5 @@
 # Wilkerson June 2025 note
 
-WORK only; not Record.
 
 Purpose: preserve what June 2025 currently means on the Wilkerson shelf and separate what is already materialized from what is still only a direct-URL recovery opportunity.
 

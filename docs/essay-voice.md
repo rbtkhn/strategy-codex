@@ -1,6 +1,5 @@
 # Essay Voice
 
-WORK only; not Record.
 
 **One-sentence definition:** topic-first, third-person, tri-blend transport synthesis with Kissinger spine, solemn gravitas, and light apparatus.
 

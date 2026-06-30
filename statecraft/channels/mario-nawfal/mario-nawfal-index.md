@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Mario Nawfal Index (compat redirect)
 

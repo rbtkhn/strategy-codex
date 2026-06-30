@@ -17,7 +17,6 @@ archive_links:
 ---
 # Mearsheimer April 2025 Repair Note
 
-work only; not Record.
 
 ## Purpose
 

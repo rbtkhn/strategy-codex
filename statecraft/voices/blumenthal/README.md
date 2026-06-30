@@ -32,4 +32,4 @@ Use civ-mem as a compact analytical spine: mechanisms, lenses, historical resona
 
 media-legitimacy critique, elite-access suspicion, and U.S.-domestic amplification of Middle East crisis narratives.
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.

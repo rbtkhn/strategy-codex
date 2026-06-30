@@ -76,7 +76,6 @@ DEFAULT_MAX_BLOCK = 8
 DEFAULT_MAX_MENTIONS = 6
 DEFAULT_MAX_NARRATIVE = 1
 
-
 def _iter_primary_files() -> list[Path]:
     out: set[Path] = set()
     for pattern in PRIMARY_GLOBS:
@@ -96,11 +95,9 @@ def _iter_primary_files() -> list[Path]:
             out.add(path)
     return sorted(out)
 
-
 def _has_archive_link(text: str) -> bool:
     norm = text.replace("\\", "/")
     return any(p in norm for p in ARCHIVE_POINTERS)
-
 
 def _has_canonical_pointer(text: str) -> bool:
     collapsed = " ".join(text.split())
@@ -115,7 +112,6 @@ def _has_canonical_pointer(text: str) -> bool:
         return True
     return False
 
-
 def _is_operational_line(line: str) -> bool:
     if OPERATIONAL_LINE_RE.search(line):
         return True
@@ -129,13 +125,11 @@ def _is_operational_line(line: str) -> bool:
         return True
     return False
 
-
 def _is_pointer_line(line: str) -> bool:
     collapsed = " ".join(line.split())
     if "archived/frozen" in collapsed.lower() and "does not grow the fork" in collapsed.lower():
         return True
     return CANONICAL_ARCHIVE_POINTER in collapsed
-
 
 def _count_narrative_mentions(text: str) -> int:
     total = 0
@@ -147,7 +141,6 @@ def _count_narrative_mentions(text: str) -> int:
             continue
         total += len(NARRATIVE_RE.findall(line))
     return total
-
 
 def _scan_mention_budget(rel: str, text: str, *, max_narrative: int) -> list[str]:
     if rel not in MENTION_BUDGET_FILES:
@@ -165,7 +158,6 @@ def _scan_mention_budget(rel: str, text: str, *, max_narrative: int) -> list[str
             f"{rel}: {narrative} narrative mention(s) exceed budget ({max_narrative})"
         )
     return issues
-
 
 def _scan_file(
     path: Path,
@@ -211,7 +203,6 @@ def _scan_file(
             )
     return issues
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--strict", action="store_true", help="Exit 1 on any issue")
@@ -239,7 +230,6 @@ def main() -> int:
 
     print("ok: archive mention budget check passed")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

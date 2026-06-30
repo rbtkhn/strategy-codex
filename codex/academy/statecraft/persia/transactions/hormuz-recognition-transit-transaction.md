@@ -1,6 +1,5 @@
 # Hormuz Recognition Transit Transaction
 
-WORK only; not Record.
 
 ## Transaction Name
 

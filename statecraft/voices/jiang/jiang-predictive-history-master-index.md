@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Jiang / Predictive History Master Index
 

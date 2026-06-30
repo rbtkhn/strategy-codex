@@ -18,7 +18,6 @@ from prediction_lib import SHIFT_TYPES  # noqa: E402
 
 SHIFT_REQUIRED = ("type", "from", "to", "from_date", "to_date", "from_file", "to_file")
 
-
 def validate_timeline(payload: dict) -> list[str]:
     issues: list[str] = []
     if "_meta" not in payload:
@@ -37,7 +36,7 @@ def validate_timeline(payload: dict) -> list[str]:
         if not isinstance(block, dict):
             issues.append(f"{label}: must be an object")
             continue
-        for section in ("entries", "latest_by_speaker", "shifts"):
+        for section in ("entries", "latest_by_speaker", "shifts", "restatements", "reviews"):
             if section not in block:
                 issues.append(f"{label}: missing `{section}`")
 
@@ -69,7 +68,6 @@ def validate_timeline(payload: dict) -> list[str]:
 
     return issues
 
-
 def run_check(*, path: Path | None = None) -> int:
     target = path or DEFAULT_PATH
     if not target.is_file():
@@ -94,10 +92,8 @@ def run_check(*, path: Path | None = None) -> int:
     print("[ok] prediction timeline valid")
     return 0
 
-
 def main() -> int:
     return run_check()
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

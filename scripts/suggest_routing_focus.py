@@ -24,13 +24,11 @@ DEFAULT_JSONL = (
     ARTIFACTS_DIR / "skill-work" / "work-civ-mem" / "routing-decisions.jsonl"
 )
 
-
 def _rel_repo(p: Path) -> str:
     try:
         return str(p.resolve().relative_to(REPO_ROOT))
     except ValueError:
         return str(p)
-
 
 def _parse_ts(s: str) -> datetime | None:
     try:
@@ -43,7 +41,6 @@ def _parse_ts(s: str) -> datetime | None:
         return dt.astimezone(timezone.utc)
     except (ValueError, TypeError):
         return None
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -117,7 +114,6 @@ def main() -> int:
 
     print("\n".join(lines))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

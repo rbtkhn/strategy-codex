@@ -52,7 +52,6 @@ from yaml_compat import has_yaml, safe_load_path
 BASE = REPO_ROOT / "docs" / "skill-work" / "work-dev" / "scenarios" / "baseline_scenarios"
 _KEY_RE = re.compile(r"^([A-Za-z0-9_-]+):(?:\s+(.*))?$")
 
-
 @dataclass(frozen=True)
 class ScenarioRow:
     scenario_id: str
@@ -66,7 +65,6 @@ class ScenarioRow:
 
     def sort_key(self) -> tuple[str, str, str]:
         return (self.scenario_id, self.runtime, self.variation)
-
 
 def _coerce_scalar(value: str) -> Any:
     text = value.strip()
@@ -88,7 +86,6 @@ def _coerce_scalar(value: str) -> Any:
             return text
     return text
 
-
 def _nonempty_lines(text: str) -> list[tuple[int, str]]:
     lines: list[tuple[int, str]] = []
     for raw in text.splitlines():
@@ -97,7 +94,6 @@ def _nonempty_lines(text: str) -> list[tuple[int, str]]:
         indent = len(raw) - len(raw.lstrip(" "))
         lines.append((indent, raw.strip()))
     return lines
-
 
 def _parse_list(lines: list[tuple[int, str]], idx: int, indent: int) -> tuple[list[Any], int]:
     items: list[Any] = []
@@ -147,7 +143,6 @@ def _parse_list(lines: list[tuple[int, str]], idx: int, indent: int) -> tuple[li
         items.append(_coerce_scalar(item_text))
     return items, idx
 
-
 def _parse_map(lines: list[tuple[int, str]], idx: int, indent: int) -> tuple[dict[str, Any], int]:
     data: dict[str, Any] = {}
     while idx < len(lines):
@@ -175,7 +170,6 @@ def _parse_map(lines: list[tuple[int, str]], idx: int, indent: int) -> tuple[dic
             data[key] = ""
     return data, idx
 
-
 def _load_baseline_yaml_fallback(path: Path) -> dict[str, Any]:
     lines = _nonempty_lines(path.read_text(encoding="utf-8"))
     if not lines:
@@ -184,7 +178,6 @@ def _load_baseline_yaml_fallback(path: Path) -> dict[str, Any]:
     if idx != len(lines):
         raise ValueError(f"{path}: unparsed YAML tail at line {idx + 1}")
     return data
-
 
 def _load_yaml(path: Path) -> dict[str, Any]:
     if has_yaml():
@@ -195,7 +188,6 @@ def _load_yaml(path: Path) -> dict[str, Any]:
         raise ValueError(f"{path}: scenario file must decode to a mapping")
     return raw
 
-
 def _normalize_list(value: Any) -> list[Any]:
     if value is None:
         return []
@@ -203,14 +195,12 @@ def _normalize_list(value: Any) -> list[Any]:
         return value
     return [value]
 
-
 def _runtime_list(raw: dict[str, Any], default_runtimes: list[str]) -> list[str]:
     runtimes = _normalize_list(raw.get("runtimes"))
     if not runtimes:
         return default_runtimes
     out = [str(x).strip() for x in runtimes if str(x).strip()]
     return out or default_runtimes
-
 
 def _dimensions(raw: dict[str, Any]) -> dict[str, list[Any]]:
     dims = raw.get("dimensions") or {}
@@ -224,13 +214,11 @@ def _dimensions(raw: dict[str, Any]) -> dict[str, list[Any]]:
         out[str(k)] = vals
     return out
 
-
 def _fixed_values(raw: dict[str, Any]) -> dict[str, Any]:
     fixed = raw.get("fixed") or {}
     if not isinstance(fixed, dict):
         raise ValueError("fixed must be a mapping")
     return {str(k): v for k, v in fixed.items()}
-
 
 def _exclude_rules(raw: dict[str, Any]) -> list[dict[str, Any]]:
     ex = raw.get("exclude") or []
@@ -243,13 +231,11 @@ def _exclude_rules(raw: dict[str, Any]) -> list[dict[str, Any]]:
         out.append({str(k): v for k, v in item.items()})
     return out
 
-
 def _matches_rule(values: dict[str, Any], rule: dict[str, Any]) -> bool:
     for k, v in rule.items():
         if values.get(k) != v:
             return False
     return True
-
 
 def _cartesian_rows(
     *,
@@ -272,13 +258,11 @@ def _cartesian_rows(
         rows.append(values)
     return rows
 
-
 def _variation_id(values: dict[str, Any]) -> str:
     keys = [k for k in sorted(values.keys()) if k != "runtime"]
     if not keys:
         return "default"
     return "__".join(f"{k}={values[k]}" for k in keys)
-
 
 def _base_failure_mode(raw: dict[str, Any]) -> str:
     return str(
@@ -287,14 +271,11 @@ def _base_failure_mode(raw: dict[str, Any]) -> str:
         or "scenario-triggered failure"
     ).strip()
 
-
 def _base_required_checks(raw: dict[str, Any]) -> list[str]:
     return [str(x).strip() for x in _normalize_list(raw.get("required_checks")) if str(x).strip()]
 
-
 def _base_tags(raw: dict[str, Any]) -> list[str]:
     return [str(x).strip() for x in _normalize_list(raw.get("tags")) if str(x).strip()]
-
 
 def _expanded_variations(raw: dict[str, Any]) -> list[dict[str, Any]]:
     vars_ = raw.get("variations") or []
@@ -311,7 +292,6 @@ def _expanded_variations(raw: dict[str, Any]) -> list[dict[str, Any]]:
             raise ValueError("variation.values must be a mapping")
         out.append(item)
     return out
-
 
 def _build_rows_for_file(raw: dict[str, Any], default_runtimes: list[str]) -> list[ScenarioRow]:
     scenario_id = str(raw.get("scenario_id") or "").strip()
@@ -380,7 +360,6 @@ def _build_rows_for_file(raw: dict[str, Any], default_runtimes: list[str]) -> li
 
     return sorted(rows, key=lambda r: r.sort_key())
 
-
 def build_matrix(
     *,
     scenario_filter: str = "",
@@ -395,7 +374,6 @@ def build_matrix(
             continue
         rows.extend(_build_rows_for_file(raw, runtimes))
     return sorted(rows, key=lambda r: r.sort_key())
-
 
 def render_markdown(rows: list[ScenarioRow]) -> str:
     lines = [
@@ -420,7 +398,6 @@ def render_markdown(rows: list[ScenarioRow]) -> str:
         )
     return "".join(lines)
 
-
 def _normalize_matrix_markdown(text: str) -> str:
     """Strip optional generated-file HTML comment; normalize newlines for drift checks."""
     lines = text.splitlines()
@@ -428,7 +405,6 @@ def _normalize_matrix_markdown(text: str) -> str:
         lines = lines[1:]
     body = "\n".join(lines).strip() + "\n"
     return "\n".join(line.rstrip() for line in body.splitlines()) + "\n"
-
 
 def matrix_markdown_matches(rows: list[ScenarioRow], path: Path) -> tuple[bool, str]:
     """Return (ok, diff_or_empty). Expected file may start with <!-- Generated ... --> line."""
@@ -440,7 +416,6 @@ def matrix_markdown_matches(rows: list[ScenarioRow], path: Path) -> tuple[bool, 
         f"matrix drift: {path} does not match regenerated output "
         f"(regenerate per docs/skill-work/work-dev/scenarios/baseline_scenarios/README.md)\n"
     )
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Generate factorial scenario matrix rows.")
@@ -497,7 +472,6 @@ def main() -> int:
     else:
         sys.stdout.write(rendered)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

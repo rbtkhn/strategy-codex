@@ -81,7 +81,6 @@ CAPTURES: dict[str, dict] = {
     },
 }
 
-
 def validate_capture(path: Path, spec: dict) -> list[str]:
     doc = path.read_text(encoding="utf-8")
     try:
@@ -95,7 +94,6 @@ def validate_capture(path: Path, spec: dict) -> list[str]:
         return [str(exc)]
     return validate_section_anchors(body, spec["titles"], spec["anchors"])
 
-
 def write_capture(path: Path, spec: dict) -> int:
     return write_interview_section_patch_capture(
         path,
@@ -107,7 +105,6 @@ def write_capture(path: Path, spec: dict) -> int:
         interview_host=HOST,
         interview_guest=spec["guest"],
     )
-
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -133,7 +130,6 @@ def main() -> int:
             words = write_capture(path, spec)
             print(f"wrote {name} ({words} words, {len(spec['titles'])} sections)")
     return rc
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

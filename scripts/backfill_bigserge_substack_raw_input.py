@@ -4,7 +4,6 @@
 Thin wrapper around ``backfill_substack_raw_input.py`` with Big Serge defaults.
 Treat the public archive as a discovery index, not a completeness mandate:
 backfill the substantial posts you want preserved, not every light archive item.
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -22,7 +21,6 @@ from backfill_substack_raw_input import DEFAULT_RAW_ROOT, run
 
 DEFAULT_HOSTNAME = "bigserge.substack.com"
 DEFAULT_THREAD = "bigserge"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -50,7 +48,6 @@ def main() -> int:
         apply=args.apply,
         limit=max(1, min(args.limit, 50)),
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

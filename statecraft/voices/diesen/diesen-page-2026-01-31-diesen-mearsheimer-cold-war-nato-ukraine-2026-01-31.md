@@ -1,7 +1,6 @@
 # Diesen refined page — 2026-01-31 (host lane)
 <!-- word_count: ~200 -->
 
-WORK only; not Record.
 
 **Expert:** `diesen` · **Guest (same air):** John Mearsheimer · **Published:** 2026-01-31 · Sibling: [mearsheimer-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](mearsheimer/mearsheimer-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md
 

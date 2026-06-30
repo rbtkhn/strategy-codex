@@ -1,6 +1,5 @@
 # Civilization and Empire vs Civilizational Statecraft
 
-WORK only; not Record.
 
 This note distinguishes two adjacent but different layers in academy-statecraft.
 

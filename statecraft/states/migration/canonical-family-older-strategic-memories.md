@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Canonical Family Synthesis: Older Strategic Memories Still Constraining Present Actors
 

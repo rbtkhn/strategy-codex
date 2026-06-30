@@ -24,7 +24,6 @@ from validate_structured_files import (  # noqa: E402
 INLINE_LINK_RE = re.compile(r"(\[[^\]]*\]\()([^)]+)(\))")
 SKIP_SUFFIXES = {".md", ".png", ".yaml", ".yml", ".json", ".pdf"}
 
-
 def build_basename_index() -> dict[str, list[Path]]:
     index: dict[str, list[Path]] = defaultdict(list)
     for path in REPO_ROOT.rglob("*"):
@@ -36,7 +35,6 @@ def build_basename_index() -> dict[str, list[Path]]:
             continue
         index[path.name].append(path)
     return index
-
 
 def pick_candidate(source: Path, basename: str, candidates: list[Path]) -> Path | None:
     if not candidates:
@@ -69,7 +67,6 @@ def pick_candidate(source: Path, basename: str, candidates: list[Path]) -> Path 
         return ranked[0][1]
     return None
 
-
 def replace_link_in_file(path: Path, old_target: str, new_target: str) -> bool:
     text = path.read_text(encoding="utf-8")
     needle = f"]({old_target})"
@@ -78,7 +75,6 @@ def replace_link_in_file(path: Path, old_target: str, new_target: str) -> bool:
         return False
     path.write_text(text.replace(needle, repl), encoding="utf-8", newline="\n")
     return True
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -129,7 +125,6 @@ def main() -> int:
 
     print(f"done: {fixed} resolved, {skipped} skipped, {len(errors)} errors scanned")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

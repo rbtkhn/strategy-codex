@@ -45,20 +45,16 @@ FAILURE_CLASSES = frozenset(
     }
 )
 
-
 def utc_now() -> datetime:
     return datetime.now(timezone.utc)
-
 
 def make_miss_id(ts: datetime) -> str:
     stamp = ts.strftime("%Y%m%dT%H%M%SZ")
     suffix = secrets.token_hex(4)
     return f"rmiss_{stamp}_{suffix}"
 
-
 def iso_z(ts: datetime) -> str:
     return ts.replace(tzinfo=timezone.utc).isoformat().replace("+00:00", "Z")
-
 
 def validate_surface(value: str) -> str:
     if value not in RETRIEVAL_SURFACES:
@@ -66,13 +62,11 @@ def validate_surface(value: str) -> str:
         raise argparse.ArgumentTypeError(f"invalid surface: {value}. allowed: {allowed}")
     return value
 
-
 def validate_failure_class(value: str) -> str:
     if value not in FAILURE_CLASSES:
         allowed = ", ".join(sorted(FAILURE_CLASSES))
         raise argparse.ArgumentTypeError(f"invalid failure_class: {value}. allowed: {allowed}")
     return value
-
 
 def normalize_text(text: str, max_len: int, field_name: str) -> str:
     value = text.strip()
@@ -81,7 +75,6 @@ def normalize_text(text: str, max_len: int, field_name: str) -> str:
     if len(value) > max_len:
         raise ValueError(f"{field_name} exceeds max length {max_len}")
     return value
-
 
 @dataclass
 class RetrievalMiss:
@@ -96,11 +89,9 @@ class RetrievalMiss:
     lane_or_context: str | None = None
     recorded_by: str | None = None
 
-
 def _load_schema() -> dict[str, Any]:
     raw = SCHEMA_PATH.read_text(encoding="utf-8")
     return json.loads(raw)
-
 
 def _validate_payload(payload: dict[str, Any]) -> None:
     try:
@@ -111,7 +102,6 @@ def _validate_payload(payload: dict[str, Any]) -> None:
         return
     schema = _load_schema()
     Draft202012Validator(schema).validate(payload)
-
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Log a Grace-Mar retrieval miss.")
@@ -126,7 +116,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--stdout", action="store_true")
     parser.add_argument("--validate-only", action="store_true", dest="validate_only")
     return parser.parse_args()
-
 
 def build_miss(args: argparse.Namespace, now: datetime) -> RetrievalMiss:
     notes: str | None = None
@@ -150,10 +139,8 @@ def build_miss(args: argparse.Namespace, now: datetime) -> RetrievalMiss:
         recorded_by=args.recorded_by.strip() if args.recorded_by else None,
     )
 
-
 def ensure_storage() -> None:
     MISS_DIR.mkdir(parents=True, exist_ok=True)
-
 
 def main() -> int:
     args = parse_args()
@@ -188,7 +175,6 @@ def main() -> int:
         print(json.dumps(payload, ensure_ascii=False, indent=2))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

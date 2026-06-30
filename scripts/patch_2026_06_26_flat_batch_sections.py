@@ -220,7 +220,6 @@ CAPTURES: dict[str, dict] = {
     },
 }
 
-
 def validate_capture(path: Path, spec: dict) -> list[str]:
     errors: list[str] = []
     doc = path.read_text(encoding="utf-8")
@@ -243,7 +242,6 @@ def validate_capture(path: Path, spec: dict) -> list[str]:
         except ValueError as exc:
             errors.append(str(exc))
     return errors
-
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -278,7 +276,6 @@ def main() -> int:
                 CAPTURES[name]["anchors"],
             )
     return 1 if failed else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

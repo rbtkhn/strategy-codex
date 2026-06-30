@@ -21,7 +21,6 @@ OLD_PREFIXES = (
     "source-nima-alkorshid-",
 )
 
-
 def new_path_for_old(old_fragment: str) -> str | None:
     for prefix in OLD_PREFIXES:
         if prefix in old_fragment:
@@ -33,7 +32,6 @@ def new_path_for_old(old_fragment: str) -> str | None:
             "source-daniel-davis-alkorshid-iran-war-never-stops-while-israel-attacks-lebanon-nima-alkhorshid-lt-col-daniel-davis",
         )
     return None
-
 
 def sweep_file(path: Path) -> bool:
     text = path.read_text(encoding="utf-8", errors="replace")
@@ -55,7 +53,6 @@ def sweep_file(path: Path) -> bool:
     path.write_text(new, encoding="utf-8")
     return True
 
-
 def main() -> None:
     n = 0
     for root in SCAN_ROOTS:
@@ -66,7 +63,6 @@ def main() -> None:
                 n += 1
                 print(path.relative_to(REPO))
     print(f"updated {n} files")
-
 
 if __name__ == "__main__":
     main()

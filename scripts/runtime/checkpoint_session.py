@@ -25,7 +25,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
 GATE_RELEVANCE = ("none", "maybe later", "candidate likely")
 
-
 def _build_markdown(
     *,
     built: str,
@@ -77,7 +76,6 @@ _(One bounded next move.)_
 This checkpoint is a runtime work artifact.
 It does not update SELF, SELF-LIBRARY, SKILLS, or EVIDENCE.
 """
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -145,7 +143,6 @@ def main() -> int:
     candidate.write_text(body, encoding="utf-8")
     print(f"wrote {candidate}", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

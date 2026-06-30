@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # [Month Year] contradiction audit
 

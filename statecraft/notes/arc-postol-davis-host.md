@@ -13,7 +13,6 @@ updated_at: 2026-06-28
 
 # Davis x Postol speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Davis x Postol` run inside the Davis stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Postol lane Davis elicits, which full-form episodes matter most, and why this has become one of the clearest recurring Postol branches.
 

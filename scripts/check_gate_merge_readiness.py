@@ -33,16 +33,13 @@ TOPIC_HINT_RE = re.compile(
 METHOD_RE = re.compile(r"\b(method|workflow|process|how i work|curation as method|extraction channel)\b", re.IGNORECASE)
 INTERNAL_ID_RE = re.compile(r"\b(Shelf-\d{4}|LIB-\d{4})\b")
 
-
 def yaml_get(body: str, key: str) -> str:
     m = re.search(rf"^{re.escape(key)}:\s*(.+)$", body, re.MULTILINE)
     return (m.group(1).strip().strip('"').strip("'")) if m else ""
 
-
 def has_ix_a_scaffold(self_md: str) -> bool:
     pat = re.compile(r"#### Facts \(LEARN-nnn\)\s*\n\n```yaml\nentries:\s*\n", re.DOTALL)
     return bool(pat.search(self_md))
-
 
 def _safe_yaml_load(body: str) -> dict:
     if not has_yaml():
@@ -53,7 +50,6 @@ def _safe_yaml_load(body: str) -> dict:
         return {}
     return data if isinstance(data, dict) else {}
 
-
 def _load_catalog_ids(catalog_path: Path) -> set[str]:
     if not has_yaml() or not catalog_path.is_file():
         return set()
@@ -62,7 +58,6 @@ def _load_catalog_ids(catalog_path: Path) -> set[str]:
     if not isinstance(items, list):
         return set()
     return {str(x.get("id")) for x in items if isinstance(x, dict) and x.get("id")}
-
 
 def _load_anchor_refs(anchors_path: Path) -> set[str]:
     if not has_yaml() or not anchors_path.is_file():
@@ -80,12 +75,10 @@ def _load_anchor_refs(anchors_path: Path) -> set[str]:
             refs.update(str(x) for x in shelf_refs if isinstance(x, str))
     return refs
 
-
 def _is_bookshelf_quiz(data: dict, body: str) -> bool:
     channel = str(data.get("channel_key") or yaml_get(body, "channel_key"))
     signal = str(data.get("signal_type") or yaml_get(body, "signal_type"))
     return "bookshelf-mcq" in channel or signal == "operator_quiz_validated" or "quiz_receipt:" in body
-
 
 def _visible_prompt_text(data: dict) -> str:
     qr = data.get("quiz_receipt")
@@ -97,7 +90,6 @@ def _visible_prompt_text(data: dict) -> str:
         str(qr.get("citation_label") or ""),
     ]
     return "\n".join(x for x in parts if x)
-
 
 def _receipt_binding_issues(
     cid: str,
@@ -149,7 +141,6 @@ def _receipt_binding_issues(
         blockers.append(f"{cid}: visible quiz prompt/citation leaks internal source ids")
 
     return blockers, warnings
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -241,7 +232,6 @@ def main() -> int:
 
     print("ok: pending candidates pass merge-readiness checks")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

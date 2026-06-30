@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `berletic`
 <!-- word_count: 2854 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 

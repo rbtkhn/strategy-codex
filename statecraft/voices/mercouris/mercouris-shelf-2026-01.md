@@ -1,6 +1,5 @@
 # Mercouris Shelf - 2026-01
 
-WORK only; not Record.
 
 This monthly shelf is the January 2026 continuity-support surface for the `mercouris` cognition stream. January should be read as a **continuity-setup month**: the point where Trump / Greenland / Europe shock, early Iran-war pressure, Ukraine deterioration, and the opening negotiation geometry begin to align, but before February fuses those strands into the tighter bridge-month escalation sequence.
 

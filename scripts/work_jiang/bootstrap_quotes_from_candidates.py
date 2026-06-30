@@ -15,10 +15,8 @@ WORK_DIR = ROOT / "codex" / "predictive-history"
 
 VERIFY_MARKERS = ("[verify:", "[unclear]")
 
-
 def contains_verify_markers(text: str) -> bool:
     return any(marker in text for marker in VERIFY_MARKERS)
-
 
 def infer_quote_status(text_clean: str, verification: str | None = None) -> str:
     if contains_verify_markers(text_clean):
@@ -26,7 +24,6 @@ def infer_quote_status(text_clean: str, verification: str | None = None) -> str:
     if verification == "verified_against_audio":
         return "verified"
     return "cleaned"
-
 
 # ch03 = analysis chapter (empire + religion + strategic imagination); keep regex narrower than generic "empire".
 CH03 = re.compile(
@@ -43,11 +40,9 @@ CH02 = re.compile(
     re.I,
 )
 
-
 def load_yaml(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def map_path_to_source(rel_path: str, sources: list[dict]) -> tuple[str | None, str | None]:
     """Return (source_id, analysis_id or None). analysis_id set when path is analysis memo."""
@@ -59,7 +54,6 @@ def map_path_to_source(rel_path: str, sources: list[dict]) -> tuple[str | None, 
         if rel_path.replace("\\", "/") == lp.replace("\\", "/"):
             return s.get("source_id"), None
     return None, None
-
 
 def guess_concepts(text: str) -> list[str]:
     t = text.lower()
@@ -87,14 +81,12 @@ def guess_concepts(text: str) -> list[str]:
                 out.append(cid)
     return out[:4]
 
-
 def guess_chapters(text: str) -> list[str]:
     if CH03.search(text):
         return ["ch03"]
     if CH02.search(text):
         return ["ch02"]
     return ["ch01"]
-
 
 def skip_prose(text: str) -> bool:
     s = text.strip()
@@ -105,7 +97,6 @@ def skip_prose(text: str) -> bool:
     if s.startswith("**") and "**Empire** **death**" in s:
         return True
     return False
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -234,7 +225,6 @@ def main() -> int:
         yaml.safe_dump({"quotes": picked}, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
     print(f"Wrote {len(picked)} quotes to {out_path.relative_to(ROOT)} (ch03-tagged lines: {ch03_count})")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

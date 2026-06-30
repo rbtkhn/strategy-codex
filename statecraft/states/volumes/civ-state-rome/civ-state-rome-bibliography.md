@@ -1,6 +1,5 @@
 ﻿# Rome Bibliography
 
-WORK only; not Record.
 
 This is the working volume bibliography for the Rome CIV-STATE book. Its center of gravity is primary sources first, then bounded secondary and doctrinal support. The Industrial shelf ends in 1991 and the Cybernetic shelf begins after that boundary.
 

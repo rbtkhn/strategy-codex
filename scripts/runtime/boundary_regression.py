@@ -54,7 +54,6 @@ LOOKUP_OFFER_PHRASES = [
     "look it up?",
 ]
 
-
 def load_probes(
     probe_id: str | None = None,
     fast_only: bool = False,
@@ -70,7 +69,6 @@ def load_probes(
         if not probes:
             probes = content["probes"][:5]
     return probes
-
 
 def _judge_response(reply: str, expected: str) -> tuple[bool, str]:
     """Evaluate a model response against expected behavior."""
@@ -99,7 +97,6 @@ def _judge_response(reply: str, expected: str) -> tuple[bool, str]:
         return True, "answered without over-offer"
 
     return True, f"unknown expected behavior: {expected}"
-
 
 def run_regression(
     probes: list[dict],
@@ -195,7 +192,6 @@ def run_regression(
     results["pass_rate"] = round(results["passed"] / total_run, 3) if total_run else 0.0
     return results
 
-
 def save_results(results: dict) -> Path:
     """Write results to runtime/artifacts/boundary-regression/."""
     ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
@@ -203,7 +199,6 @@ def save_results(results: dict) -> Path:
     path = ARTIFACTS_DIR / f"regression-{ts}.json"
     path.write_text(json.dumps(results, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return path
-
 
 def format_summary(results: dict) -> str:
     """One-line summary for dream/warmup integration."""
@@ -215,7 +210,6 @@ def format_summary(results: dict) -> str:
         return f"Boundary regression: {total}/{total} pass ({model}) — boundary intact"
     fail_str = ", ".join(failed_ids[:5])
     return f"Boundary regression: {results['passed']}/{total} pass ({rate:.0%}), {results['failed']} FAIL ({model}) — {fail_str}"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Boundary regression check")
@@ -251,7 +245,6 @@ def main() -> int:
         print(f"\nResults saved: {path.relative_to(REPO_ROOT)}")
 
     return 1 if results["failed"] > 0 else 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -14,7 +14,6 @@ archive_links:
   - source-archive/statecraft/2026-06-14/source-glenn-diesen-seyed-m-marandi-israels-attack-on-beirut-sabotage-us-iran-deal-2026-06-14.md
   - source-archive/statecraft/2026-06-14/source-daniel-davis-marandi-iran-deal-complete-trump-says-2026-06-14.md
 ---
-WORK only; not Record.
 
 # Lebanon Enforcement × Dialogue Works Host Arc — 2026-06-14
 

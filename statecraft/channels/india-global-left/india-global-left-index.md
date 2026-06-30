@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # India and Global Left Index (compat redirect)
 

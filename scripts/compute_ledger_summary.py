@@ -28,7 +28,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 GROUP_KEYS = ("bucket", "operation", "task_type", "task_id", "date", "model")
 
-
 @dataclass
 class Bucket:
     rows: int = 0
@@ -78,7 +77,6 @@ class Bucket:
             d["mean_outcome_confidence"] = round(mc, 3)
         return d
 
-
 def _extract_key(row: dict, group_by: str) -> str:
     if group_by == "date":
         ts = row.get("ts", "")
@@ -88,7 +86,6 @@ def _extract_key(row: dict, group_by: str) -> str:
             return "unknown"
     val = row.get(group_by, "")
     return str(val).strip() if val else "(empty)"
-
 
 def summarize(
     ledger_path: Path,
@@ -135,7 +132,6 @@ def summarize(
 
     return dict(buckets)
 
-
 def _print_table(buckets: dict[str, Bucket], group_by: str) -> None:
     if not buckets:
         print("(no rows)")
@@ -172,7 +168,6 @@ def _print_table(buckets: dict[str, Bucket], group_by: str) -> None:
         f"{total.successes:4d} {total.failures:4d} {conf_s:>6s}"
     )
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Compute ledger summary (companion transparency).")
     ap.add_argument("-u", "--user", default="grace-mar", help="User id")
@@ -206,7 +201,6 @@ def main() -> int:
         _print_table(buckets, args.by)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

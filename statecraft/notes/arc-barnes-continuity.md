@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2026-04-03/source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md
 ---
 
-WORK only; not Record.
 
 # Barnes arc
 

@@ -16,9 +16,8 @@ archive_links:
 
 # Alkorshid x McGovern speaker arc
 
-WORK only; not Record.
 
-Purpose: compact reuse note for the `Alkorshid x McGovern` run inside the Alkorshid / Dialogue Works stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of McGovern lane this host elicits, which full-form episodes matter most, and how this branch differs from the Diesen McGovern lane.
+Purpose: compact reuse note for the `Alkorshid x McGovern` run inside the Alkhorshid / Dialogue Works stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of McGovern lane this host elicits, which full-form episodes matter most, and how this branch differs from the Diesen McGovern lane.
 
 ## Orthogonality guide
 
@@ -94,7 +93,7 @@ Use this speaker arc when an Alkorshid ingest or batch pass is doing one or more
 
 Typical pairings around the guest lane:
 
-- `alkorshid`
+- `alkhorshid`
 - `johnson`
 - `marandi`
 - `mcgovern`

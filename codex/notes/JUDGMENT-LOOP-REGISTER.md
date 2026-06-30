@@ -1,7 +1,6 @@
 # Judgment loop register
 <!-- word_count: 220 -->
 
-WORK only; not Record.
 
 **Purpose:** Optional stronger tracking surface for consequential calls, recurring theses, or especially important warnings that deserve more than the lightweight page-level loop.
 

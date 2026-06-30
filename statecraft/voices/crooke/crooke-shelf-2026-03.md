@@ -1,6 +1,5 @@
 # Crooke shelf - 2026-03
 
-WORK only; not Record.
 
 Status: mature interview synthesis month.
 

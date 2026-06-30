@@ -8,8 +8,7 @@ text, and either:
 * **YAML** — insert or update ``word_count: <int>`` inside leading ``---`` front matter, or
 * **No front matter** — insert or update ``<!-- word_count: <int> -->`` after
   the first H1, or at file top if no H1.
-
-WORK only; not Record. Excludes large raw-input captures. Do not hand-edit
+Excludes large raw-input captures. Do not hand-edit
 ``word_count``; run this script after bulk notebook edits.
 
 Usage::
@@ -59,7 +58,6 @@ RE_TABLE_DIV = re.compile(r"^\s*\|?[\s\-:|]+\|?\s*$", re.MULTILINE)
 # first ATX H1 that is a single # (not ##)
 RE_H1 = re.compile(r"^#\s+.+$", re.MULTILINE)
 
-
 @dataclass
 class RunStats:
     scanned: int = 0
@@ -72,7 +70,6 @@ class RunStats:
     def note_skip(self, reason: str) -> None:
         self.skipped += 1
         self.skip_reasons[reason] = self.skip_reasons.get(reason, 0) + 1
-
 
 def _is_eligible_path(rel: Path) -> bool:
     """``rel`` is relative to strategy-notebook root."""
@@ -89,7 +86,6 @@ def _is_eligible_path(rel: Path) -> bool:
             return True
         return False
     return True
-
 
 def _split_front_matter(text: str) -> tuple[str | None, str] | None:
     """If file starts with ``---\n`` YAML, return (front_matter_inner, rest_body).
@@ -117,7 +113,6 @@ def _split_front_matter(text: str) -> tuple[str | None, str] | None:
         body = text[after_close:]
     return (inner, body)
 
-
 def _strip_count_regions(text: str) -> str:
     """Remove regions that do not count as prose (fences, comments, table lines)."""
     t = text
@@ -130,7 +125,6 @@ def _strip_count_regions(text: str) -> str:
     t = RE_LINK.sub(r"\1", t)
     return t
 
-
 def count_words_in_body(text: str) -> int:
     """Deterministic word count on stripped body (no front matter, no code, etc.)."""
     t = _strip_count_regions(text)
@@ -138,7 +132,6 @@ def count_words_in_body(text: str) -> int:
         return 0
     # Split: whitespace runs; each token = one "word" (hyphenated stays one)
     return len([w for w in t.split() if w])
-
 
 def _insert_yml_word_count(fm_inner: str, new_count: int) -> str:
     """``fm_inner`` is the content between opening ``---`` and closing ``---`` (no delimiters)."""
@@ -166,7 +159,6 @@ def _insert_yml_word_count(fm_inner: str, new_count: int) -> str:
         return "".join(lines2)
     return to_insert + "".join(lines)
 
-
 def _apply_yml_to_file(text: str, new_count: int) -> str:
     sp = _split_front_matter(text)
     if sp is None:
@@ -177,7 +169,6 @@ def _apply_yml_to_file(text: str, new_count: int) -> str:
         new_inner += "\n"
     return "---\n" + new_inner + "---\n" + body
 
-
 def build_updated_content(content: str) -> str:
     """Return full file text with ``word_count`` set to current deterministic count."""
     sp = _split_front_matter(content)
@@ -187,7 +178,6 @@ def build_updated_content(content: str) -> str:
         return _apply_yml_to_file(content, n)
     n = count_words_in_body(content)
     return _apply_html_to_file(content, n)
-
 
 def _apply_html_to_file(text: str, new_count: int) -> str:
     new_line = f"<!-- word_count: {new_count} -->"
@@ -205,14 +195,12 @@ def _apply_html_to_file(text: str, new_count: int) -> str:
         return text[:pos] + ins + text[pos:]
     return f"{new_line}\n" + text
 
-
 def _normalize_final_newline(s: str) -> str:
     if not s:
         return s
     if not s.endswith("\n"):
         return s + "\n"
     return s
-
 
 def _read_stored_count(content: str) -> int | None:
     sp = _split_front_matter(content)
@@ -227,13 +215,11 @@ def _read_stored_count(content: str) -> int | None:
         return int(m.group(1))
     return None
 
-
 def _display_path(path: Path) -> str:
     try:
         return str(path.resolve().relative_to(REPO_ROOT))
     except ValueError:
         return str(path)
-
 
 def iter_markdown_files(root: Path) -> list[Path]:
     out: list[Path] = []
@@ -246,13 +232,11 @@ def iter_markdown_files(root: Path) -> list[Path]:
             out.append(p)
     return out
 
-
 def _expected_count(content: str) -> int:
     sp = _split_front_matter(content)
     if sp is not None:
         return count_words_in_body(sp[1])
     return count_words_in_body(content)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -338,7 +322,6 @@ def main() -> int:
         f"unchanged={stats.skip_reasons.get('unchanged', 0)}"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

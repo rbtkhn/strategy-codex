@@ -1,6 +1,6 @@
 # China Civilization
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: name the inherited Chinese code that shapes order, continuity, industrial confidence, and the fear of disorder.
 

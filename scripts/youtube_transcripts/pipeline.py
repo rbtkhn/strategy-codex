@@ -15,12 +15,10 @@ from youtube_transcripts.subtitles_ytdlp import fetch_subtitles_ytdlp
 from youtube_transcripts.transcript_api import fetch_transcript_tier1_with_meta
 from youtube_transcripts import whisper_local
 
-
 def _safe_filename(title: str, max_len: int = 100) -> str:
     t = re.sub(r"[^\w\s\-_.]", "", title, flags=re.UNICODE)
     t = re.sub(r"[\s_]+", "-", t).strip("-_.")[:max_len]
     return t or "untitled"
-
 
 @dataclass
 class FetchResult:
@@ -43,13 +41,11 @@ class FetchResult:
     fetched_at_utc: str
     last_listing_seen_at: str
 
-
 def _env_float(name: str, default: float) -> float:
     try:
         return float(os.environ.get(name, "").strip() or default)
     except ValueError:
         return default
-
 
 def fetch_one_video(
     video: dict[str, str],
@@ -336,7 +332,6 @@ def fetch_one_video(
         last_listing_seen_at=fetched_at_utc,
     )
     return result, manifest
-
 
 def result_to_index_row(r: FetchResult) -> dict[str, Any]:
     row: dict[str, Any] = {

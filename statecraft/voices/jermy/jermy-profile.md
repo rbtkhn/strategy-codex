@@ -1,6 +1,5 @@
 # Strategy expert — Steve Jermy (`jermy`)
 
-WORK only; not Record.
 
 **Canonical profile:** this file.
 **Canonical shelf:** [jermy-source-index.md](jermy-source-index.md) · [voices index](../voice-index.md)

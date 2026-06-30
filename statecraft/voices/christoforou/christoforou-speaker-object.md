@@ -1,6 +1,5 @@
 # Christoforou speaker object
 
-WORK only; not Record.
 
 object_shape: stream-anchored-with-cross-host-reinforcement
 

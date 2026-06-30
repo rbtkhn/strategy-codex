@@ -1,7 +1,6 @@
 # Expert transcript — `crooke`
 <!-- word_count: 86 -->
 
-WORK only; not Record.
 
 Compatibility note: this file is a **verbatim carryover surface**, not a canonical first-open Crooke route. Use the canonical statecraft shelf first: [Crooke README](README.md), [crooke-arc.md](crooke-arc.md), [crooke-routing.md](crooke-routing.md), [crooke-source-index.md](crooke-source-index.md), [crooke-helix.md](crooke-helix.md), and [crooke-support-spine-2025-2026.md](crooke-support-spine-2025-2026.md). This file is safe for continuity and recent verbatim carryover, but unsafe as the primary citation route when stronger Crooke shelf surfaces already exist.
 

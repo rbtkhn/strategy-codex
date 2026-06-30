@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `macgregor`
 <!-- word_count: 3631 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 

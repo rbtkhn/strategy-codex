@@ -1,6 +1,5 @@
 # Crooke profile — compatibility redirect
 
-WORK only; not Record.
 
 **Canonical profile (SSOT):** [`statecraft/voices/crooke/crooke-profile.md`](../../statecraft/voices/crooke/crooke-profile.md)
 

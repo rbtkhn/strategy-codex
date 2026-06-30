@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-04-17/source-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md>
   - source-archive/statecraft/2026-04-17/source-simplicius-serious-escalation-russian-mod-implies-2026-04-17.md>
 ---
-WORK only; not Record.
 
 # Barnes White House Room × Davis–Johnson ORBAT — 2026-04-17
 

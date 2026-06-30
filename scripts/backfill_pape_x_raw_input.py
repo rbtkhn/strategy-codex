@@ -2,7 +2,6 @@
 """Backfill Pape X posts into strategy-notebook raw-input/.
 
 Thin wrapper around ``backfill_x_profile_raw_input.py`` with Pape defaults.
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -20,7 +19,6 @@ from backfill_x_profile_raw_input import DEFAULT_RAW_ROOT, run
 
 DEFAULT_PROFILE_URL = "https://x.com/ProfessorPape"
 DEFAULT_THREAD = "pape"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -54,7 +52,6 @@ def main() -> int:
         limit=max(1, min(args.limit, 100)),
         status_urls=args.status_urls or None,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

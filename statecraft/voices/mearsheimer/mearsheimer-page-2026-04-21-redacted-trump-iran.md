@@ -1,7 +1,6 @@
 # Mearsheimer strategy page — 2026-04-21 (*Trump's ONLY option is surrender*)
 <!-- word_count: 6298 -->
 
-WORK only; not Record.
 
 **Expert:** `mearsheimer` · **Aired:** 2026-04-21 · **Capture:** Mode B — interview (Redacted News) · **Artifact:** strategy-page file (`mearsheimer-page-…` under `experts/mearsheimer/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 

@@ -29,7 +29,6 @@ if str(_SCRIPT_DIR) not in sys.path:
 
 from gated_record_rules import allowed_gated_commit_message, is_gated_record_path
 
-
 def _run_git(args: list[str], cwd: Path) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         ["git", *args],
@@ -38,14 +37,12 @@ def _run_git(args: list[str], cwd: Path) -> subprocess.CompletedProcess[str]:
         text=True,
     )
 
-
 def _commit_range_shas(base: str, head: str, cwd: Path) -> list[str]:
     r = _run_git(["rev-list", "--reverse", f"{base}..{head}"], cwd)
     if r.returncode != 0:
         print(r.stderr, file=sys.stderr)
         sys.exit(2)
     return [ln.strip() for ln in r.stdout.splitlines() if ln.strip()]
-
 
 def _files_in_commit(commit: str, cwd: Path) -> list[str]:
     r = _run_git(["show", "--pretty=format:", "--name-only", commit], cwd)
@@ -54,13 +51,11 @@ def _files_in_commit(commit: str, cwd: Path) -> list[str]:
         return []
     return [ln.strip().replace("\\", "/") for ln in r.stdout.splitlines() if ln.strip()]
 
-
 def _commit_message(commit: str, cwd: Path) -> str:
     r = _run_git(["log", "-1", "--format=%B", commit], cwd)
     if r.returncode != 0:
         return ""
     return r.stdout
-
 
 def main() -> int:
     if os.environ.get("ALLOW_GATED_RECORD_EDIT", "").strip() in ("1", "yes", "true"):
@@ -107,7 +102,6 @@ def main() -> int:
         print(f"  Commit {label} — gated files: {gated}", file=sys.stderr)
         print(f"    Message preview: {preview!r}\n", file=sys.stderr)
     return 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

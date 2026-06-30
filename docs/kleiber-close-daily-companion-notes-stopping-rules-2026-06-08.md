@@ -1,6 +1,5 @@
 # Kleiber Close - Daily Companion Notes Stopping Rules - 2026-06-08
 
-work only; not Record.
 
 Replication pass of the **2026-06-01 Hormuz** Kleiber shape on a different substrate:
 **daily synthesis contract repair** instead of transcript phrase repair.

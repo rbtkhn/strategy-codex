@@ -1,6 +1,5 @@
 # Interpretive Difficulty Map
 
-WORK only; not Record.
 
 Use this map when the operator needs to know which shelves generate the hardest chronology, translation, provenance, nostalgia, flattening, or teleology problems. This is not a prestige list. It is a comparative guide to where the layered CIV-STATE stack most needs secondary support.
 

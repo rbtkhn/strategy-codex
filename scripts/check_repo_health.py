@@ -10,7 +10,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _run(cmd: list[str], *, label: str) -> tuple[int, str]:
     proc = subprocess.run(
         cmd,
@@ -22,7 +21,6 @@ def _run(cmd: list[str], *, label: str) -> tuple[int, str]:
     summary = tail[-1] if tail else f"exit {proc.returncode}"
     print(f"[{'ok' if proc.returncode == 0 else 'fail'}] {label}: {summary}")
     return proc.returncode, summary
-
 
 def run_quick() -> int:
     checks = [
@@ -37,6 +35,8 @@ def run_quick() -> int:
         (["python3", "scripts/check_record_surface_retirement.py"], "record surface retirement"),
         (["python3", "scripts/check_membrane_policy_light.py"], "membrane policy light"),
         (["python3", "scripts/check_transaction_term_usage.py", "--strict", "--skills-strict"], "transaction term usage"),
+        (["python3", "scripts/check_work_record_doctrine.py"], "work/record doctrine banner"),
+        (["python3", "scripts/validate_all_schemas.py", "--scope", "prediction"], "schema validation"),
         (["python3", "scripts/check_event_integrity.py"], "event integrity"),
         (["python3", "scripts/build_prediction_registry.py"], "build prediction registry"),
         (["python3", "scripts/check_prediction_registry.py"], "prediction registry"),
@@ -73,7 +73,6 @@ def run_quick() -> int:
         rc = rc or code
     return rc
 
-
 def run_full() -> int:
     rc = run_quick()
     extra = [
@@ -95,6 +94,9 @@ def run_full() -> int:
                 "tests/test_harness_architecture_map_links.py",
                 "tests/test_strategy_codex_cli.py",
                 "tests/test_check_event_integrity.py",
+                "tests/test_validate_all_schemas.py",
+                "tests/test_schema_invariants.py",
+                "tests/test_check_work_record_doctrine.py",
                 "tests/test_prediction_registry_metrics.py",
                 "tests/test_prediction_disagreement_timeline.py",
                 "-q",
@@ -107,7 +109,6 @@ def run_full() -> int:
         rc = rc or code
     return rc
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--quick", action="store_true", help="Routing, archive, path checks")
@@ -119,7 +120,6 @@ def main() -> int:
         return run_quick()
     parser.error("specify --quick or --full")
     return 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Lawrence Wilkerson` (1)
-- Threads: `alkorshid` (1), `mercouris` (1), `wilkerson` (1)
+- Threads: `alkhorshid` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=1ddiRhp6zcE) | `source-alexander-mercouris-moscow-gives-us-nuclear-warning-tomahawks-kiev-faces-pokrovsk-disaster-2025-10-14.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `wilkerson` | [watch](https://www.youtube.com/watch?v=1mFJ1TDGMcU) | `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-iran-war-threat-returns-but-iran-has-transformed-into-a-military-giant-2025-10-14.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `wilkerson` | [watch](https://www.youtube.com/watch?v=1mFJ1TDGMcU) | `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-iran-war-threat-returns-but-iran-has-transformed-into-a-military-giant-2025-10-14.md` |
 
 ## Writer sources
 

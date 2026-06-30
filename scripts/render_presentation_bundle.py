@@ -11,7 +11,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(SRC_DIR))
 from repo_io import SRC_DIR
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(
         description="Render a prepared ph-civ or civ-emp deck bundle through the local presentation service."
@@ -42,7 +41,6 @@ def main() -> int:
     with request.urlopen(req, timeout=120) as resp:
         print(resp.read().decode("utf-8"))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -32,7 +32,6 @@ from work_dev.compound_notes import (
 
 OUTPUT = ARTIFACTS_DIR / "work-dev-compound-refresh.md"
 
-
 def run_report() -> str:
     pre = derived_compound_artifact_preamble("work_dev_compound_refresh")
     lines: list[str] = []
@@ -154,7 +153,6 @@ def run_report() -> str:
     lines.append("")
     return pre + "\n".join(lines) + "\n"
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Regenerate work-dev compound refresh report")
     ap.add_argument(
@@ -172,7 +170,6 @@ def main() -> int:
     out.write_text(text, encoding="utf-8", newline="\n")
     print(out)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

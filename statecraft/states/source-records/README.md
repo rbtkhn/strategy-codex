@@ -1,6 +1,6 @@
 # Source Records
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder holds structured CIV-STATE source records.
 

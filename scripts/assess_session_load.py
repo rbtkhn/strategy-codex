@@ -29,7 +29,6 @@ DEFAULT_ATTENTION_BY_LETTER: dict[str, str | None] = {
     "D": "one object only",
 }
 
-
 def _collect_cadence_today(user_id: str) -> dict[str, Any] | None:
     try:
         from audit_cadence_rhythm import parse_events
@@ -50,7 +49,6 @@ def _collect_cadence_today(user_id: str) -> dict[str, Any] | None:
         "by_kind": by_kind,
     }
 
-
 def _collect_gate_depth(user_id: str) -> dict[str, int] | None:
     gate_path = profile_dir(user_id) / "recursion-gate.md"
     if not gate_path.is_file():
@@ -63,7 +61,6 @@ def _collect_gate_depth(user_id: str) -> dict[str, int] | None:
     pending = len(list(iter_candidate_yaml_blocks(pending_candidates_region(content))))
     return {"pending": pending}
 
-
 def _collect_capture_gap(user_id: str) -> dict[str, Any] | None:
     try:
         from detect_capture_gap import detect_gap
@@ -73,7 +70,6 @@ def _collect_capture_gap(user_id: str) -> dict[str, Any] | None:
         except ImportError:
             return None
     return detect_gap(user_id)
-
 
 def _collect_dream_quality(user_id: str) -> dict[str, Any] | None:
     try:
@@ -100,7 +96,6 @@ def _collect_dream_quality(user_id: str) -> dict[str, Any] | None:
         "bias_strength": data.get("bias_strength", ""),
     }
 
-
 def _collect_coffee_recursion(user_id: str) -> dict[str, Any] | None:
     try:
         from audit_cadence_rhythm import compute_coffee_recursion_summary
@@ -110,7 +105,6 @@ def _collect_coffee_recursion(user_id: str) -> dict[str, Any] | None:
         except ImportError:
             return None
     return compute_coffee_recursion_summary(user_id, days=14)
-
 
 def _collect_branch_count() -> int:
     try:
@@ -125,7 +119,6 @@ def _collect_branch_count() -> int:
         return 1
     return 0
 
-
 def _collect_changed_paths() -> list[str]:
     try:
         from git_worktree_snapshot import get_git_worktree_snapshot
@@ -137,7 +130,6 @@ def _collect_changed_paths() -> list[str]:
         return list(snap.changed_paths)
     return []
 
-
 def _time_of_day_energy() -> str:
     hour = datetime.now().hour
     if 5 <= hour < 12:
@@ -145,7 +137,6 @@ def _time_of_day_energy() -> str:
     if 12 <= hour < 17:
         return "afternoon"
     return "evening"
-
 
 def _artifacts_overlap_current_changes(
     artifacts: list[str] | tuple[str, ...] | None, changed_paths: list[str] | None
@@ -165,7 +156,6 @@ def _artifacts_overlap_current_changes(
         ):
             return True
     return False
-
 
 def _compute_load_level(
     cadence: dict[str, Any] | None,
@@ -217,7 +207,6 @@ def _compute_load_level(
         return "moderate", signals
     return "light", signals
 
-
 def _compute_option_weights(
     load_level: str,
     gate: dict[str, Any] | None,
@@ -267,7 +256,6 @@ def _compute_option_weights(
     if load_level == "heavy":
         weights["C"]["cost"] = "light"
     return weights
-
 
 def _pick_recommendation(
     load_level: str,
@@ -322,7 +310,6 @@ def _pick_recommendation(
         return "B", "light load, but a capture gap warning makes testing safer than premature confirmation"
     return "C", "light load - good conditions to deepen the live object before a harder commitment"
 
-
 def assess_load(user_id: str) -> dict[str, Any]:
     try:
         from strategy_codex_config import record_frozen
@@ -369,7 +356,6 @@ def assess_load(user_id: str) -> dict[str, Any]:
         "dream": dream,
     }
 
-
 def format_load_one_liner(result: dict[str, Any]) -> str:
     level = result.get("load_level", "unknown")
     signals = result.get("signals", [])
@@ -378,13 +364,11 @@ def format_load_one_liner(result: dict[str, Any]) -> str:
     summary_parts = signals[:3] if signals else ["no strong signals"]
     return f"Session load: {level.upper()} — {', '.join(summary_parts)} (recommended: {rec} - {label})"
 
-
 def format_default_acceptance_line(result: dict[str, Any]) -> str:
     rec = result.get("recommended") or "?"
     label = LABEL_BY_LETTER.get(rec, rec)
     reason = result.get("recommendation_reason") or "best current fit"
     return f'Recommended default: {rec} - {label} — say "go" to accept, or pick another hub letter. ({reason})'
-
 
 def format_annotated_menu(result: dict[str, Any]) -> str:
     """Format learning-action seeds for coffee Step 2.
@@ -409,7 +393,6 @@ def format_annotated_menu(result: dict[str, Any]) -> str:
         lines.append(f"Pattern watch: {pattern_watch['message']} {pattern_watch['adjustment']}")
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Assess coffee session load.")
     parser.add_argument("-u", "--user", default=os.getenv("GRACE_MAR_USER_ID", DEFAULT_USER).strip() or DEFAULT_USER)
@@ -426,7 +409,6 @@ def main() -> int:
         print("Annotated menu:")
         print(format_annotated_menu(result))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

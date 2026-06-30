@@ -6,7 +6,6 @@ from typing import Any
 
 from youtube_transcripts.ytdlp_adapter import normalize_upload_date
 
-
 def load_index_videos(index_path: Path) -> list[dict[str, Any]]:
     payload = json.loads(index_path.read_text(encoding="utf-8"))
     videos_raw = payload.get("videos") or []

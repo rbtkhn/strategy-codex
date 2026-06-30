@@ -1,6 +1,5 @@
 # America - Egypt Debt / Suez / Bread Legitimacy Framework
 
-WORK only; not Record.
 
 ## Transaction Name
 

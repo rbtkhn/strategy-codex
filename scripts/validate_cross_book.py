@@ -38,11 +38,9 @@ HN_ARCH = HN_DIR / "book-architecture.yaml"
 PH_THESES = PH_DIR / "thesis-map.yaml"
 PH_CONCEPTS = PH_DIR / "concepts.yaml"
 
-
 def load_yaml(path: Path) -> dict:
     with open(path) as f:
         return yaml.safe_load(f)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__,
@@ -198,7 +196,6 @@ def main() -> int:
 
     has_gaps = (thesis_covered < total_theses or concept_covered < total_concepts or errors)
     return 1 if has_gaps else 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

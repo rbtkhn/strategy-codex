@@ -21,10 +21,8 @@ YAML_PATH = REPO_ROOT / "docs/skill-work/work-strategy/authorized-sources.yaml"
 
 _URL_RE = re.compile(r"https?://[^\s\)|]+")
 
-
 def count_urls(text: str) -> int:
     return len(set(_URL_RE.findall(text)))
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -54,7 +52,6 @@ def main() -> int:
     if args.strict and md_urls and yaml_urls and md_urls != yaml_urls:
         return 1
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

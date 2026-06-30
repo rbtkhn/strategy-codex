@@ -44,7 +44,6 @@ LAST_CHECK_PATH = REPO_ROOT / "docs" / "skill-work" / "work-dev" / ".capability-
 _FETCH_TIMEOUT = 15
 _USER_AGENT = "grace-mar-capability-shift-detector/1.0"
 
-
 # ---------------------------------------------------------------------------
 # YAML-lite parser (avoids PyYAML dependency)
 # ---------------------------------------------------------------------------
@@ -124,11 +123,9 @@ def _parse_assumptions_yaml(text: str) -> dict:
 
     return {"sources": sources, "assumptions": assumptions}
 
-
 def _yaml_val(line: str, key: str) -> str:
     after = line.split(f"{key}:", 1)[1].strip()
     return after.strip('"').strip("'")
-
 
 def _yaml_inline_list(line: str, key: str) -> list[str]:
     after = line.split(f"{key}:", 1)[1].strip()
@@ -138,7 +135,6 @@ def _yaml_inline_list(line: str, key: str) -> list[str]:
             return []
         return [item.strip().strip('"').strip("'") for item in inner.split(",") if item.strip()]
     return []
-
 
 # ---------------------------------------------------------------------------
 # Changelog fetching
@@ -151,7 +147,6 @@ def _strip_html(text: str) -> str:
     text = re.sub(r"<[^>]+>", " ", text)
     text = html.unescape(text)
     return re.sub(r"\s+", " ", text).strip()
-
 
 def fetch_changelog(source: dict) -> dict:
     """Fetch a single provider changelog. Returns {name, url, text, error, fetched_at}."""
@@ -186,13 +181,11 @@ def fetch_changelog(source: dict) -> dict:
 
     return result
 
-
 def fetch_all_changelogs(sources: list[dict]) -> list[dict]:
     results = []
     for src in sources:
         results.append(fetch_changelog(src))
     return results
-
 
 # ---------------------------------------------------------------------------
 # Cache
@@ -200,7 +193,6 @@ def fetch_all_changelogs(sources: list[dict]) -> list[dict]:
 
 def save_cache(changelogs: list[dict], path: Path = CACHE_PATH) -> None:
     path.write_text(json.dumps(changelogs, indent=2, default=str), encoding="utf-8")
-
 
 def load_cache(path: Path = CACHE_PATH) -> list[dict]:
     if not path.is_file():
@@ -210,10 +202,8 @@ def load_cache(path: Path = CACHE_PATH) -> list[dict]:
     except (json.JSONDecodeError, OSError):
         return []
 
-
 def save_last_check(path: Path = LAST_CHECK_PATH) -> None:
     path.write_text(datetime.now(timezone.utc).isoformat() + "\n", encoding="utf-8")
-
 
 def load_last_check(path: Path = LAST_CHECK_PATH) -> datetime | None:
     if not path.is_file():
@@ -222,7 +212,6 @@ def load_last_check(path: Path = LAST_CHECK_PATH) -> datetime | None:
         return datetime.fromisoformat(path.read_text(encoding="utf-8").strip())
     except (ValueError, OSError):
         return None
-
 
 # ---------------------------------------------------------------------------
 # Matching
@@ -272,9 +261,7 @@ def match_shifts(
     alerts.sort(key=lambda a: a["score"], reverse=True)
     return alerts
 
-
 _VARIANT_ASSUMPTION_IDS = frozenset({"ASSUME-015"})
-
 
 def _recommend_action(score: float, *, is_variant: bool = False) -> str:
     if is_variant:
@@ -285,7 +272,6 @@ def _recommend_action(score: float, *, is_variant: bool = False) -> str:
         return "monitor"
     return "no action"
 
-
 # ---------------------------------------------------------------------------
 # Public API (importable)
 # ---------------------------------------------------------------------------
@@ -295,7 +281,6 @@ def _filter_sources(sources: list[dict], category: str) -> list[dict]:
     if category == "all":
         return sources
     return [s for s in sources if s.get("category", "model") == category]
-
 
 def detect_shifts(
     user_id: str = "grace-mar",
@@ -365,7 +350,6 @@ def detect_shifts(
         "alert_count": len(alerts),
     }
 
-
 def format_alert_one_liner(result: dict) -> str:
     """One-line summary for warmup integration."""
     cat = result.get("category", "all")
@@ -393,7 +377,6 @@ def format_alert_one_liner(result: dict) -> str:
     if variant_count:
         parts.append(f"{variant_count} variant")
     return f"Capability shift{cat_label} ({checked}/{total} sources): {', '.join(parts)} — run detect_capability_shift.py for details"
-
 
 def format_text_report(result: dict) -> str:
     lines: list[str] = []
@@ -439,7 +422,6 @@ def format_text_report(result: dict) -> str:
 
     return "\n".join(lines)
 
-
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
@@ -479,7 +461,6 @@ def main() -> int:
         print(format_text_report(result))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

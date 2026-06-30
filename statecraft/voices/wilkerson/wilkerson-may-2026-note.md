@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Wilkerson May 2026 note
 

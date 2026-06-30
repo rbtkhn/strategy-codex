@@ -23,12 +23,10 @@ try:
 except ImportError:
     from scripts.repo_io import profile_dir
 
-
 def _count_entries(content: str, prefix: str) -> int:
     """Count entries with id: PREFIX-XXXX (e.g. LEARN-, CUR-, PER-)."""
     pattern = rf"id:\s*{re.escape(prefix)}"
     return len(re.findall(pattern, content))
-
 
 def _count_list_items_after_key(content: str, key: str, keys_before_next: list[str]) -> int:
     """Count YAML list items under key until next key in keys_before_next."""
@@ -45,7 +43,6 @@ def _count_list_items_after_key(content: str, key: str, keys_before_next: list[s
             if re.match(r"^-\s+", line) or re.match(r"^\s{2,}-\s+", line):
                 count += 1
     return count
-
 
 def _extract_favorites(content: str) -> dict[str, int]:
     """Extract entity counts from Favorites and Extended sections."""
@@ -79,7 +76,6 @@ def _extract_favorites(content: str) -> dict[str, int]:
 
     return counts
 
-
 def run(user_id: str = "grace-mar", json_out: bool = False) -> dict:
     """Compute boundary coverage for user. Returns dict of counts."""
     self_path = profile_dir(user_id) / "self.md"
@@ -106,7 +102,6 @@ def run(user_id: str = "grace-mar", json_out: bool = False) -> dict:
         "IX_total": ix_a + ix_b + ix_c,
     }
     return result
-
 
 def main():
     parser = argparse.ArgumentParser(description="Boundary coverage from self.md")
@@ -142,7 +137,6 @@ def main():
     print(f"  IX-B (Curiosity):  {result['IX-B']}")
     print(f"  IX-C (Personality): {result['IX-C']}")
     print(f"  total:             {result['IX_total']}")
-
 
 if __name__ == "__main__":
     main()

@@ -1,6 +1,5 @@
 # America - Zangezur Transit / Sovereignty Framework
 
-WORK only; not Record.
 
 ## Transaction Name
 

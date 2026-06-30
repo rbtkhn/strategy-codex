@@ -32,7 +32,6 @@ CHECKLIST_RE = re.compile(
     re.IGNORECASE,
 )
 
-
 def strip_choreography(path: Path) -> None:
     data = json.loads(path.read_text(encoding="utf-8"))
     for route in data.get("routes", []):
@@ -40,13 +39,11 @@ def strip_choreography(path: Path) -> None:
         route.pop("museum_exhibit_path", None)
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-
 def strip_surfaces(path: Path) -> None:
     data = json.loads(path.read_text(encoding="utf-8"))
     data.pop("museum", None)
     data.get("surfaces", {}).pop("ph-mus", None)
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
 
 def strip_llm_experience(path: Path) -> None:
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -73,7 +70,6 @@ def strip_llm_experience(path: Path) -> None:
     ]
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-
 def strip_first_tour(path: Path) -> None:
     data = json.loads(path.read_text(encoding="utf-8"))
     for stop in data.get("stops", []):
@@ -88,7 +84,6 @@ def strip_first_tour(path: Path) -> None:
         c for c in data.get("closing_choices", []) if "ph-mus" not in c.lower() and "museum" not in c.lower()
     ]
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
 
 def strip_growth_goals(path: Path) -> None:
     data = json.loads(path.read_text(encoding="utf-8"))
@@ -110,7 +105,6 @@ def strip_growth_goals(path: Path) -> None:
         ]
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-
 def strip_markdown_file(path: Path) -> bool:
     text = path.read_text(encoding="utf-8")
     original = text
@@ -124,7 +118,6 @@ def strip_markdown_file(path: Path) -> bool:
         return True
     return False
 
-
 def strip_site_chapter_json(path: Path) -> None:
     data = json.loads(path.read_text(encoding="utf-8"))
     changed = False
@@ -134,7 +127,6 @@ def strip_site_chapter_json(path: Path) -> None:
             changed = True
     if changed:
         path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
 
 def replace_in_tree(glob: str, replacements: list[tuple[str, str]]) -> int:
     count = 0
@@ -149,7 +141,6 @@ def replace_in_tree(glob: str, replacements: list[tuple[str, str]]) -> int:
             path.write_text(text, encoding="utf-8")
             count += 1
     return count
-
 
 def main() -> int:
     for rel in DELETE_PATHS:
@@ -189,7 +180,6 @@ def main() -> int:
     print(f"Stripped {md_count} markdown files")
     print(f"Processed {json_count} site chapter JSON files")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

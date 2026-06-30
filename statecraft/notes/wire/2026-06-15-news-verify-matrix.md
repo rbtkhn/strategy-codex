@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 archive_links:
   - source-archive/statecraft/2026-06-15/source-daniel-davis-putin-macron-trump-ukraine-war-2026-06-15.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — 2026-06-15 (Ukraine / G7 hooks)
 

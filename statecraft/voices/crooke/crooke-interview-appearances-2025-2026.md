@@ -1,6 +1,5 @@
 # Crooke interview appearances - 2025-2026
 
-WORK only; not Record.
 
 Purpose: secondary wiring for Crooke host appearances. The authored Substack ledger remains the canonical forecast and mechanism spine; this note routes host appearances by function and shows how they reinforce, extend, or pressure-test that authored spine.
 

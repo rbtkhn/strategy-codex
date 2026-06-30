@@ -1,5 +1,5 @@
 """
-Workflow depth control for prepared-context (WORK only, non-canonical).
+Workflow depth control for prepared-context (non-authoritative, non-canonical).
 
 Maps OpenMythos-inspired ideas to explicit halt/continue heuristics — no ML,
 no Record truth. See docs/runtime/context-budgeting.md.
@@ -35,7 +35,6 @@ THRESHOLD_MARGINAL_SUPPORT_GAIN = 0.15
 THRESHOLD_POOL_MIN_FOR_DIMINISHING = 6
 THRESHOLD_ANCHOR_DRIFT_RISK = 0.72
 
-
 def count_contradiction_refs(rows: list[dict], limit: int = 12) -> int:
     n = 0
     for r in rows[:limit]:
@@ -44,17 +43,14 @@ def count_contradiction_refs(rows: list[dict], limit: int = 12) -> int:
                 n += 1
     return n
 
-
 def _norm_title(s: str) -> str:
     t = (s or "").strip().lower()
     t = re.sub(r"[^a-z0-9]+", " ", t)
     return " ".join(t.split())
 
-
 def _token_set(text: str) -> set[str]:
     t = (text or "").lower()
     return {w for w in re.findall(r"[a-z]{3,}", t)}
-
 
 def _flatten_refs(row: dict) -> set[str]:
     out: set[str] = set()
@@ -62,7 +58,6 @@ def _flatten_refs(row: dict) -> set[str]:
         if ref:
             out.add(str(ref).strip().lower())
     return out
-
 
 def _estimate_duplicate_evidence_ratio(selected_rows: list[dict], pool_rows: list[dict]) -> float:
     """Share of pool rows that look like near-duplicates of already-selected evidence."""
@@ -87,7 +82,6 @@ def _estimate_duplicate_evidence_ratio(selected_rows: list[dict], pool_rows: lis
             dup += 1
     return min(1.0, dup / max(1, len(pool_rows)))
 
-
 def _estimate_marginal_support_gain(selected_rows: list[dict], pool_rows: list[dict]) -> float:
     """Fraction of pool rows whose obs_id is not in the compact-selected set (new support)."""
     if not pool_rows:
@@ -95,7 +89,6 @@ def _estimate_marginal_support_gain(selected_rows: list[dict], pool_rows: list[d
     sel_ids = {str(r.get("obs_id") or "") for r in selected_rows if r.get("obs_id")}
     new_n = sum(1 for r in pool_rows if str(r.get("obs_id") or "") not in sel_ids)
     return new_n / max(1, len(pool_rows))
-
 
 def _estimate_anchor_drift_risk(task_anchor: str, pool_rows: list[dict]) -> float:
     """1 - Jaccard(anchor tokens, pool title+summary tokens); 0 if no anchor."""
@@ -117,14 +110,12 @@ def _estimate_anchor_drift_risk(task_anchor: str, pool_rows: list[dict]) -> floa
     jacc = inter / union if union else 0.0
     return max(0.0, min(1.0, 1.0 - jacc))
 
-
 @dataclass
 class GuardSignals:
     duplicate_evidence_ratio: float
     marginal_support_gain: float
     anchor_drift_risk: float
     evidence: dict[str, Any]
-
 
 def _compute_guard_signals(
     task_anchor: str,
@@ -146,7 +137,6 @@ def _compute_guard_signals(
         "chars_included": int(compact_scores.get("chars_included", 0)),
     }
     return GuardSignals(duplicate_evidence_ratio=dup, marginal_support_gain=marg, anchor_drift_risk=drift, evidence=ev)
-
 
 def _apply_diminishing_returns_guard(sig: GuardSignals, pool_len: int) -> tuple[bool, str, str, float, float]:
     """
@@ -179,7 +169,6 @@ def _apply_diminishing_returns_guard(sig: GuardSignals, pool_len: int) -> tuple[
         )
     return False, "", "", 0.0, 0.0
 
-
 def _quality_guard_phase_dict(
     sig: GuardSignals,
     *,
@@ -203,7 +192,6 @@ def _quality_guard_phase_dict(
         "recommended_stop_reason": veto_reason if halt_escalation else "",
     }
 
-
 def _guard_receipt_extras(
     sig: GuardSignals,
     halt_escalation: bool,
@@ -222,7 +210,6 @@ def _guard_receipt_extras(
         out["guard_veto"] = True
         out["veto_reason"] = veto_reason
     return out
-
 
 def auto_decide_format(
     *,
@@ -383,7 +370,6 @@ def auto_decide_format(
     )
     return "compact", "default_compact", phases, empty_receipt
 
-
 @dataclass
 class WorkflowDepthRun:
     """Serializable summary for JSON receipt."""
@@ -409,7 +395,6 @@ class WorkflowDepthRun:
             "runtime_workflow_depth_receipt_not_record_truth",
         ]
     )
-
 
 def phase_anchor_blurb(phase_id: str, task_anchor: str) -> str:
     """Template line tying a phase to the operator task (no LLM)."""

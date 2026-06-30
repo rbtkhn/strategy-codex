@@ -51,7 +51,6 @@ SECTION_ANCHORS = [
     "Anyway, that's all I'm going to say about it on this program. Let me remind you again to tick the like button",
 ]
 
-
 def flatten_sectioned_body(body: str) -> str:
     chunks: list[str] = []
     current: list[str] = []
@@ -66,13 +65,11 @@ def flatten_sectioned_body(body: str) -> str:
         chunks.append("\n".join(current).strip())
     return "\n\n".join(chunks)
 
-
 def flat_body_from_doc(doc: str) -> tuple[str, str, str]:
     head, marker, body = split_transcript_document(doc)
     if body.lstrip().startswith("### "):
         body = flatten_sectioned_body(body)
     return head, marker, body
-
 
 def validate_capture(path: Path) -> list[str]:
     errors: list[str] = []
@@ -94,7 +91,6 @@ def validate_capture(path: Path) -> list[str]:
             errors.append(str(exc))
     return errors
 
-
 def write_resectioned_capture(path: Path) -> None:
     doc = path.read_text(encoding="utf-8")
     head, marker, body = flat_body_from_doc(doc)
@@ -102,7 +98,6 @@ def write_resectioned_capture(path: Path) -> None:
     body = insert_sections(body.strip(), SECTION_TITLES, SECTION_ANCHORS)
     body = reflow_section_paragraphs(body)
     path.write_text(head + marker + body, encoding="utf-8")
-
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -135,7 +130,6 @@ def main() -> int:
     if not args.dry_run:
         write_resectioned_capture(path)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -25,7 +25,6 @@ NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 RITTER = NOTEBOOK / "experts" / "ritter"
 MEARSHEIMER = NOTEBOOK / "experts" / "mearsheimer"
 
-
 def _expert_paths(expert: str) -> tuple[Path, Path, str]:
     if expert == "ritter":
         return (
@@ -57,10 +56,8 @@ LEGACY_H3_MAP = {
     "### Appendix": ("### Technical appendix",),
 }
 
-
 def _word_count(s: str) -> int:
     return len(re.findall(r"\S+", s))
-
 
 def _has_heading(text: str, canonical: str) -> bool:
     if canonical in text:
@@ -69,7 +66,6 @@ def _has_heading(text: str, canonical: str) -> bool:
         if legacy in text:
             return True
     return False
-
 
 def _section_body(text: str, start_h3: str, end_h3: str | None) -> str | None:
     i = text.find(start_h3)
@@ -83,7 +79,6 @@ def _section_body(text: str, start_h3: str, end_h3: str | None) -> str | None:
         return text[start:]
     return text[start:j]
 
-
 def _reflection_block(text: str) -> str | None:
     """Body of Reflection (or legacy Judgment) through start of Foresight/Open."""
     for pair in (
@@ -94,7 +89,6 @@ def _reflection_block(text: str) -> str | None:
         if block is not None:
             return block
     return None
-
 
 def _foresight_block(text: str) -> str | None:
     for pair in (
@@ -110,7 +104,6 @@ def _foresight_block(text: str) -> str | None:
             return block
     return None
 
-
 def _verbatim_body(text: str) -> str | None:
     for start, end in (
         ("### Verbatim", "### Reflection"),
@@ -123,7 +116,6 @@ def _verbatim_body(text: str) -> str | None:
         if block is not None:
             return block
     return None
-
 
 def verify_page_content(page_fn: str, raw: str) -> tuple[list[str], list[str]]:
     errors: list[str] = []
@@ -163,7 +155,6 @@ def verify_page_content(page_fn: str, raw: str) -> tuple[list[str], list[str]]:
                     )
 
     return errors, warnings
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -231,7 +222,6 @@ def main() -> int:
         return 1
     print(f"{tool_label}: OK")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

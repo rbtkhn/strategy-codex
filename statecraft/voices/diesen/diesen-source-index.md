@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Diesen Source Index (compatibility redirect)
 

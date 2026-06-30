@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Glenn Diesen Channel Index
 

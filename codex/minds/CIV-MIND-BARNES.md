@@ -1,6 +1,5 @@
 # CIV-MIND-BARNES — redirect (stable path)
 
-WORK only; not Record.
 
 **Canonical voice profile (SSOT):** [statecraft/voices/barnes/barnes-profile.md](../../statecraft/voices/barnes/barnes-profile.md)
 

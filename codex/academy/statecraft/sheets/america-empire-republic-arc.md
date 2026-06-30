@@ -1,6 +1,5 @@
 # America Empire-Republic Arc
 
-WORK only; not Record.
 
 ## Purpose
 

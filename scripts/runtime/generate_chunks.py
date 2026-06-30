@@ -45,10 +45,8 @@ DEFAULT_MAX_CHUNK = 2000
 
 HEADING_RE = re.compile(r"^(#{1,4})\s+(.+)$")
 
-
 def source_hash(content: str) -> str:
     return hashlib.sha256(content.encode("utf-8")).hexdigest()[:12]
-
 
 def _split_paragraphs(text: str) -> list[tuple[str, int, int]]:
     """Split text into paragraphs on blank-line boundaries.
@@ -75,7 +73,6 @@ def _split_paragraphs(text: str) -> list[tuple[str, int, int]]:
         paragraphs.append(("".join(buf), start, len(lines)))
 
     return paragraphs
-
 
 def chunk_file(
     text: str,
@@ -152,7 +149,6 @@ def chunk_file(
 
     return chunks
 
-
 def generate_for_file(
     src: Path,
     surface: str,
@@ -193,7 +189,6 @@ def generate_for_file(
 
     return len(chunks)
 
-
 def generate_for_surface(surface: str, *, min_file_size: int = DEFAULT_MIN_FILE_SIZE) -> dict[str, int]:
     root = SURFACE_ROOTS.get(surface)
     if root is None:
@@ -218,7 +213,6 @@ def generate_for_surface(surface: str, *, min_file_size: int = DEFAULT_MIN_FILE_
             stats[rel] = n
 
     return stats
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Generate chunk indexes for large non-canonical documents.")
@@ -256,7 +250,6 @@ def main() -> int:
 
     print(f"\ntotal: {total_files} files, {total_chunks} chunks", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

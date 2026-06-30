@@ -16,7 +16,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PREPARED_DIR = PREPARED_CONTEXT_DIR
 
-
 def stage_text_file(source: Path) -> Path:
     PREPARED_DIR.mkdir(parents=True, exist_ok=True)
     out = PREPARED_DIR / f"{source.stem}.prepared.json"
@@ -37,7 +36,6 @@ def stage_text_file(source: Path) -> Path:
     out.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return out
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Stage a text file into runtime/prepared-context/*.prepared.json")
     parser.add_argument("source", type=Path, help="Path to evidence file (often under archive/placeholders/evidence/)")
@@ -56,7 +54,6 @@ def main() -> int:
     staged = stage_text_file(source)
     print(staged.relative_to(REPO_ROOT))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

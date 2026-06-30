@@ -51,7 +51,6 @@ MANIFEST_PATH = RITTER / "ritter-pages-manifest.yaml"
 
 SCAFFOLD_MARKER = "<!-- SCOUT_REFINED_PAGE_SCAFFOLD -->"
 
-
 def _parse_frontmatter(text: str) -> dict:
     if not text.startswith("---"):
         return {}
@@ -63,10 +62,8 @@ def _parse_frontmatter(text: str) -> dict:
     data = yaml.safe_load(parts[1])
     return data if isinstance(data, dict) else {}
 
-
 def _folder_date(p: Path) -> str:
     return p.parent.name
-
 
 def _slug_from_stem(stem: str) -> str:
     s = stem
@@ -74,7 +71,6 @@ def _slug_from_stem(stem: str) -> str:
         s = s[len("substack-ritter-") :]
     s = re.sub(r"-\d{4}-\d{2}-\d{2}$", "", s)
     return s
-
 
 def _mode_and_preamble_date(fm: dict, stem: str) -> tuple[str, str, str]:
     """Returns (mode_letter, preamble_label, date_str YYYY-MM-DD)."""
@@ -85,7 +81,6 @@ def _mode_and_preamble_date(fm: dict, stem: str) -> tuple[str, str, str]:
     if "ritter's rant" in series.lower() or stem.startswith("ritter-rant"):
         return "C", "Aired", pub
     return "A", "Published", pub
-
 
 def _display_title(fm: dict, stem: str, body: str) -> str:
     et = (fm.get("episode_title") or "").strip()
@@ -102,7 +97,6 @@ def _display_title(fm: dict, stem: str, body: str) -> str:
         if line.startswith("# "):
             return line[2:].replace("(operator capture)", "").strip()
     return _slug_from_stem(stem).replace("-", " ").title()
-
 
 def collect_primaries() -> list[Path]:
     paths: list[Path] = []
@@ -129,7 +123,6 @@ def collect_primaries() -> list[Path]:
         out.append(p)
     return sorted(out, key=lambda x: (x.parent.name, x.name))
 
-
 def voice_date_for(p: Path, fm: dict) -> str:
     pub_day = (fm.get("pub_date") or "").strip()
     folder = _folder_date(p)
@@ -137,7 +130,6 @@ def voice_date_for(p: Path, fm: dict) -> str:
         if candidate and re.match(r"^\d{4}-\d{2}-\d{2}$", str(candidate)):
             return str(candidate)
     return folder
-
 
 def build_entries(paths: list[Path]) -> list[dict]:
     by_date: dict[str, list[Path]] = defaultdict(list)
@@ -190,7 +182,6 @@ def build_entries(paths: list[Path]) -> list[dict]:
     entries.sort(key=lambda e: (e["voice_date"], e["page_filename"]))
     return entries
 
-
 def render_scaffold(e: dict) -> str:
     vd = e["voice_date"]
     title_suffix = f" (*{e['display_title']}*)" if e.get("display_title") else ""
@@ -200,7 +191,7 @@ def render_scaffold(e: dict) -> str:
     lines = [
         f"# Ritter strategy page — {vd}{title_suffix}",
         "",
-        "WORK only; not Record.",
+        "",
         "",
         f"**Expert:** `ritter` · **{prem}:** {pdate} · **Capture:** {cap} · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.",
         "",
@@ -234,7 +225,6 @@ def render_scaffold(e: dict) -> str:
         "",
     ]
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -294,7 +284,6 @@ def main() -> int:
         written += 1
     print(f"Scaffolds written: {written}, skipped (edited): {skipped}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

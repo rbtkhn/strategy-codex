@@ -24,7 +24,6 @@ from cache import load_json_file
 from repo_io import profile_dir
 from record_slice_loader import format_minimal_lesson_prompt, load_record_slices_for_lesson
 
-
 def _load_delegation_spec(user_slug: str, spec_id: str) -> tuple[dict | None, str | None]:
     """Return (spec_dict, error_message)."""
     prop = profile_dir(user_slug) / "archive/queues/review-queue" / "proposals" / f"{spec_id}.json"
@@ -40,7 +39,6 @@ def _load_delegation_spec(user_slug: str, spec_id: str) -> tuple[dict | None, st
     if not isinstance(spec, dict):
         return None, "proposal has no delegationSpec object"
     return spec, None
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -116,7 +114,6 @@ def main() -> int:
     print("\n## assembled_prompt (minimal lesson shape)\n")
     print(assembled)
     return 0 if payload.get("ok") else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

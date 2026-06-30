@@ -19,7 +19,6 @@ from asr_transcript_replacements import (
     SECRET_HISTORY_REPLACEMENTS,
 )
 
-
 def detect_series_from_basename(name: str) -> str | None:
     """Return series key for replacement tier from a lecture or verbatim filename."""
     n = name.lower()
@@ -39,14 +38,11 @@ def detect_series_from_basename(name: str) -> str | None:
         return "interviews"
     return None
 
-
 def detect_series(path: Path) -> str | None:
     return detect_series_from_basename(path.name)
 
-
 def _sort_by_length(pairs: list[tuple[str, str]]) -> list[tuple[str, str]]:
     return sorted(pairs, key=lambda x: len(x[0]), reverse=True)
-
 
 def apply_ordered_replacements(text: str, pairs: list[tuple[str, str]]) -> tuple[str, int]:
     """Return (new_text, number of substring replacements)."""
@@ -61,7 +57,6 @@ def apply_ordered_replacements(text: str, pairs: list[tuple[str, str]]) -> tuple
             count += n
     return text, count
 
-
 def fix_civilization_thieves(text: str) -> tuple[str, int]:
     """Map ASR 'thieves' → Thebes without leaving 'the Thebes'."""
     count = 0
@@ -74,7 +69,6 @@ def fix_civilization_thieves(text: str) -> tuple[str, int]:
             text = re.sub(pat, repl, text)
             count += n
     return text, count
-
 
 def normalize_transcript_text(
     text: str,

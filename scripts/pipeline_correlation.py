@@ -9,7 +9,6 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-
 def _read_jsonl(path: Path) -> list[dict]:
     if not path.is_file():
         return []
@@ -25,7 +24,6 @@ def _read_jsonl(path: Path) -> list[dict]:
         if isinstance(row, dict):
             out.append(row)
     return out
-
 
 def find_staged_event_id_for_candidate(events_path: Path, candidate_id: str) -> str | None:
     """

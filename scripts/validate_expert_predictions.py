@@ -31,7 +31,6 @@ RE_PRED_ROW = re.compile(
     re.MULTILINE,
 )
 
-
 def extract_main_roster_block(text: str) -> str:
     """Slice the Name/Role roster table only (avoids deprecated topic-slug rows, etc.)."""
     needle = "| expert_id | Name | Role (one line) |"
@@ -52,7 +51,6 @@ def extract_main_roster_block(text: str) -> str:
         sys.exit(1)
     return text[start:end]
 
-
 def load_expert_ids() -> set[str]:
     text = extract_main_roster_block(THREADS.read_text(encoding="utf-8"))
     ids: set[str] = set()
@@ -67,7 +65,6 @@ def load_expert_ids() -> set[str]:
         )
         sys.exit(1)
     return ids
-
 
 def load_registry_topic_slugs() -> set[str]:
     text = PREDICTIONS.read_text(encoding="utf-8")
@@ -84,7 +81,6 @@ def load_registry_topic_slugs() -> set[str]:
         )
         sys.exit(1)
     return slugs
-
 
 def validate_pred_rows(expert_ids: set[str], topic_slugs: set[str]) -> None:
     text = PREDICTIONS.read_text(encoding="utf-8")
@@ -103,7 +99,6 @@ def validate_pred_rows(expert_ids: set[str], topic_slugs: set[str]) -> None:
             print(f"validate_expert_predictions: {e}", file=sys.stderr)
         sys.exit(1)
 
-
 def main() -> None:
     if not PREDICTIONS.is_file():
         print(f"validate_expert_predictions: missing {PREDICTIONS}", file=sys.stderr)
@@ -118,7 +113,6 @@ def main() -> None:
         "validate_expert_predictions: OK "
         f"({len(topic_slugs)} topic slugs, {len(expert_ids)} roster expert ids)"
     )
-
 
 if __name__ == "__main__":
     main()

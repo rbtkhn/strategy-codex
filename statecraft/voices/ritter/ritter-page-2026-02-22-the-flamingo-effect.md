@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-02-22 (*The Flamingo Effect*)
 <!-- word_count: 3100 -->
 
-WORK only; not Record.
 
 **Expert:** `ritter` · **Published:** 2026-02-22 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 

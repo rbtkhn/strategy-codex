@@ -43,7 +43,6 @@ except ImportError:
 DEFAULT_OUTPUT = ARTIFACTS_DIR / "work-strategy" / "strategy-return-dashboard.html"
 ACCUMULATOR_RE = re.compile(r"\*\*Accumulator for:\*\*\s*(\d{4}-\d{2}-\d{2})")
 
-
 @dataclass(frozen=True)
 class DashboardContext:
     hint: StrategyReturnHint
@@ -53,13 +52,11 @@ class DashboardContext:
     accumulator_status: str
     accumulator_drift_days: int | None
 
-
 def configure_utf8_stdio() -> None:
     for stream in (sys.stdout, sys.stderr):
         reconfigure = getattr(stream, "reconfigure", None)
         if callable(reconfigure):
             reconfigure(encoding="utf-8", errors="replace")
-
 
 def rel(path: Path, repo_root: Path) -> str:
     try:
@@ -67,13 +64,11 @@ def rel(path: Path, repo_root: Path) -> str:
     except ValueError:
         return path.as_posix()
 
-
 def accumulator_date_from_inbox(inbox_text: str) -> str | None:
     match = ACCUMULATOR_RE.search(inbox_text)
     if not match:
         return None
     return match.group(1)
-
 
 def accumulator_status(accumulator_date: str | None, *, today: date | None = None) -> str:
     if accumulator_date is None:
@@ -90,7 +85,6 @@ def accumulator_status(accumulator_date: str | None, *, today: date | None = Non
         return f"stale - accumulator is {drift} day(s) behind today"
     return f"future-dated - accumulator is {abs(drift)} day(s) ahead of today"
 
-
 def accumulator_drift_label(drift_days: int | None) -> str:
     if drift_days is None:
         return "unknown"
@@ -98,7 +92,6 @@ def accumulator_drift_label(drift_days: int | None) -> str:
         return "0d"
     sign = "+" if drift_days > 0 else "-"
     return f"{sign}{abs(drift_days)}d"
-
 
 def build_dashboard_context(
     repo_root: Path = REPO_ROOT,
@@ -130,7 +123,6 @@ def build_dashboard_context(
         accumulator_drift_days=drift_days,
     )
 
-
 def card(label: str, value: str | int, detail: str, class_name: str = "") -> str:
     klass = f' class="card {html.escape(class_name)}"' if class_name else ' class="card"'
     return (
@@ -140,7 +132,6 @@ def card(label: str, value: str | int, detail: str, class_name: str = "") -> str
         f"<p>{html.escape(detail)}</p>"
         "</article>"
     )
-
 
 def render_dashboard_html(ctx: DashboardContext) -> str:
     h = ctx.hint
@@ -322,13 +313,11 @@ def render_dashboard_html(ctx: DashboardContext) -> str:
 </html>
 """
 
-
 def write_dashboard(repo_root: Path = REPO_ROOT, output: Path = DEFAULT_OUTPUT) -> Path:
     ctx = build_dashboard_context(repo_root)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(render_dashboard_html(ctx), encoding="utf-8")
     return output
-
 
 def main() -> int:
     configure_utf8_stdio()
@@ -339,7 +328,6 @@ def main() -> int:
     path = write_dashboard(args.repo_root, args.output)
     print(f"Wrote {path}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

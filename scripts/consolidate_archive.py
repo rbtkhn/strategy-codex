@@ -10,7 +10,6 @@ USER_DIR = Path(__file__).resolve().parent.parent / "platform/users" / "grace-ma
 ARCHIVE = USER_DIR / "self-archive.md"
 TELEGRAM_ARCHIVE = USER_DIR / "TELEGRAM-ARCHIVE.md"
 
-
 def normalize_channel(raw: str) -> str:
     raw = (raw or "").strip().lower()
     if raw.startswith("telegram:") or raw.startswith("chat "):
@@ -22,7 +21,6 @@ def normalize_channel(raw: str) -> str:
     if raw.startswith("miniapp:") or raw.startswith("miniapp_"):
         return "Mini App"
     return raw or "Unknown"
-
 
 def parse_archive(path: Path) -> list[tuple[str, str, str, str]]:
     if not path.exists():
@@ -49,14 +47,12 @@ def parse_archive(path: Path) -> list[tuple[str, str, str, str]]:
         entries.append((ts, speaker, channel, body))
     return entries
 
-
 def format_entry(ts: str, speaker: str, channel: str, body: str) -> str:
     lines = [f"**[{ts}]** `{speaker}` ({channel})\n"]
     for line in (body or "").strip().splitlines():
         lines.append(f"> {line}\n")
     lines.append("\n")
     return "".join(lines)
-
 
 def main() -> str:
     a_entries = parse_archive(ARCHIVE)
@@ -79,7 +75,6 @@ def main() -> str:
 
 """
     return header + "".join(format_entry(ts, speaker, channel, body) for ts, speaker, channel, body in merged)
-
 
 if __name__ == "__main__":
     out = main()

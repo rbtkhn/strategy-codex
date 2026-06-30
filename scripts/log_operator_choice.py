@@ -34,7 +34,6 @@ HEADER = (
     "docs/skill-work/work-menu-conventions.md\n\n---\n\n"
 )
 
-
 def append_work_choice(
     user_id: str,
     *,
@@ -69,7 +68,6 @@ def append_work_choice(
                 f.write(block)
     return path
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("-u", "--user", default=os.getenv("GRACE_MAR_USER_ID", DEFAULT_USER_ID).strip() or DEFAULT_USER_ID)
@@ -93,7 +91,6 @@ def main() -> int:
     )
     print(out.relative_to(REPO_ROOT))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

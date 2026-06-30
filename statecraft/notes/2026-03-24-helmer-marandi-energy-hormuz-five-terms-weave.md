@@ -15,7 +15,6 @@ archive_links:
   - source-archive/statecraft/2026-03-24/source-pape-trumps-words-dont-predict-war-his-2026-03-24.md
   - source-archive/statecraft/2026-03-03/source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md
 ---
-WORK only; not Record.
 
 # Mar 24 2026 — Helmer × Marandi weave (five terms / energy / Hormuz)
 

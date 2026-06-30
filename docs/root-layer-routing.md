@@ -1,6 +1,5 @@
 # Root Layer Routing
 
-WORK only; not Record.
 
 Use this note when you need the shortest truthful routing rule across the repo-root storage and output layers.
 

@@ -42,7 +42,6 @@ from mcp_receipt_lib import (  # noqa: E402
 
 DEFAULT_OUT_DIR = ARTIFACTS_DIR / "mcp-receipts"
 
-
 def _parse_artifacts(items: list[str] | None) -> list[dict[str, str]]:
     out: list[dict[str, str]] = []
     if not items:
@@ -57,7 +56,6 @@ def _parse_artifacts(items: list[str] | None) -> list[dict[str, str]]:
             raise ValueError(f"--artifact expects path=kind, got {raw!r}")
         out.append({"path": path, "kind": kind})
     return out
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Build and validate MCP execution receipt JSON.")
@@ -221,7 +219,6 @@ def main() -> int:
     if args.stdout:
         sys.stdout.write(text)
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

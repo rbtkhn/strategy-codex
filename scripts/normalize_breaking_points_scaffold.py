@@ -73,7 +73,6 @@ EDITORIAL_WRAPPER_NOTE = (
 
 TRANSCRIPT_GLUE_RE = re.compile(r"(^## Transcript)(?=[A-Za-z\"'])", re.MULTILINE)
 
-
 @dataclass(frozen=True)
 class BreakingPointsChange:
     path: Path
@@ -81,7 +80,6 @@ class BreakingPointsChange:
     wrapper_trimmed: bool = False
     anchor: str = ""
     chars_removed: int = 0
-
 
 def is_breaking_points_capture(meta: dict[str, Any], path: Path) -> bool:
     name = path.name.lower()
@@ -97,13 +95,11 @@ def is_breaking_points_capture(meta: dict[str, Any], path: Path) -> bool:
         or "breaking points" in show
     )
 
-
 def append_editorial_note(meta: dict[str, Any], note: str) -> None:
     existing = str(meta.get("editorial_note") or "").strip()
     if note.lower() in existing.lower():
         return
     meta["editorial_note"] = f"{existing} {note}".strip() if existing else note
-
 
 def format_frontmatter_value(value: Any) -> str:
     if isinstance(value, bool):
@@ -114,7 +110,6 @@ def format_frontmatter_value(value: Any) -> str:
 
         return json.dumps(text, ensure_ascii=False)
     return text
-
 
 def patch_frontmatter_block(text: str, meta: dict[str, Any], keys: set[str]) -> str:
     """Rewrite only selected top-level frontmatter keys; preserve YAML lists/blocks."""
@@ -157,7 +152,6 @@ def patch_frontmatter_block(text: str, meta: dict[str, Any], keys: set[str]) -> 
             out.append(f"{key}: {format_frontmatter_value(meta[key])}")
     return f"---\n" + "\n".join(out).rstrip() + "\n---\n\n" + body
 
-
 def find_close_promo_cut(full_text: str) -> tuple[int, str] | None:
     search_window = full_text[-TAIL_SEARCH_CHARS:] if len(full_text) > TAIL_SEARCH_CHARS else full_text
     window_offset = len(full_text) - len(search_window)
@@ -170,7 +164,6 @@ def find_close_promo_cut(full_text: str) -> tuple[int, str] | None:
         return None
     best = min(candidates, key=lambda item: item[0])
     return best[0], best[1]
-
 
 def trim_close_promo_text(text: str) -> tuple[str, bool, str, int]:
     trimmed = text.rstrip()
@@ -185,12 +178,10 @@ def trim_close_promo_text(text: str) -> tuple[str, bool, str, int]:
         new_text += "\n"
     return new_text, True, anchor, len(trimmed) - len(new_text)
 
-
 def fix_transcript_wrapper(body: str) -> tuple[str, bool]:
     if not TRANSCRIPT_GLUE_RE.search(body):
         return body, False
     return TRANSCRIPT_GLUE_RE.sub(r"\1\n\n", body, count=1), True
-
 
 def normalize_breaking_points(
     path: Path,
@@ -260,7 +251,6 @@ def normalize_breaking_points(
         path.write_text(new_text, encoding="utf-8")
     return True, new_text, change
 
-
 def candidate_paths(root: Path, explicit: list[Path] | None = None) -> list[Path]:
     if explicit:
         return sorted({p.resolve() for p in explicit})
@@ -278,7 +268,6 @@ def candidate_paths(root: Path, explicit: list[Path] | None = None) -> list[Path
         if is_breaking_points_capture(meta, path):
             paths.append(path)
     return sorted(set(paths))
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -332,7 +321,6 @@ def main() -> int:
             flags.append(f"-{change.chars_removed}c")
         print(f"- {rel} [{', '.join(flags)}]")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -8,7 +8,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def slugify(title: str, *, max_len: int = 60) -> str:
     s = title.lower().strip()
     s = re.sub(r"[^a-z0-9]+", "-", s)
@@ -19,10 +18,8 @@ def slugify(title: str, *, max_len: int = 60) -> str:
         s = s[:max_len].rstrip("-")
     return s
 
-
 def resolve_repo_root(explicit: Path | None) -> Path:
     return explicit.resolve() if explicit else REPO_ROOT
-
 
 def ensure_output_dir_under_repo(output_dir: Path, repo_root: Path) -> Path:
     out = output_dir.resolve()
@@ -36,10 +33,8 @@ def ensure_output_dir_under_repo(output_dir: Path, repo_root: Path) -> Path:
     out.mkdir(parents=True, exist_ok=True)
     return out
 
-
 def today_iso() -> str:
     return date.today().isoformat()
-
 
 def set_header_field(body: str, key: str, value: str) -> str:
     """Set first `Key: ...` line under the title block (key matches case-insensitive key + colon)."""
@@ -58,7 +53,6 @@ def set_header_field(body: str, key: str, value: str) -> str:
     if not done:
         raise ValueError(f"Template missing header field {prefix!r}")
     return "".join(out)
-
 
 def write_from_template(
     *,

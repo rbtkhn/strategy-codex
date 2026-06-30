@@ -9,7 +9,7 @@ updated_at: 2026-06-28
 ---
 # U.S. Digital Identity Collapse / Sovereignty Under Acceleration Framework
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: compare a digital identity collapse across America, China, Russia, and Iran. The framework connects academy-statecraft to sovereignty under acceleration: identity continuity, automated permissions, data sovereignty, audit, rollback, and successor authority.
 

@@ -21,10 +21,8 @@ DEFAULT_OUTPUT = (
 
 EM_DASH = "\u2014"
 
-
 def _escape_pipes(s: str) -> str:
     return s.replace("|", r"\|")
-
 
 def _str_cell(value: Any) -> str:
     if value is None:
@@ -35,7 +33,6 @@ def _str_cell(value: Any) -> str:
     if not stripped:
         return EM_DASH
     return _escape_pipes(stripped)
-
 
 def _list_cell(value: Any) -> str:
     if value is None or not isinstance(value, list):
@@ -51,14 +48,12 @@ def _list_cell(value: Any) -> str:
     joined = " <br> ".join(parts)
     return _escape_pipes(joined) if joined else EM_DASH
 
-
 def _bool_cell(value: Any) -> str:
     if value is True:
         return "true"
     if value is False:
         return "false"
     return EM_DASH
-
 
 def _summary_counts(surfaces: list[dict[str, Any]]) -> dict[str, int]:
     total = len(surfaces)
@@ -89,7 +84,6 @@ def _summary_counts(surfaces: list[dict[str, Any]]) -> dict[str, int]:
         "capability_contracts": with_contract,
         "merge_authority": merge_non_none,
     }
-
 
 def build_markdown(registry: dict[str, Any]) -> str:
     raw = registry.get("surfaces")
@@ -161,10 +155,8 @@ def build_markdown(registry: dict[str, Any]) -> str:
 
     return "\n".join(lines) + "\n"
 
-
 def _load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -228,7 +220,6 @@ def main() -> int:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(expected, encoding="utf-8", newline="\n")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

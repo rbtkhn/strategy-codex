@@ -1,6 +1,5 @@
 # Statecraft Transaction Template
 
-WORK only; not Record.
 
 Use this template when spending compact speaker-state and national-lane analysis into a reusable statecraft instrument. A transaction is valid only when it preserves provenance, historical continuity, authority, restraint, settlement, institutional carrier, limited aim, and off-ramp.
 

@@ -12,7 +12,6 @@ archive_links:
   - source-archive/statecraft/2026-06-04/source-dialogue-works-stanislav-krapivnik-how-firepower-just-broke-two-wars-ukraine-middle-east-2026-06-04.md
   - source-archive/statecraft/2026-06-04/source-judging-freedom-macgregor-does-the-us-have-a-military-option-in-iran-2026-06-04.md
 ---
-WORK only; not Record.
 
 # Russia Inquiry Ladder As Recursive Learning
 

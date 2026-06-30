@@ -1,6 +1,5 @@
 # Iran Lit
 
-WORK only; not Record.
 
 ## Purpose
 

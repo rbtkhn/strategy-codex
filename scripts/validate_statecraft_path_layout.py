@@ -2,7 +2,6 @@ from repo_io import SKILLS_DIR
 #!/usr/bin/env python3
 """Fail on stale ``statecraft/daily/`` path references outside the redirect stub.
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -39,7 +38,6 @@ WARN_ONLY_SUBSTRINGS = (
 
 SCAN_SUFFIXES = {".md", ".mdc", ".py", ".yml", ".yaml", ".json"}
 
-
 def should_scan(path: Path) -> bool:
     if path.suffix not in SCAN_SUFFIXES:
         return False
@@ -48,7 +46,6 @@ def should_scan(path: Path) -> bool:
         if allow in rel:
             return False
     return True
-
 
 def scan(*, warn_archive: bool = True) -> tuple[list[str], list[str]]:
     errors: list[str] = []
@@ -78,7 +75,6 @@ def scan(*, warn_archive: bool = True) -> tuple[list[str], list[str]]:
             errors.append(rel)
     return errors, warnings
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -101,7 +97,6 @@ def main() -> int:
         return 1
     print("ok: no stale statecraft/daily/ references in active operator surfaces")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

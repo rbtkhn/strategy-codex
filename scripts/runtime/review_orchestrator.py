@@ -43,7 +43,6 @@ except ImportError:
 
 from policy_mode_config import load_defaults, mode_summary_lines, resolve_mode  # noqa: E402
 
-
 @dataclass
 class ReviewAnchor:
     """Operator task grounding for anti-drift (runtime only; not Record)."""
@@ -51,7 +50,6 @@ class ReviewAnchor:
     task_anchor: str
     constraint_anchor: str | None
     active_scope: str
-
 
 PHASE_ORDER: tuple[str, ...] = (
     "phase_1_retrieval",
@@ -61,7 +59,6 @@ PHASE_ORDER: tuple[str, ...] = (
     "phase_5_synthesis",
     "phase_6_operator_questions",
 )
-
 
 @dataclass
 class PhaseResult:
@@ -76,12 +73,10 @@ class PhaseResult:
     markdown_body_lines: list[str]
     anchor_check: dict[str, str]
 
-
 def _halt_from_anchor_check(chk: dict[str, str]) -> tuple[bool, str]:
     if chk.get("scope_drift_risk") == "high":
         return True, chk.get("why_continue_or_halt", "")
     return False, ""
-
 
 def _render_phase_section(title: str, markdown_body_lines: list[str], anchor_check: dict[str, str]) -> list[str]:
     out = [f"## {title}", ""]
@@ -89,7 +84,6 @@ def _render_phase_section(title: str, markdown_body_lines: list[str], anchor_che
     out.append("")
     out.extend(_anchor_fidelity_lines(anchor_check))
     return out
-
 
 def _phase_result_to_receipt_row(pr: PhaseResult) -> dict[str, Any]:
     return {
@@ -101,12 +95,10 @@ def _phase_result_to_receipt_row(pr: PhaseResult) -> dict[str, Any]:
         "summary": pr.summary_lines,
     }
 
-
 def _run_id() -> str:
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     h = hashlib.sha256(f"{ts}:{uuid.uuid4().hex}".encode()).hexdigest()[:12]
     return f"ro_{ts}_{h}"
-
 
 def _build_anchor_receipt_dict(
     *,
@@ -133,7 +125,6 @@ def _build_anchor_receipt_dict(
         "non_canonical": True,
     }
 
-
 def _derive_active_scope(
     *,
     mode: str,
@@ -150,7 +141,6 @@ def _derive_active_scope(
         return scope
     return f"candidate_review; candidate={candidate_id}; user={user}"
 
-
 def _anchor_fidelity_lines(check: dict[str, str]) -> list[str]:
     return [
         "- **Anchor fidelity**",
@@ -159,7 +149,6 @@ def _anchor_fidelity_lines(check: dict[str, str]) -> list[str]:
         f"  - **why_continue:** {check['why_continue_or_halt']}",
         "",
     ]
-
 
 def _anchor_check_evidence(
     observations: list[dict],
@@ -197,7 +186,6 @@ def _anchor_check_evidence(
         "scope_drift_risk": "low",
         "why_continue_or_halt": "Proceed to contradiction and boundary passes.",
     }
-
 
 def _anchor_check_contradiction(
     mode: str,
@@ -247,7 +235,6 @@ def _anchor_check_contradiction(
         "why_continue_or_halt": "Cross-check gate YAML manually against anchor.",
     }
 
-
 def _anchor_check_boundary(
     mode: str,
     observations: list[dict],
@@ -293,7 +280,6 @@ def _anchor_check_boundary(
         "why_continue_or_halt": "Drift risk: clarify Record vs work-layer vs anchor.",
     }
 
-
 def _anchor_check_promotion_risk(env: dict[str, Any], anchor: ReviewAnchor) -> dict[str, str]:
     reasons = env.get("reasons") or []
     promo = env.get("promotion_recommendation", "")
@@ -318,7 +304,6 @@ def _anchor_check_promotion_risk(env: dict[str, Any], anchor: ReviewAnchor) -> d
         "why_continue_or_halt": "Proceed to synthesis with same anchor.",
     }
 
-
 def _anchor_check_synthesis(env: dict[str, Any], anchor: ReviewAnchor) -> dict[str, str]:
     promo = env.get("promotion_recommendation", "allow_with_review")
     if promo == "allow_with_review" and len(env.get("reasons") or []) <= 1:
@@ -336,7 +321,6 @@ def _anchor_check_synthesis(env: dict[str, Any], anchor: ReviewAnchor) -> dict[s
         "scope_drift_risk": "low",
         "why_continue_or_halt": "Packet synthesis is aligned with multi-pass inputs.",
     }
-
 
 def _anchor_check_operator_questions(
     mode: str,
@@ -373,7 +357,6 @@ def _anchor_check_operator_questions(
         "why_continue_or_halt": "Answer before merge; gate-review-pass optional second pass.",
     }
 
-
 def _candidate_synthetic_text(row: dict) -> str:
     parts = [
         (row.get("summary") or "").strip(),
@@ -381,7 +364,6 @@ def _candidate_synthetic_text(row: dict) -> str:
         (row.get("example_from_exchange") or "")[:800],
     ]
     return "\n\n".join(p for p in parts if p)
-
 
 def _pre_gate_boundary_notes(observations: list[dict], lane: str) -> list[str]:
     notes: list[str] = []
@@ -405,7 +387,6 @@ def _pre_gate_boundary_notes(observations: list[dict], lane: str) -> list[str]:
         notes.append("No strong boundary signal; classify target surface when drafting the gate candidate.")
     return notes
 
-
 def _contradiction_pass_observations(observations: list[dict], env: dict[str, Any]) -> list[str]:
     lines: list[str] = []
     union: set[str] = set()
@@ -422,7 +403,6 @@ def _contradiction_pass_observations(observations: list[dict], env: dict[str, An
     else:
         lines.append("Uncertainty envelope: not in **conflicted** evidence state (still review narrative strength).")
     return lines
-
 
 def _contradiction_pass_candidate(row: dict, env: dict[str, Any]) -> list[str]:
     lines: list[str] = []
@@ -441,7 +421,6 @@ def _contradiction_pass_candidate(row: dict, env: dict[str, Any]) -> list[str]:
     if env.get("evidence_state") == "conflicted":
         lines.append("Synthetic gate-text envelope: **conflicted** — treat narrative as contested.")
     return lines
-
 
 def _operator_questions(
     mode: str,
@@ -463,7 +442,6 @@ def _operator_questions(
     if len(qs) < 3:
         qs.append("Would a second operator pass (e.g. gate-review-pass skill) change the call?")
     return qs[:8]
-
 
 def _run_phase_1_retrieval(
     observations: list[dict],
@@ -506,7 +484,6 @@ def _run_phase_1_retrieval(
         anchor_check=chk,
     )
 
-
 def _run_phase_2_invalidators(
     mode: str,
     observations: list[dict],
@@ -539,7 +516,6 @@ def _run_phase_2_invalidators(
         markdown_body_lines=md_lines,
         anchor_check=chk,
     )
-
 
 def _run_phase_3_boundary(
     mode: str,
@@ -592,7 +568,6 @@ def _run_phase_3_boundary(
         anchor_check=chk,
     )
 
-
 def _run_phase_4_promotion_risk(
     env: dict[str, Any],
     candidate_row: dict | None,
@@ -634,7 +609,6 @@ def _run_phase_4_promotion_risk(
         anchor_check=chk,
     )
 
-
 def _run_phase_5_synthesis(env: dict[str, Any], anchor: ReviewAnchor) -> PhaseResult:
     promo = env.get("promotion_recommendation", "allow_with_review")
     md_lines = [
@@ -658,7 +632,6 @@ def _run_phase_5_synthesis(env: dict[str, Any], anchor: ReviewAnchor) -> PhaseRe
         markdown_body_lines=md_lines,
         anchor_check=chk,
     )
-
 
 def _run_phase_6_operator_questions(
     mode: str,
@@ -684,7 +657,6 @@ def _run_phase_6_operator_questions(
         markdown_body_lines=md_lines,
         anchor_check=chk,
     )
-
 
 def build_review_packet_markdown(
     *,
@@ -745,7 +717,6 @@ def build_review_packet_markdown(
     lines.append("_Review orchestrator output is not canonical. Merge only via companion-approved gate pipeline._")
     lines.append("")
     return "\n".join(lines), phase_checks, phase_results
-
 
 def main() -> int:
     ensure_utf8_stdio()
@@ -972,7 +943,6 @@ def main() -> int:
     else:
         print(md, end="")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

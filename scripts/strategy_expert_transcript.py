@@ -43,13 +43,12 @@ DEFAULT_OUT_DIR = REPO_ROOT / "codex" / "years" / "2026"
 
 TRIAGE_MARKER = "<!-- Triage appends new date sections below. Do not add content above this line. -->"
 
-
 def canonical_transcript_header(expert_id: str) -> str:
     """Top-of-file header for `strategy-expert-<expert_id>-transcript.md` (through triage marker)."""
     return (
         f"# Expert transcript \u2014 `{expert_id}`\n"
         f"\n"
-        f"WORK only; not Record.\n"
+        f"\n"
         f"\n"
         f"**Source:** Verbatim blocks from [`daily-strategy-inbox.md`](daily-strategy-inbox.md) "
         f"that include `thread:{expert_id}` (first line + optional continuation paragraphs), routed on ingest.\n"
@@ -66,10 +65,8 @@ def canonical_transcript_header(expert_id: str) -> str:
         f"{TRIAGE_MARKER}\n"
     )
 
-
 _RE_DATE_HEADING = re.compile(r"^## (\d{4}-\d{2}-\d{2})\s*$")
 _YAML_DOC_NEXT = re.compile(r"^[A-Za-z0-9_]+:\s")
-
 
 def _parse_fm_keyvals(fm_raw: str) -> dict[str, str]:
     fm: dict[str, str] = {}
@@ -81,7 +78,6 @@ def _parse_fm_keyvals(fm_raw: str) -> dict[str, str]:
             k, _, v = line.partition(":")
             fm[k.strip()] = v.strip().strip('"').strip("'")
     return fm
-
 
 def iter_raw_input_yaml_documents(text: str):
     """Yield ``(frontmatter_dict, body)`` for each ``---`` / YAML / ``---`` / body block in a file.
@@ -118,14 +114,12 @@ def iter_raw_input_yaml_documents(text: str):
         body_raw = "\n".join(lines[body_start:i])
         yield _parse_fm_keyvals(fm_raw), body_raw
 
-
 def _extract_markdown_h1_title(body: str) -> str:
     for line in body.splitlines():
         s = line.strip()
         if s.startswith("# ") and not s.startswith("## "):
             return s[2:].strip()
     return "RSS item"
-
 
 def _iter_raw_input_md_paths(raw_root: Path, cutoff: date) -> list[Path]:
     """Markdown files under ``raw-input/YYYY-MM-DD/`` with folder date strictly after ``cutoff``.
@@ -148,7 +142,6 @@ def _iter_raw_input_md_paths(raw_root: Path, cutoff: date) -> list[Path]:
         out.extend(sorted(child.glob("*.md")))
     return out
 
-
 def _rss_row_pub_date(fm: dict[str, str], path: Path) -> date | None:
     for key in ("pub_date", "ingest_date"):
         raw = (fm.get(key) or "").strip()
@@ -162,7 +155,6 @@ def _rss_row_pub_date(fm: dict[str, str], path: Path) -> date | None:
     except ValueError:
         return None
 
-
 # YAML ``kind:`` — include any ``thread:``-tagged doc by default; exclude pure index kinds.
 _EXCLUDED_RAW_KINDS = frozenset(
     {
@@ -171,7 +163,6 @@ _EXCLUDED_RAW_KINDS = frozenset(
     }
 )
 
-
 def _raw_input_kind_included(fm: dict) -> bool:
     k = (fm.get("kind") or "").strip().lower()
     if not k:
@@ -179,7 +170,6 @@ def _raw_input_kind_included(fm: dict) -> bool:
     if k in _EXCLUDED_RAW_KINDS:
         return False
     return True
-
 
 def collect_thread_tagged_raw_ingests(
     raw_root: Path,
@@ -225,7 +215,6 @@ def collect_thread_tagged_raw_ingests(
             nested[tid][d].append(verbatim)
     return {e: dict(dm) for e, dm in nested.items()}
 
-
 def collect_rss_thread_ingests(
     raw_root: Path,
     *,
@@ -238,7 +227,6 @@ def collect_rss_thread_ingests(
     return collect_thread_tagged_raw_ingests(
         raw_root, nb, cutoff=cutoff, expert_ids_set=expert_ids_set
     )
-
 
 def fold_verbatim_if_raw_input_linked(verbatim: str, expert_id: str) -> str | None:
     """If the ingest already references a ``raw-input/...`` path, fold to a one-line pointer."""
@@ -253,7 +241,6 @@ def fold_verbatim_if_raw_input_linked(verbatim: str, expert_id: str) -> str | No
             )
     return None
 
-
 def _merge_date_ingest_maps(
     inbox_map: dict[date, list[str]],
     rss_map: dict[date, list[str]],
@@ -261,10 +248,8 @@ def _merge_date_ingest_maps(
     dates = set(inbox_map) | set(rss_map)
     return {d: inbox_map.get(d, []) + rss_map.get(d, []) for d in dates}
 
-
 def _parse_date(s: str) -> date:
     return datetime.strptime(s, "%Y-%m-%d").date()
-
 
 def parse_transcript_file(path: Path) -> tuple[str, dict[str, list[str]]]:
     """Parse a transcript file into header and date-keyed sections.
@@ -301,7 +286,6 @@ def parse_transcript_file(path: Path) -> tuple[str, dict[str, list[str]]]:
         sections[current_date] = current_lines
 
     return header, sections
-
 
 def triage_to_transcripts(
     *,
@@ -435,7 +419,6 @@ def triage_to_transcripts(
 
     return written
 
-
 def _warn_verbatim_size(verbatim: str, expert_id: str, date_str: str) -> str | None:
     wc = _word_count(verbatim)
     if wc > MAX_VERBATIM_WORDS_PER_INGEST:
@@ -444,7 +427,6 @@ def _warn_verbatim_size(verbatim: str, expert_id: str, date_str: str) -> str | N
             f"(policy max {MAX_VERBATIM_WORDS_PER_INGEST}); split or trim if unintended."
         )
     return None
-
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
@@ -466,7 +448,6 @@ def main() -> int:
     for path in paths:
         print(path.relative_to(REPO_ROOT))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

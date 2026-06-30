@@ -6,7 +6,6 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 LEGACY_DIR = REPO_ROOT / "docs" / "skill-work" / "work-strategy" / "strategy-notebook"
@@ -34,10 +33,8 @@ FORBIDDEN_ACTIVE_ASSERTIONS = (
     "strategy-notebook (inbox, `days.md`, expert threads)",
 )
 
-
 def read_rel(rel: str) -> str:
     return (REPO_ROOT / rel).read_text(encoding="utf-8")
-
 
 def validate_legacy_dir_is_pointer_only() -> list[str]:
     errors: list[str] = []
@@ -56,7 +53,6 @@ def validate_legacy_dir_is_pointer_only() -> list[str]:
         )
     return errors
 
-
 def validate_critical_docs() -> list[str]:
     errors: list[str] = []
     for rel in CRITICAL_DOCS:
@@ -69,7 +65,6 @@ def validate_critical_docs() -> list[str]:
                 errors.append(f"{rel}: forbidden active assertion: {forbidden}")
     return errors
 
-
 def validate_skill_strategy_dissolved() -> list[str]:
     errors: list[str] = []
     if SKILL_STRATEGY_PATH.is_file():
@@ -81,7 +76,6 @@ def validate_skill_strategy_dissolved() -> list[str]:
     if "dissolved" not in deprecated.lower():
         errors.append("SKILL-STRATEGY-DEPRECATED.md: must document dissolved status")
     return errors
-
 
 def validate_strategy_context_constants() -> list[str]:
     from strategy_context import (  # type: ignore
@@ -101,7 +95,6 @@ def validate_strategy_context_constants() -> list[str]:
         )
     return errors
 
-
 def main() -> int:
     sys.path.insert(0, str(REPO_ROOT / "scripts"))
     errors: list[str] = []
@@ -119,7 +112,6 @@ def main() -> int:
         return 1
     print("validate_strategy_codex_transition: OK", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # Legacy compatibility surface — `napolitano-thread`
 
-WORK only; not Record.
 
 ## Orthogonality guide
 

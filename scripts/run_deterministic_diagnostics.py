@@ -15,15 +15,12 @@ SMOKE_OUTPUT_REL = (
     / "deterministic-diagnostics-smoke.json"
 )
 
-
 def _print_section(title: str) -> None:
     print()
     print(f"== {title} ==")
 
-
 def _command(repo_root: Path, script_rel: str, *args: str) -> list[str]:
     return [sys.executable, str(repo_root / script_rel), *args]
-
 
 def _run_step(title: str, command: list[str], *, repo_root: Path) -> subprocess.CompletedProcess[str]:
     _print_section(title)
@@ -44,7 +41,6 @@ def _run_step(title: str, command: list[str], *, repo_root: Path) -> subprocess.
             file=sys.stderr,
         )
     return result
-
 
 def run_diagnostics(
     repo_root: Path,
@@ -93,7 +89,6 @@ def run_diagnostics(
     print("Deterministic diagnostics passed.")
     return 0
 
-
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description="Run deterministic diagnostics for doctrine drift, agent sprawl, and counterfactual smoke."
@@ -114,7 +109,6 @@ def main(argv: list[str] | None = None) -> int:
         args.repo_root,
         keep_smoke_output=args.keep_smoke_output,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

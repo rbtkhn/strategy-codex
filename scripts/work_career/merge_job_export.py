@@ -21,7 +21,6 @@ from urllib.parse import urlparse
 
 EXPECTED = ("title", "company", "url", "source", "date_added")
 
-
 def _norm_url(u: str) -> str:
     u = (u or "").strip().lower()
     try:
@@ -29,7 +28,6 @@ def _norm_url(u: str) -> str:
         return f"{p.netloc}{p.path}".rstrip("/")
     except Exception:
         return u
-
 
 def _row_to_job(row: dict[str, str]) -> dict:
     tags = row.get("skill_tags") or ""
@@ -44,7 +42,6 @@ def _row_to_job(row: dict[str, str]) -> dict:
         "skill_tags": skill_tags,
         "status": (row.get("status") or "interested").strip(),
     }
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Merge CSV job export into JSON list.")
@@ -101,7 +98,6 @@ def main() -> int:
     args.output.write_text(json.dumps(merged, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {len(merged)} jobs ({len(new_jobs)} new) to {args.output}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

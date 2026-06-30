@@ -45,10 +45,8 @@ REQUIRED_MONTH_KEYS = {
     "updated_at",
 }
 
-
 def _load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def validate_month_maturity_routing_registry(
     repo_root: Path,
@@ -189,7 +187,6 @@ def validate_month_maturity_routing_registry(
 
     return errors
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate month maturity routing registry JSON.")
     parser.add_argument(
@@ -208,7 +205,6 @@ def main() -> int:
         return 1
     print("Month maturity routing registry: OK")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

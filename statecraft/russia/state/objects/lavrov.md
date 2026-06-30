@@ -1,6 +1,5 @@
 # Sergey Lavrov Authority Carrier Object
 
-WORK only; not Record.
 
 ## Object
 

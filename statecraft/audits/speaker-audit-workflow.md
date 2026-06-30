@@ -1,6 +1,5 @@
 # Speaker Audit Workflow
 
-WORK only; not Record.
 
 Use this note when the audit hub is conceptually clear but the next operator move is not.
 

@@ -1,6 +1,5 @@
 # arc-parsi-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [parsi-arc.md](parsi-arc.md)
 

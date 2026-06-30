@@ -21,7 +21,6 @@ from repo_io import SRC_DIR, ARTIFACTS_DIR
 
 from grace_mar.observability.workflow_aggregate import load_events_from_jsonl_lines  # noqa: E402
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
@@ -91,7 +90,6 @@ def main() -> int:
 
     print(out_json)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

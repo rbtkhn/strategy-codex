@@ -1,6 +1,5 @@
 # Parsi 2025-present thread atlas
 
-WORK only; not Record.
 
 Purpose: canonical recurring thread atlas for the Parsi shelf across `2025-present`.
 

@@ -31,7 +31,6 @@ _SCRIPTS = REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-
 # ── Data shapes ─────────────────────────────────────────────────────────
 
 @dataclass
@@ -47,7 +46,6 @@ class SandboxRequest:
     backend_config: dict[str, Any] = field(default_factory=dict)
     record_access: str = "none"  # none | read_only | read_write
     request_id: str = field(default_factory=lambda: uuid.uuid4().hex[:12])
-
 
 @dataclass
 class SandboxResult:
@@ -65,7 +63,6 @@ class SandboxResult:
     def success(self) -> bool:
         return self.exit_code == 0 and not self.error
 
-
 # ── Authority ───────────────────────────────────────────────────────────
 
 AUTHORITY_CLASSES = frozenset({"operator", "agent_supervised", "agent_autonomous"})
@@ -76,7 +73,6 @@ _AUTHORITY_ALLOWED_ACCESS: dict[str, frozenset[str]] = {
     "agent_supervised": frozenset({"none", "read_only"}),
     "agent_autonomous": frozenset({"none"}),
 }
-
 
 def check_authority(request: SandboxRequest) -> str | None:
     """Return an error string if the request violates authority rules, else None."""
@@ -91,7 +87,6 @@ def check_authority(request: SandboxRequest) -> str | None:
             f"record_access {request.record_access!r} (allowed: {sorted(allowed)})"
         )
     return None
-
 
 # ── Backend protocol ────────────────────────────────────────────────────
 
@@ -112,7 +107,6 @@ class SandboxBackend(Protocol):
     def health(self) -> dict[str, Any]:
         """Return {ok: bool, notes: str}."""
         ...
-
 
 # ── DryRunBackend ───────────────────────────────────────────────────────
 
@@ -140,7 +134,6 @@ class DryRunBackend:
     def health(self) -> dict[str, Any]:
         return {"ok": True, "notes": "dry_run backend always healthy"}
 
-
 # ── LocalDockerBackend (stub) ───────────────────────────────────────────
 
 class LocalDockerBackend:
@@ -166,7 +159,6 @@ class LocalDockerBackend:
         except (FileNotFoundError, subprocess.TimeoutExpired):
             return {"ok": False, "notes": "docker not available"}
 
-
 # ── Backend registry ────────────────────────────────────────────────────
 
 _BACKENDS: dict[str, SandboxBackend] = {
@@ -174,14 +166,11 @@ _BACKENDS: dict[str, SandboxBackend] = {
     "docker": LocalDockerBackend(),
 }
 
-
 def get_backend(name: str) -> SandboxBackend | None:
     return _BACKENDS.get(name)
 
-
 def register_backend(backend: SandboxBackend) -> None:
     _BACKENDS[backend.name] = backend
-
 
 # ── Receipt emission ────────────────────────────────────────────────────
 
@@ -230,7 +219,6 @@ def _emit_receipt(
         extras=extras,
     )
 
-
 def _emit_ledger(
     user_id: str,
     request: SandboxRequest,
@@ -269,7 +257,6 @@ def _emit_ledger(
         outcome_confidence=confidence,
         repo_root=REPO_ROOT,
     )
-
 
 # ── Adapter core ────────────────────────────────────────────────────────
 
@@ -363,7 +350,6 @@ def execute(
 
     return result
 
-
 # ── CLI ─────────────────────────────────────────────────────────────────
 
 def main() -> int:
@@ -409,7 +395,6 @@ def main() -> int:
             print(f"error: {result.error}", file=sys.stderr)
 
     return 0 if result.success else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

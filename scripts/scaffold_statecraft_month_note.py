@@ -33,10 +33,8 @@ ROUTE_TO_FILENAME_SUFFIX = {
 }
 MONTH_RE = re.compile(r"^\d{4}-\d{2}$")
 
-
 def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def month_name_parts(month: str) -> tuple[str, str, str]:
     year, month_num = month.split("-")
@@ -44,22 +42,18 @@ def month_name_parts(month: str) -> tuple[str, str, str]:
     month_name = calendar.month_name[month_index]
     return year, month_num, month_name
 
-
 def month_display(month: str) -> str:
     year, _, name = month_name_parts(month)
     return f"{name} {year}"
-
 
 def month_slug(month: str) -> str:
     year, _, name = month_name_parts(month)
     return f"{name.lower()}-{year}"
 
-
 def last_day(month: str) -> str:
     year, month_num, _ = month_name_parts(month)
     day = calendar.monthrange(int(year), int(month_num))[1]
     return f"{year}-{month_num}-{day:02d}"
-
 
 def month_title(route_class: str, month: str) -> str:
     display = month_display(month)
@@ -69,10 +63,8 @@ def month_title(route_class: str, month: str) -> str:
         return f"# {display} watchlist"
     return f"# {display} contradiction audit"
 
-
 def month_note_filename(route_class: str, month: str) -> str:
     return f"{month_slug(month)}-{ROUTE_TO_FILENAME_SUFFIX[route_class]}.md"
-
 
 def load_registry_entry(month: str) -> dict | None:
     data = load_json(REGISTRY_PATH)
@@ -80,7 +72,6 @@ def load_registry_entry(month: str) -> dict | None:
         if entry.get("month") == month:
             return entry
     return None
-
 
 def load_metadata_entry(month: str) -> dict | None:
     data = load_json(METADATA_PATH)
@@ -90,10 +81,9 @@ def load_metadata_entry(month: str) -> dict | None:
     entry = months.get(month)
     return entry if isinstance(entry, dict) else None
 
-
 def trim_template_scaffold(text: str) -> str:
     lines = text.splitlines()
-    if lines and lines[0].strip() == "WORK only; not Record.":
+    if lines and lines[0].strip() == "":
         lines = lines[1:]
     while lines and not lines[0].strip():
         lines = lines[1:]
@@ -102,7 +92,6 @@ def trim_template_scaffold(text: str) -> str:
     while lines and not lines[0].strip():
         lines = lines[1:]
     return "\n".join(lines).rstrip() + "\n"
-
 
 def replace_template_placeholders(text: str, month: str) -> str:
     display = month_display(month)
@@ -115,18 +104,15 @@ def replace_template_placeholders(text: str, month: str) -> str:
         .replace("[YYYY-MM-last]", last_day(month))
     )
 
-
 def bullet_list(items: list[str], *, empty_text: str) -> str:
     if not items:
         return f"- {empty_text}"
     return "\n".join(f"- {item}" for item in items)
 
-
 def format_surface(path_str: str) -> str:
     path = REPO_ROOT / path_str
     label = Path(path_str).name
     return f"[{label}](/" + path.as_posix() + ")"
-
 
 def metadata_summary_lines(entry: dict | None) -> list[str]:
     if not entry:
@@ -136,7 +122,6 @@ def metadata_summary_lines(entry: dict | None) -> list[str]:
         f"Dense-month signal: `{str(bool(entry.get('is_dense_month', False))).lower()}`.",
         f"Label-normalization signal: `{str(bool(entry.get('needs_label_normalization', False))).lower()}`.",
     ]
-
 
 def label_variant_lines(entry: dict | None) -> list[str]:
     if not entry:
@@ -155,7 +140,6 @@ def label_variant_lines(entry: dict | None) -> list[str]:
         if rendered:
             lines.append(rendered)
     return lines or ["No material guest-label splits are currently visible in the routing metadata."]
-
 
 def route_prefill_block(route_class: str, month: str, registry_entry: dict | None, metadata_entry: dict | None) -> dict[str, str]:
     status = registry_entry.get("status", "unregistered") if registry_entry else "unregistered"
@@ -217,7 +201,6 @@ def route_prefill_block(route_class: str, month: str, registry_entry: dict | Non
         "## Required Shelf Repairs If Any": bullet_list(surface_lines, empty_text="List the shelf surfaces that would need repair if the queue changes month truth."),
     }
 
-
 def inject_prefill_sections(body: str, prefill_map: dict[str, str]) -> str:
     for heading, block in prefill_map.items():
         needle = f"{heading}\n"
@@ -225,15 +208,13 @@ def inject_prefill_sections(body: str, prefill_map: dict[str, str]) -> str:
             body = body.replace(needle, f"{heading}\n\n{block}\n\n", 1)
     return body
 
-
 def render_note(month: str, route_class: str, registry_entry: dict | None, metadata_entry: dict | None) -> str:
     template_path = ROUTE_TO_TEMPLATE[route_class]
     template = trim_template_scaffold(template_path.read_text(encoding="utf-8"))
     template = replace_template_placeholders(template, month)
     prefill_map = route_prefill_block(route_class, month, registry_entry, metadata_entry)
     body = inject_prefill_sections(template, prefill_map)
-    return "WORK only; not Record.\n\n" + month_title(route_class, month) + "\n\n" + body.rstrip() + "\n"
-
+    return "\n\n" + month_title(route_class, month) + "\n\n" + body.rstrip() + "\n"
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -253,7 +234,6 @@ def parse_args() -> argparse.Namespace:
         help="Optional output file path under the repo. Default: print scaffold to stdout.",
     )
     return parser.parse_args()
-
 
 def main() -> int:
     args = parse_args()
@@ -287,7 +267,6 @@ def main() -> int:
     output_path.write_text(rendered, encoding="utf-8", newline="\n")
     print(output_path)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

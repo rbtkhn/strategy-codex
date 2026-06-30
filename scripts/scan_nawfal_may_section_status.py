@@ -7,7 +7,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-
 def scan(path: Path) -> dict | None:
     text = path.read_text(encoding="utf-8", errors="replace")
     if not text.startswith("---"):
@@ -60,7 +59,6 @@ def scan(path: Path) -> dict | None:
         "name": path.name,
     }
 
-
 def main() -> None:
     rows: list[dict] = []
     for d in sorted(ROOT.glob("source-archive/statecraft/2026-05-*")):
@@ -81,7 +79,6 @@ def main() -> None:
     print("\nFLAT")
     for r in flat:
         print(f"  {r['pub']}  {r['guest'][:32]:32}  {r['words']:5}w  {r['yt'] or 'no-id'}  {r['name']}")
-
 
 if __name__ == "__main__":
     main()

@@ -25,12 +25,10 @@ try:
 except ImportError:
     from scripts.repo_io import resolve_surface_markdown_path
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8").strip()
-
 
 def _extract_yaml_list(content: str, key: str) -> list:
     """Extract list from YAML: key: [a, b, c] or key: \\n  - item."""
@@ -46,7 +44,6 @@ def _extract_yaml_list(content: str, key: str) -> list:
         return [re.sub(r"^\s*-\s+", "", ln).split("#")[0].strip().strip('"\'') for ln in lines if ln.strip()]
     return []
 
-
 def _ix_summaries(content: str) -> dict:
     out = {"ix_a": [], "ix_b": [], "ix_c": []}
     for prefix, key in [("LEARN", "ix_a"), ("CUR", "ix_b"), ("PER", "ix_c")]:
@@ -58,11 +55,9 @@ def _ix_summaries(content: str) -> dict:
         out[key] = [t[:80] for t in topics[:25]]
     return out
 
-
 def _extract_lexile(self_content: str) -> str | None:
     m = re.search(r'lexile_output:\s*["\']?(\d+L)["\']?', self_content)
     return m.group(1) if m else None
-
 
 def _extract_access_needs(self_content: str, lexile: str | None) -> dict:
     """Extract access needs for assistive tools (reading pens, etc.). Optional SELF section; falls back to Lexile-derived explanation level."""
@@ -93,7 +88,6 @@ def _extract_access_needs(self_content: str, lexile: str | None) -> dict:
             needs["preferred_read_speed"] = m.group(1).lower()
     return needs
 
-
 def _extract_skills_edge(skills_content: str) -> dict:
     """Extract edge from each container-like section."""
     edges = {}
@@ -112,12 +106,10 @@ def _extract_skills_edge(skills_content: str) -> dict:
                 edges[name] = val
     return edges
 
-
 def _evidence_anchors(content: str, limit: int = 30) -> list[str]:
     ids = list(set(re.findall(r"ACT-\d+", content)))
     ids.sort(key=lambda x: int(x.split("-")[1]), reverse=True)
     return ids[:limit]
-
 
 def _library_titles(library_content: str, limit: int = 15) -> list[dict]:
     """Extract title + scope from LIBRARY for curriculum relevance."""
@@ -130,7 +122,6 @@ def _library_titles(library_content: str, limit: int = 15) -> list[dict]:
         if len(entries) >= limit:
             break
     return entries
-
 
 def export_curriculum(
     user_id: str = "grace-mar",
@@ -200,7 +191,6 @@ def export_curriculum(
 
     return data
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Export Record to curriculum-oriented JSON for adaptive curriculum engines"
@@ -218,7 +208,6 @@ def main() -> None:
     out_path = out_dir / "curriculum_profile.json"
     out_path.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {out_path}", file=sys.stderr)
-
 
 if __name__ == "__main__":
     main()

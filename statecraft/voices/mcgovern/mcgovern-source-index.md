@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Mcgovern Source Index (compat redirect)
 

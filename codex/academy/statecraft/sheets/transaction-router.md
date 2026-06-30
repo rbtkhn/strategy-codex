@@ -1,6 +1,5 @@
 # Transaction Router
 
-WORK only; not Record.
 
 Use this sheet after a current-event read classifies the crisis object. The router maps live events onto the 12-object transaction plateau so the operator can reuse an existing bundle before inventing a new one.
 

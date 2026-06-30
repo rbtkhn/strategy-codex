@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `marandi`
 <!-- word_count: 9647 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 
@@ -319,7 +318,6 @@ none this pass
 
 # Page Ã¢â‚¬â€ 2026-04-16 Ã¢â‚¬â€ Marandi-primary: Breaking Points Ãƒâ€” Blumenthal (Judging Freedom)
 
-WORK only; not Record.
 
 | Field | Value |
 |--------|--------|
@@ -566,7 +564,6 @@ Pape stacks four public claims in one appearance:
 
 # Page Ã¢â‚¬â€ 2026-04-16 Ã¢â‚¬â€ Pape (Janssen): escalation trap, staged blockade, third-player spoiler
 
-WORK only; not Record.
 
 | Field | Value |
 |--------|--------|

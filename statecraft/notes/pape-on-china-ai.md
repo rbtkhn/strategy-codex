@@ -11,7 +11,6 @@ archive_links:
   - source-archive/statecraft/2026-04-20/source-pape-collapse-ahead-of-schedule-2026-04-20.md
   - source-archive/statecraft/2026-05-14/source-pape-its-getting-late-early-for-trump-2026-05-14.md
 ---
-WORK only; not Record.
 
 # Pape on China AI
 

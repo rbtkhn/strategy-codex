@@ -15,7 +15,6 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 from arch_chapters import chapters_for_volume_block, top_level_chapters  # noqa: E402
 
-
 def _evidence_pack_volume_branch(chapter_id: str) -> str:
     if chapter_id.startswith("civ-ch"):
         return "civ"
@@ -31,11 +30,9 @@ def _evidence_pack_volume_branch(chapter_id: str) -> str:
         return "es"
     return "geo"
 
-
 def load_yaml(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def load_claims() -> list[dict]:
     p = WORK_DIR / "claims" / "registry" / "claims.jsonl"
@@ -48,7 +45,6 @@ def load_claims() -> list[dict]:
             if line:
                 rows.append(json.loads(line))
     return rows
-
 
 def main() -> int:
     errors: list[str] = []
@@ -173,7 +169,6 @@ def main() -> int:
     for err in errors:
         print(f"ERROR: {err}", file=sys.stderr)
     return 1 if errors else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

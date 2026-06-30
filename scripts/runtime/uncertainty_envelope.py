@@ -22,24 +22,20 @@ _OVERLY_SPECIFIC = re.compile(
     r"\b(exactly|precisely|definitely)\b.+\b(on \d{4}-\d{2}-\d{2}|at \d{1,2}:\d{2})\b", re.I
 )
 
-
 def _text_blob(observations: list[dict]) -> str:
     parts: list[str] = []
     for o in observations:
         parts.append((o.get("title") or "") + " " + (o.get("summary") or ""))
     return " ".join(parts)
 
-
 def _has_identity_history_like(text: str) -> bool:
     return any(p.search(text) for p in _IDENTITY_HISTORY_PATTERNS)
-
 
 def _overly_specific_without_refs(observations: list[dict], has_refs: bool) -> bool:
     if has_refs:
         return False
     blob = _text_blob(observations)
     return bool(_OVERLY_SPECIFIC.search(blob)) or len(blob) > 400 and not has_refs
-
 
 def compute_fabricated_history_risk(observations: list[dict]) -> tuple[str, list[str]]:
     """Return (low|medium|high, reason strings)."""
@@ -77,7 +73,6 @@ def compute_fabricated_history_risk(observations: list[dict]) -> tuple[str, list
 
     reasons.append("No strong fabricated-history pattern detected in heuristics.")
     return "low", reasons
-
 
 def compute_evidence_state(observations: list[dict]) -> tuple[str, list[str], list[str], list[str]]:
     """
@@ -138,7 +133,6 @@ def compute_evidence_state(observations: list[dict]) -> tuple[str, list[str], li
     reasons.append("Some evidence references present; gaps may remain.")
     return "partial", reasons, [], []
 
-
 def promotion_recommendation(evidence_state: str, fabricated_history_risk: str) -> str:
     """First-pass rule from docs/abstention-policy.md."""
     if evidence_state == "conflicted" or fabricated_history_risk == "high":
@@ -154,7 +148,6 @@ def promotion_recommendation(evidence_state: str, fabricated_history_risk: str) 
     if evidence_state == "partial" and fabricated_history_risk == "high":
         return "block"
     return "allow_with_review"
-
 
 def compute_envelope(observations: list[dict]) -> dict[str, Any]:
     """
@@ -182,7 +175,6 @@ def compute_envelope(observations: list[dict]) -> dict[str, Any]:
         "promotion_recommendation": promo,
     }
 
-
 def synthetic_observation_from_text(text: str, record_mutation_candidate: bool = True) -> dict:
     """Minimal shape for gate precheck on free text (not a persisted observation)."""
     # Matches runtime-observation obs_id pattern (8-char suffix).
@@ -202,7 +194,6 @@ def synthetic_observation_from_text(text: str, record_mutation_candidate: bool =
         "contradiction_refs": [],
         "notes": None,
     }
-
 
 def envelope_to_markdown_block(env: dict[str, Any]) -> str:
     """Human-readable section for prepared context / briefs."""
@@ -231,10 +222,8 @@ def envelope_to_markdown_block(env: dict[str, Any]) -> str:
     )
     return "\n".join(lines) + "\n"
 
-
 def envelope_to_json(env: dict[str, Any]) -> str:
     return json.dumps(env, ensure_ascii=True, indent=2)
-
 
 def load_prepared_context_obs_ids(path: Path) -> list[str]:
     """Extract obs_id tokens from a prepared-context markdown file."""

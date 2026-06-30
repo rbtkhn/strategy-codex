@@ -20,7 +20,6 @@ archive_links:
 
 # Diesen x Mercouris speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen x Mercouris` run inside the Diesen stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Mercouris lane Diesen elicits, why the appearance belongs both to the Diesen host body and the Mercouris speaker object, and how this branch differs from Mercouris's native monologue stream.
 

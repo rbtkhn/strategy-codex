@@ -1,6 +1,5 @@
 # Hoh Source Index
 
-WORK only; not Record.
 
 Purpose: exhaustive route map for every resolved Matthew Hoh appearance currently materialized in Statecraft Archive.
 

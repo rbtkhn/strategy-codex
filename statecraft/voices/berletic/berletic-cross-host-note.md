@@ -1,6 +1,5 @@
 # Berletic cross-host note
 
-WORK only; not Record.
 
 Purpose: keep the wider Berletic object visible without overstating its maturity outside the Diesen lane.
 

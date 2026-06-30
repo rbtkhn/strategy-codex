@@ -19,7 +19,6 @@ from observation_store import load_all  # noqa: E402
 from lane_search import filter_rows, rank_hits, format_ts_display  # noqa: E402
 from search_scoring import ts_sort_key  # noqa: E402
 
-
 def _haystack(obs: dict) -> str:
     parts = [
         obs.get("title") or "",
@@ -30,7 +29,6 @@ def _haystack(obs: dict) -> str:
     ]
     return " ".join(parts).lower()
 
-
 def _path_matches(obs: dict, path_norm: str) -> bool:
     sp = (obs.get("source_path") or "").strip().lower()
     if not path_norm:
@@ -39,7 +37,6 @@ def _path_matches(obs: dict, path_norm: str) -> bool:
         return True
     hay = _haystack(obs)
     return path_norm in hay
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -118,7 +115,6 @@ def main() -> int:
 
     print("\nYou may still read the file directly.")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,7 +1,6 @@
 # Diesen refined page — 2026-04-17 (host lane)
 <!-- word_count: ~220 -->
 
-WORK only; not Record.
 
 **Expert:** `diesen` · **Guest (same air):** Scott Ritter · **Published:** 2026-04-17 · **Capture:** two-expert YT (Greater Eurasia) · **Artifact:** refined page — **host lane** (interview order, Baltic/NATO bridge, cross-theater handoff). Sibling **guest** lane: [ritter-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../ritter/ritter-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md.
 

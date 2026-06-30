@@ -12,7 +12,6 @@ Usage::
     python3 scripts/strategy_watch.py --watch hormuz --json     # machine-readable
     python3 scripts/strategy_watch.py --tensions-only           # only disagreements
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -39,7 +38,6 @@ DEFAULT_NOTEBOOK = (
 )
 DEFAULT_CONNECTIONS = DEFAULT_NOTEBOOK / "page-relations.yaml"
 
-
 # ---------------------------------------------------------------------------
 # Tension detection
 # ---------------------------------------------------------------------------
@@ -56,7 +54,6 @@ def _load_tensions(connections_path: Path) -> list[dict]:
         if c.get("relation") == "tension"
     ]
 
-
 def _page_id_to_source_basename(page_id: str, pages: list[PageBlock]) -> str | None:
     """Return basename from **Source page:** in page body."""
     for p in pages:
@@ -65,7 +62,6 @@ def _page_id_to_source_basename(page_id: str, pages: list[PageBlock]) -> str | N
                 if line.startswith("**Source page:**"):
                     return line.split("**Source page:**", 1)[1].strip()
     return None
-
 
 def find_tensions_for_watch(
     watch_id: str,
@@ -84,7 +80,6 @@ def find_tensions_for_watch(
         if any(f"shared-watch:{watch_id}" in w for w in warrants):
             relevant.append(tension)
     return relevant
-
 
 # ---------------------------------------------------------------------------
 # Watch listing
@@ -117,7 +112,6 @@ def list_watches(notebook_dir: Path) -> list[dict]:
 
     return sorted(watch_data.values(), key=lambda w: w["watch"])
 
-
 def watch_detail(
     watch_id: str,
     notebook_dir: Path,
@@ -149,7 +143,6 @@ def watch_detail(
         ],
     }
 
-
 # ---------------------------------------------------------------------------
 # Output formatting
 # ---------------------------------------------------------------------------
@@ -170,7 +163,6 @@ def format_watches_markdown(watches: list[dict]) -> str:
             f"{', '.join(w['experts'])} | {date_range} |"
         )
     return "\n".join(lines)
-
 
 def format_detail_markdown(detail: dict) -> str:
     lines = [f"# Watch: {detail['watch']}\n"]
@@ -196,7 +188,6 @@ def format_detail_markdown(detail: dict) -> str:
         lines.append("_(No tension relations found for this watch.)_\n")
 
     return "\n".join(lines)
-
 
 # ---------------------------------------------------------------------------
 # CLI
@@ -238,7 +229,6 @@ def main() -> int:
         return 2
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

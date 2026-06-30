@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1), `Lawrence Wilkerson` (1), `Scott Ritter` (1)
-- Threads: `alkorshid` (1), `diesen` (1), `freeman` (1), `ritter` (1), `wilkerson` (1)
+- Threads: `alkhorshid` (1), `diesen` (1), `freeman` (1), `ritter` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `wilkerson` | [watch](https://www.youtube.com/watch?v=vSsEGyyzwTM) | `source-dialogue-works-col-larry-wilkerson-october-7th-aftermath-israels-worst-defeat-in-history-2025-10-07.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `wilkerson` | [watch](https://www.youtube.com/watch?v=vSsEGyyzwTM) | `source-dialogue-works-col-larry-wilkerson-october-7th-aftermath-israels-worst-defeat-in-history-2025-10-07.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=mA1vsz5dq7s) | `source-glenn-diesen-scott-ritter-scott-ritter-tomahawks-end-of-nato-coming-nuclear-war-2025-10-07.md` |
 | `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-chas-freeman-israel-near-collapse-2025-10-07.md` |
 

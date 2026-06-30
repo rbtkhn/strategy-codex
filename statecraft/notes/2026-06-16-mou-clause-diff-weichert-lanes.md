@@ -10,7 +10,6 @@ archive_links:
   - source-archive/statecraft/2026-06-16/source-mario-nawfal-weichert-breaking-full-iran-mou-leaked-axios-2026-06-16.md
   - source-archive/statecraft/2026-06-16/source-redacted-brandon-weichert-collapse-96-hours-israel-bombs-lebanon-2026-06-16.md
 ---
-WORK only; not Record.
 
 # MOU clause diff — Weichert lanes (2026-06-16)
 

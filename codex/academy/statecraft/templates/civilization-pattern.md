@@ -1,6 +1,5 @@
 # Civilization Pattern Template
 
-WORK only; not Record.
 
 Use this template when promoting a seed from `civilization/seed-patterns.md` into a full lane note.
 

@@ -19,7 +19,6 @@ from datetime import date as date_cls, datetime
 from pathlib import Path
 import sys
 
-
 DEFAULT_OUTPUT_DIR = Path("docs/personal/daily-journal")
 
 SECTION_ALIASES = {
@@ -45,7 +44,6 @@ SECTION_TITLES = {
     "archive/placeholders/evidence": "Evidence or notes",
 }
 
-
 @dataclass
 class JournalDraft:
     date: str
@@ -54,13 +52,11 @@ class JournalDraft:
     )
     leftovers: list[str] = field(default_factory=list)
 
-
 def _normalize_date(raw: str | None) -> str:
     if not raw:
         return date_cls.today().isoformat()
     parsed = datetime.strptime(raw, "%Y-%m-%d").date()
     return parsed.isoformat()
-
 
 def _read_notes(args: argparse.Namespace) -> list[str]:
     notes: list[str] = []
@@ -73,13 +69,11 @@ def _read_notes(args: argparse.Namespace) -> list[str]:
         notes.extend(sys.stdin.read().splitlines())
     return notes
 
-
 def _strip_bullet_prefix(text: str) -> str:
     stripped = text.strip()
     if stripped.startswith(("- ", "* ", "• ")):
         return stripped[2:].strip()
     return stripped
-
 
 def _match_section(line: str) -> tuple[str | None, str]:
     if ":" not in line:
@@ -89,7 +83,6 @@ def _match_section(line: str) -> tuple[str | None, str]:
     if not key:
         return None, line
     return key, rest.strip()
-
 
 def build_draft(draft_date: str, raw_lines: list[str]) -> JournalDraft:
     draft = JournalDraft(date=draft_date)
@@ -128,7 +121,6 @@ def build_draft(draft_date: str, raw_lines: list[str]) -> JournalDraft:
         draft.sections["archive/placeholders/evidence"].append("Needs follow-up")
     return draft
 
-
 def render_markdown(draft: JournalDraft) -> str:
     lines = [f"# Daily Journal - {draft.date}", ""]
     for key in SECTION_ORDER:
@@ -142,7 +134,6 @@ def render_markdown(draft: JournalDraft) -> str:
         lines.append("")
     lines.append("Review before saving, then commit and push to GitHub.")
     return "\n".join(lines) + "\n"
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -180,7 +171,6 @@ def main() -> int:
         sys.stdout.write(markdown)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

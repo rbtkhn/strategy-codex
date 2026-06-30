@@ -36,7 +36,6 @@ RULES = [
     ),
 ]
 
-
 def main() -> int:
     files = 0
     for path in ARCHIVE_ROOT.rglob("*.md"):
@@ -54,7 +53,6 @@ def main() -> int:
             files += 1
     print(f"backfill_archive_synthesis_links: updated {files} file(s)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

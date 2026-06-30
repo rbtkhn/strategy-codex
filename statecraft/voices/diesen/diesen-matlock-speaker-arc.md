@@ -1,6 +1,5 @@
 # arc-matlock-diesen-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-matlock-diesen-host.md](../../notes/arc-matlock-diesen-host.md)
 

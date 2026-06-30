@@ -1,6 +1,5 @@
 # America Geo
 
-WORK only; not Record.
 
 ## Purpose
 

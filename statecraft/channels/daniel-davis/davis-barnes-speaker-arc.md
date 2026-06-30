@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Barnes Speaker Arc (compat redirect)
 

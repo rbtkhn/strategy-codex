@@ -3,7 +3,6 @@
 
 Thin wrapper around ``backfill_author_page_raw_input.py`` with Baud defaults.
 Treat the public archive as a discovery index, not a completeness mandate.
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -23,7 +22,6 @@ DEFAULT_AUTHOR_URL = "https://www.thepostil.com/author/jacques-baud/"
 DEFAULT_DOMAIN = "thepostil.com"
 DEFAULT_PUBLICATION = "thepostil.com"
 DEFAULT_THREAD = "baud"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -54,7 +52,6 @@ def main() -> int:
         apply=args.apply,
         limit=max(1, min(args.limit, 100)),
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

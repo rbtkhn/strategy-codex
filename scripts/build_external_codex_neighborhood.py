@@ -29,7 +29,6 @@ _SUGGESTED_K = 5
 
 _EDGE_WEIGHT = {"same_directory": 3, "parent_directory": 1}
 
-
 def compute_neighbors(
     checkout: Path,
     subject: Path,
@@ -42,7 +41,6 @@ def compute_neighbors(
     slice_ = deduped[:neighbor_limit]
     neighbors = [{"path_relative": pr, "edge": ed} for pr, ed in slice_]
     return neighbors, truncated, warnings
-
 
 def mechanical_reason(edge: str, section: str, neighbor_civ: str | None, subject_civ: str | None) -> str:
     _ = neighbor_civ, subject_civ
@@ -59,7 +57,6 @@ def mechanical_reason(edge: str, section: str, neighbor_civ: str | None, subject
     if section == "governanceplatform/template":
         return f"path/filename matches template-or-templates heuristic; edge={edge}"
     return f"filesystem structural neighbor; edge={edge}"
-
 
 def assign_section(
     subject_civ: str | None,
@@ -81,7 +78,6 @@ def assign_section(
     if is_governance_template_path(neigh_path, nb):
         return "governanceplatform/template"
     return "other_structural"
-
 
 def enrich_neighbor_rows(
     neighbors: list[dict[str, str]],
@@ -127,7 +123,6 @@ def enrich_neighbor_rows(
     }
     return rows, likely_family
 
-
 def inspection_score(
     subject_civ: str | None,
     subject_class: str,
@@ -145,7 +140,6 @@ def inspection_score(
     if sec in ("index_core_scholar", "governanceplatform/template"):
         sc += 1
     return sc
-
 
 def suggested_inspection_targets(
     rows: list[dict[str, object]],
@@ -176,7 +170,6 @@ def suggested_inspection_targets(
         )
         out.append({"path_relative": pr, "reason": why, "score": score})
     return out
-
 
 def render_companion_markdown(report: dict[str, object]) -> str:
     sub_rel = str(report["subject_relative"])
@@ -299,7 +292,6 @@ def render_companion_markdown(report: dict[str, object]) -> str:
     )
     return "\n".join(lines).rstrip() + "\n"
 
-
 def build_report(
     repo_root: Path,
     checkout_relative: str,
@@ -346,7 +338,6 @@ def build_report(
     if warnings:
         report["warnings"] = warnings
     return report
-
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="External codex structural neighborhood report.")
@@ -434,7 +425,6 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

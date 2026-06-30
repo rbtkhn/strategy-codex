@@ -66,7 +66,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | `Dialogue Works` | 5 |
 | `Diesen` | 4 |
 | `Mario Nawfal` | 3 |
-| `Nima Alkorshid` | 3 |
+| `Nima Alkhorshid` | 3 |
 | `Nema` | 2 |
 
 ## Guest Leaderboard

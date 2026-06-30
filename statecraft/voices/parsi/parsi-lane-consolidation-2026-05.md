@@ -1,6 +1,5 @@
 # Parsi Lane Consolidation — 2026-05
 
-WORK only; not Record.
 
 This note consolidates the current `parsi` raw-input recovery burst into one operator-facing spine:
 

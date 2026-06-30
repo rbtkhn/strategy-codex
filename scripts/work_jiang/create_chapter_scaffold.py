@@ -25,13 +25,11 @@ ANALYSIS_DIR = WORK_DIR / "analysis"
 TEMPLATE_PATH = Path(__file__).parent / "templates" / "CHAPTER-SCAFFOLD-DUAL-LENS.md"
 CLAIMS_PATH = WORK_DIR / "claims" / "registry" / "claims.jsonl"
 
-
 def load(path: Path) -> dict:
     if not path.exists():
         return {}
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def _approved_memos_for_sources(source_ids: list[str]) -> tuple[list[str], list[str]]:
     """Return (civmem_paths, psyhist_paths) for sources that have approved memos in analysis/."""
@@ -50,7 +48,6 @@ def _approved_memos_for_sources(source_ids: list[str]) -> tuple[list[str], list[
                 psyhist.append(f"`{p.relative_to(WORK_DIR)}`")
     return civmem, psyhist
 
-
 def _claims_for_chapter(cid: str) -> list[dict]:
     """Return claims where chapter is in chapter_candidates."""
     if not CLAIMS_PATH.exists():
@@ -67,7 +64,6 @@ def _claims_for_chapter(cid: str) -> list[dict]:
         except json.JSONDecodeError:
             continue
     return out
-
 
 def _generate_dual_lens_scaffold(cid: str, title: str, sids: list[str], force: bool) -> int:
     if not TEMPLATE_PATH.exists():
@@ -129,7 +125,6 @@ def _generate_dual_lens_scaffold(cid: str, title: str, sids: list[str], force: b
     print(f"  Lectures: {len(sids)} ({', '.join(sids[:5])}{'…' if len(sids) > 5 else ''})")
     print(f"  CIV-MEM memos: {len(civmem_paths)} | PSY-HIST memos: {len(psyhist_paths)} | Claims: {len(claims)}")
     return 0
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -270,7 +265,6 @@ Scratch space for drafting.
         print(f"Wrote {notes_path.relative_to(ROOT)}")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

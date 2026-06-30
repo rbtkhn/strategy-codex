@@ -45,7 +45,6 @@ HINT_BODY = (
     "`scripts/operator_merge_once.sh`, `docs/skill-work/work-dev/README.md` § Operator path."
 )
 
-
 @dataclass(frozen=True)
 class VelocitySnapshot:
     window_days: int
@@ -53,12 +52,10 @@ class VelocitySnapshot:
     approved: int
     tier: int  # 0 = below L1
 
-
 def _to_utc(dt: datetime) -> datetime:
     if dt.tzinfo is None:
         return dt.replace(tzinfo=UTC)
     return dt.astimezone(UTC)
-
 
 def _parse_line_ts(line: str) -> datetime | None:
     line = line.strip()
@@ -78,7 +75,6 @@ def _parse_line_ts(line: str) -> datetime | None:
     except ValueError:
         return None
 
-
 def _event_name(line: str) -> str | None:
     try:
         o = json.loads(line.strip())
@@ -86,7 +82,6 @@ def _event_name(line: str) -> str | None:
         return str(ev) if ev is not None else None
     except json.JSONDecodeError:
         return None
-
 
 def analyze_velocity(
     user_id: str,
@@ -117,7 +112,6 @@ def analyze_velocity(
     tier = _tier_from_counts(applied, approved)
     return VelocitySnapshot(window_days=window_days, applied=applied, approved=approved, tier=tier)
 
-
 def _tier_from_counts(applied: int, approved: int) -> int:
     best = 0
     for tier, min_a, min_p in TIER_THRESHOLDS:
@@ -125,10 +119,8 @@ def _tier_from_counts(applied: int, approved: int) -> int:
             best = max(best, tier)
     return best
 
-
 def _state_path(user_id: str) -> Path:
     return profile_dir(user_id) / ".operator_depth_hint_state.json"
-
 
 def _load_state(user_id: str) -> dict[str, Any]:
     p = _state_path(user_id)
@@ -139,12 +131,10 @@ def _load_state(user_id: str) -> dict[str, Any]:
     except (json.JSONDecodeError, OSError):
         return {}
 
-
 def _save_state(user_id: str, data: dict[str, Any]) -> None:
     p = _state_path(user_id)
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-
 
 def maybe_emit_tier_hint(
     user_id: str,
@@ -199,14 +189,12 @@ def maybe_emit_tier_hint(
     _save_state(user_id, state)
     return True, msg
 
-
 def _record_frozen() -> bool:
     try:
         from strategy_codex_config import record_frozen
     except ImportError:
         from scripts.strategy_codex_config import record_frozen  # type: ignore
     return record_frozen()
-
 
 def velocity_oneliner(user_id: str, *, window_days: int = 7) -> str:
     """Short line for operator_daily_warmup (no side effects)."""
@@ -223,7 +211,6 @@ def velocity_oneliner(user_id: str, *, window_days: int = 7) -> str:
         f"tier L{snap.tier} active; depth docs: `docs/skill-work/work-dev/workspace.md` "
         f"(run `python3 scripts/operator_depth_hint.py -u {user_id}` to emit harness hint on tier increases)."
     )
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Emit operator depth harness hint when pipeline tier increases.")
@@ -252,7 +239,6 @@ def main() -> int:
     print(f"tier={snap.tier} applied={snap.applied} approved={snap.approved} window={snap.window_days}d")
     print(message)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

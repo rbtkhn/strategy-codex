@@ -51,7 +51,6 @@ DEFAULT_NIGHT_SPARKS = [
     "One sentence you're glad is documented somewhere in codex/predictive-history/ tonight.",
 ]
 
-
 def _load_yaml_sparks() -> tuple[list[str], list[str]]:
     morning, night = list(DEFAULT_MORNING_SPARKS), list(DEFAULT_NIGHT_SPARKS)
     if not SPARKS_PATH.is_file():
@@ -70,16 +69,13 @@ def _load_yaml_sparks() -> tuple[list[str], list[str]]:
         pass
     return morning, night
 
-
 def _ordinal_day() -> int:
     return datetime.now(timezone.utc).timetuple().tm_yday
-
 
 def _pick_spark(lines: list[str]) -> str:
     if not lines:
         return ""
     return lines[_ordinal_day() % len(lines)]
-
 
 def _parse_instance_work_context_yaml(work_jiang_md: str) -> dict[str, str]:
     m = (
@@ -100,7 +96,6 @@ def _parse_instance_work_context_yaml(work_jiang_md: str) -> dict[str, str]:
             out[key] = val[:220]
     return out
 
-
 def _first_status_next_action(status_md: str) -> str:
     if "## Next actions" not in status_md:
         return ""
@@ -110,7 +105,6 @@ def _first_status_next_action(status_md: str) -> str:
         if m:
             return m.group(1).strip()[:200]
     return ""
-
 
 def _first_chapter_next_action(queue_md: str) -> tuple[str, str]:
     """Return (chapter_id, next_action) from first ## chNN block."""
@@ -123,7 +117,6 @@ def _first_chapter_next_action(queue_md: str) -> tuple[str, str]:
     action = m.group(1).strip()[:200] if m else ""
     return cid, action
 
-
 def _corpus_oneliner(status_md: str) -> str:
     """First bullet under ## Corpus if present."""
     if "## Corpus" not in status_md:
@@ -134,7 +127,6 @@ def _corpus_oneliner(status_md: str) -> str:
         if s.startswith("- "):
             return s[2:].strip()[:180]
     return ""
-
 
 def build_morning_pulse_lines(user_id: str) -> list[str]:
     profile = ROOT / "platform/users" / user_id / "work-jiang.md"
@@ -187,7 +179,6 @@ def build_morning_pulse_lines(user_id: str) -> list[str]:
     )
     return lines
 
-
 def build_night_pulse_lines(user_id: str) -> list[str]:
     profile = ROOT / "platform/users" / user_id / "work-jiang.md"
     wj = profile.read_text(encoding="utf-8") if profile.is_file() else ""
@@ -223,7 +214,6 @@ def build_night_pulse_lines(user_id: str) -> list[str]:
     lines.append("")
     return lines
 
-
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("-u", "--user", default="grace-mar", help="Fork id under platform/users/")
@@ -240,7 +230,6 @@ def main() -> int:
     else:
         print("\n".join(build_morning_pulse_lines(uid)))
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -12,13 +12,11 @@ QUOTES_PATH = WORK_DIR / "metadata" / "quotes.yaml"
 LINKS_PATH = WORK_DIR / "metadata" / "chapter-quote-links.yaml"
 OUT_PATH = WORK_DIR / "metadata" / "quote-index.yaml"
 
-
 def load(path: Path) -> dict:
     if not path.exists():
         return {}
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def main() -> int:
     quotes_data = load(QUOTES_PATH)
@@ -53,7 +51,6 @@ def main() -> int:
     )
     print(f"Wrote {OUT_PATH.relative_to(ROOT)} ({len(index_quotes)} quotes)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-04-28/source-diesen-wilkerson-araghchi-putin-russia-iran-2026-04-28.md
   - source-archive/statecraft/2026-04-30/source-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md
 ---
-WORK only; not Record.
 
 # Wilkerson April 2026 contradiction audit
 

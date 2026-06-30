@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Lane Map 2026 05 (compat redirect)
 

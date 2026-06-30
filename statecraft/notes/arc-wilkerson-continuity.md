@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2025-01-18/source-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md
 ---
 
-WORK only; not Record.
 
 # Wilkerson arc
 

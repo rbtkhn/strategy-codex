@@ -1,6 +1,6 @@
 from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
-"""Strategy run wrapper — start / inspect / resume / complete (WORK only).
+"""Strategy run wrapper — start / inspect / resume / complete (non-authoritative).
 
 Derived operational state; does not mutate canonical strategy notebook Markdown.
 See docs/run-contract.md, docs/skill-work/work-strategy/STRATEGY-RUN-OPERATOR.md
@@ -24,7 +24,6 @@ DEFAULT_NOTEBOOK = REPO_ROOT / "docs" / "skill-work" / "work-strategy" / "strate
 ARTIFACTS_RUNS = ARTIFACTS_DIR / "strategy-runs"
 ARTIFACTS_RECEIPTS = ARTIFACTS_DIR / "run-receipts"
 
-
 @dataclass
 class InputResolution:
     notebook_dir: str
@@ -41,10 +40,8 @@ class InputResolution:
         out = [self.notebook_dir, self.inbox_path, self.days_md_path, self.raw_input_dir]
         return sorted(out)
 
-
 def _now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-
 
 def _rel(p: Path) -> str:
     try:
@@ -52,20 +49,16 @@ def _rel(p: Path) -> str:
     except ValueError:
         return p.resolve().as_posix()
 
-
 def _run_dir(run_id: str) -> Path:
     return ARTIFACTS_RUNS / run_id
 
-
 def _state_path(run_id: str) -> Path:
     return _run_dir(run_id) / "state.json"
-
 
 def _generate_run_id(d: date) -> str:
     import secrets
 
     return f"stratrun-{d.strftime('%Y%m%d')}-{secrets.token_hex(4)}"
-
 
 def _resolve_inputs(notebook_dir: Path, target: date) -> InputResolution:
     ymd = target.isoformat()
@@ -96,12 +89,10 @@ def _resolve_inputs(notebook_dir: Path, target: date) -> InputResolution:
         warnings=warnings,
     )
 
-
 def _initial_status(res: InputResolution) -> str:
     if res.inbox_exists:
         return "inputs_resolved"
     return "started"
-
 
 def _build_state(
     run_id: str,
@@ -140,18 +131,15 @@ def _build_state(
         "updated_at": ts,
     }
 
-
 def _write_json(path: Path, data: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
 
 def _read_state(run_id: str) -> dict[str, Any]:
     p = _state_path(run_id)
     if not p.is_file():
         raise FileNotFoundError(f"no state for run_id: {run_id} ({p})")
     return json.loads(p.read_text(encoding="utf-8"))
-
 
 def _receipt(
     command: str,
@@ -174,7 +162,6 @@ def _receipt(
         "model": None,
         "provider": None,
     }
-
 
 def cmd_start(args: argparse.Namespace) -> int:
     target = date.fromisoformat(args.date)
@@ -206,7 +193,6 @@ def cmd_start(args: argparse.Namespace) -> int:
     print(f"receipt: {receipt_rel}", flush=True)
     return 0
 
-
 def _print_summary(st: dict[str, Any], *, label: str) -> None:
     print(f"--- {label} ---", flush=True)
     print(f"run_id:        {st.get('run_id')}", flush=True)
@@ -230,7 +216,6 @@ def _print_summary(st: dict[str, Any], *, label: str) -> None:
     for w in st.get("warnings") or []:
         print(f"  - {w}", flush=True)
 
-
 def cmd_inspect(args: argparse.Namespace) -> int:
     try:
         st = _read_state(args.run_id)
@@ -240,7 +225,6 @@ def cmd_inspect(args: argparse.Namespace) -> int:
     _print_summary(st, label="inspect")
     return 0
 
-
 def cmd_resume(args: argparse.Namespace) -> int:
     try:
         st = _read_state(args.run_id)
@@ -249,7 +233,6 @@ def cmd_resume(args: argparse.Namespace) -> int:
         return 1
     _print_summary(st, label="resume (no files mutated)")
     return 0
-
 
 def cmd_complete(args: argparse.Namespace) -> int:
     try:
@@ -292,7 +275,6 @@ def cmd_complete(args: argparse.Namespace) -> int:
     print(f"receipt: {rrel}", flush=True)
     return 0
 
-
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -328,7 +310,6 @@ def main() -> int:
 
     args = p.parse_args()
     return int(args.func(args))
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

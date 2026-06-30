@@ -7,7 +7,6 @@ paste-ready markdown section:
 
   ## Situation Brief — changes since YYYY-MM-DD
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -45,17 +44,14 @@ DISCLAIMER_LINE = (
     "not legal or investment advice.*"
 )
 
-
 @dataclass(frozen=True)
 class ForkGrade:
     fork_id: str
     grade: str
     source: str
 
-
 def parse_iso_date(value: str) -> date:
     return date.fromisoformat(value.strip())
-
 
 def table_rows(text: str) -> list[list[str]]:
     rows: list[list[str]] = []
@@ -70,7 +66,6 @@ def table_rows(text: str) -> list[list[str]]:
             rows.append(cells)
     return rows
 
-
 def extract_fork_id(cell: str) -> str | None:
     match = FORK_ID_RE.search(cell)
     if match:
@@ -81,7 +76,6 @@ def extract_fork_id(cell: str) -> str | None:
     if loose:
         return loose.group(1)
     return None
-
 
 def grade_from_row(cells: list[str]
 ) -> str | None:
@@ -109,7 +103,6 @@ def grade_from_row(cells: list[str]
     grades.sort(key=lambda g: priority.get(g.split("/")[0], 50))
     return grades[0]
 
-
 def parse_fork_grades(text: str, source: str) -> dict[str, ForkGrade]:
     found: dict[str, ForkGrade] = {}
     for row in table_rows(text):
@@ -129,7 +122,6 @@ def parse_fork_grades(text: str, source: str) -> dict[str, ForkGrade]:
         found[fork_id] = ForkGrade(fork_id=fork_id, grade=grade, source=source)
     return found
 
-
 def wire_matrix_for_day(wire_dir: Path, day: date) -> Path | None:
     day_str = day.isoformat()
     exact = wire_dir / f"{day_str}-news-verify-matrix.md"
@@ -142,7 +134,6 @@ def wire_matrix_for_day(wire_dir: Path, day: date) -> Path | None:
     )
     return candidates[-1] if candidates else None
 
-
 def watch_run_for_day(watch_dir: Path, day: date) -> Path | None:
     day_str = day.isoformat()
     exact = watch_dir / f"{day_str}-72h-watch-run.md"
@@ -152,7 +143,6 @@ def watch_run_for_day(watch_dir: Path, day: date) -> Path | None:
         p for p in watch_dir.glob(f"{day_str}*-72h-watch-run.md") if p.is_file()
     )
     return candidates[-1] if candidates else None
-
 
 def prior_day_with_matrix(
     wire_dir: Path, day: date, max_lookback: int = 14
@@ -164,7 +154,6 @@ def prior_day_with_matrix(
             return cursor, path
         cursor -= timedelta(days=1)
     return None
-
 
 def load_grades(path: Path, *, watch_dir: Path = DEFAULT_WATCH_DIR) -> dict[str, ForkGrade]:
     text = path.read_text(encoding="utf-8")
@@ -180,7 +169,6 @@ def load_grades(path: Path, *, watch_dir: Path = DEFAULT_WATCH_DIR) -> dict[str,
             for fork_id, entry in watch_grades.items():
                 grades.setdefault(fork_id, entry)
     return grades
-
 
 def delta_implication(prior: str | None, current: str, changed: bool) -> str:
     if prior is None:
@@ -204,7 +192,6 @@ def delta_implication(prior: str | None, current: str, changed: bool) -> str:
     if "open" in pairs[1]:
         return "Still open — falsifier window active."
     return "Grade moved — reopen prior memo language."
-
 
 def build_delta_block(
     *,
@@ -279,7 +266,6 @@ def build_delta_block(
     lines.extend(["", DISCLAIMER_LINE, ""])
     return "\n".join(lines)
 
-
 def resolve_inputs(
     *,
     wire_dir: Path,
@@ -334,7 +320,6 @@ def resolve_inputs(
 
     return current_day, today_file, resolved_prior_day, prior_file
 
-
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--day", help="Current day YYYY-MM-DD (wire matrix lookup)")
@@ -356,13 +341,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("-o", "--output", type=Path, help="Write markdown to file instead of stdout")
     return parser.parse_args(argv)
 
-
 def _ensure_utf8_stdout() -> None:
     try:
         sys.stdout.reconfigure(encoding="utf-8")  # type: ignore[attr-defined]
     except (AttributeError, ValueError, OSError):
         pass
-
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
@@ -409,7 +392,6 @@ def main(argv: list[str] | None = None) -> int:
         _ensure_utf8_stdout()
         print(block)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

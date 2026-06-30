@@ -50,7 +50,6 @@ except ImportError:
     from scripts.repo_io import resolve_ledger_path, resolve_self_memory_path, resolve_surface_markdown_path
     from scripts.grace_mar_compat_paths import BOT_DIR
 
-
 RUNTIME_MODES = {
     "adjunct_runtime": {
         "description": "Assistive runtime alongside the canonical repo.",
@@ -69,31 +68,25 @@ RUNTIME_MODES = {
     },
 }
 
-
 def _utc_now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
-
 
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
 
-
 def _write_text(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
 
-
 def _write_json(path: Path, payload: dict | list) -> None:
     _write_text(path, json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
-
 
 def _sha256_bytes(data: bytes) -> str:
     h = hashlib.sha256()
     h.update(data)
     return h.hexdigest()
-
 
 def _file_meta(path: Path) -> dict:
     if not path.exists():
@@ -108,21 +101,17 @@ def _file_meta(path: Path) -> dict:
         "sha256": _sha256_bytes(raw),
     }
 
-
 def _profile_dir(user_id: str) -> Path:
     if REPO_ROOT == Path(__file__).resolve().parent.parent:
         return canonical_profile_dir(user_id)
     return REPO_ROOT
 
-
 def _default_output_dir(user_id: str) -> Path:
     return _profile_dir(user_id) / "runtime/bundle"
-
 
 def _bundle_id(user_id: str, runtime_mode: str, generated_at: str) -> str:
     digest = _sha256_bytes(f"{user_id}:{runtime_mode}:{generated_at}".encode("utf-8"))
     return digest[:12]
-
 
 def _warmup_text(user_id: str) -> str:
     profile_dir = _profile_dir(user_id)
@@ -151,7 +140,6 @@ def _warmup_text(user_id: str) -> str:
         f"```\n{session_tail or '(none)'}\n```\n"
     )
 
-
 def _session_log_tail(user_id: str, max_lines: int = 20) -> str:
     session_log_path = _profile_dir(user_id) / "session-log.md"
     lines = [ln for ln in _read(session_log_path).splitlines() if ln.strip()]
@@ -162,7 +150,6 @@ def _session_log_tail(user_id: str, max_lines: int = 20) -> str:
         f"```\n{tail}\n```\n"
     )
 
-
 def _memory_snapshot(user_id: str) -> str:
     memory_path = resolve_memory_path(_profile_dir(user_id))
     content = _read(memory_path).strip()
@@ -171,7 +158,6 @@ def _memory_snapshot(user_id: str) -> str:
         "> Non-canonical runtime continuity aid. This is not Record truth.\n\n"
         f"{content or '(memory.md missing or empty)'}\n"
     )
-
 
 def export_runtime_bundle(
     user_id: str = "strategy-codex",
@@ -423,7 +409,6 @@ def export_runtime_bundle(
 
     return bundle_payload
 
-
 def main() -> None:
     import warnings
 
@@ -452,7 +437,6 @@ def main() -> None:
         include_user_json=args.include_user_json,
     )
     print(json.dumps(payload, indent=2, ensure_ascii=False))
-
 
 if __name__ == "__main__":
     main()

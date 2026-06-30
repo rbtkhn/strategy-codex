@@ -1,6 +1,5 @@
 # Current Sovereign Heads Of The CIV-States
 
-WORK only; not Record.
 
 Date anchor: **May 28, 2026**.
 

@@ -61,7 +61,6 @@ CHAPTERS = {
     },
 }
 
-
 def flowing_transcript(md_path: Path) -> str:
     lines = md_path.read_text(encoding="utf-8").splitlines()
     idx = next(i for i, ln in enumerate(lines) if ln.strip() == "## Full transcript")
@@ -71,7 +70,6 @@ def flowing_transcript(md_path: Path) -> str:
             break
         body.append(ln)
     return " ".join(ln.strip() for ln in body if ln.strip())
-
 
 def chunk_on_okay_cadence(text: str, target_words: int = 950) -> list[str]:
     """Split on frequent classroom ' okay ' breaks so blocks don't start mid-sentence."""
@@ -103,7 +101,6 @@ def chunk_on_okay_cadence(text: str, target_words: int = 950) -> list[str]:
         else:
             merged.append(c)
     return merged
-
 
 def render(chapter_id: str) -> str:
     cfg = CHAPTERS[chapter_id]
@@ -157,7 +154,6 @@ def render(chapter_id: str) -> str:
     )
     return "\n".join(lines_out)
 
-
 def main() -> None:
     p = argparse.ArgumentParser(description="Render quote-forward draft.md for ch01/ch02.")
     p.add_argument(
@@ -182,7 +178,6 @@ def main() -> None:
         out = WORK / "chapters" / cid / "draft.md"
         out.write_text(render(cid), encoding="utf-8")
         print(f"Wrote {out}")
-
 
 if __name__ == "__main__":
     main()

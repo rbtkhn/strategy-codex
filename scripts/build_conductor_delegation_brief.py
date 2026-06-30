@@ -15,7 +15,6 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 REGISTRY_PATH = REPO_ROOT / "platform/config" / "conductor-delegation-types.json"
 TEMPLATE_PATH = (
@@ -30,27 +29,22 @@ TEMPLATE_PATH = (
 DEFAULT_OUTPUT_DIR = ARTIFACTS_DIR / "work-dev" / "conductor-delegations"
 CONDUCTORS = ("toscanini", "furtwangler", "karajan", "kleiber", "bernstein")
 
-
 def load_registry(path: Path = REGISTRY_PATH) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def _slugify(value: str, *, max_len: int = 48) -> str:
     slug = re.sub(r"[^a-zA-Z0-9]+", "-", value.lower()).strip("-")
     return slug[:max_len].strip("-") or "task"
-
 
 def _bullet_list(values: list[str]) -> str:
     if not values:
         return "- _None specified._"
     return "\n".join(f"- {value}" for value in values)
 
-
 def _read_optional_brief(path: Path | None) -> str:
     if path is None:
         return "_None provided._"
     return path.read_text(encoding="utf-8").strip() or "_Provided brief was empty._"
-
 
 def _brief_input_line(path: Path | None) -> str:
     if path is None:
@@ -61,13 +55,11 @@ def _brief_input_line(path: Path | None) -> str:
         display = path
     return f"- Additional brief file: `{display}`"
 
-
 def _render_template(template: str, values: dict[str, str]) -> str:
     rendered = template
     for key, value in values.items():
         rendered = rendered.replace("{{" + key + "}}", value)
     return rendered
-
 
 def build_delegation(
     *,
@@ -148,7 +140,6 @@ def build_delegation(
     receipt_path.write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
     return brief_path, receipt_path
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--type", required=True, choices=("explore", "plan", "review", "reflection"))
@@ -173,7 +164,6 @@ def main() -> int:
     print(f"wrote {brief_path.relative_to(REPO_ROOT)}")
     print(f"wrote {receipt_path.relative_to(REPO_ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

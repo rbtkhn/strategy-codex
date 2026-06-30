@@ -72,17 +72,14 @@ _CANONICAL_RECORD_PATHS = {
 
 BANNER = "MOCK MCP RUN Â· WORK ARTIFACT Â· NO LIVE SERVER Â· NOT APPROVED INTEGRATION"
 
-
 def _lte_rank(value: str, cap_max: str, ranks: dict[str, int]) -> bool:
     return ranks.get(value, -1) <= ranks.get(cap_max, -1)
-
 
 def _posix_under_repo(repo_root: Path, path: Path) -> str:
     try:
         return path.resolve().relative_to(repo_root.resolve()).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def load_mock_run(path: Path) -> dict[str, Any]:
     text = path.read_text(encoding="utf-8")
@@ -91,13 +88,11 @@ def load_mock_run(path: Path) -> dict[str, Any]:
         raise ValueError("mock run root must be an object")
     return doc
 
-
 def _is_canonical_record_path(token: str) -> bool:
     norm = token.replace("\\", "/").strip().lower().lstrip("./")
     if norm.startswith("platform/users/strategy-codex/") or norm.startswith("platform/users/grace-mar/"):
         return True
     return norm in _CANONICAL_RECORD_PATHS
-
 
 def validate_resource_token(s: str, *, ctx: str) -> None:
     """Reject unsafe resources; allow mock:// URIs or repo-relative fixture paths."""
@@ -124,7 +119,6 @@ def validate_resource_token(s: str, *, ctx: str) -> None:
     if ".." in parts:
         raise ValueError(f"{ctx}: paths must not contain .. ({t!r})")
 
-
 def validate_mock_resources(doc: dict[str, Any]) -> None:
     mq = doc["mock_request"]
     for i, s in enumerate(mq.get("resources_read") or []):
@@ -132,11 +126,9 @@ def validate_mock_resources(doc: dict[str, Any]) -> None:
     for i, s in enumerate(mq.get("resources_written") or []):
         validate_resource_token(s, ctx=f"mock_request.resources_written[{i}]")
 
-
 def shell_tool_needles_hit(tool_name: str) -> bool:
     h = tool_name.lower()
     return any(n in h for n in _SHELL_NEEDLES) or any(n in h for n in _COMMAND_NEEDLES)
-
 
 def overlay_simulated_capability(sim: dict[str, Any], mock_req: dict[str, Any]) -> dict[str, Any]:
     syn = copy.deepcopy(sim)
@@ -145,7 +137,6 @@ def overlay_simulated_capability(sim: dict[str, Any], mock_req: dict[str, Any]) 
     syn["reads"] = list(mock_req.get("resources_read") or [])
     syn["writes"] = list(mock_req.get("resources_written") or [])
     return syn
-
 
 def enforce_mock_vs_registry(doc: dict[str, Any], sim: dict[str, Any]) -> list[str]:
     """Return human-readable violation strings; empty means pass."""
@@ -187,14 +178,12 @@ def enforce_mock_vs_registry(doc: dict[str, Any], sim: dict[str, Any]) -> list[s
 
     return errs
 
-
 def prohibited_action_attempted_for_receipt(mock_status: str, shell_hit: bool) -> bool:
     if mock_status in ("blocked", "failed"):
         return True
     if shell_hit and mock_status != "success":
         return True
     return False
-
 
 def resolve_mock_run_destination(repo_root: Path, output: Path | None) -> Path:
     bucket = (ARTIFACTS_DIR / "mcp-mock-runs").resolve()
@@ -215,7 +204,6 @@ def resolve_mock_run_destination(repo_root: Path, output: Path | None) -> Path:
     if len(rp) >= 2 and rp[0].lower() == "platform/users" and rp[1].lower() in ("grace-mar", "strategy-codex"):
         raise ValueError("refusing output path under platform/users/grace-mar or platform/users/strategy-codex")
     return resolved
-
 
 def render_markdown(
     doc: dict[str, Any],
@@ -335,7 +323,6 @@ def render_markdown(
         ]
     )
     return "\n".join(lines) + "\n"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Mock MCP execution harness â€” fixture JSON to packet + receipt.")
@@ -525,7 +512,6 @@ def main() -> int:
     print(_posix_under_repo(root, dest))
     print(_posix_under_repo(root, receipt_path))
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

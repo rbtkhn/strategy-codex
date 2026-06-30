@@ -1,7 +1,6 @@
 # Expert transcript — `ritter`
 <!-- word_count: 5046 -->
 
-WORK only; not Record.
 
 Compatibility note: this is a legacy continuity transcript surface. Use it as support residue, not as a first-open citation path when the person arc, routing note, bounded month synthesis, helix, or raw-input bench at [statecraft/voices/ritter/README.md](README.md) already answer the question more directly.
 Compatibility note: any unresolved watch placeholders that survive inside rolled-forward transcript carryover are non-canonical. Prefer the bounded month arc, refined page file, or raw-input artifact for citation use.

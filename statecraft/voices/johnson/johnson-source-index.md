@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Johnson Source Index (compat redirect)
 

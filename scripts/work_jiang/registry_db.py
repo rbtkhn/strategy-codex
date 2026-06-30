@@ -8,14 +8,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_DB = ROOT / "codex" / "predictive-history" / "registry" / "work_jiang_metrics.sqlite"
 
-
 def connect(db_path: Path | None = None) -> sqlite3.Connection:
     path = db_path or DEFAULT_DB
     path.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(str(path))
     conn.row_factory = sqlite3.Row
     return conn
-
 
 def init_schema(conn: sqlite3.Connection) -> None:
     conn.executescript(
@@ -51,7 +49,6 @@ def init_schema(conn: sqlite3.Connection) -> None:
         """
     )
     conn.commit()
-
 
 def rebuild_from_jsonl(
     *,
@@ -136,13 +133,11 @@ def rebuild_from_jsonl(
     conn.commit()
     conn.close()
 
-
 def _env_prefer_sqlite() -> bool:
     import os
 
     v = os.environ.get("WORK_JIANG_REGISTRY_PREFER_SQLITE", "").strip().lower()
     return v in ("1", "true", "yes")
-
 
 def load_predictions_for_link(*, prefer_sqlite: bool | None = None) -> list[dict]:
     """Load prediction rows for link_supporting_registries (JSONL canonical; optional SQLite read)."""
@@ -164,7 +159,6 @@ def load_predictions_for_link(*, prefer_sqlite: bool | None = None) -> list[dict
             if line:
                 out.append(json.loads(line))
     return out
-
 
 def load_patterns_for_link(*, prefer_sqlite: bool | None = None) -> list[dict]:
     """Load pattern rows for link_supporting_registries (JSONL canonical; optional SQLite read)."""
@@ -189,7 +183,6 @@ def load_patterns_for_link(*, prefer_sqlite: bool | None = None) -> list[dict]:
             if line:
                 out.append(json.loads(line))
     return out
-
 
 def load_divergences_for_link(*, prefer_sqlite: bool | None = None) -> list[dict]:
     """Load divergence rows for link_supporting_registries (JSONL canonical; optional SQLite read)."""

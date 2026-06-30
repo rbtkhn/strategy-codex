@@ -31,11 +31,9 @@ UNRESOLVED_MARKERS = ["TODO", "TBD", "UNRESOLVED", "NEEDS REVIEW", "???"]
 CONTRADICTION_MARKERS = ["contradiction", "conflict", "in tension", "uncertain"]
 HEADING_PATTERN = re.compile(r"^\s{0,3}#{1,6}\s+\S", re.MULTILINE)
 
-
 def _append_if_present(items: list[str], value: str | None) -> None:
     if value and value not in items:
         items.append(value)
-
 
 def read_text_if_possible(path: Path) -> str | None:
     if not path.is_file():
@@ -44,7 +42,6 @@ def read_text_if_possible(path: Path) -> str | None:
         return path.read_text(encoding="utf-8", errors="replace")
     except OSError:
         return None
-
 
 def scan_markers(text: str, markers: list[str]) -> dict[str, Any]:
     by_marker: dict[str, int] = {}
@@ -59,7 +56,6 @@ def scan_markers(text: str, markers: list[str]) -> dict[str, Any]:
         total += c
     return {"by_marker": by_marker, "total_hits": total}
 
-
 def summarize_validator_status(validators: list[dict[str, Any]]) -> str:
     statuses = [v["status"] for v in validators]
     if "fail" in statuses:
@@ -67,7 +63,6 @@ def summarize_validator_status(validators: list[dict[str, Any]]) -> str:
     if "needs_review" in statuses:
         return "needs_review"
     return "pass"
-
 
 def load_task_shape_context_from_inputs(
     repo_root: Path,
@@ -104,7 +99,6 @@ def load_task_shape_context_from_inputs(
             "notes": "From --task-shape CLI.",
         }
     return None
-
 
 def validate_packet(
     *,
@@ -511,7 +505,6 @@ def validate_packet(
         report["task_shape"] = task_shape_payload
     return report
 
-
 def run_validate_cli(args: argparse.Namespace) -> tuple[dict[str, Any], int]:
     repo_root = Path(args.repo_root).resolve()
     run_id = args.run_id or str(uuid.uuid4())
@@ -563,7 +556,6 @@ def run_validate_cli(args: argparse.Namespace) -> tuple[dict[str, Any], int]:
 
     return report, exit_code
 
-
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Work-strategy strategy packet validators (WORK-only).")
     p.add_argument("--task", type=str, default=None, help="Task intake path (recorded in report target).")
@@ -600,7 +592,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     args.repo_root = str(Path(root).resolve())
     return args
 
-
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     report, exit_code = run_validate_cli(args)
@@ -609,7 +600,6 @@ def main(argv: list[str] | None = None) -> int:
     elif report["record_boundary"].get("canonical_write_violation"):
         print("Validators refused forbidden --out path.", file=sys.stderr)
     return exit_code
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

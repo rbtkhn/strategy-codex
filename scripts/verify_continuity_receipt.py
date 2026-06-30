@@ -15,10 +15,8 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def sha256_file_bytes(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
-
 
 def _resolve_receipt_path(repo_root: Path, rel: str) -> Path:
     path = repo_root / rel
@@ -29,7 +27,6 @@ def _resolve_receipt_path(repo_root: Path, rel: str) -> Path:
         return legacy
     return path
 
-
 def _parse_ts(s: str) -> datetime | None:
     s = s.strip()
     if s.endswith("Z"):
@@ -38,7 +35,6 @@ def _parse_ts(s: str) -> datetime | None:
         return datetime.fromisoformat(s)
     except ValueError:
         return None
-
 
 def validate_receipt_shape(o: Any) -> tuple[bool, str]:
     if not isinstance(o, dict):
@@ -64,7 +60,6 @@ def validate_receipt_shape(o: Any) -> tuple[bool, str]:
     if not isinstance(rd, dict) or not rd.get("tool") or not rd.get("version"):
         return False, "reader.tool and reader.version required"
     return True, ""
-
 
 def verify_receipt_file(
     receipt_path: Path,
@@ -102,7 +97,6 @@ def verify_receipt_file(
             return False, f"hash mismatch: {rel}"
     return True, ""
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Verify continuity receipt.")
     ap.add_argument("--receipt", "-r", type=Path, required=True)
@@ -115,7 +109,6 @@ def main() -> int:
         return 0
     print(f"verify_continuity_receipt: FAIL — {msg}", file=sys.stderr)
     return 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

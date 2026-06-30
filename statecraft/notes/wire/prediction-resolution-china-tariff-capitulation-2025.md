@@ -15,7 +15,6 @@ links:
 
 # Prediction resolution — china_tariff_capitulation_2025
 
-WORK only; not Record.
 
 **Event question:** Will China capitulate to Trump's tariff pressure (major substantive yield, not cosmetic)?  
 **Resolution criteria:** Operator resolves from documented trade/policy concessions.  

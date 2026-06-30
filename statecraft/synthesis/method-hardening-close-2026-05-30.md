@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Method Hardening Close - 2026-05-30
 

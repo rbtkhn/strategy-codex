@@ -70,7 +70,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | `Daniel Davis` | 89 |
 | `Glenn Diesen` | 48 |
 | `Andrew Napolitano` | 41 |
-| `Nima Alkorshid` | 21 |
+| `Nima Alkhorshid` | 21 |
 | `Diesen` | 14 |
 | `Dialogue Works` | 13 |
 | `Nema` | 12 |

@@ -34,12 +34,10 @@ try:
 except ImportError:
     from scripts.repo_io import profile_dir
 
-
 def _read_text(path: Path) -> str:
     if path.is_file():
         return path.read_text(encoding="utf-8")
     return ""
-
 
 def _pending_count(gate_text: str) -> int:
     """Count CANDIDATE-* blocks with status: pending (Candidates section only)."""
@@ -59,14 +57,12 @@ def _pending_count(gate_text: str) -> int:
             current_id = None
     return len(ids)
 
-
 def _gate_fingerprint(gate_path: Path) -> str:
     if not gate_path.is_file():
         return "0"
     st = gate_path.stat()
     raw = f"{st.st_mtime_ns}:{st.st_size}"
     return hashlib.sha256(raw.encode()).hexdigest()[:16]
-
 
 def _git_head(repo: Path) -> str:
     try:
@@ -81,7 +77,6 @@ def _git_head(repo: Path) -> str:
     except (OSError, subprocess.TimeoutExpired):
         return "unknown"
 
-
 def _git_status_sb(repo: Path) -> str:
     try:
         r = subprocess.run(
@@ -95,7 +90,6 @@ def _git_status_sb(repo: Path) -> str:
     except (OSError, subprocess.TimeoutExpired):
         return ""
 
-
 def _git_diff_stat(repo: Path) -> str:
     try:
         r = subprocess.run(
@@ -108,7 +102,6 @@ def _git_diff_stat(repo: Path) -> str:
         return r.stdout or ""
     except (OSError, subprocess.TimeoutExpired):
         return ""
-
 
 def classify_worktree_risk(status_out: str, diff_out: str) -> str:
     """Return safe | inspect | conflict-prone (bridge preflight)."""
@@ -124,7 +117,6 @@ def classify_worktree_risk(status_out: str, diff_out: str) -> str:
         return "conflict-prone"
     return "inspect"
 
-
 def _active_territories(repo_root: Path, days: int = TERRITORY_RECENCY_DAYS) -> list[str]:
     """Territory folder names with a history entry in the last N days (aligns with bridge continuity harness)."""
     cutoff = datetime.now(timezone.utc) - timedelta(days=days)
@@ -139,7 +131,6 @@ def _active_territories(repo_root: Path, days: int = TERRITORY_RECENCY_DAYS) -> 
                 break
     return sorted(set(active))
 
-
 def _resolve_companion_self(repo_root: Path) -> Path | None:
     env = os.environ.get("GRACE_MAR_COMPANION_SELF", "").strip()
     if env:
@@ -150,7 +141,6 @@ def _resolve_companion_self(repo_root: Path) -> Path | None:
     if sibling.is_dir() and (sibling / ".git").exists():
         return sibling
     return None
-
 
 def capture_state(repo_root: Path, user_id: str) -> dict[str, Any]:
     user_root = profile_dir(user_id)
@@ -180,7 +170,6 @@ def capture_state(repo_root: Path, user_id: str) -> dict[str, Any]:
         out["companionSelfWorktreeRisk"] = ""
     return out
 
-
 def _read_state(path: Path) -> dict[str, Any]:
     if not path.is_file():
         return {}
@@ -189,7 +178,6 @@ def _read_state(path: Path) -> dict[str, Any]:
         return data if isinstance(data, dict) else {}
     except (json.JSONDecodeError, OSError):
         return {}
-
 
 def build_delta_lines(prev: dict[str, Any], cur: dict[str, Any]) -> list[str]:
     if not prev:
@@ -214,7 +202,6 @@ def build_delta_lines(prev: dict[str, Any], cur: dict[str, Any]) -> list[str]:
             f"grace-mar worktree risk class changed ({prev.get('graceMarWorktreeRisk')} → {cur.get('graceMarWorktreeRisk')})."
         )
     return out[:4] if out else ["No material delta since last bridge."]
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -254,7 +241,6 @@ def main() -> int:
     state_path.write_text(json.dumps(cur, indent=2) + "\n", encoding="utf-8")
     print(state_path.relative_to(repo_root))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

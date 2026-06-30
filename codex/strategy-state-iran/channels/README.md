@@ -19,4 +19,4 @@
 
 [README — strategy-state-iran parent](../README.md) · [weave](../weave/) · [clusters](../clusters/)
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.

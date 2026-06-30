@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Maté Source Index (compat redirect)
 

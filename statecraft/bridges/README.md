@@ -1,6 +1,6 @@
 # Arc-Conditioned CIV-STATE Retrieval
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: connect speaker-arc interpretation to `civ-state` retrieval without collapsing speaker evidence into generic historical commentary or collapsing `civ-state` into transcript gloss.
 

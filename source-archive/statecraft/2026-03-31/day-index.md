@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2), `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Daniel Davis` (1)
 - Guests: `Scott Ritter` (2), `John Mearsheimer` (1), `Lawrence Wilkerson` (1), `Seyed M. Marandi` (1)
-- Threads: `davis` (2), `ritter` (2), `alkorshid` (1), `baud` (1), `johnson` (1), `marandi` (1), `mearsheimer` (1), `mercouris` (1), `simplicius` (1), `wilkerson` (1)
+- Threads: `davis` (2), `ritter` (2), `alkhorshid` (1), `baud` (1), `johnson` (1), `marandi` (1), `mearsheimer` (1), `mercouris` (1), `simplicius` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -35,7 +35,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [NuR9xJWTLm8](https://www.youtube.com/watch?v=NuR9xJWTLm8) | `source-alexander-mercouris-trump-iran-talks-lavrov-chechens-2026-03-31.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=1TIp2YhW8u0) | `source-daniel-davis-scott-ritter-no-war-plan-in-iran-we-re-making-it-up-as-we-go-along-2026-03-31.md` |
 | `dialogue-works` | Dialogue Works | `johnson`, `wilkerson` | [dQCTCUR9WHs](https://www.youtube.com/watch?v=dQCTCUR9WHs) | `source-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=lo_khjFMcMM) | `source-dialogue-works-seyed-m-marandi-yemen-strikes-israel-they-hit-iran-s-water-power-now-ret-2026-03-31.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=lo_khjFMcMM) | `source-dialogue-works-seyed-m-marandi-yemen-strikes-israel-they-hit-iran-s-water-power-now-ret-2026-03-31.md` |
 | `judging-freedom` | — | `mearsheimer` | [watch](https://www.youtube.com/watch?v=YKqf-3h0hM8) | `source-judging-freedom-mearsheimer-will-trump-go-kamikaze-2026-03-31.md` |
 | `judging-freedom` | — | `ritter` | [watch](https://www.youtube.com/watch?v=BbucEkIkLfs) | `source-judging-freedom-ritter-why-iran-is-winning-2026-03-31.md` |
 

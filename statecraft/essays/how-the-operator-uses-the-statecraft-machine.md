@@ -1,6 +1,5 @@
 # How The Operator Uses The Statecraft Machine
 
-WORK only; not Record.
 
 **Canonical home:** [../../essays/how-the-operator-uses-the-statecraft-machine.md](../../essays/how-the-operator-uses-the-statecraft-machine.md)
 

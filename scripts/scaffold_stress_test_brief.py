@@ -23,17 +23,14 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE_REL = Path("docs/skill-work/work-politics/america-first-ky/stress-test-brief-template.md")
 OUT_DIR_REL = Path("docs/skill-work/work-politics/america-first-ky")
 
-
 def sanitize_slug(raw: str) -> str:
     s = raw.lower().strip()
     s = re.sub(r"[^a-z0-9]+", "-", s)
     s = s.strip("-")
     return s or "issue"
 
-
 def title_from_slug(slug: str) -> str:
     return " ".join(part.capitalize() for part in slug.split("-") if part)
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(
@@ -96,7 +93,6 @@ def main() -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path.write_text(body, encoding="utf-8")
     print(f"Wrote {out_path.relative_to(REPO_ROOT)}")
-
 
 if __name__ == "__main__":
     main()

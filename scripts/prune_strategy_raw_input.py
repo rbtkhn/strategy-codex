@@ -35,7 +35,6 @@ DEFAULT_ROOT = (
 
 _RE_DATE_DIR = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
-
 def _parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument(
@@ -66,7 +65,6 @@ def _parse_args() -> argparse.Namespace:
         help="Required for --apply when raw-input/.pruning-suspended exists",
     )
     return p.parse_args()
-
 
 def main() -> int:
     args = _parse_args()
@@ -126,7 +124,6 @@ def main() -> int:
         print("(dry-run; pass --apply to delete)")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

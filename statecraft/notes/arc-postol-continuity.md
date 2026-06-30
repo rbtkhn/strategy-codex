@@ -15,7 +15,6 @@ archive_links:
   - source-archive/statecraft/2026-05-15/source-daniel-davis-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md
 ---
 
-WORK only; not Record.
 
 # Postol Arc
 

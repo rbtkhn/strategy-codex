@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # America First-Wave Verification Note
 

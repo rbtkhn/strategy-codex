@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2025-06-17/source-diesen-sachs-us-prepares-to-join-war-against-iran-2025-06-17.md
 ---
 
-WORK only; not Record.
 
 Open alongside:
 

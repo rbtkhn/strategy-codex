@@ -21,7 +21,6 @@ from repo_io import DEFAULT_PROFILE_ID, profile_dir
 
 GATE = profile_dir(DEFAULT_PROFILE_ID) / "recursion-gate.md"
 
-
 REPAIRED_BLOCKS = {
     "CANDIDATE-0042": '''### CANDIDATE-0042 (IX-A - maritime power as naval-commercial system; bookshelf MCQ)
 
@@ -179,7 +178,6 @@ envelope_class: none
 ''',
 }
 
-
 def repair_gate(content: str) -> tuple[str, list[str]]:
     repaired: list[str] = []
     for cid, replacement in REPAIRED_BLOCKS.items():
@@ -191,7 +189,6 @@ def repair_gate(content: str) -> tuple[str, list[str]]:
         if count:
             repaired.append(cid)
     return content, repaired
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -214,7 +211,6 @@ def main() -> int:
     args.gate.write_text(after, encoding="utf-8")
     print("repaired: " + ", ".join(repaired))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

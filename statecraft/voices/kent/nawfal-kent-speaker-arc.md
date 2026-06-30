@@ -1,6 +1,5 @@
 # arc-kent-nawfal-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-kent-nawfal-host.md](../../notes/arc-kent-nawfal-host.md)
 

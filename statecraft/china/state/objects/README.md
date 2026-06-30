@@ -1,6 +1,6 @@
 # China Authority Carrier Objects
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Use this bench for Chinese ministers, party-state officials, military figures, diplomats, and institutional offices that carry state intent across raw-inputs. These are not biographies. They are compact statecraft objects for tracking how China converts continuity, restraint, industrial exposure, sovereignty doctrine, and order-management language into draftable instruments.
 

@@ -1,6 +1,5 @@
 # Pape Ã— Grim source-hygiene note â€” 2026-04-29
 
-WORK only; not Record.
 
 **Anchor item:** [pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md](pape-page-2026-04-29-youtube-pape-grim-nuclear-iran-inevitable.md)
 **Raw-input SSOT:** [provenance/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md](../../sheets/source-archive-control/2026-04-29/source-pape-grim-nuclear-iran-inevitable-2026-04-29.md

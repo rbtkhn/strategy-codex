@@ -21,7 +21,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "tacit-capture-normalized.v1.json"
 NORMALIZATION_VERSION = "1.0"
 
-
 def _parse_tags(value: str) -> list[str]:
     value = value.strip()
     if value.startswith("[") and value.endswith("]"):
@@ -30,7 +29,6 @@ def _parse_tags(value: str) -> list[str]:
             return []
         return [p.strip() for p in inner.split(",") if p.strip()]
     return [p.strip() for p in value.split(",") if p.strip()]
-
 
 def _parse_metadata_block(text: str) -> tuple[dict[str, str], str]:
     """Return metadata dict and raw note body."""
@@ -52,7 +50,6 @@ def _parse_metadata_block(text: str) -> tuple[dict[str, str], str]:
         i += 1
     raise ValueError("missing '## Raw note' section")
 
-
 def _normalize_timestamp(ts: str) -> str:
     ts = ts.strip()
     if not ts:
@@ -64,19 +61,16 @@ def _normalize_timestamp(ts: str) -> str:
         dt = dt.replace(tzinfo=timezone.utc)
     return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
 
-
 def _build_id(utc_compact: str, source: str, lane: str, raw_text: str) -> str:
     # utc_compact: YYYYMMDDTHHMMSSZ
     digest = hashlib.sha256(f"{source}\n{lane}\n{raw_text}".encode("utf-8")).hexdigest()[:12]
     return f"tacit_{utc_compact}_{digest}"
-
 
 def _utc_compact_from_iso(iso_z: str) -> str:
     """iso_z ends with Z."""
     dt = datetime.fromisoformat(iso_z.replace("Z", "+00:00"))
     dt = dt.astimezone(timezone.utc)
     return dt.strftime("%Y%m%dT%H%M%SZ")
-
 
 def parse_and_normalize(
     raw_markdown: str,
@@ -129,7 +123,6 @@ def parse_and_normalize(
     }
     return record
 
-
 def _validate_schema(record: dict[str, Any]) -> list[str]:
     try:
         from jsonschema import Draft202012Validator
@@ -141,7 +134,6 @@ def _validate_schema(record: dict[str, Any]) -> list[str]:
     validator = Draft202012Validator(schema)
     errors = sorted(validator.iter_errors(record), key=lambda e: e.path)
     return [str(e.message) for e in errors]
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Normalize tacit capture markdown to JSON.")
@@ -218,7 +210,6 @@ def main() -> int:
         print(f"appended {idx_path}", file=sys.stderr)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

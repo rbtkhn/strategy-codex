@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-06/source-duran-mercouris-putin-reveals-oreshnik-plan-west-desperate-to-get-conflict-freeze-2026-06-06.md>
   - source-archive/statecraft/2026-06-06/source-alexander-mercouris-putin-withering-reply-to-insolent-zelensky-letter-kiev-drones-to-fail-oreshnik-may-target-europe-2026-06-06.md>
 ---
-WORK only; not Record.
 
 # Persia: Lebanon-First Gate Vs Hormuz Mechanics - 2026-06-06
 

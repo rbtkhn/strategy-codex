@@ -1,6 +1,5 @@
 # CIV-STATE Russia
 
-WORK only; not Record.
 
 This is the top-level alias door for the Russia CIV-STATE volume.
 

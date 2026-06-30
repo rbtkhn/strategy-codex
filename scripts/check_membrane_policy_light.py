@@ -55,7 +55,6 @@ COMPLEMENTS_ALLOWED_PREFIXES = (
 )
 COMPLEMENTS_ALLOWED_FILES = frozenset({"README.md"})
 
-
 def _iter_governed_adjacent_markdown() -> list[Path]:
     paths: list[Path] = []
     for pattern in GOVERNED_SCAN_GLOBS:
@@ -65,7 +64,6 @@ def _iter_governed_adjacent_markdown() -> list[Path]:
         if path.is_file():
             paths.append(path)
     return sorted(set(paths))
-
 
 def _line_claims_runtime_as_authoritative(line: str) -> str | None:
     if not RUNTIME_ARTIFACTS_RE.search(line):
@@ -77,7 +75,6 @@ def _line_claims_runtime_as_authoritative(line: str) -> str | None:
         if phrase in lowered:
             return phrase
     return None
-
 
 def check_runtime_artifacts_not_canonical() -> list[str]:
     errors: list[str] = []
@@ -97,12 +94,10 @@ def check_runtime_artifacts_not_canonical() -> list[str]:
                 )
     return errors
 
-
 def _complement_rel_allowed(rel_posix: str) -> bool:
     if rel_posix in COMPLEMENTS_ALLOWED_FILES:
         return True
     return any(rel_posix.startswith(prefix) for prefix in COMPLEMENTS_ALLOWED_PREFIXES)
-
 
 def check_complement_paths() -> list[str]:
     errors: list[str] = []
@@ -121,13 +116,11 @@ def check_complement_paths() -> list[str]:
             )
     return errors
 
-
 def run_checks() -> list[str]:
     errors: list[str] = []
     errors.extend(check_runtime_artifacts_not_canonical())
     errors.extend(check_complement_paths())
     return errors
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -140,7 +133,6 @@ def main() -> int:
         return 1
     print("ok: membrane policy light")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

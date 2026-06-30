@@ -35,14 +35,12 @@ except ImportError:
     from scripts.dream_coffee_rollup import rollup_object_closes_24h
     from scripts.repo_io import DEFAULT_USER_ID
 
-
 HUB_LABELS = {
     "A": "Confirm",
     "B": "Test",
     "C": "Deepen",
     "D": "Reframe",
 }
-
 
 def _as_list(value: Any) -> list[str]:
     if isinstance(value, list):
@@ -51,17 +49,14 @@ def _as_list(value: Any) -> list[str]:
         return []
     return [part.strip() for part in str(value).split(",") if part.strip()]
 
-
 def _truncate(value: str, limit: int = 140) -> str:
     text = " ".join(str(value).split())
     if len(text) <= limit:
         return text
     return text[: limit - 3].rstrip() + "..."
 
-
 def _normalize_repo_path(value: str) -> str:
     return str(value).strip().replace("\\", "/").rstrip("/")
-
 
 def _artifacts_overlap_changed_paths(
     artifacts: list[str] | tuple[str, ...] | None, changed_paths: list[str] | tuple[str, ...] | None
@@ -80,7 +75,6 @@ def _artifacts_overlap_changed_paths(
             return True
     return False
 
-
 def _memory_status(user_id: str) -> str:
     try:
         from build_memory_observability import build_report
@@ -89,7 +83,6 @@ def _memory_status(user_id: str) -> str:
     except Exception:
         return "unknown"
     return str(report.get("overall_status") or "unknown")
-
 
 def _lane_hint_status() -> str:
     try:
@@ -105,7 +98,6 @@ def _lane_hint_status() -> str:
     )
     return _truncate(compact or "available", 160)
 
-
 def _find_gh() -> str | None:
     gh = shutil.which("gh")
     if gh:
@@ -114,7 +106,6 @@ def _find_gh() -> str | None:
     if windows_gh.exists():
         return str(windows_gh)
     return None
-
 
 def _git_credential_status(*, skip_gh: bool = False) -> str:
     """Return a compact read-only GitHub credential hint for fresh chats."""
@@ -159,7 +150,6 @@ def _git_credential_status(*, skip_gh: bool = False) -> str:
         return f"origin={protocol}; gh=not logged in - run gh auth login before shell push"
     return f"origin={protocol}; gh=unverified - run gh auth status before shell push"
 
-
 def _git_state_status() -> str:
     """Return a compact read-only branch/dirty-worktree hint for fresh chats."""
     try:
@@ -168,7 +158,6 @@ def _git_state_status() -> str:
         from scripts.git_worktree_snapshot import format_git_state_summary, get_git_worktree_snapshot  # type: ignore
 
     return format_git_state_summary(get_git_worktree_snapshot())
-
 
 def _pytest_status(*, skip_subprocess: bool = False) -> str:
     """Return whether the current Python runtime can run pytest."""
@@ -197,7 +186,6 @@ def _pytest_status(*, skip_subprocess: bool = False) -> str:
         return "available (import check)"
     return "unverified - run python -m pytest --version before test work"
 
-
 def _repo_identity_status() -> str:
     """Return a compact read-only repo identity guard for fresh chats."""
     try:
@@ -206,7 +194,6 @@ def _repo_identity_status() -> str:
         return format_repo_identity_status(REPO_ROOT)
     except Exception as exc:
         return f"unavailable - run python scripts/verify_repo_identity.py ({exc})"
-
 
 def build_coffee_bootstrap_brief(
     user_id: str,
@@ -281,7 +268,6 @@ def build_coffee_bootstrap_brief(
         "load_signals": load.get("signals") or [],
     }
 
-
 def format_coffee_bootstrap_brief(brief: dict[str, Any]) -> str:
     """Format the structured brief for first-command coffee output."""
     lines = ["Coffee Bootstrap Brief"]
@@ -337,7 +323,6 @@ def format_coffee_bootstrap_brief(brief: dict[str, Any]) -> str:
     lines.append(f"- Recommended hub: {rec}. {label} - {reason}")
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Print the first-command coffee bootstrap brief.")
     parser.add_argument("-u", "--user", default=DEFAULT_USER_ID)
@@ -350,7 +335,6 @@ def main() -> int:
     else:
         print(format_coffee_bootstrap_brief(brief))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

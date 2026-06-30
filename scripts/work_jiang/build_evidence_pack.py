@@ -19,11 +19,9 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 from arch_chapters import chapter_by_id  # noqa: E402
 
-
 def load_yaml(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def load_claims() -> list[dict]:
     p = WORK_DIR / "claims" / "registry" / "claims.jsonl"
@@ -37,7 +35,6 @@ def load_claims() -> list[dict]:
                 rows.append(json.loads(line))
     return rows
 
-
 def load_jsonl(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -48,7 +45,6 @@ def load_jsonl(path: Path) -> list[dict]:
             if line:
                 rows.append(json.loads(line))
     return rows
-
 
 def excerpt_quote(lecture_path: Path, max_len: int = 400) -> str:
     if not lecture_path.exists():
@@ -62,7 +58,6 @@ def excerpt_quote(lecture_path: Path, max_len: int = 400) -> str:
     chunk = m.group(1).strip() if m else text[:max_len]
     chunk = re.sub(r"\s+", " ", chunk)[:max_len]
     return chunk + ("…" if len(chunk) >= max_len else "")
-
 
 def build_pack(chapter_id: str) -> str:
     arch = load_yaml(WORK_DIR / "metadata" / "book-architecture.yaml")
@@ -261,7 +256,6 @@ def build_pack(chapter_id: str) -> str:
     lines.append("")
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--chapter", required=True, help="Chapter id, e.g. ch03")
@@ -273,7 +267,6 @@ def main() -> int:
     out.write_text(text, encoding="utf-8")
     print(f"Wrote {out}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

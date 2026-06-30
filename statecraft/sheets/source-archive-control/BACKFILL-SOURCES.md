@@ -1,7 +1,6 @@
 # Backfill sources registry
 <!-- word_count: 521 -->
 
-WORK only; not Record.
 
 ## Purpose
 

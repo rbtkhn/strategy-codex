@@ -1,7 +1,6 @@
 # Strategy expert Ã¢â‚¬â€ `baud`
 <!-- word_count: 419 -->
 
-WORK only; not Record.
 
 **Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) Ã¢â‚¬â€ **`baud`** lane.
 

@@ -73,7 +73,6 @@ _CATEGORY_PREFIX_RE = re.compile(
     r"^(knowledge|curiosity|personality)\s*:\s*", re.IGNORECASE,
 )
 
-
 # ---------------------------------------------------------------------------
 # Inline fallbacks when stage_gate_candidate is unavailable (companion-self)
 # ---------------------------------------------------------------------------
@@ -81,12 +80,10 @@ _CATEGORY_PREFIX_RE = re.compile(
 def _fb_candidate_ids(content: str) -> list[int]:
     return [int(m.group(1)) for m in re.finditer(r"\bCANDIDATE-(\d+)\b", content)]
 
-
 def _fb_next_candidate_id(content: str) -> str:
     nums = _fb_candidate_ids(content)
     n = max(nums) + 1 if nums else 1
     return f"CANDIDATE-{n:04d}"
-
 
 def _fb_slug_title(text: str, max_len: int = 56) -> str:
     one = " ".join(text.splitlines()[:1]).strip() or "batch observation"
@@ -95,16 +92,13 @@ def _fb_slug_title(text: str, max_len: int = 56) -> str:
         one = one[: max_len - 1].rstrip() + "\u2026"
     return one
 
-
 def _fb_yaml_double_quoted(s: str) -> str:
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
-
 
 def _fb_literal_block(s: str, base_indent: str = "    ") -> str:
     if not s.strip():
         return base_indent + "(empty)\n"
     return "\n".join(base_indent + line for line in s.splitlines()) + "\n"
-
 
 def _fb_insert_before_processed(full_md: str, block: str) -> str:
     m = re.search(r"^## Processed\s*$", full_md, re.MULTILINE)
@@ -112,18 +106,15 @@ def _fb_insert_before_processed(full_md: str, block: str) -> str:
         raise ValueError("recursion-gate.md must contain a ## Processed heading")
     return full_md[: m.start()] + block + full_md[m.start():]
 
-
 _STOPWORDS = frozenset({
     "a", "an", "and", "are", "as", "be", "because", "for", "from", "has",
     "have", "how", "in", "is", "it", "its", "not", "of", "on", "or",
     "that", "the", "their", "this", "to", "was", "with", "you", "your",
 })
 
-
 def _tokenize(text: str) -> set[str]:
     return {t for t in re.findall(r"[a-z0-9]+", (text or "").lower())
             if len(t) >= 4 and t not in _STOPWORDS}
-
 
 def _fb_convergence_check(
     gate_content: str,
@@ -150,7 +141,6 @@ def _fb_convergence_check(
         "prior_ids": prior_ids,
     }
 
-
 # ---------------------------------------------------------------------------
 # Resolve functions — prefer stage_gate_candidate imports, fall back inline
 # ---------------------------------------------------------------------------
@@ -176,7 +166,6 @@ def _dq(s: str) -> str:
 def _lb(s: str) -> str:
     return (_literal_block(s) if _HAS_STAGE else _fb_literal_block(s)).rstrip("\n")
 
-
 # ---------------------------------------------------------------------------
 # Core
 # ---------------------------------------------------------------------------
@@ -199,7 +188,6 @@ def parse_observations(text: str, default_category: str = "knowledge") -> list[d
         if body:
             observations.append({"category": category, "body": body})
     return observations
-
 
 def build_observation_block(
     *,
@@ -247,7 +235,6 @@ def build_observation_block(
         "",
     ])
     return "\n".join(lines)
-
 
 def batch_ingest(
     user_id: str,
@@ -312,7 +299,6 @@ def batch_ingest(
 
     return results
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(
         description="Batch-stage observation candidates into recursion-gate.md",
@@ -371,7 +357,6 @@ def main() -> int:
             )
 
     return 0 if results else 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

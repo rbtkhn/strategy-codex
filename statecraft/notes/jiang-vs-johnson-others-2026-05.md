@@ -16,7 +16,6 @@ archive_links:
 ---
 # Jiang vs Johnson - Where Other Speakers Stand (May 2026)
 
-WORK only; not Record.
 
 This note extends the existing [Jiang vs Johnson - May 2026](./jiang-vs-johnson-2026-05.md) tension note by locating the **recent core** speakers around that same dispute.
 

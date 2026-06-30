@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-05-30/source-glenn-diesen-alastair-crooke-iran-war-resets-the-geopolitics-of-the-world-2026-05-30.md
   - source-archive/statecraft/2026-06-10/source-predictive-history-founding-members-01-livestream-2026-06-10.md
 ---
-WORK only; not Record.
 
 # China AI implementation — rolling watch (redirect)
 

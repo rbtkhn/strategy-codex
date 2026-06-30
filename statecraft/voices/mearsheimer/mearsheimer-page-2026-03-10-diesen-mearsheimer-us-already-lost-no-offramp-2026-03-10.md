@@ -1,7 +1,6 @@
 # Mearsheimer refined page — 2026-03-10 (guest lane)
 <!-- word_count: ~200 -->
 
-WORK only; not Record.
 
 **Expert:** `mearsheimer` · **Interviewer:** Glenn Diesen · **Published:** 2026-03-10 · Sibling: [diesen-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](../diesen/diesen-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)
 

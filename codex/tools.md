@@ -1,6 +1,5 @@
 # strategy-codex tools
 
-WORK only; not Record.
 
 Use these local defaults in strategy-codex sessions:
 

@@ -18,12 +18,10 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
-
 
 def _extract_yaml_block(content: str) -> str:
     m = re.search(r"```(?:yaml|yml)\s*\n(.*?)```", content, re.DOTALL)
@@ -31,13 +29,11 @@ def _extract_yaml_block(content: str) -> str:
         return ""
     return m.group(1)
 
-
 def _top_level_scalar(block: str, key: str) -> str:
     m = re.search(rf"^{re.escape(key)}:\s*(.+)$", block, re.MULTILINE)
     if not m:
         return ""
     return m.group(1).strip().strip("\"'")
-
 
 def _nested_scalar(block: str, parent: str, key: str) -> str:
     m_parent = re.search(
@@ -53,7 +49,6 @@ def _nested_scalar(block: str, parent: str, key: str) -> str:
         return ""
     return m.group(1).strip().strip("\"'")
 
-
 def _list_block(block: str, key: str) -> list[str]:
     m = re.search(
         rf"^{re.escape(key)}:\s*\n((?:^[ \t]+-\s+.+\n?)*)",
@@ -68,7 +63,6 @@ def _list_block(block: str, key: str) -> list[str]:
         if raw.startswith("- "):
             lines.append(raw[2:].strip().strip("\"'"))
     return [x for x in lines if x]
-
 
 def _tradeoff_rules(block: str) -> list[dict]:
     m = re.search(
@@ -119,7 +113,6 @@ def _tradeoff_rules(block: str) -> list[dict]:
         rules.append(rule)
     return rules
 
-
 def export_intent_snapshot(user_id: str = "grace-mar") -> dict:
     profile_dir = REPO_ROOT / "platform/users" / user_id
     intent_path = profile_dir / "intent.md"
@@ -166,7 +159,6 @@ def export_intent_snapshot(user_id: str = "grace-mar") -> dict:
         "review_cadence": _top_level_scalar(block, "review_cadence"),
     }
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="Export intent.md as intent_snapshot.json")
     parser.add_argument("--user", "-u", default="grace-mar", help="User id")
@@ -181,7 +173,6 @@ def main() -> None:
         print(f"Wrote {out}", file=__import__("sys").stderr)
     else:
         print(text)
-
 
 if __name__ == "__main__":
     main()

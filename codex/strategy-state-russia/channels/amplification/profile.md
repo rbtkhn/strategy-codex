@@ -6,4 +6,3 @@ Weak without corroboration: original policy intent or material-state claims.
 
 Seam priority: keep tiered; never substitute amplification for primary channel text.
 
-WORK only; not Record.

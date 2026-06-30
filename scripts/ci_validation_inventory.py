@@ -12,7 +12,6 @@ from typing import Callable, Literal
 
 UserScope = Literal["required", "ignored", "optional"]
 
-
 @dataclass(frozen=True)
 class CheckSpec:
     """One subprocess check."""
@@ -29,78 +28,59 @@ class CheckSpec:
     requires_openai: bool = False
     ci_source: str = ""
 
-
 def _argv_paths(user: str) -> list[str]:
     return ["--user", user]
-
 
 def _argv_integrity_ci(user: str) -> list[str]:
     return ["--user", user, "--require-proposal-class"]
 
-
 def _argv_governance(_user: str) -> list[str]:
     return []
-
 
 def _argv_template_sync(_user: str) -> list[str]:
     return []
 
-
 def _argv_work_dev_cp(_user: str) -> list[str]:
     return []
-
 
 def _argv_measure_growth(user: str) -> list[str]:
     return ["--user", user]
 
-
 def _argv_measure_uniqueness(_user: str) -> list[str]:
     return ["--limit", "3"]
-
 
 def _argv_boundary(user: str) -> list[str]:
     return ["--user", user]
 
-
 def _argv_evidence_refs(user: str) -> list[str]:
     return ["--user", user]
-
 
 def _argv_validate_skills(_user: str) -> list[str]:
     return []
 
-
 def _argv_seed_phase_template(_user: str) -> list[str]:
     return ["platform/template/seed-phase", "--allow-placeholders"]
-
 
 def _argv_validate_speaker_objects(_user: str) -> list[str]:
     return []
 
-
 def _argv_validate_speaker_state_sets(_user: str) -> list[str]:
     return []
-
 
 def _argv_judgment_contract_gauntlets(_user: str) -> list[str]:
     return []
 
-
 def _argv_validate_statecraft_path_layout(_user: str) -> list[str]:
     return []
-
 
 def _argv_validate_statecraft_daily_synthesis(_user: str) -> list[str]:
     return []
 
-
 def _argv_validate_statecraft_archive_indices(_user: str) -> list[str]:
     return ["--check"]
 
-
 def _argv_check_statecraft_intake_daily_sync(_user: str) -> list[str]:
     return ["--latest"]
-
 
 ALL_CHECKS: tuple[CheckSpec, ...] = (
     CheckSpec(
@@ -307,10 +287,8 @@ ALL_CHECKS: tuple[CheckSpec, ...] = (
     ),
 )
 
-
 def _by_id() -> dict[str, CheckSpec]:
     return {c.id: c for c in ALL_CHECKS}
-
 
 def checks_for_group(group: str) -> list[CheckSpec]:
     g = group.strip().lower()
@@ -355,7 +333,6 @@ def checks_for_group(group: str) -> list[CheckSpec]:
         return [by_id[i] for i in order]
     out = [c for c in ALL_CHECKS if g in c.groups]
     return sorted(out, key=lambda x: x.id)
-
 
 def default_user() -> str:
     import os

@@ -1,6 +1,6 @@
 # Military Workshop
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 The Military Workshop is the active-use layer of academy military. The shelf answers "what should I read?" The workshop answers "how do I read force, command, logistics, escalation, and responsibility without losing the human reality inside the map?"
 

@@ -1,6 +1,5 @@
 # Krapivnik source index
 
-WORK only; not Record.
 
 Purpose: canonical statecraft-side source index for **Stanislav Krapivnik** while raw-text authority stays in the Statecraft Archive.
 

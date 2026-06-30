@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Phase 2 Three-Architecture Checkpoint
 

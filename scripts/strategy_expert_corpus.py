@@ -97,14 +97,12 @@ RE_RAW_INPUT_MD_PATH = re.compile(
     r"(?:raw-input|provenance)/(\d{4}-\d{2}-\d{2})/([A-Za-z0-9_./-]+\.md)"
 )
 
-
 def raw_input_paths_in_text(text: str) -> set[str]:
     """Return normalized provenance-style paths mentioned in *text*."""
     return {
         f"provenance/{m.group(1)}/{m.group(2)}"
         for m in RE_RAW_INPUT_MD_PATH.finditer(text)
     }
-
 
 def collect_inbox_raw_input_pointers(
     notebook_dir: Path,
@@ -156,7 +154,6 @@ def collect_inbox_raw_input_pointers(
                 return out
     return out
 
-
 def is_codex_year_volume(notebook_dir: Path) -> bool:
     """Return true for the active ``codex/years/<year>/`` strategy-codex layout."""
     return (
@@ -165,13 +162,11 @@ def is_codex_year_volume(notebook_dir: Path) -> bool:
         and re.fullmatch(r"\d{4}", notebook_dir.name) is not None
     )
 
-
 def expert_dir_for_layout(expert_id: str, notebook_dir: Path) -> Path:
     """Resolve the per-expert directory for active and legacy layouts."""
     if is_codex_year_volume(notebook_dir):
         return notebook_dir / expert_id
     return notebook_dir / "experts" / expert_id
-
 
 def expert_paths(expert_id: str, notebook_dir: Path) -> dict[str, Path]:
     """Resolve per-expert file paths for active ``codex/<year>`` or legacy layouts."""
@@ -193,7 +188,6 @@ def expert_paths(expert_id: str, notebook_dir: Path) -> dict[str, Path]:
         "mind": base / "mind.md",
     }
 
-
 def expert_id_from_thread_path(path: Path) -> str | None:
     """Resolve ``expert_id`` from a thread file path (folder, flat, or monthly)."""
     m = re.match(r"^(.+)-thread\.md$", path.name)
@@ -212,7 +206,6 @@ def expert_id_from_thread_path(path: Path) -> str | None:
         return m.group(1)
     return None
 
-
 def month_thread_paths_by_month(notebook_dir: Path, expert_id: str) -> dict[str, Path]:
     """Map ``YYYY-MM`` â†’ thread path; prefer ``experts/<id>/`` over flat root."""
     by_m: dict[str, Path] = {}
@@ -230,10 +223,8 @@ def month_thread_paths_by_month(notebook_dir: Path, expert_id: str) -> dict[str,
                 by_m[ym] = p
     return {k: by_m[k] for k in sorted(by_m.keys())}
 
-
 def uses_monthly_thread_layout(notebook_dir: Path, expert_id: str) -> bool:
     return bool(month_thread_paths_by_month(notebook_dir, expert_id))
-
 
 def expert_thread_paths_for_discovery(notebook_dir: Path, expert_id: str) -> list[Path]:
     """Ordered thread paths for page discovery / validation (monthly, legacy, or both).
@@ -272,7 +263,6 @@ def expert_thread_paths_for_discovery(notebook_dir: Path, expert_id: str) -> lis
         return [flat]
     return [legacy]
 
-
 def collect_strategy_thread_paths(notebook_dir: Path) -> list[Path]:
     """All thread files: legacy, monthly in-folder, monthly flat (for validate / sync)."""
     out: list[Path] = []
@@ -310,7 +300,6 @@ def collect_strategy_thread_paths(notebook_dir: Path) -> list[Path]:
             add(p)
     return out
 
-
 def thread_path_for_page_month(notebook_dir: Path, expert_id: str, page_month_yyyy_mm: str) -> Path:
     """Target thread file for a ``strategy-page`` dated in ``page_month_yyyy_mm``."""
     mmap = month_thread_paths_by_month(notebook_dir, expert_id)
@@ -322,7 +311,6 @@ def thread_path_for_page_month(notebook_dir: Path, expert_id: str, page_month_yy
         )
     return expert_paths(expert_id, notebook_dir)["thread"]
 
-
 def transcript_body_lines(transcript_path: Path) -> list[str]:
     """Lines below the transcript triage marker (including blanks)."""
     if not transcript_path.is_file():
@@ -332,7 +320,6 @@ def transcript_body_lines(transcript_path: Path) -> list[str]:
     idx = text.find(marker)
     body = text[idx + len(marker):] if idx != -1 else text
     return body.splitlines()
-
 
 def parse_transcript_by_month(transcript_path: Path) -> dict[str, list[str]]:
     """Group transcript lines under ``## YYYY-MM-DD`` by calendar month ``YYYY-MM``."""
@@ -350,7 +337,6 @@ def parse_transcript_by_month(transcript_path: Path) -> dict[str, list[str]]:
         if line.strip():
             by_month[current_month].append(line.rstrip())
     return dict(by_month)
-
 
 # Legacy markers kept for backward compat (extract_thread_ingests)
 CORPUS_MARKER_START = "<!-- strategy-expert-corpus:start -->"
@@ -377,7 +363,6 @@ _RE_DATE_HEADING = re.compile(r"^## (\d{4}-\d{2}-\d{2})\s*$")
 MAX_VERBATIM_WORDS_PER_INGEST = 2000
 SOFT_MAX_TRANSCRIPT_FILE_WORDS = 20000
 
-
 @dataclass(frozen=True)
 class CommentatorRow:
     expert_id: str
@@ -385,7 +370,6 @@ class CommentatorRow:
     role: str
     grep_tag: str
     pairings: str
-
 
 @dataclass(frozen=True)
 class MetricsRow:
@@ -395,10 +379,8 @@ class MetricsRow:
     ctc: str
     note: str
 
-
 def _parse_date_yyyy_mm_dd(s: str) -> date:
     return datetime.strptime(s, "%Y-%m-%d").date()
-
 
 def ingest_thread_slugs(line: str) -> list[str]:
     """Resolve expert ids for an inbox ingest line.
@@ -426,7 +408,6 @@ def ingest_thread_slugs(line: str) -> list[str]:
         return []
     return [s for s in _RE_THREAD.findall(line) if s in _EXPERT_IDS_SET]
 
-
 def _date_markers(line: str) -> str | None:
     for rx in (
         _RE_BUNDLE,
@@ -440,7 +421,6 @@ def _date_markers(line: str) -> str | None:
             return m.group(1)
     return None
 
-
 def _is_ingest_line(line: str) -> bool:
     s = line.strip()
     if not s:
@@ -451,15 +431,12 @@ def _is_ingest_line(line: str) -> bool:
         return True
     return False
 
-
 def _word_count(s: str) -> int:
     return len(s.split())
-
 
 def _top_level_list_item(line: str) -> bool:
     """True if this line starts a new top-level `- ` list item (column 0 only)."""
     return line.startswith("- ")
-
 
 def verbatim_to_transcript_lines(verbatim: str) -> list[str]:
     """Turn one ingest block (possibly multi-line) into markdown lines for `-transcript.md`."""
@@ -476,13 +453,11 @@ def verbatim_to_transcript_lines(verbatim: str) -> list[str]:
         out.append(f"    {pl.rstrip()}")
     return out
 
-
 def _split_table_row(line: str) -> list[str]:
     if not line.startswith("|"):
         return []
     parts = line.split("|")
     return [p.strip() for p in parts[1:-1]]
-
 
 def parse_commentator_index(threads_path: Path) -> tuple[list[str], dict[str, CommentatorRow], dict[str, MetricsRow]]:
     """Parse main commentator table + quantitative metrics from threads index."""
@@ -546,7 +521,6 @@ def parse_commentator_index(threads_path: Path) -> tuple[list[str], dict[str, Co
 
     return order, main_rows, metrics_rows
 
-
 def verify_index_alignment(
     order: list[str],
     *,
@@ -572,7 +546,6 @@ def verify_index_alignment(
             f"parsed order: {order!r}"
         )
 
-
 # ---------------------------------------------------------------------------
 # Inbox extraction â€” kept for strategy_expert_transcript.py import
 # ---------------------------------------------------------------------------
@@ -588,7 +561,6 @@ def _continuation_stops_thread_block(line: str) -> bool:
     if _top_level_list_item(line):
         return True
     return False
-
 
 def extract_thread_ingests(
     text: str,
@@ -679,7 +651,6 @@ def extract_thread_ingests(
 
     return {k: dict(v) for k, v in out.items()}
 
-
 # ---------------------------------------------------------------------------
 # Transcript reading
 # ---------------------------------------------------------------------------
@@ -696,7 +667,6 @@ def read_transcript_content(transcript_path: Path) -> list[str]:
     else:
         body = text
     return [ln for ln in body.strip().splitlines() if ln.strip()]
-
 
 # ---------------------------------------------------------------------------
 # Page scanning
@@ -732,7 +702,6 @@ def find_page_references(
                 refs.append(page)
 
     return refs
-
 
 # ---------------------------------------------------------------------------
 # Thread extraction (writes raw material to -thread.md)
@@ -812,7 +781,6 @@ def render_thread_extraction(
 
     return "\n".join(parts).rstrip() + "\n"
 
-
 def write_thread_file(
     dest: Path,
     inner: str,
@@ -849,7 +817,6 @@ def write_thread_file(
         + THREAD_MARKER_START + "\n" + inner.rstrip() + "\n" + THREAD_MARKER_END + "\n",
         encoding="utf-8",
     )
-
 
 def rebuild_threads(
     *,
@@ -940,7 +907,6 @@ def rebuild_threads(
 
     return written
 
-
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument(
@@ -967,7 +933,6 @@ def main() -> int:
     for path in paths:
         print(path.relative_to(REPO_ROOT))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

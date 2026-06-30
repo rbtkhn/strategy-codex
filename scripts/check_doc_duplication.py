@@ -46,7 +46,6 @@ GRACE_MAR_DUP_RE = re.compile(
 MIN_DUP_PARAGRAPH_CHARS = 160
 MIN_GRACE_MAR_DUP_CHARS = 80
 
-
 def _iter_primary_files() -> list[Path]:
     out: set[Path] = set()
     for pattern in PRIMARY_GLOBS:
@@ -59,15 +58,12 @@ def _iter_primary_files() -> list[Path]:
             out.add(path)
     return sorted(out)
 
-
 def _normalize_paragraph(text: str) -> str:
     return re.sub(r"\s+", " ", text.strip())
-
 
 def _paragraphs(text: str) -> list[str]:
     chunks = re.split(r"\n\s*\n", text)
     return [_normalize_paragraph(c) for c in chunks if len(_normalize_paragraph(c)) >= MIN_GRACE_MAR_DUP_CHARS]
-
 
 def _table_header_key(block: str) -> str | None:
     lines = [ln.strip() for ln in block.splitlines() if ln.strip()]
@@ -81,7 +77,6 @@ def _table_header_key(block: str) -> str | None:
     if header.count("|") < 2:
         return None
     return header
-
 
 def _extract_markdown_tables(text: str) -> list[str]:
     tables: list[str] = []
@@ -98,10 +93,8 @@ def _extract_markdown_tables(text: str) -> list[str]:
         i += 1
     return tables
 
-
 def _hash_text(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
-
 
 def collect_issues(*, min_paragraph_chars: int) -> list[str]:
     issues: list[str] = []
@@ -170,7 +163,6 @@ def collect_issues(*, min_paragraph_chars: int) -> list[str]:
 
     return issues
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -195,7 +187,6 @@ def main() -> int:
 
     print("ok: doc duplication check passed")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

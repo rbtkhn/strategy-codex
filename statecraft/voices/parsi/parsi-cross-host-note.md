@@ -1,6 +1,5 @@
 # Parsi cross-host note
 
-WORK only; not Record.
 
 Purpose: preserve the main host-conditioned uses of the interview-pressure track without replacing the authored ledger or the helix.
 

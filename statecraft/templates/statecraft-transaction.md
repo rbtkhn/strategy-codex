@@ -1,6 +1,5 @@
 # Statecraft Transaction Template
 
-WORK only; not Record.
 
 **Legacy template.** New multi-lane instruments promote to [`statecraft/notes/compacts/`](../notes/compacts/). Use [state-note](../../.cursor/skills/state-note/SKILL.md) for bounded notes.
 

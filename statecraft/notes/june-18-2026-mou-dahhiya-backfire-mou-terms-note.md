@@ -11,7 +11,6 @@ archive_links:
   - source-archive/statecraft/2026-06-18/source-dialogue-works-larry-johnson-iran-cancels-negotiations-israel-bombs-lebanon-2026-06-18.md
   - source-archive/statecraft/2026-06-18/source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md
 ---
-WORK only; not Record.
 
 # June 18, 2026 MOU — Dahhiya Backfire × MOU Terms Seam
 

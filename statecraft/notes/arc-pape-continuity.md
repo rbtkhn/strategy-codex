@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2026-04-22/source-pape-within-10-days-shortages-already-2026-04-22.md
 ---
 
-WORK only; not Record.
 
 # Pape Arc
 

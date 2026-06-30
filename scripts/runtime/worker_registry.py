@@ -1,5 +1,5 @@
 """
-Load and validate platform/config/runtime_workers/registry.yaml (WORK only).
+Load and validate platform/config/runtime_workers/registry.yaml (non-authoritative).
 
 Does not execute entrypoints — validates repo-relative paths exist.
 """
@@ -19,11 +19,9 @@ from yaml_compat import safe_load_path
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 _REGISTRY_REL = Path("platform/config/runtime_workers/registry.yaml")
 
-
 def registry_path(repo_root: Path | None = None) -> Path:
     root = repo_root.resolve() if repo_root else REPO_ROOT
     return (root / _REGISTRY_REL).resolve()
-
 
 def load_registry(repo_root: Path | None = None) -> dict[str, Any]:
     path = registry_path(repo_root)
@@ -33,7 +31,6 @@ def load_registry(repo_root: Path | None = None) -> dict[str, Any]:
     if not isinstance(data, dict):
         raise ValueError("registry root must be a mapping")
     return data
-
 
 def validate_entrypoints(repo_root: Path, registry: dict[str, Any]) -> None:
     root = repo_root.resolve()
@@ -51,13 +48,11 @@ def validate_entrypoints(repo_root: Path, registry: dict[str, Any]) -> None:
             if not p.is_file():
                 raise FileNotFoundError(f"registry entrypoint not found: {ep}")
 
-
 def get_shared_workers(registry: dict[str, Any]) -> dict[str, Any]:
     sw = registry.get("shared_workers")
     if not isinstance(sw, dict):
         raise ValueError("registry.shared_workers must be a mapping")
     return sw
-
 
 def get_routed_workers(registry: dict[str, Any]) -> dict[str, Any]:
     rw = registry.get("routed_workers")
@@ -65,11 +60,9 @@ def get_routed_workers(registry: dict[str, Any]) -> dict[str, Any]:
         raise ValueError("registry.routed_workers must be a mapping")
     return rw
 
-
 def get_shared_worker_defs(registry: dict[str, Any]) -> dict[str, Any]:
     """Alias for :func:`get_shared_workers` (plan / doc naming)."""
     return get_shared_workers(registry)
-
 
 def get_routed_worker_def(name: str, registry: dict[str, Any]) -> dict[str, Any]:
     """Return one routed worker block by registry key, or raise ``KeyError``."""

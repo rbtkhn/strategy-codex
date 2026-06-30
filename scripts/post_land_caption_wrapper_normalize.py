@@ -25,7 +25,6 @@ from normalize_caption_wrapper_residue import (  # noqa: E402
     split_frontmatter,
 )
 
-
 @dataclass(frozen=True)
 class PostLandResult:
     path: Path
@@ -33,7 +32,6 @@ class PostLandResult:
     applied: bool
     flags: str
     wrapper_tier: str
-
 
 def _resolve_landed_path(path: Path) -> Path:
     resolved = (REPO_ROOT / path).resolve() if not path.is_absolute() else path.resolve()
@@ -46,7 +44,6 @@ def _resolve_landed_path(path: Path) -> Path:
             f"path must be under {ARCHIVE_ROOT.relative_to(REPO_ROOT).as_posix()}: {resolved}"
         ) from exc
     return resolved
-
 
 def post_land_caption_wrapper_normalize(
     path: Path,
@@ -99,7 +96,6 @@ def post_land_caption_wrapper_normalize(
         wrapper_tier=file_change.wrapper_tier,
     )
 
-
 def _format_flags(result: PostLandResult) -> str:
     rel = result.path.relative_to(REPO_ROOT).as_posix()
     if result.status == "skipped-not-transcript":
@@ -109,7 +105,6 @@ def _format_flags(result: PostLandResult) -> str:
         return f"no-op {rel}{tier}"
     mode = "would-change" if result.status == "dry-run" else "applied"
     return f"{mode} {rel} [{result.flags}] tier={result.wrapper_tier}"
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -133,7 +128,6 @@ def main() -> int:
 
     print(_format_flags(result))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

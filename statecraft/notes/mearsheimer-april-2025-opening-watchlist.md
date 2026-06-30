@@ -17,7 +17,6 @@ archive_links:
 ---
 # Mearsheimer April 2025 Opening Watchlist
 
-work only; not Record.
 
 ## Purpose
 

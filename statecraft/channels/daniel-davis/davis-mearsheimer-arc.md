@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Mearsheimer Arc (compat redirect)
 

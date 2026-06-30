@@ -54,11 +54,9 @@ ALLOWED_RESIDUALS = [
     {"literal": "Gobekli Tepes", "note": "goes-corruption artifact; re-run repair_goes_corruption"},
 ]
 
-
 def slugify(text: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
     return slug[:56] or "pattern"
-
 
 def extract_pairs(source: str) -> list[tuple[str, str]]:
     pairs: list[tuple[str, str]] = []
@@ -69,7 +67,6 @@ def extract_pairs(source: str) -> list[tuple[str, str]]:
         seen.add(old)
         pairs.append((old, new))
     return pairs
-
 
 def build_entries(pairs: list[tuple[str, str]]) -> list[dict[str, str]]:
     entries: list[dict[str, str]] = []
@@ -86,7 +83,6 @@ def build_entries(pairs: list[tuple[str, str]]) -> list[dict[str, str]]:
         entries.append({"id": entry_id, "literal": old, "replacement": new})
     return entries
 
-
 def main() -> None:
     source = PILOT.read_text(encoding="utf-8")
     payload = {
@@ -100,7 +96,6 @@ def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"wrote {OUT.relative_to(REPO_ROOT)} ({len(payload['entries'])} entries)")
-
 
 if __name__ == "__main__":
     main()

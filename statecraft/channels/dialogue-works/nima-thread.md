@@ -1,7 +1,6 @@
 # Expert thread - `nima`
 <!-- word_count: ~120 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 

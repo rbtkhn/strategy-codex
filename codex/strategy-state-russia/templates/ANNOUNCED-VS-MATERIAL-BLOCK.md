@@ -14,4 +14,3 @@ Use when an official or amplified line states posture, while your judgment objec
 | **Seam implication** | (What to fold into main `chapters/…/days.md` vs institutional-only.) |
 ```
 
-WORK only; not Record.

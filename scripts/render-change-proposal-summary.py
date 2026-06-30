@@ -13,7 +13,6 @@ import json
 import sys
 from pathlib import Path
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Render Change Proposal v1 as plain-text summary.")
     parser.add_argument("proposal", help="Path to proposal JSON")
@@ -51,7 +50,6 @@ def main() -> int:
             f"  - ({item.get('type')}) {item.get('ref')}: {item.get('summary')}"
         )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

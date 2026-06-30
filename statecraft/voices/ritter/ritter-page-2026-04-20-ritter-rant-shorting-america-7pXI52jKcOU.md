@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-04-20 (*Ritter's Rant*)
 <!-- word_count: 2196 -->
 
-WORK only; not Record.
 
 **Expert:** `ritter` · **Aired:** 2026-04-20 · **Capture:** Mode C — YouTube (see raw-input source_url) · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 

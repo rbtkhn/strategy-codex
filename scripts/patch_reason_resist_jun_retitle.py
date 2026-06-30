@@ -97,7 +97,6 @@ CAPTURES: dict[str, list[tuple[str, str]]] = {
     ],
 }
 
-
 def main() -> int:
     failed = 0
     for rel, slug_headings in CAPTURES.items():
@@ -112,7 +111,6 @@ def main() -> int:
             print(f"FAIL {rel}: {exc}")
             failed += 1
     return 1 if failed else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

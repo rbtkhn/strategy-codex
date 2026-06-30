@@ -9,7 +9,7 @@ record_status: frozen
 > **Canonical human entry point (SSOT).**
 > If you are unsure where to begin, start here.
 
-**Work only; not Record.** Governance law: [AGENTS.md](../AGENTS.md). Route discovery: [LLM-ROUTING.md](../LLM-ROUTING.md) → [statecraft/voices/voice-index.md](../statecraft/voices/voice-index.md).
+Governance law: [AGENTS.md](../AGENTS.md). Structured data: [schema-system.md](system/schema-system.md). Route discovery: [LLM-ROUTING.md](../LLM-ROUTING.md) → [statecraft/voices/voice-index.md](../statecraft/voices/voice-index.md).
 
 Grace-Mar is archived/frozen. Active strategy-codex work does not grow the fork. See [docs/archive/grace-mar.md](archive/grace-mar.md).
 

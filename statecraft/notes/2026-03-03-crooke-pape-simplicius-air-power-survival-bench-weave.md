@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-02-28/source-pape-the-day-1-mirage-2026-02-28.md
   - source-archive/statecraft/2026-02-28/source-pape-the-illusion-of-control-2026-02-28.md
 ---
-WORK only; not Record.
 
 # Mar 3 2026 — Newsletter bench weave (Crooke × Pape × Simplicius)
 

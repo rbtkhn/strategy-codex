@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `jermy`
 <!-- word_count: 4878 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 

@@ -14,7 +14,6 @@ archive_links:
   - source-archive/statecraft/2026-02-17/source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md
   - source-archive/statecraft/2026-02-17/source-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — 2026-02-17
 

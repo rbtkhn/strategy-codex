@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Nima Host Law (Dialogue Works)
 

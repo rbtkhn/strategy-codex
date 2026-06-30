@@ -2,4 +2,4 @@
 
 Track translation method/source notes for non-English institutional lines used in this lane.
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.

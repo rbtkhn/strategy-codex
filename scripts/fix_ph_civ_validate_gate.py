@@ -71,7 +71,6 @@ REPLACEMENTS: dict[Path, list[tuple[str, str]]] = {
     ],
 }
 
-
 def remove_civ_state_bridge_sections() -> int:
     bridge_re = re.compile(r"\n## CIV-STATE Bridge\n.*?(?=\n## |\Z)", re.DOTALL)
     count = 0
@@ -84,7 +83,6 @@ def remove_civ_state_bridge_sections() -> int:
             path.write_text(new.rstrip() + "\n", encoding="utf-8")
             count += 1
     return count
-
 
 def add_missing_llm_prompts() -> int:
     marker = "Paste this folder link into ChatGPT, Claude, or Grok"
@@ -116,7 +114,6 @@ def add_missing_llm_prompts() -> int:
         count += 1
     return count
 
-
 def apply_text_replacements() -> int:
     count = 0
     for path, pairs in REPLACEMENTS.items():
@@ -129,7 +126,6 @@ def apply_text_replacements() -> int:
             count += 1
     return count
 
-
 def main() -> int:
     bridge = remove_civ_state_bridge_sections()
     prompts = add_missing_llm_prompts()
@@ -138,7 +134,6 @@ def main() -> int:
     print(f"llm_prompts_added={prompts}")
     print(f"doc_files_patched={docs}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

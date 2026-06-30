@@ -1,6 +1,5 @@
 # Strategy expert — Stanislav Krapivnik (`krapivnik`)
 
-WORK only; not Record.
 
 **Canonical profile:** this file.
 **Canonical shelf:** [krapivnik-source-index.md](krapivnik-source-index.md) · [voices index](../voice-index.md)

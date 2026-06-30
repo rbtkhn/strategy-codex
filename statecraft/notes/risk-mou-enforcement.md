@@ -10,7 +10,6 @@ archive_links:
   - source-archive/statecraft/2026-06-22/source-pape-getting-the-framework-right-why-iran-seeking-power-not-just-money-2026-06-22.md
   - source-archive/statecraft/2026-06-18/README.md
 ---
-WORK only; not Record.
 
 # Risk — MOU enforcement (corpus register)
 

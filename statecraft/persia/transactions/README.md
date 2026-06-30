@@ -1,6 +1,6 @@
 # Deprecated — lane transactions bench
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This surface is deprecated. Durable analytical work now lives in [statecraft/notes/](../notes/README.md).
 Multi-lane instrument compacts live in [statecraft/notes/compacts/](../notes/compacts/).

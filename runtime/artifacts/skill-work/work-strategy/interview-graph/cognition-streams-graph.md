@@ -18,7 +18,7 @@ Deprecated compatibility note: legacy four-pillar filenames and pillar fields ma
 
 ## Stream Notes
 
-- Alkorshid (Synthesis): 84 episodes, 19 guests, top theme russia. Voice: Synthesis through long-form cross-guest interviews.
+- Alkhorshid (Synthesis): 84 episodes, 19 guests, top theme russia. Voice: Synthesis through long-form cross-guest interviews.
 - Diesen (Order): 275 episodes, 86 guests, top theme russia. Voice: Order through civilizational, multipolar, and institutional transition.
 - Davis (Conflict): 498 episodes, 41 guests, top theme ukraine. Voice: Conflict through military feasibility, battlefield dynamics, and policy risk.
 - Mercouris (Statecraft): 178 episodes, 1 guests, top theme iran. Voice: Statecraft through diplomatic sequence, elite maneuver, and daily geopolitical narrative. Source channels: @AlexMercouris, @TheDuran. Cohost lane keeps Alex Christoforou visible without counting him as a guest. 28 episodes use provisional source URLs where the raw-input corpus lacked a canonical link.
@@ -121,7 +121,7 @@ Deprecated compatibility note: legacy four-pillar filenames and pillar fields ma
 | 88 | Michael Rossi | 1 | 0 | 1 | 0 | 0 | no | 2025-05-04 | 2025-05-04 |
 | 89 | Negotiations Fail | 1 | 0 | 1 | 0 | 0 | no | 2025-07-28 | 2025-07-28 |
 | 90 | Nelson Wong | 1 | 0 | 1 | 0 | 0 | no | 2025-10-15 | 2025-10-15 |
-| 91 | Nima Alkorshid | 1 | 0 | 0 | 1 | 0 | no | 2026-03-20 | 2026-03-20 |
+| 91 | Nima Alkhorshid | 1 | 0 | 0 | 1 | 0 | no | 2026-03-20 | 2026-03-20 |
 | 92 | No Side Drawing Back | 1 | 0 | 0 | 1 | 0 | no | 2026-05-01 | 2026-05-01 |
 | 93 | No Turning Back | 1 | 0 | 1 | 0 | 0 | no | 2026-01-20 | 2026-01-20 |
 | 94 | Nuclear Start Treaty Expiring | 1 | 0 | 0 | 1 | 0 | no | 2026-02-03 | 2026-02-03 |
@@ -223,7 +223,7 @@ Deprecated compatibility note: legacy four-pillar filenames and pillar fields ma
 
 ## Stream Balance
 
-- Alkorshid (Synthesis): 84 episodes, 19 guests, 0 expert-lens raw inputs
+- Alkhorshid (Synthesis): 84 episodes, 19 guests, 0 expert-lens raw inputs
 - Diesen (Order): 275 episodes, 86 guests, 0 expert-lens raw inputs
 - Davis (Conflict): 498 episodes, 41 guests, 0 expert-lens raw inputs
 - Mercouris (Statecraft): 178 episodes, 1 guests, 0 expert-lens raw inputs

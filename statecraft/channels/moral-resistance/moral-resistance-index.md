@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Moral Resistance Index (compat redirect)
 

@@ -136,20 +136,16 @@ REPO_PATH_MIGRATIONS: dict[str, tuple[str, ...]] = {
 
 GRACE_MAR_INSTANCE_DIR = REPO_ROOT / "archive" / "grace-mar-instance"
 
-
 def strict_paths_enabled() -> bool:
     return os.environ.get("STRATEGY_CODEX_STRICT_PATHS", "").strip() == "1"
-
 
 def legacy_path_resolve_count() -> dict[str, int]:
     """Return per-key counts of legacy fallback resolutions this process."""
     return dict(_LEGACY_PATH_RESOLVE_COUNT)
 
-
 def reset_legacy_path_resolve_count() -> None:
     _LEGACY_PATH_RESOLVE_COUNT.clear()
     _LEGACY_PATH_WARNED.clear()
-
 
 def scan_legacy_path_layout() -> list[str]:
     """
@@ -172,7 +168,6 @@ def scan_legacy_path_layout() -> list[str]:
             for rel in legacy_hits:
                 issues.append(f"{key}: legacy-only ({rel}; canonical {entry[0]} missing)")
     return issues
-
 
 PATH_FALLBACK_RETIREMENT_PATH = REPO_ROOT / "path-fallback-retirement.yaml"
 GRACE_MAR_COMPAT_KEYS = frozenset(
@@ -217,7 +212,6 @@ _WAVE_SCAN_EXCLUDE_DIR_PREFIXES = (
     "archive/grace-mar-corpus/",
 )
 
-
 def validate_repo_path_classification() -> list[str]:
     """Ensure REPO_PATH_CLASSIFICATION bijects with REPO_PATH_MIGRATIONS keys."""
     migration_keys = set(REPO_PATH_MIGRATIONS)
@@ -228,7 +222,6 @@ def validate_repo_path_classification() -> list[str]:
     for key in sorted(classification_keys - migration_keys):
         issues.append(f"classification without migration key: {key}")
     return issues
-
 
 def load_path_fallback_retirement() -> dict[str, Any]:
     """Load path-fallback-retirement.yaml entries keyed by logical path key."""
@@ -257,7 +250,6 @@ def load_path_fallback_retirement() -> dict[str, Any]:
             raise ValueError(f"duplicate retirement entry key: {key}")
         by_key[key] = item
     return by_key
-
 
 def validate_path_fallback_retirement() -> list[str]:
     """Validate retirement YAML against migrations and classification."""
@@ -320,22 +312,18 @@ def validate_path_fallback_retirement() -> list[str]:
 
     return issues
 
-
 def keys_for_wave(wave: int) -> frozenset[str]:
     """Load wave N keys from path-fallback-retirement.yaml."""
     by_key = load_path_fallback_retirement()
     return frozenset(k for k, entry in by_key.items() if entry.get("wave") == wave)
 
-
 def _wave_scan_rel_path(path: Path) -> str:
     return path.relative_to(REPO_ROOT).as_posix()
-
 
 def _wave_scan_is_excluded(rel_posix: str) -> bool:
     if rel_posix in _WAVE_SCAN_EXCLUDE_FILES:
         return True
     return any(rel_posix.startswith(prefix) for prefix in _WAVE_SCAN_EXCLUDE_DIR_PREFIXES)
-
 
 def _iter_wave_scan_files() -> Iterator[Path]:
     for root_name in _WAVE_SCAN_ROOTS:
@@ -352,7 +340,6 @@ def _iter_wave_scan_files() -> Iterator[Path]:
                 continue
             yield path
 
-
 def _legacy_active_ref_patterns(legacy: str) -> list[re.Pattern[str]]:
     escaped = re.escape(legacy)
     return [
@@ -360,16 +347,13 @@ def _legacy_active_ref_patterns(legacy: str) -> list[re.Pattern[str]]:
         re.compile(rf'Path\(["\']({escaped})["\']\)'),
     ]
 
-
 def _line_has_platform_prefix(line: str, legacy: str) -> bool:
     return f"platform/{legacy}" in line or f'platform\\{legacy}' in line
-
 
 def _line_has_canonical_path_prefix(line: str, canonical_rel: str) -> bool:
     if not canonical_rel:
         return False
     return canonical_rel in line or canonical_rel.replace("/", "\\") in line
-
 
 def _scan_active_legacy_refs(legacy: str, *, canonical_rel: str = "") -> list[dict[str, Any]]:
     """Find hardcoded repo-root legacy path references in active code."""
@@ -399,7 +383,6 @@ def _scan_active_legacy_refs(legacy: str, *, canonical_rel: str = "") -> list[di
                     break
     return refs
 
-
 def _derive_wave_key_status(
     *,
     canonical_exists: bool,
@@ -410,7 +393,6 @@ def _derive_wave_key_status(
     if active_refs:
         return "blocked_active_refs"
     return "ready"
-
 
 def collect_wave_readiness_report(wave: int) -> dict[str, Any]:
     """Audit fallback removal readiness for a retirement wave."""
@@ -450,7 +432,6 @@ def collect_wave_readiness_report(wave: int) -> dict[str, Any]:
         "summary": dict(summary),
     }
 
-
 def resolve_repo_path(logical_key: str, *, prefer_existing: bool = True) -> Path:
     """Resolve consolidated repo path by logical key (canonical + legacy fallback)."""
     entry = REPO_PATH_MIGRATIONS.get(logical_key)
@@ -480,7 +461,6 @@ def resolve_repo_path(logical_key: str, *, prefer_existing: bool = True) -> Path
             return legacy
     return canonical
 
-
 DEFAULT_USERS_DIR = resolve_repo_path("users")
 
 # Canonical consolidated directories (prefer imports over string paths in scripts).
@@ -494,11 +474,9 @@ SCHEMA_REGISTRY_DIR = resolve_repo_path("schema-registry")
 AUTO_RESEARCH_DIR = resolve_repo_path("auto-research")
 REVIEW_QUEUE_DIR = resolve_repo_path("review-queue")
 
-
 def user_profile_dir(user_id: str) -> Path:
     """Per-fork profile directory under platform/users/."""
     return resolve_repo_path("users") / user_id.strip()
-
 
 def artifacts_dir(base: Path | None = None) -> Path:
     """
@@ -519,7 +497,6 @@ def artifacts_dir(base: Path | None = None) -> Path:
         return legacy
     return nested
 
-
 def src_dir(base: Path | None = None) -> Path:
     """Return platform/src for repo root or a nested checkout base."""
     if base is None:
@@ -532,7 +509,6 @@ def src_dir(base: Path | None = None) -> Path:
     if legacy.is_dir() and not nested.is_dir():
         return legacy
     return nested
-
 
 PROFILE_DERIVED_EXPORTS: tuple[str, ...] = (
     "manifest.json",
@@ -547,11 +523,9 @@ PROFILE_DERIVED_EXPORTS: tuple[str, ...] = (
     "self-work.md",
 )
 
-
 def derived_export_dir(user_id: str) -> Path:
     """Directory for profile-scoped derived exports (Record bundle home)."""
     return profile_dir(user_id)
-
 
 def resolve_profile_export_path(
     user_id: str,
@@ -570,7 +544,6 @@ def resolve_profile_export_path(
     if prefer_existing and legacy_root.is_file() and not canonical.is_file():
         return legacy_root
     return canonical
-
 
 def resolve_prp_export_path(user_id: str, *, prefer_existing: bool = True) -> Path:
     """Resolve PRP / self-llm export path for a profile id."""
@@ -591,13 +564,11 @@ def resolve_prp_export_path(user_id: str, *, prefer_existing: bool = True) -> Pa
             return alt
     return primary
 
-
 def read_path(path: Path) -> str:
     """Read path as utf-8; return '' if missing."""
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
-
 
 def profile_dir(user_id: str) -> Path:
     """Return canonical profile directory (Grace-Mar instance bundle when relocated)."""
@@ -609,11 +580,9 @@ def profile_dir(user_id: str) -> Path:
         return GRACE_MAR_INSTANCE_DIR
     return REPO_ROOT
 
-
 def profile_rel_posix(user_id: str) -> str:
     """Repo-relative POSIX path to the operator profile / Record bundle directory."""
     return profile_dir(user_id).relative_to(REPO_ROOT).as_posix()
-
 
 def dream_handoff_root(users_dir: Path, user_id: str) -> Path:
     """Filesystem root for dream handoff JSON (sole-operator root vs platform/users/<id>)."""
@@ -624,12 +593,10 @@ def dream_handoff_root(users_dir: Path, user_id: str) -> Path:
         return candidate
     return profile_dir(user_id)
 
-
 def operator_ledger_write_path(user_id: str, name: str) -> Path:
     """Canonical append/write path for operator event ledgers."""
     OPERATOR_EVENTS_DIR.mkdir(parents=True, exist_ok=True)
     return OPERATOR_EVENTS_DIR / name
-
 
 def resolve_ledger_path(user_id: str, name: str) -> Path:
     """
@@ -644,7 +611,6 @@ def resolve_ledger_path(user_id: str, name: str) -> Path:
     if old.is_file():
         return old
     return operator_ledger_write_path(user_id, name)
-
 
 def resolve_last_dream_path(user_id: str, users_dir: Path | None = None) -> Path:
     """Read path for last-dream.json (runtime/daily-handoff/ preferred; legacy compat)."""
@@ -661,14 +627,12 @@ def resolve_last_dream_path(user_id: str, users_dir: Path | None = None) -> Path
         return legacy_root
     return new
 
-
 def last_dream_write_path(user_id: str, users_dir: Path | None = None) -> Path:
     """Canonical write path for last-dream.json."""
     handoff_dir = resolve_repo_path("daily-handoff")
     path = handoff_dir / LAST_DREAM_BASENAME
     path.parent.mkdir(parents=True, exist_ok=True)
     return path
-
 
 def resolve_night_handoff_path(user_id: str, users_dir: Path | None = None) -> Path:
     """Read path for night-handoff.json (runtime/daily-handoff/ preferred; legacy compat)."""
@@ -683,7 +647,6 @@ def resolve_night_handoff_path(user_id: str, users_dir: Path | None = None) -> P
         return candidates[0]
     return max(candidates, key=lambda p: p.stat().st_mtime)
 
-
 def night_handoff_write_path(user_id: str, users_dir: Path | None = None) -> Path:
     """Canonical write path for night-handoff.json."""
     handoff_dir = resolve_repo_path("daily-handoff")
@@ -691,11 +654,9 @@ def night_handoff_write_path(user_id: str, users_dir: Path | None = None) -> Pat
     path.parent.mkdir(parents=True, exist_ok=True)
     return path
 
-
 def fork_root(fork_id: str) -> Path:
     """Alias for profile_dir: the filesystem root for the sole operator profile."""
     return profile_dir(fork_id)
-
 
 def list_forks() -> list[str]:
     """
@@ -706,17 +667,14 @@ def list_forks() -> list[str]:
         return [DEFAULT_PROFILE_ID]
     return []
 
-
 def fork_config_path(fork_id: str) -> Path:
     """Path to optional profile config (JSON)."""
     return REPO_ROOT / "fork-config.json"
-
 
 def missing_canonical_record_files(user_id: str) -> list[str]:
     """Return required Record basenames missing under the profile bundle."""
     root = profile_dir(user_id)
     return [name for name in CANONICAL_RECORD_FILES_REQUIRED if not (root / name).is_file()]
-
 
 def resolve_surface_markdown_path(
     user_dir: Path,
@@ -770,7 +728,6 @@ def resolve_surface_markdown_path(
             return p
     return canon
 
-
 def resolve_memory_path(user_dir: Path | None = None) -> Path:
     """Strategy-codex continuity buffer at repo-root memory.md."""
     root_mem = REPO_ROOT / "memory.md"
@@ -783,11 +740,9 @@ def resolve_memory_path(user_dir: Path | None = None) -> Path:
                 return leg
     return root_mem
 
-
 def resolve_self_memory_path(user_dir: Path) -> Path:
     """Deprecated alias — use resolve_memory_path()."""
     return resolve_memory_path(user_dir)
-
 
 def read_surface_markdown(user_dir: Path, canonical_key: str) -> str:
     """Read UTF-8 content for a surface; empty string if resolved path missing."""
@@ -796,7 +751,6 @@ def read_surface_markdown(user_dir: Path, canonical_key: str) -> str:
     except ValueError:
         return ""
     return read_path(path)
-
 
 def self_skills_layout_warnings(user_dir: Path) -> list[str]:
     """
@@ -821,7 +775,6 @@ def self_skills_layout_warnings(user_dir: Path) -> list[str]:
         )
     return out
 
-
 def enforce_canonical_self_skills_layout(user_dir: Path) -> None:
     """
     Phase B: when GRACE_MAR_REQUIRE_CANONICAL_SELF_SKILLS=1, fail if only legacy
@@ -839,7 +792,6 @@ def enforce_canonical_self_skills_layout(user_dir: Path) -> None:
             "has skills.md without self-skills.md. Migrate: "
             "python scripts/migrate_legacy_user_filenames.py --apply"
         )
-
 
 def assert_canonical_record_layout(user_id: str, *, context: str = "") -> None:
     """
@@ -859,7 +811,6 @@ def assert_canonical_record_layout(user_id: str, *, context: str = "") -> None:
             f"strategy-codex: canonical Record files missing under {rel}: {missing}.{ctx}\n{fix}"
         )
     enforce_canonical_self_skills_layout(profile_dir(user_id))
-
 
 def load_fork_config(fork_id: str) -> dict[str, Any] | None:
     """

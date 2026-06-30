@@ -1,6 +1,5 @@
 # Byzantium And Frontier Endurance
 
-WORK only; not Record.
 
 ## Purpose
 

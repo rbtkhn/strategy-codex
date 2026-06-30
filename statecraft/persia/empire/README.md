@@ -1,6 +1,6 @@
 # Iran Empire
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: name Iran's outward striving for security and control so statecraft can regulate leverage before it becomes uncontrolled disruption.
 

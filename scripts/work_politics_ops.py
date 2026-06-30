@@ -21,16 +21,13 @@ except ImportError:
 REPO_ROOT = Path(__file__).resolve().parent.parent
 WORK_POLITICS_DIR = REPO_ROOT / "docs" / "skill-work" / "work-politics"
 
-
 def _read(path: Path) -> str:
     return path.read_text(encoding="utf-8") if path.exists() else ""
-
 
 def _file_age_days(path: Path) -> int | None:
     if not path.exists():
         return None
     return max(0, int((datetime.now(timezone.utc).timestamp() - path.stat().st_mtime) // 86400))
-
 
 def _parse_markdown_table(content: str) -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
@@ -51,13 +48,11 @@ def _parse_markdown_table(content: str) -> list[dict[str, str]]:
         rows.append({headers[idx]: cells[idx] for idx in range(len(headers))})
     return rows
 
-
 def _parse_currency_amount(amount: str) -> float | None:
     match = re.search(r"\$([\d,]+(?:\.\d+)?)", amount or "")
     if not match:
         return None
     return float(match.group(1).replace(",", ""))
-
 
 def _parse_date(text: str) -> datetime | None:
     cleaned = re.sub(r"[*_`]", "", (text or "")).strip()
@@ -75,13 +70,11 @@ def _parse_date(text: str) -> datetime | None:
             continue
     return None
 
-
 def _days_until(date_text: str) -> int | None:
     dt = _parse_date(date_text)
     if not dt:
         return None
     return int((dt - datetime.now(timezone.utc)).days)
-
 
 def _extract_primary_date() -> dict[str, object]:
     calendar_path = WORK_POLITICS_DIR / "calendar-2026.md"
@@ -92,7 +85,6 @@ def _extract_primary_date() -> dict[str, object]:
         "label": label,
         "days_until": _days_until(label),
     }
-
 
 def _calendar_rows(limit: int = 4) -> list[dict[str, object]]:
     rows = _parse_markdown_table(_read(WORK_POLITICS_DIR / "calendar-2026.md"))
@@ -112,7 +104,6 @@ def _calendar_rows(limit: int = 4) -> list[dict[str, object]]:
         )
     upcoming.sort(key=lambda row: row["days_until"])
     return [row for row in upcoming if row["days_until"] >= -1][:limit]
-
 
 def _revenue_summary() -> dict[str, object]:
     rows = _parse_markdown_table(_read(WORK_POLITICS_DIR / "revenue-log.md"))
@@ -135,14 +126,11 @@ def _revenue_summary() -> dict[str, object]:
         "btc_commitments": btc_commitments,
     }
 
-
 def _brief_sources() -> list[dict[str, str]]:
     return _parse_markdown_table(_read(WORK_POLITICS_DIR / "brief-source-registry.md"))
 
-
 def _content_queue() -> list[dict[str, str]]:
     return _parse_markdown_table(_read(WORK_POLITICS_DIR / "content-queue.md"))
-
 
 def _brief_readiness() -> dict[str, object]:
     rows = _brief_sources()
@@ -159,7 +147,6 @@ def _brief_readiness() -> dict[str, object]:
         "needs_refresh": needs_refresh,
     }
 
-
 def _content_summary() -> dict[str, object]:
     rows = _content_queue()
     status_counts: dict[str, int] = {}
@@ -174,7 +161,6 @@ def _content_summary() -> dict[str, object]:
         "status_counts": status_counts,
         "next_items": next_items[:4],
     }
-
 
 def _doc_statuses() -> list[dict[str, object]]:
     files = [
@@ -198,11 +184,9 @@ def _doc_statuses() -> list[dict[str, object]]:
         )
     return out
 
-
 def _work_politics_gate_items(user_id: str) -> list[dict]:
     rows = parse_review_candidates(user_id)
     return [row for row in rows if row.get("territory") == TERRITORY_WORK_POLITICS]
-
 
 def _territory_blockers(user_id: str) -> list[dict[str, str]]:
     blockers: list[dict[str, str]] = []
@@ -251,7 +235,6 @@ def _territory_blockers(user_id: str) -> list[dict[str, str]]:
         )
     return blockers
 
-
 def _next_actions(user_id: str) -> list[str]:
     actions: list[str] = []
     upcoming = _calendar_rows()
@@ -261,7 +244,6 @@ def _next_actions(user_id: str) -> list[str]:
     for blocker in _territory_blockers(user_id)[:3]:
         actions.append(blocker["action"])
     return actions[:4]
-
 
 def get_work_politics_snapshot(user_id: str = "grace-mar") -> dict[str, object]:
     primary = _extract_primary_date()
@@ -292,7 +274,6 @@ def get_work_politics_snapshot(user_id: str = "grace-mar") -> dict[str, object]:
         "next_actions": _next_actions(user_id),
         "workspace_path": str((WORK_POLITICS_DIR / "workspace.md").relative_to(REPO_ROOT)),
     }
-
 
 get_wap_snapshot = get_work_politics_snapshot  # deprecated alias
 

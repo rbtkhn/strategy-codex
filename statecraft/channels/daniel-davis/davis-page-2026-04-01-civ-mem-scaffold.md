@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Page 2026 04 01 Civ Mem Scaffold (compat redirect)
 

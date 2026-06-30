@@ -21,7 +21,6 @@ archive_links:
 
 # Ritter May 2026 cross-host arc
 
-WORK only; not Record.
 
 Compatibility note: the canonical bounded May 2026 Ritter synthesis shelf now
 lives at

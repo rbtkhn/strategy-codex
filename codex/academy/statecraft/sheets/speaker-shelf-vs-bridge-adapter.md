@@ -1,6 +1,5 @@
 # Speaker Shelf vs Bridge Adapter
 
-WORK only; not Record.
 
 This note defines the constitutional split between the human-facing speaker shelf and the statecraft-facing bridge adapter layer.
 

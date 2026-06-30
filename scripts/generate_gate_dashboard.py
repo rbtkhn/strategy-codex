@@ -28,12 +28,10 @@ from repo_io import DEFAULT_PROFILE_ID, profile_dir, resolve_profile_export_path
 
 DEFAULT_USER = DEFAULT_PROFILE_ID
 
-
 def _age_label(age_days: int | None) -> str:
     if age_days is None:
         return "-"
     return f"{age_days}d"
-
 
 def build_html(user_id: str, rows: list[dict], gate_rel: str) -> str:
     gen = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -218,7 +216,6 @@ def build_html(user_id: str, rows: list[dict], gate_rel: str) -> str:
 </html>
 """
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Generate gate-dashboard.html from recursion-gate.md")
     ap.add_argument("-u", "--user", default=DEFAULT_USER)
@@ -235,7 +232,6 @@ def main() -> int:
     out.write_text(build_html(args.user, rows, gate_rel), encoding="utf-8")
     print(out)
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

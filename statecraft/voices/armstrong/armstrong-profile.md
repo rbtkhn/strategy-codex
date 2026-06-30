@@ -1,7 +1,6 @@
 # Strategy expert - `armstrong`
 <!-- word_count: 386 -->
 
-WORK only; not Record.
 
 **Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) - **`armstrong`** lane.
 

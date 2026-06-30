@@ -1,6 +1,6 @@
 # Source Sidecar
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder holds lawful sidecar full-text payloads and small sidecar manifests keyed by `source_id`.
 

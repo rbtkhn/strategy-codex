@@ -52,7 +52,6 @@ DEPTH_CHOICES = ("shallow", "normal", "deep", "exhaustive", "auto")
 LANE_DEFAULTS = REPO_ROOT / "platform/config" / "context_budgets" / "lane-defaults.json"
 MODES = ("compact", "medium", "deep")
 
-
 @dataclass(order=True)
 class RankedPiece:
     sort_key: float
@@ -61,12 +60,10 @@ class RankedPiece:
     text: str
     meta: dict[str, Any] = field(compare=False)
 
-
 def _load_budgets(path: Path) -> dict[str, Any]:
     if not path.is_file():
         return {}
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def _budget_for_lane(budgets: dict[str, Any], lane: str, mode: str) -> int:
     row = budgets.get(lane) or budgets.get("default") or {}
@@ -78,7 +75,6 @@ def _budget_for_lane(budgets: dict[str, Any], lane: str, mode: str) -> int:
     if isinstance(v2, int) and v2 > 0:
         return v2
     return 2000
-
 
 def _observation_rank_score(row: dict, base: float) -> float:
     s = base
@@ -93,7 +89,6 @@ def _observation_rank_score(row: dict, base: float) -> float:
     if len(summ) > 80:
         s += 0.05
     return s
-
 
 def _format_observation(row: dict, budget_class: str) -> str:
     oid = row.get("obs_id", "?")
@@ -118,7 +113,6 @@ def _format_observation(row: dict, budget_class: str) -> str:
         return f"### Observation `{oid}`\n```json\n{body}\n```\n"
     return f"### {oid}\n{summary}\n"
 
-
 def _ranked_score_rows(lane: str, query: str, max_candidates: int) -> list[tuple[float, dict]]:
     rows = load_all()
     pool = filter_rows(
@@ -137,11 +131,9 @@ def _ranked_score_rows(lane: str, query: str, max_candidates: int) -> list[tuple
     )
     return ranked[:max_candidates]
 
-
 def _ranked_observation_rows(lane: str, query: str, max_candidates: int) -> list[dict]:
     """Top-ranked observation rows for metrics (contradiction density, pool size)."""
     return [row for _, row in _ranked_score_rows(lane, query, max_candidates)]
-
 
 def _gather_observations(lane: str, query: str, budget_class: str, max_candidates: int) -> list[RankedPiece]:
     out: list[RankedPiece] = []
@@ -159,7 +151,6 @@ def _gather_observations(lane: str, query: str, budget_class: str, max_candidate
             )
         )
     return out
-
 
 def _read_file_piece(path: Path, kind: str, label: str) -> RankedPiece | None:
     if not path.is_file():
@@ -179,7 +170,6 @@ def _read_file_piece(path: Path, kind: str, label: str) -> RankedPiece | None:
         meta={"path": str(path)},
     )
 
-
 def _greedy_pack(pieces: list[RankedPiece], budget: int) -> tuple[list[RankedPiece], list[RankedPiece]]:
     ordered = sorted(pieces)
     included: list[RankedPiece] = []
@@ -195,7 +185,6 @@ def _greedy_pack(pieces: list[RankedPiece], budget: int) -> tuple[list[RankedPie
             excluded.append(p)
     return included, excluded
 
-
 def _compact_included_observation_rows(included: list[RankedPiece]) -> list[dict]:
     """Full observation dicts for compact pack — used by workflow depth quality guard."""
     out: list[dict] = []
@@ -209,7 +198,6 @@ def _compact_included_observation_rows(included: list[RankedPiece]) -> list[dict
         if raw:
             out.append(raw)
     return out
-
 
 def compute_benchmark_scores(
     included: list[RankedPiece],
@@ -232,7 +220,6 @@ def compute_benchmark_scores(
         "included_count": len(included),
         "excluded_count": len(excluded),
     }
-
 
 def _write_receipt(
     *,
@@ -272,7 +259,6 @@ def _write_receipt(
     data["lanes"][lane] = lane_data
     receipt.parent.mkdir(parents=True, exist_ok=True)
     receipt.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
-
 
 def build_markdown(
     *,
@@ -371,12 +357,10 @@ def build_markdown(
     )
     return "\n".join(lines) + "\n"
 
-
 def _utc_run_id() -> str:
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     h = hashlib.sha256(f"{ts}:{uuid.uuid4().hex}".encode()).hexdigest()[:12]
     return f"wd_{ts}_{h}"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -409,9 +393,7 @@ def main() -> int:
     ap.add_argument(
         "--constraint-anchor",
         default="",
-        help="Optional constraint line (scope, abstention, format) — WORK only",
-    )
-    ap.add_argument("--query", "-q", default="", help="Optional search query for ranking observations")
+        help="Optional constraint line (scope, abstention, format)add_argument("--query", "-q", default="", help="Optional search query for ranking observations")
     ap.add_argument("--output", "-o", type=Path, required=True, help="Output Markdown path")
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
     ap.add_argument(
@@ -777,7 +759,6 @@ def main() -> int:
     if args.score:
         print(json.dumps({"lane": lane, "mode": budget_class, **scores}, indent=2))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

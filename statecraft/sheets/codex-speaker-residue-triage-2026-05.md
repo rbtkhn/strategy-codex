@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Codex Speaker Residue Triage - 2026-05
 

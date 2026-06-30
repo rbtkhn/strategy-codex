@@ -1,6 +1,5 @@
 # Parsi interview appearances - 2025-2026
 
-WORK only; not Record.
 
 Purpose: canonical interview-pressure surface for the Parsi shelf.
 

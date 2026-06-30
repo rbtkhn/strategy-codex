@@ -36,7 +36,6 @@ The central operator-books dashboard is **retired**. Operator books live in **mi
 See **`codex/README.md`** § Operator books (misc homes) and **`.cursor/rules/operator-books-routing.mdc`**.
 """
 
-
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--check", action="store_true", help="Verify stub exists (no-op rebuild)")
@@ -51,7 +50,6 @@ def main() -> int:
     out.write_text(text, encoding="utf-8")
     print(f"Wrote {out}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

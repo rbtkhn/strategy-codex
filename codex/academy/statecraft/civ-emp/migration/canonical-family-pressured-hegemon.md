@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Canonical Family Synthesis: Pressured Hegemon Misreading Power
 

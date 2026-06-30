@@ -1,7 +1,6 @@
 # Strategy expert - `berletic`
 <!-- word_count: 428 -->
 
-WORK only; not Record.
 
 **Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) - **`berletic`** lane.
 

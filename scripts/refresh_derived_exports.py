@@ -22,10 +22,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 from repo_io import profile_dir, resolve_prp_export_path
 
-
 def _prp_output_path(user_id: str) -> Path:
     return resolve_prp_export_path(user_id, prefer_existing=False)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Regenerate manifest, PRP, fork manifest, runtime bundle.")
@@ -72,7 +70,6 @@ def main() -> int:
 
     print("Derived exports refreshed.", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

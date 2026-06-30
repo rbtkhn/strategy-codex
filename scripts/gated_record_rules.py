@@ -7,7 +7,6 @@ and scripts/check_gated_record_pr.py.
 
 from __future__ import annotations
 
-
 def is_gated_record_path(rel: str) -> bool:
     rel = rel.replace("\\", "/").strip()
     if not rel:
@@ -41,7 +40,6 @@ def is_gated_record_path(rel: str) -> bool:
     if name.endswith("-llm.txt"):
         return True
     return False
-
 
 def allowed_gated_commit_message(msg: str) -> bool:
     if "[gated-merge]" in msg:

@@ -1,6 +1,6 @@
 # Davis
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder is the canonical first-pass shelf for Daniel Davis.
 

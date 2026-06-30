@@ -1,6 +1,5 @@
 # Sunzi And Clausewitz
 
-WORK only; not Record.
 
 ## Purpose
 

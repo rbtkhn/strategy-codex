@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-11/source-dialogue-works-alex-krainer-us-strikes-iran-retaliates-kuwait-bahrain-jordan-2026-06-11.md
   - source-archive/statecraft/2026-06-11/source-dialogue-works-andrei-martyanov-us-strikes-iran-iran-hits-back-critical-targets-2026-06-11.md
 ---
-WORK only; not Record.
 
 # Pape Day 100 — Indicator Watch Sheet (Weekly Falsifier Table)
 

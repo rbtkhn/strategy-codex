@@ -23,7 +23,6 @@ from gate_block_parser import iter_candidate_yaml_blocks  # noqa: E402
 from operator_dashboard_common import extract_yaml_scalar  # noqa: E402
 from repo_io import profile_dir  # noqa: E402, ARTIFACTS_DIR
 
-
 def _pending_structs(gate_text: str) -> list[dict[str, str | None]]:
     """All YAML blocks with status: pending anywhere in the gate file.
 
@@ -51,7 +50,6 @@ def _pending_structs(gate_text: str) -> list[dict[str, str | None]]:
         )
     return out
 
-
 def _processed_structs(processed_tail: str) -> list[dict[str, str | None]]:
     out: list[dict[str, str | None]] = []
     for cid, title, body in iter_candidate_yaml_blocks(processed_tail):
@@ -67,7 +65,6 @@ def _processed_structs(processed_tail: str) -> list[dict[str, str | None]]:
             }
         )
     return out
-
 
 def render_markdown(
     *,
@@ -131,7 +128,6 @@ def render_markdown(
     )
     return "".join(lines)
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Build review-dashboard.md from recursion-gate.md.")
     ap.add_argument("-u", "--user", default="grace-mar")
@@ -157,7 +153,6 @@ def main() -> int:
     out.write_text(md, encoding="utf-8")
     print(f"wrote {out}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

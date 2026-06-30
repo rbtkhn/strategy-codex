@@ -31,12 +31,10 @@ from pathlib import Path
 
 _REPO = Path(__file__).resolve().parent.parent
 
-
 def _run(argv: list[str]) -> int:
     print(f"\n{'=' * 60}\n$ {' '.join(argv)}\n{'=' * 60}\n", flush=True)
     r = subprocess.run(argv, cwd=str(_REPO))
     return r.returncode
-
 
 def main() -> int:
     p = argparse.ArgumentParser(
@@ -85,7 +83,6 @@ def main() -> int:
         if code != 0:
             return code
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

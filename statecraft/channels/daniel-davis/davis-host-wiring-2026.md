@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Host Wiring 2026 (compat redirect)
 

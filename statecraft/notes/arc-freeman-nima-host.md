@@ -19,7 +19,6 @@ archive_links:
 
 # Dialogue Works x Freeman speaker arc
 
-WORK only; not Record.
 
 ## Why this guest run matters
 

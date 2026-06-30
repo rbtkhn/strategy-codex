@@ -25,7 +25,6 @@ LABEL_RE = re.compile(
     r"- \[([^\]]+)\]\([^)]*/([^/)]+)\)"
 )
 
-
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:5000]
     out: dict = {}
@@ -39,7 +38,6 @@ def parse_head(path: Path) -> dict:
             out["title"] = hm.group(1).strip()
     return out
 
-
 def pub_date_key(meta: dict, path: Path) -> str:
     pub = meta.get("pub_date", "")
     if pub and len(pub) >= 10:
@@ -48,7 +46,6 @@ def pub_date_key(meta: dict, path: Path) -> str:
     if re.match(r"^\d{4}-\d{2}-\d{2}$", day):
         return day
     return day
-
 
 def host_bucket(path: Path, meta: dict) -> str:
     name = path.name.casefold()
@@ -85,7 +82,6 @@ def host_bucket(path: Path, meta: dict) -> str:
         return "duran"
     return "other"
 
-
 def kind_prefix(meta: dict, path: Path) -> str:
     name = path.name.casefold()
     kind = (meta.get("kind") or "").casefold()
@@ -105,7 +101,6 @@ def kind_prefix(meta: dict, path: Path) -> str:
         return "transcript-bearing capture"
     return "transcript"
 
-
 def load_label_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
         return {}
@@ -115,7 +110,6 @@ def load_label_map(index_path: Path) -> dict[str, str]:
         if m:
             out[m.group(2)] = m.group(1)
     return out
-
 
 def load_annotation_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
@@ -133,7 +127,6 @@ def load_annotation_map(index_path: Path) -> dict[str, str]:
             out[fn] = suffix
     return out
 
-
 def default_label(meta: dict, path: Path) -> str:
     pub = pub_date_key(meta, path)
     prefix = kind_prefix(meta, path)
@@ -149,12 +142,10 @@ def default_label(meta: dict, path: Path) -> str:
         return f"{pub} - {prefix} - {title}"
     return f"{pub} - {prefix} - {title}"
 
-
 def row_label(meta: dict, path: Path, labels: dict[str, str]) -> str:
     text = labels.get(path.name) or default_label(meta, path)
     rel = f"../../../source-archive/statecraft/{path.parent.name}/{path.name}"
     return f"- [{text}]({rel})"
-
 
 def collect_rows() -> list[tuple[str, Path, dict]]:
     rows: list[tuple[str, Path, dict]] = []
@@ -167,7 +158,6 @@ def collect_rows() -> list[tuple[str, Path, dict]]:
         rows.append((pub, path, meta))
     rows.sort(key=lambda t: (t[0], t[1].name))
     return rows
-
 
 def render_host_section(
     heading: str,
@@ -190,7 +180,6 @@ def render_host_section(
     lines.append("")
     return lines
 
-
 def render_open_first() -> list[str]:
     return [
         "## Open first by corpus layer",
@@ -205,7 +194,6 @@ def render_open_first() -> list[str]:
         "",
     ]
 
-
 def render_boundary() -> list[str]:
     return [
         "## Boundary",
@@ -218,7 +206,6 @@ def render_boundary() -> list[str]:
         "- The June 8–26 cluster (Nawfal, Napolitano, Nima, Davis) is same-week continuity evidence — route Davis first for mature lane, then the June 10 pair for fast-turn reinforcement; Jun 25–26 extend MOU-week Hormuz/GCC tail.",
         "",
     ]
-
 
 def render_index(
     rows: list[tuple[str, Path, dict]],
@@ -236,8 +223,7 @@ def render_index(
     )
 
     lines = [
-        "WORK only; not Record.",
-        "",
+                "",
         "# Barnes source index",
         "",
         "Purpose: canonical route map for the materialized Barnes corpus now on disk, grouped by host and context.",
@@ -352,7 +338,6 @@ def render_index(
     lines.extend(render_boundary())
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="Print row count only")
@@ -376,7 +361,6 @@ def main() -> int:
     OUT.write_text(body if body.endswith("\n") else body + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {OUT} ({len(rows)} rows, {len(labels)} labels preserved)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -13,7 +13,6 @@ MAX_STUB_LINES = 15
 MOVED_RE = re.compile(r"^moved_to:\s*(.+)$", re.MULTILINE)
 ARCHIVED_RE = re.compile(r"^archived:\s*true\s*$", re.MULTILINE)
 
-
 def parse_stub(path: Path) -> tuple[bool, str | None]:
     text = path.read_text(encoding="utf-8")
     if not text.startswith("---"):
@@ -28,7 +27,6 @@ def parse_stub(path: Path) -> tuple[bool, str | None]:
     if not m:
         return False, None
     return True, m.group(1).strip()
-
 
 def main() -> int:
     errors: list[str] = []
@@ -55,7 +53,6 @@ def main() -> int:
 
     print(f"ok: {checked} stub(s) validated")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -10,14 +10,14 @@ When routing, ingesting, or titling **Nima Alkhorshid** / **Dialogue Works** cap
 
 ## Rules
 
-1. **Person thread:** `alkorshid` on all appearances (host + guest). Deprecate `thread:nima` for archive routing; keep `expert_id: nima` for MCQ/EOD compat only.
+1. **Person thread:** `alkhorshid` on all appearances (host + guest). Deprecate `thread:nima` for archive routing; keep `expert_id: nima` for MCQ/EOD compat only.
 2. **Own show filename:** `source-dialogue-works-<guest>-*` — not `source-alkorshid-*` / `source-nima-*`.
 3. **Cross-host guest:** `source-nawfal-alkorshid-*`, `source-daniel-davis-alkorshid-*`.
 4. **Venue-first titles:** `Dialogue Works × Johnson`, `Daniel Davis × Alkhorshid`, `Mario Nawfal × Alkhorshid` — never `Johnson × Alkorshid`, bare `Alkorshid`, or bare `× Nima`.
 5. **Intake guard:** Apply Dialogue Works normalize only when `channel_slug: dialogue-works`. Do not infer DW from guest surname in filename.
-6. **Display spelling:** operator surfaces use **Nima Alkhorshid** (surname with **h**); machine ids stay **`alkorshid`** (path slug, `thread`, filename token). See disambiguation doc § Display spelling.
+6. **Display spelling:** operator surfaces use **Nima Alkhorshid** (surname with **h**); machine ids stay **`alkhorshid`** (path slug, `thread`, filename token). See disambiguation doc § Display spelling.
 
 ## Shelf split
 
 - `statecraft/channels/dialogue-works/` — Dialogue Works **host-law** and **dialogue-works-channel-index**
-- `statecraft/voices/alkorshid/` — person profile / compat pointer only (no separate channel index)
+- `statecraft/voices/alkhorshid/` — person profile / compat pointer only (no separate channel index)

@@ -1,6 +1,5 @@
 # Ritter surface orthogonality review - 2026-05
 
-WORK only; not Record.
 
 ## Scope
 

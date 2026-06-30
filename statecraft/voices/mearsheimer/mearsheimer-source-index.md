@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Mearsheimer Source Index (compat redirect)
 

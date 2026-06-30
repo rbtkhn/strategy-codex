@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Trend — China AI implementation
 

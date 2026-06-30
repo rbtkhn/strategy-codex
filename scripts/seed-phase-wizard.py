@@ -29,7 +29,6 @@ if str(_SCRIPTS) not in sys.path:
 
 from repo_io import CANONICAL_RECORD_FILES_REQUIRED, DEFAULT_USER_ID, resolve_self_memory_path
 
-
 class Colors:
     HEADER = "\033[95m"
     OKBLUE = "\033[94m"
@@ -39,10 +38,8 @@ class Colors:
     ENDC = "\033[0m"
     BOLD = "\033[1m"
 
-
 def _now_utc_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-
 
 def ask(question: str, default: str = "") -> str:
     prompt = f"{question} "
@@ -51,28 +48,23 @@ def ask(question: str, default: str = "") -> str:
     answer = input(prompt).strip()
     return answer if answer else default
 
-
 def confirm(question: str) -> bool:
     answer = input(f"{question} (y/N) ").strip().lower()
     return answer == "y"
-
 
 def save_file(path: Path, content: str, *, repo_root: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
     print(f"{Colors.OKGREEN}Created{Colors.ENDC} {path.relative_to(repo_root)}")
 
-
 def user_profile_dir(repo_root: Path, user_id: str) -> Path:
     return repo_root / "platform/users" / user_id
-
 
 def canonical_record_ready(repo_root: Path, user_id: str) -> bool:
     root = repo_root / "platform/users" / user_id
     if not root.is_dir():
         return False
     return all((root / name).is_file() for name in CANONICAL_RECORD_FILES_REQUIRED)
-
 
 def append_good_morning_tone_memory(profile: Path, tone: str, *, when: str, repo_root: Path) -> None:
     mem = resolve_self_memory_path(platform/profile)
@@ -95,7 +87,6 @@ def append_good_morning_tone_memory(profile: Path, tone: str, *, when: str, repo
             encoding="utf-8",
         )
     print(f"{Colors.OKGREEN}Updated{Colors.ENDC} {mem.relative_to(repo_root)}")
-
 
 def run_validators(repo: Path, user_id: str, *, require_proposal_class: bool) -> None:
     print(f"\n{Colors.OKBLUE}Running validators{Colors.ENDC}")
@@ -141,7 +132,6 @@ def run_validators(repo: Path, user_id: str, *, require_proposal_class: bool) ->
             f"{Colors.WARNING}If failures reference .venv or site-packages, run from a clean tree "
             f"or see scripts/governance_checker.py scope.{Colors.ENDC}"
         )
-
 
 def run_wizard(
     *,
@@ -263,7 +253,6 @@ def run_wizard(
     print(f"Instance **{instance}** — artifacts under {instance}/.")
     print("Durable Record changes still require companion approval through the gate.\n")
 
-
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -287,7 +276,6 @@ def main() -> None:
     except KeyboardInterrupt:
         print(f"\n{Colors.WARNING}Wizard interrupted.{Colors.ENDC}")
         sys.exit(130)
-
 
 if __name__ == "__main__":
     main()

@@ -1,6 +1,5 @@
 # Taiwan Framework - Four-Lane Comparison
 
-WORK only; not Record.
 
 | lane | wants | fears | workable formula |
 | --- | --- | --- | --- |

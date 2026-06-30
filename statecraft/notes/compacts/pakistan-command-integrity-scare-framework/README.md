@@ -9,7 +9,7 @@ updated_at: 2026-06-28
 ---
 # Pakistan Command-Integrity Scare Framework
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: compare a nuclear command-integrity scare across America, China, Russia, and Iran. The framework treats command authority, domestic fracture, and escalation control as the crisis object before any actor reaches for coercive intervention.
 

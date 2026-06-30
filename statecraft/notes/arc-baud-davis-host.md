@@ -18,7 +18,6 @@ archive_links:
 
 # Davis x Baud arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Davis x Baud` run inside the Davis stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Baud lane Davis elicits, which files matter most, and why this run belongs beside the stronger Dialogue Works lane rather than being mistaken for a one-off appearance.
 
@@ -119,7 +118,7 @@ Typical pairings around the guest lane:
 - `davis`
 - `freeman`
 - `mearsheimer`
-- `alkorshid`
+- `alkhorshid`
 
 ## Boundaries
 

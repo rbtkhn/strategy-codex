@@ -27,7 +27,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _default_user_id() -> str:
     import os
 
@@ -38,12 +37,10 @@ def _default_user_id() -> str:
         return "grace-mar"
     return "platform/template"
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
-
 
 def parse_ix_entries(content: str) -> list[dict]:
     """Extract IX entries (LEARN, CUR, PER) with date, topic/observation, evidence_id."""
@@ -78,7 +75,6 @@ def parse_ix_entries(content: str) -> list[dict]:
 
     return entries
 
-
 def pipeline_throughput(events_path: Path) -> dict:
     """Count applied events per week from pipeline-events.jsonl."""
     if not events_path.exists():
@@ -98,7 +94,6 @@ def pipeline_throughput(events_path: Path) -> dict:
         except (json.JSONDecodeError, ValueError):
             pass
     return dict(by_week)
-
 
 def growth_from_git(self_path: Path) -> list[tuple[str, int, int, int]]:
     """Get (commit_date, ix_a, ix_b, ix_c) from git history. Returns empty if not a git repo."""
@@ -142,7 +137,6 @@ def growth_from_git(self_path: Path) -> list[tuple[str, int, int, int]]:
         except (subprocess.TimeoutExpired, subprocess.CalledProcessError):
             continue
     return history[:20]  # limit to recent commits
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Measure cognitive growth and density (IX entries).")
@@ -245,7 +239,6 @@ def main() -> None:
             file=sys.stderr,
         )
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()

@@ -17,7 +17,6 @@ UNICODE_APOSTROPHE = r"['\u2019]"
 AUTHORED_KINDS = frozenset({"substack-post", "newsletter", "x-post-text", "paste-bundle"})
 AUTHORED_FORMS = frozenset({"newsletter", "article", "post", "roundup"})
 
-
 def parse_capture_eligibility_meta(head: str) -> dict[str, str]:
     """Minimal frontmatter parse for source-section eligibility checks."""
     fm = head
@@ -31,7 +30,6 @@ def parse_capture_eligibility_meta(head: str) -> dict[str, str]:
         if m:
             out[key] = m.group(1).strip().strip('"').strip("'")
     return out
-
 
 def is_source_section_eligible(meta: dict[str, str], *, guest: bool | None = None) -> bool:
     """True for YouTube channel transcript captures; false for authored essays/posts."""
@@ -53,7 +51,6 @@ def is_source_section_eligible(meta: dict[str, str], *, guest: bool | None = Non
         return True
     return guest is True
 
-
 def detect_body_marker(doc: str) -> str:
     for marker in BODY_MARKERS:
         if marker in doc:
@@ -62,19 +59,16 @@ def detect_body_marker(doc: str) -> str:
         f"missing transcript body marker (expected one of: {', '.join(repr(m) for m in BODY_MARKERS)})"
     )
 
-
 def split_transcript_document(doc: str) -> tuple[str, str, str]:
     marker = detect_body_marker(doc)
     head, body = doc.split(marker, 1)
     return head, marker, body
-
 
 def normalize_for_anchor(text: str) -> str:
     text = text.replace("\u2019", "'").replace("\u2018", "'")
     text = text.replace("\u201c", '"').replace("\u201d", '"')
     text = text.replace("\u2014", "-").replace("\u2013", "-")
     return text.lower()
-
 
 def find_anchor_pos(flat: str, anchor: str, start: int) -> int:
     hay = normalize_for_anchor(flat)
@@ -83,7 +77,6 @@ def find_anchor_pos(flat: str, anchor: str, start: int) -> int:
     if pos == -1:
         raise ValueError(f"anchor not found: {anchor!r} (from pos {start})")
     return pos
-
 
 def insert_sections(
     body: str,
@@ -130,7 +123,6 @@ def insert_sections(
         parts.append(f"### {heading}\n\n{chunk}")
     return "\n\n".join(parts)
 
-
 ABBREV_GUARDS: tuple[str, ...] = (
     "U.S.",
     "U.K.",
@@ -175,25 +167,20 @@ _SPEAKER_LABEL_LINE = re.compile(r"^(\*\*.+:\*\*)(?:\s+(.*))?$", re.DOTALL)
 _TURN_MARKER = re.compile(r"^>>", re.M)
 _WORD_RE = re.compile(r"\b\w+\b")
 
-
 def count_words(text: str) -> int:
     return len(_WORD_RE.findall(text))
-
 
 def _paragraph_word_counts(text: str) -> list[int]:
     paras = [p.strip() for p in re.split(r"\n\s*\n", text.strip()) if p.strip()]
     return [count_words(p) for p in paras]
 
-
 def _starts_with_discourse_pivot(sentence: str) -> bool:
     stripped = sentence.lstrip()
     return any(stripped.startswith(pivot) for pivot in DISCOURSE_PIVOTS)
 
-
 def _normalize_runon_whitespace(text: str) -> str:
     text = re.sub(r"(?<!\n)\n(?!\n)", " ", text)
     return re.sub(r" +", " ", text).strip()
-
 
 def _protect_abbreviations(text: str) -> tuple[str, dict[str, str]]:
     placeholders: dict[str, str] = {}
@@ -205,13 +192,11 @@ def _protect_abbreviations(text: str) -> tuple[str, dict[str, str]]:
             protected = protected.replace(abbr, token)
     return protected, placeholders
 
-
 def _restore_abbreviations(text: str, placeholders: dict[str, str]) -> str:
     restored = text
     for token, abbr in placeholders.items():
         restored = restored.replace(token, abbr)
     return restored
-
 
 def split_sentences(text: str) -> list[str]:
     """Conservative sentence split for spoken transcript reflow."""
@@ -222,7 +207,6 @@ def split_sentences(text: str) -> list[str]:
     parts = re.split(r"(?<=[.!?])\s+(?=[A-Z\"'*])", protected)
     sentences = [_restore_abbreviations(p.strip(), placeholders) for p in parts if p.strip()]
     return sentences
-
 
 def pack_sentences_into_paragraphs(
     sentences: Sequence[str],
@@ -266,7 +250,6 @@ def pack_sentences_into_paragraphs(
         paragraphs.append(" ".join(current))
     return paragraphs
 
-
 def _split_hard_segments(text: str) -> list[str]:
     """Split section text on paragraph breaks, speaker labels, and turn markers."""
     segments: list[str] = []
@@ -280,7 +263,6 @@ def _split_hard_segments(text: str) -> list[str]:
             if part:
                 segments.append(part)
     return segments or ([text.strip()] if text.strip() else [])
-
 
 def _reflow_text_segment(
     text: str,
@@ -326,7 +308,6 @@ def _reflow_text_segment(
         paragraphs[0] = f"{label_prefix}{paragraphs[0]}"
     return "\n\n".join(paragraphs)
 
-
 def _reflow_section_chunk(
     chunk: str,
     *,
@@ -352,7 +333,6 @@ def _reflow_section_chunk(
             )
         )
     return "\n\n".join(s for s in reflowed_segments if s)
-
 
 def reflow_section_paragraphs(
     body: str,
@@ -391,7 +371,6 @@ def reflow_section_paragraphs(
             out.append(reflowed)
     return "\n\n".join(out)
 
-
 def write_paragraph_reflow_capture(
     capture_path: Path,
     *,
@@ -427,7 +406,6 @@ def write_paragraph_reflow_capture(
     capture_path.write_text(doc, encoding="utf-8", newline="\n")
     print(f"wrote {capture_path} (paragraph reflow, {len(body.split()):,} words)")
 
-
 def common_asr_cleanup(
     text: str,
     *,
@@ -448,7 +426,6 @@ def common_asr_cleanup(
     text = re.sub(r"\bhave has\b", "have", text, flags=re.I)
     return text
 
-
 def strip_speakers_before_section_headings(body: str, speaker_pattern: str) -> str:
     return re.sub(
         rf"\n\n\*\*(?:{speaker_pattern}):\*\*\n\n(### )",
@@ -456,13 +433,11 @@ def strip_speakers_before_section_headings(body: str, speaker_pattern: str) -> s
         body,
     )
 
-
 def body_has_interview_speaker_labels(body: str) -> bool:
     return bool(
         re.search(r"^\*\*Larry Johnson:\*\*", body, re.M)
         and re.search(r"^\*\*Nima Alkhorshid:\*\*", body, re.M)
     )
-
 
 def normalize_dialogue_works_asr_turns(text: str) -> str:
     """Collapse common YouTube ASR false ``>>`` splits (not speaker turns)."""
@@ -471,7 +446,6 @@ def normalize_dialogue_works_asr_turns(text: str) -> str:
     # Broken mid-sentence guest continuation (e.g. "Jordan. The >> people").
     text = re.sub(r"\.\sThe\s>>\s+", ". The ", text)
     return text
-
 
 # Host lines ASR sometimes merges into the prior guest ``>>`` chunk without a marker.
 DIALOGUE_WORKS_HOST_TURN_SPLITS: tuple[str, ...] = (
@@ -509,7 +483,6 @@ DIALOGUE_WORKS_HOST_SECTION_OPENERS: tuple[str, ...] = (
     "take out all the air tankers of Ben Gurion for starter",
 )
 
-
 def inject_section_open_turn_markers(body: str) -> str:
     """Insert ``>>`` when a ``###`` section opens on a known host/guest line without a marker."""
     parts = re.split(r"(^### .+$)", body, flags=re.M)
@@ -532,7 +505,6 @@ def inject_section_open_turn_markers(body: str) -> str:
         out.append(chunk.rstrip() + "\n\n")
     return "".join(out)
 
-
 def restore_turn_markers_from_speaker_labels(
     body: str,
     *,
@@ -543,7 +515,6 @@ def restore_turn_markers_from_speaker_labels(
     for name in (host, guest):
         body = re.sub(rf"\*\*{re.escape(name)}:\*\* ", ">> ", body)
     return body
-
 
 def inject_dialogue_works_missing_turn_markers(text: str) -> str:
     """Insert ``>>`` before host lines glued onto a guest turn (no marker in source)."""
@@ -557,7 +528,6 @@ def inject_dialogue_works_missing_turn_markers(text: str) -> str:
         )
     text = re.sub(r"\s*>>\s*>>\s+", " >> ", text)
     return text
-
 
 def _guess_dialogue_works_host(piece: str) -> bool | None:
     opening = piece.lstrip()[:160].lower()
@@ -661,7 +631,6 @@ def _guess_dialogue_works_host(piece: str) -> bool | None:
         return False
     return None
 
-
 def remove_empty_speaker_turns(body: str) -> str:
     """Drop ``**Speaker:**`` lines with no spoken content (section-boundary artifacts)."""
     blocks = re.split(r"(\n\s*\n)", body.strip())
@@ -671,7 +640,6 @@ def remove_empty_speaker_turns(body: str) -> str:
             continue
         kept.append(block)
     return "".join(kept)
-
 
 def merge_orphan_paragraphs_into_prior_turn(body: str) -> str:
     """Attach unlabeled paragraphs to the preceding speaker turn (interview layout)."""
@@ -690,7 +658,6 @@ def merge_orphan_paragraphs_into_prior_turn(body: str) -> str:
             merged.append(stripped)
     return "\n\n".join(merged) + "\n\n"
 
-
 def normalize_dialogue_works_host_label_suffix(
     body: str,
     *,
@@ -699,12 +666,11 @@ def normalize_dialogue_works_host_label_suffix(
     """Drop legacy ``(host)`` from Dialogue Works Nima speaker labels."""
     for old in (
         f"**{host} (host):**",
-        "**Nima Alkorshid (host):**",
+        "**Nima Alkhorshid (host):**",
         "**Nima (host):**",
     ):
         body = body.replace(old, f"**{host}:**")
     return body
-
 
 def apply_interview_turn_speaker_labels(
     body: str,
@@ -746,7 +712,6 @@ def apply_interview_turn_speaker_labels(
         result = remove_empty_speaker_turns(result)
     return result, turns_labeled
 
-
 def _label_section_turns(
     text: str,
     *,
@@ -785,7 +750,6 @@ def _label_section_turns(
         return text, speaker_is_host, 0
     return "\n\n".join(blocks) + "\n\n", speaker_is_host, count
 
-
 def prepend_speaker_at_section_opens(
     body: str,
     fixes: Sequence[tuple[str, str, str]],
@@ -799,7 +763,6 @@ def prepend_speaker_at_section_opens(
         )
         body = re.sub(pattern, rf"\1**{speaker}:** \2", body, count=1)
     return body
-
 
 def apply_slug_to_title_headings(
     body: str,
@@ -816,7 +779,6 @@ def apply_slug_to_title_headings(
         out = out.replace(old, new, 1)
     return out
 
-
 def flatten_sectioned_body(body: str) -> str:
     """Join section bodies into one flat transcript (drop ``###`` headings)."""
     chunks: list[str] = []
@@ -832,14 +794,12 @@ def flatten_sectioned_body(body: str) -> str:
         chunks.append("\n\n".join(current).strip())
     return "\n\n".join(chunks)
 
-
 def flat_body_from_doc(doc: str) -> tuple[str, str, str]:
     """Return head, body marker, and flat transcript (drop existing ``###`` headings)."""
     head, marker, body = split_transcript_document(doc)
     if body.lstrip().startswith("### "):
         body = flatten_sectioned_body(body)
     return head, marker, body
-
 
 def apply_manual_asr_substitutions(
     text: str,
@@ -852,7 +812,6 @@ def apply_manual_asr_substitutions(
             text = text.replace(old, new)
             count += 1
     return text, count
-
 
 def patch_manual_asr_frontmatter(
     head: str,
@@ -893,7 +852,6 @@ def patch_manual_asr_frontmatter(
         )
     return head
 
-
 def append_resection_editorial_note(head: str, resection_note: str) -> str:
     """Append or replace dated ``source-section re-section pass`` editorial tail."""
     if not re.search(r"^editorial_note:", head, flags=re.M):
@@ -913,14 +871,12 @@ def append_resection_editorial_note(head: str, resection_note: str) -> str:
         flags=re.M,
     )
 
-
 def finalize_patch_head(path: Path, *, resection_note: str) -> None:
     """Apply patch-specific re-section receipt to frontmatter after body ship."""
     doc = path.read_text(encoding="utf-8")
     head, marker, body = split_transcript_document(doc)
     head = append_resection_editorial_note(head, resection_note)
     path.write_text(f"{head}{marker}\n\n{body.strip()}\n", encoding="utf-8", newline="\n")
-
 
 def prepare_section_patch_body(
     doc: str,
@@ -944,7 +900,6 @@ def prepare_section_patch_body(
         )
     return head, marker, body
 
-
 def validate_section_anchors(
     body: str,
     section_titles: Sequence[str],
@@ -964,7 +919,6 @@ def validate_section_anchors(
         except ValueError as exc:
             errors.append(str(exc))
     return errors
-
 
 def write_interview_section_patch_capture(
     path: Path,
@@ -1000,7 +954,6 @@ def write_interview_section_patch_capture(
     finalize_patch_head(path, resection_note=resection_note)
     return asr_subs
 
-
 def parse_interview_speaker_names(head: str) -> tuple[str | None, str | None]:
     """Read ``host:`` / ``guest:`` from capture frontmatter when present."""
     meta = parse_capture_eligibility_meta(head)
@@ -1010,10 +963,8 @@ def parse_interview_speaker_names(head: str) -> tuple[str | None, str | None]:
         return host, guest
     return None, None
 
-
 def capture_has_speaker_labels(body: str, *, host: str, guest: str) -> bool:
     return f"**{host}:**" in body or f"**{guest}:**" in body
-
 
 def append_interview_speaker_label_receipt(
     head: str,
@@ -1058,7 +1009,6 @@ def append_interview_speaker_label_receipt(
         1,
     )
 
-
 def apply_interview_section_body(
     body: str,
     section_titles: Sequence[str],
@@ -1095,7 +1045,6 @@ def apply_interview_section_body(
         body = speaker_cleanup_fn(body)
     return body, turns_labeled
 
-
 def apply_solo_section_body(
     body: str,
     section_titles: Sequence[str],
@@ -1128,7 +1077,6 @@ def apply_solo_section_body(
         body = speaker_cleanup_fn(body)
     return body
 
-
 def mark_sectioned_frontmatter(head: str, *, section_count: int) -> str:
     today = date.today().isoformat()
     receipt = f"source-section pass {today} ({section_count} sections)"
@@ -1160,7 +1108,6 @@ def mark_sectioned_frontmatter(head: str, *, section_count: int) -> str:
             flags=re.M,
         )
     return head
-
 
 def write_sectioned_capture(
     capture_path: Path,
@@ -1259,7 +1206,6 @@ def write_sectioned_capture(
         f"({len(body.split()):,} words, {len(section_titles)} sections"
         f"{f', {turns_labeled} turns labeled' if turns_labeled else ''})"
     )
-
 
 def write_slug_retitle_capture(
     capture_path: Path,

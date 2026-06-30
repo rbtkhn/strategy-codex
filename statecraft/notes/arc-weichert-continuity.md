@@ -18,7 +18,6 @@ archive_links:
   - source-archive/statecraft/2026-06-08/source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md
 ---
 
-WORK only; not Record.
 
 # Weichert Arc
 

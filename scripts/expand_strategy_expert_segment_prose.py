@@ -37,12 +37,10 @@ PROFILE_NAME = re.compile(r"\|\s*\*\*Name\*\*\s*\|\s*(.+?)\s*\|")
 PROFILE_ROLE = re.compile(r"\|\s*\*\*Role\*\*\s*\|\s*(.+?)\s*\|")
 PROFILE_PAIR = re.compile(r"\|\s*\*\*Typical pairings\*\*\s*\|\s*(.+?)\s*\|")
 
-
 def extract_human_layer(thread_text: str) -> str:
     if THREAD_MARKER_START in thread_text:
         return thread_text.split(THREAD_MARKER_START, 1)[0].rstrip()
     return thread_text.rstrip()
-
 
 def is_prose_line(line: str) -> bool:
     s = line.strip()
@@ -60,7 +58,6 @@ def is_prose_line(line: str) -> bool:
         return False
     return True
 
-
 def prose_word_count(body: str) -> int:
     n = 0
     for line in body.splitlines():
@@ -68,13 +65,11 @@ def prose_word_count(body: str) -> int:
             n += len(line.split())
     return n
 
-
 def clean_cell(raw: str) -> str:
     s = raw.strip()
     s = re.sub(r"\*\*", "", s)
     s = re.sub(r"`", "", s)
     return s.strip()
-
 
 def load_profile(expert_id: str) -> dict[str, str]:
     path = NOTEBOOK_DIR / "experts" / expert_id / "profile.md"
@@ -95,7 +90,6 @@ def load_profile(expert_id: str) -> dict[str, str]:
         "role": clean_cell(role_m.group(1)) if role_m else "see roster profile for lane description",
         "pairings": clean_cell(pair_m.group(1)) if pair_m else "see Typical pairings on the expert platform/profile",
     }
-
 
 def iter_month_ranges(lines: list[str]) -> list[tuple[str, int, int]]:
     """Return (month_id, body_start_idx, body_end_idx_exclusive)."""
@@ -118,13 +112,11 @@ def iter_month_ranges(lines: list[str]) -> list[tuple[str, int, int]]:
         out.append((month_id, start, i))
     return out
 
-
 def first_bullet_index(body_lines: list[str]) -> int | None:
     for j, line in enumerate(body_lines):
         if RE_LIST.match(line) or RE_NUM_LIST.match(line):
             return j
     return None
-
 
 def template_pool(ctx: dict[str, str]) -> list[str]:
     """Return ordered template strings (single paragraphs); will be shuffled per segment."""
@@ -213,7 +205,6 @@ def template_pool(ctx: dict[str, str]) -> list[str]:
         ),
     ]
 
-
 def shuffled_templates(ctx: dict[str, str]) -> list[str]:
     pool = template_pool(ctx)
     key = f"{ctx['expert_id']}:{ctx['month_id']}".encode()
@@ -222,7 +213,6 @@ def shuffled_templates(ctx: dict[str, str]) -> list[str]:
     out = pool[:]
     rng.shuffle(out)
     return out
-
 
 def build_expansion(need_words: int, ctx: dict[str, str]) -> str:
     paras: list[str] = []
@@ -241,7 +231,6 @@ def build_expansion(need_words: int, ctx: dict[str, str]) -> str:
         paras.append(filler)
         total += len(filler.split())
     return "\n\n".join(paras)
-
 
 def expand_month_body(body: str, ctx: dict[str, str]) -> str:
     """Pad with profile-grounded templates until ``prose_word_count`` >= ``MIN_PROSE_WORDS``."""
@@ -263,7 +252,6 @@ def expand_month_body(body: str, ctx: dict[str, str]) -> str:
             new_lines = lines[:bi] + exp_lines + lines[bi:]
         new_body = "\n".join(new_lines)
     return new_body
-
 
 def process_thread(path: Path, *, apply: bool) -> tuple[int, int]:
     """Return (months_updated, months_total)."""
@@ -315,7 +303,6 @@ def process_thread(path: Path, *, apply: bool) -> tuple[int, int]:
         path.write_text(new_head + THREAD_MARKER_START + tail, encoding="utf-8")
 
     return updated, len(ranges)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -380,7 +367,6 @@ def main() -> int:
         file=sys.stderr,
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # Hormuz Compact - Four-Lane Comparison
 
-WORK only; not Record.
 
 Purpose: compare the four national transactions without collapsing them into consensus.
 

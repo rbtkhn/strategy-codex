@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/dream.schema.json",
+  "title": "Last dream handoff payload",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "generated_at",
+    "user_id",
+    "ok",
+    "integrity_ok",
+    "governance_ok"
+  ],
+  "properties": {
+    "generated_at": { "type": "string" },
+    "user_id": { "type": "string" },
+    "ok": { "type": "boolean" },
+    "integrity_ok": { "type": "boolean" },
+    "governance_ok": { "type": "boolean" },
+    "strict_mode": { "type": "boolean" },
+    "phase": { "type": "string" },
+    "followups": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "phases": { "type": "object" },
+    "coffee_rollup_24h": { "type": "object" }
+  }
+}

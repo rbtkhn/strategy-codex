@@ -17,7 +17,6 @@ REMOTE = "https://github.com/rbtkhn/civ-state.git"
 RECEIPT_NAME = "MIRROR-RECEIPT.md"
 EXCLUDE_DIRS = {".git", ".pytest_cache", "__pycache__"}
 
-
 def run_git(args: list[str], cwd: Path) -> str:
     proc = subprocess.run(
         ["git", *args],
@@ -31,7 +30,6 @@ def run_git(args: list[str], cwd: Path) -> str:
         detail = proc.stderr.strip() or proc.stdout.strip() or "unknown git error"
         raise RuntimeError(f"git {' '.join(args)} failed: {detail}")
     return proc.stdout.strip()
-
 
 def robocopy_mirror(src: Path, dest: Path) -> None:
     if not dest.exists():
@@ -55,7 +53,6 @@ def robocopy_mirror(src: Path, dest: Path) -> None:
     if proc.returncode > 7:
         raise RuntimeError(proc.stderr or proc.stdout or f"robocopy exit {proc.returncode}")
 
-
 def write_receipt(dest: Path, upstream_sha: str, branch: str) -> None:
     text = (
         "# Mirror Receipt\n\n"
@@ -68,7 +65,6 @@ def write_receipt(dest: Path, upstream_sha: str, branch: str) -> None:
         "Workspace staging copy. Edit under `public/civ-state/`; push upstream only via publish script.\n"
     )
     (dest / RECEIPT_NAME).write_text(text, encoding="utf-8")
-
 
 def sync(branch: str) -> dict:
     with tempfile.TemporaryDirectory(prefix="civ-state-sync-") as tmp:
@@ -84,7 +80,6 @@ def sync(branch: str) -> dict:
             "remote": REMOTE,
         }
 
-
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--branch", default="main")
@@ -96,7 +91,6 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     print(f"Synced {result['mirror_path']} @ {result['upstream_sha']} from {result['remote']}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -21,7 +21,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def main() -> None:
     ap = argparse.ArgumentParser(description="Fetch SESSION-TRANSCRIPT and recursion-gate from Render (or bot host).")
     ap.add_argument("--url", "-u", default=os.getenv("GRACE_MAR_RENDER_URL", "").strip(), help="Base URL of the bot (e.g. https://grace-mar-miniapp.onrender.com)")
@@ -70,7 +69,6 @@ def main() -> None:
                     pass
 
     print("Done. Open {}/session-transcript.md and recursion-gate.md in Cursor.".format(args.user))
-
 
 if __name__ == "__main__":
     main()

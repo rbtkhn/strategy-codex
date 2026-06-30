@@ -36,7 +36,6 @@ BOUNDARY_TAIL = """## Source-boundary reminders
 - Compatibility or workshop scaffolds outside this file do not override raw-input truth.
 """
 
-
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:5000]
     out: dict = {}
@@ -61,7 +60,6 @@ def parse_head(path: Path) -> dict:
             out["title"] = hm.group(1).strip()
     return out
 
-
 def pub_date_key(meta: dict, path: Path) -> str:
     pub = meta.get("pub_date") or meta.get("date") or ""
     if pub and len(pub) >= 10:
@@ -71,13 +69,11 @@ def pub_date_key(meta: dict, path: Path) -> str:
         return day
     return day
 
-
 def load_header(index_path: Path) -> str:
     if not index_path.is_file():
         return (
             "# Crooke Source Index\n\n"
-            "WORK only; not Record.\n\n"
-            "Purpose: exhaustive route map for Crooke appearances in the archive.\n"
+                        "Purpose: exhaustive route map for Crooke appearances in the archive.\n"
         )
     lines: list[str] = []
     for line in read_text(index_path).splitlines():
@@ -85,7 +81,6 @@ def load_header(index_path: Path) -> str:
             break
         lines.append(line)
     return "\n".join(lines).rstrip()
-
 
 def load_label_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
@@ -99,7 +94,6 @@ def load_label_map(index_path: Path) -> dict[str, str]:
         if len(m.group(1)) > len(out.get(fn, "")):
             out[fn] = m.group(1)
     return out
-
 
 def load_annotation_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
@@ -116,7 +110,6 @@ def load_annotation_map(index_path: Path) -> dict[str, str]:
         if len(suffix) > len(out.get(fn, "")):
             out[fn] = suffix
     return out
-
 
 def load_shorthand_by_target(index_path: Path) -> dict[str, list[str]]:
     """Preserve support-tier alias rows (e.g. 2026-04-25-davis) keyed by target filename."""
@@ -138,19 +131,16 @@ def load_shorthand_by_target(index_path: Path) -> dict[str, list[str]]:
             out[fn].append(line)
     return dict(out)
 
-
 def default_label(meta: dict, path: Path) -> str:
     stem = path.stem.removeprefix("source-")
     if path.name.startswith("source-crooke-"):
         return f"substack-crooke-{stem.removeprefix('crooke-')}"
     return stem
 
-
 def row_label(meta: dict, path: Path, labels: dict[str, str]) -> str:
     text = labels.get(path.name) or default_label(meta, path)
     rel = f"../../../source-archive/statecraft/{path.parent.name}/{path.name}"
     return f"- [{text}]({rel})"
-
 
 def collect_rows() -> list[tuple[str, Path, dict]]:
     rows: list[tuple[str, Path, dict]] = []
@@ -163,7 +153,6 @@ def collect_rows() -> list[tuple[str, Path, dict]]:
         rows.append((pub, path, meta))
     rows.sort(key=lambda t: (t[0], t[1].name))
     return rows
-
 
 def render_month_section(
     month: str,
@@ -183,7 +172,6 @@ def render_month_section(
             lines.append(sh_line)
     lines.append("")
     return lines
-
 
 def render_index(
     rows: list[tuple[str, Path, dict]],
@@ -206,7 +194,6 @@ def render_index(
         )
     lines.append(BOUNDARY_TAIL.rstrip())
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -237,7 +224,6 @@ def main() -> int:
         f"{sum(len(v) for v in shorthands.values())} shorthand aliases preserved)"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

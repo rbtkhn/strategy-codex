@@ -1,6 +1,5 @@
 # Mate Index
 
-WORK only; not Record.
 
 Purpose: front door for the Mate shelf, keeping the profile and rolling companion files easy to open while preserving the no-arc-yet boundary.
 

@@ -1,6 +1,5 @@
 # Statecraft America
 
-WORK only; not Record.
 
 ## Where This Sits
 

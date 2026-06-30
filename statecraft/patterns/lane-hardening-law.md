@@ -1,6 +1,5 @@
 # Lane-Hardening Law
 
-WORK only; not Record.
 
 Purpose: name when a statecraft lane has earned the bounded second-order surfaces that make it draftable without flattening it into a template.
 

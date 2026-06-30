@@ -72,12 +72,10 @@ SCRIPTS_CHECK: list[tuple[str, str]] = [
     ("scripts/build_work_dev_compound_dashboard.py", "python3 scripts/build_work_dev_compound_dashboard.py"),
 ]
 
-
 def _resolve(p: Path, root: Path) -> Path:
     if p.is_absolute():
         return p
     return (root / p).resolve()
-
 
 def _parse_include_sections(raw: str | None) -> set[str] | None:
     if raw is None or not str(raw).strip():
@@ -89,12 +87,10 @@ def _parse_include_sections(raw: str | None) -> set[str] | None:
             out.add(k)
     return out if out else None
 
-
 def _include(section: str, want: set[str] | None) -> bool:
     if want is None:
         return True
     return section in want
-
 
 def _artifact_status(repo: Path, name: str) -> tuple[str, str, str]:
     p = artifacts_dir(repo) / name
@@ -108,7 +104,6 @@ def _artifact_status(repo: Path, name: str) -> tuple[str, str, str]:
     except OSError:
         ts = "—"
     return ("present", rel, ts)
-
 
 def _path_status(repo: Path, rel: str) -> tuple[str, str, str]:
     p = (repo / rel).resolve()
@@ -126,13 +121,11 @@ def _path_status(repo: Path, rel: str) -> tuple[str, str, str]:
         ts = "—"
     return ("present", rel2, ts)
 
-
 def _script_cmd(repo_root: Path, rel: str, suggested: str) -> str:
     p = repo_root / rel
     if p.is_file():
         return f"`{suggested}`"
     return "—"
-
 
 def _newest_n_records(
     records: list[dict[str, Any]], n: int
@@ -144,13 +137,11 @@ def _newest_n_records(
 
     return sorted(records, key=sort_key, reverse=True)[:n]
 
-
 def _month_key(date_str: str) -> str:
     s = (date_str or "")[:7]
     if len(s) == 7 and s[4] == "-":
         return s
     return "_(unparsed or missing)_"
-
 
 def build_dashboard(
     repo_root: Path,
@@ -399,7 +390,6 @@ def build_dashboard(
 
     return pre + "\n".join(lines) + "\n"
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(
         description="Build work-dev compound layer operator dashboard (derived markdown)",
@@ -448,7 +438,6 @@ def main() -> int:
     out.write_text(text, encoding="utf-8", newline="\n")
     print(out)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

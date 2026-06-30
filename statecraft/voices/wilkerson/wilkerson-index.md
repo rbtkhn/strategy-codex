@@ -1,6 +1,5 @@
 # Wilkerson source index
 
-WORK only; not Record.
 
 Purpose: exhaustive canonical route map for Lawrence Wilkerson guest appearances and direct archive anchors on the Wilkerson shelf.
 

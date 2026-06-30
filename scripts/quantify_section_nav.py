@@ -24,18 +24,15 @@ BODY_MARKERS = (
     r"## Part I: Full transcript\s*\n",
 )
 
-
 def extract_transcript(body: str) -> str:
     for pattern in BODY_MARKERS:
         if m := re.search(pattern + r"(.*)", body, re.S):
             return m.group(1).strip()
     return body.strip()
 
-
 def section_paragraph_stats(section_text: str) -> list[int]:
     paras = [p.strip() for p in re.split(r"\n\s*\n", section_text.strip()) if p.strip()]
     return [len(re.findall(r"\b\w+\b", p)) for p in paras]
-
 
 def analyze(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")
@@ -95,7 +92,6 @@ def analyze(path: Path) -> dict:
         "flat": len(headings) <= 1,
     }
 
-
 def print_capture(r: dict) -> None:
     sw = r["sec_words"]
     print(f"{r['short']}")
@@ -119,7 +115,6 @@ def print_capture(r: dict) -> None:
         for w in r["warnings"]:
             print(f"  WARN: {w}")
     print()
-
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -177,7 +172,6 @@ def main(argv: list[str] | None = None) -> int:
     if warn_files:
         print(f"files with warnings: {len(warn_files)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

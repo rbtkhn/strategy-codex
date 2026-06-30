@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md>
   - source-archive/statecraft/2026-06-06/source-dialogue-works-marandi-iran-strikes-back-missiles-hit-kuwait-us-5th-fleet-in-bahrain-2026-06-06.md>
 ---
-WORK only; not Record.
 
 # America: Captured Command, NDAA Mesh, CI Alarm, Client Veto - 2026-06-06
 

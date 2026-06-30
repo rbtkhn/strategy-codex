@@ -48,14 +48,12 @@ LEADING_SHOW_NOISE_RE = re.compile(
 )
 UPDATED_QUALITY_NOTE = "Normalized to remove sponsor/promo copy and transcript noise; minor artifacts may remain."
 
-
 @dataclass(frozen=True)
 class FileChange:
     path: Path
     intro_removed: bool
     outro_removed: bool
     quality_note_updated: bool
-
 
 def split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     match = FRONTMATTER_RE.match(text)
@@ -65,11 +63,9 @@ def split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     body = text[match.end() :]
     return parse_simple_frontmatter(raw), body
 
-
 def dump_frontmatter(data: dict[str, Any]) -> str:
     raw = dump_simple_frontmatter(data).rstrip()
     return f"---\n{raw}\n---\n\n"
-
 
 def parse_simple_frontmatter(raw: str) -> dict[str, Any]:
     data: dict[str, Any] = {}
@@ -89,7 +85,6 @@ def parse_simple_frontmatter(raw: str) -> dict[str, Any]:
             data[key] = value
     return data
 
-
 def dump_simple_frontmatter(data: dict[str, Any]) -> str:
     lines: list[str] = []
     for key, value in data.items():
@@ -103,7 +98,6 @@ def dump_simple_frontmatter(data: dict[str, Any]) -> str:
                 rendered = text
         lines.append(f"{key}: {rendered}")
     return "\n".join(lines)
-
 
 def candidate_paths(root: Path) -> list[Path]:
     paths: list[Path] = []
@@ -125,7 +119,6 @@ def candidate_paths(root: Path) -> list[Path]:
         ):
             paths.append(path)
     return sorted(set(paths))
-
 
 def trim_intro_paragraphs(paragraphs: list[str], guest: str) -> tuple[list[str], bool]:
     full_text = join_paragraphs(paragraphs)
@@ -173,7 +166,6 @@ def trim_intro_paragraphs(paragraphs: list[str], guest: str) -> tuple[list[str],
     new_paragraphs.extend(paragraphs[end_idx:])
     return new_paragraphs, True
 
-
 def trim_intro_text(text: str, guest: str) -> tuple[str, bool]:
     match = INTRO_SPLIT_RE.search(text)
     if not match:
@@ -197,7 +189,6 @@ def trim_intro_text(text: str, guest: str) -> tuple[str, bool]:
         new_text = before + "\n\n" + after
     return new_text, True
 
-
 def guest_paragraph_cues(guest: str) -> set[str]:
     clean = " ".join(guest.split()).strip()
     if not clean:
@@ -211,7 +202,6 @@ def guest_paragraph_cues(guest: str) -> set[str]:
         if low.startswith(title + " "):
             cues.add(low[len(title) + 1 :].strip())
     return {cue for cue in cues if cue}
-
 
 def first_guest_cue_offset(text: str, guest: str) -> int | None:
     candidates: list[int] = []
@@ -233,7 +223,6 @@ def first_guest_cue_offset(text: str, guest: str) -> int | None:
             candidates.append(match.start())
 
     return min(candidates) if candidates else None
-
 
 def trim_leading_ad_paragraphs(paragraphs: list[str], guest: str) -> tuple[list[str], bool]:
     guest_idx = first_guest_paragraph_index(paragraphs, guest)
@@ -262,7 +251,6 @@ def trim_leading_ad_paragraphs(paragraphs: list[str], guest: str) -> tuple[list[
     new_paragraphs.extend(paragraphs[guest_idx:])
     return new_paragraphs, True
 
-
 def first_guest_paragraph_index(paragraphs: list[str], guest: str) -> int | None:
     guest_cues = guest_paragraph_cues(guest)
     for idx, para in enumerate(paragraphs):
@@ -284,7 +272,6 @@ def first_guest_paragraph_index(paragraphs: list[str], guest: str) -> int | None
         ):
             return idx
     return None
-
 
 def trim_outro_paragraphs(paragraphs: list[str]) -> tuple[list[str], bool]:
     new_paragraphs = list(paragraphs)
@@ -308,7 +295,6 @@ def trim_outro_paragraphs(paragraphs: list[str]) -> tuple[list[str], bool]:
         new_paragraphs.pop()
         removed = True
     return new_paragraphs, removed
-
 
 def clean_transcript_noise(paragraphs: list[str]) -> tuple[list[str], bool]:
     cleaned: list[str] = []
@@ -358,13 +344,11 @@ def clean_transcript_noise(paragraphs: list[str]) -> tuple[list[str], bool]:
 
     return cleaned, changed
 
-
 def is_noise_paragraph(paragraph: str) -> bool:
     compact = " ".join(paragraph.split()).strip()
     if not compact:
         return True
     return bool(MUSIC_ONLY_RE.fullmatch(compact))
-
 
 def split_paragraphs(body: str) -> list[str]:
     text = body.strip()
@@ -372,10 +356,8 @@ def split_paragraphs(body: str) -> list[str]:
         return []
     return [chunk.strip() for chunk in re.split(r"\n\s*\n", text) if chunk.strip()]
 
-
 def join_paragraphs(paragraphs: list[str]) -> str:
     return "\n\n".join(paragraphs).rstrip() + "\n"
-
 
 def normalize_file(path: Path) -> FileChange | None:
     text = path.read_text(encoding="utf-8")
@@ -384,7 +366,6 @@ def normalize_file(path: Path) -> FileChange | None:
         return None
     path.write_text(new_text, encoding="utf-8")
     return file_change
-
 
 def normalize_text(path: Path, text: str) -> tuple[bool, str, FileChange]:
     meta, body = split_frontmatter(text)
@@ -420,7 +401,6 @@ def normalize_text(path: Path, text: str) -> tuple[bool, str, FileChange]:
     )
     return new_text != text, new_text, file_change
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -449,7 +429,6 @@ def main() -> int:
         joined = ", ".join(flags) if flags else "metadata"
         print(f"- {change.path.relative_to(REPO_ROOT).as_posix()} [{joined}]")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Settlement Precedent And Broken Agreement
 

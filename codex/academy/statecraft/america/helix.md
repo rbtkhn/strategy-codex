@@ -1,6 +1,5 @@
 # America Civilization / Empire Helix
 
-WORK only; not Record.
 
 Purpose: hold America's republic / empire tension open long enough to draft instruments that preserve sovereignty and security without consuming constitutional legitimacy.
 

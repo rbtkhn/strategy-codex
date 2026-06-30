@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 # Zangezur Mediation Without Overbinding
 
-WORK only; not Record.
 
 This is the first Russia-native local exemplar for the Russia transaction bench. It tests whether Moscow can preserve mediator relevance, strategic depth, and corridor influence without letting the object harden into permanent coercive ownership.
 

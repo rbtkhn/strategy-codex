@@ -7,13 +7,11 @@ from typing import TypeVar
 
 T = TypeVar("T")
 
-
 def sleep_backoff(attempt: int, *, base: float = 1.0, max_wait: float = 60.0) -> None:
     """Exponential backoff with jitter (attempt is 0-based)."""
     exp = min(max_wait, base * (2**attempt))
     jitter = random.uniform(0, exp * 0.2)
     time.sleep(exp + jitter)
-
 
 def retry_call(
     fn: Callable[[], T],

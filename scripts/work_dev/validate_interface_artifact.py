@@ -44,10 +44,8 @@ ALLOWED_STATUS = frozenset(
 
 ALLOWED_CANONICAL_RECORD_ACCESS = frozenset({"none", "read-only"})
 
-
 def _is_list_of_strings(value: Any) -> bool:
     return isinstance(value, list) and all(isinstance(item, str) for item in value)
-
 
 def _mutation_scope_allows_record_write(value: str) -> bool:
     lowered = value.strip().lower()
@@ -59,7 +57,6 @@ def _mutation_scope_allows_record_write(value: str) -> bool:
     if "record" in lowered and any(word in lowered for word in write_words):
         return True
     return False
-
 
 def validate_interface_artifact(data: Any) -> list[str]:
     """Return human-readable validation errors; empty if valid."""
@@ -160,7 +157,6 @@ def validate_interface_artifact(data: Any) -> list[str]:
 
     return errors
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("artifact", type=Path, help="Path to interface artifact JSON")
@@ -184,7 +180,6 @@ def main() -> int:
 
     print("ok: interface artifact metadata is valid")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

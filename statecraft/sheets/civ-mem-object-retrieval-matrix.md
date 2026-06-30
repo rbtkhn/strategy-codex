@@ -1,6 +1,5 @@
 # Legacy CIV-MEM Object Retrieval Matrix
 
-WORK only; not Record.
 
 ## Purpose
 

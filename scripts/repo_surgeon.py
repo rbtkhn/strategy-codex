@@ -92,13 +92,11 @@ LOCAL_PATH_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
 _SCAN_SUFFIXES = {".md", ".yaml", ".yml", ".json"}
 _SKIP_DIR_NAMES = frozenset({".git", ".venv", "node_modules", "__pycache__", ".pytest_cache"})
 
-
 def _rel(repo_root: Path, path: Path) -> str:
     try:
         return path.relative_to(repo_root).as_posix()
     except ValueError:
         return str(path)
-
 
 def _collect_routing_ssot_files(repo_root: Path) -> list[Path]:
     files: set[Path] = set()
@@ -119,7 +117,6 @@ def _collect_routing_ssot_files(repo_root: Path) -> list[Path]:
                     continue
                 files.add(p.resolve())
     return sorted(files)
-
 
 def _collect_scan_files(repo_root: Path, scope: str) -> list[Path]:
     scope_norm = scope.strip().lower()
@@ -150,7 +147,6 @@ def _collect_scan_files(repo_root: Path, scope: str) -> list[Path]:
 
     return sorted(set(md_paths) | extra)
 
-
 def _parse_link_error(err: str) -> tuple[str, str, str]:
     if ":->" in err:
         left, detail = err.split(":->", 1)
@@ -158,7 +154,6 @@ def _parse_link_error(err: str) -> tuple[str, str, str]:
             file_part, raw = left.split(":", 1)
             return file_part, raw, detail
     return err, "", err
-
 
 def _link_severity(missing_detail: str) -> str:
     detail_norm = missing_detail.replace("\\", "/").strip()
@@ -169,7 +164,6 @@ def _link_severity(missing_detail: str) -> str:
         return "warning"
     return "warning"
 
-
 def _is_template_link(raw: str, detail: str) -> bool:
     combined = f"{raw} {detail}"
     if "*" in combined:
@@ -179,7 +173,6 @@ def _is_template_link(raw: str, detail: str) -> bool:
     if "{" in combined or "}" in combined:
         return True
     return False
-
 
 def findings_from_links(
     repo_root: Path,
@@ -210,7 +203,6 @@ def findings_from_links(
         return findings[:max_errors]
     return findings
 
-
 def findings_from_local_path_leaks(repo_root: Path, scope: str) -> list[Finding]:
     findings: list[Finding] = []
     for path in _collect_scan_files(repo_root, scope):
@@ -234,7 +226,6 @@ def findings_from_local_path_leaks(repo_root: Path, scope: str) -> list[Finding]
                     )
                     break
     return findings
-
 
 def findings_from_checks(
     repo_root: Path,
@@ -300,7 +291,6 @@ def findings_from_checks(
         )
     return findings, outputs
 
-
 def findings_from_strict_orchestration(repo_root: Path) -> tuple[list[Finding], dict[str, str]]:
     """Extra checks when --strict is set (health, routing drift, archive indices, authority)."""
     findings: list[Finding] = []
@@ -365,7 +355,6 @@ def findings_from_strict_orchestration(repo_root: Path) -> tuple[list[Finding], 
         )
     return findings, outputs
 
-
 def build_ledger_payload(payload: dict[str, Any], findings: list[Finding]) -> dict[str, Any]:
     grouped: dict[str, list[dict[str, Any]]] = {}
     for f in findings:
@@ -384,12 +373,10 @@ def build_ledger_payload(payload: dict[str, Any], findings: list[Finding]) -> di
         "categories": categories,
     }
 
-
 def write_ledger(path: Path, ledger: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(ledger, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {path}")
-
 
 def build_findings(
     repo_root: Path,
@@ -413,7 +400,6 @@ def build_findings(
     all_findings = check_findings + link_findings + leak_findings
     return all_findings, check_outputs
 
-
 def build_fix_order(findings: list[Finding], *, limit: int = 5) -> list[str]:
     order: list[str] = []
     for severity in ("blocking", "warning", "info"):
@@ -434,7 +420,6 @@ def build_fix_order(findings: list[Finding], *, limit: int = 5) -> list[str]:
             if len(order) >= limit:
                 return order
     return order
-
 
 def build_markdown(
     findings: list[Finding],
@@ -536,7 +521,6 @@ def build_markdown(
     parts.append("")
     return "\n".join(parts)
 
-
 def build_json_payload(
     findings: list[Finding],
     fix_order: list[str],
@@ -562,7 +546,6 @@ def build_json_payload(
             ),
         },
     }
-
 
 def generate_report(
     repo_root: Path,
@@ -648,7 +631,6 @@ def generate_report(
         return 1, payload
     return 0, payload
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -725,7 +707,6 @@ def main() -> int:
         strict=args.strict,
     )
     return code
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

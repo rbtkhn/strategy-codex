@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Statecraft Multi-Lens Bench Pressure Test - 2026-05
 

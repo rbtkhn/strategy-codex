@@ -1,6 +1,5 @@
 # Evidence Spine Audit Checklist
 
-WORK only; not Record.
 
 Use this note to falsify shallow CIV-STATE objects before any scripting or automated enforcement.
 

@@ -22,7 +22,6 @@ archive_links:
 
 # Diesen x Berletic speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen x Berletic` run inside the Diesen stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Berletic lane Diesen elicits, which full-form episodes matter most, and why this is the clearest current Berletic branch on the shelf.
 

@@ -15,10 +15,8 @@ WORK_DIR = ROOT / "codex" / "predictive-history"
 CHRONO = WORK_DIR / "metadata" / "chronology.yaml"
 OUT = WORK_DIR / "INTELLECTUAL-CHRONOLOGY.md"
 
-
 def load_yaml(path: Path) -> dict:
     return safe_load_path(path, feature="work_jiang/render_intellectual_chronology.py") or {}
-
 
 def main() -> int:
     try:
@@ -65,7 +63,6 @@ def main() -> int:
     OUT.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     print(f"Wrote {OUT.relative_to(ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

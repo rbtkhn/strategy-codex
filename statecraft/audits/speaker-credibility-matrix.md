@@ -1,6 +1,5 @@
 # Speaker Credibility Matrix
 
-WORK only; not Record.
 
 This matrix is the shared comparison surface for provisional speaker trust.
 

@@ -9,9 +9,8 @@ source: source-archive/statecraft/2026-04-28/source-judging-freedom-freeman-what
 speech_act: iterated
 auto_file: true
 auto_file_score: 0.7
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — Iran great-power backup (2026-04-28)
 

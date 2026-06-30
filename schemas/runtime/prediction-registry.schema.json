@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/prediction-registry.schema.json",
+  "title": "Prediction registry artifact",
+  "type": "object",
+  "required": ["_meta", "predictions"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "predictions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "file",
+          "speaker",
+          "event_id",
+          "stance",
+          "date_made",
+          "source",
+          "prediction_status",
+          "event_status",
+          "event_outcome"
+        ],
+        "properties": {
+          "file": { "type": "string" },
+          "speaker": { "type": "string" },
+          "event_id": { "type": "string" },
+          "stance": {
+            "enum": ["yes", "no", "conditional", "uncertain"]
+          },
+          "confidence": {
+            "enum": ["low", "medium", "high", null]
+          },
+          "date_made": { "type": "string" },
+          "source": { "type": "string" },
+          "prediction_status": {
+            "enum": ["pending", "resolved"]
+          },
+          "event_status": {
+            "enum": ["open", "resolved", "void", "deprecated"]
+          },
+          "event_outcome": {
+            "type": ["string", "null"],
+            "enum": ["yes", "no", null]
+          },
+          "speech_act": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

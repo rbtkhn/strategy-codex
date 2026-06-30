@@ -34,14 +34,12 @@ INTEGRATION_SCRIPTS = (
 CONTINUITY_SCRIPT = REPO_ROOT / "scripts" / "continuity_read_log.py"
 CONTINUITY_FILES = ("session-log.md", "recursion-gate.md", "self-archive.md")
 
-
 def _load_module_no_main(path: Path, name: str) -> None:
     spec = importlib.util.spec_from_file_location(name, path)
     if spec is None or spec.loader is None:
         raise ImportError(f"Cannot load {path}")
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -123,7 +121,6 @@ def main() -> int:
         return 1
     print("check_integration_readiness: OK")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -50,10 +50,8 @@ MONTH_ABBR = {
     "dec": "12",
 }
 
-
 def slug_from_url(url: str) -> str:
     return url.rstrip("/").split("/p/")[-1]
-
 
 def _month_token_to_mm(token: str) -> str | None:
     t = token.strip()
@@ -63,12 +61,10 @@ def _month_token_to_mm(token: str) -> str | None:
     pref = t.lower()[:3]
     return MONTH_ABBR.get(pref)
 
-
 def _ui_date_to_iso(m: re.Match[str]) -> str:
     mon, day, year = m.group(1), m.group(2), m.group(3)
     mm = MONTH_ABBR[mon.lower()[:3]]
     return f"{year}-{mm}-{int(day):02d}"
-
 
 def pub_date_from_body(body: str, slug: str) -> str | None:
     m = RE_PUB.search(body)
@@ -88,14 +84,12 @@ def pub_date_from_body(body: str, slug: str) -> str | None:
         return _ui_date_to_iso(ui)
     return None
 
-
 def extract_operator_paste(full_text: str) -> str:
     """Prefer content inside <user_query> when present (full operator paste)."""
     m = RE_USER_QUERY.search(full_text)
     if m:
         return m.group(1).strip()
     return full_text.strip()
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -189,7 +183,6 @@ note: Verbatim operator paste; backfill from agent transcript (jsonl line {linen
         print(p.as_posix())
     print(f"wrote {len(written)} file(s)", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

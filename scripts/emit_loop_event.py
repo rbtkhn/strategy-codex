@@ -26,7 +26,6 @@ PHASE_TO_EVENT = {
     "approved": "loop_cycle_approved",
 }
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Emit loop_cycle_* pipeline events via scripts/emit_pipeline_event.py",
@@ -63,7 +62,6 @@ def main() -> int:
     ]
     result = subprocess.run(cmd, cwd=str(REPO_ROOT))
     return int(result.returncode)
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

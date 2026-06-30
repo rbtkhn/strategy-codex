@@ -7,9 +7,8 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2025-11-21/source-dialogue-works-amb-chas-freeman-why-ukraine-and-israel-are-closer-to-a-dead-end-than-ever-2025-11-21.md
 speech_act: restated
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — Israel self-destruction (2025-11-21)
 

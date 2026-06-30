@@ -1,6 +1,5 @@
 # Cognition Streams Pointer
 
-WORK only; not Record.
 
 If you only need the current eight cognition streams, use this page first:
 

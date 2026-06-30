@@ -10,7 +10,6 @@ The helper does not OCR images. Instead, it expects the operator to provide the
 OCR'd / transcribed bundle body and, optionally, a list of screenshot paths or
 URLs for provenance.
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -30,17 +29,14 @@ if str(REPO_ROOT / "scripts") not in _sys.path:
 
 from fetch_strategy_raw_input import _slugify  # noqa: E402
 
-
 def _read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8").strip()
-
 
 def _fmt_screenshot_ref(ref: str) -> str:
     ref = ref.strip()
     if not ref:
         return ""
     return ref
-
 
 def _build_doc(
     *,
@@ -105,10 +101,8 @@ def _build_doc(
     lines.append("")
     return "\n".join(lines)
 
-
 def _default_title(account_author: str, pub_date: date) -> str:
     return f"{account_author} short-form bundle - {pub_date.isoformat()}"
-
 
 def _default_output_name(*, source_platform: str, account_author: str, pub_date: date) -> str:
     return (
@@ -117,7 +111,6 @@ def _default_output_name(*, source_platform: str, account_author: str, pub_date:
         f"{_slugify(account_author, max_len=28)}-"
         f"{pub_date.isoformat()}.md"
     )
-
 
 def run(
     *,
@@ -165,7 +158,6 @@ def run(
         dest.write_text(content, encoding="utf-8")
     return dest
 
-
 def _parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--root", type=Path, default=DEFAULT_RAW_ROOT, help="raw-input root")
@@ -187,7 +179,6 @@ def _parse_args() -> argparse.Namespace:
     ap.add_argument("--output", type=Path, default=None, help="explicit output path")
     ap.add_argument("--apply", action="store_true", help="write the file")
     return ap.parse_args()
-
 
 def main() -> int:
     args = _parse_args()
@@ -217,7 +208,6 @@ def main() -> int:
     else:
         print(f"wrote: {dest}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

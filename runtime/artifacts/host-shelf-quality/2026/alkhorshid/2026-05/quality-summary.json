@@ -2,7 +2,7 @@
   "schema_version": 1,
   "work_layer": true,
   "generated_date": "2026-05-15",
-  "host": "alkorshid",
+  "host": "alkhorshid",
   "year": 2026,
   "month": "2026-05",
   "raw_input_count": 1,
@@ -53,8 +53,8 @@
   "git_state": {
     "scoped_paths": [
       "codex/years/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md",
-      "runtime/artifacts/host-shelf-quality/2026/alkorshid/2026-05/quality-summary.json",
-      "runtime/artifacts/host-shelf-quality/2026/alkorshid/2026-05/quality-summary.md"
+      "runtime/artifacts/host-shelf-quality/2026/alkhorshid/2026-05/quality-summary.json",
+      "runtime/artifacts/host-shelf-quality/2026/alkhorshid/2026-05/quality-summary.md"
     ],
     "on_disk": true,
     "verified": true,
@@ -62,8 +62,8 @@
     "pushed": false,
     "dirty_paths": [
       " M codex/years/2026/raw-input/2026-05-04/transcript-baud-dialogue-works-nima-2026-05-04.md",
-      "?? runtime/artifacts/host-shelf-quality/2026/alkorshid/2026-05/quality-summary.json",
-      "?? runtime/artifacts/host-shelf-quality/2026/alkorshid/2026-05/quality-summary.md"
+      "?? runtime/artifacts/host-shelf-quality/2026/alkhorshid/2026-05/quality-summary.json",
+      "?? runtime/artifacts/host-shelf-quality/2026/alkhorshid/2026-05/quality-summary.md"
     ],
     "dirty_path_count": 3,
     "upstream": "origin/main",

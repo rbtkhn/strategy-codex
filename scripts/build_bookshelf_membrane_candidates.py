@@ -25,7 +25,6 @@ if str(SCRIPTS) not in sys.path:
 
 from yaml_compat import safe_load_path
 
-
 REPO = Path(__file__).resolve().parent.parent
 CATALOG_PATH = (
     REPO
@@ -83,21 +82,17 @@ OPTION_STANCE = {
     "not-now": "deferred",
 }
 
-
 @dataclass
 class TagCluster:
     tag: str
     ids: list[str]
     authors: set[str]
 
-
 def _slug(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
 
-
 def _load_catalog(path: Path) -> dict[str, Any]:
     return safe_load_path(path, feature="build_bookshelf_membrane_candidates.py") or {}
-
 
 def _build_clusters(catalog: dict[str, Any]) -> list[TagCluster]:
     rows = catalog.get("items") or []
@@ -134,7 +129,6 @@ def _build_clusters(catalog: dict[str, Any]) -> list[TagCluster]:
         clusters.append(TagCluster(tag=cluster.tag, ids=unique_ids, authors=cluster.authors))
     clusters.sort(key=lambda c: (-len(c.ids), c.tag.lower()))
     return clusters
-
 
 def _generate_round(clusters: list[TagCluster], round_index: int, round_size: int) -> dict[str, Any]:
     if not clusters:
@@ -180,7 +174,6 @@ def _generate_round(clusters: list[TagCluster], round_index: int, round_size: in
         "continue_prompt": "Continue to another round or stop and emit session summary?",
     }
 
-
 def _load_responses(path: Path) -> dict[str, Any]:
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict):
@@ -189,7 +182,6 @@ def _load_responses(path: Path) -> dict[str, Any]:
     if not isinstance(rounds, list) or not rounds:
         raise ValueError("responses file must include non-empty rounds[]")
     return data
-
 
 def _claim_line(tag: str, stance: str) -> str:
     if stance == "enduring":
@@ -209,7 +201,6 @@ def _claim_line(tag: str, stance: str) -> str:
         )
     return f"{tag} is currently a deferred track rather than an active self-knowledge focus."
 
-
 def _tier_for_claim(*, stance: str, evidence_count: int, authors_count: int, affirmed_tags: int) -> str:
     if stance == "deferred":
         return "low"
@@ -220,7 +211,6 @@ def _tier_for_claim(*, stance: str, evidence_count: int, authors_count: int, aff
     if stance == "context" and evidence_count >= 2:
         return "low"
     return "low"
-
 
 def _extract_claims(clusters: list[TagCluster], responses: dict[str, Any], round_size: int) -> dict[str, Any]:
     cluster_by_tag = {c.tag: c for c in clusters}
@@ -302,7 +292,6 @@ def _extract_claims(clusters: list[TagCluster], responses: dict[str, Any], round
         },
     }
 
-
 def _render_report(responses_path: Path, extracted: dict[str, Any], round_size: int) -> str:
     tier_counts = extracted["tier_counts"]
     lines = [
@@ -366,7 +355,6 @@ def _render_report(responses_path: Path, extracted: dict[str, Any], round_size: 
     )
     return "\n".join(lines)
 
-
 def _render_drafts(extracted: dict[str, Any], session_id: str) -> str:
     lines = [
         "# Bookshelf membrane candidate drafts (generated)",
@@ -424,7 +412,6 @@ def _render_drafts(extracted: dict[str, Any], session_id: str) -> str:
         )
     return "\n".join(lines)
 
-
 def _ensure_match(path: Path, expected: str) -> int:
     if not path.is_file():
         print(f"CHECK: missing {path}", file=sys.stderr)
@@ -434,7 +421,6 @@ def _ensure_match(path: Path, expected: str) -> int:
         print(f"CHECK: stale {path}", file=sys.stderr)
         return 1
     return 0
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -497,7 +483,6 @@ def main() -> int:
     print(f"wrote {args.report_out}")
     print(f"wrote {args.drafts_out}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

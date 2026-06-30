@@ -1,6 +1,5 @@
 # Glossary
 
-WORK only; not Record.
 
 This glossary defines the governing vocabulary for **Civilizational Statecraft**. It is concept-first, but it also names peoples, polities, dynasties, churches, empires, and transformed carriers that repeatedly structure the books.
 

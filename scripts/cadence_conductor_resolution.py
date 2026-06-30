@@ -79,7 +79,6 @@ CONDUCTOR_TO_MENU_PICK = {slug: pick for pick, slug in MENU_PICK_TO_CONDUCTOR.it
 # Legacy logs may still contain ``picked=D`` from the older single-line conductor menu.
 _PICKED_CONDUCTOR = frozenset({"conductor", "E", "D", *MENU_PICK_TO_CONDUCTOR.keys()})
 
-
 def normalize_conductor_slug(value: str) -> str:
     """Return first segment if legacy ``a+b`` stacks; else stripped value."""
     s = str(value).strip()
@@ -87,14 +86,12 @@ def normalize_conductor_slug(value: str) -> str:
         return s.split("+", 1)[0].strip()
     return s
 
-
 def conductor_slug_for_menu_pick(pick: str) -> str | None:
     """Map legacy ``D1``..``D5`` to slug. Bare ``D`` has no slug without ``conductor=``."""
     p = str(pick).strip().upper()
     if p == "D":
         return None
     return MENU_PICK_TO_CONDUCTOR.get(p)
-
 
 def _is_explicit_conductor_pick(event: dict[str, Any]) -> bool:
     if event.get("kind") != "coffee_pick":
@@ -104,7 +101,6 @@ def _is_explicit_conductor_pick(event: dict[str, Any]) -> bool:
     conductor = normalize_conductor_slug(kv.get("conductor"))
     return picked in _PICKED_CONDUCTOR and conductor in KNOWN_CONDUCTOR_SLUGS
 
-
 def _strip_accents(s: str) -> str:
     return "".join(
         c
@@ -112,19 +108,16 @@ def _strip_accents(s: str) -> str:
         if unicodedata.category(c) != "Mn"
     )
 
-
 def conductor_submenu_letter_to_slug(letter: str) -> str | None:
     """Deprecated: master letters no longer resolve to conductor slugs."""
     _ = letter
     return None
-
 
 def _display_name_for_slug(slug: str) -> str:
     for _L, s, display, _attr in _CONDUCTOR_MCQ_ROWS:
         if s == normalize_conductor_slug(slug):
             return display
     return slug
-
 
 def _continuity_kicker(
     slug: str,
@@ -149,7 +142,6 @@ def _continuity_kicker(
         return "Advisory: dream / session-load tips this card today (no prior pick match)."
     return "Open entry: no prior conductor in this chain."
 
-
 def format_conductor_mcq_block(
     *,
     last_slug: str | None = None,
@@ -171,7 +163,6 @@ def format_conductor_mcq_block(
     if recommended_slug:
         lines.append(f"System hint: **{_display_name_for_slug(recommended_slug)}**.")
     return "\n".join(lines)
-
 
 def build_conductor_mcq_for_user(user_id: str) -> str:
     """Load cadence (optional dream + session load) and format a name-only prompt.
@@ -217,7 +208,6 @@ def build_conductor_mcq_for_user(user_id: str) -> str:
         recommended_slug=rec_slug,
     )
 
-
 def build_conductor_revisit_block(
     user_id: str,
     *,
@@ -242,7 +232,6 @@ def build_conductor_revisit_block(
         )
     )
     return "\n".join(lines)
-
 
 def resolve_d_conductor(
     name_fragment: str | None,
@@ -283,14 +272,12 @@ def resolve_d_conductor(
         return None, "no_match"
     return None, "ambiguous"
 
-
 def menu_pick_for_conductor_slug(slug: str) -> str | None:
     """Return ``D`` for any known conductor slug (new log convention); else ``None``."""
     s = normalize_conductor_slug(slug)
     if s in KNOWN_CONDUCTOR_SLUGS:
         return "D"
     return None
-
 
 def last_coffee_pick_conductor_event(events: list[dict[str, Any]]) -> dict[str, Any] | None:
     """Most recent ``coffee_pick`` with a conductor-bearing ``picked=`` value."""
@@ -310,7 +297,6 @@ def last_coffee_pick_conductor_event(events: list[dict[str, Any]]) -> dict[str, 
         return None
     return max(candidates, key=lambda x: x["dt"])
 
-
 def last_logged_conductor(events: list[dict[str, Any]]) -> str | None:
     """Normalized conductor slug from last qualifying ``coffee_pick``, or ``None``."""
     ev = last_coffee_pick_conductor_event(events)
@@ -321,7 +307,6 @@ def last_logged_conductor(events: list[dict[str, Any]]) -> str | None:
         return None
     return normalize_conductor_slug(str(c))
 
-
 def _is_conductor_close_event(event: dict[str, Any], conductor: str) -> bool:
     if event.get("kind") != "coffee_close":
         return False
@@ -329,7 +314,6 @@ def _is_conductor_close_event(event: dict[str, Any], conductor: str) -> bool:
     state = str(kv.get("conductor_state", "")).strip().lower()
     closed_conductor = normalize_conductor_slug(kv.get("conductor"))
     return state == "closed" and closed_conductor == conductor
-
 
 def active_conductor_arc(events: list[dict[str, Any]]) -> dict[str, Any] | None:
     """Return the most recent unresolved conductor arc from cadence-style events.
@@ -382,7 +366,6 @@ def active_conductor_arc(events: list[dict[str, Any]]) -> dict[str, Any] | None:
         return None
     return active
 
-
 def resolve_active_conductor_movement(
     movement: str | None,
     events: list[dict[str, Any]],
@@ -404,7 +387,6 @@ def resolve_active_conductor_movement(
         "outcome_count": int(active.get("outcome_count") or 0),
     }
 
-
 def format_coffee_hub_e_line(user_id: str) -> str:
     """Compatibility helper for the removed coffee conductor hub line.
 
@@ -413,7 +395,6 @@ def format_coffee_hub_e_line(user_id: str) -> str:
     """
     _ = user_id
     return "Conductor is standalone: name toscanini, furtwangler, karajan, kleiber, or bernstein."
-
 
 def focus_for_last_conductor(events: list[dict[str, Any]]) -> str | None:
     """Last ``focus=`` or ``arc=`` on a qualifying ``coffee_pick`` (``focus`` wins)."""
@@ -427,7 +408,6 @@ def focus_for_last_conductor(events: list[dict[str, Any]]) -> str | None:
         return str(kv["arc"]).strip()
     return None
 
-
 def recommended_conductor_from_menu_recommendation(letter: str) -> str:
     """Map session-load ``recommended`` hub letter (A/B/C) to conductor slug; unknown â†’ ``furtwangler``.
 
@@ -436,7 +416,6 @@ def recommended_conductor_from_menu_recommendation(letter: str) -> str:
     m = {"A": "kleiber", "B": "toscanini", "C": "bernstein"}
     key = str(letter).strip().upper()[:1]
     return m.get(key, "furtwangler")
-
 
 def _dream_implies_risky_worktree_seam(dream: dict[str, Any]) -> bool:
     if dream.get("risky_worktree") is True:
@@ -447,7 +426,6 @@ def _dream_implies_risky_worktree_seam(dream: dict[str, Any]) -> bool:
     # seam / merge / conflict / explicit worktree caution
     markers = ("seam", "merge", "conflict", "risky", "dirty", "rebase", "worktree")
     return any(m in wt for m in markers)
-
 
 def _dream_implies_steward_or_tomorrow(dream: dict[str, Any]) -> bool:
     if str(dream.get("tomorrow_inherits") or "").strip():
@@ -461,7 +439,6 @@ def _dream_implies_steward_or_tomorrow(dream: dict[str, Any]) -> bool:
     summary = str(dream.get("summary") or "").lower()
     return "steward" in summary and "gate" in summary
 
-
 def _dream_implies_long_arc_balance(dream: dict[str, Any]) -> bool:
     text = " ".join(
         str(dream.get(key) or "")
@@ -471,7 +448,6 @@ def _dream_implies_long_arc_balance(dream: dict[str, Any]) -> bool:
         return False
     markers = ("month", "meta", "balance", "blend", "arc", "shape", "architecture", "polish")
     return any(marker in text for marker in markers)
-
 
 def system_recommended_conductor(
     *,
@@ -501,7 +477,6 @@ def system_recommended_conductor(
                 return recommended_conductor_from_menu_recommendation(letter)
     return "furtwangler"
 
-
 def system_recommended_menu_pick(
     *,
     dream: dict[str, Any] | None = None,
@@ -514,21 +489,17 @@ def system_recommended_menu_pick(
         raise ValueError(f"Unknown conductor slug: {slug}")
     return pick
 
-
 def conductor_for_d1_continuation(events: list[dict[str, Any]]) -> str | None:
     """Backward-compatible alias for older D1 continuity wording."""
     return last_logged_conductor(events)
-
 
 def focus_for_d1_continuation(events: list[dict[str, Any]]) -> str | None:
     """Backward-compatible alias for older D1 continuity wording."""
     return focus_for_last_conductor(events)
 
-
 def d2_conductor_from_menu_recommendation(letter: str) -> str:
     """Backward-compatible alias for session-load recommendation helper."""
     return recommended_conductor_from_menu_recommendation(letter)
-
 
 def d2_conductor_resolved(
     *,
@@ -538,18 +509,15 @@ def d2_conductor_resolved(
     """Backward-compatible alias for recommendation helper."""
     return system_recommended_conductor(dream=dream, assess=assess)
 
-
 def d2_conductor_from_assess_load(assess: dict[str, Any]) -> str:
     """Backward-compatible alias for assess-only recommendation helper."""
     return system_recommended_conductor(dream=None, assess=assess)
-
 
 def compiled_shortcut_for_conductor(slug: str | None) -> str | None:
     """User-facing compiled shortcut name for a mature conductor line."""
     if slug is None:
         return None
     return COMPILED_CONDUCTOR_SHORTCUTS.get(normalize_conductor_slug(slug))
-
 
 def should_offer_compiled_shortcut(
     events: list[dict[str, Any]],

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Pape Logistics Chain — Marine Threshold to Shortage Stage — April 2026
 

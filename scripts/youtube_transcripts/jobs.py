@@ -7,7 +7,6 @@ import os
 from pathlib import Path
 from typing import Any
 
-
 def run_fetch_video_job(serialized: str) -> dict[str, Any]:
     """
     RQ entry: JSON string with keys:

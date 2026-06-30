@@ -65,7 +65,6 @@ READING_RULE_HOST_LINKS = (
     "[redacted-news-channel-index.md](../../channels/redacted-news/redacted-news-channel-index.md)"
 )
 
-
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:5000]
     out: dict = {}
@@ -99,7 +98,6 @@ def parse_head(path: Path) -> dict:
             out["title"] = hm.group(1).strip()
     return out
 
-
 def is_pape_guest(meta: dict, body: str = "") -> bool:
     if PAPE_GUEST.search(meta.get("guest", "")):
         return True
@@ -110,10 +108,8 @@ def is_pape_guest(meta: dict, body: str = "") -> bool:
         return True
     return False
 
-
 def is_janssen_studio_capture(meta: dict, body: str) -> bool:
     return meta.get("thread") == "pape" and bool(JANSSEN_GUEST.search(body[:20000]))
-
 
 def enrich_janssen_meta(meta: dict) -> None:
     meta.setdefault("title", JANSSEN_TITLE)
@@ -121,7 +117,6 @@ def enrich_janssen_meta(meta: dict) -> None:
     meta.setdefault("show", "Cyrus Janssen")
     meta.setdefault("channel_slug", "cyrus-janssen")
     meta["_janssen_note"] = "one studio session · four indexed theme segments in inbox/registry"
-
 
 def enrich_breaking_points_meta(meta: dict, path: Path) -> None:
     """Ryan Grim is a Breaking Points host — route by channel slug, not person name."""
@@ -133,7 +128,6 @@ def enrich_breaking_points_meta(meta: dict, path: Path) -> None:
     meta.setdefault("show", "Breaking Points")
     meta["host"] = "Breaking Points"
     meta.setdefault("channel_slug", "breaking-points")
-
 
 def infer_channel_slug(meta: dict, path: Path) -> None:
     if meta.get("channel_slug"):
@@ -152,7 +146,6 @@ def infer_channel_slug(meta: dict, path: Path) -> None:
     elif "daniel-davis" in name:
         meta["channel_slug"] = "daniel-davis"
 
-
 def is_excluded(path: Path, meta: dict, body: str) -> bool:
     name = path.name.lower()
     if name.startswith("verify-pape-"):
@@ -168,7 +161,6 @@ def is_excluded(path: Path, meta: dict, body: str) -> bool:
         return True
     return False
 
-
 def is_included(path: Path, meta: dict, body: str) -> bool:
     if is_excluded(path, meta, body):
         return False
@@ -179,7 +171,6 @@ def is_included(path: Path, meta: dict, body: str) -> bool:
     if is_pape_guest(meta, body):
         return True
     return False
-
 
 def classify(meta: dict, path: Path, body: str) -> str:
     if is_pape_guest(meta, body):
@@ -198,7 +189,6 @@ def classify(meta: dict, path: Path, body: str) -> str:
         return "authored"
     return "authored"
 
-
 def host_label(meta: dict) -> str:
     if meta.get("host"):
         return meta["host"]
@@ -209,7 +199,6 @@ def host_label(meta: dict) -> str:
         return meta["show"]
     return "?"
 
-
 def pub_date_key(meta: dict, path: Path) -> str:
     pub = meta.get("pub_date", "")
     if pub and len(pub) >= 10:
@@ -219,7 +208,6 @@ def pub_date_key(meta: dict, path: Path) -> str:
         return day
     return day
 
-
 def month_key(pub: str) -> str:
     if pub == "_aired-pending":
         return pub
@@ -227,13 +215,11 @@ def month_key(pub: str) -> str:
         return pub[:7]
     return pub
 
-
 def short_title(meta: dict, path: Path) -> str:
     title = meta.get("title") or path.stem.replace("source-", "", 1)
     if len(title) > 72:
         title = title[:69] + "…"
     return title
-
 
 def row_label(meta: dict, path: Path, row_class: str) -> str:
     pub = pub_date_key(meta, path)
@@ -261,7 +247,6 @@ def row_label(meta: dict, path: Path, row_class: str) -> str:
     kind_bit = f" · {kind}" if kind else ""
     return f"- [{pub} — {title}]({rel}) — **authored**{kind_bit}"
 
-
 def collect_rows() -> list[tuple[str, Path, dict, str]]:
     rows: list[tuple[str, Path, dict, str]] = []
     for path in sorted(ARCHIVE.glob("**/source-*.md")):
@@ -279,11 +264,9 @@ def collect_rows() -> list[tuple[str, Path, dict, str]]:
     rows.sort(key=lambda t: (t[0], t[1].name))
     return rows
 
-
 def source_section_applicable(meta: dict, row_class: str) -> bool:
     guest = row_class == "guest"
     return is_source_section_eligible(meta, guest=guest)
-
 
 def render_index(rows: list[tuple[str, Path, dict, str]]) -> str:
     authored = sum(1 for *_, c in rows if c == "authored")
@@ -302,8 +285,7 @@ def render_index(rows: list[tuple[str, Path, dict, str]]) -> str:
         by_month[month_key(row[0])].append(row)
 
     lines = [
-        "WORK only; not Record.",
-        "",
+                "",
         "# Pape Index",
         "",
         "Purpose: exhaustive canonical route map for Robert Pape **authored essays** and **guest appearances** in Statecraft Archive.",
@@ -342,7 +324,6 @@ def render_index(rows: list[tuple[str, Path, dict, str]]) -> str:
 
     return "\n".join(lines).rstrip() + "\n"
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -368,7 +349,6 @@ def main() -> int:
     guest = sum(1 for *_, c in rows if c == "guest")
     print(f"wrote {OUT.relative_to(REPO)} ({len(rows)} rows: {authored} authored, {guest} guest)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

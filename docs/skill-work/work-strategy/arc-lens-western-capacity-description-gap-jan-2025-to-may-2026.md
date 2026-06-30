@@ -1,6 +1,5 @@
 # Western Capacity-Description Gap, Jan 2025-May 20 2026
 
-WORK only; not Record.
 
 ## Continuity Pointer
 

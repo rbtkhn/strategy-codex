@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # CIV-STATE Corpus Budget
 

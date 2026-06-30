@@ -1,6 +1,5 @@
 # Conductor recursive-improvement benchmark
 
-WORK only; not Record.
 
 **Purpose:** Quantify whether the combination of named **conductor stances** and the **four-movement arc** is increasing Strategy-codex's recursive self-improvement power over time.
 

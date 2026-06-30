@@ -1,6 +1,5 @@
 # Statecraft Archive and Statecraft Synthesis
 
-WORK only; not Record.
 
 **Canonical home:** [../../essays/archive-synthesis-law.md](../../essays/archive-synthesis-law.md)
 

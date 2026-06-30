@@ -6,7 +6,6 @@ import re
 
 from youtube_transcripts.ytdlp_adapter import YtDlpError, download_subtitles
 
-
 def _vtt_to_plain(vtt: str) -> str:
     lines_out: list[str] = []
     for line in vtt.splitlines():
@@ -19,7 +18,6 @@ def _vtt_to_plain(vtt: str) -> str:
         if s:
             lines_out.append(s)
     return "\n".join(lines_out).strip()
-
 
 def fetch_subtitles_ytdlp(
     video_id: str,

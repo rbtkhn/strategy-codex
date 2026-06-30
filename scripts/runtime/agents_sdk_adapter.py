@@ -15,7 +15,6 @@ from typing import Any
 # Max chars sent to the model for summarization (bounded execution).
 DEFAULT_MAX_PROMPT_CHARS = 12000
 
-
 def summarize_inspection(
     *,
     rel_paths: list[str],
@@ -76,7 +75,6 @@ def summarize_inspection(
     text = (resp.choices[0].message.content or "").strip()
     tools.append(f"openai.chat.completions:{model}")
     return text + "\n", tools
-
 
 def agents_sdk_available() -> dict[str, Any]:
     """Diagnostic for docs / --version."""

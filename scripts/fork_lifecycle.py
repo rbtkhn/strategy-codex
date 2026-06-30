@@ -37,7 +37,6 @@ from grace_mar.fork_state import (  # noqa: E402
     transition_fork_phase,
 )
 
-
 def _cmd_init(args: argparse.Namespace) -> int:
     st = ensure_fork_state(REPO_ROOT, args.user)
     if args.seed_commit:
@@ -48,13 +47,11 @@ def _cmd_init(args: argparse.Namespace) -> int:
     print(fork_state_path(REPO_ROOT, args.user))
     return 0
 
-
 def _cmd_begin_session(args: argparse.Namespace) -> int:
     m = begin_session(REPO_ROOT, args.user, channel=args.channel or "operator")
     print(m["session_id"])
     print(session_manifest_path(REPO_ROOT, args.user, m["session_id"]))
     return 0
-
 
 def _cmd_end_session(args: argparse.Namespace) -> int:
     m = end_session(
@@ -67,14 +64,12 @@ def _cmd_end_session(args: argparse.Namespace) -> int:
     print(json.dumps(m, indent=2))
     return 0
 
-
 def _cmd_measure_drift(args: argparse.Namespace) -> int:
     from grace_mar.drift import compute_drift_report
 
     path = compute_drift_report(REPO_ROOT, args.user)
     print(path)
     return 0
-
 
 def _cmd_merge_checkpoint(args: argparse.Namespace) -> int:
     p = Path(args.receipt)
@@ -86,14 +81,12 @@ def _cmd_merge_checkpoint(args: argparse.Namespace) -> int:
     print(json.dumps(st, indent=2))
     return 0
 
-
 def _cmd_snapshot(args: argparse.Namespace) -> int:
     from grace_mar.snapshot import create_snapshot
 
     path = create_snapshot(REPO_ROOT, args.user, args.tag, skip_git_tag=args.no_git_tag)
     print(path)
     return 0
-
 
 def _cmd_status(args: argparse.Namespace) -> int:
     st = load_fork_state(REPO_ROOT, args.user)
@@ -103,12 +96,10 @@ def _cmd_status(args: argparse.Namespace) -> int:
     print(json.dumps(st, indent=2))
     return 0
 
-
 def _cmd_transition(args: argparse.Namespace) -> int:
     st = transition_fork_phase(REPO_ROOT, args.user, args.phase)
     print(json.dumps(st, indent=2))
     return 0
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Fork lifecycle (fork history)")
@@ -151,7 +142,6 @@ def main() -> int:
 
     args = ap.parse_args()
     return int(args.func(args))
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

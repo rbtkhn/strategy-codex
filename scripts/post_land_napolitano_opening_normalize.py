@@ -35,7 +35,6 @@ from normalize_napolitano_opening_scaffold import (  # noqa: E402
 DAY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 MONTH_RE = re.compile(r"^\d{4}-\d{2}$")
 
-
 @dataclass(frozen=True)
 class PostLandResult:
     path: Path
@@ -44,7 +43,6 @@ class PostLandResult:
     flags: str
     opening_tier: str
 
-
 @dataclass(frozen=True)
 class BatchSummary:
     scanned: int
@@ -52,7 +50,6 @@ class BatchSummary:
     applied: int
     no_op: int
     skipped: int
-
 
 def _resolve_landed_path(path: Path) -> Path:
     resolved = (REPO_ROOT / path).resolve() if not path.is_absolute() else path.resolve()
@@ -66,7 +63,6 @@ def _resolve_landed_path(path: Path) -> Path:
         ) from exc
     return resolved
 
-
 def _napolitano_capture_paths(folder: Path) -> list[Path]:
     if not folder.is_dir():
         return []
@@ -76,7 +72,6 @@ def _napolitano_capture_paths(folder: Path) -> list[Path]:
         if p.is_file() and ".cleaned." not in p.name
     )
     return paths
-
 
 def collect_batch_paths(
     *,
@@ -103,7 +98,6 @@ def collect_batch_paths(
         return sorted(set(collected))
 
     raise ValueError("provide --path, --day YYYY-MM-DD, or --month YYYY-MM")
-
 
 def post_land_napolitano_opening_normalize(
     path: Path,
@@ -157,7 +151,6 @@ def post_land_napolitano_opening_normalize(
         opening_tier=file_change.opening_tier,
     )
 
-
 def _format_flags(result: PostLandResult) -> str:
     rel = result.path.relative_to(REPO_ROOT).as_posix()
     if result.status == "skipped-not-napolitano":
@@ -167,7 +160,6 @@ def _format_flags(result: PostLandResult) -> str:
         return f"no-op {rel}{tier}"
     mode = "would-change" if result.status == "dry-run" else "applied"
     return f"{mode} {rel} [{result.flags}] tier={result.opening_tier}"
-
 
 def run_batch(
     paths: list[Path],
@@ -215,7 +207,6 @@ def run_batch(
     )
     return results, summary
 
-
 def _format_batch_summary(summary: BatchSummary, *, dry_run: bool) -> str:
     mode = "dry-run" if dry_run else "apply"
     sep = " | "
@@ -228,7 +219,6 @@ def _format_batch_summary(summary: BatchSummary, *, dry_run: bool) -> str:
         f"Batch {mode}:{sep}{summary.scanned} scanned{sep}"
         f"{summary.applied} applied{sep}{summary.no_op} no-op{sep}{summary.skipped} skipped"
     )
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -282,7 +272,6 @@ def main() -> int:
     _, summary = run_batch(paths, dry_run=args.dry_run, tag_only=args.tag_only, stream=True)
     print(_format_batch_summary(summary, dry_run=args.dry_run), flush=True)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

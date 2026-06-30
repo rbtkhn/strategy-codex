@@ -11,10 +11,8 @@ import argparse
 import sys
 from pathlib import Path
 
-
 def _read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
-
 
 def merge(header_path: Path, body_paths: list[Path], out_path: Path, dry_run: bool) -> int:
     if not header_path.is_file():
@@ -54,7 +52,6 @@ def merge(header_path: Path, body_paths: list[Path], out_path: Path, dry_run: bo
     out_path.write_text(merged, encoding="utf-8")
     print(f"wrote {out_path} ({total_bytes} bytes, body_chars={body_chars})")
     return 0
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -96,7 +93,6 @@ def main() -> int:
         return 1
 
     return merge(args.header, body_paths, args.out, args.dry_run)
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

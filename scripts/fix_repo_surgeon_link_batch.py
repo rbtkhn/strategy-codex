@@ -200,7 +200,6 @@ WORK_CICI_BASENAME_INDEX: dict[str, Path] | None = None
 SCAFFOLD_BASENAME_INDEX: dict[str, Path] | None = None
 SCRIPTS_BASENAME_INDEX: dict[str, Path] | None = None
 
-
 def build_source_basename_index() -> dict[str, Path]:
     index: dict[str, Path] = {}
     root = REPO_ROOT / "source-archive" / "statecraft"
@@ -211,13 +210,11 @@ def build_source_basename_index() -> dict[str, Path]:
             index.setdefault(path.name, path)
     return index
 
-
 def get_source_basename_index() -> dict[str, Path]:
     global SOURCE_BASENAME_INDEX
     if SOURCE_BASENAME_INDEX is None:
         SOURCE_BASENAME_INDEX = build_source_basename_index()
     return SOURCE_BASENAME_INDEX
-
 
 def _build_flat_index(root: Path, pattern: str = "*.md") -> dict[str, Path]:
     index: dict[str, Path] = {}
@@ -228,13 +225,11 @@ def _build_flat_index(root: Path, pattern: str = "*.md") -> dict[str, Path]:
             index.setdefault(path.name, path)
     return index
 
-
 def get_work_cici_basename_index() -> dict[str, Path]:
     global WORK_CICI_BASENAME_INDEX
     if WORK_CICI_BASENAME_INDEX is None:
         WORK_CICI_BASENAME_INDEX = _build_flat_index(REPO_ROOT / "singularity" / "work-cici")
     return WORK_CICI_BASENAME_INDEX
-
 
 def get_scaffold_basename_index() -> dict[str, Path]:
     global SCAFFOLD_BASENAME_INDEX
@@ -243,13 +238,11 @@ def get_scaffold_basename_index() -> dict[str, Path]:
         SCAFFOLD_BASENAME_INDEX = _build_flat_index(sheets)
     return SCAFFOLD_BASENAME_INDEX
 
-
 def get_scripts_basename_index() -> dict[str, Path]:
     global SCRIPTS_BASENAME_INDEX
     if SCRIPTS_BASENAME_INDEX is None:
         SCRIPTS_BASENAME_INDEX = _build_flat_index(REPO_ROOT / "scripts", "*.py")
     return SCRIPTS_BASENAME_INDEX
-
 
 def resolve_legacy_path(path_part: str) -> Path | None:
     norm = path_part.replace("\\", "/").lstrip("./")
@@ -414,7 +407,6 @@ def resolve_legacy_path(path_part: str) -> Path | None:
 
     return None
 
-
 def resolve_by_tail_walk(norm: str) -> Path | None:
     tail = norm.replace("\\", "/").lstrip("./")
     parts = tail.split("/")
@@ -439,7 +431,6 @@ def resolve_by_tail_walk(norm: str) -> Path | None:
                 return indexed
     return None
 
-
 def fix_days_md(from_file: Path, path_part: str, frag: str) -> str | None:
     norm = path_part.replace("\\", "/")
     if not norm.endswith("days.md"):
@@ -454,7 +445,6 @@ def fix_days_md(from_file: Path, path_part: str, frag: str) -> str | None:
         return None
     new_path = os.path.relpath(candidate, from_file.parent.resolve()).replace("\\", "/") + frag
     return new_path
-
 
 def fix_source_archive_master_index(text: str, file_path: Path) -> tuple[str, int]:
     rel = file_path.relative_to(REPO_ROOT).as_posix()
@@ -488,7 +478,6 @@ def fix_source_archive_master_index(text: str, file_path: Path) -> tuple[str, in
     )
     count += n
     return text, count
-
 
 def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
     rel = file_path.relative_to(REPO_ROOT).as_posix()
@@ -1983,7 +1972,6 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-
     if rel.startswith("statecraft/channels/"):
         replacements.append(
             (
@@ -2031,9 +2019,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             count += n
     return text, count
 
-
 CIVMEM_DASH = "\u2013"
-
 
 def _dashify_civmem_filename(match: re.Match[str]) -> str:
     prefix = match.group(1)
@@ -2043,8 +2029,6 @@ def _dashify_civmem_filename(match: re.Match[str]) -> str:
     if not (name.startswith("CIV-") or name.startswith("MEM-")):
         return match.group(0)
     return prefix + name.replace("-", CIVMEM_DASH)
-
-
 
 def fix_civ_mem_draft_protocol(text: str, file_path: Path) -> tuple[str, int]:
     """Collapse over-deep civ-mem-draft-protocol links under docs/skill-work/."""
@@ -2062,7 +2046,6 @@ def fix_civ_mem_draft_protocol(text: str, file_path: Path) -> tuple[str, int]:
 
     new_text, n = re.subn(pattern, repl, text)
     return new_text, n
-
 
 def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
     rel = file_path.relative_to(REPO_ROOT).as_posix()
@@ -2331,12 +2314,10 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
             count += n
     return text, count
 
-
 def relative_repo_path(from_file: Path, target_under_root: str) -> str:
     from_dir = from_file.parent.resolve()
     target = (REPO_ROOT / target_under_root.replace("\\", "/")).resolve()
     return os.path.relpath(target, from_dir).replace("\\", "/")
-
 
 def normalize_target(raw: str) -> tuple[str, str]:
     target = raw.strip()
@@ -2345,12 +2326,10 @@ def normalize_target(raw: str) -> tuple[str, str]:
     path_part, sep, frag = target.partition("#")
     return path_part.strip(), (sep + frag if sep else "")
 
-
 def looks_repo_root_absolute(path_part: str) -> bool:
     if path_part in ROOT_FILES:
         return True
     return any(path_part.startswith(prefix) for prefix in REPO_ROOT_TARGETS)
-
 
 def repo_target_path(path_part: str) -> Path | None:
     norm = path_part.replace("\\", "/")
@@ -2380,7 +2359,6 @@ def repo_target_path(path_part: str) -> Path | None:
         return candidate if candidate.exists() else None
     return None
 
-
 def archive_target_for_provenance(date: str, filename: str) -> Path | None:
     norm = filename.replace("\\", "/").lstrip("./")
     day_dir = REPO_ROOT / "source-archive" / "statecraft" / date
@@ -2404,7 +2382,6 @@ def archive_target_for_provenance(date: str, filename: str) -> Path | None:
         return day_index
     return None
 
-
 def fix_provenance_in_target(from_file: Path, path_part: str, frag: str) -> str | None:
     match = PROVENANCE_LINK_RE.search(path_part.replace("\\", "/"))
     if not match:
@@ -2415,7 +2392,6 @@ def fix_provenance_in_target(from_file: Path, path_part: str, frag: str) -> str 
         return None
     new_path = os.path.relpath(candidate, from_file.parent.resolve()).replace("\\", "/") + frag
     return new_path
-
 
 def fix_target(from_file: Path, raw: str) -> str | None:
     path_part, frag = normalize_target(raw)
@@ -2468,7 +2444,6 @@ def fix_target(from_file: Path, raw: str) -> str | None:
         return None
     return new_path
 
-
 def fix_windows_absolute(text: str, file_path: Path) -> tuple[str, int]:
     count = 0
 
@@ -2498,7 +2473,6 @@ def fix_windows_absolute(text: str, file_path: Path) -> tuple[str, int]:
 
     text = MAC_HOME.sub(mac_repl, text)
     return text, count
-
 
 def fix_cursor_skills_depth(text: str, file_path: Path) -> tuple[str, int]:
     """Fix wrong-depth .cursor/skills and .cursor/rules links."""
@@ -2537,7 +2511,6 @@ def fix_cursor_skills_depth(text: str, file_path: Path) -> tuple[str, int]:
         )
     return text, count
 
-
 def fix_agents_depth(text: str, file_path: Path) -> tuple[str, int]:
     """Fix common wrong-depth AGENTS.md links under docs/skill-work/."""
     rel = file_path.relative_to(REPO_ROOT).as_posix()
@@ -2560,7 +2533,6 @@ def fix_agents_depth(text: str, file_path: Path) -> tuple[str, int]:
             count += n
     return text, count
 
-
 def fix_template_routing_prose(text: str, file_path: Path) -> tuple[str, int]:
     rel = file_path.relative_to(REPO_ROOT).as_posix()
     if rel != "docs/templates/llm-routing-prose.md":
@@ -2578,7 +2550,6 @@ def fix_template_routing_prose(text: str, file_path: Path) -> tuple[str, int]:
             text = text.replace(old, new)
             count += c
     return text, count
-
 
 def fix_file(path: Path) -> int:
     try:
@@ -2629,7 +2600,6 @@ def fix_file(path: Path) -> int:
         path.write_text(text, encoding="utf-8", newline="\n")
     return total
 
-
 def iter_scope_roots(scope: str) -> list[Path]:
     scope = scope.strip().lower()
     roots: list[Path] = []
@@ -2641,7 +2611,6 @@ def iter_scope_roots(scope: str) -> list[Path]:
     if scope in {"skills", "all"}:
         roots.extend([SKILLS_DIR, REPO_ROOT / ".cursor" / "skills"])
     return roots
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -2698,7 +2667,6 @@ def main() -> int:
 
     print(f"done: {links} link(s) in {changed} file(s)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

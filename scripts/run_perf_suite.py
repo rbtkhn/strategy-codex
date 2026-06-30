@@ -30,13 +30,11 @@ sys.path.insert(0, str(REPO_ROOT))
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from repo_io import artifacts_dir, user_profile_dir  # noqa: E402
 
-
 def _pctl(sorted_ms: list[float], p: float) -> float:
     if not sorted_ms:
         return 0.0
     idx = min(len(sorted_ms) - 1, int((p / 100.0) * len(sorted_ms)))
     return sorted_ms[idx]
-
 
 def _stats_ms(times_sec: list[float]) -> dict:
     ms = [t * 1000 for t in times_sec]
@@ -47,7 +45,6 @@ def _stats_ms(times_sec: list[float]) -> dict:
         "p95_ms": round(_pctl(ms, 95), 2),
         "max_ms": round(max(ms), 2) if ms else 0,
     }
-
 
 def _git_sha() -> str:
     try:
@@ -64,7 +61,6 @@ def _git_sha() -> str:
     except Exception:
         return "unknown"
 
-
 def _load_baselines() -> dict:
     if not BASELINES_PATH.exists():
         return {}
@@ -72,7 +68,6 @@ def _load_baselines() -> dict:
         return json.loads(BASELINES_PATH.read_text(encoding="utf-8"))
     except json.JSONDecodeError:
         return {}
-
 
 def tier1_parse_gate(user_id: str, warmup: int, iters: int) -> dict:
     from recursion_gate_review import parse_review_candidates
@@ -88,7 +83,6 @@ def tier1_parse_gate(user_id: str, warmup: int, iters: int) -> dict:
     st["candidate_count"] = len(rows)
     return {"step": "1.1_parse_gate", **st}
 
-
 def tier1_prompt_memory(user_id: str) -> dict:
     from bot.prompt import SYSTEM_PROMPT
     from bot.core import _load_memory_appendix
@@ -99,7 +93,6 @@ def tier1_prompt_memory(user_id: str) -> dict:
         "system_prompt_chars": len(SYSTEM_PROMPT),
         "memory_appendix_chars": len(mem),
     }
-
 
 def tier1_retrieve(warmup: int, iters: int) -> dict:
     from bot.retriever import retrieve
@@ -113,7 +106,6 @@ def tier1_retrieve(warmup: int, iters: int) -> dict:
         retrieve(q, top_k=5)
         times.append(time.perf_counter() - t0)
     return {"step": "1.3_retrieve", **_stats_ms(times)}
-
 
 def tier1_rate_limit() -> dict:
     from bot.core import _check_rate_limit
@@ -130,7 +122,6 @@ def tier1_rate_limit() -> dict:
         "p95_ms": round((elapsed / n) * 1000, 4),
     }
 
-
 def _subprocess_ms(argv: list[str], timeout: int = 600) -> tuple[float, int, str]:
     t0 = time.perf_counter()
     r = subprocess.run(
@@ -141,7 +132,6 @@ def _subprocess_ms(argv: list[str], timeout: int = 600) -> tuple[float, int, str
         timeout=timeout,
     )
     return (time.perf_counter() - t0) * 1000, r.returncode, (r.stderr or "")[:500]
-
 
 def tier2_io(user_id: str, tmp: Path) -> list[dict]:
     tmp.mkdir(parents=True, exist_ok=True)
@@ -229,7 +219,6 @@ def tier2_io(user_id: str, tmp: Path) -> list[dict]:
         )
     return out
 
-
 def tier3_llm(user_id: str, warmup: int, iters: int, include_analyst: bool) -> list[dict]:
     if not os.getenv("OPENAI_API_KEY"):
         return [{"step": "3.x", "skipped": True, "reason": "OPENAI_API_KEY not set"}]
@@ -277,7 +266,6 @@ def tier3_llm(user_id: str, warmup: int, iters: int, include_analyst: bool) -> l
 
     return results
 
-
 def tier4_http() -> list[dict]:
     base = os.getenv("PERF_BASE_URL", "").strip().rstrip("/")
     secret = os.getenv("OPERATOR_FETCH_SECRET", "").strip()
@@ -312,7 +300,6 @@ def tier4_http() -> list[dict]:
         out.append({"step": step, "wall_ms": round(ms, 2), "http_status": code})
     return out
 
-
 def tier5_retrieve_load(threads: int, per_thread: int) -> dict:
     from bot.retriever import retrieve
 
@@ -342,7 +329,6 @@ def tier5_retrieve_load(threads: int, per_thread: int) -> dict:
     st["per_thread"] = per_thread
     st["total_wall_ms"] = round(total * 1000, 2)
     return st
-
 
 def _check_baselines(results: list[dict], baselines: dict, slack: float, tier3: bool) -> list[str]:
     failures = []
@@ -389,7 +375,6 @@ def _check_baselines(results: list[dict], baselines: dict, slack: float, tier3: 
         if float(p95) > lim:
             failures.append(f"{step}: p95/wall {p95}ms > budget {lim}ms")
     return failures
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Grace-Mar performance suite")
@@ -483,7 +468,6 @@ def main() -> int:
         return 1
 
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

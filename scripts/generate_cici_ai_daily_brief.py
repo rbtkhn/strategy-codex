@@ -25,14 +25,12 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import Iterable
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DASHBOARD_PATH = REPO_ROOT / "singularity" / "work-cici" / "cici-ai-community-dashboard.md"
 PROFILE_DIR = REPO_ROOT / "singularity" / "work-cici" / "member-profiles"
 PROGRESS_README_PATH = REPO_ROOT / "singularity" / "work-cici" / "cici-ai-progress" / "README.md"
 TELEGRAM_README_PATH = REPO_ROOT / "singularity" / "work-cici" / "cici-ai-telegram" / "README.md"
 EVIDENCE_DIR = REPO_ROOT / "singularity" / "work-cici" / "archive/placeholders/evidence"
-
 
 @dataclass
 class DashboardRow:
@@ -49,7 +47,6 @@ class DashboardRow:
     notes: str
     confidence: str
 
-
 @dataclass
 class MemberProfile:
     name: str
@@ -59,13 +56,11 @@ class MemberProfile:
     evidence_level: str
     open_loops: list[str]
 
-
 @dataclass
 class LaneState:
     name: str
     next_action: str
     open_loops: list[str]
-
 
 @dataclass
 class EvidenceNote:
@@ -75,7 +70,6 @@ class EvidenceNote:
     confidence: str
     movement_bullets: list[str]
     follow_up_bullets: list[str]
-
 
 @dataclass
 class BriefDigest:
@@ -90,30 +84,25 @@ class BriefDigest:
     reply_format: str
     source_paths: list[str]
 
-
 def _extract_section(text: str, heading: str) -> str:
     pattern = rf"^##\s+{re.escape(heading)}\s*$\n(.*?)(?=^##\s+|\Z)"
     match = re.search(pattern, text, re.MULTILINE | re.DOTALL)
     return match.group(1).strip() if match else ""
-
 
 def _extract_subsection(text: str, heading: str) -> str:
     pattern = rf"^###\s+{re.escape(heading)}\s*$\n(.*?)(?=^###\s+|^##\s+|\Z)"
     match = re.search(pattern, text, re.MULTILINE | re.DOTALL)
     return match.group(1).strip() if match else ""
 
-
 def _extract_h1_title(text: str) -> str:
     match = re.search(r"^#\s+(.+)$", text, re.MULTILINE)
     return match.group(1).strip() if match else ""
-
 
 def _safe_relpath(path: Path, repo_root: Path = REPO_ROOT) -> str:
     try:
         return str(path.relative_to(repo_root)).replace("\\", "/")
     except ValueError:
         return str(path).replace("\\", "/")
-
 
 def _ascii_safe(text: str) -> str:
     replacements = {
@@ -131,11 +120,9 @@ def _ascii_safe(text: str) -> str:
         text = text.replace(old, new)
     return text
 
-
 def _parse_confidence(notes: str) -> str:
     match = re.search(r"\bConfidence\b[^ABC0-9]{0,12}([ABC])\b", notes, re.I)
     return match.group(1).upper() if match else "C"
-
 
 def _parse_int(cell: str) -> int:
     cell = cell.strip()
@@ -143,11 +130,9 @@ def _parse_int(cell: str) -> int:
         return 0
     return int(cell)
 
-
 def _split_table_row(row: str) -> list[str]:
     parts = [part.strip() for part in row.strip().strip("|").split("|")]
     return parts
-
 
 def parse_latest_dashboard_row(path: Path = DASHBOARD_PATH) -> DashboardRow:
     text = path.read_text(encoding="utf-8")
@@ -188,7 +173,6 @@ def parse_latest_dashboard_row(path: Path = DASHBOARD_PATH) -> DashboardRow:
     rows.sort(key=lambda row: row.week_of)
     return rows[-1]
 
-
 def _extract_bullets(block: str) -> list[str]:
     bullets: list[str] = []
     for raw in block.splitlines():
@@ -196,7 +180,6 @@ def _extract_bullets(block: str) -> list[str]:
         if line.startswith("- "):
             bullets.append(line[2:].strip())
     return bullets
-
 
 def parse_dashboard_qualitative(path: Path = DASHBOARD_PATH) -> dict[str, list[str]]:
     text = path.read_text(encoding="utf-8")
@@ -209,7 +192,6 @@ def parse_dashboard_qualitative(path: Path = DASHBOARD_PATH) -> dict[str, list[s
     }
     return sections
 
-
 def parse_lane_readme(path: Path, *, lane_name: str) -> LaneState:
     text = path.read_text(encoding="utf-8")
     next_action = _extract_section(text, "Next action").splitlines()[0].strip() if _extract_section(text, "Next action") else ""
@@ -219,7 +201,6 @@ def parse_lane_readme(path: Path, *, lane_name: str) -> LaneState:
         open_loops=_extract_bullets(_extract_section(text, "Open loops")),
     )
 
-
 def _parse_date_from_text(text: str, path: Path) -> str:
     matches = re.findall(r"\d{4}-\d{2}-\d{2}", text)
     if matches:
@@ -228,7 +209,6 @@ def _parse_date_from_text(text: str, path: Path) -> str:
     if matches:
         return max(matches)
     return "0000-00-00"
-
 
 def parse_evidence_note(path: Path, *, repo_root: Path = REPO_ROOT) -> EvidenceNote:
     text = path.read_text(encoding="utf-8")
@@ -260,7 +240,6 @@ def parse_evidence_note(path: Path, *, repo_root: Path = REPO_ROOT) -> EvidenceN
         follow_up_bullets=follow_up_bullets,
     )
 
-
 def load_recent_evidence(
     evidence_dir: Path = EVIDENCE_DIR, limit: int = 4, *, repo_root: Path = REPO_ROOT
 ) -> list[EvidenceNote]:
@@ -274,22 +253,18 @@ def load_recent_evidence(
     notes.sort(key=lambda note: (note.note_date, note.path), reverse=True)
     return notes[:limit]
 
-
 def _extract_field(content: str, field: str) -> str:
     match = re.search(rf"^\*\*{re.escape(field)}:\*\*\s*(.+)$", content, re.MULTILINE)
     return match.group(1).strip() if match else ""
-
 
 def _strip_md_link(value: str) -> str:
     match = re.match(r"\[(.*?)\]\((.*?)\)", value.strip())
     return match.group(1).strip() if match else value.strip()
 
-
 def _extract_list_section(content: str, heading: str) -> list[str]:
     section = _extract_section(content, heading)
     bullets = _extract_bullets(section)
     return bullets
-
 
 def load_profiles(profile_dir: Path = PROFILE_DIR) -> list[MemberProfile]:
     if not profile_dir.is_dir():
@@ -312,7 +287,6 @@ def load_profiles(profile_dir: Path = PROFILE_DIR) -> list[MemberProfile]:
         )
     return profiles
 
-
 def choose_mode(row: DashboardRow, qualitative: dict[str, list[str]]) -> str:
     notes_lower = row.notes.lower()
     produced = " ".join(qualitative.get("what_produced_action", [])).lower()
@@ -326,7 +300,6 @@ def choose_mode(row: DashboardRow, qualitative: dict[str, list[str]]) -> str:
         return "intake"
     return "review-reset"
 
-
 def build_pulse(mode: str, row: DashboardRow) -> str:
     if mode == "public-output":
         return "The group has visible public-output motion, but quality and proof still matter more than volume."
@@ -338,11 +311,9 @@ def build_pulse(mode: str, row: DashboardRow) -> str:
         return "New joins and introductions are creating motion; the next step is converting that attention into one concrete artifact."
     return "The group needs a simple reset today: fewer claims, clearer proof, and one concrete next step."
 
-
 def _compact_sentence(text: str) -> str:
     text = re.sub(r"\s+", " ", text).strip()
     return text.rstrip(".")
-
 
 def build_movements(row: DashboardRow, qualitative: dict[str, list[str]], limit: int = 3) -> list[str]:
     items: list[str] = []
@@ -371,7 +342,6 @@ def build_movements(row: DashboardRow, qualitative: dict[str, list[str]], limit:
         items.append("Most visible movement still needs confirmation before we count it as activation. [C]")
     return items[:limit]
 
-
 def build_evidence_movements(notes: list[EvidenceNote], limit: int = 2) -> list[str]:
     items: list[str] = []
     for note in notes:
@@ -382,14 +352,12 @@ def build_evidence_movements(notes: list[EvidenceNote], limit: int = 2) -> list[
                 return items
     return items
 
-
 def _parse_dateish(value: str) -> date | None:
     matches = re.findall(r"\d{4}-\d{2}-\d{2}", value)
     if not matches:
         return None
     parsed = [datetime.strptime(match, "%Y-%m-%d").date() for match in matches]
     return max(parsed)
-
 
 def build_followups(profiles: Iterable[MemberProfile], today: date) -> list[str]:
     mapping_cleanup: list[str] = []
@@ -419,7 +387,6 @@ def build_followups(profiles: Iterable[MemberProfile], today: date) -> list[str]
         names = ", ".join(active_builders[:3])
         actions.append(f"{names}: if you already have visible repo motion, post one artifact from your first task.")
     return actions[:2]
-
 
 def build_primary_asks(
     mode: str,
@@ -469,7 +436,6 @@ def build_primary_asks(
         reply_format = "one artifact or screenshot + one-line status"
     return asks[:2], reply_format
 
-
 def build_digest(repo_root: Path = REPO_ROOT, brief_date: date | None = None) -> BriefDigest:
     today = brief_date or date.today()
     row = parse_latest_dashboard_row(repo_root / DASHBOARD_PATH.relative_to(REPO_ROOT))
@@ -504,7 +470,6 @@ def build_digest(repo_root: Path = REPO_ROOT, brief_date: date | None = None) ->
         ],
     )
     return digest
-
 
 def render_operator_digest(digest: BriefDigest) -> str:
     lines: list[str] = []
@@ -542,7 +507,6 @@ def render_operator_digest(digest: BriefDigest) -> str:
     lines.append(f"- {digest.reply_format}")
     return _ascii_safe("\n".join(lines))
 
-
 def render_telegram_brief(digest: BriefDigest) -> str:
     lines: list[str] = []
     lines.append(f"Daily cici-ai brief - {digest.date}")
@@ -566,7 +530,6 @@ def render_telegram_brief(digest: BriefDigest) -> str:
     lines.append(f"- Reply with: {digest.reply_format}")
     return _ascii_safe("\n".join(lines))
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate the cici-ai daily Telegram brief and operator digest.")
     parser.add_argument("--format", choices=["digest", "telegram", "json", "both"], default="both")
@@ -587,7 +550,6 @@ def main() -> int:
     if args.format in {"telegram", "both"}:
         print(render_telegram_brief(digest))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

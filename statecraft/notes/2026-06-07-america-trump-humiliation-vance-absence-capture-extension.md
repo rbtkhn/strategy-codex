@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-07/source-parsi-after-israel-strikes-beirut-iran-whats-trumps-next-move-2026-06-07.md>
   - source-archive/statecraft/2026-06-07/source-daniel-davis-israel-launches-missile-attack-against-iran-2026-06-07.md>
 ---
-WORK only; not Record.
 
 # America: Trump Humiliation, Vance Absence, Capture Extension - 2026-06-07
 

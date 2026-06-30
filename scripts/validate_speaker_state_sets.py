@@ -15,7 +15,6 @@ import tomllib
 from dataclasses import dataclass
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 REGISTERED_SPEAKER_SLUGS = ("pape", "crooke", "ritter", "parsi", "daniel-davis", "diesen")
 DEFAULT_VOICES_DIR = REPO_ROOT / "statecraft" / "voices"
@@ -35,8 +34,7 @@ DATE_NAMED_RE = re.compile(r"^\d{4}-\d{2}-\d{2}-")
 WINDOWS_DRIVE_RE = re.compile(r"^[A-Za-z]:[\\/]")
 
 BOUNDARY_MARKERS = (
-    "WORK only; not Record.",
-    "WORK-only strategy-codex analysis. This is not Record material.",
+        "WORK-only strategy-codex analysis. This is not Record material.",
 )
 
 OBVIOUS_STATE_NAME_RE = re.compile(
@@ -45,7 +43,6 @@ OBVIOUS_STATE_NAME_RE = re.compile(
     re.IGNORECASE,
 )
 
-
 @dataclass(frozen=True)
 class SourceSetSpec:
     file: str
@@ -53,13 +50,11 @@ class SourceSetSpec:
     required_prefixes: tuple[str, ...] = ()
     excluded_patterns: tuple[str, ...] = ()
 
-
 @dataclass(frozen=True)
 class GuestMatrixSpec:
     file: str
     arc_glob: str
     expected_count: int
-
 
 @dataclass(frozen=True)
 class SpeakerSpec:
@@ -70,17 +65,14 @@ class SpeakerSpec:
     source_sets: tuple[SourceSetSpec, ...] = ()
     guest_matrices: tuple[GuestMatrixSpec, ...] = ()
 
-
 def repo_rel(path: Path, repo_root: Path) -> str:
     try:
         return path.resolve().relative_to(repo_root.resolve()).as_posix()
     except ValueError:
         return path.as_posix()
 
-
 def normalize_manifest_rel(raw: str) -> str:
     return raw.replace("\\", "/").strip()
-
 
 def validate_repo_relative(value: object, field: str, manifest_rel: str) -> tuple[str | None, str | None]:
     if not isinstance(value, str) or not value.strip():
@@ -95,7 +87,6 @@ def validate_repo_relative(value: object, field: str, manifest_rel: str) -> tupl
         return None, f"{manifest_rel}: `{field}` must be a repo-relative path: {value!r}"
     return normalized, None
 
-
 def string_list(value: object, field: str, manifest_rel: str) -> tuple[tuple[str, ...], list[str]]:
     if not isinstance(value, list):
         return (), [f"{manifest_rel}: `{field}` must be a list of strings"]
@@ -108,7 +99,6 @@ def string_list(value: object, field: str, manifest_rel: str) -> tuple[tuple[str
             out.append(item.strip())
     return tuple(out), errors
 
-
 def section_text(text: str, heading: str) -> str:
     target = heading.casefold()
     for match in HEADING_RE.finditer(text):
@@ -120,10 +110,8 @@ def section_text(text: str, heading: str) -> str:
         return text[start:end]
     return ""
 
-
 def has_work_boundary(text: str) -> bool:
     return any(marker in text for marker in BOUNDARY_MARKERS)
-
 
 def is_compatibility_pointer(text: str) -> bool:
     lowered = text.casefold()
@@ -139,7 +127,6 @@ def is_compatibility_pointer(text: str) -> bool:
         )
     )
 
-
 def strip_link_target(raw: str) -> str:
     target = raw.strip()
     if " " in target and not target.startswith("<"):
@@ -148,7 +135,6 @@ def strip_link_target(raw: str) -> str:
     if target.startswith("<") and target.endswith(">"):
         target = target[1:-1].strip()
     return target
-
 
 def normalize_link_target(raw: str, base_file: Path, repo_root: Path) -> Path | None:
     target = strip_link_target(raw)
@@ -171,7 +157,6 @@ def normalize_link_target(raw: str, base_file: Path, repo_root: Path) -> Path | 
     if not path.is_absolute():
         path = base_file.parent / path
     return path.resolve()
-
 
 def migrated_source_target(path: Path, repo_root: Path) -> Path:
     """Map legacy codex source links onto currently tracked targets when applicable."""
@@ -196,7 +181,6 @@ def migrated_source_target(path: Path, repo_root: Path) -> Path:
             return resolved
     return path.resolve()
 
-
 def markdown_links(text: str, base_file: Path, repo_root: Path) -> list[tuple[str, Path]]:
     out: list[tuple[str, Path]] = []
     for match in MARKDOWN_LINK_RE.finditer(text):
@@ -205,7 +189,6 @@ def markdown_links(text: str, base_file: Path, repo_root: Path) -> list[tuple[st
         if normalized is not None:
             out.append((raw, normalized))
     return out
-
 
 def source_links(
     text: str,
@@ -231,13 +214,11 @@ def source_links(
             links.append((raw, path))
     return links
 
-
 def pattern_matches(pattern: str, basename: str, raw: str, rel: str) -> bool:
     if pattern.startswith("date-named-"):
         slug = pattern.removeprefix("date-named-")
         return DATE_NAMED_RE.match(basename) is not None and basename.endswith(f"-{slug}.md")
     return pattern in basename or pattern in raw or pattern in rel
-
 
 def is_under_any(path: Path, roots: tuple[Path, ...]) -> bool:
     resolved = path.resolve()
@@ -249,12 +230,10 @@ def is_under_any(path: Path, roots: tuple[Path, ...]) -> bool:
         return True
     return False
 
-
 def speaker_shelf_dir(slug: str, voices_dir: Path, hosts_dir: Path) -> Path:
     if slug in HOST_SLUGS:
         return hosts_dir / slug
     return voices_dir / slug
-
 
 def load_manifest(slug: str, repo_root: Path, voices_dir: Path, hosts_dir: Path) -> tuple[SpeakerSpec | None, list[str]]:
     manifest_path = speaker_shelf_dir(slug, voices_dir, hosts_dir) / "state-set.toml"
@@ -327,7 +306,6 @@ def load_manifest(slug: str, repo_root: Path, voices_dir: Path, hosts_dir: Path)
         [],
     )
 
-
 def parse_source_sets(value: object, manifest_rel: str) -> tuple[tuple[SourceSetSpec, ...], list[str]]:
     if value is None:
         return (), []
@@ -365,7 +343,6 @@ def parse_source_sets(value: object, manifest_rel: str) -> tuple[tuple[SourceSet
         )
     return tuple(specs), errors
 
-
 def parse_guest_matrices(value: object, manifest_rel: str) -> tuple[tuple[GuestMatrixSpec, ...], list[str]]:
     if value is None:
         return (), []
@@ -392,7 +369,6 @@ def parse_guest_matrices(value: object, manifest_rel: str) -> tuple[tuple[GuestM
         specs.append(GuestMatrixSpec(file=path, arc_glob=glob, expected_count=expected))
     return tuple(specs), errors
 
-
 def validate_compact_state_file(path: Path, repo_root: Path) -> list[str]:
     if not path.exists():
         return [f"{repo_rel(path, repo_root)}: registered compact state file is missing"]
@@ -402,7 +378,6 @@ def validate_compact_state_file(path: Path, repo_root: Path) -> list[str]:
     if not has_work_boundary(text):
         return [f"{repo_rel(path, repo_root)}: missing WORK-only state boundary"]
     return []
-
 
 def validate_source_set(
     spec: SourceSetSpec,
@@ -459,7 +434,6 @@ def validate_source_set(
 
     return errors
 
-
 def validate_guest_matrix(spec: GuestMatrixSpec, repo_root: Path) -> list[str]:
     path = repo_root / spec.file
     errors: list[str] = []
@@ -502,7 +476,6 @@ def validate_guest_matrix(spec: GuestMatrixSpec, repo_root: Path) -> list[str]:
 
     return errors
 
-
 def validate_registered_speaker(
     slug: str,
     repo_root: Path,
@@ -525,7 +498,6 @@ def validate_registered_speaker(
         errors.extend(validate_guest_matrix(guest_matrix, repo_root))
     return errors, warnings
 
-
 def is_inside_codex(path: Path, repo_root: Path) -> bool:
     try:
         path.resolve().relative_to((repo_root / "codex").resolve())
@@ -533,14 +505,12 @@ def is_inside_codex(path: Path, repo_root: Path) -> bool:
         return False
     return True
 
-
 def obvious_state_files(speaker_dir: Path) -> list[Path]:
     return sorted(
         path
         for path in speaker_dir.glob("*.md")
         if OBVIOUS_STATE_NAME_RE.search(path.name)
     )
-
 
 def validate_unregistered_speaker(speaker_dir: Path, repo_root: Path) -> list[str]:
     slug = speaker_dir.name
@@ -562,7 +532,6 @@ def validate_unregistered_speaker(speaker_dir: Path, repo_root: Path) -> list[st
                 warnings.append(f"{repo_rel(path, repo_root)}: broken codex link `{strip_link_target(raw)}`")
 
     return warnings
-
 
 def validate_all(
     repo_root: Path,
@@ -603,7 +572,6 @@ def validate_all(
 
     return errors, warnings
 
-
 def list_registered(repo_root: Path, voices_dir: Path, hosts_dir: Path) -> None:
     for slug in REGISTERED_SPEAKER_SLUGS:
         print(slug)
@@ -623,7 +591,6 @@ def list_registered(repo_root: Path, voices_dir: Path, hosts_dir: Path) -> None:
         for matrix in spec.guest_matrices:
             print(f"  guest matrix: {matrix.file} (expected {matrix.expected_count})")
 
-
 def promote_state_boundary_warnings(warnings: list[str]) -> tuple[list[str], list[str]]:
     promoted: list[str] = []
     remaining: list[str] = []
@@ -633,7 +600,6 @@ def promote_state_boundary_warnings(warnings: list[str]) -> tuple[list[str], lis
         else:
             remaining.append(warning)
     return promoted, remaining
-
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -652,7 +618,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--repo-root", type=Path, default=REPO_ROOT, help=argparse.SUPPRESS)
     parser.add_argument("--speakers-dir", type=Path, help=argparse.SUPPRESS)
     return parser.parse_args(argv)
-
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
@@ -698,7 +663,6 @@ def main(argv: list[str] | None = None) -> int:
     else:
         print("validate_speaker_state_sets: OK", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

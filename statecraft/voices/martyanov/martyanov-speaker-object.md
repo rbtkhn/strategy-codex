@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Martyanov Speaker Object
 

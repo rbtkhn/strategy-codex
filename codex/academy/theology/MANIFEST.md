@@ -1,6 +1,5 @@
 # Academy Theology Manifest
 
-WORK only; not Record.
 
 This manifest lists the v1 curated copies in `codex/academy/theology/`. It exists for drift review and source re-entry. It is not an automatic sync contract.
 

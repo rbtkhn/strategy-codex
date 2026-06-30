@@ -1,6 +1,5 @@
 # Monthly Arc Lens Brief, YYYY-MM
 
-WORK only; not Record.
 
 ## Month / Coverage Window
 

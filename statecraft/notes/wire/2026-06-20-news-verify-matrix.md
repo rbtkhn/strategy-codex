@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-20/source-neutrality-studies-drone-escalation-russia-will-strike-nato-stanislav-krapivnik-2026-06-20.md
   - source-archive/statecraft/2026-06-20/source-neutrality-studies-collapse-global-recession-unavoidable-steve-jermy-2026-06-20.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — 2026-06-20
 

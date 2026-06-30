@@ -6,7 +6,6 @@ from openai import OpenAI
 
 from .base import InferenceProvider, InferenceResult
 
-
 class OpenAIProvider(InferenceProvider):
     """Cloud inference via the OpenAI API (GPT-4o, GPT-4o-mini, etc.)."""
 

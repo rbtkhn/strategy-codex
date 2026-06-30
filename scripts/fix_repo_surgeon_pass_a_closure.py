@@ -7,7 +7,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-
 def patch(path: str, old: str, new: str) -> bool:
     p = ROOT / path
     text = p.read_text(encoding="utf-8")
@@ -16,7 +15,6 @@ def patch(path: str, old: str, new: str) -> bool:
     p.write_text(text.replace(old, new), encoding="utf-8")
     return True
 
-
 def patch_all(path: str, old: str, new: str) -> int:
     p = ROOT / path
     text = p.read_text(encoding="utf-8")
@@ -24,7 +22,6 @@ def patch_all(path: str, old: str, new: str) -> int:
     if count:
         p.write_text(text.replace(old, new), encoding="utf-8")
     return count
-
 
 def main() -> None:
     changes: list[str] = []
@@ -307,7 +304,7 @@ def main() -> None:
     stub = ROOT / "statecraft/states/export-templates/sibling.md"
     if not stub.exists():
         stub.write_text(
-            "# Sibling term page (template stub)\n\nWORK only; not Record.\n",
+            "# Sibling term page (template stub)\n\n",
             encoding="utf-8",
         )
         changes.append("created statecraft/states/export-templates/sibling.md")
@@ -315,7 +312,6 @@ def main() -> None:
     print(f"Applied {len(changes)} change groups:")
     for line in changes:
         print(f"  - {line}")
-
 
 if __name__ == "__main__":
     main()

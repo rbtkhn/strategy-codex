@@ -22,10 +22,8 @@ from prediction_lib import (  # noqa: E402
     render_json,
 )
 
-
 def _load_registry(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def check_artifact(*, output_path: Path, registry_path: Path) -> int:
     if not output_path.is_file():
@@ -44,7 +42,6 @@ def check_artifact(*, output_path: Path, registry_path: Path) -> int:
         return 1
     print("[ok] prediction metrics artifact matches generator output")
     return 0
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -67,7 +64,6 @@ def main() -> int:
     args.output.write_text(render_json(payload), encoding="utf-8")
     print(f"[ok] wrote {args.output.relative_to(REPO_ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

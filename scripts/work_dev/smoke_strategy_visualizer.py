@@ -60,7 +60,6 @@ def _is_allowed_url(url: str) -> bool:
     )
     return m is not None
 
-
 def _scan_bad_urls(text: str) -> list[str]:
     bad: list[str] = []
     for m in re.finditer(r"https?://[^\s'\"<>)``]+", text, re.IGNORECASE):
@@ -70,7 +69,6 @@ def _scan_bad_urls(text: str) -> list[str]:
             if u not in bad:
                 bad.append(u)
     return bad
-
 
 def _check_size(path: Path) -> tuple[str, str, int, int, list[str]]:
     if not path.is_file():
@@ -94,7 +92,6 @@ def _check_size(path: Path) -> tuple[str, str, int, int, list[str]]:
         )
     return "pass", f"{line_count} lines, {len(data)} bytes", line_count, len(data), w
 
-
 def _app_markers(text: str) -> tuple[str, list[str]]:
     err: list[str] = []
     lo = text.lower()
@@ -114,7 +111,6 @@ def _app_markers(text: str) -> tuple[str, list[str]]:
         err.append("missing addEventListener")
     return ("fail" if err else "pass"), err
 
-
 def _boundary_markers(t_lo: str) -> tuple[str, list[str]]:
     err: list[str] = []
     for must in ("recordauthority", "gateeffect", "truthscope", "workbench"):
@@ -129,7 +125,6 @@ def _boundary_markers(t_lo: str) -> tuple[str, list[str]]:
         if not (("no gate" in t_lo and "effect" in t_lo) or "and no gate" in t_lo):
             err.append("missing no gate effect phrasing")
     return ("fail" if err else "pass"), err
-
 
 def _ui_affordances(t_lo: str) -> tuple[str, list[str]]:
     # Each: at least one marker must match.
@@ -151,7 +146,6 @@ def _ui_affordances(t_lo: str) -> tuple[str, list[str]]:
             err.append(f"UI affordance: {name}")
     return ("fail" if err else "pass"), err
 
-
 def _render_markers(t_lo: str) -> tuple[str, list[str]]:
     need = {
         "render": "render",
@@ -164,7 +158,6 @@ def _render_markers(t_lo: str) -> tuple[str, list[str]]:
     }
     err = [f"code marker: {k}" for k, s in need.items() if s not in t_lo]
     return ("fail" if err else "pass"), err
-
 
 def _binding_contract(text: str, t_lo: str) -> tuple[str, list[str]]:
     checks: list[tuple[str, str]] = [
@@ -181,7 +174,6 @@ def _binding_contract(text: str, t_lo: str) -> tuple[str, list[str]]:
     if "threadBinding" not in text:
         err.append("binding marker: threadBinding field access")
     return ("fail" if err else "pass"), err
-
 
 # Spec-forbidden substrings in HTML (lowercase)
 _FORBIDDEN_SUB = [
@@ -201,7 +193,6 @@ _FORBIDDEN_RE = re.compile(
     re.IGNORECASE,
 )
 
-
 def _dependency(text: str, t_lo: str) -> tuple[str, list[str]]:
     err: list[str] = []
     for b in _scan_bad_urls(text):
@@ -213,12 +204,10 @@ def _dependency(text: str, t_lo: str) -> tuple[str, list[str]]:
         err.append(f"forbidden dependency token: {m.group(0)}")
     return ("fail" if err else "pass"), err
 
-
 def _fixture(t_lo: str) -> tuple[str, list[str]]:
     if "strategy-notebook-visualizer.fixture.json" not in t_lo:
         return "fail", ["must reference strategy-notebook-visualizer.fixture.json"]
     return "pass", []
-
 
 def _fixture_binding_examples(path: Path) -> tuple[str, str, list[str]]:
     if not path.is_file():
@@ -246,7 +235,6 @@ def _fixture_binding_examples(path: Path) -> tuple[str, str, list[str]]:
         )
     detail = f"{bound_pages} bound page(s) across {total_pages} expert page(s)"
     return "pass", detail, warnings
-
 
 def run_checks(path: Path) -> dict[str, Any]:
     st, det, nlines, nbytes, w_sz = _check_size(path)
@@ -299,7 +287,6 @@ def run_checks(path: Path) -> dict[str, Any]:
     ) and r["file_size"].get("status") == "pass"
     return r
 
-
 def _resolve_html_path(arg: Path | None) -> Path:
     if arg is None:
         return (REPO_ROOT / DEFAULT_HTML).resolve()
@@ -307,7 +294,6 @@ def _resolve_html_path(arg: Path | None) -> Path:
     if p.is_absolute():
         return p.resolve()
     return (REPO_ROOT / p).resolve()
-
 
 def final_exit(
     r: dict[str, Any], strict: bool, all_w: list[str]
@@ -320,7 +306,6 @@ def final_exit(
     if strict and all_w:
         return 1
     return 0
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -382,7 +367,6 @@ def main() -> int:
             print("NOTE: use --strict to fail on warnings above.")
 
     return final_exit(r, args.strict, all_w)
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -63,7 +63,6 @@ VOICES_META_DIRS = frozenset({"_templates", "_scratch", "map", "relations"})
 # Retired host-only slugs — must not re-enter voice-index parity if a compat folder returns.
 HOST_ONLY_VOICE_SLUGS = frozenset({"lascaris"})
 
-
 @dataclass(frozen=True)
 class InventoryRow:
     day_folder: str
@@ -79,13 +78,11 @@ class InventoryRow:
     def sort_date(self) -> str:
         return self.pub_date or self.day_folder
 
-
 @dataclass
 class AuditFinding:
     level: Literal["pass", "fail", "warn"]
     code: str
     message: str
-
 
 @dataclass(frozen=True)
 class ChannelIndexRow:
@@ -99,7 +96,6 @@ class ChannelIndexRow:
     last_day: str
     explicit_slug: bool
 
-
 @dataclass(frozen=True)
 class WriterIndexRow:
     slug: str
@@ -111,7 +107,6 @@ class WriterIndexRow:
     first_day: str
     last_day: str
 
-
 @dataclass(frozen=True)
 class VoiceIndexRow:
     slug: str
@@ -120,7 +115,6 @@ class VoiceIndexRow:
     listed: bool
     profile: bool
     index_kind: str
-
 
 @dataclass(frozen=True)
 class ShelfCaptureRow:
@@ -132,16 +126,13 @@ class ShelfCaptureRow:
     def sort_date(self) -> str:
         return self.pub_date
 
-
 MD_LINK_PAIR = re.compile(r"\[([^\]]*)\]\(([^)]+)\)")
-
 
 def word_count_capture(path: Path) -> int:
     text = read_text(path)
     body = text.split("---", 2)[2] if text.startswith("---") else text
     transcript = extract_transcript(body)
     return len(re.findall(r"\b\w+\b", transcript))
-
 
 def section_count_capture(path: Path, meta: dict[str, Any]) -> int | None:
     curation = norm_scalar(meta.get("transcript_curation"))
@@ -152,7 +143,6 @@ def section_count_capture(path: Path, meta: dict[str, Any]) -> int | None:
     transcript = extract_transcript(body)
     count = len(re.findall(r"^### .+$", transcript, re.MULTILINE))
     return count if count else None
-
 
 def inventory_row_for_capture(path: Path, day_dir: Path) -> InventoryRow:
     meta = parse_frontmatter(path)
@@ -177,14 +167,12 @@ def inventory_row_for_capture(path: Path, day_dir: Path) -> InventoryRow:
         sections=section_count_capture(path, meta),
     )
 
-
 def collect_inventory_rows(day_dirs: list[Path]) -> list[InventoryRow]:
     rows: list[InventoryRow] = []
     for day_dir in day_dirs:
         for path in iter_source_files(day_dir):
             rows.append(inventory_row_for_capture(path, day_dir))
     return rows
-
 
 def sort_inventory_rows(rows: list[InventoryRow], sort_key: SortKey) -> list[InventoryRow]:
     if sort_key == "words":
@@ -195,7 +183,6 @@ def sort_inventory_rows(rows: list[InventoryRow], sort_key: SortKey) -> list[Inv
         return sorted(rows, key=lambda r: (r.bucket, r.sort_date(), r.filename))
     return sorted(rows, key=lambda r: (r.sort_date(), r.filename))
 
-
 def apply_table_limit(
     rows: list[InventoryRow],
     limit: int | None,
@@ -204,12 +191,10 @@ def apply_table_limit(
         return rows, 0
     return rows[:limit], len(rows) - limit
 
-
 def default_table_limit(scope: str) -> int | None:
     if scope in ("day", "channel-index", "writer-index", "voice-index", "shelf-index"):
         return None
     return DEFAULT_MONTH_YEAR_TABLE_LIMIT
-
 
 def capture_hygiene_warnings(path: Path, meta: dict[str, Any]) -> list[str]:
     warnings: list[str] = []
@@ -225,10 +210,8 @@ def capture_hygiene_warnings(path: Path, meta: dict[str, Any]) -> list[str]:
         warnings.append(f"{path.name}: YouTube capture missing source_url")
     return warnings
 
-
 def _channel_surface_status(path: Path, rendered: str) -> str:
     return nav._render_compare_status(path, rendered)
-
 
 def collect_channel_index_rows(root: Path, *, misc: bool = False) -> list[ChannelIndexRow]:
     watchlist_keys = load_daily_watchlist_keys()
@@ -258,7 +241,6 @@ def collect_channel_index_rows(root: Path, *, misc: bool = False) -> list[Channe
         )
     return rows
 
-
 def sort_channel_index_rows(rows: list[ChannelIndexRow], sort_key: ChannelSortKey) -> list[ChannelIndexRow]:
     if sort_key == "slug":
         return sorted(rows, key=lambda r: (r.slug, -r.files))
@@ -268,7 +250,6 @@ def sort_channel_index_rows(rows: list[ChannelIndexRow], sort_key: ChannelSortKe
         return sorted(rows, key=lambda r: (r.last_day, -r.files, r.slug))
     return sorted(rows, key=lambda r: (-r.files, r.slug))
 
-
 def map_channel_table_sort(sort_key: SortKey) -> ChannelSortKey:
     if sort_key == "title":
         return "label"
@@ -277,7 +258,6 @@ def map_channel_table_sort(sort_key: SortKey) -> ChannelSortKey:
     if sort_key == "date":
         return "files"
     return "files"
-
 
 def audit_channel_index(root: Path) -> list[AuditFinding]:
     findings: list[AuditFinding] = []
@@ -340,7 +320,6 @@ def audit_channel_index(root: Path) -> list[AuditFinding]:
 
     return findings
 
-
 def format_channel_index_table(
     scope_label: str,
     rows: list[ChannelIndexRow],
@@ -375,7 +354,6 @@ def format_channel_index_table(
     lines.append(f"rows shown: {len(rows)}")
     return "\n".join(lines)
 
-
 def run_fix_channel_index(root: Path) -> None:
     nav.write_rendered(CHANNEL_INDEX_DIR / "channel-index.md", nav.build_channel_index(root), check=False)
     nav.write_channel_index_json(CHANNEL_INDEX_DIR / "channel-index.json", root, check=False)
@@ -384,7 +362,6 @@ def run_fix_channel_index(root: Path) -> None:
         nav.build_channel_index_misc(root),
         check=False,
     )
-
 
 def collect_writer_index_rows(root: Path) -> list[WriterIndexRow]:
     rows: list[WriterIndexRow] = []
@@ -404,7 +381,6 @@ def collect_writer_index_rows(root: Path) -> list[WriterIndexRow]:
         )
     return rows
 
-
 def sort_writer_index_rows(rows: list[WriterIndexRow], sort_key: ChannelSortKey) -> list[WriterIndexRow]:
     if sort_key == "slug":
         return sorted(rows, key=lambda r: (r.slug, -r.files))
@@ -413,7 +389,6 @@ def sort_writer_index_rows(rows: list[WriterIndexRow], sort_key: ChannelSortKey)
     if sort_key == "last_day":
         return sorted(rows, key=lambda r: (r.last_day, -r.files, r.slug))
     return sorted(rows, key=lambda r: (-r.files, r.slug))
-
 
 def audit_writer_index(root: Path) -> list[AuditFinding]:
     findings: list[AuditFinding] = []
@@ -465,7 +440,6 @@ def audit_writer_index(root: Path) -> list[AuditFinding]:
 
     return findings
 
-
 def format_writer_index_table(
     scope_label: str,
     rows: list[WriterIndexRow],
@@ -498,22 +472,18 @@ def format_writer_index_table(
     lines.append(f"rows shown: {len(rows)}")
     return "\n".join(lines)
 
-
 def run_fix_writer_index(root: Path) -> None:
     nav.write_rendered(root / "writer-index.md", writer_idx.build_writer_index(root), check=False)
     nav.write_writer_index_json(root / "writer-index.json", root, check=False)
 
-
 def _voice_index_lists_path(rel_posix: str, index_text: str, basename: str) -> bool:
     return routing_val._index_lists_source_index(rel_posix, index_text, basename)
-
 
 def _posix_rel(path: Path) -> str:
     try:
         return path.relative_to(REPO_ROOT).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def discover_voice_primary_indexes(voices_dir: Path | None = None) -> list[tuple[str, Path, str]]:
     base = voices_dir or VOICES_DIR
@@ -532,7 +502,6 @@ def discover_voice_primary_indexes(voices_dir: Path | None = None) -> list[tuple
         if legacy.is_file():
             rows.append((slug, legacy, "legacy-source"))
     return rows
-
 
 def collect_voice_index_rows(voices_dir: Path | None = None) -> list[VoiceIndexRow]:
     index_path = (voices_dir or VOICES_DIR) / "voice-index.md"
@@ -554,7 +523,6 @@ def collect_voice_index_rows(voices_dir: Path | None = None) -> list[VoiceIndexR
         )
     return rows
 
-
 def sort_voice_index_rows(rows: list[VoiceIndexRow], sort_key: ChannelSortKey) -> list[VoiceIndexRow]:
     if sort_key == "label":
         return sorted(rows, key=lambda r: (r.label.casefold(), r.slug))
@@ -563,7 +531,6 @@ def sort_voice_index_rows(rows: list[VoiceIndexRow], sort_key: ChannelSortKey) -
     if sort_key == "last_day":
         return sorted(rows, key=lambda r: (not r.listed, r.slug))
     return sorted(rows, key=lambda r: (not r.listed, r.slug))
-
 
 def audit_voice_index(voices_dir: Path | None = None) -> list[AuditFinding]:
     findings: list[AuditFinding] = []
@@ -642,7 +609,6 @@ def audit_voice_index(voices_dir: Path | None = None) -> list[AuditFinding]:
 
     return findings
 
-
 def format_voice_index_table(
     scope_label: str,
     rows: list[VoiceIndexRow],
@@ -673,11 +639,9 @@ def format_voice_index_table(
     lines.append(f"rows shown: {len(rows)}")
     return "\n".join(lines)
 
-
 def shelf_index_path(slug: str, voices_dir: Path | None = None) -> Path:
     base = voices_dir or VOICES_DIR
     return base / slug / f"{slug}-index.md"
-
 
 def parse_shelf_index_links(index_path: Path) -> list[tuple[str, str, Path | None]]:
     text = read_text(index_path)
@@ -702,7 +666,6 @@ def parse_shelf_index_links(index_path: Path) -> list[tuple[str, str, Path | Non
             rows.append((title, rel, dest if dest.is_file() else None))
     return rows
 
-
 def iter_archive_captures_for_shelf(slug: str, root: Path) -> list[Path]:
     if not root.is_dir():
         return []
@@ -714,7 +677,6 @@ def iter_archive_captures_for_shelf(slug: str, root: Path) -> list[Path]:
             if shelf_utils.capture_matches_shelf(slug, path, meta, body_snip):
                 paths.append(path)
     return sorted(paths, key=lambda p: (p.parent.name, p.name))
-
 
 def collect_shelf_capture_rows(
     slug: str,
@@ -741,14 +703,12 @@ def collect_shelf_capture_rows(
         )
     return rows
 
-
 def sort_shelf_capture_rows(rows: list[ShelfCaptureRow], sort_key: SortKey) -> list[ShelfCaptureRow]:
     if sort_key == "title":
         return sorted(rows, key=lambda r: (r.title.casefold(), r.pub_date))
     if sort_key == "words":
         return sorted(rows, key=lambda r: (not r.on_disk, r.pub_date, r.title))
     return sorted(rows, key=lambda r: (r.pub_date, r.title))
-
 
 def audit_shelf_index(
     slug: str,
@@ -858,7 +818,6 @@ def audit_shelf_index(
 
     return findings
 
-
 def format_shelf_capture_table(
     scope_label: str,
     rows: list[ShelfCaptureRow],
@@ -889,7 +848,6 @@ def format_shelf_capture_table(
     lines.append("")
     lines.append(f"rows shown: {len(rows)}")
     return "\n".join(lines)
-
 
 def audit_day_dir(day_dir: Path) -> list[AuditFinding]:
     findings: list[AuditFinding] = []
@@ -956,7 +914,6 @@ def audit_day_dir(day_dir: Path) -> list[AuditFinding]:
 
     return findings
 
-
 def audit_global(root: Path) -> list[AuditFinding]:
     findings: list[AuditFinding] = []
     import io
@@ -981,7 +938,6 @@ def audit_global(root: Path) -> list[AuditFinding]:
         )
     return findings
 
-
 def format_findings(scope_label: str, findings: list[AuditFinding]) -> str:
     lines = [f"## Index audit — {scope_label}", ""]
     for level in ("pass", "fail", "warn"):
@@ -995,7 +951,6 @@ def format_findings(scope_label: str, findings: list[AuditFinding]) -> str:
     lines.append("")
     lines.append(f"exit {'1' if fails else '0'}")
     return "\n".join(lines)
-
 
 def format_inventory_table(
     scope_label: str,
@@ -1030,7 +985,6 @@ def format_inventory_table(
     lines.append(f"rows shown: {len(rows)}")
     return "\n".join(lines)
 
-
 def resolve_day_dirs(root: Path, args: argparse.Namespace) -> tuple[list[Path], str]:
     if args.day:
         day_dir = root / args.day
@@ -1042,7 +996,6 @@ def resolve_day_dirs(root: Path, args: argparse.Namespace) -> tuple[list[Path], 
         day_dirs = iter_day_dirs(root, args.year)
         return day_dirs, args.year
     return [], ""
-
 
 def resolve_scope_name(args: argparse.Namespace) -> str:
     if args.global_audit:
@@ -1065,7 +1018,6 @@ def resolve_scope_name(args: argparse.Namespace) -> str:
         return "year"
     return ""
 
-
 def run_fix(root: Path, args: argparse.Namespace, day_dirs: list[Path]) -> None:
     if args.channel_index:
         run_fix_channel_index(root)
@@ -1081,7 +1033,6 @@ def run_fix(root: Path, args: argparse.Namespace, day_dirs: list[Path]) -> None:
     for day_dir in day_dirs:
         if day_dir.is_dir():
             day_idx.write_day_index(day_dir, check=False)
-
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -1140,7 +1091,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--fix", action="store_true", help="Rebuild stale day-index / global navigation.")
     parser.add_argument("--json", action="store_true", help="JSON receipt.")
     return parser.parse_args(argv)
-
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
@@ -1359,7 +1309,6 @@ def main(argv: list[str] | None = None) -> int:
         parts.append(format_inventory_table(inv_label, table_rows, truncated=truncated, sort_key=args.table_sort))
     print("\n\n".join(p for p in parts if p))
     return exit_code
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

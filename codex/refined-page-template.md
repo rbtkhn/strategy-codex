@@ -1,7 +1,6 @@
 # Codex-page template (redirect from refined page)
 <!-- word_count: stub -->
 
-WORK only; not Record.
 
 This file is a compatibility redirect.
 

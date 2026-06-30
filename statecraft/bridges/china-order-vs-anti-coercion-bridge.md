@@ -1,6 +1,5 @@
 # China Order-Vs-Anti-Coercion Bridge
 
-WORK only; not Record.
 
 Purpose: regulate the transition inside the China lane when the real uncertainty is still whether the object should be read stabilization-first or leverage-architecture-first.
 

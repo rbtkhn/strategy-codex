@@ -13,7 +13,6 @@ archive_links:
   - source-archive/statecraft/2026-03-24/source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md
   - source-archive/statecraft/2026-03-24/source-pape-the-gamblers-conceit-in-war-2026-03-24.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — 2026-03-24
 

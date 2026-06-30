@@ -13,7 +13,6 @@ archive_links:
   - source-archive/statecraft/2026-03-03/source-dialogue-works-mohammad-marandi-tehran-under-fire-israel-faces-obliteration-2026-03-03.md
   - source-archive/statecraft/2026-03-03/source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — 2026-03-03
 

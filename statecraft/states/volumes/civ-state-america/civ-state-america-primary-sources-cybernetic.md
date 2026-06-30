@@ -1,5 +1,4 @@
 # America Primary Sources - Cybernetic (25 total)
-WORK only; not Record.
 This file contains the Cybernetic (25 total) primary-source shelf for the America CIV-STATE volume after the 1991 industrial endpoint.
 ## Primary Sources
 ### Cybernetic (25 total)

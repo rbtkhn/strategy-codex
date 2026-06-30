@@ -34,11 +34,9 @@ ALLOWED_RESIDUALS = [
 
 MIN_LITERAL_LEN = 4
 
-
 def slugify(text: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
     return slug[:56] or "pattern"
-
 
 def build_entries(pairs: list[tuple[str, str]]) -> list[dict[str, str]]:
     entries: list[dict[str, str]] = []
@@ -56,7 +54,6 @@ def build_entries(pairs: list[tuple[str, str]]) -> list[dict[str, str]]:
         entries.append({"id": entry_id, "literal": old, "replacement": new})
     return entries
 
-
 def main() -> None:
     payload = {
         "version": "2026-06-10",
@@ -72,7 +69,6 @@ def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"wrote {OUT.relative_to(REPO_ROOT)} ({len(payload['entries'])} entries)")
-
 
 if __name__ == "__main__":
     main()

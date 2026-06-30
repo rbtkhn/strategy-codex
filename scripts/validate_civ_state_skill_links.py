@@ -11,7 +11,6 @@ _REPO = Path(__file__).resolve().parent.parent
 _APPENDIX = _REPO / ".cursor" / "skills" / "civ-state" / "CURSOR_APPENDIX.md"
 _PUBLIC = _REPO / "public" / "civ-state"
 
-
 def _extract_public_links(text: str) -> list[str]:
     pattern = re.compile(r"\]\(([^)]+)\)")
     links: list[str] = []
@@ -23,7 +22,6 @@ def _extract_public_links(text: str) -> list[str]:
             continue
         links.append(clean.replace("\\", "/"))
     return links
-
 
 def main() -> int:
     if not _APPENDIX.is_file():
@@ -47,7 +45,6 @@ def main() -> int:
         return 1
     print("validate_civ_state_skill_links: OK")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

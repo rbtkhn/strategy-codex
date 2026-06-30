@@ -30,7 +30,6 @@ from repo_io import DEFAULT_PROFILE_ID, profile_dir
 
 DEFAULT_USER_ID = DEFAULT_PROFILE_ID
 
-
 def load_latest(user_id: str) -> dict[str, dict[str, Any]]:
     """Load the latest snapshot per seed_id (last-write-wins in JSONL)."""
     path = profile_dir(user_id) / "seed-registry.jsonl"
@@ -49,7 +48,6 @@ def load_latest(user_id: str) -> dict[str, dict[str, Any]]:
         except json.JSONDecodeError:
             continue
     return latest
-
 
 def _filter(
     claims: dict[str, dict[str, Any]],
@@ -70,13 +68,11 @@ def _filter(
         result = [c for c in result if c.get("promotion_readiness", 0) >= readiness_threshold]
     return sorted(result, key=lambda c: c.get("promotion_readiness", 0), reverse=True)
 
-
 def _group_by(claims: list[dict[str, Any]], key: str) -> dict[str, list[dict[str, Any]]]:
     groups: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for c in claims:
         groups[c.get(key) or "(none)"].append(c)
     return dict(groups)
-
 
 def _format_claim(c: dict[str, Any]) -> str:
     ctrds = f"  ctrds={c.get('contradiction_count', 0)}" if c.get("contradiction_count") else ""
@@ -87,7 +83,6 @@ def _format_claim(c: dict[str, Any]) -> str:
         f"  {'':20} {c['claim_text'][:70]}\n"
         f"  {'':20} cat={c['category']}  sens={c.get('sensitivity', 'standard')}"
     )
-
 
 def _format_summary(claims: list[dict[str, Any]], label: str = "") -> str:
     lines: list[str] = []
@@ -102,7 +97,6 @@ def _format_summary(claims: list[dict[str, Any]], label: str = "") -> str:
         lines.append("")
     return "\n".join(lines)
 
-
 def _format_grouped(groups: dict[str, list[dict[str, Any]]], key: str) -> str:
     lines: list[str] = []
     lines.append(f"  Grouped by: {key}")
@@ -116,7 +110,6 @@ def _format_grouped(groups: dict[str, list[dict[str, Any]]], key: str) -> str:
                          f"ready={c['promotion_readiness']:.2f}  "
                          f"{c['claim_text'][:50]}")
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Summarize the seed registry.")
@@ -174,7 +167,6 @@ def main() -> int:
         print(_format_summary(filtered, " | ".join(label_parts)))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

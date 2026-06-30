@@ -1,6 +1,5 @@
 # Current Machine Map - 2026-06-01
 
-work only; not Record.
 
 This is a human-readable map of the current `strategy-codex` machine.
 

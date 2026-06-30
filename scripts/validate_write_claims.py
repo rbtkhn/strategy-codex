@@ -21,7 +21,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CLAIMS = REPO_ROOT / "runtime/artifacts/skill-write/write-claims.json"
 SCHEMA_PATH = REPO_ROOT / "schemas/skill_write/write_claims.schema.json"
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--claims", type=Path, default=DEFAULT_CLAIMS)
@@ -90,7 +89,6 @@ def main() -> int:
         print(f"warn: {w}", file=sys.stderr)
     print(f"ok: {args.claims} ({len(data.get('claims', []))} claims)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -25,7 +25,6 @@ from seed_phase_artifacts import SCHEMA_BY_FILE
 # Inputs (all strict seed JSON except the constitution output itself).
 SCAFFOLD_FILES = [k for k in SCHEMA_BY_FILE if k != "seed_constitution.json"]
 
-
 def _load_seed_dir(seed_dir: Path) -> dict[str, dict]:
     out: dict[str, dict] = {}
     for name in SCAFFOLD_FILES:
@@ -35,11 +34,9 @@ def _load_seed_dir(seed_dir: Path) -> dict[str, dict]:
         out[name] = json.loads(p.read_text(encoding="utf-8"))
     return out
 
-
 def _source_scaffolds(data: dict[str, dict]) -> dict[str, str]:
     keys = [k.replace(".json", "") for k in SCAFFOLD_FILES]
     return {k: "referenced" for k in keys}
-
 
 def _build_principles(data: dict[str, dict]) -> list[dict]:
     intent = data.get("seed_intent.json") or {}
@@ -90,7 +87,6 @@ def _build_principles(data: dict[str, dict]) -> list[dict]:
         )
     return principles
 
-
 def synthesize_constitution(seed_dir: Path) -> dict:
     data = _load_seed_dir(seed_dir)
     manifest = data["seed-phase-manifest.json"]
@@ -124,7 +120,6 @@ def synthesize_constitution(seed_dir: Path) -> dict:
         "source_scaffolds": _source_scaffolds(data),
     }
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Generate seed_constitution.json from seed-phase directory")
     ap.add_argument("directory", type=Path, help="e.g. demo/seed-phase")
@@ -146,7 +141,6 @@ def main() -> int:
         display = out
     print(f"Wrote {display}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

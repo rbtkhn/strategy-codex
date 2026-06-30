@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Regional security architecture and post-primacy settlement
 

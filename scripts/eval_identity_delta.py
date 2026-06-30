@@ -30,16 +30,13 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 
-
 def _metrics_dir(user_id: str) -> Path:
     d = REPO_ROOT / "platform/users" / user_id / "metrics"
     d.mkdir(parents=True, exist_ok=True)
     return d
 
-
 def _baseline_path(user_id: str, suite: str) -> Path:
     return _metrics_dir(user_id) / f"{suite}-baseline.json"
-
 
 def _run_suite(script_name: str, output_path: Path) -> dict | None:
     """Run a benchmark script with -o and return parsed JSON, or None on error."""
@@ -63,7 +60,6 @@ def _run_suite(script_name: str, output_path: Path) -> dict | None:
     except json.JSONDecodeError as e:
         print(f"  WARNING: could not parse {output_path}: {e}")
         return None
-
 
 def _compute_delta(current: dict, baseline: dict, suite: str) -> dict:
     """Compute per-dimension deltas between current and baseline results."""
@@ -136,7 +132,6 @@ def _compute_delta(current: dict, baseline: dict, suite: str) -> dict:
             delta["category_deltas"] = cat_deltas
 
     return delta
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Identity Delta Evaluator")
@@ -238,7 +233,6 @@ def main() -> None:
 
     if has_failures:
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()

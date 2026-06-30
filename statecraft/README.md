@@ -1,6 +1,6 @@
 # Statecraft
 
-work only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This is the front-door orientation module for repo-root `statecraft/`.
 

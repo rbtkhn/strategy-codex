@@ -6,9 +6,8 @@ date_made: 2025-02-15
 stance: yes
 confidence: medium
 source: source-archive/statecraft/2025-02-15/example.md
+status: pending
 ---
-
-WORK only; not Record.
 
 # Ritter — Odessa administrative control (2025-02-15)
 

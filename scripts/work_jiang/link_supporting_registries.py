@@ -24,7 +24,6 @@ from registry_db import (
     load_predictions_for_link,
 )
 
-
 def load_jsonl(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -36,13 +35,11 @@ def load_jsonl(path: Path) -> list[dict]:
                 rows.append(json.loads(line))
     return rows
 
-
 def load_yaml(path: Path) -> dict:
     if not path.exists():
         return {}
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def source_indexes():
     sources = load_yaml(WORK_DIR / "metadata" / "sources.yaml").get("sources", [])
@@ -60,7 +57,6 @@ def source_indexes():
             source_to_chapters.setdefault(sid, []).append(ch)
     return by_video, by_lecture, source_to_chapters
 
-
 def resolve_source(row: dict, by_video: dict, by_lecture: dict):
     vid = row.get("video_id")
     if vid and vid in by_video:
@@ -73,7 +69,6 @@ def resolve_source(row: dict, by_video: dict, by_lecture: dict):
     if base in by_lecture:
         return by_lecture[base]["source_id"]
     return None
-
 
 def main() -> int:
     by_video, by_lecture, source_to_chapters = source_indexes()
@@ -150,7 +145,6 @@ def main() -> int:
         f"influence-links ({len(out_inf)}), pattern-links ({len(out_pat)})"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

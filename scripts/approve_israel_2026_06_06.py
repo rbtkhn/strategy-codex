@@ -37,9 +37,8 @@ stance: yes
 confidence: high
 source: {CANONICAL_SOURCE}
 speech_act: iterated
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — Israel self-destruction (2026-06-06)
 
@@ -51,7 +50,6 @@ WORK only; not Record.
 
 Alias capture (same episode `HuhJinByAEg`): `{ALIAS_SOURCE}` — Dialogue Works mis-file; canonical host capture is Diesen source above.
 """
-
 
 def main() -> int:
     payload = json.loads(MANIFEST.read_text(encoding="utf-8"))
@@ -82,7 +80,6 @@ def main() -> int:
     MANIFEST.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"[ok] approved 2 manifest rows; wrote {NOTE_REL}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

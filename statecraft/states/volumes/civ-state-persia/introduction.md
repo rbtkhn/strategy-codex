@@ -1,6 +1,5 @@
 # Order of Asha
 
-WORK only; not Record.
 
 Persia is **Volume II** of *Civilizational Statecraft*: the Cyrus-founded sovereignty chain whose political opening rests on deeper Zoroastrian and Persianate grammar beneath later Islamic and Shi'a carriers. Cyrus opens the durable political chain; Zoroaster names the moral architecture beneath kingship. Safavid reconstitution and the Islamic Republic present themselves as restorers or protectors of Persian sovereignty rather than founders of an entirely new civilizational order.
 

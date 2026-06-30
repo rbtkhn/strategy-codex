@@ -22,10 +22,8 @@ from check_lane_scope import (  # noqa: E402
     path_matches_glob,
 )
 
-
 def _norm(p: str) -> str:
     return p.replace("\\", "/").lstrip("./")
-
 
 def lanes_matching_path(path: str, lanes_doc: dict) -> list[str]:
     path = _norm(path)
@@ -38,7 +36,6 @@ def lanes_matching_path(path: str, lanes_doc: dict) -> list[str]:
     if len(hits) > 1 and "companion-record" in hits:
         hits = [h for h in hits if h != "companion-record"]
     return hits
-
 
 def infer_dominant(files: list[str], lanes_doc: dict) -> str:
     if not files:
@@ -62,7 +59,6 @@ def infer_dominant(files: list[str], lanes_doc: dict) -> str:
         return first
     return "mixed"
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Infer lane from paths.")
     ap.add_argument("paths", nargs="*", help="Repo-relative paths")
@@ -76,7 +72,6 @@ def main() -> int:
     doc = load_lanes(args.lanes_yaml)
     print(infer_dominant(paths, doc))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

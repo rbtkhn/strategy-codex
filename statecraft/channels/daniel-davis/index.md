@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Daniel Davis Index
 

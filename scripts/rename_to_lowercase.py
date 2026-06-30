@@ -12,7 +12,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 EXCLUDE_PREFIXES = (".git/", "repos/")
 SKIP_NAMES = (".ds_store",)  # skip untracked / ignore list
 
-
 def git_tracked_files():
     out = subprocess.run(
         ["git", "ls-files"],
@@ -22,7 +21,6 @@ def git_tracked_files():
         check=True,
     )
     return set(out.stdout.strip().splitlines())
-
 
 def main():
     tracked = git_tracked_files()
@@ -89,7 +87,6 @@ def main():
 
     print("All renames done.")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

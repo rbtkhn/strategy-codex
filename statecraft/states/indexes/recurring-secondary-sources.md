@@ -1,6 +1,5 @@
 # Recurring Secondary Sources
 
-WORK only; not Record.
 
 Use this surface when a secondary work keeps reappearing across CIV-STATE and the operator needs a governed note rather than repeated ad hoc explanation.
 

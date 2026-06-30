@@ -1,6 +1,5 @@
 # arc-weichert-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [weichert-arc.md](weichert-arc.md)
 

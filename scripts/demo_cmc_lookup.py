@@ -25,7 +25,6 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO))
 
-
 def main():
     from bot.lookup_cmc import query_cmc, _get_cmc_path, should_route_to_cmc
 
@@ -70,7 +69,6 @@ def main():
         print("  LIBRARY (books) → miss")
         print("  CMC (civilizational history) → query → snippets")
         print("  REPHRASE → Grace-Mar voice → reply")
-
 
 if __name__ == "__main__":
     main()

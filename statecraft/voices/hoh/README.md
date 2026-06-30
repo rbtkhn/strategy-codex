@@ -1,6 +1,6 @@
 # Hoh Speaker Starter
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This is a compact starter surface for Matthew Hoh inside the statecraft bench.
 

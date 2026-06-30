@@ -1,6 +1,5 @@
 # Crooke cross-year note
 
-WORK only; not Record.
 
 Purpose: preserve the fact that the Crooke speaker-helix is a single cross-host object while clarifying that its full triple structure is already materially mature in 2025.
 

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Bombing Is Not Political Success
 

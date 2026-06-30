@@ -20,7 +20,6 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONFIG = REPO_ROOT / "platform/config" / "fork-language-audit.v1.json"
 
-
 def _configure_stdout() -> None:
     for stream in (sys.stdout, sys.stderr):
         reconfigure = getattr(stream, "reconfigure", None)
@@ -30,10 +29,8 @@ def _configure_stdout() -> None:
             except Exception:
                 pass
 
-
 def _load_config(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def _should_skip(rel_posix: str, cfg: dict[str, Any]) -> bool:
     for prefix in cfg.get("skip_path_prefixes", []):
@@ -43,7 +40,6 @@ def _should_skip(rel_posix: str, cfg: dict[str, Any]) -> bool:
     if rel_posix in exact:
         return True
     return False
-
 
 def _iter_files(repo_root: Path, cfg: dict[str, Any]) -> list[Path]:
     out: set[Path] = set()
@@ -57,7 +53,6 @@ def _iter_files(repo_root: Path, cfg: dict[str, Any]) -> list[Path]:
             out.add(path.resolve())
     return sorted(out)
 
-
 def _compile_rules(cfg: dict[str, Any]) -> list[dict[str, Any]]:
     compiled: list[dict[str, Any]] = []
     for rule in cfg.get("rules", []):
@@ -69,14 +64,12 @@ def _compile_rules(cfg: dict[str, Any]) -> list[dict[str, Any]]:
         )
     return compiled
 
-
 def _context_suppressed(lines: list[str], line_index: int, suppress_re: re.Pattern[str] | None) -> bool:
     if not suppress_re:
         return False
     start = max(0, line_index - 8)
     window = "\n".join(lines[start : line_index + 1])
     return bool(suppress_re.search(window))
-
 
 def audit_repo(repo_root: Path, config_path: Path) -> dict[str, Any]:
     cfg = _load_config(config_path)
@@ -133,7 +126,6 @@ def audit_repo(repo_root: Path, config_path: Path) -> dict[str, Any]:
         "findings": findings,
     }
 
-
 def _render_text(report: dict[str, Any], *, errors_only: bool) -> str:
     if report["ok"]:
         return "ok: fork-language audit found no operator-routing drift"
@@ -153,7 +145,6 @@ def _render_text(report: dict[str, Any], *, errors_only: bool) -> str:
         if item.get("excerpt"):
             lines.append(f"  > {item['excerpt']}")
     return "\n".join(lines)
-
 
 def main() -> int:
     _configure_stdout()
@@ -189,7 +180,6 @@ def main() -> int:
     if args.strict:
         return 1
     return 1 if report["errorCount"] else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

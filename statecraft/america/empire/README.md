@@ -1,6 +1,6 @@
 # America Empire
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: name America's outward striving for security and control so statecraft can regulate it instead of pretending the drive does not exist.
 

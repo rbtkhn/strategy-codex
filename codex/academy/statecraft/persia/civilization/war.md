@@ -1,6 +1,5 @@
 # Iran War
 
-WORK only; not Record.
 
 ## Purpose
 

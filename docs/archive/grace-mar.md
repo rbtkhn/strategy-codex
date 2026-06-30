@@ -10,6 +10,8 @@ record_status: fork_revive_only
 
 **Operational boundary (short):** [`../grace-mar-instance-boundary.md`](../grace-mar-instance-boundary.md) · **CLI compatibility:** [`grace-mar-compatibility.md`](grace-mar-compatibility.md)
 
+> Archive surfaces are immutable historical records. All other surfaces are subject to change.
+
 ---
 
 ## What Grace-Mar was

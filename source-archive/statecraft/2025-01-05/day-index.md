@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (3), `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `CLOSE` (1), `Deceit Uncovered` (1), `Mohammad Marandi` (1), `Putin Holds All the Cards in Ending Ukraine War` (1), `Scott Ritter` (1)
-- Threads: `davis` (3), `alkorshid` (1), `marandi` (1), `mercouris` (1), `ritter` (1)
+- Threads: `davis` (3), `alkhorshid` (1), `marandi` (1), `mercouris` (1), `ritter` (1)
 
 ## Channel sources
 
@@ -36,7 +36,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=TWaR9AVkVzw) | `source-daniel-davis-close-up-view-moment-of-the-las-vegas-cybertruck-explosion-2025-01-05.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=-46i-jba34o) | `source-daniel-davis-deceit-uncovered-fbi-s-story-on-las-vegas-bomber-falls-apart-2025-01-05.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=aD27i9K8k98) | `source-daniel-davis-putin-holds-all-the-cards-in-ending-ukraine-war-2025-01-05.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `marandi`, `ritter` | [watch](https://www.youtube.com/watch?v=zpXOdy0guJM) | `source-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `marandi`, `ritter` | [watch](https://www.youtube.com/watch?v=zpXOdy0guJM) | `source-dialogue-works-israel-s-worst-nightmare-coming-prof-mohammad-marandi-scott-ritter-2025-01-05.md` |
 
 ## Writer sources
 

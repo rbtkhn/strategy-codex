@@ -1,6 +1,5 @@
 # Napolitano transcript
 
-WORK only; not Record.
 
 Purpose: compact transcript routing surface for the November 2025-May 2026 `Judging Freedom` tranche. Raw-input remains the source of truth; this file is the quick-open layer.
 

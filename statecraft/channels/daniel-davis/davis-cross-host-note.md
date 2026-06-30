@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Cross-Host Note (compat redirect)
 

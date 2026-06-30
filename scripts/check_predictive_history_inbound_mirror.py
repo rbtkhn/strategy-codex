@@ -16,7 +16,6 @@ ALLOWLIST = {
     f"{MIRROR_PREFIX}DO-NOT-EDIT.md",
 }
 
-
 def git_output(args: list[str]) -> str:
     proc = subprocess.run(
         ["git", *args],
@@ -31,7 +30,6 @@ def git_output(args: list[str]) -> str:
         raise RuntimeError(f"git {' '.join(args)} failed: {detail}")
     return proc.stdout.strip()
 
-
 def changed_mirror_files(base: str) -> list[str]:
     out = git_output(["diff", "--name-only", f"{base}...HEAD"])
     if not out:
@@ -42,10 +40,8 @@ def changed_mirror_files(base: str) -> list[str]:
         if line.replace("\\", "/").startswith(MIRROR_PREFIX)
     ]
 
-
 def commit_messages(base: str) -> str:
     return git_output(["log", "--format=%B", f"{base}..HEAD"])
-
 
 def check(base: str) -> tuple[bool, list[str]]:
     changed = changed_mirror_files(base)
@@ -61,7 +57,6 @@ def check(base: str) -> tuple[bool, list[str]]:
         return True, []
 
     return False, disallowed
-
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -113,7 +108,6 @@ def main(argv: list[str] | None = None) -> int:
         file=sys.stderr,
     )
     return 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

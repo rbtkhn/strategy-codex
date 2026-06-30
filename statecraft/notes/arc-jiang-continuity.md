@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2026-05-12/source-game-theory-24-the-ai-apocalypse-2026-05-12.md
 ---
 
-WORK only; not Record.
 
 Open alongside:
 

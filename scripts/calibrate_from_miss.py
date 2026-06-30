@@ -22,14 +22,12 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USER_ID = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
 
-
 def _next_candidate_id(gate_path: Path) -> str:
     if not gate_path.exists():
         return "CANDIDATE-0001"
     content = gate_path.read_text(encoding="utf-8")
     ids = [int(m) for m in re.findall(r"CANDIDATE-(\d+)", content)]
     return f"CANDIDATE-{max(ids) + 1:04d}" if ids else "CANDIDATE-0001"
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -122,7 +120,6 @@ prompt_addition: |
 
     print(f"Staged {candidate_id}. Review in recursion-gate.md, approve or reject, then say 'approve'.")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

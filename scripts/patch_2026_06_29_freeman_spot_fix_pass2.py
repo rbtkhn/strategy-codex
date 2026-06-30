@@ -65,7 +65,6 @@ PASS2 = (
     "MAGA, rein/cede, colossus strode, contempt of court, Crete sign-off, residual dupes"
 )
 
-
 def main() -> int:
     p = REPO / PATH
     body = p.read_text(encoding="utf-8")
@@ -91,7 +90,6 @@ def main() -> int:
     p.write_text(body, encoding="utf-8")
     print(f"{PATH}: {n} replacements (pass-2)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

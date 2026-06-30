@@ -4,8 +4,6 @@
 with :func:`strategy_expert_transcript.canonical_transcript_header` (matches triage output
 for new files). Body below ``TRIAGE_MARKER`` is unchanged.
 
-WORK only; not Record.
-
 Usage::
 
     python3 scripts/refresh_strategy_expert_transcript_headers.py
@@ -26,7 +24,6 @@ from strategy_expert_transcript import TRIAGE_MARKER, canonical_transcript_heade
 
 NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 RE_TRANSCRIPT = re.compile(r"^strategy-expert-(.+)-transcript\.md$")
-
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
@@ -62,7 +59,6 @@ def main() -> int:
         updated += 1
     print(f"Done. {'Would update' if args.dry_run else 'Updated'} {updated} file(s).", flush=True)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

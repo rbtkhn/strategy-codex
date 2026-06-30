@@ -124,7 +124,6 @@ DOC_GLOBS = [
     "docs/*.md",
 ]
 
-
 def patch_data_py() -> None:
     text = DATA.read_text(encoding="utf-8")
     text = re.sub(
@@ -134,7 +133,6 @@ def patch_data_py() -> None:
         flags=re.MULTILINE | re.DOTALL,
     )
     DATA.write_text(text, encoding="utf-8")
-
 
 def patch_cli_validate_markers() -> None:
     text = CLI.read_text(encoding="utf-8")
@@ -147,7 +145,6 @@ def patch_cli_validate_markers() -> None:
         '            "two-volume public artifact",\n',
     )
     CLI.write_text(text, encoding="utf-8")
-
 
 def update_docs() -> int:
     count = 0
@@ -166,14 +163,12 @@ def update_docs() -> int:
             count += 1
     return count
 
-
 def main() -> int:
     patch_data_py()
     patch_cli_validate_markers()
     updated = update_docs()
     print(f"Updated {updated} doc files; patched data.py and cli validate markers")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

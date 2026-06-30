@@ -34,7 +34,6 @@ from grace_mar.merge.impact_preview import (
 )
 from recursion_gate_review import filter_review_candidates, parse_review_candidates
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(
         description=__doc__,
@@ -76,7 +75,6 @@ def main() -> int:
             print()
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

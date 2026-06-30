@@ -30,7 +30,6 @@ if str(_WJ) not in sys.path:
 
 from normalize_lecture_transcript_asr import FULL_TRANSCRIPT_HEADING, split_full_transcript  # noqa: E402
 
-
 def _read_body(args: argparse.Namespace) -> str:
     if args.file:
         chunks: list[str] = []
@@ -41,7 +40,6 @@ def _read_body(args: argparse.Namespace) -> str:
         return sys.stdin.read().strip()
     print("Provide transcript text on stdin or use --file", file=sys.stderr)
     raise SystemExit(1)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -107,7 +105,6 @@ def main() -> int:
             check=True,
         )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-05-20/source-mcgovern-dialogue-works-ukraine-to-hit-russia-from-latvia-territory-israel-strikes-aid-flotilla-again-2026-05-20.md
 ---
 
-WORK only; not Record.
 
 # McGovern Arc
 

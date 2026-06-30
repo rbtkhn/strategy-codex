@@ -1,6 +1,5 @@
 # Cross-Shelf Bridge
 
-WORK only; not Record.
 
 This bridge records what academy-theology and academy-military teach each other.
 

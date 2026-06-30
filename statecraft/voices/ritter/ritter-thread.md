@@ -1,7 +1,6 @@
 # Expert thread ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â `ritter`
 <!-- word_count: 12241 -->
 
-WORK only; not Record.
 
 Compatibility note: this file is legacy continuity residue. It is safe for carryover context, but unsafe as a first-open citation surface when the canonical Ritter stack already routes through the person arc, routing note, bounded month synthesis, authored/interview support spine, helix, and raw-input bench at [statecraft/voices/ritter/README.md](README.md).
 Compatibility note: unresolved watch placeholders that survive below in machine carryover are non-canonical by definition. When a capture is not yet pinned locally, prefer the named page file or raw-input artifact rather than treating a placeholder watch string as a usable citation.
@@ -414,7 +413,6 @@ A moral objection (Leo XIV) can be dismissed as non-political. An alliance defec
 
 # Page ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 2026-04-15 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â KremlinÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“IRI uranium off-ramp, dual register, and the legitimacy seam
 
-WORK only; not Record.
 
 | Field | Value |
 |--------|--------|

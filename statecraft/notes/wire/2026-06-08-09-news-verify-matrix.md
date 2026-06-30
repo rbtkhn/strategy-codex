@@ -11,7 +11,6 @@ archive_links:
   - source-archive/statecraft/2026-06-10/source-dialogue-works-patrick-henningsen-iran-strikes-us-bases-jordan-retaliation-begins-talks-dead-2026-06-10.md
   - source-archive/statecraft/2026-06-09/source-dialogue-works-wilkerson-israels-grand-strategy-coming-apart-2026-06-09.md
 ---
-WORK only; not Record.
 
 # News-verify matrix — 8–9 Jun 2026 statecraft batch
 

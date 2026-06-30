@@ -29,7 +29,6 @@ from uncertainty_envelope import (  # noqa: E402
     synthetic_observation_from_text,
 )
 
-
 def main() -> int:
     p = argparse.ArgumentParser(description="Advisory uncertainty precheck for gate staging.")
     p.add_argument("--id", action="append", dest="ids", metavar="OBS_ID")
@@ -121,7 +120,6 @@ def main() -> int:
     if args.strict and not args.force_override and promo == "block":
         return 1
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

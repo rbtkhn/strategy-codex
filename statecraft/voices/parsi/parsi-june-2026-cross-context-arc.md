@@ -1,6 +1,5 @@
 # arc-june-2026-cross-context-parsi-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-june-2026-cross-context-parsi-host.md](../../notes/arc-june-2026-cross-context-parsi-host.md)
 

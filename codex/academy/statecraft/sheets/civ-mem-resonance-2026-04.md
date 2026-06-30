@@ -41,4 +41,3 @@ Monthly lattice note for comparing the April 2026 cognition streams through civi
 
 Any serious historical analogy should carry a compact fit / mismatch / falsifier note. Prefer mechanism over narrative resemblance, and preserve unresolved tensions rather than forcing synthesis.
 
-WORK only; not Record.

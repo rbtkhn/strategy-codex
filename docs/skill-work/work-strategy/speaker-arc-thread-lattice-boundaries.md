@@ -1,6 +1,5 @@
 # Speaker Arc vs Thread vs Lattice Row
 
-WORK only; not Record.
 
 If you only half-remember the `speaker arc` stack, start here. This is the fastest re-entry point because it tells you which notebook object you are actually looking for.
 

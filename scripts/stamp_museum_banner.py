@@ -22,7 +22,6 @@ TARGETS = (
     "memory.md",
 )
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true")
@@ -46,7 +45,6 @@ def main() -> int:
         changed += 1
     print(f"stamp_museum_banner: {changed} file(s)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

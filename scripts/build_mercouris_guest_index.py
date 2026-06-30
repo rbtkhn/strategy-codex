@@ -18,7 +18,7 @@ REPO = SCRIPTS.parent
 ARCHIVE = REPO / "source-archive" / "statecraft"
 OUT = REPO / "statecraft" / "voices" / "mercouris" / "mercouris-index.md"
 
-HEADER = """WORK only; not Record.
+HEADER = """
 
 # Mercouris Index
 
@@ -65,7 +65,6 @@ FOOTER = """## Host cross-refs
 - **Mercouris solo on Alexander Mercouris channel** → [`alexander-mercouris-channel-index.md`](../../channels/alexander-mercouris/alexander-mercouris-channel-index.md)
 """
 
-
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:4000]
     out: dict = {}
@@ -83,12 +82,10 @@ def parse_head(path: Path) -> dict:
         ]
     return out
 
-
 def month_key(day: str) -> str:
     if day == "_aired-pending":
         return day
     return day[:7] if len(day) >= 7 else day
-
 
 def row_label(meta: dict, path: Path) -> str:
     title = meta.get("title") or path.stem.replace("source-", "", 1)
@@ -100,7 +97,6 @@ def row_label(meta: dict, path: Path) -> str:
     yt_bit = f" (`{yt}`)" if yt else ""
     slug_bit = f" · `{slug}`" if slug else ""
     return f"- [{path.parent.name} — {title}](../../../source-archive/statecraft/{path.parent.name}/{path.name}){yt_bit} — host: **{host}**{slug_bit}"
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -139,7 +135,6 @@ def main() -> int:
     OUT.write_text(content, encoding="utf-8")
     print(f"wrote {OUT.relative_to(REPO)} ({total} rows)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

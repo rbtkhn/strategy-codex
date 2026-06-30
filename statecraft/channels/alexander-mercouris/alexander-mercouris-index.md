@@ -1,6 +1,5 @@
 # Alexander Mercouris Index
 
-WORK only; not Record.
 
 Compatibility pointer only.
 

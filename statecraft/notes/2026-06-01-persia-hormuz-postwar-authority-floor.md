@@ -7,7 +7,6 @@ essay_candidate: false
 created_at: 2026-06-01
 updated_at: 2026-06-28
 ---
-WORK only; not Record.
 
 # Persia On Hormuz As Postwar Authority Floor - 2026-06-01
 

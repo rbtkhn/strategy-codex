@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Canonical Family Synthesis: Broken Contact Regimes and Arms-Control Inheritances
 

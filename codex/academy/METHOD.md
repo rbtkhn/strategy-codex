@@ -1,6 +1,5 @@
 # Academy Method
 
-WORK only; not Record.
 
 Academy shelves are active study surfaces. They organize canons, workshops, and bridges so the notebook can turn reading into reusable judgment.
 

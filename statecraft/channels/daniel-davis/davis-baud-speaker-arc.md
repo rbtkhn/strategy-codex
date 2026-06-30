@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Baud Speaker Arc (compat redirect)
 

@@ -56,10 +56,8 @@ _CANDIDATE_RE = re.compile(
     re.DOTALL,
 )
 
-
 def _norm_rel(p: str) -> str:
     return p.replace("\\", "/").strip().lstrip("/")
-
 
 def is_allowlisted_path(rel: str) -> bool:
     """True if rel is under allowed infra dirs (or meta-diff artifact under .../runtime/artifacts/meta-diffs/)."""
@@ -69,7 +67,6 @@ def is_allowlisted_path(rel: str) -> bool:
     if r.startswith("runtime/artifacts/meta-diffs/"):
         return True
     return any(r.startswith(prefix) for prefix in ALLOWLIST_PREFIXES)
-
 
 def paths_in_unified_diff(diff_text: str) -> set[str]:
     """Collect paths from a unified diff (best-effort)."""
@@ -81,11 +78,9 @@ def paths_in_unified_diff(diff_text: str) -> set[str]:
                 out.add(path)
     return out
 
-
 def _yaml_scalar(body: str, key: str) -> str:
     m = re.search(rf"^{key}:\s*(.+)$", body, re.MULTILINE)
     return (m.group(1).strip().strip('"\'')) if m else ""
-
 
 def _extract_pipe_block(body: str, key: str) -> str:
     """Content after `key: |` until next top-level `word:` key."""
@@ -99,7 +94,6 @@ def _extract_pipe_block(body: str, key: str) -> str:
             break
         out_lines.append(line)
     return "\n".join(out_lines).strip()
-
 
 def _targets_from_body(yaml_body: str) -> list[str]:
     """meta_targets as pipe block or bullet list."""
@@ -115,7 +109,6 @@ def _targets_from_body(yaml_body: str) -> list[str]:
                 lines.append(ln[2:].strip())
         return lines
     return []
-
 
 def _load_diff_text(yaml_body: str) -> tuple[str, str]:
     """
@@ -133,7 +126,6 @@ def _load_diff_text(yaml_body: str) -> tuple[str, str]:
     if diff_block:
         return diff_block, "inline:meta_diff"
     return "", "none"
-
 
 def extract_meta_candidates(gate_text: str) -> list[dict[str, Any]]:
     """Return one dict per ### CANDIDATE block with proposal_class META_INFRA."""
@@ -160,7 +152,6 @@ def extract_meta_candidates(gate_text: str) -> list[dict[str, Any]]:
         })
     return out
 
-
 def validate_meta_candidate(c: dict[str, Any], user_id: str) -> tuple[bool, list[str]]:
     """Return (ok, errors)."""
     errs: list[str] = []
@@ -180,7 +171,6 @@ def validate_meta_candidate(c: dict[str, Any], user_id: str) -> tuple[bool, list
 
     return (len(errs) == 0, errs)
 
-
 def _write_report(user_id: str, c: dict[str, Any], ok: bool, errors: list[str], extra: dict[str, Any]) -> Path:
     out_dir = artifacts_dir(fork_root(user_id)) / "meta-reports"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -199,11 +189,9 @@ def _write_report(user_id: str, c: dict[str, Any], ok: bool, errors: list[str], 
     path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
     return path
 
-
 def _ignore_sandbox(dirpath: str, names: list[str]) -> list[str]:
     skip = {".git", "node_modules", ".venv", "__pycache__", ".pytest_cache", ".mypy_cache"}
     return [n for n in names if n in skip]
-
 
 def _run_sandbox(
     user_id: str,
@@ -286,14 +274,12 @@ def _run_sandbox(
 
     return result
 
-
 def _write_patch_artifact(user_id: str, cid: str, diff_text: str) -> Path:
     out_dir = artifacts_dir(fork_root(user_id)) / "meta-patches"
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / f"{cid}.patch"
     path.write_text(diff_text, encoding="utf-8")
     return path
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="META_INFRA gate candidate validation and optional sandbox checks.")
@@ -346,7 +332,6 @@ def main() -> int:
             print(f"  Report: {report_path.relative_to(REPO_ROOT)}")
 
     return exit_code
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

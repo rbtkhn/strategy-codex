@@ -1,7 +1,6 @@
 # Diesen refined page — 2026-02-25 (host lane)
 <!-- word_count: ~220 -->
 
-WORK only; not Record.
 
 **Expert:** `diesen` · **Guest (same air):** John Mearsheimer · **Published:** 2026-02-25 · Sibling: [mearsheimer-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](mearsheimer/mearsheimer-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md
 

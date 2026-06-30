@@ -30,7 +30,6 @@ DEFAULT_USER_ID = DEFAULT_PROFILE_ID
 NURSERY_STATUSES = {"observed", "weak_signal", "recurring"}
 TERMINAL_STATUSES = {"promoted", "rejected", "expired"}
 
-
 def _load_rules(rules_path: Path | None = None) -> dict[str, Any]:
     path = rules_path or (REPO_ROOT / "platform/config" / "seed-promotion-rules.json")
     if not path.exists():
@@ -39,7 +38,6 @@ def _load_rules(rules_path: Path | None = None) -> dict[str, Any]:
                              "contradiction_policy": "block_until_resolved"},
                 "sensitivity_overrides": {}, "category_overrides": {}}
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def _load_latest(user_id: str) -> dict[str, dict[str, Any]]:
     path = profile_dir(user_id) / "seed-registry.jsonl"
@@ -59,7 +57,6 @@ def _load_latest(user_id: str) -> dict[str, dict[str, Any]]:
             continue
     return latest
 
-
 def _effective_rules(claim: dict[str, Any], rules: dict[str, Any]) -> dict[str, Any]:
     defaults = dict(rules.get("defaults", {}))
     sensitivity = claim.get("sensitivity", "standard")
@@ -75,11 +72,9 @@ def _effective_rules(claim: dict[str, Any], rules: dict[str, Any]) -> dict[str, 
     effective.pop("sensitivity_floor", None)
     return effective
 
-
 def _count_sessions(source_events: list[str]) -> int:
     sessions = {s for s in source_events if s.startswith("session-")}
     return max(len(sessions), len(source_events))
-
 
 def _time_span_days(first_seen: str, last_seen: str) -> int:
     try:
@@ -88,7 +83,6 @@ def _time_span_days(first_seen: str, last_seen: str) -> int:
         return max((ls - fs).days, 0)
     except (ValueError, TypeError):
         return 0
-
 
 def nursery_card(claim: dict[str, Any], rules: dict[str, Any]) -> dict[str, Any]:
     """Build a nursery report card for a single claim."""
@@ -173,7 +167,6 @@ def nursery_card(claim: dict[str, Any], rules: dict[str, Any]) -> dict[str, Any]
         "review_by": review_date,
     }
 
-
 def _format_card(card: dict[str, Any]) -> str:
     lines: list[str] = []
     lines.append(f"{card['seed_id']}: \"{card['claim_text']}\" ({card['category']})")
@@ -186,7 +179,6 @@ def _format_card(card: dict[str, Any]) -> str:
     lines.append(f"  Affects behavior: {affects}")
     lines.append(f"  Review by: {card['review_by']}")
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Weak Signal Nursery report.")
@@ -229,7 +221,6 @@ def main() -> int:
         print()
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

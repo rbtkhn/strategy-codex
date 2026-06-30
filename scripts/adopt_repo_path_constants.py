@@ -29,9 +29,7 @@ REPLACEMENTS: list[tuple[str, str]] = [
 
 IMPORT_FROM_RE = re.compile(r"^from repo_io import (.+)$", re.MULTILINE)
 
-
 GRACE_MAR_CONSTANTS = frozenset({"BOT_DIR"})
-
 
 def ensure_imports(text: str, constants: set[str]) -> str:
     if not constants:
@@ -43,7 +41,6 @@ def ensure_imports(text: str, constants: set[str]) -> str:
     if grace_mar_names:
         text = _ensure_grace_mar_imports(text, grace_mar_names)
     return text
-
 
 def _ensure_repo_io_imports(text: str, needed: list[str]) -> str:
     match = IMPORT_FROM_RE.search(text)
@@ -76,7 +73,6 @@ def _ensure_repo_io_imports(text: str, needed: list[str]) -> str:
         return text
     return text[:insert] + block + text[insert:]
 
-
 def _ensure_grace_mar_imports(text: str, needed: list[str]) -> str:
     marker = "from grace_mar_compat_paths import "
     if marker in text:
@@ -99,7 +95,6 @@ def _ensure_grace_mar_imports(text: str, needed: list[str]) -> str:
     insert = line_end + 1 if line_end != -1 else len(text)
     block = "from grace_mar_compat_paths import " + ", ".join(needed) + "\n"
     return text[:insert] + block + text[insert:]
-
 
 def patch_file(path: Path, *, dry_run: bool) -> bool:
     try:
@@ -124,7 +119,6 @@ def patch_file(path: Path, *, dry_run: bool) -> bool:
         print(f"updated {rel} (+{', '.join(sorted(used))})")
     return True
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Adopt repo_io path constants")
     parser.add_argument("--dry-run", action="store_true")
@@ -144,7 +138,6 @@ def main() -> int:
             changed += 1
     print(f"{'would update' if args.dry_run else 'updated'} {changed} files")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

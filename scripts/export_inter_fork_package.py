@@ -32,10 +32,8 @@ BOUNDARY_NOTICE = (
     "and review it locally; the sender has no recipient-side merge authority."
 )
 
-
 def _utc_now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
 
 def _default_output_dir(
     sender_fork_id: str,
@@ -44,10 +42,8 @@ def _default_output_dir(
 ) -> Path:
     return artifacts_dir(profile_lookup(sender_fork_id)) / "inter-fork" / "packages"
 
-
 def _default_routing_hint(package_kind: str) -> str:
     return "change_proposal_review" if package_kind == "change_proposal_review" else "candidate_import"
-
 
 def _default_proposal_class(target_surface: str) -> str:
     return {
@@ -59,10 +55,8 @@ def _default_proposal_class(target_surface: str) -> str:
         "work_layer": "policy",
     }.get(target_surface, "policy")
 
-
 def _load_schema(repo_root: Path) -> dict:
     return json.loads((repo_root / "schemas/registry" / "inter-fork-package-envelope.v1.json").read_text(encoding="utf-8"))
-
 
 def build_inter_fork_package(
     *,
@@ -95,7 +89,6 @@ def build_inter_fork_package(
         "payload": payload,
     }
 
-
 def build_candidate_payload(
     *,
     suggested_target_surface: str,
@@ -108,7 +101,6 @@ def build_candidate_payload(
         "claim": claim,
         "reviewNotes": review_notes,
     }
-
 
 def build_change_proposal_payload(
     *,
@@ -140,7 +132,6 @@ def build_change_proposal_payload(
     if notes.strip():
         payload["notes"] = notes.strip()
     return payload
-
 
 def export_inter_fork_package(
     *,
@@ -178,7 +169,6 @@ def export_inter_fork_package(
     out_path = out_dir / f"{package['packageId']}.json"
     out_path.write_text(json.dumps(package, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return out_path
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Export a bounded inter-fork collaboration package")
@@ -278,7 +268,6 @@ def main() -> int:
     )
     print(out_path)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

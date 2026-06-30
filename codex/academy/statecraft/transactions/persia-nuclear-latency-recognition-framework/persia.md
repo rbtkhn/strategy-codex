@@ -1,6 +1,5 @@
 # Iran - Iran Nuclear Latency Recognition Framework
 
-WORK only; not Record.
 
 ## Transaction Name
 

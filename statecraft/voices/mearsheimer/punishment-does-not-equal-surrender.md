@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Punishment Does Not Equal Surrender
 

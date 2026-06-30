@@ -35,7 +35,6 @@ HOST_CROSS_REFS = {
 
 CHANNEL_INDEX = "../../channels/glenn-diesen/glenn-diesen-channel-index.md"
 
-
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:4000]
     out: dict = {}
@@ -52,12 +51,10 @@ def parse_head(path: Path) -> dict:
         ]
     return out
 
-
 def month_key(day: str) -> str:
     if day == "_aired-pending":
         return day
     return day[:7] if len(day) >= 7 else day
-
 
 def row_label(meta: dict, path: Path) -> str:
     title = meta.get("title") or path.stem.replace("source-", "", 1)
@@ -78,12 +75,10 @@ def row_label(meta: dict, path: Path) -> str:
         f"{yt_bit} — host: **{host}**{slug_bit}{cross_bit}"
     )
 
-
 def render_index(by_month: dict[str, list[tuple[Path, dict]]]) -> str:
     total = sum(len(v) for v in by_month.values())
     lines = [
-        "WORK only; not Record.",
-        "",
+                "",
         "# Diesen Index",
         "",
         "Purpose: route map for **Glenn Diesen** as **guest / interviewed analyst on other hosts and channels** — not Glenn Diesen channel host work.",
@@ -130,7 +125,6 @@ def render_index(by_month: dict[str, list[tuple[Path, dict]]]) -> str:
     )
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -160,7 +154,6 @@ def main() -> int:
     OUT.write_text(content, encoding="utf-8")
     print(f"wrote {OUT.relative_to(REPO)} ({total} rows)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Why Barnes Should Reconsider AI
 

@@ -43,7 +43,7 @@ PROMOTE = [
     "wilkerson",
 ]
 
-COMPAT_TEMPLATE = """WORK only; not Record.
+COMPAT_TEMPLATE = """
 
 # {title} Source Index (compat redirect)
 
@@ -54,10 +54,8 @@ The canonical exhaustive {title} corpus route map now lives at **[{slug}-index.m
 Use **`{slug}-index.md`** going forward; this file remains only as a stable back-compat entry for older links and routing discovery.
 """
 
-
 def _is_compat_stub(text: str) -> bool:
     return "compat redirect" in text.lower()
-
 
 def promote_speaker(slug: str) -> bool:
     folder = VOICES / slug
@@ -90,7 +88,6 @@ def promote_speaker(slug: str) -> bool:
         dst.write_text(body, encoding="utf-8", newline="\n")
     print(f"promoted {slug}")
     return True
-
 
 def update_repo_map(promoted: list[str]) -> None:
     data = yaml.safe_load(REPO_MAP.read_text(encoding="utf-8"))
@@ -137,7 +134,6 @@ def update_repo_map(promoted: list[str]) -> None:
         newline="\n",
     )
 
-
 def main() -> int:
     promoted: list[str] = []
     for slug in PROMOTE:
@@ -147,7 +143,6 @@ def main() -> int:
         update_repo_map(promoted)
     print(f"done: {len(promoted)} promoted")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

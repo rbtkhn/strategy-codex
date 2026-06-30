@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Audit statecraft transcript corpora for non-literal Strait of Hormuz ASR errors.
 
-WORK only; not Record.
-
 This is a detection-only audit. It looks for files where the intended phrase is
 likely ``Strait of Hormuz`` even when the transcript does not literally contain
 ``Hormuz`` and instead uses a generic noun or phonetic near-miss.
@@ -101,7 +99,6 @@ CONTEXT_CUES = (
     "waterway",
 )
 
-
 @dataclass(frozen=True)
 class Finding:
     path: str
@@ -112,25 +109,20 @@ class Finding:
     line_number: int | None
     snippet: str
 
-
 def rel_path(path: Path) -> str:
     try:
         return path.relative_to(REPO_ROOT).as_posix()
     except ValueError:
         return path.as_posix()
 
-
 def _normalize_token(token: str) -> str:
     return token.strip(".,:;!?)]}\"'").casefold()
-
 
 def _normalize_head(head: str) -> str:
     return head.casefold()
 
-
 def _normalize_phrase(text: str) -> str:
     return " ".join(text.casefold().split())
-
 
 def _pick_known_tail(head: str, tail_text: str) -> str | None:
     norm_head = _normalize_head(head)
@@ -155,7 +147,6 @@ def _pick_known_tail(head: str, tail_text: str) -> str | None:
         if candidate in KNOWN_BAD_PHRASES:
             return original_tail
     return None
-
 
 def load_hormuz_seed_patterns() -> set[str]:
     seeds: set[str] = set()
@@ -188,11 +179,9 @@ def load_hormuz_seed_patterns() -> set[str]:
     )
     return seeds
 
-
 SEED_PATTERNS = load_hormuz_seed_patterns()
 KNOWN_BAD_PHRASES = {_normalize_phrase(phrase) for phrase in SEED_PATTERNS}
 WEAK_BAD_TOKENS = {"hormis", "hormas", "hormone"}
-
 
 def parse_frontmatter(text: str) -> dict[str, str]:
     match = FRONTMATTER_RE.match(text)
@@ -214,11 +203,9 @@ def parse_frontmatter(text: str) -> dict[str, str]:
         meta["editorial_note"] = editorial_note.group(1).strip().strip('"')
     return meta
 
-
 def strip_frontmatter(text: str) -> str:
     match = FRONTMATTER_RE.match(text)
     return text[match.end() :] if match else text
-
 
 def is_transcript_like(path: Path, text: str, meta: dict[str, str]) -> bool:
     if path.name == "README.md":
@@ -235,18 +222,15 @@ def is_transcript_like(path: Path, text: str, meta: dict[str, str]) -> bool:
         return True
     return False
 
-
 def context_score(text: str) -> int:
     lowered = text.casefold()
     return sum(1 for cue in CONTEXT_CUES if cue in lowered)
-
 
 def _make_snippet(lines: list[str], line_no: int) -> str:
     start = max(0, line_no - 2)
     end = min(len(lines), line_no + 1)
     snippet = " ⏎ ".join(line.strip() for line in lines[start:end] if line.strip())
     return snippet[:240]
-
 
 def classify_direct_match(head: str, token: str, local_text: str, *, split_line: bool, missing_of: bool = False) -> tuple[str, str]:
     norm_head = _normalize_head(head)
@@ -262,7 +246,6 @@ def classify_direct_match(head: str, token: str, local_text: str, *, split_line:
     if norm_token in {"humus", "homus", "hormones", "hormone"}:
         return "high_confidence", "generic_noun_flattening"
     return "high_confidence", "phonetic_variant"
-
 
 def find_direct_findings(path: Path, body: str) -> list[Finding]:
     lines = body.replace("\r", "").splitlines()
@@ -342,11 +325,9 @@ def find_direct_findings(path: Path, body: str) -> list[Finding]:
         )
     return findings
 
-
 def is_reviewed_title_body_divergence(meta: dict[str, str]) -> bool:
     note = meta.get("editorial_note", "").casefold()
     return "title-body divergence reviewed" in note
-
 
 def find_context_only_finding(path: Path, text: str, meta: dict[str, str]) -> Finding | None:
     title = meta.get("title", "")
@@ -372,7 +353,6 @@ def find_context_only_finding(path: Path, text: str, meta: dict[str, str]) -> Fi
         snippet="Context-only review candidate: title/path references Hormuz but no direct malformed phrase matched.",
     )
 
-
 def audit_path(path: Path) -> list[Finding]:
     text = path.read_text(encoding="utf-8", errors="replace")
     meta = parse_frontmatter(text)
@@ -385,13 +365,11 @@ def audit_path(path: Path) -> list[Finding]:
     context_only = find_context_only_finding(path, text, meta)
     return [context_only] if context_only else []
 
-
 def iter_transcript_files(root: Path) -> list[Path]:
     files: list[Path] = []
     for path in sorted(root.rglob("*.md")):
         files.append(path)
     return files
-
 
 def build_summary(findings: list[Finding]) -> dict[str, Any]:
     variant_counts = Counter()
@@ -439,13 +417,11 @@ def build_summary(findings: list[Finding]) -> dict[str, Any]:
     ],
 }
 
-
 def render_report(root: Path, findings: list[Finding], summary: dict[str, Any]) -> str:
     lines = [
         "# Hormuz Mistranscription Audit",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         f"- root: `{root.relative_to(REPO_ROOT).as_posix()}`",
         f"- total candidate files: `{summary['candidate_files']}`",
         f"- total findings: `{summary['total_findings']}`",
@@ -491,7 +467,6 @@ def render_report(root: Path, findings: list[Finding], summary: dict[str, Any]) 
         lines.append(f"- `{rule}`")
     return "\n".join(lines).rstrip() + "\n"
 
-
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Transcript root to audit.")
@@ -502,7 +477,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="Filename prefix for emitted JSON and Markdown artifacts.",
     )
     return parser.parse_args(argv)
-
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
@@ -536,7 +510,6 @@ def main(argv: list[str] | None = None) -> int:
         )
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

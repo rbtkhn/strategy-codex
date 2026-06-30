@@ -1,6 +1,5 @@
 # Diesen Index
 
-WORK only; not Record.
 
 Purpose: front door for the canonical first-pass Diesen `civ-lens` shelf.
 

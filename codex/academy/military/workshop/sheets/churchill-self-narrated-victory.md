@@ -1,6 +1,5 @@
 # Churchill And Self-Narrated Victory
 
-WORK only; not Record.
 
 ## Purpose
 

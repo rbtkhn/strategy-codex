@@ -1,6 +1,5 @@
 # Wilkerson May 2025 note
 
-WORK only; not Record.
 
 Purpose: preserve what May 2025 currently means on the Wilkerson shelf without overstating a month that is still only lightly materialized on disk.
 

@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/thread-index.md
   - source-archive/statecraft/2025-11.md
 ---
-WORK only; not Record.
 
 # Nov 6 → Nov 14 2025 — Jermy thread (Pokrovsk / Kiev inflection)
 

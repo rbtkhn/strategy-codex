@@ -20,7 +20,6 @@ ROOT = Path(__file__).resolve().parents[2]
 CIVMEM_SCRIPT = ROOT / "scripts/work_jiang/generate_civmem_memo.py"
 PSYHIST_SCRIPT = ROOT / "scripts/work_jiang/generate_psy_hist_memo.py"
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate both CIV-MEM and PSY-HIST memos")
     parser.add_argument("--lecture", type=str, help="Source ID, e.g. civ-21, geo-12")
@@ -54,7 +53,6 @@ def main() -> int:
             failed += 1
 
     return 1 if failed else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

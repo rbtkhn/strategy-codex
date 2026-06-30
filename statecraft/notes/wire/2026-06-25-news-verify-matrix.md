@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-25/source-lascaris-helmer-trump-goal-destroy-russia-iran-2026-06-25.md
   - source-archive/statecraft/2026-06-25/source-daniel-davis-mearsheimer-russia-red-lines-crossed-2026-06-25.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — 2026-06-25
 

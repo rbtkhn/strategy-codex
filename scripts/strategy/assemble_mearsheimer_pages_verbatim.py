@@ -28,10 +28,8 @@ MANIFEST_PATH = MEARSHEIMER / "mearsheimer-pages-manifest.yaml"
 # Pruning hint threshold for generated Mearsheimer pages (finalize_page / soft-cap notes).
 SOFT_CAP_WORDS = 8000
 
-
 def _word_count(s: str) -> int:
     return len(re.findall(r"\S+", s))
-
 
 def _split_frontmatter(text: str) -> tuple[dict, str]:
     if not text.startswith("---"):
@@ -44,7 +42,6 @@ def _split_frontmatter(text: str) -> tuple[dict, str]:
     data = yaml.safe_load(parts[1])
     fm = data if isinstance(data, dict) else {}
     return fm, parts[2].lstrip("\n")
-
 
 def _lanes(body: str) -> list[str]:
     b = body.lower()
@@ -65,7 +62,6 @@ def _lanes(body: str) -> list[str]:
         out.append("General realism / cross-check in woven `days.md`")
     return out
 
-
 def _mode_para(mode: str) -> str:
     if mode == "B":
         return (
@@ -82,7 +78,6 @@ def _mode_para(mode: str) -> str:
         "Format: Substack-style essay. Historical and theoretical passages reflect Mearsheimer’s read; "
         "verify dates, quotes, and figures against primary or scholarly sources if promoted."
     )
-
 
 def _topic_paragraphs(body: str) -> str:
     b = body.lower()
@@ -102,12 +97,10 @@ def _topic_paragraphs(body: str) -> str:
         )
     return "\n\n".join(chunks[:3])
 
-
 def _fm_note_series(fm: dict) -> tuple[str, str]:
     note = (fm.get("capture_note") or fm.get("source_note") or "").strip()
     series = (fm.get("episode_title") or fm.get("series") or "").strip()
     return note, series
-
 
 def _build_judgment(fm: dict, body: str, mode: str, verbatim_w: int) -> str:
     j_target = max(55, min(950, int(verbatim_w * 0.25) - 26))
@@ -162,7 +155,6 @@ def _build_judgment(fm: dict, body: str, mode: str, verbatim_w: int) -> str:
             text = "\n\n".join(parts)
     return text
 
-
 def _build_open(mode: str) -> str:
     return "\n".join(
         [
@@ -171,7 +163,6 @@ def _build_open(mode: str) -> str:
             f"- **Tier:** Verbatim = expert ({mode}); Reflection/Foresight = WORK.",
         ]
     )
-
 
 def render_page(entry: dict, fm: dict, body: str) -> str:
     vd = entry["voice_date"]
@@ -192,7 +183,7 @@ def render_page(entry: dict, fm: dict, body: str) -> str:
     lines = [
         f"# Mearsheimer strategy page — {vd}{title_suffix}",
         "",
-        "WORK only; not Record.",
+        "",
         "",
         f"**Expert:** `mearsheimer` · **{prem}:** {pdate} · **Capture:** {cap} · **Artifact:** "
         "strategy-page file (`mearsheimer-page-…` under `experts/mearsheimer/`). Optional: echo in "
@@ -228,7 +219,6 @@ def render_page(entry: dict, fm: dict, body: str) -> str:
     ]
     return "\n".join(lines)
 
-
 def _soft_cap_paragraph(total_w_before: int) -> str:
     return (
         f"\n**Soft cap — pruning.** This file is about **{total_w_before}** words before this note; "
@@ -241,7 +231,6 @@ def _soft_cap_paragraph(total_w_before: int) -> str:
         "cross-expert work.\n"
     )
 
-
 def _inject_soft_cap_judgment(page: str, total_w: int) -> str:
     if total_w <= SOFT_CAP_WORDS:
         return page
@@ -250,7 +239,6 @@ def _inject_soft_cap_judgment(page: str, total_w: int) -> str:
         return page
     head, tail = page.split(sep, 1)
     return head + _soft_cap_paragraph(total_w) + sep + tail
-
 
 def _inject_header_word_count(page: str, total_w: int) -> str:
     marker = "\n\n---\n\n### Verbatim\n"
@@ -265,13 +253,11 @@ def _inject_header_word_count(page: str, total_w: int) -> str:
     )
     return page.replace(marker, replacement, 1)
 
-
 def finalize_page(page: str) -> str:
     w0 = _word_count(page)
     page = _inject_soft_cap_judgment(page, w0)
     w1 = _word_count(page)
     return _inject_header_word_count(page, w1)
-
 
 def main() -> int:
     if yaml is None:
@@ -303,7 +289,6 @@ def main() -> int:
         tw = _word_count(final)
         print(f"Wrote {out.relative_to(REPO_ROOT)} ({vw} verbatim words, {tw} on-page words)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

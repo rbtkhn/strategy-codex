@@ -23,7 +23,6 @@ LINK_SUFFIX_RE = re.compile(
     r"\]\((?:\.\./\.\./\.\./source-archive/statecraft/\d{4}-\d{2}-\d{2}/([^)]+))\)(.*)$"
 )
 
-
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:5000]
     out: dict = {}
@@ -37,7 +36,6 @@ def parse_head(path: Path) -> dict:
             out["title"] = hm.group(1).strip()
     return out
 
-
 def pub_date_key(meta: dict, path: Path) -> str:
     pub = meta.get("pub_date", "")
     if pub and len(pub) >= 10:
@@ -46,7 +44,6 @@ def pub_date_key(meta: dict, path: Path) -> str:
     if re.match(r"^\d{4}-\d{2}-\d{2}$", day):
         return day
     return day
-
 
 def host_short(meta: dict, path: Path) -> str:
     name = path.name.casefold()
@@ -67,13 +64,11 @@ def host_short(meta: dict, path: Path) -> str:
         return meta["host"]
     return "Other"
 
-
 def row_label(meta: dict, path: Path) -> str:
     pub = pub_date_key(meta, path)
     host = host_short(meta, path)
     rel = f"../../../source-archive/statecraft/{path.parent.name}/{path.name}"
     return f"- [{pub} {host}]({rel})"
-
 
 def load_annotation_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
@@ -91,7 +86,6 @@ def load_annotation_map(index_path: Path) -> dict[str, str]:
             out[fn] = suffix
     return out
 
-
 def collect_rows() -> list[tuple[str, Path, dict]]:
     rows: list[tuple[str, Path, dict]] = []
     for path in iter_archive_captures_for_shelf("weichert", ARCHIVE):
@@ -103,7 +97,6 @@ def collect_rows() -> list[tuple[str, Path, dict]]:
         rows.append((pub, path, meta))
     rows.sort(key=lambda t: (t[0], t[1].name))
     return rows
-
 
 def render_adjacent_notes() -> list[str]:
     return [
@@ -117,7 +110,6 @@ def render_adjacent_notes() -> list[str]:
         "",
     ]
 
-
 def render_index(rows: list[tuple[str, Path, dict]], annotations: dict[str, str]) -> str:
     by_month: dict[str, list[tuple[str, Path, dict]]] = defaultdict(list)
     for row in rows:
@@ -128,8 +120,7 @@ def render_index(rows: list[tuple[str, Path, dict]], annotations: dict[str, str]
     lines = [
         "# Weichert source index",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         "Purpose: exhaustive canonical route map for Brandon Weichert guest appearances and direct archive anchors on the Weichert shelf.",
         "",
         "**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index weichert` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)",
@@ -166,7 +157,6 @@ def render_index(rows: list[tuple[str, Path, dict]], annotations: dict[str, str]
     )
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="Print row count only")
@@ -188,7 +178,6 @@ def main() -> int:
     OUT.write_text(body if body.endswith("\n") else body + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {OUT} ({len(rows)} rows, {len(annotations)} annotations preserved)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # arc-mcgovern-nima-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-mcgovern-nima-host.md](../../notes/arc-mcgovern-nima-host.md)
 

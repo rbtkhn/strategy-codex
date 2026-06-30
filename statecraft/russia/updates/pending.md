@@ -1,6 +1,5 @@
 # Russia Recursive Update Queue
 
-WORK only; not Record.
 
 Membrane rule: live analysis proposes; human review decides; book surfaces update only after acceptance. Stage durable candidates here before changing `civilization/`, `empire/`, `state/`, `helix.md`, or `transactions/`.
 

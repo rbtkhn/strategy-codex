@@ -1,6 +1,5 @@
 # High-Skill Labor Compression and Sovereign Judgment
 
-WORK only; not Record.
 
 This compact note treats high-skill labor compression as a cross-lane mechanism rather than a narrow labor-market topic.
 

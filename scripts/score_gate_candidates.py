@@ -46,12 +46,10 @@ _CANDIDATE_BLOCK_RE = re.compile(
     re.DOTALL,
 )
 
-
 def _yaml_body_from_fence(fence: str) -> str:
     if fence.startswith("```yaml\n") and fence.endswith("```"):
         return fence[len("```yaml\n") : -len("```")]
     return fence
-
 
 def _is_pending_status(yaml_body: str) -> bool:
     """True when status is absent or explicitly pending (merge-ready queue)."""
@@ -59,7 +57,6 @@ def _is_pending_status(yaml_body: str) -> bool:
     if not m:
         return True
     return m.group(1).strip().lower() == "pending"
-
 
 def estimate_subscores(text: str) -> dict[str, float]:
     """Deterministic 0..1 subscores from candidate text (heading + yaml)."""
@@ -106,11 +103,9 @@ def estimate_subscores(text: str) -> dict[str, float]:
 
     return scores
 
-
 def compute_composite(sub: dict[str, float]) -> float:
     total = sum(SCORE_WEIGHTS[k] * sub.get(k, 0.5) for k in SCORE_WEIGHTS)
     return round(total * 100.0, 1)
-
 
 def _format_score_line(composite: float, sub: dict[str, float], low: bool) -> str:
     parts = (
@@ -124,7 +119,6 @@ def _format_score_line(composite: float, sub: dict[str, float], low: bool) -> st
     if low:
         line += " **[LOW CONFIDENCE]**"
     return line + "\n"
-
 
 def annotate_active_section(
     active: str,
@@ -154,7 +148,6 @@ def annotate_active_section(
 
     new_active = _CANDIDATE_BLOCK_RE.sub(repl, active)
     return new_active, scored
-
 
 def score_gate_file(
     user_id: str,
@@ -192,7 +185,6 @@ def score_gate_file(
     print(f"Updated {gate_path} — scored {n} candidate block(s) (threshold {threshold}).")
     return gate_path, n
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Insert heuristic Auto-score blockquotes into recursion-gate.md (active section)."
@@ -219,7 +211,6 @@ def main() -> int:
         pending_only=not args.all_status,
     )
     return 0 if n >= 0 else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # Bernstein Reflection - Governed Interpretation - 2026-06-01
 
-work only; not Record.
 
 Something important has shifted in this repo, and the significance is not only
 technical.

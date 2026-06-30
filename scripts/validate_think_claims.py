@@ -21,10 +21,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CLAIMS = REPO_ROOT / "runtime/artifacts/skill-think/think-claims.json"
 SCHEMA_PATH = REPO_ROOT / "schemas/skill_think/think_claims.schema.json"
 
-
 def _load_json_file(path: Path):
     return json.loads(path.read_text(encoding="utf-8-sig"))
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -98,7 +96,6 @@ def main() -> int:
         print(f"warn: {w}", file=sys.stderr)
     print(f"ok: {args.claims} ({len(data.get('claims', []))} claims)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

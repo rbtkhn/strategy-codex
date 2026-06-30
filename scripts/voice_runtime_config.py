@@ -18,14 +18,12 @@ from typing import Any, Literal, Optional
 
 LatencyMode = Literal["ultra_low", "balanced", "governed"]
 
-
 @dataclass
 class SttSettings:
     provider: str = "deepgram"
     model: str = "nova-2"
     language: str = "en"
     streaming: bool = True
-
 
 @dataclass
 class TtsSettings:
@@ -36,19 +34,16 @@ class TtsSettings:
     speed: float = 1.0
     stability: float = 0.85
 
-
 @dataclass
 class BargeInSettings:
     enabled: bool = False
     vad_sensitivity: str = "medium"
-
 
 @dataclass
 class VoiceCacheSettings:
     enabled: bool = False
     ttl_minutes: int = 45
     size: int = 600
-
 
 @dataclass
 class EmotionMappingConfig:
@@ -60,7 +55,6 @@ class EmotionMappingConfig:
     medium_emotion: str = "neutral"
     high_emotion: str = "happy"
 
-
 @dataclass
 class AvatarNestedSettings:
     enabled: bool = False
@@ -68,7 +62,6 @@ class AvatarNestedSettings:
     model_path: Optional[str] = None
     renderer_url: Optional[str] = None
     emotion_mapping: Optional[dict[str, Any]] = None
-
 
 @dataclass
 class VoiceAvatarSettings:
@@ -82,7 +75,6 @@ class VoiceAvatarSettings:
     barge_in: BargeInSettings = field(default_factory=BargeInSettings)
     cache: VoiceCacheSettings = field(default_factory=VoiceCacheSettings)
 
-
 def _parse_stt(raw: dict[str, Any]) -> SttSettings:
     r = raw or {}
     return SttSettings(
@@ -91,7 +83,6 @@ def _parse_stt(raw: dict[str, Any]) -> SttSettings:
         language=str(r.get("language") or "en"),
         streaming=bool(r.get("streaming", True)),
     )
-
 
 def _parse_tts(raw: dict[str, Any]) -> TtsSettings:
     r = raw or {}
@@ -104,14 +95,12 @@ def _parse_tts(raw: dict[str, Any]) -> TtsSettings:
         stability=float(r.get("stability", 0.85)),
     )
 
-
 def _parse_barge_in(raw: dict[str, Any]) -> BargeInSettings:
     r = raw or {}
     sens = str(r.get("vad_sensitivity") or "medium")
     if sens not in ("low", "medium", "high"):
         sens = "medium"
     return BargeInSettings(enabled=bool(r.get("enabled", False)), vad_sensitivity=sens)
-
 
 def _parse_cache(raw: dict[str, Any]) -> VoiceCacheSettings:
     r = raw or {}
@@ -120,7 +109,6 @@ def _parse_cache(raw: dict[str, Any]) -> VoiceCacheSettings:
         ttl_minutes=int(r.get("ttl_minutes", 45)),
         size=int(r.get("size", 600)),
     )
-
 
 def _parse_emotion_mapping(raw: dict[str, Any] | None) -> EmotionMappingConfig:
     if not raw or not isinstance(raw, dict):
@@ -144,7 +132,6 @@ def _parse_emotion_mapping(raw: dict[str, Any] | None) -> EmotionMappingConfig:
         medium_emotion=med_e,
         high_emotion=high_e,
     )
-
 
 def _parse_avatar_nested(
     raw: dict[str, Any] | None,
@@ -178,13 +165,11 @@ def _parse_avatar_nested(
         emotion_mapping=None,
     )
 
-
 def _none_str(v: Any) -> Optional[str]:
     if v is None:
         return None
     s = str(v).strip()
     return s or None
-
 
 def parse_voice_avatar_block(block: dict[str, Any] | None) -> VoiceAvatarSettings:
     """Normalize voice_avatar object from runtime_config (may be empty)."""
@@ -217,11 +202,9 @@ def parse_voice_avatar_block(block: dict[str, Any] | None) -> VoiceAvatarSetting
         cache=_parse_cache(b.get("cache") if isinstance(b.get("cache"), dict) else {}),
     )
 
-
 def emotion_mapping_config_from_avatar(avatar: AvatarNestedSettings) -> EmotionMappingConfig:
     """Build EmotionMappingConfig from nested avatar.emotion_mapping JSON."""
     return _parse_emotion_mapping(avatar.emotion_mapping)
-
 
 def emotion_from_score(score: float, cfg: EmotionMappingConfig) -> str:
     if score < cfg.low_threshold:
@@ -229,7 +212,6 @@ def emotion_from_score(score: float, cfg: EmotionMappingConfig) -> str:
     if score < cfg.high_threshold:
         return cfg.medium_emotion
     return cfg.high_emotion
-
 
 def merge_critique_for_latency_mode(
     constitutional_critique: dict[str, Any] | None,

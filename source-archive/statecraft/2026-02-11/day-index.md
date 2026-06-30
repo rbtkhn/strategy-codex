@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Daniel Davis` (1), `Jeffrey Sachs` (1), `Nima Alkhorshid` (1)
 - Guests: `Jeffrey Sachs` (1), `Scott Ritter` (1), `Seyed M. Marandi` (1)
-- Threads: `alkorshid` (1), `davis` (1), `marandi` (1), `mercouris` (1), `ritter` (1), `sachs` (1)
+- Threads: `alkhorshid` (1), `davis` (1), `marandi` (1), `mercouris` (1), `ritter` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=pHCWOPCq2hA) | `source-alexander-mercouris-russia-strike-coming-zelensky-rejects-election-call-eu-again-eyes-russia-2026-02-11.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=pxg73Ck5e-A) | `source-daniel-davis-prof-seyed-marandi-war-w-iran-will-be-catastrophic-for-everyone-2026-02-11.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `ritter` | [watch](https://www.youtube.com/watch?v=DCZn8RZS9Zk) | `source-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `ritter` | [watch](https://www.youtube.com/watch?v=DCZn8RZS9Zk) | `source-dialogue-works-scott-ritter-trump-in-major-trouble-china-russia-arm-iran-with-deadly-we-2026-02-11.md` |
 
 ## Writer sources
 

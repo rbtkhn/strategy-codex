@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Build a bounded thread-context packet for expert-page composition.
 
-WORK only; not Record.
-
 The packet is a drafting aid, not canonical notebook state. It distills the
 previous thread months for an expert into a small, page-shaping brief:
 
@@ -155,7 +153,6 @@ _STOPWORDS = {
     "context",
 }
 
-
 @dataclass(frozen=True)
 class MonthContext:
     month: str
@@ -165,7 +162,6 @@ class MonthContext:
     unresolved: list[str]
     contradicted: list[str]
     newly_changed: list[str]
-
 
 @dataclass(frozen=True)
 class ThreadContextPacket:
@@ -183,7 +179,6 @@ class ThreadContextPacket:
     recurring_themes: list[str]
     drafting_guidance: list[str]
 
-
 def _strip_markdown_noise(text: str) -> str:
     out = text.strip()
     out = _BOLD_RE.sub(r"\1", out)
@@ -194,7 +189,6 @@ def _strip_markdown_noise(text: str) -> str:
     out = re.sub(r"\s+", " ", out)
     return out.strip()
 
-
 def _truncate_words(text: str, max_words: int) -> str:
     words = text.split()
     if len(words) <= max_words:
@@ -203,12 +197,10 @@ def _truncate_words(text: str, max_words: int) -> str:
         return "..."
     return " ".join(words[: max_words - 1]).rstrip(",;:") + " ..."
 
-
 def _human_layer(text: str) -> str:
     if THREAD_MARKER_START in text:
         return text.split(THREAD_MARKER_START, 1)[0].rstrip()
     return text.rstrip()
-
 
 def _month_segments_from_text(text: str) -> dict[str, str]:
     matches = list(MONTH_HEADING_RE.finditer(text))
@@ -219,7 +211,6 @@ def _month_segments_from_text(text: str) -> dict[str, str]:
         end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
         segments[month] = text[start:end].strip()
     return segments
-
 
 def _paragraph_blocks(segment: str) -> list[str]:
     out: list[str] = []
@@ -242,7 +233,6 @@ def _paragraph_blocks(segment: str) -> list[str]:
             out.append(joined)
     return out
 
-
 def _classify_snippet(snippet: str, *, is_newest_source: bool) -> str:
     low = snippet.lower()
     if any(key in low for key in _CONTRADICTION_KEYS):
@@ -254,7 +244,6 @@ def _classify_snippet(snippet: str, *, is_newest_source: bool) -> str:
     if any(key in low for key in _SETTLED_KEYS):
         return "settled"
     return "newly_changed" if is_newest_source else "settled"
-
 
 def _unique_extend(dest: list[str], items: Sequence[str], *, limit: int) -> None:
     seen = {item.lower() for item in dest}
@@ -269,7 +258,6 @@ def _unique_extend(dest: list[str], items: Sequence[str], *, limit: int) -> None
         seen.add(key)
         if len(dest) >= limit:
             break
-
 
 def _extract_theme_terms(snippets: Sequence[str], *, limit: int = 5) -> list[str]:
     counts: Counter[str] = Counter()
@@ -286,11 +274,9 @@ def _extract_theme_terms(snippets: Sequence[str], *, limit: int = 5) -> list[str
     ordered = sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))
     return [f"{term} ({count})" for term, count in ordered[:limit] if count > 1]
 
-
 def _month_sort_key(month: str) -> tuple[int, int]:
     y, m = month.split("-")
     return int(y), int(m)
-
 
 def _selection_months(available_months: Sequence[str], page_month: str, lookback_months: int) -> tuple[list[str], str]:
     ordered = sorted(set(available_months), key=_month_sort_key)
@@ -307,13 +293,11 @@ def _selection_months(available_months: Sequence[str], page_month: str, lookback
         return selected, "no month segment at or before the page date was found; used the nearest available month segment(s)"
     return [], "no month segments were found in the provided thread file(s)"
 
-
 def _month_brief(snippets: Sequence[str], *, max_words: int = 42) -> str:
     if not snippets:
         return ""
     joined = " ".join(snippets[:2])
     return _truncate_words(joined, max_words=max_words)
-
 
 def build_thread_context_packet(
     *,
@@ -422,12 +406,10 @@ def build_thread_context_packet(
         drafting_guidance=drafting_guidance,
     )
 
-
 def context_packet_path(expert_dir: Path, page_filename: str) -> Path:
     """Return the generated sidecar path for a page scaffold."""
     stem = Path(page_filename).stem
     return expert_dir / "page-context" / f"{stem}.context.md"
-
 
 def render_thread_context_packet(packet: ThreadContextPacket) -> str:
     """Render the packet as markdown for a draft sidecar file."""
@@ -437,7 +419,7 @@ def render_thread_context_packet(packet: ThreadContextPacket) -> str:
         title += f" â€” {packet.page_title}"
     lines.append(title)
     lines.append("")
-    lines.append("WORK only; draft aid, not canonical notebook state.")
+    lines.append("non-authoritative; draft aid, not canonical notebook state.")
     lines.append(f"Page date: `{packet.page_date}`")
     lines.append(f"Selection: {packet.selection_note}.")
     if packet.source_months:

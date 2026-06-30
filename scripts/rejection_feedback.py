@@ -22,7 +22,6 @@ REJECTION_CATEGORIES: dict[str, str] = {
 
 _ALLOWED = frozenset(REJECTION_CATEGORIES)
 
-
 def _yaml_safe(blob: str) -> dict[str, Any]:
     try:
         data = safe_load_text(blob, feature="rejection_feedback.py") or {}
@@ -31,7 +30,6 @@ def _yaml_safe(blob: str) -> dict[str, Any]:
     except Exception:
         return {}
     return data if isinstance(data, dict) else {}
-
 
 def infer_rejection_category(yaml_body: str) -> str:
     """

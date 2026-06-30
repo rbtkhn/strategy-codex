@@ -13,7 +13,6 @@ archive_links:
   - source-archive/statecraft/2026-06-18/source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md
   - source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md
 ---
-WORK only; not Record.
 
 # J18 MOU — Falsifier #3 standoff fuse watch
 

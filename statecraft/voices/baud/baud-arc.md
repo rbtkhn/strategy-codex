@@ -1,6 +1,5 @@
 # arc-baud-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [baud-arc.md](baud-arc.md)
 

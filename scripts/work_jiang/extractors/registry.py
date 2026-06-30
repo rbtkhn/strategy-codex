@@ -15,14 +15,11 @@ _EXTRACTORS: dict[str, Type[LectureExtractor]] = {
     "civilization": CivilizationExtractor,
 }
 
-
 def register_extractor(series_id: str, cls: Type[LectureExtractor]) -> None:
     _EXTRACTORS[series_id] = cls
 
-
 def list_registered_series() -> list[str]:
     return sorted(_EXTRACTORS.keys())
-
 
 def get_extractor_class(*, series_id: str | None = None, source_id: str | None = None) -> Type[LectureExtractor]:
     if series_id and series_id in _EXTRACTORS:
@@ -39,11 +36,9 @@ def get_extractor_class(*, series_id: str | None = None, source_id: str | None =
         return _EXTRACTORS[override]
     return PredictiveHistoryExtractor
 
-
 def get_extractor(*, series_id: str | None = None, source_id: str | None = None) -> Type[LectureExtractor]:
     """Backward-compatible alias: returns the extractor *class*."""
     return get_extractor_class(series_id=series_id, source_id=source_id)
-
 
 def instantiate_extractor(*, series_id: str | None = None, source_id: str | None = None) -> LectureExtractor:
     cls = get_extractor_class(series_id=series_id, source_id=source_id)

@@ -1,6 +1,6 @@
 # Russia Authority Carrier Objects
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This bench tracks Russian statecraft carriers that are not primary current state carriers or ordinary speaker objects. These are ministers, negotiators, security figures, institutional voices, or offices whose statements carry Russian state intent across raw-inputs.
 

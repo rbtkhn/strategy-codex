@@ -129,20 +129,16 @@ JIANG = (
     "so yeah so we were in israel for a week",
 )
 
-
 def score(keys: tuple[str, ...], low: str) -> int:
     return sum(1 for k in keys if k in low)
 
-
 def fold(s: str) -> str:
     return unicodedata.normalize("NFKC", s).lower()
-
 
 def normalize_cell(s: str) -> str:
     s = re.sub(r"^\s*>>\s*", "", s, flags=re.MULTILINE)
     s = re.sub(r"\s+", " ", s.replace("\n", " "))
     return s.strip()
-
 
 def label_for_chunk(i: int, raw: str, prev: str | None) -> tuple[str, str]:
     low = fold(raw)
@@ -157,7 +153,6 @@ def label_for_chunk(i: int, raw: str, prev: str | None) -> tuple[str, str]:
     if prev == "Jay":
         return "Jiang Xueqin", "Jiang"
     return "Jay Shapiro", "Jay"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser()
@@ -195,7 +190,6 @@ def main() -> int:
     args.output.write_text("\n".join(out).rstrip() + "\n", encoding="utf-8")
     print(f"Wrote {args.output} ({len(chunks)} chunks)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

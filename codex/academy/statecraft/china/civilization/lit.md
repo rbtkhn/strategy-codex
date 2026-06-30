@@ -1,6 +1,5 @@
 # China Lit
 
-WORK only; not Record.
 
 ## Purpose
 

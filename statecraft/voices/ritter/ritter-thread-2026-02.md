@@ -1,7 +1,6 @@
 # Expert thread — `ritter`
 <!-- word_count: 1146 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 

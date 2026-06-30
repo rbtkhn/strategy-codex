@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Cyrus Janssen Channel Index
 

@@ -12,7 +12,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_LEDGER = REPO_ROOT / "docs" / "skill-work" / "work-dev" / "decision-ledger.md"
 DEFAULT_OUTPUT = ARTIFACTS_DIR / "work-dev" / "decision-ledger-summary.md"
 
-
 @dataclass(frozen=True)
 class DecisionRow:
     decision_id: str
@@ -23,13 +22,11 @@ class DecisionRow:
     source_receipt: str
     revisit_trigger: str
 
-
 def _split_table_row(line: str) -> list[str]:
     stripped = line.strip()
     if not stripped.startswith("|") or not stripped.endswith("|"):
         return []
     return [cell.strip() for cell in stripped.strip("|").split("|")]
-
 
 def parse_decisions(text: str) -> list[DecisionRow]:
     rows: list[DecisionRow] = []
@@ -51,7 +48,6 @@ def parse_decisions(text: str) -> list[DecisionRow]:
             continue
         rows.append(DecisionRow(*cells))
     return rows
-
 
 def render_summary(rows: list[DecisionRow], *, generated_at: str) -> str:
     active = [row for row in rows if row.status == "active"]
@@ -98,7 +94,6 @@ def render_summary(rows: list[DecisionRow], *, generated_at: str) -> str:
     lines.append("")
     return "\n".join(lines)
 
-
 def main() -> int:
     text = DEFAULT_LEDGER.read_text(encoding="utf-8")
     rows = parse_decisions(text)
@@ -107,7 +102,6 @@ def main() -> int:
     DEFAULT_OUTPUT.write_text(render_summary(rows, generated_at=generated_at), encoding="utf-8")
     print(f"wrote {DEFAULT_OUTPUT}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

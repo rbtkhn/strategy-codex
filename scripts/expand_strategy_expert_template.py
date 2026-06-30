@@ -14,8 +14,6 @@ Companion links in the template (pointing at ``strategy-expert-template.md#...``
 rewritten to sibling filenames. Placeholders ``<expert_id>`` and ``<Full name>`` are
 filled from CLI args.
 
-WORK only; not Record.
-
 Example::
 
     python3 scripts/expand_strategy_expert_template.py --expert-id jane-doe --full-name "Jane Doe"
@@ -49,14 +47,12 @@ _RE_THREAD_HEAD = re.compile(r"^[\s\n]*## Thread →[^\n]*\n\n", re.MULTILINE)
 _RE_TRANSCRIPT_HEAD = re.compile(r"^[\s\n]*## Transcript →[^\n]*\n\n", re.MULTILINE)
 _RE_MIND_HEAD = re.compile(r"^[\s\n]*## Mind →[^\n]*\n\n", re.MULTILINE)
 
-
 def _strip_bundle_section_trailer(s: str) -> str:
     """Remove a single trailing ``---`` line (bundle separator only), once."""
     lines = s.rstrip().split("\n")
     if len(lines) >= 1 and lines[-1].strip() == "---":
         lines = lines[:-1]
     return "\n".join(lines).rstrip() + "\n"
-
 
 def _split_bundle(text: str) -> tuple[str, str, str, str]:
     if (
@@ -75,26 +71,21 @@ def _split_bundle(text: str) -> tuple[str, str, str, str]:
     transcript_wrap, mind_wrap = rest.split(ANCHOR_MIND, 1)
     return profile_wrap, thread_wrap, transcript_wrap, mind_wrap
 
-
 def _strip_profile_section(s: str) -> str:
     s2 = _RE_PROFILE_HEAD.sub("", s.lstrip())
     return _strip_bundle_section_trailer(s2)
-
 
 def _strip_thread_section(s: str) -> str:
     s2 = _RE_THREAD_HEAD.sub("", s.lstrip())
     return _strip_bundle_section_trailer(s2)
 
-
 def _strip_transcript_section(s: str) -> str:
     s2 = _RE_TRANSCRIPT_HEAD.sub("", s.lstrip())
     return _strip_bundle_section_trailer(s2)
 
-
 def _strip_mind_section(s: str) -> str:
     s2 = _RE_MIND_HEAD.sub("", s.lstrip())
     return s2.rstrip() + "\n"
-
 
 def _apply_substitutions(body: str, expert_id: str, full_name: str) -> str:
     out = body.replace("<expert_id>", expert_id)
@@ -117,7 +108,6 @@ def _apply_substitutions(body: str, expert_id: str, full_name: str) -> str:
         f"](strategy-expert-{expert_id}-mind.md)",
     )
     return out
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -205,7 +195,6 @@ def main() -> int:
             print(f"wrote {display} ({len(body)} bytes)")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

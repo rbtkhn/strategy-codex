@@ -6,7 +6,6 @@ import subprocess
 
 REPO = Path(__file__).resolve().parent.parent
 
-
 def get_rename_map():
     out = subprocess.run(
         ["git", "diff", "--name-status", "HEAD"],
@@ -33,7 +32,6 @@ def get_rename_map():
             renames[old_base] = new_base
     return renames
 
-
 def main():
     renames = get_rename_map()
     # Sort by length descending so we replace longer (path) before shorter (basename)
@@ -53,7 +51,6 @@ def main():
                 if new_text != text:
                     md.write_text(new_text, encoding="utf-8")
                     print(f"Updated {md}: {old} -> {new}")
-
 
 if __name__ == "__main__":
     main()

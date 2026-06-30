@@ -31,7 +31,6 @@ _SUGGESTED_K = 5
 _MOST_CONNECTED_K = 10
 _LOW_LINK_NOTE_CAP = 25
 
-
 def passes_selector(rel_posix: str, basename: str, selector_type: str, selector_value: str) -> bool:
     norm = rel_posix.replace("\\", "/")
     if selector_type == "civilization":
@@ -40,7 +39,6 @@ def passes_selector(rel_posix: str, basename: str, selector_type: str, selector_
     if selector_type == "file_class":
         return infer_file_class(basename) == selector_value
     raise ValueError(f"unsupported selector type: {selector_type}")
-
 
 def iter_files_under_checkout(checkout: Path) -> list[Path]:
     ck = checkout.resolve()
@@ -59,7 +57,6 @@ def iter_files_under_checkout(checkout: Path) -> list[Path]:
         out.append(p)
     return sorted(out, key=lambda x: x.as_posix())
 
-
 def filter_members(
     all_files: list[Path],
     checkout: Path,
@@ -74,12 +71,10 @@ def filter_members(
             matched.append(p)
     return matched
 
-
 def output_stem(selector_type: str, selector_value: str) -> str:
     raw = f"{selector_type}__{selector_value}"
     safe = "".join(ch if ch.isalnum() or ch in "-_" else "_" for ch in raw.replace("/", "_"))
     return safe[:120] if len(safe) > 120 else safe
-
 
 def connection_counts_for_members(
     checkout: Path,
@@ -98,7 +93,6 @@ def connection_counts_for_members(
         counts.append(cnt)
     return counts, warnings
 
-
 def dominant_rows_from_members(member_paths_posix: list[str]) -> tuple[list[dict[str, object]], list[dict[str, object]]]:
     fc = Counter(infer_file_class(Path(p).name) for p in member_paths_posix)
     civ_raw = [civilization_token_from_path(p) for p in member_paths_posix]
@@ -106,7 +100,6 @@ def dominant_rows_from_members(member_paths_posix: list[str]) -> tuple[list[dict
     dom_fc = sorted(({"class": k, "count": v} for k, v in fc.items()), key=lambda x: (-int(x["count"]), str(x["class"])))
     dom_civ = sorted(({"civilization": k, "count": v} for k, v in cc.items()), key=lambda x: (-int(x["count"]), "" if x["civilization"] is None else str(x["civilization"])))
     return dom_fc, dom_civ
-
 
 def suggested_entry_points_from_members(
     rows: list[tuple[str, int]],
@@ -129,7 +122,6 @@ def suggested_entry_points_from_members(
         )
         out.append({"path": path, "reason": why, "connection_count": cnt})
     return out
-
 
 def render_family_markdown(report: dict[str, object]) -> str:
     sel = report.get("selector")
@@ -239,7 +231,6 @@ def render_family_markdown(report: dict[str, object]) -> str:
     )
     return "\n".join(lines).rstrip() + "\n"
 
-
 def build_family_report(
     repo_root: Path,
     repo_path: str | Path,
@@ -346,7 +337,6 @@ def build_family_report(
         report["warnings"] = warnings
     return report
 
-
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="External codex family / cluster structural summary.")
     parser.add_argument(
@@ -435,7 +425,6 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

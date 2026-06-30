@@ -1,6 +1,6 @@
 # Military
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This academy shelf holds military and war-studies reading lanes that are text-first rather than speaker-object folders. Use it for campaign analysis, operational narratives, escalation reading, and source-critical military synthesis.
 

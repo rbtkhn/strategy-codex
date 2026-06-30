@@ -14,7 +14,6 @@ PATHS_SAMPLE_MAX = 20
 
 StatedSource = Literal["proposal_regex", "absent", "parse_failed"]
 
-
 def parse_stated_file_count_from_proposal(text: str) -> tuple[int | None, StatedSource]:
     """
     Extract optional 'files listed' line from worker-generated proposal markdown.
@@ -27,7 +26,6 @@ def parse_stated_file_count_from_proposal(text: str) -> tuple[int | None, Stated
     if m2:
         return int(m2.group(1)), "proposal_regex"
     return None, "absent"
-
 
 def compute_coverage_status(
     *,
@@ -54,7 +52,6 @@ def compute_coverage_status(
         f"stated file count ({files_claimed}) is below opened count ({files_opened}) — underclaim"
     )
     return round(r, 3), "underclaim_suspected", w
-
 
 def build_scope_verification_block(
     *,

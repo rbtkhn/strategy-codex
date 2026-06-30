@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-03-14 (*The Backpack Girls*)
 <!-- word_count: 5189 -->
 
-WORK only; not Record.
 
 **Expert:** `ritter` · **Published:** 2026-03-14 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 

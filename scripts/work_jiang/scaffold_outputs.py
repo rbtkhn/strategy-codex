@@ -10,11 +10,9 @@ import yaml
 ROOT = Path(__file__).resolve().parents[2]
 WORK_DIR = ROOT / "codex" / "predictive-history"
 
-
 def slugify(text: str) -> str:
     s = "".join(ch.lower() if ch.isalnum() else " " for ch in text)
     return "-".join(s.split())
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -95,7 +93,6 @@ def main() -> int:
         print(f"Wrote site/{path.name}")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

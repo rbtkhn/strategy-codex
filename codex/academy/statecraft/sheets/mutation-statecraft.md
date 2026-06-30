@@ -1,6 +1,5 @@
 # Mutation Statecraft
 
-WORK only; not Record.
 
 ## Purpose
 

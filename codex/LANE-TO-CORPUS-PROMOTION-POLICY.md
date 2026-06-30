@@ -1,6 +1,5 @@
 # Lane-To-Corpus Promotion Policy
 
-WORK only; not Record.
 
 ## Canonical rule
 

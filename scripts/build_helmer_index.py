@@ -24,7 +24,6 @@ LINK_SUFFIX_RE = re.compile(
 )
 HELMER_TITLE_PREFIX = re.compile(r"^John Helmer:\s*", re.I)
 
-
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:5000]
     out: dict = {}
@@ -38,7 +37,6 @@ def parse_head(path: Path) -> dict:
             out["title"] = hm.group(1).strip()
     return out
 
-
 def pub_date_key(meta: dict, path: Path) -> str:
     pub = meta.get("pub_date", "")
     if pub and len(pub) >= 10:
@@ -48,7 +46,6 @@ def pub_date_key(meta: dict, path: Path) -> str:
         return day
     return day
 
-
 def host_bucket(path: Path) -> str:
     name = path.name.casefold()
     if "lascaris-helmer" in name or name.startswith("source-lascaris-"):
@@ -57,18 +54,15 @@ def host_bucket(path: Path) -> str:
         return "dialogue_works"
     return "other"
 
-
 def display_title(meta: dict) -> str:
     raw = meta.get("title") or "Untitled"
     return HELMER_TITLE_PREFIX.sub("", raw).strip()
-
 
 def row_label(meta: dict, path: Path) -> str:
     pub = pub_date_key(meta, path)
     title = display_title(meta)
     rel = f"../../../source-archive/statecraft/{path.parent.name}/{path.name}"
     return f"- [{pub} - {title}]({rel})"
-
 
 def load_annotation_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
@@ -86,7 +80,6 @@ def load_annotation_map(index_path: Path) -> dict[str, str]:
             out[fn] = suffix
     return out
 
-
 def collect_rows() -> list[tuple[str, Path, dict]]:
     rows: list[tuple[str, Path, dict]] = []
     for path in iter_archive_captures_for_shelf("helmer", ARCHIVE):
@@ -98,7 +91,6 @@ def collect_rows() -> list[tuple[str, Path, dict]]:
         rows.append((pub, path, meta))
     rows.sort(key=lambda t: (t[0], t[1].name))
     return rows
-
 
 def render_june_cadence_table() -> list[str]:
     """Curated routing overlay — not part of archive parity rows."""
@@ -119,7 +111,6 @@ def render_june_cadence_table() -> list[str]:
         "**Cross-weave:** Jun 16 pairs with [MOU-week Napolitano bench](../../notes/2026-06-15-mou-week-napolitano-bench-seam.md) (McGovern/Crooke/Sachs/Pape) — Helmer supplies **Kremlin domestic faction** lane; Pape supplies leverage math. **Jan 20** — [Greenland three-way weave](../../notes/2026-01-20-greenland-same-day-weave-helmer-freeman.md) (Helmer × Freeman × Mercouris — all transcript-tier); [Davos Dmitriev — Helmer × Mercouris](../../notes/arc-helmer-dmitriev-lane.md). **Feb 17** — [Geneva day weave — Helmer × Mercouris](../../notes/2026-02-17-geneva-day-weave-helmer-mercouris.md) (both **transcript-tier**).",
         "",
     ]
-
 
 def render_host_compat_and_boundary() -> list[str]:
     return [
@@ -142,7 +133,6 @@ def render_host_compat_and_boundary() -> list[str]:
         "- Helmer Substack (`johnhelmer.net`) not mirrored in archive; in-interview citations only.",
         "",
     ]
-
 
 def render_host_section(
     heading: str,
@@ -168,7 +158,6 @@ def render_host_section(
         lines.append("")
     return lines
 
-
 def render_index(rows: list[tuple[str, Path, dict]], annotations: dict[str, str]) -> str:
     dw_rows = [r for r in rows if host_bucket(r[1]) == "dialogue_works"]
     lascaris_rows = [r for r in rows if host_bucket(r[1]) == "lascaris"]
@@ -179,8 +168,7 @@ def render_index(rows: list[tuple[str, Path, dict]], annotations: dict[str, str]
     date_span = f"{rows[0][0]} → {rows[-1][0]}" if rows else "—"
 
     lines = [
-        "WORK only; not Record.",
-        "",
+                "",
         "# Helmer Source Index",
         "",
         "Purpose: canonical route map for materialized John Helmer appearances in **Statecraft Archive**. **Identity / voice hub:** [helmer-profile.md](helmer-profile.md). Primary hosts: **Dialogue Works / Nima** and **Reason to Resist / Lascaris** — Moscow insider-reporting register, Kremlin faction reads, deterrence / drone-war lanes.",
@@ -210,7 +198,6 @@ def render_index(rows: list[tuple[str, Path, dict]], annotations: dict[str, str]
     lines.extend(render_host_compat_and_boundary())
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="Print row count only")
@@ -232,7 +219,6 @@ def main() -> int:
     OUT.write_text(body if body.endswith("\n") else body + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {OUT} ({len(rows)} rows, {len(annotations)} annotations preserved)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

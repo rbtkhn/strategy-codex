@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # McGovern Support Spine 2025-2026
 

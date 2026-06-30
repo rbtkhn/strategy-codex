@@ -1,6 +1,5 @@
 # Matlock source index
 
-WORK only; not Record.
 
 Purpose: canonical statecraft-side source index for **Jack Matlock** while raw-text authority stays in the Statecraft Archive.
 

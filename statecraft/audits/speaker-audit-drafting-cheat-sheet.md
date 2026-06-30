@@ -1,6 +1,5 @@
 # Speaker Audit Drafting Cheat Sheet
 
-WORK only; not Record.
 
 Purpose: translate speaker-audit judgments into memo-safe drafting language without overstating closure.
 

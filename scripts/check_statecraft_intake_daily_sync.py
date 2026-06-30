@@ -37,7 +37,6 @@ DAILY_SOURCE_LINK_RE = re.compile(
     re.IGNORECASE,
 )
 
-
 @dataclass(frozen=True)
 class SyncReport:
     day: str
@@ -55,13 +54,11 @@ class SyncReport:
             return 0
         return 1
 
-
 def _parse_daily_checkpoint(text: str) -> int | None:
     match = ARCHIVE_CHECKPOINT_RE.search(text)
     if not match:
         return None
     return int(match.group(1))
-
 
 def _parse_daily_source_slugs(text: str, day: str) -> set[str]:
     slugs: set[str] = set()
@@ -69,7 +66,6 @@ def _parse_daily_source_slugs(text: str, day: str) -> set[str]:
         if link_day == day:
             slugs.add(slug)
     return slugs
-
 
 def build_sync_report(day: str, *, root: Path = DEFAULT_ROOT, daily_dir: Path = DAILY_DIR) -> SyncReport:
     day_dir = root / day
@@ -124,7 +120,6 @@ def build_sync_report(day: str, *, root: Path = DEFAULT_ROOT, daily_dir: Path = 
         archive_day_dir=str(day_dir.relative_to(REPO_ROOT)),
     )
 
-
 def format_human(report: SyncReport) -> str:
     lines = [
         f"statecraft intake/daily sync — {report.day}",
@@ -165,7 +160,6 @@ def format_human(report: SyncReport) -> str:
         )
     return "\n".join(lines)
 
-
 def iter_captured_days(*, root: Path = DEFAULT_ROOT) -> list[str]:
     """All YYYY-MM-DD archive days with at least one source file, oldest first."""
     root = root.resolve()
@@ -176,7 +170,6 @@ def iter_captured_days(*, root: Path = DEFAULT_ROOT) -> list[str]:
         if summarize_day_dir(day_dir).source_count > 0:
             days.append(day_dir.name)
     return days
-
 
 def build_batch_reports(
     *,
@@ -194,10 +187,8 @@ def build_batch_reports(
         reports.append(build_sync_report(day, root=root, daily_dir=daily_dir))
     return reports
 
-
 def batch_exit_code(reports: list[SyncReport]) -> int:
     return 1 if any(report.status == "desync" for report in reports) else 0
-
 
 def format_batch_human(reports: list[SyncReport], *, desync_only: bool = False) -> str:
     if not reports:
@@ -261,12 +252,10 @@ def format_batch_human(reports: list[SyncReport], *, desync_only: bool = False) 
 
     return "\n".join(lines)
 
-
 def resolve_latest_captured_day(*, root: Path = DEFAULT_ROOT) -> str | None:
     """Return the newest YYYY-MM-DD archive day with at least one source file."""
     days = iter_captured_days(root=root)
     return days[-1] if days else None
-
 
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -306,7 +295,6 @@ def parse_args() -> argparse.Namespace:
     )
     return ap.parse_args()
 
-
 def main() -> int:
     args = parse_args()
     root = args.root.resolve()
@@ -340,7 +328,6 @@ def main() -> int:
     else:
         print(format_human(report))
     return report.exit_code
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

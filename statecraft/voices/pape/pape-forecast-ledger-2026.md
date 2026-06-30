@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Pape Forecast Ledger - 2026
 

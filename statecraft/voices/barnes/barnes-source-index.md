@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Barnes Source Index (compat redirect)
 

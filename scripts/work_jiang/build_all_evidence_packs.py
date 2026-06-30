@@ -17,7 +17,6 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 from arch_chapters import chapters_for_volume_block, top_level_chapters  # noqa: E402
 
-
 def main() -> int:
     arch = yaml.safe_load((WORK_DIR / "metadata" / "book-architecture.yaml").read_text(encoding="utf-8"))
     # Volume I + nested II–VII.
@@ -46,7 +45,6 @@ def main() -> int:
     subprocess.run([sys.executable, str(status_script)], cwd=str(ROOT), check=False)
     print("Done. STATUS.md refreshed via render_status_dashboard.py")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -30,14 +30,12 @@ CIV_HISTORY_VOCAB = re.compile(
     re.I,
 )
 
-
 def extract_ix_a_block(self_md: str) -> str:
     i = (self_md or "").find("### IX-A")
     if i < 0:
         return ""
     j = self_md.find("### IX-B", i)
     return self_md[i : j if j > 0 else i + 15000]
-
 
 def collect_ix_a_topic_violations_from_block(ix_a_block: str, *, rel_path: str = "self.md") -> list[str]:
     """Scan IX-A YAML topic lines for corpus/path/length violations."""
@@ -66,11 +64,9 @@ def collect_ix_a_topic_violations_from_block(ix_a_block: str, *, rel_path: str =
         )
     return out
 
-
 def collect_ix_a_violations_from_self_md(self_md: str, *, rel_path: str = "self.md") -> list[str]:
     """Run IX-A topic rules on a full self.md body (e.g. merge preview)."""
     return collect_ix_a_topic_violations_from_block(extract_ix_a_block(self_md), rel_path=rel_path)
-
 
 def gate_suggested_reference_surface(
     text: str,

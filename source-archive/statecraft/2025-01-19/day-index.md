@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (3), `Nima Alkhorshid` (2), `Alexander Mercouris` (1)
 - Guests: `'Maximum Pressure' on IRAN a Good Idea? John Mearsheimer` (1), `Chas Freeman` (1), `Douglas Macgregor` (1), `John Mearsheimer` (1), `Michael Hudson` (1), `Richard D. Wolff` (1), `Trump Pressures Netanyahu` (1)
-- Threads: `davis` (3), `alkorshid` (2), `mearsheimer` (2), `freeman` (1), `macgregor` (1), `mercouris` (1)
+- Threads: `davis` (3), `alkhorshid` (2), `mearsheimer` (2), `freeman` (1), `macgregor` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -36,8 +36,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=KJp2F8mFhuk) | `source-daniel-davis-col-doug-macgregor-president-trump-time-to-get-out-of-the-ukraine-war-2025-01-19.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=9CFhQy-yUgw) | `source-daniel-davis-john-mearsheimer-there-ll-be-no-ceasefire-in-ukraine-2025-01-19.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=KZH6IAoCg-k) | `source-daniel-davis-maximum-pressure-on-iran-a-good-idea-john-mearsheimer-2025-01-19.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `freeman` | [watch](https://www.youtube.com/watch?v=hV6_6hkYpwM) | `source-dialogue-works-can-trump-outdo-biden-s-worst-amb-chas-freeman-richard-d-wolff-michael-h-2025-01-19.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid` | [watch](https://www.youtube.com/watch?v=B4hvxNVl714) | `source-dialogue-works-trump-pressures-netanyahu-a-power-play-unfolds-larry-c-johnson-scott-rit-2025-01-19.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `freeman` | [watch](https://www.youtube.com/watch?v=hV6_6hkYpwM) | `source-dialogue-works-can-trump-outdo-biden-s-worst-amb-chas-freeman-richard-d-wolff-michael-h-2025-01-19.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid` | [watch](https://www.youtube.com/watch?v=B4hvxNVl714) | `source-dialogue-works-trump-pressures-netanyahu-a-power-play-unfolds-larry-c-johnson-scott-rit-2025-01-19.md` |
 
 ## Writer sources
 

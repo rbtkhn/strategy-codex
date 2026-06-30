@@ -1,6 +1,5 @@
 # Iran Crisis Test Casebook
 
-WORK only; not Record.
 
 Use this lane casebook to track what Iran learns from each crisis test. The shared method index is [Crisis Test Casebook](../sheets/crisis-test-casebook.md).
 

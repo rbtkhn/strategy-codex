@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2026-03-31/source-judging-freedom-mearsheimer-will-trump-go-kamikaze-2026-03-31.md
 ---
 
-WORK only; not Record.
 
 # Mearsheimer arc
 

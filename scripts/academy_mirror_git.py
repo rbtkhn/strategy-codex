@@ -10,14 +10,11 @@ from pathlib import Path
 DEFAULT_COMMITTER_NAME = "Robert Kuhne"
 DEFAULT_COMMITTER_EMAIL = "rbtkhn@users.noreply.github.com"
 
-
 def committer_name() -> str:
     return os.environ.get("ACADEMY_MIRROR_GIT_USER_NAME", DEFAULT_COMMITTER_NAME)
 
-
 def committer_email() -> str:
     return os.environ.get("ACADEMY_MIRROR_GIT_USER_EMAIL", DEFAULT_COMMITTER_EMAIL)
-
 
 def commit_identity_args() -> list[str]:
     return [
@@ -27,14 +24,12 @@ def commit_identity_args() -> list[str]:
         f"user.email={committer_email()}",
     ]
 
-
 def ssh_remote_from_https(remote_url: str) -> str:
     prefix = "https://github.com/"
     if not remote_url.startswith(prefix):
         raise ValueError(f"unsupported remote URL for SSH fallback: {remote_url}")
     slug = remote_url[len(prefix) :].removesuffix(".git")
     return f"git@github.com:{slug}"
-
 
 def git_output(args: list[str], cwd: Path, *, identity: bool = False) -> str:
     prefix = commit_identity_args() if identity else []
@@ -51,7 +46,6 @@ def git_output(args: list[str], cwd: Path, *, identity: bool = False) -> str:
         raise RuntimeError(f"git {' '.join(args)} failed in {cwd}: {detail}")
     return proc.stdout.strip()
 
-
 def sync_clone_branch(clone_dir: Path, branch: str, remote_url: str) -> None:
     if not (clone_dir / ".git").exists():
         raise RuntimeError(f"clone missing git dir: {clone_dir}")
@@ -65,11 +59,9 @@ def sync_clone_branch(clone_dir: Path, branch: str, remote_url: str) -> None:
         git_output(["checkout", branch], clone_dir)
         git_output(["merge", "--ff-only", "FETCH_HEAD"], clone_dir)
 
-
 def git_commit(clone_dir: Path, message: str) -> None:
     git_output(["add", "-A"], clone_dir)
     git_output(["commit", "-m", message], clone_dir, identity=True)
-
 
 def push_branch(clone_dir: Path, branch: str, remote_url: str) -> str:
     try:

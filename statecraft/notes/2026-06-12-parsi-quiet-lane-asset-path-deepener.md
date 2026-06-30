@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-12/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-12-june-2026-06-12.md
   - source-archive/statecraft/2026-06-12/source-daniel-davis-trump-again-claims-agmt-at-hand-iran-different-view-2026-06-12.md
 ---
-WORK only; not Record.
 
 # Parsi Quiet-Lane + Asset-Path Deepener — 2026-06-12
 

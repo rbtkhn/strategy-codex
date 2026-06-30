@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-19/source-daniel-davis-israel-hezbollah-agree-ceasefire-2026-06-19.md
   - source-archive/statecraft/2026-06-19/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-19-june-2026-06-19.md
 ---
-WORK only; not Record.
 
 # Washington Talks × Venue Fork — J19-13 — Freeman × Weichert × Parsi — 2026-06-19
 

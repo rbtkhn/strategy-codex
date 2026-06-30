@@ -66,7 +66,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | `Daniel Davis` | 15 |
 | `Nima Alkhorshid` | 15 |
 | `Alexander Mercouris` | 14 |
-| `Nima Alkorshid` | 9 |
+| `Nima Alkhorshid` | 9 |
 | `Dialogue Works` | 7 |
 | `Daniel Davis / Deep Dive` | 4 |
 | `Diesen` | 4 |

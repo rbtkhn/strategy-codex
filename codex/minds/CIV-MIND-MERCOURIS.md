@@ -1,6 +1,5 @@
 # CIV-MIND-MERCOURIS — redirect (stable path)
 
-WORK only; not Record.
 
 **Canonical voice profile (SSOT):** [statecraft/voices/mercouris/mercouris-profile.md](../../statecraft/voices/mercouris/mercouris-profile.md)
 

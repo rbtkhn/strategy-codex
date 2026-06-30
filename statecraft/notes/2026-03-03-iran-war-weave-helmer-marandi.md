@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-03/source-daniel-davis-henningsen-us-iran-war-engulfs-middle-east-2026-03-03.md
   - source-archive/statecraft/2026-02-17/README.md
 ---
-WORK only; not Record.
 
 # Mar 3 2026 — Iran war weave (Helmer × Marandi)
 

@@ -42,7 +42,6 @@ DOI_RE = re.compile(r"\b10\.\d{4,9}/[-._;()/:A-Z0-9]+\b", re.IGNORECASE)
 URL_RE = re.compile(r"https?://[^\s)>]+", re.IGNORECASE)
 YEAR_RE = re.compile(r"\b(19|20)\d{2}\b")
 
-
 @dataclass
 class OutputPaths:
     artifact_path: Path
@@ -50,33 +49,27 @@ class OutputPaths:
     offer_memo_path: Path | None = None
     self_proposal_path: Path | None = None
 
-
 @dataclass
 class DerivedOutputs:
     workshop_brief: str | None = None
     offer_memo: str | None = None
     self_proposal_draft: dict[str, Any] | None = None
 
-
 def slugify(text: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
     return slug or "research-topic"
 
-
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
-
 
 def load_text(path_arg: str) -> str:
     if path_arg == "-":
         return sys.stdin.read()
     return Path(path_arg).read_text(encoding="utf-8")
 
-
 def split_paragraphs(text: str) -> list[str]:
     chunks = re.split(r"\n\s*\n", text)
     return [chunk.strip() for chunk in chunks if chunk.strip()]
-
 
 def infer_summary(text: str) -> str:
     paragraphs = split_paragraphs(text)
@@ -84,7 +77,6 @@ def infer_summary(text: str) -> str:
         return "No summary could be inferred from the pasted research."
     summary = paragraphs[0].replace("\n", " ").strip()
     return summary[:600]
-
 
 def extract_bullet_candidate(line: str) -> str | None:
     stripped = line.strip()
@@ -94,12 +86,10 @@ def extract_bullet_candidate(line: str) -> str | None:
             return candidate or None
     return None
 
-
 def clean_labeled_value(text: str) -> str:
     cleaned = re.sub(r"^(citation|reference|paper)\s*:\s*", "", text.strip(), flags=re.IGNORECASE)
     cleaned = re.sub(r"[\s.]*doi(?:\s*:)?\s*$", "", cleaned, flags=re.IGNORECASE).strip(" -:;,.")
     return cleaned.strip()
-
 
 def validate_artifact_fallback(artifact: dict[str, Any], schema: dict[str, Any]) -> None:
     required = set(schema.get("required", []))
@@ -159,7 +149,6 @@ def validate_artifact_fallback(artifact: dict[str, Any], schema: dict[str, Any])
         if citation.get("resolution_status") not in citation_status_enum:
             raise ValueError("Each citation.resolution_status must be resolved, partial, or unresolved")
 
-
 def infer_list_items(text: str, *, labels: tuple[str, ...]) -> list[str]:
     items: list[str] = []
     for line in text.splitlines():
@@ -170,7 +159,6 @@ def infer_list_items(text: str, *, labels: tuple[str, ...]) -> list[str]:
             if len(after_colon) == 2 and after_colon[1].strip():
                 items.append(after_colon[1].strip())
     return items
-
 
 def infer_claims(text: str) -> list[dict[str, Any]]:
     claims: list[str] = []
@@ -191,7 +179,6 @@ def infer_claims(text: str) -> list[dict[str, Any]]:
             }
         )
     return out
-
 
 def infer_citations(text: str) -> list[dict[str, Any]]:
     citations: list[dict[str, Any]] = []
@@ -250,7 +237,6 @@ def infer_citations(text: str) -> list[dict[str, Any]]:
         )
     return citations
 
-
 def build_artifact(args: argparse.Namespace, raw_capture: str) -> dict[str, Any]:
     artifact: dict[str, Any] = {
         "artifact_schema_version": 1,
@@ -282,7 +268,6 @@ def build_artifact(args: argparse.Namespace, raw_capture: str) -> dict[str, Any]
     }
     return artifact
 
-
 def validate_artifact(artifact: dict[str, Any]) -> None:
     if not SCHEMA_PATH.is_file():
         raise FileNotFoundError(f"Missing schema: {SCHEMA_PATH}")
@@ -292,30 +277,24 @@ def validate_artifact(artifact: dict[str, Any]) -> None:
         return
     validate_artifact_fallback(artifact, schema)
 
-
 def ensure_dir(path: Path) -> None:
     path.mkdir(parents=True, exist_ok=True)
 
-
 def artifact_root_for_lane(lane: str) -> Path:
     return LANE_ROOTS[lane]
-
 
 def write_json(path: Path, payload: dict[str, Any]) -> None:
     ensure_dir(path.parent)
     path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
 
-
 def artifact_relpath(path: Path) -> str:
     return str(path.resolve().relative_to(REPO_ROOT.resolve())).replace("\\", "/")
-
 
 def first_claim(artifact: dict[str, Any]) -> str:
     claims = artifact.get("key_claims") or []
     if claims:
         return str(claims[0].get("claim") or "").strip()
     return artifact["summary"]
-
 
 def render_workshop_brief(artifact: dict[str, Any], artifact_path: Path) -> str:
     acceleration = artifact.get("acceleration_vector") or "Needs operator naming from the source artifact."
@@ -328,7 +307,7 @@ def render_workshop_brief(artifact: dict[str, Any], artifact_path: Path) -> str:
         [
             f"# Academy Brief - {artifact['topic_slug']}",
             "",
-            "WORK only; upstream external research, not workshop truth.",
+            "non-authoritative; upstream external research, not workshop truth.",
             "",
             f"- Source artifact: `{artifact_relpath(artifact_path)}`",
             f"- Source: `{artifact['source']}`",
@@ -362,14 +341,13 @@ def render_workshop_brief(artifact: dict[str, Any], artifact_path: Path) -> str:
         ]
     ) + "\n"
 
-
 def render_offer_memo(artifact: dict[str, Any], artifact_path: Path) -> str:
     commercial = artifact.get("commercial_relevance") or "Translate the research into buyer pain and proof discipline before reuse."
     return "\n".join(
         [
             f"# Singularity-Academy Offer Memo - {artifact['topic_slug']}",
             "",
-            "WORK only; source-bound business memo derived from external research.",
+            "non-authoritative; source-bound business memo derived from external research.",
             "",
             f"- Source artifact: `{artifact_relpath(artifact_path)}`",
             f"- Query: {artifact['query']}",
@@ -391,7 +369,6 @@ def render_offer_memo(artifact: dict[str, Any], artifact_path: Path) -> str:
             f"- Lead claim: {first_claim(artifact)}",
         ]
     ) + "\n"
-
 
 def build_self_proposal_draft(artifact: dict[str, Any], artifact_path: Path) -> dict[str, Any]:
     suggested_entry = artifact["proposed_ix_updates"][0] if artifact["proposed_ix_updates"] else first_claim(artifact)
@@ -424,13 +401,11 @@ def build_self_proposal_draft(artifact: dict[str, Any], artifact_path: Path) -> 
         "evaluation_notes": "Derived from WORK-only external research. Not gate-ready until explicitly reviewed.",
     }
 
-
 def validate_requested_outputs(args: argparse.Namespace) -> None:
     if args.emit_workshop_brief and args.lane != "singularity-academy":
         raise ValueError("--emit-workshop-brief is only valid with --lane singularity-academy")
     if args.emit_offer_memo and args.lane != "singularity-academy":
         raise ValueError("--emit-offer-memo is only valid with --lane singularity-academy")
-
 
 def default_output_paths(args: argparse.Namespace, artifact: dict[str, Any]) -> OutputPaths:
     topic_slug = artifact["topic_slug"]
@@ -459,14 +434,12 @@ def default_output_paths(args: argparse.Namespace, artifact: dict[str, Any]) -> 
         self_proposal_path=self_proposal_path,
     )
 
-
 def build_derived_outputs(args: argparse.Namespace, artifact: dict[str, Any], artifact_path: Path) -> DerivedOutputs:
     return DerivedOutputs(
         workshop_brief=render_workshop_brief(artifact, artifact_path) if args.emit_workshop_brief else None,
         offer_memo=render_offer_memo(artifact, artifact_path) if args.emit_offer_memo else None,
         self_proposal_draft=build_self_proposal_draft(artifact, artifact_path) if args.emit_self_proposal else None,
     )
-
 
 def write_outputs(args: argparse.Namespace, artifact: dict[str, Any]) -> OutputPaths:
     paths = default_output_paths(args, artifact)
@@ -482,7 +455,6 @@ def write_outputs(args: argparse.Namespace, artifact: dict[str, Any]) -> OutputP
     if paths.self_proposal_path is not None and derived.self_proposal_draft is not None:
         write_json(paths.self_proposal_path, derived.self_proposal_draft)
     return paths
-
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
@@ -520,7 +492,6 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--emit-self-proposal", action="store_true")
     return parser
 
-
 def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
@@ -542,7 +513,6 @@ def main(argv: list[str] | None = None) -> int:
     }
     print(json.dumps(payload, indent=2))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

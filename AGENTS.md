@@ -92,6 +92,7 @@ Rules 1–11 detail, triadic cognition, Lexile, humane purpose: [`docs/agent-rul
 - **Proposal first** for non-trivial implementation; operator approves scope.
 - **Commits:** only when the operator asks.
 - **Preflight:** `python3 scripts/check_repo_health.py --quick`
+- **Schema registry:** [`docs/system/schema-system.md`](docs/system/schema-system.md) · `python3 scripts/validate_all_schemas.py --scope prediction` · lifecycle: [`docs/statecraft/prediction-system.md`](docs/statecraft/prediction-system.md)
 - **Notes gate:** `python3 scripts/check_statecraft_notes.py --warn` (corpus) · `--verify` before shelf-native promote · `--strict --changed-only --tier-a-only` on changed Tier A files
 - **Skills:** `python3 scripts/validate_skills.py`
 - **Contributor paths:** [`contributing.md`](contributing.md) · [`docs/contributors/`](docs/contributors/)

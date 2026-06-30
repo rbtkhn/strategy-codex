@@ -72,7 +72,6 @@ ABSTAIN_MARKERS = (
     "haven't learned",
 )
 
-
 def _materialize_git_ref(*, repo_root: Path, git_ref: str, user_id: str, dest: Path) -> None:
     """Write files from `git show` into dest (profile root: contains self.md)."""
     dest.mkdir(parents=True, exist_ok=True)
@@ -121,7 +120,6 @@ def _materialize_git_ref(*, repo_root: Path, git_ref: str, user_id: str, dest: P
             f"git ref {git_ref!r} did not yield {rel_base}/self.md — check ref and path."
         )
 
-
 def _merge_chroma_snippets(user_id: str, query_text: str, top_k: int) -> list[str]:
     """Optional vector snippets; empty if index or key missing."""
     try:
@@ -136,7 +134,6 @@ def _merge_chroma_snippets(user_id: str, query_text: str, top_k: int) -> list[st
             out.append(f"[chroma:{r.get('id', '?')}] {doc[:500]}")
     return out
 
-
 def _estimate_confidence(response: str) -> float:
     low = response.lower()
     cites = len(re.findall(r"\[(?:LEARN|CUR|PER|ACT|READ|WRITE|CREATE)-\d+\]", response))
@@ -148,13 +145,11 @@ def _estimate_confidence(response: str) -> float:
         return 72.0
     return 55.0
 
-
 def _count_pending_gate(user_id: str) -> int:
     from recursion_gate_review import parse_review_candidates
 
     rows = parse_review_candidates(user_id=user_id)
     return sum(1 for r in rows if (r.get("status") or "").strip().lower() == "pending")
-
 
 def _pending_cap(user_id: str) -> int | None:
     cfg = load_fork_config(user_id) or {}
@@ -166,7 +161,6 @@ def _pending_cap(user_id: str) -> int | None:
         return int(m)
     except (TypeError, ValueError):
         return None
-
 
 def _run_single_query(
     *,
@@ -223,7 +217,6 @@ def _run_single_query(
         "confidence": _estimate_confidence(reply),
     }
 
-
 def _build_report(
     *,
     scenario: str,
@@ -271,7 +264,6 @@ def _build_report(
         "*Simulation only — not merged into the Record. Approve via recursion-gate if useful.*"
     )
     return "\n".join(lines)
-
 
 def main() -> int:
     load_dotenv(REPO_ROOT / ".env")
@@ -440,7 +432,6 @@ def main() -> int:
             os.environ.pop("GRACE_MAR_PROFILE_DIR", None)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

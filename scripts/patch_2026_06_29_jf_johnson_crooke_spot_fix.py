@@ -4,7 +4,6 @@ import re
 
 REPO = Path(__file__).resolve().parents[1]
 
-
 def patch(path: str, subs: list[tuple[str, str]], spot_note: str) -> None:
     p = REPO / path
     body = p.read_text(encoding="utf-8")
@@ -35,7 +34,6 @@ def patch(path: str, subs: list[tuple[str, str]], spot_note: str) -> None:
         )
     p.write_text(body, encoding="utf-8")
     print(f"{path}: {n} replacements")
-
 
 johnson = [
     ("Operation Barbaroso", "Operation Barbarossa"),
@@ -86,7 +84,6 @@ crooke = [
     ("Wow. Alistia,", "Wow. Alastair,"),
 ]
 
-
 def main() -> int:
     patch(
         "source-archive/statecraft/2026-06-29/source-judging-freedom-johnson-trump-mou-unraveling-2026-06-29.md",
@@ -99,7 +96,6 @@ def main() -> int:
         "2026-06-29 — Crooke name, Hormuz, Ghalibaf/Araghchi/Pezeshkian, Supreme Leader, IAEA/AWACS, Merz/Starmer/Kellogg, Aoun/Sudani",
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

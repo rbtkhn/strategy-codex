@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-16/source-judging-freedom-freeman-if-trump-says-no-to-netanyahu-2026-06-16.md
   - source-archive/statecraft/2026-06-16/source-dialogue-works-marandi-iran-steps-in-israel-refuses-withdraw-hezbollah-crushes-buffer-zone-2026-06-16.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — 2026-06-16
 

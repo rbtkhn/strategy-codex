@@ -95,7 +95,7 @@ TOKEN_STOPWORDS = {
     "alexander",
     "mercouris",
     "nima",
-    "alkorshid",
+    "alkhorshid",
 }
 NARROWER_CUES = {
     "today",
@@ -114,7 +114,6 @@ NARROWER_CUES = {
 SHORT_TITLE_MARKERS = ("#short", " shorts", "shorts ", "(short", " clip", "snippet", "teaser")
 BROAD_TOKEN_STOPWORDS = TOKEN_STOPWORDS - {"iran", "war", "trump", "china"}
 
-
 @dataclass(frozen=True)
 class ChannelSpec:
     channel_key: str
@@ -128,14 +127,11 @@ class ChannelSpec:
     file_prefix: str
     discovery_priority: list[str]
 
-
 def _parse_date(value: str) -> date:
     return date.fromisoformat(value)
 
-
 def _window_slug(start: date, end: date) -> str:
     return f"{start.isoformat()}_to_{end.isoformat()}"
-
 
 def _load_discovery_specs(path: Path | None = None) -> dict[str, ChannelSpec]:
     config_path = path or resolve_discovery_config_path()
@@ -147,18 +143,15 @@ def _load_discovery_specs(path: Path | None = None) -> dict[str, ChannelSpec]:
         out[spec.channel_key] = spec
     return out
 
-
 def _channel_id_from_url(url: str) -> str:
     match = re.search(r"/channel/(UC[\w-]+)", url or "")
     return match.group(1) if match else ""
-
 
 def _normalize_handle_url(url: str) -> str:
     cleaned = (url or "").strip().rstrip("/")
     if cleaned.endswith("/videos"):
         return cleaned[: -len("/videos")]
     return cleaned
-
 
 def _spec_from_roster_row(row: dict[str, Any], discovery: dict[str, ChannelSpec]) -> ChannelSpec | None:
     key = str(row.get("slug") or "").strip()
@@ -184,7 +177,6 @@ def _spec_from_roster_row(row: dict[str, Any], discovery: dict[str, ChannelSpec]
         file_prefix=f"source-{key}",
         discovery_priority=list(DISCOVERY_SOURCE_ORDER),
     )
-
 
 def _load_roster(
     *,
@@ -222,7 +214,6 @@ def _load_roster(
             out[spec.channel_key] = spec
     return dict(sorted(out.items()))
 
-
 def _load_watchlist(path: Path | None = None) -> dict[str, ChannelSpec]:
     """Daily watchlist subset (six ``daily_watchlist`` channels) via check-sources roster."""
     return _load_roster(
@@ -230,7 +221,6 @@ def _load_watchlist(path: Path | None = None) -> dict[str, ChannelSpec]:
         watchlist_only=True,
         watchlist_path=path,
     )
-
 
 def _canonical_watch_url(value: str) -> str | None:
     raw = (value or "").strip()
@@ -253,14 +243,12 @@ def _canonical_watch_url(value: str) -> str | None:
             return watch_url(vid)
     return raw.rstrip("/")
 
-
 def _youtube_id_from_url(value: str) -> str | None:
     canonical = _canonical_watch_url(value)
     if not canonical:
         return None
     match = re.search(r"[?&]v=([A-Za-z0-9_-]{11})", canonical)
     return match.group(1) if match else None
-
 
 def _parse_frontmatter(text: str) -> dict[str, str]:
     if not text.startswith("---"):
@@ -277,7 +265,6 @@ def _parse_frontmatter(text: str) -> dict[str, str]:
         key, raw = line.split(":", 1)
         out[key.strip()] = raw.strip().strip("\"'")
     return out
-
 
 def _scan_raw_input_index(notebook_root: Path) -> dict[str, list[str]]:
     raw_root = notebook_root / "raw-input"
@@ -300,7 +287,6 @@ def _scan_raw_input_index(notebook_root: Path) -> dict[str, list[str]]:
             matches.setdefault(raw_video_id, []).append(str(md))
     return matches
 
-
 def _scan_source_archive_index(archive_root: Path) -> dict[str, list[str]]:
     matches: dict[str, list[str]] = {}
     if not archive_root.is_dir():
@@ -319,7 +305,6 @@ def _scan_source_archive_index(archive_root: Path) -> dict[str, list[str]]:
                 matches.setdefault(youtube_id, []).append(str(path))
     return matches
 
-
 def _merge_capture_indexes(*indexes: dict[str, list[str]]) -> dict[str, list[str]]:
     merged: dict[str, list[str]] = {}
     for index in indexes:
@@ -329,11 +314,9 @@ def _merge_capture_indexes(*indexes: dict[str, list[str]]) -> dict[str, list[str
         merged[key] = sorted({path for path in paths})
     return merged
 
-
 def _guess_limit(start: date, end: date) -> int:
     days = max(1, (end - start).days + 1)
     return max(60, min(400, days * 25))
-
 
 def _fetch_feed_entries(channel_id: str) -> list[dict[str, Any]]:
     feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
@@ -363,7 +346,6 @@ def _fetch_feed_entries(channel_id: str) -> list[dict[str, Any]]:
         )
     return rows
 
-
 def _fetch_metadata(video_id: str) -> dict[str, Any]:
     try:
         info = fetch_video_metadata_import(video_id)
@@ -387,7 +369,6 @@ def _fetch_metadata(video_id: str) -> dict[str, Any]:
         "is_live": bool(info.get("is_live")),
         "availability": str(info.get("availability") or ""),
     }
-
 
 def _discover_channel_online(spec: ChannelSpec, start: date, end: date) -> dict[str, Any]:
     limit = _guess_limit(start, end)
@@ -503,7 +484,6 @@ def _discover_channel_online(spec: ChannelSpec, start: date, end: date) -> dict[
         "items": filtered,
     }
 
-
 def _load_receipt(path: Path, *, allow_missing: bool = False) -> dict[str, Any]:
     if not path.exists():
         if allow_missing:
@@ -515,26 +495,21 @@ def _load_receipt(path: Path, *, allow_missing: bool = False) -> dict[str, Any]:
         raise FileNotFoundError(path)
     return json.loads(path.read_text(encoding="utf-8"))
 
-
 def _write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
-
 
 def _tokenize_title(title: str) -> set[str]:
     words = re.findall(r"[a-z0-9]+", title.lower())
     return {w for w in words if len(w) >= 3 and w not in TOKEN_STOPWORDS}
 
-
 def _lead_subject_tokens(title: str) -> set[str]:
     lead = re.split(r"[:|/\\-]", title, maxsplit=1)[0]
     return _tokenize_title(lead)
 
-
 def _topic_tokens(title: str) -> set[str]:
     words = re.findall(r"[a-z0-9]+", title.lower())
     return {w for w in words if len(w) >= 3 and w not in BROAD_TOKEN_STOPWORDS}
-
 
 def _is_hidden_short(row: dict[str, Any]) -> bool:
     title = str(row.get("title") or "").lower()
@@ -542,7 +517,6 @@ def _is_hidden_short(row: dict[str, Any]) -> bool:
     if isinstance(duration, int) and duration < 180:
         return True
     return any(marker in title for marker in SHORT_TITLE_MARKERS)
-
 
 def _is_upcoming(row: dict[str, Any]) -> bool:
     live_status = str(row.get("live_status") or "").lower()
@@ -552,7 +526,6 @@ def _is_upcoming(row: dict[str, Any]) -> bool:
     if "upcoming" in availability:
         return True
     return False
-
 
 def _find_companion_parent(row: dict[str, Any], peers: list[dict[str, Any]]) -> tuple[dict[str, Any] | None, str | None]:
     channel_key = str(row.get("channel_key") or "")
@@ -612,7 +585,6 @@ def _find_companion_parent(row: dict[str, Any], peers: list[dict[str, Any]]) -> 
                     best_reason = "same-day shorter overlap companion"
 
     return best_parent, best_reason
-
 
 def _classify_rows(
     discovered_rows: list[dict[str, Any]],
@@ -694,7 +666,6 @@ def _classify_rows(
     rows.sort(key=lambda item: (item["date"], item["channel_key"], item["youtube_id"]))
     return rows
 
-
 def _bucket_summary(rows: list[dict[str, Any]]) -> dict[str, Any]:
     main_rows = [row for row in rows if row["classification"] in MAIN_CLASSES]
     captured_main = [row for row in rows if row["classification"] == "captured-main"]
@@ -706,7 +677,6 @@ def _bucket_summary(rows: list[dict[str, Any]]) -> dict[str, Any]:
         "must_capture_remaining": sum(1 for row in rows if row["priority"] == "must-capture" and not row["captured"]),
     }
 
-
 def _derive_status(overall_pct: float, recent_pct: float, must_capture_remaining: int) -> str:
     if overall_pct >= 0.70 and recent_pct >= 0.90 and must_capture_remaining == 0:
         return "complete"
@@ -715,7 +685,6 @@ def _derive_status(overall_pct: float, recent_pct: float, must_capture_remaining
     if overall_pct >= 0.70:
         return "meets-overall-only"
     return "below-threshold"
-
 
 def _derive_target_status(target: dict[str, Any]) -> str:
     if target["main_total"] == 0:
@@ -728,7 +697,6 @@ def _derive_target_status(target: dict[str, Any]) -> str:
         return "coverage-ok-with-must-captures"
     return "below-threshold"
 
-
 def _row_date_in_window(row: dict[str, Any], start: date, end: date) -> bool:
     raw = str(row.get("date") or "").strip()
     if not raw:
@@ -738,7 +706,6 @@ def _row_date_in_window(row: dict[str, Any], start: date, end: date) -> bool:
     except ValueError:
         return False
     return start <= row_date <= end
-
 
 def _compute_summary(rows: list[dict[str, Any]], recent_start: date, target_start: date, target_end: date) -> dict[str, Any]:
     overall = _bucket_summary(rows)
@@ -795,7 +762,6 @@ def _compute_summary(rows: list[dict[str, Any]], recent_start: date, target_star
         )
     return summary
 
-
 def _render_queue_markdown(queue_groups: dict[str, list[dict[str, Any]]]) -> str:
     lines = ["# Check-sources repair queue", ""]
     for label in ("must-capture", "probably-capture"):
@@ -814,7 +780,6 @@ def _render_queue_markdown(queue_groups: dict[str, list[dict[str, Any]]]) -> str
             )
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
-
 
 def _write_ledger(rows: list[dict[str, Any]], output_dir: Path, fmt: str) -> dict[str, str]:
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -867,7 +832,6 @@ def _write_ledger(rows: list[dict[str, Any]], output_dir: Path, fmt: str) -> dic
         written["format"] = str(jsonl_path)
 
     return written
-
 
 def run_audit(
     *,
@@ -974,7 +938,6 @@ def run_audit(
         "roster_channel_keys": [spec.channel_key for spec in selected],
     }
 
-
 def _build_parser() -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--start", required=True, help="YYYY-MM-DD")
@@ -1010,7 +973,6 @@ def _build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--offline", action="store_true", help="Score from existing receipts without fetching discovery")
     return ap
 
-
 def main(argv: list[str] | None = None) -> int:
     args = _build_parser().parse_args(argv)
     result = run_audit(
@@ -1030,7 +992,6 @@ def main(argv: list[str] | None = None) -> int:
     print(f"Receipts: {result['receipt_dir']}", file=sys.stderr)
     print(f"Outputs: {result['output_dir']}", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

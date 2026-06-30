@@ -12,8 +12,6 @@ backfill stays in the legacy file until you move it deliberately).
 
 Run ``python3 scripts/strategy_thread.py`` after scaffolding to fill machine layers.
 
-WORK only; not Record.
-
 Usage::
 
     python3 scripts/scaffold_missing_monthly_thread_files.py --expert ritter
@@ -39,18 +37,15 @@ from strategy_expert_corpus import month_thread_paths_by_month  # noqa: E402
 
 NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 
-
 def _action_path(dest: Path) -> str:
     try:
         return str(dest.relative_to(REPO_ROOT))
     except ValueError:
         return str(dest)
 
-
 _RE_BACKFILL = re.compile(
     r"\n*<!--\s*backfill:[a-z][a-z0-9-]*:start\s*-->", re.IGNORECASE
 )
-
 
 def _strip_backfill_from_segment(body: str) -> str:
     """If a backfill fence appears mid-segment, keep only the journal part above it."""
@@ -58,7 +53,6 @@ def _strip_backfill_from_segment(body: str) -> str:
     if m:
         return body[: m.start()].rstrip()
     return body.rstrip()
-
 
 def scaffold_missing(
     notebook_dir: Path,
@@ -102,7 +96,6 @@ def scaffold_missing(
         return [f"nothing to scaffold (all segment months have files for {expert_id})"]
     return actions
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -129,7 +122,6 @@ def main() -> int:
     ):
         print(line)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

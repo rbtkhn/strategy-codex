@@ -8,7 +8,6 @@ import warnings
 
 from sync_predictive_history_mirror import main as sync_main
 
-
 def main(argv: list[str] | None = None) -> int:
     warnings.warn(
         "sync_predictive_history_mirror.py is deprecated; use sync_predictive_history_mirror.py",
@@ -20,7 +19,6 @@ def main(argv: list[str] | None = None) -> int:
         file=sys.stderr,
     )
     return sync_main(argv)
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

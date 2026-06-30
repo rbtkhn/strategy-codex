@@ -41,15 +41,12 @@ DEFAULT_RAW_ROOT = DEFAULT_NOTEBOOK / "raw-input"
 _RE_DATE_IN_NAME = re.compile(r"(\d{4}-\d{2}-\d{2})")
 _RE_X_PNG_DATE = re.compile(r"x-(\d{4}-\d{2}-\d{2})")
 
-
 def _word_count(text: str) -> int:
     return len(text.split())
-
 
 def _in_window(d: date, *, today: date, days: int) -> bool:
     cutoff = today - timedelta(days=days)
     return d > cutoff
-
 
 def _rel_to_repo(path: Path) -> str:
     try:
@@ -57,17 +54,14 @@ def _rel_to_repo(path: Path) -> str:
     except ValueError:
         return path.as_posix()
 
-
 def _find_verbatim_files(notebook_root: Path) -> list[Path]:
     return sorted(notebook_root.glob("*verbatim*.md"))
-
 
 def _verbatim_air_date(path: Path) -> date | None:
     m = _RE_DATE_IN_NAME.search(path.name)
     if not m:
         return None
     return datetime.strptime(m.group(1), "%Y-%m-%d").date()
-
 
 def _discover_x_pngs(notebook_root: Path) -> list[tuple[date, Path]]:
     assets = notebook_root / "assets"
@@ -81,7 +75,6 @@ def _discover_x_pngs(notebook_root: Path) -> list[tuple[date, Path]]:
         d = datetime.strptime(m.group(1), "%Y-%m-%d").date()
         out.append((d, p))
     return out
-
 
 def _x_index_markdown(*, day: date, pngs: list[Path], notebook_root: Path) -> str:
     lines = [
@@ -108,7 +101,6 @@ def _x_index_markdown(*, day: date, pngs: list[Path], notebook_root: Path) -> st
         lines.append("")
     return "\n".join(lines) + "\n"
 
-
 def _transcript_frontmatter(
     *,
     expert_id: str,
@@ -125,7 +117,6 @@ def _transcript_frontmatter(
         "---\n\n"
     )
 
-
 def _verbatim_frontmatter(*, air_date: str, source_path: str, kind: str = "verbatim-sidecar") -> str:
     return (
         "---\n"
@@ -136,10 +127,8 @@ def _verbatim_frontmatter(*, air_date: str, source_path: str, kind: str = "verba
         "---\n\n"
     )
 
-
 def _file_sha256(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
-
 
 def _append_populate_inbox_block(
     notebook_root: Path,
@@ -206,7 +195,6 @@ def _append_populate_inbox_block(
         flush=True,
     )
     return len(new_lines)
-
 
 def run(
     *,
@@ -328,7 +316,6 @@ def run(
         )
     return 0
 
-
 def _parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument(
@@ -361,7 +348,6 @@ def _parse_args() -> argparse.Namespace:
     )
     return p.parse_args()
 
-
 def main() -> int:
     args = _parse_args()
     if args.apply and args.dry_run:
@@ -384,7 +370,6 @@ def main() -> int:
         force=args.force,
         append_inbox=args.append_inbox,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

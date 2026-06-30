@@ -1,6 +1,5 @@
 # Grace-Mar instance boundary
 
-**Work only; not Record.**
 
 Grace-Mar is **archived/frozen**. Active strategy-codex work does not grow the fork. **Full doctrine:** [`docs/archive/grace-mar.md`](archive/grace-mar.md).
 

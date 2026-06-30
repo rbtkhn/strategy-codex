@@ -35,7 +35,6 @@ ATTENTION_PHRASES = frozenset(
     }
 )
 
-
 def _join_tokens(values: list[str] | None, comma_values: str | None = None) -> str:
     tokens: list[str] = []
     for value in values or []:
@@ -43,7 +42,6 @@ def _join_tokens(values: list[str] | None, comma_values: str | None = None) -> s
     if comma_values:
         tokens.extend(part.strip() for part in str(comma_values).split(","))
     return ",".join(token for token in tokens if token)
-
 
 def build_coffee_close_kv(
     *,
@@ -133,7 +131,6 @@ def build_coffee_close_kv(
         kv["attention"] = attention
     return kv
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-u", "--user", default=os.getenv("COMPANION_USER_ID", DEFAULT_PROFILE_ID))
@@ -212,7 +209,6 @@ def main() -> int:
         pass
     print(path.relative_to(Path(__file__).resolve().parent.parent))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

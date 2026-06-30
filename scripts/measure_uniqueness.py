@@ -46,11 +46,9 @@ ABSTAIN_PHRASES = [
     "i don't know",
 ]
 
-
 def _has_abstain(text: str) -> bool:
     t = text.lower()
     return any(p in t for p in ABSTAIN_PHRASES)
-
 
 def _run(client: OpenAI, model: str, system: str, user: str) -> str:
     r = client.chat.completions.create(
@@ -64,11 +62,9 @@ def _run(client: OpenAI, model: str, system: str, user: str) -> str:
     )
     return r.choices[0].message.content.strip()
 
-
 def _embed(client: OpenAI, model: str, text: str) -> list[float]:
     r = client.embeddings.create(model=model, input=text)
     return r.data[0].embedding
-
 
 def _cosine(a: list[float], b: list[float]) -> float:
     dot = sum(x * y for x, y in zip(a, b))
@@ -78,7 +74,6 @@ def _cosine(a: list[float], b: list[float]) -> float:
         return 0.0
     return dot / (na * nb)
 
-
 def _readability_grade(text: str) -> float | None:
     try:
         import textstat
@@ -86,11 +81,9 @@ def _readability_grade(text: str) -> float | None:
     except ImportError:
         return None
 
-
 def load_probes() -> list[dict]:
     content = json.loads(PROBES_PATH.read_text())
     return content["probes"]
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Measure fork uniqueness vs generic LLM")
@@ -175,7 +168,6 @@ def main() -> None:
     read_contrib = 0.2 if avg_readability_gap > 0.5 else (0.1 if avg_readability_gap > 0 else 0)
     composite = (abstention_score * 0.4) + (min(avg_divergence, 1.0) * 0.4) + read_contrib
     print(f"Composite uniqueness: {composite:.2f} (weighted: abstention 40%, divergence 40%, readability 20%)")
-
 
 if __name__ == "__main__":
     main()

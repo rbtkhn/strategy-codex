@@ -50,7 +50,6 @@ from post_land_nawfal_opening_normalize import (  # noqa: E402
     post_land_nawfal_opening_normalize,
 )
 
-
 @dataclass
 class CaptureScaffoldResult:
     path: Path
@@ -60,7 +59,6 @@ class CaptureScaffoldResult:
     family_flags: str = ""
     changed: bool = False
     lines: list[str] = field(default_factory=list)
-
 
 def _format_caption(result: CaptionResult) -> str:
     rel = result.path.relative_to(REPO_ROOT).as_posix()
@@ -72,7 +70,6 @@ def _format_caption(result: CaptionResult) -> str:
     mode = "would-change" if result.status == "dry-run" else "applied"
     return f"{mode} {rel} [{result.flags}] tier={result.wrapper_tier}"
 
-
 def _format_post_land(result: NapResult | NawfalResult | DwResult | MercourisResult, *, label: str) -> str:
     rel = result.path.relative_to(REPO_ROOT).as_posix()
     if result.status.startswith("skipped"):
@@ -82,14 +79,12 @@ def _format_post_land(result: NapResult | NawfalResult | DwResult | MercourisRes
     mode = "would-change" if result.status == "dry-run" else "applied"
     return f"{mode} {rel} [{result.flags}]"
 
-
 def _format_inline(path: Path, family: str, *, changed: bool, dry_run: bool, flags: str) -> str:
     rel = path.relative_to(REPO_ROOT).as_posix()
     if not changed:
         return f"no-op {rel} ({family})"
     mode = "would-change" if dry_run else "applied"
     return f"{mode} {rel} [{flags}] ({family})"
-
 
 def apply_statecraft_capture_scaffold(
     path: Path,

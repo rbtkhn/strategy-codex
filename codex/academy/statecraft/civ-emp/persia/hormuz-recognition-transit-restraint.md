@@ -1,6 +1,5 @@
 # Hormuz Recognition / Transit Restraint
 
-WORK only; not Record.
 
 ## Source Basis
 

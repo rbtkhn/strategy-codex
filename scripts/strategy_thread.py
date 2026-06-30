@@ -57,7 +57,6 @@ DEFAULT_INBOX = REPO_ROOT / "codex/daily-strategy-inbox.md"
 DEFAULT_OUT_DIR = REPO_ROOT / "codex" / "years" / "2026"
 DEFAULT_PAGE_INDEX = REPO_ROOT / "codex/knot-index.yaml"
 
-
 def _suggest_page_candidates(out_dir: Path) -> list[str]:
     """Detect cross-expert page opportunities from pages already in threads."""
     from strategy_page_reader import discover_all_pages
@@ -86,7 +85,6 @@ def _suggest_page_candidates(out_dir: Path) -> list[str]:
                 f"page candidate: '{page_id}' spans {', '.join(sorted(experts))} → `{cmd}`"
             )
     return suggestions
-
 
 def main() -> int:
     ensure_utf8_stdio()
@@ -142,7 +140,6 @@ def main() -> int:
     if suggestions:
         print(f"  {len(suggestions)} page candidate(s) detected — run weave + page to act on them")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

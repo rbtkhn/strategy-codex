@@ -1,6 +1,5 @@
 # Richelieu Lens
 
-WORK only; not Record.
 
 Use Richelieu as an operating lens for raison d'etat, institutional continuity, and the capacity of a state to act through disorder. This is not a biographical summary. It is a drafting test for whether an instrument can survive ideology, faction, personality, and time.
 

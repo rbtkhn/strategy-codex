@@ -13,7 +13,6 @@ archive_links:
   - source-archive/statecraft/2026-05-26/source-judging-freedom-ritter-why-bother-to-negotiate-with-trump-2026-05-26.md
   - source-archive/statecraft/2026-04-13/source-ritter-blasphemy-american-style-2026-04-13.md
 ---
-WORK only; not Record.
 
 # Ritter on AI
 

@@ -12,7 +12,6 @@ from __future__ import annotations
 
 from .base import InferenceProvider, InferenceResult
 
-
 class EdgeProvider(InferenceProvider):
     """Placeholder for Google AI Edge SDK integration.
 

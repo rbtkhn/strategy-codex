@@ -1,6 +1,5 @@
 # Russia - Panama Canal Water / Transit Sovereignty Framework
 
-WORK only; not Record.
 
 ## Transaction Name
 

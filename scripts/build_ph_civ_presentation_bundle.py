@@ -13,7 +13,6 @@ sys.path.insert(0, str(SRC_DIR))
 from integrations.presentations.common import write_bundle
 from integrations.presentations.ph_civ_adapter import build_ph_civ_bundle, build_ph_mus_packet_bundle
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(
         description="Build a ph-civ family deck bundle for ph-civ, ph-apo, or ph-mus."
@@ -73,7 +72,6 @@ def main() -> int:
     write_bundle(bundle, out)
     print(out)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

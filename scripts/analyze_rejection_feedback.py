@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Analyze rejected candidates in recursion-gate.md to strengthen routing (WORK only).
+Analyze rejected candidates in recursion-gate.md to strengthen routing (non-authoritative).
 
 Parses real gate YAML (### CANDIDATE-* blocks). See docs/governance-unbundling.md.
 """
@@ -24,10 +24,8 @@ from gate_block_parser import iter_candidate_yaml_blocks  # noqa: E402
 from rejection_feedback import REJECTION_CATEGORIES, infer_rejection_category  # noqa: E402
 from repo_io import ARTIFACTS_DIR, DEFAULT_PROFILE_ID, profile_dir  # noqa: E402
 
-
 def _is_rejected(yaml_body: str) -> bool:
     return bool(re.search(r"^status:\s*rejected\s*$", yaml_body, re.MULTILINE))
-
 
 def collect_rejections(gate_text: str) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
@@ -41,7 +39,6 @@ def collect_rejections(gate_text: str) -> list[dict[str, Any]]:
         out.append({"candidate_id": cid, "category": cat, "rejection_reason_line": note[:500]})
     return out
 
-
 def run_analysis(rows: list[dict[str, Any]]) -> dict[str, Any]:
     if not rows:
         return {"total_rejections": 0, "by_category": {}, "category_percent": {}}
@@ -52,7 +49,6 @@ def run_analysis(rows: list[dict[str, Any]]) -> dict[str, Any]:
         "by_category": dict(c.most_common()),
         "category_percent": {k: round(100.0 * v / total, 1) for k, v in c.items()},
     }
-
 
 def recommendations(stats: dict[str, Any]) -> list[str]:
     if not stats.get("total_rejections"):
@@ -74,7 +70,6 @@ def recommendations(stats: dict[str, Any]) -> list[str]:
         lines.append("Raise evidence tier or require stronger source_exchange before staging.")
     lines.append("Re-run monthly; optional YAML rejection_category: for cleaner stats.")
     return lines
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Analyze rejected gate candidates for routing feedback.")
@@ -127,7 +122,6 @@ def main() -> int:
             print(line)
         print(f"\nWrote {out_path}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

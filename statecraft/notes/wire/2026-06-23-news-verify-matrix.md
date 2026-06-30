@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-23/source-mario-nawfal-weichert-tucker-mtg-abandon-republican-party-maga-falling-apart-2026-06-23.md
   - source-archive/statecraft/2026-06-23/source-judging-freedom-freeman-should-iran-trust-trump-2026-06-23.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — 2026-06-23
 

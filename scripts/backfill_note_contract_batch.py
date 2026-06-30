@@ -196,9 +196,7 @@ PREFIX_BATCH_PREFIXES: tuple[tuple[str, str], ...] = (
     ("risk-", "risk"),
 )
 
-
 DATE_SLUG_RE = re.compile(r"^20\d{2}-\d{2}(-\d{2})?")
-
 
 def infer_dated_slug_type(stem: str) -> str:
     lower = stem.lower()
@@ -211,7 +209,6 @@ def infer_dated_slug_type(stem: str) -> str:
     if "convergence" in lower or "synthesis" in lower:
         return "synthesis"
     return "mechanism"
-
 
 def infer_other_slug_type(stem: str, rel: str) -> str:
     if rel.startswith("compacts/") and stem == "README":
@@ -241,7 +238,6 @@ def infer_other_slug_type(stem: str, rel: str) -> str:
         return "synthesis"
     return "mechanism"
 
-
 def discover_other_slug_batch() -> dict[str, str]:
     """Remaining Tier A notes (non-dated, non-prefixed root slugs + compacts README)."""
     batch: dict[str, str] = {}
@@ -268,7 +264,6 @@ def discover_other_slug_batch() -> dict[str, str]:
         batch[rel] = infer_other_slug_type(stem, rel)
     return batch
 
-
 def discover_dated_slug_batch() -> dict[str, str]:
     """Tier A root notes with date-leading slugs missing contract fields."""
     batch: dict[str, str] = {}
@@ -286,7 +281,6 @@ def discover_dated_slug_batch() -> dict[str, str]:
             continue
         batch[path.name] = infer_dated_slug_type(stem)
     return batch
-
 
 def discover_prefixed_canonical_batch() -> dict[str, str]:
     """Tier A root notes with forward prefix (or *bench*) missing contract fields."""
@@ -314,9 +308,7 @@ def discover_prefixed_canonical_batch() -> dict[str, str]:
         batch[path.name] = note_type
     return batch
 
-
 TIER_B_TYPE_MAP = {"wire": "wire", "watch": "watch", "reentry": "reentry", "intake": "intake"}
-
 
 def discover_tier_b_operational_batch() -> dict[str, str]:
     """Tier B operational subfolders (wire / watch / reentry / intake) missing contract."""
@@ -338,7 +330,6 @@ def discover_tier_b_operational_batch() -> dict[str, str]:
         batch[rel.as_posix()] = note_type
     return batch
 
-
 def resolve_batch(name: str) -> dict[str, str | dict[str, str]]:
     if name == "prefixed-canonical":
         return discover_prefixed_canonical_batch()
@@ -355,7 +346,6 @@ def resolve_batch(name: str) -> dict[str, str | dict[str, str]]:
 DATE_IN_NAME = re.compile(r"(\d{4}-\d{2}-\d{2})")
 NOTE_LINK_RE = re.compile(r"\]\(\./([^)]+\.md)")
 
-
 def _batch_entry(spec: str | dict[str, str]) -> tuple[str, str, list[str]]:
     if isinstance(spec, str):
         return spec, "shelf-native", []
@@ -364,7 +354,6 @@ def _batch_entry(spec: str | dict[str, str]) -> tuple[str, str, list[str]]:
         spec.get("authority_level", "shelf-native"),
         list(spec.get("archive_links", []) or []),
     )
-
 
 def _archives_from_linked_synthesis(text: str, from_path: Path, *, limit: int = 8) -> list[str]:
     links: list[str] = []
@@ -381,7 +370,6 @@ def _archives_from_linked_synthesis(text: str, from_path: Path, *, limit: int = 
             if len(links) >= limit:
                 return links
     return links
-
 
 def _canonical_archive_links(text: str, from_path: Path, *, limit: int = 8) -> list[str]:
     links = _extract_archive_links(text, limit=limit)
@@ -404,9 +392,7 @@ def _canonical_archive_links(text: str, from_path: Path, *, limit: int = 8) -> l
                 return links
     return links
 
-
 UNCLOSED_MD_LINK = re.compile(r"(\]\([^)]+\.md)(?<!\))$")
-
 
 def fix_unclosed_md_links(text: str) -> str:
     lines: list[str] = []
@@ -417,7 +403,6 @@ def fix_unclosed_md_links(text: str) -> str:
         lines.append(line)
     trailing = "\n" if text.endswith("\n") else ""
     return "\n".join(lines) + trailing
-
 
 def _archives_from_note_links(
     text: str,
@@ -449,12 +434,10 @@ def _archives_from_note_links(
                 return links
     return links
 
-
 def _speaker_slug_from_arc_stem(stem: str) -> str | None:
     if stem.startswith("arc-") and stem.endswith("-continuity"):
         return stem.removeprefix("arc-").removesuffix("-continuity")
     return None
-
 
 def _ensure_voice_routing_links(text: str, speaker: str) -> str:
     routing = f"../voices/{speaker}/{speaker}-routing.md"
@@ -466,23 +449,13 @@ def _ensure_voice_routing_links(text: str, speaker: str) -> str:
         f"- [{speaker} routing]({routing})\n"
         f"- [{speaker} index]({index})\n"
     )
-    marker = "WORK only; not Record."
-    if marker in text:
-        idx = text.index(marker) + len(marker)
-        return text[:idx] + block + text[idx:]
     return block + text
-
 
 def _ensure_notes_readme_link(text: str) -> str:
     if "statecraft/notes/README.md" in text.replace("\\", "/") or "](./README.md" in text:
         return text
     block = "\n\nSee [notes taxonomy](./README.md#thread-and-arc-canonical-draft).\n"
-    marker = "WORK only; not Record."
-    if marker in text:
-        idx = text.index(marker) + len(marker)
-        return text[:idx] + block + text[idx:]
     return block + text
-
 
 def _upsert_frontmatter_fields(
     text: str,
@@ -521,7 +494,6 @@ def _upsert_frontmatter_fields(
     new_fm = "\n".join(lines) + "\n"
     return f"---\n{new_fm}---\n{text[fm.end():]}"
 
-
 def discover_arc_continuity_repair_batch() -> dict[str, str]:
     """Tier A arc / routing notes failing weak-anchor or orphan validation."""
     batch: dict[str, str] = {}
@@ -546,11 +518,9 @@ def discover_arc_continuity_repair_batch() -> dict[str, str]:
         batch[path.relative_to(NOTES_ROOT).as_posix()] = note_type
     return batch
 
-
 def _sanitize_archive_path(raw: str) -> str:
     path = raw.split("#")[0].strip().rstrip("#")
     return path.replace("\\", "/")
-
 
 def _resolved_archive_list(candidates: list[str]) -> list[str]:
     resolved: list[str] = []
@@ -561,7 +531,6 @@ def _resolved_archive_list(candidates: list[str]) -> list[str]:
         if (REPO_ROOT / path).is_file() and path not in resolved:
             resolved.append(path)
     return resolved
-
 
 def repair_arc_continuity_file(path: Path, *, updated_at: str, dry_run: bool) -> bool:
     text = path.read_text(encoding="utf-8", errors="replace")
@@ -619,11 +588,9 @@ def repair_arc_continuity_file(path: Path, *, updated_at: str, dry_run: bool) ->
     print(f"repaired: {path.relative_to(REPO_ROOT)}")
     return True
 
-
 def _infer_created_at(stem: str) -> str:
     match = DATE_IN_NAME.search(stem)
     return match.group(1) if match else "2026-06-18"
-
 
 def _extract_archive_links(text: str, *, limit: int = 8) -> list[str]:
     links: list[str] = []
@@ -635,7 +602,6 @@ def _extract_archive_links(text: str, *, limit: int = 8) -> list[str]:
             break
     return links
 
-
 def _source_basis(text: str, archives: list[str]) -> str:
     if SYNTHESIS_PATH_RE.search(text.replace("\\", "/")) and archives:
         return "mixed"
@@ -644,7 +610,6 @@ def _source_basis(text: str, archives: list[str]) -> str:
     if SYNTHESIS_PATH_RE.search(text.replace("\\", "/")):
         return "synthesis"
     return "mixed"
-
 
 def _render_frontmatter(
     *,
@@ -673,7 +638,6 @@ def _render_frontmatter(
     lines.append("---")
     lines.append("")
     return "\n".join(lines)
-
 
 def _patch_frontmatter_block(
     existing: str,
@@ -710,7 +674,6 @@ def _patch_frontmatter_block(
         for link in archive_links[:8]:
             lines.append(f"  - {link}")
     return "\n".join(lines) + "\n"
-
 
 def backfill_file(
     path: Path,
@@ -762,8 +725,6 @@ def backfill_file(
             meta=meta,
         )
         new_text = f"---\n{patched}---\n{text[fm.end():]}"
-    elif text.startswith("WORK only; not Record."):
-        new_text = block + text
     elif text.lstrip("\ufeff").startswith("---"):
         return False
     else:
@@ -776,7 +737,6 @@ def backfill_file(
     path.write_text(new_text, encoding="utf-8", newline="\n")
     print(f"backfilled: {path.relative_to(REPO_ROOT)}")
     return True
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -821,7 +781,6 @@ def main() -> int:
                     print(f"  {issue}", file=sys.stderr)
         return 1 if failures else 0
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

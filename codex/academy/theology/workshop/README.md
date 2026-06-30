@@ -1,6 +1,6 @@
 # Theology Workshop
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 The Theology Workshop is the active-use layer of academy theology. The shelf answers "what should I read?" The workshop answers "what can this help me see, test, and reuse?"
 

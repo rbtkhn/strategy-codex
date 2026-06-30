@@ -58,7 +58,6 @@ RUNBOOK_REF = [
     ("speaker-shelf-maintenance", "exists", "skills/runbooks/speaker-shelf-maintenance.runbook.md"),
 ]
 
-
 def _load_yaml(path: Path) -> dict[str, Any]:
     try:
         import yaml
@@ -68,7 +67,6 @@ def _load_yaml(path: Path) -> dict[str, Any]:
     if not isinstance(raw, dict):
         raise SystemExit(f"Invalid YAML root in {path}")
     return raw
-
 
 def _load_inventory() -> tuple[list[dict[str, Any]], str]:
     if not INVENTORY_JSON.is_file():
@@ -83,7 +81,6 @@ def _load_inventory() -> tuple[list[dict[str, Any]], str]:
     generated_at = str(payload.get("generated_at", ""))
     return skills, generated_at
 
-
 def _skill_path(row: dict[str, Any]) -> str:
     if row.get("cursor_target"):
         return str(row["cursor_target"])
@@ -92,7 +89,6 @@ def _skill_path(row: dict[str, Any]) -> str:
     if row.get("location") == "draft":
         return f"skills/_drafts/{row['name']}/SKILL.md"
     return ""
-
 
 def _merge_row(row: dict[str, Any], disp_cfg: dict[str, Any], defaults: dict[str, Any]) -> dict[str, Any]:
     name = row["name"]
@@ -121,7 +117,6 @@ def _merge_row(row: dict[str, Any], disp_cfg: dict[str, Any], defaults: dict[str
         merged["replacement_or_runbook"] = ""
     return merged
 
-
 def _summary_counts(rows: list[dict[str, Any]]) -> dict[str, Any]:
     disp_counter = Counter(r["proposed_disposition"] for r in rows)
     active_missing_proof = sum(
@@ -134,7 +129,6 @@ def _summary_counts(rows: list[dict[str, Any]]) -> dict[str, Any]:
         "by_disposition": dict(sorted(disp_counter.items())),
         "active_proof_missing": active_missing_proof,
     }
-
 
 def _md_table(rows: list[dict[str, Any]]) -> str:
     headers = [
@@ -155,7 +149,6 @@ def _md_table(rows: list[dict[str, Any]]) -> str:
         cells = [str(row.get(h, "")).replace("|", "\\|") for h in headers]
         lines.append("| " + " | ".join(cells) + " |")
     return "\n".join(lines)
-
 
 def _build_markdown(
     rows: list[dict[str, Any]],
@@ -228,7 +221,6 @@ def _build_markdown(
     lines.append("")
     return "\n".join(lines)
 
-
 def build_triage() -> tuple[list[dict[str, Any]], dict[str, Any], str, list[str]]:
     inventory_rows, inventory_generated_at = _load_inventory()
     domain_rows = [r for r in inventory_rows if r.get("category") == "domain-pack"]
@@ -258,7 +250,6 @@ def build_triage() -> tuple[list[dict[str, Any]], dict[str, Any], str, list[str]
 
     summary = _summary_counts(merged)
     return merged, summary, inventory_generated_at, missing_in_yaml
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate domain-pack triage artifacts.")
@@ -303,7 +294,6 @@ def main() -> int:
     if missing_in_yaml:
         print(f"WARN: {len(missing_in_yaml)} row(s) used YAML defaults", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

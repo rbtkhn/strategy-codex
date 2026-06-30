@@ -138,7 +138,6 @@ PROPAGATION_HINTS: dict[str, list[str]] = {
     ],
 }
 
-
 @dataclass
 class ShadowCandidate:
     """Normalized inputs for scoring (from gate row, JSON file, or CLI)."""
@@ -152,7 +151,6 @@ class ShadowCandidate:
     contradiction_refs: list[str] = field(default_factory=list)
     source_observation_ids: list[str] = field(default_factory=list)
     confidence: float | None = None
-
 
 def infer_best_fit_surface(candidate: ShadowCandidate) -> tuple[str, dict[str, int]]:
     """
@@ -181,7 +179,6 @@ def infer_best_fit_surface(candidate: ShadowCandidate) -> tuple[str, dict[str, i
         best_surface = decl if decl in REPORT_SURFACES else "SELF"
     return best_surface, scores
 
-
 def narrative_risk_keyword_overlay(candidate: ShadowCandidate) -> tuple[str, str | None]:
     """Decisive language with weak supporting structure → higher narrative risk (heuristic)."""
     text = (
@@ -198,7 +195,6 @@ def narrative_risk_keyword_overlay(candidate: ShadowCandidate) -> tuple[str, str
     if evidence_count == 0 and decisive_hits:
         return "medium", "Decisive tone without explicit supporting evidence refs in payload."
     return "low", None
-
 
 def sketch_classify_risk_vs_keywords(
     resolved_primary: str,
@@ -222,7 +218,6 @@ def sketch_classify_risk_vs_keywords(
         f"Resolved surface **{rp}** vs keyword best-fit **{bk}** — content may fit another canonical bucket."
     )
 
-
 def _find_candidate_row(
     user_id: str, candidate_id: str, *, repo_root: Path | None
 ) -> dict | None:
@@ -230,7 +225,6 @@ def _find_candidate_row(
         if row["id"] == candidate_id:
             return row
     return None
-
 
 def _extract_source_observation_ids(yaml_body: str) -> list[str]:
     lines = yaml_body.splitlines()
@@ -260,7 +254,6 @@ def _extract_source_observation_ids(yaml_body: str) -> list[str]:
             break
         i += 1
     return out
-
 
 def _extract_yaml_string_list(yaml_body: str, key: str) -> list[str]:
     """Parse `key:` followed by indented `- "item"` lines (same shape as source_observation_ids)."""
@@ -293,7 +286,6 @@ def _extract_yaml_string_list(yaml_body: str, key: str) -> list[str]:
         i += 1
     return out
 
-
 def shadow_candidate_from_gate_row(
     row: dict,
     *,
@@ -314,7 +306,6 @@ def shadow_candidate_from_gate_row(
         confidence=_parse_confidence_scalar(raw_block),
     )
 
-
 def _parse_confidence_scalar(raw_block: str) -> float | None:
     s = _extract_scalar(raw_block, "confidence")
     if not s or s.lower() == "null":
@@ -323,7 +314,6 @@ def _parse_confidence_scalar(raw_block: str) -> float | None:
         return float(s)
     except ValueError:
         return None
-
 
 def _map_boundary_bucket(surface: str) -> str:
     s = (surface or "").strip().upper()
@@ -338,7 +328,6 @@ def _map_boundary_bucket(surface: str) -> str:
     if s == "EVIDENCE":
         return "EVIDENCE"
     return s or "SELF"
-
 
 def _resolve_primary_surface(
     *,
@@ -369,13 +358,11 @@ def _resolve_primary_surface(
 
     return "SELF"
 
-
 def _surface_order(primary: str) -> tuple[str, ...]:
     if primary not in REPORT_SURFACES:
         return REPORT_SURFACES
     rest = [s for s in REPORT_SURFACES if s != primary]
     return (primary, *rest)
-
 
 def _surface_diff_lines(
     surface: str,
@@ -430,7 +417,6 @@ def _surface_diff_lines(
 
     return lines
 
-
 def _propagation_lines(
     row: dict | None,
     primary: str,
@@ -470,7 +456,6 @@ def _propagation_lines(
         out.append("- **Uncertainty sidecars** — envelope-style signals may feed review packets and briefs; advisory only.")
     return out
 
-
 def _classification_risk(
     row: dict | None,
     primary: str,
@@ -503,7 +488,6 @@ def _classification_risk(
         lines.append("No strong misfile signal in v1 heuristics — still verify `proposal_class` vs intended durable home.")
 
     return level, lines
-
 
 def _narrative_risk(
     row: dict | None,
@@ -540,7 +524,6 @@ def _narrative_risk(
         lines.append("No extra narrative-risk flags beyond standard gate review.")
     return level, lines
 
-
 def _conditions(primary: str, row: dict | None) -> list[str]:
     xs = [
         "Companion intent matches the stated `summary` and durable home for this fact or capability.",
@@ -553,7 +536,6 @@ def _conditions(primary: str, row: dict | None) -> list[str]:
     if row and row.get("has_prompt_change"):
         xs.append("Prompt deltas are reviewed for Voice tone and knowledge-boundary compliance.")
     return xs
-
 
 def _operator_question(primary: str, row: dict | None) -> str:
     if primary == "SKILLS":
@@ -573,7 +555,6 @@ def _operator_question(primary: str, row: dict | None) -> str:
         "If this change were true, would it **clarify** the fork — or **compress ambiguity** and read more certain than the evidence?"
     )
 
-
 def _load_observations_by_ids(oids: list[str]) -> tuple[list[dict], list[str]]:
     rows: list[dict] = []
     missing: list[str] = []
@@ -584,7 +565,6 @@ def _load_observations_by_ids(oids: list[str]) -> tuple[list[dict], list[str]]:
         else:
             missing.append(oid)
     return rows, missing
-
 
 def shadow_candidate_from_json_payload(payload: dict[str, Any]) -> ShadowCandidate:
     why = payload.get("why_now")
@@ -600,14 +580,11 @@ def shadow_candidate_from_json_payload(payload: dict[str, Any]) -> ShadowCandida
         confidence=payload.get("confidence") if isinstance(payload.get("confidence"), (int, float)) else None,
     )
 
-
 def _level_rank(level: str) -> int:
     return {"low": 0, "medium": 1, "high": 2}.get(level, 0)
 
-
 def _max_level(a: str, b: str) -> str:
     return a if _level_rank(a) >= _level_rank(b) else b
-
 
 def build_report_markdown(
     *,
@@ -742,12 +719,10 @@ def build_report_markdown(
 
     return "\n".join(lines)
 
-
 def _default_output_path(candidate_id: str) -> Path:
     safe = re.sub(r"[^A-Za-z0-9._-]+", "-", candidate_id).strip("-") or "shadow-report"
     DEFAULT_SHADOW_MERGE_DIR.mkdir(parents=True, exist_ok=True)
     return DEFAULT_SHADOW_MERGE_DIR / f"{safe}.md"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -900,7 +875,6 @@ def main() -> int:
     out.write_text(md, encoding="utf-8")
     print(f"wrote {out}", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

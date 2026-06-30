@@ -58,7 +58,6 @@ _read = read_path
 _profile_dir = profile_dir
 DEFAULT_USER = DEFAULT_USER_ID
 
-
 def _fork_dir(user_id: str, repo_root: Path | None) -> Path:
     """Canonical gate root under the repository root (sole-operator layout)."""
     if repo_root is None:
@@ -93,14 +92,11 @@ _STOPWORDS = {
     "your",
 }
 
-
 def _strip_quotes(value: str) -> str:
     return value.strip().strip("\"'")
 
-
 def _normalize(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", (text or "").lower()).strip()
-
 
 def _meaningful_keywords(text: str) -> list[str]:
     words = []
@@ -110,13 +106,11 @@ def _meaningful_keywords(text: str) -> list[str]:
         words.append(word)
     return words
 
-
 def _extract_scalar(yaml_body: str, key: str) -> str:
     m = re.search(rf"^{re.escape(key)}:\s*(.+)$", yaml_body, re.MULTILINE)
     if not m:
         return ""
     return _strip_quotes(m.group(1))
-
 
 def _reflection_gate_label(impact_tier_raw: str) -> str:
     """Reflection Gates v1 label from author impact_tier: none | light | heavy."""
@@ -126,7 +120,6 @@ def _reflection_gate_label(impact_tier_raw: str) -> str:
     if s in ("high", "boundary"):
         return "heavy"
     return "none"
-
 
 def _extract_block(yaml_body: str, key: str) -> str:
     lines = yaml_body.splitlines()
@@ -156,7 +149,6 @@ def _extract_block(yaml_body: str, key: str) -> str:
         out.append(line[base_indent + 2 :] if indent >= base_indent + 2 else line.strip())
     return "\n".join(out).strip()
 
-
 def _parse_candidates_metrics_shape(section: str) -> list[dict]:
     """Parse a gate section into list of dicts with id, status, outcome (for metrics)."""
     result: list[dict] = []
@@ -174,7 +166,6 @@ def _parse_candidates_metrics_shape(section: str) -> list[dict]:
                 current["outcome"] = "approved" if "approved" in status else "rejected"
     return result
 
-
 def parse_gate_for_metrics(content: str) -> tuple[list[dict], list[dict]]:
     """
     Parse recursion-gate content into (pending_list, processed_list) for pipeline health.
@@ -186,7 +177,6 @@ def parse_gate_for_metrics(content: str) -> tuple[list[dict], list[dict]]:
     pending = _parse_candidates_metrics_shape(pending_section)
     processed = _parse_candidates_metrics_shape(processed_section)
     return pending, processed
-
 
 def _parse_candidates_dashboard_shape(section: str) -> list[dict]:
     """Parse pending section into list of {id, summary, mind_category, priority_score} for dashboard/profile."""
@@ -200,7 +190,6 @@ def _parse_candidates_dashboard_shape(section: str) -> list[dict]:
         })
     return result
 
-
 def parse_gate_pending_for_dashboard(content: str) -> tuple[int, list[dict]]:
     """
     Parse recursion-gate content into (pending_count, pending_candidates) for platform/profile/dashboard.
@@ -209,7 +198,6 @@ def parse_gate_pending_for_dashboard(content: str) -> tuple[int, list[dict]]:
     pending_section = pending_candidates_region(content)
     candidates = _parse_candidates_dashboard_shape(pending_section)
     return len(candidates), candidates
-
 
 def _parse_timestamp(raw_ts: str) -> datetime | None:
     if not raw_ts:
@@ -225,13 +213,11 @@ def _parse_timestamp(raw_ts: str) -> datetime | None:
     except ValueError:
         return None
 
-
 def _age_days(raw_ts: str) -> int | None:
     dt = _parse_timestamp(raw_ts)
     if not dt:
         return None
     return max(0, (datetime.now(timezone.utc) - dt).days)
-
 
 def _pipeline_events_index(user_id: str, *, repo_root: Path | None = None) -> dict[str, list[dict]]:
     """
@@ -258,18 +244,15 @@ def _pipeline_events_index(user_id: str, *, repo_root: Path | None = None) -> di
         by_cid.setdefault(str(cid), []).append(row)
     return {cid: rows[-8:] for cid, rows in by_cid.items()}
 
-
 def _pipeline_events_for_candidate(user_id: str, candidate_id: str) -> list[dict]:
     """Last 8 pipeline events for one candidate (reads index built from full file once)."""
     return _pipeline_events_index(user_id).get(candidate_id, [])
-
 
 def _has_advisory_flagged(events: list[dict]) -> bool:
     for row in reversed(events):
         if row.get("event") == "intent_constitutional_critique":
             return str(row.get("status") or "").lower() == "advisory_flagged"
     return False
-
 
 def _duplicate_hints(candidate: dict, self_text: str) -> list[str]:
     hints: list[str] = []
@@ -299,7 +282,6 @@ def _duplicate_hints(candidate: dict, self_text: str) -> list[str]:
         deduped.append(hint)
     return deduped[:3]
 
-
 def _territory_label(territory: str, channel_key: str, proposal_class: str,
                      signal_type: str) -> str:
     if territory == TERRITORY_WORK_POLITICS:
@@ -310,7 +292,6 @@ def _territory_label(territory: str, channel_key: str, proposal_class: str,
     if pc_up.startswith("CIV_MEM") or st_low == "civilizational_insight" or "cmc-ingest" in ch_low:
         return "CIV-MEM"
     return "Companion"
-
 
 def _cmc_source_provenance(row: dict) -> dict | None:
     """Extract CMC provenance metadata when the candidate originated from CMC ingest."""
@@ -328,14 +309,12 @@ def _cmc_source_provenance(row: dict) -> dict | None:
         "epistemic_note": "CMC material is reference, not identity. Treat as interpretation unless independently verified.",
     }
 
-
 def _risk_tier(candidate: dict) -> str:
     if candidate["has_conflict_markers"] or candidate["advisory_flagged"] or candidate["duplicate_hints"]:
         return "manual_escalate"
     if candidate["ready_for_quick_merge"]:
         return "quick_merge_eligible"
     return "review_batch"
-
 
 def _compute_boundary_review(row: dict) -> dict:
     """
@@ -404,7 +383,6 @@ def _compute_boundary_review(row: dict) -> dict:
         "confidence": "low" if misfiled else ("medium" if reasons else "high"),
     }
 
-
 def _try_persist_boundary_classification(user_id: str, row: dict) -> None:
     """Write archive/queues/review-queue/boundary-classifications/<id>.json when grace_mar is importable."""
     root = Path(__file__).resolve().parents[1]
@@ -418,7 +396,6 @@ def _try_persist_boundary_classification(user_id: str, row: dict) -> None:
     except Exception as exc:
         logging.getLogger(__name__).warning("boundary classification persist failed: %s", exc)
 
-
 def _ready_for_quick_merge(candidate: dict) -> bool:
     if candidate.get("status") != "pending":
         return False
@@ -428,7 +405,6 @@ def _ready_for_quick_merge(candidate: dict) -> bool:
     if not re.match(r"^IX-[ABC]\.", profile_target):
         return False
     return True
-
 
 def parse_review_candidates(user_id: str = DEFAULT_USER, *, repo_root: Path | None = None) -> list[dict]:
     gate_path = _fork_dir(user_id, repo_root) / "recursion-gate.md"
@@ -525,13 +501,11 @@ def parse_review_candidates(user_id: str = DEFAULT_USER, *, repo_root: Path | No
     rows.sort(key=lambda row: row.get("timestamp", ""), reverse=True)
     return rows
 
-
 def get_review_candidate(user_id: str, candidate_id: str) -> dict | None:
     for row in parse_review_candidates(user_id=user_id):
         if row["id"] == candidate_id:
             return row
     return None
-
 
 def filter_review_candidates(
     rows: list[dict],
@@ -567,7 +541,6 @@ def filter_review_candidates(
         else:
             out = [row for row in out if row.get("territory") == territory]
     return out
-
 
 __all__ = [
     "DEFAULT_USER",

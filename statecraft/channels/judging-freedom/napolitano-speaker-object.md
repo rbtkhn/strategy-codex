@@ -1,6 +1,5 @@
 # Napolitano speaker object
 
-WORK only; not Record.
 
 object_shape: stream-native
 

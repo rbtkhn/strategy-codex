@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Grace-Mar runtime worker — disposable inspect_work_area for work-strategy (WORK only).
+Grace-Mar runtime worker — disposable inspect_work_area for work-strategy (non-authoritative).
 
 Writes only under runtime/runtime-worker/ (or GRACE_MAR_RUNTIME_WORKER_HOME).
 Never writes SELF, EVIDENCE, SKILLS, recursion-gate, or prompt surfaces.
@@ -51,7 +51,6 @@ DEFAULT_SCOPE = "docs/skill-work/work-strategy/strategy-notebook"
 DEFAULT_MAX_FILES = 400
 DEFAULT_MAX_CHARS = 200_000
 
-
 @dataclass(frozen=True)
 class Lens:
     """Preset for inspect_work_area (scope, caps, optional compose)."""
@@ -61,7 +60,6 @@ class Lens:
     max_chars: int
     compose_with: str | None = None
     description: str = ""
-
 
 # Preset lenses — use --lens <name>; override any field with explicit flags / --no-compose.
 LENSES: dict[str, Lens] = {
@@ -111,7 +109,7 @@ def _forbidden_repo_write(rel: str) -> bool:
     rel = rel.replace("\\", "/")
     if rel in ("archive/grace-mar-instance/bot/prompt.py", "archive/grace-mar-instance/bot/bot.py", "archive/grace-mar-instance/bot/wechat_bot.py"):
         return True
-    if not rel.startswith(""):
+    if not rel.startswith("archive/grace-mar-instance/"):
         return False
     name = rel.rsplit("/", 1)[-1]
     return name in (
@@ -122,19 +120,16 @@ def _forbidden_repo_write(rel: str) -> bool:
         "recursion-gate.md",
     )
 
-
 def _utc_run_id() -> str:
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     h = hashlib.sha256(f"{ts}:{uuid.uuid4().hex}".encode()).hexdigest()[:12]
     return f"rw_{ts}_{h}"
-
 
 def _worker_home(repo_root: Path) -> Path:
     raw = os.environ.get("GRACE_MAR_RUNTIME_WORKER_HOME", "").strip()
     if raw:
         return Path(raw).expanduser().resolve()
     return (repo_root / "runtime" / "runtime-worker").resolve()
-
 
 def _ensure_worker_writable(path: Path, repo_root: Path) -> None:
     """Refuse writes outside worker home or on canonical Record / gate surfaces."""
@@ -152,7 +147,6 @@ def _ensure_worker_writable(path: Path, repo_root: Path) -> None:
     if _forbidden_repo_write(rel):
         raise SystemExit(f"refusing write on canonical or gated path: {rel}")
 
-
 def _collect_files(scope: Path, max_files: int) -> list[Path]:
     if not scope.is_dir():
         raise SystemExit(f"scope is not a directory: {scope}")
@@ -167,7 +161,6 @@ def _collect_files(scope: Path, max_files: int) -> list[Path]:
         if len(out) >= max_files:
             break
     return out
-
 
 def _read_bundle(files: list[Path], scope: Path, max_chars: int) -> tuple[str, int, int, int, list[str]]:
     """Return bundle text, used chars, files opened successfully, chunk count, warnings."""
@@ -200,7 +193,6 @@ def _read_bundle(files: list[Path], scope: Path, max_chars: int) -> tuple[str, i
     chunks_read = len(parts)
     return "\n".join(parts), used, files_opened, chunks_read, warnings
 
-
 def _compose_argv(repo_root: Path, script_rel: str, scope_path: Path) -> list[str]:
     """Build argv for a whitelisted compose script (each script has its own CLI)."""
     if script_rel not in COMPOSE_ALLOWLIST:
@@ -215,7 +207,6 @@ def _compose_argv(repo_root: Path, script_rel: str, scope_path: Path) -> list[st
         inbox = scope_path / "daily-strategy-inbox.md"
         return [py, str(script), "--inbox", str(inbox)]
     raise SystemExit(f"compose dispatch missing for {script_rel}")
-
 
 def _run_compose(repo_root: Path, script_rel: str, scope_path: Path) -> tuple[str, int]:
     argv = _compose_argv(repo_root, script_rel, scope_path)
@@ -233,7 +224,6 @@ def _run_compose(repo_root: Path, script_rel: str, scope_path: Path) -> tuple[st
         out += "\n--- stderr ---\n" + proc.stderr
     return out[:12_000], proc.returncode
 
-
 def _repo_rel_or_abs(path: Path, repo_root: Path) -> str:
     pr = path.resolve()
     rr = repo_root.resolve()
@@ -241,7 +231,6 @@ def _repo_rel_or_abs(path: Path, repo_root: Path) -> str:
         return str(pr.relative_to(rr))
     except ValueError:
         return str(pr)
-
 
 def build_execution_receipt(
     *,
@@ -307,7 +296,6 @@ def build_execution_receipt(
         "non_canonical": True,
     }
 
-
 def write_execution_receipt(worker_home: Path, repo_root: Path, run_id: str, receipt: dict[str, Any]) -> Path:
     receipts_dir = worker_home / "receipts"
     receipts_dir.mkdir(parents=True, exist_ok=True)
@@ -315,7 +303,6 @@ def write_execution_receipt(worker_home: Path, repo_root: Path, run_id: str, rec
     _ensure_worker_writable(out, repo_root)
     out.write_text(json.dumps(receipt, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return out
-
 
 def task_inspect_work_area(
     *,
@@ -370,7 +357,7 @@ def task_inspect_work_area(
     tools_used.extend(stools)
 
     lines = [
-        "<!-- NON-CANONICAL / WORK ONLY — not SELF, EVIDENCE, or gate truth -->",
+        "<!-- NON-CANONICAL / non-authoritative — not SELF, EVIDENCE, or gate truth -->",
         "",
         f"# Runtime worker proposal — `{run_id}`",
         "",
@@ -522,7 +509,6 @@ def task_inspect_work_area(
     print(f"wrote receipt {receipt_path}", file=sys.stderr)
     return 0
 
-
 def _resolve_inspect_with_overlay(
     args: argparse.Namespace,
     repo_root: Path,
@@ -565,7 +551,6 @@ def _resolve_inspect_with_overlay(
     scope, mf2, mc2, compose, lens_name = _resolve_lens_args(eff)
     return scope, mf2, mc2, compose, lens_name, tt, ov_applied, emphasis
 
-
 def _resolve_lens_args(args: argparse.Namespace) -> tuple[str, int, int, str | None, str | None]:
     """Merge --lens preset with explicit flags (--no-compose clears compose)."""
     lens_name: str | None = args.lens
@@ -593,7 +578,6 @@ def _resolve_lens_args(args: argparse.Namespace) -> tuple[str, int, int, str | N
         else:
             compose = None
     return scope, max(1, max_files), max(1000, max_chars), compose, lens_name
-
 
 def main() -> int:
     lens_choices = sorted(LENSES.keys())
@@ -717,7 +701,6 @@ def main() -> int:
             overlay_emphasis=overlay_emphasis,
         )
     return 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

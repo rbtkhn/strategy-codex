@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-23/source-pape-the-questions-that-matter-now-2026-03-23.md>
   - source-archive/statecraft/2026-03-23/source-crooke-irans-audacious-strategic-moves-declared-2026-03-23.md>
 ---
-WORK only; not Record.
 
 # Postol Battlefield × Ritter Implementation — 2026-03-23
 

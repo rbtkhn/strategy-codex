@@ -24,9 +24,9 @@ SPEC = {
     "titles": [
         "Show Open — Three Pillars And Ninety Percent Claim",
         "Gulf War 1991 — Ninety Six Percent And Decision Maker Deception",
-        "Lewis Postol Paper — APS Panel And Video Contradiction",
-        "Pack Two Objection — Video Evidence For PAC Two And Three",
-        "PAC Radar Geometry — Slides Six Through Nine",
+        "Lewis Postol Paper — APS Panel Pack Two Objection And Video",
+        "PAC Radar Slides — KA Band And Cross Range Geometry",
+        "PAC Slide Seven — Gulf War Crossing Speed And Aircraft Role",
         "Drone Economics — Inventory Question And Tel Aviv Setup",
         "Frame Physics — Sky And Ground Detonation Signatures",
         "Tel Aviv Video One — PAC Two Misses And Ground Hit",
@@ -38,8 +38,8 @@ SPEC = {
     "anchors": [
         "Incidentally, we had uh an experience similar to this during the Gulf War of 1991",
         "Gary, could you um put on the first slide, slide number two?",
-        "What do you say to that?",
         "Actually, let's uh let's just jump to that right now. Uh Gary, could you go to slide six?",
+        "So it's basically you're trying to hit a bullet with a bullet.",
         "and I'm sorry, Ted, real quick before you leave that topic.",
         "All right. Um slide four shows you what happens when you have a detonation of a high explosive in the sky.",
         "Why don't we uh take take a shot at this, Gary? This is a real time.",
@@ -49,7 +49,7 @@ SPEC = {
         ">> And by the way, let me since Gary brought that up. Uh he's talking about THADs there.",
     ],
     "note": (
-        " · source-section pass 2026-06-29 (12 sections; 1991 APS/Tel Aviv video/salvo/THAAD arc)"
+        " · source-section pass 2026-06-29 (12 sections; pack-2 merge; PAC radar/slide-7 split)"
     ),
     "manual_asr": (
         ("Rathon", "Raytheon"),
@@ -59,7 +59,6 @@ SPEC = {
         ("Atacums", "ATACMS"),
     ),
 }
-
 
 def validate_capture(path: Path) -> list[str]:
     doc = path.read_text(encoding="utf-8")
@@ -74,7 +73,6 @@ def validate_capture(path: Path) -> list[str]:
         return [str(exc)]
     return validate_section_anchors(body, SPEC["titles"], SPEC["anchors"])
 
-
 def write_capture(path: Path) -> int:
     return write_interview_section_patch_capture(
         path,
@@ -86,7 +84,6 @@ def write_capture(path: Path) -> int:
         interview_host=HOST,
         interview_guest=GUEST,
     )
-
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -112,7 +109,6 @@ def main() -> int:
     rc = write_capture(path)
     print(f"wrote {CAPTURE} exit={rc}")
     return rc
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

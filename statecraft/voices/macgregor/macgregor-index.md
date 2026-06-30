@@ -1,6 +1,5 @@
 # Macgregor Source Index
 
-WORK only; not Record.
 
 Purpose: exhaustive route map for every resolved Macgregor appearance currently materialized in Statecraft Archive, including host transcripts, shorthand day files, and aired-pending surfaces.
 

@@ -1,6 +1,6 @@
 # Zangezur Transit / Sovereignty Framework
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: compare one corridor crisis across the America, Russia, China, and Iran lanes. The framework tests how transit access can be separated from territorial severance, extraterritorial control, and humiliating sovereignty loss.
 

@@ -27,11 +27,9 @@ ARCHIVE_MARKER = "END OF FILE — EVIDENCE"
 ARCHIVE_SECTION_TITLE = "## IX. MEMORY PRUNE ARCHIVE (continuity housekeeping)"
 MAX_APPEND_CHARS = 50000
 
-
 def _user_dir(args: argparse.Namespace) -> Path:
     uid = args.user.strip()
     return REPO_ROOT / "platform/users" / uid
-
 
 def _split_horizons(text: str) -> tuple[str, list[tuple[str, str]]] | None:
     """
@@ -55,13 +53,11 @@ def _split_horizons(text: str) -> tuple[str, list[tuple[str, str]]] | None:
         sections.append((name, body))
     return preamble, sections
 
-
 def _total_len(preamble: str, sections: list[tuple[str, str]]) -> int:
     n = len(preamble)
     for name, body in sections:
         n += len(f"## {name.title()}-term\n") + len(body)
     return n
-
 
 def _rebuild(preamble: str, sections: list[tuple[str, str]]) -> str:
     """Rebuild file preserving the order of horizons as in `sections`."""
@@ -71,7 +67,6 @@ def _rebuild(preamble: str, sections: list[tuple[str, str]]) -> str:
         parts.append(f"## {title_for[key]}-term\n")
         parts.append(body)
     return "".join(parts)
-
 
 def _prune_sections_free_budget(
     sections: list[tuple[str, str]],
@@ -123,7 +118,6 @@ def _prune_sections_free_budget(
     new_sections = [(k, bodies[k]) for k in order_keys if k in bodies]
     return new_sections, "\n\n".join(collected)
 
-
 def _prune_legacy(text: str, budget: int) -> tuple[str, str]:
     """No horizon headers: remove from start of file until budget chars freed."""
     if budget <= 0:
@@ -140,7 +134,6 @@ def _prune_legacy(text: str, budget: int) -> tuple[str, str]:
     pruned = "".join(taken)
     rest = "".join(lines[i:])
     return rest, pruned
-
 
 def run_prune(
     user_dir: Path,
@@ -188,7 +181,6 @@ def run_prune(
     rebuilt = _rebuild(preamble, new_sections)
     return rebuilt, pruned, "horizons", True
 
-
 def _write_artifact(user_dir: Path, pruned: str, stamp: str) -> Path:
     out_dir = artifacts_dir(user_dir) / "memory-prune"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -200,7 +192,6 @@ def _write_artifact(user_dir: Path, pruned: str, stamp: str) -> Path:
     )
     path.write_text(header + pruned, encoding="utf-8")
     return path
-
 
 def _append_archive(user_dir: Path, pruned: str, stamp: str, chars_removed: int) -> None:
     arch = user_dir / "self-archive.md"
@@ -234,7 +225,6 @@ def _append_archive(user_dir: Path, pruned: str, stamp: str, chars_removed: int)
         1,
     )
     arch.write_text(new_text, encoding="utf-8")
-
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
@@ -314,7 +304,6 @@ def main() -> int:
         print(f"Appended prune block to {user_dir / 'self-archive.md'}")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -3,9 +3,7 @@
 
 Checks that each expert file (excluding the template) contains the required
 top-level markdown headings from the cognitive profile schema. Does not
-validate content quality — only structural presence. WORK only; not Record.
-
-Exit 0 if ok; 1 if any error (prints to stderr).
+validate content quality — only structural presence. Exit 0 if ok; 1 if any error (prints to stderr).
 """
 
 from __future__ import annotations
@@ -62,7 +60,6 @@ VOICE_REQUIRED_HEADINGS = [
 
 _RE_HEADING = re.compile(r"^#{1,3}\s+(.+?)(?:\s*\(.*\))?\s*$", re.MULTILINE)
 
-
 def _extract_headings(text: str) -> set[str]:
     """Return the set of heading texts found in a markdown file."""
     headings: set[str] = set()
@@ -73,7 +70,6 @@ def _extract_headings(text: str) -> set[str]:
         headings.add(raw)
     return headings
 
-
 def _has_thread_companion(expert_dir: Path, expert_id: str) -> bool:
     if (expert_dir / "thread.md").is_file():
         return True
@@ -81,7 +77,6 @@ def _has_thread_companion(expert_dir: Path, expert_id: str) -> bool:
         p.is_file() and RE_IN_FOLDER_MONTH_THREAD.match(p.name)
         for p in expert_dir.glob(f"{expert_id}-thread-*.md")
     )
-
 
 def _validate_voice_profile(path: Path, text: str, headings: set[str]) -> list[str]:
     """Lighter schema for official-voice folders under `voices/*/profile.md`."""
@@ -96,7 +91,6 @@ def _validate_voice_profile(path: Path, text: str, headings: set[str]) -> list[s
             f"{path.parent.name}-thread-YYYY-MM.md under {path.parent})"
         )
     return errs
-
 
 def validate_expert_file(path: Path) -> list[str]:
     """Return a list of error strings for one expert file."""
@@ -145,7 +139,6 @@ def validate_expert_file(path: Path) -> list[str]:
 
     return errs
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -187,7 +180,6 @@ def main() -> int:
 
     print(f"ok: {len(expert_files)} expert profiles validated")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

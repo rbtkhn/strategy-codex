@@ -17,7 +17,6 @@ RATIONALE_SCHEMA_ID = "schemas/registry/derived-artifact-rationale.v1.json"
 RATIONALE_SCHEMA_VERSION = "1.0.0-derived-artifact-rationale"
 RATIONALE_SIDECAR_SUFFIX = ".derived-rationale.json"
 
-
 @dataclass(frozen=True)
 class RebuildTarget:
     target_id: str
@@ -44,7 +43,6 @@ class RebuildTarget:
     def owned_output_patterns_for_user(self, user: str) -> list[str]:
         patterns = self.owned_output_patterns or self.outputs
         return [part.format(user=user) for part in patterns]
-
 
 TARGETS: tuple[RebuildTarget, ...] = (
     RebuildTarget(
@@ -348,10 +346,8 @@ TARGETS: tuple[RebuildTarget, ...] = (
 
 TARGETS_BY_ID = {target.target_id: target for target in TARGETS}
 
-
 def normalize_rel_path(path: str) -> str:
     return Path(path).as_posix().lstrip("./")
-
 
 def detect_git_changed_paths(repo_root: Path = REPO_ROOT) -> list[str]:
     """Return repo-relative changed paths from the current worktree."""
@@ -375,11 +371,9 @@ def detect_git_changed_paths(repo_root: Path = REPO_ROOT) -> list[str]:
         changed.add(normalize_rel_path(path_part))
     return sorted(changed)
 
-
 def path_matches_target(path: str, target: RebuildTarget) -> bool:
     rel = normalize_rel_path(path)
     return any(fnmatch.fnmatch(rel, pattern) for pattern in target.watch_patterns)
-
 
 def select_targets_for_paths(paths: list[str]) -> list[RebuildTarget]:
     rel_paths = [normalize_rel_path(path) for path in paths]
@@ -388,7 +382,6 @@ def select_targets_for_paths(paths: list[str]) -> list[RebuildTarget]:
         if any(path_matches_target(path, target) for path in rel_paths):
             selected.append(target)
     return selected
-
 
 def expand_with_downstream(selected_targets: list[RebuildTarget]) -> list[RebuildTarget]:
     """Include downstream targets that depend on any selected target."""
@@ -403,7 +396,6 @@ def expand_with_downstream(selected_targets: list[RebuildTarget]) -> list[Rebuil
                 selected_ids.add(target.target_id)
                 changed = True
     return [TARGETS_BY_ID[target_id] for target_id in selected_ids]
-
 
 def topologically_sort_targets(selected_targets: list[RebuildTarget]) -> list[RebuildTarget]:
     """Sort selected targets so upstream dependencies run first."""
@@ -424,7 +416,6 @@ def topologically_sort_targets(selected_targets: list[RebuildTarget]) -> list[Re
 
     return ordered
 
-
 def matched_paths_for_target(paths: list[str], target: RebuildTarget) -> list[str]:
     return [
         normalize_rel_path(path)
@@ -432,15 +423,12 @@ def matched_paths_for_target(paths: list[str], target: RebuildTarget) -> list[st
         if path_matches_target(path, target)
     ]
 
-
 def sidecar_path_for_artifact(artifact_path: str) -> str:
     return f"{normalize_rel_path(artifact_path)}{RATIONALE_SIDECAR_SUFFIX}"
-
 
 def build_rebuild_command(target: RebuildTarget, user: str) -> str:
     commands = target.commands_for_user(user)
     return " && ".join(" ".join(shlex.quote(part) for part in command) for command in commands)
-
 
 def build_rationale_payload(
     *,
@@ -466,7 +454,6 @@ def build_rationale_payload(
     }
     return payload
 
-
 def cleanup_owned_outputs(repo_root: Path, *, target: RebuildTarget, user: str) -> list[str]:
     cleaned: list[str] = []
     for pattern in target.owned_output_patterns_for_user(user):
@@ -483,7 +470,6 @@ def cleanup_owned_outputs(repo_root: Path, *, target: RebuildTarget, user: str) 
                 sidecar_path.unlink()
                 cleaned.append(normalize_rel_path(sidecar_path.relative_to(repo_root).as_posix()))
     return cleaned
-
 
 def build_manifest_payload() -> dict:
     """Machine-readable manifest for current derived regeneration targets."""
@@ -510,7 +496,6 @@ def build_manifest_payload() -> dict:
         ],
     }
 
-
 def default_receipt_path(
     *,
     receipt_prefix: str = "derived-rebuild",
@@ -520,7 +505,6 @@ def default_receipt_path(
     ts = now or datetime.now(timezone.utc)
     stamp = ts.strftime("%Y%m%d-%H%M%S")
     return receipt_dir / f"{receipt_prefix}-{stamp}.json"
-
 
 def write_receipt(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)

@@ -33,7 +33,6 @@ if str(REPO_ROOT / "scripts") not in sys.path:
 
 from repo_io import profile_dir
 
-
 def _get_cmc_path() -> Path | None:
     path = os.getenv("CIVILIZATION_MEMORY_PATH", "").strip()
     if path:
@@ -50,7 +49,6 @@ def _get_cmc_path() -> Path | None:
             return c.resolve()
     return None
 
-
 def _scholar_files(cmc_root: Path, civilization: str | None = None) -> list[Path]:
     """Find SCHOLAR markdown files in CMC content tree."""
     content_dir = cmc_root / "content"
@@ -60,7 +58,6 @@ def _scholar_files(cmc_root: Path, civilization: str | None = None) -> list[Path
     if civilization:
         pattern = f"civilizations/{civilization}/**/*SCHOLAR*.md"
     return sorted(content_dir.glob(pattern))
-
 
 def _recently_modified(path: Path, days: int = 30) -> bool:
     """Check if file was modified within N days (via git or mtime)."""
@@ -80,7 +77,6 @@ def _recently_modified(path: Path, days: int = 30) -> bool:
         pass
     age = datetime.now(timezone.utc).timestamp() - path.stat().st_mtime
     return age < days * 86400
-
 
 def _extract_insights(scholar_path: Path) -> list[dict]:
     """Extract key insight blocks from a SCHOLAR file."""
@@ -118,7 +114,6 @@ def _extract_insights(scholar_path: Path) -> list[dict]:
     insights.sort(key=lambda x: -x["relevance_score"])
     return insights[:5]
 
-
 def _next_candidate_id(gate_path: Path) -> str:
     """Find the next available CANDIDATE-NNNN id."""
     if not gate_path.exists():
@@ -128,7 +123,6 @@ def _next_candidate_id(gate_path: Path) -> str:
     if not ids:
         return "CANDIDATE-0200"
     return f"CANDIDATE-{max(ids) + 1:04d}"
-
 
 def _format_candidate(candidate_id: str, insight: dict, civilization: str | None) -> str:
     """Format a single gate candidate block."""
@@ -155,7 +149,6 @@ prompt_section: none
 prompt_addition: none
 ```
 """
-
 
 def stage_insights(
     user_id: str,
@@ -220,7 +213,6 @@ def stage_insights(
 
     return staged
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Stage CMC SCHOLAR insights to RECURSION-GATE")
     ap.add_argument("-u", "--user", default=DEFAULT_USER_ID, help="User ID")
@@ -238,7 +230,6 @@ def main() -> int:
         recent_days=args.days,
     )
     return 0 if staged or args.dry_run else 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

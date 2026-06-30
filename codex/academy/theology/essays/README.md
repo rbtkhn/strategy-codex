@@ -1,6 +1,6 @@
 # Theology Essays
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 These are full readable academy copies of the core civ-mem satellite theology essays. Each file carries an `Academy provenance` block pointing back to its source. Treat this folder as a manual curated fork for study, not an automatic mirror.
 

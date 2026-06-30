@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-01-18 (*Don't Drink the Water*)
 <!-- word_count: 2843 -->
 
-WORK only; not Record.
 
 **Expert:** `ritter` · **Published:** 2026-01-18 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 

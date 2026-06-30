@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/statecraft/prediction.schema.json",
+  "title": "Prediction note frontmatter",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "note_type",
+    "event_id",
+    "speaker",
+    "date_made",
+    "stance",
+    "source",
+    "status"
+  ],
+  "properties": {
+    "note_type": { "const": "prediction" },
+    "event_id": { "type": "string", "minLength": 1 },
+    "speaker": { "type": "string", "minLength": 1 },
+    "date_made": { "type": "string", "minLength": 1 },
+    "stance": {
+      "enum": ["yes", "no", "conditional", "uncertain"]
+    },
+    "source": { "type": "string", "minLength": 1 },
+    "status": {
+      "enum": ["pending", "resolved"]
+    },
+    "confidence": {
+      "enum": ["low", "medium", "high"]
+    },
+    "speech_act": {
+      "enum": [
+        "initial",
+        "restated",
+        "iterated",
+        "self_acknowledged_correct",
+        "self_acknowledged_incorrect",
+        "outcome_commentary"
+      ]
+    }
+  }
+}

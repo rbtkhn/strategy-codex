@@ -1,6 +1,5 @@
 # Interpretive Machine Lineage
 
-work only; not Record.
 
 This legacy compatibility path no longer owns the canonical doctrine.
 

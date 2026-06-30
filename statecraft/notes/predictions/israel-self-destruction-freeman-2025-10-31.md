@@ -7,9 +7,8 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2025-10-31/source-dialogue-works-amb-chas-freeman-israel-may-not-survive-this-china-and-trump-make-their-move-2025-10-31.md
 speech_act: iterated
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — Israel self-destruction (2025-10-31)
 

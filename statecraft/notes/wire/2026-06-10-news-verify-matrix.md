@@ -13,7 +13,6 @@ archive_links:
   - source-archive/statecraft/2026-06-10/source-dialogue-works-matthew-hoh-us-iran-exchange-heavy-attacks-2026-06-10.md
   - source-archive/statecraft/2026-06-10/source-dialogue-works-larry-johnson-breaking-american-attack-on-iran-has-begun-2026-06-10.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — 2026-06-10 (GCC / Jordan–Kuwait–Bahrain hooks)
 

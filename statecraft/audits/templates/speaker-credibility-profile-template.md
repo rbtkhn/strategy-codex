@@ -1,6 +1,5 @@
 # SPEAKER credibility profile template
 
-WORK only; not Record.
 
 Use this template after the shared workflow in [speaker-audit-workflow.md](../speaker-audit-workflow.md):
 

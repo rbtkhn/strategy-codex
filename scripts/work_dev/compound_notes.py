@@ -16,7 +16,6 @@ NOTES_DIR = REPO_ROOT / "docs" / "skill-work" / "work-dev" / "compound-notes"
 # Stale and duplicate heuristics — keep in sync with work_dev_compound_refresh / dashboard
 STALE_DAYS = 90
 
-
 def derived_compound_artifact_preamble(artifact_kind: str) -> str:
     """
     YAML front matter for derived work-dev compound markdown artifacts.
@@ -33,7 +32,6 @@ def derived_compound_artifact_preamble(artifact_kind: str) -> str:
         f"artifact_kind: {k}\n"
         "---\n"
     )
-
 
 def parse_front_matter(text: str) -> dict[str, Any]:
     """Parse first --- ... --- block. Handles generated notes; no PyYAML."""
@@ -80,7 +78,6 @@ def parse_front_matter(text: str) -> dict[str, Any]:
         i += 1
     return data
 
-
 def gate_candidate_truthy(value: Any) -> bool:
     """True for gate_candidate when operator intends staging consideration."""
     if value is True:
@@ -97,7 +94,6 @@ def gate_candidate_truthy(value: Any) -> bool:
         "y",
     )
 
-
 def body_after_front_matter(text: str) -> str:
     """Return markdown body after the first closing --- of front matter."""
     if not text.lstrip().startswith("---"):
@@ -106,7 +102,6 @@ def body_after_front_matter(text: str) -> str:
     if end_idx == -1:
         return ""
     return text[end_idx + 5 :].lstrip("\n")
-
 
 def extract_h2_section(body: str, title: str) -> str:
     """
@@ -125,7 +120,6 @@ def extract_h2_section(body: str, title: str) -> str:
             break
         buf.append(line)
     return "\n".join(buf).strip()
-
 
 def load_note_file(
     path: Path,
@@ -148,7 +142,6 @@ def load_note_file(
         "body": body_after_front_matter(text),
     }
 
-
 def parse_compound_note_record(
     path: Path,
     repo_root: Path = REPO_ROOT,
@@ -169,7 +162,6 @@ def parse_compound_note_record(
         "record_status": str(meta.get("record_status", "")).strip("'\""),
     }
 
-
 def parse_date_ymd(s: str) -> date | None:
     """Parse YYYY-MM-DD from the first 10 chars; None if invalid."""
     s = (s or "")[:10]
@@ -180,20 +172,16 @@ def parse_date_ymd(s: str) -> date | None:
     except ValueError:
         return None
 
-
 def normalize_dup_key(s: str) -> str:
     return re.sub(r"\s+", " ", s.strip().lower()) if s else ""
-
 
 def compound_note_paths(notes_dir: Path) -> list[Path]:
     if not notes_dir.is_dir():
         return []
     return sorted(notes_dir.glob("*.md"))
 
-
 def load_compound_records(notes_dir: Path, repo_root: Path) -> list[dict[str, Any]]:
     return [parse_compound_note_record(p, repo_root) for p in compound_note_paths(notes_dir)]
-
 
 def duplicate_title_groups(records: list[dict[str, Any]]) -> dict[str, list[str]]:
     title_groups: dict[str, list[str]] = {}
@@ -202,7 +190,6 @@ def duplicate_title_groups(records: list[dict[str, Any]]) -> dict[str, list[str]
         if nk and nk not in ("compound note", "untitled"):
             title_groups.setdefault(nk, []).append(str(r.get("name", "")))
     return {k: v for k, v in title_groups.items() if len(v) > 1}
-
 
 def duplicate_pattern_groups(records: list[dict[str, Any]]) -> dict[str, list[str]]:
     pat_groups: dict[str, list[str]] = {}
@@ -213,10 +200,8 @@ def duplicate_pattern_groups(records: list[dict[str, Any]]) -> dict[str, list[st
             pat_groups.setdefault(pk, []).append(str(r.get("name", "")))
     return {k: v for k, v in pat_groups.items() if len(v) > 1}
 
-
 def name_to_path_map(notes_dir: Path) -> dict[str, Path]:
     return {p.name: p for p in compound_note_paths(notes_dir)}
-
 
 def stale_non_gate_records(
     records: list[dict[str, Any]],
@@ -253,7 +238,6 @@ def stale_non_gate_records(
             out.append(row)
     return sorted(out, key=lambda x: str(x.get("date") or x.get("_effective_date", "")))
 
-
 def _affected_list(meta: dict[str, Any]) -> list[str]:
     raw = meta.get("affected_files", [])
     if raw is None:
@@ -263,7 +247,6 @@ def _affected_list(meta: dict[str, Any]) -> list[str]:
     if isinstance(raw, str) and raw.strip() == "[]":
         return []
     return [str(raw)] if raw else []
-
 
 def parse_note_for_export(
     path: Path,

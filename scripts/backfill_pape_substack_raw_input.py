@@ -5,7 +5,6 @@ Thin wrapper around ``backfill_substack_raw_input.py`` with Pape defaults.
 Use targeted ``--url`` / ``--slug`` captures by default. The public archive
 contains substantive essays, event notifications, livestream links, and
 interview pointers; it is not a raw-input backlog.
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -23,7 +22,6 @@ from backfill_substack_raw_input import DEFAULT_RAW_ROOT, run
 
 DEFAULT_HOSTNAME = "escalationtrap.substack.com"
 DEFAULT_THREAD = "pape"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -71,7 +69,6 @@ def main() -> int:
         urls=args.url,
         publication_slug=args.thread,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

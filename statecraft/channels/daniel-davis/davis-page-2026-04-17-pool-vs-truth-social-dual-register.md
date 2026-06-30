@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Page 2026 04 17 Pool Vs Truth Social Dual Register (compat redirect)
 

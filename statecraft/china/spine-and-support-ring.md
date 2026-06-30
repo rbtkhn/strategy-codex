@@ -1,6 +1,5 @@
 # China Lane Spine And Support Ring
 
-WORK only; not Record.
 
 Purpose: name the China lane's actual main route and distinguish it from the strengthening surfaces that deepen the route without replacing it.
 

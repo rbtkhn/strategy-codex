@@ -3,7 +3,6 @@
 
 Thin wrapper around ``backfill_x_profile_raw_input.py`` for the Diesen lane.
 Archive discovery is useful, but it is not a completeness mandate.
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -21,7 +20,6 @@ from backfill_x_profile_raw_input import DEFAULT_RAW_ROOT, run
 
 DEFAULT_PROFILE_URL = "https://x.com/Glenn_Diesen"
 DEFAULT_THREAD = "diesen"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -49,7 +47,6 @@ def main() -> int:
         apply=args.apply,
         limit=max(1, min(args.limit, 50)),
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

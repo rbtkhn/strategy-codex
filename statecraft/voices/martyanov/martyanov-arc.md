@@ -1,6 +1,5 @@
 # arc-martyanov-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [martyanov-arc.md](martyanov-arc.md)
 

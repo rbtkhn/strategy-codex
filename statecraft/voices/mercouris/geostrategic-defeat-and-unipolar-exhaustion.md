@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Geostrategic Defeat And Unipolar Exhaustion
 

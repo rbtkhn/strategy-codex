@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-08/source-mario-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md
   - source-archive/statecraft/2026-06-08/source-daniel-davis-iran-war-expands-houthis-declare-war-on-israel-2026-06-08.md
 ---
-WORK only; not Record.
 
 # Pape: Day 100 × New Phase × Lebanon Fuse — 2026-06-08
 

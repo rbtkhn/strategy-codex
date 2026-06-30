@@ -25,7 +25,6 @@ from grace_mar.merge.boundary_classifier import (  # noqa: E402
     suggested_reclassify_proposal_class,
 )
 
-
 def _map_boundary_surface_to_token(display: str | None) -> str:
     """Map boundary_review display labels to schema surface tokens (review UI / queue)."""
     s = (display or "").strip().upper()
@@ -39,7 +38,6 @@ def _map_boundary_surface_to_token(display: str | None) -> str:
         return "self"
     return "self"
 
-
 def _risk_tier_to_queue_risk(tier: str | None) -> str:
     t = (tier or "").strip()
     if t == "quick_merge_eligible":
@@ -48,13 +46,11 @@ def _risk_tier_to_queue_risk(tier: str | None) -> str:
         return "high"
     return "medium"
 
-
 def _materiality_from_row(row: dict[str, Any]) -> str:
     m = row.get("materiality")
     if m in ("low", "medium", "high", "critical"):
         return str(m)
     return _risk_tier_to_materiality(row.get("risk_tier"))
-
 
 def _risk_tier_to_materiality(tier: str | None) -> str:
     t = (tier or "").strip()
@@ -64,14 +60,12 @@ def _risk_tier_to_materiality(tier: str | None) -> str:
         return "high"
     return "medium"
 
-
 def _evidence_count_from_row(row: dict[str, Any]) -> int:
     refs = row.get("evidence_refs")
     if isinstance(refs, list):
         return len(refs)
     raw = row.get("raw_block") or ""
     return len(re.findall(r"^evidence_id:\s*\S", raw, re.MULTILINE))
-
 
 def normalize_review_item(row: dict[str, Any]) -> dict[str, Any]:
     """
@@ -127,6 +121,5 @@ def normalize_review_item(row: dict[str, Any]) -> dict[str, Any]:
         "signal_type": (row.get("signal_type") or "").strip(),
         "duplicate_hints": row.get("duplicate_hints") or [],
     }
-
 
 __all__ = ["normalize_review_item"]

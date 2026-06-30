@@ -1,6 +1,5 @@
 # Source-Archive Ownership vs Speaker Arc
 
-WORK only; not Record.
 
 This note distinguishes two nearby but different questions:
 

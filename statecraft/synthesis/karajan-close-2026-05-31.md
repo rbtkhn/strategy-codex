@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Karajan Close - 2026-05-31
 

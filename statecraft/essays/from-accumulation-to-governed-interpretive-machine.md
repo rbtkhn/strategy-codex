@@ -1,6 +1,5 @@
 # From Accumulation To A Governed Interpretive Machine
 
-work only; not Record.
 
 **Canonical home:** [../../essays/from-accumulation-to-governed-interpretive-machine.md](../../essays/from-accumulation-to-governed-interpretive-machine.md)
 

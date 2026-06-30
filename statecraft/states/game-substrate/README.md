@@ -1,6 +1,6 @@
 # CIV-STATE Game Substrate
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Machine companion layer for strategy games, sims, and mods. The **five-volume book** stays human-first under `volumes/`; this folder holds **typed extracts**—profiles, pattern schemas, settlement clauses, and future engine adapters.
 

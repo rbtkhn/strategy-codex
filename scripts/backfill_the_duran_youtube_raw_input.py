@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Backfill The Duran YouTube transcripts into raw-input/.
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -15,7 +14,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CHANNEL_URL = "https://www.youtube.com/@TheDuran/videos"
 DEFAULT_SHOW = "The Duran"
 DEFAULT_HOST = "Alexander Mercouris / Alex Christoforou"
-
 
 def main() -> int:
     return youtube_main(
@@ -44,7 +42,6 @@ def main() -> int:
             *sys.argv[1:],
         ]
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

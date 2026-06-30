@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-04-13 (*Blasphemy, American Style*)
 <!-- word_count: 1765 -->
 
-WORK only; not Record.
 
 **Expert:** `ritter` · **Published:** 2026-04-13 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 

@@ -26,7 +26,6 @@ _CONDUCTOR_OUTCOME_LINE = re.compile(
     r"^- \*\*(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC\*\* .+? coffee_conductor_outcome \(([^)]+)\)\s*(.*)$"
 )
 
-
 # Accept the canonical em dash and mojibake variants that appear in older cadence logs.
 _COFFEE_LINE = re.compile(
     r"^- \*\*(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC\*\* .+? coffee \(([^)]+)\)\s*(.*)$"
@@ -34,7 +33,6 @@ _COFFEE_LINE = re.compile(
 _COFFEE_PICK_LINE = re.compile(
     r"^- \*\*(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC\*\* .+? coffee_pick \(([^)]+)\)\s*(.*)$"
 )
-
 
 def _parse_trailing_kv(rest: str) -> tuple[bool | None, str | None, dict[str, str]]:
     ok: bool | None = None
@@ -53,11 +51,9 @@ def _parse_trailing_kv(rest: str) -> tuple[bool | None, str | None, dict[str, st
             kv[key] = val
     return ok, mode, kv
 
-
 def _parse_ts(date_part: str, time_part: str) -> datetime:
     dt = datetime.strptime(f"{date_part} {time_part}", "%Y-%m-%d %H:%M").replace(tzinfo=timezone.utc)
     return dt
-
 
 def parse_coffee_pick_cadence_lines(
     markdown: str,
@@ -105,7 +101,6 @@ def parse_coffee_pick_cadence_lines(
     if len(out) > max_events:
         out = out[-max_events:]
     return out
-
 
 def parse_conductor_cadence_lines(
     markdown: str,
@@ -165,7 +160,6 @@ def parse_conductor_cadence_lines(
         events = events[-max_events:]
     return events
 
-
 def parse_coffee_cadence_lines(
     markdown: str,
     *,
@@ -199,7 +193,6 @@ def parse_coffee_cadence_lines(
     if len(runs) > max_runs:
         runs = runs[-max_runs:]
     return runs
-
 
 def rollup_coffee_24h(
     *,
@@ -280,13 +273,11 @@ def rollup_coffee_24h(
         "by_picked": by_picked,
     }
 
-
 def _one_line_capped(s: str, max_len: int) -> str:
     t = " ".join(s.split())
     if len(t) <= max_len:
         return t
     return t[: max_len - 1] + "…"
-
 
 def _is_refusal_outcome(row: dict[str, Any]) -> bool:
     verdict = str(row.get("verdict") or "").lower()
@@ -294,14 +285,12 @@ def _is_refusal_outcome(row: dict[str, Any]) -> bool:
     refusal_tokens = {"no_action", "refuse", "refused", "park", "parked", "shelf"}
     return verdict in refusal_tokens or action in refusal_tokens
 
-
 def _conductor_outcome_label(row: dict[str, Any]) -> str:
     for key in ("action", "falsify", "commit", "notebook_ref", "verdict"):
         value = str(row.get(key) or "").strip()
         if value:
             return value
     return "closed pass"
-
 
 def rollup_conductor_24h(
     *,
@@ -334,7 +323,6 @@ def rollup_conductor_24h(
         "note",
     }
     return {key: value for key, value in rollup.items() if key in keep}
-
 
 def rollup_work_pass_24h(
     *,
@@ -507,7 +495,6 @@ def rollup_work_pass_24h(
     )
     return result
 
-
 def rollup_object_closes_24h(
     *,
     user_id: str,
@@ -538,7 +525,6 @@ def rollup_object_closes_24h(
         "note",
     }
     return {key: rollup.get(key) for key in keep}
-
 
 def rollup_conductor_window(
     *,
@@ -676,7 +662,6 @@ def rollup_conductor_window(
         }
     )
     return empty
-
 
 def build_last_coffee_echo(rollup: dict[str, Any]) -> dict[str, Any] | None:
     """Derive a compact, single-line echo from a 24h coffee rollup; no cadence re-parse.

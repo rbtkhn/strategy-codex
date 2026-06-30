@@ -1,6 +1,5 @@
 # Pape profile — compatibility redirect
 
-WORK only; not Record.
 
 **Canonical profile (SSOT):** [`statecraft/voices/pape/pape-profile.md`](../../statecraft/voices/pape/pape-profile.md)
 

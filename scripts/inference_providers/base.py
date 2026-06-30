@@ -10,7 +10,6 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 
-
 @dataclass
 class InferenceResult:
     """Uniform return type from all providers."""
@@ -21,7 +20,6 @@ class InferenceResult:
     model: str = ""
     provider: str = ""
     metadata: dict = field(default_factory=dict)
-
 
 class InferenceProvider(ABC):
     """Minimal interface every provider must implement."""

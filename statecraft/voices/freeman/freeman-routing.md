@@ -1,6 +1,5 @@
 # Freeman routing
 
-WORK only; not Record.
 
 Purpose: answer which Freeman lane or month shelf to open first without duplicating host chronology.
 

@@ -13,7 +13,6 @@ archive_links:
   - source-archive/statecraft/2026-05-09/source-crooke-ways-of-war-are-in-metamorphosis-lessons-from-the-iran-war-2026-05-09.md
   - source-archive/statecraft/2026-04-23/source-daniel-davis-crooke-iranians-only-getting-tougher-2026-04-23.md
 ---
-WORK only; not Record.
 
 # Gulf AI architecture
 

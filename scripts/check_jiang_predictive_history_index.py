@@ -8,13 +8,11 @@ import re
 from collections import Counter
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MASTER_INDEX = REPO_ROOT / "statecraft" / "speakers" / "jiang" / "jiang-predictive-history-master-index.md"
 MIRROR_CARDS = REPO_ROOT / "statecraft" / "speakers" / "jiang" / "ph-civ" / "data" / "cards.jsonl"
 SOURCE_VIDEO_INDEX = REPO_ROOT / "statecraft" / "speakers" / "jiang" / "ph-civ" / "docs" / "source-video-index.md"
 RAW_ARCHIVE_ROOT = REPO_ROOT / "source-archive" / "statecraft"
-
 
 def count_public_cards() -> tuple[int, Counter[str]]:
     counts: Counter[str] = Counter()
@@ -26,7 +24,6 @@ def count_public_cards() -> tuple[int, Counter[str]]:
             obj = json.loads(line)
             counts[obj.get("series", "unknown")] += 1
     return sum(counts.values()), counts
-
 
 def count_source_video_rows() -> tuple[int, Counter[str]]:
     counts: Counter[str] = Counter()
@@ -49,7 +46,6 @@ def count_source_video_rows() -> tuple[int, Counter[str]]:
             counts["int"] += 1
     return total, counts
 
-
 def count_raw_archive() -> tuple[int, Counter[str]]:
     counts: Counter[str] = Counter()
     for path in RAW_ARCHIVE_ROOT.rglob("*.md"):
@@ -66,7 +62,6 @@ def count_raw_archive() -> tuple[int, Counter[str]]:
         elif name.startswith("substack-predictive-history-"):
             counts["essays"] += 1
     return sum(counts.values()), counts
-
 
 def expected_counts_from_master() -> dict[str, int]:
     text = MASTER_INDEX.read_text(encoding="utf-8")
@@ -95,7 +90,6 @@ def expected_counts_from_master() -> dict[str, int]:
             raise RuntimeError(f"could not find expected count for {key} in master index")
         result[key] = int(match.group(1))
     return result
-
 
 def main() -> int:
     expected = expected_counts_from_master()
@@ -163,7 +157,6 @@ def main() -> int:
 
     print("status=ok")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

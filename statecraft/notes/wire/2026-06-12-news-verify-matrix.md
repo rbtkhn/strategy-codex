@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 archive_links:
   - source-archive/statecraft/2026-06-12/README.md
 ---
-WORK only; not Record.
 
 # News-verify matrix — 12 Jun 2026 statecraft batch
 

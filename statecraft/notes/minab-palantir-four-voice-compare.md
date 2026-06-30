@@ -12,7 +12,6 @@ archive_links:
   - source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md
   - source-archive/statecraft/2026-06-01/source-judging-freedom-sachs-how-the-best-military-and-intel-failed-2026-06-01.md
 ---
-WORK only; not Record.
 
 # Minab / Palantir — four-voice compare
 

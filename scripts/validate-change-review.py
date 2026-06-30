@@ -32,17 +32,14 @@ PROPOSAL_SCHEMA = SCHEMA_DIR / "change-proposal.v1.json"
 DECISION_SCHEMA = SCHEMA_DIR / "change-decision.v1.json"
 DIFF_SCHEMA = SCHEMA_DIR / "identity-diff.v1.json"
 
-
 def load_json(path: Path) -> Dict[str, Any]:
     data = load_json_file(path)
     if not isinstance(data, dict):
         raise TypeError(f"expected JSON object at {path}, got {type(data).__name__}")
     return data
 
-
 def load_schema(path: Path) -> Dict[str, Any]:
     return load_json(path)
-
 
 def validate_json(instance: Dict[str, Any], schema: Dict[str, Any], path: Path) -> List[str]:
     validator = jsonschema.Draft202012Validator(schema)
@@ -53,7 +50,6 @@ def validate_json(instance: Dict[str, Any], schema: Dict[str, Any], path: Path) 
         messages.append(f"{path}: schema error at {location}: {error.message}")
     return messages
 
-
 def resolve_ref(base_dir: Path, ref: str) -> Path:
     ref_path = Path(ref)
     if ref_path.is_absolute():
@@ -62,10 +58,8 @@ def resolve_ref(base_dir: Path, ref: str) -> Path:
         return ROOT / ref_path
     return (base_dir / ref_path).resolve()
 
-
 def collect_json_files(directory: Path) -> List[Path]:
     return sorted([p for p in directory.glob("*.json") if p.is_file()])
-
 
 def validate_queue_structure(
     review_dir: Path,
@@ -144,7 +138,6 @@ def validate_queue_structure(
 
     return errors
 
-
 def validate_queue_refs(review_dir: Path, queue: Dict[str, Any], proposals: Dict[str, Dict[str, Any]]) -> List[str]:
     errors: List[str] = []
     queue_ids = [item["proposalId"] for item in queue.get("items", [])]
@@ -156,7 +149,6 @@ def validate_queue_refs(review_dir: Path, queue: Dict[str, Any], proposals: Dict
                 f"{review_dir / 'change_review_queue.json'}: queue references missing proposalId {proposal_id}"
             )
     return errors
-
 
 def validate_event_log_refs(review_dir: Path, event_log: Dict[str, Any]) -> List[str]:
     errors: List[str] = []
@@ -170,7 +162,6 @@ def validate_event_log_refs(review_dir: Path, event_log: Dict[str, Any]) -> List
                 f"{review_dir / 'change_event_log.json'}: event ref does not exist: {ref}"
             )
     return errors
-
 
 def validate_decision_links(
     decisions: Dict[str, Dict[str, Any]],
@@ -186,10 +177,8 @@ def validate_decision_links(
             )
     return errors
 
-
 def strip_fragment(ref: str) -> str:
     return ref.split("#", 1)[0]
-
 
 def validate_proposal_refs(review_dir: Path, proposals: Dict[str, Dict[str, Any]]) -> List[str]:
     errors: List[str] = []
@@ -214,7 +203,6 @@ def validate_proposal_refs(review_dir: Path, proposals: Dict[str, Dict[str, Any]
                     f"Proposal {proposal_id} has supportingEvidence ref that does not exist: {ref}"
                 )
     return errors
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate change-review artifacts.")
@@ -246,7 +234,6 @@ def main() -> int:
 
     print(f"VALIDATION PASSED: {review_dir}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

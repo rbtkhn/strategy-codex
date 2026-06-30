@@ -23,7 +23,6 @@ try:
 except ImportError:
     jsonschema = None  # type: ignore
 
-
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = ROOT / "platform/config" / "source-of-truth.json"
 SCHEMA_PATH = ROOT / "schemas/registry" / "source-of-truth.v1.json"
@@ -39,13 +38,11 @@ EMBEDDED_DEFAULT = {
     "notes": ["Embedded default; add platform/config/source-of-truth.json to customize."],
 }
 
-
 def load_config(path: Path | None) -> dict:
     p = path or DEFAULT_CONFIG
     if p.is_file():
         return json.loads(p.read_text(encoding="utf-8"))
     return dict(EMBEDDED_DEFAULT)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Layer precedence check (starter).")
@@ -93,7 +90,6 @@ def main() -> int:
     else:
         print("Same index; review required")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

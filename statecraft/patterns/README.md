@@ -1,6 +1,6 @@
 # Statecraft Recursive-Learning Patterns
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: hold the reusable drafting and routing laws that `statecraft/` has extracted from prior recursive-learning events.
 

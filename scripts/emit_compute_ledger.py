@@ -25,7 +25,6 @@ try:
 except ImportError:
     from scripts.repo_io import operator_ledger_write_path
 
-
 def _integration_token_fields_from_env() -> dict[str, Any]:
     """Merge optional LLM usage from env into ledger row (integration paths have no direct API hook)."""
     out: dict[str, Any] = {}
@@ -46,7 +45,6 @@ def _integration_token_fields_from_env() -> dict[str, Any]:
     if out:
         out["token_accounting"] = "env"
     return out
-
 
 def append_integration_ledger(
     user_id: str,
@@ -97,7 +95,6 @@ def append_integration_ledger(
     with open(path, "a", encoding="utf-8") as f:
         f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
-
 def main() -> int:
     import argparse
 
@@ -116,7 +113,6 @@ def main() -> int:
     )
     print("emit_compute_ledger: appended")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

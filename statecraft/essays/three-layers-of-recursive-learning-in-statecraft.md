@@ -1,6 +1,5 @@
 # Three Layers of Recursive Learning in Statecraft
 
-WORK only; not Record.
 
 **Canonical home:** [../../essays/three-layers-of-recursive-learning-in-statecraft.md](../../essays/three-layers-of-recursive-learning-in-statecraft.md)
 

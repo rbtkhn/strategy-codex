@@ -1,7 +1,6 @@
 # Expert transcript - `mercouris`
 <!-- word_count: 6074 -->
 
-WORK only; not Record.
 
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) that include `thread:mercouris` (first line + optional continuation paragraphs), routed on ingest.
 **Refined page:** **`mercouris-page-*.md`** in this folder - Verbatim / Reflection / Foresight artifacts pointing to **verbatim** in [`raw-input/`](../../sheets/source-archive-control/README.md. **Verbatim capture** stays under **`raw-input/<date>/`** (e.g. `*-mercouris-verbatim.md` or RSS-merge **`YYYY-MM-DD-mercouris.md`**). Distinct from a **`strategy-page`** fence in [mercouris-thread.md](mercouris-thread.md) unless you duplicate judgment there during EOD compose. **Template:** [`mercouris-page-template.md`](mercouris-page-template.md).

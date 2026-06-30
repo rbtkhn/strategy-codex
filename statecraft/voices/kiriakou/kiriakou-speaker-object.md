@@ -1,6 +1,5 @@
 # Kiriakou speaker object
 
-WORK only; not Record.
 
 object_shape: cross-host-reinforced
 

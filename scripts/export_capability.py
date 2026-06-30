@@ -37,7 +37,6 @@ EXCLUDED_ENTRY_PREFIXES = ("READ-", "MEDIA-")
 
 EXCLUDED_SENSITIVITY = {"non_portable", "non_exportable"}
 
-
 # ── identity context (minimal) ─────────────────────────────────────────
 
 def _parse_identity_context(self_content: str) -> dict:
@@ -49,7 +48,6 @@ def _parse_identity_context(self_content: str) -> dict:
     if m := re.search(r'lexile_output:\s*["\']?([^"\'\n]+)', self_content):
         data["lexile_output"] = m.group(1).strip()
     return data
-
 
 # ── skills extraction ───────────────────────────────────────────────────
 
@@ -79,14 +77,12 @@ def _extract_yaml_list(content: str, section_heading: str) -> list[str]:
             items.append(stripped[2:].strip())
     return items
 
-
 def _parse_skills(skills_content: str) -> dict:
     return {
         "claims": _extract_yaml_list(skills_content, "## II. CAPABILITY CLAIMS"),
         "gaps": _extract_yaml_list(skills_content, "## III. CAPABILITY GAPS"),
         "milestones": _extract_yaml_list(skills_content, "## V. MILESTONES"),
     }
-
 
 # ── evidence extraction ─────────────────────────────────────────────────
 
@@ -128,7 +124,6 @@ def _extract_entries_by_prefix(evidence_content: str, prefix: str) -> list[dict]
         entries.append(entry)
     return entries
 
-
 def _is_sensitivity_excluded(body: str) -> bool:
     for field in ("sensitivity_class", "portability_class"):
         m = re.search(rf"^\s*{field}:\s*(\S+)", body, re.MULTILINE)
@@ -136,14 +131,12 @@ def _is_sensitivity_excluded(body: str) -> bool:
             return True
     return False
 
-
 def _extract_evidence(evidence_content: str) -> dict[str, list[dict]]:
     return {
         "write": _extract_entries_by_prefix(evidence_content, "WRITE-"),
         "create": _extract_entries_by_prefix(evidence_content, "CREATE-"),
         "act": _extract_entries_by_prefix(evidence_content, "ACT-"),
     }
-
 
 # ── rationale loading ───────────────────────────────────────────────────
 
@@ -163,7 +156,6 @@ def _load_rationales(rationale_dir: Path | None = None) -> list[dict]:
         if RATIONALE_REQUIRED_FIELDS.issubset(data.keys()):
             rationales.append(data)
     return rationales
-
 
 # ── main export ─────────────────────────────────────────────────────────
 
@@ -205,7 +197,6 @@ def export_capability(user_id: str = "grace-mar") -> dict:
         },
     }
 
-
 # ── CLI ─────────────────────────────────────────────────────────────────
 
 def main() -> int:
@@ -223,7 +214,6 @@ def main() -> int:
     else:
         print(text)
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

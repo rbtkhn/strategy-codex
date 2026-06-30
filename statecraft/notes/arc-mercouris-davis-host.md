@@ -17,7 +17,6 @@ archive_links:
 
 # Davis x Mercouris speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Davis x Mercouris` run inside the Daniel Davis Deep Dive stream. This is not a substitute for the raw-input shelf. It exists so future routing can quickly answer: which Mercouris guest episodes matter most inside Davis's host frame, what kind of lane this is, and which discovered items still need transcript capture.
 

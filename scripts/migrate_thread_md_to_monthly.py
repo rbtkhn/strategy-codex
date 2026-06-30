@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Split legacy ``experts/<id>/thread.md`` into ``<id>-thread-YYYY-MM.md`` (WORK only).
+"""Split legacy ``experts/<id>/thread.md`` into ``<id>-thread-YYYY-MM.md`` (non-authoritative).
 
 Copies the **journal layer** (human content above ``<!-- strategy-expert-thread:start``)
 by ``## YYYY-MM`` headings into one file per month. Preserves a shared prefix
@@ -37,7 +37,6 @@ NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 
 RE_MONTH_H2 = re.compile(r"^##\s+(\d{4}-\d{2})\s*$")
 
-
 def _extract_human_and_machine(text: str) -> tuple[str, str]:
     if THREAD_MARKER_START not in text:
         return text.rstrip(), ""
@@ -47,7 +46,6 @@ def _extract_human_and_machine(text: str) -> tuple[str, str]:
     else:
         machine, after = rest, ""
     return human.rstrip(), after
-
 
 def _month_segments(human: str) -> tuple[str, list[tuple[str, str]], str]:
     """Prefix before first ``## YYYY-MM``, list of (ym, body), trailing tail."""
@@ -81,7 +79,6 @@ def _month_segments(human: str) -> tuple[str, list[tuple[str, str]], str]:
     tail = "\n".join(lines[i:]).strip()
     return prefix, segments, tail
 
-
 def _compose_month_file(
     *,
     expert_id: str,
@@ -111,7 +108,6 @@ def _compose_month_file(
     parts.append(THREAD_MARKER_END)
     parts.append("")
     return "\n".join(parts)
-
 
 def migrate_expert_dir(notebook_dir: Path, expert_dir: Path, *, apply: bool) -> list[str]:
     expert_id = expert_dir.name
@@ -150,7 +146,6 @@ def migrate_expert_dir(notebook_dir: Path, expert_dir: Path, *, apply: bool) -> 
         actions.append(f"would rename {src.relative_to(REPO_ROOT)} -> thread.md.bak")
     return actions
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -174,7 +169,6 @@ def main() -> int:
     if not all_actions:
         print("no migrations", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # arc-karaganov-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [karaganov-arc.md](karaganov-arc.md)
 

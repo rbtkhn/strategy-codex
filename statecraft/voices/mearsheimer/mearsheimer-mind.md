@@ -1,7 +1,6 @@
 # Expert mind — John Mearsheimer (`mearsheimer`)
 <!-- word_count: 2027 -->
 
-WORK only; not Record.
 
 **Epistemic fence:** This file is an **analytical voice / style fingerprint** for WORK (tri-mind, strategy passes). It is **not** biographical truth about a real person, **not** the Record, and **not** a substitute for **transcript-grounded** Judgment when a claim must be anchored to a primary line.
 

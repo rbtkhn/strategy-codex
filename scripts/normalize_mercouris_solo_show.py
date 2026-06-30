@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Bulk-normalize solo hub show labels (WORK only).
+"""Bulk-normalize solo hub show labels (non-authoritative).
 
 For `source-alexander-mercouris-*` with `channel_slug` not `the-duran` and
 `show: Mercouris`, set `show: Alexander Mercouris`.
@@ -19,14 +19,12 @@ SHOW_RE = re.compile(
     re.M,
 )
 
-
 def parse_scalar(block: str, key: str) -> str | None:
     m = re.search(rf"^{re.escape(key)}:\s*(.+)$", block, re.M)
     if not m:
         return None
     val = m.group(1).strip().strip('"').strip("'")
     return val or None
-
 
 def collect_targets(root: Path) -> list[Path]:
     targets: list[Path] = []
@@ -44,7 +42,6 @@ def collect_targets(root: Path) -> list[Path]:
         targets.append(path)
     return targets
 
-
 def apply_show(path: Path, dry_run: bool) -> bool:
     text = path.read_text(encoding="utf-8")
     new_text, n = SHOW_RE.subn(r"\1Alexander Mercouris", text, count=1)
@@ -53,7 +50,6 @@ def apply_show(path: Path, dry_run: bool) -> bool:
     if not dry_run:
         path.write_text(new_text, encoding="utf-8", newline="\n")
     return True
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -72,7 +68,6 @@ def main() -> int:
             print(f"{'would_patch' if args.dry_run else 'patched'} {rel}")
     print(f"total={changed}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

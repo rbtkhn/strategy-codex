@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 # Skill Refinement Scorecard
 
-WORK only; not Record.
 
 ## Purpose
 

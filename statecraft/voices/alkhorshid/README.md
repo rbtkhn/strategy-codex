@@ -1,6 +1,6 @@
 # Alkhorshid voice shelf (`alkhorshid`)
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Canonical **voice shelf** for Nima Alkhorshid — analyst identity and cross-host guest routing. Dialogue Works **host** work stays on the [channel shelf](../../channels/dialogue-works/README.md).
 

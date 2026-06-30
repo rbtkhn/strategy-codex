@@ -20,7 +20,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CIV_ROOT = REPO_ROOT / "research" / "repos" / "civilization_memory" / "content" / "civilizations"
 
-
 def _full_spine(entity: str, base: Path) -> list[Path]:
     return [
         base / f"MEM–RELEVANCE–{entity}.md",
@@ -28,7 +27,6 @@ def _full_spine(entity: str, base: Path) -> list[Path]:
         base / f"CIV–SCHOLAR–{entity}.md",
         base / f"CIV–CORE–{entity}.md",
     ]
-
 
 def run_russia() -> int:
     """Default entity: full spine + RUSSIA-shaped sample MEM names."""
@@ -64,7 +62,6 @@ def run_russia() -> int:
         print(f"  {k}: {v.name}")
     print(f"  routing doc: docs/skill-work/work-strategy/minds/CIV-MEM-TRI-FRAME-ROUTING.md")
     return 0
-
 
 def run_rome() -> int:
     """
@@ -117,7 +114,6 @@ def run_rome() -> int:
     print("  drill doc: docs/skill-work/work-strategy/strategy-notebook/TRUMP-LEO-CIV-MEM-BARNES-DRILL.md")
     return 0
 
-
 def main() -> int:
     if len(sys.argv) > 1:
         ent = sys.argv[1].strip().upper()
@@ -135,7 +131,6 @@ def main() -> int:
         return r
     print("")
     return run_rome()
-
 
 if __name__ == "__main__":
     sys.exit(main())

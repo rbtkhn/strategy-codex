@@ -8,7 +8,6 @@ Uses Substack's public JSON endpoints:
 Writes one full, local, plain-text raw capture per newsletter under:
   source-archive/singularity/innermost-loop/
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -62,7 +61,6 @@ MONTHS = {
     "december": 12,
 }
 
-
 @dataclass(frozen=True)
 class CaptureResult:
     day: date
@@ -71,13 +69,11 @@ class CaptureResult:
     url: str
     status: str
 
-
 def _relative(path: Path, root: Path = REPO_ROOT) -> str:
     try:
         return str(path.resolve().relative_to(root.resolve())).replace("\\", "/")
     except ValueError:
         return str(path)
-
 
 def _fetch_json(url: str, *, timeout: int = 60) -> object:
     req = urllib.request.Request(
@@ -86,7 +82,6 @@ def _fetch_json(url: str, *, timeout: int = 60) -> object:
     )
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return json.loads(resp.read().decode("utf-8"))
-
 
 def _post_day_utc(iso_z: str) -> date:
     if not iso_z:
@@ -97,7 +92,6 @@ def _post_day_utc(iso_z: str) -> date:
     if dt.tzinfo is not None:
         dt = dt.astimezone(timezone.utc)
     return dt.date()
-
 
 def _strip_html(html: str) -> str:
     if not html:
@@ -115,7 +109,6 @@ def _strip_html(html: str) -> str:
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
 
-
 def _date_from_title_or_slug(title: str, slug: str, published: date) -> date:
     combined = f"{title} {slug}".lower()
     m = re.search(
@@ -129,11 +122,9 @@ def _date_from_title_or_slug(title: str, slug: str, published: date) -> date:
     month = MONTHS[m.group(1)]
     return date(int(m.group(3)), month, int(m.group(2)))
 
-
 def _canonical_url(post: dict, host: str) -> str:
     slug = str(post.get("slug") or "").strip()
     return str(post.get("canonical_url") or f"https://{host}/p/{slug}")
-
 
 def _build_capture_doc(*, detail: dict, host: str, capture_date: date) -> tuple[date, str]:
     title = str(detail.get("title") or detail.get("slug") or "Untitled")
@@ -165,8 +156,7 @@ def _build_capture_doc(*, detail: dict, host: str, capture_date: date) -> tuple[
         "",
         f"# The Innermost Loop - {title_day.isoformat()}",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         "## Source",
         "",
         f"- Title: {title}",
@@ -189,7 +179,6 @@ def _build_capture_doc(*, detail: dict, host: str, capture_date: date) -> tuple[
         ]
     )
     return title_day, "\n".join(parts)
-
 
 def _fetch_archive_posts(*, host: str, since: date, until: date, page_size: int) -> list[dict]:
     collected: dict[str, dict] = {}
@@ -216,7 +205,6 @@ def _fetch_archive_posts(*, host: str, since: date, until: date, page_size: int)
         offset += len(batch)
     return sorted(collected.values(), key=lambda x: str(x.get("post_date") or ""))
 
-
 def _render_index_lines(results: Iterable[CaptureResult], *, link_prefix: str) -> list[str]:
     lines: list[str] = []
     for result in sorted(results, key=lambda r: r.day):
@@ -225,7 +213,6 @@ def _render_index_lines(results: Iterable[CaptureResult], *, link_prefix: str) -
             f"- [The Innermost Loop raw - {result.day.isoformat()}]({rel}) - full newsletter capture."
         )
     return lines
-
 
 def _replace_or_insert_section(text: str, heading: str, body: str, *, before_heading: str | None = None) -> str:
     pattern = re.compile(rf"(?ms)^## {re.escape(heading)}\n.*?(?=^## |\Z)")
@@ -236,7 +223,6 @@ def _replace_or_insert_section(text: str, heading: str, body: str, *, before_hea
         idx = text.index(f"## {before_heading}")
         return (text[:idx].rstrip() + "\n\n" + replacement + text[idx:].lstrip()).rstrip() + "\n"
     return text.rstrip() + "\n\n" + replacement
-
 
 def _update_readmes(
     *,
@@ -303,7 +289,6 @@ def _update_readmes(
                 print(f"updated: {_relative(shelf_readme)}")
             else:
                 print(f"would update: {_relative(shelf_readme)}")
-
 
 def run(
     *,
@@ -379,7 +364,6 @@ def run(
         print("\nDry-run only. Pass --apply to write raw captures.")
     return 0
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--host", default=DEFAULT_HOST)
@@ -409,7 +393,6 @@ def main() -> int:
         overwrite=args.overwrite,
         page_size=max(1, min(args.page_size, 50)),
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

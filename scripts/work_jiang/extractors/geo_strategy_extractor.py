@@ -7,7 +7,6 @@ from extractors.base import LectureExtractor
 
 ROOT = Path(__file__).resolve().parents[3]
 
-
 class GeoStrategyExtractor(LectureExtractor):
     series_id = "geo-strategy"
 

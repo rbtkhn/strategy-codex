@@ -30,20 +30,16 @@ REPO_ROOT = _SCRIPT_DIR.parent
 TEMPLATE_PATH = REPO_ROOT / 'platform/template' / 'DOMAIN.md'
 SKILL_WORK = REPO_ROOT / 'docs' / 'skill-work'
 
-
 def _slug_from_work_dir(name: str) -> str:
     if not name.startswith('work-'):
         return ''
     return name[5:].lower()
 
-
 def _domain_upper(slug: str) -> str:
     return slug.upper()
 
-
 def _title_case(slug: str) -> str:
     return slug.replace('-', ' ').title()
-
 
 def discover_domain_dirs(
     roots: list[Path],
@@ -84,7 +80,6 @@ def discover_domain_dirs(
                 warnings.append((d, dirs[0]))
 
     return chosen, warnings
-
 
 def migrate_one(
     domain_dir: Path,
@@ -139,7 +134,6 @@ def migrate_one(
     target.write_text(content, encoding='utf-8')
     print(f'created: {rel}')
     return True, True
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -242,7 +236,6 @@ def main() -> int:
     if not args.execute:
         print(f'\nDry-run complete ({n_would} would create). Use --execute to apply.')
     return 0
-
 
 if __name__ == '__main__':
     raise SystemExit(main())

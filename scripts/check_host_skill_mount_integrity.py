@@ -14,17 +14,14 @@ try:
 except ModuleNotFoundError:  # pragma: no cover - script invoked as module
     from scripts.scrub_skill_mojibake import control_char_issues, marker_count  # type: ignore
 
-
 FRONTMATTER_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n", re.DOTALL)
 SKILL_LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+/SKILL\.md)\)")
-
 
 @dataclass(frozen=True)
 class Issue:
     skill: str
     kind: str
     detail: str
-
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -46,7 +43,6 @@ def parse_args() -> argparse.Namespace:
     )
     return parser.parse_args()
 
-
 def iter_skill_files(skills_dir: Path, *, include_system: bool) -> Iterable[Path]:
     for child in sorted(skills_dir.iterdir()):
         if not child.is_dir():
@@ -57,14 +53,12 @@ def iter_skill_files(skills_dir: Path, *, include_system: bool) -> Iterable[Path
         if skill_file.exists():
             yield skill_file
 
-
 def extract_frontmatter(text: str, *, feature: str) -> dict[str, object]:
     match = FRONTMATTER_RE.match(text)
     if not match:
         return {}
     data = safe_load_text(match.group(1), feature=feature)
     return data if isinstance(data, dict) else {}
-
 
 def normalize_requires(value: object) -> list[str]:
     if value is None:
@@ -74,7 +68,6 @@ def normalize_requires(value: object) -> list[str]:
     if isinstance(value, list):
         return [item for item in value if isinstance(item, str)]
     return []
-
 
 def collect_issues(skill_file: Path, mounted_skill_names: set[str]) -> list[Issue]:
     text = skill_file.read_text(encoding="utf-8")
@@ -111,7 +104,6 @@ def collect_issues(skill_file: Path, mounted_skill_names: set[str]) -> list[Issu
             )
     return issues
 
-
 def collect_encoding_issues(skill_file: Path) -> list[Issue]:
     text = skill_file.read_text(encoding="utf-8")
     skill_name = skill_file.parent.name
@@ -136,7 +128,6 @@ def collect_encoding_issues(skill_file: Path) -> list[Issue]:
             )
         )
     return issues
-
 
 def main() -> int:
     args = parse_args()
@@ -168,7 +159,6 @@ def main() -> int:
     for issue in issues:
         print(f"- [{issue.kind}] {issue.skill}: {issue.detail}")
     return 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

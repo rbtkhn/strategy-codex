@@ -40,7 +40,6 @@ try:
 except ImportError:
     from scripts.pipeline_event_envelope import ENVELOPE_VERSION, new_pipeline_event_id
 
-
 def append_pipeline_event(
     user_id: str,
     event_type: str,
@@ -74,7 +73,6 @@ def append_pipeline_event(
     with open(events_path, "a", encoding="utf-8") as f:
         f.write(json.dumps(event, ensure_ascii=False) + "\n")
     return event
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Append event to pipeline ledger.")
@@ -124,7 +122,6 @@ def main() -> None:
             extras[k] = v
     append_pipeline_event(args.user, event_type, candidate_id, merge=merge, extras=extras)
     print(f"Emitted {event_type} {candidate_id or '(none)'} for {args.user}")
-
 
 if __name__ == "__main__":
     main()

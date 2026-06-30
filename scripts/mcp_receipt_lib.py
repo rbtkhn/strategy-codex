@@ -27,10 +27,8 @@ RECEIPT_SCHEMA_PATH = REPO_ROOT / "schemas" / "mcp-execution-receipt.v1.json"
 _NETWORK_RANK: dict[str, int] = {"none": 0, "read": 1, "full": 2}
 _CRED_RANK: dict[str, int] = {"none": 0, "optional": 1, "required": 2}
 
-
 def load_yaml(path: Path) -> Any:
     return safe_load_path(path, feature="mcp_receipt_lib.py")
-
 
 def validate_json_schema(instance: Any, schema_path: Path = RECEIPT_SCHEMA_PATH) -> None:
     try:
@@ -40,13 +38,11 @@ def validate_json_schema(instance: Any, schema_path: Path = RECEIPT_SCHEMA_PATH)
     schema = json.loads(schema_path.read_text(encoding="utf-8"))
     jsonschema.validate(instance=instance, schema=schema)
 
-
 def capability_by_id(caps_doc: dict[str, Any], cid: str) -> dict[str, Any] | None:
     for cap in caps_doc.get("capabilities") or []:
         if cap.get("id") == cid:
             return cap
     return None
-
 
 def bindings_lane_map(bind_doc: dict[str, Any]) -> dict[str, dict[str, Any]]:
     """output_lane -> binding row; raises ValueError on duplicate lanes."""
@@ -58,14 +54,12 @@ def bindings_lane_map(bind_doc: dict[str, Any]) -> dict[str, dict[str, Any]]:
         out[lane] = row
     return out
 
-
 def authority_from_binding(binding: dict[str, Any]) -> dict[str, Any]:
     return {
         "authority_surface": binding["authority_surface"],
         "authority_class": binding["authority_class"],
         "gate_required_for_record_change": binding["gate_required_for_record_change"],
     }
-
 
 def build_receipt(
     *,
@@ -131,10 +125,8 @@ def build_receipt(
         "integrity": integrity,
     }
 
-
 def _lte_rank(value: str, cap_max: str, ranks: dict[str, int]) -> bool:
     return ranks.get(value, -1) <= ranks.get(cap_max, -1)
-
 
 def warnings_for_receipt(
     receipt: dict[str, Any],
@@ -150,7 +142,6 @@ def warnings_for_receipt(
             "(possible policy breach — intentional audit trail)"
         )
     return warns
-
 
 def validate_mcp_receipt_business(
     receipt: dict[str, Any],
@@ -250,7 +241,6 @@ def validate_mcp_receipt_business(
 
     return sorted(violations)
 
-
 def validate_mcp_receipt(
     receipt: dict[str, Any],
     caps_doc: dict[str, Any],
@@ -274,7 +264,6 @@ def validate_mcp_receipt(
         warns = warnings_for_receipt(receipt, cap)
     return (biz, sorted(warns))
 
-
 def canonical_json_for_hash(obj: dict[str, Any]) -> str:
     """Stable JSON for hashing; integrity.receipt_hash omitted."""
     copy = json.loads(json.dumps(obj))
@@ -282,7 +271,6 @@ def canonical_json_for_hash(obj: dict[str, Any]) -> str:
     if isinstance(integrity, dict):
         integrity.pop("receipt_hash", None)
     return json.dumps(copy, sort_keys=True, separators=(",", ":"))
-
 
 def receipt_sha256_hex(obj: dict[str, Any]) -> str:
     payload = canonical_json_for_hash(obj).encode("utf-8")

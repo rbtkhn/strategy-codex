@@ -1,6 +1,5 @@
 # Mercouris profile — compatibility redirect
 
-WORK only; not Record.
 
 **Canonical profile (SSOT):** [`statecraft/voices/mercouris/mercouris-profile.md`](../../statecraft/voices/mercouris/mercouris-profile.md)
 

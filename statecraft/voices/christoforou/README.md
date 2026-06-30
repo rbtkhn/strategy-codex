@@ -1,6 +1,6 @@
 # Christoforou
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Promoted from legacy `statecraft/voices/christoforou/` during statecraft voices migration.
 

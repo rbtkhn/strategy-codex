@@ -1,6 +1,5 @@
 # Ritter profile — compatibility redirect
 
-WORK only; not Record.
 
 **Canonical profile (SSOT):** [`statecraft/voices/ritter/ritter-profile.md`](../../statecraft/voices/ritter/ritter-profile.md)
 

@@ -69,7 +69,6 @@ REPLACEMENTS = [
 THREAD_LINE_RE = re.compile(r"^(thread:\s*)alkorshid(\s*)$", re.M)
 THREADS_ITEM_RE = re.compile(r"^(\s+-\s*)alkorshid(\s*)$", re.M)
 
-
 def patch_text(text: str) -> str:
     if "shelf_index_utils.py" in text and '"alkhorshid": ("alkorshid",)' in text:
         return text
@@ -79,7 +78,6 @@ def patch_text(text: str) -> str:
     out = THREAD_LINE_RE.sub(r"\1alkhorshid\2", out)
     out = THREADS_ITEM_RE.sub(r"\1alkhorshid\2", out)
     return out
-
 
 def iter_files():
     for root in PATCH_ROOTS:
@@ -102,7 +100,6 @@ def iter_files():
         if path.is_file():
             yield path
 
-
 def patch_archive_frontmatter() -> int:
     archive = REPO / "source-archive" / "statecraft"
     fm_re = re.compile(r"\A(---\n.*?\n---\n)", re.DOTALL)
@@ -123,7 +120,6 @@ def patch_archive_frontmatter() -> int:
         path.write_text(new_fm + text[m.end() :], encoding="utf-8")
         n += 1
     return n
-
 
 def main() -> int:
     patched: list[str] = []
@@ -147,7 +143,6 @@ def main() -> int:
     if len(patched) > 50:
         print(f"  ... and {len(patched) - 50} more")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

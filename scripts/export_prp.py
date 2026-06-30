@@ -22,19 +22,16 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 GRACE_MAR_GITHUB = os.getenv("GRACE_MAR_GITHUB", "https://github.com/rbtkhn/strategy-codex").strip()
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
-
 
 def _section(content: str, title: str) -> str | None:
     """Extract section between ## TITLE and next ## or end."""
     pattern = rf"^## {re.escape(title)}\s*\n(.*?)(?=^## |\Z)"
     m = re.search(pattern, content, re.MULTILINE | re.DOTALL)
     return m.group(1).strip() if m else None
-
 
 def _parse_self_sections(content: str) -> dict[str, str]:
     """Parse self.md once into section title -> content. Single pass."""
@@ -45,7 +42,6 @@ def _parse_self_sections(content: str) -> dict[str, str]:
         if title and body:
             sections[title] = body
     return sections
-
 
 def _yaml_list(content: str, key: str) -> list[str]:
     """Extract YAML list: key: [a, b] or key: \n  - a."""
@@ -63,7 +59,6 @@ def _yaml_list(content: str, key: str) -> list[str]:
         return [re.sub(r"^\s*-\s+", "", ln).split("#")[0].strip().strip('"\'') for ln in lines if ln.strip()]
     return []
 
-
 def _yaml_value(content: str, key: str) -> str | None:
     """Extract YAML scalar value."""
     pattern = rf"{key}:\s*(.+?)(?:\n|$)"
@@ -71,7 +66,6 @@ def _yaml_value(content: str, key: str) -> str | None:
     if m:
         return m.group(1).split("#")[0].strip().strip('"\'')
     return None
-
 
 def _extract_identity(sections: dict[str, str]) -> dict:
     """Extract name, age, languages, location from I. IDENTITY."""
@@ -91,7 +85,6 @@ def _extract_identity(sections: dict[str, str]) -> dict:
         out["location"] = m.group(1).split("#")[0].strip().strip('"\'')
     return out
 
-
 def _extract_preferences(sections: dict[str, str]) -> dict:
     """Extract places, movies, books, food, activities from II. PREFERENCES."""
     block = sections.get("II. PREFERENCES (Survey Seeded)", "") or ""
@@ -104,7 +97,6 @@ def _extract_preferences(sections: dict[str, str]) -> dict:
     if fav:
         out["favorite_gemstone"] = fav
     return out
-
 
 def _extract_linguistic(sections: dict[str, str]) -> dict:
     """Extract lexile_output, verbal_habits, tone, first sample from III. LINGUISTIC STYLE."""
@@ -131,7 +123,6 @@ def _extract_linguistic(sections: dict[str, str]) -> dict:
             out["sample"] = m2.group(1).strip().strip('"\'')
     return out
 
-
 def _extract_personality(sections: dict[str, str]) -> dict:
     """Extract traits, emotional_patterns, self_concept from IV. PERSONALITY."""
     block = sections.get("IV. PERSONALITY", "") or ""
@@ -151,13 +142,11 @@ def _extract_personality(sections: dict[str, str]) -> dict:
         out["emotional"].append(f"{trigger} → {response}")
     return out
 
-
 def _extract_ix_a(self_content: str, max_entries: int = 25) -> list[str]:
     """Extract LEARN topics from IX-A (all, up to max)."""
     pattern = r'id:\s+LEARN-\d+.*?topic:\s*"([^"]+)"'
     topics = re.findall(pattern, self_content, re.DOTALL)
     return [t.strip() for t in topics[-max_entries:]]
-
 
 def _extract_ix_b(self_content: str, max_entries: int = 8) -> list[str]:
     """Extract CUR topics from IX-B."""
@@ -165,13 +154,11 @@ def _extract_ix_b(self_content: str, max_entries: int = 8) -> list[str]:
     topics = re.findall(pattern, self_content, re.DOTALL)
     return [t.strip() for t in topics[-max_entries:]]
 
-
 def _extract_ix_c_observations(self_content: str, max_entries: int = 5) -> list[str]:
     """Extract PER observations from IX-C (prioritize wisdom_elicitation)."""
     pattern = r'id:\s+PER-\d+.*?observation:\s*"([^"]+)"'
     observations = re.findall(pattern, self_content, re.DOTALL)
     return [o.strip() for o in observations[-max_entries:]]
-
 
 def _extract_write_profile(content: str) -> dict[str, str]:
     """Extract compact WRITE capability hints from skill-write.md."""
@@ -191,7 +178,6 @@ def _extract_write_profile(content: str) -> dict[str, str]:
         if value:
             out[key] = value
     return out
-
 
 def _extract_recent_evidence(evidence_content: str) -> dict[str, list[str]]:
     """Extract recent WRITE, ACT, CREATE summaries from EVIDENCE."""
@@ -219,7 +205,6 @@ def _extract_recent_evidence(evidence_content: str) -> dict[str, list[str]]:
                     out["ACT"].append(s)
     return out
 
-
 def _build_who_i_am(identity: dict, prefs: dict) -> str:
     """Build WHO I AM section."""
     parts = []
@@ -243,7 +228,6 @@ def _build_who_i_am(identity: dict, prefs: dict) -> str:
         parts.append(f"favorite gemstone: {prefs['favorite_gemstone']}")
     # Add swimming / family notes if present in identity or common patterns
     return ". ".join(parts) + "."
-
 
 def _build_voice(linguistic: dict, identity: dict) -> str:
     """Build VOICE section."""
@@ -271,7 +255,6 @@ def _build_voice(linguistic: dict, identity: dict) -> str:
     parts.append('Don\'t use phonetic spelling in chat. Keep simple vocabulary and enthusiasm. Sometimes say "that\'s a good question!" when someone asks something thoughtful. Sometimes ask "what do you think?" or "why do you think that is?"')
     return "\n".join(parts)
 
-
 def _build_personality(personality: dict, ix_c: list[str]) -> str:
     """Build PERSONALITY section."""
     parts = []
@@ -287,7 +270,6 @@ def _build_personality(personality: dict, ix_c: list[str]) -> str:
         parts.append(f"When {em}")
     parts.append("Be a real kid: sometimes blunt, sometimes silly, sometimes distracted. Don't be performatively cute.")
     return "\n".join(parts)
-
 
 def _build_write(write_profile: dict[str, str]) -> str:
     """Build WRITE section for capability-facing output constraints."""
@@ -321,7 +303,6 @@ def _build_write(write_profile: dict[str, str]) -> str:
     )
     return "\n".join(parts)
 
-
 def _query_aware_recent(evidence_path: Path, query: str) -> dict[str, list[str]]:
     """Build RECENT section using query-aware retrieval instead of recency."""
     try:
@@ -349,7 +330,6 @@ def _query_aware_recent(evidence_path: Path, query: str) -> dict[str, list[str]]
         title = r.entry.title[:80]
         out[etype].append(title)
     return out
-
 
 def export_prp(user_id: str = "strategy-codex", name_override: str | None = None, query: str | None = None) -> str:
     """
@@ -475,7 +455,6 @@ def export_prp(user_id: str = "strategy-codex", name_override: str | None = None
     ])
     return "\n".join(lines)
 
-
 def main() -> None:
     import warnings
 
@@ -504,7 +483,6 @@ def main() -> None:
         print(f"Wrote {args.output}", file=__import__("sys").stderr)
     else:
         print(content)
-
 
 if __name__ == "__main__":
     main()

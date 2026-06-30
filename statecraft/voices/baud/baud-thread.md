@@ -1,6 +1,5 @@
 # Legacy compatibility surface — `baud-thread`
 
-WORK only; not Record.
 
 ## Orthogonality guide
 

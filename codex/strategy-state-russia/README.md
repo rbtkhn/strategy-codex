@@ -8,7 +8,7 @@
 | **strategy-state-russia (this tree)** | Institution-centric, signal-tiered, contradiction-aware lane. Primary container is `channels/`, with month synthesis in `weave/` and chronology in `chapters/`. |
 | **Shared** | Same `raw-input/` roots as the notebook; point here, do not duplicate verbatim capture. |
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 ## Primary surfaces
 

@@ -1,6 +1,5 @@
 # Parsi raw-input index
 
-WORK only; not Record.
 
 Compatibility pointer only.
 

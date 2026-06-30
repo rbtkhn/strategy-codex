@@ -1,7 +1,6 @@
 # Strategy expert — Daniel L. Davis (`davis`)
 <!-- word_count: 1520 -->
 
-WORK only; not Record.
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md) · [davis-index.md](davis-index.md) (guest) · [daniel-davis-channel-index.md](../../channels/daniel-davis/daniel-davis-channel-index.md) (host)

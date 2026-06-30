@@ -1,7 +1,6 @@
 # strategy-codex-template-profile
 <!-- word_count: concise scaffold -->
 
-WORK only; not Record.
 
 Use the profile as the compact channel index for one of the main strategy-codex lanes. A profile should orient a reader quickly: who this person or channel is, why the lane matters, and where its public output lives.
 
@@ -23,7 +22,6 @@ Profiles are year-independent lane identity surfaces. They should not be taught 
 ```md
 # Strategy expert - <Full name> (`<expert_id>`)
 
-WORK only; not Record.
 
 **Canonical index:** ...
 

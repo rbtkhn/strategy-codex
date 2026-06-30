@@ -17,22 +17,17 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 from arch_chapters import chapters_for_volume_block  # noqa: E402
 
-
 def _count_secret_history_lectures() -> int:
     return len(list((WORK_DIR / "lectures").glob("secret-history-*.md")))
-
 
 def _count_game_theory_lectures() -> int:
     return len(list((WORK_DIR / "lectures").glob("game-theory-*.md")))
 
-
 def _count_great_books_lectures() -> int:
     return len(list((WORK_DIR / "lectures").glob("great-books-*.md")))
 
-
 def _count_interviews_lectures() -> int:
     return len(list((WORK_DIR / "lectures").glob("interviews-*.md")))
-
 
 def _count_substack_essays() -> int:
     d = WORK_DIR / "substack" / "essays"
@@ -40,13 +35,11 @@ def _count_substack_essays() -> int:
         return 0
     return sum(1 for p in d.glob("*.md") if p.name != "README.md")
 
-
 def load_yaml(path: Path) -> dict:
     if not path.exists():
         return {}
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def load_jsonl(path: Path) -> list[dict]:
     if not path.exists():
@@ -59,14 +52,11 @@ def load_jsonl(path: Path) -> list[dict]:
                 rows.append(json.loads(line))
     return rows
 
-
 def count_geo_lectures() -> int:
     return len(list((WORK_DIR / "lectures").glob("geo-strategy-*.md")))
 
-
 def count_civilization_lectures() -> int:
     return len(list((WORK_DIR / "lectures").glob("civilization-*.md")))
-
 
 def main() -> int:
     sources = load_yaml(WORK_DIR / "metadata" / "sources.yaml").get("sources", [])
@@ -244,7 +234,6 @@ def main() -> int:
     OUT.write_text("\n".join(lines), encoding="utf-8")
     print(f"Wrote {OUT}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

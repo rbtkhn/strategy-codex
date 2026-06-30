@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-08/source-judging-freedom-sachs-is-trump-losing-it-2026-06-08.md
   - source-archive/statecraft/2026-06-04/source-crooke-iran-takes-its-chances-with-war-2026-06-04.md
 ---
-WORK only; not Record.
 
 # June 8+ Intake Readiness — Third-Party Deterrence Stress Test
 

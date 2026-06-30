@@ -1,6 +1,5 @@
 # National Lane Template
 
-WORK only; not Record.
 
 Use this template when seeding a national drafting lane inside academy-statecraft. The lane is not a country encyclopedia. It is a compact bench for turning contemporary analysis and historical statecraft discipline into draftable instruments.
 

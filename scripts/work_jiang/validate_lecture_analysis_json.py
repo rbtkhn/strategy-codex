@@ -22,10 +22,8 @@ CLAIM_KEYS = ("claim_text", "claim_type")
 PRED_KEYS_MIN = ("claim_summary", "claim_type")
 DIV_KEYS_MIN = ("jiang_claim",)
 
-
 def _err(msg: str) -> None:
     print(f"ERROR: {msg}", file=sys.stderr)
-
 
 def validate_obj(data: Any, *, path: str = "") -> list[str]:
     errors: list[str] = []
@@ -99,7 +97,6 @@ def validate_obj(data: Any, *, path: str = "") -> list[str]:
 
     return errors
 
-
 def _major_schema(schema_version: str | None) -> int:
     if schema_version is None:
         return 0
@@ -107,7 +104,6 @@ def _major_schema(schema_version: str | None) -> int:
         return int(str(schema_version).strip().split(".")[0])
     except (ValueError, IndexError):
         return 0
-
 
 def warn_if_below(data: Any, *, below_major: int) -> None:
     if not isinstance(data, dict):
@@ -118,7 +114,6 @@ def warn_if_below(data: Any, *, below_major: int) -> None:
             f"WARNING: schema_version major {m} is below {below_major} (consider migrate_analysis_memo.py)",
             file=sys.stderr,
         )
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -165,7 +160,6 @@ def main() -> int:
             print(f"Patched schema_version -> 2.0: {args.path}", file=sys.stderr)
     print("OK")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

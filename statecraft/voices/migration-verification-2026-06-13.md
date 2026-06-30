@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # voices/states namespace migration — 2026-06-13
 

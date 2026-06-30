@@ -28,7 +28,6 @@ DEFAULT_USER_ID = DEFAULT_PROFILE_ID
 
 STALE_THRESHOLD_DAYS = 14
 
-
 def _load_gate_candidates(user_id: str) -> list[dict[str, Any]]:
     """Load parsed gate candidates if the review module is available."""
     try:
@@ -37,7 +36,6 @@ def _load_gate_candidates(user_id: str) -> list[dict[str, Any]]:
         return parse_review_candidates(user_id)
     except Exception:
         return _load_gate_candidates_fallback(user_id)
-
 
 def _load_gate_candidates_fallback(user_id: str) -> list[dict[str, Any]]:
     """Minimal gate parsing when the full review module isn't available."""
@@ -73,7 +71,6 @@ def _load_gate_candidates_fallback(user_id: str) -> list[dict[str, Any]]:
             })
     return candidates
 
-
 def _load_approaching_seeds(user_id: str) -> list[dict[str, Any]]:
     """Load seed claims with verdict=approaching."""
     try:
@@ -84,7 +81,6 @@ def _load_approaching_seeds(user_id: str) -> list[dict[str, Any]]:
         return [r for r in results if r["verdict"] == "approaching"]
     except Exception:
         return []
-
 
 def suggest_best_move(user_id: str = DEFAULT_USER_ID) -> dict[str, Any]:
     """Compute the single best next action. Returns dict with move, source, rationale."""
@@ -149,10 +145,8 @@ def suggest_best_move(user_id: str = DEFAULT_USER_ID) -> dict[str, Any]:
         "rationale": "Gate clear, no approaching seeds",
     }
 
-
 def format_oneline(result: dict[str, Any]) -> str:
     return result["move"]
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Suggest the best next action.")
@@ -168,7 +162,6 @@ def main() -> int:
         print(result["move"])
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

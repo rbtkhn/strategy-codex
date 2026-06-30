@@ -13,7 +13,7 @@ archive_links:
 ---
 # Minab Civilian-Harm De-Escalation Framework
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: compare one crisis object across the America and Iran statecraft lanes. This framework tests whether a civilian-harm atrocity claim, centered here on Minab, can be converted into a protected channel, humanitarian recognition mechanism, no-regime-change assurance, and phased de-escalation sequence without forcing either side into immediate legal confession or humiliation.
 

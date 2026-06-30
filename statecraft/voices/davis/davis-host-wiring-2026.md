@@ -1,6 +1,5 @@
 # Davis host wiring - 2026
 
-WORK only; not Record.
 
 Purpose: make the Davis host stream navigable as a host-native object. Crooke and Ritter wiring asks how an expert voice persists across hosts. This note asks what Davis reliably elicits from different expert voices inside his own stream.
 

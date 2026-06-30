@@ -1,6 +1,5 @@
 # Paired Reading Wedge Template
 
-WORK only; not Record.
 
 Use this template when an operator needs a compact layered reading wedge rather than a full shelf descent.
 

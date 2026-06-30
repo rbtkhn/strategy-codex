@@ -37,14 +37,12 @@ from session_brief import (  # noqa: E402
     _read,
 )
 
-
 def _session_log_tail(user_dir: Path, max_chars: int = 1500) -> str:
     p = user_dir / "session-log.md"
     if not p.is_file():
         return ""
     raw = read_path(p)
     return raw[-max_chars:] if len(raw) > max_chars else raw
-
 
 def _memory_tail(user_dir: Path, max_chars: int = 2500) -> str:
     mp = resolve_self_memory_path(user_dir)
@@ -53,11 +51,9 @@ def _memory_tail(user_dir: Path, max_chars: int = 2500) -> str:
     raw = read_path(mp)
     return raw[-max_chars:] if len(raw) > max_chars else raw
 
-
 def _score_keyword(text: str, *words: str) -> int:
     low = text.lower()
     return sum(1 for w in words if w.lower() in low)
-
 
 def build_fork_scores(user_id: str) -> list[tuple[float, str, str, str]]:
     """
@@ -157,7 +153,6 @@ def build_fork_scores(user_id: str) -> list[tuple[float, str, str, str]]:
     forks.sort(key=lambda x: -x[0])
     return forks
 
-
 def _llm_rerank(
     user_id: str,
     candidates: list[tuple[float, str, str, str]],
@@ -238,7 +233,6 @@ def _llm_rerank(
         pass
     return None
 
-
 def format_markdown(
     ranked: list[tuple[float, str, str, str]],
     *,
@@ -269,7 +263,6 @@ def format_markdown(
         ]
     )
     return "\n".join(lines)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -313,7 +306,6 @@ def main() -> int:
             print(f"  {i}. [{fid}] (score {sc:.1f}) {title}")
             print(f"      {why}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

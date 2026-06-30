@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build a durable master index for strategy-codex source-archive surfaces.
 
-WORK only. This script reads the statecraft source-archive tree and writes generated
+non-authoritative. This script reads the statecraft source-archive tree and writes generated
 statecraft-side index artifacts plus machine-readable JSON companions. It does
 not edit source-archive captures, speaker folders, host shelves, or Record surfaces.
 """
@@ -18,14 +18,12 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
 import build_voice_routing_queue as voice_routing  # noqa: E402
-
 
 DEFAULT_RAW_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 DEFAULT_OUTPUT_ROOT = REPO_ROOT / "statecraft" / "sheets"
@@ -63,7 +61,6 @@ ARC_INDEX_PATTERNS = (
     re.compile(r".*arc.*index.*\.md$", re.IGNORECASE),
 )
 
-
 @dataclass(frozen=True)
 class RawInputRecord:
     scope: str
@@ -86,17 +83,14 @@ class RawInputRecord:
     body_words: int
     body_chars: int
 
-
 def _rel(path: Path, root: Path = REPO_ROOT) -> str:
     try:
         return path.resolve().relative_to(root).as_posix()
     except ValueError:
         return path.as_posix()
 
-
 def _read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8-sig", errors="replace")
-
 
 def _split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     match = FRONTMATTER_RE.match(text)
@@ -104,7 +98,6 @@ def _split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
         return {}, text
     meta = _parse_simple_frontmatter(match.group(1))
     return meta, text[match.end() :]
-
 
 def _parse_simple_frontmatter(raw: str) -> dict[str, Any]:
     meta: dict[str, Any] = {}
@@ -132,7 +125,6 @@ def _parse_simple_frontmatter(raw: str) -> dict[str, Any]:
         current_list_key = None
     return meta
 
-
 def _parse_frontmatter_value(value: str) -> Any:
     text = value.strip()
     if not text:
@@ -156,14 +148,12 @@ def _parse_frontmatter_value(value: str) -> Any:
             return text
     return text
 
-
 def _first_heading_or_stem(text: str, path: Path) -> str:
     for line in text.splitlines():
         stripped = line.strip()
         if stripped.startswith("#"):
             return stripped.lstrip("#").strip()
     return path.stem
-
 
 def _effective_body(body: str) -> str:
     lines = body.splitlines()
@@ -175,11 +165,9 @@ def _effective_body(body: str) -> str:
             lines.pop(0)
     return "\n".join(lines).strip()
 
-
 def _body_metrics(body: str) -> tuple[int, int, str]:
     effective = _effective_body(body)
     return len(WORD_RE.findall(effective)), len(effective), effective.casefold()
-
 
 def _body_profile(meta: dict[str, Any], body: str) -> str:
     kind = str(meta.get("kind") or "").strip().casefold()
@@ -204,7 +192,6 @@ def _body_profile(meta: dict[str, Any], body: str) -> str:
     if body_words < MIN_TRANSCRIPT_WORDS or body_chars < MIN_TRANSCRIPT_CHARS:
         return "short-body"
     return "full-transcript-body"
-
 
 def _record_from_path(path: Path, *, scope: str, raw_root: Path) -> RawInputRecord:
     text = _read_text(path)
@@ -248,7 +235,6 @@ def _record_from_path(path: Path, *, scope: str, raw_root: Path) -> RawInputReco
         body_chars=body_chars,
     )
 
-
 def discover_records(raw_root: Path) -> tuple[list[RawInputRecord], list[RawInputRecord], list[RawInputRecord]]:
     canonical: list[RawInputRecord] = []
     pending: list[RawInputRecord] = []
@@ -278,13 +264,11 @@ def discover_records(raw_root: Path) -> tuple[list[RawInputRecord], list[RawInpu
 
     return canonical, pending, helpers
 
-
 def _counter_table(counter: Counter[str]) -> list[str]:
     lines = ["| class | count |", "|---|---:|"]
     for key, count in sorted(counter.items(), key=lambda item: (-item[1], item[0])):
         lines.append(f"| `{key}` | {count} |")
     return lines
-
 
 def _month_counts(records: list[RawInputRecord]) -> dict[str, dict[str, int]]:
     grouped: dict[str, dict[str, int]] = defaultdict(lambda: {"files": 0, "transcript": 0, "full_body": 0, "incomplete": 0})
@@ -301,7 +285,6 @@ def _month_counts(records: list[RawInputRecord]) -> dict[str, dict[str, int]]:
                 row["incomplete"] += 1
     return dict(grouped)
 
-
 def _day_summary(records: list[RawInputRecord]) -> dict[str, list[RawInputRecord]]:
     grouped: dict[str, list[RawInputRecord]] = defaultdict(list)
     for record in records:
@@ -310,11 +293,9 @@ def _day_summary(records: list[RawInputRecord]) -> dict[str, list[RawInputRecord
         bucket.sort(key=lambda item: (item.kind, item.file_name))
     return dict(sorted(grouped.items()))
 
-
 def _speakers_root(raw_root: Path) -> Path:
     del raw_root  # legacy param; voices root is repo-fixed
     return REPO_ROOT / "statecraft" / "voices"
-
 
 def _speaker_dirs(speakers_root: Path) -> list[Path]:
     if not speakers_root.exists():
@@ -325,10 +306,8 @@ def _speaker_dirs(speakers_root: Path) -> list[Path]:
         if path.is_dir() and path.name not in SPECIAL_SPEAKER_DIRS
     ]
 
-
 def _speaker_index_paths(speakers_root: Path) -> list[Path]:
     return sorted(speakers_root.glob("*/*-raw-input-index.md"))
-
 
 def _arc_index_candidate_paths(speakers_root: Path) -> list[Path]:
     candidates: list[Path] = []
@@ -339,7 +318,6 @@ def _arc_index_candidate_paths(speakers_root: Path) -> list[Path]:
         if any(pattern.fullmatch(name) for pattern in ARC_INDEX_PATTERNS):
             candidates.append(path)
     return sorted(candidates)
-
 
 def _record_mentions_speaker(record: RawInputRecord, speaker_slug: str) -> bool:
     haystacks = [
@@ -352,7 +330,6 @@ def _record_mentions_speaker(record: RawInputRecord, speaker_slug: str) -> bool:
     ]
     lower_slug = speaker_slug.casefold()
     return any(lower_slug in value.casefold() for value in haystacks if value)
-
 
 def _speaker_signal_counts(
     canonical: list[RawInputRecord],
@@ -374,7 +351,6 @@ def _speaker_signal_counts(
             "local_markdown": local_markdown,
         }
     return counts
-
 
 def build_audit_payload(
     raw_root: Path,
@@ -450,7 +426,6 @@ def build_audit_payload(
     }
     return payload
 
-
 def render_audit_markdown(
     raw_root: Path,
     *,
@@ -463,7 +438,7 @@ def render_audit_markdown(
         "",
         f"Generated: `{payload['generated_at']}`",
         "",
-        "WORK only; not Record. This is a heuristic audit over the secondary source-archive analytic layer and speaker routing surfaces.",
+        "This is a heuristic audit over the secondary source-archive analytic layer and speaker routing surfaces.",
         "",
         "Navigation rule: canonical browsing now lives at `source-archive/statecraft/` via the generated day, month, year, thread, and stale-audit indices. This audit remains an analytic helper, not the primary navigation surface.",
         "",
@@ -512,7 +487,6 @@ def render_audit_markdown(
     lines.append("")
     return "\n".join(lines)
 
-
 def render_markdown(
     *,
     raw_root: Path,
@@ -537,7 +511,7 @@ def render_markdown(
         "",
         f"Generated: `{generated_at}`",
         "",
-        "WORK only; not Record. This file is generated from the on-disk source-archive tree.",
+        "This file is generated from the on-disk source-archive tree.",
         "",
         "Authority rule: the dated source-archive folders remain authoritative.",
         "",
@@ -614,7 +588,6 @@ def render_markdown(
     lines.append("")
     return "\n".join(lines)
 
-
 def build_payload(raw_root: Path) -> dict[str, Any]:
     canonical, pending, helpers = discover_records(raw_root)
     payload = {
@@ -639,7 +612,6 @@ def build_payload(raw_root: Path) -> dict[str, Any]:
         ),
     }
     return payload
-
 
 def write_outputs(
     raw_root: Path,
@@ -674,7 +646,6 @@ def write_outputs(
         "audit_json": audit_json_path,
     }
 
-
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--raw-root", type=Path, default=DEFAULT_RAW_ROOT, help="Statecraft source-archive root to index.")
@@ -686,7 +657,6 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--audit-markdown", action="store_true", help="Print the index-architecture audit Markdown to stdout.")
     parser.add_argument("--apply", action="store_true", help="Write the generated index files to disk.")
     return parser
-
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
@@ -722,7 +692,6 @@ def main(argv: list[str] | None = None) -> int:
     outputs = write_outputs(raw_root, output_root=args.output_root.resolve(), index_name=args.index_name)
     print(json.dumps({key: _rel(value) for key, value in outputs.items()}, indent=2, ensure_ascii=True))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

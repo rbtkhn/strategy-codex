@@ -26,7 +26,6 @@ if str(_SCRIPTS) not in sys.path:
 from youtube_transcripts.discovery import list_videos, load_inputs_from_file
 from youtube_transcripts.jobs import run_fetch_video_job
 
-
 def main() -> int:
     try:
         import redis
@@ -105,7 +104,6 @@ def main() -> int:
 
     print("job_ids:", ",".join(job_ids), file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

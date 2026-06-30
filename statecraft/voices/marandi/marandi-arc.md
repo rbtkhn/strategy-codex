@@ -1,6 +1,5 @@
 # arc-marandi-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [marandi-arc.md](marandi-arc.md)
 

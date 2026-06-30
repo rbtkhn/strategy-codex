@@ -1,6 +1,6 @@
 from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
-"""Summarize recent strategy runs into a markdown report (WORK only)."""
+"""Summarize recent strategy runs into a markdown report (non-authoritative)."""
 
 from __future__ import annotations
 
@@ -15,13 +15,11 @@ ARTIFACT_ROOT = Path(os.environ.get("STRATEGY_RUN_ARTIFACT_ROOT", str(REPO_ROOT)
 RUNS = ARTIFACTS_DIR / "strategy-runs"
 REPORT = ARTIFACTS_DIR / "strategy-run-report.md"
 
-
 def _has_file(path: str | None) -> bool:
     if not path or not isinstance(path, str):
         return False
     p = ARTIFACT_ROOT / path
     return p.is_file()
-
 
 def _load_states(limit: int | None) -> list[tuple[Path, dict]]:
     if not RUNS.is_dir():
@@ -44,14 +42,12 @@ def _load_states(limit: int | None) -> list[tuple[Path, dict]]:
         rows = rows[:limit]
     return [(a, b) for a, b, _ in rows]
 
-
 def _blocked_status(st: str) -> str:
     if st == "blocked_for_review":
         return "yes"
     if st == "completed":
         return "no"
     return "—"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -107,7 +103,6 @@ def main() -> int:
     except ValueError:
         print(str(out))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

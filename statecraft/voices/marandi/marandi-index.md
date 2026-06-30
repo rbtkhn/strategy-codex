@@ -1,6 +1,5 @@
 # Marandi source index
 
-WORK only; not Record.
 
 Purpose: exhaustive canonical route map for Seyed Mohammad Marandi guest appearances and direct archive anchors on the Marandi shelf.
 

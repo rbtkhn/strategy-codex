@@ -27,7 +27,6 @@ ARCH_PATH = WORK_JIANG / "metadata" / "book-architecture.yaml"
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from emit_task_event import append_task_event, read_task_states
 
-
 def lecture_glob_from_source_id(source_id: str) -> str:
     """Convert source_id like 'geo-01' to a lecture glob."""
     parts = source_id.split("-")
@@ -44,7 +43,6 @@ def lecture_glob_from_source_id(source_id: str) -> str:
         series = prefix_map.get(prefix, prefix)
         return f"lectures/{series}-{num}-*.md"
     return f"lectures/*{source_id}*.md"
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Seed task manifest from book architecture.")
@@ -124,7 +122,6 @@ def main() -> None:
             created += 1
 
     print(f"\n{created} task(s) {'would be ' if args.dry_run else ''}created.")
-
 
 if __name__ == "__main__":
     main()

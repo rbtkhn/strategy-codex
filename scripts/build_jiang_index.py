@@ -23,7 +23,6 @@ LABEL_RE = re.compile(r"- \[([^\]]+)\]\([^)]*/([^/)]+)\)")
 YOUTUBE_RE = re.compile(r"^https?://(?:www\.)?youtube\.com/watch\?", re.I)
 GUEST_PREFIX_RE = re.compile(r"^jiang\s+xueqin:\s*", re.I)
 
-
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:5000]
     out: dict = {}
@@ -49,7 +48,6 @@ def parse_head(path: Path) -> dict:
             out["title"] = hm.group(1).strip()
     return out
 
-
 def pub_date_key(meta: dict, path: Path) -> str:
     pub = meta.get("pub_date") or meta.get("date") or ""
     if pub and len(pub) >= 10:
@@ -58,7 +56,6 @@ def pub_date_key(meta: dict, path: Path) -> str:
     if re.match(r"^\d{4}-\d{2}-\d{2}$", day):
         return day
     return day
-
 
 def short_title(meta: dict, path: Path) -> str:
     title = (meta.get("title") or "").strip()
@@ -69,7 +66,6 @@ def short_title(meta: dict, path: Path) -> str:
         title = title[:85] + "…"
     return title
 
-
 def host_label(meta: dict) -> str:
     host = (meta.get("host") or "").strip()
     if host:
@@ -79,7 +75,6 @@ def host_label(meta: dict) -> str:
         return show
     return "host"
 
-
 def youtube_url(meta: dict, path: Path) -> str:
     url = (meta.get("source_url") or "").strip()
     if not url:
@@ -87,7 +82,6 @@ def youtube_url(meta: dict, path: Path) -> str:
     if not YOUTUBE_RE.match(url):
         raise ValueError(f"non-YouTube source_url for jiang-index row: {path} ({url})")
     return url
-
 
 def load_label_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
@@ -102,12 +96,10 @@ def load_label_map(index_path: Path) -> dict[str, str]:
             out[fn] = m.group(1)
     return out
 
-
 def default_label(meta: dict, path: Path) -> str:
     pub = pub_date_key(meta, path)
     host = host_label(meta)
     return f"{pub} | {host} × Jiang | {short_title(meta, path)}"
-
 
 def row_label(meta: dict, path: Path, labels: dict[str, str]) -> str:
     text = labels.get(path.name) or default_label(meta, path)
@@ -115,7 +107,6 @@ def row_label(meta: dict, path: Path, labels: dict[str, str]) -> str:
     url = youtube_url(meta, path)
     host = host_label(meta)
     return f"- [{text}]({rel}) — **guest** · {host} · [YouTube]({url})"
-
 
 def collect_rows() -> list[tuple[str, Path, dict]]:
     rows: list[tuple[str, Path, dict]] = []
@@ -129,7 +120,6 @@ def collect_rows() -> list[tuple[str, Path, dict]]:
     rows.sort(key=lambda t: (t[0], t[1].name))
     return rows
 
-
 def render_index(rows: list[tuple[str, Path, dict]], labels: dict[str, str]) -> str:
     date_span = f"{rows[0][0]} → {rows[-1][0]}" if rows else "—"
     by_month: dict[str, list[tuple[str, Path, dict]]] = defaultdict(list)
@@ -141,8 +131,7 @@ def render_index(rows: list[tuple[str, Path, dict]], labels: dict[str, str]) -> 
     lines = [
         "# Jiang external interview index",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         "Purpose: canonical **external-channel** guest interview index for **Jiang Xueqin**.",
         "",
         "**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index jiang` — interview parity only.",
@@ -189,7 +178,6 @@ def render_index(rows: list[tuple[str, Path, dict]], labels: dict[str, str]) -> 
     )
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="Print row count only")
@@ -216,7 +204,6 @@ def main() -> int:
     OUT.write_text(body if body.endswith("\n") else body + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {OUT} ({len(rows)} rows, {len(labels)} labels preserved)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

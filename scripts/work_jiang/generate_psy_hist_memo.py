@@ -88,14 +88,12 @@ One-paragraph synthesis (leave empty if CIV-MEM memo not yet available).
 Human review required before promotion to the main analysis/ folder.
 """
 
-
 def load_sources() -> list[dict]:
     if not SOURCES_YAML.exists():
         return []
     with SOURCES_YAML.open("r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
     return (data or {}).get("sources", [])
-
 
 def resolve_source(source_id: str) -> dict | None:
     sources = load_sources()
@@ -104,13 +102,11 @@ def resolve_source(source_id: str) -> dict | None:
             return s
     return None
 
-
 def truncate_at_word_boundary(text: str, max_chars: int) -> str:
     if len(text) <= max_chars:
         return text
     cut = text[:max_chars].rsplit(maxsplit=1)[0]
     return cut + "\n\n[Truncated for context window]"
-
 
 def generate_memo(source_id: str, *, dry_run: bool = False) -> bool:
     source = resolve_source(source_id)
@@ -183,7 +179,6 @@ def generate_memo(source_id: str, *, dry_run: bool = False) -> bool:
     print(f"   python3 scripts/work_jiang/promote_reviewed_memo.py --id {source_id} --lens psy-hist")
     return True
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate PSY-HIST analysis memo")
     parser.add_argument("--lecture", type=str, help="Source ID, e.g. civ-21, geo-12")
@@ -209,7 +204,6 @@ def main() -> int:
             ok += 1
 
     return 0 if ok == len(ids) else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

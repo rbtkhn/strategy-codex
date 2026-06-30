@@ -1,6 +1,5 @@
 # Wilkerson February 2025 note
 
-WORK only; not Record.
 
 Purpose: preserve what February 2025 actually contributes to the early Wilkerson shelf without overstating a still-thin month as if it were already a dense run.
 

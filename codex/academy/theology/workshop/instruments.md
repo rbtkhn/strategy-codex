@@ -1,6 +1,5 @@
 # Instruments
 
-WORK only; not Record.
 
 These are reusable interpretive tools for academy theology, Predictive History notes, and strategy work.
 

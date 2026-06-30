@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-18/README.md
   - source-archive/statecraft/2026-06-18/source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md
 ---
-WORK only; not Record.
 
 # June 18, 2026 MOU Convergence
 

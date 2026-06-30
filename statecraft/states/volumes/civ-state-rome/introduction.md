@@ -1,6 +1,5 @@
 # Pax Romana
 
-WORK only; not Record.
 
 Rome is **Volume III** of *Civilizational Statecraft*: the classical hinge where sovereignty **transforms** rather than marches as one uninterrupted territorial state — from republic and empire through Eastern Roman continuation to papal, legal, and institutional residue. Romulus opens the political chain; Aeneas and Troy remain mythic prehistory beneath Roman law and civic order. The Eastern Roman Empire is the indispensable continuity bridge; the Catholic Church is the clearest surviving residue-carrier in the chain narrative.
 

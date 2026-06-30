@@ -7,9 +7,8 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2026-02-24/source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md
 speech_act: restated
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — US–Israel Iran war prep (2026-02-24)
 

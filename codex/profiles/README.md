@@ -1,6 +1,6 @@
 # Codex profiles — routing index
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Speaker **profiles** for migrated shelves live under `statecraft/voices/<speaker>/` or `statecraft/channels/<host>/`. See [voices README § Speaker profile law](../../statecraft/voices/README.md#speaker-profile-law) and [voice-profile-template.md](../../statecraft/voices/voice-profile-template.md).
 

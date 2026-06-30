@@ -61,7 +61,6 @@ CORPUS: dict[str, list[str]] = {
     ],
 }
 
-
 def stub_body(title: str, moved_rel: str) -> str:
     lines = [
         "---",
@@ -76,10 +75,8 @@ def stub_body(title: str, moved_rel: str) -> str:
     ]
     return "\n".join(lines)
 
-
 def title_from_name(name: str) -> str:
     return name.replace(".md", "").replace("-", " ").title()
-
 
 def quarantine_folder(folder: str, *, dry_run: bool) -> int:
     moved = 0
@@ -114,7 +111,6 @@ def quarantine_folder(folder: str, *, dry_run: bool) -> int:
         print(f"quarantined {name} -> {moved_rel}")
     return moved
 
-
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("folder", choices=list(CORPUS.keys()))
@@ -123,7 +119,6 @@ def main() -> int:
     n = quarantine_folder(args.folder, dry_run=args.dry_run)
     print(f"done: {n} files in {args.folder}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

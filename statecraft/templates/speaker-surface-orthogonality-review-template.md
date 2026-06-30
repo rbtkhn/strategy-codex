@@ -1,6 +1,5 @@
 # Speaker surface orthogonality review template
 
-WORK only; not Record.
 
 Purpose: define a reusable audit scaffold for checking whether a set of **speaker arcs** and **threads inside those arcs** are distinct enough to justify their separate existence.
 
@@ -17,7 +16,6 @@ Use this review when the main question is not "what is this arc?" but "is this f
 
 # `<speaker-or-cluster> surface orthogonality review - <window>`
 
-WORK only; not Record.
 
 Use this note when a speaker shelf, host cluster, or topical cluster has grown enough that the notebook should explicitly test whether the arcs and threads are still partitioned well.
 

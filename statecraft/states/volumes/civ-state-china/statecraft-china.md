@@ -1,6 +1,5 @@
 # Statecraft China
 
-WORK only; not Record.
 
 ## Where This Sits
 

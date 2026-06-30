@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-22/source-duran-mercouris-us-iran-ceasefire-talks-conflict-round-3-2026-06-22.md
   - source-archive/statecraft/2026-06-22/source-judging-freedom-crooke-an-irreversible-blow-to-israel-2026-06-22.md
 ---
-WORK only; not Record.
 
 # Starmer × Europe incompetence × Kostyantynivka — Mercouris + Baud + Johnson + McGovern mesh — 2026-06-22
 

@@ -16,7 +16,6 @@ archive_links:
 
 # Davis x Martyanov speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Davis x Martyanov` run inside the Davis stream. This is not a substitute for the raw-input shelf. It exists so future routing can quickly answer: what kind of Martyanov lane Davis elicits, which episodes matter most, and why this is now the strongest secondary Martyanov branch on disk.
 

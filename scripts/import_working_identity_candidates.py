@@ -49,7 +49,6 @@ LAYER_TO_SURFACE: dict[str, str] = {
 
 LAYER_SECTIONS = list(LAYER_TO_SURFACE.keys())
 
-
 def normalize_item(
     raw: str | dict[str, Any],
     *,
@@ -92,7 +91,6 @@ def normalize_item(
         "review_status": "pending",
     }
 
-
 def extract_candidates(
     data: dict[str, Any],
     *,
@@ -120,10 +118,8 @@ def extract_candidates(
 
     return candidates
 
-
 def _yaml_escape(s: str) -> str:
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
-
 
 def _slug(text: str, max_len: int = 50) -> str:
     import re
@@ -132,7 +128,6 @@ def _slug(text: str, max_len: int = 50) -> str:
     if len(one) > max_len:
         one = one[: max_len - 1].rstrip() + "…"
     return one
-
 
 def build_wi_block(
     candidate_id: str,
@@ -183,7 +178,6 @@ def build_wi_block(
     ])
     return "\n".join(lines)
 
-
 def _layer_to_mind(layer: str) -> str:
     return {
         "domain_encoding": "knowledge",
@@ -191,7 +185,6 @@ def _layer_to_mind(layer: str) -> str:
         "behavioral_calibration": "personality",
         "artifact_rationale": "knowledge",
     }.get(layer, "knowledge")
-
 
 def build_digest(
     candidates: list[dict[str, Any]],
@@ -227,7 +220,6 @@ def build_digest(
         "",
     ])
     return "\n".join(lines)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -301,7 +293,6 @@ def main() -> int:
     print(f"Digest written to {digest_path.relative_to(REPO_ROOT)}")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

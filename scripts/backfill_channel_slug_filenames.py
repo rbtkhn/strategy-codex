@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Backfill statecraft archive filenames to match channel_slug (WORK only).
+"""Backfill statecraft archive filenames to match channel_slug (non-authoritative).
 
 Renames:
   source-napolitano-*     -> source-judging-freedom-*   (channel_slug: judging-freedom)
@@ -51,14 +51,12 @@ SKIP_LINK_DIRS = {
 }
 LINK_SUFFIXES = {".md", ".py", ".json", ".jsonl", ".yaml", ".yml", ".toml", ".txt"}
 
-
 def parse_scalar(block: str, key: str) -> str | None:
     m = re.search(rf"^{re.escape(key)}:\s*(.+)$", block, re.M)
     if not m:
         return None
     val = m.group(1).strip().strip('"').strip("'")
     return val or None
-
 
 def read_frontmatter_block(path: Path) -> str | None:
     try:
@@ -70,13 +68,11 @@ def read_frontmatter_block(path: Path) -> str | None:
         return None
     return m.group(1)
 
-
 def read_channel_slug(path: Path) -> str | None:
     block = read_frontmatter_block(path)
     if not block:
         return None
     return parse_scalar(block, "channel_slug")
-
 
 def is_duran_capture(path: Path) -> bool:
     block = read_frontmatter_block(path)
@@ -90,7 +86,6 @@ def is_duran_capture(path: Path) -> bool:
         return True
     return False
 
-
 def is_mercouris_solo_hub(path: Path) -> bool:
     block = read_frontmatter_block(path)
     if not block:
@@ -103,7 +98,6 @@ def is_mercouris_solo_hub(path: Path) -> bool:
     if thread == "mercouris":
         return True
     return slug in MERCOURIS_CHANNEL_SLUGS and source_form == "solo"
-
 
 def proposed_basename(name: str, channel_slug: str | None, path: Path) -> str | None:
     slug = (channel_slug or "").strip().lower()
@@ -147,7 +141,6 @@ def proposed_basename(name: str, channel_slug: str | None, path: Path) -> str | 
 
     return None
 
-
 def normalize_mercouris_channel_slug(path: Path) -> bool:
     block = read_frontmatter_block(path)
     if not block:
@@ -168,7 +161,6 @@ def normalize_mercouris_channel_slug(path: Path) -> bool:
     path.write_text(updated, encoding="utf-8", newline="\n")
     return True
 
-
 def patch_legacy_mercouris_slugs(root: Path) -> int:
     changed = 0
     for path in sorted(root.rglob("source-*.md")):
@@ -177,7 +169,6 @@ def patch_legacy_mercouris_slugs(root: Path) -> int:
         if normalize_mercouris_channel_slug(path):
             changed += 1
     return changed
-
 
 def collect_renames(root: Path) -> list[tuple[Path, Path]]:
     pairs: list[tuple[Path, Path]] = []
@@ -192,7 +183,6 @@ def collect_renames(root: Path) -> list[tuple[Path, Path]]:
             raise SystemExit(f"collision: {path} -> {dest} (target exists)")
         pairs.append((path, dest))
     return pairs
-
 
 def git_mv(src: Path, dest: Path) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
@@ -212,7 +202,6 @@ def git_mv(src: Path, dest: Path) -> None:
         return
     raise subprocess.CalledProcessError(proc.returncode, proc.args, proc.stdout, proc.stderr)
 
-
 def git_rename_map() -> dict[str, str]:
     """Build old->new basename map from git rename detection."""
     mapping: dict[str, str] = {}
@@ -230,7 +219,6 @@ def git_rename_map() -> dict[str, str]:
             if old_path.name != new_path.name:
                 mapping[old_path.name] = new_path.name
     return mapping
-
 
 def rewrite_links(renames: dict[str, str]) -> int:
     if not renames:
@@ -257,7 +245,6 @@ def rewrite_links(renames: dict[str, str]) -> int:
             changed_files += 1
     return changed_files
 
-
 def rebuild_indices() -> None:
     subprocess.run(
         [sys.executable, str(REPO_ROOT / "scripts" / "raw_input_master_index.py"), "--apply"],
@@ -275,7 +262,6 @@ def rebuild_indices() -> None:
             cwd=REPO_ROOT,
             check=True,
         )
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -319,7 +305,6 @@ def main() -> int:
         print("indices_rebuilt")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

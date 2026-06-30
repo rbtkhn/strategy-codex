@@ -1,5 +1,4 @@
 ﻿# Persia Primary Sources - Colonial
-WORK only; not Record.
 This file contains the Colonial primary-source shelf for the Persia CIV-STATE volume.
 ## Primary Sources
 ### Colonial

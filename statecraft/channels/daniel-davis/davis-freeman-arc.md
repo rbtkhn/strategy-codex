@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Freeman Arc (compat redirect)
 

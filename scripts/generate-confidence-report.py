@@ -21,7 +21,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Generate seed-phase confidence radar report.")
     ap.add_argument("directory", type=Path, help="seed-phase directory")
@@ -94,7 +93,6 @@ def main() -> int:
     print(f"Wrote {display}; PNG: {png_msg}")
     print(f"Overall readiness score (from confidence_map): {overall:.2f} / 1.0")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

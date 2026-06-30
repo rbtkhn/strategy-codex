@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-16/source-daniel-davis-scott-ritter-iran-would-become-a-graveyard-for-our-marines-2026-03-16.md>
   - source-archive/statecraft/2026-03-16/source-judging-freedom-johnson-trumps-trapped-and-doesnt-know-it-2026-03-16.md>
 ---
-WORK only; not Record.
 
 # Pape Escalation Trap Vs Crooke Mosaic — 2026-03-16
 

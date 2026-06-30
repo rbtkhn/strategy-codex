@@ -30,7 +30,6 @@ if str(SCRIPTS_DIR) not in sys.path:
 from cognition_streams_audit import DEFAULT_RECEIPT_ROOT  # noqa: E402
 from statecraft_youtube_discovery import load_slug_aliases  # noqa: E402
 
-
 @dataclass
 class MigrationResult:
     renamed: list[str] = field(default_factory=list)
@@ -52,7 +51,6 @@ class MigrationResult:
             },
         }
 
-
 def _slug_from_receipt_path(path: Path) -> str:
     name = path.name
     suffix = ".discovery.json"
@@ -60,10 +58,8 @@ def _slug_from_receipt_path(path: Path) -> str:
         raise ValueError(f"not a discovery receipt: {path}")
     return name[: -len(suffix)]
 
-
 def _target_path(receipt_path: Path, canonical_slug: str) -> Path:
     return receipt_path.with_name(f"{canonical_slug}.discovery.json")
-
 
 def _patch_channel_key(data: dict[str, Any], aliases: dict[str, str]) -> bool:
     key = str(data.get("channel_key") or "").strip()
@@ -71,7 +67,6 @@ def _patch_channel_key(data: dict[str, Any], aliases: dict[str, str]) -> bool:
         return False
     data["channel_key"] = aliases[key]
     return True
-
 
 def migrate_receipt_file(
     receipt_path: Path,
@@ -120,7 +115,6 @@ def migrate_receipt_file(
 
     return " ".join(label_parts) or "update", partial
 
-
 def migrate_receipt_root(
     receipt_root: Path,
     aliases: dict[str, str],
@@ -156,7 +150,6 @@ def migrate_receipt_root(
 
     return result
 
-
 def _build_parser() -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -180,7 +173,6 @@ def _build_parser() -> argparse.ArgumentParser:
         help="Emit machine-readable summary JSON on stdout",
     )
     return ap
-
 
 def main(argv: list[str] | None = None) -> int:
     args = _build_parser().parse_args(argv)
@@ -219,7 +211,6 @@ def main(argv: list[str] | None = None) -> int:
         )
 
     return 1 if result.conflicts else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

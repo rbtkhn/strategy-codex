@@ -23,12 +23,10 @@ except ImportError:
 _lock = threading.Lock()
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def harness_events_path(user_id: str, *, for_write: bool = False) -> Path:
     if for_write:
         return operator_ledger_write_path(user_id, "harness-events.jsonl")
     return resolve_ledger_path(user_id, "harness-events.jsonl")
-
 
 def append_harness_event(
     user_id: str,
@@ -65,7 +63,6 @@ def append_harness_event(
     except Exception:
         pass  # audit only; never block merge/export
 
-
 def main() -> int:
     import argparse
     import sys
@@ -91,7 +88,6 @@ def main() -> int:
     )
     print(harness_events_path(args.user, for_write=True))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

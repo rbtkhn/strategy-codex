@@ -1,6 +1,5 @@
 # Kleiber Close - Hormuz Stopping Rules - 2026-06-01
 
-work only; not Record.
 
 The `Hormuz` tranche taught the right small lesson:
 

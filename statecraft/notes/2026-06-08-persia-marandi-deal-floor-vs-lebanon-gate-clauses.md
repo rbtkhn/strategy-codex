@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-08/source-hedges-crooke-is-ceasefire-dead-2026-06-08.md
   - source-archive/statecraft/2026-06-08/source-mario-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md
 ---
-WORK only; not Record.
 
 # Marandi Deal Floor × Lebanon Gate Clauses — 2026-06-08
 

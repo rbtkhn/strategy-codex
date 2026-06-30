@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-04/README.md
   - source-archive/statecraft/2026-06-04/source-judging-freedom-macgregor-does-the-us-have-a-military-option-in-iran-2026-06-04.md>
 ---
-WORK only; not Record.
 
 # Hoh × Henningsen × Pape: Lebanon Pseudo-Agreement Falsifier - 2026-06-04 → 2026-06-07
 

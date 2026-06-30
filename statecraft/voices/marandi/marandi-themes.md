@@ -1,6 +1,5 @@
 # Marandi themes
 
-WORK only; not Record.
 
 Purpose: compact theme-family routing layer for the Marandi shelf.
 

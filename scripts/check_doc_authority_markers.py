@@ -45,7 +45,6 @@ RECORD_TOPIC_RE = re.compile(
 )
 FROZEN_RE = re.compile(r"frozen|fork[- ]revive|reference-only|archive only", re.I)
 
-
 def parse_frontmatter(text: str) -> dict[str, str]:
     text = text.lstrip("\ufeff").replace("\r\n", "\n")
     head = "\n".join(text.splitlines()[:50])
@@ -54,7 +53,6 @@ def parse_frontmatter(text: str) -> dict[str, str]:
         return {}
     block = match.group(1)
     return {m.group(1): m.group(2) for m in FIELD_RE.finditer(block)}
-
 
 def validate_file(path: Path) -> list[str]:
     rel = path.relative_to(REPO_ROOT).as_posix()
@@ -80,7 +78,6 @@ def validate_file(path: Path) -> list[str]:
             issues.append(f"{rel}: record_status set but no Record topic anchor in body")
 
     return issues
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -109,7 +106,6 @@ def main() -> int:
 
     print(f"check_doc_authority_markers: ok ({len(targets)} doc(s))")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/statecraft/event.schema.json",
+  "title": "Event registry entry",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["question", "resolution_criteria", "status"],
+  "properties": {
+    "question": { "type": "string", "minLength": 1 },
+    "resolution_criteria": { "type": "string", "minLength": 1 },
+    "status": {
+      "enum": ["open", "resolved", "void", "deprecated"]
+    },
+    "outcome": {
+      "type": ["string", "null"],
+      "enum": ["yes", "no", null]
+    },
+    "category": { "type": "string" },
+    "start_date": { "type": ["string", "null"] },
+    "close_date": { "type": ["string", "null"] },
+    "resolved_date": { "type": ["string", "null"] },
+    "resolution_source": { "type": ["string", "null"] },
+    "horizon_type": { "type": ["string", "null"] },
+    "horizon_cite": { "type": ["string", "null"] },
+    "closure_trigger": { "type": ["string", "null"] }
+  }
+}

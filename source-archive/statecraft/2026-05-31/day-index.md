@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Mario Nawfal` (5), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Moral Resistance` (1), `Nima Alkhorshid` (1)
 - Guests: `Brandon J. Weichert` (2), `Anthony Aguilar` (1), `Glenn Diesen` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Robert Barnes` (1)
-- Threads: `diesen` (2), `weichert` (2), `aguilar` (1), `alkorshid` (1), `barnes` (1), `glenn-diesen` (1), `johnson` (1), `mercouris` (1), `nawfal` (1), `sachs` (1)
+- Threads: `diesen` (2), `weichert` (2), `aguilar` (1), `alkhorshid` (1), `barnes` (1), `glenn-diesen` (1), `johnson` (1), `mercouris` (1), `nawfal` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=-wmKK5PaiZg) | `source-alexander-mercouris-kiev-drone-strikes-zaporozhzhye-npp-west-iaea-silent-russia-orekhov-breakthrough-konstantinovka-2026-05-31.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid` | [watch](https://www.youtube.com/watch?v=Zqs4c_dOCog) | `source-dialogue-works-total-surrender-trump-dares-iran-but-they-just-dismantled-his-every-move-2026-05-31.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid` | [watch](https://www.youtube.com/watch?v=Zqs4c_dOCog) | `source-dialogue-works-total-surrender-trump-dares-iran-but-they-just-dismantled-his-every-move-2026-05-31.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=WgOJXWqk0io) | `source-diesen-sachs-germany-is-leading-europe-toward-world-war-iii-2026-05-31.md` |
 | `mario-nawfal` | Mario Nawfal | `barnes` | [LPdeT4kf0HU](https://www.youtube.com/watch?v=LPdeT4kf0HU) | `source-mario-nawfal-barnes-breaking-u-s-to-merge-military-with-israel-2026-05-31.md` |
 | `mario-nawfal` | Mario Nawfal | `diesen`, `glenn-diesen` | [RlG35-5j6GY](https://www.youtube.com/watch?v=RlG35-5j6GY) | `source-mario-nawfal-diesen-breaking-iran-collects-tolls-from-28-ships-in-past-24-hours-2026-05-31.md` |

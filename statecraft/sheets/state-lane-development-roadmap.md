@@ -1,6 +1,5 @@
 # State Lane Development Roadmap
 
-WORK only; not Record.
 
 Purpose: give every statecraft lane the same development sequence so each state can eventually stand as an independent repo without losing the shared Statecraft grammar.
 

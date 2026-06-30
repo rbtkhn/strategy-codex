@@ -1,6 +1,5 @@
 # Macgregor routing
 
-WORK only; not Record.
 
 Purpose: make the Macgregor speaker object faster to route without duplicating host chronology. This note answers a narrower question than the helix note: **which host lane or monthly synthesis shelf should the Codex open first for a given kind of Macgregor use**.
 

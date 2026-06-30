@@ -11,7 +11,6 @@ from pathlib import Path
 
 from statecraft_day_archive import guest_meta_values, infer_source_form, parse_frontmatter
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 ARCHIVE_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 DATE_DIR_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -33,12 +32,10 @@ COMPOUND_PREFIXES = (
     "responsiblestatecraft-",
 )
 
-
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--check", action="store_true", help="Report planned changes without mutating files.")
     return ap.parse_args()
-
 
 def iter_day_source_files(root: Path) -> list[Path]:
     files: list[Path] = []
@@ -56,7 +53,6 @@ def iter_day_source_files(root: Path) -> list[Path]:
             files.append(path)
     return files
 
-
 def strip_legacy_prefix(stem_without_date: str) -> str:
     if stem_without_date.startswith("source-"):
         return stem_without_date[len("source-") :]
@@ -67,14 +63,12 @@ def strip_legacy_prefix(stem_without_date: str) -> str:
         return stem_without_date
     return stem_without_date.split("-", 1)[1]
 
-
 def target_name(path: Path) -> str:
     date = path.parent.name
     stem = path.stem
     stripped = DATE_SUFFIX_RE.sub("", stem)
     preserved = strip_legacy_prefix(stripped)
     return f"source-{preserved}-{date}.md"
-
 
 def updated_text(path: Path) -> str:
     text = path.read_text(encoding="utf-8-sig", errors="replace")
@@ -111,7 +105,6 @@ def updated_text(path: Path) -> str:
     rebuilt = "---\n" + "\n".join(lines) + "\n---"
     return rebuilt + text[match.end() - 1 :]
 
-
 def build_path_mapping(paths: list[Path]) -> dict[str, str]:
     mapping: dict[str, str] = {}
     targets: Counter[str] = Counter()
@@ -129,7 +122,6 @@ def build_path_mapping(paths: list[Path]) -> dict[str, str]:
     if collisions:
         raise SystemExit("target-name collisions detected:\n" + "\n".join(collisions))
     return mapping
-
 
 def iter_text_files() -> list[Path]:
     roots = [
@@ -151,14 +143,12 @@ def iter_text_files() -> list[Path]:
             files.append(path)
     return files
 
-
 def replace_refs(text: str, mapping: dict[str, str]) -> str:
     updated = text
     for old, new in mapping.items():
         if old in updated:
             updated = updated.replace(old, new)
     return updated
-
 
 def main() -> int:
     args = parse_args()
@@ -202,7 +192,6 @@ def main() -> int:
     print(f"renamed {renamed} files")
     print(f"rewrote references in {replaced_files} files")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

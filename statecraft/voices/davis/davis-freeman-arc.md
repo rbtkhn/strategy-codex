@@ -1,6 +1,5 @@
 # arc-freeman-davis-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-freeman-davis-host.md](../../notes/arc-freeman-davis-host.md)
 

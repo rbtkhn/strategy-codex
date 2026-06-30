@@ -23,7 +23,6 @@ if str(_SCRIPTS) not in sys.path:
 from post_land_statecraft_family import apply_statecraft_capture_scaffold  # noqa: E402
 from statecraft_day_archive import DEFAULT_ROOT  # noqa: E402
 
-
 def _landed_files_for_day(day: str) -> list[Path]:
     day_dir = DEFAULT_ROOT / day
     if not day_dir.is_dir():
@@ -36,7 +35,6 @@ def _landed_files_for_day(day: str) -> list[Path]:
     if not files:
         raise FileNotFoundError(f"no capture files under {day_dir}")
     return files
-
 
 def post_land_batch(
     paths: list[Path],
@@ -75,7 +73,6 @@ def post_land_batch(
 
     return exit_code
 
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -108,7 +105,6 @@ def parse_args() -> argparse.Namespace:
     )
     return parser.parse_args()
 
-
 def main() -> int:
     args = parse_args()
     if not args.day and not args.path:
@@ -136,7 +132,6 @@ def main() -> int:
         skip_index=args.skip_index,
         force_mercouris_close=args.force_mercouris_close,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,6 @@
 # Panama Canal Water / Transit Sovereignty Framework
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: compare a canal water and transit sovereignty crisis across America, China, and Russia. The framework treats climate constraint, canal throughput, infrastructure finance, and neutrality as one statecraft problem.
 

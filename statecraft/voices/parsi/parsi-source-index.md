@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Parsi Source Index (compat redirect)
 

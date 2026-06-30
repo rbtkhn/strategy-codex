@@ -17,7 +17,6 @@ archive_links:
 ---
 # Statecraft Participant Index Audit - 2026-06-03
 
-work only; not Record.
 
 ## Purpose
 

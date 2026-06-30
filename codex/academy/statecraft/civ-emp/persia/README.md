@@ -1,6 +1,6 @@
 # CIV-EMP Iran
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder holds CIV-EMP source objects for Iran-lane statecraft. Use it when an Iran transaction needs a compact Civilization and Empire source pattern before moving into lane-local `civilization/`, `empire/`, `state/`, `helix.md`, or `transactions/` files.
 

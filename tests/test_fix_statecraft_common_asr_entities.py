@@ -234,7 +234,7 @@ def test_apply_replacements_fixes_khairullin_mercouris_asr_cluster() -> None:
 
 def test_apply_replacements_fixes_nima_alkhorshid_display() -> None:
     text = (
-        "Host Nima Alkorshid opened. **Nima Alkorshid:** welcome back.\n"
+        "Host Nima Alkhorshid opened. **Nima Alkhorshid:** welcome back.\n"
         "Alkorshid's guest spoke; Alkorshid thanked Carl.\n"
     )
     updated, counts = fix.apply_replacements(text)

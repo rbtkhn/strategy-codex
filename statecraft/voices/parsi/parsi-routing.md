@@ -1,6 +1,5 @@
 # Parsi routing
 
-WORK only; not Record.
 
 Purpose: fast-routing note for the canonical Parsi shelf.
 

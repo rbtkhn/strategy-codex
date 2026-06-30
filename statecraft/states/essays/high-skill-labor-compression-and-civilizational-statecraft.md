@@ -1,6 +1,5 @@
 # High-Skill Labor Compression and Civilizational Statecraft
 
-WORK only; not Record.
 
 This note bridges singularity-workshop acceleration analysis into `civ-state`.
 

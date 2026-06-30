@@ -1,7 +1,6 @@
 # Mearsheimer strategy page — 2026-04-20 (*Iran, Islamabad & Hormuz*)
 <!-- word_count: 6603 -->
 
-WORK only; not Record.
 
 **Expert:** `mearsheimer` · **Aired:** 2026-04-20 · **Capture:** Mode B — interview (The Chris Hedges Report) · **Artifact:** strategy-page file (`mearsheimer-page-…` under `experts/mearsheimer/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 

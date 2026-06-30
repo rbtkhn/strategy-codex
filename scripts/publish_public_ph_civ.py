@@ -7,7 +7,6 @@ import sys
 
 DOC = "docs/predictive-history-operator-workspace.md"
 
-
 def main() -> int:
     print(
         "ERROR: publish_public_ph_civ.py is deprecated.\n"
@@ -18,7 +17,6 @@ def main() -> int:
         file=sys.stderr,
     )
     return 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # America Bounded-Command Vs Burden-Sharing Bridge
 
-WORK only; not Record.
 
 Purpose: regulate the transition inside the America lane when the real uncertainty is still whether the object should be read command-first or settlement-first.
 

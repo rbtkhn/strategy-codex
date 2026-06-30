@@ -1,8 +1,6 @@
-WORK only; not Record.
 
 # Wilkerson Source Index (compat redirect)
 
-WORK only; not Record.
 
 Compatibility pointer only.
 

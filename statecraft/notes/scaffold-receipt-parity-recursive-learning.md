@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 ## Scaffold Receipt Parity — Recursive Learning Entry
 
-WORK only; not Record.
 
 **Statecraft Registry**
 - Lane: shared

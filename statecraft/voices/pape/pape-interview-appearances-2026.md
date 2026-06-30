@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Pape interview appearances - 2026 (compat redirect)
 

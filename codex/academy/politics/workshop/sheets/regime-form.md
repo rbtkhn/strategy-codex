@@ -1,6 +1,5 @@
 # Regime Form
 
-WORK only; not Record.
 
 ## Purpose
 

@@ -26,19 +26,16 @@ except ImportError:  # pragma: no cover
 REPO_ROOT = Path(__file__).resolve().parent.parent
 MANIFEST_PATH = REPO_ROOT / "platform/config" / "civilizational_statecraft_public_export.yaml"
 
-
 def load_manifest() -> dict:
     if yaml is None:
         raise SystemExit("PyYAML required: pip install pyyaml")
     with MANIFEST_PATH.open(encoding="utf-8") as f:
         return yaml.safe_load(f)
 
-
 def default_export_dir() -> Path:
     manifest = load_manifest()
     rel = manifest.get("default_output", "public/civ-state")
     return (REPO_ROOT / rel).resolve()
-
 
 DEFAULT_EXPORT = default_export_dir()
 
@@ -89,7 +86,6 @@ REQUIRED_ESSAYS = [
 
 VOLUME_ESSAYS = ["civilization", "empire"]
 
-
 def normalize_exclude_prefixes(prefixes: list[str]) -> tuple[str, ...]:
     out: list[str] = []
     for raw in prefixes:
@@ -97,7 +93,6 @@ def normalize_exclude_prefixes(prefixes: list[str]) -> tuple[str, ...]:
         if p:
             out.append(p)
     return tuple(out)
-
 
 def is_excluded(rel: Path, exclude_prefixes: tuple[str, ...]) -> bool:
     if not exclude_prefixes:
@@ -108,7 +103,6 @@ def is_excluded(rel: Path, exclude_prefixes: tuple[str, ...]) -> bool:
         return True
     return any(rel_posix.startswith(f"{p}/") for p in exclude_prefixes)
 
-
 def iter_markdown(export: Path, exclude_prefixes: tuple[str, ...]) -> list[Path]:
     paths: list[Path] = []
     for path in export.rglob("*.md"):
@@ -117,7 +111,6 @@ def iter_markdown(export: Path, exclude_prefixes: tuple[str, ...]) -> list[Path]
             continue
         paths.append(path)
     return paths
-
 
 def check_forbidden(
     export: Path, patterns: list[str], exclude_prefixes: tuple[str, ...]
@@ -131,10 +124,8 @@ def check_forbidden(
                 errors.append(f"forbidden `{pat}` in {rel}")
     return errors
 
-
 def check_required(export: Path, paths: list[str]) -> list[str]:
     return [f"missing required file: {p}" for p in paths if not (export / p).is_file()]
-
 
 def check_strict_theory(export: Path) -> list[str]:
     errors: list[str] = []
@@ -147,10 +138,8 @@ def check_strict_theory(export: Path) -> list[str]:
             errors.append(f"strict-theory: missing `{STRICT_THEORY_HEADING}` in {rel}")
     return errors
 
-
 def volume_bibliography_door(slug: str) -> str:
     return "source-shelf.md" if slug == "rome" else "bibliography.md"
-
 
 def check_volume(export: Path, slug: str, eras: list[str], stub: bool) -> list[str]:
     errors: list[str] = []
@@ -179,7 +168,6 @@ def check_volume(export: Path, slug: str, eras: list[str], stub: bool) -> list[s
         errors.append(f"sources/{slug}: missing bibliography.md")
     return errors
 
-
 def check_internal_links(export: Path, exclude_prefixes: tuple[str, ...]) -> list[str]:
     errors: list[str] = []
     link_re = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
@@ -201,7 +189,6 @@ def check_internal_links(export: Path, exclude_prefixes: tuple[str, ...]) -> lis
             if not dest.exists():
                 errors.append(f"broken link in {rel}: {target}")
     return errors
-
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -279,7 +266,6 @@ def main() -> int:
         print(f"OK: {export}{scope}")
 
     return 0 if not errors else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # America War
 
-WORK only; not Record.
 
 ## Purpose
 

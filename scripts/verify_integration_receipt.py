@@ -29,14 +29,11 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def sha256_text(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
-
 def _read_worktree(path: Path) -> str:
     return path.read_text(encoding="utf-8")
-
 
 def _worktree_path(repo_root: Path, rel: str) -> Path:
     path = repo_root / rel
@@ -46,7 +43,6 @@ def _worktree_path(repo_root: Path, rel: str) -> Path:
     if legacy.is_file():
         return legacy
     return path
-
 
 def _read_git_show(ref: str, rel_posix: str, repo_root: Path) -> str:
     candidates = [rel_posix]
@@ -66,7 +62,6 @@ def _read_git_show(ref: str, rel_posix: str, repo_root: Path) -> str:
             return proc.stdout
         last_error = proc.stderr.strip() or f"git show {spec} failed"
     raise FileNotFoundError(last_error)
-
 
 def verify_hashes(
     expected: dict[str, str],
@@ -100,13 +95,11 @@ def verify_hashes(
         return False, errors
     return True, [f"OK: {len(expected)} path(s) match"]
 
-
 def load_receipt(path: Path) -> dict[str, Any]:
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict):
         raise ValueError("receipt must be a JSON object")
     return data
-
 
 def main() -> int:
     p = argparse.ArgumentParser(description="Verify integration receipt hashes.")
@@ -174,7 +167,6 @@ def main() -> int:
     if not ok:
         return 1
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

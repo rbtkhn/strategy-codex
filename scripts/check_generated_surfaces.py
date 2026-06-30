@@ -43,7 +43,6 @@ try:
 except ImportError:  # pragma: no cover
     yaml = None  # type: ignore[assignment]
 
-
 @dataclass(frozen=True)
 class ManifestEntry:
     entry_id: str
@@ -53,7 +52,6 @@ class ManifestEntry:
     drift_group: str | None
     header_type: str | None
     header_patterns: tuple[str, ...]
-
 
 def _load_manifest(path: Path = MANIFEST_PATH) -> list[ManifestEntry]:
     if yaml is None:
@@ -121,14 +119,12 @@ def _load_manifest(path: Path = MANIFEST_PATH) -> list[ManifestEntry]:
         )
     return out
 
-
 def _read_head(path: Path, *, max_lines: int = 12) -> str:
     try:
         lines = path.read_text(encoding="utf-8").splitlines()
     except (OSError, UnicodeDecodeError):
         return ""
     return "\n".join(lines[:max_lines])
-
 
 def _header_ok(entry: ManifestEntry, path: Path) -> list[str]:
     if not entry.header_type:
@@ -152,10 +148,8 @@ def _header_ok(entry: ManifestEntry, path: Path) -> list[str]:
             ]
     return []
 
-
 def _drift_key(entry: ManifestEntry) -> tuple[str, tuple[str, ...], str | None]:
     return (entry.generator, entry.check_args, entry.drift_group)
-
 
 def _run_drift_check(entry: ManifestEntry) -> list[str]:
     if not entry.check_args:
@@ -173,10 +167,8 @@ def _run_drift_check(entry: ManifestEntry) -> list[str]:
     tail = detail[-1] if detail else f"exit {proc.returncode}"
     return [f"{entry.entry_id}: drift check failed ({entry.generator}): {tail}"]
 
-
 def _is_deferred_orphan(rel_posix: str) -> bool:
     return any(prefix in rel_posix for prefix in ORPHAN_DEFER_PREFIXES)
-
 
 def _iter_orphan_candidates() -> list[Path]:
     paths: set[Path] = set()
@@ -193,7 +185,6 @@ def _iter_orphan_candidates() -> list[Path]:
                 continue
             paths.add(path)
     return sorted(paths)
-
 
 def collect_orphan_issues(
     manifest_paths: set[str],
@@ -215,7 +206,6 @@ def collect_orphan_issues(
     if strict_orphans:
         return [i for i in issues if not i.startswith("orphan (deferred):")]
     return issues
-
 
 def collect_issues(*, run_drift: bool, run_orphans: bool, strict_orphans: bool) -> list[str]:
     issues: list[str] = []
@@ -242,7 +232,6 @@ def collect_issues(*, run_drift: bool, run_orphans: bool, strict_orphans: bool) 
         issues.extend(collect_orphan_issues(manifest_paths, strict_orphans=strict_orphans))
 
     return issues
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -345,7 +334,6 @@ def main() -> int:
         mode_parts.append("orphans")
     print(f"ok: generated surfaces check passed ({'+'.join(mode_parts)})")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -15,7 +15,6 @@ DEFAULT_RECEIPTS_DIR = ARTIFACTS_DIR / "work-dev" / "rebuild-receipts"
 DEFAULT_OUTPUT = ARTIFACTS_DIR / "work-dev" / "rebuild-health" / "summary.json"
 DEFAULT_MANIFEST = ARTIFACTS_DIR / "work-dev" / "derived-regeneration-manifest.json"
 
-
 def _load_receipts(directory: Path) -> list[dict]:
     rows: list[dict] = []
     if not directory.is_dir():
@@ -29,7 +28,6 @@ def _load_receipts(directory: Path) -> list[dict]:
             rows.append(payload)
     return rows
 
-
 def _load_manifest(path: Path) -> dict | None:
     if not path.is_file():
         return None
@@ -38,7 +36,6 @@ def _load_manifest(path: Path) -> dict | None:
     except json.JSONDecodeError:
         return None
     return payload if isinstance(payload, dict) else None
-
 
 def build_health_payload(receipts: list[dict], manifest: dict | None) -> dict:
     target_counter: Counter[str] = Counter()
@@ -112,7 +109,6 @@ def build_health_payload(receipts: list[dict], manifest: dict | None) -> dict:
         "writtenRationaleSidecarCount": written_rationale_sidecars,
     }
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -145,7 +141,6 @@ def main() -> int:
     out.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"wrote {out}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

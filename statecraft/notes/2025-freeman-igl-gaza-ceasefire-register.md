@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-05-11/source-india-global-left-four-endgames-iran-war-chas-freeman-2026-05-11.md
   - source-archive/statecraft/2026-05-20/source-india-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20.md
 ---
-WORK only; not Record.
 
 # 10 Oct 2025 — Freeman × India Global Left Gaza-ceasefire register
 

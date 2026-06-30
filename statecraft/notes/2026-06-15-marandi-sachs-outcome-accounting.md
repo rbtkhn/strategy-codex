@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-15/source-judging-freedom-johnson-is-this-any-way-to-negotiate-2026-06-15.md
   - source-archive/statecraft/2026-06-15/source-tucker-parsi-trump-iran-peace-deal-israel-sabotage-2026-06-15.md
 ---
-WORK only; not Record.
 
 # Marandi × Sachs — Outcome Accounting Fork — 2026-06-15
 

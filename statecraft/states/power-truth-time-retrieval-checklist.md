@@ -1,6 +1,5 @@
 # Power, Truth, Time Retrieval Checklist
 
-WORK only; not Record.
 
 Status: Superseded by `civilization-empire-faith-science-memory-entropy-retrieval-checklist.md`
 Surface: `civ-state`

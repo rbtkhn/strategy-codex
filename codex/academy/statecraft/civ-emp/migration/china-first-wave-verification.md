@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # China First-Wave Verification Note
 

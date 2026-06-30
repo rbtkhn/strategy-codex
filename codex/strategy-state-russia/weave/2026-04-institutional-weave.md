@@ -1,6 +1,5 @@
 # 2026-04 institutional weave (strategy-state-russia)
 
-WORK only; not Record.
 
 ## Month reading (placeholder)
 

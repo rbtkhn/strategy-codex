@@ -57,28 +57,22 @@ SEGMENT_H3_RE = re.compile(r"^###\s+(\d{4}-\d{2})\s*$", re.MULTILINE)
 BULLET_RE = re.compile(r"^\s*[-*]\s+(.*\S)\s*$")
 STRENGTH_RE = re.compile(r"\[strength:\s*(high|medium|low)\]", re.IGNORECASE)
 
-
 def marker_backfill_start(expert_id: str) -> str:
     return f"<!-- backfill:{expert_id}:start -->"
-
 
 def marker_backfill_end(expert_id: str) -> str:
     return f"<!-- backfill:{expert_id}:end -->"
 
-
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
-
 def normalize_space(text: str) -> str:
     return " ".join(text.split())
-
 
 def extract_human_layer(thread_text: str) -> str:
     if THREAD_MARKER_START in thread_text:
         return thread_text.split(THREAD_MARKER_START, 1)[0].rstrip()
     return thread_text.rstrip()
-
 
 def strip_backfill_block(text: str, expert_id: str) -> str:
     pattern = re.compile(
@@ -90,7 +84,6 @@ def strip_backfill_block(text: str, expert_id: str) -> str:
     out = pattern.sub("", text)
     return re.sub(r"\n{3,}", "\n\n", out).strip()
 
-
 @dataclass
 class Segment:
     segment_id: str
@@ -101,7 +94,6 @@ class Segment:
     tension_lines: List[str]
     shift_lines: List[str]
     source: str  # "h2" or "h3"
-
 
 def _classify_bullets(bullets: List[str]) -> tuple[dict, List[str], List[str], List[str]]:
     strength_counts = {"high": 0, "medium": 0, "low": 0}
@@ -156,7 +148,6 @@ def _classify_bullets(bullets: List[str]) -> tuple[dict, List[str], List[str], L
 
     return strength_counts, signal_lines, tension_lines, shift_lines
 
-
 def parse_segments_with_regex(
     human_layer_stripped: str, segment_re: re.Pattern[str], source: str
 ) -> List[Segment]:
@@ -192,7 +183,6 @@ def parse_segments_with_regex(
 
     return segments
 
-
 def parse_segments(human_layer_stripped: str) -> tuple[List[Segment], str]:
     """
     Prefer ## YYYY-MM; if none, use ### YYYY-MM. Returns (segments, note).
@@ -205,12 +195,10 @@ def parse_segments(human_layer_stripped: str) -> tuple[List[Segment], str]:
         return h3, "no `## YYYY-MM` headings; used `### YYYY-MM` fallback"
     return [], "no month segments found (`## YYYY-MM` or `### YYYY-MM`)"
 
-
 def filter_segments(
     segments: List[Segment], start_segment: str, end_segment: str
 ) -> List[Segment]:
     return [s for s in segments if start_segment <= s.segment_id <= end_segment]
-
 
 def first_n(items: List[str], n: int) -> List[str]:
     seen: set[str] = set()
@@ -223,7 +211,6 @@ def first_n(items: List[str], n: int) -> List[str]:
         if len(out) >= n:
             break
     return out
-
 
 def render_markdown(
     expert_id: str,
@@ -246,8 +233,7 @@ def render_markdown(
     lines: List[str] = []
     lines.append(f"# Historical expert context — `{expert_id}`")
     lines.append("")
-    lines.append("WORK only; not Record.")
-    lines.append(f"Source thread: `{thread_relpath}`")
+        lines.append(f"Source thread: `{thread_relpath}`")
     lines.append(f"Segments included: {', '.join(s.segment_id for s in segments) if segments else '(none)'}")
     lines.append(f"Parse: {parse_note}")
     lines.append("")
@@ -325,7 +311,6 @@ def render_markdown(
 
     return "\n".join(lines).rstrip() + "\n"
 
-
 def render_single_month_artifact(
     expert_id: str,
     segment: Segment,
@@ -338,7 +323,6 @@ def render_single_month_artifact(
     if lines:
         lines[0] = f"# Historical expert context — `{expert_id}` — `{segment.segment_id}`"
     return "\n".join(lines).rstrip() + "\n"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -445,7 +429,6 @@ def main() -> int:
     if not write_all_artifacts():
         return 2
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -18,7 +18,6 @@ archive_links:
 ---
 # 2026-06-21 — Mearsheimer steamroll-Israel falsifier checklist (MOU / Lebanon)
 
-WORK only; not Record.
 
 **Pub date:** 2026-06-21  
 **Judgment tier:** structural watch — not wire-verified unless noted  

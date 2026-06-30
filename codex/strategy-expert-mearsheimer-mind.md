@@ -1,6 +1,5 @@
 # Expert mind — John Mearsheimer (`mearsheimer`) — compatibility redirect
 
-WORK only; not Record.
 
 **Canonical SSOT:** [statecraft/voices/mearsheimer/mearsheimer-profile.md](../statecraft/voices/mearsheimer/mearsheimer-profile.md) — Identity, Tier A `#linguistic-style-fingerprint-detailed`, convergence/tension, failure modes, June 2026 receipts.
 

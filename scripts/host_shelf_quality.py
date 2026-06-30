@@ -17,7 +17,6 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
@@ -25,7 +24,6 @@ if str(SCRIPTS_DIR) not in sys.path:
 from repo_io import ARTIFACTS_DIR
 
 import build_voice_routing_queue as voice_routing  # noqa: E402
-
 
 DEFAULT_OUT_ROOT = ARTIFACTS_DIR / "host-shelf-quality"
 GRADE_ORDER = [
@@ -74,19 +72,16 @@ RESIDUAL_NOISE_TERMS = [
     "zero someum",
 ]
 
-
 def _rel(path: Path) -> str:
     try:
         return path.resolve().relative_to(REPO_ROOT).as_posix()
     except ValueError:
         return path.as_posix()
 
-
 def _host_slug(value: str) -> str:
     return voice_routing._canonical_host_slug(  # noqa: SLF001
         {"host": value, "show": value, "channel_slug": value, "thread": value}
     )
-
 
 def _parse_month(year: int, raw_month: str) -> tuple[int, str]:
     text = str(raw_month).strip()
@@ -100,11 +95,9 @@ def _parse_month(year: int, raw_month: str) -> tuple[int, str]:
         return month, f"{year:04d}-{month:02d}"
     raise ValueError("--month must be MM or YYYY-MM")
 
-
 def _month_bounds(year: int, month: int) -> tuple[date, date]:
     last_day = calendar.monthrange(year, month)[1]
     return date(year, month, 1), date(year, month, last_day)
-
 
 def _raw_date(path: Path, meta: dict[str, Any]) -> date | None:
     raw = str(meta.get("pub_date") or meta.get("ingest_date") or path.parent.name)
@@ -112,7 +105,6 @@ def _raw_date(path: Path, meta: dict[str, Any]) -> date | None:
         return date.fromisoformat(raw)
     except ValueError:
         return None
-
 
 def _body_text(path: Path) -> str:
     text = path.read_text(encoding="utf-8", errors="replace")
@@ -127,10 +119,8 @@ def _body_text(path: Path) -> str:
         lines.append(stripped)
     return "\n".join(lines)
 
-
 def _word_count(path: Path) -> int:
     return len(WORD_RE.findall(_body_text(path)))
-
 
 def _residual_noise_terms(path: Path) -> list[str]:
     text = path.read_text(encoding="utf-8-sig", errors="replace")
@@ -141,14 +131,12 @@ def _residual_noise_terms(path: Path) -> list[str]:
             found.append(term)
     return sorted(found, key=str.casefold)
 
-
 def _quality_note(meta: dict[str, Any]) -> str:
     for key in ("quality_note", "normalization_note", "editorial_note", "source_note"):
         value = str(meta.get(key) or "").strip()
         if value:
             return value
     return ""
-
 
 def _load_previous(path: Path) -> dict[str, Any] | None:
     if not path.exists():
@@ -159,12 +147,10 @@ def _load_previous(path: Path) -> dict[str, Any] | None:
         return None
     return data if isinstance(data, dict) else None
 
-
 def _delta(current: int | float, previous: int | float | None) -> int | float:
     if previous is None:
         return current
     return current - previous
-
 
 def _signed(value: int | float, *, suffix: str = "") -> str:
     if isinstance(value, float):
@@ -172,7 +158,6 @@ def _signed(value: int | float, *, suffix: str = "") -> str:
     else:
         text = f"{value:+d}"
     return f"{text}{suffix}"
-
 
 def _run_git(args: list[str]) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
@@ -183,7 +168,6 @@ def _run_git(args: list[str]) -> subprocess.CompletedProcess[str]:
         stderr=subprocess.PIPE,
         check=False,
     )
-
 
 def scoped_git_state(paths: list[Path]) -> dict[str, Any]:
     normalized: list[str] = []
@@ -234,7 +218,6 @@ def scoped_git_state(paths: list[Path]) -> dict[str, Any]:
         + ("pushed" if pushed else "not-pushed"),
     }
 
-
 def discover_raw_inputs(
     *,
     notebook_root: Path,
@@ -249,7 +232,6 @@ def discover_raw_inputs(
         start, end = _month_bounds(year, month)
         candidates = voice_routing._discover_raw_inputs(notebook_root / "raw-input", start, end)  # noqa: SLF001
     return voice_routing.normalize_raw_input_paths(candidates)
-
 
 def filter_host_month_paths(paths: list[Path], *, host: str, year: int, month_label: str) -> list[Path]:
     host_slug = _host_slug(host)
@@ -266,7 +248,6 @@ def filter_host_month_paths(paths: list[Path], *, host: str, year: int, month_la
         out.append(path)
     return out
 
-
 def _naming_warnings(notebook_root: Path, host_slug: str) -> list[str]:
     host_dir = notebook_root / host_slug
     if not host_dir.exists():
@@ -280,7 +261,6 @@ def _naming_warnings(notebook_root: Path, host_slug: str) -> list[str]:
         f"{host_slug} has shelf-named files and book-named siblings; consider migrating these warnings-only paths: {books}"
     ]
 
-
 def _closeout_line(summary: dict[str, Any]) -> str:
     deltas = summary["deltas"]
     return (
@@ -291,7 +271,6 @@ def _closeout_line(summary: dict[str, Any]) -> str:
         f"Unresolved: {summary['unresolved_speaker_count']} | "
         f"Git: {summary['git_state']['label']}"
     )
-
 
 def build_quality_summary(
     *,
@@ -396,15 +375,13 @@ def build_quality_summary(
     summary["closeout_line"] = _closeout_line(summary)
     return summary
 
-
 def render_markdown(summary: dict[str, Any]) -> str:
     counts = summary["counts"]
     deltas = summary["deltas"]
     lines = [
         "# Host shelf quality summary",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         f"- host: `{summary['host']}`",
         f"- month: `{summary['month']}`",
         f"- input scope: `{summary.get('input_scope', 'provided-paths')}`",
@@ -456,7 +433,6 @@ def render_markdown(summary: dict[str, Any]) -> str:
             lines.append(f"  - {'; '.join(note_bits)}")
     return "\n".join(lines).rstrip() + "\n"
 
-
 def write_quality_summary(
     *,
     host: str,
@@ -494,7 +470,6 @@ def write_quality_summary(
     summary["json_path"] = str(json_path)
     summary["markdown_path"] = str(md_path)
     return summary
-
 
 def write_quality_reports_for_paths(
     raw_paths: list[Path],
@@ -535,7 +510,6 @@ def write_quality_reports_for_paths(
         )
     return summaries
 
-
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--host", required=True)
@@ -547,7 +521,6 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--apply", action="store_true", help="Write quality-summary.json and .md.")
     parser.add_argument("--no-apply", action="store_false", dest="apply", help="Print only.")
     return parser
-
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
@@ -584,7 +557,6 @@ def main(argv: list[str] | None = None) -> int:
         )
     print(json.dumps(summary, indent=2, ensure_ascii=True))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

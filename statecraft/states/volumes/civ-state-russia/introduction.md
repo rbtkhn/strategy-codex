@@ -1,6 +1,5 @@
 # The Third Rome
 
-WORK only; not Record.
 
 Russia is **Volume IV** of *Civilizational Statecraft*: a medieval-to-modern sovereignty chain that begins with Rurik and survives recurrent fracture rather than uninterrupted calm. The claim persists through Kievan formation, Horde domination, Muscovite regathering, imperial expansion, Soviet mutation, and post-Soviet restoration. The civilization-state claim here is **regathering after rupture** — sovereign memory that outlives political destruction — not smooth institutional continuity from century to century.
 

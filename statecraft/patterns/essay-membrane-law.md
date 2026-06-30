@@ -1,6 +1,5 @@
 # Essay Membrane Law
 
-WORK only; not Record.
 
 Purpose: name how a multi-term civ-state volume should layer **essays** so
 operators and agents do not conflate constitutional continuity, single-dimension

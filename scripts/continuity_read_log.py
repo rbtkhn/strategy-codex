@@ -30,7 +30,6 @@ DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", DEFAULT_PROFILE_ID).strip() or DEF
 
 FILES = ["session-log.md", "recursion-gate.md", "self-archive.md"]
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Log proof-of-read for session continuity (SESSION-LOG, RECURSION-GATE, EVIDENCE)."
@@ -73,7 +72,6 @@ def main() -> int:
         return 1
 
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

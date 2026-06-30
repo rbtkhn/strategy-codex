@@ -30,7 +30,6 @@ from hybrid_retrieve import retrieve  # noqa: E402
 
 DEFAULT_GOLDEN = REPO_ROOT / "tests" / "fixtures" / "retrieval-golden.jsonl"
 
-
 def load_golden(path: Path) -> list[dict]:
     if not path.is_file():
         return []
@@ -41,7 +40,6 @@ def load_golden(path: Path) -> list[dict]:
             continue
         entries.append(json.loads(line))
     return entries
-
 
 def evaluate(
     golden: list[dict],
@@ -105,7 +103,6 @@ def evaluate(
         "per_query": per_query,
     }
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Evaluate hybrid retrieval against golden set.")
     ap.add_argument("--golden", type=Path, default=DEFAULT_GOLDEN, help="Path to golden-set JSONL")
@@ -138,7 +135,6 @@ def main() -> int:
                     print(f"      got: {m['top_paths'][:2]}")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

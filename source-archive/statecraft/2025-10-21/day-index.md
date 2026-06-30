@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1), `Lawrence Wilkerson` (1)
-- Threads: `alkorshid` (1), `freeman` (1), `wilkerson` (1)
+- Threads: `alkhorshid` (1), `freeman` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `wilkerson` | — | `source-dialogue-works-col-larry-wilkerson-every-warning-sign-is-flashing-red-the-us-cant-escape-this-2025-10-21.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `wilkerson` | — | `source-dialogue-works-col-larry-wilkerson-every-warning-sign-is-flashing-red-the-us-cant-escape-this-2025-10-21.md` |
 | `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-chas-freeman-americas-self-destructive-hegemony-2025-10-21.md` |
 
 ## Writer sources

@@ -15,7 +15,6 @@ archive_links:
 
 # Dialogue Works x Postol speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Dialogue Works x Postol` run inside the Alkorshid stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Postol lane Nima elicits, which files matter most, and why this host lane is the clearest mature Postol branch currently on disk.
 
@@ -78,7 +77,7 @@ If the operator needs only one file:
 If the operator needs the best companion surfaces for the uncaptured run:
 
 - open [dialogue-works-inventory.md](../sheets/source-archive-control/dialogue-works-inventory.md)
-- then [alkorshid-profile.md](../voices/alkorshid/alkorshid-profile.md)
+- then [alkhorshid-profile.md](../voices/alkhorshid/alkhorshid-profile.md)
 
 That pair gives the clearest sense that this is not a one-off file but a real recurring lane awaiting broader materialization.
 
@@ -103,7 +102,7 @@ Use this speaker arc when an Alkorshid ingest or batch pass is doing one or more
 
 Typical pairings around the guest lane:
 
-- `alkorshid`
+- `alkhorshid`
 - `ritter`
 - `crooke`
 - `freeman`

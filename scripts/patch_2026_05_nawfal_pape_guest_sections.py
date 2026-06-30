@@ -90,7 +90,6 @@ CAPTURES: dict[str, dict] = {
     },
 }
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -138,7 +137,6 @@ def main() -> int:
         print(f"sectioned {rel}")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -3,9 +3,7 @@
 
 Emits the same shape as the optional **Weave registry — YYYY-MM-DD (grep anchor)**
 section: a ``notebook-weave`` one-liner and a ``batch-analysis`` line. Operator
-fills cold/batch prose or passes flags. WORK only; not Record.
-
-Example::
+fills cold/batch prose or passes flags. Example::
 
     python3 scripts/strategy_weave_inbox_stub.py \\
       --date 2026-04-14 \\
@@ -22,10 +20,8 @@ from __future__ import annotations
 import argparse
 import sys
 
-
 def _build_basename(date: str, page_id: str) -> str:
     return f"strategy-notebook-page-{date}-{page_id}.md"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -120,7 +116,6 @@ def main() -> int:
     out_lines.append(batch_line)
     print("\n".join(out_lines))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

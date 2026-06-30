@@ -1,6 +1,5 @@
 # Jun 12 Triple-Fracture Objection Matrix
 
-WORK only; not Record.
 
 **Deploy judgment:** America × Persia **comparison required** — no single lane owns the dominant Jun 12 object. This compact holds the **shared compression** so downstream notes do not repeat the same block.
 

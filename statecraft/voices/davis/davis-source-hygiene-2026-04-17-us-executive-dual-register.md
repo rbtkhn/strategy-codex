@@ -1,6 +1,5 @@
 # Davis source-hygiene note - 2026-04-17 U.S. executive dual-register seam
 
-WORK only; not Record.
 
 **Anchor item:** [davis-page-2026-04-17-pool-vs-truth-social-dual-register.md](davis-page-2026-04-17-pool-vs-truth-social-dual-register.md)  
 **Brief anchor:** [daily-brief-2026-04-17.md](../../docs/skill-work/work-strategy/daily-brief-2026-04-17.md  

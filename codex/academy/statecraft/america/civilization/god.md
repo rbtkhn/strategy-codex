@@ -1,6 +1,5 @@
 # America God
 
-WORK only; not Record.
 
 ## Purpose
 

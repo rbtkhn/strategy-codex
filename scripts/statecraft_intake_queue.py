@@ -47,7 +47,6 @@ SIDECAR_SUFFIX = ".v1.json"
 WIRE_VERIFY_RE = re.compile(r"verify:wire-", re.IGNORECASE)
 VALID_STATUSES = frozenset({"new", "queued", "daily", "discarded"})
 
-
 @dataclass(frozen=True)
 class SourceQueueRow:
     source_stem: str
@@ -65,17 +64,14 @@ class SourceQueueRow:
     def queue_eligible(self) -> bool:
         return self.synthesis_status in {"new", "queued"}
 
-
 def sidecar_path_for(pub_date: str, source_stem: str) -> Path:
     return QUEUE_ROOT / pub_date / f"{source_stem}{SIDECAR_SUFFIX}"
-
 
 def rel_repo_path(path: Path) -> str:
     try:
         return path.relative_to(REPO_ROOT).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def load_sidecar(path: Path) -> dict[str, Any] | None:
     if not path.is_file():
@@ -85,7 +81,6 @@ def load_sidecar(path: Path) -> dict[str, Any] | None:
     except (json.JSONDecodeError, OSError):
         return None
 
-
 def collect_actors(meta: dict[str, Any]) -> tuple[str, ...]:
     values: list[str] = []
     for key in ("host_people", "guest_people", "host", "guest"):
@@ -94,7 +89,6 @@ def collect_actors(meta: dict[str, Any]) -> tuple[str, ...]:
                 values.append(item)
     return tuple(values)
 
-
 def collect_threads(meta: dict[str, Any]) -> tuple[str, ...]:
     values: list[str] = []
     for key in ("threads", "thread"):
@@ -102,7 +96,6 @@ def collect_threads(meta: dict[str, Any]) -> tuple[str, ...]:
             if item not in values:
                 values.append(item)
     return tuple(values)
-
 
 def build_reasoning(meta: dict[str, Any], *, threads: tuple[str, ...]) -> str:
     parts: list[str] = []
@@ -119,7 +112,6 @@ def build_reasoning(meta: dict[str, Any], *, threads: tuple[str, ...]) -> str:
     if not parts:
         parts.append("v0: archive frontmatter only; operator promotes manually")
     return "; ".join(parts)
-
 
 def heuristic_score(meta: dict[str, Any], *, threads: tuple[str, ...]) -> int:
     score = 0
@@ -139,7 +131,6 @@ def heuristic_score(meta: dict[str, Any], *, threads: tuple[str, ...]) -> int:
         score += 3
     return score
 
-
 def derive_status(
     *,
     in_daily: bool,
@@ -153,7 +144,6 @@ def derive_status(
             return status
         return "queued"
     return "new"
-
 
 def build_sidecar_payload(
     row: SourceQueueRow,
@@ -179,7 +169,6 @@ def build_sidecar_payload(
         "reasoning": row.reasoning,
         "digest_rank": None,
     }
-
 
 def build_queue_report(
     day: str,
@@ -234,13 +223,11 @@ def build_queue_report(
         )
     return rows, sync
 
-
 def norm_optional_str(value: Any) -> str | None:
     if value is None:
         return None
     text = str(value).strip()
     return text or None
-
 
 def emit_sidecars(day: str, rows: list[SourceQueueRow]) -> list[str]:
     written: list[str] = []
@@ -260,7 +247,6 @@ def emit_sidecars(day: str, rows: list[SourceQueueRow]) -> list[str]:
         written.append(rel_repo_path(target))
     return written
 
-
 def format_digest(day: str, rows: list[SourceQueueRow], *, top_n: int = 5) -> str:
     eligible = [r for r in rows if r.queue_eligible]
     eligible.sort(key=lambda r: (-r.heuristic_score, r.source_stem))
@@ -269,7 +255,7 @@ def format_digest(day: str, rows: list[SourceQueueRow], *, top_n: int = 5) -> st
     lines = [
         f"# Statecraft Intake Digest — {day}",
         "",
-        "WORK only; not Record. Precursor to daily synthesis — not a substitute.",
+        "Precursor to daily synthesis — not a substitute.",
         "",
         "Spec: [statecraft-intake-queue.md](../../docs/statecraft-intake-queue.md)",
         "",
@@ -331,7 +317,6 @@ def format_digest(day: str, rows: list[SourceQueueRow], *, top_n: int = 5) -> st
 
     return "\n".join(lines) + "\n"
 
-
 def format_human(day: str, rows: list[SourceQueueRow], sync: Any) -> str:
     counts = {status: 0 for status in sorted(VALID_STATUSES)}
     for row in rows:
@@ -369,7 +354,6 @@ def format_human(day: str, rows: list[SourceQueueRow], sync: Any) -> str:
         ]
     )
     return "\n".join(lines)
-
 
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -409,7 +393,6 @@ def parse_args() -> argparse.Namespace:
     )
     return ap.parse_args()
 
-
 def resolve_day(args: argparse.Namespace) -> str:
     if args.day:
         return args.day
@@ -417,7 +400,6 @@ def resolve_day(args: argparse.Namespace) -> str:
     if not latest:
         raise SystemExit("no captured archive days found")
     return latest
-
 
 def main() -> int:
     args = parse_args()
@@ -472,7 +454,6 @@ def main() -> int:
                 print(digest.rstrip())
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

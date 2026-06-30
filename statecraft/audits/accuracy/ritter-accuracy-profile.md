@@ -1,6 +1,5 @@
 # Ritter accuracy profile
 
-WORK only; not Record.
 
 ## Summary
 

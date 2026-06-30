@@ -35,7 +35,6 @@ ANCHOR_FN = (
     "source-diesen-matlock-how-nato-expansionism-broke-european-security-2026-04-19.md"
 )
 
-
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:5000]
     out: dict = {}
@@ -60,7 +59,6 @@ def parse_head(path: Path) -> dict:
             out["title"] = hm.group(1).strip()
     return out
 
-
 def pub_date_key(meta: dict, path: Path) -> str:
     pub = meta.get("pub_date") or meta.get("date") or ""
     if pub and len(pub) >= 10:
@@ -70,7 +68,6 @@ def pub_date_key(meta: dict, path: Path) -> str:
         return day
     return day
 
-
 def short_title(meta: dict, path: Path) -> str:
     title = (meta.get("title") or "").strip()
     title = GUEST_PREFIX_RE.sub("", title).strip()
@@ -79,7 +76,6 @@ def short_title(meta: dict, path: Path) -> str:
     if len(title) > 88:
         title = title[:85] + "…"
     return title
-
 
 def load_label_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
@@ -93,7 +89,6 @@ def load_label_map(index_path: Path) -> dict[str, str]:
         if len(m.group(1)) > len(out.get(fn, "")):
             out[fn] = m.group(1)
     return out
-
 
 def load_annotation_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
@@ -111,11 +106,9 @@ def load_annotation_map(index_path: Path) -> dict[str, str]:
             out[fn] = suffix
     return out
 
-
 def default_label(meta: dict, path: Path) -> str:
     pub = pub_date_key(meta, path)
     return f"{pub} | Diesen × Matlock | {short_title(meta, path)}"
-
 
 def row_label(meta: dict, path: Path, labels: dict[str, str], annotations: dict[str, str]) -> str:
     text = labels.get(path.name) or default_label(meta, path)
@@ -125,7 +118,6 @@ def row_label(meta: dict, path: Path, labels: dict[str, str], annotations: dict[
     if ann:
         line += f" {ann}"
     return line
-
 
 def collect_rows() -> list[tuple[str, Path, dict]]:
     rows: list[tuple[str, Path, dict]] = []
@@ -138,7 +130,6 @@ def collect_rows() -> list[tuple[str, Path, dict]]:
         rows.append((pub, path, meta))
     rows.sort(key=lambda t: (t[0], t[1].name))
     return rows
-
 
 def render_curated_overlays() -> list[str]:
     return [
@@ -170,7 +161,6 @@ def render_curated_overlays() -> list[str]:
         "",
     ]
 
-
 def render_index(
     rows: list[tuple[str, Path, dict]],
     labels: dict[str, str],
@@ -186,8 +176,7 @@ def render_index(
     lines = [
         "# Matlock source index",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         "Purpose: canonical statecraft-side source index for **Jack Matlock** while raw-text authority stays in the Statecraft Archive.",
         "",
         "**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index matlock` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)",
@@ -222,7 +211,6 @@ def render_index(
     lines.extend(render_curated_overlays())
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="Print row count only")
@@ -246,7 +234,6 @@ def main() -> int:
     OUT.write_text(body if body.endswith("\n") else body + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {OUT} ({len(rows)} rows, {len(labels)} labels preserved)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

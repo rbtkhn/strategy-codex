@@ -1,6 +1,5 @@
 # arc-barnes-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [barnes-arc.md](barnes-arc.md)
 

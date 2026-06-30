@@ -1,6 +1,6 @@
 # Iran Authority Carrier Objects
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This bench tracks Iranian statecraft carriers that are not primary current state carriers or ordinary speaker objects. These are ministers, negotiators, clerical signals, security figures, institutional voices, or offices whose statements carry Iranian state intent across raw-inputs.
 

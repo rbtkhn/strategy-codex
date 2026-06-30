@@ -1,6 +1,5 @@
 # CIV-STATE Era Hardening Checklist
 
-WORK only; not Record.
 
 Use this checklist when hardening or reviewing CIV-STATE bibliography structure, volume chronology, or era-facing retrieval doctrine.
 

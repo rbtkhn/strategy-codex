@@ -33,6 +33,7 @@ from freeman_prediction_pilot import (  # noqa: E402
 from materialize_freeman_predictions import (  # noqa: E402
     EVENT_LABEL,
     EVENT_SLUG,
+    _prediction_status,
     read_capture_meta,
     youtube_id_from_meta,
 )
@@ -56,7 +57,6 @@ HOST_ONLY = re.compile(
 )
 AUTO_FILE_RE = re.compile(r"^auto_file:\s*true\s*$", re.M)
 
-
 @dataclass
 class ScoredCandidate:
     event_id: str
@@ -71,14 +71,12 @@ class ScoredCandidate:
     youtube_id: str | None
     canonical_rank: tuple[int, str]
 
-
 def load_auto_file_config(path: Path | None = None) -> dict[str, Any]:
     target = path or AUTO_FILE_CONFIG
     data = json.loads(target.read_text(encoding="utf-8"))
     if not isinstance(data, dict):
         raise ValueError("auto-file config must be a JSON object")
     return data
-
 
 def iter_freeman_captures() -> list[tuple[str, Path, dict[str, Any]]]:
     rows: list[tuple[str, Path, dict[str, Any]]] = []
@@ -92,14 +90,12 @@ def iter_freeman_captures() -> list[tuple[str, Path, dict[str, Any]]]:
     rows.sort(key=lambda t: (t[0], t[1].name))
     return rows
 
-
 def normalize_register_notes(raw: Any) -> list[str]:
     if not raw:
         return []
     if isinstance(raw, str):
         return [raw.replace("\\", "/")]
     return [str(rel).replace("\\", "/") for rel in raw]
-
 
 def build_register_index(
     thesis: dict[str, dict[str, Any]],
@@ -118,7 +114,6 @@ def build_register_index(
         out[event_id] = paths
     return out
 
-
 def existing_note_keys() -> set[tuple[str, str]]:
     keys: set[tuple[str, str]] = set()
     for note in collect_prediction_notes():
@@ -126,7 +121,6 @@ def existing_note_keys() -> set[tuple[str, str]]:
             continue
         keys.add((note.source.replace("\\", "/"), note.event_id))
     return keys
-
 
 def existing_note_dates() -> dict[tuple[str, str], str]:
     """event_id, pub_date -> source of existing note (first wins)."""
@@ -141,7 +135,6 @@ def existing_note_dates() -> dict[tuple[str, str], str]:
         out.setdefault(key, note.source.replace("\\", "/"))
     return out
 
-
 def review_speech_act(body: str, quote: str) -> str | None:
     for hay in (quote, body[:6000]):
         m = REST_RE.search(hay)
@@ -155,7 +148,6 @@ def review_speech_act(body: str, quote: str) -> str | None:
         return "restated"
     return None
 
-
 def split_hooks(
     hooks: list[str],
     weak_hooks: list[str] | None,
@@ -163,7 +155,6 @@ def split_hooks(
     weak = {h.casefold() for h in (weak_hooks or [])}
     strong = [h for h in hooks if h.casefold() not in weak]
     return strong, weak
-
 
 def extract_hook_window(
     hay_body: str,
@@ -222,7 +213,6 @@ def extract_hook_window(
             start = idx + 1
     return best, best_score, matched
 
-
 def best_hook_sentence(
     body: str,
     hooks: list[str],
@@ -268,14 +258,11 @@ def best_hook_sentence(
         best_score = min(best_score, 0.45)
     return best, best_score, matched
 
-
 def body_without_frontmatter(text: str) -> str:
     return FRONTMATTER_RE.sub("", text.lstrip("\ufeff"), count=1)
 
-
 def match_text(haystack: str, pattern: str) -> bool:
     return pattern.casefold() in haystack.casefold()
-
 
 def canonical_rank(*, source: str, meta: dict[str, Any]) -> tuple[int, str]:
     s = source.replace("\\", "/").casefold()
@@ -289,7 +276,6 @@ def canonical_rank(*, source: str, meta: dict[str, Any]) -> tuple[int, str]:
     if "judging-freedom" in s:
         rank -= 3
     return (rank, s)
-
 
 def derive_speech_act_for_note(
     *,
@@ -314,7 +300,6 @@ def derive_speech_act_for_note(
     if last.stance != stance:
         return "iterated"
     return "restated"
-
 
 def score_capture_for_event(
     *,
@@ -507,17 +492,14 @@ def score_capture_for_event(
         canonical_rank=rank,
     )
 
-
 def group_key(candidate: ScoredCandidate) -> tuple:
     return (candidate.event_id, candidate.pub_date)
-
 
 def pick_group_winner(candidates: list[ScoredCandidate]) -> ScoredCandidate:
     return sorted(
         candidates,
         key=lambda c: (-c.score, c.canonical_rank[0], c.canonical_rank[1]),
     )[0]
-
 
 def collect_auto_file_candidates(
     *,
@@ -571,7 +553,6 @@ def collect_auto_file_candidates(
     winners.sort(key=lambda c: (c.event_id, c.pub_date, c.source))
     return winners
 
-
 def render_auto_file_note(candidate: ScoredCandidate, alias_sources: list[str] | None = None) -> str:
     label = EVENT_LABEL.get(candidate.event_id, candidate.event_id)
     parts = [
@@ -586,9 +567,8 @@ def render_auto_file_note(candidate: ScoredCandidate, alias_sources: list[str] |
         f"speech_act: {candidate.speech_act}",
         "auto_file: true",
         f"auto_file_score: {candidate.score}",
+        f"status: {_prediction_status(candidate.event_id)}",
         "---",
-        "",
-        "WORK only; not Record.",
         "",
         f"# Freeman — {label} ({candidate.pub_date})",
         "",
@@ -611,13 +591,11 @@ def render_auto_file_note(candidate: ScoredCandidate, alias_sources: list[str] |
         parts.append("")
     return "\n".join(parts).rstrip() + "\n"
 
-
 def note_path_for(candidate: ScoredCandidate) -> Path:
     slug = EVENT_SLUG.get(candidate.event_id)
     if not slug:
         raise ValueError(f"unknown event_id: {candidate.event_id}")
     return PREDICTIONS_DIR / f"{slug}-freeman-{candidate.pub_date}.md"
-
 
 def iter_on_disk_auto_file_notes() -> list[Any]:
     notes = []
@@ -628,7 +606,6 @@ def iter_on_disk_auto_file_notes() -> list[Any]:
         if AUTO_FILE_RE.search(text):
             notes.append(note)
     return notes
-
 
 def prune_stale_auto_file_notes(
     *,
@@ -662,7 +639,6 @@ def prune_stale_auto_file_notes(
             print(f"[ok] pruned {rel}")
 
     return pruned, winners
-
 
 def build_report_payload(candidates: list[ScoredCandidate]) -> dict[str, Any]:
     by_event: dict[str, int] = {}

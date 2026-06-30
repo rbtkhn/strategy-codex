@@ -1,6 +1,6 @@
 # Jack Matlock
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder is the compact speaker-object entry surface for Jack Matlock.
 

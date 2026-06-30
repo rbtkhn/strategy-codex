@@ -60,14 +60,11 @@ REQUIRED_EXCERPT_TOP = {"excerpt_collection_id", "civilization", "era_focus", "e
 REQUIRED_EXCERPT_FIELDS = {"excerpt_id", "source_id", "excerpt_role", "witness_basis", "location", "text", "notes"}
 REQUIRED_SIDECAR_FIELDS = {"source_id", "stored_representation", "text_path", "witness_locator", "rights_class", "validation_status"}
 
-
 def read_json(path: Path) -> object:
     return json.loads(path.read_text(encoding="utf-8"))
 
-
 def add_issue(issues: list[dict[str, str]], path: Path, level: str, message: str) -> None:
     issues.append({"path": str(path.relative_to(REPO_ROOT)), "level": level, "message": message})
-
 
 def validate() -> list[dict[str, str]]:
     issues: list[dict[str, str]] = []
@@ -182,7 +179,6 @@ def validate() -> list[dict[str, str]]:
 
     return issues
 
-
 def format_text(issues: list[dict[str, str]]) -> str:
     if not issues:
         return "CIV-STATE primary-text layer valid."
@@ -192,7 +188,6 @@ def format_text(issues: list[dict[str, str]]) -> str:
         lines.append(f"[{marker}] {issue['path']}: {issue['message']}")
     lines.append(f"\n{len(issues)} issue(s) found.")
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate CIV-STATE primary-text records and sidecar state.")
@@ -205,7 +200,6 @@ def main() -> int:
     else:
         print(format_text(issues))
     return 1 if any(issue["level"] == "error" for issue in issues) else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # Wilkerson January 2026 note
 
-WORK only; not Record.
 
 Purpose: preserve what January 2026 currently means on the Wilkerson shelf as a thin two-anchor opening month with one Judging Freedom reinforcement.
 

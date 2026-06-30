@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Cyrus Janssen Index (compat redirect)
 

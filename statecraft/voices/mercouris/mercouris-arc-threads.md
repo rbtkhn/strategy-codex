@@ -1,6 +1,5 @@
 # Mercouris thread atlas
 
-WORK only; not Record.
 
 Purpose: preserve the recurring arc-threads inside the Mercouris native stream so `arc-mercouris-continuity` is routeable as a bounded helix, not merely as a pile of daily pages.
 

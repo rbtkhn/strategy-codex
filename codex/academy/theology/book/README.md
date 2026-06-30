@@ -1,6 +1,6 @@
 # Theology Book Pointers
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 The academy v1 shelf copies the readable constituent essays and key notes. It does not duplicate the large compiled manuscripts, because those files mostly collect or typeset material already represented in [essays/](../essays/) and [notes/](../notes/).
 

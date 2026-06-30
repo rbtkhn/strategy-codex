@@ -20,7 +20,6 @@ from prediction_lib import STANCES  # noqa: E402
 
 AUDIT_STATUSES = frozenset({"pending", "approved", "rejected", "defer"})
 
-
 def validate_manifest(payload: dict) -> list[str]:
     issues: list[str] = []
     if "_meta" not in payload:
@@ -66,7 +65,6 @@ def validate_manifest(payload: dict) -> list[str]:
             issues.append(f"event {event_id}: pub_date not non-decreasing")
     return issues
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--manifest", type=Path, default=DEFAULT_PATH)
@@ -83,7 +81,6 @@ def main() -> int:
         return 1
     print("[ok] freeman-prediction-crawl manifest valid")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # Statecraft Recursive Learning Journal
 
-WORK only; not Record.
 
 Purpose: keep a durable log of moments when `statecraft/` does not merely classify an object, but **learns a reusable drafting, routing, or architectural law from one object and then reapplies it elsewhere**.
 

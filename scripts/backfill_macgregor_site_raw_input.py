@@ -3,7 +3,6 @@
 
 Thin wrapper around ``backfill_author_page_raw_input.py`` for the Macgregor lane.
 Treat the archive as a discovery index, not a completeness mandate.
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -24,7 +23,6 @@ DEFAULT_DOMAIN = "coloneldouglasmacgregor.com"
 DEFAULT_PATH_SHAPE = "any-article"
 DEFAULT_PUBLICATION = "coloneldouglasmacgregor.com"
 DEFAULT_THREAD = "macgregor"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -58,7 +56,6 @@ def main() -> int:
         limit=max(1, min(args.limit, 50)),
         exclude_prefixes=["tag", "category", "author", "page"],
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

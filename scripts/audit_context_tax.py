@@ -36,7 +36,6 @@ except ImportError:
 
 USERS_DIR = REPO_ROOT / "platform/users"
 
-
 def _count_block(label: str, text: str) -> dict[str, object]:
     lines = text.splitlines()
     return {
@@ -44,7 +43,6 @@ def _count_block(label: str, text: str) -> dict[str, object]:
         "lines": len(lines),
         "chars": len(text),
     }
-
 
 def build_context_tax_report(*, user_id: str) -> dict[str, object]:
     user_dir = profile_dir(user_id)
@@ -98,7 +96,6 @@ def build_context_tax_report(*, user_id: str) -> dict[str, object]:
         "total_lines": total_lines,
     }
 
-
 def main() -> int:
     p = argparse.ArgumentParser(description="Audit approximate context tax for operator warmup surfaces.")
     p.add_argument("-u", "--user", default=DEFAULT_USER_ID, help=f"User id (default: {DEFAULT_USER_ID})")
@@ -113,7 +110,6 @@ def main() -> int:
         for b in report["blocks"]:
             print(f"  - {b['label']}: lines={b['lines']} chars={b['chars']}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

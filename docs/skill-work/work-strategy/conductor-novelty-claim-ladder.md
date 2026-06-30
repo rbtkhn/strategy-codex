@@ -1,6 +1,5 @@
 # Conductor novelty claim ladder
 
-WORK only; not Record.
 
 **Purpose:** Calibrate what Strategy-codex can honestly claim about the novelty and value of the **conductor innovation** plus the **four-movement arc**.
 

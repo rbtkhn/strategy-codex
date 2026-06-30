@@ -679,6 +679,24 @@ def test_diesen_guest_index_includes_cross_host(tmp_path: Path) -> None:
     assert shelf_utils.capture_matches_shelf("diesen", path, meta, "")
 
 
+def test_mercouris_guest_index_includes_davis_thread_guest(tmp_path: Path) -> None:
+    import shelf_index_utils as shelf_utils  # noqa: E402
+
+    path = (
+        tmp_path
+        / "2025-04-10"
+        / "source-daniel-davis-russian-realism-european-dreams-ukraine-defeat-2025-04-10.md"
+    )
+    meta = {
+        "channel_slug": "daniel-davis",
+        "thread": "davis",
+        "host": "Daniel Davis",
+        "guest": "Alexander Mercouris",
+    }
+    assert shelf_utils.is_mercouris_guest_index_capture(meta, path)
+    assert shelf_utils.capture_matches_shelf("mercouris", path, meta, "")
+
+
 def test_jiang_index_rows_have_youtube_url(tmp_path: Path, monkeypatch) -> None:
     import build_jiang_index as jiang_idx  # noqa: E402
     import shelf_index_utils as shelf_utils  # noqa: E402

@@ -17,7 +17,6 @@ import build_prediction_metrics  # noqa: E402
 import build_prediction_registry  # noqa: E402
 import build_prediction_timeline  # noqa: E402
 
-
 def main() -> int:
     rc = build_prediction_registry.check_artifact(
         output_path=build_prediction_registry.DEFAULT_OUTPUT
@@ -38,7 +37,6 @@ def main() -> int:
     if rc == 0:
         print("[ok] generated prediction artifacts are fresh")
     return rc
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

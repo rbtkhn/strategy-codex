@@ -20,4 +20,3 @@ TBD.
 - **Fit / mismatch / falsifier:** TBD
 - **Open analogy risk:** TBD
 
-WORK only; not Record.

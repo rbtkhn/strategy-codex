@@ -64,7 +64,6 @@ _APPROVAL_LIKE_PATTERNS: tuple[re.Pattern[str], ...] = (
 _APPROVAL_LIKE_TIERS = {"low", "medium", "quick_merge_eligible"}
 _MANUAL_OR_HIGH_TIERS = {"high", "manual_escalate", "advisory_flagged", "reject", "blocked"}
 
-
 def _narrative_text(payload: dict[str, Any]) -> str:
     """Collect free-text fields that may carry the handback reasoning narrative."""
     parts = []
@@ -74,14 +73,11 @@ def _narrative_text(payload: dict[str, Any]) -> str:
             parts.append(value)
     return "\n\n".join(parts)
 
-
 def _narrative_suggests_high_concern(content: str) -> bool:
     return any(p.search(content) for p in _HIGH_CONCERN_PATTERNS)
 
-
 def _narrative_suggests_approval(content: str) -> bool:
     return any(p.search(content) for p in _APPROVAL_LIKE_PATTERNS)
-
 
 def validate_payload(payload: dict[str, Any]) -> list[str]:
     errors: list[str] = []
@@ -115,7 +111,6 @@ def validate_payload(payload: dict[str, Any]) -> list[str]:
 
     return errors
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Validate handback analysis vs constitution meta.")
     ap.add_argument("--file", "-f", type=Path, default=None, help="JSON file (default: stdin)")
@@ -140,7 +135,6 @@ def main() -> int:
             print(line, file=sys.stderr)
         return 1
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

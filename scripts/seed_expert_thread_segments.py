@@ -35,17 +35,14 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 NOTEBOOK_DIR = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 THREAD_MARKER_START = "<!-- strategy-expert-thread:start -->"
 
-
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
-
 
 def display_path(path: Path) -> str:
     try:
         return path.relative_to(REPO_ROOT).as_posix()
     except ValueError:
         return str(path)
-
 
 def build_stub(seg: str) -> str:
     return "\n".join(
@@ -58,7 +55,6 @@ def build_stub(seg: str) -> str:
             "",
         ]
     )
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -117,7 +113,6 @@ def main() -> int:
     thread_path.write_text(updated, encoding="utf-8")
     print(f"Seeded segments in {display_path(thread_path)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

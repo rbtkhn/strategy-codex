@@ -1,6 +1,5 @@
 # PH-CIV Era Overlay Options
 
-WORK only; not Record.
 
 This note preserves possible ways to overlay the CIV-STATE era structure onto `ph-civ` in the future.
 

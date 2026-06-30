@@ -26,18 +26,14 @@ TYPE_TO_MODE: dict[str, str] = {
     "approval_pattern": "approval_pattern",
 }
 
-
 def _ts_compact() -> str:
     return datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-
 
 def _ts_iso_z() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-
 def _rel_posix(p: Path) -> str:
     return p.resolve().relative_to(REPO_ROOT.resolve()).as_posix()
-
 
 def infer_import_mode(payload: dict[str, Any]) -> str:
     t = str(payload.get("type", "")).lower()
@@ -47,11 +43,9 @@ def infer_import_mode(payload: dict[str, Any]) -> str:
         return "other"
     return "observation"
 
-
 def normalize_source(cli: str) -> str:
     s = (cli or "other").strip().lower()
     return s if s in SOURCE_ENUM else "other"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -147,7 +141,6 @@ def main() -> int:
     print(in_rel_inbox)
     print(rel_receipt)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

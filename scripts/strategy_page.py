@@ -17,7 +17,6 @@ Usage::
 `docs/skill-work/work-strategy/strategy-notebook/refined-page-template.md` and
 `python3 scripts/strategy/refined_page_word_budget.py check|condense`.
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -58,7 +57,6 @@ PAGE_MARKER_END = "<!-- strategy-page:end -->"
 
 _RE_MONTH_H2 = re.compile(r"^##\s+(\d{4}-\d{2})\s*$")
 
-
 # ---------------------------------------------------------------------------
 # Inbox material extraction
 # ---------------------------------------------------------------------------
@@ -86,7 +84,6 @@ def _gather_inbox_material(
                         relevant.append(line.rstrip())
                         break
     return relevant
-
 
 # ---------------------------------------------------------------------------
 # Page block construction
@@ -123,10 +120,8 @@ def build_page_block(
     lines.append(PAGE_MARKER_END)
     return "\n".join(lines)
 
-
 def _slugify(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
-
 
 def page_path_for_stream(
     notebook_root: Path,
@@ -145,7 +140,6 @@ def page_path_for_stream(
         if suffix and suffix not in {stream_slug, page_date, f"{stream_slug}-{page_date}"}:
             stem = f"{stem}-{suffix}"
     return notebook_root / year / stream_slug / f"{stem}.md"
-
 
 def build_strategy_page_document(
     *,
@@ -205,7 +199,6 @@ def build_strategy_page_document(
     )
     return "\n".join(lines)
 
-
 # ---------------------------------------------------------------------------
 # Thread file insertion
 # ---------------------------------------------------------------------------
@@ -255,7 +248,6 @@ def insert_page(thread_path: Path, month: str, page_block: str, dry_run: bool) -
         thread_path.write_text("\n".join(new_lines) + "\n", encoding="utf-8")
     return f"{label} page '{month_heading}' in {thread_path}"
 
-
 def write_standalone_page(path: Path, content: str, dry_run: bool) -> str:
     label = "would write" if dry_run else "wrote"
     if not dry_run:
@@ -264,7 +256,6 @@ def write_standalone_page(path: Path, content: str, dry_run: bool) -> str:
             return f"skip (strategy-page already exists): {path}"
         path.write_text(content, encoding="utf-8")
     return f"{label} standalone strategy-page: {path}"
-
 
 # ---------------------------------------------------------------------------
 # CLI
@@ -398,7 +389,6 @@ def main() -> int:
         print(f"receipt: {log.relative_to(REPO_ROOT)}", flush=True)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

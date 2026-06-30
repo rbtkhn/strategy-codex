@@ -25,7 +25,6 @@ UPSTREAM_DIR = REPO_ROOT / "research" / "repos" / "civilization_memory"
 CACHE_DIR = UPSTREAM_DIR / ".cache"
 INDEX_PATH = CACHE_DIR / "upstream_index.json"
 
-
 def query_upstream_civmem(question: str, *, limit: int = 3) -> list[dict[str, object]]:
     """
     Load upstream index if present; return ranked match rows with path + snippet.
@@ -37,7 +36,6 @@ def query_upstream_civmem(question: str, *, limit: int = 3) -> list[dict[str, ob
     except (json.JSONDecodeError, OSError):
         return []
     return query_index_entries(index, question, limit=limit)
-
 
 def main() -> int:
     if len(sys.argv) < 2:
@@ -74,7 +72,6 @@ def main() -> int:
         return 0
     print("Usage: build | query \"...\" [--limit N]", file=sys.stderr)
     return 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

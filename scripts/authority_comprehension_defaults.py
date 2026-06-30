@@ -26,7 +26,6 @@ _RATIONALE: dict[str, str] = {
     "ephemeral_only": "Operational/ephemeral outputs: no Reflection Gate by default.",
 }
 
-
 def recommend_for_authority_class(authority_class: str) -> dict[str, str]:
     """
     Return recommended impact_tier, envelope_class, reflection_gate, rationale.
@@ -48,6 +47,5 @@ def recommend_for_authority_class(authority_class: str) -> dict[str, str]:
         "recommended_reflection_gate": gate,
         "rationale": _RATIONALE.get(ac, ""),
     }
-
 
 __all__ = ["recommend_for_authority_class", "_AUTHORITY_CLASS_TO_STAGING"]

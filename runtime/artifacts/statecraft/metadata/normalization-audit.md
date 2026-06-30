@@ -11,7 +11,7 @@ _Generated audit artifact for read-time host/guest normalization._
 | Rewrite | Count |
 | --- | ---: |
 | `Judge Andrew Napolitano -> Andrew Napolitano` | 99 |
-| `Nima Alkorshid -> Nima Alkhorshid` | 28 |
+| `Nima Alkhorshid -> Nima Alkhorshid` | 28 |
 | `Dialogue Works -> Nima Alkhorshid` | 18 |
 | `Nema -> Nima Alkhorshid` | 15 |
 | `glenn-diesen -> Glenn Diesen` | 8 |
@@ -131,7 +131,7 @@ _Generated audit artifact for read-time host/guest normalization._
 
 ## Host Variant Families
 
-- `Nima Alkhorshid`: `Nima Alkhorshid` (183), `Nima Alkorshid` (28), `Dialogue Works` (18), `Nema` (15), `Nima` (3), `Nima R. Alkhorshid` (3)
+- `Nima Alkhorshid`: `Nima Alkhorshid` (183), `Nima Alkhorshid` (28), `Dialogue Works` (18), `Nema` (15), `Nima` (3), `Nima R. Alkhorshid` (3)
 - `Daniel Davis`: `Daniel Davis` (215), `Daniel Davis / Deep Dive` (6), `daniel-davis` (6), `Lt Col Daniel Davis` (4), `Daniel Davis (host); Col. Jacques Baud (guest)` (1), `Lt. Col. Daniel Davis` (1)
 - `Andrew Napolitano`: `Judge Andrew Napolitano` (99), `Andrew Napolitano` (90), `Judge Andrew Napolitano; Larry Johnson` (1)
 - `Glenn Diesen`: `Glenn Diesen` (162), `glenn-diesen` (8)

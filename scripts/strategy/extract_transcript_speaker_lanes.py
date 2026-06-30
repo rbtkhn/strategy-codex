@@ -20,7 +20,6 @@ SPEAKER_RE = re.compile(
     r"(\*\*(?:Glenn Diesen|Alastair Crooke|Scott Ritter|John Mearsheimer):\*\*)"
 )
 
-
 def _body_after_frontmatter(text: str) -> str:
     if text.startswith("---"):
         try:
@@ -30,13 +29,11 @@ def _body_after_frontmatter(text: str) -> str:
             pass
     return text
 
-
 def _strip_to_title(body: str) -> str:
     if "# " in body:
         i = body.index("# ")
         return body[i:]
     return body
-
 
 def extract_lanes(
     text: str,
@@ -68,7 +65,6 @@ def extract_lanes(
         else:
             out[key] = chunk
     return out
-
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Extract speaker blocks from raw-input transcript.")
@@ -110,7 +106,6 @@ def main() -> None:
         return
     for k in sorted(lanes):
         print(f"### {k}\n\n{lanes[k]}\n")
-
 
 if __name__ == "__main__":
     main()

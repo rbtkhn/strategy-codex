@@ -15,7 +15,6 @@ Usage::
     python3 scripts/strategy_weave.py escalation blockade
     python3 scripts/strategy_weave.py pape ritter --json
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -54,7 +53,6 @@ DEFAULT_NOTEBOOK = (
     REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 )
 
-
 # ---------------------------------------------------------------------------
 # Argument classification
 # ---------------------------------------------------------------------------
@@ -80,7 +78,6 @@ def classify_args(
             keywords.append(a)
 
     return experts, watches, keywords
-
 
 # ---------------------------------------------------------------------------
 # Material gathering
@@ -115,7 +112,6 @@ def _gather_pages(
 
     return pages
 
-
 def _gather_transcript_lines(experts: list[str], notebook_dir: Path) -> dict[str, list[str]]:
     """Read transcript content for named experts."""
     result: dict[str, list[str]] = {}
@@ -125,7 +121,6 @@ def _gather_transcript_lines(experts: list[str], notebook_dir: Path) -> dict[str
         if lines:
             result[eid] = lines
     return result
-
 
 def _gather_raw_input_lane_bullets(
     experts: list[str],
@@ -153,7 +148,6 @@ def _gather_raw_input_lane_bullets(
             out[eid] = b
     return out
 
-
 def _gather_inbox_lines(
     experts: list[str],
     keywords: list[str],
@@ -177,7 +171,6 @@ def _gather_inbox_lines(
                     break
     return relevant
 
-
 def _extract_machine_layer(experts: list[str], notebook_dir: Path) -> dict[str, str]:
     """Read the machine layer extraction from expert thread files."""
     result: dict[str, str] = {}
@@ -197,7 +190,6 @@ def _extract_machine_layer(experts: list[str], notebook_dir: Path) -> dict[str, 
             result[eid] = "\n\n".join(chunks)
     return result
 
-
 # ---------------------------------------------------------------------------
 # Batch-analysis snapshot (moved from strategy_thread.py)
 # ---------------------------------------------------------------------------
@@ -215,7 +207,6 @@ def _refresh_batch_snapshot(inbox_path: Path) -> int:
         encoding="utf-8",
     )
     return len(batch_refs)
-
 
 # ---------------------------------------------------------------------------
 # Analysis output
@@ -293,7 +284,6 @@ def _build_analysis(
         "page_candidate": page_candidate,
     }
 
-
 def _format_markdown(analysis: dict) -> str:
     """Render analysis as readable markdown to stdout."""
     parts: list[str] = []
@@ -351,7 +341,6 @@ def _format_markdown(analysis: dict) -> str:
 
     return "\n".join(parts)
 
-
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
@@ -404,7 +393,6 @@ def main() -> int:
         print(_format_markdown(analysis))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

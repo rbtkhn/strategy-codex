@@ -1,6 +1,5 @@
 # Jiang external interview index
 
-WORK only; not Record.
 
 Purpose: canonical **external-channel** guest interview index for **Jiang Xueqin**.
 

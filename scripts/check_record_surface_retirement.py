@@ -43,17 +43,14 @@ _MUSEUM_PATH = re.compile(
     re.I,
 )
 
-
 def _sanitize_for_scan(text: str) -> str:
     return _MUSEUM_PATH.sub("MUSEUM_PATH", text)
-
 
 def _rel(p: Path) -> str:
     try:
         return p.relative_to(REPO_ROOT).as_posix()
     except ValueError:
         return str(p)
-
 
 def _should_scan(path: Path) -> bool:
     rel = _rel(path)
@@ -64,7 +61,6 @@ def _should_scan(path: Path) -> bool:
     if "/archive/" in rel.replace("\\", "/"):
         return False
     return True
-
 
 def _scan_file(path: Path) -> list[str]:
     if not _should_scan(path):
@@ -88,7 +84,6 @@ def _scan_file(path: Path) -> list[str]:
             hits.append(f"{rel}: cognitive fork as product description")
     return hits
 
-
 def iter_files() -> list[Path]:
     out: list[Path] = []
     for root_name in SCAN_ROOTS:
@@ -103,7 +98,6 @@ def iter_files() -> list[Path]:
         if p.is_file():
             out.append(p)
     return sorted(set(out))
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -120,7 +114,6 @@ def main() -> int:
     msg = f"check_record_surface_retirement: ok ({len(iter_files())} files scanned)"
     print(msg if args.verbose else "check_record_surface_retirement: ok")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

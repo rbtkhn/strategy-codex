@@ -1,6 +1,5 @@
 # Wilkerson January 2025 note
 
-WORK only; not Record.
 
 Purpose: preserve what January 2025 actually establishes for the `Dialogue Works x Wilkerson` lane before the later 2025 densification and the 2026 helix thickening.
 

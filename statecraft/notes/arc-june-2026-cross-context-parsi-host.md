@@ -19,7 +19,6 @@ archive_links:
 
 # Parsi June 2026 cross-context arc
 
-WORK only; not Record.
 
 Purpose: bounded cross-context arc note for the June 2026 Parsi run.
 

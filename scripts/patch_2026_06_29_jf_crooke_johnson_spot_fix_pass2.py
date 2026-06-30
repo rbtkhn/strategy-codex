@@ -10,7 +10,6 @@ PASS2 = (
     "petrochemical, Fujairah, waive, Peskov, Ponzi dupes, tour de force"
 )
 
-
 def patch(path: str, subs: list[tuple[str, str]], base_note: str) -> int:
     p = REPO / path
     body = p.read_text(encoding="utf-8")
@@ -32,7 +31,6 @@ def patch(path: str, subs: list[tuple[str, str]], base_note: str) -> int:
     p.write_text(body, encoding="utf-8")
     print(f"{path}: {n} replacements (pass-2)")
     return n
-
 
 CROOKE = [
     ("oil is about to hit on hit the", "oil is about to hit the"),
@@ -107,14 +105,12 @@ JOHNSON_NOTE = (
     "Hegseth, Crooke ref, marinetraffic/Qeshm/Khasab; Jesuid 2006 Iraq ref left tentative"
 )
 
-
 def main() -> int:
     n = 0
     n += patch(CROOKE_PATH, CROOKE, CROOKE_NOTE)
     n += patch(JOHNSON_PATH, JOHNSON, JOHNSON_NOTE)
     print(f"total: {n} replacements")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

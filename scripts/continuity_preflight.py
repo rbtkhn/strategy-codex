@@ -18,11 +18,9 @@ DEFAULT_RECEIPTS_DIR = REPO_ROOT / "runtime" / "continuity" / "receipts"
 READER_TOOL = "continuity_preflight.py"
 READER_VERSION = "1.0.0"
 
-
 def sha256_file_text(path: Path) -> str:
     raw = path.read_bytes()
     return hashlib.sha256(raw).hexdigest()
-
 
 def _record_path(repo_root: Path, user_id: str, name: str) -> tuple[Path, str]:
     """Resolve canonical root layout with platform/users/<id> compatibility."""
@@ -36,7 +34,6 @@ def _record_path(repo_root: Path, user_id: str, name: str) -> tuple[Path, str]:
             return p, p.relative_to(repo_root).as_posix()
     fallback = candidates[0]
     return fallback, fallback.relative_to(repo_root).as_posix()
-
 
 def build_receipt(
     *,
@@ -68,7 +65,6 @@ def build_receipt(
     }
     return receipt, errors
 
-
 def write_receipt(
     receipt: dict,
     *,
@@ -83,7 +79,6 @@ def write_receipt(
         return str(rel).replace("\\", "/")
     except ValueError:
         return str(out_path.resolve())
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Write continuity hash receipt for handback preflight.")
@@ -133,7 +128,6 @@ def main() -> int:
     rel_written = write_receipt(receipt, out_path=out, repo_root=args.repo_root)
     print(rel_written)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

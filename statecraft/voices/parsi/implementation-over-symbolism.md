@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Implementation over symbolism
 

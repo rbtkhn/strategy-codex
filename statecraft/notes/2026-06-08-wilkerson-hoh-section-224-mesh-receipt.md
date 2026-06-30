@@ -18,7 +18,6 @@ archive_links:
 ---
 # Wilkerson × Hoh — Section 224 Mesh Receipt (June 4 → June 8)
 
-WORK only; not Record.
 
 **Parent:** [Foreign client mesh separation and command review](../america/transactions/foreign-client-mesh-separation-and-command-review.md) · [June 8 daily](../synthesis/day/2026-06-08.md) · **Prior:** [June 4 daily](../synthesis/day/2026-06-04.md) · [Hoh × Henningsen × Pape falsifier](2026-06-04-hoh-henningsen-lebanon-pseudo-agreement-falsifier.md)
 

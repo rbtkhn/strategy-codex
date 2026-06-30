@@ -28,10 +28,8 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USER_ID = "grace-mar"
 
-
 def ledger_path(user_id: str = DEFAULT_USER_ID) -> Path:
     return REPO_ROOT / "platform/users" / user_id / "business-ledger.jsonl"
-
 
 def append_transaction(
     user_id: str = DEFAULT_USER_ID,
@@ -81,7 +79,6 @@ def append_transaction(
 
     return row
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Append a business transaction to the ledger."
@@ -127,7 +124,6 @@ def main() -> int:
         print(f"{sign}${row['amount_usd']:.2f}  {row['category']}  {row['description']}  [{row['venture']}]")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

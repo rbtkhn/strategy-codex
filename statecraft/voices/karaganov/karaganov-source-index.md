@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Karaganov Source Index (compat redirect)
 

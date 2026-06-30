@@ -1,6 +1,5 @@
 # CIV-EMP Source Retrieval Matrix
 
-WORK only; not Record.
 
 ## Purpose
 

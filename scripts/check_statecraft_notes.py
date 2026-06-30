@@ -87,7 +87,6 @@ from notes_registry_lib import (  # noqa: E402
     apply_dates,
 )
 
-
 @dataclass
 class NoteMeta:
     rel: str
@@ -105,18 +104,15 @@ class NoteMeta:
     created_at: str | None = None
     updated_at: str | None = None
 
-
 def _infer_type_from_filename(stem: str) -> str | None:
     for prefix, note_type in PREFIX_TYPE_MAP:
         if stem.startswith(prefix):
             return note_type
     return None
 
-
 def _parse_yaml_block(text: str, *, feature: str) -> dict[str, Any]:
     data = safe_load_text(text, feature=feature)
     return data if isinstance(data, dict) else {}
-
 
 def _notes_relative(path: Path) -> Path | None:
     try:
@@ -131,7 +127,6 @@ def _notes_relative(path: Path) -> Path | None:
             return None
         return Path(*tail)
 
-
 def _repo_relative(path: Path) -> str:
     try:
         return path.relative_to(REPO_ROOT).as_posix()
@@ -141,7 +136,6 @@ def _repo_relative(path: Path) -> str:
             idx = parts.index("statecraft")
             return "/".join(parts[idx:])
         return path.as_posix().replace("\\", "/")
-
 
 def parse_note_metadata(path: Path, text: str | None = None) -> NoteMeta:
     rel = _repo_relative(path)
@@ -193,7 +187,6 @@ def parse_note_metadata(path: Path, text: str | None = None) -> NoteMeta:
     apply_dates(meta, merged)
     return meta
 
-
 def classify_tier(path: Path) -> str:
     rel = _repo_relative(path)
     if rel in EXEMPT_REL:
@@ -216,7 +209,6 @@ def classify_tier(path: Path) -> str:
         return "skip"
     return "skip"
 
-
 def collect_note_files(
     *,
     tier_a_only: bool = False,
@@ -238,7 +230,6 @@ def collect_note_files(
     if changed is None:
         return paths
     return [p for p in paths if p.relative_to(REPO_ROOT).as_posix() in changed]
-
 
 def _git_changed_paths() -> set[str] | None:
     try:
@@ -265,10 +256,8 @@ def _git_changed_paths() -> set[str] | None:
         names.update(line.strip().replace("\\", "/") for line in proc.stdout.splitlines() if line.strip())
     return names
 
-
 def build_inbound_note_links(paths: list[Path]) -> dict[str, int]:
     return _build_inbound_note_links(paths, classify_tier=classify_tier)
-
 
 def validate_note(meta: NoteMeta, *, text: str, inbound_count: int = 0) -> list[str]:
     if meta.is_stub or meta.tier == "index":
@@ -295,7 +284,13 @@ def validate_note(meta: NoteMeta, *, text: str, inbound_count: int = 0) -> list[
         note_type = meta.note_type or str(data.get("note_type") or "").strip()
         if note_type != "prediction":
             issues.append(f"{rel}: prediction lane requires note_type prediction")
-        issues.extend(validate_prediction_fields(data, rel))
+        try:
+            from prediction_lib import load_event_registry
+
+            events = load_event_registry()
+        except (FileNotFoundError, ValueError):
+            events = None
+        issues.extend(validate_prediction_fields(data, rel, events=events))
         return issues
 
     if meta.tier != "A":
@@ -350,7 +345,6 @@ def validate_note(meta: NoteMeta, *, text: str, inbound_count: int = 0) -> list[
 
     return issues
 
-
 def scan_notes(
     *,
     tier_a_only: bool = False,
@@ -385,7 +379,6 @@ def scan_notes(
                 issues.append(f"{rel}: orphan shelf-native note (no in/out links)")
 
     return issues, scanned
-
 
 def run_check(
     *,
@@ -424,7 +417,6 @@ def run_check(
     print(f"check_statecraft_notes: ok ({scanned} note(s){suffix})")
     return 0
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--strict", action="store_true", help="Exit 1 on violations")
@@ -447,7 +439,6 @@ def main() -> int:
         changed_only=args.changed_only,
         verify=args.verify,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

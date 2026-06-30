@@ -1,5 +1,4 @@
 ﻿# China Primary Sources - Medieval
-WORK only; not Record.
 This file contains the Medieval primary-source shelf for the China CIV-STATE volume.
 ## Primary Sources
 ### Medieval

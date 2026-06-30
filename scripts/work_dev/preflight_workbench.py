@@ -43,7 +43,6 @@ FIXTURE_REL = (
 GENERATOR_SCRIPT = "scripts/work_strategy/generate_strategy_notebook_visualizer_fixture.py"
 SMOKE_SCRIPT = "scripts/work_dev/smoke_strategy_visualizer.py"
 
-
 def check_visualizer_smoke(*, skip: bool) -> tuple[str, str]:
     """Run static HTML smoke. Returns (pass|skip|fail, tail for diagnostics)."""
     if skip:
@@ -62,7 +61,6 @@ def check_visualizer_smoke(*, skip: bool) -> tuple[str, str]:
         return "pass", tail[:2000] if tail else ""
     return "fail", tail[:4000]
 
-
 def _load_validate_receipt():
     vpath = REPO_ROOT / "scripts" / "work_dev" / "validate_workbench_receipt.py"
     spec = importlib.util.spec_from_file_location("validate_workbench_receipt", vpath)
@@ -71,7 +69,6 @@ def _load_validate_receipt():
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     return mod.validate_receipt
-
 
 def check_docs() -> tuple[str, list[str]]:
     """Return (pass|fail, missing paths)."""
@@ -84,7 +81,6 @@ def check_docs() -> tuple[str, list[str]]:
         return "fail", missing
     return "pass", []
 
-
 def check_visualizer_files() -> tuple[str, list[str]]:
     missing: list[str] = []
     for rel in VISUALIZER_REQUIRED:
@@ -94,7 +90,6 @@ def check_visualizer_files() -> tuple[str, list[str]]:
     if missing:
         return "fail", missing
     return "pass", []
-
 
 def check_fixture_schema(data: Any) -> tuple[str, list[str]]:
     """Top-level + nodes/edges presence and authority boundaries."""
@@ -136,7 +131,6 @@ def check_fixture_schema(data: Any) -> tuple[str, list[str]]:
         return "fail", errors
     return "pass", []
 
-
 def check_fixture_nodes(data: Any) -> tuple[str, list[str]]:
     """Every node: id, label, kind, path, description, authority work-only."""
     errors: list[str] = []
@@ -157,7 +151,6 @@ def check_fixture_nodes(data: Any) -> tuple[str, list[str]]:
     if errors:
         return "fail", errors
     return "pass", []
-
 
 def check_fixture_edges(data: Any) -> tuple[str, list[str], list[str]]:
     """Returns (status pass|warn, edge_errors, edge_warnings for missing id refs)."""
@@ -193,7 +186,6 @@ def check_fixture_edges(data: Any) -> tuple[str, list[str], list[str]]:
         return "warn", [], warnings
     return "pass", [], []
 
-
 def check_example_receipts(validate_receipt) -> tuple[str, list[str]]:
     """Load docs/.../workbench/examples/*.json; validate workbench receipts."""
     exdir = REPO_ROOT / EXAMPLES_GLOB
@@ -219,7 +211,6 @@ def check_example_receipts(validate_receipt) -> tuple[str, list[str]]:
         return "fail", errors
     return "pass", []
 
-
 def check_freshness(*, skip: bool) -> tuple[str, int | None, str]:
     """Return (status pass|skip|fail, exit code or None, stderr/stdout tail)."""
     if skip:
@@ -237,7 +228,6 @@ def check_freshness(*, skip: bool) -> tuple[str, int | None, str]:
     if proc.returncode == 0:
         return "pass", 0, tail.strip()[:2000]
     return "fail", proc.returncode, tail.strip()[:4000]
-
 
 def run_preflight(
     *, strict: bool, skip_freshness: bool, skip_smoke: bool, as_json: bool
@@ -395,7 +385,6 @@ def run_preflight(
 
     return 0 if not has_fail else 1
 
-
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument(
@@ -426,7 +415,6 @@ def main() -> int:
         skip_smoke=args.skip_smoke,
         as_json=args.as_json,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

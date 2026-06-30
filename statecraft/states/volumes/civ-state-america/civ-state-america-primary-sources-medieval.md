@@ -1,6 +1,5 @@
 # America Primary Sources - Medieval (50 total)
 
-WORK only; not Record.
 
 This file contains the Medieval (50 total) primary-source shelf for the America CIV-STATE volume.
 

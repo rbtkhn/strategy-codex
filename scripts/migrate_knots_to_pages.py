@@ -9,7 +9,6 @@ Usage::
     python3 scripts/migrate_knots_to_pages.py --phase folder     # folder restructure only
     python3 scripts/migrate_knots_to_pages.py --phase pages      # knots-to-pages only
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -46,7 +45,6 @@ _RE_THREAD_SLUG = re.compile(r"thread:([a-z0-9-]+)", re.IGNORECASE)
 _RE_MONTH = re.compile(r"^##\s+(\d{4}-\d{2})\s*$")
 _RE_H3 = re.compile(r"^###\s+(.+)$")
 
-
 def _split_markdown_sections(text: str) -> tuple[str, list[tuple[str, str]]]:
     """Return (preamble before first ###, [(heading, body), ...])."""
     lines = text.splitlines()
@@ -74,10 +72,8 @@ def _split_markdown_sections(text: str) -> tuple[str, list[tuple[str, str]]]:
         sections.append((title, "\n".join(body_lines).strip()))
     return pre, sections
 
-
 def _norm_heading(h: str) -> str:
     return h.strip().lower()
-
 
 def _prose_bucket(kn: str) -> str | None:
     """Map any spine heading variant to stable bucket keys (signal/judgment/open_verify/refs)."""
@@ -90,7 +86,6 @@ def _prose_bucket(kn: str) -> str | None:
     if kn in ("links", "references"):
         return "references"
     return None
-
 
 def _canonicalize_knot_body(raw: str) -> str:
     """Reorder knot markdown into prose-first + Appendix (transfigure)."""
@@ -145,14 +140,12 @@ def _canonicalize_knot_body(raw: str) -> str:
         out.append(tech)
     return "\n".join(out).strip() if out else raw.strip()
 
-
 def _page_id_in_thread(text: str, page_id: str) -> bool:
     needle = f'id="{page_id}"'
     return needle in text
 
 PAGE_MARKER_START = '<!-- strategy-page:start id="{id}" date="{date}" watch="{watch}" -->'
 PAGE_MARKER_END = "<!-- strategy-page:end -->"
-
 
 # ---------------------------------------------------------------------------
 # Phase 1 — folder restructure
@@ -165,13 +158,11 @@ _FILE_SUFFIXES = {
     "-mind": "mind.md",
 }
 
-
 def _display_path(p: Path) -> str:
     try:
         return str(p.relative_to(REPO_ROOT))
     except ValueError:
         return str(p)
-
 
 def phase_folder(dry_run: bool) -> list[str]:
     """Move flat expert files into ``experts/<id>/`` directories."""
@@ -196,7 +187,6 @@ def phase_folder(dry_run: bool) -> list[str]:
 
     return actions
 
-
 # ---------------------------------------------------------------------------
 # Phase 2 — knots to pages
 # ---------------------------------------------------------------------------
@@ -207,13 +197,11 @@ def _load_knot_index(path: Path) -> list[dict]:
     data = yaml.safe_load(path.read_text(encoding="utf-8"))
     return data.get("knots", []) if data else []
 
-
 def _load_connections(path: Path) -> list[dict]:
     if not path.is_file():
         return []
     data = yaml.safe_load(path.read_text(encoding="utf-8"))
     return data.get("connections", []) if data else []
-
 
 def _watches_for_knot(knot_path_str: str, connections: list[dict]) -> list[str]:
     """Extract shared-watch tags from knot-connections.yaml warrant lists."""
@@ -226,7 +214,6 @@ def _watches_for_knot(knot_path_str: str, connections: list[dict]) -> list[str]:
                     if tag not in watches:
                         watches.append(tag)
     return watches
-
 
 def _experts_from_knot(
     knot: dict, knot_content: str, knot_label: str, knot_basename: str
@@ -255,7 +242,6 @@ def _experts_from_knot(
         if slug in _EXPERT_IDS_SET and slug not in experts:
             experts.append(slug)
     return sorted(experts)
-
 
 def _build_page_block(
     knot_label: str,
@@ -288,7 +274,6 @@ def _build_page_block(
     lines.append(content.strip())
     lines.append(PAGE_MARKER_END)
     return "\n".join(lines)
-
 
 def _insert_page_into_thread(thread_path: Path, month: str, page_block: str, dry_run: bool) -> str:
     """Insert a page block under the ``## YYYY-MM`` chapter in a thread file.
@@ -337,7 +322,6 @@ def _insert_page_into_thread(thread_path: Path, month: str, page_block: str, dry
     if not dry_run:
         thread_path.write_text("\n".join(new_lines) + "\n", encoding="utf-8")
     return f"{label} page into {thread_path.relative_to(REPO_ROOT)} under {month_heading}"
-
 
 def phase_pages(dry_run: bool) -> list[str]:
     """Read knot-index + knot files, insert page blocks into thread files."""
@@ -392,7 +376,6 @@ def phase_pages(dry_run: bool) -> list[str]:
 
     return actions
 
-
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
@@ -428,7 +411,6 @@ def main() -> int:
     mode = "dry-run" if args.dry_run else "applied"
     print(f"\nDone ({mode}).")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Crooke 2026 Monthly Shelves
 

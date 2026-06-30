@@ -41,7 +41,6 @@ RECORD_FILES = [
     "recursion-gate.md",
 ]
 
-
 # ---------------------------------------------------------------------------
 # Git history
 # ---------------------------------------------------------------------------
@@ -74,7 +73,6 @@ def _git_log_record_commits(user_id: str, days: int) -> list[dict]:
                 "message": parts[2],
             })
     return commits
-
 
 # ---------------------------------------------------------------------------
 # Pipeline events
@@ -109,7 +107,6 @@ def _parse_pipeline_events(user_id: str, days: int) -> dict:
         "total": sum(counts.values()),
     }
 
-
 # ---------------------------------------------------------------------------
 # Evidence entry counts
 # ---------------------------------------------------------------------------
@@ -122,7 +119,6 @@ def _find_evidence_path(user_id: str) -> Path | None:
             return p
     return None
 
-
 def _count_evidence_by_type(user_id: str) -> dict[str, int]:
     """Count all Evidence entries by type prefix."""
     evidence_path = _find_evidence_path(user_id)
@@ -133,7 +129,6 @@ def _count_evidence_by_type(user_id: str) -> dict[str, int]:
     for m in re.finditer(r"- id:\s*(ACT|READ|WRITE|CREATE|MEDIA|LEARN|CUR|PER)-\d+", content):
         counts[m.group(1)] += 1
     return dict(counts)
-
 
 def _count_recent_evidence(user_id: str, days: int) -> dict[str, int]:
     """Count Evidence entries within the date window."""
@@ -152,7 +147,6 @@ def _count_recent_evidence(user_id: str, days: int) -> dict[str, int]:
         if date_match and date_match.group(1) >= cutoff:
             counts[entry_type] += 1
     return dict(counts)
-
 
 # ---------------------------------------------------------------------------
 # IX section counts
@@ -189,7 +183,6 @@ def _count_ix_entries(user_id: str) -> dict[str, int]:
 
     return counts
 
-
 # ---------------------------------------------------------------------------
 # PRP freshness
 # ---------------------------------------------------------------------------
@@ -221,7 +214,6 @@ def _prp_freshness(user_id: str) -> dict:
     except Exception:
         return {"exists": True, "stale": None}
 
-
 # ---------------------------------------------------------------------------
 # Pending gate count
 # ---------------------------------------------------------------------------
@@ -234,7 +226,6 @@ def _pending_gate_count(user_id: str) -> int:
     processed = re.search(r"^## Processed\s*$", content, re.MULTILINE)
     section = content[:processed.start()] if processed else content
     return len(re.findall(r"status:\s*pending", section))
-
 
 # ---------------------------------------------------------------------------
 # Digest assembly
@@ -279,7 +270,6 @@ def compute_digest(user_id: str, days: int = DEFAULT_DAYS) -> dict:
         "gate_pending": pending,
         "capture_gap": gap_result,
     }
-
 
 def format_digest(d: dict) -> str:
     """Format digest as readable markdown."""
@@ -350,7 +340,6 @@ def format_digest(d: dict) -> str:
 
     return "\n".join(lines)
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Weekly Record growth digest.")
     ap.add_argument(
@@ -369,7 +358,6 @@ def main() -> int:
         print(format_digest(digest))
 
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -7,9 +7,8 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2025-08-04/source-glenn-diesen-chas-freeman-israel-is-overextended-exhausted-and-facing-blowback-2025-08-04.md
 speech_act: restated
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — Israel self-destruction (2025-08-04)
 

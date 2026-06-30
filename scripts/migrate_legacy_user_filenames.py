@@ -36,7 +36,6 @@ RENAMES: list[tuple[str, str]] = [
     ("memory.md", "self-memory.md"),
 ]
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Migrate legacy user filenames to canonical paths.")
     parser.add_argument("--user", required=True, help="User id under platform/users/")
@@ -102,7 +101,6 @@ def main() -> int:
     for a in actions:
         print(f"  {a}")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

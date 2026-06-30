@@ -15,7 +15,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 LINK_RE = re.compile(r"\]\(([^)]+)\)")
 
-
 def resolve_link(worksheet_dir: Path, target: str) -> Path | None:
     t = target.strip()
     if t.startswith(("http://", "https://", "mailto:")):
@@ -26,7 +25,6 @@ def resolve_link(worksheet_dir: Path, target: str) -> Path | None:
     except ValueError:
         return None
     return p
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Check worksheet markdown links exist on disk.")
@@ -74,7 +72,6 @@ def main() -> int:
         print(f"MISSING\t{raw}\t-> {resolved}")
     print(f"# ok={len(ok)} missing={len(missing)} skipped_url={len(skipped)}", file=sys.stderr)
     return 1 if missing else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -19,7 +19,6 @@ from uncertainty_envelope import (  # noqa: E402
     load_prepared_context_obs_ids,
 )
 
-
 def main() -> int:
     p = argparse.ArgumentParser(
         description="Score evidence sufficiency → uncertainty envelope (derived from observations)."
@@ -57,7 +56,6 @@ def main() -> int:
     else:
         print(envelope_to_json(env))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

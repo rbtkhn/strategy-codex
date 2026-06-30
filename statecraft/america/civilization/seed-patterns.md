@@ -1,6 +1,5 @@
 # America Civilization Seed Patterns
 
-WORK only; not Record.
 
 These seeds translate CIV-MEM into America-lane civilization patterns. State rules should draw from these patterns and the America empire folder, not directly from CIV-MEM.
 

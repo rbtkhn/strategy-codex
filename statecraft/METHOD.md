@@ -1,6 +1,5 @@
 # Statecraft Method
 
-WORK only; not Record.
 
 This file is a delegated module under [statecraft.md](statecraft.md). It owns drafting procedure only.
 

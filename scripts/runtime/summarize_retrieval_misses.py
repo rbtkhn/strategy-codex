@@ -23,7 +23,6 @@ import ledger_paths  # noqa: E402
 
 MISS_FILE = ledger_paths.retrieval_misses_jsonl()
 
-
 def load_records(since: date | None = None) -> list[dict[str, Any]]:
     if not MISS_FILE.exists():
         return []
@@ -48,7 +47,6 @@ def load_records(since: date | None = None) -> list[dict[str, Any]]:
         records.append(rec)
     return records
 
-
 def print_table(title: str, counter: Counter[str]) -> None:
     if not counter:
         print(f"\n{title}: (none)")
@@ -59,7 +57,6 @@ def print_table(title: str, counter: Counter[str]) -> None:
     print("-" * (label_width + 10))
     for key, count in counter.most_common():
         print(f"  {key:<{label_width}}  {count:>5}")
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Summarize Grace-Mar retrieval misses.")
@@ -108,7 +105,6 @@ def main() -> int:
         print_table("By retrieval surface", by_surface)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

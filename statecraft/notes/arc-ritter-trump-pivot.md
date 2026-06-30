@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-04-09/source-india-global-left-no-ceasefire-scott-ritter-2026-04-09.md
   - source-archive/statecraft/2026-04-08/source-dialogue-works-scott-ritter-the-us-war-on-iran-just-collapsed-ceasefire-does-the-imposs-2026-04-08.md
 ---
-WORK only; not Record.
 
 # Feb 22 → Mar 28 2025 — Ritter arc (India Global Left Trump pivot)
 

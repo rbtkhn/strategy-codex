@@ -18,10 +18,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
-
 def _read(path: Path) -> str:
     return path.read_text(encoding="utf-8") if path.exists() else ""
-
 
 def _ix_b_topics(self_content: str, limit: int = 10) -> list[str]:
     """Extract curiosity (IX-B) topic lines for curriculum themes."""
@@ -41,7 +39,6 @@ def _ix_b_topics(self_content: str, limit: int = 10) -> list[str]:
             break
     return topics
 
-
 def _ix_a_sample(self_content: str, limit: int = 15) -> list[str]:
     """Extract a few LEARN entry snippets for knowledge context."""
     samples = []
@@ -52,7 +49,6 @@ def _ix_a_sample(self_content: str, limit: int = 15) -> list[str]:
         if len(samples) >= limit:
             break
     return samples
-
 
 def build_curriculum(user_id: str = "grace-mar", output_dir: Path | None = None) -> list[Path]:
     """Generate HTML modules and return list of written paths."""
@@ -88,7 +84,6 @@ def build_curriculum(user_id: str = "grace-mar", output_dir: Path | None = None)
     written.append(index_path)
     return written
 
-
 def export_pdf(curriculum_dir: Path, output_pdf: Path) -> bool:
     """Export index.html to PDF via Pandoc if available."""
     import subprocess
@@ -105,7 +100,6 @@ def export_pdf(curriculum_dir: Path, output_pdf: Path) -> bool:
         return True
     except (FileNotFoundError, subprocess.CalledProcessError):
         return False
-
 
 def main() -> int:
     import argparse
@@ -124,7 +118,6 @@ def main() -> int:
         else:
             print("Pandoc not found or PDF export failed; skip --pdf or install pandoc", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Jermy Speaker Arc (compat redirect)
 

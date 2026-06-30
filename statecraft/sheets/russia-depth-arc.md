@@ -1,6 +1,5 @@
 # Russia Depth Arc
 
-WORK only; not Record.
 
 ## Purpose
 

@@ -1,6 +1,5 @@
 # Russia State Memory
 
-WORK only; not Record.
 
 This civilization object stores the deep memory of Russian state authority from Rurik / Varangian-Novgorod order through Kievan Rus, Mongol pressure, Muscovy, Empire, Soviet state, 1991 rupture, and post-Soviet restoration. It links long authority memory to one statecraft question: what must current Russian carriers preserve so a transaction reads as state continuity rather than personal improvisation, and what kinds of outward leverage can still remain bounded by that continuity?
 

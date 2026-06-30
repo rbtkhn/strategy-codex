@@ -1,6 +1,5 @@
 # Statecraft Rome
 
-WORK only; not Record.
 
 ## Where This Sits
 

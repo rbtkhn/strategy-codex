@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (2), `Nima Alkhorshid` (2), `Glenn Diesen` (1), `Robert Pape` (1), `Tucker Carlson` (1)
 - Guests: `Jeffrey Sachs` (2), `Larry Johnson` (2), `[]` (2), `Alastair Crooke` (1), `Jacques Baud` (1), `Ray McGovern` (1), `Trita Parsi` (1)
-- Threads: `alkorshid` (2), `davis` (2), `johnson` (2), `napolitano` (2), `sachs` (2), `baud` (1), `carlson` (1), `crooke` (1), `diesen` (1), `mcgovern` (1), `pape` (1), `parsi` (1)
+- Threads: `alkhorshid` (2), `davis` (2), `johnson` (2), `napolitano` (2), `sachs` (2), `baud` (1), `carlson` (1), `crooke` (1), `diesen` (1), `mcgovern` (1), `pape` (1), `parsi` (1)
 
 ## Channel sources
 
@@ -34,8 +34,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [S9ROJmN0HQ4](https://www.youtube.com/watch?v=S9ROJmN0HQ4) | `source-daniel-davis-putin-macron-trump-ukraine-war-2026-06-15.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [aaXKX3cPZSg](https://www.youtube.com/watch?v=aaXKX3cPZSg) | `source-daniel-davis-whats-the-deal-with-iran-2026-06-15.md` |
-| `dialogue-works` | Dialogue Works | `baud`, `alkorshid` | [h2TwG48Kib0](https://www.youtube.com/watch?v=h2TwG48Kib0) | `source-dialogue-works-baud-us-iran-reach-mou-war-ends-immediately-2026-06-15.md` |
-| `dialogue-works` | Dialogue Works | `johnson`, `alkorshid` | [IY1BU0bKEgM](https://www.youtube.com/watch?v=IY1BU0bKEgM) | `source-dialogue-works-johnson-israel-sabotage-backfires-trump-last-move-2026-06-15.md` |
+| `dialogue-works` | Dialogue Works | `baud`, `alkhorshid` | [h2TwG48Kib0](https://www.youtube.com/watch?v=h2TwG48Kib0) | `source-dialogue-works-baud-us-iran-reach-mou-war-ends-immediately-2026-06-15.md` |
+| `dialogue-works` | Dialogue Works | `johnson`, `alkhorshid` | [IY1BU0bKEgM](https://www.youtube.com/watch?v=IY1BU0bKEgM) | `source-dialogue-works-johnson-israel-sabotage-backfires-trump-last-move-2026-06-15.md` |
 | `glenn-diesen` | Glenn Diesen | `sachs`, `diesen` | [vkhJdxpbz_g](https://www.youtube.com/watch?v=vkhJdxpbz_g) | `source-diesen-sachs-us-iran-deal-reached-peace-or-tactical-pause-2026-06-15.md` |
 | `judging-freedom` | Judging Freedom | `crooke` | [eiEH9Lww67A](https://www.youtube.com/watch?v=eiEH9Lww67A) | `source-judging-freedom-crooke-us-empire-is-crashing-2026-06-15.md` |
 | `judging-freedom` | Judging Freedom | `johnson`, `napolitano` | [5z21jBNP0xo](https://www.youtube.com/watch?v=5z21jBNP0xo) | `source-judging-freedom-johnson-is-this-any-way-to-negotiate-2026-06-15.md` |

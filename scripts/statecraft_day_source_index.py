@@ -29,19 +29,16 @@ from statecraft_day_archive import DAY_INDEX_FILENAME, DEFAULT_ROOT  # noqa: E40
 
 DAY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
-
 def day_index_file_path(day: str, root: Path = DEFAULT_ROOT) -> Path:
     if not DAY_RE.match(day):
         raise ValueError(f"invalid day (expected YYYY-MM-DD): {day}")
     return root / day / DAY_INDEX_FILENAME
-
 
 def day_readme_path(day: str, root: Path = DEFAULT_ROOT) -> Path:
     """Legacy README stub path (pointer only after day-index migration)."""
     if not DAY_RE.match(day):
         raise ValueError(f"invalid day (expected YYYY-MM-DD): {day}")
     return root / day / "README.md"
-
 
 def resolve_day(args: argparse.Namespace) -> str:
     if args.day:
@@ -53,7 +50,6 @@ def resolve_day(args: argparse.Namespace) -> str:
         raise SystemExit("no captured archive days found")
     return latest
 
-
 def load_day_index(day: str, *, root: Path = DEFAULT_ROOT, use_readme: bool = False) -> tuple[Path, str]:
     path = day_readme_path(day, root) if use_readme else day_index_file_path(day, root)
     if not path.is_file():
@@ -62,7 +58,6 @@ def load_day_index(day: str, *, root: Path = DEFAULT_ROOT, use_readme: bool = Fa
             f"(rebuild: python scripts/build_statecraft_day_indices.py --day {day})"
         )
     return path, path.read_text(encoding="utf-8")
-
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -82,7 +77,6 @@ def parse_args() -> argparse.Namespace:
         help="Include queue report even when archive/daily desync.",
     )
     return parser.parse_args()
-
 
 def main() -> int:
     args = parse_args()
@@ -143,7 +137,6 @@ def main() -> int:
         print("")
         print(queue_human.rstrip())
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

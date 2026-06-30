@@ -34,7 +34,6 @@ from asr_light_clean import detect_series, normalize_transcript_text
 
 FULL_TRANSCRIPT_HEADING = "## Full transcript"
 
-
 def split_full_transcript(md: str) -> tuple[str, str | None, str]:
     """Return (before_heading, transcript_body_or_None, after_if_whole)."""
     idx = md.find(FULL_TRANSCRIPT_HEADING)
@@ -48,7 +47,6 @@ def split_full_transcript(md: str) -> tuple[str, str | None, str]:
     heading_block = md[: idx + nl + 1]
     body = rest[nl + 1 :]
     return heading_block, body, ""
-
 
 def run_file(
     path: Path,
@@ -82,7 +80,6 @@ def run_file(
     if not dry_run:
         path.write_text(head + new_body, encoding="utf-8")
     return 0
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -135,7 +132,6 @@ def main() -> int:
 
     dry_run = not args.write
     return run_file(path, whole_file=args.whole_file, series=series_resolved, dry_run=dry_run)
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

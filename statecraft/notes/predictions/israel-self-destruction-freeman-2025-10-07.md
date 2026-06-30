@@ -7,9 +7,8 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2025-10-07/source-judging-freedom-amb-chas-freeman-israel-near-collapse-2025-10-07.md
 speech_act: iterated
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — Israel self-destruction (2025-10-07)
 

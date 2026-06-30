@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-03-25 (*How the Chechen miracle kick-started the Russian 'Path of Redemption'*)
 <!-- word_count: 2035 -->
 
-WORK only; not Record.
 
 **Expert:** `ritter` · **Published:** 2026-03-25 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 

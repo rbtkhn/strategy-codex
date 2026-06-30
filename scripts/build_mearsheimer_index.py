@@ -30,7 +30,6 @@ MEARSHEIMER_TITLE_PREFIX = re.compile(
     re.I,
 )
 
-
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:5000]
     out: dict = {}
@@ -48,7 +47,6 @@ def parse_head(path: Path) -> dict:
             out["pub_date"] = dm.group(1).strip()
     return out
 
-
 def pub_date_key(meta: dict, path: Path) -> str:
     pub = meta.get("pub_date", "")
     if pub and len(pub) >= 10:
@@ -57,7 +55,6 @@ def pub_date_key(meta: dict, path: Path) -> str:
     if re.match(r"^\d{4}-\d{2}-\d{2}$", day):
         return day
     return day
-
 
 def host_bucket(path: Path, meta: dict) -> str:
     name = path.name.casefold()
@@ -96,11 +93,9 @@ def host_bucket(path: Path, meta: dict) -> str:
         return "hedges"
     return "other"
 
-
 def display_title(meta: dict) -> str:
     raw = meta.get("title") or "Untitled"
     return MEARSHEIMER_TITLE_PREFIX.sub("", raw).strip()
-
 
 def load_label_map(*paths: Path) -> dict[str, str]:
     out: dict[str, str] = {}
@@ -115,7 +110,6 @@ def load_label_map(*paths: Path) -> dict[str, str]:
             if len(m.group(1)) > len(out.get(fn, "")):
                 out[fn] = m.group(1)
     return out
-
 
 def load_annotation_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
@@ -133,18 +127,15 @@ def load_annotation_map(index_path: Path) -> dict[str, str]:
             out[fn] = suffix
     return out
 
-
 def default_label(meta: dict, path: Path) -> str:
     pub = pub_date_key(meta, path)
     title = display_title(meta)
     return f"{pub} - {title}"
 
-
 def row_label(meta: dict, path: Path, labels: dict[str, str]) -> str:
     text = labels.get(path.name) or default_label(meta, path)
     rel = f"../../../source-archive/statecraft/{path.parent.name}/{path.name}"
     return f"- [{text}]({rel})"
-
 
 def collect_rows() -> list[tuple[str, Path, dict]]:
     rows: list[tuple[str, Path, dict]] = []
@@ -157,7 +148,6 @@ def collect_rows() -> list[tuple[str, Path, dict]]:
         rows.append((pub, path, meta))
     rows.sort(key=lambda t: (t[0], t[1].name))
     return rows
-
 
 def render_host_section(
     heading: str,
@@ -179,7 +169,6 @@ def render_host_section(
         lines.append(line)
     lines.append("")
     return lines
-
 
 def render_curated_overlays() -> list[str]:
     return [
@@ -203,7 +192,6 @@ def render_curated_overlays() -> list[str]:
         "",
     ]
 
-
 def render_tail() -> list[str]:
     return [
         "## Reading rule",
@@ -221,7 +209,6 @@ def render_tail() -> list[str]:
         "- Do not treat routing doctrine as an audit substitute for archive parity rows.",
         "",
     ]
-
 
 def render_index(
     rows: list[tuple[str, Path, dict]],
@@ -244,8 +231,7 @@ def render_index(
     counts = {b: sum(1 for r in rows if host_bucket(r[1], r[2]) == b) for b in buckets}
 
     lines = [
-        "WORK only; not Record.",
-        "",
+                "",
         "# Mearsheimer source index",
         "",
         "Purpose: exhaustive canonical route map for John Mearsheimer guest appearances and direct archive anchors on the Mearsheimer shelf.",
@@ -314,7 +300,6 @@ def render_index(
     lines.extend(render_tail())
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="Print row count only")
@@ -337,7 +322,6 @@ def main() -> int:
     OUT.write_text(body if body.endswith("\n") else body + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {OUT} ({len(rows)} rows, {len(labels)} labels preserved)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

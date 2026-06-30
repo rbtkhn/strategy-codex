@@ -1,7 +1,6 @@
 # Strategy expert — Nima Alkhorshid (`alkhorshid`)
 <!-- word_count: ~700 -->
 
-WORK only; not Record.
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md) · [alkhorshid-index.md](alkhorshid-index.md) (guest) · [dialogue-works-channel-index.md](../../channels/dialogue-works/dialogue-works-channel-index.md) (host)

@@ -1,6 +1,5 @@
 # Johnson helix
 
-WORK only; not Record.
 
 Purpose: compact cross-host note for reading the recurring Johnson lanes together.
 

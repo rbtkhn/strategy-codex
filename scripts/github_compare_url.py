@@ -11,7 +11,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _run_git(*args: str) -> str:
     proc = subprocess.run(
         ["git", *args],
@@ -24,7 +23,6 @@ def _run_git(*args: str) -> str:
         sys.stderr.write(proc.stderr or "git failed\n")
         raise SystemExit(1)
     return proc.stdout.strip()
-
 
 def parse_github_owner_repo(remote_url: str) -> tuple[str, str]:
     """Return (owner, repo) from origin URL."""
@@ -39,10 +37,8 @@ def parse_github_owner_repo(remote_url: str) -> tuple[str, str]:
         return m.group(1), m.group(2)
     raise ValueError(f"Could not parse GitHub owner/repo from: {remote_url!r}")
 
-
 def compare_url(owner: str, repo: str, base: str, head: str) -> str:
     return f"https://github.com/{owner}/{repo}/compare/{base}...{head}"
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -80,7 +76,6 @@ def main() -> int:
     url = compare_url(owner, repo, args.base, head)
     print(url)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

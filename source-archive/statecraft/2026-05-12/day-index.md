@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (3), `Glenn Diesen` (2), `Alexander Mercouris` (1), `Jiang Xueqin` (1), `Mario Nawfal` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1), `Doug Macgregor` (1), `Jeffrey Sachs` (1), `Robert Barnes` (1), `Robert Pape` (1), `Seyed M. Marandi` (1)
-- Threads: `davis` (3), `diesen` (2), `alkorshid` (1), `barnes` (1), `freeman` (1), `jiang` (1), `macgregor` (1), `marandi` (1), `mercouris` (1), `pape` (1), `sachs` (1)
+- Threads: `davis` (3), `diesen` (2), `alkhorshid` (1), `barnes` (1), `freeman` (1), `jiang` (1), `macgregor` (1), `marandi` (1), `mercouris` (1), `pape` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -36,7 +36,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=tfgfSubAEJM) | `source-daniel-davis-col-doug-macgregor-trump-visits-china-2026-05-12.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=klvztvA37b8) | `source-daniel-davis-iran-s-power-is-a-fact-not-a-debate-lt-col-daniel-davis-2026-05-12.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=22cOVLIatOw) | `source-daniel-davis-iran-war-plans-on-the-table-robert-barnes-and-lt-col-daniel-davis-2026-05-12.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=Uhgd6vRsPxA) | `source-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-humiliate-israeli-air-defenses-mu-2026-05-12.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=Uhgd6vRsPxA) | `source-dialogue-works-seyed-m-marandi-hezbollah-s-fpv-drones-humiliate-israeli-air-defenses-mu-2026-05-12.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=8nsxuB3Vsts) | `source-game-theory-24-the-ai-apocalypse-2026-05-12.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=YKvzjkOfyWQ) | `source-glenn-diesen-chas-freeman-trump-goes-to-beijing-after-historic-defeat-in-iran-2026-05-12.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `sachs` | [watch](https://www.youtube.com/watch?v=D8WeTG3rAFs) | `source-glenn-diesen-jeffrey-sachs-new-european-military-bloc-for-war-against-russia-2026-05-12.md` |

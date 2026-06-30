@@ -1,6 +1,5 @@
 # Mercouris analytical bench
 
-WORK only; not Record.
 
 Purpose: analytical route bench for Mercouris — curated month hinges, cross-weaves, and prehistory anchors.
 

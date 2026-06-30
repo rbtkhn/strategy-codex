@@ -1,6 +1,6 @@
 # Russia Civilization
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: name the inherited Russian code that shapes security-depth demands, sovereignty claims, and the fear of encirclement.
 

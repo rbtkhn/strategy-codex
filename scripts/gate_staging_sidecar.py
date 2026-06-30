@@ -12,7 +12,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-
 def write_gate_staging_sidecar(
     repo_root: Path,
     user_id: str,

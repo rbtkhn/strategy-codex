@@ -214,7 +214,6 @@ CONFLICT_FAMILY_SPECS = {
     },
 }
 
-
 @dataclass
 class JudgmentLoop:
     key: str
@@ -243,7 +242,6 @@ class JudgmentLoop:
     topic_keys: set[str] = field(default_factory=set)
     polarity: str = "mixed"
 
-
 @dataclass
 class TensionGroup:
     group_id: str
@@ -255,10 +253,8 @@ class TensionGroup:
     anchor_keys: tuple[str, ...] = ()
     suppressed_duplicates: int = 0
 
-
 def _clean_text(text: str) -> str:
     return re.sub(r"\s+", " ", text.replace("\xa0", " ")).strip()
-
 
 def _strip_markdown(text: str) -> str:
     text = RE_MD_LINK.sub(lambda m: m.group(1), text)
@@ -267,10 +263,8 @@ def _strip_markdown(text: str) -> str:
     text = re.sub(r"\*([^*]+)\*", r"\1", text)
     return _clean_text(text)
 
-
 def _slugify(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", _clean_text(text).lower()).strip("-")
-
 
 def _extract_sections(text: str) -> dict[str, str]:
     sections: dict[str, str] = {}
@@ -279,11 +273,9 @@ def _extract_sections(text: str) -> dict[str, str]:
         sections[title] = match.group("body").strip()
     return sections
 
-
 def _extract_primary_heading(text: str) -> str | None:
     match = RE_HEADING.search(text)
     return _clean_text(match.group(1)) if match else None
-
 
 def _extract_field_block(text: str) -> dict[str, str]:
     fields: dict[str, str] = {}
@@ -298,7 +290,6 @@ def _extract_field_block(text: str) -> dict[str, str]:
             fields[_clean_text(match.group(1)).lower()] = _strip_markdown(match.group(2))
     return fields
 
-
 def _first_meaningful_line(text: str) -> str:
     for raw_line in text.splitlines():
         line = _strip_markdown(raw_line)
@@ -309,7 +300,6 @@ def _first_meaningful_line(text: str) -> str:
         return line
     return ""
 
-
 def _first_paragraph(text: str) -> str:
     blocks = [block.strip() for block in re.split(r"\n\s*\n", text) if block.strip()]
     for block in blocks:
@@ -317,7 +307,6 @@ def _first_paragraph(text: str) -> str:
         if line:
             return line
     return ""
-
 
 def _first_list_items(text: str, limit: int = 2) -> list[str]:
     items: list[str] = []
@@ -332,11 +321,9 @@ def _first_list_items(text: str, limit: int = 2) -> list[str]:
             break
     return items
 
-
 def _extract_date_from_text(text: str) -> str | None:
     match = RE_DATE.search(text)
     return match.group(1) if match else None
-
 
 def _to_date(value: str | None) -> date | None:
     if not value:
@@ -345,7 +332,6 @@ def _to_date(value: str | None) -> date | None:
         return datetime.strptime(value, "%Y-%m-%d").date()
     except ValueError:
         return None
-
 
 def _infer_polarity(call: str) -> str:
     low = call.lower()
@@ -364,7 +350,6 @@ def _infer_polarity(call: str) -> str:
             return "negative"
     return "mixed"
 
-
 def _topic_keys(loop: JudgmentLoop) -> set[str]:
     keys: set[str] = set()
     if loop.watch:
@@ -381,7 +366,6 @@ def _topic_keys(loop: JudgmentLoop) -> set[str]:
                 keys.add(token)
     return keys
 
-
 def _conflict_families_for_keys(keys: set[str]) -> dict[str, set[str]]:
     families: dict[str, set[str]] = {}
     anchored_keys = keys & DOMAIN_ANCHORS
@@ -391,7 +375,6 @@ def _conflict_families_for_keys(keys: set[str]) -> dict[str, set[str]]:
         if shared and (not required_any or shared & required_any):
             families[family_key] = shared
     return families
-
 
 def _build_loop(
     *,
@@ -436,7 +419,6 @@ def _build_loop(
     loop.topic_keys = _topic_keys(loop)
     loop.polarity = _infer_polarity(loop.call)
     return loop
-
 
 def _parse_loop_from_sections(
     *,
@@ -488,7 +470,6 @@ def _parse_loop_from_sections(
         confidence=confidence,
     )
 
-
 def _iter_codex_page_loops(notebook_root: Path) -> list[JudgmentLoop]:
     loops: list[JudgmentLoop] = []
     for path in sorted(notebook_root.glob("20[0-9][0-9]/*/*-page-*.md")):
@@ -510,7 +491,6 @@ def _iter_codex_page_loops(notebook_root: Path) -> list[JudgmentLoop]:
         if loop is not None:
             loops.append(loop)
     return loops
-
 
 def _iter_thread_page_loops(notebook_root: Path) -> list[JudgmentLoop]:
     loops: list[JudgmentLoop] = []
@@ -541,7 +521,6 @@ def _iter_thread_page_loops(notebook_root: Path) -> list[JudgmentLoop]:
             if loop is not None:
                 loops.append(loop)
     return loops
-
 
 def _iter_register_loops(notebook_root: Path) -> list[JudgmentLoop]:
     path = notebook_root / "notes" / "JUDGMENT-LOOP-REGISTER.md"
@@ -585,7 +564,6 @@ def _iter_register_loops(notebook_root: Path) -> list[JudgmentLoop]:
         loops.append(loop)
     return loops
 
-
 def _latest_continuity_date(notebook_root: Path) -> date | None:
     latest: date | None = None
     for path in notebook_root.glob("20[0-9][0-9]/chapters/*/days.md"):
@@ -596,14 +574,12 @@ def _latest_continuity_date(notebook_root: Path) -> date | None:
                 latest = parsed
     return latest
 
-
 def _match_register(page_loop: JudgmentLoop, register_loops: list[JudgmentLoop]) -> JudgmentLoop | None:
     for reg in register_loops:
         haystack = " ".join(filter(None, [reg.source_path, reg.register_reference or "", reg.title])).lower()
         if any(alias and alias in haystack for alias in page_loop.aliases):
             return reg
     return None
-
 
 def _apply_cadence_context(loop: JudgmentLoop, cadence_events: list[dict]) -> None:
     best_dt: datetime | None = None
@@ -625,7 +601,6 @@ def _apply_cadence_context(loop: JudgmentLoop, cadence_events: list[dict]) -> No
             loop.cadence_notebook_ref = notebook_ref or None
     if loop.cadence_verdict in STATUS_VOCAB:
         loop.status = loop.cadence_verdict
-
 
 def _derive_due_state(loop: JudgmentLoop, today: date, latest_continuity: date | None) -> None:
     status = (loop.status or "open").lower()
@@ -674,7 +649,6 @@ def _derive_due_state(loop: JudgmentLoop, today: date, latest_continuity: date |
             loop.suggested_next_action = "Keep open pending clearer trigger."
         else:
             loop.suggested_next_action = "Keep register and page in sync while the trigger remains open."
-
 
 def _build_tension_groups(loops: list[JudgmentLoop]) -> list[TensionGroup]:
     candidates = [loop for loop in loops if loop.derived_state in {"due", "open"}]
@@ -737,7 +711,6 @@ def _build_tension_groups(loops: list[JudgmentLoop]) -> list[TensionGroup]:
         )
     return tensions
 
-
 def build_judgment_loop_report(
     notebook_root: Path,
     *,
@@ -789,7 +762,6 @@ def build_judgment_loop_report(
         "loops": sorted(loops, key=lambda loop: (loop.derived_state != "due", loop.stream, loop.page_date or "", loop.title)),
         "tensions": tensions,
     }
-
 
 def format_due_open_loops_markdown(
     report: dict[str, object],

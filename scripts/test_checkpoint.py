@@ -22,7 +22,6 @@ def _parse_args():
     ap.add_argument("--user", default=os.getenv("GRACE_MAR_USER_ID", "grace-mar"), help="User id")
     return ap.parse_args()
 
-
 def test_pattern():
     """Test CHECKPOINT_REQUEST_PATTERN matches 'checkpoint' and variants (pattern is applied to stripped message)."""
     from bot.core import CHECKPOINT_REQUEST_PATTERN
@@ -34,7 +33,6 @@ def test_pattern():
     assert not CHECKPOINT_REQUEST_PATTERN.search("checkpoint something else"), "extra words should not match"
     print("  CHECKPOINT_REQUEST_PATTERN: ok")
 
-
 def test_format_checkpoint_transcript_empty():
     """Empty history -> empty transcript."""
     from bot.core import _format_checkpoint_transcript
@@ -43,7 +41,6 @@ def test_format_checkpoint_transcript_empty():
     out = _format_checkpoint_transcript([{"role": "user", "content": ""}])
     assert out == "", out
     print("  _format_checkpoint_transcript([]): ok")
-
 
 def test_format_checkpoint_transcript_short():
     """Short history -> USER/GRACE-MAR lines."""
@@ -57,7 +54,6 @@ def test_format_checkpoint_transcript_short():
     assert "GRACE-MAR: I know the planets" in out, out
     assert out.count("\n\n") >= 1
     print("  _format_checkpoint_transcript(short): ok")
-
 
 def test_format_checkpoint_transcript_truncate_exchanges():
     """Over MAX_CHECKPOINT_EXCHANGES user messages -> keep last N."""
@@ -73,7 +69,6 @@ def test_format_checkpoint_transcript_truncate_exchanges():
     assert "user message 0" not in out, "oldest should be dropped"
     print("  _format_checkpoint_transcript(truncate exchanges): ok")
 
-
 def test_format_checkpoint_transcript_truncate_chars():
     """Over MAX_CHECKPOINT_TRANSCRIPT_CHARS -> abridged prefix."""
     from bot.core import _format_checkpoint_transcript, MAX_CHECKPOINT_TRANSCRIPT_CHARS
@@ -83,7 +78,6 @@ def test_format_checkpoint_transcript_truncate_chars():
     assert len(out) <= MAX_CHECKPOINT_TRANSCRIPT_CHARS + 100, "should be capped (with small slack)"
     assert "abridged" in out or len(out) <= MAX_CHECKPOINT_TRANSCRIPT_CHARS, out[:200]
     print("  _format_checkpoint_transcript(truncate chars): ok")
-
 
 def run_live_checkpoint(user_id: str) -> None:
     """Run one live get_response with message 'checkpoint' and mock history."""
@@ -111,7 +105,6 @@ def run_live_checkpoint(user_id: str) -> None:
             print("  session-transcript contains checkpoint/user: ok")
     print("  live checkpoint: ok")
 
-
 def main():
     args = _parse_args()
     os.environ["GRACE_MAR_USER_ID"] = args.user
@@ -127,7 +120,6 @@ def main():
         else:
             run_live_checkpoint(args.user)
     print("Done.")
-
 
 if __name__ == "__main__":
     main()

@@ -1,7 +1,6 @@
 # Mearsheimer refined page — 2026-01-07 (guest lane)
 <!-- word_count: ~200 -->
 
-WORK only; not Record.
 
 **Expert:** `mearsheimer` · **Interviewer:** Glenn Diesen · **Published:** 2026-01-07 · Sibling: [diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md](../diesen/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md)
 

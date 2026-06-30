@@ -28,12 +28,10 @@ try:
 except ImportError:
     from scripts.repo_io import profile_dir
 
-
 def _run(argv: list[str]) -> int:
     print(f"\n{'=' * 60}\n$ {' '.join(argv)}\n{'=' * 60}\n", flush=True)
     r = subprocess.run(argv, cwd=str(_REPO))
     return r.returncode
-
 
 def _git_summary() -> str:
     """Uncommitted-work snapshot for end-of-day awareness."""
@@ -53,7 +51,6 @@ def _git_summary() -> str:
     if diff_stat.stdout.strip():
         out += "\n\nUnstaged changes:\n" + diff_stat.stdout.strip()
     return out
-
 
 def _classify_worktree(status_out: str, diff_out: str) -> tuple[str, str]:
     """Return (worktreeState, worktreeAdvice). Read-only triage; no commits."""
@@ -77,7 +74,6 @@ def _classify_worktree(status_out: str, diff_out: str) -> tuple[str, str]:
         "light residue",
         "leave or commit before sleep (operator choice); bridge seals when you close the session.",
     )
-
 
 def _merge_worktree_into_handoff(user_id: str) -> None:
     handoff_path = profile_dir(user_id) / "runtime/daily-handoff" / "night-handoff.json"
@@ -103,7 +99,6 @@ def _merge_worktree_into_handoff(user_id: str) -> None:
     data["worktreeState"] = state
     data["worktreeAdvice"] = advice
     handoff_path.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
-
 
 def main() -> int:
     p = argparse.ArgumentParser(
@@ -152,7 +147,6 @@ def main() -> int:
     print(_git_summary())
 
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -1,6 +1,5 @@
 # Pape Coercive-Center Index
 
-WORK only; not Record.
 
 This is a statecraft tracking surface inspired by Pape's fourth-center thesis. It is not a published Pape index. Use it to score which powers can force systemic adjustment under crisis conditions, especially when energy, chokepoints, sanctions, escalation, and alliance fragmentation are the battlefield.
 

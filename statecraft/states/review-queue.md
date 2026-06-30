@@ -1,6 +1,5 @@
 # CIV-STATE Review Queue
 
-WORK only; not Record.
 
 This queue is the governed upstream membrane from repo-root statecraft back into `civ-state`.
 

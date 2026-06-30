@@ -15,7 +15,6 @@ archive_links:
   - source-archive/statecraft/2026-05-26/source-game-theory-28-predictive-history-2026-05-26.md
   - source-archive/statecraft/jiang-predictive-history-index.md
 ---
-WORK only; not Record.
 
 # Jiang on China AI
 

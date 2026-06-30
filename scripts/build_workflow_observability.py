@@ -31,11 +31,9 @@ except ImportError:
 
 SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "workflow-observability-report.v1.json"
 
-
 def load_events(path: Path) -> list[dict]:
     lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
     return load_events_from_jsonl_lines(lines)
-
 
 def find_latest_events_file(root: Path) -> Path | None:
     d = root / "runtime" / "observability" / "workflow-events"
@@ -43,7 +41,6 @@ def find_latest_events_file(root: Path) -> Path | None:
         return None
     files = sorted(d.glob("events_*.jsonl"))
     return files[-1] if files else None
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -86,7 +83,6 @@ def main() -> int:
 
     print(out)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

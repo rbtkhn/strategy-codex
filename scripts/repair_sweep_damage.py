@@ -24,7 +24,6 @@ REPAIRS: tuple[tuple[str, str], ...] = (
     ("[`self-library.md`](../self-library.md)", "[museum `self-library.md`](../archive/grace-mar-instance/self-library.md)"),
 )
 
-
 def main() -> int:
     roots = [".cursor", "codex", "docs", "singularity", "skills", "library", "statecraft", "research", "README.md", "AGENTS.md", "LLM-ROUTING.md", "instance-doctrine.md"]
     changed = 0
@@ -53,7 +52,6 @@ def main() -> int:
                 print(path.relative_to(REPO_ROOT))
     print(f"repair_sweep_damage: {changed} file(s)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

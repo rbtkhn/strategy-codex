@@ -58,7 +58,6 @@ WIRE_STUBS: dict[str, str] = {
     ),
 }
 
-
 def capture_link(source: str) -> str:
     path = REPO_ROOT / source.replace("\\", "/")
     meta = parse_head(path) if path.is_file() else {}
@@ -67,12 +66,10 @@ def capture_link(source: str) -> str:
     rel = f"../../../{source}"
     return f"[{pub} {host}]({rel})"
 
-
 def note_link(note_file: str, label: str | None = None) -> str:
     name = Path(note_file).name
     text = label or name.replace(".md", "")
     return f"[{text}](../../notes/predictions/{name})"
-
 
 def derive_speech_act(row: dict[str, Any], prior: dict[str, Any] | None) -> str:
     act = str(row.get("speech_act") or "").strip()
@@ -83,7 +80,6 @@ def derive_speech_act(row: dict[str, Any], prior: dict[str, Any] | None) -> str:
     if str(prior.get("stance") or "") != str(row.get("stance") or ""):
         return "iterated"
     return "restated"
-
 
 def load_freeman_pilot_rows() -> list[dict[str, Any]]:
     events = load_event_registry()
@@ -110,12 +106,10 @@ def load_freeman_pilot_rows() -> list[dict[str, Any]]:
     rows.sort(key=lambda r: (pilot_event_sort_key(str(r["event_id"])), r["date_made"], r["file"]))
     return rows
 
-
 def load_timeline(path: Path) -> dict[str, Any]:
     if not path.is_file():
         return {"events": {}}
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def render_event_section(
     event_id: str,
@@ -201,7 +195,6 @@ def render_event_section(
     lines.append("")
     return lines
 
-
 def render_document(
     *,
     rows: list[dict[str, Any]],
@@ -213,8 +206,6 @@ def render_document(
         by_event.setdefault(str(row["event_id"]), []).append(row)
     lines = [
         "# Freeman predictions",
-        "",
-        "WORK only; not Record.",
         "",
         "Purpose: event-first map of Freeman falsifiable stances — restatements, shifts, and self-review across the full freeman-index corpus.",
         "",
@@ -231,13 +222,11 @@ def render_document(
         lines.extend(render_event_section(event_id, event, by_event.get(event_id, []), timeline))
     return "\n".join(lines).rstrip() + "\n"
 
-
 def build_payload(*, timeline_path: Path) -> str:
     events = load_event_registry()
     rows = load_freeman_pilot_rows()
     timeline = load_timeline(timeline_path)
     return render_document(rows=rows, events=events, timeline=timeline)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -271,7 +260,6 @@ def main() -> int:
     args.output.write_text(rendered, encoding="utf-8", newline="\n")
     print(f"[ok] wrote {args.output.relative_to(REPO_ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

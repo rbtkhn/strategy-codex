@@ -1,6 +1,5 @@
 # Orientation-Card Logic
 
-WORK only; not Record.
 
 ## Problem It Solves
 

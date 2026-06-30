@@ -38,13 +38,11 @@ DENYLIST_PREFIXES = prose_slop_lint.DENYLIST_PREFIXES
 ARTIFACTS_ROOT = ARTIFACTS_DIR / "prose-forge"
 TEMPLATES_ROOT = REPO_ROOT / "templates" / "prose-forge"
 
-
 @dataclass
 class ProseClass:
     name: str
     vale_styles: list[str]
     slop_extended: bool
-
 
 PROSE_CLASSES: dict[str, ProseClass] = {
     "essay": ProseClass("essay", ["StrategyCodex.EssaySlop", "StrategyCodex.AITexture"], False),
@@ -53,7 +51,6 @@ PROSE_CLASSES: dict[str, ProseClass] = {
     "doctrine": ProseClass("doctrine", ["StrategyCodex.AITexture"], False),
     "denied": ProseClass("denied", [], False),
 }
-
 
 def infer_prose_class(path: str) -> ProseClass:
     norm = prose_slop_lint.normalize_repo_path(path)
@@ -68,7 +65,6 @@ def infer_prose_class(path: str) -> ProseClass:
     if norm.startswith("docs/"):
         return PROSE_CLASSES["doctrine"]
     return PROSE_CLASSES["doctrine"]
-
 
 def run_vale(paths: list[Path]) -> tuple[int, list[dict]]:
     vale = shutil.which("vale")
@@ -100,7 +96,6 @@ def run_vale(paths: list[Path]) -> tuple[int, list[dict]]:
         except json.JSONDecodeError:
             findings.append({"rule_id": "VALE-ERR", "message": result.stdout[:200], "severity": "error"})
     return result.returncode, findings
-
 
 def cmd_lint(args: argparse.Namespace) -> int:
     if args.paths:
@@ -170,10 +165,8 @@ def cmd_lint(args: argparse.Namespace) -> int:
     )
     return 1 if has_warnings else 0
 
-
 def slug_from_path(path: Path) -> str:
     return re.sub(r"[^a-z0-9]+", "-", path.stem.lower()).strip("-")
-
 
 def cmd_rewrite(args: argparse.Namespace) -> int:
     source = Path(args.path)
@@ -241,7 +234,6 @@ def cmd_rewrite(args: argparse.Namespace) -> int:
         print(f"Staged: {candidate.relative_to(REPO_ROOT)}")
     return 0
 
-
 def cmd_compare(args: argparse.Namespace) -> int:
     left = Path(args.left)
     right = Path(args.right)
@@ -259,7 +251,6 @@ def cmd_compare(args: argparse.Namespace) -> int:
     print(result.stdout or result.stderr)
     return 0 if result.returncode in (0, 1) else result.returncode
 
-
 def cmd_gate(args: argparse.Namespace) -> int:
     candidate = Path(args.path)
     if not candidate.is_absolute():
@@ -271,7 +262,6 @@ def cmd_gate(args: argparse.Namespace) -> int:
     print(review.read_text(encoding="utf-8"))
     print("\n---\nGate: operator review only. No auto-merge.")
     return 0
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -303,7 +293,6 @@ def main() -> int:
 
     args = ap.parse_args()
     return args.func(args)
-
 
 if __name__ == "__main__":
     sys.exit(main())

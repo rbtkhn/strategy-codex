@@ -1,6 +1,5 @@
 ﻿# Russia Bibliography
 
-WORK only; not Record.
 
 This is the working volume bibliography for the Russia CIV-STATE book. Its center of gravity is primary sources first, then bounded secondary and doctrinal support. It is built as a late-opening four-era field: Russia opens in medieval documentary terms, regathers under domination, compels recognition through expansion, reaches industrial superpower form through Soviet mutation ending in 1991, and then enters a cybernetic restoration-through-pressure shelf after Soviet collapse.
 

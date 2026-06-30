@@ -27,9 +27,7 @@ PROMOTION_MAP = {
     "predictions.json": lambda scope: f"prediction-tracking/staging/{scope}-predictions.json",
 }
 
-
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-
 
 def list_pending() -> None:
     if not REVIEW_QUEUE.exists():
@@ -45,7 +43,6 @@ def list_pending() -> None:
     for scope in scopes:
         files = sorted(f.name for f in (REVIEW_QUEUE / scope).iterdir() if f.is_file())
         print(f"  {scope}/  ({len(files)} file(s)): {', '.join(files)}")
-
 
 def promote(scope: str, dry_run: bool = False) -> None:
     scope_dir = REVIEW_QUEUE / scope
@@ -96,7 +93,6 @@ def promote(scope: str, dry_run: bool = False) -> None:
     else:
         print(f"\n{promoted} file(s) would be promoted (dry-run).")
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="Promote review-queue content to canonical.")
     parser.add_argument("scope", nargs="?", help="Scope directory to promote (e.g. ch07)")
@@ -114,7 +110,6 @@ def main() -> None:
         sys.exit(1)
 
     promote(args.scope, dry_run=not args.approve)
-
 
 if __name__ == "__main__":
     main()

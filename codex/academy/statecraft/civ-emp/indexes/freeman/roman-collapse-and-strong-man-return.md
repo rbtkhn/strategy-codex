@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Roman Collapse And Strong-Man Return
 

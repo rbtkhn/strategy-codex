@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Cold War Overmatch And War Metamorphosis
 

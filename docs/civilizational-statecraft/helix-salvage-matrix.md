@@ -1,6 +1,5 @@
 # Helix-lane v1 → book-first salvage matrix
 
-WORK only; not Record.
 
 Maps the legacy **`rbtkhn/civ-emp`** helix-lane public cut to the **`rbtkhn/civ-state`** book export. Run **before** archiving helix navigation as default.
 

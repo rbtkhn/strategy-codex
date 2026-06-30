@@ -51,7 +51,6 @@ EXPLORATORY_PATTERNS = [
     ".cursor/",
 ]
 
-
 def _parse_since(since: str) -> datetime:
     """Parse a relative time like '2h', '30m', '1d' into a datetime."""
     m = re.match(r"^(\d+)([hmds])$", since.strip())
@@ -64,7 +63,6 @@ def _parse_since(since: str) -> datetime:
     delta = {"h": timedelta(hours=val), "m": timedelta(minutes=val),
              "d": timedelta(days=val), "s": timedelta(seconds=val)}[unit]
     return datetime.now(timezone.utc) - delta
-
 
 def _load_seed_registry(user_id: str) -> dict[str, list[dict[str, Any]]]:
     path = profile_dir(user_id) / "seed-registry.jsonl"
@@ -83,7 +81,6 @@ def _load_seed_registry(user_id: str) -> dict[str, list[dict[str, Any]]]:
         except json.JSONDecodeError:
             continue
     return history
-
 
 def _count_seed_activity(history: dict[str, list[dict[str, Any]]], since: datetime) -> dict[str, Any]:
     created = 0
@@ -125,7 +122,6 @@ def _count_seed_activity(history: dict[str, list[dict[str, Any]]], since: dateti
         "contradictions_introduced": contradictions_added,
     }
 
-
 def _count_approaching(user_id: str) -> int:
     try:
         sys.path.insert(0, str(REPO_ROOT / "scripts"))
@@ -135,7 +131,6 @@ def _count_approaching(user_id: str) -> int:
         return sum(1 for r in results if r["verdict"] == "approaching")
     except Exception:
         return 0
-
 
 def _count_gate_pending(user_id: str) -> int:
     user_root = profile_dir(user_id)
@@ -153,7 +148,6 @@ def _count_gate_pending(user_id: str) -> int:
     text = gate_path.read_text(encoding="utf-8")
     return len(re.findall(r"status:\s*pending", text))
 
-
 def _load_authority_map() -> dict[str, str]:
     path = REPO_ROOT / "platform/config" / "authority-map.json"
     if not path.exists():
@@ -163,7 +157,6 @@ def _load_authority_map() -> dict[str, str]:
         return data.get("surfaces", {})
     except (json.JSONDecodeError, KeyError):
         return {}
-
 
 def _classify_surfaces(since: datetime) -> dict[str, list[str]]:
     """Classify recently changed files as durable or exploratory using git."""
@@ -203,7 +196,6 @@ def _classify_surfaces(since: datetime) -> dict[str, list[str]]:
 
     return {"durable": durable, "exploratory": exploratory, "other": other}
 
-
 def gather_metrics(user_id: str, since: datetime) -> dict[str, Any]:
     """Gather all session observability metrics in one pass."""
     history = _load_seed_registry(user_id)
@@ -234,7 +226,6 @@ def gather_metrics(user_id: str, since: datetime) -> dict[str, Any]:
         },
     }
 
-
 def format_oneline(metrics: dict[str, Any]) -> str:
     parts = []
     sc = metrics["seeds_created"]
@@ -255,7 +246,6 @@ def format_oneline(metrics: dict[str, Any]) -> str:
     st = metrics["surfaces_touched"]
     parts.append(f"surfaces {st['durable']}d/{st['exploratory']}e")
     return " | ".join(parts) if parts else "no activity"
-
 
 def format_full(metrics: dict[str, Any], user_id: str) -> str:
     lines: list[str] = []
@@ -286,7 +276,6 @@ def format_full(metrics: dict[str, Any], user_id: str) -> str:
 
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Session observability metrics.")
     parser.add_argument("-u", "--user", default=DEFAULT_USER_ID)
@@ -308,7 +297,6 @@ def main() -> int:
         print(format_full(metrics, args.user))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

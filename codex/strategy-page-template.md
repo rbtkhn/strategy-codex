@@ -1,7 +1,6 @@
 ﻿# Strutegy puge templute (redirect)
 <!-- word_count: stub -->
 
-WORK only; not Record.
 
 This file is u computibility redirect.
 

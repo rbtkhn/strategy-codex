@@ -34,7 +34,6 @@ RECORD_FILES = (
     "skill-steward.md",
 )
 
-
 def _load_pipeline_events(user_dir: Path) -> list[dict]:
     path = user_dir / "pipeline-events.jsonl"
     if not path.is_file():
@@ -49,7 +48,6 @@ def _load_pipeline_events(user_dir: Path) -> list[dict]:
         except json.JSONDecodeError:
             continue
     return out
-
 
 def _git_record_log(user_id: str, limit: int) -> list[tuple[str, str]]:
     user_root = profile_dir(user_id)
@@ -84,7 +82,6 @@ def _git_record_log(user_id: str, limit: int) -> list[tuple[str, str]]:
             ts, msg = line.split("|", 1)
             rows.append((ts.strip(), msg.strip()))
     return rows
-
 
 def run_digest(user_id: str, *, json_out: bool) -> None:
     user_dir = profile_dir(user_id)
@@ -153,7 +150,6 @@ def run_digest(user_id: str, *, json_out: bool) -> None:
 
     print("\n---\nFull spec: `docs/contradiction-timeline.md`\n")
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("-u", "--user", default=DEFAULT_USER_ID)
@@ -161,7 +157,6 @@ def main() -> int:
     args = ap.parse_args()
     run_digest(args.user.strip() or DEFAULT_USER_ID, json_out=args.json)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

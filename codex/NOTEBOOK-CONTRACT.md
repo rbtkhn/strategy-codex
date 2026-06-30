@@ -1,7 +1,6 @@
 # Notebook contract - strategy-codex
 <!-- word_count: 372 -->
 
-WORK only; not Record.
 
 **Purpose:** Shared hub for the canonical bundle. Normative detail lives in the files below; do not duplicate long excerpts here.
 

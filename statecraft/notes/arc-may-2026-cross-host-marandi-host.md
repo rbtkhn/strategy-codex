@@ -12,7 +12,6 @@ updated_at: 2026-06-28
 
 # Marandi May 2026 cross-host arc
 
-WORK only; not Record.
 
 Purpose: bounded cross-host arc note for the mature May 2026 Marandi run.
 

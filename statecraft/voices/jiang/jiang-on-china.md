@@ -1,6 +1,5 @@
 # Jiang on China
 
-WORK only; not Record.
 
 This note captures the broad local-corpus reading of **Jiang Xueqin's opinion on China** across the available Predictive History material.
 

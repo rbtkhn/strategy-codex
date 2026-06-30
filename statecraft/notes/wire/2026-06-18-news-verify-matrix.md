@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 archive_links:
   - source-archive/statecraft/2026-06-18/day-index.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — 2026-06-18
 

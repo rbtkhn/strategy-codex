@@ -7,4 +7,4 @@
 
 [README parent](../README.md) · [channels/](../channels/) · [raw-input/](../../raw-input/)
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.

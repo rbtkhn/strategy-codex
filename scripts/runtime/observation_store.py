@@ -13,7 +13,6 @@ if str(_RUNTIME_DIR) not in sys.path:
 
 import ledger_paths  # noqa: E402
 
-
 def iter_observations() -> Iterator[dict]:
     path = ledger_paths.observations_jsonl()
     if not path.is_file():
@@ -25,10 +24,8 @@ def iter_observations() -> Iterator[dict]:
                 continue
             yield json.loads(line)
 
-
 def load_all() -> list[dict]:
     return list(iter_observations())
-
 
 def by_id(obs_id: str) -> dict | None:
     for row in iter_observations():

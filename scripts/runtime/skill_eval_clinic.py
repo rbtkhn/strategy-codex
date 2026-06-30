@@ -36,13 +36,11 @@ GOVERNANCE_NOTE = (
     "the normal Grace-Mar gate process before any durable adoption."
 )
 
-
 @dataclass(frozen=True)
 class Finding:
     level: str
     dimension: str
     message: str
-
 
 @dataclass(frozen=True)
 class CandidateImprovement:
@@ -50,7 +48,6 @@ class CandidateImprovement:
     target_dimension: str
     recommendation: str
     candidate_text: str
-
 
 @dataclass(frozen=True)
 class SkillEvalReport:
@@ -62,7 +59,6 @@ class SkillEvalReport:
     candidate_improvements: list[CandidateImprovement]
     governance_note: str
 
-
 def read_skill(path: Path) -> str:
     if not path.exists():
         raise SystemExit(f"Skill file not found: {path}")
@@ -70,15 +66,12 @@ def read_skill(path: Path) -> str:
         raise SystemExit(f"Skill path is not a file: {path}")
     return path.read_text(encoding="utf-8")
 
-
 def contains_any(text: str, patterns: Iterable[str]) -> bool:
     lowered = text.lower()
     return any(pattern.lower() in lowered for pattern in patterns)
 
-
 def regex_any(text: str, patterns: Iterable[str]) -> bool:
     return any(re.search(pattern, text, flags=re.IGNORECASE | re.MULTILINE) for pattern in patterns)
-
 
 def score_boundary_safety(text: str, findings: list[Finding], improvements: list[CandidateImprovement]) -> float:
     score = 20.0
@@ -136,7 +129,6 @@ def score_boundary_safety(text: str, findings: list[Finding], improvements: list
         )
     return max(score, 0.0)
 
-
 def score_evidence_posture(text: str, findings: list[Finding], improvements: list[CandidateImprovement]) -> float:
     score = 20.0
     evidence_terms = [
@@ -176,7 +168,6 @@ def score_evidence_posture(text: str, findings: list[Finding], improvements: lis
             )
         )
     return max(score, 0.0)
-
 
 def score_gate_awareness(text: str, findings: list[Finding], improvements: list[CandidateImprovement]) -> float:
     score = 20.0
@@ -223,7 +214,6 @@ def score_gate_awareness(text: str, findings: list[Finding], improvements: list[
         )
     return max(score, 0.0)
 
-
 def score_operator_clarity(text: str, findings: list[Finding], improvements: list[CandidateImprovement]) -> float:
     score = 20.0
     has_when = regex_any(text, [r"\bwhen to use\b", r"\buse this\b", r"\btrigger\b"])
@@ -266,7 +256,6 @@ def score_operator_clarity(text: str, findings: list[Finding], improvements: lis
         )
     return max(score, 0.0)
 
-
 def score_failure_mode_awareness(text: str, findings: list[Finding], improvements: list[CandidateImprovement]) -> float:
     score = 20.0
     failure_terms = [
@@ -308,7 +297,6 @@ def score_failure_mode_awareness(text: str, findings: list[Finding], improvement
         )
     return max(score, 0.0)
 
-
 def evaluate_skill(path: Path) -> SkillEvalReport:
     text = read_skill(path)
     findings: list[Finding] = []
@@ -335,7 +323,6 @@ def evaluate_skill(path: Path) -> SkillEvalReport:
         governance_note=GOVERNANCE_NOTE,
     )
 
-
 def report_to_jsonable(report: SkillEvalReport) -> dict:
     return {
         "schema_version": report.schema_version,
@@ -346,7 +333,6 @@ def report_to_jsonable(report: SkillEvalReport) -> dict:
         "candidate_improvements": [asdict(item) for item in report.candidate_improvements],
         "governance_note": report.governance_note,
     }
-
 
 def validate_report_json(repo_root: Path, jsonable: dict) -> None:
     """Raise jsonschema.ValidationError if instance does not match schema."""
@@ -360,7 +346,6 @@ def validate_report_json(repo_root: Path, jsonable: dict) -> None:
         raise SystemExit(f"Schema not found: {schema_path}")
     schema = json.loads(schema_path.read_text(encoding="utf-8"))
     Draft202012Validator(schema).validate(jsonable)
-
 
 def report_to_markdown(report: SkillEvalReport) -> str:
     lines = [
@@ -404,7 +389,6 @@ def report_to_markdown(report: SkillEvalReport) -> str:
     lines.extend(["", "## Governance Note", "", report.governance_note, ""])
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Evaluate a Grace-Mar skill file without mutating it.")
     parser.add_argument("--skill", required=True, type=Path, help="Path to skill Markdown file.")
@@ -445,7 +429,6 @@ def main() -> int:
     else:
         print("Completed with no risk findings.")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

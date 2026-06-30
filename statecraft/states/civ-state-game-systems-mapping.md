@@ -1,6 +1,5 @@
 # CIV-STATE → Game Systems Mapping
 
-WORK only; not Record.
 
 One-page bridge for strategy-game developers: how public **Civilizational Statecraft** (`rbtkhn/civ-state`) maps to executable gameplay systems without treating the repo as a history encyclopedia.
 

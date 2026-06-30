@@ -21,10 +21,8 @@ OUT = WORK_DIR / "QUOTE-BANK.md"
 ALLOWED_DEFAULT_STATUSES = {"draft_safe"}
 ALLOWED_WITH_VERIFIED = {"draft_safe", "verified"}
 
-
 def load_yaml(path: Path) -> dict:
     return safe_load_path(path, feature="work_jiang/render_quote_bank.py") or {}
-
 
 def main() -> int:
     ap = argparse.ArgumentParser()
@@ -102,7 +100,6 @@ def main() -> int:
     for e in errors:
         print(f"ERROR: {e}", file=sys.stderr)
     return 1 if errors else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

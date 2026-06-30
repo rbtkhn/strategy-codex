@@ -27,7 +27,6 @@ TABLE_HEADER = "| date | speech_act | stance | capture | note |"
 CAPTURE_LINK_RE = re.compile(r"\]\((\.\./\.\./\.\./source-archive/statecraft/[^)]+)\)")
 NOTE_LINK_RE = re.compile(r"\]\(\.\./\.\./notes/predictions/([^)]+)\)")
 
-
 def table_rows_for_section(text: str, event_id: str) -> list[str]:
     marker = f"## {event_id}"
     start = text.find(marker)
@@ -42,7 +41,6 @@ def table_rows_for_section(text: str, event_id: str) -> list[str]:
         if line.startswith("| 20") and "|" in line[1:]:
             rows.append(line)
     return rows
-
 
 def run_check(*, path: Path) -> tuple[list[str], list[str]]:
     issues: list[str] = []
@@ -107,7 +105,6 @@ def run_check(*, path: Path) -> tuple[list[str], list[str]]:
 
     return issues, warnings
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--path", type=Path, default=DEFAULT_PATH)
@@ -122,7 +119,6 @@ def main() -> int:
         return 1
     print("[ok] freeman-predictions.md valid")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

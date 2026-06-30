@@ -1,5 +1,4 @@
 ﻿# Persia Primary Sources - Medieval
-WORK only; not Record.
 This file contains the Medieval primary-source shelf for the Persia CIV-STATE volume.
 ## Primary Sources
 ### Medieval

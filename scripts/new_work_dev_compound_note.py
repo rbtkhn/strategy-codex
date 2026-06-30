@@ -16,28 +16,23 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent
 NOTES_DIR = REPO_ROOT / "docs" / "skill-work" / "work-dev" / "compound-notes"
 
-
 def _slugify(value: str) -> str:
     slug = re.sub(r"[^A-Za-z0-9._-]+", "-", value.strip().lower()).strip("-")
     return slug or "compound-note"
-
 
 def _yaml_list(paths: list[str], indent: str) -> str:
     if not paths:
         return "[]"
     return "\n" + "\n".join(f"{indent}- {p}" for p in paths)
 
-
 def _bool_yaml(b: bool) -> str:
     return "true" if b else "false"
-
 
 def _yaml_dq(s: str) -> str:
     """Double-quoted YAML scalar, minimal escaping."""
     if not s:
         return '""'
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
-
 
 def build_note(
     title: str,
@@ -73,19 +68,11 @@ record_status: work-only
 
 ## Context
 
-
-
 ## What happened
-
-
 
 ## Reusable lesson
 
-
-
 ## Failure pattern
-
-
 
 ## Self-catching test
 
@@ -101,14 +88,11 @@ Choose one:
 
 ## Candidate follow-up
 
-
-
 ## Gate recommendation
 
 No gate action by default. This remains a work-only learning artifact unless explicitly staged.
 
 """
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -174,7 +158,6 @@ def main() -> int:
     out_path.write_text(body, encoding="utf-8", newline="\n")
     print(out_path)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

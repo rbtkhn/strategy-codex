@@ -71,7 +71,7 @@ _Generated observability artifact. Rebuild with `python scripts/build_statecraft
 | `Nima Alkhorshid` | 30 |
 | `Glenn Diesen` | 20 |
 | `Diesen` | 10 |
-| `Nima Alkorshid` | 7 |
+| `Nima Alkhorshid` | 7 |
 | `Mario Nawfal` | 5 |
 | `Alex Christoforou` | 3 |
 | `Dialogue Works` | 3 |

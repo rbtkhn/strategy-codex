@@ -1,6 +1,5 @@
 # Security Council Carrier
 
-WORK only; not Record.
 
 Use this note when a Russia-lane instrument appears to require collective elite backing rather than only presidential signature.
 

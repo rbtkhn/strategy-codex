@@ -1,7 +1,6 @@
 # Expert transcript — `freeman`
 <!-- word_count: 689 -->
 
-WORK only; not Record.
 
 Compatibility note: this is a legacy continuity transcript surface. Use it as support residue, not as a first-open citation path when the canonical Freeman shelf already lives under [statecraft/voices/freeman/](README.md) and the person arc, routing note, bounded month ladder, support spine, or raw-input bench already answer the question more directly.
 

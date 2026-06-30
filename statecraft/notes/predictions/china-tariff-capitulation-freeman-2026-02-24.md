@@ -7,9 +7,8 @@ stance: no
 confidence: high
 source: source-archive/statecraft/2026-02-24/source-judging-freedom-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md
 speech_act: restated
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — China tariff capitulation (2026-02-24)
 

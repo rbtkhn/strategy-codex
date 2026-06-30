@@ -20,24 +20,20 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
-
 
 def _section(content: str, title: str) -> str | None:
     pattern = rf"^## {re.escape(title)}\s*\n(.*?)(?=^## |\Z)"
     m = re.search(pattern, content, re.MULTILINE | re.DOTALL)
     return m.group(1).strip() if m else None
 
-
 def _subsection(content: str, title: str) -> str | None:
     pattern = rf"^### {re.escape(title)}\s*\n(.*?)(?=^### |^## |\Z)"
     m = re.search(pattern, content, re.MULTILINE | re.DOTALL)
     return m.group(1).strip() if m else None
-
 
 def _yaml_list(block: str, key: str) -> list[str]:
     """Extract a YAML list like key: [a, b] or key: - a."""
@@ -53,13 +49,11 @@ def _yaml_list(block: str, key: str) -> list[str]:
         return [x.strip().strip("\"'") for x in re.findall(r"[^,\[\]]+", m.group(1)) if x.strip()]
     return []
 
-
 def _scalar(block: str, key: str) -> str:
     m = re.search(rf"^{re.escape(key)}:\s*(.+)$", block, re.MULTILINE)
     if not m:
         return ""
     return m.group(1).strip().strip("\"'").split("#")[0].strip()
-
 
 def _ix_b_topics(content: str) -> list[str]:
     """Extract IX-B curiosity topics (CUR- entries or bullet topics)."""
@@ -77,7 +71,6 @@ def _ix_b_topics(content: str) -> list[str]:
                 topics.append(line[:80])
     return topics[:30]
 
-
 def _ix_c_snippets(content: str) -> list[str]:
     """Extract IX-C personality observations (PER- entries or bullets)."""
     idx = content.find("### IX-C. PERSONALITY")
@@ -91,7 +84,6 @@ def _ix_c_snippets(content: str) -> list[str]:
         for m in re.finditer(r'observation:\s*["\']([^"\']+)["\']', block):
             snippets.append(m.group(1).strip())
     return snippets[:20]
-
 
 def export_engagement_profile(user_id: str = "grace-mar") -> dict:
     """Build engagement profile dict: interests, curiosity, personality, talent_stack."""
@@ -141,7 +133,6 @@ def export_engagement_profile(user_id: str = "grace-mar") -> dict:
         "talent_stack": talent_stack or None,
     }
 
-
 def export_engagement_profile_md(profile: dict) -> str:
     """Render engagement profile as short markdown for humans."""
     if not profile.get("ok"):
@@ -178,7 +169,6 @@ def export_engagement_profile_md(profile: dict) -> str:
         lines.append("")
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Export engagement/motivation profile from Record")
     parser.add_argument("--user", "-u", default="grace-mar", help="User id")
@@ -198,7 +188,6 @@ def main() -> int:
     else:
         print(content, end="")
     return 0 if profile.get("ok") else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

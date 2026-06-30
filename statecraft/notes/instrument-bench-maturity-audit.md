@@ -18,7 +18,6 @@ archive_links:
 ---
 # Transaction-Bench Maturity Audit
 
-WORK only; not Record.
 
 See [notes taxonomy](./README.md#thread-and-arc-canonical-draft).
 

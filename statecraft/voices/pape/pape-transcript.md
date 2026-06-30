@@ -1,7 +1,6 @@
 # Expert transcript — `pape`
 <!-- word_count: 7822 -->
 
-WORK only; not Record.
 
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) that include `thread:pape` (first line + optional continuation paragraphs), routed on ingest.
 **codex-page:** **`statecraft/voices/pape/pape-page-YYYY-MM-DD.md`** — Verbatim / Reflection / Foresight artifact; points to **verbatim** in [`raw-input/`](../../sheets/source-archive-control/README.md). Distinct from a **`strategy-page`** fence in [`thread.md`](pape-thread.md) unless you duplicate judgment there during EOD compose. **Template:** [`pape-page-template.md`](pape-page-template.md).

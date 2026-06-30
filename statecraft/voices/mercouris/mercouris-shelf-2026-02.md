@@ -1,6 +1,5 @@
 # Mercouris Shelf - 2026-02
 
-WORK only; not Record.
 
 This monthly shelf is the February 2026 bridge-month support surface for the `mercouris` cognition stream. It should be read as a **mature bridge month**: no longer mere continuity carryover from January, but not yet the April-May dense core. February is where Mercouris’s native stream hardens from stalled negotiation theater into a multi-theater escalation sequence shaped by negotiation breakdown, dirty-war retaliation logic, infrastructure collapse, European rhetorical overreach, and widening Iran / Cuba / Russia-China coupling.
 

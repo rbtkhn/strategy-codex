@@ -53,7 +53,6 @@ _STATE_HEADER = (
     "# After scoring the round with prefix-end N, run: advance --completed-round N\n"
 )
 
-
 def read_closed_loop_state(path: Path) -> int | None:
     """Return last completed prefix-end round, or None if missing/invalid."""
     if not path.is_file():
@@ -68,7 +67,6 @@ def read_closed_loop_state(path: Path) -> int | None:
             return int(m.group(1))
     return None
 
-
 def write_closed_loop_state(path: Path, completed_round: int) -> None:
     if completed_round < 1:
         sys.exit(
@@ -79,7 +77,6 @@ def write_closed_loop_state(path: Path, completed_round: int) -> None:
     body = f"{_STATE_HEADER}{_STATE_KEY}: {completed_round}\n"
     path.write_text(body, encoding="utf-8")
     print(path, file=sys.stderr)
-
 
 def enforce_closed_loop_bundle(
     *,
@@ -121,7 +118,6 @@ def enforce_closed_loop_bundle(
             f"error: closed-loop requires non-empty series model file: {series_model_path}"
         )
 
-
 def cmd_advance(args: argparse.Namespace) -> None:
     path = args.closed_loop_state
     if getattr(args, "reset", False):
@@ -133,7 +129,6 @@ def cmd_advance(args: argparse.Namespace) -> None:
         return
     write_closed_loop_state(path, args.completed_round)
 
-
 def resolve_lecture(lectures_dir: Path, series: str, episode: int) -> Path:
     pat = f"{series}-{episode:02d}-*.md"
     matches = sorted(lectures_dir.glob(pat))
@@ -143,7 +138,6 @@ def resolve_lecture(lectures_dir: Path, series: str, episode: int) -> Path:
         sys.exit(f"error: ambiguous {pat}: {matches}")
     return matches[0]
 
-
 def _maybe_trim(text: str, trim_at_full_transcript: bool) -> str:
     if not trim_at_full_transcript:
         return text
@@ -151,7 +145,6 @@ def _maybe_trim(text: str, trim_at_full_transcript: bool) -> str:
     if idx == -1:
         return text
     return text[:idx].rstrip() + "\n\n<!-- trimmed at Full transcript -->\n"
-
 
 def extract_reveal_snippet(text: str) -> str:
     """H1 through metadata + ``## At a glance`` block (stop at first ``---`` fence)."""
@@ -165,7 +158,6 @@ def extract_reveal_snippet(text: str) -> str:
     header = "\n".join(lines_b[start:]).rstrip()
     glance_block = marker + rest.split("\n---", 1)[0]
     return f"{header}\n\n{glance_block.strip()}\n"
-
 
 def cmd_bundle(args: argparse.Namespace) -> None:
     lectures_dir: Path = args.lectures_dir
@@ -204,7 +196,6 @@ def cmd_bundle(args: argparse.Namespace) -> None:
     else:
         sys.stdout.write(output)
 
-
 def cmd_reveal(args: argparse.Namespace) -> None:
     lectures_dir: Path = args.lectures_dir
     series: str = args.series
@@ -226,7 +217,6 @@ def cmd_reveal(args: argparse.Namespace) -> None:
         f"<!-- reveal episode {m:02d} | {path.relative_to(_ROOT)} -->\n{snippet}"
     )
 
-
 def cmd_paths(args: argparse.Namespace) -> None:
     """Print resolved paths for episodes 1..K only (audit)."""
     lectures_dir: Path = args.lectures_dir
@@ -235,7 +225,6 @@ def cmd_paths(args: argparse.Namespace) -> None:
     for ep in range(1, k + 1):
         p = resolve_lecture(lectures_dir, series, ep)
         print(p)
-
 
 def _add_common(p: argparse.ArgumentParser) -> None:
     p.add_argument(
@@ -249,7 +238,6 @@ def _add_common(p: argparse.ArgumentParser) -> None:
         default="game-theory",
         help="filename prefix, e.g. game-theory (default)",
     )
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -337,7 +325,6 @@ def main() -> None:
 
     args = parser.parse_args()
     args.func(args)
-
 
 if __name__ == "__main__":
     main()

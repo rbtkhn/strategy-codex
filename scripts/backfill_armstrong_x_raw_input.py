@@ -2,7 +2,6 @@
 """Backfill Armstrong X posts into strategy-notebook raw-input/.
 
 Thin wrapper around ``backfill_x_profile_raw_input.py`` with Armstrong defaults.
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -20,7 +19,6 @@ from backfill_x_profile_raw_input import DEFAULT_RAW_ROOT, run
 
 DEFAULT_PROFILE_URL = "https://x.com/ArmstrongEcon"
 DEFAULT_THREAD = "armstrong"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -46,7 +44,6 @@ def main() -> int:
         apply=args.apply,
         status_urls=args.status_url,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

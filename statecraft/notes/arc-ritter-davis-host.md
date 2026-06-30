@@ -16,7 +16,6 @@ archive_links:
 
 # Davis x Ritter speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Davis x Ritter` run inside the Davis stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Ritter lane Davis elicits, which files matter most, and how this host-local run differs from the Diesen and Dialogue Works Ritter lanes.
 
@@ -96,7 +95,7 @@ Use this speaker arc when a Davis ingest or batch pass is doing one or more of t
 Typical pairings around the guest lane:
 
 - `diesen`
-- `alkorshid`
+- `alkhorshid`
 - `johnson`
 - `marandi`
 

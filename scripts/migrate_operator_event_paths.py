@@ -26,7 +26,6 @@ from repo_io import (  # noqa: E402
     profile_dir,
 )
 
-
 def _plan_moves() -> list[tuple[Path, Path]]:
     moves: list[tuple[Path, Path]] = []
     root = profile_dir("")
@@ -41,7 +40,6 @@ def _plan_moves() -> list[tuple[Path, Path]]:
     if dream_src.is_file() and not dream_dst.exists():
         moves.append((dream_src, dream_dst))
     return moves
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Migrate operator ledgers to runtime/operator-events/")
@@ -64,7 +62,6 @@ def main() -> int:
             shutil.move(str(src), str(dst))
             print(f"moved {rel_src} -> {rel_dst}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

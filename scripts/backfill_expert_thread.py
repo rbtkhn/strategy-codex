@@ -92,7 +92,6 @@ CODE_FENCE_RE = re.compile(r"^\s*```")
 MARKDOWN_LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 HTML_COMMENT_RE = re.compile(r"<!--.*?-->", re.DOTALL)
 
-
 @dataclass
 class Evidence:
     event_date: str
@@ -105,14 +104,11 @@ class Evidence:
     git_last_commit_date: Optional[str] = None
     confidence: str = "medium"
 
-
 def parse_date(value: str) -> date:
     return datetime.strptime(value, "%Y-%m-%d").date()
 
-
 def month_key(d: date) -> str:
     return d.strftime("%Y-%m")
-
 
 def months_spanning_range(start: date, end: date) -> list[str]:
     """
@@ -134,14 +130,11 @@ def months_spanning_range(start: date, end: date) -> list[str]:
             cur = date(cur.year, cur.month + 1, 1)
     return out
 
-
 def ensure_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
-
 def normalize_space(text: str) -> str:
     return WHITESPACE_RE.sub(" ", text).strip()
-
 
 def truncate(text: str, max_len: int = 220) -> str:
     text = normalize_space(text)
@@ -149,14 +142,11 @@ def truncate(text: str, max_len: int = 220) -> str:
         return text
     return text[: max_len - 1].rstrip() + "…"
 
-
 def marker_block_start(expert_id: str) -> str:
     return f"<!-- backfill:{expert_id}:start -->"
 
-
 def marker_block_end(expert_id: str) -> str:
     return f"<!-- backfill:{expert_id}:end -->"
-
 
 def run_git(args: list[str], cwd: Path = REPO_ROOT) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
@@ -167,11 +157,9 @@ def run_git(args: list[str], cwd: Path = REPO_ROOT) -> subprocess.CompletedProce
         check=False,
     )
 
-
 def git_available() -> bool:
     cp = run_git(["rev-parse", "--is-inside-work-tree"])
     return cp.returncode == 0 and "true" in cp.stdout.lower()
-
 
 def git_last_touch(path: Path) -> tuple[Optional[str], Optional[str]]:
     rel = path.relative_to(REPO_ROOT).as_posix()
@@ -183,7 +171,6 @@ def git_last_touch(path: Path) -> tuple[Optional[str], Optional[str]]:
         return raw, None
     sha, d = raw.split("|", 1)
     return sha[:12], d.strip()
-
 
 def git_mentions_for_expert(
     expert_id: str, aliases: list[str], start: date, end: date
@@ -242,7 +229,6 @@ def git_mentions_for_expert(
         )
     return dedupe_evidence(results)
 
-
 def aliases_for(expert_id: str, extra_aliases: list[str]) -> list[str]:
     aliases = list(DEFAULT_ALIASES.get(expert_id, []))
     aliases.extend(extra_aliases)
@@ -259,11 +245,9 @@ def aliases_for(expert_id: str, extra_aliases: list[str]) -> list[str]:
             out.append(a_norm)
     return out
 
-
 def text_mentions_any(text: str, aliases: list[str]) -> bool:
     lowered = text.lower()
     return any(alias in lowered for alias in aliases)
-
 
 def extract_nontrivial_lines(block: str) -> list[str]:
     lines: list[str] = []
@@ -288,7 +272,6 @@ def extract_nontrivial_lines(block: str) -> list[str]:
             lines.append(stripped)
     return lines
 
-
 def best_summary_from_block(block: str) -> str:
     lines = extract_nontrivial_lines(block)
 
@@ -312,7 +295,6 @@ def best_summary_from_block(block: str) -> str:
     joined = normalize_space(" ".join(lines))
     return truncate(joined, 220) if joined else ""
 
-
 def parse_date_sections(text: str) -> dict[str, str]:
     matches = list(DATE_HEADING_RE.finditer(text))
     sections: dict[str, str] = {}
@@ -323,11 +305,9 @@ def parse_date_sections(text: str) -> dict[str, str]:
         sections[d] = text[start:end].strip()
     return sections
 
-
 def source_anchor_label(path: Path, d: str) -> str:
     rel = path.relative_to(REPO_ROOT).as_posix()
     return f"{rel}#{d}"
-
 
 def collect_transcript_evidence(
     expert_id: str, aliases: list[str], start: date, end: date
@@ -366,7 +346,6 @@ def collect_transcript_evidence(
         )
     return out
 
-
 def iter_days_files(start: date, end: date) -> Iterable[Path]:
     seen: set[Path] = set()
     cur = date(start.year, start.month, 1)
@@ -380,7 +359,6 @@ def iter_days_files(start: date, end: date) -> Iterable[Path]:
             cur = date(cur.year + 1, 1, 1)
         else:
             cur = date(cur.year, cur.month + 1, 1)
-
 
 def collect_days_evidence(
     expert_id: str, aliases: list[str], start: date, end: date
@@ -420,7 +398,6 @@ def collect_days_evidence(
             )
     return out
 
-
 def page_date_from_path(path: Path) -> Optional[date]:
     m = PAGE_DATE_RE.search(path.name)
     if not m:
@@ -429,7 +406,6 @@ def page_date_from_path(path: Path) -> Optional[date]:
         return parse_date(m.group(1))
     except ValueError:
         return None
-
 
 def collect_page_evidence(
     expert_id: str, aliases: list[str], start: date, end: date
@@ -465,7 +441,6 @@ def collect_page_evidence(
         )
     return out
 
-
 def load_supplement_evidence(path: Path, start: date, end: date) -> list[Evidence]:
     """Load JSON array of Evidence dicts; keep rows whose ``event_date`` falls in [start, end]."""
     raw = json.loads(path.read_text(encoding="utf-8"))
@@ -484,7 +459,6 @@ def load_supplement_evidence(path: Path, start: date, end: date) -> list[Evidenc
             out.append(item)
     return out
 
-
 def dedupe_evidence(items: list[Evidence]) -> list[Evidence]:
     seen: set[tuple[str, str, str, str]] = set()
     out: list[Evidence] = []
@@ -496,7 +470,6 @@ def dedupe_evidence(items: list[Evidence]) -> list[Evidence]:
         out.append(item)
     return out
 
-
 def grouped_by_month(items: list[Evidence]) -> dict[str, list[Evidence]]:
     groups: dict[str, list[Evidence]] = defaultdict(list)
     for item in sorted(items, key=lambda x: (x.event_date, x.source_type, x.path)):
@@ -507,13 +480,11 @@ def grouped_by_month(items: list[Evidence]) -> dict[str, list[Evidence]]:
             continue
     return dict(sorted(groups.items()))
 
-
 def format_bullet(item: Evidence) -> str:
     source_stub = f"{item.source_type}: `{item.path}`"
     if item.git_last_commit and item.git_last_commit_date:
         source_stub += f" (last touch {item.git_last_commit_date} {item.git_last_commit})"
     return f"- **{item.event_date}** — {item.summary}  \n  _Source:_ {source_stub}"
-
 
 def render_backfill_block(expert_id: str, start: date, end: date, evidence: list[Evidence]) -> str:
     groups = grouped_by_month(archive/placeholders/evidence)
@@ -555,7 +526,6 @@ def render_backfill_block(expert_id: str, start: date, end: date, evidence: list
     lines.append(marker_block_end(expert_id))
     return "\n".join(lines).rstrip() + "\n"
 
-
 def extract_machine_block(text: str) -> Optional[str]:
     """Bytes between strategy-expert-thread start and end markers (inclusive)."""
     start = text.find(THREAD_MARKER_START)
@@ -564,7 +534,6 @@ def extract_machine_block(text: str) -> Optional[str]:
         return None
     end_full = end + len(THREAD_MARKER_END)
     return text[start:end_full]
-
 
 def splice_backfill_into_thread(
     thread_text: str, expert_id: str, block: str, replace_backfill: bool
@@ -593,7 +562,6 @@ def splice_backfill_into_thread(
         return prefix + block.rstrip() + "\n\n" + suffix
 
     return thread_text.rstrip() + "\n\n" + block.rstrip() + "\n"
-
 
 def build_report(
     expert_id: str,
@@ -627,13 +595,11 @@ def build_report(
         "supplement_merged": len(supplement) if supplement else 0,
     }
 
-
 def write_json_report(expert_id: str, start: date, end: date, report: dict) -> Path:
     ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
     out = ARTIFACT_DIR / f"{expert_id}-{start.isoformat()}-{end.isoformat()}.json"
     out.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return out
-
 
 def validate_expert_id(expert_id: str) -> None:
     sys.path.insert(0, str(REPO_ROOT / "scripts"))
@@ -646,7 +612,6 @@ def validate_expert_id(expert_id: str) -> None:
             f"Unknown expert_id `{expert_id}`. "
             f"Expected one of the canonical ids from strategy_expert_corpus.py."
         )
-
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
@@ -764,7 +729,6 @@ def main() -> int:
     print(f"Applied backfill block to {thread_path.relative_to(REPO_ROOT)}")
     print("Machine extraction block unchanged (verified).")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

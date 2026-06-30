@@ -1,6 +1,5 @@
 # Verified Live-Event To Instrument
 
-WORK only; not Record.
 
 Use this sheet when the operator names one recent event and needs the shortest honest path from unstable facts to a statecraft artifact.
 

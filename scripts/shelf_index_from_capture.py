@@ -21,7 +21,6 @@ if str(_SCRIPTS) not in sys.path:
 import shelf_index_utils as shelf  # noqa: E402
 from statecraft_day_archive import DEFAULT_ROOT, parse_frontmatter, read_text  # noqa: E402
 
-
 def resolve_capture(path: Path, archive_root: Path) -> Path:
     path = path.resolve()
     if path.is_file():
@@ -34,84 +33,70 @@ def resolve_capture(path: Path, archive_root: Path) -> Path:
         return candidate
     raise FileNotFoundError(f"capture not found: {path}")
 
-
 def rebuild_pape_index() -> None:
     import build_pape_index as pape_idx  # noqa: E402
 
     pape_idx.main()
-
 
 def rebuild_hoh_index() -> None:
     import build_hoh_index as hoh_idx  # noqa: E402
 
     hoh_idx.main()
 
-
 def rebuild_martyanov_index() -> None:
     import build_martyanov_index as martyanov_idx  # noqa: E402
 
     martyanov_idx.main()
-
 
 def rebuild_postol_index() -> None:
     import build_postol_index as postol_idx  # noqa: E402
 
     postol_idx.main()
 
-
 def rebuild_mcgovern_index() -> None:
     import build_mcgovern_index as mcgovern_idx  # noqa: E402
 
     mcgovern_idx.main()
-
 
 def rebuild_crooke_index() -> None:
     import build_crooke_index as crooke_idx  # noqa: E402
 
     crooke_idx.main()
 
-
 def rebuild_krapivnik_index() -> None:
     import build_krapivnik_index as krapivnik_idx  # noqa: E402
 
     krapivnik_idx.main()
-
 
 def rebuild_krainer_index() -> None:
     import build_krainer_index as krainer_idx  # noqa: E402
 
     krainer_idx.main()
 
-
 def rebuild_baud_index() -> None:
     import build_baud_index as baud_idx  # noqa: E402
 
     baud_idx.main()
-
 
 def rebuild_kent_index() -> None:
     import build_kent_index as kent_idx  # noqa: E402
 
     kent_idx.main()
 
-
 def rebuild_aguilar_index() -> None:
     import build_aguilar_index as aguilar_idx  # noqa: E402
 
     aguilar_idx.main()
-
 
 def rebuild_matlock_index() -> None:
     import build_matlock_index as matlock_idx  # noqa: E402
 
     matlock_idx.main()
 
-
 def rebuild_jiang_index() -> None:
     import build_jiang_index as jiang_idx  # noqa: E402
 
     jiang_idx.main()
-
 
 def apply_for_slug(slug: str, capture: Path, meta: dict, body: str) -> bool:
     if slug == "pape":
@@ -167,7 +152,6 @@ def apply_for_slug(slug: str, capture: Path, meta: dict, body: str) -> bool:
         index_text = shelf.read_text(shelf.shelf_index_path(slug))
         return shelf.capture_cited_in_index(index_text, capture)
     return shelf.append_capture_to_index(slug, capture, meta, body=body)
-
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -233,7 +217,6 @@ def main(argv: list[str] | None = None) -> int:
         return code
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

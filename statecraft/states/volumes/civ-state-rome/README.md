@@ -2,7 +2,7 @@
 
 **Civilizational Statecraft**, Volume III. Volume introduction: [Pax Romana](introduction.md). `civ-state-rome` is the workshop folder slug—not the book title.
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Rome is currently a CIV-STATE source-memory volume rather than a full repo-root lane peer. Use it when the live object needs Roman republic/empire formation, late-imperial breakdown, Christian and Eastern Roman continuity, papal residue, or successor-order comparison.
 

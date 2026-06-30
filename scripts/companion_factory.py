@@ -28,7 +28,6 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-
 def _default_copy_ignore(src: str, names: list[str]) -> set[str]:
     skip = {
         ".git",
@@ -41,7 +40,6 @@ def _default_copy_ignore(src: str, names: list[str]) -> set[str]:
         "node_modules",
     }
     return {n for n in names if n in skip or n.endswith(".pyc")}
-
 
 def cmd_new(instance_name: str, template: Path, output_dir: Path) -> int:
     if not instance_name.replace("-", "").replace("_", "").isalnum():
@@ -105,7 +103,6 @@ def cmd_new(instance_name: str, template: Path, output_dir: Path) -> int:
     print(f"  python3 scripts/validate-seed-phase.py {rel_seed} --allow-placeholders")
     return 0
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Companion factory — new instance from template directory.")
     sub = ap.add_subparsers(dest="command", required=True)
@@ -129,7 +126,6 @@ def main() -> int:
     if args.command == "new":
         return cmd_new(args.instance_name, args.template, args.output_dir)
     return 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

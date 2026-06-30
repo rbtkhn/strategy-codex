@@ -1,6 +1,5 @@
 # China Shelf Reader
 
-WORK only; not Record.
 
 ## What This Shelf Is For
 

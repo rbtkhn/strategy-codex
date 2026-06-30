@@ -1,6 +1,5 @@
 # Mearsheimer speaker object
 
-WORK only; not Record.
 
 object_shape: person-arc-first
 

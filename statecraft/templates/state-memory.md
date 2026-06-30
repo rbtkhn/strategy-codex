@@ -1,6 +1,5 @@
 # State Memory Template
 
-WORK only; not Record.
 
 Use this template for civilization-layer objects that store durable state-authority memory. A state-memory object is not a biography, not a current officeholder profile, and not a transaction. It names the long authority pattern that current state carriers inherit.
 

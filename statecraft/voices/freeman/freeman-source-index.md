@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Freeman Source Index (compat redirect)
 

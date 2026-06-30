@@ -27,7 +27,6 @@ if str(_SCRIPTS) not in sys.path:
 
 from gated_record_rules import allowed_gated_commit_message, is_gated_record_path
 
-
 def main() -> int:
     if os.environ.get("ALLOW_GATED_RECORD_EDIT", "").strip() in ("1", "yes", "true"):
         return 0
@@ -64,7 +63,6 @@ def main() -> int:
         file=sys.stderr,
     )
     return 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

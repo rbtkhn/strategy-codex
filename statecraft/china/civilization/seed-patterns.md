@@ -1,6 +1,5 @@
 # China Civilization Seed Patterns
 
-WORK only; not Record.
 
 These seeds translate CIV-MEM into China-lane civilization patterns. State rules should draw from these patterns and the China empire folder, not directly from CIV-MEM.
 

@@ -1,6 +1,6 @@
 # Source Excerpts
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder holds bounded excerpt collections tied to CIV-STATE `source_id` records.
 

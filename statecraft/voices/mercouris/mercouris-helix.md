@@ -1,6 +1,5 @@
 # Mercouris helix
 
-WORK only; not Record.
 
 Purpose: provide the normalized crossing-surface slot for Mercouris without forcing him into the wrong inner architecture.
 

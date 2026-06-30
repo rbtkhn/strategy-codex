@@ -25,14 +25,12 @@ from repo_io import (  # noqa: E402
     validate_repo_path_classification,
 )
 
-
 def _layout_issue_kind(issue: str) -> str:
     if ": dual layout" in issue:
         return "dual"
     if ": legacy-only" in issue:
         return "legacy_only"
     return "other"
-
 
 def collect_scan_report() -> dict[str, Any]:
     classification_issues = validate_repo_path_classification()
@@ -92,7 +90,6 @@ def collect_scan_report() -> dict[str, Any]:
         "retirement_candidates": retirement_candidates,
     }
 
-
 def _print_text_report(report: dict[str, Any]) -> None:
     summary = report["summary"]
     print("Repo path strict scan")
@@ -127,10 +124,8 @@ def _print_text_report(report: dict[str, Any]) -> None:
         print("")
         print("ok: no active legacy repo path layouts detected")
 
-
 def _yes_no(value: bool) -> str:
     return "yes" if value else "no"
-
 
 _WAVE_READINESS_TITLES: dict[int, str] = {
     2: "Wave 2 platform readiness",
@@ -138,10 +133,8 @@ _WAVE_READINESS_TITLES: dict[int, str] = {
     4: "Wave 4 Grace-Mar compatibility readiness",
 }
 
-
 def _wave_readiness_title(wave: int) -> str:
     return _WAVE_READINESS_TITLES.get(wave, f"Wave {wave} readiness")
-
 
 def _print_wave_readiness_report(report: dict[str, Any]) -> None:
     wave = report["wave"]
@@ -170,11 +163,9 @@ def _print_wave_readiness_report(report: dict[str, Any]) -> None:
         for status, count in sorted(summary.items()):
             print(f"- {status}: {count}")
 
-
 def _wave_readiness_has_blockers(report: dict[str, Any]) -> bool:
     allowed = {"ready", "ready_docs_only_refs"}
     return any(item.get("status") not in allowed for item in report["keys"].values())
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -224,7 +215,6 @@ def main() -> int:
     if has_issues and not args.json:
         print(f"repo-path-strict: {len(report['issues'])} issue(s)", file=sys.stderr)
     return 1 if (args.strict and has_issues) else (0 if not has_issues else 0)
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

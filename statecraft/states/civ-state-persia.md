@@ -1,6 +1,5 @@
 # CIV-STATE Persia
 
-WORK only; not Record.
 
 This is the top-level alias door for the Persia CIV-STATE volume.
 

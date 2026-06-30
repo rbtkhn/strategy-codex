@@ -20,13 +20,11 @@ from typing import Literal
 REPO_ROOT = Path(__file__).resolve().parent.parent
 REPORT_PATH = ARTIFACTS_DIR / "mcp-governance-demo-report.md"
 
-
 def _posix(base: Path, path: Path) -> str:
     try:
         return path.resolve().relative_to(base.resolve()).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def _run_step(cmd: list[str], cwd: Path) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
@@ -36,7 +34,6 @@ def _run_step(cmd: list[str], cwd: Path) -> subprocess.CompletedProcess[str]:
         capture_output=True,
         text=True,
     )
-
 
 def _parse_artifact_paths(stdout: str, stderr: str) -> list[str]:
     found: list[str] = []
@@ -54,13 +51,11 @@ def _parse_artifact_paths(stdout: str, stderr: str) -> list[str]:
             out.append(p)
     return out
 
-
 def _tail(text: str, max_chars: int = 800) -> str:
     t = text.strip()
     if len(t) <= max_chars:
         return t
     return t[-max_chars:]
-
 
 @dataclass
 class StepResult:
@@ -71,7 +66,6 @@ class StepResult:
     status: Literal["PASS", "FAIL", "SKIP_ABSENT"]
     notes: str = ""
     artifacts: list[str] = field(default_factory=list)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Run MCP governance demo checks (local scripts only).")
@@ -365,7 +359,6 @@ def main() -> int:
     print(_posix(root, report_out.resolve()))
 
     return code
-
 
 if __name__ == "__main__":
     sys.exit(main())

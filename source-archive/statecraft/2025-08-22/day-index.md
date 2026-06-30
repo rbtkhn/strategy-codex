@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1)
-- Threads: `alkorshid` (1), `freeman` (1)
+- Threads: `alkhorshid` (1), `freeman` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `freeman` | [watch](https://www.youtube.com/watch?v=VnhBqh7J4CQ) | `source-dialogue-works-amb-chas-freeman-u-s-on-the-brink-of-disaster-2025-08-22.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `freeman` | [watch](https://www.youtube.com/watch?v=VnhBqh7J4CQ) | `source-dialogue-works-amb-chas-freeman-u-s-on-the-brink-of-disaster-2025-08-22.md` |
 
 ## Writer sources
 

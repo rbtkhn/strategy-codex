@@ -1,6 +1,5 @@
 # Frontier Agent Control Plane Direction
 
-WORK only; not Record.
 
 ## Why this memo exists
 

@@ -1,6 +1,5 @@
 # arc-mercouris-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [mercouris-arc.md](mercouris-arc.md)
 

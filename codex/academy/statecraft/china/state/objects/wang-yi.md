@@ -1,6 +1,5 @@
 # Wang Yi Authority Carrier Object
 
-WORK only; not Record.
 
 ## Object
 
@@ -72,7 +71,7 @@ Use these as starting surfaces, not an exhaustive set:
 - **Gao / China behind-the-scenes peace pressure:** [2026-04-24 Haiphong / Gao](../../../../../../source-archive/statecraft/2026-04-24/source-haiphong-gao-brutal-warning-trump-iran-china-2026-04-24.md)
 - **Baud / sanctions resistance and Eurasian linkage:** [2026-05-11 Baud](../../../../../../source-archive/statecraft/2026-05-11/source-dialogue-works-baud-hormuz-security-architecture-2026-05-11.md)
 - **Johnson / Gulf security architecture phrase:** [2026-05-08 Diesen / Johnson](../../../../../../source-archive/statecraft/2026-05-08/source-diesen-johnson-iran-war-creates-a-new-middle-east-2026-05-08.md)
-- **Johnson / Qatar and Gulf architecture:** [2026-05-08 Alkorshid / Johnson](../../../../../../source-archive/statecraft/2026-05-08/source-dialogue-works-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)
+- **Johnson / Qatar and Gulf architecture:** [2026-05-08 Alkhorshid / Johnson](../../../../../../source-archive/statecraft/2026-05-08/source-dialogue-works-johnson-hormuz-qatar-brics-trump-china-2026-05-08.md)
 - **Marandi / coordinated Iran-China message:** [2026-05-16 Dialogue Works / Marandi](../../../../../../source-archive/statecraft/2026-05-16/source-dialogue-works-seyed-m-marandi-iran-just-warned-next-attack-total-obliteration-2026-05-16.md)
 - **Mercouris / Taiwan and Iran pressure boundary:** [2026-05-15 Mercouris](../../../../../../source-archive/statecraft/2026-05-15/source-alexander-mercouris-china-warns-us-of-war-over-taiwan-won-t-pressure-iran-russia-hunts-destroys-us-ukraine-investments-2026-05-15.md)
 

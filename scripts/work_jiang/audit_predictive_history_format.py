@@ -29,11 +29,9 @@ EXPECTED_KEYS = (
     "quality_level",
 )
 
-
 def load(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def parse_frontmatter(text: str) -> dict | None:
     if not text.startswith("---"):
@@ -46,7 +44,6 @@ def parse_frontmatter(text: str) -> dict | None:
         return yaml.safe_load(raw) or {}
     except yaml.YAMLError:
         return None
-
 
 def main() -> int:
     sources = load(SOURCES_PATH).get("sources", [])
@@ -148,7 +145,6 @@ def main() -> int:
 
     print(f"\n_Scanned {len(list(ANALYSIS_DIR.glob('*.md')))} files under analysis/._")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

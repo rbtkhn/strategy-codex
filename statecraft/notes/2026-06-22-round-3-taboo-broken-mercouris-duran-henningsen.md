@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-22/day-index.md
   - source-archive/statecraft/2026-06-22/source-dialogue-works-baud-starmer-steps-down-iran-us-new-terms-2026-06-22.md
 ---
-WORK only; not Record.
 
 # Round-3 seam — taboo broken × revenge × talks-fail × power-frame — 2026-06-22
 

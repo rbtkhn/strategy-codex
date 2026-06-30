@@ -1,6 +1,5 @@
 # Hybrid References
 
-WORK only; not Record.
 
 This surface replaces a pure academic bibliography with a CIV-STATE-native references law.
 

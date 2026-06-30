@@ -6,7 +6,6 @@
 
 SSOT: bookshelf-catalog.yaml (`candidate_hn_chapters`); order of chapters: book-architecture.yaml.
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -71,7 +70,6 @@ HEADER = """# Shelf anchors by chapter (generated)
 ---
 """
 
-
 def load_items(path: Path) -> list[dict]:
     data = safe_load_path(path, feature="hn_shelf_anchors.py") or {}
     items = data.get("items")
@@ -79,10 +77,8 @@ def load_items(path: Path) -> list[dict]:
         return []
     return [x for x in items if isinstance(x, dict) and x.get("id")]
 
-
 def item_index(items: list[dict]) -> dict[str, dict]:
     return {str(x["id"]): x for x in items if x.get("id")}
-
 
 def invert_hn_to_shelf(items: list[dict]) -> dict[str, list[str]]:
     m: dict[str, list[str]] = {}
@@ -95,7 +91,6 @@ def invert_hn_to_shelf(items: list[dict]) -> dict[str, list[str]]:
     for ch in m:
         m[ch] = sorted(m[ch], key=str)
     return m
-
 
 def load_chapters_ordered(path: Path) -> list[dict]:
     if not path.is_file():
@@ -117,13 +112,11 @@ def load_chapters_ordered(path: Path) -> list[dict]:
         )
     return out
 
-
 def rel_link_from_chapter_file_to_research(chapter_file: str) -> str:
     """e.g. chapters/vol-i/v1-01.md -> ../../research/SHELF-ANCHORS-BY-CHAPTER.md"""
     p = Path(chapter_file)
     n = len(p.parent.parts) if p.parent != Path(".") else 0
     return f"{'../' * n}research/SHELF-ANCHORS-BY-CHAPTER.md"
-
 
 def build_markdown(
     chapter_rows: list[dict],
@@ -148,7 +141,6 @@ def build_markdown(
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
 
-
 def shelf_card(item: dict) -> str:
     sid = item.get("id", "")
     title = (item.get("title") or "").strip()
@@ -168,7 +160,6 @@ def shelf_card(item: dict) -> str:
         f"- **Notes:** {notes or '*(none)*'}"
     )
 
-
 def chapter_brief(
     by_hn: dict[str, list[str]],
     index: dict[str, dict],
@@ -184,7 +175,6 @@ def chapter_brief(
         author = (it.get("author") or "?").strip()
         lines.append(f"- `{s}` — {author} — *{title}*")
     return "\n".join(lines)
-
 
 def stub_line(
     by_hn: dict[str, list[str]],
@@ -209,7 +199,6 @@ def stub_line(
         ),
         0,
     )
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -331,7 +320,6 @@ def main() -> int:
     args.out.write_text(content, encoding="utf-8")
     print(f"wrote {args.out}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

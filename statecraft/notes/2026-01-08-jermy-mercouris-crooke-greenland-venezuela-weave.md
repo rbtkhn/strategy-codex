@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-01-20/source-alexander-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md
   - source-archive/statecraft/2025-12-12/source-daniel-davis-oil-drugs-venezuela-colombia-steve-jermy-lt-col-daniel-davis-2025-12-12.md
 ---
-WORK only; not Record.
 
 # Jan 8 2026 — Jermy × Mercouris × Crooke weave (post-Maduro / Greenland / Rubicon)
 

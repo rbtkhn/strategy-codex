@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-02-17/README.md
   - source-archive/statecraft/2026-02-17/source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md
 ---
-WORK only; not Record.
 
 # Feb 3 2026 — Helmer × Marandi wedge (Turkey / Kurd / regional representation)
 

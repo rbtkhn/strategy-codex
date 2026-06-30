@@ -18,7 +18,6 @@ archive_links:
 ---
 # America - Foreign Client Mesh Separation And Command Review
 
-WORK only; not Record.
 
 ## Transaction Name
 

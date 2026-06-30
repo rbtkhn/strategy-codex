@@ -1,7 +1,6 @@
 # Cross-Lane Escalation Markers - Pape / Mercouris / Alkorshid
 <!-- word_count: 228 -->
 
-WORK only; not Record.
 
 **Purpose:** short conductor note for the shared pattern across the latest Pape, Mercouris, and Alkorshid material.
 

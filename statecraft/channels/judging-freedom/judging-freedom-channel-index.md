@@ -1,6 +1,5 @@
 # Judging Freedom Channel Index
 
-WORK only; not Record.
 
 Purpose: exhaustive route map for every resolved **`source-judging-freedom-*`** capture materialized in this repo (`channel_slug: judging-freedom` · host **Andrew Napolitano** / **Judging Freedom**), including direct host captures, guest-led files that remain Napolitano-hosted, and shorthand host surfaces that function as archive records.
 

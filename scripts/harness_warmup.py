@@ -62,13 +62,11 @@ _read = read_path  # backward compat for operator_daily_warmup, operator_handoff
 DEFAULT_TAIL = 12
 _REPO_ROOT = _SCRIPTS.parent
 
-
 def _configure_utf8_stdio() -> None:
     for stream in (sys.stdout, sys.stderr):
         reconfigure = getattr(stream, "reconfigure", None)
         if callable(reconfigure):
             reconfigure(encoding="utf-8", errors="replace")
-
 
 def _git_head_short() -> str:
     """Short git SHA for reentry line; unknown if not a git checkout."""
@@ -85,7 +83,6 @@ def _git_head_short() -> str:
     except (OSError, subprocess.TimeoutExpired):
         pass
     return "unknown"
-
 
 def _session_lines_tail(session_md: str, n: int) -> list[str]:
     """Non-empty lines outside ``` fences — avoids yaml dumps polluting the tail."""
@@ -109,7 +106,6 @@ def _session_lines_tail(session_md: str, n: int) -> list[str]:
         raw.append(s)
     return raw[-n:] if len(raw) > n else raw
 
-
 def _pending_candidates(pr_content: str, territory: str = "all") -> list[tuple[str, str]]:
     """Return [(CANDIDATE-id, summary_one_line), ...] for status: pending. territory: all|work-politics|companion (pol/wp/wap normalized)."""
     territory = normalize_territory_cli(territory)
@@ -122,9 +118,7 @@ def _pending_candidates(pr_content: str, territory: str = "all") -> list[tuple[s
         rows = politics + companion
     return [(r["id"], (r["summary"] or "(no summary)")[:120]) for r in rows]
 
-
 STALE_THRESHOLD_DAYS = 14
-
 
 def _stale_candidates(pr_content: str) -> list[tuple[str, int]]:
     """Return [(CANDIDATE-id, age_days), ...] for pending candidates older than STALE_THRESHOLD_DAYS."""
@@ -153,7 +147,6 @@ def _stale_candidates(pr_content: str) -> list[tuple[str, int]]:
             continue
     return stale
 
-
 def _last_merge_receipt_line(user_dir: Path) -> str:
     """Last JSON line from merge-receipts.jsonl, one-line summary for fresh-judge."""
     try:
@@ -176,7 +169,6 @@ def _last_merge_receipt_line(user_dir: Path) -> str:
         return f"merged_at={merged} candidates={ids[:5]}{'…' if len(ids) > 5 else ''}"
     except Exception:
         return lines[-1][:200]
-
 
 def _last_activity_oneliner(evidence_content: str) -> str:
     """Last ACT-* entry in V. ACTIVITY LOG: date + summary or topic."""
@@ -207,7 +199,6 @@ def _last_activity_oneliner(evidence_content: str) -> str:
         label = label[:97] + "…"
     d = date_m.group(1) if date_m else "?"
     return f"{act_id} ({d}) — {label}"
-
 
 def render_compact_warmup(
     user: str,
@@ -344,7 +335,6 @@ def render_compact_warmup(
     if tail_lines:
         bits.append("Session tail: " + " / ".join(tail_lines[-2:]))
     return " ".join(bits)
-
 
 def main() -> int:
     _configure_utf8_stdio()
@@ -569,7 +559,6 @@ def main() -> int:
     )
     print("\n".join(lines))
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

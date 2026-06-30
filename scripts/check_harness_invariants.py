@@ -23,7 +23,6 @@ LINE_LIMITS = {
     BOT_DIR / "prompt.py": 800,
 }
 
-
 def run_governance_check() -> bool:
     """Return True if governance check passes."""
     result = subprocess.run(
@@ -37,7 +36,6 @@ def run_governance_check() -> bool:
         return False
     print("Governance check: OK")
     return True
-
 
 def check_line_limits() -> bool:
     """Warn (don't fail) if core files exceed suggested line count. Return True."""
@@ -53,13 +51,11 @@ def check_line_limits() -> bool:
         print("Harness surface: within suggested limits")
     return True  # never fail on line count, only warn
 
-
 def main() -> int:
     if not run_governance_check():
         return 1
     check_line_limits()
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

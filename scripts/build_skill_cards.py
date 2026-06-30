@@ -31,14 +31,12 @@ SCHEMA_PATH = SCHEMA_REGISTRY_DIR / "skill-card.v1.json"
 RUNTIME_SNIPPET_MAX = 800
 OPERATOR_VIEW_MAX = 1200
 
-
 def _load_manifest() -> list[dict]:
     raw = safe_load_path(MANIFEST, feature="build_skill_cards.py")
     skills = raw.get("skills") if isinstance(raw, dict) else None
     if not isinstance(skills, list):
         return []
     return [s for s in skills if isinstance(s, dict)]
-
 
 def _split_frontmatter(text: str) -> tuple[dict, str]:
     if not text.startswith("---"):
@@ -53,7 +51,6 @@ def _split_frontmatter(text: str) -> tuple[dict, str]:
     except Exception:
         return {}, text
 
-
 def _first_heading_title(body: str) -> str | None:
     for line in body.splitlines():
         line = line.strip()
@@ -61,13 +58,11 @@ def _first_heading_title(body: str) -> str | None:
             return line[2:].strip()
     return None
 
-
 def _normalize_snippet(s: str) -> str:
     s = re.sub(r"\s+", " ", s.strip())
     if len(s) > RUNTIME_SNIPPET_MAX:
         return s[: RUNTIME_SNIPPET_MAX - 1] + "…"
     return s
-
 
 def _operator_view(appendix_rel: str | None, skill_id: str) -> str:
     if not appendix_rel:
@@ -79,7 +74,6 @@ def _operator_view(appendix_rel: str | None, skill_id: str) -> str:
     if len(text) > OPERATOR_VIEW_MAX:
         return text[: OPERATOR_VIEW_MAX - 1] + "…"
     return text
-
 
 def build_card_for_skill(row: dict) -> dict:
     name = str(row.get("name", "")).strip()
@@ -115,7 +109,6 @@ def build_card_for_skill(row: dict) -> dict:
         "last_updated": last_updated,
     }
 
-
 def _write_markdown(card: dict, path: Path) -> None:
     lines = [
         f"# Skill card — {card['skill_id']}",
@@ -138,7 +131,6 @@ def _write_markdown(card: dict, path: Path) -> None:
         "",
     ]
     path.write_text("\n".join(lines), encoding="utf-8")
-
 
 def _build_cmc_strategy_card(out_dir: Path, markdown: bool) -> bool:
     """Build THINK-CIVILIZATIONAL-STRATEGY card from CMC + strategy artifacts."""
@@ -232,7 +224,6 @@ def _build_cmc_strategy_card(out_dir: Path, markdown: bool) -> bool:
         _write_markdown(card, out_dir / "THINK-CIVILIZATIONAL-STRATEGY.md")
     return True
 
-
 def _validate_card(card: dict) -> list[str]:
     """Validate a card against the JSON schema. Returns list of error messages (empty = valid)."""
     try:
@@ -245,7 +236,6 @@ def _validate_card(card: dict) -> list[str]:
     validator = Draft202012Validator(schema)
     return [e.message for e in validator.iter_errors(card)]
 
-
 def _completeness_score(card: dict) -> dict[str, bool]:
     """Check which quality fields are populated."""
     return {
@@ -254,7 +244,6 @@ def _completeness_score(card: dict) -> dict[str, bool]:
         "has_operator_view": bool(card.get("operator_view")),
         "has_source_path": bool(card.get("source_path")),
     }
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build derived skill card JSON/MD from portable skills.")
@@ -327,7 +316,6 @@ def main() -> int:
         return 1
 
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

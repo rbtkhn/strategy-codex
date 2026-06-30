@@ -14,4 +14,3 @@
 
 **Optional one-liner:** *Seam target:* `thread:…` or *wire-only* / *IRI-only* as appropriate.
 
-WORK only; not Record.

@@ -1,6 +1,5 @@
 # Civilizational Pattern To Statecraft
 
-WORK only; not Record.
 
 Canonical hinge:
 

@@ -20,7 +20,6 @@ ORDER = [
     "china_tariff_capitulation_2025",
 ]
 
-
 def main() -> int:
     data = json.loads(MANIFEST.read_text(encoding="utf-8"))
     rows = data["rows"]
@@ -79,7 +78,6 @@ def main() -> int:
     print("**Seed notes (9) are excluded** from manifest — already materialized.")
     print("**Next:** edit manifest `audit_status` / `audit_stance` / `audit_speech_act` per row, then materialize.")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

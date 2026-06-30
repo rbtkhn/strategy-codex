@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Lane Comparison: Escalation Governance
 

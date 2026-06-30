@@ -1,6 +1,5 @@
 # `davis` codex-page � template (compat stub)
 
-WORK only; not Record.
 
 **Canonical scaffold:** [../../../../strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd](../../../codex/strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd.
 

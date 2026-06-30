@@ -20,7 +20,6 @@ archive_links:
 
 # Diesen × Mearsheimer speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen × Mearsheimer` run inside the Diesen stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: which Mearsheimer guest episodes matter most inside this stream, what kind of lane this is, and which file to open first.
 

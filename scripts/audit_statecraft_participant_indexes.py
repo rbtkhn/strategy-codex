@@ -20,7 +20,6 @@ from statecraft_day_archive import (
     read_text,
 )
 
-
 @dataclass(frozen=True)
 class FileAudit:
     path: str
@@ -36,7 +35,6 @@ class FileAudit:
     has_speakers: bool
     has_thread_numbered: bool
 
-
 def as_slug_tuple(values: list[str]) -> tuple[str, ...]:
     out: list[str] = []
     for value in values:
@@ -44,7 +42,6 @@ def as_slug_tuple(values: list[str]) -> tuple[str, ...]:
         if normalized and normalized not in out:
             out.append(normalized)
     return tuple(out)
-
 
 def legacy_thread_values(meta: dict[str, Any]) -> tuple[str, ...]:
     out: list[str] = []
@@ -60,7 +57,6 @@ def legacy_thread_values(meta: dict[str, Any]) -> tuple[str, ...]:
             if text and text not in out:
                 out.append(text)
     return tuple(out)
-
 
 def recognized_speaker_slugs(
     meta: dict[str, Any],
@@ -82,7 +78,6 @@ def recognized_speaker_slugs(
             unresolved.append(name)
 
     return tuple(recognized), tuple(unresolved)
-
 
 def classify_file(
     path: Path,
@@ -161,10 +156,8 @@ def classify_file(
         has_thread_numbered=has_thread_numbered,
     )
 
-
 def month_from_path(rel_path: str) -> str:
     return rel_path[:7]
-
 
 def build_report(root: Path) -> dict[str, Any]:
     inventory = speaker_routing._discover_inventory(speaker_routing.DEFAULT_SPEAKERS_DIR, root)
@@ -202,7 +195,6 @@ def build_report(root: Path) -> dict[str, Any]:
         "unresolved_names": dict(sorted(unresolved_name_counter.items(), key=lambda item: (-item[1], item[0]))),
         "files": [asdict(audit) for audit in audits],
     }
-
 
 def render_markdown(report: dict[str, Any]) -> str:
     lines = [
@@ -262,14 +254,12 @@ def render_markdown(report: dict[str, Any]) -> str:
     lines.append("")
     return "\n".join(lines)
 
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT)
     parser.add_argument("--json-out", type=Path)
     parser.add_argument("--md-out", type=Path)
     return parser.parse_args()
-
 
 def main() -> int:
     args = parse_args()
@@ -285,7 +275,6 @@ def main() -> int:
     if not args.json_out and not args.md_out:
         print(rendered)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

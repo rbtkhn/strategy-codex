@@ -1,6 +1,5 @@
 # Conscience
 
-WORK only; not Record.
 
 ## Purpose
 

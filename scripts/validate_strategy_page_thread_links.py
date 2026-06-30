@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Validate bindings between standalone strategy-pages and stream thread files.
 
-WORK only; not Record.
-
 This is an adoption validator for the page-thread binding contract:
 
 - Strategy-pages are standalone ``<stream>/<stream>-page-YYYY-MM-DD*.md``.
@@ -45,7 +43,6 @@ FIELD_RE = re.compile(
 H1_RE = re.compile(r"^#\s+(.+?)\s*$", re.MULTILINE)
 LINK_RE = re.compile(r"\[[^\]]+\]\((?P<href>[^)]+)\)")
 
-
 @dataclass
 class PageInfo:
     expert_id: str
@@ -55,13 +52,11 @@ class PageInfo:
     title: str
     fields: dict[str, str]
 
-
 def repo_rel(path: Path) -> str:
     try:
         return path.resolve().relative_to(REPO_ROOT).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def notebook_rel(path: Path) -> str:
     try:
@@ -69,14 +64,11 @@ def notebook_rel(path: Path) -> str:
     except ValueError:
         return path.as_posix()
 
-
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8", errors="replace")
 
-
 def clean_inline(value: str) -> str:
     return value.strip().strip("`").strip()
-
 
 def parse_fields(text: str) -> dict[str, str]:
     fields: dict[str, str] = {}
@@ -84,13 +76,11 @@ def parse_fields(text: str) -> dict[str, str]:
         fields[m.group("field").lower().replace(" ", "_")] = clean_inline(m.group("value"))
     return fields
 
-
 def page_title(text: str, fallback: str) -> str:
     m = H1_RE.search(text)
     if not m:
         return fallback
     return m.group(1).strip()
-
 
 def _stream_dirs(notebook_dir: Path) -> list[Path]:
     skip = {"chapters", "raw-input", "compiled-views", "demo-runs", "notes", "watches"}
@@ -112,7 +102,6 @@ def _stream_dirs(notebook_dir: Path) -> list[Path]:
         if p.is_dir() and not p.name.startswith(".")
     )
     return dirs
-
 
 def discover_pages(notebook_dir: Path, expert_filter: str = "", month_filter: str = "") -> list[PageInfo]:
     pages: list[PageInfo] = []
@@ -141,7 +130,6 @@ def discover_pages(notebook_dir: Path, expert_filter: str = "", month_filter: st
             )
     return pages
 
-
 def expected_thread_file(page: PageInfo, notebook_dir: Path) -> Path:
     expert_dir = page.path.parent
     monthly = expert_dir / f"{page.expert_id}-thread-{page.month}.md"
@@ -151,7 +139,6 @@ def expected_thread_file(page: PageInfo, notebook_dir: Path) -> Path:
     if named.is_file():
         return named
     return expert_dir / "thread.md"
-
 
 def resolve_declared_thread(page: PageInfo) -> Path | None:
     raw = page.fields.get("thread_file", "")
@@ -171,12 +158,10 @@ def resolve_declared_thread(page: PageInfo) -> Path | None:
         return page_relative
     return (REPO_ROOT / p).resolve()
 
-
 def human_layer(text: str) -> str:
     if THREAD_MARKER_START in text:
         return text.split(THREAD_MARKER_START, 1)[0]
     return text
-
 
 def month_segment(text: str, month: str) -> str:
     human = human_layer(text)
@@ -187,7 +172,6 @@ def month_segment(text: str, month: str) -> str:
     n = re.search(r"^##\s+\d{4}-\d{2}\s*$", rest, re.MULTILINE)
     return rest[: n.start()] if n else rest
 
-
 def pages_work_product_section(segment: str) -> str:
     m = re.search(r"^###\s+Pages / Work Product\s*$", segment, re.MULTILINE)
     if not m:
@@ -195,7 +179,6 @@ def pages_work_product_section(segment: str) -> str:
     rest = segment[m.end():]
     n = re.search(r"^###\s+", rest, re.MULTILINE)
     return rest[: n.start()] if n else rest
-
 
 def page_is_indexed(page: PageInfo, thread_path: Path) -> tuple[bool, bool]:
     if not thread_path.is_file():
@@ -210,7 +193,6 @@ def page_is_indexed(page: PageInfo, thread_path: Path) -> tuple[bool, bool]:
         repo_rel(page.path),
     }
     return any(n in section for n in needles), True
-
 
 def validate(args: argparse.Namespace) -> dict[str, Any]:
     notebook = args.notebook_dir.resolve()
@@ -289,7 +271,6 @@ def validate(args: argparse.Namespace) -> dict[str, Any]:
         "rows": rows,
     }
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--notebook-dir", type=Path, default=NOTEBOOK_DIR)
@@ -317,7 +298,6 @@ def main() -> int:
             f"{len(result['warnings'])} warning(s), {len(result['errors'])} error(s)"
         )
     return 0 if result["ok"] else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

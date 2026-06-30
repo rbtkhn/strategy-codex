@@ -1,6 +1,5 @@
 # Party-State Carrier
 
-WORK only; not Record.
 
 Use this note when a China-lane instrument requires institutional implementation beyond the top leader.
 

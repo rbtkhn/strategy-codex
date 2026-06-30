@@ -34,7 +34,6 @@ from notes_registry_lib import (  # noqa: E402
     render_registry_markdown,
 )
 
-
 def collect_registry_rows() -> list[RegistryRow]:
     all_paths = list(NOTES_ROOT.rglob("*.md"))
     inbound = build_inbound_note_links(all_paths)
@@ -72,12 +71,10 @@ def collect_registry_rows() -> list[RegistryRow]:
         )
     return rows
 
-
 def generate_outputs() -> tuple[list[RegistryRow], str, str]:
     rows = collect_registry_rows()
     dashboard = build_dashboard(rows)
     return rows, render_registry_markdown(rows, dashboard), render_registry_json(rows, dashboard)
-
 
 def check_artifacts(*, md_path: Path, json_path: Path) -> int:
     if not md_path.is_file():
@@ -120,7 +117,6 @@ def check_artifacts(*, md_path: Path, json_path: Path) -> int:
         return 1
     print("ok: statecraft notes registry artifacts match generator output")
     return 0
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -167,7 +163,6 @@ def main() -> int:
         f"and {args.json_output.relative_to(REPO_ROOT)} ({len(rows)} rows)"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

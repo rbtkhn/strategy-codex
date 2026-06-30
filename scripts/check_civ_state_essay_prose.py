@@ -52,22 +52,18 @@ BANDS = {
     },
 }
 
-
 def split_body(text: str) -> str:
     if "## Notes" in text:
         return text.split("## Notes", 1)[0]
     return text
 
-
 def word_count(text: str) -> int:
     return len(re.findall(r"\b\w+\b", text))
-
 
 def quoted_words(body: str) -> tuple[int, list[str]]:
     segments = QUOTE_RE.findall(body)
     total = sum(word_count(s) for s in segments)
     return total, segments
-
 
 def schematic_hits(body: str) -> list[tuple[int, str]]:
     hits: list[tuple[int, str]] = []
@@ -76,11 +72,9 @@ def schematic_hits(body: str) -> list[tuple[int, str]]:
             hits.append((i, line.strip()[:120]))
     return hits
 
-
 def outside_quotes(text: str) -> str:
     """Remove quoted segments for surname grep."""
     return QUOTE_RE.sub("", text)
-
 
 def modern_surname_violations(body: str) -> list[str]:
     outside = outside_quotes(body)
@@ -90,14 +84,11 @@ def modern_surname_violations(body: str) -> list[str]:
         fails.append(f"{name} (outside quotes)")
     return fails
 
-
 def footnote_refs(body: str) -> set[str]:
     return set(re.findall(r"\[\^(\d+)\]", body))
 
-
 def footnote_defs(notes: str) -> set[str]:
     return set(re.findall(r"\[\^(\d+)\]:", notes))
-
 
 def check_file(path: Path, band_key: str) -> dict:
     text = path.read_text(encoding="utf-8")
@@ -140,7 +131,6 @@ def check_file(path: Path, band_key: str) -> dict:
         "errors": errors,
         "ok": not errors,
     }
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Check CIV-STATE civic-chain essay prose bands.")
@@ -191,7 +181,6 @@ def main() -> int:
             any_fail = True
 
     return 1 if any_fail else 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

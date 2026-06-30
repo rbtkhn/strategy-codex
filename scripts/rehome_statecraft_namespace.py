@@ -35,12 +35,10 @@ SPECIAL_FILES = (
     REPO_ROOT / ".gitmodules",
 )
 
-
 def _excluded(rel_posix: str, include_benchmarks: bool) -> bool:
     if include_benchmarks:
         return False
     return any(rel_posix.startswith(p) for p in DEFAULT_EXCLUDE_PREFIXES)
-
 
 def iter_files(include_benchmarks: bool) -> list[Path]:
     import subprocess
@@ -89,7 +87,6 @@ def iter_files(include_benchmarks: bool) -> list[Path]:
             files.append(path)
     return sorted(set(files))
 
-
 def apply_replacements(text: str) -> tuple[str, int]:
     count = 0
     for old, new in REPLACEMENTS:
@@ -98,7 +95,6 @@ def apply_replacements(text: str) -> tuple[str, int]:
             text = text.replace(old, new)
             count += n
     return text, count
-
 
 def cmd_dry_run(include_benchmarks: bool) -> int:
     total_hits = 0
@@ -136,7 +132,6 @@ def cmd_dry_run(include_benchmarks: bool) -> int:
 
     return 0
 
-
 def cmd_apply(include_benchmarks: bool) -> int:
     total = 0
     changed = 0
@@ -154,7 +149,6 @@ def cmd_apply(include_benchmarks: bool) -> int:
             print(f"apply: {fp.relative_to(REPO_ROOT)} ({n})")
     print(f"\napply done: {total} replacement(s) in {changed} file(s)")
     return 0
-
 
 def cmd_check(include_benchmarks: bool) -> int:
     offenders: list[tuple[str, int]] = []
@@ -178,7 +172,6 @@ def cmd_check(include_benchmarks: bool) -> int:
     print("check ok: no statecraft/civ-lens or statecraft/civ-state outside exclusions")
     return 0
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     mode = ap.add_mutually_exclusive_group(required=True)
@@ -197,7 +190,6 @@ def main() -> int:
     if args.apply:
         return cmd_apply(args.include_benchmarks)
     return cmd_check(args.include_benchmarks)
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

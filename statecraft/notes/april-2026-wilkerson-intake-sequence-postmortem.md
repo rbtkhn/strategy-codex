@@ -14,7 +14,6 @@ archive_links:
   - source-archive/statecraft/2026-04-17/source-dialogue-works-larry-johnson-col-wilkerson-iran-just-fully-opened-the-strait-of-hormuz-its-over-for-trump-2026-04-17.md
   - source-archive/statecraft/2026-04-28/source-dialogue-works-col-larry-wilkerson-trumps-own-advisors-now-split-on-iran-israels-plan-decimated-2026-04-28.md
 ---
-WORK only; not Record.
 
 # April 2026 Wilkerson intake sequence postmortem
 

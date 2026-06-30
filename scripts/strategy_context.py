@@ -68,13 +68,11 @@ STRATEGY_KEYWORDS = (
     "work-strategy",
 )
 
-
 @dataclass(frozen=True)
 class HistoryEvent:
     ts: datetime
     kind: str
     summary: str
-
 
 def _parse_iso_ts(ts_raw: str) -> datetime | None:
     ts_raw = ts_raw.strip()
@@ -87,7 +85,6 @@ def _parse_iso_ts(ts_raw: str) -> datetime | None:
     except ValueError:
         return None
 
-
 def work_choice_is_strategy_adjacent(
     context: str, picked: str, tags: str | None, note: str | None
 ) -> bool:
@@ -96,7 +93,6 @@ def work_choice_is_strategy_adjacent(
         return True
     blob = f"{picked} {tags or ''} {note or ''}".lower()
     return any(k in blob for k in STRATEGY_KEYWORDS)
-
 
 def parse_work_choice_strategy_events(transcript_text: str) -> list[HistoryEvent]:
     """Parse session-transcript WORK-choice blocks; keep strategy-adjacent rows only."""
@@ -128,7 +124,6 @@ def parse_work_choice_strategy_events(transcript_text: str) -> list[HistoryEvent
         out.append(HistoryEvent(ts=ts, kind="WORK-choice", summary=" — ".join(parts)))
     return out
 
-
 def parse_fold_jsonl_events(path: Path) -> list[HistoryEvent]:
     """Load strategy-fold-events.jsonl; one event per valid JSON line."""
     out: list[HistoryEvent] = []
@@ -156,7 +151,6 @@ def parse_fold_jsonl_events(path: Path) -> list[HistoryEvent]:
         summary = f"fold {fk} — {nb}{tail}{gbit}"
         out.append(HistoryEvent(ts=ts, kind="fold", summary=summary))
     return out
-
 
 def git_strategy_lane_events(repo_root: Path, limit: int) -> list[HistoryEvent]:
     """Last `limit` commits touching docs/skill-work/work-strategy; empty if git fails."""
@@ -202,7 +196,6 @@ def git_strategy_lane_events(repo_root: Path, limit: int) -> list[HistoryEvent]:
         )
     return out
 
-
 def merge_history_events(
     *,
     fold_events: list[HistoryEvent],
@@ -213,7 +206,6 @@ def merge_history_events(
     merged = fold_events + wc_events + git_events
     merged.sort(key=lambda e: e.ts, reverse=True)
     return merged[:take]
-
 
 def format_history_section(events: list[HistoryEvent]) -> str:
     """Markdown block for stdout; empty string if no events."""
@@ -236,27 +228,22 @@ def format_history_section(events: list[HistoryEvent]) -> str:
     )
     return "\n".join(lines)
 
-
 def _month_path(d: str) -> Path:
     y, m, _ = d.split("-")
     return NOTEBOOK / "chapters" / f"{y}-{m}" / "days.md"
-
 
 def _pages_dir(d: str) -> Path:
     y, m, _ = d.split("-")
     return NOTEBOOK / "chapters" / f"{y}-{m}" / "pages"
 
-
 def _meta_path(d: str) -> Path:
     y, m, _ = d.split("-")
     return NOTEBOOK / "chapters" / f"{y}-{m}" / "meta.md"
-
 
 MINDS_DIR = STRATEGY_DIR / "minds"
 MINDS_README = MINDS_DIR / "README.md"
 MINDS_OUTPUTS = MINDS_DIR / "outputs"
 OBSERVABILITY_JSON = ARTIFACTS_DIR / "work-strategy" / "strategy-observability.json"
-
 
 def extract_day_block(text: str, day: str) -> str | None:
     header = f"## {day}"
@@ -270,7 +257,6 @@ def extract_day_block(text: str, day: str) -> str | None:
         rest = rest[: m.start()]
     return rest.strip()
 
-
 def extract_h3_section(block: str, title: str) -> str:
     m = re.search(
         rf"^### {re.escape(title)}\s*\r?\n(.*?)(?=^### |^## |\Z)",
@@ -280,7 +266,6 @@ def extract_h3_section(block: str, title: str) -> str:
     if not m:
         return ""
     return m.group(1).strip()
-
 
 def open_bullet_lines(open_body: str, *, limit: int = 6) -> list[str]:
     out: list[str] = []
@@ -297,7 +282,6 @@ def open_bullet_lines(open_body: str, *, limit: int = 6) -> list[str]:
                 break
     return out
 
-
 def truncate_words(text: str, max_words: int) -> str:
     words = text.split()
     if len(words) <= max_words:
@@ -307,11 +291,9 @@ def truncate_words(text: str, max_words: int) -> str:
     # Reserve one token for ellipsis so total word-count stays ≤ max_words.
     return " ".join(words[: max_words - 1]).rstrip(",;:") + " …"
 
-
 def count_expert_table_rows(md: str) -> int:
     """Count data rows in the strategy-commentator-threads expert_id table."""
     return len(re.findall(r"^\|\s*`[a-z0-9-]+`\s*\|", md, re.MULTILINE))
-
 
 def scratch_metrics(inbox: str) -> tuple[str | None, int, bool]:
     acc = ACCUM_RE.search(inbox)
@@ -339,7 +321,6 @@ def scratch_metrics(inbox: str) -> tuple[str | None, int, bool]:
     between = between.strip()
     return accum, len(between), has_retained
 
-
 def brief_excerpt(path: Path) -> str:
     if not path.is_file():
         return "Daily brief file not found for this date (generate or copy when ready)."
@@ -360,7 +341,6 @@ def brief_excerpt(path: Path) -> str:
                 return f"Daily brief {dline}; §1b lead: {lead}"
     return f"Daily brief {dline} (open for §1d–§1h watches in file)."
 
-
 def meta_excerpt(path: Path) -> str:
     if not path.is_file():
         return "month meta.md not found for this chapter folder."
@@ -374,7 +354,6 @@ def meta_excerpt(path: Path) -> str:
     if m2:
         return f"status {m2.group(1).strip()}"
     return "present — see meta.md for month weave and thread rows."
-
 
 def minds_excerpt(day: str) -> str:
     """Tri-Frame outputs: exact-date files, else recent month scaffolds."""
@@ -395,7 +374,6 @@ def minds_excerpt(day: str) -> str:
             f"{', '.join(names)}."
         )
     return f"no Tri-Frame scaffolds under minds/outputs for {y}-{m} yet; see minds/README.md."
-
 
 def health_summary() -> str | None:
     """Read observability JSON and return a concise health block, or None."""
@@ -449,7 +427,6 @@ def health_summary() -> str | None:
         lines.append(f"  inbox: {inbox_rating} — weave or prune recommended")
 
     return "\n".join(lines)
-
 
 def build_paragraph(
     *,
@@ -514,7 +491,6 @@ def build_paragraph(
     text = " ".join(parts)
     return truncate_words(text, max_words)
 
-
 def run_compact(
     *,
     day: str,
@@ -564,7 +540,6 @@ def run_compact(
     )
     lines_out.append(f"- expert_id rows (table): {expert_rows}")
     return "\n".join(lines_out) + "\n"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -759,7 +734,6 @@ def main() -> int:
             print(r.stdout.strip(), file=sys.stderr)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -583,7 +583,7 @@ Use light priors, but do not build separate policy trees:
 
 - **Glenn Diesen:** guest-name + thesis-title interviews are typical; short fragments are more suspicious
 - **Daniel Davis:** legitimate uploads can be short topical monologues; duration alone is unreliable and should not override normal standalone title structure
-- **Alkorshid / Dialogue Works:** titles may be dramatic, and some legitimate interviews can still be relatively short; title sensationalism or a 10-15 minute runtime alone is not enough
+- **Alkhorshid / Dialogue Works:** titles may be dramatic, and some legitimate interviews can still be relatively short; title sensationalism or a 10-15 minute runtime alone is not enough
 - **Napolitano / Judging Freedom:** high-volume interview cadence is normal; use guest/title structure and live/upcoming status before duration-only exclusion
 - **Mercouris:** usually long monologues; short uploads are more suspicious
 

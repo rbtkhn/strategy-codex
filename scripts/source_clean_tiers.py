@@ -126,7 +126,6 @@ GUEST_TIER_ALIASES: dict[str, str] = {
     "napolitano": "napolitano",
 }
 
-
 def _parse_scalar_list(block: str, key: str) -> list[str]:
     lines = block.splitlines()
     in_key = False
@@ -146,7 +145,6 @@ def _parse_scalar_list(block: str, key: str) -> list[str]:
         if m:
             return [m.group(1).strip()]
     return items
-
 
 def parse_frontmatter(text: str) -> dict[str, Any]:
     m = re.match(r"^---\s*\n(.*?)\n---", text, re.DOTALL)
@@ -171,7 +169,6 @@ def parse_frontmatter(text: str) -> dict[str, Any]:
         if vals:
             meta[key] = vals
     return meta
-
 
 def resolve_tier_keys(meta: dict[str, Any]) -> list[str]:
     keys: list[str] = []
@@ -205,7 +202,6 @@ def resolve_tier_keys(meta: dict[str, Any]) -> list[str]:
             out.append(k)
     return out
 
-
 def collect_tier_pairs(meta: dict[str, Any]) -> list[TierPair]:
     pairs: list[TierPair] = list(COMMON_GEO_TIERS)
     keys = resolve_tier_keys(meta)
@@ -227,7 +223,6 @@ def collect_tier_pairs(meta: dict[str, Any]) -> list[TierPair]:
         seen_pat.add(pat)
         unique.append((pat, repl, flags))
     return unique
-
 
 def apply_tier_pairs(text: str, pairs: list[TierPair]) -> tuple[str, int, dict[str, int]]:
     counts: dict[str, int] = {}

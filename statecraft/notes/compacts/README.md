@@ -1,6 +1,6 @@
 # Instrument compacts (notes/compacts)
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Durable **multi-lane instrument notes** live here — promoted from legacy `statecraft/transactions/*-framework/`.
 

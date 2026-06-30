@@ -1,6 +1,6 @@
 # Military Workshop Sheets
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 These sheets are starting benches for the academy-military workshop. They are not summaries of the books; they are reusable prompts for reading campaigns, command decisions, logistics, escalation, and responsibility.
 

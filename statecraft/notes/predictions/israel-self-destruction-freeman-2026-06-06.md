@@ -7,9 +7,8 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2026-06-06/source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md
 speech_act: iterated
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — Israel self-destruction (2026-06-06)
 

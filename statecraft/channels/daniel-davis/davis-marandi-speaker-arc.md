@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Marandi Speaker Arc (compat redirect)
 

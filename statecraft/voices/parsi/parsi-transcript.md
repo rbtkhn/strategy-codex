@@ -1,7 +1,6 @@
 ﻿# Expert transcript â€” `parsi`
 <!-- word_count: 1408 -->
 
-WORK only; not Record.
 
 Compatibility note: this is a legacy continuity transcript surface. Use it as support residue, not as a first-open citation path when the person arc, routing note, thread atlas, bounded month arcs, or raw-input bench already answer the question more directly.
 

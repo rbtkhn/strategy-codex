@@ -1,6 +1,5 @@
 # Kleiber Close - June Quote-Anchor Stopping Rules - 2026-06-08
 
-work only; not Record.
 
 Fourth tranche in the daily-synthesis contract repair stack.
 

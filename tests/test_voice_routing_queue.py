@@ -67,7 +67,7 @@ def test_guest_matching_existing_speaker_object_routes_to_object_and_candidate_a
         guest="Scott Ritter",
         host="Nima Alkhorshid",
         show="Dialogue Works",
-        thread="alkorshid",
+        thread="alkhorshid",
     )
 
     row = vrq.build_rows([raw], inventory, notebook)[0]

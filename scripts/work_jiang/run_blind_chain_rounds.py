@@ -153,7 +153,6 @@ TOP_SCORE: dict[int, str] = {
     17: "hit",
 }
 
-
 def main() -> None:
     SCRATCH.mkdir(parents=True, exist_ok=True)
     jsonl_lines: list[dict] = []
@@ -215,7 +214,6 @@ def main() -> None:
         )
         for row in jsonl_lines:
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
-
 
 if __name__ == "__main__":
     main()

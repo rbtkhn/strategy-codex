@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Speaker Object (compat redirect)
 

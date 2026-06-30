@@ -22,7 +22,6 @@ if str(_RT) not in sys.path:
 from observation_store import by_id  # noqa: E402
 from uncertainty_envelope import compute_envelope, envelope_to_markdown_block  # noqa: E402
 
-
 def _sentences_from_observations(rows: list[dict], max_sentences: int = 10) -> str:
     """Lightweight synthesis: stitch summary lines into short prose (bounded)."""
     chunks: list[str] = []
@@ -42,7 +41,6 @@ def _sentences_from_observations(rows: list[dict], max_sentences: int = 10) -> s
         out = out[:max_sentences]
     return " ".join(out) if out else "(No summary text in selected observations.)"
 
-
 def _key_points(rows: list[dict]) -> str:
     lines: list[str] = []
     for r in rows:
@@ -52,7 +50,6 @@ def _key_points(rows: list[dict]) -> str:
             summ = summ[:197] + "…"
         lines.append(f"- {summ} (`{oid}`)")
     return "\n".join(lines) if lines else "- (none)"
-
 
 def _open_questions(rows: list[dict]) -> str:
     bullets: list[str] = []
@@ -76,7 +73,6 @@ def _open_questions(rows: list[dict]) -> str:
     else:
         bullets.append("- Gate staging remains manual; this block is context only.")
     return "\n".join(bullets)
-
 
 def main() -> int:
     p = argparse.ArgumentParser(description="Build prepared-context Markdown from runtime observation IDs.")
@@ -162,7 +158,6 @@ It does not update SELF, SELF-LIBRARY, SKILLS, EVIDENCE, or recursion-gate.md.
     out.write_text(content, encoding="utf-8")
     print(f"wrote {out}", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

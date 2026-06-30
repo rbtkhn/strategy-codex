@@ -4,7 +4,6 @@
 
 **When to open this doc:** You are about to create or review a source-bearing file in the canonical `source-archive/statecraft/` tree and need **type-specific** defaults for YAML **`kind:`**, **`thread:`**, inbox **stub shape**, and refined-page **Selected Passages** handling — use **§ Essay**, **§ Transcript**, **§ Social**, or **§ Wire and institutional PDF** below. For directory layout and formal **`pub_date`** rules, see [README.md](README.md) and [refined-page-template.md](../../../codex/refined-page-template.md).
 
-WORK only; not Record.
 
 ---
 
@@ -115,7 +114,6 @@ Closeout law:
 - **Partial bundles:** OK — state **`partial`** in inbox; refined **`### Appendix`** links the full canonical archive path.
 - **Automation:** **Automated wire / paywall fetchers are not implemented** in-repo; manual paste or export remains normative ([README.md — Future extensions](README.md)). Do not assume network fetch in assistant workflows unless the operator authorizes a documented script.
 
-WORK only; not Record.
 
 ---
 

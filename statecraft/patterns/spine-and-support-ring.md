@@ -1,6 +1,5 @@
 # Spine And Support Ring
 
-WORK only; not Record.
 
 ## Problem It Solves
 

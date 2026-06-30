@@ -2,8 +2,6 @@ from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Apply high-confidence Strait of Hormuz transcript fixes from an audit artifact.
 
-WORK only; not Record.
-
 This is a bounded repair pass: it only modifies files named in the audit JSON
 and only applies high-confidence phrase-shaped replacements for direct
 transcript body mistranscriptions.
@@ -22,13 +20,11 @@ from typing import Iterable
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_AUDIT_JSON = ARTIFACTS_DIR / "transcript-audits" / "statecraft-hormuz-mistranscriptions-2026-06-01.json"
 
-
 @dataclass(frozen=True)
 class ReplacementSpec:
     pattern: re.Pattern[str]
     replacement: str
     label: str
-
 
 REPLACEMENT_SPECS: tuple[ReplacementSpec, ...] = (
     ReplacementSpec(re.compile(r"\bstraits of\s+homus\b", re.IGNORECASE), "Straits of Hormuz", "straits_of_homus"),
@@ -81,7 +77,6 @@ REPLACEMENT_SPECS: tuple[ReplacementSpec, ...] = (
     ReplacementSpec(re.compile(r"\btrade of\s*\n\s*foremost\b", re.IGNORECASE), "Strait of Hormuz", "split_trade_of_foremost"),
 )
 
-
 def load_target_paths(audit_json: Path) -> list[Path]:
     payload = json.loads(audit_json.read_text(encoding="utf-8"))
     paths = {
@@ -91,7 +86,6 @@ def load_target_paths(audit_json: Path) -> list[Path]:
     }
     return sorted(paths)
 
-
 def apply_replacements(text: str) -> tuple[str, Counter[str]]:
     counts: Counter[str] = Counter()
     for spec in REPLACEMENT_SPECS:
@@ -99,7 +93,6 @@ def apply_replacements(text: str) -> tuple[str, Counter[str]]:
         if n:
             counts[spec.label] += n
     return text, counts
-
 
 def fix_paths(paths: Iterable[Path], *, write: bool) -> dict[str, object]:
     changed_files = 0
@@ -126,13 +119,11 @@ def fix_paths(paths: Iterable[Path], *, write: bool) -> dict[str, object]:
         "files": file_rows,
     }
 
-
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--audit-json", type=Path, default=DEFAULT_AUDIT_JSON, help="Audit JSON artifact to source high-confidence targets from.")
     parser.add_argument("--write", action="store_true", help="Write fixes in place. Omit for dry run.")
     return parser.parse_args(argv)
-
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
@@ -140,7 +131,6 @@ def main(argv: list[str] | None = None) -> int:
     result = fix_paths(paths, write=args.write)
     print(json.dumps(result, indent=2))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

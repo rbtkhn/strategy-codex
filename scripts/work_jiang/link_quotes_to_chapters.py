@@ -11,11 +11,9 @@ WORK_DIR = ROOT / "codex" / "predictive-history"
 QUOTES = WORK_DIR / "metadata" / "quotes.yaml"
 OUT = WORK_DIR / "metadata" / "chapter-quote-links.yaml"
 
-
 def load_yaml(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def main() -> int:
     qdoc = load_yaml(QUOTES)
@@ -43,7 +41,6 @@ def main() -> int:
         )
     print(f"Wrote {OUT.relative_to(ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

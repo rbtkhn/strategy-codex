@@ -4,10 +4,8 @@ from __future__ import annotations
 
 from datetime import datetime, timezone
 
-
 def tokenize(text: str) -> list[str]:
     return [t for t in text.lower().split() if t]
-
 
 def parse_obs_timestamp(s: str | None) -> datetime | None:
     if not s or not isinstance(s, str):
@@ -20,13 +18,11 @@ def parse_obs_timestamp(s: str | None) -> datetime | None:
     except ValueError:
         return None
 
-
 def parse_cli_datetime(s: str | None) -> datetime | None:
     """Parse CLI --since / --until values (ISO date-time)."""
     if not s or not str(s).strip():
         return None
     return parse_obs_timestamp(s.strip())
-
 
 def recency_bonus(obs_ts: str | None, *, now: datetime | None = None) -> float:
     """0..1 linear decay over 7 days."""
@@ -42,13 +38,11 @@ def recency_bonus(obs_ts: str | None, *, now: datetime | None = None) -> float:
     week = 7 * 24 * 3600
     return max(0.0, 1.0 - age_sec / week)
 
-
 def confidence_bonus(conf: object) -> float:
     """Small bump; keeps scores interpretable vs keyword matches."""
     if isinstance(conf, (int, float)):
         return 0.25 * max(0.0, min(1.0, float(conf)))
     return 0.0
-
 
 def score_observation(
     obs: dict,
@@ -91,7 +85,6 @@ def score_observation(
     score += confidence_bonus(obs.get("confidence"))
 
     return score
-
 
 def ts_sort_key(obs: dict) -> float:
     dt = parse_obs_timestamp(obs.get("timestamp"))

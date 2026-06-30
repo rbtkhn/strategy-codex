@@ -1,6 +1,5 @@
 # Freeman prediction pilot — wire events
 
-WORK only; not Record.
 
 Operator index for the **seven-event Freeman prediction pilot**: falsifiable questions, wire-resolution stubs, register bridges, and rebuild paths. Stance arcs live on [freeman-predictions.md](freeman-predictions.md); this page is for **closure, wire-verify, and registry hygiene**.
 

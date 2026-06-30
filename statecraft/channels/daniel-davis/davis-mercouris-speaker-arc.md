@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Mercouris Speaker Arc (compat redirect)
 

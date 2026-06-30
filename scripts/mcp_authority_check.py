@@ -40,13 +40,11 @@ DEFAULT_OUTPUT = ARTIFACTS_DIR / "mcp-authority-report.md"
 
 GITHUB_REQUIRED_PROHIBITED = ("merge_to_main", "force_push", "bypass_review")
 
-
 def _safe_rel(path: Path, root: Path) -> Path | str:
     try:
         return path.relative_to(root)
     except ValueError:
         return path
-
 
 def _git_short_hash(cwd: Path) -> str:
     try:
@@ -63,14 +61,11 @@ def _git_short_hash(cwd: Path) -> str:
         pass
     return "unknown"
 
-
 def load_yaml(path: Path) -> Any:
     return safe_load_path(path, feature="mcp_authority_check.py")
 
-
 def load_authority_map(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def bindings_by_lane(bindings_doc: dict[str, Any]) -> tuple[dict[str, dict[str, Any]], list[str]]:
     """Return map output_lane -> binding row; violations if duplicate lanes."""
@@ -82,7 +77,6 @@ def bindings_by_lane(bindings_doc: dict[str, Any]) -> tuple[dict[str, dict[str, 
             violations.append(f"duplicate binding for output_lane '{lane}'")
         out[lane] = row
     return out, sorted(violations)
-
 
 def validate_bindings_vs_authority_map(
     bindings_doc: dict[str, Any],
@@ -123,7 +117,6 @@ def validate_bindings_vs_authority_map(
             )
 
     return sorted(violations)
-
 
 def validate_capabilities(
     capabilities: list[dict[str, Any]],
@@ -203,7 +196,6 @@ def validate_capabilities(
 
     return sorted(violations), sorted(warnings)
 
-
 def build_report_md(
     *,
     passes: bool,
@@ -261,7 +253,6 @@ def build_report_md(
     lines.append("")
     return "\n".join(lines)
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="MCP authority binding cross-check.")
     ap.add_argument("--capabilities", type=Path, default=CAPABILITIES_PATH)
@@ -317,7 +308,6 @@ def main() -> int:
     if args.strict and warns:
         return 1
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

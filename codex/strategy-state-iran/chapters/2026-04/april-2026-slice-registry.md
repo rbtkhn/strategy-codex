@@ -1,7 +1,6 @@
 # strategy-state-iran — April 2026 — slice registry
 <!-- word_count: 528 -->
 
-WORK only; not Record.
 
 **Purpose:** Stable **date → bundle row** pointers for the three institutional X lanes. Bundles stay single-file tables; this registry plus **fragment anchors** (see bundle footers) support links from [`daily/`](daily/) pages and [`days.md`](days.md).
 

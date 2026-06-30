@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-24/source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md
   - source-archive/statecraft/2026-03-24/source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md
 ---
-WORK only; not Record.
 
 # Feb 27 → Apr 28 2026 — Jermy arc (Iran energy shock ladder: pre-kinetic → mechanics → timebomb)
 

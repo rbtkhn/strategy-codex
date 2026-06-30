@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2025-12-09/source-india-global-left-us-security-strategy-china-war-chas-freeman-2025-12-09.md
   - source-archive/statecraft/2026-02-17/source-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17.md
 ---
-WORK only; not Record.
 
 # Feb 24 → Jun 11 2026 — Freeman arc (India Global Left Iran war)
 

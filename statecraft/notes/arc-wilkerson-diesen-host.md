@@ -17,7 +17,6 @@ archive_links:
 
 # Diesen x Wilkerson speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen x Wilkerson` run inside the Diesen stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Wilkerson lane Diesen elicits, which files matter most, and why this run belongs in the Wilkerson helix rather than being treated as a one-off guest appearance.
 

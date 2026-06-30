@@ -1,7 +1,6 @@
 # Expert thread ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â `pape`
 <!-- word_count: 13780 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 
@@ -260,7 +259,6 @@ Optional keys (omit if unused): `clusters` (list of strings), `patterns` (list o
 
 # Page ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 2026-04-16 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Pape (Janssen): escalation trap, staged blockade, third-player spoiler
 
-WORK only; not Record.
 
 | Field | Value |
 |--------|--------|
@@ -453,7 +451,6 @@ none this pass
 
 # Page ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 2026-04-16 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Marandi-primary: Breaking Points ÃƒÆ’Ã¢â‚¬â€ Blumenthal (Judging Freedom)
 
-WORK only; not Record.
 
 | Field | Value |
 |--------|--------|

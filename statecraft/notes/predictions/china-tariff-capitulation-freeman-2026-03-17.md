@@ -7,9 +7,8 @@ stance: no
 confidence: high
 source: source-archive/statecraft/2026-03-17/source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md
 speech_act: restated
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — China tariff capitulation (2026-03-17)
 

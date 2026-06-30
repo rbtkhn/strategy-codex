@@ -1,6 +1,5 @@
 # Civilization America
 
-WORK only; not Record.
 
 ## Where This Sits
 

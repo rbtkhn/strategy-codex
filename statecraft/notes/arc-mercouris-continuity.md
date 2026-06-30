@@ -21,7 +21,6 @@ archive_links:
 
 # Mercouris arc
 
-WORK only; not Record.
 
 Purpose: define the current `arc-mercouris-continuity` as a bounded helix of recurring Mercouris arc-threads. This keeps Mercouris from being reduced to either a generic speaker object or an unstructured native stream.
 

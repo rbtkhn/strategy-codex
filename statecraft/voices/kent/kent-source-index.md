@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Kent Source Index (compat redirect)
 

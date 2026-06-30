@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Habsburg Residue And European Legitimacy Fracture
 

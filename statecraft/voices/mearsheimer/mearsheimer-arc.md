@@ -1,6 +1,5 @@
 # arc-mearsheimer-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [mearsheimer-arc.md](mearsheimer-arc.md)
 

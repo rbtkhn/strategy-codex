@@ -33,7 +33,6 @@ ROMAN_TO_SECTION_LABEL = {
     "VIII": "Gated",
 }
 
-
 @dataclass
 class EvidenceIndex:
     """Character offsets into the original EVIDENCE file content."""
@@ -41,7 +40,6 @@ class EvidenceIndex:
     section_spans: dict[str, tuple[int, int]] = field(default_factory=dict)
     entry_spans: dict[str, tuple[int, int]] = field(default_factory=dict)
     content_len: int = 0
-
 
 def build_evidence_index(content: str) -> EvidenceIndex:
     """Build section map (Roman numeral → [start, end)) and entry id → [start, end))."""
@@ -67,7 +65,6 @@ def build_evidence_index(content: str) -> EvidenceIndex:
 
     return idx
 
-
 def evidence_section_for_offset(index: EvidenceIndex, pos: int) -> str | None:
     """Return Roman section key (e.g. 'V') for a character offset, or None."""
     for roman, (a, b) in index.section_spans.items():
@@ -75,14 +72,12 @@ def evidence_section_for_offset(index: EvidenceIndex, pos: int) -> str | None:
             return roman
     return None
 
-
 def slice_evidence_section(content: str, index: EvidenceIndex, roman: str) -> str:
     """Return substring for section Roman numeral, or full content if unknown."""
     span = index.section_spans.get(roman)
     if not span:
         return content
     return content[span[0] : span[1]]
-
 
 def slice_evidence_entry(content: str, index: EvidenceIndex, entry_id: str) -> str:
     """Return substring for one entry id (uppercase ACT-0001), or empty."""
@@ -92,7 +87,6 @@ def slice_evidence_entry(content: str, index: EvidenceIndex, entry_id: str) -> s
         return ""
     return content[span[0] : span[1]]
 
-
 # --- Memory (aligned with archive/grace-mar-instance/bot/core.py horizon headers) ---
 
 _MEMORY_HEADER_NAMES = {
@@ -100,7 +94,6 @@ _MEMORY_HEADER_NAMES = {
     "medium-term": "medium",
     "long-term": "long",
 }
-
 
 def _memory_header_horizon_key(line: str) -> str | None:
     if not line.startswith("## "):
@@ -111,7 +104,6 @@ def _memory_header_horizon_key(line: str) -> str | None:
     key = title.lower().replace(" ", "-")
     return _MEMORY_HEADER_NAMES.get(key)
 
-
 @dataclass
 class MemoryHorizonIndex:
     """Line-based index into self-memory content (0-based line indices, end exclusive)."""
@@ -120,7 +112,6 @@ class MemoryHorizonIndex:
     saw_horizon: bool
     preamble_range: tuple[int, int]  # [start, end) line indices
     horizon_ranges: dict[str, tuple[int, int]]  # short|medium|long -> [start, end)
-
 
 def build_memory_horizon_index(content: str) -> MemoryHorizonIndex:
     """Line ranges match archive/grace-mar-instance/bot/core.py _parse_memory_horizons (preamble vs short/medium/long bodies)."""
@@ -168,7 +159,6 @@ def build_memory_horizon_index(content: str) -> MemoryHorizonIndex:
         preamble_range=preamble_range,
         horizon_ranges=horizon_ranges,
     )
-
 
 def memory_buckets_from_index(idx: MemoryHorizonIndex) -> tuple[dict[str, list[str]], list[str]]:
     """

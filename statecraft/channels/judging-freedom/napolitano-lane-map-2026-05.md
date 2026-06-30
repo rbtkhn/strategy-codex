@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Napolitano Lane Map - 2026-05
 

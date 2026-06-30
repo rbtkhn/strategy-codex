@@ -62,7 +62,6 @@ GENERIC_PROMO_TAIL_RE = re.compile(
     re.IGNORECASE,
 )
 
-
 def _files_for_day(day_iso: str) -> list[Path]:
     day_dir = ARCHIVE_ROOT / day_iso
     if not day_dir.is_dir():
@@ -73,13 +72,11 @@ def _files_for_day(day_iso: str) -> list[Path]:
         if p.is_file() and p.name.lower() != "readme.md" and ".cleaned." not in p.name
     )
 
-
 def _rel_path(path: Path, repo_root: Path) -> str:
     try:
         return path.relative_to(repo_root).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def _family_label(meta: dict[str, Any], path: Path) -> str | None:
     if is_napolitano_capture(meta, path):
@@ -97,7 +94,6 @@ def _family_label(meta: dict[str, Any], path: Path) -> str | None:
     if is_breaking_points_capture(meta, path):
         return "breaking-points"
     return None
-
 
 def audit_capture(path: Path, *, repo_root: Path = REPO_ROOT) -> list[dict[str, Any]]:
     """Return zero or more audit action rows for one capture file."""
@@ -169,7 +165,6 @@ def audit_capture(path: Path, *, repo_root: Path = REPO_ROOT) -> list[dict[str, 
 
     return actions
 
-
 def _summarize(all_actions: list[dict[str, Any]]) -> dict[str, int]:
     counts = {
         "would_trim": 0,
@@ -200,7 +195,6 @@ def _summarize(all_actions: list[dict[str, Any]]) -> dict[str, int]:
             counts["read_error"] += 1
     return counts
 
-
 def _needs_apply(rows: list[dict[str, Any]]) -> tuple[bool, bool]:
     """Return (should_apply, force_mercouris_close)."""
     if any(r.get("status") == "blocked_truncated" for r in rows):
@@ -209,7 +203,6 @@ def _needs_apply(rows: list[dict[str, Any]]) -> tuple[bool, bool]:
     would = any(r.get("status") == "would_trim" for r in rows)
     caption = any(r.get("status") == "needs_caption_wrapper" for r in rows)
     return would or force or caption, force
-
 
 def _apply_capture(
     path: Path,
@@ -222,7 +215,6 @@ def _apply_capture(
         force_mercouris_close=force_mercouris_close,
     )
     return result.changed
-
 
 def run_scaffold_catchup(
     *,
@@ -301,7 +293,6 @@ def run_scaffold_catchup(
         "exit_code": exit_code,
     }
 
-
 def format_scaffold_catchup_line(catchup: dict[str, Any]) -> str | None:
     """One-line human summary for auto_dream / CLI."""
     if not catchup:
@@ -330,7 +321,6 @@ def format_scaffold_catchup_line(catchup: dict[str, Any]) -> str | None:
     if manual:
         parts.append(f"manual={manual}")
     return f"statecraft scaffold catch-up: {days} day(s) — {', '.join(parts)} ({mode_label})"
-
 
 def scaffold_catchup_followups(catchup: dict[str, Any]) -> list[str]:
     """Optional handoff followup lines."""
@@ -362,7 +352,6 @@ def scaffold_catchup_followups(catchup: dict[str, Any]) -> list[str]:
             f"(cap={catchup.get('max_apply')})"
         )
     return out
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -430,7 +419,6 @@ def main() -> int:
         for followup in scaffold_catchup_followups(result):
             print(f"  follow-up: {followup}")
     return int(result.get("exit_code", 0))
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -8,7 +8,6 @@ Refined page word budget: target ~3000 words per page, ~70–80% verbatim (from 
 
 See: docs/skill-work/work-strategy/strategy-notebook/refined-page-template.md
 
-WORK only; not Record.
 """
 from __future__ import annotations
 
@@ -31,13 +30,11 @@ _VERBATIM = re.compile(
     re.MULTILINE | re.DOTALL,
 )
 
-
 def count_words(s: str) -> int:
     s = s.strip()
     if not s:
         return 0
     return len(re.findall(r"\S+", s))
-
 
 def verbatim_budget_words(
     page_target: int = DEFAULT_PAGE_TARGET,
@@ -46,7 +43,6 @@ def verbatim_budget_words(
 ) -> tuple[int, int]:
     return (int(page_target * min_r), int(page_target * max_r))
 
-
 def extract_verbatim_block(page_text: str) -> tuple[str, int, int]:
     """Return verbatim body (no heading), start index, end index, or ('', -1, -1)."""
     m = _VERBATIM.search(page_text)
@@ -54,7 +50,6 @@ def extract_verbatim_block(page_text: str) -> tuple[str, int, int]:
         return "", -1, -1
     block = m.group(1).strip()
     return block, m.start(1), m.end(1)
-
 
 def condense_paragraphs(
     text: str,
@@ -112,7 +107,6 @@ def condense_paragraphs(
     gap = f"\n\n*… {omitted} words omitted (middle of transcript lane); see **Full verbatim (capture):** in **### Appendix** …*\n\n"
     return f"{head_s}{gap}{tail_s}", omitted
 
-
 def cmd_check(args: argparse.Namespace) -> int:
     path: Path = args.page
     text = path.read_text(encoding="utf-8")
@@ -137,7 +131,6 @@ def cmd_check(args: argparse.Namespace) -> int:
     ):
         print("  ** verbatim share outside 70–80% band (expected when page is short) **", file=sys.stderr)
     return 0
-
 
 def cmd_condense(args: argparse.Namespace) -> int:
     from extract_transcript_speaker_lanes import extract_lanes  # type: ignore
@@ -174,7 +167,6 @@ def cmd_condense(args: argparse.Namespace) -> int:
     )
     return 0
 
-
 def _add_budget_args(p: argparse.ArgumentParser) -> None:
     p.add_argument(
         "--page-target",
@@ -192,7 +184,6 @@ def _add_budget_args(p: argparse.ArgumentParser) -> None:
         type=float,
         default=DEFAULT_VERBATIM_MAX_RATIO,
     )
-
 
 def main() -> None:
     ap = argparse.ArgumentParser(
@@ -219,7 +210,6 @@ def main() -> None:
 
     args = ap.parse_args()
     sys.exit(args.func(args))
-
 
 if __name__ == "__main__":
     main()

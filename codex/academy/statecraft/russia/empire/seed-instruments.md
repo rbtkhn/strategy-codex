@@ -1,6 +1,5 @@
 # Russia Empire Instrument
 
-WORK only; not Record.
 
 ## Purpose
 

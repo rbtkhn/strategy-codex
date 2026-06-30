@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Johnson Speaker Arc (compat redirect)
 

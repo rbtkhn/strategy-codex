@@ -1,6 +1,5 @@
 # Agent deep rules — strategy-codex
 
-**Work only; not Record.**
 
 Extended guardrails moved from root [AGENTS.md](../../AGENTS.md) during Sprint 5 slimming. **Always-on contract:** slim AGENTS + [instance-doctrine.md](../../instance-doctrine.md). Fork / gate / triadic cognition detail lives here.
 

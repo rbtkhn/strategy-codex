@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (2)
 - Guests: `Alastair Crooke` (1), `Chas Freeman` (1)
-- Threads: `alkorshid` (1), `crooke` (1), `freeman` (1)
+- Threads: `alkhorshid` (1), `crooke` (1), `freeman` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | — | `alkorshid`, `crooke` | [watch](https://www.youtube.com/watch?v=51vdLreNqWc) | `source-dialogue-works-alastair-crooke-alastair-crooke-iran-israel-ceasefire-inside-the-12-day-war-trump-s-peace-deal-2025-06-25.md` |
+| `dialogue-works` | — | `alkhorshid`, `crooke` | [watch](https://www.youtube.com/watch?v=51vdLreNqWc) | `source-dialogue-works-alastair-crooke-alastair-crooke-iran-israel-ceasefire-inside-the-12-day-war-trump-s-peace-deal-2025-06-25.md` |
 | `dialogue-works` | Dialogue Works | `freeman` | — | `source-dialogue-works-amb-chas-freeman-turning-point-in-global-power-iran-attacked-russia-reacts-2025-06-25.md` |
 
 ## Writer sources

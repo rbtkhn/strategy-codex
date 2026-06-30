@@ -31,7 +31,6 @@ _CATEGORY_MAP = {
     "personality": "expression",
 }
 
-
 def _extract_scalar(yaml_body: str, key: str) -> str | None:
     m = re.search(rf"^{re.escape(key)}:\s*(.+)$", yaml_body, re.MULTILINE)
     if not m:
@@ -43,7 +42,6 @@ def _extract_scalar(yaml_body: str, key: str) -> str | None:
         val = val[1:-1]
     return val or None
 
-
 def _extract_block(yaml_body: str, key: str) -> str | None:
     """Extract a multi-line block value (pipe-style or quoted scalar)."""
     m = re.search(rf"^{re.escape(key)}:\s*\|?\s*\n((?:[ \t]+.+\n?)+)", yaml_body, re.MULTILINE)
@@ -52,7 +50,6 @@ def _extract_block(yaml_body: str, key: str) -> str | None:
         stripped = [ln.strip() for ln in lines if ln.strip()]
         return " ".join(stripped) if stripped else None
     return _extract_scalar(yaml_body, key)
-
 
 def _infer_before_from_self(self_text: str, profile_target: str | None, summary: str | None) -> dict:
     """Best-effort inference of prior state from current SELF."""
@@ -66,7 +63,6 @@ def _infer_before_from_self(self_text: str, profile_target: str | None, summary:
     if "IX-C" in section:
         return {"section": "IX-C. PERSONALITY", "state": "(no prior entry for this topic)"}
     return {"section": section, "state": "(no prior entry)"}
-
 
 def candidate_to_diff(
     candidate_id: str,
@@ -152,7 +148,6 @@ def candidate_to_diff(
 
     return diff
 
-
 def convert_gate(user_id: str) -> list[dict]:
     """Parse recursion-gate.md and return list of identity-diff v1 JSON objects for pending candidates."""
     gate_path = profile_dir(user_id) / "recursion-gate.md"
@@ -170,7 +165,6 @@ def convert_gate(user_id: str) -> list[dict]:
         if d:
             diffs.append(d)
     return diffs
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -198,7 +192,6 @@ def main() -> int:
         print(json.dumps(diffs, indent=2))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

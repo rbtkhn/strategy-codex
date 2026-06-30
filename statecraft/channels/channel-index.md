@@ -16,7 +16,7 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 ## Stats
 
 - Distinct YouTube channel keys: `16`
-- YouTube source files mapped: `1502`
+- YouTube source files mapped: `1514`
 - Rows with explicit `channel_slug`: `16`
 - Watchlist channels (matched): `7`
 - Check-sources roster (main, misc excluded): `16` — [channel-index.json](./channel-index.json)
@@ -26,13 +26,13 @@ Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../plat
 
 | Channel slug | Label | Files | Days | Watchlist | Channel URL | First day | Last day |
 | --- | --- | ---: | ---: | --- | --- | --- | --- |
-| `alexander-mercouris` | Alexander Mercouris | 333 | 331 | yes | [open](https://www.youtube.com/@AlexMercouris) | `2025-01-03` | `2026-06-27` |
-| `dialogue-works` | Dialogue Works | 313 | 199 | yes | [open](https://www.youtube.com/@dialogueworks01) | `2025-01-04` | `2026-06-28` |
+| `alexander-mercouris` | Alexander Mercouris | 334 | 332 | yes | [open](https://www.youtube.com/@AlexMercouris) | `2025-01-03` | `2026-06-28` |
+| `dialogue-works` | Dialogue Works | 316 | 199 | yes | [open](https://www.youtube.com/@dialogueworks01) | `2025-01-04` | `2026-06-28` |
 | `daniel-davis` | Daniel Davis / Deep Dive | 260 | 153 | yes | [open](https://www.youtube.com/@DanielDavisDeepDive) | `2025-01-01` | `2026-06-26` |
-| `judging-freedom` | Judge Napolitano - Judging Freedom | 216 | 140 | yes | [open](https://www.youtube.com/@judgingfreedom) | `2025-01-07` | `2026-06-26` |
-| `glenn-diesen` | Glenn Diesen | 215 | 176 | yes | [open](https://www.youtube.com/@GDiesen1) | `2023-01-14` | `2026-06-27` |
+| `glenn-diesen` | Glenn Diesen | 220 | 180 | yes | [open](https://www.youtube.com/@GDiesen1) | `2023-01-14` | `2026-06-29` |
+| `judging-freedom` | Judge Napolitano - Judging Freedom | 218 | 141 | yes | [open](https://www.youtube.com/@judgingfreedom) | `2025-01-07` | `2026-06-29` |
 | `mario-nawfal` | Mario Nawfal | 52 | 31 |  | [open](https://www.youtube.com/channel/UCTWBp-39z6tvz4-LQB-Z_QA) | `2026-05-12` | `2026-06-26` |
-| `the-duran` | The Duran | 31 | 31 | yes | [open](https://www.youtube.com/@TheDuran) | `2025-02-07` | `2026-06-23` |
+| `the-duran` | The Duran | 32 | 32 | yes | [open](https://www.youtube.com/@TheDuran) | `2025-02-07` | `2026-06-27` |
 | `india-global-left` | India and Global Left | 21 | 21 |  | [open](https://www.youtube.com/@IndiaGlobalLeft) | `2025-02-22` | `2026-06-11` |
 | `neutrality-studies` | Neutrality Studies | 11 | 9 |  | [open](https://www.youtube.com/@neutralitystudies) | `2025-02-06` | `2026-06-22` |
 | `predictive-history` | Predictive History | 11 | 9 |  | [open](https://www.youtube.com/@PredictiveHistory) | `2026-04-14` | `2026-06-10` |

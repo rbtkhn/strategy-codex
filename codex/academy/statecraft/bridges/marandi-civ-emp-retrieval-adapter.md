@@ -1,6 +1,5 @@
 # Marandi CIV-EMP Retrieval Adapter
 
-WORK only; not Record.
 
 ## Purpose
 

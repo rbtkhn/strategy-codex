@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Orchestrate post-land scaffold + ASR/proper-noun cleanup for statecraft captures.
-
-WORK only; not Record. SSOT for operator ``source-clean`` skill.
+SSOT for operator ``source-clean`` skill.
 
 Pipeline (in order):
   1. Caption wrapper + family scaffold (post_land_statecraft_family)
@@ -40,11 +39,9 @@ from source_clean_tiers import (  # noqa: E402
 )
 from statecraft_day_archive import DEFAULT_ROOT  # noqa: E402
 
-
 def _has_source_clean_provenance(fm_block: str) -> bool:
     """True when capture already received a source-clean provenance patch."""
     return "source-clean pass" in fm_block or "AI-assisted source-clean" in fm_block
-
 
 def _landed_files_for_day(day: str) -> list[Path]:
     day_dir = DEFAULT_ROOT / day
@@ -54,7 +51,6 @@ def _landed_files_for_day(day: str) -> list[Path]:
     if not files:
         raise FileNotFoundError(f"no source-*.md under {day_dir}")
     return files
-
 
 def clean_capture(
     path: Path,
@@ -139,7 +135,6 @@ def clean_capture(
         print(f"  dry-run: would write {path.name}")
     return 0
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     group = parser.add_mutually_exclusive_group(required=True)
@@ -177,7 +172,6 @@ def main() -> int:
         build_main()
 
     return exit_code
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

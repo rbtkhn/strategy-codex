@@ -48,13 +48,11 @@ REPLACEMENTS: tuple[tuple[str, str], ...] = (
     (r"\bIX-C\b", "museum knowledge section C"),
 )
 
-
 def _rel(p: Path) -> str:
     try:
         return p.relative_to(REPO_ROOT).as_posix()
     except ValueError:
         return str(p)
-
 
 def _should_scan(path: Path) -> bool:
     rel = _rel(path)
@@ -66,7 +64,6 @@ def _should_scan(path: Path) -> bool:
     if rel == "scripts/check_record_surface_retirement.py":
         return False
     return True
-
 
 def _iter_files() -> list[Path]:
     out: list[Path] = []
@@ -84,7 +81,6 @@ def _iter_files() -> list[Path]:
                     out.append(p)
     return sorted(set(out))
 
-
 def _apply(text: str) -> str:
     for old, new in REPLACEMENTS:
         if old.startswith(r"\b") or "\\b" in old:
@@ -92,7 +88,6 @@ def _apply(text: str) -> str:
         else:
             text = text.replace(old, new)
     return text
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -116,7 +111,6 @@ def main() -> int:
                 path.write_text(new, encoding="utf-8")
     print(f"sweep_record_surface_residue: {changed} file(s) {'updated' if args.apply else 'would change'}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

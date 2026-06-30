@@ -9,18 +9,15 @@ from typing import Any, Dict, List
 
 import pandas as pd
 
-
 def mae(actual: List[float], predicted: List[float]) -> float:
     if len(actual) != len(predicted) or not actual:
         return math.nan
     return sum(abs(a - p) for a, p in zip(actual, predicted)) / len(actual)
 
-
 def rmse(actual: List[float], predicted: List[float]) -> float:
     if len(actual) != len(predicted) or not actual:
         return math.nan
     return math.sqrt(sum((a - p) ** 2 for a, p in zip(actual, predicted)) / len(actual))
-
 
 def mape(actual: List[float], predicted: List[float]) -> float:
     if len(actual) != len(predicted) or not actual:
@@ -31,7 +28,6 @@ def mape(actual: List[float], predicted: List[float]) -> float:
         return math.nan
 
     return 100.0 * sum(abs((a - p) / a) for a, p in pairs) / len(pairs)
-
 
 def load_actuals(csv_path: str, time_col: str, value_col: str, horizon: int) -> List[float]:
     df = pd.read_csv(csv_path)
@@ -49,7 +45,6 @@ def load_actuals(csv_path: str, time_col: str, value_col: str, horizon: int) -> 
 
     return df.tail(horizon)[value_col].astype(float).tolist()
 
-
 def evaluate_forecast(artifact: Dict[str, Any], actuals: List[float]) -> Dict[str, float]:
     predicted = artifact.get("point_forecast", [])
     if not isinstance(predicted, list):
@@ -65,7 +60,6 @@ def evaluate_forecast(artifact: Dict[str, Any], actuals: List[float]) -> Dict[st
         "rmse": rmse(actuals, predicted),
         "mape": mape(actuals, predicted),
     }
-
 
 def append_evaluation_to_artifact(
     artifact: Dict[str, Any], evaluation: Dict[str, float]
@@ -83,7 +77,6 @@ def append_evaluation_to_artifact(
     artifact["benchmark_results"] = existing
     return artifact
 
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Evaluate a forecast artifact against actual observed values."
@@ -98,7 +91,6 @@ def parse_args() -> argparse.Namespace:
         help="Optional path to write updated artifact. If omitted, overwrite input artifact.",
     )
     return parser.parse_args()
-
 
 def main() -> None:
     args = parse_args()
@@ -125,7 +117,6 @@ def main() -> None:
             for key, val in evaluation.items()
         },
     )
-
 
 if __name__ == "__main__":
     main()

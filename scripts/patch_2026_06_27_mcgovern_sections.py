@@ -125,7 +125,6 @@ RESECTION_NOTE = (
     f"({len(SECTION_TITLES)} sections; Hormuz–Lebanon–Ukraine–Putin close arc)"
 )
 
-
 def validate_capture(path: Path) -> list[str]:
     doc = path.read_text(encoding="utf-8")
     try:
@@ -139,7 +138,6 @@ def validate_capture(path: Path) -> list[str]:
         return [str(exc)]
     return validate_section_anchors(body, SECTION_TITLES, SECTION_ANCHORS)
 
-
 def write_capture(path: Path) -> int:
     return write_interview_section_patch_capture(
         path,
@@ -151,7 +149,6 @@ def write_capture(path: Path) -> int:
         interview_host=HOST,
         interview_guest=GUEST,
     )
-
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -173,7 +170,6 @@ def main() -> int:
         subs = write_capture(path)
         print(f"wrote {CAPTURE} (manual_asr_groups={subs})")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

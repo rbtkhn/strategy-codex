@@ -1,7 +1,6 @@
 # Diesen refined page — 2026-03-27 (host lane)
 <!-- word_count: ~220 -->
 
-WORK only; not Record.
 
 **Expert:** `diesen` · **Guest (same air):** John Mearsheimer · **Published:** 2026-03-27 · Sibling: [mearsheimer-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md](mearsheimer/mearsheimer-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md
 

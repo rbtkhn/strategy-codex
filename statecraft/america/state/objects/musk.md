@@ -1,6 +1,5 @@
 # Elon Musk Authority Carrier Object
 
-WORK only; not Record.
 
 Refresh current officeholder, contract, company, and platform facts before load-bearing use.
 

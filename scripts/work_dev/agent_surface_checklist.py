@@ -87,7 +87,6 @@ ALLOWED_CONTRACT_STATUSES = frozenset(
     {"active", "planned", "deprecated", "experimental"}
 )
 
-
 def _check_enum(section: str, key: str, value: str, allowed: frozenset[str]) -> str | None:
     v = str(value).strip()
     if not v:
@@ -96,7 +95,6 @@ def _check_enum(section: str, key: str, value: str, allowed: frozenset[str]) -> 
         return f"{section}.{key} must be one of {sorted(allowed)}, got {v!r}"
     return None
 
-
 def _check_mapping(data: dict, section: str, required: tuple[str, ...]) -> list[str]:
     block = data.get(section)
     if block is None:
@@ -104,7 +102,6 @@ def _check_mapping(data: dict, section: str, required: tuple[str, ...]) -> list[
     if not isinstance(block, dict):
         return [f"{section} must be a mapping"]
     return [f"missing {section}.{k}" for k in required if k not in block]
-
 
 def validate_contract(data: dict) -> list[str]:
     """Validate a capability contract YAML against the template schema."""
@@ -155,12 +152,10 @@ def validate_contract(data: dict) -> list[str]:
 
     return errors
 
-
 def _discover_contracts(directory: Path) -> list[Path]:
     if not directory.is_dir():
         return []
     return sorted(directory.glob("capability-contract-*.yaml"))
-
 
 def run_validate_contracts(targets: list[Path] | None) -> int:
     """Validate one or more capability contracts. Returns 0 if all pass."""
@@ -205,7 +200,6 @@ def run_validate_contracts(targets: list[Path] | None) -> int:
     print(f"\nall {len(files)} contract(s) valid")
     return 0
 
-
 # ── Agent-surface checklist validation (original) ──────────────────────
 
 def validate_doc(data: dict) -> list[str]:
@@ -230,7 +224,6 @@ def validate_doc(data: dict) -> list[str]:
                 f"{sorted(ALLOWED_AGENT_SPECIES)} or empty, got {s!r}"
             )
     return errors
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -278,7 +271,6 @@ def main() -> int:
         return 2
     sys.stdout.write(DEFAULT_TEMPLATE.read_text(encoding="utf-8"))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

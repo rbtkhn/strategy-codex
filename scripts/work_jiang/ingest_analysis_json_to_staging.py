@@ -31,7 +31,6 @@ assert _spec.loader
 _spec.loader.exec_module(_mod)
 validate_obj = _mod.validate_obj
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("json_path", type=Path, help="Validated -analysis.json path")
@@ -109,7 +108,6 @@ def main() -> int:
         print(f"Wrote {pj}")
         print(f"Wrote {dj}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

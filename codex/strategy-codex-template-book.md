@@ -1,7 +1,6 @@
 # Strategy-codex template - book
 <!-- word_count: canonical scaffold -->
 
-WORK only; not Record.
 
 **Purpose:** Canonical book template for strategy-codex. A **book** is the month-bounded synthesis and coordination surface inside a year volume.
 
@@ -20,7 +19,6 @@ The book should coordinate the month's chapters, open themes, and synthesis traj
 
 # Strategy-codex book - `YYYY-MM`
 
-WORK only; not Record.
 
 **Use it for:**
 
@@ -33,7 +31,6 @@ WORK only; not Record.
 
 ```markdown
 # Book YYYY-MM
-WORK only; not Record.
 
 ## Theme
 

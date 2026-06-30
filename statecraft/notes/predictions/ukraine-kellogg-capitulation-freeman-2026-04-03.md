@@ -7,9 +7,8 @@ stance: no
 confidence: high
 source: source-archive/statecraft/2026-04-03/source-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03.md
 speech_act: restated
+status: resolved
 ---
-
-WORK only; not Record.
 
 # Freeman — Ukraine Kellogg / capitulation (2026-04-03)
 

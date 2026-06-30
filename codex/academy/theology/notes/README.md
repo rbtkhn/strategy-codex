@@ -1,6 +1,6 @@
 # Theology Notes
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 These notes are the first concept pack supporting the academy theology essay arc. They are copied locally for study and carry provenance back to `docs/civilization-memory/notes/`.
 

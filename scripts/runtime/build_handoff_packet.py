@@ -27,7 +27,6 @@ from checkpoint_handoff_common import (  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
-
 def _matches_lane(path: Path, lane: str) -> bool:
     text = path.read_text(encoding="utf-8")
     body_lane = parse_field(text, "Lane:")
@@ -40,7 +39,6 @@ def _matches_lane(path: Path, lane: str) -> bool:
         return False
     rest = m.group(2)
     return rest.startswith(lane_slug + "_")
-
 
 def _collect_checkpoints(checkpoints_dir: Path, lane: str) -> list[Path]:
     out: list[Path] = []
@@ -62,7 +60,6 @@ def _collect_checkpoints(checkpoints_dir: Path, lane: str) -> list[Path]:
     out.sort(key=sort_key, reverse=True)
     return out
 
-
 def _review_gate_tag(text: str) -> str:
     """Return gate-relevance label from checkpoint body."""
     sec = extract_section(text, "Gate relevance").strip()
@@ -74,7 +71,6 @@ def _review_gate_tag(text: str) -> str:
         if line.startswith("- "):
             return line[2:].strip()
     return sec.splitlines()[0].strip() if sec else "none"
-
 
 def _normalize_handoff_review(tag: str) -> str:
     low = tag.lower().strip()
@@ -88,7 +84,6 @@ def _normalize_handoff_review(tag: str) -> str:
         return "watch"
     return "watch" if low and low != "none" else "none"
 
-
 def _review_section_markdown(active: str) -> list[str]:
     opts = ("none", "watch", "candidate likely")
     lines = ["## Review / gate relevance", ""]
@@ -97,7 +92,6 @@ def _review_section_markdown(active: str) -> list[str]:
         lines.append(f"- {mark}")
     lines.append("")
     return lines
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Build a handoff packet from checkpoints (+ optional brief).")
@@ -279,7 +273,6 @@ def main() -> int:
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"wrote {out}", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -28,7 +28,6 @@ from derived_regeneration import (
     write_receipt,
 )
 
-
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     mode = parser.add_mutually_exclusive_group()
@@ -84,7 +83,6 @@ def build_parser() -> argparse.ArgumentParser:
     )
     return parser
 
-
 def _expand(values: list[str] | None) -> list[str]:
     if not values:
         return []
@@ -96,12 +94,10 @@ def _expand(values: list[str] | None) -> list[str]:
                 out.append(normalize_rel_path(stripped))
     return out
 
-
 def _runtime_command(cmd: list[str]) -> list[str]:
     if cmd and cmd[0] == "python3":
         return [sys.executable, *cmd[1:]]
     return cmd
-
 
 def _selected_targets(args: argparse.Namespace, changed_paths: list[str]):
     if args.all:
@@ -118,7 +114,6 @@ def _selected_targets(args: argparse.Namespace, changed_paths: list[str]):
         selected = expand_with_downstream(selected)
         return topologically_sort_targets(selected), "incremental"
     return topologically_sort_targets(selected), "changed"
-
 
 def _build_receipt_payload(
     *,
@@ -141,7 +136,6 @@ def _build_receipt_payload(
         "recordAuthority": "none",
         "gateEffect": "none",
     }
-
 
 def main() -> int:
     args = build_parser().parse_args()
@@ -280,7 +274,6 @@ def main() -> int:
         print(f"wrote receipt: {receipt_path}")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,7 +1,6 @@
 # Speaker profile — Scott Ritter (`ritter`)
 <!-- word_count: ~950 -->
 
-WORK only; not Record.
 
 **Canonical profile:** this file.
 **Continuity SSOT:** [ritter-arc.md](ritter-arc.md) — person arc across authored + interview contexts.

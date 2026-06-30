@@ -1,6 +1,5 @@
 # Macgregor Shelf - 2026-03
 
-WORK only; not Record.
 
 This monthly shelf is the March 2026 synthesis/index for the migrated Macgregor statecraft shelf.
 

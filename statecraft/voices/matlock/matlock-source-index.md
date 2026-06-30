@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Matlock Source Index (compat redirect)
 

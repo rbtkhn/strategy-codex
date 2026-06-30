@@ -2,7 +2,7 @@
   "schema_version": 1,
   "work_layer": true,
   "generated_date": "2026-05-17",
-  "host": "alkorshid",
+  "host": "alkhorshid",
   "year": 2026,
   "month": "2026-01",
   "input_scope": "full-host-month",
@@ -149,16 +149,16 @@
       "codex/years/2026/raw-input/2026-01-02/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02.md",
       "codex/years/2026/raw-input/2026-01-22/transcript-dialogue-works-amb-chas-freeman-iran-vows-huge-response-to-us-israel-attack-2026-01-22.md",
       "codex/years/2026/raw-input/2026-01-25/transcript-alkorshid-crooke-systemic-collapse-explained-why-two-fronts-matter-2026-01-25.md",
-      "runtime/artifacts/host-shelf-quality/2026/alkorshid/2026-01/quality-summary.json",
-      "runtime/artifacts/host-shelf-quality/2026/alkorshid/2026-01/quality-summary.md"
+      "runtime/artifacts/host-shelf-quality/2026/alkhorshid/2026-01/quality-summary.json",
+      "runtime/artifacts/host-shelf-quality/2026/alkhorshid/2026-01/quality-summary.md"
     ],
     "on_disk": true,
     "verified": true,
     "committed": false,
     "pushed": false,
     "dirty_paths": [
-      " M runtime/artifacts/host-shelf-quality/2026/alkorshid/2026-01/quality-summary.json",
-      " M runtime/artifacts/host-shelf-quality/2026/alkorshid/2026-01/quality-summary.md",
+      " M runtime/artifacts/host-shelf-quality/2026/alkhorshid/2026-01/quality-summary.json",
+      " M runtime/artifacts/host-shelf-quality/2026/alkhorshid/2026-01/quality-summary.md",
       "?? codex/years/2026/raw-input/2026-01-01/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-just-went-all-in-2026-01-01.md",
       "?? codex/years/2026/raw-input/2026-01-02/transcript-dialogue-works-amb-chas-freeman-mohammad-marandi-trump-issues-warning-to-iran-tehran-fi-2026-01-02.cleaned.md",
       "?? codex/years/2026/raw-input/2026-01-02/transcript-dialogue-works-larry-c-johnson-col-larry-wilkerson-russia-iran-just-built-a-war-shield-2026-01-02.cleaned.md"

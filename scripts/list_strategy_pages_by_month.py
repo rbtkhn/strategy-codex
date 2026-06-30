@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""List thread-embedded ``strategy-page`` blocks in a calendar month (WORK only).
+"""List thread-embedded ``strategy-page`` blocks in a calendar month (non-authoritative).
 
 Reads expert thread file(s) via ``discover_all_pages`` (same dedupe rules as
 validators: monthly file preferred over legacy ``thread.md`` for the same
@@ -46,13 +46,11 @@ RE_SIGNAL_OR_CHRONICLE = re.compile(
 MAX_PARA_CHARS = 500
 MAX_BQ = 20
 
-
 def _signal_section(content: str) -> str:
     m = RE_SIGNAL_OR_CHRONICLE.search(content)
     if not m:
         return ""
     return m.group(1).strip()
-
 
 def _first_paragraph(signal: str) -> str:
     if not signal:
@@ -68,7 +66,6 @@ def _first_paragraph(signal: str) -> str:
         return t
     return ""
 
-
 def _blockquote_lines(signal: str) -> list[str]:
     out: list[str] = []
     for line in signal.splitlines():
@@ -78,7 +75,6 @@ def _blockquote_lines(signal: str) -> list[str]:
             if inner and len(out) < MAX_BQ:
                 out.append(inner)
     return out
-
 
 def chronicle_snippets_from_page_content(content: str) -> dict[str, Any]:
     sig = _signal_section(content)
@@ -96,13 +92,11 @@ def chronicle_snippets_from_page_content(content: str) -> dict[str, Any]:
         "blockquotes": _blockquote_lines(sig),
     }
 
-
 def _rel_path(p: Path) -> str:
     try:
         return str(p.resolve().relative_to(REPO_ROOT))
     except ValueError:
         return str(p)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -216,7 +210,6 @@ def main() -> int:
             if not fp and not bqs:
                 print("(Signal/Chronicle section empty or only whitespace after parse.)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

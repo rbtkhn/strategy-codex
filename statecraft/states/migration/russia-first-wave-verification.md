@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Russia First-Wave Verification Note
 

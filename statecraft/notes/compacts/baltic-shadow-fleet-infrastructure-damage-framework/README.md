@@ -9,7 +9,7 @@ updated_at: 2026-06-28
 ---
 # Baltic Shadow-Fleet Infrastructure Damage Framework
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: compare an attribution / negligence / gray-zone infrastructure crisis across Russia, America, and China. The framework prevents damaged cables or pipelines from becoming automatic war claims before incentive and evidence filters run.
 

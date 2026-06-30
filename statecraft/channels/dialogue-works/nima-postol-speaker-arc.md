@@ -1,6 +1,5 @@
 # arc-postol-nima-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-postol-nima-host.md](../../notes/arc-postol-nima-host.md)
 

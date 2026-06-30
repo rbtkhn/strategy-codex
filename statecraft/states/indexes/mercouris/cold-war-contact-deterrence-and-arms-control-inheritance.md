@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Cold War Contact, Deterrence, And Arms-Control Inheritance
 

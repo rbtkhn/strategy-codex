@@ -32,7 +32,6 @@ DEFAULT_KEYWORDS = (
     "openai",
 )
 
-
 def load_keywords(path: Path | None) -> list[str]:
     if path is None:
         return list(DEFAULT_KEYWORDS)
@@ -45,7 +44,6 @@ def load_keywords(path: Path | None) -> list[str]:
         out.append(s.lower())
     return out if out else list(DEFAULT_KEYWORDS)
 
-
 def job_text(job: dict) -> str:
     parts = [
         str(job.get("title", "")),
@@ -54,7 +52,6 @@ def job_text(job: dict) -> str:
         " ".join(job.get("skill_tags") or []),
     ]
     return " ".join(parts).lower()
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Filter manual job JSON by keywords.")
@@ -95,7 +92,6 @@ def main() -> int:
 
     print(f"# {len(matched)} / {len(jobs)} jobs matched", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

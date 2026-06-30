@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Anchored Historical Citation Policy
 

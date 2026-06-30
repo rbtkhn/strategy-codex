@@ -48,7 +48,6 @@ ROOTS = [
     "pyproject.toml",
 ]
 
-
 def main() -> int:
     count = 0
     for item in ROOTS:
@@ -69,7 +68,6 @@ def main() -> int:
                 count += 1
     print(f"fixed {count} files")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

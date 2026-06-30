@@ -19,7 +19,6 @@ if str(_RUNTIME_DIR) not in sys.path:
 
 import ledger_paths  # noqa: E402
 
-
 def _iter_jsonl(path: Path) -> Iterator[dict]:
     if not path.is_file():
         return
@@ -33,14 +32,12 @@ def _iter_jsonl(path: Path) -> Iterator[dict]:
             except json.JSONDecodeError:
                 continue
 
-
 def chunks_available(surface: str) -> bool:
     """True if any .chunks.jsonl files exist for *surface*."""
     d = ledger_paths.chunks_dir(surface)
     if not d.is_dir():
         return False
     return any(d.glob("*.chunks.jsonl"))
-
 
 def load_chunks(surface: str) -> list[dict]:
     """Load all chunk records for *surface*, sorted by source_path then chunk_index."""
@@ -53,7 +50,6 @@ def load_chunks(surface: str) -> list[dict]:
     records.sort(key=lambda r: (r.get("source_path", ""), r.get("chunk_index", 0)))
     return records
 
-
 def load_chunks_for_file(surface: str, filename: str) -> list[dict]:
     """Load chunks from a specific .chunks.jsonl file."""
     d = ledger_paths.chunks_dir(surface)
@@ -61,7 +57,6 @@ def load_chunks_for_file(surface: str, filename: str) -> list[dict]:
     records = list(_iter_jsonl(p))
     records.sort(key=lambda r: r.get("chunk_index", 0))
     return records
-
 
 def chunked_source_paths(surface: str) -> set[str]:
     """Return the set of source_path values that have chunks for *surface*."""

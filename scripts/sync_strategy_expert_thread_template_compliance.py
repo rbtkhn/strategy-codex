@@ -14,7 +14,6 @@ Run from repo root::
 
     python3 scripts/sync_strategy_expert_thread_template_compliance.py --apply
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -40,7 +39,6 @@ MARKER_BLOCK_START = "\n" + MARKER_START + "\n"
 RE_SOURCE = re.compile(r"^\*\*Source:\*\*.*$", re.M)
 RE_MONTH_H2 = re.compile(r"^## \d{4}-\d{2}\s*$")
 
-
 def canonical_process_updated() -> str:
     # Do not embed `<!-- … -->` in this line — it can be mistaken for the real marker by naive splits.
     return (
@@ -50,7 +48,6 @@ def canonical_process_updated() -> str:
         "start marker in **readable prose** (optional **ledger** after the end marker).\n"
         "**Updated:** Narrative — when you distill; **machine layer** — when you run **`thread`**."
     )
-
 
 def canonical_journal_intro(expert_id: str, *, month_ym: str | None = None) -> str:
     lines: list[str] = [
@@ -138,11 +135,9 @@ def canonical_journal_intro(expert_id: str, *, month_ym: str | None = None) -> s
     ]
     return "\n".join(lines)
 
-
 def extract_source_line(preamble: str) -> str | None:
     m = RE_SOURCE.search(preamble)
     return m.group(0).strip() if m else None
-
 
 def default_source_line(expert_id: str) -> str:
     return (
@@ -151,14 +146,12 @@ def default_source_line(expert_id: str) -> str:
         "relevant **`strategy-page`** work (where this expert's material was used)."
     )
 
-
 def companion_line(expert_id: str) -> str:
     return (
         f"**Companion files:** [`strategy-expert-{expert_id}.md`](strategy-expert-{expert_id}.md) "
         f"(platform/profile) and [`strategy-expert-{expert_id}-transcript.md`]"
         f"(strategy-expert-{expert_id}-transcript.md) (7-day verbatim)."
     )
-
 
 def split_file(text: str) -> tuple[str, str, str] | None:
     idx = text.find(MARKER_BLOCK_START)
@@ -187,7 +180,6 @@ def split_file(text: str) -> tuple[str, str, str] | None:
         month_onward = "\n".join(lines[month_idx:])
     return preamble, month_onward, machine_suffix
 
-
 def rebuild_preamble(old_preamble: str, expert_id: str) -> str:
     lines = old_preamble.strip().splitlines()
     h1 = lines[0] if lines else f"# Expert thread — `{expert_id}`"
@@ -197,8 +189,7 @@ def rebuild_preamble(old_preamble: str, expert_id: str) -> str:
     parts = [
         h1,
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         src,
         canonical_process_updated(),
         companion_line(expert_id),
@@ -207,7 +198,6 @@ def rebuild_preamble(old_preamble: str, expert_id: str) -> str:
         "",
     ]
     return "\n".join(parts)
-
 
 def process_file(path: Path, apply: bool) -> bool:
     month_ym: str | None = None
@@ -247,7 +237,6 @@ def process_file(path: Path, apply: bool) -> bool:
     print(f"{'wrote' if apply else 'would update'}: {path.name}")
     return True
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -263,7 +252,6 @@ def main() -> int:
             updated += 1
     print(f"summary: {updated} file(s) " + ("updated" if args.apply else "would change"), file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

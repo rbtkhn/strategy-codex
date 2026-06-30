@@ -58,12 +58,10 @@ SPEC = {
     ),
 }
 
-
 def extract_body(doc: str) -> str:
     if BODY_MARKER not in doc:
         raise ValueError(f"missing body marker: {BODY_MARKER!r}")
     return doc.split(BODY_MARKER, 1)[1]
-
 
 def check_spec(path: Path, spec: dict) -> bool:
     doc = path.read_text(encoding="utf-8")
@@ -83,7 +81,6 @@ def check_spec(path: Path, spec: dict) -> bool:
         print(f"  note: {spec['note']}")
     print()
     return ok
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -114,7 +111,6 @@ def main() -> int:
     )
     print(f"sectioned {REL}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

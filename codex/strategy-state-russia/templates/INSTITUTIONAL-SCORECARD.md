@@ -11,4 +11,3 @@
 
 Optional: `Seam target: thread:...` or `wire-only` / `state-only`.
 
-WORK only; not Record.

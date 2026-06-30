@@ -19,10 +19,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _read(path: Path) -> str:
     return path.read_text(encoding="utf-8") if path.exists() else ""
-
 
 def _parse_journal_entries(content: str) -> list[dict]:
     """Extract journal entries (date, entry, approved) from journal.md YAML."""
@@ -45,7 +43,6 @@ def _parse_journal_entries(content: str) -> list[dict]:
             entries[-1]["approved"] = "true" in line.lower()
     return [e for e in entries if e.get("approved") and e.get("entry")]
 
-
 def _parse_curiosity_snippets(self_content: str, limit: int = 5) -> list[str]:
     """Extract recent curiosity (IX-B) topic lines for digest."""
     topics = []
@@ -66,7 +63,6 @@ def _parse_curiosity_snippets(self_content: str, limit: int = 5) -> list[str]:
             if "IX-C" in line or "IX-A" in line:
                 break
     return topics
-
 
 def build_digest(
     user_id: str = "grace-mar",
@@ -90,7 +86,6 @@ def build_digest(
         "entries": recent,
         "curiosity": curiosity,
     }
-
 
 def render_markdown(data: dict) -> str:
     """Render digest as Markdown."""
@@ -116,7 +111,6 @@ def render_markdown(data: dict) -> str:
         lines.append("No new entries in this period.")
     return "\n".join(lines)
 
-
 def render_html(data: dict) -> str:
     """Render digest as minimal HTML."""
     body = "<h1>Grace-Mar digest</h1><p>Generated " + data["generated_at"][:10] + "</p>"
@@ -131,7 +125,6 @@ def render_html(data: dict) -> str:
             body += f"<li>{t}</li>"
         body += "</ul>"
     return f"<!DOCTYPE html><html><head><meta charset='utf-8'><title>Digest</title></head><body>{body}</body></html>"
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate newsletter digest from journal + curiosity")
@@ -150,7 +143,6 @@ def main() -> None:
         print(f"Wrote {args.output}", file=__import__("sys").stderr)
     else:
         print(text)
-
 
 if __name__ == "__main__":
     main()

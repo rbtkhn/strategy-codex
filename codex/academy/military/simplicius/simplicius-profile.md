@@ -1,7 +1,6 @@
 # Strategy expert Ã¢â‚¬â€ `simplicius`
 <!-- word_count: 665 -->
 
-WORK only; not Record.
 
 **Canonical index:** [strategy-commentator-threads.md](../../../strategy-commentator-threads.md) Ã¢â‚¬â€ **`simplicius`** lane.
 

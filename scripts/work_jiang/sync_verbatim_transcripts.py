@@ -49,7 +49,6 @@ VIDEO_ID_RE = re.compile(
     r"(?:youtube\.com/watch\?v=|youtu\.be/)([A-Za-z0-9_-]{11})\b",
 )
 
-
 def parse_transcript_file_header(raw: str) -> dict[str, str]:
     """Parse leading # comment lines from a saved transcript .txt file."""
     out: dict[str, str] = {}
@@ -65,11 +64,9 @@ def parse_transcript_file_header(raw: str) -> dict[str, str]:
             out[key] = v.strip()
     return out
 
-
 def extract_video_id(lecture_md: str) -> str | None:
     m = VIDEO_ID_RE.search(lecture_md)
     return m.group(1) if m else None
-
 
 def lecture_title_line(lecture_md: str, *, fallback: str) -> str:
     first = lecture_md.lstrip().split("\n", 1)[0].strip()
@@ -77,14 +74,12 @@ def lecture_title_line(lecture_md: str, *, fallback: str) -> str:
         return first[1:].strip() or fallback
     return fallback
 
-
 def find_raw_transcript(transcript_root: Path, video_id: str) -> Path | None:
     pattern = str(transcript_root / "transcripts" / f"{video_id}_*.txt")
     matches = sorted(glob.glob(pattern), key=lambda p: Path(p).stat().st_mtime, reverse=True)
     if not matches:
         return None
     return Path(matches[0])
-
 
 def build_verbatim_markdown(
     *,
@@ -105,7 +100,6 @@ def build_verbatim_markdown(
     head = yaml.safe_dump(fm, allow_unicode=True, default_flow_style=False, sort_keys=False).rstrip()
     md = f"---\n{head}\n---\n\n# {title}\n\n## Verbatim transcript (lightly cleaned)\n\n{body_clean}\n"
     return md
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -237,7 +231,6 @@ def main() -> int:
     if args.fail_on_missing_raw and missing_raw:
         return 2
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # Brief vs spec
 
-WORK only; not Record.
 
 ## Brief
 

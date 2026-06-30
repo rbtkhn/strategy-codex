@@ -1,6 +1,5 @@
 # Postol cross-host note
 
-WORK only; not Record.
 
 Purpose: keep the wider Postol object visible now that the `Davis`, `Diesen`, and `Alkorshid` branches all look materially real, while still distinguishing between stream reality and on-disk materialization density.
 

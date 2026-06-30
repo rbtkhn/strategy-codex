@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Jiang Source Index (compat redirect)
 

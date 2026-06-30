@@ -17,11 +17,9 @@ OUT_VOL5 = WORK_DIR / "CHAPTER-QUEUE-VOLUME-V.md"
 OUT_VOL6 = WORK_DIR / "CHAPTER-QUEUE-VOLUME-VI.md"
 OUT_VOL7 = WORK_DIR / "CHAPTER-QUEUE-VOLUME-VII.md"
 
-
 def load(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def _render_queue_lines(title: str, blurb: str, chapters: list) -> list[str]:
     lines = [f"# {title}", "", blurb, ""]
@@ -45,7 +43,6 @@ def _render_queue_lines(title: str, blurb: str, chapters: list) -> list[str]:
         lines.append(f"**Next action:** {ch.get('next_action', '')}")
         lines.append("")
     return lines
-
 
 def main() -> int:
     arch = load(ARCH_PATH)
@@ -165,7 +162,6 @@ def main() -> int:
         OUT_VOL7.write_text("\n".join(lines7), encoding="utf-8")
         print(f"Wrote {OUT_VOL7}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

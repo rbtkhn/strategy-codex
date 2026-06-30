@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-01/source-dialogue-works-kent-breaking-iran-quits-all-peace-talks-effective-immediately-2026-06-01.md>
   - source-archive/statecraft/2026-06-01/source-dialogue-works-baud-trump-just-pulled-his-last-card-and-israel-is-in-shambles-2026-06-01.md>
 ---
-WORK only; not Record.
 
 # Persia On The Hormuz-Lebanon Gate - 2026-06-01
 

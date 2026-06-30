@@ -21,7 +21,6 @@ Deprecated compatibility stub — canonical essay: [essays/{slug}.md](../../essa
 
 """
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(
         description=(
@@ -82,7 +81,6 @@ def main() -> int:
     note_path.write_text(stub, encoding="utf-8")
     print(f"promote_note_to_essay: wrote {essay_path.relative_to(REPO_ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

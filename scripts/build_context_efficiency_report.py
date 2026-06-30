@@ -23,7 +23,6 @@ from grace_mar.observability.workflow_aggregate import (  # noqa: E402
     median_or_none,
 )
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
@@ -74,7 +73,6 @@ def main() -> int:
     )
     print(p)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

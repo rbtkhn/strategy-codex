@@ -45,7 +45,6 @@ USERS_DIR = REPO_ROOT / "platform/users"
 ARTIFACTS_DIR = ARTIFACTS_DIR
 NOTEBOOK_CHAPTERS = REPO_ROOT / "docs" / "skill-work" / "work-strategy" / "strategy-notebook" / "chapters"
 
-
 # ── surface: prepared_context ─────────────────────────────────────────
 
 def _search_prepared_context(
@@ -101,7 +100,6 @@ def _search_prepared_context(
     results.sort(key=lambda r: -r.final_score)
     return results[:top_k]
 
-
 # ── surface: evidence_lookup ──────────────────────────────────────────
 
 def _search_evidence(
@@ -153,7 +151,6 @@ def _search_evidence(
 
     results.sort(key=lambda r: -r.final_score)
     return results[:top_k]
-
 
 # ── surface: artifact_lookup / notebook_lookup ────────────────────────
 
@@ -224,7 +221,6 @@ def _score_chunks(
         ))
 
     return results
-
 
 def _scan_md_files(
     base_dir: Path,
@@ -345,18 +341,15 @@ def _scan_md_files(
     results.sort(key=lambda r: -r.final_score)
     return results[:top_k]
 
-
 def _search_artifacts(
     query: str, top_k: int, use_recency: bool, weights: tuple[float, float, float],
 ) -> list[hs.HybridResult]:
     return _scan_md_files(ARTIFACTS_DIR, query, top_k, "artifact_lookup", use_recency, weights)
 
-
 def _search_notebook(
     query: str, top_k: int, use_recency: bool, weights: tuple[float, float, float],
 ) -> list[hs.HybridResult]:
     return _scan_md_files(NOTEBOOK_CHAPTERS, query, top_k, "notebook_lookup", use_recency, weights)
-
 
 # ── dispatch ──────────────────────────────────────────────────────────
 
@@ -366,7 +359,6 @@ _DISPATCH: dict[str, Any] = {
     "artifact_lookup": _search_artifacts,
     "notebook_lookup": _search_notebook,
 }
-
 
 def retrieve(
     surface: str,
@@ -380,7 +372,6 @@ def retrieve(
     if fn is None:
         raise ValueError(f"unsupported surface: {surface}. allowed: {', '.join(sorted(SURFACES))}")
     return fn(query, top_k, use_recency, weights)
-
 
 # ── miss-ledger integration ──────────────────────────────────────────
 
@@ -404,7 +395,6 @@ def _log_miss(surface: str, query: str, top_k: int, result_count: int) -> None:
     except subprocess.CalledProcessError as e:
         print(f"warning: miss log failed: {e.stderr}", file=sys.stderr)
 
-
 # ── CLI ───────────────────────────────────────────────────────────────
 
 def _format_text(results: list[hs.HybridResult], query: str, surface: str) -> str:
@@ -425,7 +415,6 @@ def _format_text(results: list[hs.HybridResult], query: str, surface: str) -> st
             lines.append(f"      {snip}")
         lines.append("")
     return "\n".join(lines)
-
 
 def _format_json(results: list[hs.HybridResult], query: str, surface: str) -> str:
     out = {
@@ -451,7 +440,6 @@ def _format_json(results: list[hs.HybridResult], query: str, surface: str) -> st
     }
     return json.dumps(out, indent=2, ensure_ascii=False)
 
-
 def _parse_weights(s: str) -> tuple[float, float, float]:
     parts = s.split(",")
     if len(parts) != 3:
@@ -465,13 +453,11 @@ def _parse_weights(s: str) -> tuple[float, float, float]:
         raise argparse.ArgumentTypeError("weights must sum to > 0")
     return (vals[0] / total, vals[1] / total, vals[2] / total)  # type: ignore[return-value]
 
-
 def _validate_surface(value: str) -> str:
     if value not in SURFACES:
         allowed = ", ".join(sorted(SURFACES))
         raise argparse.ArgumentTypeError(f"invalid surface: {value}. allowed: {allowed}")
     return value
-
 
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(
@@ -493,7 +479,6 @@ def parse_args() -> argparse.Namespace:
                     help="Log a retrieval miss if results are empty or fewer than --top-k")
     ap.add_argument("--user", default=DEFAULT_USER, help="User id for evidence lookup (default grace-mar)")
     return ap.parse_args()
-
 
 def main() -> int:
     args = parse_args()
@@ -529,7 +514,6 @@ def main() -> int:
         print(_format_text(results, args.query, args.surface))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

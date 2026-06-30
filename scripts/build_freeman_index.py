@@ -23,7 +23,6 @@ LINK_SUFFIX_RE = re.compile(
     r"\]\((?:\.\./\.\./\.\./source-archive/statecraft/\d{4}-\d{2}-\d{2}/([^)]+))\)(.*)$"
 )
 
-
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:5000]
     out: dict = {}
@@ -37,7 +36,6 @@ def parse_head(path: Path) -> dict:
             out["title"] = hm.group(1).strip()
     return out
 
-
 def pub_date_key(meta: dict, path: Path) -> str:
     pub = meta.get("pub_date", "")
     if pub and len(pub) >= 10:
@@ -46,7 +44,6 @@ def pub_date_key(meta: dict, path: Path) -> str:
     if re.match(r"^\d{4}-\d{2}-\d{2}$", day):
         return day
     return day
-
 
 def host_short(meta: dict, path: Path) -> str:
     name = path.name.casefold()
@@ -76,13 +73,11 @@ def host_short(meta: dict, path: Path) -> str:
         return meta["host"]
     return "Other"
 
-
 def row_label(meta: dict, path: Path) -> str:
     pub = pub_date_key(meta, path)
     host = host_short(meta, path)
     rel = f"../../../source-archive/statecraft/{path.parent.name}/{path.name}"
     return f"- [{pub} {host}]({rel})"
-
 
 def load_annotation_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
@@ -100,7 +95,6 @@ def load_annotation_map(index_path: Path) -> dict[str, str]:
             out[fn] = suffix
     return out
 
-
 def collect_rows() -> list[tuple[str, Path, dict]]:
     rows: list[tuple[str, Path, dict]] = []
     for path in iter_archive_captures_for_shelf("freeman", ARCHIVE):
@@ -112,7 +106,6 @@ def collect_rows() -> list[tuple[str, Path, dict]]:
         rows.append((pub, path, meta))
     rows.sort(key=lambda t: (t[0], t[1].name))
     return rows
-
 
 def render_june_cadence_table() -> list[str]:
     """Curated routing overlay — not part of archive parity rows."""
@@ -137,7 +130,6 @@ def render_june_cadence_table() -> list[str]:
         "May lane closes [2026-05-29](../../../source-archive/statecraft/2026-05-29/source-dialogue-works-chas-freeman-hezbollah-strikes-israel-hard-israel-now-prepares-for-war-with-egypt-turkey-2026-05-29.md) (Hezbollah / Egypt-Turkey prep); last IGL May row [2026-05-20](../../../source-archive/statecraft/2026-05-20/source-india-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20.md).",
         "",
     ]
-
 
 def render_curated_overlays() -> list[str]:
     """Cross-weave routing overlay — not part of archive parity row count."""
@@ -175,7 +167,6 @@ def render_curated_overlays() -> list[str]:
         "",
     ]
 
-
 def render_index(rows: list[tuple[str, Path, dict]], annotations: dict[str, str]) -> str:
     by_month: dict[str, list[tuple[str, Path, dict]]] = defaultdict(list)
     for row in rows:
@@ -186,8 +177,7 @@ def render_index(rows: list[tuple[str, Path, dict]], annotations: dict[str, str]
     lines = [
         "# Freeman source index",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         "Purpose: exhaustive canonical route map for Amb. Chas Freeman guest appearances and direct archive anchors on the Freeman shelf.",
         "",
         "**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index freeman` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)",
@@ -226,7 +216,6 @@ def render_index(rows: list[tuple[str, Path, dict]], annotations: dict[str, str]
     )
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="Print row count only")
@@ -248,7 +237,6 @@ def main() -> int:
     OUT.write_text(body if body.endswith("\n") else body + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {OUT} ({len(rows)} rows, {len(annotations)} annotations preserved)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

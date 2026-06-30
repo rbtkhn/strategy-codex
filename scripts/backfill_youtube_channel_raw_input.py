@@ -6,7 +6,6 @@ existing transcript fetcher, or operate in ``--index-only`` mode to mirror
 direct channel listings into strategy-notebook raw-input Markdown with routing
 metadata.
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -31,7 +30,6 @@ from youtube_transcripts.metadata import fetch_metadata_ytdlp  # noqa: E402
 from youtube_transcripts.index_rows import load_index_videos, normalize_upload_date  # noqa: E402
 from youtube_transcripts.ytdlp_adapter import YtDlpError, compact_upload_date, list_channel_entries_subprocess  # noqa: E402
 
-
 def _split_transcript_body(text: str) -> str:
     lines = text.splitlines()
     i = 0
@@ -40,7 +38,6 @@ def _split_transcript_body(text: str) -> str:
     while i < len(lines) and not lines[i].strip():
         i += 1
     return "\n".join(lines[i:]).strip()
-
 
 def infer_guest_from_title(title: str) -> str | None:
     """Best-effort guest inference for Dialogue Works-style titles."""
@@ -60,7 +57,6 @@ def infer_guest_from_title(title: str) -> str | None:
         if guest and "nima" not in guest.lower() and "dialogue works" not in guest.lower():
             return guest
     return None
-
 
 def _frontmatter(
     *,
@@ -102,7 +98,6 @@ def _frontmatter(
         ]
     )
     return "\n".join(lines)
-
 
 def convert_index_to_raw_input(
     *,
@@ -199,7 +194,6 @@ def convert_index_to_raw_input(
         print("\nDry-run only. Pass --apply to write files.", file=sys.stderr)
     return 0
 
-
 def _direct_channel_index(
     *,
     channel_url: str,
@@ -240,7 +234,6 @@ def _direct_channel_index(
             }
         )
     return rows
-
 
 def backfill_channel(
     *,
@@ -419,7 +412,6 @@ def backfill_channel(
         source_archive_layout=source_archive_layout,
     )
 
-
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--channel-url", required=True)
@@ -471,7 +463,6 @@ def main(argv: list[str] | None = None) -> int:
         slice_start=args.slice_start,
         slice_end=args.slice_end,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

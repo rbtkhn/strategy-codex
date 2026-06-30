@@ -22,7 +22,6 @@ DEFAULT_AUTHOR_URL = "https://www.jeffsachs.org/newspaper-articles"
 DEFAULT_DOMAIN = "jeffsachs.org"
 DEFAULT_THREAD = "sachs"
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--author-url", default=DEFAULT_AUTHOR_URL)
@@ -55,7 +54,6 @@ def main() -> int:
         limit=max(1, min(args.limit, 100)),
         exclude_prefixes=args.exclude_prefix,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

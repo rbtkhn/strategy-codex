@@ -1,6 +1,5 @@
 # Prediction analysis — disagreement and timeline
 
-work only; not Record.
 
 ## Two disagreement modes
 

@@ -12,13 +12,11 @@ import re
 import sys
 from datetime import datetime, timezone
 
-
 def _slug(s: str) -> str:
     s = s.strip().lower()
     s = re.sub(r"[^\w\-.]+", "-", s, flags=re.UNICODE)
     s = re.sub(r"-+", "-", s).strip("-")
     return s or "session"
-
 
 def cmd_branches(args: argparse.Namespace) -> int:
     slug = _slug(args.session)
@@ -43,7 +41,6 @@ def cmd_branches(args: argparse.Namespace) -> int:
         print()
     return 0
 
-
 def cmd_checklist(args: argparse.Namespace) -> int:
     slug = _slug(args.session)
     prefix = args.prefix.strip().rstrip("/")
@@ -67,7 +64,6 @@ def cmd_checklist(args: argparse.Namespace) -> int:
     print("\n".join(lines))
     return 0
 
-
 def main() -> int:
     p = argparse.ArgumentParser(description="Suggest parallel macro-action branch names (stateless).")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -86,7 +82,6 @@ def main() -> int:
 
     args = p.parse_args()
     return int(args.func(args))
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

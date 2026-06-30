@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (1)
 - Guests: `Martin A. Armstrong` (1)
-- Threads: `alkorshid` (1), `armstrong` (1)
+- Threads: `alkhorshid` (1), `armstrong` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `armstrong` | [watch](https://www.youtube.com/watch?v=eT0NR3hQJwE) | `source-dialogue-works-martin-armstrong-nato-plans-massive-troop-surge-into-ukraine-2025-07-24.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `armstrong` | [watch](https://www.youtube.com/watch?v=eT0NR3hQJwE) | `source-dialogue-works-martin-armstrong-nato-plans-massive-troop-surge-into-ukraine-2025-07-24.md` |
 
 ## Writer sources
 

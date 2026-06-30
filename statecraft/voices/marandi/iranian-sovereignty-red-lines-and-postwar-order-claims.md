@@ -1,6 +1,5 @@
 # Iranian sovereignty, red lines, and postwar order claims
 
-WORK only; not Record.
 
 Marandi repeatedly widens immediate crisis talk into claims about sovereignty, reparations, military exclusion, and a changed postwar regional order.
 

@@ -46,10 +46,8 @@ CATEGORIES = [
 ]
 SENSITIVITIES = ["standard", "elevated", "high"]
 
-
 def registry_path(user_id: str = DEFAULT_USER_ID) -> Path:
     return profile_dir(user_id) / "seed-registry.jsonl"
-
 
 def _load_latest(user_id: str) -> dict[str, dict[str, Any]]:
     """Load the latest snapshot per seed_id."""
@@ -70,11 +68,9 @@ def _load_latest(user_id: str) -> dict[str, dict[str, Any]]:
             continue
     return latest
 
-
 def _generate_seed_id(claim_text: str) -> str:
     h = hashlib.sha256(claim_text.encode()).hexdigest()[:8]
     return f"seed-{h}"
-
 
 def compute_recurrence_score(
     observation_count: int,
@@ -101,11 +97,9 @@ def compute_recurrence_score(
 
     return round(obs_factor * 0.4 + time_factor * 0.35 + diversity_factor * 0.25, 4)
 
-
 def compute_confidence(recurrence_score: float, contradiction_count: int) -> float:
     penalty = min(0.5, contradiction_count * 0.15)
     return round(max(0.0, recurrence_score - penalty), 4)
-
 
 def compute_promotion_readiness(
     confidence: float, recurrence_score: float, contradiction_count: int,
@@ -113,7 +107,6 @@ def compute_promotion_readiness(
     if contradiction_count > 0:
         return round(max(0.0, confidence * 0.5), 4)
     return round((confidence + recurrence_score) / 2.0, 4)
-
 
 def emit_seed_claim(
     user_id: str = DEFAULT_USER_ID,
@@ -237,7 +230,6 @@ def emit_seed_claim(
 
     return row
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Emit or update a seed claim.")
     parser.add_argument("-u", "--user", default=DEFAULT_USER_ID)
@@ -286,7 +278,6 @@ def main() -> int:
               f"conf={row['confidence']:.2f})")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

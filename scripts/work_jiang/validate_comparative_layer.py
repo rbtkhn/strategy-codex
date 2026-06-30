@@ -19,11 +19,9 @@ from arch_chapters import (
     top_level_chapters,
 )  # noqa: E402
 
-
 def load_yaml(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def load_claim_ids() -> set[str]:
     p = WORK_DIR / "claims" / "registry" / "claims.jsonl"
@@ -36,7 +34,6 @@ def load_claim_ids() -> set[str]:
                 if r.get("claim_id"):
                     ids.add(r["claim_id"])
     return ids
-
 
 def high_priority_analysis_chapters(arch: dict) -> list[str]:
     """Volume I + nested II–VII."""
@@ -55,7 +52,6 @@ def high_priority_analysis_chapters(arch: dict) -> list[str]:
             if cid:
                 out.append(cid)
     return out
-
 
 def main() -> int:
     errors: list[str] = []
@@ -162,7 +158,6 @@ def main() -> int:
     for err in errors:
         print(f"ERROR: {err}", file=sys.stderr)
     return 1 if errors else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

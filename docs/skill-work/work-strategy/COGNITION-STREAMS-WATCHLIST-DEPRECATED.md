@@ -1,6 +1,5 @@
 # Cognition streams watchlist — DEPRECATED (2026-06)
 
-WORK only; not Record.
 
 **Status:** [`cognition-streams-watchlist.json`](cognition-streams-watchlist.json) is **deprecated** for new work. Do not add channels there or treat it as the listing SSOT.
 

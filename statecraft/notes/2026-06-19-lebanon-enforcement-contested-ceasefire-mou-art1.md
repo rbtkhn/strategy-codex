@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-19/source-dialogue-works-chas-freeman-israel-agenda-major-collapse-2026-06-19.md
   - source-archive/statecraft/2026-06-19/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-19-june-2026-06-19.md
 ---
-WORK only; not Record.
 
 # Lebanon Enforcement × MOU Art. 1 — Contested Ceasefire Fork — 2026-06-19
 

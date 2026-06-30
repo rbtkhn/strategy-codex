@@ -47,11 +47,9 @@ _EVENT_LINE_RE = re.compile(
     r"- \*\*(\d{4}-\d{2}-\d{2}) \d{2}:\d{2} UTC\*\* — (\w+) \(([^)]+)\)"
 )
 
-
 def _yaml_get(yaml_body: str, key: str) -> str:
     m = re.search(rf'^{key}:\s*"?(.+?)"?\s*$', yaml_body, re.MULTILINE)
     return m.group(1).strip().strip('"') if m else ""
-
 
 def _tokenize(text: str) -> set[str]:
     return {
@@ -59,7 +57,6 @@ def _tokenize(text: str) -> set[str]:
         for t in re.findall(r"[a-z0-9]+", (text or "").lower())
         if len(t) >= 4 and t not in _STOPWORDS
     }
-
 
 def parse_cadence_active_days(user_id: str, since: datetime) -> int:
     """Count distinct calendar days with at least one cadence event for user_id since `since`."""
@@ -82,7 +79,6 @@ def parse_cadence_active_days(user_id: str, since: datetime) -> int:
             days.add(date_str)
     return len(days)
 
-
 def _parse_ix_entries_since(self_content: str, since: datetime) -> list[tuple[str, set[str]]]:
     """Extract (entry_id, token_set) for IX entries with date >= since."""
     entries: list[tuple[str, set[str]]] = []
@@ -103,7 +99,6 @@ def _parse_ix_entries_since(self_content: str, since: datetime) -> list[tuple[st
         tokens = _tokenize(topic.group(1) if topic else block)
         entries.append((entry_id, tokens))
     return entries
-
 
 def score_candidate(
     cid: str,
@@ -142,7 +137,6 @@ def score_candidate(
         "warrant_text": warrant,
     }
 
-
 def format_staleness_line(r: dict) -> str:
     parts = [f"{r['wall_days']}d wall / {r['active_days']}d active"]
     if r["superseded_by"]:
@@ -152,12 +146,10 @@ def format_staleness_line(r: dict) -> str:
         parts.append(f'warrant references "{snippet}"')
     return f"> **Staleness**: {' · '.join(parts)}\n"
 
-
 _CANDIDATE_BLOCK_RE = re.compile(
     r"(### CANDIDATE-\d+[^\n]*\n)\s*(?:> \*\*Staleness\*\*[^\n]*\n\s*)?(```yaml\n.*?```)",
     re.DOTALL,
 )
-
 
 def annotate_active_section(
     active: str,
@@ -181,7 +173,6 @@ def annotate_active_section(
 
     new_active = _CANDIDATE_BLOCK_RE.sub(repl, active)
     return new_active, scored
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -234,7 +225,6 @@ def main() -> int:
     gate_path.write_text(new_full, encoding="utf-8")
     print(f"\nUpdated {gate_path} — annotated {n} candidate(s) with staleness data.")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

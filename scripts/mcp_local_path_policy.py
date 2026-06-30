@@ -12,13 +12,11 @@ from typing import Any, Literal
 
 Kind = Literal["file", "dir"]
 
-
 def posix_under_repo(repo_root: Path, path: Path) -> str:
     try:
         return path.resolve().relative_to(repo_root.resolve()).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def validate_allowlist_schema(cfg: dict[str, Any]) -> None:
     for key in ("allowed_roots", "blocked_roots", "blocked_files", "blocked_name_patterns"):
@@ -27,13 +25,11 @@ def validate_allowlist_schema(cfg: dict[str, Any]) -> None:
     if "max_file_bytes" not in cfg:
         raise ValueError("allowlist missing max_file_bytes")
 
-
 def norm_segments(rel_posix: str) -> list[str]:
     parts = [p for p in rel_posix.replace("\\", "/").split("/") if p]
     if ".." in parts:
         raise ValueError("path must not contain .. segments")
     return parts
-
 
 def resolve_target_under_allowlist(
     repo_root: Path,
@@ -61,8 +57,8 @@ def resolve_target_under_allowlist(
     rel_join = "/".join(parts) if parts else ""
 
     low_rel = rel_join.lower()
-    if low_rel.startswith("") or low_rel == "":
-        raise ValueError("path cannot reference ")
+    if low_rel.startswith("archive/grace-mar-instance") or low_rel == "archive/grace-mar-instance":
+        raise ValueError("path cannot reference archive/grace-mar-instance")
 
     candidate = (repo_root / Path(*parts)) if parts else repo_root
     try:
@@ -112,7 +108,6 @@ def resolve_target_under_allowlist(
 
     return resolved
 
-
 def basename_blocked(name: str, cfg: dict[str, Any]) -> bool:
     """True if basename matches blocked_files or blocked_name_patterns."""
     blocked_files = {str(x).lower() for x in cfg["blocked_files"]}
@@ -123,7 +118,6 @@ def basename_blocked(name: str, cfg: dict[str, Any]) -> bool:
             return True
     return False
 
-
 def rel_under_blocked_root(rel_final: str, cfg: dict[str, Any]) -> bool:
     """True if rel_final is inside any blocked_roots prefix."""
     blocked_roots = [str(x).replace("\\", "/").strip("/") for x in cfg["blocked_roots"]]
@@ -132,7 +126,6 @@ def rel_under_blocked_root(rel_final: str, cfg: dict[str, Any]) -> bool:
         if rel_final == br or (br_prefix and rel_final.startswith(br_prefix)):
             return True
     return False
-
 
 def rel_under_allowed_root(rel_final: str, cfg: dict[str, Any]) -> bool:
     allowed = [str(x).replace("\\", "/") for x in cfg["allowed_roots"]]

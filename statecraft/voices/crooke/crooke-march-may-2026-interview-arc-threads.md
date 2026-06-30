@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Crooke interview thread atlas - March-May 2026
 

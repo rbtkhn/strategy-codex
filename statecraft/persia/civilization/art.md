@@ -1,6 +1,5 @@
 # Iran Art
 
-WORK only; not Record.
 
 ## Purpose
 

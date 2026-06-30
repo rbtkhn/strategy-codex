@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 archive_links:
   - source-archive/singularity/moonshots/moonshots-265-spacex-ipo-anthropic-export-control-2026-06-19.md
 ---
-WORK only; not Record.
 
 # Frontier export control × sovereign AI access — Moonshots ep. 265 (statecraft crossover)
 

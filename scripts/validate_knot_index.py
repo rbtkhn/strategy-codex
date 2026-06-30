@@ -4,9 +4,7 @@
 Checks: schema keys, unique paths, paths exist under repo root, basenames contain
 ``knot``, ISO dates, optional ``knot_label`` kebab-case, list types for
 clusters/patterns, optional v4 fields (``weave_count``, ``seam_integrity``,
-``qoi_check``, ``kac_check``). WORK only; not Record.
-
-Optional: ``--warn-days-md`` / ``--strict-days-md`` — each indexed knot file's
+``qoi_check``, ``kac_check``). Optional: ``--warn-days-md`` / ``--strict-days-md`` — each indexed knot file's
 basename should appear in ``chapters/YYYY-MM/days.md`` for weave continuity
 (see STRATEGY-NOTEBOOK-ARCHITECTURE). Warnings only by default; strict fails CI.
 
@@ -32,14 +30,12 @@ DEFAULT_INDEX = (
 # Lowercase kebab: segments of [a-z0-9]+ separated by single hyphens.
 _RE_KNOT_LABEL = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 
-
 def _parse_date(s: str) -> bool:
     try:
         datetime.strptime(s, "%Y-%m-%d")
     except (TypeError, ValueError):
         return False
     return True
-
 
 def validate_knot_index_data(data: Any, *, repo_root: Path) -> list[str]:
     """Return a list of error strings (empty if valid)."""
@@ -187,7 +183,6 @@ def validate_knot_index_data(data: Any, *, repo_root: Path) -> list[str]:
 
     return errs
 
-
 def days_md_link_warnings(data: Any, *, repo_root: Path) -> list[str]:
     """Return warnings when a knot basename is missing from the month's days.md.
 
@@ -236,7 +231,6 @@ def days_md_link_warnings(data: Any, *, repo_root: Path) -> list[str]:
             )
 
     return warns
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -300,7 +294,6 @@ def main() -> int:
 
     print(f"ok: {args.index} ({n} knots)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

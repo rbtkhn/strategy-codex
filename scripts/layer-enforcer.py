@@ -8,7 +8,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
-
 def main() -> int:
     p = ROOT / "docs" / "layer-map.json"
     if not p.is_file():
@@ -25,7 +24,6 @@ def main() -> int:
         return 1
     print("layer-enforcer: ok")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

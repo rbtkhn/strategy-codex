@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Martyanov Speaker Arc (compat redirect)
 

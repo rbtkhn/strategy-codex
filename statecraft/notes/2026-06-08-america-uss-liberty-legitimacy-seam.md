@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-08/source-mario-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md
   - source-archive/statecraft/2026-06-08/source-pape-day-100-why-irans-strategy-is-expanding-2026-06-08.md
 ---
-WORK only; not Record.
 
 # America: USS Liberty Legitimacy Seam — 2026-06-08
 

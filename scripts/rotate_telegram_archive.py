@@ -40,7 +40,6 @@ KEEP_RECENT = 2000
 GATED_LOG_SECTION = "## VIII. GATED APPROVED LOG (SELF-ARCHIVE)"
 _END_FILE = re.compile(r"(?m)^END OF FILE.*$")
 
-
 def parse_archive(content: str) -> tuple[str, list[str]]:
     """Split archive into header and list of entry blocks."""
     parts = content.split("\n---\n\n", 1)
@@ -51,12 +50,10 @@ def parse_archive(content: str) -> tuple[str, list[str]]:
     blocks = [b.strip() for b in body.split("\n\n") if b.strip() and b.strip().startswith("**[")]
     return header, blocks
 
-
 def get_entry_ym(block: str) -> str | None:
     """Extract YYYY-MM from first line of block."""
     m = re.match(r"\*\*\[(\d{4}-\d{2})-\d{2}", block)
     return m.group(1) if m else None
-
 
 def _rotate_embedded_gated_log(
     record_path: Path,
@@ -144,7 +141,6 @@ def _rotate_embedded_gated_log(
         "source": source_label,
     }
 
-
 def _rotate_legacy_standalone(
     archive_path: Path,
     archives_dir: Path,
@@ -217,7 +213,6 @@ def _rotate_legacy_standalone(
         "source": "self-archive.md",
     }
 
-
 def rotate_archive(
     user_id: str,
     apply: bool,
@@ -277,7 +272,6 @@ def rotate_archive(
             )
 
     return {"ok": True, "rotated": 0, "kept": 0, "reason": "archive_not_found"}
-
 
 def main() -> None:
     cfg = load_fork_config()
@@ -348,7 +342,6 @@ def main() -> None:
             f"Would rotate {result.get('rotated', 0)} entries (keep {result.get('kept', 0)}). "
             "Run with --apply to perform."
         )
-
 
 if __name__ == "__main__":
     main()

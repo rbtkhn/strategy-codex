@@ -20,7 +20,6 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 if str(SCRIPTS_DIR) not in sys.path:
@@ -28,7 +27,6 @@ if str(SCRIPTS_DIR) not in sys.path:
 from repo_io import ARTIFACTS_DIR
 
 from yaml_compat import safe_load_text  # noqa: E402
-
 
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 DEFAULT_CHANNELS_DIR = REPO_ROOT / "statecraft" / "channels"
@@ -86,7 +84,6 @@ SPEAKER_SLUG_ALIASES = {
     "stanislav-krapivnik": "krapivnik",
 }
 
-
 @dataclass(frozen=True)
 class VoiceInventory:
     voices_dir: Path
@@ -95,20 +92,16 @@ class VoiceInventory:
     speaker_comparative_notes: dict[str, list[Path]]
     arcs: dict[tuple[str, str], Path]
 
-
 def _parse_date(value: str) -> date:
     return date.fromisoformat(value)
 
-
 def _window_slug(start: date, end: date) -> str:
     return f"{start.isoformat()}_to_{end.isoformat()}"
-
 
 def _slug(value: object) -> str:
     text = str(value or "").casefold()
     text = re.sub(r"[^a-z0-9]+", "-", text)
     return text.strip("-")
-
 
 def _slug_candidates(value: object) -> list[str]:
     slug = _slug(value)
@@ -129,7 +122,6 @@ def _slug_candidates(value: object) -> list[str]:
         if alias and alias not in out:
             out.append(alias)
     return out
-
 
 def _rel(path: Path) -> str:
     def _rewrite(relative: str) -> str:
@@ -156,7 +148,6 @@ def _rel(path: Path) -> str:
                 return _rewrite(Path(*parts[parts.index(anchor) :]).as_posix())
         return _rewrite(path.as_posix())
 
-
 def _read_frontmatter(path: Path) -> dict[str, Any]:
     text = path.read_text(encoding="utf-8-sig")
     match = FRONTMATTER_RE.match(text)
@@ -164,7 +155,6 @@ def _read_frontmatter(path: Path) -> dict[str, Any]:
         return {}
     data = safe_load_text(match.group(1), feature="build_voice_routing_queue.py")
     return data if isinstance(data, dict) else {}
-
 
 def _discover_raw_inputs(raw_root: Path, start: date, end: date) -> list[Path]:
     if not raw_root.exists():
@@ -179,7 +169,6 @@ def _discover_raw_inputs(raw_root: Path, start: date, end: date) -> list[Path]:
             paths.extend(sorted(date_dir.glob("*.md")))
     return paths
 
-
 def load_raw_input_list(path: Path, *, base_dir: Path = REPO_ROOT) -> list[Path]:
     paths: list[Path] = []
     for raw in path.read_text(encoding="utf-8").splitlines():
@@ -191,7 +180,6 @@ def load_raw_input_list(path: Path, *, base_dir: Path = REPO_ROOT) -> list[Path]
             item = base_dir / item
         paths.append(item)
     return paths
-
 
 def normalize_raw_input_paths(paths: list[Path], *, base_dir: Path = REPO_ROOT) -> list[Path]:
     out: list[Path] = []
@@ -205,7 +193,6 @@ def normalize_raw_input_paths(paths: list[Path], *, base_dir: Path = REPO_ROOT) 
         out.append(resolved)
     return out
 
-
 def window_for_raw_paths(paths: list[Path]) -> tuple[date, date]:
     dates: list[date] = []
     for path in paths:
@@ -217,13 +204,11 @@ def window_for_raw_paths(paths: list[Path]) -> tuple[date, date]:
         return today, today
     return min(dates), max(dates)
 
-
 def normalize_route_row(row: dict[str, Any]) -> dict[str, Any]:
     rt = row.get("route_type")
     if isinstance(rt, str) and rt in LEGACY_ROUTE_TYPE:
         return {**row, "route_type": LEGACY_ROUTE_TYPE[rt]}
     return row
-
 
 def _arc_host_guest_from_stem(stem: str) -> tuple[str, str] | None:
     if stem.startswith("arc-") and stem.endswith("-host"):
@@ -244,7 +229,6 @@ def _arc_host_guest_from_stem(stem: str) -> tuple[str, str] | None:
     if len(parts) < 2:
         return None
     return parts[0], "-".join(parts[1:])
-
 
 def _discover_inventory(voices_dir: Path, notebook_root: Path) -> VoiceInventory:
     speaker_folders: dict[str, Path] = {}
@@ -301,7 +285,6 @@ def _discover_inventory(voices_dir: Path, notebook_root: Path) -> VoiceInventory
         arcs=arcs,
     )
 
-
 def _match_speaker(value: object, inventory: VoiceInventory) -> str | None:
     candidates = _slug_candidates(value)
     for candidate in candidates:
@@ -318,7 +301,6 @@ def _match_speaker(value: object, inventory: VoiceInventory) -> str | None:
                 return speaker
     return None
 
-
 def _host_candidates(meta: dict[str, Any]) -> list[str]:
     candidates: list[str] = []
     for key in ("host", "hosts", "show", "series", "channel_slug", "thread"):
@@ -329,7 +311,6 @@ def _host_candidates(meta: dict[str, Any]) -> list[str]:
     if canonical and canonical not in candidates:
         candidates.insert(0, canonical)
     return candidates
-
 
 def classify_evidence_grade(meta: dict[str, Any], verification_reason: str = "") -> str:
     verification_lower = verification_reason.casefold()
@@ -351,7 +332,6 @@ def classify_evidence_grade(meta: dict[str, Any], verification_reason: str = "")
         return "transcript-bearing"
     return "legacy-appearance-only"
 
-
 def _canonical_host_slug(meta: dict[str, Any]) -> str:
     hostish: list[str] = []
     for key in ("channel_slug", "show", "series", "host", "hosts"):
@@ -369,7 +349,7 @@ def _canonical_host_slug(meta: dict[str, Any]) -> str:
     if host_slug in {
         "dialogue-works",
         "alkhorshid",
-        "alkorshid",
+        "alkhorshid",
         "nima",
         "nima-alkhorshid",
         "nima-alkorshid",
@@ -385,7 +365,6 @@ def _canonical_host_slug(meta: dict[str, Any]) -> str:
         return "kiriakou"
     return host_slug
 
-
 def _match_arc(host_candidates: list[str], guest_slug: str, inventory: VoiceInventory) -> Path | None:
     guest_candidates = _slug_candidates(guest_slug)
     for host in host_candidates:
@@ -394,7 +373,6 @@ def _match_arc(host_candidates: list[str], guest_slug: str, inventory: VoiceInve
             if path:
                 return path
     return None
-
 
 def _speaker_strengthening_paths(speaker_slug: str | None, inventory: VoiceInventory) -> list[str]:
     if not speaker_slug:
@@ -408,7 +386,6 @@ def _speaker_strengthening_paths(speaker_slug: str | None, inventory: VoiceInven
         if rel not in paths:
             paths.append(rel)
     return paths
-
 
 def _route(
     *,
@@ -433,16 +410,13 @@ def _route(
         "reason": reason,
     }
 
-
 def _candidate_object_path(guest_slug: str, inventory: VoiceInventory) -> Path:
     return inventory.voices_dir / guest_slug / f"{guest_slug}-speaker-object.md"
-
 
 def _candidate_arc_path(meta: dict[str, Any], guest_slug: str, notebook_root: Path) -> Path:
     host_slug = _canonical_host_slug(meta) or "host"
     host_dir = host_slug
     return notebook_root / host_dir / f"{host_slug}-{guest_slug}-speaker-arc.md"
-
 
 def _resolved_speaker(meta: dict[str, Any], inventory: VoiceInventory) -> tuple[str, str]:
     guest = str(meta.get("guest") or "").strip()
@@ -453,7 +427,6 @@ def _resolved_speaker(meta: dict[str, Any], inventory: VoiceInventory) -> tuple[
         return guest_slug, "guest-metadata-match"
     guest_candidates = _slug_candidates(guest)
     return (guest_candidates[-1], "guest-metadata-slug") if guest_candidates else ("", "")
-
 
 def route_raw_input(path: Path, meta: dict[str, Any], inventory: VoiceInventory, notebook_root: Path) -> dict[str, Any]:
     guest = str(meta.get("guest") or "").strip()
@@ -512,7 +485,6 @@ def route_raw_input(path: Path, meta: dict[str, Any], inventory: VoiceInventory,
 
     return {}
 
-
 def _appearance(path: Path, meta: dict[str, Any], inventory: VoiceInventory) -> dict[str, str]:
     guest = str(meta.get("guest") or "").strip()
     thread = str(meta.get("thread") or "").strip()
@@ -540,7 +512,6 @@ def _appearance(path: Path, meta: dict[str, Any], inventory: VoiceInventory) -> 
         "speaker_resolution": speaker_resolution,
         "guest_inference": str(meta.get("guest_inference") or ""),
     }
-
 
 def build_rows(raw_paths: list[Path], inventory: VoiceInventory, notebook_root: Path) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
@@ -579,7 +550,6 @@ def build_rows(raw_paths: list[Path], inventory: VoiceInventory, notebook_root: 
         )
     return rows
 
-
 def build_unresolved_rows(raw_paths: list[Path], inventory: VoiceInventory) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
     for path in raw_paths:
@@ -604,13 +574,11 @@ def build_unresolved_rows(raw_paths: list[Path], inventory: VoiceInventory) -> l
         )
     return rows
 
-
 def _render_markdown(rows: list[dict[str, Any]], start: date, end: date) -> str:
     lines = [
         "# Voice routing queue",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         f"Window: `{start.isoformat()}` to `{end.isoformat()}`",
         "",
     ]
@@ -637,7 +605,6 @@ def _render_markdown(rows: list[dict[str, Any]], start: date, end: date) -> str:
         lines.append("")
     return "\n".join(lines).rstrip() + "\n"
 
-
 def write_outputs(rows: list[dict[str, Any]], output_dir: Path, start: date, end: date) -> dict[str, str]:
     window_dir = output_dir / _window_slug(start, end)
     window_dir.mkdir(parents=True, exist_ok=True)
@@ -657,7 +624,6 @@ def write_outputs(rows: list[dict[str, Any]], output_dir: Path, start: date, end
 
     return {"jsonl": str(jsonl_path), "markdown": str(md_path), "appearance_ledger": str(appearance_path)}
 
-
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=_parse_date, help="Start date, YYYY-MM-DD.")
@@ -674,7 +640,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUT_DIR)
     return parser.parse_args(argv)
-
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
@@ -704,10 +669,8 @@ def main(argv: list[str] | None = None) -> int:
     print(json.dumps({"rows": len(rows), "written": written}, indent=2, sort_keys=True))
     return 0
 
-
 if __name__ == "__main__":
     raise SystemExit(main())
-
 
 # Compat aliases for deprecated import path
 SpeakerInventory = VoiceInventory

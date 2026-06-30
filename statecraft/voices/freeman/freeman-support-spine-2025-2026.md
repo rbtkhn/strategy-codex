@@ -1,6 +1,5 @@
 # Freeman support spine - 2025-2026
 
-WORK only; not Record.
 
 Purpose: own Freeman's maturity law, month-status law, and the rule for how the canonical Jan-May 2026 month ladder relates to host-owned chronology.
 

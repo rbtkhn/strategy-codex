@@ -1,6 +1,5 @@
 # Academy Next Questions
 
-WORK only; not Record.
 
 Use this page when a shelf is organized but the next live question is not yet obvious.
 

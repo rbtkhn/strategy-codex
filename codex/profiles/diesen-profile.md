@@ -1,6 +1,5 @@
 # Diesen profile — compatibility redirect
 
-WORK only; not Record.
 
 **Canonical profile (SSOT):** [`statecraft/voices/diesen/diesen-profile.md`](../../statecraft/voices/diesen/diesen-profile.md)
 

@@ -41,4 +41,3 @@ host-channel synthesis across long-form interviews and bridge guests.
 - Shared raw input lives under [`../../sheets/source-archive-control/`](../../sheets/source-archive-control/.
 - Use readable case-family labels plus exact civ-mem paths when known.
 
-WORK only; not Record.

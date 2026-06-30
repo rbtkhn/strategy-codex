@@ -14,7 +14,6 @@ archive_links:
   - source-archive/statecraft/2026-03-20/source-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md
 ---
 
-WORK only; not Record.
 
 # Crooke March 2026 interview cross-host arc
 

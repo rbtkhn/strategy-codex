@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Krainer Source Index (compat redirect)
 

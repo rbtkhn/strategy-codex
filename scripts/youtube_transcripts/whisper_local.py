@@ -9,7 +9,6 @@ from pathlib import Path
 
 from youtube_transcripts.ytdlp_adapter import YtDlpError, download_audio_wav
 
-
 def _download_audio_wav(video_id: str, out_wav: Path) -> str | None:
     out_dir = out_wav.parent
     stem = out_wav.stem
@@ -23,7 +22,6 @@ def _download_audio_wav(video_id: str, out_wav: Path) -> str | None:
     if alt.exists():
         return None
     return "wav not found after extract (need ffmpeg in PATH)"
-
 
 def run_whisper_cpp(wav_path: Path) -> tuple[str | None, str | None]:
     """
@@ -54,7 +52,6 @@ def run_whisper_cpp(wav_path: Path) -> tuple[str | None, str | None]:
     if txt.exists():
         return txt.read_text(encoding="utf-8", errors="replace").strip(), None
     return None, "whisper did not produce .txt"
-
 
 def transcribe_video_whisper(video_id: str) -> tuple[str | None, str | None]:
     """Download best audio to temp WAV and run whisper.cpp; returns (text, error)."""

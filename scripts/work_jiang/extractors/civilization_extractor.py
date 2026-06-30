@@ -3,6 +3,5 @@ from __future__ import annotations
 
 from extractors.predictive_history_extractor import PredictiveHistoryExtractor
 
-
 class CivilizationExtractor(PredictiveHistoryExtractor):
     series_id = "civilization"

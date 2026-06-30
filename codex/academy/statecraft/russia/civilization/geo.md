@@ -1,6 +1,5 @@
 # Russia Geo
 
-WORK only; not Record.
 
 ## Purpose
 

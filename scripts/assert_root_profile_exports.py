@@ -14,7 +14,6 @@ if str(_SCRIPTS) not in sys.path:
 
 from repo_io import PROFILE_DERIVED_EXPORTS, REPO_ROOT  # noqa: E402
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -37,7 +36,6 @@ def main() -> int:
         return 1
     print(f"assert_root_profile_exports: ok ({len(PROFILE_DERIVED_EXPORTS)} basenames)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

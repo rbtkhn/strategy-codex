@@ -13,7 +13,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--strict", action="store_true")
@@ -41,7 +40,6 @@ def main() -> int:
         return 1
     print("ok: verify_work_dev_claims (advisory unless --strict)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

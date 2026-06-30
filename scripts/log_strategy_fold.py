@@ -38,10 +38,8 @@ FOLD_KINDS = frozenset({"manual", "dream", "explicit"})
 LEDGER_NAME = "strategy-fold-events.jsonl"
 NOTE_MAX = 200
 
-
 def default_jsonl_path(user_id: str) -> Path:
     return resolve_ledger_path(user_id, LEDGER_NAME)
-
 
 def parse_ratings(s: str) -> dict[str, int]:
     out: dict[str, int] = {}
@@ -60,7 +58,6 @@ def parse_ratings(s: str) -> dict[str, int]:
         out[k] = n
     return out
 
-
 def parse_counts_json(s: str) -> dict[str, int]:
     raw = json.loads(s)
     if not isinstance(raw, dict):
@@ -73,7 +70,6 @@ def parse_counts_json(s: str) -> dict[str, int]:
             raise ValueError(f"counts[{k}] must be int")
         out[k] = v
     return out
-
 
 def git_head_sha(repo: Path) -> str | None:
     try:
@@ -90,13 +86,11 @@ def git_head_sha(repo: Path) -> str | None:
     except OSError:
         return None
 
-
 def append_event(path: Path, event: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     line = json.dumps(event, ensure_ascii=False)
     with open(path, "a", encoding="utf-8") as f:
         f.write(line + "\n")
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -166,7 +160,6 @@ def main() -> int:
         disp = path
     print(disp)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

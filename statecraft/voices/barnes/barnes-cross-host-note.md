@@ -1,6 +1,5 @@
 # Barnes cross-host note
 
-WORK only; not Record.
 
 Purpose: keep the wider Barnes object visible without overstating its maturity outside the Davis lane.
 

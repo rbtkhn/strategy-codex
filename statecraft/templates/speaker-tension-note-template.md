@@ -1,6 +1,5 @@
 # Speaker tension note template
 
-WORK only; not Record.
 
 Purpose: define a reusable scaffold for **expert-vs-expert disagreement notes** that cut across existing speaker surfaces without pretending to be an arc or a thread.
 
@@ -21,7 +20,6 @@ Ownership rule:
 
 # `<speaker-a> vs <speaker-b> - <window>`
 
-WORK only; not Record.
 
 Use a tension note when two speakers meaningfully disagree and the notebook needs a compact, source-backed map of that split.
 

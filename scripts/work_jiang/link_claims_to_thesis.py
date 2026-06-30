@@ -13,7 +13,6 @@ THESIS = WORK_DIR / "metadata" / "thesis-map.yaml"
 CLAIMS = WORK_DIR / "claims" / "registry" / "claims.jsonl"
 OUT = WORK_DIR / "metadata" / "thesis-claim-links.yaml"
 
-
 def load_claim_ids() -> set[str]:
     ids: set[str] = set()
     if not CLAIMS.exists():
@@ -26,7 +25,6 @@ def load_claim_ids() -> set[str]:
             row = json.loads(line)
             ids.add(row.get("claim_id", ""))
     return ids
-
 
 def main() -> int:
     thesis = yaml.safe_load(THESIS.read_text(encoding="utf-8")) or {}
@@ -55,7 +53,6 @@ def main() -> int:
     for e in errors:
         print(f"WARNING: {e}", file=sys.stderr)
     return 1 if errors else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

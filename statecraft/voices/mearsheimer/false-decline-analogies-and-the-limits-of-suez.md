@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # False Decline Analogies And The Limits Of Suez
 

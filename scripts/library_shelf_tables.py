@@ -28,14 +28,12 @@ SCOPE_TO_SHELF = [
 
 SHELF_SECTIONS = ["Theology", "Physics/biology", "History", "Computer Science"]
 
-
 def _classify_shelf(scope_list: list[str], lane: str) -> str | None:
     scopes_lower = [s.lower() for s in scope_list]
     for tag, shelf in SCOPE_TO_SHELF:
         if tag in scopes_lower or any(tag in s for s in scopes_lower):
             return shelf
     return None
-
 
 def _load_entries(path: Path) -> list[dict]:
     """Load all LIB entries (active and deprecated) with id, title, scope, notes, lane, status."""
@@ -72,15 +70,12 @@ def _load_entries(path: Path) -> list[dict]:
         )
     return entries
 
-
 def _shelf_for_entry(e: dict) -> str | None:
     return _classify_shelf(e["scope"], e["lane"])
-
 
 def _escape_table_cell(s: str) -> str:
     """Escape pipe and newlines for markdown table."""
     return s.replace("|", "\\|").replace("\n", " ").strip()
-
 
 def _format_description(notes: str, scope: list[str]) -> str:
     if notes:
@@ -88,7 +83,6 @@ def _format_description(notes: str, scope: list[str]) -> str:
     if scope:
         return "Scope: " + ", ".join(scope[:8])
     return ""
-
 
 def build_theology_table(entries: list[dict]) -> str:
     theology = [e for e in entries if _shelf_for_entry(e) == "Theology"]
@@ -103,7 +97,6 @@ def build_theology_table(entries: list[dict]) -> str:
         desc = _format_description(e["notes"], e["scope"])
         lines.append(f"| **{e['id']}** | {_escape_table_cell(e['title'])} | {desc} |")
     return "\n".join(lines)
-
 
 def _build_shelf_table(shelf: str, entries: list[dict], section_heading: str) -> str:
     """section_heading e.g. 'Current entries (examples):' or 'Current entries:'"""
@@ -122,20 +115,16 @@ def _build_shelf_table(shelf: str, entries: list[dict], section_heading: str) ->
         lines.append(f"| **{e['id']}** | {_escape_table_cell(e['title'])} | {desc} |")
     return "\n".join(lines)
 
-
 def build_physics_table(entries: list[dict]) -> str:
     return _build_shelf_table(
         "Physics/biology", entries, "Current entries (examples):"
     )
 
-
 def build_history_table(entries: list[dict]) -> str:
     return _build_shelf_table("History", entries, "Current entries (examples):")
 
-
 def build_cs_table(entries: list[dict]) -> str:
     return _build_shelf_table("Computer Science", entries, "Current entries:")
-
 
 def _replace_in_section(
     content: str,
@@ -162,7 +151,6 @@ def _replace_in_section(
     if n == 0:
         return content
     return new_content
-
 
 def main() -> int:
     p = argparse.ArgumentParser(
@@ -220,7 +208,6 @@ def main() -> int:
     )
     lib_path.write_text(content, encoding="utf-8")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

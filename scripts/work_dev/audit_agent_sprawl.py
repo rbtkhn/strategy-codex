@@ -60,10 +60,8 @@ INTEGRATION_CATEGORIES = {
     "auto_research",
 }
 
-
 def _load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def _issue(
     kind: str,
@@ -82,17 +80,14 @@ def _issue(
         payload["otherSurfaceId"] = other_surface_id
     return payload
 
-
 def _is_blank(value: Any) -> bool:
     return isinstance(value, str) and value.strip() == ""
-
 
 def _surface_id(surface: dict[str, Any], index: int) -> str:
     raw = surface.get("id")
     if isinstance(raw, str) and raw.strip():
         return raw
     return f"<surface-{index}>"
-
 
 def _validate_surface_shape(surface: dict[str, Any], index: int) -> list[dict[str, Any]]:
     errors: list[dict[str, Any]] = []
@@ -203,7 +198,6 @@ def _validate_surface_shape(surface: dict[str, Any], index: int) -> list[dict[st
         )
 
     return errors
-
 
 def audit_registry(registry_path: Path, repo_root: Path) -> dict[str, Any]:
     data = _load_json(registry_path)
@@ -361,7 +355,6 @@ def audit_registry(registry_path: Path, repo_root: Path) -> dict[str, Any]:
         "surfaces": surface_rows,
     }
 
-
 def _render_text(report: dict[str, Any]) -> str:
     lines = [
         f"Agent Sprawl Control Plane audit: {report['counts']['surfaces']} surfaces, "
@@ -392,7 +385,6 @@ def _render_text(report: dict[str, Any]) -> str:
 
     return "\n".join(lines) + "\n"
 
-
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description="Audit the Phase 1 agent-surface registry."
@@ -420,7 +412,6 @@ def main(argv: list[str] | None = None) -> int:
         sys.stdout.write(_render_text(report))
 
     return 1 if report["errors"] else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

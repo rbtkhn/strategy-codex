@@ -11,7 +11,6 @@ import sys
 import tempfile
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 RECEIPT_NAME = "MIRROR-RECEIPT.md"
 UPSTREAM_SHA_RE = re.compile(r"^\-\s\*\*Upstream commit:\*\*\s`([0-9a-f]{7,40})`", re.MULTILINE)
@@ -32,7 +31,6 @@ PUBLIC_MIRRORS = {
 }
 DEFAULT_MIRROR = PUBLIC_MIRRORS["predictive-history"]["path"]
 
-
 def run_git(args: list[str], cwd: Path) -> tuple[int, str, str]:
     proc = subprocess.run(
         ["git", *args],
@@ -44,7 +42,6 @@ def run_git(args: list[str], cwd: Path) -> tuple[int, str, str]:
     )
     return proc.returncode, proc.stdout.strip(), proc.stderr.strip()
 
-
 def git_output(args: list[str], cwd: Path) -> str:
     code, out, err = run_git(args, cwd)
     if code != 0:
@@ -52,14 +49,12 @@ def git_output(args: list[str], cwd: Path) -> str:
         raise RuntimeError(f"git {' '.join(args)} failed in {cwd}: {detail}")
     return out
 
-
 def read_receipt_sha(mirror_dir: Path) -> str | None:
     receipt = mirror_dir / RECEIPT_NAME
     if not receipt.is_file():
         return None
     match = UPSTREAM_SHA_RE.search(receipt.read_text(encoding="utf-8"))
     return match.group(1) if match else None
-
 
 def remote_main_head(remote_url: str, branch: str, fetch: bool) -> tuple[str | None, list[str]]:
     errors: list[str] = []
@@ -75,7 +70,6 @@ def remote_main_head(remote_url: str, branch: str, fetch: bool) -> tuple[str | N
             errors.append(err or "clone failed")
             return None, errors
         return git_output(["rev-parse", "HEAD"], clone_root), errors
-
 
 def check_sync(mirror_rel: str, remote_url: str, branch: str, fetch: bool) -> dict:
     mirror_path = (REPO_ROOT / mirror_rel).resolve()
@@ -118,7 +112,6 @@ def check_sync(mirror_rel: str, remote_url: str, branch: str, fetch: bool) -> di
         result["status"] = "out_of_sync"
     return result
 
-
 def emit_text(result: dict) -> None:
     print(f"academy mirror: {result['mirror_path']} ({result.get('mode', 'unknown')})")
     print(f"status: {result['status']}")
@@ -131,13 +124,11 @@ def emit_text(result: dict) -> None:
     for error in result.get("errors", []):
         print(f"error: {error}")
 
-
 def resolve_mirror(mirror: str, remote_url: str | None) -> tuple[str, str]:
     if mirror in PUBLIC_MIRRORS:
         spec = PUBLIC_MIRRORS[mirror]
         return spec["path"], remote_url or spec["remote"]
     return mirror, remote_url or PUBLIC_MIRRORS["predictive-history"]["remote"]
-
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -165,7 +156,6 @@ def main(argv: list[str] | None = None) -> int:
     else:
         emit_text(result)
     return 0 if result["status"] in {"synced", "remote_unverified"} else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

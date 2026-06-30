@@ -1,6 +1,5 @@
 # Mercouris Shelf - 2026-03
 
-WORK only; not Record.
 
 This monthly shelf is the March 2026 synthesis/index for the `mercouris` cognition stream. March should be read as the first **mature dense-core month** in the native Mercouris arc: the point where the February bridge resolves into one sustained crisis object centered on Iran, Hormuz, energy shock, U.S. coercive failure, widening Russia-China-Iran coordination, and the spillover of that same pressure back into Europe and Ukraine.
 

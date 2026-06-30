@@ -34,14 +34,12 @@ DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", DEFAULT_PROFILE_ID)
 TERRITORY_GLOB = "docs/skill-work/work-*/work-*-history.md"
 RECENCY_DAYS = 7
 
-
 # ── Snapshot capture ────────────────────────────────────────────────
 
 def _read_optional(path: Path) -> str:
     if path.is_file():
         return path.read_text(encoding="utf-8")
     return ""
-
 
 def _pending_candidates(gate_text: str) -> list[str]:
     """Extract CANDIDATE-XXXX ids with status: pending from the gate file."""
@@ -61,7 +59,6 @@ def _pending_candidates(gate_text: str) -> list[str]:
             current_id = None
     return ids
 
-
 def _dream_handoff(dream_json_path: Path) -> dict[str, Any]:
     if not dream_json_path.is_file():
         return {"present": False}
@@ -77,7 +74,6 @@ def _dream_handoff(dream_json_path: Path) -> dict[str, Any]:
     except (json.JSONDecodeError, KeyError):
         return {"present": False}
 
-
 def _recent_territories(repo_root: Path, days: int = RECENCY_DAYS) -> list[str]:
     """Return territory names with history entries in the last N days."""
     cutoff = datetime.now(timezone.utc) - timedelta(days=days)
@@ -92,7 +88,6 @@ def _recent_territories(repo_root: Path, days: int = RECENCY_DAYS) -> list[str]:
                 break
     return active
 
-
 def _memory_long_term(mem_text: str) -> list[str]:
     """Extract bullet items from the Long-term section of self-memory."""
     items: list[str] = []
@@ -106,7 +101,6 @@ def _memory_long_term(mem_text: str) -> list[str]:
         if in_long and line.strip().startswith("- "):
             items.append(line.strip().lstrip("- ").strip())
     return items
-
 
 def _git_log(repo_root: Path, count: int = 5) -> list[dict[str, str]]:
     """Return last N commits as [{sha, message}]."""
@@ -127,7 +121,6 @@ def _git_log(repo_root: Path, count: int = 5) -> list[dict[str, str]]:
     except (subprocess.TimeoutExpired, FileNotFoundError):
         return []
 
-
 def capture_snapshot(repo_root: Path, user_id: str) -> dict[str, Any]:
     user_root = profile_dir(user_id)
     gate_text = _read_optional(user_root / "recursion-gate.md")
@@ -140,7 +133,6 @@ def capture_snapshot(repo_root: Path, user_id: str) -> dict[str, Any]:
         "memory_pointers": _memory_long_term(mem_text),
         "commits": _git_log(repo_root),
     }
-
 
 # ── Synthetic bridge prompt ─────────────────────────────────────────
 
@@ -231,7 +223,6 @@ Paste as first message; assistant runs coffee Step 1. Parallel import: use harve
 coffee
 """
 
-
 # ── Parse-back ──────────────────────────────────────────────────────
 
 def parse_bridge_prompt(prompt: str) -> dict[str, Any]:
@@ -278,7 +269,6 @@ def parse_bridge_prompt(prompt: str) -> dict[str, Any]:
 
     parsed["full_text"] = prompt
     return parsed
-
 
 # ── Scoring ─────────────────────────────────────────────────────────
 
@@ -352,9 +342,7 @@ def score_dimension(name: str, snapshot: dict, parsed: dict) -> dict[str, Any]:
 
     return {"name": name, "passed": False, "score": 0.0, "detail": "unknown dimension"}
 
-
 DIMENSIONS = ["gate", "dream", "territories", "commits", "memory"]
-
 
 def run_harness(repo_root: Path, user_id: str) -> dict[str, Any]:
     """Full round-trip: snapshot → synthetic bridge → parse-back → score."""
@@ -383,7 +371,6 @@ def run_harness(repo_root: Path, user_id: str) -> dict[str, Any]:
             "memory_pointers": len(snapshot["memory_pointers"]),
         },
     }
-
 
 # ── CLI ─────────────────────────────────────────────────────────────
 
@@ -416,7 +403,6 @@ def main() -> int:
         print(f"\nSnapshot: {json.dumps(result['snapshot_summary'], indent=2)}")
 
     return 0 if result["passed"] else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

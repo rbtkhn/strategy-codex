@@ -2,7 +2,7 @@
 
 **Civilizational Statecraft**, Volume II. Volume introduction: [Order of Asha](introduction.md). `civ-state-persia` is the workshop folder slug—not the book title.
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Persia is the civilizational title of the live Persia lane. Use this volume when the problem is dignity, sovereignty, sacred legitimacy, plateau endurance, chokepoint leverage, or recognition under pressure.
 

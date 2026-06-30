@@ -32,7 +32,6 @@ XAV_FILENAME = re.compile(r"^(\d{4}-\d{2}-\d{2})\.md$")
 
 SKIP_ROOT_MD = frozenset({"README.md", "SYNTHESIS-SOURCES.md"})
 
-
 def _parse_dates_journal(root: Path, pattern: re.Pattern[str]) -> list[date]:
     if not root.is_dir():
         return []
@@ -47,20 +46,17 @@ def _parse_dates_journal(root: Path, pattern: re.Pattern[str]) -> list[date]:
         out.append(date(y, mo, d))
     return sorted(out)
 
-
 def _count_active(dates: list[date], today: date, window: int) -> int:
     if window < 1:
         return 0
     start = today - timedelta(days=window - 1)
     return sum(1 for d in dates if start <= d <= today)
 
-
 def _staleness_days(dates: list[date], today: date) -> int | None:
     if not dates:
         return None
     # Future-dated filenames (timezone drift, typo) clamp to 0 — not negative.
     return max(0, (today - max(dates)).days)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -106,7 +102,6 @@ def main() -> int:
         "Phase 0 / optional YAML: docs/skill-work/journal-metrics-habit.md",
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

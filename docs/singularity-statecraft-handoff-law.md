@@ -1,6 +1,5 @@
 # Singularity-Statecraft Handoff Law
 
-work only; not Record.
 
 ## Purpose
 

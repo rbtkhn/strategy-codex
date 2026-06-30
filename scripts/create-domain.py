@@ -31,7 +31,6 @@ from _domain_surface_links import (
 REPO_ROOT = _SCRIPT_DIR.parent
 TEMPLATE_PATH = REPO_ROOT / "platform/template" / "DOMAIN.md"
 
-
 def _validate_token(domain_raw: str) -> tuple[str, str, str] | None:
     """Return (lower, UPPER, Title) or None if invalid."""
     raw = domain_raw.strip()
@@ -47,7 +46,6 @@ def _validate_token(domain_raw: str) -> tuple[str, str, str] | None:
     domain_upper = domain_lower.upper()
     domain_title = raw.replace("-", " ").title()
     return domain_lower, domain_upper, domain_title
-
 
 def create_domain(domain_raw: str) -> bool:
     parsed = _validate_token(domain_raw)
@@ -91,7 +89,6 @@ def create_domain(domain_raw: str) -> bool:
 
     return True
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Create work-<domain>/<DOMAIN>.md from platform/template/DOMAIN.md"
@@ -99,7 +96,6 @@ def main() -> int:
     parser.add_argument("domain", help="e.g. dev, politics, jiang, strategy")
     args = parser.parse_args()
     return 0 if create_domain(args.domain) else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

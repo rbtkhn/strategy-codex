@@ -1,6 +1,6 @@
 # Iran State
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Use this folder for the current Iranian state apparatus: supreme authority, elected government, foreign ministry, parliament, IRGC, security councils, clerical legitimacy carriers, and partner channels. This is the near-term institutional layer that turns Iranian civilizational memory and imperial/security striving into deterrence, retaliation, restraint, sanctions bargaining, transit leverage, and implementable instruments.
 

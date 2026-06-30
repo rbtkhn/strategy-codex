@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Since-previous-dream catch-up window for dream ritual (WORK only; not Record).
+"""Since-previous-dream catch-up window for dream ritual (non-authoritative).
 
 Computes which local calendar dates need strategy-notebook + cici-notebook production
 when moving from the last successful dream handoff to now.
@@ -25,7 +25,6 @@ from zoneinfo import ZoneInfo
 
 LAST_DREAM_FILENAME = "last-dream.json"
 
-
 def read_previous_dream_generated_at(users_dir: Path, user_id: str) -> datetime | None:
     """Parse ``generated_at`` from existing last-dream.json, or None."""
     try:
@@ -49,10 +48,8 @@ def read_previous_dream_generated_at(users_dir: Path, user_id: str) -> datetime 
     except ValueError:
         return None
 
-
 def resolve_catchup_tz_name() -> str:
     return os.environ.get("DREAM_CATCHUP_TZ") or os.environ.get("TZ") or "UTC"
-
 
 def catch_up_local_dates(
     *,
@@ -86,7 +83,6 @@ def catch_up_local_dates(
         d += timedelta(days=1)
     return out
 
-
 def catch_up_window_dict(
     *,
     users_dir: Path,
@@ -106,13 +102,10 @@ def catch_up_window_dict(
         "local_calendar_dates": [d.isoformat() for d in dates],
     }
 
-
 _DAYS_HEADER = re.compile(r"^##\s+(\d{4}-\d{2}-\d{2})\s*$", re.MULTILINE)
-
 
 def parse_strategy_notebook_day_headers(days_md_text: str) -> set[str]:
     return set(_DAYS_HEADER.findall(days_md_text))
-
 
 def strategy_notebook_month_paths(repo_root: Path, d0: date, d1: date) -> list[Path]:
     months: set[tuple[int, int]] = set()
@@ -134,7 +127,6 @@ def strategy_notebook_month_paths(repo_root: Path, d0: date, d1: date) -> list[P
         )
         out.append(p)
     return out
-
 
 def missing_strategy_notebook_days(
     repo_root: Path,

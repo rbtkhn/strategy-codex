@@ -1,6 +1,5 @@
 # Martyanov Raw-Input Index
 
-WORK only; not Record.
 
 Compatibility pointer only.
 

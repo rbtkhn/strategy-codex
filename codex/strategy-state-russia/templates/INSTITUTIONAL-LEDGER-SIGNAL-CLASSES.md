@@ -16,4 +16,3 @@ Inside each class:
 3. Bullet summary lines
 4. Optional announced-vs-material block
 
-WORK only; not Record.

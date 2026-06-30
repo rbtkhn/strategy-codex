@@ -1,5 +1,4 @@
 ﻿# America Primary Sources - Colonial (50 total)
-WORK only; not Record.
 This file contains the Colonial (50 total) primary-source shelf for the America CIV-STATE volume.
 ## Primary Sources
 ### Colonial (50 total)

@@ -2,7 +2,6 @@
 """Backfill X short-form bundles into strategy-notebook raw-input/.
 
 Thin wrapper around ``backfill_shortform_bundle_raw_input.py`` with X defaults.
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -18,11 +17,9 @@ if str(REPO_ROOT / "scripts") not in sys.path:
 
 from backfill_shortform_bundle_raw_input import DEFAULT_RAW_ROOT, run
 
-
 def _default_profile_url(account: str) -> str:
     handle = account.strip().lstrip("@")
     return f"https://x.com/{handle}"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -72,7 +69,6 @@ def main() -> int:
     else:
         print(f"wrote: {dest}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

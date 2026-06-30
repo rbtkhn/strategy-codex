@@ -1,6 +1,6 @@
 # work_strategy
 
-Scripts for **work-strategy** maintenance (WORK only).
+Scripts for **work-strategy** maintenance (non-authoritative).
 
 | Script | Role |
 |--------|------|

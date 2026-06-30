@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Validate work-strategy decision point files (light checks).
 
-WORK only. Exits 0 if all checks pass, 1 otherwise.
+non-authoritative. Exits 0 if all checks pass, 1 otherwise.
 
 Usage:
   python3 scripts/validate_strategy_decision_points.py
@@ -15,7 +15,6 @@ import re
 import sys
 from pathlib import Path
 
-
 REQUIRED_HEADINGS = (
     "## Decision point",
     "## Perspectives",
@@ -25,7 +24,6 @@ REQUIRED_HEADINGS = (
 )
 
 FILENAME_RE = re.compile(r"^\d{4}-\d{2}-\d{2}-[a-z0-9][-a-z0-9]*\.md$")
-
 
 def validate_file(path: Path) -> list[str]:
     errors: list[str] = []
@@ -43,7 +41,6 @@ def validate_file(path: Path) -> list[str]:
         if h not in text:
             errors.append(f"{path}: missing heading {h!r}")
     return errors
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -69,7 +66,6 @@ def main() -> int:
         return 1
     print(f"ok: {root} — {len(list(root.glob('*.md'))) - 1} decision file(s) checked")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

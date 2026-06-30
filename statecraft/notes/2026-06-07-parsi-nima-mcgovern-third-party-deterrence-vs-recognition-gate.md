@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-06/source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md>
   - source-archive/statecraft/2026-06-06/source-pape-the-new-phase-2026-06-06.md>
 ---
-WORK only; not Record.
 
 # Parsi × Nima × McGovern: Third-Party Deterrence Vs Recognition Gate - 2026-06-07
 

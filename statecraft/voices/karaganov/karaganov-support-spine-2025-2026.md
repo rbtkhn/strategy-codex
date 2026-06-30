@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Karaganov support spine 2025-2026
 

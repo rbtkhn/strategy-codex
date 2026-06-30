@@ -36,11 +36,9 @@ def _surface(ctype: str, lane: str) -> str:
     }
     return m[ctype]
 
-
 def _snippet(text: str, n: int = 240) -> str:
     t = " ".join(text.split())
     return t if len(t) <= n else t[: n - 1] + "…"
-
 
 def _review_questions(ctype: str) -> list[str]:
     common = [
@@ -63,7 +61,6 @@ def _review_questions(ctype: str) -> list[str]:
     }
     return common + extra.get(ctype, [])
 
-
 def _titles_for_type(ctype: str, excerpt: str) -> tuple[str, str]:
     base = excerpt[:80].strip() or "(empty tacit body)"
     title = base.split(".")[0][:72] if base else "Tacit candidate"
@@ -74,7 +71,6 @@ def _titles_for_type(ctype: str, excerpt: str) -> tuple[str, str]:
     if ctype == "skill_candidate":
         return title, f"Skill-relevant pattern: {_snippet(excerpt)}"
     return title, f"Library-relevant note: {_snippet(excerpt)}"
-
 
 def generate_from_normalized(record: dict[str, Any]) -> list[dict[str, Any]]:
     tacit_id = record["id"]
@@ -129,7 +125,6 @@ def generate_from_normalized(record: dict[str, Any]) -> list[dict[str, Any]]:
 
     return out
 
-
 def _validate_one(cand: dict[str, Any]) -> list[str]:
     try:
         from jsonschema import Draft202012Validator
@@ -140,7 +135,6 @@ def _validate_one(cand: dict[str, Any]) -> list[str]:
     schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
     validator = Draft202012Validator(schema)
     return [str(e.message) for e in sorted(validator.iter_errors(cand), key=lambda e: e.path)]
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Generate tacit candidate JSON files.")
@@ -186,7 +180,6 @@ def main() -> int:
         print("(no candidates generated)", file=sys.stderr)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -24,7 +24,6 @@ DEFAULT_CLONE = Path(os.environ.get("CIV_STATE_PUBLISH_CLONE", r"C:\dev\civ-stat
 EXCLUDE_DIRS = {".git", ".pytest_cache", "__pycache__"}
 WORKSPACE_ONLY_FILES = {RECEIPT_NAME}
 
-
 def robocopy_publish(src: Path, dest: Path, *, dry_run: bool) -> None:
     cmd = [
         "robocopy",
@@ -49,7 +48,6 @@ def robocopy_publish(src: Path, dest: Path, *, dry_run: bool) -> None:
     if not dry_run and proc.returncode > 7:
         raise RuntimeError(proc.stderr or proc.stdout or f"robocopy exit {proc.returncode}")
 
-
 def write_receipt(upstream_sha: str, branch: str) -> None:
     text = (
         "# Mirror Receipt\n\n"
@@ -65,14 +63,12 @@ def write_receipt(upstream_sha: str, branch: str) -> None:
     )
     (MIRROR_DIR / RECEIPT_NAME).write_text(text, encoding="utf-8")
 
-
 def ensure_clone(clone_dir: Path, branch: str) -> None:
     if (clone_dir / ".git").exists():
         sync_clone_branch(clone_dir, branch, REMOTE)
         return
     clone_dir.parent.mkdir(parents=True, exist_ok=True)
     git_output(["clone", "--branch", branch, REMOTE, str(clone_dir)], REPO_ROOT)
-
 
 def publish(
     *,
@@ -119,7 +115,6 @@ def publish(
         "push_via": push_via,
     }
 
-
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--clone-dir", type=Path, default=DEFAULT_CLONE)
@@ -147,7 +142,6 @@ def main(argv: list[str] | None = None) -> int:
 
     print(result)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

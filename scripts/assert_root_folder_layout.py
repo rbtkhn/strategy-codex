@@ -15,7 +15,6 @@ from repo_io import TARGET_ROOT_FOLDERS  # noqa: E402
 
 MAX_ROOT_FOLDERS = len(TARGET_ROOT_FOLDERS)
 
-
 def main() -> int:
     names = sorted(
         p.name for p in REPO_ROOT.iterdir() if p.is_dir() and p.name in TARGET_ROOT_FOLDERS
@@ -37,7 +36,6 @@ def main() -> int:
         return 1
     print(f"assert_root_folder_layout: ok ({len(names)} folders)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

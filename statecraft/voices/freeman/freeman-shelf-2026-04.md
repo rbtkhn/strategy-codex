@@ -1,6 +1,5 @@
 # Freeman shelf - 2026-04
 
-WORK only; not Record.
 
 Status: mature dense-core month.
 

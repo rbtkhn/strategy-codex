@@ -1,6 +1,5 @@
 # Nima profile — compatibility redirect
 
-WORK only; not Record.
 
 **Canonical profile (SSOT):** [`statecraft/voices/alkhorshid/alkhorshid-profile.md`](../../statecraft/voices/alkhorshid/alkhorshid-profile.md)
 

@@ -22,7 +22,6 @@ archive_links:
 
 # Judging Freedom x Ritter speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Judging Freedom x Ritter` lane inside the native Napolitano shelf.
 

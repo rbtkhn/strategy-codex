@@ -57,7 +57,6 @@ MAX_LEN = 520
 
 GENERATOR = "scripts/work_jiang/extract_quote_candidates.py"
 
-
 def score_line(text: str, keywords: re.Pattern[str]) -> float:
     t = text.strip()
     if len(t) < MIN_LEN or len(t) > MAX_LEN:
@@ -70,7 +69,6 @@ def score_line(text: str, keywords: re.Pattern[str]) -> float:
     if re.search(r"\b(okay|so |which means|the idea is)\b", t, re.I):
         s += 0.15
     return round(s, 3)
-
 
 def iter_body_lines(path: Path) -> list[tuple[int, str]]:
     raw_lines = path.read_text(encoding="utf-8", errors="replace").splitlines()
@@ -97,10 +95,8 @@ def iter_body_lines(path: Path) -> list[tuple[int, str]]:
         out.append((line_no, raw))
     return out
 
-
 def normalize_key(text: str) -> str:
     return hashlib.sha256(re.sub(r"\s+", " ", text.strip().lower()).encode()).hexdigest()[:16]
-
 
 def collect_for_files(
     paths: list[Path],
@@ -139,7 +135,6 @@ def collect_for_files(
     candidates.sort(key=lambda x: (-x["score"], x["path"], x["line_number"]))
     return candidates[:max_candidates]
 
-
 def write_candidates(out_path: Path, *, series: str, candidates: list[dict]) -> None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     doc = {
@@ -150,7 +145,6 @@ def write_candidates(out_path: Path, *, series: str, candidates: list[dict]) -> 
     with out_path.open("w", encoding="utf-8") as f:
         yaml.safe_dump(doc, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
     print(f"Wrote {len(candidates)} candidates to {out_path.relative_to(ROOT)}")
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -195,7 +189,6 @@ def main() -> int:
     )
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

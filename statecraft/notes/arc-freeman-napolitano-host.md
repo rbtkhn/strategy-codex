@@ -22,7 +22,6 @@ archive_links:
 
 # Judging Freedom x Freeman speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Judging Freedom x Freeman` lane inside the native Napolitano shelf.
 

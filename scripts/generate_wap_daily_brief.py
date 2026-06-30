@@ -27,7 +27,7 @@ Optional **Tri-Frame mind overlays** (after the brief): see `docs/skill-work/wor
 and `docs/skill-work/work-strategy/minds/DAILY-BRIEF-MINDS-WORKFLOW.md`. Scaffold-only — no LLM inside this script.
 
 Optional **§7 Context efficiency (CEL)** footer: `platform/config/context_budgets/daily_brief.json` (`append_cel_footer`) — threads
-`docs/skill-work/context-efficiency-layer.md` into generated briefs; operator WORK only.
+`docs/skill-work/context-efficiency-layer.md` into generated briefs; operator non-authoritative.
 """
 
 from __future__ import annotations
@@ -239,18 +239,15 @@ try:
 except ImportError:
     from scripts.work_politics_ops import get_wap_snapshot
 
-
 def _default_config_path() -> Path:
     if DEFAULT_CONFIG.exists():
         return DEFAULT_CONFIG
     return LEGACY_FEEDS_JSON
 
-
 def _phrases_tuple(raw: object, fallback: tuple[str, ...]) -> tuple[str, ...]:
     if isinstance(raw, list) and raw:
         return tuple(str(x).lower() for x in raw)
     return fallback
-
 
 def _locale_phrase_map(data: dict, key: str) -> dict[str, tuple[str, ...]]:
     """Map locale code -> extra keyword phrases (merged at score time with global lists)."""
@@ -264,7 +261,6 @@ def _locale_phrase_map(data: dict, key: str) -> dict[str, tuple[str, ...]]:
             continue
         out[lc] = tuple(str(x).lower() for x in v)
     return out
-
 
 def _merge_story_anchors(data: dict) -> tuple[str, ...]:
     extra = data.get("story_anchor_phrases") if isinstance(data, dict) else None
@@ -283,7 +279,6 @@ def _merge_story_anchors(data: dict) -> tuple[str, ...]:
                 merged.append(pl)
     return tuple(merged)
 
-
 def _load_story_dedupe(data: dict) -> dict[str, object]:
     out = dict(DEFAULT_STORY_DEDUPE)
     raw = data.get("story_dedupe") if isinstance(data, dict) else None
@@ -292,7 +287,6 @@ def _load_story_dedupe(data: dict) -> dict[str, object]:
             if k in raw:
                 out[k] = raw[k]
     return out
-
 
 def _normalize_tier_caps(raw: object, defaults: dict[int, int]) -> dict[int, int]:
     out = dict(defaults)
@@ -305,7 +299,6 @@ def _normalize_tier_caps(raw: object, defaults: dict[int, int]) -> dict[int, int
         except (TypeError, ValueError):
             continue
     return out
-
 
 def _load_ingest_caps(data: dict) -> dict[str, object]:
     base = dict(DEFAULT_INGEST_CAPS)
@@ -325,7 +318,6 @@ def _load_ingest_caps(data: dict) -> dict[str, object]:
             pass
     base["max_items_by_tier"] = _normalize_tier_caps(raw.get("max_items_by_tier"), tier_defaults)
     return base
-
 
 def _effective_feed_cap(feed: dict[str, object], caps: dict[str, object], override: int | None) -> int:
     if override is not None and override > 0:
@@ -354,7 +346,6 @@ def _effective_feed_cap(feed: dict[str, object], caps: dict[str, object], overri
     except (TypeError, ValueError):
         return 12
 
-
 def _sort_feed_items_by_recency(items: list[dict[str, object]]) -> list[dict[str, object]]:
     """Newest first; undated last (stable within groups)."""
 
@@ -365,7 +356,6 @@ def _sort_feed_items_by_recency(items: list[dict[str, object]]) -> list[dict[str
         return (1, 0.0)
 
     return sorted(items, key=_key, reverse=True)
-
 
 def _load_full_config(
     path: Path,
@@ -467,7 +457,6 @@ def _load_full_config(
     geo_loc = _locale_phrase_map(data, "geo_military_keyword_phrases_by_locale") if isinstance(data, dict) else {}
     return feeds, wap, strat, wap_loc, strat_loc, story_anchors, story_dedupe, ingest_caps, geo, geo_loc
 
-
 def _extract_strategy_focus() -> str:
     if not STRATEGY_FOCUS_MD.exists():
         return "_No `docs/skill-work/work-strategy/daily-brief-focus.md` yet._"
@@ -483,7 +472,6 @@ def _extract_strategy_focus() -> str:
             continue
         out.append(s if s.startswith("- ") else f"- {s}")
     return "\n".join(out)
-
 
 def _extract_jiang_layer() -> str:
     """§ Active work-jiang hooks from daily-brief-jiang-layer.md (slow structural pointers)."""
@@ -509,9 +497,7 @@ def _extract_jiang_layer() -> str:
         out.append(s if s.startswith("- ") else f"- {s}")
     return "\n".join(out)
 
-
 _ENTITY_HINT_RE = re.compile(r"^[A-Z0-9][A-Z0-9_\-]*$")
-
 
 def _normalize_civ_mem_entity_hint(raw: str | None) -> str:
     """Uppercase entity id for upstream civ-mem paths (letters, digits, underscore, hyphen)."""
@@ -521,7 +507,6 @@ def _normalize_civ_mem_entity_hint(raw: str | None) -> str:
     if not s or not _ENTITY_HINT_RE.match(s):
         return ""
     return s
-
 
 def _read_civ_mem_entity_hint_from_config(config_path: Path) -> str:
     if not config_path.exists():
@@ -533,7 +518,6 @@ def _read_civ_mem_entity_hint_from_config(config_path: Path) -> str:
     if not isinstance(data, dict):
         return ""
     return _normalize_civ_mem_entity_hint(data.get("civ_mem_entity_hint"))
-
 
 def _civ_mem_entity_stub_lines(entity: str) -> list[str]:
     """Optional §1b-civ block when civ_mem_entity_hint is set."""
@@ -557,18 +541,15 @@ def _civ_mem_entity_stub_lines(entity: str) -> list[str]:
         "",
     ]
 
-
 def _local_tag(tag: str) -> str:
     if "}" in tag:
         return tag.split("}", 1)[1]
     return tag
 
-
 def _text(elem: ET.Element | None) -> str:
     if elem is None or elem.text is None:
         return ""
     return html.unescape((elem.text or "").strip())
-
 
 def _atom_link(entry: ET.Element) -> str:
     for link in entry:
@@ -578,7 +559,6 @@ def _atom_link(entry: ET.Element) -> str:
         if href:
             return href
     return ""
-
 
 def _parse_rss_items(root: ET.Element, feed_label: str) -> list[dict[str, object]]:
     items: list[dict[str, object]] = []
@@ -613,7 +593,6 @@ def _parse_rss_items(root: ET.Element, feed_label: str) -> list[dict[str, object
                 }
             )
     return items
-
 
 def _parse_atom_items(root: ET.Element, feed_label: str) -> list[dict[str, object]]:
     items: list[dict[str, object]] = []
@@ -650,7 +629,6 @@ def _parse_atom_items(root: ET.Element, feed_label: str) -> list[dict[str, objec
             )
     return items
 
-
 def _parse_feed_xml(data: bytes, feed_label: str) -> list[dict[str, object]]:
     try:
         root = ET.fromstring(data)
@@ -663,7 +641,6 @@ def _parse_feed_xml(data: bytes, feed_label: str) -> list[dict[str, object]]:
         return _parse_atom_items(root, feed_label)
     return []
 
-
 def _fetch_feed(url: str, timeout: int = 20) -> bytes | None:
     req = urllib.request.Request(url, headers={"User-Agent": DEFAULT_UA})
     try:
@@ -672,14 +649,12 @@ def _fetch_feed(url: str, timeout: int = 20) -> bytes | None:
     except (urllib.error.URLError, OSError, TimeoutError, ValueError):
         return None
 
-
 def _score_keywords(hay: str, phrases: tuple[str, ...]) -> int:
     score = 0
     for phrase in phrases:
         if phrase.lower() in hay:
             score += 1
     return score
-
 
 def _story_anchor_set(blob: str, phrases: tuple[str, ...]) -> frozenset[str]:
     """Which anchor phrases appear as substrings in blob (already lowercased)."""
@@ -689,7 +664,6 @@ def _story_anchor_set(blob: str, phrases: tuple[str, ...]) -> frozenset[str]:
             matched.add(phrase)
     return frozenset(matched)
 
-
 def _jaccard(a: frozenset[str], b: frozenset[str]) -> float:
     if not a and not b:
         return 1.0
@@ -697,7 +671,6 @@ def _jaccard(a: frozenset[str], b: frozenset[str]) -> float:
     if u == 0:
         return 0.0
     return len(a & b) / u
-
 
 class _UnionFind:
     def __init__(self, n: int) -> None:
@@ -713,7 +686,6 @@ class _UnionFind:
         ra, rb = self.find(a), self.find(b)
         if ra != rb:
             self._p[rb] = ra
-
 
 def _cluster_story_items(
     items: list[dict[str, object]],
@@ -798,7 +770,6 @@ def _cluster_story_items(
 
     return clusters, singletons
 
-
 def _cluster_label(cluster: list[dict[str, object]], story_anchors: tuple[str, ...]) -> str:
     union_a: set[str] = set()
     for it in cluster:
@@ -809,7 +780,6 @@ def _cluster_label(cluster: list[dict[str, object]], story_anchors: tuple[str, .
     # Short readable label (Latin-heavy; Arabic anchors may appear)
     parts = sorted(union_a)[:5]
     return " · ".join(parts)
-
 
 def _headline_md_line(it: dict[str, object], *, also: bool = False) -> str:
     title = it.get("title", "")
@@ -831,7 +801,6 @@ def _headline_md_line(it: dict[str, object], *, also: bool = False) -> str:
         )
     return f"- **[W:{sw} S:{ss} G:{sg}]** [{title}]({link}) — _{feed}_{loc_note}{date_note}"
 
-
 def _import_query_inrepo_civmem():
     try:
         from scripts.build_civmem_inrepo_index import query_inrepo_civmem
@@ -847,7 +816,6 @@ def _import_query_inrepo_civmem():
     spec.loader.exec_module(mod)
     return getattr(mod, "query_inrepo_civmem", None)
 
-
 def _civ_mem_boost_query(title: str) -> str:
     """Bias token overlap toward statecraft / institutions (not theology manuscripts)."""
     base = (title or "").strip()
@@ -857,7 +825,6 @@ def _civ_mem_boost_query(title: str) -> str:
         + " mearsheimer mercouris ukraine iran nato war realism statecraft institutions"
         " alliance congress security middle east diplomacy"
     )
-
 
 def _civ_mem_resonance_lines(
     seed_titles: list[str],
@@ -947,7 +914,6 @@ def _civ_mem_resonance_lines(
         ]
     return out
 
-
 def _filter_recent(items: list[dict[str, object]], max_age_hours: int) -> list[dict[str, object]]:
     if max_age_hours <= 0:
         return items
@@ -966,7 +932,6 @@ def _filter_recent(items: list[dict[str, object]], max_age_hours: int) -> list[d
     dated_out = [it for it in items if isinstance(it.get("sort_date"), datetime)]
     dated_out.sort(key=lambda x: x.get("sort_date"), reverse=True)
     return undated + dated_out[:24]
-
 
 def build_daily_brief(
     user_id: str,
@@ -1367,16 +1332,13 @@ def build_daily_brief(
     )
     return "\n".join(lines)
 
-
 def _load_minds_config(path: Path) -> dict:
     with open(path, encoding="utf-8") as f:
         return json.load(f)
 
-
 def _brief_date_from_filename(brief_path: Path) -> str | None:
     m = re.search(r"daily-brief-(\d{4}-\d{2}-\d{2})\.md$", brief_path.name)
     return m.group(1) if m else None
-
 
 def _format_mind_menus(cfg: dict) -> str:
     lines = [
@@ -1392,7 +1354,6 @@ def _format_mind_menus(cfg: dict) -> str:
         lines.append("")
     lines.append("Human-readable: docs/skill-work/work-strategy/daily-brief-minds-menu.md")
     return "\n".join(lines)
-
 
 def _build_mind_scaffold_markdown(
     *,
@@ -1429,7 +1390,6 @@ def _build_mind_scaffold_markdown(
         "## Analysis\n\n"
         "_(Complete below. Remove this placeholder line when done.)_\n\n"
     )
-
 
 def _write_mind_scaffold(
     cfg: dict,
@@ -1479,7 +1439,6 @@ def _write_mind_scaffold(
     print(out_path)
     return out_path
 
-
 def _run_minds_phase(
     cfg: dict,
     brief_path: Path,
@@ -1499,7 +1458,6 @@ def _run_minds_phase(
     if mind:
         oid = mind_option or None
         _write_mind_scaffold(cfg, brief_path, strategy_dir, mind, oid)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -1696,7 +1654,6 @@ def main() -> int:
             mind_all=args.mind_all,
         )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

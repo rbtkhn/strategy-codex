@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Feb 25 → Jun 22 2026 — Pape arc (Escalation Trap)
 

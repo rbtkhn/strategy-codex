@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Raw-Input Index (compat redirect)
 

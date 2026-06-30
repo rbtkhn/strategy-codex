@@ -1,7 +1,7 @@
 ﻿# strategy-codex — notes (teaching & demos)
 <!-- word_count: 78 -->
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 > **Tri-mind:** Demo and exercise docs that mention **tri-frame** are **legacy archive** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md).
 

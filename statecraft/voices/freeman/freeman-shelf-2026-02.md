@@ -1,6 +1,5 @@
 # Freeman shelf - 2026-02
 
-WORK only; not Record.
 
 Status: setup/bridge month.
 

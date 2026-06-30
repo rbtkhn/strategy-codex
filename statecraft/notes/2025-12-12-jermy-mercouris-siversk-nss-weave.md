@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2025-11-11/source-alexander-mercouris-kiev-defeat-worsens-syrsky-admits-pokrovsk-crisis-zaporozhye-collapse-bizarre-kiev-uk-mig31-caper-2025-11-11.md
   - source-archive/statecraft/2025-11-14/source-alexander-mercouris-kievs-darkest-day-zelensky-begs-more-missiles-after-huge-russian-kiev-strike-gives-up-on-pokrovsk-2025-11-14.md
 ---
-WORK only; not Record.
 
 # Dec 12 2025 — Jermy × Mercouris × Freeman/Wilkerson weave (NSS / war-lost / chain reaction)
 

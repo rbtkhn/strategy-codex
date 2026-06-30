@@ -15,7 +15,6 @@ links:
 
 # Prediction resolution — iran_great_power_direct_war_entry
 
-WORK only; not Record.
 
 **Event question:** Will Russia or China directly enter a US-Iran war on Iran's side (combat forces, not arms/tech transfers alone)?  
 **Resolution criteria:** Yes only if documented direct great-power combat entry.  

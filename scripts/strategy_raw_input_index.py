@@ -18,7 +18,6 @@ from strategy_expert_transcript import (
     iter_raw_input_yaml_documents,
 )
 
-
 def discover_raw_input_bullets_for_expert(
     notebook_dir: Path,
     expert_id: str,
@@ -74,7 +73,6 @@ def discover_raw_input_bullets_for_expert(
                 return out
             break
     return out
-
 
 def merge_raw_input_bullet_lines(
     disk_lines: list[str],

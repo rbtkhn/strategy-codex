@@ -43,19 +43,15 @@ CANONICAL_TERMS = [
     "archive/placeholders/evidence",
 ]
 
-
 def _utc_now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
 
 def _slugify(value: str) -> str:
     slug = re.sub(r"[^A-Za-z0-9._-]+", "-", value.strip()).strip("-")
     return slug or "counterfactual-proposal"
 
-
 def _load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def _unique(items: list[str]) -> list[str]:
     seen: set[str] = set()
@@ -67,20 +63,17 @@ def _unique(items: list[str]) -> list[str]:
         out.append(item)
     return out
 
-
 def _require_string(data: dict[str, Any], key: str) -> str:
     value = data.get(key)
     if not isinstance(value, str) or not value.strip():
         raise ValueError(f"{key} must be a non-empty string")
     return value.strip()
 
-
 def _require_string_list(data: dict[str, Any], key: str) -> list[str]:
     value = data.get(key)
     if not isinstance(value, list) or not all(isinstance(item, str) for item in value):
         raise ValueError(f"{key} must be a list of strings")
     return value
-
 
 def validate_proposal(data: dict[str, Any]) -> dict[str, Any]:
     proposal_id = _require_string(data, "proposal_id")
@@ -125,7 +118,6 @@ def validate_proposal(data: dict[str, Any]) -> dict[str, Any]:
         "operator_question": operator_question.strip(),
     }
 
-
 def _contains_non_none_authority(text: str, authority_key: str) -> bool:
     lowered = text.lower()
     key = authority_key.lower()
@@ -138,7 +130,6 @@ def _contains_non_none_authority(text: str, authority_key: str) -> bool:
         if "none" not in snippet:
             return True
         start = idx + len(key)
-
 
 def _mentions_protected_write_without_human_review(text: str) -> bool:
     lowered = text.lower()
@@ -168,7 +159,6 @@ def _mentions_protected_write_without_human_review(text: str) -> bool:
     ]
     return any(token in lowered for token in protected_tokens)
 
-
 def _interface_artifact_authority_risk(text: str) -> bool:
     lowered = text.lower()
     return any(
@@ -183,7 +173,6 @@ def _interface_artifact_authority_risk(text: str) -> bool:
             "canonical archive/placeholders/evidence",
         )
     )
-
 
 def analyze_counterfactual(
     proposal: dict[str, Any], repo_root: Path
@@ -415,7 +404,6 @@ def analyze_counterfactual(
     validate_report(report)
     return report
 
-
 def validate_report(report: dict[str, Any]) -> None:
     if report.get("type") != "counterfactual-simulation-report-v1":
         raise ValueError("report type must be 'counterfactual-simulation-report-v1'")
@@ -453,7 +441,6 @@ def validate_report(report: dict[str, Any]) -> None:
         ):
             raise ValueError(f"{key} must be a list of strings")
 
-
 def resolve_output_path(repo_root: Path, output: str | None, proposal_id: str) -> Path:
     allowed_root = (repo_root / SCRATCH_DIR).resolve()
     if output:
@@ -466,7 +453,6 @@ def resolve_output_path(repo_root: Path, output: str | None, proposal_id: str) -
     if resolved != allowed_root and allowed_root not in resolved.parents:
         raise ValueError(f"output must stay under {allowed_root}")
     return resolved
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -517,7 +503,6 @@ def main() -> int:
     else:
         print(output_path)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

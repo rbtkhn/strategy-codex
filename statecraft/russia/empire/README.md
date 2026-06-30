@@ -1,6 +1,6 @@
 # Russia Empire
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: name Russia's outward striving for security and control so statecraft can distinguish necessary depth from overbinding expansion.
 

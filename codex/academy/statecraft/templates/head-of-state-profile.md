@@ -1,6 +1,5 @@
 # Head-Of-State Carrier Profile Template
 
-WORK only; not Record.
 
 Use this template when a leader, supreme authority, executive office, security council, party center, or successor authority affects settlement credibility. This is not a biography template. It asks whether a current authority can carry durable state interest into a binding instrument.
 

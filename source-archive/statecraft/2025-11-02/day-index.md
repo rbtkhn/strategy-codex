@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (1)
 - Guests: `Andrei Martyanov` (1), `Scott Ritter` (1)
-- Threads: `alkorshid` (1), `martyanov` (1), `ritter` (1)
+- Threads: `alkhorshid` (1), `martyanov` (1), `ritter` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `ritter`, `martyanov` | [watch](https://www.youtube.com/watch?v=4ImbwdiI8VE) | `source-dialogue-works-scott-ritter-andrei-martyanov-its-all-blowing-up-iran-russia-vow-to-wipe-out-any-attack-2025-11-02.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `ritter`, `martyanov` | [watch](https://www.youtube.com/watch?v=4ImbwdiI8VE) | `source-dialogue-works-scott-ritter-andrei-martyanov-its-all-blowing-up-iran-russia-vow-to-wipe-out-any-attack-2025-11-02.md` |
 
 ## Writer sources
 

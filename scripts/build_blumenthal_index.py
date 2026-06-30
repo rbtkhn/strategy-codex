@@ -41,14 +41,12 @@ HOST_CROSS_REFS = {
     ),
 }
 
-
 def split_frontmatter(text: str) -> tuple[str, str]:
     if text.startswith("---"):
         parts = text.split("---", 2)
         if len(parts) >= 3:
             return parts[1], parts[2]
     return "", text
-
 
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")
@@ -106,7 +104,6 @@ def parse_head(path: Path) -> dict:
     out["_section_count"] = len(re.findall(r"^### ", body, re.M))
     return out
 
-
 def is_blumenthal_guest(meta: dict) -> bool:
     if BLUMENTHAL.search(meta.get("guest", "")):
         return True
@@ -114,7 +111,6 @@ def is_blumenthal_guest(meta: dict) -> bool:
         if BLUMENTHAL.search(g):
             return True
     return False
-
 
 def is_included(path: Path, meta: dict) -> bool:
     name = path.name.lower()
@@ -128,7 +124,6 @@ def is_included(path: Path, meta: dict) -> bool:
         return True
     return is_blumenthal_guest(meta)
 
-
 def pub_date_key(meta: dict, path: Path) -> str:
     pub = meta.get("pub_date", "")
     if pub and len(pub) >= 10:
@@ -138,19 +133,16 @@ def pub_date_key(meta: dict, path: Path) -> str:
         return day
     return day
 
-
 def month_key(pub: str) -> str:
     if pub == "_aired-pending":
         return pub
     return pub[:7] if len(pub) >= 7 else pub
-
 
 def short_title(meta: dict, path: Path) -> str:
     title = meta.get("title") or path.stem.replace("source-", "", 1)
     if len(title) > 72:
         title = title[:69] + "…"
     return title
-
 
 def host_bucket(meta: dict) -> str:
     slug = (meta.get("channel_slug") or "").lower()
@@ -167,7 +159,6 @@ def host_bucket(meta: dict) -> str:
         return "Judging Freedom"
     return host or meta.get("show") or "other"
 
-
 def section_note(meta: dict) -> str:
     n = meta.get("_section_count", 0)
     if n:
@@ -177,7 +168,6 @@ def section_note(meta: dict) -> str:
         return ""
     return ""
 
-
 def verify_note(meta: dict, pub: str) -> str:
     if not meta.get("_has_verify"):
         return ""
@@ -185,7 +175,6 @@ def verify_note(meta: dict, pub: str) -> str:
     if "2026-06-25" in ref or pub == "2026-06-25":
         return "`verify:` J25"
     return "`verify:`"
-
 
 def row_suffix(meta: dict, path: Path, pub: str) -> str:
     bits: list[str] = []
@@ -206,7 +195,6 @@ def row_suffix(meta: dict, path: Path, pub: str) -> str:
         bits.append("speaker-object anchor · pin canonical `watch?v=` when confirmed")
     return " · ".join(bits)
 
-
 def row_label(meta: dict, path: Path, pub: str) -> str:
     title = short_title(meta, path)
     rel = f"../../../source-archive/statecraft/{path.parent.name}/{path.name}"
@@ -224,7 +212,6 @@ def row_label(meta: dict, path: Path, pub: str) -> str:
         f"{slug_bit}{kind_bit}{suffix_bit}"
     )
 
-
 def collect_rows() -> list[tuple[str, Path, dict]]:
     rows: list[tuple[str, Path, dict]] = []
     for path in sorted(ARCHIVE.glob("**/source-*.md")):
@@ -239,7 +226,6 @@ def collect_rows() -> list[tuple[str, Path, dict]]:
     rows.sort(key=lambda t: (t[0], t[1].name))
     return rows
 
-
 def panic_youtube_ids(rows: list[tuple[str, Path, dict]]) -> list[tuple[str, str]]:
     panic_rows: list[tuple[str, str]] = []
     for pub, _, meta in rows:
@@ -248,7 +234,6 @@ def panic_youtube_ids(rows: list[tuple[str, Path, dict]]) -> list[tuple[str, str
         if yt and PANIC_TITLE.search(title):
             panic_rows.append((pub, yt))
     return sorted(panic_rows)
-
 
 def corpus_section_line(rows: list[tuple[str, Path, dict]]) -> str:
     chunks: list[str] = []
@@ -271,7 +256,6 @@ def corpus_section_line(rows: list[tuple[str, Path, dict]]) -> str:
         return "; ".join(chunks) + "; " + tail
     return tail
 
-
 def host_split_line(rows: list[tuple[str, Path, dict]]) -> str:
     counts = Counter(host_bucket(meta) for _, _, meta in rows)
     bits = []
@@ -284,7 +268,6 @@ def host_split_line(rows: list[tuple[str, Path, dict]]) -> str:
             bits.append(f"**{label} ×{n}**")
     return " · ".join(bits)
 
-
 def duplicate_panic_note(rows: list[tuple[str, Path, dict]]) -> str:
     panic_rows = panic_youtube_ids(rows)
     if len(panic_rows) < 2:
@@ -294,7 +277,6 @@ def duplicate_panic_note(rows: list[tuple[str, Path, dict]]) -> str:
         f"- **Duplicate-title pair:** Jun 18 *Israel In Panic* vs Jun 25 *Is Israel in Panic?* "
         f"({ids}) — **distinct episodes**; do not merge by title alone"
     )
-
 
 def render_index(rows: list[tuple[str, Path, dict]]) -> str:
     total = len(rows)
@@ -309,8 +291,7 @@ def render_index(rows: list[tuple[str, Path, dict]]) -> str:
         by_month[month_key(row[0])].append(row)
 
     lines = [
-        "WORK only; not Record.",
-        "",
+                "",
         "# Blumenthal Index",
         "",
         "Purpose: exhaustive canonical route map for **Max Blumenthal guest appearances** in Statecraft Archive.",
@@ -374,7 +355,6 @@ def render_index(rows: list[tuple[str, Path, dict]]) -> str:
     )
     return "\n".join(lines).rstrip() + "\n"
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -398,7 +378,6 @@ def main() -> int:
     OUT.write_text(content, encoding="utf-8")
     print(f"wrote {OUT.relative_to(REPO)} ({len(rows)} rows)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -28,7 +28,6 @@ try:
 except ImportError:
     jsonschema = None  # type: ignore
 
-
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_PATH = ROOT / "schemas/registry" / "observability-report.v1.json"
 
@@ -51,10 +50,8 @@ STATUS_TO_REPORT = {
     "superseded": "superseded",
 }
 
-
 def load_json(path: Path) -> Dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def run_validator(script: str, args: List[str]) -> tuple[int, str]:
     cmd = [sys.executable, str(ROOT / "scripts" / script), *args]
@@ -71,7 +68,6 @@ def run_validator(script: str, args: List[str]) -> tuple[int, str]:
     except Exception as exc:  # noqa: BLE001
         return 99, str(exc)
 
-
 def parse_iso(dt: str) -> Optional[datetime]:
     if not dt or not isinstance(dt, str):
         return None
@@ -81,7 +77,6 @@ def parse_iso(dt: str) -> Optional[datetime]:
         return datetime.fromisoformat(dt.replace("Z", "+00:00"))
     except ValueError:
         return None
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build observability-report.json for a review-queue tree.")
@@ -242,7 +237,6 @@ def main() -> int:
 
     print(out_path)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

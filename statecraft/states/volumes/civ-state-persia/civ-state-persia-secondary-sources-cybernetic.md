@@ -1,6 +1,5 @@
 # Persia Secondary Sources - Cybernetic
 
-WORK only; not Record.
 
 ## What This Secondary Shelf Is For
 

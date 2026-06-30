@@ -38,17 +38,14 @@ STAGING_LINE = (
     "or `recursion-gate` from this export."
 )
 
-
 def _section_or_not_provided(s: str) -> str:
     t = (s or "").strip()
     return t if t else "Not provided."
-
 
 def _resolve(p: Path, root: Path) -> Path:
     if p.is_absolute():
         return p
     return (root / p).resolve()
-
 
 def _fmt_list(items: list[str]) -> str:
     if not items:
@@ -57,12 +54,10 @@ def _fmt_list(items: list[str]) -> str:
         return f"`{items[0]}`"
     return ", ".join(f"`{x}`" for x in items)
 
-
 def _sort_key(rec: dict[str, Any]) -> tuple[str, str]:
     d = (rec.get("date") or "")[:10]
     title = str(rec.get("title") or "")
     return (d, title)
-
 
 def build_markdown(
     records: list[dict[str, Any]],
@@ -165,7 +160,6 @@ def build_markdown(
 
     return pre + "\n".join(lines) + "\n"
 
-
 def _gather_simplified(notes_dir: Path) -> tuple[list[dict[str, Any]], str | None]:
     if not notes_dir.is_dir():
         return (
@@ -189,7 +183,6 @@ def _gather_simplified(notes_dir: Path) -> tuple[list[dict[str, Any]], str | Non
         out.append(rec)
     return (out, None)
 
-
 def run_export(
     notes_dir: Path,
     include_all: bool,
@@ -204,7 +197,6 @@ def run_export(
             empty_reason="No valid compound notes (expected YAML front matter starting with `---`) were found.",
         )
     return build_markdown(records, include_all, empty_reason=None)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -235,7 +227,6 @@ def main() -> int:
     out.write_text(text, encoding="utf-8", newline="\n")
     print(out)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

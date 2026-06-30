@@ -23,11 +23,9 @@ ACTOR_ID = "scripts/work_strategy/classify_task_shape.py"
 
 FRONTMATTER_PATTERN = re.compile(r"\A---\s*\r?\n(.*?)\r?\n---\s*", re.DOTALL)
 
-
 def _append_if_present(items: list[str], value: str | None) -> None:
     if value and value not in items:
         items.append(value)
-
 
 def load_task_shape_config(path: Path) -> dict[str, Any]:
     raw = path.read_text(encoding="utf-8", errors="replace")
@@ -35,7 +33,6 @@ def load_task_shape_config(path: Path) -> dict[str, Any]:
     if not isinstance(data, dict) or "task_shapes" not in data:
         raise ValueError(f"Invalid task shape config: {path}")
     return data
-
 
 def read_task_text(task_path: Path | None, inline_text: str | None) -> str:
     parts: list[str] = []
@@ -47,7 +44,6 @@ def read_task_text(task_path: Path | None, inline_text: str | None) -> str:
     if inline_text:
         parts.append(inline_text)
     return "\n\n".join(parts).strip()
-
 
 def extract_frontmatter_hint(text: str) -> str | None:
     if not text.strip():
@@ -69,14 +65,12 @@ def extract_frontmatter_hint(text: str) -> str | None:
             return stripped.split(":", 1)[1].strip().strip("\"'")
     return None
 
-
 def _first_heading_line(text: str) -> str:
     for line in text.splitlines():
         s = line.strip()
         if s.startswith("#"):
             return re.sub(r"^#+\s*", "", s).strip().lower()
     return ""
-
 
 def score_task_shapes(text: str, config: dict[str, Any], task_path: Path | None) -> dict[str, float]:
     shapes_cfg = config["task_shapes"]
@@ -105,7 +99,6 @@ def score_task_shapes(text: str, config: dict[str, Any], task_path: Path | None)
                     bonus += 1.0
             scores[name] = scores.get(name, 0.0) + bonus
     return scores
-
 
 def classify_from_scores(
     scores: dict[str, float],
@@ -169,7 +162,6 @@ def classify_from_scores(
     secondary = [{"shape": n, "score": float(s)} for n, s in ordered if n != primary][:5]
     note_txt = " ".join(notes_parts).strip()
     return primary, conf, secondary, matched_signals, note_txt
-
 
 def build_task_shape_report(
     *,
@@ -279,7 +271,6 @@ def build_task_shape_report(
         },
     }
 
-
 def run_classify_cli(args: argparse.Namespace) -> tuple[dict[str, Any], int]:
     repo_root = Path(args.repo_root).resolve()
     cfg_arg = args.config or str(repo_root / "platform/config" / "work_strategy_task_shapes.yaml")
@@ -325,7 +316,6 @@ def run_classify_cli(args: argparse.Namespace) -> tuple[dict[str, Any], int]:
 
     return report, exit_code
 
-
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Work-strategy task-shape classifier (WORK-only).")
     p.add_argument("--task", type=str, default=None, help="Path to task markdown (repo-relative or absolute).")
@@ -346,7 +336,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     args.repo_root = str(Path(root).resolve())
     return args
 
-
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     report, exit_code = run_classify_cli(args)
@@ -355,7 +344,6 @@ def main(argv: list[str] | None = None) -> int:
     elif report["record_boundary"].get("canonical_write_violation"):
         print("Classifier refused forbidden --out path.", file=sys.stderr)
     return exit_code
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

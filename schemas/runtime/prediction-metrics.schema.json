@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/prediction-metrics.schema.json",
+  "title": "Prediction metrics artifact",
+  "type": "object",
+  "required": ["_meta", "voices"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "voices": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "total",
+          "resolved",
+          "scorable",
+          "correct",
+          "incorrect",
+          "unscored",
+          "accuracy"
+        ],
+        "properties": {
+          "total": { "type": "integer", "minimum": 0 },
+          "resolved": { "type": "integer", "minimum": 0 },
+          "scorable": { "type": "integer", "minimum": 0 },
+          "correct": { "type": "integer", "minimum": 0 },
+          "incorrect": { "type": "integer", "minimum": 0 },
+          "unscored": { "type": "integer", "minimum": 0 },
+          "accuracy": {
+            "type": ["number", "null"],
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

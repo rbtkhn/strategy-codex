@@ -25,7 +25,6 @@ DEFAULT_INBOX = DEFAULT_NOTEBOOK / "daily-strategy-inbox.md"
 DEFAULT_RAW = REPO_ROOT / "source-archive" / "statecraft"
 RE_URL = re.compile(r"https://[^\s\]>)}]+")
 
-
 def _article_capture_candidate(url: str) -> bool:
     u = url.lower()
     if "watch?v=tbd" in u:
@@ -38,7 +37,6 @@ def _article_capture_candidate(url: str) -> bool:
         return True
     return False
 
-
 def _urls_from_inbox(path: Path) -> set[str]:
     if not path.is_file():
         return set()
@@ -50,10 +48,8 @@ def _urls_from_inbox(path: Path) -> set[str]:
             found.add(u)
     return found
 
-
 def _normalize(u: str) -> str:
     return u.rstrip("/")
-
 
 def _source_urls_from_raw(raw_root: Path) -> set[str]:
     out: set[str] = set()
@@ -77,7 +73,6 @@ def _source_urls_from_raw(raw_root: Path) -> set[str]:
                     out.add(_normalize(val))
                 break
     return out
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -147,7 +142,6 @@ def main() -> int:
     if args.verbose:
         print("\n(This script does not know intent — pasted stubs vs commentary URLs.)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

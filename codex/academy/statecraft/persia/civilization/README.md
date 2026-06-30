@@ -1,6 +1,6 @@
 # Iran Civilization
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: name the inherited Iranian code that shapes sovereignty, dignity, deterrence, resistance, and the demand to be treated as a necessary regional actor.
 

@@ -12,7 +12,6 @@ import yaml
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
-
 def run_diagnostics(config_path: Path, repo_root: Path) -> dict:
     cfg = yaml.safe_load(config_path.read_text(encoding="utf-8"))
     if not isinstance(cfg, dict):
@@ -40,7 +39,6 @@ def run_diagnostics(config_path: Path, repo_root: Path) -> dict:
         "findings": findings,
     }
 
-
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--platform/config", type=Path, required=True)
@@ -54,7 +52,6 @@ def main() -> int:
     else:
         print(json.dumps(out, indent=2))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

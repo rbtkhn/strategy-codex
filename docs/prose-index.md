@@ -1,6 +1,5 @@
 # Prose Index
 
-work only; not Record.
 
 This is the canonical chooser for repo-root prose output classes.
 

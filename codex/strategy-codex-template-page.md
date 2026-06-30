@@ -1,7 +1,6 @@
 # Strategy-codex template - strategy-page
 <!-- word_count: canonical scaffold -->
 
-WORK only; not Record.
 
 **Purpose:** Canonical template for a standalone **strategy-page**: a stream-level analytical object that can be read as public-draft prose while retaining source receipts.
 

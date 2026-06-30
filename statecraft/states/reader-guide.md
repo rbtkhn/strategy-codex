@@ -1,6 +1,5 @@
 # Reader Guide
 
-WORK only; not Record.
 
 This guide explains how to read **Civilizational Statecraft** correctly.
 

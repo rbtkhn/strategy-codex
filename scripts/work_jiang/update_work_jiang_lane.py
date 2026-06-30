@@ -11,7 +11,6 @@ ROOT = Path(__file__).resolve().parents[2]
 WORK_DIR = ROOT / "codex" / "predictive-history"
 LANE = ROOT / "platform/users" / "grace-mar" / "work-jiang.md"
 
-
 def lane_status(arch: dict, queue: list) -> str:
     chapters = (arch.get("book") or {}).get("chapters") or []
     if any((c.get("status") or "") == "draft_in_progress" for c in chapters):
@@ -23,7 +22,6 @@ def lane_status(arch: dict, queue: list) -> str:
     if src_ct >= 8 and ana_ct >= 6:
         return "RESEARCH_ACTIVE"
     return "SEED"
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -78,7 +76,6 @@ def main() -> int:
     else:
         print(f"Would set instance work context status to {new_status} (use --write)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

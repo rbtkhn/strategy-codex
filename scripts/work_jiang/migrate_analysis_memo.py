@@ -15,20 +15,17 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 
-
 def _major(ver: str) -> int:
     try:
         return int(str(ver).strip().split(".")[0])
     except (ValueError, IndexError):
         return 1
 
-
 def _norm_schema_to(v_to: str) -> str:
     v = str(v_to).strip()
     if v == "2":
         return "2.0"
     return v
-
 
 def migrate_json(path: Path, *, dry_run: bool, v_from: str, v_to: str) -> bool:
     raw = path.read_text(encoding="utf-8")
@@ -57,7 +54,6 @@ def migrate_json(path: Path, *, dry_run: bool, v_from: str, v_to: str) -> bool:
     print(f"migrated: {path}")
     return True
 
-
 REQUIRED_V2_KEYS = (
     "key_claims",
     "predictions",
@@ -65,7 +61,6 @@ REQUIRED_V2_KEYS = (
     "open_questions",
     "cross_links",
 )
-
 
 def migrate_md(path: Path, *, dry_run: bool, v_from: str, v_to: str) -> bool:
     text = path.read_text(encoding="utf-8")
@@ -97,7 +92,6 @@ def migrate_md(path: Path, *, dry_run: bool, v_from: str, v_to: str) -> bool:
     print(f"migrated md: {path}")
     return True
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--from", dest="v_from", default="1")
@@ -127,7 +121,6 @@ def main() -> int:
 
     print(f"done; touched {n} file(s)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

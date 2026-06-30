@@ -11,7 +11,6 @@ from derived_regeneration import REPO_ROOT, build_manifest_payload, write_receip
 
 DEFAULT_OUTPUT = ARTIFACTS_DIR / "work-dev" / "derived-regeneration-manifest.json"
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -31,7 +30,6 @@ def main() -> int:
     write_receipt(out, payload)
     print(f"wrote {out}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

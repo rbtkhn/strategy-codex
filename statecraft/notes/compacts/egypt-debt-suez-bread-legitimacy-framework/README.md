@@ -9,7 +9,7 @@ updated_at: 2026-06-28
 ---
 # Egypt Debt / Suez / Bread Legitimacy Framework
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: compare a solvency and public-order crisis across America, China, Russia, and Iran. The framework treats bread, canal neutrality, and debt pressure as statecraft objects rather than merely economic variables.
 

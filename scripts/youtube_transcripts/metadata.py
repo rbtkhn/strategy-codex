@@ -15,7 +15,6 @@ from youtube_transcripts.ytdlp_adapter import (
     normalize_title,
 )
 
-
 def fetch_metadata_ytdlp(
     video_id: str,
     *,
@@ -34,7 +33,6 @@ def fetch_metadata_ytdlp(
     except Exception:
         return {}
 
-
 def ytdlp_to_record(info: dict[str, object]) -> dict[str, object]:
     """Normalize yt-dlp info dict for manifest."""
     captions = caption_language_fields(info)
@@ -49,7 +47,6 @@ def ytdlp_to_record(info: dict[str, object]) -> dict[str, object]:
         "caption_manual_langs": captions["caption_manual_langs"],
         "caption_auto_langs": captions["caption_auto_langs"],
     }
-
 
 def fetch_metadata_youtube_api(video_id: str) -> dict[str, object] | None:
     """Optional snippet + contentDetails; requires GOOGLE_API_KEY."""

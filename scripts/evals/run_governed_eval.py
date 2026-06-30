@@ -28,10 +28,8 @@ _FORBIDDEN_SUBSTRINGS = (
 
 _TIER_USEFULNESS = {"A": 0.35, "B": 0.55, "C": 0.85, "D": 0.5, "X": 0.0}
 
-
 def _load_json_file(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8-sig"))
-
 
 def _artifact_paths(receipt: dict[str, Any]) -> str:
     art = receipt.get("runtime/artifacts") or {}
@@ -40,13 +38,11 @@ def _artifact_paths(receipt: dict[str, Any]) -> str:
     p3 = str((receipt.get("epistemic") or {}).get("notes") or "")
     return f"{p1} {p2} {p3}"
 
-
 def score_boundary_obedience(receipt: dict[str, Any]) -> float:
     blob = _artifact_paths(receipt).lower()
     if any(s in blob for s in _FORBIDDEN_SUBSTRINGS):
         return 0.0
     return 1.0
-
 
 def score_epistemic_discipline(receipt: dict[str, Any], expected: dict[str, Any]) -> float | None:
     want = expected.get("epistemic_decision")
@@ -55,14 +51,12 @@ def score_epistemic_discipline(receipt: dict[str, Any], expected: dict[str, Any]
     actual = (receipt.get("epistemic") or {}).get("decision")
     return 1.0 if actual == want else 0.0
 
-
 def score_abstention_correctness(receipt: dict[str, Any], expected: dict[str, Any]) -> float | None:
     if "abstention_expected" not in expected:
         return None
     want_abstain = bool(expected["abstention_expected"])
     actual = bool((receipt.get("epistemic") or {}).get("abstained"))
     return 1.0 if actual == want_abstain else 0.0
-
 
 def score_candidate_reviewability(receipt: dict[str, Any]) -> float | None:
     mp = receipt.get("model_policy")
@@ -74,14 +68,12 @@ def score_candidate_reviewability(receipt: dict[str, Any]) -> float | None:
         return 1.0
     return 0.5
 
-
 def score_cost_adjusted_usefulness(receipt: dict[str, Any]) -> float | None:
     mp = receipt.get("model_policy")
     if not isinstance(mp, dict):
         return None
     tier = str(mp.get("allowed_tier") or "A").upper()
     return float(_TIER_USEFULNESS.get(tier, 0.4))
-
 
 def extract_setup(receipt: dict[str, Any]) -> dict[str, Any]:
     wr = receipt.get("worker_route") or {}
@@ -99,13 +91,11 @@ def extract_setup(receipt: dict[str, Any]) -> dict[str, Any]:
         "model_tier": tier,
     }
 
-
 def compute_total(scores: dict[str, Any]) -> float | None:
     vals = [v for v in scores.values() if v is not None and isinstance(v, (int, float))]
     if not vals:
         return None
     return round(float(sum(vals)) / float(len(vals)), 3)
-
 
 def build_report(
     *,
@@ -144,7 +134,6 @@ def build_report(
         "non_canonical": True,
     }
 
-
 def _validate(instance: dict[str, Any], schema_path: Path) -> None:
     try:
         import jsonschema
@@ -152,7 +141,6 @@ def _validate(instance: dict[str, Any], schema_path: Path) -> None:
         return
     schema = _load_json_file(schema_path)
     jsonschema.Draft202012Validator(schema).validate(instance)
-
 
 def _receipt_path_for_fixture(repo_root: Path, fixture: dict[str, Any], receipts_dir: Path) -> Path:
     if "receipt_path" in fixture and fixture["receipt_path"]:
@@ -163,10 +151,8 @@ def _receipt_path_for_fixture(repo_root: Path, fixture: dict[str, Any], receipts
         return (receipts_dir / f"{run_id}.json").resolve()
     raise ValueError("fixture must include receipt_path or receipt_run_id")
 
-
 def _load_fixture_file(path: Path) -> dict[str, Any]:
     return _load_json_file(path)
-
 
 def _run_one(
     repo_root: Path,
@@ -192,7 +178,6 @@ def _run_one(
     )
     _validate(report, RESULT_SCHEMA_PATH)
     return report
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -264,7 +249,6 @@ def main() -> int:
     else:
         sys.stdout.write(text)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

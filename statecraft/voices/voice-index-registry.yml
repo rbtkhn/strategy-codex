@@ -15,13 +15,16 @@ voices:
 
   ritter:
     status: canonical
-    curated_overlays: []
+    builder: scripts/build_ritter_index.py
+    curated_overlays:
+      - forecast ledger + interview appearances companions
     exclusions:
       - date-only source-ritter-YYYY-MM-DD stubs excluded from index parity
       - verify-ritter-* and ritter-rant-* prefixes excluded
 
   crooke:
     status: canonical
+    builder: scripts/build_crooke_index.py
     curated_overlays: []
     exclusions:
       - legacy YYYY-MM-DD-crooke.md dated filenames excluded
@@ -36,11 +39,22 @@ voices:
       - Dialogue Works host rows about Jiang excluded
       - source_form solo excluded from external-interview bench
 
+  jermy:
+    status: canonical
+    builder: scripts/build_jermy_index.py
+    curated_overlays:
+      - Cross-weave note links (Mercouris/Diesen same-day; no orphan archive links)
+    exclusions: []
+
   karaganov:
     status: canonical
-    curated_overlays: []
+    builder: scripts/build_karaganov_index.py
+    curated_overlays:
+      - Reaction / reinforcement table (routing only; not parity captures)
+      - Escalation-ladder lattice May–Jun 2026
     exclusions:
       - reaction-tier source-ritter-* captures citing Karaganov token are not guest appearances
+      - lascaris embed captures cited for clip SSOT / tension pairs only (plain-text refs in index)
 
   kent:
     status: canonical
@@ -48,6 +62,18 @@ voices:
     curated_overlays: []
     exclusions:
       - support-tier panel rows may appear in index but are not primary guest corpus for parity warnings
+
+  mate:
+    status: canonical
+    builder: scripts/build_mate_index.py
+    exclusions: []
+
+  parsi:
+    status: canonical
+    builder: scripts/build_parsi_index.py
+    curated_overlays:
+      - forecast ledger + interview appearances companions
+    exclusions: []
 
   johnson:
     status: canonical
@@ -127,6 +153,11 @@ voices:
   matlock:
     status: canonical
     builder: scripts/build_matlock_index.py
+    exclusions: []
+
+  mcgovern:
+    status: canonical
+    builder: scripts/build_mcgovern_index.py
     exclusions: []
 
   mearsheimer:

@@ -1,6 +1,5 @@
 # Iran - Minab Civilian-Harm De-Escalation Framework
 
-WORK only; not Record.
 
 ## Transaction Name
 

@@ -1,6 +1,5 @@
 # Operator Playbooks
 
-WORK only; not Record.
 
 This page is a discovery layer for a few high-value `work-business` workflows.
 

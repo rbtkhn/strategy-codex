@@ -13,7 +13,6 @@ archive_links:
   - source-archive/statecraft/2026-06-07/source-dialogue-works-nima-urgent-iran-israel-trade-blows-yemen-launches-iran-hits-saudi-2026-06-07.md
   - source-archive/statecraft/2026-06-06/source-dialogue-works-mcgovern-west-asia-changing-fast-israel-loses-big-putin-rejects-zelensky-2026-06-06.md
 ---
-WORK only; not Record.
 
 # Johnson Larijani Doctrine × June 7 Third-Party Gate — 2026-06-08
 

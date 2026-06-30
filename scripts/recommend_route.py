@@ -24,7 +24,6 @@ SHAPES_ORDER = (
     "governance_review",
 )
 
-
 def load_config(path: Path) -> dict[str, Any]:
     raw = path.read_text(encoding="utf-8", errors="replace")
     data = json.loads(raw)
@@ -32,14 +31,12 @@ def load_config(path: Path) -> dict[str, Any]:
         raise ValueError(f"Invalid route recommendation config: {path}")
     return data
 
-
 def _slug_from_text(text: str, max_len: int = 40) -> str:
     line = (text.strip().splitlines() or [""])[0]
     s = re.sub(r"[^a-zA-Z0-9]+", "-", line.lower()).strip("-")
     if not s:
         s = "task"
     return s[:max_len].rstrip("-")
-
 
 def score_shapes(
     description: str,
@@ -80,7 +77,6 @@ def score_shapes(
 
     return scores
 
-
 def _confidence_for(primary: str, top: float, second: float) -> str:
     if primary == "unclear":
         return "low"
@@ -94,7 +90,6 @@ def _confidence_for(primary: str, top: float, second: float) -> str:
     if top >= 2.0 and gap >= 1.0:
         return "medium"
     return "low"
-
 
 def infer_recommendation(
     description: str,
@@ -195,7 +190,6 @@ def infer_recommendation(
         "scores": {k: round(v, 2) for k, v in sorted(scores.items(), key=lambda kv: (-kv[1], kv[0]))},
     }
 
-
 def _build_unclear(
     uc_meta: dict[str, Any],
     lane_hint: str | None,
@@ -223,7 +217,6 @@ def _build_unclear(
         "lane_hint": lane_hint or "",
         "scores": {},
     }
-
 
 def render_receipt_markdown(data: dict[str, Any], created_at: str) -> str:
     """YAML frontmatter + body per route-recommendation template."""
@@ -272,7 +265,6 @@ def render_receipt_markdown(data: dict[str, Any], created_at: str) -> str:
 
     return md
 
-
 def parse_args(repo_root_default: Path, argv: list[str] | None = None) -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Emit a derived route-recommendation markdown receipt.")
     p.add_argument("-t", "--text", default=None, help="Task description (inline).")
@@ -294,7 +286,6 @@ def parse_args(repo_root_default: Path, argv: list[str] | None = None) -> argpar
     )
     parsed = p.parse_args(argv if argv is not None else sys.argv[1:])
     return parsed
-
 
 def main(argv: list[str] | None = None) -> int:
     repo_root = Path(__file__).resolve().parents[1]
@@ -347,7 +338,6 @@ def main(argv: list[str] | None = None) -> int:
         print(body, end="")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

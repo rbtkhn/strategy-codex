@@ -25,7 +25,6 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 from repo_io import profile_dir, resolve_self_memory_path  # noqa: E402
 
-
 def _parse_dated_line(line: str) -> tuple[datetime | None, str]:
     m = re.match(r"^(\s*[-*]\s*)\[(\d{4}-\d{2}-\d{2})\](.*)$", line)
     if not m:
@@ -35,7 +34,6 @@ def _parse_dated_line(line: str) -> tuple[datetime | None, str]:
         return datetime.strptime(ts, "%Y-%m-%d"), line
     except ValueError:
         return None, line
-
 
 def rotate_memory(user_id: str, ttl_days: int, apply: bool) -> dict:
     memory_path = resolve_self_memory_path(profile_dir(user_id))
@@ -77,7 +75,6 @@ def rotate_memory(user_id: str, ttl_days: int, apply: bool) -> dict:
         "applied": apply,
     }
 
-
 def emit_maintenance_event(user_id: str, memory_stats: dict, archive_stats: dict, apply: bool) -> None:
     subprocess.run(
         [
@@ -96,7 +93,6 @@ def emit_maintenance_event(user_id: str, memory_stats: dict, archive_stats: dict
         check=False,
         capture_output=True,
     )
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Rotate MEMORY and SELF-ARCHIVE for one user.")
@@ -131,7 +127,6 @@ def main() -> int:
             f"archive_rotated={archive_stats.get('rotated', 0)}"
         )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

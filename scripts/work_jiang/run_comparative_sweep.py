@@ -26,11 +26,9 @@ ANALYSIS_DIR = WORK_DIR / "analysis"
 CLAIMS_PATH = WORK_DIR / "claims" / "registry" / "claims.jsonl"
 GATE_STAGING = ROOT / "archive/grace-mar-instance/recursion-gate-staging"
 
-
 def _require_yaml() -> None:
     if yaml is None:
         raise RuntimeError("PyYAML is required for work_jiang/run_comparative_sweep.py")
-
 
 def _paste_snippet_markdown(ts: str, ts_full: str, sweep_md_rel: str) -> str:
     """Draft ### CANDIDATE-* block; operator assigns the final id during gate review."""
@@ -59,7 +57,6 @@ def _paste_snippet_markdown(ts: str, ts_full: str, sweep_md_rel: str) -> str:
         ]
     )
 
-
 def load_jsonl(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -71,12 +68,10 @@ def load_jsonl(path: Path) -> list[dict]:
                 out.append(json.loads(line))
     return out
 
-
 def find_analysis_json_files() -> list[Path]:
     if not ANALYSIS_DIR.exists():
         return []
     return sorted(ANALYSIS_DIR.glob("*-analysis.json"))
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -185,7 +180,6 @@ def main() -> int:
     print(f"Wrote {paste_md}")
     print(f"Updated {STATE_PATH}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

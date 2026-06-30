@@ -21,7 +21,6 @@ archive_links:
 
 # Judging Freedom x Wilkerson speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Judging Freedom x Wilkerson` lane inside the native Napolitano shelf.
 

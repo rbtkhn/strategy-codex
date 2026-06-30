@@ -1,4 +1,4 @@
-"""Strategy notebook extension: receipts, graph scaffolds (WORK only; not Record)."""
+"""Strategy notebook extension: receipts, graph scaffolds (non-authoritative)."""
 
 from .judgment_loops import (
     build_judgment_loop_report,

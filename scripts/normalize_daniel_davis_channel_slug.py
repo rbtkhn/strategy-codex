@@ -33,7 +33,6 @@ PREFIX_SLUG: list[tuple[str, str]] = [
     ("source-daniel-davis-", "daniel-davis"),
 ]
 
-
 def split_frontmatter(text: str) -> tuple[str, str, str] | None:
     if not text.startswith("---"):
         return None
@@ -42,13 +41,11 @@ def split_frontmatter(text: str) -> tuple[str, str, str] | None:
         return None
     return text[:3], text[3:end], text[end:]
 
-
 def slug_from_host(fm: str) -> str | None:
     for pattern, slug in HOST_SLUG:
         if pattern.search(fm):
             return slug
     return None
-
 
 def slug_from_show(fm: str) -> str | None:
     for pattern, slug in SHOW_SLUG:
@@ -56,13 +53,11 @@ def slug_from_show(fm: str) -> str | None:
             return slug
     return None
 
-
 def slug_from_filename(filename: str) -> str | None:
     for prefix, slug in PREFIX_SLUG:
         if filename.startswith(prefix):
             return slug
     return None
-
 
 def slug_from_thread_fallback(fm: str, filename: str) -> str | None:
     """Last resort: Davis-channel solo captures with thread but no host line."""
@@ -86,7 +81,6 @@ def slug_from_thread_fallback(fm: str, filename: str) -> str | None:
         return "daniel-davis"
     return None
 
-
 def resolve_channel_slug(fm: str, filename: str) -> str | None:
     """Host-first channel_slug; thread alone must not override a non-Davis host."""
     host_slug = slug_from_host(fm)
@@ -100,14 +94,12 @@ def resolve_channel_slug(fm: str, filename: str) -> str | None:
         return prefix_slug
     return slug_from_thread_fallback(fm, filename)
 
-
 def insert_after_line(fm: str, line_pattern: str, slug: str) -> str | None:
     match = re.search(line_pattern, fm, re.MULTILINE)
     if not match:
         return None
     insert_at = match.end()
     return fm[:insert_at] + f"\nchannel_slug: {slug}" + fm[insert_at:]
-
 
 def upsert_channel_slug(fm: str, slug: str) -> str:
     if re.search(r"^channel_slug:", fm, re.MULTILINE):
@@ -128,7 +120,6 @@ def upsert_channel_slug(fm: str, slug: str) -> str:
         if updated:
             return updated
     return f"channel_slug: {slug}\n{fm.lstrip()}"
-
 
 def patch_capture(path: Path, *, dry_run: bool = False) -> tuple[str, str | None] | None:
     """Return (action, expected_slug) where action is add|fix|ok|skip."""
@@ -154,7 +145,6 @@ def patch_capture(path: Path, *, dry_run: bool = False) -> tuple[str, str | None
         path.write_text("---" + new_fm + tail, encoding="utf-8")
     return ("fix", expected)
 
-
 def iter_captures() -> list[Path]:
     paths: list[Path] = []
     for pattern in ("source-daniel-davis-*.md", "source-glenn-diesen-*.md", "source-glenn-diesen-daniel-davis-*.md"):
@@ -164,7 +154,6 @@ def iter_captures() -> list[Path]:
             if "_land_" not in p.parts and p.name != "header.md"
         )
     return sorted(set(paths))
-
 
 def audit_captures() -> list[tuple[Path, str, str | None, str]]:
     """Rows: path, current_slug, expected_slug, issue."""
@@ -187,7 +176,6 @@ def audit_captures() -> list[tuple[Path, str, str | None, str]]:
         elif not expected and current == "daniel-davis" and host and "diesen" in host.lower():
             rows.append((path, current, expected, "daniel-davis slug on Diesen-host capture"))
     return rows
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -257,7 +245,6 @@ def main() -> int:
     if len(added) + len(fixed) > 8:
         print(f"  ... and {len(added) + len(fixed) - 8} more")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

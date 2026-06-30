@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Macgregor Monthly Shelves
 

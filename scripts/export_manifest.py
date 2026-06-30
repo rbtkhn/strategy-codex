@@ -30,12 +30,10 @@ try:
 except ImportError:
     from scripts.export_intent_snapshot import export_intent_snapshot
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8").strip()
-
 
 def _compute_checksum(profile_dir: Path) -> str:
     """Reuse fork_checksum logic."""
@@ -57,13 +55,11 @@ def _compute_checksum(profile_dir: Path) -> str:
         h.update(b"\n---\n")
     return h.hexdigest()
 
-
 RUNTIME_MODES = {
     "adjunct_runtime": "Assistive runtime alongside the canonical repo.",
     "primary_runtime": "Primary live runtime while the repo remains canonical.",
     "portable_bundle_only": "Portable transport bundle without assuming a live runtime.",
 }
-
 
 def generate_manifest(user_id: str = "strategy-codex", runtime_mode: str = "adjunct_runtime") -> dict:
     """
@@ -197,7 +193,6 @@ def generate_manifest(user_id: str = "strategy-codex", runtime_mode: str = "adju
 
     return manifest
 
-
 def generate_llms_txt(manifest: dict, user_id: str) -> str:
     """Human- and agent-readable llms.txt-style discoverability."""
     lines = [
@@ -249,7 +244,6 @@ def generate_llms_txt(manifest: dict, user_id: str) -> str:
     lines.append("")
     return "\n".join(lines)
 
-
 def main() -> None:
     import warnings
 
@@ -298,7 +292,6 @@ def main() -> None:
             generate_llms_txt(manifest, args.user), encoding="utf-8"
         )
         print(f"Wrote {llms_path}", file=sys.stderr)
-
 
 if __name__ == "__main__":
     main()

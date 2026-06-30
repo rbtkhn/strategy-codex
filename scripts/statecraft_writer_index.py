@@ -59,7 +59,6 @@ VIDEO_KINDS = frozenset({"transcript", "operator-transcript", "cleaned-transcrip
 _FILENAME_DATE_RE = re.compile(r"^(?P<body>.+)-(\d{4}-\d{2}-\d{2})$")
 _SLUG_RE = re.compile(r"[^a-z0-9]+")
 
-
 def iter_all_day_dirs(root: Path) -> list[Path]:
     return sorted(
         [
@@ -70,28 +69,23 @@ def iter_all_day_dirs(root: Path) -> list[Path]:
         key=lambda path: path.name,
     )
 
-
 def _slugify_channel_key(text: str) -> str:
     key = _SLUG_RE.sub("-", norm_scalar(text).lower()).strip("-")
     return key or "unknown"
 
-
 def load_writer_discovery_payload(path: Path | None = None) -> dict[str, Any]:
     config_path = path or WRITER_DISCOVERY_CONFIG_PATH
     return json.loads(config_path.read_text(encoding="utf-8"))
-
 
 def load_writer_slug_aliases(payload: dict[str, Any] | None = None) -> dict[str, str]:
     data = payload or load_writer_discovery_payload()
     raw = data.get("writer_slug_aliases") or {}
     return {str(key): str(value) for key, value in raw.items()}
 
-
 def load_writer_index_misc_slugs(payload: dict[str, Any] | None = None) -> set[str]:
     data = payload or load_writer_discovery_payload()
     raw = data.get("writer_index_misc_slugs") or []
     return {str(slug) for slug in raw}
-
 
 def canonical_writer_slug(slug: str, aliases: dict[str, str] | None = None) -> str:
     mapping = aliases or load_writer_slug_aliases()
@@ -102,15 +96,12 @@ def canonical_writer_slug(slug: str, aliases: dict[str, str] | None = None) -> s
         current = mapping[current]
     return current
 
-
 def load_writer_roster(path: Path | None = None) -> list[dict[str, Any]]:
     payload = load_writer_discovery_payload(path)
     return list(payload.get("writers") or [])
 
-
 def load_writer_rows_by_slug(path: Path | None = None) -> dict[str, dict[str, Any]]:
     return {str(row["writer_slug"]): row for row in load_writer_roster(path) if row.get("writer_slug")}
-
 
 def is_hard_excluded_writer(meta: dict[str, Any]) -> bool:
     if is_youtube_capture(meta):
@@ -121,7 +112,6 @@ def is_hard_excluded_writer(meta: dict[str, Any]) -> bool:
         if source_form not in WRITER_SOURCE_FORM_PROSE:
             return True
     return False
-
 
 def is_writer_index_eligible(meta: dict[str, Any]) -> bool:
     if is_hard_excluded_writer(meta):
@@ -139,7 +129,6 @@ def is_writer_index_eligible(meta: dict[str, Any]) -> bool:
         return True
     return False
 
-
 def _filename_prefix(filename: str) -> str:
     name = filename
     if not name.startswith("source-") or not name.endswith(".md"):
@@ -149,7 +138,6 @@ def _filename_prefix(filename: str) -> str:
     if not match:
         return ""
     return match.group("body").split("-")[0]
-
 
 def resolve_writer_slug(meta: dict[str, Any], filename: str = "", *, aliases: dict[str, str] | None = None) -> str:
     mapping = aliases or load_writer_slug_aliases()
@@ -168,7 +156,6 @@ def resolve_writer_slug(meta: dict[str, Any], filename: str = "", *, aliases: di
         return canonical_writer_slug(prefix, mapping)
     return ""
 
-
 def _has_substack_signal(meta: dict[str, Any]) -> bool:
     source_type = norm_scalar(meta.get("source_type")).casefold()
     kind = norm_scalar(meta.get("kind")).casefold()
@@ -176,7 +163,6 @@ def _has_substack_signal(meta: dict[str, Any]) -> bool:
         return True
     url = norm_scalar(meta.get("source_url")).casefold()
     return "substack.com" in url
-
 
 def match_configured_writer_slug(
     meta: dict[str, Any],
@@ -191,7 +177,6 @@ def match_configured_writer_slug(
         if capture_matches_writer(meta, filename, row, aliases=mapping):
             return str(row.get("writer_slug") or "")
     return ""
-
 
 def capture_matches_writer(
     meta: dict[str, Any],
@@ -241,7 +226,6 @@ def capture_matches_writer(
         return True
     return False
 
-
 @dataclass
 class WriterStats:
     slug: str
@@ -256,7 +240,6 @@ class WriterStats:
     last_day: str | None = None
     check_written: bool = True
     discoverable: bool = False
-
 
 def collect_writer_stats(root: Path, config_path: Path | None = None) -> dict[str, WriterStats]:
     payload = load_writer_discovery_payload(config_path)
@@ -295,7 +278,6 @@ def collect_writer_stats(root: Path, config_path: Path | None = None) -> dict[st
                 break
     return stats
 
-
 def build_writer_index_json(root: Path, config_path: Path | None = None) -> dict[str, Any]:
     stats = collect_writer_stats(root, config_path)
     writers: list[dict[str, Any]] = []
@@ -327,7 +309,6 @@ def build_writer_index_json(root: Path, config_path: Path | None = None) -> dict
         },
         "writers": writers,
     }
-
 
 def build_writer_index(root: Path, config_path: Path | None = None) -> str:
     stats = collect_writer_stats(root, config_path)
@@ -376,16 +357,13 @@ def build_writer_index(root: Path, config_path: Path | None = None) -> str:
     )
     return "\n".join(lines)
 
-
 def writer_index_json_path(root: Path | None = None) -> Path:
     archive_root = (root or DEFAULT_ROOT).resolve()
     return archive_root / "writer-index.json"
 
-
 def load_writer_index_json(path: Path | None = None) -> dict[str, Any]:
     json_path = path or writer_index_json_path()
     return json.loads(json_path.read_text(encoding="utf-8"))
-
 
 def load_check_written_roster(
     *,

@@ -1,6 +1,5 @@
 # arc-beebe-diesen-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-beebe-diesen-host.md](../../notes/arc-beebe-diesen-host.md)
 

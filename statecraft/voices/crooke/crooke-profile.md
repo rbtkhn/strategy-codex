@@ -1,7 +1,6 @@
 # Strategy expert — Alastair Crooke (`crooke`)
 <!-- word_count: 361 -->
 
-WORK only; not Record.
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)

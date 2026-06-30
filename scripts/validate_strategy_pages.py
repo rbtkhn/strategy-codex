@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate ``strategy-page`` fenced blocks in expert ``thread.md`` files (WORK only).
+"""Validate ``strategy-page`` fenced blocks in expert ``thread.md`` files (non-authoritative).
 
 Checks:
 
@@ -29,12 +29,10 @@ NOTEBOOK_DIR = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 
 THREAD_MARKER_START = "<!-- strategy-expert-thread:start -->"
 
-
 def _human_layer(text: str) -> str:
     if THREAD_MARKER_START in text:
         return text.split(THREAD_MARKER_START, 1)[0]
     return text
-
 
 def find_unclosed_page_markers(text: str) -> list[str]:
     """Return error strings for orphan strategy-page fences."""
@@ -54,7 +52,6 @@ def find_unclosed_page_markers(text: str) -> list[str]:
         pos = end_m.end()
     return errs
 
-
 def _appendix_heading_index(page_inner: str) -> int:
     """Start index of first machinery appendix heading (new or legacy), or -1."""
     low = page_inner.lower()
@@ -65,7 +62,6 @@ def _appendix_heading_index(page_inner: str) -> int:
             best = m.start()
     return best
 
-
 def prose_ratio_before_appendix(page_inner: str) -> tuple[float, int, int]:
     """Return (ratio 0–1, prose_words, total_words) for one page inner (between HTML markers)."""
     idx = _appendix_heading_index(page_inner)
@@ -75,7 +71,6 @@ def prose_ratio_before_appendix(page_inner: str) -> tuple[float, int, int]:
     if total_w == 0:
         return (1.0, 0, 0)
     return (prose_w / total_w, prose_w, total_w)
-
 
 def validate_notebook(
     notebook_dir: Path,
@@ -114,7 +109,6 @@ def validate_notebook(
         print(f"warning: {w}", file=sys.stderr)
 
     return errors
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -162,7 +156,6 @@ def main() -> int:
         f"ok: strategy-page fences validated under {args.notebook_dir.relative_to(REPO_ROOT)}"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -21,12 +21,10 @@ DEFAULT_USER_ID = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-
 WISDOM_PATH = REPO_ROOT / "docs" / "wisdom-questions.md"
 PROPOSAL_COUNT = 5
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
-
 
 def _ix_b_topics(self_content: str, n: int = 5) -> list[str]:
     """Extract IX-B curiosity topics."""
@@ -43,7 +41,6 @@ def _ix_b_topics(self_content: str, n: int = 5) -> list[str]:
             break
     return topics
 
-
 def _ix_a_recent(self_content: str, n: int = 2) -> list[str]:
     """Extract recent IX-A knowledge topics."""
     topics = []
@@ -54,7 +51,6 @@ def _ix_a_recent(self_content: str, n: int = 2) -> list[str]:
         if len(topics) >= n:
             break
     return topics[-n:] if len(topics) > n else topics
-
 
 def _gaps(skills_content: str) -> list[str]:
     """Extract capability gaps from skills.md yaml blocks."""
@@ -68,7 +64,6 @@ def _gaps(skills_content: str) -> list[str]:
                 if g and g not in ("[]", "null"):
                     gaps.append(g[:80])
     return gaps[:3]
-
 
 def _library_unread(library_content: str, n: int = 2) -> list[dict]:
     """Extract planned or in-progress canon entries from self-library."""
@@ -99,7 +94,6 @@ def _library_unread(library_content: str, n: int = 2) -> list[dict]:
             break
     return entries
 
-
 def _intent_goals(intent_content: str) -> dict[str, str]:
     """Extract primary and secondary goals from intent."""
     goals = {}
@@ -110,7 +104,6 @@ def _intent_goals(intent_content: str) -> dict[str, str]:
     if m:
         goals["secondary"] = m.group(1).strip()
     return goals
-
 
 def _build_proposals(
     user_dir: Path,
@@ -176,7 +169,6 @@ def _build_proposals(
 
     return proposals[:n]
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate proactive proposal brief from Record")
     parser.add_argument("-u", "--user", default=DEFAULT_USER_ID, help="User id")
@@ -216,7 +208,6 @@ def main() -> int:
     lines.append("*Companion chooses what to do. Staging and merge remain gated.*")
     print("\n".join(lines))
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

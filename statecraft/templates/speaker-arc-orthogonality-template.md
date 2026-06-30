@@ -1,6 +1,5 @@
 # Speaker arc orthogonality template
 
-WORK only; not Record.
 
 Purpose: define a reusable scaffold for comparing **how two expert arc outputs differ in explanatory frame**, not just whether they reach the same conclusion.
 
@@ -20,7 +19,6 @@ Ownership rule:
 
 # `<speaker-a> x <speaker-b> orthogonality - <window>`
 
-WORK only; not Record.
 
 Use this note when two speaker outputs need to be compared for **frame separation**, **evidence separation**, and **conclusion overlap**.
 

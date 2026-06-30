@@ -1,7 +1,6 @@
 # YouTube transcript queue
 <!-- word_count: ~780 -->
 
-WORK only; not Record.
 
 ## Purpose
 

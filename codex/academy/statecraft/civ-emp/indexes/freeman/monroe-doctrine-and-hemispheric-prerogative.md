@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Monroe Doctrine And Hemispheric Prerogative
 

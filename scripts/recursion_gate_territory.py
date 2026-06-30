@@ -30,7 +30,6 @@ TERRITORY_WAP_LEGACY = TERRITORY_WORK_POLITICS_LEGACY
 # CLI/API tokens that mean "work-politics bucket" (merge receipts prefer work-politics).
 TERRITORY_CLI_WORK_POLITICS_ALIASES = frozenset({"pol", "wap", "wp", "work-politics"})
 
-
 def normalize_territory_cli(s: str) -> str:
     """
     Normalize --territory (or HTTP/API) values.
@@ -42,16 +41,13 @@ def normalize_territory_cli(s: str) -> str:
         return TERRITORY_WORK_POLITICS
     return key
 
-
 def territory_cli_argparse_choices() -> tuple[str, ...]:
     """Allowed values for argparse --territory across operator scripts."""
     return ("all", "companion", "pol", "wap", "wp", "work-politics")
 
-
 def channel_key_is_work_politics(k: str) -> bool:
     low = (k or "").strip().lower()
     return any(low.startswith(p) for p in CHANNEL_PREFIXES_WORK_POLITICS)
-
 
 def territory_from_yaml_block(yaml_body: str) -> str:
     """Return TERRITORY_WORK_POLITICS (politics bucket) or 'companion'."""
@@ -73,7 +69,6 @@ def territory_from_yaml_block(yaml_body: str) -> str:
             return TERRITORY_WORK_POLITICS
     return "companion"
 
-
 def iter_pending_blocks(full_md: str):
     """Yield (candidate_id, yaml_body) for each pending CANDIDATE block."""
     for m in re.finditer(
@@ -84,7 +79,6 @@ def iter_pending_blocks(full_md: str):
         if not re.search(r"status:\s*pending\b", m.group(2)):
             continue
         yield m.group(1), m.group(2)
-
 
 def pending_by_territory(full_md: str) -> tuple[list[dict], list[dict]]:
     """

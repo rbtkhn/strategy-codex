@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-07/source-pape-the-escalation-trap-widens-russias-2026-03-07.md
   - source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md
 ---
-WORK only; not Record.
 
 # Moved — Pape Smart Bomb Trap trilogy weave
 

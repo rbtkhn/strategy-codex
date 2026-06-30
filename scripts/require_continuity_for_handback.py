@@ -18,7 +18,6 @@ DEFAULT_RECEIPTS_DIR = REPO_ROOT / "runtime" / "continuity" / "receipts"
 
 from verify_continuity_receipt import verify_receipt_file
 
-
 def list_receipt_paths(receipts_dir: Path) -> list[Path]:
     if not receipts_dir.is_dir():
         return []
@@ -28,7 +27,6 @@ def list_receipt_paths(receipts_dir: Path) -> list[Path]:
             out.append(p)
     return sorted(out, key=lambda x: x.stat().st_mtime, reverse=True)
 
-
 def load_receipt_meta(path: Path) -> dict[str, Any] | None:
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
@@ -37,7 +35,6 @@ def load_receipt_meta(path: Path) -> dict[str, Any] | None:
     if not isinstance(data, dict):
         return None
     return data
-
 
 def find_valid_receipt(
     user_id: str,
@@ -99,7 +96,6 @@ def find_valid_receipt(
 
     return False, last_err, {}
 
-
 def assert_continuity_ok(
     user_id: str,
     runtime: str,
@@ -117,7 +113,6 @@ def assert_continuity_ok(
         ttl_hours=ttl_hours,
         explicit_path=explicit_receipt,
     )
-
 
 def append_continuity_block_event(
     repo_root: Path,

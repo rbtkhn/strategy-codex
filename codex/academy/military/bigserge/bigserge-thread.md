@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `bigserge`
 <!-- word_count: 225 -->
 
-WORK only; not Record.
 
 **Source:** Distilled from [`transcript.md`](transcript.md) (what the expert said recently) and relevant pages (where that material was used in strategy work).
 **Process:** `python3 scripts/strategy_thread.py` triages inbox Ã¢â€ â€™ transcript, then fills **only** the **machine layer** between the **strategy-expert-thread** HTML start and end comments. Operator / assistant maintains the **journal layer** above the start marker in **readable prose** (optional **ledger** after the end marker).

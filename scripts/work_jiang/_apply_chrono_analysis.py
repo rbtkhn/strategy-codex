@@ -62,7 +62,6 @@ IDENT = [
     ("2K2nQsTTjQE-interviews-10", "vi-10", 10, 10, "Tucker Carlson — Iran War and Global Order"),
 ]
 
-
 def patch_identity(text: str, interview_num: int, aid: str, ep: int, title: str) -> str:
     text = re.sub(r"^analysis_id: vi-\d+$", f"analysis_id: {aid}", text, flags=re.M)
     text = re.sub(r"^source_id: vi-\d+$", f"source_id: {aid}", text, flags=re.M)
@@ -81,7 +80,6 @@ def patch_identity(text: str, interview_num: int, aid: str, ep: int, title: str)
     )
     return text
 
-
 def main() -> None:
     tmp = Path("/tmp")
     for temp_name, dest_name in FILES:
@@ -97,7 +95,6 @@ def main() -> None:
         text = patch_identity(text, num, aid, ep, title)
         (OUT / dest_name).write_text(text, encoding="utf-8")
         print("wrote", dest_name)
-
 
 if __name__ == "__main__":
     main()

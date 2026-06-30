@@ -1,6 +1,5 @@
 # Putin Carrier Profile
 
-WORK only; not Record.
 
 Refresh current officeholder facts before load-bearing use.
 

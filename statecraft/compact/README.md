@@ -1,6 +1,6 @@
 # Statecraft Compact
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This is the compact-front-door for repo-root `statecraft/` when the live object is already cross-lane, objection-shaped, or mechanism-shaped enough that the honest next move is not raw lane ownership alone.
 

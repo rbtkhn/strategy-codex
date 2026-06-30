@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Kent Speaker Arc (compat redirect)
 

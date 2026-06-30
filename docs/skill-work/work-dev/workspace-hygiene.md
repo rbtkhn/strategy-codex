@@ -1,6 +1,5 @@
 # Workspace hygiene
 
-WORK only; not Record.
 
 ## Purpose
 

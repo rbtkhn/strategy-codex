@@ -1,6 +1,5 @@
 # Freeman December 2025-May 2026 thread atlas
 
-WORK only; not Record.
 
 Purpose: preserve the six recurring arc-threads in Chas Freeman's December 2025-May 2026 run so the wider Freeman arc is routeable as a synthesis, not only as scattered host appearances.
 

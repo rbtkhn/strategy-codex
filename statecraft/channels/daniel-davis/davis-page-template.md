@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Page Template (compat redirect)
 

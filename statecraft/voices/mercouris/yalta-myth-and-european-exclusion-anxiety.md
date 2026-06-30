@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Yalta Myth And European Exclusion Anxiety
 

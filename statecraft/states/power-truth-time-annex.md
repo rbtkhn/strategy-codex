@@ -1,6 +1,5 @@
 # Power, Truth, Time
 
-WORK only; not Record.
 
 Status: Superseded by [`public/civ-state/theory/`](../../public/civ-state/theory/README.md)
 Surface: `civ-state`

@@ -18,7 +18,6 @@ archive_links:
 ---
 # Mercouris February 2025 Opening Watchlist
 
-work only; not Record.
 
 ## Purpose
 

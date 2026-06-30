@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-02-17/source-alexander-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md
   - source-archive/statecraft/2026-03-03/source-alexander-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md
 ---
-WORK only; not Record.
 
 # Split — Dmitriev lane (dual primary)
 

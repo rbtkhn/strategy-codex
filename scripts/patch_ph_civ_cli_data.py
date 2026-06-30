@@ -11,7 +11,6 @@ DATA_PY = REPO / "public" / "ph-civ" / "src" / "civ_ph" / "data.py"
 CLI_PY = REPO / "public" / "ph-civ" / "src" / "civ_ph" / "cli.py"
 PYPROJECT = REPO / "public" / "ph-civ" / "pyproject.toml"
 
-
 def patch_data_py() -> None:
     text = DATA_PY.read_text(encoding="utf-8")
     text = text.replace('        "museum": data["museum"],\n', "")
@@ -23,12 +22,10 @@ def patch_data_py() -> None:
     )
     DATA_PY.write_text(text, encoding="utf-8")
 
-
 def patch_pyproject() -> None:
     text = PYPROJECT.read_text(encoding="utf-8")
     text = text.replace('ph-mus = "civ_ph.cli:mus_main"\n', "")
     PYPROJECT.write_text(text, encoding="utf-8")
-
 
 def patch_cli_py() -> None:
     text = CLI_PY.read_text(encoding="utf-8")
@@ -120,14 +117,12 @@ def patch_cli_py() -> None:
 
     CLI_PY.write_text(text, encoding="utf-8")
 
-
 def main() -> int:
     patch_data_py()
     patch_pyproject()
     patch_cli_py()
     print("patched data.py, pyproject.toml, cli.py")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

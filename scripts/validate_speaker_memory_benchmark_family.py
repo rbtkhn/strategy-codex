@@ -14,7 +14,6 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any, Callable
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_DIR = Path(__file__).resolve().parent
 FIXTURES_DIR = ARTIFACTS_DIR / "benchmarks" / "speaker-memory" / "fixtures"
@@ -39,13 +38,11 @@ WIRING_EXPECTATIONS = {
     "tests": [SCORE_TEST_PATH],
 }
 
-
 @dataclass(frozen=True)
 class CheckResult:
     name: str
     ok: bool
     detail: str
-
 
 def load_module(path: Path, module_name: str) -> Any:
     spec = importlib.util.spec_from_file_location(module_name, path)
@@ -56,9 +53,7 @@ def load_module(path: Path, module_name: str) -> Any:
     spec.loader.exec_module(module)
     return module
 
-
 SAMPLE_OUTPUTS = load_module(SAMPLES_PATH, "speaker_memory_benchmark_samples").SAMPLE_OUTPUTS
-
 
 def run_command(argv: list[str], *, cwd: Path = REPO_ROOT) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
@@ -68,7 +63,6 @@ def run_command(argv: list[str], *, cwd: Path = REPO_ROOT) -> subprocess.Complet
         capture_output=True,
         check=False,
     )
-
 
 def check_fixture_completeness(fixtures_dir: Path = FIXTURES_DIR) -> tuple[CheckResult, list[str]]:
     fixture_ids: list[str] = []
@@ -83,7 +77,6 @@ def check_fixture_completeness(fixtures_dir: Path = FIXTURES_DIR) -> tuple[Check
     ok = not missing and bool(fixture_ids)
     detail = "All benchmark fixtures contain the required files." if ok else f"Missing fixture files: {', '.join(missing)}"
     return CheckResult("fixture_completeness", ok, detail), fixture_ids
-
 
 def check_registry_consistency(
     scorer_module: Any,
@@ -124,7 +117,6 @@ def check_registry_consistency(
     detail = "Fixture metadata and scorer registry are consistent." if ok else "; ".join(problems)
     return CheckResult("registry_consistency", ok, detail), fixture_ids
 
-
 def check_scorer_smoke(
     scorer_module: Any,
     fixture_ids: list[str],
@@ -153,7 +145,6 @@ def check_scorer_smoke(
     detail = "Strong/weak scorer smoke checks passed for sm-1..sm-4." if ok else "; ".join(failures)
     return CheckResult("scorer_smoke", ok, detail)
 
-
 def check_portable_skill_verify(
     command_runner: Callable[[list[str]], subprocess.CompletedProcess[str]] = run_command,
 ) -> CheckResult:
@@ -170,7 +161,6 @@ def check_portable_skill_verify(
     detail = "Portable skill verify passed for check-sources." if ok else (proc.stderr.strip() or proc.stdout.strip() or "Portable skill verify failed.")
     return CheckResult("portable_skill_verify", ok, detail)
 
-
 def check_speaker_object_baseline(
     command_runner: Callable[[list[str]], subprocess.CompletedProcess[str]] = run_command,
 ) -> CheckResult:
@@ -178,7 +168,6 @@ def check_speaker_object_baseline(
     ok = proc.returncode == 0
     detail = "Speaker-object validator passed." if ok else (proc.stderr.strip() or proc.stdout.strip() or "Speaker-object validator failed.")
     return CheckResult("speaker_object_baseline", ok, detail)
-
 
 def check_benchmark_wiring(
     fixture_ids: list[str],
@@ -191,7 +180,6 @@ def check_benchmark_wiring(
     ok = not missing
     detail = "Benchmark ids are wired in artifacts, scripts, and tests." if ok else "; ".join(missing)
     return CheckResult("benchmark_wiring", ok, detail)
-
 
 def run_all_checks(
     *,
@@ -220,12 +208,10 @@ def run_all_checks(
         "checks": [asdict(check) for check in checks],
     }
 
-
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--json", action="store_true", help="Emit machine-readable JSON.")
     return parser.parse_args(argv)
-
 
 def render_human(result: dict[str, Any]) -> str:
     lines = [
@@ -238,7 +224,6 @@ def render_human(result: dict[str, Any]) -> str:
         lines.append(f"[{prefix}] {check['name']}: {check['detail']}")
     return "\n".join(lines)
 
-
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     result = run_all_checks()
@@ -247,7 +232,6 @@ def main(argv: list[str] | None = None) -> int:
     else:
         print(render_human(result))
     return 0 if result["ok"] else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

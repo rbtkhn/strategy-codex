@@ -1,7 +1,6 @@
 ﻿# Expert thread ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â `parsi`
 <!-- word_count: 10565 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 
@@ -634,7 +633,6 @@ A moral objection (Leo XIV) can be dismissed as non-political. An alliance defec
 
 # Page ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 2026-04-15 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â KremlinÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“IRI uranium off-ramp, dual register, and the legitimacy seam
 
-WORK only; not Record.
 
 | Field | Value |
 |--------|--------|

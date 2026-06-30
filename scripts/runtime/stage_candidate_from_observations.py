@@ -63,7 +63,6 @@ DEFAULT_REVIEW_NOTES = (
     "Runtime observations support this candidate, but no approval has occurred."
 )
 
-
 def _sort_obs_by_time(rows: list[dict]) -> list[dict]:
     def key(r: dict) -> tuple[float, str]:
         ts = r.get("timestamp") or ""
@@ -74,7 +73,6 @@ def _sort_obs_by_time(rows: list[dict]) -> list[dict]:
 
     return sorted(rows, key=key)
 
-
 def _validate_payload(payload: dict) -> None:
     try:
         from jsonschema import Draft202012Validator
@@ -83,7 +81,6 @@ def _validate_payload(payload: dict) -> None:
         return
     schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
     Draft202012Validator(schema).validate(payload)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -320,7 +317,6 @@ def main() -> int:
     print(cid)
     print(f"{gate_path}: inserted {cid}", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

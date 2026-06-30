@@ -1,6 +1,5 @@
 # Iran Dignity-Sovereignty Arc
 
-WORK only; not Record.
 
 ## Purpose
 

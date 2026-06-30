@@ -41,20 +41,16 @@ UTC = timezone.utc
 USER_ID_DEFAULT = (os.getenv("GRACE_MAR_USER_ID", "strategy-codex").strip() or "strategy-codex")
 BOT_PROMPT = BOT_DIR / "prompt.py"
 
-
 def utc_now_iso() -> str:
     return datetime.now(UTC).replace(microsecond=0).isoformat()
 
-
 def sha256_text(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
-
 
 def _prp_path(user_id: str) -> Path:
     if user_id == "strategy-codex":
         return REPO_ROOT / "self-llm.txt"
     return profile_dir(user_id) / f"{user_id}-llm.txt"
-
 
 def _files_to_backup(user_id: str) -> list[Path]:
     root = profile_dir(user_id)
@@ -70,7 +66,6 @@ def _files_to_backup(user_id: str) -> list[Path]:
     ]
     return paths
 
-
 def _hash_existing(paths: Sequence[Path]) -> dict[str, str]:
     out: dict[str, str] = {}
     for p in paths:
@@ -78,10 +73,8 @@ def _hash_existing(paths: Sequence[Path]) -> dict[str, str]:
             out[str(p.relative_to(REPO_ROOT))] = sha256_text(p.read_text(encoding="utf-8"))
     return out
 
-
 class AtomicIntegrateError(Exception):
     pass
-
 
 def _preflight(user_id: str, candidate_id: str, territory: str) -> None:
     assert_canonical_record_layout(user_id, context="atomic_integrate")
@@ -107,7 +100,6 @@ def _preflight(user_id: str, candidate_id: str, territory: str) -> None:
             "Approve in the gate first."
         )
 
-
 def _merge_command(
     user_id: str,
     candidate_id: str,
@@ -128,7 +120,6 @@ def _merge_command(
     ]
     return cmd
 
-
 def _run_integrity(user_id: str) -> tuple[bool, str]:
     proc = subprocess.run(
         [sys.executable, str(REPO_ROOT / "scripts" / "validate-integrity.py"), "--user", user_id],
@@ -140,7 +131,6 @@ def _run_integrity(user_id: str) -> tuple[bool, str]:
     ok = proc.returncode == 0
     msg = ((proc.stdout or "") + "\n" + (proc.stderr or "")).strip()[:4000]
     return ok, msg
-
 
 @dataclass
 class IntegrationReceipt:
@@ -166,7 +156,6 @@ class IntegrationReceipt:
     def to_json_dict(self) -> dict[str, Any]:
         return asdict(self)
 
-
 def _write_receipt(user_id: str, receipt: IntegrationReceipt) -> Path:
     root = profile_dir(user_id) / "integration-receipts"
     root.mkdir(parents=True, exist_ok=True)
@@ -174,7 +163,6 @@ def _write_receipt(user_id: str, receipt: IntegrationReceipt) -> Path:
     dest = root / f"integration-receipt-{stamp}.json"
     dest.write_text(json.dumps(receipt.to_json_dict(), indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return dest
-
 
 def _backup_files(paths: Sequence[Path], backup_root: Path) -> None:
     """Copy repo-relative paths under backup_root/<relpath> (mirror layout)."""
@@ -185,7 +173,6 @@ def _backup_files(paths: Sequence[Path], backup_root: Path) -> None:
         dest = backup_root / rel
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(path, dest)
-
 
 def run(
     user_id: str,
@@ -297,7 +284,6 @@ def run(
     print(f"Integrated {candidate_id}. Receipt: {dest}")
     return 0
 
-
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
         description="Orchestrate merge via process_approved_candidates --quick with backups and receipt.",
@@ -327,7 +313,6 @@ def parse_args() -> argparse.Namespace:
     )
     return p.parse_args()
 
-
 def main() -> int:
     args = parse_args()
     territory = normalize_territory_cli(args.territory)
@@ -343,7 +328,6 @@ def main() -> int:
         territory=territory,
         skip_integrity=bool(args.skip_integrity),
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

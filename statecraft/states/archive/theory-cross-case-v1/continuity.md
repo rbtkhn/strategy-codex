@@ -1,6 +1,5 @@
 ﻿# Continuity Mechanism
 
-WORK only; not Record.
 
 Use this as the first cross-civilizational comparison sheet for the CIV-STATE shelf.
 

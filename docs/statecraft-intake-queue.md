@@ -1,6 +1,5 @@
 # Statecraft intake queue
 
-**Work only; not Record.**
 
 Operational spec for the **intake queue** layer: structured routing metadata between verbatim archive capture and daily synthesis. Product context: [intelligence-harness.md](intelligence-harness.md). Archive law: [source-archive/statecraft/README.md](../source-archive/statecraft/README.md).
 

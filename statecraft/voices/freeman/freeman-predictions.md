@@ -1,7 +1,5 @@
 # Freeman predictions
 
-WORK only; not Record.
-
 Purpose: event-first map of Freeman falsifiable stances — restatements, shifts, and self-review across the full freeman-index corpus.
 
 - **Events tracked:** 7 · **Touchpoints:** 36 · **Rebuild:** `python3 scripts/build_freeman_predictions.py`

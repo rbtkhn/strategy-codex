@@ -6,7 +6,6 @@ record_status: none
 
 # Harness architecture map — strategy-codex
 
-**Work only; not Record.**
 
 **Purpose:** Single routing hub for harness topology — model vs harness, membrane, queues, channels, runtime, and meta-review. **Link SSOT below;** this page does not replace canonical doctrine.
 

@@ -7,9 +7,8 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2025-01-24/source-dialogue-works-amb-chas-freeman-is-the-world-on-the-brink-of-total-chaos-2025-01-24.md
 speech_act: restated
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — US–Israel Iran war prep (2025-01-24)
 

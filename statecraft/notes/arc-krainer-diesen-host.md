@@ -15,7 +15,6 @@ archive_links:
 
 # Diesen x Krainer speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen x Krainer` run inside the Diesen stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Krainer lane Diesen elicits, which full-form episodes matter most, and why this is the clearest current Krainer branch on disk.
 

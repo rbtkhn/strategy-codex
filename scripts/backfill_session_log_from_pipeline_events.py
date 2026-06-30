@@ -42,17 +42,14 @@ MERGE_LINE_RE = re.compile(
     re.IGNORECASE,
 )
 
-
 def _parse_ts(iso_ts: str) -> datetime:
     s = iso_ts.strip()
     if s.endswith("Z"):
         s = s[:-1]
     return datetime.fromisoformat(s)
 
-
 def _format_ts(dt: datetime) -> str:
     return dt.strftime("%Y-%m-%d %H:%M:%S")
-
 
 def _read_applied_events(path: Path) -> list[dict]:
     if not path.is_file():
@@ -74,7 +71,6 @@ def _read_applied_events(path: Path) -> list[dict]:
         out.append(obj)
     return out
 
-
 def _dedupe_applied_by_candidate(events: list[dict]) -> dict[str, dict]:
     """Keep earliest applied event per candidate_id (by ts)."""
     best: dict[str, tuple[datetime, dict]] = {}
@@ -88,7 +84,6 @@ def _dedupe_applied_by_candidate(events: list[dict]) -> dict[str, dict]:
         if prev is None or dt < prev[0]:
             best[cid] = (dt, e)
     return {cid: pair[1] for cid, pair in best.items()}
-
 
 def _existing_merge_candidate_ids(session_text: str) -> set[str]:
     found: set[str] = set()
@@ -105,7 +100,6 @@ def _existing_merge_candidate_ids(session_text: str) -> set[str]:
                 found.add(m.group("cid").upper())
     return found
 
-
 def _build_merge_line(e: dict) -> str:
     dt = _parse_ts(str(e["ts"]))
     ts = _format_ts(dt)
@@ -113,13 +107,11 @@ def _build_merge_line(e: dict) -> str:
     actor = (e.get("actor") or "").strip() or "operator"
     return f"- {ts} | pipeline merge | {cid} | approved by {actor}"
 
-
 def _strip_footer(text: str) -> tuple[str, str]:
     m = END_FILE_FOOTER_RE.search(text)
     if not m:
         return text, ""
     return text[: m.start()], m.group(1)
-
 
 def _ensure_section_and_append(existing: str, new_lines: list[str]) -> str:
     """Insert SECTION + bullets before END OF FILE footer if present; else append."""
@@ -137,7 +129,6 @@ def _ensure_section_and_append(existing: str, new_lines: list[str]) -> str:
     # Same as process_approved_candidates: append merge lines at end of body (before footer).
     core = body.rstrip() + "\n" + block
     return core + footer
-
 
 def run(user_id: str, *, apply: bool, events_path: Path | None) -> int:
     root = profile_dir(user_id)
@@ -180,7 +171,6 @@ def run(user_id: str, *, apply: bool, events_path: Path | None) -> int:
     print(f"\nWrote {session_path}")
     return 0
 
-
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("-u", "--user", default="grace-mar", help="Fork id under ")
@@ -201,7 +191,6 @@ def main() -> int:
     if ev is not None and not ev.is_absolute():
         ev = (REPO_ROOT / ev).resolve()
     return run(uid, apply=bool(args.apply), events_path=ev)
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

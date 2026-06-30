@@ -44,7 +44,6 @@ ROUTE_HINTS = (
     ("scott ritter", "thread: ritter"),
 )
 
-
 @dataclass(frozen=True)
 class DialogueWorksRow:
     pub_date: str
@@ -54,10 +53,8 @@ class DialogueWorksRow:
     routing_note: str
     raw_input_note: str
 
-
 def normalize_title(title: str) -> str:
     return " ".join((title or "").split()).strip()
-
 
 def infer_guest_from_title(title: str) -> str:
     """Best-effort guest inference for Dialogue Works titles."""
@@ -72,7 +69,6 @@ def infer_guest_from_title(title: str) -> str:
     if lowered in {"nima", "nima alkhorshid", "dialogue works", "dialogue works (nima)"}:
         return ""
     return guest
-
 
 def infer_routing_note(guest: str, title: str) -> str:
     haystack = f"{guest} {title}".lower()
@@ -101,7 +97,6 @@ def load_crawl_rows(index_path: Path, *, start_date: date) -> list[dict[str, str
     rows.sort(key=lambda row: (row["upload_date"], row["title"]))
     return rows
 
-
 def _raw_input_match_status(raw_input_root: Path, row: dict[str, str]) -> str:
     video_id = row["video_id"]
     title = row["title"]
@@ -124,7 +119,6 @@ def _raw_input_match_status(raw_input_root: Path, row: dict[str, str]) -> str:
             return "mirrored"
     return "needs capture"
 
-
 def build_rows(*, crawl_index: Path, raw_input_root: Path) -> list[DialogueWorksRow]:
     base_rows = load_crawl_rows(crawl_index, start_date=START_DATE)
     out: list[DialogueWorksRow] = []
@@ -144,7 +138,6 @@ def build_rows(*, crawl_index: Path, raw_input_root: Path) -> list[DialogueWorks
         )
     return out
 
-
 def render_table(rows: list[DialogueWorksRow]) -> str:
     lines = [
         "| pub_date | Title | Guest | URL | Routing / note | raw-input |",
@@ -160,13 +153,10 @@ def render_table(rows: list[DialogueWorksRow]) -> str:
         )
     return "\n".join(lines)
 
-
 def render_profile(rows: list[DialogueWorksRow]) -> str:
     table = render_table(rows)
     return f"""# Strategy expert - `nima`
 <!-- word_count: ~700 -->
-
-WORK only; not Record.
 
 **Canonical index:** [strategy-commentator-threads.md](strategy-commentator-threads.md) - **`nima`** lane.
 
@@ -176,7 +166,7 @@ WORK only; not Record.
 
 | Field | Value |
 |-------|-------|
-| **Name** | Nima Alkorshid |
+| **Name** | Nima Alkhorshid |
 | **expert_id** | `nima` |
 | **Role** | Dialogue Works host / interviewer for long-form geopolitical dialogue; use `thread:nima` alongside `thread:<guest>` on shared episodes so inbox triage and raw-input thread lists mirror both sides. |
 | **Default grep tags** | `Alkorshid`, `Dialogue Works`, or `DialogueWorks` in cold |
@@ -241,13 +231,12 @@ Metadata-only index from the public YouTube crawl starting at `2026-01-01` throu
 **Companion files:** [`transcript.md`](transcript.md) (7-day rolling verbatim) and [`thread.md`](thread.md) (distilled analytical thread).
 """
 
-
 def render_inventory(rows: list[DialogueWorksRow]) -> str:
     table = render_table(rows)
     return f"""# Dialogue Works — metadata index
 <!-- word_count: ~500 -->
 
-**Purpose:** Metadata-only index of **Dialogue Works** (host **Nima Alkhorshid**) from the public YouTube crawl starting at **`2026-01-01`** through the latest upload returned by the crawl. Transcript bodies are not backfilled in this pass. **WORK only** — not Record.
+**Purpose:** Metadata-only index of **Dialogue Works** (host **Nima Alkhorshid**) from the public YouTube crawl starting at **`2026-01-01`** through the latest upload returned by the crawl. Transcript bodies are not backfilled in this pass. 
 
 **Last audited:** 2026-05-01 — YouTube index-only crawl with metadata enrichment.
 
@@ -256,7 +245,6 @@ def render_inventory(rows: list[DialogueWorksRow]) -> str:
 {table}
 """
 
-
 def update_block(path: Path, anchor: str, replacement: str) -> None:
     text = path.read_text(encoding="utf-8")
     idx = text.find(anchor)
@@ -264,7 +252,6 @@ def update_block(path: Path, anchor: str, replacement: str) -> None:
         raise RuntimeError(f"Could not find anchor {anchor!r} in {path}")
     prefix = text[:idx].rstrip()
     path.write_text(prefix + "\n\n" + replacement.strip() + "\n", encoding="utf-8")
-
 
 def run_crawl(*, crawl_output_dir: Path, limit: int, sleep: float) -> Path:
     crawl_output_dir.mkdir(parents=True, exist_ok=True)
@@ -290,7 +277,6 @@ def run_crawl(*, crawl_output_dir: Path, limit: int, sleep: float) -> Path:
     if proc.returncode != 0:
         raise SystemExit(proc.returncode)
     return crawl_output_dir / "index.json"
-
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -320,7 +306,6 @@ def main(argv: list[str] | None = None) -> int:
     print(f"wrote: {PROFILE_PATH}")
     print(f"wrote: {INVENTORY_PATH}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

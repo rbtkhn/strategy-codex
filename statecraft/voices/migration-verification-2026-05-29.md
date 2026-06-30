@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # civ-lens migration verification - 2026-05-29
 

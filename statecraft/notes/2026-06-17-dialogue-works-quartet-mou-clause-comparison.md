@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-17/source-mario-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md
   - source-archive/statecraft/2026-06-17/source-parsi-trump-democrats-courage-end-failed-war-2026-06-17.md
 ---
-WORK only; not Record.
 
 # Dialogue Works Quartet — MOU Clause Comparison — 2026-06-17
 

@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1)
 - Guests: `Scott Ritter` (2), `Glenn Diesen` (1)
-- Threads: `davis` (2), `diesen` (2), `ritter` (2), `alkorshid` (1), `glenn-diesen` (1), `johnson` (1), `mercouris` (1)
+- Threads: `davis` (2), `diesen` (2), `ritter` (2), `alkhorshid` (1), `glenn-diesen` (1), `johnson` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Y3DvxjIffaA) | `source-alexander-mercouris-us-iran-crisis-deepens-iran-mines-hormuz-strait-continues-strikes-seeks-2026-03-11.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `ritter` | [watch](https://www.youtube.com/watch?v=s3cNS4lyJ60) | `source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `ritter` | [watch](https://www.youtube.com/watch?v=s3cNS4lyJ60) | `source-dialogue-works-scott-ritter-the-u-s-has-lost-and-is-trapped-in-the-iran-war-with-no-way-2026-03-11.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `ritter` | [watch](https://www.youtube.com/watch?v=rQt351IzD54) | `source-glenn-diesen-scott-ritter-trump-calls-putin-for-iran-war-off-ramp-2026-03-11.md` |
 
 ## Writer sources

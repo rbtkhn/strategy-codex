@@ -1,6 +1,5 @@
 # Statecraft archive index ROI
 
-WORK only; not Record.
 
 Purpose: quantify the practical gains from adding generated month, year, thread, and stale-audit indices to the canonical statecraft archive.
 

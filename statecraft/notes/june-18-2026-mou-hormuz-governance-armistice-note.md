@@ -14,7 +14,6 @@ archive_links:
   - source-archive/statecraft/2026-06-17/source-dialogue-works-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md
   - source-archive/statecraft/2026-06-18/source-daniel-davis-tough-road-iran-deal-lays-out-2026-06-18.md
 ---
-WORK only; not Record.
 
 # June 18, 2026 MOU — Hormuz governance vs armistice seam
 

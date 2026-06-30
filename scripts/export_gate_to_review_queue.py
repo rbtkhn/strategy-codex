@@ -31,13 +31,11 @@ try:
 except ImportError:
     from scripts.repo_io import REPO_ROOT, profile_dir
 
-
 def _extract_scalar(yaml_body: str, key: str) -> str:
     m = re.search(rf"^{re.escape(key)}:\s*(.+)$", yaml_body, re.MULTILINE)
     if not m:
         return ""
     return m.group(1).strip().strip("\"'")
-
 
 def _mind_to_scope(yaml_body: str) -> str:
     mc = _extract_scalar(yaml_body, "mind_category").lower()
@@ -49,7 +47,6 @@ def _mind_to_scope(yaml_body: str) -> str:
         return "identity"
     return "preference"
 
-
 def _find_candidate(gate_text: str, candidate_id: str) -> Tuple[str, str, str]:
     region = pending_candidates_region(gate_text)
     for cid, title, yaml_body in iter_candidate_yaml_blocks(region):
@@ -57,15 +54,12 @@ def _find_candidate(gate_text: str, candidate_id: str) -> Tuple[str, str, str]:
             return cid, title, yaml_body
     raise ValueError(f"Candidate {candidate_id} not found in pending Candidates section of recursion-gate.md")
 
-
 def _proposal_slug(candidate_id: str) -> str:
     safe = re.sub(r"[^a-zA-Z0-9._-]+", "-", candidate_id).strip("-")
     return f"proposal-gate-{safe}"
 
-
 def _utc_now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Export a gate candidate to the change-review queue.")
@@ -203,7 +197,6 @@ def main() -> int:
         f"python3 scripts/validate-change-review.py {rel} --allow-missing-decisions",
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

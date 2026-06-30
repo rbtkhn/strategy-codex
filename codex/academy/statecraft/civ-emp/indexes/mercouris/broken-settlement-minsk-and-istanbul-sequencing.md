@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Broken Settlement, Minsk, And Istanbul Sequencing
 

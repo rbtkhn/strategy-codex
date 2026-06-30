@@ -20,6 +20,16 @@ if str(_SCRIPTS) not in sys.path:
 
 from build_freeman_index import parse_head  # noqa: E402
 from freeman_prediction_pilot import FREEMAN_SPEAKER, load_thesis_map, patterns_match  # noqa: E402
+from prediction_lib import expected_prediction_status, load_event_registry  # noqa: E402
+
+_EVENT_REGISTRY: dict[str, dict[str, Any]] | None = None
+
+def _prediction_status(event_id: str) -> str:
+    global _EVENT_REGISTRY
+    if _EVENT_REGISTRY is None:
+        _EVENT_REGISTRY = load_event_registry()
+    event_status = str(_EVENT_REGISTRY.get(event_id, {}).get("status") or "open")
+    return expected_prediction_status(event_status)
 
 EVENT_SLUG: dict[str, str] = {
     "israel_self_destruction_trajectory": "israel-self-destruction",
@@ -61,10 +71,8 @@ EXTRA_META_KEYS = (
     "thread",
 )
 
-
 def body_without_frontmatter(text: str) -> str:
     return FRONTMATTER_RE.sub("", text.lstrip("\ufeff"), count=1)
-
 
 def read_capture_meta(path: Path) -> dict[str, Any]:
     meta = parse_head(path) if path.is_file() else {}
@@ -77,7 +85,6 @@ def read_capture_meta(path: Path) -> dict[str, Any]:
             meta[key] = m.group(1).strip().strip('"').strip("'")
     return meta
 
-
 def youtube_id_from_meta(meta: dict[str, Any], body: str) -> str | None:
     explicit = str(meta.get("youtube_id") or "").strip()
     if explicit:
@@ -88,13 +95,11 @@ def youtube_id_from_meta(meta: dict[str, Any], body: str) -> str | None:
             return m.group(1)
     return None
 
-
 def episode_group_key(event_id: str, pub_date: str, source: str, meta: dict[str, Any], body: str) -> tuple:
     yt = youtube_id_from_meta(meta, body)
     if yt:
         return (event_id, pub_date, yt)
     return (event_id, pub_date, source.replace("\\", "/"))
-
 
 def canonical_rank(*, source: str, meta: dict[str, Any], body: str) -> tuple[int, str]:
     """Lower rank wins (preferred canonical capture for materialize)."""
@@ -116,7 +121,6 @@ def canonical_rank(*, source: str, meta: dict[str, Any], body: str) -> tuple[int
         rank -= 2
     return (rank, s)
 
-
 def pick_canonical_row(rows: list[dict[str, Any]]) -> dict[str, Any]:
     scored: list[tuple[tuple[int, str], dict[str, Any]]] = []
     for row in rows:
@@ -128,13 +132,11 @@ def pick_canonical_row(rows: list[dict[str, Any]]) -> dict[str, Any]:
     scored.sort(key=lambda item: item[0])
     return scored[0][1]
 
-
 def note_slug(event_id: str, pub_date: str) -> str:
     slug = EVENT_SLUG.get(event_id)
     if not slug:
         raise ValueError(f"unknown event_id for slug: {event_id}")
     return f"{slug}-freeman-{pub_date}.md"
-
 
 def extract_quote(
     *,
@@ -169,7 +171,6 @@ def extract_quote(
         return title.strip()[:240]
     return "(audit quote — review capture)"
 
-
 def alias_tier3_lines(
     *,
     canonical_source: str,
@@ -193,7 +194,6 @@ def alias_tier3_lines(
         )
     lines.append("")
     return lines
-
 
 def render_note(
     *,
@@ -219,9 +219,8 @@ def render_note(
         f"confidence: {confidence}",
         f"source: {rel_source}",
         f"speech_act: {speech_act}",
+        f"status: {_prediction_status(event_id)}",
         "---",
-        "",
-        "WORK only; not Record.",
         "",
         f"# Freeman — {label} ({pub_date})",
         "",
@@ -239,7 +238,6 @@ def render_note(
             )
         )
     return "\n".join(parts).rstrip() + "\n"
-
 
 def group_approved_rows(
     rows: list[dict[str, Any]],
@@ -263,7 +261,6 @@ def group_approved_rows(
         key = episode_group_key(event_id, pub_date, source, meta, body)
         groups.setdefault(key, []).append(row)
     return groups
-
 
 def materialize_manifest(
     *,
@@ -347,7 +344,6 @@ def materialize_manifest(
 
     return written, linked, skipped
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--manifest", type=Path, default=DEFAULT_MANIFEST)
@@ -371,7 +367,6 @@ def main() -> int:
         f"linked {linked} manifest row(s), skipped {skipped} existing group(s)"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

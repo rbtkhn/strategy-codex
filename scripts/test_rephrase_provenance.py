@@ -13,7 +13,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
-
 def test_rephrase_prompt_requires_provenance():
     """REPHRASE_PROMPT must require starting with 'I looked it up!' or 'I found out!' and never saying 'I know'."""
     from bot.prompt import REPHRASE_PROMPT
@@ -22,7 +21,6 @@ def test_rephrase_prompt_requires_provenance():
     assert "i found out" in prompt_lower, "REPHRASE_PROMPT must require 'I found out!'"
     assert "never say" in prompt_lower and "i know" in prompt_lower, "REPHRASE_PROMPT must forbid 'I know' for looked-up facts"
     print("  REPHRASE_PROMPT provenance language: ok")
-
 
 def run_live():
     """Call _rephrase_lookup once and assert response contains 'looked it up' or 'found out'."""
@@ -35,7 +33,6 @@ def run_live():
         f"Lookup rephrase must contain 'looked it up' or 'found out'; got: {reply[:150]}..."
     )
     print("  Live _rephrase_lookup: reply has provenance phrase")
-
 
 def main():
     import argparse
@@ -53,7 +50,6 @@ def main():
             run_live()
     print("=" * 50)
     print("Done.")
-
 
 if __name__ == "__main__":
     main()

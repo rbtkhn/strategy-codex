@@ -29,26 +29,21 @@ RECURSION_GATE_PATH = profile_dir(USER_ID) / "recursion-gate.md"
 
 WE_DID_PATTERN = re.compile(r'[Ww]e\s+did\s+\[([^\]]+)\]\.?', re.IGNORECASE)
 
-
 def _read(path: Path) -> str:
     return path.read_text(encoding="utf-8") if path.exists() else ""
-
 
 def _write(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
-
 
 def _next_candidate_id(content: str) -> str:
     ids = [int(m.group(1)) for m in re.finditer(r"CANDIDATE-(\d+)", content)]
     n = max(ids, default=0) + 1
     return f"CANDIDATE-{n:04d}"
 
-
 def extract_we_did_lines(text: str) -> list[str]:
     """Extract all 'We did [X].' lines from text."""
     return [m.group(1).strip() for m in WE_DID_PATTERN.finditer(text)]
-
 
 def stage_we_did_to_recursion_gate(
     user_id: str,
@@ -117,7 +112,6 @@ prompt_addition: none
 
     return staged
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Parse transcript for 'We did [X].' lines and stage to recursion-gate"
@@ -154,7 +148,6 @@ def main() -> None:
         print("(dry run — no changes written)", file=sys.stderr)
     else:
         print(f"Appended {len(staged)} candidate(s) to {gate_path}", file=sys.stderr)
-
 
 if __name__ == "__main__":
     main()

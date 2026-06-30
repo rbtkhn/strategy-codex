@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Speaker Arc Deep Audit - 2026-05-28
 

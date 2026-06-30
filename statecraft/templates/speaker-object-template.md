@@ -1,6 +1,5 @@
 # {Speaker} speaker object
 
-WORK only; not Record.
 
 object_shape: {allowed-object-shape}
 

@@ -1,6 +1,5 @@
 # Host Backbone - Napolitano and Davis Orthogonality - 2026-05
 
-WORK only; not Record.
 
 Use this sheet when a live statecraft read is bouncing between `Judging Freedom` and `Daniel Davis Deep Dive` and the operator needs to decide which host pressure actually owns the next move.
 

@@ -23,10 +23,8 @@ TARGET_REL = Path("statecraft/voices/barnes/barnes-source-index.md")
 TARGET_NAME = TARGET_REL.name
 CANONICAL = TARGET_REL.as_posix()
 
-
 def _read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8", errors="ignore")
-
 
 def wrong_surface_search() -> list[str]:
     """Barnes failure path: library/dashboard surfaces agents opened first."""
@@ -40,7 +38,6 @@ def wrong_surface_search() -> list[str]:
         if path.is_file() and TARGET_NAME in _read_text(path):
             hits.append(rel)
     return hits
-
 
 def llm_routing_table() -> str | None:
     """Routing path step 1: LLM-ROUTING dispatch row for Barnes."""
@@ -58,7 +55,6 @@ def llm_routing_table() -> str | None:
     target = REPO_ROOT / CANONICAL
     return CANONICAL if target.is_file() else None
 
-
 def civ_lens_index() -> str | None:
     """Routing path step 2: civ-lens INDEX table."""
     index = REPO_ROOT / "statecraft/voices/voice-index.md"
@@ -69,7 +65,6 @@ def civ_lens_index() -> str | None:
         return None
     target = REPO_ROOT / CANONICAL
     return CANONICAL if target.is_file() else None
-
 
 def repo_map_route() -> str | None:
     """Routing path via machine-readable registry."""
@@ -84,7 +79,6 @@ def repo_map_route() -> str | None:
             if target.is_file():
                 return rel
     return None
-
 
 def rg_repo_search() -> list[str]:
     """Unrouted full-repo text search (may return many paths)."""
@@ -104,7 +98,6 @@ def rg_repo_search() -> list[str]:
         for p in REPO_ROOT.rglob(TARGET_NAME)
     ]
 
-
 def timed(name: str, fn: Callable[[], Any], *, rounds: int) -> dict[str, Any]:
     samples: list[float] = []
     result: Any = None
@@ -120,7 +113,6 @@ def timed(name: str, fn: Callable[[], Any], *, rounds: int) -> dict[str, Any]:
         "result": result,
     }
 
-
 def run_benchmark(*, rounds: int) -> list[dict[str, Any]]:
     return [
         timed("wrong_surface (library-index + self-library)", wrong_surface_search, rounds=rounds),
@@ -129,7 +121,6 @@ def run_benchmark(*, rounds: int) -> list[dict[str, Any]]:
         timed("civ-lens INDEX", civ_lens_index, rounds=rounds),
         timed("repo-map barnes-source-index", repo_map_route, rounds=rounds),
     ]
-
 
 def format_report(rows: list[dict[str, Any]]) -> str:
     lines = [
@@ -169,7 +160,6 @@ def format_report(rows: list[dict[str, Any]]) -> str:
         )
     return "\n".join(lines)
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -191,7 +181,6 @@ def main() -> int:
         }
     )
     return 0 if routed_ok else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

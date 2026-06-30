@@ -20,7 +20,6 @@ from backfill_x_profile_raw_input import DEFAULT_RAW_ROOT, run
 DEFAULT_PROFILE_URL = "https://x.com/JeffreyASachs"
 DEFAULT_THREAD = "sachs"
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--profile-url", default=DEFAULT_PROFILE_URL)
@@ -45,7 +44,6 @@ def main() -> int:
         apply=args.apply,
         status_urls=args.status_url,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

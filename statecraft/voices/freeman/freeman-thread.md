@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `freeman`
 <!-- word_count: 7222 -->
 
-WORK only; not Record.
 
 Compatibility note: this file is legacy continuity residue. It is safe for carryover context, but unsafe as a first-open citation surface when the canonical Freeman stack now lives under [statecraft/voices/freeman/](README.md) and already routes through the person arc, routing note, bounded month ladder, helix, support spine, and raw-input bench.
 

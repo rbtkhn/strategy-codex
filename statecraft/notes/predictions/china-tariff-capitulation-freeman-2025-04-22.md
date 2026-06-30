@@ -7,9 +7,8 @@ stance: no
 confidence: high
 source: source-archive/statecraft/2025-04-22/source-judging-freedom-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md
 speech_act: initial
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — China tariff capitulation (2025-04-22)
 

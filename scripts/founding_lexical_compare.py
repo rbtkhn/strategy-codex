@@ -211,7 +211,6 @@ FOUNDING_CANON: list[tuple[int, str, tuple[str, ...]]] = [
     (32, "Anti-Federalist Centinel I", (f"{FC}/v1ch11s11.html",)),
 ]
 
-
 def fetch_html(url: str, timeout: int = 60) -> str:
     # Browser-like UA: some mirrors (e.g. Project Gutenberg) block non-browser defaults.
     req = urllib.request.Request(
@@ -226,18 +225,15 @@ def fetch_html(url: str, timeout: int = 60) -> str:
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
-
 def html_to_text(html: str) -> str:
     html = re.sub(r"(?is)<script.*?>.*?</script>", " ", html)
     html = re.sub(r"(?is)<style.*?>.*?</style>", " ", html)
     html = re.sub(r"<[^>]+>", " ", html)
     return unescape(html)
 
-
 def _share(gr: int, en: int) -> float:
     d = gr + en
     return (gr / d) if d else 0.0
-
 
 def analyze(text: str) -> dict[str, float | int]:
     tokens = re.findall(r"[a-z]{3,}", text.lower())
@@ -272,7 +268,6 @@ def analyze(text: str) -> dict[str, float | int]:
         "gr_share_gr_en2": round(_share(gr_hits, en2_hits), 3),
     }
 
-
 def process_entry(cid: int, title: str, urls: tuple[str, ...]) -> dict[str, object]:
     parts: list[str] = []
     errors: list[str] = []
@@ -302,11 +297,9 @@ def process_entry(cid: int, title: str, urls: tuple[str, ...]) -> dict[str, obje
         **({"fetch_errors": errors} if errors else {}),
     }
 
-
 def mean_per_1k(rs: list[dict], key: str) -> float:
     ok = [r for r in rs if "error" not in r and r.get("n_tokens", 0) > 0]
     return sum(float(x[key]) for x in ok) / len(ok) if ok else 0.0
-
 
 def mean_gr_share(rs: list[dict], key: str = "gr_share_of_lex_hits") -> float:
     if key == "gr_share_of_lex_hits":
@@ -317,10 +310,8 @@ def mean_gr_share(rs: list[dict], key: str = "gr_share_of_lex_hits") -> float:
         return 0.0
     return sum(float(x[key]) for x in ok) / len(ok)
 
-
 def bucket(rows_by_id: dict[int, dict], lo: int, hi: int) -> list[dict]:
     return [rows_by_id[i] for i in range(lo, hi + 1) if i in rows_by_id and "error" not in rows_by_id[i]]
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -424,7 +415,6 @@ def main() -> int:
     sens_row("All 32", ok_all)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

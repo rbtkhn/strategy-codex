@@ -20,7 +20,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 Runner = Callable[[list[str], Path], tuple[int, str, str]]
 
-
 def _run(argv: list[str], cwd: Path) -> tuple[int, str, str]:
     result = subprocess.run(
         argv,
@@ -34,14 +33,12 @@ def _run(argv: list[str], cwd: Path) -> tuple[int, str, str]:
     )
     return result.returncode, result.stdout.strip(), result.stderr.strip()
 
-
 def _origin_protocol(remote: str) -> str:
     if remote.startswith("https://"):
         return "https"
     if remote.startswith("git@"):
         return "ssh"
     return "unknown"
-
 
 def verify_repo_identity(
     repo_root: Path = REPO_ROOT,
@@ -88,13 +85,11 @@ def verify_repo_identity(
 
     return ok, lines
 
-
 def format_repo_identity_status(repo_root: Path = REPO_ROOT) -> str:
     """Compact one-line status for coffee bootstrap."""
     ok, lines = verify_repo_identity(repo_root)
     prefix = "ok" if ok else "FAIL"
     return f"{prefix} - " + "; ".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -106,7 +101,6 @@ def main() -> int:
     for line in lines:
         print(f"- {line}")
     return 0 if ok else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

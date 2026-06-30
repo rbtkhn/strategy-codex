@@ -16,7 +16,6 @@ archive_links:
 
 # Davis x Freeman speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Davis x Freeman` run inside the Davis stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Freeman lane Davis elicits, which files matter most, and where the lane changes shape between the older Ukraine shelf and the later Iran shelf.
 
@@ -114,7 +113,7 @@ Typical pairings around the guest lane:
 - `davis`
 - `diesen`
 - `mearsheimer`
-- `alkorshid`
+- `alkhorshid`
 
 ## Boundaries
 

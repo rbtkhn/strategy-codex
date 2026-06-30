@@ -12,14 +12,12 @@ import re
 import sys
 from pathlib import Path
 
-
 def load_transcript_body(lecture_path: Path) -> str:
     text = lecture_path.read_text(encoding="utf-8")
     _, _, rest = text.partition("## Full transcript\n\n")
     if not rest.strip():
         raise SystemExit("No ## Full transcript in " + str(lecture_path))
     return rest.strip()
-
 
 def split_opening(body: str) -> tuple[str, str, str, str, str]:
     """Return teaser, host_book, jiang_thanks, host_q1, remainder."""
@@ -46,12 +44,10 @@ def split_opening(body: str) -> tuple[str, str, str, str, str]:
     remainder = rest[m2.end() :].strip()
     return teaser, host_book, jiang_thanks, host_q1, remainder
 
-
 def wrap_fill(text: str, width: int = 92) -> str:
     import textwrap
 
     return textwrap.fill(text, width=width, break_long_words=False, break_on_hyphens=False)
-
 
 def rebuild_lecture(lecture_path: Path) -> None:
     raw_full = lecture_path.read_text(encoding="utf-8")
@@ -130,14 +126,12 @@ def rebuild_lecture(lecture_path: Path) -> None:
 
     lecture_path.write_text(meta + "## Full transcript\n\n" + new_body, encoding="utf-8")
 
-
 def main() -> None:
     out = Path("codex/predictive-history/lectures/interviews-10-endgame-our-true-wealth-is-our-consciousness.md")
     if len(sys.argv) > 1:
         out = Path(sys.argv[1])
     rebuild_lecture(out)
     print("Wrote", out)
-
 
 if __name__ == "__main__":
     main()

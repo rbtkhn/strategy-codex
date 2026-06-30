@@ -1,6 +1,5 @@
 # Citation and Evidence Pattern
 
-work only; not Record.
 
 This note defines the preferred citation pattern for literature-backed notes and
 essays in this repo.

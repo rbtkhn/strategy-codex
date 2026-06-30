@@ -38,7 +38,6 @@ DEFAULT_SCAN = (
 
 SUFFIXES = {".py", ".md", ".mdc", ".yml", ".yaml", ".toml", ".json", ".sh", ".txt"}
 
-
 def replacements() -> list[tuple[str, str]]:
     pairs: list[tuple[str, str]] = []
     for _key, entry in REPO_PATH_MIGRATIONS.items():
@@ -57,7 +56,6 @@ def replacements() -> list[tuple[str, str]]:
     pairs.sort(key=lambda x: len(x[0]), reverse=True)
     return pairs
 
-
 def iter_files(scan: tuple[str, ...]):
     for item in scan:
         path = REPO_ROOT / item
@@ -74,7 +72,6 @@ def iter_files(scan: tuple[str, ...]):
             if ".git" in f.parts:
                 continue
             yield f
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Rewrite legacy root paths")
@@ -103,7 +100,6 @@ def main() -> int:
                 print(f"updated {rel}")
     print(f"{'would change' if args.dry_run else 'changed'} {changed} files")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

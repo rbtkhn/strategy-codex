@@ -1,6 +1,5 @@
 # America - Baltic Shadow-Fleet Infrastructure Damage Framework
 
-WORK only; not Record.
 
 ## Transaction Name
 

@@ -1,6 +1,5 @@
 # CIV-STATE America
 
-WORK only; not Record.
 
 This is the top-level alias door for the America CIV-STATE volume.
 

@@ -32,7 +32,6 @@ COMPACT_BLOCK_RE = re.compile(
     re.DOTALL | re.IGNORECASE,
 )
 
-
 @dataclass
 class HistoricalContext:
     expert_id: str
@@ -40,21 +39,17 @@ class HistoricalContext:
     compact_block: Optional[str]
     preview_lines: list[str]
 
-
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
-
 def read_json(path: Path) -> Any:
     return json.loads(read_text(path))
-
 
 def parse_pair(raw: str) -> tuple[str, str]:
     m = PAIR_RE.match(raw)
     if not m:
         raise SystemExit("--pair must look like: ritter,davis")
     return m.group(1).strip().lower(), m.group(2).strip().lower()
-
 
 def find_snapshot_rows(snapshot: Any, expert_a: str, expert_b: str) -> list[dict]:
     if isinstance(snapshot, dict) and isinstance(snapshot.get("batch_analysis_refs"), list):
@@ -83,10 +78,8 @@ def find_snapshot_rows(snapshot: Any, expert_a: str, expert_b: str) -> list[dict
             out.append(row)
     return out
 
-
 def history_path(expert_id: str, start_seg: str, end_seg: str) -> Path:
     return HISTORY_DIR / f"{expert_id}-{start_seg}-to-{end_seg}.md"
-
 
 def iter_month_segments(start_seg: str, end_seg: str) -> list[str]:
     """Inclusive YYYY-MM list from start_seg through end_seg."""
@@ -102,17 +95,14 @@ def iter_month_segments(start_seg: str, end_seg: str) -> list[str]:
             y += 1
     return out
 
-
 def segment_month_paths(expert_id: str, months: list[str]) -> list[Path]:
     base = HISTORY_DIR / expert_id
     return [base / f"{mm}.md" for mm in months]
-
 
 def all_segment_files_exist(expert_id: str, months: list[str]) -> bool:
     if not months:
         return False
     return all(p.is_file() for p in segment_month_paths(expert_id, months))
-
 
 def stance_preview_lines_from_text(text: str, max_lines: int = 4) -> list[str]:
     preview_lines: list[str] = []
@@ -129,7 +119,6 @@ def stance_preview_lines_from_text(text: str, max_lines: int = 4) -> list[str]:
         if len(preview_lines) >= max_lines:
             break
     return preview_lines
-
 
 def load_historical_context(expert_id: str, start_seg: str, end_seg: str) -> HistoricalContext:
     months = iter_month_segments(start_seg, end_seg)
@@ -187,7 +176,6 @@ def load_historical_context(expert_id: str, start_seg: str, end_seg: str) -> His
         preview_lines=preview_lines,
     )
 
-
 def compact_row_preview(row: dict) -> str:
     preferred_keys = ["date", "label", "raw", "expert_ids", "confidence"]
     parts = []
@@ -198,7 +186,6 @@ def compact_row_preview(row: dict) -> str:
         parts.append(json.dumps(row, ensure_ascii=False))
     text = " | ".join(parts)
     return " ".join(text.split())
-
 
 def render_output(
     pair: tuple[str, str],
@@ -212,7 +199,7 @@ def render_output(
     lines: list[str] = []
     lines.append(f"# Batch-analysis with history — `{a}` × `{b}`")
     lines.append("")
-    lines.append("WORK only; additive prompt bundle.")
+    lines.append("non-authoritative; additive prompt bundle.")
     lines.append(f"History window: {start_seg} → {end_seg}")
     lines.append("")
 
@@ -269,7 +256,6 @@ def render_output(
     lines.append("")
     return "\n".join(lines).rstrip() + "\n"
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--pair", required=True, help="expert-a,expert-b")
@@ -323,7 +309,6 @@ def main() -> int:
     out.write_text(output, encoding="utf-8")
     print(f"Wrote {out.relative_to(REPO_ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

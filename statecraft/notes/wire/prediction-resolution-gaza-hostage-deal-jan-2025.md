@@ -15,7 +15,6 @@ links:
 
 # Prediction resolution — gaza_hostage_deal_jan_2025
 
-WORK only; not Record.
 
 **Event question:** Will a Gaza hostage-exchange ceasefire deal be reached?  
 **Resolution criteria:** Yes if phase-1 hostage deal publicly reached/implemented.  

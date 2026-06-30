@@ -22,7 +22,6 @@ archive_links:
 
 # Judging Freedom x Macgregor speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Judging Freedom x Macgregor` lane inside the native Napolitano shelf.
 

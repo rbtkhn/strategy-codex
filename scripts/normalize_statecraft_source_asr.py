@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Apply ph-civ ASR replacement tiers to a statecraft source-archive transcript.
-
-WORK only; not Record. Preserves frontmatter + header; normalizes body below
+Preserves frontmatter + header; normalizes body below
 ``## Transcript`` (or ``## Full transcript``). Also runs bounded regex entity
 repairs from ``fix_statecraft_common_asr_entities``.
 """
@@ -37,7 +36,6 @@ PRESERVE_EDITORIAL_MARKERS = (
     "promo",
 )
 
-
 def split_transcript(md: str) -> tuple[str, str | None]:
     for heading in TRANSCRIPT_HEADINGS:
         idx = md.find(heading)
@@ -49,13 +47,11 @@ def split_transcript(md: str) -> tuple[str, str | None]:
         return md[: nl + 1], md[nl + 1 :]
     return md, None
 
-
 def _parse_quoted_field(line: str) -> str:
     raw = line.split(":", 1)[-1].strip()
     if raw.startswith('"') and raw.endswith('"'):
         return raw[1:-1]
     return raw.strip('"')
-
 
 def _merge_editorial_note(
     existing: str | None,
@@ -75,7 +71,6 @@ def _merge_editorial_note(
         return f"{base} Prior provenance: {existing.rstrip('.')}."
     return base
 
-
 def _append_source_note_asr_pass(fm_block: str, today: str, marker_prefix: str = "ASR pass") -> str:
     marker = f"{marker_prefix} {today}"
     if marker in fm_block:
@@ -86,7 +81,6 @@ def _append_source_note_asr_pass(fm_block: str, today: str, marker_prefix: str =
     old = match.group(1).strip().strip('"')
     new_val = f"{old} · {marker}."
     return fm_block[: match.start()] + f'source_note: "{new_val}"' + fm_block[match.end() :]
-
 
 def patch_frontmatter(
     fm_block: str,
@@ -144,7 +138,6 @@ def patch_frontmatter(
     block = "---\n" + "\n".join(body_lines) + "\n---"
     return _append_source_note_asr_pass(block, today, marker_prefix=pass_note_prefix)
 
-
 def run(path: Path, *, series: str | None, write: bool) -> int:
     raw = path.read_text(encoding="utf-8")
     head, body = split_transcript(raw)
@@ -190,7 +183,6 @@ def run(path: Path, *, series: str | None, write: bool) -> int:
         path.write_text(new_text, encoding="utf-8", newline="\n")
     return 0
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("path", type=Path)
@@ -215,7 +207,6 @@ def main() -> int:
         series=series,
         dry_run=not args.write,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

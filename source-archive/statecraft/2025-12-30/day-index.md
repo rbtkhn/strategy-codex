@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Lawrence Wilkerson` (1)
-- Threads: `alkorshid` (1), `mercouris` (1), `wilkerson` (1)
+- Threads: `alkhorshid` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=qLkdfUFdqZY) | `source-alexander-mercouris-moscow-accuses-kiev-of-failed-attack-putin-valdai-residence-says-retalia-2025-12-30.md` |
-| `dialogue-works` | — | `alkorshid`, `wilkerson` | [watch](https://www.youtube.com/watch?v=nVxq4eCzK64) | `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-screaming-and-america-is-ignoring-it-2025-12-30.md` |
+| `dialogue-works` | — | `alkhorshid`, `wilkerson` | [watch](https://www.youtube.com/watch?v=nVxq4eCzK64) | `source-dialogue-works-lawrence-wilkerson-col-larry-wilkerson-the-alarms-are-screaming-and-america-is-ignoring-it-2025-12-30.md` |
 
 ## Writer sources
 

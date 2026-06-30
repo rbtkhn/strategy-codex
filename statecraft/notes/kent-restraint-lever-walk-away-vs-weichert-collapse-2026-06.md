@@ -11,7 +11,6 @@ archive_links:
   - source-archive/statecraft/2026-06-11/source-judging-freedom-kent-why-trump-is-stuck-2026-06-11.md
   - source-archive/statecraft/2026-06-16/source-redacted-brandon-weichert-collapse-96-hours-israel-bombs-lebanon-2026-06-16.md
 ---
-WORK only; not Record.
 
 # Kent restraint-lever seam — walk-away vs signing trap vs 96h collapse (Jun 2026)
 

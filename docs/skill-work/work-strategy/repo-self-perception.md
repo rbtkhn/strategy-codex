@@ -1,6 +1,5 @@
 # repo self-perception
 
-WORK only; not Record.
 
 This note names a recurring maintenance problem in strategy-codex:
 

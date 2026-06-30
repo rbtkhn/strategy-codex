@@ -12,4 +12,4 @@ Primary organizational axis for this state lane. A channel represents institutio
 
 Use channels for routing; use `weave/` for month synthesis.
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.

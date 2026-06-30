@@ -146,7 +146,7 @@ Only after **D** does the lane-direct menu appear:
 
 After the lane pick, open transcript-bearing intake first. The next honest submenu should usually be host or speaker intake families such as `Davis / Napolitano / Pape / Parsi` for America rather than `helix / state / transactions / bridge`. Treaty, policy, negotiation, and Richelieu/Bismarck drafting remain visible as downstream drafting moves after intake and routing rather than as the first coffee submenu.
 
-When the operator asks for the daily main-stream update, route through the explicit **`check streams`** skill. That command owns the list-first daily Davis / Diesen / Alkorshid / Napolitano / Mercouris check; materialization still waits for operator selection and then hands approved URLs to the YouTube transcript workflow. `cognition streams` remains a legacy alias.
+When the operator asks for the daily main-stream update, route through the explicit **`check streams`** skill. That command owns the list-first daily Davis / Diesen / Alkhorshid / Napolitano / Mercouris check; materialization still waits for operator selection and then hands approved URLs to the YouTube transcript workflow. `cognition streams` remains a legacy alias.
 
 When the operator names one recent event and wants statecraft judgment, do not open a separate `current-event` skill. Verify the event, separate fact from interpretation, classify the crisis object, then route through `state-deploy` or the owning lane and keep any follow-up options calibrated to that event's actors and crisis object. Do not use generic A-D template labels as the option text.
 

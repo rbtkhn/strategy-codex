@@ -1,6 +1,5 @@
 # Wilkerson November 2025 note
 
-WORK only; not Record.
 
 Purpose: preserve what November 2025 currently means on the Wilkerson shelf now that the month no longer reads as a thin bridge with a weak Napolitano stub, but as a compact five-anchor month with one real Judging Freedom opening and a late-month Johnson/Wilkerson continuation.
 

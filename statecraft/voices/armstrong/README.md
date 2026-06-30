@@ -1,6 +1,6 @@
 # Armstrong
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder is the **speaker-object entry surface** for Martin Armstrong.
 

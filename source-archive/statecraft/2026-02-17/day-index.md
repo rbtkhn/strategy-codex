@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Glenn Diesen` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1), `John Helmer` (1), `John Mearsheimer` (1), `Seyed M. Marandi` (1)
-- Threads: `alkorshid` (2), `diesen` (1), `freeman` (1), `helmer` (1), `marandi` (1), `mearsheimer` (1), `mercouris` (1)
+- Threads: `alkhorshid` (2), `diesen` (1), `freeman` (1), `helmer` (1), `marandi` (1), `mearsheimer` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -33,8 +33,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=8PGeNwFTTwc) | `source-alexander-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md` |
-| `dialogue-works` | — | `alkorshid`, `helmer` | [watch](https://www.youtube.com/watch?v=YQrBhZf2TXI) | `source-dialogue-works-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=7Oy1q6zGcQs) | `source-dialogue-works-mohammad-marandi-iran-just-closed-the-strait-of-hormuz-wiped-out-iran-pl-2026-02-17.md` |
+| `dialogue-works` | — | `alkhorshid`, `helmer` | [watch](https://www.youtube.com/watch?v=YQrBhZf2TXI) | `source-dialogue-works-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=7Oy1q6zGcQs) | `source-dialogue-works-mohammad-marandi-iran-just-closed-the-strait-of-hormuz-wiped-out-iran-pl-2026-02-17.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=fC3voCMmsw8) | `source-glenn-diesen-chas-freeman-u-s-restoring-empire-war-on-eurasia-2026-02-17.md` |
 | `judging-freedom` | — | `mearsheimer` | [watch](https://www.youtube.com/watch?v=f9o5eiyKsOs) | `source-judging-freedom-mearsheimer-how-trump-has-boxed-himself-into-a-corner-on-iran-2026-02-17.md` |
 

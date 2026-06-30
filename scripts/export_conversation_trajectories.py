@@ -35,7 +35,6 @@ HEADER_RE = re.compile(
     re.MULTILINE,
 )
 
-
 def _parse_transcript(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -72,7 +71,6 @@ def _parse_transcript(path: Path) -> list[dict]:
         )
     return turns
 
-
 def _load_pipeline_events(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -86,7 +84,6 @@ def _load_pipeline_events(path: Path) -> list[dict]:
         except json.JSONDecodeError:
             continue
     return out
-
 
 def _attach_events(turns: list[dict], events: list[dict], window_sec: int = 120) -> None:
     """Attach pipeline events whose ts falls within window_sec after turn ts (best-effort)."""
@@ -108,7 +105,6 @@ def _attach_events(turns: list[dict], events: list[dict], window_sec: int = 120)
                     }
                 )
 
-
 def _parse_ts(s: str) -> datetime | None:
     s = s.strip()
     for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M"):
@@ -118,7 +114,6 @@ def _parse_ts(s: str) -> datetime | None:
             continue
     return None
 
-
 def _parse_ts_iso(s: str) -> datetime | None:
     if not s:
         return None
@@ -126,7 +121,6 @@ def _parse_ts_iso(s: str) -> datetime | None:
         return datetime.fromisoformat(s.replace("Z", "+00:00").split("+")[0])
     except ValueError:
         return None
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Export session transcript as JSONL trajectories")
@@ -159,7 +153,6 @@ def main() -> int:
     else:
         sys.stdout.write("\n".join(out_lines) + "\n")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

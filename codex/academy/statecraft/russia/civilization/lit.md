@@ -1,6 +1,5 @@
 # Russia Lit
 
-WORK only; not Record.
 
 ## Purpose
 

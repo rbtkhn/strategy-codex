@@ -1,6 +1,5 @@
 # Krainer source index
 
-WORK only; not Record.
 
 Purpose: canonical statecraft-side source index for **Alex Krainer** while raw-text authority stays in the Statecraft Archive.
 

@@ -1,6 +1,5 @@
 # Ritter Lane Consolidation — 2026-05
 
-WORK only; not Record.
 
 This note consolidates the current `ritter` lane into one operator-facing spine:
 

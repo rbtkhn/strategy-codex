@@ -40,7 +40,6 @@ _FORBIDDEN_NAMES = frozenset(
     }
 )
 
-
 def _expand_list(values: list[str] | None) -> list[str]:
     if not values:
         return []
@@ -52,7 +51,6 @@ def _expand_list(values: list[str] | None) -> list[str]:
                 out.append(stripped)
     return out
 
-
 def _forbidden_write_path(path: Path) -> bool:
     try:
         resolved = path.resolve()
@@ -60,7 +58,6 @@ def _forbidden_write_path(path: Path) -> bool:
     except ValueError:
         return False
     return len(rel.parts) >= 2 and rel.parts[0] == "platform/users" and rel.name in _FORBIDDEN_NAMES
-
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -112,7 +109,6 @@ def build_parser() -> argparse.ArgumentParser:
     )
     return parser
 
-
 def main() -> int:
     args = build_parser().parse_args()
 
@@ -160,7 +156,6 @@ def main() -> int:
     )
     print(f"wrote: {out_path}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # Krainer cross-host note
 
-WORK only; not Record.
 
 Purpose: keep the wider Krainer object visible without overstating its maturity outside the Diesen lane.
 

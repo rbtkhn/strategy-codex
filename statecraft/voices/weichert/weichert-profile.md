@@ -1,7 +1,6 @@
 # Strategy expert — Brandon J. Weichert (`weichert`)
 <!-- word_count: 280 -->
 
-WORK only; not Record.
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)

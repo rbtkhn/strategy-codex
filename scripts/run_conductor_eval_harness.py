@@ -23,13 +23,11 @@ from grace_mar.conductor_metrics import build_metrics_payload  # noqa: E402
 
 _ALLOWED_ORIGINS = frozenset({"coffee", "conductor_only", "inferred"})
 
-
 def _load_fixture(path: Path) -> dict[str, object]:
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict):
         raise ValueError("fixture root must be an object")
     return data
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Conductor eval replay harness (derived metrics JSON)")
@@ -89,7 +87,6 @@ def main() -> None:
 
     if args.json or args.out is None:
         sys.stdout.write(text)
-
 
 if __name__ == "__main__":
     main()

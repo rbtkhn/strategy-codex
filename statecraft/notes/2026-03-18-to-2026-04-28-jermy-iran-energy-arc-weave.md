@@ -13,7 +13,6 @@ archive_links:
   - source-archive/statecraft/…
   - source-archive/statecraft/thread-index.md
 ---
-WORK only; not Record.
 
 # Moved — Jermy energy arc weave
 

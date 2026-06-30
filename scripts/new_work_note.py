@@ -19,7 +19,6 @@ from capture_scaffold_common import (
     write_from_template,
 )
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(
         description="Scaffold a work note (non-canonical; does not stage the gate)."
@@ -52,7 +51,6 @@ def main() -> int:
     )
     print(dest)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

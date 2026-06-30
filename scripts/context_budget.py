@@ -10,7 +10,6 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent
 BUDGETS_DIR = REPO_ROOT / "platform/config" / "context_budgets"
 
-
 def load_context_budget(name: str) -> dict[str, Any]:
     path = BUDGETS_DIR / f"{name}.json"
     if not path.is_file():
@@ -20,7 +19,6 @@ def load_context_budget(name: str) -> dict[str, Any]:
     except (json.JSONDecodeError, OSError):
         return {}
     return raw if isinstance(raw, dict) else {}
-
 
 def get_int(data: dict[str, Any], key: str, default: int) -> int:
     v = data.get(key, default)
@@ -36,7 +34,6 @@ def get_int(data: dict[str, Any], key: str, default: int) -> int:
         except ValueError:
             return default
     return default
-
 
 def get_bool(data: dict[str, Any], key: str, default: bool) -> bool:
     v = data.get(key, default)

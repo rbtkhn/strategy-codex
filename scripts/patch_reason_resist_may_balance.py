@@ -120,11 +120,9 @@ CAPTURES: dict[str, dict] = {
     },
 }
 
-
 def flatten_sectioned_body(body: str) -> str:
     chunks = re.split(r"^### .+$", body, flags=re.M)
     return "\n\n".join(c.strip() for c in chunks if c.strip())
-
 
 def validate_flat(flat: str, spec: dict) -> list[str]:
     errors: list[str] = []
@@ -142,7 +140,6 @@ def validate_flat(flat: str, spec: dict) -> list[str]:
         except ValueError as exc:
             errors.append(str(exc))
     return errors
-
 
 def balance_capture(path: Path, spec: dict, *, dry_run: bool = False) -> None:
     doc = path.read_text(encoding="utf-8")
@@ -172,7 +169,6 @@ def balance_capture(path: Path, spec: dict, *, dry_run: bool = False) -> None:
         f"wrote {path} ({len(new_body.split()):,} words, {len(spec['titles'])} sections)"
     )
 
-
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
@@ -191,7 +187,6 @@ def main() -> int:
             print(f"FAIL {rel}: {exc}")
             failed += 1
     return 1 if failed else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

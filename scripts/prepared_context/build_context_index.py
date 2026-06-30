@@ -18,7 +18,6 @@ if str(_RT) not in sys.path:
 
 from observation_store import load_all  # noqa: E402
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build compact observation index (Markdown).")
     parser.add_argument("--lane", help="Filter by lane substring")
@@ -46,7 +45,6 @@ def main() -> int:
         print(f"- **{oid}** — `{lane}` — {ts}\n  - {title}\n  - {summ}\n")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

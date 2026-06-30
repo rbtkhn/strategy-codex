@@ -1,6 +1,6 @@
 # Statecraft Sheets
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 These sheets are reusable prompt benches for academy-statecraft. They are not summaries of Richelieu, Bismarck, or any historical case. They are fast checks for making treaty drafts, policy papers, negotiation briefs, and statecraft memos more durable.
 

@@ -50,14 +50,11 @@ NOTEBOOK_DIR = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 THREAD_MARKER_START = "<!-- strategy-expert-thread:start -->"
 THREAD_MARKER_END = "<!-- strategy-expert-thread:end -->"
 
-
 def marker_block_start(expert_id: str) -> str:
     return f"<!-- backfill:{expert_id}:start -->"
 
-
 def marker_block_end(expert_id: str) -> str:
     return f"<!-- backfill:{expert_id}:end -->"
-
 
 MONTH_HEADING_RE = re.compile(r"^###\s+(\d{4}-\d{2})\s*$", re.MULTILINE)
 
@@ -72,17 +69,14 @@ BULLET_LOOSE_RE = re.compile(
     re.MULTILINE,
 )
 
-
 @dataclass
 class Bullet:
     date: str
     summary: str
     source: str
 
-
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
-
 
 def extract_machine_block(text: str) -> Optional[str]:
     """Bytes between strategy-expert-thread start and end markers (inclusive)."""
@@ -92,7 +86,6 @@ def extract_machine_block(text: str) -> Optional[str]:
         return None
     end_full = end + len(THREAD_MARKER_END)
     return text[start:end_full]
-
 
 def extract_backfill_block(text: str, expert_id: str) -> Optional[str]:
     pattern = re.compile(
@@ -106,7 +99,6 @@ def extract_backfill_block(text: str, expert_id: str) -> Optional[str]:
         return None
     return m.group(0)
 
-
 def inner_content(full_block_with_markers: str, expert_id: str) -> str:
     """Content between backfill HTML markers (exclusive)."""
     start = marker_block_start(expert_id)
@@ -118,10 +110,8 @@ def inner_content(full_block_with_markers: str, expert_id: str) -> str:
     mid = full_block_with_markers[len(start) :].rsplit(end, 1)[0]
     return mid.strip()
 
-
 def has_month_sections(inner: str) -> bool:
     return bool(MONTH_HEADING_RE.search(inner))
-
 
 def parse_month_sections(block: str) -> dict[str, str]:
     matches = list(MONTH_HEADING_RE.finditer(block))
@@ -132,7 +122,6 @@ def parse_month_sections(block: str) -> dict[str, str]:
         end = matches[i + 1].start() if i + 1 < len(matches) else len(block)
         sections[month] = block[start:end].strip()
     return sections
-
 
 def parse_bullets(section: str) -> list[Bullet]:
     bullets: list[Bullet] = []
@@ -149,13 +138,11 @@ def parse_bullets(section: str) -> list[Bullet]:
             break
     return bullets
 
-
 def sentence_case(text: str) -> str:
     text = text.strip()
     if not text:
         return text
     return text[0].upper() + text[1:]
-
 
 def dedupe_preserve_order(items: list[str]) -> list[str]:
     seen: set[str] = set()
@@ -167,14 +154,12 @@ def dedupe_preserve_order(items: list[str]) -> list[str]:
             out.append(item.strip())
     return out
 
-
 def summarize_month(bullets: list[Bullet], max_points: int = 3) -> list[str]:
     if not bullets:
         return []
     raw_points = [sentence_case(b.summary.rstrip(".")) + "." for b in bullets]
     points = dedupe_preserve_order(raw_points)
     return points[:max_points]
-
 
 def render_refined_month(month: str, bullets: list[Bullet]) -> str:
     lines: list[str] = []
@@ -200,14 +185,12 @@ def render_refined_month(month: str, bullets: list[Bullet]) -> str:
     lines.append("")
     return "\n".join(lines).rstrip() + "\n"
 
-
 def preamble_before_first_month(inner: str) -> tuple[str, str]:
     """Return (text before first ### YYYY-MM, rest from first month heading)."""
     m = MONTH_HEADING_RE.search(inner)
     if not m:
         return inner.rstrip(), ""
     return inner[: m.start()].rstrip(), inner[m.start() :].lstrip()
-
 
 def render_refined_block(expert_id: str, original_full_block: str) -> Optional[str]:
     """
@@ -253,7 +236,6 @@ def render_refined_block(expert_id: str, original_full_block: str) -> Optional[s
     out.append(marker_block_end(expert_id))
     return "\n".join(out).rstrip() + "\n"
 
-
 def splice_backfill(text: str, expert_id: str, new_block: str) -> str:
     pattern = re.compile(
         re.escape(marker_block_start(expert_id))
@@ -262,7 +244,6 @@ def splice_backfill(text: str, expert_id: str, new_block: str) -> str:
         re.DOTALL,
     )
     return pattern.sub(new_block.rstrip(), text, count=1)
-
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
@@ -328,7 +309,6 @@ def main() -> int:
     print(f"Refined backfill block in {thread_path.relative_to(REPO_ROOT)}")
     print("Machine extraction block unchanged (verified).")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

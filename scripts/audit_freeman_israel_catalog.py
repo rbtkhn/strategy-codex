@@ -29,7 +29,6 @@ JAN_BODY_SPEECH_ACT: dict[str, str] = {
 
 REJECT_BODY = "body_keyword outside Jan 2025 window; incidental thesis hit — defer to title/register pass"
 
-
 def should_approve(row: dict) -> bool:
     if row.get("event_id") != EVENT_ID:
         return False
@@ -40,7 +39,6 @@ def should_approve(row: dict) -> bool:
     if method == "body_keyword" and pub.startswith(JAN_PREFIX):
         return True
     return False
-
 
 def speech_act_for(row: dict) -> str:
     pub = str(row.get("pub_date") or "")
@@ -53,7 +51,6 @@ def speech_act_for(row: dict) -> str:
     if method == "title" and pub in TITLE_SPEECH_ACT:
         return TITLE_SPEECH_ACT[pub]
     return "restated"
-
 
 def apply_audit(payload: dict) -> tuple[int, int]:
     approved = rejected = 0
@@ -76,7 +73,6 @@ def apply_audit(payload: dict) -> tuple[int, int]:
             rejected += 1
     return approved, rejected
 
-
 def main() -> int:
     if not MANIFEST.is_file():
         print(f"error: missing {MANIFEST.relative_to(REPO_ROOT)}", file=sys.stderr)
@@ -89,7 +85,6 @@ def main() -> int:
         f"({MANIFEST.relative_to(REPO_ROOT)})"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

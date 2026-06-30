@@ -1,6 +1,5 @@
 # {Host} x {Guest} arc
 
-WORK only; not Record.
 
 Purpose: explain why the recurring `{host} x {guest}` lane matters as a host-local conversational form. This is an interpretive routing note downstream of raw-input accumulation, not a provenance ledger and not a lattice row.
 

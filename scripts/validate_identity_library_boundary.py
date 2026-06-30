@@ -18,7 +18,6 @@ from identity_library_boundary_rules import collect_ix_a_violations_from_self_md
 
 REPO = Path(__file__).resolve().parents[1]
 
-
 def collect_identity_library_violations(
     user_dir: Path,
     *,
@@ -38,7 +37,6 @@ def collect_identity_library_violations(
     text = path.read_text(encoding="utf-8", errors="replace")
     return collect_ix_a_violations_from_self_md(text, rel_path=rel(path))
 
-
 def collect_self_library_file_warnings(user_dir: Path, repo_root: Path) -> list[str]:
     """Warn when identity file exists but canonical SELF-LIBRARY file is missing."""
     self_p = user_dir / "self.md"
@@ -50,7 +48,6 @@ def collect_self_library_file_warnings(user_dir: Path, repo_root: Path) -> list[
         f"{rel}: self-library.md missing — SELF-LIBRARY surface absent; "
         "LIB→CMC routing requires LIB entries in self-library.md"
     ]
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -69,7 +66,6 @@ def main() -> int:
         file=sys.stderr,
     )
     return 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

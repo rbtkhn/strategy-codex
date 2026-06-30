@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-03/source-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03.md
   - source-archive/statecraft/2026-03-03/source-daniel-davis-henningsen-us-iran-war-engulfs-middle-east-2026-03-03.md
 ---
-WORK only; not Record.
 
 # Mar 3 2026 — Mercouris × Wilkerson wedge (attrition / downed warplanes)
 

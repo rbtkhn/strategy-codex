@@ -1,6 +1,5 @@
 # Iran - Pakistan Command-Integrity Scare Framework
 
-WORK only; not Record.
 
 ## Transaction Name
 

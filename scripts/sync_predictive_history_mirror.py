@@ -18,7 +18,6 @@ REMOTE = "https://github.com/rbtkhn/predictive-history.git"
 RECEIPT_NAME = "MIRROR-RECEIPT.md"
 EXCLUDE_DIRS = {".git", ".pytest_cache", "__pycache__"}
 
-
 def run_git(args: list[str], cwd: Path) -> str:
     proc = subprocess.run(
         ["git", *args],
@@ -32,7 +31,6 @@ def run_git(args: list[str], cwd: Path) -> str:
         detail = proc.stderr.strip() or proc.stdout.strip() or "unknown git error"
         raise RuntimeError(f"git {' '.join(args)} failed: {detail}")
     return proc.stdout.strip()
-
 
 def robocopy_mirror(src: Path, dest: Path) -> None:
     if not dest.exists():
@@ -56,14 +54,12 @@ def robocopy_mirror(src: Path, dest: Path) -> None:
     if proc.returncode > 7:
         raise RuntimeError(proc.stderr or proc.stdout or f"robocopy exit {proc.returncode}")
 
-
 def default_operator_root() -> str:
     for key in ("PREDICTIVE_HISTORY_ROOT", "PREDICTIVE_HISTORY_ROOT", "PH_CIV_ROOT"):
         value = os.environ.get(key)
         if value:
             return value
     return r"C:\dev\predictive-history"
-
 
 def write_receipt(dest: Path, upstream_sha: str, branch: str) -> None:
     operator_root = default_operator_root()
@@ -82,7 +78,6 @@ def write_receipt(dest: Path, upstream_sha: str, branch: str) -> None:
     )
     (dest / RECEIPT_NAME).write_text(text, encoding="utf-8")
 
-
 def sync(branch: str) -> dict:
     with tempfile.TemporaryDirectory(prefix="predictive-history-sync-") as tmp:
         clone_root = Path(tmp) / "predictive-history"
@@ -97,7 +92,6 @@ def sync(branch: str) -> dict:
             "remote": REMOTE,
         }
 
-
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--branch", default="main")
@@ -110,7 +104,6 @@ def main(argv: list[str] | None = None) -> int:
     print(f"Synced {result['mirror_path']} @ {result['upstream_sha']} from {result['remote']}")
     print("Commit with tag [predictive-history-sync] in the message.")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

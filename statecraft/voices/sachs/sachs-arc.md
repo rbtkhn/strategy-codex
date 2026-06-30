@@ -1,6 +1,5 @@
 # arc-sachs-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [sachs-arc.md](sachs-arc.md)
 

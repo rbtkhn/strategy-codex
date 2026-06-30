@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Ritter Support Spine - 2025-2026
 

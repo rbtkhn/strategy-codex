@@ -37,7 +37,6 @@ WORK_JIANG = Path("codex/predictive-history")
 COMPRESSIONS = WORK_JIANG / "compressions"
 SCHEMA_REL = "codex/predictive-history/schemas/jiang-compression-v1.schema.json"
 
-
 class Colors:
     HEADER = "\033[95m"
     OKBLUE = "\033[94m"
@@ -47,10 +46,8 @@ class Colors:
     ENDC = "\033[0m"
     BOLD = "\033[1m"
 
-
 def user_profile_dir(repo_root: Path, user_id: str) -> Path:
     return repo_root / "platform/users" / user_id
-
 
 def load_minimal_core(profile: Path) -> dict:
     path = profile / "seed" / "minimal-core.json"
@@ -62,19 +59,16 @@ def load_minimal_core(profile: Path) -> dict:
     except (json.JSONDecodeError, OSError):
         return {}
 
-
 def founding_intent_rel_path(user_id: str) -> str | None:
     rel = f"platform/users/{user_id}/archive/queues/reflection-proposals/SEED-founding-intent.md"
     if (REPO_ROOT / rel).is_file():
         return rel
     return None
 
-
 def slugify_title(title: str) -> str:
     s = title.lower().strip()
     s = re.sub(r"[^a-z0-9]+", "-", s)
     return s.strip("-")[:80] or "compression"
-
 
 def run_compression_checklist() -> None:
     print(f"\n{Colors.BOLD}=== Compression checklist (operator) ==={Colors.ENDC}")
@@ -92,11 +86,9 @@ def run_compression_checklist() -> None:
             sys.exit(1)
     print(f"{Colors.OKGREEN}Checklist passed.{Colors.ENDC}\n")
 
-
 def confirm(question: str) -> bool:
     answer = input(f"{question} (y/N) ").strip().lower()
     return answer == "y"
-
 
 def read_raw_content(repo_root: Path, input_path: Path | None) -> str:
     if input_path is not None:
@@ -120,7 +112,6 @@ def read_raw_content(repo_root: Path, input_path: Path | None) -> str:
         lines.append(line)
     return "\n".join(lines).strip()
 
-
 def prompt_category() -> str:
     print("\nCategory: operational | analytical | synthesis | other")
     while True:
@@ -128,7 +119,6 @@ def prompt_category() -> str:
         if c in CATEGORIES:
             return c
         print(f"{Colors.WARNING}Invalid. Choose one of: {', '.join(sorted(CATEGORIES))}{Colors.ENDC}")
-
 
 def core_facts_referenced(minimal_core: dict, raw_content: str) -> list[str]:
     raw_lower = raw_content.lower()
@@ -143,7 +133,6 @@ def core_facts_referenced(minimal_core: dict, raw_content: str) -> list[str]:
         if words and any(w.lower() in raw_lower for w in words if len(w) > 2):
             out.append(f)
     return out
-
 
 def append_daily_intention_compression(
     repo_root: Path, user_id: str, title: str, one_sentence: str
@@ -165,7 +154,6 @@ def append_daily_intention_compression(
             encoding="utf-8",
         )
     print(f"{Colors.OKGREEN}Appended to{Colors.ENDC} {path.relative_to(repo_root)}")
-
 
 def build_gate_stub(
     *,
@@ -196,7 +184,6 @@ compression_artifact: {output_rel}
 
 _Paste above into platform/users/{user_id}/recursion-gate.md only if Record merge is intended; otherwise keep compression in work-jiang only._
 """
-
 
 def write_compression_json(
     repo_root: Path,
@@ -238,7 +225,6 @@ def write_compression_json(
     payload["compressedLength"] = len(text)
     out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
     return out_path
-
 
 def run_interactive(
     repo_root: Path,
@@ -335,7 +321,6 @@ def run_interactive(
             )
         )
 
-
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -373,7 +358,6 @@ def main() -> None:
     except KeyboardInterrupt:
         print(f"\n{Colors.WARNING}Interrupted.{Colors.ENDC}")
         sys.exit(130)
-
 
 if __name__ == "__main__":
     main()

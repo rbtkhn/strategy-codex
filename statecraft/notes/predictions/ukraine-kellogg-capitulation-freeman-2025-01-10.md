@@ -7,9 +7,8 @@ stance: no
 confidence: high
 source: source-archive/statecraft/2025-01-10/source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md
 speech_act: initial
+status: resolved
 ---
-
-WORK only; not Record.
 
 # Freeman — Ukraine Kellogg capitulation (2025-01-10)
 

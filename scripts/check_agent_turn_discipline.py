@@ -34,7 +34,6 @@ HARD_RULES = frozenset(
     }
 )
 
-
 @dataclass
 class Violation:
     rule_id: str
@@ -42,7 +41,6 @@ class Violation:
     line_no: int
     detail: str
     severity: str = "hard"  # hard | warn
-
 
 @dataclass
 class DisciplineReport:
@@ -59,13 +57,11 @@ class DisciplineReport:
     def warn_count(self) -> int:
         return sum(1 for v in self.violations if v.severity == "warn")
 
-
 def _configure_utf8_stdio() -> None:
     for stream in (sys.stdout, sys.stderr):
         reconfigure = getattr(stream, "reconfigure", None)
         if callable(reconfigure):
             reconfigure(encoding="utf-8", errors="replace")
-
 
 def normalize_path(raw: str | None) -> str:
     if not raw or not str(raw).strip():
@@ -74,7 +70,6 @@ def normalize_path(raw: str | None) -> str:
         return str(Path(str(raw)).resolve()).replace("\\", "/").lower()
     except (OSError, ValueError):
         return str(raw).replace("\\", "/").lower()
-
 
 def _tool_uses(message: dict[str, Any] | None) -> list[dict[str, Any]]:
     if not isinstance(message, dict):
@@ -88,7 +83,6 @@ def _tool_uses(message: dict[str, Any] | None) -> list[dict[str, Any]]:
             out.append(block)
     return out
 
-
 def _tool_path(block: dict[str, Any]) -> str:
     inp = block.get("input")
     if not isinstance(inp, dict):
@@ -99,7 +93,6 @@ def _tool_path(block: dict[str, Any]) -> str:
             return normalize_path(str(val))
     return ""
 
-
 def _tool_command_preview(block: dict[str, Any], limit: int = 80) -> str:
     inp = block.get("input")
     if not isinstance(inp, dict):
@@ -109,7 +102,6 @@ def _tool_command_preview(block: dict[str, Any], limit: int = 80) -> str:
         return ""
     text = " ".join(str(cmd).split())
     return text if len(text) <= limit else text[: limit - 1] + "…"
-
 
 def analyze_assistant_turn(
     turn_index: int,
@@ -210,7 +202,6 @@ def analyze_assistant_turn(
 
     return violations
 
-
 def find_latest_transcript(
     *,
     project_slug: str = "strategy-codex",
@@ -232,7 +223,6 @@ def find_latest_transcript(
     if not candidates:
         return None
     return max(candidates, key=lambda p: p.stat().st_mtime)
-
 
 def scan_transcript(
     path: Path,
@@ -275,7 +265,6 @@ def scan_transcript(
 
     return report
 
-
 def format_markdown_lines(report: DisciplineReport) -> list[str]:
     lines = ["## Agent turn discipline", ""]
     if report.error:
@@ -315,7 +304,6 @@ def format_markdown_lines(report: DisciplineReport) -> list[str]:
 
     lines.append("")
     return lines
-
 
 def main() -> int:
     _configure_utf8_stdio()
@@ -385,7 +373,6 @@ def main() -> int:
     if report.error:
         return 2
     return 1 if report.hard_count else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

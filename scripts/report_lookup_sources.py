@@ -19,7 +19,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USER = "grace-mar"
 DEFAULT_DAYS = 30
 
-
 def _parse_jsonl(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -33,7 +32,6 @@ def _parse_jsonl(path: Path) -> list[dict]:
             pass
     return rows
 
-
 def _ts_in_window(ts_str: str, cutoff: datetime) -> bool:
     if not ts_str:
         return False
@@ -44,7 +42,6 @@ def _ts_in_window(ts_str: str, cutoff: datetime) -> bool:
         return dt >= cutoff
     except (ValueError, TypeError):
         return False
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(
@@ -93,7 +90,6 @@ def main() -> None:
             if src not in ("library", "cmc", "full", "unknown"):
                 pct = 100.0 * n / total if total else 0
                 print(f"  {src:12} {n:4} ({pct:5.1f}%)")
-
 
 if __name__ == "__main__":
     main()

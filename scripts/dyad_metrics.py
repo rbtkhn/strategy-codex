@@ -24,7 +24,6 @@ DEFAULT_DAYS = 7
 # library_lookup + lookup_factual are intermediate steps.
 CONSULTATION_BUCKET = "lookup_rephrase"
 
-
 def _parse_jsonl(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -38,7 +37,6 @@ def _parse_jsonl(path: Path) -> list[dict]:
             pass
     return rows
 
-
 def _ts_in_window(ts_str: str, cutoff: datetime) -> bool:
     if not ts_str:
         return False
@@ -49,7 +47,6 @@ def _ts_in_window(ts_str: str, cutoff: datetime) -> bool:
         return dt >= cutoff
     except (ValueError, TypeError):
         return False
-
 
 def compute_dyad_metrics(profile_dir: Path, days: int) -> dict:
     """Compute dyad metrics from COMPUTE-LEDGER and PIPELINE-EVENTS."""
@@ -94,7 +91,6 @@ def compute_dyad_metrics(profile_dir: Path, days: int) -> dict:
         "dyad_score": dyad_score,
     }
 
-
 def report(metrics: dict, user: str, days: int) -> str:
     """Human-readable report."""
     return "\n".join(
@@ -114,7 +110,6 @@ def report(metrics: dict, user: str, days: int) -> str:
         ]
     )
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="Dyad metrics for Grace-Mar")
     parser.add_argument("--user", "-u", default=DEFAULT_USER, help="User id")
@@ -133,7 +128,6 @@ def main() -> None:
         print(json.dumps(metrics, indent=2))
     else:
         print(report(metrics, args.user, args.days))
-
 
 if __name__ == "__main__":
     main()

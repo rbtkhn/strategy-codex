@@ -1,6 +1,5 @@
 # arc-johnson-nima-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-johnson-nima-host.md](../../notes/arc-johnson-nima-host.md)
 

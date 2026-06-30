@@ -1,6 +1,5 @@
 # Weichert profile — compatibility redirect
 
-WORK only; not Record.
 
 **Canonical profile (SSOT):** [`statecraft/voices/weichert/weichert-profile.md`](../../statecraft/voices/weichert/weichert-profile.md)
 

@@ -1,6 +1,5 @@
 # State Skill Stack Doctrine
 
-WORK only; not Record.
 
 This note defines the constitutional split between the academy-statecraft deployment surface and the lane surfaces.
 

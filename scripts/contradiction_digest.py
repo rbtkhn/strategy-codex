@@ -62,24 +62,19 @@ _STOPWORDS = {
     "your",
 }
 
-
 def _profile_root(users_dir: Path, user_id: str) -> Path:
     return profile_dir(user_id) if users_dir == DEFAULT_USERS_DIR else users_dir / user_id
-
 
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
 
-
 def _strip_quotes(value: str) -> str:
     return value.strip().strip("\"'")
 
-
 def _normalize(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", (text or "").lower()).strip()
-
 
 def _tokenize(text: str) -> list[str]:
     out: list[str] = []
@@ -89,13 +84,11 @@ def _tokenize(text: str) -> list[str]:
         out.append(token)
     return out
 
-
 def _extract_scalar(yaml_body: str, key: str) -> str:
     match = re.search(rf"^{re.escape(key)}:\s*(.+)$", yaml_body, re.MULTILINE)
     if not match:
         return ""
     return _strip_quotes(match.group(1))
-
 
 def _extract_block(yaml_body: str, key: str) -> str:
     lines = yaml_body.splitlines()
@@ -125,7 +118,6 @@ def _extract_block(yaml_body: str, key: str) -> str:
         out.append(line[base_indent + 2 :] if indent >= base_indent + 2 else line.strip())
     return "\n".join(out).strip()
 
-
 def _load_personality_opposites() -> list[tuple[str, str]]:
     if not RULES_PATH.exists():
         return []
@@ -137,7 +129,6 @@ def _load_personality_opposites() -> list[tuple[str, str]]:
         if left and right:
             pairs.append((left.lower(), right.lower()))
     return pairs
-
 
 def _self_personality_summary(self_text: str) -> str:
     parts: list[str] = []
@@ -154,10 +145,8 @@ def _self_personality_summary(self_text: str) -> str:
             parts.append(obs.group(1).strip().lower())
     return " ".join(parts)
 
-
 def _word_present(word: str, text: str) -> bool:
     return bool(re.search(rf"\b{re.escape(word)}\b", text))
-
 
 def _parse_candidate_rows(users_dir: Path, user_id: str) -> tuple[list[dict[str, Any]], str]:
     user_root = _profile_root(users_dir, user_id)
@@ -191,7 +180,6 @@ def _parse_candidate_rows(users_dir: Path, user_id: str) -> tuple[list[dict[str,
         )
     return rows, self_text
 
-
 def _duplicate_hints(row: dict[str, Any], self_text: str) -> list[str]:
     hints: list[str] = []
     summary = str(row.get("summary") or "")
@@ -219,7 +207,6 @@ def _duplicate_hints(row: dict[str, Any], self_text: str) -> list[str]:
         seen.add(hint)
         deduped.append(hint)
     return deduped[:3]
-
 
 def _personality_conflicts(row: dict[str, Any], self_text: str) -> list[dict[str, Any]]:
     if str(row.get("mind_category") or "").lower() != "personality":
@@ -252,7 +239,6 @@ def _personality_conflicts(row: dict[str, Any], self_text: str) -> list[dict[str
             )
     return conflicts
 
-
 def _overlap_summary(row: dict[str, Any], self_text: str) -> dict[str, Any]:
     candidate_text = " ".join(
         str(row.get(key) or "")
@@ -269,7 +255,6 @@ def _overlap_summary(row: dict[str, Any], self_text: str) -> dict[str, Any]:
         "ratio": round(ratio, 4),
         "keywords": overlap[:8],
     }
-
 
 def _classify_relation(
     row: dict[str, Any],
@@ -310,10 +295,8 @@ def _classify_relation(
 
     return "reinforcement", reasons[:4], duplicate_hints, personality_conflicts, overlap
 
-
 def default_digest_path(*, users_dir: Path = DEFAULT_USERS_DIR, user_id: str = DEFAULT_USER) -> Path:
     return _profile_root(users_dir, user_id) / "derived" / "contradictions" / "auto-dream-digest.json"
-
 
 def generate_contradiction_digest(
     *,
@@ -382,7 +365,6 @@ def generate_contradiction_digest(
         digest["digest_path"] = str(write_path)
     return digest
 
-
 def _default_prompt_section(entry: dict[str, Any]) -> str:
     prompt_section = str(entry.get("prompt_section") or "").strip()
     if prompt_section:
@@ -393,7 +375,6 @@ def _default_prompt_section(entry: dict[str, Any]) -> str:
     if mind_category == "personality":
         return "YOUR PERSONALITY"
     return "YOUR KNOWLEDGE"
-
 
 def _default_profile_target(entry: dict[str, Any]) -> str:
     profile_target = str(entry.get("profile_target") or "").strip()
@@ -406,14 +387,12 @@ def _default_profile_target(entry: dict[str, Any]) -> str:
         return "IX-C. PERSONALITY"
     return "IX-A. KNOWLEDGE"
 
-
 def _priority_score(value: Any) -> int:
     try:
         parsed = int(str(value).strip())
     except (TypeError, ValueError):
         return 3
     return min(5, max(1, parsed))
-
 
 def _source_exchange_map(entry: dict[str, Any]) -> dict[str, str]:
     out: dict[str, str] = {}
@@ -424,7 +403,6 @@ def _source_exchange_map(entry: dict[str, Any]) -> dict[str, str]:
     if example and example != source_exchange:
         out["candidate_example"] = example
     return out
-
 
 def build_promotable_artifact(entry: dict[str, Any]) -> tuple[dict[str, Any] | None, list[str]]:
     source_exchange = _source_exchange_map(entry)
@@ -483,7 +461,6 @@ def build_promotable_artifact(entry: dict[str, Any]) -> tuple[dict[str, Any] | N
         "raw_source_exchange": source_exchange,
     }, []
 
-
 def write_artifact_drafts(
     digest: dict[str, Any],
     *,
@@ -517,7 +494,6 @@ def write_artifact_drafts(
         )
     return results
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build a derived contradiction digest from recursion-gate.")
     parser.add_argument("--user", "-u", default=DEFAULT_USER, help="User id (default: grace-mar)")
@@ -546,7 +522,6 @@ def main() -> int:
             f"contradiction={relation_counts['contradiction']}"
         )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

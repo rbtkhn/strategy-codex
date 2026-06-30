@@ -31,7 +31,6 @@ TERRITORY_HISTORIES = [
     "docs/skill-work/work-dev/work-dev-history.md",
 ]
 
-
 def _optional_second_repo() -> Path | None:
     """If set, show git status for a sibling instance repo (multi-root workflows)."""
     env = os.environ.get("GRACE_MAR_INSTANCE_ROOT", "").strip()
@@ -40,7 +39,6 @@ def _optional_second_repo() -> Path | None:
         if p.is_dir() and (p / ".git").exists():
             return p
     return None
-
 
 def _run_git(cwd: Path, *args: str) -> str:
     try:
@@ -61,7 +59,6 @@ def _run_git(cwd: Path, *args: str) -> str:
     except subprocess.TimeoutExpired:
         return "(git timeout)"
 
-
 def _checklist(user_id: str) -> list[tuple[str, bool]]:
     uid = user_id.strip()
     rows: list[tuple[str, bool]] = []
@@ -80,7 +77,6 @@ def _checklist(user_id: str) -> list[tuple[str, bool]]:
         p = REPO_ROOT / rel
         rows.append((rel, p.is_file()))
     return rows
-
 
 def _emit_template(mode: str) -> None:
     print(
@@ -118,7 +114,6 @@ _(mode: {mode})_
 Paste this into the target agent session as context for analysis; do not treat it as a fresh-session initializer.
 """
     )
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -192,7 +187,6 @@ def main() -> int:
         return r.returncode
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

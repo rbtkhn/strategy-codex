@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (4), `Nima Alkhorshid` (3), `Alexander Mercouris` (1)
 - Guests: `Scott Ritter` (2), `Seyed M. Marandi` (2), `Chas Freeman` (1), `Jacques Baud` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `US Iran Sea Blockade` (1)
-- Threads: `davis` (4), `alkorshid` (2), `marandi` (2), `ritter` (2), `baud` (1), `freeman` (1), `johnson` (1), `mearsheimer` (1), `mercouris` (1), `simplicius` (1)
+- Threads: `davis` (4), `alkhorshid` (2), `marandi` (2), `ritter` (2), `baud` (1), `freeman` (1), `johnson` (1), `mearsheimer` (1), `mercouris` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -38,8 +38,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [watch](https://www.youtube.com/watch?v=VzRYsIdG7uk) | `source-daniel-davis-professor-seyed-marandi-why-the-iran-talks-failed-2026-04-13.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [watch](https://www.youtube.com/watch?v=Zi5nNHNiYuU) | `source-daniel-davis-scott-ritter-trump-s-blockade-is-a-joke-2026-04-13.md` |
 | `dialogue-works` | Dialogue Works | `baud` | [3mtsBSkqW7M](https://www.youtube.com/watch?v=3mtsBSkqW7M) | `source-dialogue-works-col-jacques-baud-eu-destroys-trump-s-war-fantasy-leaves-him-humiliated-2026-04-13.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `johnson` | [watch](https://www.youtube.com/watch?v=zGjabXPGUv4) | `source-dialogue-works-larry-johnson-will-trump-s-iran-port-blockade-work-or-end-in-total-disas-2026-04-13.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=-zLI8STtzB0) | `source-dialogue-works-seyed-m-marandi-us-blockade-on-iran-just-triggered-iran-s-harshest-respo-2026-04-13.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `johnson` | [watch](https://www.youtube.com/watch?v=zGjabXPGUv4) | `source-dialogue-works-larry-johnson-will-trump-s-iran-port-blockade-work-or-end-in-total-disas-2026-04-13.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=-zLI8STtzB0) | `source-dialogue-works-seyed-m-marandi-us-blockade-on-iran-just-triggered-iran-s-harshest-respo-2026-04-13.md` |
 
 ## Writer sources
 

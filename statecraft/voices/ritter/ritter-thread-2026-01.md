@@ -1,7 +1,6 @@
 # Expert thread — `ritter` — `2026-01`
 <!-- word_count: 857 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 

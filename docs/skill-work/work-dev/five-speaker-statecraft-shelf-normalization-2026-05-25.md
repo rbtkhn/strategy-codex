@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Five-speaker statecraft shelf normalization - 2026-05-25
 

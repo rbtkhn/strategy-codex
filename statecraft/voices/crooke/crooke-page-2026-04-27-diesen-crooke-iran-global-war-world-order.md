@@ -1,6 +1,5 @@
 # Crooke refined page — 2026-04-27 (guest lane)
 
-WORK only; not Record.
 
 **Expert:** `crooke` · **Host (same air):** Glenn Diesen · **Published:** 2026-04-27 · **Capture:** two-expert YT (Greater Eurasia) · **Artifact:** guest-lane pointer — host-lane page holds verbatim spine.
 

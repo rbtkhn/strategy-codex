@@ -51,7 +51,6 @@ JAN_21_CAPTURE = (
     "source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md"
 )
 
-
 def load_thesis_map(path: Path | None = None) -> dict[str, dict[str, Any]]:
     target = path or THESIS_MAP_PATH
     data = json.loads(target.read_text(encoding="utf-8"))
@@ -59,28 +58,23 @@ def load_thesis_map(path: Path | None = None) -> dict[str, dict[str, Any]]:
         raise ValueError("thesis map must be a JSON object")
     return data
 
-
 def pilot_event_sort_key(event_id: str) -> tuple[int, str]:
     try:
         return (FREEMAN_PILOT_EVENT_ORDER.index(event_id), event_id)
     except ValueError:
         return (999, event_id)
 
-
 def match_text(haystack: str, pattern: str) -> bool:
     return pattern.casefold() in haystack.casefold()
 
-
 def patterns_match(text: str, patterns: list[str]) -> bool:
     return any(match_text(text, pat) for pat in patterns)
-
 
 def parse_register_capture_paths(register_path: Path) -> list[str]:
     if not register_path.is_file():
         return []
     text = register_path.read_text(encoding="utf-8", errors="replace")
     return sorted(set(ARCHIVE_LINK_RE.findall(text)))
-
 
 def extract_quote_stub(note_text: str) -> str:
     lines = note_text.splitlines()
@@ -97,7 +91,6 @@ def extract_quote_stub(note_text: str) -> str:
             if stripped:
                 chunks.append(stripped)
     return " ".join(chunks)[:240] if chunks else ""
-
 
 def iso_now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")

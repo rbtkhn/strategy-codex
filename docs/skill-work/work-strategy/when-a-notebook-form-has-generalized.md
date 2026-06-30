@@ -1,6 +1,5 @@
 # When a Notebook Form Has Generalized
 
-WORK only; not Record.
 
 A notebook form has not truly generalized just because it survives repetition inside one stream.
 

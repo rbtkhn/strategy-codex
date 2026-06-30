@@ -12,7 +12,6 @@ archive_links:
   - statecraft/notes/us-israel-military-integration-captured-command-risk.md
 ---
 
-WORK only; not Record.
 
 # Barnes, Johnson, Aguilar, and Kent On Section 224
 

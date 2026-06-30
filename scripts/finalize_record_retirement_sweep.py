@@ -23,7 +23,6 @@ REPLACEMENTS = (
 
 LIB_RE = re.compile(r"LIB-\d+")
 
-
 def _targets() -> list[Path]:
     roots = ("codex", "docs", "singularity", "skills", ".cursor", "library", "statecraft", "research")
     out: list[Path] = []
@@ -44,7 +43,6 @@ def _targets() -> list[Path]:
             out.append(p)
     return sorted(set(out))
 
-
 def main() -> int:
     changed = 0
     for path in _targets():
@@ -59,7 +57,6 @@ def main() -> int:
             print(path.relative_to(REPO_ROOT))
     print(f"finalize_record_retirement_sweep: {changed} file(s)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

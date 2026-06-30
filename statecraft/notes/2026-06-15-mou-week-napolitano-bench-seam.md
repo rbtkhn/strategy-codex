@@ -18,7 +18,6 @@ archive_links:
 ---
 # Jun 15 MOU-week — Napolitano bench seam (Crooke / McGovern / Sachs / Pape)
 
-WORK only; not Record.
 
 **Pub date:** 2026-06-15  
 **Parent:** [June 2026 opening watchlist](./june-2026-opening-watchlist.md) · [McGovern source index](../voices/mcgovern/mcgovern-source-index.md)

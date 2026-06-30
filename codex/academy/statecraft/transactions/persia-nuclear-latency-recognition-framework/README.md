@@ -1,6 +1,6 @@
 # Iran Nuclear Latency Recognition Framework
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: compare one crisis object across the four academy-statecraft national lanes. This framework tests whether Iran's nuclear latency can be converted from an escalation trigger into a bounded recognition, inspection, restraint, and non-regime-change bargain.
 

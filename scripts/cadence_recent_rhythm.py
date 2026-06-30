@@ -15,7 +15,6 @@ except ImportError:
     from scripts.audit_cadence_rhythm import EVENTS_PATH, compute_coffee_recursion_summary, parse_events
     from scripts.repo_io import DEFAULT_USER_ID
 
-
 def _as_list(value: Any) -> list[str]:
     if isinstance(value, list):
         return [str(v).strip() for v in value if str(v).strip()]
@@ -23,10 +22,8 @@ def _as_list(value: Any) -> list[str]:
         return []
     return [part.strip() for part in str(value).split(",") if part.strip()]
 
-
 def _normalize_repo_path(value: str) -> str:
     return str(value).strip().replace("\\", "/").rstrip("/")
-
 
 def _artifacts_overlap_changed_paths(
     artifacts: list[str] | tuple[str, ...] | None,
@@ -47,7 +44,6 @@ def _artifacts_overlap_changed_paths(
         ):
             return True
     return False
-
 
 def _summarize_event(event: dict[str, Any]) -> str:
     kind = str(event.get("kind") or "")
@@ -86,7 +82,6 @@ def _summarize_event(event: dict[str, Any]) -> str:
         conductor = kv.get("conductor") or "the conductor arc"
         return f"we closed {conductor} with a {verdict} outcome"
     return f"we logged {kind}"
-
 
 def format_coffee_recent_rhythm(
     user_id: str,
@@ -139,7 +134,6 @@ def format_coffee_recent_rhythm(
 
     return "\n".join(lines[:5])
 
-
 def format_dream_recent_rhythm(
     user_id: str,
     *,
@@ -183,7 +177,6 @@ def format_dream_recent_rhythm(
 
     return f"Recent rhythm: {body}. {inherit}"
 
-
 def build_recent_rhythm(
     user_id: str,
     *,
@@ -206,7 +199,6 @@ def build_recent_rhythm(
         )
     raise ValueError(f"Unsupported ritual: {ritual}")
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Format recent cadence rhythm for coffee or dream.")
     parser.add_argument("-u", "--user", default=DEFAULT_USER_ID)
@@ -225,7 +217,6 @@ def main() -> int:
         )
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

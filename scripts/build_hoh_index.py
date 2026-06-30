@@ -26,7 +26,6 @@ LABEL_RE = re.compile(
     r"- \[([^\]]+)\]\([^)]*/([^/)]+)\)"
 )
 
-
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:5000]
     out: dict = {}
@@ -40,7 +39,6 @@ def parse_head(path: Path) -> dict:
             out["title"] = hm.group(1).strip()
     return out
 
-
 def pub_date_key(meta: dict, path: Path) -> str:
     pub = meta.get("pub_date", "")
     if pub and len(pub) >= 10:
@@ -50,16 +48,13 @@ def pub_date_key(meta: dict, path: Path) -> str:
         return day
     return day
 
-
 def is_aired_pending(path: Path) -> bool:
     return path.parent.name == "_aired-pending"
-
 
 def archive_rel_link(path: Path) -> str:
     if is_aired_pending(path):
         return f"../../../source-archive/statecraft/_aired-pending/{path.name}"
     return f"../../../source-archive/statecraft/{path.parent.name}/{path.name}"
-
 
 def slug_label(path: Path) -> str:
     stem = path.name.removesuffix(".md")
@@ -77,7 +72,6 @@ def slug_label(path: Path) -> str:
         return f"youtube-daniel-davis-deep-dive-{rest}"
     return stem.removeprefix("source-")
 
-
 def load_label_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
         return {}
@@ -90,7 +84,6 @@ def load_label_map(index_path: Path) -> dict[str, str]:
         if len(m.group(1)) > len(out.get(fn, "")):
             out[fn] = m.group(1)
     return out
-
 
 def load_annotation_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
@@ -108,12 +101,10 @@ def load_annotation_map(index_path: Path) -> dict[str, str]:
             out[fn] = suffix
     return out
 
-
 def row_label(path: Path, labels: dict[str, str]) -> str:
     text = labels.get(path.name) or slug_label(path)
     rel = archive_rel_link(path)
     return f"- [{text}]({rel})"
-
 
 def collect_rows() -> list[tuple[str, Path, dict]]:
     rows: list[tuple[str, Path, dict]] = []
@@ -127,7 +118,6 @@ def collect_rows() -> list[tuple[str, Path, dict]]:
     rows.sort(key=lambda t: (t[0], t[1].name))
     return rows
 
-
 def render_boundary() -> list[str]:
     return [
         "## Boundary notes",
@@ -138,7 +128,6 @@ def render_boundary() -> list[str]:
         "- Host arcs (Napolitano, Dialogue Works, Davis) own first-open transformations; this index lists every eligible archive capture for parity.",
         "",
     ]
-
 
 def render_index(
     rows: list[tuple[str, Path, dict]],
@@ -158,8 +147,7 @@ def render_index(
     lines = [
         "# Hoh Source Index",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         "Purpose: exhaustive route map for every resolved Matthew Hoh appearance currently materialized in Statecraft Archive.",
         "",
         "**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index hoh` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)",
@@ -197,7 +185,6 @@ def render_index(
     lines.extend(render_boundary())
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="Print row count only")
@@ -220,7 +207,6 @@ def main() -> int:
     OUT.write_text(body if body.endswith("\n") else body + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {OUT} ({len(rows)} rows, {len(labels)} labels preserved)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

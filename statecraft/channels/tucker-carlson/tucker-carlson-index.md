@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Tucker Carlson Index (compat redirect)
 

@@ -1,6 +1,5 @@
 # Legacy Successor Map
 
-WORK only; not Record.
 
 `work-strategy` is now a **legacy compatibility surface**, not the canonical operator judgment owner.
 

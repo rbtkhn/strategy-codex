@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (4), `Andrew Napolitano` (2), `Alastair Crooke` (1), `Dimitri Lascaris` (1), `Glenn Diesen` (1), `Sulaiman Ahmed` (1)
 - Guests: `Larry Johnson` (2), `Alex Krainer` (1), `Andrei Martyanov` (1), `Anthony Aguilar` (1), `Douglas Macgregor` (1), `Max Blumenthal` (1), `Patrick Henningsen` (1), `Stanislav Krapivnik` (1), `[]` (1)
-- Threads: `alkorshid` (4), `johnson` (2), `napolitano` (2), `aguilar` (1), `blumenthal` (1), `crooke` (1), `davis` (1), `diesen` (1), `henningsen` (1), `krainer` (1), `krapivnik` (1), `lascaris` (1), `macgregor` (1), `martyanov` (1), `mercouris` (1), `moral-resistance` (1)
+- Threads: `alkhorshid` (4), `johnson` (2), `napolitano` (2), `aguilar` (1), `blumenthal` (1), `crooke` (1), `davis` (1), `diesen` (1), `henningsen` (1), `krainer` (1), `krapivnik` (1), `lascaris` (1), `macgregor` (1), `martyanov` (1), `mercouris` (1), `moral-resistance` (1)
 
 ## Channel sources
 
@@ -34,10 +34,10 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [8OgsCBK2gdc](https://www.youtube.com/watch?v=8OgsCBK2gdc) | `source-alexander-mercouris-russia-warns-iran-beware-us-trap-mou-iran-terms-2026-06-18.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [M987L0MkUu4](https://www.youtube.com/watch?v=M987L0MkUu4) | `source-daniel-davis-tough-road-iran-deal-lays-out-2026-06-18.md` |
-| `dialogue-works` | Dialogue Works | `krainer`, `alkorshid` | [Rrt7GZT7kwI](https://www.youtube.com/watch?v=Rrt7GZT7kwI) | `source-dialogue-works-alex-krainer-trump-scolds-netanyahu-iran-oil-sanctions-lifted-2026-06-18.md` |
-| `dialogue-works` | Dialogue Works | `martyanov`, `alkorshid` | [2QWkT0fs5bY](https://www.youtube.com/watch?v=2QWkT0fs5bY) | `source-dialogue-works-andrei-martyanov-israel-just-dealt-defeat-to-us-2026-06-18.md` |
-| `dialogue-works` | Dialogue Works | `johnson`, `alkorshid` | [CkCnhwTp5Rw](https://www.youtube.com/watch?v=CkCnhwTp5Rw) | `source-dialogue-works-larry-johnson-iran-cancels-negotiations-israel-bombs-lebanon-2026-06-18.md` |
-| `dialogue-works` | Dialogue Works | `johnson`, `alkorshid` | [sEoIzK51T3U](https://www.youtube.com/watch?v=sEoIzK51T3U) | `source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md` |
+| `dialogue-works` | Dialogue Works | `krainer`, `alkhorshid` | [Rrt7GZT7kwI](https://www.youtube.com/watch?v=Rrt7GZT7kwI) | `source-dialogue-works-alex-krainer-trump-scolds-netanyahu-iran-oil-sanctions-lifted-2026-06-18.md` |
+| `dialogue-works` | Dialogue Works | `martyanov`, `alkhorshid` | [2QWkT0fs5bY](https://www.youtube.com/watch?v=2QWkT0fs5bY) | `source-dialogue-works-andrei-martyanov-israel-just-dealt-defeat-to-us-2026-06-18.md` |
+| `dialogue-works` | Dialogue Works | `johnson`, `alkhorshid` | [CkCnhwTp5Rw](https://www.youtube.com/watch?v=CkCnhwTp5Rw) | `source-dialogue-works-larry-johnson-iran-cancels-negotiations-israel-bombs-lebanon-2026-06-18.md` |
+| `dialogue-works` | Dialogue Works | `johnson`, `alkhorshid` | [sEoIzK51T3U](https://www.youtube.com/watch?v=sEoIzK51T3U) | `source-dialogue-works-larry-johnson-jd-vance-slams-netanyahu-government-2026-06-18.md` |
 | `glenn-diesen` | Glenn Diesen | `krapivnik`, `diesen` | [DpVf1p9vbLM](https://www.youtube.com/watch?v=DpVf1p9vbLM) | `source-glenn-diesen-stanislav-krapivnik-russia-offensive-gains-speed-anger-moscow-2026-06-18.md` |
 | `judging-freedom` | Judging Freedom | `blumenthal`, `napolitano` | [gqGpIngzUis](https://www.youtube.com/watch?v=gqGpIngzUis) | `source-judging-freedom-blumenthal-israel-in-panic-2026-06-18.md` |
 | `judging-freedom` | Judging Freedom | `macgregor`, `napolitano` | [1CJPok38hYA](https://www.youtube.com/watch?v=1CJPok38hYA) | `source-judging-freedom-macgregor-israel-the-real-loser-2026-06-18.md` |

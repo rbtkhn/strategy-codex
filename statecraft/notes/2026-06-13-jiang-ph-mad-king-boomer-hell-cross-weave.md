@@ -12,7 +12,6 @@ archive_links:
   - source-archive/statecraft/2026-06-13/source-glenn-diesen-trita-parsi-iran-war-mou-deportation-threat-2026-06-13.md
   - source-archive/statecraft/2026-06-13/README.md
 ---
-WORK only; not Record.
 
 # Jiang PH Cross-Weave — *Mad King Trump* × *Boomer Hell* — 2026-05-23 → 2026-06-13
 

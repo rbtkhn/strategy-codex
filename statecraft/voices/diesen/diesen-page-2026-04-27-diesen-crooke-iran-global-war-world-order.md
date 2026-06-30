@@ -1,7 +1,6 @@
 # Diesen refined page — 2026-04-27 (host lane)
 <!-- word_count: host lines from raw; see Reflection for analysis -->
 
-WORK only; not Record.
 
 **Expert:** `diesen` · **Guest (same air):** Alastair Crooke (Conflicts Forum) · **Published:** 2026-04-27 · **Capture:** two-expert YT (Greater Eurasia) · **Artifact:** refined page — **host lane** (interview craft + show thesis). Sibling **guest-lane** capture: [crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md](../../../../../../../../../../../../crooke/crooke-page-2026-04-27-diesen-crooke-iran-global-war-world-order.md. Not a `strategy-page` HTML fence in `thread.md` unless duplicated during EOD compose.
 

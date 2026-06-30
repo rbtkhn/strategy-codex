@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 ## Assistant Session-State Clarity Contract
 
-WORK only; not Record.
 
 This note defines a short operating contract for assistant behavior during long repo sessions. Its purpose is to reduce trust drag by making execution state easy to read, especially when inspection, drafting, implementation, verification, and closeout happen across several turns.
 

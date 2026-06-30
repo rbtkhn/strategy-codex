@@ -16,7 +16,6 @@ tags:
 ---
 # CIV-STATE Essay
 
-**WORK only; not Record.**
 
 **Activation:** `civ-state essay` · `civ-state-essay` · `essay prose pass` · `civic-chain pass` · **`humanizing pass`** · **`light prose pass`** · **`essay humanize`** (when class is clear)
 

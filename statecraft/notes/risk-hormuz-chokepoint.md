@@ -11,7 +11,6 @@ archive_links:
   - source-archive/statecraft/2026-03-24/source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md
   - source-archive/statecraft/2026-06-17/source-pape-day-60-hidden-deadline-official-trump-iran-agreement-2026-06-17.md
 ---
-WORK only; not Record.
 
 # Risk — Hormuz chokepoint (corpus register)
 

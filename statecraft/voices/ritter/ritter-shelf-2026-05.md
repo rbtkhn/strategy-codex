@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Ritter Shelf - 2026-05
 

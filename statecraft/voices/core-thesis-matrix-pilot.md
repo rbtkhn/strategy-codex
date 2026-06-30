@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Core Thesis Matrix Pilot
 

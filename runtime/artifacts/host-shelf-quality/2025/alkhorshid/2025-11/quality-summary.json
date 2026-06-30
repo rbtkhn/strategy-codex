@@ -2,7 +2,7 @@
   "schema_version": 1,
   "work_layer": true,
   "generated_date": "2026-05-20",
-  "host": "alkorshid",
+  "host": "alkhorshid",
   "year": 2025,
   "month": "2025-11",
   "input_scope": "full-host-month",
@@ -171,16 +171,16 @@
       "codex/years/2026/raw-input/2025-11-20/transcript-dialogue-works-andrei-martyanov-it-s-all-over-iran-russia-and-china-move-in-together-2025-11-20.md",
       "codex/years/2026/raw-input/2025-11-21/transcript-dialogue-works-larry-johnson-larry-c-johnson-col-larry-wilkerson-the-warning-signs-are-clear-war-is-coming-2025-11-21.md",
       "codex/years/2026/raw-input/2025-11-28/transcript-dialogue-works-ray-mcgovern-graham-e-fuller-ukraine-running-out-of-options-forced-peace-or-total-breakdown-2025-11-28.md",
-      "runtime/artifacts/host-shelf-quality/2025/alkorshid/2025-11/quality-summary.json",
-      "runtime/artifacts/host-shelf-quality/2025/alkorshid/2025-11/quality-summary.md"
+      "runtime/artifacts/host-shelf-quality/2025/alkhorshid/2025-11/quality-summary.json",
+      "runtime/artifacts/host-shelf-quality/2025/alkhorshid/2025-11/quality-summary.md"
     ],
     "on_disk": true,
     "verified": true,
     "committed": false,
     "pushed": false,
     "dirty_paths": [
-      "?? runtime/artifacts/host-shelf-quality/2025/alkorshid/2025-11/quality-summary.json",
-      "?? runtime/artifacts/host-shelf-quality/2025/alkorshid/2025-11/quality-summary.md",
+      "?? runtime/artifacts/host-shelf-quality/2025/alkhorshid/2025-11/quality-summary.json",
+      "?? runtime/artifacts/host-shelf-quality/2025/alkhorshid/2025-11/quality-summary.md",
       "?? codex/years/2026/raw-input/2025-11-07/transcript-dialogue-works-amb-chas-freeman-mamdani-s-victory-development-in-the-levant-and-the-wol-2025-11-07.md",
       "?? codex/years/2026/raw-input/2025-11-14/transcript-dialogue-works-amb-chas-freeman-global-power-shift-ukraine-central-asia-middle-east-ven-2025-11-14.md"
     ],

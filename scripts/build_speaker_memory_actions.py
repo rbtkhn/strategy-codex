@@ -27,7 +27,6 @@ from repo_io import ARTIFACTS_DIR
 
 import build_voice_routing_queue as routing  # noqa: E402
 
-
 DEFAULT_NOTEBOOK_ROOT = REPO_ROOT / "codex" / "years" / str(date.today().year)
 DEFAULT_OUT_DIR = ARTIFACTS_DIR / "speaker-memory-actions"
 ACTION_TYPES = {
@@ -38,7 +37,6 @@ ACTION_TYPES = {
     "consider-helix",
     "no-action",
 }
-
 
 @dataclass(frozen=True)
 class ActionDraft:
@@ -52,14 +50,11 @@ class ActionDraft:
     reason: str
     operator_instruction: str
 
-
 def _parse_date(value: str) -> date:
     return date.fromisoformat(value)
 
-
 def _window_slug(start: date, end: date) -> str:
     return f"{start.isoformat()}_to_{end.isoformat()}"
-
 
 def _load_jsonl(path: Path) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
@@ -68,7 +63,6 @@ def _load_jsonl(path: Path) -> list[dict[str, Any]]:
         if line:
             rows.append(routing.normalize_route_row(json.loads(line)))
     return rows
-
 
 def _action_id(action: ActionDraft) -> str:
     identity = "|".join(
@@ -82,14 +76,12 @@ def _action_id(action: ActionDraft) -> str:
     )
     return f"act-{hashlib.sha1(identity.encode('utf-8')).hexdigest()[:12]}"
 
-
 def _has_comparative_note(row: dict[str, Any]) -> bool:
     for path in row.get("also_strengthens") or []:
         stem = Path(str(path)).stem
         if stem.endswith("-cross-host-note") or "helix" in stem:
             return True
     return False
-
 
 def _speaker_helix_target(speaker_slug: str, speaker_rows: list[dict[str, Any]]) -> str:
     year = str(date.today().year)
@@ -101,13 +93,11 @@ def _speaker_helix_target(speaker_slug: str, speaker_rows: list[dict[str, Any]])
             break
     return f"statecraft/voices/{speaker_slug}/{speaker_slug}-helix.md"
 
-
 def _candidate_arc_target(row: dict[str, Any]) -> str:
     for path in row.get("also_strengthens") or []:
         if str(path).endswith("-speaker-arc.md"):
             return str(path)
     return str(row.get("recommended_route") or row.get("primary_route") or "")
-
 
 def _normalize_appearance(row: dict[str, Any]) -> dict[str, str]:
     appearance = dict(row.get("appearance") or {})
@@ -118,7 +108,6 @@ def _normalize_appearance(row: dict[str, Any]) -> dict[str, str]:
     appearance.setdefault("source_url", str(row.get("source_url") or ""))
     appearance.setdefault("raw_input_path", str(row.get("raw_input_path") or ""))
     return {key: str(value or "") for key, value in appearance.items()}
-
 
 def _draft_from_row(row: dict[str, Any], *, include_no_action: bool) -> ActionDraft | None:
     appearance = _normalize_appearance(row)
@@ -209,7 +198,6 @@ def _draft_from_row(row: dict[str, Any], *, include_no_action: bool) -> ActionDr
         )
     return None
 
-
 def _merge_actions(actions: list[ActionDraft]) -> list[dict[str, Any]]:
     grouped: dict[tuple[str, str, str, str], ActionDraft] = {}
     for action in actions:
@@ -249,7 +237,6 @@ def _merge_actions(actions: list[ActionDraft]) -> list[dict[str, Any]]:
         )
     return sorted(rows, key=lambda row: (row["priority"] != "high", row["action_type"], row["target_path"]))
 
-
 def build_rollup(rows: list[dict[str, Any]]) -> dict[str, Any]:
     speakers: dict[str, dict[str, Any]] = {}
     for row in rows:
@@ -270,7 +257,6 @@ def build_rollup(rows: list[dict[str, Any]]) -> dict[str, Any]:
         "speaker_count": len(speakers),
         "speakers": speakers,
     }
-
 
 def build_actions(rows: list[dict[str, Any]], *, include_no_action: bool = False) -> list[dict[str, Any]]:
     drafts = [
@@ -313,13 +299,11 @@ def build_actions(rows: list[dict[str, Any]], *, include_no_action: bool = False
 
     return _merge_actions(drafts)
 
-
 def _render_rollup_md(rollup: dict[str, Any], start: date, end: date) -> str:
     lines = [
         "# Appearance rollup",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         f"Window: `{start.isoformat()}` to `{end.isoformat()}`",
         "",
         f"- appearances: `{rollup['appearance_count']}`",
@@ -331,13 +315,11 @@ def _render_rollup_md(rollup: dict[str, Any], start: date, end: date) -> str:
         lines.append(f"- `{speaker}` appearances `{data['appearance_count']}` hosts `{hosts}`")
     return "\n".join(lines).rstrip() + "\n"
 
-
 def _render_actions_md(actions: list[dict[str, Any]], start: date, end: date) -> str:
     lines = [
         "# Speaker memory action queue",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         f"Window: `{start.isoformat()}` to `{end.isoformat()}`",
         "",
     ]
@@ -353,7 +335,6 @@ def _render_actions_md(actions: list[dict[str, Any]], start: date, end: date) ->
         lines.append(f"  - reason: {action['reason']}")
         lines.append(f"  - operator: {action['operator_instruction']}")
     return "\n".join(lines).rstrip() + "\n"
-
 
 def write_outputs(
     *,
@@ -388,14 +369,12 @@ def write_outputs(
         "memory_action_queue_markdown": str(action_md),
     }
 
-
 def build_routing_rows(start: date, end: date, notebook_root: Path) -> list[dict[str, Any]]:
     notebook_root = notebook_root.resolve()
     voices_dir = routing.DEFAULT_VOICES_DIR
     inventory = routing._discover_inventory(voices_dir, notebook_root)
     raw_root = notebook_root / "raw-input"
     return routing.build_rows(routing._discover_raw_inputs(raw_root, start, end), inventory, notebook_root)
-
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -406,7 +385,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUT_DIR)
     parser.add_argument("--include-no-action", action="store_true")
     return parser.parse_args(argv)
-
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
@@ -420,7 +398,6 @@ def main(argv: list[str] | None = None) -> int:
     written = write_outputs(rows=rows, actions=actions, output_dir=args.output_dir, start=args.start, end=args.end)
     print(json.dumps({"rows": len(rows), "actions": len(actions), "written": written}, indent=2, sort_keys=True))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

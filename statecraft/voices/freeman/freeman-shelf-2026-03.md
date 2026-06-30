@@ -1,6 +1,5 @@
 # Freeman shelf - 2026-03
 
-WORK only; not Record.
 
 Status: mature retrieval month.
 

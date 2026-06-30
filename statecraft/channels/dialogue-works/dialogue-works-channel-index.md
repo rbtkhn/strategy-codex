@@ -1,6 +1,5 @@
 # Dialogue Works Channel Index
 
-WORK only; not Record.
 
 Purpose: exhaustive route map for every **`source-dialogue-works-*`** capture on the **Dialogue Works** channel (`channel_slug: dialogue-works`).
 

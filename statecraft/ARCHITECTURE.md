@@ -1,6 +1,5 @@
 # Statecraft Architecture
 
-WORK only; not Record.
 
 This file is a delegated module under [statecraft.md](statecraft.md). It owns maturity checks, anti-sprawl rules, lifecycle closure, and stable-versus-experimental governance. It does not redefine the system's ontology or protocols.
 

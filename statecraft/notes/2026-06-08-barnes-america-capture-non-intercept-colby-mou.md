@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-08/source-hedges-crooke-is-ceasefire-dead-2026-06-08.md
   - source-archive/statecraft/2026-06-08/source-mario-nawfal-parsi-israel-torpedoes-trump-iran-deal-overnight-2026-06-08.md
 ---
-WORK only; not Record.
 
 # Barnes × America Capture — Non-Intercept, Colby Spying, MOU Money — 2026-06-08
 

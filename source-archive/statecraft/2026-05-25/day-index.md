@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (2), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Trita Parsi` (1)
 - Guests: `Alexander Mercouris` (1), `Chas Freeman` (1), `Jacques Baud` (1), `Larry Johnson` (1)
-- Threads: `alkorshid` (2), `mercouris` (2), `alexander-mercouris` (1), `baud` (1), `christoforou` (1), `davis` (1), `diesen` (1), `freeman` (1), `johnson` (1), `parsi` (1)
+- Threads: `alkhorshid` (2), `mercouris` (2), `alexander-mercouris` (1), `baud` (1), `christoforou` (1), `davis` (1), `diesen` (1), `freeman` (1), `johnson` (1), `parsi` (1)
 
 ## Channel sources
 
@@ -34,8 +34,8 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=fb9862XYmF0) | `source-alexander-mercouris-russia-plans-more-oreshnik-strikes-speeds-up-zaporozhzhye-offensive-europe-ukraine-funds-run-short-2026-05-25.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [4r37apQpSxQ](https://www.youtube.com/watch?v=4r37apQpSxQ) | `source-daniel-davis-iran-war-cheerleaders-mixed-messaging-surrounding-a-deal-2026-05-25.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `baud` | [watch](https://www.youtube.com/watch?v=_KmFdY8_2D4) | `source-dialogue-works-baud-trumps-last-card-just-shattered-israel-2026-05-25.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `johnson` | [watch](https://www.youtube.com/watch?v=qShS2y0N9Ys) | `source-dialogue-works-johnson-us-iran-throw-down-over-the-strait-of-hormuz-ticking-time-bomb-2026-05-25.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `baud` | [watch](https://www.youtube.com/watch?v=_KmFdY8_2D4) | `source-dialogue-works-baud-trumps-last-card-just-shattered-israel-2026-05-25.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `johnson` | [watch](https://www.youtube.com/watch?v=qShS2y0N9Ys) | `source-dialogue-works-johnson-us-iran-throw-down-over-the-strait-of-hormuz-ticking-time-bomb-2026-05-25.md` |
 | `the-duran` | The Duran | `mercouris`, `christoforou`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=uzQP74jfkKI) | `source-duran-mercouris-russia-unleashes-oreshnik-more-strikes-planned-2026-05-25.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `freeman` | [watch](https://www.youtube.com/watch?v=RVbHiMHukCc) | `source-glenn-diesen-chas-freeman-crisis-in-israel-iranian-nuclear-weapons-2026-05-25.md` |
 

@@ -70,7 +70,6 @@ SURFACE_EXPLANATIONS = {
     "WORK_LAYER": "planning, execution, and exploratory work that should not yet redefine the Record",
 }
 
-
 @dataclass
 class Proposal:
     proposal_id: str
@@ -87,10 +86,8 @@ class Proposal:
     status: str | None = None
     source_file: str | None = None
 
-
 def now_z() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
 
 def normalize_surface(value: str | None) -> str | None:
     if not value:
@@ -107,7 +104,6 @@ def normalize_surface(value: str | None) -> str | None:
         "OTHER": "OTHER",
     }
     return aliases.get(value, value)
-
 
 def _extract_yaml_string_list(yaml_body: str, key: str) -> list[str]:
     prefix = f"{key}:"
@@ -139,17 +135,14 @@ def _extract_yaml_string_list(yaml_body: str, key: str) -> list[str]:
         i += 1
     return out
 
-
 def _extract_source_observation_ids(yaml_body: str) -> list[str]:
     return _extract_yaml_string_list(yaml_body, "source_observation_ids")
-
 
 def _find_gate_row(user_id: str, candidate_id: str, *, repo_root: Path | None) -> dict | None:
     for row in parse_review_candidates(user_id=user_id, repo_root=repo_root):
         if row["id"] == candidate_id:
             return row
     return None
-
 
 def proposal_from_gate_row(
     row: dict,
@@ -191,7 +184,6 @@ def proposal_from_gate_row(
         source_file=str(gate_rel),
     )
 
-
 def proposal_from_json_payload(payload: dict[str, Any]) -> Proposal:
     why = payload.get("why_now")
     conf = payload.get("confidence")
@@ -215,7 +207,6 @@ def proposal_from_json_payload(payload: dict[str, Any]) -> Proposal:
         status=str(payload.get("status") or "").strip() or None,
         source_file=None,
     )
-
 
 def score_surface_signals(proposal: Proposal) -> dict[str, int]:
     text_parts = [
@@ -250,11 +241,9 @@ def score_surface_signals(proposal: Proposal) -> dict[str, int]:
         scores[decl] += 1
     return scores
 
-
 def best_fit_surface(scores: dict[str, int]) -> str:
     ordered = sorted(scores.items(), key=lambda kv: (-kv[1], kv[0]))
     return ordered[0][0]
-
 
 def classification_risk(
     proposal: Proposal, predicted: str, scores: dict[str, int]
@@ -278,7 +267,6 @@ def classification_risk(
         return "medium", "proposal may be surface-correct but remains unstable due to unresolved contradiction pressure"
     return "low", "declared surface broadly matches the observed content signals"
 
-
 def recommendation(proposal: Proposal, predicted: str, risk: str) -> str:
     declared = normalize_surface(proposal.target_surface)
     if predicted == "WORK_LAYER":
@@ -288,7 +276,6 @@ def recommendation(proposal: Proposal, predicted: str, risk: str) -> str:
     if risk == "low":
         return "keep_current_surface"
     return "review_surface_choice"
-
 
 def defensibility_requirements(proposal: Proposal, predicted: str) -> list[str]:
     reqs: list[str] = []
@@ -312,7 +299,6 @@ def defensibility_requirements(proposal: Proposal, predicted: str) -> list[str]:
             "operator confirmation that the surface placement improves clarity rather than distorting ontology"
         )
     return reqs
-
 
 def build_report(
     proposal: Proposal,
@@ -386,7 +372,6 @@ def build_report(
         )
     lines.append("")
     return "\n".join(lines)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -502,7 +487,6 @@ def main() -> int:
     out.write_text(report, encoding="utf-8")
     print(f"wrote {out}", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -74,7 +74,6 @@ MERCOURIS_KEYS = (
 SECTION_TITLE = re.compile(r"^([IVXLCDM]+)\.\s+(.+)$")
 MEM_TOKEN = re.compile(r"^[\u2022\-\*]\s*(MEM[–-][A-Za-z0-9–\-]+)")
 
-
 def _score_title(title: str) -> tuple[str, int]:
     t = title.lower()
     scores: dict[str, int] = {"mearsheimer": 0, "barnes": 0, "mercouris": 0}
@@ -91,7 +90,6 @@ def _score_title(title: str) -> tuple[str, int]:
     if scores[best] == 0:
         return "mearsheimer", 0
     return best, scores[best]
-
 
 def _parse_relevance(path: Path, max_per_section: int) -> tuple[list[tuple[str, str, list[str]]], list[str]]:
     """
@@ -137,7 +135,6 @@ def _parse_relevance(path: Path, max_per_section: int) -> tuple[list[tuple[str, 
         warnings.append("No sections with Primary MEMs parsed — file layout may differ from expected.")
     return sections, warnings
 
-
 def _emit_markdown(entity: str, path: Path, max_per_section: int) -> str:
     sections, warnings = _parse_relevance(path, max_per_section)
     by_mind: dict[str, list[tuple[str, str, str]]] = defaultdict(list)
@@ -179,7 +176,6 @@ def _emit_markdown(entity: str, path: Path, max_per_section: int) -> str:
         out.append("")
     return "\n".join(out).rstrip() + "\n"
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Suggest MEMs from MEM–RELEVANCE index (read-only).")
     ap.add_argument("entity", nargs="?", default="RUSSIA", help="Civilization folder name (default RUSSIA)")
@@ -199,7 +195,6 @@ def main() -> int:
         return 1
     sys.stdout.write(_emit_markdown(entity, path, max(1, args.max_per_section)))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

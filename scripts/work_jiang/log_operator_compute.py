@@ -13,7 +13,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 LEDGER = ROOT / "codex" / "predictive-history" / "operator-compute-ledger.jsonl"
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--kind", default="analysis_llm", help="event kind")
@@ -60,7 +59,6 @@ def main() -> int:
         print(f"Mirrored to {gm}")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

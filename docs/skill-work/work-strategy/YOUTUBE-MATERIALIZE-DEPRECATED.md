@@ -1,6 +1,5 @@
 # YouTube materialize workflow — DEPRECATED (2026-06-20)
 
-WORK only; not Record.
 
 **Status:** The **`youtube-raw-input-transcript`** skill and **`python scripts/materialize_youtube_raw_input.py --apply`** path are **deprecated** for new strategy-codex capture. Do not route new lands through the materializer or treat `youtube-*` / `transcript-*` archive filenames as canonical.
 

@@ -1,7 +1,6 @@
 # Strategy expert Ã¢â‚¬â€ Jiang Xueqin (`jiang`)
 <!-- word_count: 686 -->
 
-WORK only; not Record.
 
 **Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) Ã¢â‚¬â€ **`jiang`** lane.
 

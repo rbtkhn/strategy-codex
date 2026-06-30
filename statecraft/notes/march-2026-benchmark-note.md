@@ -11,7 +11,6 @@ archive_links:
   - source-archive/statecraft/2026-03-20/source-dialogue-works-larry-johnson-col-wilkerson-second-f-35-down-iran-war-spirals-int-2026-03-20.md
   - source-archive/statecraft/2026-03-31/source-dialogue-works-col-larry-wilkerson-israel-might-not-survive-this-end-everything-israel-iran-nuclear-scenario-2026-03-31.md
 ---
-WORK only; not Record.
 
 # March 2026 benchmark note
 

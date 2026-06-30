@@ -49,7 +49,6 @@ EXPORT_CLASS_UNSUPPORTED: dict[str, str] = {
 
 ALL_EXPORT_CLASSES = sorted(set(EXPORT_CLASS_ROUTES) | set(EXPORT_CLASS_UNSUPPORTED))
 
-
 def _default_user_id() -> str:
     env = __import__("os").environ.get("GRACE_MAR_USER_ID", "").strip()
     if env:
@@ -57,7 +56,6 @@ def _default_user_id() -> str:
     if (REPO_ROOT / "self.md").is_file():
         return "strategy-codex"
     return "platform/template"
-
 
 def _argv_has_user_flag(argv: list[str]) -> bool:
     i = 0
@@ -68,7 +66,6 @@ def _argv_has_user_flag(argv: list[str]) -> bool:
             break
         i += 1
     return False
-
 
 def _parse_export_cli(argv: list[str]) -> tuple[str | None, str, list[str]]:
     """
@@ -124,7 +121,6 @@ def _parse_export_cli(argv: list[str]) -> tuple[str | None, str, list[str]]:
         child = ["-u", resolved] + child
     return explicit_user, sub, child
 
-
 def _print_help() -> None:
     du = _default_user_id()
     classes = ", ".join(ALL_EXPORT_CLASSES)
@@ -165,7 +161,6 @@ Non-goals: export_view, export_gate_to_review_queue, â€¦ (invoke those scrip
 """
     )
 
-
 def _run_child(script_name: str, child_argv: list[str]) -> int:
     script_path = SCRIPTS_DIR / script_name
     if not script_path.is_file():
@@ -178,7 +173,6 @@ def _run_child(script_name: str, child_argv: list[str]) -> int:
     cmd = [sys.executable, str(script_path), *child_argv]
     proc = subprocess.run(cmd, cwd=str(REPO_ROOT))
     return int(proc.returncode)
-
 
 def main() -> int:
     argv = sys.argv[1:]
@@ -219,7 +213,6 @@ def main() -> int:
 
     script = SUBCOMMAND_SCRIPTS[sub]
     return _run_child(script, child_argv)
-
 
 if __name__ == "__main__":
     sys.exit(main())

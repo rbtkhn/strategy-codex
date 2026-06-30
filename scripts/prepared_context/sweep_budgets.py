@@ -27,13 +27,11 @@ SCRIPT = REPO_ROOT / "scripts" / "prepared_context" / "build_budgeted_context.py
 LANE_DEFAULTS = REPO_ROOT / "platform/config" / "context_budgets" / "lane-defaults.json"
 MODES = ("compact", "medium", "deep")
 
-
 def _load_lanes(budgets_file: Path) -> list[str]:
     if not budgets_file.is_file():
         return ["default"]
     data = json.loads(budgets_file.read_text(encoding="utf-8"))
     return [k for k in data if k != "default"] or ["default"]
-
 
 def _run_one(
     lane: str,
@@ -73,7 +71,6 @@ def _run_one(
         except json.JSONDecodeError:
             pass
     return None
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Sweep budget lanes × modes and report scores.")
@@ -133,7 +130,6 @@ def main() -> int:
             )
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,7 +1,6 @@
 # Mearsheimer strategy page — 2026-01-20 (*The Tag Team Fails in Iran*)
 <!-- word_count: 1645 -->
 
-WORK only; not Record.
 
 **Expert:** `mearsheimer` · **Published:** 2026-01-20 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`mearsheimer-page-…` under `experts/mearsheimer/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 

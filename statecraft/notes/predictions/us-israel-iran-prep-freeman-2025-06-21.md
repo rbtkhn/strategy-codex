@@ -7,9 +7,8 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2025-06-21/source-india-global-left-push-war-iran-chas-freeman-2025-06-21.md
 speech_act: restated
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — US–Israel Iran war prep (2025-06-21)
 

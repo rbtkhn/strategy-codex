@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Create cleaned study derivatives from transcript-bearing raw-input files.
-
-WORK only; not Record. This script preserves source raw-input files and writes
+This script preserves source raw-input files and writes
 separate cleaned derivatives plus cleanup receipts.
 """
 
@@ -96,7 +95,6 @@ PLACEHOLDER_PATTERNS = (
     "placeholder transcript",
 )
 
-
 @dataclass(frozen=True)
 class CleanupResult:
     source_path: Path
@@ -111,13 +109,11 @@ class CleanupResult:
     residual_noise_terms: list[str]
     receipt_detail_path: Path | None = None
 
-
 def _rel(path: Path) -> str:
     try:
         return path.resolve().relative_to(REPO_ROOT).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     match = FRONTMATTER_RE.match(text)
@@ -131,7 +127,6 @@ def split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
         return {}, body
     return (data if isinstance(data, dict) else {}), body
 
-
 def dump_frontmatter(data: dict[str, Any]) -> str:
     raw = safe_dump(
         data,
@@ -141,7 +136,6 @@ def dump_frontmatter(data: dict[str, Any]) -> str:
         width=2000,
     ).rstrip()
     return f"---\n{raw}\n---\n\n"
-
 
 def effective_body_text(body: str) -> str:
     lines = body.splitlines()
@@ -153,12 +147,10 @@ def effective_body_text(body: str) -> str:
             lines.pop(0)
     return "\n".join(lines).strip()
 
-
 def output_path_for(source: Path) -> Path:
     if source.name.endswith(".cleaned.md"):
         return source
     return source.with_name(f"{source.stem}.cleaned.md")
-
 
 def load_raw_input_list(path: Path | None, raw_inputs: list[Path]) -> list[Path]:
     items = list(raw_inputs)
@@ -170,7 +162,6 @@ def load_raw_input_list(path: Path | None, raw_inputs: list[Path]) -> list[Path]
             continue
         items.append(Path(line))
     return items
-
 
 def validate_source(meta: dict[str, Any], body: str) -> list[str]:
     errors: list[str] = []
@@ -190,7 +181,6 @@ def validate_source(meta: dict[str, Any], body: str) -> list[str]:
     if len(WORD_RE.findall(body)) < 75:
         errors.append("source body too short")
     return errors
-
 
 def remove_caption_artifacts(body: str) -> tuple[list[str], int]:
     out: list[str] = []
@@ -212,7 +202,6 @@ def remove_caption_artifacts(body: str) -> tuple[list[str], int]:
         out.append(line)
     return out, removed
 
-
 def collapse_repeated_fragments(lines: list[str]) -> tuple[list[str], int]:
     out: list[str] = []
     removed = 0
@@ -225,7 +214,6 @@ def collapse_repeated_fragments(lines: list[str]) -> tuple[list[str], int]:
         previous = line
     return out, removed
 
-
 def glossary_for(source_meta: dict[str, Any] | None = None) -> dict[str, str]:
     glossary = dict(GLOSSARY)
     if not source_meta:
@@ -234,7 +222,6 @@ def glossary_for(source_meta: dict[str, Any] | None = None) -> dict[str, str]:
     if guest in GUEST_GLOSSARY:
         glossary.update(GUEST_GLOSSARY[guest])
     return glossary
-
 
 def apply_glossary(text: str, source_meta: dict[str, Any] | None = None) -> tuple[str, dict[str, int]]:
     corrections: dict[str, int] = {}
@@ -247,7 +234,6 @@ def apply_glossary(text: str, source_meta: dict[str, Any] | None = None) -> tupl
         if count:
             corrections[f"{bad} -> {good}"] = count
     return out, corrections
-
 
 def reflow_lines(lines: list[str]) -> str:
     paragraphs: list[str] = []
@@ -268,7 +254,6 @@ def reflow_lines(lines: list[str]) -> str:
         paragraphs.append(buffer.strip())
     return "\n\n".join(paragraphs).strip()
 
-
 def residual_noise_terms(text: str, source_meta: dict[str, Any] | None = None) -> list[str]:
     found: list[str] = []
     for bad in glossary_for(source_meta):
@@ -276,7 +261,6 @@ def residual_noise_terms(text: str, source_meta: dict[str, Any] | None = None) -
         if re.search(rf"(?<!\w){re.escape(bad)}(?!\w)", text, flags):
             found.append(bad)
     return sorted(found, key=str.casefold)
-
 
 def provenance_issues(source_meta: dict[str, Any]) -> list[str]:
     issues: list[str] = []
@@ -295,7 +279,6 @@ def provenance_issues(source_meta: dict[str, Any]) -> list[str]:
         if guest_parts and guest_parts.issubset(host_parts):
             issues.append("guest appears to be host-only inference")
     return issues
-
 
 def compute_components(
     *,
@@ -341,10 +324,8 @@ def compute_components(
         "residual_noise_scan": {"score": residual_score, "max": 10, "passed": residual_score == 10, "terms": residual_terms},
     }
 
-
 def score_from_components(components: dict[str, dict[str, Any]]) -> int:
     return int(sum(int(component["score"]) for component in components.values()))
-
 
 def build_cleaned_content(
     *,
@@ -384,7 +365,6 @@ def build_cleaned_content(
         if value not in (None, ""):
             meta[key] = value
     return dump_frontmatter(meta) + f"# {title}\n\n{cleaned_body.rstrip()}\n"
-
 
 def clean_one(source_path: Path, *, receipt_dir: Path | None, apply: bool) -> tuple[CleanupResult, str | None]:
     text = source_path.read_text(encoding="utf-8", errors="replace")
@@ -455,7 +435,6 @@ def clean_one(source_path: Path, *, receipt_dir: Path | None, apply: bool) -> tu
     output_path.write_text(content, encoding="utf-8")
     return result, content
 
-
 def result_payload(result: CleanupResult) -> dict[str, Any]:
     return {
         "source_path": _rel(result.source_path),
@@ -470,7 +449,6 @@ def result_payload(result: CleanupResult) -> dict[str, Any]:
         "components": result.components,
         "cleanup_receipt": _rel(result.receipt_detail_path) if result.receipt_detail_path else "",
     }
-
 
 def write_receipts(results: list[CleanupResult], receipt_dir: Path, *, batch_label: str) -> dict[str, str]:
     receipt_dir.mkdir(parents=True, exist_ok=True)
@@ -493,8 +471,7 @@ def write_receipts(results: list[CleanupResult], receipt_dir: Path, *, batch_lab
     lines = [
         "# Transcript cleanup summary",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         f"- batch: `{batch_label}`",
         f"- cleaned-80: `{passed}` / `{len(results)}`",
         f"- receipt: `{_rel(ledger)}`",
@@ -513,7 +490,6 @@ def write_receipts(results: list[CleanupResult], receipt_dir: Path, *, batch_lab
         "details_dir": str(details_dir),
     }
 
-
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--raw-input", action="append", type=Path, default=[])
@@ -525,7 +501,6 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--no-apply", action="store_false", dest="apply")
     parser.set_defaults(apply=False)
     return parser
-
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
@@ -542,7 +517,6 @@ def main(argv: list[str] | None = None) -> int:
     receipts = write_receipts(results, receipt_dir, batch_label=args.batch_label) if args.apply and receipt_dir else {}
     print(json.dumps({"rows": [result_payload(result) for result in results], "receipts": receipts}, indent=2, ensure_ascii=True))
     return 1 if any(result.status.startswith("failed") for result in results) else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

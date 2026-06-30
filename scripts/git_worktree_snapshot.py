@@ -20,7 +20,6 @@ _CACHE: GitWorktreeSnapshot | None = None
 _CACHE_AT: float = 0.0
 _CACHE_TTL_SEC = 30.0
 
-
 @dataclass(frozen=True)
 class GitWorktreeSnapshot:
     branch_line: str = ""
@@ -37,10 +36,8 @@ class GitWorktreeSnapshot:
     def ok(self) -> bool:
         return not self.error
 
-
 def _status_path(line: str) -> str:
     return line[3:].strip() if len(line) > 3 else line.strip()
-
 
 def _parse_branch(branch_line: str) -> tuple[str, str]:
     text = branch_line.removeprefix("## ").strip()
@@ -49,7 +46,6 @@ def _parse_branch(branch_line: str) -> tuple[str, str]:
     branch_name = text.split("...")[0].strip() or "unknown"
     return branch_name, text
 
-
 def _collect_changed_paths(status_lines: tuple[str, ...]) -> tuple[str, ...]:
     paths: set[str] = set()
     for line in status_lines:
@@ -57,7 +53,6 @@ def _collect_changed_paths(status_lines: tuple[str, ...]) -> tuple[str, ...]:
         if path:
             paths.add(path)
     return tuple(sorted(paths))
-
 
 def _default_runner(argv: list[str], *, cwd: Path, timeout: float) -> subprocess.CompletedProcess[str]:
     env = os.environ.copy()
@@ -73,7 +68,6 @@ def _default_runner(argv: list[str], *, cwd: Path, timeout: float) -> subprocess
         check=False,
         env=env,
     )
-
 
 def capture_git_worktree_snapshot(
     *,
@@ -114,7 +108,6 @@ def capture_git_worktree_snapshot(
         untracked_count=untracked,
     )
 
-
 def get_git_worktree_snapshot(
     *,
     refresh: bool = False,
@@ -131,12 +124,10 @@ def get_git_worktree_snapshot(
     _CACHE_AT = now
     return snap
 
-
 def clear_git_worktree_snapshot_cache() -> None:
     global _CACHE, _CACHE_AT
     _CACHE = None
     _CACHE_AT = 0.0
-
 
 def format_git_state_summary(snapshot: GitWorktreeSnapshot) -> str:
     if snapshot.error:

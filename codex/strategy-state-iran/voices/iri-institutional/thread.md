@@ -9,7 +9,6 @@
 
 ---
 
-WORK only; not Record.
 
 **Purpose:** **Single** monthly journal + `strategy-page` surface for the three **Iranian official / state** voices in this lane (**FM Araghchi**, **President Pezeshkian**, **Majlis speaker Ghalibaf**). These are **office-holders**, not Western-style **`thread:`** commentators. Voice-specific **identity / routing** remains in each folder’s [`../araghchi/profile.md`](../araghchi/profile.md), [`../drpezeshkian/profile.md`](../drpezeshkian/profile.md), [`../mb_ghalibaf/profile.md`](../mb_ghalibaf/profile.md). Per-voice `thread.md` files are **redirect stubs** only.
 

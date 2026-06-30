@@ -7,7 +7,6 @@ essay_candidate: false
 created_at: 2026-06-04
 updated_at: 2026-06-28
 ---
-work only; not Record.
 
 # Sachs Month Floor Repair - 2026-06-04
 

@@ -54,7 +54,6 @@ RESECTION_NOTE = (
     " · source-section pass 2026-06-29 (12 sections; Putin burst/Anchorage/Donbas/Odessa arc)"
 )
 
-
 def validate_capture(path: Path) -> list[str]:
     doc = path.read_text(encoding="utf-8")
     try:
@@ -62,7 +61,6 @@ def validate_capture(path: Path) -> list[str]:
     except ValueError as exc:
         return [str(exc)]
     return validate_section_anchors(body, SECTION_TITLES, SECTION_ANCHORS)
-
 
 def write_capture(path: Path) -> None:
     write_sectioned_capture(
@@ -93,7 +91,6 @@ def write_capture(path: Path) -> None:
                 )
         path.write_text(doc, encoding="utf-8")
 
-
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
@@ -115,7 +112,6 @@ def main() -> int:
     if not args.dry_run:
         write_capture(path)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

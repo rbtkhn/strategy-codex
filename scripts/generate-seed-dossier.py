@@ -34,7 +34,6 @@ JSON_FILES = [
     "seed_constitution.json",
 ]
 
-
 def load_dir(d: Path) -> dict[str, dict]:
     out: dict[str, dict] = {}
     for name in JSON_FILES:
@@ -46,7 +45,6 @@ def load_dir(d: Path) -> dict[str, dict]:
             raise TypeError(f"expected JSON object in {p}, got {type(raw).__name__}")
         out[name] = raw
     return out
-
 
 def main() -> None:
     ap = argparse.ArgumentParser()
@@ -229,7 +227,6 @@ def main() -> None:
     except ValueError:
         display = out_path
     print(f"Wrote {display}")
-
 
 if __name__ == "__main__":
     try:

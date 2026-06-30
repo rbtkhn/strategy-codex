@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Treaty Form Vs Transactional Settlement
 

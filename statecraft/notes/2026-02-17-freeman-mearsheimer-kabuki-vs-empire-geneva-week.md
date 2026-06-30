@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-02-17/source-dialogue-works-mohammad-marandi-iran-just-closed-the-strait-of-hormuz-wiped-out-iran-pl-2026-02-17.md
   - source-archive/statecraft/2026-01-20/source-dialogue-works-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md
 ---
-WORK only; not Record.
 
 # Feb 17 2026 — Freeman × Mearsheimer: Kabuki vs empire (Geneva week wedge)
 

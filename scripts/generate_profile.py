@@ -32,7 +32,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 PROFILE_DIR = REPO_ROOT
 PROFILE_PAGE_DIR = REPO_ROOT / "platform/profile"
 
-
 @dataclass
 class ProfileData:
     name: str
@@ -69,7 +68,6 @@ class ProfileData:
     health_fitness_summary: dict
     raw_files: dict[str, str]  # for dashboard: self, skills, library, journal, work
 
-
 def parse_self(content: str) -> dict:
     """Extract key fields from self.md."""
     data = {"name": "?", "age": 0, "lexile_output": "?", "ix_a_count": 0, "ix_b_count": 0, "ix_c_count": 0}
@@ -87,14 +85,12 @@ def parse_self(content: str) -> dict:
 
     return data
 
-
 def parse_evidence(content: str) -> dict:
     """Count evidence entries from self-archive.md (canonical EVIDENCE)."""
     write = len(re.findall(r"id:\s+WRITE-\d+", content))
     read = len(re.findall(r"id:\s+READ-\d+", content))
     create = len(re.findall(r"id:\s+CREATE-\d+", content))
     return {"write": write, "read": read, "create": create}
-
 
 def parse_skills(content: str) -> dict:
     """Extract Record skill status from THINK and WRITE containers only."""
@@ -116,7 +112,6 @@ def parse_skills(content: str) -> dict:
             summary[container] = {"status": status, "edge": edge}
     return summary
 
-
 def parse_session_transcript_snapshot(content: str, limit: int = 12) -> list[dict]:
     """Extract last N exchanges from session-transcript (raw log format)."""
     blocks: list[dict] = []
@@ -129,7 +124,6 @@ def parse_session_transcript_snapshot(content: str, limit: int = 12) -> list[dic
         blocks.append({"timestamp": ts, "role": role, "text": text[:200] + ("â€¦" if len(text) > 200 else "")})
     return blocks[-limit:]
 
-
 def parse_health_fitness_summary(content: str) -> dict:
     """Extract brief health-fitness summary for dashboard."""
     out: dict = {}
@@ -140,7 +134,6 @@ def parse_health_fitness_summary(content: str) -> dict:
     if m := re.search(r"\*\*Trend:\*\*\s+(.+?)(?=\n\n|\Z)", content, re.DOTALL):
         out["stature_trend"] = m.group(1).strip()[:120]
     return out
-
 
 def parse_archive(content: str, limit: int = 10) -> list[dict]:
     """Extract recent USER/GRACE-MAR exchanges from archive (with timestamps)."""
@@ -166,7 +159,6 @@ def parse_archive(content: str, limit: int = 10) -> list[dict]:
             i += 1
 
     return paired[-limit:]
-
 
 def parse_library(content: str) -> list[dict]:
     """Extract active LIBRARY entries (id, title, scope, engagement status, lane, volume)."""
@@ -205,7 +197,6 @@ def parse_library(content: str) -> list[dict]:
         )
     return entries
 
-
 def parse_journal(content: str) -> list[dict]:
     """Extract JOURNAL entries (date, entry) from journal.md. Approved only. Supports entry (prose) or legacy highlights (bullets)."""
     entries = []
@@ -236,7 +227,6 @@ def parse_journal(content: str) -> list[dict]:
             entries.append({"date": date_str, "entry": text})
     return entries
 
-
 def parse_ix_samples(content: str) -> tuple[list[str], list[str], list[str]]:
     """Extract topics from IX-A, IX-B, IX-C in self.md (all entries)."""
     knowledge = re.findall(r'id: LEARN-\d+.*?topic:\s*["\']([^"\']+)["\']', content, re.DOTALL)
@@ -247,7 +237,6 @@ def parse_ix_samples(content: str) -> tuple[list[str], list[str], list[str]]:
     personality = [p.strip() for p in personality]
     return (knowledge, curiosity, personality)
 
-
 def parse_seed_interests(content: str) -> list[str]:
     """Extract interest topics from Section V (current interests) in self.md."""
     # Match "topic: X" under current: block (before ## VI or next ##)
@@ -256,7 +245,6 @@ def parse_seed_interests(content: str) -> list[str]:
         return []
     topics = re.findall(r'^\s+-\s+topic:\s*(.+?)(?:\n|$)', section_v.group(0), re.MULTILINE)
     return [t.strip() for t in topics if t.strip()]
-
 
 def parse_seed_personality(content: str) -> list[str]:
     """Extract personality traits and patterns from Section IV in self.md."""
@@ -282,7 +270,6 @@ def parse_seed_personality(content: str) -> list[str]:
     if m := re.search(r'problem_solving:\s*\n\s+style:\s*([^\n]+)', section_iv.group(0)):
         out.append(f"problem-solving: {m.group(1).strip()}")
     return out[:15]  # cap to avoid overflow
-
 
 def collect_data() -> ProfileData:
     """Collect all profile page data from profile files."""
@@ -478,7 +465,6 @@ def collect_data() -> ProfileData:
         health_fitness_summary=health_fitness_summary,
         raw_files=raw_files,
     )
-
 
 def render_html(data: ProfileData) -> str:
     """Render profile page as self-contained HTML (fits viewport, no scroll)."""
@@ -722,7 +708,6 @@ def render_html(data: ProfileData) -> str:
 </html>
 """
 
-
 def _render_dashboard(data: ProfileData) -> str:
     """Read-only dashboard: Grace-Mar entity with five sections (Self, Skills, Library, Journal, Work)."""
     raw = data.raw_files
@@ -793,7 +778,6 @@ def _render_dashboard(data: ProfileData) -> str:
 </body>
 </html>"""
 
-
 def main() -> None:
     data = collect_data()
     html = render_html(data)
@@ -847,7 +831,6 @@ def main() -> None:
     (playlist_dir / "index.html").write_text(_render_playlist_placeholder(), encoding="utf-8")
     print("Playlist placeholder written to platform/profile/playlist/index.html")
 
-
 def _read_telegram_bot_username() -> str | None:
     """Read optional bot username from <profile>/telegram_bot_username.txt (one line, stripped)."""
     path = PROFILE_DIR / "telegram_bot_username.txt"
@@ -861,7 +844,6 @@ def _read_telegram_bot_username() -> str | None:
     if not username or any(c in username for c in " \t/\\"):
         return None
     return username
-
 
 def _render_telegram_redirect(bot_username: str | None) -> str:
     """HTML that redirects to t.me/<bot_username> or shows 'not configured'."""
@@ -905,7 +887,6 @@ def _render_telegram_redirect(bot_username: str | None) -> str:
 </body>
 </html>"""
 
-
 def _read_wechat_account_url() -> str | None:
     """Read optional WeChat Official Account URL from <profile>/wechat_account_url.txt (one line)."""
     path = PROFILE_DIR / "wechat_account_url.txt"
@@ -918,7 +899,6 @@ def _read_wechat_account_url() -> str | None:
     if not url or not url.startswith("https://"):
         return None
     return url
-
 
 def _render_wechat_redirect(account_url: str | None) -> str:
     """HTML that redirects to WeChat account URL or shows 'not configured'."""
@@ -961,7 +941,6 @@ def _render_wechat_redirect(account_url: str | None) -> str:
 </body>
 </html>"""
 
-
 def _render_playlist_placeholder() -> str:
     """Placeholder for future grace-mar.com/playlist."""
     return """<!DOCTYPE html>
@@ -978,7 +957,6 @@ def _render_playlist_placeholder() -> str:
     <p>Playlist coming soon.</p>
 </body>
 </html>"""
-
 
 def _render_landing_page(prp_text: str = "") -> str:
     """Landing page at grace-mar.com â€” design inspired by desert art: hand-drawn style, sun, mountains, horizontal bands (pink-red, orange-brown, yellow desert), camels and cacti."""
@@ -1191,7 +1169,6 @@ def _render_landing_page(prp_text: str = "") -> str:
 </body>
 </html>"""
 
-
 def _read_full_prp() -> str:
     """Read full PRP text from self-llm.txt (repo root)."""
     path = REPO_ROOT / "self-llm.txt"
@@ -1202,7 +1179,6 @@ def _read_full_prp() -> str:
     if path.exists():
         return path.read_text(encoding="utf-8").strip()
     return ""
-
 
 def _render_llm_page(prp_text: str) -> str:
     """HTML: full PRP text only, one-tap copy. Nothing else."""
@@ -1238,7 +1214,6 @@ def _render_llm_page(prp_text: str) -> str:
     </script>
 </body>
 </html>"""
-
 
 if __name__ == "__main__":
     main()

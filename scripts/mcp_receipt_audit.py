@@ -31,7 +31,6 @@ from mcp_receipt_lib import (  # noqa: E402
 DEFAULT_RECEIPTS_DIR = ARTIFACTS_DIR / "mcp-receipts"
 DEFAULT_REPORT = ARTIFACTS_DIR / "mcp-receipt-report.md"
 
-
 def _git_short_hash(cwd: Path) -> str:
     try:
         out = subprocess.run(
@@ -47,13 +46,11 @@ def _git_short_hash(cwd: Path) -> str:
         pass
     return "unknown"
 
-
 def _safe_rel(path: Path, root: Path) -> Path | str:
     try:
         return path.relative_to(root)
     except ValueError:
         return path
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Audit MCP execution receipt JSON files.")
@@ -133,7 +130,6 @@ def main() -> int:
     print(f"Wrote {_safe_rel(out_path, root)} — scanned={len(files)} failed={failed}", file=sys.stderr)
 
     return 1 if any_fail else 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

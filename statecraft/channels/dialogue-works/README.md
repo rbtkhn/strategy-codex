@@ -1,4 +1,4 @@
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 # Nima (Dialogue Works)
 
@@ -9,7 +9,7 @@ Use it when a statecraft read needs **Dialogue Works** as a host transformation 
 ## Open First
 
 - [dialogue-works-channel-index.md](dialogue-works-channel-index.md) — Dialogue Works **host** captures
-- [Alkorshid voice shelf](../../voices/alkorshid/README.md) — profile · [alkhorshid-index.md](../../voices/alkhorshid/alkhorshid-index.md) (guest)
+- [Alkhorshid voice shelf](../../voices/alkorshid/README.md) — profile · [alkhorshid-index.md](../../voices/alkhorshid/alkhorshid-index.md) (guest)
 - [index.md](index.md)
 - [nima-host-law.md](nima-host-law.md)
 - [dialogue-works-disambiguation.md](dialogue-works-disambiguation.md)

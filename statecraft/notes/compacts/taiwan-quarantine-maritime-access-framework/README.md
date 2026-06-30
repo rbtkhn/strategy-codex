@@ -9,7 +9,7 @@ updated_at: 2026-06-28
 ---
 # Taiwan Quarantine / Maritime Access Framework
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: compare the Taiwan maritime-access crisis across China, America, Russia, and Iran. The framework forces classification before escalation: quarantine, blockade, customs inspection, insurance panic, and sovereignty assertion are not the same object.
 

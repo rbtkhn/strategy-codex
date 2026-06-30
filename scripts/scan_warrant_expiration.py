@@ -53,7 +53,6 @@ THEME_KEYWORDS: dict[str, list[str]] = {
     ],
 }
 
-
 def classify_warrant_theme(warrant_text: str) -> str:
     lower = warrant_text.lower()
     scores: dict[str, int] = {}
@@ -65,17 +64,14 @@ def classify_warrant_theme(warrant_text: str) -> str:
         return "general"
     return max(scores, key=scores.get)  # type: ignore[arg-type]
 
-
 _IX_ENTRY_RE = re.compile(
     r"  - id:\s*((?:LEARN|CUR|PER)-\d+)(.*?)(?=\n  - id:|\n## |\Z)",
     re.DOTALL,
 )
 
-
 def _yaml_field(block: str, key: str) -> str:
     m = re.search(rf'^\s*{key}:\s*"?(.+?)"?\s*$', block, re.MULTILINE)
     return m.group(1).strip().strip('"') if m else ""
-
 
 def scan_self(
     user_id: str,
@@ -134,7 +130,6 @@ def scan_self(
 
     return results
 
-
 def scan_evidence_warrants(user_id: str) -> list[str]:
     """Extract warrant lines from self-archive.md § VIII (informational only)."""
     archive_path = fork_root(user_id) / "self-archive.md"
@@ -146,7 +141,6 @@ def scan_evidence_warrants(user_id: str) -> list[str]:
         return []
     section = content[section_match.start():]
     return re.findall(r"> warrant:\s*(.+)", section)
-
 
 def format_text_report(results: list[dict], user_id: str) -> str:
     warranted = [r for r in results]
@@ -161,7 +155,6 @@ def format_text_report(results: list[dict], user_id: str) -> str:
             f"— {r['theme']}, {r['age_days']} days — {status}"
         )
     return "\n".join(lines)
-
 
 def format_suggest_candidates(results: list[dict], user_id: str) -> str:
     """Emit copy-pasteable stage_gate_candidate.py CLI lines for REVIEW entries."""
@@ -182,7 +175,6 @@ def format_suggest_candidates(results: list[dict], user_id: str) -> str:
             f'  --warrant "{safe_warrant}"'
         )
     return "\n\n".join(lines)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Warrant expiration scanner for IX entries.")
@@ -220,7 +212,6 @@ def main() -> int:
             print(f"\n  ({len(evidence_warrants)} warrant line(s) in § VIII gated approved log)")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

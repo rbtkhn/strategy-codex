@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-03/source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md
   - source-archive/statecraft/2026-03-03/README.md
 ---
-WORK only; not Record.
 
 # Mar 24 2026 — Mercouris × Helmer × Marandi wedge (Dimona / ground / talk fiction)
 

@@ -15,10 +15,8 @@ WORK_DIR = ROOT / "codex" / "predictive-history"
 META = WORK_DIR / "metadata" / "thesis-map.yaml"
 OUT = WORK_DIR / "THESIS-MAP.md"
 
-
 def load_yaml(path: Path) -> dict:
     return safe_load_path(path, feature="work_jiang/render_thesis_map.py") or {}
-
 
 def validate(data: dict) -> list[str]:
     errors: list[str] = []
@@ -28,7 +26,6 @@ def validate(data: dict) -> list[str]:
     if not thesis.get("subclaims"):
         errors.append("thesis.subclaims must contain at least one subclaim")
     return errors
-
 
 def render(data: dict) -> str:
     t = data["thesis"]
@@ -67,7 +64,6 @@ def render(data: dict) -> str:
     lines.append("")
     return "\n".join(lines)
 
-
 def main() -> int:
     try:
         data = load_yaml(META)
@@ -82,7 +78,6 @@ def main() -> int:
     OUT.write_text(render(data), encoding="utf-8")
     print(f"Wrote {OUT}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

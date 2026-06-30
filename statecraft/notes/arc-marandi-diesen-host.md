@@ -18,7 +18,6 @@ archive_links:
 
 # Diesen x Marandi speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen x Marandi` run inside the Diesen stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Marandi lane Diesen elicits, which files matter most, and how this host-local run differs from the Davis and Dialogue Works Marandi lanes.
 
@@ -114,7 +113,7 @@ Typical pairings around the guest lane:
 
 - `diesen`
 - `davis`
-- `alkorshid`
+- `alkhorshid`
 - `crooke`
 - `freeman`
 

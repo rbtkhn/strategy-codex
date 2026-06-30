@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # America Lane — Command Unreliability After April Proof Packet
 

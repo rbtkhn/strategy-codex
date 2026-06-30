@@ -18,13 +18,11 @@ except ImportError:
     from scripts.generate_wap_weekly_brief import build_wap_weekly_brief
     from scripts.work_politics_ops import get_wap_snapshot
 
-
 def _write_output(path_text: str, content: str) -> str:
     output = Path(path_text)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(content, encoding="utf-8")
     return str(output)
-
 
 def build_weekly_brief_run(
     user_id: str = "grace-mar",
@@ -103,7 +101,6 @@ def build_weekly_brief_run(
     )
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run the work-politics weekly brief workflow.")
     parser.add_argument("--user", "-u", default="grace-mar", help="User id")
@@ -120,7 +117,6 @@ def main() -> int:
         )
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

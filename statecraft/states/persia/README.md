@@ -1,6 +1,6 @@
 # CIV-STATE Persia
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder holds CIV-STATE source objects for Persia-lane statecraft. Use it when a Persia transaction needs a compact Civilization and Empire source pattern before moving into lane-local `civilization/`, `empire/`, `state/`, `helix.md`, or `transactions/` files.
 

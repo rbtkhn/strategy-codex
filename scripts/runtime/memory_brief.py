@@ -32,14 +32,12 @@ from lane_timeline import build_timeline_window  # noqa: E402
 from observation_store import by_id, load_all  # noqa: E402
 from uncertainty_envelope import compute_envelope, envelope_to_markdown_block  # noqa: E402
 
-
 def _takeaway_line(obs: dict, max_len: int = 220) -> str:
     oid = obs.get("obs_id", "?")
     summ = (obs.get("summary") or "").replace("\n", " ").strip()
     if len(summ) > max_len:
         summ = summ[: max_len - 1] + "…"
     return f"{summ} [{oid}]"
-
 
 def main() -> int:
     ensure_utf8_stdio()
@@ -289,7 +287,6 @@ def main() -> int:
         print(r.stderr.strip(), file=sys.stderr)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

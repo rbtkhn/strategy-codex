@@ -30,13 +30,11 @@ FORBIDDEN_ALLOWED_ACTIONS = frozenset(
 
 _ORCHESTRATOR_IDS = frozenset({"grace_mar_runtime_worker"})
 
-
 def _load_json(path: Path) -> dict[str, Any]:
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict):
         raise ValueError(f"{path}: root must be an object")
     return data
-
 
 def validate_schema(instance: dict[str, Any], schema: dict[str, Any]) -> None:
     """Raise jsonschema.ValidationError on failure."""
@@ -45,7 +43,6 @@ def validate_schema(instance: dict[str, Any], schema: dict[str, Any]) -> None:
     validator = Draft202012Validator(schema)
     validator.check_schema(schema)
     validator.validate(instance)
-
 
 def policy_forbidden_actions(instance: dict[str, Any]) -> list[str]:
     """Return human-readable error lines if Policy A fails."""
@@ -67,7 +64,6 @@ def policy_forbidden_actions(instance: dict[str, Any]) -> list[str]:
             errs.append(f"{wid}: forbidden actions in allowed_actions: {sorted(bad)}")
     return errs
 
-
 def policy_stage_candidate_gate(instance: dict[str, Any]) -> list[str]:
     """Policy B: stage_candidate requires gate_review_required."""
     errs: list[str] = []
@@ -81,7 +77,6 @@ def policy_stage_candidate_gate(instance: dict[str, Any]) -> list[str]:
         if "stage_candidate" in allowed and not w.get("gate_review_required"):
             errs.append(f"{wid}: stage_candidate requires gate_review_required true")
     return errs
-
 
 def policy_yaml_parity(repo_root: Path, instance: dict[str, Any]) -> list[str]:
     """Policy C: every registry.yaml worker id appears exactly once in trust registry."""
@@ -113,13 +108,11 @@ def policy_yaml_parity(repo_root: Path, instance: dict[str, Any]) -> list[str]:
         errs.append(f"trust registry ids not in registry.yaml (unexpected): {sorted(extras)}")
     return errs
 
-
 def _duplicate_ids(ids: list[Any]) -> set[str]:
     from collections import Counter
 
     c = Counter(i for i in ids if isinstance(i, str))
     return {k for k, v in c.items() if v > 1}
-
 
 def verify_worker_trust_registry(
     repo_root: Path,
@@ -162,7 +155,6 @@ def verify_worker_trust_registry(
         errs.extend(policy_yaml_parity(root, instance))
     return errs
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Verify worker trust registry JSON.")
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
@@ -186,7 +178,6 @@ def main() -> int:
             print(line, file=sys.stderr)
         return 1
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

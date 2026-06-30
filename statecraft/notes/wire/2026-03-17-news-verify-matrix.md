@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-17
   - source-archive/statecraft/2026-03-31/README.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — 2026-03-17
 

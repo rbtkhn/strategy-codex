@@ -1,6 +1,5 @@
 # Karajan Close - Machine Proportion - 2026-06-01
 
-work only; not Record.
 
 The repo now has a more continuous whole shape than it did a short time ago.
 

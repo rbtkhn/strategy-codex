@@ -5,7 +5,6 @@ This is an input-workflow helper for the Glenn Diesen scaffold in strategy-noteb
 It canonicalizes YouTube URLs, fetches exact metadata with yt-dlp, dedupes by
 video ID across the Diesen profile, and refreshes the ledger section in place.
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -31,7 +30,6 @@ LINK_RE = re.compile(r"https?://[^\s)\]]+")
 MARKER_START_RE = re.compile(r"<!--\s*diesen-ledger:([a-z0-9_-]+):start\s*-->", re.I)
 MARKER_END_RE = re.compile(r"<!--\s*diesen-ledger:([a-z0-9_-]+):end\s*-->", re.I)
 
-
 @dataclass(frozen=True)
 class LedgerRow:
     pub_date: str
@@ -39,7 +37,6 @@ class LedgerRow:
     url: str
     raw_input: str
     video_id: str
-
 
 def extract_video_id(value: str) -> str | None:
     text = value.strip()
@@ -66,27 +63,22 @@ def extract_video_id(value: str) -> str | None:
         return m.group(0).split("v=", 1)[1].split("&", 1)[0]
     return None
 
-
 def canonical_watch_url(value: str) -> str:
     video_id = extract_video_id(value)
     if not video_id:
         raise ValueError(f"could not parse YouTube video id from: {value!r}")
     return f"https://www.youtube.com/watch?v={video_id}"
 
-
 def normalize_text(text: str) -> str:
     text = html.unescape(text or "")
     text = " ".join(text.split())
     return text.strip()
 
-
 def normalize_cell(text: str) -> str:
     return normalize_text(text).replace("\\|", "|").replace("\\\\", "\\")
 
-
 def escape_cell(text: str) -> str:
     return normalize_text(text).replace("\\", "\\\\").replace("|", "\\|")
-
 
 def normalize_pub_date(value: str | None) -> str | None:
     text = normalize_text(value or "")
@@ -97,7 +89,6 @@ def normalize_pub_date(value: str | None) -> str | None:
     if re.fullmatch(r"\d{4}-\d{2}-\d{2}", text):
         return text
     return None
-
 
 def fetch_youtube_metadata(video_id: str) -> dict | None:
     try:
@@ -118,7 +109,6 @@ def fetch_youtube_metadata(video_id: str) -> dict | None:
         "url": canonical_watch_url(video_id),
     }
 
-
 def raw_input_status(notebook_root: Path, video_id: str, canonical_url: str) -> str:
     raw_root = notebook_root / "raw-input"
     needles = {video_id, canonical_url}
@@ -131,12 +121,10 @@ def raw_input_status(notebook_root: Path, video_id: str, canonical_url: str) -> 
             return "mirrored"
     return "needs capture"
 
-
 def split_table_cells(line: str) -> list[str]:
     inner = line.strip().strip("|")
     parts = re.split(r"(?<!\\)\|", inner)
     return [normalize_cell(p) for p in parts]
-
 
 def parse_rows_from_section(section_text: str) -> list[LedgerRow]:
     rows: list[LedgerRow] = []
@@ -168,7 +156,6 @@ def parse_rows_from_section(section_text: str) -> list[LedgerRow]:
         )
     return rows
 
-
 def render_rows(rows: list[LedgerRow]) -> str:
     lines = [
         "| pub_date | Title | URL | raw-input |",
@@ -182,7 +169,6 @@ def render_rows(rows: list[LedgerRow]) -> str:
         )
     return "\n".join(lines)
 
-
 def find_existing_video_ids(profile_text: str) -> set[str]:
     ids: set[str] = set()
     for match in LINK_RE.finditer(profile_text):
@@ -190,7 +176,6 @@ def find_existing_video_ids(profile_text: str) -> set[str]:
         if video_id:
             ids.add(video_id)
     return ids
-
 
 def find_section_block(profile_text: str, ledger_key: str) -> tuple[str, str, str]:
     start_tag = f"<!-- diesen-ledger:{ledger_key}:start -->"
@@ -204,7 +189,6 @@ def find_section_block(profile_text: str, ledger_key: str) -> tuple[str, str, st
     body = profile_text[start_body:end]
     after = profile_text[end:]
     return before, body, after
-
 
 def rebuild_ledger_section(
     *,
@@ -274,7 +258,6 @@ def rebuild_ledger_section(
     new_block = f"{before}\n\n{rendered}\n\n{after}"
     return new_block, added
 
-
 def extract_urls_from_text(text: str) -> list[str]:
     out: list[str] = []
     for token in re.split(r"[\s;]+", text):
@@ -287,7 +270,6 @@ def extract_urls_from_text(text: str) -> list[str]:
         if WATCH_URL_RE.search(token):
             out.append(token)
     return out
-
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -354,7 +336,6 @@ def main(argv: list[str] | None = None) -> int:
     else:
         print(f"refreshed {profile_path}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

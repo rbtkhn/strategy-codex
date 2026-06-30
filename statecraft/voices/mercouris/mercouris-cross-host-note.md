@@ -1,6 +1,5 @@
 # Mercouris cross-host note
 
-WORK only; not Record.
 
 Purpose: keep the emerging guest-distributed side of the Mercouris object visible without overstating its maturity.
 

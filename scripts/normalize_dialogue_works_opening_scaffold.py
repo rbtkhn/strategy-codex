@@ -112,7 +112,6 @@ EDITORIAL_CLOSE_NOTE = (
     "Routine closing Substack/link promo trimmed in place; SSOT body otherwise preserved."
 )
 
-
 @dataclass(frozen=True)
 class FileChange:
     path: Path
@@ -123,12 +122,10 @@ class FileChange:
     leading_noise_trimmed: bool = False
     paragraphs_removed: int = 0
 
-
 def strip_bom(text: str) -> str:
     if text.startswith("\ufeff"):
         return text[1:]
     return text
-
 
 def split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     text = strip_bom(text)
@@ -136,7 +133,6 @@ def split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     if not match:
         return {}, text
     return parse_simple_frontmatter(match.group(1)), text[match.end() :]
-
 
 def parse_simple_frontmatter(raw: str) -> dict[str, Any]:
     data: dict[str, Any] = {}
@@ -159,7 +155,6 @@ def parse_simple_frontmatter(raw: str) -> dict[str, Any]:
             data[key] = value
     return data
 
-
 def format_frontmatter_value(value: Any) -> str:
     if isinstance(value, bool):
         return "true" if value else "false"
@@ -167,7 +162,6 @@ def format_frontmatter_value(value: Any) -> str:
     if text == "" or any(ch in text for ch in ':"#[]{}') or text != text.strip():
         return json.dumps(text, ensure_ascii=False)
     return text
-
 
 def patch_frontmatter_block(text: str, meta: dict[str, Any], keys: set[str]) -> str:
     """Rewrite only selected top-level frontmatter keys; preserve YAML lists/blocks."""
@@ -209,16 +203,13 @@ def patch_frontmatter_block(text: str, meta: dict[str, Any], keys: set[str]) -> 
             out.append(f"{key}: {format_frontmatter_value(meta[key])}")
     return f"---\n" + "\n".join(out).rstrip() + "\n---\n\n"
 
-
 def build_output_text(original_text: str, meta: dict[str, Any], body: str) -> str:
     patched = patch_frontmatter_block(original_text, meta, set(META_PATCH_KEYS))
     fm_match = FRONTMATTER_BLOCK_RE.match(patched)
     return (fm_match.group(0) if fm_match else "") + body
 
-
 DIALOGUE_WORKS_SLUGS = frozenset({"dialogue-works", "dialogueworks"})
 DANIEL_DAVIS_CHANNEL_IDS = frozenset({"UCkF-6h_Zgf9zXNUmUB-MzTw"})
-
 
 def _channel_is_dialogue_works(meta: dict[str, Any]) -> bool:
     slug = str(meta.get("channel_slug") or "").strip().lower()
@@ -230,7 +221,6 @@ def _channel_is_dialogue_works(meta: dict[str, Any]) -> bool:
     if any(ch.lower() in url for ch in DANIEL_DAVIS_CHANNEL_IDS):
         return False
     return True
-
 
 def is_dialogue_works_capture(meta: dict[str, Any], path: Path) -> bool:
     name = path.name.lower()
@@ -250,7 +240,6 @@ def is_dialogue_works_capture(meta: dict[str, Any], path: Path) -> bool:
         return False
     return True
 
-
 def is_solo_capture(meta: dict[str, Any]) -> bool:
     form = str(meta.get("source_form") or "").strip().lower()
     if form == "solo":
@@ -260,26 +249,22 @@ def is_solo_capture(meta: dict[str, Any]) -> bool:
         return True
     return False
 
-
 def split_paragraphs(text: str) -> list[str]:
     text = text.strip()
     if not text:
         return []
     return [chunk.strip() for chunk in re.split(r"\n\s*\n", text) if chunk.strip()]
 
-
 def join_paragraphs(paragraphs: list[str]) -> str:
     if not paragraphs:
         return ""
     return "\n\n".join(paragraphs).rstrip() + "\n"
-
 
 def strip_leading_noise(text: str) -> tuple[str, bool]:
     stripped = LEADING_NOISE_RE.sub("", text.lstrip())
     if stripped != text.lstrip():
         return stripped, True
     return text, False
-
 
 def trim_mid_substack_before_question(text: str) -> tuple[str, bool]:
     question = QUESTION_START_RE.search(text)
@@ -297,7 +282,6 @@ def trim_mid_substack_before_question(text: str) -> tuple[str, bool]:
     trimmed = before + joiner + after
     return trimmed, trimmed != text
 
-
 def trim_book_substack_interrupt(text: str, *, max_scan: int = 12000) -> tuple[str, bool]:
     window = text[:max_scan]
     match = BOOK_INTERRUPT_RE.search(window)
@@ -305,7 +289,6 @@ def trim_book_substack_interrupt(text: str, *, max_scan: int = 12000) -> tuple[s
         return text, False
     trimmed = text[: match.start()].rstrip() + " " + text[match.end() :].lstrip()
     return trimmed, trimmed != text
-
 
 def find_dialogue_works_close_cut(full_text: str) -> tuple[int, str] | None:
     search_window = full_text[-TAIL_SEARCH_CHARS:] if len(full_text) > TAIL_SEARCH_CHARS else full_text
@@ -326,7 +309,6 @@ def find_dialogue_works_close_cut(full_text: str) -> tuple[int, str] | None:
     elif not CTA_SIGNAL_RE.search(tail_from_cut[:800]):
         return None
     return cut_at, anchor
-
 
 def trim_close_substack_block(paragraphs: list[str]) -> tuple[list[str], bool]:
     if not paragraphs:
@@ -352,14 +334,12 @@ def trim_close_substack_block(paragraphs: list[str]) -> tuple[list[str], bool]:
         return paragraphs, False
     return split_paragraphs(trimmed) or [trimmed], True
 
-
 def opening_has_cta(text: str, *, limit: int = 8000) -> bool:
     window = text[:limit]
     question = QUESTION_START_RE.search(window)
     if question:
         return bool(CTA_SIGNAL_RE.search(window[: question.start()]))
     return bool(CTA_SIGNAL_RE.search(window))
-
 
 def classify_opening_tier(
     text: str,
@@ -374,7 +354,6 @@ def classify_opening_tier(
     if HOST_ANCHOR_RE.search(text):
         return "host-tease"
     return "clean"
-
 
 def trim_transcript_body(
     body: str,
@@ -451,13 +430,11 @@ def trim_transcript_body(
         ),
     )
 
-
 def append_editorial_note(meta: dict[str, Any], note: str) -> None:
     existing = str(meta.get("editorial_note") or "").strip()
     if note.lower() in existing.lower():
         return
     meta["editorial_note"] = f"{existing} {note}".strip() if existing else note
-
 
 def normalize_text(
     path: Path,
@@ -552,7 +529,6 @@ def normalize_text(
         ),
     )
 
-
 def candidate_paths(root: Path, explicit: list[Path] | None = None) -> list[Path]:
     if explicit:
         return sorted({p.resolve() for p in explicit})
@@ -573,7 +549,6 @@ def candidate_paths(root: Path, explicit: list[Path] | None = None) -> list[Path
             if is_dialogue_works_capture(meta, path):
                 paths.append(path)
     return sorted(set(paths))
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -626,7 +601,6 @@ def main() -> int:
         rel = change.path.relative_to(REPO_ROOT).as_posix()
         print(f"- {rel} [{joined}] tier={change.opening_tier}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

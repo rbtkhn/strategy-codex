@@ -1,6 +1,5 @@
 # Iran State Memory
 
-WORK only; not Record.
 
 This civilization object stores the long memory of Iranian state authority from Medes / Achaemenids through Parthian / Sasanian rule, Islamic / Persianate continuity, Safavid Shi'a state formation, Qajar / Pahlavi foreign-pressure memory, Mossadegh / 1953, 1979 revolution, Iran-Iraq War, sanctions endurance, and compute-siege sovereignty. It links that long continuity to one statecraft question: what must current Iranian carriers preserve so a transaction reads as sovereignty, dignity, deterrent continuity, and anti-humiliation competence rather than as externally managed retreat or self-isolating overreaction?
 

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Barnes support spine - 2025-2026
 

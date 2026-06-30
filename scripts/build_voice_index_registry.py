@@ -22,16 +22,13 @@ import voice_index_registry_core as core  # noqa: E402
 
 _GENERATED_AT_RE = re.compile(r"^_Generated at .+_$", re.M)
 
-
 def _normalize_md_for_check(text: str) -> str:
     return _GENERATED_AT_RE.sub("_Generated at CHECK_", text)
-
 
 def _normalize_json_for_check(text: str) -> dict:
     data = json.loads(text)
     data.pop("generated_at", None)
     return data
-
 
 def check_artifacts(*, md_path: Path, json_path: Path, archive_root: Path) -> int:
     if not md_path.is_file():
@@ -90,7 +87,6 @@ def check_artifacts(*, md_path: Path, json_path: Path, archive_root: Path) -> in
     )
     return 0
 
-
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=DEFAULT_MD, help="Markdown output path")
@@ -139,7 +135,6 @@ def main(argv: list[str] | None = None) -> int:
         f"({summary['voices_discovered']} voices, {summary['parity_pass']} pass)"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

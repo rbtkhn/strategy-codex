@@ -1,6 +1,6 @@
 # Diesen
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder is the canonical first-pass `civ-lens` shelf for Glenn Diesen.
 

@@ -9,7 +9,6 @@ WORK_DIR = ROOT / "codex" / "predictive-history"
 REG = WORK_DIR / "counter-readings" / "registry" / "counter-readings.jsonl"
 OUT = WORK_DIR / "COUNTER-READINGS.md"
 
-
 def load_rows() -> list[dict]:
     rows = []
     with REG.open("r", encoding="utf-8") as f:
@@ -18,7 +17,6 @@ def load_rows() -> list[dict]:
             if line:
                 rows.append(json.loads(line))
     return rows
-
 
 def main() -> int:
     rows = load_rows()
@@ -53,7 +51,6 @@ def main() -> int:
     OUT.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     print(f"Wrote {OUT.relative_to(ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

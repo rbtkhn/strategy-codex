@@ -20,13 +20,11 @@ if str(_SCRIPTS) not in sys.path:
 
 from yaml_compat import safe_load_path
 
-
 def _norm_token(s: str | None) -> str | None:
     if s is None:
         return None
     t = str(s).strip().lower()
     return t if t else None
-
 
 def _load_yaml(path: Path) -> dict[str, Any]:
     if not path.is_file():
@@ -36,14 +34,11 @@ def _load_yaml(path: Path) -> dict[str, Any]:
         raise ValueError(f"expected mapping in {path}")
     return data
 
-
 def load_model_tiers(repo_root: Path) -> dict[str, Any]:
     return _load_yaml((repo_root / _MODEL_TIERS_REL).resolve())
 
-
 def load_task_policy(repo_root: Path) -> dict[str, Any]:
     return _load_yaml((repo_root / _TASK_POLICY_REL).resolve())
-
 
 def _resolve_provider_model(tiers_doc: dict[str, Any], allowed_tier: str) -> tuple[str | None, str | None]:
     tiers_map = tiers_doc.get("tiers")
@@ -66,7 +61,6 @@ def _resolve_provider_model(tiers_doc: dict[str, Any], allowed_tier: str) -> tup
     raw = os.environ.get(str(env_name).strip(), "")
     model = raw.strip() if raw else None
     return prov, model if model else None
-
 
 def resolve_model_policy(
     *,

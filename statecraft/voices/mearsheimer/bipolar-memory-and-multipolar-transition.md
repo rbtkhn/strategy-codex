@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Bipolar Memory And Multipolar Transition
 

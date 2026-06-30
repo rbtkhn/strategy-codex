@@ -58,7 +58,6 @@ from statecraft_youtube_discovery import (  # noqa: E402
 
 _SLUG_RE = re.compile(r"[^a-z0-9]+")
 
-
 @dataclass
 class ThreadStats:
     file_count: int = 0
@@ -69,7 +68,6 @@ class ThreadStats:
     guests: Counter[str] = field(default_factory=Counter)
     first_day: str | None = None
     last_day: str | None = None
-
 
 @dataclass
 class ChannelStats:
@@ -86,17 +84,14 @@ class ChannelStats:
     first_day: str | None = None
     last_day: str | None = None
 
-
 def iter_all_day_dirs(root: Path) -> list[Path]:
     return sorted(
         [path for path in root.iterdir() if path.is_dir() and len(path.name) == 10 and path.name[4] == "-" and path.name[7] == "-"],
         key=lambda path: path.name,
     )
 
-
 def list_years(root: Path) -> list[str]:
     return sorted({day_dir.name[:4] for day_dir in iter_all_day_dirs(root)})
-
 
 def merge_counter(days: list[DaySummary], attr: str) -> Counter[str]:
     counter: Counter[str] = Counter()
@@ -104,12 +99,10 @@ def merge_counter(days: list[DaySummary], attr: str) -> Counter[str]:
         counter.update(getattr(day, attr))
     return counter
 
-
 def top_counter_text(counter: Counter[str], limit: int = 3) -> str:
     if not counter:
         return "(none)"
     return ", ".join(f"`{name}` ({count})" for name, count in counter.most_common(limit))
-
 
 def build_year_index(root: Path, year: str) -> str:
     month_groups = group_day_dirs_by_month(root, year)
@@ -178,11 +171,9 @@ def build_year_index(root: Path, year: str) -> str:
     )
     return "\n".join(lines)
 
-
 def _slugify_channel_key(text: str) -> str:
     key = _SLUG_RE.sub("-", norm_scalar(text).lower()).strip("-")
     return key or "unknown"
-
 
 def _channel_registry_key(meta: dict[str, Any], filename: str = "") -> tuple[str, str, bool]:
     slug = norm_scalar(meta.get("channel_slug"))
@@ -210,7 +201,6 @@ def _channel_registry_key(meta: dict[str, Any], filename: str = "") -> tuple[str
         if prefix_slug:
             return prefix_slug, prefix_slug.replace("-", " ").title(), False
     return "unknown", "(none)", False
-
 
 def collect_channel_stats(root: Path) -> dict[str, ChannelStats]:
     canonical_map = load_index_slug_canonical()
@@ -260,7 +250,6 @@ def collect_channel_stats(root: Path) -> dict[str, ChannelStats]:
             entry.last_day = day if entry.last_day is None else max(entry.last_day, day)
     return dict(sorted(stats.items()))
 
-
 def _channel_index_table_rows(
     channel_stats: dict[str, ChannelStats],
     watchlist_keys: set[str],
@@ -279,7 +268,6 @@ def _channel_index_table_rows(
         )
     return rows
 
-
 def _partition_channel_stats(
     channel_stats: dict[str, ChannelStats],
     misc_slugs: set[str],
@@ -288,7 +276,6 @@ def _partition_channel_stats(
     misc = {slug: entry for slug, entry in channel_stats.items() if slug in misc_slugs}
     return main, misc
 
-
 def collect_main_channel_stats(root: Path) -> dict[str, ChannelStats]:
     """Main channel-index stats only; ``channel_index_misc_slugs`` excluded."""
     channel_stats = collect_channel_stats(root)
@@ -296,13 +283,11 @@ def collect_main_channel_stats(root: Path) -> dict[str, ChannelStats]:
     main_stats, _misc_stats = _partition_channel_stats(channel_stats, misc_slugs)
     return main_stats
 
-
 def _normalize_channel_url(url: str) -> str:
     cleaned = url.strip()
     if cleaned and not cleaned.startswith("http"):
         return f"https://{cleaned}"
     return cleaned
-
 
 def _count_discoverable_main(main_stats: dict[str, ChannelStats]) -> int:
     discovery_by_key = load_discovery_channel_rows_by_key()
@@ -312,7 +297,6 @@ def _count_discoverable_main(main_stats: dict[str, ChannelStats]) -> int:
         if is_discoverable_channel(entry.slug, url, discovery_by_key=discovery_by_key):
             count += 1
     return count
-
 
 def build_channel_index_json(root: Path) -> dict[str, Any]:
     """Machine roster for check-sources — main index only, misc excluded."""
@@ -366,7 +350,6 @@ def build_channel_index_json(root: Path) -> dict[str, Any]:
         "channels": channels,
     }
 
-
 def _json_payload_semantically_changed(path: Path, payload: dict[str, object]) -> bool:
     rendered = json.dumps(payload, indent=2, ensure_ascii=True) + "\n"
     if not path.exists():
@@ -377,7 +360,6 @@ def _json_payload_semantically_changed(path: Path, payload: dict[str, object]) -
         blob.pop("generated_at", None)
     return existing != fresh
 
-
 def write_channel_index_json(path: Path, root: Path, *, check: bool = False) -> tuple[Path, bool]:
     payload = build_channel_index_json(root)
     if check:
@@ -385,14 +367,12 @@ def write_channel_index_json(path: Path, root: Path, *, check: bool = False) -> 
         return path, changed
     return write_json_payload(path, payload, check=False)
 
-
 def write_writer_index_json(path: Path, root: Path, *, check: bool = False) -> tuple[Path, bool]:
     payload = build_writer_index_json(root)
     if check:
         changed = _json_payload_semantically_changed(path, payload)
         return path, changed
     return write_json_payload(path, payload, check=False)
-
 
 def build_channel_index(root: Path) -> str:
     main_stats = collect_main_channel_stats(root)
@@ -453,7 +433,6 @@ def build_channel_index(root: Path) -> str:
     )
     return "\n".join(lines)
 
-
 def build_channel_index_misc(root: Path) -> str:
     channel_stats = collect_channel_stats(root)
     misc_slugs = load_channel_index_misc_slugs()
@@ -498,7 +477,6 @@ def build_channel_index_misc(root: Path) -> str:
     )
     return "\n".join(lines)
 
-
 def collect_thread_stats(root: Path) -> dict[str, ThreadStats]:
     stats: dict[str, ThreadStats] = {}
     for day_dir in iter_all_day_dirs(root):
@@ -517,7 +495,6 @@ def collect_thread_stats(root: Path) -> dict[str, ThreadStats]:
                 entry.first_day = day if entry.first_day is None else min(entry.first_day, day)
                 entry.last_day = day if entry.last_day is None else max(entry.last_day, day)
     return dict(sorted(stats.items()))
-
 
 def build_thread_index(root: Path) -> str:
     thread_stats = collect_thread_stats(root)
@@ -563,13 +540,11 @@ def build_thread_index(root: Path) -> str:
     )
     return "\n".join(lines)
 
-
 def _render_compare_status(path: Path, rendered: str) -> str:
     if not path.exists():
         return "missing"
     existing = path.read_text(encoding="utf-8", errors="replace")
     return "ok" if existing == rendered else "stale"
-
 
 def build_stale_index_audit(root: Path) -> str:
     day_rows: list[tuple[str, str, str, str]] = []
@@ -692,7 +667,6 @@ def build_stale_index_audit(root: Path) -> str:
     )
     return "\n".join(lines)
 
-
 def write_rendered(path: Path, rendered: str, *, check: bool = False) -> tuple[Path, bool]:
     existing = path.read_text(encoding="utf-8") if path.exists() else None
     changed = existing != rendered
@@ -708,13 +682,11 @@ def write_rendered(path: Path, rendered: str, *, check: bool = False) -> tuple[P
             raise
     return path, changed
 
-
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Statecraft source-archive root.")
     ap.add_argument("--check", action="store_true", help="Read and compare generated archive-navigation files without writing them.")
     return ap.parse_args()
-
 
 def main() -> int:
     args = parse_args()
@@ -796,7 +768,6 @@ def main() -> int:
         return 0
     print(f"wrote {len(changed_paths)} archive navigation files under {root}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

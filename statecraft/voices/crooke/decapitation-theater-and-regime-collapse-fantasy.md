@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Decapitation Theater And Regime-Collapse Fantasy
 

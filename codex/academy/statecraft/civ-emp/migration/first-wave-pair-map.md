@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # First-Wave Pair Map
 

@@ -3,9 +3,7 @@
 
 Checks: schema keys, paths exist on disk, both endpoints present in
 knot-index.yaml, relation is allowed, reason is non-empty, no duplicate
-(from, to, relation) triples, status enum if present. WORK only; not Record.
-
-Exit 0 if ok; 1 if any error (prints to stderr).
+(from, to, relation) triples, status enum if present. Exit 0 if ok; 1 if any error (prints to stderr).
 """
 
 from __future__ import annotations
@@ -45,7 +43,6 @@ ALLOWED_CONN_KEYS = frozenset(
     {"from", "to", "relation", "reason", "warrant", "status"}
 )
 
-
 def _load_index_paths(index_path: Path) -> set[str] | None:
     """Return the set of path strings from knot-index.yaml, or None on error."""
     if not index_path.is_file():
@@ -61,7 +58,6 @@ def _load_index_paths(index_path: Path) -> set[str] | None:
     if not isinstance(knots, list):
         return None
     return {row["path"] for row in knots if isinstance(row, dict) and "path" in row}
-
 
 def validate_connections(
     data: Any,
@@ -159,7 +155,6 @@ def validate_connections(
 
     return errs
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -213,7 +208,6 @@ def main() -> int:
     n = len(data.get("connections") or [])
     print(f"ok: {args.connections} ({n} connections)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

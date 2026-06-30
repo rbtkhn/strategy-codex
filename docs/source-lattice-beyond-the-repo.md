@@ -1,6 +1,5 @@
 # Source-Lattice Beyond The Repo
 
-work only; not Record.
 
 `Source-lattice` should not stay trapped as a local repo pattern.
 

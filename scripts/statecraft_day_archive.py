@@ -12,7 +12,6 @@ from typing import Any, Literal
 
 import build_voice_routing_queue as voice_routing
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 CHANNEL_INDEX_DIR = REPO_ROOT / "statecraft" / "channels"
@@ -27,7 +26,7 @@ COMPOUND_PERSON_SPLIT_RE = re.compile(r"\s*(?:,|;|&|\band\b)\s*", re.IGNORECASE)
 PERSON_LABEL_ALIASES = {
     "Nima": "Nima Alkhorshid",
     "Nema": "Nima Alkhorshid",
-    "Nima Alkorshid": "Nima Alkhorshid",
+    "Nima Alkhorshid": "Nima Alkhorshid",
     "Nima R. Alkhorshid": "Nima Alkhorshid",
     "Nima Alkhorshid Dialogue Works": "Nima Alkhorshid",
     "Dialogue Works": "Nima Alkhorshid",
@@ -42,7 +41,6 @@ PERSON_LABEL_ALIASES = {
 CANONICAL_SOURCE_PREFIX = "source-"
 HELPER_NOTE_PREFIXES = ("verify-",)
 DAY_INDEX_FILENAME = "day-index.md"
-
 
 @dataclass(frozen=True)
 class ArchiveFile:
@@ -61,7 +59,6 @@ class ArchiveFile:
     source_url: str
     youtube_id: str
 
-
 @dataclass(frozen=True)
 class DayCaptureRoster:
     path: Path
@@ -71,7 +68,6 @@ class DayCaptureRoster:
     channel_slug: str = ""
     writer_slug: str = ""
     feed_host: str = ""
-
 
 @dataclass(frozen=True)
 class DaySummary:
@@ -89,10 +85,8 @@ class DaySummary:
     has_readme: bool = False
     readme_parse_ok: bool = False
 
-
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8-sig", errors="replace")
-
 
 def parse_frontmatter(path: Path) -> dict[str, Any]:
     text = read_text(path)
@@ -100,7 +94,6 @@ def parse_frontmatter(path: Path) -> dict[str, Any]:
     if not match:
         return {}
     return parse_simple_frontmatter_block(match.group(1))
-
 
 def parse_simple_frontmatter_block(block: str) -> dict[str, Any]:
     """Parse the narrow YAML subset used by source-archive frontmatter."""
@@ -128,7 +121,6 @@ def parse_simple_frontmatter_block(block: str) -> dict[str, Any]:
         data[key] = parse_scalar(raw_value)
     return data
 
-
 def parse_scalar(raw: str) -> Any:
     text = raw.strip()
     if text.startswith("[") and text.endswith("]"):
@@ -140,10 +132,8 @@ def parse_scalar(raw: str) -> Any:
         return text[1:-1]
     return text
 
-
 def norm_scalar(value: Any) -> str:
     return " ".join(str(value or "").split()).strip()
-
 
 def is_youtube_capture(meta: dict[str, Any]) -> bool:
     """Shared channel-index / writer-index membrane: True when capture is YouTube-shaped."""
@@ -153,7 +143,6 @@ def is_youtube_capture(meta: dict[str, Any]) -> bool:
         return True
     url = norm_scalar(meta.get("source_url")).casefold()
     return "youtube.com" in url or "youtu.be" in url
-
 
 def as_values(value: Any) -> tuple[str, ...]:
     if value is None:
@@ -168,7 +157,6 @@ def as_values(value: Any) -> tuple[str, ...]:
     text = norm_scalar(value)
     return (text,) if text else ()
 
-
 def normalize_person_label(value: str) -> str:
     text = norm_scalar(value)
     if "|" in text:
@@ -182,7 +170,6 @@ def normalize_person_label(value: str) -> str:
         text = text.replace("-", " ").title()
     text = PERSON_LABEL_ALIASES.get(text, text)
     return text
-
 
 def split_person_field_value(value: Any) -> tuple[str, ...]:
     text = norm_scalar(value)
@@ -199,7 +186,6 @@ def split_person_field_value(value: Any) -> tuple[str, ...]:
             normalized_parts.append(normalized)
     return tuple(normalized_parts)
 
-
 def is_title_fragment(candidate: str, title: str) -> bool:
     clean_candidate = norm_scalar(candidate)
     clean_title = norm_scalar(title)
@@ -207,11 +193,9 @@ def is_title_fragment(candidate: str, title: str) -> bool:
         return False
     return clean_title.casefold().startswith(clean_candidate.casefold())
 
-
 def is_known_speaker_label(value: str) -> bool:
     inventory = _speaker_inventory()
     return bool(voice_routing._match_speaker(value, inventory))  # noqa: SLF001
-
 
 def is_probable_topic_fragment(candidate: str, title: str) -> bool:
     clean_candidate = norm_scalar(candidate)
@@ -221,13 +205,11 @@ def is_probable_topic_fragment(candidate: str, title: str) -> bool:
         return False
     return True
 
-
 def normalize_channel_label(value: str) -> str:
     text = norm_scalar(value)
     if "-" in text and " " not in text and text.lower() == text:
         return text.replace("-", " ").title()
     return text
-
 
 def _append_person_values(out: list[str], raw_values: tuple[str, ...]) -> None:
     for value in raw_values:
@@ -235,14 +217,12 @@ def _append_person_values(out: list[str], raw_values: tuple[str, ...]) -> None:
             if normalized and normalized not in out:
                 out.append(normalized)
 
-
 def _pattern_person_values(meta: dict[str, Any], pattern: str) -> tuple[str, ...]:
     out: list[str] = []
     for key, raw_value in meta.items():
         if re.fullmatch(pattern, str(key)):
             _append_person_values(out, as_values(raw_value))
     return tuple(out)
-
 
 def host_meta_values(meta: dict[str, Any]) -> tuple[str, ...]:
     if "host_people" in meta:
@@ -258,7 +238,6 @@ def host_meta_values(meta: dict[str, Any]) -> tuple[str, ...]:
 
     _append_person_values(out, as_values(meta.get("author_people")) + as_values(meta.get("author")))
     return tuple(out)
-
 
 def guest_meta_values(meta: dict[str, Any]) -> tuple[str, ...]:
     out: list[str] = []
@@ -284,11 +263,9 @@ def guest_meta_values(meta: dict[str, Any]) -> tuple[str, ...]:
                 out.append(normalized)
     return tuple(out)
 
-
 @lru_cache(maxsize=1)
 def _speaker_inventory() -> voice_routing.VoiceInventory:
     return voice_routing._discover_inventory(voice_routing.DEFAULT_VOICES_DIR, DEFAULT_ROOT)  # noqa: SLF001
-
 
 def explicit_thread_values(meta: dict[str, Any]) -> tuple[str, ...]:
     out: list[str] = []
@@ -304,7 +281,6 @@ def explicit_thread_values(meta: dict[str, Any]) -> tuple[str, ...]:
             if normalized and normalized not in out:
                 out.append(normalized)
     return tuple(out)
-
 
 def derive_thread_values(meta: dict[str, Any], guest_values: tuple[str, ...]) -> tuple[str, ...]:
     out = list(explicit_thread_values(meta))
@@ -322,11 +298,9 @@ def derive_thread_values(meta: dict[str, Any], guest_values: tuple[str, ...]) ->
 
     return tuple(out)
 
-
 def type_label(name: str) -> str:
     stem = name[:-3] if name.endswith(".md") else name
     return stem.split("-", 1)[0] if "-" in stem else stem
-
 
 def infer_source_form(meta: dict[str, Any], host_values: tuple[str, ...], guest_values: tuple[str, ...]) -> str:
     explicit = norm_scalar(meta.get("source_form"))
@@ -349,7 +323,6 @@ def infer_source_form(meta: dict[str, Any], host_values: tuple[str, ...], guest_
     if host_values or norm_scalar(meta.get("show_title")) or norm_scalar(meta.get("show")) or norm_scalar(meta.get("channel_name")) or source_url:
         return "solo"
     return "post"
-
 
 def collect_archive_file(path: Path) -> ArchiveFile:
     meta = parse_frontmatter(path)
@@ -385,7 +358,6 @@ def collect_archive_file(path: Path) -> ArchiveFile:
         youtube_id=youtube_id,
     )
 
-
 def iter_source_files(day_dir: Path) -> list[Path]:
     return sorted(
         [
@@ -398,7 +370,6 @@ def iter_source_files(day_dir: Path) -> list[Path]:
         key=lambda path: path.name,
     )
 
-
 def iter_helper_files(day_dir: Path) -> list[Path]:
     return sorted(
         [
@@ -410,14 +381,12 @@ def iter_helper_files(day_dir: Path) -> list[Path]:
         key=lambda path: path.name,
     )
 
-
 def rollup_values(records: list[ArchiveFile], attr: str) -> Counter[str]:
     counter: Counter[str] = Counter()
     for record in records:
         for value in getattr(record, attr):
             counter[value] += 1
     return counter
-
 
 def summarize_records(
     date: str,
@@ -443,7 +412,6 @@ def summarize_records(
         readme_parse_ok=readme_parse_ok,
     )
 
-
 def summarize_day_dir(day_dir: Path, *, has_readme: bool | None = None, readme_parse_ok: bool = False) -> DaySummary:
     records = [collect_archive_file(path) for path in iter_source_files(day_dir)]
     helper_file_names = tuple(path.name for path in iter_helper_files(day_dir))
@@ -455,7 +423,6 @@ def summarize_day_dir(day_dir: Path, *, has_readme: bool | None = None, readme_p
         readme_parse_ok=readme_parse_ok,
     )
 
-
 def iter_all_day_dirs(root: Path) -> list[Path]:
     return sorted(
         [
@@ -465,7 +432,6 @@ def iter_all_day_dirs(root: Path) -> list[Path]:
         ],
         key=lambda path: path.name,
     )
-
 
 def select_day_dirs(
     root: Path,
@@ -480,7 +446,6 @@ def select_day_dirs(
         day_dirs = [path for path in day_dirs if path.name <= to_day]
     return day_dirs
 
-
 def fmt_counter(counter: Counter[str]) -> str:
     if not counter:
         return "(none)"
@@ -490,13 +455,11 @@ def fmt_counter(counter: Counter[str]) -> str:
     ]
     return ", ".join(parts)
 
-
 def counter_to_list(counter: Counter[str]) -> list[dict[str, int | str]]:
     return [
         {"name": name, "count": count}
         for name, count in sorted(counter.items(), key=lambda item: (-item[1], item[0]))
     ]
-
 
 def _source_index_voice_label(record: ArchiveFile) -> str:
     if record.guest_values:
@@ -505,12 +468,10 @@ def _source_index_voice_label(record: ArchiveFile) -> str:
         return record.host_values[0]
     return record.show or record.title or record.name
 
-
 def _source_index_thread_label(record: ArchiveFile) -> str:
     if not record.thread_values:
         return "—"
     return ", ".join(f"`{value}`" for value in record.thread_values)
-
 
 def _source_link_cell(record: ArchiveFile) -> str:
     if record.source_url:
@@ -518,14 +479,12 @@ def _source_link_cell(record: ArchiveFile) -> str:
         return f"[{label}]({record.source_url})"
     return "—"
 
-
 def _resolve_channel_index_slug(meta: dict[str, Any], filename: str) -> str:
     from build_statecraft_archive_navigation import _channel_registry_key
     from statecraft_youtube_discovery import canonical_channel_index_slug, load_index_slug_canonical
 
     slug, _, _ = _channel_registry_key(meta, filename)
     return canonical_channel_index_slug(slug, load_index_slug_canonical())
-
 
 def classify_day_captures(day_dir: Path) -> list[DayCaptureRoster]:
     from statecraft_writer_index import (
@@ -579,7 +538,6 @@ def classify_day_captures(day_dir: Path) -> list[DayCaptureRoster]:
         )
     return classified
 
-
 def _day_index_stats_lines(summary: DaySummary, classified: list[DayCaptureRoster]) -> list[str]:
     channel_count = sum(1 for item in classified if item.bucket == "channel")
     writer_count = sum(1 for item in classified if item.bucket == "writer")
@@ -597,7 +555,6 @@ def _day_index_stats_lines(summary: DaySummary, classified: list[DayCaptureRoste
         f"- Distinct guests: `{len(summary.guest_counter)}`",
         f"- Distinct threads: `{len(summary.thread_counter)}`",
     ]
-
 
 def build_day_index(day_dir: Path) -> str:
     summary = summarize_day_dir(day_dir)
@@ -731,7 +688,6 @@ def build_day_index(day_dir: Path) -> str:
     lines.append("")
     return "\n".join(lines)
 
-
 def build_day_readme_stub(day_dir: Path) -> str:
     day = day_dir.name
     return "\n".join(
@@ -744,15 +700,12 @@ def build_day_readme_stub(day_dir: Path) -> str:
         ]
     )
 
-
 def build_day_readme(day_dir: Path) -> str:
     """Deprecated alias — prefer :func:`build_day_index`."""
     return build_day_index(day_dir)
 
-
 def day_index_path(day_dir: Path) -> Path:
     return day_dir / DAY_INDEX_FILENAME
-
 
 def iter_day_dirs(root: Path, year: str) -> list[Path]:
     return sorted(
@@ -764,7 +717,6 @@ def iter_day_dirs(root: Path, year: str) -> list[Path]:
         key=lambda path: path.name,
     )
 
-
 def parse_counter_text(text: str) -> Counter[str]:
     counter: Counter[str] = Counter()
     stripped = text.strip()
@@ -773,7 +725,6 @@ def parse_counter_text(text: str) -> Counter[str]:
     for name, count in re.findall(r"`([^`]+)` \((\d+)\)", stripped):
         counter[name] = int(count)
     return counter
-
 
 def _extract_section_block(text: str, heading: str) -> str | None:
     match = re.search(
@@ -784,7 +735,6 @@ def _extract_section_block(text: str, heading: str) -> str | None:
     if not match:
         return None
     return match.group(1).strip()
-
 
 def _parse_day_inventory_text(text: str) -> DaySummary | None:
     title_match = re.search(
@@ -828,7 +778,6 @@ def _parse_day_inventory_text(text: str) -> DaySummary | None:
         readme_parse_ok=True,
     )
 
-
 def parse_day_readme(day_dir: Path) -> DaySummary | None:
     index_path = day_index_path(day_dir)
     if index_path.is_file():
@@ -839,7 +788,6 @@ def parse_day_readme(day_dir: Path) -> DaySummary | None:
     if not readme_path.is_file():
         return None
     return _parse_day_inventory_text(readme_path.read_text(encoding="utf-8", errors="replace"))
-
 
 def load_day_summary(day_dir: Path) -> DaySummary:
     parsed = parse_day_readme(day_dir)

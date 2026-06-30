@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-07/source-daniel-davis-israel-launches-missile-attack-against-iran-2026-06-07.md>
   - source-archive/statecraft/2026-06-07/source-mario-nawfal-aguilar-iran-launches-missiles-to-israel-iran-war-officially-restarts-2026-06-07.md>
 ---
-WORK only; not Record.
 
 # June 2026 Week 1 — Start Here
 

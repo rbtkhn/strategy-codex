@@ -15,7 +15,6 @@ if str(_RUNTIME) not in sys.path:
 from observation_store import by_id  # noqa: E402
 from uncertainty_envelope import compute_fabricated_history_risk  # noqa: E402
 
-
 def main() -> int:
     p = argparse.ArgumentParser(
         description="Flag fabricated-history risk (low|medium|high) for observation IDs."
@@ -41,7 +40,6 @@ def main() -> int:
         for r in reasons:
             print(f"  - {r}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

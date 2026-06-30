@@ -32,7 +32,6 @@ RENAMES: dict[str, str] = {
     ),
 }
 
-
 def collect_file_renames() -> list[tuple[Path, Path]]:
     pairs: list[tuple[Path, Path]] = []
     for old_name, new_name in RENAMES.items():
@@ -46,12 +45,10 @@ def collect_file_renames() -> list[tuple[Path, Path]]:
         pairs.append((old_path, new_path))
     return pairs
 
-
 def apply_renames(pairs: list[tuple[Path, Path]]) -> None:
     for old, new in pairs:
         old.rename(new)
     print(f"Renamed {len(pairs)} capture files")
-
 
 def patch_frontmatter(path: Path) -> bool:
     text = path.read_text(encoding="utf-8")
@@ -70,7 +67,6 @@ def patch_frontmatter(path: Path) -> bool:
     new_fm = fm[:insert_at] + "\nchannel_slug: glenn-diesen" + fm[insert_at:]
     path.write_text("---" + new_fm + text[end:], encoding="utf-8")
     return True
-
 
 def patch_text_references() -> int:
     replacements = [(old, new) for old, new in RENAMES.items()]
@@ -95,7 +91,6 @@ def patch_text_references() -> int:
                 patched += 1
     return patched
 
-
 def main() -> int:
     pairs = collect_file_renames()
     apply_renames(pairs)
@@ -104,7 +99,6 @@ def main() -> int:
     print(f"Added channel_slug on {slugged} captures")
     print(f"Patched {patched} reference files")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

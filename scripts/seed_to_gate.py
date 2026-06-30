@@ -26,7 +26,6 @@ from repo_io import DEFAULT_PROFILE_ID, profile_dir
 
 DEFAULT_USER_ID = DEFAULT_PROFILE_ID
 
-
 def _load_latest(user_id: str) -> dict[str, dict[str, Any]]:
     path = profile_dir(user_id) / "seed-registry.jsonl"
     if not path.exists():
@@ -45,7 +44,6 @@ def _load_latest(user_id: str) -> dict[str, dict[str, Any]]:
             continue
     return latest
 
-
 _CATEGORY_TO_IX = {
     "identity": "IX-C",
     "curiosity": "IX-B",
@@ -55,7 +53,6 @@ _CATEGORY_TO_IX = {
     "safety": "IX-A",
     "preference": "IX-C",
 }
-
 
 def seed_to_gate_yaml(claim: dict[str, Any], candidate_id: str) -> str:
     """Generate a RECURSION-GATE candidate YAML block from a seed claim."""
@@ -87,7 +84,6 @@ def seed_to_gate_yaml(claim: dict[str, Any], candidate_id: str) -> str:
         ```
     """)
 
-
 def _span_desc(claim: dict[str, Any]) -> str:
     from datetime import datetime
     try:
@@ -98,7 +94,6 @@ def _span_desc(claim: dict[str, Any]) -> str:
     except (ValueError, TypeError):
         return "unknown span"
 
-
 def _next_candidate_id(gate_text: str) -> str:
     import re
     ids = re.findall(r"CANDIDATE-(\d+)", gate_text)
@@ -106,7 +101,6 @@ def _next_candidate_id(gate_text: str) -> str:
         max_id = max(int(i) for i in ids)
         return f"CANDIDATE-{max_id + 1:04d}"
     return "CANDIDATE-0100"
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -154,7 +148,6 @@ def main() -> int:
         print(yaml_block)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

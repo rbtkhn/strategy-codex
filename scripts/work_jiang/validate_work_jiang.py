@@ -44,11 +44,9 @@ FORBIDDEN_EXPORT_PREFIXES = [
     "recursion-gate.md",
 ]
 
-
 def load(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def parse_frontmatter(text: str) -> dict | None:
     if not text.startswith("---"):
@@ -62,20 +60,16 @@ def parse_frontmatter(text: str) -> dict | None:
     except yaml.YAMLError:
         return None
 
-
 def chapter_evidence_pack_exists(cid: str) -> bool:
     return (WORK_DIR / "evidence-packs" / f"{cid}.md").exists()
-
 
 def chapter_outline_exists(item: dict) -> bool:
     p = item.get("outline_path")
     return bool(p) and (WORK_DIR / p).exists()
 
-
 def chapter_draft_exists(item: dict) -> bool:
     p = item.get("draft_path")
     return bool(p) and (WORK_DIR / p).exists()
-
 
 def count_chapter_quotes_by_status(quotes: list[dict], chapter_id: str, statuses: set[str]) -> int:
     total = 0
@@ -86,14 +80,12 @@ def count_chapter_quotes_by_status(quotes: list[dict], chapter_id: str, statuses
             total += 1
     return total
 
-
 def assert_safe_output_path(path: Path) -> None:
     """Raise if path would write into Record. Used by membrane validator."""
     p = path.as_posix()
     for prefix in FORBIDDEN_EXPORT_PREFIXES:
         if prefix in p:
             raise ValueError(f"Unsafe export target for work-jiang lane: {p}")
-
 
 def _scan_rendered_status_drift(
     path: Path,
@@ -121,7 +113,6 @@ def _scan_rendered_status_drift(
                     f"book-architecture.yaml has {exp!r} — re-run renderers"
                 )
             current_cid = None
-
 
 def check_rendered_status_drift(architecture: dict, errors: list[str]) -> None:
     """Verify rendered queue/architecture markdown status matches book-architecture.yaml."""
@@ -273,7 +264,6 @@ def check_rendered_status_drift(architecture: dict, errors: list[str]) -> None:
             errors,
         )
 
-
 def check_membrane(errors: list[str]) -> None:
     """Scan work_jiang scripts for forbidden Record path writes."""
     scripts_dir = ROOT / "scripts" / "work_jiang"
@@ -293,7 +283,6 @@ def check_membrane(errors: list[str]) -> None:
                     f"scripts/work_jiang/{py_path.name} contains forbidden path "
                     f"prefix {prefix!r} — work-jiang must not write to Record"
                 )
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -510,7 +499,6 @@ def main() -> int:
     for err in errors:
         print(f"ERROR: {err}", file=sys.stderr)
     return 1 if errors else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

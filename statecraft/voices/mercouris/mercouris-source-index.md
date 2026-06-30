@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Mercouris Source Index (compat redirect)
 

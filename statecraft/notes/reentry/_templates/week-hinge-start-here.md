@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 archive_links:
   - source-archive/statecraft/YYYY-MM/day-index.md
 ---
-WORK only; not Record.
 
 # YYYY-MM Week N — Start Here (month-week N: YYYY-MM-DD – YYYY-MM-DD)
 

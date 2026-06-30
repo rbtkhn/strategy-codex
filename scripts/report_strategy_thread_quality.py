@@ -8,8 +8,6 @@ missing companion files, and batch-analysis alignment issues.
 Writes nothing canonical. Optional ``--log-miss`` records gaps to the
 retrieval-miss ledger (runtime/retrieval-misses/index.jsonl).
 
-WORK only; not Record.
-
 Usage::
 
     python3 scripts/report_strategy_thread_quality.py
@@ -55,7 +53,6 @@ DEFAULT_INBOX = DEFAULT_NOTEBOOK_DIR / "daily-strategy-inbox.md"
 _RE_THREAD_TAG = re.compile(r"thread:([a-z][a-z0-9]*(?:-[a-z][a-z0-9]*)*)")
 _RE_DATE_HEADING = re.compile(r"^## (\d{4}-\d{2}-\d{2})\s*$")
 
-
 # ---------------------------------------------------------------------------
 # Data shapes
 # ---------------------------------------------------------------------------
@@ -75,7 +72,6 @@ class ExpertDiagnostic:
     density_ratio: float | None = None
     issues: list[str] = field(default_factory=list)
 
-
 @dataclass
 class RosterDrift:
     ok: bool = True
@@ -83,13 +79,11 @@ class RosterDrift:
     extra_in_table: list[str] = field(default_factory=list)
     order_mismatch: bool = False
 
-
 @dataclass
 class BatchAlignmentIssue:
     line_number: int
     raw_tag: str
     reason: str
-
 
 @dataclass
 class QualityReport:
@@ -100,7 +94,6 @@ class QualityReport:
     experts: list[ExpertDiagnostic] = field(default_factory=list)
     batch_alignment_issues: list[BatchAlignmentIssue] = field(default_factory=list)
     summary: dict[str, int] = field(default_factory=dict)
-
 
 # ---------------------------------------------------------------------------
 # Checks
@@ -138,7 +131,6 @@ def _check_missing_files(expert_id: str, notebook_dir: Path) -> ExpertDiagnostic
 
     return diag
 
-
 def _check_transcript_content(diag: ExpertDiagnostic, notebook_dir: Path, cutoff: date) -> None:
     """Populate transcript stats and staleness."""
     from strategy_expert_corpus import expert_paths as _expert_paths
@@ -171,7 +163,6 @@ def _check_transcript_content(diag: ExpertDiagnostic, notebook_dir: Path, cutoff
         diag.stale = True
         diag.issues.append("stale: no dated sections in transcript")
 
-
 def _check_machine_layer(diag: ExpertDiagnostic, notebook_dir: Path) -> None:
     """Count machine layer lines and detect coverage gaps."""
     from strategy_expert_corpus import expert_thread_paths_for_discovery
@@ -203,12 +194,10 @@ def _check_machine_layer(diag: ExpertDiagnostic, notebook_dir: Path) -> None:
         diag.coverage_gap = True
         diag.issues.append("coverage gap: transcript has content but machine layer is empty")
 
-
 def _compute_density(diag: ExpertDiagnostic) -> None:
     """Compute extraction density ratio."""
     if diag.transcript_line_count > 0:
         diag.density_ratio = round(diag.machine_layer_line_count / diag.transcript_line_count, 2)
-
 
 def _check_roster_drift(threads_index: Path) -> RosterDrift:
     """Compare strategy-commentator-threads.md table against CANONICAL_EXPERT_IDS.
@@ -256,10 +245,8 @@ def _check_roster_drift(threads_index: Path) -> RosterDrift:
 
     return drift
 
-
 _RE_TABLE_SLUG = re.compile(r"^\|\s*`([a-z][a-z0-9-]*)`\s*\|")
 _RE_ROSTER_HEADER = re.compile(r"^\|\s*expert_id\s*\|\s*Name\b.*Role", re.IGNORECASE)
-
 
 def _fallback_roster_scan(threads_index: Path) -> list[str]:
     """Regex scan for ``| `slug` |`` rows in the main roster table only.
@@ -293,7 +280,6 @@ def _fallback_roster_scan(threads_index: Path) -> list[str]:
 
     return order
 
-
 def _check_batch_alignment(inbox_path: Path) -> list[BatchAlignmentIssue]:
     """Check batch-analysis lines for thread tags that aren't in the canonical roster."""
     issues: list[BatchAlignmentIssue] = []
@@ -315,7 +301,6 @@ def _check_batch_alignment(inbox_path: Path) -> list[BatchAlignmentIssue]:
                 ))
 
     return issues
-
 
 # ---------------------------------------------------------------------------
 # Report assembly
@@ -364,7 +349,6 @@ def build_report(
     }
 
     return report
-
 
 # ---------------------------------------------------------------------------
 # Output formatters
@@ -433,10 +417,8 @@ def format_markdown(report: QualityReport) -> str:
 
     return "\n".join(lines)
 
-
 def format_json(report: QualityReport) -> str:
     return json.dumps(asdict(report), indent=2, ensure_ascii=False)
-
 
 # ---------------------------------------------------------------------------
 # Miss ledger integration
@@ -512,7 +494,6 @@ def log_misses_from_report(report: QualityReport) -> int:
 
     return logged
 
-
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
@@ -549,7 +530,6 @@ def main() -> int:
 
     total = report.summary.get("total_issues", 0)
     return 1 if total > 0 else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

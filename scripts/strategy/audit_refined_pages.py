@@ -15,7 +15,6 @@ import re
 from collections import Counter
 from pathlib import Path
 
-
 def appendix_bullets(appendix_body: str) -> list[str]:
     bullets: list[str] = []
     for ln in appendix_body.splitlines():
@@ -23,7 +22,6 @@ def appendix_bullets(appendix_body: str) -> list[str]:
         if s.startswith("- **"):
             bullets.append(s)
     return bullets
-
 
 def appendix_issues(bullets: list[str]) -> list[str]:
     if not bullets:
@@ -61,14 +59,11 @@ def appendix_issues(bullets: list[str]) -> list[str]:
 
     return iss
 
-
 def issues_for(text: str) -> list[str]:
     iss: list[str] = []
     lines = text.splitlines()
 
     head = "\n".join(lines[:120])
-    if not any("WORK only" in ln and "not Record" in ln for ln in lines[:40]):
-        iss.append("missing_WORK_line")
 
     h1 = next((ln for ln in lines if ln.startswith("# ")), "")
     if h1:
@@ -134,7 +129,6 @@ def issues_for(text: str) -> list[str]:
 
     return iss
 
-
 def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("--json", action="store_true")
@@ -192,7 +186,6 @@ def main() -> None:
         print(f"  {r['path']}")
         for i in r["issues"]:  # type: ignore[union-attr]
             print(f"    - {i}")
-
 
 if __name__ == "__main__":
     main()

@@ -43,10 +43,8 @@ from search_evidence import (
 
 DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", DEFAULT_PROFILE_ID)
 
-
 def _profile_root(users_dir: Path, user: str) -> Path:
     return profile_dir(user) if users_dir == DEFAULT_USERS_DIR else users_dir / user
-
 
 @dataclass
 class GraphEdge:
@@ -56,11 +54,9 @@ class GraphEdge:
     score: float
     detail: str
 
-
 ID_PATTERN = re.compile(r"\b((?:ACT|WRITE|CREATE|READ|MEDIA|LEARN|CUR|PER|CANDIDATE)-\d+)\b")
 CONTRIBUTES_PATTERN = re.compile(r"contributes_to|artifact_id|source.*?:|knowledge_entr|curiosity_entr|personality_entr", re.IGNORECASE)
 CANDIDATE_ARROW = re.compile(r"(CANDIDATE-\d+)\s*(?:→|->|—>)+\s*((?:ACT|WRITE|CREATE|READ|MEDIA|LEARN|CUR|PER)-\d+)")
-
 
 def _extract_explicit_edges(entries: list[EvidenceEntry]) -> list[GraphEdge]:
     """Find explicit cross-references between entries."""
@@ -96,7 +92,6 @@ def _extract_explicit_edges(entries: list[EvidenceEntry]) -> list[GraphEdge]:
             ))
 
     return edges
-
 
 def _extract_implicit_edges(
     entries: list[EvidenceEntry],
@@ -142,7 +137,6 @@ def _extract_implicit_edges(
         per_node[tgt_id] += 1
 
     return edges
-
 
 def build_graph(
     archive_path: Path,
@@ -193,7 +187,6 @@ def build_graph(
         "adjacency": dict(adjacency),
     }
 
-
 def expand_one_hop(graph: dict, entry_ids: list[str]) -> list[str]:
     """Return entry ids reachable in 1 hop from the given set (excluding input ids)."""
     adj = graph.get("adjacency", {})
@@ -204,7 +197,6 @@ def expand_one_hop(graph: dict, entry_ids: list[str]) -> list[str]:
             if neighbor not in seed:
                 neighbors.add(neighbor)
     return sorted(neighbors)
-
 
 def format_stats(graph: dict) -> str:
     """Human-readable stats summary."""
@@ -225,7 +217,6 @@ def format_stats(graph: dict) -> str:
     for t, c in sorted(type_counts.items(), key=lambda x: -x[1]):
         lines.append(f"  {t}: {c} nodes")
     return "\n".join(lines)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -268,7 +259,6 @@ def main() -> int:
         print(json.dumps(graph, indent=2))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

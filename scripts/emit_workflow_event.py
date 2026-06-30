@@ -33,13 +33,11 @@ from grace_mar.observability.workflow_events import (  # noqa: E402
     load_jsonl,
 )
 
-
 def _read_json(path: Path) -> dict | None:
     try:
         return json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
         return None
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -148,7 +146,6 @@ def main() -> int:
     )
     print(out_file)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

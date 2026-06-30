@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Pape / Marandi / Parsi Backtest - April 2026
 

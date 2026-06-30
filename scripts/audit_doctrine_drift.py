@@ -18,10 +18,8 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONFIG = REPO_ROOT / "platform/config" / "doctrine-rules.v1.json"
 
-
 def _load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def _get_nested(data: Any, dotted_path: str) -> Any:
     cur = data
@@ -31,7 +29,6 @@ def _get_nested(data: Any, dotted_path: str) -> Any:
         cur = cur[part]
     return cur
 
-
 def _iter_target_files(repo_root: Path, patterns: list[str]) -> list[Path]:
     out: set[Path] = set()
     for pattern in patterns:
@@ -40,13 +37,11 @@ def _iter_target_files(repo_root: Path, patterns: list[str]) -> list[Path]:
                 out.add(path.resolve())
     return sorted(out)
 
-
 def _line_number(text: str, needle: str) -> int | None:
     for idx, line in enumerate(text.splitlines(), start=1):
         if needle in line:
             return idx
     return None
-
 
 def _applies_when(data: dict[str, Any], clause: dict[str, Any] | None) -> bool:
     if not clause:
@@ -60,7 +55,6 @@ def _applies_when(data: dict[str, Any], clause: dict[str, Any] | None) -> bool:
         if _get_nested(data, key) != expected:
             return False
     return True
-
 
 def _violation(
     rule_id: str,
@@ -78,7 +72,6 @@ def _violation(
         payload["line"] = line
     return payload
 
-
 def _protected_target_from_expr(
     expr: str, protected_names: set[str], protected_exact_paths: set[str]
 ) -> str | None:
@@ -92,7 +85,6 @@ def _protected_target_from_expr(
         if quoted in expr or squoted in expr:
             return name
     return None
-
 
 def _audit_python_canonical_writer_allowlist(
     repo_root: Path, rule: dict[str, Any]
@@ -154,7 +146,6 @@ def _audit_python_canonical_writer_allowlist(
                     )
     return violations
 
-
 def _audit_json_field_const(repo_root: Path, rule: dict[str, Any]) -> list[dict[str, Any]]:
     violations: list[dict[str, Any]] = []
     for path in _iter_target_files(repo_root, rule["targets"]):
@@ -180,7 +171,6 @@ def _audit_json_field_const(repo_root: Path, rule: dict[str, Any]) -> list[dict[
                 )
     return violations
 
-
 def _audit_json_forbidden_text(repo_root: Path, rule: dict[str, Any]) -> list[dict[str, Any]]:
     violations: list[dict[str, Any]] = []
     forbidden = [item.lower() for item in rule.get("forbiddenSubstrings", [])]
@@ -203,7 +193,6 @@ def _audit_json_forbidden_text(repo_root: Path, rule: dict[str, Any]) -> list[di
                     )
                 )
     return violations
-
 
 def _audit_text_forbidden_regex(repo_root: Path, rule: dict[str, Any]) -> list[dict[str, Any]]:
     violations: list[dict[str, Any]] = []
@@ -228,7 +217,6 @@ def _audit_text_forbidden_regex(repo_root: Path, rule: dict[str, Any]) -> list[d
             )
     return violations
 
-
 def _audit_text_required_regex(repo_root: Path, rule: dict[str, Any]) -> list[dict[str, Any]]:
     violations: list[dict[str, Any]] = []
     required_patterns = [
@@ -250,7 +238,6 @@ def _audit_text_required_regex(repo_root: Path, rule: dict[str, Any]) -> list[di
             )
     return violations
 
-
 RULE_DISPATCH = {
     "python_canonical_writer_allowlist": _audit_python_canonical_writer_allowlist,
     "json_field_const": _audit_json_field_const,
@@ -258,7 +245,6 @@ RULE_DISPATCH = {
     "text_forbidden_regex": _audit_text_forbidden_regex,
     "text_required_regex": _audit_text_required_regex,
 }
-
 
 def audit_repo(repo_root: Path, config_path: Path) -> dict[str, Any]:
     config = _load_json(config_path)
@@ -282,7 +268,6 @@ def audit_repo(repo_root: Path, config_path: Path) -> dict[str, Any]:
         "violations": violations,
     }
 
-
 def _render_text(report: dict[str, Any]) -> str:
     if report["ok"]:
         return "ok: doctrine drift radar found no violations"
@@ -293,7 +278,6 @@ def _render_text(report: dict[str, Any]) -> str:
             loc = f"{loc}:{item['line']}"
         lines.append(f"- [{item['ruleId']}] {loc} — {item['message']}")
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Read-only doctrine drift audit")
@@ -321,7 +305,6 @@ def main() -> int:
     else:
         print(_render_text(report))
     return 0 if report["ok"] else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # Johnson source index
 
-WORK only; not Record.
 
 Purpose: exhaustive canonical route map for Larry C. Johnson guest appearances and direct archive anchors on the Johnson shelf.
 

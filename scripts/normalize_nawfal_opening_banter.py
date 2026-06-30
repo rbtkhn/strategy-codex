@@ -99,7 +99,6 @@ EDITORIAL_ORPHAN_TRIM_NOTE = (
     "Post-trim orphan opening fragment removed in place; SSOT body otherwise preserved."
 )
 
-
 @dataclass(frozen=True)
 class FileChange:
     path: Path
@@ -111,13 +110,11 @@ class FileChange:
     dropout_trimmed: bool = False
     orphan_trimmed: bool = False
 
-
 def split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     match = FRONTMATTER_RE.match(text)
     if not match:
         return {}, text
     return parse_simple_frontmatter(match.group(1)), text[match.end() :]
-
 
 def parse_simple_frontmatter(raw: str) -> dict[str, Any]:
     data: dict[str, Any] = {}
@@ -137,7 +134,6 @@ def parse_simple_frontmatter(raw: str) -> dict[str, Any]:
             data[key] = value
     return data
 
-
 def dump_simple_frontmatter(data: dict[str, Any]) -> str:
     lines: list[str] = []
     for key, value in data.items():
@@ -152,10 +148,8 @@ def dump_simple_frontmatter(data: dict[str, Any]) -> str:
         lines.append(f"{key}: {rendered}")
     return "\n".join(lines)
 
-
 def dump_frontmatter(data: dict[str, Any]) -> str:
     return f"---\n{dump_simple_frontmatter(data).rstrip()}\n---\n\n"
-
 
 def guest_paragraph_cues(guest: str) -> set[str]:
     clean = " ".join(guest.split()).strip()
@@ -170,7 +164,6 @@ def guest_paragraph_cues(guest: str) -> set[str]:
         if low.startswith(title + " "):
             cues.add(low[len(title) + 1 :].strip())
     return {cue for cue in cues if cue}
-
 
 def is_nawfal_hosted(meta: dict[str, Any], path: Path) -> bool:
     name = path.name.lower()
@@ -187,19 +180,16 @@ def is_nawfal_hosted(meta: dict[str, Any], path: Path) -> bool:
         "source-daniel-davis"
     )
 
-
 def split_paragraphs(text: str) -> list[str]:
     text = text.strip()
     if not text:
         return []
     return [chunk.strip() for chunk in re.split(r"\n\s*\n", text) if chunk.strip()]
 
-
 def join_paragraphs(paragraphs: list[str]) -> str:
     if not paragraphs:
         return ""
     return "\n\n".join(paragraphs).rstrip() + "\n"
-
 
 def is_banter_paragraph(paragraph: str) -> bool:
     if not BANTER_SIGNAL_RE.search(paragraph):
@@ -207,7 +197,6 @@ def is_banter_paragraph(paragraph: str) -> bool:
     if SUBSTANTIVE_SIGNAL_RE.search(paragraph):
         return False
     return True
-
 
 def trim_mixed_paragraph_prefix(paragraph: str) -> tuple[str, bool]:
     if not BANTER_SIGNAL_RE.search(paragraph):
@@ -236,7 +225,6 @@ def trim_mixed_paragraph_prefix(paragraph: str) -> tuple[str, bool]:
 
     return paragraph, False
 
-
 def first_guest_substantive_index(paragraphs: list[str], guest: str) -> int | None:
     cues = guest_paragraph_cues(guest)
     for idx, para in enumerate(paragraphs):
@@ -248,7 +236,6 @@ def first_guest_substantive_index(paragraphs: list[str], guest: str) -> int | No
             if not is_banter_paragraph(para):
                 return idx
     return None
-
 
 def opening_has_separable_production_block(paragraphs: list[str]) -> bool:
     if not paragraphs:
@@ -264,7 +251,6 @@ def opening_has_separable_production_block(paragraphs: list[str]) -> bool:
     if not anchor:
         return False
     return anchor.start() > production.start()
-
 
 def trim_production_audio_block(paragraphs: list[str]) -> tuple[list[str], bool]:
     if not opening_has_separable_production_block(paragraphs):
@@ -282,7 +268,6 @@ def trim_production_audio_block(paragraphs: list[str]) -> tuple[list[str], bool]
         return paragraphs, False
     return split_paragraphs(trimmed_window) + rest, True
 
-
 def guest_token_matches_cues(token: str, cues: set[str]) -> bool:
     token = token.lower().strip()
     if not token:
@@ -290,7 +275,6 @@ def guest_token_matches_cues(token: str, cues: set[str]) -> bool:
     if token in cues:
         return True
     return any(token in cue or cue.split()[-1] == token for cue in cues)
-
 
 def opening_has_separable_guest_dropout_block(paragraphs: list[str], guest: str) -> bool:
     if not paragraphs or not guest.strip():
@@ -303,7 +287,6 @@ def opening_has_separable_guest_dropout_block(paragraphs: list[str], guest: str)
     if not return_match or return_match.start() <= dropout.start():
         return False
     return guest_token_matches_cues(return_match.group(1), guest_paragraph_cues(guest))
-
 
 def trim_guest_dropout_block(paragraphs: list[str], guest: str) -> tuple[list[str], bool]:
     if not opening_has_separable_guest_dropout_block(paragraphs, guest):
@@ -321,7 +304,6 @@ def trim_guest_dropout_block(paragraphs: list[str], guest: str) -> tuple[list[st
         return paragraphs, False
     return split_paragraphs(trimmed_window) + rest, True
 
-
 def opening_has_separable_orphan_fragment(paragraphs: list[str]) -> bool:
     if not paragraphs:
         return False
@@ -337,7 +319,6 @@ def opening_has_separable_orphan_fragment(paragraphs: list[str]) -> bool:
         or ORPHAN_INSTITUTION_ANCHOR_RE.search(remainder[:200])
     )
 
-
 def trim_orphan_opening_fragment(paragraphs: list[str]) -> tuple[list[str], bool]:
     if not opening_has_separable_orphan_fragment(paragraphs):
         return paragraphs, False
@@ -350,7 +331,6 @@ def trim_orphan_opening_fragment(paragraphs: list[str]) -> tuple[list[str], bool
         return paragraphs, False
     paragraphs[0] = remainder
     return paragraphs, True
-
 
 def trim_side_quest_block(paragraphs: list[str], guest: str) -> tuple[list[str], bool]:
     if not paragraphs:
@@ -374,7 +354,6 @@ def trim_side_quest_block(paragraphs: list[str], guest: str) -> tuple[list[str],
         return paragraphs, False
     new_paragraphs = paragraphs[anchor_idx:]
     return new_paragraphs, True
-
 
 def classify_opening_tier(
     original_paragraphs: list[str],
@@ -400,7 +379,6 @@ def classify_opening_tier(
     if host_words >= 120 or guest_idx > 2:
         return "host-monologue"
     return "clean"
-
 
 def trim_transcript_body(
     body: str, guest: str, include_side_quests: bool
@@ -467,7 +445,6 @@ def trim_transcript_body(
     new_body = join_paragraphs(paragraphs)
     return new_body, changed, removed_count, prefix_trimmed, production_trimmed, dropout_trimmed, orphan_trimmed
 
-
 def split_body_sections(body: str) -> tuple[str, str, str]:
     match = TRANSCRIPT_SECTION_RE.search(body)
     if match:
@@ -490,12 +467,10 @@ def split_body_sections(body: str) -> tuple[str, str, str]:
     transcript_body = "".join(lines[idx:])
     return prefix, "", transcript_body
 
-
 def merge_body_sections(prefix: str, transcript_header: str, transcript_body: str) -> str:
     if not transcript_header:
         return prefix + transcript_body
     return prefix + transcript_header + transcript_body
-
 
 def update_editorial_note(meta: dict[str, Any], intro_removed: bool) -> None:
     if not intro_removed:
@@ -505,7 +480,6 @@ def update_editorial_note(meta: dict[str, Any], intro_removed: bool) -> None:
         return
     meta["editorial_note"] = f"{note} {EDITORIAL_TRIM_NOTE}".strip() if note else EDITORIAL_TRIM_NOTE
 
-
 def update_production_editorial_note(meta: dict[str, Any]) -> None:
     note = str(meta.get("editorial_note") or "").strip()
     if EDITORIAL_PRODUCTION_TRIM_NOTE.lower() in note.lower():
@@ -514,7 +488,6 @@ def update_production_editorial_note(meta: dict[str, Any]) -> None:
         f"{note} {EDITORIAL_PRODUCTION_TRIM_NOTE}".strip() if note else EDITORIAL_PRODUCTION_TRIM_NOTE
     )
 
-
 def update_dropout_editorial_note(meta: dict[str, Any]) -> None:
     note = str(meta.get("editorial_note") or "").strip()
     if EDITORIAL_DROPOUT_TRIM_NOTE.lower() in note.lower():
@@ -522,7 +495,6 @@ def update_dropout_editorial_note(meta: dict[str, Any]) -> None:
     meta["editorial_note"] = (
         f"{note} {EDITORIAL_DROPOUT_TRIM_NOTE}".strip() if note else EDITORIAL_DROPOUT_TRIM_NOTE
     )
-
 
 def update_orphan_editorial_note(meta: dict[str, Any]) -> None:
     note = str(meta.get("editorial_note") or "").strip()
@@ -533,7 +505,6 @@ def update_orphan_editorial_note(meta: dict[str, Any]) -> None:
     meta["editorial_note"] = (
         f"{note} {EDITORIAL_ORPHAN_TRIM_NOTE}".strip() if note else EDITORIAL_ORPHAN_TRIM_NOTE
     )
-
 
 def normalize_text(
     path: Path,
@@ -692,7 +663,6 @@ def normalize_text(
     )
     return new_text != text, new_text, file_change
 
-
 def candidate_paths(root: Path, explicit: list[Path] | None = None) -> list[Path]:
     if explicit:
         return sorted({p.resolve() for p in explicit})
@@ -708,7 +678,6 @@ def candidate_paths(root: Path, explicit: list[Path] | None = None) -> list[Path
         if is_nawfal_hosted(meta, path):
             paths.append(path)
     return sorted(set(paths))
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -768,7 +737,6 @@ def main() -> int:
         rel = change.path.relative_to(REPO_ROOT).as_posix()
         print(f"- {rel} [{joined}] tier={change.opening_tier}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

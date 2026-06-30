@@ -71,7 +71,6 @@ REWRITE_EXCLUDE_PARTS = (
     ".cursor/plans",
 )
 
-
 @dataclass
 class MoveRow:
     src: Path
@@ -92,7 +91,6 @@ class MoveRow:
     @property
     def new_ref(self) -> str:
         return str(self.dest.relative_to(REPO_ROOT)).replace("\\", "/")
-
 
 def classify(path: Path) -> MoveRow | None:
     name = path.name
@@ -148,7 +146,6 @@ def classify(path: Path) -> MoveRow | None:
 
     return None
 
-
 def collect_moves() -> list[MoveRow]:
     if not DAILY_DIR.is_dir():
         print(f"migrate: missing {DAILY_DIR}", file=sys.stderr)
@@ -164,7 +161,6 @@ def collect_moves() -> list[MoveRow]:
             row.collision_flag = "merge-review"
         rows.append(row)
     return rows
-
 
 def write_manifest(rows: list[MoveRow]) -> None:
     MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -192,7 +188,6 @@ def write_manifest(rows: list[MoveRow]) -> None:
                 ]
             )
 
-
 def write_link_rewrite(rows: list[MoveRow]) -> None:
     LINK_REWRITE_PATH.parent.mkdir(parents=True, exist_ok=True)
     with LINK_REWRITE_PATH.open("w", newline="", encoding="utf-8") as f:
@@ -203,7 +198,6 @@ def write_link_rewrite(rows: list[MoveRow]) -> None:
             f.write(f"../daily/{r.basename}\t../{r.new_ref.split('/', 1)[1]}\tcross-shelf\n")
         f.write("statecraft/daily/\tstatecraft/synthesis/day/\tabsolute-prefix\n")
         f.write("../daily/\t../synthesis/day/\tcross-shelf-prefix\n")
-
 
 def ensure_scaffold() -> None:
     for d in (
@@ -220,13 +214,11 @@ def ensure_scaffold() -> None:
     if not week_readme.exists():
         week_readme.write_text(
             "# Week synthesis (reserved)\n\n"
-            "WORK only; not Record.\n\n"
-            "Placeholder for a future **week-synthesis** contract. "
+                        "Placeholder for a future **week-synthesis** contract. "
             "Week hinges live under [`notes/reentry/`](../../notes/reentry/); "
             "they are navigation surfaces, not synthesis.\n",
             encoding="utf-8",
         )
-
 
 def apply_moves(rows: list[MoveRow]) -> None:
     collisions = [r for r in rows if r.collision_flag]
@@ -244,12 +236,10 @@ def apply_moves(rows: list[MoveRow]) -> None:
         r.dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.move(str(r.src), str(r.dest))
 
-
 def write_synthesis_readme(old_readme: Path) -> None:
     dest = SYNTHESIS_DIR / "README.md"
     body = (
-        "WORK only; not Record.\n\n"
-        "# State Synthesis Shelf\n\n"
+                "# State Synthesis Shelf\n\n"
         "Canonical path for **archive-grounded synthesis** (day / month cadence). "
         "Adjacent operational artifacts live under [`notes/`](../notes/README.md) subfolders.\n\n"
         "## Promotion ladder\n\n"
@@ -276,13 +266,11 @@ def write_synthesis_readme(old_readme: Path) -> None:
     )
     dest.write_text(body, encoding="utf-8")
 
-
 def write_stub(rows: list[MoveRow]) -> None:
     stub_dir = REPO_ROOT / "statecraft" / "daily"
     stub_dir.mkdir(parents=True, exist_ok=True)
     lines = [
-        "WORK only; not Record.",
-        "",
+                "",
         "# Moved — State Synthesis Shelf",
         "",
         "Canonical path: [statecraft/synthesis/README.md](../synthesis/README.md).",
@@ -297,7 +285,6 @@ def write_stub(rows: list[MoveRow]) -> None:
     for r in sorted(rows, key=lambda x: x.basename):
         lines.append(f"| `{r.basename}` | `{r.new_ref}` |")
     (stub_dir / "README.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
-
 
 def load_manifest() -> list[tuple[str, str]]:
     if not MANIFEST_PATH.is_file():
@@ -322,7 +309,6 @@ def load_manifest() -> list[tuple[str, str]]:
     pairs.sort(key=lambda p: len(p[0]), reverse=True)
     return pairs
 
-
 def should_rewrite(path: Path) -> bool:
     rel = str(path.relative_to(REPO_ROOT)).replace("\\", "/")
     for ex in REWRITE_EXCLUDE_PARTS:
@@ -331,7 +317,6 @@ def should_rewrite(path: Path) -> bool:
     if path.suffix not in {".md", ".mdc", ".py", ".yaml", ".yml", ".json"}:
         return False
     return True
-
 
 def rewrite_links() -> int:
     pairs = load_manifest()
@@ -360,7 +345,6 @@ def rewrite_links() -> int:
             changed += 1
             print(f"rewrote {path.relative_to(REPO_ROOT)}")
     return changed
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Migrate statecraft/daily layout")
@@ -412,7 +396,6 @@ def main() -> int:
 
     parser.print_help()
     return 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

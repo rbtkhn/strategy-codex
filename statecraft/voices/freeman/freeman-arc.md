@@ -1,6 +1,5 @@
 # arc-freeman-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [freeman-arc.md](freeman-arc.md)
 

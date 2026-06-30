@@ -1,6 +1,5 @@
 # Empire Instrument Template
 
-WORK only; not Record.
 
 Use this template when promoting a seed from `empire/seed-instruments.md` into a full lane note.
 

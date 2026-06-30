@@ -27,7 +27,6 @@ _SINGULARITY_ROUTE_CLASSES = {
     "statecraft-bridge",
 }
 
-
 def _extract_next_actions_section(text: str) -> str | None:
     m = re.search(r"^## Next actions\s*$", text, re.MULTILINE)
     if not m:
@@ -36,7 +35,6 @@ def _extract_next_actions_section(text: str) -> str | None:
     rest = text[start:]
     m2 = re.search(r"^## \S", rest, re.MULTILINE)
     return rest[: m2.start()] if m2 else rest
-
 
 def next_work_dev_line(repo: Path) -> str:
     path = repo / "docs/skill-work/work-dev/workspace.md"
@@ -65,7 +63,6 @@ def next_work_dev_line(repo: Path) -> str:
         "add a numbered line or refresh Operator path"
     )
 
-
 def _sync_daily_combined_block(text: str) -> str | None:
     if "### 3) Combined next action" not in text:
         return None
@@ -75,12 +72,10 @@ def _sync_daily_combined_block(text: str) -> str | None:
     chunk = tail[: end.start()] if end else tail.split("\n## ", 1)[0]
     return chunk
 
-
 _SYNC_SIBLING_FIELD = re.compile(
     r"^(owner|done by|status|selected|lane|action|card path)\s*:",
     re.I,
 )
-
 
 def _first_filled_after_label(lines: list[str], label_lower: str) -> str | None:
     for i, raw in enumerate(lines):
@@ -106,7 +101,6 @@ def _first_filled_after_label(lines: list[str], label_lower: str) -> str | None:
                 j += 1
     return None
 
-
 def _hint_from_sync_daily(text: str) -> str | None:
     stale = _sync_daily_stale_reason(text)
     if stale:
@@ -116,7 +110,6 @@ def _hint_from_sync_daily(text: str) -> str | None:
         return None
     lines = block.splitlines()
     return _first_filled_after_label(lines, "top sync task")
-
 
 def _sync_daily_stale_reason(text: str, *, today: date | None = None) -> str | None:
     if re.search(r"stale sync state:\*\*\s*`yes`", text, re.I):
@@ -139,7 +132,6 @@ def _sync_daily_stale_reason(text: str, *, today: date | None = None) -> str | N
         )
     return None
 
-
 def _first_active_watch(repo: Path) -> str | None:
     path = repo / "singularity/work-cici/WORK-LEDGER.md"
     if not path.is_file():
@@ -152,7 +144,6 @@ def _first_active_watch(repo: Path) -> str | None:
     if m:
         return m.group(1).strip()
     return None
-
 
 def next_work_cici_line(repo: Path) -> str:
     sync_path = repo / "singularity/work-cici/SYNC-DAILY.md"
@@ -172,11 +163,9 @@ def next_work_cici_line(repo: Path) -> str:
         "WORK-LEDGER - see singularity/work-cici/INDEX.md"
     )
 
-
 def _normalize_route_class(value: str) -> str:
     norm = value.strip().strip("`").lower()
     return norm if norm in _SINGULARITY_ROUTE_CLASSES else "pulse"
-
 
 def _extract_bold_field(text: str, label: str) -> str | None:
     pattern = rf"^\s*[-*]\s+\*\*{re.escape(label)}:\*\*\s*(.+?)\s*$"
@@ -185,7 +174,6 @@ def _extract_bold_field(text: str, label: str) -> str | None:
         return None
     value = match.group(1).strip()
     return value or None
-
 
 def _next_singularity_override(repo: Path) -> tuple[str, str, str] | None:
     path = repo / "singularity/workshop/sheets/coffee-d-singularity.md"
@@ -203,7 +191,6 @@ def _next_singularity_override(repo: Path) -> tuple[str, str, str] | None:
         return None
     return (_normalize_route_class(route_class), source.strip("`"), reason)
 
-
 def _latest_matching_sheet(sheets: Path, patterns: list[str]) -> Path | None:
     matches: list[Path] = []
     for pattern in patterns:
@@ -211,7 +198,6 @@ def _latest_matching_sheet(sheets: Path, patterns: list[str]) -> Path | None:
     if not matches:
         return None
     return sorted(set(matches))[-1]
-
 
 def _fallback_singularity_target(repo: Path) -> tuple[Path, str, str]:
     sheets = repo / "singularity/workshop/sheets"
@@ -246,7 +232,6 @@ def _fallback_singularity_target(repo: Path) -> tuple[Path, str, str]:
         "the workshop front door is the safest fallback when no fresher singularity source or override is present.",
     )
 
-
 def next_academy_singularity_line(repo: Path) -> str:
     base = repo / "singularity/workshop"
     if not base.is_dir():
@@ -261,13 +246,11 @@ def next_academy_singularity_line(repo: Path) -> str:
     rel = target.relative_to(repo).as_posix()
     return f"Next singularity-academy [{route_class}]: {rel} - {reason}"
 
-
 def format_lane_next_hints(repo: Path | None = None) -> str:
     root = repo or REPO_ROOT
     b = next_work_dev_line(root)
     d = next_academy_singularity_line(root)
     return f"{b}\n{d}"
-
 
 def main() -> int:
     p = argparse.ArgumentParser(
@@ -282,7 +265,6 @@ def main() -> int:
     args = p.parse_args()
     print(format_lane_next_hints(args.repo))
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

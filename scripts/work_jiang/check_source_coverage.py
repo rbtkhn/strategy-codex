@@ -14,13 +14,11 @@ MAP = WORK_DIR / "metadata" / "source-map.yaml"
 
 MIN_SOURCES_PER_CHAPTER = 1
 
-
 def load(path: Path) -> dict:
     if not path.exists():
         return {}
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -70,7 +68,6 @@ def main() -> int:
         return 1
     print("(warnings only; use --strict to fail CI)", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

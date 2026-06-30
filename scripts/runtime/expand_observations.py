@@ -35,13 +35,11 @@ EXPAND_KEYS = (
     "notes",
 )
 
-
 def expanded_row(raw: dict) -> dict:
     out: dict = {}
     for k in EXPAND_KEYS:
         out[k] = raw.get(k)
     return out
-
 
 def render_markdown(rows: list[dict]) -> str:
     parts = ["# Expanded runtime observations", "", "_Runtime memory — not canonical Record truth._", ""]
@@ -77,7 +75,6 @@ def render_markdown(rows: list[dict]) -> str:
             parts.append(str(row["notes"]))
             parts.append("")
     return "\n".join(parts).rstrip() + "\n"
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -150,7 +147,6 @@ def main() -> int:
         sys.stdout.write(content)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -15,13 +15,11 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 DEFAULT_INPUT = REPO_ROOT / "runtime" / "observability" / "continuity_blocks.jsonl"
 DEFAULT_OUTPUT = ARTIFACTS_DIR / "work-dev" / "continuity-observability" / "continuity-blocks.md"
 
-
 def _repo_rel(path: Path, repo_root: Path) -> str:
     try:
         return str(path.resolve().relative_to(repo_root.resolve())).replace("\\", "/")
     except ValueError:
         return str(path)
-
 
 def load_events(path: Path) -> tuple[list[dict[str, Any]], int]:
     """Return valid continuity block events plus invalid line count."""
@@ -45,14 +43,12 @@ def load_events(path: Path) -> tuple[list[dict[str, Any]], int]:
             invalid += 1
     return events, invalid
 
-
 def summarize_events(events: list[dict[str, Any]]) -> dict[str, Counter[str]]:
     return {
         "reason": Counter(str(e.get("reason") or "unknown") for e in events),
         "source": Counter(str(e.get("source") or "unknown") for e in events),
         "user_id": Counter(str(e.get("user_id") or "unknown") for e in events),
     }
-
 
 def render_markdown(
     events: list[dict[str, Any]],
@@ -97,14 +93,12 @@ def render_markdown(
         lines.append(f"| `{ts}` | `{user_id}` | `{source}` | {reason} |\n")
     return "".join(lines)
 
-
 def export_continuity_blocks(input_path: Path, output_path: Path, *, repo_root: Path = REPO_ROOT) -> str:
     events, invalid = load_events(input_path)
     markdown = render_markdown(events, invalid_lines=invalid, input_path=input_path, repo_root=repo_root)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(markdown, encoding="utf-8")
     return markdown
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Export continuity-block JSONL into a derived WORK artifact.")
@@ -115,7 +109,6 @@ def main() -> int:
     export_continuity_blocks(args.input, args.output)
     print(f"export_continuity_blocks: OK -> {args.output}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

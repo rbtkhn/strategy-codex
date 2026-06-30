@@ -2,7 +2,7 @@
 
 **Book title:** Civilizational Statecraft · **Opening essay:** [Civilization and Empire](introduction.md) · **This tree:** operator statecraft substrate (not a reader title; not the public book edit surface)
 
-work only; not Record.
+This surface is non-authoritative and subject to revision.
 
 **Path:** `statecraft/states/` — not national lane skills (`state-america`, `state-persia`, `state-deploy`); those route live objects. This tree holds civilization-**state** pattern memory for live drafting (`states/volumes/civ-state-america/`, etc.).
 

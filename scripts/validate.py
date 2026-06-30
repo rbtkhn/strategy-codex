@@ -38,7 +38,6 @@ _OPTIONAL_DEP_PREFIXES = (
     "ERROR: PyYAML is required for ",
 )
 
-
 def _run_one(
     spec: CheckSpec,
     user: str,
@@ -140,11 +139,9 @@ def _run_one(
         "notes": notes,
     }
 
-
 def _build_argv(spec: CheckSpec, user: str) -> list[str]:
     script_path = REPO_ROOT / spec.script_relpath
     return [sys.executable, str(script_path)] + spec.argv_builder(user)
-
 
 def run_group(
     group: str,
@@ -198,7 +195,6 @@ def run_group(
     exit_code = 0 if not any_fail else 1
     return out, exit_code
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Grace-Mar unified validation orchestrator (read-only; wraps existing scripts).",
@@ -245,7 +241,6 @@ def main() -> None:
             file=sys.stderr,
         )
     sys.exit(code)
-
 
 if __name__ == "__main__":
     main()

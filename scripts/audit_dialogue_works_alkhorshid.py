@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit Dialogue Works / Alkorshid / Nima archive routing."""
+"""Audit Dialogue Works / Alkhorshid / Nima archive routing."""
 
 from __future__ import annotations
 
@@ -56,7 +56,6 @@ DAVIS_HOST_OPENING_RES = [
 # Wrong display spelling (operator policy: Alkhorshid with h). Machine slug `alkhorshid` is unchanged.
 WRONG_NIMA_SURNAME_RE = re.compile(r"Alkorshid")
 
-
 def nima_display_spelling_flags(meta: dict[str, Any], body: str) -> list[str]:
     """Return spelling issue tags when canonical Nima Alkhorshid display is violated."""
     flags: list[str] = []
@@ -65,16 +64,15 @@ def nima_display_spelling_flags(meta: dict[str, Any], body: str) -> list[str]:
         if val and WRONG_NIMA_SURNAME_RE.search(val):
             flags.append(tag)
     sample = body[:15000]
-    if "Nima Alkorshid" in sample:
+    if "Nima Alkhorshid" in sample:
         flags.append("display-name")
-    if "**Nima Alkorshid:**" in body:
+    if "**Nima Alkhorshid:**" in body:
         flags.append("speaker-label")
-    if "Dialogue Works (Nima Alkorshid)" in sample:
+    if "Dialogue Works (Nima Alkhorshid)" in sample:
         flags.append("scaffold-title")
-    if re.search(r"^# Nima Alkorshid\b", sample, re.M):
+    if re.search(r"^# Nima Alkhorshid\b", sample, re.M):
         flags.append("title")
     return flags
-
 
 @dataclass
 class AuditRow:
@@ -90,7 +88,6 @@ class AuditRow:
     notes: str
     target_prefix: str = ""
 
-
 def threads_str(meta: dict[str, Any]) -> str:
     raw = meta.get("threads")
     if isinstance(raw, (list, tuple)):
@@ -99,7 +96,6 @@ def threads_str(meta: dict[str, Any]) -> str:
         return str(raw)
     thread = meta.get("thread")
     return str(thread or "")
-
 
 def slug_from_url(url: str) -> str:
     url_l = url.lower()
@@ -114,7 +110,6 @@ def slug_from_url(url: str) -> str:
             return "daniel-davis"
     return ""
 
-
 def opening_role(body: str) -> str:
     """Return nima-host | nima-guest | unknown."""
     sample = body[:12000]
@@ -128,7 +123,6 @@ def opening_role(body: str) -> str:
     if host_hits:
         return "nima-host"
     return "unknown"
-
 
 def infer_effective_channel(meta: dict[str, Any], path: Path, body: str) -> str:
     slug = str(meta.get("channel_slug") or "").strip().lower()
@@ -149,7 +143,6 @@ def infer_effective_channel(meta: dict[str, Any], path: Path, body: str) -> str:
             return "dialogue-works"
     return slug or "unknown"
 
-
 def is_solo(meta: dict[str, Any]) -> bool:
     form = str(meta.get("source_form") or "").lower()
     if form == "solo":
@@ -159,10 +152,9 @@ def is_solo(meta: dict[str, Any]) -> bool:
         return True
     return False
 
-
 def yaml_inverted(meta: dict[str, Any], effective_channel: str, open_role: str) -> bool:
     host = str(meta.get("host") or "").lower()
-    yaml_nima_host = "nima" in host or "alkhorshid" in host or "alkorshid" in host
+    yaml_nima_host = "nima" in host or "alkhorshid" in host or "alkhorshid" in host
     if effective_channel == "daniel-davis" and open_role == "nima-guest" and yaml_nima_host:
         return True
     if effective_channel == "nawfal" and open_role == "nima-guest" and yaml_nima_host:
@@ -172,7 +164,6 @@ def yaml_inverted(meta: dict[str, Any], effective_channel: str, open_role: str) 
     if effective_channel == "dialogue-works" and open_role == "nima-host" and not yaml_nima_host:
         return True
     return False
-
 
 def classify(meta: dict[str, Any], path: Path, body: str) -> tuple[str, str, str]:
     """Return (class, notes, target_prefix)."""
@@ -205,7 +196,6 @@ def classify(meta: dict[str, Any], path: Path, body: str) -> tuple[str, str, str
         return "dw-host" if not solo else "dw-solo", "; ".join(notes), "source-dialogue-works"
     return "other-host-guest", "; ".join(notes), ""
 
-
 def needs_rename(path: Path, target_prefix: str) -> bool:
     if not target_prefix:
         return False
@@ -215,7 +205,6 @@ def needs_rename(path: Path, target_prefix: str) -> bool:
             return False
         return name.startswith("source-alkorshid-") or name.startswith("source-nima-alkorshid-")
     return not name.startswith(target_prefix + "-")
-
 
 def audit_file(path: Path) -> AuditRow | None:
     meta = parse_frontmatter(path)
@@ -244,7 +233,6 @@ def audit_file(path: Path) -> AuditRow | None:
         target_prefix=target_prefix,
     )
 
-
 def assign_dedup(rows: list[AuditRow]) -> None:
     by_yt: dict[str, list[AuditRow]] = defaultdict(list)
     for row in rows:
@@ -262,13 +250,11 @@ def assign_dedup(rows: list[AuditRow]) -> None:
                 row.dedup_action = f"merge-into:{keeper.path}"
                 row.notes = (row.notes + f"; duplicate-yt:{yt}").strip("; ")
 
-
 def iter_capture_paths(root: Path) -> list[Path]:
     out: list[Path] = []
     for prefix in PREFIXES:
         out.extend(sorted(root.rglob(f"{prefix}*.md")))
     return out
-
 
 def write_csv(path: Path, rows: list[AuditRow]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -308,7 +294,6 @@ def write_csv(path: Path, rows: list[AuditRow]) -> None:
                     row.notes,
                 ]
             )
-
 
 def write_summary(path: Path, rows: list[AuditRow], audit_date: str) -> None:
     counts = Counter(r.class_ for r in rows)
@@ -370,7 +355,6 @@ def write_summary(path: Path, rows: list[AuditRow], audit_date: str) -> None:
         lines.append("- _(no youtube_id duplicates)_")
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -392,7 +376,7 @@ def main() -> int:
     parser.add_argument(
         "--fail-on-spelling",
         action="store_true",
-        help="Exit 1 when any capture still uses wrong Nima Alkorshid display spelling",
+        help="Exit 1 when any capture still uses wrong Nima Alkhorshid display spelling",
     )
     args = parser.parse_args()
 
@@ -425,7 +409,6 @@ def main() -> int:
     if args.fail_on_spelling and spelling_count:
         return 1
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

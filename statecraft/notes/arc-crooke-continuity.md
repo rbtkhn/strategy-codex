@@ -21,7 +21,6 @@ archive_links:
 
 # Crooke arc
 
-WORK only; not Record.
 
 Purpose: define `arc-crooke-continuity` as the canonical person-level continuity surface for Alastair Crooke across hosts, contexts, and time. This keeps Crooke from being reduced either to one host lane, to his authored ledger alone, or to a host-comparison helix without a speaker-wide continuity spine.
 

@@ -1,6 +1,5 @@
 # Aguilar cross-host note
 
-WORK only; not Record.
 
 Purpose: keep the current Aguilar object honest by distinguishing what is materially real on disk from what is only adjacent or mentioned elsewhere.
 

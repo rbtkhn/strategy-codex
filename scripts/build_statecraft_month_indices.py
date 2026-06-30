@@ -22,7 +22,6 @@ from statecraft_day_archive import (
     summarize_day_dir,
 )
 
-
 ROUTING_REGISTRY_PATH = REPO_ROOT / "statecraft" / "data" / "month-maturity-routing-registry.json"
 ROUTING_METADATA_PATH = REPO_ROOT / "statecraft" / "data" / "month-routing-metadata.json"
 REGISTRY_NOTE_DIR = REPO_ROOT / "statecraft" / "notes"
@@ -44,10 +43,8 @@ ROUTE_CLASS_BENCHMARK = "benchmark"
 ROUTE_CLASS_WATCHLIST = "watchlist"
 ROUTE_CLASS_CLOSURE_AUDIT = "closure-audit"
 
-
 def month_key_from_day(day_name: str) -> str:
     return day_name[:7]
-
 
 def group_day_dirs_by_month(root: Path, year: str) -> dict[str, list[Path]]:
     grouped: dict[str, list[Path]] = defaultdict(list)
@@ -55,13 +52,11 @@ def group_day_dirs_by_month(root: Path, year: str) -> dict[str, list[Path]]:
         grouped[month_key_from_day(day_dir.name)].append(day_dir)
     return dict(sorted(grouped.items()))
 
-
 def merge_counter(days: list[DaySummary], attr: str) -> Counter[str]:
     counter: Counter[str] = Counter()
     for day in days:
         counter.update(getattr(day, attr))
     return counter
-
 
 def top_counter_text(counter: Counter[str], limit: int = 3) -> str:
     if not counter:
@@ -69,12 +64,10 @@ def top_counter_text(counter: Counter[str], limit: int = 3) -> str:
     parts = [f"`{name}` ({count})" for name, count in counter.most_common(limit)]
     return ", ".join(parts)
 
-
 def month_note_slug(month: str) -> str:
     year, month_num = month.split("-")
     month_name = MONTH_NAME_MAP.get(month_num, month_num)
     return f"{month_name}-{year}"
-
 
 def iter_month_records(day_dirs: list[Path]) -> list:
     records = []
@@ -82,7 +75,6 @@ def iter_month_records(day_dirs: list[Path]) -> list:
         for path in iter_source_files(day_dir):
             records.append(collect_archive_file(path))
     return records
-
 
 def guess_month_note_surfaces(month: str) -> list[str]:
     slug = month_note_slug(month)
@@ -93,11 +85,9 @@ def guess_month_note_surfaces(month: str) -> list[str]:
         surfaces.append(path.as_posix().split("/", 3)[-1])
     return surfaces
 
-
 def surname_signature(label: str) -> str:
     tokens = re.findall(r"[a-z0-9]+", label.lower())
     return tokens[-1] if tokens else ""
-
 
 def looks_like_person_label(label: str) -> bool:
     if any(sep in label for sep in ("&", ";", "|", "/", ":")):
@@ -136,7 +126,6 @@ def looks_like_person_label(label: str) -> bool:
     }
     return not any(token in banned for token in lowered)
 
-
 def build_guest_label_variants(records: list) -> list[dict[str, object]]:
     buckets: dict[str, Counter[str]] = defaultdict(Counter)
     for record in records:
@@ -162,7 +151,6 @@ def build_guest_label_variants(records: list) -> list[dict[str, object]]:
         )
     return variants
 
-
 def load_routing_registry(path: Path = ROUTING_REGISTRY_PATH) -> dict[str, dict[str, object]]:
     if not path.exists():
         return {}
@@ -174,7 +162,6 @@ def load_routing_registry(path: Path = ROUTING_REGISTRY_PATH) -> dict[str, dict[
         if isinstance(month, str):
             out[month] = entry
     return out
-
 
 def build_month_metadata(all_groups: dict[str, list[Path]], routing_registry: dict[str, dict[str, object]]) -> dict[str, object]:
     months: dict[str, object] = {}
@@ -212,7 +199,6 @@ def build_month_metadata(all_groups: dict[str, list[Path]], routing_registry: di
         "months": months,
     }
 
-
 def write_json_payload(path: Path, payload: dict[str, object], *, check: bool = False) -> tuple[Path, bool]:
     rendered = json.dumps(payload, indent=2, ensure_ascii=True) + "\n"
     existing = path.read_text(encoding="utf-8") if path.exists() else None
@@ -229,7 +215,6 @@ def write_json_payload(path: Path, payload: dict[str, object], *, check: bool = 
                 ) from exc
             raise
     return path, changed
-
 
 def build_month_readme(root: Path, month: str, day_dirs: list[Path]) -> str:
     day_summaries = [summarize_day_dir(day_dir) for day_dir in day_dirs]
@@ -293,7 +278,6 @@ def build_month_readme(root: Path, month: str, day_dirs: list[Path]) -> str:
     )
     return "\n".join(lines)
 
-
 def write_month_index(root: Path, month: str, day_dirs: list[Path], *, check: bool = False) -> tuple[Path, bool]:
     out_path = root / f"{month}.md"
     rendered = build_month_readme(root, month, day_dirs)
@@ -311,7 +295,6 @@ def write_month_index(root: Path, month: str, day_dirs: list[Path], *, check: bo
             raise
     return out_path, changed
 
-
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Statecraft source-archive root.")
@@ -325,7 +308,6 @@ def parse_args() -> argparse.Namespace:
         help="Path for generated month routing metadata JSON.",
     )
     return ap.parse_args()
-
 
 def main() -> int:
     args = parse_args()
@@ -387,7 +369,6 @@ def main() -> int:
     print(f"wrote {len(changed_paths)} month indices under {root}")
     print(f"{'wrote' if metadata_changed else 'unchanged'} {metadata_path}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Andrei Martyanov` (1)
-- Threads: `alkorshid` (1), `martyanov` (1), `mercouris` (1)
+- Threads: `alkhorshid` (1), `martyanov` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=iLNcusPW3z0) | `source-alexander-mercouris-russia-pounds-odessa-region-west-escalates-tanker-war-russian-fleet-inte-2025-12-21.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `martyanov` | [watch](https://www.youtube.com/watch?v=hvhgSoCqeX4) | `source-dialogue-works-andrei-martyanov-its-over-russia-just-unleashed-oreshnik-final-phase-has-begun-2025-12-21.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `martyanov` | [watch](https://www.youtube.com/watch?v=hvhgSoCqeX4) | `source-dialogue-works-andrei-martyanov-its-over-russia-just-unleashed-oreshnik-final-phase-has-begun-2025-12-21.md` |
 
 ## Writer sources
 

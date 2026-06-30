@@ -1,6 +1,5 @@
 # Providence And Pressure
 
-WORK only; not Record.
 
 ## Purpose
 

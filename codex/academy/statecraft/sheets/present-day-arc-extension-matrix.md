@@ -1,6 +1,5 @@
 # Present-Day Arc Extension Matrix
 
-WORK only; not Record.
 
 ## Purpose
 

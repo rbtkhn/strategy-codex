@@ -16,7 +16,6 @@ archive_links:
 
 # Johnson March 2026 cross-host arc
 
-WORK only; not Record.
 
 Compatibility note: the canonical bounded March 2026 Johnson synthesis shelf
 now lives at

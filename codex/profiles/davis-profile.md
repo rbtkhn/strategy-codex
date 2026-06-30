@@ -1,6 +1,5 @@
 # Davis profile — compatibility redirect
 
-WORK only; not Record.
 
 **Canonical profile (SSOT):** [`statecraft/voices/davis/davis-profile.md`](../../statecraft/voices/davis/davis-profile.md)
 

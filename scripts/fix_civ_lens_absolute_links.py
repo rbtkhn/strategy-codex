@@ -17,13 +17,11 @@ ABS_PREFIX = re.compile(
     re.IGNORECASE,
 )
 
-
 def relative_repo_path(from_file: Path, target_under_root: str) -> str:
     """Return markdown-safe relative path from from_file to repo-root target."""
     from_dir = from_file.parent.resolve()
     target = (REPO_ROOT / target_under_root.replace("\\", "/")).resolve()
     return os.path.relpath(target, from_dir).replace("\\", "/")
-
 
 def fix_content(text: str, file_path: Path) -> tuple[str, int]:
     count = 0
@@ -41,12 +39,10 @@ def fix_content(text: str, file_path: Path) -> tuple[str, int]:
 
     return ABS_PREFIX.sub(repl, text), count
 
-
 def iter_markdown_files(root: Path) -> list[Path]:
     if root.is_file():
         return [root] if root.suffix.lower() == ".md" else []
     return sorted(root.rglob("*.md"))
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -89,7 +85,6 @@ def main() -> int:
 
     print(f"done: {total} replacement(s) in {changed_files} file(s)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -22,7 +22,6 @@ from pathlib import Path
 LANE_PREFIX = "lane/"
 CROSS_LABEL = "lane/cross"
 
-
 def _primary_lane_from_label(name: str) -> str | None:
     n = name.strip()
     if n.lower() == CROSS_LABEL:
@@ -30,7 +29,6 @@ def _primary_lane_from_label(name: str) -> str | None:
     if not n.lower().startswith(LANE_PREFIX):
         return None
     return n[len(LANE_PREFIX) :].strip()
-
 
 def parse_cross_lane_justification(body: str) -> str:
     """Extract text from the first fenced code block after '### Cross-lane justification'."""
@@ -45,7 +43,6 @@ def parse_cross_lane_justification(body: str) -> str:
         return ""
     return m.group(1).strip()
 
-
 def _write_github_env(key: str, value: str, fh) -> None:
     """Append one var to GITHUB_ENV (multiline-safe delimiter form)."""
     if "\n" in value or "\r" in value:
@@ -55,7 +52,6 @@ def _write_github_env(key: str, value: str, fh) -> None:
         fh.write(f"{delim}\n")
     else:
         fh.write(f"{key}={value}\n")
-
 
 def resolve(
     pr: dict,
@@ -106,7 +102,6 @@ def resolve(
 
     return lane_labels[0], False, ""
 
-
 def main() -> int:
     event_path = os.getenv("GITHUB_EVENT_PATH")
     if not event_path:
@@ -138,7 +133,6 @@ def main() -> int:
         print(f"LANE_CROSS_JUSTIFICATION={justification!r}")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

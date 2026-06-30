@@ -6,4 +6,3 @@ Weak without corroboration: interpretation of intent without institutional conte
 
 Seam priority: pair with diplomacy/presidency lines using announced-vs-material blocks.
 
-WORK only; not Record.

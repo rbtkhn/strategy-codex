@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (2), `Alexander Mercouris` (1), `Daniel Davis` (1), `Danny Haiphong` (1), `Robert Pape` (1), `Tucker Carlson` (1)
 - Guests: `Chas W. Freeman` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Robert Barnes` (1), `Victor Gao` (1)
-- Threads: `alkorshid` (1), `barnes` (1), `carlson` (1), `davis` (1), `freeman` (1), `gao` (1), `johnson` (1), `mercouris` (1), `pape` (1), `sachs` (1)
+- Threads: `alkhorshid` (1), `barnes` (1), `carlson` (1), `davis` (1), `freeman` (1), `gao` (1), `johnson` (1), `mercouris` (1), `pape` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [LmJWmgtsaps](https://www.youtube.com/watch?v=LmJWmgtsaps) | `source-alexander-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `barnes` | [watch](https://www.youtube.com/watch?v=Pcd4tM5ai6o) | `source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `johnson` | [watch](https://www.youtube.com/watch?v=OOSWi1usPB4) | `source-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `johnson` | [watch](https://www.youtube.com/watch?v=OOSWi1usPB4) | `source-dialogue-works-larry-johnson-iran-just-escorted-tankers-past-us-blockade-israel-waiting-2026-04-24.md` |
 | `dialogue-works` | Dialogue Works | `freeman` | [watch](https://www.youtube.com/watch?v=fie-q0V82_E) | `source-nima-freeman-israel-agenda-collapsing-2026-04-24.md` |
 | `tucker-carlson` | Tucker Carlson | `carlson`, `sachs` | — | `source-tucker-carlson-sachs-iran-war-origins-2026-04-24.md` |
 

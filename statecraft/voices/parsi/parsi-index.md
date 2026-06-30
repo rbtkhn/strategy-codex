@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Parsi source index
 

@@ -27,11 +27,9 @@ try:
 except ImportError:
     from scripts.authority_comprehension_defaults import recommend_for_authority_class
 
-
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = ROOT / "platform/config" / "authority-map.json"
 SCHEMA_PATH = ROOT / "schemas/registry" / "authority-map.v1.json"
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Authority class lookup for a named surface key.")
@@ -82,7 +80,6 @@ def main() -> int:
 
     print(level)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -30,7 +30,6 @@ try:
 except ImportError:  # pragma: no cover
     yaml = None  # type: ignore[assignment]
 
-
 @dataclass
 class VoiceRegistryRow:
     voice: str
@@ -49,13 +48,11 @@ class VoiceRegistryRow:
     status: str = "canonical"
     index_kind: str = "primary"
 
-
 @dataclass(frozen=True)
 class AuditFindingLite:
     level: Literal["pass", "fail", "warn"]
     code: str
     message: str
-
 
 def load_voice_index_registry_yaml(path: Path | None = None) -> dict[str, Any]:
     yaml_path = path or DEFAULT_YAML
@@ -71,12 +68,10 @@ def load_voice_index_registry_yaml(path: Path | None = None) -> dict[str, Any]:
         voices = {}
     return {"schema_version": str(raw.get("schema_version") or "1.0"), "voices": voices}
 
-
 def voice_yaml_entry(registry: dict[str, Any], slug: str) -> dict[str, Any]:
     voices = registry.get("voices") or {}
     entry = voices.get(slug)
     return entry if isinstance(entry, dict) else {}
-
 
 def validate_yaml_code_exclusion_parity(registry: dict[str, Any] | None = None) -> list[AuditFindingLite]:
     import shelf_index_utils as shelf_utils  # noqa: WPS433
@@ -108,7 +103,6 @@ def validate_yaml_code_exclusion_parity(registry: dict[str, Any] | None = None) 
         )
     return findings
 
-
 def discover_builder_for_slug(slug: str, registry: dict[str, Any] | None = None) -> str | None:
     reg = registry if registry is not None else load_voice_index_registry_yaml()
     entry = voice_yaml_entry(reg, slug)
@@ -122,7 +116,6 @@ def discover_builder_for_slug(slug: str, registry: dict[str, Any] | None = None)
     if default.is_file():
         return f"scripts/build_{slug}_index.py"
     return None
-
 
 def _last_rebuilt(index_path: Path) -> str | None:
     if not index_path.is_file():
@@ -144,7 +137,6 @@ def _last_rebuilt(index_path: Path) -> str | None:
         return datetime.fromtimestamp(mtime, tz=timezone.utc).strftime("%Y-%m-%d")
     except OSError:
         return None
-
 
 def build_archive_voice_index(
     archive_root: Path,
@@ -176,7 +168,6 @@ def build_archive_voice_index(
         out[slug].sort(key=lambda p: (p.parent.name, p.name))
     return dict(out)
 
-
 def _count_broken_links(index_path: Path) -> int:
     import validate_repo_routing as routing_val  # noqa: WPS433
 
@@ -185,7 +176,6 @@ def _count_broken_links(index_path: Path) -> int:
     errors: list[str] = []
     routing_val.validate_markdown_links([index_path], errors, strict=True)
     return len(errors)
-
 
 def _companion_routes(slug: str, index_path: Path) -> list[str]:
     import shelf_index_utils as shelf_utils  # noqa: WPS433
@@ -200,7 +190,6 @@ def _companion_routes(slug: str, index_path: Path) -> list[str]:
         routes.append(p.name)
     return sorted(set(routes))
 
-
 def _derive_parity(findings: list[Any], *, status: str, has_builder: bool) -> Parity:
     if any(f.level == "fail" for f in findings):
         return "fail"
@@ -213,7 +202,6 @@ def _derive_parity(findings: list[Any], *, status: str, has_builder: bool) -> Pa
     if status == "canonical" and not has_builder:
         return "warn"
     return "pass"
-
 
 def collect_voice_registry_row(
     slug: str,
@@ -297,7 +285,6 @@ def collect_voice_registry_row(
     )
     return row, findings
 
-
 def collect_all_voice_registry_rows(
     *,
     archive_root: Path = DEFAULT_ARCHIVE,
@@ -327,7 +314,6 @@ def collect_all_voice_registry_rows(
         rows.append(row)
     return rows
 
-
 def build_summary(rows: list[VoiceRegistryRow]) -> dict[str, int]:
     return {
         "voices_discovered": len(rows),
@@ -340,7 +326,6 @@ def build_summary(rows: list[VoiceRegistryRow]) -> dict[str, int]:
         "broken_links_total": sum(r.broken_links for r in rows),
         "documented_exceptions": sum(1 for r in rows if r.exceptions),
     }
-
 
 def render_registry_markdown(rows: list[VoiceRegistryRow], summary: dict[str, int]) -> str:
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -392,7 +377,6 @@ def render_registry_markdown(rows: list[VoiceRegistryRow], summary: dict[str, in
     lines.append("")
     return "\n".join(lines)
 
-
 def render_registry_json(rows: list[VoiceRegistryRow], summary: dict[str, int]) -> str:
     payload = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -400,7 +384,6 @@ def render_registry_json(rows: list[VoiceRegistryRow], summary: dict[str, int]) 
         "voices": [asdict(r) for r in rows],
     }
     return json.dumps(payload, indent=2) + "\n"
-
 
 def audit_all_voice_indexes(
     *,
@@ -457,7 +440,6 @@ def audit_all_voice_indexes(
             )
         )
     return all_findings
-
 
 def generate_outputs(
     *,

@@ -3,8 +3,7 @@
 
 DEPRECATED for new archive writes (2026-06-20): use source-intake + source-* filenames.
 See docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md.
-
-WORK only; not Record. This script consumes operator-approved URLs. It does
+This script consumes operator-approved URLs. It does
 not decide which stream items deserve capture.
 """
 
@@ -70,7 +69,6 @@ PLACEHOLDER_PATTERNS = (
     "paste transcript body",
 )
 
-
 @dataclass(frozen=True)
 class WatchlistSpec:
     channel_key: str
@@ -84,7 +82,6 @@ class WatchlistSpec:
     file_prefix: str
     discovery_priority: list[str]
 
-
 @dataclass(frozen=True)
 class ApprovedUrl:
     url: str
@@ -97,7 +94,6 @@ class ApprovedUrl:
     pub_date: str | None = None
     title: str | None = None
 
-
 @dataclass(frozen=True)
 class VerificationResult:
     ok: bool
@@ -106,23 +102,19 @@ class VerificationResult:
     body_chars: int
     frontmatter: dict[str, Any]
 
-
 @dataclass(frozen=True)
 class YtdlpAuth:
     cookies: Path | None = None
     cookies_from_browser: str | None = None
-
 
 def slugify(text: str, *, max_len: int = 72) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", text.lower())
     slug = re.sub(r"-+", "-", slug).strip("-")
     return slug[:max_len].rstrip("-") or "youtube"
 
-
 def canonical_watch_url(value: str) -> str:
     video_id = extract_video_id(value)
     return watch_url(video_id) if video_id else value.strip()
-
 
 def load_watchlist(path: Path | None = None) -> dict[str, WatchlistSpec]:
     config_path = path or resolve_discovery_config_path()
@@ -134,10 +126,8 @@ def load_watchlist(path: Path | None = None) -> dict[str, WatchlistSpec]:
         out[spec.channel_key] = spec
     return out
 
-
 def _norm(value: object) -> str:
     return str(value or "").strip().lower()
-
 
 def infer_watchlist_spec(info: dict[str, Any], watchlist: dict[str, WatchlistSpec]) -> WatchlistSpec | None:
     channel_id = _norm(info.get("channel_id") or info.get("uploader_id"))
@@ -151,7 +141,6 @@ def infer_watchlist_spec(info: dict[str, Any], watchlist: dict[str, WatchlistSpe
         if channel and channel in {spec.channel_name.lower(), spec.show.lower()}:
             return spec
     return None
-
 
 def load_approved_urls(path: Path | None, urls: list[str]) -> list[ApprovedUrl]:
     items = [ApprovedUrl(url=url) for url in urls]
@@ -183,7 +172,6 @@ def load_approved_urls(path: Path | None, urls: list[str]) -> list[ApprovedUrl]:
             items.append(ApprovedUrl(url=line))
     return items
 
-
 def split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     if not text.startswith("---\n"):
         return {}, text
@@ -199,7 +187,6 @@ def split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     except Exception:
         return {}, text[body_start:]
     return (parsed if isinstance(parsed, dict) else {}), text[body_start:]
-
 
 def verify_raw_input_text(text: str) -> VerificationResult:
     frontmatter, body = split_frontmatter(text)
@@ -225,7 +212,6 @@ def verify_raw_input_text(text: str) -> VerificationResult:
     if len(body_stripped) < MIN_BODY_CHARS:
         return VerificationResult(False, f"body too short: {len(body_stripped)} chars", len(body_words), len(body_stripped), frontmatter)
     return VerificationResult(True, "ok", len(body_words), len(body_stripped), frontmatter)
-
 
 def verify_existing_raw_input_for_appearance(text: str) -> VerificationResult:
     strict = verify_raw_input_text(text)
@@ -254,7 +240,6 @@ def verify_existing_raw_input_for_appearance(text: str) -> VerificationResult:
         frontmatter,
     )
 
-
 def effective_body_text(body: str) -> str:
     lines = body.splitlines()
     while lines and not lines[0].strip():
@@ -265,10 +250,8 @@ def effective_body_text(body: str) -> str:
             lines.pop(0)
     return "\n".join(lines).strip()
 
-
 def classify_evidence_grade(frontmatter: dict[str, Any], verification_reason: str = "") -> str:
     return voice_routing.classify_evidence_grade(frontmatter, verification_reason)
-
 
 def find_existing_valid_raw_input(notebook_root: Path, url: str) -> tuple[Path, VerificationResult] | None:
     raw_root = notebook_root
@@ -290,17 +273,14 @@ def find_existing_valid_raw_input(notebook_root: Path, url: str) -> tuple[Path, 
             return md, verification
     return None
 
-
 TITLE_GUEST_ALIASES: dict[str, str] = {
     "patrick henningsen": "Henningsen",
 }
-
 
 def _normalized_name(value: str | None) -> str:
     if not value:
         return ""
     return re.sub(r"[^a-z0-9]+", " ", value.casefold()).strip()
-
 
 def _host_slug_candidates(host: str | None) -> set[str]:
     host_norm = _normalized_name(host)
@@ -311,7 +291,6 @@ def _host_slug_candidates(host: str | None) -> set[str]:
     if tokens:
         candidates.add(tokens[-1])
     return candidates
-
 
 def infer_guest_from_title(title: str, notebook_root: Path, host: str | None = None) -> tuple[str | None, str | None]:
     voices_dir = voice_routing.DEFAULT_VOICES_DIR
@@ -349,7 +328,6 @@ def infer_guest_from_title(title: str, notebook_root: Path, host: str | None = N
         return None, "host-only-title-match"
     return None, None
 
-
 def _is_host_only_guest_match(guest: str | None, host: str | None) -> bool:
     if not guest or not host:
         return False
@@ -361,14 +339,12 @@ def _is_host_only_guest_match(guest: str | None, host: str | None) -> bool:
     guest_tokens = set(guest_norm.split())
     return guest_norm == host_norm or guest_tokens.issubset(host_tokens)
 
-
 def _caption_source_note(caption_kind: str | None) -> str:
     if caption_kind == "manual":
         return "Manual YouTube subtitles extracted with yt_dlp. Not human-verified verbatim."
     if caption_kind == "auto":
         return "Auto-generated YouTube subtitles extracted with yt_dlp. Not human-verified verbatim."
     return "YouTube subtitles extracted with yt_dlp. Not human-verified verbatim."
-
 
 def fetch_metadata(url: str, auth: YtdlpAuth | None = None) -> tuple[str | None, dict[str, Any], str | None]:
     video_id = extract_video_id(url)
@@ -399,7 +375,6 @@ def fetch_metadata(url: str, auth: YtdlpAuth | None = None) -> tuple[str | None,
         return video_id, {}, "metadata fetch failed"
     return video_id, dict(info), None
 
-
 def fetch_caption_text(video_id: str, auth: YtdlpAuth | None = None) -> tuple[str | None, str | None, str | None, str | None]:
     auth = auth or YtdlpAuth()
     for langs in (PRIMARY_LANGS, FALLBACK_LANGS):
@@ -417,7 +392,6 @@ def fetch_caption_text(video_id: str, auth: YtdlpAuth | None = None) -> tuple[st
         last_error = error
     return None, None, None, last_error or "subtitle fetch failed"
 
-
 def clean_caption_text(text: str) -> str:
     lines: list[str] = []
     prev = ""
@@ -429,7 +403,6 @@ def clean_caption_text(text: str) -> str:
         lines.append(line)
         prev = line
     return "\n".join(lines).strip()
-
 
 def build_frontmatter(
     *,
@@ -505,10 +478,8 @@ def build_frontmatter(
     ).rstrip()
     return f"---\n{raw}\n---\n\n"
 
-
 def output_path_for(notebook_root: Path, pub_date: str, file_prefix: str, title: str) -> Path:
     return notebook_root / pub_date / f"{file_prefix}-{slugify(title)}-{pub_date}.md"
-
 
 def manual_context(item: ApprovedUrl) -> dict[str, Any]:
     return {
@@ -522,14 +493,12 @@ def manual_context(item: ApprovedUrl) -> dict[str, Any]:
         "guest": item.guest or "",
     }
 
-
 def has_operator_metadata_for_bypass(item: ApprovedUrl) -> bool:
     return bool(
         item.title
         and item.pub_date
         and (item.file_prefix or item.channel_slug)
     )
-
 
 def materialize_one(
     item: ApprovedUrl,
@@ -720,7 +689,6 @@ def materialize_one(
         "metadata_bypassed": metadata_bypassed,
     }
 
-
 def _successful_output_paths(rows: list[dict[str, Any]]) -> list[Path]:
     out: list[Path] = []
     for row in rows:
@@ -730,7 +698,6 @@ def _successful_output_paths(rows: list[dict[str, Any]]) -> list[Path]:
         if output_path:
             out.append(Path(output_path))
     return out
-
 
 def materialize_existing_raw_input(path: Path) -> dict[str, Any]:
     if not path.exists():
@@ -761,10 +728,8 @@ def materialize_existing_raw_input(path: Path) -> dict[str, Any]:
         "evidence_grade": classify_evidence_grade(verification.frontmatter, verification.reason),
     }
 
-
 def _path_lines(paths: list[Path]) -> str:
     return "".join(f"{path}\n" for path in paths)
-
 
 def build_appearance_artifacts(
     *,
@@ -818,7 +783,6 @@ def build_appearance_artifacts(
     )
     return paths
 
-
 def build_quality_artifacts(*, raw_paths: list[Path], notebook_root: Path) -> dict[str, str]:
     summaries = host_shelf_quality.write_quality_reports_for_paths(
         raw_paths,
@@ -835,7 +799,6 @@ def build_quality_artifacts(*, raw_paths: list[Path], notebook_root: Path) -> di
         "host_quality_markdown": " | ".join(str(summary["markdown_path"]) for summary in summaries),
         "host_quality_closeout": " || ".join(str(summary["closeout_line"]) for summary in summaries),
     }
-
 
 def write_capture_summary(
     *,
@@ -871,8 +834,7 @@ def write_capture_summary(
     lines = [
         "# YouTube capture summary",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         f"- purpose: `{purpose}`",
         f"- tranche: `{tranche_label or '_none_'}`",
         f"- approved rows: `{len(rows)}`",
@@ -912,7 +874,6 @@ def write_capture_summary(
     summary.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     return {"successful_raw_inputs": str(successful), "capture_summary": str(summary)}
 
-
 def _manual_scaffold_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return [
         row
@@ -920,7 +881,6 @@ def _manual_scaffold_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
         if row.get("status") in {"failed-fetch", "failed-verification"}
         and str(row.get("url") or row.get("source_url") or "").strip()
     ]
-
 
 def _manual_target_path(row: dict[str, Any], notebook_root: Path | None) -> Path | None:
     if not notebook_root:
@@ -931,7 +891,6 @@ def _manual_target_path(row: dict[str, Any], notebook_root: Path | None) -> Path
     if not (pub_date and title and file_prefix):
         return None
     return output_path_for(notebook_root, pub_date, file_prefix, title)
-
 
 def _manual_frontmatter(row: dict[str, Any], *, ingest_date: str) -> dict[str, Any]:
     source_url = canonical_watch_url(str(row.get("url") or row.get("source_url") or ""))
@@ -952,7 +911,6 @@ def _manual_frontmatter(row: dict[str, Any], *, ingest_date: str) -> dict[str, A
             payload[key] = value
     return payload
 
-
 def _manual_frontmatter_text(row: dict[str, Any], *, ingest_date: str) -> str:
     frontmatter = safe_dump(
         _manual_frontmatter(row, ingest_date=ingest_date),
@@ -963,7 +921,6 @@ def _manual_frontmatter_text(row: dict[str, Any], *, ingest_date: str) -> str:
     ).rstrip()
     return f"---\n{frontmatter}\n---\n"
 
-
 def _manual_draft_text(row: dict[str, Any], *, ingest_date: str) -> str:
     title = str(row.get("title") or "PASTE TITLE HERE").strip()
     return (
@@ -971,7 +928,6 @@ def _manual_draft_text(row: dict[str, Any], *, ingest_date: str) -> str:
         f"# {title}\n\n"
         "[PASTE FULL TRANSCRIPT BODY HERE. Delete this line before saving canonical source-archive capture.]\n"
     )
-
 
 def _manual_paste_body_text(row: dict[str, Any], *, target_path: Path | None) -> str:
     title = str(row.get("title") or "PASTE TITLE HERE").strip()
@@ -984,7 +940,6 @@ def _manual_paste_body_text(row: dict[str, Any], *, target_path: Path | None) ->
         "--- PASTE FULL TRANSCRIPT BODY BELOW ---\n\n"
     )
 
-
 def _manual_verify_command(target_path: Path | None) -> str:
     if not target_path:
         return "After saving the canonical source-archive capture, run the materializer with --raw-input <path> --with-appearances."
@@ -993,14 +948,12 @@ def _manual_verify_command(target_path: Path | None) -> str:
         "--with-appearances --purpose one-off --tranche-label manual-transcript"
     )
 
-
 def _manual_verify_script(command: str) -> str:
     return (
         "# Manual transcript verification helper.\n"
         "# Run from the strategy-codex repository root after saving the filled source-archive draft.\n"
         f"{command}\n"
     )
-
 
 def _manual_scaffold_body(
     row: dict[str, Any],
@@ -1018,7 +971,7 @@ def _manual_scaffold_body(
     verify_command = _manual_verify_command(target_path)
     return (
         "# Manual Transcript Scaffold\n\n"
-        "WORK only; not Record. This receipt is a handoff aid, not a captured transcript.\n\n"
+        "This receipt is a handoff aid, not a captured transcript.\n\n"
         "## Target\n\n"
         f"- canonical_raw_input: `{target}`\n"
         f"- source_url: {source_url}\n"
@@ -1055,12 +1008,11 @@ def _manual_scaffold_body(
         "- Speaker/guest metadata is preserved when known.\n"
     )
 
-
 def _manual_queue_body(entries: list[dict[str, str]]) -> str:
     lines = [
         "# Manual curation queue",
         "",
-        "WORK only; not Record. Use this as the human transcript inbox for blocked materialization rows.",
+        "Use this as the human transcript inbox for blocked materialization rows.",
         "",
         "| status | pub_date | title | guest | target | scaffold | draft | paste body | verify |",
         "|---|---|---|---|---|---|---|---|---|",
@@ -1090,7 +1042,6 @@ def _manual_queue_body(entries: list[dict[str, str]]) -> str:
     )
     return "\n".join(lines).rstrip() + "\n"
 
-
 def write_manual_transcript_scaffolds(
     rows: list[dict[str, Any]],
     receipt_dir: Path,
@@ -1107,7 +1058,7 @@ def write_manual_transcript_scaffolds(
     index_lines = [
         "# Manual transcript scaffolds",
         "",
-        "WORK only; not Record. These files help humans fill transcripts later without creating canonical stubs.",
+        "These files help humans fill transcripts later without creating canonical stubs.",
         "",
     ]
     queue_entries: list[dict[str, str]] = []
@@ -1162,7 +1113,6 @@ def write_manual_transcript_scaffolds(
         "manual_curation_queue": str(queue),
     }
 
-
 def write_receipts(
     rows: list[dict[str, Any]],
     receipt_dir: Path,
@@ -1212,7 +1162,6 @@ def write_receipts(
         )
     )
     return paths
-
 
 def build_master_index_artifacts(*, notebook_root: Path, raw_paths: list[Path] | None = None) -> dict[str, str]:
     raw_root = notebook_root
@@ -1267,7 +1216,6 @@ def build_master_index_artifacts(*, notebook_root: Path, raw_paths: list[Path] |
     artifact_paths["statecraft_stale_index_audit_markdown"] = str(audit_path)
     return artifact_paths
 
-
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--url", action="append", default=[], help="Approved YouTube watch URL. Repeatable.")
@@ -1296,7 +1244,6 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--pub-date", default="")
     parser.add_argument("--title", default="")
     return parser
-
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
@@ -1375,7 +1322,6 @@ def main(argv: list[str] | None = None) -> int:
     print(json.dumps({"rows": rows, "receipts": paths}, indent=2, ensure_ascii=True))
     failed = [row for row in rows if row.get("status") in {"failed-fetch", "failed-verification"}]
     return 1 if failed else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

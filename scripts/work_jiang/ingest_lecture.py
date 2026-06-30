@@ -43,7 +43,6 @@ DEFAULT_TRANSCRIPT_ROOT = (
     ROOT / "research" / "external" / "youtube-channels" / "predictive-history"
 )
 
-
 def _series_prefix(series: str) -> str:
     s = series.lower().replace("_", "-")
     if s in ("civilization", "civ"):
@@ -58,14 +57,12 @@ def _series_prefix(series: str) -> str:
         return "great-books"
     raise ValueError(series)
 
-
 def _read_transcript_stdin() -> str:
     data = sys.stdin.read()
     if not data.strip():
         print("stdin empty — pass --file or pipe transcript text", file=sys.stderr)
         raise SystemExit(1)
     return data
-
 
 def _fetch_transcript_text(video_id: str, *, out_root: Path, fetch_force: bool) -> str:
     url = f"https://www.youtube.com/watch?v={video_id}"
@@ -104,7 +101,6 @@ def _fetch_transcript_text(video_id: str, *, out_root: Path, fetch_force: bool) 
         raise SystemExit(1)
     raw = Path(matches[0]).read_text(encoding="utf-8", errors="replace")
     return strip_transcript_header(raw).strip()
-
 
 def _build_markdown(
     *,
@@ -174,7 +170,6 @@ def _build_markdown(
 
 {body}
 """
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -326,7 +321,6 @@ def main() -> int:
         subprocess.run([sys.executable, str(refresh)], cwd=str(ROOT), check=True)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -16,12 +16,10 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 OUT = REPO_ROOT / "runtime/artifacts/work-lanes-dashboard.json"
 
-
 def _read_json(path: Path) -> dict | None:
     if not path.is_file():
         return None
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def main() -> int:
     doc = {
@@ -47,7 +45,6 @@ def main() -> int:
     OUT.write_text(json.dumps(doc, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {OUT}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

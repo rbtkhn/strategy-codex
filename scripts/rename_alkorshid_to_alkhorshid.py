@@ -137,10 +137,8 @@ CONTENT_REPLACEMENTS: list[tuple[str, str]] = [
 THREAD_LINE_RE = re.compile(r"^(thread:\s*)alkorshid(\s*)$", re.M)
 THREADS_ITEM_RE = re.compile(r"^(\s+-\s*)alkorshid(\s*)$", re.M)
 
-
 def _should_skip(path: Path) -> bool:
     return any(part in SKIP_DIR_NAMES for part in path.parts)
-
 
 def rename_paths() -> list[str]:
     logs: list[str] = []
@@ -174,7 +172,6 @@ def rename_paths() -> list[str]:
         logs.append(f"renamed: {old_rel} -> {new_rel}")
     return logs
 
-
 def patch_text(text: str) -> str:
     out = text
     for old, new in CONTENT_REPLACEMENTS:
@@ -182,7 +179,6 @@ def patch_text(text: str) -> str:
     out = THREAD_LINE_RE.sub(r"\1alkhorshid\2", out)
     out = THREADS_ITEM_RE.sub(r"\1alkhorshid\2", out)
     return out
-
 
 def patch_files() -> list[str]:
     logs: list[str] = []
@@ -208,7 +204,6 @@ def patch_files() -> list[str]:
             logs.append(str(path.relative_to(REPO)))
     return logs
 
-
 def main() -> int:
     print("=== path renames ===")
     for line in rename_paths():
@@ -221,7 +216,6 @@ def main() -> int:
     if len(patched) > 40:
         print(f"  ... and {len(patched) - 40} more")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

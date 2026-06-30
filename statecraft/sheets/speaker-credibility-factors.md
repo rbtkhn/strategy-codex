@@ -1,6 +1,5 @@
 # Speaker Credibility Factors
 
-WORK only; not Record.
 
 Use this sheet when the notebook needs to compare speakers by credibility rather than by agreement, usefulness, or rhetorical force.
 

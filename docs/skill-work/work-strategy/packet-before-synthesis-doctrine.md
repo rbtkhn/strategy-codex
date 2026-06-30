@@ -1,6 +1,5 @@
 # Packet-before-synthesis doctrine
 
-WORK only; not Record.
 
 **Purpose:** This note captures the slower strategist tempo behind source-hygiene packets. Use it when a live seam is strategically valuable but still too mixed, dual-register, or rhetorically unstable to compose directly into `days.md`, a weave, or a stronger notebook judgment.
 

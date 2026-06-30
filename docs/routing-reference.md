@@ -1,6 +1,5 @@
 # Routing reference — strategy-codex
 
-**Work only; not Record.**
 
 Machine-readable SSOT for route entries: [`repo-map.yaml`](../repo-map.yaml). Human/agent front door: [`LLM-ROUTING.md`](../LLM-ROUTING.md) (hybrid generated + curated prose).
 

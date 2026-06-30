@@ -1,6 +1,5 @@
 # Statecraft
 
-WORK only; not Record.
 
 This file is the **human-AI cognitive continuity interface** for repo-root `statecraft/`. It is also the constitutional kernel, but its first job is more basic: when you open it cold, it should restore the machine in your head quickly enough that you do not have to re-derive statecraft from scattered notes.
 

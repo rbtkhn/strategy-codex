@@ -15,10 +15,8 @@ _ACTION_LABEL_TO_PATH_ID = {
     "reframe": "reframe",
 }
 
-
 def _action_meta(action: str) -> tuple[str, str]:
     return label_for_action(action)
-
 
 def _humanize_reason(reason: str) -> str:
     reason_map = {
@@ -32,7 +30,6 @@ def _humanize_reason(reason: str) -> str:
         "calendar_mod4": "the field is quiet enough for ordinary deepening",
     }
     return reason_map.get(reason, reason.replace("_", " "))
-
 
 def coffee_menu_hint_from_dream(dream: dict[str, Any]) -> str | None:
     action = str(
@@ -49,7 +46,6 @@ def coffee_menu_hint_from_dream(dream: dict[str, Any]) -> str | None:
         f"- **Dream -> coffee action:** lean **{letter} - {label}** "
         f"({bias}) - {why}; operational hint only (not policy or Record)."
     )
-
 
 def build_execution_paths(
     *,
@@ -129,7 +125,6 @@ def build_execution_paths(
     ]
     return paths, suggested_index, suggestion_reason
 
-
 def format_tomorrow_inherits_line(
     paths: list[dict[str, Any]],
     suggested_index: int,
@@ -155,7 +150,6 @@ def format_tomorrow_inherits_line(
             f"{reason_text}; not policy or Record."
         )
     return f"Tomorrow inherits (hint): **{label}** - {reason_text}; not policy or Record."
-
 
 def build_learning_stage(
     *,

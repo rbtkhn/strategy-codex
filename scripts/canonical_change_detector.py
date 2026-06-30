@@ -18,7 +18,6 @@ from derived_regeneration import (
     topologically_sort_targets,
 )
 
-
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -40,7 +39,6 @@ def build_parser() -> argparse.ArgumentParser:
     )
     return parser
 
-
 def _expand(values: list[str] | None) -> list[str]:
     if not values:
         return []
@@ -51,7 +49,6 @@ def _expand(values: list[str] | None) -> list[str]:
             if stripped:
                 out.append(normalize_rel_path(stripped))
     return out
-
 
 def main() -> int:
     args = build_parser().parse_args()
@@ -108,7 +105,6 @@ def main() -> int:
     else:
         print("No derived rebuild targets matched.")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

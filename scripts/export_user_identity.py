@@ -27,12 +27,10 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
-
 
 def _section(content: str, title: str) -> str | None:
     """Extract a section between ## TITLE and the next ## or end of file."""
@@ -40,13 +38,11 @@ def _section(content: str, title: str) -> str | None:
     m = re.search(pattern, content, re.MULTILINE | re.DOTALL)
     return m.group(1).strip() if m else None
 
-
 def _subsection(content: str, title: str) -> str | None:
     """Extract a subsection between ### TITLE and the next ### or ## or end."""
     pattern = rf"^### {re.escape(title)}\s*\n(.*?)(?=^### |^## |\Z)"
     m = re.search(pattern, content, re.MULTILINE | re.DOTALL)
     return m.group(1).strip() if m else None
-
 
 def export_user_identity(user_id: str = "grace-mar") -> str:
     """
@@ -95,7 +91,6 @@ def export_user_identity(user_id: str = "grace-mar") -> str:
 
     return "\n".join(out_lines).rstrip() + "\n"
 
-
 def export_user_identity_json(user_id: str = "grace-mar") -> dict:
     """Build structured identity export for agent consumers."""
     profile_dir = REPO_ROOT / "platform/users" / user_id
@@ -131,7 +126,6 @@ def export_user_identity_json(user_id: str = "grace-mar") -> dict:
         "sections": sections,
     }
 
-
 def main() -> None:
     import warnings
 
@@ -165,7 +159,6 @@ def main() -> None:
         print(f"Wrote {args.output}", file=__import__("sys").stderr)
     else:
         print(content)
-
 
 if __name__ == "__main__":
     main()

@@ -1,6 +1,5 @@
 # arc-kent-carlson-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-kent-carlson-host.md](../../notes/arc-kent-carlson-host.md)
 

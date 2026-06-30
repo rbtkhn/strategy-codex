@@ -1,7 +1,6 @@
 # Strategy expert — Robert Barnes (`barnes`)
 <!-- word_count: 1065 -->
 
-WORK only; not Record.
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)

@@ -1,6 +1,5 @@
 # Polyphonic Cognition Streams
 
-WORK only; not Record.
 
 ## Purpose
 

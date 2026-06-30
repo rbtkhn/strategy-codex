@@ -16,7 +16,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_OUT = REPO_ROOT / "runtime/artifacts/skill-think/update-receipts/think-updates.jsonl"
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--trigger", required=True, help="What caused the update")
@@ -40,7 +39,6 @@ def main() -> int:
         f.write(json.dumps(rec, ensure_ascii=False) + "\n")
     print(f"appended to {args.out}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

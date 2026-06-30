@@ -25,13 +25,11 @@ DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from repo_io import ARTIFACTS_DIR, resolve_profile_export_path  # noqa: E402
 
-
 def _normalize_lane(name: str) -> str:
     n = name.strip().lower()
     if not n.startswith("work-"):
         n = f"work-{n}"
     return n
-
 
 def _lane_dir(lane: str) -> Path:
     d = SKILL_WORK / lane
@@ -39,12 +37,10 @@ def _lane_dir(lane: str) -> Path:
         raise FileNotFoundError(f"Lane directory not found: {d}")
     return d
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
-
 
 def _objective_from_readme(text: str) -> str:
     m = re.search(r"\*\*Objective:\*\*\s*([^\n]+)", text)
@@ -54,7 +50,6 @@ def _objective_from_readme(text: str) -> str:
     if m:
         return m.group(1).strip()
     return "(see lane README)"
-
 
 def _self_work_bullet(sw: str, lane: str) -> str:
     """Find a bullet in Objectives mentioning the lane."""
@@ -71,7 +66,6 @@ def _self_work_bullet(sw: str, lane: str) -> str:
         if lane in line or f"**{lane}" in line or key in line.lower():
             return re.sub(r"^[-*]\s*", "", line_stripped).strip()
     return ""
-
 
 def _ledger_excerpt(ledger_path: Path) -> tuple[str, str]:
     """Return (focus_hint, risk_line) from WORK-LEDGER if present."""
@@ -94,7 +88,6 @@ def _ledger_excerpt(ledger_path: Path) -> tuple[str, str]:
         if m2:
             risk = m2.group(1).strip()[:400]
     return focus, risk
-
 
 def build_active_lane_payload(lane: str, user_id: str, repo_root: Path) -> dict:
     lane_n = _normalize_lane(lane)
@@ -142,7 +135,6 @@ def build_active_lane_payload(lane: str, user_id: str, repo_root: Path) -> dict:
         "lane_focus_excerpt": focus,
     }
 
-
 def build_active_lane_markdown(payload: dict) -> str:
     lines = [
         f"# Active lane — {payload['lane']}",
@@ -168,7 +160,6 @@ def build_active_lane_markdown(payload: dict) -> str:
         lines.append(f"- `{p}`")
     lines.append("")
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Emit compact active-lane context (CEL).")
@@ -221,7 +212,6 @@ def main() -> int:
         print(body, end="")
 
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

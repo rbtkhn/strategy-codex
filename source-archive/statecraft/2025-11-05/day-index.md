@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (1), `Jeffrey Sachs` (1), `Nima Alkhorshid` (1)
 - Guests: `Doug Macgregor` (1), `Jeffrey Sachs` (1), `Scott Ritter` (1)
-- Threads: `alkorshid` (1), `davis` (1), `macgregor` (1), `ritter` (1), `sachs` (1)
+- Threads: `alkhorshid` (1), `davis` (1), `macgregor` (1), `ritter` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [watch](https://www.youtube.com/watch?v=weBSPW0_3K4) | `source-daniel-davis-col-doug-macgregor-russia-warns-ukraine-time-to-surrender-2025-11-05.md` |
-| `dialogue-works` | — | `alkorshid`, `ritter` | [watch](https://www.youtube.com/watch?v=UMTrfuXVD4g) | `source-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md` |
+| `dialogue-works` | — | `alkhorshid`, `ritter` | [watch](https://www.youtube.com/watch?v=UMTrfuXVD4g) | `source-dialogue-works-scott-ritter-scott-ritter-russia-iran-just-triggered-it-all-2025-11-05.md` |
 | `jeffrey-sachs` | Jeffrey Sachs | `sachs` | [watch](https://www.youtube.com/watch?v=XwGXSKe3ZeY) | `source-sachs-how-do-businesses-maneuver-in-a-multipolar-world-2025-11-05.md` |
 
 ## Writer sources

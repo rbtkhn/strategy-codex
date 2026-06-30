@@ -2,7 +2,7 @@
 
 **Civilizational Statecraft**, Volume IV. Volume introduction: [The Third Rome](introduction.md). `civ-state-russia` is the workshop folder slug—not the book title.
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Russia is a live lane-backed CIV-STATE volume. Use it when the problem is strategic depth, recognition, sovereignty under encirclement pressure, imperial inheritance, or disruption without overbind.
 

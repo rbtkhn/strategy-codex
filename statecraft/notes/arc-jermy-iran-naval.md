@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-04-28/source-daniel-davis-iran-wars-real-ticking-timebomb-imminent-energy-food-crisis-steve-jermy-lt-col-daniel-davis-2026-04-28.md
   - source-archive/statecraft/2026-03-18/source-alexander-mercouris-zelensky-panics-begs-europe-help-iran-war-depletes-us-arsenal-nothing-fo-2026-03-18.md
 ---
-WORK only; not Record.
 
 # Jan 22 → Mar 18 2026 — Jermy arc (Western decision crisis → campaign logic → naval defeat)
 

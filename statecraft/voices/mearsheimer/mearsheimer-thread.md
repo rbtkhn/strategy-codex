@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `mearsheimer`
 <!-- word_count: 10005 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 
@@ -510,7 +509,6 @@ Pape stacks four public claims in one appearance:
 
 # Page Ã¢â‚¬â€ 2026-04-16 Ã¢â‚¬â€ Pape (Janssen): escalation trap, staged blockade, third-player spoiler
 
-WORK only; not Record.
 
 | Field | Value |
 |--------|--------|

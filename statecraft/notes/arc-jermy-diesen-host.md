@@ -13,7 +13,6 @@ updated_at: 2026-06-28
 
 # Diesen x Jermy speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Diesen x Jermy` run inside the Diesen stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Jermy lane Diesen elicits, which full-form episodes matter most, and how this branch differs from the denser Davis lane.
 

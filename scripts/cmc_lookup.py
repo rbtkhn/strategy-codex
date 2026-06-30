@@ -34,7 +34,6 @@ from bot.lookup_cmc import (
     should_route_to_cmc,
 )
 
-
 def cmc_search(
     query: str,
     top_k: int = 5,
@@ -103,7 +102,6 @@ def cmc_search(
     except Exception as e:
         return {"status": "error", "message": str(e)}
 
-
 def _parse_raw(text: str) -> list[dict]:
     """Parse in-repo snippet text into result dicts."""
     results = []
@@ -112,7 +110,6 @@ def _parse_raw(text: str) -> list[dict]:
         if chunk:
             results.append({"index": i, "snippet": chunk})
     return results
-
 
 def _parse_indexed_output(raw: str) -> list[dict]:
     """Parse cmc-index-search.py output blocks into structured dicts."""
@@ -134,7 +131,6 @@ def _parse_indexed_output(raw: str) -> list[dict]:
         if entry:
             results.append(entry)
     return results
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="CMC lookup CLI")
@@ -179,7 +175,6 @@ def main() -> int:
             print(f"Error: {result.get('message', '')}")
 
     return 0 if result["status"] in ("success", "skipped", "miss") else 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

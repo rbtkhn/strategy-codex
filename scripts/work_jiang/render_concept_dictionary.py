@@ -16,14 +16,11 @@ WORK_DIR = ROOT / "codex" / "predictive-history"
 META = WORK_DIR / "metadata" / "concepts.yaml"
 OUT = WORK_DIR / "CONCEPT-DICTIONARY.md"
 
-
 def norm_term(s: str) -> str:
     return re.sub(r"\s+", " ", s.strip().lower())
 
-
 def load(path: Path) -> dict:
     return safe_load_path(path, feature="work_jiang/render_concept_dictionary.py") or {}
-
 
 def validate(concepts: list[dict]) -> list[str]:
     errors: list[str] = []
@@ -44,7 +41,6 @@ def validate(concepts: list[dict]) -> list[str]:
                 errors.append(f"duplicate primary term (normalized): {term!r}")
             seen_terms.add(nt)
     return errors
-
 
 def render(data: dict) -> str:
     concepts = data.get("concepts") or []
@@ -100,7 +96,6 @@ def render(data: dict) -> str:
     lines.append("")
     return "\n".join(lines)
 
-
 def main() -> int:
     try:
         data = load(META)
@@ -116,7 +111,6 @@ def main() -> int:
     OUT.write_text(render(data), encoding="utf-8")
     print(f"Wrote {OUT}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

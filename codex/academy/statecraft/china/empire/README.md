@@ -1,6 +1,6 @@
 # China Empire
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: name China's outward striving for security and control so statecraft can regulate the drive toward supply-chain, energy, finance, and regional order.
 

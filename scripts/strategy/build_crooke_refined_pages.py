@@ -45,7 +45,6 @@ MANIFEST_PATH = CROOKE / "crooke-pages-manifest.yaml"
 
 SCAFFOLD_MARKER = "<!-- SCOUT_REFINED_PAGE_SCAFFOLD -->"
 
-
 def _parse_frontmatter(text: str) -> dict:
     if not text.startswith("---"):
         return {}
@@ -57,10 +56,8 @@ def _parse_frontmatter(text: str) -> dict:
     data = yaml.safe_load(parts[1])
     return data if isinstance(data, dict) else {}
 
-
 def _folder_date(p: Path) -> str:
     return p.parent.name
-
 
 def _slug_from_stem(stem: str) -> str:
     s = stem
@@ -68,7 +65,6 @@ def _slug_from_stem(stem: str) -> str:
         s = s[len("substack-crooke-") :]
     s = re.sub(r"-\d{4}-\d{2}-\d{2}$", "", s)
     return s
-
 
 def _display_title(fm: dict, stem: str, body: str) -> str:
     title = (fm.get("title") or "").strip()
@@ -87,7 +83,6 @@ def _display_title(fm: dict, stem: str, body: str) -> str:
             break
     return _slug_from_stem(stem).replace("-", " ").title()
 
-
 def collect_primaries() -> list[Path]:
     paths = sorted(RAW.glob("**/substack-crooke*.md"))
     out: list[Path] = []
@@ -104,7 +99,6 @@ def collect_primaries() -> list[Path]:
         out.append(p)
     return sorted(out, key=lambda x: (x.parent.name, x.name))
 
-
 def voice_date_for(p: Path, fm: dict) -> str:
     raw_pub = fm.get("pub_date")
     pub_day = str(raw_pub).strip() if raw_pub is not None else ""
@@ -113,7 +107,6 @@ def voice_date_for(p: Path, fm: dict) -> str:
         if candidate and re.match(r"^\d{4}-\d{2}-\d{2}$", str(candidate)):
             return str(candidate)
     return folder
-
 
 def build_entries(paths: list[Path]) -> list[dict]:
     by_date: dict[str, list[Path]] = defaultdict(list)
@@ -159,7 +152,6 @@ def build_entries(paths: list[Path]) -> list[dict]:
     entries.sort(key=lambda e: (e["voice_date"], e["page_filename"]))
     return entries
 
-
 def render_scaffold(e: dict) -> str:
     vd = e["voice_date"]
     disp = (e.get("display_title") or "").strip()
@@ -168,7 +160,7 @@ def render_scaffold(e: dict) -> str:
     lines = [
         f"# Crooke refined page — {vd}{title_suffix}",
         "",
-        "WORK only; not Record.",
+        "",
         "",
         f"**Expert:** `crooke` · **Published:** {pdate} · **Capture:** Mode C — Substack · **Artifact:** refined page (standalone file under `experts/crooke/`). Not a `strategy-page` HTML fence in `thread.md` unless you duplicate judgment there during EOD compose.",
         "",
@@ -202,7 +194,6 @@ def render_scaffold(e: dict) -> str:
         "",
     ]
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -257,7 +248,6 @@ def main() -> int:
         written += 1
     print(f"Scaffolds written: {written}, skipped (edited): {skipped}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -16,13 +16,11 @@ except ImportError:
 
 STALE_DAYS = 7
 
-
 def _format_candidate(row: dict) -> str:
     age = row.get("age_days")
     age_label = "unknown age" if age is None else f"{age}d old"
     target = row.get("profile_target") or row.get("prompt_section") or "no target"
     return f"{row['id']} [{row['territory_label']}] ({age_label}, {target}) - {row['summary']}"
-
 
 def build_gate_review_pass(user_id: str = "grace-mar", territory: str = "all") -> str:
     rows = parse_review_candidates(user_id=user_id)
@@ -125,7 +123,6 @@ def build_gate_review_pass(user_id: str = "grace-mar", territory: str = "all") -
     )
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate a recommendation-oriented RECURSION-GATE review pass.")
     parser.add_argument("--user", "-u", default="grace-mar", help="User id")
@@ -139,7 +136,6 @@ def main() -> int:
     territory = normalize_territory_cli(args.territory)
     print(build_gate_review_pass(user_id=args.user, territory=territory))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

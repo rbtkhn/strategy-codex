@@ -20,4 +20,3 @@ Daily continuity seed for `alkhorshid` inside the 2026 strategy-codex volume. Us
 
 - Shared raw input: [`../../sheets/source-archive-control/`](../../sheets/source-archive-control/
 
-WORK only; not Record.

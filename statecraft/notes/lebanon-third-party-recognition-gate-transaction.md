@@ -18,7 +18,6 @@ archive_links:
 ---
 # Persia — Lebanon Third-Party Recognition Gate Transaction
 
-WORK only; not Record.
 
 ## Transaction Name
 

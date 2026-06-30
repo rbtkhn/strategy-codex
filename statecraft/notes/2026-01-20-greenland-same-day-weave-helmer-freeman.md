@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-09/source-dialogue-works-helmer-putins-crisis-of-confidence-2026-06-09.md
   - source-archive/statecraft/2026-06-16/source-dialogue-works-helmer-russia-reacted-iran-us-mou-ending-war-all-fronts-2026-06-16.md
 ---
-WORK only; not Record.
 
 # Jan 20 2026 — Greenland same-day weave (Helmer × Freeman × Mercouris)
 

@@ -24,7 +24,6 @@ if str(_SCRIPTS) not in sys.path:
 
 from repo_io import profile_dir, resolve_ledger_path  # noqa: E402, ARTIFACTS_DIR
 
-
 def _git_short_hash(cwd: Path) -> str:
     try:
         out = subprocess.run(
@@ -40,7 +39,6 @@ def _git_short_hash(cwd: Path) -> str:
         pass
     return "unknown"
 
-
 def _file_status(root: Path, rel: str) -> str:
     p = root / rel
     if p.is_file():
@@ -48,7 +46,6 @@ def _file_status(root: Path, rel: str) -> str:
     if p.is_dir():
         return "present (dir)"
     return "missing"
-
 
 def build_governance_posture_markdown(
     repo_root: Path,
@@ -160,7 +157,6 @@ def build_governance_posture_markdown(
     )
     return "".join(lines)
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Write governance-posture.md (generated operator summary).")
     ap.add_argument("-u", "--user", default="grace-mar", help="User id (fork under )")
@@ -188,7 +184,6 @@ def main() -> int:
     out.write_text(md, encoding="utf-8")
     print(f"wrote {out}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

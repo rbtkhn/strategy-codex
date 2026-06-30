@@ -52,16 +52,13 @@ _STOPWORDS = frozenset({
     "that", "the", "their", "this", "to", "was", "with", "you", "your",
 })
 
-
 def _tokenize(text: str) -> set[str]:
     return {t for t in re.findall(r"[a-z0-9]+", (text or "").lower())
             if len(t) >= 4 and t not in _STOPWORDS}
 
-
 def _extract_yaml_scalar(yaml_body: str, key: str) -> str:
     m = re.search(rf"^{re.escape(key)}:\s*(.+)$", yaml_body, re.MULTILINE)
     return (m.group(1).strip().strip('"').strip("'") if m else "")
-
 
 def convergence_check(
     gate_content: str,
@@ -98,23 +95,19 @@ def convergence_check(
         "prior_ids": prior_ids,
     }
 
-
 def _candidate_ids(content: str) -> list[int]:
     nums: list[int] = []
     for m in re.finditer(r"\bCANDIDATE-(\d+)\b", content):
         nums.append(int(m.group(1)))
     return nums
 
-
 def next_candidate_id(content: str) -> str:
     nums = _candidate_ids(content)
     n = max(nums) + 1 if nums else 1
     return f"CANDIDATE-{n:04d}"
 
-
 def _yaml_double_quoted(s: str) -> str:
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
-
 
 def _literal_block(s: str, base_indent: str = "    ") -> str:
     """YAML literal block content for `key: |` (lines indented under operator)."""
@@ -124,7 +117,6 @@ def _literal_block(s: str, base_indent: str = "    ") -> str:
     for line in s.splitlines():
         lines.append(base_indent + line)
     return "\n".join(lines) + "\n"
-
 
 def _yaml_scalar_or_literal(key: str, value: str | None, *, max_inline: int = 240) -> list[str]:
     """Emit `key: value` as quoted scalar or block literal."""
@@ -136,7 +128,6 @@ def _yaml_scalar_or_literal(key: str, value: str | None, *, max_inline: int = 24
         lines.append(_literal_block(s, "  ").rstrip("\n"))
         return lines
     return [f"{key}: {_yaml_double_quoted(s)}"]
-
 
 def _runtime_work_yaml_lines(props: dict[str, Any]) -> list[str]:
     """YAML for PR4 work proposal (candidate_type, target_surface, proposed_change, …)."""
@@ -157,7 +148,6 @@ def _runtime_work_yaml_lines(props: dict[str, Any]) -> list[str]:
     lines.extend(_yaml_scalar_or_literal("why_now", props.get("why_now")))
     lines.extend(_yaml_scalar_or_literal("review_notes", props.get("review_notes")))
     return lines
-
 
 def _provenance_yaml_lines(provenance: dict[str, Any]) -> list[str]:
     """Optional RECURSION-GATE YAML extension for runtime observation lineage (non-breaking)."""
@@ -188,14 +178,12 @@ def _provenance_yaml_lines(provenance: dict[str, Any]) -> list[str]:
             out.append(f"  - {_yaml_double_quoted(str(r))}")
     return out
 
-
 def _slug_title(text: str, max_len: int = 56) -> str:
     one = " ".join(text.splitlines()[:1]).strip() or "staged paste"
     one = re.sub(r"\s+", " ", one)
     if len(one) > max_len:
         one = one[: max_len - 1].rstrip() + "…"
     return one
-
 
 def build_block(
     *,
@@ -295,13 +283,11 @@ def build_block(
     lines.extend(["```", ""])
     return "\n".join(lines)
 
-
 def insert_before_processed(full_md: str, block: str) -> str:
     m = re.search(r"^## Processed\s*$", full_md, re.MULTILINE)
     if not m:
         raise ValueError("recursion-gate.md must contain a ## Processed heading")
     return full_md[: m.start()] + block + full_md[m.start() :]
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Stage a pending candidate from paste/file into recursion-gate.md")
@@ -416,7 +402,6 @@ def main() -> int:
     elif args.auto_score:
         print(f"Missing {SCORE_SCRIPT}, skipping --auto-score", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

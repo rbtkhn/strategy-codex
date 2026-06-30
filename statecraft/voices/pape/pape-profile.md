@@ -1,7 +1,6 @@
 # Strategy expert — Robert Pape (`pape`)
 <!-- word_count: 366 -->
 
-WORK only; not Record.
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)

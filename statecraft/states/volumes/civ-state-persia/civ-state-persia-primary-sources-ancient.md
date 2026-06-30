@@ -1,5 +1,4 @@
 ﻿# Persia Primary Sources - Ancient
-WORK only; not Record.
 This file contains the Ancient primary-source shelf for the Persia CIV-STATE volume.
 ## Primary Sources
 ### Ancient

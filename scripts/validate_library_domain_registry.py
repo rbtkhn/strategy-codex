@@ -32,7 +32,6 @@ REQUIRED_KEYS = (
     "owner",
 )
 
-
 def validate_library_domain_registry(repo_root: Path) -> list[str]:
     errors: list[str] = []
     path = repo_root / "docs" / "self-library-domains.json"
@@ -85,7 +84,6 @@ def validate_library_domain_registry(repo_root: Path) -> list[str]:
 
     return errors
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate Library Domain Registry JSON.")
     parser.add_argument(
@@ -103,7 +101,6 @@ def main() -> int:
         return 1
     print("Library Domain Registry: OK")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

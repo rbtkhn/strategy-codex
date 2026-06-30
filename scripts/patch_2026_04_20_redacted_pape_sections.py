@@ -58,7 +58,6 @@ SPEC = {
 
 TRANSCRIPT_MARKER = "## Transcript\n"
 
-
 def extract_flat_body(doc: str) -> str:
     if TRANSCRIPT_MARKER in doc:
         return doc.split(TRANSCRIPT_MARKER, 1)[1]
@@ -72,7 +71,6 @@ def extract_flat_body(doc: str) -> str:
     if blank == -1:
         raise ValueError("no body after H1")
     return tail[blank + 2 :]
-
 
 def normalize_for_section_ship(doc: str) -> tuple[str, str, str]:
     if TRANSCRIPT_MARKER in doc:
@@ -88,7 +86,6 @@ def normalize_for_section_ship(doc: str) -> tuple[str, str, str]:
     body = tail[blank + 2 :]
     head = f"---{parts[1]}---\n\n{title_block}\n\n{TRANSCRIPT_MARKER}"
     return head, TRANSCRIPT_MARKER, body
-
 
 def check_spec(path: Path, spec: dict) -> bool:
     doc = path.read_text(encoding="utf-8")
@@ -109,7 +106,6 @@ def check_spec(path: Path, spec: dict) -> bool:
     print()
     return ok
 
-
 def apply_spec(path: Path, spec: dict) -> None:
     doc = path.read_text(encoding="utf-8")
     head, marker, body = normalize_for_section_ship(doc)
@@ -121,7 +117,6 @@ def apply_spec(path: Path, spec: dict) -> None:
         reject_if_sectioned=False,
         body_marker=marker,
     )
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -147,7 +142,6 @@ def main() -> int:
     apply_spec(path, SPEC)
     print(f"sectioned {REL}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

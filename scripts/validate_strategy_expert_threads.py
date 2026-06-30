@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate strategy-expert-*-thread.md journal-layer month blocks (WORK only).
+"""Validate strategy-expert-*-thread.md journal-layer month blocks (non-authoritative).
 
 The **journal layer** (above ``<!-- strategy-expert-thread:start -->``) is a **narrative journal** (see ``strategy-expert-template.md``): default
 expectation is **readable prose**, with optional ``## YYYY-MM`` sections. Month-scale
@@ -58,12 +58,10 @@ OPT_OUT_VERBATIM_FORWARD = "<!-- strategy-expert-thread:verbatim-forward-journal
 
 MIN_PROSE_WORDS = 500
 
-
 def extract_human_layer(thread_text: str) -> str:
     if THREAD_MARKER_START in thread_text:
         return thread_text.split(THREAD_MARKER_START, 1)[0].rstrip()
     return thread_text.rstrip()
-
 
 def strip_backfill_block(text: str, expert_id: str) -> str:
     start = f"<!-- backfill:{expert_id}:start -->"
@@ -71,7 +69,6 @@ def strip_backfill_block(text: str, expert_id: str) -> str:
     pattern = re.compile(re.escape(start) + r".*?" + re.escape(end), re.DOTALL)
     out = pattern.sub("", text)
     return re.sub(r"\n{3,}", "\n\n", out).strip()
-
 
 def is_prose_line(line: str) -> bool:
     s = line.strip()
@@ -88,7 +85,6 @@ def is_prose_line(line: str) -> bool:
     if s.startswith(">"):
         return False
     return True
-
 
 def iter_month_h2_bodies(human: str) -> list[tuple[str, str]]:
     """Split human layer on ``## YYYY-MM`` headings; return (id, body) pairs."""
@@ -113,7 +109,6 @@ def iter_month_h2_bodies(human: str) -> list[tuple[str, str]]:
         blocks.append((month_id, "\n".join(body_lines)))
     return blocks
 
-
 def analyze_month_body(body: str) -> tuple[int, int]:
     """Return (bullet_line_count, prose_line_count) for non-empty substantive lines."""
     bullet = 0
@@ -127,7 +122,6 @@ def analyze_month_body(body: str) -> tuple[int, int]:
             prose += 1
     return bullet, prose
 
-
 def prose_word_count(body: str) -> int:
     """Word count on prose lines only (same rule as ``is_prose_line``)."""
     n = 0
@@ -135,7 +129,6 @@ def prose_word_count(body: str) -> int:
         if is_prose_line(line):
             n += len(line.split())
     return n
-
 
 def blockquote_word_count(body: str) -> int:
     """Word count on markdown blockquote lines (verbatim-forward months)."""
@@ -150,11 +143,9 @@ def blockquote_word_count(body: str) -> int:
                     n += len(content.split())
     return n
 
-
 def substantive_word_count(body: str) -> int:
     """Prose lines + blockquote words (architecture verbatim-forward policy)."""
     return prose_word_count(body) + blockquote_word_count(body)
-
 
 def strategy_page_fence_word_count(body: str) -> int:
     """Words inside ``<!-- strategy-page:start`` … ``end`` --> blocks (thread-embedded pages)."""
@@ -171,7 +162,6 @@ def strategy_page_fence_word_count(body: str) -> int:
         n += len(chunk.split())
         pos = end + 1
     return n
-
 
 def validate_thread_file(path: Path, month_mm: str | None = None) -> list[str]:
     """Return warning strings for one thread file.
@@ -221,7 +211,6 @@ def validate_thread_file(path: Path, month_mm: str | None = None) -> list[str]:
                 f"or {OPT_OUT_VERBATIM_FORWARD} to skip word-count warnings for this file)."
             )
     return warnings
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -286,7 +275,6 @@ def main() -> int:
         )
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

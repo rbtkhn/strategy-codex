@@ -1,6 +1,5 @@
 # Marandi speaker object
 
-WORK only; not Record.
 
 object_shape: triple-helix
 

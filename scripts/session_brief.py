@@ -41,12 +41,10 @@ WISDOM_COUNT = 3
 SUGGESTED_ACTIVITIES_COUNT = 3
 DEFAULT_USER_ID = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
-
 
 def _last_activities(evidence_content: str, n: int) -> list[dict]:
     """Extract last n ACT-* entries from EVIDENCE Activity Log."""
@@ -74,7 +72,6 @@ def _last_activities(evidence_content: str, n: int) -> list[dict]:
         })
     return entries[-n:] if len(entries) > n else entries
 
-
 def _pending_candidate_ids(pr_content: str, territory: str = "all") -> list[str]:
     """All pending IDs — full file. territory: normalized all | work-politics | companion."""
     politics, companion = pending_by_territory(pr_content)
@@ -84,10 +81,8 @@ def _pending_candidate_ids(pr_content: str, territory: str = "all") -> list[str]
         return [r["id"] for r in companion]
     return [r["id"] for r in politics + companion]
 
-
 def _pending_count_full(pr_content: str, territory: str = "all") -> int:
     return len(_pending_candidate_ids(pr_content, territory))
-
 
 def _last_act_oneliner(evidence_content: str) -> str:
     if "## V. ACTIVITY LOG" not in evidence_content:
@@ -108,7 +103,6 @@ def _last_act_oneliner(evidence_content: str) -> str:
     label = (summary_m.group(1) if summary_m else act_id)[:90]
     d = date_m.group(1) if date_m else "?"
     return f"{act_id} ({d}) — {label}"
-
 
 def _load_pipeline_events(user_dir: Path) -> list[dict]:
     try:
@@ -135,7 +129,6 @@ def _load_pipeline_events(user_dir: Path) -> list[dict]:
             continue
     return rows
 
-
 def _oldest_pending_age_days(pr_content: str, events: list[dict]) -> int | None:
     pending_ids = set(_pending_candidate_ids(pr_content, "all"))
     if not pending_ids:
@@ -160,7 +153,6 @@ def _oldest_pending_age_days(pr_content: str, events: list[dict]) -> int | None:
         return None
     return max(0, int((datetime.now() - oldest).days))
 
-
 def _recent_rejection_reasons(events: list[dict], limit: int = 3) -> list[str]:
     reasons: list[str] = []
     for row in reversed(events):
@@ -172,7 +164,6 @@ def _recent_rejection_reasons(events: list[dict], limit: int = 3) -> list[str]:
         if len(reasons) >= limit:
             break
     return reasons
-
 
 def build_operator_reminder(
     user_dir: Path,
@@ -197,7 +188,6 @@ def build_operator_reminder(
     lines.append("- next action: run /review in Telegram")
     return "\n".join(lines)
 
-
 def _from_the_record_topics(self_content: str, n: int = 3) -> list[str]:
     """Extract 1–3 topics from IX-A, IX-B, IX-C for 'From the Record' section."""
     knowledge = re.findall(r'id: LEARN-\d+.*?topic:\s*["\']([^"\']+)["\']', self_content, re.DOTALL)
@@ -213,7 +203,6 @@ def _from_the_record_topics(self_content: str, n: int = 3) -> list[str]:
     if personality and len(topics) < n:
         topics.append(personality[-1].strip()[:40])
     return topics[:n]
-
 
 def _ix_b_topics(self_content: str) -> list[str]:
     """Extract IX-B curiosity topics for wisdom question selection."""
@@ -236,7 +225,6 @@ def _ix_b_topics(self_content: str) -> list[str]:
             if len(line) > 5 and not line.startswith("curated"):
                 topics.append(line.split("—")[0].strip()[:40])
     return topics[:10]
-
 
 def _suggested_activities(
     ix_b_topics: list[str],
@@ -262,7 +250,6 @@ def _suggested_activities(
             activities.append(f"From LIBRARY: {title[:50]} — consider reading or discussing.")
     return activities[:n]
 
-
 def _library_titles(library_content: str, n: int = 3) -> list[str]:
     """Extract up to n active library entry titles."""
     titles = []
@@ -271,7 +258,6 @@ def _library_titles(library_content: str, n: int = 3) -> list[str]:
         if len(titles) >= n:
             break
     return titles
-
 
 def _replay_brief_lines(user_dir: Path, repo_root: Path) -> list[str]:
     """Synthesis summary from grace_mar.replay (optional; fails soft)."""
@@ -302,10 +288,8 @@ def _replay_brief_lines(user_dir: Path, repo_root: Path) -> list[str]:
     except Exception as exc:
         return ["## Replay & provenance (audit synthesis)", "", f"_(unavailable: {exc})_", ""]
 
-
 def _session_brief_budget() -> dict:
     return load_context_budget("session_brief")
-
 
 def _load_context_surfaces(repo_root: Path) -> dict[str, str]:
     """CEL tier hints from platform/config/context_surfaces.json (operator-runtime only)."""
@@ -326,7 +310,6 @@ def _load_context_surfaces(repo_root: Path) -> dict[str, str]:
         if isinstance(k, str) and isinstance(v, str):
             out[k] = v
     return out
-
 
 def _recovery_link_lines(user_name: str, *, compact: bool) -> list[str]:
     """Provenance-first paths for operator recovery (CEL)."""
@@ -349,7 +332,6 @@ def _recovery_link_lines(user_name: str, *, compact: bool) -> list[str]:
     ]
     return lines
 
-
 def _cel_tier_hint_lines(repo_root: Path) -> list[str]:
     """Optional one-line tier table from context_surfaces.json."""
     tiers = _load_context_surfaces(repo_root)
@@ -360,7 +342,6 @@ def _cel_tier_hint_lines(repo_root: Path) -> list[str]:
         lines.append(f"- `{k}` → **{v}**")
     return lines
 
-
 def _intent_primary_goal(user_dir: Path) -> str | None:
     """Load primary goal from intent.md if present."""
     path = user_dir / "intent.md"
@@ -369,7 +350,6 @@ def _intent_primary_goal(user_dir: Path) -> str | None:
     raw = path.read_text(encoding="utf-8")
     m = re.search(r"primary:\s*[\"']([^\"']+)[\"']", raw)
     return m.group(1).strip() if m else None
-
 
 def _build_minimal_brief_lines(
     user_dir: Path,
@@ -434,7 +414,6 @@ def _build_minimal_brief_lines(
     lines.append("")
     return lines
 
-
 def _cmc_lecture_suggestions(ix_b_topics: list[str], from_record: list[str], repo_root: Path) -> list[str]:
     """Suggest CMC Lecture topics based on active strategy-notebook threads and IX-B curiosity."""
     strategy_dir = repo_root / "docs" / "skill-work" / "work-strategy" / "strategy-notebook"
@@ -475,7 +454,6 @@ def _cmc_lecture_suggestions(ix_b_topics: list[str], from_record: list[str], rep
 
     return suggestions[:3]
 
-
 def _wisdom_questions(wisdom_content: str, ix_b_topics: list[str], n: int) -> list[str]:
     """Extract n wisdom questions. Prefer curiosity/creativity sections (IX-B)."""
     questions = []
@@ -493,7 +471,6 @@ def _wisdom_questions(wisdom_content: str, ix_b_topics: list[str], n: int) -> li
     else:
         chosen = questions[:n] if len(questions) >= n else questions
     return [q for _, q, _ in chosen]
-
 
 def main() -> int:
     import argparse
@@ -673,7 +650,6 @@ def main() -> int:
     lines.extend(_replay_brief_lines(user_dir, REPO_ROOT))
     print("\n".join(lines))
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

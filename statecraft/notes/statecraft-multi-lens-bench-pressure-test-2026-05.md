@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-14/README.md
   - source-archive/statecraft/2026-06-14/source-dialogue-works-anthony-aguilar-iran-suspends-flights-western-region-attack-israel-imminent-2026-06-14.md
 ---
-WORK only; not Record.
 
 See [notes taxonomy](./README.md#thread-and-arc-canonical-draft).
 

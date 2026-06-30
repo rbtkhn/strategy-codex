@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Johnson April-May 2026 thread atlas
 

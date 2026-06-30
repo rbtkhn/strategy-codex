@@ -63,13 +63,11 @@ except ImportError:
 
 LAST_DREAM_FILENAME = "last-dream.json"
 
-
 def _configure_utf8_stdio() -> None:
     for stream in (sys.stdout, sys.stderr):
         reconfigure = getattr(stream, "reconfigure", None)
         if callable(reconfigure):
             reconfigure(encoding="utf-8", errors="replace")
-
 
 def _compress_lines(lines: list[str], *, max_lines: int) -> list[str]:
     """Truncate body lines; max_lines <= 0 means no compression."""
@@ -80,10 +78,8 @@ def _compress_lines(lines: list[str], *, max_lines: int) -> list[str]:
     kept.append(f"(+{overflow} more line(s) omitted)")
     return kept
 
-
 def _coffee_context_budget() -> dict:
     return load_context_budget("coffee")
-
 
 def _read_last_dream(user_dir: Path) -> dict | None:
     try:
@@ -104,7 +100,6 @@ def _read_last_dream(user_dir: Path) -> dict | None:
     except (json.JSONDecodeError, OSError):
         return None
 
-
 def _agent_surface_line_from_dream(dream: dict) -> str | None:
     """One bullet matching bridge/harvest Agent surface when handoff recorded a model."""
     surf = dream.get("agent_surface")
@@ -115,7 +110,6 @@ def _agent_surface_line_from_dream(dream: dict) -> str | None:
         return None
     display = raw if len(raw) <= 160 else raw[:159] + "..."
     return f"- Agent surface: **Cursor model:** {display}"
-
 
 def should_collapse_dream_handoff(dream: dict, *, verbose_dream: bool = False) -> bool:
     """True when the handoff is a quiet, no-signal run - show one-line summary in morning coffee."""
@@ -138,7 +132,6 @@ def should_collapse_dream_handoff(dream: dict, *, verbose_dream: bool = False) -
         return False
     return True
 
-
 def _short_tomorrow_inherits(dream: dict, *, max_len: int = 110) -> str:
     raw = str(dream.get("tomorrow_inherits") or "").strip()
     if not raw:
@@ -148,7 +141,6 @@ def _short_tomorrow_inherits(dream: dict, *, max_len: int = 110) -> str:
     if len(t) > max_len:
         return t[: max_len - 1] + "..."
     return t
-
 
 def _last_coffee_echo_bullets(dream: dict) -> list[str]:
     """Narrative echo from dream (rollup-derived); 0 or 1 line."""
@@ -164,7 +156,6 @@ def _last_coffee_echo_bullets(dream: dict) -> list[str]:
     cond = (le.get("conductor") or "").strip()
     label = cond if cond else "coffee"
     return [f"- Dream picked up yesterday's {label} coffee - {high}"]
-
 
 def _work_pass_echo_bullets(dream: dict) -> list[str]:
     """Compact dream-derived work-pass echo; 0 or 1 line (Phase 3 primary)."""
@@ -185,11 +176,9 @@ def _work_pass_echo_bullets(dream: dict) -> list[str]:
     label = "Work-pass echo" if dream.get("work_pass_rollup_24h") else "Conductor echo"
     return [f"- {label}: {echo}"]
 
-
 def _conductor_echo_bullets(dream: dict) -> list[str]:
     """Backward-compatible alias for work-pass echo."""
     return _work_pass_echo_bullets(dream)
-
 
 def _format_last_dream_block(
     dream: dict,
@@ -399,7 +388,6 @@ def _format_last_dream_block(
     lines.append("")
     return lines
 
-
 def _git_status_lines() -> list[str]:
     try:
         from git_worktree_snapshot import get_git_worktree_snapshot
@@ -410,7 +398,6 @@ def _git_status_lines() -> list[str]:
     if not snap.ok:
         return [snap.error or "git status failed"]
     return list(snap.status_lines)
-
 
 def _integrity_errors(user_id: str) -> list[str]:
     proc = subprocess.run(
@@ -431,7 +418,6 @@ def _integrity_errors(user_id: str) -> list[str]:
         return ["integrity validator returned malformed payload"]
     return [str(item) for item in errors]
 
-
 def _top_priorities_header(user_id: str = DEFAULT_USER_ID) -> str:
     try:
         from suggest_best_move import suggest_best_move
@@ -446,14 +432,12 @@ def _top_priorities_header(user_id: str = DEFAULT_USER_ID) -> str:
         return f"## Top priorities (best move: {move})"
     return "## Top priorities"
 
-
 def _record_frozen() -> bool:
     try:
         from strategy_codex_config import record_frozen
     except ImportError:
         from scripts.strategy_codex_config import record_frozen  # type: ignore
     return record_frozen()
-
 
 def _priority_list(
     *,
@@ -509,7 +493,6 @@ def _priority_list(
                 "No urgent blockers detected. Pick the next highest-value work-politics or architecture task."
             )
     return deduped[:3]
-
 
 def build_operator_daily_warmup(
     user_id: str = DEFAULT_USER_ID,
@@ -708,7 +691,6 @@ def build_operator_daily_warmup(
     )
     return "\n".join(lines)
 
-
 def main() -> int:
     _configure_utf8_stdio()
     parser = argparse.ArgumentParser(description="Generate a daily operator warmup for strategy-codex.")
@@ -744,7 +726,6 @@ def main() -> int:
         )
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

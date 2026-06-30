@@ -1,6 +1,5 @@
 # Operator dashboard consolidation — Phase 0 alignment
 
-**Work only; not Record.**
 
 **Purpose:** Lock paths, anti-sprawl justification, gitignore/commit policy, and registry entries for three **derived operator aggregators** before Phase 1 implementation. This doc is governance alignment — not a new doctrine surface.
 

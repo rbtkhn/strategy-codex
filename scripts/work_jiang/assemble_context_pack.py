@@ -32,7 +32,6 @@ ALWAYS_INCLUDE = [
     "MULTI-AGENT.md",
 ]
 
-
 def read_task_states() -> dict[str, dict]:
     states: dict[str, dict] = {}
     if not TASKS_PATH.exists():
@@ -48,7 +47,6 @@ def read_task_states() -> dict[str, dict]:
         states[tid].update(rec)
     return states
 
-
 def resolve_globs(patterns: list[str], base: Path) -> list[Path]:
     """Resolve glob patterns relative to base directory."""
     resolved: list[Path] = []
@@ -62,7 +60,6 @@ def resolve_globs(patterns: list[str], base: Path) -> list[Path]:
             if candidate.exists():
                 resolved.append(candidate)
     return resolved
-
 
 def get_chapter_context(ch_id: str) -> tuple[list[str], str | None]:
     """Derive context_files and previous chapter draft from architecture."""
@@ -106,7 +103,6 @@ def get_chapter_context(ch_id: str) -> tuple[list[str], str | None]:
 
     return [], None
 
-
 def copy_to_output(files: list[Path], out_dir: Path, base: Path) -> list[str]:
     """Copy files preserving relative paths. Returns list of relative paths."""
     copied = []
@@ -123,7 +119,6 @@ def copy_to_output(files: list[Path], out_dir: Path, base: Path) -> list[str]:
         copied.append(str(rel))
     return copied
 
-
 def write_manifest(out_dir: Path, copied: list[str], source: str) -> None:
     lines = [
         "# Context Pack Manifest",
@@ -138,7 +133,6 @@ def write_manifest(out_dir: Path, copied: list[str], source: str) -> None:
         lines.append(f"- `{p}`")
     lines.append("")
     (out_dir / "CONTEXT-MANIFEST.md").write_text("\n".join(lines), encoding="utf-8")
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Assemble context pack for a work-jiang task.")
@@ -201,7 +195,6 @@ def main() -> None:
     print(f"Context pack assembled: {len(copied)} file(s) → {out_dir}")
     for p in sorted(copied):
         print(f"  {p}")
-
 
 if __name__ == "__main__":
     main()

@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-17/source-dialogue-works-anthony-aguilar-idf-orders-massive-khiam-lebanon-withdrawal-2026-06-17.md
   - source-archive/statecraft/2026-06-17/source-dialogue-works-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md
 ---
-WORK only; not Record.
 
 # Lebanon Forward Defense × MOU Art. 1 — Pape × Parsi — 2026-06-17
 

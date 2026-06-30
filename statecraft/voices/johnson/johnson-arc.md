@@ -1,6 +1,5 @@
 # arc-johnson-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [johnson-arc.md](johnson-arc.md)
 

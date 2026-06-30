@@ -1,6 +1,5 @@
 # Speaker Lattice
 
-WORK only; not Record.
 
 This is the alphabetical lookup for the recurring interviewees who show up across the cognition streams. It stays limited to active recurrent figures, not one-off names, not writers-only figures, and not workflow labels. It uses `Speakers` as the neutral label instead of `experts` or `voices`.
 

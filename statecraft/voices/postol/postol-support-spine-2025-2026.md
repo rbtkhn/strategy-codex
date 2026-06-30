@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Postol Support Spine 2025-2026
 

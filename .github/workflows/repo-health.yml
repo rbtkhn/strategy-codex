@@ -50,13 +50,23 @@ jobs:
       - name: Generated surface drift (strict)
         run: python3 scripts/check_generated_surfaces.py --check --strict
 
+      - name: Voice guest index builders (--check)
+        run: python3 scripts/check_voice_guest_indexes.py
+
       - name: Transaction term law (strict)
         run: python3 scripts/check_transaction_term_usage.py --strict --skills-strict
 
       - name: Repo Surgeon (strict, all scopes)
         run: python3 scripts/repo_surgeon.py --scope all --strict --verify-portable-skills --max-link-errors 0
 
-      - name: Pytest — repo surgeon and archive boundary
+      - name: Schema validation (prediction)
+        run: python3 scripts/validate_all_schemas.py --scope prediction
+
+      - name: WORK/Record doctrine banner
+        run: python3 scripts/check_work_record_doctrine.py
+
+      - name: Event integrity
+        run: python3 scripts/check_event_integrity.py
         run: |
           python3 -m pytest \
             tests/test_routing_generated.py \

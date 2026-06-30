@@ -13,7 +13,6 @@ archive_links:
   - source-archive/statecraft/2026-06-18/source-judging-freedom-macgregor-israel-the-real-loser-2026-06-18.md
   - source-archive/statecraft/2026-06-18/README.md
 ---
-WORK only; not Record.
 
 # June 18, 2026 MOU Guest-Pair Citation Split
 

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Thucydidean Misfit And Civilizational-State Difference
 

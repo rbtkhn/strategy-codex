@@ -1,6 +1,6 @@
 # Maté Speaker Starter
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Compact starter surface for **Aaron Maté** (The Grayzone) inside the statecraft bench.
 

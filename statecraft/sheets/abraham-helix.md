@@ -1,6 +1,5 @@
 # Abraham Helix
 
-WORK only; not Record.
 
 ## Purpose
 

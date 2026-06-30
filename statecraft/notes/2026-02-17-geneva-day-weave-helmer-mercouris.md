@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-01-20/source-dialogue-works-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md
   - source-archive/statecraft/2026-02-03/source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md
 ---
-WORK only; not Record.
 
 # Feb 17 2026 — Geneva day weave (Helmer × Mercouris)
 

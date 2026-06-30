@@ -18,7 +18,6 @@ synced_by: sync_portable_skills.py
 ---
 # Recursive Learning
 
-**WORK only; not Record.**
 
 **Activation:** `recursive learn` · `recursive-learn` · `RLJ` · `recursive learning` *(legacy)* · `review this session through recursive learning`
 

@@ -4,8 +4,7 @@
 Reads full local captures from the singularity-academy workshop and writes:
   - workshop/longitudinal/innermost-loop.md
   - workshop/longitudinal/innermost-loop-signals.json
-
-WORK only; not Record. This is deterministic rule extraction, not LLM synthesis.
+This is deterministic rule extraction, not LLM synthesis.
 """
 
 from __future__ import annotations
@@ -213,7 +212,6 @@ FRONTS = [
     },
 ]
 
-
 @dataclass(frozen=True)
 class RawCapture:
     day: date
@@ -222,13 +220,11 @@ class RawCapture:
     path: Path
     body: str
 
-
 def _relative(path: Path, root: Path = REPO_ROOT) -> str:
     try:
         return str(path.resolve().relative_to(root.resolve())).replace("\\", "/")
     except ValueError:
         return str(path).replace("\\", "/")
-
 
 def _parse_frontmatter(text: str) -> dict[str, str]:
     if not text.startswith("---\n"):
@@ -244,7 +240,6 @@ def _parse_frontmatter(text: str) -> dict[str, str]:
         out[key.strip()] = value.strip()
     return out
 
-
 def _extract_newsletter_text(text: str) -> str:
     marker = "## Newsletter Text"
     if marker not in text:
@@ -252,7 +247,6 @@ def _extract_newsletter_text(text: str) -> str:
     body = text.split(marker, 1)[1]
     body = re.split(r"\n_Backfilled by ", body, maxsplit=1)[0]
     return _strip_boilerplate(body)
-
 
 def _strip_boilerplate(text: str) -> str:
     cleaned = text
@@ -269,7 +263,6 @@ def _strip_boilerplate(text: str) -> str:
     cleaned = re.sub(r"[ \t\r\f\v]+", " ", cleaned)
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
     return cleaned.strip()
-
 
 def _load_capture(path: Path) -> RawCapture:
     text = path.read_text(encoding="utf-8")
@@ -291,12 +284,10 @@ def _load_capture(path: Path) -> RawCapture:
         body=_extract_newsletter_text(text),
     )
 
-
 def _term_count(text: str, term: str) -> int:
     escaped = re.escape(term.lower()).replace(r"\ ", r"[\s\-]+")
     pattern = rf"(?<![a-z0-9]){escaped}(?![a-z0-9])"
     return len(re.findall(pattern, text.lower()))
-
 
 def _confidence(score: int) -> str:
     if score >= 4:
@@ -307,14 +298,12 @@ def _confidence(score: int) -> str:
         return "low"
     return "none"
 
-
 def _front_note(label: str, confidence: str) -> str:
     if confidence == "high":
         return f"Strong deterministic signal for {label.lower()} in this issue."
     if confidence == "medium":
         return f"Moderate deterministic signal for {label.lower()}; review before synthesis."
     return f"Weak deterministic signal for {label.lower()}; needs review."
-
 
 def classify_capture(capture: RawCapture) -> list[dict[str, object]]:
     detected = []
@@ -341,7 +330,6 @@ def classify_capture(capture: RawCapture) -> list[dict[str, object]]:
         )
     return sorted(detected, key=lambda x: (-int(x["score"]), str(x["label"])))
 
-
 def _date_range_gaps(days: list[date]) -> list[date]:
     if not days:
         return []
@@ -354,7 +342,6 @@ def _date_range_gaps(days: list[date]) -> list[date]:
             out.append(cur)
         cur += timedelta(days=1)
     return out
-
 
 def build_index(raw_root: Path) -> dict[str, object]:
     captures = [_load_capture(path) for path in sorted(raw_root.glob("innermost-loop-*.md"))]
@@ -399,11 +386,9 @@ def build_index(raw_root: Path) -> dict[str, object]:
         "front_timelines": front_timelines,
     }
 
-
 def _md_link_from_out(raw_path: str) -> str:
     filename = Path(raw_path).name
     return f"../../../source-archive/singularity/innermost-loop/{filename}"
-
 
 def _format_fronts(fronts: list[dict[str, object]], limit: int = 4) -> str:
     if not fronts:
@@ -413,10 +398,8 @@ def _format_fronts(fronts: list[dict[str, object]], limit: int = 4) -> str:
         labels.append(f"+{len(fronts) - limit} more")
     return "; ".join(labels)
 
-
 def _stable_fronts(fronts: list[dict[str, object]]) -> list[dict[str, object]]:
     return [front for front in fronts if not bool(front["needs_review"])]
-
 
 def render_markdown(index: dict[str, object]) -> str:
     coverage = dict(index["coverage"])  # type: ignore[arg-type]
@@ -425,8 +408,7 @@ def render_markdown(index: dict[str, object]) -> str:
     lines = [
         "# The Innermost Loop Longitudinal Spine",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         "Deterministic v1 view over local raw captures. Fronts are keyword/rule signals for review, not settled interpretation.",
         "",
         "## Coverage",
@@ -513,7 +495,6 @@ def render_markdown(index: dict[str, object]) -> str:
     )
     return "\n".join(lines)
 
-
 def _replace_or_insert_section(text: str, heading: str, body: str, *, before_heading: str | None = None) -> str:
     pattern = re.compile(rf"(?ms)^## {re.escape(heading)}\n.*?(?=^## |\Z)")
     replacement = f"## {heading}\n\n{body.rstrip()}\n\n"
@@ -523,7 +504,6 @@ def _replace_or_insert_section(text: str, heading: str, body: str, *, before_hea
         idx = text.index(f"## {before_heading}")
         return (text[:idx].rstrip() + "\n\n" + replacement + text[idx:].lstrip()).rstrip() + "\n"
     return text.rstrip() + "\n\n" + replacement
-
 
 def update_readme(readme: Path, *, apply: bool) -> None:
     if not readme.is_file():
@@ -543,7 +523,6 @@ def update_readme(readme: Path, *, apply: bool) -> None:
     else:
         print(f"would update: {_relative(readme)}")
 
-
 def write_outputs(index: dict[str, object], out_dir: Path, *, apply: bool) -> None:
     md_path = out_dir / "innermost-loop.md"
     json_path = out_dir / "innermost-loop-signals.json"
@@ -561,7 +540,6 @@ def write_outputs(index: dict[str, object], out_dir: Path, *, apply: bool) -> No
         path.write_text(content, encoding="utf-8")
         print(f"{'updated' if existed_before else 'wrote'}: {_relative(path)}")
 
-
 def run(*, raw_root: Path, out_dir: Path, readme: Path, apply: bool) -> int:
     index = build_index(raw_root)
     write_outputs(index, out_dir, apply=apply)
@@ -569,7 +547,6 @@ def run(*, raw_root: Path, out_dir: Path, readme: Path, apply: bool) -> int:
     if not apply:
         print("\nDry-run only. Pass --apply to write longitudinal artifacts.")
     return 0
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -584,7 +561,6 @@ def main() -> int:
         readme=args.readme,
         apply=args.apply,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

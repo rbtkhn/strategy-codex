@@ -1,6 +1,5 @@
 # arc-macgregor-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [macgregor-arc.md](macgregor-arc.md)
 

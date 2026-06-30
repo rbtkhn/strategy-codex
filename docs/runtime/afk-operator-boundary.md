@@ -1,6 +1,5 @@
 # AFK vs operator boundary
 
-**Work only; not Record.**
 
 **Purpose:** Separate **operator decision rights** from **scoped automation** so AFK workers and external runtimes do not silently become authority surfaces.
 

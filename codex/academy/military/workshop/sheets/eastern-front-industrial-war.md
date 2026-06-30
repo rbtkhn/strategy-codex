@@ -1,6 +1,5 @@
 # Eastern Front Industrial War
 
-WORK only; not Record.
 
 ## Purpose
 

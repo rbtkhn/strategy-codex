@@ -16,17 +16,14 @@ except ImportError:
 
 from youtube_transcripts.retry import retry_call
 
-
 class YtDlpError(RuntimeError):
     """Normalized yt-dlp execution error."""
-
 
 def watch_url(video_id: str) -> str:
     vid = video_id.strip()
     if not vid:
         raise YtDlpError("missing video id")
     return f"https://www.youtube.com/watch?v={vid}"
-
 
 def normalize_upload_date(raw: str | None) -> str | None:
     text = (raw or "").strip()
@@ -41,18 +38,15 @@ def normalize_upload_date(raw: str | None) -> str | None:
     except ValueError:
         return None
 
-
 def compact_upload_date(raw: str | None) -> str:
     normalized = normalize_upload_date(raw)
     if not normalized:
         return (raw or "").strip()
     return normalized.replace("-", "")
 
-
 def normalize_title(value: object, *, fallback: str = "") -> str:
     text = str(value or "").strip()
     return text or fallback
-
 
 def normalize_duration_seconds(value: object) -> int | None:
     if value is None or value == "":
@@ -61,7 +55,6 @@ def normalize_duration_seconds(value: object) -> int | None:
         return int(value)
     except (TypeError, ValueError):
         return None
-
 
 def caption_language_fields(info: dict[str, object], *, limit: int = 40) -> dict[str, list[str]]:
     manual = info.get("subtitles") or {}
@@ -72,7 +65,6 @@ def caption_language_fields(info: dict[str, object], *, limit: int = 40) -> dict
         "caption_manual_langs": manual_langs[:limit],
         "caption_auto_langs": auto_langs[:limit],
     }
-
 
 def normalize_video_fields(info: dict[str, object], *, fallback_id: str = "") -> dict[str, str]:
     video_id = normalize_title(info.get("id"), fallback=fallback_id)
@@ -88,11 +80,9 @@ def normalize_video_fields(info: dict[str, object], *, fallback_id: str = "") ->
         "url": raw_url or (watch_url(video_id) if video_id else ""),
     }
 
-
 def _require_import_mode() -> None:
     if yt_dlp is None:
         raise YtDlpError("yt-dlp not installed")
-
 
 def _run_import_extract(
     url: str,
@@ -107,13 +97,11 @@ def _run_import_extract(
     except Exception as exc:  # pragma: no cover - exercised through callers
         raise YtDlpError(str(exc) or "yt-dlp failed") from exc
 
-
 def _cookies_from_browser_tuple(value: str | None) -> tuple[str, ...] | None:
     text = (value or "").strip()
     if not text:
         return None
     return tuple(part for part in text.split(":") if part)
-
 
 def _with_cookie_options(
     options: dict[str, Any],
@@ -129,7 +117,6 @@ def _with_cookie_options(
         out["cookiesfrombrowser"] = browser
     return out
 
-
 def _cookie_cli_args(
     *,
     cookies: str | Path | None = None,
@@ -141,7 +128,6 @@ def _cookie_cli_args(
     if cookies_from_browser:
         args.extend(["--cookies-from-browser", cookies_from_browser])
     return args
-
 
 def _parse_json_output(stdout: str) -> dict[str, Any]:
     lines = stdout.strip().splitlines()
@@ -156,7 +142,6 @@ def _parse_json_output(stdout: str) -> dict[str, Any]:
         raise YtDlpError("yt-dlp returned non-object JSON")
     return data
 
-
 def _subprocess_command(
     *args: str,
     mode: str,
@@ -167,7 +152,6 @@ def _subprocess_command(
     if mode == "module":
         return [python_cmd or sys.executable, "-m", "yt_dlp", *args]
     raise ValueError(f"unsupported yt-dlp mode: {mode}")
-
 
 def _run_json_subprocess(
     url: str,
@@ -191,7 +175,6 @@ def _run_json_subprocess(
         raise YtDlpError(proc.stderr.strip() or proc.stdout.strip() or "yt-dlp failed")
     return _parse_json_output(proc.stdout)
 
-
 def get_version(*, mode: str = "binary", python_cmd: str | None = None) -> str:
     cmd = _subprocess_command("--version", mode=mode, python_cmd=python_cmd)
     try:
@@ -201,7 +184,6 @@ def get_version(*, mode: str = "binary", python_cmd: str | None = None) -> str:
     if proc.returncode == 0:
         return proc.stdout.strip() or "unknown"
     return "unknown"
-
 
 def list_videos_flat(
     url: str,
@@ -246,7 +228,6 @@ def list_videos_flat(
 
     return retry_call(_extract, max_attempts=max_attempts)
 
-
 def list_channel_entries_subprocess(
     channel_url: str,
     *,
@@ -280,10 +261,8 @@ def list_channel_entries_subprocess(
         rows.append(row)
     return rows
 
-
 def fetch_video_metadata_import(video_id: str, *, max_attempts: int = 4) -> dict[str, object]:
     return fetch_video_metadata_import_with_auth(video_id, max_attempts=max_attempts)
-
 
 def fetch_video_metadata_import_with_auth(
     video_id: str,
@@ -313,7 +292,6 @@ def fetch_video_metadata_import_with_auth(
 
     return retry_call(_extract, max_attempts=max_attempts)
 
-
 def fetch_video_metadata_subprocess(
     url_or_video_id: str,
     *,
@@ -338,7 +316,6 @@ def fetch_video_metadata_subprocess(
             *_cookie_cli_args(cookies=cookies, cookies_from_browser=cookies_from_browser),
         ],
     )
-
 
 def download_subtitles(
     video_id: str,
@@ -395,7 +372,6 @@ def download_subtitles(
         text = chosen.read_text(encoding="utf-8", errors="replace")
         lang = chosen.stem.replace(video_id, "").strip(".-_") or "unknown"
         return text, kind, lang
-
 
 def download_audio_wav(video_id: str, out_wav: Path) -> None:
     out_dir = out_wav.parent

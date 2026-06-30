@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-24/source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md
   - source-archive/statecraft/2026-03-03/source-dialogue-works-helmer-china-russia-iran-war-nuclear-option-2026-03-03.md
 ---
-WORK only; not Record.
 
 # Mar 24 2026 — Pape × Mercouris wedge (deployments vs gambler's conceit vs talk mirage)
 

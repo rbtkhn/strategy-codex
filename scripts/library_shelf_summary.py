@@ -10,7 +10,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def load_entries(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -45,7 +44,6 @@ def load_entries(path: Path) -> list[dict]:
         )
     return entries
 
-
 SHELF_KEYWORDS = [
     "theology",
     "physics",
@@ -58,7 +56,6 @@ SHELF_KEYWORDS = [
     "mythology",
     "ballet",
 ]
-
 
 def main() -> int:
     p = argparse.ArgumentParser(description="Library shelf summary")
@@ -87,7 +84,6 @@ def main() -> int:
         if len(hits) > 8:
             print(f"    … +{len(hits) - 8} more")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

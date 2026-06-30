@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Baud Source Index (compat redirect)
 

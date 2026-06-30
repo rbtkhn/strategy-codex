@@ -1,6 +1,5 @@
 # arc-jermy-peacemonger-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-jermy-peacemonger-host.md](../../notes/arc-jermy-peacemonger-host.md)
 

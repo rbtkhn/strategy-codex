@@ -85,14 +85,12 @@ def load_probes(probe_id: str | None = None, category: str | None = None) -> lis
         probes = [p for p in probes if p["category"] == category]
     return probes
 
-
 def _avg_sentence_length(text: str) -> float:
     sents = re.split(r"[.!?]+", text)
     sents = [s.strip() for s in sents if s.strip()]
     if not sents:
         return 0.0
     return sum(len(s.split()) for s in sents) / len(sents)
-
 
 def _run_probe(client: OpenAI, model: str, probe: dict) -> str:
     """Call model with SYSTEM_PROMPT + user input; return reply text."""
@@ -106,7 +104,6 @@ def _run_probe(client: OpenAI, model: str, probe: dict) -> str:
         temperature=0.9,
     )
     return r.choices[0].message.content.strip()
-
 
 def evaluate(reply: str, probe: dict) -> tuple[bool, str]:
     """Evaluate reply against probe expected_behavior. Returns (passed, reason)."""
@@ -168,7 +165,6 @@ def evaluate(reply: str, probe: dict) -> tuple[bool, str]:
         return True, "in-character (bilingual ok)"
 
     return False, f"unknown expected_behavior: {expected}"
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run Voice Benchmark Suite")
@@ -246,7 +242,6 @@ def main() -> None:
 
     if failed > 0:
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()

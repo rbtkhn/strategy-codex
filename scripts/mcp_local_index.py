@@ -60,13 +60,11 @@ BANNER = (
     "LOCAL READ-ONLY DIRECTORY INDEX Â· WORK ARTIFACT Â· NO NETWORK Â· NO CREDENTIALS Â· NOT APPROVED INTEGRATION"
 )
 
-
 def load_request(path: Path) -> dict[str, Any]:
     doc = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(doc, dict):
         raise ValueError("request root must be an object")
     return doc
-
 
 def resolve_packet_destination(repo_root: Path, output: Path | None) -> Path:
     bucket = (ARTIFACTS_DIR / "mcp-local-index").resolve()
@@ -88,7 +86,6 @@ def resolve_packet_destination(repo_root: Path, output: Path | None) -> Path:
         raise ValueError("refusing output path under ")
     return resolved
 
-
 def line_count_if_allowed(path: Path, max_bytes: int, want: bool) -> str:
     if not want:
         return ""
@@ -105,7 +102,6 @@ def line_count_if_allowed(path: Path, max_bytes: int, want: bool) -> str:
     text = raw.decode("utf-8", errors="replace")
     return str(len(text.splitlines()))
 
-
 def sha256_if_allowed(path: Path, max_bytes: int, want: bool) -> str:
     if not want:
         return ""
@@ -120,7 +116,6 @@ def sha256_if_allowed(path: Path, max_bytes: int, want: bool) -> str:
     except OSError:
         return ""
     return hashlib.sha256(raw).hexdigest()
-
 
 def collect_entries(
     repo_root: Path,
@@ -252,7 +247,6 @@ def collect_entries(
     walk(indexed_abs, max_depth)
     return rows, skipped
 
-
 def render_markdown(
     req: dict[str, Any],
     *,
@@ -365,7 +359,6 @@ def render_markdown(
         ]
     )
     return "\n".join(lines_out) + "\n"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Local read-only directory index â€” metadata packet + MCP receipt.")
@@ -570,7 +563,6 @@ def main() -> int:
     print(posix_under_repo(root, dest))
     print(posix_under_repo(root, receipt_path))
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -34,20 +34,16 @@ CHANNEL_PATTERNS = [
     re.compile(r"^operator:wap:[a-z0-9]+(?:-[a-z0-9]+)*$"),  # generic slug / artifact (e.g. iran-brief)
 ]
 
-
 def utc_now_iso() -> str:
     return datetime.now(UTC).replace(microsecond=0).isoformat()
-
 
 def _slug(value: str) -> str:
     value = (value or "").strip().lower()
     value = re.sub(r"[^a-z0-9]+", "-", value)
     return value.strip("-")
 
-
 def validate_channel_key(channel_key: str) -> bool:
     return any(p.match(channel_key) for p in CHANNEL_PATTERNS)
-
 
 def classify_jurisdiction(channel_key: str) -> str:
     if channel_key.startswith("operator:wap:intl-"):
@@ -58,29 +54,23 @@ def classify_jurisdiction(channel_key: str) -> str:
         return "us_state"
     return "us_federal"
 
-
 @dataclass
 class PolicyDecision:
     allowed: bool
     reason: str
     requires_review: bool = False
 
-
 class WorkPoliticsError(Exception):
     pass
-
 
 class PolicyViolation(WorkPoliticsError):
     pass
 
-
 class NotFound(WorkPoliticsError):
     pass
 
-
 def _row_to_dict(row: sqlite3.Row) -> dict[str, Any]:
     return {k: row[k] for k in row.keys()}
-
 
 class WorkPoliticsEngine:
     def __init__(self, user_id: str = "grace-mar", repo_root: Optional[Path] = None) -> None:
@@ -608,7 +598,6 @@ class WorkPoliticsEngine:
             "stages": by_stage,
             "total_revenue_usd": round(total_revenue, 2),
         }
-
 
 if __name__ == "__main__":
     import os

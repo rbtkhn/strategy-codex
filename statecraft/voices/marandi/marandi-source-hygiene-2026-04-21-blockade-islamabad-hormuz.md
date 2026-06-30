@@ -1,6 +1,5 @@
 # Marandi source-hygiene note — 2026-04-21 blockade / Islamabad / Hormuz
 
-WORK only; not Record.
 
 **Anchor item:** [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
 **Raw-input SSOT:** [provenance/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md)

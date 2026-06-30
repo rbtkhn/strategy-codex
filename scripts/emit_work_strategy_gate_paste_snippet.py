@@ -24,7 +24,6 @@ from stage_gate_candidate import next_candidate_id  # noqa: E402
 
 DEFAULT_USER = "grace-mar"
 
-
 def build_snippet(
     *,
     user_id: str,
@@ -62,7 +61,6 @@ def build_snippet(
             "",
         ]
     )
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -103,7 +101,6 @@ def main() -> int:
     )
     print(path)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Sachs Support Spine 2025-2026
 

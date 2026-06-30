@@ -22,7 +22,6 @@ TRANSCRIPT_MARKERS = (
     "## Full transcript",
 )
 
-
 @dataclass(frozen=True)
 class Hit:
     path: Path
@@ -33,17 +32,14 @@ class Hit:
     replacement: str
     excerpt: str
 
-
 def load_blocklist(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def transcript_body(text: str) -> str:
     for marker in TRANSCRIPT_MARKERS:
         if marker in text:
             return text.split(marker, 1)[1]
     return text
-
 
 def iter_transcripts(root: Path, slugs: list[str] | None) -> list[Path]:
     volume_ii = root / "book/volume-ii"
@@ -61,11 +57,9 @@ def iter_transcripts(root: Path, slugs: list[str] | None) -> list[Path]:
             paths.append(path)
     return paths
 
-
 def literal_pattern(literal: str) -> re.Pattern[str]:
     """Match standalone ASR tokens, not substrings inside corrected forms."""
     return re.compile(rf"(?<![A-Za-z0-9]){re.escape(literal)}(?![A-Za-z0-9])")
-
 
 def line_hits(
     path: Path,
@@ -103,7 +97,6 @@ def line_hits(
             )
     return hits
 
-
 def format_report(hits: list[Hit], blocklist_path: Path) -> str:
     lines = [
         "PH-CIV transcript proper-noun blocklist: FAIL",
@@ -128,7 +121,6 @@ def format_report(hits: list[Hit], blocklist_path: Path) -> str:
         ]
     )
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -214,7 +206,6 @@ def main() -> int:
         f"{inspected} transcript(s), {len(entries)} pattern(s), {scope}"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

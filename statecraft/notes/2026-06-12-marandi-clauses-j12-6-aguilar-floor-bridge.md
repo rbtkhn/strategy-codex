@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-12/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-12-june-2026-06-12.md
   - source-archive/statecraft/2026-06-12/source-mario-nawfal-parsi-breaking-iran-deal-leaked-2026-06-12.md
 ---
-WORK only; not Record.
 
 # Marandi Clauses × J12-6 × Aguilar FM Floor — Bridge — 2026-06-12
 

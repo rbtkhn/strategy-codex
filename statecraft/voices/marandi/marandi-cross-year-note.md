@@ -1,6 +1,5 @@
 # Marandi cross-year note
 
-WORK only; not Record.
 
 Purpose: clarify where the mature Marandi object really begins and how the shelf should treat `2025-present` continuity without pretending that all captured material has equal arc weight.
 

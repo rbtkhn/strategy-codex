@@ -8,7 +8,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 FORK_CONFIG_PATH = REPO_ROOT / "platform/config" / "fork-config.json"
 
-
 def load_fork_config() -> dict:
     if not FORK_CONFIG_PATH.is_file():
         return {}

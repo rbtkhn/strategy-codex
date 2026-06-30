@@ -1,6 +1,5 @@
 # Empire And Sacred Order
 
-WORK only; not Record.
 
 ## Purpose
 

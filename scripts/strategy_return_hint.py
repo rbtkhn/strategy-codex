@@ -28,7 +28,6 @@ APPEND_MARKERS = (
     "<!-- append below -->",
 )
 
-
 @dataclass(frozen=True)
 class StrategyReturnHint:
     live_seam: str
@@ -58,12 +57,10 @@ class StrategyReturnHint:
             "",
         ]
 
-
 def read_text(path: Path) -> str:
     if not path.is_file():
         return ""
     return path.read_text(encoding="utf-8", errors="replace")
-
 
 def live_accumulator_text(inbox_text: str) -> str:
     """Return the active accumulator body, preferring the explicit append marker."""
@@ -82,13 +79,11 @@ def live_accumulator_text(inbox_text: str) -> str:
         return inbox_text[idx:].strip()
     return inbox_text.strip()
 
-
 def active_chapter_from_status(status_text: str) -> str | None:
     match = re.search(r"\|\s*\*\*Active chapter\*\*\s*\|\s*`?([^`|\s]+)`?\s*\|", status_text)
     if not match:
         return None
     return match.group(1).strip()
-
 
 def resolve_active_days_path(repo_root: Path, active_chapter: str | None) -> Path | None:
     if not active_chapter:
@@ -103,7 +98,6 @@ def resolve_active_days_path(repo_root: Path, active_chapter: str | None) -> Pat
             return path
     return candidates[0]
 
-
 def article_capture_candidate(url: str) -> bool:
     u = url.lower()
     if "watch?v=tbd" in u:
@@ -115,7 +109,6 @@ def article_capture_candidate(url: str) -> bool:
         or ("youtu.be/" in u)
     )
 
-
 def urls_from_text(text: str) -> set[str]:
     found: set[str] = set()
     for match in RE_URL.finditer(text):
@@ -124,10 +117,8 @@ def urls_from_text(text: str) -> set[str]:
             found.add(url)
     return found
 
-
 def normalize_url(url: str) -> str:
     return url.rstrip("/")
-
 
 def source_urls_from_raw(raw_root: Path) -> set[str]:
     out: set[str] = set()
@@ -152,7 +143,6 @@ def source_urls_from_raw(raw_root: Path) -> set[str]:
             break
     return out
 
-
 def raw_input_pointer_rows(live_text: str) -> set[str]:
     """Rows that already point at a source markdown file."""
     out: set[str] = set()
@@ -162,10 +152,8 @@ def raw_input_pointer_rows(live_text: str) -> set[str]:
             out.add(line)
     return out
 
-
 def _url_has_raw_pointer_in_row(url: str, pointer_rows: set[str]) -> bool:
     return any(url in row for row in pointer_rows)
-
 
 def raw_input_gap_urls(live_text: str, raw_root: Path) -> tuple[str, ...]:
     inbox_urls = {u for u in urls_from_text(live_text) if article_capture_candidate(u)}
@@ -187,10 +175,8 @@ def raw_input_gap_urls(live_text: str, raw_root: Path) -> tuple[str, ...]:
             gaps.add(inbox_url)
     return tuple(sorted(gaps))
 
-
 def raw_input_gap_count(live_text: str, raw_root: Path) -> int:
     return len(raw_input_gap_urls(live_text, raw_root))
-
 
 def accumulator_drift_days(accumulator_date: str | None, *, today: date | None = None) -> int | None:
     if accumulator_date is None:
@@ -201,7 +187,6 @@ def accumulator_drift_days(accumulator_date: str | None, *, today: date | None =
     except ValueError:
         return None
     return (today - parsed).days
-
 
 def classify_lines(live_text: str) -> tuple[int, int, int, str]:
     ready = 0
@@ -232,13 +217,11 @@ def classify_lines(live_text: str) -> tuple[int, int, int, str]:
         seam = nonempty[-1] if nonempty else "No live accumulator residue detected."
     return ready, verify, carry, compress_line(seam)
 
-
 def compress_line(line: str, max_len: int = 180) -> str:
     clean = " ".join(line.replace("`", "").split())
     if len(clean) <= max_len:
         return clean
     return clean[: max_len - 1] + "..."
-
 
 def suggested_c_move(*, raw_input_gap: int, verify: int, ready: int) -> str:
     if raw_input_gap:
@@ -248,7 +231,6 @@ def suggested_c_move(*, raw_input_gap: int, verify: int, ready: int) -> str:
     if ready:
         return "compose-read - review synthesis-ready clusters for page/chapter use."
     return "light daily-brief orientation - re-enter gently; no heavy compose signal yet."
-
 
 def build_strategy_return_hint(
     repo_root: Path = REPO_ROOT,
@@ -285,17 +267,14 @@ def build_strategy_return_hint(
         active_days_path=days_rel,
     )
 
-
 def format_strategy_return_lines(repo_root: Path = REPO_ROOT) -> list[str]:
     return build_strategy_return_hint(repo_root).markdown_lines()
-
 
 def configure_utf8_stdio() -> None:
     for stream in (sys.stdout, sys.stderr):
         reconfigure = getattr(stream, "reconfigure", None)
         if callable(reconfigure):
             reconfigure(encoding="utf-8", errors="replace")
-
 
 def main() -> int:
     configure_utf8_stdio()
@@ -304,7 +283,6 @@ def main() -> int:
     args = parser.parse_args()
     print("\n".join(format_strategy_return_lines(args.repo_root)))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -19,11 +19,9 @@ from dataclasses import dataclass
 from datetime import date, datetime
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PROFILE_DIR = REPO_ROOT / "singularity" / "work-cici" / "member-profiles"
 OUTPUT_PATH = PROFILE_DIR / "support-review.md"
-
 
 @dataclass
 class MemberProfile:
@@ -44,16 +42,13 @@ class MemberProfile:
     score: int
     floor_met: bool
 
-
 def _strip_md_link(value: str) -> str:
     m = re.match(r"\[(.*?)\]\((.*?)\)", value.strip())
     return m.group(1) if m else value.strip()
 
-
 def _extract_field(content: str, field: str) -> str:
     m = re.search(rf"^\*\*{re.escape(field)}:\*\*\s*(.+)$", content, re.MULTILINE)
     return m.group(1).strip() if m else ""
-
 
 def _extract_section_text(content: str, heading: str) -> str:
     pattern = rf"^##\s+{re.escape(heading)}\s*$\n(.*?)(?=^##\s+|\Z)"
@@ -62,23 +57,19 @@ def _extract_section_text(content: str, heading: str) -> str:
         return ""
     return m.group(1).strip()
 
-
 def _clean_sentence(text: str) -> str:
     text = re.sub(r"\s+", " ", text).strip()
     if text.endswith("."):
         return text
     return text + "."
 
-
 def _latest_date_from_text(value: str) -> date | None:
     dates = [datetime.strptime(match, "%Y-%m-%d").date() for match in re.findall(r"\d{4}-\d{2}-\d{2}", value)]
     return max(dates) if dates else None
 
-
 def _score_evidence(level: str) -> int:
     mapping = {"A": 30, "B": 20, "C": 10}
     return mapping.get(level.strip().upper(), 0)
-
 
 def _score_recency(last_verified_activity: str) -> int:
     latest = _latest_date_from_text(last_verified_activity)
@@ -95,7 +86,6 @@ def _score_recency(last_verified_activity: str) -> int:
         return 10
     return 0
 
-
 def _score_substance(current_status: str) -> int:
     normalized = current_status.strip().lower()
     if "builder-coordinator" in normalized:
@@ -110,7 +100,6 @@ def _score_substance(current_status: str) -> int:
         return 0
     return 10
 
-
 def _score_clarity(current_status: str, support_reason: str) -> int:
     combined = f"{current_status} {support_reason}".strip().lower()
     if "unresolved" in combined or "unclear" in combined:
@@ -119,7 +108,6 @@ def _score_clarity(current_status: str, support_reason: str) -> int:
         return 10
     return 20
 
-
 def _score_profile(evidence_level: str, last_verified_activity: str, current_status: str, support_reason: str) -> int:
     score = 0
     score += _score_evidence(evidence_level)
@@ -127,7 +115,6 @@ def _score_profile(evidence_level: str, last_verified_activity: str, current_sta
     score += _score_substance(current_status)
     score += _score_clarity(current_status, support_reason)
     return min(score, 100)
-
 
 def parse_profile(path: Path) -> MemberProfile:
     content = path.read_text(encoding="utf-8")
@@ -177,13 +164,11 @@ def parse_profile(path: Path) -> MemberProfile:
         floor_met=floor_met,
     )
 
-
 def load_profiles() -> list[MemberProfile]:
     if not PROFILE_DIR.is_dir():
         return []
     skip = {"README.md", "template.md", "support-review.md", "scoring.md"}
     return [parse_profile(path) for path in sorted(PROFILE_DIR.glob("*.md")) if path.name not in skip]
-
 
 def support_rank(value: str) -> int:
     normalized = value.strip().lower()
@@ -194,7 +179,6 @@ def support_rank(value: str) -> int:
     if normalized.startswith("hold"):
         return 2
     return 3
-
 
 def render_markdown(profiles: list[MemberProfile]) -> str:
     lines: list[str] = []
@@ -228,7 +212,6 @@ def render_markdown(profiles: list[MemberProfile]) -> str:
     lines.append("")
     return "\n".join(lines)
 
-
 def render_telegram(profiles: list[MemberProfile]) -> str:
     ordered = sorted(profiles, key=lambda x: (support_rank(x.support), x.name.lower()))
     lines: list[str] = []
@@ -242,7 +225,6 @@ def render_telegram(profiles: list[MemberProfile]) -> str:
     lines.append(">")
     lines.append("> Keep building, keep work visible on GitHub, and keep the journal updated.")
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate cici-ai support review from member profiles")
@@ -271,7 +253,6 @@ def main() -> int:
     if args.write:
         OUTPUT_PATH.write_text(markdown + "\n", encoding="utf-8")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

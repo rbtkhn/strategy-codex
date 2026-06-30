@@ -1,6 +1,5 @@
 # Academy Open Tensions
 
-WORK only; not Record.
 
 This note preserves unresolved academy shelf distinctions. It is not a doctrine closure. Use it when a shelf starts borrowing another shelf's shape too quickly.
 

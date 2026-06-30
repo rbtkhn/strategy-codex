@@ -20,24 +20,19 @@ ACTION_LABELS = {
 }
 LETTER_TO_ACTION = {letter: action for action, (letter, _label) in ACTION_LABELS.items()}
 
-
 def default_ledger_path(user_id: str) -> Path:
     return resolve_ledger_path(user_id, LEDGER_NAME)
-
 
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-
 def label_for_action(action: str) -> tuple[str, str]:
     return ACTION_LABELS.get(action, ("?", action.title() if action else "Unknown"))
-
 
 def action_for_letter(letter: str | None) -> str:
     if not letter:
         return ""
     return LETTER_TO_ACTION.get(str(letter).strip().upper(), "")
-
 
 def append_learning_event(
     user_id: str,
@@ -58,7 +53,6 @@ def append_learning_event(
         handle.write(json.dumps(row, ensure_ascii=False) + "\n")
     return path
 
-
 def load_learning_events(user_id: str, *, ledger_path: Path | None = None) -> list[dict[str, Any]]:
     path = ledger_path or default_ledger_path(user_id)
     if not path.is_file():
@@ -78,7 +72,6 @@ def load_learning_events(user_id: str, *, ledger_path: Path | None = None) -> li
             rows.append(row)
     return rows
 
-
 def _last_unlinked_dream_stage(events: list[dict[str, Any]]) -> dict[str, Any] | None:
     linked = {
         str(row.get("dream_id"))
@@ -93,7 +86,6 @@ def _last_unlinked_dream_stage(events: list[dict[str, Any]]) -> dict[str, Any] |
             return row
     return None
 
-
 def _last_unresolved_coffee_choice(events: list[dict[str, Any]]) -> dict[str, Any] | None:
     resolved = {
         str(row.get("coffee_id"))
@@ -107,7 +99,6 @@ def _last_unresolved_coffee_choice(events: list[dict[str, Any]]) -> dict[str, An
         if coffee_id and coffee_id not in resolved:
             return row
     return None
-
 
 def log_dream_stage(
     user_id: str,
@@ -134,7 +125,6 @@ def log_dream_stage(
     }
     return append_learning_event(user_id, "dream_stage", payload, ledger_path=ledger_path)
 
-
 def log_coffee_choice_start(
     user_id: str,
     *,
@@ -160,7 +150,6 @@ def log_coffee_choice_start(
     }
     return append_learning_event(user_id, "coffee_choice", payload, ledger_path=ledger_path)
 
-
 def _hindsight_from_close(outcome: str, readiness: str) -> str:
     if outcome == "done" and readiness in {"ship_ready", "execution_ready"}:
         return "validated"
@@ -169,7 +158,6 @@ def _hindsight_from_close(outcome: str, readiness: str) -> str:
     if outcome in {"blocked", "parked"} or readiness == "blocked":
         return "invalidated"
     return "still_open"
-
 
 def _lesson_candidate(actual_action: str, hindsight: str, loops: list[str]) -> str:
     if actual_action == "confirm" and hindsight in {"invalidated", "still_open"}:
@@ -181,7 +169,6 @@ def _lesson_candidate(actual_action: str, hindsight: str, loops: list[str]) -> s
     if actual_action == "reframe" and hindsight == "validated":
         return "Reframing improved the next move. Preserve category repair when the field feels stale."
     return ""
-
 
 def log_coffee_resolution_from_close(
     user_id: str,
@@ -241,7 +228,6 @@ def log_coffee_resolution_from_close(
     }
     return append_learning_event(user_id, "coffee_resolution", payload, ledger_path=ledger_path)
 
-
 def build_pattern_watch(user_id: str, *, ledger_path: Path | None = None) -> dict[str, str] | None:
     events = load_learning_events(user_id, ledger_path=ledger_path)
     resolutions = [row for row in events if row.get("event_type") == "coffee_resolution"]
@@ -275,7 +261,6 @@ def build_pattern_watch(user_id: str, *, ledger_path: Path | None = None) -> dic
             "adjustment": "Recommended adjustment: reframe before inheriting the dream seam again.",
         }
     return None
-
 
 def summarize_learning(user_id: str, *, ledger_path: Path | None = None) -> dict[str, Any]:
     events = load_learning_events(user_id, ledger_path=ledger_path)

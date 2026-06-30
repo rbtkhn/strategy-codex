@@ -1,6 +1,5 @@
 # America Lit
 
-WORK only; not Record.
 
 ## Purpose
 

@@ -1,6 +1,5 @@
 # Macgregor vs Pape comparison note
 
-WORK only; not Record.
 
 Purpose: compare a force-feasibility-heavy speaker and a falsifier-heavy public forecaster on the same Iran pressure terrain without collapsing them into one generic escalation bucket.
 

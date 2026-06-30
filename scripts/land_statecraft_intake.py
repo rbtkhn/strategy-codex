@@ -22,7 +22,6 @@ FORCE_CHUNK_LINES = 80
 DATE_SUFFIX_RE = re.compile(r"-(\d{4}-\d{2}-\d{2})$")
 DAY_DIR_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
-
 def _read_body(body_files: list[Path], body_stdin: bool) -> str:
     parts: list[str] = []
     for bf in body_files:
@@ -34,17 +33,14 @@ def _read_body(body_files: list[Path], body_stdin: bool) -> str:
         raise ValueError("transcript body is empty")
     return body.strip() + "\n"
 
-
 def _slug_from_out(out_path: Path) -> str:
     stem = out_path.stem
     match = DATE_SUFFIX_RE.search(stem)
     return stem[: match.start()] if match else stem
 
-
 def _pub_date_from_out(out_path: Path) -> str | None:
     parent = out_path.parent.name
     return parent if DAY_DIR_RE.match(parent) else None
-
 
 def _detect_family(out_path: Path, explicit: str) -> str:
     if explicit and explicit != "auto":
@@ -59,7 +55,6 @@ def _detect_family(out_path: Path, explicit: str) -> str:
     if "source-mario-nawfal" in name:
         return "nawfal"
     return "generic"
-
 
 def _resolve_sidecar_dir(out_path: Path, slug: str) -> Path:
     candidates = [
@@ -79,7 +74,6 @@ def _resolve_sidecar_dir(out_path: Path, slug: str) -> Path:
     raise RuntimeError(
         f"cannot write sidecar dir (tried {[str(c) for c in candidates]}): {last_err}"
     )
-
 
 def _split_body_chunks(body: str, target_bytes: int = CHUNK_TARGET_BYTES) -> list[str]:
     paragraphs = [p.strip() for p in re.split(r"\n\s*\n", body.strip()) if p.strip()]
@@ -102,7 +96,6 @@ def _split_body_chunks(body: str, target_bytes: int = CHUNK_TARGET_BYTES) -> lis
         chunks.append("\n\n".join(current))
     return chunks
 
-
 def _yaml_quote(value: str) -> str:
     if not value:
         return '""'
@@ -111,14 +104,12 @@ def _yaml_quote(value: str) -> str:
         return f'"{escaped}"'
     return value
 
-
 def _format_display_date(pub_date: str) -> str:
     try:
         dt = datetime.strptime(pub_date, "%Y-%m-%d")
         return dt.strftime("%A, %d %B %Y").replace(" 0", " ")
     except ValueError:
         return pub_date
-
 
 def _build_mercouris_solo_header(
     *,
@@ -173,7 +164,6 @@ editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-ve
 
 """
 
-
 def _needs_chunked_land(body: str, family: str) -> bool:
     if family == "mercouris-solo":
         return True
@@ -181,10 +171,8 @@ def _needs_chunked_land(body: str, family: str) -> bool:
     line_count = body.count("\n") + 1
     return body_bytes >= FORCE_CHUNK_BYTES or line_count >= FORCE_CHUNK_LINES
 
-
 def _resolve_out(path: Path) -> Path:
     return path if path.is_absolute() else REPO_ROOT / path
-
 
 def _print_receipt(
     *,
@@ -209,7 +197,6 @@ def _print_receipt(
     if queue_lines:
         for line in queue_lines[:4]:
             print(f"  {line}")
-
 
 def land_intake(
     *,
@@ -304,7 +291,6 @@ def land_intake(
     )
     return 0
 
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--out", required=True, type=Path, help="Canonical archive output path.")
@@ -322,7 +308,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--keep-sidecars", action="store_true")
     parser.add_argument("--skip-post-land", action="store_true")
     return parser.parse_args()
-
 
 def main() -> int:
     args = parse_args()
@@ -378,7 +363,6 @@ def main() -> int:
         keep_sidecars=args.keep_sidecars,
         skip_post_land=args.skip_post_land,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

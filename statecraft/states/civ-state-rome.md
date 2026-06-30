@@ -1,6 +1,5 @@
 # CIV-STATE Rome
 
-WORK only; not Record.
 
 This is the top-level alias door for the Rome CIV-STATE volume.
 

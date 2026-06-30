@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-16/source-pape-irans-new-battlefield-the-global-2026-03-16.md>
   - source-archive/statecraft/2026-03-16/source-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md>
 ---
-WORK only; not Record.
 
 # Ritter Implementation × Pape Trap × Crooke Mosaic — 2026-03-16
 

@@ -1,6 +1,6 @@
 # America Civilization Objects
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Civilization objects hold America's long authority memory before it becomes current state action. They are not biographies and not transaction drafts. They store the pattern a present carrier must answer to before a settlement can survive.
 

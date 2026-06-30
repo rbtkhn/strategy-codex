@@ -84,14 +84,12 @@ HIGH_EXACT_PATHS = frozenset(
     }
 )
 
-
 def _posix_under_repo(repo_root: Path, path: Path) -> str:
     try:
         rel = path.resolve().relative_to(repo_root.resolve())
     except ValueError:
         return path.as_posix()
     return rel.as_posix()
-
 
 def normalize_path(path_raw: str) -> str:
     """Repo-relative POSIX path for classification."""
@@ -100,7 +98,6 @@ def normalize_path(path_raw: str) -> str:
         s = s[2:]
     parts = [p for p in s.split("/") if p]
     return "/".join(parts)
-
 
 def validate_repo_relative_path(path_raw: str) -> str:
     """Return normalized path or raise ValueError."""
@@ -123,7 +120,6 @@ def validate_repo_relative_path(path_raw: str) -> str:
         raise ValueError("paths may not contain '..'")
     return norm
 
-
 def path_exposes_secrets(norm_lower: str, basename: str) -> bool:
     """True if path looks like secret material (reject intake)."""
     parts = norm_lower.split("/")
@@ -136,7 +132,6 @@ def path_exposes_secrets(norm_lower: str, basename: str) -> bool:
     if basename.endswith(".pem"):
         return True
     return False
-
 
 def classify_risk(norm: str) -> str:
     """Return CRITICAL | HIGH | MEDIUM | LOW."""
@@ -175,18 +170,14 @@ def classify_risk(norm: str) -> str:
 
     return "LOW"
 
-
 def is_record_critical_path(norm: str) -> bool:
     return norm.lower() in RECORD_CRITICAL_PATHS
-
 
 def has_any_critical_risk(norm_paths: list[str]) -> bool:
     return any(classify_risk(p) == "CRITICAL" for p in norm_paths)
 
-
 def has_record_critical_path(norm_paths: list[str]) -> bool:
     return any(is_record_critical_path(p) for p in norm_paths)
-
 
 def gather_strings_for_scan(doc: dict[str, Any]) -> list[str]:
     chunks: list[str] = []
@@ -212,13 +203,11 @@ def gather_strings_for_scan(doc: dict[str, Any]) -> list[str]:
         chunks.append(doc["tests"]["not_run_reason"])
     return chunks
 
-
 def denylist_scan(chunks: list[str], phrases: tuple[str, ...]) -> None:
     blob = "\n".join(chunks).lower()
     for phrase in phrases:
         if phrase in blob:
             raise ValueError(f"input contains disallowed phrase: {phrase!r}")
-
 
 def validate_paths_and_classify(doc: dict[str, Any]) -> list[dict[str, Any]]:
     """Validate each path; return rows with path, norm, change_type, surface_hint, risk."""
@@ -241,7 +230,6 @@ def validate_paths_and_classify(doc: dict[str, Any]) -> list[dict[str, Any]]:
         )
     return rows
 
-
 def tests_warning_needed(doc: dict[str, Any]) -> bool:
     t = doc["tests"]
     claimed = t.get("claimed") or []
@@ -252,7 +240,6 @@ def tests_warning_needed(doc: dict[str, Any]) -> bool:
         return False
     reason = (t.get("not_run_reason") or "").strip()
     return not reason
-
 
 def render_markdown(
     doc: dict[str, Any],
@@ -388,7 +375,6 @@ def render_markdown(
 
     return "\n".join(lines) + "\n"
 
-
 def resolve_packet_destination(repo_root: Path, output: Path | None) -> Path:
     bucket = (ARTIFACTS_DIR / "patch-intake").resolve()
     bucket.mkdir(parents=True, exist_ok=True)
@@ -414,7 +400,6 @@ def resolve_packet_destination(repo_root: Path, output: Path | None) -> Path:
         if p.lower() == "self.md":
             raise ValueError("refusing output path touching self.md")
     return resolved
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -577,7 +562,6 @@ def main() -> int:
     print(_posix_under_repo(root, dest))
     print(_posix_under_repo(root, receipt_path))
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

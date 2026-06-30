@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Disrespect And Distrust Poison Negotiation
 

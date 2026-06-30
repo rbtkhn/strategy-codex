@@ -25,7 +25,6 @@ from grace_mar.observability.metric_contract import WORKFLOW_METRIC_KEY, fill_co
 CLAIMS_PATH = REPO_ROOT / "runtime/artifacts/skill-write/write-claims.json"
 OUT_PATH = REPO_ROOT / "runtime/artifacts/skill-write/write-observability.json"
 
-
 def main() -> int:
     data = json.loads(CLAIMS_PATH.read_text(encoding="utf-8"))
     claims = data.get("claims", [])
@@ -113,7 +112,6 @@ def main() -> int:
     OUT_PATH.write_text(json.dumps(doc, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {OUT_PATH}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

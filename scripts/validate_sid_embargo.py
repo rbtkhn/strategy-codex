@@ -6,7 +6,6 @@ When publishing Situation Brief or synthesis on the same day as public copy,
 
 Allowed values: ``public-ok`` | ``client-only`` | ``internal-only``
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -29,7 +28,6 @@ EMBARGO_VALUES = frozenset({"public-ok", "client-only", "internal-only"})
 DAILY_SYNTHESIS_RE = re.compile(r"^\d{4}-\d{2}-\d{2}\.md$")
 SID_MEMO_MARKER = "sid_deliverable:"
 
-
 def parse_frontmatter(text: str) -> dict[str, str]:
     match = FRONTMATTER_RE.match(text)
     if not match:
@@ -41,7 +39,6 @@ def parse_frontmatter(text: str) -> dict[str, str]:
         key, _, value = line.partition(":")
         fields[key.strip()] = value.strip().strip('"').strip("'")
     return fields
-
 
 def files_to_check(roots: list[Path], require_embargo: bool) -> list[Path]:
     paths: list[Path] = []
@@ -59,7 +56,6 @@ def files_to_check(roots: list[Path], require_embargo: bool) -> list[Path]:
             elif require_embargo and "sid-transaction-memo" in name:
                 paths.append(path)
     return paths
-
 
 def validate_file(path: Path, strict: bool) -> list[str]:
     text = path.read_text(encoding="utf-8")
@@ -85,7 +81,6 @@ def validate_file(path: Path, strict: bool) -> list[str]:
         errors.append(f"invalid embargo {embargo!r}; use {sorted(EMBARGO_VALUES)}")
     return errors
 
-
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -105,7 +100,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="Require embargo frontmatter on daily synthesis files",
     )
     return parser.parse_args(argv)
-
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
@@ -136,7 +130,6 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     print(f"embargo check: OK ({checked} file(s))")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

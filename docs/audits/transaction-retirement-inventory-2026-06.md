@@ -1,6 +1,5 @@
 # Transaction retirement inventory (2026-06)
 
-WORK only; not Record.
 
 SSOT for [transaction terminology retirement](../strategy-codex-redesign-brief.md). Linked from [deprecated-surfaces.md](../deprecated-surfaces.md).
 

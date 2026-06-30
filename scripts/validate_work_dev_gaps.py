@@ -9,14 +9,12 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _validate(path: Path, schema_path: Path) -> None:
     import jsonschema
 
     data = json.loads(path.read_text(encoding="utf-8"))
     schema = json.loads(schema_path.read_text(encoding="utf-8"))
     jsonschema.Draft202012Validator(schema).validate(data)
-
 
 def main() -> int:
     pairs = [
@@ -40,7 +38,6 @@ def main() -> int:
         _validate(data_path, schema_path)
         print(f"ok: {data_path.name}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

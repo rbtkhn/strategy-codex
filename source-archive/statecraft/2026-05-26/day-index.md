@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Andrew Napolitano` (6), `Daniel Davis` (3), `Jiang Xueqin` (3), `Nima Alkhorshid` (3), `Alex Christoforou` (1), `Alexander Mercouris` (1), `Dimitri Lascaris` (1), `Glenn Diesen` (1)
 - Guests: `Scott Ritter` (2), `Seyed M. Marandi` (2), `Alastair Crooke` (1), `Alexander Mercouris` (1), `Chas Freeman` (1), `Doug Macgregor` (1), `Ihab Layf` (1), `John Helmer` (1), `John Mearsheimer` (1), `Larry Johnson` (1), `Lawrence Wilkerson` (1), `Matilda Malle` (1), `Matt Hoh` (1), `Robert Barnes` (1)
-- Threads: `alkorshid` (3), `davis` (3), `jiang` (3), `marandi` (2), `mercouris` (2), `ritter` (2), `alexander-mercouris` (1), `barnes` (1), `christoforou` (1), `crooke` (1), `diesen` (1), `freeman` (1), `helmer` (1), `hoh` (1), `johnson` (1), `lascaris` (1), `macgregor` (1), `mearsheimer` (1), `wilkerson` (1)
+- Threads: `alkhorshid` (3), `davis` (3), `jiang` (3), `marandi` (2), `mercouris` (2), `ritter` (2), `alexander-mercouris` (1), `barnes` (1), `christoforou` (1), `crooke` (1), `diesen` (1), `freeman` (1), `helmer` (1), `hoh` (1), `johnson` (1), `lascaris` (1), `macgregor` (1), `mearsheimer` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -36,9 +36,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [y1u4dBt_kg0](https://www.youtube.com/watch?v=y1u4dBt_kg0) | `source-daniel-davis-col-douglas-macgregor-u-s-strikes-iran-again-2026-05-26.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `ritter` | [MWdKz8O11iM](https://www.youtube.com/watch?v=MWdKz8O11iM) | `source-daniel-davis-scott-ritter-ukraine-the-death-of-a-nation-2026-05-26.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `marandi` | [XBySNPFepvQ](https://www.youtube.com/watch?v=XBySNPFepvQ) | `source-daniel-davis-us-must-stop-the-siege-of-iran-2026-05-26.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `barnes` | [watch](https://www.youtube.com/watch?v=1eAZc0q6MPs) | `source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `helmer` | [watch](https://www.youtube.com/watch?v=ZcgzWcvRHwU) | `source-dialogue-works-helmer-trumps-iran-deal-fails-russias-oreshnik-delivers-final-blow-2026-05-26.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=suOa4WCxFGc) | `source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `barnes` | [watch](https://www.youtube.com/watch?v=1eAZc0q6MPs) | `source-dialogue-works-barnes-us-iran-final-confrontation-as-russia-drops-heaviest-strikes-on-ukraine-yet-2026-05-26.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `helmer` | [watch](https://www.youtube.com/watch?v=ZcgzWcvRHwU) | `source-dialogue-works-helmer-trumps-iran-deal-fails-russias-oreshnik-delivers-final-blow-2026-05-26.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=suOa4WCxFGc) | `source-dialogue-works-marandi-iran-opens-fire-on-american-fighter-jets-2026-05-26.md` |
 | `the-duran` | The Duran | `mercouris`, `christoforou`, `alexander-mercouris` | [watch](https://www.youtube.com/watch?v=yJNkBK4tUtY) | `source-duran-mercouris-pressure-to-walk-away-from-a-good-iran-deal-2026-05-26.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=dja6dkCfngE) | `source-game-theory-28-predictive-history-2026-05-26.md` |
 | `predictive-history` | Predictive History | `jiang` | [watch](https://www.youtube.com/watch?v=otyUpKhpTYM) | `source-gb-11-dantes-revolution-2026-05-26.md` |

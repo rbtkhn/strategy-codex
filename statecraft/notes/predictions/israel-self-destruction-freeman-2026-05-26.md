@@ -7,9 +7,8 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2026-05-26/source-judging-freedom-freeman-israel-humiliates-itself-2026-05-26.md
 speech_act: iterated
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — Israel self-destruction (2026-05-26)
 

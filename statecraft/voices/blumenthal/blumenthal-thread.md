@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `blumenthal`
 <!-- word_count: 4382 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 
@@ -162,7 +161,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 
 # Page Ã¢â‚¬â€ 2026-04-16 Ã¢â‚¬â€ Marandi-primary: Breaking Points Ãƒâ€” Blumenthal (Judging Freedom)
 
-WORK only; not Record.
 
 | Field | Value |
 |--------|--------|
@@ -286,7 +284,6 @@ Pape stacks four public claims in one appearance:
 
 # Page Ã¢â‚¬â€ 2026-04-16 Ã¢â‚¬â€ Pape (Janssen): escalation trap, staged blockade, third-player spoiler
 
-WORK only; not Record.
 
 | Field | Value |
 |--------|--------|

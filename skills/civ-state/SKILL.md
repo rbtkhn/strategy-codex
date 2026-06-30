@@ -16,7 +16,6 @@ tags:
 ---
 # CIV-STATE
 
-**WORK only; not Record.**
 
 **Activation:** `civ-state` · `statecraft civ-state` *(legacy alias)*
 

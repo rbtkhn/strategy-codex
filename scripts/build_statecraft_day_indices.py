@@ -35,7 +35,6 @@ from statecraft_day_archive import (  # noqa: F401 re-exported for tests/importe
 
 MONTH_RE = re.compile(r"^\d{4}-\d{2}$")
 
-
 def _write_text(path: Path, rendered: str, *, check: bool) -> bool:
     existing = path.read_text(encoding="utf-8") if path.exists() else None
     changed = existing != rendered
@@ -51,14 +50,12 @@ def _write_text(path: Path, rendered: str, *, check: bool) -> bool:
             raise
     return changed
 
-
 def write_day_index(day_dir: Path, *, check: bool = False) -> tuple[Path, bool]:
     index_path = day_dir / DAY_INDEX_FILENAME
     readme_path = day_dir / "README.md"
     index_changed = _write_text(index_path, build_day_index(day_dir), check=check)
     stub_changed = _write_text(readme_path, build_day_readme_stub(day_dir), check=check)
     return index_path, index_changed or stub_changed
-
 
 def iter_day_dirs_for_scope(root: Path, *, year: str, month: str | None) -> list[Path]:
     day_dirs = _iter_day_dirs(root, year)
@@ -67,7 +64,6 @@ def iter_day_dirs_for_scope(root: Path, *, year: str, month: str | None) -> list
     if not MONTH_RE.match(month):
         raise ValueError(f"invalid month (expected YYYY-MM): {month}")
     return [path for path in day_dirs if path.name.startswith(f"{month}-")]
-
 
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -81,7 +77,6 @@ def parse_args() -> argparse.Namespace:
         help="Read and compare generated day indices without writing them.",
     )
     return ap.parse_args()
-
 
 def main() -> int:
     args = parse_args()
@@ -119,7 +114,6 @@ def main() -> int:
         return 0
     print(f"wrote {len(changed_paths)} day indices under {root}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

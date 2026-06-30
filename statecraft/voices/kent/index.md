@@ -1,6 +1,5 @@
 # Kent Index
 
-WORK only; not Record.
 
 Purpose: front door for the compact Kent starter shelf inside `statecraft/voices/`.
 

@@ -43,7 +43,6 @@ NOTES_MAP: dict[str, str] = {
     "pros-and-cons": "Review: likely runbook or archived",
 }
 
-
 def _git_mtime(path: Path) -> str | None:
     try:
         result = subprocess.run(
@@ -63,7 +62,6 @@ def _git_mtime(path: Path) -> str | None:
     except OSError:
         return None
 
-
 def _read_skill(path: Path) -> tuple[dict[str, Any] | None, str]:
     try:
         text = path.read_text(encoding="utf-8")
@@ -71,7 +69,6 @@ def _read_skill(path: Path) -> tuple[dict[str, Any] | None, str]:
         return None, ""
     fm, body = _split_frontmatter(text)
     return fm, body
-
 
 def _location(name: str, has_portable: bool, has_cursor: bool, is_draft: bool) -> str:
     if is_draft:
@@ -83,7 +80,6 @@ def _location(name: str, has_portable: bool, has_cursor: bool, is_draft: bool) -
     if has_cursor:
         return "cursor-only"
     return "unknown"
-
 
 def build_inventory() -> list[dict[str, Any]]:
     manifest = _load_manifest_entries()
@@ -161,7 +157,6 @@ def build_inventory() -> list[dict[str, Any]]:
 
     return rows
 
-
 def _md_table(rows: list[dict[str, Any]]) -> str:
     headers = [
         "name", "location", "manifest_listed", "cursor_target", "portable_source",
@@ -186,7 +181,6 @@ def _md_table(rows: list[dict[str, Any]]) -> str:
     lines.append("")
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate skill inventory artifacts.")
     parser.add_argument("--json-only", action="store_true")
@@ -207,7 +201,6 @@ def main() -> int:
         print(f"Wrote {OUTPUT_MD.relative_to(REPO_ROOT)} ({len(rows)} rows)")
     print(f"Wrote {OUTPUT_JSON.relative_to(REPO_ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

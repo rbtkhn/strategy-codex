@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1), `Commodore Steve Jermy` (1), `Lawrence Wilkerson` (1)
-- Threads: `alkorshid` (1), `freeman` (1), `jermy` (1), `mercouris` (1), `wilkerson` (1)
+- Threads: `alkhorshid` (1), `freeman` (1), `jermy` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -34,7 +34,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [Wcrd8lVc7vw](https://www.youtube.com/watch?v=Wcrd8lVc7vw) | `source-alexander-mercouris-kiev-big-defeats-siversk-falls-huliaipole-falling-zelensky-west-in-denia-2025-12-12.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `jermy` | [choJfnHoyXM](https://www.youtube.com/watch?v=choJfnHoyXM) | `source-daniel-davis-oil-drugs-venezuela-colombia-steve-jermy-lt-col-daniel-davis-2025-12-12.md` |
-| `dialogue-works` | Dialogue Works | `freeman`, `wilkerson`, `alkorshid` | [watch](https://www.youtube.com/watch?v=W1h2i5NscpI) | `source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md` |
+| `dialogue-works` | Dialogue Works | `freeman`, `wilkerson`, `alkhorshid` | [watch](https://www.youtube.com/watch?v=W1h2i5NscpI) | `source-dialogue-works-wilkerson-freeman-chain-reaction-2025-12-12.md` |
 
 ## Writer sources
 

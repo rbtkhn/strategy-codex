@@ -6,9 +6,8 @@ date_made: 2025-01-10
 stance: no
 confidence: medium
 source: source-archive/statecraft/2025-01-10/example.md
+status: pending
 ---
-
-WORK only; not Record.
 
 # Mercouris — Odessa administrative control (2025-01-10)
 

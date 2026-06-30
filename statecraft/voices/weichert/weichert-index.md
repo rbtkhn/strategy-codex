@@ -1,6 +1,5 @@
 # Weichert source index
 
-WORK only; not Record.
 
 Purpose: exhaustive canonical route map for Brandon Weichert guest appearances and direct archive anchors on the Weichert shelf.
 

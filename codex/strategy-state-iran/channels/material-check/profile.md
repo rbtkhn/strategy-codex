@@ -33,4 +33,3 @@
 
 [channels README](../README.md) · [clusters/](../../clusters/) (e.g. [hormuz-commercial-passage](../../clusters/hormuz-commercial-passage.md))
 
-WORK only; not Record.

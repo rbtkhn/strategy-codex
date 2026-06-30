@@ -12,7 +12,6 @@ if str(_SCRIPTS_WJ) not in sys.path:
 
 from registry_db import DEFAULT_DB, rebuild_from_jsonl
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -62,7 +61,6 @@ def main() -> int:
     )
     print(f"Rebuilt {args.db or DEFAULT_DB}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

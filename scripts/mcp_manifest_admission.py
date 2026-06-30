@@ -81,13 +81,11 @@ _CANONICAL_RECORD_PATHS = {
     "archive/grace-mar-instance/bot/prompt.py",
 }
 
-
 def _posix_under_repo(repo_root: Path, path: Path) -> str:
     try:
         return path.resolve().relative_to(repo_root.resolve()).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def load_manifest(path: Path) -> dict[str, Any]:
     text = path.read_text(encoding="utf-8")
@@ -98,7 +96,6 @@ def load_manifest(path: Path) -> dict[str, Any]:
     if not isinstance(data, dict):
         raise ValueError("manifest root must be an object")
     return data
-
 
 def validate_path_like_string(s: str, *, ctx: str) -> None:
     """Reject absolute paths and .. segments in manifest strings."""
@@ -116,7 +113,6 @@ def validate_path_like_string(s: str, *, ctx: str) -> None:
     parts = [p for p in norm.split("/") if p]
     if ".." in parts:
         raise ValueError(f"{ctx}: paths must not contain .. ({t!r})")
-
 
 def collect_manifest_strings(doc: dict[str, Any]) -> list[tuple[str, str]]:
     """Return (context, string) pairs to validate as path-like."""
@@ -136,21 +132,17 @@ def collect_manifest_strings(doc: dict[str, Any]) -> list[tuple[str, str]]:
     walk("manifest", doc)
     return out
 
-
 def validate_manifest_paths(doc: dict[str, Any]) -> None:
     """Validate strings that look like filesystem paths (contain slashes or ..)."""
     for ctx, s in collect_manifest_strings(doc):
         if "/" in s or "\\" in s or ".." in s:
             validate_path_like_string(s, ctx=ctx)
 
-
 def caps_by_id(doc: dict[str, Any]) -> dict[str, dict[str, Any]]:
     return {c["id"]: c for c in doc["capabilities"]}
 
-
 def _hay(xs: list[str] | None) -> str:
     return " ".join(xs or []).lower()
-
 
 def _mentions_canonical_record_path(xs: list[str] | None) -> bool:
     for x in xs or []:
@@ -158,7 +150,6 @@ def _mentions_canonical_record_path(xs: list[str] | None) -> bool:
         if norm.startswith("platform/users/grace-mar/") or norm in _CANONICAL_RECORD_PATHS:
             return True
     return False
-
 
 def admission_local_blockers(manifest: dict[str, Any]) -> list[str]:
     """Hard admission rules before registry classification."""
@@ -197,7 +188,6 @@ def admission_local_blockers(manifest: dict[str, Any]) -> list[str]:
         reasons.append("external_memory_write_without_prohibition_alignment")
 
     return reasons
-
 
 def infer_matched_capability_id(manifest: dict[str, Any]) -> tuple[str, str]:
     """
@@ -251,11 +241,9 @@ def infer_matched_capability_id(manifest: dict[str, Any]) -> tuple[str, str]:
 
     return NEEDS_MANUAL, "no confident capability fingerprint"
 
-
 def ph_complete_github(perm: dict[str, Any]) -> bool:
     ph = _hay(perm.get("prohibited_actions"))
     return all(t in ph for t in ("merge_to_main", "force_push", "bypass_review"))
-
 
 def requested_lane_blocked(manifest: dict[str, Any], matched_lane: str) -> str | bool:
     """Return False if OK, else blocker description string."""
@@ -268,7 +256,6 @@ def requested_lane_blocked(manifest: dict[str, Any], matched_lane: str) -> str |
     if LANE_RANK[str(req)] > LANE_RANK[str(matched_lane)]:
         return "requested_output_lane_exceeds_matched_capability_lane"
     return False
-
 
 def overlay_manifest_on_capability(
     base: dict[str, Any],
@@ -302,7 +289,6 @@ def overlay_manifest_on_capability(
 
     return syn
 
-
 def resolve_admission_destination(repo_root: Path, output: Path | None) -> Path:
     bucket = (ARTIFACTS_DIR / "mcp-admission").resolve()
     bucket.mkdir(parents=True, exist_ok=True)
@@ -322,7 +308,6 @@ def resolve_admission_destination(repo_root: Path, output: Path | None) -> Path:
     if len(rp) >= 2 and rp[0].lower() == "platform/users" and rp[1].lower() == "grace-mar":
         raise ValueError("refusing output path under ")
     return resolved
-
 
 def render_markdown(
     manifest: dict[str, Any],
@@ -431,7 +416,6 @@ def render_markdown(
         ]
     )
     return "\n".join(lines) + "\n"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="MCP manifest admission â€” classify manifests without executing MCP.")
@@ -629,7 +613,6 @@ def main() -> int:
     print(_posix_under_repo(root, dest))
     print(_posix_under_repo(root, receipt_path))
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

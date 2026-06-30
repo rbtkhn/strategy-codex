@@ -1,6 +1,5 @@
 # Event system — prediction questions
 
-work only; not Record.
 
 ## Core doctrine
 
@@ -92,10 +91,11 @@ date_made: 2025-03-10
 stance: no
 confidence: medium
 source: source-archive/statecraft/2025-03-10/example.md
+status: pending
 ---
 ```
 
-Required: `event_id`, `speaker`, `date_made`, `stance`, `source`.
+Required: `event_id`, `speaker`, `date_made`, `stance`, `source`, `status` (`pending` | `resolved`).
 
 Allowed stances: `yes`, `no`, `conditional`, `uncertain`.
 
@@ -106,11 +106,14 @@ Prediction notes must **not** be promoted to shelf-native doctrinal notes withou
 ## Validation
 
 ```bash
+python3 scripts/validate_all_schemas.py --scope prediction
 python3 scripts/check_event_integrity.py
 python3 scripts/check_statecraft_notes.py --warn
 ```
 
 ## Related
 
+- [prediction-system.md](prediction-system.md) — lifecycle model
 - [prediction-metrics.md](prediction-metrics.md) — registry and accuracy
 - [prediction-analysis.md](prediction-analysis.md) — disagreement and timeline
+- [schema-system.md](../system/schema-system.md) — registry and validator

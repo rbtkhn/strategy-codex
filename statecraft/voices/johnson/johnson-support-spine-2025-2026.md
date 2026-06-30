@@ -1,6 +1,5 @@
 # Johnson support spine - 2025-2026
 
-WORK only; not Record.
 
 Purpose: give the Johnson shelf a speaker-owned support spine beneath the person arc and above compatibility residue.
 

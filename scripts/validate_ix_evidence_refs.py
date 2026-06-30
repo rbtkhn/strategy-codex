@@ -16,7 +16,6 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 
-
 def _ix_yaml_blocks(self_md: str) -> list[str]:
     out: list[str] = []
     for m in re.finditer(
@@ -25,7 +24,6 @@ def _ix_yaml_blocks(self_md: str) -> list[str]:
         out.append(m.group(1))
     return out
 
-
 def _collect_ids(yaml_chunk: str, key: str) -> set[str]:
     found: set[str] = set()
     for m in re.finditer(rf"^\s*{re.escape(key)}:\s*(\S+)\s*$", yaml_chunk, re.MULTILINE):
@@ -33,7 +31,6 @@ def _collect_ids(yaml_chunk: str, key: str) -> set[str]:
         if val and val.lower() not in ("null", "none"):
             found.add(val)
     return found
-
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
@@ -74,7 +71,6 @@ def main() -> int:
     else:
         print(f"IX evidence refs: {warnings} warning(s) — see docs/we-read-think-self-pipeline.md")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

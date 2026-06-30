@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Moral Resistance Channel Index
 

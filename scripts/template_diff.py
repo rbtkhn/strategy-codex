@@ -36,7 +36,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _default_companion_self_root() -> Path:
     """Prefer GRACE_MAR_COMPANION_SELF, else repo-local companion-self/ (see docs/merging-from-companion-self.md §0)."""
     env = os.environ.get("GRACE_MAR_COMPANION_SELF", "").strip()
@@ -56,7 +55,6 @@ TEMPLATE_FILES_GRACE_MAR = [
     "AGENTS.md",
 ]
 
-
 def _skill_work_files(root: Path) -> list[Path]:
     """List .md and .yaml files under docs/skill-work/ (relative to root)."""
     skill_work = root / "docs" / "skill-work"
@@ -67,7 +65,6 @@ def _skill_work_files(root: Path) -> list[Path]:
         if p.is_file() and p.suffix in (".md", ".yaml", ".txt"):
             out.append(p.relative_to(root))
     return sorted(out)
-
 
 def _ensure_companion_self(path: Path) -> Path:
     """If path doesn't exist, clone companion-self. Returns path."""
@@ -82,7 +79,6 @@ def _ensure_companion_self(path: Path) -> Path:
     )
     return path
 
-
 def _compare_file(template_path: Path, instance_path: Path) -> str:
     """Returns: same | differ | only_template | only_instance."""
     t_exists = template_path.exists()
@@ -96,7 +92,6 @@ def _compare_file(template_path: Path, instance_path: Path) -> str:
     t_content = template_path.read_bytes()
     i_content = instance_path.read_bytes()
     return "same" if t_content == i_content else "differ"
-
 
 def _load_expected_drift(instance_root: Path) -> dict[str, str]:
     """
@@ -122,7 +117,6 @@ def _load_expected_drift(instance_root: Path) -> dict[str, str]:
     except (json.JSONDecodeError, TypeError):
         return {}
 
-
 def _load_manifest_paths(companion_self_root: Path) -> list[str]:
     """Load paths from companion-self template-manifest.json if present."""
     manifest = companion_self_root / "template-manifest.json"
@@ -135,9 +129,7 @@ def _load_manifest_paths(companion_self_root: Path) -> list[str]:
     except (json.JSONDecodeError, KeyError):
         return []
 
-
 LOCKFILE_NAME = "template-sync.lock.json"
-
 
 def _git_blob_sha(file_path: Path) -> str | None:
     """Compute the git blob SHA-1 for a file (same hash git would assign)."""
@@ -147,10 +139,8 @@ def _git_blob_sha(file_path: Path) -> str | None:
     header = f"blob {len(content)}\0".encode()
     return hashlib.sha1(header + content).hexdigest()
 
-
 def _lockfile_path(instance_root: Path) -> Path:
     return instance_root / "docs" / "skill-work" / "work-companion-self" / LOCKFILE_NAME
-
 
 def _load_lockfile(instance_root: Path) -> dict:
     lf = _lockfile_path(instance_root)
@@ -160,7 +150,6 @@ def _load_lockfile(instance_root: Path) -> dict:
         return json.loads(lf.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, TypeError):
         return {}
-
 
 def _write_lockfile(
     instance_root: Path,
@@ -182,7 +171,6 @@ def _write_lockfile(
     lf.parent.mkdir(parents=True, exist_ok=True)
     lf.write_text(json.dumps(lock, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return lf
-
 
 def _diff_direction(
     rel: str,
@@ -209,7 +197,6 @@ def _diff_direction(
     if t_changed and i_changed:
         return "both_moved"
     return "unknown"
-
 
 def run_diff(
     companion_self_root: Path,
@@ -253,7 +240,6 @@ def run_diff(
         result[key] = sorted(set(result[key]))
 
     return result
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(
@@ -420,7 +406,6 @@ def main() -> None:
     if args.output:
         args.output.write_text(out)
     print(out)
-
 
 if __name__ == "__main__":
     main()

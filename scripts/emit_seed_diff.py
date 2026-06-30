@@ -29,7 +29,6 @@ from repo_io import DEFAULT_PROFILE_ID, profile_dir
 
 DEFAULT_USER_ID = DEFAULT_PROFILE_ID
 
-
 def _load_latest(user_id: str) -> dict[str, dict[str, Any]]:
     path = profile_dir(user_id) / "seed-registry.jsonl"
     if not path.exists():
@@ -48,7 +47,6 @@ def _load_latest(user_id: str) -> dict[str, dict[str, Any]]:
             continue
     return latest
 
-
 def _time_span_desc(claim: dict[str, Any]) -> str:
     try:
         fs = datetime.fromisoformat(claim.get("first_seen", ""))
@@ -57,7 +55,6 @@ def _time_span_desc(claim: dict[str, Any]) -> str:
         return f"{days} days"
     except (ValueError, TypeError):
         return "unknown"
-
 
 def _why_it_matters(from_status: str, to_status: str, claim: dict[str, Any]) -> str:
     if to_status == "candidate":
@@ -76,7 +73,6 @@ def _why_it_matters(from_status: str, to_status: str, claim: dict[str, Any]) -> 
         return "strengthening — multiple independent sources support this observation"
     return f"status changed from {from_status} to {to_status}"
 
-
 def _recommended_action(to_status: str, claim: dict[str, Any]) -> str:
     if to_status == "candidate":
         return "accept"
@@ -89,7 +85,6 @@ def _recommended_action(to_status: str, claim: dict[str, Any]) -> str:
     if to_status == "promoted":
         return "accept"
     return "defer"
-
 
 def build_seed_diff(
     claim: dict[str, Any],
@@ -137,7 +132,6 @@ def build_seed_diff(
         "whyItMatters": _why_it_matters(from_status, to_status, claim),
     }
 
-
 def write_diff(user_id: str, diff: dict[str, Any]) -> Path:
     """Write the diff JSON to the review-queue diffs directory."""
     diffs_dir = profile_dir(user_id) / "archive/queues/review-queue" / "diffs"
@@ -146,7 +140,6 @@ def write_diff(user_id: str, diff: dict[str, Any]) -> Path:
     path = diffs_dir / filename
     path.write_text(json.dumps(diff, indent=2) + "\n", encoding="utf-8")
     return path
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Emit a seed diff on status change.")
@@ -174,7 +167,6 @@ def main() -> int:
         print(f"Wrote seed diff: {path.relative_to(REPO_ROOT)}")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -52,14 +52,12 @@ CANONICAL_APPROVAL_DENYLIST = (
     "written to self-archive without companion approval",
 )
 
-
 def _posix_under_repo(repo_root: Path, path: Path) -> str:
     try:
         rel = path.resolve().relative_to(repo_root.resolve())
     except ValueError:
         return path.as_posix()
     return rel.as_posix()
-
 
 def validate_extra_rules(doc: dict[str, Any]) -> None:
     """Cross-field checks after JSON Schema."""
@@ -71,7 +69,6 @@ def validate_extra_rules(doc: dict[str, Any]) -> None:
                     f"candidate_claims[{i}].supporting_sources references unknown source_id {sid!r}"
                 )
 
-
 def denylist_scan(*chunks: str) -> None:
     blob = "\n".join(chunks).lower()
     for phrase in CANONICAL_APPROVAL_DENYLIST:
@@ -79,7 +76,6 @@ def denylist_scan(*chunks: str) -> None:
             raise ValueError(
                 f"input contains disallowed phrase suggesting canonical approval: {phrase!r}"
             )
-
 
 def resolve_stub_destination(
     repo_root: Path,
@@ -113,7 +109,6 @@ def resolve_stub_destination(
             raise ValueError("refusing output path touching self.md")
     return resolved
 
-
 def gather_user_strings(doc: dict[str, Any]) -> list[str]:
     chunks = [doc["topic"], doc["operator_intent"]]
     for s in doc["sources"]:
@@ -126,7 +121,6 @@ def gather_user_strings(doc: dict[str, Any]) -> list[str]:
         chunks.append(c["claim"])
     chunks.extend(doc.get("risks_or_uncertainties") or [])
     return chunks
-
 
 def render_markdown(
     doc: dict[str, Any],
@@ -218,7 +212,6 @@ def render_markdown(
         ]
     )
     return "\n".join(lines) + "\n"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -369,7 +362,6 @@ def main() -> int:
     print(_posix_under_repo(root, dest))
     print(_posix_under_repo(root, receipt_path))
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

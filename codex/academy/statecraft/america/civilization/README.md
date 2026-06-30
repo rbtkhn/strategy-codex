@@ -1,6 +1,6 @@
 # America Civilization
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: name the inherited American code that any durable America-lane instrument must respect, even if the current United States fractures, reforms, or gives way to a successor continental authority.
 

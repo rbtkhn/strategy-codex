@@ -1,4 +1,4 @@
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 # India and Global Left
 

@@ -1,6 +1,5 @@
 # Why Archive Truth Now Matters More - 2026-06-01
 
-work only; not Record.
 
 There is a simple reason the open statecraft transcript-repair seam matters so
 much now:

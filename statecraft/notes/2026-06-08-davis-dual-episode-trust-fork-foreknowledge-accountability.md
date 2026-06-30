@@ -18,7 +18,6 @@ archive_links:
 ---
 # Davis Dual Episode — Trust Fork × Foreknowledge Accountability
 
-WORK only; not Record.
 
 **Parent:** [2026-06-08 daily](../synthesis/day/2026-06-08.md) · [Davis trust fork × Johnson](2026-06-08-davis-trust-fork-johnson-islamabad-larijani-doctrine.md) · [Davis Lebanon fulcrum × Crooke](2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
 

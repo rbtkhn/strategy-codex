@@ -1,6 +1,5 @@
 # Russia God
 
-WORK only; not Record.
 
 ## Purpose
 

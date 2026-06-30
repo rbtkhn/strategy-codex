@@ -59,7 +59,6 @@ SOPHISTICATED_BLOCKLIST = [
     "approximately", "significant", "demonstrate", "utilize",
 ]
 
-
 def load_probes(
     probe_id: str | None = None, category: str | None = None
 ) -> list[dict]:
@@ -73,14 +72,12 @@ def load_probes(
         probes = [p for p in probes if p["category"] == category]
     return probes
 
-
 def _avg_sentence_length(text: str) -> float:
     sents = re.split(r"[.!?]+", text)
     sents = [s.strip() for s in sents if s.strip()]
     if not sents:
         return 0.0
     return sum(len(s.split()) for s in sents) / len(sents)
-
 
 def _run_probe(client: OpenAI, model: str, probe: dict) -> str:
     r = client.chat.completions.create(
@@ -94,7 +91,6 @@ def _run_probe(client: OpenAI, model: str, probe: dict) -> str:
     )
     return r.choices[0].message.content.strip()
 
-
 def _check_committed(reply_lower: str, markers: dict) -> tuple[bool, str]:
     """Check whether the Voice committed to a choice rather than hedging."""
     hedge = markers.get("hedge_phrases", [])
@@ -104,7 +100,6 @@ def _check_committed(reply_lower: str, markers: dict) -> tuple[bool, str]:
     if len(reply_lower) < 15:
         return False, "reply too short to contain a commitment"
     return True, "committed to a response"
-
 
 def _check_trait_aligned(
     reply_lower: str, probe: dict
@@ -133,7 +128,6 @@ def _check_trait_aligned(
 
     return None, f"unknown expected_behavior: {expected_behavior}"
 
-
 def _check_tension_preserved(
     reply_lower: str, probe: dict
 ) -> tuple[bool | None, str]:
@@ -159,7 +153,6 @@ def _check_tension_preserved(
         return False, f"only {which} present — tension collapsed to one side"
     return None, "no tension markers detected (inconclusive)"
 
-
 def _check_age_appropriate(reply: str) -> tuple[bool, str]:
     reply_lower = reply.lower()
     found = [w for w in SOPHISTICATED_BLOCKLIST if w in reply_lower]
@@ -172,7 +165,6 @@ def _check_age_appropriate(reply: str) -> tuple[bool, str]:
     if avg > 20.0:
         return False, f"avg sentence length {avg:.1f} (target ≤20)"
     return True, f"age-appropriate, avg {avg:.1f} words/sentence"
-
 
 def evaluate(reply: str, probe: dict) -> tuple[str, dict[str, tuple]]:
     """
@@ -219,7 +211,6 @@ def evaluate(reply: str, probe: dict) -> tuple[str, dict[str, tuple]]:
         return "partial", dims
 
     return "partial", dims
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run Judgment Probe Suite")
@@ -354,7 +345,6 @@ def main() -> None:
 
     if counts["fail"] > 0:
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()

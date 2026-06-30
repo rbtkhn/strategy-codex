@@ -24,7 +24,6 @@ JSONL = (
 )
 MARKER = "<!-- END_ROUNDS -->"
 
-
 def main() -> None:
     if len(sys.argv) != 2:
         sys.exit("usage: append_prefix_only_blind_round.py '<json>' <stdin markdown>")
@@ -37,7 +36,6 @@ def main() -> None:
     BLIND.write_text(text, encoding="utf-8")
     with JSONL.open("a", encoding="utf-8") as f:
         f.write(json.dumps(row, ensure_ascii=False) + "\n")
-
 
 if __name__ == "__main__":
     main()

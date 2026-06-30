@@ -16,7 +16,6 @@ PREDICTIONS_PATH = WORK_JIANG / "prediction-tracking" / "registry" / "prediction
 PATTERN_ID_RE = re.compile(r"^pat-\d{4,}$")
 PREDICTION_ID_RE = re.compile(r"^jiang-[A-Za-z0-9]+-\d{3}$")
 
-
 def load_jsonl(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -28,7 +27,6 @@ def load_jsonl(path: Path) -> list[dict]:
         rows.append(json.loads(line))
     return rows
 
-
 def load_prediction_ids() -> set[str]:
     ids: set[str] = set()
     for row in load_jsonl(PREDICTIONS_PATH):
@@ -36,7 +34,6 @@ def load_prediction_ids() -> set[str]:
         if isinstance(pid, str) and pid:
             ids.add(pid)
     return ids
-
 
 def validate_patterns(
     patterns: list[dict],
@@ -180,12 +177,10 @@ def validate_patterns(
 
     return errors, warnings
 
-
 def run_validation() -> tuple[list[str], list[str]]:
     patterns = load_jsonl(PATTERNS_PATH)
     pred_ids = load_prediction_ids()
     return validate_patterns(patterns, pred_ids)
-
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
@@ -211,7 +206,6 @@ def main() -> int:
         if not errors and not warnings:
             print(f"OK — {PATTERNS_PATH.relative_to(ROOT)}")
     return 1 if errors else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -98,7 +98,6 @@ FORBIDDEN_AUTHORITY_PHRASES = [
 
 WARN_DISPLAY_CAP = 5
 
-
 def _split_frontmatter(text: str) -> tuple[dict[str, Any] | None, str]:
     if not text.startswith("---"):
         return None, text
@@ -115,7 +114,6 @@ def _split_frontmatter(text: str) -> tuple[dict[str, Any] | None, str]:
     if not isinstance(fm, dict):
         return None, body
     return fm, body
-
 
 def _parse_frontmatter_legacy(path_or_text: str | Path) -> dict[str, Any] | None:
     if isinstance(path_or_text, Path):
@@ -155,7 +153,6 @@ def _parse_frontmatter_legacy(path_or_text: str | Path) -> dict[str, Any] | None
             result[key] = val
     return result
 
-
 def _parse_frontmatter(path: Path) -> dict[str, Any] | None:
     try:
         text = path.read_text(encoding="utf-8")
@@ -164,10 +161,8 @@ def _parse_frontmatter(path: Path) -> dict[str, Any] | None:
     fm, _ = _split_frontmatter(text)
     return fm
 
-
 def _has_verification_section(body: str) -> bool:
     return VERIFICATION_HEADING.lower() in body.lower()
-
 
 def _load_manifest_entries() -> dict[str, dict[str, Any]]:
     manifest_path = REPO_ROOT / MANIFEST_FILE
@@ -188,7 +183,6 @@ def _load_manifest_entries() -> dict[str, dict[str, Any]]:
                 out[str(entry["name"])] = entry
     return out
 
-
 def _load_manifest_names_legacy() -> set[str]:
     manifest_path = REPO_ROOT / MANIFEST_FILE
     if not manifest_path.exists():
@@ -199,13 +193,11 @@ def _load_manifest_names_legacy() -> set[str]:
         names.add(m.group(1).strip())
     return names
 
-
 def _cursor_skill_dirs() -> list[Path]:
     base = REPO_ROOT / CURSOR_SKILLS_DIR
     if not base.exists():
         return []
     return sorted(d for d in base.iterdir() if d.is_dir() and (d / "SKILL.md").exists())
-
 
 def _portable_skill_dirs() -> list[Path]:
     base = REPO_ROOT / PORTABLE_SKILLS_DIR
@@ -217,20 +209,17 @@ def _portable_skill_dirs() -> list[Path]:
         if d.is_dir() and not d.name.startswith("_") and d.name != "runbooks" and (d / "SKILL.md").exists()
     )
 
-
 def _draft_skill_paths() -> list[Path]:
     base = REPO_ROOT / PORTABLE_SKILLS_DIR / "_drafts"
     if not base.exists():
         return []
     return sorted(p / "SKILL.md" for p in base.iterdir() if p.is_dir() and (p / "SKILL.md").exists())
 
-
 def _all_cursor_skill_names() -> set[str]:
     base = REPO_ROOT / CURSOR_SKILLS_DIR
     if not base.exists():
         return set()
     return {d.name for d in base.iterdir() if d.is_dir() and (d / "SKILL.md").exists()}
-
 
 def _skill_exists(name: str, manifest_names: set[str], cursor_names: set[str] | None = None) -> bool:
     if name in manifest_names:
@@ -239,12 +228,10 @@ def _skill_exists(name: str, manifest_names: set[str], cursor_names: set[str] | 
         return True
     return (REPO_ROOT / PORTABLE_SKILLS_DIR / name / "SKILL.md").is_file()
 
-
 def _replacement_valid(name: str, manifest_names: set[str], cursor_names: set[str]) -> bool:
     if name in SPECIAL_REPLACEMENTS:
         return True
     return _skill_exists(name, manifest_names, cursor_names)
-
 
 def _check_consolidation_metadata(
     errors: list[dict[str, str]],
@@ -326,7 +313,6 @@ def _check_consolidation_metadata(
                     "message": f"Active skill must not claim authority: contains {phrase!r}",
                 })
 
-
 def _check_synced_cursor_target(
     errors: list[dict[str, str]],
     *,
@@ -348,7 +334,6 @@ def _check_synced_cursor_target(
             "message": f"Manifest skill '{name}' cursor target missing synced_by: {SYNC_MARKER}",
         })
 
-
 def _check_draft_age(errors: list[dict[str, str]], path: Path) -> None:
     import datetime as dt
 
@@ -364,7 +349,6 @@ def _check_draft_age(errors: list[dict[str, str]], path: Path) -> None:
             "level": "info",
             "message": f"Draft older than {DRAFT_MAX_AGE_DAYS} days ({age_days}d) — promote, merge, archive, or renew",
         })
-
 
 def _check_scope_class(
     errors: list[dict[str, str]],
@@ -408,7 +392,6 @@ def _check_scope_class(
                     "message": f"public-portable body contains forbidden substring {sub!r}",
                 })
 
-
 def _check_verification(
     errors: list[dict[str, str]],
     *,
@@ -439,13 +422,11 @@ def _check_verification(
         "message": f"Missing {VERIFICATION_HEADING} section",
     })
 
-
 def _runbook_paths() -> list[Path]:
     base = REPO_ROOT / RUNBOOKS_DIR
     if not base.exists():
         return []
     return sorted(base.glob("*.runbook.md"))
-
 
 def _section_headings(body: str) -> set[str]:
     headings: set[str] = set()
@@ -454,7 +435,6 @@ def _section_headings(body: str) -> set[str]:
         if m:
             headings.add(m.group(1).strip().lower())
     return headings
-
 
 def validate_runbooks(
     errors: list[dict[str, str]],
@@ -533,7 +513,6 @@ def validate_runbooks(
                     "level": "error",
                     "message": f"Missing required section: {section.title()}",
                 })
-
 
 def validate(
     *,
@@ -713,7 +692,6 @@ def validate(
 
     return errors
 
-
 def _count_by_level(errors: list[dict[str, str]]) -> dict[str, int]:
     counts = {"error": 0, "warn": 0, "info": 0}
     for e in errors:
@@ -721,7 +699,6 @@ def _count_by_level(errors: list[dict[str, str]]) -> dict[str, int]:
         if level in counts:
             counts[level] += 1
     return counts
-
 
 def format_text(errors: list[dict[str, str]], *, cap: int = WARN_DISPLAY_CAP) -> str:
     if not errors:
@@ -754,7 +731,6 @@ def format_text(errors: list[dict[str, str]], *, cap: int = WARN_DISPLAY_CAP) ->
         f"\n{len(errors)} issue(s): {counts['error']} error(s), {counts['warn']} warn(s), {counts['info']} info(s)."
     )
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate skill metadata.")
@@ -789,7 +765,6 @@ def main() -> int:
         print(format_text(errors))
 
     return 1 if counts["error"] > 0 else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

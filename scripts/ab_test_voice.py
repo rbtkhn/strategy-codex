@@ -30,11 +30,9 @@ DEFAULT_PROMPTS = [
     "What makes you happy?",
 ]
 
-
 def get_response(channel_key: str, message: str) -> str:
     from bot.core import get_response as _get_response
     return _get_response(channel_key, message)
-
 
 def judge_reply(prompt: str, reply: str) -> dict:
     """Use LLM to score voice fidelity (1-5) and optional short reason. Returns {score, reason}."""
@@ -64,7 +62,6 @@ def judge_reply(prompt: str, reply: str) -> dict:
         return {"score": score, "reason": reason}
     except Exception as e:
         return {"score": None, "reason": str(e)}
-
 
 def main() -> int:
     import argparse
@@ -104,7 +101,6 @@ def main() -> int:
     out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Wrote {out_path}", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

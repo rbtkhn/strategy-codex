@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # CIV-STATE Dependency Inventory
 

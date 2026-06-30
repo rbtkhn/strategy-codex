@@ -1,6 +1,6 @@
 # America Authority Carrier Objects
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Use this bench for American vice presidents, cabinet figures, congressional leaders, military commanders, party figures, diplomats, and institutional offices that carry state intent across raw-inputs. These are not biographies. They are compact statecraft objects for tracking whether American policy has a credible carrier beyond presidential impulse, donor pressure, crisis theater, or factional drift.
 

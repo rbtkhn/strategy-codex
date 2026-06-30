@@ -1,6 +1,5 @@
 # Napoleon And Overextension
 
-WORK only; not Record.
 
 ## Purpose
 

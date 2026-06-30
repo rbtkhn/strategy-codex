@@ -1,6 +1,6 @@
 # Theory (workshop pointer)
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 **Canonical ship-bound theory shelf:** [`public/civ-state/theory/`](../../../public/civ-state/theory/README.md)
 

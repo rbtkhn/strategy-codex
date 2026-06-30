@@ -1,6 +1,5 @@
 # China Peace
 
-WORK only; not Record.
 
 ## Purpose
 

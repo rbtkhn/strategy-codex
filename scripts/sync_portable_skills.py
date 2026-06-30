@@ -26,7 +26,6 @@ from yaml_compat import safe_dump, safe_load_path, safe_load_text
 _MANIFEST = _REPO / "skills" / "manifest.yaml"
 _GENERATOR = "sync_portable_skills.py"
 
-
 def _reject_unsupported_yaml_subset(text: str) -> None:
     unsupported_patterns = (
         (r"(?m)^\s*[^#\n][^:\n]*:\s*[>|]", "block scalars"),
@@ -45,7 +44,6 @@ def _reject_unsupported_yaml_subset(text: str) -> None:
                 "Use plain scalars, nested maps, and nested lists only."
             )
 
-
 def _parse_scalar(value: str):
     value = value.strip()
     if not value:
@@ -60,7 +58,6 @@ def _parse_scalar(value: str):
     if low == "false":
         return False
     return value
-
 
 def _parse_yaml_subset(text: str):
     _reject_unsupported_yaml_subset(text)
@@ -159,7 +156,6 @@ def _parse_yaml_subset(text: str):
     parsed, _ = parse_block(0, 0)
     return parsed
 
-
 def _dump_yaml_subset(data, *, indent: int = 0) -> str:
     def format_scalar(value):
         if isinstance(value, bool):
@@ -224,7 +220,6 @@ def _dump_yaml_subset(data, *, indent: int = 0) -> str:
                 lines.append(f"{pad}- {format_scalar(item)}")
     return "\n".join(lines)
 
-
 def _load_yaml(path: Path) -> dict:
     def _is_manifest_shape(data: object) -> bool:
         if not isinstance(data, dict):
@@ -243,7 +238,6 @@ def _load_yaml(path: Path) -> dict:
             raise
         data = _parse_yaml_subset(path.read_text(encoding="utf-8"))
     return data if isinstance(data, dict) else {}
-
 
 def _split_frontmatter(text: str) -> tuple[dict, str]:
     if not text.startswith("---"):
@@ -265,7 +259,6 @@ def _split_frontmatter(text: str) -> tuple[dict, str]:
         print(f"YAML frontmatter parse error: {e}", file=sys.stderr)
         sys.exit(1)
 
-
 def _dump_frontmatter(meta: dict) -> str:
     # Wide width so `description` stays one physical line (hosts break on wrapped YAML).
     try:
@@ -283,14 +276,12 @@ def _dump_frontmatter(meta: dict) -> str:
         s = _dump_yaml_subset(meta).rstrip()
     return f"---\n{s}\n---\n"
 
-
 def _verify_skill(portable_body: str, forbidden: list[str], skill_name: str) -> list[str]:
     errs: list[str] = []
     for sub in forbidden:
         if sub in portable_body:
             errs.append(f"{skill_name}: portable body must not contain {sub!r}")
     return errs
-
 
 def _verify_description_one_line(meta: dict, skill_name: str) -> list[str]:
     errs: list[str] = []
@@ -302,7 +293,6 @@ def _verify_description_one_line(meta: dict, skill_name: str) -> list[str]:
     if "\n" in d:
         errs.append(f"{skill_name}: description must be a single line (contains newline)")
     return errs
-
 
 def sync_one(
     entry: dict,
@@ -362,7 +352,6 @@ def sync_one(
     print(f"Wrote {tgt}")
     return "ok", []
 
-
 def main() -> int:
     p = argparse.ArgumentParser(description="Assemble Cursor skills from skills/.")
     p.add_argument("--dry-run", action="store_true", help="Print actions only")
@@ -397,7 +386,6 @@ def main() -> int:
     if args.verify:
         print("verify: OK")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

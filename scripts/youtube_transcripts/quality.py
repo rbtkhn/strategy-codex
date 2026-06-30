@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-
 def compute_quality(
     text: str,
     duration_seconds: float | None,
@@ -29,7 +28,6 @@ def compute_quality(
     density = 1.0 if not text else min(1.0, len(text.strip()) / 50.0)
     score = base * (0.55 + 0.45 * cov_factor) * (0.75 + 0.25 * density)
     return max(0.0, min(1.0, score))
-
 
 def tier_from_parts(source_tier: str, sub_kind: str | None) -> str:
     if source_tier == "ytdlp":

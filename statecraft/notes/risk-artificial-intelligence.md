@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-05-30/source-glenn-diesen-alastair-crooke-iran-war-resets-the-geopolitics-of-the-world-2026-05-30.md
   - source-archive/singularity/moonshots/moonshots-265-spacex-ipo-anthropic-export-control-2026-06-19.md
 ---
-WORK only; not Record.
 
 # Risk — artificial intelligence (corpus register)
 

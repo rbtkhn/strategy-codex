@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Scaffold ``### Pages / Work Product`` indexes in expert thread files.
 
-WORK only; not Record.
-
 Default mode is a dry run that prints the entries that should exist. ``--apply``
 inserts a missing section or appends missing entries without editing page bodies
 or existing thread prose.
@@ -33,7 +31,6 @@ from validate_strategy_page_thread_links import (  # noqa: E402
     repo_rel,
 )
 
-
 def relative_link(from_file: Path, to_file: Path) -> str:
     return Path(
         Path(".").joinpath(
@@ -43,7 +40,6 @@ def relative_link(from_file: Path, to_file: Path) -> str:
         )
     ).as_posix()
 
-
 def rel_link_portable(from_file: Path, to_file: Path) -> str:
     try:
         import os
@@ -51,7 +47,6 @@ def rel_link_portable(from_file: Path, to_file: Path) -> str:
         return Path(os.path.relpath(to_file.resolve(), from_file.parent.resolve())).as_posix()
     except ValueError:
         return repo_rel(to_file)
-
 
 def entry_for(page: PageInfo, thread_file: Path) -> str:
     role = clean_inline(page.fields.get("thread_role", "")) or "carry-forward"
@@ -64,14 +59,11 @@ def entry_for(page: PageInfo, thread_file: Path) -> str:
         f"  delta: {delta}"
     )
 
-
 def section_for(entries: list[str]) -> str:
     return "### Pages / Work Product\n\n" + "\n".join(entries).rstrip() + "\n"
 
-
 def find_month_heading(text: str, month: str) -> re.Match[str] | None:
     return re.search(rf"^##\s+{re.escape(month)}\s*$", human_layer(text), re.MULTILINE)
-
 
 def insert_or_append(thread_file: Path, month: str, entries: list[str]) -> str:
     text = thread_file.read_text(encoding="utf-8", errors="replace")
@@ -97,7 +89,6 @@ def insert_or_append(thread_file: Path, month: str, entries: list[str]) -> str:
     # Monthly files may begin with the machine marker and no human month heading yet.
     prefix = f"## {month}\n\n" + section_for(entries) + "\n"
     return prefix + text
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -148,7 +139,6 @@ def main() -> int:
             thread_file.write_text(text, encoding="utf-8")
         print(f"updated {repo_rel(thread_file)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -21,7 +21,6 @@ from yaml_compat import safe_load_path
 DEFAULT_LOG = REPO_ROOT / "runtime" / "autonomy" / "shadow_decisions.jsonl"
 DEFAULT_THRESHOLDS = REPO_ROOT / "docs" / "skill-work" / "work-dev" / "autonomy" / "tier_thresholds.yaml"
 
-
 def shadow_autonomy_snapshot(
     repo_root: Path,
     *,
@@ -50,7 +49,6 @@ def shadow_autonomy_snapshot(
         out["tier_status"] = "error"
     return out
 
-
 def format_autonomy_warmup_line(repo_root: Path | None = None) -> str | None:
     """One line for harness warmup when a non-empty shadow log exists; else None."""
     root = repo_root or REPO_ROOT
@@ -61,7 +59,6 @@ def format_autonomy_warmup_line(repo_root: Path | None = None) -> str | None:
     t = snap["tier_status"]
     prof = snap["platform/profile"]
     return f"Autonomy (GAP-007): {t} · {n} shadow lines · profile {prof}"
-
 
 def load_tier_config(thresholds_path: Path, profile: str) -> dict[str, Any]:
     raw = safe_load_path(
@@ -78,7 +75,6 @@ def load_tier_config(thresholds_path: Path, profile: str) -> dict[str, Any]:
         "max_high_risk_violations_in_window": int(cfg["max_high_risk_violations_in_window"]),
         "window_cases": int(cfg["window_cases"]),
     }
-
 
 def evaluate(
     log_path: Path,
@@ -124,7 +120,6 @@ def evaluate(
         return "limited_expand"
     return "stay_shadow"
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Evaluate autonomy tier from shadow JSONL.")
     ap.add_argument("--log", type=Path, default=DEFAULT_LOG)
@@ -158,7 +153,6 @@ def main() -> int:
         return 2
     print(result)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

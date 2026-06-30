@@ -1,6 +1,5 @@
 # Napolitano book - 2026-05
 
-WORK only; not Record.
 
 Purpose: May 2026 monthly index for the native `Judging Freedom` shelf.
 

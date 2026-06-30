@@ -61,14 +61,11 @@ BULLET_SCORE_LOOSE_RE = re.compile(
     re.MULTILINE,
 )
 
-
 def marker_block_start(expert_id: str) -> str:
     return f"<!-- backfill:{expert_id}:start -->"
 
-
 def marker_block_end(expert_id: str) -> str:
     return f"<!-- backfill:{expert_id}:end -->"
-
 
 @dataclass
 class ScoredBullet:
@@ -77,10 +74,8 @@ class ScoredBullet:
     source: str
     strength: str
 
-
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
-
 
 def extract_machine_block(text: str) -> Optional[str]:
     """Substring between strategy-expert-thread start and end markers (inclusive)."""
@@ -90,7 +85,6 @@ def extract_machine_block(text: str) -> Optional[str]:
         return None
     end_full = end + len(THREAD_MARKER_END)
     return text[start:end_full]
-
 
 def extract_backfill_block(text: str, expert_id: str) -> Optional[str]:
     pattern = re.compile(
@@ -104,7 +98,6 @@ def extract_backfill_block(text: str, expert_id: str) -> Optional[str]:
         return None
     return m.group(0)
 
-
 def inner_content(full_block_with_markers: str, expert_id: str) -> str:
     start = marker_block_start(expert_id)
     end = marker_block_end(expert_id)
@@ -115,17 +108,14 @@ def inner_content(full_block_with_markers: str, expert_id: str) -> str:
     mid = full_block_with_markers[len(start) :].rsplit(end, 1)[0]
     return mid.strip()
 
-
 def has_month_sections(inner: str) -> bool:
     return bool(MONTH_HEADING_RE.search(inner))
-
 
 def preamble_before_first_month(inner: str) -> tuple[str, str]:
     m = MONTH_HEADING_RE.search(inner)
     if not m:
         return inner.rstrip(), ""
     return inner[: m.start()].rstrip(), inner[m.start() :].lstrip()
-
 
 def parse_month_sections(block: str) -> dict[str, str]:
     matches = list(MONTH_HEADING_RE.finditer(block))
@@ -137,10 +127,8 @@ def parse_month_sections(block: str) -> dict[str, str]:
         sections[month] = block[start:end].strip()
     return sections
 
-
 def normalize_space(text: str) -> str:
     return " ".join(text.split())
-
 
 def score_from_source_stub(source: str) -> str:
     """Conservative tier from ``format_bullet`` ``_Source:_`` stub (leading source_type)."""
@@ -157,7 +145,6 @@ def score_from_source_stub(source: str) -> str:
         return "low"
     return "low"
 
-
 def extract_dated_evidence_body(section: str) -> str:
     """If refined layout, only the dated-evidence subsection; else whole month section."""
     m = DATED_EVIDENCE_HEADING_RE.search(section)
@@ -169,7 +156,6 @@ def extract_dated_evidence_body(section: str) -> str:
     if m2:
         body = body[: m2.start()]
     return body
-
 
 def extract_month_arc_raw(section: str) -> Optional[str]:
     """
@@ -187,7 +173,6 @@ def extract_month_arc_raw(section: str) -> Optional[str]:
         return rest.strip()
     return rest[: m_dated.start()].strip()
 
-
 def parse_bullets_scored(section: str) -> list[ScoredBullet]:
     body = extract_dated_evidence_body(section)
     bullets: list[ScoredBullet] = []
@@ -204,20 +189,16 @@ def parse_bullets_scored(section: str) -> list[ScoredBullet]:
             break
     return bullets
 
-
 def format_scored_bullet_line(b: ScoredBullet) -> list[str]:
     return [
         f"- **{b.date}** — [strength: {b.strength}] {b.summary}  ",
         f"  _Source:_ {b.source}",
     ]
 
-
 def month_has_refined_headings(section: str) -> bool:
     return bool(DATED_EVIDENCE_HEADING_RE.search(section))
 
-
 EMPTY_MONTH_LINE = "_No eligible evidence for this month._"
-
 
 def render_month_plain(month: str, bullets: list[ScoredBullet]) -> str:
     counts = Counter(b.strength for b in bullets)
@@ -235,7 +216,6 @@ def render_month_plain(month: str, bullets: list[ScoredBullet]) -> str:
         lines.extend(format_scored_bullet_line(b))
     lines.append("")
     return "\n".join(lines).rstrip() + "\n"
-
 
 def render_month_refined(
     month: str, has_arc_heading: bool, arc_raw: str, bullets: list[ScoredBullet]
@@ -264,14 +244,12 @@ def render_month_refined(
     lines.append("")
     return "\n".join(lines).rstrip() + "\n"
 
-
 def render_month(month: str, section: str, bullets: list[ScoredBullet]) -> str:
     if not month_has_refined_headings(section):
         return render_month_plain(month, bullets)
     has_arc = bool(MONTH_ARC_HEADING_RE.search(section))
     arc_raw = extract_month_arc_raw(section) if has_arc else ""
     return render_month_refined(month, has_arc, arc_raw, bullets)
-
 
 def strip_preamble_meta_lines(preamble: str) -> str:
     """Remove prior strength key / score totals so we can re-insert fresh totals."""
@@ -284,7 +262,6 @@ def strip_preamble_meta_lines(preamble: str) -> str:
         out.append(line)
     return "\n".join(out).rstrip()
 
-
 def augment_preamble(preamble: str, totals: Counter) -> str:
     base = strip_preamble_meta_lines(preamble)
     sk = (
@@ -296,7 +273,6 @@ def augment_preamble(preamble: str, totals: Counter) -> str:
         f"medium={totals.get('medium', 0)}, low={totals.get('low', 0)}."
     )
     return base + "\n\n" + sk + "\n" + tot + "\n"
-
 
 def render_scored_block(expert_id: str, original_full_block: str) -> Optional[str]:
     inner = inner_content(original_full_block, expert_id)
@@ -328,14 +304,12 @@ def render_scored_block(expert_id: str, original_full_block: str) -> Optional[st
     out.append(marker_block_end(expert_id))
     return "\n".join(out).rstrip() + "\n"
 
-
 def splice_backfill(text: str, expert_id: str, new_block: str) -> str:
     pattern = re.compile(
         re.escape(marker_block_start(expert_id)) + r".*?" + re.escape(marker_block_end(expert_id)),
         re.DOTALL,
     )
     return pattern.sub(new_block.rstrip(), text, count=1)
-
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
@@ -397,7 +371,6 @@ def main() -> int:
     print(f"Scored backfill block in {thread_path.relative_to(REPO_ROOT)}")
     print("Machine extraction block unchanged (verified).")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

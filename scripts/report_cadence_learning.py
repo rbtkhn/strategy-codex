@@ -9,7 +9,6 @@ from pathlib import Path
 from cadence_learning import summarize_learning
 from repo_io import DEFAULT_PROFILE_ID
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-u", "--user", default=DEFAULT_PROFILE_ID)
@@ -54,7 +53,6 @@ def main() -> int:
 
     print("\n".join(lines))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

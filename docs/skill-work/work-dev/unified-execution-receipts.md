@@ -1,6 +1,5 @@
 # Unified Execution Receipts
 
-WORK only; not Record.
 
 ## Purpose
 

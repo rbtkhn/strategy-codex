@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-01-03 (*Russia's Dark Sage*)
 <!-- word_count: 2618 -->
 
-WORK only; not Record.
 
 **Expert:** `ritter` · **Published:** 2026-01-03 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 

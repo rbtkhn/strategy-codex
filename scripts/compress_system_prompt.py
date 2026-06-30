@@ -29,11 +29,9 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
-
 def _estimate_tokens(text: str) -> int:
     """Rough token estimate: ~4 chars per token for English."""
     return len(text) // 4
-
 
 def _extract_sections(prompt: str) -> dict[str, str]:
     """Split the system prompt into named sections by ## headers."""
@@ -54,7 +52,6 @@ def _extract_sections(prompt: str) -> dict[str, str]:
         sections[current_name] = "\n".join(current_lines).strip()
 
     return sections
-
 
 IDENTITY_SECTIONS = [
     "_preamble",
@@ -79,7 +76,6 @@ DROP_SECTIONS = [
     '"WHAT DO I KNOW?" — RECORD RETRIEVAL',
 ]
 
-
 def _truncate_section(name: str, text: str, max_lines: int = 15) -> str:
     """Keep the first max_lines of a section, add truncation marker."""
     lines = text.split("\n")
@@ -87,7 +83,6 @@ def _truncate_section(name: str, text: str, max_lines: int = 15) -> str:
         return text
     truncated = "\n".join(lines[:max_lines])
     return truncated + f"\n[... {len(lines) - max_lines} more lines — see full Record ...]"
-
 
 def compress(prompt: str, budget_tokens: int = 4000) -> str:
     """Compress SYSTEM_PROMPT to fit within budget_tokens."""
@@ -135,7 +130,6 @@ def compress(prompt: str, budget_tokens: int = 4000) -> str:
 
     return compressed, header, actual_tokens
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="Compress SYSTEM_PROMPT for local models")
     parser.add_argument(
@@ -181,7 +175,6 @@ def main() -> None:
         + f'SYSTEM_PROMPT_COMPRESSED = """{escaped}"""\n'
     )
     print(f"\nWrote {out_path}")
-
 
 if __name__ == "__main__":
     main()

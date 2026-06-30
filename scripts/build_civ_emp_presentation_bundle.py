@@ -13,7 +13,6 @@ sys.path.insert(0, str(SRC_DIR))
 from integrations.presentations.civ_emp_adapter import build_civ_emp_bundle, build_civ_emp_packet_bundle
 from integrations.presentations.common import write_bundle
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(
         description="Build a civ-emp family deck bundle for ce-civ, ce-emp, or ce-mus."
@@ -65,7 +64,6 @@ def main() -> int:
     write_bundle(bundle, out)
     print(out)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

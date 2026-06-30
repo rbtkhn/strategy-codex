@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Macgregor Speaker Arc (compat redirect)
 

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Jiang Support Spine 2026
 

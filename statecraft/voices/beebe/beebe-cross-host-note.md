@@ -1,6 +1,5 @@
 # Beebe cross-host note
 
-WORK only; not Record.
 
 Purpose: keep George Beebe's cross-host status honest by separating what is materially embodied on disk from what is only search-backed. This note exists so the Codex does not let correct branch discovery outrun embodiment.
 

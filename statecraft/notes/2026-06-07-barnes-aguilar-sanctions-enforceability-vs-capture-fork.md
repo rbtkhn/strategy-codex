@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-03/source-pape-bombing-while-talking-ii-2026-06-03.md>
   - source-archive/statecraft/2026-06-03/source-nima-alkhorshid-us-bases-airport-hit-iran-retaliates-gulf-stocks-crash-7-hezbollah-ops-2026-06-03.md>
 ---
-WORK only; not Record.
 
 # Barnes × Aguilar: Sanctions Enforceability Vs Capture Fork - 2026-06-03 → 2026-06-07
 

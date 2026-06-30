@@ -1,6 +1,5 @@
 # Pape audit lessons
 
-WORK only; not Record.
 
 Purpose: record what the first real post-commit audit test taught us about the speaker audit system itself.
 

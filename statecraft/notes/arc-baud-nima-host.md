@@ -22,7 +22,6 @@ archive_links:
 
 # Dialogue Works x Baud arc
 
-WORK only; not Record.
 
 ## Why this guest run matters
 

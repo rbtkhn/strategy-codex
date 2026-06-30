@@ -1,6 +1,5 @@
 # Crisis Test Casebook
 
-WORK only; not Record.
 
 Crisis tests train academy-statecraft to identify the contested object, classify the game, and draft the settlement phrase that makes restraint politically possible.
 

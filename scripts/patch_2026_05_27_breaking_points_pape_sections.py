@@ -56,14 +56,12 @@ SPEC = {
 TRANSCRIPT_MARKER = "## Transcript\n"
 LEGACY_SPLIT = "---\n\n"
 
-
 def extract_flat_body(doc: str) -> str:
     if TRANSCRIPT_MARKER in doc:
         return doc.split(TRANSCRIPT_MARKER, 1)[1]
     if LEGACY_SPLIT in doc:
         return doc.split(LEGACY_SPLIT, 1)[1]
     raise ValueError("no transcript body (expected ## Transcript or legacy --- split)")
-
 
 def normalize_for_section_ship(doc: str) -> tuple[str, str, str]:
     """Return head, marker, body; insert ## Transcript when legacy shape."""
@@ -75,7 +73,6 @@ def normalize_for_section_ship(doc: str) -> tuple[str, str, str]:
     head, body = doc.split(LEGACY_SPLIT, 1)
     head = head.rstrip() + "\n\n" + TRANSCRIPT_MARKER
     return head, TRANSCRIPT_MARKER, body.lstrip("\n")
-
 
 def check_spec(path: Path, spec: dict) -> bool:
     doc = path.read_text(encoding="utf-8")
@@ -96,7 +93,6 @@ def check_spec(path: Path, spec: dict) -> bool:
     print()
     return ok
 
-
 def apply_spec(path: Path, spec: dict) -> None:
     write_sectioned_capture(
         path,
@@ -104,7 +100,6 @@ def apply_spec(path: Path, spec: dict) -> None:
         spec["anchors"],
         reject_if_sectioned=False,
     )
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -130,7 +125,6 @@ def main() -> int:
     apply_spec(path, SPEC)
     print(f"sectioned {REL}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

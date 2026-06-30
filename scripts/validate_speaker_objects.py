@@ -8,7 +8,6 @@ import re
 import sys
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_SPEAKERS_DIR = REPO_ROOT / "statecraft" / "voices"
 
@@ -78,13 +77,11 @@ EXPLICIT_SHAPE_RE = re.compile(
 )
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\([^)]+\)")
 
-
 def rel(path: Path) -> str:
     try:
         return path.relative_to(REPO_ROOT).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def section_text(text: str, heading: str) -> str:
     target = heading.casefold()
@@ -97,13 +94,11 @@ def section_text(text: str, heading: str) -> str:
         return text[start:end]
     return ""
 
-
 def explicit_shape(text: str) -> str | None:
     match = EXPLICIT_SHAPE_RE.search(text)
     if not match:
         return None
     return match.group(1).strip()
-
 
 def inferred_shapes(text: str) -> list[str]:
     object_shape_section = section_text(text, "Object shape")
@@ -113,7 +108,6 @@ def inferred_shapes(text: str) -> list[str]:
         if any(phrase.casefold() in haystack for phrase in phrases):
             found.append(shape)
     return found
-
 
 def declared_shape(text: str) -> tuple[str | None, list[str]]:
     shape = explicit_shape(text)
@@ -129,13 +123,9 @@ def declared_shape(text: str) -> tuple[str | None, list[str]]:
         ]
     return None, []
 
-
 def validate_speaker_object(path: Path) -> list[str]:
     text = path.read_text(encoding="utf-8")
     errors: list[str] = []
-
-    if "WORK only; not Record." not in text:
-        errors.append(f"{rel(path)}: missing `WORK only; not Record.` boundary")
 
     for heading in ("Object shape", "Open first", "Boundaries"):
         if not section_text(text, heading):
@@ -160,19 +150,16 @@ def validate_speaker_object(path: Path) -> list[str]:
 
     return errors
 
-
 def discover_speaker_objects(speakers_dir: Path) -> list[Path]:
     if not speakers_dir.exists():
         return []
     return sorted(speakers_dir.glob("*/*-speaker-object.md"))
-
 
 def validate_speakers_dir(speakers_dir: Path) -> list[str]:
     errors: list[str] = []
     for path in discover_speaker_objects(speakers_dir):
         errors.extend(validate_speaker_object(path))
     return errors
-
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -184,7 +171,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     return parser.parse_args(argv)
 
-
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     errors = validate_speakers_dir(args.speakers_dir.resolve())
@@ -195,7 +181,6 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     print("validate_speaker_objects: OK", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # Transaction Router
 
-WORK only; not Record.
 
 Deprecated compatibility stub.
 

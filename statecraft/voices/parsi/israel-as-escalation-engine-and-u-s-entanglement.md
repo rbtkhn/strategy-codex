@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Israel as escalation engine and U.S. entanglement
 

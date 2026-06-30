@@ -7,7 +7,6 @@ essay_candidate: false
 created_at: 2026-05-31
 updated_at: 2026-06-28
 ---
-WORK only; not Record.
 
 # Barnes-Aguilar On Captured Command Versus Degraded Carry - 2026-05-31
 

@@ -25,7 +25,6 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USER_ID = "grace-mar"
 
-
 def _load_rows(user_id: str) -> list[dict[str, Any]]:
     path = REPO_ROOT / "platform/users" / user_id / "business-ledger.jsonl"
     if not path.exists():
@@ -40,7 +39,6 @@ def _load_rows(user_id: str) -> list[dict[str, Any]]:
         except json.JSONDecodeError:
             continue
     return rows
-
 
 def _filter_rows(
     rows: list[dict[str, Any]],
@@ -57,7 +55,6 @@ def _filter_rows(
     if until:
         filtered = [r for r in filtered if r.get("date", "") <= until]
     return filtered
-
 
 def _group_by(rows: list[dict[str, Any]], key: str) -> dict[str, dict[str, float]]:
     """Group rows by a field and sum income/expense."""
@@ -78,7 +75,6 @@ def _group_by(rows: list[dict[str, Any]], key: str) -> dict[str, dict[str, float
             groups[group_key]["net"] -= amount
     return dict(groups)
 
-
 def _pnl(rows: list[dict[str, Any]]) -> dict[str, float]:
     total_income = sum(r.get("amount_usd", 0) for r in rows if r.get("type") == "income")
     total_expense = sum(r.get("amount_usd", 0) for r in rows if r.get("type") == "expense")
@@ -91,10 +87,8 @@ def _pnl(rows: list[dict[str, Any]]) -> dict[str, float]:
         "transaction_count": len(rows),
     }
 
-
 _DEDUCTIBLE_TAX_CATS = {"cogs", "business_expense", "sales_revenue", "other_income", "refund", "sales_tax"}
 _NON_DEDUCTIBLE_TAX_CATS = {"non_deductible"}
-
 
 def _tax_summary(rows: list[dict[str, Any]]) -> dict[str, Any]:
     """Schedule C-style tax summary: taxable income minus deductible expenses only."""
@@ -138,7 +132,6 @@ def _tax_summary(rows: list[dict[str, Any]]) -> dict[str, Any]:
         "line_items": {k: round(v, 2) for k, v in sorted(line_items.items())},
     }
 
-
 def _format_tax(tax: dict[str, Any], label: str = "") -> str:
     lines: list[str] = []
     if label:
@@ -159,7 +152,6 @@ def _format_tax(tax: dict[str, Any], label: str = "") -> str:
         lines.append(f"    {k:<35} {sign}${v:>11,.2f}")
     return "\n".join(lines)
 
-
 def _format_table(groups: dict[str, dict[str, float]], key_label: str) -> str:
     lines: list[str] = []
     header = f"{'':2}{key_label:<30} {'Income':>10} {'Expense':>10} {'Refund':>10} {'Net':>10} {'Count':>6}"
@@ -171,7 +163,6 @@ def _format_table(groups: dict[str, dict[str, float]], key_label: str) -> str:
             f"  {key:<30} {g['income']:>10.2f} {g['expense']:>10.2f} {g['refund']:>10.2f} {g['net']:>10.2f} {int(g['count']):>6}"
         )
     return "\n".join(lines)
-
 
 def _format_pnl(pnl: dict[str, float], label: str = "") -> str:
     lines: list[str] = []
@@ -186,7 +177,6 @@ def _format_pnl(pnl: dict[str, float], label: str = "") -> str:
     lines.append(f"  Gross profit:      ${pnl['gross_profit']:>10.2f}")
     lines.append(f"  Transactions:       {pnl['transaction_count']:>10}")
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Summarize the business ledger.")
@@ -256,7 +246,6 @@ def main() -> int:
             print(_format_table(_group_by(filtered, "venture"), "venture"))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

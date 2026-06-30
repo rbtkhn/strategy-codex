@@ -16,10 +16,8 @@ _SCRIPTS_DIR = Path(__file__).resolve().parents[1]
 if str(_SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS_DIR))
 
-
 def _parse_langs(s: str) -> list[str]:
     return [x.strip() for x in s.split(",") if x.strip()]
-
 
 def _format_upload_date(raw: str) -> str:
     """yt-dlp often returns YYYYMMDD; normalize to YYYY-MM-DD for tables."""
@@ -27,7 +25,6 @@ def _format_upload_date(raw: str) -> str:
     if len(s) == 8 and s.isdigit():
         return f"{s[:4]}-{s[4:6]}-{s[6:8]}"
     return s
-
 
 def run(argv: list[str] | None = None) -> int:
     from youtube_transcripts.discovery import list_videos, load_inputs_from_file
@@ -307,10 +304,8 @@ def run(argv: list[str] | None = None) -> int:
     print(f"Summary: ok={ok_n} error={err_n} skipped/unchanged={sk_n}", file=sys.stderr)
     return 0
 
-
 def main() -> int:
     return run()
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

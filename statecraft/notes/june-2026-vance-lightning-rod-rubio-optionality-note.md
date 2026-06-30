@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-18/README.md
   - source-archive/statecraft/2026-06-18/source-dialogue-works-alex-krainer-trump-scolds-netanyahu-iran-oil-sanctions-lifted-2026-06-18.md
 ---
-WORK only; not Record.
 
 # June 2026 — Vance Lightning Rod, Rubio Optionality (Helmer × Johnson × Wire)
 

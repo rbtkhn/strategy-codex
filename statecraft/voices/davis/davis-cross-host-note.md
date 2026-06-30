@@ -1,6 +1,5 @@
 # Davis cross-host note
 
-WORK only; not Record.
 
 Purpose: explain how Davis belongs on the `speakers/` shelf without flattening the distinction between a native cognition stream and a cross-host speaker object.
 

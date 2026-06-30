@@ -1,6 +1,5 @@
 # Mercouris routing
 
-WORK only; not Record.
 
 Purpose: answer which Mercouris surface to open first without forcing stream-native continuity into a fake host-led chronology.
 

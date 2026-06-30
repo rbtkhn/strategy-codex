@@ -1,6 +1,5 @@
 # Instruments
 
-WORK only; not Record.
 
 These are reusable interpretive tools for academy military, strategy work, and cross-shelf analysis.
 

@@ -30,7 +30,6 @@ from repo_io import CANONICAL_RECORD_FILES_REQUIRED, profile_dir, self_skills_la
 REQUIRED = CANONICAL_RECORD_FILES_REQUIRED
 OPTIONAL_STRICT = ("self-evidence.md",)
 
-
 def main() -> int:
     if os.environ.get("GRACE_MAR_SKIP_PATH_CHECK") == "1":
         return 0
@@ -62,7 +61,6 @@ def main() -> int:
     for w in self_skills_layout_warnings(root):
         print(f"assert_canonical_paths: WARN â€” {w}", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

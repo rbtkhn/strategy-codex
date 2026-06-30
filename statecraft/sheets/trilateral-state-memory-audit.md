@@ -1,6 +1,5 @@
 # Trilateral State-Memory Audit
 
-WORK only; not Record.
 
 Use this sheet to audit whether the Russia / China / Iran state-memory architecture works as a machine: civilization stores state memory, state carries present authority, objects transmit signals, and transactions test whether authority can become settlement.
 

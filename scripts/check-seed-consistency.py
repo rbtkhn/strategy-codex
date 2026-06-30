@@ -17,13 +17,11 @@ from cache import load_json_file
 MIN_PURPOSE_LEN = 40
 PASS_MIN_READINESS_SCORE = 0.75
 
-
 def load_json(path: Path) -> dict:
     data = load_json_file(path)
     if not isinstance(data, dict):
         raise TypeError(f"expected JSON object at {path}, got {type(data).__name__}")
     return data
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Check seed_intent vs seed_readiness consistency.")
@@ -86,7 +84,6 @@ def main() -> int:
 
     print("OK")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

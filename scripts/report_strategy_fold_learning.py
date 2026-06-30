@@ -29,10 +29,8 @@ from repo_io import DEFAULT_USER_ID, profile_dir  # noqa: E402
 
 LEDGER_NAME = "strategy-fold-events.jsonl"
 
-
 def default_jsonl_path(user_id: str) -> Path:
     return profile_dir(user_id) / LEDGER_NAME
-
 
 def parse_ts(raw: str) -> datetime | None:
     raw = raw.strip()
@@ -44,7 +42,6 @@ def parse_ts(raw: str) -> datetime | None:
         return datetime.fromisoformat(raw.replace("Z", "+00:00"))
     except ValueError:
         return None
-
 
 def compression_proxy(row: dict) -> float | None:
     ic = row.get("inbox_chars")
@@ -59,7 +56,6 @@ def compression_proxy(row: dict) -> float | None:
     if ic <= 0:
         return None
     return dd / ic
-
 
 def load_events(path: Path, *, since: datetime, max_events: int | None) -> list[dict]:
     if not path.is_file():
@@ -82,7 +78,6 @@ def load_events(path: Path, *, since: datetime, max_events: int | None) -> list[
     if max_events is not None and len(rows) > max_events:
         rows = rows[-max_events:]
     return rows
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -173,7 +168,6 @@ def main() -> int:
 
     sys.stdout.write("".join(lines_out))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -17,7 +17,6 @@ PATTERNS = (
     ".codex-platform/bin",
 )
 
-
 def _matches(name: str) -> bool:
     if name == ".codex-tmp" or name == ".codex-platform/bin":
         return True
@@ -26,7 +25,6 @@ def _matches(name: str) -> bool:
     if name.startswith("pytest-cache-files-"):
         return True
     return False
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Remove dev temp dirs from repository root")
@@ -46,7 +44,6 @@ def main() -> int:
             shutil.rmtree(p)
             print(f"removed {p.relative_to(REPO_ROOT)}/")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

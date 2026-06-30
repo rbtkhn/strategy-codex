@@ -18,7 +18,6 @@ from cache import load_json_file, load_schema
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Validate seed_constitution.json")
     ap.add_argument("directory", type=Path, help="seed-phase directory")
@@ -67,7 +66,6 @@ def main() -> int:
 
     print("validate-constitution: OK")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

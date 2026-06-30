@@ -1,6 +1,5 @@
 # Instrument Router
 
-WORK only; not Record.
 
 Use this sheet after a verified live-event or crisis-object read classifies the crisis object. The router maps live events onto the 12-object instrument plateau so the operator can reuse an existing bundle before inventing a new one.
 

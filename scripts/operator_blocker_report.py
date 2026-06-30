@@ -25,12 +25,10 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 from recursion_gate_territory import TERRITORY_WORK_POLITICS, normalize_territory_cli, territory_from_yaml_block
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
-
 
 def _parse_gate_timestamp(block: str) -> datetime | None:
     """Best-effort timestamp from candidate yaml (timestamp: YYYY-MM-DD or with time)."""
@@ -43,7 +41,6 @@ def _parse_gate_timestamp(block: str) -> datetime | None:
         return datetime.strptime(f"{date_part} {time_part}", "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
     except ValueError:
         return None
-
 
 def _extract_pending_candidates(content: str) -> list[dict]:
     """Extract candidates with status: pending from recursion-gate."""
@@ -67,7 +64,6 @@ def _extract_pending_candidates(content: str) -> list[dict]:
             )
     return out
 
-
 def _extract_unresolved_debates(content: str) -> list[dict]:
     """Extract debate packets that have no resolution."""
     out: list[dict] = []
@@ -86,7 +82,6 @@ def _extract_unresolved_debates(content: str) -> list[dict]:
             out.append({"id": did, "rule_id": rule_id, "sources": sources})
     return out
 
-
 def _read_pipeline_events(path: Path, last_n: int = 15) -> list[dict]:
     """Read last N pipeline events."""
     if not path.exists():
@@ -102,7 +97,6 @@ def _read_pipeline_events(path: Path, last_n: int = 15) -> list[dict]:
         except json.JSONDecodeError:
             pass
     return list(reversed(events))
-
 
 def _handoff_summary(content: str, max_lines: int = 80) -> str:
     """Extract key sections from development-handoff (current baseline, recommended tasks)."""
@@ -130,7 +124,6 @@ def _handoff_summary(content: str, max_lines: int = 80) -> str:
         if len(out) >= max_lines:
             break
     return "\n".join(out)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Anticipate blockers for Grace-Mar operator")
@@ -302,7 +295,6 @@ def main() -> int:
         print(report)
 
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

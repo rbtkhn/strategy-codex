@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `barnes`
 <!-- word_count: 8331 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 

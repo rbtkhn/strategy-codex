@@ -25,7 +25,6 @@ import build_statecraft_day_indices as day_idx  # noqa: E402
 import build_statecraft_month_indices as month_idx  # noqa: E402
 from statecraft_day_archive import DEFAULT_ROOT, iter_day_dirs  # noqa: E402
 
-
 def _metadata_semantically_changed(path: Path, payload: dict[str, object]) -> bool:
     """Ignore volatile ``generated_at`` when comparing routing metadata."""
     import json
@@ -38,7 +37,6 @@ def _metadata_semantically_changed(path: Path, payload: dict[str, object]) -> bo
     for blob in (existing, fresh):
         blob.pop("generated_at", None)
     return existing != fresh
-
 
 def refresh_or_check(root: Path, *, check: bool) -> tuple[int, list[Path]]:
     """Return (stale_count, changed_paths)."""
@@ -146,7 +144,6 @@ def refresh_or_check(root: Path, *, check: bool) -> tuple[int, list[Path]]:
 
     return len(changed_paths), changed_paths
 
-
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Statecraft source-archive root.")
@@ -162,14 +159,12 @@ def parse_args() -> argparse.Namespace:
     )
     return ap.parse_args()
 
-
 def _run_daily_sync_check(day: str) -> int:
     import check_statecraft_intake_daily_sync as daily_sync
 
     report = daily_sync.build_sync_report(day.strip())
     print(daily_sync.format_human(report))
     return report.exit_code
-
 
 def main() -> int:
     args = parse_args()
@@ -196,7 +191,6 @@ def main() -> int:
         if sync_code != 0:
             exit_code = sync_code
     return exit_code
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

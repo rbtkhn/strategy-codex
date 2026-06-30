@@ -18,7 +18,6 @@ _STEPS = (
     "scripts/work_jiang/render_status_dashboard.py",
 )
 
-
 def main() -> int:
     for rel in _STEPS:
         script = ROOT / rel
@@ -29,7 +28,6 @@ def main() -> int:
         subprocess.check_call([sys.executable, str(script)], cwd=str(ROOT))
     print("refresh_after_ingest: done.", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

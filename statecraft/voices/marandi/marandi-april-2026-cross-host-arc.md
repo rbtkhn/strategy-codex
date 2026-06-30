@@ -1,6 +1,5 @@
 # arc-april-2026-cross-host-marandi-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-april-2026-cross-host-marandi-host.md](../../notes/arc-april-2026-cross-host-marandi-host.md)
 

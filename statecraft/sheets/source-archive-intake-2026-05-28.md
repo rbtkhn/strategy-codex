@@ -1,6 +1,5 @@
 # 2026-05-28 intake synthesis
 
-WORK only; not Record.
 
 Purpose: bind the May 28, 2026 statecraft intake stack into one reusable surface after the day's captures have already landed on disk. This note is not a substitute for the raw-input files. It compresses the day into its dominant themes, host-lane roles, and forecast-bearing claims.
 

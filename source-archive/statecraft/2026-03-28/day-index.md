@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Diesen` (1), `Nima Alkhorshid` (1)
 - Guests: `Lawrence Wilkerson` (1), `Seyed M. Marandi` (1)
-- Threads: `alkorshid` (1), `diesen` (1), `marandi` (1), `mercouris` (1), `wilkerson` (1)
+- Threads: `alkhorshid` (1), `diesen` (1), `marandi` (1), `mercouris` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=tsenhIVfkpM) | `source-alexander-mercouris-houthis-join-war-strike-israel-medvedev-warns-big-nuclear-risks-massive-2026-03-28.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=8SF7zqg5lP8) | `source-dialogue-works-seyed-m-marandi-yemen-enters-the-war-us-israeli-strikes-on-energy-sites-2026-03-28.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `marandi` | [watch](https://www.youtube.com/watch?v=8SF7zqg5lP8) | `source-dialogue-works-seyed-m-marandi-yemen-enters-the-war-us-israeli-strikes-on-energy-sites-2026-03-28.md` |
 | `glenn-diesen` | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=XelyhraVOD8) | `source-diesen-wilkerson-israel-may-cease-to-exist-launch-nuclear-strike-2026-03-28.md` |
 
 ## Writer sources

@@ -1,6 +1,5 @@
 # Jiang on China, Russia, and Continental Depth
 
-WORK only; not Record.
 
 This note isolates one specific Jiang fault line that keeps recurring in recent use: **whether Jiang underweights the strategic value of Russia to China**.
 

@@ -1,6 +1,5 @@
 # arc-jiang-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [jiang-arc.md](jiang-arc.md)
 

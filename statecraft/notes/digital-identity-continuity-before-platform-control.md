@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 # America - Digital Identity Continuity Before Platform Control
 
-WORK only; not Record.
 
 ## Transaction Name
 

@@ -85,7 +85,6 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-
 def resolve_cursor_model(
     explicit: str | None = None,
     kv: dict[str, str] | None = None,
@@ -100,9 +99,7 @@ def resolve_cursor_model(
     env = os.environ.get("CURSOR_MODEL", "").strip()
     return env[:200] if env else "unknown"
 
-
 _EMPTY_PARK = frozenset({"", "none", "—", "-"})
-
 
 def _auto_park(repo: Path | None = None) -> str:
     """Fallback park text from the last git commit subject when the caller omits it.
@@ -123,15 +120,12 @@ def _auto_park(repo: Path | None = None) -> str:
     slug = re.sub(r"[^a-zA-Z0-9]+", "-", subject).strip("-").lower()
     return f"auto:{slug}" if slug else "auto:no-recent-commit"
 
-
 def _format_cursor_model_token(cm: str) -> str:
     """Space-safe for space-delimited key=value cadence lines."""
     return str(cm).replace("\n", " ").strip().replace(" ", "_")[:200]
 
-
 _FRONTIER_PATTERNS = ("opus", "sonnet-4", "o3", "o4", "pro", "deep-research")
 _FAST_PATTERNS = ("haiku", "flash", "mini", "fast", "gpt-4o-mini", "lite")
-
 
 def infer_model_tier(cursor_model: str) -> str:
     """Derive a capability tier from the cursor_model string.
@@ -150,7 +144,6 @@ def infer_model_tier(cursor_model: str) -> str:
             return "frontier"
     return "unknown"
 
-
 def resolve_model_tier(
     explicit: str | None = None,
     kv: dict[str, str] | None = None,
@@ -165,12 +158,10 @@ def resolve_model_tier(
             return str(v).strip()
     return infer_model_tier(cursor_model)
 
-
 # Match first segment of a cadence line (aligned with audit_cadence_rhythm.parse_events).
 _LAST_EVENT_LINE_RE = re.compile(
     r"^- \*\*(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC\*\* — (\w+) \(([^)]+)\)"
 )
-
 
 def _last_event_ts_kind_user(events_path: Path) -> tuple[datetime, str, str] | None:
     """Parse the most recent cadence event line from the file, if any."""
@@ -192,7 +183,6 @@ def _last_event_ts_kind_user(events_path: Path) -> tuple[datetime, str, str] | N
         return dt, kind, user
     return None
 
-
 def _normalize_conductor_slug(value: str | None) -> str:
     if value is None:
         return ""
@@ -200,7 +190,6 @@ def _normalize_conductor_slug(value: str | None) -> str:
     if "+" in slug:
         slug = slug.split("+", 1)[0].strip()
     return slug
-
 
 def _conductor_shape_warnings(kind: str, kv: dict[str, str], user_id: str = "") -> list[str]:
     warnings: list[str] = []
@@ -249,7 +238,6 @@ def _conductor_shape_warnings(kind: str, kv: dict[str, str], user_id: str = "") 
                 "(both preferred) so the pass stays auditably grounded."
             )
     return warnings
-
 
 def append_cadence_event(
     kind: str,
@@ -329,7 +317,6 @@ def append_cadence_event(
             f.write(line)
     return events_path
 
-
 def parse_cli_kv_groups(groups: list[list[str]]) -> dict[str, str]:
     """Parse ``--kv`` tokens, preserving unquoted free-text continuations for selected keys."""
     kv_dict: dict[str, str] = {}
@@ -345,7 +332,6 @@ def parse_cli_kv_groups(groups: list[list[str]]) -> dict[str, str]:
             continue
         kv_dict[item] = "true"
     return kv_dict
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -395,7 +381,6 @@ def main() -> int:
     )
     print(path.relative_to(REPO_ROOT))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

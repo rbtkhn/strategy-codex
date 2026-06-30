@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-09/source-alexander-mercouris-moscow-sumy-zelensky-ad-iran-israel-2026-06-09.md
   - source-archive/statecraft/2026-06-09/source-dialogue-works-anthony-aguilar-iranian-drone-takes-down-us-apache-helicopter-war-imminent-2026-06-09.md
 ---
-WORK only; not Record.
 
 # Apache × Shahed-136 — physics fork (Davis · Aguilar · Krapivnik vs wire) — 2026-06-09
 

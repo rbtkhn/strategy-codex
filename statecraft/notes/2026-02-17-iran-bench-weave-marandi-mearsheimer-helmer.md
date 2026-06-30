@@ -13,7 +13,6 @@ archive_links:
   - source-archive/statecraft/2026-02-17/source-dialogue-works-helmer-kremlin-new-strategy-before-geneva-madness-middle-east-2026-02-17.md
   - source-archive/statecraft/2026-01-20/source-mearsheimer-the-tag-team-fails-in-iran-2026-01-20.md
 ---
-WORK only; not Record.
 
 # Feb 17 2026 — Iran bench weave (Marandi × Mearsheimer × Helmer coda)
 

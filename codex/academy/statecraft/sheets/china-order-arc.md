@@ -1,6 +1,5 @@
 # China Order Arc
 
-WORK only; not Record.
 
 ## Purpose
 

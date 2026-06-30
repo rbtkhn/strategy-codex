@@ -1,5 +1,4 @@
 ﻿# China Primary Sources - Ancient
-WORK only; not Record.
 This file contains the Ancient primary-source shelf for the China CIV-STATE volume.
 ## Primary Sources
 ### Ancient

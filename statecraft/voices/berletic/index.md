@@ -1,6 +1,5 @@
 # Berletic Index
 
-WORK only; not Record.
 
 Purpose: front door for the canonical Berletic shelf.
 

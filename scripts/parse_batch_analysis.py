@@ -13,7 +13,6 @@ Usage::
     python3 scripts/parse_batch_analysis.py --dry-run
     python3 scripts/parse_batch_analysis.py --inbox path/to/inbox.md --out path/to/out.json
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -81,7 +80,6 @@ _ALIAS_PATTERN = re.compile(
     re.IGNORECASE,
 )
 
-
 # ---------------------------------------------------------------------------
 # Data model
 # ---------------------------------------------------------------------------
@@ -110,7 +108,6 @@ class BatchRef:
             d["seams"] = self.seams
         return d
 
-
 # ---------------------------------------------------------------------------
 # Extraction
 # ---------------------------------------------------------------------------
@@ -125,7 +122,6 @@ def _extract_crosses(text: str) -> list[str]:
                 ids.append(slug)
     return ids
 
-
 def _extract_threads(text: str) -> list[str]:
     """Extract canonical expert IDs from thread:<id> markers."""
     ids: list[str] = []
@@ -135,14 +131,12 @@ def _extract_threads(text: str) -> list[str]:
             ids.append(slug)
     return ids
 
-
 def _extract_seams(text: str) -> list[str]:
     """Extract seam slugs (topology, not necessarily expert IDs)."""
     seams: list[str] = []
     for m in _RE_SEAM.finditer(text):
         seams.append(m.group(1))
     return seams
-
 
 def _extract_aliases(text: str, already: set[str]) -> list[str]:
     """Extract expert IDs by alias/name matching in body text."""
@@ -152,7 +146,6 @@ def _extract_aliases(text: str, already: set[str]) -> list[str]:
         if canonical and canonical not in already and canonical not in ids:
             ids.append(canonical)
     return ids
-
 
 def _assign_confidence(
     crosses: list[str],
@@ -174,7 +167,6 @@ def _assign_confidence(
         return "low"
     return "none"
 
-
 def _context_date(line: str) -> str | None:
     """Try to extract a date context marker from a non-batch line."""
     for rx in (_RE_ACCUM, _RE_PRIOR, _RE_DATE_HEADING):
@@ -182,7 +174,6 @@ def _context_date(line: str) -> str | None:
         if m:
             return m.group(1)
     return None
-
 
 # ---------------------------------------------------------------------------
 # Main parser
@@ -265,13 +256,10 @@ def _parse_inbox_lines(text: str) -> list[BatchRef]:
     merged = _merge_batch_refs_by_date_label(refs)
     return merged
 
-
 _CONF_RANK = {"high": 3, "medium": 2, "low": 1, "none": 0}
-
 
 def _higher_confidence(a: str, b: str) -> str:
     return a if _CONF_RANK.get(a, 0) >= _CONF_RANK.get(b, 0) else b
-
 
 def _merge_batch_refs_by_date_label(refs: list[BatchRef]) -> list[BatchRef]:
     """Merge consecutive refs with identical date + label (continued paste / long prose)."""
@@ -296,11 +284,9 @@ def _merge_batch_refs_by_date_label(refs: list[BatchRef]) -> list[BatchRef]:
             out.append(r)
     return out
 
-
 def parse_inbox_text(text: str) -> dict:
     """Parse inbox-like text and return a snapshot dict (tests, notebooks)."""
     return build_snapshot(_parse_inbox_lines(text))
-
 
 def parse_inbox(inbox_path: Path) -> list[BatchRef]:
     """Parse all batch-analysis lines from the inbox file."""
@@ -311,7 +297,6 @@ def parse_inbox(inbox_path: Path) -> list[BatchRef]:
     text = inbox_path.read_text(encoding="utf-8")
     return _parse_inbox_lines(text)
 
-
 def build_snapshot(refs: list[BatchRef]) -> dict:
     return {
         "schema_version": SCHEMA_VERSION,
@@ -319,7 +304,6 @@ def build_snapshot(refs: list[BatchRef]) -> dict:
         "count": len(refs),
         "batch_analysis_refs": [r.to_dict() for r in refs],
     }
-
 
 # ---------------------------------------------------------------------------
 # CLI
@@ -347,7 +331,6 @@ def main() -> int:
         print(f"ok: {len(refs)} batch-analysis refs → {args.out.relative_to(REPO_ROOT)}")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

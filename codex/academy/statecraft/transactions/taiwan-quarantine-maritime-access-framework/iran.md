@@ -1,6 +1,5 @@
 # Iran - Taiwan Quarantine / Maritime Access Framework
 
-WORK only; not Record.
 
 ## Transaction Name
 

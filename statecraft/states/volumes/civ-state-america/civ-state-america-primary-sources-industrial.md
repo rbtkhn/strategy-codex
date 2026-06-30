@@ -1,5 +1,4 @@
 ﻿# America Primary Sources - Industrial (50 total)
-WORK only; not Record.
 This file contains the Industrial (50 total) primary-source shelf for the America CIV-STATE volume through the 1991 endpoint.
 ## Primary Sources
 ### Industrial (50 total)

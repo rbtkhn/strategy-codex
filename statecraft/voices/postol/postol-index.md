@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Postol Source Index
 
@@ -25,7 +24,7 @@ Purpose: provide the canonical route map for materialized Postol appearances and
 
 - [2026-05-15 - Bombs will not end Iran war](../../../source-archive/statecraft/2026-05-15/source-daniel-davis-bombs-will-not-end-iran-war-mit-professsor-ted-postol-2026-05-15.md)
 - [2026-06-23 - Patriot missile capabilities (Pack 3 / THAAD / Iron Dome)](../../../source-archive/statecraft/2026-06-23/source-daniel-davis-postol-patriot-missile-capabilities-2026-06-23.md) — Warsaw missile-defense coalition presentation; <5% intercept claim; Gulf War 1991 déjà vu; 1,200 PAC-3 / $4.8B replacement debate; Iron Dome zero vs Iranian IRBM; Larry Johnson inventory cite; Russia S-300/400/500 vs ATACMS; Graham Hormuz fantasy clip
-- [2026-06-29 - Patriot Missiles Fail Miserably, Here's the Video Evidence / MIT Prof…](../../../source-archive/statecraft/2026-06-29/source-daniel-davis-ted-postol-patriot-missiles-fail-video-evidence-2026-06-29.md) — Tel Aviv 2026 Gulf War video-frame analysis; PAC-2/PAC-3 ~2–3% intercept vs 90% claim; Lewis–Postol APS 1991 parallel; THAAD maneuver limits; $4.7B contract; curated_sectioned 12-section ship; pairs with 2026-06-23 Patriot capabilities episode
+- [2026-06-29 - Patriot Missiles Fail Miserably, Here's the Video Evidence / MIT Prof…](../../../source-archive/statecraft/2026-06-29/source-daniel-davis-ted-postol-patriot-missiles-fail-video-evidence-2026-06-29.md) — Tel Aviv 2026 Gulf War video-frame analysis; PAC-2/PAC-3 ~2–3% intercept vs 90% claim; Lewis–Postol APS 1991 parallel; THAAD maneuver limits; $4.7B contract; curated_sectioned 12-section ship (pack-2 merge; PAC radar/slide-7 split); pairs with 2026-06-23 Patriot capabilities episode
 
 ## Host-Arc Entries
 

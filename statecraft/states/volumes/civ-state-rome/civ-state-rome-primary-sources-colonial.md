@@ -1,5 +1,4 @@
 ﻿# Rome Primary Sources - Colonial
-WORK only; not Record.
 This file contains the Colonial primary-source shelf for the Rome CIV-STATE volume.
 ## Primary Sources
 ### Colonial

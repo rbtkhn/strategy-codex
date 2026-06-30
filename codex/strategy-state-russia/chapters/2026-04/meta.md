@@ -14,4 +14,3 @@
 
 Placeholder month scaffold for state-lane ingest.
 
-WORK only; not Record.

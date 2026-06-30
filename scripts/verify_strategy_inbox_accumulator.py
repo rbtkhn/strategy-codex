@@ -24,7 +24,6 @@ ACCUM_RE = re.compile(
     re.MULTILINE,
 )
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -75,7 +74,6 @@ def main() -> int:
         return 1
     print(f"verify_strategy_inbox_accumulator: ok — Accumulator for: {found}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

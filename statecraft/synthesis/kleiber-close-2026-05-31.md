@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Kleiber Close - 2026-05-31
 

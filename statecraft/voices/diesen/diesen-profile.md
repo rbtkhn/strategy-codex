@@ -1,7 +1,6 @@
 # Strategy expert — Glenn Diesen (`diesen`)
 <!-- word_count: 486 -->
 
-WORK only; not Record.
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)

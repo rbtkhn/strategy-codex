@@ -29,13 +29,11 @@ STRATEGY_NB = REPO / "docs/skill-work/work-strategy/strategy-notebook"
 # hn-i-v1-04, hn-app-method, hn-v-america-hegemonic
 RE_HN_ID = re.compile(r"\b(hn(?:-[a-z0-9]+)+)\b")
 
-
 def load_valid_ids(path: Path) -> set[str]:
     with open(path, encoding="utf-8") as f:
         data = yaml.safe_load(f)
     chapters = data.get("chapters") or []
     return {c["id"] for c in chapters if isinstance(c, dict) and "id" in c}
-
 
 def iter_markdown_files(root: Path) -> list[Path]:
     out: list[Path] = []
@@ -43,7 +41,6 @@ def iter_markdown_files(root: Path) -> list[Path]:
         if p.is_file():
             out.append(p)
     return sorted(out)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -88,7 +85,6 @@ def main() -> int:
         file=sys.stderr,
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

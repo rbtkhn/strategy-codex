@@ -13,7 +13,6 @@ except ModuleNotFoundError:  # pragma: no cover
 
 MOJIBAKE_MARKERS = ("Ãƒ", "Ã¢", "â€", "Ã‚", "Ã†", "Ã¢â‚¬", "ÃƒÆ")
 
-
 def latin_roundtrip(text: str, *, rounds: int = 4) -> str:
     current = text
     for _ in range(rounds):
@@ -26,7 +25,6 @@ def latin_roundtrip(text: str, *, rounds: int = 4) -> str:
         current = nxt
     return current
 
-
 def fix_mojibake(text: str) -> str:
     if ftfy is not None:
         text = ftfy.fix_text(text)
@@ -37,10 +35,8 @@ def fix_mojibake(text: str) -> str:
     text = text.replace("\u009d", "")
     return text
 
-
 def marker_count(text: str) -> int:
     return sum(text.count(m) for m in MOJIBAKE_MARKERS)
-
 
 def control_char_issues(text: str) -> list[str]:
     """Return human-readable control-char findings (frontmatter-weighted)."""
@@ -55,7 +51,6 @@ def control_char_issues(text: str) -> list[str]:
                 break
     return issues
 
-
 def scrub_file(path: Path, *, dry_run: bool) -> tuple[int, int]:
     original = path.read_text(encoding="utf-8")
     before = marker_count(original)
@@ -64,7 +59,6 @@ def scrub_file(path: Path, *, dry_run: bool) -> tuple[int, int]:
     if not dry_run and fixed != original:
         path.write_text(fixed, encoding="utf-8", newline="\n")
     return before, after
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -85,7 +79,6 @@ def main() -> int:
         action = "would scrub" if args.dry_run else "scrubbed"
         print(f"{action} {path}: markers {before} -> {after}")
     return exit_code
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

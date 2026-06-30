@@ -10,7 +10,6 @@ archive_links:
   - source-archive/statecraft/2026-06-17/README.md
   - source-archive/statecraft/2026-06-17/source-dialogue-works-larry-johnson-trump-surrender-document-total-iranian-victory-2026-06-17.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — 2026-06-17
 

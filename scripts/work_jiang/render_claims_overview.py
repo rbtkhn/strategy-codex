@@ -10,7 +10,6 @@ WORK_DIR = ROOT / "codex" / "predictive-history"
 CLAIMS = WORK_DIR / "claims" / "registry" / "claims.jsonl"
 OUT = WORK_DIR / "CLAIMS-OVERVIEW.md"
 
-
 def load_rows() -> list[dict]:
     rows = []
     if not CLAIMS.exists():
@@ -21,7 +20,6 @@ def load_rows() -> list[dict]:
             if line:
                 rows.append(json.loads(line))
     return rows
-
 
 def main() -> int:
     rows = load_rows()
@@ -75,7 +73,6 @@ def main() -> int:
     OUT.write_text("\n".join(lines), encoding="utf-8")
     print(f"Wrote {OUT}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

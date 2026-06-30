@@ -10,7 +10,6 @@ from pathlib import Path
 from cadence_learning import append_learning_event
 from repo_io import DEFAULT_PROFILE_ID
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-u", "--user", default=DEFAULT_PROFILE_ID)
@@ -23,7 +22,6 @@ def main() -> int:
     path = append_learning_event(args.user, args.event_type, payload, ledger_path=args.ledger)
     print(path)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

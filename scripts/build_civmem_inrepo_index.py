@@ -30,19 +30,16 @@ _STOPWORDS = frozenset(
     .split()
 )
 
-
 def _tokenize(text: str) -> set[str]:
     """Lowercase tokens 3+ chars, drop stopwords."""
     tokens = re.findall(r"[a-z0-9]{3,}", text.lower())
     return set(t for t in tokens if t not in _STOPWORDS)
-
 
 def _first_heading(text: str) -> str:
     for line in text.splitlines():
         if line.startswith("# "):
             return line[2:].strip()[:200]
     return ""
-
 
 def _body_snippet(text: str, max_chars: int = 500) -> str:
     """First paragraph or first max_chars of body after first heading."""
@@ -55,7 +52,6 @@ def _body_snippet(text: str, max_chars: int = 500) -> str:
     body = " ".join(lines[start:]).replace("\n", " ").strip()
     body = re.sub(r"\s+", " ", body)
     return body[:max_chars] if body else ""
-
 
 def build_markdown_index(base_dir: Path) -> dict:
     """Scan base_dir recursively for .md files; return index dict."""
@@ -81,11 +77,9 @@ def build_markdown_index(base_dir: Path) -> dict:
         })
     return {"version": 1, "entries": entries}
 
-
 def build_index() -> dict:
     """Scan docs/civilization-memory for .md files; return index dict."""
     return build_markdown_index(CIVMEM_DIR)
-
 
 def query_index(index: dict, question: str, limit: int = 5) -> list[str]:
     """
@@ -93,7 +87,6 @@ def query_index(index: dict, question: str, limit: int = 5) -> list[str]:
     """
     rows = query_index_entries(index, question, limit=limit)
     return [r["snippet"] for r in rows if r.get("snippet", "").strip()]
-
 
 def query_index_entries(index: dict, question: str, limit: int = 5) -> list[dict[str, object]]:
     """
@@ -117,7 +110,6 @@ def query_index_entries(index: dict, question: str, limit: int = 5) -> list[dict
         out.append({"overlap": o, "path": path, "snippet": snip[:600]})
     return out
 
-
 def query_inrepo_civmem(question: str, *, limit: int = 3) -> list[dict[str, object]]:
     """
     Load the on-disk inrepo index (if present) and return ranked matches.
@@ -130,7 +122,6 @@ def query_inrepo_civmem(question: str, *, limit: int = 3) -> list[dict[str, obje
     except (json.JSONDecodeError, OSError):
         return []
     return query_index_entries(index, question, limit=limit)
-
 
 def main() -> int:
     if len(sys.argv) < 2:
@@ -161,7 +152,6 @@ def main() -> int:
         return 0
     print("Usage: build | query \"...\" [--limit N]", file=sys.stderr)
     return 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

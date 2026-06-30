@@ -1,6 +1,5 @@
 # Aguilar source index
 
-WORK only; not Record.
 
 Purpose: canonical statecraft-side source index for **Anthony Aguilar** while raw-text authority stays in the Statecraft Archive.
 

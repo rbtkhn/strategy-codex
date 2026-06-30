@@ -9,18 +9,15 @@ from typing import Any
 TEXT_SUFFIXES = frozenset({".md", ".txt", ".markdown"})
 MIN_WORDS_NON_TRIVIAL = 50
 
-
 def safe_rel(path: Path, repo_root: Path) -> str:
     try:
         return path.resolve().relative_to(repo_root.resolve()).as_posix()
     except ValueError:
         return path.as_posix()
 
-
 def word_count(text: str) -> int:
     parts = re.split(r"\s+", text.strip())
     return len([p for p in parts if p])
-
 
 def is_forbidden_record_path(path: Path, repo_root: Path) -> bool:
     """True if path must not be used as harness or validator derived outputs."""
@@ -50,10 +47,8 @@ def is_forbidden_record_path(path: Path, repo_root: Path) -> bool:
         return True
     return True
 
-
 def is_text_like(path: Path) -> bool:
     return path.suffix.lower() in TEXT_SUFFIXES
-
 
 def inspect_artifact(path: Path, repo_root: Path) -> dict[str, Any]:
     """Portable artifact probe for carry harness receipts."""

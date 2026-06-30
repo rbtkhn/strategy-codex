@@ -12,7 +12,6 @@ POLICY_DEFAULTS_PATH = REPO_ROOT / "platform/config" / "policy_modes" / "default
 ENV_POLICY_MODE = "GRACE_MAR_POLICY_MODE"
 DEFAULT_MODE = "operator_only"
 
-
 def load_defaults(path: Path | None = None) -> dict[str, dict[str, Any]]:
     """Return mode name -> config dict (excludes schemaVersion)."""
     p = path or POLICY_DEFAULTS_PATH
@@ -29,7 +28,6 @@ def load_defaults(path: Path | None = None) -> dict[str, dict[str, Any]]:
         return {DEFAULT_MODE: _fallback_operator_only()}
     return out
 
-
 def _fallback_operator_only() -> dict[str, Any]:
     return {
         "retrieval_scope": "lane_default",
@@ -39,11 +37,9 @@ def _fallback_operator_only() -> dict[str, Any]:
         "show_receipts": True,
     }
 
-
 class UnknownPolicyModeError(ValueError):
     """Raised in strict mode when a policy mode name is not in defaults."""
     pass
-
 
 def resolve_mode(
     name: str | None,
@@ -69,7 +65,6 @@ def resolve_mode(
             f"Pass a valid mode or remove --policy-mode to use default ({DEFAULT_MODE})."
         )
     return DEFAULT_MODE
-
 
 def staging_decision(
     mode_name: str,
@@ -106,7 +101,6 @@ def staging_decision(
         )
     return ("allowed", f"Unknown candidate_staging {cs!r}; treating as allowed.")
 
-
 def mode_summary_lines(mode_name: str, defaults: dict[str, dict[str, Any]] | None = None) -> list[str]:
     """Short bullets for Markdown (review packet, etc.)."""
     modes = defaults if defaults is not None else load_defaults()
@@ -119,7 +113,6 @@ def mode_summary_lines(mode_name: str, defaults: dict[str, dict[str, Any]] | Non
         f"- **show_receipts:** `{m.get('show_receipts', True)}`",
     ]
     return lines
-
 
 def policy_mode_header_lines(mode_name: str, defaults: dict[str, dict[str, Any]] | None = None) -> list[str]:
     """Two-line header for budgeted context / artifacts."""

@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 # Internal vs Public Vocabulary
 
-WORK only; not Record.
 
 ## Purpose
 

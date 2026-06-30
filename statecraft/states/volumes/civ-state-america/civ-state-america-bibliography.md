@@ -1,6 +1,5 @@
 ﻿# America Bibliography
 
-WORK only; not Record.
 
 This is the working volume bibliography for the America CIV-STATE book. Its center of gravity is primary sources first, then bounded secondary and interpretive support. America does not carry a true ancient documentary opening here; its source-bearing chain begins in medieval Anglian inheritance, runs through an industrial shelf ending in 1991, and continues into a cybernetic shelf of unipolar command under fragmentation.
 

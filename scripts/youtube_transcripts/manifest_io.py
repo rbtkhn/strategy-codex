@@ -7,10 +7,8 @@ from typing import Any
 
 from youtube_transcripts.constants import MANIFEST_VERSION, PIPELINE_VERSION
 
-
 def manifest_path(output_dir: Path) -> Path:
     return output_dir / "transcript_manifest.json"
-
 
 def load_manifest(path: Path) -> dict[str, Any]:
     if not path.exists():
@@ -33,14 +31,12 @@ def load_manifest(path: Path) -> dict[str, Any]:
         data["videos"] = {}
     return data
 
-
 def save_manifest(path: Path, data: dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     data["manifest_version"] = MANIFEST_VERSION
     data["pipeline_version"] = PIPELINE_VERSION
     data["last_run_utc"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     path.write_text(json.dumps(data, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
-
 
 def update_video_entry(
     manifest: dict[str, Any],

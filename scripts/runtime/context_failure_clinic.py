@@ -38,7 +38,6 @@ GOVERNANCE_NOTE = (
     "failures automatically. Recommended actions require operator review."
 )
 
-
 @dataclass(frozen=True)
 class Finding:
     level: str
@@ -46,13 +45,11 @@ class Finding:
     message: str
     matched_terms: list[str]
 
-
 @dataclass(frozen=True)
 class RecommendedAction:
     priority: str
     category: str
     action: str
-
 
 @dataclass(frozen=True)
 class ContextFailureReport:
@@ -64,7 +61,6 @@ class ContextFailureReport:
     recommended_actions: list[RecommendedAction]
     governance_note: str
 
-
 def read_input(path: Path) -> str:
     if not path.exists():
         raise SystemExit(f"Input file not found: {path}")
@@ -72,11 +68,9 @@ def read_input(path: Path) -> str:
         raise SystemExit(f"Input path is not a file: {path}")
     return path.read_text(encoding="utf-8")
 
-
 def find_terms(text: str, terms: Iterable[str]) -> list[str]:
     lowered = text.lower()
     return sorted({term for term in terms if term.lower() in lowered})
-
 
 def regex_matches(text: str, patterns: Iterable[str]) -> list[str]:
     matches: list[str] = []
@@ -85,10 +79,8 @@ def regex_matches(text: str, patterns: Iterable[str]) -> list[str]:
             matches.append(pattern)
     return matches
 
-
 def add_score(scores: dict[str, int], category: str, amount: int) -> None:
     scores[category] = min(10, scores.get(category, 0) + amount)
-
 
 def diagnose_surface_confusion(
     text: str,
@@ -165,7 +157,6 @@ def diagnose_surface_confusion(
             )
         )
 
-
 def diagnose_stale_context(
     text: str,
     scores: dict[str, int],
@@ -226,7 +217,6 @@ def diagnose_stale_context(
                 "Identify the replacement file, authority surface, or current workflow before reusing this context.",
             )
         )
-
 
 def diagnose_missing_evidence(
     text: str,
@@ -290,7 +280,6 @@ def diagnose_missing_evidence(
             )
         )
 
-
 def diagnose_compression_loss(
     text: str,
     scores: dict[str, int],
@@ -349,7 +338,6 @@ def diagnose_compression_loss(
                 compression_terms,
             )
         )
-
 
 def diagnose_lane_misrouting(
     text: str,
@@ -410,7 +398,6 @@ def diagnose_lane_misrouting(
             )
         )
 
-
 def diagnose_authority_drift(
     text: str,
     scores: dict[str, int],
@@ -463,7 +450,6 @@ def diagnose_authority_drift(
             )
         )
 
-
 def diagnose_synthesis_overreach(
     text: str,
     scores: dict[str, int],
@@ -515,7 +501,6 @@ def diagnose_synthesis_overreach(
             )
         )
 
-
 def compute_overall_risk(scores: dict[str, int]) -> str:
     max_score = max(scores.values()) if scores else 0
     total = sum(scores.values())
@@ -524,7 +509,6 @@ def compute_overall_risk(scores: dict[str, int]) -> str:
     if max_score >= 5 or total >= 12:
         return "medium"
     return "low"
-
 
 def dedupe_actions(actions: list[RecommendedAction]) -> list[RecommendedAction]:
     seen: set[tuple[str, str, str]] = set()
@@ -535,7 +519,6 @@ def dedupe_actions(actions: list[RecommendedAction]) -> list[RecommendedAction]:
             deduped.append(action)
             seen.add(key)
     return deduped
-
 
 def evaluate_context(path: Path) -> ContextFailureReport:
     text = read_input(path)
@@ -577,7 +560,6 @@ def evaluate_context(path: Path) -> ContextFailureReport:
         governance_note=GOVERNANCE_NOTE,
     )
 
-
 def report_to_jsonable(report: ContextFailureReport) -> dict:
     return {
         "schema_version": report.schema_version,
@@ -588,7 +570,6 @@ def report_to_jsonable(report: ContextFailureReport) -> dict:
         "recommended_actions": [asdict(item) for item in report.recommended_actions],
         "governance_note": report.governance_note,
     }
-
 
 def validate_report_json(repo_root: Path, jsonable: dict) -> None:
     """Raise jsonschema.ValidationError if instance does not match schema."""
@@ -602,7 +583,6 @@ def validate_report_json(repo_root: Path, jsonable: dict) -> None:
         raise SystemExit(f"Schema not found: {schema_path}")
     schema = json.loads(schema_path.read_text(encoding="utf-8"))
     Draft202012Validator(schema).validate(jsonable)
-
 
 def report_to_markdown(report: ContextFailureReport) -> str:
     lines = [
@@ -630,7 +610,6 @@ def report_to_markdown(report: ContextFailureReport) -> str:
         lines.append("No recommended actions.")
     lines.extend(["", "## Governance Note", "", report.governance_note, ""])
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Diagnose Grace-Mar context/retrieval/routing failures.")
@@ -672,7 +651,6 @@ def main() -> int:
     else:
         print(f"Completed with no risk findings. Overall risk: {report.overall_risk}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

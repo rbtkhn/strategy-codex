@@ -1,6 +1,5 @@
 # Crooke Source Index
 
-WORK only; not Record.
 
 Purpose: exhaustive route map for every resolved `raw-input` appearance of Alastair Crooke currently materialized in this repo, including Crooke-owned Substack captures, host-owned interviews, and shorthand support-tier raw-input captures that clearly bear the appearance.
 

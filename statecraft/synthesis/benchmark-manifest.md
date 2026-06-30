@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # State Synthesis Benchmark Manifest
 

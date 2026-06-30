@@ -59,7 +59,6 @@ CRITICAL_MARKDOWN_PATHS: tuple[str, ...] = (
 # Inline [text](target); exclude image links ![...](...)
 _INLINE_LINK_RE = re.compile(r"(?<!\!)\[[^\]]*\]\(([^)]+)\)")
 
-
 def validate_json_file(path: Path) -> str | None:
     """Return an error string if JSON cannot be parsed; None if ok."""
     try:
@@ -72,7 +71,6 @@ def validate_json_file(path: Path) -> str | None:
         return f"{path}: JSON: {e}"
     return None
 
-
 def validate_schema_registry_json(repo_root: Path = REPO_ROOT) -> list[str]:
     errors: list[str] = []
     reg = repo_root / "schemas/registry"
@@ -84,7 +82,6 @@ def validate_schema_registry_json(repo_root: Path = REPO_ROOT) -> list[str]:
             errors.append(err)
     return errors
 
-
 def validate_example_workflow_json(repo_root: Path = REPO_ROOT) -> list[str]:
     errors: list[str] = []
     examples = repo_root / "docs" / "workflows" / "known-path-workflows" / "examples"
@@ -95,7 +92,6 @@ def validate_example_workflow_json(repo_root: Path = REPO_ROOT) -> list[str]:
         if err:
             errors.append(err)
     return errors
-
 
 def validate_artifacts_json(repo_root: Path = REPO_ROOT) -> tuple[list[str], int]:
     """Validate *.json under runtime/artifacts/ under size cap. Returns (errors, skipped_oversized_count)."""
@@ -119,7 +115,6 @@ def validate_artifacts_json(repo_root: Path = REPO_ROOT) -> tuple[list[str], int
             errors.append(err)
     return errors, skipped
 
-
 def validate_json_globs(repo_root: Path = REPO_ROOT) -> tuple[list[str], int]:
     """Run all JSON glob validations. Returns (errors, artifacts_skipped_oversized_count)."""
     errors: list[str] = []
@@ -128,7 +123,6 @@ def validate_json_globs(repo_root: Path = REPO_ROOT) -> tuple[list[str], int]:
     art_err, skipped = validate_artifacts_json(repo_root)
     errors.extend(art_err)
     return errors, skipped
-
 
 def validate_pyproject(repo_root: Path = REPO_ROOT) -> str | None:
     path = repo_root / "pyproject.toml"
@@ -141,7 +135,6 @@ def validate_pyproject(repo_root: Path = REPO_ROOT) -> str | None:
     except Exception as e:
         return f"{path}: TOML parse error: {e}"
     return None
-
 
 def validate_pre_commit_yaml(repo_root: Path = REPO_ROOT) -> str | None:
     """
@@ -162,7 +155,6 @@ def validate_pre_commit_yaml(repo_root: Path = REPO_ROOT) -> str | None:
         return f"{path}: YAML parse error: {e}"
     return None
 
-
 def _read_markdown_lines(path: Path) -> list[str]:
     raw = path.read_bytes()
     if raw.startswith(b"\xff\xfe") or raw.startswith(b"\xfe\xff"):
@@ -171,7 +163,6 @@ def _read_markdown_lines(path: Path) -> list[str]:
         return raw.decode("utf-8").splitlines()
     except UnicodeDecodeError:
         return raw.decode("cp1252", errors="replace").splitlines()
-
 
 def iter_markdown_links(path: Path) -> Iterator[tuple[int, str]]:
     """
@@ -192,7 +183,6 @@ def iter_markdown_links(path: Path) -> Iterator[tuple[int, str]]:
     for line_no, line in out_lines:
         for m in _INLINE_LINK_RE.finditer(line):
             yield line_no, m.group(1).strip()
-
 
 def _should_skip_target(raw: str) -> bool:
     t = raw.strip()
@@ -218,7 +208,6 @@ def _should_skip_target(raw: str) -> bool:
     if not path_part:
         return True
     return False
-
 
 def validate_markdown_links(
     paths: list[Path],
@@ -268,7 +257,6 @@ def validate_markdown_links(
         errors.append(f"{md_rel}:{raw}->{detail}")
     return errors
 
-
 def warn_long_lines(paths: list[Path], repo_root: Path = REPO_ROOT, limit: int = LONG_LINE_WARN_CHARS) -> list[str]:
     """Return warning lines (already prefixed); does not imply failure."""
     warnings: list[str] = []
@@ -285,10 +273,8 @@ def warn_long_lines(paths: list[Path], repo_root: Path = REPO_ROOT, limit: int =
                 warnings.append(f"WARNING: long line ({len(line)} chars): {rel}:{i}")
     return sorted(warnings)
 
-
 def critical_markdown_paths(repo_root: Path = REPO_ROOT) -> list[Path]:
     return sorted(repo_root / p for p in CRITICAL_MARKDOWN_PATHS)
-
 
 def _glob_markdown_under(root: Path) -> list[Path]:
     if not root.is_dir():
@@ -299,7 +285,6 @@ def _glob_markdown_under(root: Path) -> list[Path]:
             continue
         out.append(path)
     return out
-
 
 def collect_markdown_paths(repo_root: Path, scope: str) -> list[Path]:
     """Return sorted markdown paths for repo_surgeon link scans."""
@@ -324,7 +309,6 @@ def collect_markdown_paths(repo_root: Path, scope: str) -> list[Path]:
         raise ValueError(f"unknown markdown scope: {scope!r}")
 
     return sorted(paths)
-
 
 def main() -> int:
     repo_root = REPO_ROOT
@@ -387,7 +371,6 @@ def main() -> int:
         file=sys.stderr,
     )
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

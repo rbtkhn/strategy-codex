@@ -1,6 +1,5 @@
 # Sacrifice And Violence
 
-WORK only; not Record.
 
 ## Purpose
 

@@ -26,7 +26,6 @@ CONTRADICTION_MARKERS = ["contradiction", "conflict", "in tension", "uncertain"]
 TASK_EXCERPT_MAX_WORDS = 120
 NOTABLE_CHECKS_CAP = 24
 
-
 def load_json_if_exists(path: Path) -> dict[str, Any] | None:
     if not path.is_file():
         return None
@@ -35,11 +34,9 @@ def load_json_if_exists(path: Path) -> dict[str, Any] | None:
     except (OSError, json.JSONDecodeError):
         return None
 
-
 def _append_if_present(items: list[str], value: str | None) -> None:
     if value and value not in items:
         items.append(value)
-
 
 def read_text_if_possible(path: Path) -> str | None:
     if not path.is_file():
@@ -48,7 +45,6 @@ def read_text_if_possible(path: Path) -> str | None:
         return path.read_text(encoding="utf-8", errors="replace")
     except OSError:
         return None
-
 
 def extract_task_excerpt(text: str, max_words: int = TASK_EXCERPT_MAX_WORDS) -> str:
     t = text.strip()
@@ -60,7 +56,6 @@ def extract_task_excerpt(text: str, max_words: int = TASK_EXCERPT_MAX_WORDS) -> 
         return t
     return " ".join(words[:max_words]) + " …"
 
-
 def scan_markers_simple(text: str, markers: list[str]) -> dict[str, int]:
     by_marker: dict[str, int] = {}
     lower = text.lower()
@@ -70,7 +65,6 @@ def scan_markers_simple(text: str, markers: list[str]) -> dict[str, int]:
         else:
             by_marker[m] = lower.count(m.lower())
     return by_marker
-
 
 def collect_input_paths(
     repo_root: Path,
@@ -112,13 +106,11 @@ def collect_input_paths(
     }
     return inputs, existence_notes
 
-
 def _validator_by_id(validators: list[dict[str, Any]], vid: str) -> dict[str, Any] | None:
     for v in validators:
         if v.get("id") == vid:
             return v
     return None
-
 
 def derive_uncertainties(
     validation_report: dict[str, Any] | None,
@@ -150,7 +142,6 @@ def derive_uncertainties(
         out.extend(chunks)
     return out
 
-
 def derive_contradictions(
     validation_report: dict[str, Any] | None,
     repo_root: Path,
@@ -178,7 +169,6 @@ def derive_contradictions(
                 out.append(f"{rel}: contradiction/tension-marker hits={total}")
     return out
 
-
 def notable_checks_from_validation(validation_report: dict[str, Any] | None) -> tuple[list[dict[str, str]], str]:
     notes = ""
     if not validation_report:
@@ -200,7 +190,6 @@ def notable_checks_from_validation(validation_report: dict[str, Any] | None) -> 
     summ = validation_report.get("summary") or {}
     notes = str(summ.get("notes", "") or "")
     return notable, notes
-
 
 def derive_review_readiness(
     *,
@@ -262,7 +251,6 @@ def derive_review_readiness(
         return "needs_review", fmt_parts(*reasons_nr)
 
     return "pass", "No blocking signals from loaded reports and declared paths."
-
 
 def render_review_packet_markdown(packet: dict[str, Any]) -> str:
     lines: list[str] = []
@@ -404,7 +392,6 @@ def render_review_packet_markdown(packet: dict[str, Any]) -> str:
     lines.append(rb.get("notes", ""))
     lines.append("")
     return "\n".join(lines)
-
 
 def build_review_packet_dict(
     *,
@@ -690,7 +677,6 @@ def build_review_packet_dict(
         packet["task_shape"] = task_shape_obj
     return packet
 
-
 def exit_code_for_readiness(status: str, mode: str) -> int:
     if mode == "never":
         return 0
@@ -698,7 +684,6 @@ def exit_code_for_readiness(status: str, mode: str) -> int:
         return 1 if status == "fail" else 0
     # needs_review
     return 1 if status in ("fail", "needs_review") else 0
-
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Work-strategy review packet builder (WORK-only).")
@@ -726,7 +711,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     root = args.repo_root or Path(__file__).resolve().parent.parent.parent
     args.repo_root = str(Path(root).resolve())
     return args
-
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
@@ -784,7 +768,6 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps(packet, indent=2, ensure_ascii=False))
 
     return exit_c
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # Crooke shelf - 2026-01
 
-WORK only; not Record.
 
 Status: continuity/setup month.
 

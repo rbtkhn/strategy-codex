@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Crooke Three-Date Arc — Ceasefire-for-All (Jun 4 → 5 → 8)
 

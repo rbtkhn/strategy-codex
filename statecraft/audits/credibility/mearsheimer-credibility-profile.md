@@ -1,6 +1,5 @@
 # Mearsheimer credibility profile
 
-WORK only; not Record.
 
 ## Summary
 

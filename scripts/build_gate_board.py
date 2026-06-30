@@ -29,7 +29,6 @@ from operator_dashboard_common import extract_yaml_scalar  # noqa: E402
 from recursion_gate_review import parse_review_candidates  # noqa: E402
 from repo_io import DEFAULT_PROFILE_ID, profile_dir  # noqa: E402, ARTIFACTS_DIR
 
-
 def _users_dir(user_id: str, repo_root: Path) -> Path:
     return profile_dir(user_id)
 
@@ -43,18 +42,14 @@ _HAS_ARTIFACT_RE = re.compile(
 )
 _CONFLICT_RE = re.compile(r"conflicts?:|contradiction|advisory_flagged", re.IGNORECASE)
 
-
 def _status(yaml_body: str) -> str:
     return (extract_yaml_scalar(yaml_body, "status") or "pending").strip().lower()
-
 
 def _fallback_conflict(yaml_body: str) -> bool:
     return bool(_CONFLICT_RE.search(yaml_body))
 
-
 def _fallback_artifact(yaml_body: str) -> bool:
     return bool(_HAS_ARTIFACT_RE.search(yaml_body))
-
 
 def _pending_bucket(
     yaml_body: str,
@@ -82,7 +77,6 @@ def _pending_bucket(
 
     return "ready_for_review"
 
-
 def _type_label(yaml_body: str, row: dict[str, Any] | None) -> str:
     for k in ("proposal_class", "candidate_type", "mind_category"):
         if row and row.get(k):
@@ -91,7 +85,6 @@ def _type_label(yaml_body: str, row: dict[str, Any] | None) -> str:
         if v:
             return v
     return "unknown"
-
 
 def _surface_label(yaml_body: str, row: dict[str, Any] | None) -> str:
     if row and row.get("profile_target"):
@@ -103,7 +96,6 @@ def _surface_label(yaml_body: str, row: dict[str, Any] | None) -> str:
     )
     return (v or "-")[:72]
 
-
 def _lane_hint(yaml_body: str, row: dict[str, Any] | None) -> str:
     if row and row.get("territory_label"):
         return str(row["territory_label"])[:40]
@@ -114,12 +106,10 @@ def _lane_hint(yaml_body: str, row: dict[str, Any] | None) -> str:
         return ck.split(":")[0][:40]
     return "-"
 
-
 def _summary_one_line(yaml_body: str, row: dict[str, Any] | None) -> str:
     s = (row.get("summary") if row else None) or extract_yaml_scalar(yaml_body, "summary") or ""
     s = s.replace("\n", " ").strip()
     return s[:120]
-
 
 def card_line(cid: str, yaml_body: str, row: dict[str, Any] | None) -> str:
     parts = [
@@ -135,7 +125,6 @@ def card_line(cid: str, yaml_body: str, row: dict[str, Any] | None) -> str:
         if conf == "low":
             line += f" — confidence: {conf}"
     return f"- {line}"
-
 
 def classify_gate(
     *,
@@ -196,7 +185,6 @@ def classify_gate(
 
     return columns, duplicates
 
-
 def render_board(
     *,
     user_id: str,
@@ -240,7 +228,6 @@ def render_board(
         )
     return "".join(lines)
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(
         description="Build gate-board.md Kanban view from recursion-gate.md (read-only)."
@@ -274,7 +261,6 @@ def main() -> int:
     out.write_text(md, encoding="utf-8")
     print(f"wrote {out}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

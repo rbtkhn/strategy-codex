@@ -43,7 +43,6 @@ GENERATED_HEADER = (
     "-->\n\n"
 )
 
-
 def validate_slug(slug: str) -> str:
     s = (slug or "").strip()
     if not s:
@@ -65,17 +64,14 @@ def validate_slug(slug: str) -> str:
         sys.exit(1)
     return s
 
-
 def title_from_slug(slug: str) -> str:
     return " ".join(p.capitalize() for p in re.split(r"[-_]+", slug) if p)
-
 
 def load_template(path: Path) -> str:
     if not path.is_file():
         print(f"error: template is not a file: {path}", file=sys.stderr)
         sys.exit(1)
     return path.read_text(encoding="utf-8")
-
 
 def render_map(template: str, title: str) -> str:
     body = template
@@ -109,16 +105,14 @@ def render_map(template: str, title: str) -> str:
 
     return GENERATED_HEADER + body
 
-
 def resolve_repo_path(p: Path) -> Path:
     if p.is_absolute():
         return p.resolve()
     return (REPO_ROOT / p).resolve()
 
-
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(
-        description="Create a dated Moonshot Contribution Map from the template (WORK only)."
+        description="Create a dated Moonshot Contribution Map from the template (non-authoritative)."
     )
     ap.add_argument("--slug", required=True, help="kebab or snake name (a-z, 0-9, -, _)")
     ap.add_argument(
@@ -154,7 +148,6 @@ def parse_args() -> argparse.Namespace:
         help="overwrite existing file if present",
     )
     return ap.parse_args()
-
 
 def main() -> int:
     args = parse_args()
@@ -200,7 +193,6 @@ def main() -> int:
     out_path.write_text(final_text, encoding="utf-8", newline="\n")
     print(out_path.relative_to(REPO_ROOT).as_posix())
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

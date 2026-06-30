@@ -34,26 +34,22 @@ _FORBIDDEN_HINTS = (
     "archive/grace-mar-instance/bot/prompt.py",
 )
 
-
 def _worker_home(repo_root: Path) -> Path:
     raw = os.environ.get("GRACE_MAR_RUNTIME_WORKER_HOME", "").strip()
     if raw:
         return Path(raw).expanduser().resolve()
     return (repo_root / "runtime" / "runtime-worker").resolve()
 
-
 def _peer_run_id() -> str:
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     h = hashlib.sha256(f"{ts}:{uuid.uuid4().hex}".encode()).hexdigest()[:12]
     return f"pr_{ts}_{h}"
-
 
 def _repo_rel(path: Path, repo_root: Path) -> str:
     try:
         return path.resolve().relative_to(repo_root.resolve()).as_posix()
     except ValueError:
         return str(path.resolve())
-
 
 def _validate(instance: dict[str, Any], schema_path: Path) -> None:
     try:
@@ -62,7 +58,6 @@ def _validate(instance: dict[str, Any], schema_path: Path) -> None:
         return
     schema = json.loads(schema_path.read_text(encoding="utf-8"))
     jsonschema.Draft202012Validator(schema).validate(instance)
-
 
 def _heuristic_verdict(
     *,
@@ -117,7 +112,6 @@ def _heuristic_verdict(
         "notes": notes,
     }
 
-
 def build_peer_review(
     *,
     repo_root: Path,
@@ -167,7 +161,6 @@ def build_peer_review(
         },
         "evidence_discipline": ev,
     }
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -234,7 +227,6 @@ def main() -> int:
     if args.output is None:
         sys.stdout.write(text)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

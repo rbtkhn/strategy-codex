@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Source Hygiene 2026 04 17 Us Executive Dual Register (compat redirect)
 

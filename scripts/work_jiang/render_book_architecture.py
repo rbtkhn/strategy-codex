@@ -19,11 +19,9 @@ OUT_VOL5 = WORK_DIR / "BOOK-ARCHITECTURE-VOLUME-V.md"
 OUT_VOL6 = WORK_DIR / "BOOK-ARCHITECTURE-VOLUME-VI.md"
 OUT_VOL7 = WORK_DIR / "BOOK-ARCHITECTURE-VOLUME-VII.md"
 
-
 def load_yaml(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def validate(data: dict) -> list[str]:
     errors: list[str] = []
@@ -34,7 +32,6 @@ def validate(data: dict) -> list[str]:
     if not chapters:
         errors.append("book.chapters must contain at least one chapter")
     return errors
-
 
 def render(data: dict) -> str:
     project = data["project"]
@@ -151,7 +148,6 @@ def render(data: dict) -> str:
     lines.append("")
     return "\n".join(lines)
 
-
 def render_volume_ii(data: dict) -> str | None:
     """Render BOOK-ARCHITECTURE-VOLUME-II.md from `volume_2_civilization`."""
     vol = data.get("volume_2_civilization") or {}
@@ -255,7 +251,6 @@ def render_volume_ii(data: dict) -> str | None:
     )
     lines.append("")
     return "\n".join(lines)
-
 
 def render_volume_iii(data: dict) -> str | None:
     """Render BOOK-ARCHITECTURE-VOLUME-III.md from `volume_3_secret_history`."""
@@ -361,7 +356,6 @@ def render_volume_iii(data: dict) -> str | None:
     lines.append("")
     return "\n".join(lines)
 
-
 def render_volume_iv(data: dict) -> str | None:
     """Render BOOK-ARCHITECTURE-VOLUME-IV.md from `volume_4_game_theory`."""
     vol = data.get("volume_4_game_theory") or {}
@@ -465,7 +459,6 @@ def render_volume_iv(data: dict) -> str | None:
     )
     lines.append("")
     return "\n".join(lines)
-
 
 def render_volume_v(data: dict) -> str | None:
     """Render BOOK-ARCHITECTURE-VOLUME-V.md from `volume_5_great_books`."""
@@ -571,7 +564,6 @@ def render_volume_v(data: dict) -> str | None:
     lines.append("")
     return "\n".join(lines)
 
-
 def render_volume_vi(data: dict) -> str | None:
     """Render BOOK-ARCHITECTURE-VOLUME-VI.md from `volume_6_interviews`."""
     vol = data.get("volume_6_interviews") or {}
@@ -675,7 +667,6 @@ def render_volume_vi(data: dict) -> str | None:
     )
     lines.append("")
     return "\n".join(lines)
-
 
 def render_volume_vii(data: dict) -> str | None:
     """Render BOOK-ARCHITECTURE-VOLUME-VII.md from `volume_7_essays`."""
@@ -781,7 +772,6 @@ def render_volume_vii(data: dict) -> str | None:
     lines.append("")
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -834,7 +824,6 @@ def main() -> int:
         args.json_summary.write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
         print(f"Wrote {args.json_summary}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

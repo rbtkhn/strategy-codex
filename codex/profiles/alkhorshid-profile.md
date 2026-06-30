@@ -1,6 +1,5 @@
 # Alkhorshid profile (legacy compatibility pointer)
 
-WORK only; not Record.
 
 The canonical Nima Alkhorshid speaker profile now lives here:
 

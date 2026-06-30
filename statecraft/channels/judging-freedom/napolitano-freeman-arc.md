@@ -1,6 +1,5 @@
 # arc-freeman-napolitano-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-freeman-napolitano-host.md](../../notes/arc-freeman-napolitano-host.md)
 

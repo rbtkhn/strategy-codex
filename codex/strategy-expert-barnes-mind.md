@@ -1,6 +1,5 @@
 # Expert mind — Robert Barnes (`barnes`) — compatibility redirect
 
-WORK only; not Record.
 
 **Canonical SSOT:** [statecraft/voices/barnes/barnes-profile.md](../statecraft/voices/barnes/barnes-profile.md) — Identity, Tier A `#linguistic-style-fingerprint-detailed`, convergence/tension, failure modes, June 2026 receipts.
 

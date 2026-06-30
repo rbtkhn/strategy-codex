@@ -10,7 +10,6 @@ archive_links:
   - source-archive/statecraft/2026-02-03/README.md
   - source-archive/statecraft/2026-02-03/source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — 2026-02-03
 

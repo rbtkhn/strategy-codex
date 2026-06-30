@@ -13,14 +13,12 @@ from typing import Any
 
 from repo_io import profile_dir, read_path, read_surface_markdown
 
-
 def _trunc(text: str, max_len: int) -> tuple[str, bool]:
     if max_len <= 0 or not text:
         return text, False
     if len(text) <= max_len:
         return text, False
     return text[:max_len] + "\n\n… [truncated]\n", True
-
 
 def load_record_slices_for_lesson(
     user_id: str,
@@ -109,7 +107,6 @@ def load_record_slices_for_lesson(
         "provenance": provenance,
         "warnings": warnings,
     }
-
 
 def format_minimal_lesson_prompt(payload: dict[str, Any], *, task_hint: str = "") -> str:
     """

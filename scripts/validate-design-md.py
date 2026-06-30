@@ -32,7 +32,6 @@ H2_ALTERNATIVES: Tuple[Tuple[str, ...], ...] = (
 
 REQUIRED_HEX_IN_FILE = ("#0A84FF", "#0F0F0F", "#E0E0E0")
 
-
 def _h2_headings(content: str) -> List[str]:
     headings: List[str] = []
     for line in content.splitlines():
@@ -43,7 +42,6 @@ def _h2_headings(content: str) -> List[str]:
             headings.append(m.group(1).strip())
     return headings
 
-
 def _h2_present(required: str, headings: List[str]) -> bool:
     r = required.lower()
     for h in headings:
@@ -51,10 +49,8 @@ def _h2_present(required: str, headings: List[str]) -> bool:
             return True
     return False
 
-
 def _h2_group_satisfied(alternatives: Tuple[str, ...], headings: List[str]) -> bool:
     return any(_h2_present(alt, headings) for alt in alternatives)
-
 
 def _section_after_any_h2(content: str, title_prefixes: Tuple[str, ...]) -> str | None:
     for prefix in title_prefixes:
@@ -62,7 +58,6 @@ def _section_after_any_h2(content: str, title_prefixes: Tuple[str, ...]) -> str 
         if block is not None:
             return block
     return None
-
 
 def _section_after_h2(content: str, title_prefix: str) -> str | None:
     """Return body after first ## heading whose text starts with title_prefix (case-insensitive)."""
@@ -86,7 +81,6 @@ def _section_after_h2(content: str, title_prefix: str) -> str | None:
             break
         chunk.append(line)
     return "\n".join(chunk)
-
 
 class DesignMDValidator:
     def __init__(self, design_md_path: Path) -> None:
@@ -176,7 +170,6 @@ class DesignMDValidator:
             print("\nOK: no errors or warnings.")
         print("============================")
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate Grace-Mar DESIGN.md")
     parser.add_argument(
@@ -200,7 +193,6 @@ def main() -> int:
     if not ok or (args.strict and warnings):
         return 1
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

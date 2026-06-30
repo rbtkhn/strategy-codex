@@ -1,6 +1,5 @@
 # China Geo
 
-WORK only; not Record.
 
 ## Purpose
 

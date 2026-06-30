@@ -1,7 +1,6 @@
 # strategy-state-iran — `chapters/2026-04/days.md`
 <!-- word_count: 359 -->
 
-WORK only; not Record.
 
 **Purpose:** Iran **institutional / elite** continuity for **April 2026**, parallel to the main notebook [`days.md`](../../../chapters/2026/2026-04/days.md). **Per-day prose** lives under [`daily/`](daily/) (Chronicle / Reflection / References / Foresight). This file is a **calendar index** for the full month.
 

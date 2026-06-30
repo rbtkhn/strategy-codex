@@ -1,6 +1,5 @@
 # Strategy expert — John Helmer (`helmer`)
 
-WORK only; not Record.
 
 **Canonical profile:** this file.
 **Canonical shelf:** [helmer-source-index.md](helmer-source-index.md) · [voices index](../voice-index.md)

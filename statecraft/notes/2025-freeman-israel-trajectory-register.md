@@ -15,7 +15,6 @@ archive_links:
   - source-archive/statecraft/2025-11-21/source-dialogue-works-amb-chas-freeman-why-ukraine-and-israel-are-closer-to-a-dead-end-than-ever-2025-11-21.md
   - source-archive/statecraft/2026-06-06/source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md
 ---
-WORK only; not Record.
 
 # Freeman — Israel self-destruction trajectory register
 

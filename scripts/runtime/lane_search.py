@@ -15,7 +15,6 @@ if str(_RUNTIME_DIR) not in sys.path:
 from observation_store import load_all  # noqa: E402
 from search_scoring import parse_cli_datetime, parse_obs_timestamp, score_observation, ts_sort_key  # noqa: E402
 
-
 def format_ts_display(raw: str | None) -> str:
     if not raw:
         return "?"
@@ -27,7 +26,6 @@ def format_ts_display(raw: str | None) -> str:
 
         dt = dt.replace(tzinfo=tz.utc)
     return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
-
 
 def _passes_since_until(obs: dict, since: datetime | None, until: datetime | None) -> bool:
     dt = parse_obs_timestamp(obs.get("timestamp"))
@@ -43,13 +41,11 @@ def _passes_since_until(obs: dict, since: datetime | None, until: datetime | Non
         return False
     return True
 
-
 def _has_all_tags(obs: dict, required: list[str]) -> bool:
     if not required:
         return True
     obs_tags = [t.lower() for t in (obs.get("tags") or [])]
     return all(any(req.lower() == ot for ot in obs_tags) for req in required)
-
 
 def filter_rows(
     rows: list[dict],
@@ -73,7 +69,6 @@ def filter_rows(
         out.append(r)
     return out
 
-
 def compact_json_obj(score: float, obs: dict) -> dict:
     summ = (obs.get("summary") or "").replace("\n", " ").strip()
     if len(summ) > 500:
@@ -90,7 +85,6 @@ def compact_json_obj(score: float, obs: dict) -> dict:
     }
     return d
 
-
 def compact_timeline_obj(obs: dict) -> dict:
     """Compact row for lane_timeline JSON (no score; no notes)."""
     summ = (obs.get("summary") or "").replace("\n", " ").strip()
@@ -105,7 +99,6 @@ def compact_timeline_obj(obs: dict) -> dict:
         "summary": summ,
         "confidence": obs.get("confidence"),
     }
-
 
 def rank_hits(
     rows: list[dict],
@@ -126,7 +119,6 @@ def rank_hits(
 
     hits.sort(key=lambda h: (-h[0], -ts_sort_key(h[1])))
     return hits
-
 
 def top_hits_for_timeline(
     rows: list[dict],
@@ -159,7 +151,6 @@ def top_hits_for_timeline(
     if pick < 1 or pick > len(ranked):
         return None, f"--pick must be 1..{len(ranked)}"
     return ranked[pick - 1][1], None
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Search runtime observations (compact index).")
@@ -212,7 +203,6 @@ def main() -> int:
         print()
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

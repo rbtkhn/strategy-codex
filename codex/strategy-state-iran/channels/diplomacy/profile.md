@@ -33,4 +33,3 @@
 
 [channels README](../README.md) · [weave](../../weave/) · [templates](../../templates/INSTITUTIONAL-LEDGER-SIGNAL-CLASSES.md)
 
-WORK only; not Record.

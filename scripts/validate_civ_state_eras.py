@@ -121,7 +121,6 @@ STALE_PATTERNS = [
     r"post-1945 object",
 ]
 
-
 def count_primary_source_entries(text: str) -> int:
     count = 0
     in_primary = False
@@ -143,7 +142,6 @@ def count_primary_source_entries(text: str) -> int:
                 count += 1
     return count
 
-
 def extract_section(text: str, heading: str) -> str:
     pattern = rf"^{re.escape(heading)}\s*$"
     match = re.search(pattern, text, re.MULTILINE)
@@ -154,10 +152,8 @@ def extract_section(text: str, heading: str) -> str:
     end = start + next_heading.start() if next_heading else len(text)
     return text[start:end].strip()
 
-
 def expected_secondary_paths(volume: str, eras: list[str]) -> list[str]:
     return [f"{volume}-secondary-sources-{era}.md" for era in eras]
-
 
 def extract_subsections(text: str) -> list[tuple[str, str]]:
     matches = list(re.finditer(r"^##\s+(.+)$", text, re.MULTILINE))
@@ -169,14 +165,11 @@ def extract_subsections(text: str) -> list[tuple[str, str]]:
         sections.append((title, text[start:end].strip()))
     return sections
 
-
 def count_list_items(section_text: str, prefix_pattern: str) -> int:
     return sum(1 for line in section_text.splitlines() if re.match(prefix_pattern, line.strip()))
 
-
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
-
 
 def validate() -> list[dict[str, str]]:
     issues: list[dict[str, str]] = []
@@ -381,7 +374,6 @@ def validate() -> list[dict[str, str]]:
 
     return issues
 
-
 def format_text(issues: list[dict[str, str]]) -> str:
     if not issues:
         return "CIV-STATE era doctrine valid."
@@ -391,7 +383,6 @@ def format_text(issues: list[dict[str, str]]) -> str:
         lines.append(f"[{marker}] {issue['path']}: {issue['message']}")
     lines.append(f"\n{len(issues)} issue(s) found.")
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate CIV-STATE era structure and chronology doctrine.")
@@ -404,7 +395,6 @@ def main() -> int:
     else:
         print(format_text(issues))
     return 1 if any(issue["level"] == "error" for issue in issues) else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

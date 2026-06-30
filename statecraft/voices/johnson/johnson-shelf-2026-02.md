@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Johnson 2026-02
 

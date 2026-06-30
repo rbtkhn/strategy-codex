@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Nima Alkhorshid` (1), `Robert Pape` (1), `Trita Parsi` (1)
 - Guests: `Ray McGovern` (1)
-- Threads: `alkorshid` (1), `davis` (1), `mcgovern` (1), `mercouris` (1), `pape` (1), `parsi` (1), `simplicius` (1)
+- Threads: `alkhorshid` (1), `davis` (1), `mcgovern` (1), `mercouris` (1), `pape` (1), `parsi` (1), `simplicius` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=xcwl7evhKKg) | `source-alexander-mercouris-us-israel-escalate-as-iran-defiant-fear-russia-aids-iran-plan-kharg-isla-2026-03-08.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `mcgovern` | [watch](https://www.youtube.com/watch?v=X4FmPL72_48) | `source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `mcgovern` | [watch](https://www.youtube.com/watch?v=X4FmPL72_48) | `source-dialogue-works-ray-mcgovern-does-armageddon-loom-iran-comes-close-to-decimating-israel-in-the-coming-weeks-2026-03-08.md` |
 
 ## Writer sources
 

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # China Lane-Level Verification
 

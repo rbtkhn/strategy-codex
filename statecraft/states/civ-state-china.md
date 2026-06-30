@@ -1,6 +1,5 @@
 # CIV-STATE China
 
-WORK only; not Record.
 
 This is the top-level alias door for the China CIV-STATE volume.
 

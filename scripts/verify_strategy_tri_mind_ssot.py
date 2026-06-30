@@ -16,7 +16,6 @@ NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 # Tri-mind B/M/M voice profile paths (skill-strategy dissolved; see VOICES-SUPERSEDE-MINDS.md).
 TRI_MIND_IDS = ("barnes", "mearsheimer", "mercouris")
 
-
 def main() -> int:
     errors: list[str] = []
     for expert_id in TRI_MIND_IDS:
@@ -42,7 +41,6 @@ def main() -> int:
         return 1
     print("verify_strategy_tri_mind_ssot: OK")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

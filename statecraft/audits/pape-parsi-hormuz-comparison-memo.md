@@ -1,6 +1,5 @@
 # Pape-Parsi Hormuz comparison memo
 
-WORK only; not Record.
 
 Purpose: demonstrate the speaker audit hub as a live drafting support instrument rather than a shelf-maintenance tool.
 

@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-17/source-judging-freedom-mate-is-kushner-netanyahus-agent-2026-03-17.md
   - source-archive/statecraft/2026-03-17/source-judging-freedom-ritter-could-us-officials-face-war-crime-charges-2026-03-17.md
 ---
-WORK only; not Record.
 
 # Mar 17 2026 — Davis × Henningsen wedge (Global Reset / practitioner lane)
 

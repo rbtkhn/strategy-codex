@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Judging Freedom Index (compat redirect)
 

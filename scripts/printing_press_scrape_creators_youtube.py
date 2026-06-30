@@ -50,10 +50,8 @@ AUTH_KEYS = {
     "token",
 }
 
-
 class AdmissionError(ValueError):
     """Unsafe or unsupported acquisition input."""
-
 
 @dataclass(frozen=True)
 class YouTubeTranscriptRecord:
@@ -66,10 +64,8 @@ class YouTubeTranscriptRecord:
     language: str
     fetched_at_utc: str
 
-
 def utc_now() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
 
 def find_scrape_creators_binary() -> str | None:
     explicit = os.environ.get("SCRAPE_CREATORS_BIN", "").strip()
@@ -80,7 +76,6 @@ def find_scrape_creators_binary() -> str | None:
         if found:
             return found
     return None
-
 
 def run_scrape_creators_fetch(url: str) -> dict[str, Any]:
     binary = find_scrape_creators_binary()
@@ -102,7 +97,6 @@ def run_scrape_creators_fetch(url: str) -> dict[str, Any]:
         raise RuntimeError("scrape-creators JSON root must be an object")
     return data
 
-
 def load_payload(path: Path | None, fetch_url: str | None) -> dict[str, Any]:
     if path and fetch_url:
         raise AdmissionError("Use only one of --input-json or --fetch-url")
@@ -115,14 +109,12 @@ def load_payload(path: Path | None, fetch_url: str | None) -> dict[str, Any]:
         return run_scrape_creators_fetch(fetch_url)
     raise AdmissionError("Provide --input-json or --fetch-url")
 
-
 def iter_payload_items(payload: dict[str, Any]) -> list[dict[str, Any]]:
     for key in ("videos", "items", "results", "transcripts", "data"):
         value = payload.get(key)
         if isinstance(value, list):
             return [item for item in value if isinstance(item, dict)]
     return [payload]
-
 
 def _string(item: dict[str, Any], *keys: str) -> str:
     for key in keys:
@@ -134,7 +126,6 @@ def _string(item: dict[str, Any], *keys: str) -> str:
             return text
     return ""
 
-
 def _number(item: dict[str, Any], *keys: str) -> float | None:
     for key in keys:
         value = item.get(key)
@@ -145,7 +136,6 @@ def _number(item: dict[str, Any], *keys: str) -> float | None:
         except (TypeError, ValueError):
             continue
     return None
-
 
 def _transcript(item: dict[str, Any]) -> str:
     for key in ("transcript", "transcript_text", "caption_text", "captions", "text", "body"):
@@ -164,7 +154,6 @@ def _transcript(item: dict[str, Any]) -> str:
                 return text
     return ""
 
-
 def extract_video_id(item: dict[str, Any]) -> str:
     direct = _string(item, "video_id", "youtube_id", "id")
     if re.fullmatch(r"[A-Za-z0-9_-]{6,}", direct):
@@ -182,7 +171,6 @@ def extract_video_id(item: dict[str, Any]) -> str:
             return m.group(1)
     raise AdmissionError("missing YouTube video_id")
 
-
 def normalize_upload_date(raw: str, fallback: str) -> str:
     text = raw.strip()
     if re.fullmatch(r"\d{8}", text):
@@ -196,7 +184,6 @@ def normalize_upload_date(raw: str, fallback: str) -> str:
             pass
     return fallback[:10].replace("-", "")
 
-
 def _walk_has_key(obj: Any, keys: set[str]) -> bool:
     if isinstance(obj, dict):
         for key, value in obj.items():
@@ -207,7 +194,6 @@ def _walk_has_key(obj: Any, keys: set[str]) -> bool:
     elif isinstance(obj, list):
         return any(_walk_has_key(item, keys) for item in obj)
     return False
-
 
 def validate_public_youtube_only(item: dict[str, Any]) -> None:
     platform = _string(item, "platform", "source_platform", "service").lower()
@@ -223,7 +209,6 @@ def validate_public_youtube_only(item: dict[str, Any]) -> None:
         raise AdmissionError("comments/replies are excluded from v1")
     if _walk_has_key(item, AUTH_KEYS):
         raise AdmissionError("credentialed/cookie/session scraping is excluded from v1")
-
 
 def normalize_record(item: dict[str, Any], *, fetched_at_utc: str) -> YouTubeTranscriptRecord:
     validate_public_youtube_only(item)
@@ -249,7 +234,6 @@ def normalize_record(item: dict[str, Any], *, fetched_at_utc: str) -> YouTubeTra
         fetched_at_utc=fetched_at_utc,
     )
 
-
 def normalize_payload(payload: dict[str, Any]) -> list[YouTubeTranscriptRecord]:
     fetched_at = _string(payload, "fetched_at_utc", "generated_at_utc") or utc_now()
     records = [normalize_record(item, fetched_at_utc=fetched_at) for item in iter_payload_items(payload)]
@@ -257,10 +241,8 @@ def normalize_payload(payload: dict[str, Any]) -> list[YouTubeTranscriptRecord]:
         raise AdmissionError("payload contained no video records")
     return records
 
-
 def transcript_filename(record: YouTubeTranscriptRecord) -> str:
     return f"{record.video_id}_{_slugify(record.title, max_len=72)}.txt"
-
 
 def transcript_text(record: YouTubeTranscriptRecord) -> str:
     header = [
@@ -273,7 +255,6 @@ def transcript_text(record: YouTubeTranscriptRecord) -> str:
         "",
     ]
     return "\n".join(header) + record.transcript.strip() + "\n"
-
 
 def index_row(record: YouTubeTranscriptRecord, transcript_rel: str) -> dict[str, Any]:
     body = transcript_text(record)
@@ -295,7 +276,6 @@ def index_row(record: YouTubeTranscriptRecord, transcript_rel: str) -> dict[str,
         "fetched_at_utc": record.fetched_at_utc,
         "last_listing_seen_at": record.fetched_at_utc,
     }
-
 
 def build_outputs(records: list[YouTubeTranscriptRecord], *, channel_slug: str, channel_url: str) -> tuple[dict[str, Any], dict[str, Any], list[tuple[str, str]]]:
     generated = utc_now()
@@ -337,7 +317,6 @@ def build_outputs(records: list[YouTubeTranscriptRecord], *, channel_slug: str, 
     }
     return index, manifest, transcript_files
 
-
 def merge_existing_outputs(output_dir: Path, index: dict[str, Any], manifest: dict[str, Any]) -> tuple[dict[str, Any], dict[str, Any]]:
     index_path = output_dir / "index.json"
     if index_path.exists():
@@ -373,7 +352,6 @@ def merge_existing_outputs(output_dir: Path, index: dict[str, Any], manifest: di
             merged.update(manifest["videos"])
             manifest["videos"] = merged
     return index, manifest
-
 
 def write_outputs(
     records: list[YouTubeTranscriptRecord],
@@ -416,7 +394,6 @@ def write_outputs(
         path.write_text(content, encoding="utf-8")
     return changed
 
-
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--input-json", type=Path, help="Captured scrape-creators JSON payload")
@@ -430,7 +407,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     ap.add_argument("--use-cookies", action="store_true", help=argparse.SUPPRESS)
     ap.add_argument("--credentialed", action="store_true", help=argparse.SUPPRESS)
     return ap.parse_args(argv)
-
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
@@ -469,7 +445,6 @@ def main(argv: list[str] | None = None) -> int:
     if not args.apply:
         print("dry-run only; pass --apply to write files")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

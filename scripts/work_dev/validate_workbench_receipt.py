@@ -37,7 +37,6 @@ REQUIRED_INSPECTION_KEYS = (
     "acceptanceChecklist",
 )
 
-
 def validate_receipt(data: Any) -> list[str]:
     """Return a list of human-readable errors; empty if valid."""
     errors: list[str] = []
@@ -143,7 +142,6 @@ def validate_receipt(data: Any) -> list[str]:
 
     return errors
 
-
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("receipt", type=Path, help="Path to receipt JSON")
@@ -165,7 +163,6 @@ def main() -> int:
         return 1
     print("ok: workbench receipt is valid")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

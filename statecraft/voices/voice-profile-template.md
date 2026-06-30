@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Voice profile template
 
@@ -73,7 +72,6 @@ It is **not**:
 # Strategy expert — <Full name> (`<expert_id>`)
 <!-- word_count: <n> -->
 
-WORK only; not Record.
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)

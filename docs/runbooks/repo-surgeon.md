@@ -1,6 +1,5 @@
 # Repo Surgeon runbook
 
-**Work only; not Record.**
 
 Reference-integrity closure for `strategy-codex`: markdown links, local path leaks, path adoption, generated-surface drift, archive boundaries, and authority markers.
 

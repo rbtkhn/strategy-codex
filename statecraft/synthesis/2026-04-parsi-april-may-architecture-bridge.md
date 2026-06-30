@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Parsi April→May Architecture Bridge — Ceasefire Design to Blockade Failure
 

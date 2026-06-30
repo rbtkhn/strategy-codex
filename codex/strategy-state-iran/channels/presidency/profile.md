@@ -33,4 +33,3 @@
 
 [channels README](../README.md) · [weave](../../weave/)
 
-WORK only; not Record.

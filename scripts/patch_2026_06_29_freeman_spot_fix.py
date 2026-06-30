@@ -64,7 +64,6 @@ SPOT = (
     "MBS Borowitz gag; Müah→MBS"
 )
 
-
 def main() -> int:
     p = REPO / PATH
     body = p.read_text(encoding="utf-8")
@@ -87,7 +86,6 @@ def main() -> int:
     p.write_text(body, encoding="utf-8")
     print(f"{PATH}: {n} replacements")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

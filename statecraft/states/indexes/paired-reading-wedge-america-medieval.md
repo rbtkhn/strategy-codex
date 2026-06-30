@@ -1,6 +1,5 @@
 # America Medieval Paired Reading Wedge
 
-WORK only; not Record.
 
 ## Two Primary Anchors
 

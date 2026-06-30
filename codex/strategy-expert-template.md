@@ -17,7 +17,6 @@ profile, thread, transcript, codex-page, strategy page, and mind.
 
 # Strategy cognition stream profile - <Stream / full name> (`<expert_id>`)
 
-WORK only; not Record.
 
 This section is now a compatibility redirect.
 
@@ -42,7 +41,6 @@ Companion files: thread, transcript, codex-page, strategy page, mind.
 
 # Cognition stream thread handle - `<expert_id>`
 
-WORK only; not Record.
 
 This section is now a compatibility redirect.
 
@@ -73,7 +71,6 @@ Machine extraction lives between the `<!-- strategy-expert-thread:start -->` and
 
 # Cognition stream transcript - `<expert_id>`
 
-WORK only; not Record.
 
 The transcript is the 7-day rolling triage sink, not the long-form SSOT.
 It may contain:
@@ -94,7 +91,6 @@ Companion files: profile, thread, mind, and codex-pages.
 
 # Cognition stream codex-page - `<expert_id>`
 
-WORK only; not Record.
 
 This section is now a compatibility redirect.
 
@@ -110,7 +106,6 @@ Use the canonical page template for the actual codex-page shape.
 
 # Cognition stream strategy page - `<expert_id>`
 
-WORK only; not Record.
 
 This section is now a compatibility redirect.
 
@@ -126,7 +121,6 @@ Use the canonical page template for the actual strategy-page fence shape.
 
 # Cognition stream mind - `<expert_id>`
 
-WORK only; not Record.
 
 The mind file is the long-form voice fingerprint / style map. Keep it separate from the transcript and the thread.
 

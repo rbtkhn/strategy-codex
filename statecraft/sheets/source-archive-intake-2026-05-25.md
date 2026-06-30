@@ -1,6 +1,5 @@
 # 2026-05-25 intake scaffold
 
-WORK only; not Record.
 
 This scaffold prepares `provenance/2026-05-25/` to receive today's captures.
 

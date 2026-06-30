@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 archive_links:
   - source-archive/statecraft/2026-02.md
 ---
-WORK only; not Record.
 
 # February 2026 benchmark note
 

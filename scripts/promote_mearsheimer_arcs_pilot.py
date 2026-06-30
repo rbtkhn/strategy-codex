@@ -109,14 +109,12 @@ OLD_TO_NEW = (
     ("arc-mearsheimer-diesen-host.md", "arc-mearsheimer-diesen-host.md"),
 )
 
-
 def _yaml_block(meta: dict) -> str:
     lines = ["---"]
     for key, val in meta.items():
         lines.append(f"{key}: {val}")
     lines.append("---")
     return "\n".join(lines)
-
 
 def _normalize_body(text: str) -> str:
     text = re.sub(
@@ -164,11 +162,8 @@ def _normalize_body(text: str) -> str:
     )
     return text
 
-
 def _stub_body(title: str, dest_rel: str, legacy_rel: str) -> str:
     return f"""# {title} (compat redirect)
-
-WORK only; not Record.
 
 **Canonical:** [{dest_rel.split('/')[-1]}]({dest_rel})
 
@@ -176,7 +171,6 @@ Legacy path: `{legacy_rel}` — pointer only; do not duplicate arc bodies here.
 
 Do not treat `*-speaker-arc.md` as a second arc class.
 """
-
 
 def apply() -> dict:
     receipt: dict = {"promotions": [], "rewrites": []}
@@ -226,12 +220,10 @@ def apply() -> dict:
     RECEIPT.write_text(json.dumps(receipt, indent=2) + "\n", encoding="utf-8")
     return receipt
 
-
 def main() -> int:
     receipt = apply()
     print(json.dumps(receipt, indent=2))
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

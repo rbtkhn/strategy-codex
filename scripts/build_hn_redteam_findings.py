@@ -4,7 +4,6 @@
 Output:
 - research/REDTEAM-FINDINGS.md
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -51,10 +50,8 @@ OUT_PATH = (
 )
 SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
 
-
 def load_yaml(path: Path) -> dict:
     return safe_load_path(path, feature="build_hn_redteam_findings.py") or {}
-
 
 def chapter_rows(arch: dict) -> list[dict]:
     rows = []
@@ -70,7 +67,6 @@ def chapter_rows(arch: dict) -> list[dict]:
             )
     return rows
 
-
 def anchor_map(catalog: dict) -> dict[str, list[str]]:
     by_hn: dict[str, list[str]] = {}
     for item in catalog.get("items") or []:
@@ -83,7 +79,6 @@ def anchor_map(catalog: dict) -> dict[str, list[str]]:
     for ch in by_hn:
         by_hn[ch] = sorted(set(by_hn[ch]))
     return by_hn
-
 
 def extract_claims(chapter_file: Path, title: str) -> list[str]:
     if not chapter_file.is_file():
@@ -101,7 +96,6 @@ def extract_claims(chapter_file: Path, title: str) -> list[str]:
         return [f"{title}: principal claim still unexpressed in draft prose."]
     return sents[:1]
 
-
 def classify_claim(claim: str, anchors: list[str], status: str, cfg: dict) -> tuple[str, str]:
     heur = (cfg.get("redteam") or {}).get("heuristics") or {}
     supported_cfg = heur.get("supported") or {}
@@ -118,7 +112,6 @@ def classify_claim(claim: str, anchors: list[str], status: str, cfg: dict) -> tu
         return ("weakly-supported", "Insufficient shelf anchoring for strong confidence.")
     return ("disputed", "Competing interpretations likely; add explicit rival thesis test.")
 
-
 def counterclaims_for(claim: str, n: int) -> list[str]:
     seeds = [
         "Alternative explanation: the observed outcome is better explained by institutional inertia than by elite intent.",
@@ -128,7 +121,6 @@ def counterclaims_for(claim: str, n: int) -> list[str]:
     if n <= len(seeds):
         return seeds[:n]
     return seeds + [seeds[-1]] * (n - len(seeds))
-
 
 def build_markdown(rows: list[dict], findings: list[dict]) -> str:
     lines = [
@@ -172,7 +164,6 @@ def build_markdown(rows: list[dict], findings: list[dict]) -> str:
         )
         lines.append("")
     return "\n".join(lines)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -242,7 +233,6 @@ def main() -> int:
     args.out.write_text(content, encoding="utf-8")
     print(f"wrote {args.out}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

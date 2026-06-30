@@ -1,6 +1,5 @@
 # America State Memory
 
-WORK only; not Record.
 
 This civilization object stores the long authority grammar behind the America lane. It treats America as a British imperial/provincial authority field until the independence rupture, then as a procedural republic whose outward reach must still be carried through lawful domestic authority, allied cooperation, and a form that a later government can plausibly inherit. When that carrying grammar fails, republic becomes emergency empire by drift rather than by declaration.
 

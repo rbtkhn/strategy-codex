@@ -1,7 +1,6 @@
 ﻿# Expert thread ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â `crooke`
 <!-- word_count: 3013 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 

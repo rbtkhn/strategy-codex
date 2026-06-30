@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 archive_links:
   - source-archive/statecraft/2025-12.md
 ---
-WORK only; not Record.
 
 # December 2025 benchmark note
 

@@ -18,4 +18,3 @@ Placeholder.
 
 Placeholder.
 
-WORK only; not Record.

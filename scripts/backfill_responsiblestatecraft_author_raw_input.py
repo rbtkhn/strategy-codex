@@ -7,8 +7,6 @@ This is a best-effort public archive importer:
 2. Fetch each linked article page and extract title, date, and body text.
 3. Write one markdown file per article under ``raw-input/<pub_date>/``.
 
-WORK only; not Record.
-
 Example::
 
   python3 scripts/backfill_responsiblestatecraft_author_raw_input.py --apply \
@@ -72,7 +70,6 @@ _ARTICLE_EXCLUDE = {
     "latin-america",
 }
 
-
 def _fetch_html(url: str, *, timeout: int = 45) -> str:
     req = urllib.request.Request(
         url,
@@ -85,14 +82,12 @@ def _fetch_html(url: str, *, timeout: int = 45) -> str:
         charset = resp.headers.get_content_charset() or "utf-8"
         return resp.read().decode(charset, errors="replace")
 
-
 def _author_handle(author_url: str) -> str:
     parsed = urlparse(author_url)
     parts = [p for p in parsed.path.split("/") if p]
     if not parts:
         raise ValueError(f"Could not infer author slug from URL: {author_url}")
     return parts[-1].lstrip("@")
-
 
 def _normalize_url(raw_url: str, *, base_url: str) -> str | None:
     abs_url = urljoin(base_url, raw_url.strip())
@@ -115,7 +110,6 @@ def _normalize_url(raw_url: str, *, base_url: str) -> str | None:
         return None
     return f"https://responsiblestatecraft.org/{parts[0].strip('/')}/"
 
-
 def _extract_article_urls(author_html: str, author_url: str) -> list[str]:
     urls: list[str] = []
     seen: set[str] = set()
@@ -127,7 +121,6 @@ def _extract_article_urls(author_html: str, author_url: str) -> list[str]:
         seen.add(abs_url)
         urls.append(abs_url)
     return urls
-
 
 def _first_meta_content(html: str, *, name: str) -> str | None:
     tag_pattern = re.compile(
@@ -142,7 +135,6 @@ def _first_meta_content(html: str, *, name: str) -> str | None:
     if not m2:
         return None
     return unescape(m2.group("content").strip())
-
 
 def _extract_datetime(html: str) -> datetime | None:
     for name in ("article:published_time", "article:modified_time", "og:updated_time"):
@@ -169,7 +161,6 @@ def _extract_datetime(html: str) -> datetime | None:
             return None
     return None
 
-
 def _extract_title(html: str) -> str:
     for name in ("og:title", "twitter:title", "title"):
         text = _first_meta_content(html, name=name)
@@ -179,7 +170,6 @@ def _extract_title(html: str) -> str:
     if m:
         return _clean_text(m.group("body")).strip()
     return "untitled"
-
 
 def _clean_text(text: str) -> str:
     text = unescape(text)
@@ -192,7 +182,6 @@ def _clean_text(text: str) -> str:
     text = re.sub(r"[ \t\r\f\v]+", " ", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
-
 
 def _extract_article_body(html: str, title: str) -> str:
     for pattern in (
@@ -216,7 +205,6 @@ def _extract_article_body(html: str, title: str) -> str:
         paras = paras[1:]
     return "\n\n".join(paras).strip()
 
-
 def _source_urls_in_raw_input(raw_root: Path) -> set[str]:
     out: set[str] = set()
     if not raw_root.is_dir():
@@ -231,7 +219,6 @@ def _source_urls_in_raw_input(raw_root: Path) -> set[str]:
             if src:
                 out.add(src)
     return out
-
 
 def _build_doc(
     *,
@@ -281,7 +268,6 @@ def _build_doc(
     ]
     return "\n".join(parts)
 
-
 def _normalize_article_urls(urls: Iterable[str]) -> list[str]:
     out: list[str] = []
     seen: set[str] = set()
@@ -295,7 +281,6 @@ def _normalize_article_urls(urls: Iterable[str]) -> list[str]:
         seen.add(norm)
         out.append(norm)
     return out
-
 
 def run(
     *,
@@ -372,7 +357,6 @@ def run(
         print("\nDry-run only. Pass --apply to write files.")
     return 0
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -409,7 +393,6 @@ def main() -> int:
         limit=max(1, min(args.limit, 100)),
         article_urls=args.article_urls or None,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

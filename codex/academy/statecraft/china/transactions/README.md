@@ -1,6 +1,6 @@
 # China Statecraft Transactions
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This bench spends compact speaker-state into China-lane instruments. Use the canonical [Statecraft Transaction Template](../../templates/statecraft-transaction.md) for any reusable transaction.
 

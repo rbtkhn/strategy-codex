@@ -63,7 +63,6 @@ WRITE_01 = re.compile(
 
 LEGACY_ALLOWLIST: frozenset[str] = frozenset()
 
-
 @dataclass
 class Finding:
     rule_id: str
@@ -72,7 +71,6 @@ class Finding:
     message: str
     doc_anchor: str = DOC_ANCHOR
     severity: str = "warning"
-
 
 def normalize_repo_path(path: str | Path) -> str:
     p = Path(path)
@@ -83,18 +81,14 @@ def normalize_repo_path(path: str | Path) -> str:
     normalized = str(p).replace("\\", "/").lstrip("./")
     return re.sub(r"/+", "/", normalized)
 
-
 def is_denied_path(path: str) -> bool:
     return any(path.startswith(prefix) for prefix in DENYLIST_PREFIXES)
-
 
 def is_essay_path(path: str) -> bool:
     return path.startswith(ESSAY_PREFIX) and path.endswith(".md")
 
-
 def strip_fenced_code(text: str) -> str:
     return re.sub(r"```.*?```", "", text, flags=re.DOTALL)
-
 
 def strip_blockquote_lines(text: str) -> str:
     lines = []
@@ -103,7 +97,6 @@ def strip_blockquote_lines(text: str) -> str:
             continue
         lines.append(line)
     return "\n".join(lines)
-
 
 def opening_block(text: str, max_chars: int = 1500) -> str:
     """Text before first ## heading, after title line, capped."""
@@ -121,21 +114,17 @@ def opening_block(text: str, max_chars: int = 1500) -> str:
         chunk = chunk[:max_chars]
     return chunk
 
-
 def split_sentences(text: str) -> list[str]:
     parts = re.split(r"(?<=[.!?])\s+(?=[A-Z\"'])", text)
     return [p.strip() for p in parts if p.strip()]
 
-
 def line_number_for_offset(text: str, offset: int) -> int:
     return text.count("\n", 0, max(0, offset)) + 1
-
 
 def find_line_excerpt(lines: list[str], line_no: int, width: int = 120) -> str:
     if line_no < 1 or line_no > len(lines):
         return ""
     return lines[line_no - 1].strip()[:width]
-
 
 def check_slop_01(opening: str, lines: list[str]) -> list[Finding]:
     matches = [
@@ -157,7 +146,6 @@ def check_slop_01(opening: str, lines: list[str]) -> list[Finding]:
         )
     ]
 
-
 def check_slop_02(opening: str, lines: list[str]) -> list[Finding]:
     stripped = strip_blockquote_lines(opening)
     emdash_sents = [s for s in split_sentences(stripped) if "—" in s or " -- " in s]
@@ -173,7 +161,6 @@ def check_slop_02(opening: str, lines: list[str]) -> list[Finding]:
                     )
                 ]
     return []
-
 
 def check_slop_04(opening: str, lines: list[str]) -> list[Finding]:
     findings: list[Finding] = []
@@ -193,7 +180,6 @@ def check_slop_04(opening: str, lines: list[str]) -> list[Finding]:
         )
     return findings
 
-
 def check_slop_05(opening: str, lines: list[str]) -> list[Finding]:
     sents = split_sentences(opening)
     if not sents:
@@ -212,7 +198,6 @@ def check_slop_05(opening: str, lines: list[str]) -> list[Finding]:
             message="Roster before claim: name-led opening without spine verbs in first two sentences.",
         )
     ]
-
 
 def check_slop_06(opening: str, lines: list[str]) -> list[Finding]:
     findings: list[Finding] = []
@@ -241,7 +226,6 @@ def check_slop_06(opening: str, lines: list[str]) -> list[Finding]:
             )
         )
     return findings
-
 
 def check_slop_07(full_text: str, lines: list[str]) -> list[Finding]:
     tail = full_text
@@ -273,7 +257,6 @@ def check_slop_07(full_text: str, lines: list[str]) -> list[Finding]:
         ]
     return []
 
-
 def check_slop_08(text: str, lines: list[str]) -> list[Finding]:
     findings: list[Finding] = []
     for m in TRI_MIND.finditer(text):
@@ -291,7 +274,6 @@ def check_slop_08(text: str, lines: list[str]) -> list[Finding]:
             )
         )
     return findings
-
 
 def check_cliche_01(text: str, lines: list[str]) -> list[Finding]:
     findings: list[Finding] = []
@@ -312,7 +294,6 @@ def check_cliche_01(text: str, lines: list[str]) -> list[Finding]:
         )
     return findings
 
-
 def check_write_01(text: str, lines: list[str]) -> list[Finding]:
     findings: list[Finding] = []
     for m in WRITE_01.finditer(text):
@@ -331,7 +312,6 @@ def check_write_01(text: str, lines: list[str]) -> list[Finding]:
             )
         )
     return findings
-
 
 def lint_text(
     text: str,
@@ -360,7 +340,6 @@ def lint_text(
         findings.extend(check_write_01(text, lines))
     return findings
 
-
 def should_lint_essay(path: str, *, strict: bool, diff_mode: bool) -> bool:
     norm = normalize_repo_path(path)
     if diff_mode or strict:
@@ -368,7 +347,6 @@ def should_lint_essay(path: str, *, strict: bool, diff_mode: bool) -> bool:
     if norm in LEGACY_ALLOWLIST:
         return False
     return True
-
 
 def lint_file(
     path: Path,
@@ -402,7 +380,6 @@ def lint_file(
         findings = [f for f in findings if f.line in diff_lines]
     return findings
 
-
 def get_diff_changed_lines(path: Path, diff_spec: str) -> set[int] | None:
     """Return 1-based line numbers changed in path for diff_spec, or None if not in diff."""
     norm = normalize_repo_path(path)
@@ -429,7 +406,6 @@ def get_diff_changed_lines(path: Path, diff_spec: str) -> set[int] | None:
             current_new += 1
     return changed if changed else None
 
-
 def get_changed_files_from_diff(diff_spec: str) -> list[str]:
     result = subprocess.run(
         ["git", "diff", "--name-only", diff_spec],
@@ -442,7 +418,6 @@ def get_changed_files_from_diff(diff_spec: str) -> list[str]:
         raise RuntimeError(result.stderr.strip() or f"git diff failed for {diff_spec!r}")
     return [normalize_repo_path(p) for p in result.stdout.splitlines() if p.strip()]
 
-
 def collect_paths(args_paths: list[str]) -> list[Path]:
     paths: list[Path] = []
     for raw in args_paths:
@@ -454,7 +429,6 @@ def collect_paths(args_paths: list[str]) -> list[Path]:
         elif p.is_file():
             paths.append(p)
     return paths
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -524,7 +498,6 @@ def main() -> int:
             print("prose_slop_lint: ok (no warnings)")
 
     return 1 if all_findings else 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Mearsheimer May 2026 note
 

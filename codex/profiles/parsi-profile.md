@@ -1,6 +1,5 @@
 # Parsi profile — compatibility redirect
 
-WORK only; not Record.
 
 **Canonical profile (SSOT):** [`statecraft/voices/parsi/parsi-profile.md`](../../statecraft/voices/parsi/parsi-profile.md)
 

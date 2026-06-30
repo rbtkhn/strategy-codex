@@ -27,7 +27,6 @@ from infer_lane_from_paths import infer_dominant  # noqa: E402
 MARKER = "<!-- grace-mar-lane-hint -->\n"
 CROSS_LABEL = "lane/cross"
 
-
 def _primary_lane_ids(label_names: list[str]) -> list[str]:
     out: list[str] = []
     for raw in label_names:
@@ -37,7 +36,6 @@ def _primary_lane_ids(label_names: list[str]) -> list[str]:
         if s.lower().startswith("lane/"):
             out.append(s[len("lane/") :].strip())
     return out
-
 
 def _github_json(method: str, url: str, token: str, data: dict | None = None) -> Any:
     payload = None if data is None else json.dumps(data).encode("utf-8")
@@ -56,7 +54,6 @@ def _github_json(method: str, url: str, token: str, data: dict | None = None) ->
     if not raw:
         return None
     return json.loads(raw)
-
 
 def main() -> int:
     token = (os.getenv("GITHUB_TOKEN") or "").strip()
@@ -182,7 +179,6 @@ def main() -> int:
         return 0
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -4,8 +4,7 @@
 Counts outgoing markdown links to other `strategy-notebook-knot-*.md` files per
 indexed knot (cross-weave links). Compares to optional `weave_count` in
 `knot-index.yaml` when present.
-
-WORK only; not Record. Default exit 0. With ``--strict-drift``, exit 1 if any
+Default exit 0. With ``--strict-drift``, exit 1 if any
 indexed ``weave_count`` disagrees with the computed link count.
 """
 
@@ -29,7 +28,6 @@ _RE_KNOT_LINK = re.compile(
     re.IGNORECASE,
 )
 
-
 def count_outgoing_knot_links(text: str, self_basename: str) -> int:
     """Count link targets that reference a strategy-notebook-knot file other than self."""
     n = 0
@@ -42,7 +40,6 @@ def count_outgoing_knot_links(text: str, self_basename: str) -> int:
             seen.add(target)
             n += 1
     return n
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -160,7 +157,6 @@ def main() -> int:
             f"{str(r['path']):<{w_path}}  {r['computed']!s:>9}  {y:>11}  {d:>5}"
         )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

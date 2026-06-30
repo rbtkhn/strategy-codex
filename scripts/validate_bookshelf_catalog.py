@@ -50,12 +50,10 @@ ERA_TO_VOLUME = {
     "modern": "vol-v",
 }
 
-
 def load_valid_hn_ids(path: Path) -> set[str]:
     data = safe_load_path(path, feature="validate_bookshelf_catalog.py")
     chapters = data.get("chapters") or []
     return {c["id"] for c in chapters if isinstance(c, dict) and "id" in c}
-
 
 def validate_catalog(
     catalog_path: Path,
@@ -161,7 +159,6 @@ def validate_catalog(
 
     return errors, warnings
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -203,7 +200,6 @@ def main() -> int:
 
     print("ok: bookshelf-catalog.yaml")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

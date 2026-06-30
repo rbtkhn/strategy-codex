@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (1)
 - Guests: `Andrei Martyanov` (1), `Pepe Escobar` (1)
-- Threads: `alkorshid` (1), `martyanov` (1)
+- Threads: `alkhorshid` (1), `martyanov` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `martyanov` | [watch](https://www.youtube.com/watch?v=2qP6PD8vADQ) | `source-dialogue-works-pepe-escobar-andrei-martyanov-putin-s-bold-plan-to-cripple-nato-the-west-stunned-2025-10-26.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `martyanov` | [watch](https://www.youtube.com/watch?v=2qP6PD8vADQ) | `source-dialogue-works-pepe-escobar-andrei-martyanov-putin-s-bold-plan-to-cripple-nato-the-west-stunned-2025-10-26.md` |
 
 ## Writer sources
 

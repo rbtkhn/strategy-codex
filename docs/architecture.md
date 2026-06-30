@@ -1,6 +1,5 @@
 # Architecture — strategy-codex (active)
 
-**Work only; not Record.**
 
 Grace-Mar is archived/frozen. Active strategy-codex work does not grow the fork. See [docs/archive/grace-mar.md](archive/grace-mar.md).
 
@@ -87,6 +86,8 @@ For **model vs harness**, membranes, queues, AFK, and channel routing, read [`ha
 
 **Health preflight:** `python3 scripts/check_repo_health.py --quick`
 
+**Schema validation:** [`schema-system.md`](schema-system.md) · `python3 scripts/validate_all_schemas.py --scope prediction`
+
 ## Frozen sidecar (Grace-Mar)
 
 | Surface | Location | Default |
@@ -94,7 +95,7 @@ For **model vs harness**, membranes, queues, AFK, and channel routing, read [`ha
 | Record identity / evidence / gate | `archive/grace-mar-instance/` | Frozen |
 | Voice bots | `archive/grace-mar-instance/bot/` | Deprecated |
 | removed operator-books symlink reference | `archive/grace-mar-instance/self-library.md` | Active **reference** routing |
-| Session continuity | `memory.md` | WORK only — not Record |
+| Session continuity | `memory.md` | Operator continuity; not gated Record |
 
 Grace-Mar is archived/frozen. Active strategy-codex work does not grow the fork. See [docs/archive/grace-mar.md](archive/grace-mar.md).
 

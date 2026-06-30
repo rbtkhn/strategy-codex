@@ -10,7 +10,6 @@ Usage::
 
 With ``--fence``, expects one ``~~~text`` … ``~~~`` block in the file and replaces it.
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -20,7 +19,6 @@ import re
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-
 
 def split_sentences(text: str) -> list[str]:
     """Split on sentence-ending punctuation + whitespace. Conservative.
@@ -40,7 +38,6 @@ def split_sentences(text: str) -> list[str]:
             if p:
                 out.append(p)
     return out
-
 
 def sentence_drop_score(s: str) -> float:
     """Higher = drop sooner (low unique analytical value or channel boilerplate)."""
@@ -96,7 +93,6 @@ def sentence_drop_score(s: str) -> float:
         x += 6
     return x
 
-
 def abridge_sentences(sentences: list[str], max_words: int) -> tuple[list[str], list[int]]:
     """Return (kept_sentences, dropped_indices_original_order)."""
     # Pass 0: always remove high-score channel / session boilerplate (whole sentences only).
@@ -146,7 +142,6 @@ def abridge_sentences(sentences: list[str], max_words: int) -> tuple[list[str], 
     dropped_idx_sorted = sorted(set(dropped_idx))
     return kept, dropped_idx_sorted
 
-
 def extract_fence_block(text: str) -> tuple[str, str, str] | None:
     """Return (before, inner, after) or None."""
     start = text.find("~~~text")
@@ -157,7 +152,6 @@ def extract_fence_block(text: str) -> tuple[str, str, str] | None:
     if end == -1:
         return None
     return text[:inner_start], text[inner_start:end], text[end:]
-
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
@@ -204,7 +198,6 @@ def main() -> int:
     path.write_text(out, encoding="utf-8")
     print(f"wrote: {path.relative_to(REPO_ROOT) if path.is_relative_to(REPO_ROOT) else path}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

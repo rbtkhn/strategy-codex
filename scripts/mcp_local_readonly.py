@@ -57,19 +57,16 @@ BANNER = (
     "LOCAL READ-ONLY MCP-SHAPED RUN Â· WORK ARTIFACT Â· NO NETWORK Â· NO CREDENTIALS Â· NOT APPROVED INTEGRATION"
 )
 
-
 def load_request(path: Path) -> dict[str, Any]:
     doc = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(doc, dict):
         raise ValueError("request root must be an object")
     return doc
 
-
 def apply_defaults(doc: dict[str, Any]) -> None:
     r = doc["request"]
     if "max_excerpt_chars" not in r:
         r["max_excerpt_chars"] = 2000
-
 
 def read_file_bounded(path: Path, max_bytes: int) -> tuple[bytes, int]:
     st = path.stat()
@@ -79,7 +76,6 @@ def read_file_bounded(path: Path, max_bytes: int) -> tuple[bytes, int]:
     if len(data) > max_bytes:
         raise ValueError(f"read size exceeds max_file_bytes ({max_bytes})")
     return data, st.st_size
-
 
 def resolve_packet_destination(repo_root: Path, output: Path | None) -> Path:
     bucket = (ARTIFACTS_DIR / "mcp-local-read").resolve()
@@ -100,7 +96,6 @@ def resolve_packet_destination(repo_root: Path, output: Path | None) -> Path:
     if len(rp) >= 2 and rp[0].lower() == "platform/users" and rp[1].lower() == "grace-mar":
         raise ValueError("refusing output path under ")
     return resolved
-
 
 def render_markdown(
     req: dict[str, Any],
@@ -196,7 +191,6 @@ def render_markdown(
         ]
     )
     return "\n".join(lines) + "\n"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Local read-only MCP-shaped adapter â€” bounded UTF-8 read + packet + receipt.")
@@ -392,7 +386,6 @@ def main() -> int:
     print(posix_under_repo(root, dest))
     print(posix_under_repo(root, receipt_path))
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

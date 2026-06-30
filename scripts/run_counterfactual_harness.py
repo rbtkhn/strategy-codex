@@ -47,7 +47,6 @@ LOOKUP_OFFER_PHRASES = [
     "look it up?",
 ]
 
-
 def load_probes(probe_id: str | None = None) -> list[dict]:
     """Load probes from JSON, optionally filter by id."""
     content = json.loads(PROBES_PATH.read_text())
@@ -57,7 +56,6 @@ def load_probes(probe_id: str | None = None) -> list[dict]:
         if not probes:
             raise SystemExit(f"Probe {probe_id} not found")
     return probes
-
 
 def run_probe(client: OpenAI, model: str, probe: dict) -> tuple[str, bool, str]:
     """Run a single probe, return (response, passed, reason)."""
@@ -111,7 +109,6 @@ def run_probe(client: OpenAI, model: str, probe: dict) -> tuple[str, bool, str]:
 
     return reply, False, f"unknown expected_behavior: {expected}"
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run Counterfactual Pack harness")
     parser.add_argument("--probe", "-p", help="Run single probe by id (e.g. CF-KB-001)")
@@ -153,7 +150,6 @@ def main() -> None:
     print(f"Results: {passed} passed, {failed} failed, {len(probes)} total")
     if failed > 0:
         sys.exit(1)
-
 
 if __name__ == "__main__":
     main()

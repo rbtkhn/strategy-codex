@@ -1,6 +1,6 @@
 # Provenance Control
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder holds archive-adjacent operational residue that used to live beside the dated source archive:
 

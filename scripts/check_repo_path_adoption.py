@@ -41,7 +41,6 @@ ADOPTED_MARKERS = [
     "resolve_repo_path(",
 ]
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Check repo path adoption")
     parser.add_argument(
@@ -88,7 +87,6 @@ def main() -> int:
         return 1
     print("check_repo_path_adoption: ok")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

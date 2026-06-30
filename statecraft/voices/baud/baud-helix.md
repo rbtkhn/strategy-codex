@@ -1,6 +1,5 @@
 # Baud helix
 
-WORK only; not Record.
 
 Purpose: compact cross-host note for reading the current recurring Baud lanes together. This is not a substitute for the host-local speaker arcs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Baud voice, and where to enter the helix without pretending a third canonical cognition-stream strand exists.
 

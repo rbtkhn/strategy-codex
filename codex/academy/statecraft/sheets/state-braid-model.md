@@ -1,6 +1,5 @@
 # State Braid Model
 
-WORK only; not Record.
 
 ## Purpose
 

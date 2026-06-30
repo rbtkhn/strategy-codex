@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-16/source-dialogue-works-pepe-escobar-larry-c-johnson-trump-is-losing-control-iran-wipes-out-strategic-military-targets-2026-03-16.md>
   - source-archive/statecraft/2026-03-16/source-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md>
 ---
-WORK only; not Record.
 
 # Dollar-Hormuz Terms × Trap–Mosaic–Implementation Lattice
 

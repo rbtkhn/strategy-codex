@@ -7,7 +7,6 @@ import argparse
 import json
 from pathlib import Path
 
-
 TEMPLATE = """### {date} {title}
 
 **Series:**  
@@ -43,7 +42,6 @@ TEMPLATE = """### {date} {title}
 Forecast artifact referenced for planning only. No Record update implied.
 """
 
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Append a forecast watch entry to the forecast watch log."
@@ -65,7 +63,6 @@ def parse_args() -> argparse.Namespace:
         default="docs/skill-work/work-strategy/strategy-notebook/forecast-watch-log.md",
     )
     return parser.parse_args()
-
 
 def main() -> None:
     args = parse_args()
@@ -100,7 +97,6 @@ def main() -> None:
 
     out_path.write_text(updated, encoding="utf-8")
     print(f"Wrote watch entry: {out_path}")
-
 
 if __name__ == "__main__":
     main()

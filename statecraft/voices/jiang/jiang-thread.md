@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `jiang`
 <!-- word_count: 2770 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 

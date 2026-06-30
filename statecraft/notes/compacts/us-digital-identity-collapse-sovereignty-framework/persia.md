@@ -1,6 +1,5 @@
 # Iran - U.S. Digital Identity Collapse / Sovereignty Framework
 
-WORK only; not Record.
 
 ## Transaction Name
 

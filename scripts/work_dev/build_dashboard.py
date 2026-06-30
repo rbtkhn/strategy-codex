@@ -27,7 +27,6 @@ from work_dev.dashboard_models import DashboardSummary  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
-
 def _count_integration_status(control_plane: Path) -> dict[str, int]:
     p = control_plane / "integration_status.yaml"
     data = safe_load_path(p, feature="work_dev/build_dashboard.py")
@@ -36,7 +35,6 @@ def _count_integration_status(control_plane: Path) -> dict[str, int]:
         st = str(it.get("status") or "unknown")
         c[st] += 1
     return dict(c)
-
 
 def _count_pipeline_events(path: Path) -> dict[str, int]:
     if not path.is_file():
@@ -54,7 +52,6 @@ def _count_pipeline_events(path: Path) -> dict[str, int]:
         if isinstance(ev, str):
             c[ev] += 1
     return dict(c)
-
 
 def count_jsonl_events(path: Path, *, event_name: str | None = None) -> int:
     """Count JSONL lines; optional filter by object['event']. Malformed lines skipped."""
@@ -75,7 +72,6 @@ def count_jsonl_events(path: Path, *, event_name: str | None = None) -> int:
             n += 1
     return n
 
-
 def _open_gap_ids(control_plane: Path) -> list[str]:
     p = control_plane / "known_gaps.yaml"
     data = safe_load_path(p, feature="work_dev/build_dashboard.py")
@@ -87,7 +83,6 @@ def _open_gap_ids(control_plane: Path) -> list[str]:
                 out.append(gid)
     return sorted(out)
 
-
 def _provenance_score_from_events(events: dict[str, int]) -> float:
     """Heuristic 0..1 from staged vs invalid_candidate pipeline events."""
     staged = int(events.get("staged", 0))
@@ -96,14 +91,12 @@ def _provenance_score_from_events(events: dict[str, int]) -> float:
         return 1.0
     return max(0.0, min(1.0, 1.0 - (invalid / max(staged, 1))))
 
-
 def _candidates_section(gate_text: str) -> str:
     if "## Candidates" not in gate_text or "## Processed" not in gate_text:
         return ""
     start = gate_text.index("## Candidates")
     end = gate_text.index("## Processed", start)
     return gate_text[start:end]
-
 
 def _pending_yaml_blocks(section: str) -> list[str]:
     blocks: list[str] = []
@@ -112,7 +105,6 @@ def _pending_yaml_blocks(section: str) -> list[str]:
         if re.search(r"^status:\s*pending\s*$", blob, re.MULTILINE):
             blocks.append(blob)
     return blocks
-
 
 def _yaml_block_provenance_fraction(blob: str) -> float:
     has_source = bool(re.search(r"^candidate_source:\s*\S", blob, re.MULTILINE))
@@ -126,7 +118,6 @@ def _yaml_block_provenance_fraction(blob: str) -> float:
     parts = [has_source, has_path, has_sha, has_receipt, has_const]
     return sum(1 for x in parts if x) / len(parts)
 
-
 def provenance_score_from_recursion_gate(gate_path: Path) -> float | None:
     """Mean provenance completeness over pending ```yaml blocks; None if no pending candidates."""
     if not gate_path.is_file():
@@ -137,7 +128,6 @@ def provenance_score_from_recursion_gate(gate_path: Path) -> float | None:
     if not blocks:
         return None
     return sum(_yaml_block_provenance_fraction(b) for b in blocks) / len(blocks)
-
 
 def build_dashboard(*, user_id: str, repo_root: Path) -> DashboardSummary:
     try:
@@ -191,7 +181,6 @@ def build_dashboard(*, user_id: str, repo_root: Path) -> DashboardSummary:
         autonomy_tier_profile=str(snap["platform/profile"]),
     )
 
-
 def render_markdown(d: DashboardSummary) -> str:
     prov_label = (
         "recursion gate (pending candidates)" if d.provenance_from_gate else "pipeline-events proxy"
@@ -223,7 +212,6 @@ def render_markdown(d: DashboardSummary) -> str:
         lines.append(f"- {n}\n")
     return "".join(lines)
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Build work-dev dashboard artifacts.")
     ap.add_argument("-u", "--user", default=DEFAULT_PROFILE_ID)
@@ -247,7 +235,6 @@ def main() -> int:
     (gen / "dashboard.md").write_text(render_markdown(d), encoding="utf-8")
     print("build_dashboard: OK -> runtime/artifacts/work_dev_dashboard.{json,md}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

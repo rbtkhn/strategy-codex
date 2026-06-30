@@ -28,12 +28,10 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USER_ID = "grace-mar"
 
-
 def _bank_text_blob(name: str, memo: str = "") -> str:
     """Normalize name + memo for pattern matching (whitespace-collapsed, upper)."""
     parts = [name or "", memo or ""]
     return " ".join(" ".join(parts).upper().split())
-
 
 def is_etsy_bank_descriptor(name: str, memo: str = "") -> bool:
     """
@@ -56,7 +54,6 @@ def is_etsy_bank_descriptor(name: str, memo: str = "") -> bool:
     if re.search(r"(?<![A-Z0-9])ETSYINC(?![A-Z0-9])", u):
         return True
     return False
-
 
 def _classify(tx_type: str, name: str, amount: float, memo: str = "") -> dict[str, str]:
     """Return category, tax_category, and account based on transaction name + memo patterns."""
@@ -130,7 +127,6 @@ def _classify(tx_type: str, name: str, amount: float, memo: str = "") -> dict[st
         "account": "bank_checking",
     }
 
-
 def _extract_counterparty(name: str, memo: str = "") -> str | None:
     """Try to extract a meaningful counterparty name."""
     if is_etsy_bank_descriptor(name, memo):
@@ -141,7 +137,6 @@ def _extract_counterparty(name: str, memo: str = "") -> str | None:
         if m:
             return m.group(1).strip().title()
     return None
-
 
 def parse_csv(csv_path: Path) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
@@ -180,7 +175,6 @@ def parse_csv(csv_path: Path) -> list[dict[str, Any]]:
             rows.append(row)
     return rows
 
-
 def _ledger_tagged_as_etsy(row: dict[str, Any]) -> bool:
     """How existing rows mark Etsy (importer output or consistent manual rows)."""
     if row.get("vendor_or_customer") == "Etsy Inc.":
@@ -191,7 +185,6 @@ def _ledger_tagged_as_etsy(row: dict[str, Any]) -> bool:
     if row.get("type") == "expense" and row.get("category") == "platform_fees" and "ETSY" in desc_u:
         return True
     return False
-
 
 def run_etsy_audit(
     ledger_path: Path,
@@ -284,7 +277,6 @@ def run_etsy_audit(
     )
     return 0
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Import bank CSV into business ledger.")
     parser.add_argument("--csv", help="Path to the bank CSV file")
@@ -368,7 +360,6 @@ def main() -> int:
 
     print(f"Imported {len(rows)} transactions into {ledger_path.relative_to(REPO_ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

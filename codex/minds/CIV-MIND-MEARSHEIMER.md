@@ -1,6 +1,5 @@
 # CIV-MIND-MEARSHEIMER — redirect (stable path)
 
-WORK only; not Record.
 
 **Canonical voice profile (SSOT):** [statecraft/voices/mearsheimer/mearsheimer-profile.md](../../statecraft/voices/mearsheimer/mearsheimer-profile.md)
 

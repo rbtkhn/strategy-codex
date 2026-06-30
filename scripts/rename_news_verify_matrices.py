@@ -36,7 +36,6 @@ TEXT_REPLACEMENTS: list[tuple[re.Pattern[str], str]] = [
 
 SCAN_SUFFIXES = {".md", ".py", ".yaml", ".yml", ".tsv", ".csv", ".mdc"}
 
-
 def should_scan(path: Path) -> bool:
     if not path.is_file():
         return False
@@ -49,7 +48,6 @@ def should_scan(path: Path) -> bool:
         return False
     return True
 
-
 def iter_scan_files() -> list[Path]:
     out: list[Path] = []
     for path in REPO_ROOT.rglob("*"):
@@ -58,7 +56,6 @@ def iter_scan_files() -> list[Path]:
         if should_scan(path):
             out.append(path)
     return sorted(out)
-
 
 def rename_matrix_files(*, apply: bool) -> list[tuple[str, str]]:
     moves: list[tuple[str, str]] = []
@@ -72,7 +69,6 @@ def rename_matrix_files(*, apply: bool) -> list[tuple[str, str]]:
         if apply:
             subprocess.run(["git", "mv", rel_old, rel_new], cwd=REPO_ROOT, check=True)
     return moves
-
 
 def rewrite_text(*, apply: bool) -> list[Path]:
     changed: list[Path] = []
@@ -89,7 +85,6 @@ def rewrite_text(*, apply: bool) -> list[Path]:
             if apply:
                 path.write_text(new, encoding="utf-8")
     return changed
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -114,7 +109,6 @@ def main() -> int:
             print(f"  ... and {len(changed) - 20} more")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

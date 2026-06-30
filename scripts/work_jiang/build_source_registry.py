@@ -25,12 +25,10 @@ INTERVIEWS_ANALYSIS_NOVID = re.compile(r"^interviews-(\d+)-analysis\.md$", re.I)
 WATCH_RE = re.compile(r"watch\?v=([A-Za-z0-9_-]{11})")
 VIDEO_IN_NAME = re.compile(r"^([A-Za-z0-9_-]{11})-")
 
-
 def extract_video_id_from_lecture(path: Path) -> str | None:
     text = path.read_text(encoding="utf-8", errors="replace")
     m = WATCH_RE.search(text)
     return m.group(1) if m else None
-
 
 def interviews_transcript_still_placeholder(path: Path) -> bool:
     """True when ## Full transcript is still an operator pending block (not merged dialogue)."""
@@ -42,14 +40,12 @@ def interviews_transcript_still_placeholder(path: Path) -> bool:
     tail = text[i : i + 1500]
     return "_Pending merge" in tail or "Pending merge —" in tail
 
-
 def title_from_lecture(path: Path) -> str:
     for line in path.read_text(encoding="utf-8", errors="replace").splitlines():
         line = line.strip()
         if line.startswith("# "):
             return line[2:].strip()
     return path.stem
-
 
 def essay_frontmatter(path: Path) -> dict:
     text = path.read_text(encoding="utf-8", errors="replace")
@@ -63,16 +59,13 @@ def essay_frontmatter(path: Path) -> dict:
     except yaml.YAMLError:
         return {}
 
-
 def analysis_for_video(analysis_by_vid: dict[str, Path], video_id: str | None) -> Path | None:
     if not video_id:
         return None
     return analysis_by_vid.get(video_id)
 
-
 def rel(path: Path) -> str:
     return path.relative_to(WORK_DIR).as_posix()
-
 
 _SOURCE_KEY_ORDER = (
     "source_id",
@@ -88,7 +81,6 @@ _SOURCE_KEY_ORDER = (
     "status",
 )
 
-
 def reorder_source_dict(s: dict) -> None:
     """Stable YAML key order for sources.yaml (human-friendly diffs)."""
     rest = {k: v for k, v in s.items() if k not in _SOURCE_KEY_ORDER}
@@ -96,7 +88,6 @@ def reorder_source_dict(s: dict) -> None:
     new.update(rest)
     s.clear()
     s.update(new)
-
 
 def merge_preserved_fields_from_previous_yaml(sources: list[dict], previous_path: Path) -> None:
     """Keep hand-maintained fields (e.g. publication_date, themes) across registry rebuilds."""
@@ -134,7 +125,6 @@ def merge_preserved_fields_from_previous_yaml(sources: list[dict], previous_path
             s["themes"] = list(th)
     for s in sources:
         reorder_source_dict(s)
-
 
 def main() -> int:
     analysis_by_vid: dict[str, Path] = {}
@@ -472,7 +462,6 @@ def main() -> int:
     )
     print(f"Wrote {OUT} ({len(sources)} sources)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

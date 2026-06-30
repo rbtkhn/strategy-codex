@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (4), `Clayton Morris` (2), `Natali Morris` (2), `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Breaking Points` (1)
 - Guests: `Brandon J. Weichert` (2), `Joe Kent` (2), `Chas Freeman` (1), `Douglas Macgregor` (1), `John Helmer` (1), `Larry Johnson` (1), `Matt Hoh` (1), `Patrick Henningsen` (1), `Pepe Escobar` (1), `Robert Pape` (1), `Seyed M. Marandi` (1), `Trita Parsi` (1), `[]` (1)
-- Threads: `alkorshid` (4), `davis` (2), `kent` (2), `redacted` (2), `weichert` (2), `breaking-points` (1), `escobar` (1), `freeman` (1), `helmer` (1), `henningsen` (1), `hoh` (1), `johnson` (1), `macgregor` (1), `marandi` (1), `mercouris` (1), `napolitano` (1), `pape` (1), `parsi` (1)
+- Threads: `alkhorshid` (4), `davis` (2), `kent` (2), `redacted` (2), `weichert` (2), `breaking-points` (1), `escobar` (1), `freeman` (1), `helmer` (1), `henningsen` (1), `hoh` (1), `johnson` (1), `macgregor` (1), `marandi` (1), `mercouris` (1), `napolitano` (1), `pape` (1), `parsi` (1)
 
 ## Channel sources
 
@@ -36,10 +36,10 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `breaking-points` | Breaking Points | `parsi`, `breaking-points` | [YJjkK-T6nnk](https://www.youtube.com/watch?v=YJjkK-T6nnk) | `source-breaking-points-parsi-giant-l-ben-shapiro-melts-down-iran-deal-2026-06-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [t57WKaBn5GY](https://www.youtube.com/watch?v=t57WKaBn5GY) | `source-daniel-davis-iran-deal-drama-doubt-lt-col-daniel-davis-2026-06-16.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `macgregor` | [y8zhwctLKfI](https://www.youtube.com/watch?v=y8zhwctLKfI) | `source-daniel-davis-macgregor-trump-get-out-of-jail-card-us-lost-iran-2026-06-16.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `helmer` | [zMb2r1TiViA](https://www.youtube.com/watch?v=zMb2r1TiViA) | `source-dialogue-works-helmer-russia-reacted-iran-us-mou-ending-war-all-fronts-2026-06-16.md` |
-| `dialogue-works` | Dialogue Works | `johnson`, `alkorshid` | [7mPS8rP_Oxc](https://www.youtube.com/watch?v=7mPS8rP_Oxc) | `source-dialogue-works-larry-johnson-breaking-150-billion-iran-300b-reparations-already-spent-2026-06-16.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `marandi` | [g9JLKwdg1Jc](https://www.youtube.com/watch?v=g9JLKwdg1Jc) | `source-dialogue-works-marandi-iran-steps-in-israel-refuses-withdraw-hezbollah-crushes-buffer-zone-2026-06-16.md` |
-| `dialogue-works` | Dialogue Works | `henningsen`, `alkorshid` | [F_ngNnPGbTs](https://www.youtube.com/watch?v=F_ngNnPGbTs) | `source-dialogue-works-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `helmer` | [zMb2r1TiViA](https://www.youtube.com/watch?v=zMb2r1TiViA) | `source-dialogue-works-helmer-russia-reacted-iran-us-mou-ending-war-all-fronts-2026-06-16.md` |
+| `dialogue-works` | Dialogue Works | `johnson`, `alkhorshid` | [7mPS8rP_Oxc](https://www.youtube.com/watch?v=7mPS8rP_Oxc) | `source-dialogue-works-larry-johnson-breaking-150-billion-iran-300b-reparations-already-spent-2026-06-16.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `marandi` | [g9JLKwdg1Jc](https://www.youtube.com/watch?v=g9JLKwdg1Jc) | `source-dialogue-works-marandi-iran-steps-in-israel-refuses-withdraw-hezbollah-crushes-buffer-zone-2026-06-16.md` |
+| `dialogue-works` | Dialogue Works | `henningsen`, `alkhorshid` | [F_ngNnPGbTs](https://www.youtube.com/watch?v=F_ngNnPGbTs) | `source-dialogue-works-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md` |
 | `judging-freedom` | Judging Freedom | `escobar`, `napolitano` | [hPaW0kHj7-0](https://www.youtube.com/watch?v=hPaW0kHj7-0) | `source-judging-freedom-escobar-how-iran-outsmarted-trump-2026-06-16.md` |
 | `judging-freedom` | Judging Freedom | `freeman` | [ki_x_N3lsAY](https://www.youtube.com/watch?v=ki_x_N3lsAY) | `source-judging-freedom-freeman-if-trump-says-no-to-netanyahu-2026-06-16.md` |
 | `judging-freedom` | Judging Freedom | `hoh` | [3WQaITZvPno](https://www.youtube.com/watch?v=3WQaITZvPno) | `source-judging-freedom-hoh-people-should-know-when-theyre-conquered-2026-06-16.md` |

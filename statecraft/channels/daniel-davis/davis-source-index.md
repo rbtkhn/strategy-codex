@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Source Index (compat redirect)
 

@@ -62,7 +62,6 @@ QUOTES: dict[str, str] = {
     ),
 }
 
-
 def patch_note(path: Path, quote: str) -> bool:
     text = path.read_text(encoding="utf-8")
     new_block = f"## Quote (audit)\n\n{quote}\n"
@@ -77,7 +76,6 @@ def patch_note(path: Path, quote: str) -> bool:
         return False
     path.write_text(patched, encoding="utf-8")
     return True
-
 
 def main() -> int:
     updated = 0
@@ -94,7 +92,6 @@ def main() -> int:
             return 1
     print(f"[ok] patched {updated} Israel quote blocks")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

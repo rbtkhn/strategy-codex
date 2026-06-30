@@ -32,7 +32,6 @@ except ImportError:
 
 from grace_mar.replay.report import build_report
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Replay harness/pipeline audit context for a candidate or bundle.")
     ap.add_argument("-u", "--user", default="strategy-codex", help="User id (default strategy-codex; use grace-mar only on fork revive)")
@@ -71,7 +70,6 @@ def main() -> int:
     else:
         print(text)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

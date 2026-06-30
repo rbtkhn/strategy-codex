@@ -1,6 +1,5 @@
 # Primary-Text Architecture
 
-WORK only; not Record.
 
 This note defines the CIV-STATE primary-text architecture that sits beneath bibliography source doors and above any future large-scale archival program.
 

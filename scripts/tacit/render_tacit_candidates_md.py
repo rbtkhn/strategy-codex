@@ -12,7 +12,6 @@ import json
 import sys
 from pathlib import Path
 
-
 def render(candidates: list[dict]) -> str:
     lines = [
         "# Tacit-derived candidates (non-canonical)",
@@ -43,7 +42,6 @@ def render(candidates: list[dict]) -> str:
         lines.append("")
     return "\n".join(lines)
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Render tacit candidates JSON to markdown.")
     ap.add_argument("inputs", nargs="+", type=Path, help="Candidate .json files")
@@ -65,7 +63,6 @@ def main() -> int:
     else:
         print(md)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -73,7 +73,6 @@ CHECK_TO_TESTS: dict[str, list[str]] = {
     ],
 }
 
-
 def _pytest_targets(required_checks: list[str]) -> list[str]:
     out: list[str] = []
     seen: set[str] = set()
@@ -86,7 +85,6 @@ def _pytest_targets(required_checks: list[str]) -> list[str]:
         out = ["tests/test_scenario_generation.py", "tests/test_scenario_matrix.py"]
     return out
 
-
 def _risk_bucket(severity: str) -> str:
     sev = severity.lower()
     if sev in {"critical", "high"}:
@@ -94,7 +92,6 @@ def _risk_bucket(severity: str) -> str:
     if sev == "medium":
         return "standard"
     return "low-risk"
-
 
 def build_run_hints(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     hints: list[dict[str, Any]] = []
@@ -112,7 +109,6 @@ def build_run_hints(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
         }
         hints.append(hint)
     return hints
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Emit runnable scenario-matrix test hints.")
@@ -161,7 +157,6 @@ def main() -> int:
         sys.stdout.write("".join(json.dumps(item) + "\n" for item in hints))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

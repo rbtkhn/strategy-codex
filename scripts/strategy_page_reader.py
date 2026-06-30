@@ -11,7 +11,6 @@ This module is a reusable library (not a CLI). It is imported by
 ``strategy_watch.py``, ``strategy_page.py``, ``strategy_weave.py``,
 and other scripts.
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -30,7 +29,6 @@ PAGE_MARKER_RE = re.compile(
     r'\s*-->',
 )
 PAGE_END_RE = re.compile(r'<!--\s*strategy-page:end\s*-->')
-
 
 @dataclass
 class PageBlock:
@@ -52,7 +50,6 @@ class PageBlock:
         if self.source_path != Path():
             d["source_path"] = str(self.source_path)
         return d
-
 
 def discover_pages(thread_path: Path, expert_id: str = "") -> list[PageBlock]:
     """Find all page blocks in a single thread file."""
@@ -82,7 +79,6 @@ def discover_pages(thread_path: Path, expert_id: str = "") -> list[PageBlock]:
         pos = end_m.end()
 
     return pages
-
 
 def discover_all_pages(notebook_dir: Path) -> dict[str, list[PageBlock]]:
     """Scan all expert thread files and return ``{expert_id: [pages]}``.
@@ -120,7 +116,6 @@ def discover_all_pages(notebook_dir: Path) -> dict[str, list[PageBlock]]:
             result[expert_id] = list(by_id.values())
     return result
 
-
 def pages_for_watch(notebook_dir: Path, watch_id: str) -> dict[str, list[PageBlock]]:
     """Return only pages matching a specific ``watch=`` tag."""
     all_pages = discover_all_pages(notebook_dir)
@@ -130,7 +125,6 @@ def pages_for_watch(notebook_dir: Path, watch_id: str) -> dict[str, list[PageBlo
         if matching:
             filtered[expert_id] = matching
     return filtered
-
 
 def all_watch_ids(notebook_dir: Path) -> list[str]:
     """Return sorted unique watch IDs across all pages."""

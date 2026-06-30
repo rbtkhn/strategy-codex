@@ -19,13 +19,11 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _wd_root(repo_root: Path) -> Path:
     raw = os.environ.get("GRACE_MAR_WORKFLOW_DEPTH_HOME", "").strip()
     if raw:
         return Path(raw).expanduser().resolve()
     return repo_root / "runtime" / "workflow-depth"
-
 
 def _load_lines(path: Path) -> list[dict[str, Any]]:
     if not path.is_file():
@@ -40,7 +38,6 @@ def _load_lines(path: Path) -> list[dict[str, Any]]:
         except json.JSONDecodeError:
             continue
     return out
-
 
 def build_report(rows: list[dict[str, Any]]) -> dict[str, Any]:
     by_lane_depth: dict[tuple[str, str], int] = defaultdict(int)
@@ -112,7 +109,6 @@ def build_report(rows: list[dict[str, Any]]) -> dict[str, Any]:
         "partialMetrics": len(rows) < 3,
     }
 
-
 def _markdown_summary(report: dict[str, Any]) -> str:
     lines = [
         "# Workflow depth audit (batch)",
@@ -138,7 +134,6 @@ def _markdown_summary(report: dict[str, Any]) -> str:
     if report.get("partialMetrics"):
         lines.extend(["", "_Low sample — treat as weather, not policy._", ""])
     return "\n".join(lines) + "\n"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Aggregate workflow-depth JSONL receipts (batch).")
@@ -167,7 +162,6 @@ def main() -> int:
         args.markdown.write_text(_markdown_summary(report), encoding="utf-8")
         print(f"wrote {args.markdown}", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

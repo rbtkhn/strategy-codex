@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-01-20/source-alexander-mercouris-trump-humiliates-starmer-macron-again-demands-greenland-russia-destroys-2026-01-20.md
   - source-archive/statecraft/2026-02-17/source-alexander-mercouris-russian-top-general-floats-russian-annexation-of-ukraine-geneva-talks-be-2026-02-17.md
 ---
-WORK only; not Record.
 
 # Jan 20 → Mar 24 2026 — Helmer arc (Dmitriev / Witkoff / capital-war lane)
 

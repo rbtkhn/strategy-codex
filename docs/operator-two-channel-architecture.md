@@ -1,6 +1,5 @@
 # Two-Channel Operator Architecture
 
-work only; not Record.
 
 ## Purpose
 

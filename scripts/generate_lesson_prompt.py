@@ -27,19 +27,16 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SKILL_WORK_DIR = REPO_ROOT / "docs" / "skill-work"
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
-
 
 def _section(content: str, title: str) -> str | None:
     """Extract section between ## TITLE and next ## or end."""
     pattern = rf"^## {re.escape(title)}\s*\n(.*?)(?=^## |\Z)"
     m = re.search(pattern, content, re.MULTILINE | re.DOTALL)
     return m.group(1).strip() if m else None
-
 
 def _yaml_value(content: str, key: str) -> str | None:
     """Extract YAML scalar value."""
@@ -48,7 +45,6 @@ def _yaml_value(content: str, key: str) -> str | None:
     if m:
         return m.group(1).split("#")[0].strip().strip('"\'')
     return None
-
 
 def _yaml_list(content: str, key: str) -> list[str]:
     """Extract YAML list: key: [a, b] or key: \n  - a."""
@@ -64,7 +60,6 @@ def _yaml_list(content: str, key: str) -> list[str]:
         return [re.sub(r"^\s*-\s+", "", ln).split("#")[0].strip().strip('"\'') for ln in lines if ln.strip()]
     return []
 
-
 def _extract_identity(self_content: str) -> dict:
     block = _section(self_content, "I. IDENTITY") or ""
     out = {}
@@ -79,7 +74,6 @@ def _extract_identity(self_content: str) -> dict:
         out["languages"] = ", ".join(langs)
     return out
 
-
 def _extract_learn_topics(self_content: str, max_entries: int = 30) -> list[str]:
     """Extract LEARN topic strings from IX-A."""
     topics = []
@@ -89,7 +83,6 @@ def _extract_learn_topics(self_content: str, max_entries: int = 30) -> list[str]
             topics.append(t)
     return topics
 
-
 def _extract_cur_topics(self_content: str, max_entries: int = 15) -> list[str]:
     """Extract CUR topic strings from IX-B."""
     topics = []
@@ -98,7 +91,6 @@ def _extract_cur_topics(self_content: str, max_entries: int = 15) -> list[str]:
         if t and len(topics) < max_entries:
             topics.append(t)
     return topics
-
 
 def _extract_who_she_is(self_content: str, skill_work: str, identity: dict) -> str:
     """Build WHO SHE IS summary from SELF plus adjacent work-context creative notes."""
@@ -157,7 +149,6 @@ def _extract_who_she_is(self_content: str, skill_work: str, identity: dict) -> s
     name = identity.get("name", "Grace-Mar")
     return f"{name} is {trait_str}. She loves {interests_str}.{creative_note}{learn_note}{verbal}{fav} Do not add facts or stories not listed below."
 
-
 def _extract_skills_edge(content: str, container: str) -> str | None:
     """Extract edge from a skill container block."""
     # Find container block (## THINK, ## MATH, etc.)
@@ -169,12 +160,10 @@ def _extract_skills_edge(content: str, container: str) -> str | None:
     m2 = re.search(pattern2, content, re.DOTALL | re.IGNORECASE)
     return m2.group(1).strip().strip('"\'') if m2 else None
 
-
 def _extract_think_edge(think_content: str) -> str:
     block = _section(think_content, "THINK Container") or ""
     m = re.search(r'edge:\s*["\']([^"\']+)["\']', block)
     return m.group(1).strip() if m else "Longer independent text; early chapter books; inference questions; retelling."
-
 
 def _extract_math_edge(think_content: str) -> str:
     block = _section(think_content, "MATH (contextual") or ""
@@ -184,7 +173,6 @@ def _extract_math_edge(think_content: str) -> str:
     m = re.search(r'edge:\s*["\']([^"\']+)["\']', block)
     return m.group(1).strip() if m else "Telling time; place value; double-digit operations"
 
-
 def _extract_chinese_edge(think_content: str) -> str:
     block = _section(think_content, "CHINESE (contextual") or ""
     if not block:
@@ -192,7 +180,6 @@ def _extract_chinese_edge(think_content: str) -> str:
         block = block.group(0) if block else ""
     m = re.search(r'edge:\s*["\']([^"\']+)["\']', block)
     return m.group(1).strip() if m else "First character recognition"
-
 
 def _extract_work_edge(work_content: str) -> str:
     block = (
@@ -204,12 +191,10 @@ def _extract_work_edge(work_content: str) -> str:
     m = re.search(r'edge:\s*["\']([^"\']+)["\']', block)
     return m.group(1).strip() if m else "Narrative creation from prompts; plan 3 steps for a small project"
 
-
 def _extract_work_goals(work_content: str) -> list[str]:
     block = _section(work_content, "WORK Goals") or _section(work_content, "WORK GOALS") or ""
     horizon = _yaml_list(block, "horizon")
     return horizon if isinstance(horizon, list) else []
-
 
 def _extract_school(work_content: str) -> dict:
     block = _section(work_content, "SCHOOL (contextual") or ""
@@ -218,7 +203,6 @@ def _extract_school(work_content: str) -> dict:
         block = block.group(0) if block else ""
     grade = _yaml_value(block, "grade")
     return {"grade": grade} if grade else {}
-
 
 def _extract_companion_creative(work_content: str) -> dict:
     """Extract companion_creative_context from work context."""
@@ -232,7 +216,6 @@ def _extract_companion_creative(work_content: str) -> dict:
         if val:
             out[key] = val
     return out
-
 
 def _parse_yaml_list(block: str) -> list[str]:
     """Parse a YAML list block (lines with - item). Don't strip block; strip removes leading spaces from first line."""
@@ -249,7 +232,6 @@ def _parse_yaml_list(block: str) -> list[str]:
             if m2:
                 items.append(m2.group(1).strip().strip("'\""))
     return items
-
 
 def _load_lesson_rules_config() -> dict:
     """Load lesson-rules-config.yaml. Returns dict with constraints (musts, must_nots, preferences, escalation)
@@ -301,16 +283,13 @@ def _load_lesson_rules_config() -> dict:
 
     return out
 
-
 def _extract_lexile(self_content: str) -> str:
     m = re.search(r"lexile_output:\s*[\"']?(\d+)L", self_content)
     return m.group(1) + "L" if m else "600L"
 
-
 def _extract_lexile_input(self_content: str) -> str:
     m = re.search(r"lexile_input:\s*[\"']?([\d\-]+L)", self_content)
     return m.group(1) if m else "400–500L"
-
 
 def generate_lesson_prompt(
     user_id: str = "grace-mar",
@@ -466,7 +445,6 @@ Regenerate after "we did X" merges so the next prompt reflects updated evidence.
 """
     return header + body
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Generate one-prompt-per-day lesson from Record for copy-paste into ChatGPT/Grok"
@@ -491,7 +469,6 @@ def main() -> None:
         print(f"Wrote {args.output}", file=sys.stderr)
     else:
         print(content)
-
 
 if __name__ == "__main__":
     main()

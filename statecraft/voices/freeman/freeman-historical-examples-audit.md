@@ -1,6 +1,5 @@
 # Freeman historical examples audit
 
-WORK only; not Record.
 
 Purpose: give Freeman a canonical statecraft-side historical membrane.
 

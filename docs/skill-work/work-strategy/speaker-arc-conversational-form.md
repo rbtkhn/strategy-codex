@@ -1,6 +1,5 @@
 # Speaker Arc as Conversational Form
 
-WORK only; not Record.
 
 A **speaker arc** is not just a file type.
 

@@ -1,6 +1,5 @@
 # Wilkerson March 2026 note
 
-WORK only; not Record.
 
 Purpose: preserve what March 2026 currently means on the Wilkerson shelf as the true 2026 escalation hinge, where thin early-year continuity gives way to a dense seven-anchor war-pressure month spread across Dialogue Works, Judging Freedom, and Diesen.
 

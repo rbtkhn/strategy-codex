@@ -1,6 +1,5 @@
 # Armstrong Index
 
-WORK only; not Record.
 
 Purpose: front door for the canonical Armstrong shelf.
 

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Mechanistic Fallacy And Civilizational Memory
 

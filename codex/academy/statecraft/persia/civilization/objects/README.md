@@ -1,6 +1,6 @@
 # Iran Civilization Objects
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Civilization objects hold long-pattern authority grammars for the Iran lane. They are not biographies and not current officeholder profiles. Use them to connect Iranian civilizational memory to current state carriers, diplomatic transmitters, and transaction authority checks.
 

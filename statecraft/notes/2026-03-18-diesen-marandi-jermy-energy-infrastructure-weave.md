@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-24/source-alexander-mercouris-iran-again-strikes-dimona-arad-israel-ad-fails-us-prepares-4-division-gr-2026-03-24.md
   - source-archive/statecraft/2026-03-24/source-pape-the-gamblers-conceit-in-war-2026-03-24.md
 ---
-WORK only; not Record.
 
 # Mar 18 2026 — Diesen × Marandi × Jermy weave (gas-field strike / economic-war ladder vs Western macro constraint)
 

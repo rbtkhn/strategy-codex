@@ -11,7 +11,6 @@ REPO = Path(__file__).resolve().parent.parent
 ARCHIVE = REPO / "source-archive" / "statecraft"
 FM_RE = re.compile(r"\A(---\n.*?\n---\n)(.*)", re.DOTALL)
 
-
 def normalize_frontmatter(fm: str) -> str:
     lines = fm.splitlines()
     out: list[str] = []
@@ -55,7 +54,6 @@ def normalize_frontmatter(fm: str) -> str:
         i += 1
     return "\n".join(out) + "\n"
 
-
 def patch_file(path: Path) -> bool:
     text = path.read_text(encoding="utf-8-sig")
     m = FM_RE.match(text)
@@ -68,7 +66,6 @@ def patch_file(path: Path) -> bool:
     path.write_text(new_text, encoding="utf-8")
     return True
 
-
 def main() -> int:
     patterns = ("source-dialogue-works-*", "source-daniel-davis-alkorshid-*", "source-mario-nawfal-alkorshid-*")
     n = 0
@@ -78,7 +75,6 @@ def main() -> int:
                 n += 1
     print(f"patched {n} files")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

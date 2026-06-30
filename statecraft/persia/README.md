@@ -1,6 +1,6 @@
 # Persia Statecraft Lane
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 ## Purpose
 

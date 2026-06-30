@@ -41,7 +41,6 @@ STOPWORDS = frozenset(
 _MIN_TOKEN_LEN = 2
 _INTERESTING_MIN_LEN = 5
 
-
 def _load_civmem_budget() -> dict[str, Any]:
     try:
         from context_budget import get_bool, get_int, load_context_budget
@@ -50,10 +49,8 @@ def _load_civmem_budget() -> dict[str, Any]:
 
     return load_context_budget("dream")
 
-
 def _tokenize(text: str) -> list[str]:
     return re.findall(r"[a-z0-9]+", text.lower())
-
 
 def _normalize_tokens(tokens: list[str]) -> list[str]:
     out: list[str] = []
@@ -63,10 +60,8 @@ def _normalize_tokens(tokens: list[str]) -> list[str]:
         out.append(t)
     return out
 
-
 def _extract_interesting_query_tokens(query: str) -> list[str]:
     return [t for t in _normalize_tokens(_tokenize(query)) if len(t) >= _INTERESTING_MIN_LEN]
-
 
 def _looks_specific(path: str, snippet: str, interesting_query_tokens: list[str]) -> bool:
     if not interesting_query_tokens:
@@ -74,7 +69,6 @@ def _looks_specific(path: str, snippet: str, interesting_query_tokens: list[str]
     blob = f"{path} {snippet}".lower()
     toks = set(_normalize_tokens(_tokenize(blob)))
     return any(t in toks for t in interesting_query_tokens)
-
 
 def excerpt_self_memory_short_term(memory_text: str, *, max_chars: int = 400) -> str:
     """First ~max_chars from Short-term section, or head of file."""
@@ -89,7 +83,6 @@ def excerpt_self_memory_short_term(memory_text: str, *, max_chars: int = 400) ->
     body = rest[: m2.start()] if m2 else rest
     collapsed = " ".join(body.split())
     return collapsed[:max_chars]
-
 
 def build_civmem_query_from_digest(digest: dict[str, Any], *, max_chars: int = 800) -> str:
     parts: list[str] = []
@@ -114,7 +107,6 @@ def build_civmem_query_from_digest(digest: dict[str, Any], *, max_chars: int = 8
         parts.append(chunk)
         total += len(chunk) + 1
     return " ".join(parts)[:max_chars]
-
 
 def compute_civmem_echoes(
     *,

@@ -312,7 +312,7 @@ def test_normalize_dialogue_works_host_label_suffix():
     raw = (
         "**Nima Alkhorshid (host):** Hi.\n\n"
         "**Nima (host):** Next.\n\n"
-        "**Nima Alkorshid (host):** Typo."
+        "**Nima Alkhorshid (host):** Typo."
     )
     out = normalize_dialogue_works_host_label_suffix(raw)
     assert "(host)" not in out

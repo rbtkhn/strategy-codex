@@ -23,14 +23,12 @@ from statecraft_day_archive import (
     collect_archive_file,
 )
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ARTIFACTS_DIR / "statecraft" / "speakers"
 SLICES_DIR = OUT_DIR / "slices"
 OUT_MD = OUT_DIR / "speaker-dashboard.md"
 OUT_JSON = OUT_DIR / "speaker-dashboard.json"
 SCHEMA_VERSION = "1.0.0-statecraft-speaker-dashboard"
-
 
 @dataclass(frozen=True)
 class DashboardArgs:
@@ -41,7 +39,6 @@ class DashboardArgs:
     top_speakers: int
     top_slices: int
     skip_slices: bool
-
 
 @dataclass
 class SpeakerStats:
@@ -85,7 +82,6 @@ class SpeakerStats:
             key=lambda label: (-self.label_counter[label], -len(label), label),
         )[0]
 
-
 def parse_args() -> DashboardArgs:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Statecraft source-archive root.")
@@ -109,7 +105,6 @@ def parse_args() -> DashboardArgs:
 def _select_day_dirs(root: Path, year: str | None, from_day: str | None, to_day: str | None) -> list[Path]:
     return select_day_dirs(root, year=year, from_day=from_day, to_day=to_day)
 
-
 def collect_speaker_stats(day_dirs: list[Path]) -> tuple[dict[str, SpeakerStats], int]:
     inventory = speaker_routing._discover_inventory(speaker_routing.DEFAULT_SPEAKERS_DIR, DEFAULT_ROOT)  # noqa: SLF001
     stats: dict[str, SpeakerStats] = {}
@@ -124,23 +119,19 @@ def collect_speaker_stats(day_dirs: list[Path]) -> tuple[dict[str, SpeakerStats]
                 stats.setdefault(canonical_slug, SpeakerStats(name=guest, slug=canonical_slug)).add(date, record, guest)
     return stats, total_files
 
-
 def _sorted_speakers(stats: dict[str, SpeakerStats]) -> list[SpeakerStats]:
     return sorted(
         stats.values(),
         key=lambda item: (-item.file_count, -len(item.day_set), item.name),
     )
 
-
 def _counter_top(counter: Counter[str], limit: int = 3) -> str:
     if not counter:
         return "(none)"
     return ", ".join(name for name, _ in sorted(counter.items(), key=lambda item: (-item[1], item[0]))[:limit])
 
-
 def _speaker_slug(name: str) -> str:
     return daydash._normalize_slug(name)
-
 
 def _collapse_guest_counter(counter: Counter[str], aliases: tuple[str, ...], preferred_label: str) -> Counter[str]:
     if not aliases:
@@ -157,7 +148,6 @@ def _collapse_guest_counter(counter: Counter[str], aliases: tuple[str, ...], pre
         collapsed[preferred_label] += merged_count
     return collapsed
 
-
 def _clean_alias_labels(counter: Counter[str]) -> list[str]:
     cleaned = [
         label
@@ -167,7 +157,6 @@ def _clean_alias_labels(counter: Counter[str]) -> list[str]:
     if cleaned:
         return cleaned
     return sorted(counter, key=lambda value: (-counter[value], -len(value), value))
-
 
 def _speaker_day_summaries(day_dirs: list[Path], speaker: SpeakerStats) -> list:
     alias_names = tuple(speaker.label_counter)
@@ -193,7 +182,6 @@ def _speaker_day_summaries(day_dirs: list[Path], speaker: SpeakerStats) -> list:
             )
         )
     return day_summaries
-
 
 def build_speaker_dashboard_payload(root: Path, day_dirs: list[Path], stats: dict[str, SpeakerStats], *, top_speakers: int) -> dict:
     sorted_speakers = _sorted_speakers(stats)
@@ -237,7 +225,6 @@ def build_speaker_dashboard_payload(root: Path, day_dirs: list[Path], stats: dic
             ]
         },
     }
-
 
 def render_speaker_dashboard_markdown(payload: dict, slice_names: list[str]) -> str:
     coverage = payload["coverage"]
@@ -285,7 +272,6 @@ def render_speaker_dashboard_markdown(payload: dict, slice_names: list[str]) -> 
     )
     return "\n".join(lines)
 
-
 def build_saved_speaker_slices(root: Path, day_dirs: list[Path], speakers: list[SpeakerStats]) -> list[str]:
     if not speakers:
         return []
@@ -304,7 +290,6 @@ def build_saved_speaker_slices(root: Path, day_dirs: list[Path], speakers: list[
         out_md.write_text(daydash.render_dashboard_markdown(root, payload), encoding="utf-8", newline="\n")
         built.append(slug)
     return built
-
 
 def main() -> int:
     args = parse_args()
@@ -326,7 +311,6 @@ def main() -> int:
     if slice_names:
         print(f"wrote {len(slice_names)} speaker slices under {SLICES_DIR}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

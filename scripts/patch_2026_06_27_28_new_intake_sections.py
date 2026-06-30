@@ -18,7 +18,6 @@ from transcript_section_curation import (  # noqa: E402
 
 ARCHIVE = ROOT / "source-archive" / "statecraft"
 
-
 @dataclass(frozen=True)
 class CaptureSpec:
     rel_path: str
@@ -27,7 +26,6 @@ class CaptureSpec:
     titles: tuple[str, ...]
     anchors: tuple[str, ...]
     resection_note: str
-
 
 SPECS: tuple[CaptureSpec, ...] = (
     CaptureSpec(
@@ -165,7 +163,6 @@ SPECS: tuple[CaptureSpec, ...] = (
     ),
 )
 
-
 def validate_spec(spec: CaptureSpec) -> list[str]:
     path = ARCHIVE / spec.rel_path
     if not path.is_file():
@@ -182,7 +179,6 @@ def validate_spec(spec: CaptureSpec) -> list[str]:
         return [str(exc)]
     return validate_section_anchors(body, spec.titles, spec.anchors)
 
-
 def ship_spec(spec: CaptureSpec) -> int:
     path = ARCHIVE / spec.rel_path
     return write_interview_section_patch_capture(
@@ -195,7 +191,6 @@ def ship_spec(spec: CaptureSpec) -> int:
         interview_host=spec.host,
         interview_guest=spec.guest,
     )
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -228,7 +223,6 @@ def main() -> int:
             print(f"  shipped {spec.rel_path}")
 
     return 1 if failed else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

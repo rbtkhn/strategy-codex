@@ -16,7 +16,6 @@ from repo_io import ARTIFACTS_DIR, SRC_DIR
 
 from grace_mar.observability.metric_contract import WORKFLOW_METRIC_KEY, fill_contract  # noqa: E402
 
-
 def load_json_files(root: Path) -> List[dict[str, Any]]:
     if not root.exists():
         return []
@@ -28,7 +27,6 @@ def load_json_files(root: Path) -> List[dict[str, Any]]:
         except Exception:
             continue
     return rows
-
 
 def summarize_receipts(receipts: List[dict[str, Any]]) -> Dict[str, Any]:
     total = len(receipts)
@@ -42,7 +40,6 @@ def summarize_receipts(receipts: List[dict[str, Any]]) -> Dict[str, Any]:
         "by_method": dict(by_method),
         "by_series": dict(by_series),
     }
-
 
 def summarize_artifacts(artifacts: List[dict[str, Any]]) -> Dict[str, Any]:
     total = len(runtime/artifacts)
@@ -74,7 +71,6 @@ def summarize_artifacts(artifacts: List[dict[str, Any]]) -> Dict[str, Any]:
         "with_benchmarks": with_benchmarks,
         "by_method": dict(by_method),
     }
-
 
 def write_markdown_report(
     out_path: Path,
@@ -146,7 +142,6 @@ def write_markdown_report(
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text("\n".join(lines), encoding="utf-8")
 
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Build a lightweight observability report for forecast artifacts and receipts."
@@ -167,7 +162,6 @@ def parse_args() -> argparse.Namespace:
         help="Output markdown report path.",
     )
     return parser.parse_args()
-
 
 def main() -> None:
     args = parse_args()
@@ -205,7 +199,6 @@ def main() -> None:
 
     print(f"Wrote observability report: {out_path}")
     print(f"wrote {metrics_path}")
-
 
 if __name__ == "__main__":
     main()

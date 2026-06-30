@@ -10,7 +10,6 @@ archive_links:
   - source-archive/statecraft/YYYY-MM-DD/source-example-slug-YYYY-MM-DD.md
   - source-archive/statecraft/<day>/day-index.md
 ---
-WORK only; not Record.
 
 # Statecraft Intake Digest — YYYY-MM-DD
 

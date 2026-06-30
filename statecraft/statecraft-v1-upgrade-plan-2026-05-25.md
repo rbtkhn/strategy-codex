@@ -1,6 +1,5 @@
 # Statecraft V1 Upgrade Plan — 2026-05-25
 
-WORK only; not Record.
 
 This note turns the immediately preceding seven-day statecraft build/use cycle into a **next-week V1 upgrade roadmap**.
 

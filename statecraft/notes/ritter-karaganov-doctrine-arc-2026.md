@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-01/source-ritter-the-revenge-tour-2026-2026-06-01.md
   - source-archive/statecraft/2026-06-15/source-judging-freedom-crooke-us-empire-is-crashing-2026-06-15.md
 ---
-WORK only; not Record.
 
 # Moved — Ritter Karaganov doctrine arc
 

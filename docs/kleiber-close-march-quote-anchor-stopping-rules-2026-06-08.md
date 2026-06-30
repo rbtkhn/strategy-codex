@@ -1,6 +1,5 @@
 # Kleiber Close - March Quote-Anchor Stopping Rules - 2026-06-08
 
-work only; not Record.
 
 Validator rank-1 tranche after Karajan slice 1 ship.
 

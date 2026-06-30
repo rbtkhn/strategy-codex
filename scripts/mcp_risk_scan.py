@@ -94,7 +94,6 @@ PERMISSIVE_HARD_BLOCKERS: frozenset[str] = frozenset(
     }
 )
 
-
 def _git_short_hash(cwd: Path) -> str:
     try:
         out = subprocess.run(
@@ -110,10 +109,8 @@ def _git_short_hash(cwd: Path) -> str:
         pass
     return "unknown"
 
-
 def load_yaml(path: Path) -> Any:
     return safe_load_path(path, feature="mcp_risk_scan.py")
-
 
 def validate_json_schema(instance: Any, schema_path: Path) -> None:
     try:
@@ -123,33 +120,26 @@ def validate_json_schema(instance: Any, schema_path: Path) -> None:
     schema = json.loads(schema_path.read_text(encoding="utf-8"))
     jsonschema.validate(instance=instance, schema=schema)
 
-
 def _hay(parts: list[str] | None) -> str:
     if not parts:
         return ""
     return " ".join(parts).lower()
 
-
 def _write_capable(cap: dict[str, Any]) -> bool:
     return bool(cap.get("writes")) or bool(cap.get("durable_state_write"))
-
 
 def dangerous_shell_in_hay(hay: str) -> bool:
     return any(n in hay for n in _SHELL_ALLOWED)
 
-
 def dangerous_merge_in_hay(hay: str) -> bool:
     return any(n in hay for n in _MERGE_FORCE_ALLOWED)
-
 
 def credential_exfil_in_hay(hay: str) -> bool:
     return any(n in hay for n in _CREDENTIAL_EXFIL)
 
-
 def canonical_record_in_writes(cap: dict[str, Any]) -> bool:
     wh = _hay(cap.get("writes") or [])
     return any(f in wh for f in _CANONICAL_WRITE_FRAGMENTS)
-
 
 def direct_canonical_append_in_allowed(hay: str) -> bool:
     return (
@@ -158,7 +148,6 @@ def direct_canonical_append_in_allowed(hay: str) -> bool:
         or "direct canonical archive/placeholders/evidence" in hay
     )
 
-
 def scm_needs_github_prohibitions(cap: dict[str, Any]) -> bool:
     if cap.get("category") != "scm":
         return False
@@ -166,11 +155,9 @@ def scm_needs_github_prohibitions(cap: dict[str, Any]) -> bool:
         return True
     return bool(cap.get("writes"))
 
-
 def github_prohibitions_complete(cap: dict[str, Any]) -> bool:
     ph = _hay(cap.get("prohibited_actions") or [])
     return all(req in ph for req in _GITHUB_REQUIRED_PROHIBITIONS)
-
 
 def is_prohibited_by_policy_stance(cap: dict[str, Any]) -> bool:
     """
@@ -198,7 +185,6 @@ def is_prohibited_by_policy_stance(cap: dict[str, Any]) -> bool:
         if any(x in mem for x in _MEMORY_WRITE_FRAGMENTS):
             return False
     return True
-
 
 def evaluate_capability(cap: dict[str, Any], policy: dict[str, Any]) -> dict[str, Any]:
     """Return one finding dict for Markdown/JSON/tests."""
@@ -346,7 +332,6 @@ def evaluate_capability(cap: dict[str, Any], policy: dict[str, Any]) -> dict[str
         "score_breakdown": breakdown,
     }
 
-
 def tier_for_score(score: int, thresholds: dict[str, Any]) -> str:
     if score <= thresholds["low"]["max"]:
         return "low"
@@ -356,7 +341,6 @@ def tier_for_score(score: int, thresholds: dict[str, Any]) -> str:
         return "high"
     return "critical"
 
-
 def scan_passes(findings: list[dict[str, Any]]) -> bool:
     for f in findings:
         if f["prohibited_by_policy"]:
@@ -364,7 +348,6 @@ def scan_passes(findings: list[dict[str, Any]]) -> bool:
         if f["hard_blockers"]:
             return False
     return True
-
 
 def build_markdown(
     *,
@@ -442,7 +425,6 @@ def build_markdown(
     )
     return "\n".join(lines)
 
-
 def build_json_report(
     *,
     findings: list[dict[str, Any]],
@@ -470,7 +452,6 @@ def build_json_report(
         "blockers": sorted(set(agg_blockers)),
         "warnings": agg_warnings,
     }
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="MCP capability risk / permission scanner (read-only).")
@@ -536,7 +517,6 @@ def main() -> int:
 
     print(f"mcp_risk_scan: Wrote {out_md.relative_to(REPO_ROOT)} pass={passes}", file=sys.stderr)
     return 0 if passes else 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

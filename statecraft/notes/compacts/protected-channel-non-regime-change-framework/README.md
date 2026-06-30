@@ -12,7 +12,7 @@ archive_links:
 ---
 # Protected Channel / Non-Regime-Change Framework
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: canonical America proof exemplar after the Iran Hormuz transaction. This cross-lane framework tests whether a leadership-decapitation or martyrdom shock can be converted away from regime-collapse fantasy and toward protected channels, no-partition / non-regime-change assurances, and sequencing that lets Iran accept de-escalation without validating an attack on sovereign authority.
 

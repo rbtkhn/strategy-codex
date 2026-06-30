@@ -1,6 +1,5 @@
 # Four-Lane Reality Balance
 
-WORK only; not Record.
 
 This note summarizes the real balance each core statecraft lane is usually drafting from once abstract power claims are translated into live strategic constraints.
 

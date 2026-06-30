@@ -10,7 +10,6 @@ from yaml_compat import safe_load_text
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def extract_yaml_scalar(blob: str, key: str) -> str | None:
     m = re.search(rf"^{re.escape(key)}:\s*(.+)$", blob, re.MULTILINE)
     if not m:
@@ -21,7 +20,6 @@ def extract_yaml_scalar(blob: str, key: str) -> str | None:
     if val.startswith("'") and val.endswith("'"):
         return val[1:-1]
     return val or None
-
 
 def resolve_self_library_path(repo_root: Path, user_id: str) -> Path | None:
     """Resolve SELF-LIBRARY entries source for dashboard generation."""
@@ -36,7 +34,6 @@ def resolve_self_library_path(repo_root: Path, user_id: str) -> Path | None:
         if path.is_file():
             return path
     return None
-
 
 def load_self_library_entries(repo_root: Path, user_id: str) -> list[dict[str, Any]]:
     path = resolve_self_library_path(repo_root, user_id)

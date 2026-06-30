@@ -9,4 +9,4 @@ Starters:
 - `maritime-posture-linkage.md`
 - `negotiation-channel-linkage.md`
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Ritter Speaker Arc (compat redirect)
 

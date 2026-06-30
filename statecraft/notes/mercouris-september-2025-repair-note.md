@@ -18,7 +18,6 @@ archive_links:
 ---
 # Mercouris September 2025 Repair Note
 
-work only; not Record.
 
 ## Purpose
 

@@ -1,6 +1,5 @@
 # Protected Channel / Non-Regime-Change Framework - America Carrier Test
 
-WORK only; not Record.
 
 Purpose: test whether the protected-channel / non-regime-change framework has a durable America-side authority carrier rather than only a plausible clause set.
 

@@ -1,6 +1,6 @@
 # China State
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Use this folder for the current Chinese party-state apparatus: top leadership, party organs, State Council, foreign ministry, PLA, banks, firms, ports, insurers, provinces, and diplomatic channels. This is the near-term institutional layer that turns Chinese civilizational memory and imperial/security striving into quiet pressure, warnings, finance, logistics, forums, guarantees, and implementable instruments.
 

@@ -105,7 +105,6 @@ WRITE_IDENTITY_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     ("write personality prose", re.compile(r"\bpersonality\b", re.IGNORECASE)),
 )
 
-
 def extract_yaml_blocks(content: str, section_marker: str | None = None) -> list[str]:
     """Extract YAML blocks from markdown. If section_marker given, only blocks after it."""
     if section_marker:
@@ -114,7 +113,6 @@ def extract_yaml_blocks(content: str, section_marker: str | None = None) -> list
             content = content[idx:]
     pattern = r"```(?:yaml|yml)?\s*\n(.*?)```"
     return re.findall(pattern, content, re.DOTALL)
-
 
 def parse_yaml_entries(block: str) -> list[dict]:
     """Naive YAML list parser for ACT/LEARN/CUR/PER candidate-style entries."""
@@ -139,18 +137,15 @@ def parse_yaml_entries(block: str) -> list[dict]:
         entries.append(current)
     return entries
 
-
 def _iter_user_dirs(users_dir: Path, user: str | None) -> list[Path]:
     if user:
         return [profile_dir(user)]
     return [profile_dir(DEFAULT_PROFILE_ID)]
 
-
 def _safe_read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
-
 
 def _sha256_file(path: Path) -> str:
     h = hashlib.sha256()
@@ -161,7 +156,6 @@ def _sha256_file(path: Path) -> str:
                 break
             h.update(chunk)
     return h.hexdigest()
-
 
 def validate_self(user_dirs: list[Path]) -> tuple[list[str], set[str]]:
     errors: list[str] = []
@@ -187,7 +181,6 @@ def validate_self(user_dirs: list[Path]) -> tuple[list[str], set[str]]:
                     else:
                         evidence_ids.add(evidence_id)
     return errors, evidence_ids
-
 
 def validate_evidence(user_dirs: list[Path], min_evidence_tier: int) -> tuple[list[str], set[str]]:
     errors: list[str] = []
@@ -242,7 +235,6 @@ def validate_evidence(user_dirs: list[Path], min_evidence_tier: int) -> tuple[li
                     errors.append(f"{ev_path.relative_to(REPO_ROOT)} {act_id} has artifact_sha256 without artifact_path")
     return errors, act_ids
 
-
 def validate_recursion_gate(user_dirs: list[Path]) -> list[str]:
     errors: list[str] = []
     allowed_mind_categories = {"knowledge", "curiosity", "personality"}
@@ -278,7 +270,6 @@ def validate_recursion_gate(user_dirs: list[Path]) -> list[str]:
                     )
     return errors
 
-
 def validate_gate_proposal_class(
     user_dirs: list[Path], *, require_proposal_class: bool
 ) -> list[str]:
@@ -310,10 +301,8 @@ def validate_gate_proposal_class(
                 )
     return errors
 
-
 def validate_cross_ref(evidence_ids: set[str], act_ids: set[str]) -> list[str]:
     return [f"Orphan evidence_id reference: {eid}" for eid in sorted(evidence_ids) if eid not in act_ids]
-
 
 def validate_convenience_path_audit(user_dirs: list[Path]) -> list[str]:
     """Forced-absorption defense: flag gate candidates missing source traceability.
@@ -351,7 +340,6 @@ def validate_convenience_path_audit(user_dirs: list[Path]) -> list[str]:
                 )
     return errors
 
-
 ID_PATTERNS = {
     "LEARN": re.compile(r"LEARN-\d{4}$"),
     "CUR": re.compile(r"CUR-\d{4}$"),
@@ -359,7 +347,6 @@ ID_PATTERNS = {
     "ACT": re.compile(r"ACT-\d{4}$"),
     "CANDIDATE": re.compile(r"CANDIDATE-\d{4}$"),
 }
-
 
 def validate_id_format(user_dirs: list[Path]) -> list[str]:
     errors: list[str] = []
@@ -375,7 +362,6 @@ def validate_id_format(user_dirs: list[Path]) -> list[str]:
                     if not pat.match(full):
                         errors.append(f"{path.relative_to(REPO_ROOT)}: {full} must be 4-digit")
     return errors
-
 
 def validate_self_sections(user_dirs: list[Path]) -> list[str]:
     errors: list[str] = []
@@ -394,7 +380,6 @@ def validate_self_sections(user_dirs: list[Path]) -> list[str]:
                 if marker not in content:
                     errors.append(f"{path.relative_to(REPO_ROOT)} IX present but missing {marker.strip()}")
     return errors
-
 
 def validate_skills_sections(user_dirs: list[Path]) -> list[str]:
     errors: list[str] = []
@@ -417,7 +402,6 @@ def validate_skills_sections(user_dirs: list[Path]) -> list[str]:
         if not found:
             errors.append(f"{user_dir.relative_to(REPO_ROOT)} missing at least one of {skill_files}")
     return errors
-
 
 def validate_derived_exports(user_dirs: list[Path], user_id: str | None = None) -> list[str]:
     errors: list[str] = []
@@ -502,7 +486,6 @@ def validate_derived_exports(user_dirs: list[Path], user_id: str | None = None) 
                     errors.append(f"{bundle_path.relative_to(REPO_ROOT)} missing degraded_mode contract")
     return errors
 
-
 def _pattern_hits(path: Path, text: str, patterns: tuple[tuple[str, re.Pattern[str]], ...]) -> list[str]:
     hits: list[str] = []
     if not text:
@@ -520,7 +503,6 @@ def _pattern_hits(path: Path, text: str, patterns: tuple[tuple[str, re.Pattern[s
                 hits.append(f"{display_path}:{line_no} {label}: {snippet[:140]}")
     return hits
 
-
 def validate_identity_capability_boundary(user_dirs: list[Path]) -> list[str]:
     errors: list[str] = []
     for user_dir in user_dirs:
@@ -530,13 +512,11 @@ def validate_identity_capability_boundary(user_dirs: list[Path]) -> list[str]:
         errors.extend(_pattern_hits(skill_write_path, _safe_read(skill_write_path), WRITE_IDENTITY_PATTERNS))
     return errors
 
-
 def _yaml_scalar(block: str, key: str) -> str:
     m = re.search(rf"^{key}:\s*(.+?)(?:\n|$)", block, re.MULTILINE)
     if not m:
         return ""
     return m.group(1).strip().strip('"\'')
-
 
 def validate_fork_lifecycle(
     user_dirs: list[Path],
@@ -605,7 +585,6 @@ def validate_fork_lifecycle(
             if not sid and not ops:
                 errors.append(f"{cid}: pending candidate needs session_id or operator_source (strict-lifecycle)")
     return errors, warnings, info
-
 
 def run_validation(
     users_dir: Path,
@@ -698,7 +677,6 @@ def run_validation(
         "fork_lifecycle": lifecycle_report,
     }
     return all_errors, boundary_report
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate Grace-Mar record integrity.")
@@ -812,7 +790,6 @@ def main() -> int:
             for err in errors:
                 print(f"  - {err}")
     return 0 if ok else 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

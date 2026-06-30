@@ -33,7 +33,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 _SCRIPTS = Path(__file__).resolve().parent
 
-
 def _emit_governance_unbundling_banner() -> None:
     """Reminder: merge path is accountability; routing already occurred at staging (stderr)."""
     print(
@@ -91,15 +90,12 @@ ALLOWED_LINEAGE_CLASS = frozenset(
     }
 )
 
-
 def _read(path: Path) -> str:
     return path.read_text(encoding="utf-8") if path.exists() else ""
-
 
 def _write(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
-
 
 def _yaml_get(block: str, key: str) -> str | None:
     m = re.search(rf"^{key}:\s*(.+?)(?:\n|$)", block, re.MULTILINE)
@@ -107,12 +103,10 @@ def _yaml_get(block: str, key: str) -> str | None:
         return None
     return m.group(1).strip().strip('"\'')
 
-
 def _next_id(content: str, prefix: str) -> str:
     ids = [int(m.group(1)) for m in re.finditer(rf"{prefix}-(\d+)", content)]
     n = max(ids, default=0) + 1
     return f"{prefix}-{n:04d}"
-
 
 def _set_user(user_id: str) -> None:
     """Configure per-user paths for this invocation."""
@@ -126,24 +120,19 @@ def _set_user(user_id: str) -> None:
     INTENT_PATH = PROFILE_DIR / "intent.md"
     MERGE_RECEIPTS_PATH = operator_ledger_write_path(USER_ID, "merge-receipts.jsonl")
 
-
 def _prp_output_path() -> Path:
     return PRP_PATH
-
 
 def _utc_now_iso() -> str:
     return datetime.now().isoformat()
 
-
 def _canonical_candidate_ids(candidates: list[dict]) -> list[str]:
     return sorted(c["id"] for c in candidates)
-
 
 def _merge_receipt_line_count() -> int:
     if not MERGE_RECEIPTS_PATH.is_file():
         return 0
     return len([ln for ln in MERGE_RECEIPTS_PATH.read_text(encoding="utf-8").splitlines() if ln.strip()])
-
 
 def _prev_receipt_hash_from_file() -> str:
     if not MERGE_RECEIPTS_PATH.is_file():
@@ -157,12 +146,10 @@ def _prev_receipt_hash_from_file() -> str:
     except json.JSONDecodeError:
         return ""
 
-
 def _receipt_body_hash(receipt: dict) -> str:
     body = {k: v for k, v in receipt.items() if k != "receipt_hash"}
     payload = json.dumps(body, sort_keys=True, ensure_ascii=True)
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()
-
 
 def _build_receipt(approved: list[dict], approved_by: str, territory: str = "all") -> dict:
     from grace_mar.fork_state import load_fork_state
@@ -199,7 +186,6 @@ def _build_receipt(approved: list[dict], approved_by: str, territory: str = "all
     r["receipt_hash"] = _receipt_body_hash(r)
     return r
 
-
 def _validate_receipt(receipt: dict, approved: list[dict]) -> tuple[bool, str]:
     if not isinstance(receipt, dict):
         return False, "receipt must be a JSON object"
@@ -222,12 +208,10 @@ def _validate_receipt(receipt: dict, approved: list[dict]) -> tuple[bool, str]:
         return False, "receipt candidate_ids do not match currently approved candidates"
     return True, ""
 
-
 def _append_merge_receipt(receipt: dict) -> None:
     MERGE_RECEIPTS_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(MERGE_RECEIPTS_PATH, "a", encoding="utf-8") as f:
         f.write(json.dumps(receipt, ensure_ascii=True) + "\n")
-
 
 def _emit_validation_failure(candidate_id: str | None, reason: str, actor: str | None = None) -> None:
     candidate_arg = candidate_id or "none"
@@ -252,7 +236,6 @@ def _emit_validation_failure(candidate_id: str | None, reason: str, actor: str |
         check=False,
         capture_output=True,
     )
-
 
 def _run_integrity_validation(min_evidence_tier: int) -> tuple[bool, str]:
     result = subprocess.run(
@@ -281,7 +264,6 @@ def _run_integrity_validation(min_evidence_tier: int) -> tuple[bool, str]:
         pass
     msg = (result.stderr or result.stdout or "integrity validation failed").strip()
     return False, msg.splitlines()[0] if msg else "integrity validation failed"
-
 
 def _load_intent_profile() -> dict:
     """Load minimal intent profile from intent.md YAML block."""
@@ -337,10 +319,8 @@ def _load_intent_profile() -> dict:
             )
     return {"ok": True, "tradeoff_rules": rules}
 
-
 def _keywords(text: str) -> set[str]:
     return {w for w in re.findall(r"[a-zA-Z][a-zA-Z0-9_-]{2,}", (text or "").lower())}
-
 
 def _candidate_agent_source(candidate: dict) -> str:
     channel = _yaml_get(candidate.get("block", ""), "channel_key") or ""
@@ -354,7 +334,6 @@ def _candidate_agent_source(candidate: dict) -> str:
         "openclaw": "openclaw",
     }
     return mapping.get(prefix, prefix or "unknown")
-
 
 def _detect_intent_conflicts(candidate: dict, intent_profile: dict, candidate_source: str) -> list[dict]:
     """
@@ -403,7 +382,6 @@ def _detect_intent_conflicts(candidate: dict, intent_profile: dict, candidate_so
         )
     return sorted(conflicts, key=lambda x: int(x.get("priority", 100)))
 
-
 def _emit_intent_conflict(
     candidate_id: str,
     conflict: dict,
@@ -438,7 +416,6 @@ def _emit_intent_conflict(
         capture_output=True,
     )
 
-
 def _emit_constitutional_critique_event(
     candidate_id: str,
     candidate_source: str,
@@ -470,7 +447,6 @@ def _emit_constitutional_critique_event(
         capture_output=True,
     )
 
-
 def _emit_constitutional_revision_suggested(
     candidate_id: str,
     conflict: dict,
@@ -500,7 +476,6 @@ def _emit_constitutional_revision_suggested(
         capture_output=True,
     )
 
-
 def _compute_fork_checksum() -> tuple[bool, str]:
     result = subprocess.run(
         [sys.executable, "scripts/fork_checksum.py", "-u", USER_ID],
@@ -514,11 +489,9 @@ def _compute_fork_checksum() -> tuple[bool, str]:
         return False, (result.stderr or "checksum failed").strip()
     return True, checksum_lines[-1].strip()
 
-
 def _is_meta_infra_candidate(candidate: dict) -> bool:
     """META_INFRA: infrastructure proposal — no SELF/EVIDENCE/prompt merge."""
     return (_yaml_get(candidate.get("block", ""), "proposal_class") or "").strip().upper() == "META_INFRA"
-
 
 def _is_runtime_observation_proposal(candidate: dict) -> bool:
     """Runtime observation staging — no automatic Record merge; apply target_surface manually."""
@@ -527,10 +500,8 @@ def _is_runtime_observation_proposal(candidate: dict) -> bool:
         == PROPOSAL_CLASS_RUNTIME_OBSERVATION.upper()
     )
 
-
 def _skips_record_merge(candidate: dict) -> bool:
     return _is_meta_infra_candidate(candidate) or _is_runtime_observation_proposal(candidate)
-
 
 def _validate_candidate_before_merge(candidate: dict, min_evidence_tier: int) -> tuple[bool, str]:
     block = candidate.get("block", "")
@@ -547,7 +518,6 @@ def _validate_candidate_before_merge(candidate: dict, min_evidence_tier: int) ->
     if tier_match and int(tier_match.group(1)) < min_evidence_tier:
         return False, f"candidate evidence_tier below minimum {min_evidence_tier}"
     return True, ""
-
 
 def get_approved_in_candidates() -> list[dict]:
     """Return approved candidates from the Candidates section (not yet processed)."""
@@ -589,7 +559,6 @@ def get_approved_in_candidates() -> list[dict]:
         })
     return approved
 
-
 def _validate_lifecycle_for_merge(approved: list[dict]) -> tuple[bool, str]:
     """Require origin, lineage_class, and session_id or operator_source on each candidate."""
     for c in approved:
@@ -609,7 +578,6 @@ def _validate_lifecycle_for_merge(approved: list[dict]) -> tuple[bool, str]:
             return False, f"{c['id']}: session_id or operator_source required"
     return True, ""
 
-
 def _channel_label(channel_key: str) -> str:
     """Human-readable channel for SELF-ARCHIVE (Telegram, Test, WeChat, Mini App)."""
     k = (channel_key or "").strip().lower()
@@ -625,7 +593,6 @@ def _channel_label(channel_key: str) -> str:
         return "Operator"
     return channel_key or "Unknown"
 
-
 def _extract_yaml_mapping_block(block: str, key: str) -> str:
     m = re.search(
         rf"^{re.escape(key)}:\s*\n(.*?)(?=\n[A-Za-z_]+:|\n```|\Z)",
@@ -633,7 +600,6 @@ def _extract_yaml_mapping_block(block: str, key: str) -> str:
         re.MULTILINE | re.DOTALL,
     )
     return m.group(1).rstrip() if m else ""
-
 
 def _extract_source_exchange_snippet(block: str, max_chars: int = 600) -> str:
     """Extract source_exchange section from candidate block for SELF-ARCHIVE snippet."""
@@ -643,7 +609,6 @@ def _extract_source_exchange_snippet(block: str, max_chars: int = 600) -> str:
     # Collapse newlines to space for single-line snippet
     out = " ".join(raw.split()).strip()
     return (out[:max_chars] + "...") if len(out) > max_chars else out
-
 
 # Gated approved log: self-archive.md § VIII (canonical EVIDENCE file; self-evidence.md optional compat pointer).
 def _extract_approval_receipt(block: str) -> str:
@@ -663,10 +628,8 @@ def _extract_approval_receipt(block: str) -> str:
     lines.extend(line.rstrip() for line in receipt.splitlines())
     return "\n".join(lines)
 
-
 GATED_LOG_SECTION = "## VIII. GATED APPROVED LOG (SELF-ARCHIVE)"
 _END_FILE_LINE = re.compile(r"(?m)^END OF FILE.*$")
-
 
 def _gated_log_section_prologue() -> str:
     return (
@@ -679,7 +642,6 @@ def _gated_log_section_prologue() -> str:
         + "---\n\n"
     )
 
-
 def _ensure_gated_log_section(evidence: str) -> str:
     if GATED_LOG_SECTION in evidence:
         return evidence
@@ -687,7 +649,6 @@ def _ensure_gated_log_section(evidence: str) -> str:
     if m:
         return evidence[: m.start()].rstrip() + _gated_log_section_prologue() + evidence[m.start() :]
     return evidence.rstrip() + _gated_log_section_prologue()
-
 
 def _append_gated_evidence_log_entry(
     candidate_id: str,
@@ -720,7 +681,6 @@ def _append_gated_evidence_log_entry(
         new_content = content.rstrip() + "\n\n" + block.strip() + "\n"
     _write(EVIDENCE_PATH, new_content)
 
-
 def _append_session_log_for_merge(candidate_ids: list[str], approved_by: str) -> None:
     """Append one line per merged candidate under ## Pipeline merge (automated)."""
     path = PROFILE_DIR / "session-log.md"
@@ -737,7 +697,6 @@ def _append_session_log_for_merge(candidate_ids: list[str], approved_by: str) ->
         _write(path, existing.rstrip() + section + lines + "\n")
     else:
         _write(path, existing.rstrip() + "\n" + lines + "\n")
-
 
 def merge_candidate_in_memory(
     c: dict,
@@ -855,7 +814,6 @@ def merge_candidate_in_memory(
         )
     return self_content, self_knowledge_content, evidence_content, prompt_content, act_id, entry_id
 
-
 def move_to_processed(content: str, candidate_blocks: list[str]) -> str:
     """Move approved candidate blocks from Candidates to Processed."""
     for block in candidate_blocks:
@@ -866,7 +824,6 @@ def move_to_processed(content: str, candidate_blocks: list[str]) -> str:
     processed_blocks = "\n".join(candidate_blocks)
     content = content.replace("## Processed\n\n", "## Processed\n\n" + processed_blocks + "\n")
     return content
-
 
 def _transactional_write(files: dict[Path, str]) -> None:
     """
@@ -890,11 +847,9 @@ def _transactional_write(files: dict[Path, str]) -> None:
                 pass
         raise
 
-
 def _safe_pipeline_str(s: str, max_len: int) -> str:
     t = (s or "").replace("\n", " ").replace("\r", " ").strip()
     return t[:max_len] if len(t) > max_len else t
-
 
 def _record_refs_for_applied(user_id: str, surface: str, profile_target: str, proposal_class: str) -> list[str]:
     """Repo-relative paths for replay / boundary debugging (not a full merge file list)."""
@@ -920,7 +875,6 @@ def _record_refs_for_applied(user_id: str, surface: str, profile_target: str, pr
             seen.add(r)
             out.append(r)
     return out
-
 
 def _emit_applied_event(c: dict, act_id: str, ix_entry_id: str, approved_by: str) -> dict:
     block = c.get("block") or ""
@@ -961,7 +915,6 @@ def _emit_applied_event(c: dict, act_id: str, ix_entry_id: str, approved_by: str
     merge_payload["record_refs"] = _record_refs_for_applied(USER_ID, surface, pt, pc)
     return append_pipeline_event(USER_ID, "applied", c["id"], merge=merge_payload)
 
-
 def _run_openclaw_export(
     user_id: str,
     fmt: str,
@@ -1000,7 +953,6 @@ def _run_openclaw_export(
         return False, msg
     return True, (result.stdout or "openclaw export complete").strip()
 
-
 def _refresh_derived_exports() -> None:
     commands = [
         [sys.executable, "scripts/export_manifest.py", "-u", USER_ID, "-o", str(PROFILE_DIR)],
@@ -1015,7 +967,6 @@ def _refresh_derived_exports() -> None:
             capture_output=True,
             text=True,
         )
-
 
 def _refresh_derived_exports_preflight() -> None:
     """Align manifest/PRP/bundle with canonical sources before validate-integrity preflight."""
@@ -1034,7 +985,6 @@ def _refresh_derived_exports_preflight() -> None:
             + (f": {detail}" if detail else "")
             + f"\nRun manually: python3 scripts/refresh_derived_exports.py -u {USER_ID}"
         ) from e
-
 
 def main() -> None:
     ap = argparse.ArgumentParser()
@@ -1440,7 +1390,6 @@ def main() -> None:
         )
         subprocess.run(["git", "push"], cwd=REPO_ROOT, check=True, env={**os.environ, "GITHUB_TOKEN": token})
         print("Pushed.")
-
 
 if __name__ == "__main__":
     main()

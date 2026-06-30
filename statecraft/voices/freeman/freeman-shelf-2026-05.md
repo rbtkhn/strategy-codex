@@ -1,6 +1,5 @@
 # Freeman shelf - 2026-05
 
-WORK only; not Record.
 
 Status: mature frontier month.
 

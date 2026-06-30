@@ -1,6 +1,6 @@
 # Speaker Audit Hub
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder is the live statecraft home for speaker trust and track-record work.
 

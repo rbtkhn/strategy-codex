@@ -5,7 +5,6 @@ Thin wrapper around ``backfill_author_page_raw_input.py`` for the Johnson lane.
 This target is the only automatable public surface for ``johnson``; interview
 transcripts stay manual.
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -26,7 +25,6 @@ DEFAULT_DOMAIN = "sonar21.com"
 DEFAULT_PATH_SHAPE = "any-article"
 DEFAULT_PUBLICATION = "sonar21.com"
 DEFAULT_THREAD = "johnson"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -60,7 +58,6 @@ def main() -> int:
         limit=max(1, min(args.limit, 50)),
         exclude_prefixes=["tag", "category", "author", "page"],
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

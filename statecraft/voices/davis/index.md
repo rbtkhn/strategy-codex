@@ -1,6 +1,5 @@
 # Davis Index
 
-WORK only; not Record.
 
 Purpose: front door for the canonical Daniel Davis **voice** shelf in repo-root `statecraft/voices/davis/`.
 

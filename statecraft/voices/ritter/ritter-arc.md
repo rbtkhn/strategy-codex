@@ -1,6 +1,5 @@
 # arc-ritter-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [ritter-arc.md](ritter-arc.md)
 

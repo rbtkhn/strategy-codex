@@ -41,11 +41,9 @@ MIRROR_RELATIVE_PREFIXES = (
     "data/",
 )
 
-
 def normalize_repo_path(path: str) -> str:
     normalized = path.replace("\\", "/").lstrip("./")
     return re.sub(r"/+", "/", normalized)
-
 
 def escape_hatch_open() -> bool:
     if os.environ.get(ESCAPE_ENV) == "1":
@@ -64,7 +62,6 @@ def escape_hatch_open() -> bool:
         pass
     return False
 
-
 def is_protected_transcript_path(path: str) -> bool:
     norm = normalize_repo_path(path)
     if norm in ALLOWED_MAINTENANCE_PATHS:
@@ -75,7 +72,6 @@ def is_protected_transcript_path(path: str) -> bool:
         if any(norm.startswith(prefix) for prefix in MIRROR_RELATIVE_PREFIXES):
             return True
     return False
-
 
 def classify_paths(paths: list[str]) -> tuple[list[str], list[str]]:
     blocked: list[str] = []
@@ -90,7 +86,6 @@ def classify_paths(paths: list[str]) -> tuple[list[str], list[str]]:
             allowed.append(path)
     return blocked, allowed
 
-
 def git_name_only(args: list[str], cwd: Path) -> list[str]:
     result = subprocess.run(
         ["git", *args],
@@ -104,7 +99,6 @@ def git_name_only(args: list[str], cwd: Path) -> list[str]:
         raise RuntimeError(f"git {' '.join(args)} failed in {cwd}: {detail}")
     return [line for line in result.stdout.splitlines() if line.strip()]
 
-
 def get_changed_files_from_staged() -> list[str]:
     paths = git_name_only(["diff", "--cached", "--name-only"], REPO_ROOT)
     if MIRROR_ROOT.is_dir():
@@ -112,14 +106,12 @@ def get_changed_files_from_staged() -> list[str]:
             paths.append(f"{MIRROR_REL}/{normalize_repo_path(sub_path)}")
     return paths
 
-
 def get_changed_files_from_diff(diff_spec: str) -> list[str]:
     paths = git_name_only(["diff", "--name-only", diff_spec], REPO_ROOT)
     if MIRROR_ROOT.is_dir():
         for sub_path in git_name_only(["diff", "--name-only", diff_spec], MIRROR_ROOT):
             paths.append(f"{MIRROR_REL}/{normalize_repo_path(sub_path)}")
     return paths
-
 
 def format_violation_message(blocked: list[str]) -> str:
     lines = [
@@ -144,7 +136,6 @@ def format_violation_message(blocked: list[str]) -> str:
         ]
     )
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -178,7 +169,6 @@ def main() -> int:
         "no protected transcript edits."
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

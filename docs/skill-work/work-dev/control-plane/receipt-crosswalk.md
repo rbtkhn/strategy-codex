@@ -1,6 +1,5 @@
 # Receipt Crosswalk
 
-WORK only; not Record.
 
 ## Purpose
 

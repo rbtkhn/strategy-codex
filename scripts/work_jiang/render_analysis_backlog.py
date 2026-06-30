@@ -12,13 +12,11 @@ ANALYSIS_DIR = WORK_DIR / "analysis"
 PENDING_DIR = WORK_DIR / "analysis" / "pending"
 OUT = WORK_DIR / "ANALYSIS-BACKLOG.md"
 
-
 def load(path: Path) -> dict:
     if not path.exists():
         return {}
     with path.open("r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def priority_for_source(
     source: dict,
@@ -47,7 +45,6 @@ def priority_for_source(
 
     return score
 
-
 def scan_lens_coverage() -> tuple[dict[str, str], dict[str, str], set[str], set[str]]:
     """Return (civmem_by_sid, psyhist_by_sid, civmem_pending, psyhist_pending)."""
     civmem_complete: dict[str, str] = {}
@@ -74,7 +71,6 @@ def scan_lens_coverage() -> tuple[dict[str, str], dict[str, str], set[str], set[
                     psyhist_complete[sid] = "complete"
 
     return civmem_complete, psyhist_complete, civmem_pending, psyhist_pending
-
 
 def main() -> int:
     sources = load(WORK_DIR / "metadata" / "sources.yaml").get("sources", [])
@@ -160,7 +156,6 @@ def main() -> int:
     OUT.write_text("\n".join(lines), encoding="utf-8")
     print(f"Wrote {OUT}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

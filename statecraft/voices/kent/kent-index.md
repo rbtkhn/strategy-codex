@@ -1,6 +1,5 @@
 # Kent Source Index
 
-WORK only; not Record.
 
 Purpose: provide the current canonical route map for materialized Joe Kent appearances on disk.
 
@@ -8,7 +7,7 @@ Purpose: provide the current canonical route map for materialized Joe Kent appea
 
 ## Corpus note
 
-- **15** eligible archive captures on disk (2026-03-18 → 2026-06-16), including **2** support-tier parity rows (about-Kent panel + Barnes QT)
+- **16** eligible archive captures on disk (2026-03-18 → 2026-06-29), including **2** support-tier parity rows (about-Kent panel + Barnes QT)
 - Rebuild: `python scripts/build_kent_index.py`
 
 ## 2026-06
@@ -18,6 +17,7 @@ Purpose: provide the current canonical route map for materialized Joe Kent appea
 - [youtube-napolitano-kent-why-trump-is-stuck-2026-06-11](../../../source-archive/statecraft/2026-06-11/source-judging-freedom-kent-why-trump-is-stuck-2026-06-11.md)
 - [youtube-nawfal-kent-tucker-trump-stopped-butler-investigation-mou-2026-06-16](../../../source-archive/statecraft/2026-06-16/source-mario-nawfal-kent-tucker-trump-stopped-butler-investigation-mou-2026-06-16.md)
 - [youtube-redacted-kent-iran-peace-deal-israel-sabotage-2026-06-16](../../../source-archive/statecraft/2026-06-16/source-redacted-kent-iran-peace-deal-israel-sabotage-2026-06-16.md)
+- [youtube-nawfal-kent-israel-oligarchs-hijacked-us-government-2026-06-29](../../../source-archive/statecraft/2026-06-29/source-mario-nawfal-kent-israel-oligarchs-hijacked-us-government-2026-06-29.md) — curated_sectioned 13-section ship (Hormuz/oligarch/NCTC arc)
 
 ## 2026-05
 

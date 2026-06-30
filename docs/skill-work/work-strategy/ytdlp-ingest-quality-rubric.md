@@ -1,6 +1,5 @@
 # yt-dlp ingest quality rubric
 
-WORK only; not Record.
 
 This rubric scores a `yt-dlp` ingest as four separate layers rather than one undifferentiated success or failure.
 

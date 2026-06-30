@@ -1,6 +1,5 @@
 # Living files
 
-**Work only; not Record.**
 
 A **living file** is durable repo material that humans and agents can load as context, instruction, evidence, synthesis, or reusable work product.
 

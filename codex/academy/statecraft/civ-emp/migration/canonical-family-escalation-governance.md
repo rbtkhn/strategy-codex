@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Meta-Synthesis: Escalation Governance
 

@@ -12,7 +12,7 @@ archive_links:
 ---
 # Hormuz Transit / Sanctions Relief Compact
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Purpose: compare one crisis object across the four academy-statecraft national lanes. The compact tests how the same Hormuz transit / sanctions-relief problem changes when drafted from America, Russia, China, and Iran.
 

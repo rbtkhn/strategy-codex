@@ -30,14 +30,12 @@ _DEPRECATION = (
     "(see CONDUCTOR-COMPRESSION-SPEC.md)."
 )
 
-
 def main() -> int:
     warnings.warn(_DEPRECATION, DeprecationWarning, stacklevel=1)
     print(f"note: {_DEPRECATION}", file=sys.stderr)
     from build_work_pass_ledger import main as work_pass_main
 
     return work_pass_main()
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

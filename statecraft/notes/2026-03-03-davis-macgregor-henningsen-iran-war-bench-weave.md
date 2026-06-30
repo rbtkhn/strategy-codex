@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-03/source-alexander-mercouris-iran-fights-attrition-war-us-exhausts-stockpiles-gulf-arabs-panic-mbs-ca-2026-03-03.md
   - source-archive/statecraft/2026-03-03/source-glenn-diesen-seyed-m-marandi-iran-s-military-strategy-u-s-miscalculations-2026-03-03.md
 ---
-WORK only; not Record.
 
 # Mar 3 2026 — Davis bench weave (Macgregor × Henningsen × Davis Hormuz solo)
 

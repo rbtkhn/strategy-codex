@@ -20,20 +20,17 @@ from youtube_transcripts.ytdlp_adapter import YtDlpError, fetch_video_metadata_s
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _watch_url(video_id: str) -> str:
     vid = video_id.strip()
     if not vid or len(vid) < 6:
         raise ValueError(f"bad video_id: {video_id!r}")
     return f"https://www.youtube.com/watch?v={vid}"
 
-
 def _fetch_metadata(url: str) -> dict:
     try:
         return fetch_video_metadata_subprocess(url, mode="binary")
     except YtDlpError as exc:
         raise RuntimeError(str(exc)) from exc
-
 
 def _snapshot_record(d: dict, *, tool_version: str) -> dict:
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -55,10 +52,8 @@ def _snapshot_record(d: dict, *, tool_version: str) -> dict:
         "tool_version": tool_version,
     }
 
-
 def _yt_dlp_version() -> str:
     return get_version(mode="binary")
-
 
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description="Append YouTube public metrics to JSONL.")
@@ -95,7 +90,6 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps(rec, indent=2, ensure_ascii=True))
     print(f"Appended to {out}", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

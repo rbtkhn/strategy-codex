@@ -53,7 +53,6 @@ def resolve_router_path(repo_root: Path = REPO_ROOT) -> Path:
         return instrument
     return legacy
 
-
 ROUTER_PATH = resolve_router_path()
 
 EXACT_THRESHOLD = 0.45
@@ -92,7 +91,6 @@ ROUTER_TABLE_ROW_RE = re.compile(r"^\|\s*\[([^\]]+)\]\(([^)]+)\)\s*\|\s*([^|]+)\
 
 TOKEN_RE = re.compile(r"[a-z0-9]+")
 
-
 @dataclass
 class RouterEntry:
     name: str
@@ -100,7 +98,6 @@ class RouterEntry:
     use_when: str
     primary_lanes: str
     transaction_path: str
-
 
 @dataclass
 class TransactionFit:
@@ -111,7 +108,6 @@ class TransactionFit:
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
-
 
 @dataclass
 class WarRoomObject:
@@ -147,7 +143,6 @@ class WarRoomObject:
             payload["pub_date"] = self.pub_date
         return payload
 
-
 @dataclass
 class WarRoomContext:
     days_scanned: list[str]
@@ -157,10 +152,8 @@ class WarRoomContext:
     queue_rows: list[SourceQueueRow]
     objects: list[WarRoomObject]
 
-
 def token_set(text: str) -> set[str]:
     return set(TOKEN_RE.findall(text.lower()))
-
 
 def overlap_score(left: str, right: str) -> float:
     a = token_set(left)
@@ -169,11 +162,9 @@ def overlap_score(left: str, right: str) -> float:
         return 0.0
     return len(a & b) / len(a | b)
 
-
 def normalize_slug(text: str) -> str:
     tokens = TOKEN_RE.findall(text.lower())
     return "-".join(tokens[:8]) if tokens else "object"
-
 
 def normalize_transaction_path(raw: str, *, repo_root: Path = REPO_ROOT) -> str:
     path = raw.split("#", 1)[0].strip()
@@ -192,7 +183,6 @@ def normalize_transaction_path(raw: str, *, repo_root: Path = REPO_ROOT) -> str:
         except ValueError:
             return path.replace("\\", "/")
     return path.replace("\\", "/")
-
 
 def parse_transaction_router(path: Path) -> list[RouterEntry]:
     if not path.is_file():
@@ -227,12 +217,10 @@ def parse_transaction_router(path: Path) -> list[RouterEntry]:
         )
     return entries
 
-
 def find_explicit_transaction_link(text: str) -> str | None:
     for match in TRANSACTION_LINK_RE.finditer(text):
         return normalize_transaction_path(match.group(1))
     return None
-
 
 def classify_transaction_fit(text: str, router: list[RouterEntry]) -> TransactionFit:
     explicit = find_explicit_transaction_link(text)
@@ -273,7 +261,6 @@ def classify_transaction_fit(text: str, router: list[RouterEntry]) -> Transactio
         )
     return TransactionFit("none", None, f"weak overlap ({best_score:.2f})", False)
 
-
 def infer_lane(
     *,
     threads: tuple[str, ...],
@@ -309,7 +296,6 @@ def infer_lane(
 
     return "cross-lane", "weak"
 
-
 def load_sidecars_for_day(day: str) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     day_dir = QUEUE_ROOT / day
@@ -322,7 +308,6 @@ def load_sidecars_for_day(day: str) -> list[dict[str, Any]]:
             payload["_sidecar_path"] = rel_repo_path(path)
             out.append(payload)
     return out
-
 
 def extract_daily_objects(
     daily_path: Path,
@@ -387,7 +372,6 @@ def extract_daily_objects(
         )
     return objects
 
-
 def object_from_queue_row(
     row: SourceQueueRow,
     *,
@@ -438,7 +422,6 @@ def object_from_queue_row(
         pub_date=day,
     )
 
-
 def build_objects_for_day(
     day: str,
     *,
@@ -482,7 +465,6 @@ def build_objects_for_day(
 
     return objects, rows, sync_status
 
-
 def merge_objects(objects: list[WarRoomObject]) -> list[WarRoomObject]:
     merged: dict[str, WarRoomObject] = {}
     for obj in objects:
@@ -517,7 +499,6 @@ def merge_objects(objects: list[WarRoomObject]) -> list[WarRoomObject]:
     )
     return ranked
 
-
 def select_days(
     *,
     latest_days: int,
@@ -530,7 +511,6 @@ def select_days(
     if not all_days:
         return []
     return all_days[-latest_days:]
-
 
 def build_war_room_context(
     repo_root: Path,
@@ -582,7 +562,6 @@ def build_war_room_context(
         queue_rows=all_rows,
         objects=merged,
     )
-
 
 def build_markdown(ctx: WarRoomContext, *, generated_at: str) -> str:
     parts = [
@@ -690,7 +669,6 @@ def build_markdown(ctx: WarRoomContext, *, generated_at: str) -> str:
     parts.append("")
     return "\n".join(parts)
 
-
 def build_json_payload(ctx: WarRoomContext, *, generated_at: str) -> dict[str, Any]:
     return {
         "generated_at": generated_at,
@@ -701,7 +679,6 @@ def build_json_payload(ctx: WarRoomContext, *, generated_at: str) -> dict[str, A
         "days_scanned": ctx.days_scanned,
         "active_objects": [o.to_dict() for o in ctx.objects],
     }
-
 
 def generate_report(
     repo_root: Path,
@@ -743,7 +720,6 @@ def generate_report(
     print(f"objects: {len(ctx.objects)} sync: {ctx.sync_status}")
     return 0, payload
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
@@ -766,7 +742,6 @@ def main() -> int:
         pin_day=args.day,
     )
     return code
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Canonical Family Synthesis: Exclusion And Direct Settlement
 

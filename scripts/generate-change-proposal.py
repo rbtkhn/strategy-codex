@@ -20,14 +20,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 import sys
 
-
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT / "scripts") not in sys.path:
     sys.path.insert(0, str(ROOT / "scripts"))
 
 from repo_io import profile_dir
 SAFE_ID = re.compile(r"^proposal-[a-zA-Z0-9._-]+$")
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate Change Proposal v1 JSON scaffold.")
@@ -196,7 +194,6 @@ def main() -> int:
     out_path.write_text(json.dumps(proposal, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(out_path)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -19,7 +19,6 @@ DEFAULT_INPUT = (
 )
 IMPORT_SCRIPT = REPO_ROOT / "scripts" / "runtime" / "import_runtime_observation.py"
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(
         description=(
@@ -59,7 +58,6 @@ def main() -> int:
         check=False,
     )
     return int(p.returncode)
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

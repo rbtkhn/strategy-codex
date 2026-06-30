@@ -1,6 +1,6 @@
 # Politics Workshop
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 The Politics Workshop is the active-use layer of academy politics. The shelf answers "what should I read?" The workshop answers "what political pressure is being formed, organized, persuaded, legitimized, or resisted?"
 

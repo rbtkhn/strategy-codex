@@ -1,5 +1,4 @@
 ﻿# China Primary Sources - Colonial
-WORK only; not Record.
 This file contains the Colonial primary-source shelf for the China CIV-STATE volume.
 ## Primary Sources
 ### Colonial

@@ -1,7 +1,6 @@
 # Mearsheimer strategy page — 2026-03-29 (*Will Trump Go Kamikaze?*)
 <!-- word_count: 1015 -->
 
-WORK only; not Record.
 
 **Expert:** `mearsheimer` · **Published:** 2026-03-29 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`mearsheimer-page-…` under `experts/mearsheimer/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 

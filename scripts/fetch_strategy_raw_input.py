@@ -20,8 +20,7 @@ Override path with ``FETCH_STRATEGY_SOURCES`` env or ``--config``.
 With ``--apply``, for feeds that set ``thread:``, the script also appends a **one-line
 stub** to ``daily-strategy-inbox.md`` (same ``raw-input/`` path) when missing —
 **inbox → raw-input** registry discipline.
-
-WORK only; not Record. Network use is explicit (--apply).
+Network use is explicit (--apply).
 
 Usage::
   python3 scripts/fetch_strategy_raw_input.py --dry-run
@@ -64,13 +63,11 @@ USER_AGENT = (
     "(+https://github.com/grace-mar; local strategy notebook ingest)"
 )
 
-
 def _slugify(s: str, max_len: int = 48) -> str:
     s = s.lower().strip()
     s = re.sub(r"[^a-z0-9]+", "-", s)
     s = re.sub(r"-+", "-", s).strip("-")
     return s[:max_len].rstrip("-") or "item"
-
 
 def _strip_html(html: str) -> str:
     if not html:
@@ -81,7 +78,6 @@ def _strip_html(html: str) -> str:
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
-
 def _fetch_url(url: str, *, timeout: int = 45) -> bytes:
     req = urllib.request.Request(
         url,
@@ -90,10 +86,8 @@ def _fetch_url(url: str, *, timeout: int = 45) -> bytes:
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read()
 
-
 def _local_tag(tag: str) -> str:
     return tag.rpartition("}")[2] or tag
-
 
 def _parse_pub_date(text: str | None) -> date | None:
     if not text:
@@ -123,7 +117,6 @@ def _parse_pub_date(text: str | None) -> date | None:
         except ValueError:
             pass
     return None
-
 
 def _iter_rss_items(root: ET.Element) -> list[dict[str, str | None]]:
     """Return list of dicts: title, link, pub_raw, summary_html, guid."""
@@ -209,13 +202,11 @@ def _iter_rss_items(root: ET.Element) -> list[dict[str, str | None]]:
 
     return []
 
-
 def _rss_item_guid(item: dict[str, str | None]) -> str:
     title = item.get("title") or "untitled"
     link = item.get("link") or ""
     raw = item.get("guid") or link or title
     return str(raw).strip()
-
 
 def _rss_no_thread_filename(
     *,
@@ -227,7 +218,6 @@ def _rss_no_thread_filename(
     h = hashlib.sha256((guid or title).encode("utf-8")).hexdigest()[:8]
     slug_core = _slugify(str(title))
     return f"{slug_prefix}-{air.isoformat()}-{slug_core}-{h}.md"
-
 
 def _build_rss_item_document(
     *,
@@ -271,12 +261,10 @@ def _build_rss_item_document(
     body_lines.append("")
     return guid, front + "\n".join(body_lines)
 
-
 def _threaded_raw_input_filename(*, air: date, expert_id: str) -> str:
     """Basename for RSS items merged by ``thread`` (raw capture only)."""
     day = air.isoformat()
     return f"{day}-{expert_id}.md"
-
 
 def _existing_guids_in_raw_file(path: Path) -> set[str]:
     if not path.is_file():
@@ -289,14 +277,12 @@ def _existing_guids_in_raw_file(path: Path) -> set[str]:
             out.add(g)
     return out
 
-
 def load_config(path: Path) -> dict[str, Any]:
     if not path.is_file():
         raise FileNotFoundError(
             f"Missing config {path}. Copy raw-input/fetch-sources.example.json → fetch-sources.json"
         )
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def append_inbox_stubs_for_fetch(
     notebook_dir: Path,
@@ -352,7 +338,6 @@ def append_inbox_stubs_for_fetch(
         flush=True,
     )
     return len(new_lines)
-
 
 def run(
     *,
@@ -501,7 +486,6 @@ def run(
 
     return 0
 
-
 def _parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--platform/config", type=Path, default=None, help="JSON config path")
@@ -522,7 +506,6 @@ def _parse_args() -> argparse.Namespace:
     p.add_argument("--apply", action="store_true", help="Write files (default: dry-run)")
     p.add_argument("--dry-run", action="store_true", help="Force dry-run")
     return p.parse_args()
-
 
 def main() -> int:
     import os
@@ -549,7 +532,6 @@ def main() -> int:
         apply=apply,
         global_max=args.max_items,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

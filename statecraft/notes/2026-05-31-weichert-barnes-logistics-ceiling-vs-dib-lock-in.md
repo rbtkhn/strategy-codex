@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-05-31/source-mario-nawfal-diesen-breaking-iran-collects-tolls-from-28-ships-in-past-24-hours-2026-05-31.md>
   - source-archive/statecraft/2026-05-31/source-mario-nawfal-larry-johnson-israel-asks-trump-to-escalate-2026-05-31.md>
 ---
-WORK only; not Record.
 
 # Weichert-Barnes On Logistics Ceiling Versus DIB Lock-In - 2026-05-31
 

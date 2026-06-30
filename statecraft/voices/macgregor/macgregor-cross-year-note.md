@@ -1,6 +1,5 @@
 # Macgregor cross-year note
 
-WORK only; not Record.
 
 Purpose: preserve the fact that the Macgregor helix is a single cross-host object while clarifying that it remains a **double helix across years**, not a hidden triple waiting for promotion.
 

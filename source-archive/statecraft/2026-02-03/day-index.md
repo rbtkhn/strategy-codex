@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Nima Alkhorshid` (1)
 - Guests: `Jeffrey Sachs` (1), `John Helmer` (1)
-- Threads: `alkorshid` (1), `helmer` (1), `mercouris` (1), `napolitano` (1), `sachs` (1)
+- Threads: `alkhorshid` (1), `helmer` (1), `mercouris` (1), `napolitano` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=uUZPSQw3cfA) | `source-alexander-mercouris-moscow-says-zelensky-terrorist-for-valdai-attack-confirms-harder-stance-2026-02-03.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `helmer` | [watch](https://www.youtube.com/watch?v=N4DM3Nu3AhY) | `source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `helmer` | [watch](https://www.youtube.com/watch?v=N4DM3Nu3AhY) | `source-dialogue-works-helmer-trump-reckless-strategy-hits-wall-2026-02-03.md` |
 
 ## Writer sources
 

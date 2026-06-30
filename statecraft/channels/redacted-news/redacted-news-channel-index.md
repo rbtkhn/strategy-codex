@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Redacted News Channel Index
 

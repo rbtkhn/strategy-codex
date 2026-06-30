@@ -1,6 +1,5 @@
 # J.D. Vance Authority Carrier Object
 
-WORK only; not Record.
 
 ## Object
 

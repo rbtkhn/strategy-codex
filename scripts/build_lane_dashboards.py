@@ -17,10 +17,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _ledger_path_for_root(root: Path) -> Path:
     return root / "runtime" / "observations" / "index.jsonl"
-
 
 def _load_jsonl(path: Path) -> list[dict]:
     if not path.is_file():
@@ -36,13 +34,11 @@ def _load_jsonl(path: Path) -> list[dict]:
             continue
     return rows
 
-
 def _parse_lane_from_checkpoint_body(text: str) -> str | None:
     for line in text.splitlines():
         if line.strip().startswith("Lane:"):
             return line.split("Lane:", 1)[1].strip()
     return None
-
 
 def _scan_handoffs_markdown(
     *,
@@ -176,7 +172,6 @@ def _scan_handoffs_markdown(
 
     return "".join(lines)
 
-
 def _scan_budget_builds(root: Path) -> str:
     path = PREPARED_CONTEXT_DIR / "last-budget-builds.json"
     lines: list[str] = [
@@ -221,7 +216,6 @@ def _scan_budget_builds(root: Path) -> str:
         lines.append(f"- **Built:** {built}\n")
         lines.append(f"- **Exclusions occurred:** {'yes' if exc else 'no'}\n\n")
     return "".join(lines)
-
 
 def render_markdown(
     *,
@@ -293,7 +287,6 @@ def render_markdown(
     )
     return "".join(lines)
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Build lane-dashboards README under runtime/artifacts/.")
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
@@ -328,7 +321,6 @@ def main() -> int:
     out.write_text(md, encoding="utf-8")
     print(f"wrote {out}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

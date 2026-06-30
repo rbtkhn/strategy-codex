@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 archive_links:
   - source-archive/statecraft/2026-06-01/source-diesen-jiang-u-s-trapped-in-iran-europe-s-war-against-russia-grand-bargain-with-china-2026-06-01.md
 ---
-WORK only; not Record.
 
 # Jiang / PH-Civ Correspondence - June 1, 2026
 

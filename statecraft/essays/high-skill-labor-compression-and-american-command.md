@@ -1,6 +1,5 @@
 # High-Skill Labor Compression and American Command
 
-WORK only; not Record.
 
 **Canonical home:** [../../essays/high-skill-labor-compression-and-american-command.md](../../essays/high-skill-labor-compression-and-american-command.md)
 

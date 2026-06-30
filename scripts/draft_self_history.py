@@ -30,7 +30,6 @@ from repo_io import DEFAULT_PROFILE_ID, profile_dir
 LOG_HEADING = "## Log — WORK (aggregate)"
 COMPANION_HEADING = "## Log — COMPANION (gate-approved)"
 
-
 def extract_activity_yaml(archive_text: str) -> str | None:
     m = re.search(
         r"## V\. ACTIVITY LOG\n.*?\n```yaml\n(.*?)```",
@@ -38,7 +37,6 @@ def extract_activity_yaml(archive_text: str) -> str | None:
         re.DOTALL,
     )
     return m.group(1) if m else None
-
 
 def parse_activities(yaml_blob: str) -> list[tuple[str, str, str, str]]:
     """Return list of (act_id, date, activity_type, summary)."""
@@ -62,7 +60,6 @@ def parse_activities(yaml_blob: str) -> list[tuple[str, str, str, str]]:
         out.append((aid, date, atype, summary))
     return out
 
-
 def companion_monthly_lines(activities: list[tuple[str, str, str, str]]) -> list[str]:
     by_month: dict[str, list[str]] = defaultdict(list)
     for aid, date, _, _ in activities:
@@ -76,7 +73,6 @@ def companion_monthly_lines(activities: list[tuple[str, str, str, str]]) -> list
             f"(`{ids[0]}`–`{ids[-1]}`). Canonical: `self-archive.md` **§ V. ACTIVITY LOG**."
         )
     return lines
-
 
 def companion_per_act_lines(
     activities: list[tuple[str, str, str, str]],
@@ -93,11 +89,9 @@ def companion_per_act_lines(
         lines = lines[:max_n]
     return lines
 
-
 def territory_from_path(path: Path) -> str:
     # docs/skill-work/work-dev/work-dev-history.md -> work-dev
     return path.parent.name
-
 
 def extract_work_log_bullets(path: Path) -> list[str]:
     text = path.read_text(encoding="utf-8")
@@ -122,7 +116,6 @@ def extract_work_log_bullets(path: Path) -> list[str]:
                 break
     return lines_out
 
-
 def work_aggregate_lines() -> list[str]:
     paths = sorted(SKILL_WORK.glob("work-*/*-history.md"))
     lines: list[str] = []
@@ -141,7 +134,6 @@ def work_aggregate_lines() -> list[str]:
                 f"- **WORK:{terr}** — _(no bullets under `## Log` in `{rel.as_posix()}`)_"
             )
     return lines
-
 
 def render_log_sections(
     *,
@@ -180,7 +172,6 @@ def render_log_sections(
         parts.extend(["", "_(`self-archive.md` § V missing or empty)_"])
     return "\n".join(parts) + "\n"
 
-
 def write_self_history(user_id: str, new_log_block: str) -> Path:
     path = profile_dir(user_id) / "self-history.md"
     if not path.is_file():
@@ -192,7 +183,6 @@ def write_self_history(user_id: str, new_log_block: str) -> Path:
     updated = head.rstrip() + "\n\n" + new_log_block
     path.write_text(updated, encoding="utf-8")
     return path
-
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Draft self-history WORK/COMPANION log sections.")
@@ -228,7 +218,6 @@ def main() -> None:
         print(f"wrote log sections: {out}", file=sys.stderr)
     else:
         print(body, end="")
-
 
 if __name__ == "__main__":
     main()

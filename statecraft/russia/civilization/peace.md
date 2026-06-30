@@ -1,6 +1,5 @@
 # Russia Peace
 
-WORK only; not Record.
 
 ## Purpose
 

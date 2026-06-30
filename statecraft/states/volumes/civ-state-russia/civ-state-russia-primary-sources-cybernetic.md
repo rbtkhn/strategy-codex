@@ -1,5 +1,4 @@
 # Russia Primary Sources - Cybernetic
-WORK only; not Record.
 This file contains the Cybernetic primary-source shelf for the Russia CIV-STATE volume after the 1991 industrial endpoint.
 ## Primary Sources
 ### Cybernetic

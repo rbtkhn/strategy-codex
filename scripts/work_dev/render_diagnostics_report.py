@@ -9,7 +9,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
-
 def render(data: dict) -> str:
     tmpl = (
         REPO_ROOT / "docs" / "skill-work" / "work-dev" / "product" / "diagnostics_report_template.md"
@@ -27,7 +26,6 @@ def render(data: dict) -> str:
         .replace("{{external_snippets}}", "Use proof-ledger external_summary_ok lines only when bounded.")
     )
 
-
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--input", type=Path, required=True)
@@ -37,7 +35,6 @@ def main() -> int:
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(render(data), encoding="utf-8")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

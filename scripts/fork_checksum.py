@@ -32,22 +32,18 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from repo_io import profile_dir as _profile_dir  # noqa: E402
 from grace_mar_compat_paths import BOT_DIR
 
-
 def _default_user_id() -> str:
     return (os.getenv("GRACE_MAR_USER_ID", "strategy-codex").strip() or "strategy-codex")
-
 
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text().strip()
 
-
 def _canonicalize(text: str) -> bytes:
     """Normalize for hashing: strip, Unix line endings."""
     normalized = text.strip().replace("\r\n", "\n").replace("\r", "\n")
     return normalized.encode("utf-8")
-
 
 def compute_checksum(pd: Path) -> str:
     """Compute SHA-256 of fork state for ."""
@@ -68,14 +64,12 @@ def compute_checksum(pd: Path) -> str:
         h.update(b"\n---\n")
     return h.hexdigest()
 
-
 def _ix_counts(content: str) -> tuple[int, int, int]:
     """Return (ix_a, ix_b, ix_c) from self.md content."""
     a = len(re.findall(r"id:\s+LEARN-\d+", content))
     b = len(re.findall(r"id:\s+CUR-\d+", content))
     c = len(re.findall(r"id:\s+PER-\d+", content))
     return a, b, c
-
 
 def _pipeline_stats(pd: Path) -> tuple[int, int, str]:
     """Return (applied, rejected, last_applied_ts) from pipeline-events.jsonl."""
@@ -99,7 +93,6 @@ def _pipeline_stats(pd: Path) -> tuple[int, int, str]:
             except json.JSONDecodeError:
                 pass
     return applied, rejected, last_ts
-
 
 def write_manifest(pd: Path, checksum: str) -> None:
     """Write fork-manifest.json with checksum, IX counts, pipeline stats."""
@@ -125,7 +118,6 @@ def write_manifest(pd: Path, checksum: str) -> None:
     manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {manifest_path}", file=sys.stderr)
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="Compute fork state checksum")
     parser.add_argument(
@@ -150,7 +142,6 @@ def main() -> None:
         print(f"Appended to {log_path}", file=sys.stderr)
     if args.manifest:
         write_manifest(pd, checksum)
-
 
 if __name__ == "__main__":
     main()

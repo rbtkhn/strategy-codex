@@ -49,7 +49,8 @@ GUEST_ENTRY_RE = re.compile(
     r"(?:>>\s*)?"
     r"(?:(?:Professor|Prof\.|Ambassador|Amb\.|Colonel|Col\.|Dr\.|Judge|Ray)\s+"
     r"[\w\.'\s-]+,\s*(?:welcome|good day|always a pleasure|thank you|a pleasure|thank you very much))"
-    r"|(?:Professor|Prof\.|Ambassador|Colonel|Col\.|Ray)\s+[\w\.'\s-]+\s+joins us now",
+    r"|(?:Professor|Prof\.|Ambassador|Colonel|Col\.|Ray)\s+[\w\.'\s-]+\s+joins us now"
+    r"|[\w\.'\s-]+,\s*welcome(?:\s+here)?(?:,|\s|\.|\s+uh\b)",
     re.IGNORECASE,
 )
 CLOSE_PROMO_START_RE = re.compile(
@@ -94,7 +95,6 @@ GUEST_TITLE_PREFIXES = (
 VALID_TRIM_LANES = frozenset({"cold_open", "sponsor", "close_promo", "noise"})
 DEFAULT_TRIM_LANES = VALID_TRIM_LANES
 
-
 def parse_lanes(raw: str | None) -> frozenset[str]:
     if not raw:
         return DEFAULT_TRIM_LANES
@@ -103,7 +103,6 @@ def parse_lanes(raw: str | None) -> frozenset[str]:
     if unknown:
         raise SystemExit(f"Unknown --lanes value(s): {', '.join(sorted(unknown))}")
     return frozenset(lanes)
-
 
 @dataclass(frozen=True)
 class FileChange:
@@ -114,13 +113,11 @@ class FileChange:
     close_promo_trimmed: bool = False
     paragraphs_removed: int = 0
 
-
 def split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     match = FRONTMATTER_RE.match(text)
     if not match:
         return {}, text
     return parse_simple_frontmatter(match.group(1)), text[match.end() :]
-
 
 def parse_simple_frontmatter(raw: str) -> dict[str, Any]:
     data: dict[str, Any] = {}
@@ -140,7 +137,6 @@ def parse_simple_frontmatter(raw: str) -> dict[str, Any]:
             data[key] = value
     return data
 
-
 def dump_simple_frontmatter(data: dict[str, Any]) -> str:
     lines: list[str] = []
     for key, value in data.items():
@@ -155,10 +151,8 @@ def dump_simple_frontmatter(data: dict[str, Any]) -> str:
         lines.append(f"{key}: {rendered}")
     return "\n".join(lines)
 
-
 def dump_frontmatter(data: dict[str, Any]) -> str:
     return f"---\n{dump_simple_frontmatter(data).rstrip()}\n---\n\n"
-
 
 def is_napolitano_capture(meta: dict[str, Any], path: Path) -> bool:
     name = path.name.lower()
@@ -172,19 +166,16 @@ def is_napolitano_capture(meta: dict[str, Any], path: Path) -> bool:
         return False
     return True
 
-
 def split_paragraphs(text: str) -> list[str]:
     text = text.strip()
     if not text:
         return []
     return [chunk.strip() for chunk in re.split(r"\n\s*\n", text) if chunk.strip()]
 
-
 def join_paragraphs(paragraphs: list[str]) -> str:
     if not paragraphs:
         return ""
     return "\n\n".join(paragraphs).rstrip() + "\n"
-
 
 def guest_paragraph_cues(guest: str) -> set[str]:
     clean = " ".join(guest.split()).strip()
@@ -200,13 +191,11 @@ def guest_paragraph_cues(guest: str) -> set[str]:
             cues.add(low[len(title) + 1 :].strip())
     return {cue for cue in cues if cue}
 
-
 def strip_leading_music_noise(text: str) -> tuple[str, bool]:
     stripped = MUSIC_NOISE_RE.sub("", text, count=1).lstrip()
     if stripped != text.lstrip():
         return stripped, True
     return text, False
-
 
 def trim_cold_open_block(text: str) -> tuple[str, bool]:
     intro = HOST_INTRO_RE.search(text)
@@ -221,7 +210,6 @@ def trim_cold_open_block(text: str) -> tuple[str, bool]:
     trimmed = text[intro.start() :].lstrip()
     trimmed, _ = strip_leading_music_noise(trimmed)
     return trimmed, trimmed != text
-
 
 def find_guest_entry_index(paragraphs: list[str], guest: str) -> int | None:
     joined = "\n\n".join(paragraphs[:6])
@@ -239,7 +227,6 @@ def find_guest_entry_index(paragraphs: list[str], guest: str) -> int | None:
             if re.search(r"\b(?:welcome|good day|thank you|joins us now|pleasure)\b", lower):
                 return idx
     return None
-
 
 def trim_sponsor_block(paragraphs: list[str], guest: str) -> tuple[list[str], bool]:
     if not paragraphs:
@@ -289,12 +276,14 @@ def trim_sponsor_block(paragraphs: list[str], guest: str) -> tuple[list[str], bo
                 and re.search(r"\b(?:welcome|good day|thank you)\b", para, re.I)
             ):
                 sponsor_active = False
-                new_window.append(para)
-            elif SPONSOR_SIGNAL_RE.search(para):
-                continue
+                if guest_in_para:
+                    after = para[guest_in_para.start() :].lstrip()
+                    if after:
+                        new_window.append(after)
+                else:
+                    new_window.append(para)
             else:
-                sponsor_active = False
-                new_window.append(para)
+                continue
         else:
             new_window.append(para)
 
@@ -302,7 +291,6 @@ def trim_sponsor_block(paragraphs: list[str], guest: str) -> tuple[list[str], bo
         return paragraphs, False
     tail_start = guest_idx + 1 if guest_idx < len(paragraphs) - 1 else len(paragraphs)
     return new_window + paragraphs[tail_start:], True
-
 
 def trim_close_promo_block(paragraphs: list[str]) -> tuple[list[str], bool]:
     if not paragraphs:
@@ -332,7 +320,6 @@ def trim_close_promo_block(paragraphs: list[str]) -> tuple[list[str], bool]:
         return paragraphs, False
     return new_paragraphs, True
 
-
 def classify_opening_tier(
     paragraphs: list[str],
     *,
@@ -351,7 +338,6 @@ def classify_opening_tier(
         return "host-tease"
     return "clean"
 
-
 def opening_has_cold_open(paragraphs: list[str]) -> bool:
     if not paragraphs:
         return False
@@ -361,12 +347,10 @@ def opening_has_cold_open(paragraphs: list[str]) -> bool:
         return bool(COLD_OPEN_SIGNAL_RE.search(text))
     return bool(COLD_OPEN_SIGNAL_RE.search(text[: intro.start()]))
 
-
 def opening_has_sponsor(paragraphs: list[str]) -> bool:
     if not paragraphs:
         return False
     return bool(SPONSOR_SIGNAL_RE.search("\n\n".join(paragraphs[:5])))
-
 
 def trim_transcript_body(
     body: str,
@@ -443,7 +427,6 @@ def trim_transcript_body(
         ),
     )
 
-
 def split_body_sections(body: str) -> tuple[str, str, str]:
     match = TRANSCRIPT_SECTION_RE.search(body)
     if match:
@@ -466,19 +449,16 @@ def split_body_sections(body: str) -> tuple[str, str, str]:
     transcript_body = "".join(lines[idx:])
     return prefix, "", transcript_body
 
-
 def merge_body_sections(prefix: str, transcript_header: str, transcript_body: str) -> str:
     if not transcript_header:
         return prefix + transcript_body
     return prefix + transcript_header + transcript_body
-
 
 def append_editorial_note(meta: dict[str, Any], note: str) -> None:
     existing = str(meta.get("editorial_note") or "").strip()
     if note.lower() in existing.lower():
         return
     meta["editorial_note"] = f"{existing} {note}".strip() if existing else note
-
 
 def normalize_text(
     path: Path,
@@ -585,7 +565,6 @@ def normalize_text(
         ),
     )
 
-
 def candidate_paths(root: Path, explicit: list[Path] | None = None) -> list[Path]:
     if explicit:
         return sorted({p.resolve() for p in explicit})
@@ -601,7 +580,6 @@ def candidate_paths(root: Path, explicit: list[Path] | None = None) -> list[Path
         if is_napolitano_capture(meta, path):
             paths.append(path)
     return sorted(set(paths))
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -651,7 +629,6 @@ def main() -> int:
         rel = change.path.relative_to(REPO_ROOT).as_posix()
         print(f"- {rel} [{joined}] tier={change.opening_tier}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

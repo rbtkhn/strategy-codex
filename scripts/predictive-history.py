@@ -14,6 +14,5 @@ from repo_io import SRC_DIR
 
 from grace_mar.predictive_history import main
 
-
 if __name__ == "__main__":
     raise SystemExit(main())

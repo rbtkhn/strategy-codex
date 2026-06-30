@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `diesen`
 <!-- word_count: 4730 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 

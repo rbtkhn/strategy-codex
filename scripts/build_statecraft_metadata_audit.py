@@ -22,7 +22,6 @@ from statecraft_day_archive import (
     split_person_field_value,
 )
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ARTIFACTS_DIR / "statecraft" / "metadata"
 OUT_JSON = OUT_DIR / "normalization-audit.json"
@@ -30,7 +29,6 @@ OUT_MD = OUT_DIR / "normalization-audit.md"
 SCHEMA_VERSION = "1.0.0-statecraft-metadata-normalization-audit"
 SLUG_PERSON_RE = re.compile(r"^[a-z]+(?:-[a-z]+)+$")
 ROLE_MARKER_RE = re.compile(r"\((?:host|guest)\)", re.IGNORECASE)
-
 
 def _raw_person_values(meta: dict, keys: tuple[str, ...], pattern_prefix: str | None = None) -> list[str]:
     out: list[str] = []
@@ -41,7 +39,6 @@ def _raw_person_values(meta: dict, keys: tuple[str, ...], pattern_prefix: str | 
             if str(key).startswith(pattern_prefix):
                 out.extend(str(value) for value in as_values(raw_value))
     return out
-
 
 def _classify_host_boundary_failure(raw_host: str, meta: dict, normalized_parts: tuple[str, ...]) -> list[str]:
     classes: list[str] = []
@@ -64,13 +61,11 @@ def _classify_host_boundary_failure(raw_host: str, meta: dict, normalized_parts:
         classes.append("slug-person-field")
     return classes
 
-
 def _looks_like_known_speaker(value: str) -> bool:
     import build_speaker_routing_queue as speaker_routing
     from statecraft_day_archive import _speaker_inventory
 
     return bool(speaker_routing._match_speaker(value, _speaker_inventory()))  # noqa: SLF001
-
 
 def _classify_guest_boundary_failure(
     raw_guest: str,
@@ -91,7 +86,6 @@ def _classify_guest_boundary_failure(
     if normalized_parts and not any(part in record_guest_values for part in normalized_parts) and not classes:
         classes.append("unresolved-guest-fragment")
     return classes
-
 
 def build_payload(root: Path = DEFAULT_ROOT) -> dict:
     host_rewrites: Counter[str] = Counter()
@@ -211,7 +205,6 @@ def build_payload(root: Path = DEFAULT_ROOT) -> dict:
         "guestVariantFamilies": top_variant_families(normalized_guest_variants),
     }
 
-
 def render_markdown(payload: dict) -> str:
     lines = [
         "# Statecraft Metadata Normalization Audit",
@@ -267,7 +260,6 @@ def render_markdown(payload: dict) -> str:
     lines.append("")
     return "\n".join(lines)
 
-
 def main() -> int:
     payload = build_payload()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -276,7 +268,6 @@ def main() -> int:
     print(f"wrote {OUT_MD}")
     print(f"wrote {OUT_JSON}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

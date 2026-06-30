@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Glenn Diesen` (1), `Nima Alkhorshid` (1)
 - Guests: `Alastair Crooke` (1), `Lawrence Wilkerson` (1)
-- Threads: `alkorshid` (1), `crooke` (1), `diesen` (1), `wilkerson` (1)
+- Threads: `alkhorshid` (1), `crooke` (1), `diesen` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `dialogue-works` | — | `alkorshid`, `crooke` | [watch](https://www.youtube.com/watch?v=TtZr_v4rWBo) | `source-dialogue-works-alastair-crooke-alastair-crooke-middle-east-on-the-brink-russia-rains-down-drones-missiles-2025-09-12.md` |
+| `dialogue-works` | — | `alkhorshid`, `crooke` | [watch](https://www.youtube.com/watch?v=TtZr_v4rWBo) | `source-dialogue-works-alastair-crooke-alastair-crooke-middle-east-on-the-brink-russia-rains-down-drones-missiles-2025-09-12.md` |
 | `glenn-diesen` | — | `diesen`, `wilkerson` | [watch](https://www.youtube.com/watch?v=MujCTLhegRk) | `source-glenn-diesen-lawrence-wilkerson-lawrence-wilkerson-america-is-retrenching-and-alliances-fall-apart-2025-09-12.md` |
 
 ## Writer sources

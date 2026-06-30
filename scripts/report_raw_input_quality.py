@@ -22,10 +22,8 @@ if str(SCRIPTS_DIR) not in sys.path:
 import build_speaker_routing_queue as speaker_routing  # noqa: E402
 import host_shelf_quality  # noqa: E402
 
-
 def _rel(path: Path) -> str:
     return host_shelf_quality._rel(path)  # noqa: SLF001
-
 
 def _default_notebook_root(path: Path, year: int) -> Path:
     parts = list(path.resolve().parts)
@@ -39,7 +37,6 @@ def _default_notebook_root(path: Path, year: int) -> Path:
             return Path(*parts[: index + 3])
     return REPO_ROOT / "codex" / "years" / str(year)
 
-
 def _legacy_transcript_warning(artifact: dict[str, Any]) -> str:
     if artifact["evidence_grade"] != "legacy-appearance-only":
         return ""
@@ -50,7 +47,6 @@ def _legacy_transcript_warning(artifact: dict[str, Any]) -> str:
         "`legacy-appearance-only`; do not call it transcript-valid until "
         "source_type/transcript_type metadata is normalized."
     )
-
 
 def _body_word_count(path: Path) -> int:
     text = path.read_text(encoding="utf-8-sig")
@@ -64,7 +60,6 @@ def _body_word_count(path: Path) -> int:
         if not line.lstrip().startswith("#") and not line.lstrip().startswith("**Watch:**")
     )
     return len(re.findall(r"\b[\w'-]+\b", text))
-
 
 def build_report(
     raw_input_path: Path,
@@ -146,7 +141,6 @@ def build_report(
         "git_state": summary["git_state"],
     }
 
-
 def render_markdown(report: dict[str, Any]) -> str:
     residual = report["residual_noise_terms"]
     residual_text = "none" if not residual else ", ".join(f"`{term}`" for term in residual)
@@ -167,7 +161,6 @@ def render_markdown(report: dict[str, Any]) -> str:
         lines.append(f"- warning: {report['legacy_transcript_warning']}")
     return "\n".join(lines) + "\n"
 
-
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--path", required=True, type=Path, help="Raw-input Markdown file to report.")
@@ -175,7 +168,6 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--output-root", type=Path, default=host_shelf_quality.DEFAULT_OUT_ROOT)
     parser.add_argument("--json", action="store_true", help="Emit JSON instead of Markdown.")
     return parser
-
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
@@ -189,7 +181,6 @@ def main(argv: list[str] | None = None) -> int:
     else:
         print(render_markdown(report), end="")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

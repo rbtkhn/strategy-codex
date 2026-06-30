@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 # China - Taiwan Inspection Pressure Without Blockade Ownership
 
-WORK only; not Record.
 
 ## Transaction Name
 

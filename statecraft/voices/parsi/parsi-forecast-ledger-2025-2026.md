@@ -1,6 +1,5 @@
 # Parsi forecast + diplomacy ledger - 2025-2026
 
-WORK only; not Record.
 
 Purpose: canonical authored mechanism spine for the Parsi shelf.
 

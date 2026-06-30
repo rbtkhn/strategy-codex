@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Ben-Gurion, Clausewitz, And Redemptive Permanent War
 

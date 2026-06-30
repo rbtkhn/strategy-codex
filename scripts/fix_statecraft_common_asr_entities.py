@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Apply bounded common-ASR entity repairs across statecraft transcript corpora.
 
-WORK only; not Record.
-
 This pass targets a small set of high-confidence recurring name and chokepoint
 garbles in transcript-bearing statecraft files.
 """
@@ -37,13 +35,11 @@ TRANSCRIPT_PREFIXES = (
     "substack-",
 )
 
-
 @dataclass(frozen=True)
 class ReplacementSpec:
     pattern: re.Pattern[str]
     replacement: str
     label: str
-
 
 REPLACEMENT_SPECS: tuple[ReplacementSpec, ...] = (
     ReplacementSpec(
@@ -407,8 +403,8 @@ REPLACEMENT_SPECS: tuple[ReplacementSpec, ...] = (
     ReplacementSpec(re.compile(r"\bKharkof\b", re.IGNORECASE), "Kharkov", "kharkov_kharkof_asr"),
     ReplacementSpec(re.compile(r"\bKharkoff\b", re.IGNORECASE), "Kharkov", "kharkov_kharkoff_asr"),
     # strategy-codex canonical spelling (operator policy): Nima Alkhorshid — display surname with h.
-    ReplacementSpec(re.compile(r"\bNima Alkorshid's\b"), "Nima Alkhorshid's", "nima_alkhorshid_poss"),
-    ReplacementSpec(re.compile(r"\bNima Alkorshid\b"), "Nima Alkhorshid", "nima_alkhorshid_display"),
+    ReplacementSpec(re.compile(r"\bNima Alkhorshid's\b"), "Nima Alkhorshid's", "nima_alkhorshid_poss"),
+    ReplacementSpec(re.compile(r"\bNima Alkhorshid\b"), "Nima Alkhorshid", "nima_alkhorshid_display"),
     ReplacementSpec(re.compile(r"\bAlkorshid's\b"), "Alkhorshid's", "nima_alkhorshid_surname_poss"),
     ReplacementSpec(re.compile(r"\bAlkorshid\b"), "Alkhorshid", "nima_alkhorshid_surname_canonical"),
     # Belarus / Lukashenko / Sumy ASR cluster (Mercouris Ukraine-war calibration; 2026-06).
@@ -552,14 +548,12 @@ REPLACEMENT_SPECS: tuple[ReplacementSpec, ...] = (
     ReplacementSpec(re.compile(r"\bMirrad\b", re.IGNORECASE), "Myrnohrad", "myrnohrad_mirrad"),
 )
 
-
 def is_policy_skip(path: Path) -> bool:
     try:
         rel = path.relative_to(REPO_ROOT).as_posix()
     except ValueError:
         return False
     return rel in POLICY_SKIP_PATHS
-
 
 def parse_frontmatter(text: str) -> dict[str, str]:
     match = FRONTMATTER_RE.match(text)
@@ -574,7 +568,6 @@ def parse_frontmatter(text: str) -> dict[str, str]:
     if source_type:
         meta["source_type"] = source_type.group(1).strip().strip('"')
     return meta
-
 
 def is_transcript_like(path: Path, text: str) -> bool:
     if path.name == "README.md":
@@ -593,16 +586,13 @@ def is_transcript_like(path: Path, text: str) -> bool:
         return True
     return False
 
-
 def select_specs(only_labels: set[str] | None) -> tuple[ReplacementSpec, ...]:
     if not only_labels:
         return REPLACEMENT_SPECS
     return tuple(spec for spec in REPLACEMENT_SPECS if spec.label in only_labels)
 
-
 URL_SEGMENT_RE = re.compile(r"https?://[^\s)>\]\"']+", re.IGNORECASE)
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]\n]*\]\([^)\n]+\)")
-
 
 def _merged_protected_spans(text: str) -> list[tuple[int, int]]:
     spans: list[tuple[int, int]] = []
@@ -620,7 +610,6 @@ def _merged_protected_spans(text: str) -> list[tuple[int, int]]:
         else:
             merged.append((start, end))
     return merged
-
 
 def _subn_outside_protected(text: str, spec: ReplacementSpec) -> tuple[str, int]:
     spans = _merged_protected_spans(text)
@@ -642,7 +631,6 @@ def _subn_outside_protected(text: str, spec: ReplacementSpec) -> tuple[str, int]
     parts.append(tail)
     return "".join(parts), total
 
-
 def apply_replacements(
     text: str,
     specs: tuple[ReplacementSpec, ...] | None = None,
@@ -655,7 +643,6 @@ def apply_replacements(
         if n:
             counts[spec.label] += n
     return text, counts
-
 
 def fix_root(
     root: Path,
@@ -693,7 +680,6 @@ def fix_root(
         "files": file_rows,
     }
 
-
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Root directory to scan.")
@@ -710,7 +696,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     return parser.parse_args(argv)
 
-
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     only_labels = {label.strip() for label in args.only_labels.split(",") if label.strip()} or None
@@ -722,7 +707,6 @@ def main(argv: list[str] | None = None) -> int:
     )
     print(json.dumps(result, indent=2))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -8,7 +8,7 @@ python3 scripts/build_voice_index_registry.py
 
 Terminology: [`voice-index-registry.md`](../../statecraft/voices/voice-index-registry.md).
 
-_Generated at 2026-06-30T01:33:10Z_
+_Generated at 2026-06-30T05:13:26Z_
 
 ## Summary
 
@@ -17,9 +17,9 @@ _Generated at 2026-06-30T01:33:10Z_
 | Voices discovered | 33 |
 | Listed in voices router | 33 |
 | With primary voice index | 33 |
-| With rebuild script | 28 |
-| Parity pass | 28 |
-| Parity warn | 5 |
+| With rebuild script | 33 |
+| Parity pass | 33 |
+| Parity warn | 0 |
 | Parity fail | 0 |
 | Broken links (total) | 0 |
 | Documented exceptions | 10 |
@@ -39,25 +39,25 @@ _Generated at 2026-06-30T01:33:10Z_
 | freeman | `statecraft/voices/freeman/freeman-index.md` | `scripts/build_freeman_index.py` | 149 | 151 | pass | — | canonical |
 | helmer | `statecraft/voices/helmer/helmer-index.md` | `scripts/build_helmer_index.py` | 16 | 18 | pass | — | canonical |
 | hoh | `statecraft/voices/hoh/hoh-index.md` | `scripts/build_hoh_index.py` | 13 | 13 | pass | — | canonical |
-| jermy | `statecraft/voices/jermy/jermy-index.md` | — | 12 | 15 | warn | — | canonical |
+| jermy | `statecraft/voices/jermy/jermy-index.md` | `scripts/build_jermy_index.py` | 12 | 12 | pass | — | canonical |
 | jiang | `statecraft/voices/jiang/jiang-index.md` | `scripts/build_jiang_index.py` | 6 | 6 | pass | PH-owned filenames (source-game-theory-, source-gb-, source-predictive-history-, source-interviews-* except Sneako dual-index); Dialogue Works host rows about Jiang excluded (+1) | canonical |
 | johnson | `statecraft/voices/johnson/johnson-index.md` | `scripts/build_johnson_index.py` | 111 | 111 | pass | — | canonical |
-| karaganov | `statecraft/voices/karaganov/karaganov-index.md` | — | 7 | 10 | warn | reaction-tier source-ritter-* captures citing Karaganov token are not guest appearances | canonical |
-| kent | `statecraft/voices/kent/kent-index.md` | `scripts/build_kent_index.py` | 15 | 15 | pass | support-tier panel rows may appear in index but are not primary guest corpus for parity warnings | canonical |
+| karaganov | `statecraft/voices/karaganov/karaganov-index.md` | `scripts/build_karaganov_index.py` | 7 | 7 | pass | reaction-tier source-ritter-* captures citing Karaganov token are not guest appearances; lascaris embed captures cited for clip SSOT / tension pairs only (plain-text refs in index) | canonical |
+| kent | `statecraft/voices/kent/kent-index.md` | `scripts/build_kent_index.py` | 16 | 16 | pass | support-tier panel rows may appear in index but are not primary guest corpus for parity warnings | canonical |
 | krainer | `statecraft/voices/krainer/krainer-index.md` | `scripts/build_krainer_index.py` | 14 | 14 | pass | — | canonical |
 | krapivnik | `statecraft/voices/krapivnik/krapivnik-index.md` | `scripts/build_krapivnik_index.py` | 10 | 10 | pass | — | canonical |
 | macgregor | `statecraft/voices/macgregor/macgregor-index.md` | `scripts/build_macgregor_index.py` | 90 | 90 | pass | — | canonical |
 | marandi | `statecraft/voices/marandi/marandi-index.md` | `scripts/build_marandi_index.py` | 72 | 72 | pass | — | canonical |
 | martyanov | `statecraft/voices/martyanov/martyanov-index.md` | `scripts/build_martyanov_index.py` | 34 | 34 | pass | — | canonical |
-| mate | `statecraft/voices/mate/mate-index.md` | — | 2 | 3 | warn | — | canonical |
+| mate | `statecraft/voices/mate/mate-index.md` | `scripts/build_mate_index.py` | 2 | 2 | pass | — | canonical |
 | matlock | `statecraft/voices/matlock/matlock-index.md` | `scripts/build_matlock_index.py` | 5 | 5 | pass | — | canonical |
 | mcgovern | `statecraft/voices/mcgovern/mcgovern-index.md` | `scripts/build_mcgovern_index.py` | 28 | 28 | pass | — | canonical |
 | mearsheimer | `statecraft/voices/mearsheimer/mearsheimer-index.md` | `scripts/build_mearsheimer_index.py` | 95 | 95 | pass | — | canonical |
 | mercouris | `statecraft/voices/mercouris/mercouris-index.md` | `scripts/build_mercouris_guest_index.py` | 46 | 46 | pass | alexander-mercouris host channel and source-alexander-mercouris-* excluded from guest-index parity; guest-index eligible set mirrors build_mercouris_guest_index.is_guest() | canonical |
 | pape | `statecraft/voices/pape/pape-index.md` | `scripts/build_pape_index.py` | 72 | 72 | pass | verify-pape-* and x-pape-* stub captures excluded from guest parity; date-only source-pape-YYYY-MM-DD stubs unless Cyrus Janssen studio lane (+1) | canonical |
-| parsi | `statecraft/voices/parsi/parsi-index.md` | — | 51 | 51 | warn | — | canonical |
+| parsi | `statecraft/voices/parsi/parsi-index.md` | `scripts/build_parsi_index.py` | 51 | 51 | pass | — | canonical |
 | postol | `statecraft/voices/postol/postol-index.md` | `scripts/build_postol_index.py` | 6 | 6 | pass | — | canonical |
-| ritter | `statecraft/voices/ritter/ritter-index.md` | — | 99 | 99 | warn | date-only source-ritter-YYYY-MM-DD stubs excluded from index parity; verify-ritter-* and ritter-rant-* prefixes excluded | canonical |
+| ritter | `statecraft/voices/ritter/ritter-index.md` | `scripts/build_ritter_index.py` | 99 | 99 | pass | date-only source-ritter-YYYY-MM-DD stubs excluded from index parity; verify-ritter-* and ritter-rant-* prefixes excluded | canonical |
 | sachs | `statecraft/voices/sachs/sachs-index.md` | `scripts/build_sachs_index.py` | 92 | 92 | pass | — | canonical |
 | weichert | `statecraft/voices/weichert/weichert-index.md` | `scripts/build_weichert_index.py` | 15 | 15 | pass | — | canonical |
 | wilkerson | `statecraft/voices/wilkerson/wilkerson-index.md` | `scripts/build_wilkerson_index.py` | 95 | 95 | pass | — | canonical |

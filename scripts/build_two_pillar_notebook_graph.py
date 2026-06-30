@@ -65,7 +65,7 @@ PILLARS = {
         "axis_label": "Synthesis",
         "voice_note": "Synthesis through long-form cross-guest interviews.",
         "host_id": "nima",
-        "host_name": "Nima Alkorshid",
+        "host_name": "Nima Alkhorshid",
         "host_thread": "thread:alkhorshid",
         "channel_url": "https://www.youtube.com/@dialogueworks01/videos",
         "source_channels": ["@dialogueworks01"],
@@ -277,7 +277,7 @@ THEME_RULES: list[tuple[str, str]] = [
 ]
 
 HOST_LOOKUP_KEYS = {
-    "nima": {"nima", "alkorshid", "alkhorshid", "nima alkhorshid", "nima alkorshid"},
+    "nima": {"nima", "alkhorshid", "alkhorshid", "nima alkhorshid", "nima alkhorshid"},
     "diesen": {"glenn", "diesen", "glenn diesen"},
     "davis": {"daniel", "davis", "daniel davis", "lt col daniel davis", "lt. col. daniel davis"},
     "mercouris_duran": {
@@ -296,8 +296,8 @@ COHOST_LOOKUP_KEYS = {
 }
 
 DISPLAY_NAME_OVERRIDES = {
-    "nima alkhorshid": "Nima Alkorshid",
-    "nima alkorshid": "Nima Alkorshid",
+    "nima alkhorshid": "Nima Alkhorshid",
+    "nima alkhorshid": "Nima Alkhorshid",
     "glenn diesen": "Glenn Diesen",
     "daniel davis": "Daniel Davis",
     "lt col daniel davis": "Daniel Davis",
@@ -333,7 +333,6 @@ DISPLAY_NAME_OVERRIDES = {
     "col. larry wilkerson": "Lawrence Wilkerson",
 }
 
-
 @dataclass(frozen=True)
 class SourceRow:
     episode_id: str
@@ -351,10 +350,8 @@ class SourceRow:
     routing: dict[str, object]
     source: dict[str, object]
 
-
 def _normalize_space(text: str) -> str:
     return WHITESPACE_RE.sub(" ", (text or "")).strip()
-
 
 def _normalize_date(raw: str | None) -> str | None:
     text = _normalize_space(raw or "")
@@ -369,7 +366,6 @@ def _normalize_date(raw: str | None) -> str | None:
     except ValueError:
         return None
 
-
 def _extract_video_id(value: str) -> str | None:
     text = (value or "").strip()
     if not text:
@@ -382,17 +378,14 @@ def _extract_video_id(value: str) -> str | None:
             return m.group(1)
     return None
 
-
 def _is_canonical_youtube_video_id(value: str) -> bool:
     return bool(re.fullmatch(r"[A-Za-z0-9_-]{11}", _extract_video_id(value) or ""))
-
 
 def _canonical_watch_url(value: str) -> str | None:
     video_id = _extract_video_id(value)
     if not video_id:
         return None
     return f"https://www.youtube.com/watch?v={video_id}"
-
 
 def _ascii_slugify(text: str, *, max_len: int = 80) -> str:
     normalized = unicodedata.normalize("NFKD", text or "")
@@ -403,7 +396,6 @@ def _ascii_slugify(text: str, *, max_len: int = 80) -> str:
     ascii_text = ascii_text[:max_len].rstrip("-")
     return ascii_text or "item"
 
-
 def _display_clean(text: str) -> str:
     out = html.unescape(text or "")
     out = out.replace("“", '"').replace("”", '"').replace("’", "'")
@@ -412,7 +404,6 @@ def _display_clean(text: str) -> str:
     out = _normalize_space(out)
     out = out.strip(" ,;:-|")
     return out
-
 
 def _looks_like_person_name(text: str) -> bool:
     cleaned = _display_clean(text)
@@ -430,7 +421,6 @@ def _looks_like_person_name(text: str) -> bool:
         return False
     return bool(PERSON_LIKE_RE.fullmatch(cleaned))
 
-
 def _best_person_fragment(text: str) -> str:
     candidate = _display_clean(text)
     if not candidate:
@@ -447,7 +437,6 @@ def _best_person_fragment(text: str) -> str:
         return max(person_fragments, key=lambda item: (len(item.split()), len(item)))
     return ""
 
-
 def _lookup_key(text: str) -> str:
     out = _display_clean(text)
     out = unicodedata.normalize("NFKD", out)
@@ -455,7 +444,6 @@ def _lookup_key(text: str) -> str:
     out = out.lower().replace(".", "")
     out = re.sub(r"[^a-z0-9]+", " ", out)
     return _normalize_space(out)
-
 
 def _canonicalize_guest_name(raw_name: str) -> str:
     key = _lookup_key(raw_name)
@@ -469,7 +457,6 @@ def _canonicalize_guest_name(raw_name: str) -> str:
         return ""
     return _display_clean(raw_name)
 
-
 def _scan_title_for_known_guest(title: str) -> str | None:
     title_key = _lookup_key(title)
     if not title_key:
@@ -481,14 +468,11 @@ def _scan_title_for_known_guest(title: str) -> str | None:
             return canonical
     return None
 
-
 def _load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
-
 def _synthetic_video_id(seed: str) -> str:
     return hashlib.sha1(seed.encode("utf-8")).hexdigest()[:11]
-
 
 def _parse_frontmatter_value(raw: str) -> object:
     text = _normalize_space(raw)
@@ -503,7 +487,6 @@ def _parse_frontmatter_value(raw: str) -> object:
     if (text.startswith('"') and text.endswith('"')) or (text.startswith("'") and text.endswith("'")):
         return text[1:-1]
     return text
-
 
 def _parse_frontmatter(text: str) -> tuple[dict[str, object], str]:
     if not text.startswith("---"):
@@ -525,13 +508,11 @@ def _parse_frontmatter(text: str) -> tuple[dict[str, object], str]:
     body = "\n".join(lines[idx:])
     return front, body
 
-
 def _first_h1(text: str) -> str:
     for line in text.splitlines():
         if line.startswith("# "):
             return _normalize_space(line[2:])
     return ""
-
 
 def _load_crawl_rows(
     *,
@@ -573,7 +554,6 @@ def _load_crawl_rows(
     rows.sort(key=lambda row: (row["pub_date"], row["title"], row["video_id"]))
     return rows
 
-
 def _build_raw_input_index(raw_root: Path) -> tuple[set[str], set[str]]:
     video_ids: set[str] = set()
     urls: set[str] = set()
@@ -597,13 +577,11 @@ def _build_raw_input_index(raw_root: Path) -> tuple[set[str], set[str]]:
             urls.add(f"https://www.youtube.com/watch?v={match.group(1)}")
     return video_ids, urls
 
-
 def _date_from_path(path: Path) -> str | None:
     for part in reversed(path.parts):
         if re.fullmatch(r"\d{4}-\d{2}-\d{2}", part):
             return part
     return None
-
 
 def _count_lens_raw_inputs(raw_root: Path) -> dict[str, dict[str, object]]:
     stats = {
@@ -633,7 +611,6 @@ def _count_lens_raw_inputs(raw_root: Path) -> dict[str, dict[str, object]]:
                 if stat["last_seen"] is None or date_text > str(stat["last_seen"]):
                     stat["last_seen"] = date_text
     return stats
-
 
 def _load_thread_id_map() -> dict[str, str]:
     path = (
@@ -668,7 +645,6 @@ def _load_thread_id_map() -> dict[str, str]:
             thread_map[key] = expert_id
     return thread_map
 
-
 def _frontmatter_values(front: dict[str, object], key: str) -> list[str]:
     value = front.get(key)
     if value is None:
@@ -683,7 +659,6 @@ def _frontmatter_values(front: dict[str, object], key: str) -> list[str]:
     else:
         items = [str(value)]
     return [_normalize_space(item) for item in items if _normalize_space(item)]
-
 
 def _extract_people_from_body(text: str) -> tuple[list[str], list[str]]:
     guests: list[str] = []
@@ -724,7 +699,6 @@ def _extract_people_from_body(text: str) -> tuple[list[str], list[str]]:
                         guests.append(canonical)
     return guests, cohosts
 
-
 def _mercouris_source_channel(front: dict[str, object], path: Path, title: str, body: str) -> str:
     front_show = _lookup_key(str(front.get("show") or ""))
     front_host = _lookup_key(str(front.get("host") or ""))
@@ -739,7 +713,6 @@ def _mercouris_source_channel(front: dict[str, object], path: Path, title: str, 
         return "@AlexMercouris"
     return "@TheDuran"
 
-
 def _mercouris_episode_id(front: dict[str, object], path: Path, title: str, pub_date: str) -> tuple[str, str]:
     raw_candidates = [
         str(front.get("source_url") or ""),
@@ -752,7 +725,6 @@ def _mercouris_episode_id(front: dict[str, object], path: Path, title: str, pub_
     seed = f"{path.as_posix()}|{pub_date}|{title}"
     video_id = _synthetic_video_id(seed)
     return f"https://www.youtube.com/watch?v={video_id}", video_id
-
 
 def _is_mercouris_source(path: Path, front: dict[str, object], title: str, body: str) -> bool:
     haystack = " ".join(
@@ -767,7 +739,6 @@ def _is_mercouris_source(path: Path, front: dict[str, object], title: str, body:
         ]
     ).lower()
     return any(token in haystack for token in ("mercouris", "the duran", "christoforou"))
-
 
 def _guess_guest_block(title: str, *, pillar_id: str) -> str | None:
     text = _normalize_space(title)
@@ -900,7 +871,6 @@ def _guess_guest_block(title: str, *, pillar_id: str) -> str | None:
         return fallback
     return None
 
-
 def _split_guest_block(guest_block: str) -> list[str]:
     text = _normalize_space(guest_block)
     if not text:
@@ -913,7 +883,6 @@ def _split_guest_block(guest_block: str) -> list[str]:
             out.append(cleaned)
     return out
 
-
 def _extract_themes(title: str, guest_raw: str) -> list[str]:
     haystack = f"{title} {guest_raw}".lower()
     tags: list[str] = []
@@ -923,7 +892,6 @@ def _extract_themes(title: str, guest_raw: str) -> list[str]:
             seen.add(tag)
             tags.append(tag)
     return tags
-
 
 def _build_rows(
     *,
@@ -1003,7 +971,6 @@ def _build_rows(
         )
 
     return rows
-
 
 def _load_mercouris_rows(
     *,
@@ -1159,10 +1126,8 @@ def _load_mercouris_rows(
     rows.sort(key=lambda row: (row.pub_date, row.title, row.episode_id))
     return rows
 
-
 def _gap_days(left: str, right: str) -> int:
     return (date.fromisoformat(right) - date.fromisoformat(left)).days
-
 
 def build_graph(
     *,
@@ -1568,7 +1533,6 @@ def build_graph(
     }
     return graph
 
-
 def _build_table(headers: list[str], rows: list[list[str]]) -> str:
     def esc(text: str) -> str:
         return text.replace("|", "\\|")
@@ -1581,7 +1545,6 @@ def _build_table(headers: list[str], rows: list[list[str]]) -> str:
         table.append("| " + " | ".join(esc(cell) for cell in row) + " |")
     return "\n".join(table)
 
-
 def _episode_links(episode_ids: list[str], limit: int = 3) -> str:
     if not episode_ids:
         return "-"
@@ -1590,7 +1553,6 @@ def _episode_links(episode_ids: list[str], limit: int = 3) -> str:
     if len(episode_ids) > limit:
         links.append(f"... (+{len(episode_ids) - limit})")
     return ", ".join(links)
-
 
 def render_markdown(graph: dict) -> str:
     nodes = graph["nodes"]
@@ -1643,8 +1605,7 @@ def render_markdown(graph: dict) -> str:
     lines: list[str] = []
     lines.append("# Polyphonic Cognition Streams")
     lines.append("")
-    lines.append("WORK only; not Record.")
-    lines.append(
+        lines.append(
         "This is a count-neutral lattice of cognition streams. The current shape has eight streams: "
         + ", ".join(stream_names[stream_id] for stream_id in stream_order)
         + "."
@@ -1889,17 +1850,14 @@ def render_markdown(graph: dict) -> str:
 
     return "\n".join(lines)
 
-
 def _ensure_parent(path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-
 
 def _print_rel(path: Path) -> None:
     try:
         print(str(path.relative_to(REPO_ROOT)))
     except ValueError:
         print(str(path))
-
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -1952,7 +1910,6 @@ def main(argv: list[str] | None = None) -> int:
     _print_rel(out_json)
     _print_rel(out_md)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

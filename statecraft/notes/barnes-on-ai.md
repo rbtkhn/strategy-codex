@@ -11,7 +11,6 @@ archive_links:
   - source-archive/statecraft/2026-04-03/source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md
   - source-archive/statecraft/2026-05-28/source-barnes-mario-nawfal-reports-iran-attacks-u-s-ships-2026-05-28.md
 ---
-WORK only; not Record.
 
 # Barnes on AI
 

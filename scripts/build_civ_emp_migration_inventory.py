@@ -6,7 +6,6 @@ from collections import Counter, defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 STATECRAFT_ROOT = REPO_ROOT / "codex" / "academy" / "statecraft"
 MIGRATION_ROOT = STATECRAFT_ROOT / "civ-emp" / "migration"
@@ -149,7 +148,6 @@ TABLE_ROW_RE = re.compile(r"^\|(.+)\|$")
 STATUS_VALUES = {"unstarted", "in_progress", "materialized", "cut_over", "verified"}
 YES_NO_VALUES = {"yes", "no"}
 
-
 @dataclass(frozen=True)
 class Occurrence:
     lane: str
@@ -161,13 +159,11 @@ class Occurrence:
     line_number: int
     line_text: str
 
-
 def normalize_cell(value: str) -> str:
     value = value.strip()
     if value.startswith("`") and value.endswith("`"):
         value = value[1:-1]
     return value.strip()
-
 
 def parse_markdown_table(path: Path) -> dict[str, list[str]]:
     if not path.exists():
@@ -185,7 +181,6 @@ def parse_markdown_table(path: Path) -> dict[str, list[str]]:
         rows[cells[0]] = cells
     return rows
 
-
 def get_existing_ledger_value(
     row: list[str], index: int, allowed: set[str] | None = None, default: str = ""
 ) -> str:
@@ -196,21 +191,17 @@ def get_existing_ledger_value(
         return default
     return value
 
-
 def get_existing_note(row: list[str], default: str) -> str:
     value = get_existing_ledger_value(row, 15, None, default)
     if value in YES_NO_VALUES or value in STATUS_VALUES or not value:
         return default
     return value
 
-
 def word_count(text: str) -> int:
     return len(re.findall(r"\S+", text))
 
-
 def file_word_count(path: Path) -> int:
     return word_count(path.read_text(encoding="utf-8"))
-
 
 def infer_object_class(rel_path: Path) -> str:
     parts = rel_path.parts
@@ -235,7 +226,6 @@ def infer_object_class(rel_path: Path) -> str:
     if filename == "helix.md":
         return "helix"
     return "other"
-
 
 def collect_occurrences() -> list[Occurrence]:
     occurrences: list[Occurrence] = []
@@ -263,7 +253,6 @@ def collect_occurrences() -> list[Occurrence]:
                     )
     return occurrences
 
-
 def target_surface_for(lane: str, object_class: str) -> str:
     base = f"codex/academy/statecraft/{lane}"
     if object_class == "state-memory":
@@ -273,7 +262,6 @@ def target_surface_for(lane: str, object_class: str) -> str:
     if object_class == "empire-instrument":
         return f"{base}/empire/seed-instruments.md"
     raise ValueError(f"Unexpected first-wave object class: {object_class}")
-
 
 def compute_word_metrics() -> dict:
     lane_totals = {}
@@ -394,7 +382,6 @@ def compute_word_metrics() -> dict:
         "canonical_family_word_counts": dict(family_word_counts),
         "phase2_metrics": phase2_metrics,
     }
-
 
 def compute_inventory(occurrences: list[Occurrence], word_metrics: dict) -> dict:
     by_lane = Counter(o.lane_title for o in occurrences)
@@ -550,16 +537,13 @@ def compute_inventory(occurrences: list[Occurrence], word_metrics: dict) -> dict
         "corpus_budget": CORPUS_BUDGET,
     }
 
-
 def write_json(data: dict) -> None:
     path = MIGRATION_ROOT / "dependency-inventory.json"
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-
 def write_dependency_inventory_md(data: dict) -> None:
     lines = [
-        "WORK only; not Record.",
-        "",
+                "",
         "# CIV-EMP Dependency Inventory",
         "",
         "This report inventories direct legacy `civ-mem` references inside the four active statecraft lanes. It is inventory-only and does not perform semantic migration.",
@@ -646,11 +630,9 @@ def write_dependency_inventory_md(data: dict) -> None:
         "\n".join(lines) + "\n", encoding="utf-8"
     )
 
-
 def write_pair_map_md(data: dict) -> None:
     lines = [
-        "WORK only; not Record.",
-        "",
+                "",
         "# First-Wave Pair Map",
         "",
         "This pair-map locks the first symmetric migration slice: four active lanes times five first-wave objects for a total of twenty targets.",
@@ -666,11 +648,9 @@ def write_pair_map_md(data: dict) -> None:
         "\n".join(lines) + "\n", encoding="utf-8"
     )
 
-
 def write_ledger_md(data: dict) -> None:
     lines = [
-        "WORK only; not Record.",
-        "",
+                "",
         "# Migration Ledger",
         "",
         "Status vocabulary: `unstarted`, `in_progress`, `materialized`, `cut_over`, `verified`.",
@@ -688,11 +668,9 @@ def write_ledger_md(data: dict) -> None:
         "\n".join(lines) + "\n", encoding="utf-8"
     )
 
-
 def write_source_map_manifest_md(data: dict) -> None:
     lines = [
-        "WORK only; not Record.",
-        "",
+                "",
         "# Source-Map Manifest",
         "",
         "This manifest links each first-wave target to its upstream legacy memory bucket, its current lane-local consumers, and its phase-one migration destination.",
@@ -708,7 +686,6 @@ def write_source_map_manifest_md(data: dict) -> None:
     (MIGRATION_ROOT / "source-map-manifest.md").write_text(
         "\n".join(lines) + "\n", encoding="utf-8"
     )
-
 
 def write_corpus_budget_json(data: dict) -> None:
     budget_data = {
@@ -740,13 +717,11 @@ def write_corpus_budget_json(data: dict) -> None:
         encoding="utf-8",
     )
 
-
 def write_corpus_budget_md(data: dict) -> None:
     budget = data["corpus_budget"]
     phase2_metrics = data["word_metrics"]["phase2_metrics"]
     lines = [
-        "WORK only; not Record.",
-        "",
+                "",
         "# CIV-EMP Corpus Budget",
         "",
         "This note locks the v1 two-volume materialization target and ties it to the live first-wave object grid, lane totals, and current subtree counts. It now also reports Phase 2 helix-first proving-case metrics alongside the historical strand scaffold metrics rather than replacing them.",
@@ -904,7 +879,6 @@ def write_corpus_budget_md(data: dict) -> None:
         "\n".join(lines) + "\n", encoding="utf-8"
     )
 
-
 def main() -> None:
     MIGRATION_ROOT.mkdir(parents=True, exist_ok=True)
     occurrences = collect_occurrences()
@@ -917,7 +891,6 @@ def main() -> None:
     write_source_map_manifest_md(data)
     write_corpus_budget_json(data)
     write_corpus_budget_md(data)
-
 
 if __name__ == "__main__":
     main()

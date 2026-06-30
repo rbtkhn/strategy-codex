@@ -31,19 +31,16 @@ STOPWORDS = frozenset({
     "http", "https", "www", "com", "youtube", "watch", "lecture", "strategy", "jiang",
 })
 
-
 def load_concepts(path: Path) -> list[dict]:
     with path.open("r", encoding="utf-8") as f:
         data = yaml.safe_load(f) or {}
     return data.get("concepts") or []
-
 
 def collect_corpus_files() -> list[Path]:
     files: list[Path] = []
     files.extend(sorted(WORK_DIR.glob("lectures/geo-strategy-*.md")))
     files.extend(sorted((WORK_DIR / "analysis").glob("*.md")))
     return [p for p in files if p.name != ".gitkeep"]
-
 
 def count_substrings(text: str, needle: str) -> int:
     if not needle:
@@ -58,7 +55,6 @@ def count_substrings(text: str, needle: str) -> int:
         c += 1
         start = i + 1
     return c
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -133,7 +129,6 @@ def main() -> int:
         print("\nConcepts with zero substring mentions (review aliases/terms):", file=sys.stderr)
         print(", ".join(zero_mentions), file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

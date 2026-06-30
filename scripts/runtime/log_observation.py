@@ -38,20 +38,16 @@ SOURCE_KINDS = frozenset(
     }
 )
 
-
 def utc_now() -> datetime:
     return datetime.now(timezone.utc)
-
 
 def make_obs_id(ts: datetime) -> str:
     stamp = ts.strftime("%Y%m%dT%H%M%SZ")
     suffix = secrets.token_hex(4)
     return f"obs_{stamp}_{suffix}"
 
-
 def iso_z(ts: datetime) -> str:
     return ts.replace(tzinfo=timezone.utc).isoformat().replace("+00:00", "Z")
-
 
 def validate_lane(value: str) -> str:
     value = value.strip()
@@ -59,20 +55,17 @@ def validate_lane(value: str) -> str:
         raise argparse.ArgumentTypeError("lane must be non-empty")
     return value
 
-
 def validate_source_kind(value: str) -> str:
     if value not in SOURCE_KINDS:
         allowed = ", ".join(sorted(SOURCE_KINDS))
         raise argparse.ArgumentTypeError(f"invalid source kind: {value}. allowed: {allowed}")
     return value
 
-
 def validate_confidence(value: str) -> float:
     num = float(value)
     if not (0.0 <= num <= 1.0):
         raise argparse.ArgumentTypeError("confidence must be between 0 and 1")
     return num
-
 
 def normalize_text(text: str, max_len: int, field_name: str) -> str:
     value = text.strip()
@@ -81,7 +74,6 @@ def normalize_text(text: str, max_len: int, field_name: str) -> str:
     if len(value) > max_len:
         raise ValueError(f"{field_name} exceeds max length {max_len}")
     return value
-
 
 @dataclass
 class RuntimeObservation:
@@ -99,11 +91,9 @@ class RuntimeObservation:
     contradiction_refs: list[str] = field(default_factory=list)
     notes: str | None = None
 
-
 def _load_schema() -> dict[str, Any]:
     raw = SCHEMA_PATH.read_text(encoding="utf-8")
     return json.loads(raw)
-
 
 def _validate_payload(payload: dict[str, Any]) -> None:
     try:
@@ -114,7 +104,6 @@ def _validate_payload(payload: dict[str, Any]) -> None:
         return
     schema = _load_schema()
     Draft202012Validator(schema).validate(payload)
-
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Log a Grace-Mar runtime observation.")
@@ -137,7 +126,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--validate-only", action="store_true", dest="validate_only")
     return parser.parse_args()
 
-
 def build_observation(args: argparse.Namespace, now: datetime) -> RuntimeObservation:
     notes: str | None = None
     if args.notes is not None:
@@ -159,10 +147,8 @@ def build_observation(args: argparse.Namespace, now: datetime) -> RuntimeObserva
         notes=notes,
     )
 
-
 def ensure_storage() -> None:
     OBS_DIR.mkdir(parents=True, exist_ok=True)
-
 
 def main() -> int:
     args = parse_args()
@@ -197,7 +183,6 @@ def main() -> int:
         print(json.dumps(payload, ensure_ascii=False, indent=2))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

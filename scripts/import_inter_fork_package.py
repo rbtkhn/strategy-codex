@@ -30,33 +30,26 @@ except ImportError:
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _utc_now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
 
 def _utc_now_display() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
 
-
 def _load_schema(repo_root: Path) -> dict:
     return json.loads((repo_root / "schemas/registry" / "inter-fork-package-envelope.v1.json").read_text(encoding="utf-8"))
-
 
 def _rel(path: Path, repo_root: Path) -> str:
     return path.resolve().relative_to(repo_root.resolve()).as_posix()
 
-
 def _yaml_escape(value: str) -> str:
     return '"' + value.replace("\\", "\\\\").replace('"', '\\"') + '"'
-
 
 def _slug(text: str, max_len: int = 56) -> str:
     line = " ".join(text.splitlines()[:1]).strip() or "inter-fork import"
     if len(line) > max_len:
         return line[: max_len - 1].rstrip() + "…"
     return line
-
 
 def _profile_target_label(target_surface: str) -> str:
     return {
@@ -68,10 +61,8 @@ def _profile_target_label(target_surface: str) -> str:
         "work_layer": "WORK — recipient review",
     }.get(target_surface, "RECIPIENT REVIEW")
 
-
 def _priority_from_risk(risk_level: str) -> str:
     return "high" if risk_level == "high" else "medium" if risk_level == "medium" else "low"
-
 
 def _proposal_class_for_surface(target_surface: str) -> str:
     return {
@@ -83,12 +74,10 @@ def _proposal_class_for_surface(target_surface: str) -> str:
         "work_layer": "policy",
     }.get(target_surface, "policy")
 
-
 def _assert_recipient_owned(path: Path, recipient_root: Path) -> None:
     resolved = path.resolve()
     if recipient_root.resolve() not in (resolved, *resolved.parents):
         raise ValueError(f"Refusing to write outside recipient-owned namespace: {path}")
-
 
 def _copy_package_into_recipient_namespace(
     package_path: Path,
@@ -103,12 +92,10 @@ def _copy_package_into_recipient_namespace(
     copied_path.write_text(package_path.read_text(encoding="utf-8"), encoding="utf-8")
     return copied_path
 
-
 def _receipt_path(*, package_id: str, recipient_root: Path) -> Path:
     receipt = recipient_ARTIFACTS_DIR / "inter-fork" / "imports" / f"{package_id}.receipt.json"
     _assert_recipient_owned(receipt, recipient_root)
     return receipt
-
 
 def _build_candidate_block(
     *,
@@ -161,7 +148,6 @@ def _build_candidate_block(
     lines.extend(["```", ""])
     return "\n".join(lines)
 
-
 def _normalize_queue(queue: dict[str, Any] | None, *, user_slug: str) -> dict[str, Any]:
     items: list[dict[str, Any]] = []
     if isinstance(queue, dict):
@@ -177,7 +163,6 @@ def _normalize_queue(queue: dict[str, Any] | None, *, user_slug: str) -> dict[st
         "items": items,
     }
 
-
 def _normalize_event_log(event_log: dict[str, Any] | None, *, user_slug: str) -> dict[str, Any]:
     events: list[dict[str, Any]] = []
     if isinstance(event_log, dict) and isinstance(event_log.get("events"), list):
@@ -188,12 +173,10 @@ def _normalize_event_log(event_log: dict[str, Any] | None, *, user_slug: str) ->
         "events": events,
     }
 
-
 def _load_json_if_exists(path: Path) -> dict[str, Any] | None:
     if not path.is_file():
         return None
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def _existing_supporting_refs(package: dict[str, Any], repo_root: Path) -> list[str]:
     refs: list[str] = []
@@ -204,7 +187,6 @@ def _existing_supporting_refs(package: dict[str, Any], repo_root: Path) -> list[
         if candidate.exists():
             refs.append(ref)
     return refs
-
 
 def _build_change_proposal(
     *,
@@ -257,7 +239,6 @@ def _build_change_proposal(
     if notes:
         proposal["notes"] = notes
     return proposal
-
 
 def import_inter_fork_package(
     *,
@@ -377,7 +358,6 @@ def import_inter_fork_package(
     written_paths.append(_rel(receipt_path, repo_root))
     return {"importMode": package["routingHint"], "writtenPaths": written_paths, "dryRun": False}
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Import an inter-fork package into recipient-owned review surfaces")
     parser.add_argument("-u", "--recipient", default=DEFAULT_USER_ID, help="Recipient fork id")
@@ -392,7 +372,6 @@ def main() -> int:
     )
     print(json.dumps(result, indent=2, ensure_ascii=False))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

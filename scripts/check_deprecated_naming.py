@@ -11,13 +11,11 @@ import re
 import sys
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SKIP_DIRS = {".git", ".github", ".cursor", "node_modules", "__pycache__"}
 SKIP_FILES = {"check_deprecated_naming.py"}
 SCAN_SUFFIXES = {".md", ".py", ".yml", ".yaml"}
 PATTERN = re.compile(r"cog-em|COG-EM-CORE", re.IGNORECASE)
-
 
 def _should_scan(path: Path) -> bool:
     if path.suffix not in SCAN_SUFFIXES:
@@ -25,7 +23,6 @@ def _should_scan(path: Path) -> bool:
     if path.name in SKIP_FILES:
         return False
     return not any(part in SKIP_DIRS for part in path.parts)
-
 
 def _scan_file(path: Path) -> list[tuple[int, str]]:
     matches: list[tuple[int, str]] = []
@@ -38,7 +35,6 @@ def _scan_file(path: Path) -> list[tuple[int, str]]:
         if PATTERN.search(line):
             matches.append((line_num, line.strip()))
     return matches
-
 
 def main() -> int:
     violations: list[tuple[Path, int, str]] = []
@@ -57,7 +53,6 @@ def main() -> int:
     for path, line_num, line in violations:
         print(f"  {path}:{line_num}: {line}", file=sys.stderr)
     return 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

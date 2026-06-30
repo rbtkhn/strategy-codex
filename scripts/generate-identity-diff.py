@@ -14,14 +14,11 @@ import json
 from pathlib import Path
 from typing import Any
 
-
 ROOT = Path(__file__).resolve().parents[1]
-
 
 def load_json(path: Path) -> dict[str, Any]:
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
-
 
 def render_value(value: Any, indent: int = 0) -> str:
     prefix = "  " * indent
@@ -44,7 +41,6 @@ def render_value(value: Any, indent: int = 0) -> str:
                 lines.append(f"{prefix}- {item}")
         return "\n".join(lines)
     return f"{prefix}- {value}"
-
 
 def make_markdown(diff: dict[str, Any]) -> str:
     category = diff["category"]
@@ -97,7 +93,6 @@ def make_markdown(diff: dict[str, Any]) -> str:
 
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate Markdown from an identity diff JSON file.")
     parser.add_argument("diff_json", help="Path to diff JSON file")
@@ -117,7 +112,6 @@ def main() -> int:
         print(md)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -35,7 +35,6 @@ app = Flask(__name__)
 API_KEY = os.getenv("HANDBACK_API_KEY", "").strip()
 MAX_CONTENT = 50_000  # chars
 
-
 def _is_loopback_request() -> bool:
     """Allow unauthenticated access only from local loopback."""
     remote = (request.remote_addr or "").strip()
@@ -46,14 +45,12 @@ def _is_loopback_request() -> bool:
     except ValueError:
         return False
 
-
 def _is_authorized() -> bool:
     """Authorize if valid API key OR local loopback request."""
     header_key = (request.headers.get("X-Api-Key") or "").strip()
     if API_KEY and header_key == API_KEY:
         return True
     return _is_loopback_request()
-
 
 def _continuity_gate_openclaw(user_id: str) -> tuple[bool, str, dict]:
     """Require a fresh continuity receipt before OpenClaw staging."""
@@ -65,14 +62,12 @@ def _continuity_gate_openclaw(user_id: str) -> tuple[bool, str, dict]:
     uid = (user_id or os.getenv("GRACE_MAR_USER_ID", "grace-mar")).strip()
     return assert_continuity_ok(uid, "openclaw")
 
-
 def _run_handback(content: str) -> bool:
     """Run analyst on handback content. Returns True if staged."""
     from bot.core import analyze_activity_report
 
     synthetic = f"we did a chat in an external LLM (API handback). here is the checkpoint or transcript:\n\n{content}"
     return analyze_activity_report(synthetic, "handback:api")
-
 
 @app.route("/handback", methods=["POST"])
 def handback() -> tuple:
@@ -97,7 +92,6 @@ def handback() -> tuple:
     except Exception as e:
         return jsonify({"ok": False, "error": str(e)}), 500
 
-
 def _run_stage(
     content: str,
     user_id: str = "",
@@ -116,7 +110,6 @@ def _run_stage(
     staged = analyze_activity_report(content, channel_key, staging_meta=staging_meta)
     count = len(get_pending_candidates())
     return (staged, count)
-
 
 @app.route("/stage", methods=["POST"])
 def stage() -> tuple:
@@ -229,7 +222,6 @@ def stage() -> tuple:
     except Exception as e:
         return jsonify({"ok": False, "error": str(e)}), 500
 
-
 @app.route("/status", methods=["GET"])
 def status() -> tuple:
     if not _is_authorized():
@@ -267,17 +259,14 @@ def status() -> tuple:
         "oldest_pending_days": oldest_pending_days,
     }), 200
 
-
 @app.route("/health", methods=["GET"])
 def health() -> tuple:
     return jsonify({"ok": True}), 200
-
 
 def main() -> None:
     port = int(os.getenv("PORT", "5050"))
     host = os.getenv("HANDBACK_HOST", "127.0.0.1").strip() or "127.0.0.1"
     app.run(host=host, port=port)
-
 
 if __name__ == "__main__":
     main()

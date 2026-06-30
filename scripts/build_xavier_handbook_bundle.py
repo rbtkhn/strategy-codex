@@ -41,19 +41,16 @@ BUNDLE_PARTS: list[tuple[str, Path]] = [
     ("High-stakes messaging — stress-test brief template", REPO / "docs/skill-work/work-politics/america-first-ky/stress-test-brief-template.md"),
 ]
 
-
 def strip_pdf_export_section(text: str) -> str:
     if "## PDF export" in text:
         return text.split("## PDF export")[0].rstrip()
     return text
-
 
 def strip_first_h1(text: str) -> str:
     lines = text.splitlines()
     if lines and lines[0].startswith("# ") and not lines[0].startswith("##"):
         return "\n".join(lines[1:]).lstrip("\n")
     return text
-
 
 def strip_xavier_handbook_h1(text: str) -> str:
     """Remove top # title line; bundle supplies its own part title."""
@@ -62,13 +59,11 @@ def strip_xavier_handbook_h1(text: str) -> str:
         return "\n".join(lines[1:]).lstrip("\n")
     return text
 
-
 def strip_handbook_mission_block(text: str) -> str:
     """Remove handbook's ## Mission section; bundle already prints mission at top."""
     pattern = r"^## Mission — America First Kentucky\n\n.*?\n\n---\n\n"
     stripped, n = re.subn(pattern, "", text, count=1, flags=re.DOTALL)
     return stripped if n else text
-
 
 def demote_headings(text: str) -> str:
     """Add one # level so Part titles stay # and body uses ##+."""
@@ -78,7 +73,6 @@ def demote_headings(text: str) -> str:
             line = "#" + line
         out_lines.append(line)
     return "\n".join(out_lines)
-
 
 def main() -> int:
     out_path = REPO / "docs/skill-work/work-politics/smm-xavier-handbook-bundle.md"
@@ -121,7 +115,6 @@ def main() -> int:
     out_path.write_text("".join(chunks).rstrip() + "\n", encoding="utf-8")
     print(f"Wrote {out_path}", flush=True)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

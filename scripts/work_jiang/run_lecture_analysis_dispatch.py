@@ -12,7 +12,6 @@ if str(_WJ) not in sys.path:
 
 from extractors.registry import get_extractor_class, list_registered_series
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--series-id", default="")
@@ -29,7 +28,6 @@ def main() -> int:
     print(f"schema_version: {inst.schema_version()}")
     print(f"prompt: {inst.prompt_system_path()}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -10,7 +10,6 @@ archive_links:
   - source-archive/statecraft/2026-06-05/source-mario-nawfal-weichert-israel-merge-us-army-cia-2026-06-05.md
   - source-archive/statecraft/2026-06-02/source-mario-nawfal-weichert-trump-fed-up-israel-iran-holds-2026-06-02.md
 ---
-WORK only; not Record.
 
 # Weichert on AI
 

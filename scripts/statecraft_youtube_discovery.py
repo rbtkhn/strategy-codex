@@ -24,12 +24,10 @@ except ImportError:  # pragma: no cover - script import order
     ARCHIVE_DEFAULT_ROOT = REPO_ROOT / "source-archive" / "statecraft"
     CHANNEL_INDEX_DIR = REPO_ROOT / "statecraft" / "channels"
 
-
 def resolve_discovery_config_path() -> Path:
     if DISCOVERY_CONFIG_PATH.exists():
         return DISCOVERY_CONFIG_PATH
     return LEGACY_WATCHLIST_PATH
-
 
 def load_discovery_payload(path: Path | None = None) -> dict[str, Any]:
     config_path = path or resolve_discovery_config_path()
@@ -40,18 +38,15 @@ def load_discovery_payload(path: Path | None = None) -> dict[str, Any]:
         )
     return payload
 
-
 def load_slug_aliases(payload: dict[str, Any] | None = None) -> dict[str, str]:
     data = payload or load_discovery_payload()
     raw = data.get("slug_aliases") or {}
     return {str(key): str(value) for key, value in raw.items()}
 
-
 def load_index_slug_canonical(payload: dict[str, Any] | None = None) -> dict[str, str]:
     data = payload or load_discovery_payload()
     raw = data.get("index_slug_canonical") or {}
     return {str(key): str(value) for key, value in raw.items()}
-
 
 def canonical_channel_index_slug(slug: str, canonical: dict[str, str] | None = None) -> str:
     mapping = canonical or load_index_slug_canonical()
@@ -61,7 +56,6 @@ def canonical_channel_index_slug(slug: str, canonical: dict[str, str] | None = N
         seen.add(current)
         current = mapping[current]
     return current
-
 
 def load_canonical_channel_labels(path: Path | None = None) -> dict[str, str]:
     labels: dict[str, str] = {}
@@ -74,7 +68,6 @@ def load_canonical_channel_labels(path: Path | None = None) -> dict[str, str]:
             labels[key] = label
     return labels
 
-
 def load_canonical_channel_urls(path: Path | None = None) -> dict[str, str]:
     urls: dict[str, str] = {}
     for row in load_discovery_channels(path):
@@ -83,7 +76,6 @@ def load_canonical_channel_urls(path: Path | None = None) -> dict[str, str]:
         if key and url:
             urls[key] = url
     return urls
-
 
 def load_host_index_canonical(payload: dict[str, Any] | None = None) -> dict[str, str]:
     data = payload or load_discovery_payload()
@@ -100,7 +92,6 @@ def load_host_index_canonical(payload: dict[str, Any] | None = None) -> dict[str
     mapping.update({str(key): str(value) for key, value in raw.items()})
     return mapping
 
-
 def resolve_host_index_slug(host: str, host_map: dict[str, str] | None = None) -> str | None:
     mapping = host_map if host_map is not None else load_host_index_canonical()
     host = str(host or "").strip()
@@ -108,12 +99,10 @@ def resolve_host_index_slug(host: str, host_map: dict[str, str] | None = None) -
         return None
     return mapping.get(host)
 
-
 def load_series_index_canonical(payload: dict[str, Any] | None = None) -> dict[str, str]:
     data = payload or load_discovery_payload()
     raw = data.get("series_index_canonical") or {}
     return {str(key): str(value) for key, value in raw.items()}
-
 
 def resolve_series_index_slug(series: str, series_map: dict[str, str] | None = None) -> str | None:
     mapping = series_map if series_map is not None else load_series_index_canonical()
@@ -121,7 +110,6 @@ def resolve_series_index_slug(series: str, series_map: dict[str, str] | None = N
     if not series:
         return None
     return mapping.get(series)
-
 
 def load_filename_prefix_index_canonical(payload: dict[str, Any] | None = None) -> list[tuple[str, str]]:
     data = payload or load_discovery_payload()
@@ -140,7 +128,6 @@ def load_filename_prefix_index_canonical(payload: dict[str, Any] | None = None) 
         deduped[prefix] = slug
     return sorted(deduped.items(), key=lambda pair: len(pair[0]), reverse=True)
 
-
 def resolve_filename_prefix_index_slug(
     filename: str,
     prefix_map: list[tuple[str, str]] | None = None,
@@ -151,16 +138,13 @@ def resolve_filename_prefix_index_slug(
             return slug
     return None
 
-
 def load_channel_index_misc_slugs(payload: dict[str, Any] | None = None) -> set[str]:
     data = payload or load_discovery_payload()
     raw = data.get("channel_index_misc_slugs") or []
     return {str(slug) for slug in raw}
 
-
 def load_discovery_channels(path: Path | None = None) -> list[dict[str, Any]]:
     return list(load_discovery_payload(path).get("channels") or [])
-
 
 def load_daily_watchlist_keys(path: Path | None = None) -> set[str]:
     keys: set[str] = set()
@@ -173,14 +157,12 @@ def load_daily_watchlist_keys(path: Path | None = None) -> set[str]:
     keys.update(load_slug_aliases().values())
     return keys
 
-
 def is_daily_watchlist_slug(slug: str, watchlist_keys: set[str] | None = None) -> bool:
     keys = watchlist_keys if watchlist_keys is not None else load_daily_watchlist_keys()
     if slug in keys:
         return True
     mapped = load_slug_aliases().get(slug)
     return bool(mapped and mapped in keys)
-
 
 def load_discovery_channel_rows_by_key(path: Path | None = None) -> dict[str, dict[str, Any]]:
     rows: dict[str, dict[str, Any]] = {}
@@ -189,7 +171,6 @@ def load_discovery_channel_rows_by_key(path: Path | None = None) -> dict[str, di
         if key:
             rows[key] = row
     return rows
-
 
 def is_discoverable_channel(
     slug: str,
@@ -212,16 +193,13 @@ def is_discoverable_channel(
     lowered = url.lower()
     return "youtube.com" in lowered or "youtu.be" in lowered
 
-
 def channel_index_json_path(root: Path | None = None) -> Path:
     _ = root  # archive root used only when rebuilding roster live
     return CHANNEL_INDEX_DIR / "channel-index.json"
 
-
 def load_channel_index_json(path: Path | None = None) -> dict[str, Any]:
     json_path = path or channel_index_json_path()
     return json.loads(json_path.read_text(encoding="utf-8"))
-
 
 def load_check_sources_roster(
     *,

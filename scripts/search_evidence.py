@@ -42,7 +42,6 @@ STOP_WORDS = frozenset(
     "her my your we our what which who whom".split()
 )
 
-
 @dataclass
 class EvidenceEntry:
     entry_id: str
@@ -54,23 +53,19 @@ class EvidenceEntry:
     line_end: int
     section: str = ""
 
-
 @dataclass
 class SearchResult:
     entry: EvidenceEntry
     score: float
     matched_terms: list[str] = field(default_factory=list)
 
-
 def _profile_root(users_dir: Path, user: str) -> Path:
     return profile_dir(user) if users_dir == DEFAULT_USERS_DIR else users_dir / user
-
 
 def _tokenize(text: str) -> list[str]:
     """Lowercase, strip punctuation, remove stop words."""
     tokens = re.findall(r"[a-z0-9]+(?:'[a-z]+)?", text.lower())
     return [t for t in tokens if t not in STOP_WORDS and len(t) > 1]
-
 
 def _extract_yaml_entries(text: str, lines: list[str]) -> list[EvidenceEntry]:
     """Extract entries from YAML code blocks (WRITE-*, READ-*, CREATE-*, ACT-*, MEDIA-*)."""
@@ -121,7 +116,6 @@ def _extract_yaml_entries(text: str, lines: list[str]) -> list[EvidenceEntry]:
 
     return entries
 
-
 def _extract_gated_entries(text: str) -> list[EvidenceEntry]:
     """Extract entries from § VIII. GATED APPROVED LOG."""
     entries: list[EvidenceEntry] = []
@@ -169,7 +163,6 @@ def _extract_gated_entries(text: str) -> list[EvidenceEntry]:
 
     return entries
 
-
 def parse_evidence(archive_path: Path) -> list[EvidenceEntry]:
     text = archive_path.read_text(encoding="utf-8")
     entries = _extract_yaml_entries(text, text.splitlines())
@@ -184,7 +177,6 @@ def parse_evidence(archive_path: Path) -> list[EvidenceEntry]:
             deduped.append(e)
 
     return deduped
-
 
 def _build_tfidf(docs: list[list[str]]) -> tuple[list[dict[str, float]], dict[str, float]]:
     """Build TF-IDF vectors for a list of tokenized documents."""
@@ -211,7 +203,6 @@ def _build_tfidf(docs: list[list[str]]) -> tuple[list[dict[str, float]], dict[st
 
     return vectors, idf
 
-
 def _cosine(a: dict[str, float], b: dict[str, float]) -> float:
     if not a or not b:
         return 0.0
@@ -224,7 +215,6 @@ def _cosine(a: dict[str, float], b: dict[str, float]) -> float:
     if mag_a == 0 or mag_b == 0:
         return 0.0
     return dot / (mag_a * mag_b)
-
 
 def search(
     query: str,
@@ -261,7 +251,6 @@ def search(
     results.sort(key=lambda r: r.score, reverse=True)
     return results[:top]
 
-
 def _load_graph(users_dir: Path, user: str) -> dict | None:
     """Load evidence-graph.json if it exists."""
     graph_path = _profile_root(users_dir, user) / "evidence-graph.json"
@@ -271,7 +260,6 @@ def _load_graph(users_dir: Path, user: str) -> dict | None:
         return json.loads(graph_path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
         return None
-
 
 def expand_results_with_graph(
     results: list[SearchResult],
@@ -292,7 +280,6 @@ def expand_results_with_graph(
     entry_map = {e.entry_id: e for e in entries}
     related = [entry_map[nid] for nid in neighbor_ids if nid in entry_map]
     return related[:max_related]
-
 
 def format_text(results: list[SearchResult], query: str, related: list[EvidenceEntry] | None = None) -> str:
     if not results:
@@ -325,7 +312,6 @@ def format_text(results: list[SearchResult], query: str, related: list[EvidenceE
 
     return "\n".join(lines)
 
-
 def format_json(results: list[SearchResult], query: str, related: list[EvidenceEntry] | None = None) -> str:
     out: dict = {
         "query": query,
@@ -352,7 +338,6 @@ def format_json(results: list[SearchResult], query: str, related: list[EvidenceE
             for e in related
         ]
     return json.dumps(out, indent=2)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -402,7 +387,6 @@ def main() -> int:
         print(format_text(results, query, related=related))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

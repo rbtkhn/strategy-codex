@@ -1,6 +1,5 @@
 # Prose Cluster Placement Comparison
 
-work only; not Record.
 
 This is a small live comparison note for one recurring placement question:
 

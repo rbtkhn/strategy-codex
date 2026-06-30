@@ -20,7 +20,6 @@ REQUIRED = [
     REPO_ROOT / "schemas/work_strategy/authorized_sources.schema.json",
 ]
 
-
 def main() -> int:
     missing = [p for p in REQUIRED if not p.is_file()]
     for p in missing:
@@ -29,7 +28,6 @@ def main() -> int:
         return 1
     print(f"ok: {len(REQUIRED)} contract paths")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

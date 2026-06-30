@@ -10,8 +10,6 @@ body as HTML-stripped plain text (full HTML is large; canonical URL in frontmatt
 Treat the archive as a discovery index, not a completeness mandate: the caller
 still chooses which substantial posts merit preservation in raw-input/.
 
-WORK only; not Record.
-
 Example::
 
   python3 scripts/backfill_substack_raw_input.py \\
@@ -43,13 +41,11 @@ import sys
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from fetch_strategy_raw_input import _slugify  # noqa: E402
 
-
 def _host_slug(host: str) -> str:
     first = host.split(".", 1)[0].strip().lower()
     if first.startswith("simplicius"):
         return "simplicius"
     return _slugify(first, max_len=32) or "substack"
-
 
 def _slug_from_url(url: str) -> str:
     parsed = urlparse(url.strip())
@@ -57,7 +53,6 @@ def _slug_from_url(url: str) -> str:
     if len(parts) >= 2 and parts[0] == "p":
         return parts[1]
     raise ValueError(f"Cannot extract Substack slug from URL: {url}")
-
 
 def _strip_html(html: str) -> str:
     if not html:
@@ -72,7 +67,6 @@ def _strip_html(html: str) -> str:
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
     return text
 
-
 def _fetch_json(url: str, *, timeout: int = 60) -> object:
     req = urllib.request.Request(
         url,
@@ -81,7 +75,6 @@ def _fetch_json(url: str, *, timeout: int = 60) -> object:
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return json.loads(resp.read().decode("utf-8"))
 
-
 def _post_day_utc(iso_z: str) -> date:
     if iso_z.endswith("Z"):
         iso_z = iso_z[:-1] + "+00:00"
@@ -89,7 +82,6 @@ def _post_day_utc(iso_z: str) -> date:
     if dt.tzinfo is not None:
         dt = dt.astimezone(timezone.utc)
     return dt.date()
-
 
 def _build_doc(
     *,
@@ -141,7 +133,6 @@ def _build_doc(
         ]
     )
     return "\n".join(parts)
-
 
 def run(
     *,
@@ -238,7 +229,6 @@ def run(
         print("\nDry-run only. Pass --apply to write files.")
     return 0
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--hostname", default="simplicius76.substack.com", help="Substack host")
@@ -271,7 +261,6 @@ def main() -> int:
         urls=args.url,
         publication_slug=args.publication_slug,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -33,17 +33,14 @@ DEFAULT_MEMBRANE = (
     "docs/runtime/runtime-complements.md."
 )
 
-
 def _ts_compact() -> str:
     return datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-
 
 def _rel_posix(root: Path, p: Path) -> str:
     try:
         return p.resolve().relative_to(root).as_posix()
     except ValueError:
         return p.resolve().as_posix()
-
 
 def read_doc(root: Path, rel: str) -> tuple[dict[str, Any], str | None]:
     """Return ({path, content} or {path, missing: true}, None) or (None, error)."""
@@ -55,7 +52,6 @@ def read_doc(root: Path, rel: str) -> tuple[dict[str, Any], str | None]:
     except OSError as e:
         return {"path": rel, "missing": True, "error": str(e)}, str(e)
     return {"path": rel, "content": text}, None
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -131,7 +127,6 @@ def main() -> int:
     )
     print(_rel_posix(root, out_path))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

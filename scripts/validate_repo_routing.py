@@ -33,31 +33,24 @@ ABS_PATTERNS = (
 
 MD_LINK = re.compile(r"\]\(([^)]+)\)")
 
-
 def _err(errors: list[str], msg: str) -> None:
     errors.append(msg)
 
-
 def discover_source_indexes() -> list[Path]:
     return sorted(VOICES.glob("**/*-source-index.md"))
-
 
 def discover_host_shelves() -> list[Path]:
     if not CHANNELS.is_dir():
         return []
     return sorted(CHANNELS.glob("*/README.md"))
 
-
 def host_shelf_route_id(slug: str) -> str:
     return f"{slug}-host-shelf"
 
-
 CATEGORY_ENUM = frozenset({"source", "work", "generated", "archive"})
-
 
 def _route_path(route: dict[str, Any]) -> str:
     return str(route.get("path") or route.get("path_pattern") or "").replace("\\", "/")
-
 
 def _is_verbatim_source_capture_path(path: str) -> bool:
     if not path.startswith("source-archive/statecraft/"):
@@ -66,7 +59,6 @@ def _is_verbatim_source_capture_path(path: str) -> bool:
         return True
     basename = path.rsplit("/", 1)[-1]
     return basename.startswith("source-") and basename.endswith(".md")
-
 
 def expected_route_category(route: dict[str, Any]) -> str:
     """Path-first authority category (four-way model)."""
@@ -85,7 +77,6 @@ def expected_route_category(route: dict[str, Any]) -> str:
     if route.get("id") == "llm-routing":
         return "generated"
     return "work"
-
 
 def validate_route_categories(
     data: dict[str, Any], errors: list[str], *, strict: bool
@@ -135,10 +126,8 @@ def validate_route_categories(
             f"repo-map missing category quadrant(s): {', '.join(sorted(missing_quadrants))}",
         )
 
-
 def load_repo_map() -> dict[str, Any]:
     return safe_load_path(REPO_MAP_PATH, feature="validate_repo_routing.py")
-
 
 def validate_schema(data: dict[str, Any], errors: list[str]) -> None:
     try:
@@ -152,12 +141,10 @@ def validate_schema(data: dict[str, Any], errors: list[str]) -> None:
     except jsonschema.ValidationError as exc:
         _err(errors, f"repo-map.yaml schema: {exc.message}")
 
-
 def validate_required_files(errors: list[str]) -> None:
     for p in (LLM_ROUTING, REPO_MAP_PATH, VOICES_INDEX):
         if not p.is_file():
             _err(errors, f"missing required file: {p.relative_to(REPO_ROOT)}")
-
 
 def validate_route_paths(data: dict[str, Any], errors: list[str]) -> dict[str, dict[str, Any]]:
     by_path: dict[str, dict[str, Any]] = {}
@@ -179,7 +166,6 @@ def validate_route_paths(data: dict[str, Any], errors: list[str]) -> dict[str, d
                 _err(errors, f"repo-map canonical_source missing: {canon}")
         by_path[path.replace("\\", "/")] = route
     return by_path
-
 
 def validate_source_index_registry(
     data: dict[str, Any],
@@ -221,7 +207,6 @@ def validate_source_index_registry(
             continue
         if rel.endswith("-source-index.md") and not full.is_file():
             _err(errors, f"repo-map source_index points to missing file: {rel}")
-
 
 def validate_host_shelf_registry(
     data: dict[str, Any],
@@ -275,7 +260,6 @@ def validate_host_shelf_registry(
         if rel not in discovered_paths:
             _err(errors, f"repo-map host_shelf orphan route (no disk shelf): {route_id}")
 
-
 def validate_required_routes(data: dict[str, Any], errors: list[str]) -> None:
     ids = {r.get("id") for r in data.get("routes", [])}
     for req in (
@@ -288,7 +272,6 @@ def validate_required_routes(data: dict[str, Any], errors: list[str]) -> None:
         if req not in ids:
             _err(errors, f"repo-map missing required route id: {req}")
 
-
 def validate_routing_doc_links(errors: list[str]) -> None:
     text = LLM_ROUTING.read_text(encoding="utf-8")
     if "source-lattice-beyond-the-repo.md" not in text:
@@ -296,16 +279,13 @@ def validate_routing_doc_links(errors: list[str]) -> None:
     if "statecraft/voices/voice-index.md" not in text:
         _err(errors, "LLM-ROUTING.md must reference statecraft/voices/voice-index.md")
 
-
 def validate_index_lattice_section(errors: list[str]) -> None:
     text = VOICES_INDEX.read_text(encoding="utf-8")
     if "source-lattice" not in text.lower():
         _err(errors, "voice-index.md must mention source-lattice disambiguation")
 
-
 def has_absolute_path(text: str) -> bool:
     return any(p.search(text) for p in ABS_PATTERNS)
-
 
 def resolve_md_link(from_file: Path, target: str) -> Path | None:
     target = target.strip()
@@ -317,7 +297,6 @@ def resolve_md_link(from_file: Path, target: str) -> Path | None:
         return None
     dest = (from_file.parent / target).resolve()
     return dest
-
 
 def validate_markdown_links(
     files: list[Path],
@@ -347,7 +326,6 @@ def validate_markdown_links(
                 f"broken link in {fp.relative_to(REPO_ROOT)}: {target}",
             )
 
-
 def validate_absolute_paths(
     files: list[Path],
     errors: list[str],
@@ -364,12 +342,10 @@ def validate_absolute_paths(
                 f"absolute path in {fp.relative_to(REPO_ROOT)}",
             )
 
-
 def _index_lists_source_index(rel: str, index_text: str, basename: str) -> bool:
     parent_name = Path(rel).parent.name
     rel_from_index = f"{parent_name}/{basename}"
     return rel in index_text or rel_from_index in index_text or basename in index_text
-
 
 def collect_routing_metrics(*, strict: bool = False) -> dict[str, Any]:
     """Lightweight coverage counters for routing surfaces (read-only)."""
@@ -454,7 +430,6 @@ def collect_routing_metrics(*, strict: bool = False) -> dict[str, Any]:
         ),
     }
 
-
 def format_routing_report(metrics: dict[str, Any]) -> str:
     kinds = metrics.get("repo_map_routes_by_kind") or {}
     kind_line = ", ".join(f"{k}={v}" for k, v in sorted(kinds.items()))
@@ -477,7 +452,6 @@ def format_routing_report(metrics: dict[str, Any]) -> str:
         f"- required surfaces present: {metrics['required_surfaces_present']}",
     ]
     return "\n".join(lines)
-
 
 def validate_all(
     *,
@@ -521,7 +495,6 @@ def validate_all(
     validate_markdown_links(link_files, errors, strict=strict)
 
     return errors
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -580,7 +553,6 @@ def main() -> int:
         return 1
     print("ok: repo routing validation passed")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

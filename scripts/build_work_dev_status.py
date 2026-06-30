@@ -10,7 +10,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 OUT = REPO_ROOT / "runtime/artifacts/work-dev/work-dev-status-summary.json"
 
-
 def main() -> int:
     summary: dict = {
         "schemaVersion": "1.0.0-work-dev",
@@ -25,7 +24,6 @@ def main() -> int:
     OUT.write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {OUT}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

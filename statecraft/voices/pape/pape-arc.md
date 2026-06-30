@@ -1,6 +1,5 @@
 # arc-pape-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [pape-arc.md](pape-arc.md)
 

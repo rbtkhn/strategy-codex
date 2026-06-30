@@ -11,18 +11,14 @@ try:
 except ModuleNotFoundError:  # pragma: no cover - dependency fallback
     _yaml = None
 
-
 def has_yaml() -> bool:
     return _yaml is not None
-
 
 def require_yaml(feature: str) -> None:
     if _yaml is None:
         raise RuntimeError(f"PyYAML is required for {feature}")
 
-
 _SIMPLE_KEY_RE = re.compile(r"^([A-Za-z0-9_-]+):(?:\s+(.*))?$")
-
 
 def _coerce_scalar(value: str) -> Any:
     text = value.strip()
@@ -47,7 +43,6 @@ def _coerce_scalar(value: str) -> Any:
         except ValueError:
             return text
     return text
-
 
 def _simple_yaml_fallback(text: str, *, feature: str) -> Any:
     """Parse the narrow frontmatter shape used by repo tests when PyYAML is absent."""
@@ -78,16 +73,13 @@ def _simple_yaml_fallback(text: str, *, feature: str) -> Any:
         data[key] = _coerce_scalar(value)
     return data
 
-
 def safe_load_text(text: str, *, feature: str) -> Any:
     if _yaml is not None:
         return _yaml.safe_load(text)
     return _simple_yaml_fallback(text, feature=feature)
 
-
 def safe_load_path(path: Path, *, feature: str) -> Any:
     return safe_load_text(path.read_text(encoding="utf-8"), feature=feature)
-
 
 def safe_dump(data: Any, *, feature: str, **kwargs: Any) -> str:
     require_yaml(feature)

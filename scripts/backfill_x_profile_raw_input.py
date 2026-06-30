@@ -14,8 +14,6 @@ The script is intentionally conservative:
 - It falls back to an explicit ``--status-url`` list if profile crawl returns
   nothing or if you want to seed a specific set of posts.
 
-WORK only; not Record.
-
 Example::
 
   python3 scripts/backfill_x_profile_raw_input.py --apply \
@@ -59,7 +57,6 @@ _META_RE_TEMPLATE = (
     r'(?P<content>.*?)(?P=quote)'
 )
 
-
 def _fetch_html(url: str, *, timeout: int = 45) -> str:
     req = urllib.request.Request(
         url,
@@ -72,14 +69,12 @@ def _fetch_html(url: str, *, timeout: int = 45) -> str:
         charset = resp.headers.get_content_charset() or "utf-8"
         return resp.read().decode(charset, errors="replace")
 
-
 def _profile_handle(profile_url: str) -> str:
     parsed = urlparse(profile_url)
     parts = [p for p in parsed.path.split("/") if p]
     if not parts:
         raise ValueError(f"Could not infer X handle from profile URL: {profile_url}")
     return parts[-1].lstrip("@")
-
 
 def _extract_status_urls(profile_html: str, handle: str) -> list[str]:
     urls: list[str] = []
@@ -98,7 +93,6 @@ def _extract_status_urls(profile_html: str, handle: str) -> list[str]:
         urls.append(raw)
     return urls
 
-
 def _first_meta_content(html: str, *, name: str) -> str | None:
     tag_pattern = re.compile(
         _META_RE_TEMPLATE.format(name=re.escape(name)),
@@ -112,7 +106,6 @@ def _first_meta_content(html: str, *, name: str) -> str | None:
     if not m2:
         return None
     return unescape(m2.group("content").strip())
-
 
 def _extract_status_datetime(html: str) -> datetime | None:
     published = _first_meta_content(html, name="article:published_time")
@@ -138,7 +131,6 @@ def _extract_status_datetime(html: str) -> datetime | None:
     except ValueError:
         return None
 
-
 def _clean_text(text: str) -> str:
     text = unescape(text)
     text = re.sub(r"<br\s*/?>", "\n", text, flags=re.I)
@@ -149,7 +141,6 @@ def _clean_text(text: str) -> str:
     text = re.sub(r" *\n *", "\n", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
-
 
 def _extract_status_text(html: str) -> str:
     # Prefer the main tweet text block when present.
@@ -170,7 +161,6 @@ def _extract_status_text(html: str) -> str:
             return text.strip()
     return ""
 
-
 def _source_urls_in_raw_input(raw_root: Path) -> set[str]:
     out: set[str] = set()
     if not raw_root.is_dir():
@@ -185,7 +175,6 @@ def _source_urls_in_raw_input(raw_root: Path) -> set[str]:
             if src:
                 out.add(src)
     return out
-
 
 def _build_doc(
     *,
@@ -233,7 +222,6 @@ def _build_doc(
     ]
     return "\n".join(parts)
 
-
 def _normalize_status_urls(urls: Iterable[str]) -> list[str]:
     out: list[str] = []
     seen: set[str] = set()
@@ -247,7 +235,6 @@ def _normalize_status_urls(urls: Iterable[str]) -> list[str]:
         seen.add(url)
         out.append(url)
     return out
-
 
 def run(
     *,
@@ -324,7 +311,6 @@ def run(
         print("\nDry-run only. Pass --apply to write files.")
     return 0
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--profile-url", default=DEFAULT_PROFILE_URL)
@@ -356,7 +342,6 @@ def main() -> int:
         limit=max(1, args.limit),
         status_urls=status_urls if status_urls else None,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

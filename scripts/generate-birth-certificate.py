@@ -35,13 +35,10 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 from seed_phase_artifacts import SCHEMA_BY_FILE
 
-
 GENESIS_ALGORITHM = "sha256_newline_joined_canonical_json_v1"
-
 
 def _canonical_json_bytes(obj: object) -> bytes:
     return json.dumps(obj, sort_keys=True, separators=(",", ":")).encode("utf-8")
-
 
 def compute_genesis_hash(seed_dir: Path) -> str:
     parts: list[bytes] = []
@@ -54,14 +51,12 @@ def compute_genesis_hash(seed_dir: Path) -> str:
     joined = b"\n".join(parts)
     return hashlib.sha256(joined).hexdigest()
 
-
 def _read_template_version() -> str:
     p = REPO_ROOT / "platform/template/template-manifest.json"
     if not p.is_file():
         return "unknown"
     meta = json.loads(p.read_text(encoding="utf-8"))
     return str(meta.get("templateVersion") or "unknown")
-
 
 def _load_ed25519_private_key(pem_path: Path):
     from cryptography.hazmat.primitives import serialization
@@ -72,7 +67,6 @@ def _load_ed25519_private_key(pem_path: Path):
     if not isinstance(key, Ed25519PrivateKey):
         raise ValueError(f"Expected Ed25519 private key in {pem_path}, got {type(key).__name__}")
     return key
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Generate signed seed birth certificate.")
@@ -177,7 +171,6 @@ def main() -> int:
         display = cert_out
     print(f"Wrote {display} and {sig_out.name}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

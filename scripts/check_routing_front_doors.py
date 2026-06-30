@@ -27,11 +27,9 @@ KEYWORDS = [
     "find things in this repo",
 ]
 
-
 def scan_file(path: Path) -> list[str]:
     text = path.read_text(encoding="utf-8", errors="ignore").lower()
     return [k for k in KEYWORDS if k.lower() in text]
-
 
 def main() -> int:
     warnings: list[str] = []
@@ -53,7 +51,6 @@ def main() -> int:
 
     print("[ok] routing front-door check clean")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

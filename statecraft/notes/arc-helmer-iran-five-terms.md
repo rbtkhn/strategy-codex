@@ -13,7 +13,6 @@ archive_links:
   - source-archive/statecraft/2026-03-17/source-dialogue-works-helmer-trump-furious-allies-reject-us-plan-escort-ships-hormuz-2026-03-17.md
   - source-archive/statecraft/2026-03-24/source-dialogue-works-helmer-lavrov-sounds-alarm-us-israel-attack-regional-disaster-2026-03-24.md
 ---
-WORK only; not Record.
 
 # Feb 3 → Mar 24 2026 — Helmer arc (money / votes / bullets → five terms)
 

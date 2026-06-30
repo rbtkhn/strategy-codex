@@ -1,6 +1,5 @@
 # Persia Recognition-Vs-Settlement Bridge
 
-WORK only; not Record.
 
 Purpose: regulate the transition between speaker-conditioned Iran retrieval and Persia lane drafting when the real uncertainty is still whether the object should be read recognition-first or settlement-first.
 

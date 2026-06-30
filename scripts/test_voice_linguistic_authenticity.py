@@ -70,11 +70,9 @@ SOPHISTICATED_BLOCKLIST = [
     "approximately", "significant", "demonstrate", "approximately", "utilize",
 ]
 
-
 def _get_response(channel_key: str, user_message: str) -> str:
     from bot.core import get_response
     return get_response(channel_key, user_message)
-
 
 def _avg_sentence_length(text: str) -> float:
     sents = re.split(r"[.!?]+", text)
@@ -84,14 +82,12 @@ def _avg_sentence_length(text: str) -> float:
     total = sum(len(s.split()) for s in sents)
     return total / len(sents)
 
-
 def _readability_grade(text: str) -> float | None:
     try:
         import textstat
         return textstat.flesch_kincaid_grade(text)
     except ImportError:
         return None
-
 
 def run_checks(reply: str, prompt: str, verbose: bool) -> dict:
     """Run linguistic authenticity checks on one reply. Returns dict of check name -> (passed, detail)."""
@@ -122,7 +118,6 @@ def run_checks(reply: str, prompt: str, verbose: bool) -> dict:
         results["readability"] = (None, "install textstat for grade-level check")
 
     return results
-
 
 def main():
     import argparse
@@ -164,7 +159,6 @@ def main():
     print("\n" + "=" * 60)
     print("Done." if all_passed else "One or more checks failed.")
     sys.exit(0 if all_passed else 1)
-
 
 if __name__ == "__main__":
     main()

@@ -1,6 +1,6 @@
 # Statecraft Essays
 
-work only; not Record.
+This surface is non-authoritative and subject to revision.
 
 > **Compatibility shelf.** Canonical primary essay home: [../../essays/README.md](../../essays/README.md) at repo root. New stand-alone essays default there (including cross-channel theses). This folder retains pre-root statecraft-native holdings until bounded migration.
 

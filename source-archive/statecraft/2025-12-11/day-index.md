@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `Andrew Napolitano` (1), `Nima Alkhorshid` (1)
 - Guests: `Andrei Martyanov` (1), `Douglas Macgregor` (1)
-- Threads: `alkorshid` (1), `macgregor` (1), `martyanov` (1), `mercouris` (1)
+- Threads: `alkhorshid` (1), `macgregor` (1), `martyanov` (1), `mercouris` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=Zjm6xQL1-P4) | `source-alexander-mercouris-uk-banks-warn-starmer-asset-seizure-plan-illegal-kiev-energy-close-to-co-2025-12-11.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `martyanov` | [watch](https://www.youtube.com/watch?v=CtMwRfJok38) | `source-dialogue-works-andrei-martyanov-russia-s-game-over-strategy-is-now-live-2025-12-11.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `martyanov` | [watch](https://www.youtube.com/watch?v=CtMwRfJok38) | `source-dialogue-works-andrei-martyanov-russia-s-game-over-strategy-is-now-live-2025-12-11.md` |
 | `judging-freedom` | — | `macgregor` | [watch](https://www.youtube.com/watch?v=YE0vke89ZAc) | `source-judging-freedom-macgregor-why-threaten-venezuela-2025-12-11.md` |
 
 ## Writer sources

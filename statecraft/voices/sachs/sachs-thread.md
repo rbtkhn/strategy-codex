@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `sachs`
 <!-- word_count: 4419 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 

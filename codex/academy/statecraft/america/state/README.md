@@ -1,6 +1,6 @@
 # America State
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Use this folder for the current American state apparatus: executive authority, Congress, military command, courts, intelligence agencies, party coalitions, allied carriers, and successor-authority figures. This is the near-term institutional layer that turns American civilizational memory and imperial/security striving into orders, statutes, deployments, sanctions, guarantees, negotiations, and implementable instruments.
 

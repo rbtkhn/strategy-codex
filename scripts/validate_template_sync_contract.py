@@ -22,7 +22,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _read_json(path: Path) -> dict:
     try:
         return json.loads(path.read_text(encoding="utf-8-sig"))
@@ -31,20 +30,17 @@ def _read_json(path: Path) -> dict:
     except json.JSONDecodeError as exc:
         raise ValueError(f"invalid json: {path}: {exc}") from exc
 
-
 def _rel(path: Path) -> str:
     try:
         return str(path.relative_to(REPO_ROOT))
     except ValueError:
         return str(path)
 
-
 def _matches_path_reference(value: str, path: Path) -> bool:
     rel = _rel(path).replace("\\", "/")
     normalized = value.replace("\\", "/")
     candidates = {rel, path.name, normalized}
     return normalized in candidates
-
 
 def _require_string(obj: dict, key: str, label: str, errors: list[str]) -> str:
     value = obj.get(key)
@@ -53,14 +49,12 @@ def _require_string(obj: dict, key: str, label: str, errors: list[str]) -> str:
         return ""
     return value.strip()
 
-
 def _require_list_of_strings(obj: dict, key: str, label: str, errors: list[str]) -> list[str]:
     value = obj.get(key)
     if not isinstance(value, list) or any(not isinstance(item, str) or not item.strip() for item in value):
         errors.append(f"{label} missing list[str] field: {key}")
         return []
     return [item.strip() for item in value]
-
 
 def validate_sync_contract(
     instance_contract_path: Path,
@@ -191,7 +185,6 @@ def validate_sync_contract(
 
     return errors, warnings
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Validate template sync contract vs applied provenance.")
     parser.add_argument("--instance-contract", type=Path, default=REPO_ROOT / "platform/config/instance-contract.json")
@@ -238,7 +231,6 @@ def main() -> int:
         for warning in warnings:
             print(f"  WARN: {warning}")
     return 0 if ok else 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

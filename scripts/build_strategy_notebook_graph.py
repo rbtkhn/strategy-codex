@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a derived JSON graph of strategy pages, experts, and watches (WORK only).
+"""Build a derived JSON graph of strategy pages, experts, and watches (non-authoritative).
 
 Reads Markdown only. Writes runtime/artifacts/work-strategy/strategy-notebook/graph.json
 and views under .../views/. See docs/.../GRAPH-SCHEMA.md
@@ -34,7 +34,6 @@ DEFAULT_VIEWS = (
     / "strategy-notebook"
     / "views"
 )
-
 
 def _build_graph_data(notebook_dir: Path) -> dict:
     import sys
@@ -133,7 +132,6 @@ def _build_graph_data(notebook_dir: Path) -> dict:
         },
     }
 
-
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--notebook-dir", type=Path, default=DEFAULT_NOTEBOOK)
@@ -179,7 +177,6 @@ def main() -> int:
     _print_rel(vdir / "watch-clusters.json")
     _print_rel(vdir / "expert-convergence.json")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

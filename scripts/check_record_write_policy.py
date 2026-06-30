@@ -17,6 +17,5 @@ if str(_SCRIPTS) not in sys.path:
 
 from check_gated_record_commit_msg import main  # noqa: E402
 
-
 if __name__ == "__main__":
     raise SystemExit(main())

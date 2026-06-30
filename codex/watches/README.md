@@ -1,7 +1,7 @@
 # Watches — strategy-notebook
 <!-- word_count: 541 -->
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 ## What changed
 

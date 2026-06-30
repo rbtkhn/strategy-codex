@@ -31,12 +31,10 @@ from stage_gate_candidate import (  # noqa: E402
 )
 from repo_io import read_path  # noqa: E402, SRC_DIR
 
-
 def _emit_event(user_id: str, event_type: str, candidate_id: str, merge: dict) -> None:
     from emit_pipeline_event import append_pipeline_event
 
     append_pipeline_event(user_id, event_type, candidate_id, merge=merge)
-
 
 def _next_cycle_id(rp_dir: Path) -> str:
     today = datetime.now(timezone.utc).strftime("%Y%m%d")
@@ -48,7 +46,6 @@ def _next_cycle_id(rp_dir: Path) -> str:
             if m:
                 seq = max(seq, int(m.group(1)))
     return f"REFLECT-{today}-{seq + 1:03d}"
-
 
 def _write_reflect_artifact(
     *,
@@ -88,7 +85,6 @@ def _write_reflect_artifact(
     path.write_text("\n".join(lines), encoding="utf-8")
     return path
 
-
 def _update_index(
     rp_dir: Path,
     cycle_id: str,
@@ -109,7 +105,6 @@ def _update_index(
         return
     content = idx.read_text(encoding="utf-8")
     idx.write_text(content.rstrip() + "\n" + row + "\n", encoding="utf-8")
-
 
 def _apply_rate_limits_on_proposals(
     proposals: list[dict],
@@ -137,7 +132,6 @@ def _apply_rate_limits_on_proposals(
         notes.append("downgraded excess high-risk proposals in this batch")
 
     return out, notes
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Reflection cycle — stage evidence-grounded gate candidates")
@@ -254,7 +248,6 @@ def main() -> int:
         print("No --append: gate unchanged. Use --append to stage top proposals.", file=sys.stderr)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

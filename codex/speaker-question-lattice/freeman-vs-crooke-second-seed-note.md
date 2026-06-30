@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Freeman Vs Crooke Second-Seed Note
 

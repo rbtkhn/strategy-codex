@@ -7,7 +7,6 @@ Output:
 Rules:
 - No high confidence without >=1 Shelf anchor and non-empty evidence note.
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -54,10 +53,8 @@ OUT_PATH = (
 )
 SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
 
-
 def load_yaml(path: Path) -> dict:
     return safe_load_path(path, feature="build_hn_provenance_packets.py") or {}
-
 
 def chapter_rows(arch: dict) -> list[dict]:
     rows = []
@@ -73,7 +70,6 @@ def chapter_rows(arch: dict) -> list[dict]:
             )
     return rows
 
-
 def anchor_map(catalog: dict) -> dict[str, list[str]]:
     by_hn: dict[str, list[str]] = {}
     for item in catalog.get("items") or []:
@@ -86,7 +82,6 @@ def anchor_map(catalog: dict) -> dict[str, list[str]]:
     for ch in by_hn:
         by_hn[ch] = sorted(set(by_hn[ch]))
     return by_hn
-
 
 def chapter_claim_texts(chapter_file: Path, title: str, max_claims: int) -> list[str]:
     if not chapter_file.is_file():
@@ -106,7 +101,6 @@ def chapter_claim_texts(chapter_file: Path, title: str, max_claims: int) -> list
         return [f"{title}: prose remains skeletal; add source-backed claims before publication."]
     return sentences[:max_claims]
 
-
 def classify_confidence(anchor_count: int, evidence_note: str, open_tasks: int, rules: dict) -> str:
     high = rules.get("high") or {}
     med = rules.get("medium") or {}
@@ -119,7 +113,6 @@ def classify_confidence(anchor_count: int, evidence_note: str, open_tasks: int, 
     if anchor_count >= int(med.get("min_shelf", 1)) and open_tasks <= int(med.get("max_open_tasks", 3)):
         return "medium"
     return "low"
-
 
 def build_markdown(rows: list[dict], packets: list[dict]) -> str:
     lines = [
@@ -161,7 +154,6 @@ def build_markdown(rows: list[dict], packets: list[dict]) -> str:
             lines.append(f"  - {t}")
         lines.append("")
     return "\n".join(lines)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -246,7 +238,6 @@ def main() -> int:
     args.out.write_text(content, encoding="utf-8")
     print(f"wrote {args.out}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

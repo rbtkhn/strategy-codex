@@ -1,6 +1,5 @@
 # Legacy Redirect Pattern
 
-work only; not Record.
 
 Use this pattern when a legacy surface still has inbound link value, but no longer owns the canonical content.
 

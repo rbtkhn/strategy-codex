@@ -43,24 +43,19 @@ BOUNDARY_NOTICE = (
     "the Sovereign Merge Rule."
 )
 
-
 def _utc_now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-
 def _default_output_dir(user_id: str) -> Path:
     return profile_dir(user_id) / "emulation-bundle"
-
 
 def _write_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-
 def _copy_json(src: Path, dst: Path) -> None:
     payload = json.loads(src.read_text(encoding="utf-8"))
     _write_json(dst, payload)
-
 
 @lru_cache(maxsize=1)
 def _emulation_envelope_validator():
@@ -75,10 +70,8 @@ def _emulation_envelope_validator():
     jsonschema.validators.validator_for(schema).check_schema(schema)
     return jsonschema.Draft202012Validator(schema)
 
-
 def validate_emulation_envelope(payload: dict) -> None:
     _emulation_envelope_validator().validate(payload)
-
 
 def build_emulation_envelope(
     *,
@@ -123,7 +116,6 @@ def build_emulation_envelope(
         },
         "adapterExamples": examples,
     }
-
 
 def export_emulation_bundle(
     *,
@@ -197,7 +189,6 @@ from repo_io import SCHEMA_REGISTRY_DIR
 
     return envelope
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="Export an emulation-oriented Grace-Mar bundle")
     parser.add_argument("--user", "-u", default="strategy-codex", help="Profile id")
@@ -228,7 +219,6 @@ def main() -> None:
         include_user_json=args.include_user_json,
     )
     print(json.dumps(payload, indent=2, ensure_ascii=False))
-
 
 if __name__ == "__main__":
     main()

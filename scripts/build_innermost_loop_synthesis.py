@@ -5,8 +5,7 @@ Reads the deterministic longitudinal spine and local raw/source-sheet metadata a
   - singularity/synthesis/README.md
   - singularity/synthesis/YYYY-MM.md
   - singularity/synthesis/support/*.md
-
-WORK only; not Record. This is scaffold generation, not final singularity synthesis.
+This is scaffold generation, not final singularity synthesis.
 """
 
 from __future__ import annotations
@@ -19,7 +18,6 @@ import json
 from pathlib import Path
 import re
 from typing import Any
-
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_INDEX = REPO_ROOT / "singularity/workshop/longitudinal/innermost-loop-signals.json"
@@ -56,7 +54,6 @@ FAILURE_MODES = [
     "commentary_inflation",
 ]
 
-
 @dataclass(frozen=True)
 class SupportNote:
     note_id: str
@@ -69,10 +66,8 @@ class SupportNote:
     fronts: tuple[str, ...]
     reasons: tuple[str, ...]
 
-
 def _relative(path: Path, root: Path = REPO_ROOT) -> str:
     return str(path.resolve().relative_to(root.resolve())).replace("\\", "/")
-
 
 def _parse_frontmatter(text: str) -> dict[str, Any]:
     if not text.startswith("---\n"):
@@ -88,12 +83,10 @@ def _parse_frontmatter(text: str) -> dict[str, Any]:
         out[key.strip()] = value.strip()
     return out
 
-
 def _existing_status(path: Path) -> str | None:
     if not path.is_file():
         return None
     return _parse_frontmatter(path.read_text(encoding="utf-8")).get("status")
-
 
 def _write_scaffold(path: Path, content: str) -> str:
     existing_status = _existing_status(path)
@@ -106,23 +99,18 @@ def _write_scaffold(path: Path, content: str) -> str:
     path.write_text(content, encoding="utf-8")
     return f"{'updated' if existed_before else 'wrote'}: {_relative(path)}"
 
-
 def _month_from_date(day: str) -> str:
     return day[:7]
-
 
 def _month_label(month: str) -> str:
     return datetime.strptime(month, "%Y-%m").strftime("%B %Y")
 
-
 def _path_exists(rel_path: str | None) -> bool:
     return bool(rel_path) and (REPO_ROOT / rel_path).is_file()
-
 
 def _sheet_path_for_date(day: str) -> str | None:
     path = f"singularity/workshop/sheets/innermost-loop-{day}.md"
     return path if _path_exists(path) else None
-
 
 def _sheet_link_for_date(day: str, *, from_support: bool = False) -> str | None:
     if not _sheet_path_for_date(day):
@@ -130,15 +118,12 @@ def _sheet_link_for_date(day: str, *, from_support: bool = False) -> str | None:
     prefix = "../../workshop/sheets" if from_support else "../workshop/sheets"
     return f"{prefix}/innermost-loop-{day}.md"
 
-
 def _raw_archive_path(raw_path: str) -> str:
     return f"source-archive/singularity/innermost-loop/{Path(raw_path).name}"
-
 
 def _raw_archive_link(raw_path: str, *, from_support: bool = False) -> str:
     prefix = "../.." if from_support else ".."
     return f"{prefix}/{_raw_archive_path(raw_path)}"
-
 
 def _issue_title(raw_path: str, fallback: str) -> str:
     path = REPO_ROOT / raw_path
@@ -150,13 +135,11 @@ def _issue_title(raw_path: str, fallback: str) -> str:
             return line.removeprefix("- Title: ").strip()
     return fallback
 
-
 def _monthly_groups(index: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
     out: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for item in index["items"]:
         out[_month_from_date(item["date"])].append(item)
     return dict(sorted(out.items()))
-
 
 def _front_counts(items: list[dict[str, Any]]) -> Counter[str]:
     counts: Counter[str] = Counter()
@@ -167,7 +150,6 @@ def _front_counts(items: list[dict[str, Any]]) -> Counter[str]:
             counts[front["label"]] += 1
     return counts
 
-
 def _new_fronts(items: list[dict[str, Any]], first_seen: dict[str, str]) -> list[str]:
     month = _month_from_date(items[0]["date"])
     out = []
@@ -175,7 +157,6 @@ def _new_fronts(items: list[dict[str, Any]], first_seen: dict[str, str]) -> list
         if _month_from_date(first_day) == month:
             out.append(front)
     return out
-
 
 def _first_seen(index: dict[str, Any]) -> dict[str, str]:
     seen: dict[str, str] = {}
@@ -186,7 +167,6 @@ def _first_seen(index: dict[str, Any]) -> dict[str, str]:
             seen.setdefault(front["label"], item["date"])
     return seen
 
-
 def _previous_month_counts(months: list[str], grouped: dict[str, list[dict[str, Any]]]) -> dict[str, Counter[str] | None]:
     out: dict[str, Counter[str] | None] = {}
     previous: Counter[str] | None = None
@@ -194,7 +174,6 @@ def _previous_month_counts(months: list[str], grouped: dict[str, list[dict[str, 
         out[month] = previous
         previous = _front_counts(grouped[month])
     return out
-
 
 def _strongest_intensifications(current: Counter[str], previous: Counter[str] | None) -> list[str]:
     if previous is None:
@@ -206,7 +185,6 @@ def _strongest_intensifications(current: Counter[str], previous: Counter[str] | 
             deltas.append((delta, label))
     deltas.sort(key=lambda pair: (-pair[0], pair[1]))
     return [f"{label} (+{delta})" for delta, label in deltas[:4]]
-
 
 def _support_role(
     *,
@@ -228,7 +206,6 @@ def _support_role(
     if first_seen_here:
         return "substrate_anchor", reasons
     return "chronology_clarifier", reasons
-
 
 def _build_support_notes(index: dict[str, Any], grouped: dict[str, list[dict[str, Any]]]) -> list[SupportNote]:
     first_seen = _first_seen(index)
@@ -268,13 +245,11 @@ def _build_support_notes(index: dict[str, Any], grouped: dict[str, list[dict[str
             )
     return out
 
-
 def _support_notes_by_month(notes: list[SupportNote]) -> dict[str, list[SupportNote]]:
     out: dict[str, list[SupportNote]] = defaultdict(list)
     for note in notes:
         out[note.month].append(note)
     return dict(out)
-
 
 def _month_file_text(
     month: str,
@@ -329,8 +304,7 @@ def _month_file_text(
             "",
             f"# Innermost Loop Synthesis - {month_title}",
             "",
-            "WORK only; not Record.",
-            "",
+                        "",
             "## Governing Law",
             "",
             "`Raw Capture -> Longitudinal Spine -> Support Notes -> Monthly Synthesis -> notes/essays or route-away`",
@@ -434,7 +408,6 @@ def _month_file_text(
     )
     return "\n".join(lines) + "\n"
 
-
 def _support_file_text(note: SupportNote, month_file: str) -> str:
     lines = [
         "---",
@@ -457,8 +430,7 @@ def _support_file_text(note: SupportNote, month_file: str) -> str:
             "",
             f"# Support Note - {note.title}",
             "",
-            "WORK only; not Record.",
-            "",
+                        "",
             "## Role",
             "",
             f"- `primary_role`: `{note.role}`",
@@ -492,13 +464,11 @@ def _support_file_text(note: SupportNote, month_file: str) -> str:
     )
     return "\n".join(lines) + "\n"
 
-
 def _synthesis_readme_text(months: list[str], grouped: dict[str, list[dict[str, Any]]], support_notes: dict[str, list[SupportNote]]) -> str:
     lines = [
         "# Innermost Loop Synthesis",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         "This shelf is the singularity-facing synthesis layer for Innermost Loop. It is optimized for maximum analytical value and actionable ideas rather than equal-weight commentary on every issue.",
         "",
         "## Governing Law",
@@ -553,13 +523,11 @@ def _synthesis_readme_text(months: list[str], grouped: dict[str, list[dict[str, 
     )
     return "\n".join(lines) + "\n"
 
-
 def _support_readme_text(notes: list[SupportNote]) -> str:
     lines = [
         "# Innermost Loop Support Notes",
         "",
-        "WORK only; not Record.",
-        "",
+                "",
         "These notes are subordinate support surfaces for the monthly Innermost Loop synthesis layer. They exist only where chronology, provenance, counterweight, misreading correction, substrate anchoring, or action-wedge extraction need a narrower issue-level object.",
         "",
         "## Roles",
@@ -592,7 +560,6 @@ def _support_readme_text(notes: list[SupportNote]) -> str:
     )
     return "\n".join(lines) + "\n"
 
-
 def _replace_or_insert_section(text: str, heading: str, body: str, *, before_heading: str | None = None) -> str:
     pattern = re.compile(rf"(?ms)^## {re.escape(heading)}\n.*?(?=^## |\Z)")
     replacement = f"## {heading}\n\n{body.rstrip()}\n\n"
@@ -603,7 +570,6 @@ def _replace_or_insert_section(text: str, heading: str, body: str, *, before_hea
         return (text[:idx].rstrip() + "\n\n" + replacement + text[idx:].lstrip()).rstrip() + "\n"
     return text.rstrip() + "\n\n" + replacement
 
-
 def _update_readme(path: Path, heading: str, body: str, before_heading: str | None = None) -> str:
     text = path.read_text(encoding="utf-8")
     new_text = _replace_or_insert_section(text, heading, body, before_heading=before_heading)
@@ -611,7 +577,6 @@ def _update_readme(path: Path, heading: str, body: str, before_heading: str | No
         return f"skip unchanged: {_relative(path)}"
     path.write_text(new_text, encoding="utf-8")
     return f"updated: {_relative(path)}"
-
 
 def _prune_stale_support_notes(support_dir: Path, active_ids: set[str]) -> list[str]:
     logs: list[str] = []
@@ -625,7 +590,6 @@ def _prune_stale_support_notes(support_dir: Path, active_ids: set[str]) -> list[
         path.unlink()
         logs.append(f"deleted stale scaffold: {_relative(path)}")
     return logs
-
 
 def run(index_path: Path, synthesis_dir: Path, support_dir: Path) -> list[str]:
     index = json.loads(index_path.read_text(encoding="utf-8"))
@@ -690,7 +654,6 @@ def run(index_path: Path, synthesis_dir: Path, support_dir: Path) -> list[str]:
     logs.append(_update_readme(DEFAULT_WORKSHOP_README, "Longitudinal Views", workshop_body, before_heading="First Instruments To Build"))
     return logs
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--index", type=Path, default=DEFAULT_INDEX)
@@ -700,7 +663,6 @@ def main() -> int:
     for line in run(args.index, args.synthesis_dir, args.support_dir):
         print(line)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

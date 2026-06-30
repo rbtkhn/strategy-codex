@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-15/source-diesen-sachs-us-iran-deal-reached-peace-or-tactical-pause-2026-06-15.md
   - source-archive/statecraft/2026-06-15/source-judging-freedom-sachs-netanyahu-vs-trump-2026-06-15.md
 ---
-WORK only; not Record.
 
 # Johnson × Davis — MOU Skepticism Fork — 2026-06-15
 

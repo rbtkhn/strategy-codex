@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-09/source-dialogue-works-anthony-aguilar-iranian-drone-takes-down-us-apache-helicopter-war-imminent-2026-06-09.md
   - source-archive/statecraft/2026-06-09/source-daniel-davis-breaking-us-strikes-iran-qeshm-island-apache-response-2026-06-09.md
 ---
-WORK only; not Record.
 
 # June 9 Intake Readiness — Command Fracture
 

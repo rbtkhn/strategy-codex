@@ -1,6 +1,5 @@
 # arc-martyanov-nima-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-martyanov-nima-host.md](../../notes/arc-martyanov-nima-host.md)
 

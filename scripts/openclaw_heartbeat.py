@@ -26,12 +26,10 @@ from recursion_gate_review import split_gate_sections
 
 DEFAULT_USER_ID = os.getenv("GRACE_MAR_USER_ID", "grace-mar").strip() or "grace-mar"
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
-
 
 def _pending_count(pr_content: str) -> int:
     if "## Candidates" not in pr_content or "## Processed" not in pr_content:
@@ -39,18 +37,15 @@ def _pending_count(pr_content: str) -> int:
     candidates, _processed = split_gate_sections(pr_content)
     return len(re.findall(r"### CANDIDATE-\d+.*?status:\s*pending", candidates, re.DOTALL))
 
-
 def _last_activity_date(evidence_content: str) -> str | None:
     if "## V. ACTIVITY LOG" not in evidence_content:
         return None
     matches = re.findall(r"date:\s*(\d{4}-\d{2}-\d{2})", evidence_content)
     return matches[-1] if matches else None
 
-
 def _last_session_line(session_log: str) -> str | None:
     lines = [l.strip() for l in session_log.splitlines() if l.strip() and not l.strip().startswith("#")]
     return lines[-1][:120] if lines else None
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="OpenClaw oversight heartbeat")
@@ -95,7 +90,6 @@ def main() -> int:
         print("\n".join(lines))
 
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

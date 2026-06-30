@@ -1,6 +1,5 @@
 # Wilkerson April 2026 note
 
-WORK only; not Record.
 
 Purpose: preserve what April 2026 currently means on the Wilkerson shelf after the contradiction audit reopened the month, the missing `Judging Freedom`, `Diesen`, and `Dialogue Works` anchors were landed, and the bounded queue was fully closed: a smaller bridge month with `9` real on-disk anchors that is now audited and confirmed complete within the bounded host-lane search.
 

@@ -16,7 +16,6 @@ archive_links:
 
 # Dialogue Works x Johnson speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Dialogue Works x Johnson` run inside the native `nima` stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Johnson lane Dialogue Works elicits, which files matter most, and how this host-local run differs from the Davis, Diesen, and Napolitano Johnson lanes.
 

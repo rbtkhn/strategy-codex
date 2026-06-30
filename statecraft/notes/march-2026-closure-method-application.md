@@ -14,7 +14,6 @@ archive_links:
   - source-archive/statecraft/2026-03-16/source-judging-freedom-parsi-how-washington-underestimated-iran-2026-03-16.md
   - source-archive/statecraft/2026-03-17/source-parsi-why-was-larijani-targeted-2026-03-17.md
 ---
-WORK only; not Record.
 
 # March 2026 closure method application
 

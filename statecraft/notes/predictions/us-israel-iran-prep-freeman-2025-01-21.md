@@ -7,9 +7,8 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2025-01-21/source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md
 speech_act: initial
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — US-Israel-Iran war prep (2025-01-21)
 

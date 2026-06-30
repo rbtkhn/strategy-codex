@@ -37,7 +37,6 @@ record_status: none
 
 """
 
-
 def _hints(route: dict[str, Any], limit: int = 3) -> str:
     hints = route.get("search_hints") or []
     if not hints:
@@ -48,7 +47,6 @@ def _hints(route: dict[str, Any], limit: int = 3) -> str:
         text += ", …"
     return text
 
-
 def _path_cell(route: dict[str, Any]) -> str:
     path = str(route.get("path") or route.get("path_pattern") or "")
     if not path:
@@ -56,7 +54,6 @@ def _path_cell(route: dict[str, Any]) -> str:
     if path.endswith(".md") and " " not in path and not path.startswith("`"):
         return f"[{path}]({path})"
     return f"`{path}`"
-
 
 def render_route_registry(routes: list[dict[str, Any]]) -> str:
     lines = [
@@ -79,7 +76,6 @@ def render_route_registry(routes: list[dict[str, Any]]) -> str:
             )
         )
     return "\n".join(lines)
-
 
 def render_source_index_registry(routes: list[dict[str, Any]]) -> str:
     discovered = discover_source_indexes()
@@ -107,7 +103,6 @@ def render_source_index_registry(routes: list[dict[str, Any]]) -> str:
         lines.append(f"| {speaker} | [{rel}]({rel}) | {route_id} |")
     return "\n".join(lines)
 
-
 def render_host_shelf_registry(routes: list[dict[str, Any]]) -> str:
     shelves = discover_host_shelves()
     route_by_path = {
@@ -130,7 +125,6 @@ def render_host_shelf_registry(routes: list[dict[str, Any]]) -> str:
         lines.append(f"| {host} | [{rel}]({rel}) | {route_id} |")
     return "\n".join(lines)
 
-
 def render_generated_sections(routes: list[dict[str, Any]]) -> str:
     metrics = collect_routing_metrics(strict=False)
     parts = [
@@ -141,7 +135,6 @@ def render_generated_sections(routes: list[dict[str, Any]]) -> str:
         format_routing_report(metrics),
     ]
     return "\n".join(parts)
-
 
 def normalize_root_links(text: str) -> str:
     """Template lives under docs/templates; output is repo-root LLM-ROUTING.md."""
@@ -171,7 +164,6 @@ def normalize_root_links(text: str) -> str:
     text = text.replace("](../../source-archive/", "](source-archive/")
     return text
 
-
 def build_document() -> str:
     if not TEMPLATE_PATH.is_file():
         raise FileNotFoundError(f"missing template: {TEMPLATE_PATH.relative_to(REPO_ROOT)}")
@@ -186,10 +178,8 @@ def build_document() -> str:
     body = normalize_root_links(body)
     return GENERATED_HEADER + body
 
-
 def write_output(text: str) -> None:
     OUTPUT_PATH.write_text(text, encoding="utf-8", newline="\n")
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -221,7 +211,6 @@ def main() -> int:
         write_output(generated)
         print(f"wrote {OUTPUT_PATH.relative_to(REPO_ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

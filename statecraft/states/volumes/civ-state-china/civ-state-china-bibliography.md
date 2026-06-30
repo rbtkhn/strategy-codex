@@ -1,6 +1,5 @@
 ﻿# China Bibliography
 
-WORK only; not Record.
 
 This is the working volume bibliography for the China CIV-STATE book. Its center of gravity is primary sources first, then bounded secondary and doctrinal support. It is built as an order canon: mandate, restoration, bureaucratic carry, anti-chaos legitimacy, and PRC reconstitution remain the main spine, while geography, conquest, humiliation, Japan, Russia, and maritime pressure stay real but subordinate to the central continuity grammar. The Industrial shelf ends in 1991 and the Cybernetic shelf begins after that boundary.
 

@@ -1,6 +1,5 @@
 # arc-macgregor-napolitano-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-macgregor-napolitano-host.md](../../notes/arc-macgregor-napolitano-host.md)
 

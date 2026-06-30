@@ -26,12 +26,10 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from repo_io import profile_dir as record_profile_dir  # noqa: E402
 from grace_mar_compat_paths import BOT_DIR
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8").strip()
-
 
 def _compute_checksum(profile_dir: Path) -> str:
     parts = []
@@ -50,7 +48,6 @@ def _compute_checksum(profile_dir: Path) -> str:
         h.update(b"\n---\n")
     return h.hexdigest()
 
-
 def _extract_yaml_list(content: str, key: str) -> list:
     """Extract list from YAML: movies: [a, b, c] or movies: \\n  - item."""
     pattern = rf"{key}:\s*\[(.*?)\]"
@@ -66,12 +63,10 @@ def _extract_yaml_list(content: str, key: str) -> list:
         return [re.sub(r"^\s*-\s+", "", ln).split("#")[0].strip().strip('"\'') for ln in lines if ln.strip()]
     return []
 
-
 def _extract_section(content: str, title: str) -> str | None:
     pattern = rf"^## {re.escape(title)}\s*\n(.*?)(?=^## |\Z)"
     m = re.search(pattern, content, re.MULTILINE | re.DOTALL)
     return m.group(1).strip() if m else None
-
 
 def _ix_summaries(content: str) -> dict:
     """Extract IX-A/B/C entry topic summaries (first 80 chars)."""
@@ -86,11 +81,9 @@ def _ix_summaries(content: str) -> dict:
         out[key] = [t[:80] for t in topics[:20]]
     return out
 
-
 def _evidence_anchors(content: str) -> list[str]:
     """Extract ACT-XXXX IDs from EVIDENCE."""
     return list(set(re.findall(r"ACT-\d+", content)))[:50]
-
 
 def export_symbolic(user_id: str = "grace-mar") -> dict:
     """Build cache-oriented symbolic identity for Familiar nodes."""
@@ -145,7 +138,6 @@ def export_symbolic(user_id: str = "grace-mar") -> dict:
         "evidence_anchors": evidence_anchors,
     }
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Export Record to symbolic JSON for Intersignal Familiar nodes"
@@ -161,7 +153,6 @@ def main() -> None:
     out_path = out_dir / "symbolic_identity.json"
     out_path.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {out_path}", file=sys.stderr)
-
 
 if __name__ == "__main__":
     main()

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Macgregor Historical Examples Audit
 

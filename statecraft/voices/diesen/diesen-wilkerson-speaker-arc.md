@@ -1,6 +1,5 @@
 # arc-wilkerson-diesen-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-wilkerson-diesen-host.md](../../notes/arc-wilkerson-diesen-host.md)
 

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # News-verify ↔ synthesis gate
 

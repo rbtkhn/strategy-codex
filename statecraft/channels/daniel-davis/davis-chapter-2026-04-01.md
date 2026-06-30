@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Chapter 2026 04 01 (compat redirect)
 

@@ -35,7 +35,6 @@ INTERVIEWS_NO_VIDEO_PREFIX = re.compile(r"^interviews-\d+-analysis\.md$", re.I)
 CIVMEM_ANALYSIS = re.compile(r".+-civmem-analysis\.md$", re.I)
 PSYHIST_ANALYSIS = re.compile(r".+-psy-hist-analysis\.md$", re.I)
 
-
 def load_sources() -> dict[str, dict]:
     if not SOURCES_PATH.exists():
         return {}
@@ -47,20 +46,16 @@ def load_sources() -> dict[str, dict]:
             by_vid[s["video_id"]] = s
     return by_vid
 
-
 def extract_video_id(path: Path) -> str | None:
     m = VIDEO_PREFIX.match(path.name)
     return m.group(1) if m else None
-
 
 def extract_canonical_url(body: str) -> str:
     m = CANONICAL_RE.search(body)
     return m.group(1).strip() if m else ""
 
-
 def has_frontmatter(text: str) -> bool:
     return text.startswith("---\n") or text.startswith("---\r\n")
-
 
 def memo_kind_skip_filename(name: str) -> bool:
     """True when this basename uses a non-video analysis schema we must not clobber."""
@@ -74,7 +69,6 @@ def memo_kind_skip_filename(name: str) -> bool:
         return True
     return False
 
-
 def is_substack_front_matter(fm: dict | None) -> bool:
     if not fm or not isinstance(fm, dict):
         return False
@@ -83,7 +77,6 @@ def is_substack_front_matter(fm: dict | None) -> bool:
     if str(fm.get("series") or "").strip().lower() == "substack":
         return True
     return False
-
 
 def parse_frontmatter(text: str) -> tuple[dict | None, str]:
     if not text.startswith("---"):
@@ -97,7 +90,6 @@ def parse_frontmatter(text: str) -> tuple[dict | None, str]:
         return yaml.safe_load(raw) or {}, body
     except yaml.YAMLError:
         return None, text
-
 
 def build_frontmatter(path: Path, by_vid: dict[str, dict], body: str) -> dict:
     vid = extract_video_id(path)
@@ -128,7 +120,6 @@ def build_frontmatter(path: Path, by_vid: dict[str, dict], body: str) -> dict:
         "status": "complete",
         "quality_level": "draft",
     }
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -176,7 +167,6 @@ def main() -> int:
     if not args.write and changed:
         print(f"\n{changed} file(s) need --write to apply.")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,6 @@
 # Academy
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Academy is the study layer for strategy-codex: topical shelves that turn reading, concepts, and writer lanes into reusable judgment.
 

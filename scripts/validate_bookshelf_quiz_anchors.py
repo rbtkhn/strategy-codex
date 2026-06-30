@@ -1,7 +1,6 @@
 ﻿#!/usr/bin/env python3
 """Validate bookshelf-quiz-anchors.yaml against bookshelf-catalog.yaml.
-
-WORK only; not Record. The anchor file is a curated quiz layer over the
+The anchor file is a curated quiz layer over the
 Bookshelf catalog, not a replacement catalog.
 """
 
@@ -26,7 +25,6 @@ ANCHORS = RESEARCH / "bookshelf-quiz-anchors.yaml"
 RE_SHELF = re.compile(r"^Shelf-\d{4}$")
 SOURCE_KINDS = {"primary", "secondary", "mixed"}
 
-
 def _load_yaml(path: Path) -> dict:
     if not path.is_file():
         raise FileNotFoundError(path)
@@ -34,7 +32,6 @@ def _load_yaml(path: Path) -> dict:
     if not isinstance(data, dict):
         raise ValueError(f"{path}: top-level YAML must be a mapping")
     return data
-
 
 def validate(catalog_path: Path, anchors_path: Path) -> tuple[list[str], list[str]]:
     errors: list[str] = []
@@ -94,7 +91,6 @@ def validate(catalog_path: Path, anchors_path: Path) -> tuple[list[str], list[st
 
     return errors, warnings
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--catalog", type=Path, default=CATALOG)
@@ -120,7 +116,6 @@ def main() -> int:
         return 1
     print("ok: bookshelf-quiz-anchors.yaml")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

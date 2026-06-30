@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `mate`
 <!-- word_count: 3096 -->
 
-WORK only; not Record.
 
 ## Orthogonality guide
 

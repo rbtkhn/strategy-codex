@@ -5,7 +5,6 @@ Thin wrapper around ``backfill_substack_raw_input.py`` with Ritter defaults.
 Use targeted ``--url`` / ``--slug`` captures by default. The archive may include
 announcements, links, replays, and pointers whose substance belongs in a
 transcript or another primary raw-input instead.
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -23,7 +22,6 @@ from backfill_substack_raw_input import DEFAULT_RAW_ROOT, run
 
 DEFAULT_HOSTNAME = "scottritter.substack.com"
 DEFAULT_THREAD = "ritter"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -71,7 +69,6 @@ def main() -> int:
         urls=args.url,
         publication_slug=args.thread,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

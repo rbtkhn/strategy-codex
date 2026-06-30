@@ -30,7 +30,6 @@ GT_EP_RE = re.compile(r"^Game\s+Theory\s*#(\d+)\s*[:：]\s*", re.I)
 # Great Books #N: ... (Volume V)
 GB_EP_RE = re.compile(r"^Great\s+Books\s*#(\d+)\s*[:：]\s*", re.I)
 
-
 def parse_channel_index_rows(index_path: Path | None = None) -> list[tuple[str, str]]:
     """Return list of (video_id, title) from the channel index table."""
     path = index_path or DEFAULT_INDEX
@@ -51,7 +50,6 @@ def parse_channel_index_rows(index_path: Path | None = None) -> list[tuple[str, 
         rows.append((vid_cell, title))
     return rows
 
-
 def _pick_best_duplicate(candidates: list[tuple[str, str]]) -> tuple[str, str]:
     """When multiple rows match one episode (e.g. re-upload), prefer AUDIO FIXED / Re-upload."""
     if len(candidates) == 1:
@@ -61,7 +59,6 @@ def _pick_best_duplicate(candidates: list[tuple[str, str]]) -> tuple[str, str]:
             if pref in title:
                 return (vid, title)
     return candidates[0]
-
 
 def lookup_civilization(episode: int, *, index_path: Path | None = None) -> tuple[str, str] | None:
     """Return (video_id, youtube_title) for Civilization #episode, or None."""
@@ -74,7 +71,6 @@ def lookup_civilization(episode: int, *, index_path: Path | None = None) -> tupl
         return None
     return _pick_best_duplicate(candidates)
 
-
 def lookup_secret_history(episode: int, *, index_path: Path | None = None) -> tuple[str, str] | None:
     """Return (video_id, youtube_title) for Secret History #episode, or None."""
     candidates: list[tuple[str, str]] = []
@@ -85,7 +81,6 @@ def lookup_secret_history(episode: int, *, index_path: Path | None = None) -> tu
     if not candidates:
         return None
     return _pick_best_duplicate(candidates)
-
 
 def lookup_great_books(episode: int, *, index_path: Path | None = None) -> tuple[str, str] | None:
     """Return (video_id, youtube_title) for Great Books #episode, or None."""
@@ -98,7 +93,6 @@ def lookup_great_books(episode: int, *, index_path: Path | None = None) -> tuple
         return None
     return _pick_best_duplicate(candidates)
 
-
 def lookup_game_theory(episode: int, *, index_path: Path | None = None) -> tuple[str, str] | None:
     """Return (video_id, youtube_title) for Game Theory #episode, or None."""
     candidates: list[tuple[str, str]] = []
@@ -109,7 +103,6 @@ def lookup_game_theory(episode: int, *, index_path: Path | None = None) -> tuple
     if not candidates:
         return None
     return _pick_best_duplicate(candidates)
-
 
 def lookup_geo_strategy(episode: int, *, index_path: Path | None = None) -> tuple[str, str] | None:
     """Return (video_id, youtube_title) for Geo-Strategy #episode (not Update series), or None."""
@@ -127,7 +120,6 @@ def lookup_geo_strategy(episode: int, *, index_path: Path | None = None) -> tupl
     if not candidates:
         return None
     return _pick_best_duplicate(candidates)
-
 
 def lookup_series_episode(
     series: str, episode: int, *, index_path: Path | None = None
@@ -149,7 +141,6 @@ def lookup_series_episode(
     raise ValueError(
         f"Unknown series: {series!r} (use civilization|civ|secret-history|sh|geo-strategy|geo|game-theory|gt|great-books|gb)"
     )
-
 
 def youtube_title_to_heading(youtube_title: str, series: str, episode: int) -> str:
     """Strip redundant series prefix for curated # heading; keep rest as display title."""
@@ -186,12 +177,10 @@ def youtube_title_to_heading(youtube_title: str, series: str, episode: int) -> s
             return f"Great Books #{episode}: {rest}" if rest else f"Great Books #{episode}"
     return youtube_title
 
-
 _TRAILING_NOTE_PAREN = re.compile(
     r"\s*\([^)]*(?:re-?upload|AUDIO\s+FIXED|thanks\s+to\b)[^)]*\)\s*$",
     re.I,
 )
-
 
 def youtube_title_to_slug(youtube_title: str, series: str, episode: int) -> str:
     """Filesystem slug after civilization-NN- or geo-strategy-NN-."""

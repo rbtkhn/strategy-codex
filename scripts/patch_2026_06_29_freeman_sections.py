@@ -69,7 +69,6 @@ RESECTION_NOTE = (
     "MOU/Hormuz/Lebanon/Syria-Turkey/Ukraine/Israel arc)"
 )
 
-
 def validate_capture(path: Path) -> list[str]:
     doc = path.read_text(encoding="utf-8")
     try:
@@ -83,7 +82,6 @@ def validate_capture(path: Path) -> list[str]:
         return [str(exc)]
     return validate_section_anchors(body, SECTION_TITLES, SECTION_ANCHORS)
 
-
 def write_capture(path: Path) -> int:
     return write_interview_section_patch_capture(
         path,
@@ -95,7 +93,6 @@ def write_capture(path: Path) -> int:
         interview_host=HOST,
         interview_guest=GUEST,
     )
-
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -119,7 +116,6 @@ def main() -> int:
         after = len(path.read_text(encoding="utf-8").split())
         print(f"wrote {CAPTURE} (words ~{before} -> ~{after})")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

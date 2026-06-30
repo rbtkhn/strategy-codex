@@ -74,7 +74,6 @@ THRESHOLDS = {
     "authority_categories_max": 4,
 }
 
-
 @dataclass
 class ComplexityMetrics:
     root_directories: int
@@ -97,10 +96,8 @@ class ComplexityMetrics:
     cursor_rules_lines: int
     pyproject_name: str
 
-
 def _is_archived(rel_posix: str) -> bool:
     return any(rel_posix.startswith(prefix) for prefix in ARCHIVE_PREFIXES)
-
 
 def _read_text(path: Path) -> str:
     try:
@@ -108,10 +105,8 @@ def _read_text(path: Path) -> str:
     except (OSError, UnicodeDecodeError):
         return ""
 
-
 def _count_terms(text: str) -> dict[str, int]:
     return {name: len(pat.findall(text)) for name, pat in TERM_PATTERNS.items()}
-
 
 SCAN_ROOTS = (
     REPO_ROOT,
@@ -220,7 +215,6 @@ def collect_metrics() -> ComplexityMetrics:
         pyproject_name=pyproject_name,
     )
 
-
 def _root_budget_section() -> list[str]:
     manifest = REPO_ROOT / "root-file-budget.yaml"
     if not manifest.is_file():
@@ -272,7 +266,6 @@ def _root_budget_section() -> list[str]:
         lines.append("")
     return lines
 
-
 def format_report(metrics: ComplexityMetrics) -> str:
     lines = [
         "# Complexity Audit",
@@ -320,7 +313,6 @@ def format_report(metrics: ComplexityMetrics) -> str:
     ]
     return "\n".join(lines)
 
-
 def check_thresholds(metrics: ComplexityMetrics) -> list[str]:
     failures: list[str] = []
     if metrics.root_files > THRESHOLDS["root_files_max"]:
@@ -340,7 +332,6 @@ def check_thresholds(metrics: ComplexityMetrics) -> list[str]:
     if metrics.pyproject_name != "strategy-codex":
         failures.append(f"pyproject name {metrics.pyproject_name!r} != 'strategy-codex'")
     return failures
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -370,7 +361,6 @@ def main() -> int:
                 print(f"threshold fail: {msg}", file=sys.stderr)
             return 1
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

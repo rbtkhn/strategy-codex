@@ -16,7 +16,6 @@ if str(_SCRIPTS) not in sys.path:
 
 from prediction_lib import STANCE_KEYS  # noqa: E402
 
-
 def _score_in_range(value: object, label: str) -> list[str]:
     issues: list[str] = []
     if not isinstance(value, (int, float)):
@@ -25,7 +24,6 @@ def _score_in_range(value: object, label: str) -> list[str]:
     if value < 0 or value > 1:
         issues.append(f"{label}: score must be between 0 and 1")
     return issues
-
 
 def validate_disagreement(payload: dict) -> list[str]:
     issues: list[str] = []
@@ -67,7 +65,6 @@ def validate_disagreement(payload: dict) -> list[str]:
 
     return issues
 
-
 def run_check(*, path: Path | None = None) -> int:
     target = path or DEFAULT_PATH
     if not target.is_file():
@@ -92,10 +89,8 @@ def run_check(*, path: Path | None = None) -> int:
     print("[ok] prediction disagreement valid")
     return 0
 
-
 def main() -> int:
     return run_check()
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

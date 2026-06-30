@@ -1,6 +1,5 @@
 # Russia Lane Spine And Support Ring
 
-WORK only; not Record.
 
 Purpose: name the Russia lane's actual main route and distinguish it from the strengthening surfaces that deepen the route without replacing it.
 

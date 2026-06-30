@@ -1,6 +1,5 @@
 # Speaker Arc vs Comparative Note
 
-WORK only; not Record.
 
 This note gives the operational rule for when to write a **speaker arc** and when to write a **comparative note** above it.
 

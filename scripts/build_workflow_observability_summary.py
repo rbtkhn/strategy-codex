@@ -15,7 +15,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
-
 def _load(path: Path) -> dict | None:
     if not path.is_file():
         return None
@@ -23,7 +22,6 @@ def _load(path: Path) -> dict | None:
         return json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
         return None
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -83,7 +81,6 @@ def main() -> int:
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(out)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

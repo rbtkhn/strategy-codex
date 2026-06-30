@@ -6,10 +6,10 @@
   },
   "voices": {
     "freeman": {
-      "total": 21,
-      "resolved": 2,
-      "scorable": 2,
-      "correct": 2,
+      "total": 36,
+      "resolved": 5,
+      "scorable": 5,
+      "correct": 5,
       "incorrect": 0,
       "unscored": 0,
       "accuracy": 1.0

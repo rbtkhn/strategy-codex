@@ -18,14 +18,12 @@ try:
 except ImportError:  # pragma: no cover
     yaml = None  # type: ignore[assignment]
 
-
 @dataclass(frozen=True)
 class BudgetEntry:
     path: str
     category: str
     relocation_target: str | None = None
     generator: str | None = None
-
 
 @dataclass(frozen=True)
 class RootFileBudget:
@@ -34,14 +32,12 @@ class RootFileBudget:
     ignore_local: frozenset[str]
     categories: dict[str, str]
 
-
 def _list_root_files() -> list[str]:
     return sorted(
         p.name
         for p in REPO_ROOT.iterdir()
         if p.is_file() and not p.name.startswith(".")
     )
-
 
 def load_budget(manifest_path: Path = DEFAULT_MANIFEST) -> RootFileBudget:
     if yaml is None:
@@ -99,7 +95,6 @@ def load_budget(manifest_path: Path = DEFAULT_MANIFEST) -> RootFileBudget:
         categories={str(k): str(v) for k, v in categories.items()},
     )
 
-
 def evaluate_budget(budget: RootFileBudget) -> tuple[list[str], dict[str, object]]:
     on_disk = [name for name in _list_root_files() if name not in budget.ignore_local]
     allowlisted = {entry.path: entry for entry in budget.entries}
@@ -140,7 +135,6 @@ def evaluate_budget(budget: RootFileBudget) -> tuple[list[str], dict[str, object
     }
     return issues, report
 
-
 def format_human(report: dict[str, object]) -> str:
     lines = [
         "# Root file budget",
@@ -166,7 +160,6 @@ def format_human(report: dict[str, object]) -> str:
             lines.append(f"- {path}")
         lines.append("")
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -205,7 +198,6 @@ def main() -> int:
 
     print("ok: root file budget within limits")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,7 +1,6 @@
 # Strategy-codex template - raw-input
 <!-- word_count: canonical scaffold -->
 
-WORK only; not Record.
 
 **Purpose:** Canonical raw-input template for strategy-codex. This file owns the literal capture scaffold below codex-pages, strategy-pages, chapters, and books.
 

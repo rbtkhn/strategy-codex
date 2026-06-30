@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Coercion failure and bargaining leverage
 

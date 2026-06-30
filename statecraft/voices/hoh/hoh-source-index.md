@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Hoh Source Index (compat redirect)
 

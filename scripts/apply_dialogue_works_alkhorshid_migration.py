@@ -20,14 +20,13 @@ from statecraft_day_archive import parse_frontmatter, read_text  # noqa: E402
 
 FRONTMATTER_RE = re.compile(r"\A---\n.*?\n---\n", re.DOTALL)
 
-
 def compute_target_path(src: Path, target_prefix: str, class_: str) -> Path:
     name = src.name
     if target_prefix == "source-daniel-davis-alkorshid":
         day = src.parent.name
         stem = re.sub(r"^source-(?:dialogue-works|alkorshid|nima-alkorshid)-", "", name)
         stem = re.sub(r"-\d{4}-\d{2}-\d{2}\.md$", "", stem)
-        if "alkorshid" not in stem.lower() and "nima" not in stem.lower():
+        if "alkhorshid" not in stem.lower() and "nima" not in stem.lower():
             stem = f"alkorshid-{stem}"
         return src.parent / f"source-daniel-davis-alkorshid-{stem}-{day}.md"
     if name.startswith("source-dialogue-works-"):
@@ -39,7 +38,6 @@ def compute_target_path(src: Path, target_prefix: str, class_: str) -> Path:
         rest = name[len("source-alkorshid-") :]
         return src.parent / f"source-dialogue-works-{rest}"
     return src
-
 
 def patch_threads_block(text: str, guest_thread: str | None, class_: str) -> str:
     fm_match = FRONTMATTER_RE.match(text)
@@ -96,13 +94,13 @@ def patch_threads_block(text: str, guest_thread: str | None, class_: str) -> str
             out.append("host: Daniel Davis")
             continue
         if line.startswith("guest:") and class_ == "davis-guest":
-            out.append("guest: Nima Alkorshid")
+            out.append("guest: Nima Alkhorshid")
             continue
         if line.startswith("channel_slug:") and class_ == "davis-guest":
             out.append("channel_slug: daniel-davis")
             continue
         if line.startswith("host:") and class_ in ("dw-host", "dw-solo"):
-            out.append("host: Nima Alkorshid")
+            out.append("host: Nima Alkhorshid")
             continue
         out.append(line)
 
@@ -112,7 +110,6 @@ def patch_threads_block(text: str, guest_thread: str | None, class_: str) -> str
             new_fm += "\n"
     return new_fm + body
 
-
 def guest_thread_from_meta(meta: dict[str, Any]) -> str | None:
     t = meta.get("thread")
     if t and str(t) != "nima":
@@ -120,10 +117,9 @@ def guest_thread_from_meta(meta: dict[str, Any]) -> str | None:
     threads = meta.get("threads")
     if isinstance(threads, list):
         for v in threads:
-            if str(v) not in ("nima", "alkorshid", ""):
+            if str(v) not in ("nima", "alkhorshid", ""):
                 return str(v)
     return None
-
 
 def git_mv(src: Path, dst: Path, dry_run: bool) -> None:
     if src == dst:
@@ -134,7 +130,6 @@ def git_mv(src: Path, dst: Path, dry_run: bool) -> None:
         print("DRY", " ".join(cmd))
         return
     subprocess.run(cmd, cwd=REPO_ROOT, check=True)
-
 
 def apply_row(row: dict[str, str], dry_run: bool) -> bool:
     if row.get("needs_rename", "").lower() not in ("true", "1", "yes"):
@@ -161,7 +156,6 @@ def apply_row(row: dict[str, str], dry_run: bool) -> bool:
     target.write_text(new_text, encoding="utf-8")
     return True
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -185,7 +179,6 @@ def main() -> int:
             n += 1
     print(f"Applied {n} renames/patches (batch size {len(batch)})")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

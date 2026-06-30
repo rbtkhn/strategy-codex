@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Alexander Mercouris` (1), `John J. Mearsheimer` (1), `Judish Raj` (1), `Nima Alkhorshid` (1), `Trita Parsi` (1)
 - Guests: `Scott Ritter` (2), `Alastair Crooke` (1), `Russia Iran Fleets Conduct Hormuz Exercise Trump Delays Strike` (1)
-- Threads: `ritter` (2), `alkorshid` (1), `crooke` (1), `india-global-left` (1), `mearsheimer` (1), `mercouris` (1), `parsi` (1)
+- Threads: `ritter` (2), `alkhorshid` (1), `crooke` (1), `india-global-left` (1), `mearsheimer` (1), `mercouris` (1), `parsi` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Alexander Mercouris | `mercouris` | [watch](https://www.youtube.com/watch?v=jjrtybAxnc4) | `source-alexander-mercouris-russia-iran-fleets-conduct-hormuz-exercise-trump-delays-strike-moscow-sa-2026-02-20.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `crooke` | [watch](https://www.youtube.com/watch?v=rSvsMr-wnq0) | `source-dialogue-works-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `crooke` | [watch](https://www.youtube.com/watch?v=rSvsMr-wnq0) | `source-dialogue-works-crooke-trumps-final-gamble-iran-dares-to-strike-back-2026-02-20.md` |
 | `india-global-left` | India and Global Left | `ritter`, `india-global-left` | [6ZagJb5RwMA](https://www.youtube.com/watch?v=6ZagJb5RwMA) | `source-india-global-left-us-foreign-policy-cia-venezuela-iran-ukraine-scott-ritter-2026-02-20.md` |
 
 ## Writer sources

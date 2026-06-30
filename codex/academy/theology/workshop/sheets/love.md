@@ -1,6 +1,5 @@
 # Love
 
-WORK only; not Record.
 
 ## Purpose
 

@@ -35,7 +35,6 @@ from prediction_lib import collect_prediction_notes, render_json  # noqa: E402
 
 AUTO_FILE_RE = re.compile(r"^auto_file:\s*true\s*$", re.M)
 
-
 def load_gold_labels(*, event_id: str, manual_only: bool = True) -> dict[str, Any]:
     gold_sources: set[str] = set()
     gold_dates: dict[str, str] = {}
@@ -67,7 +66,6 @@ def load_gold_labels(*, event_id: str, manual_only: bool = True) -> dict[str, An
         "notes": sorted(notes_meta, key=lambda n: n["date_made"]),
     }
 
-
 def score_all_captures(*, event_id: str, auto_cfg: dict[str, Any]) -> list[ScoredCandidate]:
     thesis = load_thesis_map()
     register_index = build_register_index(thesis, auto_cfg)
@@ -96,7 +94,6 @@ def score_all_captures(*, event_id: str, auto_cfg: dict[str, Any]) -> list[Score
             scored.append(row)
     return scored
 
-
 def filing_predictions(candidates: list[ScoredCandidate]) -> dict[str, ScoredCandidate]:
     grouped: dict[tuple, list[ScoredCandidate]] = {}
     for candidate in candidates:
@@ -106,7 +103,6 @@ def filing_predictions(candidates: list[ScoredCandidate]) -> dict[str, ScoredCan
         out[pub_date] = pick_group_winner(group)
     return out
 
-
 def prf(*, hits: int, predicted: int, gold: int) -> dict[str, float | None]:
     precision = hits / predicted if predicted else None
     recall = hits / gold if gold else None
@@ -114,7 +110,6 @@ def prf(*, hits: int, predicted: int, gold: int) -> dict[str, float | None]:
     if precision is not None and recall is not None and (precision + recall) > 0:
         f1 = 2 * precision * recall / (precision + recall)
     return {"precision": precision, "recall": recall, "f1": f1, "hits": hits, "predicted": predicted, "gold": gold}
-
 
 def calibrate_event(*, event_id: str, manual_only: bool = True) -> dict[str, Any]:
     auto_cfg = load_auto_file_config()
@@ -212,7 +207,6 @@ def calibrate_event(*, event_id: str, manual_only: bool = True) -> dict[str, Any
         "false_positives_filing": false_positive_filings,
     }
 
-
 def calibrate_all_events(*, manual_only: bool = True) -> dict[str, Any]:
     reports: dict[str, Any] = {}
     for event_id in FREEMAN_PILOT_EVENT_ORDER:
@@ -226,7 +220,6 @@ def calibrate_all_events(*, manual_only: bool = True) -> dict[str, Any]:
         },
         "events": reports,
     }
-
 
 def print_report(report: dict[str, Any]) -> None:
     event_id = report["_meta"]["event_id"]
@@ -292,7 +285,6 @@ def print_report(report: dict[str, Any]) -> None:
     else:
         print("\nFalse positive filing dates: none")
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -352,7 +344,6 @@ def main() -> int:
     if not args.quiet:
         print(f"\n[ok] wrote {args.output.relative_to(REPO_ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

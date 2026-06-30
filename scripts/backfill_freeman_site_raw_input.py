@@ -3,7 +3,6 @@
 
 Thin wrapper around ``backfill_author_page_raw_input.py`` with Freeman defaults.
 Treat the public site as a discovery index, not a completeness mandate.
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -23,7 +22,6 @@ DEFAULT_AUTHOR_URL = "https://chasfreeman.net/"
 DEFAULT_DOMAIN = "chasfreeman.net"
 DEFAULT_PUBLICATION = "chasfreeman.net"
 DEFAULT_THREAD = "freeman"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -54,7 +52,6 @@ def main() -> int:
         apply=args.apply,
         limit=max(1, min(args.limit, 100)),
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

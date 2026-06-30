@@ -32,11 +32,9 @@ VOICE_PRIMARY = {
 TITLE_TRUNC = 80
 FILENAME_LINK_THRESHOLD = 50
 
-
 def load_roster() -> dict[str, dict]:
     data = json.loads(INDEX_JSON.read_text(encoding="utf-8"))
     return {ch["slug"]: ch for ch in data["channels"]}
-
 
 def title_from_meta(path: Path) -> str:
     text = path.read_text(encoding="utf-8")[:1200]
@@ -46,10 +44,8 @@ def title_from_meta(path: Path) -> str:
         return t[:TITLE_TRUNC] + ("…" if len(t) > TITLE_TRUNC else "")
     return path.stem
 
-
 def rel_link(day: str, name: str) -> str:
     return f"../../../source-archive/statecraft/{day}/{name}"
-
 
 def collect_by_slug(root: Path) -> dict[str, list[tuple[str, str, str]]]:
     canonical_map = load_index_slug_canonical()
@@ -69,10 +65,8 @@ def collect_by_slug(root: Path) -> dict[str, list[tuple[str, str, str]]]:
         grouped[slug].sort(key=lambda row: (row[0], row[1]))
     return grouped
 
-
 def month_key(day: str) -> str:
     return day[:7]
-
 
 def build_index_body(slug: str, ch: dict, rows: list[tuple[str, str, str]]) -> str:
     label = ch["label"]
@@ -94,8 +88,7 @@ This channel index lists **host-channel captures** (`channel_slug: {slug}`). Mec
         by_month[month_key(row[0])].append(row)
 
     lines = [
-        "WORK only; not Record.",
-        "",
+                "",
         f"# {label} Index",
         "",
         f"Purpose: route map for materialized **{label}** captures on disk (`channel_slug: {slug}`).",
@@ -130,7 +123,6 @@ This channel index lists **host-channel captures** (`channel_slug: {slug}`). Mec
     )
     return "\n".join(lines)
 
-
 def patch_open_first(path: Path, slug: str, label: str) -> bool:
     if not path.is_file():
         return False
@@ -151,7 +143,6 @@ def patch_open_first(path: Path, slug: str, label: str) -> bool:
         return False
     path.write_text(new, encoding="utf-8", newline="\n")
     return True
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -185,7 +176,6 @@ def main() -> int:
         written += 1
     print(f"done written={written}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

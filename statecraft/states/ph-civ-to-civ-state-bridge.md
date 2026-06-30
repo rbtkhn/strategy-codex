@@ -1,6 +1,5 @@
 # PH-CIV to CIV-STATE Bridge
 
-WORK only; not Record.
 
 This note explains the method link between `ph-civ` and `civ-state`.
 

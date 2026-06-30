@@ -7,9 +7,8 @@ stance: yes
 confidence: medium
 source: source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md
 speech_act: initial
+status: resolved
 ---
-
-WORK only; not Record.
 
 # Freeman — Gaza hostage deal (2025-01-14)
 

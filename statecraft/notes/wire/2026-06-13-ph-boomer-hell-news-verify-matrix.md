@@ -10,7 +10,6 @@ archive_links:
   - source-archive/statecraft/2026-06-13/source-predictive-history-welcome-to-boomer-hell-2026-06-13.md
   - source-archive/statecraft/2026-05-23/source-predictive-history-the-loneliness-of-mad-king-trump-2026-05-23.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — PH *Boomer Hell* (2026-06-13)
 

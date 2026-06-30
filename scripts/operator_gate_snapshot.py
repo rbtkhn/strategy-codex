@@ -21,7 +21,6 @@ except ImportError:
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _last_act_date(user_id: str) -> str | None:
     """Return the most recent ACT-* date from EVIDENCE Activity Log, or None."""
     root = REPO_ROOT / "platform/users" / user_id
@@ -36,7 +35,6 @@ def _last_act_date(user_id: str) -> str | None:
     for m in re.finditer(r"id: ACT-\d+\s*\n\s*date:\s*(\d{4}-\d{2}-\d{2})", text):
         dates.append(m.group(1))
     return max(dates) if dates else None
-
 
 def build_snapshot(
     user_id: str = "grace-mar",
@@ -71,7 +69,6 @@ def build_snapshot(
     lines.append("")
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Quick snapshot of RECURSION-GATE: pending count and last N candidates."
@@ -94,7 +91,6 @@ def main() -> int:
     territory = normalize_territory_cli(args.territory)
     print(build_snapshot(user_id=args.user, territory=territory, last_n=args.last))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

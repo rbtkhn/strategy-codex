@@ -1,6 +1,5 @@
 # Iran Authority Structure
 
-WORK only; not Record.
 
 Refresh current officeholder facts before load-bearing use.
 

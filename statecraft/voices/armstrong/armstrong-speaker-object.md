@@ -1,6 +1,5 @@
 # Armstrong speaker object
 
-WORK only; not Record.
 
 object_shape: single-helix
 

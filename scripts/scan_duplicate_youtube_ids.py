@@ -14,14 +14,12 @@ FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.S)
 YT_RE = re.compile(r"(?:youtube\.com/watch\?v=|youtu\.be/)([A-Za-z0-9_-]{11})")
 STUB_BYTES = 400
 
-
 def parse_scalar(block: str, key: str) -> str | None:
     m = re.search(rf"^{re.escape(key)}:\s*(.+)$", block, re.M)
     if not m:
         return None
     val = m.group(1).strip().strip('"').strip("'")
     return val or None
-
 
 def youtube_id_from_block(block: str) -> str | None:
     yt = parse_scalar(block, "youtube_id")
@@ -36,12 +34,10 @@ def youtube_id_from_block(block: str) -> str | None:
             return m.group(1)
     return None
 
-
 def body_byte_len(text: str) -> int:
     m = FRONTMATTER_RE.match(text)
     body = text[m.end() :] if m else text
     return len(body.strip())
-
 
 def collect(root: Path) -> dict[str, list[dict]]:
     by_id: dict[str, list[dict]] = defaultdict(list)
@@ -66,7 +62,6 @@ def collect(root: Path) -> dict[str, list[dict]]:
             }
         )
     return by_id
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -102,7 +97,6 @@ def main() -> int:
         print()
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

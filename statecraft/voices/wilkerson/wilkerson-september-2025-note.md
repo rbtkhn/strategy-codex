@@ -1,6 +1,5 @@
 # Wilkerson September 2025 note
 
-WORK only; not Record.
 
 Purpose: preserve what September 2025 currently means on the Wilkerson shelf now that the month reads less like a blank post-August drop-off and more like a genuinely under-materialized but recoverable corridor.
 

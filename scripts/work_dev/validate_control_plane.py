@@ -32,11 +32,9 @@ FILES = (
     ("proof_ledger.yaml", "proof_ledger.schema.json", "entries"),
 )
 
-
 def _skip_path_check(p: str) -> bool:
     s = p.replace("\\", "/")
     return "[" in s or "*" in s
-
 
 def path_exists(repo_root: Path, rel: str) -> bool:
     rel = rel.replace("\\", "/")
@@ -44,7 +42,6 @@ def path_exists(repo_root: Path, rel: str) -> bool:
         return True
     p = repo_root / rel
     return p.is_file() or p.is_dir()
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Validate work-dev control plane YAML.")
@@ -130,7 +127,6 @@ def main() -> int:
         return 1
     print("validate_control_plane: OK")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

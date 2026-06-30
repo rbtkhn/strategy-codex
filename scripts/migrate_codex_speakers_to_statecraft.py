@@ -2,7 +2,7 @@ from repo_io import SKILLS_DIR
 #!/usr/bin/env python3
 """Migrate codex/speakers/ into statecraft/voices/ and statecraft/channels/.
 
-WORK only. Emits a JSON receipt for link rewrite. Use --plan before --apply.
+non-authoritative. Emits a JSON receipt for link rewrite. Use --plan before --apply.
 """
 
 from __future__ import annotations
@@ -35,13 +35,10 @@ ROOT_FILES = (
 
 VOICE_README_STUB = """# {title}
 
-WORK only; not Record.
-
 Promoted from legacy `codex/speakers/{slug}/` during statecraft voices migration.
 
 Open [statecraft/voices/voice-index.md](../voice-index.md) for live routing.
 """
-
 
 @dataclass
 class MigrationEntry:
@@ -49,16 +46,13 @@ class MigrationEntry:
     dest: str
     action: str  # moved | skipped_duplicate | skipped_empty | deleted_stub
 
-
 def dest_root_for_slug(slug: str) -> Path:
     if slug in HOST_SLUGS:
         return HOSTS / slug
     return VOICES / slug
 
-
 def rel(path: Path) -> str:
     return path.relative_to(REPO_ROOT).as_posix()
-
 
 def plan_migrations() -> list[MigrationEntry]:
     entries: list[MigrationEntry] = []
@@ -105,7 +99,6 @@ def plan_migrations() -> list[MigrationEntry]:
 
     return entries
 
-
 def _entry(src: Path, dest: Path) -> MigrationEntry:
     if not dest.exists():
         return MigrationEntry(rel(src), rel(dest), "moved")
@@ -116,7 +109,6 @@ def _entry(src: Path, dest: Path) -> MigrationEntry:
         pass
     # Dest exists with different body — keep statecraft SSOT; map for link rewrite only.
     return MigrationEntry(rel(src), rel(dest), "skipped_duplicate")
-
 
 def ensure_voice_readme(slug: str, apply: bool) -> None:
     if slug in HOST_SLUGS or slug in SKIP_DIRS:
@@ -133,7 +125,6 @@ def ensure_voice_readme(slug: str, apply: bool) -> None:
             encoding="utf-8",
             newline="\n",
         )
-
 
 def apply_migrations(entries: list[MigrationEntry], use_git_mv: bool) -> None:
     RECEIPT_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -170,7 +161,6 @@ def apply_migrations(entries: list[MigrationEntry], use_git_mv: bool) -> None:
     for slug in slugs_touched:
         ensure_voice_readme(slug, apply=True)
 
-
 def write_receipt(entries: list[MigrationEntry]) -> None:
     RECEIPT_PATH.parent.mkdir(parents=True, exist_ok=True)
     payload = {
@@ -183,7 +173,6 @@ def write_receipt(entries: list[MigrationEntry]) -> None:
     for e in entries:
         payload["counts"][e.action] = payload["counts"].get(e.action, 0) + 1
     RECEIPT_PATH.write_text(json.dumps(payload, indent=2), encoding="utf-8")
-
 
 def rewrite_links(receipt_path: Path) -> int:
     data = json.loads(receipt_path.read_text(encoding="utf-8"))
@@ -288,12 +277,10 @@ def rewrite_links(receipt_path: Path) -> int:
                 changed += 1
     return changed
 
-
 def remove_codex_speakers_tree() -> None:
     if not CODEX_SPEAKERS.exists():
         return
     shutil.rmtree(CODEX_SPEAKERS)
-
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -333,7 +320,6 @@ def main(argv: list[str] | None = None) -> int:
         print("deleted codex/speakers/")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

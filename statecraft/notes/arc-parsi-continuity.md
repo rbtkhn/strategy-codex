@@ -21,7 +21,6 @@ archive_links:
 
 # Parsi arc
 
-WORK only; not Record.
 
 Purpose: define `arc-parsi-continuity` as the canonical person-level continuity surface for Trita Parsi across authored and interview contexts, hosts, and time.
 

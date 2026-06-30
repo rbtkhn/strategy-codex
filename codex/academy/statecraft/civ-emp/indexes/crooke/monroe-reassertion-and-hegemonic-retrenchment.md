@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Monroe Reassertion And Hegemonic Retrenchment
 

@@ -51,7 +51,6 @@ SPEC = {
     ),
 }
 
-
 def check_spec(path: Path, spec: dict) -> bool:
     doc = path.read_text(encoding="utf-8")
     _, _, body = split_transcript_document(doc)
@@ -71,7 +70,6 @@ def check_spec(path: Path, spec: dict) -> bool:
         print(f"  note: {spec['note']}")
     print()
     return ok
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -107,7 +105,6 @@ def main() -> int:
     write_sectioned_capture(path, SPEC["titles"], SPEC["anchors"])
     print(f"sectioned {REL}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

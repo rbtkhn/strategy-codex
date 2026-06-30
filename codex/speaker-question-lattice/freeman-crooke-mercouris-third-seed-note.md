@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Freeman, Crooke, And Mercouris Third-Seed Note
 

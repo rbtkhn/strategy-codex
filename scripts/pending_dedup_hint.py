@@ -23,22 +23,18 @@ if str(REPO_ROOT / "scripts") not in sys.path:
 
 from repo_io import DEFAULT_PROFILE_ID, profile_dir
 
-
 def _read(path: Path) -> str:
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
 
-
 def _words(s: str) -> set[str]:
     return {w.lower() for w in re.findall(r"[a-zA-Z][a-zA-Z0-9_-]{2,}", s)}
-
 
 def _jaccard(a: set[str], b: set[str]) -> float:
     if not a or not b:
         return 0.0
     return len(a & b) / len(a | b)
-
 
 def _extract_pending(pr: str) -> list[dict]:
     out: list[dict] = []
@@ -53,7 +49,6 @@ def _extract_pending(pr: str) -> list[dict]:
         target = (pt.group(1) if pt else "").strip()[:120]
         out.append({"id": m.group(1), "summary": summary, "profile_target": target, "words": _words(summary)})
     return out
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Pending candidate dedup hints (read-only)")
@@ -104,7 +99,6 @@ def main() -> int:
         print()
     print("_Operator: merge one, reject duplicate, or keep both if intentionally distinct._")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -1,6 +1,5 @@
 # yt-dlp effectiveness layers
 
-WORK only; not Record.
 
 This note separates three different questions that are often blurred together after a YouTube ingest:
 

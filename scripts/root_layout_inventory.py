@@ -18,10 +18,8 @@ from repo_io import REPO_PATH_MIGRATIONS, TARGET_ROOT_FOLDERS  # noqa: E402
 SCAN_ROOTS = ("scripts", "tests", "docs", ".github", ".cursor", "platform/apps", "platform")
 SKIP_PARTS = {".git", ".venv", "node_modules", "public", "source-archive", "statecraft", "singularity"}
 
-
 def list_root_dirs() -> list[str]:
     return sorted(p.name for p in REPO_ROOT.iterdir() if p.is_dir())
-
 
 def count_hits(legacy_segment: str) -> int:
     pattern = re.compile(re.escape(legacy_segment))
@@ -43,7 +41,6 @@ def count_hits(legacy_segment: str) -> int:
                 continue
             total += len(pattern.findall(text))
     return total
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Root layout inventory")
@@ -78,7 +75,6 @@ def main() -> int:
                 if hits:
                     print(f"- {leg}: {hits} hits -> {canonical}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

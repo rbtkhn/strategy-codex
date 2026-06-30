@@ -1,5 +1,4 @@
 ﻿# Rome Primary Sources - Industrial
-WORK only; not Record.
 This file contains the Industrial primary-source shelf for the Rome CIV-STATE volume through the 1991 endpoint.
 ## Primary Sources
 ### Industrial

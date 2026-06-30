@@ -1,6 +1,5 @@
 # arc-postol-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [postol-arc.md](postol-arc.md)
 

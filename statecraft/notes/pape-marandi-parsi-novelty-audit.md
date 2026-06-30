@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-24/source-dialogue-works-seyed-m-marandi-israel-hits-iran-energy-sites-iran-s-next-move-israel-s-2026-03-24.md
   - source-archive/statecraft/2026-04-14/source-parsi-why-the-iran-ceasefire-may-have-shifted-the-dynamics-back-in-trumps-favor-2026-04-14.md
 ---
-WORK only; not Record.
 
 # Pape / Marandi / Parsi Novelty Audit
 

@@ -39,7 +39,6 @@ _EVENT_LINE_RE = re.compile(
     r"- \*\*(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}) UTC\*\* (?:—|â€”|-) (\w+) \(([^)]+)\)"
 )
 
-
 _KV_START_RE = re.compile(r"(\w+)=")
 KNOWN_CONDUCTOR_SLUGS = frozenset(
     {"toscanini", "furtwangler", "karajan", "kleiber", "bernstein"}
@@ -47,7 +46,6 @@ KNOWN_CONDUCTOR_SLUGS = frozenset(
 CONDUCTOR_PICKED_VALUES = frozenset(
     {"conductor", "E", "D", "D1", "D2", "D3", "D4", "D5"}
 )
-
 
 def parse_events(
     user_id: str,
@@ -75,7 +73,6 @@ def parse_events(
         events.append({"dt": dt, "kind": kind, "user": user, "line": line.strip(), "kv": kv})
     return events
 
-
 def _parse_kv_payload(line: str) -> dict[str, str]:
     """Parse space-delimited key=value payloads while preserving spaces inside values."""
     matches = list(_KV_START_RE.finditer(line))
@@ -91,12 +88,10 @@ def _parse_kv_payload(line: str) -> dict[str, str]:
             kv[key] = value
     return kv
 
-
 def _split_csv(value: str | None) -> list[str]:
     if value is None:
         return []
     return [part.strip() for part in str(value).split(",") if part.strip()]
-
 
 def _normalize_conductor_slug(value: str | None) -> str:
     if value is None:
@@ -106,7 +101,6 @@ def _normalize_conductor_slug(value: str | None) -> str:
         slug = slug.split("+", 1)[0].strip()
     return slug
 
-
 def _is_explicit_conductor_pick(event: dict) -> bool:
     if event.get("kind") != "coffee_pick":
         return False
@@ -114,7 +108,6 @@ def _is_explicit_conductor_pick(event: dict) -> bool:
     picked = str(kv.get("picked", "")).strip()
     conductor = _normalize_conductor_slug(kv.get("conductor"))
     return picked in CONDUCTOR_PICKED_VALUES and conductor in KNOWN_CONDUCTOR_SLUGS
-
 
 def _is_legacy_partial_conductor_pick(event: dict) -> bool:
     if event.get("kind") != "coffee_pick":
@@ -125,7 +118,6 @@ def _is_legacy_partial_conductor_pick(event: dict) -> bool:
         return False
     picked = str(kv.get("picked", "")).strip()
     return picked not in CONDUCTOR_PICKED_VALUES
-
 
 def compute_rhythm_summary(
     user_id: str,
@@ -259,7 +251,6 @@ def compute_rhythm_summary(
             "total": tier_total,
         },
     }
-
 
 def compute_conductor_audit(
     user_id: str,
@@ -423,7 +414,6 @@ def compute_conductor_audit(
         },
     }
 
-
 def compute_coffee_recursion_summary(
     user_id: str,
     days: int = 14,
@@ -520,7 +510,6 @@ def compute_coffee_recursion_summary(
         "conductor_continuity": conductor_continuity[-10:],
     }
 
-
 def format_summary(s: dict) -> str:
     lines = [f"Cadence rhythm ({s['user_id']}) â€” last {s['days']} days"]
 
@@ -580,7 +569,6 @@ def format_summary(s: dict) -> str:
 
     return "\n".join(lines)
 
-
 def format_discipline_one_liner(s: dict) -> str:
     """One-line summary for warmup integration."""
     if s["event_count"] == 0:
@@ -589,7 +577,6 @@ def format_discipline_one_liner(s: dict) -> str:
         return f"Cadence discipline ({s['days']}d): HEALTHY"
     issues_str = "; ".join(s["issues"][:3])
     return f"Cadence discipline ({s['days']}d): {issues_str} â€” DRIFT"
-
 
 def format_conductor_audit(summary: dict) -> str:
     lines = [f"5-conductor audit ({summary['user_id']}) - last {summary['days']} days"]
@@ -646,14 +633,12 @@ def format_conductor_audit(summary: dict) -> str:
 
     return "\n".join(lines)
 
-
 def count_gate_pending_substrings(gate_path: Path) -> int:
     """Count `status: pending` occurrences in gate file (companion queue signal)."""
     if not gate_path.is_file():
         return 0
     text = gate_path.read_text(encoding="utf-8", errors="replace")
     return text.count("status: pending")
-
 
 def compute_cadence_pressure_report(
     user_id: str,
@@ -688,7 +673,6 @@ def compute_cadence_pressure_report(
         "pressure_signals": signals,
     }
 
-
 def format_tier_report(s: dict) -> str:
     """Standalone model-tier distribution report."""
     mt = s.get("model_tier", {})
@@ -703,7 +687,6 @@ def format_tier_report(s: dict) -> str:
         bar = "#" * int(pct / 2)
         lines.append(f"  {tier:10s}  {count:4d}  ({pct:5.1f}%)  {bar}")
     return "\n".join(lines)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Cadence rhythm auditor â€” discipline summary.")
@@ -757,7 +740,6 @@ def main() -> int:
         print(format_summary(summary))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

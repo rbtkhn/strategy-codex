@@ -31,7 +31,6 @@ def _load_chunks(user_id: str) -> list[tuple[str, str]]:
     chunks = load_record_chunks()
     return [(c[0], c[1]) for c in chunks]
 
-
 def build_index(user_id: str = "grace-mar", persist_path: Path | None = None) -> int:
     """Build or refresh Chroma collection. Returns number of chunks indexed."""
     try:
@@ -61,7 +60,6 @@ def build_index(user_id: str = "grace-mar", persist_path: Path | None = None) ->
     print(f"Indexed {len(chunks)} chunks to {persist_path}", file=sys.stderr)
     return len(chunks)
 
-
 def main() -> int:
     import argparse
     ap = argparse.ArgumentParser(description="Build ChromaDB index from Record")
@@ -69,7 +67,6 @@ def main() -> int:
     args = ap.parse_args()
     n = build_index(user_id=args.user)
     return 0 if n else 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

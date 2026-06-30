@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Align statecraft/channels/ folders to channel-index.json slugs (WORK only).
+"""Align statecraft/channels/ folders to channel-index.json slugs (non-authoritative).
 
 Renames legacy host folders (davis, napolitano, nima) to archive channel_slug names,
 creates README + index stubs for missing roster channels, rewrites path strings.
@@ -49,11 +49,9 @@ VOICE_PRIMARY = {
     "glenn-diesen": ("diesen", "Glenn Diesen channel — whole-analyst SSOT lives under `statecraft/voices/diesen/`."),
 }
 
-
 def load_channels() -> list[dict]:
     data = json.loads(INDEX_JSON.read_text(encoding="utf-8"))
     return list(data["channels"])
-
 
 def rename_folders() -> None:
     for old, new in RENAME_MAP.items():
@@ -62,7 +60,6 @@ def rename_folders() -> None:
         if src.is_dir() and not dst.exists():
             src.rename(dst)
             print(f"renamed {old} -> {new}")
-
 
 def stub_readme(slug: str, label: str, channel_url: str, file_count: int, watchlist: bool) -> str:
     voice_note = ""
@@ -75,7 +72,7 @@ Whole-analyst continuity: [`statecraft/voices/{voice_slug}/`](../../voices/{voic
 
 {note}
 """
-    return f"""WORK only; not Record.
+    return f"""
 
 # {label}
 
@@ -104,9 +101,8 @@ Open this shelf when the job is **host-conditioned guest transformation** on **{
 Host-law and routing only. Guest mechanism depth lives on **`statecraft/voices/<guest>/`**, not here.
 """
 
-
 def stub_index(slug: str, label: str) -> str:
-    return f"""WORK only; not Record.
+    return f"""
 
 # {label} Index
 
@@ -124,7 +120,6 @@ Route here when capture frontmatter has **`channel_slug: {slug}`** (or equivalen
 
 Index = routing + archive anchors. Guest arcs live as flat shelf files when repeated host×guest continuity justifies them.
 """
-
 
 def create_stubs(roster: list[dict]) -> None:
     existing = {p.name for p in CHANNELS.iterdir() if p.is_dir()}
@@ -152,7 +147,6 @@ def create_stubs(roster: list[dict]) -> None:
         )
         print(f"created stub {slug}/")
 
-
 def rewrite_paths() -> int:
     changed = 0
     for path in REPO.rglob("*"):
@@ -177,7 +171,6 @@ def rewrite_paths() -> int:
             changed += 1
     return changed
 
-
 def patch_state_set() -> None:
     manifest = CHANNELS / "daniel-davis" / "state-set.toml"
     if not manifest.exists():
@@ -186,7 +179,6 @@ def patch_state_set() -> None:
     text = text.replace('slug = "davis"', 'slug = "daniel-davis"')
     text = text.replace("statecraft/channels/davis/", "statecraft/channels/daniel-davis/")
     manifest.write_text(text, encoding="utf-8", newline="\n")
-
 
 def main() -> int:
     if not INDEX_JSON.is_file():
@@ -209,7 +201,6 @@ def main() -> int:
         print(f"note: extra folders (not in main index): {sorted(extra)}")
     print(f"channels folders: {len(slugs)} (index main roster: {len(expected)})")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

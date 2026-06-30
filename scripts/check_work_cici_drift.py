@@ -60,7 +60,6 @@ FAILS: tuple[str, ...] = (
     "work-cici — Xavier",
 )
 
-
 def _skip_due_to_fence(line: str, in_fence: list[bool]) -> bool:
     """Toggle fence on ``` lines; return True if this line is not subject to text checks."""
     stripped = line.lstrip()
@@ -69,10 +68,8 @@ def _skip_due_to_fence(line: str, in_fence: list[bool]) -> bool:
         return True
     return in_fence[0]
 
-
 def _line_has_allow(line: str) -> bool:
     return any(allow in line for allow in ALLOWS)
-
 
 def _check_file(rel: str) -> list[tuple[int, str, str]]:
     path = REPO_ROOT / rel
@@ -94,7 +91,6 @@ def _check_file(rel: str) -> list[tuple[int, str, str]]:
                 break
     return out
 
-
 def main() -> int:
     all_hits: list[tuple[str, int, str]] = []
     for rel in FILES:
@@ -107,7 +103,6 @@ def main() -> int:
     for r, lineno, show in all_hits:
         print(f"{r}:{lineno}: {show}", file=sys.stderr)
     return 1 if all_hits else 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

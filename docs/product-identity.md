@@ -1,6 +1,5 @@
 # Product identity — strategy-codex
 
-**Work only; not Record.**
 
 ## What this repo is
 

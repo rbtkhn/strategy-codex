@@ -68,13 +68,11 @@ EXPORT_CHURN_MARKERS = (
     "month-routing-metadata.json",
 )
 
-
 def _configure_utf8_stdio() -> None:
     for stream in (sys.stdout, sys.stderr):
         reconfigure = getattr(stream, "reconfigure", None)
         if callable(reconfigure):
             reconfigure(encoding="utf-8", errors="replace")
-
 
 def _run_git(*args: str) -> list[str]:
     proc = subprocess.run(
@@ -87,7 +85,6 @@ def _run_git(*args: str) -> list[str]:
     if proc.returncode != 0:
         return [f"git {' '.join(args)} failed: {proc.stderr.strip() or 'unknown error'}"]
     return [line for line in proc.stdout.splitlines() if line.strip()]
-
 
 def _run_git_status_bundle() -> tuple[list[str], list[str], str]:
     """One git invocation: branch tracking line + porcelain short status."""
@@ -103,12 +100,10 @@ def _run_git_status_bundle() -> tuple[list[str], list[str], str]:
     status_sb_lines = [snap.branch_line] if snap.branch_line else []
     return list(snap.status_lines), status_sb_lines, snap.branch_name
 
-
 SINGULARITY_INTAKE_PREFIXES = (
     "source-archive/singularity/moonshots/",
     "singularity/notes/",
 )
-
 
 def _classify_lane_slice(path: str) -> str:
     """Classify a repo path into ship-receipt lane buckets."""
@@ -119,7 +114,6 @@ def _classify_lane_slice(path: str) -> str:
     if path.startswith("singularity/") or path.startswith("source-archive/singularity/"):
         return "singularity"
     return "other"
-
 
 def build_singularity_intake_nudge(status_lines: list[str]) -> list[str]:
     """Surface uncommitted singularity intake paths (archive + promoted notes)."""
@@ -152,7 +146,6 @@ def build_singularity_intake_nudge(status_lines: list[str]) -> list[str]:
     )
     return lines
 
-
 def _parse_ahead_behind(status_sb_lines: list[str]) -> str:
     for line in status_sb_lines:
         if line.startswith("## "):
@@ -164,10 +157,8 @@ def _parse_ahead_behind(status_sb_lines: list[str]) -> str:
             return branch_part
     return "unknown"
 
-
 def _status_path(line: str) -> str:
     return line[3:].strip() if len(line) > 3 else line.strip()
-
 
 def build_ship_receipt(
     *,
@@ -292,7 +283,6 @@ def build_ship_receipt(
 
     return lines
 
-
 def _classify_change(path_line: str) -> tuple[str, str]:
     path = path_line[3:] if len(path_line) > 3 else path_line
     if any(marker in path for marker in RUNTIME_NOISE_MARKERS):
@@ -313,10 +303,9 @@ def _classify_change(path_line: str) -> tuple[str, str]:
         or "generate_wap_weekly_brief.py" in path
     ):
         return "work_politics_lane", path
-    if path.startswith("") or "recursion_gate" in path or path == "archive/grace-mar-instance/bot/prompt.py":
+    if path.startswith("archive/grace-mar-instance/") or "recursion_gate" in path or path == "archive/grace-mar-instance/bot/prompt.py":
         return "record_pipeline", path
     return "repo_misc", path
-
 
 def _gate_detail_lines(recursion_gate_md: str, user_id: str) -> list[str]:
     """Human-readable pending queue + proposed merge steps (read-only; does not merge)."""
@@ -395,14 +384,12 @@ def _gate_detail_lines(recursion_gate_md: str, user_id: str) -> list[str]:
     )
     return lines
 
-
 def _record_frozen() -> bool:
     try:
         from strategy_codex_config import record_frozen
     except ImportError:
         from scripts.strategy_codex_config import record_frozen  # type: ignore
     return record_frozen()
-
 
 def _active_thread(meaningful_changes: list[str], gate_pending: int, politics_blockers: list[dict]) -> tuple[str, str]:
     frozen = _record_frozen()
@@ -462,7 +449,6 @@ def _active_thread(meaningful_changes: list[str], gate_pending: int, politics_bl
         "Start with `python3 scripts/operator_daily_warmup.py` and sort local changes into one active thread.",
     )
 
-
 def build_agent_turn_discipline_lines(*, skip: bool = False, last_turns: int = 30) -> list[str]:
     """Optional scan of latest Cursor agent transcript for parallel tool violations."""
     if skip:
@@ -495,7 +481,6 @@ def build_agent_turn_discipline_lines(*, skip: bool = False, last_turns: int = 3
     report = scan_transcript(path, last_turns=last_turns)
     return format_markdown_lines(report)
 
-
 def build_fast_receipt(user_id: str = "strategy-codex", *, skip_discipline: bool = False) -> str:
     """Ship receipt only — fewer git calls, no lane snapshots."""
     _ = user_id
@@ -512,7 +497,6 @@ def build_fast_receipt(user_id: str = "strategy-codex", *, skip_discipline: bool
         ]
     )
     return "\n".join(lines)
-
 
 def build_handoff_check(
     user_id: str = "strategy-codex", *, fast: bool = False, skip_discipline: bool = False
@@ -631,7 +615,6 @@ def build_handoff_check(
     )
     return "\n".join(lines)
 
-
 def main() -> int:
     _configure_utf8_stdio()
     parser = argparse.ArgumentParser(description="Generate a handoff summary for Grace-Mar.")
@@ -661,7 +644,6 @@ def main() -> int:
         )
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

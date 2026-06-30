@@ -1,6 +1,5 @@
 # Freeman helix
 
-WORK only; not Record.
 
 Purpose: explain how Freeman's four core host lanes and broader source bench belong to one speaker object.
 

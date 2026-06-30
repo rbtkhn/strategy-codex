@@ -38,19 +38,15 @@ _EMPHASIS_KEYS = frozenset(
     }
 )
 
-
 class UnknownOverlayError(KeyError):
     """Overlay name not in overlays.yaml."""
-
 
 class OverlayConfigError(ValueError):
     """Invalid overlays.yaml structure or values."""
 
-
 def overlays_path(repo_root: Path | None = None) -> Path:
     root = repo_root.resolve() if repo_root else REPO_ROOT
     return (root / _OVERLAYS_REL).resolve()
-
 
 def load_overlays(repo_root: Path | None = None) -> dict[str, Any]:
     path = overlays_path(repo_root)
@@ -60,7 +56,6 @@ def load_overlays(repo_root: Path | None = None) -> dict[str, Any]:
     if not isinstance(data, dict):
         raise OverlayConfigError("overlays root must be a mapping")
     return data
-
 
 def get_overlay(name: str, repo_root: Path | None = None) -> dict[str, Any]:
     raw = (name or "").strip().lower()
@@ -74,7 +69,6 @@ def get_overlay(name: str, repo_root: Path | None = None) -> dict[str, Any]:
         raise OverlayConfigError(f"overlay {raw!r} must be a mapping")
     _validate_overlay_block(raw, block)
     return block
-
 
 def _validate_overlay_block(name: str, block: dict[str, Any]) -> None:
     tt = block.get("default_task_type")
@@ -97,7 +91,6 @@ def _validate_overlay_block(name: str, block: dict[str, Any]) -> None:
         if k in _EMPHASIS_KEYS and v is not None and not isinstance(v, bool):
             raise OverlayConfigError(f"overlay {name}: {k} must be a boolean")
 
-
 def emphasis_flags(overlay: dict[str, Any]) -> dict[str, bool]:
     """Return only emphasis keys that are explicitly true (inspectable, compact)."""
     out: dict[str, bool] = {}
@@ -105,7 +98,6 @@ def emphasis_flags(overlay: dict[str, Any]) -> dict[str, bool]:
         if overlay.get(k) is True:
             out[k] = True
     return out
-
 
 def apply_overlay_defaults(
     *,

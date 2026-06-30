@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Daniel Davis` (1), `Nima Alkhorshid` (1)
 - Guests: `Chas Freeman` (1), `John Mearsheimer` (1)
-- Threads: `alkorshid` (1), `davis` (1), `freeman` (1), `mearsheimer` (1)
+- Threads: `alkhorshid` (1), `davis` (1), `freeman` (1), `mearsheimer` (1)
 
 ## Channel sources
 
@@ -33,7 +33,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis`, `mearsheimer` | [watch](https://www.youtube.com/watch?v=Ib-qNLk6JU8) | `source-daniel-davis-john-mearsheimer-russia-iran-a-new-nuclear-alliance-2025-01-17.md` |
-| `dialogue-works` | — | `alkorshid`, `freeman` | [watch](https://www.youtube.com/watch?v=udfXX3QoJeI) | `source-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md` |
+| `dialogue-works` | — | `alkhorshid`, `freeman` | [watch](https://www.youtube.com/watch?v=udfXX3QoJeI) | `source-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md` |
 
 ## Writer sources
 

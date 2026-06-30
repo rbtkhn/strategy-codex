@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Crooke Source Index (compat redirect)
 

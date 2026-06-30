@@ -11,7 +11,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import List
 
-
 SYNC_PACK_FILES = [
     "README.md",
     "ENABLE-SYNC-PACK.md",
@@ -21,13 +20,11 @@ SYNC_PACK_FILES = [
     "INITIAL-GOOD-MORNING.md",
 ]
 
-
 def _read_json(path: Path) -> dict:
     try:
         return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         return {}
-
 
 def _repo_commit(repo_path: Path) -> str:
     result = subprocess.run(
@@ -37,7 +34,6 @@ def _repo_commit(repo_path: Path) -> str:
         check=False,
     )
     return result.stdout.strip() if result.returncode == 0 else ""
-
 
 def _template_source_base() -> dict:
     return {
@@ -59,7 +55,6 @@ def _template_source_base() -> dict:
         ),
         "auxiliarySyncEvents": [],
     }
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Upgrade grace-mar sync-pack from companion-self.")
@@ -122,7 +117,6 @@ def main() -> int:
     for name in changed:
         print(f"- {name}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

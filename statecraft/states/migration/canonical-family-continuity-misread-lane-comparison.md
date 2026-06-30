@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Lane Comparison: Continuity And Self-Misread Architecture
 

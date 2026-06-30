@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Mercouris Shelf - 2025-01
 

@@ -11,22 +11,18 @@ from typing import Any, Dict, List, Tuple
 
 import pandas as pd
 
-
 @dataclass
 class ForecastResult:
     name: str
     values: List[float]
 
-
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
-
 
 def timestamp_for_filename(iso_ts: str) -> str:
     # ISO may end with +00:00; normalize to Z before replacing colons in the time portion.
     s = iso_ts.replace("+00:00", "Z")
     return s.replace(":", "-")
-
 
 def build_receipt(
     *,
@@ -55,7 +51,6 @@ def build_receipt(
         "notes": notes,
     }
 
-
 def write_receipt(receipt: dict[str, Any], receipt_dir: str) -> Path:
     receipt_root = Path(receipt_dir)
     receipt_root.mkdir(parents=True, exist_ok=True)
@@ -68,7 +63,6 @@ def write_receipt(receipt: dict[str, Any], receipt_dir: str) -> Path:
     path = receipt_root / filename
     path.write_text(json.dumps(receipt, indent=2), encoding="utf-8")
     return path
-
 
 def load_series(csv_path: str, time_col: str, value_col: str) -> pd.DataFrame:
     df = pd.read_csv(csv_path)
@@ -89,11 +83,9 @@ def load_series(csv_path: str, time_col: str, value_col: str) -> pd.DataFrame:
 
     return df
 
-
 def last_value_forecast(values: pd.Series, horizon: int) -> ForecastResult:
     last_value = float(values.iloc[-1])
     return ForecastResult(name="last_value", values=[last_value] * horizon)
-
 
 def moving_average_forecast(
     values: pd.Series,
@@ -103,7 +95,6 @@ def moving_average_forecast(
     effective_window = min(window, len(values))
     avg = float(values.tail(effective_window).mean())
     return ForecastResult(name="moving_average", values=[avg] * horizon)
-
 
 def linear_trend_forecast(values: pd.Series, horizon: int) -> ForecastResult:
     y = values.astype(float).tolist()
@@ -126,7 +117,6 @@ def linear_trend_forecast(values: pd.Series, horizon: int) -> ForecastResult:
     forecast = [float(intercept + slope * (n + i)) for i in range(horizon)]
     return ForecastResult(name="linear_trend", values=forecast)
 
-
 def seasonal_naive_forecast(
     values: pd.Series,
     horizon: int,
@@ -141,18 +131,15 @@ def seasonal_naive_forecast(
         forecast.append(float(tail[i % season_length]))
     return ForecastResult(name="seasonal_naive", values=forecast)
 
-
 def mae(actual: List[float], predicted: List[float]) -> float:
     if len(actual) != len(predicted) or not actual:
         return math.nan
     return sum(abs(a - p) for a, p in zip(actual, predicted)) / len(actual)
 
-
 def rmse(actual: List[float], predicted: List[float]) -> float:
     if len(actual) != len(predicted) or not actual:
         return math.nan
     return math.sqrt(sum((a - p) ** 2 for a, p in zip(actual, predicted)) / len(actual))
-
 
 def mape(actual: List[float], predicted: List[float]) -> float:
     if len(actual) != len(predicted) or not actual:
@@ -163,7 +150,6 @@ def mape(actual: List[float], predicted: List[float]) -> float:
         return math.nan
 
     return 100.0 * sum(abs((a - p) / a) for a, p in pairs) / len(pairs)
-
 
 def split_history_holdout(
     df: pd.DataFrame,
@@ -179,7 +165,6 @@ def split_history_holdout(
     history = df.iloc[:-horizon][value_col]
     holdout = df.iloc[-horizon:][value_col].astype(float).tolist()
     return history, holdout
-
 
 def quantile_band_from_point(
     point_forecast: List[float],
@@ -199,7 +184,6 @@ def quantile_band_from_point(
         "0.9": high,
     }
 
-
 def choose_default_method(
     benchmark_rows: List[Dict[str, float]],
     forecasts_by_name: Dict[str, ForecastResult],
@@ -210,7 +194,6 @@ def choose_default_method(
 
     best = min(valid_rows, key=lambda row: row["mae"])
     return forecasts_by_name[best["baseline_name"]]
-
 
 def build_artifact(
     *,
@@ -288,7 +271,6 @@ def build_artifact(
         },
     }
 
-
 def write_markdown_summary(
     summary_path: Path,
     artifact_path: Path,
@@ -336,7 +318,6 @@ def write_markdown_summary(
     summary_path.parent.mkdir(parents=True, exist_ok=True)
     summary_path.write_text("\n".join(lines), encoding="utf-8")
 
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Run baseline forecasts and write a Grace-Mar forecast artifact."
@@ -381,7 +362,6 @@ def parse_args() -> argparse.Namespace:
         help="Directory for forecast receipt JSON files.",
     )
     return parser.parse_args()
-
 
 def main() -> None:
     args = parse_args()
@@ -474,7 +454,6 @@ def main() -> None:
     print(f"Wrote summary:  {summary_path}")
     print(f"Wrote receipt:  {receipt_path}")
     print(f"Selected method: {selected.name}")
-
 
 if __name__ == "__main__":
     main()

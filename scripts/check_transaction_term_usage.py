@@ -125,7 +125,6 @@ ALLOWED_LINE_PHRASES = (
 
 STUB_MARKER = "Deprecated compatibility stub"
 
-
 def _path_allowed(rel: str) -> bool:
     if any(frag in rel for frag in ALLOWED_PATH_FRAGMENTS):
         return True
@@ -133,15 +132,12 @@ def _path_allowed(rel: str) -> bool:
         return False  # still scan stubs for doctrine phrases in body
     return False
 
-
 def _line_allowed(line: str) -> bool:
     lower = line.lower()
     return any(phrase.lower() in lower for phrase in ALLOWED_LINE_PHRASES)
 
-
 def _is_legacy_stub(text: str) -> bool:
     return STUB_MARKER in text
-
 
 def scan_file(path: Path, *, skills_only: bool = False) -> list[str]:
     rel = path.relative_to(REPO_ROOT).as_posix()
@@ -163,7 +159,6 @@ def scan_file(path: Path, *, skills_only: bool = False) -> list[str]:
                 issues.append(f"{rel}:{lineno}: {label}: {line.strip()[:120]}")
     return issues
 
-
 def collect_targets(*, skills_strict: bool) -> list[Path]:
     targets: list[Path] = []
     for rel in TIER1_DOCS:
@@ -176,7 +171,6 @@ def collect_targets(*, skills_strict: bool) -> list[Path]:
             if p.is_file():
                 targets.append(p)
     return sorted(set(targets))
-
 
 def run_check(*, strict: bool, skills_strict: bool) -> int:
     issues: list[str] = []
@@ -199,7 +193,6 @@ def run_check(*, strict: bool, skills_strict: bool) -> int:
     print(f"check_transaction_term_usage: ok ({n} file(s))")
     return 0
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -219,7 +212,6 @@ def main() -> int:
     )
     args = ap.parse_args()
     return run_check(strict=args.strict, skills_strict=args.skills_strict)
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

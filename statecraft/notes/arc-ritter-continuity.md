@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2026-01-03/source-ritter-russia-dark-sage-karaganov-2026-01-03.md
 ---
 
-WORK only; not Record.
 
 # Ritter Arc
 

@@ -75,7 +75,6 @@ EDITORIAL_CLOSE_NOTE = (
     "Routine closing lineup promo trimmed in place; SSOT body otherwise preserved."
 )
 
-
 @dataclass(frozen=True)
 class ClosePromoChange:
     path: Path
@@ -83,13 +82,11 @@ class ClosePromoChange:
     chars_removed: int
     kept_tail: str
 
-
 def append_editorial_note(meta: dict[str, Any], note: str) -> None:
     existing = str(meta.get("editorial_note") or "").strip()
     if note.lower() in existing.lower():
         return
     meta["editorial_note"] = f"{existing} {note}".strip() if existing else note
-
 
 def find_close_promo_cut(full_text: str) -> tuple[int, str] | None:
     """Return (cut_index, anchor_name) or None."""
@@ -114,7 +111,6 @@ def find_close_promo_cut(full_text: str) -> tuple[int, str] | None:
     )
     return best[0], best[1]
 
-
 def trim_close_promo_text(text: str) -> tuple[str, bool, str, int]:
     trimmed_text = text.rstrip()
     found = find_close_promo_cut(trimmed_text)
@@ -128,7 +124,6 @@ def trim_close_promo_text(text: str) -> tuple[str, bool, str, int]:
         new_text += "\n"
     return new_text, True, anchor, len(trimmed_text) - len(new_text)
 
-
 def trim_close_promo_paragraphs(paragraphs: list[str]) -> tuple[list[str], bool, str, int]:
     if not paragraphs:
         return paragraphs, False, "", 0
@@ -137,7 +132,6 @@ def trim_close_promo_paragraphs(paragraphs: list[str]) -> tuple[list[str], bool,
     if not changed:
         return paragraphs, False, "", 0
     return split_paragraphs(new_text), True, anchor, removed
-
 
 def normalize_close_promo(
     path: Path,
@@ -173,7 +167,6 @@ def normalize_close_promo(
     if apply:
         path.write_text(new_text, encoding="utf-8")
     return True, new_text, change
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -213,7 +206,6 @@ def main() -> int:
         print(f"- {rel} anchor={change.anchor} removed={change.chars_removed}c")
         print(f"  kept_tail: ...{change.kept_tail.replace(chr(10), ' ')}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

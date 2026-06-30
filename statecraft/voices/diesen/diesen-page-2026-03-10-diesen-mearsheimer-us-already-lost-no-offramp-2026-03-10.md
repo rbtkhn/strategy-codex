@@ -1,7 +1,6 @@
 # Diesen refined page — 2026-03-10 (host lane)
 <!-- word_count: ~200 -->
 
-WORK only; not Record.
 
 **Expert:** `diesen` · **Guest (same air):** John Mearsheimer · **Published:** 2026-03-10 · Sibling: [mearsheimer-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](mearsheimer/mearsheimer-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md
 

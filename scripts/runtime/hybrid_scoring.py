@@ -15,7 +15,6 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Any
 
-
 # ── stop-words (shared with search_archive/placeholders/evidence) ──────────────────────────
 
 STOP_WORDS = frozenset(
@@ -28,11 +27,9 @@ STOP_WORDS = frozenset(
     "her my your we our what which who whom".split()
 )
 
-
 # ── default weight triple ─────────────────────────────────────────────
 
 DEFAULT_WEIGHTS = (0.80, 0.15, 0.05)  # lexical, semantic, recency
-
 
 # ── result container ──────────────────────────────────────────────────
 
@@ -49,13 +46,11 @@ class HybridResult:
     snippet: str = ""
     meta: dict[str, Any] = field(default_factory=dict)
 
-
 # ── tokeniser ─────────────────────────────────────────────────────────
 
 def tokenize(text: str) -> list[str]:
     tokens = re.findall(r"[a-z0-9]+(?:'[a-z]+)?", text.lower())
     return [t for t in tokens if t not in STOP_WORDS and len(t) > 1]
-
 
 # ── lexical helpers ───────────────────────────────────────────────────
 
@@ -81,7 +76,6 @@ def tfidf_cosine(query_tokens: list[str], doc_tokens: list[str], idf: dict[str, 
         return 0.0
     return dot / (mag_q * mag_d)
 
-
 def build_idf(all_doc_tokens: list[list[str]]) -> dict[str, float]:
     n = len(all_doc_tokens)
     if n == 0:
@@ -91,7 +85,6 @@ def build_idf(all_doc_tokens: list[list[str]]) -> dict[str, float]:
         df.update(set(tokens))
     return {term: math.log((n + 1) / (count + 1)) + 1.0 for term, count in df.items()}
 
-
 def term_overlap_score(query_tokens: list[str], doc_tokens: list[str]) -> float:
     """Simple normalised term overlap (fallback when corpus is too small for TF-IDF)."""
     if not query_tokens:
@@ -99,7 +92,6 @@ def term_overlap_score(query_tokens: list[str], doc_tokens: list[str]) -> float:
     doc_set = set(doc_tokens)
     hits = sum(1 for t in query_tokens if t in doc_set)
     return hits / len(query_tokens)
-
 
 def normalize_scores(scores: list[float]) -> list[float]:
     """Min-max normalise a list of raw scores to 0-1."""
@@ -111,7 +103,6 @@ def normalize_scores(scores: list[float]) -> list[float]:
         return [1.0 if hi > 0 else 0.0 for _ in scores]
     return [(s - lo) / span for s in scores]
 
-
 # ── semantic hook (stub in v1) ────────────────────────────────────────
 
 def semantic_score(query: str, text: str) -> float:
@@ -122,11 +113,9 @@ def semantic_score(query: str, text: str) -> float:
     """
     return 0.0
 
-
 def semantic_available() -> bool:
     """Whether semantic scoring is active (not just stubbed)."""
     return False
-
 
 # ── recency ───────────────────────────────────────────────────────────
 
@@ -150,7 +139,6 @@ def recency_from_iso(ts_str: str | None, *, now: datetime | None = None) -> floa
     week = 7 * 24 * 3600
     return max(0.0, 1.0 - age / week)
 
-
 def recency_from_mtime(mtime: float, *, now: datetime | None = None) -> float:
     """0-1 linear decay over 7 days from a file mtime (epoch seconds)."""
     now = now or datetime.now(timezone.utc)
@@ -159,7 +147,6 @@ def recency_from_mtime(mtime: float, *, now: datetime | None = None) -> float:
         return 1.0
     week = 7 * 24 * 3600
     return max(0.0, 1.0 - age / week)
-
 
 # ── score combination ─────────────────────────────────────────────────
 

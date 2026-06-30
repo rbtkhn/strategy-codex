@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2025-02-04/source-diesen-sachs-differentiating-between-strategy-and-noise-in-trumps-foreign-policy-2025-02-04.md
   - source-archive/statecraft/2026-03-16/source-glenn-diesen-jeffrey-sachs-israel-could-use-nuclear-weapons-against-iran-2026-03-16.md
 ---
-WORK only; not Record.
 
 # Sachs on AI
 

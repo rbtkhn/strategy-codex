@@ -19,7 +19,6 @@ TEST_TARGETS = [
     "tests/test_mercouris_civmem_gauntlet.py",
 ]
 
-
 def _score_lines(stdout: str) -> list[str]:
     markers = ("contract:", "gauntlet:")
     return [
@@ -28,7 +27,6 @@ def _score_lines(stdout: str) -> list[str]:
         if any(marker in line.lower() for marker in markers)
         and any(status in line for status in ("PASS", "WARN", "FAIL"))
     ]
-
 
 def main() -> int:
     cmd = [sys.executable, "-m", "pytest", "-s", *TEST_TARGETS]
@@ -56,7 +54,6 @@ def main() -> int:
         print("\n--- pytest stderr ---", file=sys.stderr)
         print(proc.stderr.rstrip(), file=sys.stderr)
     return proc.returncode
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

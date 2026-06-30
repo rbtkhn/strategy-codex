@@ -28,10 +28,8 @@ NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
 RITTER = NOTEBOOK / "experts" / "ritter"
 MANIFEST_PATH = RITTER / "ritter-pages-manifest.yaml"
 
-
 def _word_count(s: str) -> int:
     return len(re.findall(r"\S+", s))
-
 
 def _split_frontmatter(text: str) -> tuple[dict, str]:
     if not text.startswith("---"):
@@ -44,7 +42,6 @@ def _split_frontmatter(text: str) -> tuple[dict, str]:
     data = yaml.safe_load(parts[1])
     fm = data if isinstance(data, dict) else {}
     return fm, parts[2].lstrip("\n")
-
 
 def _lanes(body: str) -> list[str]:
     b = body.lower()
@@ -65,7 +62,6 @@ def _lanes(body: str) -> list[str]:
         out.append("General strategy / cross-check in woven `days.md`")
     return out
 
-
 def _mode_para(mode: str) -> str:
     if mode == "B":
         return (
@@ -82,7 +78,6 @@ def _mode_para(mode: str) -> str:
         "Format: Substack-style essay. Historical and legal passages reflect Ritter’s read; "
         "verify dates, quotes, and casualty figures against primary or scholarly sources if promoted."
     )
-
 
 def _topic_paragraphs(body: str) -> str:
     b = body.lower()
@@ -104,7 +99,6 @@ def _topic_paragraphs(body: str) -> str:
             "commissions, not WORK pages."
         )
     return "\n\n".join(chunks[:3])
-
 
 def _build_judgment(fm: dict, body: str, mode: str, verbatim_w: int) -> str:
     # ~20% analysis (Reflection + Foresight). Foresight ≈25–35 words → J ≈ 0.25*V − 26 (capped short for brief captures).
@@ -160,7 +154,6 @@ def _build_judgment(fm: dict, body: str, mode: str, verbatim_w: int) -> str:
             text = "\n\n".join(parts)
     return text
 
-
 def _build_open(mode: str) -> str:
     return "\n".join(
         [
@@ -169,7 +162,6 @@ def _build_open(mode: str) -> str:
             f"- **Tier:** Verbatim = expert ({mode}); Reflection/Foresight = WORK.",
         ]
     )
-
 
 def render_page(entry: dict, fm: dict, body: str) -> str:
     vd = entry["voice_date"]
@@ -191,7 +183,7 @@ def render_page(entry: dict, fm: dict, body: str) -> str:
     lines = [
         f"# Ritter strategy page — {vd}{title_suffix}",
         "",
-        "WORK only; not Record.",
+        "",
         "",
         f"**Expert:** `ritter` · **{prem}:** {pdate} · **Capture:** {cap} · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.",
         "",
@@ -225,7 +217,6 @@ def render_page(entry: dict, fm: dict, body: str) -> str:
     ]
     return "\n".join(lines)
 
-
 def _inject_header_word_count(page: str, total_w: int) -> str:
     """Insert **Words:** after Expert preamble, before first `---` / ### Verbatim."""
     marker = "\n\n---\n\n### Verbatim\n"
@@ -234,11 +225,9 @@ def _inject_header_word_count(page: str, total_w: int) -> str:
     replacement = f"\n\n**Words:** {total_w}\n\n" "---\n\n### Verbatim\n"
     return page.replace(marker, replacement, 1)
 
-
 def finalize_page(page: str) -> str:
     """Insert header **Words:** line matching full-file count."""
     return _inject_header_word_count(page, _word_count(page))
-
 
 def main() -> int:
     if yaml is None:
@@ -271,7 +260,6 @@ def main() -> int:
         tw = _word_count(final)
         print(f"Wrote {out.relative_to(REPO_ROOT)} ({vw} verbatim words, {tw} on-page words)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

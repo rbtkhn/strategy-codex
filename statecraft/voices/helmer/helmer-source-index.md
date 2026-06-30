@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Helmer Source Index (compat redirect)
 

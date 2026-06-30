@@ -1,6 +1,5 @@
 # Marandi refined page — 2026-04-21 (Dialogue Works — blockade, Islamabad, and Hormuz status)
 
-WORK only; not Record.
 
 **Expert:** `marandi` · **Published:** 2026-04-21 · **Capture:** operator transcript from Dialogue Works / Nima · **Artifact:** refined page in the Marandi lane. Not a `strategy-page` HTML fence unless duplicated into a month thread during compose.
 

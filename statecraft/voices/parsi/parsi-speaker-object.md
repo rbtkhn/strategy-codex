@@ -1,6 +1,5 @@
 # Parsi speaker object
 
-WORK only; not Record.
 
 Purpose: define the object hierarchy for the canonical Parsi shelf.
 

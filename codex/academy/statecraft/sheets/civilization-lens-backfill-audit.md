@@ -1,6 +1,5 @@
 # Civilization Arc-Lens Backfill Audit
 
-WORK only; not Record.
 
 ## Purpose
 

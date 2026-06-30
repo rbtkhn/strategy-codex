@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Mario Nawfal` (3), `Daniel Davis` (2), `Andrew Napolitano` (1), `Judish Raj` (1), `Nima Alkhorshid` (1), `Pascal Lottaz` (1)
 - Guests: `Anthony Aguilar` (1), `Chas Freeman` (1), `Douglas Macgregor` (1), `Jeffrey Sachs` (1), `Larry Johnson` (1), `Mohammad Marandi` (1), `Nima Alkhorshid` (1), `Robert Pape` (1)
-- Threads: `davis` (2), `aguilar` (1), `alkorshid` (1), `freeman` (1), `johnson` (1), `macgregor` (1), `marandi` (1), `pape` (1), `sachs` (1)
+- Threads: `davis` (2), `aguilar` (1), `alkhorshid` (1), `freeman` (1), `johnson` (1), `macgregor` (1), `marandi` (1), `pape` (1), `sachs` (1)
 
 ## Channel sources
 
@@ -32,7 +32,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 
 | Channel slug | Show | Thread | Source link | File |
 | --- | --- | --- | --- | --- |
-| `daniel-davis` | Dialogue Works | `davis`, `alkorshid` | [4NqmfOYz55w](https://www.youtube.com/watch?v=4NqmfOYz55w) | `source-daniel-davis-alkorshid-iran-war-never-stops-while-israel-attacks-lebanon-nima-alkhorshid-lt-col-daniel-davis-2026-05-29.md` |
+| `daniel-davis` | Dialogue Works | `davis`, `alkhorshid` | [4NqmfOYz55w](https://www.youtube.com/watch?v=4NqmfOYz55w) | `source-daniel-davis-alkorshid-iran-war-never-stops-while-israel-attacks-lebanon-nima-alkhorshid-lt-col-daniel-davis-2026-05-29.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [jcARR_UKX_A](https://www.youtube.com/watch?v=jcARR_UKX_A) | `source-daniel-davis-iran-trump-and-trust-2026-05-29.md` |
 | `dialogue-works` | Dialogue Works | `freeman` | [J91TtI--ANQ](https://www.youtube.com/watch?v=J91TtI--ANQ) | `source-dialogue-works-chas-freeman-hezbollah-strikes-israel-hard-israel-now-prepares-for-war-with-egypt-turkey-2026-05-29.md` |
 | `india-global-left` | India and Global Left | `marandi` | [watch](https://www.youtube.com/watch?v=4yvbGF6vn0I) | `source-india-global-left-is-israel-blocking-trump-from-ending-the-iran-conflict-mohammad-marandi-2026-05-29.md` |

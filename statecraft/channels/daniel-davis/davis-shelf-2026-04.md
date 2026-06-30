@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Davis Shelf 2026 04 (compat redirect)
 

@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-23/source-india-global-left-geo-historical-shift-chas-freeman-2026-03-23.md
   - source-archive/statecraft/2026-05-11/source-india-global-left-four-endgames-iran-war-chas-freeman-2026-05-11.md
 ---
-WORK only; not Record.
 
 # 21 Jun 2025 — Freeman × India Global Left Iran-war push register
 

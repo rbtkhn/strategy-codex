@@ -15,7 +15,6 @@ if str(SCRIPTS) not in sys.path:
 
 from yaml_compat import safe_load_path
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -48,7 +47,6 @@ def main() -> int:
     jsonschema.Draft202012Validator(schema).validate(data)
     print(f"ok: {args.yaml} ({len(data.get('sources', []))} sources)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

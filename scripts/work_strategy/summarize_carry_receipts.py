@@ -24,7 +24,6 @@ DEFAULT_SUBDIRS = {
     "review_packet": "review-packets",
 }
 
-
 @dataclass
 class ArtifactRecord:
     kind: str
@@ -34,13 +33,11 @@ class ArtifactRecord:
     ts: datetime | None
     ts_src: str
 
-
 def safe_repo_rel(path: Path, repo_root: Path) -> str:
     try:
         return path.resolve().relative_to(repo_root.resolve()).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def load_json_files(paths: list[Path]) -> tuple[list[tuple[Path, dict[str, Any]]], list[str]]:
     """Load JSON objects from paths; skip malformed with notes."""
@@ -60,7 +57,6 @@ def load_json_files(paths: list[Path]) -> tuple[list[tuple[Path, dict[str, Any]]
             notes.append(f"{p}: skipped (malformed JSON: {e})")
     return good, notes
 
-
 def parse_created_at(data: dict[str, Any]) -> tuple[datetime | None, str]:
     for key in ("created_at", "generatedAt"):
         val = data.get(key)
@@ -71,7 +67,6 @@ def parse_created_at(data: dict[str, Any]) -> tuple[datetime | None, str]:
             except ValueError:
                 continue
     return None, "missing"
-
 
 def collect_paths_for_kind(
     runtime_root: Path,
@@ -86,7 +81,6 @@ def collect_paths_for_kind(
     if not root.is_dir():
         return []
     return sorted(root.glob("*.json"))
-
 
 def collect_receipt_paths(
     *,
@@ -103,7 +97,6 @@ def collect_receipt_paths(
         "task_shape_report": collect_paths_for_kind(runtime_root, "task_shape_report", task_shape_dir),
         "review_packet": collect_paths_for_kind(runtime_root, "review_packet", review_packet_dir),
     }
-
 
 def build_records(
     path_groups: dict[str, list[Path]],
@@ -133,7 +126,6 @@ def build_records(
             records.append(ArtifactRecord(kind=kind, path=path, rel=rel, data=data, ts=ts, ts_src=ts_src))
     return records
 
-
 def artifact_sort_ts(rec: ArtifactRecord) -> datetime:
     """Comparable datetime for filtering/sorting (never None after normalization)."""
     if rec.ts is not None:
@@ -142,7 +134,6 @@ def artifact_sort_ts(rec: ArtifactRecord) -> datetime:
         return datetime.fromtimestamp(rec.path.stat().st_mtime, tz=timezone.utc)
     except OSError:
         return datetime.min.replace(tzinfo=timezone.utc)
-
 
 def filter_by_window(
     records: list[ArtifactRecord],
@@ -166,7 +157,6 @@ def filter_by_window(
             out.extend(lst_sorted[:last_n])
         return out
     return list(records)
-
 
 def summarize_results_carry(records: list[ArtifactRecord]) -> tuple[int, int, int]:
     """pass/fail/needs_review totals from carry receipt artifacts."""
@@ -194,7 +184,6 @@ def summarize_results_carry(records: list[ArtifactRecord]) -> tuple[int, int, in
             nr += 1
     return p, f, nr
 
-
 def summarize_task_shapes(records: list[ArtifactRecord]) -> dict[str, int]:
     counts: Counter[str] = Counter()
     for r in records:
@@ -207,7 +196,6 @@ def summarize_task_shapes(records: list[ArtifactRecord]) -> dict[str, int]:
         else:
             counts["_unknown"] += 1
     return dict(sorted(counts.items(), key=lambda x: (-x[1], x[0])))
-
 
 def summarize_validation_checks(records: list[ArtifactRecord]) -> tuple[Counter[str], Counter[str]]:
     fail_c: Counter[str] = Counter()
@@ -231,7 +219,6 @@ def summarize_validation_checks(records: list[ArtifactRecord]) -> tuple[Counter[
                 nr_c[vid] += 1
     return fail_c, nr_c
 
-
 def summarize_validation_reports_status(records: list[ArtifactRecord]) -> tuple[int, int, int]:
     p = f = nr = 0
     for r in records:
@@ -246,7 +233,6 @@ def summarize_validation_reports_status(records: list[ArtifactRecord]) -> tuple[
         elif st == "needs_review":
             nr += 1
     return p, f, nr
-
 
 def summarize_review_packets(records: list[ArtifactRecord]) -> tuple[int, int, int]:
     """with_validation, with_task_shape, with_gate_snippet (snippet_present)."""
@@ -265,7 +251,6 @@ def summarize_review_packets(records: list[ArtifactRecord]) -> tuple[int, int, i
         if bool(gp.get("snippet_present")):
             w_gate += 1
     return w_val, w_ts, w_gate
-
 
 def summarize_gate_prep(records: list[ArtifactRecord]) -> tuple[int, int]:
     """snippet_present_count, snippet_non_empty_count across carry receipts + review packets."""
@@ -286,10 +271,8 @@ def summarize_gate_prep(records: list[ArtifactRecord]) -> tuple[int, int]:
                 nonempty += 1
     return present, nonempty
 
-
 def top_checks_ctr(cnt: Counter[str], limit: int = 15) -> list[dict[str, Any]]:
     return [{"id": k, "count": v} for k, v in cnt.most_common(limit)]
-
 
 def summarize_carry_stack(filtered: list[ArtifactRecord]) -> dict[str, Any]:
     p, f, nr = summarize_results_carry(filtered)
@@ -337,7 +320,6 @@ def summarize_carry_stack(filtered: list[ArtifactRecord]) -> dict[str, Any]:
             "snippet_non_empty_count": gp_non,
         },
     }
-
 
 def render_observability_markdown(report: dict[str, Any]) -> str:
     lines: list[str] = []
@@ -425,7 +407,6 @@ def render_observability_markdown(report: dict[str, Any]) -> str:
     lines.append("")
     return "\n".join(lines)
 
-
 def merge_summaries(agg: dict[str, Any]) -> dict[str, Any]:
     """Flatten summarize_carry_stack output for top-level report."""
     return {
@@ -435,7 +416,6 @@ def merge_summaries(agg: dict[str, Any]) -> dict[str, Any]:
         "review_packets": agg["review_packets"],
         "gate_prep": agg["gate_prep"],
     }
-
 
 def build_report(
     *,
@@ -493,7 +473,6 @@ def build_report(
         "notes": notes,
     }
 
-
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Summarize work-strategy carry-stack runtime JSON artifacts.")
     p.add_argument("--repo-root", type=str, default=None, dest="repo_root")
@@ -519,7 +498,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     if args.last_n is not None and args.since:
         p.error("Use either --last N or --since YYYY-MM-DD, not both.")
     return args
-
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
@@ -573,7 +551,6 @@ def main(argv: list[str] | None = None) -> int:
     if args.json:
         print(json.dumps(report, indent=2, ensure_ascii=False))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

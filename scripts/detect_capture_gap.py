@@ -42,7 +42,6 @@ DEFAULT_NOTICE = 7
 DEFAULT_WARNING = 14
 DEFAULT_ALERT = 30
 
-
 def _find_evidence_path(user_id: str) -> Path | None:
     """Auto-detect Evidence file: self-archive.md or self-evidence.md."""
     user_dir = profile_dir(user_id)
@@ -51,7 +50,6 @@ def _find_evidence_path(user_id: str) -> Path | None:
         if p.is_file():
             return p
     return None
-
 
 def _parse_latest_evidence(evidence_path: Path) -> tuple[str | None, str | None]:
     """Extract the latest Evidence entry ID and date from the file.
@@ -80,7 +78,6 @@ def _parse_latest_evidence(evidence_path: Path) -> tuple[str | None, str | None]
 
     return last_id, last_date
 
-
 def _parse_last_merge(user_id: str) -> str | None:
     """Find the most recent 'applied' event date in pipeline-events.jsonl."""
     events_path = profile_dir(user_id) / "pipeline-events.jsonl"
@@ -105,7 +102,6 @@ def _parse_last_merge(user_id: str) -> str | None:
 
     return last_date
 
-
 def _pending_count(user_id: str) -> int:
     """Count pending candidates in recursion-gate.md."""
     gate_path = profile_dir(user_id) / "recursion-gate.md"
@@ -115,7 +111,6 @@ def _pending_count(user_id: str) -> int:
     processed_match = re.search(r"^## Processed\s*$", content, re.MULTILINE)
     candidates_section = content[:processed_match.start()] if processed_match else content
     return len(re.findall(r"status:\s*pending", candidates_section))
-
 
 def detect_gap(
     user_id: str,
@@ -194,7 +189,6 @@ def detect_gap(
         "message": message,
     }
 
-
 def format_gap_one_liner(result: dict) -> str:
     """One-line summary for warmup/dream integration."""
     level = result.get("level", "unknown")
@@ -207,7 +201,6 @@ def format_gap_one_liner(result: dict) -> str:
     if level == "unknown":
         return "Capture health: unknown (no Evidence file or entries)"
     return f"Capture health: {level.upper()} — {days}d since {eid} ({pending} pending)"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Detect capture gaps in Evidence.")
@@ -238,7 +231,6 @@ def main() -> int:
             print(f"  Pending:       {result['pending_count']} candidate(s)")
 
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

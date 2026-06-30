@@ -30,7 +30,6 @@ DEFAULT_CONFIG = REPO_ROOT / "platform/config" / "mcp-capabilities.yaml"
 DEFAULT_SCHEMA = REPO_ROOT / "schemas" / "mcp-capability.v1.json"
 DEFAULT_OUTPUT = ARTIFACTS_DIR / "mcp-capability-report.md"
 
-
 def _git_short_hash(cwd: Path) -> str:
     try:
         out = subprocess.run(
@@ -46,17 +45,14 @@ def _git_short_hash(cwd: Path) -> str:
         pass
     return "unknown"
 
-
 def _safe_rel(path: Path, root: Path) -> Path | str:
     try:
         return path.relative_to(root)
     except ValueError:
         return path
 
-
 def load_yaml(path: Path) -> Any:
     return safe_load_path(path, feature="mcp_capability_audit.py")
-
 
 def validate_document(doc: Any, schema_path: Path) -> None:
     try:
@@ -68,10 +64,8 @@ def validate_document(doc: Any, schema_path: Path) -> None:
     schema = json.loads(schema_path.read_text(encoding="utf-8"))
     jsonschema.validate(instance=doc, schema=schema)
 
-
 def _write_capable(cap: dict[str, Any]) -> bool:
     return bool(cap.get("writes")) or bool(cap.get("durable_state_write"))
-
 
 def _implies_shell_execution_allowed(cap: dict[str, Any]) -> bool:
     """True when configuration implies shell/subprocess execution is in scope (risk)."""
@@ -91,7 +85,6 @@ def _implies_shell_execution_allowed(cap: dict[str, Any]) -> bool:
         "/platform/bin/bash",
     )
     return any(n in hay for n in needles)
-
 
 def danger_flags(capabilities: list[dict[str, Any]]) -> list[str]:
     """Deterministic sorted danger-flag strings for audit Markdown."""
@@ -132,7 +125,6 @@ def danger_flags(capabilities: list[dict[str, Any]]) -> list[str]:
             )
 
     return sorted(flags)
-
 
 def build_report_markdown(
     *,
@@ -182,7 +174,6 @@ def build_report_markdown(
     lines.extend(["", "## Notes", "", doc.get("description", "").strip() or "_(see config description)_", ""])
     return "\n".join(lines)
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Audit MCP capability YAML registry.")
     ap.add_argument("--platform/config", type=Path, default=DEFAULT_CONFIG)
@@ -223,7 +214,6 @@ def main() -> int:
     if args.strict and flags:
         return 1
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -1,6 +1,6 @@
 # Provenance Residue
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder holds migrated pointer-only or mirror-style residue that was removed from the dated source archive during the provenance cutover.
 

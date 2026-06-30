@@ -21,7 +21,6 @@ from conflict_check import (  # noqa: E402
     _load_self_personality_summary,
 )
 
-
 def main() -> None:
     print("=" * 60)
     print("Grace-Mar â€” conflict check demo (personality opposites)")
@@ -65,7 +64,6 @@ suggested_entry: "Independent self-starter on long projects"
     print("=" * 60)
     print("Done. Staging path: archive/grace-mar-instance/bot/core.py uses this before recursion-gate append.")
     print("=" * 60)
-
 
 if __name__ == "__main__":
     main()

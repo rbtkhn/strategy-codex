@@ -21,7 +21,6 @@ archive_links:
 
 # Macgregor arc
 
-WORK only; not Record.
 
 Purpose: define `arc-macgregor-continuity` as the canonical person-level continuity surface for Douglas Macgregor across hosts, contexts, and time. This keeps Macgregor from being reduced either to one host lane, one monthly shelf, or to a double-helix comparison without a speaker-wide continuity spine.
 

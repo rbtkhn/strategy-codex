@@ -30,13 +30,7 @@ def test_event_integrity_passes_on_repo() -> None:
 
 
 def test_unknown_event_id_fails(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
-    import importlib.util
-
-    spec = importlib.util.spec_from_file_location("check_event_integrity", SCRIPT)
-    assert spec and spec.loader
-    mod = importlib.util.module_from_spec(spec)
-    sys.modules[spec.name] = mod
-    spec.loader.exec_module(mod)
+    import schema_invariants
 
     data_dir = tmp_path / "statecraft" / "data"
     data_dir.mkdir(parents=True)
@@ -66,6 +60,7 @@ def test_unknown_event_id_fails(tmp_path: Path, monkeypatch: pytest.MonkeyPatch)
             date_made: 2025-01-01
             stance: no
             source: source-archive/statecraft/2025-01-01/example.md
+            status: pending
             ---
             """
         ),
@@ -77,6 +72,7 @@ def test_unknown_event_id_fails(tmp_path: Path, monkeypatch: pytest.MonkeyPatch)
     monkeypatch.setattr(prediction_lib, "REPO_ROOT", tmp_path)
     monkeypatch.setattr(prediction_lib, "EVENT_REGISTRY_PATH", data_dir / "event-registry.json")
     monkeypatch.setattr(prediction_lib, "PREDICTIONS_DIR", pred_dir)
-    monkeypatch.setattr(mod, "EVENT_REGISTRY_PATH", data_dir / "event-registry.json")
+    monkeypatch.setattr(schema_invariants, "REPO_ROOT", tmp_path)
 
-    assert mod.run_check(registry_path=data_dir / "event-registry.json") == 1
+    issues = schema_invariants.run_prediction_invariants(events_path=data_dir / "event-registry.json")
+    assert any("unknown event_id" in line for line in issues)

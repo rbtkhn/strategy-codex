@@ -1,6 +1,5 @@
 # How the Iran Nuclear Threshold Story Hardened
 
-WORK only; not Record.
 
 **Canonical home:** [../../essays/how-the-iran-nuclear-threshold-story-hardened.md](../../essays/how-the-iran-nuclear-threshold-story-hardened.md)
 

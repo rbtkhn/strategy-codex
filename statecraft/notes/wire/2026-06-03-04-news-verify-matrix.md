@@ -11,7 +11,6 @@ archive_links:
   - source-archive/statecraft/2026-06-04/day-index.md
   - source-archive/statecraft/2026-06-04/source-pape-the-lebanon-fuse-2026-06-04.md
 ---
-WORK only; not Record.
 
 # News Verify Matrix — 2026-06-03 – 2026-06-04
 

@@ -35,7 +35,6 @@ try:
 except ImportError:
     from scripts.surface_aliases import library_export_labels
 
-
 def _parse_self_summary(content: str) -> dict:
     """Minimal summary: name, age, lexile, IX counts."""
     data = {"name": "?", "age": 0, "lexile_output": "?", "ix_a_count": 0, "ix_b_count": 0, "ix_c_count": 0}
@@ -50,7 +49,6 @@ def _parse_self_summary(content: str) -> dict:
     data["ix_c_count"] = len(re.findall(r"id:\s+PER-\d+", content))
     return data
 
-
 def _parse_evidence_summary(content: str) -> dict:
     """Counts of READ, WRITE, CREATE entries."""
     return {
@@ -58,7 +56,6 @@ def _parse_evidence_summary(content: str) -> dict:
         "write_count": len(re.findall(r"id:\s+WRITE-\d+", content)),
         "create_count": len(re.findall(r"id:\s+CREATE-\d+", content)),
     }
-
 
 def _parse_ix_b_entries(content: str) -> list[dict]:
     """Extract IX-B CURIOSITY entries (id, topic, one-liner) for coach handoff."""
@@ -84,7 +81,6 @@ def _parse_ix_b_entries(content: str) -> list[dict]:
         entries.append({"id": cur_id, "topic": topic, "one_liner": one_liner[:300]})
     return entries
 
-
 def _extract_ix_a_block(content: str) -> str:
     """IX-A (SELF-KNOWLEDGE) markdown slice for logical export bucket."""
     if not content:
@@ -94,7 +90,6 @@ def _extract_ix_a_block(content: str) -> str:
         return ""
     end = content.find("### IX-B", start)
     return content[start : end if end > 0 else start + 12000].strip()
-
 
 def _civ_mem_lib_ids(library_raw: str) -> list[str]:
     """LIB ids whose entry block mentions CIV-MEM / CMC / civilization_memory scopes."""
@@ -108,7 +103,6 @@ def _civ_mem_lib_ids(library_raw: str) -> list[str]:
         if marker.search(block):
             ids.append(m.group(1))
     return ids
-
 
 def _parse_ix_c_entries(content: str) -> list[dict]:
     """Extract IX-C PERSONALITY entries (id, type, observation) for coach handoff."""
@@ -134,7 +128,6 @@ def _parse_ix_c_entries(content: str) -> list[dict]:
             {"id": per_id, "type": obs_type, "observation": observation[:400]}
         )
     return entries
-
 
 def export_fork(user_id: str = "grace-mar", include_raw: bool = True) -> dict:
     """Build the fork export structure."""
@@ -214,7 +207,6 @@ def export_fork(user_id: str = "grace-mar", include_raw: bool = True) -> dict:
             out["agent_manifest"] = None
     return out
 
-
 def export_obsidian(data: dict, out_path: Path) -> None:
     """Write Obsidian-friendly markdown files with YAML frontmatter and internal links."""
     out_path.mkdir(parents=True, exist_ok=True)
@@ -254,7 +246,6 @@ def export_obsidian(data: dict, out_path: Path) -> None:
         f"# Fork export — {data.get('user_id', '?')}\n\nGenerated {data.get('generated_at', '')}. See [[SELF]], [[Skills]], [[Evidence]], [[Library]].\n",
         encoding="utf-8",
     )
-
 
 def _write_coach_handoff_onepager(handoff: dict, out_path: Path) -> None:
     """Write a human-readable one-pager (markdown) for coach handoff."""
@@ -304,7 +295,6 @@ def _write_coach_handoff_onepager(handoff: dict, out_path: Path) -> None:
     ])
     out_path.write_text("\n".join(lines), encoding="utf-8")
 
-
 def export_coach_handoff(data: dict) -> dict:
     """Build coach-handoff export: interests (IX-B), style_traits (IX-C), summary. No raw content."""
     self_raw = data.get("self", {}).get("raw", "")
@@ -321,7 +311,6 @@ def export_coach_handoff(data: dict) -> dict:
         "style_traits": _parse_ix_c_entries(self_raw),
         "evidence_summary": ev_sum,
     }
-
 
 def export_jsonld(data: dict) -> dict:
     """Return a JSON-LD graph with @context and typed nodes (provenance + mind model)."""
@@ -349,7 +338,6 @@ def export_jsonld(data: dict) -> dict:
             **summary.get("archive/placeholders/evidence", {}),
         },
     }
-
 
 def main() -> None:
     import warnings
@@ -397,7 +385,6 @@ def main() -> None:
         print(f"Wrote {args.output}", file=__import__("sys").stderr)
     else:
         print(text)
-
 
 if __name__ == "__main__":
     main()

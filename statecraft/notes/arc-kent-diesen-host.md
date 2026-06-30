@@ -16,7 +16,6 @@ archive_links:
 
 # Diesen x Kent speaker arc
 
-WORK only; not Record.
 
 Purpose: explain why the `Diesen x Kent` lane matters as a host-local conversational form. This is a small but transcript-grade arc downstream of raw-input accumulation, not a provenance ledger.
 

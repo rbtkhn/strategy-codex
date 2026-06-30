@@ -16,7 +16,6 @@ archive_links:
 
 # Davis x Marandi speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Davis x Marandi` run inside the Davis stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Marandi lane Davis elicits, which files matter most, and how this host-local run differs from the Diesen and Dialogue Works Marandi lanes.
 
@@ -104,7 +103,7 @@ Typical pairings around the guest lane:
 
 - `davis`
 - `diesen`
-- `alkorshid`
+- `alkhorshid`
 - `mearsheimer`
 
 ## Boundaries

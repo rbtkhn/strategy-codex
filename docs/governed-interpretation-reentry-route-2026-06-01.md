@@ -1,6 +1,5 @@
 # Governed Interpretation Re-Entry Route - 2026-06-01
 
-work only; not Record.
 
 This is the shortest continuity route back into the repo's recent phase shift.
 

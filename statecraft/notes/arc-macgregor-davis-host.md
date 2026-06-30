@@ -22,7 +22,6 @@ archive_links:
 
 # Davis x Macgregor speaker arc
 
-WORK only; not Record.
 
 Purpose: compact reuse note for the `Davis x Macgregor` run inside the Davis stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Macgregor lane Davis elicits, which files matter most, and why this run belongs beside the Diesen lane rather than being mistaken for a generic recurring war voice.
 

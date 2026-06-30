@@ -7,7 +7,6 @@ try:
 except ImportError:
     YouTubeTranscriptApi = None  # type: ignore
 
-
 def fetch_transcript_tier1(
     video_id: str,
     languages: list[str],
@@ -89,7 +88,6 @@ def fetch_transcript_tier1(
         last_err = str(e)
 
     return None, None, last_err or "no transcript"
-
 
 def fetch_transcript_tier1_with_meta(
     video_id: str,

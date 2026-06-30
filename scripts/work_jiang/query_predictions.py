@@ -11,7 +11,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_DB = ROOT / "codex" / "predictive-history" / "registry" / "work_jiang_metrics.sqlite"
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--db", type=Path, default=DEFAULT_DB)
@@ -45,7 +44,6 @@ def main() -> int:
         else:
             print(f"{r['prediction_id']}\t{r['video_id']}\t{r['resolution_status']}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

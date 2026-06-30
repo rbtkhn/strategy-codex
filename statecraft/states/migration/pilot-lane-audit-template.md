@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Pilot-Lane Audit Template
 

@@ -60,7 +60,6 @@ CHILD_DASHBOARDS: tuple[tuple[str, str, Path], ...] = (
     ),
 )
 
-
 @dataclass
 class DashboardRunConfig:
     out: Path = DEFAULT_OUT
@@ -83,7 +82,6 @@ class DashboardRunConfig:
     deck_out: Path = field(default_factory=lambda: DECK_MD)
     deck_json_out: Path = field(default_factory=lambda: DECK_JSON)
 
-
 @dataclass
 class UmbrellaResult:
     exit_code: int
@@ -92,10 +90,8 @@ class UmbrellaResult:
     deck_payload: dict[str, Any]
     umbrella_payload: dict[str, Any]
 
-
 def _resolve(repo_root: Path, path: Path) -> Path:
     return path if path.is_absolute() else (repo_root / path).resolve()
-
 
 def _rel_posix(repo_root: Path, path: Path) -> str:
     resolved = _resolve(repo_root, path)
@@ -103,7 +99,6 @@ def _rel_posix(repo_root: Path, path: Path) -> str:
         return resolved.relative_to(repo_root.resolve()).as_posix()
     except ValueError:
         return resolved.as_posix()
-
 
 def _load_json(path: Path) -> dict[str, Any]:
     if not path.is_file():
@@ -113,10 +108,8 @@ def _load_json(path: Path) -> dict[str, Any]:
         raise ValueError(f"invalid JSON object in {path}")
     return data
 
-
 def _worst_exit(*codes: int) -> int:
     return max(codes) if codes else 0
-
 
 def run_child_producers(
     repo_root: Path,
@@ -154,7 +147,6 @@ def run_child_producers(
     exit_code = _worst_exit(surgeon_code, war_room_code, deck_code)
     return exit_code, surgeon_payload, war_room_payload, deck_payload
 
-
 def load_child_payloads(
     repo_root: Path,
     config: DashboardRunConfig,
@@ -167,7 +159,6 @@ def load_child_payloads(
         _load_json(war_room_path),
         _load_json(deck_path),
     )
-
 
 def build_umbrella_json(
     surgeon: dict[str, Any],
@@ -216,7 +207,6 @@ def build_umbrella_json(
             "deck_json": _rel_posix(repo_root, config.deck_json_out),
         },
     }
-
 
 def build_umbrella_markdown(
     surgeon: dict[str, Any],
@@ -316,7 +306,6 @@ def build_umbrella_markdown(
     )
     return "\n".join(parts)
 
-
 def write_umbrella(
     repo_root: Path,
     config: DashboardRunConfig,
@@ -350,7 +339,6 @@ def write_umbrella(
     print(f"wrote {json_path}")
     return payload
 
-
 def run_all(repo_root: Path, config: DashboardRunConfig) -> UmbrellaResult:
     if config.compose_only:
         surgeon, war_room, deck = load_child_payloads(repo_root, config)
@@ -375,7 +363,6 @@ def run_all(repo_root: Path, config: DashboardRunConfig) -> UmbrellaResult:
         deck_payload=deck,
         umbrella_payload=umbrella_payload,
     )
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -419,7 +406,6 @@ def main() -> int:
         actions = len(result.umbrella_payload.get("next_actions") or [])
         print(f"umbrella: next_actions={actions} exit={result.exit_code}")
     return result.exit_code
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

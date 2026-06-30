@@ -37,10 +37,8 @@ except ImportError:  # pragma: no cover - copied-script compatibility
 
 LANES_PATH = REPO_ROOT / "lanes.yaml"
 
-
 def _norm(p: str) -> str:
     return p.replace("\\", "/").lstrip("./")
-
 
 def path_matches_glob(path: str, pattern: str) -> bool:
     """Match path against pattern with / separators; ** matches zero or more segments."""
@@ -78,14 +76,11 @@ def path_matches_glob(path: str, pattern: str) -> bool:
 
     return ok(0, 0)
 
-
 def _any_match(path: str, patterns: list[str]) -> bool:
     return any(path_matches_glob(path, p) for p in patterns)
 
-
 def _forbidden_hit(path: str, patterns: list[str]) -> bool:
     return _any_match(path, patterns)
-
 
 def load_lanes(path: Path | None = None) -> dict[str, Any]:
     p = path or LANES_PATH
@@ -93,7 +88,6 @@ def load_lanes(path: Path | None = None) -> dict[str, Any]:
     if not isinstance(data, dict) or "lanes" not in data:
         raise ValueError("lanes.yaml must contain top-level 'lanes'")
     return data
-
 
 def changed_files_from_diff(spec: str, repo_root: Path) -> list[str]:
     proc = subprocess.run(
@@ -106,7 +100,6 @@ def changed_files_from_diff(spec: str, repo_root: Path) -> list[str]:
     if proc.returncode != 0:
         raise RuntimeError(proc.stderr.strip() or "git diff failed")
     return [ln.strip() for ln in proc.stdout.splitlines() if ln.strip()]
-
 
 def check_lane(
     lane: str,
@@ -143,7 +136,6 @@ def check_lane(
         return 1, errors
     return 0, [f"lane-scope OK: {lane} ({len(files)} file(s))"]
 
-
 def check_any_lane(files: list[str], lanes_doc: dict[str, Any]) -> tuple[int, list[str], str | None]:
     """Return success if at least one lane accepts every file (forbidden rules still apply).
 
@@ -156,13 +148,11 @@ def check_any_lane(files: list[str], lanes_doc: dict[str, Any]) -> tuple[int, li
             return 0, [f"lane-scope OK: matched lane `{lane}` ({len(files)} file(s))"] + msgs[1:], lane
     return 1, ["no single lane owns all changed files; split the PR or use --allow-cross-lane"], None
 
-
 def _observability_enabled(append_flag: bool) -> bool:
     if append_flag:
         return True
     v = (os.getenv("GRACE_MAR_LOG_LANE_VIOLATIONS") or "").strip().lower()
     return v in ("1", "true", "yes")
-
 
 def append_lane_violation_event(repo_root: Path, *, lane: str | None, files: list[str], detail: str) -> None:
     p = repo_root / "runtime" / "observability" / "lane_scope.jsonl"
@@ -176,7 +166,6 @@ def append_lane_violation_event(repo_root: Path, *, lane: str | None, files: lis
     }
     with p.open("a", encoding="utf-8") as f:
         f.write(json.dumps(event, ensure_ascii=False) + "\n")
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Enforce lane scope for changed paths.")
@@ -297,7 +286,6 @@ def main() -> int:
             file=sys.stderr,
         )
     return code
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

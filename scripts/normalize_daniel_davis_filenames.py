@@ -17,7 +17,6 @@ SCAN_ROOTS = [
 TEXT_EXTENSIONS = {".md", ".json", ".jsonl", ".txt", ".yaml", ".yml"}
 SKIP_DIR_NAMES = {"runtime", ".git", "node_modules", "scripts"}
 
-
 def target_name(name: str) -> str | None:
     if name.startswith("source-daniel-davis-deep-dive-"):
         return "source-daniel-davis-" + name[len("source-daniel-davis-deep-dive-") :]
@@ -28,7 +27,6 @@ def target_name(name: str) -> str | None:
     if name.startswith("source-daniel-davis-"):
         return None
     return None
-
 
 def collect_renames() -> list[tuple[Path, Path]]:
     renames: list[tuple[Path, Path]] = []
@@ -48,13 +46,11 @@ def collect_renames() -> list[tuple[Path, Path]]:
         raise SystemExit("rename collisions:\n" + "\n".join(lines))
     return renames
 
-
 def apply_renames(renames: list[tuple[Path, Path]]) -> None:
     for old, new in sorted(renames, key=lambda pair: len(str(pair[0]))):
         new.parent.mkdir(parents=True, exist_ok=True)
         old.rename(new)
     print(f"Renamed {len(renames)} capture files")
-
 
 def patch_discovery_config() -> None:
     path = REPO / "platform" / "config" / "statecraft_youtube_discovery.json"
@@ -70,7 +66,6 @@ def patch_discovery_config() -> None:
     channel["file_prefix"] = "source-daniel-davis"
     path.write_text(json.dumps(data, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
     print("Updated statecraft_youtube_discovery.json")
-
 
 def patch_text_references() -> int:
     replacements = [
@@ -99,7 +94,6 @@ def patch_text_references() -> int:
                 patched += 1
     return patched
 
-
 def normalize_legacy_threads() -> int:
     pattern = re.compile(r"^thread: daniel-davis(?:-deep-dive)?\s*$", re.MULTILINE)
     count = 0
@@ -111,7 +105,6 @@ def normalize_legacy_threads() -> int:
             count += 1
     return count
 
-
 def main() -> int:
     renames = collect_renames()
     apply_renames(renames)
@@ -121,7 +114,6 @@ def main() -> int:
     print(f"Patched {patched} reference files")
     print(f"Normalized {threads} legacy thread fields")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

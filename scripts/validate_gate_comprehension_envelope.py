@@ -31,13 +31,11 @@ try:
 except ImportError:
     from scripts.repo_io import REPO_ROOT, profile_dir, DEFAULT_PROFILE_ID
 
-
 def _scalar(yaml_body: str, key: str) -> str:
     m = re.search(rf"^{re.escape(key)}:\s*(.+)$", yaml_body, re.MULTILINE)
     if not m:
         return ""
     return m.group(1).strip().strip("\"'")
-
 
 def _iter_candidate_sections(pending_region: str) -> list[tuple[str, str]]:
     """Return (candidate_id, full_section_text) for each ### CANDIDATE- block."""
@@ -52,7 +50,6 @@ def _iter_candidate_sections(pending_region: str) -> list[tuple[str, str]]:
             out.append((m.group(1), part))
     return out
 
-
 def _envelope_body(section: str) -> str:
     m = re.search(
         r"^### Comprehension Envelope\s*\n((?:.*\n)*?)(?=^### |\Z)",
@@ -60,7 +57,6 @@ def _envelope_body(section: str) -> str:
         re.MULTILINE,
     )
     return m.group(1) if m else ""
-
 
 def _envelope_present_and_non_empty(section: str) -> bool:
     """True if ### Comprehension Envelope exists and has at least one filled bullet line."""
@@ -74,7 +70,6 @@ def _envelope_present_and_non_empty(section: str) -> bool:
             if rest and not rest.startswith("…"):
                 return True
     return False
-
 
 def _bullet_value_after_label(envelope_body: str, label: str) -> str:
     """First bullet `- Label: value` where label matches (case-insensitive on label part)."""
@@ -90,7 +85,6 @@ def _bullet_value_after_label(envelope_body: str, label: str) -> str:
         if lab.strip().lower() == prefix:
             return val.strip()
     return ""
-
 
 def validate_gate(gate_path: Path) -> tuple[list[str], list[str]]:
     """
@@ -162,7 +156,6 @@ def validate_gate(gate_path: Path) -> tuple[list[str], list[str]]:
 
     return strict_problems, advisory
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -196,7 +189,6 @@ def main() -> int:
     if strict_problems and args.strict:
         return 1
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

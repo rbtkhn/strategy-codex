@@ -29,7 +29,6 @@ TASK_TYPE_TO_ROUTED: dict[str, str] = {
     "research": "research_worker",
 }
 
-
 @dataclass(frozen=True)
 class RoutingResult:
     task_type: str
@@ -38,10 +37,8 @@ class RoutingResult:
     shared_worker_ids: tuple[str, ...]
     entrypoints: dict[str, str]  # worker_id -> repo-relative path
 
-
 class UnknownTaskTypeError(ValueError):
     """No routed worker for this task_type."""
-
 
 def resolve_routing(task_type: str, repo_root: Path, registry: dict[str, Any] | None = None) -> RoutingResult:
     tt = (task_type or "").strip().lower()
@@ -74,7 +71,6 @@ def resolve_routing(task_type: str, repo_root: Path, registry: dict[str, Any] | 
         shared_worker_ids=shared_ids,
         entrypoints=dict(sorted(entrypoints.items())),
     )
-
 
 def routing_receipt_payload(
     *,

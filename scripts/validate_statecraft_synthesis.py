@@ -88,14 +88,11 @@ MONTHLY_FUNCTION_LABELS: frozenset[str] = frozenset(
     }
 )
 
-
 def is_migrated_daily_text(text: str) -> bool:
     return "## Five-Volume CIV-STATE Read" in text
 
-
 def heading_sequence(text: str) -> list[str]:
     return [m.group(1).strip() for m in HEADING_RE.finditer(text)]
-
 
 def section_body(text: str, heading: str) -> str | None:
     pattern = re.compile(rf"^## {re.escape(heading)}\s*$", re.MULTILINE)
@@ -107,14 +104,11 @@ def section_body(text: str, heading: str) -> str | None:
     end = next_match.start() if next_match else len(text)
     return text[start:end]
 
-
 def extract_five_volume_labels(body: str) -> list[str]:
     return [m.group(1).strip() for m in FIVE_VOLUME_LABEL_RE.finditer(body)]
 
-
 def count_words(text: str) -> int:
     return len(WORD_RE.findall(text))
-
 
 def validate_quote_anchor_line(line: str, *, min_words: int = 12) -> str | None:
     if "Quote anchor:" not in line:
@@ -127,7 +121,6 @@ def validate_quote_anchor_line(line: str, *, min_words: int = 12) -> str | None:
     if words < min_words:
         return f"Quote anchor has {words} words; requires at least {min_words}"
     return None
-
 
 def validate_daily_section_order(headings: list[str]) -> list[str]:
     errors: list[str] = []
@@ -151,7 +144,6 @@ def validate_daily_section_order(headings: list[str]) -> list[str]:
             + "; allowed tail is Companion Notes -> Archival Note"
         )
     return errors
-
 
 def validate_daily_file(path: Path) -> list[str]:
     errors: list[str] = []
@@ -178,7 +170,6 @@ def validate_daily_file(path: Path) -> list[str]:
             errors.append(f"line {line_no}: {quote_err}")
 
     return errors
-
 
 def validate_monthly_file(path: Path) -> list[str]:
     errors: list[str] = []
@@ -218,7 +209,6 @@ def validate_monthly_file(path: Path) -> list[str]:
             )
     return errors
 
-
 def validate_synthesis_dirs(day_dir: Path, month_dir: Path) -> list[str]:
     errors: list[str] = []
     if not day_dir.is_dir():
@@ -240,7 +230,6 @@ def validate_synthesis_dirs(day_dir: Path, month_dir: Path) -> list[str]:
                 for err in validate_monthly_file(path):
                     errors.append(f"{path.relative_to(REPO_ROOT)}: {err}")
     return errors
-
 
 def validate_daily_dir(daily_dir: Path) -> list[str]:
     """Legacy: single dir with day+month files, or synthesis/day only."""
@@ -264,7 +253,6 @@ def validate_daily_dir(daily_dir: Path) -> list[str]:
                 errors.append(f"{path.relative_to(REPO_ROOT)}: {err}")
     return errors
 
-
 def collect_daily_shelf_counts(day_dir: Path, month_dir: Path | None = None) -> tuple[int, int, int]:
     migrated_daily = 0
     legacy_daily = 0
@@ -285,7 +273,6 @@ def collect_daily_shelf_counts(day_dir: Path, month_dir: Path | None = None) -> 
                 monthly += 1
 
     return migrated_daily, legacy_daily, monthly
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -331,7 +318,6 @@ def main() -> int:
         f"{monthly_count} month note(s))"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # Arc Lens Usage
 
-WORK only; not Record.
 
 Arc lenses are recurring WORK-layer routing and synthesis handles. They help sort new Ukraine/Europe inputs into durable analytic questions without treating the tag or lens as a truth claim.
 

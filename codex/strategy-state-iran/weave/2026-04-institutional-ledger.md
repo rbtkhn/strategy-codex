@@ -55,4 +55,3 @@ See [INSTITUTIONAL-SCORECARD.md](../templates/INSTITUTIONAL-SCORECARD.md) for th
 
 ---
 
-WORK only; not Record.

@@ -11,7 +11,6 @@ archive_links:
   - source-archive/statecraft/2026-06-09/source-dialogue-works-anthony-aguilar-iranian-drone-takes-down-us-apache-helicopter-war-imminent-2026-06-09.md
   - source-archive/statecraft/2026-06-26/source-dialogue-works-robert-barnes-iran-drones-ship-without-state-approval-2026-06-26.md
 ---
-WORK only; not Record.
 
 # U.S.-Israel Military Integration As Captured Command Risk
 

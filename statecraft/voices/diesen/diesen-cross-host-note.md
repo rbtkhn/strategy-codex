@@ -1,6 +1,5 @@
 # Diesen cross-host note
 
-WORK only; not Record.
 
 Purpose: explain how Diesen belongs in the canonical `voices/` namespace without flattening the distinction between a native cognition stream and a cross-host speaker object.
 
@@ -60,7 +59,7 @@ Until then, keep Diesen classified as a stream-native speaker object whose main 
 
 Bounded pass: `source-dialogue-works-*` whose `source_url` **youtube_id** also appears on a **@GDiesen1** host capture, or whose transcript **closes to Glenn Diesen**.
 
-| youtube_id | Alkorshid (Nima thread) | Canonical Diesen-host | Signal |
+| youtube_id | Alkhorshid (Nima thread) | Canonical Diesen-host | Signal |
 |---|---|---|---|
 | `CtNtxF4LPKo` | [alkorshid-marandi-hormuz-toll-…-2026-06-05.md](../../../source-archive/statecraft/2026-06-05/source-dialogue-works-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md) | [glenn-diesen-marandi-hormuz-toll-…-2026-06-05.md](../../../source-archive/statecraft/2026-06-05/source-glenn-diesen-seyed-m-marandi-hormuz-toll-strike-on-kuwait-israel-decline-iranian-nuclear-bomb-2026-06-05.md) | **glenn_close** + cognition-streams audit |
 | `HuhJinByAEg` | [alkorshid-freeman-greater-israel-…-2026-06-06.md](../../../source-archive/statecraft/2026-06-06/source-dialogue-works-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md) | [glenn-diesen-freeman-greater-israel-…-2026-06-06.md](../../../source-archive/statecraft/2026-06-06/source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md) | URL collision + @GDiesen1 publish |

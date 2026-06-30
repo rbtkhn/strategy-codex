@@ -17,12 +17,10 @@ ROOT = Path(__file__).resolve().parents[2]
 SCRATCH = ROOT / "codex/predictive-history/prediction-tracking/scratch"
 BUNDLE_PY = ROOT / "scripts/work_jiang/forward_chain_blind_bundle.py"
 
-
 def run(cmd: list[str]) -> None:
     r = subprocess.run(cmd, cwd=str(ROOT))
     if r.returncode != 0:
         sys.exit(r.returncode)
-
 
 def main() -> None:
     for r in range(6, 18):
@@ -67,7 +65,6 @@ def main() -> None:
         if next_k >= 10:
             bundle_cmd.append("--trim-at-full-transcript")
         run(bundle_cmd)
-
 
 if __name__ == "__main__":
     main()

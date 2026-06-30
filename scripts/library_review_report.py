@@ -24,7 +24,6 @@ ARTIFACT_PATH = ARTIFACT_DIR / "runtime-summary.md"
 STALE_DAYS = 30
 PRIORITY_ORDER = ["preferred", "high", "medium", "low", "none"]
 
-
 def load_entries(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -67,7 +66,6 @@ def load_entries(path: Path) -> list[dict]:
         )
     return entries
 
-
 def is_stale(entry: dict, today: date) -> bool:
     r = entry.get("reviewed_at", "")
     if not r:
@@ -78,14 +76,11 @@ def is_stale(entry: dict, today: date) -> bool:
         return True
     return (today - reviewed).days > STALE_DAYS
 
-
 def priority_entries(entries: list[dict], level: str) -> list[dict]:
     return [e for e in entries if e["lookup_priority"] == level]
 
-
 def operator_book_entries(entries: list[dict]) -> list[dict]:
     return [e for e in entries if e["shelf_intent"] == "operator_book"]
-
 
 def scope_distribution(entries: list[dict], top_n: int = 10) -> list[tuple[str, int]]:
     c: Counter[str] = Counter()
@@ -94,10 +89,8 @@ def scope_distribution(entries: list[dict], top_n: int = 10) -> list[tuple[str, 
             c[s] += 1
     return c.most_common(top_n)
 
-
 def singleton_scope_entries(entries: list[dict]) -> list[dict]:
     return [e for e in entries if len(e["scope"]) <= 1]
-
 
 def duplicate_scope_clusters(entries: list[dict]) -> dict[str, list[str]]:
     scope_to_ids: dict[str, list[str]] = {}
@@ -107,7 +100,6 @@ def duplicate_scope_clusters(entries: list[dict]) -> dict[str, list[str]]:
             continue
         scope_to_ids.setdefault(str(key), []).append(e["id"])
     return {k: v for k, v in scope_to_ids.items() if len(v) > 1}
-
 
 def fmt_table(headers: list[str], rows: list[list[str]]) -> str:
     if not rows:
@@ -124,7 +116,6 @@ def fmt_table(headers: list[str], rows: list[list[str]]) -> str:
             "| " + " | ".join(cell.ljust(w) for cell, w in zip(row, widths)) + " |"
         )
     return "\n".join(lines) + "\n"
-
 
 def build_report(entries: list[dict], today: date) -> str:
     out: list[str] = []
@@ -222,7 +213,6 @@ def build_report(entries: list[dict], today: date) -> str:
 
     return "\n".join(out)
 
-
 def build_artifact(entries: list[dict], today: date) -> str:
     lines: list[str] = [
         "# SELF-LIBRARY runtime summary",
@@ -238,7 +228,6 @@ def build_artifact(entries: list[dict], today: date) -> str:
         "\n---\n\n*Rebuildable artifact. Source: `scripts/library_review_report.py --write`.*\n"
     )
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Self-library review report")
@@ -271,7 +260,6 @@ def main() -> int:
         print(f"\nArtifact written: {ARTIFACT_PATH.relative_to(REPO_ROOT)}")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

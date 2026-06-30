@@ -1,6 +1,5 @@
 # Expert mind — Alexander Mercouris (`mercouris`) — compatibility redirect
 
-WORK only; not Record.
 
 **Canonical SSOT:** [statecraft/voices/mercouris/mercouris-profile.md](../statecraft/voices/mercouris/mercouris-profile.md) — Identity, Tier A `#linguistic-style-fingerprint-detailed`, convergence/tension, failure modes, June 2026 receipts.
 

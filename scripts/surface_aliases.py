@@ -19,7 +19,6 @@ SURFACE_ALIASES: dict[str, str] = {
     "LIBRARY": "LIBRARY",
 }
 
-
 @dataclass(frozen=True)
 class SurfaceDef:
     canonical_key: str
@@ -27,7 +26,6 @@ class SurfaceDef:
     display_name: str
     legacy_keys: tuple[str, ...] = ()
     legacy_file_stems: tuple[str, ...] = ()
-
 
 # Keyed by canonical_key for stable lookup.
 SURFACES: Dict[str, SurfaceDef] = {
@@ -73,7 +71,6 @@ SURFACES: Dict[str, SurfaceDef] = {
     ),
 }
 
-
 def get_surface_by_key(key: str) -> Optional[SurfaceDef]:
     k = (key or "").strip().lower().replace("-", "_")
     if k in SURFACES:
@@ -82,7 +79,6 @@ def get_surface_by_key(key: str) -> Optional[SurfaceDef]:
         if k == surface.canonical_key or k in tuple(x.lower() for x in surface.legacy_keys):
             return surface
     return None
-
 
 def get_surface_by_file_stem(stem: str) -> Optional[SurfaceDef]:
     s = (stem or "").strip().lower()
@@ -95,27 +91,22 @@ def get_surface_by_file_stem(stem: str) -> Optional[SurfaceDef]:
             return surface
     return None
 
-
 def display_name_for(key: str) -> str:
     surface = get_surface_by_key(key)
     return surface.display_name if surface else key
-
 
 def canonical_key_for(key: str) -> str:
     surface = get_surface_by_key(key)
     return surface.canonical_key if surface else key
 
-
 def canonical_file_stem_for(stem_or_key: str) -> str | None:
     surface = get_surface_by_key(stem_or_key) or get_surface_by_file_stem(stem_or_key)
     return surface.canonical_file_stem if surface else None
-
 
 def normalize_surface_token(name: str) -> str:
     """Legacy token normalizer for SELF-LIBRARY display family (returns LIBRARY)."""
     key = name.strip().upper().replace("-", "_").replace(" ", "_")
     return SURFACE_ALIASES.get(key, key)
-
 
 def library_export_labels() -> dict[str, str]:
     """Backward-compatible export metadata for SELF-LIBRARY / Library."""
@@ -126,7 +117,6 @@ def library_export_labels() -> dict[str, str]:
         "display_name": lib.display_name,
         "on_disk_file": f"{lib.canonical_file_stem}.md",
     }
-
 
 def surface_export_labels(canonical_key: str) -> dict[str, str] | None:
     """Export metadata for any surface with an on-disk file."""

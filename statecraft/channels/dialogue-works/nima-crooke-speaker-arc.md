@@ -1,6 +1,5 @@
 # arc-crooke-nima-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-crooke-nima-host.md](../../notes/arc-crooke-nima-host.md)
 

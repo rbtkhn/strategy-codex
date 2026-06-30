@@ -1,6 +1,5 @@
 # Freeman source index
 
-WORK only; not Record.
 
 Purpose: exhaustive canonical route map for Amb. Chas Freeman guest appearances and direct archive anchors on the Freeman shelf.
 
@@ -12,6 +11,7 @@ Purpose: exhaustive canonical route map for Amb. Chas Freeman guest appearances 
 
 - **149** eligible archive captures on disk
 - Rebuild: `python scripts/build_freeman_index.py`
+- **Predictions:** [freeman-predictions.md](freeman-predictions.md)
 
 ## 2025-01
 

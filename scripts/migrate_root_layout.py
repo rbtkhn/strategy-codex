@@ -57,7 +57,6 @@ RECORD_FILES: tuple[str, ...] = (
     "openclaw-user.md",
 )
 
-
 def run_git_mv(src: Path, dst: Path, *, dry_run: bool) -> None:
     if not src.exists():
         print(f"skip missing: {src.relative_to(REPO_ROOT)}")
@@ -72,7 +71,6 @@ def run_git_mv(src: Path, dst: Path, *, dry_run: bool) -> None:
     dst.parent.mkdir(parents=True, exist_ok=True)
     subprocess.run(["git", "mv", str(rel_src), str(rel_dst)], cwd=REPO_ROOT, check=True)
     print(f"moved {rel_src} -> {rel_dst}")
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Migrate root directories")
@@ -95,7 +93,6 @@ def main() -> int:
                 run_git_mv(src, dst, dry_run=args.dry_run)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

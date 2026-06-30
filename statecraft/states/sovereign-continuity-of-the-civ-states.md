@@ -1,6 +1,5 @@
 # Sovereign Continuity Of The CIV-States
 
-WORK only; not Record.
 
 Sovereign continuity is the central claim beneath the `civ-state` shelf.
 

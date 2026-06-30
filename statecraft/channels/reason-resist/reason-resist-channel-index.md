@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Reason to Resist Channel Index
 

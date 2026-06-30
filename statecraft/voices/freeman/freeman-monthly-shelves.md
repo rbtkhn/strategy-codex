@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Freeman 2026 Monthly Shelves
 

@@ -1,6 +1,5 @@
 # Napolitano book - 2026-01
 
-WORK only; not Record.
 
 Purpose: route the January 2026 `Judging Freedom` balanced-core guest set inside the native Napolitano shelf.
 

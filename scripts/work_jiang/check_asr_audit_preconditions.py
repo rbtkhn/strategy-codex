@@ -34,11 +34,9 @@ VIDEO_ID_RE = re.compile(
     r"(?:youtube\.com/watch\?v=|youtu\.be/)([A-Za-z0-9_-]{11})\b",
 )
 
-
 def extract_video_id(md: str) -> str | None:
     m = VIDEO_ID_RE.search(md)
     return m.group(1) if m else None
-
 
 def find_raw_transcript(transcript_root: Path, video_id: str) -> Path | None:
     pattern = str(transcript_root / "transcripts" / f"{video_id}_*.txt")
@@ -46,7 +44,6 @@ def find_raw_transcript(transcript_root: Path, video_id: str) -> Path | None:
     if not matches:
         return None
     return Path(matches[0])
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -127,7 +124,6 @@ def main() -> int:
     if args.strict and missing_raw:
         return 1
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -14,7 +14,6 @@ archive_links:
 
 # Carlson x Kent speaker arc
 
-WORK only; not Record.
 
 Purpose: preserve the Tucker Carlson transformation of Joe Kent as a Kent-owned host-conditioned branch. This is the resignation-letter spine of the Kent object: the place where Kent's inside-system dissent is framed as public testimony about Iran war decision-making, Israeli influence, intelligence-channel bypass, Trump pressure, and a possible exit path.
 

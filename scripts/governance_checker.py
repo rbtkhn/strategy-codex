@@ -40,7 +40,6 @@ ALLOWED_RECORD_WRITERS = frozenset({
     "scripts/process_approved_candidates.py",
 })
 
-
 def scan_file(path: Path, path_rel: Path | None = None) -> list[tuple[int, str, str]]:
     """Return list of (line_num, rule, detail)."""
     violations = []
@@ -69,7 +68,6 @@ def scan_file(path: Path, path_rel: Path | None = None) -> list[tuple[int, str, 
 
     return violations
 
-
 def scan_repo() -> list[tuple[Path, int, str, str]]:
     """Scan Python files for governance violations."""
     results = []
@@ -83,7 +81,6 @@ def scan_repo() -> list[tuple[Path, int, str, str]]:
             results.append((path_rel, line_num, rule, detail))
     return results
 
-
 def main() -> int:
     """Return 0 if clean, 1 if violations found."""
     violations = scan_repo()
@@ -96,7 +93,6 @@ def main() -> int:
         print(f"  {path}:{line_num} — {rule}", file=sys.stderr)
         print(f"    {detail}", file=sys.stderr)
     return 1
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -22,14 +22,12 @@ from statecraft_day_archive import (
     select_day_dirs,
 )
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ARTIFACTS_DIR / "statecraft"
 SLICES_DIR = OUT_DIR / "slices"
 OUT_MD = OUT_DIR / "day-dashboard.md"
 OUT_JSON = OUT_DIR / "day-dashboard.json"
 SCHEMA_VERSION = "1.0.0-statecraft-day-dashboard"
-
 
 @dataclass(frozen=True)
 class DashboardArgs:
@@ -42,7 +40,6 @@ class DashboardArgs:
     hosts: tuple[str, ...]
     guests: tuple[str, ...]
     slug: str | None
-
 
 def parse_args() -> DashboardArgs:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -71,7 +68,6 @@ def parse_args() -> DashboardArgs:
 def _select_day_dirs(root: Path, year: str | None, from_day: str | None, to_day: str | None) -> list[Path]:
     return select_day_dirs(root, year=year, from_day=from_day, to_day=to_day)
 
-
 def _normalize_filter_values(values: tuple[str, ...]) -> tuple[str, ...]:
     normalized: list[str] = []
     for value in values:
@@ -80,13 +76,11 @@ def _normalize_filter_values(values: tuple[str, ...]) -> tuple[str, ...]:
             normalized.append(clean)
     return tuple(normalized)
 
-
 def _counter_matches(counter: Counter[str], required: tuple[str, ...]) -> bool:
     if not required:
         return True
     available = {" ".join(name.split()).strip().lower() for name in counter}
     return all(value in available for value in required)
-
 
 def filter_day_summaries(
     days: list[DaySummary],
@@ -109,24 +103,20 @@ def filter_day_summaries(
         and _counter_matches(day.guest_counter, want_guests)
     ]
 
-
 def _merge_counter(days: list[DaySummary], attr: str) -> Counter[str]:
     counter: Counter[str] = Counter()
     for day in days:
         counter.update(getattr(day, attr))
     return counter
 
-
 def _top_names(counter: Counter[str], limit: int = 3) -> str:
     if not counter:
         return "(none)"
     return ", ".join(name for name, _ in sorted(counter.items(), key=lambda item: (-item[1], item[0]))[:limit])
 
-
 def _format_day_link(root: Path, date: str) -> str:
     readme_path = (root / date / "README.md").resolve()
     return f"[{date}]({readme_path.as_posix()})"
-
 
 def _normalize_slug(value: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", value.strip().lower()).strip("-")
@@ -134,13 +124,11 @@ def _normalize_slug(value: str) -> str:
         raise SystemExit("slug must contain at least one alphanumeric character")
     return slug
 
-
 def resolve_output_paths(slug: str | None) -> tuple[Path, Path]:
     if not slug:
         return OUT_MD, OUT_JSON
     clean = _normalize_slug(slug)
     return SLICES_DIR / f"{clean}.md", SLICES_DIR / f"{clean}.json"
-
 
 def build_dashboard_payload(
     root: Path,
@@ -229,7 +217,6 @@ def build_dashboard_payload(
         ],
     }
 
-
 def _render_counter_table(counter: Counter[str], header: str, limit: int = 10) -> list[str]:
     rows = sorted(counter.items(), key=lambda item: (-item[1], item[0]))[:limit]
     lines = [f"## {header}", "", "| Name | Count |", "| --- | ---: |"]
@@ -239,7 +226,6 @@ def _render_counter_table(counter: Counter[str], header: str, limit: int = 10) -
         lines.append("| `(none)` | 0 |")
     lines.append("")
     return lines
-
 
 def render_dashboard_markdown(root: Path, payload: dict) -> str:
     coverage = payload["coverage"]
@@ -326,7 +312,6 @@ def render_dashboard_markdown(root: Path, payload: dict) -> str:
     lines.append("")
     return "\n".join(lines)
 
-
 def main() -> int:
     args = parse_args()
     day_dirs = _select_day_dirs(args.root, args.year, args.from_day, args.to_day)
@@ -360,7 +345,6 @@ def main() -> int:
     print(f"wrote {out_md}")
     print(f"wrote {out_json}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

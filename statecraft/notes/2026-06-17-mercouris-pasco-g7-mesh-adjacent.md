@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-17/source-dialogue-works-pepe-escobar-israel-outplayed-mou-beat-israel-2026-06-17.md
   - source-archive/statecraft/2026-06-17/source-mario-nawfal-parsi-breaking-full-iran-mou-released-2026-06-17.md
 ---
-WORK only; not Record.
 
 # Mercouris — Pasco / G7 mesh × Iran MOU adjacent — 2026-06-17
 

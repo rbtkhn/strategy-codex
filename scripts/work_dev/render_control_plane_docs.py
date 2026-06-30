@@ -23,7 +23,6 @@ BANNER = (
     "run: python scripts/work_dev/render_control_plane_docs.py -->\n\n"
 )
 
-
 def render_integration_status() -> str:
     data = yaml.safe_load((CONTROL_PLANE / "integration_status.yaml").read_text(encoding="utf-8"))
     lines = [
@@ -47,7 +46,6 @@ def render_integration_status() -> str:
         lines.append("\n")
     return "".join(lines)
 
-
 def render_known_gaps() -> str:
     data = yaml.safe_load((CONTROL_PLANE / "known_gaps.yaml").read_text(encoding="utf-8"))
     lines = [BANNER, "# Known gaps (generated)\n\n"]
@@ -56,7 +54,6 @@ def render_known_gaps() -> str:
         prob = (g.get("problem") or "").replace("|", "\\|")
         lines.append(f"| `{g.get('id')}` | {g.get('area')} | `{g.get('status')}` | {prob} |\n")
     return "".join(lines)
-
 
 def render_target_registry() -> str:
     data = yaml.safe_load((CONTROL_PLANE / "target_registry.yaml").read_text(encoding="utf-8"))
@@ -67,7 +64,6 @@ def render_target_registry() -> str:
             f"| `{s.get('id')}` | {s.get('label')} | `{s.get('status')}` | {s.get('buyer_role')} |\n"
         )
     return "".join(lines)
-
 
 def render_proof_ledger() -> str:
     data = yaml.safe_load((CONTROL_PLANE / "proof_ledger.yaml").read_text(encoding="utf-8"))
@@ -80,7 +76,6 @@ def render_proof_ledger() -> str:
         )
     return "".join(lines)
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Render control plane markdown.")
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
@@ -92,7 +87,6 @@ def main() -> int:
     (OUT_DIR / "proof-ledger.generated.md").write_text(render_proof_ledger(), encoding="utf-8")
     print("render_control_plane_docs: OK -> docs/skill-work/work-dev/generated/")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

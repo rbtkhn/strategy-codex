@@ -20,7 +20,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 READ_RE = re.compile(r"\b(READ-[0-9]{4})\b")
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -70,7 +69,6 @@ def main() -> int:
         file=sys.stderr,
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

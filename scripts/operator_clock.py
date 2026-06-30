@@ -11,7 +11,6 @@ from __future__ import annotations
 import argparse
 from datetime import datetime, timezone
 
-
 def main() -> int:
     p = argparse.ArgumentParser(
         description="Print one ISO-8601 UTC timestamp line (operator session clock)."
@@ -28,7 +27,6 @@ def main() -> int:
     else:
         print(now.strftime("%Y-%m-%dT%H:%M:%SZ"))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

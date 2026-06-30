@@ -1,6 +1,5 @@
 # Wilkerson February 2026 note
 
-WORK only; not Record.
 
 Purpose: preserve what February 2026 currently means on the Wilkerson shelf as a single-anchor bridge month rather than pretending it carries the same structural weight as the heavier 2026 escalation corridor.
 

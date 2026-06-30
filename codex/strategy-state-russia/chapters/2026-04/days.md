@@ -1,6 +1,5 @@
 # strategy-state-russia — `chapters/2026-04/days.md`
 
-WORK only; not Record.
 
 Purpose: calendar index for this month in the state-russia lane.
 

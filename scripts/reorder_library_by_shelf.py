@@ -43,7 +43,6 @@ LANE_TO_SHELF = {
     "influence": "Influence",
 }
 
-
 def _classify_shelf(block: str) -> str:
     scope_m = re.search(r"scope:\s*\[([^\]]*)\]", block)
     scope_raw = scope_m.group(1) if scope_m else ""
@@ -55,16 +54,13 @@ def _classify_shelf(block: str) -> str:
     lane = (lane_m.group(1) or "canon").lower()
     return LANE_TO_SHELF.get(lane, "Canon")
 
-
 def _lib_id_num(block: str) -> int:
     m = re.search(r"id:\s+LIB-(\d+)", block)
     return int(m.group(1)) if m else 0
 
-
 def extract_entries_block(content: str) -> str | None:
     m = re.search(r"^```yaml\s*\nentries:\s*\n(.*?)^```", content, re.MULTILINE | re.DOTALL)
     return m.group(1).strip() if m else None
-
 
 def _strip_trailing_section_comment(block: str) -> str:
     """Remove trailing blank lines and section comments (  # --- ... )."""
@@ -76,7 +72,6 @@ def _strip_trailing_section_comment(block: str) -> str:
         else:
             break
     return "\n".join(lines).rstrip()
-
 
 def parse_blocks(entries_body: str) -> list[tuple[str, str]]:
     """Return list of (raw_block, shelf)."""
@@ -94,12 +89,10 @@ def parse_blocks(entries_body: str) -> list[tuple[str, str]]:
         out.append((raw, shelf))
     return out
 
-
 def reorder(blocks_with_shelf: list[tuple[str, str]]) -> list[tuple[str, str]]:
     order_idx = {s: i for i, s in enumerate(SHELF_ORDER)}
     key = lambda x: (order_idx.get(x[1], 99), _lib_id_num(x[0]))
     return sorted(blocks_with_shelf, key=key)
-
 
 def emit_entries(ordered: list[tuple[str, str]]) -> str:
     lines = ["entries:"]
@@ -112,7 +105,6 @@ def emit_entries(ordered: list[tuple[str, str]]) -> str:
         prev_shelf = shelf
         lines.append(raw)
     return "\n".join(lines)
-
 
 def main() -> int:
     import sys
@@ -148,7 +140,6 @@ def main() -> int:
     else:
         print(yaml_block)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

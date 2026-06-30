@@ -15,7 +15,6 @@ links:
 
 # Prediction resolution — ukraine_escalation_russian_capitulation
 
-WORK only; not Record.
 
 **Event question:** Will Trump's Kellogg-style escalation-to-deescalate produce Russian capitulation in Ukraine negotiations?  
 **Resolution criteria:** Resolved no if no Russian capitulation under Kellogg-style escalation.  

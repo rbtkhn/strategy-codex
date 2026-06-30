@@ -1,6 +1,5 @@
 # SID Transaction Memo Template
 
-WORK only; not Record.
 
 Use for **Statecraft Intelligence Desk (SID)** crisis-week or retainer **Transaction Memo** deliverables — lighter than the full [statecraft-transaction](statecraft-transaction.md) instrument. Partner-review shape: pin-cites, escalation ladder, explicit falsifiers.
 

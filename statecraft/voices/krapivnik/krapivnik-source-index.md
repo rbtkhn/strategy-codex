@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Krapivnik Source Index (compat redirect)
 

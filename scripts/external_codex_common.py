@@ -6,15 +6,12 @@ from pathlib import Path
 
 MAX_READ_TITLE_BYTES = 8192
 
-
 def posix_relative(base: Path, target: Path) -> str:
     return target.relative_to(base).as_posix()
-
 
 def reject_dotgit(path: Path) -> None:
     if ".git" in path.parts:
         raise ValueError(f"path resolves under .git (forbidden): {path}")
-
 
 def is_inside_checkout(checkout_res: Path, path: Path) -> bool:
     try:
@@ -22,7 +19,6 @@ def is_inside_checkout(checkout_res: Path, path: Path) -> bool:
         return True
     except ValueError:
         return False
-
 
 def resolve_subject_under_checkout(checkout: Path, subject_rel: str) -> Path:
     """Return absolute Path to subject; raise ValueError if traversal or outside checkout."""
@@ -44,7 +40,6 @@ def resolve_subject_under_checkout(checkout: Path, subject_rel: str) -> Path:
         raise ValueError(f"subject path does not exist: {full}")
     return full
 
-
 def resolve_repo_path(repo_root: Path, repo_path: str | Path) -> Path:
     """Resolve external codex checkout directory relative to repo_root or absolute."""
     p = Path(repo_path)
@@ -57,7 +52,6 @@ def resolve_repo_path(repo_root: Path, repo_path: str | Path) -> Path:
     reject_dotgit(out)
     return out
 
-
 def civilization_token_from_path(path_rel: str) -> str | None:
     parts = path_rel.replace("\\", "/").split("/")
     try:
@@ -67,7 +61,6 @@ def civilization_token_from_path(path_rel: str) -> str | None:
     except ValueError:
         pass
     return None
-
 
 def infer_file_class(filename: str) -> str:
     if filename.startswith("MEM--"):
@@ -84,7 +77,6 @@ def infer_file_class(filename: str) -> str:
         return "readme"
     return "other"
 
-
 def is_index_core_scholar_path(path_rel: str, basename: str) -> bool:
     pl = path_rel.lower()
     bu = basename.upper()
@@ -94,14 +86,12 @@ def is_index_core_scholar_path(path_rel: str, basename: str) -> bool:
         return True
     return False
 
-
 def is_governance_template_path(path_rel: str, basename: str) -> bool:
     pl = path_rel.lower()
     bu = basename.upper()
     if "/templates/" in pl or "TEMPLATE" in bu:
         return True
     return False
-
 
 def extract_markdown_title(abs_path: Path) -> str | None:
     if not abs_path.is_file():
@@ -115,7 +105,6 @@ def extract_markdown_title(abs_path: Path) -> str | None:
         if line.startswith("# "):
             return line[2:].strip()
     return None
-
 
 def compute_neighbor_edges(
     checkout: Path,
@@ -181,7 +170,6 @@ def compute_neighbor_edges(
         deduped.append((path_rel, edge))
     return deduped, warnings
 
-
 def compute_neighbor_relative_paths(
     checkout: Path,
     subject: Path,
@@ -189,7 +177,6 @@ def compute_neighbor_relative_paths(
     """Deduped neighbor posix paths only (same semantics as neighborhood membership sweep)."""
     edges, warnings = compute_neighbor_edges(checkout, subject)
     return [pr for pr, _ in edges], warnings
-
 
 def checkout_relative_to_repo(repo_root: Path, checkout: Path) -> str:
     """Best-effort posix path string for reports."""

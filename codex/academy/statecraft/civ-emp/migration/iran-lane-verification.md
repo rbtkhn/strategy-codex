@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Iran Lane-Level Verification
 

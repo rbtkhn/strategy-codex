@@ -21,10 +21,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
-
 def _esc_cell(s: str) -> str:
     return (s or "").replace("|", "\\|")
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -127,7 +125,6 @@ def main() -> int:
 
     print(f"Wrote {md_path.relative_to(REPO_ROOT)} and {json_path.relative_to(REPO_ROOT)}", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

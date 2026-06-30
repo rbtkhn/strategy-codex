@@ -12,7 +12,6 @@ archive_links:
   - source-archive/statecraft/2026-06-08/source-judging-freedom-crooke-ceasefire-for-all-or-ceasefire-for-no-one-2026-06-08.md
   - source-archive/statecraft/2026-06-05/source-dialogue-works-crooke-irans-trigger-warning-withdraw-from-lebanon-any-violations-and-we-strike-2026-06-05.md
 ---
-WORK only; not Record.
 
 # Davis Lebanon Fulcrum × Crooke Ceasefire-for-All — 2026-06-08
 

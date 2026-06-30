@@ -19,7 +19,6 @@ import yaml
 ROOT = Path(__file__).resolve().parents[2]
 WORK = ROOT / "codex" / "predictive-history"
 
-
 def main() -> int:
     sources = yaml.safe_load((WORK / "metadata" / "sources.yaml").read_text(encoding="utf-8")).get(
         "sources", []
@@ -130,7 +129,6 @@ def main() -> int:
         )
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

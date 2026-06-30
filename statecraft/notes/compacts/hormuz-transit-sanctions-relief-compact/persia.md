@@ -1,6 +1,5 @@
 # Iran - Hormuz Transit / Sanctions Relief Compact
 
-WORK only; not Record.
 
 ## Transaction Name
 

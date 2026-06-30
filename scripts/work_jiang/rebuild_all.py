@@ -18,11 +18,9 @@ Canonical writable ownership now lives in:
 but it must not regenerate or maintain PH corpus/manuscript state locally.
 """
 
-
 def main() -> int:
     print(DEPRECATION_MESSAGE, file=sys.stderr)
     return 2
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

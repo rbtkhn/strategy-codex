@@ -1,6 +1,6 @@
 # Kent Speaker Starter
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This is a compact starter surface for Joe Kent inside the statecraft bench.
 

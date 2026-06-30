@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Bundle strategy-notebook sources for compiled-view recipes (WORK only).
+"""Bundle strategy-notebook sources for compiled-view recipes (non-authoritative).
 
 Emits a deterministic markdown **source bundle**: machine layers, strategy-page
 blocks, and optional inbox / chapter tails. Does **not** call an LLM.
@@ -46,7 +46,6 @@ from strategy_page_reader import discover_pages  # noqa: E402
 RECIPE_ID = "RECIPE-STRATEGY-POLYPHONY-FIVE-CONDUCTORS-2026-04-23-003"
 RE_FLAT_THREAD = re.compile(r"^strategy-expert-(.+)-thread(?:-(\d{4}-\d{2}))?\.md$")
 
-
 def expert_id_from_thread_path(path: Path, notebook_dir: Path) -> str | None:
     """Best-effort expert/voice id from a thread file path under notebook_dir."""
     try:
@@ -68,14 +67,12 @@ def expert_id_from_thread_path(path: Path, notebook_dir: Path) -> str | None:
         return m2.group(1)
     return None
 
-
 def extract_machine_layer(text: str) -> str | None:
     if THREAD_MARKER_START not in text or THREAD_MARKER_END not in text:
         return None
     _, _, rest = text.partition(THREAD_MARKER_START)
     inner, _, _ = rest.partition(THREAD_MARKER_END)
     return inner.strip() or None
-
 
 def journal_above_machine(text: str, max_chars: int) -> str:
     """Journal layer: content before the machine fence (truncated)."""
@@ -87,7 +84,6 @@ def journal_above_machine(text: str, max_chars: int) -> str:
         return body[: max_chars - 20].rstrip() + "\n\n… *[truncated]* …"
     return body
 
-
 def tail_lines(path: Path, n: int, max_chars: int) -> str:
     if not path.is_file():
         return ""
@@ -96,7 +92,6 @@ def tail_lines(path: Path, n: int, max_chars: int) -> str:
     if len(chunk) > max_chars:
         return chunk[-max_chars:]
     return chunk
-
 
 def build_bundle(
     notebook_dir: Path,
@@ -112,7 +107,7 @@ def build_bundle(
     ym = ymd[:7]
     lines: list[str] = []
 
-    lines.append("<!-- compiled-view-bundle: strategy-notebook WORK only; derived; not SSOT -->")
+    lines.append("<!-- compiled-view-bundle: strategy-notebook non-authoritative; derived; not SSOT -->")
     lines.append("")
     lines.append(f"# Source bundle — expert polyphony ({ymd})")
     lines.append("")
@@ -276,7 +271,6 @@ def build_bundle(
 
     return "\n".join(lines)
 
-
 def collect_source_paths_for_bundle(
     notebook_dir: Path,
     bundle_date: date,
@@ -313,14 +307,12 @@ def collect_source_paths_for_bundle(
         key=lambda s: s.lower(),
     )
 
-
 def default_out_path(notebook_dir: Path, bundle_date: date) -> Path:
     return (
         notebook_dir
         / "compiled-views"
         / f"expert-polyphony-synthesis-{bundle_date.isoformat()}.md"
     )
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Bundle notebook sources for compiled views.")
@@ -410,7 +402,6 @@ def main() -> None:
         )
         log = append_receipt(REPO_ROOT, rec)
         print(f"receipt: {log.relative_to(REPO_ROOT)}", flush=True)
-
 
 if __name__ == "__main__":
     main()

@@ -25,4 +25,3 @@
 
 ---
 
-WORK only; not Record.

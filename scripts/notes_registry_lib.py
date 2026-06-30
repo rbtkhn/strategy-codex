@@ -19,7 +19,6 @@ SYNTHESIS_PATH_RE = re.compile(r"statecraft/synthesis/[^\s)\]`\"']+")
 TIER_B_SUBFOLDERS = frozenset({"wire", "watch", "reentry", "intake"})
 AUTHORITY_LEVELS = frozenset({"draft", "review-needed", "shelf-native", "deprecated"})
 
-
 def resolve_link(from_path: Path, target: str) -> Path | None:
     t = target.strip().split("#")[0].strip()
     if not t or t.startswith("#") or "://" in t:
@@ -31,7 +30,6 @@ def resolve_link(from_path: Path, target: str) -> Path | None:
         return None
     return candidate
 
-
 def archive_paths_in_text(text: str) -> list[str]:
     found: list[str] = []
     for match in ARCHIVE_PATH_RE.findall(text):
@@ -40,10 +38,8 @@ def archive_paths_in_text(text: str) -> list[str]:
             found.append(normalized)
     return found
 
-
 def synthesis_paths_in_text(text: str) -> list[str]:
     return list(dict.fromkeys(SYNTHESIS_PATH_RE.findall(text.replace("\\", "/"))))
-
 
 def resolved_archive_anchors(meta: Any, text: str) -> list[str]:
     anchors = list(getattr(meta, "archive_links", []) or []) + list(getattr(meta, "nodes", []) or [])
@@ -56,7 +52,6 @@ def resolved_archive_anchors(meta: Any, text: str) -> list[str]:
         if p.exists():
             resolved.append(item.replace("\\", "/"))
     return resolved
-
 
 def build_inbound_note_links(
     paths: list[Path],
@@ -79,7 +74,6 @@ def build_inbound_note_links(
                 inbound[target_rel] += 1
     return inbound
 
-
 def count_outbound_note_links(from_path: Path, text: str, tier_a_rels: set[str]) -> int:
     from_rel = from_path.relative_to(REPO_ROOT).as_posix()
     count = 0
@@ -92,14 +86,12 @@ def count_outbound_note_links(from_path: Path, text: str, tier_a_rels: set[str])
             count += 1
     return count
 
-
 def _path_under_notes(path: Path) -> bool:
     try:
         path.resolve().relative_to(NOTES_ROOT.resolve())
         return True
     except ValueError:
         return False
-
 
 def count_broken_note_links(from_path: Path, text: str) -> tuple[int, list[str]]:
     """Return (count, broken targets) per broken-link spec."""
@@ -153,13 +145,11 @@ def count_broken_note_links(from_path: Path, text: str) -> tuple[int, list[str]]
 
     return len(broken), broken
 
-
 def apply_dates(meta: Any, merged: dict[str, Any]) -> None:
     for key in ("created_at", "updated_at"):
         val = merged.get(key)
         if val is not None and str(val).strip():
             setattr(meta, key, str(val).strip())
-
 
 def collect_warning_tags(
     meta: Any,
@@ -213,7 +203,6 @@ def collect_warning_tags(
 
     return sorted(set(tags))
 
-
 @dataclass
 class RegistryRow:
     tier: str
@@ -236,7 +225,6 @@ class RegistryRow:
         d["essay_candidate"] = self.essay_candidate
         return d
 
-
 def tier_b_subfolder(rel: str) -> str:
     parts = rel.split("/")
     if len(parts) >= 3 and parts[0] == "statecraft" and parts[1] == "notes":
@@ -244,7 +232,6 @@ def tier_b_subfolder(rel: str) -> str:
         if sub in TIER_B_SUBFOLDERS:
             return sub
     return ""
-
 
 def build_registry_row(
     meta: Any,
@@ -285,7 +272,6 @@ def build_registry_row(
         warnings=warnings,
         subfolder=tier_b_subfolder(meta.rel) if meta.tier == "B" else "",
     )
-
 
 def build_dashboard(rows: list[RegistryRow]) -> dict[str, Any]:
     tier_a = [r for r in rows if r.tier == "A"]
@@ -340,7 +326,6 @@ def build_dashboard(rows: list[RegistryRow]) -> dict[str, Any]:
         ],
     }
 
-
 def _dashboard_md_block(dashboard: dict[str, Any]) -> list[str]:
     ta = dashboard["tier_a"]
     tb = dashboard["tier_b_summary"]
@@ -369,7 +354,6 @@ def _dashboard_md_block(dashboard: dict[str, Any]) -> list[str]:
         "",
     ]
     return lines
-
 
 def render_registry_markdown(rows: list[RegistryRow], dashboard: dict[str, Any]) -> str:
     tier_a = sorted([r for r in rows if r.tier == "A"], key=lambda r: (r.note_type, r.title))
@@ -443,7 +427,6 @@ def render_registry_markdown(rows: list[RegistryRow], dashboard: dict[str, Any])
         lines.append(f"| {link} | {row.note_type} | {row.subfolder} |")
     lines.append("")
     return "\n".join(lines)
-
 
 def render_registry_json(rows: list[RegistryRow], dashboard: dict[str, Any]) -> str:
     payload = {

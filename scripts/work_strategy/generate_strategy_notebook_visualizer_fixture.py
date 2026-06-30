@@ -5,7 +5,7 @@ The fixture is intentionally small: it indexes dates, raw-input files, and
 per-expert file groups. The browser fetches the selected Markdown file directly
 from the local HTTP server, so the JSON does not duplicate the notebook body.
 
-WORK only. Does not touch Record, gate, or  paths.
+non-authoritative. Does not touch Record, gate, or  paths.
 """
 
 from __future__ import annotations
@@ -33,21 +33,17 @@ THREAD_FIELD_RE = re.compile(
 )
 LINK_RE = re.compile(r"\[[^\]]+\]\((?P<href>[^)]+)\)")
 
-
 def _repo_rel(path: Path) -> str:
     return path.resolve().relative_to(REPO_ROOT).as_posix()
 
-
 def _notebook_rel(path: Path, notebook: Path) -> str:
     return path.resolve().relative_to(notebook.resolve()).as_posix()
-
 
 def _read_head(path: Path, limit: int = 12000) -> str:
     try:
         return path.read_text(encoding="utf-8", errors="replace")[:limit]
     except OSError:
         return ""
-
 
 def _frontmatter(text: str) -> dict[str, str]:
     if not text.startswith("---"):
@@ -63,14 +59,12 @@ def _frontmatter(text: str) -> dict[str, str]:
         out[key.strip()] = value.strip().strip('"').strip("'")
     return out
 
-
 def _heading(text: str) -> str | None:
     for line in text.splitlines():
         line = line.strip()
         if line.startswith("# "):
             return line[2:].strip()
     return None
-
 
 def _thread_binding_fields(text: str) -> dict[str, str]:
     fields: dict[str, str] = {}
@@ -84,12 +78,10 @@ def _thread_binding_fields(text: str) -> dict[str, str]:
         fields[key] = value
     return fields
 
-
 def _title_for(path: Path) -> str:
     text = _read_head(path, 4000)
     fm = _frontmatter(text)
     return fm.get("title") or _heading(text) or path.stem.replace("-", " ")
-
 
 def _meta_for(path: Path, notebook: Path) -> dict[str, Any]:
     text = _read_head(path)
@@ -112,7 +104,6 @@ def _meta_for(path: Path, notebook: Path) -> dict[str, Any]:
         meta["threadBinding"] = binding
     return meta
 
-
 def _kind_from_name(name: str) -> str:
     lo = name.lower()
     if lo.startswith("transcript-") or "transcript" in lo:
@@ -127,14 +118,12 @@ def _kind_from_name(name: str) -> str:
         return "manifest"
     return "note"
 
-
 def _thread_from_name(name: str) -> str | None:
     bits = name.lower().replace(".md", "").split("-")
     for prefix in ("substack", "transcript", "youtube", "duran", "x"):
         if len(bits) > 1 and bits[0] == prefix:
             return bits[1]
     return None
-
 
 def _profile_name(profile: Path, fallback: str) -> str:
     text = _read_head(profile, 6000)
@@ -147,7 +136,6 @@ def _profile_name(profile: Path, fallback: str) -> str:
     if h:
         return h.replace("Strategy expert -", "").replace("Strategy expert --", "").strip()
     return fallback
-
 
 def _group_expert_file(path: Path, expert_id: str) -> str:
     name = path.name.lower()
@@ -168,7 +156,6 @@ def _group_expert_file(path: Path, expert_id: str) -> str:
     if name.startswith(f"{expert_id}-page-"):
         return "pages"
     return "other"
-
 
 def _build_fixture(notebook_rel: str) -> dict[str, Any]:
     notebook = (REPO_ROOT / notebook_rel).resolve()
@@ -234,13 +221,11 @@ def _build_fixture(notebook_rel: str) -> dict[str, Any]:
         "experts": experts,
     }
 
-
 def _stable_for_compare(data: dict[str, Any], existing: dict[str, Any] | None) -> dict[str, Any]:
     normalized = copy.deepcopy(data)
     if existing and isinstance(existing.get("generatedAt"), str):
         normalized["generatedAt"] = existing["generatedAt"]
     return normalized
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -286,7 +271,6 @@ def main() -> int:
         f"(dates: {len(fixture['dates'])}, experts: {len(fixture['experts'])})"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -25,7 +25,6 @@ _KIND_EP.update({i: "analysis" for i in range(5, 100)})
 
 _PRIORITY_EP: dict[int, str] = {i: "medium" for i in range(1, 100)}
 
-
 def main() -> int:
     sources = yaml.safe_load((WORK / "metadata" / "sources.yaml").read_text(encoding="utf-8")).get(
         "sources", []
@@ -135,7 +134,6 @@ def main() -> int:
         )
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

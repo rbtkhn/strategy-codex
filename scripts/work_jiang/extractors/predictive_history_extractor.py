@@ -7,7 +7,6 @@ from extractors.base import LectureExtractor
 
 ROOT = Path(__file__).resolve().parents[3]
 
-
 class PredictiveHistoryExtractor(LectureExtractor):
     """Umbrella channel / Civilization (`civ-*`) — same JSON schema as Geo-Strategy until prompts split."""
 

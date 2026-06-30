@@ -22,4 +22,3 @@ January is now materially real on disk, but it is still thinner than the later D
 - January remains narrower than the later March-April Davis body.
 - External January references such as the 2026-01-13 Substack item, the 2026-01-16 Substack item, and the 2026-01-22 Scott Horton appearance should be treated as reinforcement, not as the native January Davis shelf.
 
-WORK only; not Record.

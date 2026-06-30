@@ -1,6 +1,5 @@
 # Mearsheimer page — 2026-04-10 (legacy pointer; lane-split)
 
-WORK only; not Record.
 
 **Superseded (lane split):** This file previously duplicated the full line-by-line transcript. **SSOT** is [provenance/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../../../source-archive/statecraft/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md) only.
 

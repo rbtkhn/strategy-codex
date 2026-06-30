@@ -1,6 +1,5 @@
 # Dialogue Works Index
 
-WORK only; not Record.
 
 Compatibility pointer only.
 

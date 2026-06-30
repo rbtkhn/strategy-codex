@@ -11,7 +11,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 DEFAULT_LOG = REPO_ROOT / "runtime" / "autonomy" / "shadow_decisions.jsonl"
 
-
 def append_shadow_decision(
     record: dict,
     *,
@@ -22,7 +21,6 @@ def append_shadow_decision(
     rec = {"ts": datetime.now(timezone.utc).isoformat(), **record}
     with open(p, "a", encoding="utf-8") as f:
         f.write(json.dumps(rec, ensure_ascii=False) + "\n")
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Log one shadow decision (JSON fields).")
@@ -47,7 +45,6 @@ def main() -> int:
     )
     print("log_shadow_decision: appended")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,5 @@
 # Speaker Insight To Policy Memo
 
-WORK only; not Record.
 
 Use this sheet when a speaker appearance contains one policy-relevant insight, but the statecraft output must remain a memo, not a speaker summary or worldview import.
 

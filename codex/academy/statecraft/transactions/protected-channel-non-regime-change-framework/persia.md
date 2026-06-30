@@ -1,6 +1,5 @@
 # Iran - Protected Channel / Non-Regime-Change Framework
 
-WORK only; not Record.
 
 ## Transaction Name
 

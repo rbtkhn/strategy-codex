@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Alexander Mercouris Channel Index
 
@@ -399,6 +398,8 @@ This channel index lists **host-channel captures** (`channel_slug: alexander-mer
 - [source-alexander-mercouris-lukashenko-no-to-zelensky-belarus-stands-with-russia-russian-troops-enter-sumy-eu-no-to-kiev-entry-2026-06-25.md](../../../source-archive/statecraft/2026-06-25/source-alexander-mercouris-lukashenko-no-to-zelensky-belarus-stands-with-russia-russian-troops-enter-sumy-eu-no-to-kiev-entry-2026-06-25.md)
 - [source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md](../../../source-archive/statecraft/2026-06-26/source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md)
 - [source-alexander-mercouris-putin-lukashenko-rebuff-zelensky-meet-in-valdai-french-msm-admits-kiev-troops-losing-mou-unravels-2026-06-27.md](../../../source-archive/statecraft/2026-06-27/source-alexander-mercouris-putin-lukashenko-rebuff-zelensky-meet-in-valdai-french-msm-admits-kiev-troops-losing-mou-unravels-2026-06-27.md)
+- [source-alexander-mercouris-russia-hits-back-kills-kiev-intel-chief-putin-west-kiev-strikes-destabilisation-failed-2026-06-28.md](../../../source-archive/statecraft/2026-06-28/source-alexander-mercouris-russia-hits-back-kills-kiev-intel-chief-putin-west-kiev-strikes-destabilisation-failed-2026-06-28.md) (`VDqB9BtSYiM`)
+- [source-alexander-mercouris-putin-rejects-talks-odessa-donbas-drones-abate-2026-06-29.md](../../../source-archive/statecraft/2026-06-29/source-alexander-mercouris-putin-rejects-talks-odessa-donbas-drones-abate-2026-06-29.md) (`K_XawoxsngQ`)
 
 ## Reading rule
 

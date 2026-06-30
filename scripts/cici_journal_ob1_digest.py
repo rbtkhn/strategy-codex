@@ -54,7 +54,6 @@ SESSION_TRANSCRIPT_MAX_CHARS = 12000
 DEFAULT_STRATEGY_NOTEBOOK_MAX_CHARS = 10000
 DEFAULT_SESSION_TRANSCRIPT = REPO_ROOT / "platform/users" / "grace-mar" / "session-transcript.md"
 
-
 def _env_truthy(*keys: str) -> bool:
     for k in keys:
         v = os.environ.get(k, "").strip().lower()
@@ -62,19 +61,16 @@ def _env_truthy(*keys: str) -> bool:
             return True
     return False
 
-
 try:
     import yaml  # type: ignore[import-untyped]
 except ImportError:
     yaml = None  # type: ignore[misc, assignment]
-
 
 @dataclass(frozen=True)
 class CommitLine:
     sha: str
     short_message: str
     html_url: str
-
 
 @dataclass
 class DayContext:
@@ -87,10 +83,8 @@ class DayContext:
     transcript_excerpt: str | None = None
     artifacts: list[str] = field(default_factory=list)
 
-
 _RE_TRANSCRIPT_LINE = re.compile(r"^\*\*\[(\d{4}-\d{2}-\d{2})\s+[^\]]+\]\*\*")
 _RE_FRONTMATTER = re.compile(r"\A---\s*\r?\n(.*?)\r?\n---\s*\r?\n", re.DOTALL)
-
 
 def _utc_bounds_for_local_day(d: date, tz_name: str) -> tuple[datetime, datetime]:
     z = ZoneInfo(tz_name)
@@ -101,13 +95,11 @@ def _utc_bounds_for_local_day(d: date, tz_name: str) -> tuple[datetime, datetime
         end_local.astimezone(timezone.utc),
     )
 
-
 def _github_iso(dt: datetime) -> str:
     """ISO 8601 with Z for UTC."""
     if dt.tzinfo is None:
         dt = dt.replace(tzinfo=timezone.utc)
     return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
 
 def _http_json(url: str, token: str | None) -> list | dict:
     req = urllib.request.Request(url)
@@ -122,7 +114,6 @@ def _http_json(url: str, token: str | None) -> list | dict:
         detail = e.read().decode("utf-8", errors="replace")
         raise SystemExit(f"GitHub API error {e.code} for {url}: {detail[:500]}") from e
     return json.loads(body)
-
 
 def fetch_commits_for_day(
     owner: str,
@@ -160,7 +151,6 @@ def fetch_commits_for_day(
             out.append(CommitLine(sha=sha, short_message=msg or "(no message)", html_url=html_url))
     return out
 
-
 _RE_CONV_COMMIT = re.compile(
     r"^(\w+)(?:\([^)]*\))?\s*:\s*(.+)$",
     re.DOTALL,
@@ -173,7 +163,6 @@ _RE_TITLE_DAY = re.compile(
     re.MULTILINE,
 )
 _RE_BODY_JOURNAL_DAY = re.compile(r"\*\*Journal day:\*\*\s*(\d+)")
-
 
 def _journal_day_from_file(path: Path) -> int | None:
     """Best-effort journal day index from legacy or new daily file."""
@@ -188,7 +177,6 @@ def _journal_day_from_file(path: Path) -> int | None:
     if tm:
         return int(tm.group(1))
     return None
-
 
 def next_journal_day_number(journal_dir: Path) -> int:
     """Next ordinal journal day: max(parsed from entries) + 1.
@@ -206,7 +194,6 @@ def next_journal_day_number(journal_dir: Path) -> int:
                 max_n = max(max_n, n)
     return max_n + 1
 
-
 def _conventional_kind(short_message: str) -> str:
     """Best-effort feat/docs/fix label from first line (Conventional Commits or plain)."""
     s = short_message.strip()
@@ -217,7 +204,6 @@ def _conventional_kind(short_message: str) -> str:
     if head.endswith(":"):
         head = head[:-1]
     return head if head else "other"
-
 
 def _overview_markdown(commits: list[CommitLine], branch: str) -> list[str]:
     """Deterministic synthesis from commit messages â€” no LLM."""
@@ -247,13 +233,11 @@ def _overview_markdown(commits: list[CommitLine], branch: str) -> list[str]:
         out.append(f"- â€¦and {len(unique_msgs) - cap} more distinct line(s).")
     return out
 
-
 def _split_frontmatter_body(raw: str) -> tuple[str, str]:
     m = _RE_FRONTMATTER.match(raw)
     if not m:
         return "", raw
     return m.group(1).strip(), raw[m.end() :]
-
 
 def _artifacts_from_yaml_block(fm: str) -> list[str]:
     if not fm.strip():
@@ -290,7 +274,6 @@ def _artifacts_from_yaml_block(fm: str) -> list[str]:
         i += 1
     return out
 
-
 def _read_artifact_sidecar(sidecar: Path) -> list[str]:
     if not sidecar.is_file():
         return []
@@ -301,7 +284,6 @@ def _read_artifact_sidecar(sidecar: Path) -> list[str]:
             continue
         out.append(s)
     return out
-
 
 def load_inbox_for_day(
     journal_dir: Path,
@@ -355,7 +337,6 @@ def load_inbox_for_day(
     combined = "\n\n---\n\n".join(b for b in bodies if b) if bodies else None
     return combined, provenance, uniq_art
 
-
 def extract_strategy_notebook_day_block(
     repo_root: Path,
     day: date,
@@ -394,7 +375,6 @@ def extract_strategy_notebook_day_block(
         )
     return block, rel
 
-
 def extract_session_transcript_for_day(
     path: Path,
     day: date,
@@ -432,7 +412,6 @@ def extract_session_transcript_for_day(
         blob = blob[: max_chars - 20] + "\n\nâ€¦(truncated)"
     return blob
 
-
 def _artifacts_render_lines(paths: list[str], repo_root: Path, stderr: TextIO) -> list[str]:
     lines: list[str] = []
     for rel in paths:
@@ -447,7 +426,6 @@ def _artifacts_render_lines(paths: list[str], repo_root: Path, stderr: TextIO) -
         else:
             stderr.write(f"Warning: artifact missing, skip: {rel}\n")
     return lines
-
 
 def collect_day_context(
     journal_dir: Path,
@@ -488,7 +466,6 @@ def collect_day_context(
         transcript_excerpt=tr,
         artifacts=arts,
     )
-
 
 def build_markdown(
     *,
@@ -592,7 +569,6 @@ def build_markdown(
                 lines.append(f"- `{c.sha}` â€” {c.short_message}")
         lines.append("")
     return "\n".join(lines)
-
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Build cici-notebook day file from OB1 GitHub commits.")
@@ -813,7 +789,6 @@ def main() -> None:
         raise SystemExit(1)
     out_path.write_text(md, encoding="utf-8")
     print(str(out_path))
-
 
 if __name__ == "__main__":
     main()

@@ -24,7 +24,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 - Hosts: `Nima Alkhorshid` (3), `Alastair Crooke` (1), `Alexander Mercouris` (1), `Glenn Diesen` (1), `Sulaiman Ahmed` (1)
 - Guests: `Larry Johnson` (3), `Anthony Aguilar` (2), `Charles Freeman` (1), `Lawrence Wilkerson` (1), `Ray McGovern` (1), `Trita Parsi` (1), `[]` (1)
-- Threads: `alkorshid` (3), `johnson` (3), `aguilar` (2), `crooke` (1), `davis` (1), `diesen` (1), `freeman` (1), `mcgovern` (1), `mercouris` (1), `moral-resistance` (1), `napolitano` (1), `parsi` (1), `wilkerson` (1)
+- Threads: `alkhorshid` (3), `johnson` (3), `aguilar` (2), `crooke` (1), `davis` (1), `diesen` (1), `freeman` (1), `mcgovern` (1), `mercouris` (1), `moral-resistance` (1), `napolitano` (1), `parsi` (1), `wilkerson` (1)
 
 ## Channel sources
 
@@ -34,9 +34,9 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | --- | --- | --- | --- | --- |
 | `alexander-mercouris` | Mercouris | `mercouris` | [OA94q8ZCkgY](https://www.youtube.com/watch?v=OA94q8ZCkgY) | `source-alexander-mercouris-russia-mocks-eu-demands-uk-eu-arms-debt-surge-uk-gov-implodes-merkel-envoy-2026-06-12.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [VjI4y1ZcYug](https://www.youtube.com/watch?v=VjI4y1ZcYug) | `source-daniel-davis-trump-again-claims-agmt-at-hand-iran-different-view-2026-06-12.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `aguilar` | [DbJjR6YmGUY](https://www.youtube.com/watch?v=DbJjR6YmGUY) | `source-dialogue-works-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `freeman` | [_gMBZwg4HGQ](https://www.youtube.com/watch?v=_gMBZwg4HGQ) | `source-dialogue-works-chas-freeman-era-impunity-israel-us-west-asia-over-2026-06-12.md` |
-| `dialogue-works` | Dialogue Works | `alkorshid`, `johnson`, `wilkerson` | [Cry4rCIXiVM](https://www.youtube.com/watch?v=Cry4rCIXiVM) | `source-dialogue-works-johnson-wilkerson-iran-fired-us-guided-ships-trump-final-decision-2026-06-12.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `aguilar` | [DbJjR6YmGUY](https://www.youtube.com/watch?v=DbJjR6YmGUY) | `source-dialogue-works-anthony-aguilar-iran-warns-israel-leave-occupied-territories-final-deal-dead-2026-06-12.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `freeman` | [_gMBZwg4HGQ](https://www.youtube.com/watch?v=_gMBZwg4HGQ) | `source-dialogue-works-chas-freeman-era-impunity-israel-us-west-asia-over-2026-06-12.md` |
+| `dialogue-works` | Dialogue Works | `alkhorshid`, `johnson`, `wilkerson` | [Cry4rCIXiVM](https://www.youtube.com/watch?v=Cry4rCIXiVM) | `source-dialogue-works-johnson-wilkerson-iran-fired-us-guided-ships-trump-final-decision-2026-06-12.md` |
 | `glenn-diesen` | Glenn Diesen | `diesen`, `johnson` | [v7tyJIc7U3A](https://www.youtube.com/watch?v=v7tyJIc7U3A) | `source-glenn-diesen-larry-johnson-end-of-war-us-iran-close-to-a-deal-2026-06-12.md` |
 | `judging-freedom` | Judging Freedom | `napolitano`, `johnson`, `mcgovern` | [ILZhqQQf-UY](https://www.youtube.com/watch?v=ILZhqQQf-UY) | `source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-12-june-2026-06-12.md` |
 | `mario-nawfal` | Mario Nawfal | `parsi` | [SpKrNyFMtVg](https://www.youtube.com/watch?v=SpKrNyFMtVg) | `source-mario-nawfal-parsi-breaking-iran-deal-leaked-2026-06-12.md` |

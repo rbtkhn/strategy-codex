@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 # Recursive-Learning Three-Lane Audit
 
-WORK only; not Record.
 
 Purpose: compare the first three statecraft lanes that have received the top-three recursive-learning pattern pass so the pattern can be judged as adaptive reuse rather than decorative repetition.
 

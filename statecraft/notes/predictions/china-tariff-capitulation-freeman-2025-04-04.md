@@ -7,9 +7,8 @@ stance: no
 confidence: high
 source: source-archive/statecraft/2025-04-04/source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md
 speech_act: initial
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — China tariff capitulation (2025-04-04)
 

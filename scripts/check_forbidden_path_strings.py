@@ -44,7 +44,6 @@ PRESETS: dict[str, list[str]] = {
     "isolate-external-instance": ["platform/users/grace-mar/"],
 }
 
-
 def _parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Fail if forbidden path strings appear under scanned paths.")
     p.add_argument(
@@ -86,7 +85,6 @@ def _parse_args() -> argparse.Namespace:
     )
     return p.parse_args()
 
-
 def _should_scan_file(path: Path, root: Path) -> bool:
     if not path.is_file():
         return False
@@ -101,13 +99,11 @@ def _should_scan_file(path: Path, root: Path) -> bool:
         return False
     return True
 
-
 def _excluded(rel: str, patterns: list[str]) -> bool:
     for pat in patterns:
         if fnmatch.fnmatch(rel, pat) or fnmatch.fnmatch(rel, f"**/{pat}"):
             return True
     return False
-
 
 def _iter_scan_files(root: Path, under: list[Path], exclude_globs: list[str]) -> list[Path]:
     out: list[Path] = []
@@ -123,7 +119,6 @@ def _iter_scan_files(root: Path, under: list[Path], exclude_globs: list[str]) ->
             out.append(path)
     return sorted(out)
 
-
 def _scan_file(path: Path, forbidden: list[str]) -> list[tuple[int, str]]:
     hits: list[tuple[int, str]] = []
     try:
@@ -136,7 +131,6 @@ def _scan_file(path: Path, forbidden: list[str]) -> list[tuple[int, str]]:
                 hits.append((i, line.strip()))
                 break
     return hits
-
 
 def main() -> int:
     args = _parse_args()
@@ -195,7 +189,6 @@ def main() -> int:
     for rel, line_num, line in violations:
         print(f"  {rel}:{line_num}: {line}", file=sys.stderr)
     return 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

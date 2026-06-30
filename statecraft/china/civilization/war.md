@@ -1,6 +1,5 @@
 # China War
 
-WORK only; not Record.
 
 ## Purpose
 

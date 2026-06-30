@@ -1,6 +1,5 @@
 # Parsi CIV-STATE Retrieval Adapter
 
-WORK only; not Record.
 
 ## Purpose
 

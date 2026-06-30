@@ -1,6 +1,5 @@
 # Index
 
-WORK only; not Record.
 
 Use this as the whole-work index for Civilizational Statecraft. It is biased toward names, peoples, polities, dynasties, empires, churches, routes, and retrieval doors rather than toward purely abstract categorization. Volume front-door links use **Volume I–V** labels, not the `civ-state` slug — see [Names and titles](reader-guide.md#names-and-titles).
 

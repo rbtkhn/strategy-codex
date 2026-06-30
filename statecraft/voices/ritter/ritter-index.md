@@ -1,6 +1,5 @@
 # Ritter Source Index
 
-WORK only; not Record.
 
 Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott Ritter currently materialized in this repo, including authored Substack captures, direct host interviews, mixed-guest files, shorthand day files, generic `transcript-ritter` surfaces, and explicit raw-input discovery surfaces.
 

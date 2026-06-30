@@ -15,7 +15,6 @@ archive_links:
   - source-archive/statecraft/2026-06-16/source-dialogue-works-patrick-henningsen-israel-plot-fails-iran-us-advance-mou-despite-sabotage-2026-06-16.md
   - source-archive/statecraft/2026-06-18/README.md
 ---
-WORK only; not Record.
 
 # June 18, 2026 MOU — Material Ceiling vs Sabotage Register
 

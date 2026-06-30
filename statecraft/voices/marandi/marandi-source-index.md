@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Marandi Source Index (compat redirect)
 

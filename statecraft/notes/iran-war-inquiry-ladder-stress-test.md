@@ -13,7 +13,6 @@ archive_links:
   - source-archive/statecraft/2026-06-04/source-dialogue-works-patrick-henningsen-hezbollah-just-drew-the-line-israel-out-of-lebanon-completely-2026-06-04.md
   - source-archive/statecraft/2026-06-03/source-nima-alkhorshid-us-bases-airport-hit-iran-retaliates-gulf-stocks-crash-7-hezbollah-ops-2026-06-03.md
 ---
-WORK only; not Record.
 
 # Iran War Inquiry Ladder Stress Test
 

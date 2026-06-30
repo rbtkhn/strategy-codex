@@ -32,7 +32,6 @@ from repo_io import resolve_self_memory_path  # noqa: E402
 
 from repo_io import CANONICAL_EVIDENCE_BASENAME, DEFAULT_USER_ID
 
-
 class Colors:
     HEADER = "\033[95m"
     OKBLUE = "\033[94m"
@@ -41,7 +40,6 @@ class Colors:
     ENDC = "\033[0m"
     BOLD = "\033[1m"
 
-
 def _load_json(path: Path) -> dict | None:
     if not path.is_file():
         return None
@@ -49,7 +47,6 @@ def _load_json(path: Path) -> dict | None:
         return json.loads(path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
         return None
-
 
 def _tail_text(path: Path, *, max_chars: int = 1200) -> str:
     if not path.is_file():
@@ -60,7 +57,6 @@ def _tail_text(path: Path, *, max_chars: int = 1200) -> str:
         return ""
     return raw[-max_chars:] if len(raw) > max_chars else raw
 
-
 def _detect_tone_from_memory(content: str) -> str:
     if "warm-direct" in content:
         return "warm-direct"
@@ -70,10 +66,8 @@ def _detect_tone_from_memory(content: str) -> str:
         return "analytical-crisp"
     return "analytical-crisp"
 
-
 def user_profile_dir(repo_root: Path, user_id: str) -> Path:
     return repo_root / "platform/users" / user_id
-
 
 def _yesterday_intention(profile: Path, today: date) -> str | None:
     y = today - timedelta(days=1)
@@ -86,7 +80,6 @@ def _yesterday_intention(profile: Path, today: date) -> str | None:
         return None
     return (t[:220] + "…") if len(t) > 220 else t
 
-
 def _recent_signal_line(profile: Path) -> str | None:
     ev = profile / CANONICAL_EVIDENCE_BASENAME
     tail = _tail_text(ev, max_chars=2500)
@@ -98,14 +91,12 @@ def _recent_signal_line(profile: Path) -> str | None:
             return stripped[:120] + ("…" if len(stripped) > 120 else "")
     return None
 
-
 def ask(question: str, default: str = "") -> str:
     prompt = f"{question} "
     if default:
         prompt += f"[{default}] "
     answer = input(prompt).strip()
     return answer if answer else default
-
 
 def save_daily_intention(profile: Path, today: date, text: str) -> Path:
     profile.mkdir(parents=True, exist_ok=True)
@@ -119,7 +110,6 @@ def save_daily_intention(profile: Path, today: date, text: str) -> Path:
     path.write_text(body + "\n", encoding="utf-8")
     return path
 
-
 def suggest_harness_warmup(repo: Path, user_id: str) -> None:
     print(
         f"\n{Colors.OKBLUE}For RECURSION-GATE / session tail / full warmup:{Colors.ENDC}\n"
@@ -130,7 +120,6 @@ def suggest_harness_warmup(repo: Path, user_id: str) -> None:
             [sys.executable, str(repo / "scripts" / "harness_warmup.py"), "-u", user_id, "--compact"],
             cwd=str(repo),
         )
-
 
 def run_brief(*, repo_root: Path, user_id: str, skip_warmup_prompt: bool) -> None:
     print(f"{Colors.HEADER}{Colors.BOLD}")
@@ -230,7 +219,6 @@ def run_brief(*, repo_root: Path, user_id: str, skip_warmup_prompt: bool) -> Non
     if not skip_warmup_prompt:
         suggest_harness_warmup(repo_root, user_id)
 
-
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -253,7 +241,6 @@ def main() -> None:
     except KeyboardInterrupt:
         print(f"\n{Colors.WARNING}Brief interrupted.{Colors.ENDC}")
         sys.exit(130)
-
 
 if __name__ == "__main__":
     main()

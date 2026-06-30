@@ -1,6 +1,5 @@
 # Raw-Input Lane Ownership
 
-WORK only; not Record.
 
 This note gives the ownership rule for raw-input captures when a host channel and a recurring expert lane point in different directions.
 

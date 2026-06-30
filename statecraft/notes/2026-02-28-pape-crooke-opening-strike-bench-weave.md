@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-03-01/source-pape-smart-bomb-trap-confirmed-decapitation-2026-03-01.md
   - source-archive/statecraft/2026-03-03/source-pape-the-air-power-illusion-2026-03-03.md
 ---
-WORK only; not Record.
 
 # Feb 28 2026 — Opening-strike bench weave (Pape × Crooke)
 

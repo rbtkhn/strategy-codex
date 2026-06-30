@@ -27,7 +27,6 @@ from repo_io import DEFAULT_PROFILE_ID, profile_dir
 
 DEFAULT_USER_ID = DEFAULT_PROFILE_ID
 
-
 def _load_all_snapshots(user_id: str) -> dict[str, list[dict[str, Any]]]:
     """Load ALL snapshots per seed_id (preserving append order for timeline)."""
     path = profile_dir(user_id) / "seed-registry.jsonl"
@@ -46,7 +45,6 @@ def _load_all_snapshots(user_id: str) -> dict[str, list[dict[str, Any]]]:
         except json.JSONDecodeError:
             continue
     return history
-
 
 def build_timeline(snapshots: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Build a timeline of events from a claim's snapshot history."""
@@ -128,7 +126,6 @@ def build_timeline(snapshots: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
     return events
 
-
 def _format_timeline(seed_id: str, events: list[dict[str, Any]], claim_text: str) -> str:
     lines: list[str] = []
     lines.append(f"  Timeline: {seed_id}")
@@ -149,7 +146,6 @@ def _format_timeline(seed_id: str, events: list[dict[str, Any]], claim_text: str
             f"  (conf={ev['confidence']:.2f} rec={ev['recurrence_score']:.2f})"
         )
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Seed claim formation timeline.")
@@ -185,7 +181,6 @@ def main() -> int:
             print()
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

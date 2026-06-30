@@ -59,7 +59,6 @@ DEFERRED_V2 = [
     "coffee/dream integration",
 ]
 
-
 def _parse_iso_datetime(value: str | None) -> datetime | None:
     if not value:
         return None
@@ -83,12 +82,10 @@ def _parse_iso_datetime(value: str | None) -> datetime | None:
         dt = dt.replace(tzinfo=timezone.utc)
     return dt.astimezone(timezone.utc)
 
-
 def _age_hours(dt: datetime | None, now: datetime) -> float | None:
     if dt is None:
         return None
     return max(0.0, (now - dt).total_seconds() / 3600.0)
-
 
 def _classify_age(age_hours: float | None, *, ok_h: float, watch_h: float) -> str:
     if age_hours is None:
@@ -98,7 +95,6 @@ def _classify_age(age_hours: float | None, *, ok_h: float, watch_h: float) -> st
     if age_hours <= watch_h:
         return "watch"
     return "stale"
-
 
 def parse_cadence_event_times(text: str, user_id: str = DEFAULT_USER) -> list[datetime]:
     """Parse cadence timestamps for a user from work-cadence-events.md text."""
@@ -112,7 +108,6 @@ def parse_cadence_event_times(text: str, user_id: str = DEFAULT_USER) -> list[da
             rows.append(dt)
     return rows
 
-
 def _read_json(path: Path) -> tuple[dict[str, Any] | None, str | None]:
     if not path.is_file():
         return None, "missing file"
@@ -123,7 +118,6 @@ def _read_json(path: Path) -> tuple[dict[str, Any] | None, str | None]:
     if not isinstance(data, dict):
         return None, "unparseable: top-level JSON is not an object"
     return data, None
-
 
 def _surface(
     *,
@@ -144,7 +138,6 @@ def _surface(
         "detail": detail,
     }
 
-
 def _resolve_handoff_path(user_id: str, filename: str) -> Path:
     """Prefer runtime/daily-handoff; when both exist, use the newest artifact."""
     handoff_dir = resolve_repo_path("daily-handoff")
@@ -158,7 +151,6 @@ def _resolve_handoff_path(user_id: str, filename: str) -> Path:
     if len(existing) == 1:
         return existing[0]
     return max(existing, key=lambda p: p.stat().st_mtime)
-
 
 def build_report(user_id: str = DEFAULT_USER, *, now: datetime | None = None) -> dict[str, Any]:
     now = (now or datetime.now(timezone.utc)).astimezone(timezone.utc)
@@ -254,7 +246,6 @@ def build_report(user_id: str = DEFAULT_USER, *, now: datetime | None = None) ->
         "deferred_v2": DEFERRED_V2,
     }
 
-
 def _overall_status(surfaces: dict[str, dict[str, Any]]) -> str:
     keys = ("cadence", "last_dream", "night_handoff")
     worst = max((surfaces[k]["status"] for k in keys), key=lambda s: STATUS_ORDER[s])
@@ -262,7 +253,6 @@ def _overall_status(surfaces: dict[str, dict[str, Any]]) -> str:
     if STATUS_ORDER[bridge_status] > STATUS_ORDER[worst] and bridge_status == "watch":
         return "watch" if worst == "ok" else worst
     return worst
-
 
 def _recommended_next_action(surfaces: dict[str, dict[str, Any]]) -> str:
     if surfaces["cadence"]["status"] in {"stale", "missing"}:
@@ -274,7 +264,6 @@ def _recommended_next_action(surfaces: dict[str, dict[str, Any]]) -> str:
     if surfaces["bridge_state"]["status"] == "watch":
         return "Run bridge at the next session boundary if a transfer prompt or repo seal is needed."
     return "No urgent continuity action; keep using coffee for orientation and bridge at session boundaries."
-
 
 def render_markdown(report: dict[str, Any]) -> str:
     surfaces = report["surfaces"]
@@ -316,20 +305,17 @@ def render_markdown(report: dict[str, Any]) -> str:
     lines.append(f"\nRecommended next action: {report['recommended_next_action']}\n")
     return "".join(lines)
 
-
 def format_observability_one_liner(report: dict[str, Any]) -> str:
     """Return a compact operator line for non-ok continuity health."""
     status = str(report.get("overall_status") or "missing")
     recommended = str(report.get("recommended_next_action") or "Review memory observability report.")
     return f"Memory observability: {status} - {recommended}"
 
-
 def write_report(report: dict[str, Any], *, md_output: Path, json_output: Path) -> None:
     md_output.parent.mkdir(parents=True, exist_ok=True)
     json_output.parent.mkdir(parents=True, exist_ok=True)
     md_output.write_text(render_markdown(report), encoding="utf-8")
     json_output.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Build derived memory observability dashboard.")
@@ -354,7 +340,6 @@ def main() -> int:
     print(f"Overall status: {report['overall_status']}")
     print(f"Recommended next action: {report['recommended_next_action']}")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

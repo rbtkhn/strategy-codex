@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-06-13/source-daniel-davis-signing-deal-tomorrow-scheduled-2026-06-13.md
   - source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md
 ---
-WORK only; not Record.
 
 # June 2026 Week 2 — Start Here
 

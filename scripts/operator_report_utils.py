@@ -9,7 +9,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-
 @dataclass
 class Finding:
     severity: str
@@ -22,10 +21,8 @@ class Finding:
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
 
-
 def utc_now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-
 
 def authority_header(generated_at: str, return_paths: list[str]) -> str:
     lines = [
@@ -41,7 +38,6 @@ def authority_header(generated_at: str, return_paths: list[str]) -> str:
     lines.append("")
     return "\n".join(lines)
 
-
 def markdown_table(rows: list[dict[str, Any]], columns: list[str]) -> str:
     if not rows:
         return "_None._\n"
@@ -53,7 +49,6 @@ def markdown_table(rows: list[dict[str, Any]], columns: list[str]) -> str:
         body_lines.append("| " + " | ".join(cells) + " |")
     return "\n".join([header, sep, *body_lines]) + "\n"
 
-
 def write_report(path: Path, text: str, *, snapshot: bool = False) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
@@ -61,7 +56,6 @@ def write_report(path: Path, text: str, *, snapshot: bool = False) -> None:
         stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         snap = path.parent / f"{stamp}.md"
         snap.write_text(text, encoding="utf-8")
-
 
 def run_check(argv: list[str], cwd: Path, *, timeout: int = 120) -> tuple[int, str]:
     try:
@@ -77,7 +71,6 @@ def run_check(argv: list[str], cwd: Path, *, timeout: int = 120) -> tuple[int, s
     out = (proc.stdout or "") + (proc.stderr or "")
     return proc.returncode, out.strip()
 
-
 def overall_status(findings: list[Finding]) -> str:
     if any(f.severity == "blocking" for f in findings):
         return "red"
@@ -85,14 +78,12 @@ def overall_status(findings: list[Finding]) -> str:
         return "yellow"
     return "green"
 
-
 def count_by_severity(findings: list[Finding]) -> dict[str, int]:
     counts = {"blocking": 0, "warning": 0, "info": 0}
     for f in findings:
         key = f.severity if f.severity in counts else "info"
         counts[key] += 1
     return counts
-
 
 def python_executable() -> str:
     return sys.executable

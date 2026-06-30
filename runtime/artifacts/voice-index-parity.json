@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-30T01:33:10Z",
+  "generated_at": "2026-06-30T05:13:26Z",
   "summary": {
     "voices_discovered": 33,
     "listed_in_voices_router": 33,
     "with_primary_index": 33,
-    "with_rebuild_script": 28,
-    "parity_pass": 28,
-    "parity_warn": 5,
+    "with_rebuild_script": 33,
+    "parity_pass": 33,
+    "parity_warn": 0,
     "parity_fail": 0,
     "broken_links_total": 0,
     "documented_exceptions": 10
@@ -27,7 +27,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-29",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -134,7 +134,7 @@
         "transcript-crooke.md and verify-crooke-* stubs excluded"
       ],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-29",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -203,7 +203,7 @@
         "IGL cross-weave overlay",
         "Greenland cross-weave overlay"
       ],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-29",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -250,18 +250,20 @@
       "voice": "jermy",
       "primary_index": "statecraft/voices/jermy/jermy-index.md",
       "listed_in_voices_router": true,
-      "builder": null,
+      "builder": "scripts/build_jermy_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index jermy",
       "eligible_captures": 12,
-      "indexed_captures": 15,
-      "parity": "warn",
+      "indexed_captures": 12,
+      "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
         "jermy-profile.md",
         "jermy-source-index.md"
       ],
       "exceptions": [],
-      "curated_overlays": [],
+      "curated_overlays": [
+        "Cross-weave note links (Mercouris/Diesen same-day; no orphan archive links)"
+      ],
       "last_rebuilt": "2026-06-27",
       "status": "canonical",
       "index_kind": "primary"
@@ -308,7 +310,7 @@
       "curated_overlays": [
         "June 2026 cadence routing table (operator annotations preserved on rebuild)"
       ],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-29",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -316,20 +318,24 @@
       "voice": "karaganov",
       "primary_index": "statecraft/voices/karaganov/karaganov-index.md",
       "listed_in_voices_router": true,
-      "builder": null,
+      "builder": "scripts/build_karaganov_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index karaganov",
       "eligible_captures": 7,
-      "indexed_captures": 10,
-      "parity": "warn",
+      "indexed_captures": 7,
+      "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
         "karaganov-profile.md",
         "karaganov-source-index.md"
       ],
       "exceptions": [
-        "reaction-tier source-ritter-* captures citing Karaganov token are not guest appearances"
+        "reaction-tier source-ritter-* captures citing Karaganov token are not guest appearances",
+        "lascaris embed captures cited for clip SSOT / tension pairs only (plain-text refs in index)"
       ],
-      "curated_overlays": [],
+      "curated_overlays": [
+        "Reaction / reinforcement table (routing only; not parity captures)",
+        "Escalation-ladder lattice May\u2013Jun 2026"
+      ],
       "last_rebuilt": "2026-06-29",
       "status": "canonical",
       "index_kind": "primary"
@@ -340,8 +346,8 @@
       "listed_in_voices_router": true,
       "builder": "scripts/build_kent_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index kent",
-      "eligible_captures": 15,
-      "indexed_captures": 15,
+      "eligible_captures": 16,
+      "indexed_captures": 16,
       "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
@@ -457,11 +463,11 @@
       "voice": "mate",
       "primary_index": "statecraft/voices/mate/mate-index.md",
       "listed_in_voices_router": true,
-      "builder": null,
+      "builder": "scripts/build_mate_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index mate",
       "eligible_captures": 2,
-      "indexed_captures": 3,
-      "parity": "warn",
+      "indexed_captures": 2,
+      "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
         "mate-profile.md",
@@ -507,7 +513,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-29",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -550,7 +556,7 @@
         "guest-index eligible set mirrors build_mercouris_guest_index.is_guest()"
       ],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-29",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -585,11 +591,11 @@
       "voice": "parsi",
       "primary_index": "statecraft/voices/parsi/parsi-index.md",
       "listed_in_voices_router": true,
-      "builder": null,
+      "builder": "scripts/build_parsi_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index parsi",
       "eligible_captures": 51,
       "indexed_captures": 51,
-      "parity": "warn",
+      "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
         "parsi-forecast-ledger-2025-2026.md",
@@ -598,7 +604,9 @@
         "parsi-source-index.md"
       ],
       "exceptions": [],
-      "curated_overlays": [],
+      "curated_overlays": [
+        "forecast ledger + interview appearances companions"
+      ],
       "last_rebuilt": "2026-06-28",
       "status": "canonical",
       "index_kind": "primary"
@@ -618,7 +626,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-29",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -626,11 +634,11 @@
       "voice": "ritter",
       "primary_index": "statecraft/voices/ritter/ritter-index.md",
       "listed_in_voices_router": true,
-      "builder": null,
+      "builder": "scripts/build_ritter_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index ritter",
       "eligible_captures": 99,
       "indexed_captures": 99,
-      "parity": "warn",
+      "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
         "ritter-forecast-ledger-2026.md",
@@ -642,7 +650,9 @@
         "date-only source-ritter-YYYY-MM-DD stubs excluded from index parity",
         "verify-ritter-* and ritter-rant-* prefixes excluded"
       ],
-      "curated_overlays": [],
+      "curated_overlays": [
+        "forecast ledger + interview appearances companions"
+      ],
       "last_rebuilt": "2026-06-28",
       "status": "canonical",
       "index_kind": "primary"
@@ -683,7 +693,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-29",
       "status": "canonical",
       "index_kind": "primary"
     },

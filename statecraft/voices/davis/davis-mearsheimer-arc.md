@@ -1,6 +1,5 @@
 # arc-mearsheimer-davis-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-mearsheimer-davis-host.md](../../notes/arc-mearsheimer-davis-host.md)
 

@@ -52,21 +52,17 @@ REWRITE_EXCLUDE_PREFIXES = (
 # Parent stub replaced by stream canonical body
 PROMOTE_STREAM_OVER_PARENT = frozenset({"arc-mercouris-continuity.md"})
 
-
 @dataclass(frozen=True)
 class MovePlan:
     src: Path
     dest: Path
     action: str  # move | delete_stub | skip
 
-
 def _rel(path: Path) -> str:
     return str(path.relative_to(REPO_ROOT)).replace("\\", "/")
 
-
 def _speaker_slug(shelf_root: Path) -> str:
     return shelf_root.name
-
 
 def _target_name(shelf_root: Path, subdir: str, src: Path) -> tuple[str, str]:
     """Return (dest_basename, action_note)."""
@@ -78,7 +74,6 @@ def _target_name(shelf_root: Path, subdir: str, src: Path) -> tuple[str, str]:
     if subdir == "themes" and name == "README.md":
         return f"{slug}-themes.md", "themes README -> themes index"
     return name, "direct"
-
 
 def collect_moves_for_shelf(shelf_root: Path) -> list[MovePlan]:
     plans: list[MovePlan] = []
@@ -105,7 +100,6 @@ def collect_moves_for_shelf(shelf_root: Path) -> list[MovePlan]:
             plans.append(MovePlan(src, dest, "move"))
     return plans
 
-
 def collect_all_moves() -> list[MovePlan]:
     plans: list[MovePlan] = []
     if VOICES_DIR.is_dir():
@@ -119,7 +113,6 @@ def collect_all_moves() -> list[MovePlan]:
                 continue
             plans.extend(collect_moves_for_shelf(shelf))
     return plans
-
 
 def fix_relative_depth_in_moved_files(receipt: list[dict[str, str]]) -> int:
     """Remove one ../ prefix from relative markdown links in files moved out of stream/."""
@@ -144,7 +137,6 @@ def fix_relative_depth_in_moved_files(receipt: list[dict[str, str]]) -> int:
             path.write_text(new_text, encoding="utf-8", newline="\n")
             fixed += 1
     return fixed
-
 
 def apply_moves(plans: list[MovePlan]) -> None:
     receipt: list[dict[str, str]] = []
@@ -183,7 +175,6 @@ def apply_moves(plans: list[MovePlan]) -> None:
     n = fix_relative_depth_in_moved_files(receipt)
     print(f"fixed relative link depth in {n} moved files")
 
-
 def should_rewrite(path: Path) -> bool:
     rel = _rel(path)
     for prefix in REWRITE_EXCLUDE_PREFIXES:
@@ -192,7 +183,6 @@ def should_rewrite(path: Path) -> bool:
     if path.suffix not in {".md", ".mdc", ".py", ".yaml", ".yml", ".json", ".toml"}:
         return False
     return True
-
 
 def rewrite_text(text: str) -> tuple[str, int]:
     """Return (new_text, change_count)."""
@@ -316,7 +306,6 @@ def rewrite_text(text: str) -> tuple[str, int]:
         return text, max(1, n)
     return text, 0
 
-
 def rewrite_links() -> int:
     changed_files = 0
     targets: list[Path] = []
@@ -343,12 +332,10 @@ def rewrite_links() -> int:
             changed_files += 1
     return changed_files
 
-
 def _notes_arc_names() -> frozenset[str]:
     if not NOTES_DIR.is_dir():
         return frozenset()
     return frozenset(p.name for p in NOTES_DIR.glob("arc-*.md"))
-
 
 def _arc_stub_map(shelf_root: Path) -> dict[str, str]:
     """Map canonical arc basename -> local compat stub basename."""
@@ -362,7 +349,6 @@ def _arc_stub_map(shelf_root: Path) -> dict[str, str]:
         if m:
             mapping[f"{m.group(1)}.md"] = path.name
     return mapping
-
 
 def _resolve_broken_href(shelf_root: Path, href: str, notes_arcs: frozenset[str]) -> str:
     """Fix href when target file missing at shelf root."""
@@ -400,7 +386,6 @@ def _resolve_broken_href(shelf_root: Path, href: str, notes_arcs: frozenset[str]
         return f"{alt}#{anchor}" if anchor else alt
 
     return href
-
 
 def rewrite_visible_labels_in_text(text: str, shelf_root: Path, notes_arcs: frozenset[str]) -> tuple[str, int]:
     """Fix stale stream/themes link labels and broken hrefs in one shelf markdown file."""
@@ -539,7 +524,6 @@ def rewrite_visible_labels_in_text(text: str, shelf_root: Path, notes_arcs: froz
 
     return text, changes
 
-
 def rewrite_visible_labels(*, dry_run: bool = False) -> int:
     notes_arcs = _notes_arc_names()
     changed_files = 0
@@ -577,7 +561,6 @@ def rewrite_visible_labels(*, dry_run: bool = False) -> int:
         print(f"dry-run: {changed_files} file(s) would change")
     return changed_files
 
-
 def dry_run(plans: list[MovePlan]) -> None:
     for plan in plans:
         if plan.action == "delete_stub":
@@ -585,7 +568,6 @@ def dry_run(plans: list[MovePlan]) -> None:
         elif plan.action == "move":
             print(f"MOVE {_rel(plan.src)} -> {_rel(plan.dest)}")
     print(f"total plans: {len(plans)}")
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -623,7 +605,6 @@ def main() -> int:
         print(f"visible-label pass: {n} file(s)")
 
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -1,6 +1,5 @@
 # Shared Recursive Update Queue
 
-WORK only; not Record.
 
 Membrane rule: live analysis proposes; human review decides; shared statecraft
 surfaces update only after acceptance. Stage durable shared-machine candidates

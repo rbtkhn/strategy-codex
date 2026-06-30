@@ -1,6 +1,5 @@
 # CIV-STATE vs Statecraft
 
-WORK only; not Record.
 
 This note distinguishes two adjacent but different layers in academy-statecraft.
 

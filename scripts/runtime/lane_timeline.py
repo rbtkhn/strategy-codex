@@ -20,7 +20,6 @@ from lane_search import (  # noqa: E402
 )
 from search_scoring import parse_cli_datetime, ts_sort_key  # noqa: E402
 
-
 def _timeline_pool(rows: list[dict], anchor: dict, *, cross_lane: bool) -> list[dict]:
     if cross_lane:
         pool = list(rows)
@@ -29,7 +28,6 @@ def _timeline_pool(rows: list[dict], anchor: dict, *, cross_lane: bool) -> list[
         pool = [r for r in rows if r.get("lane") == lane]
     pool.sort(key=lambda r: ts_sort_key(r))
     return pool
-
 
 def _window_for_anchor(pool: list[dict], anchor_id: str, before: int, after: int) -> tuple[list[dict] | None, str | None]:
     ids = [r.get("obs_id") for r in pool]
@@ -40,7 +38,6 @@ def _window_for_anchor(pool: list[dict], anchor_id: str, before: int, after: int
     start = max(0, idx - before)
     end = min(len(pool), idx + after + 1)
     return pool[start:end], None
-
 
 def build_timeline_window(
     rows: list[dict],
@@ -56,7 +53,6 @@ def build_timeline_window(
     if not isinstance(aid, str):
         return None, "anchor missing obs_id"
     return _window_for_anchor(pool, aid, before, after)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Timeline window around a runtime observation.")
@@ -145,7 +141,6 @@ def main() -> int:
         print()
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

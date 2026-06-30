@@ -1,6 +1,5 @@
 # Legitimacy, victimhood, and coercive asymmetry
 
-WORK only; not Record.
 
 Marandi repeatedly turns aggression against Iran into a legitimacy claim for resistance, endurance, and harder bargaining.
 

@@ -16,7 +16,6 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _hints_from_report(report: dict[str, Any]) -> str:
     lines = [
         "# Workflow depth hints (operator)",
@@ -71,7 +70,6 @@ def _hints_from_report(report: dict[str, Any]) -> str:
     lines.extend(["", "---", "", "_Inspection only. See `docs/runtime/workflow-depth-contract.md`._", ""])
     return "\n".join(lines)
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="Emit operator hints Markdown from workflow-depth audit JSON.")
     ap.add_argument(
@@ -103,7 +101,6 @@ def main() -> int:
     else:
         print(text, end="")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

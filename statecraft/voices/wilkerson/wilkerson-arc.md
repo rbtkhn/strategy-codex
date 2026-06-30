@@ -1,6 +1,5 @@
 # arc-wilkerson-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [wilkerson-arc.md](wilkerson-arc.md)
 

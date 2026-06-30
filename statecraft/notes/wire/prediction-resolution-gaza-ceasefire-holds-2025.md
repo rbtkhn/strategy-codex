@@ -16,7 +16,6 @@ links:
 
 # Prediction resolution — gaza_ceasefire_holds_2025
 
-WORK only; not Record.
 
 **Event question:** Will the Jan 2025 Gaza arrangement hold as a durable ceasefire (not merely a temporary pause)?  
 **Resolution criteria:** No if fighting resumes at scale or deal treated as pause only; yes if durable ceasefire holds with phase progression.  

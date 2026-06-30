@@ -20,7 +20,6 @@ synced_by: sync_portable_skills.py
 ---
 # CIV-STATE Note
 
-**WORK only; not Record.**
 
 **Activation:** `civ-state note` · `civ-state-note` · `promote civ-state note` · **`CIV-STATE note`** (when class is clear)
 

@@ -1,6 +1,6 @@
 # CIV-STATE Indexes
 
-work only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Indexes make CIV-STATE retrievable during statecraft work. They do not replace source objects and they do not create public PH-CIV content.
 

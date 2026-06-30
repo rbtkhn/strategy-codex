@@ -1,6 +1,6 @@
 # CIV-EMP
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 **CIV-EMP = Civilization and Empire.**
 

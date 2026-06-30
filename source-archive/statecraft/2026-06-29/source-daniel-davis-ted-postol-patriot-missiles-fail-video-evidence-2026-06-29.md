@@ -30,7 +30,7 @@ opening_tier: host-monologue
 capture_note: Operator paste; full interview body preserved from user-supplied YouTube transcript (subscribe promo close included).
 transcript_wrapper_tier: clean
 davis_close_promo_trim_applied: true
-editorial_note: "Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved. · manual ASR spot-fix 2026-06-29 — Raytheon/Lockheed/Arrow/Azerbaijan/ATACMS. · source-section pass 2026-06-29 (12 sections; 1991 APS/Tel Aviv video/salvo/THAAD arc)"
+editorial_note: "Routine closing lineup/subscribe promo trimmed in place; SSOT body otherwise preserved. · manual ASR spot-fix 2026-06-29 — Raytheon/Lockheed/Arrow/Azerbaijan/ATACMS. · source-section pass 2026-06-29 (12 sections; 1991 APS/Tel Aviv video/salvo/THAAD arc) · source-section pass 2026-06-29 (13 sections). · interview speaker-label pass 2026-06-29 (101 turns; Daniel/Ted >> markers) · source-section pass 2026-06-29 (13 sections; PAC radar/slide-7 split; Tel Aviv/THAAD arc) · source-section pass 2026-06-29 (12 sections). · source-section pass 2026-06-29 (12 sections; pack-2 merge; PAC radar/slide-7 split)"
 manual_asr_spot_fix: 2026-06-29 — Raytheon/Lockheed/Arrow/Azerbaijan/ATACMS
 normalization_state: ai_assisted_proper_noun_cleanup
 quality_note: ASR normalization pass 2026-06-29; section curation SSOT.
@@ -51,7 +51,7 @@ transcript_curation: curated_sectioned
 
 ### Show Open — Three Pillars And Ninety Percent Claim
 
-**Daniel Davis:** Modern warfare today is really designed around three primary things. There is the drone warfare, both offensive and defense. There is the offensive missiles and there is the defensive missiles. And if you don't have capabilities in all three of these, you are going to be in a real world of hurt when it comes to modern warfare. We saw that in the Azerbaijan Armenia war in 2020. We are seeing it continuously in the Russia Ukraine war. We're even seeing it in the Middle East war both with with uh Israel and Hamas, Israel and Hezbollah and especially even the United States throughout the region. It is now a really important part.
+**Ted Postol:** Modern warfare today is really designed around three primary things. There is the drone warfare, both offensive and defense. There is the offensive missiles and there is the defensive missiles. And if you don't have capabilities in all three of these, you are going to be in a real world of hurt when it comes to modern warfare. We saw that in the Azerbaijan Armenia war in 2020. We are seeing it continuously in the Russia Ukraine war. We're even seeing it in the Middle East war both with with uh Israel and Hamas, Israel and Hezbollah and especially even the United States throughout the region. It is now a really important part.
 
 We're going to look today at one of those elements of that and that is the air defense missiles. If you can knock down more of your enemy's missiles than they can knock down and you can put more missiles in the air, then you have a good chance of accomplishing your military objectives. But if you can't if you can't defend against either drones or incoming missiles to a sufficient degree, you are going to be in a world of hurt. And that is where we are right now.
 
@@ -59,11 +59,11 @@ The United States tells everybody and Israel tells everybody that the US is knoc
 
 But now here we have today Ted Postol back with us uh former MIT professor uh at Massachusetts Institute of Technology uh who is going to lay out the actual evidence that we have. We're going to set up first of all by kind of setting his uh credibility and his and his reputation by showing that he did a similar study in the Desert Storm war back in 1991. And he's going to use that same uh examination capabilities and that same framework to look at the current Gulf War. And you're going to be a little bit surprised by the actual information that we share with you today. Ted Post will take it away.
 
-**Ted Postol:** Hi. Well, thanks very much. I think your introduction really uh covered things very well. So, thanks very much for that. The um [clears throat] what I want to talk about today is the overwhelming I mean it's unambiguous evidence that the performance of the Patriot Pack 3, the more modernized version of the Patriot Interceptor [snorts] uh is uh close to uh two or 3% intercept rate. It's not 90%. It's not even close.
+**Daniel Davis:** Hi. Well, thanks very much. I think your introduction really uh covered things very well. So, thanks very much for that. The um [clears throat] what I want to talk about today is the overwhelming I mean it's unambiguous evidence that the performance of the Patriot Pack 3, the more modernized version of the Patriot Interceptor [snorts] uh is uh close to uh two or 3% intercept rate. It's not 90%. It's not even close.
 
 ### Gulf War 1991 — Ninety Six Percent And Decision Maker Deception
 
-**Ted Postol:** Incidentally, we had uh an experience similar to this during the Gulf War of 1991. in during the Gulf War of 1991, uh the Army Air Defense Artillery and the um the the contractor who built Patriot, the Raytheon Company, were telling the American public that the intercept rate of Patriot in the Gulf War of 1991 was near 96%.
+**Daniel Davis:** Incidentally, we had uh an experience similar to this during the Gulf War of 1991. in during the Gulf War of 1991, uh the Army Air Defense Artillery and the um the the contractor who built Patriot, the Raytheon Company, were telling the American public that the intercept rate of Patriot in the Gulf War of 1991 was near 96%.
 
 Now, this campaign of of misleading information, or I'll call it lying, because they had to know. They knew what they were doing. Um, this campaign of misleading information even misled the Secretary of Defense, Dick Cheney, and the President of the United States, George HW Bush, into believing that Patriot was actually performing in the Gulf War of 1991.
 
@@ -77,9 +77,9 @@ So um it also should be a lesson to those who are inside the government and ther
 
 So that's an important lesson.
 
-### Lewis Postol Paper — APS Panel And Video Contradiction
+### Lewis Postol Paper — APS Panel Pack Two Objection And Video
 
-**Ted Postol:** Gary, could you um put on the first slide, slide number two? This slide just summarizes briefly what I've already said. The important point in this slide besides the chronology of um uh described uh in this slide is that um my colleague George Lewis and I uh uh published a paper in 1993 that uh was a detailed technical assessment that showed that Patriot in the Gulf War of 1991 had failed to intercept even a single Iraqi Scud warhead. And that's an important finding because the president and the secretary of defense were misled into believing its intercept rate was 96%.
+**Daniel Davis:** Gary, could you um put on the first slide, slide number two? This slide just summarizes briefly what I've already said. The important point in this slide besides the chronology of um uh described uh in this slide is that um my colleague George Lewis and I uh uh published a paper in 1993 that uh was a detailed technical assessment that showed that Patriot in the Gulf War of 1991 had failed to intercept even a single Iraqi Scud warhead. And that's an important finding because the president and the secretary of defense were misled into believing its intercept rate was 96%.
 
 Now at that time this was not necessarily um it was easy in at some level to hide uh the the the situation because the um the um uh the number of Scud attacks on Israel uh was maybe somewhere between 40 or so. So it's a small number of Scuds. Uh the Scuds had only a 300 uh pound warhead. So 150 kilogram warhead. So the warheads were almost 10 times smaller in weight than the warheads we're now seeing delivered uh by Iran and uh and there was a very small number of them and they were delivered over a period of you know well over a month.
 
@@ -89,15 +89,13 @@ So, um uh the the critical finding that um was finally confirmed six years after
 
 In other words, the video data showed a a completely different uh intercept rate uh than than what the army was claiming. The second point which is perhaps even more important is they concluded that basically the information that we derived from the videotapes uh was correct and that the army should have used video information in its studies of patriot performance in order to understand what actually happened. So we're in this I'm sorry I can't hear I can't hear you Dan. Uh
 
-**Daniel Davis:** oh sorry about that. Uh so when when you're going to that's that's what you did and discovered in the the Persian Gulf War and uh you've talked about how the difference in in payloads and stuff for this current war here. Uh but one of the one of the challenges that that I have heard some people make is that well yeah but that was pack two and that was back then and so yeah the the offensive missiles have advanced but so too have the defensive missiles and so this time they're actually performing up.
-
-### Pack Two Objection — Video Evidence For PAC Two And Three
+**Ted Postol:** oh sorry about that. Uh so when when you're going to that's that's what you did and discovered in the the Persian Gulf War and uh you've talked about how the difference in in payloads and stuff for this current war here. Uh but one of the one of the challenges that that I have heard some people make is that well yeah but that was pack two and that was back then and so yeah the the offensive missiles have advanced but so too have the defensive missiles and so this time they're actually performing up.
 
 **Daniel Davis:** What do you say to that?
 
 Well, uh, I I'm saying the video evidence for PAC two and PAC three because there are PAC twos being used. I can show I I'm going to show you a video clip uh shortly where a pack two is used and I can explain to you how we know it's a PAC two versus a pack three.
 
-### PAC Radar Geometry — Slides Six Through Nine
+### PAC Radar Slides — KA Band And Cross Range Geometry
 
 **Daniel Davis:** Actually, let's uh let's just jump to that right now. Uh Gary, could you go to slide six? The slide six just shows you uh the two main interceptors that are now being used by the Patriot missile defense system. The top, [cough and clears throat] excuse me, the top interceptor is the PAC 2 interceptor. It basically uh has about the u same length was about the same length of the pack 3. The PAC 3 is much lighter. The PAC 3 is um is 1/3 to 1/4 the weight.
 
@@ -113,9 +111,11 @@ That's the nose cone, the nose uh uh edge. This reflects almost no radar. So you
 
 It may tumble over, but it doesn't much matter. the warhead will come to the ground and basically um hit where it was very likely to hit within the uncertainties that it would otherwise have had. So, so this is a key problem that's fundamental to the radar guidance. You cannot tell exactly where the front end is. This is why you always must attack headon. You must attack the target head on because what you're trying to do is literally hit the warhead front on and cause it to detonate.
 
-**Ted Postol:** So it's basically you're trying to hit a bullet with a bullet.
+### PAC Slide Seven — Gulf War Crossing Speed And Aircraft Role
 
-**Daniel Davis:** Absolutely. Now if we go to slide seven. Okay. Slide seven. This is an icon that shows you the Patriot Pack 2 interceptor against a Scud target Allah Gulf War of 90 1991. Now what's what what's shown you in this diagram is uh is a Patriot interceptor uh coming from the left and approaching uh a Scud. The Scud is coming at about two and 2.2 2 2.3 km/s and the Patriot is traveling at maybe 1 and a half kilometers/s. So the crossing speed, the total crossing speed is more than 3 and a half kilometers/s. This is a very important point.
+**Daniel Davis:** So it's basically you're trying to hit a bullet with a bullet.
+
+**Ted Postol:** Absolutely. Now if we go to slide seven. Okay. Slide seven. This is an icon that shows you the Patriot Pack 2 interceptor against a Scud target Allah Gulf War of 90 1991. Now what's what what's shown you in this diagram is uh is a Patriot interceptor uh coming from the left and approaching uh a Scud. The Scud is coming at about two and 2.2 2 2.3 km/s and the Patriot is traveling at maybe 1 and a half kilometers/s. So the crossing speed, the total crossing speed is more than 3 and a half kilometers/s. This is a very important point.
 
 Now you see all these arrows emanating from the back end of the of the Patriot interceptor from the left. Now, what you're seeing here in this diagram, I I make believe that the Scud is stationary in space, right? So, Scud's not moving, but the Patriot is coming at 3 and a half kilometers/s. That simulates the crossing speed. And the arrows you see show you the the the movements of of fragments from the exploding warhead that are supposed to um [clears throat] do damage to the Scud and and destroy the warhead. So these are fragments of of steel uh created uh by the explosion of the warhead.
 
@@ -125,31 +125,31 @@ And because they couldn't find the front end of the Scud with the radar system a
 
 You're going to fly under the wing or you're going to or you're going to see the fuse lodge of the airplane and you're going to detonate. And those fragments are not going to be distorted in the direction they're moving because the airplane's traveling at 250 or 300 meters per second.
 
-**Ted Postol:** Right. uh and and your fragments are traveling at 2 km per second, you're going to shred this airplane to bits.
+**Daniel Davis:** Right. uh and and your fragments are traveling at 2 km per second, you're going to shred this airplane to bits.
 
-**Daniel Davis:** So even a pack two is is completely effective against most uh modern even modern jet
+**Ted Postol:** So even a pack two is is completely effective against most uh modern even modern jet
 
-**Ted Postol:** quite effective against aircraft. So the PAC 2 and the PAC 3 are both highly effective against air aircraft and and the Patriot could have could have a high utility in the future if we can find ways to continue using it. And I'll explain why that's a question now. Uh if we can find ways to to to protect the Patriot units from being destroyed, which is I think a real problem right now, um then they would be able to make it nearly impossible for enemy aircraft to operate in an area defended by the Patriot units. In other words, you c you couldn't fly aircraft in and drop a lot of bombs or
+**Daniel Davis:** quite effective against aircraft. So the PAC 2 and the PAC 3 are both highly effective against air aircraft and and the Patriot could have could have a high utility in the future if we can find ways to continue using it. And I'll explain why that's a question now. Uh if we can find ways to to to protect the Patriot units from being destroyed, which is I think a real problem right now, um then they would be able to make it nearly impossible for enemy aircraft to operate in an area defended by the Patriot units. In other words, you c you couldn't fly aircraft in and drop a lot of bombs or
 
-**Daniel Davis:** Yeah.
+**Ted Postol:** Yeah.
 
-**Ted Postol:** have to stand. So that's a very useful function. Airplanes can carry quite a lot of payload
+**Daniel Davis:** have to stand. So that's a very useful function. Airplanes can carry quite a lot of payload
 
-**Daniel Davis:** as long as that's what the enemy is trying to do. Bring in aircraft.
+**Ted Postol:** as long as that's what the enemy is trying to do. Bring in aircraft.
 
-**Ted Postol:** Now, of course, if you have drones, it will also be very effective against drones.
+**Daniel Davis:** Now, of course, if you have drones, it will also be very effective against drones.
 
-**Daniel Davis:** Except the Patriot Pack 2 interceptor cost you a million dollars. The Patriot Pack 3 interceptor cost you $4 million. And a drone cost you 20 or $30,000. And even if you're very rich, you have to be extremely rich to be able to deal with thousands or tens of thousands of of drone drones coming in uh at your air defense. So this raises real questions about whether or not air defenses can be survivable.
+**Ted Postol:** Except the Patriot Pack 2 interceptor cost you a million dollars. The Patriot Pack 3 interceptor cost you $4 million. And a drone cost you 20 or $30,000. And even if you're very rich, you have to be extremely rich to be able to deal with thousands or tens of thousands of of drone drones coming in uh at your air defense. So this raises real questions about whether or not air defenses can be survivable.
 
 So, um anyway, let me just uh uh tell you about a one feature that you of uh of um
 
 ### Drone Economics — Inventory Question And Tel Aviv Setup
 
-**Daniel Davis:** and I'm sorry, Ted, real quick before you leave that topic. Uh do you have any sense for how many PC twos we have in our inventory? And I'm talking missile interceptor missiles. I don't know but I can tell you for sure that there there are well it looks like there's pack twos have been used in the defense of Tel Aviv. I'll show you a video from Tel Aviv. This is video one uh that um that I'll show for Gary and um and um so so let's let's go uh to slide four and then we'll go back to video one. Okay.
+**Ted Postol:** and I'm sorry, Ted, real quick before you leave that topic. Uh do you have any sense for how many PC twos we have in our inventory? And I'm talking missile interceptor missiles. I don't know but I can tell you for sure that there there are well it looks like there's pack twos have been used in the defense of Tel Aviv. I'll show you a video from Tel Aviv. This is video one uh that um that I'll show for Gary and um and um so so let's let's go uh to slide four and then we'll go back to video one. Okay.
 
 ### Frame Physics — Sky And Ground Detonation Signatures
 
-**Daniel Davis:** All right. Um slide four shows you what happens when you have a detonation of a high explosive in the sky. shows you what a video camera can see. All right. And incidentally, this was argued adnauseium by the US Army and Raytheon that you couldn't get any data from video. So the US Army and Raytheon made a false argument for years. They held on to this for years. uh even after the American Physical Society published their finding that we were correct in every in in every uh interpretation of the video we made. So here's um nine video frames.
+**Ted Postol:** All right. Um slide four shows you what happens when you have a detonation of a high explosive in the sky. shows you what a video camera can see. All right. And incidentally, this was argued adnauseium by the US Army and Raytheon that you couldn't get any data from video. So the US Army and Raytheon made a false argument for years. They held on to this for years. uh even after the American Physical Society published their finding that we were correct in every in in every uh interpretation of the video we made. So here's um nine video frames.
 
 Um and um the first video frame just shows you what the sky looks like immediately before the detonation of an explosion. In this particular case, we know it's the explosion of a of an Iranian rocket. The context of the video will be you'll see this later in the second video I show. So you you'll see the sequence of events. So what happens is when when this Iranian rocket was hit in front, when a Patriot Pack three, not a PAC two, a PAC three ran into the front end of this missile of this uh inter medium range ballistic missile. It detonated the warhead.
 
@@ -167,17 +167,17 @@ So even if you didn't see the warhead hit the ground, the fact that the whole sk
 
 And so the potential confusion can occur if the Patriot Pack 2 explodes in the sky and misses its target. But it turns out that's not a problem because you'll see the target continuing on. If the target is destroyed, you'll
 
-**Ted Postol:** And when you say it's not a problem, that means it's not a problem from the attacking position, not from the defend.
+**Daniel Davis:** And when you say it's not a problem, that means it's not a problem from the attacking position, not from the defend.
 
-**Daniel Davis:** No, it's not a problem. It's not a problem from the analyst's point of view. Because if you want to determine whether or not the explosion of the Patriot Pac 2 resulted in the destruction of the warhead of the incoming missile incoming missile warhead, then uh the miss you'll see the the the the missile going on and I have a beautiful video illustrating that o over Tel Aviv during the 2026 Gulf War.
+**Ted Postol:** No, it's not a problem. It's not a problem from the analyst's point of view. Because if you want to determine whether or not the explosion of the Patriot Pac 2 resulted in the destruction of the warhead of the incoming missile incoming missile warhead, then uh the miss you'll see the the the the missile going on and I have a beautiful video illustrating that o over Tel Aviv during the 2026 Gulf War.
 
 ### Tel Aviv Video One — PAC Two Misses And Ground Hit
 
-**Daniel Davis:** Why don't we uh take take a shot at this, Gary? This is a real time. So things are going to happen very fast. You see I I designated the the spots where it happened. But now we're going to see in the second view of the attack and I'm going to have slow motion. There's the first patriot miss. Now there's a second Patriot miss. Now you know we know it's a miss because you're going to see that the bright the the bright ball that is the ongoing warhead continues onto the ground. And then we'll see the warhead hit the ground. and you see 5,000 degree explosion.
+**Ted Postol:** Why don't we uh take take a shot at this, Gary? This is a real time. So things are going to happen very fast. You see I I designated the the spots where it happened. But now we're going to see in the second view of the attack and I'm going to have slow motion. There's the first patriot miss. Now there's a second Patriot miss. Now you know we know it's a miss because you're going to see that the bright the the bright ball that is the ongoing warhead continues onto the ground. And then we'll see the warhead hit the ground. and you see 5,000 degree explosion.
 
 So, what this shows you is that the video data contains all the information you need to analyze these events if you know what you're looking for.
 
-**Ted Postol:** And I'm sorry, can you can can you explain to us how you differentiate a PAC two from a pack three from this video?
+**Daniel Davis:** And I'm sorry, can you can can you explain to us how you differentiate a PAC two from a pack three from this video?
 
 **Ted Postol:** Well, if we would see no fireball at all from the PAC two. If the pack two missed, we would just not see it. In other words, if if the pack one and pack if the interceptor one and two were pack 3es, we would have not seen them at all because they both missed. What we would see if they hit is a large fireball. And I'll show you. So even though we cannot see the explosion of a PAC 3 because it doesn't have a large warhead, we can see the result of its intercept attempt. So we don't see the PAC 3es much at all.
 

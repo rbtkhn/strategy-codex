@@ -1,6 +1,5 @@
 # PH-CIV Promotion Ledger
 
-WORK only; not Record.
 
 This ledger is the compact intake surface for promoting public `ph-civ` insight into `civ-state`.
 

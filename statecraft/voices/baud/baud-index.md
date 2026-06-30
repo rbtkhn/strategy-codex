@@ -1,6 +1,5 @@
 # Baud source index
 
-WORK only; not Record.
 
 Purpose: canonical **archive parity** bench for **Jacques Baud** while orthogonality routing (arc, helix, topical threads, host arcs) stays in sibling surfaces.
 

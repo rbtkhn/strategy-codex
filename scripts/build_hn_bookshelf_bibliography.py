@@ -7,7 +7,6 @@ Outputs: research/bibliography/REFERENCES-shelf-by-era.md, REFERENCES-shelf-by-s
 Author strings are emitted as stored in the catalog (usually First Last). For formal publication,
 invert names manually or enrich `cite_as` / optional `editor` / `translator` / imprint fields in YAML.
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -68,10 +67,8 @@ Regenerate: `python3 scripts/build_hn_bookshelf_bibliography.py`
 ---
 """
 
-
 def _one_line(s: str) -> str:
     return " ".join((s or "").split())
-
 
 def year_str(item: dict) -> str:
     """Publication year (no trailing period; sentence punctuation adds the dot)."""
@@ -79,7 +76,6 @@ def year_str(item: dict) -> str:
     if y is None or y == "":
         return "n.d"
     return str(y).strip()
-
 
 def format_entry(item: dict, *, include_id: bool = True) -> str:
     author = _one_line(str(item.get("cite_as") or item.get("author") or "Unknown author"))
@@ -116,14 +112,12 @@ def format_entry(item: dict, *, include_id: bool = True) -> str:
         line = f"{line} `{sid}`"
     return line
 
-
 def load_items(path: Path) -> list[dict]:
     data = safe_load_path(path, feature="build_hn_bookshelf_bibliography.py") or {}
     items = data.get("items")
     if not isinstance(items, list):
         return []
     return [x for x in items if isinstance(x, dict) and x.get("id")]
-
 
 def build_by_era(items: list[dict]) -> str:
     lines: list[str] = [GENERATED_HEADER, "## By era (Bookshelf `era`)", ""]
@@ -156,7 +150,6 @@ def build_by_era(items: list[dict]) -> str:
 
     return "\n".join(lines).rstrip() + "\n"
 
-
 def build_by_id(items: list[dict]) -> str:
     lines: list[str] = [GENERATED_HEADER, "## By Shelf id (stable order)", ""]
     sorted_items = sorted(items, key=lambda x: x.get("id") or "")
@@ -164,7 +157,6 @@ def build_by_id(items: list[dict]) -> str:
         lines.append(f"- {format_entry(it)}")
     lines.append("")
     return "\n".join(lines)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -293,7 +285,6 @@ def main() -> int:
     print(f"wrote {f_era}")
     print(f"wrote {f_id}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

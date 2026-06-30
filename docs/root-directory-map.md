@@ -6,7 +6,6 @@ record_status: none
 
 # Root directory map — strategy-codex
 
-**Work only; not Record.**
 
 **Purpose:** Legibility hub for what lives at the repository root vs under consolidated subtrees (`runtime/`, `platform/`, `archive/`, …). Link SSOT below; this page does not duplicate full doctrine.
 

@@ -27,6 +27,7 @@ Grace-Mar is archived/frozen. Active strategy-codex work does not grow the fork.
 ## Preflight
 
 ```bash
+python3 scripts/validate_all_schemas.py --scope prediction
 python3 scripts/check_repo_health.py --quick
 python3 scripts/check_repo_health.py --full   # before large PRs
 ```

@@ -1,6 +1,5 @@
 # Hexagon Arc-Lens Stress Test
 
-WORK only; not Record.
 
 ## Purpose
 

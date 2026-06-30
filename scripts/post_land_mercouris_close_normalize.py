@@ -25,14 +25,12 @@ from normalize_mercouris_close_scaffold import (  # noqa: E402
     split_frontmatter,
 )
 
-
 @dataclass(frozen=True)
 class PostLandResult:
     path: Path
     status: str
     applied: bool
     flags: str
-
 
 def _resolve_landed_path(path: Path) -> Path:
     resolved = (REPO_ROOT / path).resolve() if not path.is_absolute() else path.resolve()
@@ -45,7 +43,6 @@ def _resolve_landed_path(path: Path) -> Path:
             f"path must be under {ARCHIVE_ROOT.relative_to(REPO_ROOT).as_posix()}: {resolved}"
         ) from exc
     return resolved
-
 
 def post_land_mercouris_close_normalize(
     path: Path,
@@ -84,7 +81,6 @@ def post_land_mercouris_close_normalize(
         flags=joined,
     )
 
-
 def _format_flags(result: PostLandResult) -> str:
     rel = result.path.relative_to(REPO_ROOT).as_posix()
     if result.status == "skipped-not-mercouris-solo":
@@ -93,7 +89,6 @@ def _format_flags(result: PostLandResult) -> str:
         return f"no-op {rel}"
     mode = "would-change" if result.status == "dry-run" else "applied"
     return f"{mode} {rel} [{result.flags}]"
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -117,7 +112,6 @@ def main() -> int:
             return 1
         print(_format_flags(result))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

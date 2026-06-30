@@ -30,7 +30,6 @@ DEFAULT_USER_ID = DEFAULT_PROFILE_ID
 PROMOTABLE_STATUSES = {"recurring", "candidate", "cross_evidenced", "stable"}
 TERMINAL_STATUSES = {"promoted", "rejected", "expired"}
 
-
 def _load_rules(rules_path: Path | None = None) -> dict[str, Any]:
     path = rules_path or (REPO_ROOT / "platform/config" / "seed-promotion-rules.json")
     if not path.exists():
@@ -39,7 +38,6 @@ def _load_rules(rules_path: Path | None = None) -> dict[str, Any]:
                              "contradiction_policy": "block_until_resolved"},
                 "sensitivity_overrides": {}, "category_overrides": {}}
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def _load_latest(user_id: str) -> dict[str, dict[str, Any]]:
     path = profile_dir(user_id) / "seed-registry.jsonl"
@@ -58,7 +56,6 @@ def _load_latest(user_id: str) -> dict[str, dict[str, Any]]:
         except json.JSONDecodeError:
             continue
     return latest
-
 
 def _effective_rules(
     claim: dict[str, Any], rules: dict[str, Any],
@@ -80,11 +77,9 @@ def _effective_rules(
     effective.pop("sensitivity_floor", None)
     return effective
 
-
 def _count_sessions(source_events: list[str]) -> int:
     sessions = {s for s in source_events if s.startswith("session-")}
     return max(len(sessions), len(source_events))
-
 
 def _time_span_days(first_seen: str, last_seen: str) -> int:
     try:
@@ -93,7 +88,6 @@ def _time_span_days(first_seen: str, last_seen: str) -> int:
         return max((ls - fs).days, 0)
     except (ValueError, TypeError):
         return 0
-
 
 def evaluate_claim(
     claim: dict[str, Any], rules: dict[str, Any],
@@ -175,7 +169,6 @@ def evaluate_claim(
         "met": met,
     }
 
-
 def evaluate_all(
     user_id: str, rules: dict[str, Any],
 ) -> list[dict[str, Any]]:
@@ -189,7 +182,6 @@ def evaluate_all(
         {"ready": 0, "approaching": 1, "blocked": 2}[r["verdict"]],
         r["seed_id"],
     ))
-
 
 def advance_claims(user_id: str, rules: dict[str, Any]) -> list[str]:
     """Auto-advance claims whose status can be upgraded based on evaluation."""
@@ -214,7 +206,6 @@ def advance_claims(user_id: str, rules: dict[str, Any]) -> list[str]:
             advanced.append(f"{claim['seed_id']}: {current} -> {new_status}")
     return advanced
 
-
 def _format_results(results: list[dict[str, Any]]) -> str:
     lines: list[str] = []
     lines.append("  Seed Promotion Evaluation")
@@ -236,7 +227,6 @@ def _format_results(results: list[dict[str, Any]]) -> str:
             if r["blockers"]:
                 lines.append(f"      blocked: {', '.join(r['blockers'])}")
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Evaluate seed promotion readiness.")
@@ -270,7 +260,6 @@ def main() -> int:
         print(_format_results(results))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

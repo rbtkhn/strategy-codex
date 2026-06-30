@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md
 ---
 
-WORK only; not Record.
 
 # Marandi arc
 

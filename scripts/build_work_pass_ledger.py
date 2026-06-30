@@ -34,7 +34,6 @@ DEFAULT_FRICTION_ROOTS = (
     REPO_ROOT / "docs" / "skill-work" / "work-strategy",
 )
 
-
 def _parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-u", "--user-id", default="strategy-codex")
@@ -49,7 +48,6 @@ def _parse_args() -> argparse.Namespace:
         help="Also write runtime/artifacts/context/conductor-ledger.md (compatibility mirror)",
     )
     return parser.parse_args()
-
 
 def collect_recent_work_pass_closes(
     user_id: str,
@@ -104,10 +102,8 @@ def collect_recent_work_pass_closes(
             )
     return combined[-limit:]
 
-
 # Compatibility alias (Phase 3 read-only)
 collect_recent_conductor_closes = collect_recent_work_pass_closes
-
 
 def collect_friction_candidates(
     *,
@@ -153,7 +149,6 @@ def collect_friction_candidates(
                 if len(results) >= max_items:
                     return results
     return results
-
 
 def build_work_pass_ledger(
     user_id: str,
@@ -203,10 +198,8 @@ def build_work_pass_ledger(
         "friction_candidates": collect_friction_candidates(max_items=max_friction),
     }
 
-
 # Compatibility alias (Phase 3 read-only)
 build_conductor_ledger = build_work_pass_ledger
-
 
 def render_work_pass_ledger_markdown(payload: dict[str, Any]) -> str:
     audit = payload["audit"]
@@ -215,7 +208,7 @@ def render_work_pass_ledger_markdown(payload: dict[str, Any]) -> str:
     lines = [
         "# Work-pass ledger",
         "",
-        "WORK only; derived from extended `coffee_close` cadence (+ legacy conductor rows read-only). Not Record.",
+        "non-authoritative; derived from extended `coffee_close` cadence (+ legacy conductor rows read-only). Not Record.",
         "",
         f"- Window: last `{payload['days']}` day(s)",
         f"- Generated: `{payload['generated_at']}`",
@@ -337,10 +330,8 @@ def render_work_pass_ledger_markdown(payload: dict[str, Any]) -> str:
 
     return "\n".join(lines) + "\n"
 
-
 # Compatibility alias (Phase 3 read-only)
 render_conductor_ledger_markdown = render_work_pass_ledger_markdown
-
 
 def main() -> int:
     args = _parse_args()
@@ -361,7 +352,6 @@ def main() -> int:
         LEGACY_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
         LEGACY_OUTPUT.write_text(markdown, encoding="utf-8")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

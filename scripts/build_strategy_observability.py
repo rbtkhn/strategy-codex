@@ -30,7 +30,6 @@ OUT = REPO_ROOT / "runtime/artifacts/work-strategy/strategy-observability.json"
 STRATEGY_ROOT = REPO_ROOT / "docs/skill-work/work-strategy"
 NB_ROOT = REPO_ROOT / "codex"
 
-
 def _count_dated_entries(days_path: Path) -> tuple[int, list[str]]:
     """Count ## YYYY-MM-DD headings and return (count, list_of_dates)."""
     if not days_path.is_file():
@@ -38,7 +37,6 @@ def _count_dated_entries(days_path: Path) -> tuple[int, list[str]]:
     text = days_path.read_text(encoding="utf-8", errors="replace")
     dates = re.findall(r"^## (\d{4}-\d{2}-\d{2})", text, re.MULTILINE)
     return len(dates), dates
-
 
 def _section_density(days_path: Path) -> dict:
     """Per-entry average of key sections present (Signal, Judgment, References, Prediction)."""
@@ -66,7 +64,6 @@ def _section_density(days_path: Path) -> dict:
         "avg_sections": round(total / len(entries), 2),
     }
 
-
 def _links_density(days_path: Path) -> float:
     """Average number of link/path references per References (or legacy Links) section."""
     if not days_path.is_file():
@@ -84,7 +81,6 @@ def _links_density(days_path: Path) -> float:
     for block in links_blocks:
         total_refs += len(re.findall(r"(?:\[.*?\]\(|\bhttps?://)", block))
     return round(total_refs / len(links_blocks), 1)
-
 
 def _open_carry_forward(days_path: Path) -> int:
     """Count Prediction/Foresight/Open sections that mention verify/deferred/? etc."""
@@ -108,7 +104,6 @@ def _open_carry_forward(days_path: Path) -> int:
             carry += 1
     return carry
 
-
 def _inbox_line_count() -> int:
     """Count non-blank, non-heading lines below the append marker in inbox."""
     inbox = NB_ROOT / "daily-strategy-inbox.md"
@@ -127,7 +122,6 @@ def _inbox_line_count() -> int:
     ]
     return len(lines)
 
-
 def _promotion_activity() -> int:
     """Count dated §IV log entries in STRATEGY.md."""
     strat = STRATEGY_ROOT / "STRATEGY.md"
@@ -135,7 +129,6 @@ def _promotion_activity() -> int:
         return 0
     text = strat.read_text(encoding="utf-8", errors="replace")
     return len(re.findall(r"\d{4}-\d{2}-\d{2}", text))
-
 
 def main() -> int:
     try:
@@ -233,7 +226,6 @@ def main() -> int:
     OUT.write_text(json.dumps(doc, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {OUT}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

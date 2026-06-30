@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Mearsheimer support spine - 2025-2026
 

@@ -51,7 +51,6 @@ DEST_OVERRIDES: dict[str, str] = {
     "statecraft/notes/arc-mearsheimer-napolitano-host.md": "arc-mearsheimer-napolitano-host.md",
 }
 
-
 @dataclass
 class ArcMove:
     canonical: Path
@@ -61,10 +60,8 @@ class ArcMove:
     stubs: tuple[Path, ...]
     title: str
 
-
 def _rel(path: Path) -> str:
     return path.relative_to(REPO).as_posix()
-
 
 def _normalize_stem(name: str) -> str:
     stem = name
@@ -73,7 +70,6 @@ def _normalize_stem(name: str) -> str:
     if stem.endswith("-arc"):
         return stem[: -len("-arc")]
     return stem
-
 
 def _is_stub(text: str) -> bool:
     lower = text.lower()
@@ -87,14 +83,12 @@ def _is_stub(text: str) -> bool:
         return True
     return False
 
-
 # Pilot / stable names keyed by (shelf_dir_rel, normalized_stem)
 GROUP_DEST_OVERRIDES: dict[tuple[str, str], str] = {
     ("statecraft/channels/daniel-davis", "davis-mearsheimer"): "arc-mearsheimer-davis-host.md",
     ("statecraft/voices/diesen", "diesen-mearsheimer"): "arc-mearsheimer-diesen-host.md",
     ("statecraft/channels/judging-freedom", "napolitano-mearsheimer"): "arc-mearsheimer-napolitano-host.md",
 }
-
 
 def _dest_basename(canonical: Path, group_parent: str, group_stem: str) -> str:
     group_key = (group_parent, group_stem)
@@ -134,7 +128,6 @@ def _dest_basename(canonical: Path, group_parent: str, group_stem: str) -> str:
         return f"arc-jermy-{host}-host.md"
     return f"arc-{stem}.md"
 
-
 def _primary_voice(canonical: Path, dest_name: str) -> str:
     stem = _normalize_stem(canonical.stem)
     shelf = canonical.parent.name
@@ -156,7 +149,6 @@ def _primary_voice(canonical: Path, dest_name: str) -> str:
         return "jermy"
     return shelf
 
-
 def _host_channel(canonical: Path) -> str | None:
     if "channels" not in canonical.parts:
         if _normalize_stem(canonical.stem).startswith(f"{canonical.parent.name}-"):
@@ -164,13 +156,11 @@ def _host_channel(canonical: Path) -> str | None:
         return None
     return canonical.parent.name
 
-
 def _title(canonical: Path) -> str:
     first = canonical.read_text(encoding="utf-8").splitlines()[0].lstrip("# ").strip()
     if first and not first.startswith("---"):
         return first
     return canonical.stem.replace("-", " ")
-
 
 def _collect_arc_files() -> list[Path]:
     out: list[Path] = []
@@ -184,10 +174,8 @@ def _collect_arc_files() -> list[Path]:
                 out.append(path)
     return out
 
-
 def _group_key(path: Path) -> tuple[str, str]:
     return _rel(path.parent), _normalize_stem(path.stem)
-
 
 def _pick_canonical(group: list[Path]) -> Path:
     bodies = [p for p in group if not _is_stub(p.read_text(encoding="utf-8"))]
@@ -200,7 +188,6 @@ def _pick_canonical(group: list[Path]) -> Path:
         )
     )
     return bodies[0]
-
 
 def plan_moves() -> list[ArcMove]:
     files = _collect_arc_files()
@@ -241,7 +228,6 @@ def plan_moves() -> list[ArcMove]:
         )
     return moves
 
-
 def _yaml_block(move: ArcMove) -> str:
     lines = [
         "---",
@@ -254,7 +240,6 @@ def _yaml_block(move: ArcMove) -> str:
         lines.append(f"host_channel: {move.host_channel}")
     lines.append("---")
     return "\n".join(lines)
-
 
 def _normalize_body(text: str, mapping: dict[str, str]) -> str:
     text = re.sub(
@@ -283,11 +268,9 @@ def _normalize_body(text: str, mapping: dict[str, str]) -> str:
     )
     return text
 
-
 def _stub_rel(stub: Path, dest_name: str) -> str:
     depth = len(stub.relative_to(REPO).parts) - 2
     return Path(*([".."] * depth), "notes", dest_name).as_posix()
-
 
 def _stub_body(title: str, rel_link: str, legacy: str, speaker_arc: bool) -> str:
     extra = (
@@ -297,13 +280,10 @@ def _stub_body(title: str, rel_link: str, legacy: str, speaker_arc: bool) -> str
     )
     return f"""# {title} (compat redirect)
 
-WORK only; not Record.
-
 **Canonical:** [{rel_link.split('/')[-1]}]({rel_link})
 
 Legacy path: `{legacy}` — {extra}
 """
-
 
 def _build_link_mapping(moves: list[ArcMove]) -> dict[str, str]:
     mapping: dict[str, str] = {}
@@ -319,7 +299,6 @@ def _build_link_mapping(moves: list[ArcMove]) -> dict[str, str]:
         mapping[_rel(move.canonical)] = dest_rel
         mapping[move.canonical.name] = dest_name
     return mapping
-
 
 def _rewrite_repo(mapping: dict[str, str]) -> list[str]:
     changed: list[str] = []
@@ -366,7 +345,6 @@ def _rewrite_repo(mapping: dict[str, str]) -> list[str]:
                 fp.write_text(text, encoding="utf-8", newline="\n")
                 changed.append(rel)
     return changed
-
 
 def apply(dry_run: bool = False) -> dict:
     moves = plan_moves()
@@ -436,7 +414,6 @@ def apply(dry_run: bool = False) -> dict:
     receipt["promote_count"] = len(receipt["promotions"])
     return receipt
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true")
@@ -447,7 +424,6 @@ def main() -> int:
     receipt = apply(dry_run=args.dry_run)
     print(json.dumps(receipt, indent=2))
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

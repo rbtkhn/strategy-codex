@@ -61,7 +61,6 @@ RETURN_PATHS = [
 
 SKILL_LOG_ROW_RE = re.compile(r"^\|\s*\d{4}-\d{2}-\d{2}\s*\|")
 
-
 @dataclass
 class NextAction:
     priority: int
@@ -72,7 +71,6 @@ class NextAction:
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
-
 
 @dataclass
 class DeckContext:
@@ -85,7 +83,6 @@ class DeckContext:
     gate_pending: list[dict[str, Any]] | None = None
     gate_summary: dict[str, Any] | None = None
 
-
 def _classify_change(path: str) -> str:
     normalized = path.replace("\\", "/")
     for marker in RUNTIME_NOISE_MARKERS:
@@ -95,7 +92,6 @@ def _classify_change(path: str) -> str:
         if marker in normalized:
             return "export_churn"
     return "meaningful"
-
 
 def _parse_built_timestamp(raw: str) -> datetime | None:
     text = (raw or "").strip()
@@ -115,7 +111,6 @@ def _parse_built_timestamp(raw: str) -> datetime | None:
         except ValueError:
             continue
     return None
-
 
 def load_budget_summary(repo_root: Path) -> dict[str, Any]:
     path = repo_root / "runtime" / "prepared-context" / "last-budget-builds.json"
@@ -170,7 +165,6 @@ def load_budget_summary(repo_root: Path) -> dict[str, Any]:
     summary["stale_reason"] = stale_reason if stale else ""
     return summary
 
-
 def load_skill_candidate_backlog(repo_root: Path) -> dict[str, Any]:
     path = repo_root / "skills" / "skill-candidates.md"
     summary: dict[str, Any] = {
@@ -203,7 +197,6 @@ def load_skill_candidate_backlog(repo_root: Path) -> dict[str, Any]:
     summary["sample_names"] = unpromoted[:5]
     return summary
 
-
 def _packet_has_receipt(md_path: Path) -> bool:
     stem = md_path.stem
     parent = md_path.parent
@@ -213,7 +206,6 @@ def _packet_has_receipt(md_path: Path) -> bool:
         parent / f"{stem}-receipt.json",
     ]
     return any(p.is_file() for p in candidates)
-
 
 def load_review_packet_gaps(repo_root: Path) -> dict[str, Any]:
     packet_dir = repo_root / "runtime" / "artifacts" / "review-packets"
@@ -233,7 +225,6 @@ def load_review_packet_gaps(repo_root: Path) -> dict[str, Any]:
         "missing_receipt_paths": missing[:10],
     }
 
-
 def load_gate_pending(repo_root: Path, *, user_id: str = DEFAULT_PROFILE_ID) -> list[dict[str, Any]]:
     candidates = [
         repo_root / "recursion-gate.md",
@@ -244,7 +235,6 @@ def load_gate_pending(repo_root: Path, *, user_id: str = DEFAULT_PROFILE_ID) -> 
         if gate_path.is_file():
             return _pending_structs(gate_path.read_text(encoding="utf-8", errors="replace"))
     return []
-
 
 def load_git_summary(repo_root: Path, *, enabled: bool) -> dict[str, Any]:
     if not enabled:
@@ -289,7 +279,6 @@ def load_git_summary(repo_root: Path, *, enabled: bool) -> dict[str, Any]:
         "dirty_tracked_count": snap.dirty_tracked_count,
         "untracked_count": snap.untracked_count,
     }
-
 
 def build_deck_context(
     repo_root: Path,
@@ -340,14 +329,12 @@ def build_deck_context(
         gate_summary=gate_summary,
     )
 
-
 def _intake_backlog_rows(war_room: WarRoomContext) -> list[Any]:
     rows = []
     for row in war_room.queue_rows:
         if row.synthesis_status in {"new", "queued"} and row.queue_eligible:
             rows.append(row)
     return rows
-
 
 def rank_next_actions(ctx: DeckContext, *, max_actions: int = 5) -> list[NextAction]:
     candidates: list[NextAction] = []
@@ -490,7 +477,6 @@ def rank_next_actions(ctx: DeckContext, *, max_actions: int = 5) -> list[NextAct
         action.priority = i
     return out
 
-
 def build_markdown(
     ctx: DeckContext,
     actions: list[NextAction],
@@ -613,7 +599,6 @@ def build_markdown(
     parts.append("")
     return "\n".join(parts)
 
-
 def build_json_payload(
     ctx: DeckContext,
     actions: list[NextAction],
@@ -652,7 +637,6 @@ def build_json_payload(
         },
         "gate_summary": ctx.gate_summary,
     }
-
 
 def generate_report(
     repo_root: Path,
@@ -704,7 +688,6 @@ def generate_report(
     )
     return 0, payload
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
@@ -739,7 +722,6 @@ def main() -> int:
         include_gate=args.include_gate,
     )
     return code
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

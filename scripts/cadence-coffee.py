@@ -44,13 +44,11 @@ MODES = ("standard", "light", "deep", "closeout")
 STATE_NAME = "last-coffee-state.json"
 CONTEXT_NAME = ".coffee-run-context.json"
 
-
 def _run(argv: list[str], *, label: str | None = None) -> int:
     display = label or " ".join(argv)
     print(f"\n{'=' * 60}\n$ {display}\n{'=' * 60}\n", flush=True)
     r = subprocess.run(argv, cwd=str(_REPO))
     return r.returncode
-
 
 def _git_status_sb() -> str:
     r = subprocess.run(
@@ -61,7 +59,6 @@ def _git_status_sb() -> str:
     )
     return (r.stdout or "").strip()
 
-
 def _git_branch_vv() -> str:
     r = subprocess.run(
         ["git", "branch", "-vv"],
@@ -71,7 +68,6 @@ def _git_branch_vv() -> str:
     )
     return r.stdout or ""
 
-
 def _git_head_short() -> str:
     r = subprocess.run(
         ["git", "rev-parse", "--short", "HEAD"],
@@ -80,7 +76,6 @@ def _git_head_short() -> str:
         text=True,
     )
     return (r.stdout or "").strip() or "unknown"
-
 
 def _branch_triage() -> Tuple[str, str, Dict[str, Any]]:
     """Return (branchHygieneClass, recommendedBranchAction, detail)."""
@@ -108,7 +103,6 @@ def _branch_triage() -> Tuple[str, str, Dict[str, Any]]:
         "statusLine": status_out.splitlines()[0] if status_out else "",
     }
 
-
 def _branch_snapshot_text(*, compact: bool = False, triage: Tuple[str, str, Dict[str, Any]] | None = None) -> str:
     status_out = _git_status_sb()
     if triage is None:
@@ -135,14 +129,12 @@ def _branch_snapshot_text(*, compact: bool = False, triage: Tuple[str, str, Dict
         f"Non-main branches: {len(non_main)} — review before next merge."
     )
 
-
 def _gate_fingerprint(gate_path: Path) -> str:
     if not gate_path.is_file():
         return "0"
     st = gate_path.stat()
     raw = f"{st.st_mtime_ns}:{st.st_size}"
     return hashlib.sha256(raw.encode()).hexdigest()[:16]
-
 
 def _read_state(path: Path) -> Dict[str, Any]:
     if not path.is_file():
@@ -152,7 +144,6 @@ def _read_state(path: Path) -> Dict[str, Any]:
         return data if isinstance(data, dict) else {}
     except Exception:
         return {}
-
 
 def _build_delta(prev: Dict[str, Any], cur: Dict[str, Any]) -> List[str]:
     if not prev:
@@ -172,7 +163,6 @@ def _build_delta(prev: Dict[str, Any], cur: Dict[str, Any]) -> List[str]:
         )
     return out[:4] if out else ["No material delta since last coffee."]
 
-
 def _suggest_mode(
     *,
     handoff: Dict[str, Any],
@@ -187,11 +177,9 @@ def _suggest_mode(
         return "standard"
     return "standard"
 
-
 def _write_coffee_context(path: Path, payload: Dict[str, Any]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
-
 
 def _log_coffee(
     user: str,
@@ -216,7 +204,6 @@ def _log_coffee(
         mode,
     ] + kv
     subprocess.run(cmd, cwd=str(_REPO))
-
 
 def main() -> int:
     p = argparse.ArgumentParser(
@@ -369,7 +356,6 @@ def main() -> int:
             _log_coffee(user, args.mode, ok=True, helpful=args.coffee_helpful)
 
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

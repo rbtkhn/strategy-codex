@@ -6,7 +6,6 @@ record_status: frozen
 
 # Public orientation — strategy-codex
 
-**Work only; not Record.**
 
 Short guide for journalists, bloggers, and other visitors who need a **public-safe** read of this repository — without operator session material or Grace-Mar Record merge authority.
 

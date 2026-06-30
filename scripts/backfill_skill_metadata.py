@@ -29,7 +29,6 @@ from skill_consolidation_maps import (  # noqa: E402
 from validate_skills import REPO_ROOT, _load_manifest_entries, _split_frontmatter  # noqa: E402
 from yaml_compat import safe_dump, safe_load_path  # noqa: E402
 
-
 def _format_scalar(value: Any) -> str:
     if isinstance(value, bool):
         return "true" if value else "false"
@@ -43,7 +42,6 @@ def _format_scalar(value: Any) -> str:
     if any(c in text for c in ':"\'\n#{}[]'):
         return f'"{text.replace(chr(34), chr(92) + chr(34))}"'
     return text
-
 
 def _render_frontmatter(fm: dict[str, Any]) -> str:
     """Preserve key order: name, description, then consolidation fields, then rest."""
@@ -73,7 +71,6 @@ def _render_frontmatter(fm: dict[str, Any]) -> str:
     lines.append("---")
     return "\n".join(lines)
 
-
 def _merge_metadata(name: str, fm: dict[str, Any], *, is_draft: bool) -> dict[str, Any]:
     out = dict(fm)
     if is_draft:
@@ -98,7 +95,6 @@ def _merge_metadata(name: str, fm: dict[str, Any], *, is_draft: bool) -> dict[st
         out.setdefault("scope_class", "repo-governed")
     return out
 
-
 def _patch_file(path: Path, name: str, *, is_draft: bool, dry_run: bool) -> bool:
     text = path.read_text(encoding="utf-8")
     fm, body = _split_frontmatter(text)
@@ -115,7 +111,6 @@ def _patch_file(path: Path, name: str, *, is_draft: bool, dry_run: bool) -> bool
     path.write_text(new_text, encoding="utf-8")
     print(f"UPDATED: {path.relative_to(REPO_ROOT)}")
     return True
-
 
 def _patch_manifest(dry_run: bool) -> bool:
     manifest_path = SKILLS_DIR / "manifest.yaml"
@@ -145,7 +140,6 @@ def _patch_manifest(dry_run: bool) -> bool:
     manifest_path.write_text(dump(data, feature="backfill_skill_metadata.py", sort_keys=False), encoding="utf-8")
     print("UPDATED: skills/manifest.yaml")
     return True
-
 
 def main() -> int:
     parser = argparse.ArgumentParser()
@@ -193,7 +187,6 @@ def main() -> int:
 
     print(f"\n{updated} file(s) {'would be ' if args.dry_run else ''}updated.")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

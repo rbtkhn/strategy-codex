@@ -1,6 +1,5 @@
 # Strategy-notebook namespace — DEPRECATED (2026-06-23)
 
-WORK only; not Record.
 
 **Status:** The phrase **`strategy-notebook`** and the compat tree **`docs/skill-work/work-strategy/../../codex/`** are **deprecated** for new strategy-codex work. Do not add new canonical artifacts under that namespace. Legacy files and script aliases may remain **read-only compatibility** until explicitly migrated.
 

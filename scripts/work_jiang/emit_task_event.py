@@ -51,10 +51,8 @@ EVENT_TO_STATUS = {
     "cancelled": "cancelled",
 }
 
-
 def new_task_event_id() -> str:
     return f"tevt_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}_{uuid.uuid4().hex[:8]}"
-
 
 def append_task_event(
     task_id: str,
@@ -97,7 +95,6 @@ def append_task_event(
         f.write(json.dumps(record, ensure_ascii=False) + "\n")
     return record
 
-
 def read_task_states() -> dict[str, dict]:
     """Return latest state per task_id by replaying the log."""
     states: dict[str, dict] = {}
@@ -113,7 +110,6 @@ def read_task_states() -> dict[str, dict]:
             states[tid] = {}
         states[tid].update(rec)
     return states
-
 
 def list_tasks(status_filter: str | None = None) -> None:
     states = read_task_states()
@@ -132,7 +128,6 @@ def list_tasks(status_filter: str | None = None) -> None:
         if st.get("agent"):
             parts.append(f"agent={st['agent']}")
         print("  ".join(parts))
-
 
 def main() -> None:
     parser = argparse.ArgumentParser(
@@ -184,7 +179,6 @@ def main() -> None:
         note=args.note,
     )
     print(f"Emitted {rec['event']} for {rec['task_id']} (status={rec['status']})")
-
 
 if __name__ == "__main__":
     main()

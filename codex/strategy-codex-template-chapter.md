@@ -1,7 +1,6 @@
 # Strategy-codex template - strategy-chapter
 <!-- word_count: canonical scaffold -->
 
-WORK only; not Record.
 
 **Purpose:** Canonical template for a **strategy-chapter**: the daily synthesis across relevant cognition streams and strategy-pages.
 

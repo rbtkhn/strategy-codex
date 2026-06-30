@@ -9,8 +9,7 @@ seeds otherwise, and optional MEM CONNECTIONS neighbors.
 Optional **MEM-only BFS** (theology / lineage traces): `--bfs-mem-target N` walks
 MEM CONNECTIONS from `theology_seed_mems` (and optional `--bfs-seed-file`) until
 N distinct `MEM–*.md` files are visited or the queue/depth cap is hit.
-
-WORK only; not Record. Requires research/repos/civilization_memory checkout for
+Requires research/repos/civilization_memory checkout for
 full output.
 
 Usage:
@@ -49,7 +48,6 @@ MEM_ID_PATTERN = re.compile(r"MEM[–\-][A-Za-z0-9–\-]+")
 # Large cap = "all connections" for BFS neighbor harvesting
 _BFS_EXTRACT_MAX = 50_000
 
-
 def _keyword_overlap(profile: dict, query_lower: str) -> int:
     kws = profile.get("keywords") or []
     n = 0
@@ -58,7 +56,6 @@ def _keyword_overlap(profile: dict, query_lower: str) -> int:
         if kl in query_lower or kl.replace("-", " ") in query_lower:
             n += 1
     return n
-
 
 def _score_profile(profile: dict, query: str) -> tuple[int, int]:
     """Returns (overlap_count, priority). Disqualified → (-1, priority)."""
@@ -69,7 +66,6 @@ def _score_profile(profile: dict, query: str) -> tuple[int, int]:
             return -1, profile.get("priority", 0)
     overlap = _keyword_overlap(profile, q)
     return overlap, profile.get("priority", 0)
-
 
 def _parse_iso_to_utc(s: str, *, end_of_day: bool) -> datetime:
     """Parse YAML date or datetime string to UTC-aware datetime."""
@@ -88,7 +84,6 @@ def _parse_iso_to_utc(s: str, *, end_of_day: bool) -> datetime:
         dt = dt.replace(tzinfo=timezone.utc)
     return dt.astimezone(timezone.utc)
 
-
 def _focus_is_valid(focus: dict) -> bool:
     try:
         now = datetime.now(timezone.utc)
@@ -104,7 +99,6 @@ def _focus_is_valid(focus: dict) -> bool:
     except (ValueError, TypeError, OSError):
         return False
 
-
 def _sticky_bonuses(focus: dict, query_lower: str) -> dict[str, int]:
     out: dict[str, int] = {}
     for item in focus.get("sticky_keywords") or []:
@@ -119,7 +113,6 @@ def _sticky_bonuses(focus: dict, query_lower: str) -> dict[str, int]:
         if kw in query_lower or alt in query_lower:
             out[str(pid)] = out.get(str(pid), 0) + bonus
     return out
-
 
 def _pick_profile(
     cfg: dict,
@@ -207,7 +200,6 @@ def _pick_profile(
     audit["fallback"] = None
     return best_id, best_prof, audit
 
-
 def _load_focus_config(path: Path) -> dict | None:
     if yaml is None or not path.is_file():
         return None
@@ -217,7 +209,6 @@ def _load_focus_config(path: Path) -> dict | None:
     except (OSError, yaml.YAMLError) as e:
         print(f"warning: could not load focus config {path}: {e}", file=sys.stderr)
         return None
-
 
 def _format_focus_block(
     audit: dict,
@@ -268,10 +259,8 @@ def _format_focus_block(
     lines.append("")
     return lines
 
-
 def _relevance_path(entity: str) -> Path:
     return CIV_BASE / entity / f"MEM–RELEVANCE–{entity}.md"
-
 
 def _run_suggest(entity: str, max_per_section: int) -> str:
     script = REPO_ROOT / "scripts" / "suggest_civ_mem_from_relevance.py"
@@ -284,7 +273,6 @@ def _run_suggest(entity: str, max_per_section: int) -> str:
     if proc.returncode != 0:
         return f"_(suggest_civ_mem_from_relevance {entity} failed: {proc.stderr.strip()})_"
     return proc.stdout.strip()
-
 
 def extract_mem_connection_ids(
     text: str,
@@ -307,7 +295,6 @@ def extract_mem_connection_ids(
     ordered = (rome_first + rest) if prefer_rome_prefix else seen
     return ordered[:cap]
 
-
 def resolve_mem_id_to_path(mem_id: str) -> Path | None:
     """Map MEM–CIV–… id to `content/civilizations/<CIV>/MEM–….md` if the file exists."""
     norm = mem_id.replace("-", "–").strip()
@@ -322,7 +309,6 @@ def resolve_mem_id_to_path(mem_id: str) -> Path | None:
         return None
     p = CIV_BASE / civ / f"{norm}.md"
     return p if p.is_file() else None
-
 
 def run_mem_bfs(
     seed_rel_paths: list[str],
@@ -394,12 +380,10 @@ def run_mem_bfs(
     hit = len(ordered) >= target
     return ordered, edges, hit, (None if hit else "queue_exhausted_or_depth")
 
-
 def _load_seed_lines_file(path: Path) -> list[str]:
     if not path.is_file():
         return []
     return [ln.strip() for ln in path.read_text(encoding="utf-8").splitlines()]
-
 
 def _civ_mem_upstream_rev() -> str:
     cmc = REPO_ROOT / "research" / "repos" / "civilization_memory"
@@ -418,7 +402,6 @@ def _civ_mem_upstream_rev() -> str:
     except OSError:
         pass
     return "unknown"
-
 
 def _collect_bfs_seeds(
     cfg: dict,
@@ -447,7 +430,6 @@ def _collect_bfs_seeds(
             out.append(ln)
     return out
 
-
 def _expand_connections(
     seed_relative: str,
     *,
@@ -461,7 +443,6 @@ def _expand_connections(
     return extract_mem_connection_ids(
         text, max_edges=max_edges, prefer_rome_prefix=prefer_rome_prefix
     )
-
 
 def _git_sha() -> str:
     try:
@@ -477,7 +458,6 @@ def _git_sha() -> str:
     except OSError:
         pass
     return "unknown"
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -712,7 +692,6 @@ def main() -> int:
         print(f"\n(logged to {DEFAULT_LOG.relative_to(REPO_ROOT)})", file=sys.stderr)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

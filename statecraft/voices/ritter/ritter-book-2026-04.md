@@ -46,4 +46,3 @@ military-technical judgment, escalation risk, and strategic warning.
 - Shared raw input lives under [`../../sheets/source-archive-control/`](../../sheets/source-archive-control/.
 - Use readable case-family labels plus exact civ-mem paths when known.
 
-WORK only; not Record.

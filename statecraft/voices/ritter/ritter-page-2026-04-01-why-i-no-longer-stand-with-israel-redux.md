@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-04-01 (*Why I no longer stand with Israel (Redux)*)
 <!-- word_count: 8926 -->
 
-WORK only; not Record.
 
 **Expert:** `ritter` · **Published:** 2026-04-01 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 

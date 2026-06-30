@@ -22,11 +22,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 DEFAULT_CONFIG = ROOT / "token_economics_models.json"
 
-
 def load_config(path: Path) -> dict:
     with path.open(encoding="utf-8") as f:
         return json.load(f)
-
 
 def estimate_blended_cost(
     total_tokens: int,
@@ -49,7 +47,6 @@ def estimate_blended_cost(
         lines.append((mid, frac, usd))
         total_usd += usd
     return total_usd, lines
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Estimate blended token cost from a JSON model table.")
@@ -79,7 +76,6 @@ def main() -> int:
         print(f"{mid}: weight={frac:.4f}  ~${usd:.4f}")
     print(f"Total estimated: ${total:.4f} (for {args.tokens:,} tokens, blended)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

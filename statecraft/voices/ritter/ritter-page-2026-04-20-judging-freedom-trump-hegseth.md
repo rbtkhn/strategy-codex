@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-04-20 (*Trump and Hegseth Haven't a Clue*)
 <!-- word_count: 3879 -->
 
-WORK only; not Record.
 
 **Expert:** `ritter` · **Aired:** 2026-04-20 · **Capture:** Mode B — Judging Freedom / interview (see raw-input series) · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 

@@ -1,6 +1,5 @@
 # arc-mcgovern-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [mcgovern-arc.md](mcgovern-arc.md)
 

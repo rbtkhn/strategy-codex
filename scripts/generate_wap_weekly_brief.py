@@ -20,17 +20,14 @@ try:
 except ImportError:
     from scripts.work_politics_ops import get_wap_snapshot
 
-
 def _read(path: Path) -> str:
     return path.read_text(encoding="utf-8") if path.exists() else ""
-
 
 def _extract_table_field(path: Path, row_label: str) -> str:
     content = _read(path)
     pattern = rf"\|\s*\*\*?{re.escape(row_label)}\*\*?\s*\|\s*([^|]+)\|"
     match = re.search(pattern, content)
     return match.group(1).strip() if match else ""
-
 
 def _extract_opposition_lines() -> list[str]:
     content = _read(WAP_DIR / "opposition-brief.md")
@@ -42,7 +39,6 @@ def _extract_opposition_lines() -> list[str]:
         lines.append(f"{subject}: {field} — {detail}")
     return lines[:4]
 
-
 def _extract_principal_lines() -> list[str]:
     profile = WAP_DIR / "principal-profile.md"
     fields = [
@@ -52,7 +48,6 @@ def _extract_principal_lines() -> list[str]:
     ]
     out = [f"{label}: {value}" for label, value in fields if value]
     return out[:3]
-
 
 def _extract_message_angles() -> list[str]:
     queue_path = WAP_DIR / "content-queue.md"
@@ -69,7 +64,6 @@ def _extract_message_angles() -> list[str]:
             lines.append(f"{topic} ({status})")
     return lines[:3]
 
-
 def _format_date_range(start_text: str = "") -> str:
     if start_text:
         try:
@@ -81,7 +75,6 @@ def _format_date_range(start_text: str = "") -> str:
         start = today - timedelta(days=today.weekday())
     end = start + timedelta(days=6)
     return f"{start.strftime('%Y-%m-%d')} to {end.strftime('%Y-%m-%d')}"
-
 
 def build_wap_weekly_brief(start_text: str = "", user_id: str = "grace-mar") -> str:
     snapshot = get_wap_snapshot(user_id)
@@ -169,7 +162,6 @@ def build_wap_weekly_brief(start_text: str = "", user_id: str = "grace-mar") -> 
     ])
     return "\n".join(lines).rstrip() + "\n"
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate work-politics weekly brief scaffold")
     parser.add_argument("--start", default="", help="Week start date (YYYY-MM-DD). Defaults to current week.")
@@ -185,7 +177,6 @@ def main() -> int:
     else:
         print(content)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

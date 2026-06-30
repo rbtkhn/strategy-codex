@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Strategy Console — derived orientation for strategy-notebook (WORK only).
+"""Strategy Console — derived orientation for strategy-notebook (non-authoritative).
 
 Read-only on notebook materials; writes only strategy-console/console-view.md
 and optionally appends a v1 strategy-notebook JSONL receipt.
@@ -46,7 +46,6 @@ MARKER_TOKENS = ("[watch]", "[decision]", "[promote]")
 RE_ROSTER_ROW = re.compile(r"^\|\s*`([a-z0-9_-]+)`\s*\|", re.IGNORECASE)
 RE_METRICS_HEADER = re.compile(r"^\|\s*expert_id\s*\|\s*SCI\s*\|", re.IGNORECASE)
 
-
 def _path_display(p: Path) -> str:
     """Path for markdown; works when notebook-dir is outside the repo (tests)."""
     try:
@@ -55,7 +54,6 @@ def _path_display(p: Path) -> str:
         return p.resolve().as_posix()
 RE_IRAN = re.compile(r"\bIRAN\b|\bTEHRAN\b", re.IGNORECASE)
 RE_ACCUM = re.compile(r"Accumulator\s+for:\s*(\d{4}-\d{2}-\d{2})")
-
 
 @dataclass
 class BuildContext:
@@ -75,7 +73,6 @@ class BuildContext:
     def day_str(self) -> str:
         return self.today.isoformat()
 
-
 def _note_read(ctx: BuildContext, p: Path | None) -> None:
     if p is None:
         return
@@ -83,7 +80,6 @@ def _note_read(ctx: BuildContext, p: Path | None) -> None:
         ctx.sources_read.append(p.resolve())
     except OSError:
         pass
-
 
 def safe_read_text(path: Path, max_bytes: int = MAX_THREAD_BYTES) -> str | None:
     if not path.is_file():
@@ -96,13 +92,11 @@ def safe_read_text(path: Path, max_bytes: int = MAX_THREAD_BYTES) -> str | None:
         data = data[:max_bytes]
     return data.decode("utf-8", errors="replace")
 
-
 def safe_stat_mtime(path: Path) -> float | None:
     try:
         return path.stat().st_mtime
     except OSError:
         return None
-
 
 def parse_expert_ids(roster_path: Path) -> list[str]:
     text = safe_read_text(roster_path, 800_000)
@@ -121,13 +115,11 @@ def parse_expert_ids(roster_path: Path) -> list[str]:
                 out.append(eid)
     return out
 
-
 def count_strategy_page_markers(text: str) -> int:
     n = 0
     for pat in STRATEGY_PAGE_PATTERNS:
         n += text.count(pat)
     return n
-
 
 def fresh_inputs_section(
     ctx: BuildContext, inbox: Path, raw_today: Path
@@ -181,7 +173,6 @@ def fresh_inputs_section(
 
     return bullets, gaps
 
-
 def recent_movement_bullets(ctx: BuildContext) -> list[str]:
     out: list[str] = []
     month_chapter = ctx.notebook_root / "chapters" / ctx.month_str / "days.md"
@@ -220,7 +211,6 @@ def recent_movement_bullets(ctx: BuildContext) -> list[str]:
         out.append("`compiled-views/` — not found (optional).")
 
     return out
-
 
 def expert_rows(ctx: BuildContext, roster_ids: list[str]) -> list[dict[str, str]]:
     """Experts with `experts/<id>/thread.md`, sorted by mtime, capped for readability."""
@@ -272,7 +262,6 @@ def expert_rows(ctx: BuildContext, roster_ids: list[str]) -> list[dict[str, str]
             }
         ]
     return rows
-
 
 def state_watch_rows(ctx: BuildContext) -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
@@ -348,7 +337,6 @@ def state_watch_rows(ctx: BuildContext) -> list[dict[str, str]]:
             )
     return rows
 
-
 def marker_scan(ctx: BuildContext) -> list[dict[str, str]]:
     found: list[dict[str, str]] = []
     paths: list[Path] = [
@@ -389,7 +377,6 @@ def marker_scan(ctx: BuildContext) -> list[dict[str, str]]:
         ]
     return found
 
-
 def iran_inbox_hits(ctx: BuildContext) -> int:
     inbox = ctx.notebook_root / "daily-strategy-inbox.md"
     t = safe_read_text(inbox, 2_000_000)
@@ -397,7 +384,6 @@ def iran_inbox_hits(ctx: BuildContext) -> int:
         return 0
     tail = "\n".join(t.splitlines()[-INBOX_TAIL_LINES:])
     return len(RE_IRAN.findall(tail))
-
 
 def recommend_route(
     ctx: BuildContext,
@@ -445,7 +431,6 @@ def recommend_route(
         "days": "From MCQ menu 6 + architecture same-day rules — not chosen here",
         "rationale": "Heuristic only; [EOD-MCQ-PROTOCOL.md](../EOD-MCQ-PROTOCOL.md) authorizes decisions.",
     }
-
 
 def build_markdown(ctx: BuildContext) -> str:
     roster = ctx.notebook_root / "strategy-commentator-threads.md"
@@ -677,17 +662,15 @@ def build_markdown(ctx: BuildContext) -> str:
     )
     return "\n".join(lines)
 
-
 def _sources_relative(ctx: BuildContext) -> list[str]:
     out: list[str] = []
     for p in sorted(set(ctx.sources_read), key=lambda x: str(x)):
         out.append(_path_display(p))
     return sorted(out)
 
-
 def main() -> int:
     p = argparse.ArgumentParser(
-        description="Generate strategy-console console-view.md (read-only on notebook; WORK only)."
+        description="Generate strategy-console console-view.md (read-only on notebook)."
     )
     p.add_argument(
         "--mode",
@@ -771,7 +754,6 @@ def main() -> int:
             print(f"receipt: {log}", flush=True)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

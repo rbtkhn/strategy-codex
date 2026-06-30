@@ -1,6 +1,5 @@
 # {Speaker} helix
 
-WORK only; not Record.
 
 Purpose: compare a recurring speaker across multiple host transformations. Use this when the speaker's value is clearer across host-local arcs than inside one stream alone. This is a comparative routing note, not a generic profile and not a replacement for the underlying arcs.
 

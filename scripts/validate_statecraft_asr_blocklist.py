@@ -18,7 +18,6 @@ DEFAULT_BLOCKLIST = (
 DEFAULT_ROOT = REPO_ROOT / "source-archive/statecraft"
 TRANSCRIPT_MARKERS = ("## Transcript", "## Full transcript", "## Cleaned Transcript")
 
-
 @dataclass(frozen=True)
 class Hit:
     path: Path
@@ -28,10 +27,8 @@ class Hit:
     replacement: str
     excerpt: str
 
-
 def load_blocklist(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def transcript_body(text: str) -> str:
     for marker in TRANSCRIPT_MARKERS:
@@ -39,14 +36,11 @@ def transcript_body(text: str) -> str:
             return text.split(marker, 1)[1]
     return text
 
-
 def iter_sources(root: Path, glob: str) -> list[Path]:
     return sorted(root.rglob(glob))
 
-
 def literal_pattern(literal: str) -> re.Pattern[str]:
     return re.compile(rf"(?<![A-Za-z0-9]){re.escape(literal)}(?![A-Za-z0-9])")
-
 
 def line_hits(
     path: Path,
@@ -77,7 +71,6 @@ def line_hits(
                 )
             )
     return hits
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -145,7 +138,6 @@ def main() -> int:
         f"{len(paths)} source(s), {len(entries)} pattern(s)"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

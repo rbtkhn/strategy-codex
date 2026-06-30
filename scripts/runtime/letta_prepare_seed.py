@@ -41,19 +41,15 @@ RUNTIME_NOTES_PLACEHOLDER = (
     "SKILLS, or SELF-LIBRARY."
 )
 
-
 def _ts_compact() -> str:
     return datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-
 
 def _rel_to_repo(p: Path) -> str:
     return p.resolve().relative_to(REPO_ROOT.resolve()).as_posix()
 
-
 def _sanitize_name(name: str) -> str:
     s = re.sub(r"[^a-zA-Z0-9_.-]+", "-", (name or "bundle").strip())
     return s[:80] if s else "bundle"
-
 
 def _build_context_from_included(
     included_files: list[dict[str, Any]],
@@ -82,7 +78,6 @@ def _build_context_from_included(
         parts.append(sk + "\n")
     return "".join(parts), skips
 
-
 def _maybe_truncate(s: str, cap: int) -> str:
     if len(s) <= cap:
         return s
@@ -90,7 +85,6 @@ def _maybe_truncate(s: str, cap: int) -> str:
         f"\n\n[Truncated from {len(s)} to {cap} characters for grace_mar_context cap.]"
     )
     return s[: max(0, cap - len(note))] + note
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(
@@ -231,7 +225,6 @@ def main() -> int:
     )
     print(_rel_to_repo(out_path))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

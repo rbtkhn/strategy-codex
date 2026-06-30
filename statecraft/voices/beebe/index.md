@@ -1,6 +1,5 @@
 # Beebe Index
 
-WORK only; not Record.
 
 Purpose: front door for the Beebe shelf, keeping the mature Diesen branch easy to open while preserving the no-helix-yet boundary.
 

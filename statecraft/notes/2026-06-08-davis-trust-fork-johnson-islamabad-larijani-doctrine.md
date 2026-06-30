@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-04-20/source-alexander-mercouris-russia-says-us-blockade-failing-40-iran-ships-transit-hormuz-us-mulls-re-2026-04-20.md>
   - source-archive/statecraft/2026-04-20/source-dialogue-works-col-jacques-baud-desperate-move-israel-just-lost-trump-s-last-minute-mov-2026-04-20.md>
 ---
-WORK only; not Record.
 
 # Davis Trust Fork × Johnson Islamabad / Larijani Doctrine — 2026-06-08
 

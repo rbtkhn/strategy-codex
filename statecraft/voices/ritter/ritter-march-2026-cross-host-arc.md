@@ -1,6 +1,5 @@
 # arc-march-2026-cross-host-ritter-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-march-2026-cross-host-ritter-host.md](../../notes/arc-march-2026-cross-host-ritter-host.md)
 

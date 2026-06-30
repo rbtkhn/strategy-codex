@@ -42,5 +42,5 @@ find docs/skill-work/work-strategy/theology-notebook -name '*.md' -type f
 
 ---
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 

@@ -1,6 +1,5 @@
 # Empire Russia
 
-WORK only; not Record.
 
 ## Where This Sits
 

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Blockade failure versus silver-bullet thinking
 

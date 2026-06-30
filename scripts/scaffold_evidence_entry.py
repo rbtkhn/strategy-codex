@@ -22,12 +22,10 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _next_id(content: str, prefix: str) -> str:
     ids = [int(m.group(1)) for m in re.finditer(rf"{prefix}-(\d+)", content)]
     n = max(ids, default=0) + 1
     return f"{prefix}-{n:04d}"
-
 
 def _normalize_image_file(artifact_path: str, user_id: str) -> str:
     """Return path as stored in evidence: runtime/artifacts/<basename> or runtime/artifacts/write-N-slug.ext."""
@@ -38,7 +36,6 @@ def _normalize_image_file(artifact_path: str, user_id: str) -> str:
     if not base.startswith(("write-", "create-")):
         return f"runtime/artifacts/{base}"
     return f"runtime/artifacts/{base}"
-
 
 def scaffold_write(
     evidence_path: Path,
@@ -67,7 +64,6 @@ def scaffold_write(
 """
     return block
 
-
 def scaffold_create(
     evidence_path: Path,
     artifact_path: str,
@@ -93,7 +89,6 @@ def scaffold_create(
       originality: 4  # 1-5
 """
     return block
-
 
 def main() -> None:
     ap = argparse.ArgumentParser(
@@ -178,7 +173,6 @@ def main() -> None:
         print(f"Appended {next_id} block to {out_path}", file=sys.stderr)
     else:
         print(block, end="")
-
 
 if __name__ == "__main__":
     main()

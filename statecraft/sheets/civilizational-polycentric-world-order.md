@@ -1,6 +1,5 @@
 # Civilizational Polycentric World Order
 
-WORK only; not Record.
 
 Use this sheet when a draft, memo, comparison, or lane judgment needs a cleaner vocabulary for world order than `unipolar`, `multipolar`, or `rules-based order` alone can provide.
 

@@ -35,11 +35,9 @@ ALLOWED_FROZEN_PATHS = frozenset(
     }
 )
 
-
 def normalize_repo_path(path: str) -> str:
     normalized = path.replace("\\", "/").lstrip("./")
     return re.sub(r"/+", "/", normalized)
-
 
 def classify_paths(paths: list[str]) -> tuple[list[str], list[str]]:
     blocked: list[str] = []
@@ -55,7 +53,6 @@ def classify_paths(paths: list[str]) -> tuple[list[str], list[str]]:
                 blocked.append(path)
     return blocked, allowed
 
-
 def get_changed_files_from_diff(diff_spec: str) -> list[str]:
     result = subprocess.run(
         ["git", "diff", "--name-only", diff_spec],
@@ -68,7 +65,6 @@ def get_changed_files_from_diff(diff_spec: str) -> list[str]:
         raise RuntimeError(result.stderr.strip() or f"git diff failed for {diff_spec!r}")
     return [line for line in result.stdout.splitlines() if line.strip()]
 
-
 def get_changed_files_from_staged() -> list[str]:
     result = subprocess.run(
         ["git", "diff", "--cached", "--name-only"],
@@ -80,7 +76,6 @@ def get_changed_files_from_staged() -> list[str]:
     if result.returncode != 0:
         raise RuntimeError(result.stderr.strip() or "git diff --cached failed")
     return [line for line in result.stdout.splitlines() if line.strip()]
-
 
 def format_violation_message(blocked: list[str], allowed: list[str]) -> str:
     lines = [
@@ -111,7 +106,6 @@ def format_violation_message(blocked: list[str], allowed: list[str]) -> str:
     )
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     group = parser.add_mutually_exclusive_group(required=True)
@@ -137,7 +131,6 @@ def main() -> int:
         f"{len(allowed)} frozen-path maintenance change(s) allowed."
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

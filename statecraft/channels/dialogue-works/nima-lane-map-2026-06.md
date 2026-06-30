@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Nima Lane Map (2026-06)
 

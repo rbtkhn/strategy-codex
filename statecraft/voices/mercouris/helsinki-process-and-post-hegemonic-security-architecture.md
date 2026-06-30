@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Helsinki Process And Post-Hegemonic Security Architecture
 

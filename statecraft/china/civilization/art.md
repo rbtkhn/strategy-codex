@@ -1,6 +1,5 @@
 # China Art
 
-WORK only; not Record.
 
 ## Purpose
 

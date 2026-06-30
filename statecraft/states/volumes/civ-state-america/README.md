@@ -2,7 +2,7 @@
 
 **Civilizational Statecraft**, Volume V. Volume introduction: [Imperial Republic](introduction.md). `civ-state-america` is the workshop folder slug—not the book title.
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 America is a live lane-backed CIV-STATE volume. Use it when the problem is republic and empire together: maritime command, alliance management, sanctions, domestic legitimacy, bounded coercion, and successor-stable authority.
 

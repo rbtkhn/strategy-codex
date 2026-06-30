@@ -54,13 +54,11 @@ _CAPTURE_KWARGS = {
     "errors": "replace",
 }
 
-
 def _configure_utf8_stdio() -> None:
     for stream in (sys.stdout, sys.stderr):
         reconfigure = getattr(stream, "reconfigure", None)
         if callable(reconfigure):
             reconfigure(encoding="utf-8", errors="replace")
-
 
 def _run(argv: list[str], *, label: str | None = None, quiet: bool = False) -> int:
     display = label or " ".join(argv)
@@ -78,7 +76,6 @@ def _run(argv: list[str], *, label: str | None = None, quiet: bool = False) -> i
     print(f"\n{'=' * 60}\n$ {display}\n{'=' * 60}\n", flush=True)
     r = subprocess.run(argv, cwd=str(_REPO))
     return r.returncode
-
 
 def _branch_snapshot() -> str:
     """One plain-language block: branch hygiene status."""
@@ -98,7 +95,6 @@ def _branch_snapshot() -> str:
         f"Non-main branch check: branch={snap.branch_name}."
     )
 
-
 def _emit_inline(label: str, text: str, *, quiet: bool) -> None:
     if quiet:
         print(f"$ {label} ... ok", flush=True)
@@ -106,7 +102,6 @@ def _emit_inline(label: str, text: str, *, quiet: bool) -> None:
     print(f"\n{'=' * 60}\n$ {label}\n{'=' * 60}\n", flush=True)
     if text:
         print(text, end="" if text.endswith("\n") else "\n")
-
 
 def _run_inline_steps(
     user: str,
@@ -172,7 +167,6 @@ def _run_inline_steps(
         )
 
     return 0
-
 
 def main() -> int:
     _configure_utf8_stdio()
@@ -404,7 +398,6 @@ def main() -> int:
         pass
 
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

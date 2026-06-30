@@ -1,6 +1,5 @@
 # Voices supersede minds — migration doctrine (2026-06)
 
-WORK only; not Record.
 
 **Status:** For active strategy-codex operator workflow, **`statecraft/voices/<speaker>/<speaker>-profile.md`** is the **canonical SSOT** for named-speaker identity, linguistic register (Tier A detailed fingerprint), role/contrast pointers, and in-voice emulation discipline.
 

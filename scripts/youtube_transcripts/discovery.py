@@ -6,13 +6,11 @@ from pathlib import Path
 
 from youtube_transcripts.ytdlp_adapter import YtDlpError, list_videos_flat
 
-
 def _normalize_url_line(line: str) -> str | None:
     line = line.strip()
     if not line or line.startswith("#"):
         return None
     return line
-
 
 def load_inputs_from_file(path: Path) -> list[str]:
     """Load channel URLs, playlist URLs, or watch URLs (one per line)."""
@@ -23,7 +21,6 @@ def load_inputs_from_file(path: Path) -> list[str]:
             out.append(u)
     return out
 
-
 def extract_video_id(text: str) -> str | None:
     """Best-effort 11-char video id from URL or raw id."""
     t = text.strip()
@@ -31,7 +28,6 @@ def extract_video_id(text: str) -> str | None:
         return t
     m = re.search(r"(?:v=|/embed/|youtu\.be/)([A-Za-z0-9_-]{11})", t)
     return m.group(1) if m else None
-
 
 def list_videos(
     url_or_id: str,

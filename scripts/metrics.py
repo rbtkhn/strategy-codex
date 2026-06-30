@@ -31,7 +31,6 @@ STALE_DAYS = 7
 
 _read = read_path
 
-
 @dataclass
 class PipelineHealth:
     stale_candidates: int
@@ -43,7 +42,6 @@ class PipelineHealth:
     last_applied_ts: str | None
     days_since_last_activity: float | None
 
-
 @dataclass
 class RecordCompleteness:
     ix_a: int
@@ -51,14 +49,12 @@ class RecordCompleteness:
     ix_c: int
     total_ix: int
 
-
 @dataclass
 class IntentDrift:
     total_conflicts: int
     conflicts_by_source: dict[str, int]
     conflicts_by_rule: dict[str, int]
     rejection_categories: dict[str, int]
-
 
 def compute_pipeline_health() -> PipelineHealth:
     """Compute pipeline health from recursion-gate and PIPELINE-EVENTS."""
@@ -121,7 +117,6 @@ def compute_pipeline_health() -> PipelineHealth:
         days_since_last_activity=days_since,
     )
 
-
 def compute_record_completeness() -> RecordCompleteness:
     """IX channel counts from self.md."""
     content = _read(PROFILE_DIR / "self.md")
@@ -131,7 +126,6 @@ def compute_record_completeness() -> RecordCompleteness:
     return RecordCompleteness(
         ix_a=ix_a, ix_b=ix_b, ix_c=ix_c, total_ix=ix_a + ix_b + ix_c
     )
-
 
 def compute_intent_drift(window_days: int = 30) -> IntentDrift:
     events_path = PROFILE_DIR / "pipeline-events.jsonl"
@@ -185,7 +179,6 @@ def compute_intent_drift(window_days: int = 30) -> IntentDrift:
         rejection_categories=dict(sorted(reject_cats.items(), key=lambda kv: (-kv[1], kv[0]))),
     )
 
-
 def report() -> str:
     """Human-readable metrics report."""
     health = compute_pipeline_health()
@@ -236,7 +229,6 @@ def report() -> str:
 
     return "\n".join(lines)
 
-
 def main() -> None:
     import argparse
     parser = argparse.ArgumentParser(description="Pipeline health and record metrics")
@@ -280,7 +272,6 @@ def main() -> None:
         print(json.dumps(out, indent=2))
     else:
         print(report())
-
 
 if __name__ == "__main__":
     main()

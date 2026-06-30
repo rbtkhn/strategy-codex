@@ -1,0 +1,38 @@
+version: 1
+
+schemas:
+  prediction:
+    path: schemas/statecraft/prediction.schema.json
+    applies_to: statecraft/notes/predictions/*.md
+    format: markdown_frontmatter
+    scope: prediction
+
+  event_registry:
+    path: schemas/statecraft/event.schema.json
+    applies_to: statecraft/data/event-registry.json
+    format: json_object_map
+    scope: prediction
+
+  prediction_registry:
+    path: schemas/runtime/prediction-registry.schema.json
+    applies_to: runtime/artifacts/prediction-registry.json
+    format: json
+    scope: prediction
+
+  prediction_metrics:
+    path: schemas/runtime/prediction-metrics.schema.json
+    applies_to: runtime/artifacts/prediction-metrics.json
+    format: json
+    scope: prediction
+
+  dream:
+    path: schemas/runtime/dream.schema.json
+    applies_to: runtime/daily-handoff/last-dream.json
+    format: json
+    scope: runtime
+
+  operator_event_line:
+    path: schemas/skills/operator-event-line.schema.json
+    applies_to: runtime/operator-events/*.jsonl
+    format: jsonl
+    scope: runtime

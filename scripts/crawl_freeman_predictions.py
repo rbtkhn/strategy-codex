@@ -35,7 +35,6 @@ REST_RE = re.compile(
     re.I,
 )
 
-
 def iter_freeman_captures() -> list[tuple[str, Path, dict[str, Any]]]:
     rows: list[tuple[str, Path, dict[str, Any]]] = []
     for path in iter_archive_captures_for_shelf("freeman", ARCHIVE):
@@ -48,7 +47,6 @@ def iter_freeman_captures() -> list[tuple[str, Path, dict[str, Any]]]:
     rows.sort(key=lambda t: (t[0], t[1].name))
     return rows
 
-
 def build_register_index(thesis: dict[str, dict[str, Any]]) -> dict[str, list[tuple[str, str]]]:
     out: dict[str, list[tuple[str, str]]] = {}
     for event_id, cfg in thesis.items():
@@ -57,7 +55,6 @@ def build_register_index(thesis: dict[str, dict[str, Any]]) -> dict[str, list[tu
             for source in parse_register_capture_paths(reg_path):
                 out.setdefault(source, []).append((event_id, str(rel)))
     return out
-
 
 def suggested_speech_act_heuristic(body: str) -> str | None:
     m = REST_RE.search(body)
@@ -70,11 +67,9 @@ def suggested_speech_act_heuristic(body: str) -> str | None:
         return "self_acknowledged_correct"
     return "restated"
 
-
 def prior_stance(notes_by_event: dict[str, list[str]], event_id: str) -> str | None:
     notes = notes_by_event.get(event_id) or []
     return notes[-1] if notes else None
-
 
 def crawl(*, body_chars: int = 8000) -> dict[str, Any]:
     thesis = load_thesis_map()
@@ -157,7 +152,6 @@ def crawl(*, body_chars: int = 8000) -> dict[str, Any]:
         "rows": rows,
     }
 
-
 AUDIT_PRESERVE_FIELDS = (
     "audit_status",
     "audit_stance",
@@ -166,7 +160,6 @@ AUDIT_PRESERVE_FIELDS = (
     "reject_reason",
     "needs_human",
 )
-
 
 def merge_audit_from_existing(payload: dict[str, Any], manifest_path: Path) -> int:
     """Carry operator audit fields forward when re-crawling after thesis-map edits."""
@@ -192,7 +185,6 @@ def merge_audit_from_existing(payload: dict[str, Any], manifest_path: Path) -> i
                 row[field] = prev[field]
         merged += 1
     return merged
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -231,7 +223,6 @@ def main() -> int:
     args.output.write_text(rendered, encoding="utf-8")
     print(f"[ok] wrote {args.output.relative_to(REPO_ROOT)} ({payload['_meta']['row_count']} rows)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

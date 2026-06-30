@@ -10,7 +10,6 @@ from pathlib import Path
 
 import statecraft_day_archive as sda
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_ROOT = REPO_ROOT / "source-archive" / "statecraft"
 FRONTMATTER_RE = sda.FRONTMATTER_RE
@@ -21,7 +20,6 @@ HOST_OVERRIDES: dict[str, tuple[str, ...]] = {
     "source-diesen-krapivnik-kiev-attacked-frontlines-fall-belarus-enters-war-2026-06-02.md": ("Glenn Diesen",),
 }
 
-
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--root", type=Path, default=DEFAULT_ROOT, help="Statecraft source-archive root.")
@@ -29,7 +27,6 @@ def parse_args() -> argparse.Namespace:
     ap.add_argument("--to", dest="to_day", default="2026-06-03", help="Upper YYYY-MM-DD day bound.")
     ap.add_argument("--check", action="store_true", help="Report pending rewrites without writing files.")
     return ap.parse_args()
-
 
 def _ordered_meta_keys(block: str) -> list[str]:
     keys: list[str] = []
@@ -39,19 +36,16 @@ def _ordered_meta_keys(block: str) -> list[str]:
             keys.append(match.group(1))
     return keys
 
-
 def _needs_quotes(value: str) -> bool:
     if value == "" or value != value.strip():
         return True
     return bool(re.search(r"[:{}\[\],#&*!?|>'\"%@`]", value))
-
 
 def _render_scalar(value: object) -> str:
     text = sda.norm_scalar(value)
     if _needs_quotes(text):
         return json.dumps(text, ensure_ascii=False)
     return text
-
 
 def _render_field(key: str, value: object) -> list[str]:
     if isinstance(value, (list, tuple)):
@@ -64,18 +58,15 @@ def _render_field(key: str, value: object) -> list[str]:
         return []
     return [f"{key}: {_render_scalar(text)}"]
 
-
 def _derive_host_people(meta: dict[str, object], file_name: str) -> tuple[str, ...]:
     if file_name in HOST_OVERRIDES:
         return HOST_OVERRIDES[file_name]
     return sda.host_meta_values(meta)
 
-
 def _derive_guest_people(meta: dict[str, object], source_form: str) -> tuple[str, ...]:
     if source_form in {"newsletter", "article", "post"}:
         return ()
     return sda.guest_meta_values(meta)
-
 
 def _derive_show_title(meta: dict[str, object], source_form: str) -> str:
     explicit = sda.norm_scalar(meta.get("show_title"))
@@ -84,7 +75,6 @@ def _derive_show_title(meta: dict[str, object], source_form: str) -> str:
     if source_form in {"newsletter", "article", "post"}:
         return ""
     return sda.norm_scalar(meta.get("show"))
-
 
 def _derive_channel_name(
     meta: dict[str, object],
@@ -107,7 +97,6 @@ def _derive_channel_name(
     if len(host_people) == 1:
         return host_people[0]
     return sda.normalize_channel_label(sda.norm_scalar(meta.get("channel_slug")))
-
 
 def _render_updated_frontmatter(path: Path) -> str:
     text = sda.read_text(path)
@@ -148,7 +137,6 @@ def _render_updated_frontmatter(path: Path) -> str:
     lines.append("---")
     return "\n".join(lines) + text[match.end() - 1 :]
 
-
 def main() -> int:
     args = parse_args()
     root = args.root.resolve()
@@ -167,7 +155,6 @@ def main() -> int:
     for path in changed[:20]:
         print(path)
     return 1 if args.check and changed else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

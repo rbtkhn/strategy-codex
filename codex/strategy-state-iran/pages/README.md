@@ -10,4 +10,4 @@
 
 **Finished** month judgment and `strategy-page` **fences** also remain supported in legacy [`voices/iri-institutional/thread.md`](../voices/iri-institutional/thread.md) (history and inbound links). **New** work: prefer [README](../README.md) (weave + channels).
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.

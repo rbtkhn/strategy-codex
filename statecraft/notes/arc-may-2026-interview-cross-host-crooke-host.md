@@ -13,7 +13,6 @@ archive_links:
   - source-archive/statecraft/2026-05-13/source-dialogue-works-crooke-iran-smashed-the-us-military-model-china-is-watching-2026-05-13.md
 ---
 
-WORK only; not Record.
 
 # Crooke May 2026 interview cross-host arc
 

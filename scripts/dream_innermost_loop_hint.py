@@ -23,13 +23,11 @@ FEED_URL = "https://theinnermostloop.substack.com/feed"
 SOURCE_MODE = "live_lookup"
 DEFAULT_TIMEOUT_SECONDS = 5
 
-
 def _clean_text(value: str | None) -> str:
     text = html.unescape(value or "")
     text = re.sub(r"<[^>]+>", "", text)
     text = re.sub(r"\s+", " ", text).strip()
     return text
-
 
 def _parse_rss_datetime(value: str) -> datetime | None:
     try:
@@ -40,7 +38,6 @@ def _parse_rss_datetime(value: str) -> datetime | None:
         return dt.replace(tzinfo=timezone.utc)
     return dt.astimezone(timezone.utc)
 
-
 def _item_timestamp(item: ET.Element) -> datetime:
     for tag in ("pubDate", "updated", "published"):
         text = _clean_text(item.findtext(tag))
@@ -50,7 +47,6 @@ def _item_timestamp(item: ET.Element) -> datetime:
         if parsed is not None:
             return parsed
     return datetime.min.replace(tzinfo=timezone.utc)
-
 
 def parse_latest_post(feed_xml: str) -> dict[str, str]:
     """Parse RSS XML and return metadata for the newest item."""
@@ -76,7 +72,6 @@ def parse_latest_post(feed_xml: str) -> dict[str, str]:
         "published_at": published_dt.isoformat() if published_dt else published_raw,
     }
 
-
 def fetch_feed_xml(*, feed_url: str = FEED_URL, timeout: int = DEFAULT_TIMEOUT_SECONDS) -> str:
     request = urllib.request.Request(
         feed_url,
@@ -87,7 +82,6 @@ def fetch_feed_xml(*, feed_url: str = FEED_URL, timeout: int = DEFAULT_TIMEOUT_S
     with urllib.request.urlopen(request, timeout=timeout) as response:
         charset = response.headers.get_content_charset() or "utf-8"
         return response.read().decode(charset, errors="replace")
-
 
 def build_frontier_source_hint(
     *,
@@ -135,7 +129,6 @@ def build_frontier_source_hint(
         "guidance": guidance,
     }
 
-
 def format_frontier_source_followup(hint: dict[str, Any]) -> str | None:
     if hint.get("status") != "ok":
         return None
@@ -145,13 +138,11 @@ def format_frontier_source_followup(hint: dict[str, Any]) -> str | None:
         "consider explicit source hygiene if relevant tomorrow"
     )
 
-
 def main() -> int:
     import json
 
     print(json.dumps(build_frontier_source_hint(), indent=2))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

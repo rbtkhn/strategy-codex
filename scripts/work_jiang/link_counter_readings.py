@@ -12,7 +12,6 @@ WORK_DIR = ROOT / "codex" / "predictive-history"
 REG = WORK_DIR / "counter-readings" / "registry" / "counter-readings.jsonl"
 OUT = WORK_DIR / "metadata" / "counter-reading-links.yaml"
 
-
 def main() -> int:
     chapter_links: dict[str, list[str]] = defaultdict(list)
     thesis_links: dict[str, list[str]] = defaultdict(list)
@@ -55,7 +54,6 @@ def main() -> int:
         yaml.safe_dump(payload, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
     print(f"Wrote {OUT.relative_to(ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

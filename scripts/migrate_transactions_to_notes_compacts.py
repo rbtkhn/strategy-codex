@@ -12,8 +12,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 STUB_HEADER = """# Deprecated compatibility stub
 
-WORK only; not Record.
-
 Deprecated compatibility stub.
 Canonical: {canonical}
 """
@@ -47,21 +45,17 @@ LANE_SINGLES = (
 
 TOMBSTONE = """# Deprecated — lane transactions bench
 
-WORK only; not Record.
-
 This surface is deprecated. Durable analytical work now lives in [statecraft/notes/](../notes/README.md).
 Multi-lane instrument compacts live in [statecraft/notes/compacts/](../notes/compacts/).
 
 Legacy compatibility stubs may remain under `*/transactions/` until links are recanonicalized.
 """
 
-
 def _rel(from_path: Path, to_path: Path) -> str:
     return Path(
         Path("../" * len(from_path.parent.relative_to(REPO_ROOT).parts))
         / to_path.relative_to(REPO_ROOT)
     ).as_posix().lstrip("./")
-
 
 def move_framework(src_dir: Path, dry_run: bool) -> None:
     slug = src_dir.name
@@ -81,7 +75,6 @@ def move_framework(src_dir: Path, dry_run: bool) -> None:
         STUB_HEADER.format(canonical=canonical.as_posix()),
         encoding="utf-8",
     )
-
 
 def move_single(src_rel: str, dest_rel: str, dry_run: bool) -> None:
     src = REPO_ROOT / src_rel
@@ -103,14 +96,12 @@ def move_single(src_rel: str, dest_rel: str, dry_run: bool) -> None:
         encoding="utf-8",
     )
 
-
 def tombstone_lane_readmes(dry_run: bool) -> None:
     for lane in ("america", "persia", "russia", "china"):
         path = REPO_ROOT / "statecraft" / lane / "transactions" / "README.md"
         print(f"tombstone: {path.relative_to(REPO_ROOT)}")
         if not dry_run:
             path.write_text(TOMBSTONE, encoding="utf-8")
-
 
 def rename_bench_audit(dry_run: bool) -> None:
     old = REPO_ROOT / "statecraft/notes/transaction-bench-maturity-audit.md"
@@ -128,7 +119,6 @@ def rename_bench_audit(dry_run: bool) -> None:
         encoding="utf-8",
     )
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--dry-run", action="store_true")
@@ -145,7 +135,6 @@ def main() -> int:
     tombstone_lane_readmes(args.dry_run)
     rename_bench_audit(args.dry_run)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

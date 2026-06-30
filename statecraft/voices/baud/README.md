@@ -1,6 +1,6 @@
 # Baud
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder is the speaker entry surface for Jacques Baud.
 

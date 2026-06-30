@@ -1,6 +1,5 @@
 # arc-crooke-continuity (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [crooke-arc.md](crooke-arc.md)
 

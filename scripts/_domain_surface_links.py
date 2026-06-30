@@ -18,10 +18,8 @@ from repo_io import profile_dir
 # Template literals (must match platform/template/DOMAIN.md)
 _TEMPLATE_HREF_AGENTS = "../AGENTS.md"
 
-
 def _relpath_posix(target: Path, start: Path) -> str:
     return os.path.relpath(target.resolve(), start.resolve()).replace("\\", "/")
-
 
 def rebase_domain_surface_markdown(
     content: str,
@@ -39,7 +37,6 @@ def rebase_domain_surface_markdown(
     if user_id != "grace-mar":
         content = content.replace(f"](../{user_id}/self.md)", f"]({self_s})")
     return content
-
 
 def assert_domain_surface_links_rebased(content: str, output_file: Path | None = None) -> None:
     """Fail if template-relative links remain where they would be wrong for depth.

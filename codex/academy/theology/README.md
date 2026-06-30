@@ -1,6 +1,6 @@
 # Theology
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This shelf is an operator-first study canon for theology-shaped civ-mem satellite material. It is meant to answer one question quickly: **where do I begin?**
 

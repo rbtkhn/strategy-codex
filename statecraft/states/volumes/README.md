@@ -2,7 +2,7 @@
 
 **Civilizational Statecraft** ? five-volume shelf. Workshop path: `statecraft/states/volumes/` (`civ-state` substrate slug; not the book title).
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder is the front-door volume order for the book. It does not replace lane-local `statecraft/<lane>/` storage. It organizes retrieval so the source base can be opened in one stable civilizational sequence before descending into helix, civilization, empire, state, or transaction surfaces.
 
@@ -95,7 +95,7 @@ Use the opener block operationally:
 - **Sovereign opening** routes toward founding, origin, and state-memory objects
 - **Current carrier** routes toward helix, state, and transaction surfaces
 
-The canonical deep-grammar surface is each volume's [`sacred-grammar.md`](civ-state-china/sacred-grammar.md) ? see [Reader Guide § Sacred grammar](../reader-guide.md#sacred-grammar-volume-local).
+The canonical deep-grammar surface is each volume's [`sacred-grammar.md`](civ-state-china/sacred-grammar.md) ? see [Reader Guide ï¿½ Sacred grammar](../reader-guide.md#sacred-grammar-volume-local).
 
 ## Volume introductions
 
@@ -108,7 +108,7 @@ Thematic opening essays for each volume (distinct from the whole-work essay [Civ
 
 ## Sacred grammar (volume-local)
 
-- [China](civ-state-china/sacred-grammar.md) · [Persia](civ-state-persia/sacred-grammar.md) · [Rome](civ-state-rome/sacred-grammar.md) · [Russia](civ-state-russia/sacred-grammar.md) · [America](civ-state-america/sacred-grammar.md)
+- [China](civ-state-china/sacred-grammar.md) ï¿½ [Persia](civ-state-persia/sacred-grammar.md) ï¿½ [Rome](civ-state-rome/sacred-grammar.md) ï¿½ [Russia](civ-state-russia/sacred-grammar.md) ï¿½ [America](civ-state-america/sacred-grammar.md)
 
 ## Civilization Chapters
 

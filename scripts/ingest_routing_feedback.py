@@ -26,7 +26,6 @@ ROUTING_LINE = re.compile(
     r"^routing:(wrong_profile|missing_keyword|seed_bad|seed_good|civ_order|upstream):(.+)$"
 )
 
-
 def _parse_line(line: str) -> dict | None:
     line = line.strip()
     if not line.startswith("routing:"):
@@ -36,7 +35,6 @@ def _parse_line(line: str) -> dict | None:
         return {"raw": line, "parse": "partial"}
     action, rest = m.group(1), m.group(2)
     return {"action": action, "payload": rest, "raw": line}
-
 
 def main() -> int:
     lines: list[str] = []
@@ -59,7 +57,6 @@ def main() -> int:
             n += 1
     print(f"Appended {n} row(s) to {OUT.relative_to(REPO_ROOT)}", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

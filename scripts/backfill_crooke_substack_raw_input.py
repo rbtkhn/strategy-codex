@@ -8,8 +8,6 @@ post exists, but the full body may still require manual capture.
 Use targeted ``--url`` / ``--slug`` captures by default; the public archive is
 not a raw-input backlog.
 
-WORK only; not Record.
-
 Typical use:
   python3 scripts/backfill_crooke_substack_raw_input.py --dry-run
   python3 scripts/backfill_crooke_substack_raw_input.py --apply
@@ -44,10 +42,8 @@ from backfill_substack_raw_input import (  # noqa: E402
 )
 from strategy_expert_transcript import iter_raw_input_yaml_documents  # noqa: E402
 
-
 def _normalize_url(url: str) -> str:
     return url.strip().rstrip("/")
-
 
 def _preview_marker(text: str) -> bool:
     low = text.lower()
@@ -61,7 +57,6 @@ def _preview_marker(text: str) -> bool:
             "keep reading",
         )
     )
-
 
 def _archive_items(hostname: str, *, year: int, limit: int = 50) -> list[dict]:
     host = hostname.strip().rstrip("/")
@@ -105,7 +100,6 @@ def _archive_items(hostname: str, *, year: int, limit: int = 50) -> list[dict]:
             by_slug[slug] = item
     return sorted(by_slug.values(), key=lambda x: x.get("post_date") or "")
 
-
 def _load_existing_keys(raw_root: Path, *, thread: str) -> set[str]:
     """Collect source_url, slug, and title keys already present for this thread."""
     keys: set[str] = set()
@@ -136,7 +130,6 @@ def _load_existing_keys(raw_root: Path, *, thread: str) -> set[str]:
             if title:
                 keys.add(title.lower())
     return keys
-
 
 def _build_doc(
     *,
@@ -206,7 +199,6 @@ def _build_doc(
         ]
     )
     return "\n".join(front)
-
 
 def run(
     *,
@@ -294,7 +286,6 @@ def run(
     print(f"Summary: matched={matched} wrote={wrote} apply={apply}")
     return 0
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--hostname", default=DEFAULT_HOSTNAME, help="Substack hostname")
@@ -342,7 +333,6 @@ def main() -> int:
         slugs=args.slug,
         urls=args.url,
     )
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

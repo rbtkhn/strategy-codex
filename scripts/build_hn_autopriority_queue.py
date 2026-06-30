@@ -9,7 +9,6 @@ Inputs:
 Output:
 - research/QUEUE-AUTOPRIORITY.md
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -54,10 +53,8 @@ OUT_PATH = (
     / "QUEUE-AUTOPRIORITY.md"
 )
 
-
 def load_yaml(path: Path) -> dict:
     return safe_load_path(path, feature="build_hn_autopriority_queue.py") or {}
-
 
 def chapter_rows(arch: dict) -> list[dict]:
     chapters = arch.get("chapters") or []
@@ -75,7 +72,6 @@ def chapter_rows(arch: dict) -> list[dict]:
             }
         )
     return out
-
 
 def anchor_map(catalog: dict) -> tuple[dict[str, list[str]], dict[str, set[str]]]:
     by_hn: dict[str, list[str]] = {}
@@ -95,7 +91,6 @@ def anchor_map(catalog: dict) -> tuple[dict[str, list[str]], dict[str, set[str]]
         by_hn[hid] = sorted(set(by_hn[hid]))
     return by_hn, authors
 
-
 def detect_stub_ratio(file_path: Path, markers: list[str]) -> float:
     if not file_path.is_file():
         return 1.0
@@ -104,12 +99,10 @@ def detect_stub_ratio(file_path: Path, markers: list[str]) -> float:
     # 7 markers in default template; clamp for safety.
     return min(1.0, marker_hits / max(1, len(markers)))
 
-
 def norm(val: float, hi: float) -> float:
     if hi <= 0:
         return 0.0
     return min(1.0, max(0.0, val / hi))
-
 
 def build_markdown(
     rows: list[dict],
@@ -175,7 +168,6 @@ def build_markdown(
     lines.append(f"_Total chapters scored: {len(rows)}_")
     lines.append("")
     return "\n".join(lines)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -272,7 +264,6 @@ def main() -> int:
     args.out.write_text(content, encoding="utf-8")
     print(f"wrote {args.out}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

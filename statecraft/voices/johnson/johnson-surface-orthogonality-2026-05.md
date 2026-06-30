@@ -1,6 +1,5 @@
 # Johnson surface orthogonality - 2026-05
 
-WORK only; not Record.
 
 Purpose: preserve the surface split that now governs Johnson.
 

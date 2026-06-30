@@ -1,6 +1,5 @@
 # Russia Civilization / Empire Helix
 
-WORK only; not Record.
 
 Purpose: hold together Russian civilizational security memory and Russian outward power so the lane can draft restraint as strength rather than retreat.
 

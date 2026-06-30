@@ -34,7 +34,6 @@ BLOCK_RE = re.compile(
 PICKED_RE = re.compile(r"^-\s*picked:\s*(.+)$", re.MULTILINE)
 CONTEXT_RE = re.compile(r"^-\s*context:\s*(\S+)\s*$", re.MULTILINE)
 
-
 def parse_blocks(text: str, *, since: datetime) -> list[dict]:
     rows: list[dict] = []
     for m in BLOCK_RE.finditer(text):
@@ -61,7 +60,6 @@ def parse_blocks(text: str, *, since: datetime) -> list[dict]:
             }
         )
     return rows
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -122,7 +120,6 @@ suggested_entry: "(none — operator edits templates or skills from report)"
 """
         print(stub)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

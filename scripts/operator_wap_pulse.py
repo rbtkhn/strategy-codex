@@ -16,7 +16,6 @@ except ImportError:
     from scripts.generate_wap_weekly_brief import build_wap_weekly_brief
     from scripts.work_politics_ops import get_wap_snapshot
 
-
 def build_wap_pulse(user_id: str = "grace-mar", include_brief_preview: bool = False) -> str:
     snapshot = get_wap_snapshot(user_id)
     campaign = snapshot["campaign_status"]
@@ -82,7 +81,6 @@ def build_wap_pulse(user_id: str = "grace-mar", include_brief_preview: bool = Fa
     lines.extend(["", "## Guardrail", "", "- WORK surface only. Record changes still go through the gate.", ""])
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate a work-politics operator pulse.")
     parser.add_argument("--user", "-u", default="grace-mar", help="User id")
@@ -90,7 +88,6 @@ def main() -> int:
     args = parser.parse_args()
     print(build_wap_pulse(user_id=args.user, include_brief_preview=args.brief_preview))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

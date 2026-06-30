@@ -1,6 +1,5 @@
 # arc-wilkerson-nima-host (compat redirect)
 
-WORK only; not Record.
 
 **Canonical:** [arc-wilkerson-nima-host.md](../../notes/arc-wilkerson-nima-host.md)
 

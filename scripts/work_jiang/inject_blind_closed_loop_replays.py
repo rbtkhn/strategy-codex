@@ -344,7 +344,6 @@ Volume IV in-repo chain **complete** for blind calibration; **gt-19** = live pat
 """,
 }
 
-
 def main() -> None:
     text = BLIND.read_text(encoding="utf-8")
     for r in range(6, 18):
@@ -388,7 +387,6 @@ def main() -> None:
         )
     BLIND.write_text(text, encoding="utf-8")
     print("OK", BLIND, file=sys.stderr)
-
 
 if __name__ == "__main__":
     main()

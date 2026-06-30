@@ -35,7 +35,6 @@ DIVERGENCES_PATH = WORK_JIANG / "divergence-tracking" / "registry" / "divergence
 TASKS_PATH = WORK_JIANG / "tasks.jsonl"
 REVIEW_QUEUE = WORK_JIANG / "archive/queues/review-queue"
 
-
 class ValidationReport:
     def __init__(self) -> None:
         self.errors: list[str] = []
@@ -85,7 +84,6 @@ class ValidationReport:
             lines.append("All checks passed.")
         return "\n".join(lines)
 
-
 def load_jsonl_ids(path: Path, id_field: str) -> set[str]:
     ids: set[str] = set()
     if not path.exists():
@@ -102,13 +100,11 @@ def load_jsonl_ids(path: Path, id_field: str) -> set[str]:
             continue
     return ids
 
-
 def load_architecture() -> dict:
     if not ARCH_PATH.exists():
         return {}
     with open(ARCH_PATH, encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
 
 def load_task_states() -> dict[str, dict]:
     states: dict[str, dict] = {}
@@ -124,7 +120,6 @@ def load_task_states() -> dict[str, dict]:
             states[tid] = {}
         states[tid].update(rec)
     return states
-
 
 def check_prediction_ids(chapters: list[dict], report: ValidationReport) -> None:
     """Verify prediction IDs in architecture exist in the registry."""
@@ -149,7 +144,6 @@ def check_prediction_ids(chapters: list[dict], report: ValidationReport) -> None
 
     report.note(f"Checked {len(all_pred_ids)} prediction IDs across {len(chapters)} chapters")
 
-
 def check_divergence_ids(chapters: list[dict], report: ValidationReport) -> None:
     """Verify divergence IDs in architecture exist in the registry."""
     registered = load_jsonl_ids(DIVERGENCES_PATH, "divergence_id")
@@ -158,7 +152,6 @@ def check_divergence_ids(chapters: list[dict], report: ValidationReport) -> None
         for did in dids:
             if registered and did not in registered:
                 report.error(f"{ch['id']}: divergence_id '{did}' not in registry")
-
 
 def check_chapter_completeness(chapters: list[dict], report: ValidationReport) -> None:
     """Check that chapters with merged status have required files."""
@@ -179,7 +172,6 @@ def check_chapter_completeness(chapters: list[dict], report: ValidationReport) -
         if len(pids) < 3:
             report.warn(f"{ch_id}: fewer than 3 prediction IDs ({len(pids)})")
 
-
 def check_cross_references(chapters: list[dict], report: ValidationReport) -> None:
     """Check that chapter cross-references in drafts resolve."""
     ch_ids = {ch["id"] for ch in chapters}
@@ -196,7 +188,6 @@ def check_cross_references(chapters: list[dict], report: ValidationReport) -> No
             if ref_id not in ch_ids:
                 report.error(f"{ch['id']}: cross-reference to Chapter {ref_num} but {ref_id} not in architecture")
 
-
 def check_patterns_registry(report: ValidationReport) -> None:
     """Validate pattern-tracking/registry/patterns.jsonl (IDs, prediction links, recurrence)."""
     from validate_patterns_registry import PATTERNS_PATH, run_validation
@@ -211,7 +202,6 @@ def check_patterns_registry(report: ValidationReport) -> None:
         report.error(f"patterns: {e}")
     if not errors:
         report.note("patterns registry validated")
-
 
 def check_task_health(report: ValidationReport) -> None:
     """Check for stale claimed tasks and orphan submissions."""
@@ -252,7 +242,6 @@ def check_task_health(report: ValidationReport) -> None:
     parts = [f"{s}={c}" for s, c in sorted(status_counts.items())]
     report.note(f"Task manifest: {len(states)} tasks ({', '.join(parts)})")
 
-
 def run_checks(chapter_filter: str | None = None) -> ValidationReport:
     report = ValidationReport()
     arch = load_architecture()
@@ -277,7 +266,6 @@ def run_checks(chapter_filter: str | None = None) -> ValidationReport:
 
     return report
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="Validate book consistency.")
     group = parser.add_mutually_exclusive_group(required=True)
@@ -298,7 +286,6 @@ def main() -> None:
         print(output)
 
     sys.exit(0 if report.ok else 1)
-
 
 if __name__ == "__main__":
     main()

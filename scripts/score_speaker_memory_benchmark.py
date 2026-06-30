@@ -11,9 +11,8 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
-WORK_BOUNDARY = "WORK only; not Record."
+WORK_BOUNDARY = ""
 HEADING_RE = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
 LINK_RE = re.compile(r"\[[^\]]+\]\([^)]+\)")
 OBJECT_SHAPE_RE = re.compile(r"(?im)^\s*object_shape\s*:\s*([a-z0-9-]+)\s*$")
@@ -67,7 +66,6 @@ TARGET_BY_TYPE = {
     "prompt": "runtime/artifacts/benchmarks/speaker-memory/fixtures",
 }
 
-
 @dataclass(frozen=True)
 class Check:
     name: str
@@ -75,7 +73,6 @@ class Check:
     max_score: int
     passed: bool
     message: str
-
 
 @dataclass(frozen=True)
 class RepairAction:
@@ -86,14 +83,11 @@ class RepairAction:
     recommended_action: str
     severity: str
 
-
 def slug(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "_", text.strip().lower()).strip("_")
 
-
 def load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def section_text(text: str, heading: str) -> str:
     target = heading.casefold()
@@ -106,19 +100,15 @@ def section_text(text: str, heading: str) -> str:
         return text[start:end]
     return ""
 
-
 def has_section(text: str, *headings: str) -> bool:
     return any(section_text(text, heading).strip() for heading in headings)
-
 
 def link_count(text: str) -> int:
     return len(LINK_RE.findall(text))
 
-
 def contains_any(text: str, needles: list[str]) -> bool:
     low = text.casefold()
     return any(needle.casefold() in low for needle in needles)
-
 
 def phrase_is_negated(text: str, phrase: str) -> bool:
     low = text.casefold()
@@ -129,13 +119,11 @@ def phrase_is_negated(text: str, phrase: str) -> bool:
     window = low[max(0, start - 80) : start]
     return any(marker in window for marker in ("not", "not a", "not as a", "not a provenance ledger"))
 
-
 def first_index(text: str, needles: list[str]) -> int | None:
     low = text.casefold()
     hits = [low.find(needle.casefold()) for needle in needles]
     hits = [hit for hit in hits if hit >= 0]
     return min(hits) if hits else None
-
 
 def add_check(
     checks: list[Check],
@@ -152,7 +140,6 @@ def add_check(
     if not passed and failure_code:
         failures.append(failure_code)
 
-
 def score_work_boundary(text: str, checks: list[Check], failures: list[str]) -> None:
     passed = WORK_BOUNDARY in text
     add_check(
@@ -165,7 +152,6 @@ def score_work_boundary(text: str, checks: list[Check], failures: list[str]) -> 
         message="Required WORK-only boundary is present." if passed else "Missing WORK-only boundary.",
         failure_code="missing_work_boundary",
     )
-
 
 def score_sm1(text: str) -> tuple[list[Check], list[str]]:
     checks: list[Check] = []
@@ -300,7 +286,6 @@ def score_sm1(text: str) -> tuple[list[Check], list[str]]:
     )
     return checks, failures
 
-
 def score_sm2(text: str) -> tuple[list[Check], list[str]]:
     checks: list[Check] = []
     failures: list[str] = []
@@ -423,7 +408,6 @@ def score_sm2(text: str) -> tuple[list[Check], list[str]]:
     )
     return checks, failures
 
-
 def count_metric_mentions(text: str) -> int:
     return sum(
         1
@@ -431,11 +415,9 @@ def count_metric_mentions(text: str) -> int:
         if re.search(rf"\b{re.escape(metric)}\b", text, flags=re.IGNORECASE)
     )
 
-
 def distinct_speakers_present(text: str) -> int:
     names = ("freeman", "crooke", "baud", "armstrong", "blumenthal")
     return sum(1 for name in names if re.search(rf"\b{re.escape(name)}\b", text, flags=re.IGNORECASE))
-
 
 def score_sm3(text: str) -> tuple[list[Check], list[str]]:
     checks: list[Check] = []
@@ -532,7 +514,6 @@ def score_sm3(text: str) -> tuple[list[Check], list[str]]:
     )
     return checks, failures
 
-
 def score_sm4(text: str) -> tuple[list[Check], list[str]]:
     checks: list[Check] = []
     failures: list[str] = []
@@ -619,7 +600,6 @@ def score_sm4(text: str) -> tuple[list[Check], list[str]]:
     )
     return checks, failures
 
-
 def unique(items: list[str]) -> list[str]:
     seen: set[str] = set()
     out: list[str] = []
@@ -630,7 +610,6 @@ def unique(items: list[str]) -> list[str]:
         out.append(item)
     return out
 
-
 def closeout_for(total: int, max_score: int, failures: list[str], open_error: bool = False) -> str:
     if open_error or max_score <= 0:
         return "Open"
@@ -640,7 +619,6 @@ def closeout_for(total: int, max_score: int, failures: list[str], open_error: bo
     if percentage >= 85:
         return "Held"
     return "Weakened"
-
 
 def repair_actions_for(benchmark_id: str, failures: list[str]) -> list[RepairAction]:
     actions: list[RepairAction] = []
@@ -665,7 +643,6 @@ def repair_actions_for(benchmark_id: str, failures: list[str]) -> list[RepairAct
             )
         )
     return actions
-
 
 def build_score(run_path: Path) -> dict[str, Any]:
     metadata_path = run_path / "metadata.json"
@@ -734,7 +711,6 @@ def build_score(run_path: Path) -> dict[str, Any]:
         "repair_actions": [asdict(action) for action in actions],
     }
 
-
 def render_score_md(score: dict[str, Any]) -> str:
     lines = [
         f"# Speaker Memory Score - {score['benchmark_id']}",
@@ -774,7 +750,6 @@ def render_score_md(score: dict[str, Any]) -> str:
     ]
     return "\n".join(lines)
 
-
 def write_outputs(run_path: Path, score: dict[str, Any]) -> None:
     (run_path / "score.json").write_text(
         json.dumps(score, indent=2, ensure_ascii=False) + "\n",
@@ -787,14 +762,12 @@ def write_outputs(run_path: Path, score: dict[str, Any]) -> None:
         encoding="utf-8",
     )
 
-
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run", type=Path, required=True, help="Benchmark run folder containing metadata.json and output.md.")
     parser.add_argument("--json", action="store_true", help="Print score JSON to stdout.")
     parser.add_argument("--no-write", action="store_true", help="Compute score without writing score artifacts.")
     return parser.parse_args(argv)
-
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
@@ -807,7 +780,6 @@ def main(argv: list[str] | None = None) -> int:
     else:
         print(f"{score['benchmark_id']}: {score['closeout']} ({score['percentage']}%)")
     return 0 if score["closeout"] != "Open" else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

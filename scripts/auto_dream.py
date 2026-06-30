@@ -65,13 +65,11 @@ NIGHT_HANDOFF_FILENAME = "night-handoff.json"
 HANDOFF_SCHEMA_VERSION = 3
 VALID_PHASES = ("both", "recent", "structural")
 
-
 def _user_root(users_dir: Path, user_id: str) -> Path:
     """Resolve the effective profile root for default vs legacy/test layouts."""
     if users_dir.resolve() == DEFAULT_USERS_DIR.resolve():
         return profile_dir(user_id)
     return users_dir / user_id
-
 
 def _classify_worktree_grace(status_out: str, diff_out: str) -> tuple[str, str]:
     """Read-only triage for last-dream.json (no commits). Strategy-codex local cadence helper."""
@@ -95,7 +93,6 @@ def _classify_worktree_grace(status_out: str, diff_out: str) -> tuple[str, str]:
         "light residue",
         "leave or commit before sleep; bridge seals when you close the session.",
     )
-
 
 def _git_worktree_triage_grace() -> tuple[str, str]:
     try:
@@ -136,7 +133,6 @@ Last rotated: {today}
 (meta - rotation policy, pointers to self.md / self-work.md; no durable facts)
 """
 
-
 @dataclass
 class MemoryMaintenanceResult:
     path: Path
@@ -147,7 +143,6 @@ class MemoryMaintenanceResult:
     added_sections: list[str]
     deduped_lines: int
     blank_lines_collapsed: int
-
 
 def _run_json_command(command: list[str], cwd: Path) -> dict[str, Any]:
     completed = subprocess.run(command, cwd=cwd, capture_output=True, text=True)
@@ -172,11 +167,9 @@ def _run_json_command(command: list[str], cwd: Path) -> dict[str, Any]:
     payload["_stderr"] = completed.stderr.strip()
     return payload
 
-
 def _run_text_command(command: list[str], cwd: Path) -> tuple[int, str, str]:
     completed = subprocess.run(command, cwd=cwd, capture_output=True, text=True)
     return completed.returncode, completed.stdout.strip(), completed.stderr.strip()
-
 
 def _collapse_blank_lines(lines: list[str]) -> tuple[list[str], int]:
     out: list[str] = []
@@ -196,7 +189,6 @@ def _collapse_blank_lines(lines: list[str]) -> tuple[list[str], int]:
         out.pop()
     return out, collapsed
 
-
 def _dedupe_bullets(section_text: str) -> tuple[str, int]:
     deduped: list[str] = []
     seen_bullets: set[str] = set()
@@ -211,7 +203,6 @@ def _dedupe_bullets(section_text: str) -> tuple[str, int]:
             seen_bullets.add(key)
         deduped.append(line.rstrip())
     return "\n".join(deduped).strip("\n"), removed
-
 
 def _ensure_rotated_line(text: str, *, changed: bool) -> str:
     today = date.today().isoformat()
@@ -229,7 +220,6 @@ def _ensure_rotated_line(text: str, *, changed: bool) -> str:
     lines[insert_at:insert_at] = [replacement, ""]
     return "\n".join(lines)
 
-
 def _memory_content_equal(left: str, right: str) -> bool:
     """Compare MEMORY bodies ignoring BOM and trailing newline framing."""
 
@@ -240,7 +230,6 @@ def _memory_content_equal(left: str, right: str) -> bool:
         return normalized.rstrip("\n")
 
     return _core(left) == _core(right)
-
 
 def normalize_self_memory_content(existing_text: str) -> tuple[str, list[str], int, int]:
     if not existing_text.strip():
@@ -306,7 +295,6 @@ def normalize_self_memory_content(existing_text: str) -> tuple[str, list[str], i
     )
     return normalized, added_sections, removed_duplicates, collapsed
 
-
 def maintain_self_memory(
     *,
     user_id: str = DEFAULT_USER,
@@ -332,10 +320,8 @@ def maintain_self_memory(
         blank_lines_collapsed=blank_lines_collapsed,
     )
 
-
 def _persist_memory_result(result: MemoryMaintenanceResult) -> None:
     result.path.write_text(result.after, encoding="utf-8")
-
 
 def _load_dream_budget_dict() -> dict[str, Any]:
     try:
@@ -344,7 +330,6 @@ def _load_dream_budget_dict() -> dict[str, Any]:
         from scripts.context_budget import load_context_budget  # type: ignore
 
     return load_context_budget("dream")
-
 
 def _apply_coffee_rollup_budget(
     coffee_rollup: dict[str, Any],
@@ -371,7 +356,6 @@ def _apply_coffee_rollup_budget(
         "by_picked": {},
         "note": "rollup_disabled_by_budget",
     }
-
 
 def _apply_civmem_budget(
     *,
@@ -414,7 +398,6 @@ def _apply_civmem_budget(
     civ_echoes = civ_echoes[:max_echoes]
     return civ_echoes, civ_index_missing, None
 
-
 def _split_digest_by_recency(
     digest: dict[str, Any],
     today_iso: str,
@@ -454,7 +437,6 @@ def _split_digest_by_recency(
             "entries": structural,
         },
     }
-
 
 def _write_last_dream_handoff(
     summary: dict[str, Any],
@@ -597,7 +579,6 @@ def _write_last_dream_handoff(
     path.write_text(json.dumps(handoff, indent=2) + "\n", encoding="utf-8")
     return path
 
-
 def _write_night_handoff(
     summary: dict[str, Any],
     *,
@@ -673,7 +654,6 @@ def _write_night_handoff(
     path = night_handoff_write_path(user_id, users_dir)
     path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
     return path
-
 
 def run_auto_dream(
     *,
@@ -1102,7 +1082,6 @@ def run_auto_dream(
 
     return summary
 
-
 def _dream_headline_line(summary: dict[str, Any]) -> str:
     """Single skimmable stdout line; full detail follows in legacy block below."""
     phase_label = summary.get("phase", "both")
@@ -1116,7 +1095,6 @@ def _dream_headline_line(summary: dict[str, Any]) -> str:
     label = "ok" if ok else "not_ok"
     handoff = "yes" if summary.get("handoff_path") else "no"
     return f"Dream: {label} phase={phase_label} {ig} {gg} handoff={handoff}"
-
 
 def format_auto_dream_summary(summary: dict[str, Any]) -> str:
     headline = _dream_headline_line(summary)
@@ -1261,7 +1239,6 @@ def format_auto_dream_summary(summary: dict[str, Any]) -> str:
             lines.append(f"  {sc_line}")
     return headline + "\n" + "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run bounded memory.md maintenance and contradiction digest refresh.")
     parser.add_argument("--user", "-u", default=DEFAULT_USER, help=f"User id (default: {DEFAULT_USER})")
@@ -1333,7 +1310,6 @@ def main() -> int:
         if memory_observability_line:
             print(memory_observability_line)
     return 0 if summary.get("ok") else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

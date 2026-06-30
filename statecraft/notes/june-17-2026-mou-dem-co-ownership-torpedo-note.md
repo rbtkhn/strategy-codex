@@ -11,7 +11,6 @@ archive_links:
   - source-archive/statecraft/2026-06-17/source-parsi-trump-democrats-courage-end-failed-war-2026-06-17.md
   - source-archive/statecraft/2026-06-17/source-dialogue-works-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md
 ---
-WORK only; not Record.
 
 # June 17, 2026 MOU — Democratic Co-Ownership × MOU Torpedo Seam
 

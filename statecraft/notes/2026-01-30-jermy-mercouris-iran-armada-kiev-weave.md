@@ -16,7 +16,6 @@ archive_links:
   - source-archive/statecraft/2026-01-20/source-dialogue-works-helmer-two-fronts-collapsing-eu-greenland-ukraine-2026-01-20.md
   - source-archive/statecraft/2026-01-20/source-daniel-davis-iran-eu-trump-greenland-lt-col-daniel-davis-chas-freeman-2026-01-20.md
 ---
-WORK only; not Record.
 
 # Jan 30 2026 — Jermy × Mercouris weave (Iran armada / Lincoln CSG vs institutional Iran–Kiev lane)
 

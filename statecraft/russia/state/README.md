@@ -1,6 +1,6 @@
 # Russia State
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 Use this folder for the current Russian state apparatus: government, presidency, Security Council, foreign ministry, military-security institutions, and official authority carriers. This is the near-term institutional layer that turns Russian civilizational memory and imperial/security striving into orders, statements, negotiations, and implementable instruments.
 

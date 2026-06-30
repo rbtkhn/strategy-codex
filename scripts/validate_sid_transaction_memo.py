@@ -2,7 +2,6 @@
 """Validate SID Transaction Memo structure (partner-review shape).
 
 Checks frontmatter, required sections, pin-cite table, falsifiers, and disclaimer.
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -32,7 +31,6 @@ DISCLAIMER_PHRASES = (
     "internal professional use",
 )
 
-
 def parse_frontmatter(text: str) -> dict[str, str]:
     match = FRONTMATTER_RE.match(text)
     if not match:
@@ -45,10 +43,8 @@ def parse_frontmatter(text: str) -> dict[str, str]:
         fields[key.strip()] = value.strip().strip('"').strip("'")
     return fields
 
-
 def section_headings(text: str) -> list[str]:
     return HEADING_RE.findall(text)
-
 
 def validate_pin_cite_table(text: str) -> list[str]:
     errors: list[str] = []
@@ -67,7 +63,6 @@ def validate_pin_cite_table(text: str) -> list[str]:
         errors.append("Pin-Cites table needs at least one data row")
     return errors
 
-
 def validate_falsifiers(text: str) -> list[str]:
     if "## Falsifiers" not in text:
         return ["missing Falsifiers section"]
@@ -79,14 +74,12 @@ def validate_falsifiers(text: str) -> list[str]:
         return ["Falsifiers section needs at least one bullet"]
     return []
 
-
 def validate_disclaimer(text: str) -> list[str]:
     lowered = text.lower()
     missing = [phrase for phrase in DISCLAIMER_PHRASES if phrase not in lowered]
     if missing:
         return [f"Disclaimer missing expected phrase: {missing[0]}"]
     return []
-
 
 def validate_memo_file(path: Path) -> list[str]:
     text = path.read_text(encoding="utf-8")
@@ -118,12 +111,10 @@ def validate_memo_file(path: Path) -> list[str]:
     errors.extend(validate_disclaimer(text))
     return errors
 
-
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--path", type=Path, required=True, help="Memo markdown file")
     return parser.parse_args(argv)
-
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
@@ -138,7 +129,6 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     print(f"OK {path.name}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

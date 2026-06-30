@@ -25,7 +25,6 @@ from freeman_prediction_auto_file import (  # noqa: E402
 )
 from prediction_lib import render_json  # noqa: E402
 
-
 def auto_materialize(
     *,
     dry_run: bool = False,
@@ -70,7 +69,6 @@ def auto_materialize(
 
     return written, skipped, len(candidates), pruned
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--dry-run", action="store_true")
@@ -97,7 +95,6 @@ def main() -> int:
         f"pruned {pruned}, skipped {skipped} existing, {total} candidate(s) scored above threshold"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,6 +1,6 @@
 # Politics
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This shelf is reserved for politics study routes, concepts, cases, and curriculum notes: parties, elections, regimes, coalitions, factions, legitimacy, public opinion, constitutional conflict, media power, and mass persuasion.
 

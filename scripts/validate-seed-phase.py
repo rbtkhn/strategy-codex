@@ -25,7 +25,6 @@ REQUIRED_FILES = [
     "seed_dossier.md",
 ]
 
-
 def resolve_seed_dir(path: Path) -> Path:
     target = (REPO_ROOT / path).resolve() if not path.is_absolute() else path.resolve()
     if target.is_dir() or path.is_absolute():
@@ -34,7 +33,6 @@ def resolve_seed_dir(path: Path) -> Path:
     if norm == "demo/seed-phase":
         return (REPO_ROOT / "platform/users" / "demo" / "seed-phase").resolve()
     return target
-
 
 def main() -> None:
     ap = argparse.ArgumentParser(description="Validate seed-phase artifact directory")
@@ -129,7 +127,6 @@ def main() -> None:
             sys.exit(1)
 
     print("validate-seed-phase: OK (strict schema validation)")
-
 
 if __name__ == "__main__":
     main()

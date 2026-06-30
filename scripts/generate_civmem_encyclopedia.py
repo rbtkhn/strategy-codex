@@ -25,7 +25,6 @@ SKIP_DIRS = {".git", "node_modules", ".cache", ".skeleton", "platform/apps"}
 GITHUB_REPO = os.environ.get("GRACE_MAR_GITHUB_REPO", "rbtkhn/strategy-codex").strip()
 GITHUB_PREFIX = f"https://github.com/{GITHUB_REPO}/blob/main/docs/civilization-memory/"
 
-
 def collect_md(cmc: Path, include_content: bool, essays_only: bool) -> list[Path]:
     """essays_only: cmc/essays/*.md. Else: all *.md under cmc (and cmc/content if --include-content)."""
     out: list[Path] = []
@@ -44,20 +43,17 @@ def collect_md(cmc: Path, include_content: bool, essays_only: bool) -> list[Path
         out.append(p)
     return sorted(set(out))
 
-
 def first_heading(text: str) -> str:
     for line in text.splitlines():
         if line.startswith("# "):
             return line[2:].strip()[:120]
     return ""
 
-
 def blurb(text: str, n: int = 200) -> str:
     body = re.sub(r"^---.*?---", "", text, count=1, flags=re.DOTALL)
     body = re.sub(r"#[^\n]+\n", "", body)
     one = " ".join(body.split())[:n]
     return one + ("…" if len(one) >= n else "")
-
 
 def main() -> int:
     ap = argparse.ArgumentParser()
@@ -154,7 +150,6 @@ def main() -> int:
     print(f"Wrote {enc_path} ({len(files)} sources)")
     print(f"Wrote {stubs_path}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -1,7 +1,6 @@
 # Expert transcript — `bigserge`
 <!-- word_count: 87 -->
 
-WORK only; not Record.
 
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../daily-strategy-inbox.md) that include `thread:bigserge` (first line + optional continuation paragraphs), routed on ingest.
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).

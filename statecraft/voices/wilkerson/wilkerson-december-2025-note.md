@@ -1,6 +1,5 @@
 # Wilkerson December 2025 note
 
-WORK only; not Record.
 
 Purpose: preserve what December 2025 currently means on the Wilkerson shelf now that the month resolves into a dense eight-anchor run with the former December 18 Napolitano summary stub upgraded into a real transcript-grade primary.
 

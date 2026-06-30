@@ -7,9 +7,8 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2026-05-01/source-dialogue-works-amb-chas-freeman-israel-s-grand-plan-collapsed-in-record-time-2026-05-01.md
 speech_act: iterated
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — Israel self-destruction (2026-05-01)
 

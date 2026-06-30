@@ -1,7 +1,6 @@
 """Append-only JSONL receipts for strategy-notebook script runs.
 
 See docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-TRACE-CONTRACT.md
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -11,7 +10,6 @@ from dataclasses import asdict, dataclass, field
 from enum import Enum
 from pathlib import Path
 from typing import Any
-
 
 class PageOperation(str, Enum):
     """Governed labels for scripted or proposed page mutations (v1)."""
@@ -23,7 +21,6 @@ class PageOperation(str, Enum):
     MERGE = "MERGE"
     CONTRADICT = "CONTRADICT"
     DEPRECATE = "DEPRECATE"
-
 
 @dataclass
 class NotebookReceipt:
@@ -45,7 +42,6 @@ class NotebookReceipt:
     def to_json_dict(self) -> dict[str, Any]:
         return asdict(self)
 
-
 def default_receipt_log_path(repo_root: Path) -> Path:
     """Default gitignored JSONL path under runtime/artifacts/work-strategy/strategy-notebook/receipts/."""
     from repo_io import artifacts_dir
@@ -57,7 +53,6 @@ def default_receipt_log_path(repo_root: Path) -> Path:
         / "receipts"
         / "strategy-notebook-receipts.jsonl"
     )
-
 
 def append_receipt(
     repo_root: Path,
@@ -72,7 +67,6 @@ def append_receipt(
     with dest.open("a", encoding="utf-8") as f:
         f.write(line + "\n")
     return dest
-
 
 def rel_posix(repo_root: Path, p: Path) -> str:
     """Best-effort repo-relative POSIX path for receipts."""

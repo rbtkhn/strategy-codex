@@ -1,6 +1,5 @@
 # Iran Nuclear Latency - Four-Lane Comparison
 
-WORK only; not Record.
 
 Purpose: compare the four national transactions without collapsing latency, weaponization, recognition, and restraint into one generic nuclear deal.
 

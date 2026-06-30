@@ -22,7 +22,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SKILL_WORK_DIR = REPO_ROOT / "docs" / "skill-work" / "work-business" / "grace-gems"
 
-
 def _load_context() -> str:
     """Load agent-encoding and Grace Gems policies for prompt context."""
     parts: list[str] = []
@@ -85,7 +84,6 @@ def _load_context() -> str:
 
     return "\n".join(parts) if parts else "Grace Gems: custom fine jewelry, natural untreated gemstones, solid 14k/18k gold, handmade in Denver. Policies: free worldwide shipping, 30-day returns (excl. custom), 1-year repair warranty, layaway."
 
-
 def _draft_reply(message: str, context: str) -> str:
     """Call OpenAI to draft a reply."""
     try:
@@ -141,7 +139,6 @@ Draft reply:"""
     except Exception as e:
         return f"[Error calling API: {e}]"
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Grace Gems message assist — draft-only reply")
     parser.add_argument("-m", "--message", help="Customer message text")
@@ -160,7 +157,6 @@ def main() -> int:
     draft = _draft_reply(message, context)
     print(draft)
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

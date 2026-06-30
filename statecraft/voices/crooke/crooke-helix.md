@@ -1,6 +1,5 @@
 # Crooke helix
 
-WORK only; not Record.
 
 Purpose: compact cross-host note for reading the recurring Crooke lanes together. This is not a substitute for the host-local speaker arcs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Crooke voice, and where to enter the helix.
 

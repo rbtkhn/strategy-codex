@@ -27,11 +27,9 @@ SCHEMA_VERSION = "work-strategy-carry-receipt.v1"
 RECEIPT_KIND = "work-strategy-carry-receipt"
 ACTOR_ID = "scripts/work_strategy/run_carry_harness.py"
 
-
 def _append_if_present(items: list[str], value: str | None) -> None:
     if value and value not in items:
         items.append(value)
-
 
 def _load_validator_module() -> Any:
     """Load validate_strategy_packet from this directory (supports importlib tests)."""
@@ -46,7 +44,6 @@ def _load_validator_module() -> Any:
     spec.loader.exec_module(mod)
     return mod
 
-
 def _load_classifier_module() -> Any:
     """Load classify_task_shape from this directory."""
     root = Path(__file__).resolve().parent
@@ -59,7 +56,6 @@ def _load_classifier_module() -> Any:
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     return mod
-
 
 def _load_review_packet_module() -> Any:
     """Load build_review_packet from this directory."""
@@ -74,7 +70,6 @@ def _load_review_packet_module() -> Any:
     spec.loader.exec_module(mod)
     return mod
 
-
 def determine_result(checks: list[dict[str, Any]]) -> str:
     statuses = [c["status"] for c in checks]
     if "fail" in statuses:
@@ -82,7 +77,6 @@ def determine_result(checks: list[dict[str, Any]]) -> str:
     if "needs_review" in statuses:
         return "needs_review"
     return "pass"
-
 
 def build_receipt(
     *,
@@ -217,7 +211,6 @@ def build_receipt(
     if arc_movement is not None:
         receipt["arc_movement"] = arc_movement
     return receipt
-
 
 def run_harness(args: argparse.Namespace) -> tuple[dict[str, Any], int]:
     repo_root = Path(args.repo_root).resolve()
@@ -679,7 +672,6 @@ def run_harness(args: argparse.Namespace) -> tuple[dict[str, Any], int]:
 
     return receipt, exit_code
 
-
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Work-strategy carry harness (WORK-only receipt).")
     p.add_argument("--task", type=str, help="Path to task intake markdown.")
@@ -766,7 +758,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     args.repo_root = str(Path(root).resolve())
     return args
 
-
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
     if getattr(args, "build_review_packet", False) and not getattr(args, "review_packet", None):
@@ -778,7 +769,6 @@ def main(argv: list[str] | None = None) -> int:
     elif receipt["record_boundary"]["canonical_write_violation"]:
         print("Harness refused forbidden --out path.", file=sys.stderr)
     return exit_code
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

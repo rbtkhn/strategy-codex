@@ -18,7 +18,6 @@ synced_by: sync_portable_skills.py
 ---
 # CIV-STATE
 
-**WORK only; not Record.**
 
 **Activation:** `civ-state` · `statecraft civ-state` *(legacy alias)*
 

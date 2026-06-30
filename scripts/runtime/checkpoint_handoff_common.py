@@ -9,7 +9,6 @@ from pathlib import Path
 MB_BEST = "## Best Matches"
 MB_TAKEAWAYS = "## Expanded Takeaways"
 
-
 def slug(text: str, max_len: int = 48) -> str:
     s = text.lower().strip()
     s = re.sub(r"[^a-z0-9]+", "-", s)
@@ -17,7 +16,6 @@ def slug(text: str, max_len: int = 48) -> str:
     if not s:
         s = "checkpoint"
     return s[:max_len].rstrip("-")
-
 
 def seeds_from_memory_brief(path: Path) -> tuple[str, list[str]]:
     """Return (objective_hint, established_bullets) from a memory brief Markdown file."""
@@ -58,7 +56,6 @@ def seeds_from_memory_brief(path: Path) -> tuple[str, list[str]]:
 
     return objective, established
 
-
 def _section_under_heading(text: str, heading: str) -> str:
     lines = text.splitlines()
     start = None
@@ -75,14 +72,12 @@ def _section_under_heading(text: str, heading: str) -> str:
         out.append(line)
     return "\n".join(out).strip()
 
-
 def parse_built_line(body: str) -> str | None:
     for line in body.splitlines():
         line = line.strip()
         if line.startswith("Built:"):
             return line.split("Built:", 1)[1].strip()
     return None
-
 
 def parse_field(body: str, prefix: str) -> str | None:
     for line in body.splitlines():
@@ -91,11 +86,9 @@ def parse_field(body: str, prefix: str) -> str | None:
             return line[len(prefix) :].strip()
     return None
 
-
 def extract_section(body: str, heading: str) -> str:
     """Return lines under ## heading until next ## or EOF."""
     return _section_under_heading(body, f"## {heading}")
-
 
 def section_bullets(section_md: str) -> list[str]:
     out: list[str] = []

@@ -1,6 +1,5 @@
 # Speaker Accuracy Ledger
 
-WORK only; not Record.
 
 This ledger tracks bounded claims and their later review status.
 

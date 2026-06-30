@@ -14,7 +14,6 @@ archive_links:
   - source-archive/statecraft/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md
 ---
 
-WORK only; not Record.
 
 # Crooke April 2026 interview cross-host arc
 

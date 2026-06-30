@@ -1,6 +1,5 @@
 # Speaker thread template
 
-WORK only; not Record.
 
 Purpose: define the canonical scaffold for **topical threads** in the `speakers/` taxonomy.
 
@@ -25,7 +24,6 @@ Orthogonality rule:
 
 # Speaker topical thread — `<speaker>-thread-<topic>`
 
-WORK only; not Record.
 
 Use a topical thread only when one recurring subject materially deserves its own reusable surface inside a person arc or relational arc.
 

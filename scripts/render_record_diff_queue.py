@@ -27,7 +27,6 @@ ROOT = Path(__file__).resolve().parents[1]
 
 REQUIRED_FIELDS = {"schemaVersion", "diffId", "userSlug", "category", "before", "after", "changeSummary", "evidenceRefs"}
 
-
 def resolve_input_path(path: str) -> Path:
     """Resolve legacy demo paths through the active platform/users/demo fixture tree."""
     raw = Path(path)
@@ -38,7 +37,6 @@ def resolve_input_path(path: str) -> Path:
     if norm == "demo" or norm.startswith("demo/"):
         return ROOT / "platform/users" / norm
     return target
-
 
 def load_diff(path: Path) -> dict[str, Any] | None:
     try:
@@ -52,7 +50,6 @@ def load_diff(path: Path) -> dict[str, Any] | None:
         return data
     except (json.JSONDecodeError, OSError):
         return None
-
 
 def collect_diffs(paths: list[str]) -> list[dict[str, Any]]:
     """Collect identity-diff JSON files from paths (files or directories)."""
@@ -70,7 +67,6 @@ def collect_diffs(paths: list[str]) -> list[dict[str, Any]]:
                 diffs.append(d)
     return diffs
 
-
 def _sort_key(diff: dict[str, Any]) -> tuple[float, str]:
     """Sort by confidence delta magnitude (descending), then diffId."""
     cd = diff.get("confidenceDelta")
@@ -79,7 +75,6 @@ def _sort_key(diff: dict[str, Any]) -> tuple[float, str]:
     else:
         delta = 0.0
     return (-delta, diff.get("diffId", ""))
-
 
 def render_value(value: Any, indent: int = 0) -> str:
     prefix = "  " * indent
@@ -99,7 +94,6 @@ def render_value(value: Any, indent: int = 0) -> str:
             for item in value
         )
     return f"{prefix}{value}"
-
 
 def render_card(diff: dict[str, Any]) -> str:
     """Render one diff as a Markdown card."""
@@ -168,7 +162,6 @@ def render_card(diff: dict[str, Any]) -> str:
 
     return "\n".join(lines)
 
-
 def render_queue(diffs: list[dict[str, Any]]) -> str:
     """Render the full queue as Markdown."""
     sorted_diffs = sorted(diffs, key=_sort_key)
@@ -185,13 +178,11 @@ def render_queue(diffs: list[dict[str, Any]]) -> str:
         lines.append("")
     return "\n".join(lines)
 
-
 def _load_from_gate(user_slug: str) -> list[dict[str, Any]]:
     """Load diffs by converting recursion-gate pending candidates via the adapter."""
     sys.path.insert(0, str(ROOT / "scripts"))
     from gate_to_diff_adapter import convert_gate
     return convert_gate(user_slug)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -232,7 +223,6 @@ def main() -> int:
         print(output)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

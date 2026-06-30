@@ -1,6 +1,5 @@
 # Sacred Grammar
 
-WORK only; not Record.
 
 Volume-local deep grammar for **Civilizational Statecraft**, Volume V — America.
 

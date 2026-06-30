@@ -11,7 +11,6 @@ REQUIRED = frozenset({"category", "intent", "last-reviewed"})
 ROOT = Path(__file__).resolve().parent.parent
 FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL | re.MULTILINE)
 
-
 def parse_yamlish(blob: str) -> dict[str, str]:
     d: dict[str, str] = {}
     for line in blob.splitlines():
@@ -21,7 +20,6 @@ def parse_yamlish(blob: str) -> dict[str, str]:
         d[k.strip()] = rest.strip().strip('"\'')
     return d
 
-
 def read_markdown_utf8(path: Path) -> tuple[str | None, str | None]:
     try:
         return path.read_text(encoding="utf-8"), None
@@ -29,7 +27,6 @@ def read_markdown_utf8(path: Path) -> tuple[str | None, str | None]:
         return None, f"not valid utf-8 ({exc})"
     except OSError as exc:
         return None, f"cannot read ({exc})"
-
 
 def main() -> int:
     errors: list[str] = []
@@ -58,7 +55,6 @@ def main() -> int:
         return 1
     print("validate-record-boundaries: ok")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

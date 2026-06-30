@@ -1,6 +1,5 @@
 # Prose Forge
 
-WORK only; not Record.
 
 **Surface type** — workflow / helper  
 **Primary purpose** — Improve draft prose so it becomes specific, repo-native, and reviewable — not “humanizer” evasion.  

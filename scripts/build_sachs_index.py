@@ -26,7 +26,6 @@ LABEL_RE = re.compile(
 )
 SACHS_TITLE_PREFIX = re.compile(r"^(?:Jeffrey\s+Sachs|Prof\.?\s+Jeffrey\s+Sachs):\s*", re.I)
 
-
 def parse_head(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")[:5000]
     out: dict = {}
@@ -40,7 +39,6 @@ def parse_head(path: Path) -> dict:
             out["title"] = hm.group(1).strip()
     return out
 
-
 def pub_date_key(meta: dict, path: Path) -> str:
     pub = meta.get("pub_date", "")
     if pub and len(pub) >= 10:
@@ -49,7 +47,6 @@ def pub_date_key(meta: dict, path: Path) -> str:
     if re.match(r"^\d{4}-\d{2}-\d{2}$", day):
         return day
     return day
-
 
 def host_bucket(path: Path, meta: dict) -> str:
     name = path.name.casefold()
@@ -82,11 +79,9 @@ def host_bucket(path: Path, meta: dict) -> str:
         return "tucker"
     return "other"
 
-
 def display_title(meta: dict) -> str:
     raw = meta.get("title") or "Untitled"
     return SACHS_TITLE_PREFIX.sub("", raw).strip()
-
 
 def load_label_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
@@ -97,7 +92,6 @@ def load_label_map(index_path: Path) -> dict[str, str]:
         if m:
             out[m.group(2)] = m.group(1)
     return out
-
 
 def load_annotation_map(index_path: Path) -> dict[str, str]:
     if not index_path.is_file():
@@ -115,18 +109,15 @@ def load_annotation_map(index_path: Path) -> dict[str, str]:
             out[fn] = suffix
     return out
 
-
 def default_label(meta: dict, path: Path) -> str:
     pub = pub_date_key(meta, path)
     title = display_title(meta)
     return f"{pub} - {title}"
 
-
 def row_label(meta: dict, path: Path, labels: dict[str, str]) -> str:
     text = labels.get(path.name) or default_label(meta, path)
     rel = f"../../../source-archive/statecraft/{path.parent.name}/{path.name}"
     return f"- [{text}]({rel})"
-
 
 def collect_rows() -> list[tuple[str, Path, dict]]:
     rows: list[tuple[str, Path, dict]] = []
@@ -139,7 +130,6 @@ def collect_rows() -> list[tuple[str, Path, dict]]:
         rows.append((pub, path, meta))
     rows.sort(key=lambda t: (t[0], t[1].name))
     return rows
-
 
 def render_host_section(
     heading: str,
@@ -160,7 +150,6 @@ def render_host_section(
         lines.append(line)
     lines.append("")
     return lines
-
 
 def render_month_floor_overlay() -> list[str]:
     """Curated rollup overlay — links may duplicate host-section rows."""
@@ -184,7 +173,6 @@ def render_month_floor_overlay() -> list[str]:
         "",
     ]
 
-
 def render_tail() -> list[str]:
     return [
         "## Host-Arc Entries",
@@ -201,7 +189,6 @@ def render_tail() -> list[str]:
         "",
     ]
 
-
 def render_index(
     rows: list[tuple[str, Path, dict]],
     labels: dict[str, str],
@@ -213,8 +200,7 @@ def render_index(
     )}
 
     lines = [
-        "WORK only; not Record.",
-        "",
+                "",
         "# Sachs Source Index",
         "",
         "Purpose: provide the canonical route map for materialized Sachs appearances and the smaller set of direct archive anchors that explain the shelf shape.",
@@ -253,7 +239,6 @@ def render_index(
     lines.extend(render_tail())
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true", help="Print row count only")
@@ -276,7 +261,6 @@ def main() -> int:
     OUT.write_text(body if body.endswith("\n") else body + "\n", encoding="utf-8", newline="\n")
     print(f"wrote {OUT} ({len(rows)} rows, {len(labels)} labels preserved)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

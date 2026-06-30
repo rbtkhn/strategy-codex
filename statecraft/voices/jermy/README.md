@@ -1,6 +1,6 @@
 # Jermy
 
-WORK only; not Record.
+This surface is non-authoritative and subject to revision.
 
 This folder is the **speaker-object entry surface** for Steve Jermy.
 

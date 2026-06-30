@@ -1,6 +1,5 @@
 # America Art
 
-WORK only; not Record.
 
 ## Purpose
 

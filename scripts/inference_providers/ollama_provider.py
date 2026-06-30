@@ -8,7 +8,6 @@ from .base import InferenceProvider, InferenceResult
 
 DEFAULT_BASE_URL = "http://localhost:11434/v1"
 
-
 class OllamaProvider(InferenceProvider):
     """Local-first inference via an Ollama server.
 

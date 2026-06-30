@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 ## Recursive Learning Journal Executive Synthesis
 
-WORK only; not Record.
 
 **Statecraft Registry**
 - Lane: shared

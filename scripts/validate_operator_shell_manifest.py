@@ -24,10 +24,8 @@ MANIFEST_REL = Path("platform/config/operator_shell_manifest.yaml")
 ALLOWED_TOP = frozenset({"runtime/artifacts", "docs"})
 REQUIRED_ENTRY_KEYS = frozenset({"id", "title", "path"})
 
-
 def _load_yaml(path: Path) -> Any:
     return safe_load_path(path, feature="validate_operator_shell_manifest.py")
-
 
 def _path_errors(repo_root: Path, rel: str, *, field: str) -> list[str]:
     errs: list[str] = []
@@ -48,7 +46,6 @@ def _path_errors(repo_root: Path, rel: str, *, field: str) -> list[str]:
             f"{field}: must be under runtime/artifacts/ or docs/ (got {rel!r})"
         )
     return errs
-
 
 def validate_operator_shell_manifest(
     repo_root: Path,
@@ -130,7 +127,6 @@ def validate_operator_shell_manifest(
 
     return errors, warnings
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -158,7 +154,6 @@ def main() -> int:
         return 1
     print("operator_shell_manifest: OK")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

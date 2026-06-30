@@ -35,7 +35,6 @@ hr { border: none; border-top: 1px solid #ddd; margin: 1rem 0; }
 }
 """
 
-
 def main() -> int:
     p = argparse.ArgumentParser()
     p.add_argument("input_md", type=Path, help="Path to .md file")
@@ -71,7 +70,6 @@ def main() -> int:
     out.write_text(html, encoding="utf-8")
     print(f"Wrote {out}", flush=True)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

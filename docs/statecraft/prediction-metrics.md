@@ -1,6 +1,5 @@
 # Prediction metrics
 
-work only; not Record.
 
 ## Registry generation
 

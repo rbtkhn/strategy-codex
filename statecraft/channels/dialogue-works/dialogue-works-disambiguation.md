@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Dialogue Works disambiguation (alkorshid / nima / venue)
 
@@ -10,7 +9,7 @@ Purpose: route **Dialogue Works** (venue) vs **Nima Alkhorshid** (person) vs leg
 |-------|----------|
 | **Display name** (`host:` YAML, speaker labels, operator prose, synthesis person leg) | **Nima Alkhorshid** (surname **Alkhorshid** — with **h**) |
 | **Machine id** (`thread`, path slug `voices/alkorshid/`, filename token `*-alkorshid-*`) | **`alkhorshid`** (no **h**; script read aliases `alkhorshid`, `nima alkhorshid`) |
-| **Wrong display** | `Nima Alkorshid` / bare `Alkorshid` — fix on edit; do not use on new intake |
+| **Wrong display** | `Nima Alkhorshid` / bare `Alkorshid` — fix on edit; do not use on new intake |
 | **Verbatim ASR in archive body** | preserve guest mis-hearings (`Nema`, `Nemo these`, etc.) unless manual ASR spot-fix |
 
 ## Compat matrix

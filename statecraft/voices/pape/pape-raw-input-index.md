@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Pape Raw-Input Index (compat redirect)
 

@@ -17,7 +17,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
-
 def query(
     user_id: str = "grace-mar",
     query_text: str = "",
@@ -51,7 +50,6 @@ def query(
             out.append({"id": id_, "document": doc, "distance": dist})
     return out
 
-
 def main() -> int:
     import argparse
     ap = argparse.ArgumentParser(description="Semantic query over Record index")
@@ -67,7 +65,6 @@ def main() -> int:
     for r in results:
         print(f"  {r['id']}\t{r['document'][:120]}...")
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())

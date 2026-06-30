@@ -7,9 +7,8 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2025-06-10/source-judging-freedom-amb-charles-freeman-israel-destroying-itself-2025-06-10.md
 speech_act: restated
+status: pending
 ---
-
-WORK only; not Record.
 
 # Freeman — Israel self-destruction (2025-06-10)
 

@@ -1,6 +1,5 @@
 # Military Workshop Method
 
-WORK only; not Record.
 
 The method is practical: use campaign literature, theory, and writer lanes to produce disciplined military judgment without confusing narrative with evidence.
 

@@ -1,6 +1,5 @@
 # Iran Peace
 
-WORK only; not Record.
 
 ## Purpose
 

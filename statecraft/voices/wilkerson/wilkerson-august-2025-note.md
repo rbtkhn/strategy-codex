@@ -1,6 +1,5 @@
 # Wilkerson August 2025 note
 
-WORK only; not Record.
 
 Purpose: preserve what August 2025 currently means on the Wilkerson shelf now that the month has become a real mixed month of on-disk anchors plus bounded URL recovery, rather than just two isolated captures.
 

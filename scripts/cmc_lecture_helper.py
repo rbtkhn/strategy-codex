@@ -55,7 +55,6 @@ STRATEGY_KEYWORDS = {
     "religion", "law", "tax", "census", "infrastructure",
 }
 
-
 def _extract_patterns(text: str) -> list[str]:
     """Extract key civilizational patterns from lecture text."""
     patterns = []
@@ -74,7 +73,6 @@ def _extract_patterns(text: str) -> list[str]:
 
     return patterns[:10]
 
-
 def _detect_civilizations(text: str) -> list[str]:
     """Detect civilization names mentioned in the text."""
     known = [
@@ -89,7 +87,6 @@ def _detect_civilizations(text: str) -> list[str]:
         if civ.lower() in text_lower:
             found.append(civ)
     return found or ["general"]
-
 
 def _generate_reflection_questions(patterns: list[str], civilizations: list[str]) -> list[str]:
     """Generate reflection questions from extracted patterns."""
@@ -114,7 +111,6 @@ def _generate_reflection_questions(patterns: list[str], civilizations: list[str]
 
     return questions[:5]
 
-
 def _generate_connections(patterns: list[str]) -> str:
     """Suggest connections to active strategy work."""
     lines = [
@@ -127,7 +123,6 @@ def _generate_connections(patterns: list[str]) -> str:
     if any("governance" in p.lower() or "institution" in p.lower() for p in patterns):
         lines.append("- Governance/institutional patterns may support decision-point analysis")
     return "\n".join(lines)
-
 
 def generate_reflection(text: str, source_name: str = "CMC Lecture") -> str:
     """Generate a structured reflection prompt from lecture text."""
@@ -144,7 +139,6 @@ def generate_reflection(text: str, source_name: str = "CMC Lecture") -> str:
         connections=_generate_connections(patterns),
     )
 
-
 def _next_candidate_id(gate_path: Path) -> str:
     if not gate_path.exists():
         return "CANDIDATE-0200"
@@ -153,7 +147,6 @@ def _next_candidate_id(gate_path: Path) -> str:
     if not ids:
         return "CANDIDATE-0200"
     return f"CANDIDATE-{max(ids) + 1:04d}"
-
 
 def stage_to_gate(user_id: str, reflection: str, source_name: str, dry_run: bool = False) -> str | None:
     """Stage the reflection as a SKILLS/THINK candidate."""
@@ -195,7 +188,6 @@ prompt_addition: none
     print(f"Staged {cid} in {gate_path.relative_to(REPO_ROOT)}")
     return cid
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description="CMC Lecture Mode helper")
     ap.add_argument("-u", "--user", default=DEFAULT_USER_ID, help="User ID")
@@ -225,7 +217,6 @@ def main() -> int:
             print(f"\nCandidate: {cid}")
 
     return 0
-
 
 if __name__ == "__main__":
     sys.exit(main())
