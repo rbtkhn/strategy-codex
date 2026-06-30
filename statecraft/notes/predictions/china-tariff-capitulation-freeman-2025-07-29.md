@@ -7,8 +7,6 @@ stance: no
 confidence: high
 source: source-archive/statecraft/2025-07-29/source-judging-freedom-amb-charles-freeman-does-israel-recognize-its-own-genocide-2025-07-29.md
 speech_act: restated
-auto_file: true
-auto_file_score: 0.5
 ---
 
 WORK only; not Record.

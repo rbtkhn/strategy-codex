@@ -7,8 +7,6 @@ stance: no
 confidence: high
 source: source-archive/statecraft/2026-02-24/source-judging-freedom-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md
 speech_act: restated
-auto_file: true
-auto_file_score: 0.5
 ---
 
 WORK only; not Record.

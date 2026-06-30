@@ -7,8 +7,6 @@ stance: no
 confidence: high
 source: source-archive/statecraft/2026-03-17/source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md
 speech_act: restated
-auto_file: true
-auto_file_score: 0.7
 ---
 
 WORK only; not Record.

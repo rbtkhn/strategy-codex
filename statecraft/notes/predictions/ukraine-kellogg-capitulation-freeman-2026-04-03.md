@@ -7,8 +7,6 @@ stance: no
 confidence: high
 source: source-archive/statecraft/2026-04-03/source-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03.md
 speech_act: restated
-auto_file: true
-auto_file_score: 0.4
 ---
 
 WORK only; not Record.
