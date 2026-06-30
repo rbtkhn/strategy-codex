@@ -6,6 +6,16 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
+REPORT_PATH = REPO_ROOT / "runtime" / "artifacts" / "repo-convergence-report.json"
+LOG_PATH = REPO_ROOT / "runtime" / "operator-events" / "repo-convergence.jsonl"
+
+
+def _path_stat(path: Path) -> tuple[float, int] | None:
+    if not path.is_file():
+        return None
+    st = path.stat()
+    return st.st_mtime, st.st_size
+
 
 def test_run_repo_convergence_explain():
     proc = subprocess.run(
@@ -26,6 +36,72 @@ def test_run_repo_convergence_check():
         text=True,
     )
     assert proc.returncode == 0, proc.stdout + proc.stderr
+
+
+def test_check_does_not_write_report_or_log():
+    before_report = _path_stat(REPORT_PATH)
+    before_log = _path_stat(LOG_PATH)
+
+    proc = subprocess.run(
+        [
+            sys.executable,
+            "scripts/run_repo_convergence.py",
+            "--check",
+            "--loop",
+            "schema",
+        ],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode == 0, proc.stdout + proc.stderr
+    assert "check complete; report not written" in proc.stdout
+    assert _path_stat(REPORT_PATH) == before_report
+    assert _path_stat(LOG_PATH) == before_log
+
+
+def test_hash_excludes_convergence_artifacts():
+    sys.path.insert(0, str(REPO_ROOT / "scripts"))
+    from run_repo_convergence import (  # noqa: E402
+        HASH_EXCLUDE_PATHS,
+        hash_paths,
+        repo_path,
+        should_hash_path,
+    )
+
+    assert all(not should_hash_path(repo_path(p)) for p in HASH_EXCLUDE_PATHS)
+
+    before = hash_paths(("runtime/artifacts",))
+    if REPORT_PATH.is_file():
+        REPORT_PATH.write_text(REPORT_PATH.read_text(encoding="utf-8") + "\n", encoding="utf-8")
+    after = hash_paths(("runtime/artifacts",))
+    assert before == after
+
+
+def test_record_report_writes_in_check_mode():
+    before = _path_stat(REPORT_PATH)
+
+    proc = subprocess.run(
+        [
+            sys.executable,
+            "scripts/run_repo_convergence.py",
+            "--check",
+            "--record-report",
+            "--quiet",
+            "--loop",
+            "schema",
+        ],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode == 0, proc.stdout + proc.stderr
+    after = _path_stat(REPORT_PATH)
+    assert after is not None
+    if before is None:
+        assert after[1] > 0
+    else:
+        assert after[0] >= before[0]
 
 
 def test_topo_sort_detects_cycle():

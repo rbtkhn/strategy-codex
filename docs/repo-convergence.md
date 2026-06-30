@@ -33,11 +33,11 @@ It does **not** answer doctrine promotion, Record mutation, event resolution, or
 
 | Mode | Behavior |
 |------|----------|
-| `--check` (default) | Non-mutating. Skips unchanged builders (`needs_write` if inputs changed). Runs validators only when loop inputs are dirty or `--all`. |
+| `--check` (default) | Non-mutating. Skips unchanged builders (`needs_write` if inputs changed). Runs validators only when loop inputs are dirty or `--all`. Does **not** write report, state, or log artifacts unless `--record-report` is passed. |
 | `--write` | Runs dirty builders (declared writes only), then validators when dirty. Updates committed state on success. |
 | `--explain` | Prints loop graph (inputs, writes, depends_on, commands). |
 
-Other flags: `--loop NAME`, `--all`, `--json`, `--quiet`, `--strict`.
+Other flags: `--loop NAME`, `--all`, `--json`, `--quiet`, `--strict`, `--record-report`.
 
 ## Recommended workflow
 
@@ -80,6 +80,8 @@ When a validator still scans broadly at runtime but inputs are narrow, use `--al
 
 **Maintenance:** When validator scan constants change, update the matching loop `inputs` in the same PR.
 
+The convergence report, convergence state, and convergence JSONL log are excluded from loop input hashes so the mechanism does not dirty itself when recording its own outputs.
+
 ## Safety boundaries
 
 **Allowed automatic writes:** `runtime/artifacts/*`, convergence report/state, operator-event JSONL.
@@ -90,9 +92,9 @@ When a validator still scans broadly at runtime but inputs are narrow, use `--al
 
 | Path | Role |
 |------|------|
-| `runtime/artifacts/repo-convergence-report.json` | Last run status per loop |
-| `runtime/artifacts/repo-convergence-state.json` | Committed input-hash baseline (shared dirty detection) |
-| `runtime/operator-events/repo-convergence.jsonl` | Append-only loop outcome ledger |
+| `runtime/artifacts/repo-convergence-report.json` | Last recorded run status per loop; written by `--write` or `--record-report` |
+| `runtime/artifacts/repo-convergence-state.json` | Input-hash baseline for dirty-loop detection; updated only after successful `--write` |
+| `runtime/operator-events/repo-convergence.jsonl` | Append-only loop outcome ledger; written by `--write` or `--record-report` |
 
 ## Related tools
 

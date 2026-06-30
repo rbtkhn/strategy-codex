@@ -25,6 +25,12 @@ REPORT_PATH = ARTIFACTS_DIR / "repo-convergence-report.json"
 STATE_PATH = ARTIFACTS_DIR / "repo-convergence-state.json"
 LOG_PATH = REPO_ROOT / "runtime" / "operator-events" / "repo-convergence.jsonl"
 
+HASH_EXCLUDE_PATHS = {
+    "runtime/artifacts/repo-convergence-report.json",
+    "runtime/artifacts/repo-convergence-state.json",
+    "runtime/operator-events/repo-convergence.jsonl",
+}
+
 
 @dataclass
 class CommandResult:
@@ -47,19 +53,32 @@ def repo_path(rel: str) -> Path:
     return REPO_ROOT / rel
 
 
+def repo_rel(path: Path) -> str:
+    try:
+        return path.relative_to(REPO_ROOT).as_posix()
+    except ValueError:
+        return path.as_posix()
+
+
+def should_hash_path(path: Path) -> bool:
+    return repo_rel(path) not in HASH_EXCLUDE_PATHS
+
+
 def hash_paths(paths: tuple[str, ...] | list[str]) -> str:
     h = hashlib.sha256()
     for raw in sorted(paths):
         root = repo_path(raw)
         if not root.exists():
-            h.update(f"missing:{raw}".encode("utf-8"))
+            if raw not in HASH_EXCLUDE_PATHS:
+                h.update(f"missing:{raw}".encode("utf-8"))
             continue
         if root.is_file():
-            h.update(raw.encode("utf-8"))
-            h.update(root.read_bytes())
+            if should_hash_path(root):
+                h.update(raw.encode("utf-8"))
+                h.update(root.read_bytes())
             continue
         for p in sorted(root.rglob("*")):
-            if p.is_file():
+            if p.is_file() and should_hash_path(p):
                 rel = p.relative_to(REPO_ROOT).as_posix()
                 h.update(rel.encode("utf-8"))
                 h.update(p.read_bytes())
@@ -218,12 +237,18 @@ def explain_loops(*, as_json: bool) -> int:
     return 0
 
 
+def maybe_append_log(event: dict[str, Any], *, record_run: bool) -> None:
+    if record_run:
+        append_log(event)
+
+
 def run_loops(
     *,
     mode_name: str,
     loop_names: list[str],
     force_all: bool,
     quiet: bool,
+    record_run: bool,
 ) -> tuple[dict[str, Any], dict[str, Any], int]:
     old_state = load_state()
     old_hashes = old_state.get("hashes", {})
@@ -234,6 +259,8 @@ def run_loops(
         "status": "ok",
         "mode": mode_name,
         "generated_at": generated_at,
+        "recorded": record_run,
+        "hash_exclusions": sorted(HASH_EXCLUDE_PATHS),
         "loops": {},
         "gate_required": [],
         "errors": [],
@@ -289,13 +316,14 @@ def run_loops(
             loop_report["status"] = "skipped"
             report["loops"][name] = loop_report
             new_state["hashes"][name] = input_hash
-            append_log(
+            maybe_append_log(
                 {
                     "timestamp": utc_now(),
                     "loop": name,
                     "status": "skipped",
                     "mode": mode_name,
-                }
+                },
+                record_run=record_run,
             )
             continue
 
@@ -343,13 +371,14 @@ def run_loops(
         report["loops"][name] = loop_report
         new_state["hashes"][name] = hash_paths(spec.inputs)
 
-        append_log(
+        maybe_append_log(
             {
                 "timestamp": utc_now(),
                 "loop": name,
                 "status": loop_report["status"],
                 "mode": mode_name,
-            }
+            },
+            record_run=record_run,
         )
 
         if not quiet:
@@ -369,22 +398,30 @@ def main() -> int:
     parser.add_argument("--json", action="store_true", help="Print report JSON to stdout")
     parser.add_argument("--quiet", action="store_true", help="Suppress command chatter")
     parser.add_argument("--strict", action="store_true", help="Fail on needs_write or errors")
+    parser.add_argument(
+        "--record-report",
+        action="store_true",
+        help="Write report/log artifacts even in check mode",
+    )
     args = parser.parse_args()
 
     if args.explain:
         return explain_loops(as_json=args.json)
 
     mode_name = "write" if args.write else "check"
+    record_run = args.write or args.record_report
     loop_names = selected_loop_names(args.loop)
     report, new_state, rc = run_loops(
         mode_name=mode_name,
         loop_names=loop_names,
         force_all=args.all,
         quiet=args.quiet,
+        record_run=record_run,
     )
 
-    REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    REPORT_PATH.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    if record_run:
+        REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
+        REPORT_PATH.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
     if mode_name == "write" and rc == 0:
         save_state(new_state)
@@ -396,8 +433,11 @@ def main() -> int:
     if args.json:
         print(json.dumps(report, indent=2, sort_keys=True))
     elif not args.quiet:
-        rel = REPORT_PATH.relative_to(REPO_ROOT)
-        print(f"[{report['status']}] wrote {rel.as_posix()}")
+        if record_run:
+            rel = REPORT_PATH.relative_to(REPO_ROOT)
+            print(f"[{report['status']}] wrote {rel.as_posix()}")
+        else:
+            print(f"[{report['status']}] check complete; report not written")
 
     return rc
 
