@@ -79,12 +79,34 @@ def render_proof_ledger() -> str:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Render control plane markdown.")
     ap.add_argument("--repo-root", type=Path, default=REPO_ROOT)
+    ap.add_argument("--check", action="store_true", help="Verify generated markdown matches control-plane YAML")
     args = ap.parse_args()
+    outputs = {
+        "integration-status.generated.md": render_integration_status,
+        "known-gaps.generated.md": render_known_gaps,
+        "target-registry.generated.md": render_target_registry,
+        "proof-ledger.generated.md": render_proof_ledger,
+    }
+    if args.check:
+        rc = 0
+        for name, render_fn in outputs.items():
+            path = OUT_DIR / name
+            expected = render_fn()
+            if not path.is_file():
+                print(f"error: missing {path.relative_to(REPO_ROOT)}", file=sys.stderr)
+                rc = 1
+                continue
+            if path.read_text(encoding="utf-8") != expected:
+                print(
+                    f"error: {path.relative_to(REPO_ROOT)} is out of date; "
+                    "run render_control_plane_docs.py",
+                    file=sys.stderr,
+                )
+                rc = 1
+        return rc
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    (OUT_DIR / "integration-status.generated.md").write_text(render_integration_status(), encoding="utf-8")
-    (OUT_DIR / "known-gaps.generated.md").write_text(render_known_gaps(), encoding="utf-8")
-    (OUT_DIR / "target-registry.generated.md").write_text(render_target_registry(), encoding="utf-8")
-    (OUT_DIR / "proof-ledger.generated.md").write_text(render_proof_ledger(), encoding="utf-8")
+    for name, render_fn in outputs.items():
+        (OUT_DIR / name).write_text(render_fn(), encoding="utf-8")
     print("render_control_plane_docs: OK -> docs/skill-work/work-dev/generated/")
     return 0
 

@@ -7,8 +7,9 @@ from pathlib import Path
 import pytest
 
 from scripts.check_generated_surfaces import (
-    ORPHAN_DEFER_PREFIXES,
+    MANIFEST_PATH,
     collect_orphan_issues,
+    _load_manifest,
 )
 
 
@@ -23,7 +24,19 @@ def test_generated_manifest_schema():
         text=True,
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
-    assert "16 entries" in proc.stdout
+    assert "21 entries" in proc.stdout
+
+
+def test_manifest_includes_work_dev_control_plane():
+    text = (REPO_ROOT / "generated-manifest.yaml").read_text(encoding="utf-8")
+    for entry_id in (
+        "work-dev-integration-status",
+        "work-dev-known-gaps",
+        "work-dev-proof-ledger",
+        "work-dev-target-registry",
+        "work-dev-continuity-blocks",
+    ):
+        assert entry_id in text
 
 
 def test_manifest_includes_statecraft_notes_registry():
@@ -79,35 +92,17 @@ def test_orphan_generated_file_detected():
         i.startswith("orphan:") and "LLM-ROUTING.md" in i for i in issues
     )
 
-    issues_deferred = [
+
+def test_work_dev_surfaces_not_orphan_strict():
+    manifest_paths = {entry.path for entry in _load_manifest(MANIFEST_PATH)}
+    issues = collect_orphan_issues(manifest_paths, strict_orphans=True)
+    work_dev = [
         i
-        for i in collect_orphan_issues(set(), strict_orphans=True)
-        if ORPHAN_DEFER_PREFIXES[0] in i
+        for i in issues
+        if "docs/skill-work/work-dev/generated/" in i
+        or "runtime/artifacts/work-dev/" in i
     ]
-    assert all(
-        i.startswith("orphan (deferred):") for i in issues_deferred
-    ), issues_deferred
-
-
-def test_deferred_work_dev_orphan_does_not_strict_fail():
-    proc = subprocess.run(
-        [
-            sys.executable,
-            "scripts/check_generated_surfaces.py",
-            "--orphans-only",
-            "--strict-orphans",
-        ],
-        cwd=REPO_ROOT,
-        capture_output=True,
-        text=True,
-        timeout=120,
-    )
-    blocking = [
-        line
-        for line in (proc.stderr or "").splitlines()
-        if line.startswith("generated-surfaces: orphan:") and "work-dev" in line
-    ]
-    assert not blocking, proc.stderr
+    assert not work_dev, work_dev
 
 
 def test_orphan_scan_subcommand():

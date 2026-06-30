@@ -32,11 +32,8 @@ ORPHAN_SKIP_PREFIXES = (
     "scripts/",
 )
 
-# Deferred enrollments — orphan scan warns only, never strict-fails
-ORPHAN_DEFER_PREFIXES = (
-    "docs/skill-work/work-dev/generated/",
-    "runtime/artifacts/work-dev/",
-)
+# Enrolled work-dev generated surfaces live in generated-manifest.yaml (work-dev-* entries).
+ORPHAN_DEFER_PREFIXES: tuple[str, ...] = ()
 
 try:
     import yaml

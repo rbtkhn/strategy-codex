@@ -1,4 +1,3 @@
-from repo_io import ARTIFACTS_DIR
 #!/usr/bin/env python3
 """Export local continuity-block events into a derived WORK artifact."""
 
@@ -6,10 +5,17 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
+import sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+
+_SCRIPTS = Path(__file__).resolve().parent.parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from repo_io import ARTIFACTS_DIR  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 DEFAULT_INPUT = REPO_ROOT / "runtime" / "observability" / "continuity_blocks.jsonl"
@@ -104,7 +110,32 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Export continuity-block JSONL into a derived WORK artifact.")
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--check", action="store_true", help="Verify output matches input feed")
     args = parser.parse_args()
+
+    if args.check:
+        if not args.output.is_file():
+            print(f"error: missing {args.output.relative_to(REPO_ROOT)}", file=sys.stderr)
+            return 1
+        existing = args.output.read_text(encoding="utf-8")
+        match = re.search(r"- Generated: `([^`]+)`", existing)
+        generated_at = match.group(1) if match else None
+        events, invalid = load_events(args.input)
+        expected = render_markdown(
+            events,
+            invalid_lines=invalid,
+            input_path=args.input,
+            repo_root=REPO_ROOT,
+            generated_at=generated_at,
+        )
+        if existing != expected:
+            print(
+                f"error: {args.output.relative_to(REPO_ROOT)} is out of date; "
+                "run export_continuity_blocks.py",
+                file=sys.stderr,
+            )
+            return 1
+        return 0
 
     export_continuity_blocks(args.input, args.output)
     print(f"export_continuity_blocks: OK -> {args.output}")

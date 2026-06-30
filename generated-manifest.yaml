@@ -190,6 +190,65 @@ entries:
         - '"do_not_edit"'
         - "build_freeman_predictions.py"
 
+  - id: work-dev-integration-status
+    path: docs/skill-work/work-dev/generated/integration-status.generated.md
+    category: generated
+    generator: scripts/work_dev/render_control_plane_docs.py
+    check_args: ["--check"]
+    drift_group: work-dev-control-plane
+    header:
+      type: html_comment
+      patterns:
+        - "GENERATED FILE"
+        - "render_control_plane_docs.py"
+
+  - id: work-dev-known-gaps
+    path: docs/skill-work/work-dev/generated/known-gaps.generated.md
+    category: generated
+    generator: scripts/work_dev/render_control_plane_docs.py
+    check_args: ["--check"]
+    drift_group: work-dev-control-plane
+    header:
+      type: html_comment
+      patterns:
+        - "GENERATED FILE"
+        - "render_control_plane_docs.py"
+
+  - id: work-dev-proof-ledger
+    path: docs/skill-work/work-dev/generated/proof-ledger.generated.md
+    category: generated
+    generator: scripts/work_dev/render_control_plane_docs.py
+    check_args: ["--check"]
+    drift_group: work-dev-control-plane
+    header:
+      type: html_comment
+      patterns:
+        - "GENERATED FILE"
+        - "render_control_plane_docs.py"
+
+  - id: work-dev-target-registry
+    path: docs/skill-work/work-dev/generated/target-registry.generated.md
+    category: generated
+    generator: scripts/work_dev/render_control_plane_docs.py
+    check_args: ["--check"]
+    drift_group: work-dev-control-plane
+    header:
+      type: html_comment
+      patterns:
+        - "GENERATED FILE"
+        - "render_control_plane_docs.py"
+
+  - id: work-dev-continuity-blocks
+    path: runtime/artifacts/work-dev/continuity-observability/continuity-blocks.md
+    category: generated
+    generator: scripts/work_dev/export_continuity_blocks.py
+    check_args: ["--check"]
+    header:
+      type: html_comment
+      patterns:
+        - "GENERATED FILE"
+        - "export_continuity_blocks.py"
+
 # TODO (manifest gaps — no batch --check yet):
 # - source-archive/statecraft/YYYY-MM-DD/day-index.md (per-day; build_statecraft_day_indices.py)
 # - source-archive/statecraft/YYYY-MM.md month inventory notes
