@@ -105,6 +105,20 @@ RECORD_LABELS: dict[str, str] = {
 
 STANCE_VALUES = frozenset({"yes", "no", "uncertain"})
 
+MIN_ANCHOR_WORDS = 40
+MIN_APPEARANCE_WORDS = 30
+MAX_PUBLIC_EXCERPT_WORDS = 80
+ALLOWED_PUBLIC_EXCEPTIONS = frozenset({"short_decisive_sentence"})
+BAD_EXCERPT_STARTS = (
+    "if this ",
+    "if that ",
+    "this ",
+    "that ",
+    "it ",
+    "they ",
+    "he ",
+)
+
 
 def extract_quote(note_text: str) -> str:
     lines = note_text.splitlines()
@@ -161,6 +175,11 @@ def load_public_map(path: Path | None = None) -> dict[str, dict[str, Any]]:
         for field in PUBLIC_MAP_REQUIRED_FIELDS:
             if not str(entry.get(field) or "").strip():
                 raise ValueError(f"public map {event_id}.{field} is required")
+        terms = entry.get("prediction_object_terms")
+        if not isinstance(terms, list) or not terms:
+            raise ValueError(f"public map {event_id}.prediction_object_terms is required")
+        if not all(str(t).strip() for t in terms):
+            raise ValueError(f"public map {event_id}.prediction_object_terms must be non-empty strings")
     return data
 
 
@@ -336,47 +355,141 @@ def excerpt_segments_in_capture(excerpt: str, capture_body: str) -> bool:
     return all(excerpt_in_capture(part, capture_body) for part in parts)
 
 
-def validate_public_excerpt(
+def contains_prediction_object(excerpt: str, terms: list[str]) -> bool:
+    if not terms:
+        return False
+    normalized = normalize_for_match(excerpt)
+    return any(normalize_for_match(term) in normalized for term in terms if str(term).strip())
+
+
+def _bad_excerpt_start(excerpt: str) -> bool:
+    lowered = normalize_for_match(excerpt)
+    return any(lowered.startswith(start) for start in BAD_EXCERPT_STARTS)
+
+
+def resolve_prediction_object_terms(
     row: dict[str, Any],
-    capture_body: str,
+    public_event: dict[str, Any],
+) -> list[str]:
+    row_terms = row.get("prediction_object_terms")
+    if isinstance(row_terms, list) and row_terms:
+        return [str(t) for t in row_terms if str(t).strip()]
+    event_terms = public_event.get("prediction_object_terms") or []
+    return [str(t) for t in event_terms if str(t).strip()]
+
+
+def validate_excerpt_quality(
     *,
-    require_youtube: bool = False,
+    event_id: str,
+    excerpt: str,
+    min_words: int,
+    exception: str | None,
+    context_note: str | None,
+    object_terms: list[str],
+    is_anchor: bool = False,
 ) -> list[str]:
     errors: list[str] = []
-    excerpt = str(row.get("public_excerpt") or "").strip()
-    if not excerpt:
-        errors.append("public_excerpt is empty")
+    text = excerpt.strip()
+    if not text:
+        errors.append(f"{event_id}: public_excerpt is empty")
         return errors
-    if row.get("excerpt_exception") != "stub_capture":
-        if not excerpt_segments_in_capture(excerpt, capture_body):
-            errors.append("public_excerpt not found in capture body")
-    title_skip = {
-        "short_decisive_sentence",
-        "summary_grade_capture",
-        "stub_capture",
-        "under_30_verified",
-        "rhetorical_analogy",
-    }
-    if is_title_like(excerpt) and row.get("excerpt_exception") not in title_skip:
-        errors.append("public_excerpt looks title-like; add excerpt_exception or rewrite")
-    wc = word_count(excerpt)
-    exc = row.get("excerpt_exception")
-    if exc == "short_decisive_sentence":
-        if wc < 4:
-            errors.append("short_decisive_sentence excerpt too short")
-    elif exc in ("summary_grade_capture", "stub_capture", "under_30_verified", "rhetorical_analogy"):
-        pass
-    elif wc < 30:
-        errors.append(f"public_excerpt under 30 words ({wc}); add excerpt_exception")
-    elif wc > 80:
-        errors.append(f"public_excerpt over 80 words ({wc})")
+
+    if exception and exception not in ALLOWED_PUBLIC_EXCEPTIONS:
+        errors.append(f"{event_id}: unsupported public excerpt exception {exception!r}")
+
+    if is_title_like(text) and exception != "short_decisive_sentence":
+        errors.append(f"{event_id}: excerpt looks title-like")
+
+    if not is_complete_sentence(text):
+        errors.append(f"{event_id}: excerpt is not complete sentence text")
+
+    has_object = contains_prediction_object(text, object_terms)
+    note = str(context_note or "").strip()
+
+    if is_anchor:
+        if not has_object:
+            errors.append(f"{event_id}: anchor excerpt must identify prediction object in quote")
+    elif not has_object and not note:
+        errors.append(f"{event_id}: excerpt must identify prediction object or include context_note")
+
+    if _bad_excerpt_start(text) and not has_object:
+        errors.append(f"{event_id}: excerpt starts with ambiguous pronoun without prediction object")
+
+    wc = word_count(text)
+    if wc > MAX_PUBLIC_EXCERPT_WORDS:
+        errors.append(f"{event_id}: excerpt over {MAX_PUBLIC_EXCERPT_WORDS} words ({wc})")
+
+    if wc < min_words:
+        if exception != "short_decisive_sentence":
+            errors.append(
+                f"{event_id}: excerpt under {min_words} words ({wc}) without short_decisive_sentence"
+            )
+        elif not note:
+            errors.append(f"{event_id}: short excerpt requires context_note")
+        elif wc < 4:
+            errors.append(f"{event_id}: short_decisive_sentence excerpt too short")
+
+    return errors
+
+
+def validate_capture_row(
+    row: dict[str, Any],
+    capture_body: str,
+    public_event: dict[str, Any],
+    *,
+    is_anchor: bool = False,
+    require_youtube: bool = False,
+) -> list[str]:
+    event_id = str(row.get("event_id") or "?")
+    excerpt = str(row.get("public_excerpt") or "").strip()
+    errors: list[str] = []
+    if not excerpt:
+        return [f"{event_id}: public_excerpt is empty"]
+
+    if not excerpt_segments_in_capture(excerpt, capture_body):
+        errors.append(f"{event_id}: public_excerpt not found in capture body")
+
+    object_terms = resolve_prediction_object_terms(row, public_event)
+    min_words = MIN_ANCHOR_WORDS if is_anchor else MIN_APPEARANCE_WORDS
+    errors.extend(
+        validate_excerpt_quality(
+            event_id=event_id,
+            excerpt=excerpt,
+            min_words=min_words,
+            exception=row.get("excerpt_exception"),
+            context_note=row.get("context_note"),
+            object_terms=object_terms,
+            is_anchor=is_anchor,
+        )
+    )
+
     if require_youtube:
         cap_path = REPO_ROOT / str(row.get("capture", "")).replace("\\", "/")
         if cap_path.is_file():
             cite = source_citation(cap_path)
             if not cite.get("youtube_url"):
-                errors.append("missing youtube_url in capture (required mode)")
+                errors.append(f"{event_id}: missing youtube_url in capture (required mode)")
+
     return errors
+
+
+def validate_public_excerpt(
+    row: dict[str, Any],
+    capture_body: str,
+    public_event: dict[str, Any] | None = None,
+    *,
+    is_anchor: bool = False,
+    require_youtube: bool = False,
+) -> list[str]:
+    if public_event is None:
+        public_event = {}
+    return validate_capture_row(
+        row,
+        capture_body,
+        public_event,
+        is_anchor=is_anchor,
+        require_youtube=require_youtube,
+    )
 
 
 def load_capture_map(path: Path | None = None) -> list[dict[str, Any]]:

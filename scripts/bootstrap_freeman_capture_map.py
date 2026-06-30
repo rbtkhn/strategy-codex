@@ -14,12 +14,17 @@ if str(_SCRIPTS) not in sys.path:
 
 from freeman_prediction_pilot import (  # noqa: E402
     FREEMAN_CAPTURE_MAP,
+    FREEMAN_PILOT_EVENT_ORDER,
     FREEMAN_PREDICTIONS_JSON,
     excerpt_in_capture,
+    load_capture_map,
+    load_public_map,
     parse_capture_frontmatter,
-    validate_public_excerpt,
+    validate_capture_row,
     word_count,
 )
+
+DEFAULT_PUBLIC_MAP = REPO_ROOT / "statecraft" / "data" / "freeman-prediction-public-map.json"
 
 # Curated capture-verified excerpts keyed by (event_id, capture).
 EXCERPT_OVERRIDES: dict[tuple[str, str], dict] = {
@@ -233,14 +238,14 @@ def load_v1_touchpoints() -> list[dict]:
     rows: list[dict] = []
     for event in data["events"]:
         event_id = event["event_id"]
-        for tp in event["touchpoints"]:
+        for app in event.get("appearances") or []:
             rows.append(
                 {
                     "event_id": event_id,
-                    "capture": tp["capture"],
-                    "stance": tp["stance"],
-                    "speech_act": tp["speech_act"],
-                    "public_excerpt": tp["quote"],
+                    "capture": app["capture"],
+                    "stance": app["stance"],
+                    "speech_act": app["speech_act"],
+                    "public_excerpt": app["public_excerpt"],
                 }
             )
     return rows
@@ -257,13 +262,37 @@ def apply_overrides(row: dict) -> dict:
 
 
 def finalize_row(row: dict, capture_body: str) -> dict:
-    row = dict(row)
-    if row.get("excerpt_exception"):
-        return row
-    excerpt = str(row.get("public_excerpt") or "").strip()
-    if excerpt_in_capture(excerpt, capture_body) and word_count(excerpt) < 30:
-        row["excerpt_exception"] = "under_30_verified"
-    return row
+    return dict(row)
+
+
+def validate_curated_capture_map(
+    capture_map_path: Path = FREEMAN_CAPTURE_MAP,
+    public_map_path: Path = DEFAULT_PUBLIC_MAP,
+) -> tuple[list[str], int]:
+    issues: list[str] = []
+    public_map = load_public_map(public_map_path)
+    rows = load_capture_map(capture_map_path)
+    anchors = {
+        event_id: str(public_map[event_id].get("anchor_capture") or "")
+        for event_id in FREEMAN_PILOT_EVENT_ORDER
+    }
+    for row in rows:
+        cap_path = REPO_ROOT / str(row["capture"]).replace("\\", "/")
+        if not cap_path.is_file():
+            issues.append(f"missing capture {row['capture']}")
+            continue
+        _, body = parse_capture_frontmatter(cap_path.read_text(encoding="utf-8"))
+        event_id = str(row["event_id"])
+        is_anchor = str(row.get("capture") or "") == anchors.get(event_id, "")
+        label = f"{event_id} @ {row['capture']}"
+        for err in validate_capture_row(
+            row,
+            body,
+            public_map[event_id],
+            is_anchor=is_anchor,
+        ):
+            issues.append(f"{label}: {err}")
+    return issues, len(rows)
 
 
 def build_rows() -> list[dict]:
@@ -275,16 +304,27 @@ def build_rows() -> list[dict]:
     return rows
 
 
-def validate_rows(rows: list[dict]) -> list[str]:
+def validate_rows(rows: list[dict], public_map: dict[str, dict]) -> list[str]:
     issues: list[str] = []
+    anchors = {
+        event_id: str(public_map[event_id].get("anchor_capture") or "")
+        for event_id in FREEMAN_PILOT_EVENT_ORDER
+    }
     for row in rows:
         cap_path = REPO_ROOT / row["capture"].replace("\\", "/")
         if not cap_path.is_file():
             issues.append(f"missing capture {row['capture']}")
             continue
         _, body = parse_capture_frontmatter(cap_path.read_text(encoding="utf-8"))
-        label = f"{row['event_id']} @ {row['capture']}"
-        for err in validate_public_excerpt(row, body):
+        event_id = str(row["event_id"])
+        is_anchor = str(row.get("capture") or "") == anchors.get(event_id, "")
+        label = f"{event_id} @ {row['capture']}"
+        for err in validate_capture_row(
+            row,
+            body,
+            public_map[event_id],
+            is_anchor=is_anchor,
+        ):
             issues.append(f"{label}: {err}")
     return issues
 
@@ -312,16 +352,24 @@ def write_map(rows: list[dict], *, dry_run: bool = False) -> None:
 def main() -> int:
     dry_run = "--dry-run" in sys.argv
     check_only = "--check" in sys.argv
+    if check_only:
+        issues, row_count = validate_curated_capture_map()
+        if issues:
+            for line in issues:
+                print(line, file=sys.stderr)
+            print(f"bootstrap_freeman_capture_map: {len(issues)} issue(s)", file=sys.stderr)
+            return 1
+        print(f"[ok] capture map valid ({row_count} rows)")
+        return 0
+
+    public_map = load_public_map()
     rows = build_rows()
-    issues = validate_rows(rows)
+    issues = validate_rows(rows, public_map)
     if issues:
         for line in issues:
             print(line, file=sys.stderr)
         print(f"bootstrap_freeman_capture_map: {len(issues)} issue(s)", file=sys.stderr)
         return 1
-    if check_only:
-        print(f"[ok] capture map valid ({len(rows)} rows)")
-        return 0
     write_map(rows, dry_run=dry_run)
     return 0
 

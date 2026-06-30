@@ -6,7 +6,14 @@
     "why_it_matters": "This tests whether tactical military dominance can coexist with worsening legitimacy, isolation, and strategic overextension.",
     "event_kind": "trajectory",
     "scoring_policy": "trajectory_review",
-    "anchor_capture": "source-archive/statecraft/2025-01-07/source-judging-freedom-amb-chas-freeman-is-israel-destroying-itself-2025-01-07.md"
+    "anchor_capture": "source-archive/statecraft/2025-01-07/source-judging-freedom-amb-chas-freeman-is-israel-destroying-itself-2025-01-07.md",
+    "prediction_object_terms": [
+      "Israel",
+      "self-destruction",
+      "destroying itself",
+      "pariah",
+      "isolated"
+    ]
   },
   "ukraine_escalation_russian_capitulation": {
     "public_title": "Would escalation force Russia to capitulate in Ukraine?",
@@ -15,7 +22,13 @@
     "why_it_matters": "This prediction tests a recurring Washington assumption: that more weapons, tighter sanctions, or higher pressure can force a strategic climbdown by a great power.",
     "event_kind": "forecast",
     "scoring_policy": "yes_no",
-    "anchor_capture": "source-archive/statecraft/2025-01-10/source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md"
+    "anchor_capture": "source-archive/statecraft/2025-01-10/source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md",
+    "prediction_object_terms": [
+      "Kellogg",
+      "escalation",
+      "Russian capitulation",
+      "capitulation"
+    ]
   },
   "gaza_hostage_deal_jan_2025": {
     "public_title": "Would a Gaza hostage deal be reached?",
@@ -24,7 +37,13 @@
     "why_it_matters": "This tests whether Freeman could read short-horizon diplomatic momentum amid a wider Gaza war trajectory.",
     "event_kind": "forecast",
     "scoring_policy": "yes_no",
-    "anchor_capture": "source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md"
+    "anchor_capture": "source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md",
+    "prediction_object_terms": [
+      "hostage",
+      "ceasefire",
+      "deal",
+      "exchange"
+    ]
   },
   "gaza_ceasefire_holds_2025": {
     "public_title": "Would the Gaza ceasefire hold?",
@@ -33,7 +52,13 @@
     "why_it_matters": "This tests whether Freeman could distinguish a hostage-exchange pause from a durable ceasefire when media treated them as the same.",
     "event_kind": "forecast",
     "scoring_policy": "yes_no",
-    "anchor_capture": "source-archive/statecraft/2025-01-21/source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md"
+    "anchor_capture": "source-archive/statecraft/2025-01-21/source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md",
+    "prediction_object_terms": [
+      "ceasefire",
+      "pause",
+      "hostages",
+      "resume"
+    ]
   },
   "us_israel_iran_war_preparation_2025": {
     "public_title": "Were Israel and Iran preparing for direct war?",
@@ -42,7 +67,13 @@
     "why_it_matters": "This tests whether Freeman could read force-posture and escalation signals before a major regional war.",
     "event_kind": "diagnostic",
     "scoring_policy": "diagnostic_confirmation",
-    "anchor_capture": "source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md"
+    "anchor_capture": "source-archive/statecraft/2025-01-21/source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md",
+    "prediction_object_terms": [
+      "Israel",
+      "Iran",
+      "war",
+      "preparing"
+    ]
   },
   "iran_great_power_direct_war_entry": {
     "public_title": "Would Russia or China directly enter a US-Iran war?",
@@ -51,7 +82,14 @@
     "why_it_matters": "This tests whether Freeman correctly bounded great-power war entry versus diversion, arms transfers, and diplomatic backing.",
     "event_kind": "forecast",
     "scoring_policy": "yes_no",
-    "anchor_capture": "source-archive/statecraft/2025-03-28/source-dialogue-works-amb-chas-freeman-will-iran-get-backup-from-russia-and-china-against-the-u-s-2025-03-28.md"
+    "anchor_capture": "source-archive/statecraft/2025-03-28/source-dialogue-works-amb-chas-freeman-will-iran-get-backup-from-russia-and-china-against-the-u-s-2025-03-28.md",
+    "prediction_object_terms": [
+      "Russia",
+      "China",
+      "Iran",
+      "directly",
+      "involve themselves"
+    ]
   },
   "china_tariff_capitulation_2025": {
     "public_title": "Would China capitulate to Trump's tariff pressure?",
@@ -60,6 +98,12 @@
     "why_it_matters": "This tests whether economic coercion can make a major power accept humiliation or structural subordination.",
     "event_kind": "forecast",
     "scoring_policy": "yes_no",
-    "anchor_capture": "source-archive/statecraft/2025-04-22/source-judging-freedom-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md"
+    "anchor_capture": "source-archive/statecraft/2025-04-22/source-judging-freedom-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md",
+    "prediction_object_terms": [
+      "China",
+      "Chinese",
+      "capitulation",
+      "tariff"
+    ]
   }
 }

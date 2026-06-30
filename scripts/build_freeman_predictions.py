@@ -30,9 +30,11 @@ from freeman_prediction_pilot import (  # noqa: E402
     derive_record,
     load_capture_map,
     load_public_map,
+    parse_capture_frontmatter,
     select_anchor_appearance,
     shorten_quote,
     source_citation,
+    validate_capture_row,
 )
 from prediction_lib import (  # noqa: E402
     REPO_ROOT as LIB_ROOT,
@@ -62,11 +64,65 @@ WIRE_STUBS: dict[str, str] = {
 }
 
 
-def appearance_label(citation: dict[str, str]) -> str:
-    pub = str(citation.get("pub_date") or "")
+def appearance_label(citation: dict[str, str], *, date: str | None = None) -> str:
+    pub = str(date or citation.get("pub_date") or "")
     channel = str(citation.get("channel") or "")
     host = host_short({"channel": channel, "host": channel}, Path(citation["capture"]))
     return f"{pub} {host}".strip()
+
+
+def format_exact_words_cell(app: dict[str, Any]) -> str:
+    quote = (
+        app["public_excerpt_short"]
+        if len(app["public_excerpt"]) > 120
+        else app["public_excerpt"]
+    )
+    note = str(app.get("context_note") or "").strip()
+    if note:
+        return f'{note} — "{quote}"'
+    return f'"{quote}"'
+
+
+def build_appearances_for_event(
+    rows: list[dict[str, Any]],
+    public_event: dict[str, Any],
+    *,
+    anchor_capture: str | None,
+) -> list[dict[str, Any]]:
+    appearances: list[dict[str, Any]] = []
+    for row in rows:
+        capture_path = REPO_ROOT / str(row["capture"]).replace("\\", "/")
+        text = capture_path.read_text(encoding="utf-8")
+        _, body = parse_capture_frontmatter(text)
+        is_anchor = str(row.get("capture") or "") == str(anchor_capture or "")
+        errors = validate_capture_row(
+            row,
+            body,
+            public_event,
+            is_anchor=is_anchor,
+        )
+        if errors:
+            raise ValueError(
+                f"{row['event_id']} @ {row['capture']}: " + "; ".join(errors)
+            )
+        citation = source_citation(capture_path)
+        excerpt = str(row["public_excerpt"])
+        appearance_date = str(row.get("appearance_date") or citation["pub_date"] or "")
+        appearances.append(
+            {
+                "date": appearance_date,
+                "speech_act": row["speech_act"],
+                "stance": row["stance"],
+                "public_excerpt": excerpt,
+                "public_excerpt_short": shorten_quote(excerpt),
+                "capture": row["capture"],
+                "citation": citation,
+                "appearance_label": appearance_label(citation, date=appearance_date),
+                "context_note": row.get("context_note"),
+            }
+        )
+    appearances.sort(key=lambda a: (a["date"], a["capture"]))
+    return appearances
 
 
 def load_timeline(path: Path) -> dict[str, Any]:
@@ -105,29 +161,6 @@ def format_status(event: dict[str, Any]) -> str:
             return "Resolved — no"
         return f"Resolved — {outcome}"
     return "Open"
-
-
-def build_appearances_for_event(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    appearances: list[dict[str, Any]] = []
-    for row in rows:
-        capture_path = REPO_ROOT / str(row["capture"]).replace("\\", "/")
-        citation = source_citation(capture_path)
-        excerpt = str(row["public_excerpt"])
-        appearances.append(
-            {
-                "date": citation["pub_date"],
-                "speech_act": row["speech_act"],
-                "stance": row["stance"],
-                "public_excerpt": excerpt,
-                "public_excerpt_short": shorten_quote(excerpt),
-                "capture": row["capture"],
-                "citation": citation,
-                "appearance_label": appearance_label(citation),
-                "context_note": row.get("context_note"),
-            }
-        )
-    appearances.sort(key=lambda a: (a["date"], a["capture"]))
-    return appearances
 
 
 def render_citation_line(citation: dict[str, str]) -> str:
@@ -169,7 +202,11 @@ def build_freeman_prediction_payload(
         event_rows = by_event.get(event_id, [])
         if not event_rows:
             raise ValueError(f"capture map has no rows for event {event_id}")
-        appearances = build_appearances_for_event(event_rows)
+        appearances = build_appearances_for_event(
+            event_rows,
+            event_public,
+            anchor_capture=str(event_public.get("anchor_capture") or "") or None,
+        )
         appearance_count += len(appearances)
         block = timeline.get("events", {}).get(event_id, {})
         shifts = list((block.get("shifts") or {}).get(FREEMAN_SPEAKER, []))
@@ -203,6 +240,7 @@ def build_freeman_prediction_payload(
         if not anchor_excerpt:
             raise ValueError(f"missing anchor excerpt for event {event_id}")
         anchor_citation = dict(anchor["citation"])
+        anchor_context_note = str(anchor.get("context_note") or "").strip() or None
 
         status = str(registry_event.get("status") or "open")
         if status == "resolved":
@@ -231,6 +269,7 @@ def build_freeman_prediction_payload(
                 "event_kind": event_public["event_kind"],
                 "anchor_excerpt": anchor_excerpt,
                 "anchor_citation": anchor_citation,
+                "anchor_context_note": anchor_context_note,
                 "public_position": format_public_position(event_public, appearances, shifts),
                 "public_summary": event_public["public_summary"],
                 "why_it_matters": event_public["why_it_matters"],
@@ -315,14 +354,20 @@ def render_public_markdown(payload: dict[str, Any]) -> str:
     for index, event in enumerate(payload["events"], start=1):
         event_id = event["event_id"]
         anchor_cite = event["anchor_citation"]
-        lines.extend(
-            [
+        anchor_context = str(event.get("anchor_context_note") or "").strip()
+        block_lines = [
                 f"## {index}. {event['public_title']} {{#{event_id}}}",
                 "",
                 f"**Freeman's position:** {format_position_line(event['public_position'])}  ",
                 f"**Status:** {format_status({'status': event['status'], 'outcome': event['outcome']})}.  ",
                 f"**Record:** {event['record_label']}.",
                 "",
+        ]
+        if anchor_context:
+            block_lines.append(anchor_context)
+            block_lines.append("")
+        block_lines.extend(
+            [
                 f"> \"{event['anchor_excerpt']}\"",
                 "",
                 render_citation_line(anchor_cite),
@@ -339,18 +384,14 @@ def render_public_markdown(payload: dict[str, Any]) -> str:
                 "| --- | --- | --- | --- |",
             ]
         )
+        lines.extend(block_lines)
         for app in event["appearances"]:
-            quote_cell = (
-                app["public_excerpt_short"]
-                if len(app["public_excerpt"]) > 120
-                else app["public_excerpt"]
-            )
             lines.append(
                 "| "
                 f"{app['date']} | "
                 f"{md_escape_cell(app['appearance_label'])} | "
                 f"{app['stance']} | "
-                f"\"{md_escape_cell(quote_cell)}\" |"
+                f"{md_escape_cell(format_exact_words_cell(app))} |"
             )
         lines.extend(["", "</details>", ""])
 
