@@ -24,7 +24,7 @@ def test_generated_manifest_schema():
         text=True,
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
-    assert "21 entries" in proc.stdout
+    assert "22 entries" in proc.stdout
 
 
 def test_manifest_includes_work_dev_control_plane():
@@ -52,6 +52,13 @@ def test_manifest_includes_freeman_predictions():
     assert "statecraft/voices/freeman/freeman-predictions.md" in text
     assert "freeman-predictions-json" in text
     assert "statecraft/voices/freeman/freeman-predictions.json" in text
+
+
+def test_manifest_includes_freeman_capture_map_check():
+    text = (REPO_ROOT / "generated-manifest.yaml").read_text(encoding="utf-8")
+    assert "freeman-prediction-capture-map" in text
+    assert "statecraft/data/freeman-prediction-capture-map.json" in text
+    assert "bootstrap_freeman_capture_map.py" in text
 
 
 def test_generated_surfaces_headers_pass():
