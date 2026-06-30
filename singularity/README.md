@@ -17,9 +17,14 @@ For the lane-specific membrane grammar, open [singularity work membrane](work-me
 
 ## Loop system
 
-Recurring singularity work is declared as **loops** under [`singularity/loops/`](loops/README.md). Loops are the operational unit; interpretive shelves (`notes/`, `essays/`, `synthesis/`, `workshop/`) are loop outputs or documentation and remain grandfathered in place.
+Singularity is the **control system for recurring work** — recurring responsibility made legible to AI. [`statecraft/`](../statecraft/README.md) observes and produces signals; singularity declares loops, surfaces attention, and lands action-card outputs.
 
-- [Loop system spec](../docs/singularity/loop-system.md) — schema, dependencies, orchestrator stub
+Recurring work is declared as **loops** under [`singularity/loops/`](loops/README.md). Interpretive shelves (`notes/`, `essays/`, `synthesis/`, `workshop/`) remain grandfathered; new operational outputs use declared shelves:
+
+- [Education outputs](education/predictive-history/README.md) — predictive-history teaching materials
+- [Business outputs](business/README.md) — Grace Gems and mountain homestead operating cards
+
+- [Loop system spec](../docs/singularity/loop-system.md) — schema, clusters, orchestrator stub
 - Generated registry: `runtime/artifacts/loop-registry.json` via `scripts/build_loop_registry.py`
 
 ## Boundary

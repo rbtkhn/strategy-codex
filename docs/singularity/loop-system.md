@@ -16,9 +16,44 @@ A **loop** is a recurring operational job with declared triggers, inputs, proces
 | Generated registry | `runtime/artifacts/loop-registry.json` | Build artifact for orchestration and CI |
 | Orchestrator signals | `runtime/artifacts/singularity-signals.json` | Pending, blocked, and attention-required loop ids |
 | Output shelves | `singularity/notes/`, `essays/`, `synthesis/`, `workshop/` | Grandfathered interpretive holdings |
+| Operating shelves | `singularity/education/`, `singularity/business/` | Loop output cards and business/education artifacts |
 | Domain signals | `singularity/workshop/longitudinal/innermost-loop-signals.json` | Innermost Loop coverage data (not orchestrator state) |
 
 New recurring work must declare a loop YAML. New interpretive artifacts should link to a producing loop when practical (via `output_shelves` on the loop or prose cross-links).
+
+## Architectural role
+
+```text
+statecraft/   = perception system (signals, synthesis, judgment)
+singularity/  = control system (loops, attention, action cards)
+runtime/      = generated machine state
+scripts/      = execution layer
+```
+
+Combined flow: **perception → decision → action → feedback**
+
+Current phase: **declare → validate → surface attention → produce action cards** — not yet execute/delegate/automate.
+
+## Operating loop clusters
+
+| Loop id | Category | Output shelf |
+| --- | --- | --- |
+| `innermost-loop-capture` | research | source-archive/singularity/innermost-loop/ |
+| `moonshots-synthesis-watch` | research | singularity/workshop/sheets/ |
+| `singularity-monthly-synthesis` | research | singularity/synthesis/ |
+| `spine-health-check` | research | singularity/workshop/longitudinal/ |
+| `work-cici-daily-ops` | projects | singularity/work-cici/ |
+| `predictive-history-education` | projects | singularity/education/predictive-history/ (lecture-first; AI media now; generative video per lecture as target) |
+| `grace-gems-marketplace-ops` | business | singularity/business/grace-gems/ops/ |
+| `grace-gems-product-pipeline` | business | singularity/business/grace-gems/products/, listings/ |
+| `grace-gems-customer-service` | business | singularity/business/grace-gems/customer-service/ |
+| `mountain-homestead-ops` | business | singularity/business/mountain-homestead/ops/ |
+| `mountain-homestead-maintenance` | business | singularity/business/mountain-homestead/maintenance/ |
+| `mountain-homestead-seasonal-readiness` | business | singularity/business/mountain-homestead/seasonal-readiness/ |
+
+**Hard dependencies:** `grace-gems-product-pipeline` → `grace-gems-marketplace-ops`; homestead chain `ops → maintenance → seasonal-readiness`.
+
+**Soft feed:** `grace-gems-customer-service` has no schema dependency on marketplace-ops; unresolved CS issues feed the daily ops card (documented in [`singularity/business/grace-gems/README.md`](../../singularity/business/grace-gems/README.md)).
 
 ## Loop schema
 

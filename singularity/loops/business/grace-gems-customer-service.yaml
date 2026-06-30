@@ -1,0 +1,25 @@
+loop:
+  id: grace-gems-customer-service
+  category: business
+  trigger:
+    type: event
+    description: New buyer message, order issue, review, return request, or shipping problem on either Grace Gems Etsy shop
+  inputs:
+    - description: Buyer messages, reviews, order records, shipping status, and shop policies for GraceGemsUS and GioielloHandcrafted
+    - description: Approved response templates from docs/skill-work/work-business/grace-gems/
+  process:
+    steps:
+      - description: Classify the issue as pre-sale, order status, customization, shipping, return, review, or complaint
+      - description: Draft a response that protects reputation while preserving margin and policy consistency
+      - description: Escalate edge cases requiring owner decision
+      - description: Record issue type, shop (GraceGemsUS or GioielloHandcrafted), and resolution for pattern detection; unresolved items soft-feed grace-gems-marketplace-ops daily card
+  outputs:
+    - description: Draft customer response
+    - description: Updated customer issue log
+    - description: Reputation risk note when needed
+  state:
+    status: active
+  dependencies: []
+  last_run: null
+  output_shelves:
+    - singularity/business/grace-gems/customer-service/

@@ -1,0 +1,26 @@
+loop:
+  id: mountain-homestead-ops
+  category: business
+  trigger:
+    type: time
+    schedule: weekly
+    description: Weekly homestead operations check for the 5-acre Pine, Colorado property — land, infrastructure, utilities, supplies, production capacity, and active tasks
+  inputs:
+    - description: Current homestead task list, supply levels, land and infrastructure needs on 5 acres in Pine, CO, local weather outlook, and active risks
+    - description: Known constraints such as travel, family schedule, budget, contractors, seasonal access, and revenue opportunities
+  process:
+    steps:
+      - description: Review critical systems including water, heat, power, food storage, waste, access, tools, safety, and land condition
+      - description: Identify urgent chores, deferred maintenance, supply gaps, revenue opportunities, and weather-sensitive tasks
+      - description: Rank actions by risk reduction, asset protection, production potential, cost, and time required
+      - description: Produce weekly homestead business operations card
+  outputs:
+    - description: Weekly mountain homestead business operations card
+    - description: Prioritized task and supply list
+    - description: Risk notes for weather, utilities, access, asset protection, or safety
+  state:
+    status: active
+  dependencies: []
+  last_run: null
+  output_shelves:
+    - singularity/business/mountain-homestead/ops/

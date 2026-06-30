@@ -1,0 +1,28 @@
+loop:
+  id: grace-gems-marketplace-ops
+  category: business
+  trigger:
+    type: time
+    schedule: daily
+    description: Daily marketplace check for Grace Gems listings, orders, messages, and shop health across both Etsy storefronts
+  inputs:
+    - description: Etsy shop dashboards for GraceGemsUS (etsy.com/shop/GraceGemsUS) and GioielloHandcrafted (etsy.com/shop/GioielloHandcrafted) — orders, messages, listing status, traffic, and sales
+    - description: Current product catalog and pricing sheet
+    - description: Customer service queue and open issues from grace-gems-customer-service (soft feed; see singularity/business/grace-gems/README.md)
+    - description: Doctrine and playbooks at docs/skill-work/work-business/grace-gems/ (monthly review, workflow reminders)
+  process:
+    steps:
+      - description: Check open orders, overdue shipments, buyer messages, and shop alerts on both storefronts
+      - description: Identify listings needing renewal, photo updates, SEO edits, price checks, or inventory correction (note which shop)
+      - description: Produce a short action list ranked by urgency and revenue impact
+      - description: Record completed actions and unresolved blockers
+  outputs:
+    - description: Daily Grace Gems operations card
+    - description: Prioritized business action list
+    - description: Updated marketplace issue log
+  state:
+    status: active
+  dependencies: []
+  last_run: null
+  output_shelves:
+    - singularity/business/grace-gems/ops/

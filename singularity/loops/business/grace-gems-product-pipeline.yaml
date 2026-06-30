@@ -1,0 +1,30 @@
+loop:
+  id: grace-gems-product-pipeline
+  category: business
+  trigger:
+    type: time
+    schedule: weekly
+    description: Weekly product creation, listing, and optimization cycle for Grace Gems
+  inputs:
+    - description: Available inventory, raw materials, finished products, photos, and draft listings for GraceGemsUS and GioielloHandcrafted
+    - description: Prior sales and traffic data per shop (GraceGemsUS, GioielloHandcrafted)
+    - description: Competitor and marketplace trend observations
+    - description: Business context at docs/skill-work/work-business/grace-gems/ (not loop output SSOT)
+  process:
+    steps:
+      - description: Select products and target shop (GraceGemsUS or GioielloHandcrafted) to photograph, list, relist, bundle, retire, or improve
+      - description: Generate or revise title, description, tags, pricing, and photos checklist
+      - description: Prioritize products by expected margin, demand, uniqueness, and ease of fulfillment
+      - description: Produce weekly listing plan
+  outputs:
+    - description: Weekly Grace Gems product pipeline
+    - description: Listing copy drafts
+    - description: Photo checklist and inventory notes
+  state:
+    status: active
+  dependencies:
+    - loop_id: grace-gems-marketplace-ops
+  last_run: null
+  output_shelves:
+    - singularity/business/grace-gems/products/
+    - singularity/business/grace-gems/listings/

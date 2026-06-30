@@ -1,6 +1,13 @@
 # Grace Gems (work-business)
 
-**Objective:** Manage the Grace Gems Etsy business — [etsy.com/market/grace_gems](https://www.etsy.com/market/grace_gems) — custom fine jewelry with natural gemstones.
+**Objective:** Manage the Grace Gems Etsy business — custom fine jewelry with natural gemstones — across two storefronts:
+
+| Shop | URL |
+| --- | --- |
+| GraceGemsUS | [etsy.com/shop/GraceGemsUS](https://www.etsy.com/shop/GraceGemsUS) |
+| GioielloHandcrafted | [etsy.com/shop/GioielloHandcrafted](https://www.etsy.com/shop/GioielloHandcrafted) |
+
+Market tag: [etsy.com/market/grace_gems](https://www.etsy.com/market/grace_gems)
 
 This submodule supports WORK and the Record by documenting how Grace-Mar relates to the companion's business: inventory, listings, customer service, orders, and operations. The companion is sovereign; the system supports, does not compel.
 

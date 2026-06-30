@@ -19,17 +19,31 @@ import singularity_loop_lib as lib  # noqa: E402
 from singularity_loop_invariants import run_singularity_loop_invariants  # noqa: E402
 
 
+NEW_OPERATING_LOOP_IDS = frozenset(
+    {
+        "predictive-history-education",
+        "grace-gems-marketplace-ops",
+        "grace-gems-product-pipeline",
+        "grace-gems-customer-service",
+        "mountain-homestead-ops",
+        "mountain-homestead-maintenance",
+        "mountain-homestead-seasonal-readiness",
+    }
+)
+
+
 def test_build_registry_shape() -> None:
     payload = lib.build_registry_payload()
-    assert len(payload["loops"]) == 5
+    assert len(payload["loops"]) == 12
     ids = {row["id"] for row in payload["loops"]}
-    assert ids == {
+    assert NEW_OPERATING_LOOP_IDS <= ids
+    assert {
         "innermost-loop-capture",
         "moonshots-synthesis-watch",
         "singularity-monthly-synthesis",
         "spine-health-check",
         "work-cici-daily-ops",
-    }
+    } <= ids
 
 
 def test_registry_and_check_pass_on_repo() -> None:

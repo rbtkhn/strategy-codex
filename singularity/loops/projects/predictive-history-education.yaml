@@ -1,0 +1,31 @@
+loop:
+  id: predictive-history-education
+  category: projects
+  trigger:
+    type: event
+    description: New or updated lecture or chapter material in rbtkhn/predictive-history suitable for learner-facing conversion or media production
+  inputs:
+    - description: Upstream corpus at https://github.com/rbtkhn/predictive-history/ and in-repo mirror continuity/predictive-history/ (corpus edits stay in canonical clone; outputs land here)
+    - description: Existing lesson plans, worksheets, quizzes, media drafts, or curriculum modules under singularity/education/predictive-history/
+    - description: Target learner profile, such as adult reader, high school, middle school, or first grade
+    - description: Available AI media tools for visuals, narration, layout, and (when ready) generative video production
+  process:
+    steps:
+      - description: Identify one lecture, concept, historical case, prediction framework, or source packet suitable for teaching
+      - description: Convert the source material into learner-facing text artifacts (lesson plan, reading guide, worksheet)
+      - description: Produce AI-assisted media materials — diagrams, slides, illustrations, audio drafts, or other visual aids using current AI tools
+      - description: Generate supporting materials such as quiz questions, vocabulary, discussion prompts, and answer keys
+      - description: Plan and eventually produce generative-AI-enhanced video per lecture to deepen comprehension (storyboard → draft → review → publish path)
+      - description: File outputs under singularity/education/predictive-history/ with clear lecture linkage
+  outputs:
+    - description: Educational material derived from predictive-history, keyed to lecture or chapter
+    - description: Quiz, worksheet, discussion guide, or lesson plan
+    - description: AI-assisted media pack (slides, visuals, narration script, storyboard)
+    - description: Generative-AI-enhanced lecture video or video draft when production-ready
+    - description: Optional child-friendly version when requested
+  state:
+    status: active
+  dependencies: []
+  last_run: null
+  output_shelves:
+    - singularity/education/predictive-history/

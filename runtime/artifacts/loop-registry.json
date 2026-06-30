@@ -6,6 +6,181 @@
   },
   "loops": [
     {
+      "id": "grace-gems-customer-service",
+      "category": "business",
+      "trigger": {
+        "type": "event",
+        "description": "New buyer message, order issue, review, return request, or shipping problem on either Grace Gems Etsy shop"
+      },
+      "inputs": [
+        {
+          "description": "Buyer messages, reviews, order records, shipping status, and shop policies for GraceGemsUS and GioielloHandcrafted"
+        },
+        {
+          "description": "Approved response templates from docs/skill-work/work-business/grace-gems/"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Classify the issue as pre-sale, order status, customization, shipping, return, review, or complaint"
+          },
+          {
+            "description": "Draft a response that protects reputation while preserving margin and policy consistency"
+          },
+          {
+            "description": "Escalate edge cases requiring owner decision"
+          },
+          {
+            "description": "Record issue type, shop (GraceGemsUS or GioielloHandcrafted), and resolution for pattern detection; unresolved items soft-feed grace-gems-marketplace-ops daily card"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Draft customer response"
+        },
+        {
+          "description": "Updated customer issue log"
+        },
+        {
+          "description": "Reputation risk note when needed"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/business/grace-gems/customer-service/"
+      ],
+      "source_file": "singularity/loops/business/grace-gems-customer-service.yaml"
+    },
+    {
+      "id": "grace-gems-marketplace-ops",
+      "category": "business",
+      "trigger": {
+        "type": "time",
+        "schedule": "daily",
+        "description": "Daily marketplace check for Grace Gems listings, orders, messages, and shop health across both Etsy storefronts"
+      },
+      "inputs": [
+        {
+          "description": "Etsy shop dashboards for GraceGemsUS (etsy.com/shop/GraceGemsUS) and GioielloHandcrafted (etsy.com/shop/GioielloHandcrafted) — orders, messages, listing status, traffic, and sales"
+        },
+        {
+          "description": "Current product catalog and pricing sheet"
+        },
+        {
+          "description": "Customer service queue and open issues from grace-gems-customer-service (soft feed; see singularity/business/grace-gems/README.md)"
+        },
+        {
+          "description": "Doctrine and playbooks at docs/skill-work/work-business/grace-gems/ (monthly review, workflow reminders)"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Check open orders, overdue shipments, buyer messages, and shop alerts on both storefronts"
+          },
+          {
+            "description": "Identify listings needing renewal, photo updates, SEO edits, price checks, or inventory correction (note which shop)"
+          },
+          {
+            "description": "Produce a short action list ranked by urgency and revenue impact"
+          },
+          {
+            "description": "Record completed actions and unresolved blockers"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Daily Grace Gems operations card"
+        },
+        {
+          "description": "Prioritized business action list"
+        },
+        {
+          "description": "Updated marketplace issue log"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/business/grace-gems/ops/"
+      ],
+      "source_file": "singularity/loops/business/grace-gems-marketplace-ops.yaml"
+    },
+    {
+      "id": "grace-gems-product-pipeline",
+      "category": "business",
+      "trigger": {
+        "type": "time",
+        "schedule": "weekly",
+        "description": "Weekly product creation, listing, and optimization cycle for Grace Gems"
+      },
+      "inputs": [
+        {
+          "description": "Available inventory, raw materials, finished products, photos, and draft listings for GraceGemsUS and GioielloHandcrafted"
+        },
+        {
+          "description": "Prior sales and traffic data per shop (GraceGemsUS, GioielloHandcrafted)"
+        },
+        {
+          "description": "Competitor and marketplace trend observations"
+        },
+        {
+          "description": "Business context at docs/skill-work/work-business/grace-gems/ (not loop output SSOT)"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Select products and target shop (GraceGemsUS or GioielloHandcrafted) to photograph, list, relist, bundle, retire, or improve"
+          },
+          {
+            "description": "Generate or revise title, description, tags, pricing, and photos checklist"
+          },
+          {
+            "description": "Prioritize products by expected margin, demand, uniqueness, and ease of fulfillment"
+          },
+          {
+            "description": "Produce weekly listing plan"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Weekly Grace Gems product pipeline"
+        },
+        {
+          "description": "Listing copy drafts"
+        },
+        {
+          "description": "Photo checklist and inventory notes"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "grace-gems-marketplace-ops"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/business/grace-gems/products/",
+        "singularity/business/grace-gems/listings/"
+      ],
+      "source_file": "singularity/loops/business/grace-gems-product-pipeline.yaml"
+    },
+    {
       "id": "innermost-loop-capture",
       "category": "research",
       "trigger": {
@@ -104,6 +279,249 @@
         "singularity/workshop/keystone-helix.md"
       ],
       "source_file": "singularity/loops/research/moonshots-synthesis-watch.yaml"
+    },
+    {
+      "id": "mountain-homestead-maintenance",
+      "category": "business",
+      "trigger": {
+        "type": "time",
+        "schedule": "monthly",
+        "description": "Monthly infrastructure and maintenance review for the 5-acre Pine, Colorado homestead as a business asset"
+      },
+      "inputs": [
+        {
+          "description": "Maintenance log, inspection notes, repair history, tool inventory, contractor/vendor contacts, and known weak points on the Pine, CO property"
+        },
+        {
+          "description": "Pine-area seasonal weather risks (snow, wildfire, mud season), mountain access, budget constraints, and production priorities"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Review buildings, driveway/access, fencing, drainage, heating, backup power, water systems, tools, vehicles, storage, and land infrastructure"
+          },
+          {
+            "description": "Identify preventive maintenance before it becomes emergency repair"
+          },
+          {
+            "description": "Separate owner-doable tasks from contractor-needed tasks"
+          },
+          {
+            "description": "Update maintenance backlog and next-month asset-protection priorities"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Monthly homestead maintenance report"
+        },
+        {
+          "description": "Repair and capex backlog"
+        },
+        {
+          "description": "Contractor/vendor action list"
+        },
+        {
+          "description": "Asset-protection risk notes"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "mountain-homestead-ops"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/business/mountain-homestead/maintenance/"
+      ],
+      "source_file": "singularity/loops/business/mountain-homestead-maintenance.yaml"
+    },
+    {
+      "id": "mountain-homestead-ops",
+      "category": "business",
+      "trigger": {
+        "type": "time",
+        "schedule": "weekly",
+        "description": "Weekly homestead operations check for the 5-acre Pine, Colorado property — land, infrastructure, utilities, supplies, production capacity, and active tasks"
+      },
+      "inputs": [
+        {
+          "description": "Current homestead task list, supply levels, land and infrastructure needs on 5 acres in Pine, CO, local weather outlook, and active risks"
+        },
+        {
+          "description": "Known constraints such as travel, family schedule, budget, contractors, seasonal access, and revenue opportunities"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Review critical systems including water, heat, power, food storage, waste, access, tools, safety, and land condition"
+          },
+          {
+            "description": "Identify urgent chores, deferred maintenance, supply gaps, revenue opportunities, and weather-sensitive tasks"
+          },
+          {
+            "description": "Rank actions by risk reduction, asset protection, production potential, cost, and time required"
+          },
+          {
+            "description": "Produce weekly homestead business operations card"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Weekly mountain homestead business operations card"
+        },
+        {
+          "description": "Prioritized task and supply list"
+        },
+        {
+          "description": "Risk notes for weather, utilities, access, asset protection, or safety"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/business/mountain-homestead/ops/"
+      ],
+      "source_file": "singularity/loops/business/mountain-homestead-ops.yaml"
+    },
+    {
+      "id": "mountain-homestead-seasonal-readiness",
+      "category": "business",
+      "trigger": {
+        "type": "time",
+        "schedule": "seasonal",
+        "description": "Seasonal readiness review for Pine, Colorado — before winter, spring melt, fire season, and harvest/storage periods on the 5-acre homestead"
+      },
+      "inputs": [
+        {
+          "description": "Local Pine/foothills seasonal risks, supply inventory, maintenance backlog, weather outlook, mountain access conditions, budget, and production plans"
+        },
+        {
+          "description": "Previous seasonal readiness checklist and lessons learned"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Identify Pine, CO season-specific risks such as snow access, freezing pipes, wildfire, mud season, drainage, pests, heat, supply interruptions, or production exposure across 5 acres"
+          },
+          {
+            "description": "Build a readiness checklist for the coming season"
+          },
+          {
+            "description": "Prioritize high-consequence, low-cost preparations first"
+          },
+          {
+            "description": "Record lessons learned after the season for future operating improvement"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Seasonal homestead readiness checklist"
+        },
+        {
+          "description": "Emergency preparation and supply gaps"
+        },
+        {
+          "description": "Seasonal revenue or production opportunity notes"
+        },
+        {
+          "description": "Post-season lessons learned"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "mountain-homestead-maintenance"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/business/mountain-homestead/seasonal-readiness/"
+      ],
+      "source_file": "singularity/loops/business/mountain-homestead-seasonal-readiness.yaml"
+    },
+    {
+      "id": "predictive-history-education",
+      "category": "projects",
+      "trigger": {
+        "type": "event",
+        "description": "New or updated lecture or chapter material in rbtkhn/predictive-history suitable for learner-facing conversion or media production"
+      },
+      "inputs": [
+        {
+          "description": "Upstream corpus at https://github.com/rbtkhn/predictive-history/ and in-repo mirror continuity/predictive-history/ (corpus edits stay in canonical clone; outputs land here)"
+        },
+        {
+          "description": "Existing lesson plans, worksheets, quizzes, media drafts, or curriculum modules under singularity/education/predictive-history/"
+        },
+        {
+          "description": "Target learner profile, such as adult reader, high school, middle school, or first grade"
+        },
+        {
+          "description": "Available AI media tools for visuals, narration, layout, and (when ready) generative video production"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Identify one lecture, concept, historical case, prediction framework, or source packet suitable for teaching"
+          },
+          {
+            "description": "Convert the source material into learner-facing text artifacts (lesson plan, reading guide, worksheet)"
+          },
+          {
+            "description": "Produce AI-assisted media materials — diagrams, slides, illustrations, audio drafts, or other visual aids using current AI tools"
+          },
+          {
+            "description": "Generate supporting materials such as quiz questions, vocabulary, discussion prompts, and answer keys"
+          },
+          {
+            "description": "Plan and eventually produce generative-AI-enhanced video per lecture to deepen comprehension (storyboard → draft → review → publish path)"
+          },
+          {
+            "description": "File outputs under singularity/education/predictive-history/ with clear lecture linkage"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Educational material derived from predictive-history, keyed to lecture or chapter"
+        },
+        {
+          "description": "Quiz, worksheet, discussion guide, or lesson plan"
+        },
+        {
+          "description": "AI-assisted media pack (slides, visuals, narration script, storyboard)"
+        },
+        {
+          "description": "Generative-AI-enhanced lecture video or video draft when production-ready"
+        },
+        {
+          "description": "Optional child-friendly version when requested"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/education/predictive-history/"
+      ],
+      "source_file": "singularity/loops/projects/predictive-history-education.yaml"
     },
     {
       "id": "singularity-monthly-synthesis",

@@ -36,6 +36,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | statecraft lane / active operator work | [statecraft/](statecraft) |
 | singularity lane / acceleration work | [singularity/](singularity) |
 | singularity recurring loops / loop registry | [singularity/loops/](singularity/loops) · [docs/singularity/loop-system.md](docs/singularity/loop-system.md) |
+| singularity education / business loop outputs | [singularity/education/](singularity/education) · [singularity/business/](singularity/business) |
 | **essay / stand-alone thesis** (cross-channel default) | [essays/README.md](essays/README.md) — primary shelf; channel `*/essays/` = compatibility only |
 | **prose class** (note vs essay vs synthesis) | [docs/prose-index.md](docs/prose-index.md) |
 | architecture / harness topology / model vs harness map | [docs/harness-architecture-map.md](docs/harness-architecture-map.md) |
