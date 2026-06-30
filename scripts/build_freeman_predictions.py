@@ -207,6 +207,7 @@ def render_document(
         f"- **Events tracked:** {len(FREEMAN_PILOT_EVENT_ORDER)} · **Touchpoints:** {len(rows)} · "
         "**Rebuild:** `python3 scripts/build_freeman_predictions.py`",
         "- **Doctrine:** [event-system.md](../../docs/statecraft/event-system.md) · "
+        "**Wire events:** [freeman-prediction-wire-events.md](freeman-prediction-wire-events.md) · "
         "**Crawl manifest:** [freeman-prediction-crawl.json](../../runtime/artifacts/freeman-prediction-crawl.json) · "
         "**Captures:** [freeman-index.md](freeman-index.md)",
         "",
