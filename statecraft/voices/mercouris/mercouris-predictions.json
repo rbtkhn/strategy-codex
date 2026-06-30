@@ -1,0 +1,113 @@
+{
+  "_meta": {
+    "generated": true,
+    "do_not_edit": true,
+    "source": "scripts/build_voice_predictions.py",
+    "speaker": "mercouris",
+    "schema": "mercouris-predictions-v1"
+  },
+  "speaker": "mercouris",
+  "summary": {
+    "events_tracked": 2,
+    "appearances": 2,
+    "resolved_events": 1,
+    "open_events": 1,
+    "shifted_events": 0
+  },
+  "events": [
+    {
+      "event_id": "ukraine_escalation_russian_capitulation",
+      "public_title": "Would escalation force Russia to capitulate in Ukraine?",
+      "technical_question": "Will Trump's Kellogg-style escalation-to-deescalate produce Russian capitulation in Ukraine negotiations?",
+      "status": "resolved",
+      "outcome": "no",
+      "latest_stance": "no",
+      "latest_date": "2026-06-26",
+      "record": "correct",
+      "record_label": "Correct",
+      "scoring_policy": "yes_no",
+      "event_kind": "forecast",
+      "anchor_excerpt": "And about a week ago, Putin's spokesman, Putin's foreign policy aid rather, Yuri Ushakov, said that the Russians are no longer waiting for the Americans to implement the Anchorage Agreement. It has become clear to the Russians that the Anchorage Agreement will not be implemented. And what the Russians are now doing instead is waiting for the military victory on the Ukrainian battlefields which will be achieved by their army.",
+      "anchor_citation": {
+        "capture": "source-archive/statecraft/2026-06-26/source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md",
+        "title": "Zelensky Again Threatens Belarus; Kharkov Crumbles Threat To Kiev Grows; Lavrov Rubio Bury Anchorage",
+        "channel": "Alexander Mercouris",
+        "pub_date": "2026-06-26",
+        "youtube_url": "https://www.youtube.com/watch?v=fxoQwJ-z9K4"
+      },
+      "anchor_context_note": null,
+      "public_position": "No.",
+      "public_summary": "Mercouris argued that Moscow shifted from Anchorage diplomacy to waiting for military victory on the Ukrainian battlefields — not capitulation under Kellogg-style pressure.",
+      "why_it_matters": "Tests whether Mercouris read Russian war termination as battlefield victory rather than negotiated yield to Western escalation.",
+      "resolution_note": "statecraft/notes/wire/prediction-resolution-ukraine-escalation-russian-capitulation.md",
+      "appearances": [
+        {
+          "date": "2026-06-26",
+          "speech_act": "initial",
+          "stance": "no",
+          "public_excerpt": "And about a week ago, Putin's spokesman, Putin's foreign policy aid rather, Yuri Ushakov, said that the Russians are no longer waiting for the Americans to implement the Anchorage Agreement. It has become clear to the Russians that the Anchorage Agreement will not be implemented. And what the Russians are now doing instead is waiting for the military victory on the Ukrainian battlefields which will be achieved by their army.",
+          "public_excerpt_short": "And about a week ago, Putin's spokesman, Putin's foreign policy aid rather, Yuri Ushakov, said that the Russians are no longer waiting for the Americans to implement the Anchorage Agreement. It has become clear to the Russians that the…",
+          "capture": "source-archive/statecraft/2026-06-26/source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md",
+          "citation": {
+            "capture": "source-archive/statecraft/2026-06-26/source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md",
+            "title": "Zelensky Again Threatens Belarus; Kharkov Crumbles Threat To Kiev Grows; Lavrov Rubio Bury Anchorage",
+            "channel": "Alexander Mercouris",
+            "pub_date": "2026-06-26",
+            "youtube_url": "https://www.youtube.com/watch?v=fxoQwJ-z9K4"
+          },
+          "appearance_label": "2026-06-26 Alexander Mercouris",
+          "context_note": null
+        }
+      ],
+      "shifts": [],
+      "reviews": []
+    },
+    {
+      "event_id": "us_israel_iran_war_preparation_2025",
+      "public_title": "Were Israel and Iran actively preparing for direct war?",
+      "technical_question": "Are Israel and Iran actively preparing for direct war (force posture, threats, procurement)?",
+      "status": "open",
+      "outcome": null,
+      "latest_stance": "yes",
+      "latest_date": "2026-06-14",
+      "record": "diagnostic",
+      "record_label": "Open — diagnostic",
+      "scoring_policy": "diagnostic_confirmation",
+      "event_kind": "diagnostic",
+      "anchor_excerpt": "over the last 24 hours after what appeared to be an intense pattern of escalation over the previous two weeks with the United States and Iran trading blows and trading blows increasingly aggressively and with Iran also launching missile strikes on Israel and Israel countering with air strikes and missile strikes against Iran",
+      "anchor_citation": {
+        "capture": "source-archive/statecraft/2026-06-14/source-alexander-mercouris-us-iran-mou-iran-terms-konstantinovka-close-to-fall-2026-06-14.md",
+        "title": "US Iran Closer To Signing MoU Reflecting Iran's Terms; Russian MoD Says Konstantinovka Close To Fall",
+        "channel": "Alexander Mercouris",
+        "pub_date": "2026-06-14",
+        "youtube_url": "https://www.youtube.com/watch?v=4xSucEKL32Y"
+      },
+      "anchor_context_note": null,
+      "public_position": "Yes.",
+      "public_summary": "Mercouris tracked an intense US–Iran escalation pattern with Israel in the exchange — trading blows and missile strikes, not mere rhetoric.",
+      "why_it_matters": "Tests whether Mercouris read force-posture and strike cadence as active war preparation before major regional kinetic phases.",
+      "resolution_note": "statecraft/notes/wire/prediction-resolution-us-israel-iran-war-preparation-2025.md",
+      "appearances": [
+        {
+          "date": "2026-06-14",
+          "speech_act": "initial",
+          "stance": "yes",
+          "public_excerpt": "over the last 24 hours after what appeared to be an intense pattern of escalation over the previous two weeks with the United States and Iran trading blows and trading blows increasingly aggressively and with Iran also launching missile strikes on Israel and Israel countering with air strikes and missile strikes against Iran",
+          "public_excerpt_short": "over the last 24 hours after what appeared to be an intense pattern of escalation over the previous two weeks with the United States and Iran trading blows and trading blows increasingly aggressively and with Iran also launching missile…",
+          "capture": "source-archive/statecraft/2026-06-14/source-alexander-mercouris-us-iran-mou-iran-terms-konstantinovka-close-to-fall-2026-06-14.md",
+          "citation": {
+            "capture": "source-archive/statecraft/2026-06-14/source-alexander-mercouris-us-iran-mou-iran-terms-konstantinovka-close-to-fall-2026-06-14.md",
+            "title": "US Iran Closer To Signing MoU Reflecting Iran's Terms; Russian MoD Says Konstantinovka Close To Fall",
+            "channel": "Alexander Mercouris",
+            "pub_date": "2026-06-14",
+            "youtube_url": "https://www.youtube.com/watch?v=4xSucEKL32Y"
+          },
+          "appearance_label": "2026-06-14 Alexander Mercouris",
+          "context_note": null
+        }
+      ],
+      "shifts": [],
+      "reviews": []
+    }
+  ]
+}

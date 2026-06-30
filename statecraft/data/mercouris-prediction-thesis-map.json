@@ -1,0 +1,14 @@
+{
+  "ukraine_escalation_russian_capitulation": {
+    "title_patterns": ["kellogg", "anchorage", "capitulation", "military victory", "ukraine", "donbass"],
+    "register_notes": [],
+    "related_event_ids": [],
+    "exclude_patterns": ["starmer", "bbc", "geneva"]
+  },
+  "us_israel_iran_war_preparation_2025": {
+    "title_patterns": ["iran", "israel", "escalation", "hormuz", "memorandum", "missile"],
+    "register_notes": [],
+    "related_event_ids": [],
+    "exclude_patterns": ["konstantinovka", "donbas", "ukraine front"]
+  }
+}

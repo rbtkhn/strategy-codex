@@ -109,8 +109,47 @@ def _freeman_config() -> VoiceConfig:
     )
 
 
+MERCOURIS_PILOT_EVENT_ORDER: tuple[str, ...] = (
+    "ukraine_escalation_russian_capitulation",
+    "us_israel_iran_war_preparation_2025",
+)
+
+MERCOURIS_WIRE_STUBS: dict[str, str] = {
+    "ukraine_escalation_russian_capitulation": (
+        "statecraft/notes/wire/prediction-resolution-ukraine-escalation-russian-capitulation.md"
+    ),
+    "us_israel_iran_war_preparation_2025": (
+        "statecraft/notes/wire/prediction-resolution-us-israel-iran-war-preparation-2025.md"
+    ),
+}
+
+
+def _mercouris_config() -> VoiceConfig:
+    public_map, capture_map, json_out, md_out, thesis_map, crawl = _voice_data_paths("mercouris")
+    return VoiceConfig(
+        speaker="mercouris",
+        pilot_event_order=MERCOURIS_PILOT_EVENT_ORDER,
+        public_map_path=public_map,
+        capture_map_path=capture_map,
+        predictions_json_path=json_out,
+        predictions_md_path=md_out,
+        thesis_map_path=thesis_map,
+        crawl_artifact_path=crawl,
+        schema="mercouris-predictions-v1",
+        page_title="# Alexander Mercouris Prediction Record",
+        speaker_display_name="Alexander Mercouris",
+        citation_prefix="— Alexander Mercouris,",
+        default_channel="Alexander Mercouris",
+        builder_script="scripts/build_voice_predictions.py --speaker mercouris",
+        checker_script="scripts/check_voice_predictions.py --speaker mercouris",
+        bootstrap_script="scripts/bootstrap_voice_capture_map.py --speaker mercouris --check",
+        wire_stubs=MERCOURIS_WIRE_STUBS,
+    )
+
+
 VOICE_REGISTRY: dict[str, VoiceConfig] = {
     "freeman": _freeman_config(),
+    "mercouris": _mercouris_config(),
 }
 
 

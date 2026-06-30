@@ -170,25 +170,26 @@ entries:
   - id: freeman-predictions-md
     path: statecraft/voices/freeman/freeman-predictions.md
     category: generated
-    generator: scripts/build_freeman_predictions.py
-    check_args: ["--check", "--md-only"]
+    generator: scripts/build_voice_predictions.py
+    check_args: ["--speaker", "freeman", "--check", "--md-only"]
     drift_group: freeman-predictions
     header:
       type: html_comment
       patterns:
         - "GENERATED FILE"
+        - "build_voice_predictions.py"
 
   - id: freeman-predictions-json
     path: statecraft/voices/freeman/freeman-predictions.json
     category: generated
-    generator: scripts/build_freeman_predictions.py
-    check_args: ["--check", "--json-only"]
+    generator: scripts/build_voice_predictions.py
+    check_args: ["--speaker", "freeman", "--check", "--json-only"]
     drift_group: freeman-predictions
     header:
       type: json
       patterns:
         - '"do_not_edit"'
-        - "build_freeman_predictions.py"
+        - "build_voice_predictions.py"
 
   - id: freeman-prediction-capture-map
     path: statecraft/data/freeman-prediction-capture-map.json
@@ -196,6 +197,37 @@ entries:
     generator: scripts/bootstrap_freeman_capture_map.py
     check_args: ["--check"]
     drift_group: freeman-capture-map
+
+  - id: mercouris-predictions-md
+    path: statecraft/voices/mercouris/mercouris-predictions.md
+    category: generated
+    generator: scripts/build_voice_predictions.py
+    check_args: ["--speaker", "mercouris", "--check", "--md-only"]
+    drift_group: mercouris-predictions
+    header:
+      type: html_comment
+      patterns:
+        - "GENERATED FILE"
+        - "build_voice_predictions.py"
+
+  - id: mercouris-predictions-json
+    path: statecraft/voices/mercouris/mercouris-predictions.json
+    category: generated
+    generator: scripts/build_voice_predictions.py
+    check_args: ["--speaker", "mercouris", "--check", "--json-only"]
+    drift_group: mercouris-predictions
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_voice_predictions.py"
+
+  - id: mercouris-prediction-capture-map
+    path: statecraft/data/mercouris-prediction-capture-map.json
+    category: work
+    generator: scripts/bootstrap_voice_capture_map.py
+    check_args: ["--speaker", "mercouris", "--check"]
+    drift_group: mercouris-capture-map
 
   - id: work-dev-integration-status
     path: docs/skill-work/work-dev/generated/integration-status.generated.md

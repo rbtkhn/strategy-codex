@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "description": "Curated capture map for Mercouris prediction public record v1 (two-event pilot stub)",
+    "rows": 2
+  },
+  "rows": [
+    {
+      "event_id": "ukraine_escalation_russian_capitulation",
+      "capture": "source-archive/statecraft/2026-06-26/source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md",
+      "stance": "no",
+      "speech_act": "initial",
+      "public_excerpt": "And about a week ago, Putin's spokesman, Putin's foreign policy aid rather, Yuri Ushakov, said that the Russians are no longer waiting for the Americans to implement the Anchorage Agreement. It has become clear to the Russians that the Anchorage Agreement will not be implemented. And what the Russians are now doing instead is waiting for the military victory on the Ukrainian battlefields which will be achieved by their army."
+    },
+    {
+      "event_id": "us_israel_iran_war_preparation_2025",
+      "capture": "source-archive/statecraft/2026-06-14/source-alexander-mercouris-us-iran-mou-iran-terms-konstantinovka-close-to-fall-2026-06-14.md",
+      "stance": "yes",
+      "speech_act": "initial",
+      "public_excerpt": "over the last 24 hours after what appeared to be an intense pattern of escalation over the previous two weeks with the United States and Iran trading blows and trading blows increasingly aggressively and with Iran also launching missile strikes on Israel and Israel countering with air strikes and missile strikes against Iran"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ukraine_escalation_russian_capitulation": {
+    "public_title": "Would escalation force Russia to capitulate in Ukraine?",
+    "public_position": "No.",
+    "public_summary": "Mercouris argued that Moscow shifted from Anchorage diplomacy to waiting for military victory on the Ukrainian battlefields — not capitulation under Kellogg-style pressure.",
+    "why_it_matters": "Tests whether Mercouris read Russian war termination as battlefield victory rather than negotiated yield to Western escalation.",
+    "event_kind": "forecast",
+    "scoring_policy": "yes_no",
+    "anchor_capture": "source-archive/statecraft/2026-06-26/source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md",
+    "prediction_object_terms": [
+      "Kellogg",
+      "Anchorage",
+      "Ukraine",
+      "military victory",
+      "capitulation",
+      "Russians"
+    ]
+  },
+  "us_israel_iran_war_preparation_2025": {
+    "public_title": "Were Israel and Iran actively preparing for direct war?",
+    "public_position": "Yes.",
+    "public_summary": "Mercouris tracked an intense US–Iran escalation pattern with Israel in the exchange — trading blows and missile strikes, not mere rhetoric.",
+    "why_it_matters": "Tests whether Mercouris read force-posture and strike cadence as active war preparation before major regional kinetic phases.",
+    "event_kind": "diagnostic",
+    "scoring_policy": "diagnostic_confirmation",
+    "anchor_capture": "source-archive/statecraft/2026-06-14/source-alexander-mercouris-us-iran-mou-iran-terms-konstantinovka-close-to-fall-2026-06-14.md",
+    "prediction_object_terms": [
+      "Iran",
+      "Israel",
+      "United States",
+      "escalation",
+      "missile strikes",
+      "war"
+    ]
+  }
+}
