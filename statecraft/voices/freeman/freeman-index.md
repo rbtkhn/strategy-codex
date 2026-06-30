@@ -9,9 +9,8 @@ Purpose: exhaustive canonical route map for Amb. Chas Freeman guest appearances 
 
 ## Corpus note
 
-- **149** eligible archive captures on disk
+- **150** eligible archive captures on disk
 - Rebuild: `python scripts/build_freeman_index.py`
-- **Predictions:** [freeman-predictions.md](freeman-predictions.md) · [freeman-predictions.json](freeman-predictions.json)
 
 ## 2025-01
 
@@ -215,6 +214,7 @@ Purpose: exhaustive canonical route map for Amb. Chas Freeman guest appearances 
 - [2026-06-23 Napolitano](../../../source-archive/statecraft/2026-06-23/source-judging-freedom-freeman-should-iran-trust-trump-2026-06-23.md)
 - [2026-06-26 Dialogue Works](../../../source-archive/statecraft/2026-06-26/source-dialogue-works-chas-freeman-collapse-israel-agenda-2026-06-26.md)
 - [2026-06-29 Diesen](../../../source-archive/statecraft/2026-06-29/source-glenn-diesen-chas-freeman-us-iran-resume-war-israel-lebanon-civil-war-2026-06-29.md)
+- [2026-06-30 Napolitano](../../../source-archive/statecraft/2026-06-30/source-judging-freedom-freeman-can-trump-save-lebanon-2026-06-30.md)
 
 ## June 2026 cadence (landed)
 

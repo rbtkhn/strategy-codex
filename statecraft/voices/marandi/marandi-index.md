@@ -7,7 +7,7 @@ Purpose: exhaustive canonical route map for Seyed Mohammad Marandi guest appeara
 
 ## Corpus note
 
-- **72** eligible archive captures on disk
+- **73** eligible archive captures on disk
 - Rebuild: `python scripts/build_marandi_index.py`
 - Mature core is genuinely three-host (Dialogue Works / Diesen / Davis); Napolitano and shorthand captures are support-tier residue
 
@@ -112,6 +112,7 @@ Purpose: exhaustive canonical route map for Seyed Mohammad Marandi guest appeara
 - [2026-06-24 Napolitano](../../../source-archive/statecraft/2026-06-24/source-judging-freedom-marandi-iran-stands-firm-negotiations-2026-06-24.md) — live Tehran; Hormuz control / fee pause; MOU vs Lebanon/Gaza restraint; Switzerland negotiations; Ashura domestic pressure
 - [2026-06-25 Diesen](../../../source-archive/statecraft/2026-06-25/source-glenn-diesen-marandi-trump-lost-iran-war-must-sell-victory-2026-06-25.md)
 - [2026-06-26 Davis](../../../source-archive/statecraft/2026-06-26/source-daniel-davis-seyed-marandi-will-us-collapse-global-economy-2026-06-26.md)
+- [2026-06-30 Dialogue Works](../../../source-archive/statecraft/2026-06-30/source-dialogue-works-marandi-iran-steps-in-as-israel-digs-in-hezbollah-crushes-buffer-zone-plan-2026-06-30.md)
 
 ## June 2026 cadence (landed)
 

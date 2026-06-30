@@ -7,7 +7,7 @@ Purpose: canonical route map for materialized John Helmer appearances in **State
 
 ## Corpus note
 
-- **16** direct captures on disk (2026-01-20 → 2026-06-25): **13** `source-dialogue-works-helmer-*`, **3** `source-lascaris-helmer-*`
+- **17** direct captures on disk (2026-01-20 → 2026-06-30): **14** `source-dialogue-works-helmer-*`, **3** `source-lascaris-helmer-*`
 - Rebuild: `python scripts/build_helmer_index.py`
 - **0** authored Substack / solo-site captures in archive (Helmer blog cited in-interview only)
 - **`thread: helmer`** on Jun 09+ lands; earlier rows **`thread: nima`** / **`thread: alkhorshid`** — all route here for guest appearances
@@ -48,6 +48,7 @@ Verify Kremlin quotations, poll claims, and naval-incident narratives against pr
 - [2026-06-09 - PUTIN'S CRISIS OF CONFIDENCE?](../../../source-archive/statecraft/2026-06-09/source-dialogue-works-helmer-putins-crisis-of-confidence-2026-06-09.md)
 - [2026-06-16 - Russia Just REACTED to Iran-US MoU – Iran Insists on Ending War on All Fronts](../../../source-archive/statecraft/2026-06-16/source-dialogue-works-helmer-russia-reacted-iran-us-mou-ending-war-all-fronts-2026-06-16.md)
 - [2026-06-23 - Vance DESTROYS Netanyahu's Cabinet in FIERY Rant - Putin's Shaking Move](../../../source-archive/statecraft/2026-06-23/source-dialogue-works-helmer-vance-lebanon-mou-hormuz-putin-ukraine-2026-06-23.md)
+- [2026-06-30 - Russia on the Verge of Major Escalation — Europe Braces for Retaliation](../../../source-archive/statecraft/2026-06-30/source-dialogue-works-helmer-russia-verge-major-escalation-europe-braces-retaliation-2026-06-30.md)
 
 ### Reason to Resist / Lascaris
 

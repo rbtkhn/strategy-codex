@@ -7,9 +7,9 @@ Purpose: exhaustive canonical route map for John Mearsheimer guest appearances a
 
 ## Corpus note
 
-- **95** eligible archive captures on disk (2025-01-17 → 2026-06-25)
+- **96** eligible archive captures on disk (2025-01-17 → 2026-06-30)
 - Rebuild: `python scripts/build_mearsheimer_index.py`
-- **21** Diesen · **26** Davis · **36** Judging Freedom · **4** authored · misc **8**
+- **21** Diesen · **26** Davis · **37** Judging Freedom · **4** authored · misc **8**
 - Host-led mature-month shelf: host arcs own chronology; this file owns **audit parity** across all materialized appearances
 
 ## Direct materialized appearances
@@ -111,6 +111,7 @@ Reinforcing orbit — defeat accounting and Washington-has-already-lost register
 - [`2026-06-02` Napolitano — Israel veto peace](../../../source-archive/statecraft/2026-06-02/source-judging-freedom-mearsheimer-will-israel-veto-an-american-peace-2026-06-02.md)
 - [2026-06-19 - Prof. John Mearsheimer : Israel Undermining US/Iran Deal](../../../source-archive/statecraft/2026-06-19/source-judging-freedom-mearsheimer-israel-undermining-us-iran-deal-2026-06-19.md)
 - [2026-06-23 - Netanyahu and Israeli Decline](../../../source-archive/statecraft/2026-06-23/source-judging-freedom-mearsheimer-netanyahu-and-israeli-decline-2026-06-23.md)
+- [2026-06-30 - Making Sense of Iran's Victory](../../../source-archive/statecraft/2026-06-30/source-judging-freedom-mearsheimer-making-sense-of-irans-victory-2026-06-30.md)
 
 ### Tucker Carlson × Mearsheimer
 

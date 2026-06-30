@@ -4,7 +4,7 @@
 
 Compatibility note: this is a legacy continuity transcript surface. Use it as support residue, not as a first-open citation path when the canonical Freeman shelf already lives under [statecraft/voices/freeman/](README.md) and the person arc, routing note, bounded month ladder, support spine, or raw-input bench already answer the question more directly.
 
-**Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) that include `thread:freeman` (first line + optional continuation paragraphs), routed on ingest.
+**Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) that include `thread:freeman` (first line + optional continuation paragraphs), routed on ingest.
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
 **Editing:** Operator may lightly edit for clarity after triage. Edits are preserved across triage runs (append-only, not overwrite).

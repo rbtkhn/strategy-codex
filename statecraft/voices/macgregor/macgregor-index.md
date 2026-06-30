@@ -7,7 +7,7 @@ Purpose: exhaustive route map for every resolved Macgregor appearance currently 
 
 ## Corpus note
 
-- **90** eligible archive captures on disk (2025-01-06 → 2026-06-26 + aired-pending)
+- **91** eligible archive captures on disk (2025-01-06 → 2026-06-30 + aired-pending)
 - Rebuild: `python scripts/build_macgregor_index.py`
 - Month-grouped exhaustive list; host arcs (Davis, Diesen, Napolitano) own first-open transformations
 
@@ -151,6 +151,7 @@ Purpose: exhaustive route map for every resolved Macgregor appearance currently 
 - [transcript-davis-macgregor-pressure-remove-trump-from-office-growing-2026-06-23](../../../source-archive/statecraft/2026-06-23/source-daniel-davis-macgregor-pressure-remove-trump-from-office-growing-2026-06-23.md)
 - [transcript-napolitano-macgregor-judgment-day-trump-war-lost-2026-06-26](../../../source-archive/statecraft/2026-06-26/source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md)
 - [youtube-macgregor-mario-nawfal-israel-furious-trump-turkey-syria-lebanon-2026-06-26](../../../source-archive/statecraft/2026-06-26/source-mario-nawfal-macgregor-israel-furious-trump-turkey-syria-lebanon-2026-06-26.md)
+- [transcript-davis-macgregor-problem-facing-putin-right-now-2026-06-30](../../../source-archive/statecraft/2026-06-30/source-daniel-davis-macgregor-problem-facing-putin-right-now-2026-06-30.md)
 
 ## Boundary Notes
 

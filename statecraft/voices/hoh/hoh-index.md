@@ -7,7 +7,7 @@ Purpose: exhaustive route map for every resolved Matthew Hoh appearance currentl
 
 ## Corpus note
 
-- **13** eligible archive captures on disk (2025-10-10 → 2026-06-23)
+- **14** eligible archive captures on disk (2025-10-10 → 2026-06-30)
 - Rebuild: `python scripts/build_hoh_index.py`
 - Month-grouped exhaustive list; Napolitano / Dialogue Works / Davis guest lanes own first-open label transforms
 
@@ -35,6 +35,7 @@ Purpose: exhaustive route map for every resolved Matthew Hoh appearance currentl
 - [transcript-napolitano-hoh-people-should-know-when-theyre-conquered-2026-06-16](../../../source-archive/statecraft/2026-06-16/source-judging-freedom-hoh-people-should-know-when-theyre-conquered-2026-06-16.md)
 - [youtube-dialogue-works-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17](../../../source-archive/statecraft/2026-06-17/source-dialogue-works-matthew-hoh-change-course-or-else-trump-to-israel-2026-06-17.md)
 - [transcript-napolitano-hoh-how-empire-recruits-soldiers-2026-06-23](../../../source-archive/statecraft/2026-06-23/source-judging-freedom-hoh-how-empire-recruits-soldiers-2026-06-23.md)
+- [transcript-napolitano-hoh-trump-mou-pause-not-peace-2026-06-30](../../../source-archive/statecraft/2026-06-30/source-judging-freedom-hoh-trump-mou-pause-not-peace-2026-06-30.md)
 
 ## Boundary notes
 

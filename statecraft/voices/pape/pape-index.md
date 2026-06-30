@@ -9,8 +9,8 @@ Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape
 
 ## Corpus note
 
-- **56** authored · **16** guest · **72** total on disk
-- **16/16** guest YouTube captures `curated_sectioned` (**source-section**; authored essays out of scope)
+- **58** authored · **17** guest · **75** total on disk
+- **16/17** guest YouTube captures `curated_sectioned` (**source-section**; authored essays out of scope)
 - Rebuild: `python3 scripts/build_pape_index.py`
 
 ## Boundary
@@ -112,3 +112,6 @@ Mechanism spine (load-bearing forecast arc): [pape-forecast-ledger-2026.md](pape
 - [2026-06-25 — Prediction Confirmed: The Next Phase of the Iran War Has Begun](../../../source-archive/statecraft/2026-06-25/source-pape-prediction-confirmed-the-next-phase-of-the-iran-war-has-begun-2026-06-25.md) — **authored** · substack-post
 - [2026-06-26 — U.S STRIKE IRAN, U.S ISRAEL LEBANON DEAL VIOLATES THE MOU DEAL w/ PRO…](../../../source-archive/statecraft/2026-06-26/source-moral-resistance-robert-pape-us-strike-iran-lebanon-deal-violates-mou-2026-06-26.md) (`oT8p2EQ6r0s`) — **guest** · host: **Sulaiman Ahmed** · `moral-resistance` · cleaned-transcript · _one studio session · four indexed theme segments in inbox/registry_ · cross-ref [moral-resistance-channel-index.md](../../channels/moral-resistance/moral-resistance-channel-index.md)
 - [2026-06-27 — Situation Report — Special Edition](../../../source-archive/statecraft/2026-06-27/source-pape-situation-report-special-edition-iran-war-heating-up-2026-06-27.md) — **authored** · substack-post
+- [2026-06-29 — The MOU Is Dying — Worse Is Still Ahead](../../../source-archive/statecraft/2026-06-29/source-pape-the-mou-is-dying-worse-is-still-ahead-2026-06-29.md) — **authored** · substack-post
+- [2026-06-30 — TRUMP SAYS TALKS ON, IRAN SAYS NO — WHO'S CONTROLLING ESCALATION? – w…](../../../source-archive/statecraft/2026-06-30/source-mario-nawfal-robert-pape-trump-says-talks-on-iran-says-no-controlling-escalation-2026-06-30.md) (`tOoPgWy_oNY`) — **guest** · host: **Mario Nawfal** · `mario-nawfal` · cleaned-transcript · cross-ref [mario-nawfal-channel-index.md](../../channels/mario-nawfal/mario-nawfal-channel-index.md)
+- [2026-06-30 — Situation Report: Pakistan's Troops in Saudi Arabia](../../../source-archive/statecraft/2026-06-30/source-pape-situation-report-pakistans-troops-2026-06-30.md) — **authored** · substack-post

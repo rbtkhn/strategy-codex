@@ -4,27 +4,27 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Stats
 
-- Source files: `7`
+- Source files: `8`
 - Channel sources: `6`
-- Writer sources: `0`
+- Writer sources: `1`
 - Other sources: `1`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `cleaned-transcript` (5), `source` (1), `transcript` (1)
-- Source form mix: `interview` (6), `post` (1)
-- Distinct channels/shows: `4`
-- Distinct hosts: `4`
+- Body kind mix: `cleaned-transcript` (5), `source` (1), `substack-post` (1), `transcript` (1)
+- Source form mix: `interview` (6), `newsletter` (1), `post` (1)
+- Distinct channels/shows: `5`
+- Distinct hosts: `5`
 - Distinct guests: `6`
-- Distinct threads: `9`
+- Distinct threads: `10`
 
 ## Channel / Show Rollup
 
-- `Judging Freedom` (3), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Mario Nawfal` (1)
+- `Judging Freedom` (3), `Daniel Davis Deep Dive` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `escalationtrap.substack.com` (1)
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Mario Nawfal` (1)
+- Hosts: `Andrew Napolitano` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Mario Nawfal` (1), `Robert Pape` (1)
 - Guests: `Alastair Crooke` (1), `Charles Freeman` (1), `Joe Kent` (1), `Larry Johnson` (1), `Ray McGovern` (1), `Ted Postol` (1)
-- Threads: `crooke` (1), `davis` (1), `diesen` (1), `freeman` (1), `johnson` (1), `kent` (1), `kent,nawfal` (1), `mcgovern` (1), `postol` (1)
+- Threads: `crooke` (1), `davis` (1), `diesen` (1), `freeman` (1), `johnson` (1), `kent` (1), `kent,nawfal` (1), `mcgovern` (1), `pape` (1), `postol` (1)
 
 ## Channel sources
 
@@ -45,7 +45,7 @@ _Configured prose / check-written roster captures for this day._
 
 | Writer slug | Thread | Feed host | Source link | File |
 | --- | --- | --- | --- | --- |
-| _none_ | — | — | — | — |
+| `pape` | `pape` | `escalationtrap.substack.com` | [watch](https://escalationtrap.substack.com/p/the-mou-is-dying-worse-is-still-ahead) | `source-pape-the-mou-is-dying-worse-is-still-ahead-2026-06-29.md` |
 
 ## Other sources
 
@@ -64,3 +64,4 @@ _Prose or archive lands outside channel-index and writer-index rosters._
 - `source-judging-freedom-johnson-trump-mou-unraveling-2026-06-29.md`
 - `source-judging-freedom-mcgovern-zelensky-goad-putin-overact-2026-06-29.md`
 - `source-mario-nawfal-kent-israel-oligarchs-hijacked-us-government-2026-06-29.md`
+- `source-pape-the-mou-is-dying-worse-is-still-ahead-2026-06-29.md`
