@@ -99,6 +99,8 @@ def crawl(*, body_chars: int = 8000) -> dict[str, Any]:
         body = path.read_text(encoding="utf-8", errors="replace")[:body_chars]
 
         for event_id, cfg in thesis.items():
+            # Calendar pub_date gates belong only in thesis-map when registry horizon_type
+            # is freeman_date — do not add operator pilot windows (see event-system.md).
             gate = cfg.get("close_date_gate")
             if gate and pub > str(gate):
                 continue

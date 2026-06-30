@@ -1,7 +1,7 @@
 {
   "_meta": {
     "source": "scripts/calibrate_auto_file.py",
-    "generated_at": "2026-06-30T05:27:55Z",
+    "generated_at": "2026-06-30T05:49:35Z",
     "mode": "all_events",
     "gold_label": "manual_only (auto_file != true)"
   },
@@ -9,7 +9,7 @@
     "israel_self_destruction_trajectory": {
       "_meta": {
         "source": "scripts/calibrate_auto_file.py",
-        "generated_at": "2026-06-30T05:27:41Z",
+        "generated_at": "2026-06-30T05:49:23Z",
         "event_id": "israel_self_destruction_trajectory",
         "gold_label": "manual_only (auto_file != true)"
       },
@@ -95,7 +95,7 @@
     "ukraine_escalation_russian_capitulation": {
       "_meta": {
         "source": "scripts/calibrate_auto_file.py",
-        "generated_at": "2026-06-30T05:27:43Z",
+        "generated_at": "2026-06-30T05:49:25Z",
         "event_id": "ukraine_escalation_russian_capitulation",
         "gold_label": "manual_only (auto_file != true)"
       },
@@ -170,7 +170,7 @@
     "gaza_hostage_deal_jan_2025": {
       "_meta": {
         "source": "scripts/calibrate_auto_file.py",
-        "generated_at": "2026-06-30T05:27:44Z",
+        "generated_at": "2026-06-30T05:49:27Z",
         "event_id": "gaza_hostage_deal_jan_2025",
         "gold_label": "manual_only (auto_file != true)"
       },
@@ -242,7 +242,7 @@
     "gaza_ceasefire_holds_2025": {
       "_meta": {
         "source": "scripts/calibrate_auto_file.py",
-        "generated_at": "2026-06-30T05:27:46Z",
+        "generated_at": "2026-06-30T05:49:29Z",
         "event_id": "gaza_ceasefire_holds_2025",
         "gold_label": "manual_only (auto_file != true)"
       },
@@ -315,7 +315,7 @@
     "us_israel_iran_war_preparation_2025": {
       "_meta": {
         "source": "scripts/calibrate_auto_file.py",
-        "generated_at": "2026-06-30T05:27:48Z",
+        "generated_at": "2026-06-30T05:49:31Z",
         "event_id": "us_israel_iran_war_preparation_2025",
         "gold_label": "manual_only (auto_file != true)"
       },
@@ -393,7 +393,7 @@
     "iran_great_power_direct_war_entry": {
       "_meta": {
         "source": "scripts/calibrate_auto_file.py",
-        "generated_at": "2026-06-30T05:27:50Z",
+        "generated_at": "2026-06-30T05:49:33Z",
         "event_id": "iran_great_power_direct_war_entry",
         "gold_label": "manual_only (auto_file != true)"
       },
@@ -478,7 +478,7 @@
     "china_tariff_capitulation_2025": {
       "_meta": {
         "source": "scripts/calibrate_auto_file.py",
-        "generated_at": "2026-06-30T05:27:55Z",
+        "generated_at": "2026-06-30T05:49:35Z",
         "event_id": "china_tariff_capitulation_2025",
         "gold_label": "manual_only (auto_file != true)"
       },

@@ -9,7 +9,8 @@ Purpose: event-first map of Freeman falsifiable stances — restatements, shifts
 
 ## israel_self_destruction_trajectory
 
-**Question:** Is Israel on a self-destructive trajectory (international isolation, moral authority loss, military overextension) through 2025-12-31?  
+**Question:** Is Israel on a self-destructive trajectory (international isolation, moral authority loss, military overextension)?  
+**Horizon (Freeman):** source-archive/statecraft/2025-01-07/source-judging-freedom-amb-chas-freeman-is-israel-destroying-itself-2025-01-07.md — Israel is in the...  
 **Event status:** open · **Freeman latest:** yes (2026-06-06) · **Arc:** 15 touchpoints · 0 shifts · 7 restatements · 0 reviews
 
 **Resolution stub:** [../../notes/wire/prediction-resolution-israel-self-destruction-trajectory.md](../../notes/wire/prediction-resolution-israel-self-destruction-trajectory.md)
@@ -42,7 +43,8 @@ Purpose: event-first map of Freeman falsifiable stances — restatements, shifts
 
 ## ukraine_escalation_russian_capitulation
 
-**Question:** Will Trump's Kellogg-style escalation-to-deescalate produce Russian capitulation in Ukraine negotiations before 2025-12-31?  
+**Question:** Will Trump's Kellogg-style escalation-to-deescalate produce Russian capitulation in Ukraine negotiations?  
+**Horizon (Freeman):** source-archive/statecraft/2025-01-10/source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md — Kellogg esc...  
 **Event status:** resolved · **Outcome:** no · **Freeman latest:** no (2026-04-03) · **Arc:** 4 touchpoints · 0 shifts · 3 restatements · 0 reviews
 
 **Resolution stub:** [../../notes/wire/prediction-resolution-ukraine-escalation-russian-capitulation.md](../../notes/wire/prediction-resolution-ukraine-escalation-russian-capitulation.md)
@@ -64,7 +66,8 @@ Purpose: event-first map of Freeman falsifiable stances — restatements, shifts
 
 ## gaza_hostage_deal_jan_2025
 
-**Question:** Will a Gaza hostage-exchange ceasefire deal be reached by 2025-01-31?  
+**Question:** Will a Gaza hostage-exchange ceasefire deal be reached?  
+**Closure trigger:** Phase-1 hostage / ceasefire deal publicly reached and implemented.  
 **Event status:** resolved · **Outcome:** yes · **Freeman latest:** yes (2025-01-14) · **Arc:** 1 touchpoints · 0 shifts · 0 restatements · 0 reviews
 
 **Resolution stub:** [../../notes/wire/prediction-resolution-gaza-hostage-deal-jan-2025.md](../../notes/wire/prediction-resolution-gaza-hostage-deal-jan-2025.md)
@@ -83,7 +86,8 @@ Purpose: event-first map of Freeman falsifiable stances — restatements, shifts
 
 ## gaza_ceasefire_holds_2025
 
-**Question:** Will the Jan 2025 Gaza arrangement hold as a durable ceasefire (not merely a temporary pause) through 2025-12-31?  
+**Question:** Will the Jan 2025 Gaza arrangement hold as a durable ceasefire (not merely a temporary pause)?  
+**Closure trigger:** Fighting resumes at scale or arrangement treated as pause-only (Freeman Jan 21 pause-not-ceasefire framing).  
 **Event status:** open · **Freeman latest:** no (2025-10-10) · **Arc:** 2 touchpoints · 0 shifts · 0 restatements · 1 reviews
 
 **Resolution stub:** [../../notes/wire/prediction-resolution-gaza-ceasefire-holds-2025.md](../../notes/wire/prediction-resolution-gaza-ceasefire-holds-2025.md)
@@ -103,7 +107,8 @@ Purpose: event-first map of Freeman falsifiable stances — restatements, shifts
 
 ## us_israel_iran_war_preparation_2025
 
-**Question:** Were Israel and Iran actively preparing for direct war (force posture, threats, procurement) during H1 2025?  
+**Question:** Are Israel and Iran actively preparing for direct war (force posture, threats, procurement)?  
+**Horizon (Freeman):** source-archive/statecraft/2025-01-21/source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md — Are Israel and Iran a...  
 **Event status:** open · **Freeman latest:** yes (2026-02-24) · **Arc:** 7 touchpoints · 0 shifts · 5 restatements · 0 reviews
 
 **Resolution stub:** [../../notes/wire/prediction-resolution-us-israel-iran-war-preparation-2025.md](../../notes/wire/prediction-resolution-us-israel-iran-war-preparation-2025.md)
@@ -128,7 +133,8 @@ Purpose: event-first map of Freeman falsifiable stances — restatements, shifts
 
 ## iran_great_power_direct_war_entry
 
-**Question:** Will Russia or China directly enter a US-Iran war on Iran's side (combat forces, not arms/tech transfers alone) before 2025-12-31?  
+**Question:** Will Russia or China directly enter a US-Iran war on Iran's side (combat forces, not arms/tech transfers alone)?  
+**Horizon (Freeman):** source-archive/statecraft/2025-03-28/source-dialogue-works-amb-chas-freeman-will-iran-get-backup-from-russia-and-china-against-the-u-s-20...  
 **Event status:** open · **Freeman latest:** uncertain (2026-04-28) · **Arc:** 2 touchpoints · 1 shifts · 0 restatements · 0 reviews
 
 **Resolution stub:** [../../notes/wire/prediction-resolution-iran-great-power-direct-war-entry.md](../../notes/wire/prediction-resolution-iran-great-power-direct-war-entry.md)
@@ -148,7 +154,8 @@ Purpose: event-first map of Freeman falsifiable stances — restatements, shifts
 
 ## china_tariff_capitulation_2025
 
-**Question:** Will China capitulate to Trump's tariff pressure (major substantive yield, not cosmetic) before 2025-12-31?  
+**Question:** Will China capitulate to Trump's tariff pressure (major substantive yield, not cosmetic)?  
+**Horizon (Freeman):** source-archive/statecraft/2025-04-22/source-judging-freedom-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md — There w...  
 **Event status:** open · **Freeman latest:** no (2026-03-17) · **Arc:** 5 touchpoints · 0 shifts · 3 restatements · 0 reviews
 
 **Resolution stub:** [../../notes/wire/prediction-resolution-china-tariff-capitulation-2025.md](../../notes/wire/prediction-resolution-china-tariff-capitulation-2025.md)

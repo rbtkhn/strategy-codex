@@ -18,16 +18,16 @@ links:
 
 WORK only; not Record.
 
-**Event question:** Is Israel on a self-destructive trajectory (international isolation, moral authority loss, military overextension) through 2025-12-31?  
-**Resolution criteria:** Operator judgment at close: **yes** if isolation, overextension, and domestic-strain indicators materially worsened through the window; **no** if broad stabilization or normalization. Document `resolution_source`.  
+**Event question:** Is Israel on a self-destructive trajectory (international isolation, moral authority loss, military overextension)?  
+**Resolution criteria:** Operator judgment: **yes** if isolation, overextension, and domestic-strain indicators materially worsened; **no** if broad stabilization or normalization. Document `resolution_source`.  
 **Freeman arc:** [freeman-predictions.md#israel_self_destruction_trajectory](../voices/freeman/freeman-predictions.md#israel_self_destruction_trajectory)  
-**Status:** open · **Outcome:** null · **Close date:** 2025-12-31
+**Status:** open · **Outcome:** null · **Horizon:** Freeman ongoing trajectory (no calendar close)
 
 ## Closure hooks (tier 3)
 
 | ID | Hook (checkable) | Skill | Verdict | Cite / matrix ref |
 | --- | --- | --- | --- | --- |
-| R1 | **Composite:** isolation + moral-authority loss + overextension **materially worsened** through 2025-12-31 | news-verify | | Operator grades vs registry criteria at close |
+| R1 | **Composite:** isolation + moral-authority loss + overextension **materially worsened** | news-verify | | Operator grades vs registry criteria when closing |
 | R2 | Diplomatic isolation / ally distance / pariah trend vs start of window | news-verify / fact-check | | UN votes, recognition moves, aid conditionality |
 | R3 | Multi-front military overextension or sustained operational strain | news-verify | | Gaza + Lebanon + regional posture evidence |
 | R4 | Domestic political / social strain materially increased | news-verify | | Elections, protests, coalition instability — wire at close |

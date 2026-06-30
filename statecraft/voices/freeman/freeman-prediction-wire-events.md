@@ -8,15 +8,15 @@ Operator index for the **seven-event Freeman prediction pilot**: falsifiable que
 
 ## Event map (pilot order)
 
-| event_id | Status | Close | Wire resolution stub | Register / bridge | Shelf |
+| event_id | Status | Horizon / closure | Wire resolution stub | Register / bridge | Shelf |
 | --- | --- | --- | --- | --- | --- |
-| `israel_self_destruction_trajectory` | open | 2025-12-31 | [prediction-resolution-israel-self-destruction-trajectory.md](../../notes/wire/prediction-resolution-israel-self-destruction-trajectory.md) | [Israel trajectory register](../../notes/2025-freeman-israel-trajectory-register.md) | [§ israel](freeman-predictions.md#israel_self_destruction_trajectory) |
-| `ukraine_escalation_russian_capitulation` | resolved · **no** | 2025-12-31 | [prediction-resolution-ukraine-escalation-russian-capitulation.md](../../notes/wire/prediction-resolution-ukraine-escalation-russian-capitulation.md) | — | [§ ukraine](freeman-predictions.md#ukraine_escalation_russian_capitulation) |
-| `gaza_hostage_deal_jan_2025` | resolved · **yes** | 2025-01-31 | [prediction-resolution-gaza-hostage-deal-jan-2025.md](../../notes/wire/prediction-resolution-gaza-hostage-deal-jan-2025.md) | — | [§ hostage](freeman-predictions.md#gaza_hostage_deal_jan_2025) |
-| `gaza_ceasefire_holds_2025` | open | 2025-12-31 | [prediction-resolution-gaza-ceasefire-holds-2025.md](../../notes/wire/prediction-resolution-gaza-ceasefire-holds-2025.md) | [IGL Gaza ceasefire register](../../notes/2025-freeman-igl-gaza-ceasefire-register.md) | [§ ceasefire](freeman-predictions.md#gaza_ceasefire_holds_2025) |
-| `us_israel_iran_war_preparation_2025` | open | 2025-06-30 | [prediction-resolution-us-israel-iran-war-preparation-2025.md](../../notes/wire/prediction-resolution-us-israel-iran-war-preparation-2025.md) | [IGL Iran war push register](../../notes/2025-freeman-igl-iran-war-push-register.md) | [§ iran prep](freeman-predictions.md#us_israel_iran_war_preparation_2025) |
-| `iran_great_power_direct_war_entry` | open | 2025-12-31 | [prediction-resolution-iran-great-power-direct-war-entry.md](../../notes/wire/prediction-resolution-iran-great-power-direct-war-entry.md) | — · related: `us_israel_iran_war_preparation_2025` | [§ great-power](freeman-predictions.md#iran_great_power_direct_war_entry) |
-| `china_tariff_capitulation_2025` | open | 2025-12-31 | [prediction-resolution-china-tariff-capitulation-2025.md](../../notes/wire/prediction-resolution-china-tariff-capitulation-2025.md) | — | [§ china tariff](freeman-predictions.md#china_tariff_capitulation_2025) |
+| `israel_self_destruction_trajectory` | open | Ongoing trajectory (Jan 7) | [prediction-resolution-israel-self-destruction-trajectory.md](../../notes/wire/prediction-resolution-israel-self-destruction-trajectory.md) | [Israel trajectory register](../../notes/2025-freeman-israel-trajectory-register.md) | [§ israel](freeman-predictions.md#israel_self_destruction_trajectory) |
+| `ukraine_escalation_russian_capitulation` | resolved · **no** | Kellogg negation (Jan 10) | [prediction-resolution-ukraine-escalation-russian-capitulation.md](../../notes/wire/prediction-resolution-ukraine-escalation-russian-capitulation.md) | — | [§ ukraine](freeman-predictions.md#ukraine_escalation_russian_capitulation) |
+| `gaza_hostage_deal_jan_2025` | resolved · **yes** | Deal reached (wire Jan 21) | [prediction-resolution-gaza-hostage-deal-jan-2025.md](../../notes/wire/prediction-resolution-gaza-hostage-deal-jan-2025.md) | — | [§ hostage](freeman-predictions.md#gaza_hostage_deal_jan_2025) |
+| `gaza_ceasefire_holds_2025` | open | Pause-not-ceasefire; resume trigger | [prediction-resolution-gaza-ceasefire-holds-2025.md](../../notes/wire/prediction-resolution-gaza-ceasefire-holds-2025.md) | [IGL Gaza ceasefire register](../../notes/2025-freeman-igl-gaza-ceasefire-register.md) | [§ ceasefire](freeman-predictions.md#gaza_ceasefire_holds_2025) |
+| `us_israel_iran_war_preparation_2025` | open | Active prep (Jan 21) | [prediction-resolution-us-israel-iran-war-preparation-2025.md](../../notes/wire/prediction-resolution-us-israel-iran-war-preparation-2025.md) | [IGL Iran war push register](../../notes/2025-freeman-igl-iran-war-push-register.md) | [§ iran prep](freeman-predictions.md#us_israel_iran_war_preparation_2025) |
+| `iran_great_power_direct_war_entry` | open | No direct entry (Mar 28) | [prediction-resolution-iran-great-power-direct-war-entry.md](../../notes/wire/prediction-resolution-iran-great-power-direct-war-entry.md) | — · related: `us_israel_iran_war_preparation_2025` | [§ great-power](freeman-predictions.md#iran_great_power_direct_war_entry) |
+| `china_tariff_capitulation_2025` | open | No capitulation (Apr 22) | [prediction-resolution-china-tariff-capitulation-2025.md](../../notes/wire/prediction-resolution-china-tariff-capitulation-2025.md) | — | [§ china tariff](freeman-predictions.md#china_tariff_capitulation_2025) |
 
 **Related pairs (thesis map):** Iran war prep ↔ great-power direct entry — score lanes separately; use `title_conflict_patterns` and register strictness so bridge captures do not bleed.
 
@@ -53,6 +53,6 @@ python3 scripts/check_freeman_predictions.py
 
 ## Stub checklist (operator)
 
-- [ ] Open events graded at `close_date` with wire receipts in stub hooks
+- [ ] Open events graded at Freeman **closure trigger** with wire receipts in stub hooks
 - [ ] Registry rows updated after each resolution decision
 - [ ] Auto-file calibration re-run after hook/config changes

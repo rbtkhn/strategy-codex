@@ -28,7 +28,21 @@ A **prediction note** lives under [`statecraft/notes/predictions/`](../../statec
 
 ## Optional event fields
 
-`category`, `start_date`, `close_date`, `outcome`, `resolved_date`, `resolution_source`
+`category`, `start_date`, `close_date`, `outcome`, `resolved_date`, `resolution_source`, `horizon_type`, `horizon_cite`, `closure_trigger`
+
+## Event horizons (voice-sourced only)
+
+Do **not** embed operator calendar windows in `question` text (year-end pilots, H1 slices, news-cycle deadlines) unless the **voice explicitly stated that date** in the source capture.
+
+| Field | When to use |
+| --- | --- |
+| `close_date` | Only when the voice **named a calendar date** in speech for the falsifier. Otherwise `null`. |
+| `closure_trigger` | When the voice gave an **event-closure condition** (e.g. resume fighting, deal reached) without a calendar end. |
+| `horizon_type` | `none` · `freeman_date` · `freeman_event_closure` — audit label for Freeman pilot rows. |
+| `horizon_cite` | Archive path + short quote stub documenting the horizon source. |
+| `resolved_date` | When the operator or wire **judged** the outcome, or when an **observable event** occurred — not a stand-in for a voice deadline that was never spoken. |
+
+Pilot convenience windows are **forbidden** in registry questions.
 
 ## Allowed statuses
 

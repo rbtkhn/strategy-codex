@@ -8,7 +8,6 @@
   "gaza_hostage_deal_jan_2025": {
     "title_patterns": ["hostage", "hostage-exchange", "ceasefire deal", "phase-1", "phase 1", "deal likely", "netanyahu on the ropes"],
     "register_notes": [],
-    "close_date_gate": "2025-01-31",
     "exclude_patterns": ["won't last", "won't hold", "pause", "take control of gaza", "takeover of gaza", "silent hell", "genocide"]
   },
   "us_israel_iran_war_preparation_2025": {

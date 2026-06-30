@@ -139,6 +139,17 @@ def render_event_section(
         "",
         f"**Question:** {event.get('question', '')}  ",
     ]
+    closure = event.get("closure_trigger")
+    if closure:
+        lines.append(f"**Closure trigger:** {closure}  ")
+    elif event.get("horizon_cite"):
+        cite = str(event.get("horizon_cite") or "")
+        if len(cite) > 140:
+            cite = cite[:137] + "..."
+        lines.append(f"**Horizon (Freeman):** {cite}  ")
+    close = event.get("close_date")
+    if close:
+        lines.append(f"**Close date:** {close}  ")
     header = f"**Event status:** {status}"
     if outcome is not None:
         header += f" · **Outcome:** {outcome}"
