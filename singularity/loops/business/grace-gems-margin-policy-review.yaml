@@ -1,0 +1,29 @@
+loop:
+  id: grace-gems-margin-policy-review
+  category: business
+  trigger:
+    type: event
+    description: New or revised Grace Gems listing requires margin, fee, originality, and policy review before publication or promotion
+  inputs:
+    - description: Draft listing, photos, materials cost, labor estimate, shipping assumptions, and target shop (GraceGemsUS or GioielloHandcrafted) from singularity/business/grace-gems/listings/drafts/
+    - description: Etsy fee policy, Creativity Standards, and shop-specific customer promise rules from singularity/business/grace-gems/STRATEGIC-PLAN.md and listings/review/listing-review-template.md
+    - description: Dual-shop routing fields (target_shop, buyer_intent, price_band, customization_level, brand_fit_score)
+  process:
+    steps:
+      - description: Estimate gross margin under base Etsy sale, Etsy Ads, and Offsite Ads scenarios
+      - description: Verify human-touch evidence, original final-product photo or video, production partner disclosure, and AI disclosure if applicable
+      - description: Check gemstone, metal, customization, shipping, and return claims for clarity using customer-promise checklist
+      - description: Score listing quality (0–100) and classify as publish, revise, hold, or reject
+      - description: Record publish decision and feed approved listings to marketplace-ops; return revise or hold items to product pipeline
+  outputs:
+    - description: Listing margin note
+    - description: Etsy policy compliance note
+    - description: Listing quality score
+    - description: Publish / revise / hold decision
+  state:
+    status: active
+  dependencies:
+    - loop_id: grace-gems-product-pipeline
+  last_run: null
+  output_shelves:
+    - singularity/business/grace-gems/listings/review/

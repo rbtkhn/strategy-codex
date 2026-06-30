@@ -44,16 +44,21 @@ Current phase: **declare → validate → surface attention → produce action c
 | `spine-health-check` | research | singularity/workshop/longitudinal/ |
 | `work-cici-daily-ops` | projects | singularity/work-cici/ |
 | `predictive-history-education` | projects | singularity/education/predictive-history/ (lecture-first; AI media now; generative video per lecture as target) |
+| `grace-gems-product-pipeline` | business | singularity/business/grace-gems/products/, listings/drafts/, listings/photo-checklists/ |
+| `grace-gems-margin-policy-review` | business | singularity/business/grace-gems/listings/review/ |
 | `grace-gems-marketplace-ops` | business | singularity/business/grace-gems/ops/ |
-| `grace-gems-product-pipeline` | business | singularity/business/grace-gems/products/, listings/ |
+| `grace-gems-search-conversion-review` | business | singularity/business/grace-gems/listings/search-conversion/ |
 | `grace-gems-customer-service` | business | singularity/business/grace-gems/customer-service/ |
+| `grace-gems-customer-promise-audit` | business | singularity/business/grace-gems/customer-service/promise-audits/ |
 | `mountain-homestead-ops` | business | singularity/business/mountain-homestead/ops/ |
 | `mountain-homestead-maintenance` | business | singularity/business/mountain-homestead/maintenance/ |
 | `mountain-homestead-seasonal-readiness` | business | singularity/business/mountain-homestead/seasonal-readiness/ |
 
-**Hard dependencies:** `grace-gems-product-pipeline` → `grace-gems-marketplace-ops`; homestead chain `ops → maintenance → seasonal-readiness`.
+**Hard dependencies (Grace Gems):** `grace-gems-product-pipeline` → `grace-gems-margin-policy-review`; `grace-gems-marketplace-ops` → `grace-gems-search-conversion-review`; `grace-gems-customer-service` → `grace-gems-customer-promise-audit`.
 
-**Soft feed:** `grace-gems-customer-service` has no schema dependency on marketplace-ops; unresolved CS issues feed the daily ops card (documented in [`singularity/business/grace-gems/README.md`](../../singularity/business/grace-gems/README.md)).
+**Hard dependencies (homestead):** `mountain-homestead-ops` → `mountain-homestead-maintenance` → `mountain-homestead-seasonal-readiness`.
+
+**Soft feeds (Grace Gems):** margin-policy-review → marketplace-ops (approved listings); search-conversion-review → product-pipeline (experiments); customer-promise-audit → margin-policy-review (corrections); customer-service → marketplace-ops (unresolved issues). Full graph: [`singularity/business/grace-gems/README.md`](../../singularity/business/grace-gems/README.md).
 
 ## Loop schema
 

@@ -2,14 +2,17 @@
   "_meta": {
     "generated": true,
     "do_not_edit": false,
-    "source": "tests/test_singularity_loops.py"
+    "source": "scripts/run_singularity_loops.py --status"
   },
   "pending_loops": [],
   "blocked_loops": [],
   "attention_required": [
+    "grace-gems-customer-promise-audit",
     "grace-gems-customer-service",
+    "grace-gems-margin-policy-review",
     "grace-gems-marketplace-ops",
     "grace-gems-product-pipeline",
+    "grace-gems-search-conversion-review",
     "innermost-loop-capture",
     "moonshots-synthesis-watch",
     "mountain-homestead-maintenance",

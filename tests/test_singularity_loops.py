@@ -24,7 +24,10 @@ NEW_OPERATING_LOOP_IDS = frozenset(
         "predictive-history-education",
         "grace-gems-marketplace-ops",
         "grace-gems-product-pipeline",
+        "grace-gems-margin-policy-review",
+        "grace-gems-search-conversion-review",
         "grace-gems-customer-service",
+        "grace-gems-customer-promise-audit",
         "mountain-homestead-ops",
         "mountain-homestead-maintenance",
         "mountain-homestead-seasonal-readiness",
@@ -34,7 +37,7 @@ NEW_OPERATING_LOOP_IDS = frozenset(
 
 def test_build_registry_shape() -> None:
     payload = lib.build_registry_payload()
-    assert len(payload["loops"]) == 12
+    assert len(payload["loops"]) == 15
     ids = {row["id"] for row in payload["loops"]}
     assert NEW_OPERATING_LOOP_IDS <= ids
     assert {

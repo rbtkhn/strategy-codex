@@ -8,12 +8,16 @@ loop:
   inputs:
     - description: Etsy shop dashboards for GraceGemsUS (etsy.com/shop/GraceGemsUS) and GioielloHandcrafted (etsy.com/shop/GioielloHandcrafted) — orders, messages, listing status, traffic, and sales
     - description: Current product catalog and pricing sheet
+    - description: Approved listings and publish decisions from singularity/business/grace-gems/listings/review/ (grace-gems-margin-policy-review output)
+    - description: Search-conversion experiment queue from grace-gems-search-conversion-review (soft feed)
     - description: Customer service queue and open issues from grace-gems-customer-service (soft feed; see singularity/business/grace-gems/README.md)
     - description: Doctrine and playbooks at docs/skill-work/work-business/grace-gems/ (monthly review, workflow reminders)
   process:
     steps:
       - description: Check open orders, overdue shipments, buyer messages, and shop alerts on both storefronts
+      - description: Publish or update only listings that cleared margin-policy review; flag drafts awaiting review gate
       - description: Identify listings needing renewal, photo updates, SEO edits, price checks, or inventory correction (note which shop)
+      - description: Do not promote or advertise listings with quality score below 75
       - description: Produce a short action list ranked by urgency and revenue impact
       - description: Record completed actions and unresolved blockers
   outputs:

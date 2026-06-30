@@ -1,0 +1,29 @@
+loop:
+  id: grace-gems-search-conversion-review
+  category: business
+  trigger:
+    type: time
+    schedule: weekly
+    description: Weekly Etsy search and conversion review for active Grace Gems listings across both storefronts
+  inputs:
+    - description: Etsy search visibility, listing views, favorites, conversion data, search terms, and shop traffic for GraceGemsUS and GioielloHandcrafted
+    - description: Active listing titles, tags, categories, attributes, photos, and descriptions
+    - description: Listing quality score rubric at singularity/business/grace-gems/listings/search-conversion/listing-quality-score.md
+  process:
+    steps:
+      - description: Identify high-view low-conversion listings
+      - description: Identify low-view listings with strong margin or product-market potential
+      - description: Check title, tags, attributes, first image, price, shipping, and customer promise
+      - description: Produce ranked SEO and conversion experiments for the next week; do not recommend ads for listings scoring below 75
+      - description: Record before metrics for listings changed; soft-feed experiment queue to product pipeline
+  outputs:
+    - description: Weekly search and conversion review
+    - description: Listing experiment queue
+    - description: Before / after metrics for changed listings
+  state:
+    status: active
+  dependencies:
+    - loop_id: grace-gems-marketplace-ops
+  last_run: null
+  output_shelves:
+    - singularity/business/grace-gems/listings/search-conversion/

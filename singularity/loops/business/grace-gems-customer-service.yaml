@@ -6,17 +6,21 @@ loop:
     description: New buyer message, order issue, review, return request, or shipping problem on either Grace Gems Etsy shop
   inputs:
     - description: Buyer messages, reviews, order records, shipping status, and shop policies for GraceGemsUS and GioielloHandcrafted
-    - description: Approved response templates from docs/skill-work/work-business/grace-gems/
+    - description: Approved response templates from docs/skill-work/work-business/grace-gems/ and singularity/business/grace-gems/customer-service/templates/
+    - description: Customer-promise checklist at singularity/business/grace-gems/customer-service/promise-audits/customer-promise-checklist.md
   process:
     steps:
       - description: Classify the issue as pre-sale, order status, customization, shipping, return, review, or complaint
+      - description: Assign root cause (listing unclear, photo misleading, customization ambiguous, shipping timing, quality concern, buyer expectation mismatch)
       - description: Draft a response that protects reputation while preserving margin and policy consistency
+      - description: Route listing-caused root causes to correction queue for promise-audit and margin-policy-review shelves
       - description: Escalate edge cases requiring owner decision
-      - description: Record issue type, shop (GraceGemsUS or GioielloHandcrafted), and resolution for pattern detection; unresolved items soft-feed grace-gems-marketplace-ops daily card
+      - description: Record issue type, root cause, shop (GraceGemsUS or GioielloHandcrafted), and resolution for pattern detection; unresolved items soft-feed grace-gems-marketplace-ops daily card
   outputs:
     - description: Draft customer response
-    - description: Updated customer issue log
+    - description: Updated customer issue log with root-cause classification
     - description: Reputation risk note when needed
+    - description: Listing correction hints for promise-audit loop
   state:
     status: active
   dependencies: []

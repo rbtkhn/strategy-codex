@@ -10,21 +10,24 @@ loop:
     - description: Prior sales and traffic data per shop (GraceGemsUS, GioielloHandcrafted)
     - description: Competitor and marketplace trend observations
     - description: Business context at docs/skill-work/work-business/grace-gems/ (not loop output SSOT)
+    - description: Strategic positioning at singularity/business/grace-gems/STRATEGIC-PLAN.md (custom natural gemstone center; lab-grown only with clear promise)
+    - description: Search-conversion experiment queue from grace-gems-search-conversion-review (soft feed)
   process:
     steps:
-      - description: Select products and target shop (GraceGemsUS or GioielloHandcrafted) to photograph, list, relist, bundle, retire, or improve
-      - description: Generate or revise title, description, tags, pricing, and photos checklist
+      - description: Select products and assign dual-shop routing (target_shop, why_this_shop, buyer_intent, price_band, customization_level, inventory_type, brand_fit_score)
+      - description: Generate or revise title, description, tags, pricing, and photos checklist; write drafts to listings/drafts/
       - description: Prioritize products by expected margin, demand, uniqueness, and ease of fulfillment
+      - description: Route all new or revised drafts through grace-gems-margin-policy-review before publish; do not publish without gate approval
       - description: Produce weekly listing plan
   outputs:
     - description: Weekly Grace Gems product pipeline
-    - description: Listing copy drafts
+    - description: Listing copy drafts (listings/drafts/)
     - description: Photo checklist and inventory notes
   state:
     status: active
-  dependencies:
-    - loop_id: grace-gems-marketplace-ops
+  dependencies: []
   last_run: null
   output_shelves:
     - singularity/business/grace-gems/products/
-    - singularity/business/grace-gems/listings/
+    - singularity/business/grace-gems/listings/drafts/
+    - singularity/business/grace-gems/listings/photo-checklists/

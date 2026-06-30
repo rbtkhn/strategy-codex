@@ -6,6 +6,63 @@
   },
   "loops": [
     {
+      "id": "grace-gems-customer-promise-audit",
+      "category": "business",
+      "trigger": {
+        "type": "time",
+        "schedule": "weekly",
+        "description": "Weekly audit of Grace Gems listings for buyer expectation clarity and customer-service risk"
+      },
+      "inputs": [
+        {
+          "description": "Active listings, recent buyer messages, reviews, returns, and unresolved customer issues from grace-gems-customer-service"
+        },
+        {
+          "description": "Customer-promise checklist at singularity/business/grace-gems/customer-service/promise-audits/customer-promise-checklist.md"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Identify listings that generated questions, confusion, delays, or expectation mismatches"
+          },
+          {
+            "description": "Map each issue to listing copy, photo, variation, shipping, customization, or policy root cause"
+          },
+          {
+            "description": "Draft listing corrections or FAQ additions"
+          },
+          {
+            "description": "Prioritize fixes by revenue impact and reputation risk; soft-feed corrections to margin-policy-review and product pipeline"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Customer-promise audit note"
+        },
+        {
+          "description": "Listing correction queue"
+        },
+        {
+          "description": "FAQ or response-template update"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "grace-gems-customer-service"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/business/grace-gems/customer-service/promise-audits/"
+      ],
+      "source_file": "singularity/loops/business/grace-gems-customer-promise-audit.yaml"
+    },
+    {
       "id": "grace-gems-customer-service",
       "category": "business",
       "trigger": {
@@ -17,7 +74,10 @@
           "description": "Buyer messages, reviews, order records, shipping status, and shop policies for GraceGemsUS and GioielloHandcrafted"
         },
         {
-          "description": "Approved response templates from docs/skill-work/work-business/grace-gems/"
+          "description": "Approved response templates from docs/skill-work/work-business/grace-gems/ and singularity/business/grace-gems/customer-service/templates/"
+        },
+        {
+          "description": "Customer-promise checklist at singularity/business/grace-gems/customer-service/promise-audits/customer-promise-checklist.md"
         }
       ],
       "process": {
@@ -26,13 +86,19 @@
             "description": "Classify the issue as pre-sale, order status, customization, shipping, return, review, or complaint"
           },
           {
+            "description": "Assign root cause (listing unclear, photo misleading, customization ambiguous, shipping timing, quality concern, buyer expectation mismatch)"
+          },
+          {
             "description": "Draft a response that protects reputation while preserving margin and policy consistency"
+          },
+          {
+            "description": "Route listing-caused root causes to correction queue for promise-audit and margin-policy-review shelves"
           },
           {
             "description": "Escalate edge cases requiring owner decision"
           },
           {
-            "description": "Record issue type, shop (GraceGemsUS or GioielloHandcrafted), and resolution for pattern detection; unresolved items soft-feed grace-gems-marketplace-ops daily card"
+            "description": "Record issue type, root cause, shop (GraceGemsUS or GioielloHandcrafted), and resolution for pattern detection; unresolved items soft-feed grace-gems-marketplace-ops daily card"
           }
         ]
       },
@@ -41,10 +107,13 @@
           "description": "Draft customer response"
         },
         {
-          "description": "Updated customer issue log"
+          "description": "Updated customer issue log with root-cause classification"
         },
         {
           "description": "Reputation risk note when needed"
+        },
+        {
+          "description": "Listing correction hints for promise-audit loop"
         }
       ],
       "state": {
@@ -56,6 +125,71 @@
         "singularity/business/grace-gems/customer-service/"
       ],
       "source_file": "singularity/loops/business/grace-gems-customer-service.yaml"
+    },
+    {
+      "id": "grace-gems-margin-policy-review",
+      "category": "business",
+      "trigger": {
+        "type": "event",
+        "description": "New or revised Grace Gems listing requires margin, fee, originality, and policy review before publication or promotion"
+      },
+      "inputs": [
+        {
+          "description": "Draft listing, photos, materials cost, labor estimate, shipping assumptions, and target shop (GraceGemsUS or GioielloHandcrafted) from singularity/business/grace-gems/listings/drafts/"
+        },
+        {
+          "description": "Etsy fee policy, Creativity Standards, and shop-specific customer promise rules from singularity/business/grace-gems/STRATEGIC-PLAN.md and listings/review/listing-review-template.md"
+        },
+        {
+          "description": "Dual-shop routing fields (target_shop, buyer_intent, price_band, customization_level, brand_fit_score)"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Estimate gross margin under base Etsy sale, Etsy Ads, and Offsite Ads scenarios"
+          },
+          {
+            "description": "Verify human-touch evidence, original final-product photo or video, production partner disclosure, and AI disclosure if applicable"
+          },
+          {
+            "description": "Check gemstone, metal, customization, shipping, and return claims for clarity using customer-promise checklist"
+          },
+          {
+            "description": "Score listing quality (0–100) and classify as publish, revise, hold, or reject"
+          },
+          {
+            "description": "Record publish decision and feed approved listings to marketplace-ops; return revise or hold items to product pipeline"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Listing margin note"
+        },
+        {
+          "description": "Etsy policy compliance note"
+        },
+        {
+          "description": "Listing quality score"
+        },
+        {
+          "description": "Publish / revise / hold decision"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "grace-gems-product-pipeline"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/business/grace-gems/listings/review/"
+      ],
+      "source_file": "singularity/loops/business/grace-gems-margin-policy-review.yaml"
     },
     {
       "id": "grace-gems-marketplace-ops",
@@ -73,6 +207,12 @@
           "description": "Current product catalog and pricing sheet"
         },
         {
+          "description": "Approved listings and publish decisions from singularity/business/grace-gems/listings/review/ (grace-gems-margin-policy-review output)"
+        },
+        {
+          "description": "Search-conversion experiment queue from grace-gems-search-conversion-review (soft feed)"
+        },
+        {
           "description": "Customer service queue and open issues from grace-gems-customer-service (soft feed; see singularity/business/grace-gems/README.md)"
         },
         {
@@ -85,7 +225,13 @@
             "description": "Check open orders, overdue shipments, buyer messages, and shop alerts on both storefronts"
           },
           {
+            "description": "Publish or update only listings that cleared margin-policy review; flag drafts awaiting review gate"
+          },
+          {
             "description": "Identify listings needing renewal, photo updates, SEO edits, price checks, or inventory correction (note which shop)"
+          },
+          {
+            "description": "Do not promote or advertise listings with quality score below 75"
           },
           {
             "description": "Produce a short action list ranked by urgency and revenue impact"
@@ -136,18 +282,27 @@
         },
         {
           "description": "Business context at docs/skill-work/work-business/grace-gems/ (not loop output SSOT)"
+        },
+        {
+          "description": "Strategic positioning at singularity/business/grace-gems/STRATEGIC-PLAN.md (custom natural gemstone center; lab-grown only with clear promise)"
+        },
+        {
+          "description": "Search-conversion experiment queue from grace-gems-search-conversion-review (soft feed)"
         }
       ],
       "process": {
         "steps": [
           {
-            "description": "Select products and target shop (GraceGemsUS or GioielloHandcrafted) to photograph, list, relist, bundle, retire, or improve"
+            "description": "Select products and assign dual-shop routing (target_shop, why_this_shop, buyer_intent, price_band, customization_level, inventory_type, brand_fit_score)"
           },
           {
-            "description": "Generate or revise title, description, tags, pricing, and photos checklist"
+            "description": "Generate or revise title, description, tags, pricing, and photos checklist; write drafts to listings/drafts/"
           },
           {
             "description": "Prioritize products by expected margin, demand, uniqueness, and ease of fulfillment"
+          },
+          {
+            "description": "Route all new or revised drafts through grace-gems-margin-policy-review before publish; do not publish without gate approval"
           },
           {
             "description": "Produce weekly listing plan"
@@ -159,10 +314,71 @@
           "description": "Weekly Grace Gems product pipeline"
         },
         {
-          "description": "Listing copy drafts"
+          "description": "Listing copy drafts (listings/drafts/)"
         },
         {
           "description": "Photo checklist and inventory notes"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/business/grace-gems/products/",
+        "singularity/business/grace-gems/listings/drafts/",
+        "singularity/business/grace-gems/listings/photo-checklists/"
+      ],
+      "source_file": "singularity/loops/business/grace-gems-product-pipeline.yaml"
+    },
+    {
+      "id": "grace-gems-search-conversion-review",
+      "category": "business",
+      "trigger": {
+        "type": "time",
+        "schedule": "weekly",
+        "description": "Weekly Etsy search and conversion review for active Grace Gems listings across both storefronts"
+      },
+      "inputs": [
+        {
+          "description": "Etsy search visibility, listing views, favorites, conversion data, search terms, and shop traffic for GraceGemsUS and GioielloHandcrafted"
+        },
+        {
+          "description": "Active listing titles, tags, categories, attributes, photos, and descriptions"
+        },
+        {
+          "description": "Listing quality score rubric at singularity/business/grace-gems/listings/search-conversion/listing-quality-score.md"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Identify high-view low-conversion listings"
+          },
+          {
+            "description": "Identify low-view listings with strong margin or product-market potential"
+          },
+          {
+            "description": "Check title, tags, attributes, first image, price, shipping, and customer promise"
+          },
+          {
+            "description": "Produce ranked SEO and conversion experiments for the next week; do not recommend ads for listings scoring below 75"
+          },
+          {
+            "description": "Record before metrics for listings changed; soft-feed experiment queue to product pipeline"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Weekly search and conversion review"
+        },
+        {
+          "description": "Listing experiment queue"
+        },
+        {
+          "description": "Before / after metrics for changed listings"
         }
       ],
       "state": {
@@ -175,10 +391,9 @@
       ],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/grace-gems/products/",
-        "singularity/business/grace-gems/listings/"
+        "singularity/business/grace-gems/listings/search-conversion/"
       ],
-      "source_file": "singularity/loops/business/grace-gems-product-pipeline.yaml"
+      "source_file": "singularity/loops/business/grace-gems-search-conversion-review.yaml"
     },
     {
       "id": "innermost-loop-capture",
