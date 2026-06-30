@@ -7,8 +7,6 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2025-06-21/source-india-global-left-push-war-iran-chas-freeman-2025-06-21.md
 speech_act: restated
-auto_file: true
-auto_file_score: 0.7
 ---
 
 WORK only; not Record.

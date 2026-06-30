@@ -7,8 +7,6 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2025-01-17/source-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md
 speech_act: restated
-auto_file: true
-auto_file_score: 0.3
 ---
 
 WORK only; not Record.

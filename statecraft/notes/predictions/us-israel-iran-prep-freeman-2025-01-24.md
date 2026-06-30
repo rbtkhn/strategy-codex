@@ -7,8 +7,6 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2025-01-24/source-dialogue-works-amb-chas-freeman-is-the-world-on-the-brink-of-total-chaos-2025-01-24.md
 speech_act: restated
-auto_file: true
-auto_file_score: 0.3
 ---
 
 WORK only; not Record.

@@ -1,7 +1,7 @@
 {
   "_meta": {
     "source": "scripts/calibrate_auto_file.py",
-    "generated_at": "2026-06-30T05:22:06Z",
+    "generated_at": "2026-06-30T05:24:41Z",
     "mode": "all_events",
     "gold_label": "manual_only (auto_file != true)"
   },
@@ -9,7 +9,7 @@
     "israel_self_destruction_trajectory": {
       "_meta": {
         "source": "scripts/calibrate_auto_file.py",
-        "generated_at": "2026-06-30T05:21:54Z",
+        "generated_at": "2026-06-30T05:24:01Z",
         "event_id": "israel_self_destruction_trajectory",
         "gold_label": "manual_only (auto_file != true)"
       },
@@ -95,7 +95,7 @@
     "ukraine_escalation_russian_capitulation": {
       "_meta": {
         "source": "scripts/calibrate_auto_file.py",
-        "generated_at": "2026-06-30T05:21:56Z",
+        "generated_at": "2026-06-30T05:24:08Z",
         "event_id": "ukraine_escalation_russian_capitulation",
         "gold_label": "manual_only (auto_file != true)"
       },
@@ -199,7 +199,7 @@
     "gaza_hostage_deal_jan_2025": {
       "_meta": {
         "source": "scripts/calibrate_auto_file.py",
-        "generated_at": "2026-06-30T05:21:58Z",
+        "generated_at": "2026-06-30T05:24:14Z",
         "event_id": "gaza_hostage_deal_jan_2025",
         "gold_label": "manual_only (auto_file != true)"
       },
@@ -271,7 +271,7 @@
     "gaza_ceasefire_holds_2025": {
       "_meta": {
         "source": "scripts/calibrate_auto_file.py",
-        "generated_at": "2026-06-30T05:22:00Z",
+        "generated_at": "2026-06-30T05:24:21Z",
         "event_id": "gaza_ceasefire_holds_2025",
         "gold_label": "manual_only (auto_file != true)"
       },
@@ -344,56 +344,62 @@
     "us_israel_iran_war_preparation_2025": {
       "_meta": {
         "source": "scripts/calibrate_auto_file.py",
-        "generated_at": "2026-06-30T05:22:02Z",
+        "generated_at": "2026-06-30T05:24:28Z",
         "event_id": "us_israel_iran_war_preparation_2025",
         "gold_label": "manual_only (auto_file != true)"
       },
       "gold": {
-        "count": 1,
+        "count": 7,
         "dates": [
-          "2025-01-21"
+          "2025-01-14",
+          "2025-01-17",
+          "2025-01-21",
+          "2025-01-24",
+          "2025-04-04",
+          "2025-06-21",
+          "2026-02-24"
         ]
       },
       "metrics": {
         "source_level": {
-          "precision": 0.14285714285714285,
+          "precision": 1.0,
           "recall": 1.0,
-          "f1": 0.25,
-          "hits": 1,
+          "f1": 1.0,
+          "hits": 7,
           "predicted": 7,
-          "gold": 1
+          "gold": 7
         },
         "date_level_filing": {
-          "precision": 0.14285714285714285,
+          "precision": 1.0,
           "recall": 1.0,
-          "f1": 0.25,
-          "hits": 1,
+          "f1": 1.0,
+          "hits": 7,
           "predicted": 7,
-          "gold": 1
+          "gold": 7
         },
         "date_overlap": {
-          "precision": 0.14285714285714285,
+          "precision": 1.0,
           "recall": 1.0,
-          "f1": 0.25,
-          "hits": 1,
+          "f1": 1.0,
+          "hits": 7,
           "predicted": 7,
-          "gold": 1
+          "gold": 7
         },
         "source_in_scored_set": {
-          "precision": 0.14285714285714285,
+          "precision": 1.0,
           "recall": 1.0,
-          "f1": 0.25,
-          "hits": 1,
+          "f1": 1.0,
+          "hits": 7,
           "predicted": 7,
-          "gold": 1
+          "gold": 7
         },
         "filing_source_match": {
-          "precision": 0.14285714285714285,
+          "precision": 1.0,
           "recall": 1.0,
-          "f1": 0.25,
-          "hits": 1,
+          "f1": 1.0,
+          "hits": 7,
           "predicted": 7,
-          "gold": 1
+          "gold": 7
         }
       },
       "counts": {
@@ -402,92 +408,21 @@
         "production_auto_file_new": 0
       },
       "score_distribution": {
-        "gold_mean": 0.7,
-        "non_gold_mean": 0.65,
-        "gold_min": 0.7,
-        "gold_max": 0.7
+        "gold_mean": 0.6571428571428571,
+        "non_gold_mean": null,
+        "gold_min": 0.3,
+        "gold_max": 0.9
       },
       "false_negatives": {
         "dates": [],
         "sources_not_scored": []
       },
-      "false_positives_filing": [
-        {
-          "pub_date": "2025-01-14",
-          "source": "source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md",
-          "score": 0.7,
-          "reasons": [
-            "title_match",
-            "body_hook",
-            "strong_body_hook",
-            "early_body_window"
-          ],
-          "quote_preview": "ess immoral Middle Eastern Wars a statement with which I think you are no doubt um in agreement are "
-        },
-        {
-          "pub_date": "2025-01-17",
-          "source": "source-archive/statecraft/2025-01-17/source-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md",
-          "score": 0.3,
-          "reasons": [
-            "body_hook",
-            "strong_body_hook",
-            "early_body_window"
-          ],
-          "quote_preview": "hatever\n\ntough love he gave\n\nhim it's entirely possible that he\n\ncommitted the United States under T"
-        },
-        {
-          "pub_date": "2025-01-24",
-          "source": "source-archive/statecraft/2025-01-24/source-dialogue-works-amb-chas-freeman-is-the-world-on-the-brink-of-total-chaos-2025-01-24.md",
-          "score": 0.3,
-          "reasons": [
-            "body_hook",
-            "strong_body_hook",
-            "early_body_window"
-          ],
-          "quote_preview": "d Trump would be the case of Iran and he said that he wants to talk with Iranians and he had has the"
-        },
-        {
-          "pub_date": "2025-04-04",
-          "source": "source-archive/statecraft/2025-04-04/source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md",
-          "score": 0.9,
-          "reasons": [
-            "title_match",
-            "body_hook",
-            "strong_body_hook",
-            "restatement_cue"
-          ],
-          "quote_preview": "Larry, your take on the Trump administr are we getting to the point that the Trump administration go"
-        },
-        {
-          "pub_date": "2025-06-21",
-          "source": "source-archive/statecraft/2025-06-21/source-india-global-left-push-war-iran-chas-freeman-2025-06-21.md",
-          "score": 0.85,
-          "reasons": [
-            "title_match",
-            "body_hook",
-            "strong_body_hook",
-            "register_capture"
-          ],
-          "quote_preview": "Um, it has used the cover of the war with Iran to redouble its efforts to uh engage in ethnic cleans"
-        },
-        {
-          "pub_date": "2026-02-24",
-          "source": "source-archive/statecraft/2026-02-24/source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md",
-          "score": 0.85,
-          "reasons": [
-            "title_match",
-            "body_hook",
-            "strong_body_hook",
-            "register_capture"
-          ],
-          "quote_preview": "Nobody else in the region wants uh a war with Iran."
-        }
-      ]
+      "false_positives_filing": []
     },
     "iran_great_power_direct_war_entry": {
       "_meta": {
         "source": "scripts/calibrate_auto_file.py",
-        "generated_at": "2026-06-30T05:22:04Z",
+        "generated_at": "2026-06-30T05:24:35Z",
         "event_id": "iran_great_power_direct_war_entry",
         "gold_label": "manual_only (auto_file != true)"
       },
@@ -572,7 +507,7 @@
     "china_tariff_capitulation_2025": {
       "_meta": {
         "source": "scripts/calibrate_auto_file.py",
-        "generated_at": "2026-06-30T05:22:06Z",
+        "generated_at": "2026-06-30T05:24:41Z",
         "event_id": "china_tariff_capitulation_2025",
         "gold_label": "manual_only (auto_file != true)"
       },

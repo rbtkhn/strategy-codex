@@ -7,8 +7,6 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2025-04-04/source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md
 speech_act: restated
-auto_file: true
-auto_file_score: 0.9
 ---
 
 WORK only; not Record.

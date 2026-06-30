@@ -7,8 +7,6 @@ stance: yes
 confidence: high
 source: source-archive/statecraft/2026-02-24/source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md
 speech_act: restated
-auto_file: true
-auto_file_score: 0.7
 ---
 
 WORK only; not Record.
