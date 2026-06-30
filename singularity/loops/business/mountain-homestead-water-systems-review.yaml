@@ -1,0 +1,27 @@
+loop:
+  id: mountain-homestead-water-systems-review
+  category: business
+  trigger:
+    type: time
+    schedule: quarterly
+    description: Quarterly review of private well, water quality, freeze protection, storage, filtration, and backup water continuity on the Pine, CO homestead
+  inputs:
+    - description: Well records, water-test history, filtration system notes, pressure tank condition, pump status, freeze-risk notes, stored water, and emergency water plan
+    - description: EPA private well guidance, water-system checklist at singularity/business/mountain-homestead/water-systems/water-system-checklist.md
+  process:
+    steps:
+      - description: Check water-test schedule and record any overdue tests
+      - description: Review well pump, pressure tank, filters, softener, shutoff valves, heat tape, and freeze-prone lines
+      - description: Check emergency water storage and non-electric water contingency
+      - description: Record water-system risks and rank actions by health, continuity, and cost-to-reduce; soft-feed maintenance backlog
+  outputs:
+    - description: Quarterly water-system review
+    - description: Water-test and filter-change log
+    - description: Freeze-protection and backup-water action list
+  state:
+    status: active
+  dependencies:
+    - loop_id: mountain-homestead-ops
+  last_run: null
+  output_shelves:
+    - singularity/business/mountain-homestead/water-systems/

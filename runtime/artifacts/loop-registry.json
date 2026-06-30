@@ -508,19 +508,34 @@
           "description": "Maintenance log, inspection notes, repair history, tool inventory, contractor/vendor contacts, and known weak points on the Pine, CO property"
         },
         {
+          "description": "Wildfire mitigation task list and mitigation proof notes (soft feed from mountain-homestead-wildfire-mitigation-review)"
+        },
+        {
+          "description": "Water-system and septic action items (soft feed from water-systems and septic review loops)"
+        },
+        {
+          "description": "Utilities continuity backlog (soft feed from mountain-homestead-utilities-continuity)"
+        },
+        {
+          "description": "Risk register escalations (soft feed)"
+        },
+        {
           "description": "Pine-area seasonal weather risks (snow, wildfire, mud season), mountain access, budget constraints, and production priorities"
         }
       ],
       "process": {
         "steps": [
           {
-            "description": "Review buildings, driveway/access, fencing, drainage, heating, backup power, water systems, tools, vehicles, storage, and land infrastructure"
+            "description": "Review buildings, driveway/access, fencing, drainage, heating, backup power, water systems, septic, tools, vehicles, storage, and land infrastructure"
+          },
+          {
+            "description": "Integrate septic preventive maintenance; do not wait for symptoms"
           },
           {
             "description": "Identify preventive maintenance before it becomes emergency repair"
           },
           {
-            "description": "Separate owner-doable tasks from contractor-needed tasks"
+            "description": "Separate owner-doable tasks from contractor-needed tasks; attach mitigation proof fields for wildfire and insurance evidence"
           },
           {
             "description": "Update maintenance backlog and next-month asset-protection priorities"
@@ -551,7 +566,10 @@
       ],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/mountain-homestead/maintenance/"
+        "singularity/business/mountain-homestead/maintenance/",
+        "singularity/business/mountain-homestead/maintenance/monthly-reports/",
+        "singularity/business/mountain-homestead/maintenance/repair-backlog/",
+        "singularity/business/mountain-homestead/maintenance/contractors/"
       ],
       "source_file": "singularity/loops/business/mountain-homestead-maintenance.yaml"
     },
@@ -568,22 +586,40 @@
           "description": "Current homestead task list, supply levels, land and infrastructure needs on 5 acres in Pine, CO, local weather outlook, and active risks"
         },
         {
+          "description": "Top five risk-reduction actions from mountain-homestead-risk-register (soft feed)"
+        },
+        {
+          "description": "Utilities continuity gaps from mountain-homestead-utilities-continuity (soft feed)"
+        },
+        {
+          "description": "Access readiness checklist at singularity/business/mountain-homestead/access/access-readiness-checklist.md (monthly in winter/fire season)"
+        },
+        {
+          "description": "Strategic context at singularity/business/mountain-homestead/STRATEGIC-PLAN.md"
+        },
+        {
           "description": "Known constraints such as travel, family schedule, budget, contractors, seasonal access, and revenue opportunities"
         }
       ],
       "process": {
         "steps": [
           {
+            "description": "Start weekly card with top five risk-reduction actions from risk register, not easiest chores"
+          },
+          {
             "description": "Review critical systems including water, heat, power, food storage, waste, access, tools, safety, and land condition"
+          },
+          {
+            "description": "Review access readiness monthly in winter and fire season using access checklist"
           },
           {
             "description": "Identify urgent chores, deferred maintenance, supply gaps, revenue opportunities, and weather-sensitive tasks"
           },
           {
-            "description": "Rank actions by risk reduction, asset protection, production potential, cost, and time required"
+            "description": "Rank remaining actions by risk reduction, asset protection, production potential, cost, and time required"
           },
           {
-            "description": "Produce weekly homestead business operations card"
+            "description": "Produce weekly homestead business operations card to ops/weekly-cards/"
           }
         ]
       },
@@ -604,9 +640,67 @@
       "dependencies": [],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/mountain-homestead/ops/"
+        "singularity/business/mountain-homestead/ops/",
+        "singularity/business/mountain-homestead/ops/weekly-cards/"
       ],
       "source_file": "singularity/loops/business/mountain-homestead-ops.yaml"
+    },
+    {
+      "id": "mountain-homestead-risk-register",
+      "category": "business",
+      "trigger": {
+        "type": "time",
+        "schedule": "monthly",
+        "description": "Monthly risk register update for the 5-acre Pine, Colorado mountain homestead business asset"
+      },
+      "inputs": [
+        {
+          "description": "Weekly ops cards, maintenance backlog, wildfire mitigation notes, utilities continuity notes, water and septic status, access issues, weather outlook, and insurance concerns"
+        },
+        {
+          "description": "Risk scoring model and template at singularity/business/mountain-homestead/risk-register/risk-register-template.md and STRATEGIC-PLAN.md"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Score each risk by consequence, likelihood, urgency, and cost-to-reduce"
+          },
+          {
+            "description": "Rank top five risk-reduction actions"
+          },
+          {
+            "description": "Identify which loop owns each action"
+          },
+          {
+            "description": "Escalate any risk that threatens habitability, insurability, access, water, heat, or asset value"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Monthly homestead risk register"
+        },
+        {
+          "description": "Top five risk-reduction actions"
+        },
+        {
+          "description": "Escalation list for weekly ops and maintenance"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "mountain-homestead-ops"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/business/mountain-homestead/risk-register/"
+      ],
+      "source_file": "singularity/loops/business/mountain-homestead-risk-register.yaml"
     },
     {
       "id": "mountain-homestead-seasonal-readiness",
@@ -614,23 +708,32 @@
       "trigger": {
         "type": "time",
         "schedule": "seasonal",
-        "description": "Seasonal readiness review for Pine, Colorado — before winter, spring melt, fire season, and harvest/storage periods on the 5-acre homestead"
+        "description": "Seasonal readiness gate for Pine, Colorado — before winter, spring melt, fire season, and harvest/storage periods on the 5-acre homestead"
       },
       "inputs": [
         {
           "description": "Local Pine/foothills seasonal risks, supply inventory, maintenance backlog, weather outlook, mountain access conditions, budget, and production plans"
         },
         {
+          "description": "Risk register escalations, wildfire baseline, and 72-hour continuity card (soft feeds)"
+        },
+        {
           "description": "Previous seasonal readiness checklist and lessons learned"
+        },
+        {
+          "description": "STRATEGIC-PLAN.md seasonal gates and scorecard"
         }
       ],
       "process": {
         "steps": [
           {
+            "description": "Re-rank risks by upcoming season (fire, winter, mud, freeze, access)"
+          },
+          {
             "description": "Identify Pine, CO season-specific risks such as snow access, freezing pipes, wildfire, mud season, drainage, pests, heat, supply interruptions, or production exposure across 5 acres"
           },
           {
-            "description": "Build a readiness checklist for the coming season"
+            "description": "Build a readiness checklist for the coming season as seasonal readiness gate"
           },
           {
             "description": "Prioritize high-consequence, low-cost preparations first"
@@ -664,9 +767,251 @@
       ],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/mountain-homestead/seasonal-readiness/"
+        "singularity/business/mountain-homestead/seasonal-readiness/",
+        "singularity/business/mountain-homestead/seasonal-readiness/winter/",
+        "singularity/business/mountain-homestead/seasonal-readiness/spring-melt/",
+        "singularity/business/mountain-homestead/seasonal-readiness/wildfire-season/",
+        "singularity/business/mountain-homestead/seasonal-readiness/mud-season/",
+        "singularity/business/mountain-homestead/seasonal-readiness/post-season-lessons/"
       ],
       "source_file": "singularity/loops/business/mountain-homestead-seasonal-readiness.yaml"
+    },
+    {
+      "id": "mountain-homestead-septic-review",
+      "category": "business",
+      "trigger": {
+        "type": "time",
+        "schedule": "annual",
+        "description": "Annual septic system review and pump/inspection schedule check for the Pine, Colorado homestead"
+      },
+      "inputs": [
+        {
+          "description": "Septic inspection records, pump records, drainfield status, water-use changes, leak checks, and EPA septic care guidance"
+        },
+        {
+          "description": "Septic review checklist at singularity/business/mountain-homestead/septic/septic-review-checklist.md"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Confirm last inspection and next inspection due date"
+          },
+          {
+            "description": "Confirm last pump and next pump due date"
+          },
+          {
+            "description": "Check drainfield protection, water-use patterns, leaks, garbage disposal use, and warning signs"
+          },
+          {
+            "description": "Add pump, inspection, repair, or behavior-change tasks to maintenance backlog"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Annual septic review"
+        },
+        {
+          "description": "Pump and inspection due-date note"
+        },
+        {
+          "description": "Drainfield and water-use action list"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "mountain-homestead-maintenance"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/business/mountain-homestead/septic/"
+      ],
+      "source_file": "singularity/loops/business/mountain-homestead-septic-review.yaml"
+    },
+    {
+      "id": "mountain-homestead-utilities-continuity",
+      "category": "business",
+      "trigger": {
+        "type": "time",
+        "schedule": "monthly",
+        "description": "Monthly continuity review for power, heat, water, communications, fuel, and winter outage readiness on the Pine, CO homestead"
+      },
+      "inputs": [
+        {
+          "description": "Generator or backup power status, fuel levels, heat sources, well pump dependency, internet/communications backup, freeze-protection notes, and outage history"
+        },
+        {
+          "description": "Seasonal weather outlook, maintenance backlog, and 72-hour continuity card at singularity/business/mountain-homestead/utilities-continuity/"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Test backup power and confirm what loads it can support"
+          },
+          {
+            "description": "Check heat continuity, fuel inventory, freeze protection, and water-system dependency on electricity"
+          },
+          {
+            "description": "Review communications backup and emergency contacts"
+          },
+          {
+            "description": "Identify failure chains such as power outage to no well pump to frozen pipes"
+          },
+          {
+            "description": "Produce top continuity actions before next weather-risk window; soft-feed weekly ops"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Monthly utilities continuity card"
+        },
+        {
+          "description": "Backup power and fuel log"
+        },
+        {
+          "description": "Freeze-protection and outage action list"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "mountain-homestead-maintenance"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/business/mountain-homestead/utilities-continuity/"
+      ],
+      "source_file": "singularity/loops/business/mountain-homestead-utilities-continuity.yaml"
+    },
+    {
+      "id": "mountain-homestead-water-systems-review",
+      "category": "business",
+      "trigger": {
+        "type": "time",
+        "schedule": "quarterly",
+        "description": "Quarterly review of private well, water quality, freeze protection, storage, filtration, and backup water continuity on the Pine, CO homestead"
+      },
+      "inputs": [
+        {
+          "description": "Well records, water-test history, filtration system notes, pressure tank condition, pump status, freeze-risk notes, stored water, and emergency water plan"
+        },
+        {
+          "description": "EPA private well guidance, water-system checklist at singularity/business/mountain-homestead/water-systems/water-system-checklist.md"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Check water-test schedule and record any overdue tests"
+          },
+          {
+            "description": "Review well pump, pressure tank, filters, softener, shutoff valves, heat tape, and freeze-prone lines"
+          },
+          {
+            "description": "Check emergency water storage and non-electric water contingency"
+          },
+          {
+            "description": "Record water-system risks and rank actions by health, continuity, and cost-to-reduce; soft-feed maintenance backlog"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Quarterly water-system review"
+        },
+        {
+          "description": "Water-test and filter-change log"
+        },
+        {
+          "description": "Freeze-protection and backup-water action list"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "mountain-homestead-ops"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/business/mountain-homestead/water-systems/"
+      ],
+      "source_file": "singularity/loops/business/mountain-homestead-water-systems-review.yaml"
+    },
+    {
+      "id": "mountain-homestead-wildfire-mitigation-review",
+      "category": "business",
+      "trigger": {
+        "type": "time",
+        "schedule": "monthly",
+        "description": "Monthly wildfire mitigation review for structures, defensible space, and ignition hazards on the Pine, Colorado homestead"
+      },
+      "inputs": [
+        {
+          "description": "Current home ignition zone status, structure list, defensible-space notes, roof/gutter/deck debris status, vent/fence/siding condition, slash piles, and local fire restrictions"
+        },
+        {
+          "description": "Colorado State Forest Service guidance, local fire district recommendations, prior mitigation receipts, and mitigation-proof template at singularity/business/mountain-homestead/wildfire-mitigation/"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Review structural ignitability for house, garage, sheds, barns, decks, fencing, and utility structures"
+          },
+          {
+            "description": "Review defensible space by Zone 1, Zone 2, and Zone 3 around each structure"
+          },
+          {
+            "description": "Identify ember traps such as gutters, decks, wood piles, pine needles, under-deck debris, fences, and vents"
+          },
+          {
+            "description": "Rank wildfire mitigation tasks by consequence, likelihood, urgency, and cost-to-reduce"
+          },
+          {
+            "description": "Record completed mitigation proof for insurance and future planning; mark tax-credit items as possible/verify only"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Monthly wildfire mitigation review"
+        },
+        {
+          "description": "Defensible-space task list by zone"
+        },
+        {
+          "description": "Home-hardening and ember-trap checklist"
+        },
+        {
+          "description": "Mitigation proof notes and photos"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "mountain-homestead-maintenance"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/business/mountain-homestead/wildfire-mitigation/"
+      ],
+      "source_file": "singularity/loops/business/mountain-homestead-wildfire-mitigation-review.yaml"
     },
     {
       "id": "predictive-history-education",

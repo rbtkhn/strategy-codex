@@ -50,13 +50,20 @@ Current phase: **declare → validate → surface attention → produce action c
 | `grace-gems-search-conversion-review` | business | singularity/business/grace-gems/listings/search-conversion/ |
 | `grace-gems-customer-service` | business | singularity/business/grace-gems/customer-service/ |
 | `grace-gems-customer-promise-audit` | business | singularity/business/grace-gems/customer-service/promise-audits/ |
-| `mountain-homestead-ops` | business | singularity/business/mountain-homestead/ops/ |
+| `mountain-homestead-ops` | business | singularity/business/mountain-homestead/ops/, ops/weekly-cards/ |
+| `mountain-homestead-risk-register` | business | singularity/business/mountain-homestead/risk-register/ |
 | `mountain-homestead-maintenance` | business | singularity/business/mountain-homestead/maintenance/ |
+| `mountain-homestead-wildfire-mitigation-review` | business | singularity/business/mountain-homestead/wildfire-mitigation/ |
+| `mountain-homestead-utilities-continuity` | business | singularity/business/mountain-homestead/utilities-continuity/ |
+| `mountain-homestead-water-systems-review` | business | singularity/business/mountain-homestead/water-systems/ |
+| `mountain-homestead-septic-review` | business | singularity/business/mountain-homestead/septic/ |
 | `mountain-homestead-seasonal-readiness` | business | singularity/business/mountain-homestead/seasonal-readiness/ |
 
 **Hard dependencies (Grace Gems):** `grace-gems-product-pipeline` → `grace-gems-margin-policy-review`; `grace-gems-marketplace-ops` → `grace-gems-search-conversion-review`; `grace-gems-customer-service` → `grace-gems-customer-promise-audit`.
 
-**Hard dependencies (homestead):** `mountain-homestead-ops` → `mountain-homestead-maintenance` → `mountain-homestead-seasonal-readiness`.
+**Hard dependencies (homestead):** `mountain-homestead-ops` → `mountain-homestead-maintenance` → `mountain-homestead-seasonal-readiness`; `mountain-homestead-ops` → `mountain-homestead-risk-register`; `mountain-homestead-ops` → `mountain-homestead-water-systems-review`; `mountain-homestead-maintenance` → wildfire-mitigation-review, utilities-continuity, septic-review.
+
+**Soft feeds (homestead):** risk-register → ops (top 5 actions); utilities-continuity → ops; wildfire/water/septic → maintenance; risk/wildfire/continuity → seasonal-readiness. Full graph: [`singularity/business/mountain-homestead/README.md`](../../singularity/business/mountain-homestead/README.md).
 
 **Soft feeds (Grace Gems):** margin-policy-review → marketplace-ops (approved listings); search-conversion-review → product-pipeline (experiments); customer-promise-audit → margin-policy-review (corrections); customer-service → marketplace-ops (unresolved issues). Full graph: [`singularity/business/grace-gems/README.md`](../../singularity/business/grace-gems/README.md).
 

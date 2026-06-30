@@ -2,7 +2,7 @@
   "_meta": {
     "generated": true,
     "do_not_edit": false,
-    "source": "scripts/run_singularity_loops.py --status"
+    "source": "tests/test_singularity_loops.py"
   },
   "pending_loops": [],
   "blocked_loops": [],
@@ -17,7 +17,12 @@
     "moonshots-synthesis-watch",
     "mountain-homestead-maintenance",
     "mountain-homestead-ops",
+    "mountain-homestead-risk-register",
     "mountain-homestead-seasonal-readiness",
+    "mountain-homestead-septic-review",
+    "mountain-homestead-utilities-continuity",
+    "mountain-homestead-water-systems-review",
+    "mountain-homestead-wildfire-mitigation-review",
     "predictive-history-education",
     "singularity-monthly-synthesis",
     "spine-health-check",

@@ -4,14 +4,17 @@ loop:
   trigger:
     type: time
     schedule: seasonal
-    description: Seasonal readiness review for Pine, Colorado — before winter, spring melt, fire season, and harvest/storage periods on the 5-acre homestead
+    description: Seasonal readiness gate for Pine, Colorado — before winter, spring melt, fire season, and harvest/storage periods on the 5-acre homestead
   inputs:
     - description: Local Pine/foothills seasonal risks, supply inventory, maintenance backlog, weather outlook, mountain access conditions, budget, and production plans
+    - description: Risk register escalations, wildfire baseline, and 72-hour continuity card (soft feeds)
     - description: Previous seasonal readiness checklist and lessons learned
+    - description: STRATEGIC-PLAN.md seasonal gates and scorecard
   process:
     steps:
+      - description: Re-rank risks by upcoming season (fire, winter, mud, freeze, access)
       - description: Identify Pine, CO season-specific risks such as snow access, freezing pipes, wildfire, mud season, drainage, pests, heat, supply interruptions, or production exposure across 5 acres
-      - description: Build a readiness checklist for the coming season
+      - description: Build a readiness checklist for the coming season as seasonal readiness gate
       - description: Prioritize high-consequence, low-cost preparations first
       - description: Record lessons learned after the season for future operating improvement
   outputs:
@@ -26,3 +29,8 @@ loop:
   last_run: null
   output_shelves:
     - singularity/business/mountain-homestead/seasonal-readiness/
+    - singularity/business/mountain-homestead/seasonal-readiness/winter/
+    - singularity/business/mountain-homestead/seasonal-readiness/spring-melt/
+    - singularity/business/mountain-homestead/seasonal-readiness/wildfire-season/
+    - singularity/business/mountain-homestead/seasonal-readiness/mud-season/
+    - singularity/business/mountain-homestead/seasonal-readiness/post-season-lessons/

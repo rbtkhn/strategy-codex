@@ -7,13 +7,19 @@ loop:
     description: Weekly homestead operations check for the 5-acre Pine, Colorado property — land, infrastructure, utilities, supplies, production capacity, and active tasks
   inputs:
     - description: Current homestead task list, supply levels, land and infrastructure needs on 5 acres in Pine, CO, local weather outlook, and active risks
+    - description: Top five risk-reduction actions from mountain-homestead-risk-register (soft feed)
+    - description: Utilities continuity gaps from mountain-homestead-utilities-continuity (soft feed)
+    - description: Access readiness checklist at singularity/business/mountain-homestead/access/access-readiness-checklist.md (monthly in winter/fire season)
+    - description: Strategic context at singularity/business/mountain-homestead/STRATEGIC-PLAN.md
     - description: Known constraints such as travel, family schedule, budget, contractors, seasonal access, and revenue opportunities
   process:
     steps:
+      - description: Start weekly card with top five risk-reduction actions from risk register, not easiest chores
       - description: Review critical systems including water, heat, power, food storage, waste, access, tools, safety, and land condition
+      - description: Review access readiness monthly in winter and fire season using access checklist
       - description: Identify urgent chores, deferred maintenance, supply gaps, revenue opportunities, and weather-sensitive tasks
-      - description: Rank actions by risk reduction, asset protection, production potential, cost, and time required
-      - description: Produce weekly homestead business operations card
+      - description: Rank remaining actions by risk reduction, asset protection, production potential, cost, and time required
+      - description: Produce weekly homestead business operations card to ops/weekly-cards/
   outputs:
     - description: Weekly mountain homestead business operations card
     - description: Prioritized task and supply list
@@ -24,3 +30,4 @@ loop:
   last_run: null
   output_shelves:
     - singularity/business/mountain-homestead/ops/
+    - singularity/business/mountain-homestead/ops/weekly-cards/

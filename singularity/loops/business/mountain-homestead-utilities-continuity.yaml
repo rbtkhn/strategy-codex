@@ -1,0 +1,28 @@
+loop:
+  id: mountain-homestead-utilities-continuity
+  category: business
+  trigger:
+    type: time
+    schedule: monthly
+    description: Monthly continuity review for power, heat, water, communications, fuel, and winter outage readiness on the Pine, CO homestead
+  inputs:
+    - description: Generator or backup power status, fuel levels, heat sources, well pump dependency, internet/communications backup, freeze-protection notes, and outage history
+    - description: Seasonal weather outlook, maintenance backlog, and 72-hour continuity card at singularity/business/mountain-homestead/utilities-continuity/
+  process:
+    steps:
+      - description: Test backup power and confirm what loads it can support
+      - description: Check heat continuity, fuel inventory, freeze protection, and water-system dependency on electricity
+      - description: Review communications backup and emergency contacts
+      - description: Identify failure chains such as power outage to no well pump to frozen pipes
+      - description: Produce top continuity actions before next weather-risk window; soft-feed weekly ops
+  outputs:
+    - description: Monthly utilities continuity card
+    - description: Backup power and fuel log
+    - description: Freeze-protection and outage action list
+  state:
+    status: active
+  dependencies:
+    - loop_id: mountain-homestead-maintenance
+  last_run: null
+  output_shelves:
+    - singularity/business/mountain-homestead/utilities-continuity/

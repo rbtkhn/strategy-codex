@@ -7,12 +7,17 @@ loop:
     description: Monthly infrastructure and maintenance review for the 5-acre Pine, Colorado homestead as a business asset
   inputs:
     - description: Maintenance log, inspection notes, repair history, tool inventory, contractor/vendor contacts, and known weak points on the Pine, CO property
+    - description: Wildfire mitigation task list and mitigation proof notes (soft feed from mountain-homestead-wildfire-mitigation-review)
+    - description: Water-system and septic action items (soft feed from water-systems and septic review loops)
+    - description: Utilities continuity backlog (soft feed from mountain-homestead-utilities-continuity)
+    - description: Risk register escalations (soft feed)
     - description: Pine-area seasonal weather risks (snow, wildfire, mud season), mountain access, budget constraints, and production priorities
   process:
     steps:
-      - description: Review buildings, driveway/access, fencing, drainage, heating, backup power, water systems, tools, vehicles, storage, and land infrastructure
+      - description: Review buildings, driveway/access, fencing, drainage, heating, backup power, water systems, septic, tools, vehicles, storage, and land infrastructure
+      - description: Integrate septic preventive maintenance; do not wait for symptoms
       - description: Identify preventive maintenance before it becomes emergency repair
-      - description: Separate owner-doable tasks from contractor-needed tasks
+      - description: Separate owner-doable tasks from contractor-needed tasks; attach mitigation proof fields for wildfire and insurance evidence
       - description: Update maintenance backlog and next-month asset-protection priorities
   outputs:
     - description: Monthly homestead maintenance report
@@ -26,3 +31,6 @@ loop:
   last_run: null
   output_shelves:
     - singularity/business/mountain-homestead/maintenance/
+    - singularity/business/mountain-homestead/maintenance/monthly-reports/
+    - singularity/business/mountain-homestead/maintenance/repair-backlog/
+    - singularity/business/mountain-homestead/maintenance/contractors/
