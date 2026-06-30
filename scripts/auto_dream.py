@@ -1036,6 +1036,14 @@ def run_auto_dream(
             pass
 
         cm = resolve_cursor_model(explicit=cursor_model)
+        try:
+            from singularity_loop_lib import refresh_and_brief
+
+            loop_brief = refresh_and_brief(source="scripts/auto_dream.py")
+            if loop_brief:
+                summary["singularity_loop_signals"] = loop_brief
+        except Exception:
+            pass
         handoff_path = _write_last_dream_handoff(
             summary,
             users_dir=users_dir,
@@ -1223,6 +1231,9 @@ def format_auto_dream_summary(summary: dict[str, Any]) -> str:
             lines.append(f"AI frontier watch: The Innermost Loop latest - {title}")
         else:
             lines.append("AI frontier watch: The Innermost Loop unavailable")
+    loop_brief = summary.get("singularity_loop_signals")
+    if loop_brief:
+        lines.append(str(loop_brief))
     dc = summary.get("dream_catchup") or {}
     if dc.get("error"):
         lines.append(f"dream catch-up: error — {dc['error']}")

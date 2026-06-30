@@ -36,3 +36,21 @@ schemas:
     applies_to: runtime/operator-events/*.jsonl
     format: jsonl
     scope: runtime
+
+  singularity_loop:
+    path: schemas/singularity/loop.schema.json
+    applies_to: singularity/loops/**/*.yaml
+    format: yaml
+    scope: singularity
+
+  loop_registry:
+    path: schemas/runtime/loop-registry.schema.json
+    applies_to: runtime/artifacts/loop-registry.json
+    format: json
+    scope: singularity
+
+  singularity_signals:
+    path: schemas/runtime/singularity-signals.schema.json
+    applies_to: runtime/artifacts/singularity-signals.json
+    format: json
+    scope: singularity

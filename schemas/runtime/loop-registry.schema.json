@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/loop-registry.schema.json",
+  "title": "Singularity loop registry artifact",
+  "type": "object",
+  "required": ["_meta", "loops"],
+  "additionalProperties": false,
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "generated_at": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "loops": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_file",
+          "id",
+          "category",
+          "trigger",
+          "inputs",
+          "process",
+          "outputs",
+          "state"
+        ],
+        "properties": {
+          "source_file": { "type": "string" },
+          "id": { "type": "string" },
+          "category": {
+            "enum": ["projects", "business", "research", "personal"]
+          },
+          "trigger": { "type": "object" },
+          "inputs": { "type": "array" },
+          "process": { "type": "object" },
+          "outputs": { "type": "array" },
+          "state": { "type": "object" },
+          "dependencies": { "type": "array" },
+          "last_run": { "type": ["string", "null"] },
+          "output_shelves": { "type": "array" }
+        },
+        "additionalProperties": true
+      }
+    }
+  }
+}

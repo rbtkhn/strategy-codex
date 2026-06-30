@@ -1,0 +1,26 @@
+loop:
+  id: work-cici-daily-ops
+  category: projects
+  trigger:
+    type: time
+    schedule: daily
+    description: Coffee or dream session start for work-cici mirror and execution rhythm
+  inputs:
+    - description: SYNC-DAILY.md stale state and mirror sync logs
+    - description: WORK-LEDGER watches and DAILY-OPS-CARD template
+  process:
+    steps:
+      - description: Run top sync action for work-dev and work-politics mirrors when stale
+      - description: Pick smallest Cici-readable execution step from scan output
+      - description: Refresh DAILY-OPS-CARD and stop at declared maintenance boundary
+  outputs:
+    - description: Updated SYNC-DAILY.md and dated sync-log rows when needed
+    - description: Daily ops card under singularity/work-cici/
+    - description: Optional cici-notebook day file from dream journal generation
+  state:
+    status: active
+  dependencies: []
+  last_run: null
+  output_shelves:
+    - singularity/work-cici/
+    - singularity/work-cici/cici-notebook/

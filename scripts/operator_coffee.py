@@ -103,6 +103,17 @@ def _emit_inline(label: str, text: str, *, quiet: bool) -> None:
     if text:
         print(text, end="" if text.endswith("\n") else "\n")
 
+def _refresh_singularity_loop_signals(*, quiet: bool) -> None:
+    try:
+        from singularity_loop_lib import refresh_and_brief
+
+        brief = refresh_and_brief(source="scripts/operator_coffee.py")
+        if brief and not quiet:
+            print(f"\n{brief}\n", flush=True)
+    except Exception:
+        pass
+
+
 def _emit_agent_handoff_glance(*, quiet: bool) -> None:
     try:
         from check_agent_handoff_queue import render_agent_handoff_glance
@@ -182,6 +193,7 @@ def _run_inline_steps(
     if mode in {"work-start", "light", "minimal", "reentry", "first-command", "closeout"}:
         _emit_agent_handoff_glance(quiet=quiet)
 
+    _refresh_singularity_loop_signals(quiet=quiet)
     return 0
 
 def main() -> int:
@@ -430,6 +442,7 @@ def main() -> int:
     except Exception:
         pass
 
+    _refresh_singularity_loop_signals(quiet=first_command and not args.verbose)
     return 0
 
 if __name__ == "__main__":

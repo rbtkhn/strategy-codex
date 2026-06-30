@@ -1,0 +1,25 @@
+loop:
+  id: spine-health-check
+  category: research
+  trigger:
+    type: manual
+    description: Operator or steward requests a spine QA pass
+  inputs:
+    - description: Longitudinal spine, signals JSON, and recent workshop sheets
+    - description: Spine health checklist under singularity/workshop/longitudinal/
+  process:
+    steps:
+      - description: Run coverage, review load, bridge isolation, and rebuild sanity checks
+      - description: Record gaps, stale routes, or disproportionate review load
+      - description: Surface attention items for orchestrator signals when blocked
+  outputs:
+    - description: Checklist pass notes or operator-facing gap summary
+    - description: Optional attention_required entries for orchestrator signals
+  state:
+    status: active
+  dependencies:
+    - loop_id: innermost-loop-capture
+    - loop_id: moonshots-synthesis-watch
+  last_run: null
+  output_shelves:
+    - singularity/workshop/longitudinal/spine-health-checklist.md

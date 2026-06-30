@@ -1,0 +1,26 @@
+loop:
+  id: innermost-loop-capture
+  category: research
+  trigger:
+    type: time
+    schedule: daily
+    description: New Innermost Loop newsletter issue published
+  inputs:
+    - description: Dated Innermost Loop newsletter issue or equivalent frontier signal batch
+    - description: Existing longitudinal spine and coverage gaps from innermost-loop-signals.json
+  process:
+    steps:
+      - description: Capture verbatim issue under source-archive/singularity/innermost-loop/
+      - description: Update longitudinal spine coverage and front timelines
+      - description: Flag gaps or chronology anomalies for synthesis support notes
+  outputs:
+    - description: Dated raw capture in source-archive/singularity/innermost-loop/
+    - description: Updated workshop longitudinal signals and spine references
+  state:
+    status: active
+  dependencies: []
+  last_run: null
+  output_shelves:
+    - source-archive/singularity/innermost-loop/
+    - singularity/workshop/longitudinal/
+    - singularity/workshop/keystone-helix.md

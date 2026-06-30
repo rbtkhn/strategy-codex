@@ -11,7 +11,7 @@
 | `path` | JSON Schema file |
 | `applies_to` | Glob relative to repo root |
 | `format` | How to load instances (`json`, `json_object_map`, `markdown_frontmatter`, `jsonl`) |
-| `scope` | Health grouping: `prediction`, `runtime`, or `all` |
+| `scope` | Health grouping: `prediction`, `runtime`, `singularity`, or `all` |
 
 Legacy gate/workflow schemas remain under [`schemas/registry/`](../registry/) until migrated into the manifest.
 
@@ -19,6 +19,7 @@ Legacy gate/workflow schemas remain under [`schemas/registry/`](../registry/) un
 
 ```bash
 python3 scripts/validate_all_schemas.py --scope prediction
+python3 scripts/validate_all_schemas.py --scope singularity
 python3 scripts/validate_all_schemas.py --scope all
 ```
 

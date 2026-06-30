@@ -580,6 +580,16 @@ def build_operator_daily_warmup(
             lines.append("")
             lines.append(menu_hint)
 
+    try:
+        from singularity_loop_lib import refresh_and_brief
+
+        loop_brief = refresh_and_brief(source="scripts/operator_daily_warmup.py")
+        if loop_brief:
+            lines.append("")
+            lines.append(f"- {loop_brief}")
+    except Exception:
+        pass
+
     lines.append("")
     if format_strategy_return_lines is not None:
         try:

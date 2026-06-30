@@ -192,6 +192,8 @@ Add `--compact` for shorter harness output. Individual scripts (`operator_daily_
 
 **Memory observability:** `operator_coffee.py` may print a single **`Memory observability:`** line after lane hints when the derived continuity dashboard is `watch`, `stale`, or `missing`. Do not paste the full dashboard into coffee. If the line is absent, treat memory observability as quiet/ok for this run. The dashboard is WORK-derived only; it does not edit MEMORY, the Record, or the gate.
 
+**Singularity loop signals:** Coffee Step 1 refreshes `runtime/artifacts/singularity-signals.json` from the loop registry (`scripts/run_singularity_loops.py --status` logic). When loops need attention, daily warmup may print one line (`Singularity loops — attention: …`). See [docs/singularity/loop-system.md](../../../docs/singularity/loop-system.md).
+
 **Step 1 guardrail:** Stay read-only — no merge/stage unless they switch lanes or use a pipeline phrase ("we …").
 
 ### Dashboard nudge (Phases 1–3 aggregators — mandatory after Step 1)

@@ -19,9 +19,10 @@ if str(_SCRIPTS) not in sys.path:
 from mcp_receipt_lib import validate_json_schema  # noqa: E402
 from prediction_lib import normalize_prediction_frontmatter, parse_frontmatter_dict, repo_relative  # noqa: E402
 from schema_invariants import run_prediction_invariants  # noqa: E402
+from singularity_loop_invariants import run_singularity_loop_invariants  # noqa: E402
 from yaml_compat import safe_load_path  # noqa: E402
 
-SCOPE_ALL = frozenset({"all", "prediction", "runtime"})
+SCOPE_ALL = frozenset({"all", "prediction", "runtime", "singularity"})
 
 def load_registry() -> dict[str, Any]:
     data = safe_load_path(REGISTRY_PATH, feature="schemas/registry.yaml")
@@ -102,6 +103,17 @@ def _validate_jsonl(file_path: Path, schema_path: Path, *, name: str) -> list[st
         return issues
     return [f"[ok] {name}: {rel} ({ok_count} lines)"]
 
+def _validate_yaml_file(file_path: Path, schema_path: Path, *, name: str) -> list[str]:
+    rel = repo_relative(file_path)
+    try:
+        data = safe_load_path(file_path, feature=rel)
+    except Exception as exc:
+        return [f"[fail] {name}: {rel} -> YAML parse error: {exc}"]
+    err = _validate_instance(data, schema_path, label=rel)
+    if err:
+        return [f"[fail] {name}: {err}"]
+    return [f"[ok] {name}: {rel}"]
+
 def validate_entry(name: str, entry: dict[str, Any]) -> tuple[list[str], bool]:
     schema_path = REPO_ROOT / str(entry["path"])
     pattern = str(entry["applies_to"])
@@ -125,6 +137,8 @@ def validate_entry(name: str, entry: dict[str, Any]) -> tuple[list[str], bool]:
             batch = _validate_markdown_frontmatter(target, schema_path, name=name)
         elif fmt == "jsonl":
             batch = _validate_jsonl(target, schema_path, name=name)
+        elif fmt == "yaml":
+            batch = _validate_yaml_file(target, schema_path, name=name)
         else:
             return [f"[fail] {name}: unknown format `{fmt}`"], True
         for line in batch:
@@ -160,6 +174,22 @@ def run_validation(*, scope: str = "all", include_invariants: bool = True) -> in
             failed = True
             for line in invariant_issues:
                 print(f"[fail] invariants: {line}", file=sys.stderr)
+
+    if include_invariants and scope in {"all", "singularity"}:
+        try:
+            from singularity_loop_lib import collect_loop_rows  # noqa: WPS433
+
+            loop_rows = collect_loop_rows()
+        except ValueError as exc:
+            failed = True
+            for line in str(exc).splitlines():
+                print(f"[fail] singularity invariants: {line}", file=sys.stderr)
+        else:
+            loop_issues = run_singularity_loop_invariants(loop_rows)
+            if loop_issues:
+                failed = True
+                for line in loop_issues:
+                    print(f"[fail] singularity invariants: {line}", file=sys.stderr)
 
     if failed:
         print("validate_all_schemas: validation failed", file=sys.stderr)

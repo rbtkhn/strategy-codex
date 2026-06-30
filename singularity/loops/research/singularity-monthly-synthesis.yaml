@@ -1,0 +1,26 @@
+loop:
+  id: singularity-monthly-synthesis
+  category: research
+  trigger:
+    type: time
+    schedule: monthly
+    description: End-of-month synthesis pass over Innermost Loop corpus for a dated month
+  inputs:
+    - description: Raw captures and spine window for the target month
+    - description: Existing month scaffold or prior synthesis under singularity/synthesis/
+  process:
+    steps:
+      - description: Ground the month object before drafting the memo
+      - description: Keep support notes minimal and typed per singularity-monthly-synthesis skill
+      - description: Deepen the month memo sections and route promotion decisions
+  outputs:
+    - description: Monthly synthesis memo under singularity/synthesis/
+    - description: Typed support notes only when chronology or action wedges require them
+  state:
+    status: active
+  dependencies:
+    - loop_id: innermost-loop-capture
+  last_run: null
+  output_shelves:
+    - singularity/synthesis/
+    - singularity/notes/

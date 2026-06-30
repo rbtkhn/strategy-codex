@@ -1,0 +1,265 @@
+{
+  "_meta": {
+    "generated": true,
+    "do_not_edit": true,
+    "source": "scripts/build_loop_registry.py"
+  },
+  "loops": [
+    {
+      "id": "innermost-loop-capture",
+      "category": "research",
+      "trigger": {
+        "type": "time",
+        "schedule": "daily",
+        "description": "New Innermost Loop newsletter issue published"
+      },
+      "inputs": [
+        {
+          "description": "Dated Innermost Loop newsletter issue or equivalent frontier signal batch"
+        },
+        {
+          "description": "Existing longitudinal spine and coverage gaps from innermost-loop-signals.json"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Capture verbatim issue under source-archive/singularity/innermost-loop/"
+          },
+          {
+            "description": "Update longitudinal spine coverage and front timelines"
+          },
+          {
+            "description": "Flag gaps or chronology anomalies for synthesis support notes"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Dated raw capture in source-archive/singularity/innermost-loop/"
+        },
+        {
+          "description": "Updated workshop longitudinal signals and spine references"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [],
+      "last_run": null,
+      "output_shelves": [
+        "source-archive/singularity/innermost-loop/",
+        "singularity/workshop/longitudinal/",
+        "singularity/workshop/keystone-helix.md"
+      ],
+      "source_file": "singularity/loops/research/innermost-loop-capture.yaml"
+    },
+    {
+      "id": "moonshots-synthesis-watch",
+      "category": "research",
+      "trigger": {
+        "type": "event",
+        "description": "New Moonshots episode or sheet-worthy synthesis echo on a tracked front"
+      },
+      "inputs": [
+        {
+          "description": "Innermost Loop front signal or dated workshop sheet anchor"
+        },
+        {
+          "description": "Moonshots episode transcript or operator-identified synthesis source"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Name the acceleration front and locate the synthesis echo"
+          },
+          {
+            "description": "Draft or update a workshop sheet with control-plane fields"
+          },
+          {
+            "description": "Cross-check against keystone helix guardrails before promotion routes"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Updated or new workshop sheet under singularity/workshop/sheets/"
+        },
+        {
+          "description": "Helix pairing note linking signal strand to synthesis strand"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "innermost-loop-capture"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/workshop/sheets/",
+        "singularity/workshop/keystone-helix.md"
+      ],
+      "source_file": "singularity/loops/research/moonshots-synthesis-watch.yaml"
+    },
+    {
+      "id": "singularity-monthly-synthesis",
+      "category": "research",
+      "trigger": {
+        "type": "time",
+        "schedule": "monthly",
+        "description": "End-of-month synthesis pass over Innermost Loop corpus for a dated month"
+      },
+      "inputs": [
+        {
+          "description": "Raw captures and spine window for the target month"
+        },
+        {
+          "description": "Existing month scaffold or prior synthesis under singularity/synthesis/"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Ground the month object before drafting the memo"
+          },
+          {
+            "description": "Keep support notes minimal and typed per singularity-monthly-synthesis skill"
+          },
+          {
+            "description": "Deepen the month memo sections and route promotion decisions"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Monthly synthesis memo under singularity/synthesis/"
+        },
+        {
+          "description": "Typed support notes only when chronology or action wedges require them"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "innermost-loop-capture"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/synthesis/",
+        "singularity/notes/"
+      ],
+      "source_file": "singularity/loops/research/singularity-monthly-synthesis.yaml"
+    },
+    {
+      "id": "spine-health-check",
+      "category": "research",
+      "trigger": {
+        "type": "manual",
+        "description": "Operator or steward requests a spine QA pass"
+      },
+      "inputs": [
+        {
+          "description": "Longitudinal spine, signals JSON, and recent workshop sheets"
+        },
+        {
+          "description": "Spine health checklist under singularity/workshop/longitudinal/"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Run coverage, review load, bridge isolation, and rebuild sanity checks"
+          },
+          {
+            "description": "Record gaps, stale routes, or disproportionate review load"
+          },
+          {
+            "description": "Surface attention items for orchestrator signals when blocked"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Checklist pass notes or operator-facing gap summary"
+        },
+        {
+          "description": "Optional attention_required entries for orchestrator signals"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "innermost-loop-capture"
+        },
+        {
+          "loop_id": "moonshots-synthesis-watch"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/workshop/longitudinal/spine-health-checklist.md"
+      ],
+      "source_file": "singularity/loops/research/spine-health-check.yaml"
+    },
+    {
+      "id": "work-cici-daily-ops",
+      "category": "projects",
+      "trigger": {
+        "type": "time",
+        "schedule": "daily",
+        "description": "Coffee or dream session start for work-cici mirror and execution rhythm"
+      },
+      "inputs": [
+        {
+          "description": "SYNC-DAILY.md stale state and mirror sync logs"
+        },
+        {
+          "description": "WORK-LEDGER watches and DAILY-OPS-CARD template"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Run top sync action for work-dev and work-politics mirrors when stale"
+          },
+          {
+            "description": "Pick smallest Cici-readable execution step from scan output"
+          },
+          {
+            "description": "Refresh DAILY-OPS-CARD and stop at declared maintenance boundary"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Updated SYNC-DAILY.md and dated sync-log rows when needed"
+        },
+        {
+          "description": "Daily ops card under singularity/work-cici/"
+        },
+        {
+          "description": "Optional cici-notebook day file from dream journal generation"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/work-cici/",
+        "singularity/work-cici/cici-notebook/"
+      ],
+      "source_file": "singularity/loops/projects/work-cici-daily-ops.yaml"
+    }
+  ]
+}

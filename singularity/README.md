@@ -15,6 +15,13 @@ At the repo-root level, the stack is:
 
 For the lane-specific membrane grammar, open [singularity work membrane](work-membrane.md). For the shared base across active lanes, open [docs/work-membrane-v2.md](../docs/work-membrane-v2.md).
 
+## Loop system
+
+Recurring singularity work is declared as **loops** under [`singularity/loops/`](loops/README.md). Loops are the operational unit; interpretive shelves (`notes/`, `essays/`, `synthesis/`, `workshop/`) are loop outputs or documentation and remain grandfathered in place.
+
+- [Loop system spec](../docs/singularity/loop-system.md) — schema, dependencies, orchestrator stub
+- Generated registry: `runtime/artifacts/loop-registry.json` via `scripts/build_loop_registry.py`
+
 ## Boundary
 
 Use this folder for singularity concepts and study structure, not for generic AI news capture or raw model notes. If an item is primarily a speaker appearance, dataset, benchmark, product release, or source-archive trail, keep it in its normal source route and link here only when it becomes part of a singularity route.

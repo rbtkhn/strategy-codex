@@ -1,0 +1,25 @@
+loop:
+  id: moonshots-synthesis-watch
+  category: research
+  trigger:
+    type: event
+    description: New Moonshots episode or sheet-worthy synthesis echo on a tracked front
+  inputs:
+    - description: Innermost Loop front signal or dated workshop sheet anchor
+    - description: Moonshots episode transcript or operator-identified synthesis source
+  process:
+    steps:
+      - description: Name the acceleration front and locate the synthesis echo
+      - description: Draft or update a workshop sheet with control-plane fields
+      - description: Cross-check against keystone helix guardrails before promotion routes
+  outputs:
+    - description: Updated or new workshop sheet under singularity/workshop/sheets/
+    - description: Helix pairing note linking signal strand to synthesis strand
+  state:
+    status: active
+  dependencies:
+    - loop_id: innermost-loop-capture
+  last_run: null
+  output_shelves:
+    - singularity/workshop/sheets/
+    - singularity/workshop/keystone-helix.md

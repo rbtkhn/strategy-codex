@@ -131,6 +131,18 @@ entries:
         - '"do_not_edit"'
         - "build_prediction_registry.py"
 
+  - id: loop-registry-json
+    path: runtime/artifacts/loop-registry.json
+    category: generated
+    generator: scripts/build_loop_registry.py
+    check_args: ["--check"]
+    drift_group: singularity-loops
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_loop_registry.py"
+
   - id: prediction-metrics-json
     path: runtime/artifacts/prediction-metrics.json
     category: generated
