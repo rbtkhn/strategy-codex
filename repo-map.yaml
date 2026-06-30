@@ -2049,3 +2049,28 @@ routes:
   - mate source index
   - mate source index compat
   category: work
+- id: matlock-index
+  title: Matlock index
+  path: statecraft/voices/matlock/matlock-index.md
+  kind: source_index
+  authority: work_only
+  tags: &id028
+  - matlock
+  - source-index
+  - statecraft
+  - voices
+  search_hints:
+  - Matlock index
+  - matlock source index
+  category: work
+- id: matlock-source-index
+  title: Matlock source index (compat redirect)
+  path: statecraft/voices/matlock/matlock-source-index.md
+  kind: source_index
+  authority: work_only
+  tags: *id028
+  search_hints:
+  - Matlock index
+  - matlock source index
+  - matlock source index compat
+  category: work

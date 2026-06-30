@@ -103,6 +103,19 @@ def _emit_inline(label: str, text: str, *, quiet: bool) -> None:
     if text:
         print(text, end="" if text.endswith("\n") else "\n")
 
+def _emit_agent_handoff_glance(*, quiet: bool) -> None:
+    try:
+        from check_agent_handoff_queue import render_agent_handoff_glance
+    except ImportError:
+        from scripts.check_agent_handoff_queue import render_agent_handoff_glance  # type: ignore
+
+    _emit_inline(
+        "check_agent_handoff_queue.py --glance",
+        render_agent_handoff_glance(),
+        quiet=False,
+    )
+
+
 def _run_inline_steps(
     user: str,
     *,
@@ -165,6 +178,9 @@ def _run_inline_steps(
             render_compact_warmup(user),
             quiet=quiet,
         )
+
+    if mode in {"work-start", "light", "minimal", "reentry", "first-command", "closeout"}:
+        _emit_agent_handoff_glance(quiet=quiet)
 
     return 0
 
@@ -312,6 +328,23 @@ def main() -> int:
     if args.mode != "closeout" and show_details:
         print(f"\n{'=' * 60}\n$ git branch snapshot\n{'=' * 60}\n", flush=True)
         print(_branch_snapshot())
+
+    if args.mode in {
+        "work-start",
+        "light",
+        "minimal",
+        "reentry",
+        "first-command",
+        "closeout",
+    }:
+        try:
+            from check_agent_handoff_queue import render_agent_handoff_glance
+        except ImportError:
+            from scripts.check_agent_handoff_queue import render_agent_handoff_glance  # type: ignore
+
+        if not use_inline:
+            print(f"\n{'=' * 60}\n$ agent handoff queue glance\n{'=' * 60}\n", flush=True)
+            print(render_agent_handoff_glance())
 
     try:
         from assess_session_load import (

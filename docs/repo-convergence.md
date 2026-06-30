@@ -104,6 +104,7 @@ The convergence report, convergence state, and convergence JSONL log are exclude
 | [`validate.py`](../scripts/validate.py) | CI validation inventory + `validation-run.v1` JSON |
 | [`regenerate_all_derived.py`](../scripts/regenerate_all_derived.py) | Work-dev derived regeneration + receipts |
 | [`derived-regeneration.md`](skill-work/work-dev/derived-regeneration.md) | Rebuild target contract |
+| [`check_agent_handoff_queue.py`](../scripts/check_agent_handoff_queue.py) | Agent handoff queue item validation ([`agent-handoff-queue.md`](agent-handoff-queue.md)) |
 
 ## Naming note
 

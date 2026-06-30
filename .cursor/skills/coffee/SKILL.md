@@ -188,7 +188,7 @@ Add `--compact` for shorter harness output. Individual scripts (`operator_daily_
 
 **Dream handoff:** If `dream` ran overnight, the daily warmup includes a last-dream block from `last-dream.json` (**"Last dream (night handoff)"** when there is something to read out, or a **one-line "quiet handoff"** when `integrity` / `governance` / digest counts are clean and there are no followups). A successful dream may add **`last_coffee_echo`**: a single warm line from the 24h cadence rollup that ties yesterday's `coffee` into morning startup, plus one line **`Dream -> coffee action:`** naming the recommended learning move (**A Confirm / B Test / C Deepen / D Reframe**). Treat those as operational hints only, never as policy or Record authority. For full paths / snippets / followups, use **`--verbose-dream`**. When pasting warmup for the operator, prefer **collapsed** unless they ask for detail.
 
-**Step 1 deliverables (work-start):** Warmup brief (priorities, gate, work-politics snapshot where relevant, integrity), branch snapshot, explicit daily brief / intel defer line when relevant, optional PH/Jiang line. **No** Polymarket / poll / Massie blocks in Step 1 unless the operator explicitly asked in the same message. Coffee now recommends a learning action first; downstream `statecraft` or `singularity` routing only appears when that action needs a specific bench.
+**Step 1 deliverables (work-start):** Warmup brief (priorities, gate, work-politics snapshot where relevant, integrity), branch snapshot, **agent handoff queue glance** (`agent-todo/` + `needs-input/` via `operator_coffee.py` or `check_agent_handoff_queue.py --glance`), explicit daily brief / intel defer line when relevant, optional PH/Jiang line. **No** Polymarket / poll / Massie blocks in Step 1 unless the operator explicitly asked in the same message. Coffee now recommends a learning action first; downstream `statecraft` or `singularity` routing only appears when that action needs a specific bench.
 
 **Memory observability:** `operator_coffee.py` may print a single **`Memory observability:`** line after lane hints when the derived continuity dashboard is `watch`, `stale`, or `missing`. Do not paste the full dashboard into coffee. If the line is absent, treat memory observability as quiet/ok for this run. The dashboard is WORK-derived only; it does not edit MEMORY, the Record, or the gate.
 
@@ -203,14 +203,16 @@ The operator starts with **`coffee`** and cannot be expected to remember when to
 **Rules:**
 
 1. **Always** suggest **Command Deck** on work-start / reorientation `coffee` — default companion to the hub menu (`python3 scripts/operator_command_deck.py --max-next-actions 5` → open `runtime/artifacts/operator-command-deck/latest.md`).
-2. Suggest **at most one** drill-down dashboard when Step 1 signals match (War Room for statecraft/intake/daily; Surgeon for docs ship / integrity / hub **B**).
-3. Each line: tool name + **because** + optional one-line command. **Do not** paste full `latest.md` unless the operator asks.
-4. When the operator picks a hub letter or says **`run deck`** / **`run war room`** / **`run surgeon`**, **run that script same turn** and summarize (exit code + top findings/actions).
+2. **Glance open handoffs** when Step 1 prints **`Agent handoff queue (open)`** or when `needs-input/` has items — name blocking queue ids/titles and offer to open or answer (`runtime/operator-queue/` · [`agent-handoff-queue.md`](../../../docs/agent-handoff-queue.md)).
+3. Suggest **at most one** drill-down dashboard when Step 1 signals match (War Room for statecraft/intake/daily; Surgeon for docs ship / integrity / hub **B**).
+4. Each line: tool name + **because** + optional one-line command. **Do not** paste full `latest.md` unless the operator asks.
+5. When the operator picks a hub letter or says **`run deck`** / **`run war room`** / **`run surgeon`**, **run that script same turn** and summarize (exit code + top findings/actions).
 
 **Example shape (adapt to live Step 1 — not a fixed template):**
 
 ```text
 **Dashboard nudge**
+- **Agent handoff queue** — `needs-input/ahq-…` open; answer blocking question or pick item to continue (`runtime/operator-queue/needs-input/`).
 - **Command Deck** — dirty tree + ranked next actions; run `python3 scripts/operator_command_deck.py --max-next-actions 5` and keep `latest.md` open beside this thread.
 - **War Room** — statecraft slice uncommitted; run if you pick **C — Deepen** (`python3 scripts/statecraft_war_room.py --latest-days 7`).
 ```

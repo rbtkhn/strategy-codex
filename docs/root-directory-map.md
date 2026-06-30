@@ -92,6 +92,8 @@ Append-only JSONL — **not** Record. Writers use `scripts/repo_io.py` resolvers
 
 See [runtime/operator-events/README.md](../runtime/operator-events/README.md).
 
+**Agent handoff queue:** [`runtime/operator-queue/`](../runtime/operator-queue/README.md) — visible work handoffs between humans and agents ([`agent-handoff-queue.md`](agent-handoff-queue.md)).
+
 ---
 
 ## Dream continuity

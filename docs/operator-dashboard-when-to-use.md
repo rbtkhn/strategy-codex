@@ -25,9 +25,10 @@ Outputs: `runtime/artifacts/<bucket>/latest.md` + `latest.json` (gitignored; reg
 After **`coffee`** Step 1 (or when the operator looks lost mid-session), the assistant **must** emit a short **Dashboard nudge** block:
 
 1. **Name at most two** dashboards worth running **now** (usually Command Deck + one drill-down).
-2. Each line: **which tool** + **one because clause** + **optional run command**.
-3. **Do not** paste full `latest.md` bodies unless the operator asks.
-4. **Offer to run** the command same turn when they pick a hub letter or say `run deck` / `run war room` / `run surgeon`.
+2. When **`Agent handoff queue (open)`** appears in Step 1, surface open `agent-todo/` / `needs-input/` items in the nudge (answer blocking questions before new work).
+3. Each line: **which tool** + **one because clause** + **optional run command**.
+4. **Do not** paste full `latest.md` bodies unless the operator asks.
+5. **Offer to run** the command same turn when they pick a hub letter or say `run deck` / `run war room` / `run surgeon`.
 
 **Default on every work-start `coffee`:** suggest **Command Deck** — it ranks next actions from surgeon + war room + git + budget signals.
 

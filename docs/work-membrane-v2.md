@@ -68,6 +68,8 @@ Use **membrane** only when authority, durability, promotion, import/export, or m
 - `runtime / derived` answers: what can be regenerated to help?
 - `external complements` answers: what may cross the repo boundary without collapsing authority?
 
+**Agent handoff queue** ([`agent-handoff-queue.md`](agent-handoff-queue.md)) lives under `runtime/operator-queue/` as **instrumental work** — visible task handoffs between humans and agents; receipts do not promote authority.
+
 ---
 
 ## Route grammar

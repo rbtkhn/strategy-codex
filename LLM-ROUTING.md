@@ -204,7 +204,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | marandi | [statecraft/voices/marandi/marandi-index.md](statecraft/voices/marandi/marandi-index.md) | marandi-index |
 | martyanov | [statecraft/voices/martyanov/martyanov-index.md](statecraft/voices/martyanov/martyanov-index.md) | martyanov-index |
 | mate | [statecraft/voices/mate/mate-index.md](statecraft/voices/mate/mate-index.md) | mate-index |
-| matlock | [statecraft/voices/matlock/matlock-index.md](statecraft/voices/matlock/matlock-index.md) | — |
+| matlock | [statecraft/voices/matlock/matlock-index.md](statecraft/voices/matlock/matlock-index.md) | matlock-source-index |
 | mcgovern | [statecraft/voices/mcgovern/mcgovern-index.md](statecraft/voices/mcgovern/mcgovern-index.md) | mcgovern-index |
 | mearsheimer | [statecraft/voices/mearsheimer/mearsheimer-index.md](statecraft/voices/mearsheimer/mearsheimer-index.md) | mearsheimer-index |
 | mercouris | [statecraft/voices/mercouris/mercouris-index.md](statecraft/voices/mercouris/mercouris-index.md) | mercouris-index |
