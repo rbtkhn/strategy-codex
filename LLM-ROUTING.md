@@ -14,7 +14,6 @@ record_status: none
 > **Machine routing SSOT.**
 > Not a human onboarding surface.
 
-WORK only; not Record.
 
 This repository contains multiple index and source surfaces. Do not rely only on GitHub code search when asked to find a file, source corpus, analyst, speaker, dashboard, or index.
 
@@ -79,6 +78,8 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | diesen-source-index | source_index | work | [statecraft/voices/diesen/diesen-source-index.md](statecraft/voices/diesen/diesen-source-index.md) | Diesen index, diesen source index |
 | essays-shelf | prose_shelf | work | [essays/README.md](essays/README.md) | essays shelf, stand-alone essay, cross-channel essay, … |
 | freeman-index | source_index | work | [statecraft/voices/freeman/freeman-index.md](statecraft/voices/freeman/freeman-index.md) | Freeman index, freeman source index |
+| freeman-predictions | generated_dashboard | generated | [statecraft/voices/freeman/freeman-predictions.md](statecraft/voices/freeman/freeman-predictions.md) | Freeman predictions, freeman prediction record, Chas Freeman prediction record |
+| freeman-predictions-json | generated_inventory | generated | `statecraft/voices/freeman/freeman-predictions.json` | freeman predictions json, freeman prediction data, prediction record machine |
 | freeman-source-index | source_index | work | [statecraft/voices/freeman/freeman-source-index.md](statecraft/voices/freeman/freeman-source-index.md) | Freeman index, freeman source index, freeman source index compat |
 | glenn-diesen-channel-index | source_index | work | [statecraft/channels/glenn-diesen/glenn-diesen-channel-index.md](statecraft/channels/glenn-diesen/glenn-diesen-channel-index.md) | Glenn Diesen index, glenn-diesen-channel-index, glenn-diesen index |
 | glenn-diesen-host-shelf | routing_aid | work | [statecraft/channels/glenn-diesen/README.md](statecraft/channels/glenn-diesen/README.md) | Glenn Diesen host, glenn-diesen profile |
@@ -108,7 +109,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | kent-source-index | source_index | work | [statecraft/voices/kent/kent-source-index.md](statecraft/voices/kent/kent-source-index.md) | Kent index, kent source index, kent source index compat |
 | krapivnik-index | source_index | work | [statecraft/voices/krapivnik/krapivnik-index.md](statecraft/voices/krapivnik/krapivnik-index.md) | Krapivnik index, krapivnik source index |
 | krapivnik-source-index | source_index | work | [statecraft/voices/krapivnik/krapivnik-source-index.md](statecraft/voices/krapivnik/krapivnik-source-index.md) | Krapivnik index, krapivnik source index, krapivnik source index compat |
-| lascaris-voice-compat | source_index | work | [statecraft/channels/reason-resist/lascaris-voice-compat.md](statecraft/channels/reason-resist/lascaris-voice-compat.md) | Lascaris index, Reason to Resist host, lascaris compat redirect |
+| lascaris-voice-compat | source_index | work | [statecraft/channels/reason-resist/lascaris-voice-compat.md](statecraft/channels/reason-resist/lascaris-voice-compat.md) | Lascaris index, lascaris source index, Reason to Resist host |
 | library-index-retired | generated_dashboard | generated | [runtime/artifacts/library-index.md](runtime/artifacts/library-index.md) | operator books misc homes |
 | llm-routing | routing_aid | generated | [LLM-ROUTING.md](LLM-ROUTING.md) | LLM routing, find file in repo, Barnes index |
 | macgregor-index | source_index | work | [statecraft/voices/macgregor/macgregor-index.md](statecraft/voices/macgregor/macgregor-index.md) | Macgregor index, macgregor source index |
@@ -199,7 +200,6 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | kent | [statecraft/voices/kent/kent-index.md](statecraft/voices/kent/kent-index.md) | kent-index |
 | krainer | [statecraft/voices/krainer/krainer-index.md](statecraft/voices/krainer/krainer-index.md) | — |
 | krapivnik | [statecraft/voices/krapivnik/krapivnik-index.md](statecraft/voices/krapivnik/krapivnik-index.md) | krapivnik-index |
-| reason-resist (Lascaris host) | [statecraft/channels/reason-resist/reason-resist-channel-index.md](statecraft/channels/reason-resist/reason-resist-channel-index.md) | reason-resist-channel-index |
 | macgregor | [statecraft/voices/macgregor/macgregor-index.md](statecraft/voices/macgregor/macgregor-index.md) | macgregor-index |
 | marandi | [statecraft/voices/marandi/marandi-index.md](statecraft/voices/marandi/marandi-index.md) | marandi-index |
 | martyanov | [statecraft/voices/martyanov/martyanov-index.md](statecraft/voices/martyanov/martyanov-index.md) | martyanov-index |
@@ -239,13 +239,13 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 
 ## Repo routing metrics
 
-- source indexes (disk): 33
+- source indexes (disk): 32
 - host shelves (disk): 16
 - markdown links (INDEX + source-index files): 154
-- repo-map routes: 129 (canonical_reference=2, directory_index=1, essay=8, generated_dashboard=2, generated_inventory=2, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=22, source_capture=1, source_index=87)
-- source_index routes in repo-map: 87
+- repo-map routes: 130 (canonical_reference=2, directory_index=1, essay=8, generated_dashboard=3, generated_inventory=3, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=22, source_capture=1, source_index=86)
+- source_index routes in repo-map: 86
 - host_shelf routes in repo-map: 16
-- registry: INDEX lists 33/33, repo-map lists 29/33 (87.9% bijection when both match)
+- registry: INDEX lists 32/32, repo-map lists 28/32 (87.5% bijection when both match)
 - host shelves: repo-map lists 16/16 (100.0%)
 - absolute path violations (INDEX + source-index): 0
 - broken links (--strict resolution): 0

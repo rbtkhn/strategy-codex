@@ -23,7 +23,7 @@ def test_generated_manifest_schema():
         text=True,
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
-    assert "10 entries" in proc.stdout
+    assert "16 entries" in proc.stdout
 
 
 def test_manifest_includes_statecraft_notes_registry():
@@ -31,6 +31,14 @@ def test_manifest_includes_statecraft_notes_registry():
     assert "statecraft-notes-registry-md" in text
     assert "runtime/artifacts/statecraft-notes-registry.md" in text
     assert "statecraft-notes-registry-json" in text
+
+
+def test_manifest_includes_freeman_predictions():
+    text = (REPO_ROOT / "generated-manifest.yaml").read_text(encoding="utf-8")
+    assert "freeman-predictions-md" in text
+    assert "statecraft/voices/freeman/freeman-predictions.md" in text
+    assert "freeman-predictions-json" in text
+    assert "statecraft/voices/freeman/freeman-predictions.json" in text
 
 
 def test_generated_surfaces_headers_pass():

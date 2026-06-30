@@ -11,7 +11,7 @@ Purpose: exhaustive canonical route map for Amb. Chas Freeman guest appearances 
 
 - **149** eligible archive captures on disk
 - Rebuild: `python scripts/build_freeman_index.py`
-- **Predictions:** [freeman-predictions.md](freeman-predictions.md)
+- **Predictions:** [freeman-predictions.md](freeman-predictions.md) · [freeman-predictions.json](freeman-predictions.json)
 
 ## 2025-01
 

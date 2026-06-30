@@ -167,6 +167,29 @@ entries:
         - '"do_not_edit"'
         - "build_prediction_timeline.py"
 
+  - id: freeman-predictions-md
+    path: statecraft/voices/freeman/freeman-predictions.md
+    category: generated
+    generator: scripts/build_freeman_predictions.py
+    check_args: ["--check", "--md-only"]
+    drift_group: freeman-predictions
+    header:
+      type: html_comment
+      patterns:
+        - "GENERATED FILE"
+
+  - id: freeman-predictions-json
+    path: statecraft/voices/freeman/freeman-predictions.json
+    category: generated
+    generator: scripts/build_freeman_predictions.py
+    check_args: ["--check", "--json-only"]
+    drift_group: freeman-predictions
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_freeman_predictions.py"
+
 # TODO (manifest gaps — no batch --check yet):
 # - source-archive/statecraft/YYYY-MM-DD/day-index.md (per-day; build_statecraft_day_indices.py)
 # - source-archive/statecraft/YYYY-MM.md month inventory notes

@@ -1,7 +1,6 @@
 version: 1
 updated_at: '2026-06-26'
-purpose: Machine-readable routing registry (SSOT for route definitions).
-note: All routing definitions must originate here; other surfaces derive from this file.
+purpose: Machine-readable routing registry (SSOT for route definitions). All routing definitions must originate here; other surfaces derive from this file.
 routes:
 - id: llm-routing
   title: LLM routing map
@@ -825,6 +824,38 @@ routes:
   - freeman source index
   - freeman source index compat
   category: work
+- id: freeman-predictions
+  title: Freeman prediction record (public)
+  path: statecraft/voices/freeman/freeman-predictions.md
+  kind: generated_dashboard
+  authority: derived
+  tags:
+  - freeman
+  - predictions
+  - generated
+  - voice-shelf
+  search_hints:
+  - Freeman predictions
+  - freeman prediction record
+  - Chas Freeman prediction record
+  script: scripts/build_freeman_predictions.py
+  category: generated
+- id: freeman-predictions-json
+  title: Freeman prediction record (structured companion)
+  path: statecraft/voices/freeman/freeman-predictions.json
+  kind: generated_inventory
+  authority: derived
+  tags:
+  - freeman
+  - predictions
+  - generated
+  - json
+  search_hints:
+  - freeman predictions json
+  - freeman prediction data
+  - prediction record machine
+  script: scripts/build_freeman_predictions.py
+  category: generated
 - id: hoh-index
   title: Hoh index
   path: statecraft/voices/hoh/hoh-index.md
