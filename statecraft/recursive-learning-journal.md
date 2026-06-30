@@ -4220,3 +4220,94 @@ Routing: [build_jiang_index.py](../scripts/build_jiang_index.py) · [jiang-index
 **Pattern promotion:** defer until second speaker (e.g. host-owned channel + external interviews) reuses dual-index eligibility without new law beyond (1)(2).
 
 ---
+
+## 2026-06-30 - Generated manifest enrollment + subprocess-safe generator --check
+
+**Tag:** `generated-manifest` · `check_generated_surfaces` · `work-dev` · `repo-map` · `Windows-EXECUTE`  
+**Cross-link:** [§ parallel ban EXECUTE ship (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — **narrows:** manifest/generator edits = one file per turn; no parallel `StrReplace×N` on `generated-manifest.yaml` + `work_dev/*.py` in one turn.  
+**Cross-link:** [§ Guest shelf index audit parity (2026-06-28)](#2026-06-28---guest-shelf-index-audit-parity-vs-routing-doctrine) — orthogonal; this entry governs **generated-surface manifest**, not shelf-index parity.
+
+### Trigger
+
+Jun 30 EXECUTE arc: schema/lifecycle + doctrine sweep shipped (`7036d835e`); quick-health triage exposed **repo routing** and **generated surfaces strict** failures. Option **B** enrolled five deferred work-dev orphans (`docs/skill-work/work-dev/generated/*`, `runtime/artifacts/work-dev/continuity-observability/continuity-blocks.md`). First strict pass failed: `export_continuity_blocks.py` raised `ModuleNotFoundError: repo_io` when `check_generated_surfaces.py` invoked it as a **subprocess**. After `sys.path` insert, import-order fix, and timestamp-pinned `--check`, strict passed. Slice committed and pushed (`8a8865969`); Freeman pilot + repo-map `source_index` routes remain local WIP. Handoff flagged parallel `StrReplace` on repo-map/work-dev files mid-ship.
+
+### Extracted law
+
+**1. Manifest enrollment closes orphans — defer prefixes are a bridge, not SSOT**
+
+```text
+GENERATED FILE header on disk
+  → generated-manifest.yaml entry (path + generator + check_args + header patterns)
+  → generator --check (drift_group when one script emits many paths)
+  → remove ORPHAN_DEFER_PREFIXES for that path family
+Deferred prefix without manifest = technical debt that strict mode hides, not fixes
+```
+
+**2. Generator subprocess contract (Windows CI / check_generated_surfaces)**
+
+```text
+Any script listed as manifest generator MUST import cleanly when run as:
+  python scripts/<generator>.py --check
+from repo root with only scripts/ on sys.path
+→ insert scripts/ before repo_io (or other scripts/* imports)
+→ fix shebang / from __future__ order before adding --check
+```
+
+**3. Timestamp-bearing generated markdown — drift check pins receipt**
+
+```text
+If output embeds Generated: `ISO8601`, --check must reuse timestamp from existing file
+(or compare semantic payload only) — otherwise every check run looks "stale"
+```
+
+**4. Slice commits by health gate**
+
+```text
+One commit per failing gate family:
+  manifest/generators | repo-map routing | Freeman pilot | archive ingest
+Mixing WIP into manifest commit breaks bisect and confuses CI blame
+```
+
+### Reapplication
+
+- **New GENERATED FILE surface:** add manifest row + `--check` on generator before clearing defer — do not rely on `ORPHAN_DEFER_PREFIXES` long-term.
+- **New `scripts/work_dev/*.py` generator:** run `python scripts/work_dev/<name>.py --check` from clean subprocess before wiring manifest.
+- **Next repo-map voice with `*-source-index.md`:** add `kind: source_index` route when file lands — `validate_repo_routing` discovers filesystem, not intent.
+- **Next Windows EXECUTE:** one `StrReplace` per file per turn; batch git in one Shell with `;`.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| `generated-manifest.yaml` | +5 work-dev entries (`work-dev-control-plane` drift_group + continuity-blocks) |
+| `scripts/work_dev/render_control_plane_docs.py` | `--check` for four control-plane outputs |
+| `scripts/work_dev/export_continuity_blocks.py` | import order, `sys.path`, timestamp-pinned `--check` |
+| `scripts/check_generated_surfaces.py` | cleared `ORPHAN_DEFER_PREFIXES` |
+| `tests/test_check_generated_surfaces.py` | 21 manifest entries; work-dev enrollment tests |
+| `runtime/artifacts/work-dev/.../continuity-blocks.md` | regenerated receipt |
+| **Pushed** | `8a8865969` |
+| **Still WIP** | repo-map routes (matlock/aguilar/baud/krainer), Freeman pilot, archive indices |
+
+### Guardrail
+
+```text
+Do not add ORPHAN_DEFER_PREFIXES for new generated trees — enroll manifest + --check instead
+Do not assume repo_io imports work in manifest drift subprocess — test --check in isolation
+Do not commit timestamp markdown generators without pinned --check semantics
+Do not duplicate parallel-ban RLJ body — cross-link + narrow only
+```
+
+**Falsification:** If `check_generated_surfaces` gains in-process generator imports (no subprocess), law (2) narrows to "verify subprocess path still used for drift_group."
+
+### Current lesson
+
+```text
+Strict generated-surfaces green = manifest + subprocess-safe generator --check + slice commit —
+not "deferred orphan" prefixes left in the checker forever.
+```
+
+Routing: [generated-manifest.yaml](../generated-manifest.yaml) · [check_generated_surfaces.py](../scripts/check_generated_surfaces.py) · [render_control_plane_docs.py](../scripts/work_dev/render_control_plane_docs.py) · [export_continuity_blocks.py](../scripts/work_dev/export_continuity_blocks.py) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship)
+
+**Pattern promotion:** defer until a second generated tree (e.g. work-dev dashboard batch) reuses enrollment recipe without new law beyond (1)(2).
+
+---
