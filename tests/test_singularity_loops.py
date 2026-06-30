@@ -22,6 +22,11 @@ from singularity_loop_invariants import run_singularity_loop_invariants  # noqa:
 NEW_OPERATING_LOOP_IDS = frozenset(
     {
         "predictive-history-education",
+        "predictive-history-lesson-pipeline",
+        "predictive-history-media-pack",
+        "predictive-history-media-quality-gate",
+        "predictive-history-distribution-pack",
+        "predictive-history-learner-feedback-review",
         "grace-gems-marketplace-ops",
         "grace-gems-product-pipeline",
         "grace-gems-margin-policy-review",
@@ -42,7 +47,7 @@ NEW_OPERATING_LOOP_IDS = frozenset(
 
 def test_build_registry_shape() -> None:
     payload = lib.build_registry_payload()
-    assert len(payload["loops"]) == 20
+    assert len(payload["loops"]) == 25
     ids = {row["id"] for row in payload["loops"]}
     assert NEW_OPERATING_LOOP_IDS <= ids
     assert {

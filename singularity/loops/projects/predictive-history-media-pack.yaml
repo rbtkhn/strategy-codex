@@ -1,0 +1,30 @@
+loop:
+  id: predictive-history-media-pack
+  category: projects
+  trigger:
+    type: event
+    description: Approved lesson package from lesson-pipeline ready for AI-assisted media production
+  inputs:
+    - description: Approved lesson brief, worksheet, quiz, and source packet from singularity/education/predictive-history/lessons/ and related shelves
+    - description: media-packs/media-pack-template.md and tool-notes/ for asset-class selection
+    - description: Layer separation rules from STRATEGIC-PLAN.md (lesson_script, narration_script, slides, voice, video distinct)
+  process:
+    steps:
+      - description: Plan segment structure (6–9 minute segments where possible) from lesson brief
+      - description: Draft slide deck or slide outline from evidence packet
+      - description: Write narration script separate from lesson script
+      - description: Create storyboard mapping visuals to prediction/evidence/causality/outcome
+      - description: Generate visual prompts for diagrams, maps, timelines, and optional B-roll (atmosphere only)
+      - description: Pre-check against anti-slop rules — no decorative visuals without instructional purpose
+      - description: Submit media pack to predictive-history-media-quality-gate
+  outputs:
+    - description: Media pack folder per lesson-id (scripts, slides, storyboard, prompts)
+    - description: Segment plan and Shorts extraction list
+    - description: Layer inventory for downstream composite
+  state:
+    status: active
+  dependencies:
+    - loop_id: predictive-history-lesson-pipeline
+  last_run: null
+  output_shelves:
+    - singularity/education/predictive-history/media-packs/

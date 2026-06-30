@@ -1014,63 +1014,119 @@
       "source_file": "singularity/loops/business/mountain-homestead-wildfire-mitigation-review.yaml"
     },
     {
-      "id": "predictive-history-education",
+      "id": "predictive-history-distribution-pack",
       "category": "projects",
       "trigger": {
         "type": "event",
-        "description": "New or updated lecture or chapter material in rbtkhn/predictive-history suitable for learner-facing conversion or media production"
+        "description": "Media quality gate approved assets ready for channel packaging and publish prep"
       },
       "inputs": [
         {
-          "description": "Upstream corpus at https://github.com/rbtkhn/predictive-history/ and in-repo mirror continuity/predictive-history/ (corpus edits stay in canonical clone; outputs land here)"
+          "description": "Approved media pack and quality-gate record from media-review/"
         },
         {
-          "description": "Existing lesson plans, worksheets, quizzes, media drafts, or curriculum modules under singularity/education/predictive-history/"
+          "description": "Distribution model from STRATEGIC-PLAN.md (YouTube long-form canonical, Shorts, Substack, podcast, future course)"
         },
         {
-          "description": "Target learner profile, such as adult reader, high school, middle school, or first grade"
-        },
-        {
-          "description": "Available AI media tools for visuals, narration, layout, and (when ready) generative video production"
+          "description": "Approved lesson artifacts (worksheet, quiz, source packet) for Substack and archive bundles"
         }
       ],
       "process": {
         "steps": [
           {
-            "description": "Identify one lecture, concept, historical case, prediction framework, or source packet suitable for teaching"
+            "description": "Package YouTube long-form metadata, description, chapters, and disclosure text"
           },
           {
-            "description": "Convert the source material into learner-facing text artifacts (lesson plan, reading guide, worksheet)"
+            "description": "Extract and package 3–5 Shorts with hooks and platform-specific metadata"
           },
           {
-            "description": "Produce AI-assisted media materials — diagrams, slides, illustrations, audio drafts, or other visual aids using current AI tools"
+            "description": "Draft Substack post with source packet, worksheet link, and relationship copy"
           },
           {
-            "description": "Generate supporting materials such as quiz questions, vocabulary, discussion prompts, and answer keys"
+            "description": "Prepare podcast/audio export from approved narration track"
           },
           {
-            "description": "Plan and eventually produce generative-AI-enhanced video per lecture to deepen comprehension (storyboard → draft → review → publish path)"
+            "description": "Archive distribution metadata under lesson-id (no publish automation in this phase)"
           },
           {
-            "description": "File outputs under singularity/education/predictive-history/ with clear lecture linkage"
+            "description": "Mark lesson as published or scheduled for learner-feedback-review intake"
           }
         ]
       },
       "outputs": [
         {
-          "description": "Educational material derived from predictive-history, keyed to lecture or chapter"
+          "description": "YouTube long-form package"
         },
         {
-          "description": "Quiz, worksheet, discussion guide, or lesson plan"
+          "description": "Shorts clip package (3–5 per lesson)"
         },
         {
-          "description": "AI-assisted media pack (slides, visuals, narration script, storyboard)"
+          "description": "Substack post draft with attachments"
         },
         {
-          "description": "Generative-AI-enhanced lecture video or video draft when production-ready"
+          "description": "Podcast/audio package"
         },
         {
-          "description": "Optional child-friendly version when requested"
+          "description": "Course-bundle placeholder when lesson count warrants"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "predictive-history-media-quality-gate"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/education/predictive-history/distribution/"
+      ],
+      "source_file": "singularity/loops/projects/predictive-history-distribution-pack.yaml"
+    },
+    {
+      "id": "predictive-history-education",
+      "category": "projects",
+      "trigger": {
+        "type": "event",
+        "description": "New or updated lecture or chapter material in rbtkhn/predictive-history suitable for learner-facing curriculum conversion"
+      },
+      "inputs": [
+        {
+          "description": "Upstream corpus at https://github.com/rbtkhn/predictive-history/ and in-repo mirror continuity/predictive-history/ (corpus edits stay in canonical clone; outputs land on education shelf)"
+        },
+        {
+          "description": "STRATEGIC-PLAN.md — operating SSOT for pedagogy, pipeline, distribution, and risk register"
+        },
+        {
+          "description": "Target learner profile (adult reader, high school, middle school, first grade)"
+        },
+        {
+          "description": "Existing lesson, media, distribution, or feedback artifacts under singularity/education/predictive-history/ for continuity"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Identify one lecture, chapter, historical prediction case, or concept suitable for a learner-facing unit"
+          },
+          {
+            "description": "Confirm source grounding and learner profile with operator"
+          },
+          {
+            "description": "Route unit to predictive-history-lesson-pipeline — do not produce monolithic video in this loop"
+          },
+          {
+            "description": "Note downstream pipeline — media-pack → media-quality-gate → distribution-pack → learner-feedback-review"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Intake record linking lecture/chapter to lesson-id and target learner"
+        },
+        {
+          "description": "Routing handoff to lesson-pipeline cluster"
         }
       ],
       "state": {
@@ -1082,6 +1138,282 @@
         "singularity/education/predictive-history/"
       ],
       "source_file": "singularity/loops/projects/predictive-history-education.yaml"
+    },
+    {
+      "id": "predictive-history-learner-feedback-review",
+      "category": "projects",
+      "trigger": {
+        "type": "time",
+        "schedule": "monthly",
+        "description": "Monthly review of learner signals from published Predictive History education artifacts"
+      },
+      "inputs": [
+        {
+          "description": "Published distribution packages from singularity/education/predictive-history/distribution/"
+        },
+        {
+          "description": "YouTube retention and comments, Shorts metrics, Substack engagement, quiz/worksheet completion notes"
+        },
+        {
+          "description": "feedback/learner-feedback-review-template.md and STRATEGIC-PLAN.md weekly scorecard"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Collect learner signals from all distribution channels for the review period"
+          },
+          {
+            "description": "Identify confusion themes — prediction vs outcome, evidence weight, vocabulary, pacing"
+          },
+          {
+            "description": "Score monthly metrics against scorecard targets"
+          },
+          {
+            "description": "Build prioritized revision queue for lesson content and media assets"
+          },
+          {
+            "description": "Document curriculum adjustments (vocabulary, segment length, source gaps, tool swaps)"
+          },
+          {
+            "description": "Soft-feed revision items to lesson-pipeline and media-quality-gate (not schema dependencies)"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Monthly learner feedback review (YYYY-MM)"
+        },
+        {
+          "description": "Prioritized revision queue"
+        },
+        {
+          "description": "Scorecard actuals vs targets"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "predictive-history-distribution-pack"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/education/predictive-history/feedback/"
+      ],
+      "source_file": "singularity/loops/projects/predictive-history-learner-feedback-review.yaml"
+    },
+    {
+      "id": "predictive-history-lesson-pipeline",
+      "category": "projects",
+      "trigger": {
+        "type": "event",
+        "description": "Umbrella loop identifies a lecture, chapter, or historical prediction case ready for learner-facing conversion"
+      },
+      "inputs": [
+        {
+          "description": "Selected unit from predictive-history-education intake (lecture/chapter link, target learner profile)"
+        },
+        {
+          "description": "Source material from continuity/predictive-history/ or canonical rbtkhn/predictive-history clone"
+        },
+        {
+          "description": "STRATEGIC-PLAN.md pedagogical spine and lessons/lesson-template.md"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Ground lesson in cited source lecture or chapter — no unsourced factual claims"
+          },
+          {
+            "description": "Draft lesson brief following 10-step pedagogical spine (hook through reflection)"
+          },
+          {
+            "description": "Produce worksheet aligned to learning objectives"
+          },
+          {
+            "description": "Produce retrieval quiz with answer key"
+          },
+          {
+            "description": "Compile source packet (quotes, citations, evidence list)"
+          },
+          {
+            "description": "Verify method spine visible — case → forecast → evidence → outcome → evaluation"
+          },
+          {
+            "description": "Route approved lesson package to predictive-history-media-pack"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Lesson brief per lesson-id"
+        },
+        {
+          "description": "Worksheet and answer guidance"
+        },
+        {
+          "description": "Quiz and answer key"
+        },
+        {
+          "description": "Source packet with citations"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "predictive-history-education"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/education/predictive-history/lessons/",
+        "singularity/education/predictive-history/worksheets/",
+        "singularity/education/predictive-history/quizzes/",
+        "singularity/education/predictive-history/source-packets/"
+      ],
+      "source_file": "singularity/loops/projects/predictive-history-lesson-pipeline.yaml"
+    },
+    {
+      "id": "predictive-history-media-pack",
+      "category": "projects",
+      "trigger": {
+        "type": "event",
+        "description": "Approved lesson package from lesson-pipeline ready for AI-assisted media production"
+      },
+      "inputs": [
+        {
+          "description": "Approved lesson brief, worksheet, quiz, and source packet from singularity/education/predictive-history/lessons/ and related shelves"
+        },
+        {
+          "description": "media-packs/media-pack-template.md and tool-notes/ for asset-class selection"
+        },
+        {
+          "description": "Layer separation rules from STRATEGIC-PLAN.md (lesson_script, narration_script, slides, voice, video distinct)"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Plan segment structure (6–9 minute segments where possible) from lesson brief"
+          },
+          {
+            "description": "Draft slide deck or slide outline from evidence packet"
+          },
+          {
+            "description": "Write narration script separate from lesson script"
+          },
+          {
+            "description": "Create storyboard mapping visuals to prediction/evidence/causality/outcome"
+          },
+          {
+            "description": "Generate visual prompts for diagrams, maps, timelines, and optional B-roll (atmosphere only)"
+          },
+          {
+            "description": "Pre-check against anti-slop rules — no decorative visuals without instructional purpose"
+          },
+          {
+            "description": "Submit media pack to predictive-history-media-quality-gate"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Media pack folder per lesson-id (scripts, slides, storyboard, prompts)"
+        },
+        {
+          "description": "Segment plan and Shorts extraction list"
+        },
+        {
+          "description": "Layer inventory for downstream composite"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "predictive-history-lesson-pipeline"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/education/predictive-history/media-packs/"
+      ],
+      "source_file": "singularity/loops/projects/predictive-history-media-pack.yaml"
+    },
+    {
+      "id": "predictive-history-media-quality-gate",
+      "category": "projects",
+      "trigger": {
+        "type": "event",
+        "description": "Media pack complete and ready for factual, pedagogy, and rights review before publish"
+      },
+      "inputs": [
+        {
+          "description": "Media pack from singularity/education/predictive-history/media-packs/"
+        },
+        {
+          "description": "Source packet and lesson brief for factual cross-check"
+        },
+        {
+          "description": "media-review/media-quality-gate-template.md and tool-notes/rights-and-disclosure.md"
+        }
+      ],
+      "process": {
+        "steps": [
+          {
+            "description": "Review factual accuracy against source packet — dates, names, claims, labeled reconstructions"
+          },
+          {
+            "description": "Review pedagogy — method spine, evidence-before-outcome sequence, instructional purpose of each visual"
+          },
+          {
+            "description": "Review rights and disclosure — commercial safety, likeness, AI disclosure, licensed assets"
+          },
+          {
+            "description": "Review bias and representation — stereotype, omission, prefer diagrams over uncertain personification"
+          },
+          {
+            "description": "Review production quality — audio, pacing, captions plan, segment lengths"
+          },
+          {
+            "description": "Classify as approve, revise, hold, or reject; log rejected assets"
+          },
+          {
+            "description": "Route approved assets to predictive-history-distribution-pack; return revise/hold to media-pack"
+          }
+        ]
+      },
+      "outputs": [
+        {
+          "description": "Media quality gate record per lesson-id"
+        },
+        {
+          "description": "Approve / revise / hold / reject decision"
+        },
+        {
+          "description": "Rejection log for anti-slop signal"
+        }
+      ],
+      "state": {
+        "status": "active"
+      },
+      "dependencies": [
+        {
+          "loop_id": "predictive-history-media-pack"
+        }
+      ],
+      "last_run": null,
+      "output_shelves": [
+        "singularity/education/predictive-history/media-review/"
+      ],
+      "source_file": "singularity/loops/projects/predictive-history-media-quality-gate.yaml"
     },
     {
       "id": "singularity-monthly-synthesis",

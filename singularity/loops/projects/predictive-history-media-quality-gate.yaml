@@ -1,0 +1,30 @@
+loop:
+  id: predictive-history-media-quality-gate
+  category: projects
+  trigger:
+    type: event
+    description: Media pack complete and ready for factual, pedagogy, and rights review before publish
+  inputs:
+    - description: Media pack from singularity/education/predictive-history/media-packs/
+    - description: Source packet and lesson brief for factual cross-check
+    - description: media-review/media-quality-gate-template.md and tool-notes/rights-and-disclosure.md
+  process:
+    steps:
+      - description: Review factual accuracy against source packet — dates, names, claims, labeled reconstructions
+      - description: Review pedagogy — method spine, evidence-before-outcome sequence, instructional purpose of each visual
+      - description: Review rights and disclosure — commercial safety, likeness, AI disclosure, licensed assets
+      - description: Review bias and representation — stereotype, omission, prefer diagrams over uncertain personification
+      - description: Review production quality — audio, pacing, captions plan, segment lengths
+      - description: Classify as approve, revise, hold, or reject; log rejected assets
+      - description: Route approved assets to predictive-history-distribution-pack; return revise/hold to media-pack
+  outputs:
+    - description: Media quality gate record per lesson-id
+    - description: Approve / revise / hold / reject decision
+    - description: Rejection log for anti-slop signal
+  state:
+    status: active
+  dependencies:
+    - loop_id: predictive-history-media-pack
+  last_run: null
+  output_shelves:
+    - singularity/education/predictive-history/media-review/

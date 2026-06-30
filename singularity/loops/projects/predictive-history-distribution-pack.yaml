@@ -1,0 +1,31 @@
+loop:
+  id: predictive-history-distribution-pack
+  category: projects
+  trigger:
+    type: event
+    description: Media quality gate approved assets ready for channel packaging and publish prep
+  inputs:
+    - description: Approved media pack and quality-gate record from media-review/
+    - description: Distribution model from STRATEGIC-PLAN.md (YouTube long-form canonical, Shorts, Substack, podcast, future course)
+    - description: Approved lesson artifacts (worksheet, quiz, source packet) for Substack and archive bundles
+  process:
+    steps:
+      - description: Package YouTube long-form metadata, description, chapters, and disclosure text
+      - description: Extract and package 3–5 Shorts with hooks and platform-specific metadata
+      - description: Draft Substack post with source packet, worksheet link, and relationship copy
+      - description: Prepare podcast/audio export from approved narration track
+      - description: Archive distribution metadata under lesson-id (no publish automation in this phase)
+      - description: Mark lesson as published or scheduled for learner-feedback-review intake
+  outputs:
+    - description: YouTube long-form package
+    - description: Shorts clip package (3–5 per lesson)
+    - description: Substack post draft with attachments
+    - description: Podcast/audio package
+    - description: Course-bundle placeholder when lesson count warrants
+  state:
+    status: active
+  dependencies:
+    - loop_id: predictive-history-media-quality-gate
+  last_run: null
+  output_shelves:
+    - singularity/education/predictive-history/distribution/

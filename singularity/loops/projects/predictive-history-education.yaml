@@ -3,26 +3,21 @@ loop:
   category: projects
   trigger:
     type: event
-    description: New or updated lecture or chapter material in rbtkhn/predictive-history suitable for learner-facing conversion or media production
+    description: New or updated lecture or chapter material in rbtkhn/predictive-history suitable for learner-facing curriculum conversion
   inputs:
-    - description: Upstream corpus at https://github.com/rbtkhn/predictive-history/ and in-repo mirror continuity/predictive-history/ (corpus edits stay in canonical clone; outputs land here)
-    - description: Existing lesson plans, worksheets, quizzes, media drafts, or curriculum modules under singularity/education/predictive-history/
-    - description: Target learner profile, such as adult reader, high school, middle school, or first grade
-    - description: Available AI media tools for visuals, narration, layout, and (when ready) generative video production
+    - description: Upstream corpus at https://github.com/rbtkhn/predictive-history/ and in-repo mirror continuity/predictive-history/ (corpus edits stay in canonical clone; outputs land on education shelf)
+    - description: STRATEGIC-PLAN.md — operating SSOT for pedagogy, pipeline, distribution, and risk register
+    - description: Target learner profile (adult reader, high school, middle school, first grade)
+    - description: Existing lesson, media, distribution, or feedback artifacts under singularity/education/predictive-history/ for continuity
   process:
     steps:
-      - description: Identify one lecture, concept, historical case, prediction framework, or source packet suitable for teaching
-      - description: Convert the source material into learner-facing text artifacts (lesson plan, reading guide, worksheet)
-      - description: Produce AI-assisted media materials — diagrams, slides, illustrations, audio drafts, or other visual aids using current AI tools
-      - description: Generate supporting materials such as quiz questions, vocabulary, discussion prompts, and answer keys
-      - description: Plan and eventually produce generative-AI-enhanced video per lecture to deepen comprehension (storyboard → draft → review → publish path)
-      - description: File outputs under singularity/education/predictive-history/ with clear lecture linkage
+      - description: Identify one lecture, chapter, historical prediction case, or concept suitable for a learner-facing unit
+      - description: Confirm source grounding and learner profile with operator
+      - description: Route unit to predictive-history-lesson-pipeline — do not produce monolithic video in this loop
+      - description: Note downstream pipeline — media-pack → media-quality-gate → distribution-pack → learner-feedback-review
   outputs:
-    - description: Educational material derived from predictive-history, keyed to lecture or chapter
-    - description: Quiz, worksheet, discussion guide, or lesson plan
-    - description: AI-assisted media pack (slides, visuals, narration script, storyboard)
-    - description: Generative-AI-enhanced lecture video or video draft when production-ready
-    - description: Optional child-friendly version when requested
+    - description: Intake record linking lecture/chapter to lesson-id and target learner
+    - description: Routing handoff to lesson-pipeline cluster
   state:
     status: active
   dependencies: []

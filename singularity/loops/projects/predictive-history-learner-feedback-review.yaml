@@ -1,0 +1,30 @@
+loop:
+  id: predictive-history-learner-feedback-review
+  category: projects
+  trigger:
+    type: time
+    schedule: monthly
+    description: Monthly review of learner signals from published Predictive History education artifacts
+  inputs:
+    - description: Published distribution packages from singularity/education/predictive-history/distribution/
+    - description: YouTube retention and comments, Shorts metrics, Substack engagement, quiz/worksheet completion notes
+    - description: feedback/learner-feedback-review-template.md and STRATEGIC-PLAN.md weekly scorecard
+  process:
+    steps:
+      - description: Collect learner signals from all distribution channels for the review period
+      - description: Identify confusion themes — prediction vs outcome, evidence weight, vocabulary, pacing
+      - description: Score monthly metrics against scorecard targets
+      - description: Build prioritized revision queue for lesson content and media assets
+      - description: Document curriculum adjustments (vocabulary, segment length, source gaps, tool swaps)
+      - description: Soft-feed revision items to lesson-pipeline and media-quality-gate (not schema dependencies)
+  outputs:
+    - description: Monthly learner feedback review (YYYY-MM)
+    - description: Prioritized revision queue
+    - description: Scorecard actuals vs targets
+  state:
+    status: active
+  dependencies:
+    - loop_id: predictive-history-distribution-pack
+  last_run: null
+  output_shelves:
+    - singularity/education/predictive-history/feedback/

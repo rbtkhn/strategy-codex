@@ -143,6 +143,6 @@ def test_example_action_card_frontmatter_validates() -> None:
     assert any("grace-gems-margin-policy-review/2026-07-01.md" in line for line in lines)
 
 
-def test_registry_has_twenty_loops() -> None:
+def test_registry_has_twenty_five_loops() -> None:
     registry = load_registry()
-    assert len(registry.get("loops") or []) == 20
+    assert len(registry.get("loops") or []) == 25

@@ -1,0 +1,34 @@
+loop:
+  id: predictive-history-lesson-pipeline
+  category: projects
+  trigger:
+    type: event
+    description: Umbrella loop identifies a lecture, chapter, or historical prediction case ready for learner-facing conversion
+  inputs:
+    - description: Selected unit from predictive-history-education intake (lecture/chapter link, target learner profile)
+    - description: Source material from continuity/predictive-history/ or canonical rbtkhn/predictive-history clone
+    - description: STRATEGIC-PLAN.md pedagogical spine and lessons/lesson-template.md
+  process:
+    steps:
+      - description: Ground lesson in cited source lecture or chapter — no unsourced factual claims
+      - description: Draft lesson brief following 10-step pedagogical spine (hook through reflection)
+      - description: Produce worksheet aligned to learning objectives
+      - description: Produce retrieval quiz with answer key
+      - description: Compile source packet (quotes, citations, evidence list)
+      - description: Verify method spine visible — case → forecast → evidence → outcome → evaluation
+      - description: Route approved lesson package to predictive-history-media-pack
+  outputs:
+    - description: Lesson brief per lesson-id
+    - description: Worksheet and answer guidance
+    - description: Quiz and answer key
+    - description: Source packet with citations
+  state:
+    status: active
+  dependencies:
+    - loop_id: predictive-history-education
+  last_run: null
+  output_shelves:
+    - singularity/education/predictive-history/lessons/
+    - singularity/education/predictive-history/worksheets/
+    - singularity/education/predictive-history/quizzes/
+    - singularity/education/predictive-history/source-packets/

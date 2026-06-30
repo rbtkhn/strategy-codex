@@ -47,7 +47,12 @@ Action card standard: [action-card-standard.md](action-card-standard.md) · shel
 | `singularity-monthly-synthesis` | research | singularity/synthesis/ |
 | `spine-health-check` | research | singularity/workshop/longitudinal/ |
 | `work-cici-daily-ops` | projects | singularity/work-cici/ |
-| `predictive-history-education` | projects | singularity/education/predictive-history/ (lecture-first; AI media now; generative video per lecture as target) |
+| `predictive-history-education` | projects | singularity/education/predictive-history/ (umbrella — source intake, routes to lesson pipeline) |
+| `predictive-history-lesson-pipeline` | projects | singularity/education/predictive-history/lessons/, worksheets/, quizzes/, source-packets/ |
+| `predictive-history-media-pack` | projects | singularity/education/predictive-history/media-packs/ |
+| `predictive-history-media-quality-gate` | projects | singularity/education/predictive-history/media-review/ |
+| `predictive-history-distribution-pack` | projects | singularity/education/predictive-history/distribution/ |
+| `predictive-history-learner-feedback-review` | projects | singularity/education/predictive-history/feedback/ |
 | `grace-gems-product-pipeline` | business | singularity/business/grace-gems/products/, listings/drafts/, listings/photo-checklists/ |
 | `grace-gems-margin-policy-review` | business | singularity/business/grace-gems/listings/review/ |
 | `grace-gems-marketplace-ops` | business | singularity/business/grace-gems/ops/ |
@@ -70,6 +75,10 @@ Action card standard: [action-card-standard.md](action-card-standard.md) · shel
 **Soft feeds (homestead):** risk-register → ops (top 5 actions); utilities-continuity → ops; wildfire/water/septic → maintenance; risk/wildfire/continuity → seasonal-readiness. Full graph: [`singularity/business/mountain-homestead/README.md`](../../singularity/business/mountain-homestead/README.md).
 
 **Soft feeds (Grace Gems):** margin-policy-review → marketplace-ops (approved listings); search-conversion-review → product-pipeline (experiments); customer-promise-audit → margin-policy-review (corrections); customer-service → marketplace-ops (unresolved issues). Full graph: [`singularity/business/grace-gems/README.md`](../../singularity/business/grace-gems/README.md).
+
+**Hard dependencies (Predictive History education):** `predictive-history-education` → `predictive-history-lesson-pipeline` → `predictive-history-media-pack` → `predictive-history-media-quality-gate` → `predictive-history-distribution-pack` → `predictive-history-learner-feedback-review`.
+
+**Soft feeds (PH education):** learner-feedback-review → lesson-pipeline and media-quality-gate (revision queue); media-quality-gate → distribution-pack (approved assets only). Full graph: [`singularity/education/predictive-history/README.md`](../../singularity/education/predictive-history/README.md).
 
 ## Loop schema
 
