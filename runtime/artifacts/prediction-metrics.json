@@ -5,6 +5,15 @@
     "source": "scripts/build_prediction_metrics.py"
   },
   "voices": {
+    "freeman": {
+      "total": 21,
+      "resolved": 2,
+      "scorable": 2,
+      "correct": 2,
+      "incorrect": 0,
+      "unscored": 0,
+      "accuracy": 1.0
+    },
     "mercouris": {
       "total": 2,
       "resolved": 0,

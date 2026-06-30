@@ -1,0 +1,252 @@
+{
+  "_meta": {
+    "source": "scripts/calibrate_auto_file.py",
+    "generated_at": "2026-06-30T05:02:07Z",
+    "event_id": "us_israel_iran_war_preparation_2025",
+    "gold_label": "manual_only (auto_file != true)"
+  },
+  "gold": {
+    "count": 1,
+    "dates": [
+      "2025-01-21"
+    ]
+  },
+  "metrics": {
+    "source_level": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null,
+      "hits": 0,
+      "predicted": 16,
+      "gold": 1
+    },
+    "date_level_filing": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null,
+      "hits": 0,
+      "predicted": 15,
+      "gold": 1
+    },
+    "date_overlap": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null,
+      "hits": 0,
+      "predicted": 15,
+      "gold": 1
+    },
+    "source_in_scored_set": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null,
+      "hits": 0,
+      "predicted": 16,
+      "gold": 1
+    },
+    "filing_source_match": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": null,
+      "hits": 0,
+      "predicted": 15,
+      "gold": 1
+    }
+  },
+  "counts": {
+    "scored_capture_rows": 16,
+    "filing_rows": 15,
+    "production_auto_file_new": 3
+  },
+  "score_distribution": {
+    "gold_mean": null,
+    "non_gold_mean": 0.6375,
+    "gold_min": null,
+    "gold_max": null
+  },
+  "false_negatives": {
+    "dates": [
+      {
+        "pub_date": "2025-01-21",
+        "expected_source": "source-archive/statecraft/2025-01-21/source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md",
+        "file": "statecraft/notes/predictions/us-israel-iran-prep-freeman-2025-01-21.md"
+      }
+    ],
+    "sources_not_scored": [
+      {
+        "source": "source-archive/statecraft/2025-01-21/source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md",
+        "basename": "source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md"
+      }
+    ]
+  },
+  "false_positives_filing": [
+    {
+      "pub_date": "2025-01-14",
+      "source": "source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md",
+      "score": 0.7,
+      "reasons": [
+        "title_match",
+        "body_hook",
+        "strong_body_hook"
+      ],
+      "quote_preview": "ess immoral Middle Eastern Wars a statement with which I think you are no doubt um in agreement are "
+    },
+    {
+      "pub_date": "2025-04-04",
+      "source": "source-archive/statecraft/2025-04-04/source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md",
+      "score": 0.9,
+      "reasons": [
+        "title_match",
+        "body_hook",
+        "strong_body_hook",
+        "restatement_cue"
+      ],
+      "quote_preview": "Larry, your take on the Trump administr are we getting to the point that the Trump administration go"
+    },
+    {
+      "pub_date": "2025-04-18",
+      "source": "source-archive/statecraft/2025-04-18/source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-talks-or-total-war-clock-ticks-for-iran-and-u-s-2025-04-18.md",
+      "score": 0.7,
+      "reasons": [
+        "title_match",
+        "body_hook",
+        "strong_body_hook"
+      ],
+      "quote_preview": "The second point I'd make is, and I think Larry may be able to add more context here, is that appare"
+    },
+    {
+      "pub_date": "2025-05-02",
+      "source": "source-archive/statecraft/2025-05-02/source-dialogue-works-mohammad-marandi-and-amb-chas-freeman-ticking-toward-war-u-s-and-iran-at-a-dangerous-crossroads-2025-05-02.md",
+      "score": 0.4,
+      "reasons": [
+        "title_match",
+        "title_quote_fallback"
+      ],
+      "quote_preview": "Mohammad Marandi & Amb. Chas Freeman: Ticking Toward War? U.S. & Iran at a Dangerous Crossroads"
+    },
+    {
+      "pub_date": "2025-05-06",
+      "source": "source-archive/statecraft/2025-05-06/source-judging-freedom-amb-charles-freeman-an-excuse-for-war-2025-05-06.md",
+      "score": 0.7,
+      "reasons": [
+        "title_match",
+        "body_hook",
+        "strong_body_hook"
+      ],
+      "quote_preview": "In the case of Iran, u Israel's been trying for decades to enlist the United States in a joint attac"
+    },
+    {
+      "pub_date": "2025-05-15",
+      "source": "source-archive/statecraft/2025-05-15/source-india-global-left-trump-gulf-visit-us-israel-gulf-shift-chas-freeman-2025-05-15.md",
+      "score": 0.45,
+      "reasons": [
+        "body_hook",
+        "strong_body_hook",
+        "register_capture"
+      ],
+      "quote_preview": "at they were. Um and I'm sure that Mr. Trump will have heard in Riyadh and in Doha um cautions from "
+    },
+    {
+      "pub_date": "2025-06-14",
+      "source": "source-archive/statecraft/2025-06-14/source-dialogue-works-col-larry-wilkerson-and-chas-freeman-israel-s-attack-on-iran-and-its-devastating-consequences-2025-06-14.md",
+      "score": 0.7,
+      "reasons": [
+        "title_match",
+        "body_hook",
+        "strong_body_hook"
+      ],
+      "quote_preview": "Um and I think uh President Trump in my view uh thought that uh uh cooperating with the Israelis uh "
+    },
+    {
+      "pub_date": "2025-06-21",
+      "source": "source-archive/statecraft/2025-06-21/source-india-global-left-push-war-iran-chas-freeman-2025-06-21.md",
+      "score": 0.85,
+      "reasons": [
+        "title_match",
+        "body_hook",
+        "strong_body_hook",
+        "register_capture"
+      ],
+      "quote_preview": "Um, it has used the cover of the war with Iran to redouble its efforts to uh engage in ethnic cleans"
+    },
+    {
+      "pub_date": "2025-06-24",
+      "source": "source-archive/statecraft/2025-06-24/source-judging-freedom-amb-charles-freeman-why-presidents-love-war-2025-06-24.md",
+      "score": 0.5,
+      "reasons": [
+        "body_hook",
+        "strong_body_hook",
+        "restatement_cue"
+      ],
+      "quote_preview": "And very clearly um uh this uh attack on Iran was not only a violation of international law, but a v"
+    },
+    {
+      "pub_date": "2026-02-24",
+      "source": "source-archive/statecraft/2026-02-24/source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md",
+      "score": 0.85,
+      "reasons": [
+        "title_match",
+        "body_hook",
+        "strong_body_hook",
+        "register_capture"
+      ],
+      "quote_preview": "Nobody else in the region wants uh a war with Iran."
+    },
+    {
+      "pub_date": "2026-02-27",
+      "source": "source-archive/statecraft/2026-02-27/source-dialogue-works-amb-chas-freeman-emergency-diplomacy-oman-s-fm-flies-to-washington-to-av-2026-02-27.md",
+      "score": 0.7,
+      "reasons": [
+        "title_match",
+        "body_hook",
+        "strong_body_hook"
+      ],
+      "quote_preview": "Oman’s FM Flies to Washington to Avert War with Iran\n\nKind: captions\nLanguage: en\n[music]\nHi everybo"
+    },
+    {
+      "pub_date": "2026-03-06",
+      "source": "source-archive/statecraft/2026-03-06/source-dialogue-works-amb-chas-freeman-the-war-with-iran-is-breaking-everything-the-u-s-planne-2026-03-06.md",
+      "score": 0.7,
+      "reasons": [
+        "title_match",
+        "body_hook",
+        "strong_body_hook"
+      ],
+      "quote_preview": "Chas Freeman: The War With Iran Is Breaking Everything the U.S."
+    },
+    {
+      "pub_date": "2026-03-07",
+      "source": "source-archive/statecraft/2026-03-07/source-india-global-left-iran-strategy-pezeshkian-gulf-halt-chas-freeman-2026-03-07.md",
+      "score": 0.45,
+      "reasons": [
+        "body_hook",
+        "strong_body_hook",
+        "register_capture"
+      ],
+      "quote_preview": "Uh And at that meeting, they agreed uh on an attack on Iran."
+    },
+    {
+      "pub_date": "2026-03-23",
+      "source": "source-archive/statecraft/2026-03-23/source-india-global-left-geo-historical-shift-chas-freeman-2026-03-23.md",
+      "score": 0.65,
+      "reasons": [
+        "body_hook",
+        "strong_body_hook",
+        "restatement_cue",
+        "register_capture"
+      ],
+      "quote_preview": "Um And one doesn't know whether Iran was firing or deliberately missing the research station or not,"
+    },
+    {
+      "pub_date": "2026-05-11",
+      "source": "source-archive/statecraft/2026-05-11/source-india-global-left-four-endgames-iran-war-chas-freeman-2026-05-11.md",
+      "score": 0.45,
+      "reasons": [
+        "body_hook",
+        "strong_body_hook",
+        "register_capture"
+      ],
+      "quote_preview": "About 80% support the war with Iran, notwithstanding the damage they've taken, uh the punishment the"
+    }
+  ]
+}

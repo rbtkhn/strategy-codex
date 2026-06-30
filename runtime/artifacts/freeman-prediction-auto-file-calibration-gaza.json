@@ -1,0 +1,128 @@
+{
+  "_meta": {
+    "source": "scripts/calibrate_auto_file.py",
+    "generated_at": "2026-06-30T05:02:04Z",
+    "event_id": "gaza_ceasefire_holds_2025",
+    "gold_label": "manual_only (auto_file != true)"
+  },
+  "gold": {
+    "count": 2,
+    "dates": [
+      "2025-01-21",
+      "2025-10-10"
+    ]
+  },
+  "metrics": {
+    "source_level": {
+      "precision": 0.2857142857142857,
+      "recall": 1.0,
+      "f1": 0.4444444444444445,
+      "hits": 2,
+      "predicted": 7,
+      "gold": 2
+    },
+    "date_level_filing": {
+      "precision": 0.2857142857142857,
+      "recall": 1.0,
+      "f1": 0.4444444444444445,
+      "hits": 2,
+      "predicted": 7,
+      "gold": 2
+    },
+    "date_overlap": {
+      "precision": 0.2857142857142857,
+      "recall": 1.0,
+      "f1": 0.4444444444444445,
+      "hits": 2,
+      "predicted": 7,
+      "gold": 2
+    },
+    "source_in_scored_set": {
+      "precision": 0.2857142857142857,
+      "recall": 1.0,
+      "f1": 0.4444444444444445,
+      "hits": 2,
+      "predicted": 7,
+      "gold": 2
+    },
+    "filing_source_match": {
+      "precision": 0.2857142857142857,
+      "recall": 1.0,
+      "f1": 0.4444444444444445,
+      "hits": 2,
+      "predicted": 7,
+      "gold": 2
+    }
+  },
+  "counts": {
+    "scored_capture_rows": 7,
+    "filing_rows": 7,
+    "production_auto_file_new": 1
+  },
+  "score_distribution": {
+    "gold_mean": 0.625,
+    "non_gold_mean": 0.49000000000000005,
+    "gold_min": 0.55,
+    "gold_max": 0.7
+  },
+  "false_negatives": {
+    "dates": [],
+    "sources_not_scored": []
+  },
+  "false_positives_filing": [
+    {
+      "pub_date": "2025-03-12",
+      "source": "source-archive/statecraft/2025-03-12/source-glenn-diesen-chas-freeman-minsk-3-ceasefire-without-political-settlement-2025-03-12.md",
+      "score": 0.4,
+      "reasons": [
+        "title_match",
+        "title_quote_fallback"
+      ],
+      "quote_preview": "Chas Freeman: Minsk 3? Ceasefire Without Political Settlement"
+    },
+    {
+      "pub_date": "2026-02-24",
+      "source": "source-archive/statecraft/2026-02-24/source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md",
+      "score": 0.45,
+      "reasons": [
+        "body_hook",
+        "strong_body_hook",
+        "register_capture"
+      ],
+      "quote_preview": "Um the Iranians have that capability, I believe, and they will not hold it back."
+    },
+    {
+      "pub_date": "2026-03-23",
+      "source": "source-archive/statecraft/2026-03-23/source-india-global-left-geo-historical-shift-chas-freeman-2026-03-23.md",
+      "score": 0.65,
+      "reasons": [
+        "body_hook",
+        "strong_body_hook",
+        "restatement_cue",
+        "register_capture"
+      ],
+      "quote_preview": "But I I fear that um uh it will not hold out forever um under these assaults."
+    },
+    {
+      "pub_date": "2026-05-08",
+      "source": "source-archive/statecraft/2026-05-08/source-dialogue-works-freeman-hormuz-ceasefire-gulf-states-china-2026-05-08.md",
+      "score": 0.4,
+      "reasons": [
+        "title_match",
+        "title_quote_fallback"
+      ],
+      "quote_preview": "Nima Alkhorshid with Ambassador Charles Freeman: Hormuz, Ceasefire, Gulf States, and China's Role"
+    },
+    {
+      "pub_date": "2026-05-20",
+      "source": "source-archive/statecraft/2026-05-20/source-india-global-left-is-iran-now-a-world-power-chas-freeman-2026-05-20.md",
+      "score": 0.55,
+      "reasons": [
+        "title_match",
+        "register_capture",
+        "title_quote_fallback"
+      ],
+      "quote_preview": "Is Iran Now a World Power? Chas Freeman on Ceasefire, Israel & West Asia's Future"
+    }
+  ]
+}

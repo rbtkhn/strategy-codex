@@ -1,0 +1,42 @@
+{
+  "israel_self_destruction_trajectory": {
+    "title_patterns": ["destroying itself", "self-destruction", "may not survive", "near collapse", "strategy is collapsing", "overextended", "humiliates itself", "grand plan collapsed", "greater israel project", "agenda collapse", "agenda major collapse", "dead-end", "genocide"],
+    "register_notes": ["statecraft/notes/2025-freeman-israel-trajectory-register.md"],
+    "related_event_ids": [],
+    "exclude_patterns": ["american diplomacy", "western diplomacy", "hegemony", "u.s. republic", "law/reason"]
+  },
+  "gaza_hostage_deal_jan_2025": {
+    "title_patterns": ["hostage", "hostage-exchange", "ceasefire deal", "phase-1", "phase 1", "deal likely", "netanyahu on the ropes"],
+    "register_notes": [],
+    "close_date_gate": "2025-01-31",
+    "exclude_patterns": ["won't last", "won't hold", "pause", "take control of gaza", "takeover of gaza", "silent hell", "genocide"]
+  },
+  "us_israel_iran_war_preparation_2025": {
+    "title_patterns": ["preparing for war", "dangerous crossroads", "war with iran", "tick toward war", "clock ticks", "total war", "ultimatum", "attack on iran", "excuse for war"],
+    "register_notes": ["statecraft/notes/2025-freeman-igl-iran-war-push-register.md"],
+    "related_event_ids": ["iran_great_power_direct_war_entry"],
+    "exclude_patterns": ["russia reacts", "backup from russia", "china against the u-s", "direct entry", "what russia can do"]
+  },
+  "gaza_ceasefire_holds_2025": {
+    "title_patterns": ["ceasefire", "pause", "won't last", "won't hold"],
+    "register_notes": ["statecraft/notes/2025-freeman-igl-gaza-ceasefire-register.md"],
+    "register_hook_ids": ["R2-1", "R2-2", "R2-3", "R2-4"],
+    "capture_verify_receipt": "source-archive/statecraft/2025-10-10/source-india-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md"
+  },
+  "ukraine_escalation_russian_capitulation": {
+    "title_patterns": ["kellogg", "capitulation", "escalation", "end war in ukraine", "russian capitulation", "war showdown"],
+    "register_notes": [],
+    "exclude_patterns": ["crimea", "zelenskyy concede", "no-fly zone", "minsk", "proxy war", "dead-end"]
+  },
+  "iran_great_power_direct_war_entry": {
+    "title_patterns": ["backup from russia", "backup from china", "russia help iran", "china against the u-s", "russia reacts", "what russia can do for iran", "involve themselves directly", "direct entry"],
+    "register_notes": [],
+    "related_event_ids": ["us_israel_iran_war_preparation_2025"],
+    "exclude_patterns": ["preparing for war", "dangerous crossroads", "istanbul", "crossroads", "attack on iran"]
+  },
+  "china_tariff_capitulation_2025": {
+    "title_patterns": ["cave on trump", "tariff", "capitulat", "trade war", "substantive yield", "dump trump"],
+    "register_notes": [],
+    "exclude_patterns": ["is china a friend", "greenland", "zelenskyy", "thucydides", "hegseth", "kidnapper", "iran-russia-china axis"]
+  }
+}

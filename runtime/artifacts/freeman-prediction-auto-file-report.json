@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "source": "scripts/auto_materialize_freeman_predictions.py",
+    "generated_at": "2026-06-30T05:18:17Z",
+    "candidate_count": 2
+  },
+  "by_event": {
+    "us_israel_iran_war_preparation_2025": 2
+  },
+  "candidates": [
+    {
+      "event_id": "us_israel_iran_war_preparation_2025",
+      "pub_date": "2025-01-17",
+      "source": "source-archive/statecraft/2025-01-17/source-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md",
+      "score": 0.3,
+      "threshold": 0.68,
+      "stance": "yes",
+      "speech_act": "restated",
+      "reasons": [
+        "body_hook",
+        "strong_body_hook",
+        "early_body_window"
+      ],
+      "quote_preview": "hatever\n\ntough love he gave\n\nhim it's entirely possible that he\n\ncommitted the United States under Trump\n\nto join in an "
+    },
+    {
+      "event_id": "us_israel_iran_war_preparation_2025",
+      "pub_date": "2025-01-24",
+      "source": "source-archive/statecraft/2025-01-24/source-dialogue-works-amb-chas-freeman-is-the-world-on-the-brink-of-total-chaos-2025-01-24.md",
+      "score": 0.3,
+      "threshold": 0.68,
+      "stance": "yes",
+      "speech_act": "restated",
+      "reasons": [
+        "body_hook",
+        "strong_body_hook",
+        "early_body_window"
+      ],
+      "quote_preview": "d Trump would be the case of Iran and he said that he wants to talk with Iranians and he had has the option of going to "
+    }
+  ]
+}
