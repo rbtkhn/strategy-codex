@@ -29,6 +29,8 @@ lecture/chapter intake → lesson brief → worksheet/quiz → media pack → qu
 
 **Tool notes:** [`tool-notes/`](tool-notes/README.md)
 
+**Related external patterns:** [`tool-notes/related-projects.md`](tool-notes/related-projects.md) — e.g. [Jiang Lens](https://github.com/apresmoi/jianglens); external implementation reference only, not canonical PH source (see [STRATEGIC-PLAN.md](STRATEGIC-PLAN.md#related-external-pattern--jiang-lens))
+
 **Action cards:** [`../../action-cards/predictive-history-lesson-pipeline/`](../../action-cards/predictive-history-lesson-pipeline/) · [standard](../../../docs/singularity/action-card-standard.md)
 
 ## Hard dependencies
@@ -49,12 +51,40 @@ predictive-history-distribution-pack → predictive-history-learner-feedback-rev
 | `predictive-history-learner-feedback-review` | `predictive-history-media-quality-gate` | Asset/process revision queue |
 | `predictive-history-media-quality-gate` | `predictive-history-distribution-pack` | Approved assets only |
 
-## Upstream sources (read / cite; do not treat this shelf as corpus SSOT)
+## Corpus boundary
 
-- Canonical repo: [rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history)
-- In-repo mirror: [`continuity/predictive-history/`](../../continuity/predictive-history/README.md)
+The canonical Predictive History public corpus lives in [rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history).
 
-Corpus edits belong in the canonical clone; this shelf holds learner-facing artifacts only.
+This Singularity shelf does **not** recreate that taxonomy. It consumes the canonical indexes, cards, transcripts, commentaries, and route metadata from the public corpus repo, then produces learner-facing derivatives.
+
+In-repo mirror (read/cite only): [`continuity/predictive-history/`](../../continuity/predictive-history/README.md) — corpus edits stay in the canonical clone.
+
+**Use `rbtkhn/predictive-history` for:**
+
+- source taxonomy
+- lecture / essay / interview catalog
+- transcripts
+- commentary canvases
+- public cards
+- LLM context packets
+- route metadata
+
+**Use this shelf for:**
+
+- lesson packages
+- worksheets
+- quizzes
+- media packs
+- media-quality reviews
+- distribution packages
+- learner-feedback reviews
+
+Boundary rule:
+
+```text
+corpus source of truth → rbtkhn/predictive-history
+curriculum/media loop outputs → strategy-codex/singularity/education/predictive-history
+```
 
 ## Month 1 target (operator-created)
 

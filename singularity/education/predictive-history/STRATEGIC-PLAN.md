@@ -4,7 +4,7 @@ WORK only; not Record.
 
 **Scope:** `singularity/education/predictive-history/` and loop cluster `predictive-history-*`.
 
-**One-line strategy:** Predictive History becomes a source-grounded education media engine — each historical prediction case becomes a lesson, each lesson becomes a media pack, each media pack passes a quality gate, and each published artifact feeds learner feedback back into the curriculum.
+**One-line strategy:** Predictive History becomes a source-grounded education media engine — Singularity consumes the canonical public corpus and produces learner-facing derivatives; it does not mirror corpus taxonomy.
 
 ---
 
@@ -180,12 +180,40 @@ Output: `feedback/2026-09.md`
 
 ---
 
-## Upstream sources (read only)
+## Corpus boundary
 
-- Canonical: [rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history)
-- In-repo mirror: [`continuity/predictive-history/`](../../../continuity/predictive-history/README.md)
+The canonical Predictive History public corpus lives in [rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history).
 
-Corpus edits stay in the canonical clone; this shelf holds learner-facing artifacts only.
+This Singularity shelf does **not** recreate that taxonomy. It consumes the canonical indexes, cards, transcripts, commentaries, and route metadata from the public corpus repo, then produces learner-facing derivatives.
+
+In-repo mirror (read/cite only): [`continuity/predictive-history/`](../../../continuity/predictive-history/README.md) — corpus edits stay in the canonical clone.
+
+**Use `rbtkhn/predictive-history` for:**
+
+- source taxonomy
+- lecture / essay / interview catalog
+- transcripts
+- commentary canvases
+- public cards
+- LLM context packets
+- route metadata
+
+**Use this shelf for:**
+
+- lesson packages
+- worksheets
+- quizzes
+- media packs
+- media-quality reviews
+- distribution packages
+- learner-feedback reviews
+
+Boundary rule:
+
+```text
+corpus source of truth → rbtkhn/predictive-history
+curriculum/media loop outputs → strategy-codex/singularity/education/predictive-history
+```
 
 ---
 

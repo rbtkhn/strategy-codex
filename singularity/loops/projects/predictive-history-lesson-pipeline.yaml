@@ -3,14 +3,17 @@ loop:
   category: projects
   trigger:
     type: event
-    description: Umbrella loop identifies a lecture, chapter, or historical prediction case ready for learner-facing conversion
+    description: Education intake routes a canonical corpus unit ready for learner-facing lesson conversion
   inputs:
-    - description: Selected unit from predictive-history-education intake (lecture/chapter link, target learner profile)
-    - description: Source material from continuity/predictive-history/ or canonical rbtkhn/predictive-history clone
-    - description: STRATEGIC-PLAN.md pedagogical spine and lessons/lesson-template.md
+    - description: Canonical chapter/card/index material from rbtkhn/predictive-history, especially data/cards.jsonl, docs/predictive-history-index.md/json, lecture/essay/interview chapter folders, transcripts, and commentary canvases
+    - description: Selected unit from predictive-history-education intake, including chapter id, route, target learner, and lesson objective
+    - description: STRATEGIC-PLAN.md pedagogical spine, corpus boundary, and lessons/lesson-template.md
+    - description: Existing learner-facing artifacts under singularity/education/predictive-history/
   process:
     steps:
-      - description: Ground lesson in cited source lecture or chapter — no unsourced factual claims
+      - description: Ground lesson in canonical Predictive History source material; do not create new corpus records here
+      - description: Convert the selected source unit into a lesson brief, worksheet, quiz, answer key, and media requirements
+      - description: Preserve links back to canonical repo paths and chapter/card ids
       - description: Draft lesson brief following 10-step pedagogical spine (hook through reflection)
       - description: Produce worksheet aligned to learning objectives
       - description: Produce retrieval quiz with answer key

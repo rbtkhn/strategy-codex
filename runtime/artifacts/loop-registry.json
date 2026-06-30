@@ -1089,35 +1089,41 @@
       "category": "projects",
       "trigger": {
         "type": "event",
-        "description": "New or updated lecture or chapter material in rbtkhn/predictive-history suitable for learner-facing curriculum conversion"
+        "description": "New or updated lecture, essay, interview, route, or chapter material in rbtkhn/predictive-history suitable for learner-facing curriculum conversion"
       },
       "inputs": [
         {
-          "description": "Upstream corpus at https://github.com/rbtkhn/predictive-history/ and in-repo mirror continuity/predictive-history/ (corpus edits stay in canonical clone; outputs land on education shelf)"
+          "description": "Canonical public corpus from rbtkhn/predictive-history, especially data/cards.jsonl, docs/predictive-history-index.md/json, llms-full.txt, and chapter folders"
         },
         {
-          "description": "STRATEGIC-PLAN.md — operating SSOT for pedagogy, pipeline, distribution, and risk register"
+          "description": "Selected lecture, essay, interview, route, or chapter candidate for learner-facing conversion"
         },
         {
-          "description": "Target learner profile (adult reader, high school, middle school, first grade)"
+          "description": "Target learner profile and lesson objective"
         },
         {
-          "description": "Existing lesson, media, distribution, or feedback artifacts under singularity/education/predictive-history/ for continuity"
+          "description": "STRATEGIC-PLAN.md — operating SSOT for pedagogy, pipeline, distribution, and corpus boundary"
+        },
+        {
+          "description": "Existing curriculum/media artifacts under singularity/education/predictive-history/ for continuity"
+        },
+        {
+          "description": "In-repo mirror continuity/predictive-history/ for read/cite only (corpus edits stay in canonical clone)"
         }
       ],
       "process": {
         "steps": [
           {
-            "description": "Identify one lecture, chapter, historical prediction case, or concept suitable for a learner-facing unit"
+            "description": "Select one canonical corpus item or route from rbtkhn/predictive-history"
           },
           {
-            "description": "Confirm source grounding and learner profile with operator"
+            "description": "Confirm chapter id, source path, route context, and target learner"
           },
           {
-            "description": "Route unit to predictive-history-lesson-pipeline — do not produce monolithic video in this loop"
+            "description": "Route the item to predictive-history-lesson-pipeline"
           },
           {
-            "description": "Note downstream pipeline — media-pack → media-quality-gate → distribution-pack → learner-feedback-review"
+            "description": "Do not duplicate corpus taxonomy or canonical source records inside singularity/"
           }
         ]
       },
@@ -1210,23 +1216,32 @@
       "category": "projects",
       "trigger": {
         "type": "event",
-        "description": "Umbrella loop identifies a lecture, chapter, or historical prediction case ready for learner-facing conversion"
+        "description": "Education intake routes a canonical corpus unit ready for learner-facing lesson conversion"
       },
       "inputs": [
         {
-          "description": "Selected unit from predictive-history-education intake (lecture/chapter link, target learner profile)"
+          "description": "Canonical chapter/card/index material from rbtkhn/predictive-history, especially data/cards.jsonl, docs/predictive-history-index.md/json, lecture/essay/interview chapter folders, transcripts, and commentary canvases"
         },
         {
-          "description": "Source material from continuity/predictive-history/ or canonical rbtkhn/predictive-history clone"
+          "description": "Selected unit from predictive-history-education intake, including chapter id, route, target learner, and lesson objective"
         },
         {
-          "description": "STRATEGIC-PLAN.md pedagogical spine and lessons/lesson-template.md"
+          "description": "STRATEGIC-PLAN.md pedagogical spine, corpus boundary, and lessons/lesson-template.md"
+        },
+        {
+          "description": "Existing learner-facing artifacts under singularity/education/predictive-history/"
         }
       ],
       "process": {
         "steps": [
           {
-            "description": "Ground lesson in cited source lecture or chapter — no unsourced factual claims"
+            "description": "Ground lesson in canonical Predictive History source material; do not create new corpus records here"
+          },
+          {
+            "description": "Convert the selected source unit into a lesson brief, worksheet, quiz, answer key, and media requirements"
+          },
+          {
+            "description": "Preserve links back to canonical repo paths and chapter/card ids"
           },
           {
             "description": "Draft lesson brief following 10-step pedagogical spine (hook through reflection)"
