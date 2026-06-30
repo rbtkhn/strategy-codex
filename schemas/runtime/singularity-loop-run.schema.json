@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/singularity-loop-run.schema.json",
+  "title": "Singularity loop run receipt",
+  "type": "object",
+  "required": [
+    "timestamp",
+    "loop_id",
+    "status",
+    "action_card"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "timestamp": {
+      "type": "string"
+    },
+    "loop_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$"
+    },
+    "status": {
+      "enum": ["planned", "done", "blocked", "skipped", "revised", "rejected"]
+    },
+    "action_card": {
+      "type": "string"
+    },
+    "proof_artifact": {
+      "type": ["string", "null"]
+    },
+    "blocked_reason": {
+      "type": ["string", "null"]
+    },
+    "next_loop_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$"
+      }
+    },
+    "notes": {
+      "type": ["string", "null"]
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

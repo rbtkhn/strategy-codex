@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/singularity-action-card.schema.json",
+  "title": "Singularity action card frontmatter",
+  "type": "object",
+  "required": ["loop_id", "date", "status"],
+  "additionalProperties": true,
+  "properties": {
+    "loop_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$"
+    },
+    "date": {
+      "type": "string"
+    },
+    "status": {
+      "enum": ["planned", "done", "blocked", "skipped", "revised", "rejected"]
+    },
+    "operator": {
+      "type": "string"
+    },
+    "related_loops": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "proof_artifact": {
+      "type": ["string", "null"]
+    },
+    "next_loop_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

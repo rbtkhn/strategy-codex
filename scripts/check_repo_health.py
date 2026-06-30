@@ -50,6 +50,7 @@ def run_quick() -> int:
         (["python3", "scripts/check_freeman_predictions.py"], "freeman predictions shape"),
         (["python3", "scripts/build_loop_registry.py", "--check"], "loop registry fresh"),
         (["python3", "scripts/check_loop_registry.py"], "loop registry shape"),
+        (["python3", "scripts/check_singularity_loop_runs.py"], "singularity loop run receipts"),
         (["python3", "scripts/validate_all_schemas.py", "--scope", "singularity"], "singularity schema validation"),
         (["python3", "scripts/check_statecraft_notes.py", "--warn"], "statecraft notes gate"),
         (

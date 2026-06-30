@@ -39,6 +39,8 @@ Every weekly task, monthly repair, and seasonal gate should reduce wildfire, con
 
 **Templates:** risk register · mitigation proof · 72-hour continuity · water · septic · access (paths under each shelf README).
 
+**Action cards:** [`../../action-cards/mountain-homestead-risk-register/`](../../action-cards/mountain-homestead-risk-register/) · [standard](../../../docs/singularity/action-card-standard.md)
+
 ## Hard dependencies
 
 ```text

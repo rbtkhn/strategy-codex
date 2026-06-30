@@ -54,3 +54,15 @@ schemas:
     applies_to: runtime/artifacts/singularity-signals.json
     format: json
     scope: singularity
+
+  singularity_loop_run:
+    path: schemas/runtime/singularity-loop-run.schema.json
+    applies_to: runtime/operator-events/singularity-loop-runs.jsonl
+    format: jsonl
+    scope: singularity
+
+  singularity_action_card:
+    path: schemas/runtime/singularity-action-card.schema.json
+    applies_to: singularity/action-cards/*/**/*.md
+    format: markdown_frontmatter
+    scope: singularity

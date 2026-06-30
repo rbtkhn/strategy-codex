@@ -23,6 +23,7 @@ Recurring work is declared as **loops** under [`singularity/loops/`](loops/READM
 
 - [Education outputs](education/predictive-history/README.md) — predictive-history teaching materials
 - [Business outputs](business/README.md) — Grace Gems and mountain homestead operating cards
+- [Action cards](action-cards/README.md) — dated loop work orders and receipt staging
 
 - [Loop system spec](../docs/singularity/loop-system.md) — schema, clusters, orchestrator stub
 - Generated registry: `runtime/artifacts/loop-registry.json` via `scripts/build_loop_registry.py`

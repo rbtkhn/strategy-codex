@@ -14,6 +14,7 @@ Append-only JSONL ledgers for pipeline, merge, cadence, and WORK learning — **
 | `repo-convergence.jsonl` | Repo convergence loop outcomes (`run_repo_convergence.py`) |
 | `merge-receipts.jsonl` | Merge batch receipts |
 | `cadence-learning-events.jsonl` | Coffee / dream cadence learning |
+| `singularity-loop-runs.jsonl` | Singularity loop run receipts (action card → proof) |
 | `business-ledger.jsonl` | Business transactions (instance root copy) |
 | `fork-lineage.jsonl` | Fork lineage |
 | `strategy-fold-events.jsonl` | Strategy notebook fold events |

@@ -15,6 +15,8 @@ A **loop** is a recurring operational job with declared triggers, inputs, proces
 | Loop definitions | `singularity/loops/**/*.yaml` | SSOT for recurring jobs |
 | Generated registry | `runtime/artifacts/loop-registry.json` | Build artifact for orchestration and CI |
 | Orchestrator signals | `runtime/artifacts/singularity-signals.json` | Pending, blocked, and attention-required loop ids |
+| Action cards | `singularity/action-cards/` | Dated work orders (WORK artifacts) |
+| Run receipts | `runtime/operator-events/singularity-loop-runs.jsonl` | Append-only loop execution history |
 | Output shelves | `singularity/notes/`, `essays/`, `synthesis/`, `workshop/` | Grandfathered interpretive holdings |
 | Operating shelves | `singularity/education/`, `singularity/business/` | Loop output cards and business/education artifacts |
 | Domain signals | `singularity/workshop/longitudinal/innermost-loop-signals.json` | Innermost Loop coverage data (not orchestrator state) |
@@ -32,7 +34,9 @@ scripts/      = execution layer
 
 Combined flow: **perception → decision → action → feedback**
 
-Current phase: **declare → validate → surface attention → produce action cards** — not yet execute/delegate/automate.
+Current phase: **declare → action card → proof → receipt → next-loop feed** — not yet execute/delegate/automate automatically.
+
+Action card standard: [action-card-standard.md](action-card-standard.md) · shelf: [`singularity/action-cards/`](../../singularity/action-cards/README.md)
 
 ## Operating loop clusters
 
@@ -116,6 +120,9 @@ Cross-object invariants (unique ids, valid dependencies, no cycles) are enforced
 singularity/loops/*.yaml  →  build_loop_registry.py  →  loop-registry.json
                                                       →  run_singularity_loops.py (stub)
                                                       →  singularity-signals.json (--status)
+singularity/action-cards/<loop-id>/<date>.md  →  proof artifact
+                                              →  append_singularity_loop_run.py
+                                              →  singularity-loop-runs.jsonl
 ```
 
 ## Orchestrator (v1 stub)
@@ -148,6 +155,7 @@ python3 scripts/build_loop_registry.py
 python3 scripts/build_loop_registry.py --check
 python3 scripts/check_loop_registry.py
 python3 scripts/run_singularity_loops.py --active-only
+python3 scripts/check_singularity_loop_runs.py
 python3 scripts/validate_all_schemas.py --scope singularity
 python3 scripts/check_repo_health.py --quick
 ```
@@ -155,5 +163,6 @@ python3 scripts/check_repo_health.py --quick
 ## Non-goals (current phase)
 
 - No automated scheduling or AI delegation
+- No automatic `last_run` updates from run receipts
 - No merge of innermost-loop domain signals into orchestrator signals
 - No deletion or mass relocation of grandfathered output shelves
