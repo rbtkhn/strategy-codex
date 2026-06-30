@@ -10,7 +10,7 @@ Operator index for the **seven-event Freeman prediction pilot**: falsifiable que
 
 | event_id | Status | Close | Wire resolution stub | Register / bridge | Shelf |
 | --- | --- | --- | --- | --- | --- |
-| `israel_self_destruction_trajectory` | open | 2025-12-31 | *(stub pending)* | [Israel trajectory register](../../notes/2025-freeman-israel-trajectory-register.md) | [§ israel](freeman-predictions.md#israel_self_destruction_trajectory) |
+| `israel_self_destruction_trajectory` | open | 2025-12-31 | [prediction-resolution-israel-self-destruction-trajectory.md](../../notes/wire/prediction-resolution-israel-self-destruction-trajectory.md) | [Israel trajectory register](../../notes/2025-freeman-israel-trajectory-register.md) | [§ israel](freeman-predictions.md#israel_self_destruction_trajectory) |
 | `ukraine_escalation_russian_capitulation` | resolved · **no** | 2025-12-31 | [prediction-resolution-ukraine-escalation-russian-capitulation.md](../../notes/wire/prediction-resolution-ukraine-escalation-russian-capitulation.md) | — | [§ ukraine](freeman-predictions.md#ukraine_escalation_russian_capitulation) |
 | `gaza_hostage_deal_jan_2025` | resolved · **yes** | 2025-01-31 | [prediction-resolution-gaza-hostage-deal-jan-2025.md](../../notes/wire/prediction-resolution-gaza-hostage-deal-jan-2025.md) | — | [§ hostage](freeman-predictions.md#gaza_hostage_deal_jan_2025) |
 | `gaza_ceasefire_holds_2025` | open | 2025-12-31 | [prediction-resolution-gaza-ceasefire-holds-2025.md](../../notes/wire/prediction-resolution-gaza-ceasefire-holds-2025.md) | [IGL Gaza ceasefire register](../../notes/2025-freeman-igl-gaza-ceasefire-register.md) | [§ ceasefire](freeman-predictions.md#gaza_ceasefire_holds_2025) |
@@ -27,8 +27,6 @@ Operator index for the **seven-event Freeman prediction pilot**: falsifiable que
 3. Fill **Resolution decision (operator)** on the stub; set `resolution_source` text for registry paste.
 4. Update [event-registry.json](../../data/event-registry.json) (`status`, `outcome`, `resolved_date`, `resolution_source`) when closing.
 5. Rebuild generated surfaces (below) so [freeman-predictions.md](freeman-predictions.md) and [prediction-registry.json](../../../runtime/artifacts/prediction-registry.json) reflect closure.
-
-**Israel trajectory gap:** no wire stub yet — add `statecraft/notes/wire/prediction-resolution-israel-self-destruction-trajectory.md` before operator close; mirror sibling stub shape (hooks table + resolution decision block).
 
 ## Auto-file and calibration
 
@@ -55,7 +53,6 @@ python3 scripts/check_freeman_predictions.py
 
 ## Stub checklist (operator)
 
-- [ ] Israel wire resolution stub created and linked from this page + shelf
 - [ ] Open events graded at `close_date` with wire receipts in stub hooks
 - [ ] Registry rows updated after each resolution decision
 - [ ] Auto-file calibration re-run after hook/config changes

@@ -12,6 +12,8 @@ Purpose: event-first map of Freeman falsifiable stances — restatements, shifts
 **Question:** Is Israel on a self-destructive trajectory (international isolation, moral authority loss, military overextension) through 2025-12-31?  
 **Event status:** open · **Freeman latest:** yes (2026-06-06) · **Arc:** 15 touchpoints · 0 shifts · 7 restatements · 0 reviews
 
+**Resolution stub:** [../../notes/wire/prediction-resolution-israel-self-destruction-trajectory.md](../../notes/wire/prediction-resolution-israel-self-destruction-trajectory.md)
+
 | date | speech_act | stance | capture | note |
 | --- | --- | --- | --- | --- |
 | 2025-01-07 | initial | yes | [2025-01-07 Napolitano](../../../source-archive/statecraft/2025-01-07/source-judging-freedom-amb-chas-freeman-is-israel-destroying-itself-2025-01-07.md) | [israel-self-destruction-freeman-2025-01-07](../../notes/predictions/israel-self-destruction-freeman-2025-01-07.md) |

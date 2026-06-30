@@ -39,6 +39,9 @@ from prediction_lib import (  # noqa: E402
 assert LIB_ROOT == REPO_ROOT
 
 WIRE_STUBS: dict[str, str] = {
+    "israel_self_destruction_trajectory": (
+        "statecraft/notes/wire/prediction-resolution-israel-self-destruction-trajectory.md"
+    ),
     "gaza_ceasefire_holds_2025": "statecraft/notes/wire/prediction-resolution-gaza-ceasefire-holds-2025.md",
     "us_israel_iran_war_preparation_2025": (
         "statecraft/notes/wire/prediction-resolution-us-israel-iran-war-preparation-2025.md"
