@@ -20,6 +20,7 @@ from freeman_prediction_auto_file import (  # noqa: E402
     collect_auto_file_candidates,
     load_auto_file_config,
     note_path_for,
+    prune_stale_auto_file_notes,
     render_auto_file_note,
 )
 from prediction_lib import render_json  # noqa: E402
@@ -29,10 +30,16 @@ def auto_materialize(
     *,
     dry_run: bool = False,
     force: bool = False,
+    prune: bool = False,
     event_id_filter: str | None = None,
     report_path: Path,
-) -> tuple[int, int, int]:
+) -> tuple[int, int, int, int]:
     auto_cfg = load_auto_file_config()
+    pruned = 0
+    if prune:
+        removed, _ = prune_stale_auto_file_notes(dry_run=dry_run, event_id_filter=event_id_filter)
+        pruned = len(removed)
+
     candidates = collect_auto_file_candidates(auto_cfg=auto_cfg, event_id_filter=event_id_filter)
     written = skipped = 0
 
@@ -61,27 +68,33 @@ def auto_materialize(
         report_path.parent.mkdir(parents=True, exist_ok=True)
         report_path.write_text(render_json(report), encoding="utf-8")
 
-    return written, skipped, len(candidates)
+    return written, skipped, len(candidates), pruned
 
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--force", action="store_true", help="Overwrite existing note files")
+    ap.add_argument(
+        "--prune",
+        action="store_true",
+        help="Delete stale auto_file notes before materializing",
+    )
     ap.add_argument("--event-id", default=None, help="Limit to one pilot event_id")
     ap.add_argument("--report", type=Path, default=DEFAULT_REPORT)
     args = ap.parse_args()
 
-    written, skipped, total = auto_materialize(
+    written, skipped, total, pruned = auto_materialize(
         dry_run=args.dry_run,
         force=args.force,
+        prune=args.prune,
         event_id_filter=args.event_id,
         report_path=args.report,
     )
     mode = "dry-run" if args.dry_run else "wrote"
     print(
         f"[ok] auto_materialize_freeman_predictions: {mode} {written} note(s), "
-        f"skipped {skipped} existing, {total} candidate(s) scored above threshold"
+        f"pruned {pruned}, skipped {skipped} existing, {total} candidate(s) scored above threshold"
     )
     return 0
 

@@ -54,6 +54,7 @@ HOST_ONLY = re.compile(
     r"^(hi everyone|judge andrew|ambassador chaz freeman will be|today is tuesday)",
     re.I,
 )
+AUTO_FILE_RE = re.compile(r"^auto_file:\s*true\s*$", re.M)
 
 
 @dataclass
@@ -522,12 +523,13 @@ def collect_auto_file_candidates(
     *,
     auto_cfg: dict[str, Any] | None = None,
     event_id_filter: str | None = None,
+    respect_existing: bool = True,
 ) -> list[ScoredCandidate]:
     auto_cfg = auto_cfg or load_auto_file_config()
     thesis = load_thesis_map()
     register_index = build_register_index(thesis, auto_cfg)
-    skip_keys = existing_note_keys()
-    skip_dates = existing_note_dates()
+    skip_keys = existing_note_keys() if respect_existing else set()
+    skip_dates = existing_note_dates() if respect_existing else {}
     grouped: dict[tuple, list[ScoredCandidate]] = {}
 
     for pub, path, meta in iter_freeman_captures():
@@ -615,6 +617,51 @@ def note_path_for(candidate: ScoredCandidate) -> Path:
     if not slug:
         raise ValueError(f"unknown event_id: {candidate.event_id}")
     return PREDICTIONS_DIR / f"{slug}-freeman-{candidate.pub_date}.md"
+
+
+def iter_on_disk_auto_file_notes() -> list[Any]:
+    notes = []
+    for note in collect_prediction_notes():
+        if note.speaker != FREEMAN_SPEAKER:
+            continue
+        text = note.path.read_text(encoding="utf-8", errors="replace")
+        if AUTO_FILE_RE.search(text):
+            notes.append(note)
+    return notes
+
+
+def prune_stale_auto_file_notes(
+    *,
+    dry_run: bool = False,
+    event_id_filter: str | None = None,
+) -> tuple[list[Path], list[ScoredCandidate]]:
+    """Remove auto_file notes that the current scorer would not file."""
+    auto_cfg = load_auto_file_config()
+    winners = collect_auto_file_candidates(
+        auto_cfg=auto_cfg,
+        event_id_filter=event_id_filter,
+        respect_existing=False,
+    )
+    winner_by_key = {(c.event_id, c.pub_date): c for c in winners}
+    pruned: list[Path] = []
+
+    for note in iter_on_disk_auto_file_notes():
+        if event_id_filter and note.event_id != event_id_filter:
+            continue
+        winner = winner_by_key.get((note.event_id, note.date_made))
+        src = note.source.replace("\\", "/")
+        stale = winner is None or winner.source != src
+        if not stale:
+            continue
+        pruned.append(note.path)
+        rel = note.path.relative_to(REPO_ROOT).as_posix()
+        if dry_run:
+            print(f"[dry-run] prune {rel}")
+        else:
+            note.path.unlink()
+            print(f"[ok] pruned {rel}")
+
+    return pruned, winners
 
 
 def build_report_payload(candidates: list[ScoredCandidate]) -> dict[str, Any]:
