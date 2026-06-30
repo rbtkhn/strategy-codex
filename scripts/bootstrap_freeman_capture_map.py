@@ -12,15 +12,17 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from freeman_prediction_pilot import (  # noqa: E402
+from voice_prediction_pilot import (  # noqa: E402
     FREEMAN_CAPTURE_MAP,
     FREEMAN_PILOT_EVENT_ORDER,
     FREEMAN_PREDICTIONS_JSON,
     excerpt_in_capture,
+    get_voice_config,
     load_capture_map,
     load_public_map,
     parse_capture_frontmatter,
     validate_capture_row,
+    validate_curated_capture_map as validate_curated_capture_map_for_voice,
     word_count,
 )
 
@@ -269,30 +271,12 @@ def validate_curated_capture_map(
     capture_map_path: Path = FREEMAN_CAPTURE_MAP,
     public_map_path: Path = DEFAULT_PUBLIC_MAP,
 ) -> tuple[list[str], int]:
-    issues: list[str] = []
-    public_map = load_public_map(public_map_path)
-    rows = load_capture_map(capture_map_path)
-    anchors = {
-        event_id: str(public_map[event_id].get("anchor_capture") or "")
-        for event_id in FREEMAN_PILOT_EVENT_ORDER
-    }
-    for row in rows:
-        cap_path = REPO_ROOT / str(row["capture"]).replace("\\", "/")
-        if not cap_path.is_file():
-            issues.append(f"missing capture {row['capture']}")
-            continue
-        _, body = parse_capture_frontmatter(cap_path.read_text(encoding="utf-8"))
-        event_id = str(row["event_id"])
-        is_anchor = str(row.get("capture") or "") == anchors.get(event_id, "")
-        label = f"{event_id} @ {row['capture']}"
-        for err in validate_capture_row(
-            row,
-            body,
-            public_map[event_id],
-            is_anchor=is_anchor,
-        ):
-            issues.append(f"{label}: {err}")
-    return issues, len(rows)
+    config = get_voice_config("freeman")
+    return validate_curated_capture_map_for_voice(
+        config,
+        capture_map_path=capture_map_path,
+        public_map_path=public_map_path,
+    )
 
 
 def build_rows() -> list[dict]:

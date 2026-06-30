@@ -1,18 +1,18 @@
-<!-- GENERATED FILE. DO NOT EDIT DIRECTLY. build_freeman_predictions.py -->
+<!-- GENERATED FILE. DO NOT EDIT DIRECTLY. build_voice_predictions.py -->
 
 # Chas Freeman Prediction Record
 
-This page tracks major falsifiable predictions and strategic judgments made by Ambassador Chas Freeman across the Statecraft archive.
+This page tracks major falsifiable predictions and strategic judgments made by Chas Freeman across the Statecraft archive.
 
-Each section asks one concrete question, shows Freeman's own words, and tracks whether later events confirmed, challenged, or complicated the claim.
+Each section asks one concrete question, shows Chas Freeman's own words, and tracks whether later events confirmed, challenged, or complicated the claim.
 
 ## How to Read This Page
 
-Use **At a Glance** for a compact overview. Each numbered section is one prediction or strategic judgment. Freeman's exact words appear in blockquotes; the collapsible **Source trail** lists every archived appearance with stance and excerpt.
+Use **At a Glance** for a compact overview. Each numbered section is one prediction or strategic judgment. Chas Freeman's exact words appear in blockquotes; the collapsible **Source trail** lists every archived appearance with stance and excerpt.
 
 ## At a Glance
 
-| Question | Freeman's position | Status | Record |
+| Question | Position | Status | Record |
 | --- | --- | --- | --- |
 | Is Israel on a self-destructive path? | Yes. | Open | Open — trajectory |
 | Would escalation force Russia to capitulate in Ukraine? | No. | Resolved — no | Correct |
@@ -24,7 +24,7 @@ Use **At a Glance** for a compact overview. Each numbered section is one predict
 
 ## 1. Is Israel on a self-destructive path? {#israel_self_destruction_trajectory}
 
-**Freeman's position:** Yes.  
+**Position:** Yes.  
 **Status:** Open.  
 **Record:** Open — trajectory.
 
@@ -62,7 +62,7 @@ This tests whether tactical military dominance can coexist with worsening legiti
 
 ## 2. Would escalation force Russia to capitulate in Ukraine? {#ukraine_escalation_russian_capitulation}
 
-**Freeman's position:** No.  
+**Position:** No.  
 **Status:** Resolved — no.  
 **Record:** Correct.
 
@@ -89,7 +89,7 @@ This prediction tests a recurring Washington assumption: that more weapons, tigh
 
 ## 3. Would a Gaza hostage deal be reached? {#gaza_hostage_deal_jan_2025}
 
-**Freeman's position:** Yes.  
+**Position:** Yes.  
 **Status:** Resolved — yes.  
 **Record:** Correct.
 
@@ -113,7 +113,7 @@ This tests whether Freeman could read short-horizon diplomatic momentum amid a w
 
 ## 4. Would the Gaza ceasefire hold? {#gaza_ceasefire_holds_2025}
 
-**Freeman's position:** No.  
+**Position:** No.  
 **Status:** Open.  
 **Record:** Open — later reviewed as correct.
 
@@ -138,7 +138,7 @@ This tests whether Freeman could distinguish a hostage-exchange pause from a dur
 
 ## 5. Were Israel and Iran preparing for direct war? {#us_israel_iran_war_preparation_2025}
 
-**Freeman's position:** Yes.  
+**Position:** Yes.  
 **Status:** Open.  
 **Record:** Open — diagnostic.
 
@@ -169,7 +169,7 @@ This tests whether Freeman could read force-posture and escalation signals befor
 
 ## 6. Would Russia or China directly enter a US-Iran war? {#iran_great_power_direct_war_entry}
 
-**Freeman's position:** No → uncertain.  
+**Position:** No → uncertain.  
 **Status:** Open.  
 **Record:** Open — shifted.
 
@@ -194,7 +194,7 @@ This tests whether Freeman correctly bounded great-power war entry versus divers
 
 ## 7. Would China capitulate to Trump's tariff pressure? {#china_tariff_capitulation_2025}
 
-**Freeman's position:** No.  
+**Position:** No.  
 **Status:** Open.  
 **Record:** Open — consistent.
 
@@ -230,4 +230,4 @@ The structured data companion lives beside this page:
 
 `statecraft/voices/freeman/freeman-predictions.json`
 
-_Generated companion — 7 events, 36 appearances. Rebuild: `python3 scripts/build_freeman_predictions.py`_
+_Generated companion — 7 events, 36 appearances. Rebuild: `scripts/build_voice_predictions.py --speaker freeman`_

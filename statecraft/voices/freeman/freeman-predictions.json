@@ -2,7 +2,7 @@
   "_meta": {
     "generated": true,
     "do_not_edit": true,
-    "source": "scripts/build_freeman_predictions.py",
+    "source": "scripts/build_voice_predictions.py",
     "speaker": "freeman",
     "schema": "freeman-predictions-v2"
   },

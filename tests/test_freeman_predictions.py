@@ -17,8 +17,8 @@ PUBLIC_MAP = REPO_ROOT / "statecraft" / "data" / "freeman-prediction-public-map.
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-import check_freeman_predictions as checker  # noqa: E402
-from freeman_prediction_pilot import FREEMAN_PILOT_EVENT_ORDER, load_public_map  # noqa: E402
+import check_voice_predictions as checker  # noqa: E402
+from voice_prediction_pilot import FREEMAN_PILOT_EVENT_ORDER, get_voice_config, load_public_map  # noqa: E402
 
 DISALLOWED_EXCEPTIONS = {
     "under_30_verified",
@@ -84,7 +84,7 @@ def test_freeman_predictions_builder_check() -> None:
 
 
 def test_excerpt_in_capture_requires_full_substring() -> None:
-    from freeman_prediction_pilot import excerpt_in_capture
+    from voice_prediction_pilot import excerpt_in_capture
 
     body = (
         "alpha beta gamma delta epsilon zeta eta theta but loses his own soul "
@@ -97,7 +97,12 @@ def test_excerpt_in_capture_requires_full_substring() -> None:
 
 
 def test_freeman_predictions_shape_checker() -> None:
-    issues, _ = checker.run_check(json_path=JSON_PATH, md_path=MD_PATH)
+    config = get_voice_config("freeman")
+    issues, _ = checker.run_check(
+        config=config,
+        json_path=JSON_PATH,
+        md_path=MD_PATH,
+    )
     assert not issues
 
 

@@ -458,6 +458,15 @@ skills:
   - process_approved_candidates
   category: product-narrative
   status: active
+- name: voice-prediction-record
+  source: voice-prediction-record/SKILL.md
+  appendix: .cursor/skills/voice-prediction-record/CURSOR_APPENDIX.md
+  target: .cursor/skills/voice-prediction-record/SKILL.md
+  verify_forbidden_substrings:
+  - platform/users/grace-mar/
+  - process_approved_candidates
+  category: truth-pipeline
+  status: active
 - name: extract-skill-from-session
   source: extract-skill-from-session/SKILL.md
   appendix: .cursor/skills/extract-skill-from-session/CURSOR_APPENDIX.md
