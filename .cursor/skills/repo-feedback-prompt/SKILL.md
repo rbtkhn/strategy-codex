@@ -78,8 +78,8 @@ Subject: <repo or feature> — <one-line theme: doc suggestion / security framin
 - **Respect upstream** — Credit what already works; suggestions are **additive**, not a rewrite of their README.
 - **Non-redundant** — If their docs already state a point, **drop** it from the outbound prompt; do not perform false gaps.
 - **Brevity** — One screen for the maintainer; **DM variant** is a few sentences, one theme.
-- **No pejorative framing** — Prefer **attribute-based** comparison when contrasting projects; see [contributing-public-copy.md](../../../docs/contributing-public-copy.md) for tone.
-- **Trust layers** — When suggesting security wording, distinguish **reliability** (flaky tool) from **adversarial** (untrusted page); see [trust-layers.md](../../../docs/trust-layers.md).
+- **No pejorative framing** — Prefer **attribute-based** comparison when contrasting projects; see [contributing-public-copy.md](../../docs/contributing-public-copy.md) for tone.
+- **Trust layers** — When suggesting security wording, distinguish **reliability** (flaky tool) from **adversarial** (untrusted page); see [trust-layers.md](../../docs/trust-layers.md).
 
 ## Optional variants
 

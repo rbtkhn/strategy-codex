@@ -59,7 +59,7 @@ python3 scripts/validate_skills.py --strict-verification
 ## Scope and verification
 
 - Optional **`scope_class`** on portable skills (`personal`, `project-local`, `repo-governed`, `public-portable`) — preserved in generated Cursor frontmatter; skill frontmatter is SSOT.
-- Promoted skills should include **`## Verification / Proof Standard`** — see [skills/_schema.md](../../../skills/_schema.md).
+- Promoted skills should include **`## Verification / Proof Standard`** — see [skills/_schema.md](../../skills/_schema.md).
 - **`validate_skills.py`** also validates runbooks under `skills/runbooks/`.
 
 ## Guardrails

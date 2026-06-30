@@ -78,7 +78,7 @@ Do **not** auto-section on land — operator approves map on large captures. **D
 ## Do not use when
 
 - Capture is not yet landed — run **`source-intake`** first
-- **Authored text** — Substack essays, newsletters, articles, paste-bundle opinion posts (`kind: substack-post`, `source_form: newsletter`, etc.) — **never** **`source-section`**
+- **Authored text** — Substack essays, newsletters, articles, paste-bundle opinion posts — **never** **`source-section`**
 - `source_form` is `panel`, `clip`, `newsletter`, `article`, or `roundup` unless operator explicitly overrides with a YouTube transcript spine
 - Job is ASR / proper-noun cleanup only — use **`source-clean`**
 - Job is wire triage — use **`wire-verify`**
@@ -105,7 +105,7 @@ Do **not** auto-section on land — operator approves map on large captures. **D
 | `panel` | Out of scope unless operator names a host–guest spine to section |
 | `clip` | Out of scope — section a full parent capture instead |
 
-Confirm `source_form`, `kind`, and YouTube signals (`source_type`, `channel_slug`, `source_url`) from frontmatter after land. If missing, infer from body (turn-taking transcript vs authored prose) and state the assumption. When in doubt on authored vs channel, **abstain**.
+Confirm `source_form`, `kind`, and YouTube signals from frontmatter after land. When in doubt on authored vs channel, **abstain**.
 
 ## Transcript body markers
 
@@ -256,7 +256,7 @@ Do not call **outline** complete unless the numbered map is in the reply and anc
 Do not call **ship** complete unless:
 
 - the input capture path is named
-- eligibility (YouTube channel transcript; not authored) is confirmed
+- eligibility (`solo` / `interview`) is confirmed
 - skipped steps are marked with reason
 - uncertainty or anchor miss is stated explicitly
 
@@ -285,29 +285,14 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path("scripts").resolve()))
 from transcript_section_curation import (
-    apply_interview_section_body,
-    apply_interview_turn_speaker_labels,
-    inject_section_open_turn_markers,
     insert_sections,
-    normalize_dialogue_works_host_label_suffix,
-    reflow_section_paragraphs,
-    restore_turn_markers_from_speaker_labels,
     write_sectioned_capture,
-    write_interview_section_patch_capture,
-    prepare_section_patch_body,
-    validate_section_anchors,
-    apply_manual_asr_substitutions,
-    write_paragraph_reflow_capture,
     write_slug_retitle_capture,
     common_asr_cleanup,
     prepend_speaker_at_section_opens,
     strip_speakers_before_section_headings,
 )
 ```
-
-**Interview captures:** prefer `write_sectioned_capture(..., resection=True)` when re-running on labeled/sectioned bodies; reads `host:` / `guest:` from frontmatter or pass `interview_host=` / `interview_guest=`. Solo captures use insert → reflow only.
-
-**Interview patch scripts:** thin `scripts/patch_*_sections.py` files should only pin `SECTION_TITLES`, `SECTION_ANCHORS`, `MANUAL_ASR`, `HOST`/`GUEST`, and `RESECTION_NOTE`; call `write_interview_section_patch_capture()` for manual ASR + section ship + re-section receipt. Use `prepare_section_patch_body()` + `validate_section_anchors()` in `--dry-run`.
 
 ## Body markers (statecraft archive)
 
@@ -329,7 +314,7 @@ Each script entry should only hold:
 - optional `asr_cleanup` overrides
 - interview `speaker_cleanup` fixes
 
-Call `write_sectioned_capture()` from `main()` for flat solo bodies; **`write_interview_section_patch_capture()`** for Dialogue Works interview patches with manual ASR tables; use `write_slug_retitle_capture()` for bootstrap slug → thematic retitle only.
+Call `write_sectioned_capture()` from `main()` for flat bodies; use `write_slug_retitle_capture()` for bootstrap slug → thematic retitle only.
 
 ## Navigation quant receipt
 
@@ -353,7 +338,7 @@ No repo-wide batch sectioner — maps stay per capture.
 
 ## Pipeline hook (source-intake step 5)
 
-After land (+ optional **`source-clean`**) on a **YouTube channel** capture with **`source_form: solo`** or **`source_form: interview`**, apply **`source-section` § Post-land nudge** when body is flat (≥ ~4k words) or slug-only — state the one-line payoff explicitly; offer **`source-section outline`** first; ship only after map approval. **Not** for authored Substack/newsletter lands. Not automatic on every intake.
+After land (+ optional **`source-clean`**) on **`source_form: solo`** or **`source_form: interview`**, apply **`source-section` § Post-land nudge** when body is flat (≥ ~4k words) or slug-only — state the one-line payoff explicitly; offer **`source-section outline`** first; ship only after map approval. Not automatic on every intake.
 
 ## Related docs
 

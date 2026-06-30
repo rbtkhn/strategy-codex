@@ -235,7 +235,7 @@ Do not call this complete unless:
 
 ## Non-Replacement Rule
 
-`civ-state` does not replace deploy routing, lane skills, daily synthesis, note / instrument drafting, or explicit volume-authoring.
+`civ-state` does not replace deploy routing, lane skills, daily synthesis, transaction drafting, or explicit volume-authoring.
 
 It is the upstream CIV-STATE command surface: frame, retrieve, promote, review — through the public book corpus first.
 

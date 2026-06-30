@@ -23,7 +23,7 @@ synced_by: sync_portable_skills.py
 
 **Active concept:** **strategy-codex expert cross-weave** — fold two expert-thread ingests into one host-equivalent daily seam.
 
-**SSOT:** [codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) (weave / EOD compose).
+**SSOT:** [codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) (weave / EOD compose).
 
 **Activation:** `weave expert cross`, `expert cross-weave`, `crosses:expert-a+expert-b` — follow codex weave rules; use [check-sources](../check-sources/SKILL.md) and [statecraft-source-intake](../statecraft-source-intake/SKILL.md) for intake handoff.
 

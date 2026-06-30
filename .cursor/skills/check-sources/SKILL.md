@@ -24,7 +24,7 @@ synced_by: sync_portable_skills.py
 
 Use this skill for **YouTube source discovery and daily ingest** across the **main channel-index roster**. It discovers live uploads, filters likely highlight clips and same-day companion clips, presents a list-first view, reconciles against local archive captures, and hands off only the operator-approved subset to **`source-intake`** for canonical archive land (`source-*` under `source-archive/statecraft/`).
 
-Do **not** use the deprecated **`youtube-raw-input-transcript`** / **`materialize_youtube_raw_input.py --apply`** path. See [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md).
+Do **not** use the deprecated **`youtube-raw-input-transcript`** / **`materialize_youtube_raw_input.py --apply`** path. See [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md).
 
 For a single URL with transcript already in hand, use **`source-intake`** directly. Use this skill when the operator wants **roster-scoped discovery** (full main index or watchlist-fast pass).
 
@@ -36,12 +36,12 @@ The check-sources roster is **not** a hard-coded channel list in this skill.
 
 | Surface | Role |
 |---------|------|
-| [`channel-index.json`](../../../statecraft/channels/channel-index.json) | Machine roster — **main index only**; each row has `check_sources: true` |
-| [`channel-index.md`](../../../statecraft/channels/channel-index.md) | Human inventory + stats (regenerated together) |
-| [`channel-index-misc.md`](../../../statecraft/channels/channel-index-misc.md) | **Excluded** from check-sources |
-| [`statecraft_youtube_discovery.json`](../../../platform/config/statecraft_youtube_discovery.json) | Discovery metadata (`channel_id`, `handle_url`, routing rules) |
+| [`channel-index.json`](../../statecraft/channels/channel-index.json) | Machine roster — **main index only**; each row has `check_sources: true` |
+| [`channel-index.md`](../../statecraft/channels/channel-index.md) | Human inventory + stats (regenerated together) |
+| [`channel-index-misc.md`](../../statecraft/channels/channel-index-misc.md) | **Excluded** from check-sources |
+| [`statecraft_youtube_discovery.json`](../../platform/config/statecraft_youtube_discovery.json) | Discovery metadata (`channel_id`, `handle_url`, routing rules) |
 
-**Loader (Python):** `load_check_sources_roster()` in [`scripts/statecraft_youtube_discovery.py`](../../../scripts/statecraft_youtube_discovery.py) — reads `channel-index.json` or rebuilds live via `build_channel_index_json()`.
+**Loader (Python):** `load_check_sources_roster()` in [`scripts/statecraft_youtube_discovery.py`](../../scripts/statecraft_youtube_discovery.py) — reads `channel-index.json` or rebuilds live via `build_channel_index_json()`.
 
 **Scope modes:**
 
@@ -51,7 +51,7 @@ The check-sources roster is **not** a hard-coded channel list in this skill.
 
 Regenerate roster after archive routing changes: `python scripts/refresh_statecraft_archive_indices.py`.
 
-For the higher-level notebook meaning of this routine, see [cognition-streams-daily-aperture.md](../../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md).
+For the higher-level notebook meaning of this routine, see [cognition-streams-daily-aperture.md](../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md).
 
 ## Clip law
 
@@ -383,7 +383,7 @@ Short rule:
 
 ## Skill closure rule
 
-Use [skill-closure-doctrine.md](../../../docs/skill-closure-doctrine.md) as the shared maturity test.
+Use [skill-closure-doctrine.md](../../docs/skill-closure-doctrine.md) as the shared maturity test.
 
 For this skill, stronger synthesis belongs only after the daily run has yielded verified appearances and the correct next route. A successful ingest run does not by itself justify speaker doctrine or shelf-level meaning.
 
@@ -478,7 +478,7 @@ If a channel has no upload on the target day, say so explicitly.
    - After operator approval, obtain a **full transcript body** for each URL (operator paste in thread, session-log extraction, or bounded subtitle fetch — same provenance rules as before).
    - Land each capture with **`source-intake`**: sidecar `header.md` + body → `python scripts/land_statecraft_source_body.py` → `source-archive/statecraft/YYYY-MM-DD/source-<slug>.md`.
    - Run the source-intake post-land chain (day README, intake queue) per [statecraft-source-intake](../statecraft-source-intake/SKILL.md).
-   - **Do not** call `python scripts/materialize_youtube_raw_input.py --apply` for new archive writes. That path is deprecated ([YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md)).
+   - **Do not** call `python scripts/materialize_youtube_raw_input.py --apply` for new archive writes. That path is deprecated ([YOUTUBE-MATERIALIZE-DEPRECATED.md](../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md)).
    - **Do not materialize from podcast-directory URLs or transcript-mirror URLs.** The approved source must be the direct YouTube watch URL in frontmatter.
    - For each approved URL:
      - resolve metadata first (title, `pub_date`, channel / host)
@@ -731,20 +731,20 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-sou
 
 | Topic | Path |
 |--------|------|
-| Canonical source archive | [source-archive/statecraft/](../../../statecraft) |
-| Check-sources roster (machine) | [channel-index.json](../../../statecraft/channels/channel-index.json) |
-| Check-sources roster (human) | [channel-index.md](../../../statecraft/channels/channel-index.md) |
-| Roster loader | [statecraft_youtube_discovery.py](../../../scripts/statecraft_youtube_discovery.py) (`load_check_sources_roster`) |
+| Canonical source archive | [source-archive/statecraft/](../../source-archive/statecraft/) |
+| Check-sources roster (machine) | [channel-index.json](../../statecraft/channels/channel-index.json) |
+| Check-sources roster (human) | [channel-index.md](../../statecraft/channels/channel-index.md) |
+| Roster loader | [statecraft_youtube_discovery.py](../../scripts/statecraft_youtube_discovery.py) (`load_check_sources_roster`) |
 | Archive land skill | [statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
-| Deprecated materialize path | [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md) |
+| Deprecated materialize path | [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md) |
 | Legacy check-streams stub | [check-streams/SKILL.md](../check-streams/SKILL.md) |
-| Deprecated raw-input (archaeology) | [RAW-INPUT-DEPRECATED.md](../../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [codex/raw-input/README.md](../../../codex/raw-input/README.md) |
-| Analyst shelves | [statecraft/voices/](../../../statecraft/voices/) |
-| Channel shelves | [statecraft/channels/](../../../statecraft/channels/) |
-| Philosophical gloss | [docs/skill-work/work-strategy/cognition-streams-daily-aperture.md](../../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md) |
-| Temp daily discovery cache | [\.codex-tmp/](../../../.codex-tmp/) |
-| Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
-| Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
+| Deprecated raw-input (archaeology) | [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [codex/raw-input/README.md](../../codex/raw-input/README.md) |
+| Analyst shelves | [statecraft/voices/](../../statecraft/voices) |
+| Channel shelves | [statecraft/channels/](../../statecraft/channels) |
+| Philosophical gloss | [docs/skill-work/work-strategy/cognition-streams-daily-aperture.md](../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md) |
+| Temp daily discovery cache | [\.codex-tmp/](../../runtime/artifacts/) |
+| Portable skill manifest | [skills/manifest.yaml](../manifest.yaml) |
+| Sync script | [scripts/sync_portable_skills.py](../../scripts/sync_portable_skills.py) |
 
 **Repo notes**
 

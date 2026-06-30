@@ -48,7 +48,7 @@ Terminology note:
 
 - `civ-state` means the civilization-state object being interpreted
 - **Civilizational Statecraft Framework** is the doctrine
-- `statecraft-framework` is **archived** — use [`periodic-statecraft-review` runbook](../../../skills/runbooks/periodic-statecraft-review.runbook.md) or the six-term checklist under `statecraft/states/` for governing-pair diagnosis before subordinate family selection
+- `statecraft-framework` is **archived** — use [`periodic-statecraft-review` runbook](../../skills/runbooks/periodic-statecraft-review.runbook.md) or the six-term checklist under `statecraft/states/` for governing-pair diagnosis before subordinate family selection
 
 It keeps the lanes from sliding into biography or shallow summary by enforcing:
 

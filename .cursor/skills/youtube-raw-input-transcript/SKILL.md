@@ -21,7 +21,7 @@ see: docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md
 
 **Status:** Deprecated **2026-06-20**. Do not invoke **`youtube transcript`** or **`materialize_youtube_raw_input.py --apply`** for new work in strategy-codex.
 
-Full spec: [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md)
+Full spec: [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md)
 
 ## Use instead
 
@@ -29,7 +29,7 @@ Full spec: [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/skill-work/work-str
 |------|----------------|
 | Land pasted or fetched transcript to canonical archive | **`source-intake`** ([`statecraft-source-intake`](../statecraft-source-intake/SKILL.md)) |
 | Daily YouTube roster → source-intake | **`check sources`** ([`check-sources`](../check-sources/SKILL.md)) → approved URLs → **`source-intake`** |
-| Channel inventory | [`statecraft/channels/channel-index.md`](../../../statecraft/channels/channel-index.md) · [`channel-index.json`](../../../statecraft/channels/channel-index.json) |
+| Channel inventory | [`statecraft/channels/channel-index.md`](../../statecraft/channels/channel-index.md) · [`channel-index.json`](../../statecraft/channels/channel-index.json) |
 
 ## Legacy script (no new archive writes)
 

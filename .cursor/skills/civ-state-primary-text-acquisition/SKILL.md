@@ -20,7 +20,7 @@ synced_by: sync_portable_skills.py
 
 **Status:** Deprecated as a standalone entry. Do not invoke this skill directly for new work.
 
-**Use instead:** [`skills/runbooks/civ-state-primary-text.runbook.md`](../../../skills/runbooks/civ-state-primary-text.runbook.md) after **`civ-state`** entry.
+**Use instead:** [`skills/runbooks/civ-state-primary-text.runbook.md`](../../skills/runbooks/civ-state-primary-text.runbook.md) after **`civ-state`** entry.
 
 ## Legacy activation
 

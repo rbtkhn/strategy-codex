@@ -168,13 +168,13 @@ When finishing a pass, summarize:
 ## strategy-codex instance
 
 - Root working areas for this skill:
-  - [statecraft/voices](../../../statecraft/voices/)
-  - [statecraft/channels](../../../statecraft/channels/)
-  - [codex/academy/statecraft](../../../codex/academy/statecraft)
+  - [statecraft/voices](../../statecraft/voices)
+  - [statecraft/channels](../../statecraft/channels)
+  - [codex/academy/statecraft](../../codex/academy/statecraft)
 - Preferred source stack for China- or statecraft-facing seed extraction:
-  - canonical analyst arc notes under [statecraft/voices/](../../../statecraft/voices/) and host guest arcs under [statecraft/channels/](../../../statecraft/channels/)
-  - strongest supporting **source archive** captures under [source-archive/statecraft/](../../../source-archive/statecraft) (legacy pre-migration files may still appear under [codex/years/2026/raw-input](../../../codex/years/2026/raw-input) — archaeology only)
-  - lane destination or upstream seed files such as [China volume seeds](../../../codex/academy/statecraft/china/chapter-seeds.md)
+  - canonical analyst arc notes under [statecraft/voices/](../../statecraft/voices) and host guest arcs under [statecraft/channels/](../../statecraft/channels)
+  - strongest supporting **source archive** captures under [source-archive/statecraft/](../../source-archive/statecraft) (legacy pre-migration files may still appear under [codex/years/2026/raw-input](../../codex/years/2026/raw-input) — archaeology only)
+  - lane destination or upstream seed files such as [China volume seeds](../../codex/academy/statecraft/china/chapter-seeds.md)
 - Preferred validation commands after listed-skill edits:
 
 ```powershell
@@ -196,7 +196,7 @@ python scripts/validate_skills.py
   - [codex/academy/statecraft](../../../codex/academy/statecraft)
 - Preferred source stack for China- or statecraft-facing seed extraction:
   - canonical analyst arc notes under [statecraft/voices/](../../../statecraft/voices/) and host guest arcs under [statecraft/channels/](../../../statecraft/channels/)
-  - strongest supporting raw-input transcript files under [codex/years/2026/raw-input](../../../codex/years/2026/raw-input)
+  - strongest supporting raw-input transcript files under [codex/years/2026/raw-input](../../../codex/years/2026/raw-input) (archaeology only)
   - lane destination or upstream seed files such as [China volume seeds](../../../codex/academy/statecraft/china/chapter-seeds.md)
 - Preferred validation commands after listed-skill edits:
 

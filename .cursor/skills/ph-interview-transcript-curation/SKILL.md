@@ -1,6 +1,6 @@
 ---
 name: ph-interview-transcript-curation
-description: "PH interview transcript curation — section rails, host/turn speaker labeling, ASR repair, pass ladder, validate, PH-TRANSCRIPT-EDIT ship. Canonical repo: predictive-history interviews/ packets. Not statecraft source-clean."
+description: 'PH interview transcript curation — section rails, host/turn speaker labeling, ASR repair, pass ladder, validate, PH-TRANSCRIPT-EDIT ship. Canonical repo: predictive-history interviews/ packets. Not statecraft source-clean.'
 preferred_activation: PH transcript pass
 activation: PH transcript pass
 portable: true
@@ -9,10 +9,10 @@ category: truth-pipeline
 status: active
 scope_class: repo-governed
 tags:
-  - operator
-  - predictive-history
-  - transcript
-  - interviews
+- operator
+- predictive-history
+- transcript
+- interviews
 portable_source: skills/ph-interview-transcript-curation/SKILL.md
 synced_by: sync_portable_skills.py
 ---
@@ -168,14 +168,14 @@ Run the **lowest pass still needed**. One commit slice per pass when practical. 
 ## ASR / entity discipline
 
 - Infer speakers from turn-taking and host/guest names; list ambiguous names in README (Tucker: "John" at CUFI — likely Hagee, not pinned)
-- When editing from strategy-codex, apply operator place-name policy in **framing** around quotes ([Kiev/Kharkov rule](../../rules/strategy-codex-kiev-spelling.mdc)) — preserve source spelling inside load-bearing quotes when load-bearing
+- When editing from strategy-codex, apply operator place-name policy in **framing** around quotes ([Kiev/Kharkov rule](../../.cursor/rules/strategy-codex-kiev-spelling.mdc)) — preserve source spelling inside load-bearing quotes when load-bearing
 - Do not rewrite argument, add facts, or smooth into editorial essay prose
 
 ## Windows harness
 
 - One **Shell** per turn; one **StrReplace/Write path** per file per turn when possible
 - Bounded **Read** on known interview paths — no repo-wide grep storms
-- After hang: Read/Write only until patch lands ([agent-tool-latency-discipline](../../rules/agent-tool-latency-discipline.mdc))
+- After hang: Read/Write only until patch lands ([agent-tool-latency-discipline](../../.cursor/rules/agent-tool-latency-discipline.mdc))
 
 ## Verification / Proof Standard
 
@@ -237,7 +237,7 @@ Catalog: `predictive-history/docs/predictive-history-index.md` · **Provenance**
 | Packet | Role |
 |--------|------|
 | `interviews/interview-2026-03-20-tucker-carlson/` (vi-11, `d475974`) | One-shot exemplar — sections + named turns |
-| `interviews/interview-2026-05-07-diary-of-a-ceo/` (ext-doac-01) | Pass-ladder exemplar — 14 sections; passes 3–5 host/turn work (2 of 14 sections turn-labeled locally) |
+| `interviews/interview-2026-05-07-diary-of-a-ceo/` (ext-doac-01) | Pass-ladder exemplar — **14/14 section rails pass C complete** (pass 13 `a6f86e8`); see SKILL § DOAC pass ladder |
 
 ## Commands (PH repo root)
 

@@ -70,7 +70,7 @@ For **`essay-{vol}-{slug}.md`** civic-chain nodes, pick **one pass** before edit
 
 ### Rome essay-rome state (QA class — check before edit)
 
-Pin from target file + [`release-history.md`](../../../public/civ-state/docs/release-history.md) when unsure.
+Pin from target file + [`release-history.md`](../../public/civ-state/docs/release-history.md) when unsure.
 
 **Civic-chain four:**
 
@@ -129,14 +129,14 @@ Poets count as **primary ancient** body sources — same `"…"` weave as histor
 | Republic § Punic Wars (compress) | `essay-rome-republic` | **No Virgil body** — depth defers to carthage geo-branch |
 | Actium fleet-flight (Dio/Suetonius) | `essay-rome-augustus` | Egypt essay uses different Dio/Plutarch pins — grain/eastern coalition |
 
-**Theory pointer (placement law, not quote home):** [`rome-memory.md#faith-spine-mythology`](../../../public/civ-state/volumes/rome/theory/rome-memory.md#faith-spine-mythology) · [`faith-history-rome.md`](../../../public/civ-state/volumes/rome/theory/faith-history-rome.md) euhemerism boundary — mythic substrate ≠ historiographical claim.
+**Theory pointer (placement law, not quote home):** [`rome-memory.md#faith-spine-mythology`](../../public/civ-state/volumes/rome/theory/rome-memory.md#faith-spine-mythology) · [`faith-history-rome.md`](../../public/civ-state/volumes/rome/theory/faith-history-rome.md) euhemerism boundary — mythic substrate ≠ historiographical claim.
 
-**Embed rules:** one **short** epic quote at a memory or legitimation turn; **swap-don't-pad** at quote band; pair epic with chronicle or oratory (e.g. Dido curse → Cato fig); active intro in authorial voice — avoid meta-only wrappers (*moralized rhetoric*, *One modern analyst*). Optional Notes label: `*(Epic memory — not chronicle SSOT)*`. Reuse PD edition from [`rome-bibliography.md`](../../../public/civ-state/volumes/rome/rome-bibliography.md); book-level routing may also live in essay `.meta.yaml` — skill does not duplicate full lattice.
+**Embed rules:** one **short** epic quote at a memory or legitimation turn; **swap-don't-pad** at quote band; pair epic with chronicle or oratory (e.g. Dido curse → Cato fig); active intro in authorial voice — avoid meta-only wrappers (*moralized rhetoric*, *One modern analyst*). Optional Notes label: `*(Epic memory — not chronicle SSOT)*`. Reuse PD edition from [`rome-bibliography.md`](../../public/civ-state/volumes/rome/rome-bibliography.md); book-level routing may also live in essay `.meta.yaml` — skill does not duplicate full lattice.
 
 
 ### Essay citation inventory (Rome — downstream of active essays)
 
-**SSOT:** `public/civ-state/volumes/rome/rome-bibliography.md` — flat chronological list of sources **used across active `essay-rome-*` nodes**, with public-domain URL sub-lines (English default; Latin/Greek second line when essays quote heavily in original). **Derived from essays** (body authorial references + `## Notes`) — not imported from the retrieve shelf. **Not** the upstream retrieve shelf — that remains [`sources/rome/bibliography.md`](../../../public/civ-state/sources/rome/bibliography.md) (`civ-state` Frame/Retrieve); volume door [`source-shelf.md`](../../../public/civ-state/volumes/rome/source-shelf.md).
+**SSOT:** `public/civ-state/volumes/rome/rome-bibliography.md` — flat chronological list of sources **used across active `essay-rome-*` nodes**, with public-domain URL sub-lines (English default; Latin/Greek second line when essays quote heavily in original). **Derived from essays** (body authorial references + `## Notes`) — not imported from the retrieve shelf. **Not** the upstream retrieve shelf — that remains [`sources/rome/bibliography.md`](../../public/civ-state/sources/rome/bibliography.md) (`civ-state` Frame/Retrieve); volume door [`source-shelf.md`](../../public/civ-state/volumes/rome/source-shelf.md).
 
 **Current coverage (v0.2.7):** civic-chain four — genesis · republic · caesar · augustus · geo-branch **carthage** · **egypt**.
 

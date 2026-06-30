@@ -21,7 +21,7 @@ synced_by: sync_portable_skills.py
 
 **Status:** Deprecated. Do not use this skill for new work.
 
-**Use instead:** [`skills/runbooks/periodic-statecraft-review.runbook.md`](../../../skills/runbooks/periodic-statecraft-review.runbook.md).
+**Use instead:** [`skills/runbooks/periodic-statecraft-review.runbook.md`](../../skills/runbooks/periodic-statecraft-review.runbook.md).
 
 This file remains only for legacy trigger compatibility.
 

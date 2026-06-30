@@ -90,7 +90,7 @@ Same default path: `statecraft/synthesis/day/YYYY-MM-DD.md`.
 - **Daily register** — archive grounded; dominant object named in brief form; companion weaves/matrices linked; **Register Completion Checklist**; header `Status: register`. Write this when captures land before a full executive pass.
 - **Daily synthesis** — register shape expanded (dominant themes, lane read, CIV-STATE, speaker value). No `Status: register` line when synthesis tier is complete.
 
-Doctrine: [statecraft/synthesis/METHOD.md § Daily register vs daily synthesis](../../../statecraft/synthesis/METHOD.md#daily-register-vs-daily-synthesis).
+Doctrine: [statecraft/synthesis/METHOD.md § Daily register vs daily synthesis](../../statecraft/synthesis/METHOD.md#daily-register-vs-daily-synthesis).
 
 **Do not** use **stub** for register-tier dailies.
 
@@ -100,7 +100,7 @@ Doctrine: [statecraft/synthesis/METHOD.md § Daily register vs daily synthesis](
    - Before **full** synthesis on same-week / MOU-war batches: open `statecraft/notes/wire/YYYY-MM-DD-news-verify-matrix.md` or confirm `verify_gate: waived` in the daily header.
    - If matrix is **absent** and gate applies: stop at **register-only** (`verify_matrix: OPEN`) or run **`news verify`** batch Ship first.
    - Cite **`J{D}-*`** in Judgment / falsifiers; do not upgrade matrix verdicts without a new verify pass.
-   - SSOT: [NEWS-VERIFY-SYNTHESIS-GATE.md](../../../statecraft/synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md).
+   - SSOT: [NEWS-VERIFY-SYNTHESIS-GATE.md](../../statecraft/synthesis/NEWS-VERIFY-SYNTHESIS-GATE.md).
 
 1. **Open the landed day archive**
    - Start from the touched day `README.md`.
@@ -218,7 +218,7 @@ This is **navigation + object-migration** between daily and monthly synthesis �
 
 **When to write or refresh:** month-week close, object migrates within month-week (refresh same `YYYY-MM-weekN-start-here.md`), or operator invocation. Header: `partial through YYYY-MM-DD` while open.
 
-**Doctrine:** [statecraft/synthesis/METHOD.md § Week Hinge](../../../statecraft/synthesis/METHOD.md#week-hinge-contract) · template: [`_templates/week-hinge-start-here.md`](../../../statecraft/notes/reentry/_templates/week-hinge-start-here.md).
+**Doctrine:** [statecraft/synthesis/METHOD.md § Week Hinge](../../statecraft/synthesis/METHOD.md#week-hinge-contract) · template: [`_templates/week-hinge-start-here.md`](../../statecraft/notes/reentry/_templates/week-hinge-start-here.md).
 
 **After daily synthesis:** if dominant object migrated within the active month-week, offer or refresh the week hinge; intake-readiness should point to the hinge for post-daily re-entry.
 

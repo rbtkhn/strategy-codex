@@ -42,7 +42,7 @@ Procedure skill for **bounded operator notes** under `statecraft/notes/` when th
 - the job is upstream **Frame / Retrieve / Promote / Review** only — use **`civ-state`**
 - the object is the **whole archive day** — use **`state-synthesis`**, then promote one wedge here
 - the object is **general statecraft** with **no** civilizational retrieve need — use **`state-note`**
-- the object is a **stand-alone transportable thesis** — route via [`docs/prose-index.md`](../../../docs/prose-index.md) toward repo-root **`essays/`**
+- the object is a **stand-alone transportable thesis** — route via [`docs/prose-index.md`](../../docs/prose-index.md) toward repo-root **`essays/`**
 
 ## Prose-class router (classify first)
 

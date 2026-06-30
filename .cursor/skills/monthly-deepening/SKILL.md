@@ -21,7 +21,7 @@ synced_by: sync_portable_skills.py
 
 **Status:** Deprecated. Do not use this skill for new work.
 
-**Use instead:** [`skills/runbooks/periodic-statecraft-review.runbook.md`](../../../skills/runbooks/periodic-statecraft-review.runbook.md).
+**Use instead:** [`skills/runbooks/periodic-statecraft-review.runbook.md`](../../skills/runbooks/periodic-statecraft-review.runbook.md).
 
 This file remains only for legacy trigger compatibility.
 
@@ -40,16 +40,16 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/monthly-d
 
 | Topic | Path |
 |--------|------|
-| Canonical archive root | [source-archive/statecraft/](../../../source-archive/statecraft/) |
-| Local observability receipts | [runtime/artifacts/cognition-streams/](../../../runtime/artifacts/cognition-streams/) |
-| Deprecated raw-input (archaeology) | [RAW-INPUT-DEPRECATED.md](../../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [codex/raw-input/README.md](../../../codex/raw-input/README.md) |
-| Mercouris local index cache | [\.codex-tmp/youtube-alex-mercouris-index/](../../../.codex-tmp/youtube-alex-mercouris-index/) |
-| Day README generator | [scripts/build_statecraft_day_indices.py](../../../scripts/build_statecraft_day_indices.py) |
-| Day dashboard generator | [scripts/build_statecraft_day_dashboard.py](../../../scripts/build_statecraft_day_dashboard.py) |
-| Speaker dashboard generator | [scripts/build_statecraft_speaker_dashboard.py](../../../scripts/build_statecraft_speaker_dashboard.py) |
-| Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
-| Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
-| Skill validator | [scripts/validate_skills.py](../../../scripts/validate_skills.py) |
+| Canonical archive root | [source-archive/statecraft/](../../statecraft) |
+| Local observability receipts | [runtime/artifacts/cognition-streams/](../../runtime/artifacts/cognition-streams) |
+| Deprecated raw-input (archaeology) | [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [codex/raw-input/README.md](../../codex/raw-input/README.md) |
+| Mercouris local index cache | [\.codex-tmp/youtube-alex-mercouris-index/](../../runtime/artifacts/statecraft-intake-queue/) |
+| Day README generator | [scripts/build_statecraft_day_indices.py](../../scripts/build_statecraft_day_indices.py) |
+| Day dashboard generator | [scripts/build_statecraft_day_dashboard.py](../../scripts/build_statecraft_day_dashboard.py) |
+| Speaker dashboard generator | [scripts/build_statecraft_speaker_dashboard.py](../../scripts/build_statecraft_speaker_dashboard.py) |
+| Portable skill manifest | [skills/manifest.yaml](../manifest.yaml) |
+| Sync script | [scripts/sync_portable_skills.py](../../scripts/sync_portable_skills.py) |
+| Skill validator | [scripts/validate_skills.py](../../scripts/validate_skills.py) |
 
 **Repo notes**
 
