@@ -4311,3 +4311,97 @@ Routing: [generated-manifest.yaml](../generated-manifest.yaml) · [check_generat
 **Pattern promotion:** defer until a second generated tree (e.g. work-dev dashboard batch) reuses enrollment recipe without new law beyond (1)(2).
 
 ---
+
+## 2026-06-29 - Voice prediction public shelf v3 + source-trail citation grammar
+
+**Tag:** `voice-prediction` · `capture-map` · `source-trail` · `freeman-v3` · `portable-sync` · `Windows-EXECUTE`  
+**Cross-link:** [§ parallel ban EXECUTE ship (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — builder/checker ship triggered `parallel_strreplace`; one `StrReplace` per file per turn is the recovery shape.  
+**Cross-link:** [§ Portable-sync skill rename ladder (2026-06-18)](#2026-06-18---portable-sync-skill-rename-ladder-civ-state-proof) · [§ One-way public corpus + asymmetric skill graph (2026-06-18)](#2026-06-18---one-way-public-corpus-asymmetric-skill-graph-civ-state-wiring) — **narrows:** `sync_portable_skills.py --verify OK` does not imply git-clean `.cursor/skills/`; bulk link repair in `skills/*/SKILL.md` requires mirror regen + commit slice.
+
+### Trigger
+
+Jun 29 EXECUTE arc on Freeman predictions: **v3 capture map** (`quote_speaker`, `host_setup`, `public_excerpt_raw`, `asr_repair`, `public_display`; 36 rows recurated); **source-trail public table** (`Date | Channel | Episode | Stance | Excerpt` with linked episode cells, replacing `Appearance | Exact words`); **`voice-prediction-record` skill** v0.2.0 → v0.2.1; **hygiene** — 27 stale `.cursor/skills/*/SKILL.md` mirrors after bulk link-path fixes in portable cores while `--verify` passed. Commits `538f08fe8` (v3), `2a729bf63` (source-trail), `630eb0293` (skill docs), `dfb3f70b0` (mirror regen).
+
+### Extracted law
+
+**1. Three-layer prediction shelf (internal ≠ public)**
+
+```text
+capture-map JSON     → verbatim + repair metadata + speaker attribution (SSOT for curation)
+build/checker        → validates raw vs display separately; gates host/ASR completeness
+*-predictions.md     → public shelf: anchor blocks + source-trail table (synthesis + links, not transcript mirror)
+```
+
+**2. Source-trail is citation grammar, not anchor quote**
+
+```text
+Anchor block     → load-bearing prediction text (speaker-aware: guest | mixed | hidden_host | operator_summary)
+Source-trail row → Date | Channel | Episode(link) | Stance | Excerpt
+Do not collapse trail into anchor or reuse old headers (Appearance | Exact words)
+Public appearances require citation.channel + citation.title for checker pass
+```
+
+**3. ASR repair is split authority**
+
+```text
+public_excerpt_raw  → preserved verbatim from archive
+asr_repair + notes  → operator/agent repair record
+public_display      → what readers see; must pass display validation without mutating raw
+Never synthesize into capture-map body to "fix" a row — patch map fields, rebuild
+```
+
+**4. Portable sync verify ≠ git clean (narrows existing portable-sync law)**
+
+```text
+sync_portable_skills.py --verify OK  → cores match sync algorithm output
+git status on .cursor/skills/        → may still be dirty if cores shipped without mirror regen
+After bulk link repair in skills/*/SKILL.md → full sync + commit .cursor slice before handoff
+```
+
+### Reapplication
+
+- **Next speaker** (Mercouris capture-map recurated, wire-events shelf) — reuse v3 fields + source-trail header; do not fork checker rules per speaker.
+- **`freeman-prediction-wire-events.md`** — inherit source-trail column spec from public MD; do not invent a third table shape.
+- **End of any portable-core link sweep** — run full sync; commit mirror slice separately from runtime/statecraft WIP.
+- **Windows multi-file EXECUTE** — one `StrReplace` per file per turn on builder/checker; cross-link parallel-ban entry.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Pilot v3 schema | `scripts/voice_prediction_pilot.py` — `freeman-predictions-v3` |
+| Builder/renderer | `scripts/build_voice_predictions.py` — `SOURCE_TRAIL_*`, `format_episode_cell`, `format_source_trail_row` |
+| Checker SSOT | `scripts/check_voice_predictions.py` — old-header ban, citation gates |
+| Capture map | `statecraft/data/freeman-prediction-capture-map.json` — 36 rows recurated |
+| Recuration helper | `scripts/recurate_freeman_capture_excerpts.py` |
+| Public shelf | `statecraft/voices/freeman/freeman-predictions.md` (regenerated) |
+| Tests | `tests/test_freeman_predictions.py` — v3 + source-trail tests |
+| Skill | `skills/voice-prediction-record/SKILL.md` v0.2.1 + Cursor mirror |
+| **Pushed** | `538f08fe8` · `2a729bf63` · `630eb0293` |
+| **Local** | `dfb3f70b0` (mirror regen) |
+
+### Guardrail
+
+```text
+Do not hand-edit *-predictions.md — rebuild from map + auto-file
+Do not put full transcript mirrors on the public shelf
+Do not treat --verify OK as proof git is clean on .cursor/skills/
+Do not duplicate parallel-ban or portable-sync ladder bodies — cross-link + narrow only
+Do not wire old source-trail headers in new captures — checker bans them
+```
+
+**Falsification:** If a speaker needs **no** episode links (print-only sources), narrow law (2): Episode column may be plain text — but Channel + Date + Stance + Excerpt remain required; checker would need a `--allow-print-citations` fork (not built today).
+
+### Current lesson
+
+```text
+Prediction shelf quality lives in the capture map (speaker + ASR split);
+public MD is citation-facing grammar (anchor + linked source-trail);
+portable skill hygiene is a separate commit slice from prediction logic.
+```
+
+Routing: [voice-prediction-record skill](../.cursor/skills/voice-prediction-record/SKILL.md) · [build_voice_predictions.py](../scripts/build_voice_predictions.py) · [check_voice_predictions.py](../scripts/check_voice_predictions.py) · [freeman-predictions.md](../statecraft/voices/freeman/freeman-predictions.md) · RLJ [parallel ban](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) · RLJ [portable-sync rename](#2026-06-18---portable-sync-skill-rename-ladder-civ-state-proof)
+
+**Pattern promotion:** defer until Mercouris (or second speaker) reuses v3 + source-trail without new law beyond (1)(2).
+
+---
