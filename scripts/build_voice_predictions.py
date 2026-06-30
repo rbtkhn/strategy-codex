@@ -339,8 +339,43 @@ def format_position_line(position: str) -> str:
     return f"{text}." if text else "—"
 
 
+SOURCE_TRAIL_HEADER = "| Date | Channel | Episode | Stance | Excerpt |"
+SOURCE_TRAIL_SEPARATOR = "| --- | --- | --- | --- | --- |"
+OLD_SOURCE_TRAIL_HEADERS = (
+    "| Date | Appearance | Stance | Exact words |",
+    "| Date | Appearance | Stance | Verbatim excerpt |",
+)
+
+
 def md_escape_cell(text: str) -> str:
     return str(text).replace("|", "\\|").replace("\n", " ")
+
+
+def md_escape_table_text(text: str) -> str:
+    return md_escape_cell(text)
+
+
+def format_episode_cell(citation: dict[str, str]) -> str:
+    title = str(citation.get("title") or "Source").strip()
+    youtube_url = str(citation.get("youtube_url") or "").strip()
+    safe_title = md_escape_table_text(title)
+    if youtube_url:
+        return f"[{safe_title}]({youtube_url})"
+    return safe_title
+
+
+def format_source_trail_row(app: dict[str, Any], *, guest_speaker: str) -> str:
+    citation = app.get("citation") or {}
+    channel = str(citation.get("channel") or "").strip()
+    excerpt = format_exact_words_cell(app, guest_speaker=guest_speaker)
+    return (
+        "| "
+        f"{md_escape_table_text(app['date'])} | "
+        f"{md_escape_table_text(channel)} | "
+        f"{format_episode_cell(citation)} | "
+        f"{md_escape_table_text(app['stance'])} | "
+        f"{md_escape_table_text(excerpt)} |"
+    )
 
 
 def render_public_markdown(payload: dict[str, Any], config: VoiceConfig) -> str:
@@ -362,7 +397,7 @@ def render_public_markdown(payload: dict[str, Any], config: VoiceConfig) -> str:
         "",
         "Use **At a Glance** for a compact overview. Each numbered section is one prediction "
         f"or strategic judgment. {intro_name}'s exact words appear in blockquotes; the collapsible "
-        "**Source trail** lists every archived appearance with stance and excerpt.",
+        "**Source trail** lists channel, episode, stance, and excerpt for every archived appearance.",
         "",
         "## At a Glance",
         "",
@@ -405,21 +440,15 @@ def render_public_markdown(payload: dict[str, Any], config: VoiceConfig) -> str:
                 "<details>",
                 "<summary>Source trail</summary>",
                 "",
-                "| Date | Appearance | Stance | Exact words |",
-                "| --- | --- | --- | --- |",
+                SOURCE_TRAIL_HEADER,
+                SOURCE_TRAIL_SEPARATOR,
             ]
         )
         lines.extend(block_lines)
         for app in event["appearances"]:
             if not app.get("public_display", True):
                 continue
-            lines.append(
-                "| "
-                f"{app['date']} | "
-                f"{md_escape_cell(app['appearance_label'])} | "
-                f"{app['stance']} | "
-                f"{md_escape_cell(format_exact_words_cell(app, guest_speaker=config.speaker))} |"
-            )
+            lines.append(format_source_trail_row(app, guest_speaker=config.speaker))
         lines.extend(["", "</details>", ""])
 
     lines.extend(

@@ -15,6 +15,10 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
+from build_voice_predictions import (  # noqa: E402
+    OLD_SOURCE_TRAIL_HEADERS,
+    SOURCE_TRAIL_HEADER,
+)
 from voice_prediction_pilot import (  # noqa: E402
     ALLOWED_PUBLIC_EXCEPTIONS,
     ASR_REPAIR_VALUES,
@@ -244,10 +248,26 @@ def check_json(
                     issues.append(f"{event_id}: mixed appearance missing context_note")
             if not str(app.get("public_excerpt_raw") or "").strip() and app.get("public_display", True):
                 issues.append(f"{event_id}: public appearance missing public_excerpt_raw")
+            citation = app.get("citation")
+            if isinstance(citation, dict):
+                for field in CITATION_REQUIRED:
+                    if field not in citation:
+                        issues.append(f"{event_id}: citation missing {field}")
+            else:
+                issues.append(f"{event_id}: appearance citation must be an object")
             if not app.get("public_display", True):
                 continue
             if not str(app.get("public_excerpt") or "").strip():
-                issues.append(f"{event_id}: appearance missing public_excerpt text")
+                issues.append(f"{event_id}: public appearance missing public_excerpt")
+            if not str(app.get("date") or "").strip():
+                issues.append(f"{event_id}: public appearance missing date")
+            if not str(app.get("stance") or "").strip():
+                issues.append(f"{event_id}: public appearance missing stance")
+            if isinstance(citation, dict):
+                if not str(citation.get("channel") or "").strip():
+                    issues.append(f"{event_id}: public appearance missing citation.channel")
+                if not str(citation.get("title") or "").strip():
+                    issues.append(f"{event_id}: public appearance missing citation.title")
             capture = str(app.get("capture") or "")
             app_row = row_lookup.get((event_id, capture), {})
             app_terms = resolve_prediction_object_terms(app_row, public_event)
@@ -274,11 +294,6 @@ def check_json(
                 issues.append(f"{event_id}: displayed excerpt contains host-address tokens")
             if shared_suffix and capture.endswith(shared_suffix):
                 shared_capture_events.add(event_id)
-            citation = app.get("citation")
-            if isinstance(citation, dict):
-                for field in CITATION_REQUIRED:
-                    if field not in citation:
-                        issues.append(f"{event_id}: citation missing {field}")
 
     if (
         config.min_events_for_shared_capture
@@ -333,6 +348,22 @@ def check_markdown(
             for term in FORBIDDEN_HEADING_TERMS:
                 if term in lowered:
                     issues.append(f"forbidden machine term in heading: {line}")
+
+    for old_header in OLD_SOURCE_TRAIL_HEADERS:
+        if old_header in text:
+            issues.append(f"source trail uses old header: {old_header}")
+
+    if SOURCE_TRAIL_HEADER not in text:
+        issues.append(
+            "source trail missing required Date/Channel/Episode/Stance/Excerpt header"
+        )
+
+    expected_count = len(public_titles)
+    actual_count = text.count(SOURCE_TRAIL_HEADER)
+    if expected_count and actual_count != expected_count:
+        issues.append(
+            f"expected {expected_count} source-trail tables with new header; found {actual_count}"
+        )
 
     host_only_rows = [
         row

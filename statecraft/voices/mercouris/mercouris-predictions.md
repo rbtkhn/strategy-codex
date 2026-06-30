@@ -8,7 +8,7 @@ Each section asks one concrete question, shows Alexander Mercouris's own words, 
 
 ## How to Read This Page
 
-Use **At a Glance** for a compact overview. Each numbered section is one prediction or strategic judgment. Alexander Mercouris's exact words appear in blockquotes; the collapsible **Source trail** lists every archived appearance with stance and excerpt.
+Use **At a Glance** for a compact overview. Each numbered section is one prediction or strategic judgment. Alexander Mercouris's exact words appear in blockquotes; the collapsible **Source trail** lists channel, episode, stance, and excerpt for every archived appearance.
 
 ## At a Glance
 
@@ -35,9 +35,9 @@ Tests whether Mercouris read Russian war termination as battlefield victory rath
 <details>
 <summary>Source trail</summary>
 
-| Date | Appearance | Stance | Exact words |
-| --- | --- | --- | --- |
-| 2026-06-26 | 2026-06-26 Alexander Mercouris | no | "And about a week ago, Putin's spokesman, Putin's foreign policy aid rather, Yuri Ushakov, said that the Russians are no longer waiting for the Americans to implement the Anchorage Agreement. It has become clear to the Russians that the…" |
+| Date | Channel | Episode | Stance | Excerpt |
+| --- | --- | --- | --- | --- |
+| 2026-06-26 | Alexander Mercouris | [Zelensky Again Threatens Belarus; Kharkov Crumbles Threat To Kiev Grows; Lavrov Rubio Bury Anchorage](https://www.youtube.com/watch?v=fxoQwJ-z9K4) | no | "And about a week ago, Putin's spokesman, Putin's foreign policy aid rather, Yuri Ushakov, said that the Russians are no longer waiting for the Americans to implement the Anchorage Agreement. It has become clear to the Russians that the…" |
 
 </details>
 
@@ -59,9 +59,9 @@ Tests whether Mercouris read force-posture and strike cadence as active war prep
 <details>
 <summary>Source trail</summary>
 
-| Date | Appearance | Stance | Exact words |
-| --- | --- | --- | --- |
-| 2026-06-14 | 2026-06-14 Alexander Mercouris | yes | "over the last 24 hours after what appeared to be an intense pattern of escalation over the previous two weeks with the United States and Iran trading blows and trading blows increasingly aggressively and with Iran also launching missile…" |
+| Date | Channel | Episode | Stance | Excerpt |
+| --- | --- | --- | --- | --- |
+| 2026-06-14 | Alexander Mercouris | [US Iran Closer To Signing MoU Reflecting Iran's Terms; Russian MoD Says Konstantinovka Close To Fall](https://www.youtube.com/watch?v=4xSucEKL32Y) | yes | "over the last 24 hours after what appeared to be an intense pattern of escalation over the previous two weeks with the United States and Iran trading blows and trading blows increasingly aggressively and with Iran also launching missile…" |
 
 </details>
 
