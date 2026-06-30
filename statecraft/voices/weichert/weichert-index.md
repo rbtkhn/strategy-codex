@@ -8,7 +8,7 @@ Purpose: exhaustive canonical route map for Brandon Weichert guest appearances a
 
 ## Corpus note
 
-- **14** eligible archive captures on disk
+- **15** eligible archive captures on disk
 - Rebuild: `python scripts/build_weichert_index.py`
 - Primary lane: **Mario Nawfal × Weichert**; other hosts listed for full archive parity
 
@@ -31,6 +31,7 @@ Purpose: exhaustive canonical route map for Brandon Weichert guest appearances a
 - [2026-06-19 Mario Nawfal](../../../source-archive/statecraft/2026-06-19/source-mario-nawfal-brandon-weichert-us-intel-warns-israeli-sabotage-2026-06-19.md)
 - [2026-06-23 Mario Nawfal](../../../source-archive/statecraft/2026-06-23/source-mario-nawfal-weichert-tucker-mtg-abandon-republican-party-maga-falling-apart-2026-06-23.md) — Hormuz TSS lane fight; SPR ~100M usable; 14 systems depleted; Tucker/MTG abandon Republican party; Conricus tether clip; Channel 13 Lebanon pilot; Albanese debanking; Putin Istanbul 2.0
 - [2026-06-24 Tucker Carlson](../../../source-archive/statecraft/2026-06-24/source-tucker-carlson-weichert-jd-vance-warning-israel-israel-firsters-iran-growing-strength-2026-06-24.md)
+- [2026-06-27 Dialogue Works](../../../source-archive/statecraft/2026-06-27/source-dialogue-works-brandon-weichert-negotiations-cancelled-us-strike-iran-iran-hit-us-bases-2026-06-27.md)
 
 ## Adjacent notes (not source floor)
 

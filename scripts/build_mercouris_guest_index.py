@@ -2,14 +2,21 @@
 """Build statecraft/voices/mercouris/mercouris-index.md from archive guest captures."""
 from __future__ import annotations
 
+import argparse
 import re
+import sys
 from collections import defaultdict
 from pathlib import Path
 
-REPO = Path(__file__).resolve().parent.parent
+SCRIPTS = Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+import shelf_index_utils as shelf_utils  # noqa: E402
+
+REPO = SCRIPTS.parent
 ARCHIVE = REPO / "source-archive" / "statecraft"
 OUT = REPO / "statecraft" / "voices" / "mercouris" / "mercouris-index.md"
-MERC = re.compile(r"alexander\s+mercouris|alex\s+mercouris", re.I)
 
 HEADER = """WORK only; not Record.
 
@@ -77,47 +84,6 @@ def parse_head(path: Path) -> dict:
     return out
 
 
-def guest_slots(meta: dict) -> list[str]:
-    slots: list[str] = []
-    if meta.get("guest"):
-        slots.append(meta["guest"])
-    for key in sorted(meta.keys(), key=lambda k: (len(k), k)):
-        if re.fullmatch(r"guest_\d+", key):
-            slots.append(meta[key])
-    slots.extend(meta.get("guest_people") or [])
-    return slots
-
-
-def is_mercouris_material(path: Path, meta: dict) -> bool:
-    if "mercouris" in path.name.lower() or meta.get("thread") == "mercouris":
-        return True
-    if MERC.search(path.name):
-        return True
-    blob = " ".join([meta.get("host", ""), *guest_slots(meta)])
-    return bool(MERC.search(blob))
-
-
-def is_host_channel(meta: dict, path: Path) -> bool:
-    if meta.get("channel_slug") == "alexander-mercouris":
-        return True
-    if path.name.lower().startswith("source-alexander-mercouris-"):
-        return True
-    return False
-
-
-def is_guest(meta: dict, path: Path) -> bool:
-    if not is_mercouris_material(path, meta):
-        return False
-    if is_host_channel(meta, path):
-        return False
-    for g in guest_slots(meta):
-        if MERC.search(g):
-            return True
-    if MERC.search(meta.get("host", "")):
-        return False
-    return "mercouris" in path.name.lower()
-
-
 def month_key(day: str) -> str:
     if day == "_aired-pending":
         return day
@@ -136,11 +102,19 @@ def row_label(meta: dict, path: Path) -> str:
     return f"- [{path.parent.name} — {title}](../../../source-archive/statecraft/{path.parent.name}/{path.name}){yt_bit} — host: **{host}**{slug_bit}"
 
 
-def main() -> None:
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="Exit 1 if generated index would differ from file on disk",
+    )
+    args = parser.parse_args()
+
     by_month: dict[str, list[tuple[Path, dict]]] = defaultdict(list)
     for path in sorted(ARCHIVE.glob("**/source-*.md")):
         meta = parse_head(path)
-        if is_guest(meta, path):
+        if shelf_utils.is_mercouris_guest_index_capture(meta, path):
             by_month[month_key(path.parent.name)].append((path, meta))
 
     total = sum(len(v) for v in by_month.values())
@@ -152,9 +126,20 @@ def main() -> None:
             lines.append(row_label(meta, path))
         lines.append("")
     lines.append(FOOTER.rstrip())
-    OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    content = "\n".join(lines) + "\n"
+
+    if args.check:
+        if OUT.is_file() and OUT.read_text(encoding="utf-8") == content:
+            print(f"OK {OUT.relative_to(REPO)} ({total} rows)")
+            return 0
+        print(f"STALE {OUT.relative_to(REPO)} ({total} rows)", file=sys.stderr)
+        return 1
+
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(content, encoding="utf-8")
     print(f"wrote {OUT.relative_to(REPO)} ({total} rows)")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

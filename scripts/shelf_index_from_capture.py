@@ -59,6 +59,18 @@ def rebuild_postol_index() -> None:
     postol_idx.main()
 
 
+def rebuild_mcgovern_index() -> None:
+    import build_mcgovern_index as mcgovern_idx  # noqa: E402
+
+    mcgovern_idx.main()
+
+
+def rebuild_crooke_index() -> None:
+    import build_crooke_index as crooke_idx  # noqa: E402
+
+    crooke_idx.main()
+
+
 def rebuild_krapivnik_index() -> None:
     import build_krapivnik_index as krapivnik_idx  # noqa: E402
 
@@ -116,6 +128,14 @@ def apply_for_slug(slug: str, capture: Path, meta: dict, body: str) -> bool:
         return shelf.capture_cited_in_index(index_text, capture)
     if slug == "postol":
         rebuild_postol_index()
+        index_text = shelf.read_text(shelf.shelf_index_path(slug))
+        return shelf.capture_cited_in_index(index_text, capture)
+    if slug == "mcgovern":
+        rebuild_mcgovern_index()
+        index_text = shelf.read_text(shelf.shelf_index_path(slug))
+        return shelf.capture_cited_in_index(index_text, capture)
+    if slug == "crooke":
+        rebuild_crooke_index()
         index_text = shelf.read_text(shelf.shelf_index_path(slug))
         return shelf.capture_cited_in_index(index_text, capture)
     if slug == "krapivnik":

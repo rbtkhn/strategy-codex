@@ -10,7 +10,7 @@ Backward extension context (2025 roots, atlas-prep): [johnson-backward-extension
 
 ## Corpus note
 
-- **110** eligible archive captures on disk
+- **111** eligible archive captures on disk
 - Rebuild: `python scripts/build_johnson_index.py`
 
 ## 2025-01
@@ -170,6 +170,7 @@ Backward extension context (2025 roots, atlas-prep): [johnson-backward-extension
 - [2026-06-27 Dialogue Works](../../../source-archive/statecraft/2026-06-27/source-dialogue-works-larry-johnson-us-bombs-iran-near-sirik-tehran-counterstrike-us-bases-regional-war-2026-06-27.md)
 - [2026-06-27 Diesen](../../../source-archive/statecraft/2026-06-27/source-glenn-diesen-larry-johnson-putin-warns-west-russia-ready-war-2026-06-27.md)
 - [2026-06-28 Dialogue Works](../../../source-archive/statecraft/2026-06-28/source-dialogue-works-larry-johnson-breaking-explosions-bahrain-kuwait-kiev-2026-06-28.md)
+- [2026-06-29 Napolitano](../../../source-archive/statecraft/2026-06-29/source-judging-freedom-johnson-trump-mou-unraveling-2026-06-29.md)
 
 ## June 2026 cadence (landed)
 

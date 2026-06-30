@@ -33,7 +33,7 @@ Current search did not produce a convincing live branch on the main `Daniel Davi
 McGovern is stronger than a two-lane accident. The two embodied branches are already different enough to matter:
 
 - `Diesen` elicits the Europe-order and strategic-consequence McGovern
-- `Alkorshid / Dialogue Works` elicits the Iran-war and imperial-unreality McGovern
+- `Alkhorshid / Dialogue Works` elicits the Iran-war and imperial-unreality McGovern
 
 So the object is now materially real as a **double-helix**, while still leaving open the possibility that a later `Judging Freedom` import pass could justify a triple-helix reading.
 

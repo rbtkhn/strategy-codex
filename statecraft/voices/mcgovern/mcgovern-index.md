@@ -4,7 +4,7 @@ WORK only; not Record.
 
 Purpose: provide the canonical route map for materialized McGovern appearances and the smaller set of direct archive anchors that explain the shelf shape.
 
-**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index mcgovern` — author/guest parity; skill **`audit index`**. Post-land: `python scripts/shelf_index_from_capture.py --path <capture> --apply`.
+**Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index mcgovern` — author/guest parity; skill **`audit index`**. Rebuild: `python scripts/build_mcgovern_index.py` · post-land: `python scripts/shelf_index_from_capture.py --path <capture> --apply`.
 
 ## Direct Materialized Appearances
 
@@ -42,6 +42,7 @@ Purpose: provide the canonical route map for materialized McGovern appearances a
 - [2026-06-15 - Will Russia escalate?](../../../source-archive/statecraft/2026-06-15/source-judging-freedom-mcgovern-will-russia-escalate-2026-06-15.md)
 - [2026-06-19 - Intel roundtable w/ Johnson & McGovern: weekly wrap 19-June](../../../source-archive/statecraft/2026-06-19/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-19-june-2026-06-19.md) — **guest** · Judging Freedom × Johnson
 - [2026-06-26 - Intel roundtable w/ Johnson & McGovern: weekly wrap 26-June](../../../source-archive/statecraft/2026-06-26/source-judging-freedom-johnson-mcgovern-intel-roundtable-weekly-wrap-26-june-2026-06-26.md) — **guest** · Judging Freedom × Johnson
+- [2026-06-29 - Can Zelensky goad Putin to overact?](../../../source-archive/statecraft/2026-06-29/source-judging-freedom-mcgovern-zelensky-goad-putin-overact-2026-06-29.md) — **guest** · Judging Freedom
 
 ### Debate / Non-core
 

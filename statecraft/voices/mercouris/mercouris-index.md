@@ -24,7 +24,7 @@ Do **not** dedupe by calendar day alone — same analyst on Davis vs Diesen vs D
 
 ## Corpus note
 
-- **45** materialized cross-host guest captures on disk; expand as archive grows
+- **46** materialized cross-host guest captures on disk; expand as archive grows
 - Filename families: `source-duran-mercouris-*` · `source-daniel-davis-*mercouris*` · `source-glenn-diesen-*mercouris*` · explicit Mercouris in `guest` / `guest_people` / `guest_2` with `channel_slug` ≠ `alexander-mercouris`
 - **The Duran:** YAML lists Christoforou host / Mercouris guest — route host lens to [`the-duran-channel-index.md`](../../channels/the-duran/the-duran-channel-index.md); Mercouris mechanism here
 
@@ -124,6 +124,7 @@ Do **not** dedupe by calendar day alone — same analyst on Davis vs Diesen vs D
 - [2026-06-02 — duran-mercouris-konstantinovka-is-falling-wests-ukraine-narrative-is-…](../../../source-archive/statecraft/2026-06-02/source-duran-mercouris-konstantinovka-is-falling-wests-ukraine-narrative-is-crumbling-2026-06-02.md) — host: **Alex Christoforou**
 - [2026-06-06 — duran-mercouris-putin-reveals-oreshnik-plan-west-desperate-to-get-con…](../../../source-archive/statecraft/2026-06-06/source-duran-mercouris-putin-reveals-oreshnik-plan-west-desperate-to-get-conflict-freeze-2026-06-06.md) — host: **Alex Christoforou**
 - [2026-06-23 — Rubicon Crossed, Permanent Conflict on Russia. Zelensky Targets Belar…](../../../source-archive/statecraft/2026-06-23/source-duran-mercouris-rubicon-crossed-zelensky-targets-belarus-2026-06-23.md) (`-6oJNKA4HrQ`) — host: **Alex Christoforou** · `the-duran`
+- [2026-06-27 — Russia Frontline Advance. Putin's Messaging Woes as Lavrov's WW3 Warn…](../../../source-archive/statecraft/2026-06-27/source-duran-mercouris-russia-frontline-advance-putin-messaging-woes-lavrov-ww3-warning-ignored-2026-06-27.md) (`UEOEbeeC2tg`) — host: **Alex Christoforou** · `the-duran`
 - [2026-06-01 — duran-mercouris-seeking-war-with-russia-2026-06-01](../../../source-archive/statecraft/2026-06-01/source-duran-mercouris-seeking-war-with-russia-2026-06-01.md) — host: **Alex Christoforou**
 - [2026-06-22 — US-Iran Ceasefire Talks. Conflict Round 3 Is Coming](../../../source-archive/statecraft/2026-06-22/source-duran-mercouris-us-iran-ceasefire-talks-conflict-round-3-2026-06-22.md) (`vph0eVBwrmU`) — host: **Alex Christoforou** · `the-duran`
 - [2026-06-20 — The Secret Plot to Destroy Russia | Alexander Mercouris](../../../source-archive/statecraft/2026-06-20/source-neutrality-studies-alexander-mercouris-secret-plot-destroy-russia-russophobia-2026-06-20.md) (`Vf85Vvu1ym8`) — host: **Pascal Lottaz** · `neutrality-studies`

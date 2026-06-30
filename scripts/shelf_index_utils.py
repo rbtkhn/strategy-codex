@@ -43,6 +43,7 @@ GUEST_REBUILD_SHELF_SLUGS = frozenset(
         "kent",
         "matlock",
         "martyanov",
+        "mcgovern",
         "postol",
         "krapivnik",
         "krainer",
@@ -60,6 +61,7 @@ GUEST_NAME_PATTERNS: dict[str, re.Pattern[str]] = {
     "krainer": re.compile(r"alex\s+krainer|\bkrainer\b", re.I),
     "kent": re.compile(r"joe\s+kent", re.I),
     "matlock": re.compile(r"jack\s+matlock", re.I),
+    "mcgovern": re.compile(r"ray\s+mcgovern|\bmcgovern\b", re.I),
     "jiang": re.compile(r"jiang\s+xueqin", re.I),
 }
 
@@ -400,6 +402,8 @@ def _guest_named(meta: dict[str, object], slug: str) -> bool:
 def capture_matches_shelf(slug: str, path: Path, meta: dict[str, object], body: str = "") -> bool:
     if slug == "jiang":
         return is_jiang_external_interview(meta, path, body)
+    if slug in GUEST_ONLY_SPLIT_IDENTITY_SLUGS:
+        return is_split_identity_guest_index_capture(slug, meta, path)
     if shelf_capture_excluded(slug, path, meta, body):
         return False
     slug_fold = slug.casefold()

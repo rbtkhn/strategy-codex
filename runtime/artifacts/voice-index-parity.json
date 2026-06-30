@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-29T13:21:14Z",
+  "generated_at": "2026-06-30T01:33:10Z",
   "summary": {
     "voices_discovered": 33,
     "listed_in_voices_router": 33,
     "with_primary_index": 33,
-    "with_rebuild_script": 26,
-    "parity_pass": 26,
-    "parity_warn": 7,
+    "with_rebuild_script": 28,
+    "parity_pass": 28,
+    "parity_warn": 5,
     "parity_fail": 0,
     "broken_links_total": 0,
     "documented_exceptions": 10
@@ -18,8 +18,8 @@
       "listed_in_voices_router": true,
       "builder": "scripts/build_aguilar_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index aguilar",
-      "eligible_captures": 17,
-      "indexed_captures": 17,
+      "eligible_captures": 19,
+      "indexed_captures": 19,
       "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
@@ -38,7 +38,7 @@
       "builder": "scripts/build_alkhorshid_guest_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index alkhorshid",
       "eligible_captures": 1,
-      "indexed_captures": 1,
+      "indexed_captures": 2,
       "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
@@ -49,7 +49,7 @@
         "cross-host guest captures only (Nima on other hosts)"
       ],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-29",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -117,11 +117,11 @@
       "voice": "crooke",
       "primary_index": "statecraft/voices/crooke/crooke-index.md",
       "listed_in_voices_router": true,
-      "builder": null,
+      "builder": "scripts/build_crooke_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index crooke",
-      "eligible_captures": 65,
-      "indexed_captures": 65,
-      "parity": "warn",
+      "eligible_captures": 66,
+      "indexed_captures": 66,
+      "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
         "crooke-forecast-ledger-2026.md",
@@ -180,7 +180,7 @@
         "cross-host guest captures only (Glenn Diesen on other hosts)"
       ],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-27",
+      "last_rebuilt": "2026-06-29",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -190,8 +190,8 @@
       "listed_in_voices_router": true,
       "builder": "scripts/build_freeman_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index freeman",
-      "eligible_captures": 148,
-      "indexed_captures": 150,
+      "eligible_captures": 149,
+      "indexed_captures": 151,
       "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
@@ -296,8 +296,8 @@
       "listed_in_voices_router": true,
       "builder": "scripts/build_johnson_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index johnson",
-      "eligible_captures": 110,
-      "indexed_captures": 110,
+      "eligible_captures": 111,
+      "indexed_captures": 111,
       "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
@@ -330,7 +330,7 @@
         "reaction-tier source-ritter-* captures citing Karaganov token are not guest appearances"
       ],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-29",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -496,11 +496,11 @@
       "voice": "mcgovern",
       "primary_index": "statecraft/voices/mcgovern/mcgovern-index.md",
       "listed_in_voices_router": true,
-      "builder": null,
+      "builder": "scripts/build_mcgovern_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index mcgovern",
-      "eligible_captures": 27,
-      "indexed_captures": 27,
-      "parity": "warn",
+      "eligible_captures": 28,
+      "indexed_captures": 28,
+      "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
         "mcgovern-source-index.md"
@@ -537,8 +537,8 @@
       "listed_in_voices_router": true,
       "builder": "scripts/build_mercouris_guest_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index mercouris",
-      "eligible_captures": 44,
-      "indexed_captures": 45,
+      "eligible_captures": 46,
+      "indexed_captures": 46,
       "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
@@ -609,8 +609,8 @@
       "listed_in_voices_router": true,
       "builder": "scripts/build_postol_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index postol",
-      "eligible_captures": 5,
-      "indexed_captures": 5,
+      "eligible_captures": 6,
+      "indexed_captures": 6,
       "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
@@ -673,8 +673,8 @@
       "listed_in_voices_router": true,
       "builder": "scripts/build_weichert_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index weichert",
-      "eligible_captures": 14,
-      "indexed_captures": 14,
+      "eligible_captures": 15,
+      "indexed_captures": 15,
       "parity": "pass",
       "broken_links": 0,
       "companion_routes": [

@@ -16,14 +16,16 @@ Purpose: canonical statecraft-side source index for **Anthony Aguilar** while ra
 
 ## Corpus note
 
-- **17** eligible archive captures on disk (2026-02-27 → 2026-06-27)
+- **19** eligible archive captures on disk (2026-02-27 → 2026-06-28)
 - Rebuild: `python scripts/build_aguilar_index.py`
-- **10** Dialogue Works · **3** Nawfal · **3** Moral Resistance · **1** Kiriakou
+- **12** Dialogue Works · **3** Nawfal · **3** Moral Resistance · **1** Kiriakou
 - **`thread: aguilar`** on new lands; filename token `aguilar` matches legacy rows
 
 ## 2026-06
 
+- [2026-06-28 | Dialogue Works × Aguilar | BREAKING: ISRAEL GROUND ATTACK IN SYRIA, SAUDI-YEMEN NEW WAR, IRAN CEASEFIRE w/ Col A…](../../../source-archive/statecraft/2026-06-28/source-dialogue-works-anthony-aguilar-israel-ground-attack-syria-saudi-yemen-war-iran-ceasefire-2026-06-28.md)
 - [2026-06-27 | Dialogue Works × Aguilar | Lt. Col. Anthony Aguilar: U.S. Airstrikes Hit Southern Iran; Tehran's 'Hard' Retaliat…](../../../source-archive/statecraft/2026-06-27/source-dialogue-works-anthony-aguilar-us-airstrikes-southern-iran-tehran-retaliation-us-bases-2026-06-27.md)
+- [2026-06-27 | Dialogue Works × Aguilar | BREAKING: IRAN STRIKE KUWAIT & BAHRAIN, RUSSIA STRIKES KHARKOV AND KIEV w/LT Col Anth…](../../../source-archive/statecraft/2026-06-27/source-dialogue-works-anthony-aguilar-iran-strike-kuwait-bahrain-russia-strikes-kharkov-kiev-2026-06-27.md)
 - [2026-06-26 | Dialogue Works × Aguilar | Lt. Col. Anthony Aguilar: BREAKING: U.S. Launches Airstrikes Inside Iran – Escalation…](../../../source-archive/statecraft/2026-06-26/source-dialogue-works-anthony-aguilar-us-airstrikes-inside-iran-escalation-2026-06-26.md)
 - [2026-06-20 | Dialogue Works × Aguilar | Lt. Col. Anthony Aguilar: Netanyahu Orders IDF to Halt Lebanon Operations Amid Irania…](../../../source-archive/statecraft/2026-06-20/source-dialogue-works-anthony-aguilar-netanyahu-orders-idf-halt-lebanon-operations-iranian-pressure-2026-06-20.md)
 - [2026-06-18 | Moral Resistance × Aguilar | BREAKING: ELON MUSK ATTACKS ISRAEL, JD VANCE SWITZERLAND TRIP CANCELLED w/ LT COL Ant…](../../../source-archive/statecraft/2026-06-18/source-moral-resistance-anthony-aguilar-elon-musk-attacks-israel-vance-switzerland-cancelled-2026-06-18.md)
@@ -69,7 +71,7 @@ _Second-host evidence — not yet a stable branch; see [aguilar-cross-host-note.
 
 1. Open **Statecraft Archive** direct files first.
 2. Treat Aguilar as **practitioner-facing operational / war-conduct witness** — blockade, naval posture, escalation feasibility; not engineering-first (→ [Postol](../postol/postol-index.md)) or macro-order collapse (→ [Martyanov](../martyanov/martyanov-index.md)).
-3. Default host branch: **Alkorshid / Dialogue Works** — Nawfal and Moral Resistance reinforce live-crisis lanes without constituting a second helix yet.
+3. Default host branch: **Alkhorshid / Dialogue Works** — Nawfal and Moral Resistance reinforce live-crisis lanes without constituting a second helix yet.
 
 ## Boundary notes
 

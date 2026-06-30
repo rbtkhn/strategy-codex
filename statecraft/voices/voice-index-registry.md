@@ -33,11 +33,25 @@ python3 scripts/build_voice_index_registry.py
 # Preflight (quick tier — artifact drift + embedded parity)
 python3 scripts/build_voice_index_registry.py --check
 
-# Full health / closeout (live rollup)
+# Split-identity guest indexes (davis, diesen, mercouris, alkhorshid)
+python3 scripts/check_voice_guest_indexes.py
+python3 scripts/scan_split_identity_guest_threads.py
+```
+
+Per-builder rebuild:
+
+```bash
+python3 scripts/build_davis_guest_index.py --check
+python3 scripts/build_mercouris_guest_index.py --check
+```
+
+Full health / closeout (live rollup):
+
+```bash
 python3 scripts/audit_statecraft_archive_index.py --all-voice-indexes
 ```
 
-Repo health: `check_repo_health --quick` runs registry `--check` only; `--full` adds `--all-voice-indexes`.
+Repo health: `check_repo_health --quick` runs registry `--check` and `check_voice_guest_indexes.py`; `--full` adds `--all-voice-indexes`.
 
 ## Exception metadata
 

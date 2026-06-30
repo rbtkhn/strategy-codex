@@ -240,7 +240,7 @@ def render_curated_overlays() -> list[str]:
         "",
         "1. Open **Statecraft Archive** direct files first.",
         "2. Treat Aguilar as **practitioner-facing operational / war-conduct witness** — blockade, naval posture, escalation feasibility; not engineering-first (→ [Postol](../postol/postol-index.md)) or macro-order collapse (→ [Martyanov](../martyanov/martyanov-index.md)).",
-        "3. Default host branch: **Alkorshid / Dialogue Works** — Nawfal and Moral Resistance reinforce live-crisis lanes without constituting a second helix yet.",
+        "3. Default host branch: **Alkhorshid / Dialogue Works** — Nawfal and Moral Resistance reinforce live-crisis lanes without constituting a second helix yet.",
         "",
         "## Boundary notes",
         "",
