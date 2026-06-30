@@ -44,12 +44,12 @@ The object asks: when Musk speaks, acts, withholds, accelerates, receives access
 Track Musk across all raw-inputs, especially when the hit involves Starlink, SpaceX, AI, China, federal contracts, DOGE-style access, platform speech, war, sanctions, identity infrastructure, or state capacity.
 
 ```powershell
-rg -n "Elon Musk|Musk|SpaceX|Starlink|Tesla|xAI|Neuralink" codex/years
+rg -n "Elon Musk|Musk|SpaceX|Starlink|Tesla|xAI|Neuralink" continuity/years
 ```
 
 Snapshot from the first object pass:
 
-- `codex/years` contains 81 local files with a Musk / Musk-adjacent match.
+- `continuity/years` contains 81 local files with a Musk / Musk-adjacent match.
 - `source-archive/statecraft` contains 74 local files with a Musk / Musk-adjacent match.
 
 Treat these counts as a refreshable search snapshot, not as a fixed source set.

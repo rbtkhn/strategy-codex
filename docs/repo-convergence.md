@@ -69,8 +69,20 @@ Declared in [`scripts/repo_convergence_registry.py`](../scripts/repo_convergence
 | `generated_surfaces` | validator | `statecraft_predictions` | — |
 | `essay_surfaces` | validator | — | — |
 | `schema` | validator | — | — |
+| `continuity_layer` | validator | — | — |
 
 Phase 1 **intentionally omits** (still in health only): Freeman predictions, voice guest indexes, root file budget, archive boundary, retired-path sentinels.
+
+### continuity_layer
+
+After `codex/` → `continuity/` migration, run:
+
+```bash
+python3 scripts/run_repo_convergence.py --check --loop continuity_layer
+python3 scripts/run_repo_convergence.py --explain --loop continuity_layer
+```
+
+Checks: rename audit (strict), encoding hygiene (warn), STATUS freshness, contract index. Optional: `scripts/strategy/update_strategy_notebook_word_counts.py --check` after bulk notebook edits; `scripts/build_continuity_report.py` for derived observability.
 
 ## Input narrowing policy
 

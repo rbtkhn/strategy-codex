@@ -6,7 +6,7 @@ before book quotations. See ASR-VERIFICATION-RUBRIC.md.
 
 Usage:
   python3 scripts/work_jiang/emit_interview_dialogue_from_verbatim.py \\
-    --verbatim codex/predictive-history/verbatim-transcripts/interviews-12-j-shapiro-truth-myth-personal-path.md \\
+    --verbatim continuity/predictive-history/verbatim-transcripts/interviews-12-j-shapiro-truth-myth-personal-path.md \\
     --output /tmp/out.md
 """
 from __future__ import annotations

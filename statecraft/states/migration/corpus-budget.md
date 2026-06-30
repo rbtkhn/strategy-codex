@@ -83,10 +83,10 @@ These rows are additive. They describe the active helix-first proving cases and 
 
 | Lane | Helix words | Path |
 | --- | ---: | --- |
-| America | 1164 | `codex/academy/statecraft/america/helix.md` |
-| Russia | 1577 | `codex/academy/statecraft/russia/helix.md` |
-| China | 1225 | `codex/academy/statecraft/china/helix.md` |
-| Iran | 1207 | `codex/academy/statecraft/persia/helix.md` |
+| America | 1164 | `continuity/academy/statecraft/america/helix.md` |
+| Russia | 1577 | `continuity/academy/statecraft/russia/helix.md` |
+| China | 1225 | `continuity/academy/statecraft/china/helix.md` |
+| Iran | 1207 | `continuity/academy/statecraft/persia/helix.md` |
 
 - Total helix-object words across active lanes: `5173`
 

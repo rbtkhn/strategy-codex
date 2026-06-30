@@ -146,7 +146,7 @@ WORK only; not Record.
     errors = validator.validate_guest_matrix(
         validator.GuestMatrixSpec(
             file=matrix.relative_to(tmp_path).as_posix(),
-            arc_glob="codex/years/2026/davis/davis-*-speaker-arc.md",
+            arc_glob="continuity/years/2026/davis/davis-*-speaker-arc.md",
             expected_count=2,
         ),
         tmp_path,

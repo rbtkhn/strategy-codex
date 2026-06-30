@@ -3,7 +3,7 @@
 
 Purpose: route map for materialized **Predictive History** captures on disk (`channel_slug: predictive-history`).
 
-**SSOT:** `source-archive/statecraft/` — not legacy `codex/years/…/provenance/` · not `raw-input` mirrors.
+**SSOT:** `source-archive/statecraft/` — not legacy `continuity/years/…/provenance/` · not `raw-input` mirrors.
 
 Channel: [Predictive History](https://www.youtube.com/@PredictiveHistory)
 

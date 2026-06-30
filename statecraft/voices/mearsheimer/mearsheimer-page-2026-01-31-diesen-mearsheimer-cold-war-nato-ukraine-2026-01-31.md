@@ -23,7 +23,7 @@ Analytic lane only; the host’s “Europe expected unity and got division” is
 ### Appendix
 
 - **Full verbatim (capture):** [provenance/2026-01-31/source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../../../source-archive/statecraft/2026-01-31/source-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
-- **Inbox / triage:** [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md)
+- **Inbox / triage:** [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md)
 - **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md](../diesen/diesen-page-2026-01-31-diesen-mearsheimer-cold-war-nato-ukraine-2026-01-31.md)
 - **Canonical primary:** `https://www.youtube.com/watch?v=OV75YsYnE8U`
 - **Legacy stub:** [mearsheimer-page-2026-01-31-cold-war-nato-ukraine.md](mearsheimer-page-2026-01-31-cold-war-nato-ukraine.md)

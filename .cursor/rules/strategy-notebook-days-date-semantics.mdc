@@ -5,7 +5,7 @@ alwaysApply: true
 
 # Strategy codex — `days.md` date semantics (anti-split)
 
-**SSOT:** [STRATEGY-NOTEBOOK-ARCHITECTURE.md — `days.md` date keys](../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md#days-md-date-semantics). Namespace **`strategy-notebook`** is deprecated — [STRATEGY-NOTEBOOK-DEPRECATED.md](../../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md).
+**SSOT:** [STRATEGY-NOTEBOOK-ARCHITECTURE.md — `days.md` date keys](../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md#days-md-date-semantics). Namespace **`strategy-notebook`** is deprecated — [STRATEGY-NOTEBOOK-DEPRECATED.md](../../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md).
 
 **Invariants (WORK / `strategy` / **EOD compose**):**
 

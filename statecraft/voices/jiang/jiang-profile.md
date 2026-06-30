@@ -2,7 +2,7 @@
 <!-- word_count: 686 -->
 
 
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) Ã¢â‚¬â€ **`jiang`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) Ã¢â‚¬â€ **`jiang`** lane.
 
 **Routing rule:** Predictive History is the sole upstream for notebook-facing Jiang ingest. PH-derived material may inform strategy-notebook only through this expert lane. Direct PH Ã¢â€ â€™ strategy-page routing is disallowed; route PH notes through inbox with `thread:jiang`, then weave on operator intent.
 
@@ -107,9 +107,9 @@ Promotion and refresh defaults: [strategy-expert-template.md Ã‚Â§ Voice fin
 
 ## Seed
 
-Predictive History canonical curation now lives in the external repo. Local `codex/predictive-history/lectures/` and `research/external/youtube-channels/predictive-history/transcripts/` paths are frozen migration/reference surfaces only.
+Predictive History canonical curation now lives in the external repo. Local `continuity/predictive-history/lectures/` and `research/external/youtube-channels/predictive-history/transcripts/` paths are frozen migration/reference surfaces only.
 
-Jiang Xueqin's Predictive History lectures are the **work-jiang** book spine. The operator's curated lecture bodies live under `codex/predictive-history/lectures/`; raw caption pulls from `research/external/youtube-channels/predictive-history/transcripts/` diff against those before quotations ship.
+Jiang Xueqin's Predictive History lectures are the **work-jiang** book spine. The operator's curated lecture bodies live under `continuity/predictive-history/lectures/`; raw caption pulls from `research/external/youtube-channels/predictive-history/transcripts/` diff against those before quotations ship.
 
 This expert lane is the **mandatory membrane** for PH Ã¢â€ â€™ strategy-notebook. PH material that has not been routed through `thread:jiang` and this file may not directly shape strategy pages.
 

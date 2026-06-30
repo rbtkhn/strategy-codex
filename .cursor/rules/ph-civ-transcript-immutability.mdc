@@ -38,5 +38,5 @@ Pilot ASR blocklists under `public/predictive-history/data/asr-blocklist/` (read
 
 ## Do not confuse with
 
-- **Frozen legacy PH trees** (`codex/predictive-history/`) — do not mutate.
+- **Frozen legacy PH trees** (`continuity/predictive-history/`) — do not mutate.
 - **`source-archive/statecraft/`** — separate verbatim intake pipeline.

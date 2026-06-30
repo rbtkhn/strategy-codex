@@ -20,7 +20,7 @@ This subtree is speaker-organized rather than lane-organized so the same speaker
 - `statecraft/voices/` is the canonical home for speaker-state surfaces that belong to live statecraft work.
 - canonical shelf paths take the form `statecraft/voices/<speaker>/` or, for migrated hosts, `statecraft/channels/<host>/`
 - the long-run target is the whole live speaker corpus, not only a pilot subset
-- **`codex/speakers/` is terminated** — see [codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md)
+- **`continuity/speakers/` is terminated** — see [codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md)
 - Do not silently duplicate authority between voices and hosts; each slug has one canonical shelf root.
 - Legacy `statecraft/speakers/` redirect stub removed 2026-06-26; use `statecraft/voices/` only.
 
@@ -128,7 +128,7 @@ Pointer law for future migrations:
 - when a speaker-derived file is recanonicalized into `statecraft/notes/` or `statecraft/essays/`, the originating speaker shelf should keep only routing pointers or curated index mentions
 - do not maintain duplicate full-authority prose copies in both places
 
-When the real question is host-law rather than speaker identity, open [statecraft/channels/](../channels/README.md) instead of treating retired `codex/speakers/<host>/...` surfaces as live authority.
+When the real question is host-law rather than speaker identity, open [statecraft/channels/](../channels/README.md) instead of treating retired `continuity/speakers/<host>/...` surfaces as live authority.
 
 ## Speaker profile law
 
@@ -136,7 +136,7 @@ When the real question is host-law rather than speaker identity, open [statecraf
 
 A **speaker profile** (`<speaker>-profile.md`) is the identity-and-voice hub: expert_id, role, pairing tags, compact voice tier, **structured linguistic style fingerprint (detailed when Tier A)**, convergence/tension stubs, and links — not transcript provenance, arc motion, or load-bearing synthesis.
 
-**Shape contract:** [voice-profile-template.md](voice-profile-template.md) — required sections, Tier B/A linguistic law, seed vs mature tiers, migration checklist. Upstream minimal scaffold: [strategy-codex-template-profile.md](../../codex/strategy-codex-template-profile.md).
+**Shape contract:** [voice-profile-template.md](voice-profile-template.md) — required sections, Tier B/A linguistic law, seed vs mature tiers, migration checklist. Upstream minimal scaffold: [strategy-codex-template-profile.md](../../continuity/strategy-codex-template-profile.md).
 
 **Linguistic register SSOT:** When Tier **A**, agents read `#linguistic-style-fingerprint-detailed` in the profile first. **`strategy-expert-<id>-mind.md`** is **compatibility only** during migration — see [VOICES-SUPERSEDE-MINDS.md](../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md).
 
@@ -144,10 +144,10 @@ Canonical placement:
 
 - **Migrated canonical shelf** → `statecraft/voices/<speaker>/<speaker>-profile.md` (SSOT). List it in the shelf `README.md` **Open first** block before arc/routing when identity or voice tier is the job.
 - **Migrated canonical host** → `statecraft/channels/<host>/<host>-profile.md` (SSOT) when the live host shelf has moved under `statecraft/channels/`.
-- **Profile-only / commentator-thread lane** (no first-class shelf yet) → `codex/profiles/<speaker>-profile.md` until real on-disk continuity warrants a shelf.
-- **Legacy paths** (`codex/profiles/`, `codex/speakers/<speaker>/`) → thin compatibility redirects after migration; **do not** duplicate the profile corpus in both places.
+- **Profile-only / commentator-thread lane** (no first-class shelf yet) → `continuity/profiles/<speaker>-profile.md` until real on-disk continuity warrants a shelf.
+- **Legacy paths** (`continuity/profiles/`, `continuity/speakers/<speaker>/`) → thin compatibility redirects after migration; **do not** duplicate the profile corpus in both places.
 
-Current migrated profiles: [Barnes](barnes/barnes-profile.md), [Mercouris](mercouris/mercouris-profile.md), [Mearsheimer](mearsheimer/mearsheimer-profile.md), [Pape](pape/pape-profile.md), [Crooke](crooke/crooke-profile.md), [Ritter](ritter/ritter-profile.md), [Parsi](parsi/parsi-profile.md), [Diesen](diesen/diesen-profile.md), [Davis](davis/davis-profile.md), [Alkhorshid](alkhorshid/alkhorshid-profile.md), [Weichert](weichert/weichert-profile.md) (seed). Profile-only lanes: [codex/profiles/README.md](../../README.md).
+Current migrated profiles: [Barnes](barnes/barnes-profile.md), [Mercouris](mercouris/mercouris-profile.md), [Mearsheimer](mearsheimer/mearsheimer-profile.md), [Pape](pape/pape-profile.md), [Crooke](crooke/crooke-profile.md), [Ritter](ritter/ritter-profile.md), [Parsi](parsi/parsi-profile.md), [Diesen](diesen/diesen-profile.md), [Davis](davis/davis-profile.md), [Alkhorshid](alkhorshid/alkhorshid-profile.md), [Weichert](weichert/weichert-profile.md) (seed). Profile-only lanes: [continuity/profiles/README.md](../../README.md).
 
 **Triad orthogonality (June 2026):** Barnes × Mercouris × Mearsheimer — run [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat; Tier A profiles link Family 8 to that skill.
 

@@ -46,7 +46,7 @@ Maps the legacy **`rbtkhn/civ-emp`** helix-lane public cut to the **`rbtkhn/civ-
 
 Public archive README: `archive/helix-lane-v1/README.md` in exported civ-state repo.
 
-Operator academy mirror (legacy): `codex/academy/statecraft/civ-emp/` — sync separately; not auto-renamed by export.
+Operator academy mirror (legacy): `continuity/academy/statecraft/civ-emp/` — sync separately; not auto-renamed by export.
 
 ## Export
 

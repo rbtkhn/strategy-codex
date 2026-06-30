@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T14:54:55+00:00",
+  "generated_at": "2026-06-30T08:05:05+00:00",
   "check_sources_scope": "main",
   "check_sources_notes": "Main channel-index roster only; channel-index-misc.md slugs excluded.",
   "source_markdown": "statecraft/channels/channel-index.md",
   "stats": {
     "main_channel_count": 16,
-    "file_count": 1514,
+    "file_count": 1517,
     "watchlist_count": 7,
     "discoverable_count": 16,
     "explicit_slug_count": 16
@@ -15,21 +15,21 @@
     {
       "slug": "alexander-mercouris",
       "label": "Alexander Mercouris",
-      "file_count": 334,
-      "day_count": 332,
+      "file_count": 333,
+      "day_count": 331,
       "watchlist": true,
       "check_sources": true,
       "discoverable": true,
       "explicit_slug": true,
       "channel_url": "https://www.youtube.com/@AlexMercouris",
       "first_day": "2025-01-03",
-      "last_day": "2026-06-28",
+      "last_day": "2026-06-27",
       "channel_id": "UCwGpHa6rMLjSSCBlckm5khw"
     },
     {
       "slug": "dialogue-works",
       "label": "Dialogue Works",
-      "file_count": 316,
+      "file_count": 317,
       "day_count": 199,
       "watchlist": true,
       "check_sources": true,
@@ -43,15 +43,15 @@
     {
       "slug": "daniel-davis",
       "label": "Daniel Davis / Deep Dive",
-      "file_count": 260,
-      "day_count": 153,
+      "file_count": 261,
+      "day_count": 154,
       "watchlist": true,
       "check_sources": true,
       "discoverable": true,
       "explicit_slug": true,
       "channel_url": "https://www.youtube.com/@DanielDavisDeepDive",
       "first_day": "2025-01-01",
-      "last_day": "2026-06-26",
+      "last_day": "2026-06-29",
       "channel_id": "UCWDN5zr5ttctoIAhZwW6tcQ"
     },
     {
@@ -71,7 +71,7 @@
     {
       "slug": "judging-freedom",
       "label": "Judge Napolitano - Judging Freedom",
-      "file_count": 218,
+      "file_count": 219,
       "day_count": 141,
       "watchlist": true,
       "check_sources": true,
@@ -85,15 +85,15 @@
     {
       "slug": "mario-nawfal",
       "label": "Mario Nawfal",
-      "file_count": 52,
-      "day_count": 31,
+      "file_count": 53,
+      "day_count": 32,
       "watchlist": false,
       "check_sources": true,
       "discoverable": true,
       "explicit_slug": true,
       "channel_url": "https://www.youtube.com/channel/UCTWBp-39z6tvz4-LQB-Z_QA",
       "first_day": "2026-05-12",
-      "last_day": "2026-06-26",
+      "last_day": "2026-06-29",
       "channel_id": "UCTWBp-39z6tvz4-LQB-Z_QA"
     },
     {

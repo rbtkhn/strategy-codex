@@ -28,9 +28,9 @@ The main remaining work is smaller:
 
 Neutral homes present:
 - `source-archive/statecraft/README.md`
-- `docs/skill-work/work-strategy/../../codex/raw-input/CAPTURE-TYPES.md`
-- `docs/skill-work/work-strategy/../../codex/NOTEBOOK-PREFERENCES.md`
-- `docs/skill-work/work-strategy/../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md`
+- `docs/skill-work/work-strategy/../../continuity/raw-input/CAPTURE-TYPES.md`
+- `docs/skill-work/work-strategy/../../continuity/NOTEBOOK-PREFERENCES.md`
+- `docs/skill-work/work-strategy/../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md`
 
 Conclusion:
 - keep the `.mdc` as a host reminder
@@ -41,7 +41,7 @@ Conclusion:
 **Judgment:** transferred.
 
 Neutral homes present:
-- `docs/skill-work/work-strategy/../../codex/daily-strategy-inbox.md`
+- `docs/skill-work/work-strategy/../../continuity/daily-strategy-inbox.md`
 - verifier script `scripts/verify_strategy_inbox_accumulator.py`
 
 Conclusion:
@@ -53,7 +53,7 @@ Conclusion:
 **Judgment:** transferred.
 
 Neutral home present:
-- `docs/skill-work/work-strategy/../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md` (`days.md` date semantics)
+- `docs/skill-work/work-strategy/../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md` (`days.md` date semantics)
 
 Conclusion:
 - this is already a reminder layer, not hidden law
@@ -65,7 +65,7 @@ Conclusion:
 Neutral homes present:
 - `.cursor/skills/skill-strategy/SKILL.md`
 - `docs/skill-work/work-strategy/minds/CIV-MEM-TRI-FRAME-ROUTING.md`
-- `docs/skill-work/work-strategy/../../codex/TRUMP-LEO-CIV-MEM-BARNES-DRILL.md`
+- `docs/skill-work/work-strategy/../../continuity/TRUMP-LEO-CIV-MEM-BARNES-DRILL.md`
 
 Open question:
 - whether the fallback branch logic should also live in a neutral strategy doc, not only in the skill and `.mdc`
@@ -108,7 +108,7 @@ Conclusion:
 **Judgment:** partly transferred, but verify completeness.
 
 Neutral home likely present:
-- `docs/skill-work/work-strategy/../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md`
+- `docs/skill-work/work-strategy/../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md`
 
 Need to confirm that the neutral doc fully carries:
 - prose-first journal layer

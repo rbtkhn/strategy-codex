@@ -33,7 +33,7 @@ Copy into a weekly brief, explainer draft, or social thread scaffold. **Human ap
 
 ### Verify tier (optional — use when numbers or scope may ship publicly)
 
-Mirror [strategy-notebook](../../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) **+ verify** habit: list **3–5 load-bearing claims** (casualties, ship counts, oil price, “Lebanon in/out,” official quotes), each with **dated source URL** or “refresh by” note. Omit this block only when the piece stays purely interpretive.
+Mirror [strategy-notebook](../../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md) **+ verify** habit: list **3–5 load-bearing claims** (casualties, ship counts, oil price, “Lebanon in/out,” official quotes), each with **dated source URL** or “refresh by” note. Omit this block only when the piece stays purely interpretive.
 
 | Claim | Source / date | Stale risk |
 |-------|-----------------|------------|
@@ -54,7 +54,7 @@ For each bullet in **Integrated takeaway** below, mentally tag **S / O / I** (or
 ## Operator synthesis (pre–public approval)
 
 **Dual-register line (when scope fights matter — e.g. Lebanon vs U.S. carve-out):**  
-[One sentence: mediator/regional language vs explicit bilateral carve-out — then stop; see [strategy-notebook `days.md` flashpoint notes](../../../../codex/chapters/2026/2026-04/days.md).]
+[One sentence: mediator/regional language vs explicit bilateral carve-out — then stop; see [strategy-notebook `days.md` flashpoint notes](../../../../continuity/chapters/2026/2026-04/days.md).]
 
 **Integrated takeaway** (tone and claims for the piece; cite CIV-MEM / LIB if used; **tag planes** if mixing S/O/I in one graf):  
 [Paragraph]

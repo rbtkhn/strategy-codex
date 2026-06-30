@@ -4,7 +4,7 @@
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) — **`mercouris`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`mercouris`** lane.
 
 ---
 
@@ -38,7 +38,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Linguistic style fingerprint (detailed)
 
-**Evidence class:** June 2026 intakes (15; `[iran]`/`[dual]`/`[ukraine]` tagged) + Tier A detailed table (this file). **Ukraine-primary rows not orthogonality-tested vs Barnes/Mearsheimer on Iran axes.** Orthogonality: run [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat (B×M×Me triad). Historical mind: `git show 904fb3bc6:codex/strategy-expert-mercouris-mind.md`
+**Evidence class:** June 2026 intakes (15; `[iran]`/`[dual]`/`[ukraine]` tagged) + Tier A detailed table (this file). **Ukraine-primary rows not orthogonality-tested vs Barnes/Mearsheimer on Iran axes.** Orthogonality: run [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat (B×M×Me triad). Historical mind: `git show 904fb3bc6:continuity/strategy-expert-mercouris-mind.md`
 
 | Family | Sub-dimension | Pattern | Example lines | Anti-pattern |
 |--------|---------------|---------|---------------|--------------|
@@ -68,11 +68,11 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 | **8 Emulation QA** | Sounds-like pair | Authenticity spot-check | ✓ “I'm very skeptical… I'm not there and I'm not able to observe…” · ✗ “confession through projection… rugpull presidency” | Barnes or Mearsheimer register |
 | **8 Emulation QA** | Anti-pattern fence | vs Mearsheimer | ✗ Numbered four-element ceasefire as default Mercouris spine | ✓ Hedge stack before operational claim |
 
-**Extended examples:** this table. Unmigrated historical lines: `git show 904fb3bc6:codex/strategy-expert-mercouris-mind.md`
+**Extended examples:** this table. Unmigrated historical lines: `git show 904fb3bc6:continuity/strategy-expert-mercouris-mind.md`
 
 ## Legacy redirects (compatibility)
 
-[`strategy-expert-mercouris-mind.md`](../../../codex/strategy-expert-mercouris-mind.md) · [CIV-MIND-MERCOURIS.md](../../../codex/minds/CIV-MIND-MERCOURIS.md) → this profile. [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
+[`strategy-expert-mercouris-mind.md`](../../../continuity/strategy-expert-mercouris-mind.md) · [CIV-MIND-MERCOURIS.md](../../../continuity/minds/CIV-MIND-MERCOURIS.md) → this profile. [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
 
 ## Convergence fingerprint
 
@@ -168,4 +168,4 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 ---
 
-**Companion files:** [mercouris-transcript.md](mercouris-transcript.md) · [mercouris-thread.md](mercouris-thread.md) · [strategy-expert-mercouris-mind.md](../../../codex/strategy-expert-mercouris-mind.md) (redirect)
+**Companion files:** [mercouris-transcript.md](mercouris-transcript.md) · [mercouris-thread.md](mercouris-thread.md) · [strategy-expert-mercouris-mind.md](../../../continuity/strategy-expert-mercouris-mind.md) (redirect)

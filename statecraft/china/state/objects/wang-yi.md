@@ -37,12 +37,12 @@ The object asks: when Wang Yi speaks or appears in a diplomatic sequence, what C
 Track Wang Yi across all raw-inputs, not only China-specific or Mercouris appearances.
 
 ```powershell
-rg -n "Wang Yi|Chinese foreign minister|China's foreign minister|China foreign minister|Foreign Minister Wang" codex/years
+rg -n "Wang Yi|Chinese foreign minister|China's foreign minister|China foreign minister|Foreign Minister Wang" continuity/years
 ```
 
 Snapshot from the first object pass:
 
-- `codex/years` contains 25 local files with a Wang Yi / Chinese foreign minister match.
+- `continuity/years` contains 25 local files with a Wang Yi / Chinese foreign minister match.
 - `source-archive/statecraft` contains 23 local files with a Wang Yi / Chinese foreign minister match.
 - `source-archive/statecraft` contains 24 matching lines.
 

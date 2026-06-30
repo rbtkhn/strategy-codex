@@ -28,8 +28,8 @@ REMOVED_STRATEGY_NOTEBOOK_TARGETS = (
 )
 
 LIVE_CONDUCTOR_TARGETS = (
-    "codex/CONDUCTOR-IMPROVEMENT-LOOP.md",
-    "codex/CONDUCTOR-CLOSE-TEMPLATE.md",
+    "continuity/CONDUCTOR-IMPROVEMENT-LOOP.md",
+    "continuity/CONDUCTOR-CLOSE-TEMPLATE.md",
 )
 
 
@@ -53,7 +53,7 @@ def test_live_conductor_targets_exist() -> None:
 
 
 def test_conductor_loop_wires_coffee_pick_to_dream_rollup_contract() -> None:
-    loop = (REPO_ROOT / "codex/CONDUCTOR-IMPROVEMENT-LOOP.md").read_text(encoding="utf-8")
+    loop = (REPO_ROOT / "continuity/CONDUCTOR-IMPROVEMENT-LOOP.md").read_text(encoding="utf-8")
     coffee = (REPO_ROOT / ".cursor/skills/coffee/SKILL.md").read_text(encoding="utf-8")
     dream = (REPO_ROOT / ".cursor/skills/dream/SKILL.md").read_text(encoding="utf-8")
 
@@ -67,7 +67,7 @@ def test_conductor_loop_wires_coffee_pick_to_dream_rollup_contract() -> None:
 
 
 def test_conductor_loop_ssot_prefers_new_name_only_cadence_shape() -> None:
-    loop = (REPO_ROOT / "codex/CONDUCTOR-IMPROVEMENT-LOOP.md").read_text(encoding="utf-8")
+    loop = (REPO_ROOT / "continuity/CONDUCTOR-IMPROVEMENT-LOOP.md").read_text(encoding="utf-8")
 
     assert "picked=conductor" in loop
     assert "picked=E conductor=slug" not in loop

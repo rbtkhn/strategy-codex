@@ -51,7 +51,7 @@ Use **`python`** or **`python3`** per host; Windows repo root paths as in sessio
 
 ## Civ-lens profile SSOT wedge (strategy-codex)
 
-Use when shipping **speaker profile migration** (`codex/profiles/` → `statecraft/voices/<speaker>/` or `statecraft/channels/<host>/` + redirect stub). One **pair or single speaker** per commit — not the whole migration wave.
+Use when shipping **speaker profile migration** (`continuity/profiles/` → `statecraft/voices/<speaker>/` or `statecraft/channels/<host>/` + redirect stub). One **pair or single speaker** per commit — not the whole migration wave.
 
 **Procedure (one validator run + one git Shell when executing):**
 
@@ -59,7 +59,7 @@ Use when shipping **speaker profile migration** (`codex/profiles/` → `statecra
    ```bash
    python3 scripts/validate_repo_routing.py --strict
    ```
-2. **Stage only** the wedge: canonical profile + shelf `README.md` / `index.md` + `*-source-index.md` when new + `codex/profiles/*-profile.md` redirect + `INDEX.md` / `repo-map.yaml` wiring if touched.
+2. **Stage only** the wedge: canonical profile + shelf `README.md` / `index.md` + `*-source-index.md` when new + `continuity/profiles/*-profile.md` redirect + `INDEX.md` / `repo-map.yaml` wiring if touched.
 3. **Commit** with a message naming the speaker pair and “voices SSOT” or “hosts SSOT”.
 4. **`git push origin main`** when the menu pick includes push; report network failure separately from validator failure.
 5. On pass after ship: optional `operator_handoff_check.py --fast` receipt.

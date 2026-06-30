@@ -39,7 +39,7 @@ Revise when the next capture materially moves lane direction or wire-verify upgr
 | **Speaker** | six `*-on-ai.md` notes | Bounded thesis depth per voice — **canonical prose** for that speaker's AI frame |
 | **Mechanism** | [gulf-ai-architecture.md](./gulf-ai-architecture.md) | Crooke/Escobar Gulf–petrodollar–China nexus (not a seventh speaker) |
 | **Compare (incident)** | [minab-palantir-four-voice-compare.md](./minab-palantir-four-voice-compare.md) | Minab/Palantir four-voice routing (Ritter · Weichert · Sachs · Jiang) |
-| **Codex entry** | [weichert-profile.md](../../codex/profiles/weichert-profile.md) | Weichert Iran-war + AI routing only — **no** `voices/weichert/` shelf |
+| **Codex entry** | [weichert-profile.md](../../continuity/profiles/weichert-profile.md) | Weichert Iran-war + AI routing only — **no** `voices/weichert/` shelf |
 
 **Pointer law:** bounded notes link **back** to this trend; this trend **does not** mirror note bodies. Minab/Palantir vendor forks defer to [verify receipts](#verify-receipts-2026-06-10). Shelf front doors: [Pape](../voices/pape/README.md) · [Jiang](../voices/jiang/README.md) · [Ritter](../voices/ritter/README.md) · [Sachs](../voices/sachs/README.md) · [Barnes](../voices/barnes/README.md) · Weichert → profile above.
 
@@ -65,7 +65,7 @@ Lanes **overlap**; do not collapse them in the log — tag each capture by domin
 | **Crooke** | B | Productive AI vs West; Gulf AI architecture | [gulf-ai-architecture.md](./gulf-ai-architecture.md) |
 | **Sachs** | B | China open-source; IDF cloud stack; first AI wars | [sachs-on-ai.md](./sachs-on-ai.md) |
 | **Barnes** | C (US-heavy) | Bubble, liability, energy | [barnes-on-ai.md](./barnes-on-ai.md) · [Barnes README](../voices/barnes/README.md) |
-| **Weichert** | A (US war stack) | Surveillance architecture, kill chain, China applied | [weichert-on-ai.md](./weichert-on-ai.md) · profile: [weichert-profile.md](../../codex/profiles/weichert-profile.md) |
+| **Weichert** | A (US war stack) | Surveillance architecture, kill chain, China applied | [weichert-on-ai.md](./weichert-on-ai.md) · profile: [weichert-profile.md](../../continuity/profiles/weichert-profile.md) |
 | **Ritter** | A (US war stack) | LOAC, CHMR, targeteer vs AI | [ritter-on-ai.md](./ritter-on-ai.md) · [Ritter README](../voices/ritter/README.md) |
 
 **Access governance lane — not a seventh speaker.** Export-control / sovereign-AI access hooks route to [june-19-2026-moonshots-export-control-sovereign-ai-crossover.md](./june-19-2026-moonshots-export-control-sovereign-ai-crossover.md) (singularity-primary capture; statecraft crossover only). Risk register row → [risk-artificial-intelligence.md](./risk-artificial-intelligence.md).
@@ -185,7 +185,7 @@ For **AI risk overview / voice allocation** without chronology, open [risk-artif
 - [Gulf AI architecture](./gulf-ai-architecture.md)
 - [Minab / Palantir four-voice compare](./minab-palantir-four-voice-compare.md)
 - [Moonshots export-control crossover](./june-19-2026-moonshots-export-control-sovereign-ai-crossover.md)
-- [Weichert profile](../../codex/profiles/weichert-profile.md) — codex front door (no voices shelf)
+- [Weichert profile](../../continuity/profiles/weichert-profile.md) — codex front door (no voices shelf)
 - [China statecraft lane](../china/README.md)
 - [Pape arc](arc-pape-continuity.md)
 - [Artificial intelligence cluster](./README.md#artificial-intelligence-cluster) · [Trend type law](./README.md#trend-canonical)

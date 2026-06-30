@@ -40,7 +40,7 @@ python3 scripts/operator_handoff_check.py -u strategy-codex
 Summarize:
 
 - **RECURSION-GATE** — pending totals (work-politics vs companion), listed items if any (script caps long queues), and the script's **proposed** processing steps (`operator_gate_review_pass` → approve/reject in-file → `process_approved_candidates.py`); remind that **merge requires companion approval**
-- **Predictive History (work-jiang)** — **`## Predictive History — night closeout`**: where the lane rests, suggested first lever tomorrow, rotating **Spark** (edit `codex/predictive-history/metadata/warmup-sparks.yaml`), optional rebuild ritual; still read-only / not Record
+- **Predictive History (work-jiang)** — **`## Predictive History — night closeout`**: where the lane rests, suggested first lever tomorrow, rotating **Spark** (edit `continuity/predictive-history/metadata/warmup-sparks.yaml`), optional rebuild ritual; still read-only / not Record
 - recently committed work
 - meaningful local changes still in progress
 - **`## Derived / export churn`** — PRP, manifest, ledger, etc. (regenerate or batch-commit vs editorial work)

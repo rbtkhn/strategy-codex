@@ -30,7 +30,7 @@ Purpose: front door for the canonical Mercouris statecraft shelf, surfacing the 
 
 Compatibility residue:
 
-- [Profile compatibility redirect](../../../codex/profiles/mercouris-profile.md)
+- [Profile compatibility redirect](../../../continuity/profiles/mercouris-profile.md)
 
 - [Thread compatibility file](mercouris-thread.md)
 - [Transcript compatibility file](mercouris-transcript.md)

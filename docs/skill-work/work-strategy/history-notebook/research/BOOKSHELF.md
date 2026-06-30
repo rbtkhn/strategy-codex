@@ -8,7 +8,7 @@
 
 ## Distinct from operator books
 
-| | **Bookshelf (this doc)** | **Operator analytical books** (e.g. [`docs/skill-work/work-strategy/history-notebook/`](../../../../../archive/grace-mar-instance/self-library.md#operator-analytical-books) History notebook, [strategy-codex (`codex/`)](../../../../../archive/grace-mar-instance/self-library.md#operator-analytical-books) strategy notebook) |
+| | **Bookshelf (this doc)** | **Operator analytical books** (e.g. [`docs/skill-work/work-strategy/history-notebook/`](../../../../../archive/grace-mar-instance/self-library.md#operator-analytical-books) History notebook, [strategy-codex (`continuity/`)](../../../../../archive/grace-mar-instance/self-library.md#operator-analytical-books) strategy notebook) |
 |---|-------------------------|----------------------------------|
 | **What it is** | Third-party print you own; bibliographic rows + optional `Shelf-*` hooks to drafting | **Operator-authored** structured corpora (chapters, journals, multivolume spines) under grace-mar |
 | **Grain** | Citation / shelf / era / tags â€” *enhanced bib*, not a repository of page content | Prose, meta, and README SSOTs meant for **analysis, judgment, and synthesis** |

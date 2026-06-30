@@ -47,7 +47,7 @@ REPLACEMENTS: dict[Path, list[tuple[str, str]]] = {
     ],
     ROOT / "book/volume-v/gb-11/gb-11-transcript.md": [
         (
-            "promoted_from: strategy-codex/source-archive/statecraft/2026-05-26/source-gb-11-dantes-revolution-2026-05-26.md",
+            "promoted_from: strategy-continuity/source-archive/statecraft/2026-05-26/source-gb-11-dantes-revolution-2026-05-26.md",
             "promoted_from: operator-source-archive/statecraft/2026-05-26/source-gb-11-dantes-revolution-2026-05-26.md",
         ),
         (
@@ -57,7 +57,7 @@ REPLACEMENTS: dict[Path, list[tuple[str, str]]] = {
     ],
     ROOT / "docs/jiang-classroom-rhetoric.md": [
         (
-            "- the raw [gb-12 Dante capture](/C:/dev/strategy-codex/source-archive/statecraft/2026-05-26/source-gb-12-dante-in-paradise-2026-05-26.md)",
+            "- the raw [gb-12 Dante capture](/C:/dev/strategy-continuity/source-archive/statecraft/2026-05-26/source-gb-12-dante-in-paradise-2026-05-26.md)",
             "- [gb-12-transcript.md](../book/volume-v/gb-12/gb-12-transcript.md)",
         ),
     ],

@@ -30,7 +30,7 @@ Preserve one **bounded wire + CIV-STATE object** from the Ritter *Trail of Tears
 - [2026-06-19 daily](../synthesis/day/2026-06-19.md) — tertiary Russia rear lane (when daily expanded to 12/12)
 - [Ritter capture](../../source-archive/statecraft/2026-06-19/source-ritter-a-trail-of-tears-2026-06-19.md) — archive `verify:` + operator adjudication
 - [Ritter source index](../voices/ritter/ritter-source-index.md) — `substack-ritter-a-trail-of-tears-2026-06-19`
-- [codex days fold](../../codex/chapters/2026/2026-06/days.md#2026-06-21) — strategy-codex (`codex/`) Judgment receipt
+- [codex days fold](../../continuity/chapters/2026/2026-06/days.md#2026-06-21) — strategy-codex (`continuity/`) Judgment receipt
 
 **Retrieve posture:** `shelf-reader` (Russia occupied-rear witness + corridor carrying conditions; no essay prose paste).
 
@@ -75,7 +75,7 @@ The object sits on the **Russia volume** as **occupied-rear legitimacy stress**,
 
 | Move | Load on this note |
 | --- | --- |
-| SMO ten-day field journey; series **opener** promises follow-on posts | Parent **Prediction** in [codex days](../../codex/chapters/2026/2026-06/days.md#2026-06-21) |
+| SMO ten-day field journey; series **opener** promises follow-on posts | Parent **Prediction** in [codex days](../../continuity/chapters/2026/2026-06/days.md#2026-06-21) |
 | Starobelsk/Starobilsk visit; children's memorials; “murdering 21 students in sleep” | **Emotional spine** — aligned with tier-A row; **not** a substitute for EMERCOM/wire receipts |
 | Burevestnik / Krivonos / Archangelsk drone units; Rogozhin; Iskander security team | **Rear-strike morale grammar** — adjacent mechanism, not Starobilsk proof |
 | Internal date tension (Jun 17 dash vs Jul 8 departure in narrative) | **Preserve verbatim** — do not “fix” in synthesis |
@@ -106,7 +106,7 @@ The object sits on the **Russia volume** as **occupied-rear legitimacy stress**,
 
 1. **Documented Rubicon HQ at college** at **supported** tier with geolocation receipt → operator may reopen (does not auto-delete tier-A).
 2. **Independent Western verify** in occupied Starobilsk with access receipt → retest toll row only (intent closed at tier-A + contradicted HQ).
-3. **Ritter series part 2+** absent ~30 days → [codex Prediction](../../codex/chapters/2026/2026-06/days.md#2026-06-21) fails.
+3. **Ritter series part 2+** absent ~30 days → [codex Prediction](../../continuity/chapters/2026/2026-06/days.md#2026-06-21) fails.
 4. **Chonhar/M-18 partial → supported upgrade** on new Planet/ISW tranche → update corridor block only; **do not** back-propagate to terror row.
 5. **Operator rescinds tier-A or HQ contradicted row** → explicit operator review only.
 

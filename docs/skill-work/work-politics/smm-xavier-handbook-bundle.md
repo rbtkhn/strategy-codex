@@ -1880,7 +1880,7 @@ python scripts/emit_pipeline_event.py stress_test_passed none brief=weekly-2026-
 ### Related
 
 - [stress-test-brief-template.md](america-first-ky/stress-test-brief-template.md)
-- [analytical-lenses/manifest.md](../../../codex/academy/theology/MANIFEST.md) — triangulation; stress-test is **additional** to lenses, not a replacement
+- [analytical-lenses/manifest.md](../../../continuity/academy/theology/MANIFEST.md) — triangulation; stress-test is **additional** to lenses, not a replacement
 - [AGENT-SESSION-BRIEF.md](america-first-ky/AGENT-SESSION-BRIEF.md) — next-session implementation tasks
 
 ---

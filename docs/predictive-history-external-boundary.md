@@ -14,7 +14,7 @@ Primary public CLI: **`predictive-history`** (deprecated `ph-civ` / `ph-apo` ent
 |-------|------|
 | **`rbtkhn/predictive-history`** | Author, validate, `git push` — sole corpus EXECUTE surface |
 | **`public/predictive-history/`** in strategy-codex | **Inbound read-only snapshot** — refresh via `sync_predictive_history_mirror.py` + `[predictive-history-sync]` commit |
-| **`codex/predictive-history/`** | Frozen workshop residue — read for intake only |
+| **`continuity/predictive-history/`** | Frozen workshop residue — read for intake only |
 
 Operator workspace: [predictive-history-operator-workspace.md](predictive-history-operator-workspace.md).
 
@@ -26,7 +26,7 @@ Operator workspace: [predictive-history-operator-workspace.md](predictive-histor
 
 `strategy-codex` must not create, update, regenerate, or maintain Predictive History corpus or manuscript content under:
 
-- `codex/predictive-history/`
+- `continuity/predictive-history/`
 - `research/external/youtube-channels/predictive-history/`
 - **`public/predictive-history/`** except inbound sync (see [DO-NOT-EDIT.md](../public/predictive-history/MIRROR-RECEIPT.md))
 

@@ -40,7 +40,7 @@ def test_strategy_thread_help_delegates_to_corpus_script() -> None:
     )
     assert proc.returncode == 0, proc.stderr
     assert "strategy_expert_corpus.py" in proc.stdout
-    assert "codex/daily-strategy-inbox.md" in proc.stdout
+    assert "continuity/daily-strategy-inbox.md" in proc.stdout
     assert "--dry-run" in proc.stdout
 
 
@@ -55,6 +55,6 @@ def test_strategy_thread_dry_run_exits_zero() -> None:
         check=False,
     )
     assert proc.returncode == 0, proc.stderr
-    assert "codex\\years\\2026" in proc.stdout or "codex/years/2026" in proc.stdout
+    assert "codex\\years\\2026" in proc.stdout or "continuity/years/2026" in proc.stdout
     assert "davis-thread.md" in proc.stdout
     assert "Done (dry-run):" in proc.stdout

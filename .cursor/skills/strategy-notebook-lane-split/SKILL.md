@@ -19,8 +19,8 @@ tags:
 
 **Use instead (strategy-codex / codex SSOT):**
 
-- [`codex/refined-page-template.md`](../../../codex/refined-page-template.md) — refined page contract, verbatim budget, appendix order
-- [`codex/raw-input/README.md`](../../../codex/raw-input/README.md) — multi-expert raw capture, `threads:` YAML
+- [`continuity/refined-page-template.md`](../../../continuity/refined-page-template.md) — refined page contract, verbatim budget, appendix order
+- [`continuity/raw-input/README.md`](../../../continuity/raw-input/README.md) — multi-expert raw capture, `threads:` YAML
 - [`strategy-notebook-guest-canon-note`](../strategy-notebook-guest-canon-note/SKILL.md) or [`strategy-notebook-expert-cross-weave`](../strategy-notebook-expert-cross-weave/SKILL.md) — EOD weave / guest canon when folding seams
 
 **Machine checks (unchanged):** `python3 scripts/strategy/audit_refined_pages.py`; lane-split guest pages — set **`skip_assembly: true`** on manifest rows so verbatim assemblers do not overwrite compressed guest Verbatim.

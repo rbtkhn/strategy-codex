@@ -3,7 +3,7 @@
 
 Purpose: route map for materialized **Moral Resistance** captures on disk (`channel_slug: moral-resistance` · host **Sulaiman Ahmed**).
 
-**SSOT:** `source-archive/statecraft/` — not legacy `codex/years/…/provenance/` · not `raw-input` mirrors.
+**SSOT:** `source-archive/statecraft/` — not legacy `continuity/years/…/provenance/` · not `raw-input` mirrors.
 
 Channel: [Moral Resistance](https://www.youtube.com/@MoralResistance)
 

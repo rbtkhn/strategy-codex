@@ -8,9 +8,9 @@
   - `statecraft daily intake`
   - `statecraft daily intake / source-archive first`
 - Deprecated compatibility surfaces that must **not** receive new captures:
-  - [codex/raw-input/README.md](../../../codex/raw-input/README.md) — [RAW-INPUT-DEPRECATED.md](../../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md)
-  - [codex/years/2026/raw-input](../../../codex/years/2026/raw-input)
-  - [codex/years/2026/provenance](../../../codex/years/2026/provenance)
+  - [continuity/raw-input/README.md](../../../continuity/raw-input/README.md) — [RAW-INPUT-DEPRECATED.md](../../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md)
+  - [continuity/years/2026/raw-input](../../../continuity/years/2026/raw-input)
+  - [continuity/years/2026/provenance](../../../continuity/years/2026/provenance)
 - Primary neighboring families this skill should check before writing:
   - `Dialogue Works / Nima` — law: [dialogue-works-disambiguation.md](../../../statecraft/channels/dialogue-works/dialogue-works-disambiguation.md)
   - `Judging Freedom / Napolitano`

@@ -1,8 +1,8 @@
 ---
 description: skill-jiang blind forward chain — prefix-only predictions, no arc-oracle (WORK)
 globs:
-  - codex/predictive-history/prediction-tracking/**
-  - codex/predictive-history/prediction-tracking/registry/lecture-forward-chain-blind-prefix-only.jsonl
+  - continuity/predictive-history/prediction-tracking/**
+  - continuity/predictive-history/prediction-tracking/registry/lecture-forward-chain-blind-prefix-only.jsonl
   - scripts/work_jiang/forward_chain_blind_bundle.py
   - scripts/work_jiang/closed_loop_gt18_runner.py
   - scripts/work_jiang/inject_blind_closed_loop_replays.py
@@ -19,7 +19,7 @@ Applies when work touches **blind forward prediction** on Jiang Predictive Histo
 
 1. **Single source for hypotheses:** Before `reveal`, the only lecture content for predicting episode **k+1** is **`gt-prefix-k.md`** (the bundle output). **Never** open `game-theory-(k+1)-*.md` or use filenames / index / YAML to learn the next title during calibration.
 
-2. **Primary log:** Canonical calibration is **[`lecture-forward-chain-gt-BLIND-prefix-only.md`](../../codex/predictive-history/prediction-tracking/lecture-forward-chain-gt-BLIND-prefix-only.md)** (`run_mode: prefix_only`). Ingest **only** prior rounds **from that file** + `gt-series-model.md`.
+2. **Primary log:** Canonical calibration is **[`lecture-forward-chain-gt-BLIND-prefix-only.md`](../../continuity/predictive-history/prediction-tracking/lecture-forward-chain-gt-BLIND-prefix-only.md)** (`run_mode: prefix_only`). Ingest **only** prior rounds **from that file** + `gt-series-model.md`.
 
 3. **Historical BLIND is quarantined:** Do **not** copy **Resolution** or **Prediction** text from **`lecture-forward-chain-gt-BLIND.md`** (batch / oracle replay) when drafting the current round.
 

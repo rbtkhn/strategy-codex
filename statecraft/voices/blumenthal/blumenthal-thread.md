@@ -166,7 +166,7 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 |--------|--------|
 | **Date** | 2026-04-16 |
 | **page_id** (machine slug) | `marandi-blumenthal-jf-primary` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-16](../../../codex/chapters/2026/2026-04/days.md#2026-04-16) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-16](../../../continuity/chapters/2026/2026-04/days.md#2026-04-16) |
 | **Primary expert (`thread:`)** | `marandi` Ã¢â‚¬â€ **Chronicle / Reflection** follow **Iranian English process + red-line register** first. |
 
 ### Page type
@@ -176,7 +176,7 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 ### Lineage
 
 - **Weave option C** (strategy session): Marandi-primary; Blumenthal = domestic/media amplifier; **Pape** = **validate fork** only Ã¢â€ â€™ pointer to **same-day** Pape Ãƒâ€” Janssen page (page id `pape-janssen-escalation-blockade`), **not** merged analysis here.
-- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) **`## 2026-04-16`** Ã¢â‚¬â€ **`- BP |`** Marandi row; **Judging Freedom Ã¢â‚¬â€ Max Blumenthal Ã¢â‚¬â€ 2026-04-16** (operator session; paste to inbox when ready).
+- **Inbox:** [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) **`## 2026-04-16`** Ã¢â‚¬â€ **`- BP |`** Marandi row; **Judging Freedom Ã¢â‚¬â€ Max Blumenthal Ã¢â‚¬â€ 2026-04-16** (operator session; paste to inbox when ready).
 - **Expert threads:** `thread:marandi` Ã‚Â· `thread:blumenthal`
 - **Sister:** 04-13 Marandi Ãƒâ€” Ritter Ãƒâ€” Mercouris scaffold (page id `marandi-ritter-mercouris-hormuz-scaffold`)
 
@@ -209,7 +209,7 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 - **Weave D (same day, separate page):** `pape-janssen-escalation-blockade`
 - **Scaffold:** `marandi-ritter-mercouris-hormuz-scaffold`
 - **Threads:** [`strategy-expert-marandi-thread.md`](../marandi/marandi-thread.md) Ã‚Â· [`strategy-expert-blumenthal-thread.md`](blumenthal-thread.md)
-- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) **`## 2026-04-16`**
+- **Inbox:** [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) **`## 2026-04-16`**
 
 ---
 
@@ -289,7 +289,7 @@ Pape stacks four public claims in one appearance:
 |--------|--------|
 | **Date** | 2026-04-16 |
 | **page_id** (machine slug) | `pape-janssen-escalation-blockade` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-16](../../../codex/chapters/2026/2026-04/days.md#2026-04-16) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-16](../../../continuity/chapters/2026/2026-04/days.md#2026-04-16) |
 | **Primary expert (`thread:`)** | `pape` Ã¢â‚¬â€ **escalation trap / staged blockade / spoiler** mechanism; **not** Tehran process register (see weave C (page id `marandi-blumenthal-jf-primary`)). |
 
 ### Page type
@@ -299,7 +299,7 @@ Pape stacks four public claims in one appearance:
 
 ### Lineage
 
-- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ **Expert ingest Ã¢â‚¬â€ 2026-04-16** (Pape Ãƒâ€” Cyrus Janssen YT lines + `batch-analysis | 2026-04-16 | Pape (Janssen) Ãƒâ€” Mearsheimer` + `Ãƒâ€” Davis`); **X** Lebanon map + **AP** Washington talks context (`wire | cold: LEBANON | AP 14 Apr`)
+- **Inbox:** [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) Ã¢â‚¬â€ **Expert ingest Ã¢â‚¬â€ 2026-04-16** (Pape Ãƒâ€” Cyrus Janssen YT lines + `batch-analysis | 2026-04-16 | Pape (Janssen) Ãƒâ€” Mearsheimer` + `Ãƒâ€” Davis`); **X** Lebanon map + **AP** Washington talks context (`wire | cold: LEBANON | AP 14 Apr`)
 - **Expert threads:** `thread:pape` Ã¢â‚¬â€ operator transcript + channel URL until **`watch?v=`** pinned
 - **Related pages:** `islamabad-hormuz-thesis-weave` (Thesis A/B + escalation-trap vocabulary), `kremlin-iri-uranium-dual-register` (enrichment / grand-bargain scope trap), `mercouris-mearsheimer-lebanon-split` (Lebanon fork + Pape sectarian map lane)
 
@@ -307,7 +307,7 @@ Pape stacks four public claims in one appearance:
 
 ### References
 
-- **Inbox capture:** [daily-strategy-inbox.md Ã¢â‚¬â€ Expert ingest 2026-04-16](../../../codex/daily-strategy-inbox.md) (search `Janssen` / `Pape`)
+- **Inbox capture:** [daily-strategy-inbox.md Ã¢â‚¬â€ Expert ingest 2026-04-16](../../../continuity/daily-strategy-inbox.md) (search `Janssen` / `Pape`)
 - **Expert thread:** [strategy-expert-pape-thread.md](../pape/pape-thread.md)
 - **YT (channel until pin):** [Cyrus Janssen Ã¢â‚¬â€ videos](https://www.youtube.com/@CyrusJanssen/videos)
 - **X (Lebanon map):** [ProfessorPape](https://x.com/ProfessorPape) Ã¢â‚¬â€ `verify:pin-exact-status-URL` in inbox

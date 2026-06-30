@@ -102,7 +102,7 @@ Readiness verified before removal — see [`wave-3-archive-placeholder-readiness
 
 bot, recursion-gate-staging, bootstrap
 
-Canonical-only helpers remain in [`platform/src/strategy_codex/compat/grace_mar_paths.py`](../platform/src/strategy_codex/compat/grace_mar_paths.py). Legacy fallback tuples removed from `REPO_PATH_MIGRATIONS`.
+Canonical-only helpers remain in [`platform/src/strategy_continuity/compat/grace_mar_paths.py`](../platform/src/strategy_continuity/compat/grace_mar_paths.py). Legacy fallback tuples removed from `REPO_PATH_MIGRATIONS`.
 
 Readiness audit: [`wave-4-grace-mar-compat-readiness-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-4-grace-mar-compat-readiness-2026-06-21.md). Removal receipt: [`wave-4-path-fallback-removal-2026-06-21.md`](../runtime/artifacts/complexity-audit/wave-4-path-fallback-removal-2026-06-21.md).
 

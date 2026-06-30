@@ -136,7 +136,7 @@ def _rel(path: Path) -> str:
                 if branch == "speakers":
                     return "statecraft/voices" if not tail else f"statecraft/voices/{tail}"
                 remainder = "/".join(parts[idx + 2 :])
-                return f"codex/years/2026/{remainder}"
+                return f"continuity/years/2026/{remainder}"
         return rel
 
     try:

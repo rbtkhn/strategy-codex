@@ -6,10 +6,10 @@ Legacy machinery note: the canonical people-shelf contract is now
 This script still contains older path assumptions and should not be read as the
 architectural source of truth.
 
-Reads from active ``codex/years/2026/<id>/<id>-transcript.md`` files (recent verbatim),
+Reads from active ``continuity/years/2026/<id>/<id>-transcript.md`` files (recent verbatim),
 **inbox lines** that link ``raw-input/â€¦`` for the same ``thread:<id>`` lane,
 ``strategy-page`` blocks, optional legacy on-disk index rows; writes structured
-extraction to active ``codex/years/2026/<id>/<id>-thread.md`` files between script
+extraction to active ``continuity/years/2026/<id>/<id>-thread.md`` files between script
 markers.
 
 The output is **raw material** for assistant refinement â€” the assistant
@@ -46,12 +46,16 @@ from yaml_compat import safe_load_path
 
 from strategy_page_reader import discover_pages
 
+from continuity_paths import continuity_root
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-DEFAULT_THREADS = REPO_ROOT / "codex/strategy-commentator-threads.md"
-DEFAULT_INBOX = REPO_ROOT / "codex/daily-strategy-inbox.md"
-DEFAULT_OUT_DIR = REPO_ROOT / "codex" / "years" / "2026"
-DEFAULT_PAGE_INDEX = REPO_ROOT / "codex/knot-index.yaml"
+_CONTINUITY = continuity_root(REPO_ROOT)
+
+DEFAULT_THREADS = _CONTINUITY / "strategy-commentator-threads.md"
+DEFAULT_INBOX = _CONTINUITY / "daily-strategy-inbox.md"
+DEFAULT_OUT_DIR = _CONTINUITY / "years" / "2026"
+DEFAULT_PAGE_INDEX = _CONTINUITY / "knot-index.yaml"
 
 CANONICAL_EXPERT_IDS: tuple[str, ...] = (
     "armstrong",
@@ -155,10 +159,10 @@ def collect_inbox_raw_input_pointers(
     return out
 
 def is_codex_year_volume(notebook_dir: Path) -> bool:
-    """Return true for the active ``codex/years/<year>/`` strategy-codex layout."""
+    """Return true for the active ``continuity|continuity/years/<year>/`` strategy-codex layout."""
     return (
         notebook_dir.parent.name == "years"
-        and notebook_dir.parent.parent.name == "codex"
+        and notebook_dir.parent.parent.name in ("codex", "continuity")
         and re.fullmatch(r"\d{4}", notebook_dir.name) is not None
     )
 
@@ -169,7 +173,7 @@ def expert_dir_for_layout(expert_id: str, notebook_dir: Path) -> Path:
     return notebook_dir / "experts" / expert_id
 
 def expert_paths(expert_id: str, notebook_dir: Path) -> dict[str, Path]:
-    """Resolve per-expert file paths for active ``codex/<year>`` or legacy layouts."""
+    """Resolve per-expert file paths for active ``continuity/<year>`` or legacy layouts."""
     if is_codex_year_volume(notebook_dir):
         base = expert_dir_for_layout(expert_id, notebook_dir)
         codex_root = notebook_dir.parent.parent

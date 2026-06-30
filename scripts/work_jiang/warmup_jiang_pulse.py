@@ -4,7 +4,7 @@ Read-only 'momentum' snippets for operator hey (work-start and closeout) — Pre
 
 Pulls `platform/users/<id>/work-jiang.md` **Instance work context (YAML)** (see skills-modularity §2a) plus
 STATUS / CHAPTER-QUEUE hints and rotates optional sparks from
-codex/predictive-history/metadata/warmup-sparks.yaml (operator-editable).
+continuity/predictive-history/metadata/warmup-sparks.yaml (operator-editable).
 
 Does not write the Record or touch the gate.
 """
@@ -48,7 +48,7 @@ DEFAULT_MORNING_SPARKS = [
 DEFAULT_NIGHT_SPARKS = [
     "Name one concrete thing that moved Predictive History forward today (file, validator, note—anything).",
     "What should the next session open on in the Jiang lane—one line?",
-    "One sentence you're glad is documented somewhere in codex/predictive-history/ tonight.",
+    "One sentence you're glad is documented somewhere in continuity/predictive-history/ tonight.",
 ]
 
 def _load_yaml_sparks() -> tuple[list[str], list[str]]:
@@ -172,7 +172,7 @@ def build_morning_pulse_lines(user_id: str) -> list[str]:
     lines.extend(
         [
             "",
-            f"- **Dive:** [`codex/predictive-history/README.md`](../../../codex/predictive-history/README.md) · "
+            f"- **Dive:** [`continuity/predictive-history/README.md`](../../../continuity/predictive-history/README.md) · "
             f"verify block in `.cursor/skills/work-jiang-feature-checklist/SKILL.md` after metadata edits.",
             "",
         ]

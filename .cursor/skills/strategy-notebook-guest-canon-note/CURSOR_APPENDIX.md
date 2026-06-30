@@ -3,8 +3,8 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/strategy-
 | Topic | Path |
 |--------|------|
 | Existing stream-local speaker arcs | [statecraft/voices/diesen/](../../../statecraft/voices/diesen) |
-| Lattice speakers roster | [codex/speaker-lattice.md](../../../codex/speaker-lattice.md) |
-| Thread handle roster | [codex/strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) |
+| Lattice speakers roster | [continuity/speaker-lattice.md](../../../continuity/speaker-lattice.md) |
+| Thread handle roster | [continuity/strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) |
 | Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
 | Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 | Skill validator | [scripts/validate_skills.py](../../../scripts/validate_skills.py) |

@@ -15,7 +15,7 @@ Shelf routing: [blumenthal-speaker-object.md](blumenthal-speaker-object.md) · [
 
 ## Boundary
 
-**SSOT:** `source-archive/statecraft/` — not legacy `codex/years/…/provenance/` · not `raw-input` mirrors.
+**SSOT:** `source-archive/statecraft/` — not legacy `continuity/years/…/provenance/` · not `raw-input` mirrors.
 
 **Reading rules:**
 

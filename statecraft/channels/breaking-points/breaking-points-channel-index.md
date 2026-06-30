@@ -3,7 +3,7 @@
 
 Purpose: route map for materialized **Breaking Points** captures on disk (`channel_slug: breaking-points`).
 
-**SSOT:** `source-archive/statecraft/` — not legacy `codex/years/…/provenance/` · not `raw-input` mirrors.
+**SSOT:** `source-archive/statecraft/` — not legacy `continuity/years/…/provenance/` · not `raw-input` mirrors.
 
 Channel: [Breaking Points](https://www.youtube.com/@BreakingPoints)
 

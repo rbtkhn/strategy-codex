@@ -198,7 +198,7 @@ Short rule:
 
 `inventory is a hint, source-archive tree is the authority`
 
-**Legacy (archaeology only):** `codex/years/2026/raw-input/raw-input-master-index.md` and companion audit JSON may still help locate pre-migration captures. If the legacy index and **`source-archive/statecraft/`** disagree, the **source archive** wins for new work.
+**Legacy (archaeology only):** `continuity/years/2026/raw-input/raw-input-master-index.md` and companion audit JSON may still help locate pre-migration captures. If the legacy index and **`source-archive/statecraft/`** disagree, the **source archive** wins for new work.
 
 ## Index hierarchy and routing choice
 
@@ -406,7 +406,7 @@ For this skill, **discovery should be YouTube-first whenever possible**.
 - Start with **`check sources`** when the task is "what went up across the full main channel-index roster?"
 - Start with **`source-intake`** when the task is "turn this specific YouTube URL (or pasted body) into a canonical **source archive** capture."
 - If the daily roster check produces approved URLs, hand each selected item to **`source-intake`** for the actual land step.
-- After materialization, produce speaker-folder routing hints when the transcript clearly names a recurring speaker, guest lane, or existing `codex/<year>/speakers/<speaker>/` folder; treat the verified capture as an appearance before making interpretation claims.
+- After materialization, produce speaker-folder routing hints when the transcript clearly names a recurring speaker, guest lane, or existing `continuity/<year>/speakers/<speaker>/` folder; treat the verified capture as an appearance before making interpretation claims.
 - If the operator approves a guest-and-host backlog such as `Glenn x Marandi`, treat that as a valid batched handoff shape and pass the exact approved URLs down as one tranche.
 
 ## When to run
@@ -738,7 +738,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/check-sou
 | Archive land skill | [statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
 | Deprecated materialize path | [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md) |
 | Legacy check-streams stub | [check-streams/SKILL.md](../check-streams/SKILL.md) |
-| Deprecated raw-input (archaeology) | [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [codex/raw-input/README.md](../../codex/raw-input/README.md) |
+| Deprecated raw-input (archaeology) | [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [continuity/raw-input/README.md](../../continuity/raw-input/README.md) |
 | Analyst shelves | [statecraft/voices/](../../statecraft/voices) |
 | Channel shelves | [statecraft/channels/](../../statecraft/channels) |
 | Philosophical gloss | [docs/skill-work/work-strategy/cognition-streams-daily-aperture.md](../../docs/skill-work/work-strategy/cognition-streams-daily-aperture.md) |

@@ -36,7 +36,7 @@ See [Reader Guide](../reader-guide.md#names-and-titles) and [Glossary](../../../
 
 ## Start here
 
-1. [Civilization and Empire](../../../codex/predictive-history/INTRODUCTION.md)
+1. [Civilization and Empire](../../../continuity/predictive-history/INTRODUCTION.md)
 2. [Table of Contents](../table-of-contents.md)
 3. [Reader Guide](../reader-guide.md)
 4. [Sources](../../../README.md) — source-lattice and era shelves
@@ -52,7 +52,7 @@ Read civilization-state cases in this order:
 4. [Russia](../../../README.md)
 5. [America](../../../README.md)
 
-Within each volume: **volume introduction** (thematic title) → **Civilization** chapter → **Empire** chapter → optional sub-lenses. Begin the whole work with [Civilization and Empire](../../../codex/predictive-history/INTRODUCTION.md), not a volume introduction.
+Within each volume: **volume introduction** (thematic title) → **Civilization** chapter → **Empire** chapter → optional sub-lenses. Begin the whole work with [Civilization and Empire](../../../continuity/predictive-history/INTRODUCTION.md), not a volume introduction.
 
 ## Whole-work apparatus
 
@@ -64,10 +64,10 @@ Within each volume: **volume introduction** (thematic title) → **Civilization*
 ## Essays
 
 - [High-skill labor compression and civilizational statecraft](../essays/high-skill-labor-compression-and-civilizational-statecraft.md)
-- [Hormuz recognition / transit restraint](../../../codex/academy/statecraft/civ-emp/persia/hormuz-recognition-transit-restraint.md)
+- [Hormuz recognition / transit restraint](../../../continuity/academy/statecraft/civ-emp/persia/hormuz-recognition-transit-restraint.md)
 
 ## More apparatus
-- [Docs](../../../docs/README.md) — [book architecture](../../../codex/predictive-history/BOOK-ARCHITECTURE.md) · [names and titles](../reader-guide.md#names-and-titles) · [era spine](../reader-guide.md#era-law) · [release history](../README.md#release-history)
+- [Docs](../../../docs/README.md) — [book architecture](../../../continuity/predictive-history/BOOK-ARCHITECTURE.md) · [names and titles](../reader-guide.md#names-and-titles) · [era spine](../reader-guide.md#era-law) · [release history](../README.md#release-history)
 - [Skills](../../../skills/README.md) · [Sources](../../../README.md)
 - [Sacred grammar (volume-local)](../reader-guide.md#sacred-grammar-volume-local) · [Volume Map](../../../README.md)
 - [Glossary](../../../docs/glossary.md) · [Hybrid references](../hybrid-references.md)) · [Index](../../../singularity/work-cici/index.md)

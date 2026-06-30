@@ -16,7 +16,7 @@
 | Territory | File |
 |-----------|------|
 | work-dev | [work-dev/work-dev-sources.md](work-dev/work-dev-sources.md) |
-| work-jiang | [codex/predictive-history/work-jiang-sources.md](../../codex/predictive-history/work-jiang-sources.md) |
+| work-jiang | [continuity/predictive-history/work-jiang-sources.md](../../continuity/predictive-history/work-jiang-sources.md) |
 | work-politics | [work-politics/work-politics-sources.md](work-politics/work-politics-sources.md) |
 | work-strategy | [work-strategy/work-strategy-sources.md](work-strategy/work-strategy-sources.md) |
 

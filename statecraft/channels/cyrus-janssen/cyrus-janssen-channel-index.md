@@ -3,7 +3,7 @@
 
 Purpose: route map for materialized **Cyrus Janssen** captures on disk (`channel_slug: cyrus-janssen`).
 
-**SSOT:** `source-archive/statecraft/` — not legacy `codex/years/…/provenance/` · not `raw-input` mirrors.
+**SSOT:** `source-archive/statecraft/` — not legacy `continuity/years/…/provenance/` · not `raw-input` mirrors.
 
 Channel: [Cyrus Janssen](https://www.youtube.com/@CyrusJanssen)
 

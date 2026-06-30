@@ -85,7 +85,7 @@ If one of those lines drops out, the transaction degrades:
 - sanctions relief without transit restraint reads as payment for instability
 - recognition without authority carrier reads as rhetoric
 
-- Prior statecraft drafts: [Hormuz Strait Transit Agreement v0](../../../codex/hormuz-strait-transit-agreement-v0.md); [Hormuz Reciprocal Transit De-escalation Framework v2.1](../../../codex/hormuz-reciprocal-transit-deescalation-framework-v2-1.md).
+- Prior statecraft drafts: [Hormuz Strait Transit Agreement v0](../../../continuity/hormuz-strait-transit-agreement-v0.md); [Hormuz Reciprocal Transit De-escalation Framework v2.1](../../../continuity/hormuz-reciprocal-transit-deescalation-framework-v2-1.md).
 
 ## Coupled Gate Activation (Lebanon gate braid SSOT)
 

@@ -21,7 +21,7 @@ def test_title_or_slug_date_wins_over_published_date() -> None:
 def test_run_writes_full_local_captures_and_indexes_them(tmp_path, monkeypatch) -> None:
     raw_root = tmp_path / "singularity/workshop/raw-input/innermost-loop"
     workshop_readme = tmp_path / "singularity/workshop/README.md"
-    shelf_readme = tmp_path / "codex/academy/singularity/README.md"
+    shelf_readme = tmp_path / "continuity/academy/singularity/README.md"
     workshop_readme.parent.mkdir(parents=True, exist_ok=True)
     shelf_readme.parent.mkdir(parents=True, exist_ok=True)
     workshop_readme.write_text(

@@ -23,7 +23,8 @@ record_status: none
 | `.github` | CI workflows (includes layout cap + path-adoption check) |
 | `library` | Local PD primary-text shelf (gitignored binaries; [library/README.md](../library/README.md)) |
 | `archive` | Grace-Mar instance bundle, placeholders, review queues |
-| `codex` | Chronology and strategy-codex corpus |
+| `continuity` | Durable chronology and strategy-codex notebook layer (formerly `continuity/`) |
+| `codex` | Legacy redirect only — [`continuity/README.md`](../continuity/README.md) |
 | `docs` | Doctrine, skill-work, workflows |
 | `essays` | Cross-channel theses (repo-root shelf) |
 | `examples` | Sample / reference material |
@@ -44,7 +45,7 @@ Plus **root files** (not counted in the cap): `AGENTS.md`, `LLM-ROUTING.md`, `py
 
 **Retired paths (not root folders):**
 
-- Root `operator-books` symlink removed; operator books live in misc homes per [codex/README.md](../codex/README.md) § Operator books
+- Root `operator-books` symlink removed; operator books live in misc homes per [continuity/README.md](../continuity/README.md) § Operator books
 - Record glossary term `removed operator-books symlink` in [glossary.md](glossary.md) remains **Grace-Mar Record vocabulary** — do not conflate with GitHub root layout
 
 Full routing: [LLM-ROUTING.md](../LLM-ROUTING.md) · [repo-map.yaml](../repo-map.yaml).

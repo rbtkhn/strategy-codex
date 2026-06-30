@@ -27,7 +27,7 @@ _Write here in full sentences. Dated arcs are welcome (e.g. **2026-04-12 Ã¢â�
 
 **Layout:** Stay on **one** `strategy-expert-jiang-thread.md` file. Within the **journal layer**, each **`## YYYY-MM`** heading is a **month segment**. For **2026:** **Segment 1** = January (`## 2026-01`), **Segment 2** = February (`## 2026-02`), **Segment 3** = March (`## 2026-03`), **Segment 4** = April (`## 2026-04`, ongoing). The **machine layer** (script-maintained) is **only** the fenced block between the **strategy-expert-thread** HTML start and end comments Ã¢â‚¬â€ do not call that "Segment 2" in the month sense.
 
-**Expert note (PH / work-jiang):** **Predictive History** notebook-facing ingest routes here only Ã¢â‚¬â€ see [strategy-commentator-threads](../../../codex/strategy-commentator-threads.md) special routing rule; corpus lives under `codex/predictive-history/` (operator scope).
+**Expert note (PH / work-jiang):** **Predictive History** notebook-facing ingest routes here only Ã¢â‚¬â€ see [strategy-commentator-threads](../../../continuity/strategy-commentator-threads.md) special routing rule; corpus lives under `continuity/predictive-history/` (operator scope).
 
 _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, not inside them.)_
 
@@ -77,7 +77,7 @@ If pages named this expert during 2026-02, the narrative should eventually say *
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-02, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
 
 - [strength: low] **Corpus pointer (WORK):** Operator-scoped lecture tree Ã¢â‚¬â€ not a dated Feb appearance claim.
-  `../../../codex/predictive-history/` (repo-relative)
+  `../../../continuity/predictive-history/` (repo-relative)
 ## 2026-03
 
 March remains **scope-note** territory until the operator pins indexed transcripts; **April** machine lines may reference **vi-15** etc. Ã¢â‚¬â€ Q1 is **honest sparsity**.
@@ -111,7 +111,7 @@ The `jiang` laneÃ¢â‚¬â„¢s role (Long-horizon civilizational / game-the
 
 ### 2026-02
 
-- **2026-02** Ã¢â‚¬â€ No dated notebook ingest Ã¢â‚¬â€ repeat PH channel anchor (corpus: `codex/predictive-history/`, WORK scope).
+- **2026-02** Ã¢â‚¬â€ No dated notebook ingest Ã¢â‚¬â€ repeat PH channel anchor (corpus: `continuity/predictive-history/`, WORK scope).
   _Source:_ web: `https://www.youtube.com/@PredictiveHistory`
 
 ### 2026-03
@@ -124,7 +124,7 @@ The `jiang` laneÃ¢â‚¬â„¢s role (Long-horizon civilizational / game-the
 
 - **2026-04** Ã¢â‚¬â€ Ledger mirror 1 (partial month).
   _Source:_ web: `https://www.youtube.com/watch?v=n44OF1Y7zgo`
-- **2026-04-28** Ã¢â‚¬â€ **gt-21** Game Theory #21 (*World War Trump*) ingested Ã¢â‚¬â€ [lecture](../../../codex/predictive-history/lectures/game-theory-21-world-war-trump.md) Ã‚Â· [YouTube Ts-AA6LQf6I](https://www.youtube.com/watch?v=Ts-AA6LQf6I) Ã‚Â· `thread:jiang` (see [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) subsection **Strategy ingest Ã¢â‚¬â€ work-jiang PH Volume IV (2026-04-28)**).
+- **2026-04-28** Ã¢â‚¬â€ **gt-21** Game Theory #21 (*World War Trump*) ingested Ã¢â‚¬â€ [lecture](../../../continuity/predictive-history/lectures/game-theory-21-world-war-trump.md) Ã‚Â· [YouTube Ts-AA6LQf6I](https://www.youtube.com/watch?v=Ts-AA6LQf6I) Ã‚Â· `thread:jiang` (see [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md) subsection **Strategy ingest Ã¢â‚¬â€ work-jiang PH Volume IV (2026-04-28)**).
 
 <!-- backfill:jiang:end -->
 ## 2026-04
@@ -146,7 +146,7 @@ The `jiang` laneÃ¢â‚¬â„¢s role (Long-horizon civilizational / game-the
 
 Open pins belong in prose, not only as bullets. For this `jiang` month segment, explicitly reserve space for **what remains unresolved**: which claims await transcript confirmation, which geopolitical sub-claims depend on translation or primary document access, and which institutional facts are stable enough to reuse in weave scaffolding. That habit keeps later strategy passes from mistaking silence for certainty.
 
-- [strength: high] **Signal (cold):** Jiang Ãƒâ€” Sneako Ãƒâ€” Dugin Ã¢â‚¬â€ [YouTube n44OF1Y7zgo](https://www.youtube.com/watch?v=n44OF1Y7zgo) Ã¢â‚¬â€ verify:work-jiang-vi-15 + `codex/predictive-history/lectures/interviews-15-sneako-jiang-dugin-eschatology.md`.
+- [strength: high] **Signal (cold):** Jiang Ãƒâ€” Sneako Ãƒâ€” Dugin Ã¢â‚¬â€ [YouTube n44OF1Y7zgo](https://www.youtube.com/watch?v=n44OF1Y7zgo) Ã¢â‚¬â€ verify:work-jiang-vi-15 + `continuity/predictive-history/lectures/interviews-15-sneako-jiang-dugin-eschatology.md`.
 
 Canonical page paths and raw ingest lines live in **Segment 2** below (regenerated each **`thread`** run).
 

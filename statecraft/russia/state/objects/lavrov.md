@@ -37,12 +37,12 @@ The object asks: when Lavrov speaks, what Russian state position is being carrie
 Track Lavrov across all raw-inputs, not only Ritter or Russia-specific appearances.
 
 ```powershell
-rg -n "Lavrov|Sergey Lavrov|Sergei Lavrov" codex/years
+rg -n "Lavrov|Sergey Lavrov|Sergei Lavrov" continuity/years
 ```
 
 Snapshot from the first object pass:
 
-- `codex/years` contains 107 local files with a Lavrov match.
+- `continuity/years` contains 107 local files with a Lavrov match.
 - `source-archive/statecraft` contains 92 local files with a Lavrov match.
 - `source-archive/statecraft` contains 286 Lavrov-line matches.
 

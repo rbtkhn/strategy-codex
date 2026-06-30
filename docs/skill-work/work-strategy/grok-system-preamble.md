@@ -1,6 +1,6 @@
 # Grok system preamble — Grace-Mar (skill-strategy / work-strategy)
 
-**Use:** Prepend to **any** external Grok task that feeds **`docs/skill-work/work-strategy/`**, **`../../codex/`**, or **`daily-strategy-inbox.md`**. **WORK only** — not Record, not Voice knowledge until gated.
+**Use:** Prepend to **any** external Grok task that feeds **`docs/skill-work/work-strategy/`**, **`../../continuity/`**, or **`daily-strategy-inbox.md`**. **WORK only** — not Record, not Voice knowledge until gated.
 
 **Two versions:**
 
@@ -23,9 +23,9 @@ You are producing **operator-facing research**, not the canonical repo file. **D
 
 **Tri-mind / three lenses:** If the task asks for Mercouris, Mearsheimer, and Barnes, use **three distinct subsections** — **not** one blended paragraph. If evidence is thin for a lens, say so in one line.
 
-**Role boundary:** This draft may inform **`docs/skill-work/work-strategy/`** and **`../../codex/`**; it is **not** Voice knowledge and **not** Record truth until gated.
+**Role boundary:** This draft may inform **`docs/skill-work/work-strategy/`** and **`../../continuity/`**; it is **not** Voice knowledge and **not** Record truth until gated.
 
-**Required close — Handoff to Grace-Mar:** End with a section titled **Handoff to Grace-Mar** containing: **(1) Inbox lines** — 3–7 single lines suitable for `docs/skill-work/work-strategy/../../codex/daily-strategy-inbox.md` (`source | cold claim // hook | URL | verify:…`); **(2) Verify queue** — bullets of claims that need primary check before Judgment; **(3) Conflict check** — one short note on possible divergence from a same-day `daily-brief-YYYY-MM-DD.md` assembled in-repo (if unknown: state that).
+**Required close — Handoff to Grace-Mar:** End with a section titled **Handoff to Grace-Mar** containing: **(1) Inbox lines** — 3–7 single lines suitable for `docs/skill-work/work-strategy/../../continuity/daily-strategy-inbox.md` (`source | cold claim // hook | URL | verify:…`); **(2) Verify queue** — bullets of claims that need primary check before Judgment; **(3) Conflict check** — one short note on possible divergence from a same-day `daily-brief-YYYY-MM-DD.md` assembled in-repo (if unknown: state that).
 
 ---
 
@@ -49,5 +49,5 @@ Analyst draft only—not the Record, not a merge into `self.md` or `STRATEGY.md`
 ## Related
 
 - Daily brief template: [`daily-brief-template.md`](daily-brief-template.md)
-- Inbox: [`../../codex/daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md)
+- Inbox: [`../../continuity/daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md)
 - Skill-strategy: [`.cursor/skills/skill-strategy/SKILL.md`](SKILL-STRATEGY-DEPRECATED.md)

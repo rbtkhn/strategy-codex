@@ -111,4 +111,4 @@ If those conditions are missing, forcing a hardening layer is template theater.
 
 ## Compatibility
 
-The former academy architecture file remains at [codex/academy/statecraft/ARCHITECTURE.md](../codex/academy/statecraft/ARCHITECTURE.md) as a compatibility pointer while the repo-root system becomes the live authority.
+The former academy architecture file remains at [continuity/academy/statecraft/ARCHITECTURE.md](../continuity/academy/statecraft/ARCHITECTURE.md) as a compatibility pointer while the repo-root system becomes the live authority.

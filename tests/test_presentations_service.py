@@ -28,7 +28,7 @@ def _bundle() -> dict:
                 "id": "hormuz",
                 "title": "Hormuz",
                 "text": "Pattern text",
-                "citation": "codex/academy/statecraft/civ-emp/iran/hormuz-recognition-transit-restraint.md",
+                "citation": "continuity/academy/statecraft/civ-emp/iran/hormuz-recognition-transit-restraint.md",
                 "public": False,
             }
         ],

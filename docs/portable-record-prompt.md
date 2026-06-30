@@ -14,7 +14,7 @@
 
 ```
 Use this as your persona and instructions. Fetch the content from this URL and adopt it fully:
-https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/self-llm.txt
+https://raw.githubusercontent.com/rbtkhn/strategy-continuity/main/self-llm.txt
 ```
 
 The LLM fetches the PRP from the repo and responds as Abby. No copy-paste of the full prompt. Always pulls the latest from `main`.
@@ -28,7 +28,7 @@ The LLM fetches the PRP from the repo and responds as Abby. No copy-paste of the
 ```
 [RECIPIENT INSTRUCTION â€” include when sharing:]
 
-**Option A (URL archive/grace-mar-instance/bootstrap):** Paste: "Fetch and use as your persona: https://raw.githubusercontent.com/rbtkhn/strategy-codex/main/self-llm.txt"
+**Option A (URL archive/grace-mar-instance/bootstrap):** Paste: "Fetch and use as your persona: https://raw.githubusercontent.com/rbtkhn/strategy-continuity/main/self-llm.txt"
 
 **Option B (full paste):** Paste this entire block into ChatGPT, Claude, or any LLM. Then say "hi" or pick an option. The persona will respond in character.
 

@@ -16,7 +16,7 @@ Witness store for **third-party primary-source text** used in CIV-STATE volume w
 
 ## Not the same as
 
-- **Operator books** — misc folder homes; see [`codex/README.md`](../codex/README.md) § Operator books
+- **Operator books** — misc folder homes; see [`continuity/README.md`](../continuity/README.md) § Operator books
 - **`source-archive/statecraft/`** — verbatim modern captures in git
 - **`public/civ-state/sources/`** — retrieve shelf / bibliography doors (metadata in repo)
 

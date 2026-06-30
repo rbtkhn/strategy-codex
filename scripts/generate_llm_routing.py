@@ -144,7 +144,7 @@ def normalize_root_links(text: str) -> str:
         ("../../statecraft/", "statecraft/"),
         ("../../source-archive/", "source-archive/"),
         ("../../archive/", "archive/"),
-        ("../../codex/", "codex/"),
+        ("../../continuity/", "continuity/"),
         ("../../essays/", "essays/"),
         ("../../singularity/", "singularity/"),
         ("../../repo-map.yaml", "repo-map.yaml"),

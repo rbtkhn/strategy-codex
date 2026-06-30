@@ -37,6 +37,17 @@ Models may reason over context. They may transform context. They may generate ou
 
 The context layer exists so `strategy-codex` can use many models and agents without letting any one provider become the system of record.
 
+## Continuity surfaces (distinct roles)
+
+| Surface | Role |
+|---------|------|
+| [`memory.md`](../memory.md) | Rotatable **session** continuity buffer |
+| [`continuity/`](../continuity/README.md) | Durable chronology, accumulation, and notebook continuity (formerly `continuity/`) |
+| [`source-archive/`](../source-archive/README.md) | Evidence and source truth |
+| [`statecraft/`](../statecraft/README.md) | Live judgment |
+
+Path migration decision: [`codex-to-continuity-rename.md`](codex-to-continuity-rename.md).
+
 ## Not the same as Prepared Context Layer
 
 | Doc | Scope |

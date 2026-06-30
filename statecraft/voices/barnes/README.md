@@ -50,7 +50,7 @@ The legacy `statecraft/voices/barnes/` path is now front-door compatibility only
 
 - [statecraft/voices/barnes/README.md](../../../statecraft/voices/barnes/README.md) and [index.md](../../../statecraft/voices/barnes/index.md) are compatibility pointers.
 - codex-side thread, transcript, speaker-object, cross-host, mind, and profile files remain compatibility residue or migration scaffolds.
-- [codex/profiles/](../../../codex/profiles) has no Barnes row; legacy profile redirect: [statecraft/voices/barnes/barnes-profile.md](../../../statecraft/voices/barnes/barnes-profile.md).
+- [continuity/profiles/](../../../continuity/profiles) has no Barnes row; legacy profile redirect: [statecraft/voices/barnes/barnes-profile.md](../../../statecraft/voices/barnes/barnes-profile.md).
 - this statecraft shelf is now the canonical opening path for Barnes statecraft work.
 
 ## Host Lanes

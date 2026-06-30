@@ -12,14 +12,14 @@ from validate_predictive_history_boundary import classify_paths, format_violatio
 def test_allows_boundary_maintenance_paths() -> None:
     blocked, allowed = classify_paths(
         [
-            "codex/predictive-history/README.md",
+            "continuity/predictive-history/README.md",
             "research/external/youtube-channels/predictive-history/README.md",
         ]
     )
 
     assert blocked == []
     assert allowed == [
-        "codex/predictive-history/README.md",
+        "continuity/predictive-history/README.md",
         "research/external/youtube-channels/predictive-history/README.md",
     ]
 
@@ -27,13 +27,13 @@ def test_allows_boundary_maintenance_paths() -> None:
 def test_blocks_frozen_predictive_history_content_paths() -> None:
     blocked, allowed = classify_paths(
         [
-            "codex/predictive-history/lectures/game-theory-21-world-war-trump.md",
+            "continuity/predictive-history/lectures/game-theory-21-world-war-trump.md",
             "research/external/youtube-channels/predictive-history/index.json",
         ]
     )
 
     assert blocked == [
-        "codex/predictive-history/lectures/game-theory-21-world-war-trump.md",
+        "continuity/predictive-history/lectures/game-theory-21-world-war-trump.md",
         "research/external/youtube-channels/predictive-history/index.json",
     ]
     assert allowed == []
@@ -44,17 +44,17 @@ def test_normalizes_windows_paths() -> None:
         [r".\codex\predictive-history\BOOK-ARCHITECTURE.md"]
     )
 
-    assert blocked == ["codex/predictive-history/BOOK-ARCHITECTURE.md"]
+    assert blocked == ["continuity/predictive-history/BOOK-ARCHITECTURE.md"]
     assert allowed == []
 
 
 def test_violation_message_points_to_external_repo() -> None:
     message = format_violation_message(
-        ["codex/predictive-history/STATUS.md"],
-        ["codex/predictive-history/README.md"],
+        ["continuity/predictive-history/STATUS.md"],
+        ["continuity/predictive-history/README.md"],
     )
 
     assert "canonical public Predictive History repo" in message
     assert "public ph-civ source_id, pattern_id, and route references" in message
     assert "Move canonical public Predictive History edits to `rbtkhn/predictive-history` instead." in message
-    assert "codex/predictive-history/STATUS.md" in message
+    assert "continuity/predictive-history/STATUS.md" in message

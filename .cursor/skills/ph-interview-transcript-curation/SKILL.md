@@ -103,7 +103,7 @@ Use when batch pass 7-style heuristics mis-attribute lecture blocks to the host.
 | `{slug}.md` transcript body + YAML frontmatter | Commentary canvas rewrites |
 | Packet `README.md` pass notes + unresolved entities | Card/manifest unless validate regenerates indexes |
 | Section rails, host markers, turn labeling (scoped) | Full-file turn labeling when operator scoped one section only |
-| Index refresh via `civ_ph validate` (auto) | `codex/predictive-history/` frozen workshop |
+| Index refresh via `civ_ph validate` (auto) | `continuity/predictive-history/` frozen workshop |
 
 ## Interview shapes
 
@@ -228,7 +228,7 @@ Cursor-only paths for [ph-interview-transcript-curation/SKILL.md](../../../skill
 |---------|------|
 | Canonical PH repo (edit here) | `$PREDICTIVE_HISTORY_ROOT` or operator clone of `rbtkhn/predictive-history` |
 | Inbound mirror (do not hand-edit) | `public/predictive-history/` in strategy-codex |
-| Frozen workshop (do not edit unless revived) | `codex/predictive-history/` |
+| Frozen workshop (do not edit unless revived) | `continuity/predictive-history/` |
 
 ## Known interview packets
 

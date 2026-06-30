@@ -107,7 +107,7 @@ These artifacts are **derived** and **rebuildable**. They do **not** authorize m
 
 **Not yet auto-computed:** recommendation acceptance/rejection, cross-lane reference counts — require operator logging convention.
 
-**Notebook markers (`[watch]`, `[decision]`, `[promote]`):** not counted in this JSON; definitions live in [NOTEBOOK-PREFERENCES.md](../../../codex/NOTEBOOK-PREFERENCES.md#escalation-marker-preference). Extend [`build_strategy_observability.py`](../../../scripts/build_strategy_observability.py) before documenting marker counts here.
+**Notebook markers (`[watch]`, `[decision]`, `[promote]`):** not counted in this JSON; definitions live in [NOTEBOOK-PREFERENCES.md](../../../continuity/NOTEBOOK-PREFERENCES.md#escalation-marker-preference). Extend [`build_strategy_observability.py`](../../../scripts/build_strategy_observability.py) before documenting marker counts here.
 
 ### Alignment
 

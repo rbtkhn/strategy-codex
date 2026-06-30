@@ -2,7 +2,7 @@
 description: Predictive History corpus — direct-edit in canonical repo; inbound-only mirror in strategy-codex
 globs:
   - public/predictive-history/**
-  - codex/predictive-history/**
+  - continuity/predictive-history/**
   - docs/predictive-history*.md
   - scripts/sync_predictive_history_mirror.py
   - scripts/check_predictive_history_inbound_mirror.py
@@ -16,7 +16,7 @@ globs:
 
 - Corpus edits under **`public/predictive-history/`** except inbound-sync maintenance (`MIRROR-RECEIPT.md`, `DO-NOT-EDIT.md`) or commits tagged **`[predictive-history-sync]`** from `sync_predictive_history_mirror.py`
 - Using **`publish_public_ph_civ.py`** (deprecated — exits with error)
-- Treating **`codex/predictive-history/`** as a live ship surface
+- Treating **`continuity/predictive-history/`** as a live ship surface
 
 ## EXECUTE path for PH corpus
 

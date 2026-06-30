@@ -6,9 +6,9 @@
 
 **Purpose:** A **territory-agnostic** description of the **conductor** role in strategy-codex: the operator sets **emphasis, tempo, and depth**; tools and file trees do **not** replace judgment. The **five-master** map (Precision through Selectivity) is portable: it describes **modes of attention**, not one folder.
 
-The coffee hub now ends at **D**. You may still open **Conductor** **without** `coffee`: invoke a conductor directly (`toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`), or say **`conductor <name>`**. Bare **`conductor`** asks for one of those names. Strategy-codex SSOT for the embodied ritual: [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md). `strategy-notebook` is legacy compatibility language only. This file remains the **shared spine** for cross-lane analogy.
+The coffee hub now ends at **D**. You may still open **Conductor** **without** `coffee`: invoke a conductor directly (`toscanini`, `furtwangler`, `karajan`, `kleiber`, or `bernstein`), or say **`conductor <name>`**. Bare **`conductor`** asks for one of those names. Strategy-codex SSOT for the embodied ritual: [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../continuity/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md). `strategy-notebook` is legacy compatibility language only. This file remains the **shared spine** for cross-lane analogy.
 
-**Relationship to synthesis doctrine:** The same **figures → Grace‑Mar anchor** table lives in [SYNTHESIS-OPERATING-MODEL.md](../../../codex/SYNTHESIS-OPERATING-MODEL.md#techniques-inspired-by-the-masters) (*Techniques inspired by the masters*). These three documents are **consistent**, not competitive: **SYNTHESIS-OM** = theory; this page = **cross-lane** pass shape; **COFFEE-CADENCE** = **strategy-codex** timeboxed ritual and seeds.
+**Relationship to synthesis doctrine:** The same **figures → Grace‑Mar anchor** table lives in [SYNTHESIS-OPERATING-MODEL.md](../../../continuity/SYNTHESIS-OPERATING-MODEL.md#techniques-inspired-by-the-masters) (*Techniques inspired by the masters*). These three documents are **consistent**, not competitive: **SYNTHESIS-OM** = theory; this page = **cross-lane** pass shape; **COFFEE-CADENCE** = **strategy-codex** timeboxed ritual and seeds.
 
 **Layer map:** [CONDUCTOR-LAYER-MAP.md](CONDUCTOR-LAYER-MAP.md) — distinguishes synthesis theory, strategy-codex ritual, **this** generic cross-lane pass, Cursor skills, compiled-view recipes, and coding-agent proposal lenses. **This file** defines the **generic cross-lane conductor pass** shape.
 
@@ -56,11 +56,11 @@ The coffee hub now ends at **D**. You may still open **Conductor** **without** `
 
 | Territory | "Score" to conduct | First anchor (illustrative) |
 |-----------|--------------------|-----------------------------|
-| **Strategy-codex** ( **Conductor session** — master name / `conductor` skill ) | Expert/voice **threads**, **Machine** + **Journal**, `strategy-page`, `days.md` / `meta.md`; **post-intake:** sync → [intake queue](../../../docs/statecraft-intake-queue.md) → daily | [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) · [start-here ship loop](../../../docs/start-here.md#operator-ship-loop) |
+| **Strategy-codex** ( **Conductor session** — master name / `conductor` skill ) | Expert/voice **threads**, **Machine** + **Journal**, `strategy-page`, `days.md` / `meta.md`; **post-intake:** sync → [intake queue](../../../docs/statecraft-intake-queue.md) → daily | [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../continuity/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) · [start-here ship loop](../../../docs/start-here.md#operator-ship-loop) |
 | **work-dev** | Specs, integration, `workspace.md` next actions | [workspace.md](../work-dev/workspace.md), [INTEGRATION-PROGRAM.md](../work-dev/INTEGRATION-PROGRAM.md) |
 | **work-politics** | Daily brief, campaign queue, brief registry | [brief-source-registry.md](../work-politics/brief-source-registry.md), `daily-brief-YYYY-MM-DD.md` |
 | **work-cici** | Cici/OB1 rhythm, handoff, day journal | [INDEX.md](../work-cici/INDEX.md), [SYNC-DAILY.md](../../../singularity/work-cici/SYNC-DAILY.md) |
-| **work-jiang / PH** | Lecture pipeline, forward chains, STATUS | [codex/predictive-history/README.md](../../../codex/predictive-history/README.md) |
+| **work-jiang / PH** | Lecture pipeline, forward chains, STATUS | [continuity/predictive-history/README.md](../../../continuity/predictive-history/README.md) |
 | **Steward / membrane** | Gate, boundary hygiene, integrity, ship | [menu-reference — Steward](menu-reference.md#steward-follow-up-fork-implement-now-vs-later) ( **`coffee` A** ) — **governance** work is **not** a substitute for artistic "balance" in threads; it is the **frame** that keeps other lanes safe. |
 
 When you are **not** in **`coffee`**, you do **not** need to call this a "Conductor pass" in chat—**use the lane's normal names**. The value of this doc is a **common vocabulary** for "how we sequence attention" in retrospectives, handoffs, and skill text.
@@ -96,7 +96,7 @@ Continuity may mention the last `coffee_pick` slug, optional `focus` / `arc`, an
 
 **How the operator picks:** A **master name / prefix** in the message, or **`conductor <name>`**. Bare **`conductor`** asks for a name. If two prefix fragments match, ask for a longer fragment or the full conductor name. Single-character **A-D** belongs only to the resolved Conductor Action Menu; **E** is not a live conductor pick.
 
-**On pick,** give the usual **short** Conductor orientation ([COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md)).
+**On pick,** give the usual **short** Conductor orientation ([COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../continuity/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md)).
 
 <a id="conductor-action-mcq"></a>
 
@@ -138,14 +138,14 @@ Movement meanings:
 
 Cadence lines alone are **insufficient** to store *what* improved in the work. **After** orientation and the prescribed notebook actions, the operator (or agent, with the operator's OK) should **close** the pass with at least one of:
 
-1. A **Conductor close** in **`chapters/YYYY-MM/days.md`** (or a `strategy-page` **Reflection**), using the paste block in [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) — *stance, object, falsify / next test, escalation*; or
+1. A **Conductor close** in **`chapters/YYYY-MM/days.md`** (or a `strategy-page` **Reflection**), using the paste block in [CONDUCTOR-CLOSE-TEMPLATE.md](../../../continuity/CONDUCTOR-CLOSE-TEMPLATE.md) — *stance, object, falsify / next test, escalation*; or
 2. **`coffee_conductor_outcome`** in [work-cadence-events.md](../work-cadence/work-cadence-events.md) with `conductor=<slug>` + `verdict=` and `notebook_ref=` or `falsify=` (both preferred). If the pass closed without that line, add a repair outcome on the next turn rather than leaving attribution implicit.
 
 **Preferred compact close:** For routine passes, favor the shorter shape `Object -> What moved / seam -> Falsify / next test -> Next wedge` over a longer reflective block. If a movement was satisfied in chat only, label it as **behavioral/non-durable** rather than implying that it left a notebook or cadence close. Only notebook anchors and `coffee_conductor_outcome` lines count as durable closes.
 
 **Machine law vs arc scoring:** Extracted **machine law** (routing, repair, stopping rules) → [recursive-learn skill](../../../skills/recursive-learn/SKILL.md) + [recursive-learning-journal.md](../../../statecraft/recursive-learning-journal.md). Conductor **arc scoring** and benchmark windows → [conductor-arc-impact-journal.md](../work-strategy/conductor-arc-impact-journal.md).
 
-**SSOT (layer map, mermaid, gate boundary):** [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md). **Not** Record; **not** a substitute for full **EOD** `strategy page` when the day needs a real compose.
+**SSOT (layer map, mermaid, gate boundary):** [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md). **Not** Record; **not** a substitute for full **EOD** `strategy page` when the day needs a real compose.
 
 ---
 
@@ -159,6 +159,6 @@ Cadence lines alone are **insufficient** to store *what* improved in the work. *
 
 ## See also
 
-- [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) — operator **improvement loop** (conductor + notebook + promotion + gate when policy).
+- [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md) — operator **improvement loop** (conductor + notebook + promotion + gate when policy).
 - [menu-reference.md](menu-reference.md) - **`coffee` A-D** hub + **standalone Conductor** (`#conductor-fork-d-menu` anchors legacy disambiguation notes).
 - [work-coffee README](README.md) — territory role of `work-coffee`.

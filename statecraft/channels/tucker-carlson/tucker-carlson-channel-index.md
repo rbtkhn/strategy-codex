@@ -3,7 +3,7 @@
 
 Purpose: route map for materialized **Tucker Carlson** captures on disk (`channel_slug: tucker-carlson`).
 
-**SSOT:** `source-archive/statecraft/` — not legacy `codex/years/…/provenance/` · not `raw-input` mirrors.
+**SSOT:** `source-archive/statecraft/` — not legacy `continuity/years/…/provenance/` · not `raw-input` mirrors.
 
 Channel: [Tucker Carlson](https://www.youtube.com/@TuckerCarlson)
 

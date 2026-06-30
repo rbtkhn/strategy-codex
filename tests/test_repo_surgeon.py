@@ -75,7 +75,7 @@ def test_ignores_external_http_links(tmp_path: Path) -> None:
 def test_flags_local_path_leak(tmp_path: Path) -> None:
     docs = tmp_path / "docs"
     docs.mkdir()
-    (docs / "leak.md").write_text("See /C:/dev/strategy-codex/foo.md\n", encoding="utf-8")
+    (docs / "leak.md").write_text("See /C:/dev/strategy-continuity/foo.md\n", encoding="utf-8")
     findings = findings_from_local_path_leaks(tmp_path, "docs")
     assert any(f.category == "local_path" for f in findings)
 

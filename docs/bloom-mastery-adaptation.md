@@ -26,8 +26,8 @@ This codebase is **not** a learning management system. The analogy is **adult, s
 | Initial orientation | Hey rhythm + daily intention | [scripts/good-morning-brief.py](../scripts/good-morning-brief.py); `archive/queues/reflection-proposals/DAILY-INTENTION-*.md` |
 | Formative evidence | Activity log, staging, approved trail | [`self-evidence.md`](../archive/grace-mar-instance/self-evidence.md), [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md) ([identity-fork-protocol.md](identity-fork-protocol.md)), [`self-archive.md`](../archive/grace-mar-instance/self-archive.md) after merge Ã¢â‚¬” not a `self-archive/placeholders/evidence/` directory or a separate `Record/` tree |
 | Corrective loop | Contradictions + sovereign gate + merge script | [contradiction-resolution.md](contradiction-resolution.md), [CONTRADICTION-ENGINE-SPEC.md](CONTRADICTION-ENGINE-SPEC.md), RECURSION-GATE, [scripts/process_approved_candidates.py](../scripts/process_approved_candidates.py); staging conflict checks in `archive/grace-mar-instance/bot/conflict_check.py` Ã¢â‚¬” **no** `gate-guardian.js` in this repo |
-| ~90% “mastery before advance” | Compression / clarity bar before treating work as closed | [scripts/jiang-compress.py](../scripts/jiang-compress.py), [COMPRESSION-ENGINE.md](../codex/predictive-history/COMPRESSION-ENGINE.md) Ã¢â‚¬” **operator checklist + JSON schema**, not an automated 90% scorer (see below) |
-| 80Ã¢â‚¬“85% flow zone | Sprint/session difficulty “in the zone” (self-rated) | Optional [sprint-template.md](../codex/predictive-history/sprints/sprint-template.md); see also [educational-software-history-insights.md](skill-work/educational-software-history-insights.md) |
+| ~90% “mastery before advance” | Compression / clarity bar before treating work as closed | [scripts/jiang-compress.py](../scripts/jiang-compress.py), [COMPRESSION-ENGINE.md](../continuity/predictive-history/COMPRESSION-ENGINE.md) Ã¢â‚¬” **operator checklist + JSON schema**, not an automated 90% scorer (see below) |
+| 80Ã¢â‚¬“85% flow zone | Sprint/session difficulty “in the zone” (self-rated) | Optional [sprint-template.md](../continuity/predictive-history/sprints/sprint-template.md); see also [educational-software-history-insights.md](skill-work/educational-software-history-insights.md) |
 | Practice / articulation | THINK vs WRITE containers | [`skill-think.md`](../skill-think.md), [`skill-write.md`](../skill-write.md) ([canonical-paths.md](canonical-paths.md)) |
 | Time back | Intention + memory horizons + WORK lanes | good-morning-brief, [memory-template.md](memory-template.md), WORK files under `` |
 | Variation reduction | Layer boundaries and identity/library rules | [AGENTS.md](../AGENTS.md), [conceptual-framework.md](conceptual-framework.md), [scripts/identity_library_boundary_rules.py](../scripts/identity_library_boundary_rules.py) Ã¢â‚¬” **no** `layer-enforcer.py` or `truth-density-score.py` unless added later |
@@ -41,7 +41,7 @@ This codebase is **not** a learning management system. The analogy is **adult, s
 
 - Runs an **interactive operator checklist** (y/N). Failure exits the script; it does **not** compute a percentage or block saves automatically like an LMS.
 - Reads optional **`seed/minimal-core.json`** and **founding intent** paths when they exist.
-- Emits **compression JSON** under `codex/predictive-history/compressions/` and can **print a RECURSION-GATE stub** for manual paste Ã¢â‚¬” it does **not** merge into `self.md` or `self-evidence.md`.
+- Emits **compression JSON** under `continuity/predictive-history/compressions/` and can **print a RECURSION-GATE stub** for manual paste Ã¢â‚¬” it does **not** merge into `self.md` or `self-evidence.md`.
 
 So the parallel to “90% before the next lesson” is **discipline**: structured prompts toward **one-sentence clarity, linkable evidence, and next actions** before building on an artifact Ã¢â‚¬” not a hidden autograder.
 

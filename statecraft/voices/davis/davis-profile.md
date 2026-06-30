@@ -4,7 +4,7 @@
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md) · [davis-index.md](davis-index.md) (guest) · [daniel-davis-channel-index.md](../../channels/daniel-davis/daniel-davis-channel-index.md) (host)
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) — **`davis`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`davis`** lane.
 
 ---
 

@@ -6,7 +6,7 @@
 
 ## Purpose
 
-A **PR onboarding** automation posts a **short** â€œoperator briefingâ€ when a **pull request** is **opened** or **updated** (e.g. synchronized / reopened). It **summarizes** **PR shape**, **likely** [lane](https://github.com/rbtkhn/strategy-codex/blob/main/lanes.yaml), **sensitive** paths, and **which** **checks** to watch â€” it does **not** **review** code, **apply** **labels**, **fix** the branch, or **replace** a human **review**.
+A **PR onboarding** automation posts a **short** â€œoperator briefingâ€ when a **pull request** is **opened** or **updated** (e.g. synchronized / reopened). It **summarizes** **PR shape**, **likely** [lane](https://github.com/rbtkhn/strategy-continuity/blob/main/lanes.yaml), **sensitive** paths, and **which** **checks** to watch â€” it does **not** **review** code, **apply** **labels**, **fix** the branch, or **replace** a human **review**.
 
 **Core line:** **Lane workflows decide enforcement; Cursor Automation explains the PR shape before the operator spends attention.**
 
@@ -16,10 +16,10 @@ A **PR onboarding** automation posts a **short** â€œoperator briefingâ€
 
 | Workflow | Role |
 |----------|------|
-| [lane-pr-hint.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/lane-pr-hint.yml) | May **comment** a **suggested** `lane/*` **label** from paths â€” **deterministic** script. |
-| [lane-scope.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/lane-scope.yml) | **Enforces** that changed files **fit** the **declared** PR lane. |
-| [governance.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/governance.yml) | **Governance** and **integrity** jobs on `push`/`PR`. |
-| [test.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/test.yml) | **Tests** and many **validations** in one job. |
+| [lane-pr-hint.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/lane-pr-hint.yml) | May **comment** a **suggested** `lane/*` **label** from paths â€” **deterministic** script. |
+| [lane-scope.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/lane-scope.yml) | **Enforces** that changed files **fit** the **declared** PR lane. |
+| [governance.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/governance.yml) | **Governance** and **integrity** jobs on `push`/`PR`. |
+| [test.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/test.yml) | **Tests** and many **validations** in one job. |
 
 This automation **narrates** and **orients** the operator. It is **not** a second **lane** engine and does **not** set labels or merge.
 
@@ -43,7 +43,7 @@ This automation **narrates** and **orients** the operator. It is **not** a secon
 - **Infer** a **likely** lane or category from **labels**, **branch**, and **paths** â€” mark **uncertain** when mixed.
 - **Flag** if **Record**- / **gate**- / **prompt**-sensitive files appear in the **diff**.
 - **Name** which **workflows** or **check** names are **likely** to run (from path â†’ workflow heuristics; do **not** re-run CI).
-- Note whether **gated Record** [commit message](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/governance.yml) **discipline** may **apply** (for **human** commits â€” not this archive/grace-mar-instance/bot).
+- Note whether **gated Record** [commit message](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/governance.yml) **discipline** may **apply** (for **human** commits â€” not this archive/grace-mar-instance/bot).
 - **Suggest** a **single** **operator** next step (e.g. *wait for CI*, *confirm `lane/*` label*, *re-read `recursion-gate` if touched*).
 - **State** when classification is **uncertain**.
 
@@ -67,10 +67,10 @@ This automation **narrates** and **orients** the operator. It is **not** a secon
 | `docs/skill-work/work-dev/**` | work-dev | Technical execution / architecture / work-dev **control** plane. |
 | `docs/skill-work/work-strategy/**` | work-strategy | Strategy notebook, geopolitical **WORK** |
 | `docs/skill-work/work-cici/**` | work-cici | Cici-related **WORK** |
-| `codex/predictive-history/**` or `codex/predictive-history/**` | work-jiang | Jiang / Predictive History lane; [work-jiang](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/work-jiang.yml) may path-filter |
+| `continuity/predictive-history/**` or `continuity/predictive-history/**` | work-jiang | Jiang / Predictive History lane; [work-jiang](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/work-jiang.yml) may path-filter |
 | `**` | **Record-sensitive** | Treat as **protected**; **companion** / gate **governance** applies to merges |
 | `archive/grace-mar-instance/bot/prompt.py` | **prompt-sensitive** | High caution; often **gated** commit expectations |
-| `scripts/**` | tooling / runtime | [test.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/test.yml) and **governance** / **harness** may apply |
+| `scripts/**` | tooling / runtime | [test.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/test.yml) and **governance** / **harness** may apply |
 | `.github/workflows/**` | **CI** / **governance** **infrastructure** | **Meta**; watch **governance** + **lane** + **all** default checks |
 | `runtime/artifacts/**` | **derived** **artifact** | Confirm whether **intentional** check-in or **generated**; **library-index** and others may care |
 
@@ -88,7 +88,7 @@ This automation **narrates** and **orients** the operator. It is **not** a secon
 - `session-log.md` â€” **session** log
 - `archive/grace-mar-instance/bot/prompt.py` â€” **Voice** / prompt
 
-**More broadly:** any path under `` is an **instance** **Record** or **operational** **surface** â€” treat as **companion-** and **merge-** **sensitive**. For **gated** **merge** and **[gated-merge]** **commit** rules, see [instance-doctrine.md](../../instance-doctrine.md) and the **Gated Record** **job** in [governance.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/governance.yml) on **PRs**.
+**More broadly:** any path under `` is an **instance** **Record** or **operational** **surface** â€” treat as **companion-** and **merge-** **sensitive**. For **gated** **merge** and **[gated-merge]** **commit** rules, see [instance-doctrine.md](../../instance-doctrine.md) and the **Gated Record** **job** in [governance.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/governance.yml) on **PRs**.
 
 ---
 
@@ -122,4 +122,4 @@ The automationâ€™s **PR comment** should follow this **shape**. The paste p
 
 **See also:** [README â€” PR onboarding comment](README.md#pr-onboarding-comment) Â· [cursor-automations.md](cursor-automations.md)
 
-**Maintenance:** Reconcile the **lane** table and workflow names with [lanes.yaml](https://github.com/rbtkhn/strategy-codex/blob/main/lanes.yaml) and [`.github/workflows/`](https://github.com/rbtkhn/strategy-codex/tree/main/.github/workflows) when they change. *Last reviewed: 2026-04.*
+**Maintenance:** Reconcile the **lane** table and workflow names with [lanes.yaml](https://github.com/rbtkhn/strategy-continuity/blob/main/lanes.yaml) and [`.github/workflows/`](https://github.com/rbtkhn/strategy-continuity/tree/main/.github/workflows) when they change. *Last reviewed: 2026-04.*

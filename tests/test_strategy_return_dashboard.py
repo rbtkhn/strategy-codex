@@ -60,8 +60,8 @@ def test_dashboard_contains_warning_provenance_and_counts(tmp_path: Path) -> Non
 
     assert "Non-canonical / derived / rebuildable" in html
     assert "No files were mutated by this dashboard" in html
-    assert "codex/daily-strategy-inbox.md" in html
-    assert "codex/STATUS.md" in html
+    assert "continuity/daily-strategy-inbox.md" in html
+    assert "continuity/STATUS.md" in html
     assert "source-archive/statecraft" in html
     assert "scripts/strategy_return_hint.py" in html
     assert ">1</strong>" in html

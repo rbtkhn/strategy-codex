@@ -44,7 +44,7 @@ PATH_RENAMES: list[tuple[str, str]] = [
         "statecraft/voices/alkhorshid/alkhorshid-profile.md",
     ),
     ("statecraft/voices/alkorshid", "statecraft/voices/alkhorshid"),
-    ("codex/experts/alkorshid", "codex/experts/alkhorshid"),
+    ("continuity/experts/alkorshid", "continuity/experts/alkhorshid"),
     (
         "scripts/audit_dialogue_works_alkorshid.py",
         "scripts/audit_dialogue_works_alkhorshid.py",
@@ -61,7 +61,7 @@ PATH_RENAMES: list[tuple[str, str]] = [
         "scripts/backfill_alkorshid_youtube_raw_input.py",
         "scripts/backfill_alkhorshid_youtube_raw_input.py",
     ),
-    ("codex/profiles/alkorshid-profile.md", "codex/profiles/alkhorshid-profile.md"),
+    ("continuity/profiles/alkorshid-profile.md", "continuity/profiles/alkhorshid-profile.md"),
     (
         "statecraft/audits/dialogue-works-alkorshid-audit-2026-06-24.md",
         "statecraft/audits/dialogue-works-alkhorshid-audit-2026-06-24.md",
@@ -92,8 +92,8 @@ CONTENT_REPLACEMENTS: list[tuple[str, str]] = [
     ("statecraft/voices/alkorshid", "statecraft/voices/alkhorshid"),
     ("voices/alkorshid/alkorshid-", "voices/alkhorshid/alkhorshid-"),
     ("alkorshid/alkorshid-", "alkhorshid/alkhorshid-"),
-    ("codex/experts/alkorshid/", "codex/experts/alkhorshid/"),
-    ("codex/experts/alkorshid", "codex/experts/alkhorshid"),
+    ("continuity/experts/alkorshid/", "continuity/experts/alkhorshid/"),
+    ("continuity/experts/alkorshid", "continuity/experts/alkhorshid"),
     ("host-shelf-quality/2026/alkorshid", "host-shelf-quality/2026/alkhorshid"),
     ("host-shelf-quality/2025/alkorshid", "host-shelf-quality/2025/alkhorshid"),
     ("id: alkorshid-", "id: alkhorshid-"),

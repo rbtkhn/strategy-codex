@@ -47,7 +47,7 @@ python3 scripts/build_strategy_run_report.py --limit 20 --output runtime/artifac
 
 ## Page operation names
 
-| Proposal `operation` | Notebook [PAGE-UPDATE-CONTRACT](../../../codex/STRATEGY-NOTEBOOK-PAGE-UPDATE-CONTRACT.md) |
+| Proposal `operation` | Notebook [PAGE-UPDATE-CONTRACT](../../../continuity/STRATEGY-NOTEBOOK-PAGE-UPDATE-CONTRACT.md) |
 |---------------------|----------------------------------|
 | `new` | Aligns with **APPEND** (new page scaffold) / fresh block |
 | `append` | Add under existing page block where applicable |
@@ -58,4 +58,4 @@ python3 scripts/build_strategy_run_report.py --limit 20 --output runtime/artifac
 - [docs/run-contract.md](../../run-contract.md)
 - [STRATEGY-RUN-ARCHITECTURE.md](STRATEGY-RUN-ARCHITECTURE.md)
 
-**Tests / isolated runs:** Set environment variable `STRATEGY_RUN_ARTIFACT_ROOT` to a temporary directory that mirrors repo layout (`runtime/artifacts/`, optional `docs/.../../../codex/`) so scripts do not write under the real repo — used by `tests/test_strategy_run.py`.
+**Tests / isolated runs:** Set environment variable `STRATEGY_RUN_ARTIFACT_ROOT` to a temporary directory that mirrors repo layout (`runtime/artifacts/`, optional `docs/.../../../continuity/`) so scripts do not write under the real repo — used by `tests/test_strategy_run.py`.

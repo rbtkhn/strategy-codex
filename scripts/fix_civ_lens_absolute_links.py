@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Replace absolute /C:/dev/strategy-codex/ markdown links with repo-relative paths."""
+"""Replace absolute /C:/dev/strategy-continuity/ markdown links with repo-relative paths."""
 
 from __future__ import annotations
 
@@ -13,7 +13,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_ROOT = REPO_ROOT / "statecraft" / "voices"
 
 ABS_PREFIX = re.compile(
-    r"/C:/dev/strategy-codex/(?P<rest>[^\s\)\>\"']+)",
+    r"/C:/dev/strategy-continuity/(?P<rest>[^\s\)\>\"']+)",
     re.IGNORECASE,
 )
 

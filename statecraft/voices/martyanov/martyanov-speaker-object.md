@@ -10,4 +10,4 @@ Canonical live Martyanov speaker-state work has moved to:
 - [statecraft/voices/martyanov/martyanov-routing.md](martyanov-routing.md)
 - [statecraft/voices/martyanov/martyanov-source-index.md](martyanov-source-index.md)
 
-Use the `statecraft/` shelf for current routing, branch-shape, and provenance entry. This `codex/` file remains only so old links still resolve.
+Use the `statecraft/` shelf for current routing, branch-shape, and provenance entry. This `continuity/` file remains only so old links still resolve.

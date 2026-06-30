@@ -6,11 +6,11 @@
 
 **Naming:** `strategy-codex` is the active operator surface and `/codex` is the canonical corpus. **`strategy-notebook`** is deprecated — [STRATEGY-NOTEBOOK-DEPRECATED.md](STRATEGY-NOTEBOOK-DEPRECATED.md).
 
-**When:** Normal day. Operator says **`strategy`** or **`strategy pass`**. **`strategy page read`** — read-only frontier (no `days.md` / **`strategy-page`** writes); see [architecture § *End-of-day strategy session* — *Read-only variant*](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md#end-of-day-strategy-session-terminology).
+**When:** Normal day. Operator says **`strategy`** or **`strategy pass`**. **`strategy page read`** — read-only frontier (no `days.md` / **`strategy-page`** writes); see [architecture § *End-of-day strategy session* — *Read-only variant*](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md#end-of-day-strategy-session-terminology).
 
 **Boundary:** **`strategy` = codex ledger only.** Live judgment, intake, and voice passes → **[statecraft](../../../statecraft/README.md)**, **`coffee` C**, or **conductor** — not the default codex menu.
 
-**Full sequence (SSOT):** [STRATEGY-NOTEBOOK-ARCHITECTURE.md — Default operating path](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md#default-operating-path-ssot).
+**Full sequence (SSOT):** [STRATEGY-NOTEBOOK-ARCHITECTURE.md — Default operating path](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md#default-operating-path-ssot).
 
 ---
 
@@ -37,9 +37,9 @@ If the operator said **`strategy page read`**, stay in **read-only** mode: summa
 
 Open **two files**, scan **one**:
 
-- [`codex/STATUS.md`](../../../codex/STATUS.md) — where are we?
-- [`codex/daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) — what accumulated?
-- Tail of active `codex/chapters/2026/2026-04/days.md` — what did the last entry leave in **Open**?
+- [`continuity/STATUS.md`](../../../continuity/STATUS.md) — where are we?
+- [`continuity/daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) — what accumulated?
+- Tail of active `continuity/chapters/2026/2026-04/days.md` — what did the last entry leave in **Open**?
 
 If a daily brief exists for today (`daily-brief-YYYY-MM-DD.md`), skim its lead.
 
@@ -49,11 +49,11 @@ Access warning: thin capture is not the same as a thin field.
 
 ### 2. Write the inbox (Capture)
 
-Append paste-ready lines to [`codex/daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md). Shape: one-liner or two-tier gist (`cold: … // hook: …`). Tag the plane when load-bearing ([FIVE-THREAD-WATCH-TAGS.md](FIVE-THREAD-WATCH-TAGS.md) §1d–§1h).
+Append paste-ready lines to [`continuity/daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md). Shape: one-liner or two-tier gist (`cold: … // hook: …`). Tag the plane when load-bearing ([FIVE-THREAD-WATCH-TAGS.md](FIVE-THREAD-WATCH-TAGS.md) §1d–§1h).
 
 Do **not** touch `days.md` unless the operator says **`strategy page`**, **`strategy page compose`**, or **EOD notebook compose**.
 
-Verbatim **`strategy input`** → **`source-intake`** → [`source-archive/statecraft/`](../../../source-archive/statecraft/README.md) first per [strategy-input-raw-ingest.mdc](../../../.cursor/rules/strategy-input-raw-ingest.mdc) and [RAW-INPUT-DEPRECATED.md](RAW-INPUT-DEPRECATED.md). Do **not** write new captures to deprecated [`codex/raw-input/`](../../../codex/raw-input/README.md).
+Verbatim **`strategy input`** → **`source-intake`** → [`source-archive/statecraft/`](../../../source-archive/statecraft/README.md) first per [strategy-input-raw-ingest.mdc](../../../.cursor/rules/strategy-input-raw-ingest.mdc) and [RAW-INPUT-DEPRECATED.md](RAW-INPUT-DEPRECATED.md). Do **not** write new captures to deprecated [`continuity/raw-input/`](../../../continuity/raw-input/README.md).
 
 **Time:** Variable (5–30 min depending on ingest volume).
 
@@ -69,7 +69,7 @@ End the pass with **3–5 options** (standard WORK menu). Typical forks:
 | **D** | **Promote** — stabilized arc → [STRATEGY.md](STRATEGY.md) |
 | **E** | **Park** — another lane or stop |
 
-If the operator picks **A**, follow [architecture § End-of-day strategy session](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md#end-of-day-strategy-session-terminology).
+If the operator picks **A**, follow [architecture § End-of-day strategy session](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md#end-of-day-strategy-session-terminology).
 
 ---
 
@@ -92,6 +92,6 @@ If the operator picks **A**, follow [architecture § End-of-day strategy session
 | Doc | Role |
 |-----|------|
 | [README.md](README.md) | Lane entry + routing table |
-| [NOTEBOOK-PREFERENCES.md](../../../codex/NOTEBOOK-PREFERENCES.md) | Prose register, EOD rhythm |
-| [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) | Full architecture |
+| [NOTEBOOK-PREFERENCES.md](../../../continuity/NOTEBOOK-PREFERENCES.md) | Prose register, EOD rhythm |
+| [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md) | Full architecture |
 | [SKILL-STRATEGY-DEPRECATED.md](SKILL-STRATEGY-DEPRECATED.md) | Migration from dissolved skill |

@@ -43,7 +43,7 @@ Canonical labels for the separate oork / execution layer:
 | Standard label | Scope | Location | Description |
 |----------------|-------|----------|-------------|
 | **oork-territory** | Reusable execution domain | `docs/skill-oork/oork-*/` | A self-contained oork domain such as `oork-dev`, `oork-politics`, or `oork-human-teacher` |
-| **oork-context** | Instance-specific oork state | `oork-*.md` | Live instance oork files such as `oork-mastery-learning.md`, `codex/predictive-history/README-operator.md`; separate from SKILLS |
+| **oork-context** | Instance-specific oork state | `oork-*.md` | Live instance oork files such as `oork-mastery-learning.md`, `continuity/predictive-history/README-operator.md`; separate from SKILLS |
 
 **Historical compatibility:** `BUILD` remains an internal legacy term attached to older docs, evidence, and analyses. `CREATE-*` and `ACT-*` remain valid evidence IDs and are not renamed by this taxonomy change.
 

@@ -20,7 +20,7 @@ Historically, this was the **default bulk transcript spine** for **[work-strateg
 | [current-events-analysis.md](../../../../docs/skill-work/work-strategy/current-events-analysis.md) | Perceiver → hooks → synthesis; PH `.txt` is valid step-1 input |
 | [LEARN_MODE_RULES.md](../../../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md) | Extraction format when learning from PH-scale transcripts |
 | [daily-brief-jiang-layer.md](../../../../docs/skill-work/work-strategy/daily-brief-jiang-layer.md) | **§1c** slow layer; PH lectures are the usual **work-jiang** book spine |
-| [work-jiang-sources.md](../../../../codex/predictive-history/work-jiang-sources.md) | Canonical channel URL + index/transcript CLI notes |
+| [work-jiang-sources.md](../../../../continuity/predictive-history/work-jiang-sources.md) | Canonical channel URL + index/transcript CLI notes |
 
 **Strategy-codex membrane:** Predictive History remains an upstream work-strategy transcript spine, but this local tree is now **read-only legacy residue**. For strategy-codex-facing use, PH material must be mediated through the Jiang strategy-author lane (`strategy-expert-jiang` in the current filename contract) before weave. Direct PH → knot routing is disallowed. See [strategy-notebook/README.md](../../../../docs/skill-work/work-strategy/strategy-notebook/README.md) § **Predictive History routing rule**.
 
@@ -45,10 +45,10 @@ Historically, this was the **default bulk transcript spine** for **[work-strateg
 
 ## Raw transcripts (ASR audit trail)
 
-Fetched caption text is written under [`transcripts/`](transcripts/) as `*.txt`. Those files are **gitignored** to avoid huge commits; keep them **on your machine** (or CI artifact) to diff against curated `../../../../codex/predictive-history/lectures/*.md` and to verify lines before they become book quotations.
+Fetched caption text is written under [`transcripts/`](transcripts/) as `*.txt`. Those files are **gitignored** to avoid huge commits; keep them **on your machine** (or CI artifact) to diff against curated `../../../../continuity/predictive-history/lectures/*.md` and to verify lines before they become book quotations.
 
 - **Layout and commands:** [transcripts/README.md](transcripts/README.md)
-- **When to verify:** [codex/predictive-history/ASR-VERIFICATION-RUBRIC.md](../../../../codex/predictive-history/ASR-VERIFICATION-RUBRIC.md) (in-repo path: `codex/predictive-history/ASR-VERIFICATION-RUBRIC.md`)
+- **When to verify:** [continuity/predictive-history/ASR-VERIFICATION-RUBRIC.md](../../../../continuity/predictive-history/ASR-VERIFICATION-RUBRIC.md) (in-repo path: `continuity/predictive-history/ASR-VERIFICATION-RUBRIC.md`)
 
 You can still commit **`index.json`** and **`transcript_manifest.json`** as lightweight pointers and dedup state.
 

@@ -72,9 +72,9 @@ Jan-May 2025 origin set:
 
 Repo-current 2026 continuity anchors:
 
-- `codex/daily-strategy-inbox.md` - Apr 26 Mercouris handle: `US Says EU Has No Ukraine Plan; Ukraine Wants More EU Funds Russia Economy Strong; Iran Scorns Talks`
-- `codex/daily-strategy-inbox.md` - Apr 28 Mearsheimer handle: `How Trump Lost His War`, with U.S. strategic bandwidth, force depletion, and no quick-reset military option
-- `codex/daily-strategy-inbox.md` - Apr 28 Freeman handle: `What Russia Can Do For Iran`, with absent war-termination strategy, shifting objectives, endurance mismatch, and guarantees language
+- `continuity/daily-strategy-inbox.md` - Apr 26 Mercouris handle: `US Says EU Has No Ukraine Plan; Ukraine Wants More EU Funds Russia Economy Strong; Iran Scorns Talks`
+- `continuity/daily-strategy-inbox.md` - Apr 28 Mearsheimer handle: `How Trump Lost His War`, with U.S. strategic bandwidth, force depletion, and no quick-reset military option
+- `continuity/daily-strategy-inbox.md` - Apr 28 Freeman handle: `What Russia Can Do For Iran`, with absent war-termination strategy, shifting objectives, endurance mismatch, and guarantees language
 - `source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md` - European legitimacy crisis, negotiation/capitulation framing, ceasefire as regrouping/rearming language
 - `source-archive/statecraft/2026-05-16/source-daniel-davis-rising-anger-in-russia-dmitry-polyanskiy-2026-05-16.md` - NATO involvement/escalation-risk frame and "save what can be saved" language
 - `source-archive/statecraft/2026-04-26/source-alexander-mercouris-us-eu-ukraine-russia-iran-sunday-2026-04-26.md` - raw-input file handle for EU plan/funding anxiety

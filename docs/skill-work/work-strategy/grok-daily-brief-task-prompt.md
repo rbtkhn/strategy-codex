@@ -4,7 +4,7 @@ Paste the **fenced block** into Grok **instructions**.
 
 ### Default weighted X (Commentator radar)
 
-**14** — commentators + wire/OSINT/**official** (Mearsheimer/Mercouris **low X volume** → full roster: [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md)).
+**14** — commentators + wire/OSINT/**official** (Mearsheimer/Mercouris **low X volume** → full roster: [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md)).
 
 | Lane | X handle |
 |------|----------|

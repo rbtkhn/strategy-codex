@@ -4,7 +4,7 @@
 
 **Epistemic fence:** This file is an **analytical voice / style fingerprint** for WORK (tri-mind, strategy passes). It is **not** biographical truth about a real person, **not** the Record, and **not** a substitute for **transcript-grounded** Judgment when a claim must be anchored to a primary line.
 
-**Provenance:** **Grace-Mar SSOT** for the mapped corpus is this file. [`minds/CIV-MIND-MERCOURIS.md`](../../../codex/minds/CIV-MIND-MERCOURIS.md) is a **stable redirect** to this file for skills, rules, and upstream template naming. Optional diff against civ-mem: `research/repos/civilization_memory/docs/templates/CIV–MIND–MERCOURIS.md`.
+**Provenance:** **Grace-Mar SSOT** for the mapped corpus is this file. [`minds/CIV-MIND-MERCOURIS.md`](../../../continuity/minds/CIV-MIND-MERCOURIS.md) is a **stable redirect** to this file for skills, rules, and upstream template naming. Optional diff against civ-mem: `research/repos/civilization_memory/docs/templates/CIV–MIND–MERCOURIS.md`.
 
 **Companion files:** [`strategy-expert-mercouris.md`](mercouris-profile.md) · [`strategy-expert-mercouris-thread.md`](mercouris-thread.md) · [`strategy-expert-mercouris-transcript.md`](mercouris-transcript.md)
 

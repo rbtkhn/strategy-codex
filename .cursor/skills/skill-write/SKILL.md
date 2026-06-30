@@ -62,7 +62,7 @@ Typical example:
 
 Do not make the reader learn repo shorthand unless that teaching move is itself part of the piece.
 
-**Out of scope - expert refined pages:** Notebook WORK artifacts; craft → [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md). Do **not** apply this hub's Locals / X / PH defaults unless the operator asks to **adapt** for **publication**.
+**Out of scope - expert refined pages:** Notebook WORK artifacts; craft → [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md). Do **not** apply this hub's Locals / X / PH defaults unless the operator asks to **adapt** for **publication**.
 
 ## Optional: `civilization_memory` adjacency (WORK)
 

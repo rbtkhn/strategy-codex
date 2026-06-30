@@ -4,7 +4,7 @@
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) — **`crooke`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`crooke`** lane.
 
 ---
 
@@ -32,7 +32,7 @@ Alastair Crooke is a diplomacy-and-spoiler lane used when the notebook needs Lev
 | **Voice tier** | `B` |
 | **Voice fingerprint — last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](../../../codex/strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](../../../continuity/strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 

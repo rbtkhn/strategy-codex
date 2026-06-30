@@ -36,8 +36,8 @@ Orientation-only turns do **not** count as benchmark units unless they later clo
 
 Use existing repo-native surfaces first:
 
-- [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md)
-- [FOLD-LEARNING.md](../../../codex/FOLD-LEARNING.md)
+- [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md)
+- [FOLD-LEARNING.md](../../../continuity/FOLD-LEARNING.md)
 - `work-cadence-events.md` and `coffee_pick` / `coffee_conductor_outcome`
 - `strategy-fold-events.jsonl`
 - commit history

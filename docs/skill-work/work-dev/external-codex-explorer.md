@@ -23,7 +23,7 @@ Detail schemas:
 
 **SSOT artifact schemas:** [`external-codex-neighborhood-report.v1.json`](../../../schemas/registry/external-codex-neighborhood-report.v1.json), [`external-codex-family-report.v1.json`](../../../schemas/registry/external-codex-family-report.v1.json)
 
-**Outputs:** [`runtime/artifacts/external-codex/`](../../../runtime/artifacts/external-codex/README.md) (rebuildable; default generated artifacts may be gitignored â€” see bucket README).
+**Outputs:** [`runtime/artifacts/external-continuity/`](../../../runtime/artifacts/external-continuity/README.md) (rebuildable; default generated artifacts may be gitignored â€” see bucket README).
 
 ---
 
@@ -62,7 +62,7 @@ Where **neighborhood** answers â€œwhat sits beside **this one** path?â€
 
 **SSOT schema:** [`schemas/registry/external-codex-family-report.v1.json`](../../../schemas/registry/external-codex-family-report.v1.json)
 
-**Builder:** [`scripts/build_external_codex_family_report.py`](../../../scripts/build_external_codex_family_report.py). Default JSON (`--output-json` omitted) lives under **`runtime/artifacts/external-codex/families/`** (gitignored).
+**Builder:** [`scripts/build_external_codex_family_report.py`](../../../scripts/build_external_codex_family_report.py). Default JSON (`--output-json` omitted) lives under **`runtime/artifacts/external-continuity/families/`** (gitignored).
 
 JSON highlights: **`members[].connection_count`**, **`dominant_file_classes`**, **`dominant_civilizations`**, **`suggested_entry_points`** (top paths by `(-connection_count, path)`).
 
@@ -171,10 +171,10 @@ python3 scripts/build_external_codex_family_report.py \
   --repo-path research/repos/civilization_memory \
   --selector-type civilization \
   --selector-value ROME \
-  --output-json runtime/artifacts/external-codex/families/civilization__ROME.json
+  --output-json runtime/artifacts/external-continuity/families/civilization__ROME.json
 ```
 
-JSON + Markdown companion (default output dir **`runtime/artifacts/external-codex/families/`** when `--output-json` is omitted):
+JSON + Markdown companion (default output dir **`runtime/artifacts/external-continuity/families/`** when `--output-json` is omitted):
 
 ```bash
 python3 scripts/build_external_codex_family_report.py \
@@ -189,7 +189,7 @@ python3 scripts/build_external_codex_family_report.py \
 | `--repo-path` | Checkout directory (required). Relative to **`--repo-root`** or absolute. |
 | `--selector-type` | `civilization` or `file_class`. |
 | `--selector-value` | Civilization folder id or inferred file-class label. |
-| `--output-json` | Explicit JSON path (optional; default under **`runtime/artifacts/external-codex/families/`**). |
+| `--output-json` | Explicit JSON path (optional; default under **`runtime/artifacts/external-continuity/families/`**). |
 | `--write-md` | Write **`{stem}.family.md`** companion. |
 | `--output-md` | Explicit Markdown path (requires **`--write-md`**). |
 | `--member-limit` | Cap members enumerated (default 5000); sets **`truncated`** when hit. |
@@ -247,6 +247,6 @@ Fixed integer score from edge weight + civ/class/section bonuses; top **5** uniq
 
 ## See also
 
-- [`runtime/artifacts/external-codex/README.md`](../../../runtime/artifacts/external-codex/README.md)
+- [`runtime/artifacts/external-continuity/README.md`](../../../runtime/artifacts/external-continuity/README.md)
 - CI checkout helper: [`scripts/ci/clone_civilization_memory.sh`](../../../scripts/ci/clone_civilization_memory.sh)
 

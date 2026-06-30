@@ -19,7 +19,7 @@ This is not a final synthesis page. It is a lane-orientation note so later page,
 
 This pass reflects the currently recovered Crooke material in:
 
-- `codex/years/2026/provenance/`
+- `continuity/years/2026/provenance/`
 - `statecraft/voices/crooke/`
 
 with emphasis on:

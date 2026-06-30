@@ -4,7 +4,7 @@ work only; not Record.
 
 This shelf is the singularity-facing synthesis layer for Innermost Loop. It is optimized for maximum analytical value and actionable ideas rather than equal-weight commentary on every issue.
 
-Open [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) when the unresolved question is whether an output should stay in the month-scale synthesis layer or promote into `notes/` or `essays/`.
+Open [shared prose index](/C:/dev/strategy-continuity/docs/prose-index.md) when the unresolved question is whether an output should stay in the month-scale synthesis layer or promote into `notes/` or `essays/`.
 
 ## Governing Law
 
@@ -25,7 +25,7 @@ Use the layer this way:
 - [Longitudinal spine](../workshop/longitudinal/innermost-loop.md) - deterministic chronology substrate.
 - [Singularity notes](../notes/README.md) - bounded promoted arguments that preserve one seam, substrate packet, or source-hygiene object.
 - [Singularity essays](../essays/README.md) - carriage-bearing promoted theses that rise above one month, sheet, or bounded seam.
-- [Shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) - cross-domain distinction between note-class and essay-class prose.
+- [Shared prose index](/C:/dev/strategy-continuity/docs/prose-index.md) - cross-domain distinction between note-class and essay-class prose.
 
 ## Monthly Synthesis Index
 

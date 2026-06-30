@@ -31,7 +31,7 @@
 
 ### Daily inbox (rolling accumulator)
 
-**File:** [daily-dev-journal-inbox.md](daily-dev-journal-inbox.md) â€” **append-only** during the local day for rough work-dev capture. **`dream`** is the usual time to **fold** into the canonical **`YYYY-MM-DD-day-NN.md`** for that calendar window (create or extend the day file; **NN** follows your journal-day anchor). **No automatic reset** each dream â€” same **fold + optional prune** pattern as [strategy-notebook daily-strategy-inbox](../../../../../../codex/daily-strategy-inbox.md). **Missed `dream`:** resolve stale inbox before appending on a new day (merge into the correct `*-day-NN.md`).
+**File:** [daily-dev-journal-inbox.md](daily-dev-journal-inbox.md) â€” **append-only** during the local day for rough work-dev capture. **`dream`** is the usual time to **fold** into the canonical **`YYYY-MM-DD-day-NN.md`** for that calendar window (create or extend the day file; **NN** follows your journal-day anchor). **No automatic reset** each dream â€” same **fold + optional prune** pattern as [strategy-notebook daily-strategy-inbox](../../../../../../continuity/daily-strategy-inbox.md). **Missed `dream`:** resolve stale inbox before appending on a new day (merge into the correct `*-day-NN.md`).
 
 **Relation to other surfaces**
 
@@ -49,8 +49,8 @@
 
 **When** you run [`.cursor/skills/conductor/SKILL.md`](../../../../../../.cursor/skills/conductor/SKILL.md) (or **`conductor`**) on **work-dev** **objects** (harness, export, `workspace` wedge, derived regen), **land** a **durable** pass in this folder:
 
-- Add **`### Conductor close`** to the **day file** you are closing (`YYYY-MM-DD-day-NN.md`) using the same bullet **shape** as [CONDUCTOR-CLOSE-TEMPLATE.md](../../../../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) (**Stance / conductor**, **Object**, **What moved / seam**, **Falsify / next test**, **Escalation**). Strategy **chapters/â€¦/days.md** is **not** the home for this lane â€” **this** **journal** (or a **spec** under [dev-notebook/work-dev/](../)) is.
-- **Optional** cadence only: `coffee_conductor_outcome` with `notebook_ref=` â†’ path to this file â€” [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) Â§ 3.
+- Add **`### Conductor close`** to the **day file** you are closing (`YYYY-MM-DD-day-NN.md`) using the same bullet **shape** as [CONDUCTOR-CLOSE-TEMPLATE.md](../../../../../../continuity/CONDUCTOR-CLOSE-TEMPLATE.md) (**Stance / conductor**, **Object**, **What moved / seam**, **Falsify / next test**, **Escalation**). Strategy **chapters/â€¦/days.md** is **not** the home for this lane â€” **this** **journal** (or a **spec** under [dev-notebook/work-dev/](../)) is.
+- **Optional** cadence only: `coffee_conductor_outcome` with `notebook_ref=` â†’ path to this file â€” [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../../../../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md) Â§ 3.
 
 **Kleiber** **action** **MCQ** options may **point** at [workspace.md](../../../workspace.md) and concrete paths under `dev-notebook/work-dev/`.
 

@@ -4,7 +4,7 @@
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) — **`karaganov`** lane (reaction surfaces only until thread row promoted).
+**Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`karaganov`** lane (reaction surfaces only until thread row promoted).
 
 ---
 
@@ -116,7 +116,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 ## Ingest note
 
 - Primary intake family: `source-glenn-diesen-*-karaganov-*` under `source-archive/statecraft/`.
-- 2025 Diesen solos promoted to archive SSOT (2026-06-13); legacy `codex/years/` stubs are redirects — see [karaganov-source-index.md](karaganov-source-index.md).
+- 2025 Diesen solos promoted to archive SSOT (2026-06-13); legacy `continuity/years/` stubs are redirects — see [karaganov-source-index.md](karaganov-source-index.md).
 - **Voice QA (Tier A):** After promotion or major intake, run **`voice profile panel`** — solo smoke on nuclear-threshold / deterrence object, or Diesen-panel **duet/tri-voice** chain (× `mercouris`, × `mearsheimer`). Receipts: [source-index § Voice QA receipts](karaganov-source-index.md#voice-qa-receipts-tier-a-profile) · skill [voice-profile-panel](../../../skills/voice-profile-panel/SKILL.md). Wire hooks → panel intake `verify:` block, not voice table alone.
 
 ## Links
@@ -136,7 +136,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Profile status
 
-Tier A voice profile (reviewed 2026-06). Extend when [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) promotes a full **`karaganov`** thread row.
+Tier A voice profile (reviewed 2026-06). Extend when [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) promotes a full **`karaganov`** thread row.
 
 ---
 

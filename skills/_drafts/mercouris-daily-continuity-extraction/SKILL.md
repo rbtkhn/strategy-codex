@@ -46,22 +46,22 @@ Open speaker and stream surfaces first:
 
 - `statecraft/voices/mercouris/mercouris-speaker-object.md`
 - `statecraft/voices/mercouris/mercouris-cross-host-note.md`
-- `codex/years/2026/mercouris/README.md`
-- `codex/years/2026/mercouris/mercouris-shelf-2026-05.md`
-- `codex/years/2026/mercouris/mercouris-thread.md`
-- `codex/years/2026/mercouris/mercouris-transcript.md`
+- `continuity/years/2026/mercouris/README.md`
+- `continuity/years/2026/mercouris/mercouris-shelf-2026-05.md`
+- `continuity/years/2026/mercouris/mercouris-thread.md`
+- `continuity/years/2026/mercouris/mercouris-transcript.md`
 
 For every Mercouris analysis, consider CIV-MEM/statecraft context as a quiet background discipline. Open these when the topic is heading toward a recommendation, statecraft analysis, durable output, or civilizational pattern claim:
 
-- `codex/academy/statecraft/sheets/civilizational-pattern-to-statecraft.md`
-- relevant national lane files under `codex/academy/statecraft/{america,russia,china,iran}/`
+- `continuity/academy/statecraft/sheets/civilizational-pattern-to-statecraft.md`
+- relevant national lane files under `continuity/academy/statecraft/{america,russia,china,iran}/`
 - optional CIV-MEM routes under `research/repos/civilization_memory/content/civilizations/`
 
 Then search raw captures:
 
-- `codex/years/2026/raw-input/**/transcript-*mercouris*.md`
-- `codex/years/2026/raw-input/**/*mercouris*.md`
-- dated Mercouris day pages and shelf pages under `codex/years/2026/mercouris/`.
+- `continuity/years/2026/raw-input/**/transcript-*mercouris*.md`
+- `continuity/years/2026/raw-input/**/*mercouris*.md`
+- dated Mercouris day pages and shelf pages under `continuity/years/2026/mercouris/`.
 
 ## Source boundary
 
@@ -191,7 +191,7 @@ Routing:
 - For Iran questions, use `PERSIA` as the default CIV-MEM root and the Iran statecraft lane as the current authority/instrument home.
 - For China questions, prefer China/Sinic CIV-MEM routes when present and the China statecraft lane.
 - For America questions, prefer America/U.S./Anglo-imperial continuity routes when present and the America statecraft lane.
-- For cross-system crises, use `codex/academy/statecraft/sheets/national-perspective-orthogonality.md` and the relevant four national lanes before final recommendations.
+- For cross-system crises, use `continuity/academy/statecraft/sheets/national-perspective-orthogonality.md` and the relevant four national lanes before final recommendations.
 
 When the local CIV-MEM checkout is present and the entity is clear, use existing repo tooling to pick sources rather than silently improvising:
 
@@ -266,7 +266,7 @@ For each Mercouris extraction, produce these fields when useful:
 - **CIV-MEM support:** historical pattern, fit/break, authority/restraint/settlement discipline, and cited paths only when writing durable artifacts or when receipts are requested.
 - **Use:** verification task, crisis-test input, transaction input, negotiation brief, or speaker-state note.
 
-Durable outputs from Mercouris+CIV-MEM synthesis belong in `codex/academy/statecraft/` lanes, transactions, or state objects by default. Do not write them into Mercouris speaker surfaces unless the operator explicitly asks for Mercouris-lane memory.
+Durable outputs from Mercouris+CIV-MEM synthesis belong in `continuity/academy/statecraft/` lanes, transactions, or state objects by default. Do not write them into Mercouris speaker surfaces unless the operator explicitly asks for Mercouris-lane memory.
 
 ## Anti-patterns
 

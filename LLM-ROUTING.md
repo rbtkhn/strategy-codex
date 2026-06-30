@@ -123,6 +123,8 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | martyanov-source-index | source_index | work | [statecraft/voices/martyanov/martyanov-source-index.md](statecraft/voices/martyanov/martyanov-source-index.md) | Martyanov index, martyanov source index, martyanov source index compat |
 | mate-index | source_index | work | [statecraft/voices/mate/mate-index.md](statecraft/voices/mate/mate-index.md) | Mate index, Maté index, mate source index |
 | mate-source-index | source_index | work | [statecraft/voices/mate/mate-source-index.md](statecraft/voices/mate/mate-source-index.md) | Maté index, mate source index, mate source index compat |
+| matlock-index | source_index | work | [statecraft/voices/matlock/matlock-index.md](statecraft/voices/matlock/matlock-index.md) | Matlock index, matlock source index |
+| matlock-source-index | source_index | work | [statecraft/voices/matlock/matlock-source-index.md](statecraft/voices/matlock/matlock-source-index.md) | Matlock index, matlock source index, matlock source index compat |
 | mcgovern-index | source_index | work | [statecraft/voices/mcgovern/mcgovern-index.md](statecraft/voices/mcgovern/mcgovern-index.md) | Mcgovern index, McGovern index, mcgovern source index |
 | mcgovern-source-index | source_index | work | [statecraft/voices/mcgovern/mcgovern-source-index.md](statecraft/voices/mcgovern/mcgovern-source-index.md) | McGovern index, mcgovern source index, mcgovern source index compat |
 | mearsheimer-index | source_index | work | [statecraft/voices/mearsheimer/mearsheimer-index.md](statecraft/voices/mearsheimer/mearsheimer-index.md) | Mearsheimer index, mearsheimer source index |
@@ -204,7 +206,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | marandi | [statecraft/voices/marandi/marandi-index.md](statecraft/voices/marandi/marandi-index.md) | marandi-index |
 | martyanov | [statecraft/voices/martyanov/martyanov-index.md](statecraft/voices/martyanov/martyanov-index.md) | martyanov-index |
 | mate | [statecraft/voices/mate/mate-index.md](statecraft/voices/mate/mate-index.md) | mate-index |
-| matlock | [statecraft/voices/matlock/matlock-index.md](statecraft/voices/matlock/matlock-index.md) | matlock-source-index |
+| matlock | [statecraft/voices/matlock/matlock-index.md](statecraft/voices/matlock/matlock-index.md) | matlock-index |
 | mcgovern | [statecraft/voices/mcgovern/mcgovern-index.md](statecraft/voices/mcgovern/mcgovern-index.md) | mcgovern-index |
 | mearsheimer | [statecraft/voices/mearsheimer/mearsheimer-index.md](statecraft/voices/mearsheimer/mearsheimer-index.md) | mearsheimer-index |
 | mercouris | [statecraft/voices/mercouris/mercouris-index.md](statecraft/voices/mercouris/mercouris-index.md) | mercouris-index |
@@ -242,10 +244,10 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 - source indexes (disk): 32
 - host shelves (disk): 16
 - markdown links (INDEX + source-index files): 154
-- repo-map routes: 130 (canonical_reference=2, directory_index=1, essay=8, generated_dashboard=3, generated_inventory=3, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=22, source_capture=1, source_index=86)
-- source_index routes in repo-map: 86
+- repo-map routes: 132 (canonical_reference=2, directory_index=1, essay=8, generated_dashboard=3, generated_inventory=3, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=22, source_capture=1, source_index=88)
+- source_index routes in repo-map: 88
 - host_shelf routes in repo-map: 16
-- registry: INDEX lists 32/32, repo-map lists 28/32 (87.5% bijection when both match)
+- registry: INDEX lists 32/32, repo-map lists 29/32 (90.6% bijection when both match)
 - host shelves: repo-map lists 16/16 (100.0%)
 - absolute path violations (INDEX + source-index): 0
 - broken links (--strict resolution): 0
@@ -265,12 +267,12 @@ Several surfaces use the word **index**. They are not interchangeable.
 | [archive/grace-mar-instance/self-library.md](archive/grace-mar-instance/self-library.md) | Canonical removed operator-books symlink reference layer | Canonical reference |
 | [runtime/artifacts/library-index.md](runtime/artifacts/library-index.md) | Derived removed operator-books symlink **dashboard** | Derived |
 | [scripts/index_record.py](../../scripts/index_record.py) | Local Chroma / Record vector index builder | Derived local |
-| [docs/archive/codex-speakers-deprecated.md](docs/archive/codex-speakers-deprecated.md) | Tombstone for terminated `codex/speakers/` | Archive |
+| [docs/archive/codex-speakers-deprecated.md](docs/archive/codex-speakers-deprecated.md) | Tombstone for terminated `continuity/speakers/` | Archive |
 | [statecraft/channels/](statecraft/channels) | Host-family continuity (Davis, Napolitano, Nima / Dialogue Works) | WORK only |
 | [statecraft/channels/channel-index.json](statecraft/channels/channel-index.json) | **YouTube channel roster** (main) — check-sources SSOT; human: [channel-index.md](statecraft/channels/channel-index.md) | Derived from archive; rebuild via `refresh_statecraft_archive_indices.py` |
 | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |
 | `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker identity, voice fingerprint, pairing hub | WORK only (migrated SSOT) |
-| [codex/profiles/*-profile.md](codex/profiles) | Profile-only lanes or pre-migration compatibility | Compatibility / profile-only |
+| [continuity/profiles/*-profile.md](continuity/profiles) | Profile-only lanes or pre-migration compatibility | Compatibility / profile-only |
 
 **Essays vs channel essay folders vs notes:**
 

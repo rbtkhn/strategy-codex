@@ -36,7 +36,7 @@ OUTPUT_MD = REPO_ROOT / "runtime" / "artifacts" / "skill-inventory.md"
 OUTPUT_JSON = REPO_ROOT / "runtime" / "artifacts" / "skill-inventory.json"
 
 NOTES_MAP: dict[str, str] = {
-    "coffee": "External host skill (~/.codex/skills/coffee/); not in repo manifest",
+    "coffee": "External host skill (~/.continuity/skills/coffee/); not in repo manifest",
     "academy-mirror-sync": "Candidate archived unless operator confirms active mirror",
     "strategy-notebook-lane-split": "Review: likely runbook or archived",
     "lane-survey": "Review: likely runbook or archived",

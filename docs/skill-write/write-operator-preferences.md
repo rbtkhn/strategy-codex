@@ -7,7 +7,7 @@
 | **Locals — VivaBarnesLaw** | Forum posts (e.g. [vivabarneslaw.beta.locals.com](https://vivabarneslaw.beta.locals.com/)); **Grace‑Mar** house style for this surface (see [grace-mar-locals-voice.md](grace-mar-locals-voice.md)), liability-adjacent framing when useful. |
 | **Locals — Duran** | **Recorded:** **Same defaults as VivaBarnes** (same **Grace‑Mar** Locals voice) unless you override. **Intent:** over time, develop **one distinct style** tuned for **both** communities (not two permanently separate personas). |
 | **X** | Short posts / threads; topic-first and density per [.cursor/rules/drafting-topic-lede.mdc](../../.cursor/rules/drafting-topic-lede.mdc). |
-| **YouTube — Predictive History** | **Comments** (usually **top-level**); **short paragraph** is fine when needed—not only one-liners. Default comment strategy: trust-first chapter-folder doorway per [predictive-history-youtube-comments.md](predictive-history-youtube-comments.md). Current exception: the local `civ-01` to `civ-06` Wave One pilot uses evidence-rich proof-object comments instead of doorway comments. Channel context: [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) (transcript library **Predictive History YouTube library (`research/external/youtube-channels/predictive-history/`)** — not the **predictive-history (`codex/predictive-history/`)** operator book; see [self-library-operator-books](../../.cursor/rules/operator-books-routing.mdc) if ambiguous). |
+| **YouTube — Predictive History** | **Comments** (usually **top-level**); **short paragraph** is fine when needed—not only one-liners. Default comment strategy: trust-first chapter-folder doorway per [predictive-history-youtube-comments.md](predictive-history-youtube-comments.md). Current exception: the local `civ-01` to `civ-06` Wave One pilot uses evidence-rich proof-object comments instead of doorway comments. Channel context: [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) (transcript library **Predictive History YouTube library (`research/external/youtube-channels/predictive-history/`)** — not the **predictive-history (`continuity/predictive-history/`)** operator book; see [self-library-operator-books](../../.cursor/rules/operator-books-routing.mdc) if ambiguous). |
 
 **Scope (recorded):** **All public operator writing** is in scope **unless** you exclude a surface or class by name. **First-class workflow:** **Locals first** (VivaBarnes / Duran), then **X** and **Predictive History comments** as **shortened or derived follow-ons** unless you direct otherwise.
 
@@ -56,7 +56,7 @@ Snapshot from operator Q&A; revise this table if decisions change.
 
 When the agent drafts **paste-ready** operator public copy (**Locals**, **X**, **Predictive History comments**) in a **Cursor** session:
 
-- Echo the **full final text** in the **assistant reply**—the same wording you would paste. Files on disk (e.g. [daily-strategy-inbox.md](../../codex/daily-strategy-inbox.md)) are the **audit trail**; **chat is the operator clipboard**.
+- Echo the **full final text** in the **assistant reply**—the same wording you would paste. Files on disk (e.g. [daily-strategy-inbox.md](../../continuity/daily-strategy-inbox.md)) are the **audit trail**; **chat is the operator clipboard**.
 - **Derivation ladder (default):** If producing multiple shapes from one spine (e.g. **Locals** paragraph → plain-text strip → **X** trim), echo **each** in the reply. Do not leave a length variant **file-only** unless the operator asks for on-disk only.
 - Optional **one-line scope fence** on meta syntheses when mixing analyst overlays with verify-first lanes (e.g. *synthesizes inbox + notebook only—no new operational claims*).
 
@@ -158,10 +158,10 @@ After a substantive **`strategy`** pass with **load-bearing** Judgment-style pro
 
 Skill-write handoff commonly starts from:
 
-- **Strategy notebook / inbox** — [`daily-strategy-inbox.md`](../../codex/daily-strategy-inbox.md), `chapters/YYYY-MM/days.md` when used
+- **Strategy notebook / inbox** — [`daily-strategy-inbox.md`](../../continuity/daily-strategy-inbox.md), `chapters/YYYY-MM/days.md` when used
 - **Named-mind analysis** (single lens) or **`state-synthesis`** / **`primary-overhearing-analysis`** output — not legacy **`tri-mind`** ([TRI-MIND-DEPRECATED.md](../skill-work/work-strategy/TRI-MIND-DEPRECATED.md))
 - **Work-politics daily brief** — generator and lane per [work-strategy README](../skill-work/work-strategy/README.md) / coffee **C**
-- **Predictive History / work-jiang** — lecture hooks, analysis memos under [`codex/predictive-history/`](../../codex/predictive-history/) and [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) when the piece ties to corpus
+- **Predictive History / work-jiang** — lecture hooks, analysis memos under [`continuity/predictive-history/`](../../continuity/predictive-history/) and [youtube-channels/predictive-history](../../research/external/youtube-channels/predictive-history/README.md) when the piece ties to corpus
 
 ### From analysis to public copy
 

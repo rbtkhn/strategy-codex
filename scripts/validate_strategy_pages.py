@@ -24,8 +24,9 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from strategy_expert_corpus import CANONICAL_EXPERT_IDS, expert_thread_paths_for_discovery
 from strategy_page_reader import PAGE_END_RE, PAGE_MARKER_RE, discover_pages
+from continuity_paths import continuity_root
 
-NOTEBOOK_DIR = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK_DIR = continuity_root(REPO_ROOT)
 
 THREAD_MARKER_START = "<!-- strategy-expert-thread:start -->"
 

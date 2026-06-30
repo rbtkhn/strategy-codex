@@ -52,7 +52,7 @@ Procedural military text + siege/engineering. Roster SSOT: [Empire — Vegetius 
 | Vegetius | *De Re Militari* — procedural branch | `operator-vegetius-compound-gift` |
 | Maurice | *Strategikon* — thematic operational doctrine | `operator-procopius-maurice-pair` |
 | Siege / engineering | Roads, fortification — empire incorporation grammar | `historical-grounded` |
-| **1204** | Fourth Crusade — **military crusade instrument primary**; faith eastern sacral wound · entropy Constantinople rupture · **science codex/text survival cross-ref only** (N1) | cross-ref [Entropy](rome-entropy.md#science-history-entropy-lens) · [Faith](rome-faith.md#faith-history-faith-lens) |
+| **1204** | Fourth Crusade — **military crusade instrument primary**; faith eastern sacral wound · entropy Constantinople rupture · **science continuity/text survival cross-ref only** (N1) | cross-ref [Entropy](rome-entropy.md#science-history-entropy-lens) · [Faith](rome-faith.md#faith-history-faith-lens) |
 | **1453** | Gunpowder/siege co-equal with East terminus — **entropy primary**; science Greek→Latin reception cross-ref (N2/M3) | `operator-gunpowder-1453` · cross-ref [Entropy](rome-entropy.md#science-history-entropy-lens) |
 
 **Tri-spine footnotes (N5):** 1204 four-way · 1453 triple-home — SSOT on [Science spine](rome-memory.md#science-spine); **no new `#science-spine` rupture rows**.

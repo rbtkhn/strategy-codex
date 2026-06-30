@@ -121,7 +121,7 @@ Canonical strategy judgment still lives in:
 See:
 
 - [../../work-strategy/strategy-notebook/README.md](../../work-strategy/strategy-notebook/README.md)
-- [../../work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md)
+- [../../work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md)
 
 ## Tooling
 

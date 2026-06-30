@@ -10,7 +10,7 @@ import re
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
-WORK = REPO / "codex/predictive-history"
+WORK = REPO / "continuity/predictive-history"
 
 CHAPTERS = {
     "ch01": {

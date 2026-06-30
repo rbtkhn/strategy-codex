@@ -25,4 +25,4 @@ Do not use this repo as a strategy inbox or private editorial workspace. Public 
 
 **Authoring loop:** edit and push **this repository** directly. strategy-codex keeps an **inbound-only read snapshot** at `public/predictive-history/` refreshed via `sync_predictive_history_mirror.py` — do not author corpus files there.
 
-Workshop essay intake reads frozen `codex/predictive-history/` in strategy-codex and lands captures here only.
+Workshop essay intake reads frozen `continuity/predictive-history/` in strategy-codex and lands captures here only.

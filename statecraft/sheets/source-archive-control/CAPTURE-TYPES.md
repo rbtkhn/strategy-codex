@@ -2,7 +2,7 @@
 
 <!-- word_count: 2200 -->
 
-**When to open this doc:** You are about to create or review a source-bearing file in the canonical `source-archive/statecraft/` tree and need **type-specific** defaults for YAML **`kind:`**, **`thread:`**, inbox **stub shape**, and refined-page **Selected Passages** handling — use **§ Essay**, **§ Transcript**, **§ Social**, or **§ Wire and institutional PDF** below. For directory layout and formal **`pub_date`** rules, see [README.md](README.md) and [refined-page-template.md](../../../codex/refined-page-template.md).
+**When to open this doc:** You are about to create or review a source-bearing file in the canonical `source-archive/statecraft/` tree and need **type-specific** defaults for YAML **`kind:`**, **`thread:`**, inbox **stub shape**, and refined-page **Selected Passages** handling — use **§ Essay**, **§ Transcript**, **§ Social**, or **§ Wire and institutional PDF** below. For directory layout and formal **`pub_date`** rules, see [README.md](README.md) and [refined-page-template.md](../../../continuity/refined-page-template.md).
 
 
 ---
@@ -12,8 +12,8 @@
 | Layer | Role |
 |--------|------|
 | **`source-archive/statecraft/<pub_date>/<slug>.md`** | **Literal SSOT** — full text (or defined bundle), YAML front matter. See [README.md — File template](README.md#file-template-recommended). |
-| **[`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md)** | **Registry** — one-line stubs, **`thread:`**, relative link to source file, **`source_url`**, **`verify:`** tail. No megabyte pastes here for heavy captures. |
-| **`experts/<id>/<id>-page-*.md`** | **Notebook handle** — **`### Selected Passages`** (excerpt or condensed from raw), **`### Reflection` / `### Predictive Outlook`**, **`### Appendix`**. Not a second verbatim archive; [refined-page-template.md](../../../codex/refined-page-template.md) § SSOT hierarchy. |
+| **[`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md)** | **Registry** — one-line stubs, **`thread:`**, relative link to source file, **`source_url`**, **`verify:`** tail. No megabyte pastes here for heavy captures. |
+| **`experts/<id>/<id>-page-*.md`** | **Notebook handle** — **`### Selected Passages`** (excerpt or condensed from raw), **`### Reflection` / `### Predictive Outlook`**, **`### Appendix`**. Not a second verbatim archive; [refined-page-template.md](../../../continuity/refined-page-template.md) § SSOT hierarchy. |
 
 **Dates:** **`pub_date`** = calendar day the source went public (essay publish, stream air, post time). **`ingest_date`** = day the file landed in this tree. Folder **`source-archive/statecraft/YYYY-MM-DD/`** should match **`pub_date`** when known; else use the repo's documented pending / unresolved convention until pinned ([README.md](README.md)). Older `provenance/` wording is historical compatibility language only.
 
@@ -29,11 +29,11 @@ Long-form prose from a **single primary author** or outlet voice: Substack posts
 |------|----------|
 | **Typical sources** | Substack, Responsible Statecraft author pages, Ghost, Medium, HTML paste, RSS **`fetch_strategy_raw_input`** pulls. |
 | **`kind:`** | Prefer **`rss-item`** when automated from feed; manual paste → **`paste-bundle`** or **`mixed`** if bundling multiple snippets. |
-| **`thread:`** | Set when a [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) **`expert_id`** applies (e.g. named columnist). Else omit **`thread:`** or use inbox **`membrane:single`** until routed — see [README.md — Expert-agnostic](README.md). |
+| **`thread:`** | Set when a [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) **`expert_id`** applies (e.g. named columnist). Else omit **`thread:`** or use inbox **`membrane:single`** until routed — see [README.md — Expert-agnostic](README.md). |
 | **Raw body** | Full article text under YAML; preserve headings for navigation; if **paywalled / partial**, state in YAML **`note:`** or inbox (**`partial`**). Public archive / API backfills may only yield the preview body; label that clearly instead of pretending it is a full capture. |
 | **Backfill judgment** | Archive discovery is a starting point, not a requirement to ingest every item. Capture the substantial posts you want to keep; leave lighter archive-visible items out when they do not merit preservation. |
 | **Mechanical inbox stub** | Title + outlet + **`pub_date`** + **`SS \| cold`** or **`YT`** only if video-shaped — usually **`SS`** / **`notebook`** lane for essays. Tail: **`verify:full-text`** or **`verify:operator-partial`** + **`pub_date:`** + **`opinion-essay-tier`** + **`not-Record`**. **`grep:`** line: author slug + short title tokens + **`YYYY-MM-DD`**. |
-| **Refined `### Selected Passages`** | Often **exceeds** ~3k word budget — **excerpt** key sections; full text stays in **`source-archive/statecraft/`**; note omissions in **`### Appendix`** ([refined-page-template.md](../../../codex/refined-page-template.md) § Length). |
+| **Refined `### Selected Passages`** | Often **exceeds** ~3k word budget — **excerpt** key sections; full text stays in **`source-archive/statecraft/`**; note omissions in **`### Appendix`** ([refined-page-template.md](../../../continuity/refined-page-template.md) § Length). |
 | **Pitfalls** | Mistaking **RSS duplicate** for manual paste (dedupe by `guid` when using fetch); **canonical URL** vs tracking params; tiering **fact claims** inside opinion prose (`verify:`). |
 
 **`grep:` keywords (optional tail):** `substack`, `essay`, `paste-bundle`, `rss-item`, `thread:<expert>`.
@@ -48,10 +48,10 @@ Long-form prose from a **single primary author** or outlet voice: Substack posts
 |------|----------|
 | **Typical sources** | YouTube **`watch?v=`**, podcast pages, operator-cleaned transcripts (session paste). |
 | **`kind:`** | **`transcript`** (default for speech capture). |
-| **`thread:`** | Map the **owning stream** to the **host / interviewer** slug for host-led interviews (e.g. **`thread:diesen`** for a Glenn Diesen interview, even when the guest is Marandi). Use a guest slug only when the guest is the actual owner of the capture. Multi-guest shows: inbox may use **`thread:a`** × **`thread:b`** style (see existing [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) rows). |
+| **`thread:`** | Map the **owning stream** to the **host / interviewer** slug for host-led interviews (e.g. **`thread:diesen`** for a Glenn Diesen interview, even when the guest is Marandi). Use a guest slug only when the guest is the actual owner of the capture. Multi-guest shows: inbox may use **`thread:a`** × **`thread:b`** style (see existing [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md) rows). |
 | **Raw body** | **Unabridged** cleaned transcript as SSOT; YAML **`show`**, **`host`**, **`guest`** when helpful; **`source_url`** canonical episode URL. Keep **source-faithful** names in `channel_slug`, quoted titles, and `Channel:` lines, but keep **editorial** names consistent in assistant-added fields such as `author`, `host`, `interviewer`, `slug`, and speaker labels. |
 | **Mechanical inbox stub** | **`YT \| cold`** (or platform label) + episode title + **aired / publication** **`YYYY-MM-DD`** + theme bullets + **`hook:`** + **`thread:<expert_id>`** + **`full`** link to the canonical `source-archive/statecraft/...md` file + canonical URL + **`verify:operator-cleaned-transcript`** + **`pub_date:`** + tier tags (`opinion-analytic-tier`, etc.) + **`grep:`** host + guest + short slug + date. |
-| **Refined `### Selected Passages`** | Often **lane-specific** (guest-only, or expert monologue) or **head + tail + omission line** per [refined-page-template.md](../../../codex/refined-page-template.md) § Length; drop host filler if budget forces. |
+| **Refined `### Selected Passages`** | Often **lane-specific** (guest-only, or expert monologue) or **head + tail + omission line** per [refined-page-template.md](../../../continuity/refined-page-template.md) § Length; drop host filler if budget forces. |
 | **Pitfalls** | **`pub_date`** = upload vs live air mismatch; chunk merges dropping blank lines between speakers; on-air **numbers** need **`verify:`** before load-bearing use in **`days.md`**; editorial name drift where assistant-added speaker tags or metadata use a different naming style than the lane. |
 
 **Downstream wiring obligation:**
@@ -120,6 +120,6 @@ Closeout law:
 ## See also
 
 - [README.md](README.md) — layout, pruning, **`fetch_strategy_raw_input`**, **`populate_strategy_raw_input`**
-- [refined-page-template.md](../../../codex/refined-page-template.md) — Selected Passages budget, Appendix bullet order
-- [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) — split ingest model
+- [refined-page-template.md](../../../continuity/refined-page-template.md) — Selected Passages budget, Appendix bullet order
+- [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md) — split ingest model
 - [`.cursor/rules/strategy-input-raw-ingest.mdc`](../../../.cursor/rules/strategy-input-raw-ingest.mdc) — mandatory verbatim capture rule

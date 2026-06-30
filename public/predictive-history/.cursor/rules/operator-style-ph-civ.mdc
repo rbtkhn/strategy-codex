@@ -18,7 +18,7 @@ The operator may prefix a turn with **PLAN**, **EXECUTE**, **DOCSYNC**, or **EXE
 
 If there is **no prefix** and scope is ambiguous, default to **PLAN** unless the turn clearly continues an approved **EXECUTE** thread.
 
-**Full spec:** on disk, `[C:\dev\strategy-codex\docs\operator-agent-lanes.md](file:///C:/dev/strategy-codex/docs/operator-agent-lanes.md)` — use that path when you need verbatim lane rules from a ph-civ-only workspace.
+**Full spec:** on disk, `[C:\dev\strategy-codex\docs\operator-agent-lanes.md](file:///C:/dev/strategy-continuity/docs/operator-agent-lanes.md)` — use that path when you need verbatim lane rules from a ph-civ-only workspace.
 
 ## Hypotheses / perhaps / maybe
 

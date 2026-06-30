@@ -12,8 +12,8 @@ Discovery stub: [`statecraft/notes/INDEX.md`](../../statecraft/notes/INDEX.md).
 
 ```text
 Statecraft Notes Health (Tier A)
-- Tier A notes: 295
-- Shelf-native / draft / review-needed / deprecated: 248 / 0 / 34 / 13
+- Tier A notes: 296
+- Shelf-native / draft / review-needed / deprecated: 249 / 0 / 34 / 13
 - Essay candidates: 1
 - Orphan shelf-native: 0
 - Missing archive/synthesis anchors (shelf-native): 0
@@ -22,7 +22,7 @@ Statecraft Notes Health (Tier A)
 - Contract violations (Tier A warn-equivalent): 53
 
 Tier B summary (operational subfolders)
-- Tier B notes: 33 (wire: 24 · watch: 3 · reentry: 3 · intake: 3)
+- Tier B notes: 41 (wire: 32 · watch: 3 · reentry: 3 · intake: 3)
 - Tier B contract gaps: 0
 ```
 
@@ -248,6 +248,7 @@ Tier B summary (operational subfolders)
 | 2025-12-12-jermy-mercouris-siversk-nss-weave | [2025-12-12-jermy-mercouris-siversk-nss-weave](../../statecraft/notes/2025-12-12-jermy-mercouris-siversk-nss-weave.md) | synthesis | shelf-native | source-archive | 8 | 1 | 3 | 0 | false | 2026-06-28 |  |
 | 2025-freeman-igl-gaza-ceasefire-register | [2025-freeman-igl-gaza-ceasefire-register](../../statecraft/notes/2025-freeman-igl-gaza-ceasefire-register.md) | synthesis | shelf-native | source-archive | 8 | 4 | 9 | 0 | false | 2026-06-28 |  |
 | 2025-freeman-igl-iran-war-push-register | [2025-freeman-igl-iran-war-push-register](../../statecraft/notes/2025-freeman-igl-iran-war-push-register.md) | synthesis | shelf-native | source-archive | 8 | 8 | 9 | 0 | false | 2026-06-28 |  |
+| 2025-freeman-israel-trajectory-register | [2025-freeman-israel-trajectory-register](../../statecraft/notes/2025-freeman-israel-trajectory-register.md) | synthesis | shelf-native | source-archive | 7 | 0 | 0 | 0 | false | 2026-06-30 |  |
 | 2025-vs-2026-freeman-igl-register-seam | [2025-vs-2026-freeman-igl-register-seam](../../statecraft/notes/2025-vs-2026-freeman-igl-register-seam.md) | synthesis | shelf-native | source-archive | 8 | 5 | 17 | 0 | false | 2026-06-28 |  |
 | 2025-vs-2026-ritter-india-global-left-register-seam | [2025-vs-2026-ritter-india-global-left-register-seam](../../statecraft/notes/2025-vs-2026-ritter-india-global-left-register-seam.md) | synthesis | shelf-native | source-archive | 8 | 6 | 12 | 0 | false | 2026-06-28 |  |
 | 2026-01-08-jermy-mercouris-crooke-greenland-venezuela-weave | [2026-01-08-jermy-mercouris-crooke-greenland-venezuela-weave](../../statecraft/notes/2026-01-08-jermy-mercouris-crooke-greenland-venezuela-weave.md) | synthesis | shelf-native | source-archive | 8 | 3 | 4 | 0 | false | 2026-06-28 |  |
@@ -390,7 +391,7 @@ Tier B summary (operational subfolders)
 
 ## 4. Tier B summary
 
-Total Tier B notes: 33.
+Total Tier B notes: 41.
 
 | path | note_type | subfolder |
 | --- | --- | --- |
@@ -427,3 +428,11 @@ Total Tier B notes: 33.
 | [2026-06-23-news-verify-matrix](../../statecraft/notes/wire/2026-06-23-news-verify-matrix.md) | wire | wire |
 | [2026-06-25-news-verify-matrix](../../statecraft/notes/wire/2026-06-25-news-verify-matrix.md) | wire | wire |
 | [2026-06-26-news-verify-matrix](../../statecraft/notes/wire/2026-06-26-news-verify-matrix.md) | wire | wire |
+| [2026-06-28-29-mercouris-news-verify-matrix](../../statecraft/notes/wire/2026-06-28-29-mercouris-news-verify-matrix.md) | wire | wire |
+| [prediction-resolution-china-tariff-capitulation-2025](../../statecraft/notes/wire/prediction-resolution-china-tariff-capitulation-2025.md) | wire | wire |
+| [prediction-resolution-gaza-ceasefire-holds-2025](../../statecraft/notes/wire/prediction-resolution-gaza-ceasefire-holds-2025.md) | wire | wire |
+| [prediction-resolution-gaza-hostage-deal-jan-2025](../../statecraft/notes/wire/prediction-resolution-gaza-hostage-deal-jan-2025.md) | wire | wire |
+| [prediction-resolution-iran-great-power-direct-war-entry](../../statecraft/notes/wire/prediction-resolution-iran-great-power-direct-war-entry.md) | wire | wire |
+| [prediction-resolution-israel-self-destruction-trajectory](../../statecraft/notes/wire/prediction-resolution-israel-self-destruction-trajectory.md) | wire | wire |
+| [prediction-resolution-ukraine-escalation-russian-capitulation](../../statecraft/notes/wire/prediction-resolution-ukraine-escalation-russian-capitulation.md) | wire | wire |
+| [prediction-resolution-us-israel-iran-war-preparation-2025](../../statecraft/notes/wire/prediction-resolution-us-israel-iran-war-preparation-2025.md) | wire | wire |

@@ -103,7 +103,7 @@ Use when batch pass 7-style heuristics mis-attribute lecture blocks to the host.
 | `{slug}.md` transcript body + YAML frontmatter | Commentary canvas rewrites |
 | Packet `README.md` pass notes + unresolved entities | Card/manifest unless validate regenerates indexes |
 | Section rails, host markers, turn labeling (scoped) | Full-file turn labeling when operator scoped one section only |
-| Index refresh via `civ_ph validate` (auto) | `codex/predictive-history/` frozen workshop |
+| Index refresh via `civ_ph validate` (auto) | `continuity/predictive-history/` frozen workshop |
 
 ## Interview shapes
 

@@ -8,7 +8,7 @@
 |-------------|--------------|
 | **`strategy`**, **`strategy pass`** | [DEFAULT-PATH.md](DEFAULT-PATH.md) — three moves; [.cursor/rules/strategy-codex-pass.mdc](../../../.cursor/rules/strategy-codex-pass.mdc) |
 | Routing / disambiguation | [README.md](README.md) — Activation + Routing |
-| EOD compose / page-first | [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
+| EOD compose / page-first | [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
 | §1d–§1h watch threads | [FIVE-THREAD-WATCH-TAGS.md](FIVE-THREAD-WATCH-TAGS.md) |
 | Voice / lens | [VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md) + **statecraft** handoff; **`state-synthesis`** / [**periodic-statecraft-review** runbook](../../../skills/runbooks/periodic-statecraft-review.runbook.md) |
 | Verify | [wire-verify](../../../skills/wire-verify/SKILL.md) / [fact-check](../../../.cursor/skills/fact-check/SKILL.md) |

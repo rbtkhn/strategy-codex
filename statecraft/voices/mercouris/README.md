@@ -71,7 +71,7 @@ The legacy `statecraft/voices/mercouris/` path is now front-door compatibility o
 
 - [statecraft/voices/mercouris/README.md](../../../statecraft/voices/mercouris/README.md) and [index.md](../../../statecraft/voices/mercouris/index.md) are compatibility pointers.
 - older codex-side thread, transcript, and page files remain compatibility residue.
-- [codex/profiles/mercouris-profile.md](../../../codex/profiles/mercouris-profile.md) is a compatibility redirect only.
+- [continuity/profiles/mercouris-profile.md](../../../continuity/profiles/mercouris-profile.md) is a compatibility redirect only.
 - this statecraft shelf is now the canonical opening path for Mercouris statecraft work.
 
 ## Boundary

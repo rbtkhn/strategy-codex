@@ -21,7 +21,7 @@ In this repo:
 - agents may derive, stage, or suggest
 - agents may not merge or silently promote into canonical notebook surfaces
 
-That means WUPHF notebooks and wiki do **not** map directly to `codex/` durable state. At most, WUPHF-like patterns map to:
+That means WUPHF notebooks and wiki do **not** map directly to `continuity/` durable state. At most, WUPHF-like patterns map to:
 
 - runtime complements
 - WORK-layer derived artifacts
@@ -82,7 +82,7 @@ The safest first wedge is:
 
 Do **not** begin by writing directly into:
 
-- `codex/<year>/<channel>/...`
+- `continuity/<year>/<channel>/...`
 - durable continuity files
 - canonical page, thread, or profile surfaces
 
@@ -164,6 +164,6 @@ Avoid, especially early:
 
 - canonical-memory analogies
 - auto-promotion flows
-- deep coupling between a shared agent wiki and `codex/` notebook truth
+- deep coupling between a shared agent wiki and `continuity/` notebook truth
 
 That keeps experimentation useful without weakening `strategy-codex` sovereignty.

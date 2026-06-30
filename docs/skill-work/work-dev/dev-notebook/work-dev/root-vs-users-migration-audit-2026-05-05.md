@@ -19,7 +19,7 @@ This pass looked only at the migration family:
 - `platform/users/platform/template/` removals
 - scripts/docs that still assume `platform/users/<id>/...`
 
-It explicitly does **not** judge the large `codex/`, `docs/`, or strategy-content edits except where they interact with the migration.
+It explicitly does **not** judge the large `continuity/`, `docs/`, or strategy-content edits except where they interact with the migration.
 
 ## What looks intentional
 
@@ -39,7 +39,7 @@ The expected repo-root counterparts are present for the major deleted `platform/
 - `pipeline-events.jsonl`
 - `fork_state.json`
 - `fork-lineage.jsonl`
-- `codex/predictive-history/README-operator.md`
+- `continuity/predictive-history/README-operator.md`
 - plus related root runtime / audit files
 
 That strongly suggests a **real root-layout migration**, not accidental disappearance.
@@ -114,7 +114,7 @@ That is not necessarily wrong, but it is risky until the contract is explicit:
 
 ### 3. Accidental compatibility residue reappeared
 
-An unwanted `platform/users/strategy-codex/` subtree was present again during this audit.
+An unwanted `platform/users/strategy-continuity/` subtree was present again during this audit.
 
 It contained:
 
@@ -130,7 +130,7 @@ This subtree was removed during this pass.
 
 Why it matters:
 
-- it directly conflicts with the operator’s stated rule that this workspace should not grow a fake `platform/users/strategy-codex/` compatibility layer
+- it directly conflicts with the operator’s stated rule that this workspace should not grow a fake `platform/users/strategy-continuity/` compatibility layer
 - it can mask script bugs by making the wrong path appear to work
 
 ## Working interpretation
@@ -153,7 +153,7 @@ So the right reading is:
 Treat the next migration-only code slice as:
 
 1. normalize the six high-risk scripts above to `profile_dir(...)`
-2. verify they no longer create or expect `platform/users/strategy-codex/`
+2. verify they no longer create or expect `platform/users/strategy-continuity/`
 3. document whether `platform/users/grace-mar/` remaining runtime files are:
    - canonical mirrors
    - temporary compatibility artifacts

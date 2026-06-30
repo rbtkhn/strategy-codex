@@ -3,7 +3,7 @@
 
 Purpose: route map for materialized **Redacted News** captures on disk (`channel_slug: redacted-news`).
 
-**SSOT:** `source-archive/statecraft/` — not legacy `codex/years/…/provenance/` · not `raw-input` mirrors.
+**SSOT:** `source-archive/statecraft/` — not legacy `continuity/years/…/provenance/` · not `raw-input` mirrors.
 
 Channel: [Redacted News](https://www.youtube.com/@RedactedNews)
 

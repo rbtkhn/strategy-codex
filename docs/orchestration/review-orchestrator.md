@@ -17,7 +17,7 @@ Four passes plus synthesis (see script output):
 
 ## Meta-review
 
-When failures **repeat**, diagnose **routing / harness / skill protocol** — not only the latest output. Precedent: protocol repair receipts in [CONDUCTOR-IMPROVEMENT-LOOP.md](../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) §1.
+When failures **repeat**, diagnose **routing / harness / skill protocol** — not only the latest output. Precedent: protocol repair receipts in [CONDUCTOR-IMPROVEMENT-LOOP.md](../../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md) §1.
 
 **Checklist (advisory):** output correctness | system behavior | harness effectiveness | failure pattern | next system fix.
 

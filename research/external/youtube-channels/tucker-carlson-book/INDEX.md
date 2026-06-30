@@ -9,5 +9,5 @@
 **Notes**
 
 - **1** — Canonical processed digest: `research/external/work-strategy/transcripts/2026-04-02-tucker-carlson-trump-end-global-american-empire.md`. ROME-PASS exemplar: `docs/skill-work/work-strategy/work-strategy-rome/notes/exemplars/2026-04-01-rome-pass-exemplar-tucker-carlson-gyYy-QmxttU.md`.
-- **2** — Canonical lecture spine: `codex/predictive-history/lectures/interviews-11-tucker-carlson-iran-war-and-global-order.md` (Predictive History Vol. VI **Interviews #11**).
+- **2** — Canonical lecture spine: `continuity/predictive-history/lectures/interviews-11-tucker-carlson-iran-war-and-global-order.md` (Predictive History Vol. VI **Interviews #11**).
 - **3** — Book-local ingest; **no** other repo canonical yet. Transcript is ASR-style; verify quoted lines against the video before public reuse.

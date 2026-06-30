@@ -4,7 +4,7 @@
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md) · [alkhorshid-index.md](alkhorshid-index.md) (guest) · [dialogue-works-channel-index.md](../../channels/dialogue-works/dialogue-works-channel-index.md) (host)
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) — **`alkhorshid`** lane (`thread:nima` legacy compat in ingest YAML).
+**Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`alkhorshid`** lane (`thread:nima` legacy compat in ingest YAML).
 
 ---
 
@@ -32,7 +32,7 @@ Nima Alkhorshid is the Dialogue Works host lane: a long-form interviewer whose v
 | **Voice tier** | `B` |
 | **Voice fingerprint - last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md section Voice fingerprint (compact)](../../../codex/strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md section Voice fingerprint (compact)](../../../continuity/strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 

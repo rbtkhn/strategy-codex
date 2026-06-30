@@ -151,4 +151,4 @@ Then write the second sentence only if needed:
 
 - This sheet governs host-law routing only; it does not replace speaker shelves.
 - Do not create a host-local branch by symmetry alone.
-- Do not let `codex/` compatibility residue become the live authority for these classifications.
+- Do not let `continuity/` compatibility residue become the live authority for these classifications.

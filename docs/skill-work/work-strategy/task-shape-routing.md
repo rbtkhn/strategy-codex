@@ -10,7 +10,7 @@ Classification is **deterministic** (keywords, optional YAML frontmatter, filena
 
 ## Why the lane benefits
 
-work-strategy already separates doctrine, seams, and notebook discipline ([`DEFAULT-PATH.md`](DEFAULT-PATH.md), [`../../codex/README.md`](../../../README.md)). Task-shape routing adds a **first-class “job kind”** signal so operators and tooling can align artifact expectations and review posture **before** deep weave work — improving clarity without collapsing judgment into a rubric.
+work-strategy already separates doctrine, seams, and notebook discipline ([`DEFAULT-PATH.md`](DEFAULT-PATH.md), [`../../continuity/README.md`](../../../README.md)). Task-shape routing adds a **first-class “job kind”** signal so operators and tooling can align artifact expectations and review posture **before** deep weave work — improving clarity without collapsing judgment into a rubric.
 
 ## Task shape vs model / provider routing
 

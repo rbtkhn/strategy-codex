@@ -5,9 +5,9 @@ alwaysApply: true
 
 # Strategy input → source archive (mandatory verbatim capture)
 
-**SSOT:** [source-archive/statecraft/README.md](../../source-archive/statecraft/README.md) · [NOTEBOOK-PREFERENCES.md](../../codex/NOTEBOOK-PREFERENCES.md) · [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [statecraft-source-intake SKILL](../../.cursor/skills/statecraft-source-intake/SKILL.md)
+**SSOT:** [source-archive/statecraft/README.md](../../source-archive/statecraft/README.md) · [NOTEBOOK-PREFERENCES.md](../../continuity/NOTEBOOK-PREFERENCES.md) · [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [statecraft-source-intake SKILL](../../.cursor/skills/statecraft-source-intake/SKILL.md)
 
-**Deprecated:** `codex/raw-input/`, `codex/years/*/raw-input/`, and compat `docs/.../strategy-notebook/raw-input/` — do not write new captures there. See [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md).
+**Deprecated:** `continuity/raw-input/` (formerly `continuity/raw-input/`), `continuity/years/*/raw-input/`, and compat `docs/.../strategy-notebook/raw-input/` — do not write new captures there. See [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md).
 
 **Capture types:** When material is clearly **essay** (Substack, long web), **transcript** (YouTube, podcast), **social** (X, Locals, threads), or **wire / institutional PDF**, read the **source-intake** family table before choosing **`kind:`**, **`source_form:`**, and inbox-stub shape — do not default blindly to **`paste-bundle`** / **`mixed`** without checking that calibration.
 
@@ -16,7 +16,7 @@ alwaysApply: true
 Treat as **strategy input** when **any** of the following is true:
 
 - The operator says **strategy input** (or obvious variants: **strategy input crooke**, **ingest this**, **notebook ingest**, **capture this for strategy**) **and** supplies or points at **external source material**.
-- **Same intent without the exact phrase:** in **`docs/skill-work/work-strategy/`**, **`codex/`**, or clear **work-strategy** lane work, the operator pastes **full or substantial verbatim** (article, essay, statement, long excerpt) **with** a **URL** or **identifiable publication date/title**, expecting analysis — **not** a one-line headline-only prompt.
+- **Same intent without the exact phrase:** in **`docs/skill-work/work-strategy/`**, **`continuity/`**, or clear **work-strategy** lane work, the operator pastes **full or substantial verbatim** (article, essay, statement, long excerpt) **with** a **URL** or **identifiable publication date/title**, expecting analysis — **not** a one-line headline-only prompt.
 
 **Out of scope:** casual links with no paste and no request to retain text; pure **PLAN** / hypothesis threads where the operator declined disk writes; **Record** surfaces (`*`) — different pipeline.
 
@@ -32,7 +32,7 @@ Treat as **strategy input** when **any** of the following is true:
 
 4. **Same turn:** After the land (or in one batched edit), **then** deliver digest, tiers, seams, or **`days.md`** synthesis — notebook layers remain **synthesis + links**, not full mirrors.
 
-5. **Optional:** Add a **short stub** to [`daily-strategy-inbox.md`](../../codex/daily-strategy-inbox.md) pointing at the **archive path** when the operator uses the inbox as a registry.
+5. **Optional:** Add a **short stub** to [`daily-strategy-inbox.md`](../../continuity/daily-strategy-inbox.md) pointing at the **archive path** when the operator uses the inbox as a registry.
 
 ## If publication date is unknown
 
@@ -41,6 +41,6 @@ Use **`source-archive/statecraft/_aired-pending/`** until **`pub_date`** is pinn
 ## Do not
 
 - Skip **source-archive** land because the reply already contains a good summary.
-- Write new verbatim captures to **`codex/raw-input/`** or **`docs/.../strategy-notebook/raw-input/`**.
+- Write new verbatim captures to **`continuity/raw-input/`** or **`docs/.../strategy-notebook/raw-input/`**.
 - Put **full source mirrors** only in **`chapters/…/days.md`** — violates NOTEBOOK-PREFERENCES (**notebook ≠ verbatim SSOT**).
 - Synthesize or interpret **into** the archive capture — route interpretation to `statecraft/`, codex pages, or chat.

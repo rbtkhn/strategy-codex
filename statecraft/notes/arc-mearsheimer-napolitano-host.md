@@ -106,7 +106,7 @@ Use this arc when the notebook needs:
 ## Boundaries
 
 - If the question is mainly about coercive leverage and bargaining geometry rather than how Washington boxed itself in and lost sequence control, route outward to [arc-mearsheimer-davis-host.md](arc-mearsheimer-davis-host.md)
-- If the question is mainly about domestic liability, war-powers exposure, White House factional fracture, or executive survivability, route outward to [Barnes](C:/dev/strategy-codex/statecraft/voices/barnes/README.md).
+- If the question is mainly about domestic liability, war-powers exposure, White House factional fracture, or executive survivability, route outward to [Barnes](C:/dev/strategy-continuity/statecraft/voices/barnes/README.md).
 - If the question is mainly about order-transition, NATO architecture, or system-level consequence, route outward to [arc-mearsheimer-diesen-host.md](arc-mearsheimer-diesen-host.md)
 
 - The November 2025 through April 2026 files are routeable and on disk, but not yet clean transcript-grade primaries.

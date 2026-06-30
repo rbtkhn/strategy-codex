@@ -235,19 +235,19 @@
         "total_words": 5173,
         "by_lane": {
           "America": {
-            "path": "codex/academy/statecraft/america/helix.md",
+            "path": "continuity/academy/statecraft/america/helix.md",
             "words": 1164
           },
           "Russia": {
-            "path": "codex/academy/statecraft/russia/helix.md",
+            "path": "continuity/academy/statecraft/russia/helix.md",
             "words": 1577
           },
           "China": {
-            "path": "codex/academy/statecraft/china/helix.md",
+            "path": "continuity/academy/statecraft/china/helix.md",
             "words": 1225
           },
           "Iran": {
-            "path": "codex/academy/statecraft/iran/helix.md",
+            "path": "continuity/academy/statecraft/iran/helix.md",
             "words": 1207
           }
         }
@@ -275,51 +275,51 @@
         "current_words": 16440,
         "surfaces": [
           {
-            "path": "codex/academy/statecraft/states/migration/canonical-family-broken-contact-regimes.md",
+            "path": "continuity/academy/statecraft/states/migration/canonical-family-broken-contact-regimes.md",
             "words": 1420
           },
           {
-            "path": "codex/academy/statecraft/states/migration/canonical-family-coercion-conversion.md",
+            "path": "continuity/academy/statecraft/states/migration/canonical-family-coercion-conversion.md",
             "words": 1114
           },
           {
-            "path": "codex/academy/statecraft/states/migration/canonical-family-continuity-misread-architecture.md",
+            "path": "continuity/academy/statecraft/states/migration/canonical-family-continuity-misread-architecture.md",
             "words": 1437
           },
           {
-            "path": "codex/academy/statecraft/states/migration/canonical-family-continuity-misread-lane-comparison.md",
+            "path": "continuity/academy/statecraft/states/migration/canonical-family-continuity-misread-lane-comparison.md",
             "words": 1537
           },
           {
-            "path": "codex/academy/statecraft/states/migration/canonical-family-escalation-governance-lane-comparison.md",
+            "path": "continuity/academy/statecraft/states/migration/canonical-family-escalation-governance-lane-comparison.md",
             "words": 1532
           },
           {
-            "path": "codex/academy/statecraft/states/migration/canonical-family-escalation-governance.md",
+            "path": "continuity/academy/statecraft/states/migration/canonical-family-escalation-governance.md",
             "words": 1359
           },
           {
-            "path": "codex/academy/statecraft/states/migration/canonical-family-exclusion-settlement.md",
+            "path": "continuity/academy/statecraft/states/migration/canonical-family-exclusion-settlement.md",
             "words": 1318
           },
           {
-            "path": "codex/academy/statecraft/states/migration/canonical-family-older-strategic-memories.md",
+            "path": "continuity/academy/statecraft/states/migration/canonical-family-older-strategic-memories.md",
             "words": 1479
           },
           {
-            "path": "codex/academy/statecraft/states/migration/canonical-family-pressured-hegemon.md",
+            "path": "continuity/academy/statecraft/states/migration/canonical-family-pressured-hegemon.md",
             "words": 1443
           },
           {
-            "path": "codex/academy/statecraft/states/migration/canonical-family-settlement-real.md",
+            "path": "continuity/academy/statecraft/states/migration/canonical-family-settlement-real.md",
             "words": 1123
           },
           {
-            "path": "codex/academy/statecraft/states/migration/canonical-family-settlement-room-architecture.md",
+            "path": "continuity/academy/statecraft/states/migration/canonical-family-settlement-room-architecture.md",
             "words": 1284
           },
           {
-            "path": "codex/academy/statecraft/states/migration/canonical-family-settlement-room-lane-comparison.md",
+            "path": "continuity/academy/statecraft/states/migration/canonical-family-settlement-room-lane-comparison.md",
             "words": 1394
           }
         ]
@@ -329,19 +329,19 @@
         "current_words": 4888,
         "surfaces": [
           {
-            "path": "codex/academy/statecraft/states/migration/orientation-clause-review-checklist.md",
+            "path": "continuity/academy/statecraft/states/migration/orientation-clause-review-checklist.md",
             "words": 1313
           },
           {
-            "path": "codex/academy/statecraft/states/migration/orientation-helix-front-door.md",
+            "path": "continuity/academy/statecraft/states/migration/orientation-helix-front-door.md",
             "words": 1098
           },
           {
-            "path": "codex/academy/statecraft/states/migration/orientation-operator-task-router.md",
+            "path": "continuity/academy/statecraft/states/migration/orientation-operator-task-router.md",
             "words": 1364
           },
           {
-            "path": "codex/academy/statecraft/states/migration/orientation-problem-shape-router.md",
+            "path": "continuity/academy/statecraft/states/migration/orientation-problem-shape-router.md",
             "words": 1113
           }
         ]
@@ -359,19 +359,19 @@
       "total_words": 5173,
       "by_lane": {
         "America": {
-          "path": "codex/academy/statecraft/america/helix.md",
+          "path": "continuity/academy/statecraft/america/helix.md",
           "words": 1164
         },
         "Russia": {
-          "path": "codex/academy/statecraft/russia/helix.md",
+          "path": "continuity/academy/statecraft/russia/helix.md",
           "words": 1577
         },
         "China": {
-          "path": "codex/academy/statecraft/china/helix.md",
+          "path": "continuity/academy/statecraft/china/helix.md",
           "words": 1225
         },
         "Iran": {
-          "path": "codex/academy/statecraft/iran/helix.md",
+          "path": "continuity/academy/statecraft/iran/helix.md",
           "words": 1207
         }
       }
@@ -399,51 +399,51 @@
       "current_words": 16440,
       "surfaces": [
         {
-          "path": "codex/academy/statecraft/states/migration/canonical-family-broken-contact-regimes.md",
+          "path": "continuity/academy/statecraft/states/migration/canonical-family-broken-contact-regimes.md",
           "words": 1420
         },
         {
-          "path": "codex/academy/statecraft/states/migration/canonical-family-coercion-conversion.md",
+          "path": "continuity/academy/statecraft/states/migration/canonical-family-coercion-conversion.md",
           "words": 1114
         },
         {
-          "path": "codex/academy/statecraft/states/migration/canonical-family-continuity-misread-architecture.md",
+          "path": "continuity/academy/statecraft/states/migration/canonical-family-continuity-misread-architecture.md",
           "words": 1437
         },
         {
-          "path": "codex/academy/statecraft/states/migration/canonical-family-continuity-misread-lane-comparison.md",
+          "path": "continuity/academy/statecraft/states/migration/canonical-family-continuity-misread-lane-comparison.md",
           "words": 1537
         },
         {
-          "path": "codex/academy/statecraft/states/migration/canonical-family-escalation-governance-lane-comparison.md",
+          "path": "continuity/academy/statecraft/states/migration/canonical-family-escalation-governance-lane-comparison.md",
           "words": 1532
         },
         {
-          "path": "codex/academy/statecraft/states/migration/canonical-family-escalation-governance.md",
+          "path": "continuity/academy/statecraft/states/migration/canonical-family-escalation-governance.md",
           "words": 1359
         },
         {
-          "path": "codex/academy/statecraft/states/migration/canonical-family-exclusion-settlement.md",
+          "path": "continuity/academy/statecraft/states/migration/canonical-family-exclusion-settlement.md",
           "words": 1318
         },
         {
-          "path": "codex/academy/statecraft/states/migration/canonical-family-older-strategic-memories.md",
+          "path": "continuity/academy/statecraft/states/migration/canonical-family-older-strategic-memories.md",
           "words": 1479
         },
         {
-          "path": "codex/academy/statecraft/states/migration/canonical-family-pressured-hegemon.md",
+          "path": "continuity/academy/statecraft/states/migration/canonical-family-pressured-hegemon.md",
           "words": 1443
         },
         {
-          "path": "codex/academy/statecraft/states/migration/canonical-family-settlement-real.md",
+          "path": "continuity/academy/statecraft/states/migration/canonical-family-settlement-real.md",
           "words": 1123
         },
         {
-          "path": "codex/academy/statecraft/states/migration/canonical-family-settlement-room-architecture.md",
+          "path": "continuity/academy/statecraft/states/migration/canonical-family-settlement-room-architecture.md",
           "words": 1284
         },
         {
-          "path": "codex/academy/statecraft/states/migration/canonical-family-settlement-room-lane-comparison.md",
+          "path": "continuity/academy/statecraft/states/migration/canonical-family-settlement-room-lane-comparison.md",
           "words": 1394
         }
       ]
@@ -453,19 +453,19 @@
       "current_words": 4888,
       "surfaces": [
         {
-          "path": "codex/academy/statecraft/states/migration/orientation-clause-review-checklist.md",
+          "path": "continuity/academy/statecraft/states/migration/orientation-clause-review-checklist.md",
           "words": 1313
         },
         {
-          "path": "codex/academy/statecraft/states/migration/orientation-helix-front-door.md",
+          "path": "continuity/academy/statecraft/states/migration/orientation-helix-front-door.md",
           "words": 1098
         },
         {
-          "path": "codex/academy/statecraft/states/migration/orientation-operator-task-router.md",
+          "path": "continuity/academy/statecraft/states/migration/orientation-operator-task-router.md",
           "words": 1364
         },
         {
-          "path": "codex/academy/statecraft/states/migration/orientation-problem-shape-router.md",
+          "path": "continuity/academy/statecraft/states/migration/orientation-problem-shape-router.md",
           "words": 1113
         }
       ]

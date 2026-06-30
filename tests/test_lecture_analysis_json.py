@@ -16,14 +16,14 @@ from validate_lecture_analysis_json import validate_obj  # noqa: E402
 
 
 def test_fixture_valid() -> None:
-    p = ROOT / "codex/predictive-history/fixtures/lecture_analysis_valid_min.json"
+    p = ROOT / "continuity/predictive-history/fixtures/lecture_analysis_valid_min.json"
     data = json.loads(p.read_text(encoding="utf-8"))
     assert validate_obj(data) == []
 
 
 def test_missing_summary_errors() -> None:
     data = json.loads(
-        (ROOT / "codex/predictive-history/fixtures/lecture_analysis_valid_min.json").read_text(
+        (ROOT / "continuity/predictive-history/fixtures/lecture_analysis_valid_min.json").read_text(
             encoding="utf-8"
         )
     )
@@ -34,7 +34,7 @@ def test_missing_summary_errors() -> None:
 
 def test_analysis_json_version_mismatch_errors() -> None:
     data = json.loads(
-        (ROOT / "codex/predictive-history/fixtures/lecture_analysis_valid_min.json").read_text(
+        (ROOT / "continuity/predictive-history/fixtures/lecture_analysis_valid_min.json").read_text(
             encoding="utf-8"
         )
     )

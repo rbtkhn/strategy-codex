@@ -87,7 +87,7 @@ def _speaker_helix_target(speaker_slug: str, speaker_rows: list[dict[str, Any]])
     year = str(date.today().year)
     for row in speaker_rows:
         raw_input_path = _normalize_appearance(row).get("raw_input_path", "")
-        match = re.search(r"(?:^|/)codex/years/(\d{4})/", raw_input_path)
+        match = re.search(r"(?:^|/)continuity/years/(\d{4})/", raw_input_path)
         if match:
             year = match.group(1)
             break

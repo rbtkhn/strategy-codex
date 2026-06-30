@@ -200,7 +200,7 @@ This channel index lists **host-channel captures** (`channel_slug: daniel-davis`
 
 ## 2025-02-27
 
-- [youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27](../../../codex/years/2025/raw-input/2025-02-27/youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27.md)
+- [youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27](../../../continuity/years/2025/raw-input/2025-02-27/youtube-daniel-davis-deep-dive-trump-abandon-or-protecting-ukraine-alexander-mercouris-2025-02-27.md)
 
 ## 2025-03-10
 
@@ -239,7 +239,7 @@ This channel index lists **host-channel captures** (`channel_slug: daniel-davis`
 
 ## 2025-10-02
 
-- [youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02](../../../codex/years/2025/raw-input/2025-10-02/youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02.md)
+- [youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02](../../../continuity/years/2025/raw-input/2025-10-02/youtube-daniel-davis-deep-dive-us-helps-ukraine-strike-deep-into-russia-alexander-mercouris-2025-10-02.md)
 
 ## 2025-10-10
 

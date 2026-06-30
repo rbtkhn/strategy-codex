@@ -2,7 +2,7 @@
 """
 Retired: operator-books dashboard from museum self-library.md.
 
-Operator books are discovered via misc folder README/STATUS and codex/README.md.
+Operator books are discovered via misc folder README/STATUS and continuity/README.md.
 """
 
 from __future__ import annotations
@@ -26,14 +26,14 @@ The central operator-books dashboard is **retired**. Operator books live in **mi
 
 | Phrase | Path |
 |--------|------|
-| strategy-codex | `codex/` |
-| predictive-history | `codex/predictive-history/` |
+| strategy-codex | `continuity/` |
+| predictive-history | `continuity/predictive-history/` |
 | cici notebook | `singularity/work-cici/cici-notebook/` |
 | dev journal | `docs/skill-work/work-dev/dev-notebook/work-dev/journal/` |
 | history notebook | `docs/skill-work/work-strategy/history-notebook/` |
 | theology notebook | `docs/skill-work/work-strategy/theology-notebook/` |
 
-See **`codex/README.md`** § Operator books (misc homes) and **`.cursor/rules/operator-books-routing.mdc`**.
+See **`continuity/README.md`** § Operator books (misc homes) and **`.cursor/rules/operator-books-routing.mdc`**.
 """
 
 def main() -> int:

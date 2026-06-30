@@ -15,7 +15,7 @@ Last updated: 2026-03-28
 - Branch: `main`
 - Latest pushed commit: see `git log -1 --oneline` (after last push to `main`)
 - **Active clone path** (top-level): _(paste output of `git rev-parse --show-toplevel` in the `strategy-codex` repo you edit)_
-- **companion-self path** (if used today): _(e.g. sibling `â€¦/companion-self` or nested `â€¦/strategy-codex/companion-self`; omit if not in play)_
+- **companion-self path** (if used today): _(e.g. sibling `â€¦/companion-self` or nested `â€¦/strategy-continuity/companion-self`; omit if not in play)_
 - Core invariants active: Sovereign Merge Rule, knowledge boundary, evidence linkage, **companion** merge authority (see Terminology below).
 
 ### Session tail â€” 2026-03-28 (operator)
@@ -25,7 +25,7 @@ Last updated: 2026-03-28
 - **work-jiang:** Volume VII Substack essays + `essay-*` analysis memos (prior commits on `main`).
 - **Work-politics / strategy:** `daily-brief-2026-03-28.md`; `polling-and-markets.md` **Last checked** refreshed.
 - **Gate:** 0 pending (confirm in `recursion-gate.md`).
-- **Jiang lane:** `OUTLINE_ACTIVE` â€” suggested next lever: ch01 chapter outline (`codex/predictive-history/STATUS.md`).
+- **Jiang lane:** `OUTLINE_ACTIVE` â€” suggested next lever: ch01 chapter outline (`continuity/predictive-history/STATUS.md`).
 - **Re-entry:** `python3 scripts/operator_reentry_stack.py` (handoff + `operator_daily_warmup` + harness; optional `--compact`) or run scripts individually; one-line snapshot: `python3 scripts/harness_warmup.py --receipt`. Work-politics pulse: `python3 scripts/operator_work_politics_pulse.py`. Index: `archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md` Â§ Re-entry stack.
 
 ---

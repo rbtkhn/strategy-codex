@@ -1,7 +1,7 @@
 
 # Codex Speaker Residue Triage - 2026-05
 
-Purpose: classify the remaining `codex/speakers/` folders without `index.md` so future migration work stops proceeding by symmetry.
+Purpose: classify the remaining `continuity/speakers/` folders without `index.md` so future migration work stops proceeding by symmetry.
 
 This note is about **repo-root migration priority**, not intrinsic speaker importance.
 

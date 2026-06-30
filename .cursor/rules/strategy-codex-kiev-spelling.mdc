@@ -22,6 +22,6 @@ alwaysApply: true
 
 ## Pass usage
 
-`scripts/fix_statecraft_common_asr_entities.py` — use `--only-labels` for targeted sweeps; `--any-markdown` on synthesis trees (`statecraft/`, `docs/`, `codex/`).
+`scripts/fix_statecraft_common_asr_entities.py` — use `--only-labels` for targeted sweeps; `--any-markdown` on synthesis trees (`statecraft/`, `docs/`, `continuity/`).
 
 Related: [write-operator-preferences.md](../../docs/skill-write/write-operator-preferences.md) (place names).

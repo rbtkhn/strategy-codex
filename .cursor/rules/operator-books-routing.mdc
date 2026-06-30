@@ -9,15 +9,15 @@ Operator-authored books live in **existing misc folders**. There is **no** centr
 
 ## `predictive-history`
 
-**`predictive-history`** (hyphenated) → multivolume corpus under **`codex/predictive-history/`** (`BOOK-ARCHITECTURE.md`, `STATUS.md`).
+**`predictive-history`** (hyphenated) → multivolume corpus under **`continuity/predictive-history/`** (`BOOK-ARCHITECTURE.md`, `STATUS.md`).
 
 **Do not** default to **`research/external/youtube-channels/predictive-history/`** (YouTube transcript bundle). For that, say **Predictive History YouTube transcript library** or the full **`youtube-channels/predictive-history`** path.
 
 ## `strategy-codex` / `strategy-notebook`
 
-**`strategy-codex`** (preferred) → **`codex/`** (`STATUS.md`, `chapters/`, `daily-strategy-inbox.md`, `STRATEGY-NOTEBOOK-ARCHITECTURE.md`).
+**`strategy-codex`** (preferred) → **`continuity/`** (`STATUS.md`, `chapters/`, `daily-strategy-inbox.md`, `STRATEGY-NOTEBOOK-ARCHITECTURE.md`). Legacy path: **`continuity/`** redirect only.
 
-**`strategy-notebook`** (legacy phrase) → same destination **`codex/`** — do **not** use for new paths or docs. Full spec: [STRATEGY-NOTEBOOK-DEPRECATED.md](../../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md).
+**`strategy-notebook`** (legacy phrase) → same destination **`continuity/`** — do **not** use for new paths or docs. Full spec: [STRATEGY-NOTEBOOK-DEPRECATED.md](../../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md).
 
 Legacy path `docs/skill-work/work-strategy/strategy-notebook/` is **compat redirect only** — do not add artifacts.
 
@@ -34,4 +34,4 @@ Legacy path `docs/skill-work/work-strategy/strategy-notebook/` is **compat redir
 | civilization memory (upstream) | `research/repos/civilization_memory/` |
 | bookshelf (owned print) | `docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF.md` |
 
-Index table: **`codex/README.md`** § Operator books (misc homes).
+Index table: **`continuity/README.md`** § Operator books (misc homes).

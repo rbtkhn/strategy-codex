@@ -90,8 +90,8 @@ REWRITE_GLOBS = (
     "statecraft/channels/daniel-davis",
     "statecraft/channels/judging-freedom",
     "statecraft/sheets",
-    "codex/academy/statecraft/sheets",
-    "codex/speaker-lattice.md",
+    "continuity/academy/statecraft/sheets",
+    "continuity/speaker-lattice.md",
     "tests/test_speaker_routing_queue.py",
 )
 
@@ -118,36 +118,36 @@ def _yaml_block(meta: dict) -> str:
 
 def _normalize_body(text: str) -> str:
     text = re.sub(
-        r"/C:/dev/strategy-codex/codex/years/(\d{4})/provenance/",
+        r"/C:/dev/strategy-continuity/continuity/years/(\d{4})/provenance/",
         r"../../source-archive/statecraft/",
         text,
         flags=re.I,
     )
     text = re.sub(
-        r"\.\./\.\./\.\./codex/years/(\d{4})/provenance/",
+        r"\.\./\.\./\.\./continuity/years/(\d{4})/provenance/",
         r"../../source-archive/statecraft/",
         text,
     )
     text = re.sub(
-        r"/C:/dev/strategy-codex/statecraft/notes/",
+        r"/C:/dev/strategy-continuity/statecraft/notes/",
         r"",
         text,
         flags=re.I,
     )
     text = re.sub(
-        r"/C:/dev/strategy-codex/statecraft/channels/daniel-davis/arc-mearsheimer-davis-host\.md",
+        r"/C:/dev/strategy-continuity/statecraft/channels/daniel-davis/arc-mearsheimer-davis-host\.md",
         "arc-mearsheimer-davis-host.md",
         text,
         flags=re.I,
     )
     text = re.sub(
-        r"/C:/dev/strategy-codex/statecraft/voices/diesen/arc-mearsheimer-diesen-host\.md",
+        r"/C:/dev/strategy-continuity/statecraft/voices/diesen/arc-mearsheimer-diesen-host\.md",
         "arc-mearsheimer-diesen-host.md",
         text,
         flags=re.I,
     )
     text = re.sub(
-        r"/C:/dev/strategy-codex/statecraft/channels/judging-freedom/arc-mearsheimer-napolitano-host\.md",
+        r"/C:/dev/strategy-continuity/statecraft/channels/judging-freedom/arc-mearsheimer-napolitano-host\.md",
         "arc-mearsheimer-napolitano-host.md",
         text,
         flags=re.I,
@@ -207,7 +207,7 @@ def apply() -> dict:
             for old, new in OLD_TO_NEW:
                 text = text.replace(old, new)
             text = re.sub(
-                r"/C:/dev/strategy-codex/statecraft/notes/arc-mearsheimer-([a-z-]+)\.md",
+                r"/C:/dev/strategy-continuity/statecraft/notes/arc-mearsheimer-([a-z-]+)\.md",
                 r"../../notes/arc-mearsheimer-\1.md",
                 text,
                 flags=re.I,

@@ -256,7 +256,7 @@ This skill had the same portability issue as expert-cross-weave, but with an add
 
 ```md
 ## Placement rule
-- Preferred home: `codex/<year>/<host-stream>/<host>-<guest>-speaker-arc.md`
+- Preferred home: `continuity/<year>/<host-stream>/<host>-<guest>-speaker-arc.md`
 ```
 
 **After**

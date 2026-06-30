@@ -1,7 +1,7 @@
 
 # Voice profile template
 
-Purpose: single **shape contract** for `statecraft/voices/<speaker>/<speaker>-profile.md` and `statecraft/channels/<host>/<host>-profile.md` after migration. Placement law lives in [README.md § Speaker profile law](README.md#speaker-profile-law). Upstream minimal scaffold: [strategy-codex-template-profile.md](../../codex/strategy-codex-template-profile.md).
+Purpose: single **shape contract** for `statecraft/voices/<speaker>/<speaker>-profile.md` and `statecraft/channels/<host>/<host>-profile.md` after migration. Placement law lives in [README.md § Speaker profile law](README.md#speaker-profile-law). Upstream minimal scaffold: [strategy-codex-template-profile.md](../../continuity/strategy-codex-template-profile.md).
 
 **Exemplars:**
 
@@ -75,7 +75,7 @@ It is **not**:
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
-**Canonical index:** [strategy-commentator-threads.md](../../codex/strategy-commentator-threads.md) — **`<expert_id>`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../continuity/strategy-commentator-threads.md) — **`<expert_id>`** lane.
 
 ---
 
@@ -292,13 +292,13 @@ When regional grounding matters, split rows: **regional grounding** (where the v
 
 ## Migration checklist
 
-When promoting `codex/profiles/<speaker>-profile.md` → `statecraft/voices/<speaker>/<speaker>-profile.md`:
+When promoting `continuity/profiles/<speaker>-profile.md` → `statecraft/voices/<speaker>/<speaker>-profile.md`:
 
 1. Copy corpus to voices SSOT; replace codex path with a **redirect stub** only.
 2. Normalize header pointers (**Canonical profile / shelf / index**).
 3. Ensure required sections exist (stub acceptable); include **Linguistic style fingerprint (detailed)** stub at Tier B.
 4. List profile first in shelf `README.md` **Open first** and `index.md`.
-5. Add row to [codex/profiles/README.md](../../README.md) migrated table.
+5. Add row to [continuity/profiles/README.md](../../README.md) migrated table.
 6. Add speaker to **Current migrated profiles** in [README.md § Speaker profile law](README.md#speaker-profile-law).
 7. When `*-source-index.md` exists: register in [voice-index.md](voice-index.md) and [repo-map.yaml](../../repo-map.yaml).
 
@@ -306,6 +306,6 @@ When promoting `codex/profiles/<speaker>-profile.md` → `statecraft/voices/<spe
 
 ## Boundary
 
-- One SSOT profile per speaker shelf — no duplicate full copies under `codex/profiles/`.
+- One SSOT profile per speaker shelf — no duplicate full copies under `continuity/profiles/`.
 - Profile shape compliance is operator-maintained until a validator is added; this file is the contract reference.
 - Legacy filename: [voices-profile-template.md](voices-profile-template.md) redirects here.

@@ -27,8 +27,8 @@
 | Gate review pass | `.cursor/skills/gate-review-pass/SKILL.md` | Explicit `fork revive` only |
 | Elicit-knowledge → museum knowledge section A | `.cursor/skills/elicit-knowledge/SKILL.md` | Statecraft / bookshelf as WORK |
 | companion-self template sync | archived docs | strategy-codex-native routing |
-| Local PH corpus editing | `codex/predictive-history/` | [`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history) observe-only |
-| strategy-notebook namespace | `docs/skill-work/work-strategy/strategy-notebook/` | `codex/` + `source-archive/statecraft/` |
+| Local PH corpus editing | `continuity/predictive-history/` | [`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history) observe-only |
+| strategy-notebook namespace | `docs/skill-work/work-strategy/strategy-notebook/` | `continuity/` + `source-archive/statecraft/` |
 | Legacy lane `transactions/` | `statecraft/**/transactions/` | [`statecraft/notes/`](../../statecraft/notes/README.md) · [`notes/compacts/`](../../statecraft/notes/compacts/) — [inventory](audits/transaction-retirement-inventory-2026-06.md) |
 
 ---

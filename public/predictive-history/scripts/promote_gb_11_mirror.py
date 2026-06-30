@@ -51,7 +51,7 @@ annotation_status: drafted
 review_status: source_reviewed
 source_reviewed_at: 2026-06-09
 public_imported_at: 2026-06-09
-promoted_from: strategy-codex/source-archive/statecraft/2026-05-26/source-gb-11-dantes-revolution-2026-05-26.md
+promoted_from: strategy-continuity/source-archive/statecraft/2026-05-26/source-gb-11-dantes-revolution-2026-05-26.md
 representation_not_endorsement: true
 transcript_fidelity: exact_body_match
 transcript_source: operator_paste_capture

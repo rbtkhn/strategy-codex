@@ -2,7 +2,7 @@
 <!-- word_count: 782 -->
 
 
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) - **`sachs`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) - **`sachs`** lane.
 
 ---
 

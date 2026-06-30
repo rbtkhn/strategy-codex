@@ -52,7 +52,7 @@ def _paste_snippet_markdown(ts: str, ts_full: str, sweep_md_rel: str) -> str:
             f"summary: {safe_summary}",
             "```",
             "",
-            "_Edit before paste. Docs: codex/predictive-history/LANE-CI.md_",
+            "_Edit before paste. Docs: continuity/predictive-history/LANE-CI.md_",
             "",
         ]
     )

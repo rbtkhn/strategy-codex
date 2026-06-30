@@ -1,6 +1,6 @@
 # Strategy run wrapper — architecture (WORK)
 
-**Purpose:** Give [work-strategy](README.md) an **inspectable session envelope** (`run_id`, status, resolved input paths, proposal pointers) without changing the **canonical** strategy notebook model (page-primary; **experts / watches / days / minds** per [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md)).
+**Purpose:** Give [work-strategy](README.md) an **inspectable session envelope** (`run_id`, status, resolved input paths, proposal pointers) without changing the **canonical** strategy notebook model (page-primary; **experts / watches / days / minds** per [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md)).
 
 ## Why this preserves doctrine
 
@@ -8,7 +8,7 @@
 - **No silent notebook mutation:** `strategy_run.py` **does not** write `days.md`, inbox, or expert `thread.md`. Applying a **proposal** (when you add sidecar JSON) remains a **separate, explicit** step by the operator or an approved script they run.
 - **Two receipt channels (complementary):**
   - **Session scope:** `runtime/artifacts/strategy-runs/<run_id>/state.json` + `runtime/artifacts/run-receipts/*.json` — one **run** lifecycle.
-  - **Script scope:** [STRATEGY-NOTEBOOK-TRACE-CONTRACT.md](../../../codex/STRATEGY-NOTEBOOK-TRACE-CONTRACT.md) JSONL — which files **`strategy_page`** / **`compile_strategy_view`** touched on a given invocation.
+  - **Script scope:** [STRATEGY-NOTEBOOK-TRACE-CONTRACT.md](../../../continuity/STRATEGY-NOTEBOOK-TRACE-CONTRACT.md) JSONL — which files **`strategy_page`** / **`compile_strategy_view`** touched on a given invocation.
 
 ## Shared vocabulary
 
@@ -17,4 +17,4 @@
 ## Links
 
 - [STRATEGY-RUN-OPERATOR.md](STRATEGY-RUN-OPERATOR.md) — commands and paths
-- [STRATEGY-NOTEBOOK-PAGE-UPDATE-CONTRACT.md](../../../codex/STRATEGY-NOTEBOOK-PAGE-UPDATE-CONTRACT.md) — page operation names vs. proposal `operation` field (`new` / `append` / `refine`)
+- [STRATEGY-NOTEBOOK-PAGE-UPDATE-CONTRACT.md](../../../continuity/STRATEGY-NOTEBOOK-PAGE-UPDATE-CONTRACT.md) — page operation names vs. proposal `operation` field (`new` / `append` / `refine`)

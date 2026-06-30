@@ -138,7 +138,7 @@ repo-root/
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-skills.md      # Capability index (Claims, Gaps, Struggles, Milestones); legacy `skills.md` resolved until migrated
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ skill-think.md      # THINK container (repo-specific root filename; conceptual label: self-skill-think)
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ skill-write.md      # WRITE container (repo-specific root filename; conceptual label: self-skill-write)
-        Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ codex/predictive-history/README-operator.md        # work Ã¢â‚¬” Jiang project
+        Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ continuity/predictive-history/README-operator.md        # work Ã¢â‚¬” Jiang project
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-archive.md          # EVIDENCE Ã¢â‚¬” activity log + Ã‚§ VIII gated approved
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-evidence.md         # optional compatibility pointer (canonical body is self-archive.md)
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-library.md     # removed operator-books symlink Ã¢â‚¬” reference-facing governed domains; CIV-MEM subdomain; not museum knowledge

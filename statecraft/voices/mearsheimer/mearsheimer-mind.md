@@ -4,7 +4,7 @@
 
 **Epistemic fence:** This file is an **analytical voice / style fingerprint** for WORK (tri-mind, strategy passes). It is **not** biographical truth about a real person, **not** the Record, and **not** a substitute for **transcript-grounded** Judgment when a claim must be anchored to a primary line.
 
-**Provenance:** **Grace-Mar SSOT** for the mapped corpus is this file. [`minds/CIV-MIND-MEARSHEIMER.md`](../../../codex/minds/CIV-MIND-MEARSHEIMER.md) is a **stable redirect** to this file for skills, rules, and upstream template naming. Optional diff against civ-mem: `research/repos/civilization_memory/docs/templates/CIV–MIND–MEARSHEIMER.md`.
+**Provenance:** **Grace-Mar SSOT** for the mapped corpus is this file. [`minds/CIV-MIND-MEARSHEIMER.md`](../../../continuity/minds/CIV-MIND-MEARSHEIMER.md) is a **stable redirect** to this file for skills, rules, and upstream template naming. Optional diff against civ-mem: `research/repos/civilization_memory/docs/templates/CIV–MIND–MEARSHEIMER.md`.
 
 **Companion files:** [`strategy-expert-mearsheimer.md`](mearsheimer-profile.md) · [`strategy-expert-mearsheimer-thread.md`](mearsheimer-thread.md) · [`strategy-expert-mearsheimer-transcript.md`](mearsheimer-transcript.md)
 

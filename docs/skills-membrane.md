@@ -24,7 +24,7 @@ If a move transfers ownership without reinterpretation, it is a membrane violati
 
 This doc defines **cross-module seams** — flows between Record skill modules and work territories (THINK → WRITE, work-strategy → THINK, etc.).
 
-The strategy lane also uses **strategy-internal crossing tokens** (`seam:ritter+davis`, `membrane:single`, `crosses:`) documented in [strategy-commentator-threads.md § Crossing filters](../codex/strategy-commentator-threads.md). Those are **within-strategy** hygiene for expert-lane crossings, not cross-module flows. Both levels are valid; they operate at different scopes.
+The strategy lane also uses **strategy-internal crossing tokens** (`seam:ritter+davis`, `membrane:single`, `crosses:`) documented in [strategy-commentator-threads.md § Crossing filters](../continuity/strategy-commentator-threads.md). Those are **within-strategy** hygiene for expert-lane crossings, not cross-module flows. Both levels are valid; they operate at different scopes.
 
 ---
 
@@ -123,6 +123,6 @@ Not adding them now — schemas were just built, zero claims exist. Strategy kno
 |-------|-------|
 | Formal module boundaries, data flow | [skills-modularity.md](skills-modularity.md) §3, §5 |
 | THINK is not SELF / work / EVIDENCE | [think-purpose-and-boundary.md](skill-think/think-purpose-and-boundary.md) |
-| Strategy-internal crossing filters | [strategy-commentator-threads.md](../codex/strategy-commentator-threads.md) § Crossing filters |
+| Strategy-internal crossing filters | [strategy-commentator-threads.md](../continuity/strategy-commentator-threads.md) § Crossing filters |
 | Gate as membrane (Record boundary) | [conceptual-framework.md](conceptual-framework.md) |
 | WRITE two-layer split (doctrine vs Record) | [skill-write/README.md](skill-write/README.md) |

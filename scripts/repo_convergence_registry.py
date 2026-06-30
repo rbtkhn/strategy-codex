@@ -40,7 +40,7 @@ def _membrane_inputs() -> tuple[str, ...]:
     work_record = (
         "statecraft",
         "docs",
-        "codex",
+        "continuity",
         "scripts",
         "skills",
         ".cursor",
@@ -54,7 +54,8 @@ def _membrane_inputs() -> tuple[str, ...]:
         ".cursor",
         "statecraft",
         "singularity",
-        "codex",
+        "continuity",
+        "continuity/README.md",
         "research",
         "skills",
         "library",
@@ -183,5 +184,28 @@ LOOPS: dict[str, LoopSpec] = {
             ".pre-commit-config.yaml",
         ),
         commands=(("scripts/validate_all_schemas.py",),),
+    ),
+    "continuity_layer": LoopSpec(
+        kind="validator",
+        description=(
+            "Continuity layer status, word counts, contract ownership, "
+            "encoding hygiene, and derived report"
+        ),
+        inputs=(
+            "continuity",
+            "codex/README.md",
+            "scripts/audit_continuity_rename.py",
+            "scripts/check_text_encoding_hygiene.py",
+            "scripts/check_continuity_status.py",
+            "scripts/check_continuity_contract_index.py",
+            "scripts/build_continuity_report.py",
+            "scripts/strategy/update_strategy_notebook_word_counts.py",
+        ),
+        commands=(
+            ("scripts/audit_continuity_rename.py", "--strict"),
+            ("scripts/check_text_encoding_hygiene.py", "--scope", "continuity", "--warn"),
+            ("scripts/check_continuity_status.py",),
+            ("scripts/check_continuity_contract_index.py",),
+        ),
     ),
 }

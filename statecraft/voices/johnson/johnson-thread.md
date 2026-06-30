@@ -138,7 +138,7 @@ The 2026-03 segment for the Larry Johnson lane (`johnson`) exists so the noteboo
 
 _Partial month Ã¢â‚¬â€ **2026-04-10** digest Ã‚Â§B line + **2026-04-17** DavisÃƒâ€”Johnson YT (Hormuz / blockade dual-register) + **2026-04-20** Judging Freedom overlap row + Hormuz scaffold / blockade Pages; not calendar-complete._
 
-April centers **F-15 / Isfahan Ã¢â‚¬Å“rescueÃ¢â‚¬Â** deployment narrative and C-130 / Little Bird load math from HaiphongÃ¢â‚¬â€œRitterÃ¢â‚¬â€œJohnson digest Ã¢â‚¬â€ **same digest Ã‚Â§B** as Ritter ORBAT skepticism lane. **2026-04-20** **Judging Freedom** names **Larry Johnson** as reporter (**two sources**) on **CJCS Caine** / **nuclear** **codes** (**hypothesis** **tier**) Ã¢â‚¬â€ **distinct** **from** digest **Ã‚Â§B** **Johnson** **F-15/Isfahan** **ORBAT** **lane** (**same** **name**, **different** **speech** **act**); seam in [`days.md` Ã‚Â§ 2026-04-20](../../../codex/chapters/2026/2026-04/days.md#2026-04-20).
+April centers **F-15 / Isfahan Ã¢â‚¬Å“rescueÃ¢â‚¬Â** deployment narrative and C-130 / Little Bird load math from HaiphongÃ¢â‚¬â€œRitterÃ¢â‚¬â€œJohnson digest Ã¢â‚¬â€ **same digest Ã‚Â§B** as Ritter ORBAT skepticism lane. **2026-04-20** **Judging Freedom** names **Larry Johnson** as reporter (**two sources**) on **CJCS Caine** / **nuclear** **codes** (**hypothesis** **tier**) Ã¢â‚¬â€ **distinct** **from** digest **Ã‚Â§B** **Johnson** **F-15/Isfahan** **ORBAT** **lane** (**same** **name**, **different** **speech** **act**); seam in [`days.md` Ã‚Â§ 2026-04-20](../../../continuity/chapters/2026/2026-04/days.md#2026-04-20).
 
 
 Verification stance for Larry Johnson in 2026-04 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgmentÃ¢â‚¬â€without turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
@@ -153,10 +153,10 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-04, re
 
 Finally, 2026-04 should remain safe for **operator rotation**: someone returning after weeks should be able to read this segment and recover **lane orientation** (role: Ex-CIA / material and ORBAT emphasis: force structure, Hormuz geometry, F-15/Isfahan raid narrative reconstructions (HaiphongÃ¢â‚¬â€œRitter roundtables)), **pairing map** (Ãƒâ€” ritter, Ãƒâ€” davis; see [transcript digest](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md)), and **next verification moves** without loading the entire quarter. That recoverability is why the minimum prose budget existsÃ¢â‚¬â€not to pad, but to force a minimum coherent account of what this month was for in the notebook.
 
-- [strength: medium] **Overlap (2026-04-20 Ã¢â‚¬â€ not digest Ã‚Â§B):** **Judging Freedom** Ã¢â‚¬â€ **[YouTube `geWpX8w7BNU`](https://www.youtube.com/watch?v=geWpX8w7BNU)** (*Who Controls Hormuz?*, **2026-04-20**) **Johnson** **on-mic:** **Saturday** **White** **House** **meeting**, **Trump** **nuclear** **codes**, **Gen.** **Caine** **refusal** **/** **Ã¢â‚¬Å“head** **downÃ¢â‚¬Â** **Ã¢â‚¬â€** **orthogonal** **to** **[digest Ã‚Â§B](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md)** **F-15/Isfahan** **ORBAT** **math**; **NYT** **(4/7)** **via** **[Substack 4/9](https://larrycjohnson.substack.com/p/trump-got-played-by-israel-and-the)** **for** **Caine-in-room** **read** **Ã¢â‚¬â€** **see** **[`days.md` Ã‚Â§ 2026-04-20](../../../codex/chapters/2026/2026-04/days.md#2026-04-20)** **Receipts** **table**.
+- [strength: medium] **Overlap (2026-04-20 Ã¢â‚¬â€ not digest Ã‚Â§B):** **Judging Freedom** Ã¢â‚¬â€ **[YouTube `geWpX8w7BNU`](https://www.youtube.com/watch?v=geWpX8w7BNU)** (*Who Controls Hormuz?*, **2026-04-20**) **Johnson** **on-mic:** **Saturday** **White** **House** **meeting**, **Trump** **nuclear** **codes**, **Gen.** **Caine** **refusal** **/** **Ã¢â‚¬Å“head** **downÃ¢â‚¬Â** **Ã¢â‚¬â€** **orthogonal** **to** **[digest Ã‚Â§B](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md)** **F-15/Isfahan** **ORBAT** **math**; **NYT** **(4/7)** **via** **[Substack 4/9](https://larrycjohnson.substack.com/p/trump-got-played-by-israel-and-the)** **for** **Caine-in-room** **read** **Ã¢â‚¬â€** **see** **[`days.md` Ã‚Â§ 2026-04-20](../../../continuity/chapters/2026/2026-04/days.md#2026-04-20)** **Receipts** **table**.
 - [strength: medium] **Mechanism:** YT cold **2026-04-10** Ã¢â‚¬â€ F-15/Isfahan rescue narrative; deployment ~Mar 10Ã¢â‚¬â€œ11; load-math scenarios Ã¢â‚¬â€ path: [transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) Ã¢â‚¬â€ verify:operator-transcript-digest.
 - [strength: medium] **2026-04-17 Ã¢â‚¬â€ Countercurrent Ãƒâ€” Robert Barnes** (*What the HELL is going on in the White House?*): Johnson **hosts** Barnes on **US politics** / **White House** **process** (executive cognition **frame**, **Vance**/**ceasefire**/**WitkoffÃ¢â‚¬â€œKushner**, **Navy** Hormuz **Ã¢â‚¬Å“mall copÃ¢â‚¬Â**, **electoral** brake) Ã¢â‚¬â€ **`thread:barnes`** **primary** **analytic** **voice**; Johnson = **interviewer**. Verbatim excerpt: [source-countercurrent-2026-04-17-verbatim-2026-04-17.md](../../../source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md); **`crosses:barnes+johnson`**.
-- [strength: medium] **2026-04-17 Ã¢â‚¬â€ Daniel Davis Ãƒâ€” Larry Johnson** (*HORMUZ OPENING, CEASEFIRE ENDING: Conflicting Messages*): Johnson stresses **dual messaging** Ã¢â‚¬â€ Trump Ã¢â‚¬Å“Strait openÃ¢â‚¬Â alongside **blockade** on **Iran**; **IFM / spokesman** lines on **Lebanon** contingency and **three passage conditions** (commercial-only, Iran-designated routes, coordination); **military** contact Ã¢â‚¬Å“WTFÃ¢â‚¬Â lane; **Bessent** re-sanctions same day as ceasefire; **Islamabad** mediated by **Pakistan** with **China** in the story; DavisÃ¢â‚¬â„¢s **three-option** endgame (10-point diplomacy vs **Keane**-style escalation vs sanctions long game) with Johnson predicting **escalation** and **Gulf** pressure as a possible de-escalation lever. **C-plane:** Johnson uses **maximal clinical language** on Trump (**detached**, **delusional**, removal call) Ã¢â‚¬â€ **analyst rhetoric**, not Ã‚Â§1h; keep **separate** from **`@araghchi` / `@s_m_marandi`** primaries and from **Ritter** 04-17 **ego/theater** Iran segment until explicit **seam** in Judgment. Verbatim: [strategy-expert-johnson-transcript.md](johnson-transcript.md) **2026-04-17**; inbox: [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) (same-day scratch). **Cross:** `thread:davis` same episode; **`ritter`** **2026-04-17** Diesen (Iran block).
+- [strength: medium] **2026-04-17 Ã¢â‚¬â€ Daniel Davis Ãƒâ€” Larry Johnson** (*HORMUZ OPENING, CEASEFIRE ENDING: Conflicting Messages*): Johnson stresses **dual messaging** Ã¢â‚¬â€ Trump Ã¢â‚¬Å“Strait openÃ¢â‚¬Â alongside **blockade** on **Iran**; **IFM / spokesman** lines on **Lebanon** contingency and **three passage conditions** (commercial-only, Iran-designated routes, coordination); **military** contact Ã¢â‚¬Å“WTFÃ¢â‚¬Â lane; **Bessent** re-sanctions same day as ceasefire; **Islamabad** mediated by **Pakistan** with **China** in the story; DavisÃ¢â‚¬â„¢s **three-option** endgame (10-point diplomacy vs **Keane**-style escalation vs sanctions long game) with Johnson predicting **escalation** and **Gulf** pressure as a possible de-escalation lever. **C-plane:** Johnson uses **maximal clinical language** on Trump (**detached**, **delusional**, removal call) Ã¢â‚¬â€ **analyst rhetoric**, not Ã‚Â§1h; keep **separate** from **`@araghchi` / `@s_m_marandi`** primaries and from **Ritter** 04-17 **ego/theater** Iran segment until explicit **seam** in Judgment. Verbatim: [strategy-expert-johnson-transcript.md](johnson-transcript.md) **2026-04-17**; inbox: [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md) (same-day scratch). **Cross:** `thread:davis` same episode; **`ritter`** **2026-04-17** Diesen (Iran block).
 - [strength: medium] **Page lattice:** `marandi-ritter-mercouris-hormuz-scaffold` Ã‚Â· `ritter-blockade-hormuz-weave`.
 
 Canonical page paths and raw ingest lines live in **Segment 2** below (regenerated each **`thread`** run).
@@ -172,11 +172,11 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 
 ### Reflection
 
-**Weave:** **Mercouris** = **institutional / analyst-constellation / zugzwang** language; **Marandi** = **Iranian red lines** + **wire-verify** roster (**Ghalibaf** head; **Larijani** = transcript **misname**); **Ritter** = **USN mechanics** + **faith invective** lane. **Davis Ãƒâ€” Freeman Ãƒâ€” Mearsheimer** = **systemic / bargaining / alliance-cost** folds Ã¢â‚¬â€ **parallel** **Ritter ego-reduction** **lane** until primaries show sequence ([`days.md`](../../../codex/chapters/2026/2026-04/days.md#2026-04-13)). **Do not** collapse **leadership-psychology** into **Links** without **`narrative-escalation`** + primaries. **RomeÃ¢â‚¬â€œfaith registers** (Marandi ecumenical vs Ritter invective vs **SkyVirginSon** vs **Milad**) Ã¢â‚¬â€ **parallel legitimacy combat** Ã¢â‚¬â€ **not** Hormuz **material** **row** without **seam**.
+**Weave:** **Mercouris** = **institutional / analyst-constellation / zugzwang** language; **Marandi** = **Iranian red lines** + **wire-verify** roster (**Ghalibaf** head; **Larijani** = transcript **misname**); **Ritter** = **USN mechanics** + **faith invective** lane. **Davis Ãƒâ€” Freeman Ãƒâ€” Mearsheimer** = **systemic / bargaining / alliance-cost** folds Ã¢â‚¬â€ **parallel** **Ritter ego-reduction** **lane** until primaries show sequence ([`days.md`](../../../continuity/chapters/2026/2026-04/days.md#2026-04-13)). **Do not** collapse **leadership-psychology** into **Links** without **`narrative-escalation`** + primaries. **RomeÃ¢â‚¬â€œfaith registers** (Marandi ecumenical vs Ritter invective vs **SkyVirginSon** vs **Milad**) Ã¢â‚¬â€ **parallel legitimacy combat** Ã¢â‚¬â€ **not** Hormuz **material** **row** without **seam**.
 
 ### Foresight
 
-- Pin **canonical** episode URLs for **Breaking Points**, **The Duran**, **Judging Freedom**, **Daniel Davis Deep Dive** (Freeman, Mearsheimer), **Napolitano Ãƒâ€” Johnson** per [`days.md` Open](../../../codex/chapters/2026/2026-04/days.md#2026-04-13).
+- Pin **canonical** episode URLs for **Breaking Points**, **The Duran**, **Judging Freedom**, **Daniel Davis Deep Dive** (Freeman, Mearsheimer), **Napolitano Ãƒâ€” Johnson** per [`days.md` Open](../../../continuity/chapters/2026/2026-04/days.md#2026-04-13).
 
 ---
 
@@ -188,7 +188,7 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 |--------|--------|
 | **Date** | 2026-04-13 |
 | **page_id** (machine slug) | `marandi-ritter-mercouris-hormuz-scaffold` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-13](../../../codex/chapters/2026/2026-04/days.md#2026-04-13) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-13](../../../continuity/chapters/2026/2026-04/days.md#2026-04-13) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -201,13 +201,13 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 
 ### Lineage Ã¢â‚¬â€ **triple anchor** (same Judgment sentence)
 
-- **`thread:marandi`** Ã¢â‚¬â€ *Why the Iran Talks Failed* Ã¢â‚¬â€ channel-authority, structural deadlocks (stock / program / Hormuz governance), **LebanonÃ¢â‚¬â€œHormuz** linkage, **Easter ecumenical** register vs wire lane Ã¢â‚¬â€ episode URL **operator to pin** per [`days.md`](../../../codex/chapters/2026/2026-04/days.md#2026-04-13).
+- **`thread:marandi`** Ã¢â‚¬â€ *Why the Iran Talks Failed* Ã¢â‚¬â€ channel-authority, structural deadlocks (stock / program / Hormuz governance), **LebanonÃ¢â‚¬â€œHormuz** linkage, **Easter ecumenical** register vs wire lane Ã¢â‚¬â€ episode URL **operator to pin** per [`days.md`](../../../continuity/chapters/2026/2026-04/days.md#2026-04-13).
 - **`thread:ritter`** Ã¢â‚¬â€ **Judging Freedom** (*Who Controls Hormuz?*) Ã¢â‚¬â€ **porous blockade**, picket vs boarding, third-country hulls, **TrumpÃ¢â‚¬â€œPope** narrative-escalation segment Ã¢â‚¬â€ **lane-split** from Marandi Ã¢â‚¬â€ URL **operator to pin**.
 - **`thread:mercouris`** Ã¢â‚¬â€ **The Duran** 2026-04-13 monologue Ã¢â‚¬â€ Islamabad recap, blockade/Keane lineage, **zugzwang**, multilateral tickers Ã¢â‚¬â€ **verify each chain** before one arc Ã¢â‚¬â€ URL **operator to pin**.
 
 **Same showrunner, structural lanes (not interchangeable):** **`davis`** Deep Dive Ãƒâ€” **`freeman`** (process failure, ROE, Bessent vs recession Ã¢â‚¬â€ URL TBD); Ãƒâ€” **`mearsheimer`** (15 vs 10 point frames, bargaining asymmetry, allies clips Ã¢â‚¬â€ URL TBD). **`thread:parsi`** Ã¢â‚¬â€ Breaking Points / Quincy Ã¢â‚¬â€ Ravid red-lines leak tier Ã¢â‚¬â€ **not** WH primary.
 
-**Process overlap:** **`thread:johnson`** Ãƒâ€” Mercouris (Napolitano / Johnson digest vs Duran monologue) Ã¢â‚¬â€ **strip to process + price** for parity; **park** Bab el-Mandeb / pipeline under verify ([`days.md` Judgment](../../../codex/chapters/2026/2026-04/days.md#2026-04-13)).
+**Process overlap:** **`thread:johnson`** Ãƒâ€” Mercouris (Napolitano / Johnson digest vs Duran monologue) Ã¢â‚¬â€ **strip to process + price** for parity; **park** Bab el-Mandeb / pipeline under verify ([`days.md` Judgment](../../../continuity/chapters/2026/2026-04/days.md#2026-04-13)).
 
 ### History resonance
 
@@ -223,15 +223,15 @@ none this pass
 |-----------|--------|----------|
 | **Prior day** | `islamabad-hormuz-thesis-weave` | **Thesis A/B** + **Pape/Parsi/Freeman** **fork** **before** this **scaffold** **densifies**. |
 | **Next day** | `ritter-blockade-hormuz-weave` | **Ritter**-centered **04-14** lattice + **ParsiÃƒâ€”Davis** / **DiesenÃƒâ€”Sachs** / **MercourisÃƒâ€”Mearsheimer** **legacy** files. |
-| **Day prose** | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md#2026-04-14) | **Continuity spine** **explicitly** **stacks** **04-12Ã¢â‚¬â€œ04-14** **`thread:`** **carries**. |
+| **Day prose** | [`days.md` Ã‚Â§ 2026-04-14](../../../continuity/chapters/2026/2026-04/days.md#2026-04-14) | **Continuity spine** **explicitly** **stacks** **04-12Ã¢â‚¬â€œ04-14** **`thread:`** **carries**. |
 
 ### References
 
-- [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ **Primary pulls (2026-04-13)** Ã‚Â· **Ritter blockade checklist** (paste-grade)
+- [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md) Ã¢â‚¬â€ **Primary pulls (2026-04-13)** Ã‚Â· **Ritter blockade checklist** (paste-grade)
 - [Al Jazeera Ã¢â‚¬â€ Islamabad talks unfolded](https://www.aljazeera.com/news/2026/4/13/how-the-us-iran-talks-in-islamabad-unfolded)
 - [Vatican News Ã¢â‚¬â€ Grand Mosque Algiers (2026-04-13)](https://www.vaticannews.va/en/pope/news/2026-04/pope-leo-apostolic-journey-algeria-grand-mosque-algiers-dialogue.html) Ã¢â‚¬â€ tier-A; **TrumpÃ¢â‚¬â€œLeo** fold **tier split** per day **Judgment**
-- [rome-persia-legitimacy-signal-check.md](../../../codex/rome-persia-legitimacy-signal-check.md)
-- **Episodes (pin):** Breaking Points (Parsi), The Duran (Mercouris), Judging Freedom (Ritter), Davis Deep Dive (Freeman, Mearsheimer), Johnson stack Ã¢â‚¬â€ **`operator to pin`** strings in [`days.md` Links / Open](../../../codex/chapters/2026/2026-04/days.md#2026-04-13)
+- [rome-persia-legitimacy-signal-check.md](../../../continuity/rome-persia-legitimacy-signal-check.md)
+- **Episodes (pin):** Breaking Points (Parsi), The Duran (Mercouris), Judging Freedom (Ritter), Davis Deep Dive (Freeman, Mearsheimer), Johnson stack Ã¢â‚¬â€ **`operator to pin`** strings in [`days.md` Links / Open](../../../continuity/chapters/2026/2026-04/days.md#2026-04-13)
 
 ### Receipt
 
@@ -239,7 +239,7 @@ none this pass
 |-----|--------|----------------|
 | **1** | **Wire** Ã¢â‚¬â€ Islamabad timeline | [Al Jazeera](https://www.aljazeera.com/news/2026/4/13/how-the-us-iran-talks-in-islamabad-unfolded) |
 | **2** | **Tier-A** Holy See Ã¢â‚¬â€ **Grand Mosque** | [Vatican News](https://www.vaticannews.va/en/pope/news/2026-04/pope-leo-apostolic-journey-algeria-grand-mosque-algiers-dialogue.html) |
-| **3** | **Inbox** checklist + **episode** queue | [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ Ritter mechanics / Mercouris verify hooks |
+| **3** | **Inbox** checklist + **episode** queue | [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md) Ã¢â‚¬â€ Ritter mechanics / Mercouris verify hooks |
 
 **Falsifier:** One **merged** arc treats **Mercouris** **multilateral** **tickers** + **Johnson** **OOB** **skepticism** + **Marandi** **ecumenical** **register** + **Ritter** **hull** **claims** as **one** **voice** **without** **seams** Ã¢â‚¬â€ **lattice** **collapsed**.
 <!-- strategy-page:end -->
@@ -261,7 +261,7 @@ none this pass
 
 ### Foresight
 
-- [Ritter blockade mechanics Ã¢â‚¬â€ verify checklist (2026-04-13)](../../../codex/daily-strategy-inbox.md) (inbox **Ã‚Â§ Ritter blockade mechanics**)
+- [Ritter blockade mechanics Ã¢â‚¬â€ verify checklist (2026-04-13)](../../../continuity/daily-strategy-inbox.md) (inbox **Ã‚Â§ Ritter blockade mechanics**)
 - Re-run **`python3 scripts/strategy_thread.py`** after inbox **`thread:`** updates.
 
 ---
@@ -274,7 +274,7 @@ none this pass
 |--------|--------|
 | **Date** | 2026-04-14 |
 | **page_id** (machine slug) | `ritter-blockade-hormuz-weave` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../continuity/chapters/2026/2026-04/days.md) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -287,7 +287,7 @@ none this pass
 
 ### Lineage Ã¢â‚¬â€ **`thread:ritter`** (anchor)
 
-- **Primary ingest:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ **`YT | cold: Scott Ritter Ã¢â‚¬â€ Ritter's Rant 085: The Blockade`** (`thread:ritter`) Ã¢â‚¬â€ **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read Ã¢â‚¬â€ URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
+- **Primary ingest:** [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) Ã¢â‚¬â€ **`YT | cold: Scott Ritter Ã¢â‚¬â€ Ritter's Rant 085: The Blockade`** (`thread:ritter`) Ã¢â‚¬â€ **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read Ã¢â‚¬â€ URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
 - **Same-topic expert threads (indexed only Ã¢â‚¬â€ no new anchors):** pull **`davis`**, **`jermy`**, **`diesen`**, **`sachs`**, **`parsi`**, **`mearsheimer`**, **`mercouris`**, **`barnes`**, **`johnson`**, **`marandi`** only where **`daily-strategy-inbox.md`** / **`days.md`** already carries a **`thread:`** or **continuity-spine** line for **2026-04-12Ã¢â‚¬â€œ14** **Hormuz** / **blockade** Ã¢â‚¬â€ this page **weaves**; it does **not** mint **new** **`expert_id`** rows.
 
 ### Prior days (same Hormuz arc Ã¢â‚¬â€ cross-links)
@@ -327,7 +327,7 @@ Pins keep **`ritter`** **mechanics** **distinct** from **speech**/**institution*
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | **Ritter** **Rant 085** (canonical episode) | `TBD` Ã¢â‚¬â€ [inbox `thread:ritter`](../../../codex/daily-strategy-inbox.md) |
+| **1** | **Ritter** **Rant 085** (canonical episode) | `TBD` Ã¢â‚¬â€ [inbox `thread:ritter`](../../../continuity/daily-strategy-inbox.md) |
 | **2** | **Davis Ãƒâ€” Jermy** Deep Dive (blockade **same week**) | [YouTube](https://www.youtube.com/watch?v=etxmqrdm3V0) |
 | **3** | **Related weave** registry (this fileÃ¢â‚¬â„¢s **cross-links**) | [legacy page index](../../../README.md) Ã¢â‚¬â€ search `2026-04-14` |
 

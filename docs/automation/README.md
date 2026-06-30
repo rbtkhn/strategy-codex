@@ -71,7 +71,7 @@ Before adding or enabling a new automation (Cursor, CI-adjacent, or scheduled), 
 
 ## PR onboarding comment
 
-**Recommended second** live automation (after [CI failure triage](#first-live-automation-ci-failure-triage)). It **reduces PR cognitive load** by summarizing **shape**, **likely lane**, **sensitive** paths, and **checks to watch** before the operator **reads the full diff** or waits on **all** **green** checks â€” a **narration** layer only; it does **not** replace [lane-pr-hint](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/lane-pr-hint.yml) or [lane-scope](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/lane-scope.yml) **enforcement**.
+**Recommended second** live automation (after [CI failure triage](#first-live-automation-ci-failure-triage)). It **reduces PR cognitive load** by summarizing **shape**, **likely lane**, **sensitive** paths, and **checks to watch** before the operator **reads the full diff** or waits on **all** **green** checks â€” a **narration** layer only; it does **not** replace [lane-pr-hint](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/lane-pr-hint.yml) or [lane-scope](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/lane-scope.yml) **enforcement**.
 
 1. **Operator guide** (triggers, allow/deny, **canonical** PR comment **template**): [cursor-pr-onboarding.md](cursor-pr-onboarding.md)
 2. **Paste prompt** (identity + procedure; **exact** [template](cursor-pr-onboarding.md#output-comment-format) by reference): [prompts/cursor-pr-onboarding.md](prompts/cursor-pr-onboarding.md)

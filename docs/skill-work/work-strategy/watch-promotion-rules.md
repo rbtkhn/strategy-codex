@@ -37,4 +37,4 @@ A forecast artifact may justify opening or strengthening a watch when:
 A forecast artifact alone does not justify a Record claim.
 It justifies attention, monitoring, and possibly a decision point.
 
-See [work-forecast](../work-forecast/README.md) and [forecast-watch-log](../../../codex/forecast-watch-log.md).
+See [work-forecast](../work-forecast/README.md) and [forecast-watch-log](../../../continuity/forecast-watch-log.md).

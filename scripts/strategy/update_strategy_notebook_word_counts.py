@@ -27,7 +27,10 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-DEFAULT_NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+sys.path.insert(0, str(REPO_ROOT / "scripts"))
+from continuity_paths import continuity_root  # noqa: E402
+
+DEFAULT_NOTEBOOK = continuity_root(REPO_ROOT)
 
 # Dated day folders under raw-input (excludes large captures).
 _RE_RAW_INPUT_DATED = re.compile(
@@ -232,6 +235,13 @@ def iter_markdown_files(root: Path) -> list[Path]:
             out.append(p)
     return out
 
+def _read_text_safe(path: Path) -> str | None:
+    try:
+        return path.read_text(encoding="utf-8")
+    except UnicodeDecodeError:
+        return None
+
+
 def _expected_count(content: str) -> int:
     sp = _split_front_matter(content)
     if sp is not None:
@@ -274,7 +284,9 @@ def main() -> int:
     if args.check:
         for path in paths:
             stats.scanned += 1
-            c = path.read_text(encoding="utf-8")
+            c = _read_text_safe(path)
+            if c is None:
+                continue
             n = _expected_count(c)
             st = _read_stored_count(c)
             if st is None or st != n:
@@ -286,7 +298,9 @@ def main() -> int:
         )
         if stale_paths:
             for p in stale_paths[:20]:
-                c = p.read_text(encoding="utf-8")
+                c = _read_text_safe(p)
+                if c is None:
+                    continue
                 n = _expected_count(c)
                 st = _read_stored_count(c)
                 print(
@@ -299,7 +313,9 @@ def main() -> int:
 
     for path in paths:
         stats.scanned += 1
-        c = path.read_text(encoding="utf-8")
+        c = _read_text_safe(path)
+        if c is None:
+            continue
         new_c = build_updated_content(c)
         n_old = _normalize_final_newline(c)
         n_new = _normalize_final_newline(new_c)

@@ -3,7 +3,7 @@
 
 Purpose: route map for materialized **India and Global Left** captures on disk (`channel_slug: india-global-left`).
 
-**SSOT:** `source-archive/statecraft/` — not legacy `codex/years/…/provenance/` · not `raw-input` mirrors.
+**SSOT:** `source-archive/statecraft/` — not legacy `continuity/years/…/provenance/` · not `raw-input` mirrors.
 
 Channel: [India and Global Left](https://www.youtube.com/@IndiaGlobalLeft)
 

@@ -4,7 +4,7 @@
 
 | Date | Scope | Blocking | Warnings | Notes |
 | --- | --- | --- | --- | --- |
-| 2026-06-26 (pre-closure) | `all` | 12 | ~14,136 | Pre–Pass 4; legacy `codex/years` + repo-root absolute links |
+| 2026-06-26 (pre-closure) | `all` | 12 | ~14,136 | Pre–Pass 4; legacy `continuity/years` + repo-root absolute links |
 | 2026-06-26 (post batch Pass 4) | `all` | 0 | ~7,698 | After `fix_repo_surgeon_link_batch.py` v1 |
 | 2026-06-26 (Pass 4 continued) | `routing-ssot` | 0 | **0** | SSOT slice clean (regenerate via `generate_llm_routing.py`) |
 | 2026-06-26 (Pass 4 continued) | `all` | 0 | ~2,094 | Voice-thread machine layer + skills depth; strict gate pending |

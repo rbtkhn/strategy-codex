@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build lightly-cleaned verbatim markdown from raw YouTube caption files per lecture.
 
-Reads ``codex/predictive-history/lectures/*.md``, extracts ``watch?v=VIDEO_ID``,
+Reads ``continuity/predictive-history/lectures/*.md``, extracts ``watch?v=VIDEO_ID``,
 loads ``predictive-history/transcripts/{video_id}_*.txt`` (newest mtime if several),
 strips the fetch header, applies the same ASR replacement tier as
 ``normalize_lecture_transcript_asr.py`` (via ``asr_light_clean``), and writes

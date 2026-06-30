@@ -4,7 +4,7 @@
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) — **`barnes`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`barnes`** lane.
 
 ---
 
@@ -38,7 +38,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Linguistic style fingerprint (detailed)
 
-**Evidence class:** June 2026 intakes (6) + Tier A detailed table (this file). Orthogonality: run [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat (B×M×Me triad). Historical mind quote bank: `git show 904fb3bc6:codex/strategy-expert-barnes-mind.md`
+**Evidence class:** June 2026 intakes (6) + Tier A detailed table (this file). Orthogonality: run [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat (B×M×Me triad). Historical mind quote bank: `git show 904fb3bc6:continuity/strategy-expert-barnes-mind.md`
 
 | Family | Sub-dimension | Pattern | Example lines | Anti-pattern |
 |--------|---------------|---------|---------------|--------------|
@@ -74,11 +74,11 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 | **8 Emulation QA** | Sounds-like pair | Authenticity spot-check | ✓ “confession through projection… rugpull presidency” · ✗ “we're going up the escalation ladder… four elements of a ceasefire” (Mearsheimer) | Neutral analyst précis |
 | **8 Emulation QA** | Anti-pattern fence | vs Mercouris | ✗ “I'm very skeptical… not on the ground” hedge stack on Hormuz | ✓ Blunt who-pays / Vance humiliation chain |
 
-**Extended examples:** this table. Unmigrated historical lines: `git show 904fb3bc6:codex/strategy-expert-barnes-mind.md`
+**Extended examples:** this table. Unmigrated historical lines: `git show 904fb3bc6:continuity/strategy-expert-barnes-mind.md`
 
 ## Legacy redirects (compatibility)
 
-[`strategy-expert-barnes-mind.md`](../../../codex/strategy-expert-barnes-mind.md) · [CIV-MIND-BARNES.md](../../../codex/minds/CIV-MIND-BARNES.md) → this profile. [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
+[`strategy-expert-barnes-mind.md`](../../../continuity/strategy-expert-barnes-mind.md) · [CIV-MIND-BARNES.md](../../../continuity/minds/CIV-MIND-BARNES.md) → this profile. [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
 
 ## Convergence fingerprint
 
@@ -184,4 +184,4 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ---
 
-**Companion files:** [barnes-transcript.md](barnes-transcript.md) · [barnes-thread.md](barnes-thread.md) · [strategy-expert-barnes-mind.md](../../../codex/strategy-expert-barnes-mind.md) (redirect)
+**Companion files:** [barnes-transcript.md](barnes-transcript.md) · [barnes-thread.md](barnes-thread.md) · [strategy-expert-barnes-mind.md](../../../continuity/strategy-expert-barnes-mind.md) (redirect)

@@ -63,7 +63,7 @@ This log is WORK-only. It is not the Record, not MEMORY, and not a substitute fo
 
 ## 2026-04-23 — **D** = **Conductor** (replaces **D — Write**)
 
-- **Canonical menu:** **A** Build, **B** Steward, **C** Strategy (daily brief), **D** Conductor (strategy coffee cadence / [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md)), **E** (system choice — **self-skill-write** / PRP / Xavier / Dev / Rome / Jiang live here or explicit `write` without `coffee`). **D — Write** removed as a menu letter; write-shaped work is **E** or out-of-band **`skill-write`**.
+- **Canonical menu:** **A** Build, **B** Steward, **C** Strategy (daily brief), **D** Conductor (strategy coffee cadence / [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../continuity/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md)), **E** (system choice — **self-skill-write** / PRP / Xavier / Dev / Rome / Jiang live here or explicit `write` without `coffee`). **D — Write** removed as a menu letter; write-shaped work is **E** or out-of-band **`skill-write`**.
 
 ## 2026-04-23 — coffee **A–D2–E** (six lines: **D1** / **D2** Conductor on main menu; no conductor submenu)
 

@@ -15,7 +15,10 @@ import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
-NOTEBOOK = REPO / "docs/skill-work/work-strategy/strategy-notebook"
+sys.path.insert(0, str(REPO / "scripts"))
+from continuity_paths import continuity_root  # noqa: E402
+
+NOTEBOOK = continuity_root(REPO)
 THREADS = NOTEBOOK / "strategy-commentator-threads.md"
 PREDICTIONS = NOTEBOOK / "strategy-expert-predictions.md"
 

@@ -1,13 +1,13 @@
 # Strategy raw-input capture — DEPRECATED (2026-06-23)
 
 
-**Status:** The **`codex/raw-input/`** tree, **`codex/years/*/raw-input/`**, and compat **`docs/.../../../codex/raw-input/`** paths are **deprecated** for new strategy-codex capture. Do not create new verbatim files there. Legacy files on disk remain **read-only archaeology**.
+**Status:** The **`continuity/raw-input/`** tree, **`continuity/years/*/raw-input/`**, and compat **`docs/.../../../continuity/raw-input/`** paths are **deprecated** for new strategy-codex capture. Do not create new verbatim files there. Legacy files on disk remain **read-only archaeology**.
 
 ## What replaced it
 
 | Old | Use instead |
 |-----|-------------|
-| **`codex/raw-input/<pub_date>/`** verbatim files | **`source-archive/statecraft/YYYY-MM-DD/source-<slug>.md`** |
+| **`continuity/raw-input/<pub_date>/`** verbatim files | **`source-archive/statecraft/YYYY-MM-DD/source-<slug>.md`** |
 | **`substack-*` / `youtube-*` / `transcript-*`** notebook filenames | **`source-*`** archive prefix — [source-archive/statecraft/README.md](../../../source-archive/statecraft/README.md) (filename law) |
 | Monolithic markdown write to notebook raw-input | **`source-intake`** — sidecar `Write` + `land_statecraft_source_body.py` — [statecraft-source-intake SKILL](../../../skills/statecraft-source-intake/SKILL.md) |
 | **`strategy input`** / pasted essay + URL | Same turn: **`source-intake`** land first, then digest / synthesis — [strategy-input-raw-ingest.mdc](../../../.cursor/rules/strategy-input-raw-ingest.mdc) |
@@ -18,8 +18,8 @@
 | Surface | Role |
 |---------|------|
 | **`source-archive/statecraft/`** | **Verbatim SSOT** — full external body |
-| **`codex/daily-strategy-inbox.md`** | **Registry** — one-liners, `thread:`, URLs, stubs pointing at archive paths |
-| **`codex/chapters/.../days.md` + strategy-page** | **Synthesis + links** — not full mirrors |
+| **`continuity/daily-strategy-inbox.md`** | **Registry** — one-liners, `thread:`, URLs, stubs pointing at archive paths |
+| **`continuity/chapters/.../days.md` + strategy-page** | **Synthesis + links** — not full mirrors |
 
 ## Material type → frontmatter (same land skill)
 
@@ -38,14 +38,14 @@ Use **`source-archive/statecraft/_aired-pending/`** until **`pub_date`** is pinn
 
 ## Inbox and gap check
 
-- Optional **inbox stub** after land — pointer to **archive path**, not raw-input path — [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md).
+- Optional **inbox stub** after land — pointer to **archive path**, not raw-input path — [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md).
 - Advisory gap heuristic: `python3 scripts/strategy_raw_input_gap_hint.py` (inbox URLs vs `source_url` in archive YAML).
 
 ## Legacy trees (read-only)
 
-- [`codex/raw-input/`](../../../codex/raw-input/README.md)
-- [`codex/years/2025/raw-input/`](../../../codex/years/2025/raw-input/) and [`codex/years/2026/raw-input/`](../../../codex/years/2026/raw-input/README.md)
-- Compat namespace **`docs/skill-work/work-strategy/../../codex/raw-input/`** (removed; do not recreate)
+- [`continuity/raw-input/`](../../../continuity/raw-input/README.md)
+- [`continuity/years/2025/raw-input/`](../../../continuity/years/2025/raw-input/) and [`continuity/years/2026/raw-input/`](../../../continuity/years/2026/raw-input/README.md)
+- Compat namespace **`docs/skill-work/work-strategy/../../continuity/raw-input/`** (removed; do not recreate)
 
 Do **not** delete or bulk-migrate legacy captures in a deprecation pass unless the operator explicitly requests migration.
 
@@ -65,9 +65,9 @@ Do **not** delete or bulk-migrate legacy captures in a deprecation pass unless t
 
 - Strategy-notebook namespace: [STRATEGY-NOTEBOOK-DEPRECATED.md](STRATEGY-NOTEBOOK-DEPRECATED.md)
 - YouTube materialize path: [YOUTUBE-MATERIALIZE-DEPRECATED.md](YOUTUBE-MATERIALIZE-DEPRECATED.md)
-- Notebook preferences (inbox vs archive): [NOTEBOOK-PREFERENCES.md](../../../codex/NOTEBOOK-PREFERENCES.md)
+- Notebook preferences (inbox vs archive): [NOTEBOOK-PREFERENCES.md](../../../continuity/NOTEBOOK-PREFERENCES.md)
 
 ## Legacy pointers
 
-- Deprecated tree stub: [`codex/raw-input/README.md`](../../../codex/raw-input/README.md)
+- Deprecated tree stub: [`continuity/raw-input/README.md`](../../../continuity/raw-input/README.md)
 - Always-on rule (updated): [`.cursor/rules/strategy-input-raw-ingest.mdc`](../../../.cursor/rules/strategy-input-raw-ingest.mdc)

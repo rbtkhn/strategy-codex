@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T05:13:26Z",
+  "generated_at": "2026-06-30T06:41:25Z",
   "summary": {
     "voices_discovered": 33,
     "listed_in_voices_router": 33,
@@ -27,7 +27,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-29",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -38,7 +38,7 @@
       "builder": "scripts/build_alkhorshid_guest_index.py",
       "audit_command": "python scripts/audit_statecraft_archive_index.py --shelf-index alkhorshid",
       "eligible_captures": 1,
-      "indexed_captures": 2,
+      "indexed_captures": 1,
       "parity": "pass",
       "broken_links": 0,
       "companion_routes": [
@@ -49,7 +49,7 @@
         "cross-host guest captures only (Nima on other hosts)"
       ],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-29",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -69,7 +69,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -89,7 +89,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -109,7 +109,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-27",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -134,7 +134,7 @@
         "transcript-crooke.md and verify-crooke-* stubs excluded"
       ],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-29",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -157,7 +157,7 @@
         "guest-index eligible set mirrors build_davis_guest_index.is_guest()"
       ],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-27",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -180,7 +180,7 @@
         "cross-host guest captures only (Glenn Diesen on other hosts)"
       ],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-29",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -203,7 +203,7 @@
         "IGL cross-weave overlay",
         "Greenland cross-weave overlay"
       ],
-      "last_rebuilt": "2026-06-29",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -223,7 +223,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -242,7 +242,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -264,7 +264,7 @@
       "curated_overlays": [
         "Cross-weave note links (Mercouris/Diesen same-day; no orphan archive links)"
       ],
-      "last_rebuilt": "2026-06-27",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -288,7 +288,7 @@
         "source_form solo excluded from external-interview bench"
       ],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -310,7 +310,7 @@
       "curated_overlays": [
         "June 2026 cadence routing table (operator annotations preserved on rebuild)"
       ],
-      "last_rebuilt": "2026-06-29",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -336,7 +336,7 @@
         "Reaction / reinforcement table (routing only; not parity captures)",
         "Escalation-ladder lattice May\u2013Jun 2026"
       ],
-      "last_rebuilt": "2026-06-29",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -357,7 +357,7 @@
         "support-tier panel rows may appear in index but are not primary guest corpus for parity warnings"
       ],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -376,7 +376,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -396,7 +396,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -416,7 +416,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -436,7 +436,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -455,7 +455,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -475,7 +475,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -494,7 +494,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -513,7 +513,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-29",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -533,7 +533,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -556,7 +556,7 @@
         "guest-index eligible set mirrors build_mercouris_guest_index.is_guest()"
       ],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-29",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -583,7 +583,7 @@
         "legacy strategy-notebook transcript paths in source_path"
       ],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -607,7 +607,7 @@
       "curated_overlays": [
         "forecast ledger + interview appearances companions"
       ],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -626,7 +626,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-29",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -653,7 +653,7 @@
       "curated_overlays": [
         "forecast ledger + interview appearances companions"
       ],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -673,7 +673,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -693,7 +693,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-29",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     },
@@ -712,7 +712,7 @@
       ],
       "exceptions": [],
       "curated_overlays": [],
-      "last_rebuilt": "2026-06-28",
+      "last_rebuilt": "2026-06-30",
       "status": "canonical",
       "index_kind": "primary"
     }

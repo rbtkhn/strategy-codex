@@ -33,9 +33,9 @@ from strategy_page_reader import (
     pages_for_watch,
 )
 
-DEFAULT_NOTEBOOK = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
-)
+from continuity_paths import continuity_root
+
+DEFAULT_NOTEBOOK = continuity_root(REPO_ROOT)
 DEFAULT_CONNECTIONS = DEFAULT_NOTEBOOK / "page-relations.yaml"
 
 # ---------------------------------------------------------------------------

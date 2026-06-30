@@ -205,7 +205,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/packet-be
 | Packet recipe | [docs/skill-work/work-strategy/source-hygiene-packets.md](../../../docs/skill-work/work-strategy/source-hygiene-packets.md) |
 | Packet doctrine | [docs/skill-work/work-strategy/packet-before-synthesis-doctrine.md](../../../docs/skill-work/work-strategy/packet-before-synthesis-doctrine.md) |
 | Packet chooser | [docs/skill-work/work-strategy/packet-crosswalk.md](../../../docs/skill-work/work-strategy/packet-crosswalk.md) |
-| Rome-Persia stress test | [codex/rome-persia-legitimacy-signal-check.md](../../../codex/rome-persia-legitimacy-signal-check.md) |
+| Rome-Persia stress test | [continuity/rome-persia-legitimacy-signal-check.md](../../../continuity/rome-persia-legitimacy-signal-check.md) |
 | Portable skill manifest | [skills/manifest.yaml](../../../skills/manifest.yaml) |
 | Sync script | [scripts/sync_portable_skills.py](../../../scripts/sync_portable_skills.py) |
 | Skill validator | [scripts/validate_skills.py](../../../scripts/validate_skills.py) |

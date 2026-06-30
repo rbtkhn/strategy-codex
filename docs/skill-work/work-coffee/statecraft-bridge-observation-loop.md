@@ -40,4 +40,4 @@ If the first batch shows friction, refine in this order:
 |---------|----------------|---------|---------------|-------------------|---------------------|--------------|-------------------------------|-------------------------------|-------|
 | _pending_ |  |  |  |  |  |  |  |  |  |
 
-Canonical live surfaces now sit under `statecraft/`; treat any `codex/academy/statecraft/` bridge or Iran lane paths encountered during review as compatibility routes rather than the primary operator target.
+Canonical live surfaces now sit under `statecraft/`; treat any `continuity/academy/statecraft/` bridge or Iran lane paths encountered during review as compatibility routes rather than the primary operator target.

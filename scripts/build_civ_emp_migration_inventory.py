@@ -254,7 +254,7 @@ def collect_occurrences() -> list[Occurrence]:
     return occurrences
 
 def target_surface_for(lane: str, object_class: str) -> str:
-    base = f"codex/academy/statecraft/{lane}"
+    base = f"continuity/academy/statecraft/{lane}"
     if object_class == "state-memory":
         return f"{base}/civilization/objects/state-memory.md"
     if object_class in {"geo", "war", "peace"}:

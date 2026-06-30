@@ -21,7 +21,7 @@
 
 ## Hierarchy
 
-When `memory.md` conflicts with active WORK doctrine (`statecraft/`, `codex/`, skills), follow the WORK surface.
+When `memory.md` conflicts with active WORK doctrine (`statecraft/`, `continuity/`, skills), follow the WORK surface.
 
 If a line survives weeks and sounds like museum Record content, **do not** upgrade it in `memory.md` — use explicit **`fork revive`** archaeology only.
 

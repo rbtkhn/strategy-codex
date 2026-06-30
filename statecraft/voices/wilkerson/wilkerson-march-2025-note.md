@@ -18,7 +18,7 @@ So the truthful reading is not that March is empty in reality, but that March is
 At the moment, local canonical evidence shows:
 
 - no March 2025 Wilkerson files in `source-archive/statecraft/`
-- no March 2025 Wilkerson files in `codex/years/2026/...`
+- no March 2025 Wilkerson files in `continuity/years/2026/...`
 - no locally proven March 2025 Wilkerson item in the checked Dialogue Works, Diesen, or Judging Freedom stream indexes
 
 That means March cannot yet be written as a real month cluster the way January can.

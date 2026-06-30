@@ -80,7 +80,7 @@ python3 scripts/cleanup_dev_temp_dirs.py --apply
 
 ## Python package (optional)
 
-The repo includes an installable package ([pyproject.toml](pyproject.toml)) — active identity **`strategy-codex`**, wrapper under [platform/src/strategy_codex/](platform/src/strategy_codex/), internal module [platform/src/grace_mar/](platform/src/grace_mar/):
+The repo includes an installable package ([pyproject.toml](pyproject.toml)) — active identity **`strategy-codex`**, wrapper under [platform/src/strategy_continuity/](platform/src/strategy_continuity/), internal module [platform/src/grace_mar/](platform/src/grace_mar/):
 
 ```bash
 pip install -e .

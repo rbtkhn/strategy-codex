@@ -1,7 +1,7 @@
 # Strategy expert Ã¢â‚¬â€ `mate`
 <!-- word_count: 407 -->
 
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) Ã¢â‚¬â€ **`mate`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) Ã¢â‚¬â€ **`mate`** lane.
 
 ## Identity
 

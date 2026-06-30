@@ -73,7 +73,7 @@ lanes:
       - "artifacts/skill-evals/**"
       - "artifacts/context-failure-reports/**"
       - "artifacts/example-context-output.md"
-      - "artifacts/external-codex/**"
+      - "artifacts/external-continuity/**"
       - "docs/diagnostics/fixtures/**"
       - "tests/test_lane_scope.py"
       - "tests/test_surface_aliases.py"
@@ -120,17 +120,17 @@ lanes:
       - "grace-mar-bootstrap.md"
       - "bootstrap/grace-mar-bootstrap.md"
     forbidden_paths:
-      - "codex/predictive-history/**"
-      - "codex/predictive-history/**"
+      - "continuity/predictive-history/**"
+      - "continuity/predictive-history/**"
       - "scripts/work_jiang/**"
-      - "codex/predictive-history/README-operator.md"
+      - "continuity/predictive-history/README-operator.md"
 
   work-jiang:
     owned_paths:
-      - "codex/predictive-history/**"
-      - "codex/predictive-history/**"
+      - "continuity/predictive-history/**"
+      - "continuity/predictive-history/**"
       - "scripts/work_jiang/**"
-      - "codex/predictive-history/README-operator.md"
+      - "continuity/predictive-history/README-operator.md"
       - ".github/workflows/work-jiang.yml"
       - "tests/test_work_jiang*.py"
     allowed_shared_paths:
@@ -229,7 +229,7 @@ lanes:
       - "docs/**"
       - "bot/requirements.txt"
     forbidden_paths:
-      - "codex/predictive-history/**"
+      - "continuity/predictive-history/**"
 
   infra:
     owned_paths:

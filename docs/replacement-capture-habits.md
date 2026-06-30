@@ -1,13 +1,13 @@
 # Replacement capture habits (Record frozen)
 
-**Default operator surface:** governed interpretive machine — `statecraft/`, `singularity/`, `codex/`, `source-archive/statecraft/`. The embedded Grace-Mar Record at repo root is **frozen** ([grace-mar-instance-boundary.md](grace-mar-instance-boundary.md)).
+**Default operator surface:** governed interpretive machine — `statecraft/`, `singularity/`, `continuity/`, `source-archive/statecraft/`. The embedded Grace-Mar Record at repo root is **frozen** ([grace-mar-instance-boundary.md](grace-mar-instance-boundary.md)).
 
 When the operator would have used fork-growth habits, use these **instead** unless they explicitly invoke **`fork revive`**.
 
 | Was (fork growth) | Now (interpretive machine) |
 |-------------------|----------------------------|
 | **"We did X"** → RECURSION-GATE staging | Lane history (`docs/skill-work/work-*/…-history.md`), [`memory.md`](../memory.md), [`cadence-learning-events.jsonl`](../runtime/operator-events/cadence-learning-events.jsonl) |
-| Book completion → LEARN/READ gate candidate | `codex/` / bookshelf WORK, strategy inbox, or statecraft archive intake |
+| Book completion → LEARN/READ gate candidate | `continuity/` / bookshelf WORK, strategy inbox, or statecraft archive intake |
 | Wisdom questions → IX merge | Singularity or statecraft synthesis notes; **fork revive only** for museum knowledge section A/B/C gate |
 | Weekly gate review rhythm | `python3 scripts/operator_handoff_check.py`, integrity scripts, ship receipt |
 | Voice / Telegram as primary channel | WORK menus (`coffee`, conductor), state synthesis |
@@ -47,6 +47,6 @@ Use when material is useful for the session but **not** worth verbatim retention
 ## When consumption becomes work
 
 - **Verbatim statecraft source** → `source-archive/statecraft/`
-- **Strategy essay / transcript bundle** → **`source-intake`** → `source-archive/statecraft/` per [strategy-input rule](../.cursor/rules/strategy-input-raw-ingest.mdc) and [RAW-INPUT-DEPRECATED.md](skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) — not deprecated `codex/raw-input/`
+- **Strategy essay / transcript bundle** → **`source-intake`** → `source-archive/statecraft/` per [strategy-input rule](../.cursor/rules/strategy-input-raw-ingest.mdc) and [RAW-INPUT-DEPRECATED.md](skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) — not deprecated `continuity/raw-input/`
 - **Judgment to keep** → `statecraft/synthesis/day/` or lane transaction
 - **Identity / IX** → **fork revive** + gate only

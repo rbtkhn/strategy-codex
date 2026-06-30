@@ -19,9 +19,9 @@ The short rule is:
 
 | Object | Primary question | Main job | Typical location |
 |---|---|---|---|
-| **Speaker arc** | Why does this recurring host x guest lane matter? | Compact stream-local reuse note for future routing | `codex/<year>/<host-stream>/<host>-<guest>-speaker-arc.md` |
+| **Speaker arc** | Why does this recurring host x guest lane matter? | Compact stream-local reuse note for future routing | `continuity/<year>/<host-stream>/<host>-<guest>-speaker-arc.md` |
 | **Thread** | What did this named voice say across dates? | Provenance join and continuity lane | `thread:<expert_id>` in inbox plus thread/transcript surfaces |
-| **Lattice row** | Who is this recurring speaker in the notebook? | Alphabetical roster identity and cross-stream lookup | [speaker-lattice.md](../../../codex/speaker-lattice.md) |
+| **Lattice row** | Who is this recurring speaker in the notebook? | Alphabetical roster identity and cross-stream lookup | [speaker-lattice.md](../../../continuity/speaker-lattice.md) |
 
 ## Speaker arc
 

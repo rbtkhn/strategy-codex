@@ -127,7 +127,7 @@ def rebuild_lecture(lecture_path: Path) -> None:
     lecture_path.write_text(meta + "## Full transcript\n\n" + new_body, encoding="utf-8")
 
 def main() -> None:
-    out = Path("codex/predictive-history/lectures/interviews-10-endgame-our-true-wealth-is-our-consciousness.md")
+    out = Path("continuity/predictive-history/lectures/interviews-10-endgame-our-true-wealth-is-our-consciousness.md")
     if len(sys.argv) > 1:
         out = Path(sys.argv[1])
     rebuild_lecture(out)

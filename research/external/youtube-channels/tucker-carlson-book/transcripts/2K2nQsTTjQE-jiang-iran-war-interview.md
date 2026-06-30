@@ -1,7 +1,7 @@
 ---
 book: tucker-carlson-book
 video_id: 2K2nQsTTjQE
-canonical: ../../../codex/predictive-history/lectures/interviews-11-tucker-carlson-iran-war-and-global-order.md
+canonical: ../../../continuity/predictive-history/lectures/interviews-11-tucker-carlson-iran-war-and-global-order.md
 ---
 
 # Interviews #11: Tucker Carlson — Iran War, Energy, and Global Order

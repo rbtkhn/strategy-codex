@@ -4,7 +4,7 @@
 
 **Successor path:** Compress standalone conductor ritual into **coffee hub + attention phrases + extended `coffee_close` + object-native rituals + RLJ**. Do not delete conductor history; redirect operator entry after Phase 2.
 
-**SSOT links:** [CONDUCTOR-LAYER-MAP.md](CONDUCTOR-LAYER-MAP.md) · [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) · [recursive-learn SKILL](../../../skills/recursive-learn/SKILL.md) · [coffee SKILL](../../../.cursor/skills/coffee/SKILL.md)
+**SSOT links:** [CONDUCTOR-LAYER-MAP.md](CONDUCTOR-LAYER-MAP.md) · [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md) · [recursive-learn SKILL](../../../skills/recursive-learn/SKILL.md) · [coffee SKILL](../../../.cursor/skills/coffee/SKILL.md)
 
 **Evidence base (strategy-codex, Jun 5–19 2026):** 15 conductor picks, 30 outcomes, 0 open arcs; Kleiber outcome inflation (13 outcomes / 4 picks) = main ceremony drag. Positive but uneven ROI (~B+): keep falsifier discipline; compress menus.
 
@@ -40,7 +40,7 @@ See top of this file. **Redirects** from standalone conductor after Phase 2; doe
 
 ## 3. Design principle: compress, not delete
 
-**Invariant to preserve:** Every substantive pass ends with **object ref + falsifier** (same minimum as [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) §2).
+**Invariant to preserve:** Every substantive pass ends with **object ref + falsifier** (same minimum as [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md) §2).
 
 ```mermaid
 flowchart LR
@@ -102,7 +102,7 @@ Replace five master slugs with **plain phrases** (legacy mapping in §10):
 | Kleiber benchmark | [kleiber-composition-benchmark.md](../work-dev/kleiber-composition-benchmark.md) | Via `one object only` + work-dev |
 | Long arc finish | **C** + `long arc pass`; [**periodic-statecraft-review** runbook](../../../skills/runbooks/periodic-statecraft-review.runbook.md) (`monthly-deepening` deprecated) | Without persona |
 | Coding-agent posture | [conductor-proposal-lenses.md](../work-dev/conductor-proposal-lenses.md) | Keep; not conductor ritual |
-| Notebook paste close | [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) → Work close template | Attention phrase field |
+| Notebook paste close | [CONDUCTOR-CLOSE-TEMPLATE.md](../../../continuity/CONDUCTOR-CLOSE-TEMPLATE.md) → Work close template | Attention phrase field |
 | Dream handoff | `dream_coffee_rollup.py` | Phase 3: object closes; Phase 1b: warmup echo |
 
 ### 5.1 Reference — statecraft intake closeout
@@ -207,7 +207,7 @@ Replace `build_conductor_revisit_block` with: Recent rhythm prose; 72h watch whe
 
 ### Phase 2 — portable skills
 
-After conductor redirect: run [portable-skills-sync](../../../skills/portable-skills-sync/SKILL.md) for `~/.codex/skills/conductor`.
+After conductor redirect: run [portable-skills-sync](../../../skills/portable-skills-sync/SKILL.md) for `~/.continuity/skills/conductor`.
 
 **Kleiber cap:** one outcome line per arc — batch stopping rules into single close + one RLJ entry.
 
@@ -302,7 +302,7 @@ Successor to [conductor-arc-impact-journal.md](../work-strategy/conductor-arc-im
 ### Linked (Phase 0)
 
 - [work-coffee/README.md](README.md) — Conductor Stack → Compression path
-- [codex/CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) — successor pointer
+- [continuity/CONDUCTOR-IMPROVEMENT-LOOP.md](../../../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md) — successor pointer
 
 ### Phase 1 (shipped)
 

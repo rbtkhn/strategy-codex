@@ -31,4 +31,4 @@ Each packet should include:
 
 - no direct patching of Predictive History from this repo
 - no regeneration of external PH artifacts here
-- no reactivation of `codex/predictive-history/` as a canonical lane
+- no reactivation of `continuity/predictive-history/` as a canonical lane

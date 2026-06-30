@@ -57,7 +57,7 @@ June 8 asked **which ceasefire label** still holds — alive, dead, or theatrica
 | [Krapivnik × Alkorshid — Breaking US attacks Iran](../../../source-archive/statecraft/2026-06-09/source-dialogue-works-stanislav-krapivnik-breaking-us-attacks-iran-russia-no-deal-coming-2026-06-09.md) | Dialogue Works | Stanislav Krapivnik | `nima`, `krapivnik` |
 | [Nima solo — Bahrain retaliation](../../../source-archive/statecraft/2026-06-09/source-dialogue-works-iran-launches-immediate-retaliation-explosions-rock-bahrain-after-us-strikes-2026-06-09.md) | Dialogue Works | (solo) | `nima` |
 
-**Cross-day Weichert** (not in June 9 folder): [profile + receipts](../../../codex/profiles/weichert-profile.md) — e.g. [command fracture 2026-06-08](../../../source-archive/statecraft/2026-06-08/source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md).
+**Cross-day Weichert** (not in June 9 folder): [profile + receipts](../../../continuity/profiles/weichert-profile.md) — e.g. [command fracture 2026-06-08](../../../source-archive/statecraft/2026-06-08/source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md).
 
 `python3 scripts/check_statecraft_intake_daily_sync.py --day 2026-06-09` → `ok` (16/16 inventory wired).
 

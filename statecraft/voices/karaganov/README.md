@@ -40,7 +40,7 @@ The real hierarchy on disk is:
 - `Diesen x Karaganov` is the **only mature direct branch** — solo interviews plus one Mearsheimer triangulation panel.
 - [2026-05-10 / Diesen x Karaganov solo](../../../source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md) is the best single-file anchor.
 - [2026-06-13 / Diesen x Mearsheimer x Karaganov](../../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md) is the best paired-read with structural realism.
-- 2025 Diesen solos are **archive SSOT** ([2025-05-14](../../../source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md), [2025-12-25](../../../source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md)); legacy `codex/years/` stubs are compatibility redirects only.
+- 2025 Diesen solos are **archive SSOT** ([2025-05-14](../../../source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md), [2025-12-25](../../../source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md)); legacy `continuity/years/` stubs are compatibility redirects only.
 - Ritter's "dark sage" read is a **reaction surface**, not a Karaganov appearance.
 
 ## Compatibility Shape
@@ -56,4 +56,4 @@ The legacy `statecraft/voices/karaganov/` path is now front-door compatibility o
 
 ## Boundary
 
-Karaganov is canonical here under `statecraft/voices/karaganov/`. Raw-text authority stays in [`source-archive/statecraft/`](../../../source-archive/statecraft/) (legacy `codex/years/` redirects only where indexed). Do not treat references to "Karaganov doctrine" inside other speakers as direct Karaganov appearances. Do not equate his escalation doctrine with settled Kremlin policy without separate evidence.
+Karaganov is canonical here under `statecraft/voices/karaganov/`. Raw-text authority stays in [`source-archive/statecraft/`](../../../source-archive/statecraft/) (legacy `continuity/years/` redirects only where indexed). Do not treat references to "Karaganov doctrine" inside other speakers as direct Karaganov appearances. Do not equate his escalation doctrine with settled Kremlin policy without separate evidence.

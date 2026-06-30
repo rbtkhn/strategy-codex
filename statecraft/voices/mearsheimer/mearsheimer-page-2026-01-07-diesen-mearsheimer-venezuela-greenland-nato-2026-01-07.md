@@ -23,7 +23,7 @@ Guest structural-realist read; host opening on voter fatigue vs policy is in the
 ### Appendix
 
 - **Full verbatim (capture):** [provenance/2026-01-07/source-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md](../../../source-archive/statecraft/2026-01-07/source-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md)
-- **Inbox / triage:** [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md)
+- **Inbox / triage:** [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md)
 - **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md](../diesen/diesen-page-2026-01-07-diesen-mearsheimer-venezuela-greenland-nato-2026-01-07.md)
 - **Canonical primary:** `https://www.youtube.com/watch?v=-NQ3lnuYcXs`
 - **Legacy stub:** [mearsheimer-page-2026-01-07-venezuela-greenland-nato.md](mearsheimer-page-2026-01-07-venezuela-greenland-nato.md)

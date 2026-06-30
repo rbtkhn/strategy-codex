@@ -47,7 +47,7 @@ CRITICAL_GATES = {
     ],
     "durable_outputs_route_to_statecraft": [
         "durable outputs",
-        "codex/academy/statecraft/",
+        "continuity/academy/statecraft/",
         "do not write them into mercouris speaker surfaces unless",
     ],
     "comparative_roles_do_not_collapse": [

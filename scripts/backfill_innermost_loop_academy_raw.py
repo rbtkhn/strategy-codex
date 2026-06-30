@@ -31,7 +31,7 @@ DEFAULT_RAW_ROOT = (
     / "source-archive/singularity/innermost-loop"
 )
 DEFAULT_WORKSHOP_README = REPO_ROOT / "singularity/workshop/README.md"
-DEFAULT_SHELF_README = REPO_ROOT / "codex/academy/singularity/README.md"
+DEFAULT_SHELF_README = REPO_ROOT / "continuity/academy/singularity/README.md"
 USER_AGENT = "strategy-codex-innermost-loop-backfill/1.0 (+local academy singularity)"
 
 MONTHS = {

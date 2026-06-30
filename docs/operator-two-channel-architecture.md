@@ -35,7 +35,7 @@ Use that distinction first before reaching for older lane labels.
 | `singularity/work-cici/` | `singularity` | Beginner-compounding, cohort, and advisor testbed for whether AI raises the floor durably |
 | `docs/skill-work/work-business/` | `singularity` | Deployment, compression, and venture testbed for whether AI compounds real commercial work |
 | `statecraft/<lane>/` and `statecraft/compact/` | `statecraft` | Subchannels and drafting surfaces inside the statecraft judgment channel |
-| `codex/` | beneath both | Chronology, accumulation, and continuity infrastructure beneath both channels |
+| `continuity/` | beneath both | Chronology, accumulation, and continuity infrastructure beneath both channels |
 | Record / governed identity surfaces | outside both | Museum archaeology under `archive/grace-mar-instance/`; not part of the two-channel operator model |
 
 ## Museum (Grace-Mar Record)

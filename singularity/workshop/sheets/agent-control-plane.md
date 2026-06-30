@@ -9,8 +9,8 @@ Use this as the first singularity workshop sheet. It tests any agent governance 
 ## Core Academy Links
 
 - [Singularity Workshop](../README.md)
-- [Academy method](../../../codex/academy/METHOD.md)
-- [Open tensions](../../../codex/academy/open-tensions.md)
+- [Academy method](../../../continuity/academy/METHOD.md)
+- [Open tensions](../../../continuity/academy/open-tensions.md)
 - [Agent 365 alignment](../../../docs/agent-365-alignment.md)
 - [Agent substrate](../../../docs/agent-substrate.md)
 

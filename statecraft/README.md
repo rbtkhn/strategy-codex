@@ -116,7 +116,7 @@ That means the first honest lane menu should ask which transcript-bearing intake
 
 Speaker-state continuity that belongs to live statecraft now opens from [statecraft/voices/](voices/README.md), not from an external speaker shelf by default.
 
-Host-native continuity that belongs to live statecraft now opens from [statecraft/channels/](channels/README.md), not from retired `codex/speakers/<host>/...` paths.
+Host-native continuity that belongs to live statecraft now opens from [statecraft/channels/](channels/README.md), not from retired `continuity/speakers/<host>/...` paths.
 
 One live bridge worth keeping in view across this stack is **high-skill labor compression**. When synthetic cognition starts compressing analytical, legal, diplomatic, intelligence, or policy-forming work, do not leave the object stranded as a generic singularity or labor-market note. It usually means judgment infrastructure is starting to thin. Route it as:
 
@@ -260,4 +260,4 @@ Boundary law:
 - Statecraft Synthesis interprets that truth.
 - Host law, bridges, CIV-STATE retrieval, and lanes remain downstream and should not be mistaken for the archive itself.
 
-The former academy entrypoint remains at [codex/academy/statecraft/README.md](../codex/academy/statecraft/README.md) as a compatibility pointer during migration. The repo-root `statecraft/` tree is the canonical live system.
+The former academy entrypoint remains at [continuity/academy/statecraft/README.md](../continuity/academy/statecraft/README.md) as a compatibility pointer during migration. The repo-root `statecraft/` tree is the canonical live system.

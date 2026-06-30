@@ -9,7 +9,7 @@ scope_class: repo-governed
 
 Use this skill when adding or extending chapter batches in
 `rbtkhn/predictive-history`, especially from
-`strategy-codex/codex/predictive-history` transfer material.
+`strategy-continuity/continuity/predictive-history` transfer material.
 
 ## Core rule
 

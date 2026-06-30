@@ -12,7 +12,7 @@ authority: advisory_only
 verification_level: receipt_required
 risk_tier: medium
 surfaces:
-  - codex/predictive-history/BOOK-ARCHITECTURE.md
+  - continuity/predictive-history/BOOK-ARCHITECTURE.md
 ---
 
 # Chapter Seeding
@@ -74,4 +74,4 @@ Do not call this runbook complete unless:
 ## Return Paths
 
 - [skills/runbooks/README.md](README.md)
-- [codex/predictive-history/BOOK-ARCHITECTURE.md](../../codex/predictive-history/BOOK-ARCHITECTURE.md)
+- [continuity/predictive-history/BOOK-ARCHITECTURE.md](../../continuity/predictive-history/BOOK-ARCHITECTURE.md)

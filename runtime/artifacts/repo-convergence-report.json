@@ -1,82 +1,13 @@
 {
   "errors": [],
   "gate_required": [],
-  "generated_at": "2026-06-30T09:04:29Z",
+  "generated_at": "2026-06-30T09:24:32Z",
+  "hash_exclusions": [
+    "runtime/artifacts/repo-convergence-report.json",
+    "runtime/artifacts/repo-convergence-state.json",
+    "runtime/operator-events/repo-convergence.jsonl"
+  ],
   "loops": {
-    "essay_surfaces": {
-      "changed": false,
-      "commands": [],
-      "input_hash": "df71bf84235cd45b9d5ad9655e71cd27da9c79e31475373eca038743e84bd073",
-      "inputs_changed": false,
-      "kind": "validator",
-      "status": "skipped",
-      "writes": []
-    },
-    "generated_surfaces": {
-      "changed": true,
-      "commands": [
-        {
-          "cmd": "C:\\Users\\rober\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe scripts/check_generated_surfaces.py --check --strict",
-          "returncode": 0,
-          "stderr_tail": "",
-          "stdout_tail": "ok: generated surfaces check passed (headers+drift+orphans)"
-        },
-        {
-          "cmd": "C:\\Users\\rober\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe scripts/check_generated_prediction_artifacts.py",
-          "returncode": 0,
-          "stderr_tail": "",
-          "stdout_tail": "[ok] prediction registry artifact matches generator output\n[ok] prediction metrics artifact matches generator output\n[ok] prediction disagreement artifact matches generator output\n[ok] prediction timeline artifact matches generator output\n[ok] generated prediction artifacts are fresh"
-        }
-      ],
-      "input_hash": "8eb14897c5f6321b9f82b6945f68a6fda87a1013dc5133c7cf1a050472b6373b",
-      "inputs_changed": true,
-      "kind": "validator",
-      "status": "ok",
-      "writes": []
-    },
-    "membrane": {
-      "changed": true,
-      "commands": [
-        {
-          "cmd": "C:\\Users\\rober\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe scripts/check_membrane_policy_light.py",
-          "returncode": 0,
-          "stderr_tail": "",
-          "stdout_tail": "ok: membrane policy light"
-        },
-        {
-          "cmd": "C:\\Users\\rober\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe scripts/check_work_record_doctrine.py",
-          "returncode": 0,
-          "stderr_tail": "",
-          "stdout_tail": "[ok] work/record doctrine banner check passed"
-        },
-        {
-          "cmd": "C:\\Users\\rober\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe scripts/check_transaction_term_usage.py --strict --skills-strict",
-          "returncode": 0,
-          "stderr_tail": "",
-          "stdout_tail": "check_transaction_term_usage: ok (26 file(s))"
-        },
-        {
-          "cmd": "C:\\Users\\rober\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe scripts/check_record_surface_retirement.py",
-          "returncode": 0,
-          "stderr_tail": "",
-          "stdout_tail": "check_record_surface_retirement: ok"
-        }
-      ],
-      "input_hash": "ab0002082097dbacf393bb8b36bb593e911ad4e59ddccba49b782ae00195cf60",
-      "inputs_changed": true,
-      "kind": "validator",
-      "status": "ok",
-      "writes": []
-    },
-    "routing": {
-      "changed": false,
-      "commands": [],
-      "input_hash": "4a5271d7829813d739a1e4d253bcfa0344cfd2a05f1ca6c4ff0a3a88b286e7ea",
-      "inputs_changed": false,
-      "kind": "validator",
-      "status": "skipped",
-      "writes": []
-    },
     "schema": {
       "changed": false,
       "commands": [],
@@ -85,31 +16,9 @@
       "kind": "validator",
       "status": "skipped",
       "writes": []
-    },
-    "statecraft_notes": {
-      "changed": false,
-      "commands": [],
-      "input_hash": "713d53ff6c19760c216b194624081be58c6a9a309f66e0aee7c99ca3cf3bf07e",
-      "inputs_changed": false,
-      "kind": "validator",
-      "status": "skipped",
-      "writes": []
-    },
-    "statecraft_predictions": {
-      "changed": false,
-      "commands": [],
-      "input_hash": "08ef25bce894b52b352bbf639f0a816fd5fa86400adb5a247348730c036a1e49",
-      "inputs_changed": false,
-      "kind": "builder",
-      "status": "ok",
-      "writes": [
-        "runtime/artifacts/prediction-registry.json",
-        "runtime/artifacts/prediction-metrics.json",
-        "runtime/artifacts/prediction-disagreement.json",
-        "runtime/artifacts/prediction-timeline.json"
-      ]
     }
   },
   "mode": "check",
+  "recorded": true,
   "status": "ok"
 }

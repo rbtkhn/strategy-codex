@@ -9,7 +9,7 @@ Use it as a coordination surface while files are arriving. It is not a transcrip
 
 - `pub_date`: `2026-05-25`
 - `ingest_date`: `2026-05-25`
-- canonical folder: `codex/years/2026/provenance/2026-05-25/`
+- canonical folder: `continuity/years/2026/provenance/2026-05-25/`
 
 ## Intake order
 

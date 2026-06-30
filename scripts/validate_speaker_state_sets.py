@@ -165,7 +165,7 @@ def migrated_source_target(path: Path, repo_root: Path) -> Path:
     except ValueError:
         return path.resolve()
     match = re.search(
-        r"codex/years/(\d{4})/(?:raw-input|provenance)/(\d{4}-\d{2}-\d{2})/(.+\.md)$",
+        r"continuity/years/(\d{4})/(?:raw-input|provenance)/(\d{4}-\d{2}-\d{2})/(.+\.md)$",
         rel,
     )
     if not match:

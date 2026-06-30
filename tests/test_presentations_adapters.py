@@ -145,7 +145,7 @@ def test_civ_emp_packet_bundle_accepts_decision_comparison_packet(tmp_path: Path
 
 
 def test_ph_civ_adapter_rejects_forbidden_local_residue() -> None:
-    forbidden = Path("C:/dev/strategy-codex/codex/predictive-history/fake.md")
+    forbidden = Path("C:/dev/strategy-continuity/continuity/predictive-history/fake.md")
     with pytest.raises(ValueError, match="forbidden local Predictive History residue"):
         build_ph_civ_bundle(
             intent="lesson",

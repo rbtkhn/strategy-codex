@@ -121,5 +121,5 @@ python3 scripts/log_cadence_event.py --kind coffee_conductor_outcome -u strategy
 ## Return
 
 - [recursive-learning-journal.md](../recursive-learning-journal.md)
-- [CONDUCTOR-IMPROVEMENT-LOOP.md](../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md)
+- [CONDUCTOR-IMPROVEMENT-LOOP.md](../../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md)
 - [work-cadence-events.md](../../docs/skill-work/work-cadence/work-cadence-events.md)

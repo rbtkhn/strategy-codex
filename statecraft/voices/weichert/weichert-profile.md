@@ -4,7 +4,7 @@
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) — **`weichert`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`weichert`** lane.
 
 ---
 
@@ -34,7 +34,7 @@ Brandon J. Weichert is the US hawk-analyst lane for Iran-war command fracture: w
 | **Voice tier** | `B` |
 | **Voice fingerprint — last reviewed** | `2026-06` |
 
-Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](../../../codex/strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md § Voice fingerprint (compact)](../../../continuity/strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 

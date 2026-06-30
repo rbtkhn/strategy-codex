@@ -57,7 +57,7 @@ This is also why the theme should not be reduced to "Mearsheimer opposes NATO ex
 
 Primary `civ-emp` bucket: `empire-instrument`
 
-Open [CIV-EMP README](../../../codex/academy/statecraft/civ-emp/README.md and the [source-retrieval matrix](../../../codex/academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md when the task becomes:
+Open [CIV-EMP README](../../../continuity/academy/statecraft/civ-emp/README.md and the [source-retrieval matrix](../../../continuity/academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md when the task becomes:
 
 - deciding whether alliance growth is protective or overreaching
 - testing whether an order project can absorb the counter-coalitions it invites

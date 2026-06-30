@@ -107,7 +107,7 @@ SINGULARITY_INTAKE_PREFIXES = (
 
 def _classify_lane_slice(path: str) -> str:
     """Classify a repo path into ship-receipt lane buckets."""
-    if "ph-civ" in path or path.startswith("codex/predictive-history/"):
+    if "ph-civ" in path or path.startswith("continuity/predictive-history/"):
         return "ph-civ"
     if path.startswith("statecraft/"):
         return "statecraft"

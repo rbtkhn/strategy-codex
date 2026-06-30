@@ -37,9 +37,9 @@ Open speaker and state surfaces first when available:
 
 - `statecraft/voices/marandi/`
 - `statecraft/voices/marandi/marandi-thread.md`
-- `codex/academy/statecraft/iran/README.md`
-- `codex/academy/statecraft/iran/state/README.md`
-- `codex/academy/statecraft/iran/state/objects/araghchi.md`
+- `continuity/academy/statecraft/iran/README.md`
+- `continuity/academy/statecraft/iran/state/README.md`
+- `continuity/academy/statecraft/iran/state/objects/araghchi.md`
 
 Then choose host lane as needed:
 

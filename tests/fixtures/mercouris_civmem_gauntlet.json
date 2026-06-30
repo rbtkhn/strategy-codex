@@ -40,7 +40,7 @@
     "expected_routing": [
       "america",
       "iran",
-      "codex/academy/statecraft/"
+      "continuity/academy/statecraft/"
     ],
     "score": {
       "coverage": 4,
@@ -273,7 +273,7 @@
     "mode": "durable_output_routing",
     "must_cover": [
       "durable outputs",
-      "codex/academy/statecraft/",
+      "continuity/academy/statecraft/",
       "statecraft transaction"
     ],
     "must_not": [

@@ -23,7 +23,7 @@ Inside `strategy-codex`, Predictive History is now an **external observed public
 
 `strategy-codex` now treats these local trees as frozen migration residue / historical reference only:
 
-- `codex/predictive-history/`
+- `continuity/predictive-history/`
 - `research/external/youtube-channels/predictive-history/`
 
 The repo now includes:
@@ -41,7 +41,7 @@ Inside `strategy-codex`, do **not**:
 - create new canonical Predictive History lecture, chapter, registry, queue, or manuscript content
 - regenerate PH corpus/manuscript artifacts as if this repo still owns them
 - refresh the local PH transcript tree as an active ingest lane
-- treat `codex/predictive-history/` as a live work surface
+- treat `continuity/predictive-history/` as a live work surface
 
 ## What still belongs here
 

@@ -20,7 +20,7 @@ The speaker corpus is stronger than it looks at first glance. Shelf-class design
 
 The real weakness is not missing architecture. It is migration drift:
 
-- mature shelves still point into legacy `years/.../provenance` and `codex/years/.../provenance` paths
+- mature shelves still point into legacy `years/.../provenance` and `continuity/years/.../provenance` paths
 - some cross-host references still point at absent host-arc files
 - Mercouris carries a second layer of internal stream dead-ends
 - Jiang and Hoh now function as real exceptions, but the top-level doctrine does not yet name those exception classes cleanly
@@ -143,7 +143,7 @@ Why this matters:
 Broken local links cluster into six failure families:
 
 1. Legacy `years/.../provenance` links: 213
-2. Legacy `codex/years/.../provenance` links: 49
+2. Legacy `continuity/years/.../provenance` links: 49
 3. Missing internal Mercouris stream pages: 24
 4. `academy/statecraft/...` pre-statecraft links: 18
 5. Missing cross-host speaker arcs: 15
@@ -154,7 +154,7 @@ This is good news operationally because a small number of deterministic rewrite 
 Representative failure patterns:
 
 - `../../sheets/source-archive-control/...`
-- `../../codex/years/2026/provenance/...`
+- `../../continuity/years/2026/provenance/...`
 - `mercouris-thread.md`
 - `mercouris-page-2026-04-05.md`
 - `../diesen/arc-crooke-diesen-host.md`
@@ -316,7 +316,7 @@ Target shelves:
 Repair rules:
 
 - rewrite `years/.../provenance` links to `source-archive/statecraft/...`
-- rewrite `codex/years/.../provenance` links to live `source-archive/statecraft/...` targets
+- rewrite `continuity/years/.../provenance` links to live `source-archive/statecraft/...` targets
 - either materialize or remove stale Mercouris internal placeholders like `mercouris-thread.md`
 - repair or replace missing cross-host arc references with real current openings
 - rewrite stale `academy/statecraft/...` links to current `statecraft/...` or `statecraft/states/...` paths

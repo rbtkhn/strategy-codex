@@ -21,7 +21,7 @@ Purpose: seal the namespace migration from `statecraft/speakers/` to `statecraft
 ## Intentional exclusions
 
 - Benchmark provenance under `artifacts/benchmarks/` is explicitly excluded by [tests/fixtures/rehome_path_hygiene_contract.json](../../tests/fixtures/rehome_path_hygiene_contract.json).
-- Remaining old `codex/2026/...` strings in those benchmark source packs and outputs are historical evaluation residue, not live path authority.
+- Remaining old `continuity/2026/...` strings in those benchmark source packs and outputs are historical evaluation residue, not live path authority.
 
 ## Boundary
 

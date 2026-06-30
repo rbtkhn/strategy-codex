@@ -7,7 +7,7 @@ Use this note when you need the shortest truthful routing rule across the repo-r
 
 - [`archive/`](../archive/README.md) = frozen preservation of legacy or inactive materials
 - [`source-archive/`](../source-archive/README.md) = canonical full-source captures intended for active downstream use
-- [`codex/`](../codex/README.md) = chronology, notebook accumulation, days, threads, and open loops
+- [`continuity/`](../continuity/README.md) = chronology, notebook accumulation, days, threads, and open loops
 - [`statecraft/`](../statecraft/README.md) and [`singularity/`](../singularity/README.md) = synthesis, routing, interpretation, notes, essays, bridges, and judgment-bearing outputs
 
 ## Routing Law

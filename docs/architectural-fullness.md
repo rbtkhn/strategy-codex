@@ -133,7 +133,7 @@ Nearby systems that appear ready for this treatment:
 
 - `academy/politics/workshop/README.md`
 - `academy/theology/workshop/README.md`
-- `codex/speaker-lattice.md`
+- `continuity/speaker-lattice.md`
 - speaker-lattice and roster surfaces that currently name membership more clearly than they name obligations
 
 ## Boundary

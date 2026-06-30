@@ -37,7 +37,7 @@ Primary source:
 
 Most important earlier correspondence anchor:
 
-- [2025-11-24 Diesen / Jiang - The West's Civilizational Collapse](../../codex/years/2025/raw-input/2025-11-24/transcript-diesen-jiang-west-civilizational-collapse-2025-11-24.md)
+- [2025-11-24 Diesen / Jiang - The West's Civilizational Collapse](../../continuity/years/2025/raw-input/2025-11-24/transcript-diesen-jiang-west-civilizational-collapse-2025-11-24.md)
 
 ## Strongest PH Correspondences
 
@@ -246,4 +246,4 @@ For the current archive object, return to:
 
 For the earlier continuity anchor, return to:
 
-- [2025-11-24 Diesen / Jiang - The West's Civilizational Collapse](../../codex/years/2025/raw-input/2025-11-24/transcript-diesen-jiang-west-civilizational-collapse-2025-11-24.md)
+- [2025-11-24 Diesen / Jiang - The West's Civilizational Collapse](../../continuity/years/2025/raw-input/2025-11-24/transcript-diesen-jiang-west-civilizational-collapse-2025-11-24.md)

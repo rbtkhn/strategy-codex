@@ -40,7 +40,7 @@ Consolidate **recent strategy-notebook inputs** (chapter `days.md` pointers, `ra
 
 ## Known path
 
-1. Read **compose-day** scope from [NOTEBOOK-PREFERENCES](../../../../codex/NOTEBOOK-PREFERENCES.md) and active `chapters/YYYY-MM/days.md` (read-only).
+1. Read **compose-day** scope from [NOTEBOOK-PREFERENCES](../../../../continuity/NOTEBOOK-PREFERENCES.md) and active `chapters/YYYY-MM/days.md` (read-only).
 2. Scan **inbox** and **raw-input** for the same window (read-only).
 3. Optionally read `docs/skill-work/work-strategy/daily-brief-YYYY-MM-DD.md` for §1d–§1h anchors (read-only).
 4. Emit **one** draft file under `strategy-notebook/raw-input/` (or operator-chosen draft path) with sections: Chronicle summary, Open threads, Tensions, Missing signals, Proposed next actions (all draft).

@@ -16,7 +16,7 @@ from integrations.codegraph.generate_architecture_bundle import build_bundle
 class CodeGraphBridgeTests(unittest.TestCase):
     def test_resolve_codegraph_cmd_prefers_local_windows_binary(self) -> None:
         fake_binary = Path(
-            "C:/dev/strategy-codex/.codex-tmp/npm-cache/_npx/demo/node_modules/"
+            "C:/dev/strategy-continuity/.codex-tmp/npm-cache/_npx/demo/node_modules/"
             "@colbymchenry/codegraph-win32-x64/platform/bin/codegraph.cmd"
         )
         with mock.patch.object(common, "find_local_codegraph_cmd", return_value=[str(fake_binary)]), mock.patch.dict(

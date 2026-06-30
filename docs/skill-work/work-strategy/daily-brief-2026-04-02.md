@@ -46,9 +46,9 @@ _From `docs/skill-work/work-strategy/daily-brief-focus.md` Ã‚§ Active focus.
 _From `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` Ã‚§ Active work-jiang hooks._
 
 - _Edit this section between brief runs. List repo-relative paths or one-line labels._
-- _Example:_ `codex/predictive-history/compressions/<slug>-YYYYMMDD.json`
-- _Example:_ `codex/predictive-history/**/*.paste-snippet.md` (paste the exact path you used)
-- _Example:_ [COMPRESSION-ENGINE.md](../../../codex/predictive-history/COMPRESSION-ENGINE.md) Ã¢â‚¬” last run: _date_
+- _Example:_ `continuity/predictive-history/compressions/<slug>-YYYYMMDD.json`
+- _Example:_ `continuity/predictive-history/**/*.paste-snippet.md` (paste the exact path you used)
+- _Example:_ [COMPRESSION-ENGINE.md](../../../continuity/predictive-history/COMPRESSION-ENGINE.md) Ã¢â‚¬” last run: _date_
 - ---
 
 _Product / integration context: [work-dev/workspace.md](../work-dev/workspace.md), [work-strategy/README.md](README.md)._

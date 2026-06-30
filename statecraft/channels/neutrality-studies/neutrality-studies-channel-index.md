@@ -3,7 +3,7 @@
 
 Purpose: route map for materialized **Neutrality Studies** captures on disk (`channel_slug: neutrality-studies` · host **Pascal Lottaz**).
 
-**SSOT:** `source-archive/statecraft/` — not legacy `codex/years/…/provenance/` · not `raw-input` mirrors.
+**SSOT:** `source-archive/statecraft/` — not legacy `continuity/years/…/provenance/` · not `raw-input` mirrors.
 
 Host law: [neutrality-studies-host-law.md](neutrality-studies-host-law.md)
 

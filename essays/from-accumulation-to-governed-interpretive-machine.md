@@ -95,7 +95,7 @@ what kind of prose object is this?
 ```
 
 Instead of letting every local README answer that question differently, the
-shared chooser in [docs/prose-index.md](/C:/dev/strategy-codex/docs/prose-index.md)
+shared chooser in [docs/prose-index.md](/C:/dev/strategy-continuity/docs/prose-index.md)
 now carries the law, while local shelves explain their own flavor afterward.
 
 This is a small change on paper and a large one in practice. It reduces future
@@ -214,5 +214,5 @@ That is the real ambition.
 - [singularity front door](../singularity/README.md)
 - [statecraft recursive learning journal](../statecraft/recursive-learning-journal.md)
 - [three layers of recursive learning in statecraft](./three-layers-of-recursive-learning-in-statecraft.md)
-- [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md)
-- [product identity](/C:/dev/strategy-codex/docs/product-identity.md)
+- [shared prose index](/C:/dev/strategy-continuity/docs/prose-index.md)
+- [product identity](/C:/dev/strategy-continuity/docs/product-identity.md)

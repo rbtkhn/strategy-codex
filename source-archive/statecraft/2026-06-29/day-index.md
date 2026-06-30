@@ -9,10 +9,10 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 - Writer sources: `0`
 - Other sources: `1`
 - Helper notes (excluded from source count): `0`
-- Body kind mix: `cleaned-transcript` (4), `transcript` (2), `source` (1)
+- Body kind mix: `cleaned-transcript` (5), `source` (1), `transcript` (1)
 - Source form mix: `interview` (6), `post` (1)
 - Distinct channels/shows: `4`
-- Distinct hosts: `3`
+- Distinct hosts: `4`
 - Distinct guests: `6`
 - Distinct threads: `9`
 
@@ -22,7 +22,7 @@ _Generated inventory note. Rebuild with `python scripts/build_statecraft_day_ind
 
 ## Host / Guest / Thread Rollup
 
-- Hosts: `Andrew Napolitano` (1), `Daniel Davis` (1), `Glenn Diesen` (1)
+- Hosts: `Andrew Napolitano` (1), `Daniel Davis` (1), `Glenn Diesen` (1), `Mario Nawfal` (1)
 - Guests: `Alastair Crooke` (1), `Charles Freeman` (1), `Joe Kent` (1), `Larry Johnson` (1), `Ray McGovern` (1), `Ted Postol` (1)
 - Threads: `crooke` (1), `davis` (1), `diesen` (1), `freeman` (1), `johnson` (1), `kent` (1), `kent,nawfal` (1), `mcgovern` (1), `postol` (1)
 

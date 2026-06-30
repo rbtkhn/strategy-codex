@@ -199,7 +199,7 @@ TARGETS: tuple[RebuildTarget, ...] = (
         ),
         depends_on=("repo-surgeon", "statecraft-war-room", "operator-command-deck"),
     ),
-    # library-index target retired — see codex/README.md § Operator books
+    # library-index target retired — see continuity/README.md § Operator books
     RebuildTarget(
         target_id="work-lanes-dashboard-json",
         description="work-lane JSON aggregate for lane dashboards",

@@ -6,7 +6,7 @@ work only; not Record.
 
 This shelf indexes **carriage-bearing singularity theses**.
 
-Open [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) first when you need to distinguish bounded promoted seams from stand-alone arguments.
+Open [shared prose index](/C:/dev/strategy-continuity/docs/prose-index.md) first when you need to distinguish bounded promoted seams from stand-alone arguments.
 
 ## Authority Rule
 
@@ -58,11 +58,11 @@ Machine-constitutional and source-bearing files stay where they already belong:
 ## Best Entry Points
 
 - [ai-and-the-expansion-of-human-consciousness.md](../../essays/ai-and-the-expansion-of-human-consciousness.md) - stand-alone thesis on AI as a cognition-changing medium (**canonical** at repo root; local stub only)
-- [interpretive-machine.md](/C:/dev/strategy-codex/essays/interpretive-machine.md) - stand-alone thesis about interpretive learning systems (**canonical**; compatibility stub under `singularity/essays/`)
-- [system-design-lineage-is-not-unique-in-kind.md](/C:/dev/strategy-codex/essays/system-design-lineage-is-not-unique-in-kind.md) - source-backed synthesis arguing that the repo's design family has clear academic precedent (**canonical**; compatibility stub under `singularity/essays/`)
+- [interpretive-machine.md](/C:/dev/strategy-continuity/essays/interpretive-machine.md) - stand-alone thesis about interpretive learning systems (**canonical**; compatibility stub under `singularity/essays/`)
+- [system-design-lineage-is-not-unique-in-kind.md](/C:/dev/strategy-continuity/essays/system-design-lineage-is-not-unique-in-kind.md) - source-backed synthesis arguing that the repo's design family has clear academic precedent (**canonical**; compatibility stub under `singularity/essays/`)
 - [leo-barnes-jiang-on-ai.md](../../essays/leo-barnes-jiang-on-ai.md) - tri-voice AI essay (Leo, Barnes, Jiang); [pope-leo-on-ai.md](../../essays/pope-leo-on-ai.md) redirect stub
-- [sovereignty-under-acceleration.md](/C:/dev/strategy-codex/essays/sovereignty-under-acceleration.md) - authority-and-sovereignty thesis (**canonical**; compatibility stub under `singularity/essays/`)
-- [agent-control-plane.md](/C:/dev/strategy-codex/essays/agent-control-plane.md) - control-plane thesis surface (**canonical**; compatibility stub under `singularity/essays/`)
+- [sovereignty-under-acceleration.md](/C:/dev/strategy-continuity/essays/sovereignty-under-acceleration.md) - authority-and-sovereignty thesis (**canonical**; compatibility stub under `singularity/essays/`)
+- [agent-control-plane.md](/C:/dev/strategy-continuity/essays/agent-control-plane.md) - control-plane thesis surface (**canonical**; compatibility stub under `singularity/essays/`)
 
 ## Promotion Path
 
@@ -97,20 +97,20 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 
 _No full-body essays remain on this compatibility shelf — canonical theses live at repo-root [`essays/`](../../essays/README.md). Stubs below preserve older paths._
 
-- [leo-barnes-jiang-on-ai.md](/C:/dev/strategy-codex/essays/leo-barnes-jiang-on-ai.md) tri-voice AI essay; [pope-leo-on-ai.md](/C:/dev/strategy-codex/essays/pope-leo-on-ai.md) redirect stub
+- [leo-barnes-jiang-on-ai.md](/C:/dev/strategy-continuity/essays/leo-barnes-jiang-on-ai.md) tri-voice AI essay; [pope-leo-on-ai.md](/C:/dev/strategy-continuity/essays/pope-leo-on-ai.md) redirect stub
 
 ### Mirrored Legacy Promotion
 
-- [interpretive-machine.md](/C:/dev/strategy-codex/essays/interpretive-machine.md) synthesized from the [interpretive-machine cluster](/C:/dev/strategy-codex/essays/interpretive-machine/README.md) (**canonical** at repo root; local stub only)
-- [system-design-lineage-is-not-unique-in-kind.md](/C:/dev/strategy-codex/essays/system-design-lineage-is-not-unique-in-kind.md) synthesized from the [system-design-lineage cluster](/C:/dev/strategy-codex/essays/system-design-lineage/README.md) (**canonical** at repo root; local stub only)
+- [interpretive-machine.md](/C:/dev/strategy-continuity/essays/interpretive-machine.md) synthesized from the [interpretive-machine cluster](/C:/dev/strategy-continuity/essays/interpretive-machine/README.md) (**canonical** at repo root; local stub only)
+- [system-design-lineage-is-not-unique-in-kind.md](/C:/dev/strategy-continuity/essays/system-design-lineage-is-not-unique-in-kind.md) synthesized from the [system-design-lineage cluster](/C:/dev/strategy-continuity/essays/system-design-lineage/README.md) (**canonical** at repo root; local stub only)
 - [ai-and-the-expansion-of-human-consciousness.md](../../essays/ai-and-the-expansion-of-human-consciousness.md) pre-root singularity thesis on AI as a cognition-changing medium (**canonical** at repo root; local stub only)
-- [sovereignty-under-acceleration.md](/C:/dev/strategy-codex/essays/sovereignty-under-acceleration.md) from [../workshop/sheets/sovereignty-under-acceleration.md](../workshop/sheets/sovereignty-under-acceleration.md) (**canonical** at repo root; workshop sheet remains operating surface)
-- [narrative-shaped-alignment.md](/C:/dev/strategy-codex/essays/narrative-shaped-alignment.md) from [../workshop/sheets/narrative-shaped-alignment.md](../workshop/sheets/narrative-shaped-alignment.md) (**canonical** at repo root; workshop sheet remains operating surface)
-- [agent-control-plane.md](/C:/dev/strategy-codex/essays/agent-control-plane.md) from [../workshop/sheets/agent-control-plane.md](../workshop/sheets/agent-control-plane.md) (**canonical** at repo root; workshop sheet remains operating surface)
-- [interface-operating-layer-2028.md](/C:/dev/strategy-codex/essays/interface-operating-layer-2028.md) from [../workshop/sheets/interface-operating-layer-2028.md](../workshop/sheets/interface-operating-layer-2028.md) (**canonical** at repo root; workshop sheet remains operating surface)
-- [apprentice-studio-30-day-pilot.md](/C:/dev/strategy-codex/essays/apprentice-studio-30-day-pilot.md) from [../workshop/sheets/apprentice-studio-30-day-pilot.md](../workshop/sheets/apprentice-studio-30-day-pilot.md) (**canonical** at repo root; workshop sheet remains operating surface)
-- [future-roadmap-implications.md](/C:/dev/strategy-codex/essays/future-roadmap-implications.md) from [../workshop/sheets/future-roadmap-implications.md](../workshop/sheets/future-roadmap-implications.md) (**canonical** at repo root; workshop sheet remains operating surface)
-- [brewmind-business-plan.md](/C:/dev/strategy-codex/essays/brewmind-business-plan.md) from [../work-cici/brewmind-business-plan.md](../work-cici/brewmind-business-plan.md) (**canonical** at repo root; work-cici source)
+- [sovereignty-under-acceleration.md](/C:/dev/strategy-continuity/essays/sovereignty-under-acceleration.md) from [../workshop/sheets/sovereignty-under-acceleration.md](../workshop/sheets/sovereignty-under-acceleration.md) (**canonical** at repo root; workshop sheet remains operating surface)
+- [narrative-shaped-alignment.md](/C:/dev/strategy-continuity/essays/narrative-shaped-alignment.md) from [../workshop/sheets/narrative-shaped-alignment.md](../workshop/sheets/narrative-shaped-alignment.md) (**canonical** at repo root; workshop sheet remains operating surface)
+- [agent-control-plane.md](/C:/dev/strategy-continuity/essays/agent-control-plane.md) from [../workshop/sheets/agent-control-plane.md](../workshop/sheets/agent-control-plane.md) (**canonical** at repo root; workshop sheet remains operating surface)
+- [interface-operating-layer-2028.md](/C:/dev/strategy-continuity/essays/interface-operating-layer-2028.md) from [../workshop/sheets/interface-operating-layer-2028.md](../workshop/sheets/interface-operating-layer-2028.md) (**canonical** at repo root; workshop sheet remains operating surface)
+- [apprentice-studio-30-day-pilot.md](/C:/dev/strategy-continuity/essays/apprentice-studio-30-day-pilot.md) from [../workshop/sheets/apprentice-studio-30-day-pilot.md](../workshop/sheets/apprentice-studio-30-day-pilot.md) (**canonical** at repo root; workshop sheet remains operating surface)
+- [future-roadmap-implications.md](/C:/dev/strategy-continuity/essays/future-roadmap-implications.md) from [../workshop/sheets/future-roadmap-implications.md](../workshop/sheets/future-roadmap-implications.md) (**canonical** at repo root; workshop sheet remains operating surface)
+- [brewmind-business-plan.md](/C:/dev/strategy-continuity/essays/brewmind-business-plan.md) from [../work-cici/brewmind-business-plan.md](../work-cici/brewmind-business-plan.md) (**canonical** at repo root; work-cici source)
 
 ## Later Phases
 
@@ -122,5 +122,5 @@ _No full-body essays remain on this compatibility shelf — canonical theses liv
 - Return to [singularity front door](../README.md) for the domain shell.
 - Return to [singularity workshop](../workshop/README.md) for the active operating layer.
 - Return to [singularity notes](../notes/README.md) when the output is still exploratory or bounded.
-- Return to [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) when the real question is prose class rather than shelf location.
-- Return to [citation and evidence pattern](/C:/dev/strategy-codex/docs/citation-evidence-pattern.md) for the preferred literature-backed prose idiom.
+- Return to [shared prose index](/C:/dev/strategy-continuity/docs/prose-index.md) when the real question is prose class rather than shelf location.
+- Return to [citation and evidence pattern](/C:/dev/strategy-continuity/docs/citation-evidence-pattern.md) for the preferred literature-backed prose idiom.

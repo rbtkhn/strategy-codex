@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / "codex/predictive-history/analysis"
+OUT = ROOT / "continuity/predictive-history/analysis"
 
 # (temp_path relative name, target filename)
 FILES = [

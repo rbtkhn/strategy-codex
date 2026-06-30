@@ -6,7 +6,7 @@
 |------|------|--------|
 | [strategy-notebook/](../../../work-strategy/strategy-notebook/README.md) | **Primary** — inbox, `chapters/`, `raw-input/`, `weave/`, `days.md` month files. | — |
 | [STRATEGY.md](../../../work-strategy/STRATEGY.md) | **Milestones** / §II-A watches (additive operator log). | — |
-| [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) | Notebook contract and default operating path. | — |
+| [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md) | Notebook contract and default operating path. | — |
 | [daily-brief-focus.md](../../../work-strategy/daily-brief-focus.md) | Operator focus and standing packets. | — |
 | [LANE-CI.md](../../../work-strategy/LANE-CI.md) | PR label `lane/work-strategy` + gate paste. | — |
 | [minds/](../../../work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md) (patterns) | Tri-mind / single-lens patterns for skill-strategy. | — |

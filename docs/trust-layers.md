@@ -22,7 +22,7 @@ Confusing the two produces **false confidence**: a reliable call to a **fake** A
 - **Record vs LLM exterior** (AGENTS, knowledge boundary) governs **what becomes knowledge** in the fork.
 - **Reliability vs adversarial** governs **how operators and tools interpret signals** from browsers, MCP servers, external repos, and chat surfaces **before** those signals become staging input.
 
-OB1 / mixed-trust bridges: see [platform/integrations/ob1/architecture.md](../codex/academy/statecraft/ARCHITECTURE.md) and [work-cici LEAKAGE-CHECKLIST](../singularity/work-cici/LEAKAGE-CHECKLIST.md) — runtime and tooling are **not** the canonical Record.
+OB1 / mixed-trust bridges: see [platform/integrations/ob1/architecture.md](../continuity/academy/statecraft/ARCHITECTURE.md) and [work-cici LEAKAGE-CHECKLIST](../singularity/work-cici/LEAKAGE-CHECKLIST.md) — runtime and tooling are **not** the canonical Record.
 
 ---
 

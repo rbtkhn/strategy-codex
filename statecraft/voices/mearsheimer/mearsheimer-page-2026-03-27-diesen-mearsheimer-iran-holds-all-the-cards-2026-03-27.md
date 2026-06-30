@@ -23,7 +23,7 @@ Guest structural judgment; the host’s NSS-optimism preface is in the [diesen f
 ### Appendix
 
 - **Full verbatim (capture):** [provenance/2026-03-27/source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md](../../../source-archive/statecraft/2026-03-27/source-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
-- **Inbox / triage:** [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md)
+- **Inbox / triage:** [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md)
 - **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md](../diesen/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
 - **Canonical primary:** `https://www.youtube.com/watch?v=DBOVT0UdHXg`
 - **Legacy stub:** [mearsheimer-page-2026-03-27-iran-holds-all-the-cards.md](mearsheimer-page-2026-03-27-iran-holds-all-the-cards.md)

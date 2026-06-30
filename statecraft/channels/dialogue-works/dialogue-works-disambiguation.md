@@ -19,7 +19,7 @@ Purpose: route **Dialogue Works** (venue) vs **Nima Alkhorshid** (person) vs leg
 | Archive person thread | **`alkhorshid`** | ingest, indices, dual `threads` on every appearance |
 | Host shelf | [`channels/dialogue-works/`](README.md) | Dialogue Works **host-law**, thread, arcs, channel index |
 | Voices shelf | [`voices/alkorshid/`](../../voices/alkorshid/README.md) | **Alkhorshid** analyst profile + cross-host guest index |
-| MCQ / EOD `expert_id` | **`nima`** (compat) | [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
+| MCQ / EOD `expert_id` | **`nima`** (compat) | [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md) |
 | Script read aliases | `alkhorshid`, `alkhorshid`, `nima alkhorshid` | one release cycle after rename ship |
 | Deprecated archive thread | **`thread:nima`** | replace with **`thread:alkhorshid`** on new/edited captures |
 

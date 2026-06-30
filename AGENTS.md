@@ -78,6 +78,10 @@ Full protocol: [`LLM-ROUTING.md`](LLM-ROUTING.md) · [`docs/source-lattice-beyon
 
 Rules 1–11 detail, triadic cognition, Lexile, humane purpose: [`docs/agent-rules/deep-rules.md`](docs/agent-rules/deep-rules.md).
 
+## Continuity layer path
+
+Durable chronology and notebook continuity live at **`continuity/`** (formerly `continuity/`). Session continuity buffer: [`memory.md`](memory.md) — not the notebook tree. Decision record: [`docs/codex-to-continuity-rename.md`](docs/codex-to-continuity-rename.md).
+
 ## Layer architecture
 
 | Layer | File |

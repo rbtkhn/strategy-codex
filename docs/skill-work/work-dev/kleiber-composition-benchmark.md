@@ -221,9 +221,9 @@ Write the full strategy-page now.
 
 V1 is wired to these canonical templates:
 
-- `codex/strategy-codex-template-page.md`
-- `codex/strategy-codex-template-chapter.md`
-- `codex/strategy-codex-template-book.md`
+- `continuity/strategy-codex-template-page.md`
+- `continuity/strategy-codex-template-chapter.md`
+- `continuity/strategy-codex-template-book.md`
 
 The benchmark should score template fit against those files, not against generic essay expectations.
 

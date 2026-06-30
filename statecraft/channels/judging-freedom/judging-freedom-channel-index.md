@@ -3,7 +3,7 @@
 
 Purpose: exhaustive route map for every resolved **`source-judging-freedom-*`** capture materialized in this repo (`channel_slug: judging-freedom` · host **Andrew Napolitano** / **Judging Freedom**), including direct host captures, guest-led files that remain Napolitano-hosted, and shorthand host surfaces that function as archive records.
 
-**SSOT:** `source-archive/statecraft/` — not legacy `codex/years/…/provenance/` · not `raw-input` mirrors.
+**SSOT:** `source-archive/statecraft/` — not legacy `continuity/years/…/provenance/` · not `raw-input` mirrors.
 
 ## 2025-11
 - [transcript-napolitano-amb-chas-freeman-trump-and-xi-who-won-2025-11-04](../../../source-archive/statecraft/2025-11-04/source-judging-freedom-amb-chas-freeman-trump-and-xi-who-won-2025-11-04.md)

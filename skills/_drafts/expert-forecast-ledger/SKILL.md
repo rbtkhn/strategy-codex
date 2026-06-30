@@ -42,11 +42,11 @@ If the operator has not chosen and the lane has a clear consolidation note, foll
 ## Discovery workflow
 
 1. Inspect the target expert lane and raw-input corpus.
-   - Look for `codex/<year>/<expert>/README.md`.
+   - Look for `continuity/<year>/<expert>/README.md`.
    - Look for lane consolidation notes such as `<expert>-lane-consolidation-*.md`.
    - Search `raw-input` for source files matching the candidate boundary.
 2. Record the exact source count.
-3. Identify whether the active layout is `codex/<year>/...` or `codex/years/<year>/...`.
+3. Identify whether the active layout is `continuity/<year>/...` or `continuity/years/<year>/...`.
 4. Choose the target path:
    - single-year ledger: `<expert>-forecast-ledger-<year>.md`
    - cross-year authored ledger: `<expert>-forecast-ledger-<start-year>-<end-year>.md`

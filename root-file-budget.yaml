@@ -67,13 +67,13 @@ files:
 
   - path: skill-think.md
     category: compatibility
-    relocation_target: codex/skill-think.md
+    relocation_target: continuity/skill-think.md
   - path: skill-write.md
     category: compatibility
-    relocation_target: codex/skill-write.md
+    relocation_target: continuity/skill-write.md
   - path: skill-steward.md
     category: compatibility
-    relocation_target: codex/skill-steward.md
+    relocation_target: continuity/skill-steward.md
 
   - path: memory.md
     category: operator

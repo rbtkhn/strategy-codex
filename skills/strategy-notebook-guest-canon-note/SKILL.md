@@ -22,7 +22,7 @@ tags:
 
 **Active concept:** **strategy-codex guest speaker arc** — compact host x guest lane note for lattice/thread citation.
 
-**SSOT:** [codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) · host-stream placement in codex speaker shelves.
+**SSOT:** [continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md) · host-stream placement in codex speaker shelves.
 
 **Activation:** `speaker arc`, `guest canon note` — follow codex guest-arc workflow; cite raw-input receipts; no new lattice category without operator approval.
 

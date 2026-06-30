@@ -11,7 +11,7 @@ review_date: 2026-12-31
 ---
 # Conductor (legacy alias) — DEPRECATED
 
-**Superseded by:** **`coffee`** hub (external host skill `~/.codex/skills/coffee/`) + default-from-hub attention.
+**Superseded by:** **`coffee`** hub (external host skill `~/.continuity/skills/coffee/`) + default-from-hub attention.
 
 **Activation:** `conductor`, `toscanini`, `karajan`, `kleiber`, `bernstein` — say **`coffee`**, pick hub **A–D** per [CONDUCTOR-COMPRESSION-SPEC.md](../../../docs/skill-work/work-coffee/CONDUCTOR-COMPRESSION-SPEC.md).
 

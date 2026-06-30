@@ -57,7 +57,7 @@ python3 scripts/merge_daily_brief_postprocess.py -u grace-mar --date 2026-04-14 
 | **5–6** | Operator synthesis + work-politics next actions |
 | **7** | **Context efficiency (CEL)** — optional footer when `platform/config/context_budgets/daily_brief.json` has `append_cel_footer: true`; links to [context-efficiency-layer.md](../context-efficiency-layer.md), [context-compaction-protocol.md](../context-compaction-protocol.md), `session_brief --compact` |
 
-**Raw X / transcript strategy ingests:** Do **not** duplicate a full ingest list in this file — scratch lives in [../../codex/daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) (paste-ready one-liner SSOT); **weave** into `days.md` per [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Daily strategy inbox* (**`fold`** = legacy synonym).
+**Raw X / transcript strategy ingests:** Do **not** duplicate a full ingest list in this file — scratch lives in [../../continuity/daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md) (paste-ready one-liner SSOT); **weave** into `days.md` per [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Daily strategy inbox* (**`fold`** = legacy synonym).
 
 ---
 
@@ -151,7 +151,7 @@ partial, 2 strong):
 
 When emitting **Handoff to Grace-Mar** inbox lines, follow the paste-ready unit
 rules in
-[../../codex/daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md)
+[../../continuity/daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md)
 — optional **`cold: … // hook: …`** split, **`verify:`** tails, optional
 **`thread:<expert_id>`**, and optional **`membrane:*`** tokens.
 

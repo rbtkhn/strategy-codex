@@ -5,7 +5,7 @@ Purpose: explain why Karaganov is canonical now, why the shelf stays lighter tha
 
 ## Why Karaganov is canonical now
 
-Karaganov is no longer only a `codex/speakers/` stub because:
+Karaganov is no longer only a `continuity/speakers/` stub because:
 
 - there is a **ranked Diesen guest arc** with **six** direct archive appearances (2023–2026)
 - the full run — Mercouris triads (2023, 2024), 2025 solos, 2026 solo + Mearsheimer panel — is materialized in **Statecraft Archive**

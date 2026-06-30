@@ -91,7 +91,7 @@ def canonical_journal_intro(expert_id: str, *, month_ym: str | None = None) -> s
         lines += [
             "**Expert note (PH / work-jiang):** **Predictive History** notebook-facing ingest routes "
             "here only — see [strategy-commentator-threads](strategy-commentator-threads.md) special "
-            "routing rule; corpus lives under `codex/predictive-history/` (operator scope).",
+            "routing rule; corpus lives under `continuity/predictive-history/` (operator scope).",
             "",
         ]
     lines += [

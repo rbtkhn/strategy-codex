@@ -243,18 +243,18 @@ def _yaml_block(move: ArcMove) -> str:
 
 def _normalize_body(text: str, mapping: dict[str, str]) -> str:
     text = re.sub(
-        r"/C:/dev/strategy-codex/codex/years/(\d{4})/provenance/",
+        r"/C:/dev/strategy-continuity/continuity/years/(\d{4})/provenance/",
         r"../../source-archive/statecraft/",
         text,
         flags=re.I,
     )
     text = re.sub(
-        r"\.\./\.\./\.\./codex/years/(\d{4})/provenance/",
+        r"\.\./\.\./\.\./continuity/years/(\d{4})/provenance/",
         r"../../source-archive/statecraft/",
         text,
     )
     text = re.sub(
-        r"/C:/dev/strategy-codex/statecraft/notes/",
+        r"/C:/dev/strategy-continuity/statecraft/notes/",
         "",
         text,
         flags=re.I,

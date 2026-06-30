@@ -2,7 +2,7 @@
 <!-- word_count: 428 -->
 
 
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) - **`berletic`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) - **`berletic`** lane.
 
 ## Identity
 
@@ -24,7 +24,7 @@
 | **Voice tier** | `B` |
 | **Voice fingerprint - last reviewed** | `2026-04` |
 
-Promotion and refresh defaults: [strategy-expert-template.md section Voice fingerprint (compact)](../../../codex/strategy-expert-template.md#voice-fingerprint-compact).
+Promotion and refresh defaults: [strategy-expert-template.md section Voice fingerprint (compact)](../../../continuity/strategy-expert-template.md#voice-fingerprint-compact).
 
 ## Convergence fingerprint
 

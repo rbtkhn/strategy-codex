@@ -49,7 +49,7 @@ def pick_candidate(source: Path, basename: str, candidates: list[Path]) -> Path 
             value += 5
         if rel.startswith("statecraft/voices/"):
             value += 4
-        if rel.startswith("codex/"):
+        if rel.startswith("continuity/"):
             value += 3
         if rel.startswith("docs/skill-work/"):
             value += 2

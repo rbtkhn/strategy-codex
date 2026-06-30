@@ -12,7 +12,7 @@ Predictive History ingest is now **external-only**. The local [predictive-histor
 
 **Historical reference only:** [predictive-history/README.md](../../youtube-channels/predictive-history/README.md) documents the old local sync surface. Do **not** treat it as the active place to refresh the channel from inside `strategy-codex`.
 
-**Current flow:** prepare or fetch Predictive History material in the external canonical repo, then bring bounded snapshots, excerpts, or review packets into `strategy-codex` for digesting, critique, or strategy commentary. When quoting legacy local lecture material, verify it against the frozen [codex/predictive-history/lectures/](../../../codex/predictive-history/lectures/) snapshot and treat that check as historical reference, not canonical maintenance.
+**Current flow:** prepare or fetch Predictive History material in the external canonical repo, then bring bounded snapshots, excerpts, or review packets into `strategy-codex` for digesting, critique, or strategy commentary. When quoting legacy local lecture material, verify it against the frozen [continuity/predictive-history/lectures/](../../../continuity/predictive-history/lectures/) snapshot and treat that check as historical reference, not canonical maintenance.
 
 ---
 

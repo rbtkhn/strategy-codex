@@ -567,7 +567,7 @@ routes:
   path: runtime/artifacts/library-index.md
   kind: generated_dashboard
   authority: derived
-  canonical_source: codex/README.md
+  canonical_source: continuity/README.md
   tags:
   - generated
   - dashboard

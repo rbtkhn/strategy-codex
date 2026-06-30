@@ -32,7 +32,7 @@
 
 - **Promote Tier A** on a speaker before freezing the mind file; migrate role/contrast and Family 8 orthogonality into profile + [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) (B×M×Me triad in chat).
 - **Do not** add new structured register tables to mind files — add rows to the voice profile.
-- After Tier A is stable: mind file → **redirect stub** → canonical profile (triad done 2026-06 — `git show 904fb3bc6:codex/strategy-expert-<id>-mind.md` for historical body).
+- After Tier A is stable: mind file → **redirect stub** → canonical profile (triad done 2026-06 — `git show 904fb3bc6:continuity/strategy-expert-<id>-mind.md` for historical body).
 - **`tri-mind`** remains deprecated separately — [TRI-MIND-DEPRECATED.md](TRI-MIND-DEPRECATED.md).
 
 ## Related

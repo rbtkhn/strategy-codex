@@ -42,9 +42,9 @@ Do not extend this archived file. If current work needs this pattern, create or 
 
 ## strategy-codex instance
 
-- Root working area for this skill: [codex/academy/statecraft](../../../codex/academy/statecraft) with the main control plane under [civ-state/migration](../../../statecraft/states/migration).
+- Root working area for this skill: [continuity/academy/statecraft](../../../continuity/academy/statecraft) with the main control plane under [civ-state/migration](../../../statecraft/states/migration).
 - Preferred source stack for synthesis work:
-  - lane helixes such as [America helix](../../../codex/academy/statecraft/america/helix.md)
+  - lane helixes such as [America helix](../../../continuity/academy/statecraft/america/helix.md)
   - first-wave strand objects under each lane's `civilization/` and `empire/`
   - migration control-plane notes in [civ-state/migration](../../../statecraft/states/migration)
 - Preferred generator command after edits:

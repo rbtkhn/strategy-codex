@@ -14,7 +14,7 @@ Bounded Hormuz transit guarantee.
 - Speaker-state inputs: [Pape](../../../voices/pape/) for coercive leverage and falsifiers; [Parsi](../../../voices/parsi/) for settlement architecture; [Ritter](../../../voices/ritter/) / [Postol](../../../voices/postol/) for military danger; [Freeman](../../../voices/freeman/) / [Beebe](../../../voices/beebe/) / [Mearsheimer](../../../voices/mearsheimer/) for realist diplomacy.
 - Scoreboards used: [Pape coercive-center index](../../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../../sheets/mearsheimer-structural-realist-scoreboard.md).
 - Raw-input / provenance anchors: [Pape 2026-05-18](../../../../source-archive/statecraft/2026-05-18/source-pape-june-could-be-the-most-brutal-month-2026-05-18.md); [Parsi 2026-05-01](../../../../source-archive/statecraft/2026-05-01/source-parsi-trumps-blockade-snatches-defeat-from-the-jaws-of-victory-2026-05-01.md); [Parsi 2026-05-03](../../../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md).
-- Prior statecraft drafts: [Hormuz Strait Transit Agreement v0](../../../../codex/hormuz-strait-transit-agreement-v0.md); [Hormuz Reciprocal Transit De-escalation Framework v2.1](../../../../codex/hormuz-reciprocal-transit-deescalation-framework-v2-1.md).
+- Prior statecraft drafts: [Hormuz Strait Transit Agreement v0](../../../../continuity/hormuz-strait-transit-agreement-v0.md); [Hormuz Reciprocal Transit De-escalation Framework v2.1](../../../../continuity/hormuz-reciprocal-transit-deescalation-framework-v2-1.md).
 
 ## Civilization / Empire Helix Input
 

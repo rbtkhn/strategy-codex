@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "codex/predictive-history/**"
+      - "continuity/predictive-history/**"
       - "research/external/youtube-channels/predictive-history/**"
       - "docs/predictive-history-external-boundary.md"
       - "docs/skill-work/work-strategy/daily-brief-jiang-layer.md"
@@ -16,7 +16,7 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - "codex/predictive-history/**"
+      - "continuity/predictive-history/**"
       - "research/external/youtube-channels/predictive-history/**"
       - "docs/predictive-history-external-boundary.md"
       - "docs/skill-work/work-strategy/daily-brief-jiang-layer.md"

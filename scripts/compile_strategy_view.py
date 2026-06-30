@@ -29,6 +29,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
+from continuity_paths import continuity_root
 from strategy_expert_corpus import (  # noqa: E402
     RE_IN_FOLDER_MONTH_THREAD,
     THREAD_MARKER_END,
@@ -319,8 +320,8 @@ def main() -> None:
     parser.add_argument(
         "--notebook-dir",
         type=Path,
-        default=REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook",
-        help="Strategy notebook root",
+        default=continuity_root(REPO_ROOT),
+        help="Strategy notebook root (continuity/ or legacy continuity/)",
     )
     parser.add_argument(
         "--date",

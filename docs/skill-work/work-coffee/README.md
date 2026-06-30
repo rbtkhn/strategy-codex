@@ -45,7 +45,7 @@ This split is intentional:
 
 Named follow-on: after **C. Statecraft**, the operator may also invoke **`civ-state`** directly to open the upstream CIV-STATE analysis bench ([civ-state skill](../../../skills/civ-state/SKILL.md); legacy alias: `statecraft civ-state`). That command is for `Frame / Retrieve / Promote / Review`, not default lane drafting and not default book-writing.
 
-**Symphony / Conductor:** Conductor is standalone name-only; strategy-notebook cadence lives in [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) + [CONDUCTOR-PASS.md](CONDUCTOR-PASS.md). Invoke by conductor name, **`conductor <name>`**, or [conductor skill](../../../.cursor/skills/conductor/SKILL.md) without opening **`coffee`** when preferred.
+**Symphony / Conductor:** Conductor is standalone name-only; strategy-notebook cadence lives in [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../continuity/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) + [CONDUCTOR-PASS.md](CONDUCTOR-PASS.md). Invoke by conductor name, **`conductor <name>`**, or [conductor skill](../../../.cursor/skills/conductor/SKILL.md) without opening **`coffee`** when preferred.
 
 ### Why the conductor stack helps
 

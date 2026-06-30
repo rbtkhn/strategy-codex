@@ -18,7 +18,7 @@ from repo_io import SKILLS_DIR
 from validate_structured_files import iter_markdown_links  # noqa: E402
 
 INLINE_LINK_RE = re.compile(r"(\[[^\]]*\]\()([^)]+)(\))")
-WIN_ABS = re.compile(r"/C:/dev/strategy-codex/([^)\s]+)", re.IGNORECASE)
+WIN_ABS = re.compile(r"/C:/dev/strategy-continuity/([^)\s]+)", re.IGNORECASE)
 WIN_ABS2 = re.compile(r"C:\\\\dev\\\\strategy-codex\\\\([^)\s]+)", re.IGNORECASE)
 WIN_ABS3 = re.compile(r"C:\\dev\\strategy-codex\\([^)\s]+)", re.IGNORECASE)
 MAC_HOME = re.compile(r"/Users/[^)\s]+/([^)\s]*strategy-codex[^)\s]*)", re.IGNORECASE)
@@ -27,7 +27,7 @@ REPO_ROOT_TARGETS = (
     "statecraft/",
     "source-archive/",
     "docs/",
-    "codex/",
+    "continuity/",
     "archive/",
     "skills/",
     "singularity/",
@@ -49,7 +49,7 @@ ROOT_FILES = frozenset(
 )
 
 TARGET_REWRITES: dict[str, str] = {
-    "daily-strategy-inbox.md": "codex/daily-strategy-inbox.md",
+    "daily-strategy-inbox.md": "continuity/daily-strategy-inbox.md",
     "strategy-expert-freeman-thread.md": "freeman-thread.md",
     "strategy-expert-mearsheimer-thread.md": "mearsheimer-thread.md",
     "ph-civ/docs/source-video-index.md": (
@@ -76,10 +76,10 @@ TARGET_REWRITES: dict[str, str] = {
     "self-library.md": "archive/grace-mar-instance/self-library.md",
     "SELF-LIBRARY.md": "archive/grace-mar-instance/self-library.md",
     "self.md": "archive/grace-mar-instance/self.md",
-    "strategy-codex-template-page.md": "codex/strategy-codex-template-page.md",
+    "strategy-codex-template-page.md": "continuity/strategy-codex-template-page.md",
     "work-cici-history.md": "singularity/work-cici/README.md",
-    "STRATEGY-NOTEBOOK-ARCHITECTURE.md": "codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md",
-    "strategy-commentator-threads.md": "codex/strategy-commentator-threads.md",
+    "STRATEGY-NOTEBOOK-ARCHITECTURE.md": "continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md",
+    "strategy-commentator-threads.md": "continuity/strategy-commentator-threads.md",
     "arc-mercouris-continuity-threads.md": (
         "statecraft/voices/mercouris/mercouris-arc-threads.md"
     ),
@@ -108,8 +108,8 @@ TARGET_REWRITES: dict[str, str] = {
     ),
     "self-archive.md": "archive/grace-mar-instance/self-archive.md",
     "self-evidence.md": "archive/grace-mar-instance/self-evidence.md",
-    "CIV-MIND-BARNES.md": "codex/minds/CIV-MIND-BARNES.md",
-    "CIV-MIND-MERCOURIS.md": "codex/minds/CIV-MIND-MERCOURIS.md",
+    "CIV-MIND-BARNES.md": "continuity/minds/CIV-MIND-BARNES.md",
+    "CIV-MIND-MERCOURIS.md": "continuity/minds/CIV-MIND-MERCOURIS.md",
     "strategy-expert-mearsheimer-thread.md": "statecraft/voices/mearsheimer/mearsheimer-thread.md",
     "strategy-expert-davis-thread.md": "statecraft/voices/davis/davis-thread.md",
     "strategy-expert-diesen-transcript.md": "statecraft/voices/diesen/diesen-transcript.md",
@@ -123,19 +123,19 @@ TARGET_REWRITES: dict[str, str] = {
         "statecraft/voices/crooke/crooke-may-2026-interview-cross-host-arc.md"
     ),
     "mearsheimer-mind.md": "statecraft/voices/mearsheimer/mearsheimer-mind.md",
-    "CIV-MIND-MEARSHEIMER.md": "codex/minds/CIV-MIND-MEARSHEIMER.md",
-    "china-volume-seeds.md": "codex/academy/statecraft/china/chapter-seeds.md",
+    "CIV-MIND-MEARSHEIMER.md": "continuity/minds/CIV-MIND-MEARSHEIMER.md",
+    "china-volume-seeds.md": "continuity/academy/statecraft/china/chapter-seeds.md",
     "locals-arc-barnes-continuity-worked-example.md": (
         "docs/skill-write/locals-barnes-arc-worked-example.md"
     ),
-    "codex/experts/barnes/mind.md": "statecraft/voices/barnes/barnes-mind.md",
+    "continuity/experts/barnes/mind.md": "statecraft/voices/barnes/barnes-mind.md",
     "mtp-coffee-dream.md": "skills/runbooks/mtp-coffee-dream.runbook.md",
     "alkorshid-book-2026-04.md": "statecraft/voices/alkhorshid/alkhorshid-profile.md",
     "diesen-book-2026-04.md": "statecraft/voices/diesen/diesen-profile.md",
     "mercouris-book-2026-04.md": "statecraft/voices/mercouris/mercouris-profile.md",
     "davis-book-2026-04.md": "statecraft/voices/davis/davis-profile.md",
     "interviews-14-diesen-iran-war-petrodollar.md": (
-        "codex/predictive-history/lectures/interviews-14-glenn-diesen-iran-war-petrodollar.md"
+        "continuity/predictive-history/lectures/interviews-14-glenn-diesen-iran-war-petrodollar.md"
     ),
     "statecraft/states/theory/form.md": "public/civ-state/theory/memory.md",
     "integration-apis.md": "docs/architecture.md",
@@ -185,7 +185,7 @@ TARGET_REWRITES: dict[str, str] = {
 }
 
 PROVENANCE_LINK_RE = re.compile(
-    r"(?:(?:\.\./)+(?:codex/)?years/2026/provenance/|provenance/)"
+    r"(?:(?:\.\./)+(?:continuity/)?years/2026/provenance/|provenance/)"
     r"(\d{4}-\d{2}-\d{2})/([^)\s#]+)"
 )
 SCAFFOLD_DATE_RE = re.compile(r"^\./(\d{4}-\d{2}-\d{2})/(.+)$")
@@ -355,8 +355,8 @@ def resolve_legacy_path(path_part: str) -> Path | None:
     if "strategy-notebook/" in norm:
         rewritten = norm.replace(
             "docs/skill-work/work-strategy/strategy-notebook/",
-            "codex/",
-        ).replace("strategy-notebook/", "codex/")
+            "continuity/",
+        ).replace("strategy-notebook/", "continuity/")
         candidate = REPO_ROOT / rewritten
         if candidate.is_file():
             return candidate
@@ -522,7 +522,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
 
     if rel.startswith("statecraft/sheets/source-archive-control/"):
         replacements.append(
-            ("../refined-page-template.md", "../../../codex/refined-page-template.md")
+            ("../refined-page-template.md", "../../../continuity/refined-page-template.md")
         )
         replacements.extend(
             [
@@ -535,10 +535,10 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
     if rel.startswith("docs/skill-work/work-strategy/"):
         replacements.extend(
             [
-                ("strategy-notebook/NOTEBOOK-PREFERENCES.md", "../../codex/NOTEBOOK-PREFERENCES.md"),
-                ("strategy-notebook/chapters/", "../../codex/chapters/"),
-                ("strategy-notebook/", "../../codex/"),
-                ("../../codex/chapters/2026-04/", "../../../codex/chapters/2026/2026-04/"),
+                ("strategy-notebook/NOTEBOOK-PREFERENCES.md", "../../continuity/NOTEBOOK-PREFERENCES.md"),
+                ("strategy-notebook/chapters/", "../../continuity/chapters/"),
+                ("strategy-notebook/", "../../continuity/"),
+                ("../../continuity/chapters/2026-04/", "../../../continuity/chapters/2026/2026-04/"),
                 (
                     "../../.cursor/skills/skill-strategy/SKILL.md",
                     "../../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md",
@@ -573,12 +573,12 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
         replacements.append(
             (
                 "../strategy-notebook/",
-                "../../../codex/",
+                "../../../continuity/",
             )
         )
 
     if rel.startswith("statecraft/voices/"):
-        replacements.append(("../../codex/", "../../../codex/"))
+        replacements.append(("../../continuity/", "../../../continuity/"))
 
     if rel.startswith("statecraft/notes/reentry/"):
         replacements.append(("../../../america/", "../../america/"))
@@ -639,7 +639,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ("`transcript.md`", "`nima-transcript.md`"),
                 (
                     "../daily-strategy-inbox.md that include",
-                    "../../../../codex/daily-strategy-inbox.md) that include",
+                    "../../../../continuity/daily-strategy-inbox.md) that include",
                 ),
                 (
                     "nima-profile.md (cognitive profile)",
@@ -653,11 +653,11 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             [
                 (
                     "](../../strategy-commentator-threads.md (`",
-                    "](../../../codex/strategy-commentator-threads.md) (`",
+                    "](../../../continuity/strategy-commentator-threads.md) (`",
                 ),
                 (
                     "](../../strategy-commentator-threads.md (",
-                    "](../../../codex/strategy-commentator-threads.md) (",
+                    "](../../../continuity/strategy-commentator-threads.md) (",
                 ),
             ]
         )
@@ -701,15 +701,15 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             [
                 ("](transcript.md)", "](ritter-transcript.md)"),
                 (
-                    "../../../../../../../../../../../../codex/2026/ritter/ritter-thread.md",
+                    "../../../../../../../../../../../../continuity/2026/ritter/ritter-thread.md",
                     "../../ritter-thread.md",
                 ),
                 (
-                    "../../../../../../../../../../../../codex/2026/ritter/ritter-transcript.md",
+                    "../../../../../../../../../../../../continuity/2026/ritter/ritter-transcript.md",
                     "../../ritter-transcript.md",
                 ),
                 (
-                    "../../../../../../../../../../../../codex/experts/ritter/thread.md",
+                    "../../../../../../../../../../../../continuity/experts/ritter/thread.md",
                     "../../ritter-thread.md",
                 ),
             ]
@@ -746,7 +746,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ),
                 (
                     "../../../docs/skill-work/work-strategy/strategy-notebook/",
-                    "../../../../codex/",
+                    "../../../../continuity/",
                 ),
                 (
                     "../../../docs/skill-work/work-cici/archive/",
@@ -766,13 +766,13 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ),
                 ("../../.cursor/rules/", "../../../.cursor/rules/"),
                 ("../../.codex-tmp/", "../../../.codex-tmp/"),
-                ("../../../codex/academy/", "../../../../codex/academy/"),
+                ("../../../continuity/academy/", "../../../../continuity/academy/"),
                 ("../../../../.cursor/rules/", "../../../.cursor/rules/"),
                 ("../../../../../.cursor/rules/", "../../../.cursor/rules/"),
                 ("../../../../.codex-tmp/", "../../../.codex-tmp/"),
                 ("../../../../../.codex-tmp/", "../../../.codex-tmp/"),
-                ("../../../../../codex/academy/", "../../../../codex/academy/"),
-                ("../../../../../../codex/academy/", "../../../../codex/academy/"),
+                ("../../../../../continuity/academy/", "../../../../continuity/academy/"),
+                ("../../../../../../continuity/academy/", "../../../../continuity/academy/"),
             ]
         )
 
@@ -923,7 +923,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
     if rel.startswith("docs/skill-work/work-strategy/history-notebook/"):
         replacements.extend(
             [
-                ("../../../codex/chapters/", "../../../../codex/chapters/"),
+                ("../../../continuity/chapters/", "../../../../continuity/chapters/"),
                 ("../../../.cursor/rules/", "../../../../.cursor/rules/"),
             ]
         )
@@ -939,7 +939,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             [
                 (
                     "strategy-state-iran/voices/iri-institutional/thread.md",
-                    "../../../../codex/strategy-state-iran/voices/iri-institutional/thread.md",
+                    "../../../../continuity/strategy-state-iran/voices/iri-institutional/thread.md",
                 ),
                 (
                     "../daily-brief-",
@@ -961,7 +961,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                     "../../../../statecraft/states/volumes/civ-state-rome/sacred-grammar.md",
                 ),
                 (
-                    "../../codex/strategy-expert-davis-thread.md",
+                    "../../continuity/strategy-expert-davis-thread.md",
                     "../../../../statecraft/voices/davis/davis-thread.md",
                 ),
                 ("../../notes/arc-freeman", "../../../statecraft/notes/arc-freeman"),
@@ -1086,9 +1086,9 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ),
                 (
                     "../../academy/statecraft/civ-emp/",
-                    "../../../codex/academy/statecraft/civ-emp/",
+                    "../../../continuity/academy/statecraft/civ-emp/",
                 ),
-                ("../../../codex/mearsheimer-mind.md", "mearsheimer-mind.md"),
+                ("../../../continuity/mearsheimer-mind.md", "mearsheimer-mind.md"),
                 ("../../../../../../.cursor/", "../../../.cursor/"),
             ]
         )
@@ -1183,7 +1183,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
 
     if rel.startswith("statecraft/voices/"):
         replacements.append(
-            ("../../daily-strategy-inbox.md", "../../../codex/daily-strategy-inbox.md")
+            ("../../daily-strategy-inbox.md", "../../../continuity/daily-strategy-inbox.md")
         )
 
     if rel.startswith("statecraft/voices/pape/"):
@@ -1198,11 +1198,11 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                     "`](../../sheets/source-archive-control/README.md).",
                 ),
                 (
-                    "../../../codex/2026/pape/pape-transcript.md",
+                    "../../../continuity/2026/pape/pape-transcript.md",
                     "pape-transcript.md",
                 ),
                 (
-                    "../../../codex/2026/pape/pape-thread.md",
+                    "../../../continuity/2026/pape/pape-thread.md",
                     "pape-thread.md",
                 ),
             ]
@@ -1227,15 +1227,15 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                     ),
                     (f"../../notes/{speaker}-arc.md", f"{speaker}-arc.md"),
                     ("../../profiles/", "../"),
-                    ("../../../minds/CIV-MIND-", "../../../codex/minds/CIV-MIND-"),
-                    ("../../minds/CIV-MIND-", "../../../codex/minds/CIV-MIND-"),
-                    ("](minds/CIV-MIND-", "](../../../codex/minds/CIV-MIND-"),
+                    ("../../../minds/CIV-MIND-", "../../../continuity/minds/CIV-MIND-"),
+                    ("../../minds/CIV-MIND-", "../../../continuity/minds/CIV-MIND-"),
+                    ("](minds/CIV-MIND-", "](../../../continuity/minds/CIV-MIND-"),
                     (
-                        f"../../../codex/2026/{speaker}/{speaker}-thread.md",
+                        f"../../../continuity/2026/{speaker}/{speaker}-thread.md",
                         f"{speaker}-thread.md",
                     ),
                     (
-                        f"../../../codex/2026/{speaker}/{speaker}-transcript.md",
+                        f"../../../continuity/2026/{speaker}/{speaker}-transcript.md",
                         f"{speaker}-transcript.md",
                     ),
                     (
@@ -1291,7 +1291,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ("(../davis-profile.md", "(davis-profile.md"),
                 (
                     "strategy-state-iran/voices/iri-institutional/thread.md",
-                    "../../../../codex/strategy-state-iran/voices/iri-institutional/thread.md",
+                    "../../../../continuity/strategy-state-iran/voices/iri-institutional/thread.md",
                 ),
             ]
         )
@@ -1300,7 +1300,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
         replacements.append(
             (
                 "strategy-state-iran/voices/iri-institutional/thread.md",
-                "../../../../codex/strategy-state-iran/voices/iri-institutional/thread.md",
+                "../../../../continuity/strategy-state-iran/voices/iri-institutional/thread.md",
             )
         )
 
@@ -1540,10 +1540,10 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                     "../../../../.cursor/rules/strategy-minds-granular.mdc",
                 ),
                 (
-                    "../../../../codex/chapters/YYYY-MM/meta.md",
-                    "../../../../codex/chapters/2026/2026-04/meta.md",
+                    "../../../../continuity/chapters/YYYY-MM/meta.md",
+                    "../../../../continuity/chapters/2026/2026-04/meta.md",
                 ),
-                ("codex/chapters/YYYY-MM/", "codex/chapters/2026/2026-04/"),
+                ("continuity/chapters/YYYY-MM/", "continuity/chapters/2026/2026-04/"),
             ]
         )
 
@@ -1964,7 +1964,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ),
                 (
                     "../../strategy-commentator-threads.md",
-                    "../../../codex/strategy-commentator-threads.md",
+                    "../../../continuity/strategy-commentator-threads.md",
                 ),
                 ("../ritter-profile.md", "ritter-profile.md"),
                 ("../parsi-thread.md", "parsi-thread.md"),
@@ -2053,8 +2053,8 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
     patterns: list[tuple[str, str]] = [
         (r"statecraft/research/bridges/", "statecraft/bridges/"),
         (r"ph-civ/book/", "public/predictive-history/book/"),
-        (r"codex/chapters/(\d{4})-(\d{2})/", r"codex/chapters/\1/\1-\2/"),
-        (r"codex/chapters/YYYY-MM/", "codex/chapters/2026/2026-04/"),
+        (r"continuity/chapters/(\d{4})-(\d{2})/", r"continuity/chapters/\1/\1-\2/"),
+        (r"continuity/chapters/YYYY-MM/", "continuity/chapters/2026/2026-04/"),
     ]
     if rel.startswith("statecraft/synthesis/"):
         patterns.append((r"(?:\.\./)+america/transactions/", "../../america/transactions/"))
@@ -2099,30 +2099,30 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
         patterns.append((r"arc-([a-z0-9-]+)-continuity\.md", r"\1-arc.md"))
         patterns.append(
             (
-                r"\]\((?:\.\./)+codex/daily-strategy-inbox\.md (?=[^\)])",
-                r"](../../../codex/daily-strategy-inbox.md) ",
+                r"\]\((?:\.\./)+continuity/daily-strategy-inbox\.md (?=[^\)])",
+                r"](../../../continuity/daily-strategy-inbox.md) ",
             )
         )
         patterns.append(
             (
-                r"\]\((?:\.\./)+codex/daily-strategy-inbox\.md\(",
-                r"](../../../codex/daily-strategy-inbox.md) (",
+                r"\]\((?:\.\./)+continuity/daily-strategy-inbox\.md\(",
+                r"](../../../continuity/daily-strategy-inbox.md) (",
             )
         )
         patterns.append(
             (r"(?:\.\./)+\.cursor/skills/tri-mind/", "../../../.cursor/skills/tri-mind/")
         )
-        patterns.append((r"(?:\.\./)+codex/predictive-history/", "../../../codex/predictive-history/"))
-        patterns.append((r"(?:\.\./)+codex/", "../../../codex/"))
+        patterns.append((r"(?:\.\./)+continuity/predictive-history/", "../../../continuity/predictive-history/"))
+        patterns.append((r"(?:\.\./)+continuity/", "../../../continuity/"))
     if "source-archive-residue" in rel:
         patterns.append((r"(?:\.\./\.\./\.\./voices/marandi/)+", "../../../voices/marandi/"))
     if rel.startswith("docs/skill-work/work-strategy/history-notebook/"):
         patterns.extend(
             [
-                (r"(?:\.\./)+codex/chapters/", "../../../../codex/chapters/"),
-                (r"(?:\.\./)+codex/minds/", "../../../../codex/minds/"),
-                (r"(?:\.\./)+codex/predictive-history/", "../../../../codex/predictive-history/"),
-                (r"(?:\.\./)+codex/STRATEGY-NOTEBOOK-ARCHITECTURE\.md", "../../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md"),
+                (r"(?:\.\./)+continuity/chapters/", "../../../../continuity/chapters/"),
+                (r"(?:\.\./)+continuity/minds/", "../../../../continuity/minds/"),
+                (r"(?:\.\./)+continuity/predictive-history/", "../../../../continuity/predictive-history/"),
+                (r"(?:\.\./)+continuity/STRATEGY-NOTEBOOK-ARCHITECTURE\.md", "../../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md"),
                 (r"(?:\.\./)+\\.cursor/rules/", "../../../../.cursor/rules/"),
                 (r"(?:\.\./)+research/repos/", "../../../../research/repos/"),
             ]
@@ -2152,7 +2152,7 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
         patterns.append(
             (
                 r"\]\(\.\./daily-strategy-inbox\.md \(",
-                r"](../../../codex/daily-strategy-inbox.md) (",
+                r"](../../../continuity/daily-strategy-inbox.md) (",
             )
         )
     if rel.startswith("statecraft/voices/"):
@@ -2188,20 +2188,20 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
         )
         patterns.append(
             (
-                r"\]\((?:\.\./)+codex/minds/(CIV-MIND-[^.]+\.md) \(",
-                r"](../../../codex/minds/\1) (",
+                r"\]\((?:\.\./)+continuity/minds/(CIV-MIND-[^.]+\.md) \(",
+                r"](../../../continuity/minds/\1) (",
             )
         )
         patterns.append(
             (
-                r"\]\((?:\.\./)+codex/minds/(CIV-MIND-[^.]+\.md) ",
-                r"](../../../codex/minds/\1) ",
+                r"\]\((?:\.\./)+continuity/minds/(CIV-MIND-[^.]+\.md) ",
+                r"](../../../continuity/minds/\1) ",
             )
         )
         patterns.append(
             (
                 r"\]\(strategy-state-iran/voices/",
-                r"](../../../../codex/strategy-state-iran/voices/",
+                r"](../../../../continuity/strategy-state-iran/voices/",
             )
         )
     if rel.startswith("statecraft/voices/davis/"):
@@ -2237,14 +2237,14 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
     if rel.startswith(".cursor/skills/strategy-notebook-expert-cross-weave/"):
         patterns.append(
             (
-                r"\]\(\.\./\.\./\.\./codex/chapters/2026-04/meta\.md\)",
-                r"](../../../../codex/chapters/2026/2026-04/meta.md)",
+                r"\]\(\.\./\.\./\.\./continuity/chapters/2026-04/meta\.md\)",
+                r"](../../../../continuity/chapters/2026/2026-04/meta.md)",
             )
         )
     if rel.startswith(".cursor/skills/skill-write/"):
         patterns.append(
             (
-                r"\]\(\.\./\.\./\.\./codex/experts/barnes/mind\.md\)",
+                r"\]\(\.\./\.\./\.\./continuity/experts/barnes/mind\.md\)",
                 r"](../../../statecraft/voices/barnes/barnes-mind.md)",
             )
         )
@@ -2253,7 +2253,7 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
             (r"\]\(\.\./\.\./\.\./\.cursor/rules/", r"](../../.cursor/rules/"),
         )
     if rel.startswith(".cursor/skills/"):
-        patterns.append((r"\]\(\.\./\.\./\.\./\.\./codex/", r"](../../../codex/"))
+        patterns.append((r"\]\(\.\./\.\./\.\./\.\./continuity/", r"](../../../continuity/"))
         patterns.append(
             (
                 r"statecraft/synthesis/day/_templates/week-hinge-start-here\.md",
@@ -2263,14 +2263,14 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
         patterns.append((r"(?:\.\./)+\.codex-tmp/", "../../../.codex-tmp/"))
         patterns.append((r"(?:\.\./)+\.cursor/rules/", "../../../.cursor/rules/"))
     elif rel.startswith("skills/"):
-        patterns.append((r"\]\(\.\./\.\./\.\./\.\./codex/", r"](../../codex/"))
+        patterns.append((r"\]\(\.\./\.\./\.\./\.\./continuity/", r"](../../continuity/"))
         patterns.append(
             (
                 r"statecraft/synthesis/day/_templates/week-hinge-start-here\.md",
                 "statecraft/notes/reentry/_templates/week-hinge-start-here.md",
             )
         )
-        patterns.append((r"(?:\.\./)+codex/academy/", "../../codex/academy/"))
+        patterns.append((r"(?:\.\./)+continuity/academy/", "../../continuity/academy/"))
         patterns.append((r"(?:\.\./)+\.codex-tmp/", "../../../.codex-tmp/"))
         patterns.append((r"(?:\.\./)+\.cursor/rules/", "../../../.cursor/rules/"))
     if rel.startswith("skills/runbooks/"):
@@ -2279,7 +2279,7 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
     patterns.append((r"(?:\.\./)+speakers/", "../../voices/"))
     patterns.append(
         (
-            r"(?:\.\./)+codex/years/2025/provenance/([0-9-]+)/",
+            r"(?:\.\./)+continuity/years/2025/provenance/([0-9-]+)/",
             r"../../../source-archive/statecraft/\1/",
         )
     )

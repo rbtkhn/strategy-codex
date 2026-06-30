@@ -51,7 +51,7 @@ The proof of learning is not the shared invariant. It is the difference in what 
 
 | lane | lane identity | bridge ambiguity | native proof anchor |
 | --- | --- | --- | --- |
-| Persia | recognition, dignity, leverage | recognition-first vs settlement-first | [Hormuz recognition transit transaction](../../codex/academy/statecraft/persia/transactions/hormuz-recognition-transit-transaction.md) |
+| Persia | recognition, dignity, leverage | recognition-first vs settlement-first | [Hormuz recognition transit transaction](../../continuity/academy/statecraft/persia/transactions/hormuz-recognition-transit-transaction.md) |
 | America | bounded command, burden-sharing, successor authority | bounded-command-first vs burden-sharing-settlement-first | [Digital identity continuity before platform control](../america/transactions/digital-identity-continuity-before-platform-control.md) |
 | China | continuity, order, anti-chaos stabilization | order-preserving stabilization-first vs anti-coercion leverage-architecture-first | [Taiwan inspection pressure without blockade ownership](../china/transactions/taiwan-inspection-pressure-without-blockade-ownership.md) |
 

@@ -57,7 +57,7 @@ That is why this theme belongs in the shelf. It teaches restraint not only about
 
 Primary `civ-emp` bucket: `empire-instrument`
 
-Open [CIV-EMP README](../../../codex/academy/statecraft/civ-emp/README.md and the [source-retrieval matrix](../../../codex/academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md when the task becomes:
+Open [CIV-EMP README](../../../continuity/academy/statecraft/civ-emp/README.md and the [source-retrieval matrix](../../../continuity/academy/statecraft/civ-emp/indexes/source-retrieval-matrix.md when the task becomes:
 
 - deciding whether an imperial-overreach analogy is structurally sound
 - distinguishing embarrassment, overreach, and real long-term decline

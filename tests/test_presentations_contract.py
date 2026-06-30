@@ -19,9 +19,9 @@ def _base_bundle() -> dict:
                 "id": "ce-emp:iran:hormuz",
                 "title": "Hormuz Recognition Transit Restraint",
                 "text": "Pattern text with transaction hooks.",
-                "citation": "codex/academy/statecraft/civ-emp/iran/hormuz-recognition-transit-restraint.md",
+                "citation": "continuity/academy/statecraft/civ-emp/iran/hormuz-recognition-transit-restraint.md",
                 "kind": "markdown",
-                "source_path": "codex/academy/statecraft/civ-emp/iran/hormuz-recognition-transit-restraint.md",
+                "source_path": "continuity/academy/statecraft/civ-emp/iran/hormuz-recognition-transit-restraint.md",
                 "public": False,
             }
         ],

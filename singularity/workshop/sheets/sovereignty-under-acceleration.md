@@ -4,7 +4,7 @@ WORK only; not Record.
 
 This bridge sheet connects singularity-academy to repo-root `statecraft/` as the live authority-and-settlement receiver. Use it when compute, models, agents, memory, identity, permissions, data centers, audit, rollback, or automation are becoming strategic infrastructure and the question is no longer only technical: **who can still inspect, refuse, pause, reverse, contest, audit, and govern the system?**
 
-When the signal matures into carrier, legitimacy, treaty, policy, or sovereignty architecture, treat repo-root [statecraft](/C:/dev/strategy-codex/statecraft/README.md) as the operative drafting surface rather than the older academy compatibility namespace.
+When the signal matures into carrier, legitimacy, treaty, policy, or sovereignty architecture, treat repo-root [statecraft](/C:/dev/strategy-continuity/statecraft/README.md) as the operative drafting surface rather than the older academy compatibility namespace.
 
 Core thesis: sovereignty under acceleration means legitimate human or institutional authority remains meaningful after systems become faster, cheaper, more autonomous, more scalable, or more recursive.
 
@@ -33,7 +33,7 @@ For Coffee D, treat this sheet as the canonical route-away trigger when all thre
 2. the needed output is treaty, policy, negotiation, institutional design, compute compact, authority map, or sovereignty note rather than another acceleration diagnosis; and
 3. the singularity-side control-plane read is already mature enough to name objective, memory, permissions, audit, pause, rollback, and the human command gap.
 
-When those conditions hold, say so plainly and route to repo-root [statecraft](/C:/dev/strategy-codex/statecraft/README.md). Do not keep the work in Coffee D just because the source signal began as an AI or acceleration story.
+When those conditions hold, say so plainly and route to repo-root [statecraft](/C:/dev/strategy-continuity/statecraft/README.md). Do not keep the work in Coffee D just because the source signal began as an AI or acceleration story.
 
 ## Full Pass
 

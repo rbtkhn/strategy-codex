@@ -5,7 +5,7 @@ Append one JSON line per video per run to a .jsonl file for longitudinal trackin
 does not download video or full comment threads.
 
   python3 scripts/snapshot_youtube_video_metrics.py --video-id lkKrZq4YdqY \\
-    --jsonl codex/predictive-history/influence-tracking/snapshots/video-metrics.jsonl
+    --jsonl continuity/predictive-history/influence-tracking/snapshots/video-metrics.jsonl
 """
 
 from __future__ import annotations

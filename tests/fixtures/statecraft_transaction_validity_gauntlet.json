@@ -14,7 +14,7 @@
       "id": "STX-G001",
       "label": "template boundary and validity statuses",
       "role": "template",
-      "path": "codex/academy/statecraft/templates/statecraft-transaction.md",
+      "path": "continuity/academy/statecraft/templates/statecraft-transaction.md",
       "points": 10,
       "critical": true,
       "must_cover": [
@@ -30,7 +30,7 @@
       "id": "STX-G002",
       "label": "template provenance and source inputs",
       "role": "template",
-      "path": "codex/academy/statecraft/templates/statecraft-transaction.md",
+      "path": "continuity/academy/statecraft/templates/statecraft-transaction.md",
       "points": 10,
       "critical": false,
       "must_cover": [
@@ -44,7 +44,7 @@
       "id": "STX-G003",
       "label": "template continuity and authority carrier",
       "role": "template",
-      "path": "codex/academy/statecraft/templates/statecraft-transaction.md",
+      "path": "continuity/academy/statecraft/templates/statecraft-transaction.md",
       "points": 10,
       "critical": false,
       "must_cover": [
@@ -59,7 +59,7 @@
       "id": "STX-G004",
       "label": "template authority restraint settlement hinge",
       "role": "template",
-      "path": "codex/academy/statecraft/templates/statecraft-transaction.md",
+      "path": "continuity/academy/statecraft/templates/statecraft-transaction.md",
       "points": 10,
       "critical": true,
       "must_cover": [
@@ -74,7 +74,7 @@
       "id": "STX-G005",
       "label": "template validation and revisit discipline",
       "role": "template",
-      "path": "codex/academy/statecraft/templates/statecraft-transaction.md",
+      "path": "continuity/academy/statecraft/templates/statecraft-transaction.md",
       "points": 10,
       "critical": false,
       "must_cover": [
@@ -89,7 +89,7 @@
       "id": "STX-G006",
       "label": "full transaction provenance and status",
       "role": "full_transaction",
-      "path": "codex/academy/statecraft/iran/transactions/hormuz-recognition-transit-transaction.md",
+      "path": "continuity/academy/statecraft/iran/transactions/hormuz-recognition-transit-transaction.md",
       "points": 10,
       "critical": true,
       "must_cover": [
@@ -104,7 +104,7 @@
       "id": "STX-G007",
       "label": "full transaction continuity and conversion",
       "role": "full_transaction",
-      "path": "codex/academy/statecraft/iran/transactions/hormuz-recognition-transit-transaction.md",
+      "path": "continuity/academy/statecraft/iran/transactions/hormuz-recognition-transit-transaction.md",
       "points": 10,
       "critical": false,
       "must_cover": [
@@ -120,7 +120,7 @@
       "id": "STX-G008",
       "label": "full transaction validation and instrument text",
       "role": "full_transaction",
-      "path": "codex/academy/statecraft/iran/transactions/hormuz-recognition-transit-transaction.md",
+      "path": "continuity/academy/statecraft/iran/transactions/hormuz-recognition-transit-transaction.md",
       "points": 10,
       "critical": false,
       "must_cover": [
@@ -136,7 +136,7 @@
       "id": "STX-G009",
       "label": "full transaction mirror and revisit",
       "role": "full_transaction",
-      "path": "codex/academy/statecraft/iran/transactions/hormuz-recognition-transit-transaction.md",
+      "path": "continuity/academy/statecraft/iran/transactions/hormuz-recognition-transit-transaction.md",
       "points": 10,
       "critical": false,
       "must_cover": [
@@ -151,7 +151,7 @@
       "id": "STX-G010",
       "label": "tracked cross-lane framework source frame and validity",
       "role": "framework_readme",
-      "path": "codex/academy/statecraft/transactions/hormuz-transit-sanctions-relief-compact/README.md",
+      "path": "continuity/academy/statecraft/transactions/hormuz-transit-sanctions-relief-compact/README.md",
       "points": 10,
       "critical": true,
       "must_cover": [

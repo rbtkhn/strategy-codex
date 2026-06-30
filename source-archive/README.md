@@ -15,7 +15,7 @@ At the repo-root level, the stack is:
 
 - [`archive/`](../archive/README.md) for preserved legacy snapshots and non-live holdings
 - `source-archive/` for canonical full-source capture intended for active downstream use
-- [`codex/`](../codex/README.md) for chronology, accumulation, and continuity
+- [`continuity/`](../continuity/README.md) for chronology, accumulation, and continuity (legacy redirect: [`codex/`](../codex/README.md))
 - [`statecraft/`](../statecraft/README.md) and [`singularity/`](../singularity/README.md) for live interpretation, routing, synthesis, notes, essays, and downstream judgment
 
 Direct consumer namespaces:

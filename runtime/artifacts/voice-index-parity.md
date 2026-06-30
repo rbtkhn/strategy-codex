@@ -8,7 +8,7 @@ python3 scripts/build_voice_index_registry.py
 
 Terminology: [`voice-index-registry.md`](../../statecraft/voices/voice-index-registry.md).
 
-_Generated at 2026-06-30T05:13:26Z_
+_Generated at 2026-06-30T06:41:25Z_
 
 ## Summary
 
@@ -29,7 +29,7 @@ _Generated at 2026-06-30T05:13:26Z_
 | Voice | Primary index | Builder | Eligible | Indexed | Parity | Exceptions | Status |
 | --- | --- | --- | ---: | ---: | --- | --- | --- |
 | aguilar | `statecraft/voices/aguilar/aguilar-index.md` | `scripts/build_aguilar_index.py` | 19 | 19 | pass | — | canonical |
-| alkhorshid | `statecraft/voices/alkhorshid/alkhorshid-index.md` | `scripts/build_alkhorshid_guest_index.py` | 1 | 2 | pass | dialogue-works host channel (channel_slug dialogue-works, source-dialogue-works-*) excluded from guest-index parity; cross-host guest captures only (Nima on other hosts) | canonical |
+| alkhorshid | `statecraft/voices/alkhorshid/alkhorshid-index.md` | `scripts/build_alkhorshid_guest_index.py` | 1 | 1 | pass | dialogue-works host channel (channel_slug dialogue-works, source-dialogue-works-*) excluded from guest-index parity; cross-host guest captures only (Nima on other hosts) | canonical |
 | barnes | `statecraft/voices/barnes/barnes-index.md` | `scripts/build_barnes_index.py` | 23 | 23 | pass | — | canonical |
 | baud | `statecraft/voices/baud/baud-index.md` | `scripts/build_baud_index.py` | 34 | 34 | pass | — | canonical |
 | blumenthal | `statecraft/voices/blumenthal/blumenthal-index.md` | `scripts/build_blumenthal_index.py` | 8 | 8 | pass | — | canonical |

@@ -4,11 +4,11 @@ The daily `check streams` skill does not try to represent the whole cognition la
 
 It tracks five streams because together they form a practical **daily watchset**:
 
-- [Davis](../../../codex/COGNITION-STREAMS.md) supplies live military feasibility, escalation, and command-pressure reading.
-- [Diesen](../../../codex/COGNITION-STREAMS.md) keeps long-horizon structural and order-level argument in view.
-- [Dialogue Works / Alkorshid](../../../codex/COGNITION-STREAMS.md) brings interview-pressure probing that makes guests disclose sharper crisis grammars.
-- [Napolitano / Judging Freedom](../../../codex/COGNITION-STREAMS.md) adds high-frequency constitutional, legal, and host-local cross-examination pressure.
-- [Mercouris](../../../codex/COGNITION-STREAMS.md) offers extended monologue synthesis with statecraft continuity.
+- [Davis](../../../continuity/COGNITION-STREAMS.md) supplies live military feasibility, escalation, and command-pressure reading.
+- [Diesen](../../../continuity/COGNITION-STREAMS.md) keeps long-horizon structural and order-level argument in view.
+- [Dialogue Works / Alkorshid](../../../continuity/COGNITION-STREAMS.md) brings interview-pressure probing that makes guests disclose sharper crisis grammars.
+- [Napolitano / Judging Freedom](../../../continuity/COGNITION-STREAMS.md) adds high-frequency constitutional, legal, and host-local cross-examination pressure.
+- [Mercouris](../../../continuity/COGNITION-STREAMS.md) offers extended monologue synthesis with statecraft continuity.
 - [Redacted News](https://www.youtube.com/@RedactedNews) adds high-frequency independent news and guest-interview crisis grammar (Clayton & Natali Morris).
 
 What binds them is not identical ideology or identical format.

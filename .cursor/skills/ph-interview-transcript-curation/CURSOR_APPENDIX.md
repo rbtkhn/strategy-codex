@@ -6,7 +6,7 @@ Cursor-only paths for [ph-interview-transcript-curation/SKILL.md](../../../skill
 |---------|------|
 | Canonical PH repo (edit here) | `$PREDICTIVE_HISTORY_ROOT` or operator clone of `rbtkhn/predictive-history` |
 | Inbound mirror (do not hand-edit) | `public/predictive-history/` in strategy-codex |
-| Frozen workshop (do not edit unless revived) | `codex/predictive-history/` |
+| Frozen workshop (do not edit unless revived) | `continuity/predictive-history/` |
 
 ## Known interview packets
 

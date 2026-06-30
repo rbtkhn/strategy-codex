@@ -31,8 +31,8 @@ SKIP_PREFIXES = (
 
 # Order matters: longer / more specific first.
 REPLACEMENTS: tuple[tuple[str, str], ...] = (
-    ("LIB-0153", "strategy-codex (`codex/`)"),
-    ("LIB-0149", "predictive-history (`codex/predictive-history/`)"),
+    ("LIB-0153", "strategy-codex (`continuity/`)"),
+    ("LIB-0149", "predictive-history (`continuity/predictive-history/`)"),
     ("LIB-0154", "cici notebook (`singularity/work-cici/cici-notebook/`)"),
     ("LIB-0155", "dev journal (`docs/skill-work/work-dev/dev-notebook/work-dev/journal/`)"),
     ("LIB-0151", "Predictive History YouTube library (`research/external/youtube-channels/predictive-history/`)"),

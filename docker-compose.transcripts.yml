@@ -7,7 +7,7 @@
 # GPU profile (optional): whisper.cpp / local LLM with NVIDIA runtime on Linux host.
 #   docker compose -f docker-compose.transcripts.yml --profile gpu up -d whisper-gpu
 # Requires nvidia-container-toolkit and a GPU-capable image for your workload.
-# Env reference: codex/predictive-history/OFFLOAD-ENV.md (TRANSCRIPT_WHISPER_BACKEND, WORK_JIANG_ANALYSIS_LLM).
+# Env reference: continuity/predictive-history/OFFLOAD-ENV.md (TRANSCRIPT_WHISPER_BACKEND, WORK_JIANG_ANALYSIS_LLM).
 version: "3.9"
 services:
   redis-transcripts:

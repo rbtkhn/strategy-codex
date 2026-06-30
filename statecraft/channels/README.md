@@ -6,7 +6,7 @@ Purpose: hold the canonical live **channel-family** continuity surfaces that bel
 
 **Folder rule:** one subdirectory per **`channel_slug`** on the [main channel-index roster](channel-index.md) ([`channel-index.json`](channel-index.json)). Archive `channel_slug` and shelf folder name must match.
 
-This layer exists so live channel-law, channel-native routing pressure, and guest-lane classification no longer depend on retired `codex/speakers/<host>/...` paths for active statecraft work.
+This layer exists so live channel-law, channel-native routing pressure, and guest-lane classification no longer depend on retired `continuity/speakers/<host>/...` paths for active statecraft work.
 
 ## Vertical stack (archive → voices → channels → states)
 
@@ -24,7 +24,7 @@ Do not flatten guest-on-host reads into `voices/` when host law changes retrieva
 - `statecraft/channels/<channel_slug>/` — one folder per main roster channel
 - `statecraft/sheets/` — cross-host comparison notes and compact routing law
 - `statecraft/voices/` — speaker-state identity, support spines, speaker-native routing
-- Legacy **`codex/speakers/`** terminated — [codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md)
+- Legacy **`continuity/speakers/`** terminated — [codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md)
 
 ## Main roster (15 channels)
 
@@ -39,7 +39,7 @@ Do not flatten guest-on-host reads into `voices/` when host law changes retrieva
 | `the-duran` | [the-duran/](the-duran/README.md) | yes | Duran channel (Mercouris + Christoforou) |
 | `india-global-left` | [india-global-left/](india-global-left/README.md) | | [india-global-left-channel-index.md](india-global-left/india-global-left-channel-index.md) |
 | `neutrality-studies` | [neutrality-studies/](neutrality-studies/README.md) | | Pascal Lottaz neutralist host frame · [neutrality-studies-channel-index.md](neutrality-studies/neutrality-studies-channel-index.md) |
-| `predictive-history` | [predictive-history/](predictive-history/README.md) | | Operator PH YouTube (≠ `codex/predictive-history/` book) · [predictive-history-channel-index.md](predictive-history/predictive-history-channel-index.md) |
+| `predictive-history` | [predictive-history/](predictive-history/README.md) | | Operator PH YouTube (≠ `continuity/predictive-history/` book) · [predictive-history-channel-index.md](predictive-history/predictive-history-channel-index.md) |
 | `breaking-points` | [breaking-points/](breaking-points/README.md) | | [breaking-points-channel-index.md](breaking-points/breaking-points-channel-index.md) |
 | `tucker-carlson` | [tucker-carlson/](tucker-carlson/README.md) | | [tucker-carlson-channel-index.md](tucker-carlson/tucker-carlson-channel-index.md) |
 | `reason-resist` | [reason-resist/](reason-resist/README.md) | | **Host-only:** Dimitri Lascaris = channel law, not a voice shelf — [reason-resist-channel-index.md](reason-resist/reason-resist-channel-index.md); no `lascaris-index`; guests → [voices/](../voices/) |
@@ -87,7 +87,7 @@ See also [`statecraft/voices/README.md` § Flat shelf law](../voices/README.md#f
 - raw transcript authority
 - lane judgment
 - speaker-native month ladders
-- new live doctrine in `codex/`
+- new live doctrine in `continuity/`
 
 ## Boundary
 

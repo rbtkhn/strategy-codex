@@ -58,7 +58,7 @@ If there is **no** prefix and intent is **unclear**, the agent should default to
 Scope rules for this repo (instance + operator lanes), complementary to [AGENTS.md](../AGENTS.md) merge authority.
 
 - **Feature branch per theme** â€” For non-trivial or multi-file work, use a dedicated branch so `main` stays easy to fast-forward and PRs stay reviewable. Trivial one-file fixes on `main` remain fine when the operator prefers.
-- **Scoped staging** â€” When the task is narrow, stage by path or `git add -p`. Mixing `*`, `codex/predictive-history/*`, `archive/grace-mar-instance/bot/`, and broad `docs/*` in one commit without operator intent is a **review hazard**; split or call it out in the commit message.
+- **Scoped staging** â€” When the task is narrow, stage by path or `git add -p`. Mixing `*`, `continuity/predictive-history/*`, `archive/grace-mar-instance/bot/`, and broad `docs/*` in one commit without operator intent is a **review hazard**; split or call it out in the commit message.
 - **Before push (collaborative remotes)** â€” If others may have pushed, run `git fetch` and reconcile (`git pull --rebase` or merge) before `git push` to avoid a surprise â€œfetch firstâ€ rejection.
 - **After `git push` of a branch other than `main`** â€” Emit a **GitHub compare URL** so the operator can open a PR without the `gh` CLI:
   - `https://github.com/<owner>/<repo>/compare/<base>...<head>`

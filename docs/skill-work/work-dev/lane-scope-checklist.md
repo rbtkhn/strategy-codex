@@ -29,8 +29,8 @@ Typical `work-dev` paths:
 
 Potential cross-lane bleed to watch:
 
-- `codex/predictive-history/`
-- `codex/predictive-history/README-operator.md`
+- `continuity/predictive-history/`
+- `continuity/predictive-history/README-operator.md`
 - `scripts/work_jiang/`
 
 ## Commit hygiene

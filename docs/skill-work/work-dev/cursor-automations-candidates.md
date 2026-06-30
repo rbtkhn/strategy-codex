@@ -22,7 +22,7 @@
 | **Steward / gate (manual)** | `recursion-gate.md` | `operator_gate_review_pass.py` Ã¢â€ â€™ **human approve** Ã¢â€ â€™ `process_approved_candidates.py --apply` (never autonomous) | Weekly / on approve | **Companion approval** for every merge |
 | **integrity / derived** | `manifest.json`, `grace-mar-llm.txt`, `fork-manifest.json`, runtime bundle, etc. | `validate-integrity.py`, `regen_grace_mar_derived.sh` (see [work-cadence README](../../../README.md)) | After Record/prompt commits | regen batch vs single export |
 | **work-strategy** (default lane) | `strategy-notebook/**`, inbox, `days.md` | skill-strategy, manual compose | Daily / session | Judgment, verify tier, promote |
-| **work-jiang** | `codex/predictive-history/**`, registries | `scripts/validate_predictive_history_boundary.py` and boundary docs | On explicit boundary work only | validate freeze contract |
+| **work-jiang** | `continuity/predictive-history/**`, registries | `scripts/validate_predictive_history_boundary.py` and boundary docs | On explicit boundary work only | validate freeze contract |
 
 **Script safety (for automation design):**
 
@@ -81,7 +81,7 @@
 | **2 PR load** | **PR opened** / **synchronized**: after Actions, **comment** with *human-readable* map: which workflows ran, what `lane/*` is for, link to [lane-scope](../../../.github/workflows/lane-scope.yml) and gated-record hint Ã¢â‚¬â€ template-heavy, **LLM optional** | **CI completed** + failure: one comment with **failing job** + *first* file to look at (from log excerpt) Ã¢â‚¬â€ **judgment-light** triage |
 | **3 Gate queue** | **Scheduled** (e.g. Monday): read-only `recursion-gate` **count** + list **CANDIDATE-** ids (cap at N) + Ã¢â‚¬Å“run `process_approved_candidates` only after approveÃ¢â‚¬Â **boilerplate** | **Not** `process_approved_candidates` in automation Ã¢â‚¬â€ violates doctrine |
 | **4 Re-entry** | **Low fit** for full cloud replacement of `coffee` | If you insist: **scheduled** Ã¢â‚¬Å“integrity + handoff_check stdout summaryÃ¢â‚¬Â to **Slack** as *telemetry*, not a ritual substitute |
-| **5 work-jiang** | **CI completed** (work-jiang workflow only): on failure, comment with the boundary-validator result and the first blocked path | **Push** in `codex/predictive-history/**`: optional reminder that PH edits belong in the external canonical repo Ã¢â‚¬â€ **high** governance value; **low** implementation complexity |
+| **5 work-jiang** | **CI completed** (work-jiang workflow only): on failure, comment with the boundary-validator result and the first blocked path | **Push** in `continuity/predictive-history/**`: optional reminder that PH edits belong in the external canonical repo Ã¢â‚¬â€ **high** governance value; **low** implementation complexity |
 
 **Slack / Linear / Sentry / PagerDuty:** only wire if those integrations are in your *actual* stack; repo gives no signal they are required for grace-mar core.
 

@@ -163,7 +163,7 @@ The fact that outcomes slightly exceed picks in this subwindow is informative ra
 
 The most important recursive waves were not the most theatrical ones. They were the ones that tightened the system's own discipline.
 
-- [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) and [CONDUCTOR-PASS.md](../work-coffee/CONDUCTOR-PASS.md) captured the May 14 repair that named the central failure mode: conductor drifting into style overlay instead of protocol
+- [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md) and [CONDUCTOR-PASS.md](../work-coffee/CONDUCTOR-PASS.md) captured the May 14 repair that named the central failure mode: conductor drifting into style overlay instead of protocol
 - [2026-05-14-day-05.md](../work-dev/dev-notebook/work-dev/journal/2026-05-14-day-05.md) shows Bernstein being used to turn broad repo hygiene into explicit buckets, hold lines, and next-wedge discipline
 - [2026-05-15-day-06.md](../work-dev/dev-notebook/work-dev/journal/2026-05-15-day-06.md) shows multiple conductor stances helping separate verification, durability, and remote publication from one another instead of collapsing them into a single "done"
 - recent cadence outcomes in `strategy-codex` repeatedly tie conductor closes to falsifiers, benchmark notes, review packets, and concrete notebook refs rather than leaving the value in chat alone

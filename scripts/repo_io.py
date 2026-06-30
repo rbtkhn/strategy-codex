@@ -59,6 +59,7 @@ REPO_PATH_CLASSIFICATION: dict[str, str] = {
     "recursion-gate-staging": "grace_mar_compat",
     "bootstrap": "grace_mar_compat",
     "grace-mar-instance": "grace_mar_compat",
+    "codex": "active_canonical",
 }
 
 _LEGACY_PATH_WARNED: set[str] = set()
@@ -83,7 +84,7 @@ TARGET_ROOT_FOLDERS: frozenset[str] = frozenset(
         ".github",
         "library",
         "archive",
-        "codex",
+        "continuity",
         "docs",
         "essays",
         "examples",
@@ -132,6 +133,7 @@ REPO_PATH_MIGRATIONS: dict[str, tuple[str, ...]] = {
     "recursion-gate-staging": ("archive/grace-mar-instance/recursion-gate-staging",),
     "bootstrap": ("archive/grace-mar-instance/bootstrap",),
     "grace-mar-instance": ("archive/grace-mar-instance",),
+    "codex": ("continuity", "codex"),
 }
 
 GRACE_MAR_INSTANCE_DIR = REPO_ROOT / "archive" / "grace-mar-instance"
@@ -473,6 +475,12 @@ APPS_DIR = resolve_repo_path("apps")
 SCHEMA_REGISTRY_DIR = resolve_repo_path("schema-registry")
 AUTO_RESEARCH_DIR = resolve_repo_path("auto-research")
 REVIEW_QUEUE_DIR = resolve_repo_path("review-queue")
+CONTINUITY_DIR = resolve_repo_path("codex")
+
+
+def continuity_dir() -> Path:
+    """Canonical continuity-layer root (continuity/ with continuity/ fallback)."""
+    return CONTINUITY_DIR
 
 def user_profile_dir(user_id: str) -> Path:
     """Per-fork profile directory under platform/users/."""

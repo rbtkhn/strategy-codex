@@ -14,7 +14,7 @@ Operator-facing index for the skill system. Pipeline detail: [skills/README.md](
 | **Drafts** | `skills/_drafts/<name>/SKILL.md` | Experimental; not manifest-listed |
 | **Inventory** | `runtime/artifacts/skill-inventory.md` | Generated — `python3 scripts/generate_skill_inventory.py` |
 | **Domain-pack triage** | `runtime/artifacts/domain-pack-triage.md` | Generated — `python3 scripts/generate_domain_pack_triage.py` (disposition SSOT during consolidation) |
-| **External cadence** | `~/.codex/skills/coffee/` | Host-installed; not in repo manifest |
+| **External cadence** | `~/.continuity/skills/coffee/` | Host-installed; not in repo manifest |
 
 ## Six categories
 

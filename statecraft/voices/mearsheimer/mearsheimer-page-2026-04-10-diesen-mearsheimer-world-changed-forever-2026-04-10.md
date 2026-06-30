@@ -31,7 +31,7 @@ Guest lane holds the structural theses. Host lane [diesen file](../diesen/diesen
 ### Appendix
 
 - **Full verbatim (capture):** [provenance/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../../../source-archive/statecraft/2026-04-10/source-diesen-mearsheimer-world-changed-forever-2026-04-10.md)
-- **Inbox / triage:** [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) (search `thread:mearsheimer`, 2026-04-10)
+- **Inbox / triage:** [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md) (search `thread:mearsheimer`, 2026-04-10)
 - **`thread:mearsheimer` × `thread:diesen` ·** Host: [../diesen/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../diesen/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md) · **verify:** `pub_date:2026-04-10` + `watch?v=H2K3qDshr70`
 - **Canonical primary:** `https://www.youtube.com/watch?v=H2K3qDshr70`
 - **Legacy (stub, duplicate transcript removed):** [mearsheimer-page-2026-04-10-world-changed-forever.md](mearsheimer-page-2026-04-10-world-changed-forever.md)

@@ -1,7 +1,7 @@
 # Strategy expert Ã¢â‚¬â€ `marandi`
 <!-- word_count: 393 -->
 
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) Ã¢â‚¬â€ **`marandi`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) Ã¢â‚¬â€ **`marandi`** lane.
 
 ## Identity
 

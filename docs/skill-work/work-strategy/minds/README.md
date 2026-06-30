@@ -10,15 +10,15 @@
 
 | Lens | Role | Voice profile (SSOT) | Mind file (redirect → platform/profile) |
 |------|------|----------------------|--------------------------------|
-| Mercouris | Legitimacy, narrative, doctrine, symbolic continuity | [mercouris-profile.md](../../../../statecraft/voices/mercouris/mercouris-profile.md) § detailed (Tier A) | [`strategy-expert-mercouris-mind.md`](../../../../codex/strategy-expert-mercouris-mind.md) |
-| Mearsheimer | Power, alliances, security dilemmas, great-power geometry | [mearsheimer-profile.md](../../../../statecraft/voices/mearsheimer/mearsheimer-profile.md) § detailed (Tier A) | [`strategy-expert-mearsheimer-mind.md`](../../../../codex/strategy-expert-mearsheimer-mind.md) |
-| Barnes | Liability, jurisdiction, US civic machinery | [barnes-profile.md](../../../../statecraft/voices/barnes/barnes-profile.md) § detailed (Tier A) | [`strategy-expert-barnes-mind.md`](../../../../codex/strategy-expert-barnes-mind.md) |
+| Mercouris | Legitimacy, narrative, doctrine, symbolic continuity | [mercouris-profile.md](../../../../statecraft/voices/mercouris/mercouris-profile.md) § detailed (Tier A) | [`strategy-expert-mercouris-mind.md`](../../../../continuity/strategy-expert-mercouris-mind.md) |
+| Mearsheimer | Power, alliances, security dilemmas, great-power geometry | [mearsheimer-profile.md](../../../../statecraft/voices/mearsheimer/mearsheimer-profile.md) § detailed (Tier A) | [`strategy-expert-mearsheimer-mind.md`](../../../../continuity/strategy-expert-mearsheimer-mind.md) |
+| Barnes | Liability, jurisdiction, US civic machinery | [barnes-profile.md](../../../../statecraft/voices/barnes/barnes-profile.md) § detailed (Tier A) | [`strategy-expert-barnes-mind.md`](../../../../continuity/strategy-expert-barnes-mind.md) |
 
-**Triad mind files (2026-06):** redirect stubs only — historical corpus at `git show 904fb3bc6:codex/strategy-expert-<id>-mind.md`.
+**Triad mind files (2026-06):** redirect stubs only — historical corpus at `git show 904fb3bc6:continuity/strategy-expert-<id>-mind.md`.
 
-**Redirect paths (stable links, not duplicate bodies):** [CIV-MIND-MERCOURIS.md](../../../../codex/minds/CIV-MIND-MERCOURIS.md) · [CIV-MIND-MEARSHEIMER.md](../../../../codex/minds/CIV-MIND-MEARSHEIMER.md) · [CIV-MIND-BARNES.md](../../../../codex/minds/CIV-MIND-BARNES.md)
+**Redirect paths (stable links, not duplicate bodies):** [CIV-MIND-MERCOURIS.md](../../../../continuity/minds/CIV-MIND-MERCOURIS.md) · [CIV-MIND-MEARSHEIMER.md](../../../../continuity/minds/CIV-MIND-MEARSHEIMER.md) · [CIV-MIND-BARNES.md](../../../../continuity/minds/CIV-MIND-BARNES.md)
 
-**Index:** [../../codex/minds/README.md](../../../../README.md)
+**Index:** [../../continuity/minds/README.md](../../../../README.md)
 
 **civ-mem** (`research/repos/civilization_memory`) is optional upstream diff only — **voice profile + archive** ground new work without civ-mem checkout.
 

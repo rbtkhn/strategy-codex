@@ -25,7 +25,7 @@ The useful lens is not simply "the West was wrong" or "leaders lied." It is more
 
 Repo-current 2026 captures suggest the capacity-description gap has widened from Ukraine-specific mismatch into a broader Western execution problem. The language remains strategic; the described means look increasingly partial, delayed, or unavailable.
 
-On Ukraine, the April 26 Mercouris handle in `codex/daily-strategy-inbox.md` is the cleanest continuation point: `US Says EU Has No Ukraine Plan; Ukraine Wants More EU Funds Russia Economy Strong; Iran Scorns Talks`. As a WORK-layer source handle, it preserves the same mismatch in compressed form: Europe inherits a larger share of the Ukraine burden while local captures simultaneously register plan anxiety, funding demands, sanctions packages, and Russian economic resilience claims.
+On Ukraine, the April 26 Mercouris handle in `continuity/daily-strategy-inbox.md` is the cleanest continuation point: `US Says EU Has No Ukraine Plan; Ukraine Wants More EU Funds Russia Economy Strong; Iran Scorns Talks`. As a WORK-layer source handle, it preserves the same mismatch in compressed form: Europe inherits a larger share of the Ukraine burden while local captures simultaneously register plan anxiety, funding demands, sanctions packages, and Russian economic resilience claims.
 
 On Europe, the May 16 Diesen/Mercouris capture preserves the domestic-political version of the gap. European leaders are described as focused on rearmament, Russia, and Ukraine while facing deteriorating economic and legitimacy conditions at home. The same file keeps the negotiation problem visible: leaders can invoke diplomacy and ceasefire language, but the captured critique says the practical content often looks like Russia surrendering leverage or Ukraine using a pause to regroup and replenish arms.
 
@@ -65,9 +65,9 @@ The three arcs should be read together but not collapsed. Peace-leverage is abou
 
 Repo-current 2026 continuity anchors:
 
-- `codex/daily-strategy-inbox.md` - Apr 26 Mercouris handle: `US Says EU Has No Ukraine Plan; Ukraine Wants More EU Funds Russia Economy Strong; Iran Scorns Talks`
-- `codex/daily-strategy-inbox.md` - Apr 28 Mearsheimer handle: `How Trump Lost His War`, with U.S. strategic bandwidth, force depletion, and no quick-reset military option
-- `codex/daily-strategy-inbox.md` - Apr 28 Freeman handle: `What Russia Can Do For Iran`, with absent war-termination strategy, shifting objectives, endurance mismatch, and guarantees language
+- `continuity/daily-strategy-inbox.md` - Apr 26 Mercouris handle: `US Says EU Has No Ukraine Plan; Ukraine Wants More EU Funds Russia Economy Strong; Iran Scorns Talks`
+- `continuity/daily-strategy-inbox.md` - Apr 28 Mearsheimer handle: `How Trump Lost His War`, with U.S. strategic bandwidth, force depletion, and no quick-reset military option
+- `continuity/daily-strategy-inbox.md` - Apr 28 Freeman handle: `What Russia Can Do For Iran`, with absent war-termination strategy, shifting objectives, endurance mismatch, and guarantees language
 - `source-archive/statecraft/2026-04-26/source-alexander-mercouris-us-eu-ukraine-russia-iran-sunday-2026-04-26.md` - raw-input file handle for EU plan/funding anxiety
 - `source-archive/statecraft/2026-04-26/source-alexander-mercouris-us-eu-ukraine-russia-iran-sunday-2026-04-26.md` - transcript handle for Europe rearmament, sanctions, and crisis framing
 - `source-archive/statecraft/2026-05-16/source-glenn-diesen-alexander-mercouris-the-political-legitimacy-crisis-across-europe-2026-05-16.md` - European legitimacy crisis, rearmament focus, negotiation/capitulation framing, and ceasefire as regrouping/rearming language

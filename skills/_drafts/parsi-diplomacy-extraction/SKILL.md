@@ -40,8 +40,8 @@ Open speaker and authored surfaces first:
 - `statecraft/voices/parsi/parsi-speaker-object.md`
 - `statecraft/voices/parsi/parsi-helix.md`
 - `statecraft/voices/parsi/parsi-interview-appearances-2025-2026.md`
-- `codex/years/2026/parsi/parsi-forecast-ledger-2025-2026.md`
-- `codex/years/2026/parsi/parsi-lane-consolidation-2026-05.md`
+- `continuity/years/2026/parsi/parsi-forecast-ledger-2025-2026.md`
+- `continuity/years/2026/parsi/parsi-lane-consolidation-2026-05.md`
 
 Then choose source class:
 

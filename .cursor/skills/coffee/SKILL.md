@@ -71,7 +71,7 @@ When the operator says **`toscanini`**, **`furtwangler`**, **`karajan`**, **`kle
 
 **Open loops (replaces `build_conductor_revisit_block`):** Step 1 **Recent rhythm** prose; bootstrap **Open loops** when `coffee_close` carries `loops=`; live **72h watch** / daily sheets when statecraft is active — advisory, not a second menu.
 
-**Close:** [extended `log_coffee_close.py`](../../../scripts/log_coffee_close.py) + [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) when notebook paste helps. **`verdict=promote|shaped`** → mandatory RLJ append ([recursive-learn](../recursive-learn/SKILL.md)).
+**Close:** [extended `log_coffee_close.py`](../../../scripts/log_coffee_close.py) + [CONDUCTOR-CLOSE-TEMPLATE.md](../../../continuity/CONDUCTOR-CLOSE-TEMPLATE.md) when notebook paste helps. **`verdict=promote|shaped`** → mandatory RLJ append ([recursive-learn](../recursive-learn/SKILL.md)).
 
 **`bravo` / `weak`:** [§5.4 compression spec](../../../docs/skill-work/work-coffee/CONDUCTOR-COMPRESSION-SPEC.md#54-bravo--weak-on-object-rituals) — not coffee-hub **B** unless operator picks Test.
 

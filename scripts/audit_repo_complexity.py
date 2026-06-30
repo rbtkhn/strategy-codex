@@ -124,7 +124,7 @@ SCAN_ROOTS = (
 SKIP_PREFIXES = (
     "public/predictive-history/",
     "research/",
-    "codex/predictive-history/",
+    "continuity/predictive-history/",
 )
 
 def _scan_markdown_globs() -> list[Path]:

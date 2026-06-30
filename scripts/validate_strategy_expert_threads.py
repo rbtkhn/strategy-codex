@@ -39,7 +39,9 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
-NOTEBOOK_DIR = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+from continuity_paths import continuity_root  # noqa: E402
+
+NOTEBOOK_DIR = continuity_root(REPO_ROOT)
 
 from strategy_expert_corpus import (  # noqa: E402
     collect_strategy_thread_paths,

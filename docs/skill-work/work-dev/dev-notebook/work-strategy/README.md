@@ -21,7 +21,7 @@
 
 - [work-strategy README (identity, default path)](../../../work-strategy/README.md)  
 - [DEFAULT-PATH.md](../../../work-strategy/DEFAULT-PATH.md)  
-- [STRATEGY-NOTEBOOK-ARCHITECTURE (SSOT path)](../../../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md)  
+- [STRATEGY-NOTEBOOK-ARCHITECTURE (SSOT path)](../../../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md)  
 - [strategy-notebook README](../../../work-strategy/strategy-notebook/README.md)  
 - [skill-strategy](../../../work-strategy/SKILL-STRATEGY-DEPRECATED.md) (Cursor)  
 - [OB1 / stack map](../../../../integrations/ob1/mapping.md#conceptual-map-ob1-cici-grace-mar) (optional)  

@@ -13,7 +13,7 @@ from pathlib import Path
 from textwrap import dedent
 
 ROOT = Path(__file__).resolve().parents[2]
-SCRATCH = ROOT / "codex/predictive-history/prediction-tracking/scratch"
+SCRATCH = ROOT / "continuity/predictive-history/prediction-tracking/scratch"
 REVEAL = ROOT / "scripts/work_jiang/forward_chain_blind_bundle.py"
 
 # K -> markdown body for prediction packet (episodes 1..K in prefix; predict K+1)
@@ -197,7 +197,7 @@ def main() -> None:
 
     out_jsonl = (
         ROOT
-        / "codex/predictive-history/prediction-tracking/registry/lecture-forward-chain-blind.jsonl"
+        / "continuity/predictive-history/prediction-tracking/registry/lecture-forward-chain-blind.jsonl"
     )
     with out_jsonl.open("w", encoding="utf-8") as f:
         f.write(

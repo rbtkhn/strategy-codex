@@ -186,7 +186,7 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-04, re
 
 ### Foresight
 
-- [Ritter blockade mechanics Ã¢â‚¬â€ verify checklist (2026-04-13)](../../../codex/daily-strategy-inbox.md) (inbox **Ã‚Â§ Ritter blockade mechanics**)
+- [Ritter blockade mechanics Ã¢â‚¬â€ verify checklist (2026-04-13)](../../../continuity/daily-strategy-inbox.md) (inbox **Ã‚Â§ Ritter blockade mechanics**)
 - Re-run **`python3 scripts/strategy_thread.py`** after inbox **`thread:`** updates.
 
 ---
@@ -199,7 +199,7 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-04, re
 |--------|--------|
 | **Date** | 2026-04-14 |
 | **page_id** (machine slug) | `ritter-blockade-hormuz-weave` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../continuity/chapters/2026/2026-04/days.md) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -212,7 +212,7 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-04, re
 
 ### Lineage Ã¢â‚¬â€ **`thread:ritter`** (anchor)
 
-- **Primary ingest:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ **`YT | cold: Scott Ritter Ã¢â‚¬â€ Ritter's Rant 085: The Blockade`** (`thread:ritter`) Ã¢â‚¬â€ **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read Ã¢â‚¬â€ URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
+- **Primary ingest:** [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) Ã¢â‚¬â€ **`YT | cold: Scott Ritter Ã¢â‚¬â€ Ritter's Rant 085: The Blockade`** (`thread:ritter`) Ã¢â‚¬â€ **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read Ã¢â‚¬â€ URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
 - **Same-topic expert threads (indexed only Ã¢â‚¬â€ no new anchors):** pull **`davis`**, **`jermy`**, **`diesen`**, **`sachs`**, **`parsi`**, **`mearsheimer`**, **`mercouris`**, **`barnes`**, **`johnson`**, **`marandi`** only where **`daily-strategy-inbox.md`** / **`days.md`** already carries a **`thread:`** or **continuity-spine** line for **2026-04-12Ã¢â‚¬â€œ14** **Hormuz** / **blockade** Ã¢â‚¬â€ this page **weaves**; it does **not** mint **new** **`expert_id`** rows.
 
 ### Prior days (same Hormuz arc Ã¢â‚¬â€ cross-links)
@@ -252,7 +252,7 @@ Pins keep **`ritter`** **mechanics** **distinct** from **speech**/**institution*
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | **Ritter** **Rant 085** (canonical episode) | `TBD` Ã¢â‚¬â€ [inbox `thread:ritter`](../../../codex/daily-strategy-inbox.md) |
+| **1** | **Ritter** **Rant 085** (canonical episode) | `TBD` Ã¢â‚¬â€ [inbox `thread:ritter`](../../../continuity/daily-strategy-inbox.md) |
 | **2** | **Davis Ãƒâ€” Jermy** Deep Dive (blockade **same week**) | [YouTube](https://www.youtube.com/watch?v=etxmqrdm3V0) |
 | **3** | **Related weave** registry (this fileÃ¢â‚¬â„¢s **cross-links**) | [legacy page index](../../../README.md) Ã¢â‚¬â€ search `2026-04-14` |
 
@@ -288,7 +288,7 @@ Pins keep **`ritter`** **mechanics** **distinct** from **speech**/**institution*
 |--------|--------|
 | **Date** | 2026-04-14 |
 | **page_id** (machine slug) | `armstrong-cash-hormuz-digital-dollar-arc` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../continuity/chapters/2026/2026-04/days.md) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -301,9 +301,9 @@ Pins keep **`ritter`** **mechanics** **distinct** from **speech**/**institution*
 
 ### Lineage
 
-- **Ingest:** Operator **Cursor session weave** (option **D**) Ã¢â‚¬â€ not gated on a single [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) paste line; **optional follow-up:** add a cold line + `batch-analysis` tail if this arc is folded into the inbox accumulator.
+- **Ingest:** Operator **Cursor session weave** (option **D**) Ã¢â‚¬â€ not gated on a single [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) paste line; **optional follow-up:** add a cold line + `batch-analysis` tail if this arc is folded into the inbox accumulator.
 - **Indexed expert threads (`thread:<expert_id>`):** **none** for this page Ã¢â‚¬â€ provocation is **social + documentary** sources, not a named **strategy-commentator** transcript row. Same-day **Hormuz** work on **2026-04-14** uses **`thread:ritter`**, **`thread:davis`**, **`thread:jermy`**, etc.; this page is a **different plane** (money, statute, attribution).
-- **Analytical lenses (work-strategy mind files Ã¢â‚¬â€ not `thread:` experts):** [CIV-MIND-BARNES.md](../../../codex/minds/CIV-MIND-BARNES.md) (statute, Federal Reserve Act, Congress as chokepoint), [CIV-MIND-MERCOURIS.md](../../../codex/minds/CIV-MIND-MERCOURIS.md) (legitimacy of cash, civilizational Ã¢â‚¬Å“storyÃ¢â‚¬Â of money), [CIV-MIND-MEARSHEIMER.md](../../../codex/minds/CIV-MIND-MEARSHEIMER.md) (who gains if retail central-bank digital currency stalls while private digital dollars advance).
+- **Analytical lenses (work-strategy mind files Ã¢â‚¬â€ not `thread:` experts):** [CIV-MIND-BARNES.md](../../../continuity/minds/CIV-MIND-BARNES.md) (statute, Federal Reserve Act, Congress as chokepoint), [CIV-MIND-MERCOURIS.md](../../../continuity/minds/CIV-MIND-MERCOURIS.md) (legitimacy of cash, civilizational Ã¢â‚¬Å“storyÃ¢â‚¬Â of money), [CIV-MIND-MEARSHEIMER.md](../../../continuity/minds/CIV-MIND-MEARSHEIMER.md) (who gains if retail central-bank digital currency stalls while private digital dollars advance).
 - **Source objects woven:** **Martin Armstrong** posts on X (`@ArmstrongEcon`) Ã¢â‚¬â€ **emotional / percentage** provocation (cash vs digital split; adjacent commodity claims); **Larry Fink / BlackRock** Ã¢â‚¬â€ chairman letters and public interviews on **tokenization** and **market plumbing** (primary pulls in Links); **U.S. Congress** Ã¢â‚¬â€ stablecoin and retail central-bank digital currency bills (text in Links); **Statista** (citing **Signal Group**) Ã¢â‚¬â€ **Arabian Gulf** share of **seaborne fertilizer** exports (definition: **origin**, not automatically **Strait of Hormuz transit**).
 - **History resonance:** deferred Ã¢â‚¬â€ no **history-notebook** chapter wired this pass.
 - **Civilizational bridge:** optional fit Ã¢â‚¬â€ **Chokepoint coercion** family on [`civilizational-strategy-surface.md`](../../../docs/skill-work/work-strategy/civilizational-strategy-surface.md) **echoes** the **fertilizer / Hormuz** thread **only** when **verify** separates **Gulf-origin** trade from **transit** metrics; **do not** merge with **04-14** **`thread:`** **ORBAT** facts without a labeled seam.
@@ -312,11 +312,11 @@ Pins keep **`ritter`** **mechanics** **distinct** from **speech**/**institution*
 
 | Page | Relation |
 |------|-----------|
-| `ritter-blockade-hormuz-weave` | **Hormuz** expert mechanics Ã¢â‚¬â€ **orthogonal** to this pageÃ¢â‚¬â„¢s **U.S. payment-law** arc; **fertilizer** language may **overlap in mood** with **`jermy`** cascade lines in [`days.md`](../../../codex/chapters/2026/2026-04/days.md), not as proof of the same **quantity**. |
+| `ritter-blockade-hormuz-weave` | **Hormuz** expert mechanics Ã¢â‚¬â€ **orthogonal** to this pageÃ¢â‚¬â„¢s **U.S. payment-law** arc; **fertilizer** language may **overlap in mood** with **`jermy`** cascade lines in [`days.md`](../../../continuity/chapters/2026/2026-04/days.md), not as proof of the same **quantity**. |
 
 ### References
 
-- **Mind profiles (WORK):** [CIV-MIND-BARNES.md](../../../codex/minds/CIV-MIND-BARNES.md) Ã‚Â· [CIV-MIND-MERCOURIS.md](../../../codex/minds/CIV-MIND-MERCOURIS.md) Ã‚Â· [CIV-MIND-MEARSHEIMER.md](../../../codex/minds/CIV-MIND-MEARSHEIMER.md)
+- **Mind profiles (WORK):** [CIV-MIND-BARNES.md](../../../continuity/minds/CIV-MIND-BARNES.md) Ã‚Â· [CIV-MIND-MERCOURIS.md](../../../continuity/minds/CIV-MIND-MERCOURIS.md) Ã‚Â· [CIV-MIND-MEARSHEIMER.md](../../../continuity/minds/CIV-MIND-MEARSHEIMER.md)
 - **BlackRock Ã¢â‚¬â€ Larry Fink chairman letters (primary hub):** [Investor relations Ã¢â‚¬â€ annual chairmanÃ¢â‚¬â„¢s letter](https://www.blackrock.com/corporate/investor-relations/larry-fink-annual-chairmans-letter)
 - **U.S. Congress (119th) Ã¢â‚¬â€ illustrative statutory objects:** [H.R.1919 Ã¢â‚¬â€ Anti-CBDC Surveillance State Act](https://www.congress.gov/bill/119th-congress/house-bill/1919) (retail CBDC restrictions Ã¢â‚¬â€ read current status on Congress.gov) Ã‚Â· [S.394 Ã¢â‚¬â€ GENIUS Act](https://www.congress.gov/bill/119th-congress/senate-bill/394/text) (payment **stablecoin** framework Ã¢â‚¬â€ not interchangeable with retail CBDC bans)
 - **Fertilizer / Gulf (origin share Ã¢â‚¬â€ not identical to Hormuz transit %):** [Statista chart Ã¢â‚¬â€ Gulf fertilizer / Signal Group chain](https://www.statista.com/chart/35981/share-of-global-seaborne-fertilizer-trade-from-the-arabian-gulf-and-destination-breakdown/) Ã‚Â· [Signal Group Ã¢â‚¬â€ market insights (fertilizer)](https://www.thesignalgroup.com/newsroom/market-insights-fertiliser-markets-suffer-from-arabian-gulf-conflict/)

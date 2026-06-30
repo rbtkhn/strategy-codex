@@ -2,7 +2,7 @@
 """Operator command **``thread``**: triage inbox + extract for thread distillation.
 
 After **``thread:<expert_id>``** paste-ready lines are in
-``codex/daily-strategy-inbox.md``, run (from repo root)::
+``continuity/daily-strategy-inbox.md``, run (from repo root)::
 
     platform/bin/thread
 
@@ -36,7 +36,7 @@ only; it does **not** perform integrated analysis or write pages.
 
 WORK-only; not Record.
 
-Spec: ``codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md``
+Spec: ``continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md``
 § *Thread (terminology)*.
 """
 
@@ -53,9 +53,9 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from console_io import ensure_utf8_stdio  # noqa: E402
 
-DEFAULT_INBOX = REPO_ROOT / "codex/daily-strategy-inbox.md"
+DEFAULT_INBOX = REPO_ROOT / "continuity/daily-strategy-inbox.md"
 DEFAULT_OUT_DIR = REPO_ROOT / "codex" / "years" / "2026"
-DEFAULT_PAGE_INDEX = REPO_ROOT / "codex/knot-index.yaml"
+DEFAULT_PAGE_INDEX = REPO_ROOT / "continuity/knot-index.yaml"
 
 def _suggest_page_candidates(out_dir: Path) -> list[str]:
     """Detect cross-expert page opportunities from pages already in threads."""

@@ -34,7 +34,7 @@ REPLACEMENTS = [
     ("statecraft/voices/alkorshid/", "statecraft/voices/alkhorshid/"),
     ("voices/alkorshid/alkorshid-", "voices/alkhorshid/alkhorshid-"),
     ("alkorshid/alkorshid-", "alkhorshid/alkhorshid-"),
-    ("codex/experts/alkorshid", "codex/experts/alkhorshid"),
+    ("continuity/experts/alkorshid", "continuity/experts/alkhorshid"),
     ("id: alkorshid-", "id: alkhorshid-"),
     ("alkorshid-index.md", "alkhorshid-index.md"),
     ("alkorshid-profile.md", "alkhorshid-profile.md"),

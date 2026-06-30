@@ -70,7 +70,7 @@ Typical notebook move:
 Working examples:
 
 - [marandi-page-2026-04-21-blockade-islamabad-hormuz.md](../../../statecraft/voices/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md)
-- [rome-persia-legitimacy-signal-check.md](../../../codex/rome-persia-legitimacy-signal-check.md)
+- [rome-persia-legitimacy-signal-check.md](../../../continuity/rome-persia-legitimacy-signal-check.md)
 
 ## Dual-register maturity check
 
@@ -99,7 +99,7 @@ before the seam has actually matured enough to carry that sentence honestly.
 Working examples:
 
 - [packet-before-synthesis-doctrine.md](packet-before-synthesis-doctrine.md) â€” Araghchi / Marandi
-- [rome-persia-legitimacy-signal-check.md](../../../codex/rome-persia-legitimacy-signal-check.md) â€” Pezeshkian / elite-English legitimacy gloss
+- [rome-persia-legitimacy-signal-check.md](../../../continuity/rome-persia-legitimacy-signal-check.md) â€” Pezeshkian / elite-English legitimacy gloss
 
 ## Minimal selection rule
 

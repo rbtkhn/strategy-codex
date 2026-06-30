@@ -12,7 +12,7 @@ alwaysApply: true
 That path is a **directory junction** to **`C:\dev\strategy-codex\.cursor\skills\check-streams`** on this machine.
 
 - **Before** running discovery, clip filtering, or raw-input materialization, **read that `SKILL.md`** end-to-end.
-- **Canonical repo operations** (`codex/…`, `scripts/materialize_youtube_raw_input.py`, audits, receipts) assume workspace **`C:\dev\strategy-codex`**; switch or reference that root when executing commands.
+- **Canonical repo operations** (`continuity/…`, `scripts/materialize_youtube_raw_input.py`, audits, receipts) assume workspace **`C:\dev\strategy-codex`**; switch or reference that root when executing commands.
 - Single-URL work remains the separate **youtube transcript** workflow in strategy-codex.
 
 If the junction is missing, recreate from `ph-civ` repo root:

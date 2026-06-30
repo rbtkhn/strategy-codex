@@ -1,8 +1,8 @@
 """Path-hygiene contract for the codex rehome.
 
 This test guards the durable rehome decision:
-academy and speakers live directly under codex/, while calendar material lives
-under codex/years/<YYYY>/.
+academy and speakers live directly under continuity/, while calendar material lives
+under continuity/years/<YYYY>/.
 """
 
 from __future__ import annotations

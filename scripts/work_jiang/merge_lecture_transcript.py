@@ -8,7 +8,7 @@ in the repo.
 Examples::
 
     cat part1.txt part2.txt | python3 scripts/work_jiang/merge_lecture_transcript.py \\
-      codex/predictive-history/lectures/secret-history-21-roman-anti-civilization.md
+      continuity/predictive-history/lectures/secret-history-21-roman-anti-civilization.md
 
     python3 scripts/work_jiang/merge_lecture_transcript.py lectures/secret-history-21-....md \\
       -f part1.txt -f part2.txt

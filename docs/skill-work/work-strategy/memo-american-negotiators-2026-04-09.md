@@ -1,6 +1,6 @@
 # Memo to the American Negotiators
 
-**April 9, 2026** · **WORK only** — operator draft; not U.S. policy, not Record. Informed by [Islamabad five-point + Jiang commentary](../../../codex/predictive-history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md), [April 2026 strategy-notebook](../../../codex/chapters/2026/2026-04/days.md) / [meta](../../../codex/chapters/2026/2026-04/meta.md), and [islamabad-operator-index](islamabad-operator-index.md).
+**April 9, 2026** · **WORK only** — operator draft; not U.S. policy, not Record. Informed by [Islamabad five-point + Jiang commentary](../../../continuity/predictive-history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md), [April 2026 strategy-notebook](../../../continuity/chapters/2026/2026-04/days.md) / [meta](../../../continuity/chapters/2026/2026-04/meta.md), and [islamabad-operator-index](islamabad-operator-index.md).
 
 ---
 

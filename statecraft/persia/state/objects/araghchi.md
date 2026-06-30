@@ -35,12 +35,12 @@ Araghchi matters here because the Iran lane needs to know which Iranian signals 
 Track Araghchi across all raw-inputs, not only Parsi, Marandi, Ritter, or Mercouris.
 
 ```powershell
-rg -n "Araghchi|Araghchi|Abbas Araghchi|Abbas Araghchi|Iranian foreign minister" codex/years
+rg -n "Araghchi|Araghchi|Abbas Araghchi|Abbas Araghchi|Iranian foreign minister" continuity/years
 ```
 
 Snapshot from the first object pass:
 
-- `codex/years` contains 161 local files with an Araghchi / Araghchi / Iranian foreign minister match.
+- `continuity/years` contains 161 local files with an Araghchi / Araghchi / Iranian foreign minister match.
 - `source-archive/statecraft` contains 151 local files with an Araghchi / Araghchi / Iranian foreign minister match.
 
 Treat these counts as a refreshable search snapshot, not as a fixed source set.

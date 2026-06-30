@@ -4,7 +4,7 @@ work only; not Record.
 
 The Singularity Workshop is the active-use layer of singularity-academy. It begins with agency under acceleration, not a 25-book canon.
 
-Inside the repo's two-channel operator architecture, this workshop is a core working surface of the `singularity` channel rather than a peer to `statecraft`. For the shared routing law, open [Two-Channel Operator Architecture](/C:/dev/strategy-codex/docs/operator-two-channel-architecture.md).
+Inside the repo's two-channel operator architecture, this workshop is a core working surface of the `singularity` channel rather than a peer to `statecraft`. For the shared routing law, open [Two-Channel Operator Architecture](/C:/dev/strategy-continuity/docs/operator-two-channel-architecture.md).
 
 For the lane-specific membrane grammar, open [singularity work membrane](../work-membrane.md). For the shared base across active lanes, open [docs/work-membrane-v2.md](../../docs/work-membrane-v2.md).
 
@@ -42,11 +42,11 @@ For Coffee D specifically, add one routing question before closing the pass: has
 
 ## Entry Points
 
-- [Academy method](../../codex/academy/METHOD.md) - canon, workshop, bridge pattern.
-- [Open tensions](../../codex/academy/open-tensions.md) - singularity workshop-first maturity rule.
-- [Theology workshop](../../codex/academy/theology/workshop/) - personhood, creation, conscience, and artificial agency.
-- [Politics workshop](../../codex/academy/politics/workshop/) - governance, legitimacy, persuasion, and institutional adaptation.
-- [Military workshop](../../codex/academy/military/workshop/) - autonomy, escalation, command responsibility, and force.
+- [Academy method](../../continuity/academy/METHOD.md) - canon, workshop, bridge pattern.
+- [Open tensions](../../continuity/academy/open-tensions.md) - singularity workshop-first maturity rule.
+- [Theology workshop](../../continuity/academy/theology/workshop/) - personhood, creation, conscience, and artificial agency.
+- [Politics workshop](../../continuity/academy/politics/workshop/) - governance, legitimacy, persuasion, and institutional adaptation.
+- [Military workshop](../../continuity/academy/military/workshop/) - autonomy, escalation, command responsibility, and force.
 
 ## First Sheet
 

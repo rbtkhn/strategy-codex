@@ -107,4 +107,4 @@ If a user asks for an analyst, speaker, commentator, source corpus, transcript m
 | Generic voice index | **Analyst voices** table → `*-index.md` (compat `*-source-index.md`) |
 | source-lattice / reading order | [docs/source-lattice-beyond-the-repo.md](../../docs/source-lattice-beyond-the-repo.md) — not this file |
 
-Legacy **`codex/speakers/`** is terminated — [codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md). Prefer `statecraft/voices/` and `statecraft/channels/` for live statecraft routing.
+Legacy **`continuity/speakers/`** is terminated — [codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md). Prefer `statecraft/voices/` and `statecraft/channels/` for live statecraft routing.

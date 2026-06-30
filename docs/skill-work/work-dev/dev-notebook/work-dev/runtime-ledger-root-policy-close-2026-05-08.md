@@ -36,7 +36,7 @@ without an explicit policy for the other.
 - Runtime audit regression: `python -m pytest tests/test_compute_ledger.py tests/test_runtime_audit_root_paths.py tests/test_root_layout_holdouts.py` -> 13 passed.
 - Live smoke: `python --% scripts/export_runtime_bundle.py -u strategy-codex -o .smoke-runtime-bundle`.
   - Export succeeded with bundle id `d4ddb8753571`.
-  - `platform/users/strategy-codex/` was not recreated.
+  - `platform/users/strategy-continuity/` was not recreated.
   - New export receipts appended at repo root.
   - `.smoke-runtime/bundle/` was removed after verification.
 
@@ -44,5 +44,5 @@ without an explicit policy for the other.
 
 Locked pytest temp directories still emit permission warnings in local status
 scans (`.tmp-pytest-root-layout/` and related paths). That is environment
-cleanup, not evidence of a continuing `platform/users/strategy-codex/` compatibility
+cleanup, not evidence of a continuing `platform/users/strategy-continuity/` compatibility
 path.

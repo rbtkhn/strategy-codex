@@ -12,15 +12,15 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 FROZEN_PREFIXES = (
-    "codex/predictive-history/",
+    "continuity/predictive-history/",
     "research/external/youtube-channels/predictive-history/",
 )
 
 ALLOWED_FROZEN_PATHS = frozenset(
     {
-        "codex/predictive-history/README.md",
-        "codex/predictive-history/README-operator.md",
-        "codex/years/2026/supporting-voices/jiang/jiang-profile.md",
+        "continuity/predictive-history/README.md",
+        "continuity/predictive-history/README-operator.md",
+        "continuity/years/2026/supporting-voices/jiang/jiang-profile.md",
         "research/external/youtube-channels/predictive-history/README.md",
         "research/external/work-strategy/transcripts/README.md",
         "docs/predictive-history-external-boundary.md",

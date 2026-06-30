@@ -5,7 +5,7 @@
 > handoff artifacts or `session-transcript.md`.
 >
 > **Format:** `- **YYYY-MM-DD HH:MM UTC** — kind (user) key=value …` (machine-audit line).
-> **coffee_conductor_outcome** — optional closure after a conductor run (**verdict=** e.g. watch / promote / shelf / no_action); optional **notebook_ref=**, **falsify=**, **conductor=** (see [CONDUCTOR-IMPROVEMENT-LOOP](../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) § 3).
+> **coffee_conductor_outcome** — optional closure after a conductor run (**verdict=** e.g. watch / promote / shelf / no_action); optional **notebook_ref=**, **falsify=**, **conductor=** (see [CONDUCTOR-IMPROVEMENT-LOOP](../../../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md) § 3).
 > **coffee_close** — optional close receipt after a coffee-selected branch materially settles (**picked=**, **outcome=**, **readiness=**, optional **artifacts=**, **loops=**, **next=**, **conductor=**, **conductor_state=**).
 > **coffee_pick** may include optional **focus=** or **arc=** (named work object).
 > **Companion-facing:** Skills read this file and speak **Recent rhythm** in chat — plain
@@ -529,7 +529,7 @@ _(Append below this line.)_
 - **2026-05-11 00:33 UTC** — coffee (strategy-codex) ok=true mode=minimal cursor_model=unknown model_tier=unknown
 - **2026-05-11 04:22 UTC** — coffee (strategy-codex) ok=true mode=minimal cursor_model=unknown model_tier=unknown
 - **2026-05-11 04:49 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
-- **2026-05-11 20:13 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=watch conductor=karajan notebook_ref=codex/daily-strategy-inbox.md falsify=If the accumulator date or raw-input gap list changes on the next refresh, this long-arc read was stale.
+- **2026-05-11 20:13 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=watch conductor=karajan notebook_ref=continuity/daily-strategy-inbox.md falsify=If the accumulator date or raw-input gap list changes on the next refresh, this long-arc read was stale.
 - **2026-05-11 22:53 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=youtube-adapter-arc-held conductor=karajan notebook_ref=a7eba9f1 falsify=If a=true future=true YouTube=true caller=true reintroduces=true direct=true yt-dlp=true execution=true or=true duplicate=true normalization=true outside=true ytdlp_adapter.py this=true centralization=true arc=true did=true not=true hold.=true
 - **2026-05-12 06:21 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
 - **2026-05-12 15:38 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
@@ -538,7 +538,7 @@ _(Append below this line.)_
 - **2026-05-14 00:25 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-05-14 00:28 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=A steward=template
 - **2026-05-14 00:49 UTC** — coffee (strategy-codex) ok=true mode=minimal cursor_model=unknown model_tier=unknown
-- **2026-05-14 04:29 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=verified conductor=kleiber notebook_ref=codex/CONDUCTOR-IMPROVEMENT-LOOP.md falsify=focused-warmup-conductor-tests-fail
+- **2026-05-14 04:29 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=verified conductor=kleiber notebook_ref=continuity/CONDUCTOR-IMPROVEMENT-LOOP.md falsify=focused-warmup-conductor-tests-fail
 - **2026-05-14 06:20 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
 - **2026-05-14 12:37 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-05-14 13:23 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=codex model_tier=unknown conductor=toscanini verdict=sufficient-answer-stop falsify=conductor-menu-added-after-task-already-complete
@@ -561,7 +561,7 @@ _(Append below this line.)_
 - **2026-05-16 04:42 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-05-16 04:43 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber focus=predictive-history-external-repo
 - **2026-05-16 04:44 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=kleiber verdict=civ-01-route-held-with-index-wording-note notebook_ref=github:rbtkhn/predictive-history:civ-01 falsify=If chapter-manifest civ-01 no longer routes to corpus transcript commentary civ-ph and orientation payload the public one-chapter load contract is broken.
-- **2026-05-16 04:47 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=kleiber verdict=ph-public-front-door-held notebook_ref=runtime/artifacts/benchmarks/composition/2026-05-16/codex/ph-public-front-door-kleiber.md falsify=Fresh route audit finds nontrivial chapter-manifest rows pointing to missing transcript commentary civ-ph or orientation files or README llms roadmap drift into conflicting second-semester/review-stat
+- **2026-05-16 04:47 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=kleiber verdict=ph-public-front-door-held notebook_ref=runtime/artifacts/benchmarks/composition/2026-05-16/continuity/ph-public-front-door-kleiber.md falsify=Fresh route audit finds nontrivial chapter-manifest rows pointing to missing transcript commentary civ-ph or orientation files or README llms roadmap drift into conflicting second-semester/review-stat
 - **2026-05-16 05:13 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=furtwangler focus=predictive-history-roadmap-tensions
 - **2026-05-16 06:26 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
 - **2026-05-16 13:04 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
@@ -853,3 +853,5 @@ _(Append below this line.)_
 - **2026-06-28 16:34 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
 - **2026-06-29 01:22 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-29 15:32 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-30 10:26 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-30 10:27 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown

@@ -59,7 +59,7 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-01, re
   [thenewatlas.com](https://www.thenewatlas.com/) Ã‚Â· [YouTube @TheNewAtlas](https://www.youtube.com/@TheNewAtlas)
 ## 2026-02
 
-February has the same **no-indexed-Q1-primary** posture in-repo; use **`batch-analysis`** when headline battlefield claims need **factory / stockpile / resupply** counterweight beside **`ritter`** ORBAT lanes Ã¢â‚¬â€ per [strategy-commentator-threads](../../../codex/strategy-commentator-threads.md).
+February has the same **no-indexed-Q1-primary** posture in-repo; use **`batch-analysis`** when headline battlefield claims need **factory / stockpile / resupply** counterweight beside **`ritter`** ORBAT lanes Ã¢â‚¬â€ per [strategy-commentator-threads](../../../continuity/strategy-commentator-threads.md).
 
 
 If pages named this expert during 2026-02, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃ¢â‚¬â€absence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
@@ -147,7 +147,7 @@ When historical expert context artifacts exist for `berletic` (per-month files o
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-04, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
 
 - [strength: low] **Outlet anchor:** [The New Atlas](https://www.thenewatlas.com/) Ã‚Â· [YouTube @TheNewAtlas](https://www.youtube.com/@TheNewAtlas) Ã¢â‚¬â€ not a dated April calendar.
-- [strength: low] **Note:** Pair with **`ritter`** / **`jermy`** when headline kinetic claims need factoryÃ¢â‚¬â€œstockpile counterweight Ã¢â‚¬â€ see roster in [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) (`batch-analysis` discipline).
+- [strength: low] **Note:** Pair with **`ritter`** / **`jermy`** when headline kinetic claims need factoryÃ¢â‚¬â€œstockpile counterweight Ã¢â‚¬â€ see roster in [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) (`batch-analysis` discipline).
 
 Canonical page paths and raw ingest lines live in **Segment 2** below (regenerated each **`thread`** run).
 

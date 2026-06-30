@@ -4,7 +4,7 @@
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) — **`mearsheimer`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`mearsheimer`** lane.
 
 ---
 
@@ -38,7 +38,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Linguistic style fingerprint (detailed)
 
-**Evidence class:** June 2026 intakes (3) + Tier A detailed table (this file). Orthogonality: run [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat (B×M×Me triad). Historical mind: `git show 904fb3bc6:codex/mearsheimer-mind.md`
+**Evidence class:** June 2026 intakes (3) + Tier A detailed table (this file). Orthogonality: run [`voice-profile-panel`](../../skills/voice-profile-panel/SKILL.md) in chat (B×M×Me triad). Historical mind: `git show 904fb3bc6:continuity/mearsheimer-mind.md`
 
 | Family | Sub-dimension | Pattern | Example lines | Anti-pattern |
 |--------|---------------|---------|---------------|--------------|
@@ -68,11 +68,11 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 | **8 Emulation QA** | Sounds-like pair | Authenticity spot-check | ✓ “we're going up the escalation ladder… Do you believe that's true?” · ✗ “Trump operates by fear like a toddler…” (Barnes tier-D) | Barnes liability voice as Mearsheimer |
 | **8 Emulation QA** | Anti-pattern fence | vs Mercouris | ✗ Mandatory “I'm not on the ground” stack on every paragraph | ✓ Numbered ceasefire dimensions then hedge on specifics |
 
-**Extended examples:** this table. Unmigrated historical lines: `git show 904fb3bc6:codex/mearsheimer-mind.md`
+**Extended examples:** this table. Unmigrated historical lines: `git show 904fb3bc6:continuity/mearsheimer-mind.md`
 
 ## Legacy redirects (compatibility)
 
-[`mearsheimer-mind.md`](mearsheimer-mind.md) · [CIV-MIND-MEARSHEIMER.md](../../../codex/minds/CIV-MIND-MEARSHEIMER.md) → this profile. [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
+[`mearsheimer-mind.md`](mearsheimer-mind.md) · [CIV-MIND-MEARSHEIMER.md](../../../continuity/minds/CIV-MIND-MEARSHEIMER.md) → this profile. [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
 
 ## Convergence fingerprint
 

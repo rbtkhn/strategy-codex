@@ -49,7 +49,7 @@
 | Work membrane typing | [work-membrane-v2.md](work-membrane-v2.md), `statecraft/work-membrane.md`, `singularity/work-membrane.md` | Stops “one vague non-Record blob” |
 | Verbatim SSOT (statecraft) | `source-archive/statecraft/<pub_date>/` | Notebook ≠ mirror; synthesis cites receipts |
 | PH observe-only boundary | [predictive-history-external-boundary.md](predictive-history-external-boundary.md), public `rbtkhn/predictive-history` | Mutation belongs external |
-| Polyphonic codex continuity | `codex/`, `codex/years/`, `codex/profiles/` | Chronology beneath both channels |
+| Polyphonic codex continuity | `continuity/`, `continuity/years/`, `continuity/profiles/` | Chronology beneath both channels |
 | Portable skill cores | `skills/`, `skills/manifest.yaml`, `scripts/sync_portable_skills.py` | Host-neutral methodology; Cursor appendix split |
 
 ### REFACTOR (intentional strength, accidental friction)
@@ -58,7 +58,7 @@
 |--------|---------------|-----------|-------------|
 | **Generated navigation** | `source-archive/statecraft/*.md` indices, `source-archive/statecraft/stale-index-audit.md`, `source-archive/statecraft/thread-index.md`, `statecraft/data/month-routing-metadata.json` | Indexes are **derived only**; CI fails stale day/month rows | Extend `scripts/build_statecraft_archive_navigation.py`; add `validate_archive_indexes.py` to CI |
 | **Promotion ladder** | `source-archive/statecraft/` → `statecraft/synthesis/day/` → `statecraft/notes/` → `essays/` | One documented ladder; every synthesis cites archive paths | Document in `statecraft/README.md`; lint missing `source:` frontmatter |
-| **Legacy notebook convergence** | `docs/skill-work/work-strategy/strategy-notebook/`, `codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md`, dual `thread.md` + monthly thread files | Host-equivalent routes under `codex/`; notebook namespace read-only compatibility | Finish `scripts/migrate_thread_md_to_monthly.py` passes; stop new captures in deprecated `raw-input/` when `source-archive` applies |
+| **Legacy notebook convergence** | `docs/skill-work/work-strategy/strategy-notebook/`, `continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md`, dual `thread.md` + monthly thread files | Host-equivalent routes under `continuity/`; notebook namespace read-only compatibility | Finish `scripts/migrate_thread_md_to_monthly.py` passes; stop new captures in deprecated `raw-input/` when `source-archive` applies |
 | **Gate ergonomics** | `recursion-gate.md`, `scripts/preview_candidate_impact.py`, `scripts/build_gate_board.py`, `scripts/generate_gate_dashboard.py`, `platform/apps/gate-review-app.py` | Single CLI: `codex gate list \| review \| diff \| merge` wrapping existing scripts | Thin `scripts/codex_cli.py` or `scripts/operator_gate.py` facade; no new merge authority |
 | **Schema-validated proposals** | `scripts/stage_gate_candidate.py`, `schemas/registry/`, `archive/queues/review-queue/boundary-classifications/` | Machine-first candidates; human-readable gate board renders from JSON | Promote gate blocks to validated JSON; keep markdown export view |
 | **Context budgets declarative** | `platform/config/context_budgets/`, `scripts/compress_active_lane.py`, `scripts/build_skill_cards.py` | Config-driven prepared context; fewer one-off scripts | One manifest: lane → budget → builders |
@@ -72,11 +72,11 @@
 
 | Surface | Paths | Rule |
 |---------|-------|------|
-| Predictive History local corpus | `codex/predictive-history/`, `research/external/youtube-channels/predictive-history/` | Observe, critique, cite public IDs only — [predictive-history-external-boundary.md](predictive-history-external-boundary.md) |
-| Legacy strategy-notebook namespace | `docs/skill-work/work-strategy/strategy-notebook/` | Compatibility reads; new work routes to `codex/` + `source-archive/statecraft/` |
+| Predictive History local corpus | `continuity/predictive-history/`, `research/external/youtube-channels/predictive-history/` | Observe, critique, cite public IDs only — [predictive-history-external-boundary.md](predictive-history-external-boundary.md) |
+| Legacy strategy-notebook namespace | `docs/skill-work/work-strategy/strategy-notebook/` | Compatibility reads; new work routes to `continuity/` + `source-archive/statecraft/` |
 | Deprecated operator beats | `.cursor/skills/thanks/SKILL.md` | Use `coffee` / `conductor` instead |
 | Grace-Mar template reconciliation | `companion-self` sync paths in archived docs | strategy-codex-native routing unless operator invokes legacy lane |
-| Dual thread layouts | legacy `experts/*/thread.md` alongside `codex/years/*/*-thread-YYYY-MM.md` | Union discovery until migration complete; no new legacy containers |
+| Dual thread layouts | legacy `experts/*/thread.md` alongside `continuity/years/*/*-thread-YYYY-MM.md` | Union discovery until migration complete; no new legacy containers |
 
 ### EXTERNALIZE (submodule, sibling repo, or export-only)
 
@@ -87,7 +87,7 @@
 | CIV-MEM bulk reference | `research/repos/civilization_memory/`, CIV-MEM indexes | Versioned submodule or sibling; strategy-codex holds routing + mirrors only |
 | Academy mirrors | `statecraft/voices/jiang/ph-civ`, `scripts/check_academy_mirror_sync.py` | Gitlink discipline; parent repo does not own upstream manuscript |
 | Record portable bundle | `scripts/export_fork.py`, `runtime/bundle/`, `fork-manifest.json` | Default export: Markdown + JSON (+ optional SQLite view); ZIP import **stages only** |
-| Large speaker month corpora | per-speaker shelves under `codex/years/` | Sparse checkout / worktrees for operators who do not need full month depth |
+| Large speaker month corpora | per-speaker shelves under `continuity/years/` | Sparse checkout / worktrees for operators who do not need full month depth |
 
 ---
 
@@ -108,7 +108,7 @@ operator source
 
 Not every note becomes an essay.
 
-**Legacy parallel (freeze):** `strategy-notebook/raw-input/` + `days.md` compose — fold into `codex/` continuity without new verbatim mirrors.
+**Legacy parallel (freeze):** `strategy-notebook/raw-input/` + `days.md` compose — fold into `continuity/` continuity without new verbatim mirrors.
 
 ---
 
@@ -198,7 +198,7 @@ flowchart TB
   end
 
   subgraph freeze [FREEZE]
-    PH[codex/predictive-history residue]
+    PH[continuity/predictive-history residue]
     NB[strategy-notebook legacy]
   end
 

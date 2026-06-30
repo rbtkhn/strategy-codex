@@ -2,7 +2,7 @@
 
 **WORK only** — operator analytic digest; not wire-verified fact, not Record. **Cleaned transcript** as provided; closing super-chats omitted in source.
 
-**Skill-strategy processing:** Three **orthogonal** analytic dimensions (below) + **quantitative** tags. Cross-links: [strategy-notebook April 2026](../../../codex/chapters/2026/2026-04/meta.md), [flashpoint / Hormuz metrics discipline](../../../codex/chapters/2026/2026-04/days.md), [Islamabad intake commentary](../../../codex/predictive-history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md).
+**Skill-strategy processing:** Three **orthogonal** analytic dimensions (below) + **quantitative** tags. Cross-links: [strategy-notebook April 2026](../../../continuity/chapters/2026/2026-04/meta.md), [flashpoint / Hormuz metrics discipline](../../../continuity/chapters/2026/2026-04/days.md), [Islamabad intake commentary](../../../continuity/predictive-history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md).
 
 ---
 
@@ -140,8 +140,8 @@ When the source uses **several** historical or pop-culture analogies, add a shor
 
 ## Suggested follow-ups (WORK)
 
-1. **Verify tier:** NBC Trump–Netanyahu; single-vessel / 24h Hormuz reporting; casualty bands for Lebanon (compare to prior [web verification](../../../codex/chapters/2026/2026-04/days.md) block).
-2. **Notebook:** Link from [days.md](../../../codex/chapters/2026/2026-04/days.md) (2026-04-10 **Links**) is in place; optional **Jiang resonance** chord remains (Geo-Strategy Hormuz cluster in intake Point 2 commentary).
+1. **Verify tier:** NBC Trump–Netanyahu; single-vessel / 24h Hormuz reporting; casualty bands for Lebanon (compare to prior [web verification](../../../continuity/chapters/2026/2026-04/days.md) block).
+2. **Notebook:** Link from [days.md](../../../continuity/chapters/2026/2026-04/days.md) (2026-04-10 **Links**) is in place; optional **Jiang resonance** chord remains (Geo-Strategy Hormuz cluster in intake Point 2 commentary).
 3. **Promote:** No **STRATEGY.md** update unless operator asks.
 
 ---

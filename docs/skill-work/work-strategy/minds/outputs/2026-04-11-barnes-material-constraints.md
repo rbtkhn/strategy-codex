@@ -3,14 +3,14 @@
 **Write mode:** scaffold (`daily-brief-minds-config.json`) — complete the **Analysis** section below in Cursor or a `strategy` pass. This script does not call an LLM.
 
 **Daily brief (substrate):** `docs/skill-work/work-strategy/daily-brief-2026-04-11.md`  
-**Trimmed mind (read for fingerprint):** `docs/skill-work/work-strategy/../../codex/minds/CIV-MIND-BARNES.md`  
+**Trimmed mind (read for fingerprint):** `docs/skill-work/work-strategy/../../continuity/minds/CIV-MIND-BARNES.md`  
 **Mind role:** material bases, liabilities, fiscal/resource constraints
 
 ## Prompt bundle
 
 You are applying the **Barnes** lens to Grace-Mar's daily brief.
 
-Load the trimmed working copy from `docs/skill-work/work-strategy/../../codex/minds/CIV-MIND-BARNES.md` — use that mind's **linguistic fingerprint** and analytical priorities faithfully.
+Load the trimmed working copy from `docs/skill-work/work-strategy/../../continuity/minds/CIV-MIND-BARNES.md` — use that mind's **linguistic fingerprint** and analytical priorities faithfully.
 
 **Input:**
 - The full daily brief at `docs/skill-work/work-strategy/daily-brief-2026-04-11.md`

@@ -4,17 +4,17 @@
     "warn": 75
   },
   "required_roots": [
-    "codex/academy",
-    "codex/speakers",
-    "codex/years",
-    "codex/years/2025",
-    "codex/years/2026",
+    "continuity/academy",
+    "continuity/speakers",
+    "continuity/years",
+    "continuity/years/2025",
+    "continuity/years/2026",
     "public",
     "public/predictive-history"
   ],
   "forbidden_roots": [
-    "codex/2025",
-    "codex/2026"
+    "continuity/2025",
+    "continuity/2026"
   ],
   "mirror_receipt": {
     "path": "public/predictive-history/MIRROR-RECEIPT.md",

@@ -43,7 +43,7 @@ Open the speaker surfaces first:
 - `statecraft/voices/ritter/README.md`
 - `statecraft/voices/ritter/ritter-helix.md`
 - `statecraft/voices/ritter/ritter-interview-appearances-2025-2026.md`
-- `codex/years/2026/ritter/ritter-forecast-ledger-2026.md`
+- `continuity/years/2026/ritter/ritter-forecast-ledger-2026.md`
 
 Then choose host lane as needed:
 
@@ -75,7 +75,7 @@ Use three search passes:
 2. **Event-shape pass:** search mechanism and consequence vocabulary.
    - Example for Minab: `school girls`, `children`, `civilian casualties`, `targeting`, `no strike`, `CHMR`, `Claude`, `war crime`, `distinction`, `proportionality`, `feasible precautions`.
 3. **Corpus-shape pass:** search all Ritter strands, not only the newest transcript.
-   - Include `codex/years/2026/raw-input`, `codex/years/2026/ritter`, and `statecraft/voices/ritter`.
+   - Include `continuity/years/2026/raw-input`, `continuity/years/2026/ritter`, and `statecraft/voices/ritter`.
    - Include authored Substack captures, interview captures, speaker pages, helix notes, and appearance maps.
 
 Negative-answer guard:
@@ -225,9 +225,9 @@ For each Ritter extraction, produce these fields when useful:
 
 When authority carrier mode produces a durable object, route the reusable output:
 
-- Putin or Lavrov -> `codex/academy/statecraft/russia/state/`
-- Trump or Vance -> `codex/academy/statecraft/america/state/`
-- Khamenei or Araghchi -> `codex/academy/statecraft/iran/state/`
+- Putin or Lavrov -> `continuity/academy/statecraft/russia/state/`
+- Trump or Vance -> `continuity/academy/statecraft/america/state/`
+- Khamenei or Araghchi -> `continuity/academy/statecraft/iran/state/`
 - Zelensky -> keep as crisis/proxy object unless a Ukraine lane or object folder exists.
 
 Use a handoff when the result names a recurring decision node, not for one-off color commentary.

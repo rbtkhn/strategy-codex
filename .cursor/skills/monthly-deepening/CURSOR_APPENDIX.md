@@ -4,7 +4,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/monthly-d
 |--------|------|
 | Canonical archive root | [source-archive/statecraft/](../../../source-archive/statecraft/) |
 | Local observability receipts | [runtime/artifacts/cognition-streams/](../../../runtime/artifacts/cognition-streams/) |
-| Legacy raw-input fallback | [codex/years/2026/raw-input/](../../../codex/years/2026/raw-input/) |
+| Legacy raw-input fallback | [continuity/years/2026/raw-input/](../../../continuity/years/2026/raw-input/) |
 | Mercouris local index cache | [\.codex-tmp/youtube-alex-mercouris-index/](../../../.codex-tmp/youtube-alex-mercouris-index/) |
 | Day README generator | [scripts/build_statecraft_day_indices.py](../../../scripts/build_statecraft_day_indices.py) |
 | Day dashboard generator | [scripts/build_statecraft_day_dashboard.py](../../../scripts/build_statecraft_day_dashboard.py) |

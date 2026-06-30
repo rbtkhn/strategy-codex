@@ -31,7 +31,7 @@ git commit -m "[predictive-history-sync] inbound mirror refresh"
 | Surface | Role |
 |---------|------|
 | `public/predictive-history/` | Inbound snapshot — **do not edit** corpus here |
-| `codex/predictive-history/` | Frozen workshop residue — read for intake only |
+| `continuity/predictive-history/` | Frozen workshop residue — read for intake only |
 | `statecraft/` | Synthesis, critique, cite public `essay-NN` / `civ-NN` IDs |
 
 Boundary law: [predictive-history-external-boundary.md](predictive-history-external-boundary.md).

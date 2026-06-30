@@ -179,11 +179,11 @@ Typical pairings on file for `sachs` emphasize contrast surfaces: Ãƒâ€” d
 
 ### Chronicle
 
-See [`days.md` Ã‚Â§ Signal Ã¢â‚¬â€ `diesen` Ãƒâ€” `sachs`](../../../codex/chapters/2026/2026-04/days.md) and **Weave** lead bullet for 2026-04-14.
+See [`days.md` Ã‚Â§ Signal Ã¢â‚¬â€ `diesen` Ãƒâ€” `sachs`](../../../continuity/chapters/2026/2026-04/days.md) and **Weave** lead bullet for 2026-04-14.
 
 ### Reflection
 
-**Abstract (this page):** **`diesen`** carries two **2026-04-14** expert threads Ã¢â‚¬â€ **work-jiang PH vi-14** (Jiang Ãƒâ€” Diesen lecture: petrodollar / chokepoint / Islamabad frame) and **Diesen Ãƒâ€” Sachs** (Hormuz blockade / DC institutional decay). Same **`expert_id`** on the **`thread:`** line does **not** make them the same **Judgment** object: **`crosses:diesen+sachs`** is **orthogonal** to **vi-14** petrodollar spine; do **not** fold Sachs hypotheses into PH overlay without **verify** tier. Full seam: [`days.md` Ã‚Â§ Judgment Ã¢â‚¬â€ *Diesen Ãƒâ€” Sachs vs PH vi-14*](../../../codex/chapters/2026/2026-04/days.md).
+**Abstract (this page):** **`diesen`** carries two **2026-04-14** expert threads Ã¢â‚¬â€ **work-jiang PH vi-14** (Jiang Ãƒâ€” Diesen lecture: petrodollar / chokepoint / Islamabad frame) and **Diesen Ãƒâ€” Sachs** (Hormuz blockade / DC institutional decay). Same **`expert_id`** on the **`thread:`** line does **not** make them the same **Judgment** object: **`crosses:diesen+sachs`** is **orthogonal** to **vi-14** petrodollar spine; do **not** fold Sachs hypotheses into PH overlay without **verify** tier. Full seam: [`days.md` Ã‚Â§ Judgment Ã¢â‚¬â€ *Diesen Ãƒâ€” Sachs vs PH vi-14*](../../../continuity/chapters/2026/2026-04/days.md).
 
 ### Foresight
 
@@ -200,7 +200,7 @@ See [`days.md` Ã‚Â§ Signal Ã¢â‚¬â€ `diesen` Ãƒâ€” `sachs`
 |--------|--------|
 | **Date** | 2026-04-14 |
 | **page_id** (machine slug) | `diesen-vi14-petrodollar-vs-sachs-hormuz` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../continuity/chapters/2026/2026-04/days.md) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -213,14 +213,14 @@ See [`days.md` Ã‚Â§ Signal Ã¢â‚¬â€ `diesen` Ãƒâ€” `sachs`
 
 ### Lineage
 
-- **Inbox:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ `batch-analysis | 2026-04-14 | Diesen Ãƒâ€” Sachs` (`crosses:diesen+sachs`); PH **vi-14** `YT | cold` (`thread:diesen`, `P_DHMUdOVdo`); **Diesen Ãƒâ€” Sachs** `YT | cold` (`thread:diesen` + `thread:sachs`, `S6mlCuvKKIQ`). **Expert threads:** `diesen`, `sachs`.
+- **Inbox:** [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) Ã¢â‚¬â€ `batch-analysis | 2026-04-14 | Diesen Ãƒâ€” Sachs` (`crosses:diesen+sachs`); PH **vi-14** `YT | cold` (`thread:diesen`, `P_DHMUdOVdo`); **Diesen Ãƒâ€” Sachs** `YT | cold` (`thread:diesen` + `thread:sachs`, `S6mlCuvKKIQ`). **Expert threads:** `diesen`, `sachs`.
 - **History resonance:** none this pass
 - **Civilizational bridge:** none this pass
 - **Expert threads:** `thread:diesen` appears **twice** same calendar day Ã¢â‚¬â€ different episodes; `thread:sachs` only on the blockade episode.
 
 ### References
 
-- **PH vi-14 (lecture):** [interviews-14-diesen-iran-war-petrodollar.md](../../../codex/predictive-history/lectures/interviews-14-glenn-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
+- **PH vi-14 (lecture):** [interviews-14-diesen-iran-war-petrodollar.md](../../../continuity/predictive-history/lectures/interviews-14-glenn-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
 - **Diesen Ãƒâ€” Sachs (blockade episode):** [YouTube](https://www.youtube.com/watch?v=S6mlCuvKKIQ)
 
 ### Receipt
@@ -229,9 +229,9 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | PH vi-14 lecture (repo body + watch link) | [lecture `.md`](../../../codex/predictive-history/lectures/interviews-14-glenn-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube `P_DHMUdOVdo`](https://www.youtube.com/watch?v=P_DHMUdOVdo) |
+| **1** | PH vi-14 lecture (repo body + watch link) | [lecture `.md`](../../../continuity/predictive-history/lectures/interviews-14-glenn-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube `P_DHMUdOVdo`](https://www.youtube.com/watch?v=P_DHMUdOVdo) |
 | **2** | Diesen Ãƒâ€” Sachs episode (same-day **`thread:diesen` + `thread:sachs`**) | [YouTube `S6mlCuvKKIQ`](https://www.youtube.com/watch?v=S6mlCuvKKIQ) |
-| **3** | Inbox **`batch-analysis`** spine (`crosses:diesen+sachs`) | [daily-strategy-inbox.md](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ search `Diesen Ãƒâ€” Sachs` / `crosses:diesen+sachs` |
+| **3** | Inbox **`batch-analysis`** spine (`crosses:diesen+sachs`) | [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md) Ã¢â‚¬â€ search `Diesen Ãƒâ€” Sachs` / `crosses:diesen+sachs` |
 
 **Falsifier:** This pageÃ¢â‚¬â„¢s **orthogonal Judgment** fails if a single authoritative source treats **vi-14** petrodollar claims and **Sachs**-layer **NYT** / **DC-process** hypotheses as **one** merged **Glenn Diesen** verdict **without** separate episode groundingÃ¢â‚¬â€i.e. **collapse-by-edit** replaces **`crosses:`** discipline.
 <!-- strategy-page:end -->
@@ -253,7 +253,7 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 
 ### Foresight
 
-- [Ritter blockade mechanics Ã¢â‚¬â€ verify checklist (2026-04-13)](../../../codex/daily-strategy-inbox.md) (inbox **Ã‚Â§ Ritter blockade mechanics**)
+- [Ritter blockade mechanics Ã¢â‚¬â€ verify checklist (2026-04-13)](../../../continuity/daily-strategy-inbox.md) (inbox **Ã‚Â§ Ritter blockade mechanics**)
 - Re-run **`python3 scripts/strategy_thread.py`** after inbox **`thread:`** updates.
 
 ---
@@ -266,7 +266,7 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 |--------|--------|
 | **Date** | 2026-04-14 |
 | **page_id** (machine slug) | `ritter-blockade-hormuz-weave` Ã¢â‚¬â€ matches basename and the legacy index file [`legacy page index`](../../../README.md) |
-| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../codex/chapters/2026/2026-04/days.md) |
+| **Day block** | [`days.md` Ã‚Â§ 2026-04-14](../../../continuity/chapters/2026/2026-04/days.md) |
 
 ### Page type (**pick per strategy-page** Ã¢â‚¬â€ mixed types allowed)
 
@@ -279,7 +279,7 @@ Pins keep **Glenn Diesen**Ã¢â‚¬â„¢s **PH vi-14** lane and the **Glenn 
 
 ### Lineage Ã¢â‚¬â€ **`thread:ritter`** (anchor)
 
-- **Primary ingest:** [`daily-strategy-inbox.md`](../../../codex/daily-strategy-inbox.md) Ã¢â‚¬â€ **`YT | cold: Scott Ritter Ã¢â‚¬â€ Ritter's Rant 085: The Blockade`** (`thread:ritter`) Ã¢â‚¬â€ **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read Ã¢â‚¬â€ URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
+- **Primary ingest:** [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) Ã¢â‚¬â€ **`YT | cold: Scott Ritter Ã¢â‚¬â€ Ritter's Rant 085: The Blockade`** (`thread:ritter`) Ã¢â‚¬â€ **blockade** vs **quarantine**, hull count, **Kennedy** analogy, **China/Russia/India** exceptions thesis, porous / political blockade read Ã¢â‚¬â€ URL `TBD-canonical-085` until pinned; **verify** vs **AP/Reuters** hull + **MFA** lines per inbox tail.
 - **Same-topic expert threads (indexed only Ã¢â‚¬â€ no new anchors):** pull **`davis`**, **`jermy`**, **`diesen`**, **`sachs`**, **`parsi`**, **`mearsheimer`**, **`mercouris`**, **`barnes`**, **`johnson`**, **`marandi`** only where **`daily-strategy-inbox.md`** / **`days.md`** already carries a **`thread:`** or **continuity-spine** line for **2026-04-12Ã¢â‚¬â€œ14** **Hormuz** / **blockade** Ã¢â‚¬â€ this page **weaves**; it does **not** mint **new** **`expert_id`** rows.
 
 ### Prior days (same Hormuz arc Ã¢â‚¬â€ cross-links)
@@ -319,7 +319,7 @@ Pins keep **`ritter`** **mechanics** **distinct** from **speech**/**institution*
 
 | Pin | Target | URL |
 |-----|--------|-----|
-| **1** | **Ritter** **Rant 085** (canonical episode) | `TBD` Ã¢â‚¬â€ [inbox `thread:ritter`](../../../codex/daily-strategy-inbox.md) |
+| **1** | **Ritter** **Rant 085** (canonical episode) | `TBD` Ã¢â‚¬â€ [inbox `thread:ritter`](../../../continuity/daily-strategy-inbox.md) |
 | **2** | **Davis Ãƒâ€” Jermy** Deep Dive (blockade **same week**) | [YouTube](https://www.youtube.com/watch?v=etxmqrdm3V0) |
 | **3** | **Related weave** registry (this fileÃ¢â‚¬â„¢s **cross-links**) | [legacy page index](../../../README.md) Ã¢â‚¬â€ search `2026-04-14` |
 

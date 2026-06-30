@@ -4,7 +4,7 @@ work only; not Record.
 
 This shelf indexes **bounded promoted singularity seams** and other local interpretive objects.
 
-Open [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) first when the class decision is still open. This README assumes the answer is already note-class and only explains the local singularity version of that shelf.
+Open [shared prose index](/C:/dev/strategy-continuity/docs/prose-index.md) first when the class decision is still open. This README assumes the answer is already note-class and only explains the local singularity version of that shelf.
 
 ## Authority Rule
 
@@ -113,4 +113,4 @@ This first rollout is forward-only. Do not move existing prose here automaticall
 - Return to [singularity front door](../README.md) for the domain shell.
 - Return to [singularity workshop](../workshop/README.md) for the active operating layer.
 - Return to [singularity essays](../essays/README.md) when the output has become more synthesized and stand-alone.
-- Return to [shared prose index](/C:/dev/strategy-codex/docs/prose-index.md) when the real question is prose class rather than shelf location.
+- Return to [shared prose index](/C:/dev/strategy-continuity/docs/prose-index.md) when the real question is prose class rather than shelf location.

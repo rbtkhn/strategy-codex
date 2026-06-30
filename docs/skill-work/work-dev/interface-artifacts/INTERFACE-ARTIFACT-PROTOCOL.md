@@ -44,7 +44,7 @@ Current anchors:
 
 - [../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md](../../../../README.md)
 - [../../work-strategy/strategy-notebook/strategy-console/README.md](../../../../README.md)
-- [../../work-strategy/strategy-notebook/GRAPH-SCHEMA.md](../../../../codex/GRAPH-SCHEMA.md)
+- [../../work-strategy/strategy-notebook/GRAPH-SCHEMA.md](../../../../continuity/GRAPH-SCHEMA.md)
 
 ## What does not count
 
@@ -130,7 +130,7 @@ Rule of thumb:
 Relevant specs:
 
 - [../workbench/WORKBENCH-RECEIPT-SPEC.md](../workbench/WORKBENCH-RECEIPT-SPEC.md)
-- [../../work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-TRACE-CONTRACT.md](../../../../codex/STRATEGY-NOTEBOOK-TRACE-CONTRACT.md)
+- [../../work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-TRACE-CONTRACT.md](../../../../continuity/STRATEGY-NOTEBOOK-TRACE-CONTRACT.md)
 
 ## Storage rule
 

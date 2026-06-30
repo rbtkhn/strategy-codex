@@ -33,7 +33,7 @@ Explain why this object matters as a statecraft carrier rather than as a life st
 What raw-input search keeps this object current?
 
 ```powershell
-rg -n "<name>|<variant>" codex/years
+rg -n "<name>|<variant>" continuity/years
 ```
 
 ## Source Pattern

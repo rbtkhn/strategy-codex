@@ -2,7 +2,7 @@
 <!-- word_count: 280 -->
 
 
-**Expert:** `mercouris` · **Ingest:** 2026-04-18 · **Artifact:** refined page (standalone file under `experts/mercouris/`). **Note:** This date is a `notebook |` lens row only—not a The Duran episode verbatim. Use for tri-mind / Hormuz–PRC precedent folds alongside [`days.md` § 2026-04-16](../../../codex/chapters/2026/2026-04/days.md#2026-04-16.
+**Expert:** `mercouris` · **Ingest:** 2026-04-18 · **Artifact:** refined page (standalone file under `experts/mercouris/`). **Note:** This date is a `notebook |` lens row only—not a The Duran episode verbatim. Use for tri-mind / Hormuz–PRC precedent folds alongside [`days.md` § 2026-04-16](../../../continuity/chapters/2026/2026-04/days.md#2026-04-16.
 
 ---
 
@@ -18,7 +18,7 @@ Treating this as a Mercouris lane hook means holding the inference lightly: the 
 
 - **Precedent thesis:** Which PRC MFA/MOD lines and commercial insurance moves on or after 2026-04-18 support or falsify “grammar portable beyond Iran”?
 - **Friction metrics:** Baltic or other theaters vs Hormuz—avoid collapsed causal graphs; keep lane tags.
-- **Primary seam:** [`days.md` § 2026-04-16](../../../codex/chapters/2026/2026-04/days.md#2026-04-16 for notebook Judgment already tied to this thread.
+- **Primary seam:** [`days.md` § 2026-04-16](../../../continuity/chapters/2026/2026-04/days.md#2026-04-16 for notebook Judgment already tied to this thread.
 
 ---
 

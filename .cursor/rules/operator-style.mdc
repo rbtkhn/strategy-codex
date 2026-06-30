@@ -74,7 +74,7 @@ The operator's mind jumps: forward and back, in and out, topic to topic. They li
 
 ## WORK modules — multiple choice (assistant behavior)
 
-When the operator is clearly working in any **WORK** lane — **work-strategy**, **work-politics**, **work-jiang**, **work-dev**, **work-cici** (`docs/skill-work/**`, `codex/predictive-history/` operator scope, `work-*.md`, related scripts) — end **most substantive turns** with a short **multiple-choice block**: **3–5 labeled options** (e.g. **A–E**), each a **real fork** (depth vs breadth, which artifact, next command, cross-lane handoff), not filler.
+When the operator is clearly working in any **WORK** lane — **work-strategy**, **work-politics**, **work-jiang**, **work-dev**, **work-cici** (`docs/skill-work/**`, `continuity/predictive-history/` operator scope, `work-*.md`, related scripts) — end **most substantive turns** with a short **multiple-choice block**: **3–5 labeled options** (e.g. **A–E**), each a **real fork** (depth vs breadth, which artifact, next command, cross-lane handoff), not filler.
 
 - **work-cici:** When editing `docs/skill-work/work-cici/`, follow **work-cici-lane** (`.cursor/rules/work-cici-lane.mdc`) — **Cici** as canonical OB1 instance repo pointer, Open Brain **leakage** boundaries ([LEAKAGE-CHECKLIST](../../docs/skill-work/work-cici/LEAKAGE-CHECKLIST.md)), not Xavier’s Record.
 

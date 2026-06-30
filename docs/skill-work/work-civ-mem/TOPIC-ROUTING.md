@@ -95,6 +95,6 @@ Agents **do not** auto-edit YAML from these lines without explicit operator / EX
 
 ## See also
 
-- [`TRUMP-LEO-CIV-MEM-BARNES-DRILL.md`](../../../codex/TRUMP-LEO-CIV-MEM-BARNES-DRILL.md) — manual ROME MEM picks
+- [`TRUMP-LEO-CIV-MEM-BARNES-DRILL.md`](../../../continuity/TRUMP-LEO-CIV-MEM-BARNES-DRILL.md) — manual ROME MEM picks
 - [`CIV-MEM-TRI-FRAME-ROUTING.md`](../work-strategy/minds/CIV-MEM-TRI-FRAME-ROUTING.md)
 - [`work-civ-mem/README.md`](README.md)

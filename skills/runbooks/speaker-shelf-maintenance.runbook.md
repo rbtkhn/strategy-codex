@@ -56,7 +56,7 @@ Legacy skills **`speaker-shelf-hygiene`**, **`speaker-structural-continuity`**, 
 
 ## Canonical references (read before editing)
 
-- [`statecraft/voices/README.md`](../../statecraft/voices/README.md) — legacy `codex/speakers/` terminated ([codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md))
+- [`statecraft/voices/README.md`](../../statecraft/voices/README.md) — legacy `continuity/speakers/` terminated ([codex-speakers-deprecated.md](../../docs/archive/codex-speakers-deprecated.md))
 - [`statecraft/voices/speaker-routing-doctrine.md`](../../statecraft/voices/speaker-routing-doctrine.md#open-first-routes)
 - [`statecraft/templates/speaker-surface-orthogonality-review-template.md`](../../statecraft/templates/speaker-surface-orthogonality-review-template.md)
 - [`statecraft/notes/README.md`](../../statecraft/notes/README.md) — cross-speaker compare and bounded note-class home

@@ -23,7 +23,7 @@ This lane asks whether the Cici system is coherent, safe, and ready for the next
 
 ## Next action
 
-Open or merge the pushed `codex/complete-cici-identity-migration` branch in `rbtkhn/cici-ai`, then run a second audit focused on active prompt/agent files.
+Open or merge the pushed `continuity/complete-cici-identity-migration` branch in `rbtkhn/cici-ai`, then run a second audit focused on active prompt/agent files.
 
 ## Key references
 

@@ -1,7 +1,7 @@
 # Strategy expert - `johnson`
 <!-- word_count: 470 -->
 
-**Canonical index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) - **`johnson`** lane.
+**Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) - **`johnson`** lane.
 
 ## Identity
 

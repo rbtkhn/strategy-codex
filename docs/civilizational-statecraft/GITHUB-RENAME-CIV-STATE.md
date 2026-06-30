@@ -28,7 +28,7 @@ git remote set-url origin https://github.com/rbtkhn/civ-state.git
 
 - `rbtkhn/predictive-history` — Predictive History canonical public repo (formerly `ph-civ`)
 - Local `statecraft/states/volumes/civ-state-*` paths — already correct
-- `codex/academy/statecraft/civ-emp/` academy mirror — separate sync pass
+- `continuity/academy/statecraft/civ-emp/` academy mirror — separate sync pass
 
 ## Provenance note
 

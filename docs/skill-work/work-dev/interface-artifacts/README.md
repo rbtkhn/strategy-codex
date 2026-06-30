@@ -50,7 +50,7 @@ See:
 
 Strategy-notebook remains **markdown-canonical**. Its canonical
 judgment lives in `strategy-page` blocks and `days.md`, per
-[../../work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md).
+[../../work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md).
 
 Interface artifacts name the **derived orientation layer** around that
 notebook: visualizers, console views, graph-based maps, cockpit
@@ -60,7 +60,7 @@ Current strategy-facing anchors:
 
 - [../../work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md](../../../../README.md)
 - [../../work-strategy/strategy-notebook/strategy-console/README.md](../../../../README.md)
-- [../../work-strategy/strategy-notebook/GRAPH-SCHEMA.md](../../../../codex/GRAPH-SCHEMA.md)
+- [../../work-strategy/strategy-notebook/GRAPH-SCHEMA.md](../../../../continuity/GRAPH-SCHEMA.md)
 
 ### Relation to operator dashboards
 

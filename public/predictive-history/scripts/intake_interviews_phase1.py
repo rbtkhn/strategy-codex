@@ -425,7 +425,7 @@ def main() -> int:
         "--workshop-root",
         type=Path,
         default=DEFAULT_WORKSHOP,
-        help="Path to strategy-codex codex/predictive-history (read-only)",
+        help="Path to strategy-codex continuity/predictive-history (read-only)",
     )
     args = parser.parse_args()
     workshop_root: Path = args.workshop_root

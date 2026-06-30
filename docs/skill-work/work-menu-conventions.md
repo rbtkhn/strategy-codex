@@ -82,7 +82,7 @@ Keep menu letters as UI conveniences. Durable logs should still use conductor sl
 - The operator may answer **`A+C`** (or similar); the assistant executes both compatible branches.
 - When two options combine naturally, you may add one line: **Combo:** `B + half of D` â€” *brief label explaining the merge* (still one human pick; do not develop the combo content until selected).
 - **`F` â€” All (strategy-notebook hygiene bundle):** In one pass â€” (1) **verify hooks** / Primary-pull targets in `daily-strategy-inbox.md`, (2) **MINDS** cross-pointer to dated mind-file addenda (e.g. `CIV-MIND-MERCOURIS.md` **III.M**), (3) **Carry** lines that tie inbox â†” mind. **Exclude** weaving scratch into `chapters/YYYY-MM/days.md` unless **`dream`** or **explicit operator direction** â€” early **weave** risks duplicate **Judgment** before **Links** verify.
-- **`strategy + verify`** â€” **Work-strategy** fork: same intent as **`strategy`** / **`strategy ingest`**, plus a **triage fact-check** ([`.cursor/skills/fact-check/SKILL.md`](../../.cursor/skills/fact-check/SKILL.md)) and/or **web pass** on **load-bearing** claims â€” especially **rosters**, **dates**, and **stats** from **transcripts**. Land outcomes in **`daily-strategy-inbox.md`** (**`verify:`**, **Primary pulls**) and, when folding, **`### Web verification`** / **`### References`** in `days.md` â€” not **`### Reflection`** without sources. Spec: [`.cursor/skills/skill-strategy/SKILL.md`](work-strategy/SKILL-STRATEGY-DEPRECATED.md) (**Modes** â†’ **+ verify**, **Transcript / analyst capture**); architecture: [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) Â§ *skill-strategy modes and verification passes*.
+- **`strategy + verify`** â€” **Work-strategy** fork: same intent as **`strategy`** / **`strategy ingest`**, plus a **triage fact-check** ([`.cursor/skills/fact-check/SKILL.md`](../../.cursor/skills/fact-check/SKILL.md)) and/or **web pass** on **load-bearing** claims â€” especially **rosters**, **dates**, and **stats** from **transcripts**. Land outcomes in **`daily-strategy-inbox.md`** (**`verify:`**, **Primary pulls**) and, when folding, **`### Web verification`** / **`### References`** in `days.md` â€” not **`### Reflection`** without sources. Spec: [`.cursor/skills/skill-strategy/SKILL.md`](work-strategy/SKILL-STRATEGY-DEPRECATED.md) (**Modes** â†’ **+ verify**, **Transcript / analyst capture**); architecture: [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md) Â§ *skill-strategy modes and verification passes*.
 
 ---
 
@@ -120,7 +120,7 @@ python3 scripts/menu_choice_evolution.py -u grace-mar --days 30 --print-gate-stu
 
 The gate stub is **stdout only** â€” paste and edit **`CANDIDATE-XXXX`** before any merge.
 
-**Strategy ingest session receipt (optional):** End-of-session tally for **X / transcript ingests** without duplicating full lines in `session-transcript.md` â€” the **SSOT** for paste-ready lines stays [strategy-notebook/daily-strategy-inbox.md](../../codex/daily-strategy-inbox.md). Example:
+**Strategy ingest session receipt (optional):** End-of-session tally for **X / transcript ingests** without duplicating full lines in `session-transcript.md` â€” the **SSOT** for paste-ready lines stays [strategy-notebook/daily-strategy-inbox.md](../../continuity/daily-strategy-inbox.md). Example:
 
 ```bash
 python3 scripts/log_operator_choice.py -u grace-mar --context WORK --picked strategy-ingest \
@@ -129,7 +129,7 @@ python3 scripts/log_operator_choice.py -u grace-mar --context WORK --picked stra
 
 `--note` is truncated at **500 characters** by the script â€” use a **pointer** (date / file), not a full paste dump. First-class `--context INGEST` is **not** required; `WORK` + `picked` + tags is enough for aggregation.
 
-**Strategy weave ledger (optional):** After weaving [strategy-notebook/daily-strategy-inbox.md](../../codex/daily-strategy-inbox.md) into `chapters/YYYY-MM/days.md`, append one JSONL event (compression proxies, optional ratings) â€” not session-transcript, not MEMORY:
+**Strategy weave ledger (optional):** After weaving [strategy-notebook/daily-strategy-inbox.md](../../continuity/daily-strategy-inbox.md) into `chapters/YYYY-MM/days.md`, append one JSONL event (compression proxies, optional ratings) â€” not session-transcript, not MEMORY:
 
 ```bash
 python3 scripts/log_strategy_fold.py -u grace-mar --notebook-date 2026-04-13 --fold-kind manual \
@@ -137,7 +137,7 @@ python3 scripts/log_strategy_fold.py -u grace-mar --notebook-date 2026-04-13 --f
 python3 scripts/report_strategy_fold_learning.py -u grace-mar --days 30
 ```
 
-Spec: [FOLD-LEARNING.md](../../codex/FOLD-LEARNING.md).
+Spec: [FOLD-LEARNING.md](../../continuity/FOLD-LEARNING.md).
 
 **Strategy context (cold start):** `python3 scripts/strategy_context.py -u grace-mar` prints one **â‰¤120-word** re-entry paragraph (notebook **Open**, inbox, daily brief Â§1b, STRATEGY / promotion ladder / commentator index) or **`--compact`** path/status lines; **`--meta`** / **`--minds`** add month **`meta.md`** and Tri-Frame **`minds/outputs`** pointers; **`--recent N`** or **`--history`** (N=20) appends **lightweight history** (fold JSONL + filtered WORK-choice + optional **`--recent-git K`**); **`--log`** appends a **`WORK-choice`** receipt to **`session-transcript.md`** via `log_operator_choice.py` (pointer-only note). See [work-strategy README â€” `strategy-context`](work-strategy/README.md#strategy-session-helpers-skill-strategy).
 

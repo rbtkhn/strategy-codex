@@ -20,7 +20,7 @@ That error then widened into a second class of mistake:
 The correct repo rule is simpler:
 
 - `knowledge` and `recursion-gate` are governed root surfaces in this workspace
-- `codex/` is the strategy notebook, not the approval membrane
+- `continuity/` is the strategy notebook, not the approval membrane
 - when the bookshelf workflow exists, use it before inventing a substitute
 
 ## Correct control surface
@@ -107,7 +107,7 @@ When the operator asks for bookshelf knowledge:
 - if it does, run the source-bound MCQ path
 - if it does not, add the anchor first, then run the same path
 - stage only to root `recursion-gate.md`
-- never create a fake `platform/users/strategy-codex/` compatibility tree to satisfy broken scripts
+- never create a fake `platform/users/strategy-continuity/` compatibility tree to satisfy broken scripts
 
 ## Short verdict
 

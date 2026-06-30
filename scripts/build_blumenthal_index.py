@@ -315,7 +315,7 @@ def render_index(rows: list[tuple[str, Path, dict]]) -> str:
             "",
             "## Boundary",
             "",
-            "**SSOT:** `source-archive/statecraft/` — not legacy `codex/years/…/provenance/` · not `raw-input` mirrors.",
+            "**SSOT:** `source-archive/statecraft/` — not legacy `continuity/years/…/provenance/` · not `raw-input` mirrors.",
             "",
             "**Reading rules:**",
             "",

@@ -12,11 +12,11 @@
 
 ### 1.1 The three “minds” (cognitive lenses)
 
-**Canonical mind files (Grace-Mar — full content in repo, no civ-mem required):** long-form fingerprints are the strategy-expert **`-mind.md`** files; `../../codex/minds/CIV-MIND-*.md` **redirect** to them (stable links for skills and upstream naming).
+**Canonical mind files (Grace-Mar — full content in repo, no civ-mem required):** long-form fingerprints are the strategy-expert **`-mind.md`** files; `../../continuity/minds/CIV-MIND-*.md` **redirect** to them (stable links for skills and upstream naming).
 
-- [`strategy-expert-mercouris-mind.md`](../../../../codex/strategy-expert-mercouris-mind.md) — legitimacy, narrative, doctrine, symbolic continuity (often **primary** in upstream CMC). Redirect: [`CIV-MIND-MERCOURIS.md`](../../../../codex/minds/CIV-MIND-MERCOURIS.md).
-- [`strategy-expert-mearsheimer-mind.md`](../../../../codex/strategy-expert-mearsheimer-mind.md) — power, alliances, security dilemmas, great-power geometry (**advisory / sharpening** in upstream design). Redirect: [`CIV-MIND-MEARSHEIMER.md`](../../../../codex/minds/CIV-MIND-MEARSHEIMER.md).
-- [`strategy-expert-barnes-mind.md`](../../../../codex/strategy-expert-barnes-mind.md) — material bases, liabilities, fiscal/resource constraints, “who defects first” (**catalyst / third voice** in upstream design). Redirect: [`CIV-MIND-BARNES.md`](../../../../codex/minds/CIV-MIND-BARNES.md).
+- [`strategy-expert-mercouris-mind.md`](../../../../continuity/strategy-expert-mercouris-mind.md) — legitimacy, narrative, doctrine, symbolic continuity (often **primary** in upstream CMC). Redirect: [`CIV-MIND-MERCOURIS.md`](../../../../continuity/minds/CIV-MIND-MERCOURIS.md).
+- [`strategy-expert-mearsheimer-mind.md`](../../../../continuity/strategy-expert-mearsheimer-mind.md) — power, alliances, security dilemmas, great-power geometry (**advisory / sharpening** in upstream design). Redirect: [`CIV-MIND-MEARSHEIMER.md`](../../../../continuity/minds/CIV-MIND-MEARSHEIMER.md).
+- [`strategy-expert-barnes-mind.md`](../../../../continuity/strategy-expert-barnes-mind.md) — material bases, liabilities, fiscal/resource constraints, “who defects first” (**catalyst / third voice** in upstream design). Redirect: [`CIV-MIND-BARNES.md`](../../../../continuity/minds/CIV-MIND-BARNES.md).
 
 **Optional:** If `civilization_memory` (civ-mem) is present, upstream `docs/templates/CIV–MIND–*.md` for governance-only diff — not required for work-strategy.
 
@@ -27,8 +27,8 @@ Index (tri-frame expert bundles): [`docs/skill-work/work-strategy/minds/README.m
 ### 1.2 `skill-strategy` (strategy pass)
 
 - **Skill:** `.cursor/skills/skill-strategy/SKILL.md` — trigger: **`strategy`**, **`strategy pass`**, **`work-strategy`**.
-- **Primary write surface:** `docs/skill-work/work-strategy/../../codex/` — pages (`chapters/YYYY-MM/pages/strategy-notebook-page-*.md`) are the atomic units; `days.md` tracks chronology and continuity (+ `meta.md` for month-level theme).
-- **Architecture:** `docs/skill-work/work-strategy/../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md` — Chronicle / Reflection / References / Foresight / optional verify, PH **`### Jiang resonance`**, weak-signal discipline, cross-artifact alignment (planes / lenses).
+- **Primary write surface:** `docs/skill-work/work-strategy/../../continuity/` — pages (`chapters/YYYY-MM/pages/strategy-notebook-page-*.md`) are the atomic units; `days.md` tracks chronology and continuity (+ `meta.md` for month-level theme).
+- **Architecture:** `docs/skill-work/work-strategy/../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md` — Chronicle / Reflection / References / Foresight / optional verify, PH **`### Jiang resonance`**, weak-signal discipline, cross-artifact alignment (planes / lenses).
 - **Promotion:** `STRATEGY.md` only when arcs **stabilize** (not every day).
 
 ### 1.3 LEARN MODE (stricter protocol — optional)
@@ -38,7 +38,7 @@ Index (tri-frame expert bundles): [`docs/skill-work/work-strategy/minds/README.m
 ### 1.4 Operator preference already in-repo (constraints for your ideas)
 
 - **Granular control:** Cursor rule `.cursor/rules/strategy-minds-granular.mdc` — **no automatic tri-frame** on every `strategy` pass; use **0, 1, 2, or 3** lenses as the operator specifies, or **no** explicit lens labels unless useful.
-- **removed operator-books symlink naming:** `.cursor/rules/self-library-operator-books.mdc` — hyphenated **`predictive-history`** / **`strategy-notebook`** resolve to **predictive-history (`codex/predictive-history/`)** / **strategy-codex (`codex/`)** when the operator uses those strings.
+- **removed operator-books symlink naming:** `.cursor/rules/self-library-operator-books.mdc` — hyphenated **`predictive-history`** / **`strategy-notebook`** resolve to **predictive-history (`continuity/predictive-history/`)** / **strategy-codex (`continuity/`)** when the operator uses those strings.
 
 Your brainstorm should **respect** granular control: favor **optional, composable** patterns over “always run all three.”
 
@@ -76,7 +76,7 @@ Produce a **structured artifact** (markdown is fine) with:
 
 ## 4. Reviewer checklist (before you finish)
 
-- [ ] Cited at least one path under `docs/skill-work/work-strategy/../../codex/minds/` and one under `docs/skill-work/work-strategy/minds/`.
+- [ ] Cited at least one path under `docs/skill-work/work-strategy/../../continuity/minds/` and one under `docs/skill-work/work-strategy/minds/`.
 - [ ] Addressed **granular** use (not only tri-frame).
 - [ ] Addressed **strategy-notebook** as primary surface vs **STRATEGY.md** promotion.
 - [ ] Named **verification** where numbers or public ship are in scope.
@@ -96,7 +96,7 @@ Your brainstorm should **elaborate and extend** this — new combinations, clear
 
 ---
 
-**End of prompt.** Return your brainstorm to the operator in whatever channel they specified; if committing to the repo, prefer a dated note under `docs/skill-work/work-strategy/` or an append to `../../codex/chapters/2026/2026-04/days.md` only when the operator asks.
+**End of prompt.** Return your brainstorm to the operator in whatever channel they specified; if committing to the repo, prefer a dated note under `docs/skill-work/work-strategy/` or an append to `../../continuity/chapters/2026/2026-04/days.md` only when the operator asks.
 
 **Consolidated pattern note (repo):** [MINDS-SKILL-STRATEGY-PATTERNS.md](MINDS-SKILL-STRATEGY-PATTERNS.md) — v1 advisory manual derived from brainstorms; extend that file rather than duplicating long pattern prose here.
 

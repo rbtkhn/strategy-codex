@@ -116,7 +116,7 @@ def main() -> int:
         lines.append(f"**Inference from changed files:** `{dom}` → add label **`lane/{dom}`**.")
         if dom == "work-jiang":
             lines.append(
-                "- Jiang lane reference: **`codex/predictive-history/LANE-CI.md`** "
+                "- Jiang lane reference: **`continuity/predictive-history/LANE-CI.md`** "
                 "(PR labels vs `### CANDIDATE-*` paste shape into the gate)."
             )
         if dom == "work-politics":

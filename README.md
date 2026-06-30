@@ -32,7 +32,7 @@ Model intelligence is getting cheaper. The scarce layer is the harness around it
 
 **Deeper read:** [docs/intelligence-harness.md](docs/intelligence-harness.md) · [product-identity.md](docs/product-identity.md) · [from-accumulation essay](essays/from-accumulation-to-governed-interpretive-machine.md)
 
-**Strategy-codex corpus:** [`codex/`](codex/README.md) is the first-class home for the polyphonic cognition streams, raw inputs, chapters, compiled views, and strategy-codex artifacts. The old `docs/skill-work/work-strategy/strategy-notebook/` path is deprecated compatibility only.
+**Strategy-codex continuity layer:** [`continuity/`](continuity/README.md) — durable chronology, accumulation, and notebook continuity layer formerly at `continuity/`. Legacy redirect: [`continuity/README.md`](continuity/README.md). The old `docs/skill-work/work-strategy/strategy-notebook/` path is deprecated compatibility only.
 
 **New here?** [docs/start-here.md](docs/start-here.md) · [Essays](essays/README.md).
 

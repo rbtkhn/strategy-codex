@@ -49,7 +49,7 @@ Promotion often **starts** from lightweight notebook markers such as:
 - `[decision]`
 - `[promote]`
 
-These markers **do not** themselves change stage. They are **intake cues** only (see [NOTEBOOK-PREFERENCES.md](../../../codex/NOTEBOOK-PREFERENCES.md#escalation-marker-preference)); the operator still uses this ladder to decide whether a line stays local, becomes watch support, matures into a decision point, or becomes a promotion candidate.
+These markers **do not** themselves change stage. They are **intake cues** only (see [NOTEBOOK-PREFERENCES.md](../../../continuity/NOTEBOOK-PREFERENCES.md#escalation-marker-preference)); the operator still uses this ladder to decide whether a line stays local, becomes watch support, matures into a decision point, or becomes a promotion candidate.
 
 ### 3.6 Demotion is allowed
 If a promoted artifact proves weak, ornamental, or misleading, it may be demoted, compressed, merged, or retired.
@@ -305,7 +305,7 @@ If those cannot be stated, stop promotion.
 [history-notebook/](../../../README.md) — holds richer local historical treatment when a thin case abstraction is no longer enough.
 
 ### Strategy Notebook
-[../../codex/](../../../README.md) — primary daily judgment surface where many promotions begin and some end.
+[../../continuity/](../../../README.md) — primary daily judgment surface where many promotions begin and some end.
 
 ### Current-events analysis
 [current-events-analysis.md](current-events-analysis.md) — a common entry point for case hits, resonance notes, and analogy audits.

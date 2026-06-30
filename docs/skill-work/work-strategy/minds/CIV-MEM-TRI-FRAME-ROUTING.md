@@ -2,7 +2,7 @@
 
 > **`tri-mind` / tri-frame is obsolete** — [TRI-MIND-DEPRECATED.md](../TRI-MIND-DEPRECATED.md). This doc remains as **civ-mem routing hints** when grounding a **single** named mind (Mercouris / Mearsheimer / Barnes).
 
-**Purpose:** Route **Mercouris**, **Mearsheimer**, and **Barnes** to the right **civilization_memory** (civ-mem) slices so analysis is **grounded**, not vibes-only. **Minds** = lenses ([`../../codex/minds/CIV-MIND-*.md`](../../../../codex/minds)); **civ-mem** = MEM / STATE / SCHOLAR / ARC / CORE evidence.
+**Purpose:** Route **Mercouris**, **Mearsheimer**, and **Barnes** to the right **civilization_memory** (civ-mem) slices so analysis is **grounded**, not vibes-only. **Minds** = lenses ([`../../continuity/minds/CIV-MIND-*.md`](../../../../continuity/minds)); **civ-mem** = MEM / STATE / SCHOLAR / ARC / CORE evidence.
 
 **Where the repo lives:** [`research/repos/civilization_memory/`](../../../../research/repos/civilization_memory/README.md) â€” also symlinked as [`civilization_memory`](../../../../research/repos/civilization_memory). **LIB:** [self-library.md](../../../../archive/grace-mar-instance/self-library.md#operator-analytical-books). **Not** the same as [self-library.md](../../../../archive/grace-mar-instance/self-library.md) (`docs/civilization-memory/` satellite essays).
 
@@ -40,7 +40,7 @@
 
 ## See also
 
-- [`../../codex/minds/README.md`](../../../../README.md) â€” canonical **CIV-MIND** files in-repo.
+- [`../../continuity/minds/README.md`](../../../../README.md) â€” canonical **CIV-MIND** files in-repo.
 - [`minds/README.md`](README.md) â€” entry stubs.
 - **Search / index** over the upstream checkout: [`CIV-MEM-UPSTREAM-SEARCH.md`](CIV-MEM-UPSTREAM-SEARCH.md).
 - **Granular minds:** [`.cursor/rules/strategy-minds-granular.mdc`](../../../../.cursor/rules/strategy-minds-granular.mdc).

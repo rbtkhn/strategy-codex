@@ -2,9 +2,9 @@
 
 Operator-only procedure: separate **private** three-voice (CIV-MIND) processing from **public** chapter prose. Public chapters must follow [STYLE-GUIDE.md](STYLE-GUIDE.md) — no `CIV-*` IDs, mind file paths, or agent infrastructure in markdown. Metadata stays in [book-architecture.yaml](book-architecture.yaml) and [cross-book-map.yaml](cross-book-map.yaml).
 
-**Upstream corpus:** [civilization_memory](https://github.com/rbtkhn/civilization_memory) (CMC). Full governance templates: [research/repos/civilization_memory/docs/templates/](../../../../research/repos/civilization_memory/docs/templates/). **Default voice stubs for passes:** [../../../../codex/minds/](../../../../codex/minds) (`CIV-MIND-*.md` trimmed for notebook use).
+**Upstream corpus:** [civilization_memory](https://github.com/rbtkhn/civilization_memory) (CMC). Full governance templates: [research/repos/civilization_memory/docs/templates/](../../../../research/repos/civilization_memory/docs/templates/). **Default voice stubs for passes:** [../../../../continuity/minds/](../../../../continuity/minds) (`CIV-MIND-*.md` trimmed for notebook use).
 
-**Parallel framing:** Month-level polyphony in strategy-notebook [meta.md](../../../../codex/chapters/2026/2026-04/meta.md) § Polyphony; Jiang operator layer: [operator-polyphony.md](../../../../codex/predictive-history/operator-polyphony.md). Patterns: [MINDS-SKILL-STRATEGY-PATTERNS.md](../minds/MINDS-SKILL-STRATEGY-PATTERNS.md).
+**Parallel framing:** Month-level polyphony in strategy-notebook [meta.md](../../../../continuity/chapters/2026/2026-04/meta.md) § Polyphony; Jiang operator layer: [operator-polyphony.md](../../../../continuity/predictive-history/operator-polyphony.md). Patterns: [MINDS-SKILL-STRATEGY-PATTERNS.md](../minds/MINDS-SKILL-STRATEGY-PATTERNS.md).
 
 ---
 
@@ -50,7 +50,7 @@ flowchart LR
 3. **CIV-MIND passes** — Fixed order **M → Me → B**. Each pass: ~8–15 lines, in-voice per stubs. Optional: two-lens only for routine work ([strategy-minds-granular.mdc](../../../../.cursor/rules/strategy-minds-granular.mdc)); add the third lens when the chapter’s open question is explicitly three-plane.
 4. **Tension** — One paragraph: what conflicts between narrative legitimacy, structural power, and material liability — **do not resolve**.
 5. **Translate to STYLE-GUIDE** — Map into Sources → Axioms → Formation → Narrative → Contradictions → Strategy relevance. Optional operator-only tags (`[legit]`, `[power]`, `[liability]`, `[verify]`) in draft; strip before public commit (see MINDS patterns §8).
-6. **PH / Jiang** — Update `cross-book-map.yaml`; use [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md) **Jiang resonance** as slow corpus check (not a fourth voice).
+6. **PH / Jiang** — Update `cross-book-map.yaml`; use [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md) **Jiang resonance** as slow corpus check (not a fourth voice).
 
 ---
 
@@ -84,7 +84,7 @@ flowchart LR
 
 ## Maintenance
 
-When History Notebook arc emphasis or Predictive History queue shifts in a serious way, align **both** [operator-polyphony.md](../../../../codex/predictive-history/operator-polyphony.md) and the active month [meta.md](../../../../codex/chapters/2026/2026-04/meta.md) § Polyphony in the same session (parallel to PH maintenance).
+When History Notebook arc emphasis or Predictive History queue shifts in a serious way, align **both** [operator-polyphony.md](../../../../continuity/predictive-history/operator-polyphony.md) and the active month [meta.md](../../../../continuity/chapters/2026/2026-04/meta.md) § Polyphony in the same session (parallel to PH maintenance).
 
 ---
 

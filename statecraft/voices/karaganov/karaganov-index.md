@@ -8,7 +8,7 @@ Purpose: canonical route map for the materialized Karaganov corpus, grouped by h
 Karaganov is a **single-helix, Diesen-anchored** speaker:
 
 - **7** direct guest captures in **archive parity** (2023–2026 Diesen run on disk)
-- **0** legacy **`codex/years/`** Karaganov captures pending promotion
+- **0** legacy **`continuity/years/`** Karaganov captures pending promotion
 - **1** labeled reaction surface (Ritter, 2026-01-03) — cited below for routing; **excluded from parity**
 
 Host chronology detail: [arc-karaganov-diesen-host.md](../../notes/arc-karaganov-diesen-host.md).
@@ -31,8 +31,8 @@ Rank these first when routing live statecraft work.
 
 | Date | Legacy stub | Archive SSOT |
 |---|---|---|
-| 2025-05-14 | [codex/years/…/transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md](../../../codex/years/2025/raw-input/2025-05-14/transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md) | [source-archive 2025-05-14](../../../source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md) |
-| 2025-12-25 | [codex/years/…/transcript-diesen-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md](../../../codex/years/2025/raw-input/2025-12-25/transcript-diesen-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md) | [source-archive 2025-12-25](../../../source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md) |
+| 2025-05-14 | [continuity/years/…/transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md](../../../continuity/years/2025/raw-input/2025-05-14/transcript-diesen-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md) | [source-archive 2025-05-14](../../../source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md) |
+| 2025-12-25 | [continuity/years/…/transcript-diesen-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md](../../../continuity/years/2025/raw-input/2025-12-25/transcript-diesen-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md) | [source-archive 2025-12-25](../../../source-archive/statecraft/2025-12-25/source-glenn-diesen-sergey-karaganov-confronting-europe-pivot-east-nuclear-war-2025-12-25.md) |
 
 ## Reaction / reinforcement (not Karaganov appearances)
 
@@ -72,4 +72,4 @@ Skill: [voice-profile-panel](../../../.cursor/skills/voice-profile-panel/SKILL.m
 
 ## Migration pressure
 
-2025 Diesen solos **promoted** (2026-06-13). Legacy `codex/years/` stubs retained as compatibility redirects only.
+2025 Diesen solos **promoted** (2026-06-13). Legacy `continuity/years/` stubs retained as compatibility redirects only.

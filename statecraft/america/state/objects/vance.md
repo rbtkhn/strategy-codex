@@ -37,12 +37,12 @@ The object asks: when Vance speaks, acts, appears in leaks, or is assigned a dip
 Track Vance across all raw-inputs, not only America-specific or Ritter / Mercouris appearances.
 
 ```powershell
-rg -n "JD Vance|J\\.D\\. Vance|Vance|Vice President Vance|J D Vance" codex/years
+rg -n "JD Vance|J\\.D\\. Vance|Vance|Vice President Vance|J D Vance" continuity/years
 ```
 
 Snapshot from the first object pass:
 
-- `codex/years` contains 202 local files with a Vance match.
+- `continuity/years` contains 202 local files with a Vance match.
 - `source-archive/statecraft` contains 175 local files with a Vance match.
 - `source-archive/statecraft` contains 639 matching lines.
 

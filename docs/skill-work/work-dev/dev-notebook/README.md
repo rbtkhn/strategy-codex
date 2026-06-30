@@ -41,13 +41,13 @@ dev-notebook/
 
 ## Conductor (work-dev)
 
-**Wiring:** The [`.cursor/skills/conductor/SKILL.md`](../../../../.cursor/skills/conductor/SKILL.md) **Conductor** turn (name a stance -> one or two **on-disk** hotspots -> falsify or outcome -> optional cadence log) is the **work-dev** execution pattern for this repo. **Vocabulary** (Toscanini through Bernstein, name-only conductor routing, resolved **Conductor Action Menu**) stays **SSOT** in [CONDUCTOR-PASS.md](../../work-coffee/CONDUCTOR-PASS.md) and the **Symphony** protocol in [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../../codex/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) - **this** section only names **where** **work-dev** Conductor **output** **lands** in the notebook tree.
+**Wiring:** The [`.cursor/skills/conductor/SKILL.md`](../../../../.cursor/skills/conductor/SKILL.md) **Conductor** turn (name a stance -> one or two **on-disk** hotspots -> falsify or outcome -> optional cadence log) is the **work-dev** execution pattern for this repo. **Vocabulary** (Toscanini through Bernstein, name-only conductor routing, resolved **Conductor Action Menu**) stays **SSOT** in [CONDUCTOR-PASS.md](../../work-coffee/CONDUCTOR-PASS.md) and the **Symphony** protocol in [COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md](../../../../continuity/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md) - **this** section only names **where** **work-dev** Conductor **output** **lands** in the notebook tree.
 
 | Output | Land it here |
 |--------|----------------|
-| **Conductor close** (stance, object, falsify) for **harness** / **integration** / **workspace** wedges | [work-dev/journal/`YYYY-MM-DD-day-NN.md`](work-dev/journal/README.md) as `### Conductor close` (same **shape** as [CONDUCTOR-CLOSE-TEMPLATE.md](../../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md) — not strategy `days.md`, same **block**). |
+| **Conductor close** (stance, object, falsify) for **harness** / **integration** / **workspace** wedges | [work-dev/journal/`YYYY-MM-DD-day-NN.md`](work-dev/journal/README.md) as `### Conductor close` (same **shape** as [CONDUCTOR-CLOSE-TEMPLATE.md](../../../../continuity/CONDUCTOR-CLOSE-TEMPLATE.md) — not strategy `days.md`, same **block**). |
 | **Kleiber**-style **action** choices | Ground options in [workspace.md](../workspace.md) and paths under `dev-notebook/work-dev/`; **one** **refusal** per option. |
-| **Cadence only** (no new prose) | `coffee_conductor_outcome` with `notebook_ref=` → path under this tree or [workspace.md](../workspace.md) — [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) § 3. |
+| **Cadence only** (no new prose) | `coffee_conductor_outcome` with `notebook_ref=` → path under this tree or [workspace.md](../workspace.md) — [CONDUCTOR-IMPROVEMENT-LOOP.md](../../../../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md) § 3. |
 
 **Do not** treat **dev-notebook** as a second **strategy** rolling **days.md**; **day-scale** strategy weave stays in [strategy-notebook](../../work-strategy/strategy-notebook/README.md). **Milestones** still hit [work-dev-history.md](../work-dev-history.md) first for **shipped** facts.
 

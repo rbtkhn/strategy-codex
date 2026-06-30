@@ -18,4 +18,4 @@ Operator says **`strategy`**, **`strategy pass`**, **`work-strategy`** (codex pa
 ## Boundaries
 
 - WORK only — not Record merge.
-- Verbatim ingest → [strategy-input-raw-ingest.mdc](strategy-input-raw-ingest.mdc) + [`codex/raw-input/`](../../codex/raw-input/README.md).
+- Verbatim ingest → [strategy-input-raw-ingest.mdc](strategy-input-raw-ingest.mdc) + [`continuity/raw-input/`](../../continuity/raw-input/README.md).

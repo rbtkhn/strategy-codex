@@ -17,7 +17,7 @@ Gitignored (see repo `.gitignore`). Ephemeral scratch — not Record.
 Search under:
 
 - `docs/skill-work/`
-- `codex/`
+- `continuity/`
 - `statecraft/`
 - `runtime/artifacts/` (read-only sources; do not treat as SSOT)
 - `skills/`

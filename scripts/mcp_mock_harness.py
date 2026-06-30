@@ -90,7 +90,7 @@ def load_mock_run(path: Path) -> dict[str, Any]:
 
 def _is_canonical_record_path(token: str) -> bool:
     norm = token.replace("\\", "/").strip().lower().lstrip("./")
-    if norm.startswith("platform/users/strategy-codex/") or norm.startswith("platform/users/grace-mar/"):
+    if norm.startswith("platform/users/strategy-continuity/") or norm.startswith("platform/users/grace-mar/"):
         return True
     return norm in _CANONICAL_RECORD_PATHS
 

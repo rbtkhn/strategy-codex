@@ -44,7 +44,7 @@ SSOT for [transaction terminology retirement](../strategy-codex-redesign-brief.m
 
 ## Pending / optional
 
-- `codex/academy/statecraft/transactions/` — academy mirror stubs (read-only copy)
+- `continuity/academy/statecraft/transactions/` — academy mirror stubs (read-only copy)
 - Synthesis day files mentioning "transaction-fit" — historical prose
 - `repo-map.yaml` essay tags — refresh `transactions` → `notes` where applicable
 

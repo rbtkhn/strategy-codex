@@ -76,7 +76,7 @@ After heavy implement/ship day without RLJ, Step 1 closeout prose may add **one 
 
 ### Conductor finale / `bravo`
 
-Order: conductor close first (`coffee_conductor_outcome` or [CONDUCTOR-CLOSE-TEMPLATE.md](../../../codex/CONDUCTOR-CLOSE-TEMPLATE.md)) → optional RLJ offer.
+Order: conductor close first (`coffee_conductor_outcome` or [CONDUCTOR-CLOSE-TEMPLATE.md](../../../continuity/CONDUCTOR-CLOSE-TEMPLATE.md)) → optional RLJ offer.
 
 ### Dream handoff
 

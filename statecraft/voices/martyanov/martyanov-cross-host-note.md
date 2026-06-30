@@ -9,4 +9,4 @@ Canonical live cross-host continuity for Martyanov now lives in:
 - [statecraft/voices/martyanov/martyanov-helix.md](martyanov-helix.md)
 - [statecraft/voices/martyanov/martyanov-routing.md](martyanov-routing.md)
 
-Use the `statecraft/` shelf for current branch balance, host-law routing, and provenance-aware interpretation. This `codex/` file remains only so legacy links still land somewhere intelligible.
+Use the `statecraft/` shelf for current branch balance, host-law routing, and provenance-aware interpretation. This `continuity/` file remains only so legacy links still land somewhere intelligible.

@@ -82,7 +82,7 @@ See [intelligence-harness.md — Model / harness / operator / output objects](in
 
 **Promotion is a queue problem, not a summarization problem.** Intake sidecars classify and route before daily synthesis — [statecraft-intake-queue.md](statecraft-intake-queue.md).
 
-**Bounded cycles** (intentional, not unbounded recursion): conductor improvement loop ([CONDUCTOR-IMPROVEMENT-LOOP.md](../codex/CONDUCTOR-IMPROVEMENT-LOOP.md)), `dream` compression, workflow-depth halting ([runtime/workflow-depth.md](runtime/workflow-depth.md)).
+**Bounded cycles** (intentional, not unbounded recursion): conductor improvement loop ([CONDUCTOR-IMPROVEMENT-LOOP.md](../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md)), `dream` compression, workflow-depth halting ([runtime/workflow-depth.md](runtime/workflow-depth.md)).
 
 ---
 
@@ -140,7 +140,7 @@ flowchart TB
 
 ## Legacy overlays
 
-**Strategy-notebook / work-strategy** remain **compatibility** namespaces — not the primary public strategy surface. Architecture: [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../codex/STRATEGY-NOTEBOOK-ARCHITECTURE.md). Active routing: [DEFAULT-PATH.md](skill-work/work-strategy/DEFAULT-PATH.md).
+**Strategy-notebook / work-strategy** remain **compatibility** namespaces — not the primary public strategy surface. Architecture: [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md). Active routing: [DEFAULT-PATH.md](skill-work/work-strategy/DEFAULT-PATH.md).
 
 ---
 
@@ -152,7 +152,7 @@ Growing the Grace-Mar interpretive machine is **not** a system objective. Embedd
 
 ## Meta-review
 
-Review **outputs** and **the system that produced them**. Surfaces: [orchestration/review-orchestrator.md](orchestration/review-orchestrator.md), [CONDUCTOR-IMPROVEMENT-LOOP.md](../codex/CONDUCTOR-IMPROVEMENT-LOOP.md) (protocol repair receipts), [CONDUCTOR-CLOSE-TEMPLATE.md](../codex/CONDUCTOR-CLOSE-TEMPLATE.md).
+Review **outputs** and **the system that produced them**. Surfaces: [orchestration/review-orchestrator.md](orchestration/review-orchestrator.md), [CONDUCTOR-IMPROVEMENT-LOOP.md](../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md) (protocol repair receipts), [CONDUCTOR-CLOSE-TEMPLATE.md](../continuity/CONDUCTOR-CLOSE-TEMPLATE.md).
 
 ---
 

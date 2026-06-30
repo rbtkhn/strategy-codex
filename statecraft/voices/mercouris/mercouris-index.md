@@ -1,4 +1,5 @@
 
+
 # Mercouris Index
 
 Purpose: primary route map for **Alexander Mercouris** — guest captures on other hosts; pair with analytical bench and host channel below.

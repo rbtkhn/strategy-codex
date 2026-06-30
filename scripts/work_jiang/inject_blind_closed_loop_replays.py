@@ -13,7 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 BLIND = (
     ROOT
-    / "codex/predictive-history/prediction-tracking/lecture-forward-chain-gt-BLIND.md"
+    / "continuity/predictive-history/prediction-tracking/lecture-forward-chain-gt-BLIND.md"
 )
 
 # (round_R, next_round_header_line_after_---) — replay body only, no trailing ---

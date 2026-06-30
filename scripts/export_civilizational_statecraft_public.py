@@ -290,26 +290,26 @@ def transform_hybrid_references_public(text: str, manifest: dict, volume_slugs: 
 def rewrite_absolute_links(text: str, volume_slugs: dict[str, str]) -> str:
     for folder, slug in volume_slugs.items():
         text = re.sub(
-            rf"\]\(/C:/dev/strategy-codex/statecraft/states/volumes/{re.escape(folder)}/README\.md\)",
+            rf"\]\(/C:/dev/strategy-continuity/statecraft/states/volumes/{re.escape(folder)}/README\.md\)",
             r"](README.md)",
             text,
         )
         text = re.sub(
-            rf"\]\(/C:/dev/strategy-codex/statecraft/states/volumes/{re.escape(folder)}/([^)]+)\)",
+            rf"\]\(/C:/dev/strategy-continuity/statecraft/states/volumes/{re.escape(folder)}/([^)]+)\)",
             rf"](\1)",
             text,
         )
         text = re.sub(
-            rf"\]\(/C:/dev/strategy-codex/statecraft/states/volumes/{re.escape(folder)}/sacred-grammar\.md\)",
+            rf"\]\(/C:/dev/strategy-continuity/statecraft/states/volumes/{re.escape(folder)}/sacred-grammar\.md\)",
             r"](sacred-grammar.md)",
             text,
         )
     text = re.sub(
-        r"\[[^\]]+\]\(/C:/dev/strategy-codex/research/repos/civilization_memory[^)]+\)",
+        r"\[[^\]]+\]\(/C:/dev/strategy-continuity/research/repos/civilization_memory[^)]+\)",
         "the volume bibliography and primary shelves",
         text,
     )
-    text = re.sub(r"\]\(/C:/dev/strategy-codex/[^)]+\)", r"](README.md)", text)
+    text = re.sub(r"\]\(/C:/dev/strategy-continuity/[^)]+\)", r"](README.md)", text)
     text = re.sub(r"(?i)strategy-codex", "upstream workshop", text)
     return text
 

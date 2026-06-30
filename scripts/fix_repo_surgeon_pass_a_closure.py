@@ -207,7 +207,7 @@ def main() -> None:
     record(
         "statecraft/voices/marandi/marandi-page-2026-04-21-blockade-islamabad-hormuz.md",
         "../../strategy-state-iran/voices/iri-institutional/thread.md",
-        "../../../codex/strategy-state-iran/voices/iri-institutional/thread.md",
+        "../../../continuity/strategy-state-iran/voices/iri-institutional/thread.md",
     )
     record(
         "statecraft/voices/mercouris/mercouris-transcript.md",
@@ -235,8 +235,8 @@ def main() -> None:
     )
     record(
         "statecraft/voices/diesen/diesen-thread.md",
-        "../../../codex/strategy-expert-diesen-transcript.md",
-        "../../../codex/profiles/diesen-profile.md",
+        "../../../continuity/strategy-expert-diesen-transcript.md",
+        "../../../continuity/profiles/diesen-profile.md",
     )
     record(
         "statecraft/voices/diesen/diesen-host-wiring-2026.md",
@@ -282,15 +282,15 @@ def main() -> None:
     # pape malformed commentator-threads link
     record(
         "statecraft/voices/pape/pape-thread.md",
-        "[strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md (`mercouris`",
-        "[strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) (`mercouris`",
+        "[strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md (`mercouris`",
+        "[strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) (`mercouris`",
     )
 
     # ritter malformed inbox link
     record(
         "statecraft/voices/ritter/ritter-thread.md",
         "[daily-strategy-inbox.md `## 2026-04-19`](../daily-strategy-inbox.md (paste line + `batch-analysis | Ritter Substack",
-        "[daily-strategy-inbox.md `## 2026-04-19`](../../../codex/daily-strategy-inbox.md) (paste line + `batch-analysis | Ritter Substack",
+        "[daily-strategy-inbox.md `## 2026-04-19`](../../../continuity/daily-strategy-inbox.md) (paste line + `batch-analysis | Ritter Substack",
     )
 
     # armstrong colon in URL

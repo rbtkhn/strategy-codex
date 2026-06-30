@@ -14,7 +14,7 @@ A **CI failure triage** automation **comments** on failed runs with a short, hum
 
 **Related paste prompt (canonical procedure + identity):** [prompts/cursor-ci-failure-triage.md](prompts/cursor-ci-failure-triage.md) — use that file as the **body** of the automation prompt in the Cursor product; this guide holds the **operator** setup, **taxonomy**, and the **output comment** template (single source of truth for the template).
 
-**Maintenance:** Reconcile the failure **taxonomy** with [`.github/workflows/test.yml`](../../.github/workflows/test.yml) and sibling workflows (e.g. [governance.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/governance.yml), [lane-scope.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/lane-scope.yml)) when CI steps change. *Last reviewed against workflow layout: 2026-04.*
+**Maintenance:** Reconcile the failure **taxonomy** with [`.github/workflows/test.yml`](../../.github/workflows/test.yml) and sibling workflows (e.g. [governance.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/governance.yml), [lane-scope.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/lane-scope.yml)) when CI steps change. *Last reviewed against workflow layout: 2026-04.*
 
 ---
 
@@ -56,20 +56,20 @@ If there is **no** PR (e.g. failed push to `main`), do **not** require opening a
 
 ## Failure taxonomy (Grace‑Mar)
 
-Use this table to **classify** failures after reading **which workflow** failed (`Tests`, `Governance`, `Lane scope`, `work-jiang`, `Harness`, `Naming check`, `Library index`, etc.). The **`Tests`** job in [test.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/test.yml) chains many **named steps**; the **step name** in the log is the best key.
+Use this table to **classify** failures after reading **which workflow** failed (`Tests`, `Governance`, `Lane scope`, `work-jiang`, `Harness`, `Naming check`, `Library index`, etc.). The **`Tests`** job in [test.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/test.yml) chains many **named steps**; the **step name** in the log is the best key.
 
 | Class | Signals | First place to inspect | Suggested local command (when class is known) |
 | --- | --- | --- | --- |
 | **Python / pytest** | `Run pytest` or `pytest` in log; test file path | Failing test file in traceback | `pytest path/to/test_file.py -v --tb=short` (from log) |
 | **Integrity** | `Validate integrity`, `validate-integrity` | `manifest` / `grace-mar-llm` / runtime bundle drift in output | `python scripts/validate-integrity.py --user grace-mar --require-proposal-class` (matches CI; use `python3` if that is your local norm) |
-| **Governance** | `governance_checker.py` (also in `Tests` and [Governance](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/governance.yml) workflow) | Rule name / path in script output | `python scripts/governance_checker.py` |
-| **Gated Record PR** | [governance.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/governance.yml) job `gated-record-pr` | Commits in PR range touching Record paths; `[gated-merge]` / pipeline tokens | **Human:** inspect commit messages and paths—**do not** auto-fix via automation |
-| **Lane scope** | [lane-scope.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/lane-scope.yml) | `PR_LANE` vs changed files per [lanes.yaml](https://github.com/rbtkhn/strategy-codex/blob/main/lanes.yaml) | `python scripts/check_lane_scope.py --help` (then run the same invocation CI uses, from log) |
+| **Governance** | `governance_checker.py` (also in `Tests` and [Governance](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/governance.yml) workflow) | Rule name / path in script output | `python scripts/governance_checker.py` |
+| **Gated Record PR** | [governance.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/governance.yml) job `gated-record-pr` | Commits in PR range touching Record paths; `[gated-merge]` / pipeline tokens | **Human:** inspect commit messages and paths—**do not** auto-fix via automation |
+| **Lane scope** | [lane-scope.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/lane-scope.yml) | `PR_LANE` vs changed files per [lanes.yaml](https://github.com/rbtkhn/strategy-continuity/blob/main/lanes.yaml) | `python scripts/check_lane_scope.py --help` (then run the same invocation CI uses, from log) |
 | **Strategy notebook** | `validate_strategy_pages`, `verify_ritter_refined_pages`, `validate_strategy_expert_threads`, `validate_expert_predictions`, `validate_knot_index`, `knot_seam_metrics` | Path in validator output / strategy-notebook file | Re-run the **exact** `python3 scripts/...` line from the failed **step** |
 | **History notebook** | `validate_bookshelf_catalog`, `build_hn_* --check`, `hn_shelf_anchors` | Generated / check-mode artifacts under `history-notebook` paths from log | Re-run the **exact** `python3 scripts/...` line from the failed **step** |
 | **Work-dev / workbench** | `validate_control_plane`, `preflight_workbench` | [docs/skill-work/work-dev/](../skill-work/work-dev/) and log paths | `python scripts/work_dev/validate_control_plane.py` or `python3 scripts/work_dev/preflight_workbench.py --skip-freshness` as appropriate |
 
-**Other workflows:** [work-jiang.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/work-jiang.yml) (rebuild/validate), [harness.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/harness.yml) (Counterfactual Pack), [naming-check.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/naming-check.yml), [library-index.yml](https://github.com/rbtkhn/strategy-codex/blob/main/.github/workflows/library-index.yml) — classify from **workflow name** and re-run the **failing** command from the log.
+**Other workflows:** [work-jiang.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/work-jiang.yml) (rebuild/validate), [harness.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/harness.yml) (Counterfactual Pack), [naming-check.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/naming-check.yml), [library-index.yml](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/library-index.yml) — classify from **workflow name** and re-run the **failing** command from the log.
 
 ---
 

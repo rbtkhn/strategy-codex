@@ -19,5 +19,5 @@
 
 ## Cross-links
 
-- Strategy synthesis stack: [strategy-notebook/SYNTHESIS-OPERATING-MODEL.md](../../codex/SYNTHESIS-OPERATING-MODEL.md) (L4 promotion).
+- Strategy synthesis stack: [strategy-notebook/SYNTHESIS-OPERATING-MODEL.md](../../continuity/SYNTHESIS-OPERATING-MODEL.md) (L4 promotion).
 - work-modules sources principle: [work-modules-sources-principle.md](work-modules-sources-principle.md).

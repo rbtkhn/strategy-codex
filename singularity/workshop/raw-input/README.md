@@ -1,6 +1,6 @@
 # Deprecated raw-input pointer
 
-The canonical singularity source archive moved to [../../../source-archive/singularity/README.md](/C:/dev/strategy-codex/source-archive/singularity/README.md).
+The canonical singularity source archive moved to [../../../source-archive/singularity/README.md](/C:/dev/strategy-continuity/source-archive/singularity/README.md).
 
 Do not add new captures here.
 

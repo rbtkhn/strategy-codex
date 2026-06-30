@@ -1,0 +1,393 @@
+# Map book chapters (and appendix buckets) to source_id values from sources.yaml.
+# Volume 1: one chapter per Geo-Strategy lecture (ch01 = #1 … ch12 = #12).
+# Volume 2: civ-chNN → civ-NN (see continuity/predictive-history/volume-ii-book-track-conventions.md).
+# Volume VII: es-chNN → es-NN (see continuity/predictive-history/volume-vii-book-track-conventions.md).
+# Run: python scripts/work_jiang/build_source_registry.py
+
+chapter_map:
+  ch01:
+    source_ids: [geo-01]
+  ch02:
+    source_ids: [geo-02]
+  ch03:
+    source_ids: [geo-03]
+  ch04:
+    source_ids: [geo-04]
+  ch05:
+    source_ids: [geo-05]
+  ch06:
+    source_ids: [geo-06]
+  ch07:
+    source_ids: [geo-07]
+  ch08:
+    source_ids: [geo-08]
+  ch09:
+    source_ids: [geo-09]
+  ch10:
+    source_ids: [geo-10]
+  ch11:
+    source_ids: [geo-11]
+  ch12:
+    source_ids: [geo-12]
+  ch13:
+    source_ids: [geo-13]
+  ch14:
+    source_ids: [geo-14]
+  ch15:
+    source_ids: [geo-15]
+  ch16:
+    source_ids: [geo-16]
+  ch17:
+    source_ids: [geo-17]
+  ch18:
+    source_ids: [geo-18]
+  ch19:
+    source_ids: [geo-19]
+  ch20:
+    source_ids: [geo-20]
+  civ-ch01:
+    source_ids: [civ-01]
+  civ-ch02:
+    source_ids: [civ-02]
+  civ-ch03:
+    source_ids: [civ-03]
+  civ-ch04:
+    source_ids: [civ-04]
+  civ-ch05:
+    source_ids: [civ-05]
+  civ-ch06:
+    source_ids: [civ-06]
+  civ-ch07:
+    source_ids: [civ-07]
+  civ-ch08:
+    source_ids: [civ-08]
+  civ-ch09:
+    source_ids: [civ-09]
+  civ-ch10:
+    source_ids: [civ-10]
+  civ-ch11:
+    source_ids: [civ-11]
+  civ-ch12:
+    source_ids: [civ-12]
+  civ-ch13:
+    source_ids: [civ-13]
+  civ-ch14:
+    source_ids: [civ-14]
+  civ-ch15:
+    source_ids: [civ-15]
+  civ-ch16:
+    source_ids: [civ-16]
+  civ-ch17:
+    source_ids: [civ-17]
+  civ-ch18:
+    source_ids: [civ-18]
+  civ-ch19:
+    source_ids: [civ-19]
+  civ-ch20:
+    source_ids: [civ-20]
+  civ-ch21:
+    source_ids: [civ-21]
+  civ-ch22:
+    source_ids: [civ-22]
+  civ-ch23:
+    source_ids: [civ-23]
+  civ-ch24:
+    source_ids: [civ-24]
+  civ-ch25:
+    source_ids: [civ-25]
+  civ-ch26:
+    source_ids: [civ-26]
+  civ-ch27:
+    source_ids: [civ-27]
+  civ-ch28:
+    source_ids: [civ-28]
+  civ-ch29:
+    source_ids: [civ-29]
+  civ-ch30:
+    source_ids: [civ-30]
+  civ-ch31:
+    source_ids: [civ-31]
+  civ-ch32:
+    source_ids: [civ-32]
+  civ-ch33:
+    source_ids: [civ-33]
+  civ-ch34:
+    source_ids: [civ-34]
+  civ-ch35:
+    source_ids: [civ-35]
+  civ-ch36:
+    source_ids: [civ-36]
+  civ-ch37:
+    source_ids: [civ-37]
+  civ-ch38:
+    source_ids: [civ-38]
+  civ-ch39:
+    source_ids: [civ-39]
+  civ-ch40:
+    source_ids: [civ-40]
+  civ-ch41:
+    source_ids: [civ-41]
+  civ-ch42:
+    source_ids: [civ-42]
+  civ-ch43:
+    source_ids: [civ-43]
+  civ-ch44:
+    source_ids: [civ-44]
+  civ-ch45:
+    source_ids: [civ-45]
+  civ-ch46:
+    source_ids: [civ-46]
+  civ-ch47:
+    source_ids: [civ-47]
+  civ-ch48:
+    source_ids: [civ-48]
+  civ-ch49:
+    source_ids: [civ-49]
+  civ-ch50:
+    source_ids: [civ-50]
+  civ-ch51:
+    source_ids: [civ-51]
+  civ-ch52:
+    source_ids: [civ-52]
+  civ-ch53:
+    source_ids: [civ-53]
+  civ-ch54:
+    source_ids: [civ-54]
+  civ-ch55:
+    source_ids: [civ-55]
+  civ-ch56:
+    source_ids: [civ-56]
+  civ-ch57:
+    source_ids: [civ-57]
+  civ-ch58:
+    source_ids: [civ-58]
+  civ-ch59:
+    source_ids: [civ-59]
+  civ-ch60:
+    source_ids: [civ-60]
+
+  sh-ch01:
+    source_ids: [sh-01]
+  sh-ch02:
+    source_ids: [sh-02]
+  sh-ch03:
+    source_ids: [sh-03]
+  sh-ch04:
+    source_ids: [sh-04]
+  sh-ch05:
+    source_ids: [sh-05]
+  sh-ch06:
+    source_ids: [sh-06]
+  sh-ch07:
+    source_ids: [sh-07]
+  sh-ch08:
+    source_ids: [sh-08]
+  sh-ch09:
+    source_ids: [sh-09]
+  sh-ch10:
+    source_ids: [sh-10]
+  sh-ch11:
+    source_ids: [sh-11]
+  sh-ch12:
+    source_ids: [sh-12]
+  sh-ch13:
+    source_ids: [sh-13]
+  sh-ch14:
+    source_ids: [sh-14]
+  sh-ch15:
+    source_ids: [sh-15]
+  sh-ch16:
+    source_ids: [sh-16]
+  sh-ch17:
+    source_ids: [sh-17]
+  sh-ch18:
+    source_ids: [sh-18]
+  sh-ch19:
+    source_ids: [sh-19]
+  sh-ch20:
+    source_ids: [sh-20]
+  sh-ch21:
+    source_ids: [sh-21]
+  sh-ch22:
+    source_ids: [sh-22]
+  sh-ch23:
+    source_ids: [sh-23]
+  sh-ch24:
+    source_ids: [sh-24]
+  sh-ch25:
+    source_ids: [sh-25]
+  sh-ch26:
+    source_ids: [sh-26]
+  sh-ch27:
+    source_ids: [sh-27]
+  sh-ch28:
+    source_ids: [sh-28]
+
+  gt-ch01:
+    source_ids: [gt-01]
+  gt-ch02:
+    source_ids: [gt-02]
+  gt-ch03:
+    source_ids: [gt-03]
+  gt-ch04:
+    source_ids: [gt-04]
+  gt-ch05:
+    source_ids: [gt-05]
+  gt-ch06:
+    source_ids: [gt-06]
+  gt-ch07:
+    source_ids: [gt-07]
+  gt-ch08:
+    source_ids: [gt-08]
+  gt-ch09:
+    source_ids: [gt-09]
+  gt-ch10:
+    source_ids: [gt-10]
+  gt-ch11:
+    source_ids: [gt-11]
+  gt-ch12:
+    source_ids: [gt-12]
+  gt-ch13:
+    source_ids: [gt-13]
+  gt-ch14:
+    source_ids: [gt-14]
+  gt-ch15:
+    source_ids: [gt-15]
+  gt-ch16:
+    source_ids: [gt-16]
+  gt-ch17:
+    source_ids: [gt-17]
+  gt-ch18:
+    source_ids: [gt-18]
+  gt-ch19:
+    source_ids: [gt-19]
+  gt-ch20:
+    source_ids: [gt-20]
+  gt-ch21:
+    source_ids: [gt-21]
+  gt-ch22:
+    source_ids: [gt-22]
+  gb-ch01:
+    source_ids: [gb-01]
+  gb-ch02:
+    source_ids: [gb-02]
+  gb-ch03:
+    source_ids: [gb-03]
+  gb-ch04:
+    source_ids: [gb-04]
+  gb-ch05:
+    source_ids: [gb-05]
+  gb-ch06:
+    source_ids: [gb-06]
+  gb-ch07:
+    source_ids: [gb-07]
+  gb-ch08:
+    source_ids: [gb-08]
+  gb-ch09:
+    source_ids: [gb-09]
+  vi-ch01:
+    source_ids: [vi-01]
+  vi-ch02:
+    source_ids: [vi-02]
+  vi-ch03:
+    source_ids: [vi-03]
+  vi-ch04:
+    source_ids: [vi-04]
+  vi-ch05:
+    source_ids: [vi-05]
+  vi-ch06:
+    source_ids: [vi-06]
+  vi-ch07:
+    source_ids: [vi-07]
+  vi-ch08:
+    source_ids: [vi-08]
+  vi-ch09:
+    source_ids: [vi-09]
+  vi-ch10:
+    source_ids: [vi-10]
+  vi-ch11:
+    source_ids: [vi-11]
+  vi-ch12:
+    source_ids: [vi-12]
+  vi-ch13:
+    source_ids: [vi-13]
+  vi-ch14:
+    source_ids: [vi-14]
+  vi-ch15:
+    source_ids: [vi-15]
+  es-ch01:
+    source_ids: [es-01]
+  es-ch02:
+    source_ids: [es-02]
+  es-ch03:
+    source_ids: [es-03]
+  es-ch04:
+    source_ids: [es-04]
+  es-ch05:
+    source_ids: [es-05]
+  es-ch06:
+    source_ids: [es-06]
+  es-ch07:
+    source_ids: [es-07]
+  es-ch08:
+    source_ids: [es-08]
+  es-ch09:
+    source_ids: [es-09]
+  es-ch10:
+    source_ids: [es-10]
+  es-ch11:
+    source_ids: [es-11]
+  es-ch12:
+    source_ids: [es-12]
+  es-ch13:
+    source_ids: [es-13]
+  es-ch14:
+    source_ids: [es-14]
+  es-ch15:
+    source_ids: [es-15]
+  es-ch16:
+    source_ids: [es-16]
+  es-ch17:
+    source_ids: [es-17]
+  es-ch18:
+    source_ids: [es-18]
+  es-ch19:
+    source_ids: [es-19]
+  es-ch20:
+    source_ids: [es-20]
+  es-ch21:
+    source_ids: [es-21]
+  es-ch22:
+    source_ids: [es-22]
+  es-ch23:
+    source_ids: [es-23]
+  es-ch24:
+    source_ids: [es-24]
+  es-ch25:
+    source_ids: [es-25]
+  es-ch26:
+    source_ids: [es-26]
+  es-ch27:
+    source_ids: [es-27]
+  es-ch28:
+    source_ids: [es-28]
+  es-ch29:
+    source_ids: [es-29]
+  es-ch30:
+    source_ids: [es-30]
+  es-ch31:
+    source_ids: [es-31]
+  es-ch32:
+    source_ids: [es-32]
+  es-ch33:
+    source_ids: [es-33]
+  es-ch34:
+    source_ids: [es-34]
+  es-ch35:
+    source_ids: [es-35]
+
+appendix_map:
+  predictions:
+    source_ids: [geo-01, geo-05, geo-07, geo-08, geo-11, geo-12]
+  divergences:
+    source_ids: []

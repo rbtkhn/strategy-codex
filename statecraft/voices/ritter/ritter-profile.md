@@ -5,7 +5,7 @@
 **Canonical profile:** this file.
 **Continuity SSOT:** [ritter-arc.md](ritter-arc.md) — person arc across authored + interview contexts.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
-**Commentator index:** [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md) — **`ritter`** lane.
+**Commentator index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`ritter`** lane.
 
 ---
 
@@ -89,7 +89,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 - **Archive** holds verbatim captures; **Judgment** uses operator `verify:` and tier rows on capture headers.
 - Ritter **narrative witness** (tier 4) may align with closed fact rows (e.g. Starobilsk tier-A) but **does not substitute** for them.
-- **Do not** promote into [`codex/experts/ritter/thread.md`](ritter-thread.md) strategy-page — use **`statecraft/synthesis/day/`**, **`statecraft/notes/`**, **`civ-state-note`** when civilizational shelf anchors load.
+- **Do not** promote into [`continuity/experts/ritter/thread.md`](ritter-thread.md) strategy-page — use **`statecraft/synthesis/day/`**, **`statecraft/notes/`**, **`civ-state-note`** when civilizational shelf anchors load.
 - **Downgrade** sources that entertain unsupported military-target symmetry when operator has **contradicted** the allegation (see landed capture `source_weight_downgrade`).
 
 ## Convergence fingerprint
@@ -157,7 +157,7 @@ Treat public site, Substack, and video surfaces as **discovery indexes**, not co
 
 ## Legacy redirects (compatibility)
 
-- [`codex/2026/ritter/ritter-thread.md`](ritter-thread.md) · [`ritter-transcript.md`](ritter-transcript.md) — **not** promotion path for new work.
+- [`continuity/2026/ritter/ritter-thread.md`](ritter-thread.md) · [`ritter-transcript.md`](ritter-transcript.md) — **not** promotion path for new work.
 - Legacy minds: [minds/README.md](../../../docs/skill-work/work-strategy/minds/README.md) · [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
 
-**Commentator metrics (illustrative):** SCI 0.82 · AD 0.48 · CTC 0.74 — see [strategy-commentator-threads.md](../../../codex/strategy-commentator-threads.md); not live scoring in this profile.
+**Commentator metrics (illustrative):** SCI 0.82 · AD 0.48 · CTC 0.74 — see [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md); not live scoring in this profile.

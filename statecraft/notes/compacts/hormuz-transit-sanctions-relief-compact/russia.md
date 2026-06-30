@@ -14,7 +14,7 @@ Hormuz leverage-without-entrapment formula.
 - Speaker-state inputs: [Crooke](../../../README.md) for order rupture and Western misreading; [Diesen](../../../voices/diesen/) for multipolar structure; [Ritter](../../../voices/ritter/) / [Macgregor](../../../voices/macgregor/) / [Martyanov](../../../voices/martyanov/) for force constraints; [Parsi](../../../voices/parsi/) / [Freeman](../../../voices/freeman/) for settlement architecture.
 - Scoreboards used: [Pape coercive-center index](../../../sheets/pape-coercive-center-index.md); [Mearsheimer structural-realist scoreboard](../../../sheets/mearsheimer-structural-realist-scoreboard.md).
 - Raw-input / provenance anchors: [Pape 2026-05-18](../../../../source-archive/statecraft/2026-05-18/source-pape-june-could-be-the-most-brutal-month-2026-05-18.md); [Parsi 2026-05-03](../../../../source-archive/statecraft/2026-05-03/source-parsi-a-few-observations-on-irans-latest-proposal-to-trump-2026-05-03.md).
-- Prior statecraft drafts: [Hormuz Reciprocal Transit De-escalation Framework v2.1](../../../../codex/hormuz-reciprocal-transit-deescalation-framework-v2-1.md).
+- Prior statecraft drafts: [Hormuz Reciprocal Transit De-escalation Framework v2.1](../../../../continuity/hormuz-reciprocal-transit-deescalation-framework-v2-1.md).
 
 ## Civilization / Empire Helix Input
 
