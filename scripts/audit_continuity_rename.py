@@ -325,19 +325,22 @@ def strict_checks(report: AuditReport, repo_root: Path) -> list[str]:
                 + ("..." if len(bad_path_refs) > 15 else "")
             )
 
-        # Canonical routing docs should prefer continuity/
+        # Canonical routing docs: codex/ allowed only with legacy framing on the same line
+        legacy_frame_words = ("legacy", "formerly", "redirect", "moved")
+        codex_path_re = re.compile(r"(?<![\w-])codex/")
         for rel in CANONICAL_ROUTING_DOCS:
             p = repo_root / rel
             if not p.is_file():
                 continue
             text = p.read_text(encoding="utf-8", errors="replace")
-            if re.search(r"(?<![\w-])codex/", text) and "formerly" not in text:
-                if rel == "docs/codex-to-continuity-rename.md":
+            for line_no, line in enumerate(text.splitlines(), 1):
+                if not codex_path_re.search(line):
                     continue
-                if "legacy" in text.lower() or "redirect" in text.lower():
+                lower = line.lower()
+                if any(word in lower for word in legacy_frame_words):
                     continue
                 issues.append(
-                    f"canonical doc {rel} still uses codex/ as path without legacy framing"
+                    f"canonical doc {rel}:{line_no} stale codex/ path reference"
                 )
 
     if state in {"post_move", "post_move_redirect", "dual_layout"}:

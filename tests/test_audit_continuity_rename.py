@@ -94,6 +94,30 @@ def test_audit_json_output_has_migration_state():
     assert "by_classification" in data
 
 
+def test_strict_canonical_doc_requires_line_level_legacy_framing(tmp_path: Path):
+    (tmp_path / "continuity").mkdir()
+    (tmp_path / "continuity" / "README.md").write_text("# continuity\n", encoding="utf-8")
+    (tmp_path / "codex").mkdir()
+    (tmp_path / "codex" / "README.md").write_text("# redirect\n", encoding="utf-8")
+
+    # Legacy framing elsewhere in file must not mask stale codex/ on another line
+    (tmp_path / "memory.md").write_text(
+        "# memory\n\nLegacy note about migration.\nSee codex/chapters/ for old paths.\n",
+        encoding="utf-8",
+    )
+    report = scan_repo(tmp_path)
+    issues = strict_checks(report, tmp_path)
+    assert any("memory.md:" in i and "stale codex/" in i for i in issues)
+
+    (tmp_path / "memory.md").write_text(
+        "# memory\n\nLegacy redirect: codex/ is compat only.\n",
+        encoding="utf-8",
+    )
+    report = scan_repo(tmp_path)
+    issues = strict_checks(report, tmp_path)
+    assert not any("memory.md" in i and "stale codex/" in i for i in issues)
+
+
 def test_write_report_not_created_by_default(tmp_path: Path, monkeypatch):
     """Default mode must not write runtime artifacts (repo test uses --write-report explicitly)."""
     artifact = REPO / "runtime" / "artifacts" / "continuity-rename-audit.json"

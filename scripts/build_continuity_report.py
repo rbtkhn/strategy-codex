@@ -34,7 +34,7 @@ class ContinuityReport:
     daily_inbox_exists: bool = False
     daily_inbox_lines: int = 0
     prediction_ledger_exists: bool = False
-    open_prediction_count: int | None = None
+    prediction_row_count: int | None = None
     stale_status_warning: bool = False
     status_errors: list[str] = field(default_factory=list)
     compiled_views_note: str = "Compiled views and strategy-console outputs are derived only."
@@ -53,7 +53,7 @@ def _chapter_months(root: Path) -> list[str]:
     return sorted(set(months))
 
 
-def _count_open_predictions(path: Path) -> int | None:
+def _count_prediction_rows(path: Path) -> int | None:
     if not path.is_file():
         return None
     text = path.read_text(encoding="utf-8")
@@ -78,7 +78,7 @@ def build_report(repo_root: Path) -> ContinuityReport:
     if inbox.is_file():
         report.daily_inbox_lines = len(inbox.read_text(encoding="utf-8").splitlines())
     preds = root / "strategy-expert-predictions.md"
-    report.open_prediction_count = _count_open_predictions(preds)
+    report.prediction_row_count = _count_prediction_rows(preds)
     report.latest_chapter_months = _chapter_months(root)
     if status.errors:
         report.next_suggested_action = "Fix STATUS.md cross-references (check_continuity_status.py)."
@@ -103,7 +103,7 @@ def format_md(report: ContinuityReport) -> str:
         f"- Latest chapter months: {', '.join(report.latest_chapter_months[-5:]) or '(none)'}",
         f"- Daily inbox: {'yes' if report.daily_inbox_exists else 'no'} ({report.daily_inbox_lines} lines)",
         f"- Prediction ledger: {'yes' if report.prediction_ledger_exists else 'no'}",
-        f"- Open predictions (approx): {report.open_prediction_count}",
+        f"- Prediction rows: {report.prediction_row_count}",
         f"- Stale status warning: {report.stale_status_warning}",
         "",
         f"**Compiled views:** {report.compiled_views_note}",
@@ -126,7 +126,6 @@ def main() -> int:
     parser.add_argument(
         "--write",
         action="store_true",
-        default=True,
         help="Write runtime/artifacts/continuity-report.{json,md}",
     )
     args = parser.parse_args()
@@ -138,12 +137,14 @@ def main() -> int:
         OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
         OUT_JSON.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
         OUT_MD.write_text(format_md(report), encoding="utf-8")
+        if not args.json:
+            print(f"Wrote {OUT_JSON.relative_to(REPO_ROOT)}", file=sys.stderr)
+            print(f"Wrote {OUT_MD.relative_to(REPO_ROOT)}", file=sys.stderr)
 
     if args.json:
         print(json.dumps(payload, indent=2))
-    elif args.write:
-        print(f"Wrote {OUT_JSON.relative_to(REPO_ROOT)}", file=sys.stderr)
-        print(f"Wrote {OUT_MD.relative_to(REPO_ROOT)}", file=sys.stderr)
+    elif not args.write:
+        print(format_md(report))
 
     return 0
 

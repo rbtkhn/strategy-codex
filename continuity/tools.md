@@ -54,7 +54,9 @@ See also legacy pointer [tools.md](tools.md) if present.
 ## Continuity report (derived)
 
 ```bash
-python3 scripts/build_continuity_report.py
+python3 scripts/build_continuity_report.py          # Markdown to stdout
+python3 scripts/build_continuity_report.py --json   # JSON to stdout
+python3 scripts/build_continuity_report.py --write  # write runtime/artifacts/
 ```
 
-Outputs under `runtime/artifacts/` — observability only, not authority.
+Default mode is read-only observability. Use `--write` to persist under `runtime/artifacts/` — not authority.
