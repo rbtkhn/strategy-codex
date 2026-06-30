@@ -66,6 +66,20 @@ WORK only; not Record.
 
 ---
 
+## Provenance Pattern Note
+
+External reference: [apresmoi/jianglens](https://github.com/apresmoi/jianglens) demonstrates a useful discipline for keeping source and interpretation visibly separate: individual sources remain inspectable, while compressed lens pages preserve provenance links back to source material.
+
+For Predictive History, media assets should preserve the same separation:
+
+```text
+source claim ≠ lesson interpretation ≠ visual reconstruction
+```
+
+Every public asset should make clear what is source-grounded, what is interpretive compression, and what is illustrative media.
+
+---
+
 ## Outcome routing
 
 - **Approve** → `predictive-history-distribution-pack`; assets to `distribution/`

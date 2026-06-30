@@ -186,3 +186,21 @@ Output: `feedback/2026-09.md`
 - In-repo mirror: [`continuity/predictive-history/`](../../../continuity/predictive-history/README.md)
 
 Corpus edits stay in the canonical clone; this shelf holds learner-facing artifacts only.
+
+---
+
+## Related external pattern — Jiang Lens
+
+[Jiang Lens](https://github.com/apresmoi/jianglens) is a useful external reference for source-grounded interpretive compression. It is an agentic research organization built around a dense, contested interpretive corpus, where agents ingest sources, produce source-linked episode reads, validate claims, and maintain public lens pages with provenance.
+
+Predictive History can adapt the pattern without treating Jiang Lens as canonical source material:
+
+```text
+Jiang Lens:
+source corpus → episode read → lens page → public site → agent-readable artifact
+
+Predictive History:
+source lecture/chapter → lesson brief → source packet → media pack → quality gate → distribution package
+```
+
+Boundary: Jiang Lens is an external implementation reference, not an official Predictive History source or part of this repo's source of truth. Expanded pattern notes: [`tool-notes/related-projects.md`](tool-notes/related-projects.md).
