@@ -13,8 +13,14 @@ THESIS_MAP_PATH = REPO_ROOT / "statecraft" / "data" / "freeman-prediction-thesis
 FREEMAN_PREDICTIONS_OUT = REPO_ROOT / "statecraft" / "voices" / "freeman" / "freeman-predictions.md"
 FREEMAN_PREDICTIONS_JSON = REPO_ROOT / "statecraft" / "voices" / "freeman" / "freeman-predictions.json"
 FREEMAN_PUBLIC_MAP = REPO_ROOT / "statecraft" / "data" / "freeman-prediction-public-map.json"
+FREEMAN_CAPTURE_MAP = REPO_ROOT / "statecraft" / "data" / "freeman-prediction-capture-map.json"
 CRAWL_ARTIFACT = REPO_ROOT / "runtime" / "artifacts" / "freeman-prediction-crawl.json"
 FREEMAN_SPEAKER = "freeman"
+
+YOUTUBE_URL_RE = re.compile(
+    r"https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([\w-]+)"
+)
+CAPTURE_MAP_REQUIRED = ("event_id", "capture", "stance", "speech_act", "public_excerpt")
 
 FREEMAN_PILOT_EVENT_ORDER: tuple[str, ...] = (
     "israel_self_destruction_trajectory",
@@ -89,13 +95,15 @@ PUBLIC_MAP_REQUIRED_FIELDS = (
 RECORD_LABELS: dict[str, str] = {
     "correct": "Correct",
     "incorrect": "Incorrect",
-    "consistent": "Consistent",
-    "shifted": "Shifted",
-    "later_reviewed_correct": "Later reviewed as correct",
-    "later_reviewed_incorrect": "Later reviewed as incorrect",
-    "unscored_trajectory": "Unscored trajectory",
-    "diagnostic": "Diagnostic",
+    "consistent": "Open — consistent",
+    "shifted": "Open — shifted",
+    "later_reviewed_correct": "Open — later reviewed as correct",
+    "later_reviewed_incorrect": "Open — later reviewed as incorrect",
+    "unscored_trajectory": "Open — trajectory",
+    "diagnostic": "Open — diagnostic",
 }
+
+STANCE_VALUES = frozenset({"yes", "no", "uncertain"})
 
 
 def extract_quote(note_text: str) -> str:
@@ -215,6 +223,196 @@ def derive_record(
         return "consistent", RECORD_LABELS["consistent"]
 
     return "consistent", RECORD_LABELS["consistent"]
+
+
+def normalize_for_match(text: str) -> str:
+    text = text.replace("\u2019", "'").replace("\u2018", "'")
+    text = text.replace("\u201c", '"').replace("\u201d", '"')
+    text = text.replace("\u2014", "-").replace("\u2013", "-")
+    text = re.sub(r"\s+", " ", text.strip().lower())
+    return text
+
+
+def word_count(text: str) -> int:
+    return len(re.findall(r"\b[\w'-]+\b", text))
+
+
+def is_complete_sentence(text: str) -> bool:
+    stripped = text.strip()
+    if not stripped:
+        return False
+    if stripped[-1] not in ".!?":
+        return False
+    return word_count(stripped) >= 4
+
+
+def is_title_like(text: str) -> bool:
+    stripped = text.strip()
+    if not stripped:
+        return True
+    if stripped.endswith("?"):
+        return True
+    if stripped.startswith(("Will ", "Is ", "Does ", "Were ", "Would ")):
+        return True
+    if word_count(stripped) <= 6 and stripped[0].isupper() and stripped[-1] not in ".!?":
+        return True
+    if " w/" in stripped or " w/Chas" in stripped:
+        return True
+    if stripped.startswith("AMB.") or stripped.startswith("Hostage ceasefire"):
+        return True
+    return False
+
+
+def extract_youtube_url_from_capture_text(text: str) -> str | None:
+    m = YOUTUBE_URL_RE.search(text)
+    if not m:
+        return None
+    return f"https://www.youtube.com/watch?v={m.group(1)}"
+
+
+def parse_capture_frontmatter(text: str) -> tuple[dict[str, str], str]:
+    if not text.startswith("---"):
+        return {}, text
+    parts = text.split("---", 2)
+    if len(parts) < 3:
+        return {}, text
+    fm_block, body = parts[1], parts[2]
+    fm: dict[str, str] = {}
+    for line in fm_block.splitlines():
+        if ":" not in line:
+            continue
+        key, _, val = line.partition(":")
+        val = val.strip().strip('"').strip("'")
+        fm[key.strip()] = val
+    return fm, body
+
+
+def source_citation(capture_path: Path) -> dict[str, str]:
+    text = capture_path.read_text(encoding="utf-8")
+    fm, _ = parse_capture_frontmatter(text)
+    youtube_url = ""
+    for key in ("source_url", "url", "canonical_url"):
+        val = fm.get(key, "")
+        if val and YOUTUBE_URL_RE.search(val):
+            youtube_url = extract_youtube_url_from_capture_text(val) or val
+            break
+    if not youtube_url:
+        youtube_url = extract_youtube_url_from_capture_text(text[:8000]) or ""
+    title = fm.get("title") or fm.get("episode_title") or capture_path.stem.replace("source-", "")
+    channel = fm.get("channel") or fm.get("source_channel") or "Judging Freedom"
+    pub_date = fm.get("pub_date") or fm.get("source_date") or ""
+    if not pub_date:
+        m = re.search(r"statecraft[/\\](\d{4}-\d{2}-\d{2})[/\\]", str(capture_path).replace("\\", "/"))
+        if m:
+            pub_date = m.group(1)
+    return {
+        "capture": str(capture_path.relative_to(REPO_ROOT)).replace("\\", "/"),
+        "title": title,
+        "channel": channel,
+        "pub_date": pub_date,
+        "youtube_url": youtube_url,
+    }
+
+
+def excerpt_in_capture(excerpt: str, capture_body: str) -> bool:
+    if not excerpt.strip():
+        return False
+    norm_excerpt = normalize_for_match(excerpt)
+    norm_body = normalize_for_match(capture_body)
+    if norm_excerpt in norm_body:
+        return True
+    words = norm_excerpt.split()
+    if len(words) >= 8:
+        window = " ".join(words[:8])
+        if window in norm_body:
+            return True
+    return False
+
+
+def excerpt_segments_in_capture(excerpt: str, capture_body: str) -> bool:
+    parts = [p.strip() for p in re.split(r"\s*\|\|\|\s*", excerpt) if p.strip()]
+    if len(parts) <= 1:
+        return excerpt_in_capture(excerpt, capture_body)
+    return all(excerpt_in_capture(part, capture_body) for part in parts)
+
+
+def validate_public_excerpt(
+    row: dict[str, Any],
+    capture_body: str,
+    *,
+    require_youtube: bool = False,
+) -> list[str]:
+    errors: list[str] = []
+    excerpt = str(row.get("public_excerpt") or "").strip()
+    if not excerpt:
+        errors.append("public_excerpt is empty")
+        return errors
+    if row.get("excerpt_exception") != "stub_capture":
+        if not excerpt_segments_in_capture(excerpt, capture_body):
+            errors.append("public_excerpt not found in capture body")
+    title_skip = {
+        "short_decisive_sentence",
+        "summary_grade_capture",
+        "stub_capture",
+        "under_30_verified",
+        "rhetorical_analogy",
+    }
+    if is_title_like(excerpt) and row.get("excerpt_exception") not in title_skip:
+        errors.append("public_excerpt looks title-like; add excerpt_exception or rewrite")
+    wc = word_count(excerpt)
+    exc = row.get("excerpt_exception")
+    if exc == "short_decisive_sentence":
+        if wc < 4:
+            errors.append("short_decisive_sentence excerpt too short")
+    elif exc in ("summary_grade_capture", "stub_capture", "under_30_verified", "rhetorical_analogy"):
+        pass
+    elif wc < 30:
+        errors.append(f"public_excerpt under 30 words ({wc}); add excerpt_exception")
+    elif wc > 80:
+        errors.append(f"public_excerpt over 80 words ({wc})")
+    if require_youtube:
+        cap_path = REPO_ROOT / str(row.get("capture", "")).replace("\\", "/")
+        if cap_path.is_file():
+            cite = source_citation(cap_path)
+            if not cite.get("youtube_url"):
+                errors.append("missing youtube_url in capture (required mode)")
+    return errors
+
+
+def load_capture_map(path: Path | None = None) -> list[dict[str, Any]]:
+    target = path or FREEMAN_CAPTURE_MAP
+    if not target.is_file():
+        raise FileNotFoundError(f"Missing capture map: {target.relative_to(REPO_ROOT)}")
+    data = json.loads(target.read_text(encoding="utf-8"))
+    rows = data.get("rows") or data
+    if not isinstance(rows, list):
+        raise ValueError("capture map must be a list or {rows: [...]}")
+    for row in rows:
+        missing = [k for k in CAPTURE_MAP_REQUIRED if k not in row]
+        if missing:
+            raise ValueError(f"capture map row missing fields {missing}: {row}")
+        if row["stance"] not in STANCE_VALUES:
+            raise ValueError(f"invalid stance {row['stance']!r} in {row}")
+    return rows
+
+
+def select_anchor_appearance(
+    appearances: list[dict[str, Any]],
+    public_event: dict[str, Any],
+) -> dict[str, Any]:
+    anchor_capture = public_event.get("anchor_capture")
+    if anchor_capture:
+        for app in appearances:
+            if app.get("capture") == anchor_capture:
+                return app
+    for app in appearances:
+        if app.get("speech_act") == "initial":
+            return app
+    dated = [a for a in appearances if a.get("pub_date")]
+    if dated:
+        return min(dated, key=lambda a: a["pub_date"])
+    return appearances[-1]
+
 
 def iso_now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")

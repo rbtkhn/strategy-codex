@@ -7,12 +7,11 @@ import subprocess
 import sys
 from pathlib import Path
 
-import pytest
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS = REPO_ROOT / "scripts"
 JSON_PATH = REPO_ROOT / "statecraft" / "voices" / "freeman" / "freeman-predictions.json"
 MD_PATH = REPO_ROOT / "statecraft" / "voices" / "freeman" / "freeman-predictions.md"
+CAPTURE_MAP = REPO_ROOT / "statecraft" / "data" / "freeman-prediction-capture-map.json"
 
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
@@ -20,25 +19,36 @@ if str(SCRIPTS) not in sys.path:
 import check_freeman_predictions as checker  # noqa: E402
 
 
+def test_freeman_capture_map_exists() -> None:
+    assert CAPTURE_MAP.is_file()
+    data = json.loads(CAPTURE_MAP.read_text(encoding="utf-8"))
+    assert len(data["rows"]) == 36
+
+
 def test_freeman_predictions_json_exists() -> None:
     assert JSON_PATH.is_file()
     data = json.loads(JSON_PATH.read_text(encoding="utf-8"))
     assert data["speaker"] == "freeman"
     assert len(data["events"]) == 7
+    assert data["_meta"].get("schema") == "freeman-predictions-v2"
 
 
-def test_freeman_events_have_anchor_quotes() -> None:
+def test_freeman_events_have_anchor_excerpts() -> None:
     data = json.loads(JSON_PATH.read_text(encoding="utf-8"))
     for event in data["events"]:
-        assert str(event.get("anchor_quote") or "").strip()
+        assert str(event.get("anchor_excerpt") or "").strip()
+        cite = event.get("anchor_citation") or {}
+        assert cite.get("title")
+        assert "youtube_url" in cite
 
 
-def test_freeman_touchpoints_have_quotes() -> None:
+def test_freeman_appearances_have_excerpts() -> None:
     data = json.loads(JSON_PATH.read_text(encoding="utf-8"))
     for event in data["events"]:
-        for tp in event["touchpoints"]:
-            assert str(tp.get("quote") or "").strip()
-            assert str(tp.get("quote_short") or "").strip()
+        for app in event["appearances"]:
+            assert str(app.get("public_excerpt") or "").strip()
+            assert str(app.get("public_excerpt_short") or "").strip()
+            assert "youtube_url" in (app.get("citation") or {})
 
 
 def test_freeman_predictions_markdown_public_structure() -> None:
@@ -49,6 +59,7 @@ def test_freeman_predictions_markdown_public_structure() -> None:
         "## Method",
         "<details>",
         "<summary>Source trail</summary>",
+        "— Chas Freeman,",
     ):
         assert needle in text
 

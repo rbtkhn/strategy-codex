@@ -38,7 +38,7 @@ _YouTube / check-sources roster captures for this day (`is_youtube_capture`)._
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=oxDI-Ralqy8) | `source-daniel-davis-trump-on-ukraine-russia-iran-israel-2025-01-07.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=9EH9P415wHk) | `source-daniel-davis-trump-s-ukraine-dilemma-2025-01-07.md` |
 | `daniel-davis` | Daniel Davis Deep Dive | `davis` | [watch](https://www.youtube.com/watch?v=fwgquSSc4NE) | `source-daniel-davis-trump-tells-zelensky-nato-will-not-be-ukraine-s-future-2025-01-07.md` |
-| `judging-freedom` | Judging Freedom | `freeman` | — | `source-judging-freedom-amb-chas-freeman-is-israel-destroying-itself-2025-01-07.md` |
+| `judging-freedom` | Judging Freedom | `freeman` | [watch](https://www.youtube.com/watch?v=wlW25wwA7Ss) | `source-judging-freedom-amb-chas-freeman-is-israel-destroying-itself-2025-01-07.md` |
 
 ## Writer sources
 

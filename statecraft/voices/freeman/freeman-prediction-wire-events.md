@@ -27,6 +27,8 @@ Operator index for the **seven-event Freeman prediction pilot**: falsifiable que
 4. Update [event-registry.json](../../data/event-registry.json) (`status`, `outcome`, `resolved_date`, `resolution_source`) when closing.
 5. Rebuild generated surfaces (below) so [freeman-predictions.md](freeman-predictions.md) and [prediction-registry.json](../../../runtime/artifacts/prediction-registry.json) reflect closure.
 
+**Public record v2 chain:** curated rows in [freeman-prediction-capture-map.json](../../data/freeman-prediction-capture-map.json) → `build_freeman_predictions.py` → shelf JSON/MD. YouTube links are optional when the archive capture has no watch URL.
+
 ## Auto-file and calibration
 
 Hooks and thresholds per event live in [freeman-prediction-auto-file.json](../../data/freeman-prediction-auto-file.json). Manual gold for calibration = prediction notes **without** `auto_file: true` ([calibrate_auto_file.py](../../../scripts/calibrate_auto_file.py) `manual_only` default).

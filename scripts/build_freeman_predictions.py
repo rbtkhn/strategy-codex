@@ -13,6 +13,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_MD_OUT = REPO_ROOT / "statecraft" / "voices" / "freeman" / "freeman-predictions.md"
 DEFAULT_JSON_OUT = REPO_ROOT / "statecraft" / "voices" / "freeman" / "freeman-predictions.json"
 DEFAULT_PUBLIC_MAP = REPO_ROOT / "statecraft" / "data" / "freeman-prediction-public-map.json"
+DEFAULT_CAPTURE_MAP = REPO_ROOT / "statecraft" / "data" / "freeman-prediction-capture-map.json"
 DEFAULT_TIMELINE = REPO_ROOT / "runtime" / "artifacts" / "prediction-timeline.json"
 
 _SCRIPTS = Path(__file__).resolve().parent
@@ -21,24 +22,21 @@ if str(_SCRIPTS) not in sys.path:
 
 from build_freeman_index import host_short, parse_head, pub_date_key  # noqa: E402
 from freeman_prediction_pilot import (  # noqa: E402
+    FREEMAN_CAPTURE_MAP,
     FREEMAN_PILOT_EVENT_ORDER,
     FREEMAN_PREDICTIONS_JSON,
     FREEMAN_PREDICTIONS_OUT,
     FREEMAN_SPEAKER,
-    REVIEW_SPEECH_ACTS,
     derive_record,
-    extract_quote,
+    load_capture_map,
     load_public_map,
-    pilot_event_sort_key,
-    require_quote,
-    select_anchor_quote,
+    select_anchor_appearance,
     shorten_quote,
+    source_citation,
 )
 from prediction_lib import (  # noqa: E402
     REPO_ROOT as LIB_ROOT,
-    collect_prediction_notes,
     load_event_registry,
-    parse_prediction_note,
 )
 
 assert LIB_ROOT == REPO_ROOT
@@ -64,53 +62,11 @@ WIRE_STUBS: dict[str, str] = {
 }
 
 
-def derive_speech_act(row: dict[str, Any], prior: dict[str, Any] | None) -> str:
-    act = str(row.get("speech_act") or "").strip()
-    if act:
-        return act
-    if prior is None:
-        return "initial"
-    if str(prior.get("stance") or "") != str(row.get("stance") or ""):
-        return "iterated"
-    return "restated"
-
-
-def appearance_label(source: str) -> str:
-    path = REPO_ROOT / source.replace("\\", "/")
-    if not path.is_file():
-        return source.split("/")[-1]
-    meta = parse_head(path)
-    pub = pub_date_key(meta, path)
-    host = host_short(meta, path)
-    return f"{pub} {host}"
-
-
-def load_freeman_pilot_rows() -> list[dict[str, Any]]:
-    rows: list[dict[str, Any]] = []
-    for note in collect_prediction_notes():
-        if note.speaker != FREEMAN_SPEAKER:
-            continue
-        if note.event_id not in FREEMAN_PILOT_EVENT_ORDER:
-            continue
-        body = note.path.read_text(encoding="utf-8", errors="replace")
-        if parse_prediction_note(note.path, body) is None:
-            continue
-        quote = extract_quote(body)
-        require_quote(note.path, quote)
-        rows.append(
-            {
-                "event_id": note.event_id,
-                "date_made": note.date_made,
-                "stance": note.stance,
-                "source": note.source,
-                "file": note.file,
-                "speech_act": note.speech_act,
-                "quote": quote,
-                "quote_short": shorten_quote(quote),
-            }
-        )
-    rows.sort(key=lambda r: (pilot_event_sort_key(str(r["event_id"])), r["date_made"], r["file"]))
-    return rows
+def appearance_label(citation: dict[str, str]) -> str:
+    pub = str(citation.get("pub_date") or "")
+    channel = str(citation.get("channel") or "")
+    host = host_short({"channel": channel, "host": channel}, Path(citation["capture"]))
+    return f"{pub} {host}".strip()
 
 
 def load_timeline(path: Path) -> dict[str, Any]:
@@ -121,17 +77,17 @@ def load_timeline(path: Path) -> dict[str, Any]:
 
 def format_public_position(
     event_public: dict[str, Any],
-    touchpoints: list[dict[str, Any]],
+    appearances: list[dict[str, Any]],
     shifts: list[dict[str, Any]],
 ) -> str:
     explicit = str(event_public.get("public_position") or "").strip()
     if explicit and not shifts:
         return explicit
-    if not touchpoints:
+    if not appearances:
         return explicit or "—"
-    latest = str(touchpoints[-1]["stance"])
+    latest = str(appearances[-1]["stance"])
     if shifts:
-        first = str(touchpoints[0]["stance"])
+        first = str(appearances[0]["stance"])
         if first != latest:
             return f"{first.capitalize()} → {latest}"
     if explicit:
@@ -151,82 +107,102 @@ def format_status(event: dict[str, Any]) -> str:
     return "Open"
 
 
-def build_touchpoints_for_event(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    touchpoints: list[dict[str, Any]] = []
-    prior: dict[str, Any] | None = None
+def build_appearances_for_event(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    appearances: list[dict[str, Any]] = []
     for row in rows:
-        act = derive_speech_act(row, prior)
-        touchpoints.append(
+        capture_path = REPO_ROOT / str(row["capture"]).replace("\\", "/")
+        citation = source_citation(capture_path)
+        excerpt = str(row["public_excerpt"])
+        appearances.append(
             {
-                "date": row["date_made"],
-                "speech_act": act,
+                "date": citation["pub_date"],
+                "speech_act": row["speech_act"],
                 "stance": row["stance"],
-                "quote": row["quote"],
-                "quote_short": row["quote_short"],
-                "capture": row["source"],
-                "note": row["file"],
-                "appearance_label": appearance_label(str(row["source"])),
+                "public_excerpt": excerpt,
+                "public_excerpt_short": shorten_quote(excerpt),
+                "capture": row["capture"],
+                "citation": citation,
+                "appearance_label": appearance_label(citation),
+                "context_note": row.get("context_note"),
             }
         )
-        prior = row
-    return touchpoints
+    appearances.sort(key=lambda a: (a["date"], a["capture"]))
+    return appearances
+
+
+def render_citation_line(citation: dict[str, str]) -> str:
+    title = citation.get("title") or "Source"
+    channel = citation.get("channel") or "Source"
+    pub_date = citation.get("pub_date") or ""
+    youtube_url = str(citation.get("youtube_url") or "").strip()
+    if youtube_url:
+        title_part = f'[{title}]({youtube_url})'
+    else:
+        title_part = title
+    return f"— Chas Freeman, **{channel}**, {title_part}, **{pub_date}**"
 
 
 def build_freeman_prediction_payload(
     *,
     timeline_path: Path,
     public_map_path: Path,
+    capture_map_path: Path,
 ) -> dict[str, Any]:
     events = load_event_registry()
     public_map = load_public_map(public_map_path)
-    rows = load_freeman_pilot_rows()
+    capture_rows = load_capture_map(capture_map_path)
     timeline = load_timeline(timeline_path)
 
     by_event: dict[str, list[dict[str, Any]]] = {}
-    for row in rows:
+    for row in capture_rows:
         by_event.setdefault(str(row["event_id"]), []).append(row)
 
     event_payloads: list[dict[str, Any]] = []
     shifted_count = 0
     resolved_count = 0
     open_count = 0
+    appearance_count = 0
 
     for event_id in FREEMAN_PILOT_EVENT_ORDER:
         registry_event = events.get(event_id, {})
         event_public = public_map[event_id]
         event_rows = by_event.get(event_id, [])
-        touchpoints = build_touchpoints_for_event(event_rows)
+        if not event_rows:
+            raise ValueError(f"capture map has no rows for event {event_id}")
+        appearances = build_appearances_for_event(event_rows)
+        appearance_count += len(appearances)
         block = timeline.get("events", {}).get(event_id, {})
         shifts = list((block.get("shifts") or {}).get(FREEMAN_SPEAKER, []))
         reviews = list((block.get("reviews") or {}).get(FREEMAN_SPEAKER, []))
 
         review_objects: list[dict[str, Any]] = []
         for review in reviews:
-            note_path = str(review.get("file") or "")
+            review_date = str(review.get("date") or "")
             quote = ""
-            for tp in touchpoints:
-                if tp["note"] == note_path:
-                    quote = str(tp["quote"])
+            for app in appearances:
+                if app["date"] == review_date:
+                    quote = str(app["public_excerpt"])
                     break
             review_objects.append(
                 {
                     "date": review.get("date"),
                     "speech_act": review.get("speech_act"),
-                    "quote": quote,
-                    "note": note_path,
+                    "public_excerpt": quote,
                 }
             )
 
         record, record_label = derive_record(
             event=registry_event,
             event_public=event_public,
-            touchpoints=touchpoints,
+            touchpoints=appearances,
             shifts=shifts,
             reviews=review_objects,
         )
-        anchor_quote = select_anchor_quote(event_public, touchpoints)
-        if not anchor_quote.strip():
-            raise ValueError(f"missing anchor quote for event {event_id}")
+        anchor = select_anchor_appearance(appearances, event_public)
+        anchor_excerpt = str(anchor.get("public_excerpt") or "").strip()
+        if not anchor_excerpt:
+            raise ValueError(f"missing anchor excerpt for event {event_id}")
+        anchor_citation = dict(anchor["citation"])
 
         status = str(registry_event.get("status") or "open")
         if status == "resolved":
@@ -239,7 +215,7 @@ def build_freeman_prediction_payload(
         stub = WIRE_STUBS.get(event_id)
         resolution_note = stub if stub and (REPO_ROOT / stub).is_file() else None
 
-        latest = touchpoints[-1] if touchpoints else None
+        latest = appearances[-1] if appearances else None
         event_payloads.append(
             {
                 "event_id": event_id,
@@ -253,12 +229,13 @@ def build_freeman_prediction_payload(
                 "record_label": record_label,
                 "scoring_policy": event_public["scoring_policy"],
                 "event_kind": event_public["event_kind"],
-                "anchor_quote": anchor_quote,
-                "public_position": format_public_position(event_public, touchpoints, shifts),
+                "anchor_excerpt": anchor_excerpt,
+                "anchor_citation": anchor_citation,
+                "public_position": format_public_position(event_public, appearances, shifts),
                 "public_summary": event_public["public_summary"],
                 "why_it_matters": event_public["why_it_matters"],
                 "resolution_note": resolution_note,
-                "touchpoints": touchpoints,
+                "appearances": appearances,
                 "shifts": shifts,
                 "reviews": review_objects,
             }
@@ -270,11 +247,12 @@ def build_freeman_prediction_payload(
             "do_not_edit": True,
             "source": "scripts/build_freeman_predictions.py",
             "speaker": FREEMAN_SPEAKER,
+            "schema": "freeman-predictions-v2",
         },
         "speaker": FREEMAN_SPEAKER,
         "summary": {
             "events_tracked": len(FREEMAN_PILOT_EVENT_ORDER),
-            "touchpoints": len(rows),
+            "appearances": appearance_count,
             "resolved_events": resolved_count,
             "open_events": open_count,
             "shifted_events": shifted_count,
@@ -315,7 +293,7 @@ def render_public_markdown(payload: dict[str, Any]) -> str:
         "",
         "Use **At a Glance** for a compact overview. Each numbered section is one prediction "
         "or strategic judgment. Freeman's exact words appear in blockquotes; the collapsible "
-        "**Source trail** lists every archived appearance with stance and quote.",
+        "**Source trail** lists every archived appearance with stance and excerpt.",
         "",
         "## At a Glance",
         "",
@@ -336,6 +314,7 @@ def render_public_markdown(payload: dict[str, Any]) -> str:
 
     for index, event in enumerate(payload["events"], start=1):
         event_id = event["event_id"]
+        anchor_cite = event["anchor_citation"]
         lines.extend(
             [
                 f"## {index}. {event['public_title']} {{#{event_id}}}",
@@ -344,7 +323,9 @@ def render_public_markdown(payload: dict[str, Any]) -> str:
                 f"**Status:** {format_status({'status': event['status'], 'outcome': event['outcome']})}.  ",
                 f"**Record:** {event['record_label']}.",
                 "",
-                f"> \"{event['anchor_quote']}\"",
+                f"> \"{event['anchor_excerpt']}\"",
+                "",
+                render_citation_line(anchor_cite),
                 "",
                 f"{event['public_summary']}",
                 "",
@@ -358,13 +339,17 @@ def render_public_markdown(payload: dict[str, Any]) -> str:
                 "| --- | --- | --- | --- |",
             ]
         )
-        for tp in event["touchpoints"]:
-            quote_cell = tp["quote_short"] if len(tp["quote"]) > 120 else tp["quote"]
+        for app in event["appearances"]:
+            quote_cell = (
+                app["public_excerpt_short"]
+                if len(app["public_excerpt"]) > 120
+                else app["public_excerpt"]
+            )
             lines.append(
                 "| "
-                f"{tp['date']} | "
-                f"{md_escape_cell(tp['appearance_label'])} | "
-                f"{tp['stance']} | "
+                f"{app['date']} | "
+                f"{md_escape_cell(app['appearance_label'])} | "
+                f"{app['stance']} | "
                 f"\"{md_escape_cell(quote_cell)}\" |"
             )
         lines.extend(["", "</details>", ""])
@@ -373,16 +358,17 @@ def render_public_markdown(payload: dict[str, Any]) -> str:
         [
             "## Method",
             "",
-            "This page is generated from source-backed prediction notes in "
-            "`statecraft/notes/predictions/`, joined to shared events in "
-            "`statecraft/data/event-registry.json`.",
+            "This page is generated from curated capture rows in "
+            "`statecraft/data/freeman-prediction-capture-map.json`, joined to shared events in "
+            "`statecraft/data/event-registry.json`. YouTube links appear when the underlying "
+            "archive capture carries a watch URL; otherwise the episode title is shown without a link.",
             "",
             "The structured data companion lives beside this page:",
             "",
             "`statecraft/voices/freeman/freeman-predictions.json`",
             "",
             f"_Generated companion — {summary['events_tracked']} events, "
-            f"{summary['touchpoints']} appearances. Rebuild: "
+            f"{summary['appearances']} appearances. Rebuild: "
             "`python3 scripts/build_freeman_predictions.py`_",
             "",
         ]
@@ -413,6 +399,7 @@ def main() -> int:
     ap.add_argument("--json-output", type=Path, default=DEFAULT_JSON_OUT)
     ap.add_argument("--md-output", type=Path, default=DEFAULT_MD_OUT)
     ap.add_argument("--public-map", type=Path, default=DEFAULT_PUBLIC_MAP)
+    ap.add_argument("--capture-map", type=Path, default=DEFAULT_CAPTURE_MAP)
     ap.add_argument("--timeline", type=Path, default=DEFAULT_TIMELINE)
     ap.add_argument("--check", action="store_true")
     ap.add_argument("--json-only", action="store_true")
@@ -423,6 +410,7 @@ def main() -> int:
         payload = build_freeman_prediction_payload(
             timeline_path=args.timeline,
             public_map_path=args.public_map,
+            capture_map_path=args.capture_map,
         )
     except (FileNotFoundError, ValueError) as exc:
         print(f"error: {exc}", file=sys.stderr)

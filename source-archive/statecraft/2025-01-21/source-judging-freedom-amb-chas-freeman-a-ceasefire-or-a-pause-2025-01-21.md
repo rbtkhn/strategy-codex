@@ -14,6 +14,7 @@ capture_status: full-operator-paste
 source_note: "Operator pasted transcript body in Codex chat. Direct watch URL recovered as https://www.youtube.com/watch?v=m1RrBIomMuY. The spoken episode open says Tuesday January 21st 2025."
 quality_note: Normalized from operator paste for readability; minor transcript noise may remain.
 opening_tier: host-tease
+source_url: "https://www.youtube.com/watch?v=m1RrBIomMuY"
 ---
 
 hi everyone Judge Andrew Napolitano here for judging Freedom today's Tuesday January 21st 2025 Ambassador Charles Freeman will be here with us in just a moment on is the ceasefire in the Middle East a ceasefire or just an inauguration pause Ambassador Freeman welcome here uh my dear friend thank you for your time uh as always uh before the show began we were speaking in general terms about the incident incidents that occurred at uh Secretary of State former Secretary of State thanks be to God uh Lincoln's final uh press conference why do you think he had his thugs throw out Max Blumenthal and Sam husseini and in Sam's case brutally so

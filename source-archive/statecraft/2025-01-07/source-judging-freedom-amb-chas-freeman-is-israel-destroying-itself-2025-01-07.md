@@ -14,6 +14,7 @@ capture_status: full-operator-paste
 source_note: "Operator pasted transcript body in Codex chat. Direct watch URL recovered as https://www.youtube.com/watch?v=wlW25wwA7Ss. The spoken episode open says Tuesday January 7th 2025."
 quality_note: Normalized from operator paste for readability; minor transcript noise may remain.
 opening_tier: host-tease
+source_url: "https://www.youtube.com/watch?v=wlW25wwA7Ss"
 ---
 
 hi everyone Judge Andrew Napolitano here for judging Freedom today is Tuesday January 7th 2025 Ambassador Charles Freeman will be with here in just a moment on is Israel destroying itself Ambassador Freeman welcome here my dear friend I belated happy New Year to you and a deep expression of my gratitude our team's gratitude the audience's gratitude for all your uh work here during 20 24 and our hope and expectation we can continue it uh in the new year thank you so much thank you uh President elect Trump uh has um designated retired lieutenant general Keith Kellogg who worked for him um in in part during his first term in the white house as his Envoy to Ukraine Colonel or general Kellogg has been reported as saying that

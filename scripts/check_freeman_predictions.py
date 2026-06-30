@@ -17,7 +17,7 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from freeman_prediction_pilot import FREEMAN_PILOT_EVENT_ORDER  # noqa: E402
+from freeman_prediction_pilot import FREEMAN_PILOT_EVENT_ORDER, JAN_21_CAPTURE  # noqa: E402
 
 EVENT_REQUIRED = (
     "event_id",
@@ -27,24 +27,26 @@ EVENT_REQUIRED = (
     "latest_stance",
     "record",
     "record_label",
-    "anchor_quote",
+    "anchor_excerpt",
+    "anchor_citation",
     "public_summary",
     "why_it_matters",
     "event_kind",
     "scoring_policy",
-    "touchpoints",
+    "appearances",
 )
-TOUCHPOINT_REQUIRED = (
+APPEARANCE_REQUIRED = (
     "date",
     "speech_act",
     "stance",
-    "quote",
-    "quote_short",
+    "public_excerpt",
+    "public_excerpt_short",
     "capture",
-    "note",
+    "citation",
+    "appearance_label",
 )
-FORBIDDEN_HEADING_TERMS = ("event_id", "speech_act", "touchpoints", "crawl manifest")
-JAN_21_SUFFIX = "source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md"
+CITATION_REQUIRED = ("title", "channel", "pub_date", "youtube_url", "capture")
+FORBIDDEN_HEADING_TERMS = ("event_id", "speech_act", "appearances", "crawl manifest")
 
 
 def check_json(path: Path) -> list[str]:
@@ -74,7 +76,6 @@ def check_json(path: Path) -> list[str]:
         issues.append(f"expected event order {list(FREEMAN_PILOT_EVENT_ORDER)!r}; got {event_ids!r}")
 
     jan21_events: set[str] = set()
-    jan21_notes: set[str] = set()
 
     for event in events:
         if not isinstance(event, dict):
@@ -84,31 +85,39 @@ def check_json(path: Path) -> list[str]:
         for field in EVENT_REQUIRED:
             if field not in event:
                 issues.append(f"{event_id or '?'}: missing field {field}")
-        if not str(event.get("anchor_quote") or "").strip():
-            issues.append(f"{event_id}: empty anchor_quote")
-        touchpoints = event.get("touchpoints")
-        if not isinstance(touchpoints, list):
-            issues.append(f"{event_id}: touchpoints must be a list")
+        if not str(event.get("anchor_excerpt") or "").strip():
+            issues.append(f"{event_id}: empty anchor_excerpt")
+        anchor_citation = event.get("anchor_citation")
+        if not isinstance(anchor_citation, dict):
+            issues.append(f"{event_id}: anchor_citation must be an object")
+        else:
+            for field in CITATION_REQUIRED:
+                if field not in anchor_citation:
+                    issues.append(f"{event_id}: anchor_citation missing {field}")
+        appearances = event.get("appearances")
+        if not isinstance(appearances, list):
+            issues.append(f"{event_id}: appearances must be a list")
             continue
-        for tp in touchpoints:
-            if not isinstance(tp, dict):
-                issues.append(f"{event_id}: touchpoint must be object")
+        for app in appearances:
+            if not isinstance(app, dict):
+                issues.append(f"{event_id}: appearance must be object")
                 continue
-            for field in TOUCHPOINT_REQUIRED:
-                if field not in tp:
-                    issues.append(f"{event_id}: touchpoint missing {field}")
-            if not str(tp.get("quote") or "").strip():
-                issues.append(f"{event_id}: touchpoint missing quote text")
-            capture = str(tp.get("capture") or "")
-            note = str(tp.get("note") or "")
-            if capture.endswith(JAN_21_SUFFIX):
+            for field in APPEARANCE_REQUIRED:
+                if field not in app:
+                    issues.append(f"{event_id}: appearance missing {field}")
+            if not str(app.get("public_excerpt") or "").strip():
+                issues.append(f"{event_id}: appearance missing public_excerpt text")
+            capture = str(app.get("capture") or "")
+            if capture.endswith(JAN_21_CAPTURE.split("/")[-1]):
                 jan21_events.add(event_id)
-                jan21_notes.add(note)
+            citation = app.get("citation")
+            if isinstance(citation, dict):
+                for field in CITATION_REQUIRED:
+                    if field not in citation:
+                        issues.append(f"{event_id}: citation missing {field}")
 
     if len(jan21_events) < 2:
-        issues.append("Jan 21 capture must appear in at least 2 event touchpoints")
-    if len(jan21_notes) < 2:
-        issues.append("Jan 21 touchpoints must link to distinct prediction notes")
+        issues.append("Jan 21 capture must appear in at least 2 event appearances")
 
     return issues
 
@@ -125,6 +134,8 @@ def check_markdown(path: Path, *, public_titles: list[str]) -> list[str]:
         "## Method",
         "<details>",
         "<summary>Source trail</summary>",
+        "freeman-prediction-capture-map.json",
+        "— Chas Freeman,",
     ]
     for needle in required_strings:
         if needle not in text:

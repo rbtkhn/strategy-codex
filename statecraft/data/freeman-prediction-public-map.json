@@ -5,7 +5,8 @@
     "public_summary": "Freeman repeatedly argued that Israel's military and political strategy was damaging its own long-term position.",
     "why_it_matters": "This tests whether tactical military dominance can coexist with worsening legitimacy, isolation, and strategic overextension.",
     "event_kind": "trajectory",
-    "scoring_policy": "trajectory_review"
+    "scoring_policy": "trajectory_review",
+    "anchor_capture": "source-archive/statecraft/2025-01-07/source-judging-freedom-amb-chas-freeman-is-israel-destroying-itself-2025-01-07.md"
   },
   "ukraine_escalation_russian_capitulation": {
     "public_title": "Would escalation force Russia to capitulate in Ukraine?",
@@ -13,7 +14,8 @@
     "public_summary": "Freeman rejected the idea that Washington could escalate military pressure and thereby force Russia into capitulation.",
     "why_it_matters": "This prediction tests a recurring Washington assumption: that more weapons, tighter sanctions, or higher pressure can force a strategic climbdown by a great power.",
     "event_kind": "forecast",
-    "scoring_policy": "yes_no"
+    "scoring_policy": "yes_no",
+    "anchor_capture": "source-archive/statecraft/2025-01-10/source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md"
   },
   "gaza_hostage_deal_jan_2025": {
     "public_title": "Would a Gaza hostage deal be reached?",
@@ -21,7 +23,8 @@
     "public_summary": "Freeman judged that a phase-1 hostage-exchange deal was likely to be reached.",
     "why_it_matters": "This tests whether Freeman could read short-horizon diplomatic momentum amid a wider Gaza war trajectory.",
     "event_kind": "forecast",
-    "scoring_policy": "yes_no"
+    "scoring_policy": "yes_no",
+    "anchor_capture": "source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md"
   },
   "gaza_ceasefire_holds_2025": {
     "public_title": "Would the Gaza ceasefire hold?",
@@ -29,7 +32,8 @@
     "public_summary": "Freeman argued the January arrangement was a pause, not a durable ceasefire, and that Israel would find grounds to resume fighting.",
     "why_it_matters": "This tests whether Freeman could distinguish a hostage-exchange pause from a durable ceasefire when media treated them as the same.",
     "event_kind": "forecast",
-    "scoring_policy": "yes_no"
+    "scoring_policy": "yes_no",
+    "anchor_capture": "source-archive/statecraft/2025-01-21/source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md"
   },
   "us_israel_iran_war_preparation_2025": {
     "public_title": "Were Israel and Iran preparing for direct war?",
@@ -37,7 +41,8 @@
     "public_summary": "Freeman argued that Israel and Iran were actively preparing for direct war, not merely trading rhetoric.",
     "why_it_matters": "This tests whether Freeman could read force-posture and escalation signals before a major regional war.",
     "event_kind": "diagnostic",
-    "scoring_policy": "diagnostic_confirmation"
+    "scoring_policy": "diagnostic_confirmation",
+    "anchor_capture": "source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md"
   },
   "iran_great_power_direct_war_entry": {
     "public_title": "Would Russia or China directly enter a US-Iran war?",
@@ -45,7 +50,8 @@
     "public_summary": "Freeman argued that Russia and China might support Iran indirectly but would not directly enter combat on Iran's side.",
     "why_it_matters": "This tests whether Freeman correctly bounded great-power war entry versus diversion, arms transfers, and diplomatic backing.",
     "event_kind": "forecast",
-    "scoring_policy": "yes_no"
+    "scoring_policy": "yes_no",
+    "anchor_capture": "source-archive/statecraft/2025-03-28/source-dialogue-works-amb-chas-freeman-will-iran-get-backup-from-russia-and-china-against-the-u-s-2025-03-28.md"
   },
   "china_tariff_capitulation_2025": {
     "public_title": "Would China capitulate to Trump's tariff pressure?",
@@ -53,6 +59,7 @@
     "public_summary": "Freeman argued that tariff pressure would not force China to surrender core interests.",
     "why_it_matters": "This tests whether economic coercion can make a major power accept humiliation or structural subordination.",
     "event_kind": "forecast",
-    "scoring_policy": "yes_no"
+    "scoring_policy": "yes_no",
+    "anchor_capture": "source-archive/statecraft/2025-04-22/source-judging-freedom-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md"
   }
 }
