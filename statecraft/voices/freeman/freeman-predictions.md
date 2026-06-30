@@ -28,7 +28,7 @@ Use **At a Glance** for a compact overview. Each numbered section is one predict
 **Status:** Open.  
 **Record:** Open — trajectory.
 
-> "Israel is is in the process of destroying itself um you know there is a quote in Mark I believe in the New Testament what shall it profit a man if he gains the whole world but loses his own"
+> "Israel is in the process of destroying itself. You know, there is a quote in Mark, I believe, in the New Testament: what shall it profit a man if he gains the whole world but loses his own soul? Israel has lost its soul; it's lost all moral authority."
 
 — Chas Freeman, **Judging Freedom**, [AMB. Chas Freeman : Is Israel Destroying Itself?](https://www.youtube.com/watch?v=wlW25wwA7Ss), **2025-01-07**
 
@@ -42,17 +42,16 @@ This tests whether tactical military dominance can coexist with worsening legiti
 
 | Date | Appearance | Stance | Exact words |
 | --- | --- | --- | --- |
-| 2025-01-07 | 2025-01-07 Napolitano | yes | "Israel is is in the process of destroying itself um you know there is a quote in Mark I believe in the New Testament what shall it profit a man if he gains the whole world but loses his own" |
-| 2025-01-14 | 2025-01-14 Napolitano | yes | "Israel has delegitimized itself with its genocide in Gaza with its aggression against Lebanon and Syria with its land seizures in Syria and with its public of that Preposterous map" |
-| 2025-01-17 | 2025-01-17 Dialogue Works | yes | "Israel in the long run if it's  going to  survive has to and not go the way of the  little Christian kingdoms uh 800 years  ago or so um uh" |
+| 2025-01-07 | 2025-01-07 Napolitano | yes | "Israel is in the process of destroying itself. You know, there is a quote in Mark, I believe, in the New Testament: what shall it profit a man if he gains the whole world but loses his own soul? Israel has lost its soul; it's lost all…" |
+| 2025-01-14 | 2025-01-14 Napolitano | yes | "Israel has delegitimized itself with its genocide in Gaza, with its aggression against Lebanon and Syria, with its land seizures in Syria, and with its publication of that preposterous map. Saudi Arabia has indicated that it will not…" |
+| 2025-01-17 | 2025-01-17 Dialogue Works | yes | "Israel in the long run, if it's going to survive, has to make peace with its neighbors and come to grips with coexisting with the Palestinians. He shows no sign of wanting to do that; therefore I think its long-term existence is in…" |
 | 2025-01-21 | 2025-01-21 Napolitano | yes | "The way the hostages were released was a dramatic demonstration of the utter failure of the use of force by Israel in Gaza to um secure the release of hostages the hostages these hostages have been released only in the same way as the…" |
 | 2025-06-10 | 2025-06-10 Napolitano | yes | Freeman was answering whether Israel is destroying itself through its Gaza and regional strategy. — "Israel is on a path to self-destruction." |
 | 2025-07-29 | 2025-07-29 Napolitano | yes | "Israel's reaction is of course typically uh to lie to oh this isn't happening. Uh, you know, it's like Groucho Marx's famous comment. Are you going to believe uh u" |
-| 2025-08-01 | 2025-08-01 Dialogue Works | yes | "Israeli human rights organization like uh B'Tselem, the the most famous of them, uh have finally been forced to recognize that what is happening is genocide.  And to condemn. Uh" |
-| 2025-08-04 | 2025-08-04 Diesen | yes | "Israel has lost its uh support in much of the world. Uh, that is the West. It retains support from the Republican party uh, apparently the majority of Republicans, but" |
-| 2025-10-07 | 2025-10-07 Napolitano | yes | "Or had the Israelis stopped paying Hamas once they realized it wasn't going to do their bidding? Was there a standown order as many in the west believe? That is, did the Israeli Netanyahu government tell the IDF not to shoot back?" |
+| 2025-08-01 | 2025-08-01 Dialogue Works | yes | "B'Tselem, the most famous of them, have finally been forced to recognize that what is happening is genocide and to condemn it. There are people of conscience in Israel, even if they are ever fewer, because those with conscience are…" |
+| 2025-08-04 | 2025-08-04 Diesen | yes | "Israel has lost its support in much of the world — that is, the West. It retains support from the Republican party, apparently the majority of Republicans, but it's down to about 6% of Democrats in the United States." |
 | 2025-10-31 | 2025-10-31 Dialogue Works | yes | "People are immigrating in large numbers. The economy is in deep trouble. Uh the um the populace is disgruntled. uh hostage families do not feel they got satis satisfaction um and uh there's a great deal of belligerance uh toward Hamas,…" |
-| 2025-11-21 | 2025-11-21 Dialogue Works | yes | "Israel is isolating itself not just from its own region, where it is thoroughly isolated, although people know it's there and they deal with it pragmatically, but farther afield. Even" |
+| 2025-11-21 | 2025-11-21 Dialogue Works | yes | "Israel is isolating itself not just from its own region, where it is thoroughly isolated, although people know it's there and they deal with it pragmatically, but farther afield. Even in societies where there's no history of antipathy to…" |
 | 2025-12-05 | 2025-12-05 Dialogue Works | yes | "Israel is now a moral pariah. Nobody wants to have anything to do with it. Um, [clears throat] except for legacy people and uh, some elements of the Jewish diaspora" |
 | 2026-05-01 | 2026-05-01 Dialogue Works | yes | "And I think the other factor is Israel is internationally isolated and um it is now a pariah. Uh and uh you would think I mean Israel says that it is the Jewish state and that it represents all Jews everywhere and Jews should all go to…" |
 | 2026-05-26 | 2026-05-26 Napolitano | yes | "Every move has ratcheted up the American level of material and other support for Israel to the point where the United States is tracking the downfall of Israel in every respect. Internationally, Israel is now a global pariah. The United…" |
@@ -81,7 +80,7 @@ This prediction tests a recurring Washington assumption: that more weapons, tigh
 | Date | Appearance | Stance | Exact words |
 | --- | --- | --- | --- |
 | 2025-01-10 | 2025-01-10 Davis | no | "General Kellogg Who was appointed a special Envoy by Mr Trump seemed to have come into that role with the idea that somehow he could escalate to deescalate in other words do more of the same at a higher level and that would somehow…" |
-| 2025-01-23 | 2025-01-23 Davis | no | Same Davis appearance as 2025-01-10; Jan 23 touchpoint deduped to this capture body. — "do more of the same at a higher level and that would somehow produce a Russian capitulation that's not going to happen absolutely not going to happen um and so I don't think we know here is this uh mooded meeting with between Trump and…" |
+| 2025-01-23 | 2025-01-23 Davis | no | Same Davis appearance as 2025-01-10; Jan 23 touchpoint deduped to this capture body. — "General Kellogg, who was appointed a special envoy by Mr. Trump, seemed to have come into that role with the idea that somehow he could escalate to de-escalate — in other words, do more of the same at a higher level and that would somehow…" |
 | 2025-07-29 | 2025-07-29 Napolitano | no | "If you don't stop this war in 10 to 12 days, well well what what is this threat? What what is Donald Trump going to do to the Russian government or the Russian people or Vladimir Putin if the war is not over in 10 to 12 days and we know…" |
 | 2026-04-03 | 2026-04-03 Dialogue Works | no | "It hasn't worked with the Palestinians uh over decades. It did not work in Gaza. Hamas has not capitulated. Um it has not worked with Iran. It will not work with Iran. It is a theory with no evidence to support it." |
 
@@ -93,7 +92,11 @@ This prediction tests a recurring Washington assumption: that more weapons, tigh
 **Status:** Resolved — yes.  
 **Record:** Correct.
 
-> "Israelis and Hamas are very very close uh to a ceasefire which would result in the return of about 33 uh hostages held by Hamas and about a, or 1200 hostages Palestinian hostages uh held uh by Israel it's rather"
+**Host setup:** Chris cut — Israelis and Hamas were very close to a ceasefire that would return hostages on both sides.
+
+> "If this happens, which does seem likely, it will be thanks to the intervention of Donald Trump. Here we have an outgoing Administration which has been conducting negotiations with the Israelis and Hamas; on several occasions Hamas has agreed to American proposed settlements — they did so six months ago."
+
+**Context:** Freeman was answering whether Trump would unlock the hostage deal Netanyahu had resisted.
 
 — Chas Freeman, **Judging Freedom**, [AMB. Chas Freeman : Netanyahu Instigating War with Iran.](https://www.youtube.com/watch?v=uu2-wa9ue5w), **2025-01-14**
 
@@ -107,7 +110,7 @@ This tests whether Freeman could read short-horizon diplomatic momentum amid a w
 
 | Date | Appearance | Stance | Exact words |
 | --- | --- | --- | --- |
-| 2025-01-14 | 2025-01-14 Napolitano | yes | "Israelis and Hamas are very very close uh to a ceasefire which would result in the return of about 33 uh hostages held by Hamas and about a, or 1200 hostages Palestinian hostages uh held uh by Israel it's rather" |
+| 2025-01-14 | 2025-01-14 Napolitano | yes | **Host setup:** Chris cut — Israelis and Hamas were very close to a ceasefire that would return hostages on both sides. > "If this happens, which does seem likely, it will be thanks to the intervention of Donald Trump. Here we have an outgoing Administration which has been conducting negotiations with the Israelis and Hamas; on several occasions Hamas has…" **Context:** Freeman was answering whether Trump would unlock the hostage deal Netanyahu had resisted. |
 
 </details>
 
@@ -117,7 +120,9 @@ This tests whether Freeman could read short-horizon diplomatic momentum amid a w
 **Status:** Open.  
 **Record:** Open — later reviewed as correct.
 
-> "I think anyone who thinks this deal was anything other than a pause in the genocide to facilitate an exchange of hostages is dreaming here's uh prime minister netan saying just what you uh summarized Chris cut number towards the"
+Freeman argued the January arrangement was a pause for hostage exchange, not a durable ceasefire.
+
+> "I think anyone who thinks this deal was anything other than a pause in the genocide to facilitate an exchange of hostages is dreaming."
 
 — Chas Freeman, **Judging Freedom**, [AMB. Chas Freeman : A Ceasefire or a Pause?](https://www.youtube.com/watch?v=m1RrBIomMuY), **2025-01-21**
 
@@ -131,7 +136,7 @@ This tests whether Freeman could distinguish a hostage-exchange pause from a dur
 
 | Date | Appearance | Stance | Exact words |
 | --- | --- | --- | --- |
-| 2025-01-21 | 2025-01-21 Napolitano | no | "I think anyone who thinks this deal was anything other than a pause in the genocide to facilitate an exchange of hostages is dreaming here's uh prime minister netan saying just what you uh summarized Chris cut number towards the" |
+| 2025-01-21 | 2025-01-21 Napolitano | no | Freeman argued the January arrangement was a pause for hostage exchange, not a durable ceasefire. — "I think anyone who thinks this deal was anything other than a pause in the genocide to facilitate an exchange of hostages is dreaming." |
 | 2025-10-10 | 2025-10-10 India Global Left | no | "Israel has a perfect record of violating every ceasefire it agrees to. Uh the case of Lebanon is in point. Israel agreed to withdraw from Lebanon, agreed to a ceasefire. It has not withdrawn from Lebanon. It has violated the ceasefire…" |
 
 </details>
@@ -142,8 +147,11 @@ This tests whether Freeman could distinguish a hostage-exchange pause from a dur
 **Status:** Open.  
 **Record:** Open — diagnostic.
 
-> "are Israel and Iran actively preparing for war with each other Ambassador yes they are um we got
-through the inauguration and the arrival of a new president without uh the attack by Israel on Iran that many feared uh"
+**Host setup:** Are Israel and Iran actively preparing for war with each other, Ambassador?
+
+> "Yes, they are. We got through the inauguration and the arrival of a new president without the attack by Israel on Iran that many feared, but the danger has not subsided, and one has to imagine that the assurance Netanyahu cited from Mr. Trump includes an attack on Iran."
+
+**Context:** Freeman confirmed Israel and Iran were actively preparing for direct war.
 
 — Chas Freeman, **Judging Freedom**, [AMB. Chas Freeman : A Ceasefire or a Pause?](https://www.youtube.com/watch?v=m1RrBIomMuY), **2025-01-21**
 
@@ -157,13 +165,12 @@ This tests whether Freeman could read force-posture and escalation signals befor
 
 | Date | Appearance | Stance | Exact words |
 | --- | --- | --- | --- |
-| 2025-01-14 | 2025-01-14 Napolitano | yes | "are Israel and Iran preparing to strike each other as we speak Ambassador the latest report um again in the Israeli press U not in haet for which I have" |
 | 2025-01-17 | 2025-01-17 Dialogue Works | yes | "It's entirely possible that he committed the United States under Trump to join in an attack on Iran for example which is something that Netanyahu really wants in return for making concessions on Gaza." |
-| 2025-01-21 | 2025-01-21 Napolitano | yes | "are Israel and Iran actively preparing for war with each other Ambassador yes they are um we got through the inauguration and the arrival of a new president without uh the attack by Israel on Iran that many feared uh" |
-| 2025-01-24 | 2025-01-24 Dialogue Works | yes | "by crippling Husalah and by uh uh greatly weakening Hamas um Iran has been St and by uh overthrowing the government in Syria in coordination with turkey and United States" |
-| 2025-04-04 | 2025-04-04 Dialogue Works | yes | "the Iranians have been preparing themselves for a potential war literally since the invasion of Iraq, I would say, with all these underground drone uh and missile bases as well as other" |
-| 2025-06-21 | 2025-06-21 India Global Left | yes | "Um, it has used the cover of the war with Iran to redouble its efforts to uh engage in ethnic cleansing of the West Bank. The level of violence by settlers, Israeli settlers there against the indigenous Arab population has gone up." |
-| 2026-02-24 | 2026-02-24 India Global Left | yes | "Uh all of the main the schwerpunkt if you use the German term for a point of concentration in military affairs is Israel. Because this policy is being driven by Israel and only by Israel. Nobody else in the region wants uh a war with Iran." |
+| 2025-01-21 | 2025-01-21 Napolitano | yes | **Host setup:** Are Israel and Iran actively preparing for war with each other, Ambassador? > "Yes, they are. We got through the inauguration and the arrival of a new president without the attack by Israel on Iran that many feared, but the danger has not subsided, and one has to imagine that the assurance Netanyahu cited from Mr.…" **Context:** Freeman confirmed Israel and Iran were actively preparing for direct war. |
+| 2025-01-24 | 2025-01-24 Dialogue Works | yes | "By crippling Hezbollah and greatly weakening Hamas, Iran has been isolated; and by overthrowing the government in Syria in coordination with Turkey and the United States, Israel has reshaped the regional chessboard ahead of a potential…" |
+| 2025-04-04 | 2025-04-04 Dialogue Works | yes | "The Iranians have been preparing themselves for a potential war literally since the invasion of Iraq, I would say, with all these underground drone and missile bases as well as other capabilities. On the other hand, the Iranians recognize…" |
+| 2025-06-21 | 2025-06-21 India Global Left | yes | "Israel has used the cover of the war with Iran to redouble its efforts to engage in ethnic cleansing of the West Bank. The level of violence by Israeli settlers against the indigenous Arab population has gone up." |
+| 2026-02-24 | 2026-02-24 India Global Left | yes | "The schwerpunkt — the point of concentration in military affairs — is Israel, because this policy is being driven by Israel and only by Israel. Nobody else in the region wants a war with Iran." |
 
 </details>
 
@@ -188,7 +195,6 @@ This tests whether Freeman correctly bounded great-power war entry versus divers
 | Date | Appearance | Stance | Exact words |
 | --- | --- | --- | --- |
 | 2025-03-28 | 2025-03-28 Dialogue Works | no | "My expectation would be in the case of the Russians that they would accelerate the transfer of technology and weapons to Iran but would not involve themselves directly. Uh I don't see that they can create a diversion for US forces." |
-| 2026-04-28 | 2026-04-28 Napolitano | uncertain | Summary-grade capture. Freeman treated Russian backing as materially affecting coalition stamina around a US-Iran war, nuancing his earlier view that Moscow would not enter combat directly. — "Freeman reads the Russian dimension as material enough to affect diplomacy, UN positioning, and the broader stamina of the anti-Iran coalition." |
 
 </details>
 
@@ -200,7 +206,7 @@ This tests whether Freeman correctly bounded great-power war entry versus divers
 
 Freeman was answering whether China would cave to Trump's tariff pressure.
 
-> "Is it foolish for Trump to expect that President Xi will come begging for relief? There will be no um capitulation preemptive or otherwise by the Chinese. Uh they have an intense pride in the their own achievements."
+> "There will be no capitulation, preemptive or otherwise, by the Chinese. They have an intense pride in their own achievements."
 
 — Chas Freeman, **Judging Freedom**, AMB. Charles Freeman : Will China Cave on Trump's Tariffs?, **2025-04-22**
 
@@ -214,9 +220,9 @@ This tests whether economic coercion can make a major power accept humiliation o
 
 | Date | Appearance | Stance | Exact words |
 | --- | --- | --- | --- |
-| 2025-04-04 | 2025-04-04 Dialogue Works | no | Freeman was discussing Trump's global tariff tantrum; the no-capitulation logic applies to China as well as Iran. — "Um and a final point is u you know given the uh tariff tantrum that Mr. Trump has just uh thrown on the world, Iran's actually very fortunate. You don't have much trade with us" |
-| 2025-04-22 | 2025-04-22 Napolitano | no | Freeman was answering whether China would cave to Trump's tariff pressure. — "Is it foolish for Trump to expect that President Xi will come begging for relief? There will be no um capitulation preemptive or otherwise by the Chinese. Uh they have an intense pride in the their own achievements." |
-| 2025-07-29 | 2025-07-29 Napolitano | no | "uh both basically Japan and the EU have been forced to accept u a 15% across the board tariff as a permanent condition of their relationship with the United their relationships with the United States" |
+| 2025-04-04 | 2025-04-04 Dialogue Works | no | Freeman was discussing Trump's global tariff tantrum; the no-capitulation logic applies to China as well as Iran. — "And a final point: given the tariff tantrum that Mr. Trump has just thrown on the world, Iran is actually very fortunate — it doesn't have much trade with us at all." |
+| 2025-04-22 | 2025-04-22 Napolitano | no | Freeman was answering whether China would cave to Trump's tariff pressure. — "There will be no capitulation, preemptive or otherwise, by the Chinese. They have an intense pride in their own achievements." |
+| 2025-07-29 | 2025-07-29 Napolitano | no | Freeman compared Trump's tariff deals to unequal treaties imposed on China — no mutual benefit and no capitulation by Beijing. — "There are capitulations by foreigners to bullying. There's no meeting of the minds and no mutual benefit. Europeans are using the term unequal treaties to parallel the kind of impositions that were made on China in the 19th century by…" |
 | 2026-02-24 | 2026-02-24 Napolitano | no | Freeman used Iran's refusal to capitulate under force as an analogy for why China would not capitulate to Trump's tariff coercion. — "Why haven't the Iranians capitulated in the face of all the force that the United States has deployed? half of the US Air Force, two of the three active aircraft carriers would be" |
 | 2026-03-17 | 2026-03-17 Napolitano | no | "Did uh Trump dump China, or did China dump Trump? The Trump-Xi meeting is now [clears throat officially off. My own view is that President Xi didn't want a picture" |
 
@@ -225,6 +231,7 @@ This tests whether economic coercion can make a major power accept humiliation o
 ## Method
 
 This page is generated from curated capture rows in `statecraft/data/freeman-prediction-capture-map.json`, joined to shared events in `statecraft/data/event-registry.json`. YouTube links appear when the underlying archive capture carries a watch URL; otherwise the episode title is shown without a link.
+Displayed excerpts may include documented ASR repair; raw strings are preserved in the JSON companion.
 
 The structured data companion lives beside this page:
 

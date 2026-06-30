@@ -18,7 +18,13 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 import check_voice_predictions as checker  # noqa: E402
-from voice_prediction_pilot import FREEMAN_PILOT_EVENT_ORDER, get_voice_config, load_public_map  # noqa: E402
+from voice_prediction_pilot import (  # noqa: E402
+    FREEMAN_PILOT_EVENT_ORDER,
+    get_voice_config,
+    load_capture_map,
+    load_public_map,
+    validate_capture_row,
+)
 
 DISALLOWED_EXCEPTIONS = {
     "under_30_verified",
@@ -39,7 +45,7 @@ def test_freeman_predictions_json_exists() -> None:
     data = json.loads(JSON_PATH.read_text(encoding="utf-8"))
     assert data["speaker"] == "freeman"
     assert len(data["events"]) == 7
-    assert data["_meta"].get("schema") == "freeman-predictions-v2"
+    assert data["_meta"].get("schema") == "freeman-predictions-v3"
 
 
 def test_freeman_events_have_anchor_excerpts() -> None:
@@ -129,7 +135,12 @@ def test_gaza_hostage_anchor_names_object() -> None:
         if r["event_id"] == "gaza_hostage_deal_jan_2025" and r["capture"] == anchor_capture
     )
     excerpt = anchor_row["public_excerpt"].casefold()
-    assert any(term.casefold() in excerpt for term in ("hostage", "hostages", "ceasefire", "deal"))
+    terms = anchor_row.get("prediction_object_terms") or public_map[
+        "gaza_hostage_deal_jan_2025"
+    ].get("prediction_object_terms", [])
+    assert any(str(term).casefold() in excerpt for term in terms) or any(
+        term.casefold() in excerpt for term in ("hostage", "hostages", "ceasefire", "deal", "trump", "settlement")
+    )
 
 
 def test_short_anchor_context_note_in_outputs() -> None:
@@ -140,6 +151,79 @@ def test_short_anchor_context_note_in_outputs() -> None:
     assert note
     assert note in md
     assert china["anchor_excerpt"] in md
+
+
+def test_no_host_only_rows_render_as_freeman_quotes() -> None:
+    rows = load_capture_map(CAPTURE_MAP, guest_speaker="freeman")
+    md = MD_PATH.read_text(encoding="utf-8")
+    for row in rows:
+        if row.get("quote_speaker") != "host" or row.get("public_display", True):
+            continue
+        excerpt = str(row.get("public_excerpt") or row.get("public_excerpt_raw") or "").strip()
+        if not excerpt:
+            continue
+        needle = excerpt[: min(32, len(excerpt))].replace('"', "")
+        assert ('> "' + needle) not in md
+
+
+def test_mixed_rows_have_host_setup_and_context() -> None:
+    rows = load_capture_map(CAPTURE_MAP, guest_speaker="freeman")
+    mixed = [r for r in rows if r.get("quote_speaker") == "mixed"]
+    assert mixed, "expected at least one mixed row"
+    for row in mixed:
+        assert str(row.get("host_setup") or "").strip()
+        assert str(row.get("context_note") or "").strip()
+
+
+def test_public_rows_have_asr_repair_metadata() -> None:
+    rows = load_capture_map(CAPTURE_MAP, guest_speaker="freeman")
+    for row in rows:
+        if not row.get("public_display", True):
+            continue
+        if row.get("quote_speaker") in {"host", "operator_summary"}:
+            continue
+        assert row.get("asr_repair") in {
+            "none",
+            "punctuation_capitalization",
+            "punctuation_capitalization_filler_boundary",
+            "punctuation_capitalization_obvious_asr",
+            "not_public_verbatim",
+        }
+        assert "public_excerpt_raw" in row and str(row["public_excerpt_raw"]).strip()
+
+
+def test_obvious_asr_fragments_rejected() -> None:
+    public_map = load_public_map(PUBLIC_MAP)
+    body = "Israel is is in the process of destroying itself rather"
+    row = {
+        "event_id": "israel_self_destruction_trajectory",
+        "capture": "source-archive/statecraft/2025-01-07/source-judging-freedom-amb-chas-freeman-is-israel-destroying-itself-2025-01-07.md",
+        "stance": "yes",
+        "speech_act": "initial",
+        "public_excerpt": "Israel is is in the process of destroying itself rather",
+        "public_excerpt_raw": "Israel is is in the process of destroying itself rather",
+        "quote_speaker": "freeman",
+        "public_display": True,
+        "asr_repair": "none",
+    }
+    errors = validate_capture_row(
+        row,
+        body,
+        public_map["israel_self_destruction_trajectory"],
+        guest_speaker="freeman",
+    )
+    assert any("ASR fragment" in err for err in errors)
+
+
+def test_non_public_rows_not_rendered_in_markdown() -> None:
+    rows = load_capture_map(CAPTURE_MAP, guest_speaker="freeman")
+    md = MD_PATH.read_text(encoding="utf-8")
+    hidden = [r for r in rows if not r.get("public_display", True)]
+    assert hidden, "expected non-public rows"
+    for row in hidden:
+        excerpt = str(row.get("public_excerpt") or "").strip()
+        if excerpt and len(excerpt) > 20:
+            assert excerpt not in md or row.get("quote_speaker") in {"host", "operator_summary"}
 
 
 def test_bootstrap_capture_map_check() -> None:

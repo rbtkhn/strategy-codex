@@ -93,7 +93,7 @@ def _freeman_config() -> VoiceConfig:
         predictions_md_path=md_out,
         thesis_map_path=thesis_map,
         crawl_artifact_path=crawl,
-        schema="freeman-predictions-v2",
+        schema="freeman-predictions-v3",
         page_title="# Chas Freeman Prediction Record",
         speaker_display_name="Chas Freeman",
         citation_prefix="— Chas Freeman,",
@@ -269,6 +269,135 @@ BAD_EXCERPT_STARTS = (
     "they ",
     "he ",
 )
+
+ASR_REPAIR_VALUES = frozenset(
+    {
+        "none",
+        "punctuation_capitalization",
+        "punctuation_capitalization_filler_boundary",
+        "punctuation_capitalization_obvious_asr",
+        "not_public_verbatim",
+    }
+)
+
+DANGLING_END_WORDS = frozenset(
+    {
+        "a",
+        "an",
+        "and",
+        "as",
+        "at",
+        "but",
+        "even",
+        "for",
+        "if",
+        "in",
+        "of",
+        "or",
+        "rather",
+        "that",
+        "the",
+        "to",
+        "uh",
+        "um",
+        "with",
+        "without",
+    }
+)
+
+HOST_ADDRESS_PATTERNS = (
+    re.compile(r"\bambassador\b", re.I),
+    re.compile(r"\bas we speak\b", re.I),
+    re.compile(r"\bare israel and iran\b", re.I),
+    re.compile(r"\bchris cut number\b", re.I),
+)
+
+OBVIOUS_ASR_FRAGMENT_PATTERNS = (
+    re.compile(r"\bisrael is is\b", re.I),
+    re.compile(r"\bhatever\b", re.I),
+    re.compile(r"\bhusalah\b", re.I),
+)
+
+
+def quote_speakers_for(guest_speaker: str) -> frozenset[str]:
+    guest = str(guest_speaker or "freeman").strip().lower()
+    return frozenset({guest, "host", "mixed", "operator_summary"})
+
+
+def infer_guest_speaker_from_path(path: Path) -> str:
+    name = path.name.casefold()
+    if "mercouris" in name:
+        return "mercouris"
+    return "freeman"
+
+
+def normalize_capture_row(row: dict[str, Any], *, guest_speaker: str = "freeman") -> dict[str, Any]:
+    out = dict(row)
+    allowed = quote_speakers_for(guest_speaker)
+    qs = str(out.get("quote_speaker") or guest_speaker).strip().lower()
+    if qs not in allowed:
+        raise ValueError(f"invalid quote_speaker {qs!r}; allowed: {sorted(allowed)}")
+
+    repair = str(out.get("asr_repair") or "none").strip()
+    if repair not in ASR_REPAIR_VALUES:
+        raise ValueError(f"invalid asr_repair {repair!r}")
+
+    notes = out.get("asr_repair_notes")
+    if notes is None:
+        repair_notes: list[str] = []
+    elif isinstance(notes, str):
+        repair_notes = [notes.strip()] if notes.strip() else []
+    elif isinstance(notes, list):
+        repair_notes = [str(item).strip() for item in notes if str(item).strip()]
+    else:
+        raise ValueError("asr_repair_notes must be a string or list")
+
+    raw = str(out.get("public_excerpt_raw") or "").strip()
+    excerpt = str(out.get("public_excerpt") or "").strip()
+    if not raw and excerpt:
+        raw = excerpt
+    elif raw and not excerpt:
+        excerpt = raw
+
+    host_setup = out.get("host_setup")
+    if host_setup is not None:
+        host_setup = str(host_setup).strip() or None
+
+    out["quote_speaker"] = qs
+    out["public_display"] = True if "public_display" not in out else bool(out["public_display"])
+    out["asr_repair"] = repair
+    out["asr_repair_notes"] = repair_notes
+    out["public_excerpt_raw"] = raw
+    out["public_excerpt"] = excerpt
+    out["host_setup"] = host_setup
+    return out
+
+
+def _has_dangling_end(excerpt: str) -> bool:
+    words = normalize_for_match(excerpt).split()
+    if not words:
+        return False
+    last = words[-1].rstrip(".,;:!?")
+    return last in DANGLING_END_WORDS
+
+
+FRAGMENT_START_WORDS = frozenset({"do", "yes", "um", "uh", "or", "at", "to"})
+
+
+def _has_mid_word_start(excerpt: str) -> bool:
+    text = excerpt.strip()
+    if not text:
+        return False
+    first = text.split()[0].lower().rstrip(".,;:!?")
+    return first in FRAGMENT_START_WORDS
+
+
+def _has_obvious_asr_fragment(excerpt: str) -> bool:
+    return any(pattern.search(excerpt) for pattern in OBVIOUS_ASR_FRAGMENT_PATTERNS)
+
+
+def _has_host_address_tokens(excerpt: str) -> bool:
+    return any(pattern.search(excerpt) for pattern in HOST_ADDRESS_PATTERNS)
 
 
 def extract_quote(note_text: str) -> str:
@@ -631,6 +760,7 @@ def validate_excerpt_quality(
     object_terms: list[str],
     is_anchor: bool = False,
     capture_body: str | None = None,
+    quote_speaker: str = "freeman",
 ) -> list[str]:
     errors: list[str] = []
     text = excerpt.strip()
@@ -659,6 +789,18 @@ def validate_excerpt_quality(
     if _bad_excerpt_start(text) and not has_object:
         errors.append(f"{event_id}: excerpt starts with ambiguous pronoun without prediction object")
 
+    if quote_speaker != "mixed" and _has_host_address_tokens(text):
+        errors.append(f"{event_id}: excerpt contains host-address tokens")
+
+    if _has_dangling_end(text):
+        errors.append(f"{event_id}: excerpt ends on dangling fragment")
+
+    if quote_speaker not in {"mixed", "operator_summary"} and _has_mid_word_start(text):
+        errors.append(f"{event_id}: excerpt starts mid-word or mid-phrase")
+
+    if quote_speaker not in {"operator_summary"} and _has_obvious_asr_fragment(text):
+        errors.append(f"{event_id}: excerpt contains obvious ASR fragment")
+
     wc = word_count(text)
     if wc > MAX_PUBLIC_EXCERPT_WORDS:
         errors.append(f"{event_id}: excerpt over {MAX_PUBLIC_EXCERPT_WORDS} words ({wc})")
@@ -683,30 +825,75 @@ def validate_capture_row(
     *,
     is_anchor: bool = False,
     require_youtube: bool = False,
+    guest_speaker: str = "freeman",
 ) -> list[str]:
     event_id = str(row.get("event_id") or "?")
+    row = normalize_capture_row(row, guest_speaker=guest_speaker)
+    quote_speaker = str(row["quote_speaker"])
+    public_display = bool(row.get("public_display", True))
+    asr_repair = str(row.get("asr_repair") or "none")
+    raw_excerpt = str(row.get("public_excerpt_raw") or "").strip()
     excerpt = str(row.get("public_excerpt") or "").strip()
+    host_setup = str(row.get("host_setup") or "").strip()
+    context_note = row.get("context_note")
     errors: list[str] = []
-    if not excerpt:
-        return [f"{event_id}: public_excerpt is empty"]
 
-    if not excerpt_segments_in_capture(excerpt, capture_body):
+    if asr_repair not in ASR_REPAIR_VALUES:
+        errors.append(f"{event_id}: invalid asr_repair {asr_repair!r}")
+
+    if asr_repair == "punctuation_capitalization_obvious_asr":
+        notes = row.get("asr_repair_notes") or []
+        if not notes:
+            errors.append(f"{event_id}: obvious ASR repair requires asr_repair_notes")
+
+    if quote_speaker == "host":
+        if public_display:
+            errors.append(f"{event_id}: host quote_speaker cannot have public_display true")
+        if raw_excerpt and not excerpt_segments_in_capture(raw_excerpt, capture_body):
+            errors.append(f"{event_id}: public_excerpt_raw not found in capture body")
+        return errors
+
+    if quote_speaker == "operator_summary":
+        if public_display:
+            errors.append(f"{event_id}: operator_summary cannot have public_display true")
+        return errors
+
+    if quote_speaker == "mixed":
+        if not host_setup:
+            errors.append(f"{event_id}: mixed quote requires host_setup")
+        if not str(context_note or "").strip():
+            errors.append(f"{event_id}: mixed quote requires context_note")
+        if not excerpt:
+            errors.append(f"{event_id}: mixed quote requires public_excerpt")
+
+    if quote_speaker in {guest_speaker, "mixed"} and public_display and not excerpt:
+        errors.append(f"{event_id}: public_display row requires public_excerpt")
+
+    if raw_excerpt and not excerpt_segments_in_capture(raw_excerpt, capture_body):
+        errors.append(f"{event_id}: public_excerpt_raw not found in capture body")
+
+    if asr_repair == "none" and excerpt and not excerpt_segments_in_capture(excerpt, capture_body):
         errors.append(f"{event_id}: public_excerpt not found in capture body")
 
-    object_terms = resolve_prediction_object_terms(row, public_event)
-    min_words = MIN_ANCHOR_WORDS if is_anchor else MIN_APPEARANCE_WORDS
-    errors.extend(
-        validate_excerpt_quality(
-            event_id=event_id,
-            excerpt=excerpt,
-            min_words=min_words,
-            exception=row.get("excerpt_exception"),
-            context_note=row.get("context_note"),
-            object_terms=object_terms,
-            is_anchor=is_anchor,
-            capture_body=capture_body,
+    if not public_display:
+        return errors
+
+    if quote_speaker in {guest_speaker, "mixed"} and excerpt:
+        object_terms = resolve_prediction_object_terms(row, public_event)
+        min_words = MIN_ANCHOR_WORDS if is_anchor else MIN_APPEARANCE_WORDS
+        errors.extend(
+            validate_excerpt_quality(
+                event_id=event_id,
+                excerpt=excerpt,
+                min_words=min_words,
+                exception=row.get("excerpt_exception"),
+                context_note=context_note,
+                object_terms=object_terms,
+                is_anchor=is_anchor,
+                capture_body=capture_body,
+                quote_speaker=quote_speaker,
+            )
         )
-    )
 
     if require_youtube:
         cap_path = REPO_ROOT / str(row.get("capture", "")).replace("\\", "/")
@@ -737,7 +924,11 @@ def validate_public_excerpt(
     )
 
 
-def load_capture_map(path: Path | None = None) -> list[dict[str, Any]]:
+def load_capture_map(
+    path: Path | None = None,
+    *,
+    guest_speaker: str | None = None,
+) -> list[dict[str, Any]]:
     target = path or FREEMAN_CAPTURE_MAP
     if not target.is_file():
         raise FileNotFoundError(f"Missing capture map: {target.relative_to(REPO_ROOT)}")
@@ -745,31 +936,44 @@ def load_capture_map(path: Path | None = None) -> list[dict[str, Any]]:
     rows = data.get("rows") or data
     if not isinstance(rows, list):
         raise ValueError("capture map must be a list or {rows: [...]}")
+    gs = guest_speaker or infer_guest_speaker_from_path(target)
+    normalized: list[dict[str, Any]] = []
     for row in rows:
         missing = [k for k in CAPTURE_MAP_REQUIRED if k not in row]
         if missing:
             raise ValueError(f"capture map row missing fields {missing}: {row}")
         if row["stance"] not in STANCE_VALUES:
             raise ValueError(f"invalid stance {row['stance']!r} in {row}")
-    return rows
+        normalized.append(normalize_capture_row(row, guest_speaker=gs))
+    return normalized
 
 
 def select_anchor_appearance(
     appearances: list[dict[str, Any]],
     public_event: dict[str, Any],
+    *,
+    guest_speaker: str = "freeman",
 ) -> dict[str, Any]:
+    public_apps = [
+        app
+        for app in appearances
+        if app.get("public_display", True)
+        and str(app.get("quote_speaker") or guest_speaker)
+        in {guest_speaker, "mixed"}
+    ]
+    pool = public_apps or appearances
     anchor_capture = public_event.get("anchor_capture")
     if anchor_capture:
-        for app in appearances:
+        for app in pool:
             if app.get("capture") == anchor_capture:
                 return app
-    for app in appearances:
+    for app in pool:
         if app.get("speech_act") == "initial":
             return app
-    dated = [a for a in appearances if a.get("pub_date")]
+    dated = [a for a in pool if a.get("date")]
     if dated:
-        return min(dated, key=lambda a: a["pub_date"])
-    return appearances[-1]
+        return min(dated, key=lambda a: a["date"])
+    return pool[-1]
 
 
 def iso_now() -> str:
@@ -805,6 +1009,7 @@ def validate_curated_capture_map(
             body,
             public_map[event_id],
             is_anchor=is_anchor,
+            guest_speaker=config.speaker,
         ):
             issues.append(f"{label}: {err}")
     return issues, len(rows)

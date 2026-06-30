@@ -68,6 +68,7 @@ Tests whether Mercouris read force-posture and strike cadence as active war prep
 ## Method
 
 This page is generated from curated capture rows in `statecraft/data/mercouris-prediction-capture-map.json`, joined to shared events in `statecraft/data/event-registry.json`. YouTube links appear when the underlying archive capture carries a watch URL; otherwise the episode title is shown without a link.
+Displayed excerpts may include documented ASR repair; raw strings are preserved in the JSON companion.
 
 The structured data companion lives beside this page:
 

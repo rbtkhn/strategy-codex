@@ -44,16 +44,51 @@ def appearance_label(citation: dict[str, str], *, date: str | None = None) -> st
     return f"{pub} {host}".strip()
 
 
-def format_exact_words_cell(app: dict[str, Any]) -> str:
+def format_exact_words_cell(app: dict[str, Any], *, guest_speaker: str = "freeman") -> str:
+    quote_speaker = str(app.get("quote_speaker") or guest_speaker)
+    if not app.get("public_display", True):
+        return "—"
     quote = (
         app["public_excerpt_short"]
         if len(app["public_excerpt"]) > 120
         else app["public_excerpt"]
     )
-    note = str(app.get("context_note") or "").strip()
-    if note:
-        return f'{note} — "{quote}"'
+    host_setup = str(app.get("host_setup") or "").strip()
+    context = str(app.get("context_note") or "").strip()
+    if quote_speaker == "mixed":
+        parts = []
+        if host_setup:
+            parts.append(f"**Host setup:** {host_setup}")
+        parts.append(f'> "{quote}"')
+        if context:
+            parts.append(f"**Context:** {context}")
+        return " ".join(parts)
+    if quote_speaker == guest_speaker:
+        if context:
+            return f'{context} — "{quote}"'
+        return f'"{quote}"'
     return f'"{quote}"'
+
+
+def format_anchor_block(event: dict[str, Any], *, guest_speaker: str = "freeman") -> list[str]:
+    lines: list[str] = []
+    anchor_context = str(event.get("anchor_context_note") or "").strip()
+    host_setup = str(event.get("anchor_host_setup") or "").strip()
+    quote_speaker = str(event.get("anchor_quote_speaker") or guest_speaker)
+    excerpt = str(event.get("anchor_excerpt") or "").strip()
+    if anchor_context and quote_speaker != "mixed":
+        lines.append(anchor_context)
+        lines.append("")
+    if host_setup and quote_speaker == "mixed":
+        lines.append(f"**Host setup:** {host_setup}")
+        lines.append("")
+    if excerpt:
+        lines.append(f'> "{excerpt}"')
+        lines.append("")
+    if anchor_context and quote_speaker == "mixed":
+        lines.append(f"**Context:** {anchor_context}")
+        lines.append("")
+    return lines
 
 
 def build_appearances_for_event(
@@ -62,6 +97,7 @@ def build_appearances_for_event(
     *,
     anchor_capture: str | None,
     default_channel: str,
+    guest_speaker: str,
 ) -> list[dict[str, Any]]:
     appearances: list[dict[str, Any]] = []
     for row in rows:
@@ -74,6 +110,7 @@ def build_appearances_for_event(
             body,
             public_event,
             is_anchor=is_anchor,
+            guest_speaker=guest_speaker,
         )
         if errors:
             raise ValueError(
@@ -87,8 +124,14 @@ def build_appearances_for_event(
                 "date": appearance_date,
                 "speech_act": row["speech_act"],
                 "stance": row["stance"],
+                "quote_speaker": row.get("quote_speaker", guest_speaker),
+                "host_setup": row.get("host_setup"),
+                "public_excerpt_raw": row.get("public_excerpt_raw", excerpt),
                 "public_excerpt": excerpt,
                 "public_excerpt_short": shorten_quote(excerpt),
+                "asr_repair": row.get("asr_repair", "none"),
+                "asr_repair_notes": row.get("asr_repair_notes") or [],
+                "public_display": row.get("public_display", True),
                 "capture": row["capture"],
                 "citation": citation,
                 "appearance_label": appearance_label(citation, date=appearance_date),
@@ -158,7 +201,7 @@ def build_voice_prediction_payload(
 ) -> dict[str, Any]:
     events = load_event_registry()
     public_map = load_public_map(public_map_path, event_order=config.pilot_event_order)
-    capture_rows = load_capture_map(capture_map_path)
+    capture_rows = load_capture_map(capture_map_path, guest_speaker=config.speaker)
     timeline = load_timeline(timeline_path)
 
     by_event: dict[str, list[dict[str, Any]]] = {}
@@ -182,6 +225,7 @@ def build_voice_prediction_payload(
             event_public,
             anchor_capture=str(event_public.get("anchor_capture") or "") or None,
             default_channel=config.default_channel,
+            guest_speaker=config.speaker,
         )
         appearance_count += len(appearances)
         block = timeline.get("events", {}).get(event_id, {})
@@ -211,12 +255,18 @@ def build_voice_prediction_payload(
             shifts=shifts,
             reviews=review_objects,
         )
-        anchor = select_anchor_appearance(appearances, event_public)
+        anchor = select_anchor_appearance(
+            appearances,
+            event_public,
+            guest_speaker=config.speaker,
+        )
         anchor_excerpt = str(anchor.get("public_excerpt") or "").strip()
         if not anchor_excerpt:
             raise ValueError(f"missing anchor excerpt for event {event_id}")
         anchor_citation = dict(anchor["citation"])
         anchor_context_note = str(anchor.get("context_note") or "").strip() or None
+        anchor_host_setup = str(anchor.get("host_setup") or "").strip() or None
+        anchor_quote_speaker = str(anchor.get("quote_speaker") or config.speaker)
 
         status = str(registry_event.get("status") or "open")
         if status == "resolved":
@@ -244,6 +294,8 @@ def build_voice_prediction_payload(
                 "scoring_policy": event_public["scoring_policy"],
                 "event_kind": event_public["event_kind"],
                 "anchor_excerpt": anchor_excerpt,
+                "anchor_quote_speaker": anchor_quote_speaker,
+                "anchor_host_setup": anchor_host_setup,
                 "anchor_citation": anchor_citation,
                 "anchor_context_note": anchor_context_note,
                 "public_position": format_public_position(event_public, appearances, shifts),
@@ -332,7 +384,6 @@ def render_public_markdown(payload: dict[str, Any], config: VoiceConfig) -> str:
     for index, event in enumerate(payload["events"], start=1):
         event_id = event["event_id"]
         anchor_cite = event["anchor_citation"]
-        anchor_context = str(event.get("anchor_context_note") or "").strip()
         block_lines = [
                 f"## {index}. {event['public_title']} {{#{event_id}}}",
                 "",
@@ -341,13 +392,9 @@ def render_public_markdown(payload: dict[str, Any], config: VoiceConfig) -> str:
                 f"**Record:** {event['record_label']}.",
                 "",
         ]
-        if anchor_context:
-            block_lines.append(anchor_context)
-            block_lines.append("")
+        block_lines.extend(format_anchor_block(event, guest_speaker=config.speaker))
         block_lines.extend(
             [
-                f"> \"{event['anchor_excerpt']}\"",
-                "",
                 render_citation_line(anchor_cite, speaker_display_name=config.speaker_display_name),
                 "",
                 f"{event['public_summary']}",
@@ -364,12 +411,14 @@ def render_public_markdown(payload: dict[str, Any], config: VoiceConfig) -> str:
         )
         lines.extend(block_lines)
         for app in event["appearances"]:
+            if not app.get("public_display", True):
+                continue
             lines.append(
                 "| "
                 f"{app['date']} | "
                 f"{md_escape_cell(app['appearance_label'])} | "
                 f"{app['stance']} | "
-                f"{md_escape_cell(format_exact_words_cell(app))} |"
+                f"{md_escape_cell(format_exact_words_cell(app, guest_speaker=config.speaker))} |"
             )
         lines.extend(["", "</details>", ""])
 
@@ -381,6 +430,7 @@ def render_public_markdown(payload: dict[str, Any], config: VoiceConfig) -> str:
             f"`statecraft/data/{capture_map_name}`, joined to shared events in "
             "`statecraft/data/event-registry.json`. YouTube links appear when the underlying "
             "archive capture carries a watch URL; otherwise the episode title is shown without a link.",
+            "Displayed excerpts may include documented ASR repair; raw strings are preserved in the JSON companion.",
             "",
             "The structured data companion lives beside this page:",
             "",

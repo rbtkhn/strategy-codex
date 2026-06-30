@@ -17,6 +17,7 @@ if str(_SCRIPTS) not in sys.path:
 
 from voice_prediction_pilot import (  # noqa: E402
     ALLOWED_PUBLIC_EXCEPTIONS,
+    ASR_REPAIR_VALUES,
     VoiceConfig,
     contains_prediction_object,
     get_voice_config,
@@ -27,6 +28,9 @@ from voice_prediction_pilot import (  # noqa: E402
     validate_capture_row,
     validate_excerpt_quality,
     word_count,
+    _has_dangling_end,
+    _has_host_address_tokens,
+    _has_obvious_asr_fragment,
 )
 
 EVENT_REQUIRED = (
@@ -38,6 +42,8 @@ EVENT_REQUIRED = (
     "record",
     "record_label",
     "anchor_excerpt",
+    "anchor_quote_speaker",
+    "anchor_host_setup",
     "anchor_citation",
     "anchor_context_note",
     "public_summary",
@@ -50,8 +56,14 @@ APPEARANCE_REQUIRED = (
     "date",
     "speech_act",
     "stance",
+    "quote_speaker",
+    "host_setup",
+    "public_excerpt_raw",
     "public_excerpt",
     "public_excerpt_short",
+    "asr_repair",
+    "asr_repair_notes",
+    "public_display",
     "capture",
     "citation",
     "appearance_label",
@@ -64,14 +76,14 @@ DISALLOWED_EXCERPT_EXCEPTIONS = frozenset(
 )
 
 
-def capture_map_lookup(path: Path) -> dict[tuple[str, str], dict]:
-    rows = load_capture_map(path)
+def capture_map_lookup(path: Path, *, guest_speaker: str) -> dict[tuple[str, str], dict]:
+    rows = load_capture_map(path, guest_speaker=guest_speaker)
     return {(str(r["event_id"]), str(r["capture"])): r for r in rows}
 
 
-def capture_body_lookup(capture_map_path: Path) -> dict[str, str]:
+def capture_body_lookup(capture_map_path: Path, *, guest_speaker: str) -> dict[str, str]:
     bodies: dict[str, str] = {}
-    for row in load_capture_map(capture_map_path):
+    for row in load_capture_map(capture_map_path, guest_speaker=guest_speaker):
         capture = str(row["capture"])
         if capture in bodies:
             continue
@@ -91,7 +103,7 @@ def check_capture_map(
     issues: list[str] = []
     try:
         public_map = load_public_map(public_map_path, event_order=config.pilot_event_order)
-        rows = load_capture_map(capture_map_path)
+        rows = load_capture_map(capture_map_path, guest_speaker=config.speaker)
     except (FileNotFoundError, ValueError) as exc:
         return [str(exc)]
 
@@ -116,7 +128,9 @@ def check_capture_map(
         public_event = public_map.get(event_id, {})
         is_anchor = str(row.get("capture") or "") == anchors.get(event_id, "")
         label = f"{event_id} @ {row.get('capture')}"
-        for err in validate_capture_row(row, body, public_event, is_anchor=is_anchor):
+        for err in validate_capture_row(
+            row, body, public_event, is_anchor=is_anchor, guest_speaker=config.speaker
+        ):
             issues.append(f"{label}: {err}")
 
     return issues
@@ -135,8 +149,8 @@ def check_json(
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
         public_map = load_public_map(public_map_path, event_order=config.pilot_event_order)
-        row_lookup = capture_map_lookup(capture_map_path)
-        body_lookup = capture_body_lookup(capture_map_path)
+        row_lookup = capture_map_lookup(capture_map_path, guest_speaker=config.speaker)
+        body_lookup = capture_body_lookup(capture_map_path, guest_speaker=config.speaker)
     except (FileNotFoundError, ValueError, json.JSONDecodeError) as exc:
         return [str(exc)]
 
@@ -177,6 +191,9 @@ def check_json(
         anchor_row = row_lookup.get((event_id, anchor_capture), {})
         anchor_terms = resolve_prediction_object_terms(anchor_row, public_event)
         anchor_body = body_lookup.get(anchor_capture, "")
+        anchor_quote_speaker = str(event.get("anchor_quote_speaker") or config.speaker)
+        if anchor_quote_speaker not in {config.speaker, "mixed"}:
+            issues.append(f"{event_id}: anchor_quote_speaker must be guest or mixed")
         issues.extend(
             validate_excerpt_quality(
                 event_id=event_id,
@@ -187,6 +204,7 @@ def check_json(
                 object_terms=anchor_terms,
                 is_anchor=True,
                 capture_body=anchor_body or None,
+                quote_speaker=anchor_quote_speaker,
             )
         )
         anchor_citation = event.get("anchor_citation")
@@ -207,6 +225,27 @@ def check_json(
             for field in APPEARANCE_REQUIRED:
                 if field not in app:
                     issues.append(f"{event_id}: appearance missing {field}")
+            quote_speaker = str(app.get("quote_speaker") or config.speaker)
+            asr_repair = str(app.get("asr_repair") or "none")
+            if asr_repair not in ASR_REPAIR_VALUES:
+                issues.append(f"{event_id}: invalid asr_repair {asr_repair!r}")
+            if asr_repair == "punctuation_capitalization_obvious_asr":
+                notes = app.get("asr_repair_notes") or []
+                if not notes:
+                    issues.append(f"{event_id}: obvious ASR repair requires asr_repair_notes")
+            if quote_speaker == "host" and app.get("public_display", True):
+                issues.append(f"{event_id}: host appearance cannot be public_display")
+            if quote_speaker == "operator_summary" and app.get("public_display", True):
+                issues.append(f"{event_id}: operator_summary appearance cannot be public_display")
+            if quote_speaker == "mixed":
+                if not str(app.get("host_setup") or "").strip():
+                    issues.append(f"{event_id}: mixed appearance missing host_setup")
+                if not str(app.get("context_note") or "").strip():
+                    issues.append(f"{event_id}: mixed appearance missing context_note")
+            if not str(app.get("public_excerpt_raw") or "").strip() and app.get("public_display", True):
+                issues.append(f"{event_id}: public appearance missing public_excerpt_raw")
+            if not app.get("public_display", True):
+                continue
             if not str(app.get("public_excerpt") or "").strip():
                 issues.append(f"{event_id}: appearance missing public_excerpt text")
             capture = str(app.get("capture") or "")
@@ -223,8 +262,16 @@ def check_json(
                     object_terms=app_terms,
                     is_anchor=False,
                     capture_body=app_body or None,
+                    quote_speaker=quote_speaker,
                 )
             )
+            excerpt = str(app.get("public_excerpt") or "")
+            if _has_obvious_asr_fragment(excerpt):
+                issues.append(f"{event_id}: displayed excerpt contains obvious ASR fragment")
+            if _has_dangling_end(excerpt):
+                issues.append(f"{event_id}: displayed excerpt ends on dangling fragment")
+            if quote_speaker != "mixed" and _has_host_address_tokens(excerpt):
+                issues.append(f"{event_id}: displayed excerpt contains host-address tokens")
             if shared_suffix and capture.endswith(shared_suffix):
                 shared_capture_events.add(event_id)
             citation = app.get("citation")
@@ -246,7 +293,13 @@ def check_json(
     return issues
 
 
-def check_markdown(path: Path, *, config: VoiceConfig, public_titles: list[str]) -> list[str]:
+def check_markdown(
+    path: Path,
+    *,
+    config: VoiceConfig,
+    public_titles: list[str],
+    capture_map_path: Path,
+) -> list[str]:
     issues: list[str] = []
     if not path.is_file():
         return [f"missing {path.relative_to(REPO_ROOT)}"]
@@ -281,6 +334,21 @@ def check_markdown(path: Path, *, config: VoiceConfig, public_titles: list[str])
                 if term in lowered:
                     issues.append(f"forbidden machine term in heading: {line}")
 
+    host_only_rows = [
+        row
+        for row in load_capture_map(capture_map_path, guest_speaker=config.speaker)
+        if row.get("quote_speaker") == "host" and not row.get("public_display", True)
+    ]
+    for row in host_only_rows:
+        excerpt = str(row.get("public_excerpt") or row.get("public_excerpt_raw") or "").strip()
+        if not excerpt:
+            continue
+        needle = excerpt[: min(40, len(excerpt))].replace('"', "")
+        if needle and ('> "' + needle) in text:
+            issues.append(
+                f"markdown renders host-only capture row as blockquote: {row.get('event_id')}"
+            )
+
     return issues
 
 
@@ -314,7 +382,14 @@ def run_check(
             ]
         except json.JSONDecodeError:
             pass
-    issues.extend(check_markdown(md_path, config=config, public_titles=public_titles))
+    issues.extend(
+        check_markdown(
+            md_path,
+            config=config,
+            public_titles=public_titles,
+            capture_map_path=cap_path,
+        )
+    )
     return issues, []
 
 

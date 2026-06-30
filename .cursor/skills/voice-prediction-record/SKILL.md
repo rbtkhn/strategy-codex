@@ -4,7 +4,7 @@ description: 'Curate and rebuild a speaker prediction shelf from archive capture
 preferred_activation: voice prediction record
 activation: voice prediction record
 portable: true
-version: 0.1.0
+version: 0.2.0
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -34,7 +34,7 @@ synced_by: sync_portable_skills.py
 
 - **Source intake** — land captures first ([`statecraft-source-intake`](../statecraft-source-intake/SKILL.md)).
 - **Helix / daily synthesis** — route to [`state-synthesis`](../state-synthesis/SKILL.md) after the shelf exists.
-- **Synthesizing quotes** — `public_excerpt` must be a **substring** of the archive capture body (ASR fidelity preserved).
+- **Synthesizing quotes** — `public_excerpt_raw` must be a **capture substring**; **`public_excerpt`** may be display-repaired only when **`asr_repair`** documents the change (see below).
 - **Record merge** or wire-grade closure without operator decision on resolution stubs.
 
 ## Layer law
@@ -43,7 +43,7 @@ synced_by: sync_portable_skills.py
 |-------|------|
 | **Source archive** | Verbatim capture SSOT — read body for excerpt alignment |
 | **Public map** | Per-event operator framing: title, summary, scoring, **`prediction_object_terms`** |
-| **Capture map** | Curated rows: `event_id`, `capture`, stance, speech_act, **`public_excerpt`** |
+| **Capture map** | Curated rows: stance, speech_act, speaker attribution, **raw + display excerpts**, ASR repair metadata |
 | **Event registry** | Shared falsifiable events (`status`, `outcome`, closure dates) |
 | **Generated shelf** | `<speaker>-predictions.json` / `.md` — **do not hand-edit** |
 
@@ -62,7 +62,7 @@ Replace `<speaker>` with the voice slug:
 | `<speaker>-predictions.md` / `.json` | Generated public record |
 | `<speaker>-prediction-wire-events.md` | Operator index: wire stubs, rebuild chain, checklist |
 
-**Reference implementation:** Freeman — see host appendix for exact paths and script names until generic `--speaker` builders land.
+**Reference implementation:** Freeman (`freeman-predictions-v3` capture-map contract) — see host appendix for paths and rebuild chain.
 
 ## Read order (before editing)
 
@@ -76,30 +76,89 @@ Replace `<speaker>` with the voice slug:
 
 Required keys: **`event_id`**, **`capture`**, **`stance`**, **`speech_act`**, **`public_excerpt`**.
 
-Optional keys:
+**Normalized on load** (defaults keep Mercouris stub rows green):
+
+| Field | Default | Role |
+|-------|---------|------|
+| `quote_speaker` | guest slug (`freeman`, `mercouris`, …) | Who speaks in the display quote |
+| `public_excerpt_raw` | copy of `public_excerpt` | Verbatim capture substring — **audit SSOT** |
+| `public_excerpt` | copy of raw or repaired display | Rendered in JSON/MD |
+| `asr_repair` | `none` | Repair tier (see ASR table) |
+| `asr_repair_notes` | `[]` | Required when `asr_repair` is `punctuation_capitalization_obvious_asr` |
+| `public_display` | `true` | `false` → JSON audit only; omitted from public MD source trail |
+
+**`quote_speaker` values**
+
+| Value | Public MD | Rules |
+|-------|-----------|-------|
+| guest slug (`freeman`, …) | blockquote | Normal excerpt quality gates |
+| `mixed` | **Host setup:** + blockquote + **Context:** | Requires `host_setup` + `context_note` |
+| `host` | never (when `public_display: false`) | Host question / framing only |
+| `operator_summary` | never | Summary-grade row; `asr_repair: not_public_verbatim` typical |
+
+Optional keys (unchanged + extensions):
 
 | Field | Use |
 |-------|-----|
 | `appearance_date` | When episode date differs from capture folder date (dedupe in builder) |
-| `context_note` | Operator framing when excerpt alone lacks object terms |
+| `host_setup` | Host question or framing for **`mixed`** rows |
+| `context_note` | Operator framing when excerpt alone lacks object terms; required for **`mixed`** |
 | `excerpt_exception` | Only **`short_decisive_sentence`** (requires `context_note`) |
 | `prediction_object_terms` | Row-level override of public-map terms |
-| `anchor_context_note` | Rendered at anchor + source-trail in MD |
+| `anchor_context_note` | Legacy alias — prefer `context_note` on anchor row |
 
 **Speech acts:** `initial`, `restated`, `iterated`, `self_acknowledged_correct`, `self_acknowledged_incorrect`, `outcome_commentary`.
 
+## ASR repair tiers (`asr_repair`)
+
+| Value | `public_excerpt` vs capture |
+|-------|----------------------------|
+| `none` | Display must be capture substring (same as raw policy) |
+| `punctuation_capitalization` | Display may fix caps/punctuation only |
+| `punctuation_capitalization_filler_boundary` | Above + remove filler at phrase boundaries (`um`, `uh`) |
+| `punctuation_capitalization_obvious_asr` | Above + conservative obvious ASR (`Israel is is`, `Husalah`→Hezbollah); **requires `asr_repair_notes`** |
+| `not_public_verbatim` | Operator summary / non-quote row (`operator_summary`) |
+
+**Invariant:** `public_excerpt_raw` is always validated as a capture substring. Display divergence is allowed only when `asr_repair != none`.
+
 ## Excerpt quality rules (non-negotiable)
 
-These rules are enforced by `bootstrap_voice_capture_map.py --check`, builder, and checker via `voice_prediction_pilot.py`:
+Enforced by `bootstrap_voice_capture_map.py --check`, builder, and checker via `voice_prediction_pilot.py`:
 
-1. **Verbatim substring** — `public_excerpt` must appear in capture body after normalization (punctuation-insensitive). No partial-prefix fallback. Multi-segment excerpts use ` ||| ` between segments; each segment must match.
-2. **Word floors** — anchor rows: **≥40 words**; appearance rows: **≥30 words**, unless `excerpt_exception: short_decisive_sentence`.
-3. **Prediction object** — anchor excerpt must contain a **`prediction_object_terms`** hit (public map or row override). Appearances need object terms **or** a non-empty **`context_note`**.
-4. **Complete sentence** — excerpt ends with `.!?` **or** is a verified verbatim fragment inside the capture (ASR tails allowed when substring-proven).
-5. **Not title-like** — question titles, host lines, episode titles fail unless `short_decisive_sentence` + `context_note`.
-6. **Ambiguous starts** — excerpts starting with `if this`, `they`, `he`, etc. fail when object terms are absent.
-7. **Max length** — **80 words** unless operator explicitly splits across ` ||| ` segments within max per segment policy.
-8. **No synthesis** — do not append invented closing sentences to “fix” ASR; extend only by selecting the **next verbatim span** from the same capture.
+### Substring proof
+
+1. **`public_excerpt_raw`** — must appear in capture body after normalization. Multi-segment raw uses ` ||| `; each segment must match.
+2. **`public_excerpt`** — when `asr_repair == none`, must also be a capture substring. When `asr_repair != none`, skip display substring check; enforce repair tier + notes instead.
+
+### Speaker gates
+
+3. **`host`** + `public_display: true` → fail. Same for **`operator_summary`**.
+4. **`mixed`** — non-empty **`host_setup`**, **`public_excerpt`**, and **`context_note`** required.
+5. **Guest / mixed** with `public_display: true` — excerpt quality rules below apply to **`public_excerpt`** (display text).
+
+### Display quality
+
+6. **Word floors** — anchor rows: **≥40 words**; appearance rows: **≥30 words**, unless `excerpt_exception: short_decisive_sentence` + `context_note`.
+7. **Prediction object** — anchor excerpt must hit **`prediction_object_terms`** (public map or row override). Appearances need object terms **or** non-empty **`context_note`**.
+8. **Complete sentence** — display ends with `.!?` **or** is a verified verbatim fragment when `asr_repair == none`.
+9. **Not title-like** — question titles, host lines, episode titles fail unless `short_decisive_sentence` + `context_note`.
+10. **Ambiguous starts** — `if this`, `they`, `he`, etc. fail when object terms are absent.
+11. **Host leakage** — guest excerpts must not contain host-address tokens (`Ambassador`, `as we speak`, `Chris cut number`, …) unless `quote_speaker: mixed`.
+12. **Obvious ASR fragments** — display must not contain patterns like `Israel is is`, `Husalah`, mid-word clips (`do`, `yes`, leading `um`/`uh`).
+13. **Dangling ends** — display must not end on `rather`, `and`, `the`, `but`, `even`, etc.
+14. **Max length** — **80 words** per display excerpt unless operator splits with ` ||| ` (each segment ≤80).
+
+### Recuration discipline
+
+15. **Extend raw first** — when ASR tails truncate, extend **`public_excerpt_raw`** to the next contiguous verbatim span in the same capture before applying display repair.
+16. **No silent synthesis** — do not invent closing sentences; documented repair only via **`asr_repair`** + **`asr_repair_notes`**.
+
+## Markdown rendering (generated shelf)
+
+- **Guest quote:** `> "…"` (optional `context_note` prefix in source-trail cell).
+- **Mixed:** `**Host setup:** …` + blockquote + `**Context:** …` (anchor block uses same shape).
+- **`public_display: false`** — row stays in JSON; excluded from source-trail table.
+- **Method footnote** — generated MD notes that displayed excerpts may include documented ASR repair; raw strings live in JSON.
 
 ## Recuration procedure
 
@@ -107,8 +166,9 @@ When fixing anchors, deduping appearances, or onboarding a new voice:
 
 1. **Define pilot events** in public map + event registry (pilot event order documented per voice).
 2. **Identify captures** from voice index / prediction notes / registers — one row per meaningful stance touchpoint.
-3. **Draft excerpt in editor** — copy verbatim from capture; run alignment mentally against object terms.
-4. **Set anchor** — public map `anchor_capture` or first `initial` row; verify anchor passes stricter object-term rule.
+3. **Draft raw excerpt** — copy verbatim into **`public_excerpt_raw`**; set **`public_excerpt`** (same or repaired) and **`asr_repair`** tier when display differs.
+4. **Set speaker** — default guest slug; use **`mixed`** / **`host`** / **`operator_summary`** when host framing or summary rows apply; set **`public_display: false`** for non-quote audit rows.
+5. **Set anchor** — public map `anchor_capture` or first public `initial` row; anchor must be guest or **`mixed`** with Freeman portion in display excerpt.
 5. **Dedupe** — same capture + event: prefer one row; use **`appearance_date`** when the public date differs from folder date.
 6. **Validate map** — host bootstrap/check script with **`--check`** (curated map mode, not v1 rebuild).
 7. **Rebuild shelf** — build script → `--check` → shape checker → pytest voice tests.
@@ -124,7 +184,7 @@ When fixing anchors, deduping appearances, or onboarding a new voice:
 
 ## Agent behavior norms
 
-- **Read captures before quoting** — never paraphrase into `public_excerpt`.
+- **Read captures before quoting** — never paraphrase into **`public_excerpt_raw`**; display repair must be documented in **`asr_repair`**.
 - **One voice per invocation** — do not mix Freeman rows into Mercouris maps.
 - **Windows discipline** — one shell chain for validate + build + test; no parallel archive reads after a hang.
 - **Hand-edit maps only** — generated JSON/MD are rebuild targets.
@@ -138,7 +198,7 @@ Done when **all** pass for the named `<speaker>`:
 3. Shape checker: **0 violations** (capture map + shelf JSON).
 4. Voice pytest module: green (or generic prediction tests when added).
 5. **`generated-manifest.yaml`** includes capture-map check entry when the voice is enrolled.
-6. Spot-check: sampled anchor excerpts are capture-faithful; context notes render in MD anchor + source-trail cells.
+6. Spot-check: sampled **`public_excerpt_raw`** strings are capture-faithful; **`mixed`** rows render host setup separately from guest quotes in MD.
 
 Report exit codes and issue counts; do not claim ship on chat summary alone.
 
@@ -196,7 +256,9 @@ Scripts are Freeman-named; **same rules apply to all voices** — clone pattern 
 | Auto-materialize (optional) | `scripts/auto_materialize_freeman_predictions.py --prune` |
 | Auto-file calibration | `scripts/calibrate_auto_file.py --all-events` |
 
-**Pilot constants** (in pilot module): `MIN_ANCHOR_WORDS=40`, `MIN_APPEARANCE_WORDS=30`, `MAX_PUBLIC_EXCERPT_WORDS=80`, `ALLOWED_PUBLIC_EXCEPTIONS={short_decisive_sentence}`.
+**Pilot constants** (in `voice_prediction_pilot.py`): `MIN_ANCHOR_WORDS=40`, `MIN_APPEARANCE_WORDS=30`, `MAX_PUBLIC_EXCERPT_WORDS=80`, `ALLOWED_PUBLIC_EXCEPTIONS={short_decisive_sentence}`, `ASR_REPAIR_VALUES` (five tiers), `quote_speaker` ∈ `{guest, host, mixed, operator_summary}`.
+
+**Freeman schema:** `freeman-predictions-v3` — capture map v3 adds `public_excerpt_raw`, `asr_repair`, `quote_speaker`, `host_setup`, `public_display`. Recuration helper: `scripts/recurate_freeman_capture_excerpts.py`.
 
 **Freeman wire-events SSOT:** [statecraft/voices/freeman/freeman-prediction-wire-events.md](../../../statecraft/voices/freeman/freeman-prediction-wire-events.md)
 

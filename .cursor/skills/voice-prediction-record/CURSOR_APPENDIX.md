@@ -32,7 +32,9 @@ Scripts are Freeman-named; **same rules apply to all voices** — clone pattern 
 | Auto-materialize (optional) | `scripts/auto_materialize_freeman_predictions.py --prune` |
 | Auto-file calibration | `scripts/calibrate_auto_file.py --all-events` |
 
-**Pilot constants** (in pilot module): `MIN_ANCHOR_WORDS=40`, `MIN_APPEARANCE_WORDS=30`, `MAX_PUBLIC_EXCERPT_WORDS=80`, `ALLOWED_PUBLIC_EXCEPTIONS={short_decisive_sentence}`.
+**Pilot constants** (in `voice_prediction_pilot.py`): `MIN_ANCHOR_WORDS=40`, `MIN_APPEARANCE_WORDS=30`, `MAX_PUBLIC_EXCERPT_WORDS=80`, `ALLOWED_PUBLIC_EXCEPTIONS={short_decisive_sentence}`, `ASR_REPAIR_VALUES` (five tiers), `quote_speaker` ∈ `{guest, host, mixed, operator_summary}`.
+
+**Freeman schema:** `freeman-predictions-v3` — capture map v3 adds `public_excerpt_raw`, `asr_repair`, `quote_speaker`, `host_setup`, `public_display`. Recuration helper: `scripts/recurate_freeman_capture_excerpts.py`.
 
 **Freeman wire-events SSOT:** [statecraft/voices/freeman/freeman-prediction-wire-events.md](../../../statecraft/voices/freeman/freeman-prediction-wire-events.md)
 
