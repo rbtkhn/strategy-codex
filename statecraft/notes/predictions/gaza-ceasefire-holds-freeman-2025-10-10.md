@@ -14,7 +14,7 @@ status: pending
 
 ## Quote (audit)
 
-Gaza ceasefire will not last / pause-not-ceasefire framing (audit from capture).
+I'm not convinced that this is more than another misleading flash in the pan.
 
 ## Tier-3 context (audit — not stance)
 

@@ -14,4 +14,4 @@ status: pending
 
 ## Quote (audit)
 
-China will not capitulate on Trump tariff pressure (audit from capture).
+There will be no capitulation, preemptive or otherwise, by the Chinese.

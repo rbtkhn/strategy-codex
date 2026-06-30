@@ -1,0 +1,58 @@
+{
+  "israel_self_destruction_trajectory": {
+    "public_title": "Is Israel on a self-destructive path?",
+    "public_position": "Yes.",
+    "public_summary": "Freeman repeatedly argued that Israel's military and political strategy was damaging its own long-term position.",
+    "why_it_matters": "This tests whether tactical military dominance can coexist with worsening legitimacy, isolation, and strategic overextension.",
+    "event_kind": "trajectory",
+    "scoring_policy": "trajectory_review"
+  },
+  "ukraine_escalation_russian_capitulation": {
+    "public_title": "Would escalation force Russia to capitulate in Ukraine?",
+    "public_position": "No.",
+    "public_summary": "Freeman rejected the idea that Washington could escalate military pressure and thereby force Russia into capitulation.",
+    "why_it_matters": "This prediction tests a recurring Washington assumption: that more weapons, tighter sanctions, or higher pressure can force a strategic climbdown by a great power.",
+    "event_kind": "forecast",
+    "scoring_policy": "yes_no"
+  },
+  "gaza_hostage_deal_jan_2025": {
+    "public_title": "Would a Gaza hostage deal be reached?",
+    "public_position": "Yes.",
+    "public_summary": "Freeman judged that a phase-1 hostage-exchange deal was likely to be reached.",
+    "why_it_matters": "This tests whether Freeman could read short-horizon diplomatic momentum amid a wider Gaza war trajectory.",
+    "event_kind": "forecast",
+    "scoring_policy": "yes_no"
+  },
+  "gaza_ceasefire_holds_2025": {
+    "public_title": "Would the Gaza ceasefire hold?",
+    "public_position": "No.",
+    "public_summary": "Freeman argued the January arrangement was a pause, not a durable ceasefire, and that Israel would find grounds to resume fighting.",
+    "why_it_matters": "This tests whether Freeman could distinguish a hostage-exchange pause from a durable ceasefire when media treated them as the same.",
+    "event_kind": "forecast",
+    "scoring_policy": "yes_no"
+  },
+  "us_israel_iran_war_preparation_2025": {
+    "public_title": "Were Israel and Iran preparing for direct war?",
+    "public_position": "Yes.",
+    "public_summary": "Freeman argued that Israel and Iran were actively preparing for direct war, not merely trading rhetoric.",
+    "why_it_matters": "This tests whether Freeman could read force-posture and escalation signals before a major regional war.",
+    "event_kind": "diagnostic",
+    "scoring_policy": "diagnostic_confirmation"
+  },
+  "iran_great_power_direct_war_entry": {
+    "public_title": "Would Russia or China directly enter a US-Iran war?",
+    "public_position": "No.",
+    "public_summary": "Freeman argued that Russia and China might support Iran indirectly but would not directly enter combat on Iran's side.",
+    "why_it_matters": "This tests whether Freeman correctly bounded great-power war entry versus diversion, arms transfers, and diplomatic backing.",
+    "event_kind": "forecast",
+    "scoring_policy": "yes_no"
+  },
+  "china_tariff_capitulation_2025": {
+    "public_title": "Would China capitulate to Trump's tariff pressure?",
+    "public_position": "No.",
+    "public_summary": "Freeman argued that tariff pressure would not force China to surrender core interests.",
+    "why_it_matters": "This tests whether economic coercion can make a major power accept humiliation or structural subordination.",
+    "event_kind": "forecast",
+    "scoring_policy": "yes_no"
+  }
+}

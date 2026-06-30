@@ -16,6 +16,4 @@ status: pending
 
 ## Quote (audit)
 
-Chas Freeman: What Russia Can Do For Iran
-
-This raw-input file preserves the substance of the already-cited April 28 `Judging Freedom x Freeman` lane so the Napolitano shelf can route through a real on-disk anchor instead of a note-only ref
+Freeman reads the Russian dimension as material enough to affect diplomacy, UN positioning, and the broader stamina of the anti-Iran coalition.

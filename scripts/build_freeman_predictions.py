@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build statecraft/voices/freeman/freeman-predictions.md from Freeman pilot prediction notes."""
+"""Build Freeman prediction record — colocated JSON + public markdown on the voice shelf."""
 
 from __future__ import annotations
 
@@ -10,8 +10,9 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_OUT = REPO_ROOT / "statecraft" / "voices" / "freeman" / "freeman-predictions.md"
-DEFAULT_MANIFEST = REPO_ROOT / "runtime" / "artifacts" / "freeman-prediction-crawl.json"
+DEFAULT_MD_OUT = REPO_ROOT / "statecraft" / "voices" / "freeman" / "freeman-predictions.md"
+DEFAULT_JSON_OUT = REPO_ROOT / "statecraft" / "voices" / "freeman" / "freeman-predictions.json"
+DEFAULT_PUBLIC_MAP = REPO_ROOT / "statecraft" / "data" / "freeman-prediction-public-map.json"
 DEFAULT_TIMELINE = REPO_ROOT / "runtime" / "artifacts" / "prediction-timeline.json"
 
 _SCRIPTS = Path(__file__).resolve().parent
@@ -20,20 +21,24 @@ if str(_SCRIPTS) not in sys.path:
 
 from build_freeman_index import host_short, parse_head, pub_date_key  # noqa: E402
 from freeman_prediction_pilot import (  # noqa: E402
-    CRAWL_ARTIFACT,
     FREEMAN_PILOT_EVENT_ORDER,
+    FREEMAN_PREDICTIONS_JSON,
     FREEMAN_PREDICTIONS_OUT,
     FREEMAN_SPEAKER,
     REVIEW_SPEECH_ACTS,
-    extract_quote_stub,
+    derive_record,
+    extract_quote,
+    load_public_map,
     pilot_event_sort_key,
+    require_quote,
+    select_anchor_quote,
+    shorten_quote,
 )
 from prediction_lib import (  # noqa: E402
     REPO_ROOT as LIB_ROOT,
     collect_prediction_notes,
     load_event_registry,
     parse_prediction_note,
-    repo_relative,
 )
 
 assert LIB_ROOT == REPO_ROOT
@@ -58,18 +63,6 @@ WIRE_STUBS: dict[str, str] = {
     ),
 }
 
-def capture_link(source: str) -> str:
-    path = REPO_ROOT / source.replace("\\", "/")
-    meta = parse_head(path) if path.is_file() else {}
-    pub = pub_date_key(meta, path) if path.is_file() else source.split("/")[-2]
-    host = host_short(meta, path) if path.is_file() else "Other"
-    rel = f"../../../{source}"
-    return f"[{pub} {host}]({rel})"
-
-def note_link(note_file: str, label: str | None = None) -> str:
-    name = Path(note_file).name
-    text = label or name.replace(".md", "")
-    return f"[{text}](../../notes/predictions/{name})"
 
 def derive_speech_act(row: dict[str, Any], prior: dict[str, Any] | None) -> str:
     act = str(row.get("speech_act") or "").strip()
@@ -81,8 +74,18 @@ def derive_speech_act(row: dict[str, Any], prior: dict[str, Any] | None) -> str:
         return "iterated"
     return "restated"
 
+
+def appearance_label(source: str) -> str:
+    path = REPO_ROOT / source.replace("\\", "/")
+    if not path.is_file():
+        return source.split("/")[-1]
+    meta = parse_head(path)
+    pub = pub_date_key(meta, path)
+    host = host_short(meta, path)
+    return f"{pub} {host}"
+
+
 def load_freeman_pilot_rows() -> list[dict[str, Any]]:
-    events = load_event_registry()
     rows: list[dict[str, Any]] = []
     for note in collect_prediction_notes():
         if note.speaker != FREEMAN_SPEAKER:
@@ -90,176 +93,387 @@ def load_freeman_pilot_rows() -> list[dict[str, Any]]:
         if note.event_id not in FREEMAN_PILOT_EVENT_ORDER:
             continue
         body = note.path.read_text(encoding="utf-8", errors="replace")
-        data = parse_prediction_note(note.path, body)
-        if data is None:
+        if parse_prediction_note(note.path, body) is None:
             continue
-        row = {
-            "event_id": note.event_id,
-            "date_made": note.date_made,
-            "stance": note.stance,
-            "source": note.source,
-            "file": note.file,
-            "speech_act": note.speech_act,
-            "quote_stub": extract_quote_stub(body),
-        }
-        rows.append(row)
+        quote = extract_quote(body)
+        require_quote(note.path, quote)
+        rows.append(
+            {
+                "event_id": note.event_id,
+                "date_made": note.date_made,
+                "stance": note.stance,
+                "source": note.source,
+                "file": note.file,
+                "speech_act": note.speech_act,
+                "quote": quote,
+                "quote_short": shorten_quote(quote),
+            }
+        )
     rows.sort(key=lambda r: (pilot_event_sort_key(str(r["event_id"])), r["date_made"], r["file"]))
     return rows
+
 
 def load_timeline(path: Path) -> dict[str, Any]:
     if not path.is_file():
         return {"events": {}}
     return json.loads(path.read_text(encoding="utf-8"))
 
-def render_event_section(
-    event_id: str,
-    event: dict[str, Any],
-    table_rows: list[dict[str, Any]],
-    timeline: dict[str, Any],
-) -> list[str]:
-    block = timeline.get("events", {}).get(event_id, {})
-    shifts = (block.get("shifts") or {}).get(FREEMAN_SPEAKER, [])
-    restatement_count = sum(
-        1 for r in table_rows if str(r.get("speech_act") or "") == "restated"
-    )
-    review_count = sum(
-        1 for r in table_rows if str(r.get("speech_act") or "") in REVIEW_SPEECH_ACTS
-    )
-    latest = table_rows[-1] if table_rows else None
+
+def format_public_position(
+    event_public: dict[str, Any],
+    touchpoints: list[dict[str, Any]],
+    shifts: list[dict[str, Any]],
+) -> str:
+    explicit = str(event_public.get("public_position") or "").strip()
+    if explicit and not shifts:
+        return explicit
+    if not touchpoints:
+        return explicit or "—"
+    latest = str(touchpoints[-1]["stance"])
+    if shifts:
+        first = str(touchpoints[0]["stance"])
+        if first != latest:
+            return f"{first.capitalize()} → {latest}"
+    if explicit:
+        return explicit
+    return latest.capitalize() if latest else "—"
+
+
+def format_status(event: dict[str, Any]) -> str:
     status = str(event.get("status") or "open")
-    outcome = event.get("outcome")
-    lines = [
-        f"## {event_id}",
-        "",
-        f"**Question:** {event.get('question', '')}  ",
-    ]
-    closure = event.get("closure_trigger")
-    if closure:
-        lines.append(f"**Closure trigger:** {closure}  ")
-    elif event.get("horizon_cite"):
-        cite = str(event.get("horizon_cite") or "")
-        if len(cite) > 140:
-            cite = cite[:137] + "..."
-        lines.append(f"**Horizon (Freeman):** {cite}  ")
-    close = event.get("close_date")
-    if close:
-        lines.append(f"**Close date:** {close}  ")
-    header = f"**Event status:** {status}"
-    if outcome is not None:
-        header += f" · **Outcome:** {outcome}"
-    if latest:
-        header += f" · **Freeman latest:** {latest['stance']} ({latest['date_made']})"
-    header += (
-        f" · **Arc:** {len(table_rows)} touchpoints · {len(shifts)} shifts · "
-        f"{restatement_count} restatements · {review_count} reviews"
-    )
-    lines.append(header)
-    stub = WIRE_STUBS.get(event_id)
-    if stub and (REPO_ROOT / stub).is_file():
-        stub_name = Path(stub).stem
-        lines.append("")
-        lines.append(
-            f"**Resolution stub:** [../../notes/wire/{stub_name}.md](../../notes/wire/{stub_name}.md)"
-        )
-    lines.extend(["", "| date | speech_act | stance | capture | note |", "| --- | --- | --- | --- | --- |"])
+    if status == "resolved":
+        outcome = event.get("outcome")
+        if outcome == "yes":
+            return "Resolved — yes"
+        if outcome == "no":
+            return "Resolved — no"
+        return f"Resolved — {outcome}"
+    return "Open"
+
+
+def build_touchpoints_for_event(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    touchpoints: list[dict[str, Any]] = []
     prior: dict[str, Any] | None = None
-    for row in sorted(table_rows, key=lambda r: (r["date_made"], r["file"])):
+    for row in rows:
         act = derive_speech_act(row, prior)
-        row["speech_act"] = act
-        lines.append(
-            f"| {row['date_made']} | {act} | {row['stance']} | "
-            f"{capture_link(str(row['source']))} | {note_link(str(row['file']))} |"
+        touchpoints.append(
+            {
+                "date": row["date_made"],
+                "speech_act": act,
+                "stance": row["stance"],
+                "quote": row["quote"],
+                "quote_short": row["quote_short"],
+                "capture": row["source"],
+                "note": row["file"],
+                "appearance_label": appearance_label(str(row["source"])),
+            }
         )
         prior = row
-    lines.extend(["", "### Shifts", ""])
-    if shifts:
-        for shift in shifts:
-            lines.append(
-                f"- **{shift.get('type')}** · {shift.get('from')} → {shift.get('to')} · "
-                f"{shift.get('from_date')} → {shift.get('to_date')} · "
-                f"{note_link(str(shift.get('to_file') or ''), 'note')}"
-            )
-    else:
-        lines.append("(none)")
-    lines.extend(["", "### Reviews", ""])
-    review_rows = [r for r in table_rows if str(r.get("speech_act") or "") in REVIEW_SPEECH_ACTS]
-    if review_rows:
-        for row in review_rows:
-            stub = row.get("quote_stub") or "quote TBD"
-            lines.append(
-                f"- **{row['speech_act']}** · {row['date_made']} · {stub} · "
-                f"{note_link(str(row['file']))}"
-            )
-    else:
-        lines.append("(none)")
-    lines.append("")
-    return lines
+    return touchpoints
 
-def render_document(
+
+def build_freeman_prediction_payload(
     *,
-    rows: list[dict[str, Any]],
-    events: dict[str, dict[str, Any]],
-    timeline: dict[str, Any],
-) -> str:
+    timeline_path: Path,
+    public_map_path: Path,
+) -> dict[str, Any]:
+    events = load_event_registry()
+    public_map = load_public_map(public_map_path)
+    rows = load_freeman_pilot_rows()
+    timeline = load_timeline(timeline_path)
+
     by_event: dict[str, list[dict[str, Any]]] = {}
     for row in rows:
         by_event.setdefault(str(row["event_id"]), []).append(row)
-    lines = [
-        "# Freeman predictions",
-        "",
-        "Purpose: event-first map of Freeman falsifiable stances — restatements, shifts, and self-review across the full freeman-index corpus.",
-        "",
-        f"- **Events tracked:** {len(FREEMAN_PILOT_EVENT_ORDER)} · **Touchpoints:** {len(rows)} · "
-        "**Rebuild:** `python3 scripts/build_freeman_predictions.py`",
-        "- **Doctrine:** [event-system.md](../../docs/statecraft/event-system.md) · "
-        "**Wire events:** [freeman-prediction-wire-events.md](freeman-prediction-wire-events.md) · "
-        "**Crawl manifest:** [freeman-prediction-crawl.json](../../runtime/artifacts/freeman-prediction-crawl.json) · "
-        "**Captures:** [freeman-index.md](freeman-index.md)",
-        "",
-    ]
-    for event_id in FREEMAN_PILOT_EVENT_ORDER:
-        event = events.get(event_id, {})
-        lines.extend(render_event_section(event_id, event, by_event.get(event_id, []), timeline))
-    return "\n".join(lines).rstrip() + "\n"
 
-def build_payload(*, timeline_path: Path) -> str:
-    events = load_event_registry()
-    rows = load_freeman_pilot_rows()
-    timeline = load_timeline(timeline_path)
-    return render_document(rows=rows, events=events, timeline=timeline)
+    event_payloads: list[dict[str, Any]] = []
+    shifted_count = 0
+    resolved_count = 0
+    open_count = 0
+
+    for event_id in FREEMAN_PILOT_EVENT_ORDER:
+        registry_event = events.get(event_id, {})
+        event_public = public_map[event_id]
+        event_rows = by_event.get(event_id, [])
+        touchpoints = build_touchpoints_for_event(event_rows)
+        block = timeline.get("events", {}).get(event_id, {})
+        shifts = list((block.get("shifts") or {}).get(FREEMAN_SPEAKER, []))
+        reviews = list((block.get("reviews") or {}).get(FREEMAN_SPEAKER, []))
+
+        review_objects: list[dict[str, Any]] = []
+        for review in reviews:
+            note_path = str(review.get("file") or "")
+            quote = ""
+            for tp in touchpoints:
+                if tp["note"] == note_path:
+                    quote = str(tp["quote"])
+                    break
+            review_objects.append(
+                {
+                    "date": review.get("date"),
+                    "speech_act": review.get("speech_act"),
+                    "quote": quote,
+                    "note": note_path,
+                }
+            )
+
+        record, record_label = derive_record(
+            event=registry_event,
+            event_public=event_public,
+            touchpoints=touchpoints,
+            shifts=shifts,
+            reviews=review_objects,
+        )
+        anchor_quote = select_anchor_quote(event_public, touchpoints)
+        if not anchor_quote.strip():
+            raise ValueError(f"missing anchor quote for event {event_id}")
+
+        status = str(registry_event.get("status") or "open")
+        if status == "resolved":
+            resolved_count += 1
+        else:
+            open_count += 1
+        if shifts:
+            shifted_count += 1
+
+        stub = WIRE_STUBS.get(event_id)
+        resolution_note = stub if stub and (REPO_ROOT / stub).is_file() else None
+
+        latest = touchpoints[-1] if touchpoints else None
+        event_payloads.append(
+            {
+                "event_id": event_id,
+                "public_title": event_public["public_title"],
+                "technical_question": registry_event.get("question", ""),
+                "status": status,
+                "outcome": registry_event.get("outcome"),
+                "latest_stance": latest["stance"] if latest else None,
+                "latest_date": latest["date"] if latest else None,
+                "record": record,
+                "record_label": record_label,
+                "scoring_policy": event_public["scoring_policy"],
+                "event_kind": event_public["event_kind"],
+                "anchor_quote": anchor_quote,
+                "public_position": format_public_position(event_public, touchpoints, shifts),
+                "public_summary": event_public["public_summary"],
+                "why_it_matters": event_public["why_it_matters"],
+                "resolution_note": resolution_note,
+                "touchpoints": touchpoints,
+                "shifts": shifts,
+                "reviews": review_objects,
+            }
+        )
+
+    return {
+        "_meta": {
+            "generated": True,
+            "do_not_edit": True,
+            "source": "scripts/build_freeman_predictions.py",
+            "speaker": FREEMAN_SPEAKER,
+        },
+        "speaker": FREEMAN_SPEAKER,
+        "summary": {
+            "events_tracked": len(FREEMAN_PILOT_EVENT_ORDER),
+            "touchpoints": len(rows),
+            "resolved_events": resolved_count,
+            "open_events": open_count,
+            "shifted_events": shifted_count,
+        },
+        "events": event_payloads,
+    }
+
+
+def render_json(payload: dict[str, Any]) -> str:
+    return json.dumps(payload, indent=2, ensure_ascii=False) + "\n"
+
+
+def format_position_line(position: str) -> str:
+    text = str(position).strip()
+    if text.endswith("."):
+        return text
+    return f"{text}." if text else "—"
+
+
+def md_escape_cell(text: str) -> str:
+    return str(text).replace("|", "\\|").replace("\n", " ")
+
+
+def render_public_markdown(payload: dict[str, Any]) -> str:
+    summary = payload["summary"]
+    lines = [
+        "<!-- GENERATED FILE. DO NOT EDIT DIRECTLY. build_freeman_predictions.py -->",
+        "",
+        "# Chas Freeman Prediction Record",
+        "",
+        "This page tracks major falsifiable predictions and strategic judgments made by "
+        "Ambassador Chas Freeman across the Statecraft archive.",
+        "",
+        "Each section asks one concrete question, shows Freeman's own words, and tracks "
+        "whether later events confirmed, challenged, or complicated the claim.",
+        "",
+        "## How to Read This Page",
+        "",
+        "Use **At a Glance** for a compact overview. Each numbered section is one prediction "
+        "or strategic judgment. Freeman's exact words appear in blockquotes; the collapsible "
+        "**Source trail** lists every archived appearance with stance and quote.",
+        "",
+        "## At a Glance",
+        "",
+        "| Question | Freeman's position | Status | Record |",
+        "| --- | --- | --- | --- |",
+    ]
+
+    for event in payload["events"]:
+        lines.append(
+            "| "
+            f"{md_escape_cell(event['public_title'])} | "
+            f"{md_escape_cell(event['public_position'])} | "
+            f"{format_status({'status': event['status'], 'outcome': event['outcome']})} | "
+            f"{event['record_label']} |"
+        )
+
+    lines.append("")
+
+    for index, event in enumerate(payload["events"], start=1):
+        event_id = event["event_id"]
+        lines.extend(
+            [
+                f"## {index}. {event['public_title']} {{#{event_id}}}",
+                "",
+                f"**Freeman's position:** {format_position_line(event['public_position'])}  ",
+                f"**Status:** {format_status({'status': event['status'], 'outcome': event['outcome']})}.  ",
+                f"**Record:** {event['record_label']}.",
+                "",
+                f"> \"{event['anchor_quote']}\"",
+                "",
+                f"{event['public_summary']}",
+                "",
+                "**Why it matters:**  ",
+                event["why_it_matters"],
+                "",
+                "<details>",
+                "<summary>Source trail</summary>",
+                "",
+                "| Date | Appearance | Stance | Exact words |",
+                "| --- | --- | --- | --- |",
+            ]
+        )
+        for tp in event["touchpoints"]:
+            quote_cell = tp["quote_short"] if len(tp["quote"]) > 120 else tp["quote"]
+            lines.append(
+                "| "
+                f"{tp['date']} | "
+                f"{md_escape_cell(tp['appearance_label'])} | "
+                f"{tp['stance']} | "
+                f"\"{md_escape_cell(quote_cell)}\" |"
+            )
+        lines.extend(["", "</details>", ""])
+
+    lines.extend(
+        [
+            "## Method",
+            "",
+            "This page is generated from source-backed prediction notes in "
+            "`statecraft/notes/predictions/`, joined to shared events in "
+            "`statecraft/data/event-registry.json`.",
+            "",
+            "The structured data companion lives beside this page:",
+            "",
+            "`statecraft/voices/freeman/freeman-predictions.json`",
+            "",
+            f"_Generated companion — {summary['events_tracked']} events, "
+            f"{summary['touchpoints']} appearances. Rebuild: "
+            "`python3 scripts/build_freeman_predictions.py`_",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def write_outputs(
+    payload: dict[str, Any],
+    *,
+    json_out: Path,
+    md_out: Path,
+    json_only: bool = False,
+    md_only: bool = False,
+) -> None:
+    if not md_only:
+        json_out.parent.mkdir(parents=True, exist_ok=True)
+        json_out.write_text(render_json(payload), encoding="utf-8", newline="\n")
+        print(f"[ok] wrote {json_out.relative_to(REPO_ROOT)}")
+    if not json_only:
+        md_out.parent.mkdir(parents=True, exist_ok=True)
+        md_out.write_text(render_public_markdown(payload), encoding="utf-8", newline="\n")
+        print(f"[ok] wrote {md_out.relative_to(REPO_ROOT)}")
+
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--output", type=Path, default=DEFAULT_OUT)
+    ap.add_argument("--json-output", type=Path, default=DEFAULT_JSON_OUT)
+    ap.add_argument("--md-output", type=Path, default=DEFAULT_MD_OUT)
+    ap.add_argument("--public-map", type=Path, default=DEFAULT_PUBLIC_MAP)
     ap.add_argument("--timeline", type=Path, default=DEFAULT_TIMELINE)
     ap.add_argument("--check", action="store_true")
+    ap.add_argument("--json-only", action="store_true")
+    ap.add_argument("--md-only", action="store_true")
     args = ap.parse_args()
 
     try:
-        rendered = build_payload(timeline_path=args.timeline)
+        payload = build_freeman_prediction_payload(
+            timeline_path=args.timeline,
+            public_map_path=args.public_map,
+        )
     except (FileNotFoundError, ValueError) as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1
 
-    if args.check:
-        if not args.output.is_file():
-            print(f"error: missing {args.output.relative_to(REPO_ROOT)}", file=sys.stderr)
-            return 1
-        current = args.output.read_text(encoding="utf-8")
-        if current != rendered:
-            print(
-                f"error: {args.output.relative_to(REPO_ROOT)} is out of date; "
-                "run build_freeman_predictions.py",
-                file=sys.stderr,
-            )
-            return 1
-        print("[ok] freeman-predictions.md matches generator output")
-        return 0
+    rendered_json = render_json(payload)
+    rendered_md = render_public_markdown(payload)
 
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(rendered, encoding="utf-8", newline="\n")
-    print(f"[ok] wrote {args.output.relative_to(REPO_ROOT)}")
+    if args.check:
+        rc = 0
+        if not args.md_only:
+            if not args.json_output.is_file():
+                print(
+                    f"error: missing {args.json_output.relative_to(REPO_ROOT)}",
+                    file=sys.stderr,
+                )
+                rc = 1
+            elif args.json_output.read_text(encoding="utf-8") != rendered_json:
+                print(
+                    f"error: {args.json_output.relative_to(REPO_ROOT)} is out of date; "
+                    "run build_freeman_predictions.py",
+                    file=sys.stderr,
+                )
+                rc = 1
+        if not args.json_only:
+            if not args.md_output.is_file():
+                print(
+                    f"error: missing {args.md_output.relative_to(REPO_ROOT)}",
+                    file=sys.stderr,
+                )
+                rc = 1
+            elif args.md_output.read_text(encoding="utf-8") != rendered_md:
+                print(
+                    f"error: {args.md_output.relative_to(REPO_ROOT)} is out of date; "
+                    "run build_freeman_predictions.py",
+                    file=sys.stderr,
+                )
+                rc = 1
+        if rc == 0:
+            print("[ok] freeman predictions match generator output")
+        return rc
+
+    write_outputs(
+        payload,
+        json_out=args.json_output,
+        md_out=args.md_output,
+        json_only=args.json_only,
+        md_only=args.md_only,
+    )
     return 0
+
 
 if __name__ == "__main__":
     raise SystemExit(main())

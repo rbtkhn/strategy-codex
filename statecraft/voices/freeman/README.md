@@ -9,7 +9,7 @@ Use it for speaker identity, host continuity, route maps, bounded 2026 monthly s
 ## Open First
 
 - [freeman-arc.md](freeman-arc.md)
-- [freeman-predictions.md](freeman-predictions.md)
+- [freeman-predictions.md](freeman-predictions.md) · [freeman-predictions.json](freeman-predictions.json)
 - [freeman-prediction-wire-events.md](freeman-prediction-wire-events.md)
 - [freeman-routing.md](freeman-routing.md)
 - [freeman-source-index.md](freeman-source-index.md)

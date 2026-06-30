@@ -14,4 +14,4 @@ status: resolved
 
 ## Quote (audit)
 
-Amb. Chas Freeman: Trump PUSHES ESCALATION \u2014 Israel\u2019s Strategy COLLAPSES Overnight
+It is a theory with no evidence to support it.

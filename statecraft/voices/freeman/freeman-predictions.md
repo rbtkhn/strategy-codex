@@ -1,175 +1,216 @@
-# Freeman predictions
+<!-- GENERATED FILE. DO NOT EDIT DIRECTLY. build_freeman_predictions.py -->
 
-Purpose: event-first map of Freeman falsifiable stances — restatements, shifts, and self-review across the full freeman-index corpus.
+# Chas Freeman Prediction Record
 
-- **Events tracked:** 7 · **Touchpoints:** 36 · **Rebuild:** `python3 scripts/build_freeman_predictions.py`
-- **Doctrine:** [event-system.md](../../docs/statecraft/event-system.md) · **Wire events:** [freeman-prediction-wire-events.md](freeman-prediction-wire-events.md) · **Crawl manifest:** [freeman-prediction-crawl.json](../../runtime/artifacts/freeman-prediction-crawl.json) · **Captures:** [freeman-index.md](freeman-index.md)
+This page tracks major falsifiable predictions and strategic judgments made by Ambassador Chas Freeman across the Statecraft archive.
 
-## israel_self_destruction_trajectory
+Each section asks one concrete question, shows Freeman's own words, and tracks whether later events confirmed, challenged, or complicated the claim.
 
-**Question:** Is Israel on a self-destructive trajectory (international isolation, moral authority loss, military overextension)?  
-**Horizon (Freeman):** source-archive/statecraft/2025-01-07/source-judging-freedom-amb-chas-freeman-is-israel-destroying-itself-2025-01-07.md — Israel is in the...  
-**Event status:** open · **Freeman latest:** yes (2026-06-06) · **Arc:** 15 touchpoints · 0 shifts · 7 restatements · 0 reviews
+## How to Read This Page
 
-**Resolution stub:** [../../notes/wire/prediction-resolution-israel-self-destruction-trajectory.md](../../notes/wire/prediction-resolution-israel-self-destruction-trajectory.md)
+Use **At a Glance** for a compact overview. Each numbered section is one prediction or strategic judgment. Freeman's exact words appear in blockquotes; the collapsible **Source trail** lists every archived appearance with stance and quote.
 
-| date | speech_act | stance | capture | note |
-| --- | --- | --- | --- | --- |
-| 2025-01-07 | initial | yes | [2025-01-07 Napolitano](../../../source-archive/statecraft/2025-01-07/source-judging-freedom-amb-chas-freeman-is-israel-destroying-itself-2025-01-07.md) | [israel-self-destruction-freeman-2025-01-07](../../notes/predictions/israel-self-destruction-freeman-2025-01-07.md) |
-| 2025-01-14 | restated | yes | [2025-01-14 Napolitano](../../../source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md) | [israel-self-destruction-freeman-2025-01-14](../../notes/predictions/israel-self-destruction-freeman-2025-01-14.md) |
-| 2025-01-17 | restated | yes | [2025-01-17 Dialogue Works](../../../source-archive/statecraft/2025-01-17/source-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md) | [israel-self-destruction-freeman-2025-01-17](../../notes/predictions/israel-self-destruction-freeman-2025-01-17.md) |
-| 2025-01-21 | iterated | yes | [2025-01-21 Napolitano](../../../source-archive/statecraft/2025-01-21/source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md) | [israel-self-destruction-freeman-2025-01-21](../../notes/predictions/israel-self-destruction-freeman-2025-01-21.md) |
-| 2025-06-10 | restated | yes | [2025-06-10 Napolitano](../../../source-archive/statecraft/2025-06-10/source-judging-freedom-amb-charles-freeman-israel-destroying-itself-2025-06-10.md) | [israel-self-destruction-freeman-2025-06-10](../../notes/predictions/israel-self-destruction-freeman-2025-06-10.md) |
-| 2025-07-29 | restated | yes | [2025-07-29 Napolitano](../../../source-archive/statecraft/2025-07-29/source-judging-freedom-amb-charles-freeman-does-israel-recognize-its-own-genocide-2025-07-29.md) | [israel-self-destruction-freeman-2025-07-29](../../notes/predictions/israel-self-destruction-freeman-2025-07-29.md) |
-| 2025-08-01 | restated | yes | [2025-08-01 Dialogue Works](../../../source-archive/statecraft/2025-08-01/source-dialogue-works-amb-chas-freeman-gaza-s-silent-hell-genocide-and-starvation-in-real-time-2025-08-01.md) | [israel-self-destruction-freeman-2025-08-01](../../notes/predictions/israel-self-destruction-freeman-2025-08-01.md) |
-| 2025-08-04 | restated | yes | [2025-08-04 Diesen](../../../source-archive/statecraft/2025-08-04/source-glenn-diesen-chas-freeman-israel-is-overextended-exhausted-and-facing-blowback-2025-08-04.md) | [israel-self-destruction-freeman-2025-08-04](../../notes/predictions/israel-self-destruction-freeman-2025-08-04.md) |
-| 2025-10-07 | iterated | yes | [2025-10-07 Napolitano](../../../source-archive/statecraft/2025-10-07/source-judging-freedom-amb-chas-freeman-israel-near-collapse-2025-10-07.md) | [israel-self-destruction-freeman-2025-10-07](../../notes/predictions/israel-self-destruction-freeman-2025-10-07.md) |
-| 2025-10-31 | iterated | yes | [2025-10-31 Dialogue Works](../../../source-archive/statecraft/2025-10-31/source-dialogue-works-amb-chas-freeman-israel-may-not-survive-this-china-and-trump-make-their-move-2025-10-31.md) | [israel-self-destruction-freeman-2025-10-31](../../notes/predictions/israel-self-destruction-freeman-2025-10-31.md) |
-| 2025-11-21 | restated | yes | [2025-11-21 Dialogue Works](../../../source-archive/statecraft/2025-11-21/source-dialogue-works-amb-chas-freeman-why-ukraine-and-israel-are-closer-to-a-dead-end-than-ever-2025-11-21.md) | [israel-self-destruction-freeman-2025-11-21](../../notes/predictions/israel-self-destruction-freeman-2025-11-21.md) |
-| 2025-12-05 | iterated | yes | [2025-12-05 Dialogue Works](../../../source-archive/statecraft/2025-12-05/source-dialogue-works-amb-chas-freeman-israel-s-strategy-is-collapsing-eu-seems-paralyzed-ceding-the-future-to-china-2025-12-05.md) | [israel-self-destruction-freeman-2025-12-05](../../notes/predictions/israel-self-destruction-freeman-2025-12-05.md) |
-| 2026-05-01 | iterated | yes | [2026-05-01 Dialogue Works](../../../source-archive/statecraft/2026-05-01/source-dialogue-works-amb-chas-freeman-israel-s-grand-plan-collapsed-in-record-time-2026-05-01.md) | [israel-self-destruction-freeman-2026-05-01](../../notes/predictions/israel-self-destruction-freeman-2026-05-01.md) |
-| 2026-05-26 | iterated | yes | [2026-05-26 Napolitano](../../../source-archive/statecraft/2026-05-26/source-judging-freedom-freeman-israel-humiliates-itself-2026-05-26.md) | [israel-self-destruction-freeman-2026-05-26](../../notes/predictions/israel-self-destruction-freeman-2026-05-26.md) |
-| 2026-06-06 | iterated | yes | [2026-06-06 Diesen](../../../source-archive/statecraft/2026-06-06/source-glenn-diesen-chas-freeman-the-greater-israel-project-is-collapsing-2026-06-06.md) | [israel-self-destruction-freeman-2026-06-06](../../notes/predictions/israel-self-destruction-freeman-2026-06-06.md) |
+## At a Glance
 
-### Shifts
+| Question | Freeman's position | Status | Record |
+| --- | --- | --- | --- |
+| Is Israel on a self-destructive path? | Yes. | Open | Unscored trajectory |
+| Would escalation force Russia to capitulate in Ukraine? | No. | Resolved — no | Correct |
+| Would a Gaza hostage deal be reached? | Yes. | Resolved — yes | Correct |
+| Would the Gaza ceasefire hold? | No. | Open | Later reviewed as correct |
+| Were Israel and Iran preparing for direct war? | Yes. | Open | Diagnostic |
+| Would Russia or China directly enter a US-Iran war? | No → uncertain | Open | Shifted |
+| Would China capitulate to Trump's tariff pressure? | No. | Open | Consistent |
 
-(none)
+## 1. Is Israel on a self-destructive path? {#israel_self_destruction_trajectory}
 
-### Reviews
+**Freeman's position:** Yes.  
+**Status:** Open.  
+**Record:** Unscored trajectory.
 
-(none)
+> "Israel is in the process of destroying itself."
 
-## ukraine_escalation_russian_capitulation
+Freeman repeatedly argued that Israel's military and political strategy was damaging its own long-term position.
 
-**Question:** Will Trump's Kellogg-style escalation-to-deescalate produce Russian capitulation in Ukraine negotiations?  
-**Horizon (Freeman):** source-archive/statecraft/2025-01-10/source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md — Kellogg esc...  
-**Event status:** resolved · **Outcome:** no · **Freeman latest:** no (2026-04-03) · **Arc:** 4 touchpoints · 0 shifts · 3 restatements · 0 reviews
+**Why it matters:**  
+This tests whether tactical military dominance can coexist with worsening legitimacy, isolation, and strategic overextension.
 
-**Resolution stub:** [../../notes/wire/prediction-resolution-ukraine-escalation-russian-capitulation.md](../../notes/wire/prediction-resolution-ukraine-escalation-russian-capitulation.md)
+<details>
+<summary>Source trail</summary>
 
-| date | speech_act | stance | capture | note |
-| --- | --- | --- | --- | --- |
-| 2025-01-10 | initial | no | [2025-01-10 Davis](../../../source-archive/statecraft/2025-01-10/source-daniel-davis-how-will-trump-end-war-in-ukraine-w-amb-chas-freeman-2025-01-10.md) | [ukraine-kellogg-capitulation-freeman-2025-01-10](../../notes/predictions/ukraine-kellogg-capitulation-freeman-2025-01-10.md) |
-| 2025-01-23 | restated | no | [2025-01-23 Davis](../../../source-archive/statecraft/2025-01-23/source-daniel-davis-ukraine-russia-war-showdown-w-chas-freeman-2025-01-23.md) | [ukraine-kellogg-capitulation-freeman-2025-01-23](../../notes/predictions/ukraine-kellogg-capitulation-freeman-2025-01-23.md) |
-| 2025-07-29 | restated | no | [2025-07-29 Napolitano](../../../source-archive/statecraft/2025-07-29/source-judging-freedom-amb-charles-freeman-does-israel-recognize-its-own-genocide-2025-07-29.md) | [ukraine-kellogg-capitulation-freeman-2025-07-29](../../notes/predictions/ukraine-kellogg-capitulation-freeman-2025-07-29.md) |
-| 2026-04-03 | restated | no | [2026-04-03 Dialogue Works](../../../source-archive/statecraft/2026-04-03/source-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03.md) | [ukraine-kellogg-capitulation-freeman-2026-04-03](../../notes/predictions/ukraine-kellogg-capitulation-freeman-2026-04-03.md) |
+| Date | Appearance | Stance | Exact words |
+| --- | --- | --- | --- |
+| 2025-01-07 | 2025-01-07 Napolitano | yes | "Israel is in the process of destroying itself." |
+| 2025-01-14 | 2025-01-14 Napolitano | yes | "Israel has delegitimized itself with its genocide in Gaza with its aggression against Lebanon and Syria with its land seizures in Syria and with its public of that Preposterous map… Israel has really now extended itself so far beyond what…" |
+| 2025-01-17 | 2025-01-17 Dialogue Works | yes | "Israel in the long run if it's going to survive has to… come to grips with the issue of coexisting with the Palestinians… he shows no sign of wanting to do that therefore I think it's long term existence is in Jeopardy and Mr Netanyahu…" |
+| 2025-01-21 | 2025-01-21 Napolitano | yes | "The way the hostages were released was a dramatic demonstration of the utter failure of the use of force by Israel in Gaza to secure the release of hostages." |
+| 2025-06-10 | 2025-06-10 Napolitano | yes | "on a path to self-destruction" |
+| 2025-07-29 | 2025-07-29 Napolitano | yes | "Does Israel now itself recognize the genocide, the war crimes that it has perpetrated in Gaza?" |
+| 2025-08-01 | 2025-08-01 Dialogue Works | yes | "Israeli human rights organization like B'Tselem… have finally been forced to recognize that what is happening is genocide." |
+| 2025-08-04 | 2025-08-04 Diesen | yes | "Israel has lost its support in much of the world. That is the West." |
+| 2025-10-07 | 2025-10-07 Napolitano | yes | "He has no plan for the day after Hamas and Gaza other than to eradicate Gaza and allow Jared Kushner to develop it." |
+| 2025-10-31 | 2025-10-31 Dialogue Works | yes | "Indications of a society under extreme stress — a society that is basically failing to sustain itself. People are immigrating in large numbers. The economy is in deep trouble." |
+| 2025-11-21 | 2025-11-21 Dialogue Works | yes | "Israel is isolating itself not just from its own region, where it is thoroughly isolated… Even in Europe and the United States, Israel is losing its clout, its support." |
+| 2025-12-05 | 2025-12-05 Dialogue Works | yes | "Israel is now a moral pariah. Nobody wants to have anything to do with it." |
+| 2026-05-01 | 2026-05-01 Dialogue Works | yes | "Israel is internationally isolated and it is now a pariah." |
+| 2026-05-26 | 2026-05-26 Napolitano | yes | "Internationally, Israel is now a global pariah. The United States is following it into that position." |
+| 2026-06-06 | 2026-06-06 Diesen | yes | "I think the Israelis have finally reached a moment when they have placed the dream that some of them have of a greater Israel in grave jeopardy." |
 
-### Shifts
+</details>
 
-(none)
+## 2. Would escalation force Russia to capitulate in Ukraine? {#ukraine_escalation_russian_capitulation}
 
-### Reviews
+**Freeman's position:** No.  
+**Status:** Resolved — no.  
+**Record:** Correct.
 
-(none)
+> "Kellogg escalation "not going to happen absolutely not going to happen.""
 
-## gaza_hostage_deal_jan_2025
+Freeman rejected the idea that Washington could escalate military pressure and thereby force Russia into capitulation.
 
-**Question:** Will a Gaza hostage-exchange ceasefire deal be reached?  
-**Closure trigger:** Phase-1 hostage / ceasefire deal publicly reached and implemented.  
-**Event status:** resolved · **Outcome:** yes · **Freeman latest:** yes (2025-01-14) · **Arc:** 1 touchpoints · 0 shifts · 0 restatements · 0 reviews
+**Why it matters:**  
+This prediction tests a recurring Washington assumption: that more weapons, tighter sanctions, or higher pressure can force a strategic climbdown by a great power.
 
-**Resolution stub:** [../../notes/wire/prediction-resolution-gaza-hostage-deal-jan-2025.md](../../notes/wire/prediction-resolution-gaza-hostage-deal-jan-2025.md)
+<details>
+<summary>Source trail</summary>
 
-| date | speech_act | stance | capture | note |
-| --- | --- | --- | --- | --- |
-| 2025-01-14 | initial | yes | [2025-01-14 Napolitano](../../../source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md) | [gaza-hostage-deal-freeman-2025-01-14](../../notes/predictions/gaza-hostage-deal-freeman-2025-01-14.md) |
+| Date | Appearance | Stance | Exact words |
+| --- | --- | --- | --- |
+| 2025-01-10 | 2025-01-10 Davis | no | "Kellogg escalation "not going to happen absolutely not going to happen."" |
+| 2025-01-23 | 2025-01-23 Davis | no | "Ukraine Russia War SHOWDOWN  w/Chas Freeman" |
+| 2025-07-29 | 2025-07-29 Napolitano | no | "Um there are uh capitulations by foreigners uh to bullying." |
+| 2026-04-03 | 2026-04-03 Dialogue Works | no | "It is a theory with no evidence to support it." |
 
-### Shifts
+</details>
 
-(none)
+## 3. Would a Gaza hostage deal be reached? {#gaza_hostage_deal_jan_2025}
 
-### Reviews
+**Freeman's position:** Yes.  
+**Status:** Resolved — yes.  
+**Record:** Correct.
 
-(none)
+> "Hostage ceasefire "if this happens which does seem likely.""
 
-## gaza_ceasefire_holds_2025
+Freeman judged that a phase-1 hostage-exchange deal was likely to be reached.
 
-**Question:** Will the Jan 2025 Gaza arrangement hold as a durable ceasefire (not merely a temporary pause)?  
-**Closure trigger:** Fighting resumes at scale or arrangement treated as pause-only (Freeman Jan 21 pause-not-ceasefire framing).  
-**Event status:** open · **Freeman latest:** no (2025-10-10) · **Arc:** 2 touchpoints · 0 shifts · 0 restatements · 1 reviews
+**Why it matters:**  
+This tests whether Freeman could read short-horizon diplomatic momentum amid a wider Gaza war trajectory.
 
-**Resolution stub:** [../../notes/wire/prediction-resolution-gaza-ceasefire-holds-2025.md](../../notes/wire/prediction-resolution-gaza-ceasefire-holds-2025.md)
+<details>
+<summary>Source trail</summary>
 
-| date | speech_act | stance | capture | note |
-| --- | --- | --- | --- | --- |
-| 2025-01-21 | initial | no | [2025-01-21 Napolitano](../../../source-archive/statecraft/2025-01-21/source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md) | [gaza-ceasefire-holds-freeman-2025-01-21](../../notes/predictions/gaza-ceasefire-holds-freeman-2025-01-21.md) |
-| 2025-10-10 | self_acknowledged_correct | no | [2025-10-10 India Global Left](../../../source-archive/statecraft/2025-10-10/source-india-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md) | [gaza-ceasefire-holds-freeman-2025-10-10](../../notes/predictions/gaza-ceasefire-holds-freeman-2025-10-10.md) |
+| Date | Appearance | Stance | Exact words |
+| --- | --- | --- | --- |
+| 2025-01-14 | 2025-01-14 Napolitano | yes | "Hostage ceasefire "if this happens which does seem likely."" |
 
-### Shifts
+</details>
 
-(none)
+## 4. Would the Gaza ceasefire hold? {#gaza_ceasefire_holds_2025}
 
-### Reviews
+**Freeman's position:** No.  
+**Status:** Open.  
+**Record:** Later reviewed as correct.
 
-- **self_acknowledged_correct** · 2025-10-10 · Gaza ceasefire will not last / pause-not-ceasefire framing (audit from capture). · [gaza-ceasefire-holds-freeman-2025-10-10](../../notes/predictions/gaza-ceasefire-holds-freeman-2025-10-10.md)
+> "Anything other than a pause is dreaming; Netanyahu will find an excuse to resume."
 
-## us_israel_iran_war_preparation_2025
+Freeman argued the January arrangement was a pause, not a durable ceasefire, and that Israel would find grounds to resume fighting.
 
-**Question:** Are Israel and Iran actively preparing for direct war (force posture, threats, procurement)?  
-**Horizon (Freeman):** source-archive/statecraft/2025-01-21/source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md — Are Israel and Iran a...  
-**Event status:** open · **Freeman latest:** yes (2026-02-24) · **Arc:** 7 touchpoints · 0 shifts · 5 restatements · 0 reviews
+**Why it matters:**  
+This tests whether Freeman could distinguish a hostage-exchange pause from a durable ceasefire when media treated them as the same.
 
-**Resolution stub:** [../../notes/wire/prediction-resolution-us-israel-iran-war-preparation-2025.md](../../notes/wire/prediction-resolution-us-israel-iran-war-preparation-2025.md)
+<details>
+<summary>Source trail</summary>
 
-| date | speech_act | stance | capture | note |
-| --- | --- | --- | --- | --- |
-| 2025-01-14 | initial | yes | [2025-01-14 Napolitano](../../../source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md) | [us-israel-iran-prep-freeman-2025-01-14](../../notes/predictions/us-israel-iran-prep-freeman-2025-01-14.md) |
-| 2025-01-17 | restated | yes | [2025-01-17 Dialogue Works](../../../source-archive/statecraft/2025-01-17/source-dialogue-works-amb-chas-freeman-the-delusional-policies-driving-america-s-decline-2025-01-17.md) | [us-israel-iran-prep-freeman-2025-01-17](../../notes/predictions/us-israel-iran-prep-freeman-2025-01-17.md) |
-| 2025-01-21 | initial | yes | [2025-01-21 Napolitano](../../../source-archive/statecraft/2025-01-21/source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md) | [us-israel-iran-prep-freeman-2025-01-21](../../notes/predictions/us-israel-iran-prep-freeman-2025-01-21.md) |
-| 2025-01-24 | restated | yes | [2025-01-24 Dialogue Works](../../../source-archive/statecraft/2025-01-24/source-dialogue-works-amb-chas-freeman-is-the-world-on-the-brink-of-total-chaos-2025-01-24.md) | [us-israel-iran-prep-freeman-2025-01-24](../../notes/predictions/us-israel-iran-prep-freeman-2025-01-24.md) |
-| 2025-04-04 | restated | yes | [2025-04-04 Dialogue Works](../../../source-archive/statecraft/2025-04-04/source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md) | [us-israel-iran-prep-freeman-2025-04-04](../../notes/predictions/us-israel-iran-prep-freeman-2025-04-04.md) |
-| 2025-06-21 | restated | yes | [2025-06-21 India Global Left](../../../source-archive/statecraft/2025-06-21/source-india-global-left-push-war-iran-chas-freeman-2025-06-21.md) | [us-israel-iran-prep-freeman-2025-06-21](../../notes/predictions/us-israel-iran-prep-freeman-2025-06-21.md) |
-| 2026-02-24 | restated | yes | [2026-02-24 India Global Left](../../../source-archive/statecraft/2026-02-24/source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md) | [us-israel-iran-prep-freeman-2026-02-24](../../notes/predictions/us-israel-iran-prep-freeman-2026-02-24.md) |
+| Date | Appearance | Stance | Exact words |
+| --- | --- | --- | --- |
+| 2025-01-21 | 2025-01-21 Napolitano | no | "Anything other than a pause is dreaming; Netanyahu will find an excuse to resume." |
+| 2025-10-10 | 2025-10-10 India Global Left | no | "I'm not convinced that this is more than another misleading flash in the pan." |
 
-### Shifts
+</details>
 
-(none)
+## 5. Were Israel and Iran preparing for direct war? {#us_israel_iran_war_preparation_2025}
 
-### Reviews
+**Freeman's position:** Yes.  
+**Status:** Open.  
+**Record:** Diagnostic.
 
-(none)
+> "AMB. Chas Freeman : Netanyahu Instigating War with Iran."
 
-## iran_great_power_direct_war_entry
+Freeman argued that Israel and Iran were actively preparing for direct war, not merely trading rhetoric.
 
-**Question:** Will Russia or China directly enter a US-Iran war on Iran's side (combat forces, not arms/tech transfers alone)?  
-**Horizon (Freeman):** source-archive/statecraft/2025-03-28/source-dialogue-works-amb-chas-freeman-will-iran-get-backup-from-russia-and-china-against-the-u-s-20...  
-**Event status:** open · **Freeman latest:** uncertain (2026-04-28) · **Arc:** 2 touchpoints · 1 shifts · 0 restatements · 0 reviews
+**Why it matters:**  
+This tests whether Freeman could read force-posture and escalation signals before a major regional war.
 
-**Resolution stub:** [../../notes/wire/prediction-resolution-iran-great-power-direct-war-entry.md](../../notes/wire/prediction-resolution-iran-great-power-direct-war-entry.md)
+<details>
+<summary>Source trail</summary>
 
-| date | speech_act | stance | capture | note |
-| --- | --- | --- | --- | --- |
-| 2025-03-28 | initial | no | [2025-03-28 Dialogue Works](../../../source-archive/statecraft/2025-03-28/source-dialogue-works-amb-chas-freeman-will-iran-get-backup-from-russia-and-china-against-the-u-s-2025-03-28.md) | [iran-great-power-backup-freeman-2025-03-28](../../notes/predictions/iran-great-power-backup-freeman-2025-03-28.md) |
-| 2026-04-28 | iterated | uncertain | [2026-04-28 Napolitano](../../../source-archive/statecraft/2026-04-28/source-judging-freedom-freeman-what-russia-can-do-for-iran-2026-04-28.md) | [iran-great-power-backup-freeman-2026-04-28](../../notes/predictions/iran-great-power-backup-freeman-2026-04-28.md) |
+| Date | Appearance | Stance | Exact words |
+| --- | --- | --- | --- |
+| 2025-01-14 | 2025-01-14 Napolitano | yes | "AMB. Chas Freeman : Netanyahu Instigating War with Iran." |
+| 2025-01-17 | 2025-01-17 Dialogue Works | yes | "hatever tough love he gave him it's entirely possible that he committed the United States under Trump to join in an attack on Iran for example which is something that Netanyahu really wants in return for making concessions on Gaza a" |
+| 2025-01-21 | 2025-01-21 Napolitano | yes | "Are Israel and Iran actively preparing for war — yes they are." |
+| 2025-01-24 | 2025-01-24 Dialogue Works | yes | "d Trump would be the case of Iran and he said that he wants to talk with Iranians and he had has the option of going to war with Iran or talk with Iranians how do you see that do you think that this time I don't know what he's going to add" |
+| 2025-04-04 | 2025-04-04 Dialogue Works | yes | "Larry, your take on the Trump administr are we getting to the point that the Trump administration goes with goes to the go with a war with Iran, waging a war, or they're trying to do everything to avoid that?" |
+| 2025-06-21 | 2025-06-21 India Global Left | yes | "Um, it has used the cover of the war with Iran to redouble its efforts to uh engage in ethnic cleansing of the West Bank." |
+| 2026-02-24 | 2026-02-24 India Global Left | yes | "Nobody else in the region wants uh a war with Iran." |
 
-### Shifts
+</details>
 
-- **certainty_shift** · no → uncertain · 2025-03-28 → 2026-04-28 · [note](../../notes/predictions/iran-great-power-backup-freeman-2026-04-28.md)
+## 6. Would Russia or China directly enter a US-Iran war? {#iran_great_power_direct_war_entry}
 
-### Reviews
+**Freeman's position:** No → uncertain.  
+**Status:** Open.  
+**Record:** Shifted.
 
-(none)
+> "Russia would not involve themselves directly; China diversion possible but not direct war entry."
 
-## china_tariff_capitulation_2025
+Freeman argued that Russia and China might support Iran indirectly but would not directly enter combat on Iran's side.
 
-**Question:** Will China capitulate to Trump's tariff pressure (major substantive yield, not cosmetic)?  
-**Horizon (Freeman):** source-archive/statecraft/2025-04-22/source-judging-freedom-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md — There w...  
-**Event status:** open · **Freeman latest:** no (2026-03-17) · **Arc:** 5 touchpoints · 0 shifts · 3 restatements · 0 reviews
+**Why it matters:**  
+This tests whether Freeman correctly bounded great-power war entry versus diversion, arms transfers, and diplomatic backing.
 
-**Resolution stub:** [../../notes/wire/prediction-resolution-china-tariff-capitulation-2025.md](../../notes/wire/prediction-resolution-china-tariff-capitulation-2025.md)
+<details>
+<summary>Source trail</summary>
 
-| date | speech_act | stance | capture | note |
-| --- | --- | --- | --- | --- |
-| 2025-04-04 | initial | no | [2025-04-04 Dialogue Works](../../../source-archive/statecraft/2025-04-04/source-dialogue-works-mohammad-marandi-larry-wilkerson-and-chas-freeman-on-middle-east-erupts-iran-challenges-ultimatum-2025-04-04.md) | [china-tariff-capitulation-freeman-2025-04-04](../../notes/predictions/china-tariff-capitulation-freeman-2025-04-04.md) |
-| 2025-04-22 | initial | no | [2025-04-22 Napolitano](../../../source-archive/statecraft/2025-04-22/source-judging-freedom-amb-charles-freeman-will-china-cave-on-trumps-tariffs-2025-04-22.md) | [china-tariff-capitulation-freeman-2025-04-22](../../notes/predictions/china-tariff-capitulation-freeman-2025-04-22.md) |
-| 2025-07-29 | restated | no | [2025-07-29 Napolitano](../../../source-archive/statecraft/2025-07-29/source-judging-freedom-amb-charles-freeman-does-israel-recognize-its-own-genocide-2025-07-29.md) | [china-tariff-capitulation-freeman-2025-07-29](../../notes/predictions/china-tariff-capitulation-freeman-2025-07-29.md) |
-| 2026-02-24 | restated | no | [2026-02-24 Napolitano](../../../source-archive/statecraft/2026-02-24/source-judging-freedom-freeman-israel-pushes-us-into-another-endless-war-2026-02-24.md) | [china-tariff-capitulation-freeman-2026-02-24](../../notes/predictions/china-tariff-capitulation-freeman-2026-02-24.md) |
-| 2026-03-17 | restated | no | [2026-03-17 Napolitano](../../../source-archive/statecraft/2026-03-17/source-judging-freedom-freeman-will-china-dump-trump-2026-03-17.md) | [china-tariff-capitulation-freeman-2026-03-17](../../notes/predictions/china-tariff-capitulation-freeman-2026-03-17.md) |
+| Date | Appearance | Stance | Exact words |
+| --- | --- | --- | --- |
+| 2025-03-28 | 2025-03-28 Dialogue Works | no | "Russia would not involve themselves directly; China diversion possible but not direct war entry." |
+| 2026-04-28 | 2026-04-28 Napolitano | uncertain | "Freeman reads the Russian dimension as material enough to affect diplomacy, UN positioning, and the broader stamina of the anti-Iran coalition." |
 
-### Shifts
+</details>
 
-(none)
+## 7. Would China capitulate to Trump's tariff pressure? {#china_tariff_capitulation_2025}
 
-### Reviews
+**Freeman's position:** No.  
+**Status:** Open.  
+**Record:** Consistent.
 
-(none)
+> "Um and a final point is u you know given the uh tariff tantrum that Mr."
+
+Freeman argued that tariff pressure would not force China to surrender core interests.
+
+**Why it matters:**  
+This tests whether economic coercion can make a major power accept humiliation or structural subordination.
+
+<details>
+<summary>Source trail</summary>
+
+| Date | Appearance | Stance | Exact words |
+| --- | --- | --- | --- |
+| 2025-04-04 | 2025-04-04 Dialogue Works | no | "Um and a final point is u you know given the uh tariff tantrum that Mr." |
+| 2025-04-22 | 2025-04-22 Napolitano | no | "There will be no capitulation, preemptive or otherwise, by the Chinese." |
+| 2025-07-29 | 2025-07-29 Napolitano | no | "uh both basically Japan and the EU have been forced to accept u a 15% across the board tariff as a permanent condition of their relationship with the United their relationships with the United States." |
+| 2026-02-24 | 2026-02-24 Napolitano | no | "Why haven't the Iranians capitulated in the face of all the force that the United States has deployed?" |
+| 2026-03-17 | 2026-03-17 Napolitano | no | "Did uh Trump dump China, or did China dump Trump?" |
+
+</details>
+
+## Method
+
+This page is generated from source-backed prediction notes in `statecraft/notes/predictions/`, joined to shared events in `statecraft/data/event-registry.json`.
+
+The structured data companion lives beside this page:
+
+`statecraft/voices/freeman/freeman-predictions.json`
+
+_Generated companion — 7 events, 36 appearances. Rebuild: `python3 scripts/build_freeman_predictions.py`_

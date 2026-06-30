@@ -1,115 +1,178 @@
 #!/usr/bin/env python3
-"""Validate statecraft/voices/freeman/freeman-predictions.md against Freeman pilot notes."""
+"""Validate Freeman prediction JSON + public markdown shape and cross-links."""
 
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_PATH = REPO_ROOT / "statecraft" / "voices" / "freeman" / "freeman-predictions.md"
+DEFAULT_JSON = REPO_ROOT / "statecraft" / "voices" / "freeman" / "freeman-predictions.json"
+DEFAULT_MD = REPO_ROOT / "statecraft" / "voices" / "freeman" / "freeman-predictions.md"
 
 _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from freeman_prediction_pilot import (  # noqa: E402
-    FREEMAN_PILOT_EVENT_ORDER,
-    FREEMAN_SPEAKER,
-    JAN_21_CAPTURE,
+from freeman_prediction_pilot import FREEMAN_PILOT_EVENT_ORDER  # noqa: E402
+
+EVENT_REQUIRED = (
+    "event_id",
+    "public_title",
+    "technical_question",
+    "status",
+    "latest_stance",
+    "record",
+    "record_label",
+    "anchor_quote",
+    "public_summary",
+    "why_it_matters",
+    "event_kind",
+    "scoring_policy",
+    "touchpoints",
 )
-from prediction_lib import collect_prediction_notes  # noqa: E402
+TOUCHPOINT_REQUIRED = (
+    "date",
+    "speech_act",
+    "stance",
+    "quote",
+    "quote_short",
+    "capture",
+    "note",
+)
+FORBIDDEN_HEADING_TERMS = ("event_id", "speech_act", "touchpoints", "crawl manifest")
+JAN_21_SUFFIX = "source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md"
 
-SECTION_RE = re.compile(r"^## ([a-z][a-z0-9_]+)\s*$", re.M)
-TABLE_HEADER = "| date | speech_act | stance | capture | note |"
-CAPTURE_LINK_RE = re.compile(r"\]\((\.\./\.\./\.\./source-archive/statecraft/[^)]+)\)")
-NOTE_LINK_RE = re.compile(r"\]\(\.\./\.\./notes/predictions/([^)]+)\)")
 
-def table_rows_for_section(text: str, event_id: str) -> list[str]:
-    marker = f"## {event_id}"
-    start = text.find(marker)
-    if start < 0:
-        return []
-    chunk = text[start:]
-    nxt = chunk.find("\n## ", len(marker))
-    if nxt >= 0:
-        chunk = chunk[:nxt]
-    rows: list[str] = []
-    for line in chunk.splitlines():
-        if line.startswith("| 20") and "|" in line[1:]:
-            rows.append(line)
-    return rows
-
-def run_check(*, path: Path) -> tuple[list[str], list[str]]:
+def check_json(path: Path) -> list[str]:
     issues: list[str] = []
-    warnings: list[str] = []
     if not path.is_file():
-        return [f"missing {path.relative_to(REPO_ROOT)}"], warnings
+        return [f"missing {path.relative_to(REPO_ROOT)}"]
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        return [f"invalid JSON: {exc}"]
 
-    text = path.read_text(encoding="utf-8")
-    sections = SECTION_RE.findall(text)
-    if sections != list(FREEMAN_PILOT_EVENT_ORDER):
-        issues.append(
-            f"expected sections {list(FREEMAN_PILOT_EVENT_ORDER)!r}; got {sections!r}"
-        )
+    meta = data.get("_meta") or {}
+    if meta.get("generated") is not True:
+        issues.append("_meta.generated must be true")
+    if meta.get("speaker") != "freeman":
+        issues.append("_meta.speaker must be freeman")
+    if data.get("speaker") != "freeman":
+        issues.append("speaker must be freeman")
 
-    pilot_notes = [
-        n
-        for n in collect_prediction_notes()
-        if n.speaker == FREEMAN_SPEAKER and n.event_id in FREEMAN_PILOT_EVENT_ORDER
-    ]
-    note_paths_in_file: set[str] = set()
-    total_rows = 0
-    jan21_sections = 0
+    events = data.get("events")
+    if not isinstance(events, list) or not events:
+        issues.append("events must be a non-empty list")
+        return issues
+
+    event_ids = [e.get("event_id") for e in events if isinstance(e, dict)]
+    if event_ids != list(FREEMAN_PILOT_EVENT_ORDER):
+        issues.append(f"expected event order {list(FREEMAN_PILOT_EVENT_ORDER)!r}; got {event_ids!r}")
+
+    jan21_events: set[str] = set()
     jan21_notes: set[str] = set()
 
-    for event_id in FREEMAN_PILOT_EVENT_ORDER:
-        chunk_start = text.find(f"## {event_id}")
-        chunk = text[chunk_start:] if chunk_start >= 0 else ""
-        if TABLE_HEADER not in chunk:
-            issues.append(f"{event_id}: missing column header")
-        rows = table_rows_for_section(text, event_id)
-        expected = sum(1 for n in pilot_notes if n.event_id == event_id)
-        if len(rows) != expected:
-            issues.append(f"{event_id}: expected {expected} table rows, found {len(rows)}")
-        total_rows += len(rows)
-        for row in rows:
-            cap = CAPTURE_LINK_RE.search(row)
-            note = NOTE_LINK_RE.search(row)
-            if not cap:
-                issues.append(f"{event_id}: missing capture link in row")
-            elif not (REPO_ROOT / cap.group(1).replace("\\", "/").removeprefix("../../../")).is_file():
-                issues.append(f"{event_id}: bad capture link in row {row[:60]}...")
-            if note:
-                note_paths_in_file.add(note.group(1))
-            if cap and cap.group(1).endswith(
-                "source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md"
-            ):
-                jan21_sections += 1
-                if note:
-                    jan21_notes.add(note.group(1))
+    for event in events:
+        if not isinstance(event, dict):
+            issues.append("each event must be an object")
+            continue
+        event_id = str(event.get("event_id") or "")
+        for field in EVENT_REQUIRED:
+            if field not in event:
+                issues.append(f"{event_id or '?'}: missing field {field}")
+        if not str(event.get("anchor_quote") or "").strip():
+            issues.append(f"{event_id}: empty anchor_quote")
+        touchpoints = event.get("touchpoints")
+        if not isinstance(touchpoints, list):
+            issues.append(f"{event_id}: touchpoints must be a list")
+            continue
+        for tp in touchpoints:
+            if not isinstance(tp, dict):
+                issues.append(f"{event_id}: touchpoint must be object")
+                continue
+            for field in TOUCHPOINT_REQUIRED:
+                if field not in tp:
+                    issues.append(f"{event_id}: touchpoint missing {field}")
+            if not str(tp.get("quote") or "").strip():
+                issues.append(f"{event_id}: touchpoint missing quote text")
+            capture = str(tp.get("capture") or "")
+            note = str(tp.get("note") or "")
+            if capture.endswith(JAN_21_SUFFIX):
+                jan21_events.add(event_id)
+                jan21_notes.add(note)
 
-    if total_rows != len(pilot_notes):
-        issues.append(f"total rows {total_rows} != pilot notes {len(pilot_notes)}")
-
-    for note in pilot_notes:
-        if Path(note.file).name not in note_paths_in_file:
-            issues.append(f"missing note in shelf: {note.file}")
-
-    if jan21_sections < 2:
-        issues.append("Jan 21 capture must appear in at least 2 event sections")
+    if len(jan21_events) < 2:
+        issues.append("Jan 21 capture must appear in at least 2 event touchpoints")
     if len(jan21_notes) < 2:
-        issues.append("Jan 21 rows must link to distinct prediction notes")
+        issues.append("Jan 21 touchpoints must link to distinct prediction notes")
 
-    return issues, warnings
+    return issues
+
+
+def check_markdown(path: Path, *, public_titles: list[str]) -> list[str]:
+    issues: list[str] = []
+    if not path.is_file():
+        return [f"missing {path.relative_to(REPO_ROOT)}"]
+    text = path.read_text(encoding="utf-8")
+
+    required_strings = [
+        "# Chas Freeman Prediction Record",
+        "## At a Glance",
+        "## Method",
+        "<details>",
+        "<summary>Source trail</summary>",
+    ]
+    for needle in required_strings:
+        if needle not in text:
+            issues.append(f"markdown missing {needle!r}")
+
+    if not re.search(r"^>\s+\"", text, re.M):
+        issues.append("markdown missing blockquote")
+
+    for title in public_titles:
+        if title not in text:
+            issues.append(f"markdown missing public title: {title!r}")
+
+    for line in text.splitlines():
+        if line.startswith("## ") and not line.startswith("## At a Glance") and line != "## Method":
+            if line.startswith("## How to Read"):
+                continue
+            lowered = line.casefold()
+            for term in FORBIDDEN_HEADING_TERMS:
+                if term in lowered:
+                    issues.append(f"forbidden machine term in heading: {line}")
+
+    return issues
+
+
+def run_check(*, json_path: Path, md_path: Path) -> tuple[list[str], list[str]]:
+    issues = check_json(json_path)
+    public_titles: list[str] = []
+    if json_path.is_file():
+        try:
+            data = json.loads(json_path.read_text(encoding="utf-8"))
+            public_titles = [
+                str(e.get("public_title") or "")
+                for e in data.get("events", [])
+                if isinstance(e, dict)
+            ]
+        except json.JSONDecodeError:
+            pass
+    issues.extend(check_markdown(md_path, public_titles=public_titles))
+    return issues, []
+
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--path", type=Path, default=DEFAULT_PATH)
+    ap.add_argument("--json", type=Path, default=DEFAULT_JSON)
+    ap.add_argument("--md", type=Path, default=DEFAULT_MD)
     args = ap.parse_args()
-    issues, warnings = run_check(path=args.path)
+
+    issues, warnings = run_check(json_path=args.json, md_path=args.md)
     for line in warnings:
         print(f"[warn] {line}")
     if issues:
@@ -117,8 +180,9 @@ def main() -> int:
             print(line, file=sys.stderr)
         print(f"check_freeman_predictions: {len(issues)} violation(s)", file=sys.stderr)
         return 1
-    print("[ok] freeman-predictions.md valid")
+    print("[ok] freeman predictions valid")
     return 0
+
 
 if __name__ == "__main__":
     raise SystemExit(main())

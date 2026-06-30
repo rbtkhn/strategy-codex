@@ -46,6 +46,8 @@ def run_quick() -> int:
         (["python3", "scripts/check_prediction_disagreement.py"], "prediction disagreement shape"),
         (["python3", "scripts/build_prediction_timeline.py"], "build prediction timeline"),
         (["python3", "scripts/check_prediction_timeline.py"], "prediction timeline shape"),
+        (["python3", "scripts/build_freeman_predictions.py", "--check"], "freeman predictions fresh"),
+        (["python3", "scripts/check_freeman_predictions.py"], "freeman predictions shape"),
         (["python3", "scripts/check_statecraft_notes.py", "--warn"], "statecraft notes gate"),
         (
             [
@@ -99,6 +101,7 @@ def run_full() -> int:
                 "tests/test_check_work_record_doctrine.py",
                 "tests/test_prediction_registry_metrics.py",
                 "tests/test_prediction_disagreement_timeline.py",
+                "tests/test_freeman_predictions.py",
                 "-q",
             ],
             "pytest subset",
