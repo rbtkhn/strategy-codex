@@ -70,6 +70,8 @@ Use **membrane** only when authority, durability, promotion, import/export, or m
 
 **Agent handoff queue** ([`agent-handoff-queue.md`](agent-handoff-queue.md)) lives under `runtime/operator-queue/` as **instrumental work** — visible task handoffs between humans and agents; receipts do not promote authority.
 
+**Context layer** ([`context-layer.md`](context-layer.md)) — the membrane **classifies** surfaces; the context layer **owns, moves, refreshes, exports, and audits** work context. Not the same as [prepared context layer](prepared-context-layer.md) (state-model evidence staging).
+
 ---
 
 ## Route grammar

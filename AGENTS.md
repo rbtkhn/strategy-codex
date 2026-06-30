@@ -94,6 +94,7 @@ Rules 1–11 detail, triadic cognition, Lexile, humane purpose: [`docs/agent-rul
 - **Preflight:** `python3 scripts/check_repo_health.py --quick`
 - **Repo convergence:** [`docs/repo-convergence.md`](docs/repo-convergence.md) · `python3 scripts/run_repo_convergence.py --write` then health
 - **Agent handoff queue:** [`docs/agent-handoff-queue.md`](docs/agent-handoff-queue.md) · `python3 scripts/check_agent_handoff_queue.py` when queue items change
+- **Context layer:** [`docs/context-layer.md`](docs/context-layer.md) — repo owns context; models borrow it
 - **Schema registry:** [`docs/system/schema-system.md`](docs/system/schema-system.md) · `python3 scripts/validate_all_schemas.py --scope prediction` · lifecycle: [`docs/statecraft/prediction-system.md`](docs/statecraft/prediction-system.md)
 - **Notes gate:** `python3 scripts/check_statecraft_notes.py --warn` (corpus) · `--verify` before shelf-native promote · `--strict --changed-only --tier-a-only` on changed Tier A files
 - **Skills:** `python3 scripts/validate_skills.py`

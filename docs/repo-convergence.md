@@ -106,6 +106,10 @@ The convergence report, convergence state, and convergence JSONL log are exclude
 | [`derived-regeneration.md`](skill-work/work-dev/derived-regeneration.md) | Rebuild target contract |
 | [`check_agent_handoff_queue.py`](../scripts/check_agent_handoff_queue.py) | Agent handoff queue item validation ([`agent-handoff-queue.md`](agent-handoff-queue.md)) |
 
+## Context freshness
+
+Repo convergence preserves **derived context freshness** — see [context-layer.md](context-layer.md). Convergence reports are advisory runtime context, not authority. Work movement context lives in the [Agent Handoff Queue](agent-handoff-queue.md).
+
 ## Naming note
 
 **Not** gate `convergence_check()` in [`scripts/stage_gate_candidate.py`](../scripts/stage_gate_candidate.py) — that function means gate candidate sighting, not repo health convergence.

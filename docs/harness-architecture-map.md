@@ -72,7 +72,7 @@ One-line reading rules — full table: [work-membrane-v2.md](work-membrane-v2.md
 
 ### Model / harness / operator / output objects
 
-See [intelligence-harness.md — Model / harness / operator / output objects](intelligence-harness.md#model--harness--operator--output-objects). **Model** is replaceable; **harness** (context, authority, routing, review) is durable.
+See [intelligence-harness.md — Model / harness / operator / output objects](intelligence-harness.md#model--harness--operator--output-objects). **Model** is replaceable; **harness** (context, authority, routing, review) is durable. **Context layer doctrine:** [context-layer.md](context-layer.md) — repo-owned work context vs vendor chat memory.
 
 ---
 

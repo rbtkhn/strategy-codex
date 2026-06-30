@@ -2,6 +2,8 @@
 
 The **Prepared Context Layer** holds **cleaned or transformed** representations of evidence, intended for agent reasoning, retrieval, or prompt assembly.
 
+**See also:** [Context Layer](context-layer.md) — work-system context ownership (queues, receipts, convergence, model agnosticism). This doc is state-model Layer 2 staging only.
+
 **Examples:**
 
 - Markdown-normalized documents  

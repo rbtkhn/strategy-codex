@@ -242,6 +242,17 @@ queue item → agent work → repo convergence --check → receipt → human rev
 
 Repo convergence does not create queue items in Phase 1.
 
+## Relationship to context layer
+
+Queue items are **context packets for work movement**. The broader framing — repo-owned context, export/import rules, model agnosticism — lives in [context-layer.md](context-layer.md).
+
+```text
+The repo owns context. Models borrow context.
+Queues move context. Receipts prove context.
+```
+
+Operational queue grammar stays in this doc; strategic context ownership stays in context-layer.
+
 ## Non-goals (Phase 1)
 
 - No background daemon or polling loop
