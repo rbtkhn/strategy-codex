@@ -271,3 +271,7 @@ This model implies:
 > Multi-conflict geopolitics is not a set of independent systems—it is a monoidal composition of interacting narrative geometries evolving over time.
 
 ---
+
+Phase transition extension: [phase_transition_model.md](phase_transition_model.md) (curvature K, critical threshold λ_c).
+
+---

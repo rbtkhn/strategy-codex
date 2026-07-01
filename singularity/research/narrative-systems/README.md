@@ -33,6 +33,8 @@ Formal specification: [formal_model.md](formal_model.md) (functor F and transfor
 
 Monoidal extension: [monoidal_extension.md](monoidal_extension.md) (multi-theater composition via ⊗).
 
+Phase transition model: [phase_transition_model.md](phase_transition_model.md) (curvature K, critical threshold λ_c, F → F').
+
 ## Classification
 
 `singularity/research/narrative-systems/`
@@ -43,6 +45,7 @@ Monoidal extension: [monoidal_extension.md](monoidal_extension.md) (multi-theate
 | --- | --- |
 | [formal_model.md](formal_model.md) | Category-theoretic specification (F: 𝓔𝓰 → 𝓟𝓱, Δ) |
 | [monoidal_extension.md](monoidal_extension.md) | Symmetric monoidal functor extension (𝓔𝓰, 𝓟𝓱, ⊗, F, Δ) |
+| [phase_transition_model.md](phase_transition_model.md) | Phase transitions via monoidal disagreement curvature (K, λ_c, Φ_collapse) |
 | [mapping_functions.md](mapping_functions.md) | EG × PH relational transformations |
 | [dual_structure.md](dual_structure.md) | Structural vs temporal axes |
 | [invariants.md](invariants.md) | Independence and non-modification rules |
