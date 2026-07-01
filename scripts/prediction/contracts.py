@@ -100,6 +100,52 @@ def predictive_fingerprint(event_id: str, event: dict[str, Any]) -> tuple[str, .
     return ("atomic", question, falsifier, horizon, mechanism)
 
 
+def find_duplicate_fingerprints(
+    events: dict[str, dict[str, Any]],
+) -> list[dict[str, Any]]:
+    by_fp: dict[tuple[str, ...], list[str]] = {}
+    for event_id, event in events.items():
+        fp = predictive_fingerprint(event_id, event)
+        by_fp.setdefault(fp, []).append(event_id)
+    dupes: list[dict[str, Any]] = []
+    for fp, ids in sorted(by_fp.items()):
+        if len(ids) > 1:
+            dupes.append({"fingerprint": fp, "event_ids": ids})
+    return dupes
+
+
+def fingerprint_gate_errors(events: dict[str, dict[str, Any]]) -> list[str]:
+    errors: list[str] = []
+    for dupe in find_duplicate_fingerprints(events):
+        ids = dupe["event_ids"]
+        active = [
+            eid
+            for eid in ids
+            if str(events.get(eid, {}).get("status") or "") != "deprecated"
+        ]
+        if len(active) > 1:
+            errors.append(f"duplicate predictive fingerprint: {active}")
+    return errors
+
+
+def upsert_fingerprint_collision(
+    event_id: str,
+    event: dict[str, Any],
+    registry: dict[str, dict[str, Any]],
+) -> list[str]:
+    normalized = normalize_event_v4(event_id, event)
+    fp = predictive_fingerprint(event_id, normalized)
+    errors: list[str] = []
+    for other_id, other in registry.items():
+        if other_id == event_id:
+            continue
+        if str(other.get("status") or "") == "deprecated":
+            continue
+        if predictive_fingerprint(other_id, other) == fp:
+            errors.append(f"{event_id}: fingerprint collision with {other_id}")
+    return errors
+
+
 def map_speech_act_to_semantic(speech_act: str | None, *, stance_flip: bool = False) -> str:
     act = str(speech_act or "").strip()
     if stance_flip and act not in {"restated", "self_acknowledged_correct", "self_acknowledged_incorrect"}:

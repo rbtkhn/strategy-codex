@@ -12,27 +12,13 @@ _SCRIPTS = _REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from prediction.contracts import predictive_fingerprint  # noqa: E402
+from prediction.contracts import find_duplicate_fingerprints  # noqa: E402
 from prediction.registry_writer import REGISTRY_PATH, append_changelog, load_registry  # noqa: E402
 
 MACGREGOR_MERGE_CANDIDATES: dict[str, str] = {
     "ukraine_western_aid_prolongs_war": "ukraine_escalation_russian_capitulation",
     "nato_strategic_exposure_ukraine": "ukraine_escalation_russian_capitulation",
 }
-
-
-def find_duplicate_fingerprints(
-    events: dict[str, dict[str, Any]],
-) -> list[dict[str, Any]]:
-    by_fp: dict[tuple[str, ...], list[str]] = {}
-    for event_id, event in events.items():
-        fp = predictive_fingerprint(event_id, event)
-        by_fp.setdefault(fp, []).append(event_id)
-    dupes: list[dict[str, Any]] = []
-    for fp, ids in sorted(by_fp.items()):
-        if len(ids) > 1:
-            dupes.append({"fingerprint": fp, "event_ids": ids})
-    return dupes
 
 
 def compression_report(
@@ -107,9 +93,14 @@ def main() -> int:
 
     if args.apply:
         applied = apply_macgregor_deprecations(dry_run=False)
-        from prediction.registry_writer import compile_registry
+        from prediction.registry_writer import RegistryGateError, compile_registry
 
-        compile_registry()
+        try:
+            compile_registry()
+        except RegistryGateError as exc:
+            for err in exc.errors:
+                print(f"ERROR: {err}", file=sys.stderr)
+            return 1
         print(f"Deprecated {len(applied)} event(s) via changelog")
         return 0
 

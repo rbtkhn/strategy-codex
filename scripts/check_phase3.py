@@ -20,7 +20,7 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from prediction.compression_engine import find_duplicate_fingerprints  # noqa: E402
+from prediction.contracts import fingerprint_gate_errors  # noqa: E402
 from prediction.contracts import predictive_fingerprint  # noqa: E402
 from prediction.falsifier_validator import (  # noqa: E402
     run_falsifier_validator,
@@ -80,11 +80,7 @@ def check_fake_shifts(timeline: dict[str, Any]) -> list[str]:
 
 
 def check_event_inflation(events: dict[str, dict[str, Any]]) -> list[str]:
-    warnings: list[str] = []
-    for dupe in find_duplicate_fingerprints(events):
-        ids = dupe["event_ids"]
-        warnings.append(f"duplicate predictive fingerprint: {ids}")
-    return warnings
+    return fingerprint_gate_errors(events)
 
 
 def check_renderer_ssot(events: dict[str, dict[str, Any]]) -> list[str]:

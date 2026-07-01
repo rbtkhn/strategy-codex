@@ -10,8 +10,8 @@ SCRIPTS = REPO_ROOT / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-from prediction.compression_engine import compression_report, find_duplicate_fingerprints  # noqa: E402
-from prediction.contracts import predictive_fingerprint  # noqa: E402
+from prediction.compression_engine import compression_report  # noqa: E402
+from prediction.contracts import find_duplicate_fingerprints, predictive_fingerprint  # noqa: E402
 from prediction_lib import load_event_registry  # noqa: E402
 
 

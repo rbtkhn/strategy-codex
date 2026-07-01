@@ -13,10 +13,24 @@ _SCRIPTS = _REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from prediction.contracts import ISRAEL_CHILD_IDS, normalize_event_v4  # noqa: E402
+from prediction.contracts import (  # noqa: E402
+    ISRAEL_CHILD_IDS,
+    fingerprint_gate_errors,
+    normalize_event_v4,
+    upsert_fingerprint_collision,
+)
+from prediction.falsifier_validator import validate_falsifiers, validate_trajectory_v4  # noqa: E402
 
 REGISTRY_PATH = _REPO_ROOT / "statecraft" / "data" / "event-registry.json"
 CHANGELOG_PATH = _REPO_ROOT / "statecraft" / "data" / "event-registry-changelog.jsonl"
+
+
+class RegistryGateError(Exception):
+    """Compile or changelog upsert rejected by semantic gatekeeper."""
+
+    def __init__(self, errors: list[str]) -> None:
+        self.errors = errors
+        super().__init__("\n".join(errors))
 
 
 def load_registry(path: Path | None = None) -> dict[str, Any]:
@@ -36,14 +50,64 @@ def load_changelog(path: Path | None = None) -> list[dict[str, Any]]:
     return entries
 
 
+def expand_changelog_ops(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Flatten nested baseline bundles into executable ops."""
+    ops: list[dict[str, Any]] = []
+    for entry in entries:
+        op = str(entry.get("op") or "")
+        nested = entry.get("ops")
+        if op == "baseline_v4" and isinstance(nested, list):
+            ops.extend(nested)
+        elif op in {
+            "upsert_event",
+            "delete_event",
+            "migrate_israel_dimensions",
+            "normalize_all_v4",
+        }:
+            ops.append(entry)
+    return ops
+
+
+def validate_registry_gate(events: dict[str, dict[str, Any]]) -> list[str]:
+    """Semantic gatekeeper — falsifier, trajectory v4, fingerprint anti-splitting."""
+    errors: list[str] = []
+    fals_errors, _ = validate_falsifiers(events, strict=True)
+    errors.extend(fals_errors)
+    errors.extend(validate_trajectory_v4(events))
+    errors.extend(fingerprint_gate_errors(events))
+    return errors
+
+
+def validate_upsert_gate(
+    event_id: str,
+    event: dict[str, Any],
+    registry: dict[str, dict[str, Any]],
+) -> list[str]:
+    """Gate a single changelog upsert before append."""
+    normalized = normalize_event_v4(event_id, event)
+    errors = validate_registry_gate({event_id: normalized})
+    errors.extend(upsert_fingerprint_collision(event_id, event, registry))
+    return errors
+
+
 def append_changelog(
     op: str,
     payload: dict[str, Any],
     *,
     note: str = "",
     path: Path | None = None,
+    skip_gate: bool = False,
 ) -> dict[str, Any]:
     target = path or CHANGELOG_PATH
+    if op == "upsert_event" and not skip_gate:
+        event_id = str(payload.get("event_id") or "")
+        event = dict(payload.get("event") or {})
+        if not event_id:
+            raise RegistryGateError(["upsert_event missing event_id"])
+        registry = load_registry() if REGISTRY_PATH.is_file() else {}
+        upsert_errors = validate_upsert_gate(event_id, event, registry)
+        if upsert_errors:
+            raise RegistryGateError(upsert_errors)
     target.parent.mkdir(parents=True, exist_ok=True)
     entry = {
         "ts": datetime.now(timezone.utc).isoformat(),
@@ -69,6 +133,10 @@ def apply_ops(registry: dict[str, Any], ops: list[dict[str, Any]]) -> dict[str, 
         elif op == "migrate_israel_dimensions":
             parent_id = "israel_self_destruction_trajectory"
             parent = dict(out.get(parent_id) or {})
+            existing_dims = parent.get("dimensions") or []
+            has_children = any(child_id in out for child_id in ISRAEL_CHILD_IDS)
+            if existing_dims and not has_children:
+                continue
             dimensions: list[dict[str, Any]] = []
             for child_id in ISRAEL_CHILD_IDS:
                 child = out.pop(child_id, None)
@@ -101,13 +169,19 @@ def compile_registry(
     registry_path: Path | None = None,
     changelog_path: Path | None = None,
     write: bool = True,
+    skip_gate: bool = False,
 ) -> dict[str, Any]:
-    base = load_registry(registry_path) if (registry_path or REGISTRY_PATH).exists() else {}
-    ops = load_changelog(changelog_path)
+    reg_path = registry_path or REGISTRY_PATH
+    log_path = changelog_path or CHANGELOG_PATH
+    base = load_registry(reg_path) if reg_path.exists() else {}
+    ops = expand_changelog_ops(load_changelog(log_path))
     compiled = apply_ops(base, ops)
+    if not skip_gate:
+        gate_errors = validate_registry_gate(compiled)
+        if gate_errors:
+            raise RegistryGateError(gate_errors)
     if write:
-        target = registry_path or REGISTRY_PATH
-        target.write_text(
+        reg_path.write_text(
             json.dumps(compiled, indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",
         )
@@ -140,7 +214,13 @@ def main() -> int:
     args = parser.parse_args()
 
     if args.command == "compile":
-        compile_registry()
+        try:
+            compile_registry()
+        except RegistryGateError as exc:
+            for err in exc.errors:
+                print(f"ERROR: {err}", file=sys.stderr)
+            print(f"[fail] compile blocked by gatekeeper ({len(exc.errors)} error(s))", file=sys.stderr)
+            return 1
         print(f"Compiled {REGISTRY_PATH}")
         return 0
 
