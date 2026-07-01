@@ -27,6 +27,11 @@ STEPS: list[tuple[str, list[str]]] = [
         "check_multivoice_extraction",
         ["python3", "scripts/check_multivoice_extraction.py", "--advisory"],
     ),
+    ("build_epistemic_intelligence_core", ["python3", "scripts/build_epistemic_intelligence_core.py"]),
+    (
+        "check_epistemic_intelligence_core",
+        ["python3", "scripts/check_epistemic_intelligence_core.py", "--advisory"],
+    ),
     (
         "signal_extraction_engine",
         ["python3", "scripts/prediction/signal_extraction_engine.py"],

@@ -5187,3 +5187,66 @@ Cross-voice alignment scores become explicit before signal extraction — founda
 Routing: [event-system.md](../docs/statecraft/event-system.md) (PR7 section) · [run_multivoice_extraction.py](../scripts/prediction/run_multivoice_extraction.py) · RLJ [PR6](#2026-06-29---pr6-ablation-study-framework-heuristic-v1)
 
 ---
+
+## 2026-06-30 - PR8 epistemic intelligence core (heuristic v1)
+
+**Tag:** `voice-prediction` · `eic` · `sal` · `regime` · `unified-epistemic-state`  
+**Cross-link:** [§ PR7 MVEL](#2026-06-30---pr7-mvel-multi-voice-extraction-layer-heuristic-v1) — claim input SSOT; legacy signals unchanged.
+
+### Trigger
+
+Post-PR7 the stack had capture-map trajectories plus separate event-level signals and regime summary — uncertainty collapsed at MVEL hard align and never jointly reasoned with regime class.
+
+### Extracted law
+
+**1. Unified object per claim point**
+
+```text
+soft_align → project_trajectories → distributional signals → classify_regime
+interpretation: unified_epistemic_state
+artifact: runtime/artifacts/epistemic-intelligence-core.json
+```
+
+**2. SAL (soft alignment)**
+
+```text
+event_distribution[] from prediction_object_terms + capture-map prior 0.55
+alignment_entropy in nats — no single-event collapse
+```
+
+**3. Parallel compat**
+
+```text
+signal_extraction_engine + prediction-signals.json unchanged — PR3–PR6 / ablation
+rollup: epistemic-intelligence-events.json diagnostic only
+pipeline: after check_multivoice_extraction, before signal_extraction_engine
+```
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Core | `scripts/prediction/epistemic_intelligence_core.py` |
+| Build/check | `build_epistemic_intelligence_core.py` · `check_epistemic_intelligence_core.py --advisory` |
+| Schema | `epistemic-intelligence-core.schema.json` · `epistemic-intelligence-events.schema.json` |
+| Tests | `test_epistemic_intelligence_core.py` · `test_build_epistemic_intelligence_core.py` · `test_eic_pipeline.py` |
+
+### Guardrail
+
+```text
+Do not replace signal_extraction_engine in v1
+Do not wire EIC into PR4 dataset rows yet (PR8b/PR8c)
+Do not treat epistemic-intelligence-core.json as Record truth
+High alignment_entropy → WARN only, not ERROR
+```
+
+### Current lesson
+
+```text
+PR8 makes uncertainty a first-class primitive: each claim carries full event_distribution mass,
+joint trajectory signals, and regime label — without breaking the legacy event-level signal lane.
+```
+
+Routing: [event-system.md](../docs/statecraft/event-system.md) (PR8 section) · [epistemic_intelligence_core.py](../scripts/prediction/epistemic_intelligence_core.py) · RLJ [PR7](#2026-06-30---pr7-mvel-multi-voice-extraction-layer-heuristic-v1)
+
+---

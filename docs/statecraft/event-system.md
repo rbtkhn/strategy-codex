@@ -220,6 +220,27 @@ Capture-map–grounded **multi-voice trajectory extraction** — aligned probabi
 
 **Pipeline:** after semantic scores; before signal extraction. Checker: `check_multivoice_extraction.py --advisory`.
 
+### PR8 / EIC — epistemic intelligence core (heuristic v1)
+
+Unified **claim-grain** inference — soft alignment distribution, distributional trajectory signals, and regime label in one object per capture-map claim point.
+
+| Artifact | Role |
+| --- | --- |
+| `runtime/artifacts/epistemic-intelligence-core.json` | Per-claim `unified_epistemic_state` objects |
+| `runtime/artifacts/epistemic-intelligence-events.json` | Diagnostic event rollup (not wired to PR3–PR6 in v1) |
+
+**Soft alignment (SAL):** `event_distribution[]` from `prediction_object_terms` overlap + capture-map prior (`0.55` on PR7 `event_id`); `alignment_entropy` in nats — no hard single-event collapse.
+
+**Trajectory signals:** weighted `directional`, `volatility`, `drift` from MVEL projections; Macgregor high-semantic-entropy dampens volatility.
+
+**Regime labels:** `escalation` · `stabilization` · `fragmentation` · `convergence` · `transition` — inferred jointly from signals + distribution entropy.
+
+**Compat:** parallel advisory only — `prediction-signals.json` and `signal_extraction_engine` **unchanged** for PR3–PR6 / ablation.
+
+**Operator rule:** `interpretation: epistemic_intelligence_core`; `eic_source: heuristic_v1`; `registry_mutation: false` — not Record truth.
+
+**Pipeline:** after MVEL check; before signal extraction. Checker: `check_epistemic_intelligence_core.py --advisory`.
+
 ### Status vs record (shelf lane)
 
 | Layer | SSOT | Values |

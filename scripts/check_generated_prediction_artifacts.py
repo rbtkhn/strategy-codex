@@ -17,6 +17,7 @@ import build_epistemic_dataset  # noqa: E402
 import build_baseline_forecasts  # noqa: E402
 import build_ablation_study  # noqa: E402
 import build_multivoice_extraction  # noqa: E402
+import build_epistemic_intelligence_core  # noqa: E402
 import build_epistemic_generative_state  # noqa: E402
 import build_signal_prediction_tasks  # noqa: E402
 import build_prediction_disagreement  # noqa: E402
@@ -69,6 +70,9 @@ def main() -> int:
     )
     rc |= build_multivoice_extraction.check_artifact(
         dataset_path=build_multivoice_extraction.DEFAULT_DATASET,
+    )
+    rc |= build_epistemic_intelligence_core.check_artifact(
+        core_path=build_epistemic_intelligence_core.DEFAULT_CORE,
     )
 
     if rc == 0:

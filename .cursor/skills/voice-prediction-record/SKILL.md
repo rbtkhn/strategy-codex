@@ -4,7 +4,7 @@ description: 'Curate and rebuild a speaker prediction shelf from archive capture
 preferred_activation: voice prediction record
 activation: voice prediction record
 portable: true
-version: 0.3.0
+version: 0.3.1
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -229,7 +229,15 @@ Full orchestrator:
 python3 scripts/run_prediction_pipeline.py
 ```
 
-Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **PR7 MVEL** → **signal extraction** → **PR3 signal prediction tasks** → **ENGM** → **PR2 calibration loss** → **PR4 epistemic dataset** → **PR5 baseline forecasts** → **PR6 ablation study** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **PR7 MVEL** → **PR8 EIC** → **signal extraction** → **PR3 signal prediction tasks** → **ENGM** → **PR2 calibration loss** → **PR4 epistemic dataset** → **PR5 baseline forecasts** → **PR6 ablation study** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+
+**PR8 / EIC — epistemic intelligence core (advisory):**
+
+- **Read-only:** `epistemic-intelligence-core.json`, `epistemic-intelligence-events.json` — unified per-claim SAL + signals + regime objects.
+- **Parallel compat:** `prediction-signals.json` / `signal_extraction_engine` unchanged for PR3–PR6 and ablation.
+- **Not Record truth:** `interpretation: epistemic_intelligence_core`; `eic_source: heuristic_v1`; soft `event_distribution[]` preserves uncertainty.
+- **Pipeline placement:** after MVEL check, before signal extraction.
+- **Checker:** `python3 scripts/check_epistemic_intelligence_core.py --advisory`
 
 **PR7 / MVEL — multi-voice extraction (advisory):**
 

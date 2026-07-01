@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/epistemic-intelligence-core.schema.json",
+  "title": "Epistemic Intelligence Core artifact",
+  "type": "object",
+  "required": ["_meta", "interpretation", "objects"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source", "eic_source", "registry_mutation", "object_count"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" },
+        "eic_source": { "type": "string", "enum": ["heuristic_v1"] },
+        "registry_mutation": { "type": "boolean", "const": false },
+        "object_count": { "type": "integer", "minimum": 0 },
+        "high_entropy_object_count": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "interpretation": { "type": "string", "enum": ["epistemic_intelligence_core"] },
+    "objects": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/epistemicObject" }
+    }
+  },
+  "$defs": {
+    "epistemicObject": {
+      "type": "object",
+      "required": [
+        "voice",
+        "timestamp",
+        "claim",
+        "interpretation",
+        "event_distribution",
+        "trajectory_signals",
+        "regime",
+        "alignment_entropy"
+      ],
+      "properties": {
+        "voice": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "capture": { "type": "string" },
+        "claim": { "type": "string" },
+        "interpretation": { "type": "string", "enum": ["unified_epistemic_state"] },
+        "event_distribution": { "type": "array" },
+        "trajectory_signals": { "type": "object" },
+        "regime": { "type": "object" },
+        "alignment_entropy": { "type": "number" },
+        "primary_event_id": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

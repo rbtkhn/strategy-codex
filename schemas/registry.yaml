@@ -76,6 +76,16 @@ schemas:
     applies_to: runtime/artifacts/voice-trajectories-*.json
     format: json
     scope: prediction
+  epistemic_intelligence_core:
+    path: schemas/runtime/epistemic-intelligence-core.schema.json
+    applies_to: runtime/artifacts/epistemic-intelligence-core.json
+    format: json
+    scope: prediction
+  epistemic_intelligence_events:
+    path: schemas/runtime/epistemic-intelligence-events.schema.json
+    applies_to: runtime/artifacts/epistemic-intelligence-events.json
+    format: json
+    scope: prediction
 
   dream:
     path: schemas/runtime/dream.schema.json

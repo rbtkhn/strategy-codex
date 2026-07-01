@@ -54,6 +54,11 @@ def run_quick() -> int:
             ["python3", "scripts/check_multivoice_extraction.py", "--advisory"],
             "multivoice extraction (advisory)",
         ),
+        (["python3", "scripts/build_epistemic_intelligence_core.py"], "build epistemic intelligence core"),
+        (
+            ["python3", "scripts/check_epistemic_intelligence_core.py", "--advisory"],
+            "epistemic intelligence core (advisory)",
+        ),
         (["python3", "scripts/build_prediction_signals.py"], "build prediction signals"),
         (
             ["python3", "scripts/check_prediction_signals.py", "--advisory"],

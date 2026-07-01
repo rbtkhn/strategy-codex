@@ -335,6 +335,30 @@ entries:
         - '"do_not_edit"'
         - "build_multivoice_extraction.py"
 
+  - id: epistemic-intelligence-core-json
+    path: runtime/artifacts/epistemic-intelligence-core.json
+    category: generated
+    generator: scripts/build_epistemic_intelligence_core.py
+    check_args: ["--check"]
+    drift_group: prediction-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_epistemic_intelligence_core.py"
+
+  - id: epistemic-intelligence-events-json
+    path: runtime/artifacts/epistemic-intelligence-events.json
+    category: generated
+    generator: scripts/build_epistemic_intelligence_core.py
+    check_args: ["--check"]
+    drift_group: prediction-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_epistemic_intelligence_core.py"
+
   - id: freeman-predictions-md
     path: statecraft/voices/freeman/freeman-predictions.md
     category: generated
