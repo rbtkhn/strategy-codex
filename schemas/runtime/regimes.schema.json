@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/regimes.schema.json",
+  "title": "Episystem regimes artifact",
+  "type": "object",
+  "required": ["_meta", "interpretation", "global", "events"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source", "epistemic_source", "registry_mutation"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" },
+        "epistemic_source": { "type": "string", "enum": ["heuristic_v1"] },
+        "registry_mutation": { "type": "boolean", "const": false }
+      },
+      "additionalProperties": true
+    },
+    "interpretation": { "type": "string", "enum": ["epistemic_regimes"] },
+    "global": { "type": "object" },
+    "events": { "type": "object" }
+  }
+}

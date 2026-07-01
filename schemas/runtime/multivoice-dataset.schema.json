@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/multivoice-dataset.schema.json",
+  "title": "Episystem multivoice dataset export",
+  "type": "object",
+  "required": ["_meta", "interpretation"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source", "epistemic_source", "registry_mutation"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" },
+        "epistemic_source": { "type": "string", "enum": ["heuristic_v1"] },
+        "registry_mutation": { "type": "boolean", "const": false }
+      },
+      "additionalProperties": true
+    },
+    "interpretation": { "type": "string", "enum": ["multivoice_dataset"] },
+    "trajectories": { "type": "array" },
+    "alignment_audit": { "type": "object" },
+    "claims": { "type": "array" }
+  }
+}

@@ -50,6 +50,10 @@ Schema registry: [`docs/system/schema-system.md`](../system/schema-system.md).
 
 Event doctrine: [`event-system.md`](event-system.md).
 
+## Episystem (canonical inference)
+
+Single pipeline under `scripts/prediction/` writes `epistemic_state.json`, `signals.json`, `regimes.json`. PR1–PR6 evaluation stack and legacy MVEL/EIC/signal layers **retired** in episystem hard cut — re-evaluation deferred. See [event-system.md — Episystem canonical](event-system.md#episystem-canonical-single-epistemic-pipeline--heuristic-v1).
+
 ## Principle
 
 > Truth is defined by state and validation—not by labeling.

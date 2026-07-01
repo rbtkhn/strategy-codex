@@ -179,185 +179,53 @@ entries:
         - '"do_not_edit"'
         - "build_prediction_timeline.py"
 
-  - id: prediction-signals-json
-    path: runtime/artifacts/prediction-signals.json
+  - id: epistemic-state-json
+    path: runtime/artifacts/epistemic_state.json
     category: generated
-    generator: scripts/build_prediction_signals.py
+    generator: scripts/prediction/run_pipeline.py
     check_args: ["--check"]
     drift_group: prediction-artifacts
     header:
       type: json
       patterns:
         - '"do_not_edit"'
-        - "build_prediction_signals.py"
+        - "run_pipeline.py"
 
-  - id: prediction-regime-summary-json
-    path: runtime/artifacts/prediction-regime-summary.json
+  - id: signals-json
+    path: runtime/artifacts/signals.json
     category: generated
-    generator: scripts/build_prediction_regime_summary.py
+    generator: scripts/prediction/run_pipeline.py
     check_args: ["--check"]
     drift_group: prediction-artifacts
     header:
       type: json
       patterns:
         - '"do_not_edit"'
-        - "build_prediction_regime_summary.py"
+        - "run_pipeline.py"
 
-  - id: signal-prediction-tasks-json
-    path: runtime/artifacts/signal-prediction-tasks.json
+  - id: regimes-json
+    path: runtime/artifacts/regimes.json
     category: generated
-    generator: scripts/build_signal_prediction_tasks.py
+    generator: scripts/prediction/run_pipeline.py
     check_args: ["--check"]
     drift_group: prediction-artifacts
     header:
       type: json
       patterns:
         - '"do_not_edit"'
-        - "build_signal_prediction_tasks.py"
+        - "run_pipeline.py"
 
-  - id: epistemic-generative-state-json
-    path: runtime/artifacts/epistemic-generative-state.json
+  - id: multivoice-dataset-json
+    path: runtime/artifacts/multivoice_dataset.json
     category: generated
-    generator: scripts/build_epistemic_generative_state.py
+    generator: scripts/prediction/run_pipeline.py
     check_args: ["--check"]
     drift_group: prediction-artifacts
     header:
       type: json
       patterns:
         - '"do_not_edit"'
-        - "build_epistemic_generative_state.py"
-
-  - id: epistemic-calibration-loss-json
-    path: runtime/artifacts/epistemic-calibration-loss.json
-    category: generated
-    generator: scripts/build_epistemic_calibration_loss.py
-    check_args: ["--check"]
-    drift_group: prediction-artifacts
-    header:
-      type: json
-      patterns:
-        - '"do_not_edit"'
-        - "build_epistemic_calibration_loss.py"
-
-  - id: epistemic-dataset-json
-    path: runtime/artifacts/epistemic-dataset.json
-    category: generated
-    generator: scripts/build_epistemic_dataset.py
-    check_args: ["--check"]
-    drift_group: prediction-artifacts
-    header:
-      type: json
-      patterns:
-        - '"do_not_edit"'
-        - "build_epistemic_dataset.py"
-
-  - id: baseline-forecast-metrics-json
-    path: runtime/artifacts/baseline-forecast-metrics.json
-    category: generated
-    generator: scripts/build_baseline_forecasts.py
-    check_args: ["--check"]
-    drift_group: prediction-artifacts
-    header:
-      type: json
-      patterns:
-        - '"do_not_edit"'
-        - "build_baseline_forecasts.py"
-
-  - id: ablation-study-json
-    path: runtime/artifacts/ablation-study.json
-    category: generated
-    generator: scripts/build_ablation_study.py
-    check_args: ["--check"]
-    drift_group: prediction-artifacts
-    header:
-      type: json
-      patterns:
-        - '"do_not_edit"'
-        - "build_ablation_study.py"
-
-  - id: multivoice-extracted-dataset-json
-    path: runtime/artifacts/multivoice-extracted-dataset.json
-    category: generated
-    generator: scripts/build_multivoice_extraction.py
-    check_args: ["--check"]
-    drift_group: prediction-artifacts
-    header:
-      type: json
-      patterns:
-        - '"do_not_edit"'
-        - "build_multivoice_extraction.py"
-
-  - id: event-alignment-map-json
-    path: runtime/artifacts/event-alignment-map.json
-    category: generated
-    generator: scripts/build_multivoice_extraction.py
-    check_args: ["--check"]
-    drift_group: prediction-artifacts
-    header:
-      type: json
-      patterns:
-        - '"do_not_edit"'
-        - "build_multivoice_extraction.py"
-
-  - id: voice-trajectories-freeman-json
-    path: runtime/artifacts/voice-trajectories-freeman.json
-    category: generated
-    generator: scripts/build_multivoice_extraction.py
-    check_args: ["--check"]
-    drift_group: prediction-artifacts
-    header:
-      type: json
-      patterns:
-        - '"do_not_edit"'
-        - "build_multivoice_extraction.py"
-
-  - id: voice-trajectories-mercouris-json
-    path: runtime/artifacts/voice-trajectories-mercouris.json
-    category: generated
-    generator: scripts/build_multivoice_extraction.py
-    check_args: ["--check"]
-    drift_group: prediction-artifacts
-    header:
-      type: json
-      patterns:
-        - '"do_not_edit"'
-        - "build_multivoice_extraction.py"
-
-  - id: voice-trajectories-macgregor-json
-    path: runtime/artifacts/voice-trajectories-macgregor.json
-    category: generated
-    generator: scripts/build_multivoice_extraction.py
-    check_args: ["--check"]
-    drift_group: prediction-artifacts
-    header:
-      type: json
-      patterns:
-        - '"do_not_edit"'
-        - "build_multivoice_extraction.py"
-
-  - id: epistemic-intelligence-core-json
-    path: runtime/artifacts/epistemic-intelligence-core.json
-    category: generated
-    generator: scripts/build_epistemic_intelligence_core.py
-    check_args: ["--check"]
-    drift_group: prediction-artifacts
-    header:
-      type: json
-      patterns:
-        - '"do_not_edit"'
-        - "build_epistemic_intelligence_core.py"
-
-  - id: epistemic-intelligence-events-json
-    path: runtime/artifacts/epistemic-intelligence-events.json
-    category: generated
-    generator: scripts/build_epistemic_intelligence_core.py
-    check_args: ["--check"]
-    drift_group: prediction-artifacts
-    header:
-      type: json
-      patterns:
-        - '"do_not_edit"'
-        - "build_epistemic_intelligence_core.py"
+        - "run_pipeline.py"
 
   - id: freeman-predictions-md
     path: statecraft/voices/freeman/freeman-predictions.md

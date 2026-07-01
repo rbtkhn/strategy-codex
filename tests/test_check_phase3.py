@@ -12,7 +12,7 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 from check_phase3 import check_orphan_events  # noqa: E402
-from prediction.falsifier_validator import validate_falsifiers, validate_trajectory_v4  # noqa: E402
+from registry_pipeline.falsifier_validator import validate_falsifiers, validate_trajectory_v4  # noqa: E402
 from prediction_lib import load_event_registry  # noqa: E402
 
 
@@ -42,7 +42,7 @@ def test_invalid_falsifier_model_is_error_tier() -> None:
 
 
 def test_high_entropy_inferred_model_warns_not_errors() -> None:
-    from prediction.probabilistic_falsifier_engine import enrich_event_falsifiers
+    from registry_pipeline.probabilistic_falsifier_engine import enrich_event_falsifiers
 
     event_id = "high_entropy_stub"
     enriched, _ = enrich_event_falsifiers(event_id, {"question": "Opaque claim with no tags."})

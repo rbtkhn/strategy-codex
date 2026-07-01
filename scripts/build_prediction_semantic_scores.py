@@ -17,8 +17,8 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from prediction.compression_engine import compression_report  # noqa: E402
-from prediction.contracts import (  # noqa: E402
+from registry_pipeline.compression_engine import compression_report  # noqa: E402
+from registry_pipeline.contracts import (  # noqa: E402
     falsifier_confidence_from_entropy,
     falsifier_key_for_fingerprint,
     has_string_falsifier,

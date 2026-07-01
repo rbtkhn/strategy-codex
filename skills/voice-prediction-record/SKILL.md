@@ -4,7 +4,7 @@ description: "Curate and rebuild a speaker prediction shelf from archive capture
 preferred_activation: voice prediction record
 activation: voice prediction record
 portable: true
-version: 0.3.1
+version: 0.4.0
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -227,74 +227,17 @@ Full orchestrator:
 python3 scripts/run_prediction_pipeline.py
 ```
 
-Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **PR7 MVEL** → **PR8 EIC** → **signal extraction** → **PR3 signal prediction tasks** → **ENGM** → **PR2 calibration loss** → **PR4 epistemic dataset** → **PR5 baseline forecasts** → **PR6 ablation study** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **episystem** (`run_pipeline.py --write`) → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
 
-**PR8 / EIC — epistemic intelligence core (advisory):**
+**Episystem canonical (advisory):**
 
-- **Read-only:** `epistemic-intelligence-core.json`, `epistemic-intelligence-events.json` — unified per-claim SAL + signals + regime objects.
-- **Parallel compat:** `prediction-signals.json` / `signal_extraction_engine` unchanged for PR3–PR6 and ablation.
-- **Not Record truth:** `interpretation: epistemic_intelligence_core`; `eic_source: heuristic_v1`; soft `event_distribution[]` preserves uncertainty.
-- **Pipeline placement:** after MVEL check, before signal extraction.
-- **Checker:** `python3 scripts/check_epistemic_intelligence_core.py --advisory`
+- **Read-only:** `epistemic_state.json`, `signals.json`, `regimes.json` — single inference path (SAL + core + rollup).
+- **Optional export:** `multivoice_dataset.json` — trajectories + alignment audit.
+- **Not Record truth:** `interpretation: epistemic_state`; `epistemic_source: heuristic_v1`; `registry_mutation: false`.
+- **Pipeline placement:** after semantic scores, before voice shelf rebuild.
+- **Checkers:** `check_epistemic_pipeline.py --advisory` · `check_capture_map_epistemic.py --advisory` (capture-map recuration WARNs).
 
-**PR7 / MVEL — multi-voice extraction (advisory):**
-
-- **Read-only:** `multivoice-extracted-dataset.json`, `event-alignment-map.json`, `voice-trajectories-{speaker}.json` — capture-map trajectories with probabilistic projections.
-- **Not registry write:** unmatched claims → `event-alignment-map.json` review queue only; `registry_mutation: false`.
-- **Claim SSOT:** capture-map `public_excerpt` rows — not archive NLP in v1.
-- **Pipeline placement:** after semantic scores, before signal extraction.
-- **Checker:** `python3 scripts/check_multivoice_extraction.py --advisory`
-
-**PR6 / ablation study (advisory):**
-
-- **Read-only:** `ablation-study.json` — five in-process variants; Brier `performance_drop` vs full system.
-- **Not causal proof at low-N:** `interpretation: ablation_evaluation`; drops may be `null` when `test_probability_n < 5`.
-- **Pipeline placement:** after baseline forecasts check, before voice shelf rebuild.
-- **Checker:** `python3 scripts/check_ablation_study.py --advisory`
-
-**PR5 / baseline forecasts (advisory):**
-
-- **Read-only:** `baseline-forecast-metrics.json` — persistence, Bayesian, logistic-trend baselines vs ENGM on PR4 test split.
-- **Not training:** `interpretation: baseline_evaluation`; `baseline_source: heuristic_v1` — evaluation only; transformer deferred PR5b.
-- **Low-N:** WARN when test probability N &lt; 5 or no shift support — advisory, not ERROR.
-- **Pipeline placement:** after epistemic dataset check, before voice shelf rebuild.
-- **Checker:** `python3 scripts/check_baseline_forecasts.py --advisory`
-
-**PR4 / epistemic dataset (advisory):**
-
-- **Read-only:** `epistemic-dataset.json` — temporal train/test split with voice observations, latent features, censored outcomes.
-- **Not training:** `interpretation: ml_ready_dataset`; `dataset_source: heuristic_v1` — ML-ready generator, not fitted model.
-- **Pipeline placement:** after calibration loss check, before voice shelf rebuild.
-- **Checker:** `python3 scripts/check_epistemic_dataset.py --advisory`
-
-**PR3 / signal task system (advisory):**
-
-- **Read-only:** `signal-prediction-tasks.json` — supervised examples for regime shift, escalation delta, voice convergence.
-- **Not training:** `interpretation: supervised_task_space`; `task_source: heuristic_v1` — task target space for future tuning, not descriptive analytics alone.
-- **Pipeline placement:** after signal check, before ENGM.
-- **Checker:** `python3 scripts/check_signal_prediction_tasks.py --advisory`
-
-**PR2 / calibration loss (advisory):**
-
-- **Read-only:** `epistemic-calibration-loss.json` — unified `L` from prediction error, Brier, entropy misalignment, regime-shift delay.
-- **Resolved-only Brier:** `y_true` from registry `outcome`; `y_pred` from ENGM `event_probability`; low-N WARN when resolved count &lt; 5.
-- **Not training:** `interpretation: calibration_metric`; `calibration_source: heuristic_v1` — metric for future tuning, not Record truth.
-- **Pipeline placement:** after ENGM check, before voice shelf rebuild.
-- **Checker:** `python3 scripts/check_epistemic_calibration_loss.py --advisory`
-
-**ENGM / PR1 — epistemic generative model (advisory):**
-
-- **Read-only:** `epistemic-generative-state.json` — latent `Z_t` + voice-as-sensor softmax projections + `event_probability`.
-- **Not truth:** every event block labeled `interpretation: probabilistic_projection`; `inference_source: heuristic_v1`.
-- **Pipeline placement:** after signals, before voice shelf rebuild.
-- **Checker:** `python3 scripts/check_epistemic_generative_state.py --advisory`
-
-**Phase 4.5 — signal extraction (advisory):**
-
-- **Read-only:** derives `prediction-signals.json` + `prediction-regime-summary.json`; never writes registry.
-- **Effective model:** persisted `falsifier_model` or `inferred_view` at build time; explicit string `falsifier` on wire rows unchanged.
-- **Macgregor-safe:** high-entropy voices down-weighted in cross-voice alignment.
-- **Checker:** `python3 scripts/check_prediction_signals.py --advisory`
+**Retired (episystem hard cut):** PR7 MVEL, PR8 EIC, Phase 4.5 falsifier signals, PR1–PR6 evaluation — archived under `scripts/_archive/prediction-legacy/`. Re-build evaluation on canonical artifacts before restoring ablation/dataset metrics.
 
 **Phase 3.5 — falsifier doctrine:**
 

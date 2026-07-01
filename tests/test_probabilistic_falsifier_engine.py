@@ -10,13 +10,13 @@ SCRIPTS = REPO_ROOT / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-from prediction.contracts import (  # noqa: E402
+from registry_pipeline.contracts import (  # noqa: E402
     HIGH_ENTROPY_THRESHOLD,
     falsifier_key_for_fingerprint,
     predictive_fingerprint,
     validate_falsifier_model,
 )
-from prediction.probabilistic_falsifier_engine import (  # noqa: E402
+from registry_pipeline.probabilistic_falsifier_engine import (  # noqa: E402
     enrich_event_falsifiers,
     infer_falsifier_model,
     run_inference,

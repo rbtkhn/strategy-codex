@@ -10,65 +10,26 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 STEPS: list[tuple[str, list[str]]] = [
-    ("semantic_event_extractor", ["python3", "scripts/prediction/semantic_event_extractor.py"]),
-    ("compression_engine", ["python3", "scripts/prediction/compression_engine.py", "--check"]),
+    ("semantic_event_extractor", ["python3", "scripts/registry_pipeline/semantic_event_extractor.py"]),
+    ("compression_engine", ["python3", "scripts/registry_pipeline/compression_engine.py", "--check"]),
     (
         "probabilistic_falsifier_engine",
-        ["python3", "scripts/prediction/probabilistic_falsifier_engine.py", "--emit-review-queue"],
+        ["python3", "scripts/registry_pipeline/probabilistic_falsifier_engine.py", "--emit-review-queue"],
     ),
-    ("falsifier_validator", ["python3", "scripts/prediction/falsifier_validator.py"]),
-    ("registry_writer compile", ["python3", "scripts/prediction/registry_writer.py", "compile"]),
+    ("falsifier_validator", ["python3", "scripts/registry_pipeline/falsifier_validator.py"]),
+    ("registry_writer compile", ["python3", "scripts/registry_pipeline/registry_writer.py", "compile"]),
     ("build_prediction_registry", ["python3", "scripts/build_prediction_registry.py"]),
     ("build_prediction_timeline", ["python3", "scripts/build_prediction_timeline.py"]),
     ("build_prediction_disagreement", ["python3", "scripts/build_prediction_disagreement.py"]),
     ("build_prediction_semantic_scores", ["python3", "scripts/build_prediction_semantic_scores.py"]),
-    ("build_multivoice_extraction", ["python3", "scripts/build_multivoice_extraction.py"]),
+    ("episystem_run_pipeline", ["python3", "scripts/prediction/run_pipeline.py", "--write"]),
     (
-        "check_multivoice_extraction",
-        ["python3", "scripts/check_multivoice_extraction.py", "--advisory"],
-    ),
-    ("build_epistemic_intelligence_core", ["python3", "scripts/build_epistemic_intelligence_core.py"]),
-    (
-        "check_epistemic_intelligence_core",
-        ["python3", "scripts/check_epistemic_intelligence_core.py", "--advisory"],
+        "check_epistemic_pipeline",
+        ["python3", "scripts/check_epistemic_pipeline.py", "--advisory"],
     ),
     (
-        "signal_extraction_engine",
-        ["python3", "scripts/prediction/signal_extraction_engine.py"],
-    ),
-    (
-        "check_prediction_signals",
-        ["python3", "scripts/check_prediction_signals.py", "--advisory"],
-    ),
-    ("build_signal_prediction_tasks", ["python3", "scripts/build_signal_prediction_tasks.py"]),
-    (
-        "check_signal_prediction_tasks",
-        ["python3", "scripts/check_signal_prediction_tasks.py", "--advisory"],
-    ),
-    ("build_epistemic_generative_state", ["python3", "scripts/build_epistemic_generative_state.py"]),
-    (
-        "check_epistemic_generative_state",
-        ["python3", "scripts/check_epistemic_generative_state.py", "--advisory"],
-    ),
-    ("build_epistemic_calibration_loss", ["python3", "scripts/build_epistemic_calibration_loss.py"]),
-    (
-        "check_epistemic_calibration_loss",
-        ["python3", "scripts/check_epistemic_calibration_loss.py", "--advisory"],
-    ),
-    ("build_epistemic_dataset", ["python3", "scripts/build_epistemic_dataset.py"]),
-    (
-        "check_epistemic_dataset",
-        ["python3", "scripts/check_epistemic_dataset.py", "--advisory"],
-    ),
-    ("build_baseline_forecasts", ["python3", "scripts/build_baseline_forecasts.py"]),
-    (
-        "check_baseline_forecasts",
-        ["python3", "scripts/check_baseline_forecasts.py", "--advisory"],
-    ),
-    ("build_ablation_study", ["python3", "scripts/build_ablation_study.py"]),
-    (
-        "check_ablation_study",
-        ["python3", "scripts/check_ablation_study.py", "--advisory"],
+        "check_capture_map_epistemic",
+        ["python3", "scripts/check_capture_map_epistemic.py", "--advisory"],
     ),
     ("build_freeman_predictions", ["python3", "scripts/build_freeman_predictions.py"]),
     (

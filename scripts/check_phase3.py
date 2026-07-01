@@ -20,9 +20,9 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from prediction.contracts import fingerprint_gate_errors  # noqa: E402
-from prediction.contracts import predictive_fingerprint  # noqa: E402
-from prediction.falsifier_validator import (  # noqa: E402
+from registry_pipeline.contracts import fingerprint_gate_errors  # noqa: E402
+from registry_pipeline.contracts import predictive_fingerprint  # noqa: E402
+from registry_pipeline.falsifier_validator import (  # noqa: E402
     run_falsifier_validator,
     validate_trajectory_v4,
 )

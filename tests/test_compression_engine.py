@@ -10,8 +10,8 @@ SCRIPTS = REPO_ROOT / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-from prediction.compression_engine import compression_report  # noqa: E402
-from prediction.contracts import find_duplicate_fingerprints, predictive_fingerprint  # noqa: E402
+from registry_pipeline.compression_engine import compression_report  # noqa: E402
+from registry_pipeline.contracts import find_duplicate_fingerprints, predictive_fingerprint  # noqa: E402
 from prediction_lib import load_event_registry  # noqa: E402
 
 
@@ -30,7 +30,7 @@ def test_israel_trajectory_fingerprint_is_trajectory_type() -> None:
 
 
 def test_fingerprint_uses_falsifier_model_conditions() -> None:
-    from prediction.probabilistic_falsifier_engine import infer_falsifier_model
+    from registry_pipeline.probabilistic_falsifier_engine import infer_falsifier_model
 
     event_id = "model_fp_row"
     event = {"question": "Iran airpower trajectory?", "tags": ["iran"]}

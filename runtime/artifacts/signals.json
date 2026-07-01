@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "generated": true,
+    "do_not_edit": true,
+    "source": "scripts/prediction/run_pipeline.py",
+    "phase": "episystem-canonical",
+    "epistemic_source": "heuristic_v1",
+    "registry_mutation": false
+  },
+  "interpretation": "epistemic_signals",
+  "events": {
+    "china_tariff_capitulation_2025": {
+      "object_count": 5,
+      "mean_directional": 0.2587,
+      "mean_volatility": 0.0,
+      "mean_drift": 0.0,
+      "signal_source": "epistemic_core"
+    },
+    "gaza_ceasefire_holds_2025": {
+      "object_count": 2,
+      "mean_directional": 0.3862,
+      "mean_volatility": 0.0,
+      "mean_drift": 0.0,
+      "signal_source": "epistemic_core"
+    },
+    "gaza_hostage_deal_jan_2025": {
+      "object_count": 1,
+      "mean_directional": 0.4596,
+      "mean_volatility": 0.0,
+      "mean_drift": 0.0,
+      "signal_source": "epistemic_core"
+    },
+    "gulf_crisis_macro_shock": {
+      "object_count": 1,
+      "mean_directional": 0.6218,
+      "mean_volatility": 0.0,
+      "mean_drift": 0.0,
+      "signal_source": "epistemic_core"
+    },
+    "iran_airpower_cannot_force_submission": {
+      "object_count": 1,
+      "mean_directional": 0.3013,
+      "mean_volatility": 0.0,
+      "mean_drift": 0.0,
+      "signal_source": "epistemic_core"
+    },
+    "iran_great_power_direct_war_entry": {
+      "object_count": 2,
+      "mean_directional": 0.3386,
+      "mean_volatility": 0.125,
+      "mean_drift": 0.25,
+      "signal_source": "epistemic_core"
+    },
+    "israel_sabotages_exit_ramps": {
+      "object_count": 1,
+      "mean_directional": 0.75,
+      "mean_volatility": 0.0,
+      "mean_drift": 0.0,
+      "signal_source": "epistemic_core"
+    },
+    "israel_self_destruction_trajectory": {
+      "object_count": 15,
+      "mean_directional": 0.5199,
+      "mean_volatility": 0.0,
+      "mean_drift": 0.0,
+      "signal_source": "epistemic_core"
+    },
+    "nato_strategic_exposure_ukraine": {
+      "object_count": 1,
+      "mean_directional": 0.75,
+      "mean_volatility": 0.0,
+      "mean_drift": 0.0,
+      "signal_source": "epistemic_core"
+    },
+    "ukraine_escalation_russian_capitulation": {
+      "object_count": 7,
+      "mean_directional": 0.2516,
+      "mean_volatility": 0.0,
+      "mean_drift": 0.0,
+      "signal_source": "epistemic_core"
+    },
+    "ukraine_western_aid_prolongs_war": {
+      "object_count": 1,
+      "mean_directional": 0.6118,
+      "mean_volatility": 0.0,
+      "mean_drift": 0.0,
+      "signal_source": "epistemic_core"
+    },
+    "us_forward_presence_obsolete": {
+      "object_count": 1,
+      "mean_directional": 0.75,
+      "mean_volatility": 0.0,
+      "mean_drift": 0.0,
+      "signal_source": "epistemic_core"
+    },
+    "us_israel_iran_war_preparation_2025": {
+      "object_count": 10,
+      "mean_directional": 0.4764,
+      "mean_volatility": 0.0,
+      "mean_drift": 0.0,
+      "signal_source": "epistemic_core"
+    }
+  }
+}

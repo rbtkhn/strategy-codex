@@ -25,65 +25,27 @@ schemas:
     format: json
     scope: prediction
 
-  prediction_signals:
-    path: schemas/runtime/prediction-signals.schema.json
-    applies_to: runtime/artifacts/prediction-signals.json
+  epistemic_state:
+    path: schemas/runtime/epistemic-state.schema.json
+    applies_to: runtime/artifacts/epistemic_state.json
     format: json
     scope: prediction
 
-  prediction_regime_summary:
-    path: schemas/runtime/prediction-regime-summary.schema.json
-    applies_to: runtime/artifacts/prediction-regime-summary.json
+  epistemic_signals:
+    path: schemas/runtime/signals.schema.json
+    applies_to: runtime/artifacts/signals.json
     format: json
     scope: prediction
 
-  epistemic_generative_state:
-    path: schemas/runtime/epistemic-generative-state.schema.json
-    applies_to: runtime/artifacts/epistemic-generative-state.json
-  epistemic_calibration_loss:
-    path: schemas/runtime/epistemic-calibration-loss.schema.json
-    applies_to: runtime/artifacts/epistemic-calibration-loss.json
-  signal_prediction_tasks:
-    path: schemas/runtime/signal-prediction-tasks.schema.json
-    applies_to: runtime/artifacts/signal-prediction-tasks.json
-  epistemic_dataset:
-    path: schemas/runtime/epistemic-dataset.schema.json
-    applies_to: runtime/artifacts/epistemic-dataset.json
+  epistemic_regimes:
+    path: schemas/runtime/regimes.schema.json
+    applies_to: runtime/artifacts/regimes.json
     format: json
     scope: prediction
-  baseline_forecast_metrics:
-    path: schemas/runtime/baseline-forecast-metrics.schema.json
-    applies_to: runtime/artifacts/baseline-forecast-metrics.json
-    format: json
-    scope: prediction
-  ablation_study:
-    path: schemas/runtime/ablation-study.schema.json
-    applies_to: runtime/artifacts/ablation-study.json
-    format: json
-    scope: prediction
-  multivoice_extracted_dataset:
-    path: schemas/runtime/multivoice-extracted-dataset.schema.json
-    applies_to: runtime/artifacts/multivoice-extracted-dataset.json
-    format: json
-    scope: prediction
-  event_alignment_map:
-    path: schemas/runtime/event-alignment-map.schema.json
-    applies_to: runtime/artifacts/event-alignment-map.json
-    format: json
-    scope: prediction
-  voice_trajectories:
-    path: schemas/runtime/voice-trajectories.schema.json
-    applies_to: runtime/artifacts/voice-trajectories-*.json
-    format: json
-    scope: prediction
-  epistemic_intelligence_core:
-    path: schemas/runtime/epistemic-intelligence-core.schema.json
-    applies_to: runtime/artifacts/epistemic-intelligence-core.json
-    format: json
-    scope: prediction
-  epistemic_intelligence_events:
-    path: schemas/runtime/epistemic-intelligence-events.schema.json
-    applies_to: runtime/artifacts/epistemic-intelligence-events.json
+
+  multivoice_dataset:
+    path: schemas/runtime/multivoice-dataset.schema.json
+    applies_to: runtime/artifacts/multivoice_dataset.json
     format: json
     scope: prediction
 

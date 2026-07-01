@@ -12,7 +12,7 @@ SCRIPTS = REPO_ROOT / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-from prediction.registry_writer import (  # noqa: E402
+from registry_pipeline.registry_writer import (  # noqa: E402
     RegistryGateError,
     append_changelog,
     compile_registry,
@@ -73,7 +73,7 @@ def test_inferred_model_only_passes_compile_gate() -> None:
         "resolution_criteria": "Operator resolves.",
         "status": "open",
     }
-    from prediction.probabilistic_falsifier_engine import enrich_event_falsifiers
+    from registry_pipeline.probabilistic_falsifier_engine import enrich_event_falsifiers
 
     enriched, _ = enrich_event_falsifiers(event_id, event)
     errors, _ = validate_registry_gate({event_id: enriched})

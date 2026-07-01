@@ -4596,7 +4596,7 @@ compile gatekeeper closes the largest post-hoc CI gap — changelog upserts fail
 Rev. 3 child-event tree model is retired narrow; cross-voice joins stay parent + dimension annotations.
 ```
 
-Routing: [event-system.md](../docs/statecraft/event-system.md) · [voice-prediction-record skill](../skills/voice-prediction-record/SKILL.md) · [registry_writer.py](../scripts/prediction/registry_writer.py) · [check_phase3.py](../scripts/check_phase3.py) · [run_prediction_pipeline.py](../scripts/run_prediction_pipeline.py) · RLJ [rev. 3](#2026-06-29---voice-prediction-rev-3-plan-registry--voices--cross-voice--notes-lane-enrollment) (superseded narrow on child events)
+Routing: [event-system.md](../docs/statecraft/event-system.md) · [voice-prediction-record skill](../skills/voice-prediction-record/SKILL.md) · [registry_writer.py](../scripts/registry_pipeline/registry_writer.py) · [check_phase3.py](../scripts/check_phase3.py) · [run_prediction_pipeline.py](../scripts/run_prediction_pipeline.py) · RLJ [rev. 3](#2026-06-29---voice-prediction-rev-3-plan-registry--voices--cross-voice--notes-lane-enrollment) (superseded narrow on child events)
 
 **Pattern promotion:** defer until Phase 3b extractor produces `event-candidates.json` rows that compile through gatekeeper without new law beyond (2)(4).
 
@@ -4684,7 +4684,7 @@ registry stays string-falsifier SSOT for wire rows; inference and signals are la
 Compression review_merge is operator law, not fingerprint law — reject when falsifiers differ even from one interview.
 ```
 
-Routing: [event-system.md](../docs/statecraft/event-system.md) (v4.5 + Phase 4.5) · [review-queue.md](predictions/review-queue.md) · [signal_extraction_engine.py](../scripts/prediction/signal_extraction_engine.py) · [compression_engine.py](../scripts/prediction/compression_engine.py) · RLJ [Phase 3 gatekeeper](#2026-06-29---phase-3-semantic-layer-dimensions-only-trajectories--compile-gatekeeper)
+Routing: [event-system.md](../docs/statecraft/event-system.md) (v4.5 + Phase 4.5) · [review-queue.md](predictions/review-queue.md) · [signal_extraction_engine.py](../scripts/prediction/signal_extraction_engine.py) · [compression_engine.py](../scripts/registry_pipeline/compression_engine.py) · RLJ [Phase 3 gatekeeper](#2026-06-29---phase-3-semantic-layer-dimensions-only-trajectories--compile-gatekeeper)
 
 **Pattern promotion:** defer until a second advisory consumer (weekly brief or cross-voice matrix) reads `prediction-signals.json` without new join law beyond effective `inferred_view`.
 
@@ -5248,5 +5248,40 @@ joint trajectory signals, and regime label — without breaking the legacy event
 ```
 
 Routing: [event-system.md](../docs/statecraft/event-system.md) (PR8 section) · [epistemic_intelligence_core.py](../scripts/prediction/epistemic_intelligence_core.py) · RLJ [PR7](#2026-06-30---pr7-mvel-multi-voice-extraction-layer-heuristic-v1)
+
+---
+
+## 2026-06-30 — Episystem canonicalization (single epistemic pipeline)
+
+**Intent:** Collapse PR7 MVEL, PR8 EIC, Phase 4.5 falsifier signals, and PR1–PR6 evaluation into one deterministic inference path under `scripts/prediction/` (three modules only).
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Core | `soft_alignment.py` · `epistemic_core.py` · `run_pipeline.py` |
+| Registry lane | `scripts/registry_pipeline/` (contracts, falsifier, compression, semantic extractor) |
+| Artifacts | `epistemic_state.json` · `signals.json` · `regimes.json` · optional `multivoice_dataset.json` |
+| Advisory | `check_epistemic_pipeline.py` · `check_capture_map_epistemic.py` |
+| Archive | `scripts/_archive/prediction-legacy/` |
+
+### Guardrail
+
+```text
+Hard cut — no compat shims for prediction-signals.json or epistemic-intelligence-core.json
+PR4–PR6 evaluation retired until rebuilt on canonical artifacts
+Do not treat epistemic_state.json as Record truth
+High alignment_entropy → WARN via capture-map advisory, not ERROR
+```
+
+### Current lesson
+
+```text
+One fixed point beats parallel stacks: capture-map prior → SAL distribution → trajectory signals →
+regime label → event rollup. Recuration backlog (e.g. Freeman Jan-14 host excerpt) surfaces as
+entropy/fragmentation WARNs — fix the map, re-run pipeline.
+```
+
+Routing: [event-system.md](../docs/statecraft/event-system.md#episystem-canonical-single-epistemic-pipeline--heuristic-v1) · [run_pipeline.py](../scripts/prediction/run_pipeline.py)
 
 ---

@@ -12,20 +12,12 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-import build_epistemic_calibration_loss  # noqa: E402
-import build_epistemic_dataset  # noqa: E402
-import build_baseline_forecasts  # noqa: E402
-import build_ablation_study  # noqa: E402
-import build_multivoice_extraction  # noqa: E402
-import build_epistemic_intelligence_core  # noqa: E402
-import build_epistemic_generative_state  # noqa: E402
-import build_signal_prediction_tasks  # noqa: E402
 import build_prediction_disagreement  # noqa: E402
 import build_prediction_metrics  # noqa: E402
 import build_prediction_registry  # noqa: E402
-import build_prediction_regime_summary  # noqa: E402
-import build_prediction_signals  # noqa: E402
 import build_prediction_timeline  # noqa: E402
+from prediction.run_pipeline import check_artifacts  # noqa: E402
+
 
 def main() -> int:
     rc = build_prediction_registry.check_artifact(
@@ -43,41 +35,12 @@ def main() -> int:
         output_path=build_prediction_timeline.DEFAULT_OUTPUT,
         registry_path=build_prediction_timeline.DEFAULT_REGISTRY,
     )
-    rc |= build_prediction_signals.check_artifact(
-        output_path=build_prediction_signals.DEFAULT_OUTPUT,
-    )
-    rc |= build_prediction_regime_summary.check_artifact(
-        output_path=build_prediction_regime_summary.DEFAULT_OUTPUT,
-        signals_path=build_prediction_regime_summary.DEFAULT_SIGNALS,
-    )
-    rc |= build_signal_prediction_tasks.check_artifact(
-        output_path=build_signal_prediction_tasks.DEFAULT_OUTPUT,
-    )
-    rc |= build_epistemic_generative_state.check_artifact(
-        output_path=build_epistemic_generative_state.DEFAULT_OUTPUT,
-    )
-    rc |= build_epistemic_calibration_loss.check_artifact(
-        output_path=build_epistemic_calibration_loss.DEFAULT_OUTPUT,
-    )
-    rc |= build_epistemic_dataset.check_artifact(
-        output_path=build_epistemic_dataset.DEFAULT_OUTPUT,
-    )
-    rc |= build_baseline_forecasts.check_artifact(
-        output_path=build_baseline_forecasts.DEFAULT_OUTPUT,
-    )
-    rc |= build_ablation_study.check_artifact(
-        output_path=build_ablation_study.DEFAULT_OUTPUT,
-    )
-    rc |= build_multivoice_extraction.check_artifact(
-        dataset_path=build_multivoice_extraction.DEFAULT_DATASET,
-    )
-    rc |= build_epistemic_intelligence_core.check_artifact(
-        core_path=build_epistemic_intelligence_core.DEFAULT_CORE,
-    )
+    rc |= check_artifacts()
 
     if rc == 0:
         print("[ok] generated prediction artifacts are fresh")
     return rc
+
 
 if __name__ == "__main__":
     raise SystemExit(main())

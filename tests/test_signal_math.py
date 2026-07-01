@@ -9,7 +9,7 @@ SCRIPTS = Path(__file__).resolve().parents[1] / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-from prediction.signal_math import (  # noqa: E402
+from registry_pipeline.signal_math import (  # noqa: E402
     cosine_similarity,
     detect_step_change,
     drift_vector,

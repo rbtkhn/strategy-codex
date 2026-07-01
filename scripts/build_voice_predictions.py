@@ -21,7 +21,7 @@ from prediction_lib import (  # noqa: E402
     REPO_ROOT as LIB_ROOT,
     load_event_registry,
 )
-from prediction.contracts import falsifier_confidence_from_entropy  # noqa: E402
+from registry_pipeline.contracts import falsifier_confidence_from_entropy  # noqa: E402
 from voice_prediction_pilot import (  # noqa: E402
     VoiceConfig,
     derive_record,

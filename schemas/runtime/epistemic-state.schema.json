@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/epistemic-state.schema.json",
+  "title": "Episystem epistemic_state artifact",
+  "type": "object",
+  "required": ["_meta", "interpretation", "objects"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": [
+        "generated",
+        "do_not_edit",
+        "source",
+        "epistemic_source",
+        "registry_mutation",
+        "object_count"
+      ],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" },
+        "epistemic_source": { "type": "string", "enum": ["heuristic_v1"] },
+        "registry_mutation": { "type": "boolean", "const": false },
+        "object_count": { "type": "integer", "minimum": 0 },
+        "high_entropy_object_count": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "interpretation": { "type": "string", "enum": ["epistemic_state"] },
+    "objects": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/epistemicObject" }
+    }
+  },
+  "$defs": {
+    "epistemicObject": {
+      "type": "object",
+      "required": [
+        "voice",
+        "timestamp",
+        "claim",
+        "interpretation",
+        "capture_map_event_id",
+        "event_distribution",
+        "trajectory_signals",
+        "regime",
+        "alignment_entropy"
+      ],
+      "properties": {
+        "voice": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "capture": { "type": "string" },
+        "claim": { "type": "string" },
+        "interpretation": { "type": "string", "enum": ["unified_epistemic_state"] },
+        "capture_map_event_id": { "type": "string" },
+        "event_distribution": { "type": "array" },
+        "trajectory_signals": { "type": "object" },
+        "regime": { "type": "object" },
+        "alignment_entropy": { "type": "number" },
+        "primary_event_id": { "type": ["string", "null"] },
+        "stance": { "type": "string" },
+        "quote_speaker": { "type": "string" },
+        "public_display": { "type": "boolean" }
+      }
+    }
+  }
+}

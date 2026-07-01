@@ -52,7 +52,7 @@ A **prediction note** lives under [`statecraft/notes/predictions/`](../../statec
 
 **Retired (v4):** `parent_event_id`, `child_event_ids` — presence is **ERROR** in `check_event_registry.py` / `check_phase3.py`.
 
-**Changelog:** append-only [`statecraft/data/event-registry-changelog.jsonl`](../../statecraft/data/event-registry-changelog.jsonl); compile via `python3 scripts/prediction/registry_writer.py compile`.
+**Changelog:** append-only [`statecraft/data/event-registry-changelog.jsonl`](../../statecraft/data/event-registry-changelog.jsonl); compile via `python3 scripts/registry_pipeline/registry_writer.py compile`.
 
 **Capture map:** trajectory parent rows use optional `dimension` (non-registry pointer), not `child_event_id`.
 
@@ -71,175 +71,42 @@ A **prediction note** lives under [`statecraft/notes/predictions/`](../../statec
 
 **Pipeline:** `probabilistic_falsifier_engine` runs before `registry_writer compile` (in-memory enrich). Advisory scores: `runtime/artifacts/prediction-semantic-scores.json`.
 
-### v4.5 signal layer (Phase 4.5 — directional intelligence)
+### Episystem canonical (single epistemic pipeline — heuristic v1)
 
-Read-only derived view — **does not** mutate registry, falsifier models, or ERROR-tier CI.
+**Supersedes** parallel PR7 MVEL, PR8 EIC, Phase 4.5 `signal_extraction_engine`, and PR1–PR6 evaluation stack (retired pending re-build on canonical artifacts).
+
+| Module | Role |
+| --- | --- |
+| `scripts/prediction/soft_alignment.py` | SAL — sole alignment authority (`event_distribution[]` + `alignment_entropy` nats) |
+| `scripts/prediction/epistemic_core.py` | Claim intake → probabilities → trajectories → signals → regime |
+| `scripts/prediction/run_pipeline.py` | Orchestrator — writes canonical artifacts; `--check` drift gate |
 
 | Artifact | Role |
 | --- | --- |
-| `runtime/artifacts/prediction-signals.json` | Per-event directional signals from effective probability snapshots |
-| `runtime/artifacts/prediction-regime-summary.json` | Aggregated system-level escalation / alignment / regime-shift summary |
+| `runtime/artifacts/epistemic_state.json` | Per-claim `unified_epistemic_state` objects (`capture_map_event_id` + SAL `primary_event_id`) |
+| `runtime/artifacts/signals.json` | Event-level signal rollup from `epistemic_core` |
+| `runtime/artifacts/regimes.json` | Event + global regime summary |
+| `runtime/artifacts/multivoice_dataset.json` | Optional export — trajectories + alignment audit |
 
-**Effective distribution:** persisted `falsifier_model` when present; otherwise `inferred_view` via `probabilistic_falsifier_engine` at signal-build time only.
+**Claim SSOT:** capture-map `public_excerpt_raw` rows via `voice_prediction_pilot` — not archive NLP scan.
 
-**Signal types:** `directional` · `convergence` · `divergence` · `regime_shift` · `saturation` — advisory; cross-voice alignment uses entropy-weighted cosine similarity (Macgregor high-entropy voices down-weighted).
+**Soft alignment (SAL):** `prediction_object_terms` overlap + capture-map prior (`0.55` on row `event_id`); `alignment_entropy` in nats — no hard single-event collapse.
 
-**Pipeline:** after timeline, disagreement, and semantic scores; before voice shelf rebuild. Checker: `check_prediction_signals.py --advisory`.
+**Trajectory signals:** weighted `directional`, `volatility`, `drift`; Macgregor high-semantic-entropy dampens volatility.
 
-### PR3 / signal task system (predictive tasks — heuristic v1)
+**Regime labels:** `escalation` · `stabilization` · `fragmentation` · `convergence` · `transition`.
 
-Reframes Phase 4.5 signals as **supervised task features** — not descriptive analytics alone.
+**Registry / falsifier gate:** relocated to `scripts/registry_pipeline/` — unchanged operator compile path.
 
-| Artifact | Role |
-| --- | --- |
-| `runtime/artifacts/signal-prediction-tasks.json` | Labeled examples + stub predictions for regime shift, escalation delta, voice convergence |
+**Operator rule:** `interpretation: epistemic_state`; `epistemic_source: heuristic_v1`; `registry_mutation: false` — not Record truth.
 
-**Tasks:** `regime_shift` · `delta` (P_t → P_future) · `convergence` (freeman / mercouris / macgregor)
+**Pipeline:** after semantic scores → `run_pipeline.py --write` → `check_epistemic_pipeline.py --advisory` → `check_capture_map_epistemic.py --advisory` → voice shelves.
 
-**Label structure:** `event_id`, `anchor_date`, `time_offset` (default 30d), `signal_vector` (5-dim), `future_outcome`, `predicted_outcome` — every example requires `interpretation: supervised_task_example`.
+**Capture-map recuration signals (advisory):** high `alignment_entropy` (&gt; 1.2 nats), `fragmentation` regime, host-heavy excerpt vs `stance: yes`, hidden rows load-bearing — WARN only; fix via capture-map edit → re-run pipeline.
 
-**Signal vector dims:** `confidence` · `cross_voice_alignment` · `drift_tail_mean` · `regime_shift_detected` · `entropy_score`
+### Retired evaluation stack (PR1–PR6, legacy signals — archived)
 
-**Operator rule:** top-level `interpretation: supervised_task_space`; `task_source: heuristic_v1` — not ML training output, not Record truth. Labels from timeline anchors only.
-
-**Pipeline:** after signal check; before ENGM. Checker: `check_signal_prediction_tasks.py --advisory`.
-
-### ENGM / PR1 (epistemic narrative generative model — heuristic v1)
-
-Read-only latent-variable view — **voices are stochastic sensors**, not truth generators. **Does not** mutate registry or replace signal layer.
-
-| Artifact | Role |
-| --- | --- |
-| `runtime/artifacts/epistemic-generative-state.json` | Shared latent `Z_t` + per-event `event_probability` + per-voice softmax projections |
-
-**Latent dims (n=4):** `geopolitical_tension` · `regime_stability` · `alliance_coherence` · `escalation_pressure` — heuristic mapping from regime summary + signals (`inference_source: heuristic_v1`).
-
-**Observation model:** `P(observation_class | Z, v) = softmax(W_v · Z + bias_v)` for `affirm_escalation` / `affirm_deescalation` / `withhold`. Macgregor high-entropy sensor down-weight (reuse 4.5).
-
-**Operator rule:** all event blocks require `interpretation: probabilistic_projection`; probabilities clamped `[0.02, 0.98]` — never mirror registry `outcome` as deterministic truth.
-
-**Pipeline:** after signal extraction check; before voice shelves. Checker: `check_epistemic_generative_state.py --advisory`.
-
-### PR2 / calibration loss (epistemic calibration — heuristic v1)
-
-Read-only **evaluation metric** — scores system quality for future tuning; **does not** train weights, mutate registry, or claim Record truth.
-
-| Artifact | Role |
-| --- | --- |
-| `runtime/artifacts/epistemic-calibration-loss.json` | Unified loss `L` + per-event components |
-
-**Loss (heuristic v1):** `L = α·prediction_error + β·brier_score + γ·entropy_misalignment + δ·regime_shift_delay` (default weights 0.35 / 0.35 / 0.15 / 0.15).
-
-**Ground truth:** Brier and prediction error on **resolved registry events only** (`outcome` yes/no → `y_true`; ENGM `event_probability` → `y_pred`). Low-N advisory when resolved count &lt; 5 — WARN only, not ERROR.
-
-**Entropy misalignment:** `|H(predicted) − H(observed)|` from pooled ENGM observation probs vs timeline stance histogram; optional overconfidence nudge on resolved wrong-direction calls.
-
-**Regime shift delay:** timeline `shifts` vs current signal/regime flags (stub — no historical signal snapshots).
-
-**Operator rule:** top-level `interpretation: calibration_metric`; `calibration_source: heuristic_v1` — not optimization output, not deterministic truth.
-
-**Pipeline:** after ENGM check; before voice shelves. Checker: `check_epistemic_calibration_loss.py --advisory`.
-
-### PR4 / epistemic dataset (ML-ready generator — heuristic v1)
-
-Reproducible **train/test dataset** from the full epistemic stack — **does not** train models or mutate registry.
-
-| Artifact | Role |
-| --- | --- |
-| `runtime/artifacts/epistemic-dataset.json` | Temporally split rows (`train` / `test`) with voice observations, latent features, task labels |
-
-**Row grain:** one row per `event_id × anchor_date` — PR3 task labels consolidated in `task_labels`.
-
-**Temporal split:** `train` when `anchor_date < T`; `test` when `anchor_date ≥ T` (default `T = 2026-01-01`). Prevents hindsight leakage via `outcome_censored`: registry `outcome` only when `resolved_date ≤ anchor_date`.
-
-**Guarantees:** registry falsifier gate (dedup policy); compression checked in pipeline; `falsifier_model_snapshot` in-row only when missing — never registry write.
-
-**Operator rule:** `interpretation: ml_ready_dataset`; `dataset_source: heuristic_v1` — generator only, not trained model output.
-
-**Pipeline:** after calibration loss check; before voice shelves. Checker: `check_epistemic_dataset.py --advisory`.
-
-### PR5 / baseline forecasts (evaluation — heuristic v1)
-
-Statistical **baseline comparison** against ENGM — answers whether the epistemic stack beats naive probabilistic models.
-
-| Artifact | Role |
-| --- | --- |
-| `runtime/artifacts/baseline-forecast-metrics.json` | Brier, accuracy, ECE, regime F1 per baseline on test split |
-
-**Baselines (v1):** persistence (`P_{t+1}=P_t`); Beta–Bernoulli Bayesian update from voice stances; logistic trend on anchor time; transformer **deferred PR5b**.
-
-**System reference:** ENGM `event_probability` — not a baseline; scored in `comparison.system_minus_persistence`.
-
-**Evaluation lanes:** probability metrics on uncensored `outcome` rows only; regime F1 on all test rows vs `task_labels.regime_shift`.
-
-**Low-N advisory:** WARN when `test_probability_n < 5` or `test_shift_support < 1` — current corpus is structurally valid but not yet discriminative.
-
-**Operator rule:** `interpretation: baseline_evaluation`; `baseline_source: heuristic_v1` — evaluation only, not trained model output.
-
-**Pipeline:** after epistemic dataset check; before voice shelves. Checker: `check_baseline_forecasts.py --advisory`.
-
-### PR6 / ablation study (subsystem contribution — heuristic v1)
-
-In-process **ablation evaluation** — measures Brier `performance_drop` when each subsystem is disabled vs full stack.
-
-| Artifact | Role |
-| --- | --- |
-| `runtime/artifacts/ablation-study.json` | Per-variant core + structural metrics; `drops[]` with Brier delta |
-
-**Variants (v1):** full; no_compression; no_falsifier_model; no_signal_extraction; no_disagreement_graph.
-
-**Drop metric:** `performance_drop = variant.brier - full.brier` (positive = subsystem contributes; variant worse when disabled).
-
-**Structural diagnostics:** entropy stability, graph coherence, cross-voice alignment mean — not used for drop scalar in v1.
-
-**Low-N advisory:** WARN when `test_probability_n < 5` — drops may be `null` with `"note": "low_n"`.
-
-**Operator rule:** `interpretation: ablation_evaluation`; `ablation_source: heuristic_v1` — no registry mutation, no subprocess pipeline reruns.
-
-**Pipeline:** after baseline forecasts check; before voice shelves. Checker: `check_ablation_study.py --advisory`.
-
-### PR7 / MVEL — multi-voice extraction layer (heuristic v1)
-
-Capture-map–grounded **multi-voice trajectory extraction** — aligned probabilistic claim paths over shared events.
-
-| Artifact | Role |
-| --- | --- |
-| `runtime/artifacts/multivoice-extracted-dataset.json` | Combined cross-voice trajectories |
-| `runtime/artifacts/event-alignment-map.json` | Matched + unmatched (review queue) audit |
-| `runtime/artifacts/voice-trajectories-{speaker}.json` | Per-voice trajectory slices |
-
-**Claim SSOT:** curated capture-map `public_excerpt` rows — not archive NLP sentence scan.
-
-**Alignment:** validate `event_id` against registry; optional `prediction_object_terms` fallback; **unmatched → review queue only** — no registry mutation.
-
-**Probabilities:** heuristic v1 stance map (`yes→0.75`, `no→0.25`, …) + speech_act confidence; clamped `[0.02, 0.98]`.
-
-**Cross-voice:** `alignment_score` via entropy-weighted cosine on latest per-voice probabilities; Macgregor down-weight at high entropy.
-
-**Operator rule:** `interpretation: multivoice_extraction`; `extraction_source: heuristic_v1`; `registry_mutation: false` — advisory only, not Record truth.
-
-**Pipeline:** after semantic scores; before signal extraction. Checker: `check_multivoice_extraction.py --advisory`.
-
-### PR8 / EIC — epistemic intelligence core (heuristic v1)
-
-Unified **claim-grain** inference — soft alignment distribution, distributional trajectory signals, and regime label in one object per capture-map claim point.
-
-| Artifact | Role |
-| --- | --- |
-| `runtime/artifacts/epistemic-intelligence-core.json` | Per-claim `unified_epistemic_state` objects |
-| `runtime/artifacts/epistemic-intelligence-events.json` | Diagnostic event rollup (not wired to PR3–PR6 in v1) |
-
-**Soft alignment (SAL):** `event_distribution[]` from `prediction_object_terms` overlap + capture-map prior (`0.55` on PR7 `event_id`); `alignment_entropy` in nats — no hard single-event collapse.
-
-**Trajectory signals:** weighted `directional`, `volatility`, `drift` from MVEL projections; Macgregor high-semantic-entropy dampens volatility.
-
-**Regime labels:** `escalation` · `stabilization` · `fragmentation` · `convergence` · `transition` — inferred jointly from signals + distribution entropy.
-
-**Compat:** parallel advisory only — `prediction-signals.json` and `signal_extraction_engine` **unchanged** for PR3–PR6 / ablation.
-
-**Operator rule:** `interpretation: epistemic_intelligence_core`; `eic_source: heuristic_v1`; `registry_mutation: false` — not Record truth.
-
-**Pipeline:** after MVEL check; before signal extraction. Checker: `check_epistemic_intelligence_core.py --advisory`.
+PR1 ENGM, PR2 calibration, PR3 tasks, PR4 dataset, PR5 baselines, PR6 ablation, Phase 4.5 falsifier-mode signals, MVEL, and EIC **removed** in episystem hard cut. Artifacts and generators archived under `scripts/_archive/prediction-legacy/`. Re-evaluation deferred until rebuilt on `signals.json` / `regimes.json`.
 
 ### Status vs record (shelf lane)
 

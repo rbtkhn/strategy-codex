@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/signals.schema.json",
+  "title": "Episystem signals artifact",
+  "type": "object",
+  "required": ["_meta", "interpretation", "events"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source", "epistemic_source", "registry_mutation"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" },
+        "epistemic_source": { "type": "string", "enum": ["heuristic_v1"] },
+        "registry_mutation": { "type": "boolean", "const": false }
+      },
+      "additionalProperties": true
+    },
+    "interpretation": { "type": "string", "enum": ["epistemic_signals"] },
+    "events": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "object_count",
+          "mean_directional",
+          "mean_volatility",
+          "mean_drift",
+          "signal_source"
+        ],
+        "properties": {
+          "object_count": { "type": "integer", "minimum": 0 },
+          "mean_directional": { "type": "number" },
+          "mean_volatility": { "type": "number" },
+          "mean_drift": { "type": "number" },
+          "signal_source": { "type": "string", "enum": ["epistemic_core"] }
+        }
+      }
+    }
+  }
+}
