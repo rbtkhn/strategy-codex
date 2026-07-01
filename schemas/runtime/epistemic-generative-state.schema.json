@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/epistemic-generative-state.schema.json",
+  "title": "Epistemic generative state artifact",
+  "type": "object",
+  "required": ["_meta", "latent_state", "events"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source", "inference_source"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" },
+        "inference_source": { "type": "string", "enum": ["heuristic_v1"] }
+      },
+      "additionalProperties": true
+    },
+    "latent_state": {
+      "type": "object",
+      "required": ["Z", "dimensions", "inference_source"],
+      "properties": {
+        "Z": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": { "type": "number", "minimum": 0, "maximum": 1 }
+        },
+        "dimensions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "inference_source": { "type": "string", "enum": ["heuristic_v1"] }
+      },
+      "additionalProperties": false
+    },
+    "events": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["event_probability", "interpretation", "voice_projections"],
+        "properties": {
+          "event_probability": { "type": "number", "minimum": 0.02, "maximum": 0.98 },
+          "interpretation": { "type": "string", "enum": ["probabilistic_projection"] },
+          "voice_projections": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "required": ["observation_probs", "sensor_weight", "dominant_class", "voice_projection"],
+              "properties": {
+                "observation_probs": { "type": "object" },
+                "sensor_weight": { "type": "number", "minimum": 0, "maximum": 1 },
+                "dominant_class": { "type": "string" },
+                "voice_projection": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

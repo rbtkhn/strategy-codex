@@ -4,7 +4,7 @@ description: 'Curate and rebuild a speaker prediction shelf from archive capture
 preferred_activation: voice prediction record
 activation: voice prediction record
 portable: true
-version: 0.2.3
+version: 0.2.4
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -229,7 +229,14 @@ Full orchestrator:
 python3 scripts/run_prediction_pipeline.py
 ```
 
-Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **signal extraction** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **signal extraction** → **ENGM (epistemic generative state)** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+
+**ENGM / PR1 — epistemic generative model (advisory):**
+
+- **Read-only:** `epistemic-generative-state.json` — latent `Z_t` + voice-as-sensor softmax projections + `event_probability`.
+- **Not truth:** every event block labeled `interpretation: probabilistic_projection`; `inference_source: heuristic_v1`.
+- **Pipeline placement:** after signals, before voice shelf rebuild.
+- **Checker:** `python3 scripts/check_epistemic_generative_state.py --advisory`
 
 **Phase 4.5 — signal extraction (advisory):**
 

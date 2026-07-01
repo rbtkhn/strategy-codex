@@ -4689,3 +4689,83 @@ Routing: [event-system.md](../docs/statecraft/event-system.md) (v4.5 + Phase 4.5
 **Pattern promotion:** defer until a second advisory consumer (weekly brief or cross-voice matrix) reads `prediction-signals.json` without new join law beyond effective `inferred_view`.
 
 ---
+
+## 2026-06-29 - ENGM PR1 (epistemic narrative generative model — heuristic v1)
+
+**Tag:** `voice-prediction` · `engm` · `latent-state` · `epistemic` · `probabilistic-projection`  
+**Cross-link:** [§ Phase 3.5 + Phase 4.5 (2026-06-29)](#2026-06-29---phase-35-tiered-falsifier-ci--phase-45-signal-extraction--macgregor-merge-closed) — ENGM consumes signals/regime/semantic scores; does **not** replace falsifier_model or signal layer.  
+**Cross-link:** [§ Phase 4.5 signal extraction](#2026-06-29---phase-35-tiered-falsifier-ci--phase-45-signal-extraction--macgregor-merge-closed) — directional signals remain SSOT for trend classification; ENGM adds formal latent Z + voice-as-sensor doctrine.
+
+### Trigger
+
+Post-4.5 the machine could extract directional signals but still treated voice claims implicitly as narrative generators. Operator locked **PR1 heuristic stub**: formal generative structure `Z_t → P(o|Z,v) → event_probability` with **stdlib-only** math, **advisory** CI, **no registry mutation**, voices as **stochastic sensors** not truth sources.
+
+### Extracted law
+
+**1. Latent geopolitical state Z_t (heuristic v1, n=4)**
+
+```text
+dimensions: geopolitical_tension · regime_stability · alliance_coherence · escalation_pressure
+sources: prediction-regime-summary + prediction-signals drift/tails + registry resolved ratio
+inference_source: heuristic_v1 — not ground truth, not Record knowledge
+```
+
+**2. Voice projection = sensor, not oracle**
+
+```text
+P(observation_class | Z, v) = softmax(W_v · Z + bias_v)
+classes: affirm_escalation · affirm_deescalation · withhold
+W_v hand-calibrated: Freeman → de-escalation channel; Macgregor → escalation; Mercouris balanced
+Macgregor sensor_weight down-rated when semantic entropy high (reuse 4.5 penalty)
+```
+
+**3. Event decode = probabilistic projection only**
+
+```text
+event_probability = clamp[0.02, 0.98]( α·(W_event·Z) + β·signal_confidence + γ·stance_agreement )
+required: interpretation: probabilistic_projection on every event block
+forbidden: mirror registry outcome as 0/1 probability; deterministic truth keys
+artifact: runtime/artifacts/epistemic-generative-state.json
+pipeline: after check_prediction_signals --advisory, before voice shelves
+```
+
+### Reapplication
+
+- **Consume ENGM** — read `latent_state.Z` + per-event `voice_projections` for cross-voice epistemic framing; do not promote to registry or shelf SSOT.
+- **New voice enrollment** — add `W_v`/`bias_v` row in `epistemic_generative_model.py` when a voice joins prediction pipeline; document sensor calibration, not truth profile.
+- **Weekly brief / matrix (future)** — may join `prediction-signals.json` + ENGM without collapsing layers.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Core | `scripts/prediction/epistemic_generative_model.py` |
+| Build/check | `build_epistemic_generative_state.py` · `check_epistemic_generative_state.py --advisory` |
+| Schema | `schemas/runtime/epistemic-generative-state.schema.json` |
+| Pipeline | steps after signal check, before Freeman shelf |
+| Tests | `test_epistemic_generative_model.py` · `test_build_epistemic_generative_state.py` |
+
+### Guardrail
+
+```text
+Do not treat latent Z or event_probability as Record truth or wire-grade closure
+Do not replace signal_extraction_engine or falsifier_model with ENGM outputs
+Do not fit W_v from sparse timeline in v1 — heuristic stub only until PR1b
+Do not emit probability outside [0.02, 0.98] without explicit operator policy change
+Voices are sensors: dominant_class is projection under Z, not speaker ground truth
+```
+
+**Falsification:** If operator proves heuristic Z systematically mis-ranks resolved events, add `linked_outcome_prior` advisory field — not registry write.
+
+### Current lesson
+
+```text
+ENGM formalizes what Phase 4.5 implied: geopolitical claims are noisy projections of latent state through voice-specific sensors.
+The interpretive machine gains a generative vocabulary without collapsing uncertainty into narrative truth.
+```
+
+Routing: [event-system.md](../docs/statecraft/event-system.md) (ENGM section) · [epistemic_generative_model.py](../scripts/prediction/epistemic_generative_model.py) · RLJ [Phase 4.5](#2026-06-29---phase-35-tiered-falsifier-ci--phase-45-signal-extraction--macgregor-merge-closed)
+
+**Pattern promotion:** defer until weekly brief or cross-voice matrix consumes `epistemic-generative-state.json` without new join law beyond probabilistic_projection.
+
+---

@@ -86,6 +86,22 @@ Read-only derived view — **does not** mutate registry, falsifier models, or ER
 
 **Pipeline:** after timeline, disagreement, and semantic scores; before voice shelf rebuild. Checker: `check_prediction_signals.py --advisory`.
 
+### ENGM / PR1 (epistemic narrative generative model — heuristic v1)
+
+Read-only latent-variable view — **voices are stochastic sensors**, not truth generators. **Does not** mutate registry or replace signal layer.
+
+| Artifact | Role |
+| --- | --- |
+| `runtime/artifacts/epistemic-generative-state.json` | Shared latent `Z_t` + per-event `event_probability` + per-voice softmax projections |
+
+**Latent dims (n=4):** `geopolitical_tension` · `regime_stability` · `alliance_coherence` · `escalation_pressure` — heuristic mapping from regime summary + signals (`inference_source: heuristic_v1`).
+
+**Observation model:** `P(observation_class | Z, v) = softmax(W_v · Z + bias_v)` for `affirm_escalation` / `affirm_deescalation` / `withhold`. Macgregor high-entropy sensor down-weight (reuse 4.5).
+
+**Operator rule:** all event blocks require `interpretation: probabilistic_projection`; probabilities clamped `[0.02, 0.98]` — never mirror registry `outcome` as deterministic truth.
+
+**Pipeline:** after signal extraction check; before voice shelves. Checker: `check_epistemic_generative_state.py --advisory`.
+
 ### Status vs record (shelf lane)
 
 | Layer | SSOT | Values |

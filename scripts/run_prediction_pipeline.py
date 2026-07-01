@@ -30,6 +30,11 @@ STEPS: list[tuple[str, list[str]]] = [
         "check_prediction_signals",
         ["python3", "scripts/check_prediction_signals.py", "--advisory"],
     ),
+    ("build_epistemic_generative_state", ["python3", "scripts/build_epistemic_generative_state.py"]),
+    (
+        "check_epistemic_generative_state",
+        ["python3", "scripts/check_epistemic_generative_state.py", "--advisory"],
+    ),
     ("build_freeman_predictions", ["python3", "scripts/build_freeman_predictions.py"]),
     (
         "build_mercouris_predictions",

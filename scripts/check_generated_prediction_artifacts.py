@@ -12,6 +12,7 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
+import build_epistemic_generative_state  # noqa: E402
 import build_prediction_disagreement  # noqa: E402
 import build_prediction_metrics  # noqa: E402
 import build_prediction_registry  # noqa: E402
@@ -41,6 +42,9 @@ def main() -> int:
     rc |= build_prediction_regime_summary.check_artifact(
         output_path=build_prediction_regime_summary.DEFAULT_OUTPUT,
         signals_path=build_prediction_regime_summary.DEFAULT_SIGNALS,
+    )
+    rc |= build_epistemic_generative_state.check_artifact(
+        output_path=build_epistemic_generative_state.DEFAULT_OUTPUT,
     )
 
     if rc == 0:

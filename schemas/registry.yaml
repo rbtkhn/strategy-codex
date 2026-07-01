@@ -37,6 +37,12 @@ schemas:
     format: json
     scope: prediction
 
+  epistemic_generative_state:
+    path: schemas/runtime/epistemic-generative-state.schema.json
+    applies_to: runtime/artifacts/epistemic-generative-state.json
+    format: json
+    scope: prediction
+
   dream:
     path: schemas/runtime/dream.schema.json
     applies_to: runtime/daily-handoff/last-dream.json
