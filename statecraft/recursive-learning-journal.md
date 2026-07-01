@@ -4506,3 +4506,98 @@ Routing: [event-system.md](../docs/statecraft/event-system.md) · [voice-predict
 **Pattern promotion:** defer until a second cross-voice consumer (e.g. weekly brief) reads event pages without new join law beyond (4).
 
 ---
+
+## 2026-06-29 - Phase 3 semantic layer (dimensions-only trajectories + compile gatekeeper)
+
+**Tag:** `voice-prediction` · `event-registry` · `phase-3` · `compression` · `gatekeeper` · `trajectory`  
+**Cross-link:** [§ Voice prediction rev. 3 (2026-06-29)](#2026-06-29---voice-prediction-rev-3-plan-registry--voices--cross-voice--notes-lane-enrollment) — **supersedes narrow** rev. 3 law **(3) Trajectory decomposition before shelf split** (`child_event_ids[]` + `child_event_id` on capture rows). Phase 3 replaces that with **`dimensions[]` on parent only** + capture **`dimension`** pointer (non-registry hook). Rev. 3 shelf/cross-voice/enrollment laws **(1)(2)(4)(5)** remain.  
+**Cross-link:** [§ parallel ban EXECUTE ship (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — Phase 3 modules shipped as sequential slices on Windows harness.
+
+### Trigger
+
+Same-day arc after rev. 3 push: executable **Phase 3** plan (registry-first, stub extractor) then operator evaluation of `3128c4b77` — structural stabilization landed but **semantic authority** still lived in CI-after-write, not at registry compile boundary. Follow-up **`da0a037a6`** adds compile/changelog gatekeeper.
+
+### Extracted law
+
+**1. Trajectories are attribute space, not child event trees (breaking vs rev. 3)**
+
+```text
+event-registry v4: dimensions[] on trajectory parent ONLY
+DELETE separate registry rows per trajectory dimension (Israel: 6 child keys collapsed)
+Capture map: dimension (optional) replaces child_event_id — validates against parent dimensions[].id
+check_event_registry / check_phase3: ERROR on parent_event_id or child_event_ids (inverse of rev. 3 WARN on empty children)
+Generated event pages: parent umbrella only; no per-dimension registry pages
+```
+
+**2. Pipeline order = semantic before persistence (Phase 3a)**
+
+```text
+semantic_event_extractor (stub → []) → compression_engine --check → falsifier_validator
+→ registry_writer compile → build_prediction_registry → timeline → disagreement → voice shelves → event pages → check_phase3
+Compression Rules A–C: anti-splitting fingerprint · predictive-difference gate · trajectory = dimensions not child event_id
+```
+
+**3. Semantic shifts + disagreement buckets (not quote-level only)**
+
+```text
+Timeline shift types: stance_shift | mechanism_shift | horizon_shift | contradiction (+ legacy_type for Gini compat)
+Disagreement artifact: disagreements.{stance, mechanism, horizon} + legacy_gini wrapper
+Cross-voice compare: latest_by_speaker + registry metadata — not excerpt text
+```
+
+**4. Compile gatekeeper = write membrane (post-3128c4b77 patch)**
+
+```text
+registry_writer.compile + changelog upsert_event: RegistryGateError if:
+  - missing falsifier on scorable event or trajectory dimension
+  - trajectory v4 invalid (empty dimensions[], legacy parent/child keys)
+  - duplicate predictive fingerprint among non-deprecated rows
+Hand-edit event-registry.json still bypasses until CI — Phase 3b target: changelog-only writes
+expand_changelog_ops: flatten baseline_v4 bundles; migrate_israel_dimensions idempotent on re-compile
+```
+
+### Reapplication
+
+- **New trajectory parent** — define `dimensions[]` with per-dimension falsifier before capture `dimension` hooks; never add child `event_id` rows.
+- **New atomic event** — upsert via changelog only; gate rejects fingerprint collision with existing active rows.
+- **Macgregor seed review** — `compression_engine --check` merge proposals (`ukraine_western_aid_prolongs_war`, `nato_strategic_exposure_ukraine` vs umbrella); `--apply` deprecates via changelog then compile through gatekeeper.
+- **Phase 3b** — enable `semantic_event_extractor`; promote check_phase3 fake-shift + inflation to ERROR; mechanism_tag operator tagging for mechanism disagreement.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Registry v4 migration | `event-registry.json` (14 events) · `event-registry-changelog.jsonl` · Israel `dimensions[]` |
+| Phase 3 modules | `scripts/prediction/{contracts,registry_writer,compression_engine,falsifier_validator,semantic_event_extractor}.py` |
+| CI | `scripts/check_phase3.py` · wired in `check_repo_health.py` |
+| Pipeline | `scripts/run_prediction_pipeline.py` |
+| Semantic artifacts | `prediction-timeline.json` semantic shifts · `prediction-disagreement.json` buckets |
+| Gatekeeper | `validate_registry_gate` · `validate_upsert_gate` · `tests/test_registry_writer_gate.py` |
+| **Pushed** | `3128c4b77` (Phase 3) · `da0a037a6` (compile gatekeeper) |
+
+### Guardrail
+
+```text
+Do not revive child_event_ids / child_event_id as registry or capture SSOT — use dimensions[] + dimension
+Do not add registry rows for trajectory dimensions — compression Rule C
+Do not treat check_phase3 alone as write gate — compile gatekeeper must run on changelog path
+Do not re-run migrate_israel_dimensions on empty child set without idempotent guard (wiped dimensions bug class)
+semantic_event_extractor stub is intentional in 3a — do not fake NLP extraction in registry compile
+```
+
+**Falsification:** If operator proves two active events must share identical fingerprint but differ only by `event_id` slug, narrow law (4) — add explicit `fingerprint_exempt` operator flag (not built).
+
+### Current lesson
+
+```text
+Phase 3 moves the machine from event modeling to compression-governed event output:
+trajectories compress to dimensions; disagreement structures epistemic divergence;
+compile gatekeeper closes the largest post-hoc CI gap — changelog upserts fail before persistence.
+Rev. 3 child-event tree model is retired narrow; cross-voice joins stay parent + dimension annotations.
+```
+
+Routing: [event-system.md](../docs/statecraft/event-system.md) · [voice-prediction-record skill](../skills/voice-prediction-record/SKILL.md) · [registry_writer.py](../scripts/prediction/registry_writer.py) · [check_phase3.py](../scripts/check_phase3.py) · [run_prediction_pipeline.py](../scripts/run_prediction_pipeline.py) · RLJ [rev. 3](#2026-06-29---voice-prediction-rev-3-plan-registry--voices--cross-voice--notes-lane-enrollment) (superseded narrow on child events)
+
+**Pattern promotion:** defer until Phase 3b extractor produces `event-candidates.json` rows that compile through gatekeeper without new law beyond (2)(4).
+
+---
