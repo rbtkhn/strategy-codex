@@ -157,12 +157,20 @@ def test_pipeline_all_layers(tmp_path: Path) -> None:
     structured_out = tmp_path / "structured_predictions.json"
     analysis_out = tmp_path / "analysis.json"
 
-    observations, structured, analysis_by_event, summary = run_all_layers(
+    (
+        observations,
+        structured,
+        analysis_by_event,
+        analysis_summary,
+        temporal_by_event,
+        temporal_summary,
+    ) = run_all_layers(
         voice_dir=voice_dir.parent,
         observations_out=observations_out,
         registry_path=registry_path,
         structured_out=structured_out,
         analysis_out=analysis_out,
+        temporal_out=tmp_path / "temporal.json",
         repo_root=tmp_path,
         write=True,
     )
@@ -170,7 +178,9 @@ def test_pipeline_all_layers(tmp_path: Path) -> None:
     assert len(observations) == 1
     assert len(structured) == 1
     assert len(analysis_by_event) == 1
-    assert summary["regime_of_discourse"]
+    assert analysis_summary["regime_of_discourse"]
+    assert len(temporal_by_event) == 1
+    assert temporal_summary["ordering_confidence_avg"] >= 0.0
     assert observations_out.is_file()
     assert structured_out.is_file()
     assert analysis_out.is_file()
