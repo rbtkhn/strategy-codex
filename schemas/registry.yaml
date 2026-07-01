@@ -49,6 +49,12 @@ schemas:
     format: json
     scope: prediction
 
+  epistemic_enriched:
+    path: schemas/runtime/epistemic-enriched.schema.json
+    applies_to: runtime/artifacts/epistemic_enriched.json
+    format: json
+    scope: prediction
+
   dream:
     path: schemas/runtime/dream.schema.json
     applies_to: runtime/daily-handoff/last-dream.json

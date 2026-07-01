@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/epistemic-enriched.schema.json",
+  "title": "Epistemic enriched artifact (core + plugin layer)",
+  "type": "object",
+  "required": ["_meta", "interpretation", "core_ref", "objects"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": [
+        "generated",
+        "do_not_edit",
+        "source",
+        "core_artifact",
+        "plugin_influence_cap",
+        "plugins_applied"
+      ],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" },
+        "core_artifact": { "type": "string" },
+        "plugin_influence_cap": { "type": "number", "maximum": 0.3 },
+        "plugins_applied": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    },
+    "interpretation": { "type": "string", "enum": ["epistemic_enriched"] },
+    "core_ref": { "type": "object" },
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["core", "plugin_results", "merged"],
+        "properties": {
+          "core": { "type": "object" },
+          "plugin_results": { "type": "array" },
+          "merged": { "type": "object" }
+        }
+      }
+    },
+    "evaluation": { "type": "object" }
+  }
+}

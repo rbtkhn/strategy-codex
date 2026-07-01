@@ -227,6 +227,18 @@ entries:
         - '"do_not_edit"'
         - "run_pipeline.py"
 
+  - id: epistemic-enriched-json
+    path: runtime/artifacts/epistemic_enriched.json
+    category: generated
+    generator: scripts/prediction/run_pipeline.py
+    check_args: ["--check-enriched"]
+    drift_group: epistemic-plugin-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "plugins/runner.py"
+
   - id: freeman-predictions-md
     path: statecraft/voices/freeman/freeman-predictions.md
     category: generated

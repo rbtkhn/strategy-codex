@@ -49,10 +49,14 @@ def run_quick() -> int:
             ["python3", "scripts/check_prediction_semantic_scores.py", "--advisory"],
             "prediction semantic scores (advisory)",
         ),
-        (["python3", "scripts/prediction/run_pipeline.py", "--write"], "episystem pipeline"),
+        (["python3", "scripts/prediction/run_pipeline.py", "--write", "--with-plugins"], "episystem pipeline with plugins"),
         (
             ["python3", "scripts/check_epistemic_pipeline.py", "--advisory"],
             "epistemic pipeline (advisory)",
+        ),
+        (
+            ["python3", "scripts/check_epistemic_plugins.py", "--advisory"],
+            "epistemic plugin layer (advisory)",
         ),
         (
             ["python3", "scripts/check_capture_map_epistemic.py", "--advisory"],

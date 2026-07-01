@@ -4,7 +4,7 @@ description: "Curate and rebuild a speaker prediction shelf from archive capture
 preferred_activation: voice prediction record
 activation: voice prediction record
 portable: true
-version: 0.4.0
+version: 0.4.1
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -227,7 +227,7 @@ Full orchestrator:
 python3 scripts/run_prediction_pipeline.py
 ```
 
-Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **episystem** (`run_pipeline.py --write`) → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **episystem** (`run_pipeline.py --write --with-plugins`) → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
 
 **Episystem canonical (advisory):**
 
@@ -236,6 +236,12 @@ Order: semantic extractor (stub) → compression report → **probabilistic fals
 - **Not Record truth:** `interpretation: epistemic_state`; `epistemic_source: heuristic_v1`; `registry_mutation: false`.
 - **Pipeline placement:** after semantic scores, before voice shelf rebuild.
 - **Checkers:** `check_epistemic_pipeline.py --advisory` · `check_capture_map_epistemic.py --advisory` (capture-map recuration WARNs).
+
+**Epistemic plugin layer (optional `--with-plugins`):**
+
+- **Enriched artifact:** `epistemic_enriched.json` — core snapshot + plugin results + merged view; core drift gate unchanged.
+- **Plugin cap:** aggregate influence ≤ 0.3; plugins cannot overwrite core labels or SAL outputs.
+- **Checker:** `check_epistemic_plugins.py --advisory`
 
 **Retired (episystem hard cut):** PR7 MVEL, PR8 EIC, Phase 4.5 falsifier signals, PR1–PR6 evaluation — archived under `scripts/_archive/prediction-legacy/`. Re-build evaluation on canonical artifacts before restoring ablation/dataset metrics.
 

@@ -22,10 +22,14 @@ STEPS: list[tuple[str, list[str]]] = [
     ("build_prediction_timeline", ["python3", "scripts/build_prediction_timeline.py"]),
     ("build_prediction_disagreement", ["python3", "scripts/build_prediction_disagreement.py"]),
     ("build_prediction_semantic_scores", ["python3", "scripts/build_prediction_semantic_scores.py"]),
-    ("episystem_run_pipeline", ["python3", "scripts/prediction/run_pipeline.py", "--write"]),
+    ("episystem_run_pipeline", ["python3", "scripts/prediction/run_pipeline.py", "--write", "--with-plugins"]),
     (
         "check_epistemic_pipeline",
         ["python3", "scripts/check_epistemic_pipeline.py", "--advisory"],
+    ),
+    (
+        "check_epistemic_plugins",
+        ["python3", "scripts/check_epistemic_plugins.py", "--advisory"],
     ),
     (
         "check_capture_map_epistemic",

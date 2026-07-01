@@ -104,6 +104,22 @@ A **prediction note** lives under [`statecraft/notes/predictions/`](../../statec
 
 **Capture-map recuration signals (advisory):** high `alignment_entropy` (&gt; 1.2 nats), `fragmentation` regime, host-heavy excerpt vs `stance: yes`, hidden rows load-bearing — WARN only; fix via capture-map edit → re-run pipeline.
 
+### Epistemic plugin layer (bounded perturbation — v1)
+
+**Dual artifact:** core [`epistemic_state.json`](../../runtime/artifacts/epistemic_state.json) remains drift-gated and **immutable** to plugins; [`epistemic_enriched.json`](../../runtime/artifacts/epistemic_enriched.json) holds core snapshot + per-plugin results + merged view.
+
+| Layer | Path | Rule |
+| --- | --- | --- |
+| L1 Core | `soft_alignment.py` · `epistemic_core.py` | Deterministic; no plugin hooks |
+| L2 Plugins | `scripts/prediction/plugins/` | Read cloned input; `apply()` returns modifications only |
+| L3 Merger | `plugins/conflict_resolver.py` | Core label/signals win; plugin weight cap **0.3** |
+
+**Plugin types:** voice adapter · signal extension · regime confidence refinement · evaluation rollup.
+
+**Pipeline:** `run_pipeline.py --write --with-plugins` → `check_epistemic_plugins.py --advisory`. Core `--check` unchanged.
+
+**Safety:** plugins cannot mutate `event_distribution`, `alignment_entropy`, or `regime.label`; evaluation plugins write top-level `evaluation` block only.
+
 ### Retired evaluation stack (PR1–PR6, legacy signals — archived)
 
 PR1 ENGM, PR2 calibration, PR3 tasks, PR4 dataset, PR5 baselines, PR6 ablation, Phase 4.5 falsifier-mode signals, MVEL, and EIC **removed** in episystem hard cut. Artifacts and generators archived under `scripts/_archive/prediction-legacy/`. Re-evaluation deferred until rebuilt on `signals.json` / `regimes.json`.

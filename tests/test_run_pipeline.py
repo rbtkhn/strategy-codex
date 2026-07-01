@@ -37,3 +37,21 @@ def test_run_pipeline_check_cli() -> None:
 
 def test_check_artifacts_in_process() -> None:
     assert check_artifacts() == 0
+
+
+def test_with_plugins_writes_enriched() -> None:
+    from prediction.run_pipeline import build_artifacts
+
+    bundle = build_artifacts(with_plugins=True)
+    assert "epistemic_enriched" in bundle
+    assert bundle["epistemic_enriched"]["interpretation"] == "epistemic_enriched"
+
+
+def test_core_check_unchanged_without_plugins_flag() -> None:
+    proc = subprocess.run(
+        [sys.executable, "scripts/prediction/run_pipeline.py", "--check-enriched"],
+        cwd=REPO,
+        capture_output=True,
+        text=True,
+    )
+    assert proc.returncode == 0, proc.stderr

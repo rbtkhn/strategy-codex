@@ -5285,3 +5285,35 @@ entropy/fragmentation WARNs — fix the map, re-run pipeline.
 Routing: [event-system.md](../docs/statecraft/event-system.md#episystem-canonical-single-epistemic-pipeline--heuristic-v1) · [run_pipeline.py](../scripts/prediction/run_pipeline.py)
 
 ---
+
+## 2026-06-30 — Epistemic plugin API (bounded perturbation layer)
+
+**Intent:** Add Layer 2–3 plugin interface around frozen core without modifying `soft_alignment.py` or `epistemic_core.py`.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Plugins | `scripts/prediction/plugins/` — base, registry, conflict_resolver, runner, four stub types |
+| Dual artifact | `epistemic_state.json` (core drift gate) + `epistemic_enriched.json` (merged view) |
+| Checker | `check_epistemic_plugins.py --advisory` |
+| Cap | `MAX_PLUGIN_INFLUENCE = 0.3` |
+
+### Guardrail
+
+```text
+Plugins read cloned core input only — never mutate SAL or epistemic_core
+regime.label and core trajectory_signals are immutable in merged output
+Phase D evaluation extends via evaluation_plugins, not core edits
+```
+
+### Current lesson
+
+```text
+Fixed-point core + bounded plugins beats monolithic growth: new voice/signal/regime
+theories ship as plugins; core --check stays stable.
+```
+
+Routing: [plugins/runner.py](../scripts/prediction/plugins/runner.py) · [event-system.md](../docs/statecraft/event-system.md)
+
+---
