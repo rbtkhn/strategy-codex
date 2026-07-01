@@ -43,6 +43,9 @@ schemas:
   epistemic_calibration_loss:
     path: schemas/runtime/epistemic-calibration-loss.schema.json
     applies_to: runtime/artifacts/epistemic-calibration-loss.json
+  signal_prediction_tasks:
+    path: schemas/runtime/signal-prediction-tasks.schema.json
+    applies_to: runtime/artifacts/signal-prediction-tasks.json
     format: json
     scope: prediction
 

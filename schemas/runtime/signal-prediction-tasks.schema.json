@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/signal-prediction-tasks.schema.json",
+  "title": "Signal prediction tasks artifact",
+  "type": "object",
+  "required": ["_meta", "tasks", "interpretation", "examples"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source", "task_source", "task_scope", "signal_vector_dimensions"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" },
+        "task_source": { "type": "string", "enum": ["heuristic_v1"] },
+        "horizon_days": { "type": "integer", "minimum": 1 },
+        "signal_vector_dimensions": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 5,
+          "items": { "type": "string" }
+        },
+        "task_scope": {
+          "type": "object",
+          "required": ["example_count", "low_n_advisory"],
+          "properties": {
+            "example_count": { "type": "integer", "minimum": 0 },
+            "low_n_advisory": { "type": "boolean" },
+            "shift_positive_count": { "type": "integer", "minimum": 0 }
+          },
+          "additionalProperties": true
+        },
+        "task_scope_note": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "tasks": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["regime_shift", "delta", "convergence"] }
+    },
+    "interpretation": { "type": "string", "enum": ["supervised_task_space"] },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "event_id",
+          "task",
+          "anchor_date",
+          "time_offset",
+          "signal_vector",
+          "future_outcome",
+          "interpretation"
+        ],
+        "properties": {
+          "event_id": { "type": "string" },
+          "task": { "type": "string", "enum": ["regime_shift", "delta", "convergence"] },
+          "anchor_date": { "type": "string" },
+          "time_offset": { "type": "integer" },
+          "signal_vector": {
+            "type": "array",
+            "minItems": 5,
+            "maxItems": 5,
+            "items": { "type": "number" }
+          },
+          "future_outcome": {},
+          "predicted_outcome": {},
+          "interpretation": { "type": "string", "enum": ["supervised_task_example"] },
+          "delta": { "type": "number" },
+          "p_t": { "type": "number" },
+          "p_future": { "type": "number" },
+          "voice_states": { "type": "object" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

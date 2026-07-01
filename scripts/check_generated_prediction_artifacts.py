@@ -14,6 +14,7 @@ if str(_SCRIPTS) not in sys.path:
 
 import build_epistemic_calibration_loss  # noqa: E402
 import build_epistemic_generative_state  # noqa: E402
+import build_signal_prediction_tasks  # noqa: E402
 import build_prediction_disagreement  # noqa: E402
 import build_prediction_metrics  # noqa: E402
 import build_prediction_registry  # noqa: E402
@@ -43,6 +44,9 @@ def main() -> int:
     rc |= build_prediction_regime_summary.check_artifact(
         output_path=build_prediction_regime_summary.DEFAULT_OUTPUT,
         signals_path=build_prediction_regime_summary.DEFAULT_SIGNALS,
+    )
+    rc |= build_signal_prediction_tasks.check_artifact(
+        output_path=build_signal_prediction_tasks.DEFAULT_OUTPUT,
     )
     rc |= build_epistemic_generative_state.check_artifact(
         output_path=build_epistemic_generative_state.DEFAULT_OUTPUT,

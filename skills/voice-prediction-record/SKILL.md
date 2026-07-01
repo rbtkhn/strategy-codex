@@ -4,7 +4,7 @@ description: "Curate and rebuild a speaker prediction shelf from archive capture
 preferred_activation: voice prediction record
 activation: voice prediction record
 portable: true
-version: 0.2.5
+version: 0.2.6
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -227,7 +227,14 @@ Full orchestrator:
 python3 scripts/run_prediction_pipeline.py
 ```
 
-Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **signal extraction** → **ENGM (epistemic generative state)** → **PR2 calibration loss** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **signal extraction** → **PR3 signal prediction tasks** → **ENGM** → **PR2 calibration loss** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+
+**PR3 / signal task system (advisory):**
+
+- **Read-only:** `signal-prediction-tasks.json` — supervised examples for regime shift, escalation delta, voice convergence.
+- **Not training:** `interpretation: supervised_task_space`; `task_source: heuristic_v1` — task target space for future tuning, not descriptive analytics alone.
+- **Pipeline placement:** after signal check, before ENGM.
+- **Checker:** `python3 scripts/check_signal_prediction_tasks.py --advisory`
 
 **PR2 / calibration loss (advisory):**
 

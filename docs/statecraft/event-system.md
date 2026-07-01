@@ -86,6 +86,24 @@ Read-only derived view — **does not** mutate registry, falsifier models, or ER
 
 **Pipeline:** after timeline, disagreement, and semantic scores; before voice shelf rebuild. Checker: `check_prediction_signals.py --advisory`.
 
+### PR3 / signal task system (predictive tasks — heuristic v1)
+
+Reframes Phase 4.5 signals as **supervised task features** — not descriptive analytics alone.
+
+| Artifact | Role |
+| --- | --- |
+| `runtime/artifacts/signal-prediction-tasks.json` | Labeled examples + stub predictions for regime shift, escalation delta, voice convergence |
+
+**Tasks:** `regime_shift` · `delta` (P_t → P_future) · `convergence` (freeman / mercouris / macgregor)
+
+**Label structure:** `event_id`, `anchor_date`, `time_offset` (default 30d), `signal_vector` (5-dim), `future_outcome`, `predicted_outcome` — every example requires `interpretation: supervised_task_example`.
+
+**Signal vector dims:** `confidence` · `cross_voice_alignment` · `drift_tail_mean` · `regime_shift_detected` · `entropy_score`
+
+**Operator rule:** top-level `interpretation: supervised_task_space`; `task_source: heuristic_v1` — not ML training output, not Record truth. Labels from timeline anchors only.
+
+**Pipeline:** after signal check; before ENGM. Checker: `check_signal_prediction_tasks.py --advisory`.
+
 ### ENGM / PR1 (epistemic narrative generative model — heuristic v1)
 
 Read-only latent-variable view — **voices are stochastic sensors**, not truth generators. **Does not** mutate registry or replace signal layer.

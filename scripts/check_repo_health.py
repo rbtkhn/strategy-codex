@@ -54,6 +54,11 @@ def run_quick() -> int:
             ["python3", "scripts/check_prediction_signals.py", "--advisory"],
             "prediction signals (advisory)",
         ),
+        (["python3", "scripts/build_signal_prediction_tasks.py"], "build signal prediction tasks"),
+        (
+            ["python3", "scripts/check_signal_prediction_tasks.py", "--advisory"],
+            "signal prediction tasks (advisory)",
+        ),
         (["python3", "scripts/build_epistemic_generative_state.py"], "build epistemic generative state"),
         (
             ["python3", "scripts/check_epistemic_generative_state.py", "--advisory"],

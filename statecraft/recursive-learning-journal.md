@@ -4849,3 +4849,75 @@ PR2 makes the interpretive machine evaluable: generative projections (PR1) now h
 Routing: [event-system.md](../docs/statecraft/event-system.md) (PR2 section) · [epistemic_loss.py](../scripts/prediction/epistemic_loss.py) · RLJ [ENGM PR1](#2026-06-29---engm-pr1-epistemic-narrative-generative-model--heuristic-v1)
 
 ---
+
+## 2026-06-29 - PR3 signal prediction task system (heuristic v1)
+
+**Tag:** `voice-prediction` · `signal-tasks` · `supervised-targets` · `pr3`  
+**Cross-link:** [§ Phase 4.5 signal extraction](#2026-06-29---phase-35-tiered-falsifier-ci--phase-45-signal-extraction--macgregor-merge-closed) — PR3 consumes `prediction-signals.json` as features; does **not** replace signal extraction.  
+**Cross-link:** [§ ENGM PR1](#2026-06-29---engm-pr1-epistemic-narrative-generative-model--heuristic-v1) — pipeline slot **before** ENGM; epistemic layers unchanged.
+
+### Trigger
+
+Post-4.5 signals remained **descriptive analytics** (`signal_type`, `trend`). Operator locked **PR3 heuristic stub**: formal supervised task space — regime shift, escalation delta, voice convergence — with labeled examples from timeline anchors and stub `predicted_outcome`, not ML training.
+
+### Extracted law
+
+**1. Three core tasks**
+
+```text
+regime_shift: label from timeline.shifts within horizon (default 30d)
+delta: P_t → P_future from build_probability_snapshots escalation index
+convergence: cross_voice_alignment Δ across anchor vs horizon slice (freeman/mercouris/macgregor)
+```
+
+**2. Signal vector (n=5) — features, not narrative**
+
+```text
+confidence · cross_voice_alignment · drift_tail_mean · regime_shift_detected · entropy_score
+event-level from current prediction-signals.json at build time (heuristic_v1 stub)
+```
+
+**3. Example contract**
+
+```text
+required: interpretation: supervised_task_example on every row
+forbidden: outcome / truth / Record closure keys on task examples
+artifact: runtime/artifacts/signal-prediction-tasks.json
+pipeline: after check_prediction_signals --advisory, before ENGM
+```
+
+### Reapplication
+
+- **Future training (PR3b)** — export `examples[]` as labeled dataset; do not auto-fit from N&lt;20 without operator policy.
+- **Weekly brief (future)** — may cite task miss rates (predicted vs future_outcome) without promoting to shelf SSOT.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Core | `scripts/prediction/signal_prediction_tasks.py` |
+| Build/check | `build_signal_prediction_tasks.py` · `check_signal_prediction_tasks.py --advisory` |
+| Schema | `schemas/runtime/signal-prediction-tasks.schema.json` |
+| Pipeline | steps after signal check, before ENGM |
+| Tests | `test_signal_prediction_tasks.py` · `test_build_signal_prediction_tasks.py` |
+
+### Guardrail
+
+```text
+Do not treat signal-prediction-tasks.json as trained model output or Record truth
+Do not replace signal_extraction_engine descriptive layer — PR3 adds task target space
+Do not derive labels from registry outcome on open events — timeline anchors only
+Do not ERROR-tier CI on sparse shift-positive examples — advisory scope in _meta
+predicted_outcome is heuristic_v1 stub only until PR3b fitting
+```
+
+### Current lesson
+
+```text
+Signals become intermediate representations for prediction tasks, not end-state analytics.
+The machine gains a supervised vocabulary before the epistemic generative layer — without pretending sparse timeline data is a fitted model.
+```
+
+Routing: [event-system.md](../docs/statecraft/event-system.md) (PR3 section) · [signal_prediction_tasks.py](../scripts/prediction/signal_prediction_tasks.py) · RLJ [Phase 4.5](#2026-06-29---phase-35-tiered-falsifier-ci--phase-45-signal-extraction--macgregor-merge-closed)
+
+---
