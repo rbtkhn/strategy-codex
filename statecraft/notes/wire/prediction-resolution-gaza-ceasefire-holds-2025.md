@@ -20,7 +20,7 @@ links:
 **Event question:** Will the Jan 2025 Gaza arrangement hold as a durable ceasefire (not merely a temporary pause)?  
 **Resolution criteria:** No if fighting resumes at scale or deal treated as pause only; yes if durable ceasefire holds with phase progression.  
 **Freeman arc:** [freeman-predictions.md#gaza_ceasefire_holds_2025](../voices/freeman/freeman-predictions.md#gaza_ceasefire_holds_2025)  
-**Status:** open · **Outcome:** null · **Closure trigger:** Fighting resumes at scale or arrangement treated as pause-only (Freeman Jan 21)
+**Status:** resolved · **Outcome:** no · **Closure trigger:** Fighting resumes at scale or arrangement treated as pause-only (Freeman Jan 21)
 
 ## Closure hooks (tier 3)
 
@@ -34,7 +34,7 @@ links:
 
 ## Resolution decision (operator)
 
-- **Outcome:**
-- **Resolved date:**
-- **Rationale:**
-- **Registry paste:** `resolution_source: news-verify: … — see prediction-resolution-gaza-ceasefire-holds-2025.md#resolution-decision`
+- **Outcome:** no
+- **Resolved date:** 2025-10-10
+- **Rationale:** Freeman's pause-not-durable framing validated — fighting resumed / arrangement functioned as hostage-exchange pause (register R2-1 supported; Haaretz Oct 9 · AP Oct 10).
+- **Registry paste:** `resolution_source: statecraft/notes/wire/prediction-resolution-gaza-ceasefire-holds-2025.md#resolution-decision` · `resolution_scope: ceasefire durability` · `outcome: no`

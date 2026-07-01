@@ -27,7 +27,40 @@ A **prediction note** lives under [`statecraft/notes/predictions/`](../../statec
 
 ## Optional event fields
 
-`category`, `start_date`, `close_date`, `outcome`, `resolved_date`, `resolution_source`, `horizon_type`, `horizon_cite`, `closure_trigger`
+`category`, `start_date`, `close_date`, `outcome`, `resolved_date`, `resolution_source`, `horizon_type`, `horizon_cite`, `closure_trigger`, `falsifier`, `confirmation_criteria`, `not_falsifiable`, `resolution_scope`, `review_note`, `parent_event_id`, `child_event_ids`, `tags`
+
+### Extended fields (rev. 3)
+
+| Field | Role |
+| --- | --- |
+| `falsifier` | What observable outcome would prove the prediction wrong |
+| `confirmation_criteria` | What would support the stated position (optional asymmetric pair with falsifier) |
+| `not_falsifiable` | `true` when event is explicitly non-scorable (diagnostic / trajectory umbrella only with operator flag) |
+| `resolution_scope` | Which subclaim a resolution applies to (e.g. ceasefire durability) |
+| `parent_event_id` | Parent trajectory event when this row is a child dimension |
+| `child_event_ids` | Ordered child dimensions for broad trajectory parents |
+| `review_note` | **Explanatory only — non-semantic.** Human context; checkers must not branch on this field |
+
+### Status vs record (shelf lane)
+
+| Layer | SSOT | Values |
+| --- | --- | --- |
+| **Registry** | `event-registry.json` | `status`: open · resolved · void · deprecated; `outcome`: yes · no · null |
+| **Shelf record label** | generated from registry + timeline | Correct · Open — consistent · Open — shifted · Open — trajectory · … |
+
+Generated Markdown must **not** invent ambiguity. Nuance lives in registry fields (`resolution_scope`, `review_note`), not in hand-edited shelf prose.
+
+### Wire resolution stubs
+
+Registry closure for wire-grade events uses canonical stubs:
+
+```text
+statecraft/notes/wire/prediction-resolution-<event-id>.md
+```
+
+Example: `prediction-resolution-gaza-ceasefire-holds-2025.md` for `gaza_ceasefire_holds_2025`.
+
+Set `resolution_source` to stub path + anchor (e.g. `#resolution-decision`). Do not create ad hoc closure filenames outside this pattern.
 
 ## Event horizons (voice-sourced only)
 
@@ -106,6 +139,8 @@ Prediction notes must **not** be promoted to shelf-native doctrinal notes withou
 ## Validation
 
 ```bash
+python3 scripts/check_event_registry.py
+python3 scripts/check_event_registry.py --strict-enrolled
 python3 scripts/validate_all_schemas.py --scope prediction
 python3 scripts/check_event_integrity.py
 python3 scripts/check_statecraft_notes.py --warn

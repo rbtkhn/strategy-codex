@@ -1,0 +1,8 @@
+{
+  "_meta": {
+    "generated": false,
+    "description": "Operator prediction review queue — populate via check_event_registry.py --emit-review-queue",
+    "source": "scripts/check_event_registry.py"
+  },
+  "items": []
+}

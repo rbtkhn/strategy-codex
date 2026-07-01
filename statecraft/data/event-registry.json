@@ -10,7 +10,10 @@
     "status": "open",
     "outcome": null,
     "resolved_date": null,
-    "resolution_source": null
+    "resolution_source": null,
+    "falsifier": "China accepts major U.S. tariff demands without reciprocal concessions, retaliation, or strategic hedging.",
+    "confirmation_criteria": "China refuses unilateral capitulation, retaliates, negotiates from parity, or redirects trade away from U.S. pressure.",
+    "not_falsifiable": false
   },
   "gaza_ceasefire_holds_2025": {
     "question": "Will the Jan 2025 Gaza arrangement hold as a durable ceasefire (not merely a temporary pause)?",
@@ -21,10 +24,15 @@
     "horizon_cite": "source-archive/statecraft/2025-01-21/source-judging-freedom-amb-chas-freeman-a-ceasefire-or-a-pause-2025-01-21.md — anything other than a pause is dreaming; find an excuse to resume the fighting.",
     "closure_trigger": "Fighting resumes at scale or arrangement treated as pause-only (Freeman Jan 21 pause-not-ceasefire framing).",
     "resolution_criteria": "No if fighting resumes at scale or deal treated as pause only; yes if durable ceasefire holds with phase progression.",
-    "status": "open",
-    "outcome": null,
-    "resolved_date": null,
-    "resolution_source": null
+    "status": "resolved",
+    "outcome": "no",
+    "resolved_date": "2025-10-10",
+    "resolution_source": "statecraft/notes/wire/prediction-resolution-gaza-ceasefire-holds-2025.md#resolution-decision",
+    "falsifier": "The Jan 2025 arrangement remains a durable ceasefire through implementation without major violation or pause-only collapse.",
+    "confirmation_criteria": "Fighting resumes at scale or arrangement functions as hostage-exchange pause only.",
+    "not_falsifiable": false,
+    "resolution_scope": "ceasefire durability",
+    "review_note": "Freeman pause-not-durable thesis validated; broader Gaza settlement remains outside this event scope."
   },
   "gaza_hostage_deal_jan_2025": {
     "question": "Will a Gaza hostage-exchange ceasefire deal be reached?",
@@ -38,7 +46,10 @@
     "status": "resolved",
     "outcome": "yes",
     "resolved_date": "2025-01-21",
-    "resolution_source": "wire-factual: Jan 2025 Gaza phase-1 ceasefire/hostage exchange reached (resolved_date = observable deal date, not a Freeman calendar deadline)"
+    "resolution_source": "wire-factual: Jan 2025 Gaza phase-1 ceasefire/hostage exchange reached (resolved_date = observable deal date, not a Freeman calendar deadline)",
+    "falsifier": "No phase-1 hostage-exchange deal is publicly reached or implemented.",
+    "confirmation_criteria": "Phase-1 hostage deal publicly reached and implemented.",
+    "not_falsifiable": false
   },
   "iran_great_power_direct_war_entry": {
     "question": "Will Russia or China directly enter a US-Iran war on Iran's side (combat forces, not arms/tech transfers alone)?",
@@ -51,7 +62,10 @@
     "status": "open",
     "outcome": null,
     "resolved_date": null,
-    "resolution_source": null
+    "resolution_source": null,
+    "falsifier": "Russia or China deploys combat forces directly into a US-Iran war on Iran side (not arms/tech transfer alone).",
+    "confirmation_criteria": "Great powers limit support to indirect aid, tech transfer, or separate theaters without Iran co-belligerency.",
+    "not_falsifiable": false
   },
   "israel_self_destruction_trajectory": {
     "question": "Is Israel on a self-destructive trajectory (international isolation, moral authority loss, military overextension)?",
@@ -64,7 +78,18 @@
     "status": "open",
     "outcome": null,
     "resolved_date": null,
-    "resolution_source": null
+    "resolution_source": null,
+    "falsifier": "Israel materially stabilizes legitimacy, regional ties, and domestic cohesion — reversing self-destructive trajectory indicators.",
+    "confirmation_criteria": "Isolation, moral authority loss, overextension, or domestic strain indicators materially worsen.",
+    "not_falsifiable": false,
+    "child_event_ids": [
+      "israel_moral_pariah_status",
+      "israel_regional_isolation",
+      "israel_us_support_erosion",
+      "israel_military_overextension",
+      "israel_economic_emigration_pressure",
+      "israel_internal_political_fragmentation"
+    ]
   },
   "russia_odessa_control": {
     "question": "Will Russian forces establish administrative control over Odessa before 2026-12-31?",
@@ -75,7 +100,9 @@
     "status": "open",
     "outcome": null,
     "resolved_date": null,
-    "resolution_source": null
+    "resolution_source": null,
+    "falsifier": "Russian forces establish administrative control over Odessa city before 2026-12-31.",
+    "not_falsifiable": false
   },
   "ukraine_escalation_russian_capitulation": {
     "question": "Will Trump's Kellogg-style escalation-to-deescalate produce Russian capitulation in Ukraine negotiations?",
@@ -88,7 +115,10 @@
     "status": "resolved",
     "outcome": "no",
     "resolved_date": "2025-01-10",
-    "resolution_source": "operator-pilot: Freeman initial negation on Kellogg capitulation mechanism; no capitulation observed (resolved_date = first audited negation, not calendar year-end)"
+    "resolution_source": "operator-pilot: Freeman initial negation on Kellogg capitulation mechanism; no capitulation observed (resolved_date = first audited negation, not calendar year-end)",
+    "falsifier": "Russia yields on core Ukraine terms attributable to Kellogg-style escalation-to-deescalate.",
+    "confirmation_criteria": "No Russian capitulation under escalatory arms surge; Moscow holds core lines.",
+    "not_falsifiable": false
   },
   "us_israel_iran_war_preparation_2025": {
     "question": "Are Israel and Iran actively preparing for direct war (force posture, threats, procurement)?",
@@ -101,6 +131,244 @@
     "status": "open",
     "outcome": null,
     "resolved_date": null,
-    "resolution_source": null
+    "resolution_source": null,
+    "falsifier": "Israel and Iran show no sustained force-posture or kinetic prep beyond rhetoric.",
+    "confirmation_criteria": "Wire and posture evidence show active bilateral war preparation.",
+    "not_falsifiable": false
+  },
+  "israel_moral_pariah_status": {
+    "question": "Would Israel become widely treated as a moral pariah in Western and global opinion?",
+    "category": "geopolitical",
+    "start_date": "2025-01-07",
+    "close_date": null,
+    "horizon_type": "freeman_event_closure",
+    "parent_event_id": "israel_self_destruction_trajectory",
+    "falsifier": "Israel restores broad Western diplomatic legitimacy and avoids pariah status in major institutions and public opinion.",
+    "confirmation_criteria": "Israel is increasingly condemned as moral pariah across Western institutions and public discourse.",
+    "resolution_criteria": "Israel is increasingly condemned as moral pariah across Western institutions and public discourse.",
+    "status": "open",
+    "outcome": null,
+    "resolved_date": null,
+    "resolution_source": null,
+    "not_falsifiable": false,
+    "tags": [
+      "israel",
+      "trajectory",
+      "freeman-child"
+    ]
+  },
+  "israel_regional_isolation": {
+    "question": "Would Israel face deepening regional diplomatic isolation?",
+    "category": "geopolitical",
+    "start_date": "2025-01-07",
+    "close_date": null,
+    "horizon_type": "freeman_event_closure",
+    "parent_event_id": "israel_self_destruction_trajectory",
+    "falsifier": "Israel normalizes relations with key regional states and reduces regional isolation.",
+    "confirmation_criteria": "Regional states refuse normalization and treat Israel as isolated actor in Middle East diplomacy.",
+    "resolution_criteria": "Regional states refuse normalization and treat Israel as isolated actor in Middle East diplomacy.",
+    "status": "open",
+    "outcome": null,
+    "resolved_date": null,
+    "resolution_source": null,
+    "not_falsifiable": false,
+    "tags": [
+      "israel",
+      "trajectory",
+      "freeman-child"
+    ]
+  },
+  "israel_us_support_erosion": {
+    "question": "Would U.S. political and public support for Israel erode materially?",
+    "category": "geopolitical",
+    "start_date": "2025-01-07",
+    "close_date": null,
+    "horizon_type": "freeman_event_closure",
+    "parent_event_id": "israel_self_destruction_trajectory",
+    "falsifier": "U.S. public and congressional support for Israel remains stable or increases across major blocs.",
+    "confirmation_criteria": "Support erodes in U.S. public opinion and/or congressional coalitions beyond fringe dissent.",
+    "resolution_criteria": "Support erodes in U.S. public opinion and/or congressional coalitions beyond fringe dissent.",
+    "status": "open",
+    "outcome": null,
+    "resolved_date": null,
+    "resolution_source": null,
+    "not_falsifiable": false,
+    "tags": [
+      "israel",
+      "trajectory",
+      "freeman-child"
+    ]
+  },
+  "israel_military_overextension": {
+    "question": "Would Israeli military strategy show overextension and strategic blowback?",
+    "category": "geopolitical",
+    "start_date": "2025-01-07",
+    "close_date": null,
+    "horizon_type": "freeman_event_closure",
+    "parent_event_id": "israel_self_destruction_trajectory",
+    "falsifier": "Israel limits campaigns to sustainable objectives without chronic overextension costs.",
+    "confirmation_criteria": "Sustained multi-front operations produce clear overextension, exhaustion, or strategic blowback.",
+    "resolution_criteria": "Sustained multi-front operations produce clear overextension, exhaustion, or strategic blowback.",
+    "status": "open",
+    "outcome": null,
+    "resolved_date": null,
+    "resolution_source": null,
+    "not_falsifiable": false,
+    "tags": [
+      "israel",
+      "trajectory",
+      "freeman-child"
+    ]
+  },
+  "israel_economic_emigration_pressure": {
+    "question": "Would Israel face significant economic strain and emigration pressure?",
+    "category": "geopolitical",
+    "start_date": "2025-01-07",
+    "close_date": null,
+    "horizon_type": "freeman_event_closure",
+    "parent_event_id": "israel_self_destruction_trajectory",
+    "falsifier": "Economy stabilizes and emigration does not accelerate beyond pre-war baselines.",
+    "confirmation_criteria": "Documented economic deterioration and emigration outflows accelerate under war strain.",
+    "resolution_criteria": "Documented economic deterioration and emigration outflows accelerate under war strain.",
+    "status": "open",
+    "outcome": null,
+    "resolved_date": null,
+    "resolution_source": null,
+    "not_falsifiable": false,
+    "tags": [
+      "israel",
+      "trajectory",
+      "freeman-child"
+    ]
+  },
+  "israel_internal_political_fragmentation": {
+    "question": "Would domestic political fragmentation undermine Israeli policy coherence?",
+    "category": "geopolitical",
+    "start_date": "2025-01-07",
+    "close_date": null,
+    "horizon_type": "freeman_event_closure",
+    "parent_event_id": "israel_self_destruction_trajectory",
+    "falsifier": "Domestic coalition holds stable governing majority on security policy.",
+    "confirmation_criteria": "Governing coalition fractures or hostage-family / civil dissent destabilizes policy coherence.",
+    "resolution_criteria": "Governing coalition fractures or hostage-family / civil dissent destabilizes policy coherence.",
+    "status": "open",
+    "outcome": null,
+    "resolved_date": null,
+    "resolution_source": null,
+    "not_falsifiable": false,
+    "tags": [
+      "israel",
+      "trajectory",
+      "freeman-child"
+    ]
+  },
+  "ukraine_western_aid_prolongs_war": {
+    "question": "Will Western aid prolong the Ukraine war without producing Ukrainian victory?",
+    "category": "geopolitical",
+    "start_date": "2025-01-01",
+    "close_date": null,
+    "falsifier": "Ukraine achieves decisive battlefield victory or durable settlement before aid exhaustion.",
+    "confirmation_criteria": "Aid continues while battlefield stalemate or Russian advantage persists without settlement.",
+    "resolution_criteria": "Operator resolves from battlefield and diplomatic outcomes.",
+    "status": "open",
+    "outcome": null,
+    "resolved_date": null,
+    "resolution_source": null,
+    "not_falsifiable": false,
+    "tags": [
+      "ukraine",
+      "macgregor-seed"
+    ]
+  },
+  "nato_strategic_exposure_ukraine": {
+    "question": "Is NATO strategically overexposed in the Ukraine war?",
+    "category": "geopolitical",
+    "start_date": "2025-01-01",
+    "close_date": null,
+    "falsifier": "NATO limits exposure and Ukraine war ends without alliance strategic damage.",
+    "confirmation_criteria": "Alliance faces sustained resource drain, escalation risk, or credibility loss tied to Ukraine.",
+    "resolution_criteria": "Operator judgment from alliance posture and outcomes.",
+    "status": "open",
+    "outcome": null,
+    "resolved_date": null,
+    "resolution_source": null,
+    "not_falsifiable": false,
+    "tags": [
+      "nato",
+      "ukraine",
+      "macgregor-seed"
+    ]
+  },
+  "iran_airpower_cannot_force_submission": {
+    "question": "Can U.S./Israeli air and naval power force Iran to submit?",
+    "category": "geopolitical",
+    "start_date": "2025-06-01",
+    "close_date": null,
+    "falsifier": "Iran accepts capitulation terms under air/naval coercion alone.",
+    "confirmation_criteria": "Iran absorbs strikes without strategic submission or regime collapse from air campaign.",
+    "resolution_criteria": "Operator resolves from documented Iranian yield vs strike campaign.",
+    "status": "open",
+    "outcome": null,
+    "resolved_date": null,
+    "resolution_source": null,
+    "not_falsifiable": false,
+    "tags": [
+      "iran",
+      "macgregor-seed"
+    ]
+  },
+  "israel_sabotages_exit_ramps": {
+    "question": "Will Israel sabotage diplomatic exit ramps in regional wars?",
+    "category": "geopolitical",
+    "start_date": "2025-01-01",
+    "close_date": null,
+    "falsifier": "Israel materially supports and honors durable diplomatic off-ramps without undermining them.",
+    "confirmation_criteria": "Documented Israeli actions collapse or undermine ceasefire/deal off-ramps.",
+    "resolution_criteria": "Operator resolves from wire on ceasefire/deal sabotage pattern.",
+    "status": "open",
+    "outcome": null,
+    "resolved_date": null,
+    "resolution_source": null,
+    "not_falsifiable": false,
+    "tags": [
+      "israel",
+      "macgregor-seed"
+    ]
+  },
+  "gulf_crisis_macro_shock": {
+    "question": "Will a Gulf crisis produce a macroeconomic shock?",
+    "category": "geopolitical",
+    "start_date": "2025-06-01",
+    "close_date": null,
+    "falsifier": "Gulf escalation occurs without measurable global macro shock (oil, shipping, markets).",
+    "confirmation_criteria": "Gulf kinetic escalation correlates with documented macro shock indicators.",
+    "resolution_criteria": "Operator resolves from market/oil/shipping data during Gulf crisis window.",
+    "status": "open",
+    "outcome": null,
+    "resolved_date": null,
+    "resolution_source": null,
+    "not_falsifiable": false,
+    "tags": [
+      "gulf",
+      "macgregor-seed"
+    ]
+  },
+  "us_forward_presence_obsolete": {
+    "question": "Is U.S. forward military presence becoming strategically obsolete?",
+    "category": "geopolitical",
+    "start_date": "2025-01-01",
+    "close_date": null,
+    "falsifier": "Forward presence demonstrably remains decisive in major regional outcomes.",
+    "confirmation_criteria": "Forward bases fail to deter or shape outcomes; doctrine shifts away from presence model.",
+    "resolution_criteria": "Operator judgment on presence vs outcome in Gulf/Ukraine/Taiwan lanes.",
+    "status": "open",
+    "outcome": null,
+    "resolved_date": null,
+    "resolution_source": null,
+    "not_falsifiable": false,
+    "tags": [
+      "us",
+      "macgregor-seed"
+    ]
   }
 }

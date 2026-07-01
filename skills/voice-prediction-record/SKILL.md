@@ -208,11 +208,17 @@ When fixing anchors, deduping appearances, or onboarding a new voice:
 
 ## Wire closure (operator)
 
+**Stub naming (canonical):** `statecraft/notes/wire/prediction-resolution-<event-id>.md` — `<event-id>` must match registry key exactly.
+
 1. Open speaker **wire-events** page → resolution stub for the event.
 2. Grade closure hooks; paste verdict + cite into stub table.
-3. Fill **Resolution decision (operator)**; set `resolution_source` for registry paste.
-4. Update **event-registry.json** (`status`, `outcome`, `resolved_date`, `resolution_source`).
+3. Fill **Resolution decision (operator)** on stub; set `resolution_source` to stub path + anchor (e.g. `#resolution-decision`).
+4. Update **event-registry.json** (`status`, `outcome`, `resolved_date`, `resolution_source`, optional `resolution_scope`). Use **`review_note`** for human context only — checkers must not branch on it.
 5. Rebuild generated surfaces so shelf + runtime prediction registry reflect closure.
+
+**Review queue:** [`statecraft/predictions/review-queue.md`](../../statecraft/predictions/review-queue.md) · `python3 scripts/check_event_registry.py --emit-review-queue`
+
+**Notes-lane enrollment:** a voice shelf may ship capture-map-first; full enrollment requires timeline entries per shared `event_id` (see skill appendix).
 
 ## Agent behavior norms
 
