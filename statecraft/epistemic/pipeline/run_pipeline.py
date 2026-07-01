@@ -6,6 +6,13 @@ import argparse
 from pathlib import Path
 from typing import Any
 
+from analysis.engine import (
+    DEFAULT_ANALYSIS_OUT,
+    DEFAULT_STRUCTURED_IN,
+    analyze_all,
+    load_structured_predictions,
+    write_analysis,
+)
 from observation.loader import (
     DEFAULT_OUT as DEFAULT_OBSERVATIONS_OUT,
     DEFAULT_VOICE_DIR,
@@ -61,6 +68,29 @@ def run_structuring_layer(
     return structured
 
 
+def run_analysis_layer(
+    structured: list[dict[str, Any]] | None = None,
+    *,
+    structured_path: Path | None = None,
+    out_path: Path | None = None,
+    write: bool = True,
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    preds = (
+        structured
+        if structured is not None
+        else load_structured_predictions(path=structured_path or DEFAULT_STRUCTURED_IN)
+    )
+    analysis_by_event, summary = analyze_all(preds)
+    if write:
+        write_analysis(
+            analysis_by_event,
+            summary,
+            out_path=out_path or DEFAULT_ANALYSIS_OUT,
+            structured_path=structured_path or DEFAULT_STRUCTURED_IN,
+        )
+    return analysis_by_event, summary
+
+
 def run_all_layers(
     *,
     voice_dir: Path | None = None,
@@ -68,9 +98,11 @@ def run_all_layers(
     observations_in: Path | None = None,
     registry_path: Path | None = None,
     structured_out: Path | None = None,
+    structured_in: Path | None = None,
+    analysis_out: Path | None = None,
     repo_root: Path | None = None,
     write: bool = True,
-) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], dict[str, Any]]:
     observations = run_observation_layer(
         voice_dir=voice_dir,
         out_path=observations_out or DEFAULT_OBSERVATIONS_OUT,
@@ -84,14 +116,20 @@ def run_all_layers(
         out_path=structured_out or DEFAULT_STRUCTURED_OUT,
         write=write,
     )
-    return observations, structured
+    analysis_by_event, summary = run_analysis_layer(
+        structured,
+        structured_path=structured_in or structured_out or DEFAULT_STRUCTURED_OUT,
+        out_path=analysis_out or DEFAULT_ANALYSIS_OUT,
+        write=write,
+    )
+    return observations, structured, analysis_by_event, summary
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run epistemic audit pipeline layers")
     parser.add_argument(
         "--layer",
-        choices=("observation", "structuring", "all"),
+        choices=("observation", "structuring", "analysis", "all"),
         default="observation",
         help="Pipeline layer to run (default: observation)",
     )
@@ -124,6 +162,18 @@ def main() -> int:
         type=Path,
         default=DEFAULT_STRUCTURED_OUT,
         help="Output structured_predictions.json path",
+    )
+    parser.add_argument(
+        "--structured-in",
+        type=Path,
+        default=DEFAULT_STRUCTURED_IN,
+        help="Input structured_predictions.json path for analysis",
+    )
+    parser.add_argument(
+        "--analysis-out",
+        type=Path,
+        default=DEFAULT_ANALYSIS_OUT,
+        help="Output analysis.json path",
     )
     parser.add_argument(
         "--dry-run",
@@ -159,23 +209,46 @@ def main() -> int:
             print(f"structured_predictions: {len(structured)} -> {args.structured_out}")
         return 0
 
-    observations, structured = run_all_layers(
+    if args.layer == "analysis":
+        analysis_by_event, summary = run_analysis_layer(
+            structured_path=args.structured_in,
+            out_path=args.analysis_out,
+            write=write,
+        )
+        if args.dry_run:
+            print(
+                f"analysis: events={len(analysis_by_event)} "
+                f"regime={summary['regime_of_discourse']} (dry run, no write)"
+            )
+        else:
+            print(
+                f"analysis: events={len(analysis_by_event)} "
+                f"regime={summary['regime_of_discourse']} -> {args.analysis_out}"
+            )
+        return 0
+
+    observations, structured, analysis_by_event, summary = run_all_layers(
         voice_dir=args.voice_dir,
         observations_out=args.out,
         registry_path=args.registry,
         structured_out=args.structured_out,
+        structured_in=args.structured_in,
+        analysis_out=args.analysis_out,
         repo_root=REPO_ROOT,
         write=write,
     )
     if args.dry_run:
         print(
             f"all: observations={len(observations)} structured={len(structured)} "
+            f"analysis_events={len(analysis_by_event)} regime={summary['regime_of_discourse']} "
             "(dry run, no write)"
         )
     else:
         print(
             f"all: observations={len(observations)} -> {args.out}; "
-            f"structured={len(structured)} -> {args.structured_out}"
+            f"structured={len(structured)} -> {args.structured_out}; "
+            f"analysis_events={len(analysis_by_event)} regime={summary['regime_of_discourse']} "
+            f"-> {args.analysis_out}"
         )
     return 0
 
