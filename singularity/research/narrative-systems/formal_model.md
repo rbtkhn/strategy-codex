@@ -235,7 +235,7 @@ NST formalizes narrative systems as:
 Possible future extensions:
 
 - enriched category structure over discourse graphs
-- monoidal composition of narrative systems
+- monoidal composition of narrative systems — see [monoidal_extension.md](monoidal_extension.md)
 - probabilistic enrichment of morphisms
 - higher-order transformations between NST layers
 

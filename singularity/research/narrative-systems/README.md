@@ -31,6 +31,8 @@ Where:
 
 Formal specification: [formal_model.md](formal_model.md) (functor F and transformation space Δ).
 
+Monoidal extension: [monoidal_extension.md](monoidal_extension.md) (multi-theater composition via ⊗).
+
 ## Classification
 
 `singularity/research/narrative-systems/`
@@ -40,6 +42,7 @@ Formal specification: [formal_model.md](formal_model.md) (functor F and transfor
 | File | Role |
 | --- | --- |
 | [formal_model.md](formal_model.md) | Category-theoretic specification (F: 𝓔𝓰 → 𝓟𝓱, Δ) |
+| [monoidal_extension.md](monoidal_extension.md) | Symmetric monoidal functor extension (𝓔𝓰, 𝓟𝓱, ⊗, F, Δ) |
 | [mapping_functions.md](mapping_functions.md) | EG × PH relational transformations |
 | [dual_structure.md](dual_structure.md) | Structural vs temporal axes |
 | [invariants.md](invariants.md) | Independence and non-modification rules |
