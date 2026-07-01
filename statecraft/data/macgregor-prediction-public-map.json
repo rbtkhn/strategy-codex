@@ -1,0 +1,129 @@
+{
+  "ukraine_escalation_russian_capitulation": {
+    "public_title": "Will Russia capitulate under Western escalation pressure?",
+    "public_position": "No.",
+    "public_summary": "Macgregor argued that President Putin would settle the war on terms imposed by Russian military power on the battlefield — not through capitulation to Western pressure.",
+    "why_it_matters": "Tests whether Macgregor read Ukraine termination as Russian battlefield victory rather than negotiated yield.",
+    "event_kind": "forecast",
+    "scoring_policy": "yes_no",
+    "anchor_capture": "source-archive/statecraft/2025-05-09/source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md",
+    "prediction_object_terms": [
+      "Putin",
+      "Russia",
+      "battlefield",
+      "capitulation",
+      "Ukraine"
+    ]
+  },
+  "ukraine_western_aid_prolongs_war": {
+    "public_title": "Does Western aid prolong the Ukraine war without producing victory?",
+    "public_position": "Yes.",
+    "public_summary": "Macgregor urged ending all aid to Kiev and withdrawing U.S. personnel — arguing Washington should host a peace conference rather than prolong the proxy war.",
+    "why_it_matters": "Tests Macgregor's aid-prolongs-war thesis against battlefield and diplomatic outcomes.",
+    "event_kind": "forecast",
+    "scoring_policy": "yes_no",
+    "anchor_capture": "source-archive/statecraft/2025-05-09/source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md",
+    "prediction_object_terms": [
+      "aid",
+      "Kiev",
+      "Ukraine",
+      "Western",
+      "peace"
+    ]
+  },
+  "nato_strategic_exposure_ukraine": {
+    "public_title": "Will NATO survive the Ukraine war?",
+    "public_position": "No.",
+    "public_summary": "Macgregor said NATO would not survive the war — alliance hubris and miscalculation would outlast battlefield stalemate.",
+    "why_it_matters": "Tests whether Macgregor read Ukraine as an existential strain on NATO credibility, not only on Kiev.",
+    "event_kind": "forecast",
+    "scoring_policy": "yes_no",
+    "anchor_capture": "source-archive/statecraft/2025-05-09/source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md",
+    "prediction_object_terms": [
+      "NATO",
+      "Ukraine",
+      "alliance",
+      "collapse"
+    ]
+  },
+  "iran_airpower_cannot_force_submission": {
+    "public_title": "Can air and naval power force Iran to submit?",
+    "public_position": "No.",
+    "public_summary": "Macgregor argued Iran is a natural fortress — bombing cannot produce subjugation to Israeli demands; air power was the wrong instrument.",
+    "why_it_matters": "Tests Macgregor's structural skepticism of coercive air campaigns against Iran.",
+    "event_kind": "forecast",
+    "scoring_policy": "yes_no",
+    "anchor_capture": "source-archive/statecraft/2026-06-26/source-mario-nawfal-macgregor-israel-furious-trump-turkey-syria-lebanon-2026-06-26.md",
+    "prediction_object_terms": [
+      "Iran",
+      "air power",
+      "bomb",
+      "submission",
+      "Israel"
+    ]
+  },
+  "us_israel_iran_war_preparation_2025": {
+    "public_title": "Is the U.S. being drawn into a regional war it cannot win?",
+    "public_position": "Yes.",
+    "public_summary": "Macgregor warned that either Washington disengages or risks a regional war — with insurers and Gulf economics making escalation catastrophic.",
+    "why_it_matters": "Maps Macgregor's Iran-war lane to shared registry event on active war preparation and U.S. entry risk.",
+    "event_kind": "diagnostic",
+    "scoring_policy": "diagnostic_confirmation",
+    "anchor_capture": "source-archive/statecraft/2026-06-26/source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md",
+    "prediction_object_terms": [
+      "Iran",
+      "Israel",
+      "regional war",
+      "disengage",
+      "Trump"
+    ]
+  },
+  "israel_sabotages_exit_ramps": {
+    "public_title": "Will Israel sabotage diplomatic exit ramps?",
+    "public_position": "Yes.",
+    "public_summary": "Macgregor argued Netanyahu's circle blocks Trump's exit — attacks timed against agreements and leverage over U.S. policy prevent clean disengagement.",
+    "why_it_matters": "Tests Macgregor's claim that Israel undermines off-ramps rather than allowing U.S.-brokered exits.",
+    "event_kind": "forecast",
+    "scoring_policy": "yes_no",
+    "anchor_capture": "source-archive/statecraft/2026-06-26/source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md",
+    "prediction_object_terms": [
+      "Netanyahu",
+      "Israel",
+      "exit",
+      "ceasefire",
+      "Trump"
+    ]
+  },
+  "gulf_crisis_macro_shock": {
+    "public_title": "Will Gulf escalation produce a global macroeconomic shock?",
+    "public_position": "Yes.",
+    "public_summary": "Macgregor cited LNG, fertilizer, and helium supply-chain shocks — and Trump's own warning of global depression if the Strait stays closed.",
+    "why_it_matters": "Tests Macgregor's macro-shock read of Gulf kinetic escalation beyond the battlefield.",
+    "event_kind": "forecast",
+    "scoring_policy": "yes_no",
+    "anchor_capture": "source-archive/statecraft/2026-06-26/source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md",
+    "prediction_object_terms": [
+      "Gulf",
+      "depression",
+      "LNG",
+      "Strait",
+      "macro"
+    ]
+  },
+  "us_forward_presence_obsolete": {
+    "public_title": "Is U.S. forward military presence obsolete?",
+    "public_position": "Yes.",
+    "public_summary": "Macgregor argued missiles and drones make forward bases indefensible — the only solution is disengagement and bringing forces home.",
+    "why_it_matters": "Tests Macgregor's structural claim that presence models fail against modern strike networks.",
+    "event_kind": "forecast",
+    "scoring_policy": "yes_no",
+    "anchor_capture": "source-archive/statecraft/2026-06-26/source-mario-nawfal-macgregor-israel-furious-trump-turkey-syria-lebanon-2026-06-26.md",
+    "prediction_object_terms": [
+      "bases",
+      "forward presence",
+      "missiles",
+      "disengage",
+      "Gulf"
+    ]
+  }
+}

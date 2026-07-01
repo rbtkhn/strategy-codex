@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "description": "Curated capture map for Mercouris prediction public record v1 (two-event pilot stub)",
-    "rows": 2
+    "description": "Curated capture map for Mercouris prediction public record v3",
+    "rows": 4
   },
   "rows": [
     {
@@ -9,14 +9,44 @@
       "capture": "source-archive/statecraft/2026-06-26/source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md",
       "stance": "no",
       "speech_act": "initial",
-      "public_excerpt": "And about a week ago, Putin's spokesman, Putin's foreign policy aid rather, Yuri Ushakov, said that the Russians are no longer waiting for the Americans to implement the Anchorage Agreement. It has become clear to the Russians that the Anchorage Agreement will not be implemented. And what the Russians are now doing instead is waiting for the military victory on the Ukrainian battlefields which will be achieved by their army."
+      "public_excerpt": "And about a week ago, Putin's spokesman, Putin's foreign policy aid rather, Yuri Ushakov, said that the Russians are no longer waiting for the Americans to implement the Anchorage Agreement. It has become clear to the Russians that the Anchorage Agreement will not be implemented. And what the Russians are now doing instead is waiting for the military victory on the Ukrainian battlefields which will be achieved by their army.",
+      "quote_speaker": "mercouris",
+      "public_excerpt_raw": "And about a week ago, Putin's spokesman, Putin's foreign policy aid rather, Yuri Ushakov, said that the Russians are no longer waiting for the Americans to implement the Anchorage Agreement. It has become clear to the Russians that the Anchorage Agreement will not be implemented. And what the Russians are now doing instead is waiting for the military victory on the Ukrainian battlefields which will be achieved by their army.",
+      "asr_repair": "none",
+      "public_display": true
+    },
+    {
+      "event_id": "ukraine_escalation_russian_capitulation",
+      "capture": "source-archive/statecraft/2026-06-26/source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md",
+      "stance": "no",
+      "speech_act": "restated",
+      "public_excerpt": "it became clear increasingly to the Russians by November 2025 at the latest that Trump would not be able to force the Ukrainians or the Europeans to accept kept the basis the agreement that Trump and Putin had made with each other in Anchorage",
+      "quote_speaker": "mercouris",
+      "public_excerpt_raw": "it became clear increasingly to the Russians by November 2025 at the latest that Trump would not be able to force the Ukrainians or the Europeans to accept kept the basis the agreement that Trump and Putin had made with each other in Anchorage",
+      "asr_repair": "none",
+      "public_display": true
     },
     {
       "event_id": "us_israel_iran_war_preparation_2025",
       "capture": "source-archive/statecraft/2026-06-14/source-alexander-mercouris-us-iran-mou-iran-terms-konstantinovka-close-to-fall-2026-06-14.md",
       "stance": "yes",
       "speech_act": "initial",
-      "public_excerpt": "over the last 24 hours after what appeared to be an intense pattern of escalation over the previous two weeks with the United States and Iran trading blows and trading blows increasingly aggressively and with Iran also launching missile strikes on Israel and Israel countering with air strikes and missile strikes against Iran"
+      "public_excerpt": "over the last 24 hours after what appeared to be an intense pattern of escalation over the previous two weeks with the United States and Iran trading blows and trading blows increasingly aggressively and with Iran also launching missile strikes on Israel and Israel countering with air strikes and missile strikes against Iran",
+      "quote_speaker": "mercouris",
+      "public_excerpt_raw": "over the last 24 hours after what appeared to be an intense pattern of escalation over the previous two weeks with the United States and Iran trading blows and trading blows increasingly aggressively and with Iran also launching missile strikes on Israel and Israel countering with air strikes and missile strikes against Iran",
+      "asr_repair": "none",
+      "public_display": true
+    },
+    {
+      "event_id": "us_israel_iran_war_preparation_2025",
+      "capture": "source-archive/statecraft/2026-06-26/source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md",
+      "stance": "yes",
+      "speech_act": "restated",
+      "public_excerpt": "Going briefly now to the topic of Iran. I've pointed out that the MOU the agreement that the Iranians and the Americans signed about a week ago, 10 days ago, was not a conclusive, definitive end to the conflict or a conclusive and definitive victory for Iran.",
+      "quote_speaker": "mercouris",
+      "public_excerpt_raw": "Going briefly now to the topic of Iran. I've pointed out that the MOU the agreement that the Iranians and the Americans signed about a week ago, 10 days ago, was not a conclusive, definitive end to the conflict or a conclusive and definitive victory for Iran.",
+      "asr_repair": "none",
+      "public_display": true
     }
   ]
 }

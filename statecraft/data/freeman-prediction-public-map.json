@@ -89,7 +89,9 @@
       "Iran",
       "directly",
       "involve themselves"
-    ]
+    ],
+    "coverage_status": "under_sourced",
+    "coverage_note": "Pilot curated through Mar 2025 anchor; later shift appearances pending capture-map expansion."
   },
   "china_tariff_capitulation_2025": {
     "public_title": "Would China capitulate to Trump's tariff pressure?",

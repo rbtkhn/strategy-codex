@@ -135,7 +135,7 @@ def _mercouris_config() -> VoiceConfig:
         predictions_md_path=md_out,
         thesis_map_path=thesis_map,
         crawl_artifact_path=crawl,
-        schema="mercouris-predictions-v1",
+        schema="mercouris-predictions-v3",
         page_title="# Alexander Mercouris Prediction Record",
         speaker_display_name="Alexander Mercouris",
         citation_prefix="— Alexander Mercouris,",
@@ -147,9 +147,47 @@ def _mercouris_config() -> VoiceConfig:
     )
 
 
+MACGREGOR_PILOT_EVENT_ORDER: tuple[str, ...] = (
+    "ukraine_escalation_russian_capitulation",
+    "ukraine_western_aid_prolongs_war",
+    "nato_strategic_exposure_ukraine",
+    "iran_airpower_cannot_force_submission",
+    "us_israel_iran_war_preparation_2025",
+    "israel_sabotages_exit_ramps",
+    "gulf_crisis_macro_shock",
+    "us_forward_presence_obsolete",
+)
+
+MACGREGOR_WIRE_STUBS: dict[str, str] = {}
+
+
+def _macgregor_config() -> VoiceConfig:
+    public_map, capture_map, json_out, md_out, thesis_map, crawl = _voice_data_paths("macgregor")
+    return VoiceConfig(
+        speaker="macgregor",
+        pilot_event_order=MACGREGOR_PILOT_EVENT_ORDER,
+        public_map_path=public_map,
+        capture_map_path=capture_map,
+        predictions_json_path=json_out,
+        predictions_md_path=md_out,
+        thesis_map_path=thesis_map,
+        crawl_artifact_path=crawl,
+        schema="macgregor-predictions-v3",
+        page_title="# Douglas Macgregor Prediction Record",
+        speaker_display_name="Douglas Macgregor",
+        citation_prefix="— Douglas Macgregor,",
+        default_channel="Judging Freedom",
+        builder_script="scripts/build_voice_predictions.py --speaker macgregor",
+        checker_script="scripts/check_voice_predictions.py --speaker macgregor",
+        bootstrap_script="scripts/bootstrap_voice_capture_map.py --speaker macgregor --check",
+        wire_stubs=MACGREGOR_WIRE_STUBS,
+    )
+
+
 VOICE_REGISTRY: dict[str, VoiceConfig] = {
     "freeman": _freeman_config(),
     "mercouris": _mercouris_config(),
+    "macgregor": _macgregor_config(),
 }
 
 
@@ -254,6 +292,34 @@ RECORD_LABELS: dict[str, str] = {
     "diagnostic": "Open — diagnostic",
 }
 
+
+def reiteration_strength(appearance_count: int) -> str:
+    if appearance_count <= 1:
+        return "single"
+    if appearance_count <= 3:
+        return "low"
+    if appearance_count <= 6:
+        return "medium"
+    if appearance_count <= 10:
+        return "high"
+    return "very high"
+
+
+def format_horizon_label(
+    event_public: dict[str, Any],
+    registry_event: dict[str, Any],
+) -> str:
+    kind = str(event_public.get("event_kind") or "")
+    if kind == "trajectory":
+        return "Structural trajectory"
+    if kind == "diagnostic":
+        return "Diagnostic"
+    if registry_event.get("close_date"):
+        return "Short (voice-named date)"
+    if registry_event.get("closure_trigger"):
+        return "Medium (event-closure trigger)"
+    return "Forecast"
+
 STANCE_VALUES = frozenset({"yes", "no", "uncertain"})
 
 MIN_ANCHOR_WORDS = 40
@@ -326,8 +392,9 @@ def quote_speakers_for(guest_speaker: str) -> frozenset[str]:
 
 def infer_guest_speaker_from_path(path: Path) -> str:
     name = path.name.casefold()
-    if "mercouris" in name:
-        return "mercouris"
+    for speaker in sorted(VOICE_REGISTRY.keys(), key=len, reverse=True):
+        if speaker in name:
+            return speaker
     return "freeman"
 
 

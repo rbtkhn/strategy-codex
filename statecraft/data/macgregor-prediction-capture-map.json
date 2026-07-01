@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "description": "Curated capture map for Macgregor prediction public record v3 (eight-event pilot)",
+    "rows": 8
+  },
+  "rows": [
+    {
+      "event_id": "ukraine_escalation_russian_capitulation",
+      "capture": "source-archive/statecraft/2025-05-09/source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md",
+      "stance": "no",
+      "speech_act": "initial",
+      "public_excerpt": "I think President Putin has made it very clear that this war is going to end on the terms that Russian military power impose. That's his view. He said it will be dictated by the logic of the battlefield for all intents and purposes. And I think he's right. We we certainly can't bring anything to this any longer.",
+      "quote_speaker": "macgregor",
+      "public_excerpt_raw": "I think President Putin has made it very clear that this war is going to end on the terms that Russian military power impose. That's his view. He said it will be dictated by the logic of the battlefield for all intents and purposes. And I think he's right. We we certainly can't bring anything to this any longer.",
+      "asr_repair": "none",
+      "public_display": true
+    },
+    {
+      "event_id": "ukraine_western_aid_prolongs_war",
+      "capture": "source-archive/statecraft/2025-05-09/source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md",
+      "stance": "yes",
+      "speech_act": "initial",
+      "public_excerpt": "I had urged him to just end all aid to this heinous regime in Kiev and withdraw all all US military personnel and and civilians from Ukraine. Period. Get out. End it. Tell the Europeans we're out. We'll be happy to host a peace conference where you and the Russians can sit down and work out future borders, but we're not we're not going to stay.",
+      "quote_speaker": "macgregor",
+      "public_excerpt_raw": "I had urged him to just end all aid to this heinous regime in Kiev and withdraw all all US military personnel and and civilians from Ukraine. Period. Get out. End it. Tell the Europeans we're out. We'll be happy to host a peace conference where you and the Russians can sit down and work out future borders, but we're not we're not going to stay.",
+      "asr_repair": "none",
+      "public_display": true
+    },
+    {
+      "event_id": "nato_strategic_exposure_ukraine",
+      "capture": "source-archive/statecraft/2025-05-09/source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md",
+      "stance": "yes",
+      "speech_act": "initial",
+      "public_excerpt": "I have said from the beginning that NATO would not survive this war. Whenever this war ends, I think NATO will end. Uh we we are clearly in a very fragile economic position. We want to leave. We should have left Europe largely by the mid 1990s.",
+      "quote_speaker": "macgregor",
+      "public_excerpt_raw": "I have said from the beginning that NATO would not survive this war. Whenever this war ends, I think NATO will end. Uh we we are clearly in a very fragile economic position. We want to leave. We should have left Europe largely by the mid 1990s.",
+      "asr_repair": "none",
+      "public_display": true
+    },
+    {
+      "event_id": "iran_airpower_cannot_force_submission",
+      "capture": "source-archive/statecraft/2026-06-26/source-mario-nawfal-macgregor-israel-furious-trump-turkey-syria-lebanon-2026-06-26.md",
+      "stance": "no",
+      "speech_act": "initial",
+      "public_excerpt": "You want to bomb them until they submit to Israeli demands. Okay. What do we bomb? Show me the targets that are going to make make the Iranians change their minds and suddenly submit to Israel. That should never have happened. This whole thing should never have occurred.",
+      "quote_speaker": "macgregor",
+      "public_excerpt_raw": "You want to bomb them until they submit to Israeli demands. Okay. What do we bomb? Show me the targets that are going to make make the Iranians change their minds and suddenly submit to Israel. That should never have happened. This whole thing should never have occurred.",
+      "asr_repair": "none",
+      "public_display": true
+    },
+    {
+      "event_id": "us_israel_iran_war_preparation_2025",
+      "capture": "source-archive/statecraft/2026-06-26/source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md",
+      "stance": "yes",
+      "speech_act": "initial",
+      "public_excerpt": "Either we get out and disengage, period, or we risk this continuing to the point where finally you will get the regional war that everyone is warned about. is once the Turks enter this that then becomes a truly regional war.",
+      "quote_speaker": "macgregor",
+      "public_excerpt_raw": "Either we get out and disengage, period, or we risk this continuing to the point where finally you will get the regional war that everyone is warned about. is once the Turks enter this that then becomes a truly regional war.",
+      "asr_repair": "none",
+      "public_display": true
+    },
+    {
+      "event_id": "israel_sabotages_exit_ramps",
+      "capture": "source-archive/statecraft/2026-06-26/source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md",
+      "stance": "yes",
+      "speech_act": "restated",
+      "public_excerpt": "He says, \"Mr. Mr. Netanyahu, we've done all we're going to do. Thank you very much. We're out. You're on your own. Uh he hasn't been able to do that. He's under duress. >> But unless he does that, Netanyahu and the IDF will continue their invasion, occupation, and and killing in southern Lebanon.",
+      "quote_speaker": "macgregor",
+      "public_excerpt_raw": "He says, \"Mr. Mr. Netanyahu, we've done all we're going to do. Thank you very much. We're out. You're on your own. Uh he hasn't been able to do that. He's under duress. >> But unless he does that, Netanyahu and the IDF will continue their invasion, occupation, and and killing in southern Lebanon.",
+      "asr_repair": "none",
+      "public_display": true
+    },
+    {
+      "event_id": "gulf_crisis_macro_shock",
+      "capture": "source-archive/statecraft/2026-06-26/source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md",
+      "stance": "yes",
+      "speech_act": "initial",
+      "public_excerpt": "If we don't we're going to we're facing a global depression. That's what he said judge. So that's clear unambiguous evidence that President Trump understands the consequences. What he doesn't seem to be able to do is tie all the rest of this together back to Israel.",
+      "quote_speaker": "macgregor",
+      "public_excerpt_raw": "If we don't we're going to we're facing a global depression. That's what he said judge. So that's clear unambiguous evidence that President Trump understands the consequences. What he doesn't seem to be able to do is tie all the rest of this together back to Israel.",
+      "asr_repair": "none",
+      "public_display": true
+    },
+    {
+      "event_id": "us_forward_presence_obsolete",
+      "capture": "source-archive/statecraft/2026-06-26/source-mario-nawfal-macgregor-israel-furious-trump-turkey-syria-lebanon-2026-06-26.md",
+      "stance": "yes",
+      "speech_act": "initial",
+      "public_excerpt": "The same thing is true now in the Gulf. You want to move your bases further away. Okay, that means we build future missiles with a,000 milei range that carry 2,000lb warheads that'll do the same damage. We none of this makes any sense. There is only one solution. That solution is apparent and obvious. Disengage, get out. Americans, go home. Now, that's what the Americans right now in Washington don't want.",
+      "quote_speaker": "macgregor",
+      "public_excerpt_raw": "The same thing is true now in the Gulf. You want to move your bases further away. Okay, that means we build future missiles with a,000 milei range that carry 2,000lb warheads that'll do the same damage. We none of this makes any sense. There is only one solution. That solution is apparent and obvious. Disengage, get out. Americans, go home. Now, that's what the Americans right now in Washington don't want.",
+      "asr_repair": "none",
+      "public_display": true
+    }
+  ]
+}

@@ -18,7 +18,8 @@
         "Israel is is -> Israel is",
         "Extended to moral-authority clause in capture"
       ],
-      "host_setup": null
+      "host_setup": null,
+      "child_event_id": "israel_moral_pariah_status"
     },
     {
       "event_id": "israel_self_destruction_trajectory",
@@ -33,7 +34,8 @@
       "asr_repair_notes": [
         "public of that Preposterous map -> publication of that preposterous map"
       ],
-      "host_setup": null
+      "host_setup": null,
+      "child_event_id": "israel_regional_isolation"
     },
     {
       "event_id": "israel_self_destruction_trajectory",
@@ -62,7 +64,8 @@
       "asr_repair": "none",
       "public_display": true,
       "asr_repair_notes": [],
-      "host_setup": null
+      "host_setup": null,
+      "child_event_id": "israel_military_overextension"
     },
     {
       "event_id": "israel_self_destruction_trajectory",
@@ -119,7 +122,8 @@
       "asr_repair": "punctuation_capitalization_filler_boundary",
       "public_display": true,
       "asr_repair_notes": [],
-      "host_setup": null
+      "host_setup": null,
+      "child_event_id": "israel_us_support_erosion"
     },
     {
       "event_id": "israel_self_destruction_trajectory",
@@ -145,7 +149,8 @@
       "asr_repair": "none",
       "public_display": true,
       "asr_repair_notes": [],
-      "host_setup": null
+      "host_setup": null,
+      "child_event_id": "israel_economic_emigration_pressure"
     },
     {
       "event_id": "israel_self_destruction_trajectory",
@@ -171,7 +176,8 @@
       "asr_repair": "none",
       "public_display": true,
       "asr_repair_notes": [],
-      "host_setup": null
+      "host_setup": null,
+      "child_event_id": "israel_moral_pariah_status"
     },
     {
       "event_id": "israel_self_destruction_trajectory",

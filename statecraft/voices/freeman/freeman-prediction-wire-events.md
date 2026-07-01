@@ -25,8 +25,8 @@ Curated rows live in [freeman-prediction-capture-map.json](../../data/freeman-pr
 Each event on the shelf exposes one collapsible **Source trail** table. Required header (checker fails on legacy `Appearance | Exact words`):
 
 ```md
-| Date | Channel | Episode | Stance | Excerpt |
-| --- | --- | --- | --- | --- |
+| Date | Channel | Episode | Stance | Speech act | Excerpt |
+| --- | --- | --- | --- | --- | --- |
 ```
 
 | Column | Source |
@@ -35,6 +35,7 @@ Each event on the shelf exposes one collapsible **Source trail** table. Required
 | **Channel** | `citation.channel` |
 | **Episode** | `[citation.title](youtube_url)` when URL present; plain title otherwise |
 | **Stance** | row `stance` |
+| **Speech act** | row `speech_act` |
 | **Excerpt** | `public_excerpt` (+ host setup / context for **`mixed`**) |
 
 YouTube links are optional when the archive capture has no watch URL. Anchor blockquotes on the shelf use the same speaker-aware shapes as the excerpt column.
@@ -46,12 +47,25 @@ YouTube links are optional when the archive capture has no watch URL. Anchor blo
 | `israel_self_destruction_trajectory` | open | Ongoing trajectory (Jan 7) | [prediction-resolution-israel-self-destruction-trajectory.md](../../notes/wire/prediction-resolution-israel-self-destruction-trajectory.md) | [Israel trajectory register](../../notes/2025-freeman-israel-trajectory-register.md) | [§ israel](freeman-predictions.md#israel_self_destruction_trajectory) |
 | `ukraine_escalation_russian_capitulation` | resolved · **no** | Kellogg negation (Jan 10) | [prediction-resolution-ukraine-escalation-russian-capitulation.md](../../notes/wire/prediction-resolution-ukraine-escalation-russian-capitulation.md) | — | [§ ukraine](freeman-predictions.md#ukraine_escalation_russian_capitulation) |
 | `gaza_hostage_deal_jan_2025` | resolved · **yes** | Deal reached (wire Jan 21) | [prediction-resolution-gaza-hostage-deal-jan-2025.md](../../notes/wire/prediction-resolution-gaza-hostage-deal-jan-2025.md) | — | [§ hostage](freeman-predictions.md#gaza_hostage_deal_jan_2025) |
-| `gaza_ceasefire_holds_2025` | open | Pause-not-ceasefire; resume trigger | [prediction-resolution-gaza-ceasefire-holds-2025.md](../../notes/wire/prediction-resolution-gaza-ceasefire-holds-2025.md) | [IGL Gaza ceasefire register](../../notes/2025-freeman-igl-gaza-ceasefire-register.md) | [§ ceasefire](freeman-predictions.md#gaza_ceasefire_holds_2025) |
+| `gaza_ceasefire_holds_2025` | resolved · **no** | Pause-not-ceasefire; resume Oct 2025 | [prediction-resolution-gaza-ceasefire-holds-2025.md](../../notes/wire/prediction-resolution-gaza-ceasefire-holds-2025.md) | [IGL Gaza ceasefire register](../../notes/2025-freeman-igl-gaza-ceasefire-register.md) | [§ ceasefire](freeman-predictions.md#gaza_ceasefire_holds_2025) |
 | `us_israel_iran_war_preparation_2025` | open | Active prep (Jan 21) | [prediction-resolution-us-israel-iran-war-preparation-2025.md](../../notes/wire/prediction-resolution-us-israel-iran-war-preparation-2025.md) | [IGL Iran war push register](../../notes/2025-freeman-igl-iran-war-push-register.md) | [§ iran prep](freeman-predictions.md#us_israel_iran_war_preparation_2025) |
 | `iran_great_power_direct_war_entry` | open | No direct entry (Mar 28) | [prediction-resolution-iran-great-power-direct-war-entry.md](../../notes/wire/prediction-resolution-iran-great-power-direct-war-entry.md) | — · related: `us_israel_iran_war_preparation_2025` | [§ great-power](freeman-predictions.md#iran_great_power_direct_war_entry) |
 | `china_tariff_capitulation_2025` | open | No capitulation (Apr 22) | [prediction-resolution-china-tariff-capitulation-2025.md](../../notes/wire/prediction-resolution-china-tariff-capitulation-2025.md) | — | [§ china tariff](freeman-predictions.md#china_tariff_capitulation_2025) |
 
 **Related pairs (thesis map):** Iran war prep ↔ great-power direct entry — score lanes separately; use `title_conflict_patterns` and register strictness so bridge captures do not bleed.
+
+### Israel trajectory child dimensions (registry)
+
+Parent `israel_self_destruction_trajectory` decomposes into six preset child events in [event-registry.json](../../data/event-registry.json). Freeman capture rows may carry optional `child_event_id` for notes-lane hooks; the public shelf keeps the parent umbrella until operator expands enrollment.
+
+| child_event_id | Dimension |
+| --- | --- |
+| `israel_moral_pariah_status` | Western / global moral pariah treatment |
+| `israel_regional_isolation` | Regional diplomatic isolation |
+| `israel_us_support_erosion` | U.S. political / public support erosion |
+| `israel_military_overextension` | Military overextension / blowback |
+| `israel_economic_emigration_pressure` | Economic strain + emigration |
+| `israel_internal_political_fragmentation` | Domestic political fragmentation |
 
 ## Wire closure workflow
 

@@ -38,6 +38,13 @@ def run_quick() -> int:
         (["python3", "scripts/check_work_record_doctrine.py"], "work/record doctrine banner"),
         (["python3", "scripts/validate_all_schemas.py", "--scope", "prediction"], "schema validation"),
         (["python3", "scripts/check_event_integrity.py"], "event integrity"),
+        (["python3", "scripts/check_event_registry.py"], "event registry"),
+        (
+            ["python3", "scripts/check_event_registry.py", "--strict-enrolled"],
+            "event registry (strict enrolled falsifiers)",
+        ),
+        (["python3", "scripts/build_prediction_event_pages.py"], "build prediction event pages"),
+        (["python3", "scripts/build_prediction_event_pages.py", "--check"], "prediction event pages fresh"),
         (["python3", "scripts/build_prediction_registry.py"], "build prediction registry"),
         (["python3", "scripts/check_prediction_registry.py"], "prediction registry"),
         (["python3", "scripts/build_prediction_metrics.py"], "build prediction metrics"),

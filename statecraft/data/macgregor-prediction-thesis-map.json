@@ -1,0 +1,50 @@
+{
+  "ukraine_escalation_russian_capitulation": {
+    "title_patterns": ["victory day", "battlefield", "capitulation", "putin", "ukraine"],
+    "register_notes": [],
+    "related_event_ids": ["ukraine_western_aid_prolongs_war", "nato_strategic_exposure_ukraine"],
+    "exclude_patterns": []
+  },
+  "ukraine_western_aid_prolongs_war": {
+    "title_patterns": ["aid", "kiev", "withdraw", "peace conference", "ukraine"],
+    "register_notes": [],
+    "related_event_ids": ["ukraine_escalation_russian_capitulation"],
+    "exclude_patterns": []
+  },
+  "nato_strategic_exposure_ukraine": {
+    "title_patterns": ["nato", "alliance", "ukraine", "proxy war"],
+    "register_notes": [],
+    "related_event_ids": [],
+    "exclude_patterns": []
+  },
+  "iran_airpower_cannot_force_submission": {
+    "title_patterns": ["iran", "bomb", "air power", "submission", "fortress"],
+    "register_notes": [],
+    "related_event_ids": ["us_israel_iran_war_preparation_2025"],
+    "exclude_patterns": []
+  },
+  "us_israel_iran_war_preparation_2025": {
+    "title_patterns": ["iran", "israel", "regional war", "judgment day", "disengage"],
+    "register_notes": [],
+    "related_event_ids": ["iran_airpower_cannot_force_submission", "gulf_crisis_macro_shock"],
+    "exclude_patterns": []
+  },
+  "israel_sabotages_exit_ramps": {
+    "title_patterns": ["netanyahu", "exit", "disengage", "lebanon", "ceasefire"],
+    "register_notes": [],
+    "related_event_ids": [],
+    "exclude_patterns": []
+  },
+  "gulf_crisis_macro_shock": {
+    "title_patterns": ["depression", "strait", "lng", "gulf", "macro"],
+    "register_notes": [],
+    "related_event_ids": [],
+    "exclude_patterns": []
+  },
+  "us_forward_presence_obsolete": {
+    "title_patterns": ["bases", "forward", "disengage", "missiles", "obsolete"],
+    "register_notes": [],
+    "related_event_ids": [],
+    "exclude_patterns": []
+  }
+}
