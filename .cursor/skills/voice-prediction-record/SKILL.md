@@ -4,7 +4,7 @@ description: 'Curate and rebuild a speaker prediction shelf from archive capture
 preferred_activation: voice prediction record
 activation: voice prediction record
 portable: true
-version: 0.2.4
+version: 0.2.5
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -229,7 +229,15 @@ Full orchestrator:
 python3 scripts/run_prediction_pipeline.py
 ```
 
-Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **signal extraction** → **ENGM (epistemic generative state)** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **signal extraction** → **ENGM (epistemic generative state)** → **PR2 calibration loss** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+
+**PR2 / calibration loss (advisory):**
+
+- **Read-only:** `epistemic-calibration-loss.json` — unified `L` from prediction error, Brier, entropy misalignment, regime-shift delay.
+- **Resolved-only Brier:** `y_true` from registry `outcome`; `y_pred` from ENGM `event_probability`; low-N WARN when resolved count &lt; 5.
+- **Not training:** `interpretation: calibration_metric`; `calibration_source: heuristic_v1` — metric for future tuning, not Record truth.
+- **Pipeline placement:** after ENGM check, before voice shelf rebuild.
+- **Checker:** `python3 scripts/check_epistemic_calibration_loss.py --advisory`
 
 **ENGM / PR1 — epistemic generative model (advisory):**
 

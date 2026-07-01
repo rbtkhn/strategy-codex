@@ -4769,3 +4769,83 @@ Routing: [event-system.md](../docs/statecraft/event-system.md) (ENGM section) ·
 **Pattern promotion:** defer until weekly brief or cross-voice matrix consumes `epistemic-generative-state.json` without new join law beyond probabilistic_projection.
 
 ---
+
+## 2026-06-29 - ENGM PR2 (epistemic calibration loss — heuristic v1)
+
+**Tag:** `voice-prediction` · `engm` · `calibration` · `brier` · `epistemic-loss`  
+**Cross-link:** [§ ENGM PR1 (2026-06-29)](#2026-06-29---engm-pr1-epistemic-narrative-generative-model--heuristic-v1) — PR2 consumes `epistemic-generative-state.json` + registry outcomes; does **not** train ENGM weights or mutate registry.
+
+### Trigger
+
+Post-PR1 the machine had generative projections but no unified scalar for **system quality over time**. Operator locked **PR2 heuristic stub**: advisory calibration loss combining prediction error, Brier, entropy misalignment, and regime-shift delay — stdlib-only, resolved-only Brier ground truth, no training loop.
+
+### Extracted law
+
+**1. Unified loss (heuristic v1)**
+
+```text
+L = α·prediction_error + β·brier_score + γ·entropy_misalignment + δ·regime_shift_delay
+default weights: α=β=0.35, γ=δ=0.15
+interpretation: calibration_metric — not Record truth, not optimization receipt
+```
+
+**2. Resolved-only Brier / prediction error**
+
+```text
+y_true: registry outcome yes→1, no→0 (resolved events only)
+y_pred: ENGM event_probability (heuristic P(positive outcome))
+calibration_scope.brier_eligible + low_n_advisory when N < 5 — WARN only
+```
+
+**3. Entropy misalignment**
+
+```text
+H(predicted): pooled ENGM observation_probs (sensor_weight-weighted)
+H(observed): timeline stance histogram → observation classes
+term: |H(pred) − H(obs)| + 0.05 overconfidence nudge on resolved wrong-direction
+```
+
+**4. Regime shift delay (stub)**
+
+```text
+t_actual: earliest timeline.shifts to_date
+detection: signals.regime_shift_detected or regime summary flag
+penalty: clamp01(delay_days / 365); global fallback 0.5 when regime flagged but no event shifts
+artifact: runtime/artifacts/epistemic-calibration-loss.json
+pipeline: after check_epistemic_generative_state --advisory, before voice shelves
+```
+
+### Reapplication
+
+- **Tune heuristics (future PR2b)** — compare `total_loss` trend across pipeline runs; do not auto-write ENGM `W_v` from sparse N=3 resolved set.
+- **Weekly brief (future)** — may surface `components.brier_score` + `low_n_advisory` without promoting loss to shelf SSOT.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Core | `scripts/prediction/epistemic_loss.py` |
+| Build/check | `build_epistemic_calibration_loss.py` · `check_epistemic_calibration_loss.py --advisory` |
+| Schema | `schemas/runtime/epistemic-calibration-loss.schema.json` |
+| Pipeline | steps after ENGM check, before Freeman shelf |
+| Tests | `test_epistemic_loss.py` · `test_build_epistemic_calibration_loss.py` |
+
+### Guardrail
+
+```text
+Do not treat total_loss as Record truth or wire-grade closure
+Do not run gradient descent or fit α–δ from N=3 resolved events in v1
+Do not mirror registry outcome into loss without explicit resolved status
+Do not ERROR-tier CI on low resolved N — advisory WARN only
+Regime delay is stub without historical signal snapshots — document note field
+```
+
+### Current lesson
+
+```text
+PR2 makes the interpretive machine evaluable: generative projections (PR1) now have a calibration scalar for future tuning without collapsing into narrative truth or registry writes.
+```
+
+Routing: [event-system.md](../docs/statecraft/event-system.md) (PR2 section) · [epistemic_loss.py](../scripts/prediction/epistemic_loss.py) · RLJ [ENGM PR1](#2026-06-29---engm-pr1-epistemic-narrative-generative-model--heuristic-v1)
+
+---

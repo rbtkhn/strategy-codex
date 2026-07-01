@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/epistemic-calibration-loss.schema.json",
+  "title": "Epistemic calibration loss artifact",
+  "type": "object",
+  "required": ["_meta", "weights", "components", "total_loss", "interpretation", "events"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source", "calibration_source", "calibration_scope"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" },
+        "calibration_source": { "type": "string", "enum": ["heuristic_v1"] },
+        "eval_date": { "type": "string" },
+        "calibration_scope": {
+          "type": "object",
+          "required": ["resolved_event_count", "brier_eligible", "low_n_advisory"],
+          "properties": {
+            "resolved_event_count": { "type": "integer", "minimum": 0 },
+            "brier_eligible": { "type": "integer", "minimum": 0 },
+            "low_n_advisory": { "type": "boolean" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": true
+    },
+    "weights": {
+      "type": "object",
+      "required": ["alpha", "beta", "gamma", "delta"],
+      "properties": {
+        "alpha": { "type": "number" },
+        "beta": { "type": "number" },
+        "gamma": { "type": "number" },
+        "delta": { "type": "number" }
+      },
+      "additionalProperties": false
+    },
+    "components": {
+      "type": "object",
+      "required": ["prediction_error", "brier_score", "entropy_misalignment", "regime_shift_delay"],
+      "additionalProperties": true
+    },
+    "total_loss": { "type": "number", "minimum": 0, "maximum": 1 },
+    "interpretation": { "type": "string", "enum": ["calibration_metric"] },
+    "events": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["included_in_brier"],
+        "properties": {
+          "included_in_brier": { "type": "boolean" },
+          "y_true": { "type": "number" },
+          "y_pred": { "type": "number" },
+          "prediction_error": { "type": "number" },
+          "brier_score": { "type": "number" },
+          "entropy_misalignment": { "type": "number" },
+          "regime_shift_delay": { "type": "number" },
+          "overconfidence_penalty": { "type": "number" }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

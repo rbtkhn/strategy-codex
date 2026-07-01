@@ -102,6 +102,26 @@ Read-only latent-variable view — **voices are stochastic sensors**, not truth 
 
 **Pipeline:** after signal extraction check; before voice shelves. Checker: `check_epistemic_generative_state.py --advisory`.
 
+### PR2 / calibration loss (epistemic calibration — heuristic v1)
+
+Read-only **evaluation metric** — scores system quality for future tuning; **does not** train weights, mutate registry, or claim Record truth.
+
+| Artifact | Role |
+| --- | --- |
+| `runtime/artifacts/epistemic-calibration-loss.json` | Unified loss `L` + per-event components |
+
+**Loss (heuristic v1):** `L = α·prediction_error + β·brier_score + γ·entropy_misalignment + δ·regime_shift_delay` (default weights 0.35 / 0.35 / 0.15 / 0.15).
+
+**Ground truth:** Brier and prediction error on **resolved registry events only** (`outcome` yes/no → `y_true`; ENGM `event_probability` → `y_pred`). Low-N advisory when resolved count &lt; 5 — WARN only, not ERROR.
+
+**Entropy misalignment:** `|H(predicted) − H(observed)|` from pooled ENGM observation probs vs timeline stance histogram; optional overconfidence nudge on resolved wrong-direction calls.
+
+**Regime shift delay:** timeline `shifts` vs current signal/regime flags (stub — no historical signal snapshots).
+
+**Operator rule:** top-level `interpretation: calibration_metric`; `calibration_source: heuristic_v1` — not optimization output, not deterministic truth.
+
+**Pipeline:** after ENGM check; before voice shelves. Checker: `check_epistemic_calibration_loss.py --advisory`.
+
 ### Status vs record (shelf lane)
 
 | Layer | SSOT | Values |

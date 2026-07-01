@@ -215,6 +215,18 @@ entries:
         - '"do_not_edit"'
         - "build_epistemic_generative_state.py"
 
+  - id: epistemic-calibration-loss-json
+    path: runtime/artifacts/epistemic-calibration-loss.json
+    category: generated
+    generator: scripts/build_epistemic_calibration_loss.py
+    check_args: ["--check"]
+    drift_group: prediction-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_epistemic_calibration_loss.py"
+
   - id: freeman-predictions-md
     path: statecraft/voices/freeman/freeman-predictions.md
     category: generated

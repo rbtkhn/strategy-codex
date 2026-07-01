@@ -40,6 +40,9 @@ schemas:
   epistemic_generative_state:
     path: schemas/runtime/epistemic-generative-state.schema.json
     applies_to: runtime/artifacts/epistemic-generative-state.json
+  epistemic_calibration_loss:
+    path: schemas/runtime/epistemic-calibration-loss.schema.json
+    applies_to: runtime/artifacts/epistemic-calibration-loss.json
     format: json
     scope: prediction
 

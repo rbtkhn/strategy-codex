@@ -35,6 +35,11 @@ STEPS: list[tuple[str, list[str]]] = [
         "check_epistemic_generative_state",
         ["python3", "scripts/check_epistemic_generative_state.py", "--advisory"],
     ),
+    ("build_epistemic_calibration_loss", ["python3", "scripts/build_epistemic_calibration_loss.py"]),
+    (
+        "check_epistemic_calibration_loss",
+        ["python3", "scripts/check_epistemic_calibration_loss.py", "--advisory"],
+    ),
     ("build_freeman_predictions", ["python3", "scripts/build_freeman_predictions.py"]),
     (
         "build_mercouris_predictions",
