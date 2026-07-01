@@ -241,6 +241,49 @@ entries:
     check_args: ["--speaker", "mercouris", "--check"]
     drift_group: mercouris-capture-map
 
+  - id: macgregor-predictions-md
+    path: statecraft/voices/macgregor/macgregor-predictions.md
+    category: generated
+    generator: scripts/build_voice_predictions.py
+    check_args: ["--speaker", "macgregor", "--check", "--md-only"]
+    drift_group: macgregor-predictions
+    header:
+      type: html_comment
+      patterns:
+        - "GENERATED FILE"
+        - "build_voice_predictions.py"
+
+  - id: macgregor-predictions-json
+    path: statecraft/voices/macgregor/macgregor-predictions.json
+    category: generated
+    generator: scripts/build_voice_predictions.py
+    check_args: ["--speaker", "macgregor", "--check", "--json-only"]
+    drift_group: macgregor-predictions
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_voice_predictions.py"
+
+  - id: macgregor-prediction-capture-map
+    path: statecraft/data/macgregor-prediction-capture-map.json
+    category: work
+    generator: scripts/bootstrap_voice_capture_map.py
+    check_args: ["--speaker", "macgregor", "--check"]
+    drift_group: macgregor-capture-map
+
+  - id: prediction-cross-voice-matrix
+    path: statecraft/predictions/cross-voice-matrix.md
+    category: generated
+    generator: scripts/build_prediction_event_pages.py
+    check_args: ["--check"]
+    drift_group: prediction-event-pages
+    header:
+      type: html_comment
+      patterns:
+        - "GENERATED FILE"
+        - "build_prediction_event_pages.py"
+
   - id: work-dev-integration-status
     path: docs/skill-work/work-dev/generated/integration-status.generated.md
     category: generated
