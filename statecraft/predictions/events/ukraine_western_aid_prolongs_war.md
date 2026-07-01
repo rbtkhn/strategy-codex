@@ -11,6 +11,12 @@
 | --- | --- | --- | --- | --- |
 | macgregor | Yes. | 2025-05-09 | 2025-05-09 | Open — consistent |
 
+## Disagreement (latest voice level)
+
+- **Voices tracked:** 1
+- **Distribution:** {'yes': 1, 'no': 0, 'conditional': 0, 'uncertain': 0}
+- **Score (normalized):** 0.0
+
 ## Registry
 
 - **Falsifier:** Ukraine achieves decisive battlefield victory or durable settlement before aid exhaustion.

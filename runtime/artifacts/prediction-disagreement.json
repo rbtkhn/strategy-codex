@@ -77,6 +77,54 @@
         "disagreement_score_normalized": 0.0
       }
     },
+    "gulf_crisis_macro_shock": {
+      "prediction_level": {
+        "total_predictions": 1,
+        "distribution": {
+          "yes": 1,
+          "no": 0,
+          "conditional": 0,
+          "uncertain": 0
+        },
+        "disagreement_score_raw": 0.0,
+        "disagreement_score_normalized": 0.0
+      },
+      "latest_voice_level": {
+        "total_voices": 1,
+        "distribution": {
+          "yes": 1,
+          "no": 0,
+          "conditional": 0,
+          "uncertain": 0
+        },
+        "disagreement_score_raw": 0.0,
+        "disagreement_score_normalized": 0.0
+      }
+    },
+    "iran_airpower_cannot_force_submission": {
+      "prediction_level": {
+        "total_predictions": 1,
+        "distribution": {
+          "yes": 0,
+          "no": 1,
+          "conditional": 0,
+          "uncertain": 0
+        },
+        "disagreement_score_raw": 0.0,
+        "disagreement_score_normalized": 0.0
+      },
+      "latest_voice_level": {
+        "total_voices": 1,
+        "distribution": {
+          "yes": 0,
+          "no": 1,
+          "conditional": 0,
+          "uncertain": 0
+        },
+        "disagreement_score_raw": 0.0,
+        "disagreement_score_normalized": 0.0
+      }
+    },
     "iran_great_power_direct_war_entry": {
       "prediction_level": {
         "total_predictions": 2,
@@ -101,11 +149,59 @@
         "disagreement_score_normalized": 0.0
       }
     },
+    "israel_sabotages_exit_ramps": {
+      "prediction_level": {
+        "total_predictions": 1,
+        "distribution": {
+          "yes": 1,
+          "no": 0,
+          "conditional": 0,
+          "uncertain": 0
+        },
+        "disagreement_score_raw": 0.0,
+        "disagreement_score_normalized": 0.0
+      },
+      "latest_voice_level": {
+        "total_voices": 1,
+        "distribution": {
+          "yes": 1,
+          "no": 0,
+          "conditional": 0,
+          "uncertain": 0
+        },
+        "disagreement_score_raw": 0.0,
+        "disagreement_score_normalized": 0.0
+      }
+    },
     "israel_self_destruction_trajectory": {
       "prediction_level": {
         "total_predictions": 15,
         "distribution": {
           "yes": 15,
+          "no": 0,
+          "conditional": 0,
+          "uncertain": 0
+        },
+        "disagreement_score_raw": 0.0,
+        "disagreement_score_normalized": 0.0
+      },
+      "latest_voice_level": {
+        "total_voices": 1,
+        "distribution": {
+          "yes": 1,
+          "no": 0,
+          "conditional": 0,
+          "uncertain": 0
+        },
+        "disagreement_score_raw": 0.0,
+        "disagreement_score_normalized": 0.0
+      }
+    },
+    "nato_strategic_exposure_ukraine": {
+      "prediction_level": {
+        "total_predictions": 1,
+        "distribution": {
+          "yes": 1,
           "no": 0,
           "conditional": 0,
           "uncertain": 0
@@ -151,10 +247,10 @@
     },
     "ukraine_escalation_russian_capitulation": {
       "prediction_level": {
-        "total_predictions": 4,
+        "total_predictions": 6,
         "distribution": {
           "yes": 0,
-          "no": 4,
+          "no": 6,
           "conditional": 0,
           "uncertain": 0
         },
@@ -165,7 +261,7 @@
         "total_voices": 1,
         "distribution": {
           "yes": 0,
-          "no": 1,
+          "no": 3,
           "conditional": 0,
           "uncertain": 0
         },
@@ -173,11 +269,11 @@
         "disagreement_score_normalized": 0.0
       }
     },
-    "us_israel_iran_war_preparation_2025": {
+    "ukraine_western_aid_prolongs_war": {
       "prediction_level": {
-        "total_predictions": 7,
+        "total_predictions": 1,
         "distribution": {
-          "yes": 7,
+          "yes": 1,
           "no": 0,
           "conditional": 0,
           "uncertain": 0
@@ -189,6 +285,54 @@
         "total_voices": 1,
         "distribution": {
           "yes": 1,
+          "no": 0,
+          "conditional": 0,
+          "uncertain": 0
+        },
+        "disagreement_score_raw": 0.0,
+        "disagreement_score_normalized": 0.0
+      }
+    },
+    "us_forward_presence_obsolete": {
+      "prediction_level": {
+        "total_predictions": 1,
+        "distribution": {
+          "yes": 1,
+          "no": 0,
+          "conditional": 0,
+          "uncertain": 0
+        },
+        "disagreement_score_raw": 0.0,
+        "disagreement_score_normalized": 0.0
+      },
+      "latest_voice_level": {
+        "total_voices": 1,
+        "distribution": {
+          "yes": 1,
+          "no": 0,
+          "conditional": 0,
+          "uncertain": 0
+        },
+        "disagreement_score_raw": 0.0,
+        "disagreement_score_normalized": 0.0
+      }
+    },
+    "us_israel_iran_war_preparation_2025": {
+      "prediction_level": {
+        "total_predictions": 9,
+        "distribution": {
+          "yes": 9,
+          "no": 0,
+          "conditional": 0,
+          "uncertain": 0
+        },
+        "disagreement_score_raw": 0.0,
+        "disagreement_score_normalized": 0.0
+      },
+      "latest_voice_level": {
+        "total_voices": 1,
+        "distribution": {
+          "yes": 3,
           "no": 0,
           "conditional": 0,
           "uncertain": 0

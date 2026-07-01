@@ -7,7 +7,7 @@ stance: no
 confidence: high
 source: source-archive/statecraft/2025-10-10/source-india-global-left-gaza-ceasefire-wont-last-chas-freeman-2025-10-10.md
 speech_act: self_acknowledged_correct
-status: pending
+status: resolved
 ---
 
 # Freeman — Gaza ceasefire hold (2025-10-10)

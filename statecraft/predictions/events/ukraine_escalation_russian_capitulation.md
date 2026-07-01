@@ -16,7 +16,7 @@
 ## Disagreement (latest voice level)
 
 - **Voices tracked:** 1
-- **Distribution:** {'yes': 0, 'no': 1, 'conditional': 0, 'uncertain': 0}
+- **Distribution:** {'yes': 0, 'no': 3, 'conditional': 0, 'uncertain': 0}
 - **Score (normalized):** 0.0
 
 ## Registry

@@ -162,6 +162,56 @@
       "restatements": {},
       "reviews": {}
     },
+    "gulf_crisis_macro_shock": {
+      "entries": [
+        {
+          "date": "2026-06-26",
+          "speaker": "macgregor",
+          "stance": "yes",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/gulf-crisis-macro-shock-macgregor-2026-06-26.md",
+          "source": "source-archive/statecraft/2026-06-26/source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md",
+          "speech_act": "initial"
+        }
+      ],
+      "latest_by_speaker": {
+        "macgregor": {
+          "date": "2026-06-26",
+          "stance": "yes",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/gulf-crisis-macro-shock-macgregor-2026-06-26.md",
+          "source": "source-archive/statecraft/2026-06-26/source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md"
+        }
+      },
+      "shifts": {},
+      "restatements": {},
+      "reviews": {}
+    },
+    "iran_airpower_cannot_force_submission": {
+      "entries": [
+        {
+          "date": "2026-06-26",
+          "speaker": "macgregor",
+          "stance": "no",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/iran-airpower-cannot-force-submission-macgregor-2026-06-26.md",
+          "source": "source-archive/statecraft/2026-06-26/source-mario-nawfal-macgregor-israel-furious-trump-turkey-syria-lebanon-2026-06-26.md",
+          "speech_act": "initial"
+        }
+      ],
+      "latest_by_speaker": {
+        "macgregor": {
+          "date": "2026-06-26",
+          "stance": "no",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/iran-airpower-cannot-force-submission-macgregor-2026-06-26.md",
+          "source": "source-archive/statecraft/2026-06-26/source-mario-nawfal-macgregor-israel-furious-trump-turkey-syria-lebanon-2026-06-26.md"
+        }
+      },
+      "shifts": {},
+      "restatements": {},
+      "reviews": {}
+    },
     "iran_great_power_direct_war_entry": {
       "entries": [
         {
@@ -205,6 +255,31 @@
           }
         ]
       },
+      "restatements": {},
+      "reviews": {}
+    },
+    "israel_sabotages_exit_ramps": {
+      "entries": [
+        {
+          "date": "2026-06-26",
+          "speaker": "macgregor",
+          "stance": "yes",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/israel-sabotages-exit-ramps-macgregor-2026-06-26.md",
+          "source": "source-archive/statecraft/2026-06-26/source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md",
+          "speech_act": "restated"
+        }
+      ],
+      "latest_by_speaker": {
+        "macgregor": {
+          "date": "2026-06-26",
+          "stance": "yes",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/israel-sabotages-exit-ramps-macgregor-2026-06-26.md",
+          "source": "source-archive/statecraft/2026-06-26/source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md"
+        }
+      },
+      "shifts": {},
       "restatements": {},
       "reviews": {}
     },
@@ -418,6 +493,31 @@
       },
       "reviews": {}
     },
+    "nato_strategic_exposure_ukraine": {
+      "entries": [
+        {
+          "date": "2025-05-09",
+          "speaker": "macgregor",
+          "stance": "yes",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/nato-strategic-exposure-ukraine-macgregor-2025-05-09.md",
+          "source": "source-archive/statecraft/2025-05-09/source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md",
+          "speech_act": "initial"
+        }
+      ],
+      "latest_by_speaker": {
+        "macgregor": {
+          "date": "2025-05-09",
+          "stance": "yes",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/nato-strategic-exposure-ukraine-macgregor-2025-05-09.md",
+          "source": "source-archive/statecraft/2025-05-09/source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md"
+        }
+      },
+      "shifts": {},
+      "restatements": {},
+      "reviews": {}
+    },
     "russia_odessa_control": {
       "entries": [
         {
@@ -498,6 +598,15 @@
           "speech_act": "restated"
         },
         {
+          "date": "2025-05-09",
+          "speaker": "macgregor",
+          "stance": "no",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/ukraine-escalation-russian-capitulation-macgregor-2025-05-09.md",
+          "source": "source-archive/statecraft/2025-05-09/source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md",
+          "speech_act": "initial"
+        },
+        {
           "date": "2025-07-29",
           "speaker": "freeman",
           "stance": "no",
@@ -514,6 +623,15 @@
           "file": "statecraft/notes/predictions/ukraine-kellogg-capitulation-freeman-2026-04-03.md",
           "source": "source-archive/statecraft/2026-04-03/source-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03.md",
           "speech_act": "restated"
+        },
+        {
+          "date": "2026-06-26",
+          "speaker": "mercouris",
+          "stance": "no",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/ukraine-escalation-russian-capitulation-mercouris-2026-06-26.md",
+          "source": "source-archive/statecraft/2026-06-26/source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md",
+          "speech_act": "initial"
         }
       ],
       "latest_by_speaker": {
@@ -523,6 +641,20 @@
           "confidence": "high",
           "file": "statecraft/notes/predictions/ukraine-kellogg-capitulation-freeman-2026-04-03.md",
           "source": "source-archive/statecraft/2026-04-03/source-dialogue-works-amb-chas-freeman-trump-pushes-escalation-israel-s-strategy-collapses-ove-2026-04-03.md"
+        },
+        "macgregor": {
+          "date": "2025-05-09",
+          "stance": "no",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/ukraine-escalation-russian-capitulation-macgregor-2025-05-09.md",
+          "source": "source-archive/statecraft/2025-05-09/source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md"
+        },
+        "mercouris": {
+          "date": "2026-06-26",
+          "stance": "no",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/ukraine-escalation-russian-capitulation-mercouris-2026-06-26.md",
+          "source": "source-archive/statecraft/2026-06-26/source-alexander-mercouris-zelensky-threatens-belarus-kharkov-kiev-lavrov-rubio-bury-anchorage-2026-06-26.md"
         }
       },
       "shifts": {},
@@ -554,6 +686,56 @@
           }
         ]
       },
+      "reviews": {}
+    },
+    "ukraine_western_aid_prolongs_war": {
+      "entries": [
+        {
+          "date": "2025-05-09",
+          "speaker": "macgregor",
+          "stance": "yes",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/ukraine-western-aid-prolongs-war-macgregor-2025-05-09.md",
+          "source": "source-archive/statecraft/2025-05-09/source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md",
+          "speech_act": "initial"
+        }
+      ],
+      "latest_by_speaker": {
+        "macgregor": {
+          "date": "2025-05-09",
+          "stance": "yes",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/ukraine-western-aid-prolongs-war-macgregor-2025-05-09.md",
+          "source": "source-archive/statecraft/2025-05-09/source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md"
+        }
+      },
+      "shifts": {},
+      "restatements": {},
+      "reviews": {}
+    },
+    "us_forward_presence_obsolete": {
+      "entries": [
+        {
+          "date": "2026-06-26",
+          "speaker": "macgregor",
+          "stance": "yes",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/us-forward-presence-obsolete-macgregor-2026-06-26.md",
+          "source": "source-archive/statecraft/2026-06-26/source-mario-nawfal-macgregor-israel-furious-trump-turkey-syria-lebanon-2026-06-26.md",
+          "speech_act": "initial"
+        }
+      ],
+      "latest_by_speaker": {
+        "macgregor": {
+          "date": "2026-06-26",
+          "stance": "yes",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/us-forward-presence-obsolete-macgregor-2026-06-26.md",
+          "source": "source-archive/statecraft/2026-06-26/source-mario-nawfal-macgregor-israel-furious-trump-turkey-syria-lebanon-2026-06-26.md"
+        }
+      },
+      "shifts": {},
+      "restatements": {},
       "reviews": {}
     },
     "us_israel_iran_war_preparation_2025": {
@@ -620,6 +802,24 @@
           "file": "statecraft/notes/predictions/us-israel-iran-prep-freeman-2026-02-24.md",
           "source": "source-archive/statecraft/2026-02-24/source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md",
           "speech_act": "restated"
+        },
+        {
+          "date": "2026-06-14",
+          "speaker": "mercouris",
+          "stance": "yes",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/us-israel-iran-prep-mercouris-2026-06-14.md",
+          "source": "source-archive/statecraft/2026-06-14/source-alexander-mercouris-us-iran-mou-iran-terms-konstantinovka-close-to-fall-2026-06-14.md",
+          "speech_act": "initial"
+        },
+        {
+          "date": "2026-06-26",
+          "speaker": "macgregor",
+          "stance": "yes",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/us-israel-iran-prep-macgregor-2026-06-26.md",
+          "source": "source-archive/statecraft/2026-06-26/source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md",
+          "speech_act": "initial"
         }
       ],
       "latest_by_speaker": {
@@ -629,6 +829,20 @@
           "confidence": "high",
           "file": "statecraft/notes/predictions/us-israel-iran-prep-freeman-2026-02-24.md",
           "source": "source-archive/statecraft/2026-02-24/source-india-global-left-war-iran-inevitable-chas-freeman-2026-02-24.md"
+        },
+        "macgregor": {
+          "date": "2026-06-26",
+          "stance": "yes",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/us-israel-iran-prep-macgregor-2026-06-26.md",
+          "source": "source-archive/statecraft/2026-06-26/source-judging-freedom-macgregor-judgment-day-trump-war-lost-2026-06-26.md"
+        },
+        "mercouris": {
+          "date": "2026-06-14",
+          "stance": "yes",
+          "confidence": "high",
+          "file": "statecraft/notes/predictions/us-israel-iran-prep-mercouris-2026-06-14.md",
+          "source": "source-archive/statecraft/2026-06-14/source-alexander-mercouris-us-iran-mou-iran-terms-konstantinovka-close-to-fall-2026-06-14.md"
         }
       },
       "shifts": {},
