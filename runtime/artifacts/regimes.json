@@ -11,12 +11,12 @@
   "global": {
     "dominant_regime": "fragmentation",
     "regime_counts": {
-      "fragmentation": 15,
-      "stabilization": 8,
+      "fragmentation": 13,
+      "stabilization": 10,
       "transition": 12,
       "convergence": 13
     },
-    "high_entropy_object_count": 17,
+    "high_entropy_object_count": 15,
     "regime_shift_detected": false
   },
   "events": {
@@ -41,10 +41,10 @@
     },
     "gaza_hostage_deal_jan_2025": {
       "object_count": 1,
-      "mean_alignment_entropy": 1.5098,
-      "dominant_regime": "fragmentation",
+      "mean_alignment_entropy": 0.7902,
+      "dominant_regime": "stabilization",
       "regime_counts": {
-        "fragmentation": 1
+        "stabilization": 1
       }
     },
     "gulf_crisis_macro_shock": {
@@ -124,12 +124,12 @@
     },
     "us_israel_iran_war_preparation_2025": {
       "object_count": 10,
-      "mean_alignment_entropy": 1.1741,
+      "mean_alignment_entropy": 1.0331,
       "dominant_regime": "fragmentation",
       "regime_counts": {
-        "fragmentation": 5,
+        "stabilization": 2,
         "transition": 3,
-        "stabilization": 1,
+        "fragmentation": 4,
         "convergence": 1
       }
     }

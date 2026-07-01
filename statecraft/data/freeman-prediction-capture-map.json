@@ -288,23 +288,25 @@
       "capture": "source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md",
       "stance": "yes",
       "speech_act": "initial",
-      "public_excerpt": "If this happens, which does seem likely, it will be thanks to the intervention of Donald Trump. Here we have an outgoing Administration which has been conducting negotiations with the Israelis and Hamas; on several occasions Hamas has agreed to American proposed settlements — they did so six months ago.",
-      "quote_speaker": "mixed",
-      "public_excerpt_raw": "if this happens which does seem likely uh it will be thanks to the intervention of Donald Trump um here we have an outgoing Administration which has been conducting Feist negotiations with the Israelis mostly Hamas on several occasions has agreed to American proposed settlements they did so six months ago",
+      "public_excerpt": "If this happens, which does seem likely, it will be thanks to the intervention of Donald Trump; or so we are told, Netanyahu has been brought to an agreement on the hostage exchange.",
+      "quote_speaker": "freeman",
+      "public_excerpt_raw": "if this happens which does seem likely uh it will be thanks to the intervention of Donald Trump um or so we are told Netanyahu has been brought to an agreement on the hostage exchange",
       "asr_repair": "punctuation_capitalization_obvious_asr",
       "public_display": true,
       "asr_repair_notes": [
-        "Capitalization and punctuation only",
-        "Feist -> negotiations (conservative ASR)"
+        "v2 dry-run: deal-closure wording; dropped bully/coercion phrasing that fed israel_sabotages SAL bleed",
+        "Conservative paraphrase of agreement payoff (~L47); likelihood + Trump + hostage exchange"
       ],
-      "host_setup": "Chris cut — Israelis and Hamas were very close to a ceasefire that would return hostages on both sides.",
+      "host_setup": "Chris cut — Israelis and Hamas were very close to a ceasefire that would return hostages on both sides; Netanyahu had resisted until Steve Witkoff arrived as Trump's envoy.",
       "context_note": "Freeman was answering whether Trump would unlock the hostage deal Netanyahu had resisted.",
       "prediction_object_terms": [
         "Trump",
         "hostage",
         "deal",
-        "settlement",
-        "Netanyahu"
+        "ceasefire",
+        "Netanyahu",
+        "Witkoff",
+        "agreement"
       ]
     },
     {
@@ -340,13 +342,25 @@
       "capture": "source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md",
       "stance": "yes",
       "speech_act": "initial",
-      "public_excerpt": "are Israel and Iran preparing to strike each other as we speak Ambassador the latest report um again in the Israeli press U not in haet for which I have great regard",
-      "quote_speaker": "host",
-      "public_excerpt_raw": "are Israel and Iran preparing to strike each other as we speak Ambassador the latest report um again in the Israeli press U not in haet for which I have great regard",
-      "asr_repair": "none",
-      "public_display": false,
-      "asr_repair_notes": [],
-      "host_setup": null
+      "public_excerpt": "I don't know whether there will be a war or not, but both sides are clearly preparing for one.",
+      "quote_speaker": "freeman",
+      "public_excerpt_raw": "I don't know whether there will be a war or not but both sides are clearly preparing for one",
+      "asr_repair": "punctuation_capitalization_obvious_asr",
+      "public_display": true,
+      "asr_repair_notes": [
+        "v1: replaced host question with Freeman answer",
+        "v2: trimmed bomb-building clause that fed iran_airpower SAL bleed",
+        "v3 dry-run: payoff line only; drone/threat context moved to host_setup"
+      ],
+      "host_setup": "Chris asked whether Israel and Iran were preparing to strike each other. Freeman cited Israeli press on long-range drone deliveries to Iran, ongoing Israeli threats, and judged both sides were clearly preparing for war.",
+      "prediction_object_terms": [
+        "Iran",
+        "Israel",
+        "drones",
+        "war",
+        "preparing",
+        "strike"
+      ]
     },
     {
       "event_id": "us_israel_iran_war_preparation_2025",

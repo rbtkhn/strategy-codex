@@ -121,14 +121,14 @@
       "trajectory": [
         {
           "timestamp": "2025-01-14",
-          "claim": "if this happens which does seem likely uh it will be thanks to the intervention of Donald Trump um here we have an outgoing Administration which has been conducting Feist negotiations with the Israelis mostly Hamas on several occasions has agreed to American proposed settlements they did so six months ago",
+          "claim": "if this happens which does seem likely uh it will be thanks to the intervention of Donald Trump um or so we are told Netanyahu has been brought to an agreement on the hostage exchange",
           "stance": "yes",
           "probability": 0.75,
           "confidence": 0.72,
           "interpretation": "probabilistic_projection",
           "speech_act": "initial",
           "capture": "source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md",
-          "quote_speaker": "mixed",
+          "quote_speaker": "freeman",
           "public_display": true
         }
       ],
@@ -589,15 +589,15 @@
       "trajectory": [
         {
           "timestamp": "2025-01-14",
-          "claim": "are Israel and Iran preparing to strike each other as we speak Ambassador the latest report um again in the Israeli press U not in haet for which I have great regard",
+          "claim": "I don't know whether there will be a war or not but both sides are clearly preparing for one",
           "stance": "yes",
           "probability": 0.75,
           "confidence": 0.72,
           "interpretation": "probabilistic_projection",
           "speech_act": "initial",
           "capture": "source-archive/statecraft/2025-01-14/source-judging-freedom-amb-chas-freeman-netanyahu-instigating-war-with-iran-2025-01-14.md",
-          "quote_speaker": "host",
-          "public_display": false
+          "quote_speaker": "freeman",
+          "public_display": true
         },
         {
           "timestamp": "2025-01-17",

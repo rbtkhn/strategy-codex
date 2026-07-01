@@ -116,9 +116,9 @@ This prediction tests a recurring Washington assumption: that more weapons, tigh
 **Falsifier:** No phase-1 hostage-exchange deal is publicly reached or implemented.  
 **Confirmation criteria:** Phase-1 hostage deal publicly reached and implemented.  
 
-**Host setup:** Chris cut — Israelis and Hamas were very close to a ceasefire that would return hostages on both sides.
+**Host setup:** Chris cut — Israelis and Hamas were very close to a ceasefire that would return hostages on both sides; Netanyahu had resisted until Steve Witkoff arrived as Trump's envoy.
 
-> "If this happens, which does seem likely, it will be thanks to the intervention of Donald Trump. Here we have an outgoing Administration which has been conducting negotiations with the Israelis and Hamas; on several occasions Hamas has agreed to American proposed settlements — they did so six months ago."
+> "If this happens, which does seem likely, it will be thanks to the intervention of Donald Trump; or so we are told, Netanyahu has been brought to an agreement on the hostage exchange."
 
 **Context:** Freeman was answering whether Trump would unlock the hostage deal Netanyahu had resisted.
 
@@ -134,7 +134,7 @@ This tests whether Freeman could read short-horizon diplomatic momentum amid a w
 
 | Date | Channel | Episode | Stance | Speech act | Excerpt |
 | --- | --- | --- | --- | --- | --- |
-| 2025-01-14 | Judging Freedom | [AMB. Chas Freeman : Netanyahu Instigating War with Iran.](https://www.youtube.com/watch?v=uu2-wa9ue5w) | yes | initial | **Host setup:** Chris cut — Israelis and Hamas were very close to a ceasefire that would return hostages on both sides. > "If this happens, which does seem likely, it will be thanks to the intervention of Donald Trump. Here we have an outgoing Administration which has been conducting negotiations with the Israelis and Hamas; on several occasions Hamas has…" **Context:** Freeman was answering whether Trump would unlock the hostage deal Netanyahu had resisted. |
+| 2025-01-14 | Judging Freedom | [AMB. Chas Freeman : Netanyahu Instigating War with Iran.](https://www.youtube.com/watch?v=uu2-wa9ue5w) | yes | initial | **Host setup:** Chris cut — Israelis and Hamas were very close to a ceasefire that would return hostages on both sides; Netanyahu had resisted until Steve Witkoff arrived as Trump's envoy. > "If this happens, which does seem likely, it will be thanks to the intervention of Donald Trump; or so we are told, Netanyahu has been brought to an agreement on the hostage exchange." **Context:** Freeman was answering whether Trump would unlock the hostage deal Netanyahu had resisted. |
 
 </details>
 
@@ -180,9 +180,9 @@ This tests whether Freeman could distinguish a hostage-exchange pause from a dur
 **Status:** Open.  
 **Record:** Open — diagnostic.
 
-**First seen:** 2025-01-17.  
+**First seen:** 2025-01-14.  
 **Latest seen:** 2026-02-24.  
-**Appearances:** 6.  
+**Appearances:** 7.  
 **Reiteration strength:** medium.  
 **Horizon:** Diagnostic.  
 **Falsifier:** Israel and Iran show no sustained force-posture or kinetic prep beyond rhetoric.  
@@ -206,6 +206,7 @@ This tests whether Freeman could read force-posture and escalation signals befor
 
 | Date | Channel | Episode | Stance | Speech act | Excerpt |
 | --- | --- | --- | --- | --- | --- |
+| 2025-01-14 | Judging Freedom | [AMB. Chas Freeman : Netanyahu Instigating War with Iran.](https://www.youtube.com/watch?v=uu2-wa9ue5w) | yes | initial | **Host setup:** Chris asked whether Israel and Iran were preparing to strike each other. Freeman cited Israeli press on long-range drone deliveries to Iran, ongoing Israeli threats, and judged both sides were clearly preparing for war. > "I don't know whether there will be a war or not, but both sides are clearly preparing for one." |
 | 2025-01-17 | Judging Freedom | [Amb. Chas Freeman: The Delusional Policies Driving America's Decline](https://www.youtube.com/watch?v=udfXX3QoJeI) | yes | restated | "It's entirely possible that he committed the United States under Trump to join in an attack on Iran for example which is something that Netanyahu really wants in return for making concessions on Gaza." |
 | 2025-01-21 | Judging Freedom | [AMB. Chas Freeman : A Ceasefire or a Pause?](https://www.youtube.com/watch?v=m1RrBIomMuY) | yes | initial | **Host setup:** Are Israel and Iran actively preparing for war with each other, Ambassador? > "Yes, they are. We got through the inauguration and the arrival of a new president without the attack by Israel on Iran that many feared, but the danger has not subsided, and one has to imagine that the assurance Netanyahu cited from Mr.…" **Context:** Freeman confirmed Israel and Iran were actively preparing for direct war. |
 | 2025-01-24 | Judging Freedom | Amb Chas Freeman: Is the World on the Brink of Total CHAOS? | yes | restated | "By crippling Hezbollah and greatly weakening Hamas, Iran has been isolated; and by overthrowing the government in Syria in coordination with Turkey and the United States, Israel has reshaped the regional chessboard ahead of a potential…" |

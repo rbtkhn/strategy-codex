@@ -25,7 +25,7 @@
     },
     "gaza_hostage_deal_jan_2025": {
       "object_count": 1,
-      "mean_directional": 0.4596,
+      "mean_directional": 0.5564,
       "mean_volatility": 0.0,
       "mean_drift": 0.0,
       "signal_source": "epistemic_core"
@@ -95,7 +95,7 @@
     },
     "us_israel_iran_war_preparation_2025": {
       "object_count": 10,
-      "mean_directional": 0.4764,
+      "mean_directional": 0.5061,
       "mean_volatility": 0.0,
       "mean_drift": 0.0,
       "signal_source": "epistemic_core"
