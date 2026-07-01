@@ -17,8 +17,9 @@ This shelf holds **work-in-progress formal and theoretical research** under the 
 | Epistemic Geometry | [epistemic-geometry/](epistemic-geometry/README.md) | Multi-agent narrative alignment as a layered geometric structure |
 | Predictive History | [predictive-history/](predictive-history/README.md) | External-system research overlay ([rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history)) — meta-analysis, non-modifying |
 | Narrative Systems (NST) | [narrative-systems/](narrative-systems/README.md) | Relational mapping between EG (structure) and PH (time) — not a container |
+| Civilization State | [civilization-state/](civilization-state/README.md) | Synthetic geopolitical dynamics — discrete state-machine simulation layer |
 
-EG ([epistemic-geometry/](epistemic-geometry/README.md)) and PH ([predictive-history/](predictive-history/README.md)) are independent peers; NST defines coupling only.
+EG ([epistemic-geometry/](epistemic-geometry/README.md)) and PH ([predictive-history/](predictive-history/README.md)) are independent peers; NST defines coupling only. Civilization State is a **synthetic generative peer** to PH; NST and [coupling_notes.md](civilization-state/coupling_notes.md) define bridges.
 
 ## Non-goals
 
