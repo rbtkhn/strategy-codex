@@ -85,3 +85,7 @@ Boundary SSOT: [`docs/predictive-history-external-boundary.md`](../../../docs/pr
 | [assumptions.md](assumptions.md) | Research-stage assumptions |
 | [evaluation_framework.md](evaluation_framework.md) | Analytical evaluation criteria (WIP) |
 | [evolution_log.md](evolution_log.md) | Version history |
+
+## Related research (peer)
+
+[Narrative Systems (NST)](../narrative-systems/README.md) — relational mapping between structure (EG) and time (PH); does not subsume this module.

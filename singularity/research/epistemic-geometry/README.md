@@ -49,3 +49,7 @@ This folder explicitly exists to prevent leakage of experimental theory into:
 - `singularity/` (stable system invariants outside `research/`)
 
 It serves as a containment zone for evolving formal systems.
+
+## Related research (peer)
+
+[Narrative Systems (NST)](../narrative-systems/README.md) — relational mapping between structure (EG) and time (PH); does not subsume this module.

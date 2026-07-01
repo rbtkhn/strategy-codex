@@ -16,6 +16,9 @@ This shelf holds **work-in-progress formal and theoretical research** under the 
 | --- | --- | --- |
 | Epistemic Geometry | [epistemic-geometry/](epistemic-geometry/README.md) | Multi-agent narrative alignment as a layered geometric structure |
 | Predictive History | [predictive-history/](predictive-history/README.md) | External-system research overlay ([rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history)) — meta-analysis, non-modifying |
+| Narrative Systems (NST) | [narrative-systems/](narrative-systems/README.md) | Relational mapping between EG (structure) and PH (time) — not a container |
+
+EG ([epistemic-geometry/](epistemic-geometry/README.md)) and PH ([predictive-history/](predictive-history/README.md)) are independent peers; NST defines coupling only.
 
 ## Non-goals
 
