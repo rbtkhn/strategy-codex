@@ -4,3 +4,9 @@
 
 - Initial research shelf stub under `singularity/research/predictive-history/`
 - Boundary routing to canonical corpus, education factory, and continuity workshop documented
+
+## v0.2
+
+- Scope clarified as external-system research overlay (non-modifying)
+- New file set: external_reference, critique_and_gaps, assumptions, analytical stubs
+- design_notes.md removed (content merged into README)

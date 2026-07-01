@@ -15,7 +15,7 @@ This shelf holds **work-in-progress formal and theoretical research** under the 
 | Artifact | Path | Role |
 | --- | --- | --- |
 | Epistemic Geometry | [epistemic-geometry/](epistemic-geometry/README.md) | Multi-agent narrative alignment as a layered geometric structure |
-| Predictive History | [predictive-history/](predictive-history/README.md) | Research-stage formal work on the PH framework (not corpus or education factory) |
+| Predictive History | [predictive-history/](predictive-history/README.md) | External-system research overlay ([rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history)) — meta-analysis, non-modifying |
 
 ## Non-goals
 

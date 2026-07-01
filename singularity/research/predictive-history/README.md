@@ -1,16 +1,65 @@
-# Predictive History (Research Artifact)
-
-This folder holds **research-stage** formal and theoretical work on Predictive History as a framework — distinct from the live corpus, education factory, and frozen workshop residue elsewhere in the repo.
+# Predictive History (Research Overlay Module)
 
 ## Status
 
-- Stage: Research / Early Formalization
-- Stability: Non-axiomatic, evolving
-- Integration: Not yet bound to runtime systems or loop outputs
+This is a research-stage analytical module.
 
-## Goal
+## Scope Clarification
 
-To develop formal and theoretical notes on Predictive History pedagogy, structure, and measurement — without duplicating corpus content or education loop artifacts.
+This module is explicitly:
+
+- **ABOUT** the external system: [https://github.com/rbtkhn/predictive-history/](https://github.com/rbtkhn/predictive-history/)
+- **NOT** part of it
+- **NOT** modifying it
+- **NOT** implementing it
+
+## Classification
+
+`singularity/research/predictive-history/`
+
+## Purpose
+
+To provide:
+
+- theoretical analysis
+- formal modeling
+- structural critique
+- conceptual extensions
+
+of the referenced predictive-history system.
+
+## Key Principle
+
+Separation of:
+
+- **external implementation** (source repo)
+- **internal research interpretation** (this module)
+
+## Non-modifying research constraint
+
+All outputs in this folder are interpretive, analytical, or theoretical and **MUST NOT** influence or alter the external system directly.
+
+This module is NOT:
+
+- a fork of the system
+- a modification layer
+- an implementation extension
+- a runtime integration module
+- a dependency injection layer
+
+## System hierarchy
+
+```text
+external repo (predictive-history)
+        ↓  (referenced, not modified)
+singularity/research/predictive-history  ← this module (meta-analysis)
+        ↓  (only if later formalized)
+statecraft/
+        ↓
+loops/ (execution layer)
+```
+
+No direct coupling exists between this folder and external runtime logic.
 
 ## Canonical homes (do not duplicate here)
 
@@ -24,9 +73,15 @@ To develop formal and theoretical notes on Predictive History pedagogy, structur
 
 Boundary SSOT: [`docs/predictive-history-external-boundary.md`](../../../docs/predictive-history-external-boundary.md)
 
-## Non-goals
+## Research files
 
-- No lecture, essay, or manuscript content (canonical repo only)
-- No education templates or loop output duplication
-- No migration from `continuity/predictive-history/`
-- No production execution or runtime dependency
+| File | Role |
+| --- | --- |
+| [external_reference.md](external_reference.md) | External system relationship and purpose |
+| [theoretical_supplement.md](theoretical_supplement.md) | Conceptual extensions (WIP) |
+| [formal_analysis.md](formal_analysis.md) | Formal decomposition / modeling (WIP) |
+| [critique_and_gaps.md](critique_and_gaps.md) | Structural gaps analysis |
+| [model_extensions.md](model_extensions.md) | Alternative frameworks (WIP) |
+| [assumptions.md](assumptions.md) | Research-stage assumptions |
+| [evaluation_framework.md](evaluation_framework.md) | Analytical evaluation criteria (WIP) |
+| [evolution_log.md](evolution_log.md) | Version history |
