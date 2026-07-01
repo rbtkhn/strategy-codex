@@ -28,6 +28,10 @@ Recurring work is declared as **loops** under [`singularity/loops/`](loops/READM
 - [Loop system spec](../docs/singularity/loop-system.md) — schema, clusters, orchestrator stub
 - Generated registry: `runtime/artifacts/loop-registry.json` via `scripts/build_loop_registry.py`
 
+## Research
+
+WIP formal and theoretical frameworks (non-operational, not loop SSOT): [research/](research/README.md) — [Epistemic Geometry](research/epistemic-geometry/README.md), [Predictive History research stub](research/predictive-history/README.md).
+
 ## Boundary
 
 Use this folder for singularity concepts and study structure, not for generic AI news capture or raw model notes. If an item is primarily a speaker appearance, dataset, benchmark, product release, or source-archive trail, keep it in its normal source route and link here only when it becomes part of a singularity route.
