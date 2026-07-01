@@ -29,6 +29,8 @@ Where:
 - PH = temporal narrative evolution
 - R = relational coupling system
 
+Formal specification: [formal_model.md](formal_model.md) (functor F and transformation space Δ).
+
 ## Classification
 
 `singularity/research/narrative-systems/`
@@ -37,6 +39,7 @@ Where:
 
 | File | Role |
 | --- | --- |
+| [formal_model.md](formal_model.md) | Category-theoretic specification (F: 𝓔𝓰 → 𝓟𝓱, Δ) |
 | [mapping_functions.md](mapping_functions.md) | EG × PH relational transformations |
 | [dual_structure.md](dual_structure.md) | Structural vs temporal axes |
 | [invariants.md](invariants.md) | Independence and non-modification rules |
