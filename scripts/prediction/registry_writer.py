@@ -68,26 +68,36 @@ def expand_changelog_ops(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return ops
 
 
-def validate_registry_gate(events: dict[str, dict[str, Any]]) -> list[str]:
-    """Semantic gatekeeper — falsifier, trajectory v4, fingerprint anti-splitting."""
+def validate_registry_gate(events: dict[str, dict[str, Any]]) -> tuple[list[str], list[str]]:
+    """Semantic gatekeeper — falsifier/model, trajectory v4, fingerprint anti-splitting."""
     errors: list[str] = []
-    fals_errors, _ = validate_falsifiers(events, strict=True)
+    fals_errors, fals_warnings, high_entropy = validate_falsifiers(events, strict=True)
     errors.extend(fals_errors)
     errors.extend(validate_trajectory_v4(events))
     errors.extend(fingerprint_gate_errors(events))
-    return errors
+    warnings = list(fals_warnings)
+    for eid in high_entropy:
+        warnings.append(f"{eid}: high-entropy inferred falsifier_model — operator review")
+    return errors, warnings
 
 
 def validate_upsert_gate(
     event_id: str,
     event: dict[str, Any],
     registry: dict[str, dict[str, Any]],
-) -> list[str]:
+    *,
+    run_infer: bool = True,
+) -> tuple[list[str], list[str]]:
     """Gate a single changelog upsert before append."""
-    normalized = normalize_event_v4(event_id, event)
-    errors = validate_registry_gate({event_id: normalized})
-    errors.extend(upsert_fingerprint_collision(event_id, event, registry))
-    return errors
+    from prediction.probabilistic_falsifier_engine import enrich_event_falsifiers
+
+    candidate = dict(event)
+    if run_infer:
+        candidate, _ = enrich_event_falsifiers(event_id, candidate)
+    normalized = normalize_event_v4(event_id, candidate)
+    errors, warnings = validate_registry_gate({event_id: normalized})
+    errors.extend(upsert_fingerprint_collision(event_id, candidate, registry))
+    return errors, warnings
 
 
 def append_changelog(
@@ -105,7 +115,7 @@ def append_changelog(
         if not event_id:
             raise RegistryGateError(["upsert_event missing event_id"])
         registry = load_registry() if REGISTRY_PATH.is_file() else {}
-        upsert_errors = validate_upsert_gate(event_id, event, registry)
+        upsert_errors, _ = validate_upsert_gate(event_id, event, registry)
         if upsert_errors:
             raise RegistryGateError(upsert_errors)
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -170,14 +180,19 @@ def compile_registry(
     changelog_path: Path | None = None,
     write: bool = True,
     skip_gate: bool = False,
+    run_infer: bool = True,
 ) -> dict[str, Any]:
+    from prediction.probabilistic_falsifier_engine import enrich_registry
+
     reg_path = registry_path or REGISTRY_PATH
     log_path = changelog_path or CHANGELOG_PATH
     base = load_registry(reg_path) if reg_path.exists() else {}
     ops = expand_changelog_ops(load_changelog(log_path))
     compiled = apply_ops(base, ops)
+    if run_infer:
+        compiled, _ = enrich_registry(compiled)
     if not skip_gate:
-        gate_errors = validate_registry_gate(compiled)
+        gate_errors, _ = validate_registry_gate(compiled)
         if gate_errors:
             raise RegistryGateError(gate_errors)
     if write:
@@ -208,14 +223,15 @@ def main() -> int:
 
     parser = argparse.ArgumentParser(description="Event registry changelog writer")
     sub = parser.add_subparsers(dest="command", required=True)
-    sub.add_parser("compile", help="Apply changelog and write event-registry.json")
+    compile_parser = sub.add_parser("compile", help="Apply changelog and write event-registry.json")
+    compile_parser.add_argument("--no-infer", action="store_true", help="Skip probabilistic falsifier inference")
     seed = sub.add_parser("seed-v4", help="One-time Israel dimensions migration")
     seed.add_argument("--write", action="store_true", help="Write registry + changelog")
     args = parser.parse_args()
 
     if args.command == "compile":
         try:
-            compile_registry()
+            compile_registry(run_infer=not args.no_infer)
         except RegistryGateError as exc:
             for err in exc.errors:
                 print(f"ERROR: {err}", file=sys.stderr)

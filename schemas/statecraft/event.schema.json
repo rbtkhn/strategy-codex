@@ -22,6 +22,28 @@
     "resolution_source": { "type": ["string", "null"] },
     "horizon_type": { "type": ["string", "null"] },
     "horizon_cite": { "type": ["string", "null"] },
-    "closure_trigger": { "type": ["string", "null"] }
+    "closure_trigger": { "type": ["string", "null"] },
+    "falsifier": { "type": "string" },
+    "falsifier_model": {
+      "type": "object",
+      "properties": {
+        "failure_modes": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": ["id", "condition", "probability"],
+            "properties": {
+              "id": { "type": "string", "minLength": 1 },
+              "condition": { "type": "string", "minLength": 1 },
+              "probability": { "type": "number", "minimum": 0, "maximum": 1 }
+            }
+          }
+        },
+        "confidence_distribution": { "type": "string" },
+        "inference_source": { "enum": ["heuristic_v1", "operator"] },
+        "entropy": { "type": "number" }
+      }
+    }
   }
 }

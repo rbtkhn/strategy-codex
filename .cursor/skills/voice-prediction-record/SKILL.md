@@ -4,7 +4,7 @@ description: 'Curate and rebuild a speaker prediction shelf from archive capture
 preferred_activation: voice prediction record
 activation: voice prediction record
 portable: true
-version: 0.2.1
+version: 0.2.2
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -229,7 +229,14 @@ Full orchestrator:
 python3 scripts/run_prediction_pipeline.py
 ```
 
-Order: semantic extractor (stub) → compression report → falsifier validator → registry compile → prediction registry → timeline → disagreement → voice shelves → event pages → `check_phase3`.
+Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile (infer + gate) → prediction registry → timeline → disagreement → voice shelves → event pages → `check_phase3` → **semantic scores (advisory)**.
+
+**Phase 3.5 — falsifier doctrine:**
+
+- **Explicit falsifier beats infer:** hand-authored string `falsifier` on wire-grade rows is never replaced by heuristic inference.
+- **Missing falsifier:** compile path may infer additive `falsifier_model` (`inference_source: heuristic_v1`) — labeled uncertainty, not ground truth.
+- **Tiered CI:** orphans, fingerprint collision, trajectory v4 invalid, invalid `falsifier_model` shape → **ERROR**; high-entropy inferred models → **WARN** + review queue.
+- **Operator review:** `python3 scripts/check_phase3.py --emit-review-queue` · `runtime/artifacts/falsifier-inference-report.json`
 
 **Compression rules (Macgregor seeds):**
 

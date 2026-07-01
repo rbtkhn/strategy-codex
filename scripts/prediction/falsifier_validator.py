@@ -1,4 +1,4 @@
-"""Hard falsifier gate — extends check_event_registry for Phase 3."""
+"""Hard falsifier gate — extends check_event_registry for Phase 3 / 3.5."""
 
 from __future__ import annotations
 
@@ -12,7 +12,12 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 from check_event_registry import check_registry  # noqa: E402
-from prediction.contracts import infer_prediction_type  # noqa: E402
+from prediction.contracts import (  # noqa: E402
+    HIGH_ENTROPY_THRESHOLD,
+    has_falsifier_coverage,
+    infer_prediction_type,
+    validate_falsifier_model,
+)
 from prediction_lib import load_event_registry  # noqa: E402
 
 
@@ -20,31 +25,56 @@ def validate_falsifiers(
     events: dict[str, dict[str, Any]],
     *,
     strict: bool = True,
-) -> tuple[list[str], list[str]]:
+) -> tuple[list[str], list[str], list[str]]:
     errors: list[str] = []
     warnings: list[str] = []
+    high_entropy: list[str] = []
     for event_id, event in sorted(events.items()):
         pred_type = infer_prediction_type(event)
-        has_falsifier = bool(str(event.get("falsifier") or "").strip())
-        if pred_type == "not_falsifiable":
+        if pred_type == "not_falsifiable" or event.get("not_falsifiable") is True:
             continue
-        if not has_falsifier:
-            msg = f"{event_id}: missing falsifier (prediction_type={pred_type})"
+
+        model = event.get("falsifier_model")
+        if model is not None:
+            model_errors = validate_falsifier_model(model)
+            for err in model_errors:
+                msg = f"{event_id}: falsifier_model {err}"
+                if strict:
+                    errors.append(msg)
+                else:
+                    warnings.append(msg)
+            if isinstance(model, dict) and not model_errors:
+                entropy = model.get("entropy")
+                if isinstance(entropy, (int, float)) and float(entropy) >= HIGH_ENTROPY_THRESHOLD:
+                    if str(model.get("inference_source") or "") == "heuristic_v1":
+                        high_entropy.append(event_id)
+
+        if not has_falsifier_coverage(event):
+            msg = f"{event_id}: missing falsifier and falsifier_model (prediction_type={pred_type})"
             if strict:
                 errors.append(msg)
             else:
                 warnings.append(msg)
+
         dims = event.get("dimensions") or []
         if dims:
             for dim in dims:
                 dim_id = str(dim.get("id") or "?")
-                if not str(dim.get("falsifier") or "").strip():
-                    msg = f"{event_id}: dimension {dim_id} missing falsifier"
+                if not has_falsifier_coverage(dim):
+                    msg = f"{event_id}: dimension {dim_id} missing falsifier and falsifier_model"
                     if strict:
                         errors.append(msg)
                     else:
                         warnings.append(msg)
-    return errors, warnings
+                dim_model = dim.get("falsifier_model")
+                if dim_model is not None:
+                    for err in validate_falsifier_model(dim_model):
+                        msg = f"{event_id}: dimension {dim_id} falsifier_model {err}"
+                        if strict:
+                            errors.append(msg)
+                        else:
+                            warnings.append(msg)
+    return errors, warnings, high_entropy
 
 
 def validate_trajectory_v4(events: dict[str, dict[str, Any]]) -> list[str]:
@@ -66,14 +96,14 @@ def run_falsifier_validator(
     *,
     registry_path: Path | None = None,
     strict: bool = True,
-) -> tuple[list[str], list[str]]:
+) -> tuple[list[str], list[str], list[str]]:
     events = load_event_registry(registry_path)
     reg_errors, reg_warnings, _ = check_registry(events, strict_enrolled=strict)
-    fals_errors, fals_warnings = validate_falsifiers(events, strict=strict)
+    fals_errors, fals_warnings, high_entropy = validate_falsifiers(events, strict=strict)
     traj_errors = validate_trajectory_v4(events)
     errors = reg_errors + fals_errors + traj_errors
     warnings = reg_warnings + fals_warnings
-    return errors, warnings
+    return errors, warnings, high_entropy
 
 
 def main() -> int:
@@ -84,17 +114,19 @@ def main() -> int:
     parser.add_argument("--warn-only", action="store_true")
     args = parser.parse_args()
 
-    errors, warnings = run_falsifier_validator(
+    errors, warnings, high_entropy = run_falsifier_validator(
         registry_path=args.registry,
         strict=not args.warn_only,
     )
     for w in warnings:
         print(f"WARN: {w}", file=sys.stderr)
+    for eid in high_entropy:
+        print(f"WARN: {eid}: high-entropy inferred falsifier_model", file=sys.stderr)
     for e in errors:
         print(f"ERROR: {e}", file=sys.stderr)
     if errors:
         return 1
-    print(f"[ok] falsifier validator passed ({len(warnings)} warning(s))")
+    print(f"[ok] falsifier validator passed ({len(warnings)} warning(s), {len(high_entropy)} high-entropy)")
     return 0
 
 

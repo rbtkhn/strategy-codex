@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "generated": true,
+    "source": "scripts/prediction/probabilistic_falsifier_engine.py",
+    "phase": "3.5-heuristic-stub"
+  },
+  "event_count": 14,
+  "inferred_count": 0,
+  "inferences": [],
+  "high_entropy": []
+}

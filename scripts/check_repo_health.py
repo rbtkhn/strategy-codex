@@ -44,6 +44,11 @@ def run_quick() -> int:
             "event registry (strict enrolled falsifiers)",
         ),
         (["python3", "scripts/check_phase3.py"], "phase 3 prediction gates"),
+        (["python3", "scripts/build_prediction_semantic_scores.py"], "build prediction semantic scores"),
+        (
+            ["python3", "scripts/check_prediction_semantic_scores.py", "--advisory"],
+            "prediction semantic scores (advisory)",
+        ),
         (["python3", "scripts/build_prediction_event_pages.py"], "build prediction event pages"),
         (["python3", "scripts/build_prediction_event_pages.py", "--check"], "prediction event pages fresh"),
         (["python3", "scripts/build_prediction_registry.py"], "build prediction registry"),

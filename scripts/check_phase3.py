@@ -111,9 +111,16 @@ def run_phase3_checks(
     queue: list[dict[str, Any]] = []
 
     errors.extend(check_orphan_events(events))
-    fals_errors, fals_warnings = run_falsifier_validator(registry_path=registry_path, strict=True)
-    errors.extend(f for f in fals_errors if "missing falsifier" in f or "deprecated" in f or "trajectory" in f)
+    fals_errors, fals_warnings, high_entropy = run_falsifier_validator(
+        registry_path=registry_path,
+        strict=True,
+    )
+    errors.extend(fals_errors)
     warnings.extend(fals_warnings)
+    for event_id in high_entropy:
+        msg = f"{event_id}: high-entropy inferred falsifier_model — operator review"
+        warnings.append(msg)
+        queue.append({"type": "high_entropy_falsifier", "event_id": event_id, "message": msg})
 
     tl_path = timeline_path or DEFAULT_TIMELINE
     if tl_path.is_file():

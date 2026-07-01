@@ -29,6 +29,18 @@ def test_israel_trajectory_fingerprint_is_trajectory_type() -> None:
     assert len(fp[-1]) == 6
 
 
+def test_fingerprint_uses_falsifier_model_conditions() -> None:
+    from prediction.probabilistic_falsifier_engine import infer_falsifier_model
+
+    event_id = "model_fp_row"
+    event = {"question": "Iran airpower trajectory?", "tags": ["iran"]}
+    model = infer_falsifier_model(event_id, event)
+    row = {"question": event["question"], "falsifier_model": model}
+    fp = predictive_fingerprint(event_id, row)
+    assert fp[2]  # falsifier key non-empty
+    assert isinstance(fp[2], tuple)
+
+
 def test_compression_report_lists_macgregor_merge_proposals() -> None:
     report = compression_report()
     assert report["event_count"] >= 14

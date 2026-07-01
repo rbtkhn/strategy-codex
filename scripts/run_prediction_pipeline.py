@@ -12,6 +12,10 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 STEPS: list[tuple[str, list[str]]] = [
     ("semantic_event_extractor", ["python3", "scripts/prediction/semantic_event_extractor.py"]),
     ("compression_engine", ["python3", "scripts/prediction/compression_engine.py", "--check"]),
+    (
+        "probabilistic_falsifier_engine",
+        ["python3", "scripts/prediction/probabilistic_falsifier_engine.py", "--emit-review-queue"],
+    ),
     ("falsifier_validator", ["python3", "scripts/prediction/falsifier_validator.py"]),
     ("registry_writer compile", ["python3", "scripts/prediction/registry_writer.py", "compile"]),
     ("build_prediction_registry", ["python3", "scripts/build_prediction_registry.py"]),
@@ -28,6 +32,8 @@ STEPS: list[tuple[str, list[str]]] = [
     ),
     ("build_prediction_event_pages", ["python3", "scripts/build_prediction_event_pages.py"]),
     ("check_phase3", ["python3", "scripts/check_phase3.py", "--emit-review-queue"]),
+    ("build_prediction_semantic_scores", ["python3", "scripts/build_prediction_semantic_scores.py"]),
+    ("check_prediction_semantic_scores", ["python3", "scripts/check_prediction_semantic_scores.py"]),
 ]
 
 

@@ -1,0 +1,256 @@
+{
+  "_meta": {
+    "generated": true,
+    "do_not_edit": true,
+    "source": "scripts/build_prediction_semantic_scores.py",
+    "phase": "3.5-advisory"
+  },
+  "events": {
+    "china_tariff_capitulation_2025": {
+      "entropy_score": 0.0,
+      "falsifier_confidence": "high",
+      "inference_source": "operator",
+      "compression_quality": "high",
+      "risk_of_overcollapse": "low",
+      "has_string_falsifier": true,
+      "has_falsifier_model": false,
+      "fingerprint_key": "china accepts major u.s. tariff demands without reciprocal concessions, retaliation, or strategic hedging.",
+      "fingerprint": [
+        "atomic",
+        "will china capitulate to trump's tariff pressure (major substantive yield, not cosmetic)?",
+        "china accepts major u.s. tariff demands without reciprocal concessions, retaliation, or strategic hedging.",
+        "medium",
+        "unknown"
+      ]
+    },
+    "gaza_ceasefire_holds_2025": {
+      "entropy_score": 0.0,
+      "falsifier_confidence": "high",
+      "inference_source": "operator",
+      "compression_quality": "high",
+      "risk_of_overcollapse": "low",
+      "has_string_falsifier": true,
+      "has_falsifier_model": false,
+      "fingerprint_key": "the jan 2025 arrangement remains a durable ceasefire through implementation without major violation or pause-only collap",
+      "fingerprint": [
+        "atomic",
+        "will the jan 2025 gaza arrangement hold as a durable ceasefire (not merely a temporary pause)?",
+        "the jan 2025 arrangement remains a durable ceasefire through implementation without major violation or pause-only collapse.",
+        "medium",
+        "unknown"
+      ]
+    },
+    "gaza_hostage_deal_jan_2025": {
+      "entropy_score": 0.0,
+      "falsifier_confidence": "high",
+      "inference_source": "operator",
+      "compression_quality": "high",
+      "risk_of_overcollapse": "low",
+      "has_string_falsifier": true,
+      "has_falsifier_model": false,
+      "fingerprint_key": "no phase-1 hostage-exchange deal is publicly reached or implemented.",
+      "fingerprint": [
+        "atomic",
+        "will a gaza hostage-exchange ceasefire deal be reached?",
+        "no phase-1 hostage-exchange deal is publicly reached or implemented.",
+        "medium",
+        "unknown"
+      ]
+    },
+    "gulf_crisis_macro_shock": {
+      "entropy_score": 0.0,
+      "falsifier_confidence": "high",
+      "inference_source": "operator",
+      "compression_quality": "high",
+      "risk_of_overcollapse": "low",
+      "has_string_falsifier": true,
+      "has_falsifier_model": false,
+      "fingerprint_key": "gulf escalation occurs without measurable global macro shock (oil, shipping, markets).",
+      "fingerprint": [
+        "atomic",
+        "will a gulf crisis produce a macroeconomic shock?",
+        "gulf escalation occurs without measurable global macro shock (oil, shipping, markets).",
+        "short",
+        "unknown"
+      ]
+    },
+    "iran_airpower_cannot_force_submission": {
+      "entropy_score": 0.0,
+      "falsifier_confidence": "high",
+      "inference_source": "operator",
+      "compression_quality": "high",
+      "risk_of_overcollapse": "low",
+      "has_string_falsifier": true,
+      "has_falsifier_model": false,
+      "fingerprint_key": "iran accepts capitulation terms under air/naval coercion alone.",
+      "fingerprint": [
+        "atomic",
+        "can u.s./israeli air and naval power force iran to submit?",
+        "iran accepts capitulation terms under air/naval coercion alone.",
+        "short",
+        "unknown"
+      ]
+    },
+    "iran_great_power_direct_war_entry": {
+      "entropy_score": 0.0,
+      "falsifier_confidence": "high",
+      "inference_source": "operator",
+      "compression_quality": "high",
+      "risk_of_overcollapse": "low",
+      "has_string_falsifier": true,
+      "has_falsifier_model": false,
+      "fingerprint_key": "russia or china deploys combat forces directly into a us-iran war on iran side (not arms/tech transfer alone).",
+      "fingerprint": [
+        "atomic",
+        "will russia or china directly enter a us-iran war on iran's side (combat forces, not arms/tech transfers alone)?",
+        "russia or china deploys combat forces directly into a us-iran war on iran side (not arms/tech transfer alone).",
+        "medium",
+        "unknown"
+      ]
+    },
+    "israel_sabotages_exit_ramps": {
+      "entropy_score": 0.0,
+      "falsifier_confidence": "high",
+      "inference_source": "operator",
+      "compression_quality": "high",
+      "risk_of_overcollapse": "low",
+      "has_string_falsifier": true,
+      "has_falsifier_model": false,
+      "fingerprint_key": "israel materially supports and honors durable diplomatic off-ramps without undermining them.",
+      "fingerprint": [
+        "atomic",
+        "will israel sabotage diplomatic exit ramps in regional wars?",
+        "israel materially supports and honors durable diplomatic off-ramps without undermining them.",
+        "medium",
+        "unknown"
+      ]
+    },
+    "israel_self_destruction_trajectory": {
+      "entropy_score": 0.0,
+      "falsifier_confidence": "high",
+      "inference_source": "operator",
+      "compression_quality": "high",
+      "risk_of_overcollapse": "low",
+      "has_string_falsifier": true,
+      "has_falsifier_model": false,
+      "fingerprint_key": "israel materially stabilizes legitimacy, regional ties, and domestic cohesion — reversing self-destructive trajectory in",
+      "fingerprint": [
+        "trajectory",
+        "is israel on a self-destructive trajectory (international isolation, moral authority loss, military overextension)?",
+        "israel materially stabilizes legitimacy, regional ties, and domestic cohesion — reversing self-destructive trajectory indicators.",
+        "medium",
+        "unknown",
+        [
+          "israel_economic_emigration_pressure",
+          "israel_internal_political_fragmentation",
+          "israel_military_overextension",
+          "israel_moral_pariah_status",
+          "israel_regional_isolation",
+          "israel_us_support_erosion"
+        ]
+      ]
+    },
+    "nato_strategic_exposure_ukraine": {
+      "entropy_score": 0.0,
+      "falsifier_confidence": "high",
+      "inference_source": "operator",
+      "compression_quality": "high",
+      "risk_of_overcollapse": "low",
+      "has_string_falsifier": true,
+      "has_falsifier_model": false,
+      "fingerprint_key": "nato limits exposure and ukraine war ends without alliance strategic damage.",
+      "fingerprint": [
+        "atomic",
+        "is nato strategically overexposed in the ukraine war?",
+        "nato limits exposure and ukraine war ends without alliance strategic damage.",
+        "medium",
+        "unknown"
+      ]
+    },
+    "russia_odessa_control": {
+      "entropy_score": 0.0,
+      "falsifier_confidence": "high",
+      "inference_source": "operator",
+      "compression_quality": "high",
+      "risk_of_overcollapse": "low",
+      "has_string_falsifier": true,
+      "has_falsifier_model": false,
+      "fingerprint_key": "russian forces establish administrative control over odessa city before 2026-12-31.",
+      "fingerprint": [
+        "atomic",
+        "will russian forces establish administrative control over odessa before 2026-12-31?",
+        "russian forces establish administrative control over odessa city before 2026-12-31.",
+        "medium",
+        "unknown"
+      ]
+    },
+    "ukraine_escalation_russian_capitulation": {
+      "entropy_score": 0.0,
+      "falsifier_confidence": "high",
+      "inference_source": "operator",
+      "compression_quality": "high",
+      "risk_of_overcollapse": "low",
+      "has_string_falsifier": true,
+      "has_falsifier_model": false,
+      "fingerprint_key": "russia yields on core ukraine terms attributable to kellogg-style escalation-to-deescalate.",
+      "fingerprint": [
+        "atomic",
+        "will trump's kellogg-style escalation-to-deescalate produce russian capitulation in ukraine negotiations?",
+        "russia yields on core ukraine terms attributable to kellogg-style escalation-to-deescalate.",
+        "medium",
+        "unknown"
+      ]
+    },
+    "ukraine_western_aid_prolongs_war": {
+      "entropy_score": 0.0,
+      "falsifier_confidence": "high",
+      "inference_source": "operator",
+      "compression_quality": "high",
+      "risk_of_overcollapse": "low",
+      "has_string_falsifier": true,
+      "has_falsifier_model": false,
+      "fingerprint_key": "ukraine achieves decisive battlefield victory or durable settlement before aid exhaustion.",
+      "fingerprint": [
+        "atomic",
+        "will western aid prolong the ukraine war without producing ukrainian victory?",
+        "ukraine achieves decisive battlefield victory or durable settlement before aid exhaustion.",
+        "medium",
+        "unknown"
+      ]
+    },
+    "us_forward_presence_obsolete": {
+      "entropy_score": 0.0,
+      "falsifier_confidence": "high",
+      "inference_source": "operator",
+      "compression_quality": "high",
+      "risk_of_overcollapse": "low",
+      "has_string_falsifier": true,
+      "has_falsifier_model": false,
+      "fingerprint_key": "forward presence demonstrably remains decisive in major regional outcomes.",
+      "fingerprint": [
+        "atomic",
+        "is u.s. forward military presence becoming strategically obsolete?",
+        "forward presence demonstrably remains decisive in major regional outcomes.",
+        "medium",
+        "unknown"
+      ]
+    },
+    "us_israel_iran_war_preparation_2025": {
+      "entropy_score": 0.0,
+      "falsifier_confidence": "high",
+      "inference_source": "operator",
+      "compression_quality": "high",
+      "risk_of_overcollapse": "low",
+      "has_string_falsifier": true,
+      "has_falsifier_model": false,
+      "fingerprint_key": "israel and iran show no sustained force-posture or kinetic prep beyond rhetoric.",
+      "fingerprint": [
+        "atomic",
+        "are israel and iran actively preparing for direct war (force posture, threats, procurement)?",
+        "israel and iran show no sustained force-posture or kinetic prep beyond rhetoric.",
+        "medium",
+        "unknown"
+      ]
+    }
+  }
+}

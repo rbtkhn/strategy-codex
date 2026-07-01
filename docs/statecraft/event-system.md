@@ -56,6 +56,21 @@ A **prediction note** lives under [`statecraft/notes/predictions/`](../../statec
 
 **Capture map:** trajectory parent rows use optional `dimension` (non-registry pointer), not `child_event_id`.
 
+### v4.5 schema (Phase 3.5 — probabilistic falsifier)
+
+| Field | Role |
+| --- | --- |
+| `falsifier_model` | Optional structured failure modes when string `falsifier` is absent or insufficient |
+| `falsifier_model.failure_modes[]` | `{id, condition, probability}` — probabilities sum to 1.0 |
+| `falsifier_model.inference_source` | `heuristic_v1` (stub infer) or `operator` (authored) |
+| `falsifier_model.entropy` | Shannon entropy of mode weights — high → review queue |
+
+**Compile acceptance (tiered):** event passes if **any** of: non-empty `falsifier`, valid `falsifier_model`, or `not_falsifiable`. Structural gates (orphans, fingerprint collision, trajectory v4) remain **ERROR**.
+
+**Operator rule:** explicit string `falsifier` beats inferred model on wire-grade Freeman rows; do not replace resolved falsifiers with inference.
+
+**Pipeline:** `probabilistic_falsifier_engine` runs before `registry_writer compile` (in-memory enrich). Advisory scores: `runtime/artifacts/prediction-semantic-scores.json`.
+
 ### Status vs record (shelf lane)
 
 | Layer | SSOT | Values |

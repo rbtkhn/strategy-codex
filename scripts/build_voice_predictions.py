@@ -21,6 +21,7 @@ from prediction_lib import (  # noqa: E402
     REPO_ROOT as LIB_ROOT,
     load_event_registry,
 )
+from prediction.contracts import falsifier_confidence_from_entropy  # noqa: E402
 from voice_prediction_pilot import (  # noqa: E402
     VoiceConfig,
     derive_record,
@@ -302,6 +303,15 @@ def build_voice_prediction_payload(
                 "reiteration_strength": reiteration_strength(public_count),
                 "horizon_label": format_horizon_label(event_public, registry_event),
                 "falsifier": registry_event.get("falsifier"),
+                "falsifier_model": registry_event.get("falsifier_model"),
+                "falsifier_confidence": (
+                    falsifier_confidence_from_entropy(
+                        float(registry_event.get("falsifier_model", {}).get("entropy") or 0)
+                    )
+                    if isinstance(registry_event.get("falsifier_model"), dict)
+                    and not registry_event.get("falsifier")
+                    else ("high" if registry_event.get("falsifier") else None)
+                ),
                 "confirmation_criteria": registry_event.get("confirmation_criteria"),
                 "resolution_scope": registry_event.get("resolution_scope"),
                 "parent_event_id": registry_event.get("parent_event_id"),
