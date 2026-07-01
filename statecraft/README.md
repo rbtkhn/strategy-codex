@@ -44,6 +44,11 @@ For the canonical source/synthesis stack, open [Statecraft Archive and Statecraf
 | **hosts** | `statecraft/channels/` | host-conditioned guests (not in `voices/`) |
 | **synthesis** | `statecraft/synthesis/` | day/month cadence; legacy `daily/` redirect stub |
 | **notes** | `statecraft/notes/` | bounded interpretive + operational subfolders (`wire/`, `watch/`, `reentry/`, `intake/`) |
+| **epistemic audit** | `statecraft/epistemic/` | shadow Python package; prediction tracking migration target |
+
+### Epistemic audit (shadow foundation)
+
+`statecraft/epistemic/` is a non-invasive structural foundation for future epistemic tracking logic. It does not replace `predictions/`, operator-maintained `statecraft/data/`, or the canonical pipeline under `scripts/prediction/`. See [`epistemic/README.md`](epistemic/README.md).
 
 ## Namespace Note (2026-06)
 
