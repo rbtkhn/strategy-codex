@@ -1,11 +1,13 @@
-"""Voice confidence drift (spread) over structured predictions."""
+"""Voice confidence spread (variance) over structured predictions."""
 
 from __future__ import annotations
 
 from typing import Any
 
+from .metrics import population_variance
 
-def compute_voice_drift(
+
+def compute_voice_spread(
     structured_predictions: list[dict[str, Any]],
     *,
     event_id: str | None = None,
@@ -21,10 +23,7 @@ def compute_voice_drift(
             continue
         grouped.setdefault(voice, []).append(float(pred.get("confidence") or 0.0))
 
-    drift: dict[str, float] = {}
+    spread: dict[str, float] = {}
     for voice, confidences in grouped.items():
-        if len(confidences) < 2:
-            drift[voice] = 0.0
-        else:
-            drift[voice] = max(confidences) - min(confidences)
-    return drift
+        spread[voice] = population_variance(confidences)
+    return spread

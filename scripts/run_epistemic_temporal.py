@@ -29,7 +29,7 @@ def main() -> int:
     )
     print(
         f"temporal: events={len(temporal_by_event)} "
-        f"ordering_confidence_avg={summary['ordering_confidence_avg']} "
+        f"event_count={summary['event_count']} "
         f"-> {DEFAULT_TEMPORAL_OUT}"
     )
     return 0

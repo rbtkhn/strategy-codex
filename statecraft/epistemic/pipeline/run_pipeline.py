@@ -286,12 +286,14 @@ def main() -> int:
         if args.dry_run:
             print(
                 f"analysis: events={len(analysis_by_event)} "
-                f"regime={summary['regime_of_discourse']} (dry run, no write)"
+                f"divergence_events={len(summary['cross_voice_divergence'])} "
+                "(dry run, no write)"
             )
         else:
             print(
                 f"analysis: events={len(analysis_by_event)} "
-                f"regime={summary['regime_of_discourse']} -> {args.analysis_out}"
+                f"divergence_events={len(summary['cross_voice_divergence'])} "
+                f"-> {args.analysis_out}"
             )
         return 0
 
@@ -305,13 +307,13 @@ def main() -> int:
         if args.dry_run:
             print(
                 f"temporal: events={len(temporal_by_event)} "
-                f"ordering_confidence_avg={summary['ordering_confidence_avg']} "
+                f"event_count={summary['event_count']} "
                 "(dry run, no write)"
             )
         else:
             print(
                 f"temporal: events={len(temporal_by_event)} "
-                f"ordering_confidence_avg={summary['ordering_confidence_avg']} "
+                f"event_count={summary['event_count']} "
                 f"-> {args.temporal_out}"
             )
         return 0
@@ -338,19 +340,21 @@ def main() -> int:
     if args.dry_run:
         print(
             f"all: observations={len(observations)} structured={len(structured)} "
-            f"analysis_events={len(analysis_by_event)} regime={analysis_summary['regime_of_discourse']} "
+            f"analysis_events={len(analysis_by_event)} "
+            f"divergence_events={len(analysis_summary['cross_voice_divergence'])} "
             f"temporal_events={len(temporal_by_event)} "
-            f"ordering_confidence_avg={temporal_summary['ordering_confidence_avg']} "
+            f"event_count={temporal_summary['event_count']} "
             "(dry run, no write)"
         )
     else:
         print(
             f"all: observations={len(observations)} -> {args.out}; "
             f"structured={len(structured)} -> {args.structured_out}; "
-            f"analysis_events={len(analysis_by_event)} regime={analysis_summary['regime_of_discourse']} "
+            f"analysis_events={len(analysis_by_event)} "
+            f"divergence_events={len(analysis_summary['cross_voice_divergence'])} "
             f"-> {args.analysis_out}; "
             f"temporal_events={len(temporal_by_event)} "
-            f"ordering_confidence_avg={temporal_summary['ordering_confidence_avg']} "
+            f"event_count={temporal_summary['event_count']} "
             f"-> {args.temporal_out}"
         )
     return 0

@@ -1,4 +1,4 @@
-"""Temporal scaffolding engine — ordering, grouping, weak trends."""
+"""Temporal scaffolding engine — ordering and grouping only."""
 
 from __future__ import annotations
 
@@ -10,7 +10,6 @@ from structuring.normalize import load_observations
 
 from .grouping import group_by_event
 from .ordering import assign_time_index
-from .trends import compute_trend
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_OBSERVATIONS_IN = REPO_ROOT / "statecraft" / "epistemic" / "data" / "observations.json"
@@ -48,13 +47,6 @@ def build_timeline_entry(pred: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def ordering_confidence_for_event(preds: list[dict[str, Any]]) -> float:
-    if not preds:
-        return 0.0
-    with_timestamp = sum(1 for pred in preds if pred.get("timestamp"))
-    return round(with_timestamp / len(preds), 2)
-
-
 def build_temporal_view(
     structured: list[dict[str, Any]],
     observations: list[dict[str, Any]],
@@ -64,28 +56,17 @@ def build_temporal_view(
     grouped = group_by_event(indexed)
 
     temporal_by_event: list[dict[str, Any]] = []
-    ordering_scores: list[float] = []
 
     for event_id in sorted(grouped):
         preds = sorted(grouped[event_id], key=lambda p: int(p.get("time_index", 0)))
-        ordering_confidence = ordering_confidence_for_event(preds)
-        ordering_scores.append(ordering_confidence)
         temporal_by_event.append(
             {
                 "event_id": event_id,
                 "timeline": [build_timeline_entry(pred) for pred in preds],
-                "trend": compute_trend(preds),
-                "ordering_confidence": ordering_confidence,
             }
         )
 
-    summary = {
-        "event_count": len(temporal_by_event),
-        "ordering_confidence_avg": round(
-            sum(ordering_scores) / len(ordering_scores) if ordering_scores else 0.0,
-            2,
-        ),
-    }
+    summary = {"event_count": len(temporal_by_event)}
     return temporal_by_event, summary
 
 

@@ -24,7 +24,7 @@ def main() -> int:
     )
     print(
         f"analysis: events={len(analysis_by_event)} "
-        f"regime={summary['regime_of_discourse']} -> {DEFAULT_ANALYSIS_OUT}"
+        f"divergence_events={len(summary['cross_voice_divergence'])} -> {DEFAULT_ANALYSIS_OUT}"
     )
     return 0
 

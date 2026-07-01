@@ -1,7 +1,6 @@
 """Analysis layer public API."""
 
 from .divergence import compute_divergence
-from .drift import compute_voice_drift
 from .engine import (
     DEFAULT_ANALYSIS_OUT,
     DEFAULT_STRUCTURED_IN,
@@ -11,8 +10,8 @@ from .engine import (
     load_structured_predictions,
     write_analysis,
 )
-from .metrics import entropy, mean_abs_deviation
-from .regime import classify_regime
+from .metrics import population_variance
+from .spread import compute_voice_spread
 
 __all__ = [
     "DEFAULT_ANALYSIS_OUT",
@@ -20,11 +19,9 @@ __all__ = [
     "analyze",
     "analyze_all",
     "analyze_event",
-    "classify_regime",
     "compute_divergence",
-    "compute_voice_drift",
-    "entropy",
+    "compute_voice_spread",
     "load_structured_predictions",
-    "mean_abs_deviation",
+    "population_variance",
     "write_analysis",
 ]

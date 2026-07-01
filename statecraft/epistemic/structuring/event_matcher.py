@@ -29,7 +29,7 @@ def event_match_text(event: dict[str, Any]) -> str:
 
 def observation_match_text(observation: dict[str, Any]) -> str:
     raw = str(observation.get("raw_text") or "")
-    sentences = observation.get("extracted_sentences") or []
+    sentences = observation.get("sentences") or []
     if sentences:
         return f"{raw} {' '.join(str(s) for s in sentences)}"
     return raw

@@ -10,7 +10,7 @@ STRUCTURED_SCHEMA_KEYS = frozenset(
         "prediction",
         "stance",
         "confidence",
-        "source_sentences",
+        "sentences",
     }
 )
 

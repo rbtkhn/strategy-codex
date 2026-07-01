@@ -10,10 +10,8 @@ from .temporal_engine import (
     build_timeline_entry,
     enrich_with_timestamps,
     load_structured_predictions,
-    ordering_confidence_for_event,
     write_temporal_view,
 )
-from .trends import compute_trend
 
 __all__ = [
     "DEFAULT_OBSERVATIONS_IN",
@@ -22,11 +20,9 @@ __all__ = [
     "assign_time_index",
     "build_temporal_view",
     "build_timeline_entry",
-    "compute_trend",
     "enrich_with_timestamps",
     "group_by_event",
     "load_structured_predictions",
-    "ordering_confidence_for_event",
     "sort_key",
     "write_temporal_view",
 ]

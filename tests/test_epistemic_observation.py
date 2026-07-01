@@ -14,23 +14,13 @@ if str(EPISTEMIC_ROOT) not in sys.path:
     sys.path.insert(0, str(EPISTEMIC_ROOT))
 
 from observation.loader import load_voice_captures, write_observations  # noqa: E402
-from observation.parser import (  # noqa: E402
-    extract_sentences,
-    is_predictive,
-    parse_voice_capture,
-)
+from observation.parser import extract_sentences, parse_voice_capture  # noqa: E402
 from pipeline.run_pipeline import run_observation_layer  # noqa: E402
 
 
 def test_extract_sentences_splits_on_punctuation() -> None:
     text = "First claim. Second claim! Third claim?"
     assert extract_sentences(text) == ["First claim", "Second claim", "Third claim"]
-
-
-def test_is_predictive_markers() -> None:
-    assert is_predictive("Escalation is likely if forces deploy.")
-    assert is_predictive("The US will face constraints.")
-    assert not is_predictive("This is a neutral description.")
 
 
 def test_parse_voice_capture_deterministic_id() -> None:
@@ -43,7 +33,17 @@ def test_parse_voice_capture_deterministic_id() -> None:
     first = parse_voice_capture(**kwargs)
     second = parse_voice_capture(**kwargs)
     assert first["observation_id"] == second["observation_id"]
-    assert first["extracted_sentences"] == ["Escalation is likely"]
+    assert first["sentences"] == ["Escalation is likely"]
+
+
+def test_parse_voice_capture_includes_all_sentences() -> None:
+    obs = parse_voice_capture(
+        voice="macgregor",
+        source_file="test/sample.md",
+        text="The US will face constraints. Neutral line.",
+        mtime_iso="2026-01-23T12:00:00+00:00",
+    )
+    assert obs["sentences"] == ["The US will face constraints", "Neutral line"]
 
 
 def test_load_voice_captures_from_fixtures() -> None:
@@ -53,7 +53,7 @@ def test_load_voice_captures_from_fixtures() -> None:
     assert "macgregor" in voices
     assert "freeman" in voices
     macgregor = next(o for o in observations if o["voice"] == "macgregor")
-    assert len(macgregor["extracted_sentences"]) >= 2
+    assert len(macgregor["sentences"]) >= 2
 
 
 def test_write_observations_envelope(tmp_path: Path) -> None:
@@ -90,4 +90,4 @@ def test_run_observation_layer_integration(tmp_path: Path) -> None:
     assert len(observations) == 1
     assert out_path.is_file()
     payload = json.loads(out_path.read_text(encoding="utf-8"))
-    assert payload["observations"][0]["extracted_sentences"]
+    assert len(payload["observations"][0]["sentences"]) == 2

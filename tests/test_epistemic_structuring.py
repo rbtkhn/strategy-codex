@@ -56,7 +56,7 @@ def test_match_event_top1_tiebreak() -> None:
     }
     observation = {
         "raw_text": "alpha beta gamma delta",
-        "extracted_sentences": [],
+        "sentences": [],
     }
     assert match_event(observation, registry) == "event_a"
 
@@ -67,7 +67,7 @@ def test_match_event_unmatched_when_no_overlap() -> None:
     }
     observation = {
         "raw_text": "naval assets and operational constraints",
-        "extracted_sentences": [],
+        "sentences": [],
     }
     assert match_event(observation, registry) == "unmatched"
 
@@ -80,7 +80,7 @@ def test_normalize_observation_schema() -> None:
         "observation_id": "obs-1",
         "voice": "macgregor",
         "raw_text": "The US will face severe operational constraints.",
-        "extracted_sentences": [
+        "sentences": [
             "The US will face severe operational constraints",
             "Escalation is likely if naval assets are deployed",
         ],
@@ -99,7 +99,7 @@ def test_normalize_freeman_fixture_to_china_event() -> None:
     structured = normalize_observation(freeman, registry)
     assert structured["event_id"] == "china_tariff_capitulation_2025"
     assert structured["voice"] == "freeman"
-    assert structured["source_sentences"]
+    assert structured["sentences"]
 
 
 def test_run_structuring_layer_integration(tmp_path: Path) -> None:
@@ -119,7 +119,7 @@ def test_run_structuring_layer_integration(tmp_path: Path) -> None:
             "observation_id": "obs-1",
             "voice": "macgregor",
             "raw_text": "The US will face severe operational constraints.",
-            "extracted_sentences": ["The US will face severe operational constraints"],
+            "sentences": ["The US will face severe operational constraints"],
         }
     ]
     out_path = tmp_path / "structured_predictions.json"
@@ -178,9 +178,9 @@ def test_pipeline_all_layers(tmp_path: Path) -> None:
     assert len(observations) == 1
     assert len(structured) == 1
     assert len(analysis_by_event) == 1
-    assert analysis_summary["regime_of_discourse"]
+    assert "cross_voice_divergence" in analysis_summary
     assert len(temporal_by_event) == 1
-    assert temporal_summary["ordering_confidence_avg"] >= 0.0
+    assert temporal_summary["event_count"] >= 1
     assert observations_out.is_file()
     assert structured_out.is_file()
     assert analysis_out.is_file()

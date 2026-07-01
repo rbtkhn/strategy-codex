@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from .metrics import mean_abs_deviation
+from .metrics import population_variance
 
 
 def compute_divergence(structured_predictions: list[dict[str, Any]]) -> dict[str, float]:
@@ -18,5 +18,5 @@ def compute_divergence(structured_predictions: list[dict[str, Any]]) -> dict[str
     divergence: dict[str, float] = {}
     for event_id, preds in by_event.items():
         confidences = [float(p.get("confidence") or 0.0) for p in preds]
-        divergence[event_id] = mean_abs_deviation(confidences)
+        divergence[event_id] = population_variance(confidences)
     return divergence

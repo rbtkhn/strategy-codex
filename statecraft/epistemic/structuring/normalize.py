@@ -29,18 +29,21 @@ def load_observations(*, path: Path | None = None) -> list[dict[str, Any]]:
     return list(payload.get("observations") or [])
 
 
+def extract_prediction(obs: dict[str, Any]) -> str:
+    sentences = obs.get("sentences") or []
+    if sentences:
+        return " ".join(str(sentence) for sentence in sentences)
+    return str(obs.get("raw_text") or "").strip()
+
+
 def normalize_observation(
     obs: dict[str, Any],
     event_registry: dict[str, dict[str, Any]],
 ) -> dict[str, Any]:
     event_id = match_event(obs, event_registry)
     stance, confidence = classify_stance(str(obs.get("raw_text") or ""))
-
-    extracted = obs.get("extracted_sentences") or []
-    if extracted:
-        prediction = " ".join(str(sentence) for sentence in extracted)
-    else:
-        prediction = str(obs.get("raw_text") or "").strip()
+    sentences = list(obs.get("sentences") or [])
+    prediction = extract_prediction(obs)
 
     structured = {
         "observation_id": obs["observation_id"],
@@ -49,7 +52,7 @@ def normalize_observation(
         "prediction": prediction,
         "stance": stance,
         "confidence": confidence,
-        "source_sentences": list(extracted),
+        "sentences": sentences,
     }
     validate_structured(structured)
     return structured
