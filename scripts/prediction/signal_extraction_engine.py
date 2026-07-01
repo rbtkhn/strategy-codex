@@ -2,9 +2,11 @@
 
 from __future__ import annotations
 
+import contextvars
 import sys
+from contextlib import contextmanager
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterator
 
 _REPO_ROOT = Path(__file__).resolve().parents[2]
 _SCRIPTS = _REPO_ROOT / "scripts"
@@ -20,6 +22,11 @@ from prediction.signal_math import (
     entropy_stable_high,
     is_monotonic_decreasing,
     is_monotonic_increasing,
+)
+
+_ablation_no_falsifier: contextvars.ContextVar[bool] = contextvars.ContextVar(
+    "ablation_no_falsifier",
+    default=False,
 )
 
 SIGNAL_TYPES = frozenset(
@@ -57,12 +64,39 @@ def _mode_probabilities(model: dict[str, Any]) -> list[float]:
     return [float(m.get("probability") or 0) for m in modes if isinstance(m, dict)]
 
 
-def effective_falsifier_model(event_id: str, event: dict[str, Any]) -> tuple[dict[str, Any], str]:
+def effective_falsifier_model(
+    event_id: str,
+    event: dict[str, Any],
+    *,
+    ablation_no_falsifier: bool | None = None,
+) -> tuple[dict[str, Any], str]:
+    disabled = (
+        ablation_no_falsifier
+        if ablation_no_falsifier is not None
+        else _ablation_no_falsifier.get()
+    )
+    if disabled:
+        return (
+            {
+                "failure_modes": [{"id": "ablation_uniform", "probability": 1.0, "label": "uniform"}],
+                "distribution_source": "ablation_stub",
+            },
+            "ablation_stub",
+        )
     model = event.get("falsifier_model")
     if isinstance(model, dict) and not validate_falsifier_model(model):
         return model, "persisted"
     inferred = infer_falsifier_model(event_id, event)
     return inferred, "inferred_view"
+
+
+@contextmanager
+def ablation_falsifier_context(disabled: bool) -> Iterator[None]:
+    token = _ablation_no_falsifier.set(bool(disabled))
+    try:
+        yield
+    finally:
+        _ablation_no_falsifier.reset(token)
 
 
 def _keyword_boost(mode_id: str, keywords: tuple[str, ...]) -> bool:

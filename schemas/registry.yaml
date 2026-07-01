@@ -56,6 +56,11 @@ schemas:
     applies_to: runtime/artifacts/baseline-forecast-metrics.json
     format: json
     scope: prediction
+  ablation_study:
+    path: schemas/runtime/ablation-study.schema.json
+    applies_to: runtime/artifacts/ablation-study.json
+    format: json
+    scope: prediction
 
   dream:
     path: schemas/runtime/dream.schema.json

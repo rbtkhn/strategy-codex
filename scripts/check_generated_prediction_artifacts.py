@@ -15,6 +15,7 @@ if str(_SCRIPTS) not in sys.path:
 import build_epistemic_calibration_loss  # noqa: E402
 import build_epistemic_dataset  # noqa: E402
 import build_baseline_forecasts  # noqa: E402
+import build_ablation_study  # noqa: E402
 import build_epistemic_generative_state  # noqa: E402
 import build_signal_prediction_tasks  # noqa: E402
 import build_prediction_disagreement  # noqa: E402
@@ -61,6 +62,9 @@ def main() -> int:
     )
     rc |= build_baseline_forecasts.check_artifact(
         output_path=build_baseline_forecasts.DEFAULT_OUTPUT,
+    )
+    rc |= build_ablation_study.check_artifact(
+        output_path=build_ablation_study.DEFAULT_OUTPUT,
     )
 
     if rc == 0:

@@ -12,7 +12,7 @@ _SCRIPTS = _REPO_ROOT / "scripts"
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
-from prediction.contracts import has_string_falsifier, has_valid_falsifier_model
+from prediction.contracts import find_duplicate_fingerprints, has_string_falsifier, has_valid_falsifier_model
 from prediction.epistemic_generative_model import LATENT_DIMENSIONS
 from prediction.signal_extraction_engine import effective_falsifier_model
 from prediction.signal_prediction_tasks import (
@@ -244,6 +244,23 @@ def temporal_split(rows: list[dict[str, Any]], *, split_date: str) -> tuple[list
     return train, test
 
 
+def expand_registry_no_compression(registry: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    expanded = dict(registry)
+    for dupe in find_duplicate_fingerprints(registry):
+        for event_id in dupe.get("event_ids") or []:
+            if event_id in registry:
+                expanded[event_id] = registry[event_id]
+    try:
+        from prediction.compression_engine import MACGREGOR_MERGE_CANDIDATES
+
+        for source_id in MACGREGOR_MERGE_CANDIDATES:
+            if source_id in registry:
+                expanded[source_id] = registry[source_id]
+    except ImportError:
+        pass
+    return expanded
+
+
 def build_dataset_rows(
     *,
     registry: dict[str, dict[str, Any]],
@@ -318,10 +335,14 @@ def build_dataset_payload(
     split_date: str = DEFAULT_SPLIT_DATE,
     horizon_days: int = DEFAULT_HORIZON_DAYS,
     compression_checked: bool = True,
+    include_duplicate_fingerprint_events: bool = False,
 ) -> dict[str, Any]:
     from prediction_lib import load_event_registry
 
     events = registry or load_event_registry()
+    if include_duplicate_fingerprint_events:
+        events = expand_registry_no_compression(events)
+        compression_checked = False
     rows = build_dataset_rows(
         registry=events,
         timeline=timeline or {},

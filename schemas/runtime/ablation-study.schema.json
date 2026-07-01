@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/ablation-study.schema.json",
+  "title": "Ablation study artifact",
+  "type": "object",
+  "required": ["_meta", "interpretation", "variants", "drops"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": [
+        "generated",
+        "do_not_edit",
+        "source",
+        "ablation_source",
+        "split_date",
+        "low_n_advisory",
+        "reference_variant",
+        "drop_metric",
+        "eval_scope"
+      ],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" },
+        "ablation_source": { "type": "string", "enum": ["heuristic_v1"] },
+        "split_date": { "type": "string" },
+        "low_n_advisory": { "type": "boolean" },
+        "reference_variant": { "type": "string" },
+        "drop_metric": { "type": "string" },
+        "eval_scope": { "type": "object" }
+      },
+      "additionalProperties": true
+    },
+    "interpretation": { "type": "string", "enum": ["ablation_evaluation"] },
+    "variants": { "type": "object" },
+    "drops": { "type": "array" },
+    "insight": { "type": "string" }
+  },
+  "$defs": {
+    "variantBlock": {
+      "type": "object",
+      "required": ["core", "structural"],
+      "properties": {
+        "core": { "type": "object" },
+        "structural": { "type": "object" }
+      }
+    }
+  }
+}

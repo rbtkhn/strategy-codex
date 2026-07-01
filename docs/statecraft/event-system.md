@@ -178,6 +178,26 @@ Statistical **baseline comparison** against ENGM — answers whether the epistem
 
 **Pipeline:** after epistemic dataset check; before voice shelves. Checker: `check_baseline_forecasts.py --advisory`.
 
+### PR6 / ablation study (subsystem contribution — heuristic v1)
+
+In-process **ablation evaluation** — measures Brier `performance_drop` when each subsystem is disabled vs full stack.
+
+| Artifact | Role |
+| --- | --- |
+| `runtime/artifacts/ablation-study.json` | Per-variant core + structural metrics; `drops[]` with Brier delta |
+
+**Variants (v1):** full; no_compression; no_falsifier_model; no_signal_extraction; no_disagreement_graph.
+
+**Drop metric:** `performance_drop = variant.brier - full.brier` (positive = subsystem contributes; variant worse when disabled).
+
+**Structural diagnostics:** entropy stability, graph coherence, cross-voice alignment mean — not used for drop scalar in v1.
+
+**Low-N advisory:** WARN when `test_probability_n < 5` — drops may be `null` with `"note": "low_n"`.
+
+**Operator rule:** `interpretation: ablation_evaluation`; `ablation_source: heuristic_v1` — no registry mutation, no subprocess pipeline reruns.
+
+**Pipeline:** after baseline forecasts check; before voice shelves. Checker: `check_ablation_study.py --advisory`.
+
 ### Status vs record (shelf lane)
 
 | Layer | SSOT | Values |

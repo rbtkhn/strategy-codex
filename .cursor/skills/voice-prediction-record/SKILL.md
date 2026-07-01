@@ -4,7 +4,7 @@ description: 'Curate and rebuild a speaker prediction shelf from archive capture
 preferred_activation: voice prediction record
 activation: voice prediction record
 portable: true
-version: 0.2.8
+version: 0.2.9
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -229,7 +229,14 @@ Full orchestrator:
 python3 scripts/run_prediction_pipeline.py
 ```
 
-Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **signal extraction** → **PR3 signal prediction tasks** → **ENGM** → **PR2 calibration loss** → **PR4 epistemic dataset** → **PR5 baseline forecasts** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **signal extraction** → **PR3 signal prediction tasks** → **ENGM** → **PR2 calibration loss** → **PR4 epistemic dataset** → **PR5 baseline forecasts** → **PR6 ablation study** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+
+**PR6 / ablation study (advisory):**
+
+- **Read-only:** `ablation-study.json` — five in-process variants; Brier `performance_drop` vs full system.
+- **Not causal proof at low-N:** `interpretation: ablation_evaluation`; drops may be `null` when `test_probability_n < 5`.
+- **Pipeline placement:** after baseline forecasts check, before voice shelf rebuild.
+- **Checker:** `python3 scripts/check_ablation_study.py --advisory`
 
 **PR5 / baseline forecasts (advisory):**
 

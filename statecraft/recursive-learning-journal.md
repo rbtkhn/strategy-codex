@@ -5058,3 +5058,69 @@ On the current sparse corpus ENGM loses to persistence on the sole test probabil
 Routing: [event-system.md](../docs/statecraft/event-system.md) (PR5 section) · [baseline_models.py](../scripts/prediction/baseline_models.py) · RLJ [PR4](#2026-06-29---pr4-epistemic-dataset-construction-pipeline-heuristic-v1)
 
 ---
+
+## 2026-06-29 - PR6 ablation study framework (heuristic v1)
+
+**Tag:** `voice-prediction` · `ablation` · `performance-drop` · `subsystem`  
+**Cross-link:** [§ PR5 baselines](#2026-06-29---pr5-baseline-forecasting-models-heuristic-v1) — Brier drop metric; [§ PR4 dataset](#2026-06-29---pr4-epistemic-dataset-construction-pipeline-heuristic-v1) — test split SSOT.
+
+### Trigger
+
+Post-PR5 the machine could compare against naive baselines but not **attribute** performance to subsystems. Operator locked **PR6 heuristic stub**: in-process ablation of compression, falsifier model, signal extraction, and disagreement graph — Brier drop vs full, advisory only.
+
+### Extracted law
+
+**1. Variants**
+
+```text
+full — reference
+no_compression — expand duplicate-fingerprint event set; compression_checked=false
+no_falsifier_model — effective_falsifier_model uniform stub via ablation_falsifier_context
+no_signal_extraction — neutral signal payload before ENGM/dataset rebuild
+no_disagreement_graph — neutral disagreement; re-extract signals when signals enabled
+```
+
+**2. Drop metric**
+
+```text
+performance_drop = variant.brier - full.brier  (metric: brier)
+null + note: low_n when test_probability_n < 1 or reference n < 1
+artifact: runtime/artifacts/ablation-study.json
+pipeline: after check_baseline_forecasts --advisory, before voice shelves
+```
+
+**3. Structural diagnostics (non-drop v1)**
+
+```text
+entropy_stability, graph_coherence, cross_voice_alignment_mean — reported per variant only
+```
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Core | `scripts/prediction/ablation_study.py` |
+| Hooks | `effective_falsifier_model` context; `expand_registry_no_compression` in dataset builder |
+| Build/check | `build_ablation_study.py` · `check_ablation_study.py --advisory` |
+| Schema | `schemas/runtime/ablation-study.schema.json` |
+| Tests | `test_ablation_study.py` · `test_build_ablation_study.py` |
+
+### Guardrail
+
+```text
+Do not mutate registry or run compression_engine --apply during ablation
+Do not claim causal proof when low_n_advisory — drops may be null
+Do not subprocess the full 27-step pipeline per variant in v1
+Structural metrics are diagnostic only — not performance_drop in v1
+```
+
+### Current lesson
+
+```text
+PR6 makes subsystem contribution explicit: disable one layer, rebuild membrane, score Brier delta.
+On the current sparse corpus most drops are null — the framework is honest scaffolding awaiting denser resolved outcomes.
+```
+
+Routing: [event-system.md](../docs/statecraft/event-system.md) (PR6 section) · [ablation_study.py](../scripts/prediction/ablation_study.py) · RLJ [PR5](#2026-06-29---pr5-baseline-forecasting-models-heuristic-v1)
+
+---
