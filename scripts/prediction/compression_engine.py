@@ -20,6 +20,14 @@ MACGREGOR_MERGE_CANDIDATES: dict[str, str] = {
     "nato_strategic_exposure_ukraine": "ukraine_escalation_russian_capitulation",
 }
 
+# Operator closed — statecraft/predictions/review-queue.md § Macgregor Ukraine cluster (2026-06-29)
+MACGREGOR_MERGE_REJECTED: frozenset[str] = frozenset(
+    {
+        "ukraine_western_aid_prolongs_war",
+        "nato_strategic_exposure_ukraine",
+    }
+)
+
 
 def compression_report(
     events: dict[str, dict[str, Any]] | None = None,
@@ -28,6 +36,8 @@ def compression_report(
     dupes = find_duplicate_fingerprints(registry)
     merge_proposals: list[dict[str, Any]] = []
     for source_id, target_id in MACGREGOR_MERGE_CANDIDATES.items():
+        if source_id in MACGREGOR_MERGE_REJECTED:
+            continue
         if source_id in registry and target_id in registry:
             merge_proposals.append(
                 {

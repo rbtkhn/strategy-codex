@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/prediction-signals.schema.json",
+  "title": "Prediction signals artifact",
+  "type": "object",
+  "required": ["_meta", "events"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "events": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "signal_type",
+          "trend",
+          "confidence",
+          "cross_voice_alignment",
+          "drift_vector",
+          "regime_shift_detected",
+          "distribution_source",
+          "primary_mode_id"
+        ],
+        "properties": {
+          "signal_type": {
+            "type": "string",
+            "enum": ["directional", "convergence", "divergence", "regime_shift", "saturation"]
+          },
+          "trend": { "type": "string" },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+          "cross_voice_alignment": { "type": "number", "minimum": 0, "maximum": 1 },
+          "drift_vector": {
+            "type": "array",
+            "items": { "type": "number" }
+          },
+          "regime_shift_detected": { "type": "boolean" },
+          "distribution_source": {
+            "type": "string",
+            "enum": ["persisted", "inferred_view"]
+          },
+          "primary_mode_id": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -21,6 +21,15 @@ STEPS: list[tuple[str, list[str]]] = [
     ("build_prediction_registry", ["python3", "scripts/build_prediction_registry.py"]),
     ("build_prediction_timeline", ["python3", "scripts/build_prediction_timeline.py"]),
     ("build_prediction_disagreement", ["python3", "scripts/build_prediction_disagreement.py"]),
+    ("build_prediction_semantic_scores", ["python3", "scripts/build_prediction_semantic_scores.py"]),
+    (
+        "signal_extraction_engine",
+        ["python3", "scripts/prediction/signal_extraction_engine.py"],
+    ),
+    (
+        "check_prediction_signals",
+        ["python3", "scripts/check_prediction_signals.py", "--advisory"],
+    ),
     ("build_freeman_predictions", ["python3", "scripts/build_freeman_predictions.py"]),
     (
         "build_mercouris_predictions",
@@ -32,8 +41,10 @@ STEPS: list[tuple[str, list[str]]] = [
     ),
     ("build_prediction_event_pages", ["python3", "scripts/build_prediction_event_pages.py"]),
     ("check_phase3", ["python3", "scripts/check_phase3.py", "--emit-review-queue"]),
-    ("build_prediction_semantic_scores", ["python3", "scripts/build_prediction_semantic_scores.py"]),
-    ("check_prediction_semantic_scores", ["python3", "scripts/check_prediction_semantic_scores.py"]),
+    (
+        "check_prediction_semantic_scores",
+        ["python3", "scripts/check_prediction_semantic_scores.py", "--advisory"],
+    ),
 ]
 
 

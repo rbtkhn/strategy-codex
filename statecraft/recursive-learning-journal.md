@@ -4601,3 +4601,91 @@ Routing: [event-system.md](../docs/statecraft/event-system.md) · [voice-predict
 **Pattern promotion:** defer until Phase 3b extractor produces `event-candidates.json` rows that compile through gatekeeper without new law beyond (2)(4).
 
 ---
+
+## 2026-06-29 - Phase 3.5 tiered falsifier CI + Phase 4.5 signal extraction + Macgregor merge closed
+
+**Tag:** `voice-prediction` · `event-registry` · `phase-3.5` · `phase-4.5` · `falsifier_model` · `signal-extraction` · `compression`  
+**Cross-link:** [§ Phase 3 semantic layer (2026-06-29)](#2026-06-29---phase-3-semantic-layer-dimensions-only-trajectories--compile-gatekeeper) — compile gatekeeper **ERROR tier unchanged**; Phase 3.5 adds **in-memory** `falsifier_model` infer + advisory semantic scores; Phase 4.5 adds **read-only** directional signals. **Supersedes narrow** Phase 3 reapplication bullet *Macgregor seed review → `--apply` deprecate* for the two Ukraine/NATO pairs — operator **reject merge** (below).  
+**Cross-link:** [§ parallel ban EXECUTE ship (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — signal + falsifier modules shipped sequential; one Shell per turn on Windows.
+
+### Trigger
+
+Post-gatekeeper (`da0a037a6`) bottleneck: Macgregor-style rows blocked at **missing string falsifier** while wire-grade Freeman rows stayed string-only. Operator locked **tiered CI** (structural ERROR vs semantic WARN) and **heuristic stub** inference (no LLM in compile). Same-day follow-on: machine could score entropy and cross-voice disagreement but not answer *what is changing* — Phase 4.5 signal layer. Compression still emitted **review_merge** for Ukraine cluster until operator review closed it.
+
+### Extracted law
+
+**1. Tiered falsifier CI (Phase 3.5 — additive model, gatekeeper preserved)**
+
+```text
+Compile acceptance: non-empty falsifier OR valid falsifier_model OR not_falsifiable
+probabilistic_falsifier_engine: in-memory enrich at compile/upsert only — no auto-changelog persist
+Fingerprint key: string falsifier OR sorted (mode.id, mode.condition) — not probability weights
+ERROR unchanged: orphans · fingerprint collision · trajectory v4 · invalid falsifier_model shape
+WARN + review queue: high-entropy inferred models
+Advisory artifact: runtime/artifacts/prediction-semantic-scores.json (check --advisory)
+Explicit operator falsifier beats infer on wire-grade Freeman rows — do not replace
+```
+
+**2. Signal extraction = derived intelligence, not registry mutation (Phase 4.5)**
+
+```text
+Inputs (read-only): event-registry · prediction-timeline · prediction-disagreement · prediction-semantic-scores
+Effective distribution: persisted falsifier_model OR inferred_view (infer_falsifier_model at signal build)
+Outputs: prediction-signals.json (per event) · prediction-regime-summary.json (global_signals)
+Signal types: directional | convergence | divergence | regime_shift | saturation
+Pipeline order: … → semantic scores → signal_extraction_engine → check_prediction_signals --advisory → voice shelves
+stdlib math only (signal_math.py) — no numpy; Macgregor high-entropy down-weight in cross_voice_alignment
+CI: advisory only — never blocks compile or check_phase3 ERROR tier
+```
+
+**3. Macgregor Ukraine cluster — merge rejected (compression review closed)**
+
+```text
+Pairs reviewed: ukraine_western_aid_prolongs_war · nato_strategic_exposure_ukraine → ukraine_escalation_russian_capitulation
+Verdict: REJECT merge — distinct falsifiers (Phase 3 Rule B); target already resolved · no (Kellogg mechanism)
+Same capture: diesen-macgregor-victory-day-2025-05-09 — thematic overlap ≠ fingerprint duplicate
+compression_engine: MACGREGOR_MERGE_REJECTED — open macgregor_merge_proposals [] for these pairs
+Receipt: statecraft/predictions/review-queue.md § Closed items · prediction-review-queue.json closed[]
+```
+
+### Reapplication
+
+- **Missing falsifier on upsert** — compile path infers `falsifier_model` in memory; operator confirms high-entropy rows via review queue before changelog persist (Phase 3.5b).
+- **Directional read** — consume `prediction-signals.json` + regime summary after pipeline step 10; do not hand-edit artifacts.
+- **Same-interview multi-claim Macgregor rows** — keep separate `event_id` when falsifiers differ; document reject in review-queue; do not `--apply` deprecate without new operator decision.
+- **Cross-voice Ukraine shelf** — optional matrix grouping by capture source; not registry merge.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Phase 3.5 | `b896e1594` — `probabilistic_falsifier_engine` · `falsifier_model` in contracts/schema · semantic scores build/check |
+| Phase 4.5 (local) | `signal_math.py` · `signal_extraction_engine.py` · `prediction-signals.json` · `prediction-regime-summary.json` · pipeline reorder |
+| Merge close | `MACGREGOR_MERGE_REJECTED` · `review-queue.md` closed section · `prediction-review-queue.json` |
+| Tests | `test_probabilistic_falsifier_engine` · `test_signal_*` · `test_macgregor_merge_proposals_closed_after_operator_review` |
+
+### Guardrail
+
+```text
+Do not persist inferred falsifier_model to registry without operator review (high entropy → queue)
+Do not treat signal extraction as write gate or registry SSOT — derived view only
+Do not merge Macgregor Ukraine seeds into resolved Kellogg event — falsifier + status collision
+Do not re-open MACGREGOR_MERGE_CANDIDATES pairs without changelog + review-queue decision record
+signal trend strings are template v1 — not LLM summaries; Phase 4.5b for richer narrative
+```
+
+**Falsification:** If operator proves two Macgregor seeds must share one falsifier for scoring, add explicit `linked_event_id` metadata — not silent deprecate via compression `--apply`.
+
+### Current lesson
+
+```text
+Uncertainty modeling (3.5) and directional signals (4.5) stack without weakening the compile membrane:
+registry stays string-falsifier SSOT for wire rows; inference and signals are labeled derived layers.
+Compression review_merge is operator law, not fingerprint law — reject when falsifiers differ even from one interview.
+```
+
+Routing: [event-system.md](../docs/statecraft/event-system.md) (v4.5 + Phase 4.5) · [review-queue.md](predictions/review-queue.md) · [signal_extraction_engine.py](../scripts/prediction/signal_extraction_engine.py) · [compression_engine.py](../scripts/prediction/compression_engine.py) · RLJ [Phase 3 gatekeeper](#2026-06-29---phase-3-semantic-layer-dimensions-only-trajectories--compile-gatekeeper)
+
+**Pattern promotion:** defer until a second advisory consumer (weekly brief or cross-voice matrix) reads `prediction-signals.json` without new join law beyond effective `inferred_view`.
+
+---

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/prediction-regime-summary.schema.json",
+  "title": "Prediction regime summary artifact",
+  "type": "object",
+  "required": ["_meta", "global_signals"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "global_signals": {
+      "type": "object",
+      "required": [
+        "geopolitical_escalation",
+        "system_entropy",
+        "voice_alignment",
+        "regime_shift_detected"
+      ],
+      "properties": {
+        "geopolitical_escalation": {
+          "type": "string",
+          "enum": ["increasing", "stable", "decreasing"]
+        },
+        "system_entropy": {
+          "type": "string",
+          "enum": ["stable_high", "stable_low", "rising"]
+        },
+        "voice_alignment": {
+          "type": "string",
+          "enum": ["low", "moderate", "high"]
+        },
+        "regime_shift_detected": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

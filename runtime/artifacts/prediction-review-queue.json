@@ -1,8 +1,26 @@
 {
   "_meta": {
     "generated": false,
-    "description": "Operator prediction review queue — populate via check_event_registry.py --emit-review-queue",
-    "source": "scripts/check_event_registry.py"
+    "description": "Operator prediction review queue — populate via check scripts; closed decisions appended by operator",
+    "source": "statecraft/predictions/review-queue.md"
   },
-  "items": []
+  "items": [],
+  "closed": [
+    {
+      "type": "review_merge",
+      "decision": "reject_merge",
+      "decision_date": "2026-06-29",
+      "source_id": "ukraine_western_aid_prolongs_war",
+      "target_id": "ukraine_escalation_russian_capitulation",
+      "message": "Keep separate — distinct falsifier; target resolved no (Kellogg capitulation mechanism)"
+    },
+    {
+      "type": "review_merge",
+      "decision": "reject_merge",
+      "decision_date": "2026-06-29",
+      "source_id": "nato_strategic_exposure_ukraine",
+      "target_id": "ukraine_escalation_russian_capitulation",
+      "message": "Keep separate — distinct NATO exposure falsifier; same-interview overlap only"
+    }
+  ]
 }

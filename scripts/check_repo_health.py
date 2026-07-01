@@ -49,6 +49,11 @@ def run_quick() -> int:
             ["python3", "scripts/check_prediction_semantic_scores.py", "--advisory"],
             "prediction semantic scores (advisory)",
         ),
+        (["python3", "scripts/build_prediction_signals.py"], "build prediction signals"),
+        (
+            ["python3", "scripts/check_prediction_signals.py", "--advisory"],
+            "prediction signals (advisory)",
+        ),
         (["python3", "scripts/build_prediction_event_pages.py"], "build prediction event pages"),
         (["python3", "scripts/build_prediction_event_pages.py", "--check"], "prediction event pages fresh"),
         (["python3", "scripts/build_prediction_registry.py"], "build prediction registry"),

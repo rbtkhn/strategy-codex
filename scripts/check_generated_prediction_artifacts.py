@@ -15,6 +15,8 @@ if str(_SCRIPTS) not in sys.path:
 import build_prediction_disagreement  # noqa: E402
 import build_prediction_metrics  # noqa: E402
 import build_prediction_registry  # noqa: E402
+import build_prediction_regime_summary  # noqa: E402
+import build_prediction_signals  # noqa: E402
 import build_prediction_timeline  # noqa: E402
 
 def main() -> int:
@@ -32,6 +34,13 @@ def main() -> int:
     rc |= build_prediction_timeline.check_artifact(
         output_path=build_prediction_timeline.DEFAULT_OUTPUT,
         registry_path=build_prediction_timeline.DEFAULT_REGISTRY,
+    )
+    rc |= build_prediction_signals.check_artifact(
+        output_path=build_prediction_signals.DEFAULT_OUTPUT,
+    )
+    rc |= build_prediction_regime_summary.check_artifact(
+        output_path=build_prediction_regime_summary.DEFAULT_OUTPUT,
+        signals_path=build_prediction_regime_summary.DEFAULT_SIGNALS,
     )
 
     if rc == 0:

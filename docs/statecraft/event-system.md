@@ -71,6 +71,21 @@ A **prediction note** lives under [`statecraft/notes/predictions/`](../../statec
 
 **Pipeline:** `probabilistic_falsifier_engine` runs before `registry_writer compile` (in-memory enrich). Advisory scores: `runtime/artifacts/prediction-semantic-scores.json`.
 
+### v4.5 signal layer (Phase 4.5 — directional intelligence)
+
+Read-only derived view — **does not** mutate registry, falsifier models, or ERROR-tier CI.
+
+| Artifact | Role |
+| --- | --- |
+| `runtime/artifacts/prediction-signals.json` | Per-event directional signals from effective probability snapshots |
+| `runtime/artifacts/prediction-regime-summary.json` | Aggregated system-level escalation / alignment / regime-shift summary |
+
+**Effective distribution:** persisted `falsifier_model` when present; otherwise `inferred_view` via `probabilistic_falsifier_engine` at signal-build time only.
+
+**Signal types:** `directional` · `convergence` · `divergence` · `regime_shift` · `saturation` — advisory; cross-voice alignment uses entropy-weighted cosine similarity (Macgregor high-entropy voices down-weighted).
+
+**Pipeline:** after timeline, disagreement, and semantic scores; before voice shelf rebuild. Checker: `check_prediction_signals.py --advisory`.
+
 ### Status vs record (shelf lane)
 
 | Layer | SSOT | Values |

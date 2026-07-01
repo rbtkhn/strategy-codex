@@ -1,0 +1,213 @@
+{
+  "_meta": {
+    "generated": true,
+    "do_not_edit": true,
+    "source": "scripts/build_prediction_signals.py",
+    "phase": "4.5-advisory"
+  },
+  "events": {
+    "china_tariff_capitulation_2025": {
+      "signal_type": "directional",
+      "trend": "steady escalation probability increase",
+      "confidence": 0.35,
+      "cross_voice_alignment": 1.0,
+      "drift_vector": [
+        0.444,
+        0.444,
+        0.444,
+        0.444,
+        0.444
+      ],
+      "regime_shift_detected": false,
+      "distribution_source": "inferred_view",
+      "primary_mode_id": "prolonged_stalemate"
+    },
+    "gaza_ceasefire_holds_2025": {
+      "signal_type": "directional",
+      "trend": "mixed movement on claim_holds",
+      "confidence": 0.35,
+      "cross_voice_alignment": 1.0,
+      "drift_vector": [
+        0.4698,
+        0.4698
+      ],
+      "regime_shift_detected": false,
+      "distribution_source": "inferred_view",
+      "primary_mode_id": "claim_holds"
+    },
+    "gaza_hostage_deal_jan_2025": {
+      "signal_type": "directional",
+      "trend": "stable probability around claim_holds",
+      "confidence": 0.35,
+      "cross_voice_alignment": 1.0,
+      "drift_vector": [
+        0.5417
+      ],
+      "regime_shift_detected": false,
+      "distribution_source": "inferred_view",
+      "primary_mode_id": "claim_holds"
+    },
+    "gulf_crisis_macro_shock": {
+      "signal_type": "directional",
+      "trend": "stable probability around claim_holds",
+      "confidence": 0.35,
+      "cross_voice_alignment": 1.0,
+      "drift_vector": [
+        0.5417
+      ],
+      "regime_shift_detected": false,
+      "distribution_source": "inferred_view",
+      "primary_mode_id": "claim_holds"
+    },
+    "iran_airpower_cannot_force_submission": {
+      "signal_type": "directional",
+      "trend": "stable probability around us_withdrawal_before_peak",
+      "confidence": 0.35,
+      "cross_voice_alignment": 1.0,
+      "drift_vector": [
+        0.4763
+      ],
+      "regime_shift_detected": false,
+      "distribution_source": "inferred_view",
+      "primary_mode_id": "us_withdrawal_before_peak"
+    },
+    "iran_great_power_direct_war_entry": {
+      "signal_type": "directional",
+      "trend": "mixed movement on us_withdrawal_before_peak",
+      "confidence": 0.35,
+      "cross_voice_alignment": 1.0,
+      "drift_vector": [
+        0.4763,
+        0.5116
+      ],
+      "regime_shift_detected": false,
+      "distribution_source": "inferred_view",
+      "primary_mode_id": "us_withdrawal_before_peak"
+    },
+    "israel_sabotages_exit_ramps": {
+      "signal_type": "directional",
+      "trend": "stable probability around claim_holds",
+      "confidence": 0.35,
+      "cross_voice_alignment": 1.0,
+      "drift_vector": [
+        0.5417
+      ],
+      "regime_shift_detected": false,
+      "distribution_source": "inferred_view",
+      "primary_mode_id": "claim_holds"
+    },
+    "israel_self_destruction_trajectory": {
+      "signal_type": "directional",
+      "trend": "steady escalation probability increase",
+      "confidence": 0.35,
+      "cross_voice_alignment": 1.0,
+      "drift_vector": [
+        0.4584,
+        0.4584,
+        0.4584,
+        0.4584,
+        0.4584,
+        0.4584,
+        0.4584,
+        0.4584,
+        0.4584,
+        0.4584,
+        0.4584,
+        0.4584,
+        0.4584,
+        0.4584,
+        0.4584
+      ],
+      "regime_shift_detected": false,
+      "distribution_source": "inferred_view",
+      "primary_mode_id": "israel_moral_pariah_status"
+    },
+    "nato_strategic_exposure_ukraine": {
+      "signal_type": "directional",
+      "trend": "stable probability around prolonged_stalemate",
+      "confidence": 0.35,
+      "cross_voice_alignment": 1.0,
+      "drift_vector": [
+        0.514
+      ],
+      "regime_shift_detected": false,
+      "distribution_source": "inferred_view",
+      "primary_mode_id": "prolonged_stalemate"
+    },
+    "russia_odessa_control": {
+      "signal_type": "divergence",
+      "trend": "cross-voice probability divergence",
+      "confidence": 0.7167,
+      "cross_voice_alignment": 0.9955,
+      "drift_vector": [
+        0.444,
+        0.514,
+        0.4771
+      ],
+      "regime_shift_detected": false,
+      "distribution_source": "inferred_view",
+      "primary_mode_id": "prolonged_stalemate"
+    },
+    "ukraine_escalation_russian_capitulation": {
+      "signal_type": "directional",
+      "trend": "steady escalation probability increase",
+      "confidence": 0.35,
+      "cross_voice_alignment": 1.0,
+      "drift_vector": [
+        0.444,
+        0.444,
+        0.444,
+        0.444,
+        0.444,
+        0.444
+      ],
+      "regime_shift_detected": false,
+      "distribution_source": "inferred_view",
+      "primary_mode_id": "prolonged_stalemate"
+    },
+    "ukraine_western_aid_prolongs_war": {
+      "signal_type": "directional",
+      "trend": "stable probability around prolonged_stalemate",
+      "confidence": 0.35,
+      "cross_voice_alignment": 1.0,
+      "drift_vector": [
+        0.514
+      ],
+      "regime_shift_detected": false,
+      "distribution_source": "inferred_view",
+      "primary_mode_id": "prolonged_stalemate"
+    },
+    "us_forward_presence_obsolete": {
+      "signal_type": "directional",
+      "trend": "stable probability around claim_holds",
+      "confidence": 0.35,
+      "cross_voice_alignment": 1.0,
+      "drift_vector": [
+        0.5417
+      ],
+      "regime_shift_detected": false,
+      "distribution_source": "inferred_view",
+      "primary_mode_id": "claim_holds"
+    },
+    "us_israel_iran_war_preparation_2025": {
+      "signal_type": "directional",
+      "trend": "steady escalation probability increase",
+      "confidence": 0.35,
+      "cross_voice_alignment": 1.0,
+      "drift_vector": [
+        0.5486,
+        0.5486,
+        0.5486,
+        0.5486,
+        0.5486,
+        0.5486,
+        0.5486,
+        0.5486,
+        0.5486
+      ],
+      "regime_shift_detected": false,
+      "distribution_source": "inferred_view",
+      "primary_mode_id": "us_withdrawal_before_peak"
+    }
+  }
+}

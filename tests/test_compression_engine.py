@@ -45,3 +45,10 @@ def test_compression_report_lists_macgregor_merge_proposals() -> None:
     report = compression_report()
     assert report["event_count"] >= 14
     assert isinstance(report["macgregor_merge_proposals"], list)
+
+
+def test_macgregor_merge_proposals_closed_after_operator_review() -> None:
+    report = compression_report()
+    source_ids = {p["source_id"] for p in report["macgregor_merge_proposals"]}
+    assert "ukraine_western_aid_prolongs_war" not in source_ids
+    assert "nato_strategic_exposure_ukraine" not in source_ids

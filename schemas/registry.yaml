@@ -25,6 +25,18 @@ schemas:
     format: json
     scope: prediction
 
+  prediction_signals:
+    path: schemas/runtime/prediction-signals.schema.json
+    applies_to: runtime/artifacts/prediction-signals.json
+    format: json
+    scope: prediction
+
+  prediction_regime_summary:
+    path: schemas/runtime/prediction-regime-summary.schema.json
+    applies_to: runtime/artifacts/prediction-regime-summary.json
+    format: json
+    scope: prediction
+
   dream:
     path: schemas/runtime/dream.schema.json
     applies_to: runtime/daily-handoff/last-dream.json

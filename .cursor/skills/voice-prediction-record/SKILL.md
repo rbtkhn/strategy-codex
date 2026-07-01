@@ -4,7 +4,7 @@ description: 'Curate and rebuild a speaker prediction shelf from archive capture
 preferred_activation: voice prediction record
 activation: voice prediction record
 portable: true
-version: 0.2.2
+version: 0.2.3
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -229,7 +229,14 @@ Full orchestrator:
 python3 scripts/run_prediction_pipeline.py
 ```
 
-Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile (infer + gate) → prediction registry → timeline → disagreement → voice shelves → event pages → `check_phase3` → **semantic scores (advisory)**.
+Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **signal extraction** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+
+**Phase 4.5 — signal extraction (advisory):**
+
+- **Read-only:** derives `prediction-signals.json` + `prediction-regime-summary.json`; never writes registry.
+- **Effective model:** persisted `falsifier_model` or `inferred_view` at build time; explicit string `falsifier` on wire rows unchanged.
+- **Macgregor-safe:** high-entropy voices down-weighted in cross-voice alignment.
+- **Checker:** `python3 scripts/check_prediction_signals.py --advisory`
 
 **Phase 3.5 — falsifier doctrine:**
 
