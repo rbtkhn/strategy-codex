@@ -81,16 +81,16 @@ def test_freeman_predictions_markdown_public_structure() -> None:
 
 def test_freeman_source_trail_uses_public_header() -> None:
     md = MD_PATH.read_text(encoding="utf-8")
-    assert "| Date | Channel | Episode | Stance | Excerpt |" in md
+    assert "| Date | Channel | Episode | Stance | Speech act | Excerpt |" in md
+    assert "| Date | Channel | Episode | Stance | Excerpt |" not in md
     assert "| Date | Appearance | Stance | Exact words |" not in md
 
 
 def test_freeman_source_trail_header_count_matches_events() -> None:
     md = MD_PATH.read_text(encoding="utf-8")
     payload = json.loads(JSON_PATH.read_text(encoding="utf-8"))
-    assert md.count("| Date | Channel | Episode | Stance | Excerpt |") == len(
-        payload["events"]
-    )
+    header = "| Date | Channel | Episode | Stance | Speech act | Excerpt |"
+    assert md.count(header) == len(payload["events"])
 
 
 def test_freeman_source_trail_has_episode_column_links_when_available() -> None:

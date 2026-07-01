@@ -15,10 +15,11 @@ if str(SCRIPTS) not in sys.path:
 from voice_prediction_pilot import get_voice_config, list_voice_speakers  # noqa: E402
 
 
-def test_voice_registry_lists_freeman_and_mercouris() -> None:
+def test_voice_registry_lists_freeman_mercouris_and_macgregor() -> None:
     speakers = list_voice_speakers()
     assert "freeman" in speakers
     assert "mercouris" in speakers
+    assert "macgregor" in speakers
 
 
 def test_freeman_config_paths() -> None:
@@ -34,6 +35,15 @@ def test_mercouris_config_paths() -> None:
     assert cfg.speaker == "mercouris"
     assert cfg.public_map_path.name == "mercouris-prediction-public-map.json"
     assert len(cfg.pilot_event_order) == 2
+    assert cfg.schema == "mercouris-predictions-v3"
+
+
+def test_macgregor_config_paths() -> None:
+    cfg = get_voice_config("macgregor")
+    assert cfg.speaker == "macgregor"
+    assert cfg.public_map_path.name == "macgregor-prediction-public-map.json"
+    assert len(cfg.pilot_event_order) == 8
+    assert cfg.schema == "macgregor-predictions-v3"
 
 
 def test_build_voice_predictions_freeman_check() -> None:
@@ -101,6 +111,36 @@ def test_build_and_check_mercouris_predictions() -> None:
     assert drift.returncode == 0, drift.stderr or drift.stdout
     shape = subprocess.run(
         ["python3", "scripts/check_voice_predictions.py", "--speaker", "mercouris"],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    assert shape.returncode == 0, shape.stderr or shape.stdout
+
+
+def test_build_and_check_macgregor_predictions() -> None:
+    build = subprocess.run(
+        ["python3", "scripts/build_voice_predictions.py", "--speaker", "macgregor"],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    assert build.returncode == 0, build.stderr or build.stdout
+    drift = subprocess.run(
+        [
+            "python3",
+            "scripts/build_voice_predictions.py",
+            "--speaker",
+            "macgregor",
+            "--check",
+        ],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    assert drift.returncode == 0, drift.stderr or drift.stdout
+    shape = subprocess.run(
+        ["python3", "scripts/check_voice_predictions.py", "--speaker", "macgregor"],
         cwd=REPO_ROOT,
         capture_output=True,
         text=True,
