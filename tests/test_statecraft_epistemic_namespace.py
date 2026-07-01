@@ -12,6 +12,7 @@ REQUIRED = [
     "statecraft/epistemic/plugins",
     "statecraft/epistemic/pipeline",
     "statecraft/epistemic/data",
+    "statecraft/epistemic/observation/voice_captures",
 ]
 
 
