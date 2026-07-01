@@ -4405,3 +4405,104 @@ Routing: [voice-prediction-record skill](../.cursor/skills/voice-prediction-reco
 **Pattern promotion:** defer until Mercouris (or second speaker) reuses v3 + source-trail without new law beyond (1)(2).
 
 ---
+
+## 2026-06-29 - Voice prediction rev. 3 plan (registry → voices → cross-voice) + notes-lane enrollment
+
+**Tag:** `voice-prediction` · `event-registry` · `two-lane` · `mercouris` · `macgregor` · `cross-voice` · `notes-lane`  
+**Cross-link:** [§ Voice prediction public shelf v3 + source-trail (2026-06-29)](#2026-06-29---voice-prediction-public-shelf-v3--source-trail-citation-grammar) — shelf lane (capture map → MD); this entry adds **notes lane** enrollment gate + rev. 3 registry/cross-voice law.  
+**Cross-link:** [§ parallel ban EXECUTE ship (2026-06-18)](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship) — phase commits shipped as sequential slices, not parallel file storms.
+
+### Trigger
+
+Jun 29 EXECUTE arc implementing **Voice Prediction Records rev. 3** in place (no schema fork): registry validator + Gaza closure + Israel child dimensions; v3 renderer metrics + **Speech act** source-trail column; Mercouris v3 parity + Macgregor eight-event pilot; `build_prediction_event_pages.py` MVP; ten **notes-lane stubs** (Mercouris ×2, Macgregor ×8) so `check_voice_enrollment.py` clears WARN. Commits `33c61ab84` · `befcecbef` · `1f0d2f16a` · `ab4dd678c` (rev. 3) · `56ac2e66c` (enrollment).
+
+### Extracted law
+
+**1. Two-lane enrollment (capture-map-first is honest)**
+
+```text
+shelf lane   → capture map + public map → build_voice_predictions → *-predictions.{md,json}
+notes lane   → statecraft/notes/predictions/*.md → build_prediction_registry → prediction-timeline.json
+Full enrollment per pilot event_id requires BOTH lanes (registry row + timeline latest_by_speaker | shift | review)
+New voice may ship shelf first; add one prediction note per pilot event before claiming enrollment
+```
+
+**2. Phased falsifier strictness (do not block migration)**
+
+```text
+check_event_registry.py default     → missing falsifier = WARN (+ review queue)
+--strict-enrolled                   → ERROR on VOICE_REGISTRY pilot_event_order only
+Resolved events                     → ERROR if missing resolved_date or resolution_source
+Wire stub path                      → prediction-resolution-<event-id-with-hyphens>.md (not raw snake_case)
+review_note                         → explanatory only; checkers MUST NOT branch on it
+```
+
+**3. Trajectory decomposition before shelf split**
+
+```text
+Preset child event_ids in event-registry.json before coding capture splits
+Parent stays on public shelf umbrella; optional child_event_id on capture rows for notes-lane hooks
+Do not invent partial_resolved enum — use status + outcome + resolution_scope + wire stub
+```
+
+**4. Cross-voice views are generated SSOT joins**
+
+```text
+build_prediction_event_pages.py inputs: event-registry + prediction-timeline + disagreement + voice shelf JSON
+Outputs: statecraft/predictions/events/<event-id>.md + cross-voice-matrix.md
+Do not hand-maintain stance matrices or Assessment prose in GENERATED pages
+```
+
+**5. Speech act column completes source-trail (narrows v3 citation grammar)**
+
+```text
+SOURCE_TRAIL_HEADER = Date | Channel | Episode | Stance | Speech act | Excerpt
+Checker bans legacy 5-column headers (including pre-Speech-act Channel|Excerpt-only row)
+speech_act values align capture map + prediction notes (initial, restated, iterated, …)
+```
+
+### Reapplication
+
+- **Fourth voice pilot** — add `VoiceConfig` + capture/public maps + wire-events index; registry map-to-existing-event_id first; one notes stub per enrolled event before strict enrollment.
+- **Israel child wire closure** — operator falsifiers per child; wire stub only when wire-grade closure planned; parent may stay `open`.
+- **After registry or notes change** — rebuild chain: registry → timeline → disagreement → metrics → event pages (same turn as enrollment check when shipping).
+- **Gaza-style resolved drift** — when event-registry closes an event, align prediction note `status:` with event status (not only shelf/registry JSON).
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Registry validator | `scripts/check_event_registry.py` — WARN/strict-enrolled, parent/child, kebab wire stubs |
+| Enrollment gate | `scripts/check_voice_enrollment.py` — WARN shelf-without-notes-lane |
+| Event pages MVP | `scripts/build_prediction_event_pages.py` + `statecraft/predictions/events/` + `cross-voice-matrix.md` |
+| Voices | Freeman template · Mercouris v3 · Macgregor 8-seed pilot (`VOICE_REGISTRY`) |
+| Renderer | `build_voice_predictions.py` — first/latest/appearances/reiteration, horizon, falsifier, shift block |
+| Notes stubs | 10 prediction notes (Mercouris/Macgregor pilot anchors) |
+| Tests | `test_event_registry.py` · `test_prediction_event_pages.py` · voice prediction pytest updates |
+| Repo health | `check_repo_health.py` — registry + strict-enrolled + event pages check |
+| **Pushed** | `33c61ab84` · `befcecbef` · `1f0d2f16a` · `ab4dd678c` · `56ac2e66c` |
+
+### Guardrail
+
+```text
+Do not replace two-lane machine with capture-map-only enrollment
+Do not add third registry status enum for nuance — use falsifier, resolution_scope, parent/child
+Do not hand-edit cross-voice-matrix.md or event pages under statecraft/predictions/events/
+Do not skip notes-lane stub when manifest lists a generated voice shelf as enrolled
+Do not branch machine logic on review_note
+```
+
+**Falsification:** If a voice is **notes-only** (no capture map / no public shelf), narrow law (1): enrollment checker would need a `--shelf-optional` fork — not built; today all enrolled voices are shelf + notes.
+
+### Current lesson
+
+```text
+Rev. 3 extends the v3 shelf in place: registry closure is operator-governed (wire stubs);
+cross-voice pages are generated joins; voices scale by VoiceConfig + maps + notes stubs, not matrix hand edits.
+```
+
+Routing: [event-system.md](../docs/statecraft/event-system.md) · [voice-prediction-record skill](../.cursor/skills/voice-prediction-record/SKILL.md) · [check_event_registry.py](../scripts/check_event_registry.py) · [check_voice_enrollment.py](../scripts/check_voice_enrollment.py) · [build_prediction_event_pages.py](../scripts/build_prediction_event_pages.py) · RLJ [v3 source-trail](#2026-06-29---voice-prediction-public-shelf-v3--source-trail-citation-grammar)
+
+**Pattern promotion:** defer until a second cross-voice consumer (e.g. weekly brief) reads event pages without new join law beyond (4).
+
+---
