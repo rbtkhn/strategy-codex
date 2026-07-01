@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/voice-trajectories.schema.json",
+  "title": "Per-voice trajectory slice artifact",
+  "type": "object",
+  "required": ["_meta", "interpretation", "voice", "trajectories"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source", "voice"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" },
+        "extraction_source": { "type": "string", "enum": ["heuristic_v1"] },
+        "voice": { "type": "string" },
+        "trajectory_count": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "interpretation": { "type": "string", "enum": ["voice_trajectory_slice"] },
+    "voice": { "type": "string" },
+    "trajectories": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/trajectoryBlock" }
+    }
+  },
+  "$defs": {
+    "trajectoryPoint": {
+      "type": "object",
+      "required": ["timestamp", "claim", "stance", "probability", "confidence"],
+      "properties": {
+        "timestamp": { "type": "string" },
+        "claim": { "type": "string" },
+        "stance": { "type": "string" },
+        "probability": { "type": "number" },
+        "confidence": { "type": "number" },
+        "interpretation": { "type": "string" },
+        "speech_act": { "type": "string" },
+        "capture": { "type": "string" }
+      }
+    },
+    "trajectoryBlock": {
+      "type": "object",
+      "required": ["event_id", "voice", "trajectory", "alignment_score"],
+      "properties": {
+        "event_id": { "type": "string" },
+        "voice": { "type": "string" },
+        "trajectory": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/trajectoryPoint" }
+        },
+        "alignment_score": { "type": "number" },
+        "entropy_weighted_probability": { "type": "number" }
+      }
+    }
+  }
+}

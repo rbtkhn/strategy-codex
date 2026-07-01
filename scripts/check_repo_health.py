@@ -49,6 +49,11 @@ def run_quick() -> int:
             ["python3", "scripts/check_prediction_semantic_scores.py", "--advisory"],
             "prediction semantic scores (advisory)",
         ),
+        (["python3", "scripts/build_multivoice_extraction.py"], "build multivoice extraction"),
+        (
+            ["python3", "scripts/check_multivoice_extraction.py", "--advisory"],
+            "multivoice extraction (advisory)",
+        ),
         (["python3", "scripts/build_prediction_signals.py"], "build prediction signals"),
         (
             ["python3", "scripts/check_prediction_signals.py", "--advisory"],

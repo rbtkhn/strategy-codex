@@ -4,7 +4,7 @@ description: "Curate and rebuild a speaker prediction shelf from archive capture
 preferred_activation: voice prediction record
 activation: voice prediction record
 portable: true
-version: 0.2.9
+version: 0.3.0
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -227,7 +227,15 @@ Full orchestrator:
 python3 scripts/run_prediction_pipeline.py
 ```
 
-Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **signal extraction** → **PR3 signal prediction tasks** → **ENGM** → **PR2 calibration loss** → **PR4 epistemic dataset** → **PR5 baseline forecasts** → **PR6 ablation study** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **PR7 MVEL** → **signal extraction** → **PR3 signal prediction tasks** → **ENGM** → **PR2 calibration loss** → **PR4 epistemic dataset** → **PR5 baseline forecasts** → **PR6 ablation study** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+
+**PR7 / MVEL — multi-voice extraction (advisory):**
+
+- **Read-only:** `multivoice-extracted-dataset.json`, `event-alignment-map.json`, `voice-trajectories-{speaker}.json` — capture-map trajectories with probabilistic projections.
+- **Not registry write:** unmatched claims → `event-alignment-map.json` review queue only; `registry_mutation: false`.
+- **Claim SSOT:** capture-map `public_excerpt` rows — not archive NLP in v1.
+- **Pipeline placement:** after semantic scores, before signal extraction.
+- **Checker:** `python3 scripts/check_multivoice_extraction.py --advisory`
 
 **PR6 / ablation study (advisory):**
 

@@ -5124,3 +5124,66 @@ On the current sparse corpus most drops are null — the framework is honest sca
 Routing: [event-system.md](../docs/statecraft/event-system.md) (PR6 section) · [ablation_study.py](../scripts/prediction/ablation_study.py) · RLJ [PR5](#2026-06-29---pr5-baseline-forecasting-models-heuristic-v1)
 
 ---
+
+## 2026-06-30 - PR7 MVEL multi-voice extraction layer (heuristic v1)
+
+**Tag:** `voice-prediction` · `mvel` · `capture-map` · `trajectory`  
+**Cross-link:** [§ PR6 ablation](#2026-06-29---pr6-ablation-study-framework-heuristic-v1) — downstream evaluation unchanged; [§ voice-prediction-record skill](../.cursor/skills/voice-prediction-record/SKILL.md).
+
+### Trigger
+
+Post-PR6 the stack could score subsystems but lacked a **capture-map–grounded cross-voice trajectory layer** — aligned probabilistic claim paths over shared events without registry mutation.
+
+### Extracted law
+
+**1. Claim SSOT**
+
+```text
+capture-map public_excerpt rows — not archive NLP sentence scan in v1
+voices: freeman, mercouris, macgregor via VOICE_REGISTRY
+```
+
+**2. Alignment**
+
+```text
+validate event_id against registry; optional prediction_object_terms fallback
+unmatched → event-alignment-map.json review queue only — registry_mutation: false
+```
+
+**3. Artifacts**
+
+```text
+multivoice-extracted-dataset.json — combined trajectories
+event-alignment-map.json — matched + unmatched audit
+voice-trajectories-{speaker}.json — per-voice slices
+pipeline: after semantic scores, before signal extraction
+```
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Core | `scripts/prediction/extract_voice_claims.py` · `align_events.py` · `infer_probabilities.py` · `build_trajectories.py` · `normalize_voices.py` · `run_multivoice_extraction.py` |
+| Build/check | `build_multivoice_extraction.py` · `check_multivoice_extraction.py --advisory` |
+| Schema | `schemas/runtime/multivoice-extracted-dataset.schema.json` · `event-alignment-map.schema.json` · `voice-trajectories.schema.json` |
+| Tests | `test_multivoice_extraction.py` · `test_build_multivoice_extraction.py` · `test_mvel_pipeline.py` |
+
+### Guardrail
+
+```text
+Do not mutate event-registry.json from MVEL build
+Do not treat multivoice-extracted-dataset.json as Record truth
+Do not hard-fail CI on sparse trajectories or unmatched review queue — advisory WARN only
+PR4 epistemic dataset unchanged in v1 — MVEL is parallel enrichment layer
+```
+
+### Current lesson
+
+```text
+PR7 turns curated multi-voice capture maps into time-ordered probabilistic trajectories over shared events.
+Cross-voice alignment scores become explicit before signal extraction — foundation for denser corpus comparison.
+```
+
+Routing: [event-system.md](../docs/statecraft/event-system.md) (PR7 section) · [run_multivoice_extraction.py](../scripts/prediction/run_multivoice_extraction.py) · RLJ [PR6](#2026-06-29---pr6-ablation-study-framework-heuristic-v1)
+
+---

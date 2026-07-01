@@ -22,6 +22,11 @@ STEPS: list[tuple[str, list[str]]] = [
     ("build_prediction_timeline", ["python3", "scripts/build_prediction_timeline.py"]),
     ("build_prediction_disagreement", ["python3", "scripts/build_prediction_disagreement.py"]),
     ("build_prediction_semantic_scores", ["python3", "scripts/build_prediction_semantic_scores.py"]),
+    ("build_multivoice_extraction", ["python3", "scripts/build_multivoice_extraction.py"]),
+    (
+        "check_multivoice_extraction",
+        ["python3", "scripts/check_multivoice_extraction.py", "--advisory"],
+    ),
     (
         "signal_extraction_engine",
         ["python3", "scripts/prediction/signal_extraction_engine.py"],

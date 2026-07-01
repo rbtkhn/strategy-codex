@@ -198,6 +198,28 @@ In-process **ablation evaluation** — measures Brier `performance_drop` when ea
 
 **Pipeline:** after baseline forecasts check; before voice shelves. Checker: `check_ablation_study.py --advisory`.
 
+### PR7 / MVEL — multi-voice extraction layer (heuristic v1)
+
+Capture-map–grounded **multi-voice trajectory extraction** — aligned probabilistic claim paths over shared events.
+
+| Artifact | Role |
+| --- | --- |
+| `runtime/artifacts/multivoice-extracted-dataset.json` | Combined cross-voice trajectories |
+| `runtime/artifacts/event-alignment-map.json` | Matched + unmatched (review queue) audit |
+| `runtime/artifacts/voice-trajectories-{speaker}.json` | Per-voice trajectory slices |
+
+**Claim SSOT:** curated capture-map `public_excerpt` rows — not archive NLP sentence scan.
+
+**Alignment:** validate `event_id` against registry; optional `prediction_object_terms` fallback; **unmatched → review queue only** — no registry mutation.
+
+**Probabilities:** heuristic v1 stance map (`yes→0.75`, `no→0.25`, …) + speech_act confidence; clamped `[0.02, 0.98]`.
+
+**Cross-voice:** `alignment_score` via entropy-weighted cosine on latest per-voice probabilities; Macgregor down-weight at high entropy.
+
+**Operator rule:** `interpretation: multivoice_extraction`; `extraction_source: heuristic_v1`; `registry_mutation: false` — advisory only, not Record truth.
+
+**Pipeline:** after semantic scores; before signal extraction. Checker: `check_multivoice_extraction.py --advisory`.
+
 ### Status vs record (shelf lane)
 
 | Layer | SSOT | Values |

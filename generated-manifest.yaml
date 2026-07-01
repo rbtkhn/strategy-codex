@@ -275,6 +275,66 @@ entries:
         - '"do_not_edit"'
         - "build_ablation_study.py"
 
+  - id: multivoice-extracted-dataset-json
+    path: runtime/artifacts/multivoice-extracted-dataset.json
+    category: generated
+    generator: scripts/build_multivoice_extraction.py
+    check_args: ["--check"]
+    drift_group: prediction-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_multivoice_extraction.py"
+
+  - id: event-alignment-map-json
+    path: runtime/artifacts/event-alignment-map.json
+    category: generated
+    generator: scripts/build_multivoice_extraction.py
+    check_args: ["--check"]
+    drift_group: prediction-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_multivoice_extraction.py"
+
+  - id: voice-trajectories-freeman-json
+    path: runtime/artifacts/voice-trajectories-freeman.json
+    category: generated
+    generator: scripts/build_multivoice_extraction.py
+    check_args: ["--check"]
+    drift_group: prediction-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_multivoice_extraction.py"
+
+  - id: voice-trajectories-mercouris-json
+    path: runtime/artifacts/voice-trajectories-mercouris.json
+    category: generated
+    generator: scripts/build_multivoice_extraction.py
+    check_args: ["--check"]
+    drift_group: prediction-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_multivoice_extraction.py"
+
+  - id: voice-trajectories-macgregor-json
+    path: runtime/artifacts/voice-trajectories-macgregor.json
+    category: generated
+    generator: scripts/build_multivoice_extraction.py
+    check_args: ["--check"]
+    drift_group: prediction-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_multivoice_extraction.py"
+
   - id: freeman-predictions-md
     path: statecraft/voices/freeman/freeman-predictions.md
     category: generated

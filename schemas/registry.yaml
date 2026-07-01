@@ -61,6 +61,21 @@ schemas:
     applies_to: runtime/artifacts/ablation-study.json
     format: json
     scope: prediction
+  multivoice_extracted_dataset:
+    path: schemas/runtime/multivoice-extracted-dataset.schema.json
+    applies_to: runtime/artifacts/multivoice-extracted-dataset.json
+    format: json
+    scope: prediction
+  event_alignment_map:
+    path: schemas/runtime/event-alignment-map.schema.json
+    applies_to: runtime/artifacts/event-alignment-map.json
+    format: json
+    scope: prediction
+  voice_trajectories:
+    path: schemas/runtime/voice-trajectories.schema.json
+    applies_to: runtime/artifacts/voice-trajectories-*.json
+    format: json
+    scope: prediction
 
   dream:
     path: schemas/runtime/dream.schema.json
