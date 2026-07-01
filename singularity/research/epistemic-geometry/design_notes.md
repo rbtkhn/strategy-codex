@@ -1,5 +1,13 @@
 # Design Notes
 
-This system is intentionally non-operational at this stage.
+Epistemic Geometry is intentionally placed in the research layer.
 
-It is a conceptual framework under refinement and should not be interpreted as a runtime dependency.
+This avoids premature coupling with:
+
+- loop execution logic
+- system invariants
+- runtime constraints
+
+The framework is currently evolving and should be treated as a conceptual model under active refinement.
+
+Any operational integration must occur only after formal stabilization and promotion into stabilized singularity definitions (outside `research/`).
