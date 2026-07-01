@@ -4991,3 +4991,70 @@ The interpretive machine becomes a standard ML-ready dataset generator without c
 Routing: [event-system.md](../docs/statecraft/event-system.md) (PR4 section) · [epistemic_dataset_builder.py](../scripts/prediction/epistemic_dataset_builder.py) · RLJ [PR3](#2026-06-29---pr3-signal-prediction-task-system-heuristic-v1)
 
 ---
+
+## 2026-06-29 - PR5 baseline forecasting models (heuristic v1)
+
+**Tag:** `voice-prediction` · `baseline-forecasts` · `brier` · `evaluation`  
+**Cross-link:** [§ PR4 dataset](#2026-06-29---pr4-epistemic-dataset-construction-pipeline-heuristic-v1) — consumes train/test rows; [§ PR2 calibration](#2026-06-29---engm-pr2-epistemic-calibration-loss--heuristic-v1) — reuses Brier helper.
+
+### Trigger
+
+Post-PR4 the machine had an ML-ready dataset but no **baseline comparison** answering whether ENGM beats naive models. Operator locked **PR5 heuristic stub**: persistence, Bayesian, logistic trend on PR4 split — stdlib only, transformer deferred.
+
+### Extracted law
+
+**1. Baselines (v1)**
+
+```text
+persistence: P_t+1 = delta.p_t (fallback event_probability)
+bayesian: Beta-Bernoulli prior from train outcomes + voice stance updates at anchor
+logistic_trend: logit(P) = a + b·t (train fit; skip when train_probability_n < 3)
+transformer: deferred_pr5b (stub only)
+```
+
+**2. Metrics (test split)**
+
+```text
+probability lane: Brier, accuracy, ECE on outcome_censored == false rows only
+regime lane: F1 for shift class vs task_labels.regime_shift on all test rows
+system_reference: engm event_probability — comparison.system_beats_persistence
+```
+
+**3. Low-N advisory**
+
+```text
+low_n_advisory when test_probability_n < 5 or test_shift_support < 1
+WARN only in checker — current corpus valid but not discriminative (n=1 test probability row)
+artifact: runtime/artifacts/baseline-forecast-metrics.json
+pipeline: after check_epistemic_dataset --advisory, before voice shelves
+```
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Core | `scripts/prediction/baseline_models.py` |
+| Build/check | `build_baseline_forecasts.py` · `check_baseline_forecasts.py --advisory` |
+| Schema | `schemas/runtime/baseline-forecast-metrics.schema.json` |
+| Pipeline | steps after epistemic dataset, before Freeman shelf |
+| Tests | `test_baseline_models.py` · `test_build_baseline_forecasts.py` |
+
+### Guardrail
+
+```text
+Do not treat baseline-forecast-metrics.json as trained model weights or Record truth
+Do not mutate registry or PR4 dataset from baseline evaluation
+Do not hard-fail CI on low-N — advisory WARN only
+Transformer baseline requires separate PR5b dependency gate
+```
+
+### Current lesson
+
+```text
+PR5 makes the evaluation question explicit: does the epistemic stack beat persistence and simple probabilistic baselines?
+On the current sparse corpus ENGM loses to persistence on the sole test probability row — structurally honest, not a product claim.
+```
+
+Routing: [event-system.md](../docs/statecraft/event-system.md) (PR5 section) · [baseline_models.py](../scripts/prediction/baseline_models.py) · RLJ [PR4](#2026-06-29---pr4-epistemic-dataset-construction-pipeline-heuristic-v1)
+
+---

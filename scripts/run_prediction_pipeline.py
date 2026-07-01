@@ -50,6 +50,11 @@ STEPS: list[tuple[str, list[str]]] = [
         "check_epistemic_dataset",
         ["python3", "scripts/check_epistemic_dataset.py", "--advisory"],
     ),
+    ("build_baseline_forecasts", ["python3", "scripts/build_baseline_forecasts.py"]),
+    (
+        "check_baseline_forecasts",
+        ["python3", "scripts/check_baseline_forecasts.py", "--advisory"],
+    ),
     ("build_freeman_predictions", ["python3", "scripts/build_freeman_predictions.py"]),
     (
         "build_mercouris_predictions",

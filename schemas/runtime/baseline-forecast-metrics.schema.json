@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/baseline-forecast-metrics.schema.json",
+  "title": "Baseline forecast metrics artifact",
+  "type": "object",
+  "required": ["_meta", "interpretation", "system_reference", "system", "baselines", "comparison"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source", "baseline_source", "split_date", "low_n_advisory", "eval_scope"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" },
+        "baseline_source": { "type": "string", "enum": ["heuristic_v1"] },
+        "split_date": { "type": "string" },
+        "low_n_advisory": { "type": "boolean" },
+        "eval_scope": { "type": "object" },
+        "train_diagnostics": { "type": "object" },
+        "baselines": { "type": "object" }
+      },
+      "additionalProperties": true
+    },
+    "interpretation": { "type": "string", "enum": ["baseline_evaluation"] },
+    "system_reference": { "type": "string" },
+    "system": {
+      "type": "object",
+      "required": ["test"],
+      "properties": {
+        "test": { "$ref": "#/$defs/metricsBlock" }
+      }
+    },
+    "baselines": {
+      "type": "object",
+      "required": ["persistence", "bayesian", "logistic_trend", "transformer"],
+      "properties": {
+        "persistence": { "$ref": "#/$defs/baselineBlock" },
+        "bayesian": { "$ref": "#/$defs/baselineBlock" },
+        "logistic_trend": { "type": "object" },
+        "transformer": {
+          "type": "object",
+          "required": ["status"],
+          "properties": {
+            "status": { "type": "string" }
+          }
+        }
+      }
+    },
+    "comparison": {
+      "type": "object",
+      "required": ["test"],
+      "properties": {
+        "test": {
+          "type": "object",
+          "properties": {
+            "brier_delta_vs_persistence": { "type": ["number", "null"] },
+            "system_beats_persistence": { "type": ["boolean", "null"] }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "baselineBlock": {
+      "type": "object",
+      "required": ["test"],
+      "properties": {
+        "test": { "$ref": "#/$defs/metricsBlock" }
+      }
+    },
+    "metricsBlock": {
+      "type": "object",
+      "properties": {
+        "n_probability": { "type": "integer", "minimum": 0 },
+        "brier": { "type": ["number", "null"] },
+        "accuracy": { "type": ["number", "null"] },
+        "calibration_error": { "type": ["number", "null"] },
+        "n_regime": { "type": "integer", "minimum": 0 },
+        "regime_f1": { "type": ["object", "null"] }
+      },
+      "additionalProperties": true
+    }
+  }
+}

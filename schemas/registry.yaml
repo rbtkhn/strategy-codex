@@ -51,6 +51,11 @@ schemas:
     applies_to: runtime/artifacts/epistemic-dataset.json
     format: json
     scope: prediction
+  baseline_forecast_metrics:
+    path: schemas/runtime/baseline-forecast-metrics.schema.json
+    applies_to: runtime/artifacts/baseline-forecast-metrics.json
+    format: json
+    scope: prediction
 
   dream:
     path: schemas/runtime/dream.schema.json

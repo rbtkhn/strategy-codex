@@ -251,6 +251,18 @@ entries:
         - '"do_not_edit"'
         - "build_epistemic_dataset.py"
 
+  - id: baseline-forecast-metrics-json
+    path: runtime/artifacts/baseline-forecast-metrics.json
+    category: generated
+    generator: scripts/build_baseline_forecasts.py
+    check_args: ["--check"]
+    drift_group: prediction-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_baseline_forecasts.py"
+
   - id: freeman-predictions-md
     path: statecraft/voices/freeman/freeman-predictions.md
     category: generated

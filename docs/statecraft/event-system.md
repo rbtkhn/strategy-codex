@@ -158,6 +158,26 @@ Reproducible **train/test dataset** from the full epistemic stack — **does not
 
 **Pipeline:** after calibration loss check; before voice shelves. Checker: `check_epistemic_dataset.py --advisory`.
 
+### PR5 / baseline forecasts (evaluation — heuristic v1)
+
+Statistical **baseline comparison** against ENGM — answers whether the epistemic stack beats naive probabilistic models.
+
+| Artifact | Role |
+| --- | --- |
+| `runtime/artifacts/baseline-forecast-metrics.json` | Brier, accuracy, ECE, regime F1 per baseline on test split |
+
+**Baselines (v1):** persistence (`P_{t+1}=P_t`); Beta–Bernoulli Bayesian update from voice stances; logistic trend on anchor time; transformer **deferred PR5b**.
+
+**System reference:** ENGM `event_probability` — not a baseline; scored in `comparison.system_minus_persistence`.
+
+**Evaluation lanes:** probability metrics on uncensored `outcome` rows only; regime F1 on all test rows vs `task_labels.regime_shift`.
+
+**Low-N advisory:** WARN when `test_probability_n < 5` or `test_shift_support < 1` — current corpus is structurally valid but not yet discriminative.
+
+**Operator rule:** `interpretation: baseline_evaluation`; `baseline_source: heuristic_v1` — evaluation only, not trained model output.
+
+**Pipeline:** after epistemic dataset check; before voice shelves. Checker: `check_baseline_forecasts.py --advisory`.
+
 ### Status vs record (shelf lane)
 
 | Layer | SSOT | Values |
