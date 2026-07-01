@@ -4,7 +4,7 @@ description: 'Curate and rebuild a speaker prediction shelf from archive capture
 preferred_activation: voice prediction record
 activation: voice prediction record
 portable: true
-version: 0.2.6
+version: 0.2.7
 category: truth-pipeline
 status: active
 scope_class: repo-governed
@@ -229,7 +229,14 @@ Full orchestrator:
 python3 scripts/run_prediction_pipeline.py
 ```
 
-Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **signal extraction** → **PR3 signal prediction tasks** → **ENGM** → **PR2 calibration loss** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+Order: semantic extractor (stub) → compression report → **probabilistic falsifier inference** → falsifier validator → registry compile → prediction registry → timeline → disagreement → **semantic scores** → **signal extraction** → **PR3 signal prediction tasks** → **ENGM** → **PR2 calibration loss** → **PR4 epistemic dataset** → voice shelves → event pages → `check_phase3` → semantic scores check (advisory).
+
+**PR4 / epistemic dataset (advisory):**
+
+- **Read-only:** `epistemic-dataset.json` — temporal train/test split with voice observations, latent features, censored outcomes.
+- **Not training:** `interpretation: ml_ready_dataset`; `dataset_source: heuristic_v1` — ML-ready generator, not fitted model.
+- **Pipeline placement:** after calibration loss check, before voice shelf rebuild.
+- **Checker:** `python3 scripts/check_epistemic_dataset.py --advisory`
 
 **PR3 / signal task system (advisory):**
 

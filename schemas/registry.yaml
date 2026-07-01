@@ -46,6 +46,9 @@ schemas:
   signal_prediction_tasks:
     path: schemas/runtime/signal-prediction-tasks.schema.json
     applies_to: runtime/artifacts/signal-prediction-tasks.json
+  epistemic_dataset:
+    path: schemas/runtime/epistemic-dataset.schema.json
+    applies_to: runtime/artifacts/epistemic-dataset.json
     format: json
     scope: prediction
 

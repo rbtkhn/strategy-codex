@@ -239,6 +239,18 @@ entries:
         - '"do_not_edit"'
         - "build_epistemic_calibration_loss.py"
 
+  - id: epistemic-dataset-json
+    path: runtime/artifacts/epistemic-dataset.json
+    category: generated
+    generator: scripts/build_epistemic_dataset.py
+    check_args: ["--check"]
+    drift_group: prediction-artifacts
+    header:
+      type: json
+      patterns:
+        - '"do_not_edit"'
+        - "build_epistemic_dataset.py"
+
   - id: freeman-predictions-md
     path: statecraft/voices/freeman/freeman-predictions.md
     category: generated

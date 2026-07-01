@@ -13,6 +13,7 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 
 import build_epistemic_calibration_loss  # noqa: E402
+import build_epistemic_dataset  # noqa: E402
 import build_epistemic_generative_state  # noqa: E402
 import build_signal_prediction_tasks  # noqa: E402
 import build_prediction_disagreement  # noqa: E402
@@ -53,6 +54,9 @@ def main() -> int:
     )
     rc |= build_epistemic_calibration_loss.check_artifact(
         output_path=build_epistemic_calibration_loss.DEFAULT_OUTPUT,
+    )
+    rc |= build_epistemic_dataset.check_artifact(
+        output_path=build_epistemic_dataset.DEFAULT_OUTPUT,
     )
 
     if rc == 0:

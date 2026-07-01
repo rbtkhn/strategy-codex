@@ -69,6 +69,11 @@ def run_quick() -> int:
             ["python3", "scripts/check_epistemic_calibration_loss.py", "--advisory"],
             "epistemic calibration loss (advisory)",
         ),
+        (["python3", "scripts/build_epistemic_dataset.py"], "build epistemic dataset"),
+        (
+            ["python3", "scripts/check_epistemic_dataset.py", "--advisory"],
+            "epistemic dataset (advisory)",
+        ),
         (["python3", "scripts/build_prediction_event_pages.py"], "build prediction event pages"),
         (["python3", "scripts/build_prediction_event_pages.py", "--check"], "prediction event pages fresh"),
         (["python3", "scripts/build_prediction_registry.py"], "build prediction registry"),

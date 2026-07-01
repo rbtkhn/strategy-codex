@@ -140,6 +140,24 @@ Read-only **evaluation metric** — scores system quality for future tuning; **d
 
 **Pipeline:** after ENGM check; before voice shelves. Checker: `check_epistemic_calibration_loss.py --advisory`.
 
+### PR4 / epistemic dataset (ML-ready generator — heuristic v1)
+
+Reproducible **train/test dataset** from the full epistemic stack — **does not** train models or mutate registry.
+
+| Artifact | Role |
+| --- | --- |
+| `runtime/artifacts/epistemic-dataset.json` | Temporally split rows (`train` / `test`) with voice observations, latent features, task labels |
+
+**Row grain:** one row per `event_id × anchor_date` — PR3 task labels consolidated in `task_labels`.
+
+**Temporal split:** `train` when `anchor_date < T`; `test` when `anchor_date ≥ T` (default `T = 2026-01-01`). Prevents hindsight leakage via `outcome_censored`: registry `outcome` only when `resolved_date ≤ anchor_date`.
+
+**Guarantees:** registry falsifier gate (dedup policy); compression checked in pipeline; `falsifier_model_snapshot` in-row only when missing — never registry write.
+
+**Operator rule:** `interpretation: ml_ready_dataset`; `dataset_source: heuristic_v1` — generator only, not trained model output.
+
+**Pipeline:** after calibration loss check; before voice shelves. Checker: `check_epistemic_dataset.py --advisory`.
+
 ### Status vs record (shelf lane)
 
 | Layer | SSOT | Values |

@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/runtime/epistemic-dataset.schema.json",
+  "title": "Epistemic dataset artifact",
+  "type": "object",
+  "required": ["_meta", "interpretation", "train", "test"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["generated", "do_not_edit", "source", "dataset_source", "split_date", "guarantees", "dataset_scope"],
+      "properties": {
+        "generated": { "type": "boolean" },
+        "do_not_edit": { "type": "boolean" },
+        "source": { "type": "string" },
+        "phase": { "type": "string" },
+        "dataset_source": { "type": "string", "enum": ["heuristic_v1"] },
+        "split_date": { "type": "string" },
+        "split_strategy": { "type": "string" },
+        "horizon_days": { "type": "integer" },
+        "label_policy": { "type": "string" },
+        "guarantees": { "type": "object" },
+        "dataset_scope": {
+          "type": "object",
+          "required": ["train_count", "test_count", "row_count", "low_n_advisory"],
+          "properties": {
+            "train_count": { "type": "integer", "minimum": 0 },
+            "test_count": { "type": "integer", "minimum": 0 },
+            "row_count": { "type": "integer", "minimum": 0 },
+            "low_n_advisory": { "type": "boolean" }
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "interpretation": { "type": "string", "enum": ["ml_ready_dataset"] },
+    "train": { "$ref": "#/$defs/rowList" },
+    "test": { "$ref": "#/$defs/rowList" }
+  },
+  "$defs": {
+    "rowList": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/datasetRow" }
+    },
+    "datasetRow": {
+      "type": "object",
+      "required": [
+        "event_id",
+        "anchor_date",
+        "split",
+        "voice_observations",
+        "latent_features",
+        "task_labels",
+        "outcome_censored",
+        "timestamps",
+        "falsifier_model_snapshot",
+        "interpretation"
+      ],
+      "properties": {
+        "event_id": { "type": "string" },
+        "anchor_date": { "type": "string" },
+        "split": { "type": "string", "enum": ["train", "test"] },
+        "voice_observations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["voice", "stance", "claim"],
+            "properties": {
+              "voice": { "type": "string" },
+              "stance": { "type": "string" },
+              "claim": { "type": "string" }
+            }
+          }
+        },
+        "latent_features": { "type": "object" },
+        "task_labels": { "type": "object" },
+        "outcome": { "type": ["string", "null"] },
+        "outcome_censored": { "type": "boolean" },
+        "timestamps": { "type": "array", "items": { "type": "string" } },
+        "falsifier_model_snapshot": { "type": "object" },
+        "interpretation": { "type": "string", "enum": ["epistemic_dataset_row"] }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

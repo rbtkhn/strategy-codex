@@ -4921,3 +4921,73 @@ The machine gains a supervised vocabulary before the epistemic generative layer 
 Routing: [event-system.md](../docs/statecraft/event-system.md) (PR3 section) · [signal_prediction_tasks.py](../scripts/prediction/signal_prediction_tasks.py) · RLJ [Phase 4.5](#2026-06-29---phase-35-tiered-falsifier-ci--phase-45-signal-extraction--macgregor-merge-closed)
 
 ---
+
+## 2026-06-29 - PR4 epistemic dataset construction pipeline (heuristic v1)
+
+**Tag:** `voice-prediction` · `epistemic-dataset` · `temporal-split` · `ml-ready`  
+**Cross-link:** [§ PR3 signal tasks](#2026-06-29---pr3-signal-prediction-task-system-heuristic-v1) — PR4 consolidates anchor rows; [§ PR2 calibration](#2026-06-29---engm-pr2-epistemic-calibration-loss--heuristic-v1) — pipeline slot after calibration loss.
+
+### Trigger
+
+Post-PR3 the machine had supervised task examples but no **reproducible train/test dataset** for future training or evaluation. Operator locked **PR4 heuristic stub**: one row per event×anchor, temporal split at `T`, outcome censoring, in-row falsifier snapshots — no registry mutation, no sklearn.
+
+### Extracted law
+
+**1. Row grain**
+
+```text
+one row per event_id × anchor_date
+task_labels: regime_shift + delta + convergence (consolidated from PR3)
+voice_observations: {voice, stance, claim} at anchor
+latent_features: global ENGM Z + per-event signal_vector + event_probability
+```
+
+**2. Temporal split (leakage guard)**
+
+```text
+train: anchor_date < T (default T=2026-01-01)
+test:  anchor_date >= T
+outcome: registry yes/no only when resolved_date <= anchor_date; else null + outcome_censored
+task_labels remain future-facing supervision — documented in _meta.label_policy
+```
+
+**3. Guarantees**
+
+```text
+dedup: registry falsifier gate (same as PR3)
+compression_checked: true when pipeline ran compression_engine --check
+falsifier_model_snapshot: effective_falsifier_model in-row only — never registry write
+artifact: runtime/artifacts/epistemic-dataset.json
+pipeline: after check_epistemic_calibration_loss --advisory, before voice shelves
+```
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Core | `scripts/prediction/epistemic_dataset_builder.py` |
+| Build/check | `build_epistemic_dataset.py` · `check_epistemic_dataset.py --advisory` |
+| Schema | `schemas/runtime/epistemic-dataset.schema.json` |
+| Pipeline | steps after calibration loss, before Freeman shelf |
+| Tests | `test_epistemic_dataset_builder.py` · `test_build_epistemic_dataset.py` |
+
+### Guardrail
+
+```text
+Do not treat epistemic-dataset.json as a trained model or Record truth
+Do not write falsifier_model snapshots back to registry
+Do not use random splits — temporal_anchor only in v1
+Do not populate outcome when resolved_date > anchor_date (hindsight leakage)
+Global ENGM Z on every row is documented — not per-anchor fitted latent state
+```
+
+### Current lesson
+
+```text
+PR4 closes the epistemic stack loop: signals → tasks → generative model → calibration → reproducible dataset.
+The interpretive machine becomes a standard ML-ready dataset generator without collapsing narrative truth into training labels.
+```
+
+Routing: [event-system.md](../docs/statecraft/event-system.md) (PR4 section) · [epistemic_dataset_builder.py](../scripts/prediction/epistemic_dataset_builder.py) · RLJ [PR3](#2026-06-29---pr3-signal-prediction-task-system-heuristic-v1)
+
+---
