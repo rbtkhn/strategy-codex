@@ -1,0 +1,9 @@
+{
+  "_meta": {
+    "generated": true,
+    "source": "scripts/prediction/semantic_event_extractor.py",
+    "phase": "3a-stub",
+    "description": "Registry-first; extractor returns empty until Phase 3b"
+  },
+  "candidates": []
+}

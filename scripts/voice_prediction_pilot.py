@@ -969,6 +969,32 @@ def validate_capture_row(
             if not cite.get("youtube_url"):
                 errors.append(f"{event_id}: missing youtube_url in capture (required mode)")
 
+    child_id = row.get("child_event_id")
+    if child_id is not None:
+        errors.append(
+            f"{event_id}: child_event_id deprecated — use dimension on trajectory parent rows"
+        )
+
+    dimension = row.get("dimension")
+    if dimension is not None:
+        dim_id = str(dimension).strip()
+        if not dim_id:
+            errors.append(f"{event_id}: dimension must be non-empty when present")
+        else:
+            from prediction_lib import load_event_registry  # local import avoids cycle at module load
+
+            registry = load_event_registry()
+            parent = registry.get(event_id) or {}
+            dim_ids = {str(d.get("id") or "") for d in (parent.get("dimensions") or [])}
+            if not dim_ids:
+                errors.append(
+                    f"{event_id}: dimension {dim_id!r} on non-trajectory or missing dimensions[]"
+                )
+            elif dim_id not in dim_ids:
+                errors.append(
+                    f"{event_id}: dimension {dim_id!r} not in parent dimensions {sorted(dim_ids)}"
+                )
+
     return errors
 
 

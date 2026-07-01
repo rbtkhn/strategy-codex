@@ -103,6 +103,7 @@ Optional keys (unchanged + extensions):
 | `context_note` | Operator framing when excerpt alone lacks object terms; required for **`mixed`** |
 | `excerpt_exception` | Only **`short_decisive_sentence`** (requires `context_note`) |
 | `prediction_object_terms` | Row-level override of public-map terms |
+| `dimension` | Trajectory parent only — non-registry dimension id (replaces deprecated `child_event_id`) |
 | `anchor_context_note` | Legacy alias — prefer `context_note` on anchor row |
 
 **Speech acts:** `initial`, `restated`, `iterated`, `self_acknowledged_correct`, `self_acknowledged_incorrect`, `outcome_commentary`.
@@ -216,7 +217,23 @@ When fixing anchors, deduping appearances, or onboarding a new voice:
 4. Update **event-registry.json** (`status`, `outcome`, `resolved_date`, `resolution_source`, optional `resolution_scope`). Use **`review_note`** for human context only — checkers must not branch on it.
 5. Rebuild generated surfaces so shelf + runtime prediction registry reflect closure.
 
-**Review queue:** [`statecraft/predictions/review-queue.md`](../../statecraft/predictions/review-queue.md) · `python3 scripts/check_event_registry.py --emit-review-queue`
+**Review queue:** [`statecraft/predictions/review-queue.md`](../../statecraft/predictions/review-queue.md) · `python3 scripts/check_event_registry.py --emit-review-queue` · `python3 scripts/check_phase3.py --emit-review-queue`
+
+## Phase 3 pipeline (registry-first)
+
+Full orchestrator:
+
+```bash
+python3 scripts/run_prediction_pipeline.py
+```
+
+Order: semantic extractor (stub) → compression report → falsifier validator → registry compile → prediction registry → timeline → disagreement → voice shelves → event pages → `check_phase3`.
+
+**Compression rules (Macgregor seeds):**
+
+- **Rule A — anti-splitting:** same predictive fingerprint → merge references, no new `event_id`
+- **Rule B — predictive difference:** new event only when falsifier, horizon, or `mechanism_tag` differs
+- **Rule C — trajectory:** never emit child `event_id`; use parent `dimensions[]` only
 
 **Notes-lane enrollment:** a voice shelf may ship capture-map-first; full enrollment requires timeline entries per shared `event_id` (see skill appendix).
 

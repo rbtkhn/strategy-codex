@@ -54,11 +54,11 @@ YouTube links are optional when the archive capture has no watch URL. Anchor blo
 
 **Related pairs (thesis map):** Iran war prep ↔ great-power direct entry — score lanes separately; use `title_conflict_patterns` and register strictness so bridge captures do not bleed.
 
-### Israel trajectory child dimensions (registry)
+### Israel trajectory dimensions (registry v4)
 
-Parent `israel_self_destruction_trajectory` decomposes into six preset child events in [event-registry.json](../../data/event-registry.json). Freeman capture rows may carry optional `child_event_id` for notes-lane hooks; the public shelf keeps the parent umbrella until operator expands enrollment.
+Parent `israel_self_destruction_trajectory` carries six preset **dimensions** on the parent row in [event-registry.json](../../data/event-registry.json). Freeman capture rows may carry optional `dimension` (non-registry pointer) for notes-lane hooks; the public shelf keeps the parent umbrella.
 
-| child_event_id | Dimension |
+| dimension | Label |
 | --- | --- |
 | `israel_moral_pariah_status` | Western / global moral pariah treatment |
 | `israel_regional_isolation` | Regional diplomatic isolation |

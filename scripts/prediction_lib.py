@@ -21,7 +21,18 @@ RESOLVED_EVENT_OUTCOMES = frozenset({"yes", "no"})
 TERMINAL_EVENT_STATUSES = frozenset({"resolved", "void", "deprecated"})
 STANCE_KEYS = ("yes", "no", "conditional", "uncertain")
 MAX_GINI = 0.75
-SHIFT_TYPES = frozenset({"flip", "qualification_shift", "certainty_shift", "stance_change"})
+SHIFT_TYPES = frozenset(
+    {
+        "flip",
+        "qualification_shift",
+        "certainty_shift",
+        "stance_change",
+        "stance_shift",
+        "mechanism_shift",
+        "horizon_shift",
+        "contradiction",
+    }
+)
 SPEECH_ACTS = frozenset(
     {
         "initial",
@@ -330,6 +341,57 @@ def classify_shift(from_stance: str, to_stance: str) -> str:
         return "certainty_shift"
     return "stance_change"
 
+
+def classify_semantic_shift(
+    *,
+    from_stance: str,
+    to_stance: str,
+    from_speech_act: str | None,
+    to_speech_act: str | None,
+    from_mechanism: str | None = None,
+    to_mechanism: str | None = None,
+    from_horizon: str | None = None,
+    to_horizon: str | None = None,
+) -> str | None:
+    """Return semantic shift type only when category changes (Rule 4)."""
+    if from_stance != to_stance:
+        hard = {"yes", "no"}
+        act = str(to_speech_act or "").strip()
+        if from_stance in hard and to_stance in hard:
+            if act not in {
+                "restated",
+                "self_acknowledged_correct",
+                "self_acknowledged_incorrect",
+            }:
+                return "contradiction"
+        return "stance_shift"
+    mech_a = str(from_mechanism or "unknown")
+    mech_b = str(to_mechanism or "unknown")
+    if mech_a != mech_b:
+        return "mechanism_shift"
+    hor_a = str(from_horizon or "")
+    hor_b = str(to_horizon or "")
+    if hor_a and hor_b and hor_a != hor_b:
+        return "horizon_shift"
+    return None
+
+
+def map_speech_act_to_semantic(speech_act: str | None, *, stance_flip: bool = False) -> str:
+    act = str(speech_act or "").strip()
+    if stance_flip and act not in {
+        "restated",
+        "self_acknowledged_correct",
+        "self_acknowledged_incorrect",
+    }:
+        return "contradiction"
+    if act in {"initial", "iterated"}:
+        return "assertion"
+    if act in {"restated", "self_acknowledged_correct", "self_acknowledged_incorrect"}:
+        return "revision"
+    if act == "outcome_commentary":
+        return "hedge"
+    return "assertion"
+
 def build_meta(*, source: str) -> dict[str, Any]:
     return {
         "generated": True,
@@ -422,7 +484,11 @@ def build_metrics_payload(
         "voices": dict(sorted(voices.items())),
     }
 
-def build_disagreement_payload(registry: dict[str, Any]) -> dict[str, Any]:
+def build_disagreement_payload(
+    registry: dict[str, Any],
+    events: dict[str, dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    event_registry = events or load_event_registry()
     by_event: dict[str, list[dict[str, Any]]] = {}
     for row in registry.get("predictions") or []:
         event_id = str(row.get("event_id") or "")
@@ -437,7 +503,38 @@ def build_disagreement_payload(registry: dict[str, Any]) -> dict[str, Any]:
         latest_rows = list(latest_by_speaker(rows).values())
         voice_dist = stance_distribution(latest_rows)
         voice_raw, voice_norm = gini_impurity(voice_dist)
+        latest_map = latest_by_speaker(rows)
+        stance_disagreements = {
+            speaker: str(row.get("stance") or "")
+            for speaker, row in sorted(latest_map.items())
+        }
+        reg_event = event_registry.get(event_id) or {}
+        mechanism_values = sorted(
+            {
+                str(reg_event.get("mechanism_tag") or "unknown"),
+            }
+        )
+        horizon_values = sorted({str(reg_event.get("horizon") or "")})
         events_out[event_id] = {
+            "disagreements": {
+                "stance": stance_disagreements,
+                "mechanism": mechanism_values if len(mechanism_values) > 1 else [],
+                "horizon": [h for h in horizon_values if h],
+            },
+            "legacy_gini": {
+                "prediction_level": {
+                    "total_predictions": sum(pred_dist.values()),
+                    "distribution": pred_dist,
+                    "disagreement_score_raw": pred_raw,
+                    "disagreement_score_normalized": pred_norm,
+                },
+                "latest_voice_level": {
+                    "total_voices": sum(1 for v in voice_dist.values() if v > 0),
+                    "distribution": voice_dist,
+                    "disagreement_score_raw": voice_raw,
+                    "disagreement_score_normalized": voice_norm,
+                },
+            },
             "prediction_level": {
                 "total_predictions": sum(pred_dist.values()),
                 "distribution": pred_dist,
@@ -457,7 +554,11 @@ def build_disagreement_payload(registry: dict[str, Any]) -> dict[str, Any]:
         "events": events_out,
     }
 
-def build_timeline_payload(registry: dict[str, Any]) -> dict[str, Any]:
+def build_timeline_payload(
+    registry: dict[str, Any],
+    events: dict[str, dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    event_registry = events or load_event_registry()
     by_event: dict[str, list[dict[str, Any]]] = {}
     for row in registry.get("predictions") or []:
         event_id = str(row.get("event_id") or "")
@@ -467,6 +568,9 @@ def build_timeline_payload(registry: dict[str, Any]) -> dict[str, Any]:
     events_out: dict[str, Any] = {}
     for event_id in sorted(by_event):
         rows = sorted(by_event[event_id], key=lambda r: (r.get("date_made", ""), r.get("file", "")))
+        reg_event = event_registry.get(event_id) or {}
+        mechanism_tag = str(reg_event.get("mechanism_tag") or "unknown")
+        horizon = str(reg_event.get("horizon") or "")
         entries: list[dict[str, Any]] = []
         for row in rows:
             entry: dict[str, Any] = {
@@ -479,6 +583,7 @@ def build_timeline_payload(registry: dict[str, Any]) -> dict[str, Any]:
             }
             if row.get("speech_act"):
                 entry["speech_act"] = row["speech_act"]
+                entry["semantic_speech_act"] = map_speech_act_to_semantic(row.get("speech_act"))
             entries.append(entry)
 
         latest_map: dict[str, dict[str, Any]] = {}
@@ -505,18 +610,31 @@ def build_timeline_payload(registry: dict[str, Any]) -> dict[str, Any]:
             for prev, curr in zip(speaker_rows, speaker_rows[1:]):
                 from_stance = str(prev.get("stance") or "")
                 to_stance = str(curr.get("stance") or "")
-                if from_stance != to_stance:
-                    speaker_shifts.append(
-                        {
-                            "type": classify_shift(from_stance, to_stance),
-                            "from": from_stance,
-                            "to": to_stance,
-                            "from_date": prev.get("date_made"),
-                            "to_date": curr.get("date_made"),
-                            "from_file": prev.get("file"),
-                            "to_file": curr.get("file"),
-                        }
-                    )
+                semantic_type = classify_semantic_shift(
+                    from_stance=from_stance,
+                    to_stance=to_stance,
+                    from_speech_act=prev.get("speech_act"),
+                    to_speech_act=curr.get("speech_act"),
+                    from_mechanism=mechanism_tag,
+                    to_mechanism=mechanism_tag,
+                    from_horizon=horizon,
+                    to_horizon=horizon,
+                )
+                if semantic_type:
+                    shift_entry: dict[str, Any] = {
+                        "type": semantic_type,
+                        "from": from_stance,
+                        "to": to_stance,
+                        "from_stance": from_stance,
+                        "to_stance": to_stance,
+                        "from_date": prev.get("date_made"),
+                        "to_date": curr.get("date_made"),
+                        "from_file": prev.get("file"),
+                        "to_file": curr.get("file"),
+                    }
+                    if from_stance != to_stance:
+                        shift_entry["legacy_type"] = classify_shift(from_stance, to_stance)
+                    speaker_shifts.append(shift_entry)
                 elif str(curr.get("speech_act") or "") == "restated" or (
                     not curr.get("speech_act") and from_stance == to_stance
                 ):

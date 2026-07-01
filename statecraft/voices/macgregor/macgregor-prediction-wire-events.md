@@ -19,6 +19,6 @@ Operator index for the **eight-event Macgregor prediction pilot**: falsifiable q
 
 **Rebuild chain:** `bootstrap_voice_capture_map.py --speaker macgregor --check` → `build_voice_predictions.py --speaker macgregor` → `check_voice_predictions.py --speaker macgregor`.
 
-## Israel trajectory children (Freeman registry)
+## Israel trajectory dimensions (Freeman registry v4)
 
-Parent `israel_self_destruction_trajectory` decomposes into six preset child dimensions in [event-registry.json](../../data/event-registry.json). Freeman capture rows may carry optional `child_event_id` for notes-lane hooks; the public shelf keeps the parent umbrella.
+Parent `israel_self_destruction_trajectory` carries six preset **dimensions** on the parent row in [event-registry.json](../../data/event-registry.json). Freeman capture rows use optional `dimension` for notes-lane hooks.

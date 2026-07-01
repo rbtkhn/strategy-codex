@@ -231,7 +231,7 @@ This tests whether Freeman could read force-posture and escalation signals befor
 **Coverage:** Under-sourced (pilot anchor only; expansion pending).  
 
 **Shift:** Yes.  
-**Shift note:** Stance moved from **no** (2025-03-28) to **uncertain** (2026-04-28) — type: certainty_shift.
+**Shift note:** Stance moved from **no** (2025-03-28) to **uncertain** (2026-04-28) — type: stance_shift.
 
 > "My expectation would be in the case of the Russians that they would accelerate the transfer of technology and weapons to Iran but would not involve themselves directly. Uh I don't see that they can create a diversion for US forces."
 

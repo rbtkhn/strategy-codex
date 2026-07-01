@@ -31,13 +31,17 @@ def test_resolved_gaza_has_registry_closure_fields() -> None:
     assert gaza.get("resolution_source")
 
 
-def test_israel_trajectory_has_child_event_ids() -> None:
+def test_israel_trajectory_has_dimensions_only() -> None:
     events = load_event_registry()
     parent = events["israel_self_destruction_trajectory"]
-    children = parent.get("child_event_ids") or []
-    assert len(children) == 6
-    for child_id in children:
-        assert events[child_id]["parent_event_id"] == "israel_self_destruction_trajectory"
+    assert parent.get("event_type") == "trajectory"
+    dims = parent.get("dimensions") or []
+    assert len(dims) == 6
+    dim_ids = {d["id"] for d in dims}
+    assert "israel_moral_pariah_status" in dim_ids
+    assert "child_event_ids" not in parent
+    for child_id in dim_ids:
+        assert child_id not in events
 
 
 def test_check_event_registry_cli_passes() -> None:

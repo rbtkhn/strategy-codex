@@ -1,0 +1,35 @@
+"""Tests for Phase 3 compression engine."""
+
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+SCRIPTS = REPO_ROOT / "scripts"
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from prediction.compression_engine import compression_report, find_duplicate_fingerprints  # noqa: E402
+from prediction.contracts import predictive_fingerprint  # noqa: E402
+from prediction_lib import load_event_registry  # noqa: E402
+
+
+def test_no_duplicate_fingerprints_in_registry() -> None:
+    events = load_event_registry()
+    dupes = find_duplicate_fingerprints(events)
+    assert not dupes, dupes
+
+
+def test_israel_trajectory_fingerprint_is_trajectory_type() -> None:
+    events = load_event_registry()
+    parent = events["israel_self_destruction_trajectory"]
+    fp = predictive_fingerprint("israel_self_destruction_trajectory", parent)
+    assert fp[0] == "trajectory"
+    assert len(fp[-1]) == 6
+
+
+def test_compression_report_lists_macgregor_merge_proposals() -> None:
+    report = compression_report()
+    assert report["event_count"] >= 14
+    assert isinstance(report["macgregor_merge_proposals"], list)

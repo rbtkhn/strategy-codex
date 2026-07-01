@@ -27,9 +27,9 @@ A **prediction note** lives under [`statecraft/notes/predictions/`](../../statec
 
 ## Optional event fields
 
-`category`, `start_date`, `close_date`, `outcome`, `resolved_date`, `resolution_source`, `horizon_type`, `horizon_cite`, `closure_trigger`, `falsifier`, `confirmation_criteria`, `not_falsifiable`, `resolution_scope`, `review_note`, `parent_event_id`, `child_event_ids`, `tags`
+`category`, `start_date`, `close_date`, `outcome`, `resolved_date`, `resolution_source`, `horizon_type`, `horizon_cite`, `closure_trigger`, `falsifier`, `confirmation_criteria`, `not_falsifiable`, `resolution_scope`, `review_note`, `tags`
 
-### Extended fields (rev. 3)
+### Extended fields (rev. 3 → v4 Phase 3)
 
 | Field | Role |
 | --- | --- |
@@ -37,9 +37,24 @@ A **prediction note** lives under [`statecraft/notes/predictions/`](../../statec
 | `confirmation_criteria` | What would support the stated position (optional asymmetric pair with falsifier) |
 | `not_falsifiable` | `true` when event is explicitly non-scorable (diagnostic / trajectory umbrella only with operator flag) |
 | `resolution_scope` | Which subclaim a resolution applies to (e.g. ceasefire durability) |
-| `parent_event_id` | Parent trajectory event when this row is a child dimension |
-| `child_event_ids` | Ordered child dimensions for broad trajectory parents |
 | `review_note` | **Explanatory only — non-semantic.** Human context; checkers must not branch on this field |
+
+### v4 schema (Phase 3 — trajectory decomposition)
+
+| Field | Values | Notes |
+| --- | --- | --- |
+| `event_type` | `atomic` \| `trajectory` | Trajectory when `dimensions[]` non-empty |
+| `prediction_type` | `falsifiable_claim` \| `probabilistic_claim` \| `trajectory` \| `not_falsifiable` | Maps from legacy `not_falsifiable` |
+| `horizon` | `short` \| `medium` \| `long` | Derived from `horizon_type` / `start_date` when unset |
+| `dimensions` | `[{id, label, falsifier?, confirmation_criteria?}]` | **Replaces child registry rows** for trajectories |
+| `outcome_record` | `pending` \| `correct` \| `incorrect` \| `mixed` \| `not_scorable` | Shelf scoring lane |
+| `first_seen` / `last_seen` | ISO dates | From timeline or registry dates |
+
+**Retired (v4):** `parent_event_id`, `child_event_ids` — presence is **ERROR** in `check_event_registry.py` / `check_phase3.py`.
+
+**Changelog:** append-only [`statecraft/data/event-registry-changelog.jsonl`](../../statecraft/data/event-registry-changelog.jsonl); compile via `python3 scripts/prediction/registry_writer.py compile`.
+
+**Capture map:** trajectory parent rows use optional `dimension` (non-registry pointer), not `child_event_id`.
 
 ### Status vs record (shelf lane)
 

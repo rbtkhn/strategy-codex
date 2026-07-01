@@ -1,0 +1,1 @@
+{"ts": "2026-07-01T01:39:25.044370+00:00", "op": "baseline_v4", "note": "Phase 3: Israel dimensions collapse + v4 field normalization", "ops": [{"op": "migrate_israel_dimensions"}, {"op": "normalize_all_v4"}]}

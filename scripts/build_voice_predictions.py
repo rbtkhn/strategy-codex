@@ -121,8 +121,7 @@ def build_appearances_for_event(
         citation = source_citation(capture_path, default_channel=default_channel)
         excerpt = str(row["public_excerpt"])
         appearance_date = str(row.get("appearance_date") or citation["pub_date"] or "")
-        appearances.append(
-            {
+        appearance: dict[str, Any] = {
                 "date": appearance_date,
                 "speech_act": row["speech_act"],
                 "stance": row["stance"],
@@ -139,7 +138,9 @@ def build_appearances_for_event(
                 "appearance_label": appearance_label(citation, date=appearance_date),
                 "context_note": row.get("context_note"),
             }
-        )
+        if row.get("dimension"):
+            appearance["dimension"] = row["dimension"]
+        appearances.append(appearance)
     appearances.sort(key=lambda a: (a["date"], a["capture"]))
     return appearances
 
@@ -304,7 +305,11 @@ def build_voice_prediction_payload(
                 "confirmation_criteria": registry_event.get("confirmation_criteria"),
                 "resolution_scope": registry_event.get("resolution_scope"),
                 "parent_event_id": registry_event.get("parent_event_id"),
-                "child_event_ids": registry_event.get("child_event_ids") or [],
+                "dimensions": registry_event.get("dimensions") or [],
+                "event_type": registry_event.get("event_type"),
+                "prediction_type": registry_event.get("prediction_type"),
+                "horizon": registry_event.get("horizon"),
+                "outcome_record": registry_event.get("outcome_record"),
                 "record": record,
                 "record_label": record_label,
                 "scoring_policy": event_public["scoring_policy"],

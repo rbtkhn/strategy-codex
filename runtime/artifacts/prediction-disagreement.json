@@ -6,6 +6,39 @@
   },
   "events": {
     "china_tariff_capitulation_2025": {
+      "disagreements": {
+        "stance": {
+          "freeman": "no"
+        },
+        "mechanism": [],
+        "horizon": [
+          "medium"
+        ]
+      },
+      "legacy_gini": {
+        "prediction_level": {
+          "total_predictions": 5,
+          "distribution": {
+            "yes": 0,
+            "no": 5,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        },
+        "latest_voice_level": {
+          "total_voices": 1,
+          "distribution": {
+            "yes": 0,
+            "no": 1,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        }
+      },
       "prediction_level": {
         "total_predictions": 5,
         "distribution": {
@@ -30,6 +63,39 @@
       }
     },
     "gaza_ceasefire_holds_2025": {
+      "disagreements": {
+        "stance": {
+          "freeman": "no"
+        },
+        "mechanism": [],
+        "horizon": [
+          "medium"
+        ]
+      },
+      "legacy_gini": {
+        "prediction_level": {
+          "total_predictions": 2,
+          "distribution": {
+            "yes": 0,
+            "no": 2,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        },
+        "latest_voice_level": {
+          "total_voices": 1,
+          "distribution": {
+            "yes": 0,
+            "no": 1,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        }
+      },
       "prediction_level": {
         "total_predictions": 2,
         "distribution": {
@@ -54,6 +120,39 @@
       }
     },
     "gaza_hostage_deal_jan_2025": {
+      "disagreements": {
+        "stance": {
+          "freeman": "yes"
+        },
+        "mechanism": [],
+        "horizon": [
+          "medium"
+        ]
+      },
+      "legacy_gini": {
+        "prediction_level": {
+          "total_predictions": 1,
+          "distribution": {
+            "yes": 1,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        },
+        "latest_voice_level": {
+          "total_voices": 1,
+          "distribution": {
+            "yes": 1,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        }
+      },
       "prediction_level": {
         "total_predictions": 1,
         "distribution": {
@@ -78,6 +177,39 @@
       }
     },
     "gulf_crisis_macro_shock": {
+      "disagreements": {
+        "stance": {
+          "macgregor": "yes"
+        },
+        "mechanism": [],
+        "horizon": [
+          "short"
+        ]
+      },
+      "legacy_gini": {
+        "prediction_level": {
+          "total_predictions": 1,
+          "distribution": {
+            "yes": 1,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        },
+        "latest_voice_level": {
+          "total_voices": 1,
+          "distribution": {
+            "yes": 1,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        }
+      },
       "prediction_level": {
         "total_predictions": 1,
         "distribution": {
@@ -102,6 +234,39 @@
       }
     },
     "iran_airpower_cannot_force_submission": {
+      "disagreements": {
+        "stance": {
+          "macgregor": "no"
+        },
+        "mechanism": [],
+        "horizon": [
+          "short"
+        ]
+      },
+      "legacy_gini": {
+        "prediction_level": {
+          "total_predictions": 1,
+          "distribution": {
+            "yes": 0,
+            "no": 1,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        },
+        "latest_voice_level": {
+          "total_voices": 1,
+          "distribution": {
+            "yes": 0,
+            "no": 1,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        }
+      },
       "prediction_level": {
         "total_predictions": 1,
         "distribution": {
@@ -126,6 +291,39 @@
       }
     },
     "iran_great_power_direct_war_entry": {
+      "disagreements": {
+        "stance": {
+          "freeman": "uncertain"
+        },
+        "mechanism": [],
+        "horizon": [
+          "medium"
+        ]
+      },
+      "legacy_gini": {
+        "prediction_level": {
+          "total_predictions": 2,
+          "distribution": {
+            "yes": 0,
+            "no": 1,
+            "conditional": 0,
+            "uncertain": 1
+          },
+          "disagreement_score_raw": 0.5,
+          "disagreement_score_normalized": 0.6667
+        },
+        "latest_voice_level": {
+          "total_voices": 1,
+          "distribution": {
+            "yes": 0,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 1
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        }
+      },
       "prediction_level": {
         "total_predictions": 2,
         "distribution": {
@@ -150,6 +348,39 @@
       }
     },
     "israel_sabotages_exit_ramps": {
+      "disagreements": {
+        "stance": {
+          "macgregor": "yes"
+        },
+        "mechanism": [],
+        "horizon": [
+          "medium"
+        ]
+      },
+      "legacy_gini": {
+        "prediction_level": {
+          "total_predictions": 1,
+          "distribution": {
+            "yes": 1,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        },
+        "latest_voice_level": {
+          "total_voices": 1,
+          "distribution": {
+            "yes": 1,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        }
+      },
       "prediction_level": {
         "total_predictions": 1,
         "distribution": {
@@ -174,6 +405,39 @@
       }
     },
     "israel_self_destruction_trajectory": {
+      "disagreements": {
+        "stance": {
+          "freeman": "yes"
+        },
+        "mechanism": [],
+        "horizon": [
+          "medium"
+        ]
+      },
+      "legacy_gini": {
+        "prediction_level": {
+          "total_predictions": 15,
+          "distribution": {
+            "yes": 15,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        },
+        "latest_voice_level": {
+          "total_voices": 1,
+          "distribution": {
+            "yes": 1,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        }
+      },
       "prediction_level": {
         "total_predictions": 15,
         "distribution": {
@@ -198,6 +462,39 @@
       }
     },
     "nato_strategic_exposure_ukraine": {
+      "disagreements": {
+        "stance": {
+          "macgregor": "yes"
+        },
+        "mechanism": [],
+        "horizon": [
+          "medium"
+        ]
+      },
+      "legacy_gini": {
+        "prediction_level": {
+          "total_predictions": 1,
+          "distribution": {
+            "yes": 1,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        },
+        "latest_voice_level": {
+          "total_voices": 1,
+          "distribution": {
+            "yes": 1,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        }
+      },
       "prediction_level": {
         "total_predictions": 1,
         "distribution": {
@@ -222,6 +519,40 @@
       }
     },
     "russia_odessa_control": {
+      "disagreements": {
+        "stance": {
+          "mercouris": "conditional",
+          "ritter": "yes"
+        },
+        "mechanism": [],
+        "horizon": [
+          "medium"
+        ]
+      },
+      "legacy_gini": {
+        "prediction_level": {
+          "total_predictions": 3,
+          "distribution": {
+            "yes": 1,
+            "no": 1,
+            "conditional": 1,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.6667,
+          "disagreement_score_normalized": 0.8889
+        },
+        "latest_voice_level": {
+          "total_voices": 2,
+          "distribution": {
+            "yes": 1,
+            "no": 0,
+            "conditional": 1,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.5,
+          "disagreement_score_normalized": 0.6667
+        }
+      },
       "prediction_level": {
         "total_predictions": 3,
         "distribution": {
@@ -246,6 +577,41 @@
       }
     },
     "ukraine_escalation_russian_capitulation": {
+      "disagreements": {
+        "stance": {
+          "freeman": "no",
+          "macgregor": "no",
+          "mercouris": "no"
+        },
+        "mechanism": [],
+        "horizon": [
+          "medium"
+        ]
+      },
+      "legacy_gini": {
+        "prediction_level": {
+          "total_predictions": 6,
+          "distribution": {
+            "yes": 0,
+            "no": 6,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        },
+        "latest_voice_level": {
+          "total_voices": 1,
+          "distribution": {
+            "yes": 0,
+            "no": 3,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        }
+      },
       "prediction_level": {
         "total_predictions": 6,
         "distribution": {
@@ -270,6 +636,39 @@
       }
     },
     "ukraine_western_aid_prolongs_war": {
+      "disagreements": {
+        "stance": {
+          "macgregor": "yes"
+        },
+        "mechanism": [],
+        "horizon": [
+          "medium"
+        ]
+      },
+      "legacy_gini": {
+        "prediction_level": {
+          "total_predictions": 1,
+          "distribution": {
+            "yes": 1,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        },
+        "latest_voice_level": {
+          "total_voices": 1,
+          "distribution": {
+            "yes": 1,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        }
+      },
       "prediction_level": {
         "total_predictions": 1,
         "distribution": {
@@ -294,6 +693,39 @@
       }
     },
     "us_forward_presence_obsolete": {
+      "disagreements": {
+        "stance": {
+          "macgregor": "yes"
+        },
+        "mechanism": [],
+        "horizon": [
+          "medium"
+        ]
+      },
+      "legacy_gini": {
+        "prediction_level": {
+          "total_predictions": 1,
+          "distribution": {
+            "yes": 1,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        },
+        "latest_voice_level": {
+          "total_voices": 1,
+          "distribution": {
+            "yes": 1,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        }
+      },
       "prediction_level": {
         "total_predictions": 1,
         "distribution": {
@@ -318,6 +750,41 @@
       }
     },
     "us_israel_iran_war_preparation_2025": {
+      "disagreements": {
+        "stance": {
+          "freeman": "yes",
+          "macgregor": "yes",
+          "mercouris": "yes"
+        },
+        "mechanism": [],
+        "horizon": [
+          "medium"
+        ]
+      },
+      "legacy_gini": {
+        "prediction_level": {
+          "total_predictions": 9,
+          "distribution": {
+            "yes": 9,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        },
+        "latest_voice_level": {
+          "total_voices": 1,
+          "distribution": {
+            "yes": 3,
+            "no": 0,
+            "conditional": 0,
+            "uncertain": 0
+          },
+          "disagreement_score_raw": 0.0,
+          "disagreement_score_normalized": 0.0
+        }
+      },
       "prediction_level": {
         "total_predictions": 9,
         "distribution": {

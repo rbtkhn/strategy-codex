@@ -24,6 +24,7 @@ def test_disagreement_fixture_values() -> None:
     assert pred["distribution"] == {"yes": 1, "no": 1, "conditional": 1, "uncertain": 0}
     assert pred["disagreement_score_raw"] == 0.6667
     assert pred["disagreement_score_normalized"] == 0.8889
+    assert block["disagreements"]["stance"]
 
     voice = block["latest_voice_level"]
     assert voice["distribution"] == {"yes": 1, "no": 0, "conditional": 1, "uncertain": 0}
@@ -37,7 +38,8 @@ def test_timeline_mercouris_qualification_shift() -> None:
     shifts = payload["events"]["russia_odessa_control"]["shifts"]["mercouris"]
     assert len(shifts) == 1
     shift = shifts[0]
-    assert shift["type"] == "qualification_shift"
+    assert shift["type"] == "stance_shift"
+    assert shift.get("legacy_type") == "qualification_shift"
     assert shift["from"] == "no"
     assert shift["to"] == "conditional"
 

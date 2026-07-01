@@ -32,14 +32,48 @@
       "confirmation_criteria": "Isolation, moral authority loss, overextension, or domestic strain indicators materially worsen.",
       "resolution_scope": null,
       "parent_event_id": null,
-      "child_event_ids": [
-        "israel_moral_pariah_status",
-        "israel_regional_isolation",
-        "israel_us_support_erosion",
-        "israel_military_overextension",
-        "israel_economic_emigration_pressure",
-        "israel_internal_political_fragmentation"
+      "dimensions": [
+        {
+          "id": "israel_moral_pariah_status",
+          "label": "Would Israel become widely treated as a moral pariah in Western and global opinion?",
+          "falsifier": "Israel restores broad Western diplomatic legitimacy and avoids pariah status in major institutions and public opinion.",
+          "confirmation_criteria": "Israel is increasingly condemned as moral pariah across Western institutions and public discourse."
+        },
+        {
+          "id": "israel_regional_isolation",
+          "label": "Would Israel face deepening regional diplomatic isolation?",
+          "falsifier": "Israel normalizes relations with key regional states and reduces regional isolation.",
+          "confirmation_criteria": "Regional states refuse normalization and treat Israel as isolated actor in Middle East diplomacy."
+        },
+        {
+          "id": "israel_us_support_erosion",
+          "label": "Would U.S. political and public support for Israel erode materially?",
+          "falsifier": "U.S. public and congressional support for Israel remains stable or increases across major blocs.",
+          "confirmation_criteria": "Support erodes in U.S. public opinion and/or congressional coalitions beyond fringe dissent."
+        },
+        {
+          "id": "israel_military_overextension",
+          "label": "Would Israeli military strategy show overextension and strategic blowback?",
+          "falsifier": "Israel limits campaigns to sustainable objectives without chronic overextension costs.",
+          "confirmation_criteria": "Sustained multi-front operations produce clear overextension, exhaustion, or strategic blowback."
+        },
+        {
+          "id": "israel_economic_emigration_pressure",
+          "label": "Would Israel face significant economic strain and emigration pressure?",
+          "falsifier": "Economy stabilizes and emigration does not accelerate beyond pre-war baselines.",
+          "confirmation_criteria": "Documented economic deterioration and emigration outflows accelerate under war strain."
+        },
+        {
+          "id": "israel_internal_political_fragmentation",
+          "label": "Would domestic political fragmentation undermine Israeli policy coherence?",
+          "falsifier": "Domestic coalition holds stable governing majority on security policy.",
+          "confirmation_criteria": "Governing coalition fractures or hostage-family / civil dissent destabilizes policy coherence."
+        }
       ],
+      "event_type": "trajectory",
+      "prediction_type": "trajectory",
+      "horizon": "medium",
+      "outcome_record": "pending",
       "record": "unscored_trajectory",
       "record_label": "Open — trajectory",
       "scoring_policy": "trajectory_review",
@@ -85,7 +119,8 @@
             "youtube_url": "https://www.youtube.com/watch?v=wlW25wwA7Ss"
           },
           "appearance_label": "2025-01-07 Napolitano",
-          "context_note": null
+          "context_note": null,
+          "dimension": "israel_moral_pariah_status"
         },
         {
           "date": "2025-01-14",
@@ -110,7 +145,8 @@
             "youtube_url": "https://www.youtube.com/watch?v=uu2-wa9ue5w"
           },
           "appearance_label": "2025-01-14 Napolitano",
-          "context_note": null
+          "context_note": null,
+          "dimension": "israel_regional_isolation"
         },
         {
           "date": "2025-01-17",
@@ -159,7 +195,8 @@
             "youtube_url": "https://www.youtube.com/watch?v=m1RrBIomMuY"
           },
           "appearance_label": "2025-01-21 Napolitano",
-          "context_note": null
+          "context_note": null,
+          "dimension": "israel_military_overextension"
         },
         {
           "date": "2025-06-10",
@@ -254,7 +291,8 @@
             "youtube_url": ""
           },
           "appearance_label": "2025-08-04 Diesen",
-          "context_note": null
+          "context_note": null,
+          "dimension": "israel_us_support_erosion"
         },
         {
           "date": "2025-10-07",
@@ -300,7 +338,8 @@
             "youtube_url": "https://www.youtube.com/watch?v=Z_TS5c9cbYw"
           },
           "appearance_label": "2025-10-31 Dialogue Works",
-          "context_note": null
+          "context_note": null,
+          "dimension": "israel_economic_emigration_pressure"
         },
         {
           "date": "2025-11-21",
@@ -346,7 +385,8 @@
             "youtube_url": "https://www.youtube.com/watch?v=oKuDN1rYFTM"
           },
           "appearance_label": "2025-12-05 Dialogue Works",
-          "context_note": null
+          "context_note": null,
+          "dimension": "israel_moral_pariah_status"
         },
         {
           "date": "2026-05-01",
@@ -438,7 +478,11 @@
       "confirmation_criteria": "No Russian capitulation under escalatory arms surge; Moscow holds core lines.",
       "resolution_scope": null,
       "parent_event_id": null,
-      "child_event_ids": [],
+      "dimensions": [],
+      "event_type": "atomic",
+      "prediction_type": "falsifiable_claim",
+      "horizon": "medium",
+      "outcome_record": "correct",
       "record": "correct",
       "record_label": "Correct",
       "scoring_policy": "yes_no",
@@ -573,7 +617,11 @@
       "confirmation_criteria": "Phase-1 hostage deal publicly reached and implemented.",
       "resolution_scope": null,
       "parent_event_id": null,
-      "child_event_ids": [],
+      "dimensions": [],
+      "event_type": "atomic",
+      "prediction_type": "falsifiable_claim",
+      "horizon": "medium",
+      "outcome_record": "correct",
       "record": "correct",
       "record_label": "Correct",
       "scoring_policy": "yes_no",
@@ -642,7 +690,11 @@
       "confirmation_criteria": "Fighting resumes at scale or arrangement functions as hostage-exchange pause only.",
       "resolution_scope": "ceasefire durability",
       "parent_event_id": null,
-      "child_event_ids": [],
+      "dimensions": [],
+      "event_type": "atomic",
+      "prediction_type": "falsifiable_claim",
+      "horizon": "medium",
+      "outcome_record": "correct",
       "record": "correct",
       "record_label": "Correct",
       "scoring_policy": "yes_no",
@@ -737,7 +789,11 @@
       "confirmation_criteria": "Wire and posture evidence show active bilateral war preparation.",
       "resolution_scope": null,
       "parent_event_id": null,
-      "child_event_ids": [],
+      "dimensions": [],
+      "event_type": "atomic",
+      "prediction_type": "falsifiable_claim",
+      "horizon": "medium",
+      "outcome_record": "pending",
       "record": "diagnostic",
       "record_label": "Open — diagnostic",
       "scoring_policy": "diagnostic_confirmation",
@@ -951,7 +1007,11 @@
       "confirmation_criteria": "Great powers limit support to indirect aid, tech transfer, or separate theaters without Iran co-belligerency.",
       "resolution_scope": null,
       "parent_event_id": null,
-      "child_event_ids": [],
+      "dimensions": [],
+      "event_type": "atomic",
+      "prediction_type": "falsifiable_claim",
+      "horizon": "medium",
+      "outcome_record": "pending",
       "record": "shifted",
       "record_label": "Open — shifted",
       "scoring_policy": "yes_no",
@@ -1022,13 +1082,16 @@
       ],
       "shifts": [
         {
-          "type": "certainty_shift",
+          "type": "stance_shift",
           "from": "no",
           "to": "uncertain",
+          "from_stance": "no",
+          "to_stance": "uncertain",
           "from_date": "2025-03-28",
           "to_date": "2026-04-28",
           "from_file": "statecraft/notes/predictions/iran-great-power-backup-freeman-2025-03-28.md",
-          "to_file": "statecraft/notes/predictions/iran-great-power-backup-freeman-2026-04-28.md"
+          "to_file": "statecraft/notes/predictions/iran-great-power-backup-freeman-2026-04-28.md",
+          "legacy_type": "certainty_shift"
         }
       ],
       "reviews": []
@@ -1050,7 +1113,11 @@
       "confirmation_criteria": "China refuses unilateral capitulation, retaliates, negotiates from parity, or redirects trade away from U.S. pressure.",
       "resolution_scope": null,
       "parent_event_id": null,
-      "child_event_ids": [],
+      "dimensions": [],
+      "event_type": "atomic",
+      "prediction_type": "falsifiable_claim",
+      "horizon": "medium",
+      "outcome_record": "pending",
       "record": "consistent",
       "record_label": "Open — consistent",
       "scoring_policy": "yes_no",

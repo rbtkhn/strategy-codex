@@ -74,33 +74,21 @@ def check_registry(
 
         parent = event.get("parent_event_id")
         if parent is not None and str(parent).strip():
-            parent_id = str(parent).strip()
-            if parent_id not in events:
-                errors.append(f"{event_id}: parent_event_id {parent_id!r} not in registry")
-            else:
-                parent_children = events[parent_id].get("child_event_ids") or []
-                if event_id not in parent_children:
-                    errors.append(
-                        f"{event_id}: parent {parent_id} child_event_ids missing {event_id}"
-                    )
+            msg = f"{event_id}: parent_event_id deprecated in v4 — use dimensions[] on trajectory"
+            errors.append(msg)
 
         children = event.get("child_event_ids") or []
         if isinstance(children, list) and children:
-            for child_id in children:
-                if child_id not in events:
-                    errors.append(f"{event_id}: child_event_ids references missing {child_id!r}")
-                elif events[child_id].get("parent_event_id") != event_id:
-                    errors.append(
-                        f"{child_id}: parent_event_id must be {event_id!r} "
-                        f"(got {events[child_id].get('parent_event_id')!r})"
-                    )
-        elif str(event.get("event_kind") or "") == "trajectory" or "trajectory" in event_id:
-            if event_id == "israel_self_destruction_trajectory" and not children:
-                msg = f"{event_id}: trajectory parent has empty child_event_ids"
-                warnings.append(msg)
-                queue_items.append(
-                    {"type": "trajectory_without_children", "event_id": event_id, "message": msg}
-                )
+            errors.append(
+                f"{event_id}: child_event_ids deprecated in v4 ({len(children)} refs) — use dimensions[]"
+            )
+
+        event_type = str(event.get("event_type") or "")
+        dims = event.get("dimensions") or []
+        if event_type == "trajectory" or "trajectory" in event_id:
+            if not dims:
+                msg = f"{event_id}: trajectory missing dimensions[]"
+                errors.append(msg)
 
     return errors, warnings, queue_items
 
