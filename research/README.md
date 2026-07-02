@@ -15,6 +15,14 @@ Content here is **not** part of the production gated pipeline unless explicitly 
 | [prototypes/](prototypes/) | Throwaway or pre-product code (e.g. mind-synthesis) |
 | [newsletter/](newsletter/) | Newsletter / digest samples |
 
+### Research vs education
+
+| Path | What it is |
+| --- | --- |
+| **`research/`** (this tree) | **Operator learns** — subject research, frameworks, experiments |
+| **`education/`** | **Curriculum factory** — human teach artifacts + agent-training corpora ([education/README.md](../education/README.md)) |
+| [`singularity/education/`](../singularity/education/predictive-history/README.md) | PH curriculum factory **pilot** (6 loops) — migrates to `education/` when ready |
+
 ### Predictive History path disambiguation
 
 | Path | What it is |

@@ -21,7 +21,7 @@ Singularity is the **control system for recurring work** — recurring responsib
 
 Recurring work is declared as **loops** under [`singularity/loops/`](loops/README.md). Interpretive shelves (`notes/`, `essays/`, `synthesis/`, `workshop/`) remain grandfathered; new operational outputs use declared shelves:
 
-- [Education outputs](education/predictive-history/README.md) — predictive-history curriculum factory (6-loop cluster)
+- [Education outputs](education/predictive-history/README.md) — predictive-history curriculum factory pilot (6-loop cluster); canonical home [`education/`](../education/README.md)
 - [Operations outputs](../operations/README.md) — Grace Gems and mountain homestead operating shelves (`operations/`)
 - [Action cards](action-cards/README.md) — dated loop work orders and receipt staging
 

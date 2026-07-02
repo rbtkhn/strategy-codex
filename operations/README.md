@@ -23,6 +23,6 @@ Real-world **operating shelves** for recurring business and property operations.
 
 ## Layout invariant
 
-**Operating artifacts only** — do not declare new loops here. Education outputs remain under [`singularity/education/`](../singularity/education/).
+**Operating artifacts only** — do not declare new loops here. Curriculum factory outputs live at root [`education/`](../education/README.md); PH pilot loops still land under [`singularity/education/`](../singularity/education/) until migrate.
 
 Legacy path [`singularity/business/`](../singularity/business/README.md) redirects here.

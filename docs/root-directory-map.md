@@ -13,9 +13,9 @@ record_status: none
 
 ---
 
-## GitHub root layout (21 folders)
+## GitHub root layout (22 folders)
 
-**Committed `main`:** exactly **21** top-level directories. SSOT list: `scripts/repo_io.py` → `TARGET_ROOT_FOLDERS`. CI: `python3 scripts/assert_root_folder_layout.py`.
+**Committed `main`:** exactly **22** top-level directories. SSOT list: `scripts/repo_io.py` → `TARGET_ROOT_FOLDERS`. CI: `python3 scripts/assert_root_folder_layout.py`.
 
 | Folder | Lane |
 |--------|------|
@@ -26,6 +26,7 @@ record_status: none
 | `continuity` | Durable chronology and strategy-codex notebook layer (formerly `continuity/`) |
 | `codex` | Legacy redirect only — [`continuity/README.md`](../continuity/README.md) |
 | `docs` | Doctrine, skill-work, workflows |
+| `education` | **Curriculum factory** — human teach + agent-training outputs ([education/README.md](../education/README.md)) |
 | `essays` | Cross-channel theses (repo-root shelf) |
 | `examples` | Sample / reference material |
 | `operations` | Real-world operating shelves — Grace Gems, mountain homestead ([operations/README.md](../operations/README.md)) |

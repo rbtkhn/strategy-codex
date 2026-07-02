@@ -86,6 +86,7 @@ TARGET_ROOT_FOLDERS: frozenset[str] = frozenset(
         "archive",
         "continuity",
         "docs",
+        "education",
         "essays",
         "examples",
         "operations",
