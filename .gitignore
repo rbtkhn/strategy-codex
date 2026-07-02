@@ -35,24 +35,36 @@ docs/skill-work/work-strategy/strategy-notebook/compiled-views/expert-polyphony-
 # Remove this line if you use `git submodule add … companion-self` and want it tracked.
 /companion-self/
 
-# Operator civilization primary shelf (PD text/binaries off-git; see library/README.md)
+# Operator library (PD text/binaries off-git; see library/README.md)
 /library/*
 !library/README.md
-!library/rome/
-library/rome/*
-!library/rome/.gitkeep
-!library/persia/
-library/persia/*
-!library/persia/.gitkeep
-!library/china/
-library/china/*
-!library/china/.gitkeep
-!library/russia/
-library/russia/*
-!library/russia/.gitkeep
-!library/america/
-library/america/*
-!library/america/.gitkeep
+!library/civilization/
+library/civilization/*
+!library/civilization/README.md
+!library/civilization/rome/
+library/civilization/rome/*
+!library/civilization/rome/.gitkeep
+!library/civilization/persia/
+library/civilization/persia/*
+!library/civilization/persia/.gitkeep
+!library/civilization/china/
+library/civilization/china/*
+!library/civilization/china/.gitkeep
+!library/civilization/russia/
+library/civilization/russia/*
+!library/civilization/russia/.gitkeep
+!library/civilization/america/
+library/civilization/america/*
+!library/civilization/america/.gitkeep
+!library/science/
+library/science/*
+!library/science/README.md
+!library/science/innermost-loop/
+library/science/innermost-loop/*
+!library/science/innermost-loop/.gitkeep
+!library/science/moonshots/
+library/science/moonshots/*
+!library/science/moonshots/.gitkeep
 
 # IDE
 .idea/

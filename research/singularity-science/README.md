@@ -29,6 +29,7 @@ work only; not Record.
 | Path | What it is |
 | --- | --- |
 | **`research/singularity-science/`** (this shelf) | Durable **analysis** of IL + Moonshots streams |
+| [`library/science/`](../../library/science/README.md) | **Local offline shelf** — PDFs, ebooks, exports (not in git) |
 | [`source-archive/singularity/innermost-loop/`](../../source-archive/singularity/innermost-loop/) | **Raw capture SSOT** — verbatim Innermost Loop issues |
 | [`source-archive/singularity/moonshots/`](../../source-archive/singularity/moonshots/) | **Raw capture SSOT** — verbatim Moonshots transcripts |
 | [`singularity/synthesis/`](../../singularity/synthesis/README.md) | Operational **monthly synthesis** from IL corpus |

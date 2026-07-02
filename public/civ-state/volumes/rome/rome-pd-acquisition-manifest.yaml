@@ -12,7 +12,7 @@ manifest_version: "0.1.0"
 verified_against: rome-bibliography.md
 verified_date: "2026-06-22"
 
-local_root: "library/rome"
+local_root: "library/civilization/rome"
 formats_preferred:
   gutenberg: epub
   internet_archive: epub
