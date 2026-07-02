@@ -6,7 +6,7 @@
 
 This folder is the **operator/advisor WORK layer** in strategy-codex. It is **not** any member's Record and does not replace governed state in companion or OB1 instance repositories.
 
-**Pattern upstream:** [singularity/work-cici/](../work-cici/README.md) · **Cursor skill:** [anyang-ai](../../.cursor/skills/anyang-ai/SKILL.md) · **Mission SSOT:** [anyang-community-mission-operator.md](anyang-community-mission-operator.md) · **Learning lanes:** [anyang-ai-lanes.md](anyang-ai-lanes.md) · **China stack:** [anyang-ai-cn-software-stack.md](anyang-ai-cn-software-stack.md)
+**Commercial venture:** [STRATEGIC-PLAN.md](../../operations/anyang-intelligence/STRATEGIC-PLAN.md) · **Operator runbook:** [OPERATOR-RUNBOOK.md](OPERATOR-RUNBOOK.md) · **Pattern upstream:** [singularity/work-cici/](../work-cici/README.md) · **Mission SSOT:** [anyang-community-mission-operator.md](anyang-community-mission-operator.md) · **Learning lanes:** [anyang-ai-lanes.md](anyang-ai-lanes.md) · **China stack:** [anyang-ai-cn-software-stack.md](anyang-ai-cn-software-stack.md)
 
 ## Boundary
 

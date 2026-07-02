@@ -221,10 +221,10 @@ skills:
 
   # --- Other cursor-only domain-pack ---
   anyang-ai:
-    proposed_disposition: REVIEW_WITH_OPERATOR
-    replacement_or_runbook: null
-    reason: Cici cohort localization; confirm keep or archive
-    risk: medium
+    proposed_disposition: DEPRECATED_REDIRECT
+    replacement_or_runbook: singularity/work-anyang/OPERATOR-RUNBOOK.md
+    reason: Cohort guardrails migrated to OPERATOR-RUNBOOK; commercial strategy at operations/anyang-intelligence/STRATEGIC-PLAN.md
+    risk: low
     cluster: other-cursor
 
   brewmind-governed-steward:

@@ -10,7 +10,7 @@ Real-world **operating shelves** for recurring business and property operations.
 | --- | --- | --- |
 | Grace Gems | [`grace-gems/`](grace-gems/README.md) | 6 loops — marketplace, pipeline, margin review, search/conversion, customer service, promise audit |
 | Mountain homestead | [`mountain-homestead/`](mountain-homestead/README.md) | 8 loops — ops, risk register, maintenance, wildfire, utilities, water, septic, seasonal readiness |
-| Anyang intelligence | [`anyang-intelligence/`](anyang-intelligence/README.md) | Cohort operating intelligence — advisor docs at [`singularity/work-anyang/`](../singularity/work-anyang/README.md) |
+| Anyang Intelligence | [`anyang-intelligence/`](anyang-intelligence/README.md) | Commercial venture — [STRATEGIC-PLAN.md](anyang-intelligence/STRATEGIC-PLAN.md); China wedge at [`singularity/work-anyang/`](../singularity/work-anyang/README.md) |
 
 ## Related surfaces
 
