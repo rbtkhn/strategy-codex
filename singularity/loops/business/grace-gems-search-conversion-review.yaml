@@ -8,7 +8,7 @@ loop:
   inputs:
     - description: Etsy search visibility, listing views, favorites, conversion data, search terms, and shop traffic for GraceGemsUS and GioielloHandcrafted
     - description: Active listing titles, tags, categories, attributes, photos, and descriptions
-    - description: Listing quality score rubric at singularity/business/grace-gems/listings/search-conversion/listing-quality-score.md
+    - description: Listing quality score rubric at operations/grace-gems/listings/search-conversion/listing-quality-score.md
   process:
     steps:
       - description: Identify high-view low-conversion listings
@@ -26,4 +26,4 @@ loop:
     - loop_id: grace-gems-marketplace-ops
   last_run: null
   output_shelves:
-    - singularity/business/grace-gems/listings/search-conversion/
+    - operations/grace-gems/listings/search-conversion/

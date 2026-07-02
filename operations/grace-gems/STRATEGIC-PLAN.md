@@ -2,7 +2,7 @@
 
 WORK only; not Record.
 
-**Scope:** `singularity/business/grace-gems/` operating system.
+**Scope:** `operations/grace-gems/` operating system.
 
 **One-line strategy:** Grace Gems uses Singularity to convert Etsy selling into a review-gated operating system — every listing is margin-tested, policy-safe, search-aware, and customer-promise clear before it touches the market.
 
@@ -277,4 +277,4 @@ See also [`ops/README.md`](ops/README.md).
 
 ## Business doctrine (external)
 
-Entity, policies, and long-form business context: [`docs/skill-work/work-business/grace-gems/`](../../../docs/skill-work/work-business/grace-gems/README.md).
+Entity, policies, and long-form business context: [`docs/skill-work/work-business/grace-gems/`](../../docs/skill-work/work-business/grace-gems/README.md).

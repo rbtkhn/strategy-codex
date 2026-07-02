@@ -10,7 +10,7 @@ loop:
     - description: Prior sales and traffic data per shop (GraceGemsUS, GioielloHandcrafted)
     - description: Competitor and marketplace trend observations
     - description: Business context at docs/skill-work/work-business/grace-gems/ (not loop output SSOT)
-    - description: Strategic positioning at singularity/business/grace-gems/STRATEGIC-PLAN.md (custom natural gemstone center; lab-grown only with clear promise)
+    - description: Strategic positioning at operations/grace-gems/STRATEGIC-PLAN.md (custom natural gemstone center; lab-grown only with clear promise)
     - description: Search-conversion experiment queue from grace-gems-search-conversion-review (soft feed)
   process:
     steps:
@@ -28,6 +28,6 @@ loop:
   dependencies: []
   last_run: null
   output_shelves:
-    - singularity/business/grace-gems/products/
-    - singularity/business/grace-gems/listings/drafts/
-    - singularity/business/grace-gems/listings/photo-checklists/
+    - operations/grace-gems/products/
+    - operations/grace-gems/listings/drafts/
+    - operations/grace-gems/listings/photo-checklists/

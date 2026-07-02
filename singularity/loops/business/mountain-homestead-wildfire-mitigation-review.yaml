@@ -7,7 +7,7 @@ loop:
     description: Monthly wildfire mitigation review for structures, defensible space, and ignition hazards on the Pine, Colorado homestead
   inputs:
     - description: Current home ignition zone status, structure list, defensible-space notes, roof/gutter/deck debris status, vent/fence/siding condition, slash piles, and local fire restrictions
-    - description: Colorado State Forest Service guidance, local fire district recommendations, prior mitigation receipts, and mitigation-proof template at singularity/business/mountain-homestead/wildfire-mitigation/
+    - description: Colorado State Forest Service guidance, local fire district recommendations, prior mitigation receipts, and mitigation-proof template at operations/mountain-homestead/wildfire-mitigation/
   process:
     steps:
       - description: Review structural ignitability for house, garage, sheds, barns, decks, fencing, and utility structures
@@ -26,4 +26,4 @@ loop:
     - loop_id: mountain-homestead-maintenance
   last_run: null
   output_shelves:
-    - singularity/business/mountain-homestead/wildfire-mitigation/
+    - operations/mountain-homestead/wildfire-mitigation/

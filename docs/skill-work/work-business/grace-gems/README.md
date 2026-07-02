@@ -9,7 +9,7 @@
 
 Market tag: [etsy.com/market/grace_gems](https://www.etsy.com/market/grace_gems)
 
-**Singularity operating SSOT:** Recurring Etsy ops, listing review gate, margin/policy templates, and loop output shelves live at [`singularity/business/grace-gems/`](../../../singularity/business/grace-gems/README.md) — start with [STRATEGIC-PLAN.md](../../../singularity/business/grace-gems/STRATEGIC-PLAN.md) and [listing review template](../../../singularity/business/grace-gems/listings/review/listing-review-template.md). This work-business folder holds entity doctrine and long-form business context; loop artifacts land on the singularity shelf.
+**Singularity operating SSOT:** Recurring Etsy ops, listing review gate, margin/policy templates, and loop output shelves live at [`operations/grace-gems/`](../../../operations/grace-gems/README.md) — start with [STRATEGIC-PLAN.md](../../../operations/grace-gems/STRATEGIC-PLAN.md) and [listing review template](../../../operations/grace-gems/listings/review/listing-review-template.md). This work-business folder holds entity doctrine and long-form business context; loop artifacts land on the singularity shelf.
 
 This submodule supports WORK and the Record by documenting how Grace-Mar relates to the companion's business: inventory, listings, customer service, orders, and operations. The companion is sovereign; the system supports, does not compel.
 

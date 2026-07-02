@@ -1,12 +1,8 @@
-# Singularity — business output shelves
+# Singularity — business output shelves (redirect)
 
-WORK only; not Record.
+**Moved.** Grace Gems and mountain homestead operating shelves now live under [`operations/`](../../operations/README.md):
 
-Loop output landing zone for recurring **business** operations. Loop definitions live under [`../loops/`](../loops/README.md).
+- [`operations/grace-gems/`](../../operations/grace-gems/README.md)
+- [`operations/mountain-homestead/`](../../operations/mountain-homestead/README.md)
 
-| Cluster | Shelf | Loops |
-| --- | --- | --- |
-| Grace Gems | [`grace-gems/`](grace-gems/README.md) | 6 loops — marketplace, pipeline, margin review, search/conversion, customer service, promise audit |
-| Mountain homestead | [`mountain-homestead/`](mountain-homestead/README.md) | 8 loops — ops, risk register, maintenance, wildfire, utilities, water, septic, seasonal readiness |
-
-Doctrine and playbooks for Grace Gems remain at [`docs/skill-work/work-business/grace-gems/`](../../docs/skill-work/work-business/grace-gems/README.md).
+Loop definitions remain at [`../loops/business/`](../loops/business/).

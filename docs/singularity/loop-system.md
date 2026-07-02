@@ -18,7 +18,7 @@ A **loop** is a recurring operational job with declared triggers, inputs, proces
 | Action cards | `singularity/action-cards/` | Dated work orders (WORK artifacts) |
 | Run receipts | `runtime/operator-events/singularity-loop-runs.jsonl` | Append-only loop execution history |
 | Output shelves | `singularity/notes/`, `essays/`, `synthesis/`, `workshop/` | Grandfathered interpretive holdings |
-| Operating shelves | `singularity/education/`, `singularity/business/` | Loop output cards and business/education artifacts |
+| Operating shelves | `singularity/education/`, `operations/` | Loop output cards and education/operations artifacts |
 | Domain signals | `singularity/workshop/longitudinal/innermost-loop-signals.json` | Innermost Loop coverage data (not orchestrator state) |
 
 New recurring work must declare a loop YAML. New interpretive artifacts should link to a producing loop when practical (via `output_shelves` on the loop or prose cross-links).
@@ -54,28 +54,28 @@ Action card standard: [action-card-standard.md](action-card-standard.md) · shel
 | `predictive-history-media-quality-gate` | projects | singularity/education/predictive-history/media-review/ |
 | `predictive-history-distribution-pack` | projects | singularity/education/predictive-history/distribution/ |
 | `predictive-history-learner-feedback-review` | projects | singularity/education/predictive-history/feedback/ |
-| `grace-gems-product-pipeline` | business | singularity/business/grace-gems/products/, listings/drafts/, listings/photo-checklists/ |
-| `grace-gems-margin-policy-review` | business | singularity/business/grace-gems/listings/review/ |
-| `grace-gems-marketplace-ops` | business | singularity/business/grace-gems/ops/ |
-| `grace-gems-search-conversion-review` | business | singularity/business/grace-gems/listings/search-conversion/ |
-| `grace-gems-customer-service` | business | singularity/business/grace-gems/customer-service/ |
-| `grace-gems-customer-promise-audit` | business | singularity/business/grace-gems/customer-service/promise-audits/ |
-| `mountain-homestead-ops` | business | singularity/business/mountain-homestead/ops/, ops/weekly-cards/ |
-| `mountain-homestead-risk-register` | business | singularity/business/mountain-homestead/risk-register/ |
-| `mountain-homestead-maintenance` | business | singularity/business/mountain-homestead/maintenance/ |
-| `mountain-homestead-wildfire-mitigation-review` | business | singularity/business/mountain-homestead/wildfire-mitigation/ |
-| `mountain-homestead-utilities-continuity` | business | singularity/business/mountain-homestead/utilities-continuity/ |
-| `mountain-homestead-water-systems-review` | business | singularity/business/mountain-homestead/water-systems/ |
-| `mountain-homestead-septic-review` | business | singularity/business/mountain-homestead/septic/ |
-| `mountain-homestead-seasonal-readiness` | business | singularity/business/mountain-homestead/seasonal-readiness/ |
+| `grace-gems-product-pipeline` | business | operations/grace-gems/products/, listings/drafts/, listings/photo-checklists/ |
+| `grace-gems-margin-policy-review` | business | operations/grace-gems/listings/review/ |
+| `grace-gems-marketplace-ops` | business | operations/grace-gems/ops/ |
+| `grace-gems-search-conversion-review` | business | operations/grace-gems/listings/search-conversion/ |
+| `grace-gems-customer-service` | business | operations/grace-gems/customer-service/ |
+| `grace-gems-customer-promise-audit` | business | operations/grace-gems/customer-service/promise-audits/ |
+| `mountain-homestead-ops` | business | operations/mountain-homestead/ops/, ops/weekly-cards/ |
+| `mountain-homestead-risk-register` | business | operations/mountain-homestead/risk-register/ |
+| `mountain-homestead-maintenance` | business | operations/mountain-homestead/maintenance/ |
+| `mountain-homestead-wildfire-mitigation-review` | business | operations/mountain-homestead/wildfire-mitigation/ |
+| `mountain-homestead-utilities-continuity` | business | operations/mountain-homestead/utilities-continuity/ |
+| `mountain-homestead-water-systems-review` | business | operations/mountain-homestead/water-systems/ |
+| `mountain-homestead-septic-review` | business | operations/mountain-homestead/septic/ |
+| `mountain-homestead-seasonal-readiness` | business | operations/mountain-homestead/seasonal-readiness/ |
 
 **Hard dependencies (Grace Gems):** `grace-gems-product-pipeline` → `grace-gems-margin-policy-review`; `grace-gems-marketplace-ops` → `grace-gems-search-conversion-review`; `grace-gems-customer-service` → `grace-gems-customer-promise-audit`.
 
 **Hard dependencies (homestead):** `mountain-homestead-ops` → `mountain-homestead-maintenance` → `mountain-homestead-seasonal-readiness`; `mountain-homestead-ops` → `mountain-homestead-risk-register`; `mountain-homestead-ops` → `mountain-homestead-water-systems-review`; `mountain-homestead-maintenance` → wildfire-mitigation-review, utilities-continuity, septic-review.
 
-**Soft feeds (homestead):** risk-register → ops (top 5 actions); utilities-continuity → ops; wildfire/water/septic → maintenance; risk/wildfire/continuity → seasonal-readiness. Full graph: [`singularity/business/mountain-homestead/README.md`](../../singularity/business/mountain-homestead/README.md).
+**Soft feeds (homestead):** risk-register → ops (top 5 actions); utilities-continuity → ops; wildfire/water/septic → maintenance; risk/wildfire/continuity → seasonal-readiness. Full graph: [`operations/mountain-homestead/README.md`](../../operations/mountain-homestead/README.md).
 
-**Soft feeds (Grace Gems):** margin-policy-review → marketplace-ops (approved listings); search-conversion-review → product-pipeline (experiments); customer-promise-audit → margin-policy-review (corrections); customer-service → marketplace-ops (unresolved issues). Full graph: [`singularity/business/grace-gems/README.md`](../../singularity/business/grace-gems/README.md).
+**Soft feeds (Grace Gems):** margin-policy-review → marketplace-ops (approved listings); search-conversion-review → product-pipeline (experiments); customer-promise-audit → margin-policy-review (corrections); customer-service → marketplace-ops (unresolved issues). Full graph: [`operations/grace-gems/README.md`](../../operations/grace-gems/README.md).
 
 **Hard dependencies (Predictive History education):** `predictive-history-education` → `predictive-history-lesson-pipeline` → `predictive-history-media-pack` → `predictive-history-media-quality-gate` → `predictive-history-distribution-pack` → `predictive-history-learner-feedback-review`.
 

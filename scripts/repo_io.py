@@ -88,6 +88,7 @@ TARGET_ROOT_FOLDERS: frozenset[str] = frozenset(
         "docs",
         "essays",
         "examples",
+        "operations",
         "platform",
         "public",
         "research",
@@ -134,6 +135,8 @@ REPO_PATH_MIGRATIONS: dict[str, tuple[str, ...]] = {
     "bootstrap": ("archive/grace-mar-instance/bootstrap",),
     "grace-mar-instance": ("archive/grace-mar-instance",),
     "codex": ("continuity", "codex"),
+    "singularity/business/grace-gems": ("operations/grace-gems",),
+    "singularity/business/mountain-homestead": ("operations/mountain-homestead",),
 }
 
 GRACE_MAR_INSTANCE_DIR = REPO_ROOT / "archive" / "grace-mar-instance"

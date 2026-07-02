@@ -7,7 +7,7 @@ loop:
     description: Monthly risk register update for the 5-acre Pine, Colorado mountain homestead business asset
   inputs:
     - description: Weekly ops cards, maintenance backlog, wildfire mitigation notes, utilities continuity notes, water and septic status, access issues, weather outlook, and insurance concerns
-    - description: Risk scoring model and template at singularity/business/mountain-homestead/risk-register/risk-register-template.md and STRATEGIC-PLAN.md
+    - description: Risk scoring model and template at operations/mountain-homestead/risk-register/risk-register-template.md and STRATEGIC-PLAN.md
   process:
     steps:
       - description: Score each risk by consequence, likelihood, urgency, and cost-to-reduce
@@ -24,4 +24,4 @@ loop:
     - loop_id: mountain-homestead-ops
   last_run: null
   output_shelves:
-    - singularity/business/mountain-homestead/risk-register/
+    - operations/mountain-homestead/risk-register/

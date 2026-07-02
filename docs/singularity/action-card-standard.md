@@ -27,8 +27,8 @@ Use quoted dates in YAML frontmatter (`date: "2026-07-01"`) so validators receiv
 Domain-specific action cards may also be mirrored or linked from loop output shelves, for example:
 
 ```text
-singularity/business/grace-gems/listings/review/
-singularity/business/mountain-homestead/risk-register/
+operations/grace-gems/listings/review/
+operations/mountain-homestead/risk-register/
 ```
 
 The action-card index should point to canonical domain artifacts instead of duplicating large content.

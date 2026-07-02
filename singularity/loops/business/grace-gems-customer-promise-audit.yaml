@@ -7,7 +7,7 @@ loop:
     description: Weekly audit of Grace Gems listings for buyer expectation clarity and customer-service risk
   inputs:
     - description: Active listings, recent buyer messages, reviews, returns, and unresolved customer issues from grace-gems-customer-service
-    - description: Customer-promise checklist at singularity/business/grace-gems/customer-service/promise-audits/customer-promise-checklist.md
+    - description: Customer-promise checklist at operations/grace-gems/customer-service/promise-audits/customer-promise-checklist.md
   process:
     steps:
       - description: Identify listings that generated questions, confusion, delays, or expectation mismatches
@@ -24,4 +24,4 @@ loop:
     - loop_id: grace-gems-customer-service
   last_run: null
   output_shelves:
-    - singularity/business/grace-gems/customer-service/promise-audits/
+    - operations/grace-gems/customer-service/promise-audits/

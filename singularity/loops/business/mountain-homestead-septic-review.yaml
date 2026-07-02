@@ -7,7 +7,7 @@ loop:
     description: Annual septic system review and pump/inspection schedule check for the Pine, Colorado homestead
   inputs:
     - description: Septic inspection records, pump records, drainfield status, water-use changes, leak checks, and EPA septic care guidance
-    - description: Septic review checklist at singularity/business/mountain-homestead/septic/septic-review-checklist.md
+    - description: Septic review checklist at operations/mountain-homestead/septic/septic-review-checklist.md
   process:
     steps:
       - description: Confirm last inspection and next inspection due date
@@ -24,4 +24,4 @@ loop:
     - loop_id: mountain-homestead-maintenance
   last_run: null
   output_shelves:
-    - singularity/business/mountain-homestead/septic/
+    - operations/mountain-homestead/septic/

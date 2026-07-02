@@ -18,7 +18,7 @@
           "description": "Active listings, recent buyer messages, reviews, returns, and unresolved customer issues from grace-gems-customer-service"
         },
         {
-          "description": "Customer-promise checklist at singularity/business/grace-gems/customer-service/promise-audits/customer-promise-checklist.md"
+          "description": "Customer-promise checklist at operations/grace-gems/customer-service/promise-audits/customer-promise-checklist.md"
         }
       ],
       "process": {
@@ -58,7 +58,7 @@
       ],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/grace-gems/customer-service/promise-audits/"
+        "operations/grace-gems/customer-service/promise-audits/"
       ],
       "source_file": "singularity/loops/business/grace-gems-customer-promise-audit.yaml"
     },
@@ -74,10 +74,10 @@
           "description": "Buyer messages, reviews, order records, shipping status, and shop policies for GraceGemsUS and GioielloHandcrafted"
         },
         {
-          "description": "Approved response templates from docs/skill-work/work-business/grace-gems/ and singularity/business/grace-gems/customer-service/templates/"
+          "description": "Approved response templates from docs/skill-work/work-business/grace-gems/ and operations/grace-gems/customer-service/templates/"
         },
         {
-          "description": "Customer-promise checklist at singularity/business/grace-gems/customer-service/promise-audits/customer-promise-checklist.md"
+          "description": "Customer-promise checklist at operations/grace-gems/customer-service/promise-audits/customer-promise-checklist.md"
         }
       ],
       "process": {
@@ -122,7 +122,7 @@
       "dependencies": [],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/grace-gems/customer-service/"
+        "operations/grace-gems/customer-service/"
       ],
       "source_file": "singularity/loops/business/grace-gems-customer-service.yaml"
     },
@@ -135,10 +135,10 @@
       },
       "inputs": [
         {
-          "description": "Draft listing, photos, materials cost, labor estimate, shipping assumptions, and target shop (GraceGemsUS or GioielloHandcrafted) from singularity/business/grace-gems/listings/drafts/"
+          "description": "Draft listing, photos, materials cost, labor estimate, shipping assumptions, and target shop (GraceGemsUS or GioielloHandcrafted) from operations/grace-gems/listings/drafts/"
         },
         {
-          "description": "Etsy fee policy, Creativity Standards, and shop-specific customer promise rules from singularity/business/grace-gems/STRATEGIC-PLAN.md and listings/review/listing-review-template.md"
+          "description": "Etsy fee policy, Creativity Standards, and shop-specific customer promise rules from operations/grace-gems/STRATEGIC-PLAN.md and listings/review/listing-review-template.md"
         },
         {
           "description": "Dual-shop routing fields (target_shop, buyer_intent, price_band, customization_level, brand_fit_score)"
@@ -187,7 +187,7 @@
       ],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/grace-gems/listings/review/"
+        "operations/grace-gems/listings/review/"
       ],
       "source_file": "singularity/loops/business/grace-gems-margin-policy-review.yaml"
     },
@@ -207,13 +207,13 @@
           "description": "Current product catalog and pricing sheet"
         },
         {
-          "description": "Approved listings and publish decisions from singularity/business/grace-gems/listings/review/ (grace-gems-margin-policy-review output)"
+          "description": "Approved listings and publish decisions from operations/grace-gems/listings/review/ (grace-gems-margin-policy-review output)"
         },
         {
           "description": "Search-conversion experiment queue from grace-gems-search-conversion-review (soft feed)"
         },
         {
-          "description": "Customer service queue and open issues from grace-gems-customer-service (soft feed; see singularity/business/grace-gems/README.md)"
+          "description": "Customer service queue and open issues from grace-gems-customer-service (soft feed; see operations/grace-gems/README.md)"
         },
         {
           "description": "Doctrine and playbooks at docs/skill-work/work-business/grace-gems/ (monthly review, workflow reminders)"
@@ -258,7 +258,7 @@
       "dependencies": [],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/grace-gems/ops/"
+        "operations/grace-gems/ops/"
       ],
       "source_file": "singularity/loops/business/grace-gems-marketplace-ops.yaml"
     },
@@ -284,7 +284,7 @@
           "description": "Business context at docs/skill-work/work-business/grace-gems/ (not loop output SSOT)"
         },
         {
-          "description": "Strategic positioning at singularity/business/grace-gems/STRATEGIC-PLAN.md (custom natural gemstone center; lab-grown only with clear promise)"
+          "description": "Strategic positioning at operations/grace-gems/STRATEGIC-PLAN.md (custom natural gemstone center; lab-grown only with clear promise)"
         },
         {
           "description": "Search-conversion experiment queue from grace-gems-search-conversion-review (soft feed)"
@@ -326,9 +326,9 @@
       "dependencies": [],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/grace-gems/products/",
-        "singularity/business/grace-gems/listings/drafts/",
-        "singularity/business/grace-gems/listings/photo-checklists/"
+        "operations/grace-gems/products/",
+        "operations/grace-gems/listings/drafts/",
+        "operations/grace-gems/listings/photo-checklists/"
       ],
       "source_file": "singularity/loops/business/grace-gems-product-pipeline.yaml"
     },
@@ -348,7 +348,7 @@
           "description": "Active listing titles, tags, categories, attributes, photos, and descriptions"
         },
         {
-          "description": "Listing quality score rubric at singularity/business/grace-gems/listings/search-conversion/listing-quality-score.md"
+          "description": "Listing quality score rubric at operations/grace-gems/listings/search-conversion/listing-quality-score.md"
         }
       ],
       "process": {
@@ -391,7 +391,7 @@
       ],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/grace-gems/listings/search-conversion/"
+        "operations/grace-gems/listings/search-conversion/"
       ],
       "source_file": "singularity/loops/business/grace-gems-search-conversion-review.yaml"
     },
@@ -616,10 +616,10 @@
       ],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/mountain-homestead/maintenance/",
-        "singularity/business/mountain-homestead/maintenance/monthly-reports/",
-        "singularity/business/mountain-homestead/maintenance/repair-backlog/",
-        "singularity/business/mountain-homestead/maintenance/contractors/"
+        "operations/mountain-homestead/maintenance/",
+        "operations/mountain-homestead/maintenance/monthly-reports/",
+        "operations/mountain-homestead/maintenance/repair-backlog/",
+        "operations/mountain-homestead/maintenance/contractors/"
       ],
       "source_file": "singularity/loops/business/mountain-homestead-maintenance.yaml"
     },
@@ -642,10 +642,10 @@
           "description": "Utilities continuity gaps from mountain-homestead-utilities-continuity (soft feed)"
         },
         {
-          "description": "Access readiness checklist at singularity/business/mountain-homestead/access/access-readiness-checklist.md (monthly in winter/fire season)"
+          "description": "Access readiness checklist at operations/mountain-homestead/access/access-readiness-checklist.md (monthly in winter/fire season)"
         },
         {
-          "description": "Strategic context at singularity/business/mountain-homestead/STRATEGIC-PLAN.md"
+          "description": "Strategic context at operations/mountain-homestead/STRATEGIC-PLAN.md"
         },
         {
           "description": "Known constraints such as travel, family schedule, budget, contractors, seasonal access, and revenue opportunities"
@@ -690,8 +690,8 @@
       "dependencies": [],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/mountain-homestead/ops/",
-        "singularity/business/mountain-homestead/ops/weekly-cards/"
+        "operations/mountain-homestead/ops/",
+        "operations/mountain-homestead/ops/weekly-cards/"
       ],
       "source_file": "singularity/loops/business/mountain-homestead-ops.yaml"
     },
@@ -708,7 +708,7 @@
           "description": "Weekly ops cards, maintenance backlog, wildfire mitigation notes, utilities continuity notes, water and septic status, access issues, weather outlook, and insurance concerns"
         },
         {
-          "description": "Risk scoring model and template at singularity/business/mountain-homestead/risk-register/risk-register-template.md and STRATEGIC-PLAN.md"
+          "description": "Risk scoring model and template at operations/mountain-homestead/risk-register/risk-register-template.md and STRATEGIC-PLAN.md"
         }
       ],
       "process": {
@@ -748,7 +748,7 @@
       ],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/mountain-homestead/risk-register/"
+        "operations/mountain-homestead/risk-register/"
       ],
       "source_file": "singularity/loops/business/mountain-homestead-risk-register.yaml"
     },
@@ -817,12 +817,12 @@
       ],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/mountain-homestead/seasonal-readiness/",
-        "singularity/business/mountain-homestead/seasonal-readiness/winter/",
-        "singularity/business/mountain-homestead/seasonal-readiness/spring-melt/",
-        "singularity/business/mountain-homestead/seasonal-readiness/wildfire-season/",
-        "singularity/business/mountain-homestead/seasonal-readiness/mud-season/",
-        "singularity/business/mountain-homestead/seasonal-readiness/post-season-lessons/"
+        "operations/mountain-homestead/seasonal-readiness/",
+        "operations/mountain-homestead/seasonal-readiness/winter/",
+        "operations/mountain-homestead/seasonal-readiness/spring-melt/",
+        "operations/mountain-homestead/seasonal-readiness/wildfire-season/",
+        "operations/mountain-homestead/seasonal-readiness/mud-season/",
+        "operations/mountain-homestead/seasonal-readiness/post-season-lessons/"
       ],
       "source_file": "singularity/loops/business/mountain-homestead-seasonal-readiness.yaml"
     },
@@ -839,7 +839,7 @@
           "description": "Septic inspection records, pump records, drainfield status, water-use changes, leak checks, and EPA septic care guidance"
         },
         {
-          "description": "Septic review checklist at singularity/business/mountain-homestead/septic/septic-review-checklist.md"
+          "description": "Septic review checklist at operations/mountain-homestead/septic/septic-review-checklist.md"
         }
       ],
       "process": {
@@ -879,7 +879,7 @@
       ],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/mountain-homestead/septic/"
+        "operations/mountain-homestead/septic/"
       ],
       "source_file": "singularity/loops/business/mountain-homestead-septic-review.yaml"
     },
@@ -896,7 +896,7 @@
           "description": "Generator or backup power status, fuel levels, heat sources, well pump dependency, internet/communications backup, freeze-protection notes, and outage history"
         },
         {
-          "description": "Seasonal weather outlook, maintenance backlog, and 72-hour continuity card at singularity/business/mountain-homestead/utilities-continuity/"
+          "description": "Seasonal weather outlook, maintenance backlog, and 72-hour continuity card at operations/mountain-homestead/utilities-continuity/"
         }
       ],
       "process": {
@@ -939,7 +939,7 @@
       ],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/mountain-homestead/utilities-continuity/"
+        "operations/mountain-homestead/utilities-continuity/"
       ],
       "source_file": "singularity/loops/business/mountain-homestead-utilities-continuity.yaml"
     },
@@ -956,7 +956,7 @@
           "description": "Well records, water-test history, filtration system notes, pressure tank condition, pump status, freeze-risk notes, stored water, and emergency water plan"
         },
         {
-          "description": "EPA private well guidance, water-system checklist at singularity/business/mountain-homestead/water-systems/water-system-checklist.md"
+          "description": "EPA private well guidance, water-system checklist at operations/mountain-homestead/water-systems/water-system-checklist.md"
         }
       ],
       "process": {
@@ -996,7 +996,7 @@
       ],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/mountain-homestead/water-systems/"
+        "operations/mountain-homestead/water-systems/"
       ],
       "source_file": "singularity/loops/business/mountain-homestead-water-systems-review.yaml"
     },
@@ -1013,7 +1013,7 @@
           "description": "Current home ignition zone status, structure list, defensible-space notes, roof/gutter/deck debris status, vent/fence/siding condition, slash piles, and local fire restrictions"
         },
         {
-          "description": "Colorado State Forest Service guidance, local fire district recommendations, prior mitigation receipts, and mitigation-proof template at singularity/business/mountain-homestead/wildfire-mitigation/"
+          "description": "Colorado State Forest Service guidance, local fire district recommendations, prior mitigation receipts, and mitigation-proof template at operations/mountain-homestead/wildfire-mitigation/"
         }
       ],
       "process": {
@@ -1059,7 +1059,7 @@
       ],
       "last_run": null,
       "output_shelves": [
-        "singularity/business/mountain-homestead/wildfire-mitigation/"
+        "operations/mountain-homestead/wildfire-mitigation/"
       ],
       "source_file": "singularity/loops/business/mountain-homestead-wildfire-mitigation-review.yaml"
     },

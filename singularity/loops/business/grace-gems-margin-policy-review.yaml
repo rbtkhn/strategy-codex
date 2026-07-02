@@ -5,8 +5,8 @@ loop:
     type: event
     description: New or revised Grace Gems listing requires margin, fee, originality, and policy review before publication or promotion
   inputs:
-    - description: Draft listing, photos, materials cost, labor estimate, shipping assumptions, and target shop (GraceGemsUS or GioielloHandcrafted) from singularity/business/grace-gems/listings/drafts/
-    - description: Etsy fee policy, Creativity Standards, and shop-specific customer promise rules from singularity/business/grace-gems/STRATEGIC-PLAN.md and listings/review/listing-review-template.md
+    - description: Draft listing, photos, materials cost, labor estimate, shipping assumptions, and target shop (GraceGemsUS or GioielloHandcrafted) from operations/grace-gems/listings/drafts/
+    - description: Etsy fee policy, Creativity Standards, and shop-specific customer promise rules from operations/grace-gems/STRATEGIC-PLAN.md and listings/review/listing-review-template.md
     - description: Dual-shop routing fields (target_shop, buyer_intent, price_band, customization_level, brand_fit_score)
   process:
     steps:
@@ -26,4 +26,4 @@ loop:
     - loop_id: grace-gems-product-pipeline
   last_run: null
   output_shelves:
-    - singularity/business/grace-gems/listings/review/
+    - operations/grace-gems/listings/review/

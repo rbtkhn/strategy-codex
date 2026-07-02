@@ -28,9 +28,9 @@ loop:
     - loop_id: mountain-homestead-maintenance
   last_run: null
   output_shelves:
-    - singularity/business/mountain-homestead/seasonal-readiness/
-    - singularity/business/mountain-homestead/seasonal-readiness/winter/
-    - singularity/business/mountain-homestead/seasonal-readiness/spring-melt/
-    - singularity/business/mountain-homestead/seasonal-readiness/wildfire-season/
-    - singularity/business/mountain-homestead/seasonal-readiness/mud-season/
-    - singularity/business/mountain-homestead/seasonal-readiness/post-season-lessons/
+    - operations/mountain-homestead/seasonal-readiness/
+    - operations/mountain-homestead/seasonal-readiness/winter/
+    - operations/mountain-homestead/seasonal-readiness/spring-melt/
+    - operations/mountain-homestead/seasonal-readiness/wildfire-season/
+    - operations/mountain-homestead/seasonal-readiness/mud-season/
+    - operations/mountain-homestead/seasonal-readiness/post-season-lessons/

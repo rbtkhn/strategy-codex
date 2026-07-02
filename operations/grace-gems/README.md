@@ -38,7 +38,7 @@ product idea → listing draft → margin + policy review → publish / revise /
 
 **Templates:** [`listings/review/listing-review-template.md`](listings/review/listing-review-template.md) · [`listings/search-conversion/listing-quality-score.md`](listings/search-conversion/listing-quality-score.md) · [`customer-service/promise-audits/customer-promise-checklist.md`](customer-service/promise-audits/customer-promise-checklist.md)
 
-**Action cards:** [`../../action-cards/grace-gems-margin-policy-review/`](../../action-cards/grace-gems-margin-policy-review/) · [standard](../../../docs/singularity/action-card-standard.md)
+**Action cards:** [`../../singularity/action-cards/grace-gems-margin-policy-review/`](../../singularity/action-cards/grace-gems-margin-policy-review/) · [standard](../../docs/singularity/action-card-standard.md)
 
 ## Hard dependencies
 
