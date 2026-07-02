@@ -4,19 +4,20 @@
 
 | Field | Value |
 |-------|--------|
-| **Project status** | `active` |
-| **Active focus** | Strategy notebook daily synthesis + expert thread corpus |
-| **Last substantive entry** | see [../../continuity/STATUS.md](../../../continuity/STATUS.md) for notebook edge |
-| **Primary skill** | `.cursor/skills/skill-strategy/SKILL.md` |
+| **Project status** | `legacy-compat` |
+| **Active focus** | Compat holding surface — routing docs, operator books, frozen notebook namespace |
+| **Last substantive entry** | see [continuity/STATUS.md](../../../continuity/STATUS.md) for notebook edge |
+| **Primary entry** | [DEFAULT-PATH.md](DEFAULT-PATH.md) + [`.cursor/rules/strategy-codex-pass.mdc`](../../../.cursor/rules/strategy-codex-pass.mdc) — `skill-strategy` skill dissolved |
 
 ## Key surfaces
 
 | Surface | Role |
 |---------|------|
-| [../../continuity/](../../../codex) | Primary judgment surface — daily entries, knots, expert threads |
+| [statecraft/](../../../statecraft/README.md) | Canonical live judgment surface |
+| [continuity/](../../../continuity/README.md) | Chronology, inbox, days.md, thread machinery |
 | [STRATEGY.md](STRATEGY.md) | Promoted strategy (stable arcs only) |
-| [daily-brief-*.md](.) | Generated daily briefs |
-| [minds/](minds/) | Tri-frame mind working copies |
+| [daily-briefs archive](../../../archive/skill-work-legacy/daily-briefs/) | Archived `daily-brief-2026-*.md` (2026-07-02); new output per [daily-brief-template.md](daily-brief-template.md) |
+| [minds/](minds/) | Legacy tri-frame mind working copies — [VOICES-SUPERSEDE-MINDS.md](VOICES-SUPERSEDE-MINDS.md) |
 | [work-strategy-rome/](work-strategy-rome/) | Rome-pass rolling seam |
 
 ## Next actions

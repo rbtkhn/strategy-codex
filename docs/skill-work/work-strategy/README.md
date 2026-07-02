@@ -228,6 +228,8 @@ Quick index for **Capture**-adjacent surfaces: **narrative register**, **Grok-st
 
 **Output name:** `docs/skill-work/work-strategy/daily-brief-YYYY-MM-DD.md` (example: `daily-brief-2026-03-29.md`). See [daily-brief-template.md](daily-brief-template.md).
 
+**Archived briefs (2026-03 through 2026-05):** dated `daily-brief-2026-*.md` files moved to [`docs/archive/skill-work-legacy/daily-briefs/`](../../../archive/skill-work-legacy/daily-briefs/) (2026-07-02 hygiene). New generator output still lands here unless a later pass changes the path.
+
 **Template SSOT (single source of truth):** [daily-brief-template.md](daily-brief-template.md) is the **authoritative** spec for the combined generator output. [work-politics/daily-brief-template.md](../work-politics/daily-brief-template.md) is a **compatibility pointer** (same content as a stubâ€”do not duplicate the full spec there). [work-template/daily-brief-template.md](../work-template/daily-brief-template.md) is the **cross-lane semantic** scaffold; its numbered mapping points back here.
 
 ### Regenerate a dated brief without losing post-process tails
