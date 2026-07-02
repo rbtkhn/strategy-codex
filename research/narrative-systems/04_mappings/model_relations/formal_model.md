@@ -34,7 +34,7 @@ Legacy notation in NST [formal_model.md](../../02_narrative_systems/formal_model
 
 ## 4.1 P : H → 𝔈
 
-**P** — [predictive-history](../../03_core_models/predictive_history/README.md) as candidate functor.
+**P** — [predictive-history](../../../predictive-history/README.md) as candidate functor.
 
 - Anchored to a **completed, delivered lecture series** (Geo-Strategy classroom corpus; external [rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history))
 - strategy-codex holds a **mixed overlay** — describes P's functor role without forcing one historiographical school

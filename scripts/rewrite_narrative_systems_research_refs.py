@@ -15,12 +15,16 @@ SUBSTITUTIONS: list[tuple[str, str]] = [
         "research/narrative-systems/04_mappings/model_relations/",
     ),
     (
+        "research/narrative-systems/03_core_models/predictive_history/",
+        "research/predictive-history/",
+    ),
+    (
         "singularity/research/epistemic-geometry/",
         "research/narrative-systems/05_geometric_lenses/epistemic_geometry/",
     ),
     (
         "singularity/research/predictive-history/",
-        "research/narrative-systems/03_core_models/predictive_history/",
+        "research/predictive-history/",
     ),
     (
         "singularity/research/civilization-state/",
@@ -32,15 +36,14 @@ SUBSTITUTIONS: list[tuple[str, str]] = [
     ),
     ("singularity/research/", "research/narrative-systems/"),
     ("../epistemic-geometry/", "../05_geometric_lenses/epistemic_geometry/"),
-    ("../predictive-history/", "../03_core_models/predictive_history/"),
     ("../civilization-state/", "../03_core_models/civilization_state/"),
-    ("../../predictive-history/", "../../03_core_models/predictive_history/"),
     ("../../epistemic-geometry/", "../../05_geometric_lenses/epistemic_geometry/"),
     ("../../civilization-state/", "../../03_core_models/civilization_state/"),
 ]
 
 SCAN_ROOTS: tuple[Path, ...] = (
     REPO_ROOT / "research" / "narrative-systems",
+    REPO_ROOT / "research" / "predictive-history",
     REPO_ROOT / "singularity",
     REPO_ROOT / "docs",
     REPO_ROOT / "continuity",

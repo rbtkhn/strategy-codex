@@ -39,7 +39,7 @@ Uses synthetic runs for:
 - **Counterfactual baselines** — "what if alliance had held?" scenario branches
 - **Calibration targets** — distribution of conflict_density, stability under known rule sets
 
-**Non-modification constraint:** This module does **not** modify the external [predictive-history](https://github.com/rbtkhn/predictive-history) repo. Same boundary as [predictive-history/README.md](../03_core_models/predictive_history/README.md) — interpretive overlay only.
+**Non-modification constraint:** This module does **not** modify the external [predictive-history](https://github.com/rbtkhn/predictive-history) repo. Same boundary as [predictive-history/README.md](../../../predictive-history/README.md) — interpretive overlay only.
 
 Canonical PH homes (do not duplicate):
 
@@ -47,7 +47,7 @@ Canonical PH homes (do not duplicate):
 | --- | --- |
 | External repo | [rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history) |
 | Inbound mirror | [`public/predictive-history/`](../../../../public/predictive-history/) |
-| Research overlay | [`research/narrative-systems/03_core_models/predictive_history/`](../03_core_models/predictive_history/README.md) |
+| Research overlay | [`research/predictive-history/`](../../../predictive-history/README.md) |
 
 ---
 

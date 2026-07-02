@@ -30,7 +30,7 @@ Recurring work is declared as **loops** under [`singularity/loops/`](loops/READM
 
 ## Research
 
-WIP formal and theoretical frameworks (non-operational, not loop SSOT): [research/narrative-systems/](../research/narrative-systems/README.md) — [Epistemic Geometry](../research/narrative-systems/05_geometric_lenses/epistemic_geometry/README.md), [Predictive History](../research/narrative-systems/03_core_models/predictive_history/README.md), [Narrative Systems (NST)](../research/narrative-systems/02_narrative_systems/category_definition.md), [Civilization State](../research/narrative-systems/03_core_models/civilization_state/README.md).
+WIP formal and theoretical frameworks (non-operational, not loop SSOT): [research/narrative-systems/](../research/narrative-systems/README.md) — [Epistemic Geometry](../research/narrative-systems/05_geometric_lenses/epistemic_geometry/README.md), [Predictive History](../research/predictive-history/README.md), [Narrative Systems (NST)](../research/narrative-systems/02_narrative_systems/category_definition.md), [Civilization State](../research/narrative-systems/03_core_models/civilization_state/README.md).
 
 ## Boundary
 

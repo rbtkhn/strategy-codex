@@ -14,7 +14,7 @@ Research scaffold — sub-layer of [Narrative Systems (NST)](../../README.md). N
 
 **History (H)** is mapped into **Epistemic Geometry (EG = 𝔈)** via two **parallel candidate functors**:
 
-- **P** — [predictive-history](../../03_core_models/predictive_history/README.md)
+- **P** — [predictive-history](../../../predictive-history/README.md)
 - **C** — [civilization-state](../../03_core_models/civilization_state/README.md)
 
 The relationship **Rel(P,C) ∈ ℛ** is an **open research object** — not assumed equivalent, incompatible, hierarchical, or redundant.
