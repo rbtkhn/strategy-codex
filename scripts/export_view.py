@@ -14,9 +14,14 @@ See docs/privacy-redaction.md for what each view excludes.
 
 import argparse
 import re
+import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+_SCRIPTS = REPO_ROOT / "scripts"
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from repo_io import SKILL_SPLIT_NAMES, resolve_skill_split_path
 
 def _read(path: Path) -> str:
     if not path.exists():
@@ -52,8 +57,10 @@ def export_view(user_id: str, view: str) -> str:
     profile_dir = REPO_ROOT / "platform/users" / user_id
     self_path = profile_dir / "self.md"
     skills_content = "\n".join(
-        _read(profile_dir / p)
-        for p in ["skills.md", "skill-think.md", "skill-write.md", "skill-steward.md"]
+        [
+            _read(profile_dir / "skills.md"),
+            *(_read(resolve_skill_split_path(p, profile_dir)) for p in SKILL_SPLIT_NAMES),
+        ]
     )
     self_raw = _read(self_path)
 

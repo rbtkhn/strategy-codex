@@ -22,7 +22,7 @@ def _run(name: str, *args: str) -> subprocess.CompletedProcess[str]:
 
 def test_validate_think_claims() -> None:
     pytest.importorskip("jsonschema")
-    cp = _run("validate_think_claims.py", "--skill-think-md", "skill-think.md")
+    cp = _run("validate_think_claims.py", "--skill-think-md", "continuity/skill-think.md")
     assert cp.returncode == 0, cp.stderr
 
 def test_build_think_observability() -> None:

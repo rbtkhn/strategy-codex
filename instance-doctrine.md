@@ -136,8 +136,9 @@ repo-root/
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ instance-doctrine.md  # Instance-specific operating rules (Layer 2)
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self.md             # Identity + three-dimension mind
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-skills.md      # Capability index (Claims, Gaps, Struggles, Milestones); legacy `skills.md` resolved until migrated
-        Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ skill-think.md      # THINK container (repo-specific root filename; conceptual label: self-skill-think)
-        Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ skill-write.md      # WRITE container (repo-specific root filename; conceptual label: self-skill-write)
+        Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ continuity/skill-think.md   # THINK container (conceptual label: self-skill-think)
+        Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ continuity/skill-write.md   # WRITE container (conceptual label: self-skill-write)
+        Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ continuity/skill-steward.md # STEWARD container (conceptual label: self-skill-steward)
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ continuity/predictive-history/README-operator.md        # work Ã¢â‚¬” Jiang project
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-archive.md          # EVIDENCE Ã¢â‚¬” activity log + Ã‚§ VIII gated approved
         Ã¢”Å“Ã¢”â‚¬Ã¢”â‚¬ self-evidence.md         # optional compatibility pointer (canonical body is self-archive.md)

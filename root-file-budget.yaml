@@ -1,8 +1,8 @@
 # Root file budget — inventory + allowlist for scripts/assert_root_file_budget.py
 # Authority: work (governance). Target: max_root_files after relocation passes (Phase 9 fail).
-# Doctrine floor (2026-06-21): 25 skill/build/routing — +1 for memory.md continuity SSOT (2026-06-26).
+# Doctrine floor (2026-07-02): skill splits relocated to continuity/ — 23 root files.
 schema_version: "1.0"
-max_root_files: 26
+max_root_files: 23
 
 categories:
   required_public: Public / onboarding surfaces
@@ -64,16 +64,6 @@ files:
   - path: LLM-ROUTING.md
     category: generated
     generator: scripts/generate_llm_routing.py
-
-  - path: skill-think.md
-    category: compatibility
-    relocation_target: continuity/skill-think.md
-  - path: skill-write.md
-    category: compatibility
-    relocation_target: continuity/skill-write.md
-  - path: skill-steward.md
-    category: compatibility
-    relocation_target: continuity/skill-steward.md
 
   - path: memory.md
     category: operator

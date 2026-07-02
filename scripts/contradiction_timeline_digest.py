@@ -18,9 +18,9 @@ import sys
 from pathlib import Path
 
 try:
-    from repo_io import REPO_ROOT, profile_dir, DEFAULT_USER_ID
+    from repo_io import REPO_ROOT, profile_dir, DEFAULT_USER_ID, resolve_skill_split_path
 except ImportError:
-    from scripts.repo_io import REPO_ROOT, profile_dir, DEFAULT_USER_ID
+    from scripts.repo_io import REPO_ROOT, profile_dir, DEFAULT_USER_ID, resolve_skill_split_path
 
 RECORD_FILES = (
     "self.md",
@@ -29,9 +29,7 @@ RECORD_FILES = (
     "self-library.md",
     "self-skills.md",
     "skills.md",  # legacy capability index
-    "skill-think.md",
-    "skill-write.md",
-    "skill-steward.md",
+    *("skill-think.md", "skill-write.md", "skill-steward.md"),
 )
 
 def _load_pipeline_events(user_dir: Path) -> list[dict]:
@@ -53,7 +51,10 @@ def _git_record_log(user_id: str, limit: int) -> list[tuple[str, str]]:
     user_root = profile_dir(user_id)
     rel = []
     for name in RECORD_FILES:
-        path = user_root / name
+        if name.startswith("skill-"):
+            path = resolve_skill_split_path(name, user_root)
+        else:
+            path = user_root / name
         try:
             rel.append(str(path.relative_to(REPO_ROOT)))
         except ValueError:

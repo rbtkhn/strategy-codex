@@ -7,7 +7,7 @@ Part of SKILLS. See [skill-write](skill-write.md), [work-jiang](work-jiang.md).
 
 **Doctrine:** THINK is the Record-bound skill container for intake, learning, and comprehension. It stores core capability first. Subject-specific sections are contextual overlays showing where THINK is being expressed. Goal-linked sections are interpretation overlays used by WORK for long-horizon planning.
 
-**Operator doctrine (hub):** [docs/skill-think/README.md](../../docs/skill-think/README.md).
+**Operator doctrine (hub):** [docs/skill-think/README.md](../docs/skill-think/README.md).
 
 ---
 

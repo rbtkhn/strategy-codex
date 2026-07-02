@@ -11,7 +11,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from repo_io import profile_dir, read_path, read_surface_markdown
+from repo_io import REPO_ROOT, profile_dir, read_path, read_surface_markdown, resolve_skill_split_path
 
 def _trunc(text: str, max_len: int) -> tuple[str, bool]:
     if max_len <= 0 or not text:
@@ -53,7 +53,8 @@ def load_record_slices_for_lesson(
     if not self_raw.strip():
         warnings.append("self.md missing or empty")
 
-    skill_think_raw = read_path(user_dir / "skill-think.md")
+    think_path = resolve_skill_split_path("skill-think.md", user_dir)
+    skill_think_raw = read_path(think_path)
     if not skill_think_raw.strip():
         warnings.append("skill-think.md missing or empty (edge/THINK context may be thin)")
 
@@ -90,7 +91,7 @@ def load_record_slices_for_lesson(
         "truncated": tr_self,
     }
     provenance["skill_think"] = {
-        "source": f"{user_id}/skill-think.md",
+        "source": str(think_path.relative_to(REPO_ROOT)),
         "char_count": len(s_think),
         "truncated": tr_think,
     }

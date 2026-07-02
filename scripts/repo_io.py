@@ -739,6 +739,18 @@ def resolve_surface_markdown_path(
             return p
     return canon
 
+SKILL_SPLIT_NAMES: tuple[str, ...] = (
+    "skill-think.md",
+    "skill-write.md",
+    "skill-steward.md",
+)
+
+def resolve_skill_split_path(name: str, user_dir: Path | None = None) -> Path:
+    """Profile-local override, then continuity/ canonical. No repo-root fallback."""
+    if user_dir is not None and (user_dir / name).is_file():
+        return user_dir / name
+    return REPO_ROOT / "continuity" / name
+
 def resolve_memory_path(user_dir: Path | None = None) -> Path:
     """Strategy-codex continuity buffer at repo-root memory.md."""
     root_mem = REPO_ROOT / "memory.md"

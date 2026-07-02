@@ -50,6 +50,25 @@ Grace-Mar is archived/frozen. Active strategy-codex work does not grow the fork.
 
 **OB1 / legacy fork onboarding:** [docs/start-here-ob1-users.md](docs/start-here-ob1-users.md)
 
+## Repository layout
+
+Root files are **budgeted and intentional** — **23** tracked files per [`root-file-budget.yaml`](root-file-budget.yaml) (strict CI). Do not add root files without updating the manifest.
+
+| Area | Path | Role |
+|------|------|------|
+| Agent contract | `AGENTS.md`, `instance-doctrine.md` | Always-on assistant guardrails |
+| Routing | `LLM-ROUTING.md`, `repo-map.yaml`, `lanes.yaml` | Human + machine discovery |
+| Continuity buffer | `memory.md` | Rotatable session buffer (not Record) |
+| Skill splits | [`continuity/skill-think.md`](continuity/skill-think.md), [`continuity/skill-write.md`](continuity/skill-write.md), [`continuity/skill-steward.md`](continuity/skill-steward.md) | Record-bound THINK / WRITE / STEWARD containers |
+| Live judgment | [`statecraft/`](statecraft/README.md) | Geopolitical / mechanism operator surface |
+| Chronology | [`continuity/`](continuity/README.md) | Notebook, inbox, days.md |
+| Acceleration | [`singularity/`](singularity/README.md) | Agency / substrate lane |
+| Evidence | [`source-archive/statecraft/`](source-archive/statecraft/README.md) | Verbatim captures |
+| Frozen / legacy | [`archive/`](archive/), [`docs/archive/`](docs/archive/) | Record bundle, compatibility |
+| Platform config | [`platform/config/`](platform/config/) | Runtime workers, budgets, routing |
+
+**Deep dives:** [docs/root-directory-map.md](docs/root-directory-map.md) · [docs/canonical-paths.md](docs/canonical-paths.md)
+
 ## Essays index — cross-channel theses {#essays-index}
 
 Stand-alone arguments that may span **statecraft and singularity** live at repo-root **`essays/`** (not channel `*/essays/` compatibility stubs). Bounded seams stay in [statecraft/notes/](statecraft/notes/README.md) or [singularity/notes/](singularity/notes/README.md). Class law: [docs/prose-index.md](docs/prose-index.md).
@@ -80,7 +99,7 @@ Model-portable harness (not a single-vendor stack): [docs/intelligence-harness.m
 
 **Promotion is governed, not ambient.** No artifact becomes more authoritative merely because it was summarized, reused, exported, or generated. Membrane SSOT: [docs/work-membrane-v2.md](docs/work-membrane-v2.md).
 
-**Repo layout:** [docs/root-directory-map.md](docs/root-directory-map.md) · **Paths:** [docs/canonical-paths.md](docs/canonical-paths.md) · **Export CLI:** [docs/EXPORT-CLI.md](docs/EXPORT-CLI.md) · **Contribute:** [contributing.md](contributing.md)
+**Repo layout:** see [Repository layout](#repository-layout) above · **Paths:** [docs/canonical-paths.md](docs/canonical-paths.md) · **Export CLI:** [docs/EXPORT-CLI.md](docs/EXPORT-CLI.md) · **Contribute:** [contributing.md](contributing.md)
 
 ## Quick Start — strategy-codex operator
 

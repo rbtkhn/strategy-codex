@@ -54,6 +54,7 @@ from repo_io import (
     DEFAULT_PROFILE_ID,
     profile_dir,
     resolve_prp_export_path,
+    resolve_skill_split_path,
     resolve_surface_markdown_path,
     self_skills_layout_warnings,
 )
@@ -396,9 +397,7 @@ def validate_skills_sections(user_dirs: list[Path]) -> list[str]:
         for marker in skills_markers:
             if marker not in content:
                 errors.append(f"{skills_path.relative_to(REPO_ROOT)} missing required section '{marker}'")
-        found = any((user_dir / f).exists() for f in skill_files) or any(
-            (REPO_ROOT / f).exists() for f in skill_files
-        )
+        found = any(resolve_skill_split_path(f, user_dir).is_file() for f in skill_files)
         if not found:
             errors.append(f"{user_dir.relative_to(REPO_ROOT)} missing at least one of {skill_files}")
     return errors
@@ -411,8 +410,7 @@ def validate_derived_exports(user_dirs: list[Path], user_id: str | None = None) 
         skills_path = resolve_surface_markdown_path(user_dir, "self_skills")
 
         def _skill_path(name: str) -> Path:
-            p = user_dir / name
-            return p if p.is_file() else REPO_ROOT / name
+            return resolve_skill_split_path(name, user_dir)
 
         source_paths = [
             user_dir / "self.md",
@@ -507,7 +505,7 @@ def validate_identity_capability_boundary(user_dirs: list[Path]) -> list[str]:
     errors: list[str] = []
     for user_dir in user_dirs:
         self_path = user_dir / "self.md"
-        skill_write_path = user_dir / "skill-write.md"
+        skill_write_path = resolve_skill_split_path("skill-write.md", user_dir)
         errors.extend(_pattern_hits(self_path, _safe_read(self_path), SELF_CAPABILITY_PATTERNS))
         errors.extend(_pattern_hits(skill_write_path, _safe_read(skill_write_path), WRITE_IDENTITY_PATTERNS))
     return errors

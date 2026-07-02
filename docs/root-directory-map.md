@@ -42,7 +42,7 @@ record_status: none
 | `templates` | Template manifests and styles (formerly root `styles/`) |
 | `tests` | Pytest suite |
 
-Plus **root files** (not counted in the cap): `AGENTS.md`, `LLM-ROUTING.md`, `pyproject.toml`, operator JSONL ledgers, skill split files (`skill-think.md`, …), etc.
+Plus **root files** (budgeted at **23** via [`root-file-budget.yaml`](../root-file-budget.yaml)): `AGENTS.md`, `LLM-ROUTING.md`, `pyproject.toml`, `memory.md`, lane manifests, etc. Skill split surfaces live under **`continuity/`** (`skill-think.md`, `skill-write.md`, `skill-steward.md`).
 
 **Retired paths (not root folders):**
 
@@ -153,7 +153,7 @@ GitHub `main` keeps **doctrine, build, deploy, and lane-governance** files at th
 | Doctrine / routing | `AGENTS.md`, `LLM-ROUTING.md`, `instance-doctrine.md`, `README.md` |
 | Build / deploy | `pyproject.toml`, `Dockerfile`, `requirements*.txt`, `render.yaml` |
 | Lane / template governance | `lanes.yaml`, `platform/template/template-manifest.json`, `platform/template/template-source.json` |
-| Skill split surfaces | `skill-think.md`, `skill-write.md`, `skill-steward.md` |
+| Skill split surfaces | `continuity/skill-think.md`, `continuity/skill-write.md`, `continuity/skill-steward.md` |
 
 | Nest under profile bundle | Examples |
 |---------------------------|----------|

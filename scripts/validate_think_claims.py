@@ -20,6 +20,12 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CLAIMS = REPO_ROOT / "runtime/artifacts/skill-think/think-claims.json"
 SCHEMA_PATH = REPO_ROOT / "schemas/skill_think/think_claims.schema.json"
+_SCRIPTS = REPO_ROOT / "scripts"
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from repo_io import resolve_skill_split_path
+
+DEFAULT_SKILL_THINK_MD = resolve_skill_split_path("skill-think.md")
 
 def _load_json_file(path: Path):
     return json.loads(path.read_text(encoding="utf-8-sig"))
@@ -34,8 +40,8 @@ def main() -> int:
     ap.add_argument(
         "--skill-think-md",
         type=Path,
-        default=None,
-        help="If set, warn when claim id not found as substring in this file",
+        default=DEFAULT_SKILL_THINK_MD,
+        help="Warn when claim id not found as substring in this file",
     )
     args = ap.parse_args()
 
