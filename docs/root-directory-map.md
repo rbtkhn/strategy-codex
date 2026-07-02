@@ -42,7 +42,7 @@ record_status: none
 | `templates` | Template manifests and styles (formerly root `styles/`) |
 | `tests` | Pytest suite |
 
-Plus **root files** (budgeted at **23** via [`root-file-budget.yaml`](../root-file-budget.yaml)): `AGENTS.md`, `LLM-ROUTING.md`, `pyproject.toml`, `memory.md`, lane manifests, etc. Skill split surfaces live under **`continuity/`** (`skill-think.md`, `skill-write.md`, `skill-steward.md`).
+Plus **root files** (23 on disk; **25** maximum via [`root-file-budget.yaml`](../root-file-budget.yaml)): `AGENTS.md`, `LLM-ROUTING.md`, `pyproject.toml`, `memory.md`, lane manifests, etc. Skill split surfaces live under **`continuity/`** (`skill-think.md`, `skill-write.md`, `skill-steward.md`).
 
 **Retired paths (not root folders):**
 

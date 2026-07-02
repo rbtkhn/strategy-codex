@@ -1,8 +1,8 @@
 # Root file budget — inventory + allowlist for scripts/assert_root_file_budget.py
-# Authority: work (governance). Target: max_root_files after relocation passes (Phase 9 fail).
-# Doctrine floor (2026-07-02): skill splits relocated to continuity/ — 23 root files.
+# Authority: work (governance). max_root_files = ceiling (not a target to shrink when files relocate).
+# Current on disk: 23 allowlisted files (2026-07-02 after skill splits → continuity/).
 schema_version: "1.0"
-max_root_files: 23
+max_root_files: 25
 
 categories:
   required_public: Public / onboarding surfaces

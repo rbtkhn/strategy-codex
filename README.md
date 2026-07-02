@@ -52,7 +52,7 @@ Grace-Mar is archived/frozen. Active strategy-codex work does not grow the fork.
 
 ## Repository layout
 
-Root files are **budgeted and intentional** — **23** tracked files per [`root-file-budget.yaml`](root-file-budget.yaml) (strict CI). Do not add root files without updating the manifest.
+Root files are **budgeted and intentional** — **23** on disk, **25** maximum per [`root-file-budget.yaml`](root-file-budget.yaml) (strict CI). The cap is a ceiling, not a fill target; do not add root files without updating the manifest.
 
 | Area | Path | Role |
 |------|------|------|
