@@ -44,6 +44,7 @@ Action card standard: [action-card-standard.md](action-card-standard.md) · shel
 | --- | --- | --- |
 | `innermost-loop-capture` | research | source-archive/singularity/innermost-loop/ |
 | `moonshots-synthesis-watch` | research | singularity/workshop/sheets/ |
+| `moonshots-intelligence-compile` | research | research/singularity-science/moonshots/ |
 | `singularity-monthly-synthesis` | research | singularity/synthesis/ |
 | `spine-health-check` | research | singularity/workshop/longitudinal/ |
 | `work-cici-daily-ops` | projects | singularity/work-cici/ |

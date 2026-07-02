@@ -47,11 +47,12 @@ NEW_OPERATING_LOOP_IDS = frozenset(
 
 def test_build_registry_shape() -> None:
     payload = lib.build_registry_payload()
-    assert len(payload["loops"]) == 25
+    assert len(payload["loops"]) == 26
     ids = {row["id"] for row in payload["loops"]}
     assert NEW_OPERATING_LOOP_IDS <= ids
     assert {
         "innermost-loop-capture",
+        "moonshots-intelligence-compile",
         "moonshots-synthesis-watch",
         "singularity-monthly-synthesis",
         "spine-health-check",

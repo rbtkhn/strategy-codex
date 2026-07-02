@@ -136,6 +136,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | mercouris-analytical-bench | routing_aid | work | [statecraft/voices/mercouris/mercouris-analytical-bench.md](statecraft/voices/mercouris/mercouris-analytical-bench.md) | Mercouris analytical bench, mercouris hinges, mercouris cross-weaves |
 | mercouris-index | source_index | work | [statecraft/voices/mercouris/mercouris-index.md](statecraft/voices/mercouris/mercouris-index.md) | Mercouris index, mercouris cross-host, Alexander Mercouris guest |
 | mercouris-source-index | source_index | work | [statecraft/voices/mercouris/mercouris-source-index.md](statecraft/voices/mercouris/mercouris-source-index.md) | Mercouris index, mercouris source index, mercouris source index compat |
+| moonshots-intelligence-pipeline | routing_aid | work | [research/singularity-science/moonshots/PIPELINE.md](research/singularity-science/moonshots/PIPELINE.md) | moonshots intelligence, compile moonshots, epistemic compiler moonshots, … |
 | moral-resistance-channel-index | source_index | work | [statecraft/channels/moral-resistance/moral-resistance-channel-index.md](statecraft/channels/moral-resistance/moral-resistance-channel-index.md) | Moral Resistance index, moral-resistance-channel-index, moral-resistance index |
 | moral-resistance-host-shelf | routing_aid | work | [statecraft/channels/moral-resistance/README.md](statecraft/channels/moral-resistance/README.md) | Moral Resistance host, moral-resistance profile |
 | moral-resistance-index | source_index | work | [statecraft/channels/moral-resistance/moral-resistance-index.md](statecraft/channels/moral-resistance/moral-resistance-index.md) | Moral Resistance index compat |
@@ -254,7 +255,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 - source indexes (disk): 32
 - host shelves (disk): 16
 - markdown links (INDEX + source-index files): 154
-- repo-map routes: 139 (canonical_reference=2, directory_index=1, essay=8, generated_dashboard=3, generated_inventory=3, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=27, source_capture=3, source_index=88)
+- repo-map routes: 140 (canonical_reference=2, directory_index=1, essay=8, generated_dashboard=3, generated_inventory=3, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=28, source_capture=3, source_index=88)
 - source_index routes in repo-map: 88
 - host_shelf routes in repo-map: 16
 - registry: INDEX lists 32/32, repo-map lists 29/32 (90.6% bijection when both match)

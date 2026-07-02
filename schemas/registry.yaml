@@ -96,3 +96,9 @@ schemas:
     applies_to: singularity/action-cards/*/**/*.md
     format: markdown_frontmatter
     scope: singularity
+
+  moonshots_intelligence:
+    path: schemas/singularity/moonshots-intelligence.schema.json
+    applies_to: research/singularity-science/moonshots/moonshots-*-intelligence.json
+    format: json
+    scope: singularity

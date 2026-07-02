@@ -6,6 +6,18 @@ Analysis workspace for the **Moonshots** podcast stream — structured research,
 
 **Seed:** [synthesis-research-frame.md](synthesis-research-frame.md)
 
+## Intelligence pipeline
+
+Compile archive transcripts → structured intelligence documents:
+
+| Artifact | Path |
+| --- | --- |
+| Pipeline spec | [PIPELINE.md](PIPELINE.md) |
+| Output template | [moonshots-intelligence-template.md](moonshots-intelligence-template.md) |
+| Compiler CLI | `python3 scripts/compile_moonshots_intelligence.py` |
+
+**Output naming:** `moonshots-ep-<N>-intelligence.{json,md}` when `episode_number` exists in archive frontmatter; else `moonshots-emerging-<slug>-intelligence.*`.
+
 ## Raw capture SSOT
 
 Verbatim transcripts live under [`source-archive/singularity/moonshots/`](../../../source-archive/singularity/moonshots/). Do not mirror full transcript text here.

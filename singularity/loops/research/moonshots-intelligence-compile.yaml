@@ -1,0 +1,24 @@
+loop:
+  id: moonshots-intelligence-compile
+  category: research
+  trigger:
+    type: event
+    description: New Moonshots archive capture ready for intelligence compile
+  inputs:
+    - description: Verbatim Moonshots transcript under source-archive/singularity/moonshots/
+    - description: Optional human-corrected bullets JSON for replay
+  process:
+    steps:
+      - description: Dry-run evidence extraction (>=30-word verbatim spans)
+      - description: Generate or replay dual-layer bullets with strict validator
+      - description: Emit moonshots-ep-N-intelligence.json and .md under research/singularity-science/moonshots/
+  outputs:
+    - description: Schema-checked intelligence JSON and markdown render
+    - description: Provenance receipt (prompt_hash, model) in document header
+  state:
+    status: active
+  dependencies:
+    - loop_id: moonshots-synthesis-watch
+  last_run: null
+  output_shelves:
+    - research/singularity-science/moonshots/

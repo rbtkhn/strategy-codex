@@ -30,6 +30,12 @@ Research-layer orientation for **Moonshots** as a **conversational synthesis** s
 3. **Emergency vs scheduled** — Do unscheduled episodes (e.g. Anthropic pause framing) warrant different decay / pairing rules than numbered releases?
 4. **Statecraft crossover** — When does export control / access governance belong in singularity-science vs statecraft lanes?
 
+## Intelligence compile
+
+- Pipeline: [PIPELINE.md](PIPELINE.md)
+- Template: [moonshots-intelligence-template.md](moonshots-intelligence-template.md)
+- CLI: `python3 scripts/compile_moonshots_intelligence.py --archive <capture> --out research/singularity-science/moonshots/`
+
 ## Seed archive pointers
 
 | Capture | Research hook |

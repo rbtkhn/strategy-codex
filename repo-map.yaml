@@ -752,6 +752,22 @@ routes:
   - moonshots research
   - moonshots analysis workspace
   category: work
+- id: moonshots-intelligence-pipeline
+  title: Moonshots intelligence compiler pipeline
+  path: research/singularity-science/moonshots/PIPELINE.md
+  kind: routing_aid
+  authority: work_only
+  tags:
+  - singularity
+  - moonshots
+  - intelligence
+  - epistemic-compiler
+  search_hints:
+  - moonshots intelligence
+  - compile moonshots
+  - epistemic compiler moonshots
+  - moonshots-ep intelligence
+  category: work
 - id: singularity-monthly-synthesis
   title: Singularity monthly synthesis (operational)
   path: singularity/synthesis/README.md

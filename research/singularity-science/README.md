@@ -42,6 +42,7 @@ work only; not Record.
 | --- | --- |
 | [`innermost-loop-capture`](../../singularity/loops/research/innermost-loop-capture.yaml) | Lands raw IL issues → `source-archive/singularity/innermost-loop/` |
 | [`moonshots-synthesis-watch`](../../singularity/loops/research/moonshots-synthesis-watch.yaml) | Moonshots episode / sheet-worthy synthesis echo |
+| [`moonshots-intelligence-compile`](../../singularity/loops/research/moonshots-intelligence-compile.yaml) | Archive → intelligence JSON/MD compile |
 | [`singularity-monthly-synthesis`](../../singularity/loops/research/singularity-monthly-synthesis.yaml) | End-of-month IL synthesis pass |
 
 ## Non-goals
