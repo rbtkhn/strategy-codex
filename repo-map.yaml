@@ -1,5 +1,5 @@
 version: 1
-updated_at: '2026-06-26'
+updated_at: '2026-07-02'
 purpose: Machine-readable routing registry (SSOT for route definitions). All routing definitions must originate here; other surfaces derive from this file.
 routes:
 - id: llm-routing
@@ -659,6 +659,114 @@ routes:
   - verbatim transcript
   - statecraft source file
   - source-archive source
+- id: source-archive-singularity
+  title: Singularity source archive (IL + Moonshots verbatim)
+  path: source-archive/singularity/README.md
+  kind: routing_aid
+  authority: routing_aid
+  tags:
+  - singularity
+  - archive
+  - innermost-loop
+  - moonshots
+  - verbatim
+  search_hints:
+  - innermost loop archive
+  - moonshots transcript
+  - singularity source archive
+  - source-archive singularity
+  category: work
+- id: singularity-innermost-loop-capture
+  title: Innermost Loop verbatim captures
+  path_pattern: source-archive/singularity/innermost-loop/*.md
+  kind: source_capture
+  authority: routing_aid
+  tags:
+  - singularity
+  - innermost-loop
+  - archive
+  - newsletter
+  search_hints:
+  - innermost loop issue
+  - innermost loop capture
+  - IL newsletter archive
+  category: source
+- id: singularity-moonshots-capture
+  title: Moonshots verbatim transcript captures
+  path_pattern: source-archive/singularity/moonshots/*.md
+  kind: source_capture
+  authority: routing_aid
+  tags:
+  - singularity
+  - moonshots
+  - archive
+  - podcast
+  - transcript
+  search_hints:
+  - moonshots episode
+  - moonshots transcript
+  - moonshots capture
+  category: source
+- id: research-singularity-science
+  title: Singularity Science research shelf (IL + Moonshots analysis)
+  path: research/singularity-science/README.md
+  kind: routing_aid
+  authority: work_only
+  tags:
+  - singularity
+  - research
+  - innermost-loop
+  - moonshots
+  - keystone-helix
+  - analysis
+  search_hints:
+  - singularity science
+  - innermost loop analysis
+  - moonshots analysis
+  - keystone helix research
+  - IL Moonshots research shelf
+  category: work
+- id: singularity-science-innermost-loop
+  title: Innermost Loop analysis workspace
+  path: research/singularity-science/innermost-loop/README.md
+  kind: routing_aid
+  authority: work_only
+  tags:
+  - singularity
+  - innermost-loop
+  - research
+  search_hints:
+  - innermost loop research
+  - IL analysis workspace
+  category: work
+- id: singularity-science-moonshots
+  title: Moonshots analysis workspace
+  path: research/singularity-science/moonshots/README.md
+  kind: routing_aid
+  authority: work_only
+  tags:
+  - singularity
+  - moonshots
+  - research
+  search_hints:
+  - moonshots research
+  - moonshots analysis workspace
+  category: work
+- id: singularity-monthly-synthesis
+  title: Singularity monthly synthesis (operational)
+  path: singularity/synthesis/README.md
+  kind: routing_aid
+  authority: work_only
+  tags:
+  - singularity
+  - synthesis
+  - innermost-loop
+  - monthly
+  search_hints:
+  - singularity monthly synthesis
+  - IL monthly synthesis
+  - singularity synthesis shelf
+  category: work
 - id: alkhorshid-index
   title: Alkhorshid index (guest)
   path: statecraft/voices/alkhorshid/alkhorshid-index.md

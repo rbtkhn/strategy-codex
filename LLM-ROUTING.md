@@ -35,8 +35,9 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | **YouTube channel roster** / check-sources / `channel_slug` | [statecraft/channels/channel-index.json](statecraft/channels/channel-index.json) · [channel-index.md](statecraft/channels/channel-index.md) |
 | statecraft lane / active operator work | [statecraft/](statecraft) |
 | singularity lane / acceleration work | [singularity/](singularity) |
-| singularity recurring loops / loop registry | [singularity/loops/](singularity/loops) · [docs/singularity/loop-system.md](docs/singularity/loop-system.md) |
-| singularity education / business loop outputs | [singularity/education/](singularity/education) · [singularity/business/](singularity/business) |
+| Innermost Loop / Moonshots **analysis** | [research/singularity-science/](../../research/singularity-science/README.md) — not raw archive |
+| Innermost Loop / Moonshots **raw capture** | [source-archive/singularity/](source-archive/singularity/README.md) — verbatim SSOT |
+| singularity IL **monthly synthesis** | [singularity/synthesis/](singularity/synthesis/README.md) — operational, not research shelf |
 | **essay / stand-alone thesis** (cross-channel default) | [essays/README.md](essays/README.md) — primary shelf; channel `*/essays/` = compatibility only |
 | **prose class** (note vs essay vs synthesis) | [docs/prose-index.md](docs/prose-index.md) |
 | architecture / harness topology / model vs harness map | [docs/harness-architecture-map.md](docs/harness-architecture-map.md) |
@@ -161,10 +162,17 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | redacted-news-channel-index | source_index | work | [statecraft/channels/redacted-news/redacted-news-channel-index.md](statecraft/channels/redacted-news/redacted-news-channel-index.md) | Redacted News index, redacted-news-channel-index, redacted-news index |
 | redacted-news-host-shelf | routing_aid | work | [statecraft/channels/redacted-news/README.md](statecraft/channels/redacted-news/README.md) | Redacted News host, redacted-news profile |
 | redacted-news-index | source_index | work | [statecraft/channels/redacted-news/redacted-news-index.md](statecraft/channels/redacted-news/redacted-news-index.md) | Redacted News index compat |
+| research-singularity-science | routing_aid | work | [research/singularity-science/README.md](research/singularity-science/README.md) | singularity science, innermost loop analysis, moonshots analysis, … |
 | ritter-index | source_index | work | [statecraft/voices/ritter/ritter-index.md](statecraft/voices/ritter/ritter-index.md) | Ritter index, ritter source index |
 | ritter-source-index | source_index | work | [statecraft/voices/ritter/ritter-source-index.md](statecraft/voices/ritter/ritter-source-index.md) | Ritter index, ritter source index, ritter source index compat |
 | sachs-index | source_index | work | [statecraft/voices/sachs/sachs-index.md](statecraft/voices/sachs/sachs-index.md) | Sachs index, sachs source index |
 | sachs-source-index | source_index | work | [statecraft/voices/sachs/sachs-source-index.md](statecraft/voices/sachs/sachs-source-index.md) | Sachs index, sachs source index, sachs source index compat |
+| singularity-innermost-loop-capture | source_capture | source | [source-archive/singularity/innermost-loop/*.md](source-archive/singularity/innermost-loop/*.md) | innermost loop issue, innermost loop capture, IL newsletter archive |
+| singularity-monthly-synthesis | routing_aid | work | [singularity/synthesis/README.md](singularity/synthesis/README.md) | singularity monthly synthesis, IL monthly synthesis, singularity synthesis shelf |
+| singularity-moonshots-capture | source_capture | source | [source-archive/singularity/moonshots/*.md](source-archive/singularity/moonshots/*.md) | moonshots episode, moonshots transcript, moonshots capture |
+| singularity-science-innermost-loop | routing_aid | work | [research/singularity-science/innermost-loop/README.md](research/singularity-science/innermost-loop/README.md) | innermost loop research, IL analysis workspace |
+| singularity-science-moonshots | routing_aid | work | [research/singularity-science/moonshots/README.md](research/singularity-science/moonshots/README.md) | moonshots research, moonshots analysis workspace |
+| source-archive-singularity | routing_aid | work | [source-archive/singularity/README.md](source-archive/singularity/README.md) | innermost loop archive, moonshots transcript, singularity source archive, … |
 | source-lattice-doctrine | reading_discipline | work | [docs/source-lattice-beyond-the-repo.md](docs/source-lattice-beyond-the-repo.md) | source lattice, corpus tiers, reading order, … |
 | speaker-cluster-map | routing_aid | work | [statecraft/voices/speaker-cluster-map.md](statecraft/voices/speaker-cluster-map.md) | speaker cluster map, satellite speaker, which speaker after Pape, … |
 | speaker-routing-doctrine | routing_aid | work | [statecraft/voices/speaker-routing-doctrine.md](statecraft/voices/speaker-routing-doctrine.md) | speaker routing doctrine, speaker map, route contract, … |
@@ -246,7 +254,7 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 - source indexes (disk): 32
 - host shelves (disk): 16
 - markdown links (INDEX + source-index files): 154
-- repo-map routes: 132 (canonical_reference=2, directory_index=1, essay=8, generated_dashboard=3, generated_inventory=3, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=22, source_capture=1, source_index=88)
+- repo-map routes: 139 (canonical_reference=2, directory_index=1, essay=8, generated_dashboard=3, generated_inventory=3, local_index_script=1, prose_shelf=1, reading_discipline=2, routing_aid=27, source_capture=3, source_index=88)
 - source_index routes in repo-map: 88
 - host_shelf routes in repo-map: 16
 - registry: INDEX lists 32/32, repo-map lists 29/32 (90.6% bijection when both match)

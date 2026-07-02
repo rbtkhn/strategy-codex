@@ -5,6 +5,7 @@ Content here is **not** part of the production gated pipeline unless explicitly 
 | Path | Purpose |
 |------|---------|
 | [predictive-history/](predictive-history/README.md) | **Subject research** about the external [rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history) repo/corpus (not SSOT) |
+| [singularity-science/](singularity-science/README.md) | **Subject research** on Innermost Loop + Moonshots streams (not raw archive) |
 | [narrative-systems/](narrative-systems/README.md) | **Meta-framework research** — NST; Epistemic Geometry is a fundamental in-repo part; PH is an external subject studied via links |
 | [external/](external/) | External capture libraries (YouTube transcript pulls, work-strategy bundles) |
 | [repos/](repos/) | Nested checkouts or vendor trees (e.g. civilization_memory) |
@@ -23,5 +24,15 @@ Content here is **not** part of the production gated pipeline unless explicitly 
 | [`research/external/youtube-channels/predictive-history/`](external/youtube-channels/predictive-history/) | YouTube caption ingest |
 | [`public/predictive-history/`](../public/predictive-history/) | Inbound read-only mirror |
 | **[rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history)** | **Corpus SSOT** (author, validate, push) |
+
+### Singularity streams path disambiguation
+
+| Path | What it is |
+| --- | --- |
+| **`research/singularity-science/`** | Subject research *about* Innermost Loop + Moonshots (this repo) |
+| [`source-archive/singularity/innermost-loop/`](../source-archive/singularity/innermost-loop/) | **Raw capture SSOT** — verbatim IL issues |
+| [`source-archive/singularity/moonshots/`](../source-archive/singularity/moonshots/) | **Raw capture SSOT** — verbatim Moonshots transcripts |
+| [`singularity/synthesis/`](../singularity/synthesis/README.md) | Operational monthly synthesis from IL corpus |
+| [`singularity/workshop/`](../singularity/workshop/keystone-helix.md) | Workshop sheets, longitudinal spine, keystone helix |
 
 Keep production paths at the repository root focused on the active instance, `platform/apps/`, `archive/grace-mar-instance/bot/`, `scripts/`, and `tests/`.

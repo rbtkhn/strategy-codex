@@ -24,6 +24,9 @@ This file is a **routing aid**. It does not change repository authority. Canonic
 | **YouTube channel roster** / check-sources / `channel_slug` | [statecraft/channels/channel-index.json](../../statecraft/channels/channel-index.json) · [channel-index.md](../../statecraft/channels/channel-index.md) |
 | statecraft lane / active operator work | [statecraft/](../../statecraft) |
 | singularity lane / acceleration work | [singularity/](../../singularity) |
+| Innermost Loop / Moonshots **analysis** | [research/singularity-science/](../../research/singularity-science/README.md) — not raw archive |
+| Innermost Loop / Moonshots **raw capture** | [source-archive/singularity/](../../source-archive/singularity/README.md) — verbatim SSOT |
+| singularity IL **monthly synthesis** | [singularity/synthesis/](../../singularity/synthesis/README.md) — operational, not research shelf |
 | **essay / stand-alone thesis** (cross-channel default) | [essays/README.md](../../essays/README.md) — primary shelf; channel `*/essays/` = compatibility only |
 | **prose class** (note vs essay vs synthesis) | [docs/prose-index.md](../prose-index.md) |
 | architecture / harness topology / model vs harness map | [docs/harness-architecture-map.md](../../docs/harness-architecture-map.md) |
