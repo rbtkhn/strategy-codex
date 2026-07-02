@@ -26,7 +26,7 @@ Append-only. Newest dated block at the **bottom**.
 
 ### References
 
-- [STRATEGY.md](../../../STRATEGY.md) Ã‚Â§IV Ã¢â‚¬â€ 2026-04-08 Islamabad entries Ã‚Â· [islamabad-framework.md](../../../islamabad-framework.md) Ã‚Â· [islamabad-framework-summary.md](../../../islamabad-framework-summary.md) Ã‚Â· [Jiang intake](../../../predictive-history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md) Ã‚Â· [CIV-MINDÃ¢â‚¬â€œMERCOURIS](../../../minds/CIV-MIND-MERCOURIS.md) (IV.E Ã¢â‚¬â€ trimmed; canonical in `research/repos/civilization_memory`)
+- [STRATEGY.md](../../../STRATEGY.md) Ã‚Â§IV Ã¢â‚¬â€ 2026-04-08 Islamabad entries Ã‚Â· [islamabad-framework.md](../../../islamabad-framework.md) Ã‚Â· [islamabad-framework-summary.md](../../../islamabad-framework-summary.md) Ã‚Â· [Jiang intake](../../../03_core_models/predictive_history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md) Ã‚Â· [CIV-MINDÃ¢â‚¬â€œMERCOURIS](../../../minds/CIV-MIND-MERCOURIS.md) (IV.E Ã¢â‚¬â€ trimmed; canonical in `research/repos/civilization_memory`)
 
 ### Jiang resonance (optional)
 
@@ -49,7 +49,7 @@ Append-only. Newest dated block at the **bottom**.
 - Grounded **downstream critique**: name the **ledger** whenever copy says Ã¢â‚¬Å“strongerÃ¢â‚¬Â; keep **battle vs war** honest (Cannae catastrophic, Second Punic War continued); diplomatic register favors **recovery mechanisms** over tactical detail; **overclaim** risk if Ã¢â‚¬Å“strongerÃ¢â‚¬Â reads as moral ascendancy.
 - **Canonical placement:** Rome ladder fits **`islamabad-framework-summary.md`** first; full **`islamabad-framework.md`** only if the preamble truly needs the braid (else cross-link).
 - Shipped **strategy-notebook** skeleton (PH-style **month = chapter**, `days.md` + `meta.md`), README row, history log Ã¢â‚¬â€ pushed to `main`.
-- **Predictive History (work-jiang):** extended **Volume I** book spine to **`ch20`** (Geo-Strategy **#13Ã¢â‚¬â€œ#20** wired: `book-architecture`, `source-map`, `predictions.jsonl`, evidence packs, INTRO/PREFACE/PART-II framing note). **Export discipline:** added [`STUDENT-EXPORT.md`](../../../predictive-history/STUDENT-EXPORT.md) checklist, README pointer, and [`book/PUBLISHING.md`](../../../predictive-history/book/PUBLISHING.md) Ã¢â‚¬Å“run before releaseÃ¢â‚¬Â line Ã¢â‚¬â€ pushed (`45830ec`, `032d8dd` on top of `3c64d46`).
+- **Predictive History (work-jiang):** extended **Volume I** book spine to **`ch20`** (Geo-Strategy **#13Ã¢â‚¬â€œ#20** wired: `book-architecture`, `source-map`, `predictions.jsonl`, evidence packs, INTRO/PREFACE/PART-II framing note). **Export discipline:** added [`STUDENT-EXPORT.md`](../../../03_core_models/predictive_history/STUDENT-EXPORT.md) checklist, README pointer, and [`book/PUBLISHING.md`](../../../03_core_models/predictive_history/book/PUBLISHING.md) Ã¢â‚¬Å“run before releaseÃ¢â‚¬Â line Ã¢â‚¬â€ pushed (`45830ec`, `032d8dd` on top of `3c64d46`).
 - **Strategy thread (Think):** student/RAG bundle stays **derived after** main spine is stable; hybrid chunking vs whole-chapter framed for **ch08**-style lectures; skill-capture line deferred.
 
 ### Reflection
@@ -64,7 +64,7 @@ Append-only. Newest dated block at the **bottom**.
 
 ### References
 
-- [islamabad-framework.md](../../../islamabad-framework.md) Ã‚Â· [islamabad-framework-summary.md](../../../islamabad-framework-summary.md) Ã‚Â· [Islamabad Jiang intake](../../../predictive-history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md) Ã‚Â· [STRATEGY.md](../../../STRATEGY.md) Ã‚Â§IV (2026-04-08 Islamabad logs) Ã‚Â· [strategy-notebook README](../../README.md) Ã‚Â· [STUDENT-EXPORT.md](../../../predictive-history/STUDENT-EXPORT.md) Ã‚Â· [PUBLISHING.md](../../../predictive-history/book/PUBLISHING.md) Ã‚Â· [BOOK-ARCHITECTURE.md](../../../predictive-history/BOOK-ARCHITECTURE.md) (Vol. I now 20 chapters)
+- [islamabad-framework.md](../../../islamabad-framework.md) Ã‚Â· [islamabad-framework-summary.md](../../../islamabad-framework-summary.md) Ã‚Â· [Islamabad Jiang intake](../../../03_core_models/predictive_history/intake/Islamabad-5-point-reconciliation-plan-with-jiang-commentary.md) Ã‚Â· [STRATEGY.md](../../../STRATEGY.md) Ã‚Â§IV (2026-04-08 Islamabad logs) Ã‚Â· [strategy-notebook README](../../README.md) Ã‚Â· [STUDENT-EXPORT.md](../../../03_core_models/predictive_history/STUDENT-EXPORT.md) Ã‚Â· [PUBLISHING.md](../../../03_core_models/predictive_history/book/PUBLISHING.md) Ã‚Â· [BOOK-ARCHITECTURE.md](../../../03_core_models/predictive_history/BOOK-ARCHITECTURE.md) (Vol. I now 20 chapters)
 
 ### Jiang resonance (optional)
 
@@ -73,8 +73,8 @@ Append-only. Newest dated block at the **bottom**.
 ### Foresight
 
 - Execute on **2026-04-08** open items: **paste or merge** the diplomatic Rome block (summary vs framework Ã¢â‚¬â€ see prior day) and add the **Cannae battle vs war** caveat if shipping public copy.
-- **Part II (Geo):** fold **GS13Ã¢â‚¬â€œGS20** into the next full news pass on [`PART-II-GEO-STRATEGY.md`](../../../predictive-history/book/PART-II-GEO-STRATEGY.md) when ready; **geo-14Ã¢â‚¬â€œ20** analysis memos still missing.
-- **Student bundle:** run [`STUDENT-EXPORT.md`](../../../predictive-history/STUDENT-EXPORT.md) checklist before any downstream export; no separate student repo opened yet.
+- **Part II (Geo):** fold **GS13Ã¢â‚¬â€œGS20** into the next full news pass on [`PART-II-GEO-STRATEGY.md`](../../../03_core_models/predictive_history/book/PART-II-GEO-STRATEGY.md) when ready; **geo-14Ã¢â‚¬â€œ20** analysis memos still missing.
+- **Student bundle:** run [`STUDENT-EXPORT.md`](../../../03_core_models/predictive_history/STUDENT-EXPORT.md) checklist before any downstream export; no separate student repo opened yet.
 
 ### Bets / watches (optional)
 
@@ -560,7 +560,7 @@ Barnes says both sides face material clocks and the question is which clock runs
 - **Daniel Davis Deep Dive Ã¢â‚¬â€ Davis Ãƒâ€” Jermy** (*Navy Combat Vet: HORMUZ BLOCKADE NIGHTMARE*): [YouTube](https://www.youtube.com/watch?v=etxmqrdm3V0) (same URL on both **`thread:davis`** and **`thread:jermy`** inbox lines)
 - **Glenn Diesen Ãƒâ€” Jeffrey Sachs** (*TrumpÃ¢â‚¬â„¢s Naval Blockade of the Strait of Hormuz*): [YouTube](https://www.youtube.com/watch?v=S6mlCuvKKIQ) (same URL on **`thread:diesen`** and **`thread:sachs`** inbox lines)
 - [daily-brief-2026-04-14.md](../../../daily-brief-2026-04-14.md) Ã¢â‚¬â€ generated brief (Ã‚Â§2c RSS bundle mirrored in inbox)
-- **PH Ã¢â‚¬â€ vi-14:** [interviews-14-diesen-iran-war-petrodollar.md](../../../predictive-history/lectures/interviews-14-glenn-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
+- **PH Ã¢â‚¬â€ vi-14:** [interviews-14-diesen-iran-war-petrodollar.md](../../../03_core_models/predictive_history/lectures/interviews-14-glenn-diesen-iran-war-petrodollar.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=P_DHMUdOVdo)
 - **PH Ã¢â‚¬â€ vi-15:** [interviews-15-sneako-jiang-dugin-eschatology.md](../../../../../continuity/predictive-history/lectures/interviews-15-sneako-jiang-dugin-eschatology.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=n44OF1Y7zgo)
 - Prior expert landings (same file): [2026-04-12](#2026-04-12) Ã‚Â· [2026-04-13](#2026-04-13)
 - Legitimacy seam (rolling): [rome-persia-legitimacy-signal-check.md](../../../rome-persia-legitimacy-signal-check.md)
@@ -904,7 +904,7 @@ The verified Hormuz sequence is coherent across Apr 27 to Apr 28: a conditional 
 ### References
 
 - [daily-brief-2026-04-28.md](../../../daily-brief-2026-04-28.md) Ã¢â‚¬â€ Ã‚Â§1d/Ã‚Â§1e/Ã‚Â§1g/Ã‚Â§1h fills + Ã‚Â§1i triage + Hormuz chronology audit.
-- **PH Ã¢â‚¬â€ gt-21:** [game-theory-21-world-war-trump.md](../../../predictive-history/lectures/game-theory-21-world-war-trump.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=Ts-AA6LQf6I) Ã¢â‚¬â€ notebook-facing ingest (`thread:jiang`); inbox block: [daily-strategy-inbox.md](../../../daily-strategy-inbox.md) subsection **Strategy ingest Ã¢â‚¬â€ work-jiang PH Volume IV (2026-04-28)**.
+- **PH Ã¢â‚¬â€ gt-21:** [game-theory-21-world-war-trump.md](../../../03_core_models/predictive_history/lectures/game-theory-21-world-war-trump.md) Ã‚Â· [YouTube](https://www.youtube.com/watch?v=Ts-AA6LQf6I) Ã¢â‚¬â€ notebook-facing ingest (`thread:jiang`); inbox block: [daily-strategy-inbox.md](../../../daily-strategy-inbox.md) subsection **Strategy ingest Ã¢â‚¬â€ work-jiang PH Volume IV (2026-04-28)**.
 
 ## 2026-04-29
 

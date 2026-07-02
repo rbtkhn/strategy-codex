@@ -218,7 +218,7 @@ NST functions as:
 
 It sits in:
 
-singularity/research/narrative-systems/
+research/narrative-systems/02_narrative_systems/
 
 ---
 

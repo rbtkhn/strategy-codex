@@ -2,7 +2,7 @@
 
 ## v0.1
 
-- Initial research shelf stub under `singularity/research/predictive-history/`
+- Initial research shelf stub under `research/narrative-systems/03_core_models/predictive_history/`
 - Boundary routing to canonical corpus, education factory, and continuity workshop documented
 
 ## v0.2

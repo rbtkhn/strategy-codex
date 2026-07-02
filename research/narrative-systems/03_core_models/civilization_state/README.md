@@ -8,18 +8,18 @@ Research scaffold — not wired to [`singularity/loops/`](../../loops/README.md)
 
 ## Classification
 
-`singularity/research/civilization-state/`
+`research/narrative-systems/03_core_models/civilization_state/`
 
 ## Purpose
 
-Civilization State formalizes **civ-state** as a discrete civilization dynamics system: civilizations as state machines evolving under rule-based constraints. It complements [Predictive History](../predictive-history/README.md) (real-world inference) and integrates with [Narrative Systems](../narrative-systems/README.md) (interpretation layer).
+Civilization State formalizes **civ-state** as a discrete civilization dynamics system: civilizations as state machines evolving under rule-based constraints. It complements [Predictive History](../predictive_history/README.md) (real-world inference) and integrates with [Narrative Systems](../../README.md) (interpretation layer).
 
 ## Motivation
 
 The system currently separates:
 
-- **real-world event inference** — [Predictive History](../predictive-history/README.md)
-- **narrative interpretation** — [Narrative Systems](../narrative-systems/README.md)
+- **real-world event inference** — [Predictive History](../03_core_models/predictive_history/README.md)
+- **narrative interpretation** — [Narrative Systems](../../README.md)
 
 This module adds a missing layer: a **generative civilization dynamics model** for counterfactual and synthetic history production.
 
@@ -33,7 +33,7 @@ This module adds a missing layer: a **generative civilization dynamics model** f
 
 ## Stack position
 
-Civilization State is a **synthetic generative peer** to Predictive History. Narrative Systems remains the relational coupling layer between [Epistemic Geometry](../epistemic-geometry/README.md) (structure) and Predictive History (time); civ-state adds a third input stream (synthetic trajectories) for calibration and counterfactuals.
+Civilization State is a **synthetic generative peer** to Predictive History. Narrative Systems remains the relational coupling layer between [Epistemic Geometry](../05_geometric_lenses/epistemic_geometry/README.md) (structure) and Predictive History (time); civ-state adds a third input stream (synthetic trajectories) for calibration and counterfactuals.
 
 ```text
 civilization-state (synthetic dynamics engine)
@@ -53,7 +53,7 @@ Cross-module coupling: [coupling_notes.md](coupling_notes.md) (φ / ψ mappings)
 | --- | --- | --- |
 | Operational civ-state memory | [`statecraft/states/`](../../../statecraft/states/README.md) | Five-volume civilizational source memory for drafting |
 | Public book | [`public/civ-state/`](../../../public/civ-state/) | Ship-bound Civilizational Statecraft prose |
-| **This module** | `singularity/research/civilization-state/` | **Synthetic** discrete dynamics / simulation formalism |
+| **This module** | `research/narrative-systems/03_core_models/civilization_state/` | **Synthetic** discrete dynamics / simulation formalism |
 
 Use **civilization-state** as the folder name; **civ-state** as shorthand in prose only when this disambiguation block is visible.
 

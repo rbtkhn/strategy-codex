@@ -53,7 +53,7 @@ Interpretation:
 - 1 − normalized conflict_density
 - 1 − collapse_rate (fraction collapsed in last W steps)
 
-**stability < λ_c** triggers phase-transition labeling (link [formal_model.md](formal_model.md), NST [phase_transition_model.md](../narrative-systems/phase_transition_model.md)).
+**stability < λ_c** triggers phase-transition labeling (link [formal_model.md](formal_model.md), NST [phase_transition_model.md](../../02_narrative_systems/phase_transition_model.md)).
 
 ---
 

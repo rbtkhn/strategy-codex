@@ -23,11 +23,11 @@ Civilization State is a **synthetic generative peer** to Predictive History — 
 
 Synthetic trajectories S(0), S(1), …, S(T) produce **interpretable narrative inputs**:
 
-- Collapse cascades → phase-transition candidates (compare NST [phase_transition_model.md](../narrative-systems/phase_transition_model.md))
+- Collapse cascades → phase-transition candidates (compare NST [phase_transition_model.md](../../02_narrative_systems/phase_transition_model.md))
 - Power redistribution → structural-temporal coupling in NST mapping space R
 - Agent actions → pseudo-agents / pseudo-claims for EG-style alignment tests
 
-**Non-goal:** NST formalism in [formal_model.md](../narrative-systems/formal_model.md) is not rewritten. Civ-state feeds **additional morphisms** into the interpretation layer via coupling notes only.
+**Non-goal:** NST formalism in [formal_model.md](../../02_narrative_systems/formal_model.md) is not rewritten. Civ-state feeds **additional morphisms** into the interpretation layer via coupling notes only.
 
 ---
 
@@ -39,15 +39,15 @@ Uses synthetic runs for:
 - **Counterfactual baselines** — "what if alliance had held?" scenario branches
 - **Calibration targets** — distribution of conflict_density, stability under known rule sets
 
-**Non-modification constraint:** This module does **not** modify the external [predictive-history](https://github.com/rbtkhn/predictive-history) repo. Same boundary as [predictive-history/README.md](../predictive-history/README.md) — interpretive overlay only.
+**Non-modification constraint:** This module does **not** modify the external [predictive-history](https://github.com/rbtkhn/predictive-history) repo. Same boundary as [predictive-history/README.md](../03_core_models/predictive_history/README.md) — interpretive overlay only.
 
 Canonical PH homes (do not duplicate):
 
 | Surface | Path |
 | --- | --- |
 | External repo | [rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history) |
-| Inbound mirror | [`public/predictive-history/`](../../../public/predictive-history/) |
-| Research overlay | [`singularity/research/predictive-history/`](../predictive-history/README.md) |
+| Inbound mirror | [`public/predictive-history/`](../../../../public/predictive-history/) |
+| Research overlay | [`research/narrative-systems/03_core_models/predictive_history/`](../03_core_models/predictive_history/README.md) |
 
 ---
 
@@ -105,7 +105,7 @@ Optional structural bridge:
 - Trajectory events (wars, collapses) as **event anchors** E
 - Claims derived from sim logs as **claims** C for alignment geometry tests
 
-EG remains independent peer per [epistemic-geometry/README.md](../epistemic-geometry/README.md). Civ-state supplies **synthetic fixtures** for EG formal experiments — not operational EG state.
+EG remains independent peer per [epistemic-geometry/README.md](../05_geometric_lenses/epistemic_geometry/README.md). Civ-state supplies **synthetic fixtures** for EG formal experiments — not operational EG state.
 
 Operational shadow stack (conceptual only, not promoted from this artifact): [`statecraft/epistemic/`](../../../statecraft/epistemic/README.md).
 

@@ -15,7 +15,7 @@ This module is explicitly:
 
 ## Classification
 
-`singularity/research/predictive-history/`
+`research/narrative-systems/03_core_models/predictive_history/`
 
 ## Purpose
 
@@ -52,7 +52,7 @@ This module is NOT:
 ```text
 external repo (predictive-history)
         ↓  (referenced, not modified)
-singularity/research/predictive-history  ← this module (meta-analysis)
+research/narrative-systems/03_core_models/predictive_history  ← this module (meta-analysis)
         ↓  (only if later formalized)
 statecraft/
         ↓
@@ -66,12 +66,12 @@ No direct coupling exists between this folder and external runtime logic.
 | Surface | Path | Role |
 | --- | --- | --- |
 | Canonical corpus (EXECUTE) | [rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history) | Author, validate, push — sole corpus write surface |
-| Inbound mirror | [`public/predictive-history/`](../../../public/predictive-history/) | Read-only snapshot in strategy-codex |
-| Book / workshop residue | [`continuity/predictive-history/`](../../../continuity/predictive-history/) | Frozen workshop — read/intake only |
-| Education factory | [`singularity/education/predictive-history/`](../../education/predictive-history/README.md) | Loop outputs (lessons, media, distribution) |
-| YouTube transcript bundle | [`research/external/youtube-channels/predictive-history/`](../../../research/external/youtube-channels/predictive-history/) | External capture library |
+| Inbound mirror | [`public/predictive-history/`](../../../../public/predictive-history/) | Read-only snapshot in strategy-codex |
+| Book / workshop residue | [`continuity/predictive-history/`](../../../../continuity/predictive-history/) | Frozen workshop — read/intake only |
+| Education factory | [`singularity/education/predictive-history/`](../../../../singularity/education/predictive-history/README.md) | Loop outputs (lessons, media, distribution) |
+| YouTube transcript bundle | [`research/external/youtube-channels/predictive-history/`](../../../../research/external/youtube-channels/predictive-history/) | External capture library |
 
-Boundary SSOT: [`docs/predictive-history-external-boundary.md`](../../../docs/predictive-history-external-boundary.md)
+Boundary SSOT: [`docs/predictive-history-external-boundary.md`](../../../../docs/predictive-history-external-boundary.md)
 
 ## Research files
 
@@ -88,4 +88,4 @@ Boundary SSOT: [`docs/predictive-history-external-boundary.md`](../../../docs/pr
 
 ## Related research (peer)
 
-[Narrative Systems (NST)](../narrative-systems/README.md) — relational mapping between structure (EG) and time (PH); does not subsume this module.
+[Narrative Systems (NST)](../../README.md) — relational mapping between structure (EG) and time (PH); does not subsume this module.

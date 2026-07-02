@@ -77,7 +77,7 @@ Sudden systemic shifts (collapse cascades, rapid hegemonic transition, alliance 
 - Critical threshold: one or more D metrics cross λ_c
 - Transition: T applies collapse / reorganization rules (see [transition_rules.md](transition_rules.md))
 
-Conceptual link to Narrative Systems phase model: [phase_transition_model.md](../narrative-systems/phase_transition_model.md) (curvature K, critical threshold λ_c). Civ-state phase transitions operate on **simulated power/entropy/stability**; NST phase transitions operate on **narrative alignment curvature**. Coupling between the two is defined in [coupling_notes.md](coupling_notes.md).
+Conceptual link to Narrative Systems phase model: [phase_transition_model.md](../../02_narrative_systems/phase_transition_model.md) (curvature K, critical threshold λ_c). Civ-state phase transitions operate on **simulated power/entropy/stability**; NST phase transitions operate on **narrative alignment curvature**. Coupling between the two is defined in [coupling_notes.md](coupling_notes.md).
 
 ---
 

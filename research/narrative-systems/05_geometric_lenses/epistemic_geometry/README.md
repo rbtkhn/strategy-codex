@@ -13,7 +13,7 @@ It is NOT:
 
 ## Classification
 
-`singularity/research/epistemic-geometry/`
+`research/narrative-systems/05_geometric_lenses/epistemic_geometry/`
 
 ## Purpose
 
@@ -34,11 +34,11 @@ This is a **proto-formal system**, meaning:
 
 ## Relationship to System
 
-- [`loops/`](../../loops/README.md) — may eventually test hypotheses derived from this work
-- [`statecraft/`](../../../statecraft/README.md) — may operationalize stable future versions
+- [`loops/`](../../../../singularity/loops/README.md) — may eventually test hypotheses derived from this work
+- [`statecraft/`](../../../../statecraft/README.md) — may operationalize stable future versions
 - `singularity/` (outside `research/`) — holds stabilized system definitions when promoted
 
-**Conceptual only, not bound:** operational shadow stack at [`statecraft/epistemic/`](../../../statecraft/epistemic/README.md) — independent implementation, not promoted from this artifact.
+**Conceptual only, not bound:** operational shadow stack at [`statecraft/epistemic/`](../../../../statecraft/epistemic/README.md) — independent implementation, not promoted from this artifact.
 
 ## Architectural Boundary
 
@@ -52,4 +52,4 @@ It serves as a containment zone for evolving formal systems.
 
 ## Related research (peer)
 
-[Narrative Systems (NST)](../narrative-systems/README.md) — relational mapping between structure (EG) and time (PH); does not subsume this module.
+[Narrative Systems (NST)](../../README.md) — relational mapping between structure (EG) and time (PH); does not subsume this module.

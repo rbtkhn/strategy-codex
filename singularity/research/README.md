@@ -1,40 +1,4 @@
-# Singularity Research
+# Moved
 
-work only; not Record.
-
-This shelf holds **work-in-progress formal and theoretical research** under the singularity channel — developing frameworks that are not yet operational, not loop SSOT, and not system invariants.
-
-## Status
-
-- **Stage:** Research / early formalization
-- **Stability:** Non-axiomatic, evolving
-- **Integration:** Not bound to runtime systems or loop execution
-
-## Artifacts
-
-| Artifact | Path | Role |
-| --- | --- | --- |
-| Epistemic Geometry | [epistemic-geometry/](epistemic-geometry/README.md) | Multi-agent narrative alignment as a layered geometric structure |
-| Predictive History | [predictive-history/](predictive-history/README.md) | External-system research overlay ([rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history)) — meta-analysis, non-modifying |
-| Narrative Systems (NST) | [narrative-systems/](narrative-systems/README.md) | Relational mapping between EG (structure) and PH (time) — not a container |
-| Civilization State | [civilization-state/](civilization-state/README.md) | Synthetic geopolitical dynamics — discrete state-machine simulation layer |
-
-EG ([epistemic-geometry/](epistemic-geometry/README.md)) and PH ([predictive-history/](predictive-history/README.md)) are independent peers; NST defines coupling only. Civilization State is a **synthetic generative peer** to PH; NST and [coupling_notes.md](civilization-state/coupling_notes.md) define bridges.
-
-## Non-goals
-
-- Not a substitute for [`singularity/loops/`](../loops/README.md) (recurring job YAML SSOT)
-- Not a production execution surface
-- Not a Record or gate candidate pipeline
-
-## Lifecycle
-
-Promotion path for artifacts on this shelf (documentation only — not automated):
-
-```text
-singularity/research/  →  (stabilization)  →  singularity definitions  →  statecraft/ operationalization  →  loops/ execution
-```
-
-## Future (not required for initial scaffold)
-
-Loops may declare `output_shelves` pointing here when a formalization cadence is needed. See [loop system spec](../../docs/singularity/loop-system.md).
+Formal research (Narrative Systems framework) now lives at
+[research/narrative-systems/README.md](../../research/narrative-systems/README.md).
