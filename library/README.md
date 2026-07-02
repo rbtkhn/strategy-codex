@@ -2,6 +2,12 @@
 
 **Local disk only.** Binaries and bulk text live here; they are **not** committed to git (see repo-root `.gitignore`).
 
+## Layout invariant
+
+**Only** `civilization/` and `science/` may exist as subdirectories at `library/` root.
+
+Flat volume paths such as `library/rome/` are **retired** — use `library/civilization/{volume}/` instead (e.g. `library/civilization/rome/`).
+
 ## Namespaces
 
 | Namespace | Purpose | Index |
