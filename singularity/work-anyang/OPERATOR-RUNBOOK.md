@@ -1,7 +1,5 @@
 # work-anyang — operator runbook
 
-WORK only; not Record.
-
 **Purpose:** Operator entry for the **Anyang AI cohort pilot** — a family-based learning cell in Anyang, China, modeled on [cici-ai](../work-cici/README.md), with China-first tools and sponsor-gated pilot discipline.
 
 **Front door:** [README.md](README.md) · **Commercial venture:** [STRATEGIC-PLAN.md](../../operations/anyang-intelligence/STRATEGIC-PLAN.md)
@@ -23,6 +21,23 @@ WORK only; not Record.
 If the operator says **cici-ai** but means **China localization / Anyang families / WeChat / Gitee**, route **here**.
 
 **Legacy skill:** [anyang-ai](../../.cursor/skills/anyang-ai/SKILL.md) is deprecated — use this runbook for new work.
+
+---
+
+## Industry pattern alignment (China cell)
+
+Global ADOPT-inspired mechanics live in [STRATEGIC-PLAN v1.1](../../operations/anyang-intelligence/STRATEGIC-PLAN.md) (Orient/Build/Ship/Embed/Scale). The China cell is **depth-before-breadth** proof, not an ADOPT clone. Behavioral gaps are **documented**, not built, in the benchmark slice.
+
+| ADOPT-style pattern | Behavioral basis | Already in wedge |
+| --- | --- | --- |
+| Outcome-weighted renewal | Implementation intentions / checkpoints | [anyang-philanthropist-calibration.md](anyang-philanthropist-calibration.md) month-3 / month-6 gates |
+| Skills rubric (pass/fail evidence) | Competence / mastery tracking | [skills-rubric.md](anyang-ai-progress/skills-rubric.md) |
+| Habit accountability | Social + micro-habit (WeChat) | WeChat done/stuck habit row |
+| Ship proof | Mastery / self-efficacy | Weekly visible proof + Gitee path (Builder) |
+| Fear / family buy-in | SDT relatedness; Orient-phase analog | 家长同意 in WeChat pin; layered sponsor narrative (no income promises) |
+| **Gaps to add in pilot** | 66-day tracking; relapse protocol; 70/20/10 explicit mix | Not yet — pre-live design items |
+
+Benchmark: [2026-07-02-ai-operator-adopt-benchmark.md](../../operations/anyang-intelligence/reports/2026-07-02-ai-operator-adopt-benchmark.md)
 
 ---
 
@@ -88,7 +103,7 @@ When reporting to donor or deciding pause/renew:
 2. Compile **anonymized** skills summary + **2+** honest family case studies (include setbacks).
 3. Apply pause triggers: <3 Emerging+ by month 3; <2 Solid + no institutional path by month 6; >50% families one active + passive tag-alongs.
 
-Evidence pointers live under `singularity/work-anyang/archive/placeholders/evidence/` when created — WORK only.
+Evidence pointers live under `singularity/work-anyang/archive/placeholders/evidence/` when created
 
 ### 5. Replicate (Henan / next cell)
 

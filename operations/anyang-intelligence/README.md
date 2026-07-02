@@ -1,7 +1,5 @@
 # Anyang Intelligence — commercial venture shelf
 
-WORK only; not Record.
-
 Operating shelf for **Anyang Intelligence** — the AI-native vocational training venture (investor prospectus, GTM proof, workflow case studies). The China cohort pilot is the **Phase 1 wedge** at [`singularity/work-anyang/`](../../singularity/work-anyang/README.md); this tree holds commercial strategy and durable operating outputs.
 
 **Offer-sensitive:** Pricing, ARR, and investment thesis in [STRATEGIC-PLAN.md](STRATEGIC-PLAN.md) are WORK-only — not legal commitments or public copy without review.
@@ -44,7 +42,9 @@ Operating shelf for **Anyang Intelligence** — the AI-native vocational trainin
 anyang-intelligence/
   README.md
   STRATEGIC-PLAN.md
-  reports/              # workflow proof + GTM case studies
+  reports/
+    README.md
+    2026-07-02-ai-operator-adopt-benchmark.md
 ```
 
 Parent index: [`operations/README.md`](../README.md).
