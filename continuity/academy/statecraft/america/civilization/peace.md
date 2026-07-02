@@ -1,7 +1,6 @@
 # America Peace
 <!-- word_count: 2887 -->
 
-
 ## Purpose
 
 Use American peace memory as a statecraft lens for constitutional settlement, treaty legitimacy, allied order, burden-sharing, procedural restraint, reconstruction, durable exit, and peace that still sounds like republican self-government.

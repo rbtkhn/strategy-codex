@@ -13,8 +13,6 @@ post_id: 195867430
 
 # The Innermost Loop - 2026-04-29
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 29, 2026
@@ -29,10 +27,7 @@ The Singularity is best measured by how astonished the past would be by the pres
 
 ## Newsletter Text
 
--
--
-
-The Singularity is best measured by how astonished the past would be by the present. Alec Radford and colleagues launched Talkie , a 13B “vintage” model trained only on pre-1931 text, which was reportedly especially astonished by the events of the 1960s. By that yardstick, today is going to break Talkie. OpenAI’s Codex engineering lead Thibault Sottiaux declares that “Codex has achieved escape velocity and will keep improving rapidly,” an apparent nod to the self-improvement loop now baked into the dev cycle. The model layer is fanning out around it. Nvidia launched Nemotron 3 Nano Omni , an open multimodal model topping six leaderboards for document, video, and audio understanding. AWS is rolling OpenAI’s models directly onto Bedrock , letting customers effectively self-host frontier intelligence. GPT-5.5 xhigh just topped KernelBench at 6.57% for writing GPU kernels, meaning the AI is now optimizing the hardware that runs it. Sam Altman is calling for a wholesale rethink of operating systems, interfaces, and internet protocols so that people and agents can natively share the same surfaces.
+- The Singularity is best measured by how astonished the past would be by the present. Alec Radford and colleagues launched Talkie , a 13B “vintage” model trained only on pre-1931 text, which was reportedly especially astonished by the events of the 1960s. By that yardstick, today is going to break Talkie. OpenAI’s Codex engineering lead Thibault Sottiaux declares that “Codex has achieved escape velocity and will keep improving rapidly,” an apparent nod to the self-improvement loop now baked into the dev cycle. The model layer is fanning out around it. Nvidia launched Nemotron 3 Nano Omni , an open multimodal model topping six leaderboards for document, video, and audio understanding. AWS is rolling OpenAI’s models directly onto Bedrock , letting customers effectively self-host frontier intelligence. GPT-5.5 xhigh just topped KernelBench at 6.57% for writing GPU kernels, meaning the AI is now optimizing the hardware that runs it. Sam Altman is calling for a wholesale rethink of operating systems, interfaces, and internet protocols so that people and agents can natively share the same surfaces.
 
 The artisanal era of mathematics is ending. GPT-5.5 just scored a record 73.66% on Matharena on fresh olympiad problems, more than doubling GPT-5.4’s 36.61% and re-pricing what counts as a hard problem. MIT senior David Turturean reports that “GPT-5.5 has been finding solutions quicker than I, the human, can process them,” with three full Erdős problem solutions already claimed and more in the supervision queue. Another observer notes the LLMs are simultaneously doing a long-overdue cleaning task , sweeping up neglected open problems and giving them proper statements as they go. Mathematicians have become curators of synthetic genius.
 

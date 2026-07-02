@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Kiev's Catastrophe Day; Pokrovsk Volchansk Fall; ECB NO To EU's Russian Asset Loan Kiev Coup Rumours
 
-

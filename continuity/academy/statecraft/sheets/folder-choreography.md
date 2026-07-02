@@ -1,7 +1,6 @@
 # Folder Choreography
 <!-- word_count: 297 -->
 
-
 Use this sheet when a crisis test, treaty clause, policy memo, or negotiation brief needs to move through the academy-statecraft folder system rather than becoming a loose commentary note.
 
 ## Core Movement

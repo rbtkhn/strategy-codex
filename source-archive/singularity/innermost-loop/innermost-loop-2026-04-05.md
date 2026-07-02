@@ -13,8 +13,6 @@ post_id: 193253154
 
 # The Innermost Loop - 2026-04-05
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 5, 2026
@@ -29,10 +27,7 @@ The Singularity has learned to teach itself.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has learned to teach itself. Apple researchers showed that LLMs can self-improve at coding through Simple Self-Distillation , sampling their own outputs and fine-tuning on them with no verifier, teacher, or RL, lifting Qwen3-30B-Instruct from 42.4% to 55.3% on LiveCodeBench with gains concentrating on the hardest problems. Mathematics is being industrialized along the same axis. Meta researchers translated an entire graduate math textbook into Lean using 30,000 LLM agents, a formalization milestone that turns proof into a parallelizable compute job. Biology is being translated in bulk too. Open-source labs are now training mRNA language models across 25 species for just $165 , while Gladstone Institutes and NVIDIA unveiled MaxToki , a temporal model trained on nearly a trillion gene tokens that simulates cell-state trajectories across the human lifespan to program therapeutic interventions against diseases of aging.
+- The Singularity has learned to teach itself. Apple researchers showed that LLMs can self-improve at coding through Simple Self-Distillation , sampling their own outputs and fine-tuning on them with no verifier, teacher, or RL, lifting Qwen3-30B-Instruct from 42.4% to 55.3% on LiveCodeBench with gains concentrating on the hardest problems. Mathematics is being industrialized along the same axis. Meta researchers translated an entire graduate math textbook into Lean using 30,000 LLM agents, a formalization milestone that turns proof into a parallelizable compute job. Biology is being translated in bulk too. Open-source labs are now training mRNA language models across 25 species for just $165 , while Gladstone Institutes and NVIDIA unveiled MaxToki , a temporal model trained on nearly a trillion gene tokens that simulates cell-state trajectories across the human lifespan to program therapeutic interventions against diseases of aging.
 
 The application layer is where capability keeps outrunning its own packaging. Microsoft has quietly admitted its Copilot is for entertainment purposes only , a disclaimer that sits awkwardly next to the fact that Redmond has now applied the name “Copilot” to 78 separately marketed products , producing Copilots inside Copilots and a physical Copilot key for summoning them. The working agents are meanwhile breaching the fourth wall. OpenAI’s Codex has modified the DOOM engine so players can walk up to a rendered Codex terminal inside the game and ask it to work on their code mid-level. Efficiency gains are being wrung from linguistic regression. Developers are cutting Claude Code token usage ~75% by making Claude talk like a caveman while keeping full technical accuracy. The wholesale tier is drawing its lines beneath the consumer noise. Anthropic has effectively banned OpenClaw from non-API Claude by making subscribers pay extra for third-party tool access.
 

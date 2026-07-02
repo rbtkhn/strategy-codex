@@ -15,4 +15,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia: EU Makes Drones For Kiev; Medvedev Warns; Iran Welcomes Pakistan Chief; Lavrov Saudi FM Talk
 
-

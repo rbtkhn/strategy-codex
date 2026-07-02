@@ -60,10 +60,6 @@ Both Bessent and Rubio are following the same playbook, which economist Sean Foo
 
 The other side of the coin to this US trade deficit is that whilst China’s trade with the US is down by over 20% almost every month versus a year ago, with the rest of the world (including Africa and Asia), China’s exports are up -- and growing strongly.
 
-
-
-
-
 Recall that Trump earlier had insisted that China would be forced to ‘eat’ the tariffs that he had imposed on it. That didn’t happen. Overwhelmingly those tariffs were passed on to the US consumers and importers. China simply pivoted to exporting to everywhere other than the US. China today is both highly self-sufficient and competitive — America is neither.
 
 Traditionally the US covers such trade deficits in two ways — “Either Washington begs the Federal Reserve to print money; or they issue more financial assets [i.e. Treasuries]”, notes Foo. Normally, the Treasury would indeed issue Bonds or Bills to cover the deficit, but China is buying neither --

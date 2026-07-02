@@ -9,7 +9,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def test_run_diagnostics_and_render(tmp_path: Path) -> None:
     cfg = REPO_ROOT / "examples" / "diagnostics" / "sample_input.yaml"
     jout = tmp_path / "d.json"

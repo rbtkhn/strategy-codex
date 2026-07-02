@@ -2,7 +2,6 @@
 <!-- word_count: 258 -->
 <!-- word_count: canonical scaffold -->
 
-
 **Purpose:** Canonical template for a **strategy-chapter**: the daily synthesis across relevant cognition streams and strategy-pages.
 
 **Companion contracts:** [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md) · [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md)

@@ -8,7 +8,7 @@ Store bounded interview notes, extracted answers, or compiled session summaries 
 
 ## Boundary
 
-- WORK only
+- non-authoritative
 - not a truth surface
 - not a dumping ground
 - prefer short, session-scoped material

@@ -11,7 +11,6 @@ from scripts.post_land_dialogue_works_opening_normalize import (
 REPO_ROOT = Path(__file__).resolve().parent.parent
 ARCHIVE = REPO_ROOT / "source-archive" / "statecraft" / "2026-05-13"
 
-
 def _write_capture(path: Path, body: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
@@ -29,7 +28,6 @@ channel_slug: dialogue-works
         encoding="utf-8",
     )
 
-
 def test_skip_non_dialogue_works(tmp_path, monkeypatch):
     monkeypatch.setattr(
         "scripts.post_land_dialogue_works_opening_normalize.ARCHIVE_ROOT",
@@ -40,7 +38,6 @@ def test_skip_non_dialogue_works(tmp_path, monkeypatch):
     path.write_text("---\nshow: Judging Freedom\n---\n\n## Transcript\n\nHi everyone.\n", encoding="utf-8")
     result = post_land_dialogue_works_opening_normalize(path)
     assert result.status == "skipped-not-dialogue-works"
-
 
 def test_apply_mid_trim(tmp_path, monkeypatch):
     monkeypatch.setattr(

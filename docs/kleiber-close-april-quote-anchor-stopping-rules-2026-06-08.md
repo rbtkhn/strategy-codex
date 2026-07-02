@@ -1,6 +1,5 @@
 # Kleiber Close - April Quote-Anchor Stopping Rules - 2026-06-08
 
-
 Validator rank-2 tranche — completes migrated daily synthesis shelf.
 
 ## Extracted Law

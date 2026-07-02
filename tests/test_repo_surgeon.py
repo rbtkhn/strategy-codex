@@ -27,7 +27,6 @@ from repo_surgeon import (  # noqa: E402
 )
 from validate_structured_files import collect_markdown_paths  # noqa: E402
 
-
 def test_authority_header_present(tmp_path: Path) -> None:
     (tmp_path / "docs").mkdir()
     (tmp_path / "docs" / "ok.md").write_text("ok\n", encoding="utf-8")
@@ -51,14 +50,12 @@ def test_authority_header_present(tmp_path: Path) -> None:
     assert "Authority: advisory only" in md
     assert "Canonical source: none" in md
 
-
 def test_finds_broken_link_in_fixture(tmp_path: Path) -> None:
     docs = tmp_path / "docs"
     docs.mkdir()
     (docs / "a.md").write_text("[missing](./b.md)\n", encoding="utf-8")
     findings = findings_from_links(tmp_path, "docs")
     assert any(f.category == "broken_link" for f in findings)
-
 
 def test_ignores_external_http_links(tmp_path: Path) -> None:
     docs = tmp_path / "docs"
@@ -71,7 +68,6 @@ def test_ignores_external_http_links(tmp_path: Path) -> None:
     findings = findings_from_links(tmp_path, "docs")
     assert findings == []
 
-
 def test_flags_local_path_leak(tmp_path: Path) -> None:
     docs = tmp_path / "docs"
     docs.mkdir()
@@ -79,12 +75,10 @@ def test_flags_local_path_leak(tmp_path: Path) -> None:
     findings = findings_from_local_path_leaks(tmp_path, "docs")
     assert any(f.category == "local_path" for f in findings)
 
-
 def test_overall_status_blocking_wins() -> None:
     assert overall_status([Finding("blocking", "root_layout", "x")]) == "red"
     assert overall_status([Finding("warning", "broken_link", "y")]) == "yellow"
     assert overall_status([]) == "green"
-
 
 def test_fail_on_blocking_exit_code(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     docs = tmp_path / "docs"
@@ -116,7 +110,6 @@ def test_fail_on_blocking_exit_code(tmp_path: Path, monkeypatch: pytest.MonkeyPa
     )
     assert main() == 1
 
-
 def test_does_not_mutate_repo_files(tmp_path: Path) -> None:
     docs = tmp_path / "docs"
     docs.mkdir()
@@ -145,7 +138,6 @@ def test_does_not_mutate_repo_files(tmp_path: Path) -> None:
     json_out.write_text("{}", encoding="utf-8")
     assert source.read_text(encoding="utf-8") == before
 
-
 def test_json_payload_shape() -> None:
     findings = [Finding("warning", "local_path", "leak", file="docs/x.md", line=1)]
     payload = build_json_payload(
@@ -161,7 +153,6 @@ def test_json_payload_shape() -> None:
     assert "commands" in payload
     json.dumps(payload)
 
-
 def test_scoped_docs_only(tmp_path: Path) -> None:
     (tmp_path / "docs").mkdir()
     (tmp_path / "docs" / "d.md").write_text("docs\n", encoding="utf-8")
@@ -172,7 +163,6 @@ def test_scoped_docs_only(tmp_path: Path) -> None:
     rels = {p.name for p in doc_paths}
     assert "d.md" in rels
     assert "s.md" not in rels
-
 
 def test_missing_optional_checks_graceful(tmp_path: Path) -> None:
     (tmp_path / "docs").mkdir()
@@ -186,7 +176,6 @@ def test_missing_optional_checks_graceful(tmp_path: Path) -> None:
     )
     assert isinstance(findings, list)
 
-
 def test_ledger_taxonomy_maps_categories() -> None:
     findings = [
         Finding("warning", "local_path", "leak"),
@@ -198,7 +187,6 @@ def test_ledger_taxonomy_maps_categories() -> None:
     assert "absolute_path" in cats
     assert "skill_metadata" in cats
     assert ledger["warning_count"] == payload["warning_count"]
-
 
 def test_write_ledger_roundtrip(tmp_path: Path) -> None:
     ledger = {
@@ -213,7 +201,6 @@ def test_write_ledger_roundtrip(tmp_path: Path) -> None:
     write_ledger(out, ledger)
     loaded = json.loads(out.read_text(encoding="utf-8"))
     assert loaded["warning_count"] == 1
-
 
 def test_strict_exit_code_on_warnings(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr("repo_surgeon.REPO_ROOT", tmp_path, raising=False)
@@ -241,7 +228,6 @@ def test_strict_exit_code_on_warnings(tmp_path: Path, monkeypatch: pytest.Monkey
         ],
     )
     assert main() == 1
-
 
 def test_category_taxonomy_has_core_keys() -> None:
     assert CATEGORY_TAXONOMY["broken_link"] == "broken_link"

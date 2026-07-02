@@ -1,7 +1,6 @@
 # Security Council Carrier
 <!-- word_count: 182 -->
 
-
 Use this note when a Russia-lane instrument appears to require collective elite backing rather than only presidential signature.
 
 ## Role In Current State Form

@@ -17,7 +17,6 @@ from backfill_youtube_channel_raw_input import (  # noqa: E402
     infer_guest_from_title,
 )
 
-
 def _write_transcript_fixture(
     output_dir: Path,
     *,
@@ -47,11 +46,9 @@ def _write_transcript_fixture(
     }
     (output_dir / "index.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
-
 def test_infer_guest_from_title_dialogue_works() -> None:
     assert infer_guest_from_title("Nima x Glenn Diesen - Iran, War, and Order") == "Glenn Diesen"
     assert infer_guest_from_title("Nima x Scott Ritter: The Iran Strategy") == "Scott Ritter"
-
 
 def test_convert_index_to_raw_input_writes_threaded_capture(tmp_path: Path) -> None:
     out_dir = tmp_path / "youtube"
@@ -95,7 +92,6 @@ def test_convert_index_to_raw_input_writes_threaded_capture(tmp_path: Path) -> N
     assert "line one" in text
     assert "line two" in text
 
-
 def test_convert_index_to_raw_input_allows_threadless_hub(tmp_path: Path) -> None:
     out_dir = tmp_path / "youtube-hub"
     nb_root = tmp_path / "notebook-hub"
@@ -136,7 +132,6 @@ def test_convert_index_to_raw_input_allows_threadless_hub(tmp_path: Path) -> Non
     assert "host: Alexander Mercouris / Alex Christoforou" in text
     assert "alpha" in text
     assert "beta" in text
-
 
 def test_backfill_channel_index_only_single_worker_enriches_metadata(tmp_path: Path, monkeypatch) -> None:
     work_dir = tmp_path / "work"
@@ -195,7 +190,6 @@ def test_backfill_channel_index_only_single_worker_enriches_metadata(tmp_path: P
     assert len(matches) == 1
     assert "# Title for abc123def45" in matches[0].read_text(encoding="utf-8")
 
-
 def test_direct_channel_index_routes_through_adapter(monkeypatch) -> None:
     calls: dict[str, object] = {}
 
@@ -232,7 +226,6 @@ def test_direct_channel_index_routes_through_adapter(monkeypatch) -> None:
             "error": None,
         }
     ]
-
 
 def test_backfill_channel_transcript_mode_uses_python_cmd(tmp_path: Path, monkeypatch) -> None:
     work_dir = tmp_path / "work"

@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # US Kiev Hold Tense Florida Talks; Kiev NO To Moscow terms; Witkoff Kushner Go Empty Handed To Moscow
 
-

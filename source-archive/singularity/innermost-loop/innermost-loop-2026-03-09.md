@@ -13,8 +13,6 @@ post_id: 190409820
 
 # The Innermost Loop - 2026-03-09
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 9, 2026
@@ -29,10 +27,7 @@ The Singularity is now a spectator sport, and the front row is standing.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now a spectator sport, and the front row is standing. Sam Altman has proposed the ultimate AGI party trick : “What is the hardest question I could ask you that you might get right?” Elon Musk feels “full” AGI arriving by year’s end. Greg Brockman is riffing on Back to the Future : “Benchmarks? Where we’re going, we don’t need benchmarks.” Marc Andreessen has simply named this “The Science Fiction Decade.” Andrej Karpathy’s “autoresearch” project autonomously discovered training improvements across 2 days and 650 experiments , prompting him to ask, “Who knew early singularity could be this fun?” SemiAnalysis’s Dylan Patel offers the most visceral framing : being in SF right now is like being in Wuhan before the pandemic. Something is happening, and so few people realize it.
+- The Singularity is now a spectator sport, and the front row is standing. Sam Altman has proposed the ultimate AGI party trick : “What is the hardest question I could ask you that you might get right?” Elon Musk feels “full” AGI arriving by year’s end. Greg Brockman is riffing on Back to the Future : “Benchmarks? Where we’re going, we don’t need benchmarks.” Marc Andreessen has simply named this “The Science Fiction Decade.” Andrej Karpathy’s “autoresearch” project autonomously discovered training improvements across 2 days and 650 experiments , prompting him to ask, “Who knew early singularity could be this fun?” SemiAnalysis’s Dylan Patel offers the most visceral framing : being in SF right now is like being in Wuhan before the pandemic. Something is happening, and so few people realize it.
 
 The frontier is now defined by what we ask the models to solve. GPT-5.4 (High) can now simulate realistic, numerically stable cloth physics and cutting. Luma AI’s Uni-1 image model topped Nano Banana 2 and GPT Image 1.5 on logic-based benchmarks. Anthropic researcher Alex Alemi launched an Academic Fraud Inclination Metric to measure how willingly LLMs assist with fabricated arXiv submissions, finding GPT-5 the least willing. When the models have ethics, the question is whether the users do.
 

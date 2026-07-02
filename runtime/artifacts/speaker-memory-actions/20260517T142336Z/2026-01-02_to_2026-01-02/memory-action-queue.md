@@ -1,7 +1,5 @@
 # Speaker memory action queue
 
-WORK only; not Record.
-
 Window: `2026-01-02` to `2026-01-02`
 
 - `high` `update-existing-arc` `codex/years/2026/alkhorshid/alkhorshid-wilkerson-speaker-arc.md` (1 appearance(s); grades: transcript-grade)

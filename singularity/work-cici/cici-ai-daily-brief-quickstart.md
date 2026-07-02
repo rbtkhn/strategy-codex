@@ -1,7 +1,5 @@
 # cici-ai Daily Brief Quickstart
 
-WORK only; not Record.
-
 This wrapper is derivative. Canonical method lives in:
 
 - [cici-ai Daily Telegram Brief](cici-ai-daily-telegram-brief.md)

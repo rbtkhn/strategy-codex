@@ -11,7 +11,6 @@ from moonshots_intelligence.evidence import EvidenceBlock
 from moonshots_intelligence.ingest import output_basename
 from moonshots_intelligence.validate import validate_bullets
 
-
 def _attach_canonical_evidence(
     bullets: list[dict[str, Any]],
     evidence_by_id: dict[str, EvidenceBlock],
@@ -33,7 +32,6 @@ def _attach_canonical_evidence(
             }
         )
     return attached
-
 
 def assemble_document(
     *,

@@ -1,6 +1,5 @@
 # Russia - Pakistan Command-Integrity Scare Framework
 
-
 ## Transaction Name
 
 Pakistan strategic-stability channel.

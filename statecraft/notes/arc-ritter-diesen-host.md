@@ -15,7 +15,6 @@ archive_links:
 
 # Diesen x Ritter speaker arc
 
-
 Purpose: compact reuse note for the `Diesen x Ritter` run inside the Diesen stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Ritter lane Diesen elicits, which files matter most, and how this host-local branch carries Ritter from NATO/Ukraine escalation into the later Iran/Hormuz shelf.
 
 ## Why this guest run matters

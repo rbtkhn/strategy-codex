@@ -67,7 +67,7 @@
    - Every tradition carries beauty and a blade. Making the seam visible is the solution.  
    - One subject, many tongues.  
    - Does anyone have to die for this to be true? When the answer is no, that's the beauty. When it's yes, that's the blade.  
-   - (Add 5–10 more from the existing library that are theology/framework only.)
+   - (Add 5–10 more from the existing library that are theology/framenon-authoritative.)
 
 **Deliverable:** `one-line-library-awareness.md` (or equivalent) in the campaign folder.
 

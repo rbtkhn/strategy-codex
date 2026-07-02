@@ -1,6 +1,6 @@
 # Singularity-Academy Sprint Proposal Template
 
-WORK only. Reusable proposal scaffold.
+non-authoritative. Reusable proposal scaffold.
 
 ## Use
 

@@ -1,6 +1,5 @@
 # Macgregor support spine - 2025-2026
 
-
 Purpose: give the Macgregor shelf a speaker-owned support spine beneath the person arc and above compatibility residue. This file does not replace host-local arcs, raw-input, or the helix. It explains how the shelf matures across January 2025 through May 2026, why the `Diesen + Davis` double helix still governs the object, and how the new native monthly shelves should be read without stealing chronology from the hosts.
 
 ## What this spine owns

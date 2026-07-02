@@ -1,6 +1,6 @@
 # Mission spec — template
 
-**WORK only.** Copy to `missions/<mission-slug>/mission-spec.md`.
+**non-authoritative.** Copy to `missions/<mission-slug>/mission-spec.md`.
 
 ## Mission name
 

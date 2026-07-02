@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back. We have the great pleasure today of being joined by Alistair Crooke, one of the great diplomats of uh Britain and Europe, uh who are, you know, sadly in short supply these days. That is the good diplomat. Um there's a lot I wanted to ask you about today from uh what's happening in Iran to of course the the massive uh strike on Moscow.

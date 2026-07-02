@@ -18,7 +18,6 @@ if str(_SCRIPTS) not in sys.path:
 from prediction.plugins.base import MAX_PLUGIN_INFLUENCE  # noqa: E402
 from prediction.run_pipeline import check_enriched_artifacts  # noqa: E402
 
-
 def validate_enriched(payload: dict) -> list[str]:
     issues: list[str] = []
     if payload.get("interpretation") != "epistemic_enriched":
@@ -55,7 +54,6 @@ def validate_enriched(payload: dict) -> list[str]:
 
     return issues
 
-
 def run_check(*, enriched_path: Path | None = None, advisory: bool = False) -> int:
     target = enriched_path or DEFAULT_ENRICHED
     if not target.is_file():
@@ -83,14 +81,12 @@ def run_check(*, enriched_path: Path | None = None, advisory: bool = False) -> i
         print("[ok] epistemic plugin layer valid" + (" (advisory)" if advisory else ""))
     return rc
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--advisory", action="store_true", help="WARN only, exit 0")
     ap.add_argument("--path", type=Path, default=None, help="path to epistemic_enriched.json")
     args = ap.parse_args()
     return run_check(enriched_path=args.path, advisory=args.advisory)
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

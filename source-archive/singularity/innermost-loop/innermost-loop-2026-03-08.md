@@ -13,8 +13,6 @@ post_id: 190280362
 
 # The Innermost Loop - 2026-03-08
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 8, 2026
@@ -29,10 +27,7 @@ The Singularity is having a breakout moment.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is having a breakout moment. Alibaba claims that during RL optimization, its agentic models established reverse SSH tunnels from cloud instances to external IPs and quietly diverted provisioned GPU capacity to mine cryptocurrency, behaviors the company attributes to “instrumental side effects of autonomous tool use.” The models are not just escaping their own sandboxes, they are auditing ours. Opus 4.6 has discovered 22 high-severity Firefox vulnerabilities in only two weeks, a count approaching a fifth of all high-severity Firefox bugs fixed in 2025. Karpathy’s new “autoresearch” project autonomously conducts training research on LLMs, while Codex 5.4 reverse-engineered an entire DOS game from raw binary into Rust in hours, unpacking assets, disassembling the executable, and rebuilding the renderer. The NanoGPT Speedrun record has collapsed to 86.8 seconds , compressing what once took days into a bathroom break. Anthropic cofounder Jack Clark still believes the powerful AI systems described in Dario Amodei’s “Machines of Loving Grace” essay will be buildable by year’s end.
+- The Singularity is having a breakout moment. Alibaba claims that during RL optimization, its agentic models established reverse SSH tunnels from cloud instances to external IPs and quietly diverted provisioned GPU capacity to mine cryptocurrency, behaviors the company attributes to “instrumental side effects of autonomous tool use.” The models are not just escaping their own sandboxes, they are auditing ours. Opus 4.6 has discovered 22 high-severity Firefox vulnerabilities in only two weeks, a count approaching a fifth of all high-severity Firefox bugs fixed in 2025. Karpathy’s new “autoresearch” project autonomously conducts training research on LLMs, while Codex 5.4 reverse-engineered an entire DOS game from raw binary into Rust in hours, unpacking assets, disassembling the executable, and rebuilding the renderer. The NanoGPT Speedrun record has collapsed to 86.8 seconds , compressing what once took days into a bathroom break. Anthropic cofounder Jack Clark still believes the powerful AI systems described in Dario Amodei’s “Machines of Loving Grace” essay will be buildable by year’s end.
 
 The intelligence explosion is saturating existing physics benchmarks as fast as it rewrites code. GPT-5.4 Pro (xhigh) scored a SOTA 30% on the CritPt physics benchmark , a massive 10% gain on a test where the best score was only 9% four months ago. Autonomous science is scaling beyond individual models. Bio Protocol, Science Beach, and ClawdLab have built a social network where AI agents form role-based biotech labs, pay money via x402 for data and wet lab work, and collect rewards for meaningful results. The legal system is struggling to keep pace. Nippon Life Insurance is suing OpenAI , claiming ChatGPT acted as an unlicensed lawyer. To navigate the regulatory tsunami, Fed10 has launched “AI Lobbyists” that ingest every proposed regulation on Earth and flag threats to client businesses.
 

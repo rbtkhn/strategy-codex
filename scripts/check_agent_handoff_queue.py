@@ -85,7 +85,6 @@ BLOCKING_QUESTION_KEYS = frozenset({"asked_at", "question", "needed_from"})
 RECEIPT_KEYS = frozenset({"completed_at", "actor", "stopped_because"})
 GATE_KEYS = frozenset({"type", "reason", "required_decision"})
 
-
 def parse_frontmatter(text: str) -> dict[str, Any]:
     if not text.startswith("---\n"):
         return {}
@@ -101,13 +100,11 @@ def parse_frontmatter(text: str) -> dict[str, Any]:
         return {}
     return data if isinstance(data, dict) else {}
 
-
 def repo_rel(path: Path, repo_root: Path) -> str:
     try:
         return path.relative_to(repo_root).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def iter_items(queue_root: Path) -> list[Path]:
     if not queue_root.exists():
@@ -119,12 +116,10 @@ def iter_items(queue_root: Path) -> list[Path]:
             out.extend(sorted(root.glob("*.md")))
     return sorted(out)
 
-
 def _require_list(data: dict[str, Any], field: str, rel: str, errors: list[str]) -> None:
     value = data.get(field)
     if not isinstance(value, list) or not value:
         errors.append(f"{rel}: `{field}` must be a non-empty list")
-
 
 def _require_dict_keys(
     block: Any,
@@ -141,7 +136,6 @@ def _require_dict_keys(
     for key in missing:
         errors.append(f"{rel}: `{block_name}` missing required key `{key}`")
 
-
 def _parse_created_at(value: Any) -> bool:
     if not value:
         return False
@@ -154,7 +148,6 @@ def _parse_created_at(value: Any) -> bool:
         return False
     return True
 
-
 def _line_claims_authority_violation(line: str) -> str | None:
     if NEGATION_RE.search(line):
         return None
@@ -163,7 +156,6 @@ def _line_claims_authority_violation(line: str) -> str | None:
         if phrase in lowered:
             return phrase
     return None
-
 
 def _check_authority_heuristic(data: dict[str, Any], text: str, rel: str, errors: list[str]) -> None:
     allowed = data.get("allowed_actions")
@@ -181,7 +173,6 @@ def _check_authority_heuristic(data: dict[str, Any], text: str, rel: str, errors
             errors.append(f"{rel}: possible automatic authority promotion phrase `{hit}`")
             break
 
-
 def _check_receipt_evidence(receipt: dict[str, Any], rel: str, warnings: list[str]) -> None:
     has_commands = isinstance(receipt.get("commands_run"), list) and receipt["commands_run"]
     has_files = isinstance(receipt.get("changed_files"), list) and receipt["changed_files"]
@@ -191,7 +182,6 @@ def _check_receipt_evidence(receipt: dict[str, Any], rel: str, warnings: list[st
     if isinstance(evidence, list) and evidence:
         return
     warnings.append(f"{rel}: `receipt` missing `commands_run`, `changed_files`, and evidence")
-
 
 def validate_item(
     path: Path,
@@ -304,7 +294,6 @@ def validate_item(
     _check_authority_heuristic(data, text, rel, errors)
     return (errors, warnings)
 
-
 def validate_queue(
     *,
     repo_root: Path,
@@ -323,16 +312,13 @@ def validate_queue(
         warnings = []
     return errors, warnings, len(items)
 
-
 GLANCE_DIRS = ("agent-todo", "needs-input")
-
 
 def _item_summary(path: Path) -> tuple[str, str]:
     data = parse_frontmatter(path.read_text(encoding="utf-8", errors="replace"))
     item_id = str(data.get("id") or path.stem)
     title = str(data.get("title") or path.stem)
     return item_id, title
-
 
 def render_agent_handoff_glance(*, queue_root: Path = DEFAULT_QUEUE_ROOT) -> str:
     """Compact Step 1 block: open agent-todo and needs-input items."""
@@ -364,7 +350,6 @@ def render_agent_handoff_glance(*, queue_root: Path = DEFAULT_QUEUE_ROOT) -> str
         "Doctrine: docs/agent-handoff-queue.md"
     )
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -403,7 +388,6 @@ def main() -> int:
             print(f"[ok] agent handoff queue ({count} item(s))")
 
     return 1 if errors else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

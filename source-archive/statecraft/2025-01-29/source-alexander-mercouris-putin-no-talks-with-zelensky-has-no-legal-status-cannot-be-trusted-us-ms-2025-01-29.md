@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # PUTIN No Talks With Zelensky, Has No Legal Status, Cannot Be Trusted; US MSM: Military Aid Kiev Stop
 
-

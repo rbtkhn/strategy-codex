@@ -1,6 +1,5 @@
 # Event system — prediction questions
 
-
 ## Core doctrine
 
 > A prediction note records a voice's stance.

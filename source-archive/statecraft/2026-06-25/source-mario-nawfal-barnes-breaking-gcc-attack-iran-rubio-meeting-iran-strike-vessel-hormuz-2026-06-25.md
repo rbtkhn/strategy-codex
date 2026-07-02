@@ -54,7 +54,6 @@ verify:
 
 ## Transcript
 
-
 ### Show Open — Hormuz Strike and Rubio GCC Statement
 
 Got Robert Barnes on the show. Lots of news coming out right now. The first thing is Iran has struck a vessel on the street of Hormuz which was allegedly violating the processes that they've put in place. Also, we had a major statement by the GCC and Marco Rubio, which is very different to a lot of the conversations that we're seeing.
@@ -106,8 +105,6 @@ then he'll flip to the other side. Then flip to this side. Then flip to the othe
  Uh, nobody told me they would hit the Gulf. Everybody told him they would hit the Gulf. So, and he's done multiple variations of this. He'll fan it like he blew this up the first time in April when the basic deal but less generous to Iran was cut and then he just f he he literally confabulated that Iran had agreed to give him the enriched material and agreed to open the straits for forever even if he kept the blockade in.
  It's literally just the opposite of what the deal was. And the emotional trigger is Fox News uh probably he watches it now obsessively. He watches it more than any boomer in existence. He wakes up in the morning watching Fox. He goes to sleep watching Fox. And in between he talks to Mark Levan and especially Sean Hannity on the phone every night.
  He told a friend of mine who was having lunch with him at the White House this fact. And my friend was like, "Holy crap, we're in some trouble." The So that's the hurdle. Basically, you got King Leer in the White House and you got Vance trying to keep us all from going off the global economic edge. uh while the Israel lobby tries to sabotage everything in between.
-
-
 
 ### Vance Evolution — Day-One Hawk to Anti-War
 
@@ -172,8 +169,6 @@ So, Peter Thiel backed him, Blake Masters, and I forget who the third candidate 
  But during that whole time, people were telling me, "Oh, Barnes, it's a fake. It's a head fake. He secretly I was like, trust me, I do know the guy." And so I don't worry as much. and he was one of the few people to say we have to be worried about the surveillance state. Almost nobody else is saying it right now in the White House.
  He said that down at the at the rally at the Turning Point event in at Ole Miss back in the summer. So the so I think he gets th those concerns. He's not that deeply tied in. He's got about as much money as he needs as much from the book deal from the other stuff. And so uh the the ties to him and Thiel are overrated mostly because people don't know Thiel.
  still seems weird, seems secretive, connected all these tech ideas and companies. I do know well his world and he he he doesn't trust politics, doesn't trust US politics, doesn't think he can make a major difference and so I think he's more a distraction. 
-
-
 
 People are right to be concerned about the surveillance state, but focus on Palunteer, its its current organizers, focus on the folks that are currently active with Google, currently active in the big tech space.
 Those people that because I've made this argument about Elon Musk before, too.
@@ -304,7 +299,6 @@ like this critic. Uh, he wants a little wedding certificate. Uh, why don't we ch
 misunderstanding Vance knew who the misunderstanding was with Trump it wasn't with with with the Iranians, everybody and their brother. I mean, heck, the Pakistani uh officials had put it out on X to begin with, including Lebanon right there. So, Vance knew that he was just trying to run cover because uh he whenever he speaks to the on any press conference, the president watches.
 In fact, if you want to reach the president, you're better off going on Fox News than you are talking to him in the White House after the time. So, understand, filter through with Vance. Okay, who's his audience for that particular communication? Uh it's he's been trying to convince the Iranians. We can have two tracks here.
  Whatever we're talking about in the court of public opinion, you for your domestic audience, Trump for his domestic audience, but let's do the real deal behind the scenes. This is why Trita Parsi, what has been consistently correct and advocating he would really like negotiations to be private, not public. That's just not possible to roll with Donald Trump.
-
 
 ### Iran Trust — Dual Track and Event Close
 

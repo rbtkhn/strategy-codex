@@ -57,7 +57,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today is Thursday, June 11th, 2026 and our dear friend, our brother Alex Craner is here with us. Welcome back, Alex. >> Uh, thank you, Neymar. Good to join you again. Greetings to everyone out there. >> Alex, we're back to war. The United States has attacked Iran last night and we had Iranian response.

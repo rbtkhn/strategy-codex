@@ -12,11 +12,9 @@ if str(SCRIPTS) not in sys.path:
 import build_statecraft_day_indices as idx  # noqa: E402
 import statecraft_day_source_index as day_source  # noqa: E402
 
-
 def _write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8", newline="\n")
-
 
 def test_build_day_index_uses_frontmatter_rollups_and_partitions_channel_sources(tmp_path: Path) -> None:
     day = tmp_path / "source-archive" / "statecraft" / "2026-05-26"
@@ -69,7 +67,6 @@ def test_build_day_index_uses_frontmatter_rollups_and_partitions_channel_sources
     assert "- `README.md`" not in text
     assert "- `transcript-napolitano-hoh-why-the-pentagon-lies-2026-05-26.md`" in text
     assert "- `youtube-daniel-davis-deep-dive-us-must-stop-the-siege-of-iran-2026-05-26.md`" in text
-
 
 def test_build_day_index_partitions_writer_and_channel_without_overlap(
     tmp_path: Path, monkeypatch
@@ -131,13 +128,11 @@ def test_build_day_index_partitions_writer_and_channel_without_overlap(
     assert "conflictsforum.substack.com" in text
     assert "`mercouris`" in text or "abc123" in text
 
-
 def test_build_day_readme_stub_points_at_day_index(tmp_path: Path) -> None:
     day = tmp_path / "source-archive" / "statecraft" / "2026-06-18"
     day.mkdir(parents=True)
     stub = idx.build_day_readme_stub(day)
     assert "[day-index.md](./day-index.md)" in stub
-
 
 def test_write_day_index_excludes_day_index_from_source_inventory(tmp_path: Path) -> None:
     day = tmp_path / "source-archive" / "statecraft" / "2026-06-18"
@@ -160,7 +155,6 @@ def test_write_day_index_excludes_day_index_from_source_inventory(tmp_path: Path
     assert "## Other sources" in index_text
     assert "| _none_ | — | — | — |" in index_text
     assert "- `day-index.md`" not in index_text
-
 
 def test_write_day_index_writes_day_index_and_readme_stub(tmp_path: Path) -> None:
     day = tmp_path / "source-archive" / "statecraft" / "2026-03-16"
@@ -187,14 +181,12 @@ def test_write_day_index_writes_day_index_and_readme_stub(tmp_path: Path) -> Non
     assert "placeholder" not in stub_text
     assert "[day-index.md](./day-index.md)" in stub_text
 
-
 def test_statecraft_day_source_index_reads_day_index_file(tmp_path: Path) -> None:
     day = tmp_path / "source-archive" / "statecraft" / "2026-06-17"
     _write(day / "day-index.md", "# Statecraft Archive - Day Index - 2026-06-17\n")
     path, text = day_source.load_day_index("2026-06-17", root=tmp_path / "source-archive" / "statecraft")
     assert path.name == "day-index.md"
     assert "Day Index" in text
-
 
 def test_iter_day_dirs_filters_to_requested_year(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
@@ -206,7 +198,6 @@ def test_iter_day_dirs_filters_to_requested_year(tmp_path: Path) -> None:
     got = idx._iter_day_dirs(root, "2026")
 
     assert [p.name for p in got] == ["2026-01-01", "2026-02-01"]
-
 
 def test_iter_day_dirs_for_scope_filters_month(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"

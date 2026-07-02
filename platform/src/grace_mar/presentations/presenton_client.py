@@ -6,10 +6,8 @@ import uuid
 from typing import Any
 from urllib import error, request
 
-
 class PresentonClientError(RuntimeError):
     """Raised when Presenton generation fails."""
-
 
 def _encode_multipart(fields: dict[str, str]) -> tuple[bytes, str]:
     boundary = f"----grace-mar-presenton-{uuid.uuid4().hex}"
@@ -23,7 +21,6 @@ def _encode_multipart(fields: dict[str, str]) -> tuple[bytes, str]:
         chunks.append(b"\r\n")
     chunks.append(f"--{boundary}--\r\n".encode("utf-8"))
     return b"".join(chunks), boundary
-
 
 class PresentonClient:
     def __init__(self, base_url: str | None = None, api_key: str | None = None) -> None:

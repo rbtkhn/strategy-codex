@@ -1,7 +1,5 @@
 # Predictive History Comment Template Pack
 
-WORK only; not Record.
-
 ## Purpose
 
 Use these as draft archetypes, not copy-paste defaults. Every posted comment should still be lecture-specific.

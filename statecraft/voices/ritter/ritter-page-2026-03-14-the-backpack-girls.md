@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-03-14 (*The Backpack Girls*)
 <!-- word_count: 5189 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-03-14 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 5190
@@ -250,7 +249,6 @@ A mass murderer.
 
 And the living manifestation of everything that has gone wrong with the United States over the course of the past 30 years.
 
-
 ### Reflection
 
 **Operator note:** Operator byline Mar 14, 2026; Substack UI shows Mar 15, 2026 (timezone). Speculative scenario (Feb 28, 2026 strike, Anthropic/Claude targeting). Light cleanup of operator/OCR errors only; CHMR acronym normalized where source had CHRM.
@@ -273,14 +271,11 @@ IHL content: useful for notebook legal seams; adjudication belongs to courts or 
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

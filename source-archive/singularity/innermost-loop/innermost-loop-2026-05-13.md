@@ -13,8 +13,6 @@ post_id: 197493859
 
 # The Innermost Loop - 2026-05-13
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 13, 2026
@@ -29,10 +27,7 @@ The Singularity is the moment the test-taker becomes the test-maker.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is the moment the test-taker becomes the test-maker. ProgramBench , an eval that measures whether language models can rebuild programs from scratch, just had its first task solved by both GPT 5.5 high and xhigh, which respectively chose C and Python, with xhigh dominating the broader benchmark. The new AI IQ meta-eval maps a calibrated mix of 12 existing benchmarks onto implied IQs and crowned GPT-5.5 the smartest available model with a score of 136, well past Mensa. Agents are learning to write their own marching orders too, with users now metaprompting Codex to draft its own “/goal,” and one calling the resulting stack “the highest leverage AI agent configuration available today.”
+- The Singularity is the moment the test-taker becomes the test-maker. ProgramBench , an eval that measures whether language models can rebuild programs from scratch, just had its first task solved by both GPT 5.5 high and xhigh, which respectively chose C and Python, with xhigh dominating the broader benchmark. The new AI IQ meta-eval maps a calibrated mix of 12 existing benchmarks onto implied IQs and crowned GPT-5.5 the smartest available model with a score of 136, well past Mensa. Agents are learning to write their own marching orders too, with users now metaprompting Codex to draft its own “/goal,” and one calling the resulting stack “the highest leverage AI agent configuration available today.”
 
 That leverage is being industrialized across every layer of the stack. Anthropic has launched “Claude for the legal industry,” shipping 20-plus MCP connectors that link Claude to the software the legal industry runs on, alongside 12 practice-area plugins, and partnering with the Free Law Project and the Justice Technology Association to put counsel within reach of people who currently cannot access it. Google is fusing intelligence into the OS layer with Gemini Intelligence , which lets users vibe-code their own Android widgets, plus a Gemini-powered mouse pointer that understands what it is pointing at, finally making the prompt a gesture rather than a paragraph. The chassis is being rebuilt to match. Google has unveiled the Googlebook , a Chromebook successor that merges ChromeOS and Android into a single Gemini-optimized OS , arriving this fall as Mountain View’s answer to Apple’s MacBook Neo.
 

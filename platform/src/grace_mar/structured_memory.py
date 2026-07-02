@@ -180,7 +180,6 @@ _SESSION_EVENT_LEGACY_MAP: dict[str, str] = {
     "session_end": "archive/placeholders/evidence",
 }
 
-
 @dataclass(frozen=True)
 class CaptureRoute:
     """Result of a surface routing decision."""
@@ -189,10 +188,8 @@ class CaptureRoute:
     legacy_surface_key: str
     reason: str
 
-
 def _utc_now() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
 
 def normalize_surface_key(value: str | None) -> str | None:
     """Normalize a caller-provided surface hint to a canonical structured surface."""
@@ -203,23 +200,18 @@ def normalize_surface_key(value: str | None) -> str | None:
     token = " ".join(token.split())
     return SURFACE_ALIASES.get(token, token if token in STRUCTURED_SURFACES else None)
 
-
 def surface_title(surface_key: str) -> str:
     return _SURFACE_TITLES.get(surface_key, surface_key.replace("_", " ").title())
-
 
 def legacy_surface_for(surface_key: str) -> str:
     return _LEGACY_MAP.get(surface_key, "prepared_context")
 
-
 def legacy_surface_for_event(event_type: str) -> str:
     return _SESSION_EVENT_LEGACY_MAP.get(event_type, "prepared_context")
-
 
 def _count_keyword_hits(text: str, surface_key: str) -> int:
     lowered = text.lower()
     return sum(1 for kw in _SURFACE_KEYWORDS[surface_key] if kw in lowered)
-
 
 def route_capture_surface(text: str, surface_hint: str | None = None) -> CaptureRoute:
     """Route a capture into a structured surface.
@@ -255,7 +247,6 @@ def route_capture_surface(text: str, surface_hint: str | None = None) -> Capture
         reason="default fallback to thinking",
     )
 
-
 def suggest_title(text: str, *, fallback: str = "Untitled entry") -> str:
     """Derive a compact title from the first meaningful fragment of text."""
 
@@ -268,7 +259,6 @@ def suggest_title(text: str, *, fallback: str = "Untitled entry") -> str:
             if candidate:
                 return candidate[:90]
     return clean[:90]
-
 
 def build_capture_record(
     text: str,
@@ -296,7 +286,6 @@ def build_capture_record(
         "created_at": _utc_now(),
     }
 
-
 def build_session_event(
     event_type: str,
     *,
@@ -322,7 +311,6 @@ def build_session_event(
         "created_at": _utc_now(),
     }
 
-
 def _coerce_items(items: Sequence[Mapping[str, Any] | str] | None) -> list[dict[str, Any]]:
     coerced: list[dict[str, Any]] = []
     for item in items or ():
@@ -340,7 +328,6 @@ def _coerce_items(items: Sequence[Mapping[str, Any] | str] | None) -> list[dict[
             coerced.append({"title": title, "body": body, "metadata": dict(item.get("metadata") or {})})
     return coerced
 
-
 def _render_items(items: Sequence[Mapping[str, Any] | str] | None) -> list[str]:
     bullets: list[str] = []
     for item in _coerce_items(items):
@@ -352,13 +339,11 @@ def _render_items(items: Sequence[Mapping[str, Any] | str] | None) -> list[str]:
             bullets.append(f"- {body or title}")
     return bullets
 
-
 def _render_section(lines: list[str], heading: str, items: Sequence[Mapping[str, Any] | str] | None) -> None:
     rendered = _render_items(items)
     if not rendered:
         return
     lines.extend([f"## {heading}", *rendered, ""])
-
 
 def build_briefing(
     structured_state: Mapping[str, Sequence[Mapping[str, Any] | str]] | None = None,
@@ -414,7 +399,6 @@ def build_briefing(
 
     return "\n".join(lines).rstrip() + "\n"
 
-
 def get_briefing(
     structured_state: Mapping[str, Sequence[Mapping[str, Any] | str]] | None = None,
     *,
@@ -423,7 +407,6 @@ def get_briefing(
     """Full briefing surface used by the bridge and repo-local tests."""
 
     return build_briefing(structured_state, session_manifest=session_manifest, title="Briefing")
-
 
 def standup(
     structured_state: Mapping[str, Sequence[Mapping[str, Any] | str]] | None = None,
@@ -439,12 +422,10 @@ def standup(
         compact=True,
     )
 
-
 def start_session(repo_root: Path, fork_id: str, *, channel: str = "operator") -> dict[str, Any]:
     """Thin wrapper around the existing fork lifecycle session starter."""
 
     return fork_lifecycle.begin_session(repo_root, fork_id, channel=channel)
-
 
 def wrap_up(
     repo_root: Path,
@@ -463,7 +444,6 @@ def wrap_up(
         drift_score_after=drift_score_after,
         git_commit=git_commit,
     )
-
 
 def build_tool_payload(
     tool: str,

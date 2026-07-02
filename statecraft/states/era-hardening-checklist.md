@@ -1,6 +1,5 @@
 # CIV-STATE Era Hardening Checklist
 
-
 Use this checklist when hardening or reviewing CIV-STATE bibliography structure, volume chronology, or era-facing retrieval doctrine.
 
 ## Chronology Law

@@ -18,7 +18,6 @@ archive_links:
 ---
 # Sachs × Wilkerson × Barnes — NYT Spying Story as Pushback Instrument
 
-
 **Parent:** [Foreign client mesh separation and command review](../america/transactions/foreign-client-mesh-separation-and-command-review.md) · [June 8 daily](../synthesis/day/2026-06-08.md) · **Prior:** [Wilkerson × Hoh Section 224 receipt](2026-06-08-wilkerson-hoh-section-224-mesh-receipt.md) · [Barnes America capture](2026-06-08-barnes-america-capture-non-intercept-colby-mou.md)
 
 **Sources:**

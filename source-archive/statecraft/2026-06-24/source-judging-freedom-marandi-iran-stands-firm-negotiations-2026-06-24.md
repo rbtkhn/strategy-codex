@@ -46,7 +46,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Negotiations and Tehran
 
 Hi everyone, Judge Andrew Npalitano here for Judging Freedom.

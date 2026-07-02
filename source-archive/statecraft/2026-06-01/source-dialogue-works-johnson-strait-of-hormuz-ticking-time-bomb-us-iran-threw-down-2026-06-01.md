@@ -29,7 +29,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Monday, June 1st, Larry 2026. Just >> good lord. You know, when you get to be my age, man, this time starts just dripping, flying by. I thought I thought we just celebrating, you know, New Year's Eve. >> Here we are six months later. >> Yeah, exactly. It just >> By the way, nice shirt.

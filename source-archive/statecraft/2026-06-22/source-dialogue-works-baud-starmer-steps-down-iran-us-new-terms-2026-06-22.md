@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today Monday June 22nd 2026 and our dear friend our brother Colonel Jacques Baud is here with us. Welcome, Colonel. >> Thank you very much for inviting me again. Hello to everybody. Colonel, I want to start with the breaking news in the United Kingdom. Starmer stepped down and here is you know after two three prime minister coming you know to the power then resigning right now Starmer is out but looking at the picture of Europe today before coming to this live you said the whole system is creating incompetence

@@ -30,7 +30,6 @@ synced_by: sync_portable_skills.py
 
 **Preferred name (new work):** **`speaker arc`** in strategy-codex / codex surfaces.
 
-
 ## Cursor / strategy-codex instance
 
 Grace-mar paths and commands for this repository (from `.cursor/skills/strategy-notebook-guest-canon-note/`).

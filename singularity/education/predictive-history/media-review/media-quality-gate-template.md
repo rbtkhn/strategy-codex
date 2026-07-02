@@ -1,7 +1,5 @@
 # Media Quality Gate — [lesson-id]
 
-WORK only; not Record.
-
 **Media pack:** `media-packs/[lesson-id]/`
 **Reviewer:**
 **Date:**

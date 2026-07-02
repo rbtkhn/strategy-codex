@@ -1,6 +1,5 @@
 # Rome Ancient Paired Reading Wedge
 
-
 ## Two Primary Anchors
 
 1. [Republic-era constitutional and annalistic texts](../volumes/civ-state-rome/civ-state-rome-primary-sources-ancient.md) that carry law, office, and civic order.

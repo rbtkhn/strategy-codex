@@ -12,7 +12,6 @@ if str(SRC) not in sys.path:
 
 from grace_mar.runtime import runtime_memory  # noqa: E402
 
-
 def test_runtime_use_cases_list_the_expected_workflow_surfaces() -> None:
     names = [case["name"] for case in runtime_memory.RUNTIME_USE_CASES]
     assert names == [
@@ -22,7 +21,6 @@ def test_runtime_use_cases_list_the_expected_workflow_surfaces() -> None:
         "retrieval_miss_logging",
         "wrap_up_handoff",
     ]
-
 
 def test_session_start_brief_reads_continuity_files(monkeypatch) -> None:
     contents = {
@@ -48,7 +46,6 @@ def test_session_start_brief_reads_continuity_files(monkeypatch) -> None:
     assert "self-evidence.md" in brief["markdown"]
     assert "workspace.md" in brief["markdown"]
     assert "session-continuity-contract.md" in brief["markdown"]
-
 
 def test_get_briefing_renders_sections() -> None:
     brief = runtime_memory.get_briefing(
@@ -78,7 +75,6 @@ def test_get_briefing_renders_sections() -> None:
     assert "## Session Events" in brief
     assert "north_star / active_projects / decisions -> governed_state" in brief
 
-
 def test_standup_omits_session_events() -> None:
     standup = runtime_memory.standup(
         {
@@ -91,7 +87,6 @@ def test_standup_omits_session_events() -> None:
     assert "# Standup" in standup
     assert "## Thinking" in standup
     assert "## Session Events" not in standup
-
 
 def test_capture_observation_has_fingerprint_and_session() -> None:
     obs = runtime_memory.capture_observation(
@@ -109,7 +104,6 @@ def test_capture_observation_has_fingerprint_and_session() -> None:
     assert obs["metadata"] == {"tool": "rg"}
     assert len(obs["fingerprint"]) == 64
 
-
 def test_capture_tool_use_has_fingerprint_and_session() -> None:
     obs = runtime_memory.capture_tool_use(
         "The search found the missing transcript.",
@@ -125,7 +119,6 @@ def test_capture_tool_use_has_fingerprint_and_session() -> None:
     assert obs["lane"] == "work-dev"
     assert obs["metadata"] == {"tool": "rg"}
     assert len(obs["fingerprint"]) == 64
-
 
 def test_capture_decision_and_brag_route_separately() -> None:
     decision = runtime_memory.capture_decision(
@@ -146,7 +139,6 @@ def test_capture_decision_and_brag_route_separately() -> None:
     assert brag["source"] == "brag"
     assert brag["observation_type"] == "brag"
 
-
 def test_retrieval_miss_record_contains_context() -> None:
     miss = runtime_memory.log_retrieval_miss(
         "structured memory use cases",
@@ -166,7 +158,6 @@ def test_retrieval_miss_record_contains_context() -> None:
     assert miss["failure_class"] == "scope_mismatch"
     assert miss["related_paths"] == ["docs/runtime-vs-record.md"]
     assert miss["suggested_improvement"] == "point the query at runtime docs first"
-
 
 def test_wrap_up_and_sync_receipt_shapes() -> None:
     wrap = runtime_memory.wrap_up(

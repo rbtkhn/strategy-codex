@@ -66,10 +66,6 @@ Make no mistake, Will Schryver observes,
 
 But for Team Trump to say out loud that a strike on Iran is about cementing Israel’s Middle East hegemony, is considered by the Team to be a non-palatable framing for touting ‘another big Middle East war’ to an US electorate adverse to casualties and increasingly sceptical of Trump’s prioritising of Israeli interests.
 
-
-
-
-
 The dilemma of a lack of rationale for war evidently became so acute that US officials agreed that Israel should strike first, in order to make an Iranian war as ‘politically palatable’ to the domestic audience as possible.
 
 Anna Barsky, writing in Hebrew Ma’ariv last week, argued that the suggestion that Israel ‘goes first’ “… seeps from the ironic to the chilling. Because it outlines a scenario in which Israel functions, consciously and by design, as the opening shot of a move that is intended first and foremost to produce a consciousness effect in the United States”.
@@ -103,5 +99,4 @@ But with Iran effectively having called Trump’s bluff, he is faced with the hu
 Trump is a truly committed supporter of Israel, but he is within a whisker from sinking his Presidency on this rock.
 
 Perhaps he had no choice.
-
 

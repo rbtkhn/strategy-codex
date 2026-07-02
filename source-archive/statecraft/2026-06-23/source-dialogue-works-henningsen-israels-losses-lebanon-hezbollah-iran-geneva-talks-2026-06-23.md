@@ -81,7 +81,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Geneva and Lebanon
 
 Hi everybody. Today's Tuesday, June 23rd, 20126 and our dear friend, our brother Patrick Henningson is here with us.

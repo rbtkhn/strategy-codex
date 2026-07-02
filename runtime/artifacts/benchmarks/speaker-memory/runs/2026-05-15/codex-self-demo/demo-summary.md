@@ -1,6 +1,6 @@
 # Speaker Memory Benchmark Demo Summary
 
-**Status:** demonstration run. WORK only. Not Record. Not EVIDENCE.
+**Status:** demonstration run. non-authoritative. Not Record. Not EVIDENCE.
 
 This demo ran both first speaker-memory fixtures without editing source speaker folders.
 
@@ -19,7 +19,7 @@ The benchmarks are useful because they separate three things that can otherwise 
 - speaker identity versus host-conditioned arc form
 - lattice lookup versus interpretation surface
 
-The demo also shows how a benchmark can reveal actionable hygiene without touching canonical files: SM-2 noticed that the current Diesen x Freeman arc is substantively good but lacks an explicit `WORK only; not Record.` boundary line.
+The demo also shows how a benchmark can reveal actionable hygiene without touching canonical files: SM-2 noticed that the current Diesen x Freeman arc is substantively good but lacks an explicit `` boundary line.
 
 ## Next Useful Benchmark Test
 

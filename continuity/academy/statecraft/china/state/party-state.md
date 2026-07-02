@@ -1,7 +1,6 @@
 # Party-State Carrier
 <!-- word_count: 166 -->
 
-
 Use this note when a China-lane instrument requires institutional implementation beyond the top leader.
 
 ## Role In Current State Form

@@ -16,7 +16,6 @@ if str(SCRIPTS) not in sys.path:
 
 from gated_record_rules import allowed_gated_commit_message, is_gated_record_path
 
-
 @pytest.mark.parametrize(
     "rel,expected",
     [
@@ -34,7 +33,6 @@ from gated_record_rules import allowed_gated_commit_message, is_gated_record_pat
 def test_is_gated_record_path(rel: str, expected: bool) -> None:
     assert is_gated_record_path(rel) is expected
 
-
 @pytest.mark.parametrize(
     "msg,ok",
     [
@@ -47,7 +45,6 @@ def test_is_gated_record_path(rel: str, expected: bool) -> None:
 )
 def test_allowed_gated_commit_message(msg: str, ok: bool) -> None:
     assert allowed_gated_commit_message(msg) is ok
-
 
 def test_check_gated_record_pr_passes_clean_range(tmp_path: Path) -> None:
     subprocess.run(["git", "init"], cwd=tmp_path, check=True, capture_output=True)
@@ -110,7 +107,6 @@ def test_check_gated_record_pr_passes_clean_range(tmp_path: Path) -> None:
         text=True,
     )
     assert r.returncode == 0, r.stderr
-
 
 def test_check_gated_record_pr_fails_without_token(tmp_path: Path) -> None:
     subprocess.run(["git", "init"], cwd=tmp_path, check=True, capture_output=True)

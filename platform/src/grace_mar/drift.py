@@ -12,7 +12,6 @@ from typing import Any
 
 from grace_mar.fork_state import drift_report_path, load_fork_state, write_fork_state
 
-
 def _pending_count(gate_text: str) -> int:
     n = 0
     for m in re.finditer(
@@ -22,7 +21,6 @@ def _pending_count(gate_text: str) -> int:
         if re.search(r"^\s*status:\s*pending\s*$", blk, re.MULTILINE | re.IGNORECASE):
             n += 1
     return n
-
 
 def _real_world_pending(gate_text: str) -> int:
     n = 0
@@ -35,7 +33,6 @@ def _real_world_pending(gate_text: str) -> int:
         ):
             n += 1
     return n
-
 
 def _days_since_last_merge(merge_receipts: Path) -> float | None:
     if not merge_receipts.is_file():
@@ -58,10 +55,8 @@ def _days_since_last_merge(merge_receipts: Path) -> float | None:
         pass
     return None
 
-
 def _clamp01(x: float) -> float:
     return max(0.0, min(1.0, x))
-
 
 def compute_drift_report(repo_root: Path, fork_id: str) -> Path:
     profile = repo_root / "platform/users" / fork_id

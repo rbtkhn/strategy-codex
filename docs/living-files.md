@@ -1,6 +1,5 @@
 # Living files
 
-
 A **living file** is durable repo material that humans and agents can load as context, instruction, evidence, synthesis, or reusable work product.
 
 Agent work compounds when useful outputs are promoted into **governed paths** instead of staying in chat, terminal scrollback, or untracked scratch. This doc names that habit; it does not replace the SSOT surfaces below.

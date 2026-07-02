@@ -16,7 +16,6 @@ archive_links:
 
 # Diesen x Johnson speaker arc
 
-
 Purpose: compact reuse note for the `Diesen x Johnson` run inside the Diesen stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Johnson lane Diesen elicits, which files matter most, and how this host-local run differs from the Davis and Dialogue Works Johnson lanes.
 
 ## Why this guest run matters

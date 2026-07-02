@@ -14,12 +14,10 @@ if str(_SCRIPTS) not in sys.path:
 from build_review_dashboard import _pending_structs, _processed_structs  # noqa: E402
 from operator_dashboard_common import extract_yaml_scalar, load_self_library_entries  # noqa: E402
 
-
 def test_extract_yaml_scalar() -> None:
     blob = 'status: pending\nsummary: "Hello | world"\n'
     assert extract_yaml_scalar(blob, "status") == "pending"
     assert "Hello" in (extract_yaml_scalar(blob, "summary") or "")
-
 
 def test_pending_structs_finds_pending_anywhere() -> None:
     gate = textwrap.dedent(
@@ -37,7 +35,6 @@ def test_pending_structs_finds_pending_anywhere() -> None:
     assert len(p) == 1
     assert p[0]["id"] == "CANDIDATE-0001"
 
-
 def test_processed_structs() -> None:
     tail = textwrap.dedent(
         """
@@ -51,7 +48,6 @@ def test_processed_structs() -> None:
     pr = _processed_structs(tail)
     assert len(pr) == 1
     assert pr[0]["status"] == "approved"
-
 
 def test_load_self_library_entries_minimal(tmp_path: Path) -> None:
     user = "u1"

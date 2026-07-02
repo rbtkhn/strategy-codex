@@ -22,19 +22,16 @@ parse_and_normalize = _mod.parse_and_normalize
 FIXTURE_IN = REPO_ROOT / "tests" / "tacit" / "fixtures" / "inbox" / "demo-note.md"
 FIXTURE_EXPECTED = REPO_ROOT / "tests" / "tacit" / "fixtures" / "expected" / "demo-note.normalized.json"
 
-
 def test_normalize_demo_fixture_matches_golden() -> None:
     raw = FIXTURE_IN.read_text(encoding="utf-8")
     got = parse_and_normalize(raw, provenance_path="tests/tacit/fixtures/inbox/demo-note.md")
     expected = json.loads(FIXTURE_EXPECTED.read_text(encoding="utf-8"))
     assert got == expected
 
-
 def test_malformed_missing_raw_section() -> None:
     bad = "# Tacit Capture\nlane: x\ntimestamp: 2026-01-01T00:00:00Z\nsource: t\n"
     with pytest.raises(ValueError, match="Raw note"):
         parse_and_normalize(bad, provenance_path="x.md")
-
 
 def test_malformed_missing_lane() -> None:
     bad = """# Tacit Capture
@@ -47,7 +44,6 @@ body
 """
     with pytest.raises(ValueError, match="lane"):
         parse_and_normalize(bad, provenance_path="x.md")
-
 
 @pytest.mark.skipif(
     __import__("importlib.util").util.find_spec("jsonschema") is None,

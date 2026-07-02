@@ -1,7 +1,5 @@
 # Learner Feedback Review — [YYYY-MM]
 
-WORK only; not Record.
-
 **Review period:**
 **Lessons in scope:**
 **Reviewer:**

@@ -67,7 +67,6 @@ summary: rejected in processed
 
 """
 
-
 def test_build_gate_board_subprocess(tmp_path: Path) -> None:
     uid = "fixture-gate-board"
     root = tmp_path / "repo"

@@ -1,6 +1,6 @@
 # Strategy-codex redesign brief
 
-**Status:** operator planning artifact · **work only; not Record**  
+**Status:** operator planning artifact · **non-authoritative; not Record**  
 **Purpose:** Merge two “from scratch” redesign memos into one ranked action map tied to **this repo’s paths** — not greenfield fantasy.  
 **Companion essays:** [from-accumulation-to-governed-interpretive-machine.md](../essays/from-accumulation-to-governed-interpretive-machine.md) · [operator-two-channel-architecture.md](operator-two-channel-architecture.md) · [work-membrane-v2.md](work-membrane-v2.md)
 

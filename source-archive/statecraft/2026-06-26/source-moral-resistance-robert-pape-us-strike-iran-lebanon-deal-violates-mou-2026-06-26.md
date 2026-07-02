@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Escalation Trap and MOU Article 1
 
 in. We've got Professor Robert Pipe on the show. Initially, when I asked him to come on the show, I thought I'm going to ask him, "Professor Pape, the war seems like it's over. Are we now moving towards the uh fourth uh track of his um presentation?" And I thought like this is it. Is this Iran consolidating power now? And they're going to start moving towards the fourth center of power. But since then, we've had two major revelations today. First of all, the US bombs Iran at least three times. We had the uh attack by Iran on a vessel in the Strait of Hormuz yesterday. And in addition to that, we've got this contradictory agreement between Lebanon, United States of America, and Israel, which completely directly conflicts with the first article of the MOU. So, Professor Robert Pip, thank you so much for joining us.

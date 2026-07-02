@@ -25,15 +25,12 @@ ENROLLED_PILOT_EVENTS: frozenset[str] = frozenset(
     eid for cfg in VOICE_REGISTRY.values() for eid in cfg.pilot_event_order
 )
 
-
 def event_id_to_wire_stub_slug(event_id: str) -> str:
     return str(event_id).replace("_", "-")
-
 
 def wire_stub_path(event_id: str) -> Path:
     slug = event_id_to_wire_stub_slug(event_id)
     return REPO_ROOT / "statecraft" / "notes" / "wire" / f"prediction-resolution-{slug}.md"
-
 
 def check_registry(
     events: dict[str, dict[str, Any]],
@@ -92,7 +89,6 @@ def check_registry(
 
     return errors, warnings, queue_items
 
-
 def emit_review_queue(items: list[dict[str, Any]], *, output_path: Path) -> None:
     payload = {
         "_meta": {
@@ -104,7 +100,6 @@ def emit_review_queue(items: list[dict[str, Any]], *, output_path: Path) -> None
     }
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -139,7 +134,6 @@ def main() -> int:
         return 1
     print(f"[ok] event registry check passed ({len(warnings)} warning(s))")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

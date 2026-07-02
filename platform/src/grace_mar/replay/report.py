@@ -20,7 +20,6 @@ from grace_mar.replay.loaders import (
     load_pipeline_events,
 )
 
-
 def _footer_block() -> list[str]:
     return [
         "",
@@ -29,7 +28,6 @@ def _footer_block() -> list[str]:
         "_Audit lane only. For identity truth, use approved Record files; for full prompt traces, see product logging policy._",
         "",
     ]
-
 
 def build_report(
     user_dir: Path,
@@ -187,6 +185,5 @@ def build_report(
 
     lines.extend(_footer_block())
     return "\n".join(lines)
-
 
 __all__ = ["build_report"]

@@ -13,8 +13,6 @@ post_id: 191478552
 
 # The Innermost Loop - 2026-03-19
 
-WORK only; not Record.
-
 ## Source
 
 - Title: The First American Professional Robotics Sports League
@@ -29,10 +27,7 @@ The Singularity just got a stadium.
 
 ## Newsletter Text
 
--
--
-
-The Singularity just got a stadium.
+- The Singularity just got a stadium.
 
 Last August, 500 robots from 16 countries competed in track and field, soccer, and kickboxing at a former Olympic venue in Beijing. The Chinese government staged it as a strategic national showcase—the World Humanoid Robot Games —and months earlier had hosted the world’s first humanoid robot half-marathon . These weren’t just spectacles. They functioned as public testbeds that accelerated commercialization. The half-marathon runner-up’s manufacturer reportedly received over 2,000 commercial orders in the months that followed. Beijing is using sports events to compress the path from prototype to product, an industrial strategy disguised as entertainment.
 

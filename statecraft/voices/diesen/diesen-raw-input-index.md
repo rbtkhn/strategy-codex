@@ -1,6 +1,5 @@
 # Diesen Raw-Input Index
 
-
 Compatibility pointer only.
 
 Guest captures: [diesen-index.md](diesen-index.md). Host channel: [glenn-diesen-channel-index.md](../../channels/glenn-diesen/glenn-diesen-channel-index.md). Redirect hub: [diesen-source-index.md](diesen-source-index.md).

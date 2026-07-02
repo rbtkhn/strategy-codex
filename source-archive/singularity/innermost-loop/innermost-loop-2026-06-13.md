@@ -13,8 +13,6 @@ post_id: 199863962
 
 # The Innermost Loop - 2026-06-13
 
-WORK only; not Record.
-
 ## Source
 
 - Title: The Innermost Loop: Greenwich — June 13, 2026
@@ -29,10 +27,7 @@ The first Innermost Loop gathering is happening June 13, 2026 over lunch in Gree
 
 ## Newsletter Text
 
--
--
-
-The first Innermost Loop gathering is happening June 13, 2026 over lunch in Greenwich, CT.
+- The first Innermost Loop gathering is happening June 13, 2026 over lunch in Greenwich, CT.
 
 Application only.
 

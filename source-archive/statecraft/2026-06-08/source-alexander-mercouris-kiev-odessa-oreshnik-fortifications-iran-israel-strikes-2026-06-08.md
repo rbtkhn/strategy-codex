@@ -31,7 +31,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Monday 8th June 2026 and as you can see I am in an airport to be precise waiting for my flight which is going to take me to Moscow. Um I have decided to do my program here in um this airport which is in fact Istanbul airport because I'm not quite sure um what the arrangements will be when I arrive in Moscow and it may be that on my arrival there'll be many things to do and there won't be time to do a program.

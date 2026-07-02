@@ -1,6 +1,5 @@
 # Armstrong speaker object
 
-
 object_shape: single-helix
 
 Purpose: define Armstrong as a first-class speaker object in a way that matches the actual shelf reality. Armstrong is no longer just a native commentary shelf with page-level reuse. He now has one clearly mature host-local branch inside the Dialogue Works stream, while his native Armstrong shelf and thinner outside-host evidence continue to reinforce the object without forcing a premature double-helix claim.

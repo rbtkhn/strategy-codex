@@ -24,14 +24,12 @@ import auto_dream  # noqa: E402
 
 FIXTURE = ROOT / "tests/fixtures/self_memory_normalize_telemetry_note.md"
 
-
 def _fixture_date() -> date:
     """Extract the date from the fixture's 'Last rotated:' line."""
     text = FIXTURE.read_text(encoding="utf-8")
     m = re.search(r"^Last rotated:\s*(\d{4}-\d{2}-\d{2})", text, re.MULTILINE)
     assert m, "fixture must contain a 'Last rotated: YYYY-MM-DD' line"
     return date.fromisoformat(m.group(1))
-
 
 def test_normalize_fixture_round_trip_collapsed_count_telemetry_note():
     """Fixed fixture reproduces Telemetry note pairing (see memory-self-audit.md)."""
@@ -44,7 +42,6 @@ def test_normalize_fixture_round_trip_collapsed_count_telemetry_note():
     assert collapsed == 3
     assert deduped == 0
     assert added == []
-
 
 def test_maintain_self_memory_exposes_telemetry_fields(tmp_path):
     user_dir = tmp_path / "platform/users" / "demo"
@@ -60,7 +57,6 @@ def test_maintain_self_memory_exposes_telemetry_fields(tmp_path):
     assert r.blank_lines_collapsed == 3
     assert r.changed is False
     assert r.deduped_lines == 0
-
 
 def test_run_auto_dream_summary_self_memory_json_keys(tmp_path):
     user_dir = tmp_path / "platform/users" / "demo"

@@ -8,7 +8,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture
 def tmp_user_profile(tmp_path, monkeypatch):
     """Minimal  tree with gate + pipeline-events.jsonl."""
@@ -81,7 +80,6 @@ profile_target: IX-B.1
     monkeypatch.setattr(rgr, "DEFAULT_USER", uid)
     return uid, rgr, ud
 
-
 def test_pipeline_events_index_last_eight_per_candidate(tmp_user_platform/profile):
     uid, rgr, _ud = tmp_user_profile
     idx = rgr._pipeline_events_index(uid)
@@ -89,7 +87,6 @@ def test_pipeline_events_index_last_eight_per_candidate(tmp_user_platform/profil
     assert idx["CANDIDATE-0001"][-1]["ts"] == "2025-01-01T00:00:19Z"
     assert len(idx["CANDIDATE-0002"]) == 8
     assert idx["CANDIDATE-0002"][-1]["ts"] == "2025-01-02T00:00:14Z"
-
 
 def test_parse_review_candidates_reads_pipeline_file_once(tmp_user_platform/profile):
     uid, rgr, ud = tmp_user_profile
@@ -108,7 +105,6 @@ def test_parse_review_candidates_reads_pipeline_file_once(tmp_user_platform/prof
     assert calls["n"] == 1
     assert len(rows) == 2
     assert len(rows[0]["audit_trail"]) <= 8
-
 
 def test_pipeline_events_for_candidate_matches_index(tmp_user_platform/profile):
     uid, rgr, _ud = tmp_user_profile

@@ -31,7 +31,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 in we've got professor pap back again he came last time he spoke in depth about his perspective in relation to the escalation trap well it seems like what's happening when you look at the current war is things are moving towards his fourth avenue which is that Iran is becoming the fourth power in the world we're going to speak about that we're going to be speaking about the ceasefire deal we're going to be speaking about all of those things with professor Pep Professor Pap, thank you so much for taking your time out to join us. How are

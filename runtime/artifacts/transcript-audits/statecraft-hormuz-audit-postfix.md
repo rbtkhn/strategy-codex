@@ -1,7 +1,5 @@
 # Hormuz Mistranscription Audit
 
-WORK only; not Record.
-
 - root: `source-archive/statecraft`
 - total candidate files: `1`
 - total findings: `1`
@@ -11,7 +9,6 @@ WORK only; not Record.
 - `context_only`: `1`
 
 ## Variant Family Counts
-
 
 ## Highest-Density Files
 

@@ -13,8 +13,6 @@ post_id: 197746504
 
 # The Innermost Loop - 2026-05-14
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 14, 2026
@@ -29,10 +27,7 @@ The Singularity doesn’t arrive, it compounds.
 
 ## Newsletter Text
 
--
--
-
-The Singularity doesn’t arrive, it compounds. OpenAI has reportedly begun internal testing of GPT-5.6 , with launch expected next month, while Google prepares a new Gemini at I/O that will land roughly in the class of GPT-5.5 and well short of Anthropic’s Mythos. The UK’s AI Security Institute confirms the pace, finding capability doubling time has compressed to 4.5 months, with Mythos and GPT-5.5 having no clear ceiling, only a token budget. In its newest run, Mythos Preview became the first model ever to clear both AISI cyber ranges, solving “The Last Ones” in 6 of 10 attempts and the previously unbroken “Cooling Tower” in 3 of 10, while GPT-5.5 cleared “The Last Ones” only 3 times out of 10. The methods themselves are speeding up. Nous Research’s Token Superposition Training delivers a 2-3x wall-clock pretraining speedup at matched FLOPs by averaging contiguous bags of token embeddings, no architecture change required. And the talent is reorganizing for the endgame. Recursive Superintelligence emerged from stealth with $650M at a $4.65B valuation, staffed by former research leads from OpenAI, DeepMind, Meta, Salesforce, and Uber, betting that AI conducting experiments on how to safely improve itself is the fastest path to ASI.
+- The Singularity doesn’t arrive, it compounds. OpenAI has reportedly begun internal testing of GPT-5.6 , with launch expected next month, while Google prepares a new Gemini at I/O that will land roughly in the class of GPT-5.5 and well short of Anthropic’s Mythos. The UK’s AI Security Institute confirms the pace, finding capability doubling time has compressed to 4.5 months, with Mythos and GPT-5.5 having no clear ceiling, only a token budget. In its newest run, Mythos Preview became the first model ever to clear both AISI cyber ranges, solving “The Last Ones” in 6 of 10 attempts and the previously unbroken “Cooling Tower” in 3 of 10, while GPT-5.5 cleared “The Last Ones” only 3 times out of 10. The methods themselves are speeding up. Nous Research’s Token Superposition Training delivers a 2-3x wall-clock pretraining speedup at matched FLOPs by averaging contiguous bags of token embeddings, no architecture change required. And the talent is reorganizing for the endgame. Recursive Superintelligence emerged from stealth with $650M at a $4.65B valuation, staffed by former research leads from OpenAI, DeepMind, Meta, Salesforce, and Uber, betting that AI conducting experiments on how to safely improve itself is the fastest path to ASI.
 
 The product layer is catching up to the capability layer. Anthropic launched Claude for Small Business , a toggle install that plugs Claude into QuickBooks, PayPal, HubSpot, Canva, Docusign, and the Google and Microsoft stacks, ready to run payroll, close the books, chase invoices, and execute sales campaigns. Anthropic also announced a dedicated monthly programmatic-usage credit for paid plans starting June 15, signaling a shift from flat consumer pricing toward as-you-go enterprise economics. Amazon, meanwhile, is killing Rufus and making Alexa for Shopping the centerpiece of its commerce AI, leveraging deep purchase history to act on a user’s behalf.
 

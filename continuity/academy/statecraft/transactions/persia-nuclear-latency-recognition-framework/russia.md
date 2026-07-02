@@ -1,7 +1,6 @@
 # Russia - Iran Nuclear Latency Recognition Framework
 <!-- word_count: 535 -->
 
-
 ## Transaction Name
 
 Latency recognition without proliferation chaos.

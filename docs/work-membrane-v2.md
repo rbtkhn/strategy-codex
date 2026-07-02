@@ -38,6 +38,8 @@ This doc upgrades the old binary `Record vs work` framing into a typed membrane 
 
 Use **membrane** only when authority, durability, promotion, import/export, or mutation rights are at stake. Do not use it as a synonym for folder, module, topic, lane, or layer. See also [Anti-confusion law](#anti-confusion-law).
 
+**Deprecated banner:** do not use the legacy standalone work-only / not-Record fence line. Enforced by `scripts/check_work_record_doctrine.py`.
+
 ---
 
 ## Core invariants

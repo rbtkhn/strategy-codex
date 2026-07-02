@@ -19,12 +19,10 @@ archive_links:
   - source-archive/statecraft/2025-06-17/source-diesen-sachs-us-prepares-to-join-war-against-iran-2025-06-17.md
 ---
 
-
 Open alongside:
 
 - [sachs routing](../voices/sachs/sachs-routing.md)
 - [sachs index](../voices/sachs/sachs-index.md)
-
 
 # Sachs Arc
 

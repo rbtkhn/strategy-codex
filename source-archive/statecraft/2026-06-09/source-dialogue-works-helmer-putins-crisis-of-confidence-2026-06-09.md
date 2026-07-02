@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Tuesday, June 9, 2026 and our dear friend, our brother John Helmer is here with us. Welcome back, John. >> Thank you for having me back. Good to be here. >> John, let's start with your different take of what's going on with Vladimir Putin, I would say. And because you you told me that Putin is dealing with some sort of crisis of confidence, what is that? And what is your understanding of the current situation with the war in Ukraine? And why you put it in? Do you think that we know one side Vladimir

@@ -2,7 +2,6 @@
 
 import pytest
 
-
 @pytest.fixture
 def minimal_user_dir(tmp_path, monkeypatch):
     uid = "retriever-test-user"
@@ -53,7 +52,6 @@ def minimal_user_dir(tmp_path, monkeypatch):
 
     return ud, retriever
 
-
 def test_retriever_disk_cache_roundtrip(minimal_user_dir):
     ud, ret = minimal_user_dir
     chunks1 = ret.load_record_chunks()
@@ -67,13 +65,11 @@ def test_retriever_disk_cache_roundtrip(minimal_user_dir):
     chunks2 = ret.load_record_chunks()
     assert len(chunks2) == len(chunks1)
 
-
 def test_retrieve_jupiter_uses_inverted_index(minimal_user_dir):
     _, ret = minimal_user_dir
     ret.load_record_chunks()
     out = ret.retrieve("What do you know about Jupiter?", top_k=3)
     assert any("LEARN-0001" in cid for cid, _ in out)
-
 
 def test_retrieve_inverted_index_off_scans_all(minimal_user_dir, monkeypatch):
     ud, ret = minimal_user_dir

@@ -19,10 +19,8 @@ from scripts.backfill_responsiblestatecraft_author_raw_input import (
     run,
 )
 
-
 def test_author_handle_infers_last_path_segment() -> None:
     assert _author_handle("https://responsiblestatecraft.org/author/tparsi/") == "tparsi"
-
 
 def test_extract_article_urls_from_author_html() -> None:
     html = """
@@ -36,7 +34,6 @@ def test_extract_article_urls_from_author_html() -> None:
         "https://responsiblestatecraft.org/ceasefire-iran-us-israel/",
         "https://responsiblestatecraft.org/israel-new-attacks-iran/",
     ]
-
 
 def test_extract_title_and_body_from_article_html() -> None:
     html = """
@@ -54,13 +51,11 @@ def test_extract_title_and_body_from_article_html() -> None:
     assert "Trump's failed use of force" in body
     assert "It matters because the diplomatic track now depends on compromise." in body
 
-
 def test_extract_datetime_from_meta() -> None:
     html = '<meta property="article:published_time" content="2026-04-08T12:00:00Z">'
     dt = _extract_datetime(html)
     assert dt is not None
     assert dt.date() == date(2026, 4, 8)
-
 
 def test_build_doc_includes_expected_frontmatter() -> None:
     doc = _build_doc(
@@ -80,7 +75,6 @@ def test_build_doc_includes_expected_frontmatter() -> None:
     assert "source_url: https://responsiblestatecraft.org/ceasefire-iran-us-israel/" in doc
     assert "thread: parsi" in doc
     assert "Article text" in doc
-
 
 def test_run_writes_article_files_from_explicit_urls(monkeypatch) -> None:
     author = "https://responsiblestatecraft.org/author/tparsi/"
@@ -119,7 +113,6 @@ def test_run_writes_article_files_from_explicit_urls(monkeypatch) -> None:
     finally:
         shutil.rmtree(tmpdir, ignore_errors=True)
 
-
 def test_parsi_responsible_statecraft_wrapper_refuses_author_scan_by_default(
     monkeypatch,
     capsys,
@@ -130,7 +123,6 @@ def test_parsi_responsible_statecraft_wrapper_refuses_author_scan_by_default(
     err = capsys.readouterr().err
     assert "Refusing broad Parsi Responsible Statecraft author scan by default" in err
     assert "not raw-input backlog" in err
-
 
 def test_parsi_x_wrapper_refuses_profile_scan_by_default(monkeypatch, capsys) -> None:
     monkeypatch.setattr(sys, "argv", ["backfill_parsi_x_raw_input.py"])

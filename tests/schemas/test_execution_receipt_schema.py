@@ -14,14 +14,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 RECEIPT_SCHEMA = REPO_ROOT / "schemas/registry" / "execution-receipt.v1.json"
 WORKER_SCRIPT = REPO_ROOT / "scripts" / "runtime" / "grace_mar_runtime_worker.py"
 
-
 def _receipt_validator():
     pytest.importorskip("jsonschema")
     import jsonschema
 
     schema = json.loads(RECEIPT_SCHEMA.read_text(encoding="utf-8"))
     return jsonschema.Draft202012Validator(schema)
-
 
 def _minimal_valid_receipt() -> dict:
     return {
@@ -62,7 +60,6 @@ def _minimal_valid_receipt() -> dict:
         "non_canonical": True,
     }
 
-
 def test_schema_and_minimal_instance_validate() -> None:
     v = _receipt_validator()
     import jsonschema
@@ -74,13 +71,11 @@ def test_schema_and_minimal_instance_validate() -> None:
     alt = {**_minimal_valid_receipt(), "model_policy": None}
     v.validate(alt)
 
-
 @pytest.fixture
 def worker_env(tmp_path: Path) -> dict[str, str]:
     env = {k: v for k, v in os.environ.items() if k != "OPENAI_API_KEY"}
     env["GRACE_MAR_RUNTIME_WORKER_HOME"] = str(tmp_path / "runtime-worker")
     return env
-
 
 def test_dry_run_writes_receipt(tmp_path: Path, worker_env: dict[str, str]) -> None:
     v = _receipt_validator()
@@ -127,7 +122,6 @@ def test_dry_run_writes_receipt(tmp_path: Path, worker_env: dict[str, str]) -> N
         "parse_failed",
     )
 
-
 def test_task_type_strategy_receipt_routing(tmp_path: Path, worker_env: dict[str, str]) -> None:
     v = _receipt_validator()
     r = subprocess.run(
@@ -164,7 +158,6 @@ def test_task_type_strategy_receipt_routing(tmp_path: Path, worker_env: dict[str
     assert wr["task_type"] == "strategy"
     assert wr["routed_worker"] == "strategy_worker"
     assert receipt["model_policy"]["allowed_tier"] == "B"
-
 
 def test_task_type_strategy_quick_scan_receipt_model_policy(tmp_path: Path, worker_env: dict[str, str]) -> None:
     v = _receipt_validator()

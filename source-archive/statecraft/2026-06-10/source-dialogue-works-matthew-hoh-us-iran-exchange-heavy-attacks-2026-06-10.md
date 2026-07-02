@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Wednesday, June 10, 2026 and our dear friend, our brother Matt Ho is here with us. Welcome back, Matt.

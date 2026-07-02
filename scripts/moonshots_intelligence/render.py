@@ -14,13 +14,10 @@ TEMPLATE_PATH = (
     / "moonshots-intelligence-template.md"
 )
 
-
 def render_markdown(document: dict[str, Any]) -> str:
     prov = document.get("provenance") or {}
     lines: list[str] = [
         f"# Moonshots Intelligence — {prov.get('output_basename', 'episode')}",
-        "",
-        "work only; not Record.",
         "",
         "## Provenance",
         "",

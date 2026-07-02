@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2025-01-18/source-dialogue-works-israel-is-in-total-disarray-alex-krainer-col-larry-wilkerson-2025-01-18.md
 ---
 
-
 # Wilkerson arc
 
 Purpose: define `arc-wilkerson-continuity` as the canonical statecraft-side person-level continuity surface for Larry Wilkerson across hosts, contexts, and time.

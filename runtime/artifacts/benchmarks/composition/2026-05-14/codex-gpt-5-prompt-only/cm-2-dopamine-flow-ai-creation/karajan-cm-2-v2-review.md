@@ -1,6 +1,6 @@
 # Karajan CM-2 v2 writing benchmark review
 
-WORK only. Not Record. Not EVIDENCE. Not a gate substitute.
+non-authoritative. Not Record. Not EVIDENCE. Not a gate substitute.
 
 ## Metadata
 

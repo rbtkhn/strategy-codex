@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T15:32:11.435109+00:00",
+  "generated_at": "2026-06-30T14:33:37.314282+00:00",
   "user_id": "strategy-codex",
   "agent_surface": {
     "cursor_model": "unknown"
@@ -15,8 +15,8 @@
   "artifact_draft_count": 0,
   "promotable_draft_count": 0,
   "followups": [
-    "Capture gap: Record hasn't grown in 39 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new Evidence",
-    "AI frontier watch: The Innermost Loop latest - Welcome to June 28, 2026 - consider explicit source hygiene if relevant tomorrow"
+    "Capture gap: Record hasn't grown in 40 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new Evidence",
+    "AI frontier watch: The Innermost Loop latest - The First Dyson Swarm Node - consider explicit source hygiene if relevant tomorrow"
   ],
   "phases": {
     "recent": {
@@ -32,19 +32,28 @@
     }
   },
   "coffee_rollup_24h": {
-    "window_start_utc": "2026-06-28T15:31:51.429641+00:00",
-    "window_end_utc": "2026-06-29T15:31:51.429641+00:00",
+    "window_start_utc": "2026-06-29T14:33:14.777374+00:00",
+    "window_end_utc": "2026-06-30T14:33:14.777374+00:00",
     "window_hours": 24.0,
-    "count": 1,
-    "first_ts": "2026-06-29T01:22:00+00:00",
-    "last_ts": "2026-06-29T01:22:00+00:00",
-    "span_hours": null,
+    "count": 2,
+    "first_ts": "2026-06-30T10:26:00+00:00",
+    "last_ts": "2026-06-30T10:27:00+00:00",
+    "span_hours": 0.02,
     "by_mode": {
-      "first-command": 1
+      "first-command": 2
     },
     "runs": [
       {
-        "ts_iso": "2026-06-29T01:22:00+00:00",
+        "ts_iso": "2026-06-30T10:26:00+00:00",
+        "ok": true,
+        "mode": "first-command",
+        "kv": {
+          "cursor_model": "unknown",
+          "model_tier": "unknown"
+        }
+      },
+      {
+        "ts_iso": "2026-06-30T10:27:00+00:00",
         "ok": true,
         "mode": "first-command",
         "kv": {
@@ -57,8 +66,8 @@
     "by_picked": {}
   },
   "conductor_rollup_24h": {
-    "window_start_utc": "2026-06-28T15:31:51.429641+00:00",
-    "window_end_utc": "2026-06-29T15:31:51.429641+00:00",
+    "window_start_utc": "2026-06-29T14:33:14.777374+00:00",
+    "window_end_utc": "2026-06-30T14:33:14.777374+00:00",
     "window_hours": 24.0,
     "completed_passes": 0,
     "orientation_only": 0,
@@ -127,9 +136,9 @@
   "bias_strength": "soft",
   "civmem_echoes": [
     {
-      "path": "minds\\README.md",
+      "path": "book\\APPLIED-THEOLOGY-REVIEW-MERCOURIS.md",
       "overlap": 4,
-      "snippet_preview": "The three **CIV\u2013MIND** profile bodies (Mercouris, Mearsheimer, Barnes) are **canonical in Grace-Mar** under: **[`docs/skill-work/work-strategy/strategy-notebook/minds/`](../../skill-work/work-strategy",
+      "snippet_preview": "**Perspective:** Primary mind (legitimacy, civilizational continuity, narrative, archive/placeholders/evidence). This review is in the Mercouris cognitive\u2013linguistic register: academic prose, epistemi",
       "analogy_label": "Analogy candidate only \u2014 not evidence, not recommendation, not Record.",
       "specificity_pass": true,
       "score": 6.0
@@ -140,12 +149,12 @@
   "capture_gap": {
     "last_evidence_date": "2026-05-21",
     "last_evidence_id": "ACT-0038",
-    "days_since_evidence": 39,
+    "days_since_evidence": 40,
     "last_merge_date": null,
     "days_since_merge": null,
     "pending_count": 1,
     "level": "alert",
-    "message": "Record hasn't grown in 39 days (last: ACT-0038, 2026-05-21)"
+    "message": "Record hasn't grown in 40 days (last: ACT-0038, 2026-05-21)"
   },
   "capability_shift": {
     "category": "model",
@@ -162,30 +171,30 @@
     "source_name": "The Innermost Loop",
     "feed_url": "https://theinnermostloop.substack.com/feed",
     "source_mode": "live_lookup",
-    "fetched_at": "2026-06-29T15:32:09.647424+00:00",
+    "fetched_at": "2026-06-30T14:33:35.443804+00:00",
     "status": "ok",
-    "title": "Welcome to June 28, 2026",
-    "url": "https://theinnermostloop.substack.com/p/welcome-to-june-28-2026",
-    "published_at": "2026-06-28T16:32:23+00:00",
-    "guidance": "AI frontier watch: latest The Innermost Loop post is \"Welcome to June 28, 2026\" (2026-06-28T16:32:23+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
+    "title": "The First Dyson Swarm Node",
+    "url": "https://theinnermostloop.substack.com/p/the-first-dyson-swarm-node",
+    "published_at": "2026-06-30T14:23:27+00:00",
+    "guidance": "AI frontier watch: latest The Innermost Loop post is \"The First Dyson Swarm Node\" (2026-06-30T14:23:27+00:00); decide tomorrow whether it merits explicit source hygiene or Coffee D/C conversion."
   },
   "dream_catchup": {
     "semantics": "since_previous_dream",
     "timezone": "UTC",
-    "previous_dream_generated_at": "2026-06-28T16:34:29.199507+00:00",
+    "previous_dream_generated_at": "2026-06-29T15:32:11.435109+00:00",
     "local_calendar_dates": [
-      "2026-06-29"
+      "2026-06-30"
     ],
     "strategy_notebook_missing_day_headers": [
-      "2026-06-29"
+      "2026-06-30"
     ],
     "statecraft_scaffold_catchup": {
       "semantics": "since_previous_dream",
       "mode": "report",
       "max_apply": null,
-      "days_scanned": 1,
-      "files_scanned": 3,
-      "skipped_no_folder": 0,
+      "days_scanned": 0,
+      "files_scanned": 0,
+      "skipped_no_folder": 1,
       "summary": {
         "would_trim": 0,
         "applied": 0,
@@ -196,17 +205,12 @@
         "read_error": 0,
         "deferred_over_cap": 0
       },
-      "by_day": {
-        "2026-06-29": {
-          "files": 3,
-          "actions": []
-        }
-      },
+      "by_day": {},
       "exit_code": 0
     }
   },
   "last_coffee_echo": {
-    "timestamp": "2026-06-29T01:22:00+00:00",
+    "timestamp": "2026-06-30T10:27:00+00:00",
     "conductor": null,
     "mode": "first-command",
     "menu_letter": null,
@@ -217,10 +221,10 @@
   "topActionReason": "validated_follow_through",
   "quietRun": false,
   "residueLedger": {
-    "must_resume": "Capture gap: Record hasn't grown in 39 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new",
+    "must_resume": "Capture gap: Record hasn't grown in 40 days (last: ACT-0038, 2026-05-21) \u2014 run batch_ingest_observations.py or stage new",
     "safe_to_drop": "",
     "blocked": "",
-    "watch_later": "AI frontier watch: The Innermost Loop latest - Welcome to June 28, 2026 - consider explicit source hygiene if relevant t"
+    "watch_later": "AI frontier watch: The Innermost Loop latest - The First Dyson Swarm Node - consider explicit source hygiene if relevant"
   },
   "worktreeState": "risky residue",
   "worktreeAdvice": "Large or wide diff \u2014 inspect before continuing; use bridge when closing session."

@@ -1,6 +1,6 @@
 ﻿# WORK-LEDGER â€” work-business
 
-**Status:** WORK only â€” judgment / compounding layer for business planning, accounting, and marketing.
+**Status:** non-authoritative â€” judgment / compounding layer for business planning, accounting, and marketing.
 **Scaffold source:** [work-template/WORK-LEDGER.md](../work-template/WORK-LEDGER.md).
 **Canonical daily surface:** [README.md](README.md); navigation via contents table there.
 

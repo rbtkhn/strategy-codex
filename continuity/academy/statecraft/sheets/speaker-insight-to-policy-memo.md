@@ -1,7 +1,6 @@
 # Speaker Insight To Policy Memo
 <!-- word_count: 365 -->
 
-
 Use this sheet when a speaker appearance contains one policy-relevant insight, but the statecraft output must remain a memo, not a speaker summary or worldview import.
 
 ## Purpose

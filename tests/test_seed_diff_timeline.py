@@ -12,7 +12,6 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-
 def _make_claim(**overrides):
     base = {
         "seed_id": "seed-tl-001",
@@ -33,7 +32,6 @@ def _make_claim(**overrides):
     }
     base.update(overrides)
     return base
-
 
 class TestSeedDiff:
     def test_diff_structure(self):
@@ -80,7 +78,6 @@ class TestSeedDiff:
         loaded = json.loads(path.read_text())
         assert loaded["diffId"] == diff["diffId"]
 
-
 class TestSchemaExtension:
     def test_seed_transition_in_category(self):
         schema = json.loads(
@@ -95,7 +92,6 @@ class TestSchemaExtension:
         )
         assert "sourceType" in schema["properties"]
         assert "seed" in schema["properties"]["sourceType"]["enum"]
-
 
 class TestTimeline:
     @pytest.fixture

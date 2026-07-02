@@ -12,18 +12,3 @@ source_path: docs/skill-work/work-strategy/strategy-notebook/experts/pape/transc
 - X | cold: @ProfessorPape (**2026-04-18** ~11:30) — multi-post **IRAN**: brief **de-escalation** seam (Lebanon truce / Hormuz / diplomacy) then **re-escalation**; argues **not** pain→compromise but **zero-sum relative power**; **two indivisible binaries**: (1) nuclear — has it or not; (2) Hormuz — open vs Iranian control; **revealed preferences** → both prefer **escalation to losing** → ceasefires as **pauses**, not stable deals // hook: **§1e–§1h**; pair × **Mearsheimer** / × **Davis** without merging mechanisms; falsify with **durable partial constraints** | https://x.com/ProfessorPape | verify:screenshot+per-post-archive | thread:pape | grep:Pape+zero-sum+ceasefire+2026-04-18
 - batch-analysis | 2026-04-18 | **Pape X — zero-sum / indivisibility (nuclear + Hormuz)** | **Notebook:** journal + distilled in [`strategy-expert-pape-thread.md`](strategy-expert-pape-thread.md) **04-18**. **Tension:** strategic **binary** thesis vs same-day **Hormuz** mechanics / **AIS** rows — different Judgment tier. **Do not** merge with **04-17** truce/power-shift post as same claim object. **Membership:** `thread:pape` only.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

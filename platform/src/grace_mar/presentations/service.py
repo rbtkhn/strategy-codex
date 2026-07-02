@@ -14,18 +14,14 @@ from .contract import BundleValidationError, bundle_sha256, validate_bundle
 from .intents import INTENT_REGISTRY, build_presenton_markdown, get_template_key, list_intents, list_templates
 from .presenton_client import PresentonClient
 
-
 def _presentation_store_root(config_root: Path | None = None) -> Path:
     return (config_root or (repo_root() / "runtime/artifacts" / "presentations")).resolve()
-
 
 def _manifest_path(root: Path) -> Path:
     return root / "manifest.jsonl"
 
-
 def _record_path(root: Path, presentation_id: str) -> Path:
     return root / "records" / f"{presentation_id}.json"
-
 
 def _append_manifest(root: Path, row: dict[str, Any]) -> None:
     root.mkdir(parents=True, exist_ok=True)
@@ -33,19 +29,16 @@ def _append_manifest(root: Path, row: dict[str, Any]) -> None:
     with manifest.open("a", encoding="utf-8") as fh:
         fh.write(json.dumps(row, ensure_ascii=True, sort_keys=True) + "\n")
 
-
 def _write_record(root: Path, row: dict[str, Any]) -> None:
     path = _record_path(root, row["id"])
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(row, ensure_ascii=True, indent=2, sort_keys=True), encoding="utf-8")
-
 
 def _read_record(root: Path, presentation_id: str) -> dict[str, Any] | None:
     path = _record_path(root, presentation_id)
     if not path.exists():
         return None
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def create_app(
     *,

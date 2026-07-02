@@ -44,7 +44,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back. We are joined today by Larry Johnson, a former CIA analyst to discuss what is happening now in the war against Iran. So, thank you for coming back on the program. >> Turn to get that light shining in the corner. I just checked into a hotel on the road. Well, uh uh I I'm not sure where to start here because uh there's so many times we've heard uh Trump, you know, after every bomb braid, he essentially comes out and say, "Well, this time we're very close to a deal.

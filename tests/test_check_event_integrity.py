@@ -13,7 +13,6 @@ import pytest
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = REPO_ROOT / "scripts" / "check_event_integrity.py"
 
-
 def _run(*args: str) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         [sys.executable, str(SCRIPT), *args],
@@ -22,12 +21,10 @@ def _run(*args: str) -> subprocess.CompletedProcess[str]:
         text=True,
     )
 
-
 def test_event_integrity_passes_on_repo() -> None:
     proc = _run()
     assert proc.returncode == 0
     assert "[ok] event integrity valid" in proc.stdout
-
 
 def test_unknown_event_id_fails(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     import schema_invariants

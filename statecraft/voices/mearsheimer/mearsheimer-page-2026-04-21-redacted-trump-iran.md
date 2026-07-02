@@ -1,7 +1,6 @@
 # Mearsheimer strategy page — 2026-04-21 (*Trump's ONLY option is surrender*)
 <!-- word_count: 6298 -->
 
-
 **Expert:** `mearsheimer` · **Aired:** 2026-04-21 · **Capture:** Mode B — interview (Redacted News) · **Artifact:** strategy-page file (`mearsheimer-page-…` under `experts/mearsheimer/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 6299
@@ -256,7 +255,6 @@ The Ukrainians are very upset with the fact that President Trump has taken sanct
 
 **Host:** Our pleasure. Thank you so much, Professor.
 
-
 ### Reflection
 
 **Operator note:** Operator paste; pin canonical watch URL (Redacted / YouTube) when available.
@@ -279,14 +277,11 @@ IHL content: notebook seam only; adjudication belongs to courts or commissions, 
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Mearsheimer on same lane? Wire boundary before chapter synthesis?
 
-
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (B); Reflection/Foresight = WORK.
-
 
 ---
 

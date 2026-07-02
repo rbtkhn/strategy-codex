@@ -26,7 +26,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 **Alex Christoforou:** All right, Alexander, let's talk about the war hysteria or the war intoxication that is gripping Europe. Even Belarus and Lukashenko are talking about how Europe is gearing up for a war in 2030. They seem very, very sure that this is happening, that the Europeans, including the UK, I say the Europeans in total, the EU and the UK, are very much committed to a conflict against Russia and Belarus by 2030.

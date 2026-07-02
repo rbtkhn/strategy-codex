@@ -1,6 +1,5 @@
 # Davis Raw-Input Index
 
-
 Compatibility pointer only.
 
 Guest captures: [davis-index.md](davis-index.md). Host channel: [daniel-davis-channel-index.md](../../channels/daniel-davis/daniel-davis-channel-index.md).

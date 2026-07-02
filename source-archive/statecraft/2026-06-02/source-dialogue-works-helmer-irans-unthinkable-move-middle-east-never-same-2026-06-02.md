@@ -38,7 +38,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Tuesday, June 2nd, 2026, and our dear friend, our brother, John Helmer, is here with us. Welcome back, John. >> Thanks for having me. You know, good to be back. >> John, let me start with what has happened yesterday. And Israelis wanted to attack Dahi in the southern part of Beirut.

@@ -1,6 +1,5 @@
 # arc-barnes-davis-host (compat redirect)
 
-
 **Canonical:** [arc-barnes-davis-host.md](../../notes/arc-barnes-davis-host.md)
 
 Legacy path: `statecraft/voices/davis/davis-barnes-speaker-arc.md` — Legacy `*-speaker-arc.md` — pointer only.

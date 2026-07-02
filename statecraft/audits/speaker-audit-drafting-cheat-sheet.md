@@ -1,6 +1,5 @@
 # Speaker Audit Drafting Cheat Sheet
 
-
 Purpose: translate speaker-audit judgments into memo-safe drafting language without overstating closure.
 
 Use this sheet when the audit system is already populated and the real question is:

@@ -1,6 +1,5 @@
 # Parsi source-hygiene note — 2026-04-21 ceasefire / Hormuz cluster
 
-
 **Anchor item:** [parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md](parsi-page-2026-04-21-x-ceasefire-hormuz-cluster.md)  
 **Thread anchor:** [parsi-thread.md](parsi-thread.md)  
 **Inbox anchor:** [daily-strategy-inbox.md](../daily-strategy-inbox.md

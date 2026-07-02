@@ -18,7 +18,6 @@ Prof Robert Pape
 
 Jun 22, 2026
 
-
 Last Monday, I argued that the greatest risks surrounding the new memorandum were uncertainty itself and Iran's growing leverage from collapsing oil inventories.
 
 Events quickly validated both. The talks stalled, Iran walked out after they resumed, talks briefly continued, and President Trump himself acknowledged that inventories had become central to the crisis.

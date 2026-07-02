@@ -62,17 +62,14 @@ WAVE_2_KEYS = frozenset(
     }
 )
 
-
 def test_profile_dir_points_at_grace_mar_instance():
     root = profile_dir("strategy-codex")
     assert root == GRACE_MAR_INSTANCE_DIR
     assert (root / "recursion-gate.md").is_file()
 
-
 def test_profile_rel_posix():
     rel = profile_rel_posix("strategy-codex")
     assert rel == "archive/grace-mar-instance"
-
 
 def test_check_repo_path_strict_warn_mode():
     proc = subprocess.run(
@@ -83,7 +80,6 @@ def test_check_repo_path_strict_warn_mode():
     )
     assert proc.returncode in (0, 1)
 
-
 def test_strict_paths_raises_on_legacy(monkeypatch: pytest.MonkeyPatch, tmp_path: Path):
     monkeypatch.setenv("STRATEGY_CODEX_STRICT_PATHS", "1")
     assert strict_paths_enabled()
@@ -92,16 +88,13 @@ def test_strict_paths_raises_on_legacy(monkeypatch: pytest.MonkeyPatch, tmp_path
     path = resolve_repo_path("artifacts")
     assert path.is_dir()
 
-
 def test_scan_legacy_path_layout_is_list():
     issues = scan_legacy_path_layout()
     assert isinstance(issues, list)
 
-
 def test_every_repo_path_migration_has_classification():
     issues = validate_repo_path_classification()
     assert issues == []
-
 
 def test_no_classification_without_migration_key():
     issues = validate_repo_path_classification()
@@ -110,11 +103,9 @@ def test_no_classification_without_migration_key():
     assert missing == []
     assert orphan == []
 
-
 def test_legacy_fallback_keys_have_retirement_policy():
     issues = validate_path_fallback_retirement()
     assert issues == [], issues
-
 
 def test_path_fallback_retirement_policy_has_no_legacy_entries():
     retirement = load_path_fallback_retirement()
@@ -125,12 +116,10 @@ def test_path_fallback_retirement_policy_has_no_legacy_entries():
     }
     assert legacy_entries == {}
 
-
 def test_grace_mar_compat_keys_are_isolated():
     compat_keys = {k for k, v in REPO_PATH_CLASSIFICATION.items() if v == "grace_mar_compat"}
     assert compat_keys == set(GRACE_MAR_COMPAT_KEYS)
     assert compat_keys <= set(REPO_PATH_CLASSIFICATION)
-
 
 def test_check_repo_path_strict_json():
     proc = subprocess.run(
@@ -145,11 +134,9 @@ def test_check_repo_path_strict_json():
     assert payload["summary"]["total_keys"] == 29
     assert "retirement_candidates" in payload
 
-
 def test_wave_1_fallbacks_removed():
     for key in WAVE_1_KEYS:
         assert len(REPO_PATH_MIGRATIONS[key]) == 1, key
-
 
 def test_wave_1_retirement_policy_has_no_legacy():
     retirement = load_path_fallback_retirement()
@@ -157,11 +144,9 @@ def test_wave_1_retirement_policy_has_no_legacy():
         assert retirement[key]["legacy"] == [], key
         assert retirement[key]["retirement_status"] == "keep_no_legacy", key
 
-
 def test_wave_2_fallbacks_removed():
     for key in WAVE_2_KEYS:
         assert len(REPO_PATH_MIGRATIONS[key]) == 1, key
-
 
 def test_wave_2_retirement_policy_has_no_legacy():
     retirement = load_path_fallback_retirement()
@@ -169,23 +154,19 @@ def test_wave_2_retirement_policy_has_no_legacy():
         assert retirement[key]["legacy"] == [], key
         assert retirement[key]["retirement_status"] == "keep_no_legacy", key
 
-
 def test_wave_2_canonical_paths_exist():
     for key in WAVE_2_KEYS:
         canonical = REPO_ROOT / REPO_PATH_MIGRATIONS[key][0]
         assert canonical.exists(), key
 
-
 def test_wave_2_readiness_report_covers_all_keys():
     report = collect_wave_readiness_report(wave=2)
     assert set(report["keys"]) == keys_for_wave(2)
-
 
 def test_wave_2_readiness_all_ready():
     report = collect_wave_readiness_report(wave=2)
     for key, item in report["keys"].items():
         assert item["status"] in {"ready", "ready_docs_only_refs"}, (key, item)
-
 
 def test_check_repo_path_strict_wave_2():
     proc = subprocess.run(
@@ -197,7 +178,6 @@ def test_check_repo_path_strict_wave_2():
     assert proc.returncode == 0, proc.stderr or proc.stdout
     assert "Wave 2 platform readiness" in proc.stdout
 
-
 WAVE_3_KEYS = frozenset(
     {
         "evidence",
@@ -206,15 +186,12 @@ WAVE_3_KEYS = frozenset(
     }
 )
 
-
 def test_wave_3_keys_are_expected():
     assert keys_for_wave(3) == WAVE_3_KEYS
-
 
 def test_wave_3_fallbacks_removed():
     for key in WAVE_3_KEYS:
         assert len(REPO_PATH_MIGRATIONS[key]) == 1, key
-
 
 def test_wave_3_retirement_policy_has_no_legacy():
     retirement = load_path_fallback_retirement()
@@ -222,23 +199,19 @@ def test_wave_3_retirement_policy_has_no_legacy():
         assert retirement[key]["legacy"] == [], key
         assert retirement[key]["retirement_status"] == "keep_no_legacy", key
 
-
 def test_wave_3_canonical_paths_exist():
     for key in WAVE_3_KEYS:
         canonical = REPO_ROOT / REPO_PATH_MIGRATIONS[key][0]
         assert canonical.exists(), key
 
-
 def test_wave_3_readiness_report_covers_all_keys():
     report = collect_wave_readiness_report(wave=3)
     assert set(report["keys"]) == WAVE_3_KEYS
-
 
 def test_wave_3_readiness_all_ready():
     report = collect_wave_readiness_report(wave=3)
     for key, item in report["keys"].items():
         assert item["status"] in {"ready", "ready_docs_only_refs"}, (key, item)
-
 
 def test_check_repo_path_strict_wave_3():
     proc = subprocess.run(
@@ -249,7 +222,6 @@ def test_check_repo_path_strict_wave_3():
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
     assert "Wave 3 archive placeholder readiness" in proc.stdout
-
 
 def test_check_repo_path_strict_wave_3_strict_readiness():
     proc = subprocess.run(
@@ -266,7 +238,6 @@ def test_check_repo_path_strict_wave_3_strict_readiness():
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
 
-
 WAVE_4_KEYS = frozenset(
     {
         "bot",
@@ -275,15 +246,12 @@ WAVE_4_KEYS = frozenset(
     }
 )
 
-
 def test_wave_4_keys_are_expected():
     assert keys_for_wave(4) == WAVE_4_KEYS
-
 
 def test_wave_4_fallbacks_removed():
     for key in WAVE_4_KEYS:
         assert len(REPO_PATH_MIGRATIONS[key]) == 1, key
-
 
 def test_wave_4_retirement_policy_has_no_legacy():
     retirement = load_path_fallback_retirement()
@@ -291,23 +259,19 @@ def test_wave_4_retirement_policy_has_no_legacy():
         assert retirement[key]["legacy"] == [], key
         assert retirement[key]["retirement_status"] == "keep_no_legacy", key
 
-
 def test_wave_4_canonical_paths_exist():
     for key in WAVE_4_KEYS:
         canonical = REPO_ROOT / REPO_PATH_MIGRATIONS[key][0]
         assert canonical.exists(), key
 
-
 def test_wave_4_readiness_report_covers_all_keys():
     report = collect_wave_readiness_report(wave=4)
     assert set(report["keys"]) == WAVE_4_KEYS
-
 
 def test_wave_4_readiness_all_ready():
     report = collect_wave_readiness_report(wave=4)
     for key, item in report["keys"].items():
         assert item["status"] in {"ready", "ready_docs_only_refs"}, (key, item)
-
 
 def test_no_legacy_fallback_tuples_remain():
     fallback_keys = {
@@ -316,7 +280,6 @@ def test_no_legacy_fallback_tuples_remain():
         if len(entry) > 1
     }
     assert fallback_keys == {}
-
 
 def test_check_repo_path_strict_wave_4():
     proc = subprocess.run(
@@ -327,7 +290,6 @@ def test_check_repo_path_strict_wave_4():
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
     assert "Wave 4 Grace-Mar compatibility readiness" in proc.stdout
-
 
 def test_check_repo_path_strict_wave_4_strict_readiness():
     proc = subprocess.run(

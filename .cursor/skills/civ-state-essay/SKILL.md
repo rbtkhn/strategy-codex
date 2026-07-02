@@ -18,7 +18,6 @@ synced_by: sync_portable_skills.py
 ---
 # CIV-STATE Essay
 
-
 **Activation:** `civ-state essay` · `civ-state-essay` · `essay prose pass` · `civic-chain pass` · **`humanizing pass`** · **`light prose pass`** · **`essay humanize`** (when class is clear)
 
 Procedure skill for **reader-facing essay prose** under the staged public CIV-STATE book tree. Classify the essay **and pass type** before editing. Doctrine lives in the generic essay template and reader guide — this skill owns **workflow, boundaries, and QA gates**, not a second copy of prose law.
@@ -132,7 +131,6 @@ Poets count as **primary ancient** body sources — same `"…"` weave as histor
 **Theory pointer (placement law, not quote home):** [`rome-memory.md#faith-spine-mythology`](../../public/civ-state/volumes/rome/theory/rome-memory.md#faith-spine-mythology) · [`faith-history-rome.md`](../../public/civ-state/volumes/rome/theory/faith-history-rome.md) euhemerism boundary — mythic substrate ≠ historiographical claim.
 
 **Embed rules:** one **short** epic quote at a memory or legitimation turn; **swap-don't-pad** at quote band; pair epic with chronicle or oratory (e.g. Dido curse → Cato fig); active intro in authorial voice — avoid meta-only wrappers (*moralized rhetoric*, *One modern analyst*). Optional Notes label: `*(Epic memory — not chronicle SSOT)*`. Reuse PD edition from [`rome-bibliography.md`](../../public/civ-state/volumes/rome/rome-bibliography.md); book-level routing may also live in essay `.meta.yaml` — skill does not duplicate full lattice.
-
 
 ### Essay citation inventory (Rome — downstream of active essays)
 
@@ -263,7 +261,6 @@ Host-specific paths, QA recipes, and publish commands: **CURSOR_APPENDIX** (gene
 5. `validate_skills.py` clean after skill file changes; public validator run when registry/structure changed.
 
 **Fail when:** civic-chain word/quote band applied to hex-frame; doctrine pasted into skill instead of template; parallel multi-file essay edits on Windows EXECUTE; mirror publish without operator ship verb.
-
 
 ## Cursor / strategy-codex instance
 

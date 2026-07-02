@@ -1,7 +1,5 @@
 # SM-3 Freeman Calibration
 
-WORK only; not Record.
-
 Purpose: show what a credible `SM-3 speaker-structure-metrics` output looks like against a live shelf rather than a synthetic sample.
 
 Primary grounding:

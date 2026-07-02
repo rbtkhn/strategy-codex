@@ -1,6 +1,5 @@
 # Current Machine Map - 2026-06-01
 
-
 This is a human-readable map of the current `strategy-codex` machine.
 
 Use it on cold re-entry when you do not need every doctrine surface back in your

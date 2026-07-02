@@ -1,7 +1,6 @@
 # Hormuz Recognition Transit Transaction
 <!-- word_count: 1894 -->
 
-
 ## Transaction Name
 
 Hormuz recognition-for-transit restraint clause.

@@ -9,7 +9,6 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-
 @dataclass
 class TextSlice:
     """A file excerpt with 1-based line numbers for citations."""
@@ -19,7 +18,6 @@ class TextSlice:
     end_line: int
     text: str
     note: str = ""
-
 
 @dataclass
 class ReflectionBundle:
@@ -44,13 +42,11 @@ class ReflectionBundle:
             return out
         return out[: max_chars - 20] + "\n… [truncated]"
 
-
 def _read_lines(path: Path) -> list[str]:
     if not path.exists():
         return []
     raw = path.read_text(encoding="utf-8", errors="replace")
     return raw.splitlines()
-
 
 def _tail_lines(lines: list[str], max_lines: int) -> tuple[list[str], int, int]:
     if not lines:
@@ -61,13 +57,11 @@ def _tail_lines(lines: list[str], max_lines: int) -> tuple[list[str], int, int]:
     end = len(lines)
     return chunk, start, end
 
-
 def _split_gate_processed(full: str) -> tuple[str, str]:
     marker = re.search(r"^## Processed\s*$", full, re.MULTILINE)
     if not marker:
         return "", full
     return full[: marker.start()], full[marker.start() :]
-
 
 def collect_bundle(
     *,

@@ -1,6 +1,6 @@
 # Karajan CM-2 v2 weak-response stress test
 
-WORK only. Not Record. Not EVIDENCE. Not a gate substitute.
+non-authoritative. Not Record. Not EVIDENCE. Not a gate substitute.
 
 ## Metadata
 

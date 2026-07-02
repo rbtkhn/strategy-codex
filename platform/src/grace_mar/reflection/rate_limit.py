@@ -7,7 +7,6 @@ import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-
 def _parse_iso_ts(raw: str) -> datetime | None:
     raw = (raw or "").strip()
     if not raw:
@@ -21,7 +20,6 @@ def _parse_iso_ts(raw: str) -> datetime | None:
         return dt
     except ValueError:
         return None
-
 
 def count_high_risk_recent(
     *,
@@ -51,7 +49,6 @@ def count_high_risk_recent(
             n += 1
     return n
 
-
 def count_high_risk_in_index_month(
     index_path: Path,
     *,
@@ -62,7 +59,6 @@ def count_high_risk_in_index_month(
         return 0
     # v0.1: pipeline-events is more reliable; return 0
     return 0
-
 
 def pipeline_high_risk_events_last_month(
     events_path: Path,
@@ -92,7 +88,6 @@ def pipeline_high_risk_events_last_month(
         if merge.get("high_risk_proposals", 0) and int(merge.get("high_risk_proposals") or 0) > 0:
             n += 1
     return n
-
 
 def allow_high_risk_proposal(
     *,

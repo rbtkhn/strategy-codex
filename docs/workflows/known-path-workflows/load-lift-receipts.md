@@ -1,6 +1,6 @@
 ﻿# Load-Lift Receipts
 
-**WORK only; not Record.** A Load-Lift Receipt is an **evaluation artifact** for a [known-path workflow](README.md) run. It does **not** approve durable changes, does **not** stage merge candidates, and does **not** change workflow or surface authority. See [Governance override](#6-governance-override) below.
+**** A Load-Lift Receipt is an **evaluation artifact** for a [known-path workflow](README.md) run. It does **not** approve durable changes, does **not** stage merge candidates, and does **not** change workflow or surface authority. See [Governance override](#6-governance-override) below.
 
 Machine schema: [`schemas/registry/load-lift-receipt.v1.json`](../../../schemas/registry/load-lift-receipt.v1.json) (JSON Schema Draft 2020-12).
 

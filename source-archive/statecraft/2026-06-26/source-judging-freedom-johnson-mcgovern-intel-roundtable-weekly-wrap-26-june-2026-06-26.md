@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Hormuz Status Roundtable
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.

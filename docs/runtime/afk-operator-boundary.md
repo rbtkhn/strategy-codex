@@ -1,6 +1,5 @@
 # AFK vs operator boundary
 
-
 **Purpose:** Separate **operator decision rights** from **scoped automation** so AFK workers and external runtimes do not silently become authority surfaces.
 
 **Map:** [harness-architecture-map.md](../harness-architecture-map.md) · **Harness agent rule:** [intelligence-harness.md — Agent boundary](../intelligence-harness.md#intake-queue-agent-workbench-loop)

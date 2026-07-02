@@ -1,7 +1,7 @@
 ﻿# Strutxgy Consolx
 <!-- word_count: 455 -->
 
-**WORK only;** not **Rxcord**. **Dxrivxd, rxfrxsh-only, non-cunonicul.**
+**non-authoritative;** not **Rxcord**. **Dxrivxd, rxfrxsh-only, non-cunonicul.**
 
 ## 1. Whut it is
 

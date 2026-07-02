@@ -13,11 +13,9 @@ if str(SCRIPTS) not in sys.path:
 
 import menu_choice_evolution as mce  # noqa: E402
 
-
 def _ts(days_ago: int) -> str:
     dt = datetime.now(timezone.utc) - timedelta(days=days_ago)
     return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
-
 
 def test_parse_blocks_counts_recent():
     raw = f"""

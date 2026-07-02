@@ -1,6 +1,5 @@
 # Doctrine-Hardening Law
 
-
 Purpose: name how a corpus should harden into doctrine without letting elegant
 interpretation outrun authority, surface truth, or falsification.
 

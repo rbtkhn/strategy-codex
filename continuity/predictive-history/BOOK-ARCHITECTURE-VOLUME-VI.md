@@ -28,7 +28,6 @@ Part I follows Jiang's long-form interview corpus in publication order, transcri
 
 End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md — divergence IDs from divergences.jsonl where linked; not chapter_end_predictions (Volume I only) unless Part II policy adopts prediction adjudication.
 
-
 ## Part II (after Part I)
 
 ### Part II — method TBD (Interviews)
@@ -36,7 +35,6 @@ End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md �
 **Begins after:** `vi-ch15`
 
 Operator locks evaluation mode in book/VOLUME-VI-INTERVIEWS.md (divergence-first default for Part I boxes).
-
 
 ## Chapters (Part I)
 

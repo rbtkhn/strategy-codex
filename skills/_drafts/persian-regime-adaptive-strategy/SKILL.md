@@ -66,7 +66,7 @@ These are the patterns that historically forced mode shifts:
 
 ## Boundaries
 
-- **WORK only** — not Record, not Voice, not SELF, not EVIDENCE. No gate staging from this skill.
+- , not Voice, not SELF, not EVIDENCE. No gate staging from this skill.
 - Do not merge CIV-MEM content into companion surfaces through this skill.
 - Corpus references are read-only grounding, not governance decisions.
 

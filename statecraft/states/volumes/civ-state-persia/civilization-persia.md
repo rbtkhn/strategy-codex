@@ -1,6 +1,5 @@
 # Civilization Persia
 
-
 ## Where This Sits
 
 This is Part 1 of the Persia CIV-STATE volume. Open it first when the operator needs the civilizational logic beneath Iranian statehood, deterrence, and restoration politics.

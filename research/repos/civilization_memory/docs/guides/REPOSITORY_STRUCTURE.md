@@ -104,4 +104,3 @@ This structure aligns with the Civilizational Memory Codex (CMC) Console system 
 - Templates available for various file types
 - Civilization-specific organization structure
 
-

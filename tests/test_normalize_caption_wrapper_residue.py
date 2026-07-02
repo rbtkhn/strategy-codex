@@ -14,13 +14,11 @@ from scripts.normalize_caption_wrapper_residue import (
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def test_decode_html_entities():
     body = "&gt;&gt; Thank you. &amp; welcome &quot;here&quot;."
     decoded, changed = decode_html_entities(body)
     assert changed
     assert decoded == '>> Thank you. & welcome "here".'
-
 
 def test_strip_caption_header():
     body = "Kind: captions\nLanguage: en\nWhen you're negotiating with Iran"
@@ -28,13 +26,11 @@ def test_strip_caption_header():
     assert changed
     assert stripped.startswith("When you're negotiating")
 
-
 def test_strip_transcripts_prefix():
     body = "Transcripts:\nOh, really? >> Yeah."
     stripped, changed = strip_transcripts_prefix(body)
     assert changed
     assert stripped.startswith("Oh, really?")
-
 
 def test_normalize_fixture_metadata():
     body = (

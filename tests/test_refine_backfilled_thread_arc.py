@@ -11,7 +11,6 @@ from scripts.refine_backfilled_thread_arc import (
     render_refined_block,
 )
 
-
 def test_parse_bullets_matches_backfill_format_bullet() -> None:
     # Mirrors scripts/backfill_expert_thread.format_bullet (two spaces before \n).
     section = """### 2026-01
@@ -27,7 +26,6 @@ def test_parse_bullets_matches_backfill_format_bullet() -> None:
     assert bullets[1].date == "2026-01-20"
     assert "abcdef123456" in bullets[1].source
 
-
 def test_render_refined_block_none_when_no_month_headings() -> None:
     inner = """## Backfilled historical arc (reconstructed from notebook runtime/artifacts)
 
@@ -41,7 +39,6 @@ _No eligible evidence found in the requested window._
 """
     block = marker_block_start("x") + inner + marker_block_end("x")
     assert render_refined_block("x", block) is None
-
 
 def test_render_refined_block_roundtrip_has_months() -> None:
     inner = """## Backfilled historical arc (reconstructed from notebook runtime/artifacts)
@@ -63,7 +60,6 @@ def test_render_refined_block_roundtrip_has_months() -> None:
     assert "#### Month-level arc" in out
     assert "#### Dated archive/placeholders/evidence" in out
     assert "**2026-01-10** — Alpha." in out
-
 
 @pytest.mark.parametrize(
     "summary_ws",

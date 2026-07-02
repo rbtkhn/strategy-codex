@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Monday, June 15, 2026, and our dear friend Larry Johnson is here with us. Welcome back. >> I'm putting in for a raise, man. You've been working me like a field meal, you know, beating me and show up here. Show up there. Okay. [laughter] Actually, it was fun fun having the chat with uh Professor Marandi >> and uh you know, I didn't have my shirt on, so he he gave me a hard time.

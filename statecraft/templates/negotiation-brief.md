@@ -1,6 +1,5 @@
 # Negotiation Brief Template
 
-
 Use this template for bargaining packages, diplomatic instructions, shuttle diplomacy notes, Track II packages, ceasefire-adjacent talks, sanctions relief sequencing, and alliance consultations.
 
 ## Negotiation Object

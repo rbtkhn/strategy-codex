@@ -1,6 +1,5 @@
 # Conductor novelty claim ladder
 
-
 **Purpose:** Calibrate what Strategy-codex can honestly claim about the novelty and value of the **conductor innovation** plus the **four-movement arc**.
 
 This note exists to prevent overclaiming while still preserving what may genuinely be distinctive in the implementation.

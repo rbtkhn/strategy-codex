@@ -64,7 +64,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Thursday, June 11th, 2026, and our dear friend Larry Johnson is here with us. Welcome back, Larry. >> You know, I'd only do this on Thursday for you. And that's because you wore the shirt. So, I congratulate you on your style choice. Actually, your wife did it.

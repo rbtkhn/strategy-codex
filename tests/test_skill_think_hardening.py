@@ -11,7 +11,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _run(name: str, *args: str) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         [sys.executable, str(REPO_ROOT / "scripts" / name), *args],
@@ -21,12 +20,10 @@ def _run(name: str, *args: str) -> subprocess.CompletedProcess[str]:
         check=False,
     )
 
-
 def test_validate_think_claims() -> None:
     pytest.importorskip("jsonschema")
     cp = _run("validate_think_claims.py", "--skill-think-md", "skill-think.md")
     assert cp.returncode == 0, cp.stderr
-
 
 def test_build_think_observability() -> None:
     cp = _run("build_think_observability.py")
@@ -36,7 +33,6 @@ def test_build_think_observability() -> None:
     sv = data.get("schemaVersion", "")
     assert sv.startswith("1.") and "skill-think" in sv
     assert "metrics" in data
-
 
 def test_propose_think_claims_from_read_stdout_json() -> None:
     cp = _run("propose_think_claims_from_read.py", "--max-ids", "3")

@@ -17,7 +17,6 @@ if str(SCRIPTS) not in sys.path:
 from continuity_preflight import build_receipt, write_receipt  # noqa: E402
 from verify_continuity_receipt import verify_receipt_file  # noqa: E402
 
-
 def test_build_receipt_hashes_user_files(tmp_path: Path) -> None:
     ud = tmp_path / "platform/users" / "u1"
     ud.mkdir(parents=True)
@@ -32,7 +31,6 @@ def test_build_receipt_hashes_user_files(tmp_path: Path) -> None:
     assert not errs
     assert receipt["version"] == 1
     assert len(receipt["required_paths"]) == 3
-
 
 def test_verify_receipt_ttl_expired(tmp_path: Path) -> None:
     import hashlib
@@ -63,7 +61,6 @@ def test_verify_receipt_ttl_expired(tmp_path: Path) -> None:
     assert not ok
     assert "expired" in msg.lower()
 
-
 def test_verify_receipt_hash_mismatch(tmp_path: Path) -> None:
     ud = tmp_path / "platform/users" / "u1"
     ud.mkdir(parents=True)
@@ -80,7 +77,6 @@ def test_verify_receipt_hash_mismatch(tmp_path: Path) -> None:
     ok, msg = verify_receipt_file(out, repo_root=tmp_path, ttl_hours=24)
     assert not ok
     assert "mismatch" in msg.lower()
-
 
 def test_verify_receipt_ok(tmp_path: Path) -> None:
     ud = tmp_path / "platform/users" / "u1"

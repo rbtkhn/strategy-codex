@@ -1,6 +1,5 @@
 # Macgregor Shelf - 2026-04
 
-
 This monthly shelf is the April 2026 synthesis/index for the migrated Macgregor statecraft shelf.
 
 Month status: `mature retrieval month`

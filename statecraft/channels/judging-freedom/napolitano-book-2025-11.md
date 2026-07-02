@@ -1,6 +1,5 @@
 # Napolitano book - 2025-11
 
-
 Purpose: route the November 2025 `Judging Freedom` balanced-core guest set inside the native Napolitano shelf.
 
 ## Core anchors

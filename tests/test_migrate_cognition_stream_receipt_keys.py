@@ -11,7 +11,6 @@ if str(SCRIPTS) not in sys.path:
 
 import migrate_cognition_stream_receipt_keys as migrate  # noqa: E402
 
-
 def test_migrate_renames_legacy_file_and_patches_channel_key(tmp_path: Path) -> None:
     window = tmp_path / "2026-05-21_to_2026-05-21"
     window.mkdir(parents=True)
@@ -38,7 +37,6 @@ def test_migrate_renames_legacy_file_and_patches_channel_key(tmp_path: Path) -> 
     assert data["channel_key"] == "alexander-mercouris"
     assert result.to_dict()["counts"]["renamed"] == 1
 
-
 def test_dry_run_does_not_write(tmp_path: Path) -> None:
     window = tmp_path / "2026-05-21_to_2026-05-21"
     window.mkdir(parents=True)
@@ -51,7 +49,6 @@ def test_dry_run_does_not_write(tmp_path: Path) -> None:
     assert legacy.is_file()
     assert not (window / "judging-freedom.discovery.json").exists()
     assert result.to_dict()["counts"]["renamed"] == 1
-
 
 def test_conflict_when_target_exists(tmp_path: Path) -> None:
     window = tmp_path / "2026-05-21_to_2026-05-21"

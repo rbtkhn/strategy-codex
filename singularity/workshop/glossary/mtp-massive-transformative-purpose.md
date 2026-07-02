@@ -1,7 +1,5 @@
 # MTP — Massive Transformative Purpose
 
-WORK only; not Record.
-
 ## Term
 
 **Massive Transformative Purpose (MTP)** — Salim Ismail / **EXO** (exponential organization) vocabulary for the **top-level why**: a purpose that is **massive** in scope, **transformative** if achieved, and stable enough to survive product pivots.

@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-01-16 (*Reflections on a War*)
 <!-- word_count: 1855 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-01-16 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 1856
@@ -127,7 +126,6 @@ This decline was manifest during the term of President Bill Clinton, and all oth
 
 Note: Back in September 2025 I began publishing a new book on my experiences in Desert Storm and as a UN weapons inspector entitled “The SCUD Hunters.” By October 20, 2025 I had published five chapters. I paused publishing the book as I wrestled with putting the rest of the book behind a paywall (i.e., for subscribers only.) However, the tremendous outpouring of support that has taken place since I went public about being “de-banked” has convinced me to keep publishing the book without a paywall. I will resume publishing a chapter a week starting January 19, 2026.
 
-
 ### Reflection
 
 **Operator note:** Desert Storm / UNSCOM memoir-essay with interleaved Robert Frost ("War Thoughts at Home"). Substack UI date may read Jan 17, 2026. Memoir and casualty figures—essay ≠ wire. Light cleanup only.
@@ -144,13 +142,11 @@ Note: Back in September 2025 I began publishing a new book on my experiences in 
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

@@ -1,7 +1,5 @@
 # Host shelf quality summary
 
-WORK only; not Record.
-
 - host: `alkhorshid`
 - month: `2026-05`
 - routeable artifact count: `1` (+0)

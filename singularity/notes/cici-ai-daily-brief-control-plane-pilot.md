@@ -1,7 +1,5 @@
 # cici-ai Daily Brief Control-Plane Pilot
 
-WORK only; not Record.
-
 ## Purpose
 
 This pilot turns the `cici-ai` daily Telegram brief into a real control-plane test.

@@ -79,7 +79,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Thursday, June 18, 2026 and our dear friend, our brother Alex Krainer is here with us. Welcome back, Alex. >> Uh, good to join you again, Nima. Thank you for the invite and greetings to everyone out there. >> Alex, let's start with the breaking news. Last night we've learned that Iran and the United States both sides have signed the 14 MOU memorandum of understanding and finally we get the text we get the document because both sides you know released that document.

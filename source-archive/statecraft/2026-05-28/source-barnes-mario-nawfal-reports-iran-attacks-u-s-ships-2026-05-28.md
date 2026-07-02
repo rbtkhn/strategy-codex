@@ -27,7 +27,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### IRGC Warning Shot Open — Bushier Missile, Reaper Drone, Deal-Optimism Cycle
 
 Hey, man. Hey. Hey. >> Yeah. Um, you have, you know, so much about so much is that when we get into when I got into this now, I'm like, man, I' I I got I don't know which direction to take this cuz there's like so many things I can ask you about so many things. But, uh, I'm going to start at the what just happened now to get your thoughts, a quick reaction on it and what happened last night.

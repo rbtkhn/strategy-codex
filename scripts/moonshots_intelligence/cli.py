@@ -19,7 +19,6 @@ from moonshots_intelligence.nst_map import apply_nst_mapping  # noqa: E402
 from moonshots_intelligence.render import render_markdown  # noqa: E402
 from moonshots_intelligence.segment import segment_body, segments_lossless  # noqa: E402
 
-
 def compile_archive(
     archive_path: Path,
     *,
@@ -90,7 +89,6 @@ def compile_archive(
     result["bullet_count"] = len(document.get("bullets") or [])
     return result
 
-
 def main(argv: list[str] | None = None) -> int:
     import argparse
 
@@ -120,7 +118,6 @@ def main(argv: list[str] | None = None) -> int:
 
     print(json.dumps(result, indent=2))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

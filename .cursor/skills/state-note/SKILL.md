@@ -23,7 +23,6 @@ Use this skill when one statecraft argument has become **reusable enough to stan
 
 ## Boundary
 
-- WORK only; not Record.
 - Promote **one bounded argument**, not the whole day or month.
 - Keep the note **argument-shaped**, not archive-shaped (no verbatim transcript mirrors).
 - Default to **shelf-native** under `statecraft/notes/`; do not duplicate full prose on speaker shelves.
@@ -95,7 +94,7 @@ Do **not** bloat into a pseudo-essay. Tables are fine when they preserve **dispr
 
 **Filename:** kebab-case, date or topic slug, unique on shelf — e.g. `june-18-2026-mou-guest-pair-citation-split.md`.
 
-**Header fence:** first line `WORK only; not Record.`
+Classify as **instrumental work** (not Record). See [work-membrane-v2.md](../../docs/work-membrane-v2.md).
 
 ### 4. Preserve source anchors
 
@@ -175,7 +174,6 @@ If verification cannot be completed:
 ## Preferred maintenance after skill edits
 
 Run host sync and validation (see appendix).
-
 
 ## Cursor / strategy-codex instance
 

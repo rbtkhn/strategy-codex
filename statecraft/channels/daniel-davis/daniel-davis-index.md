@@ -1,6 +1,5 @@
 # Daniel Davis Index
 
-
 Compatibility pointer only.
 
 The canonical channel route map now lives at [daniel-davis-channel-index.md](daniel-davis-channel-index.md).

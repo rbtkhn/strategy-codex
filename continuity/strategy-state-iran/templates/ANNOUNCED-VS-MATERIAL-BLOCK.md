@@ -15,4 +15,4 @@
 | **Seam implication** | (What to **fold** into [main `chapters/…/days.md`](../../chapters/2026/2026-04/days.md) vs what stays **institutional-only**.) |
 ```
 
-WORK only; not Record. Pair with [INSTITUTIONAL-SCORECARD](INSTITUTIONAL-SCORECARD.md) when useful.
+Pair with [INSTITUTIONAL-SCORECARD](INSTITUTIONAL-SCORECARD.md) when useful.

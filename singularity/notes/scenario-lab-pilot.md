@@ -1,7 +1,5 @@
 # Scenario Lab Pilot
 
-WORK only; not Record.
-
 Use this sheet when a singularity question needs more than a memo and less than a full strategic doctrine rewrite.
 
 Scenario Lab is the right route when the live question is:

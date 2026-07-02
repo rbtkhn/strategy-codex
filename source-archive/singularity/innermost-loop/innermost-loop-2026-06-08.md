@@ -13,8 +13,6 @@ post_id: 201185982
 
 # The Innermost Loop - 2026-06-08
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to June 8, 2026
@@ -29,10 +27,7 @@ The Singularity may quietly hit longevity escape velocity as soon as this year, 
 
 ## Newsletter Text
 
--
--
-
-The Singularity may quietly hit longevity escape velocity as soon as this year, the point where medicine buys back more than a year of life expectancy for every year that passes and death starts losing ground. A UC San Diego team reports semaglutide slows biological aging in adults with HIV, cutting the pace 9% on the DunedinPACE clock in the first randomized, placebo-controlled sign that a GLP-1 drug touches aging itself. The pattern looks too clean for coincidence, as one observer notes 2026 is the year we start aging backwards on drugs never designed for it, with semaglutide built for diabetes, colchicine built for gout now cutting cardiac events 22%, and the shingles vaccine now slowing cognitive decline. The off-label dividends keep compounding, as GLP-1 drugs are now tied to lower breast cancer incidence , while Eli Lilly’s triple-G retatrutide cut sleep apnea severity 60.6% and knee pain over 70% atop roughly 30% weight loss , as much as 85 pounds in the heaviest patients, becoming a category rather than a pill. A long-elusive target also fell, as GSK’s bepirovirsen functionally cured 19% of hepatitis B patients, clearing a hurdle chased for decades and welcome news for 300 million people.
+- The Singularity may quietly hit longevity escape velocity as soon as this year, the point where medicine buys back more than a year of life expectancy for every year that passes and death starts losing ground. A UC San Diego team reports semaglutide slows biological aging in adults with HIV, cutting the pace 9% on the DunedinPACE clock in the first randomized, placebo-controlled sign that a GLP-1 drug touches aging itself. The pattern looks too clean for coincidence, as one observer notes 2026 is the year we start aging backwards on drugs never designed for it, with semaglutide built for diabetes, colchicine built for gout now cutting cardiac events 22%, and the shingles vaccine now slowing cognitive decline. The off-label dividends keep compounding, as GLP-1 drugs are now tied to lower breast cancer incidence , while Eli Lilly’s triple-G retatrutide cut sleep apnea severity 60.6% and knee pain over 70% atop roughly 30% weight loss , as much as 85 pounds in the heaviest patients, becoming a category rather than a pill. A long-elusive target also fell, as GSK’s bepirovirsen functionally cured 19% of hepatitis B patients, clearing a hurdle chased for decades and welcome news for 300 million people.
 
 If biology is being debugged, its debuggers are next. On the eve of recursive self-improvement, OpenAI’s Roon says everyone has grown more “mutual conditional pause agreement pilled,” even as he spies 1,000x of efficiency still lying around in deep learning. That caution is becoming a science. The Center for AI Safety shipped Political Consistency Training to shrink models’ covert partisan tilt, and its companion paper “AI Deterrence by Betrayal” argues the threat of rivals quietly subverting each other’s systems may deter reckless deployment. The field is turning inward, too, as Dan Hendrycks’s Eigenism recasts identity as a graded pattern so human flourishing becomes part of an AI’s self-interest, while another CAIS paper measures LLM “functional wellbeing,” finding kindness lifts it, abuse lowers it, and bigger models read as consistently less happy.
 

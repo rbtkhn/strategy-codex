@@ -1,6 +1,5 @@
 # Rome Secondary Sources - Colonial
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the colonial Rome primary shelf when papal residue, Latin-Catholic expansion, early modern Italy, or outward residue beyond the ancient core need stronger institutional context.

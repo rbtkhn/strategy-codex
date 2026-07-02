@@ -15,7 +15,6 @@ if str(EPISTEMIC_ROOT) not in sys.path:
 from analysis.engine import DEFAULT_ANALYSIS_OUT, DEFAULT_STRUCTURED_IN  # noqa: E402
 from pipeline.run_pipeline import run_analysis_layer  # noqa: E402
 
-
 def main() -> int:
     analysis_by_event, summary = run_analysis_layer(
         structured_path=DEFAULT_STRUCTURED_IN,
@@ -27,7 +26,6 @@ def main() -> int:
         f"divergence_events={len(summary['cross_voice_divergence'])} -> {DEFAULT_ANALYSIS_OUT}"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

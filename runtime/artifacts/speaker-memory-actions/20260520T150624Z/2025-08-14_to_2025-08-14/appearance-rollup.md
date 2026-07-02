@@ -1,7 +1,5 @@
 # Appearance rollup
 
-WORK only; not Record.
-
 Window: `2025-08-14` to `2025-08-14`
 
 - appearances: `1`

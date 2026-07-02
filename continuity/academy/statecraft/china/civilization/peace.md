@@ -1,7 +1,6 @@
 # China Peace
 <!-- word_count: 2876 -->
 
-
 ## Purpose
 
 Use Chinese peace memory as a statecraft lens for harmony, hierarchy, anti-disorder stabilization, development continuity, face-saving restraint, quiet implementation, mediation, maritime access, and managed unity.

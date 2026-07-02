@@ -1,6 +1,6 @@
 # Five primary threads — watch tags (§1d–§1h)
 
-**WORK only;** not Record.
+**non-authoritative;** not Record.
 
 **Official theory name:** TBD (deferred by operator). This doc holds the **substance** for inbox tagging and Judgment plane discipline on `/codex` passes.
 

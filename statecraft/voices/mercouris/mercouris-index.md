@@ -28,7 +28,6 @@ Do **not** dedupe by calendar day alone — same analyst on Davis vs Diesen vs D
 - Filename families: `source-duran-mercouris-*` · `source-daniel-davis-*mercouris*` · `source-glenn-diesen-*mercouris*` · explicit Mercouris in `guest` / `guest_people` / `guest_2` with `channel_slug` ≠ `alexander-mercouris`
 - **The Duran:** YAML lists Christoforou host / Mercouris guest — route host lens to [`the-duran-channel-index.md`](../../channels/the-duran/the-duran-channel-index.md); Mercouris mechanism here
 
-
 ## 2023-01
 
 - [2023-01-14 — Russia, from Greater Europe to Greater Eurasia w/Sergey Karaganov, Al…](../../../source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md) (`4uLADN-bMuc`) — host: **Glenn Diesen** · `glenn-diesen`

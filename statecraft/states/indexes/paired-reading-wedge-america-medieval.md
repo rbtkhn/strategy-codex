@@ -1,6 +1,5 @@
 # America Medieval Paired Reading Wedge
 
-
 ## Two Primary Anchors
 
 1. [Alfred-era and Anglian inheritance texts](../volumes/civ-state-america/civ-state-america-primary-sources-medieval.md) that carry kingship, law, and ordered continuity.

@@ -1,6 +1,5 @@
 # Jiang on China
 
-
 This note captures the broad local-corpus reading of **Jiang Xueqin's opinion on China** across the available Predictive History material.
 
 The key routing warning is simple: Jiang is often **negative about Chinese elite incentives and strategic caution** without being simply **anti-China** in a civilizational or state-capacity sense.

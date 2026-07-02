@@ -5,7 +5,6 @@ from unittest.mock import patch
 
 import bot.core as core
 
-
 def _titles_from_summary(summary: str) -> list[str]:
     titles = []
     for ln in summary.strip().split("\n"):
@@ -13,7 +12,6 @@ def _titles_from_summary(summary: str) -> list[str]:
         if m:
             titles.append(m.group(1))
     return titles
-
 
 def test_library_summary_lookup_priority_order_within_lane():
     """preferred < high < medium < low < none within the same lane; title tie-breaks last."""
@@ -33,7 +31,6 @@ def test_library_summary_lookup_priority_order_within_lane():
         "Beta Book",
         "Delta Book",
     ]
-
 
 def test_library_summary_lane_sorts_before_lookup_priority():
     """reference (any priority) before canon before influence; lane dominates over preferred."""

@@ -13,7 +13,6 @@ if str(WD) not in sys.path:
 
 from export_continuity_blocks import export_continuity_blocks, load_events, render_markdown  # noqa: E402
 
-
 def test_missing_feed_exports_empty_report(tmp_path: Path) -> None:
     source = tmp_path / "runtime" / "observability" / "continuity_blocks.jsonl"
     output = tmp_path / "runtime/artifacts" / "work-dev" / "continuity-observability" / "continuity-blocks.md"
@@ -23,7 +22,6 @@ def test_missing_feed_exports_empty_report(tmp_path: Path) -> None:
     assert output.is_file()
     assert "Continuity block events: `0`" in markdown
     assert "No continuity block events were observed" in markdown
-
 
 def test_load_events_ignores_non_blocks_and_invalid_lines(tmp_path: Path) -> None:
     source = tmp_path / "continuity_blocks.jsonl"
@@ -42,7 +40,6 @@ def test_load_events_ignores_non_blocks_and_invalid_lines(tmp_path: Path) -> Non
 
     assert len(events) == 1
     assert invalid == 2
-
 
 def test_render_markdown_summarizes_recent_events(tmp_path: Path) -> None:
     source = tmp_path / "runtime" / "observability" / "continuity_blocks.jsonl"

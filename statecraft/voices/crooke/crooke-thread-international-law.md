@@ -1,6 +1,5 @@
 # Crooke topical thread — `international-law`
 
-
 Purpose: isolate the recurring **international-law / legitimacy-order / negotiated-constraint** lane inside the broader Crooke corpus without confusing it with either the general [crooke-thread.md](crooke-thread.md or adjacent military-legal specialist lanes elsewhere in the notebook.
 
 ## Boundary

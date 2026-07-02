@@ -44,10 +44,6 @@ Trump once said that to lose dollar hegemony would be worse for America than los
 
 “White House officials described the demands as “a wish list un-connected to reality on the ground””.
 
-
-
-
-
 With these economic cards already in Iran’s hands, and with its readiness to match Israeli-US bombardment escalation with its own retaliatory missile strikes on Gulf States’ infrastructure, pari passu, it seems inherently unlikely that Trump will get any plausible exit from war — not least because ‘Israel has a vote’ in this matter, and Israel has now shifted from the hope of ‘regime change’ to insistence that the US seize Kharg Island in the Hormuz.
 
 Israel has acknowledged that its hoped-for regime change objective in Iran has failed, write leading Israeli commentators (Ronen Bergman and Anna Barsky). So, it is recalibrating its objectives -- “Jerusalem [now] believes that the path to [an Israeli] victory runs through control of Kharg Island”, writes Barsky:
@@ -75,5 +71,4 @@ Iranian Admiral Ali Akbar Ahmadian reacted to the threat of American ‘boots on
 “For years, we’ve been awaiting [an American invasion]. Now, we have just one message for the American soldiers: Come closer”.
 
 Come into my parlour, said the spider to the fly.
-
 

@@ -17,7 +17,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Redacted Welcome and Ahead-of-Schedule Update
 
 Host: Professor Robert Pape is the director of the Chicago Project on Security and Threats at the University of Chicago and the author of Escalation Trap on Substack.

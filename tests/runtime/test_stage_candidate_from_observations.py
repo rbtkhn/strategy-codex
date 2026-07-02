@@ -17,11 +17,9 @@ for p in (SCRIPTS, RUNTIME):
     if str(p) not in sys.path:
         sys.path.insert(0, str(p))
 
-
 @pytest.fixture
 def jsonschema_mod():
     return pytest.importorskip("jsonschema")
-
 
 def _minimal_obs(
     oid: str,
@@ -47,13 +45,11 @@ def _minimal_obs(
         "confidence": confidence,
     }
 
-
 def _write_ledger(tmp_path: Path, rows: list[dict]) -> None:
     obs_dir = tmp_path / "runtime" / "observations"
     obs_dir.mkdir(parents=True)
     path = obs_dir / "index.jsonl"
     path.write_text("\n".join(json.dumps(r, ensure_ascii=False) for r in rows) + "\n", encoding="utf-8")
-
 
 def _minimal_gate(user_dir: Path) -> None:
     gate = user_dir / "recursion-gate.md"
@@ -62,7 +58,6 @@ def _minimal_gate(user_dir: Path) -> None:
         "# Gate\n\n## Candidates\n\n## Processed\n\n",
         encoding="utf-8",
     )
-
 
 def test_stages_candidate_from_valid_ids(
     tmp_path: Path,
@@ -141,7 +136,6 @@ def test_stages_candidate_from_valid_ids(
     assert "candidate_type: skill_update" in out
     assert "target_surface: SKILLS" in out
 
-
 def test_rejects_missing_observation(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     uid = "u2"
     _minimal_gate(tmp_path / "platform/users" / uid)
@@ -176,7 +170,6 @@ def test_rejects_missing_observation(tmp_path: Path, monkeypatch: pytest.MonkeyP
         ],
     )
     assert sc.main() == 2
-
 
 def test_rejects_mixed_lane_without_flag(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     uid = "u3"
@@ -219,7 +212,6 @@ def test_rejects_mixed_lane_without_flag(tmp_path: Path, monkeypatch: pytest.Mon
     )
     assert sc.main() == 2
 
-
 def test_merge_skip_predicate() -> None:
     sys.path.insert(0, str(REPO_ROOT / "scripts"))
     import process_approved_candidates as pac
@@ -228,7 +220,6 @@ def test_merge_skip_predicate() -> None:
     block = "proposal_class: RUNTIME_OBSERVATION_PROPOSAL\nsummary: x\n"
     assert fn({"block": block}) is True
     assert fn({"block": "proposal_class: META_INFRA\n"}) is False
-
 
 def test_does_not_touch_self(tmp_path: Path, monkeypatch: pytest.MonkeyPatch, jsonschema_mod) -> None:
     uid = "u4"

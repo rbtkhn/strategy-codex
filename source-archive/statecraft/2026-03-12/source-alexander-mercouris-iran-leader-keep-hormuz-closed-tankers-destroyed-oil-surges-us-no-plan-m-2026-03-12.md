@@ -15,4 +15,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Iran Leader: Keep Hormuz Closed; Tankers Destroyed Oil Surges US No Plan; Moscow: UK Behind Bryansk
 
-

@@ -17,14 +17,12 @@ import build_external_codex_neighborhood as becn  # noqa: E402
 
 FIXED_TS = datetime(2026, 4, 27, 12, 0, 0, tzinfo=timezone.utc)
 
-
 def test_resolve_rejects_traversal(tmp_path: Path) -> None:
     ck = tmp_path / "checkout"
     ck.mkdir()
     (ck / "a.txt").write_text("x", encoding="utf-8")
     with pytest.raises(ValueError, match="traversal"):
         becn.resolve_subject_under_checkout(ck, "..")
-
 
 def test_resolve_rejects_escape(tmp_path: Path) -> None:
     ck = tmp_path / "checkout"
@@ -37,7 +35,6 @@ def test_resolve_rejects_escape(tmp_path: Path) -> None:
         pytest.skip("symlink not supported")
     with pytest.raises(ValueError, match="escapes"):
         becn.resolve_subject_under_checkout(ck, "link_out")
-
 
 def test_neighbors_file_subject(tmp_path: Path) -> None:
     repo = tmp_path / "repo"
@@ -68,7 +65,6 @@ def test_neighbors_file_subject(tmp_path: Path) -> None:
     assert "reason" in by_path["w/x/sibling.md"]
     assert "section" in by_path["w/x/sibling.md"]
 
-
 def test_neighbors_directory_subject(tmp_path: Path) -> None:
     repo = tmp_path / "repo"
     ck_rel = "fake-checkout"
@@ -90,7 +86,6 @@ def test_neighbors_directory_subject(tmp_path: Path) -> None:
     paths = [n["path_relative"] for n in report["neighbors"]]
     assert "a/b/child.md" in paths
 
-
 def test_truncation(tmp_path: Path) -> None:
     repo = tmp_path / "repo"
     ck_rel = "fc"
@@ -110,7 +105,6 @@ def test_truncation(tmp_path: Path) -> None:
     )
     assert report["truncated"] is True
     assert len(report["neighbors"]) == 5
-
 
 def test_main_writes_json(tmp_path: Path) -> None:
     repo = tmp_path / "repo"
@@ -138,7 +132,6 @@ def test_main_writes_json(tmp_path: Path) -> None:
     assert data["report_type"] == "external_codex_neighborhood_report"
     assert data["schema_version"] == "v1"
     assert "likely_family" in data
-
 
 def test_render_companion_markdown_stable_headings(tmp_path: Path) -> None:
     repo = tmp_path / "repo"
@@ -170,7 +163,6 @@ def test_render_companion_markdown_stable_headings(tmp_path: Path) -> None:
     assert isinstance(sug, list) and len(sug) >= 1
     assert sug[0]["path_relative"] == "content/civilizations/X/MEM--X.md"
 
-
 def test_render_empty_neighborhood(tmp_path: Path) -> None:
     repo = tmp_path / "repo"
     ck_rel = "fc"
@@ -190,7 +182,6 @@ def test_render_empty_neighborhood(tmp_path: Path) -> None:
     md = becn.render_companion_markdown(report)
     assert "*No neighbors in this bucket.*" in md
     assert '*No suggestions (empty neighborhood).*' in md
-
 
 def test_main_write_md_custom_paths(tmp_path: Path) -> None:
     repo = tmp_path / "repo"
@@ -219,7 +210,6 @@ def test_main_write_md_custom_paths(tmp_path: Path) -> None:
     assert jp.is_file()
     assert mp.is_file()
     assert "# External Codex Neighborhood Report" in mp.read_text(encoding="utf-8")
-
 
 def test_main_output_md_without_write_md_errors(tmp_path: Path) -> None:
     repo = tmp_path / "repo"

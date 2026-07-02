@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Confident Moscow Trashes Zelensky Proposals; Turkey Tells Kiev Stop Tanker Attacks; Mirnograd Ending
 
-

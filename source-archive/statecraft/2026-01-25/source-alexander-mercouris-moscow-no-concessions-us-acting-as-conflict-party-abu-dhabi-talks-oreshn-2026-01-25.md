@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Moscow No Concessions US Acting As Conflict Party Abu Dhabi Talks; Oreshnik Capability; Kiev Strikes
 
-

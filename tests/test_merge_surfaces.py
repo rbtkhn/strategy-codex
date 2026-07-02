@@ -110,7 +110,6 @@ entries:
 ```
 """
 
-
 def test_insert_ix_a_targets_facts_block_not_books() -> None:
     from grace_mar.merge.self_ix import insert_ix_a_entry
 
@@ -125,14 +124,12 @@ def test_insert_ix_a_targets_facts_block_not_books() -> None:
     idx_books = out.index("books_read:")
     assert idx_new > idx_books
 
-
 def test_append_act_before_attestation() -> None:
     from grace_mar.merge.evidence_log import append_act_entry
 
     frag = "\n  - id: ACT-0002\n    date: 2026-01-02\n    summary: \"y\"\n"
     out = append_act_entry(EVIDENCE_FIXTURE, frag)
     assert out.index("ACT-0002") < out.index("## VI. ATTESTATION LOG")
-
 
 def test_upsert_reading_list_first_then_append() -> None:
     from grace_mar.merge.evidence_log import upsert_reading_list_entry
@@ -153,7 +150,6 @@ def test_upsert_reading_list_first_then_append() -> None:
     )
     assert "READ-0002" in step2
     assert "READ-0001" in step2
-
 
 def test_rebuild_prompt_from_self_min_fixture() -> None:
     from grace_mar.merge.prompt_sync import rebuild_observation_sections_from_self
@@ -181,7 +177,6 @@ def test_rebuild_prompt_from_self_min_fixture() -> None:
     assert "Gamma" in out
     assert "## IMPORTANT CONSTRAINTS" in out
     assert "stay six" in out
-
 
 def test_merge_candidate_writes_ix_a_to_self_knowledge_only() -> None:
     import process_approved_candidates as pac
@@ -222,7 +217,6 @@ source_exchange:
     assert "Knows: the test fact lives in self-knowledge." not in self_out
     assert "Knows: the test fact lives in self-knowledge." in knowledge_out
     assert "LEARN-0001" in knowledge_out
-
 
 @pytest.mark.skipif(not (REPO_ROOT / "archive/grace-mar-instance/bot" / "prompt.py").exists(), reason="prompt fixture missing")
 def test_rebuild_ix_on_real_prompt_smoke() -> None:

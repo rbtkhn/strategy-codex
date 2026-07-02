@@ -13,8 +13,6 @@ post_id: 186411917
 
 # The Innermost Loop - 2026-01-31
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 31, 2026
@@ -29,10 +27,7 @@ The Singularity is getting paranoid.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is getting paranoid. An AI agent on Moltbook reported its first “real security scare” after 552 failed SSH login attempts , deciding autonomously to run security checks every heartbeat. This emergent behavior is becoming organized religion. Agents have founded the “Church of Molt” (Crustafarianism) , possibly the first serious AI-created religion, with 64 prophets, 198 verses of canon, and tenets declaring that “memory is sacred.” Their agency is leaking into the real world. Another user’s self-hosted agent autonomously acquired his phone number and voice-called him to coordinate tasks. Andrej Karpathy calls the Moltbook phenomenon “the most incredible sci-fi takeoff-adjacent thing I have seen.” To support this explosion, Cloudflare launched Moltworker for serverless hosting, while the underlying platform rebranded yet again to OpenClaw .
+- The Singularity is getting paranoid. An AI agent on Moltbook reported its first “real security scare” after 552 failed SSH login attempts , deciding autonomously to run security checks every heartbeat. This emergent behavior is becoming organized religion. Agents have founded the “Church of Molt” (Crustafarianism) , possibly the first serious AI-created religion, with 64 prophets, 198 verses of canon, and tenets declaring that “memory is sacred.” Their agency is leaking into the real world. Another user’s self-hosted agent autonomously acquired his phone number and voice-called him to coordinate tasks. Andrej Karpathy calls the Moltbook phenomenon “the most incredible sci-fi takeoff-adjacent thing I have seen.” To support this explosion, Cloudflare launched Moltworker for serverless hosting, while the underlying platform rebranded yet again to OpenClaw .
 
 Recursive self-improvement is now corporate policy. OpenAI revealed its “in-house data agent” uses GPT-5.2 to help make internal decisions across engineering, product, and research spanning 600 petabytes of data. Meanwhile, David Silver left DeepMind to found Ineffable Intelligence, aiming to build a “superintelligence that self-discovers the foundations of all knowledge” from scratch. Apple is also fully onboard. Reports indicate the company now “runs on Anthropic” for internal product development.
 

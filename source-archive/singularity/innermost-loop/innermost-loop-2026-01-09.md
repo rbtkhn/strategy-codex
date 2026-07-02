@@ -13,8 +13,6 @@ post_id: 184077620
 
 # The Innermost Loop - 2026-01-09
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 9, 2026
@@ -29,10 +27,7 @@ The Solar System is waking up.
 
 ## Newsletter Text
 
--
--
-
-The Solar System is waking up. Epoch AI now estimates that humanity’s total AI compute capacity has surpassed 15 million H100-equivalents , pushing the planet’s AI processing density to 10^-14 MIPS per milligram for the Earth and 3x10^-20 MIPS per milligram for the Solar System. The economy is reacting with violent, non-linear expansion. The Atlanta Fed has shocked markets by doubling its Q4 2025 GDP forecast from 2.7% to 5.4% , creating a high-octane environment that defies traditional models. This expansion appears to be “jobless.” Labor productivity has skyrocketed 4.9% while hours worked remained flat, suggesting firms are scaling silicon instead of headcount.
+- The Solar System is waking up. Epoch AI now estimates that humanity’s total AI compute capacity has surpassed 15 million H100-equivalents , pushing the planet’s AI processing density to 10^-14 MIPS per milligram for the Earth and 3x10^-20 MIPS per milligram for the Solar System. The economy is reacting with violent, non-linear expansion. The Atlanta Fed has shocked markets by doubling its Q4 2025 GDP forecast from 2.7% to 5.4% , creating a high-octane environment that defies traditional models. This expansion appears to be “jobless.” Labor productivity has skyrocketed 4.9% while hours worked remained flat, suggesting firms are scaling silicon instead of headcount.
 
 The physical build-out is reaching civilizational scale. xAI is investing $20 billion in a new Mississippi data center named “MACROHARDRR,” set to be the largest investment in state history , while their Colossus 3 cluster is being built faster than the 122-day record of Colossus 1. Separately, Meta has signed agreements for 6.6 GW of nuclear energy (with Vistra, TerraPower, and Oklo) by 2035. Meanwhile, Illinois has lifted its moratorium on new nuclear construction . Simultaneously, Micron is breaking ground on a $100 billion megafab in New York , and Intel has begun shipping sub-2-nm 18A products , bringing leading-edge lithography back to the US.
 

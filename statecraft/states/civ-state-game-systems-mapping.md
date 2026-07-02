@@ -1,6 +1,5 @@
 # CIV-STATE → Game Systems Mapping
 
-
 One-page bridge for strategy-game developers: how public **Civilizational Statecraft** (`rbtkhn/civ-state`) maps to executable gameplay systems without treating the repo as a history encyclopedia.
 
 **Canonical book:** five volumes (China → Persia → Rome → Russia → America), each `civilization → empire → statecraft`, with appendix retrieval apparatus. **Governing movement:** `memory → legitimacy → carrier → pressure → settlement`.

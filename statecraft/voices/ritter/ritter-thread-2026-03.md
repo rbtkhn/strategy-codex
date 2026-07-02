@@ -1,7 +1,6 @@
 # Expert thread — `ritter`
 <!-- word_count: 1192 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **month chapter of compatibility continuity**, not as an independent Ritter strand.
@@ -40,8 +39,6 @@ _(No narrative distillation yet — add prose above the markers, not inside them
 
 ## 2026-03
 
-
-
 Verification stance for Scott Ritter in 2026-03 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgment—without turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 
 When historical expert context artifacts exist for `ritter` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-03 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
@@ -53,7 +50,6 @@ Typical pairings on file for `ritter` emphasize contrast surfaces: × marandi, �
 If pages named this expert during 2026-03, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly too—absence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
 
 The `ritter` lane’s role (U.S. military dissent: Hormuz sea control, blockade ops, Vance frame; faith-politics register when Ritter is the speaking expert) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the month’s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
-
 
 Verification stance for Scott Ritter in 2026-03 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgment—without turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 

@@ -10,7 +10,7 @@ Generated: 2026-06-30
 - Latest chapter months: (none)
 - Daily inbox: yes (1047 lines)
 - Prediction ledger: yes
-- Open predictions (approx): 20
+- Prediction rows: 20
 - Stale status warning: False
 
 **Compiled views:** Compiled views and strategy-console outputs are derived only.

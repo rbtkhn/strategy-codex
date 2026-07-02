@@ -15,14 +15,12 @@ from update_diesen_ledger import (  # noqa: E402
     rebuild_ledger_section,
 )
 
-
 def test_video_id_parsing_normalizes_common_youtube_forms() -> None:
     vid = "abc123DEF45"
     assert extract_video_id(vid) == vid
     assert extract_video_id(f"https://www.youtube.com/watch?v={vid}&t=1s") == vid
     assert extract_video_id(f"https://youtu.be/{vid}") == vid
     assert canonical_watch_url(f"https://youtu.be/{vid}") == f"https://www.youtube.com/watch?v={vid}"
-
 
 def test_rebuild_ledger_section_canonicalizes_dedupes_and_marks_mirror_status(tmp_path: Path) -> None:
     notebook_root = tmp_path / "strategy-notebook"
@@ -97,7 +95,6 @@ def test_rebuild_ledger_section_canonicalizes_dedupes_and_marks_mirror_status(tm
     assert "mirrored" in updated
     assert "needs capture" in updated
     assert "https://www.youtube.com/watch?v=lmnopqrstuv" in updated
-
 
 def test_rebuild_ledger_section_offline_reflows_existing_rows(tmp_path: Path) -> None:
     notebook_root = tmp_path / "strategy-notebook"

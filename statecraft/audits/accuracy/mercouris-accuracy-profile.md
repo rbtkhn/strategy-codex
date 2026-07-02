@@ -1,6 +1,5 @@
 # Mercouris accuracy profile
 
-
 ## Summary
 
 Mercouris makes many sequence-heavy and institutional-detail claims under high cadence. V1 scores only bounded, locally evidenced claims that either closed visibly or were corrected explicitly on record.

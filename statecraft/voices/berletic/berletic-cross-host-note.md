@@ -1,6 +1,5 @@
 # Berletic cross-host note
 
-
 Purpose: keep the wider Berletic object visible without overstating its maturity outside the Diesen lane.
 
 ## Core note

@@ -11,7 +11,6 @@ archive_links:
 ---
 # Archive Truth-Floor Repair Routing - 2026-06-01
 
-
 **Statecraft Registry**
 - Lane: shared
 - Output class: router-candidate

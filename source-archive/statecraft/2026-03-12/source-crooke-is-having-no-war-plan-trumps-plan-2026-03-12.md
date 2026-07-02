@@ -80,10 +80,6 @@ Possibly Iran believes too that it will ‘flip’ the geo-political balance acr
 
 Plainly, the Iranian leadership understands full well that the successful deployment of their asymmetric war plan could upend the geo-strategic balance of not just West Asia, but of the globe.
 
-
-
-
-
 And so, what of Trump’s plan? President Trump’s biographer, Michael Wolff, said just yesterday:
 
 “He [Trump] has no plan. He doesn’t know what is going on. He’s not really capable of formulating a plan. He creates a cliffhanger and that also becomes something in his own mind as a point of pride: No one knows what I am going to do next. So everyone is afraid of me – so that gives me maximum leverage. Having no plan becomes the plan”.

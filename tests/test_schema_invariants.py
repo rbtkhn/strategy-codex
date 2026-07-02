@@ -10,7 +10,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
-
 def test_resolved_event_requires_outcome(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     import prediction_lib
     import schema_invariants
@@ -40,7 +39,6 @@ def test_resolved_event_requires_outcome(tmp_path: Path, monkeypatch: pytest.Mon
 
     issues = schema_invariants.run_prediction_invariants(events_path=data_dir / "event-registry.json")
     assert any("resolved event requires outcome" in line for line in issues)
-
 
 def test_prediction_status_must_match_event(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     import prediction_lib

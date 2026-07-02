@@ -1,6 +1,5 @@
 # Krainer speaker object
 
-
 object_shape: cross-host-reinforced
 
 Purpose: define Alex Krainer as a first-class speaker object in a way that matches his real utility in the notebook. Unlike Mercouris, Parsi, or Pape, Krainer does not have one thick native cognition stream body here. Unlike Marandi or Postol, he is not yet best described by a mature multi-host helix. Krainer is best read as a **cross-host reinforced macro-financial and imperial-breakdown object** whose clearest mature branch is Diesen-side.

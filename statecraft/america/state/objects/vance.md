@@ -1,6 +1,5 @@
 # J.D. Vance Authority Carrier Object
 
-
 ## Object
 
 J.D. Vance, U.S. vice president and successor-legitimacy carrier.

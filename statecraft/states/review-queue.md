@@ -1,6 +1,5 @@
 # CIV-STATE Review Queue
 
-
 This queue is the governed upstream membrane from repo-root statecraft back into `civ-state`.
 
 Its purpose is narrow: capture source-memory discoveries exposed by downstream drafting without silently mutating the source base.

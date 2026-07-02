@@ -11,13 +11,11 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture(autouse=True)
 def _scripts_on_path() -> None:
     p = str(REPO_ROOT / "scripts")
     if p not in sys.path:
         sys.path.insert(0, p)
-
 
 def test_danger_flags_r3_durable_without_gate() -> None:
     from mcp_capability_audit import danger_flags
@@ -43,7 +41,6 @@ def test_danger_flags_r3_durable_without_gate() -> None:
     msgs = danger_flags([bad])
     assert any("R3[bad_durable]" in m for m in msgs)
 
-
 def test_danger_flags_r4_write_without_receipt() -> None:
     from mcp_capability_audit import danger_flags
 
@@ -68,7 +65,6 @@ def test_danger_flags_r4_write_without_receipt() -> None:
     msgs = danger_flags([bad])
     assert any("R4[bad_write]" in m for m in msgs)
 
-
 def test_shell_execution_prohibited_no_r2() -> None:
     from mcp_capability_audit import danger_flags
 
@@ -91,7 +87,6 @@ def test_shell_execution_prohibited_no_r2() -> None:
         "notes": "",
     }
     assert not any("R2[shell_execution_prohibited]" in m for m in danger_flags([seed_row]))
-
 
 def test_schema_validation_rejects_extra_keys(tmp_path: Path) -> None:
     from mcp_capability_audit import validate_document
@@ -124,7 +119,6 @@ def test_schema_validation_rejects_extra_keys(tmp_path: Path) -> None:
     with pytest.raises(Exception):
         validate_document(bad_doc, schema_path)
 
-
 def test_audit_script_smoke_tmp_output(tmp_path: Path) -> None:
     out = tmp_path / "report.md"
     proc = subprocess.run(
@@ -143,7 +137,6 @@ def test_audit_script_smoke_tmp_output(tmp_path: Path) -> None:
     assert proc.returncode == 0, proc.stderr
     text = out.read_text(encoding="utf-8")
     assert "## Danger flags" in text
-
 
 def test_strict_exits_nonzero_when_flags(tmp_path: Path) -> None:
     """Synthetic doc triggers R3; strict mode should exit 1."""

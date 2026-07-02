@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-04-13 (*Blasphemy, American Style*)
 <!-- word_count: 1765 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-04-13 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 1766
@@ -26,7 +25,6 @@ Trump postured himself as a President with Christ-like powers, too ignorant to u
 Scott Ritter
 
 Apr 13, 2026
-
 
 Donald Trump as Christ
 
@@ -63,8 +61,6 @@ While the Constitution authored by Madison, Hamilton, Jay and others was subsequ
 In a letter to the Danbury Baptists, Jefferson declared that "religion is a matter which lies solely between man and his God, that he owes account to none other for his faith or his worship, that the legislative powers of government reach actions only, and not opinions."
 
 Jefferson then linked this core belief to the Constitution, stating his "sovereign reverence" for the American people who, through the First Amendment of the Constitution, declared that their legislature should "make no law respecting an establishment of religion, or prohibiting the free exercise thereof, thus building a wall of separation between Church & State."
-
-
 
 CEOs touch Trump as they pray
 
@@ -110,7 +106,6 @@ These values are the exact opposite of what Supreme Leader Trump espouses.
 
 We are a nation that has lost touch with our foundational values, led by a malignant narcissist who has formed a cult of personality which threatens all of America, and all of the World.
 
-
 ### Reflection
 
 **Operator note:** Operator-ingested Substack essay.
@@ -127,13 +122,11 @@ We are a nation that has lost touch with our foundational values, led by a malig
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

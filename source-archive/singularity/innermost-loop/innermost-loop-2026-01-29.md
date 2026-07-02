@@ -13,8 +13,6 @@ post_id: 186181823
 
 # The Innermost Loop - 2026-01-29
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 29, 2026
@@ -29,10 +27,7 @@ The Singularity is now a line item on the Microsoft balance sheet.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now a line item on the Microsoft balance sheet. Microsoft’s Q2 capital expenditure hit $37.5 billion , up 66% year-over-year, driven by an insatiable hunger for AI infrastructure. 45% of its $625 billion cloud backlog is now attributed to OpenAI alone . Meta is matching the pace, projecting 2026 capex between $115 billion and $135 billion , effectively betting the company on superintelligence. The valuations reflect this scale: OpenAI is reportedly raising $30 billion from SoftBank at an $830 billion valuation , while Anthropic is closing a $20 billion round at $350 billion .
+- The Singularity is now a line item on the Microsoft balance sheet. Microsoft’s Q2 capital expenditure hit $37.5 billion , up 66% year-over-year, driven by an insatiable hunger for AI infrastructure. 45% of its $625 billion cloud backlog is now attributed to OpenAI alone . Meta is matching the pace, projecting 2026 capex between $115 billion and $135 billion , effectively betting the company on superintelligence. The valuations reflect this scale: OpenAI is reportedly raising $30 billion from SoftBank at an $830 billion valuation , while Anthropic is closing a $20 billion round at $350 billion .
 
 Intelligence is becoming a physical constraint. Tesla has identified chip production as its primary bottleneck, with Elon Musk declaring plans to build a domestic “terafab” to secure the supply chain. This urgency is reshaping the market: SK Hynix reported a 137% surge in operating profit driven by HBM demand, while Samsung tripled its profits on the same wave. Even geopolitical barriers are permeable to this demand. China has approved the purchase of 400,000 Nvidia H200 chips for ByteDance, Alibaba, and Tencent.
 

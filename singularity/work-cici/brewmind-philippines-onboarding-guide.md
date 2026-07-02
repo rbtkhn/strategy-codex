@@ -1,7 +1,7 @@
 # BrewMind — Philippines onboarding guide (bundle hub)
 
 > **Purpose:** **Single entrypoint** for launching and running BrewMind work in the **Philippines** (Cebu pilot first): strategy, brand, field script, and market context. For **Xavier** and the **operator**; not the companion **Record**.  
-> **Territory:** [work-cici](README.md) — WORK only. See [LEAKAGE-CHECKLIST.md](LEAKAGE-CHECKLIST.md) (no grace-mar Record paths in partner materials).
+> **Territory:** [work-cici](README.md) See [LEAKAGE-CHECKLIST.md](LEAKAGE-CHECKLIST.md) (no grace-mar Record paths in partner materials).
 
 **Public product:** [BrewMind Café — GitHub Pages](https://xavier-x01.github.io/brew_mind/)
 

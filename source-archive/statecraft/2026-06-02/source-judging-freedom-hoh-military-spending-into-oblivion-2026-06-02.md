@@ -31,7 +31,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Today is Tuesday, June 2nd, 2026. Matt Hoe joins us now. Matt, a pleasure. Thank you very much, my friend. Uh before we get into military spending and uh the quagmire that Trump has painted himself into in Iran, he just announced it announced the appointment about an hour or two ago of a new director of national intelligence.

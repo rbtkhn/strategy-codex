@@ -21,10 +21,8 @@ from prediction.epistemic_core import build_epistemic_payload  # noqa: E402
 from prediction.plugins.runner import build_enriched_payload  # noqa: E402
 from prediction_lib import render_json  # noqa: E402
 
-
 def _load(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8")) if path.is_file() else {}
-
 
 def build_artifacts(
     *,
@@ -41,7 +39,6 @@ def build_artifacts(
     if with_plugins:
         bundle["epistemic_enriched"] = build_enriched_payload(bundle)
     return bundle
-
 
 def write_artifacts(
     bundle: dict,
@@ -73,7 +70,6 @@ def write_artifacts(
             render_json(bundle["epistemic_enriched"]),
             encoding="utf-8",
         )
-
 
 def check_artifacts(
     *,
@@ -122,7 +118,6 @@ def check_artifacts(
     print("[ok] episystem artifacts match generator output")
     return 0
 
-
 def check_enriched_artifacts(
     *,
     artifact_dir: Path = ARTIFACT_DIR,
@@ -157,7 +152,6 @@ def check_enriched_artifacts(
 
     print("[ok] epistemic enriched artifact matches generator output")
     return 0
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -220,7 +214,6 @@ def main() -> int:
 
     ap.print_help()
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

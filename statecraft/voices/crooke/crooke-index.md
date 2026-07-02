@@ -1,6 +1,5 @@
 # Crooke Source Index
 
-
 Purpose: exhaustive route map for every resolved `raw-input` appearance of Alastair Crooke currently materialized in this repo, including Crooke-owned Substack captures, host-owned interviews, and shorthand support-tier raw-input captures that clearly bear the appearance.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index crooke` — author/guest parity; skill **`audit index`**. Post-land: `python scripts/shelf_index_from_capture.py --path <capture> --apply`.

@@ -52,14 +52,12 @@ _MINI_RECEIPT_BASE = {
     "non_canonical": True,
 }
 
-
 def _peer_schema_validator():
     pytest.importorskip("jsonschema")
     import jsonschema
 
     s = json.loads(PEER_SCHEMA.read_text(encoding="utf-8"))
     return jsonschema.Draft202012Validator(s)
-
 
 def test_peer_review_overclaim_flagged(tmp_path: Path) -> None:
     v = _peer_schema_validator()
@@ -109,7 +107,6 @@ def test_peer_review_overclaim_flagged(tmp_path: Path) -> None:
     assert out["overclaim"]["detected"] is True
     assert out["review_run_id"].startswith("pr_")
     assert out["draft_run_id"] == "draft_x"
-
 
 def test_peer_review_draft_mentions_self_flagged(tmp_path: Path) -> None:
     v = _peer_schema_validator()

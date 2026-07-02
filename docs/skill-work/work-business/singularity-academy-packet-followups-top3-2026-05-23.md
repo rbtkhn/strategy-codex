@@ -1,6 +1,6 @@
 # Singularity-Academy Packet Follow-Ups - Top 3 - 2026-05-23
 
-WORK only. Draft follow-up notes, not sent communication.
+non-authoritative. Draft follow-up notes, not sent communication.
 
 ## Purpose
 

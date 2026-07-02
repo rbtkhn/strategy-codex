@@ -13,8 +13,6 @@ post_id: 201524071
 
 # The Innermost Loop - 2026-06-10
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to June 10, 2026
@@ -29,10 +27,7 @@ The Singularity has grown powerful enough to compound itself, so for the first t
 
 ## Newsletter Text
 
--
--
-
-The Singularity has grown powerful enough to compound itself, so for the first time its makers are rationing the recursion. Anthropic released Claude Fable 5 , a Mythos-class model made public-safe and state-of-the-art on most benchmarks, with guardrails that quietly reroute a thin slice of cyber, bio, and chem prompts to Opus 4.8 in under 5% of sessions, beside Claude Mythos 5 for Project Glasswing partners at $10/$50 per million tokens. The public model has been called “Mythos on a leash,” borrowing its riskiest answers from a dumber sibling, even as Anthropic claims red teams found no universal jailbreak.
+- The Singularity has grown powerful enough to compound itself, so for the first time its makers are rationing the recursion. Anthropic released Claude Fable 5 , a Mythos-class model made public-safe and state-of-the-art on most benchmarks, with guardrails that quietly reroute a thin slice of cyber, bio, and chem prompts to Opus 4.8 in under 5% of sessions, beside Claude Mythos 5 for Project Glasswing partners at $10/$50 per million tokens. The public model has been called “Mythos on a leash,” borrowing its riskiest answers from a dumber sibling, even as Anthropic claims red teams found no universal jailbreak.
 
 Their scores read like a clean sweep. SWE-Bench Pro hit 80.3, Terminal-Bench near 88, and Fable launched number one on Artificial Analysis at 64.9, five points clear of any rival. Vals AI said it “lives up to the hype,” topping its suite, while Mercor’s APEX-SWE called it the first to crack observability. Cognition’s brutal FrontierCode Diamond was 1/3 saturated within 22 hours, hinting at the final era of benchmarks. One observer mocked open weights as “going to catch up any second now,” while Anthropic’s Nat McAleese needled OpenAI’s Noam Brown with a kinder cost-versus-performance curve .
 

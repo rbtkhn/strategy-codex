@@ -78,7 +78,7 @@ The corpus itself flags these tensions — do not resolve them; present them as 
 
 ## Boundaries
 
-- **WORK only** — not Record, not Voice, not SELF, not EVIDENCE. No gate staging from this skill.
+- , not Voice, not SELF, not EVIDENCE. No gate staging from this skill.
 - Do not merge CIV-MEM content into companion surfaces through this skill.
 - Corpus references are read-only grounding, not governance decisions.
 - Statistics and claims from lectures (GDP comparisons, shell production numbers, alcoholism rates) are **pedagogical compression** — verify before treating as fact.

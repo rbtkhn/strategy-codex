@@ -26,13 +26,11 @@ REGIME_LABELS = frozenset(
     {"escalation", "stabilization", "fragmentation", "convergence", "transition"}
 )
 
-
 def _term_match_score(claim: str, terms: list[str]) -> float:
     if not terms:
         return 0.0
     hits = sum(1 for term in terms if patterns_match(claim, [str(term)]))
     return hits / len(terms)
-
 
 def _entropy_nats(weights: list[float]) -> float:
     if not weights:
@@ -46,7 +44,6 @@ def _entropy_nats(weights: list[float]) -> float:
         if p > 0:
             entropy -= p * math.log(p)
     return round(entropy, 4)
-
 
 def soft_align(
     claim: str,
@@ -86,7 +83,6 @@ def soft_align(
 
     return distribution, _entropy_nats(weights)
 
-
 def _trajectory_index(
     trajectories: list[dict[str, Any]],
 ) -> dict[tuple[str, str], list[dict[str, Any]]]:
@@ -99,7 +95,6 @@ def _trajectory_index(
             index[(event_id, voice)] = [p for p in points if isinstance(p, dict)]
     return index
 
-
 def _point_at_or_before(points: list[dict[str, Any]], timestamp: str) -> dict[str, Any] | None:
     if not points:
         return None
@@ -108,7 +103,6 @@ def _point_at_or_before(points: list[dict[str, Any]], timestamp: str) -> dict[st
     if not eligible:
         return points[0]
     return sorted(eligible, key=lambda p: str(p.get("timestamp") or ""))[-1]
-
 
 def project_trajectories(
     event_distribution: list[dict[str, Any]],
@@ -140,7 +134,6 @@ def project_trajectories(
             }
         )
     return projections
-
 
 def compute_distributional_signals(
     projections: list[dict[str, Any]],
@@ -179,7 +172,6 @@ def compute_distributional_signals(
         "drift": round(clamp01(drift), 4),
     }
 
-
 def classify_regime(
     signals: dict[str, float],
     event_distribution: list[dict[str, Any]],
@@ -213,13 +205,11 @@ def classify_regime(
         "confidence": round(clamp01(confidence), 4),
     }
 
-
 def _primary_event_id(event_distribution: list[dict[str, Any]]) -> str | None:
     if not event_distribution:
         return None
     best = max(event_distribution, key=lambda e: float(e.get("weight") or 0.0))
     return str(best.get("event_id") or "") or None
-
 
 def _semantic_entropy(semantic_scores: dict[str, Any], event_id: str | None) -> float:
     if not event_id:
@@ -231,7 +221,6 @@ def _semantic_entropy(semantic_scores: dict[str, Any], event_id: str | None) -> 
     if not isinstance(block, dict):
         return 0.0
     return float(block.get("entropy_score") or 0.0)
-
 
 def build_epistemic_object(
     point: dict[str, Any],
@@ -284,7 +273,6 @@ def build_epistemic_object(
         "primary_event_id": primary,
     }
 
-
 def iter_mvel_claim_points(mvel_dataset: dict[str, Any]) -> list[dict[str, Any]]:
     """Flatten MVEL trajectories into claim points with parent event_id."""
     points: list[dict[str, Any]] = []
@@ -312,7 +300,6 @@ def iter_mvel_claim_points(mvel_dataset: dict[str, Any]) -> list[dict[str, Any]]
         )
     )
     return points
-
 
 def rollup_events(objects: list[dict[str, Any]]) -> dict[str, Any]:
     """Aggregate claim objects by primary_event_id (diagnostic rollup)."""
@@ -353,7 +340,6 @@ def rollup_events(objects: list[dict[str, Any]]) -> dict[str, Any]:
         "interpretation": "epistemic_intelligence_events",
         "events": events,
     }
-
 
 def build_eic_payload(
     *,

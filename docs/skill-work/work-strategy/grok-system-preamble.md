@@ -1,6 +1,6 @@
 # Grok system preamble — Grace-Mar (skill-strategy / work-strategy)
 
-**Use:** Prepend to **any** external Grok task that feeds **`docs/skill-work/work-strategy/`**, **`../../continuity/`**, or **`daily-strategy-inbox.md`**. **WORK only** — not Record, not Voice knowledge until gated.
+**Use:** Prepend to **any** external Grok task that feeds **`docs/skill-work/work-strategy/`**, **`../../continuity/`**, or **`daily-strategy-inbox.md`**. , not Voice knowledge until gated.
 
 **Two versions:**
 

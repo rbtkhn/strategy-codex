@@ -1,7 +1,5 @@
 # Apprentice Studio - 30-Day Pilot
 
-WORK only; not Record.
-
 **Canonical home:** [../../essays/apprentice-studio-30-day-pilot.md](../../essays/apprentice-studio-30-day-pilot.md)
 
 Compatibility stub — pre-root singularity essay holding (mirrored from

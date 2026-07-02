@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Trump Backs Off Iran Attack As Talks Begin; Russia Seeks Kiev Regime Change Winter Advance Quickens
 
-

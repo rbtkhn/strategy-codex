@@ -18,11 +18,9 @@ import check_singularity_loop_runs as check_runs  # noqa: E402
 import validate_all_schemas as validate_schemas  # noqa: E402
 from singularity_loop_lib import load_registry  # noqa: E402
 
-
 @pytest.fixture
 def registry_path() -> Path:
     return REPO_ROOT / "runtime" / "artifacts" / "loop-registry.json"
-
 
 def test_append_writes_valid_jsonl(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     out = tmp_path / "runs.jsonl"
@@ -49,17 +47,14 @@ def test_append_writes_valid_jsonl(tmp_path: Path, monkeypatch: pytest.MonkeyPat
     assert row["action_card"].endswith("2026-07-01.md")
     assert "timestamp" in row
 
-
 def test_check_missing_file_exits_zero(tmp_path: Path) -> None:
     missing = tmp_path / "missing.jsonl"
     assert check_runs.run_check(runs_path=missing, registry_path=REPO_ROOT / "runtime/artifacts/loop-registry.json") == 0
-
 
 def test_check_empty_file_exits_zero(tmp_path: Path, registry_path: Path) -> None:
     empty = tmp_path / "empty.jsonl"
     empty.write_text("", encoding="utf-8")
     assert check_runs.run_check(runs_path=empty, registry_path=registry_path) == 0
-
 
 def test_check_known_loop_id(tmp_path: Path, registry_path: Path) -> None:
     runs = tmp_path / "runs.jsonl"
@@ -79,7 +74,6 @@ def test_check_known_loop_id(tmp_path: Path, registry_path: Path) -> None:
     )
     assert check_runs.run_check(runs_path=runs, registry_path=registry_path) == 0
 
-
 def test_check_unknown_loop_id_fails(tmp_path: Path, registry_path: Path) -> None:
     runs = tmp_path / "runs.jsonl"
     runs.write_text(
@@ -94,7 +88,6 @@ def test_check_unknown_loop_id_fails(tmp_path: Path, registry_path: Path) -> Non
         encoding="utf-8",
     )
     assert check_runs.run_check(runs_path=runs, registry_path=registry_path) == 1
-
 
 def test_check_unknown_next_loop_id_fails(tmp_path: Path, registry_path: Path) -> None:
     runs = tmp_path / "runs.jsonl"
@@ -111,7 +104,6 @@ def test_check_unknown_next_loop_id_fails(tmp_path: Path, registry_path: Path) -
         encoding="utf-8",
     )
     assert check_runs.run_check(runs_path=runs, registry_path=registry_path) == 1
-
 
 def test_done_without_proof_warns_not_fails(
     tmp_path: Path, registry_path: Path, capsys: pytest.CaptureFixture[str]
@@ -133,7 +125,6 @@ def test_done_without_proof_warns_not_fails(
     captured = capsys.readouterr()
     assert "[warn]" in captured.out or "[warn]" in captured.err
 
-
 def test_example_action_card_frontmatter_validates() -> None:
     card = REPO_ROOT / "singularity/action-cards/grace-gems-margin-policy-review/2026-07-01.md"
     registry = validate_schemas.load_registry()
@@ -141,7 +132,6 @@ def test_example_action_card_frontmatter_validates() -> None:
     lines, failed = validate_schemas.validate_entry("singularity_action_card", entry)
     assert not failed, "\n".join(lines)
     assert any("grace-gems-margin-policy-review/2026-07-01.md" in line for line in lines)
-
 
 def test_registry_has_twenty_five_loops() -> None:
     registry = load_registry()

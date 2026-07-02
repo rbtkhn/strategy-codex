@@ -16,7 +16,6 @@ from build_dialogue_works_metadata_index import (  # noqa: E402
     render_table,
 )
 
-
 def _write_crawl_index(path: Path) -> None:
     payload = {
         "videos": [
@@ -36,14 +35,12 @@ def _write_crawl_index(path: Path) -> None:
     }
     path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
-
 def test_infer_guest_from_title_handles_dialogue_works_patterns() -> None:
     assert infer_guest_from_title("Nima x Glenn Diesen - Iran, War, and Order") == "Glenn Diesen"
     assert (
         infer_guest_from_title("Larry C. Johnson & Col. Larry Wilkerson: One Strike Away")
         == "Larry C. Johnson & Col. Larry Wilkerson"
     )
-
 
 def test_build_rows_orders_oldest_first_and_marks_capture(tmp_path: Path) -> None:
     crawl = tmp_path / "index.json"
@@ -66,7 +63,6 @@ def test_build_rows_orders_oldest_first_and_marks_capture(tmp_path: Path) -> Non
     assert rows[1].guest == "Amb. Chas Freeman"
     assert rows[1].routing_note == "thread: freeman"
     assert rows[1].raw_input_note == "needs capture"
-
 
 def test_render_table_includes_links_and_marker(tmp_path: Path) -> None:
     crawl = tmp_path / "index.json"

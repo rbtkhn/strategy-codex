@@ -1,19 +1,14 @@
 # Hormuz Mistranscription Audit
 
-WORK only; not Record.
-
 - root: `source-archive/statecraft`
 - total candidate files: `0`
 - total findings: `0`
 
 ## Tier Counts
 
-
 ## Variant Family Counts
 
-
 ## Highest-Density Files
-
 
 ## Review-Needed Cases
 

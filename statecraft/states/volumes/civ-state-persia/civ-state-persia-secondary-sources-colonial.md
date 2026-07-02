@@ -1,6 +1,5 @@
 # Persia Secondary Sources - Colonial
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the colonial Persia primary shelf when concession pressure, Russian loss-memory, Gulf leverage, Qajar fracture, or imperial intrusion need stronger chronology and anti-passivity correction.

@@ -1,6 +1,5 @@
 # Legacy Redirect Pattern
 
-
 Use this pattern when a legacy surface still has inbound link value, but no longer owns the canonical content.
 
 ## Core Rule

@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # EU Splits Over Asset Loan; Kiev Out Of Money; Russia MoD Says Victory Soon; MI6 Threatens Dirty War
 
-

@@ -36,7 +36,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 >> Um, there seems to have been some positive movements, but again, we it's, you know, this this issue situation has been so volatile.

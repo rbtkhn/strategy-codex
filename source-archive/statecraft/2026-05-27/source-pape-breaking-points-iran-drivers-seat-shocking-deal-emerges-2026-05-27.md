@@ -26,7 +26,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Breaking Points Welcome and Busboys Left-Right Bridge
 
 We are joined once again by Robert Pap. He is of course University of Chicago professor of political science. He directs the Chicago project on security and threats and he's the author of bombing to win and writes the substack the escalation trap. Has been many times on this show recently to discuss recent developments out of Iran.

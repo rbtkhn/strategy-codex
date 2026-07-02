@@ -25,7 +25,6 @@ drift, page impact).
 Imported by ``strategy_expert_transcript.py`` for shared constants and
 ``extract_thread_ingests()``.
 
-WORK-only; not Record.
 """
 
 from __future__ import annotations

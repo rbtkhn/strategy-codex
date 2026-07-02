@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back. We are joined again by Ray McGovern, a CIA analyst for 27 years who chaired a national intelligence estimates and prepared the CIA's daily briefs for the president. So, yeah, thank you for coming back on. >> You're most welcome, Glenn. Glad to be with you. >> So, well, you and I, we we did some communication back and forth and also have talked to other people on this topic as well, which is the the pressure that President Putin is currently under.

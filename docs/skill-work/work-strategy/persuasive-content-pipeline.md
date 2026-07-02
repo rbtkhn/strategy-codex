@@ -1,6 +1,6 @@
 # Persuasive Content Pipeline (WORK-STRATEGY)
 
-**Status:** WORK only. Outputs staged for approval; no direct Record writes.
+**Status:** non-authoritative. Outputs staged for approval; no direct Record writes.
 
 ## Steps
 

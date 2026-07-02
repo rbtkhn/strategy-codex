@@ -52,7 +52,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Empire and Recruitment
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.

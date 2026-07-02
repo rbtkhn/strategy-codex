@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2026-01-03/source-ritter-russia-dark-sage-karaganov-2026-01-03.md
 ---
 
-
 # Ritter Arc
 
 Purpose: define `arc-ritter-continuity` as the canonical person-level continuity surface for Scott Ritter across authored and interview contexts, hosts, and time. This keeps Ritter from being reduced either to the warning ledger alone or to a helix without a speaker-wide continuity spine.

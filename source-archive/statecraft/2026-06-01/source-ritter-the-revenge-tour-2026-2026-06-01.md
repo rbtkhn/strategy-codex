@@ -24,7 +24,6 @@ quality_note: "ASR normalization pass 2026-06-15; ph-civ replacement SSOT."
 
 ---
 
-
 ## Transcript
 
 The Saint Petersburg International Economic Forum

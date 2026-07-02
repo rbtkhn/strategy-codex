@@ -23,10 +23,8 @@ from grace_mar.fork_state import (
     write_fork_state,
 )
 
-
 def _today_ymd() -> str:
     return datetime.now(timezone.utc).strftime("%Y%m%d")
-
 
 def _session_id_for_today(repo_root: Path, fork_id: str) -> str:
     st = ensure_fork_state(repo_root, fork_id)
@@ -37,7 +35,6 @@ def _session_id_for_today(repo_root: Path, fork_id: str) -> str:
     write_fork_state(repo_root, fork_id, st)
     return f"SES-{_today_ymd()}-{seq:03d}"
 
-
 def session_manifest_path(repo_root: Path, fork_id: str, session_id: str) -> Path:
     # SES-YYYYMMDD-NNN -> .../sessions/YYYY/MM/session-SES-....json
     m = re.match(r"SES-(\d{4})(\d{2})(\d{2})-", session_id)
@@ -46,7 +43,6 @@ def session_manifest_path(repo_root: Path, fork_id: str, session_id: str) -> Pat
     else:
         y, mo, d = m.group(1), m.group(2), m.group(3)
     return sessions_base(repo_root, fork_id) / y / mo / f"session-{session_id}.json"
-
 
 def begin_session(
     repo_root: Path,
@@ -98,7 +94,6 @@ def begin_session(
     )
     return manifest
 
-
 def end_session(
     repo_root: Path,
     fork_id: str,
@@ -138,7 +133,6 @@ def end_session(
     write_fork_state(repo_root, fork_id, st)
     return manifest
 
-
 def _git_head(repo_root: Path) -> str:
     try:
         r = subprocess.run(
@@ -152,7 +146,6 @@ def _git_head(repo_root: Path) -> str:
     except (OSError, subprocess.SubprocessError):
         pass
     return ""
-
 
 def merge_checkpoint(
     repo_root: Path,

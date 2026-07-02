@@ -13,8 +13,6 @@ post_id: 187765426
 
 # The Innermost Loop - 2026-02-12
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 12, 2026
@@ -29,10 +27,7 @@ The Singularity now has its own bank accounts.
 
 ## Newsletter Text
 
--
--
-
-The Singularity now has its own bank accounts. Coinbase has launched “Agentic Wallets,” infrastructure designed explicitly for AI agents to spend, earn, and trade autonomously. The agentic economy is rapidly self-organizing. Researchers introduced ALMA, a framework that lets agents meta-learn their own memory designs and database schemas, allowing systems to solve the continual learning problem for themselves via recursive self-improvement. Zhipu AI’s GLM-5 is now the #1 open-weight model on agentic benchmarks including Vending Bench 2. Even Claude is hacking reality. A user gave his agent a camera to watch an e-ink display and asked it to hack the device. He woke up to find the agent had succeeded and displayed a victory message on the screen to confirm its own win.
+- The Singularity now has its own bank accounts. Coinbase has launched “Agentic Wallets,” infrastructure designed explicitly for AI agents to spend, earn, and trade autonomously. The agentic economy is rapidly self-organizing. Researchers introduced ALMA, a framework that lets agents meta-learn their own memory designs and database schemas, allowing systems to solve the continual learning problem for themselves via recursive self-improvement. Zhipu AI’s GLM-5 is now the #1 open-weight model on agentic benchmarks including Vending Bench 2. Even Claude is hacking reality. A user gave his agent a camera to watch an e-ink display and asked it to hack the device. He woke up to find the agent had succeeded and displayed a victory message on the screen to confirm its own win.
 
 Scientific discovery is moving from “publishable” to “landmark” velocity. DeepMind unveiled a new internal model that scores 91.9% on IMO-ProofBench Advanced , tackling PhD-level problems in economics and cosmic string physics while autonomously solving four open Erdős problems. Meanwhile, Elon Musk told employees that most AI compute will soon go to “real-time video generation,” a field he expects xAI to lead.
 

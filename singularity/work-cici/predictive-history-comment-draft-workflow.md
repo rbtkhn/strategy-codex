@@ -1,7 +1,5 @@
 # Predictive History Comment Draft Workflow
 
-WORK only; not Record.
-
 ## Purpose
 
 This is the practical operating flow for turning one Predictive History video into one reviewable comment candidate set and one tracked posting receipt.

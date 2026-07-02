@@ -1,6 +1,5 @@
 # {Speaker} speaker object
 
-
 object_shape: {allowed-object-shape}
 
 Purpose: define `{speaker}` as a durable speaker object for routing, judgment accumulation, and clean re-entry. This is an orientation object, not a provenance ledger and not a substitute for host-local speaker arcs or raw-input.

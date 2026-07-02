@@ -69,7 +69,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 I appreciate you guys joining in. Some more breaking news happening right now. The first piece of news which happened about an hour ago is Elon Musk came out and also attacked Israel. This is after JD Vance attacked Israel. He said he's not wrong about his uh claim that Israel relies on America, relies on American tech, and they need to know their place essentially.

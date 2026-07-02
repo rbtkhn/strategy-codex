@@ -12,7 +12,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 WS_SCRIPTS = REPO_ROOT / "scripts" / "work_strategy"
 EX_OBS = REPO_ROOT / "examples" / "work-strategy" / "observability"
 
-
 def _summarize_mod():
     import importlib.util
 
@@ -27,9 +26,7 @@ def _summarize_mod():
     spec.loader.exec_module(mod)
     return mod
 
-
 mod = _summarize_mod()
-
 
 def _seed_runtime(tmp: Path) -> Path:
     rt = tmp / "runtime" / "work-strategy"
@@ -42,7 +39,6 @@ def _seed_runtime(tmp: Path) -> Path:
     shutil.copy(EX_OBS / "review-packet-sample.json", rt / "review-packets" / "review-packet-sample.json")
     shutil.copy(EX_OBS / "malformed.json", rt / "carry-receipts" / "malformed.json")
     return rt
-
 
 def test_build_report_aggregates(tmp_path: Path) -> None:
     rt = _seed_runtime(tmp_path)
@@ -70,7 +66,6 @@ def test_build_report_aggregates(tmp_path: Path) -> None:
     assert report["files_scanned"]["malformed_skipped"] >= 1
     assert any("malformed JSON" in n for n in report["notes"])
 
-
 def test_last_n_filters(tmp_path: Path) -> None:
     rt = _seed_runtime(tmp_path)
     report = mod.build_report(
@@ -86,7 +81,6 @@ def test_last_n_filters(tmp_path: Path) -> None:
     )
     assert report["counts"]["carry_receipts_total"] == 1
 
-
 def test_forbidden_out_users() -> None:
     cmd = [
         sys.executable,
@@ -101,7 +95,6 @@ def test_forbidden_out_users() -> None:
     r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
     assert r.returncode == 2
     assert not (REPO_ROOT / "__obs_test__.json").exists()
-
 
 def test_json_stdout_valid(tmp_path: Path) -> None:
     rt = _seed_runtime(tmp_path)
@@ -120,7 +113,6 @@ def test_json_stdout_valid(tmp_path: Path) -> None:
     assert r.returncode == 0, r.stderr
     json.loads(r.stdout)
     assert (tmp_path / "obs.json").is_file()
-
 
 def test_markdown_sections(tmp_path: Path) -> None:
     rt = _seed_runtime(tmp_path)
@@ -148,7 +140,6 @@ def test_markdown_sections(tmp_path: Path) -> None:
         "## Notes",
     ):
         assert label in md
-
 
 def test_load_json_files_skips_malformed(tmp_path: Path) -> None:
     bad = tmp_path / "bad.json"

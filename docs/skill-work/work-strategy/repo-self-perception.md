@@ -1,6 +1,5 @@
 # repo self-perception
 
-
 This note names a recurring maintenance problem in strategy-codex:
 
 the repo often acquires reality faster than it re-describes reality.

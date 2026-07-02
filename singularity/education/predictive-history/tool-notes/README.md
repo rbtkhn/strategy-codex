@@ -1,7 +1,5 @@
 # Tool notes — PH education media
 
-WORK only; not Record.
-
 Concise reference for AI-assisted media production. Not vendor marketing copy.
 
 | Note | Purpose |

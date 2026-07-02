@@ -1,6 +1,5 @@
 # Russia Secondary Sources - Medieval
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the medieval Russia primary shelf when chronicle-bearing Rus, Orthodoxy, Horde pressure, Muscovite regathering, or late-opening documentary discipline need stronger chronology and anti-myth correction. This file owns the main Russia-side explanation of why Will Durant is useful here: broad civilizational synthesis and comparative readability, but not specialist Russian final authority.

@@ -13,8 +13,6 @@ post_id: 201318652
 
 # The Innermost Loop - 2026-06-09
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to June 9, 2026
@@ -29,10 +27,7 @@ The Singularity has entered its doctrinal phase, where the labs now preview thei
 
 ## Newsletter Text
 
--
--
-
-The Singularity has entered its doctrinal phase, where the labs now preview their intentions before they ship their intelligence. OpenAI released its plan to benefit everyone that targets an automated AI researcher by March 2028, broadly shared economic acceleration, and a personal AGI for every human on Earth, so the post-AGI transition is collectively steered rather than quietly hoarded. Meanwhile, Anthropic is reportedly poised to release Claude “Mythos” Fable 5 imminently, a model that pairs dramatically better long-horizon, multi-turn autonomy with substantial guardrails, keeping the sharpest cyber capability behind Project Glasswing’s walls.
+- The Singularity has entered its doctrinal phase, where the labs now preview their intentions before they ship their intelligence. OpenAI released its plan to benefit everyone that targets an automated AI researcher by March 2028, broadly shared economic acceleration, and a personal AGI for every human on Earth, so the post-AGI transition is collectively steered rather than quietly hoarded. Meanwhile, Anthropic is reportedly poised to release Claude “Mythos” Fable 5 imminently, a model that pairs dramatically better long-horizon, multi-turn autonomy with substantial guardrails, keeping the sharpest cyber capability behind Project Glasswing’s walls.
 
 If everyone is to get an AGI, the question becomes what it can build, and the answers are arriving fast. Hugging Face’s new CADGenBench charts the sprint toward models that produce engineering-grade 3D parts. The data layer is unlocking just as quickly, as Anthropic researchers show that bolting a deterministic retrieval layer called gget virus onto their research agents rocketed viral-sequence accuracy from 17% to over 90% while nearly erasing run-to-run variance, proof that making biology agent-legible instantly turns it into automatable terrain. Google is unlocking that legibility for everyone else, upgrading NotebookLM onto Gemini 3.5 with a secure cloud computer, over 100 skills, and the power to spin up charts, spreadsheets, and slide decks on command.
 

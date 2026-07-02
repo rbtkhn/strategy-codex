@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `armstrong`
 <!-- word_count: 4486 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Armstrong speaker structure.
@@ -42,7 +41,6 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 
 January has **no dated** notebook ingest for Armstrong in this snapshot; the lane is **cycle/timing, sovereign debt, energyÃ¢â‚¬â€œfood shocks** Ã¢â‚¬â€ not a substitute for **`jermy`** diesel mechanics Ã¢â‚¬â€ per roster.
 
-
 Verification stance for Martin A. Armstrong (@ArmstrongEcon) in 2026-01 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgmentÃ¢â‚¬â€without turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 
 Open pins belong in prose, not only as bullets. For this `armstrong` month segment, explicitly reserve space for **what remains unresolved**: which claims await transcript confirmation, which geopolitical sub-claims depend on translation or primary document access, and which institutional facts are stable enough to reuse in weave scaffolding. That habit keeps later strategy passes from mistaking silence for certainty.
@@ -63,7 +61,6 @@ Segment discipline here follows the strategy-notebook contract: Segment 1 is hum
 
 February shows **no indexed Q1 primary** in-repo; Ã¢â‚¬Å“model was right on timingÃ¢â‚¬Â claims stay **hypothesis-grade** until methodology docs exist Ã¢â‚¬â€ per roster note.
 
-
 Verification stance for Martin A. Armstrong (@ArmstrongEcon) in 2026-02 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgmentÃ¢â‚¬â€without turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 
 If pages named this expert during 2026-02, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃ¢â‚¬â€absence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
@@ -83,7 +80,6 @@ Segment discipline here follows the strategy-notebook contract: Segment 1 is hum
 
 March remains **scope-only**; **April** ids may fold Armstrong X on **cash / Hormuz / digital dollar** beside Mercouris/Mearsheimer/Barnes Ã¢â‚¬â€ Q1 does **not** merge voices.
 
-
 The `armstrong` laneÃ¢â‚¬â„¢s role (Cycle / timing models (Socrates-style), sovereign debt stress, energyÃ¢â‚¬â€œfood system shocks (diesel, fertilizer) framed with geopolitical war; critiques Ã¢â‚¬Å“perpetual wealthÃ¢â‚¬Â vs Ã¢â‚¬Å“dollar crashÃ¢â‚¬Â as headline distractions) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃ¢â‚¬â„¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
 
 Finally, 2026-03 should remain safe for **operator rotation**: someone returning after weeks should be able to read this segment and recover **lane orientation** (role: Cycle / timing models (Socrates-style), sovereign debt stress, energyÃ¢â‚¬â€œfood system shocks (diesel, fertilizer) framed with geopolitical war; critiques Ã¢â‚¬Å“perpetual wealthÃ¢â‚¬Â vs Ã¢â‚¬Å“dollar crashÃ¢â‚¬Â as headline distractions), **pairing map** (Ãƒâ€” jermy, Ãƒâ€” diesen, Ãƒâ€” sachs, Ãƒâ€” pape), and **next verification moves** without loading the entire quarter. That recoverability is why the minimum prose budget existsÃ¢â‚¬â€not to pad, but to force a minimum coherent account of what this month was for in the notebook.
@@ -95,7 +91,6 @@ If pages named this expert during 2026-03, the narrative should eventually say *
 When historical expert context artifacts exist for `armstrong` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-03 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
 
 Typical pairings on file for `armstrong` emphasize contrast surfaces: Ãƒâ€” jermy, Ãƒâ€” diesen, Ãƒâ€” sachs, Ãƒâ€” pape. In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-03 segment should be read as **mesh navigation**Ã¢â‚¬â€which lanes to pull into the same batch passÃ¢â‚¬â€rather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
-
 
 The `armstrong` laneÃ¢â‚¬â„¢s role (Cycle / timing models (Socrates-style), sovereign debt stress, energyÃ¢â‚¬â€œfood system shocks (diesel, fertilizer) framed with geopolitical war; critiques Ã¢â‚¬Å“perpetual wealthÃ¢â‚¬Â vs Ã¢â‚¬Å“dollar crashÃ¢â‚¬Â as headline distractions) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃ¢â‚¬â„¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
 
@@ -122,7 +117,6 @@ The `armstrong` laneÃ¢â‚¬â„¢s role (Cycle / timing models (Socrates-st
 - **2026-03** Ã¢â‚¬â€ No dated notebook ingest Ã¢â‚¬â€ YouTube channel hub.
   _Source:_ web: `https://www.youtube.com/@MartinArmstrong`
 
-
 ### 2026-04
 
 - **2026-04** Ã¢â‚¬â€ Ledger mirror 1 (partial month).
@@ -139,7 +133,6 @@ _Partial month Ã¢â‚¬â€ **machine layer** still empty until `thread:` 
 **Cross-thread weave (C Ã¢â‚¬â€ batch-analysis discipline).** **2026-04-17** `@ArmstrongEcon` adds a **fourth register** on **who sits at the table** for U.S.Ã¢â‚¬â€œIran diplomacy: **Pakistan** as **proliferation analogy** (reassurance) and a **hard** line on **Kushner**, **Witkoff**, and **VanceÃ¢â‚¬â„¢s** team as **unfit** / **Ã¢â‚¬Å“ethnically compromisedÃ¢â‚¬Â** in a **Ã¢â‚¬Å“religious war.Ã¢â‚¬Â** That is **not** the same speech function as **`thread:barnes`**Ã¢â‚¬â„¢s **White House process** read (Trump **yanks** VanceÃ¢â‚¬â„¢s **Driscoll** / StateÃ¢â‚¬â€œDefense lane for **WitkoffÃ¢â‚¬â€œKushner** Ã¢â‚¬â€ [verbatim](../../../source-archive/statecraft/2026-04-17/source-countercurrent-2026-04-17-verbatim-2026-04-17.md)) or **`thread:davis`** Ãƒâ€” **`mearsheimer`**Ã¢â‚¬â„¢s **structural** label (**NetanyahuÃ¢â‚¬â€œKushner/Witkoff** **channel** in [`days.md`](../../../continuity/chapters/2026/2026-04/days.md)). **`thread:marandi`** stays **Tehran-facing** (**Vance** / **Netanyahu** phone) without endorsing ArmstrongÃ¢â‚¬â„¢s **personnel/ethnicity** mechanism. **Weave rule:** same **IslamabadÃ¢â‚¬â€œHormuz week object**, **four tiers** Ã¢â‚¬â€ **Armstrong** = **provocation + analogy** (tier: social, verify before Links); **Barnes** = **executiveÃ¢â‚¬â€œstaff sabotage** hypothesis; **Davis/Mearsheimer** = **bargaining geometry**; **Marandi** = **IRI legitimacy register**. **Do not** one-line merge into one **Judgment** bullet.
 
 **Page tie-in (E).** The **04-14** Page is **money / statute / Gulf-origin fertilizer mood** Ã¢â‚¬â€ not **negotiator roster** facts. **Only** fold **04-17** Armstrong lines into `armstrong-cash-hormuz-digital-dollar-arc` when a weave **explicitly** couples **negotiation-trust** or **Ã¢â‚¬Å“who speaks for WashingtonÃ¢â‚¬Â** mood to the **war-economy + payment-plumbing** arc; **default** is **orthogonal** satellite (Page body).
-
 
 If pages named this expert during 2026-04, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃ¢â‚¬â€absence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
 

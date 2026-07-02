@@ -1,6 +1,5 @@
 # Russia - Panama Canal Water / Transit Sovereignty Framework
 
-
 ## Transaction Name
 
 Panama transit-neutrality opportunism restraint.

@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Should Iran Trust Trump
 
 Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom.

@@ -6,7 +6,6 @@ record_status: none
 
 # Harness architecture map — strategy-codex
 
-
 **Purpose:** Single routing hub for harness topology — model vs harness, membrane, queues, channels, runtime, and meta-review. **Link SSOT below;** this page does not replace canonical doctrine.
 
 **Bridge docs:** [intelligence-harness.md](intelligence-harness.md) (external legibility) · [product-identity.md](product-identity.md) (internal product name)

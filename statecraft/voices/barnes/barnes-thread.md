@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `barnes`
 <!-- word_count: 8331 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Barnes speaker structure.
@@ -42,7 +41,6 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 
 January has **no dated** notebook ingest for Barnes in this Q1 snapshot; the lane is **domestic liability / executive chain / TS framing** Ã¢â‚¬â€ not **`pape`** polling Ã¢â‚¬â€ per roster. Law-firm hubs are anchors only.
 
-
 Verification stance for Robert Barnes in 2026-01 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgmentÃ¢â‚¬â€without turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-01, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
@@ -60,7 +58,6 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-01, re
 ## 2026-02
 
 February shows **no indexed Q1 primary** in-repo; **`baud`** / NATO mandate crosses require explicit seams Ã¢â‚¬â€ do not collapse registers.
-
 
 When historical expert context artifacts exist for `barnes` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-02 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
 
@@ -80,7 +77,6 @@ The 2026-02 segment for the Robert Barnes lane (`barnes`) exists so the notebook
 
 March remains **scope-only**; **April** machine lines capture Hormuz / Truth Social executive framing Ã¢â‚¬â€ Q1 is **identity + routing** only.
 
-
 Typical pairings on file for `barnes` emphasize contrast surfaces: Ãƒâ€” pape; Ãƒâ€” davis (institutional skepticism seam); topic forks (JTN-style Ã¢â‚¬Å“cardÃ¢â‚¬Â vs satirical spiral) in batch-analysis without a second expert. In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-03 segment should be read as **mesh navigation**Ã¢â‚¬â€which lanes to pull into the same batch passÃ¢â‚¬â€rather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
 
 The 2026-03 segment for the Robert Barnes lane (`barnes`) exists so the notebook keeps a **prose spine** alongside any strength-tagged bullets. The roster describes this voice as centered on Constitutional, civil rights, and criminal tax trial lawyer (Barnes Law LLP); politicalÃ¢â‚¬â€œlegal commentator; co-host *Viva & Barnes: Law for the People* (with Viva Frei).. That one-line role is not a substitute for transcript truth; it is a **routing label** so batch-analysis passes know which mechanism vocabulary to expect when dated material lands. When this month is still partial or ingest-light, the prose layer still records **where verification should attach** (page cites, transcript rows, or hub URLs) without pretending those pins are already closed.
@@ -92,7 +88,6 @@ When historical expert context artifacts exist for `barnes` (per-month files or 
 Open pins belong in prose, not only as bullets. For this `barnes` month segment, explicitly reserve space for **what remains unresolved**: which claims await transcript confirmation, which geopolitical sub-claims depend on translation or primary document access, and which institutional facts are stable enough to reuse in weave scaffolding. That habit keeps later strategy passes from mistaking silence for certainty.
 
 If pages named this expert during 2026-03, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃ¢â‚¬â€absence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
-
 
 Typical pairings on file for `barnes` emphasize contrast surfaces: Ãƒâ€” pape; Ãƒâ€” davis (institutional skepticism seam); topic forks (JTN-style Ã¢â‚¬Å“cardÃ¢â‚¬Â vs satirical spiral) in batch-analysis without a second expert. In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-03 segment should be read as **mesh navigation**Ã¢â‚¬â€which lanes to pull into the same batch passÃ¢â‚¬â€rather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
 
@@ -118,7 +113,6 @@ Typical pairings on file for `barnes` emphasize contrast surfaces: Ãƒâ€” 
 
 - **2026-03** Ã¢â‚¬â€ No dated notebook ingest Ã¢â‚¬â€ About page.
   _Source:_ web: `https://www.barneslawllp.com/about`
-
 
 ### 2026-04
 
@@ -219,7 +213,7 @@ Optional crosses: `thread:davis` (war-powers / C-plane packaging), `thread:johns
 `X | cold: @barnes_law Ã¢â‚¬â€ Ã¢â‚¬Å“Trump doubles down on dumbÃ¢â‚¬Â; QT Disclose.tv summarizing executive TS post (Hormuz blockade in/out, toll interdiction in international waters, mine clearing, escalation rhetoric) // hook: third **domestic** pole on Hormuz lever vs Solomon Ã¢â‚¬Å“cardÃ¢â‚¬Â / Martenson spiral; aligns Ã‚Â§1e + notebook domestic-fork Judgment | https://x.com/barnes_law | verify:pin-exact-status-URL+archive-Truth-Social-primary | thread:barnes`
 `batch-analysis | 2026-04-12 | Barnes + Solomon/Martenson | **Three U.S. domestic reads** on the same Hormuz lever: Solomon/JTNÃ¢â‚¬â€**strategic asset** (Ã¢â‚¬Å“Trump cardÃ¢â‚¬Â); MartensonÃ¢â‚¬â€**spiral / strategery** satire; BarnesÃ¢â‚¬â€**two-word verdict** (Ã¢â‚¬Å“dumbÃ¢â‚¬Â) on the executive order chain (Disclose.tv Ã¢â€ â€™ Truth Social packaging). **Tension:** leverage heroics vs circular-escalation mock vs outright dismissalÃ¢â‚¬â€not one domestic **sell** story; coalition validators see different **movies**.`
 `batch-analysis | 2026-04-14 | carry 04-12Ã¢â‚¬â€œ04-13 expert lanes + PH vi-14/15 + DiesenÃƒâ€”Sachs | **Continuity spine:** **Hormuz / Islamabad / alliance geometry** threads (`ritter`, `mearsheimer`, `mercouris`, `marandi`, `parsi`, `pape`, `davis`, `johnson`, `freeman`, `sachs`) stay the **mechanics + room + trap** / **institutions** stack; **PH vi-14/vi-15** (`diesen`, `jiang`) add **petrodollar / eschatology** overlaysÃ¢â‚¬â€**do not** collapse into one Ã¢â‚¬Å“civilizational verdict.Ã¢â‚¬Â **`diesen`** **same-day** **double** ingest (**vi-14** vs **`crosses:diesen+sachs`**) Ã¢â‚¬â€ keep **lecture** lane separate from **Sachs** **DC-process** **hypotheses** until **verify** tier. **New this cycle (wires / social):** **Italy** as **European hinge** (defense-diplomatic + TrumpÃ¢â‚¬â€œPope friction) + **IRI presidential roster** naming Italy beside othersÃ¢â‚¬â€**treat as coalition narrative + verify tier**, not automatic merge with **04-13** **MarandiÃƒâ€”MercourisÃƒâ€”Ritter** Judgment until primaries pin. **Rome plane** (`ROME`, **Pontifex** / Algeria journey): **parallel legitimacy seam** vs **Hormuz ORBAT**Ã¢â‚¬â€same **tier split** as 04-13 **Grand Mosque** fold. **Weak bridge:** Ã¢â‚¬Å“isolation / beg countsÃ¢â‚¬Â memes = **hypothesis-grade** unless elevated with **dated** **Ã‚Â§1d/Ã‚Â§1e**-class citesÃ¢â‚¬â€**do not** stand in for **`thread:`** experts.`
-`batch-analysis | 2026-04-15 | Mercouris Ãƒâ€” tri-mind | **Tension-first:** thread:mercouris **15 Apr 2026** **The Duran** strand (contested Hormuz narratives, Islamabad reads, LavrovÃ¢â‚¬â€œWangÃ¢â‚¬â€œXi, Russian SC commentary, attrition frame) Ãƒâ€” tri-mind **BÃ¢â€ â€™AÃ¢â€ â€™C** + solo A; fact-check triage rows in days.md **## 2026-04-15** **Links**Ã¢â‚¬â€do not merge second-hand ORBAT with tanker AIS facts without tier discipline. seam:mercouris-tri-frame Ã¢â‚¬â€ WORK only; not a crosses: two-expert row.`
+`batch-analysis | 2026-04-15 | Mercouris Ãƒâ€” tri-mind | **Tension-first:** thread:mercouris **15 Apr 2026** **The Duran** strand (contested Hormuz narratives, Islamabad reads, LavrovÃ¢â‚¬â€œWangÃ¢â‚¬â€œXi, Russian SC commentary, attrition frame) Ãƒâ€” tri-mind **BÃ¢â€ â€™AÃ¢â€ â€™C** + solo A; fact-check triage rows in days.md **## 2026-04-15** **Links**Ã¢â‚¬â€do not merge second-hand ORBAT with tanker AIS facts without tier discipline. seam:mercouris-tri-frame Ã¢â‚¬â€ non-authoritative; not a crosses: two-expert row.`
 `batch-analysis | 2026-04-15 | Mercouris Ãƒâ€” tri-mind | seam:mercouris-tri-frame`
 
 _(Operator/assistant: refine this page content.)_

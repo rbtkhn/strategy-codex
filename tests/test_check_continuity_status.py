@@ -12,12 +12,10 @@ if str(REPO / "scripts") not in sys.path:
 
 from check_continuity_status import continuity_root  # noqa: E402
 
-
 def test_continuity_root_prefers_continuity(tmp_path: Path):
     (tmp_path / "codex").mkdir()
     (tmp_path / "continuity").mkdir()
     assert continuity_root(tmp_path).name == "continuity"
-
 
 def test_continuity_root_fallback_codex(tmp_path: Path):
     (tmp_path / "codex").mkdir()

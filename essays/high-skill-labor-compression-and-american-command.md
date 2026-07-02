@@ -1,7 +1,5 @@
 # High-Skill Labor Compression and American Command
 
-WORK only; not Record.
-
 The core America-side risk is not simply labor disruption. It is that synthetic cognition compresses the very elite offices through which American command, review, legality, and strategic restraint have historically been carried.
 
 Short form:

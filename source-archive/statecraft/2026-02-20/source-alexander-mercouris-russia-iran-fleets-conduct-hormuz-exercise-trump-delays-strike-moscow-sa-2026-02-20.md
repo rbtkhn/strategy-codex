@@ -15,4 +15,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia Iran Fleets Conduct Hormuz Exercise Trump Delays Strike: Moscow Says Kiev Army Wasting Away
 
-

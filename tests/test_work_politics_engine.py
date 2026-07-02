@@ -18,7 +18,6 @@ from work_politics_engine import (  # noqa: E402
     validate_channel_key,
 )
 
-
 @pytest.fixture
 def engine(tmp_path: Path) -> WorkPoliticsEngine:
     repo = tmp_path / "repo"
@@ -27,24 +26,19 @@ def engine(tmp_path: Path) -> WorkPoliticsEngine:
     e.init_db()
     return e
 
-
 def test_validate_channel_key_massie():
     assert validate_channel_key("operator:wap:us-ky4-massie")
-
 
 def test_validate_channel_key_artifact_slug():
     assert validate_channel_key("operator:wap:iran-brief")
 
-
 def test_validate_channel_key_rejects_garbage():
     assert not validate_channel_key("telegram:123")
-
 
 def test_funnel_metrics_empty(engine: WorkPoliticsEngine):
     m = engine.funnel_metrics(days=30)
     assert m["total_revenue_usd"] == 0.0
     assert m["stages"] == {}
-
 
 def test_client_engagement_review_and_funnel(engine: WorkPoliticsEngine):
     cid = engine.create_or_update_client(
@@ -77,7 +71,6 @@ def test_client_engagement_review_and_funnel(engine: WorkPoliticsEngine):
     m = engine.funnel_metrics(days=30)
     assert m["total_revenue_usd"] == 10.0
     assert "test_stage" in m["stages"]
-
 
 def test_engagement_blocked_without_compliance(engine: WorkPoliticsEngine):
     cid = engine.create_or_update_client(

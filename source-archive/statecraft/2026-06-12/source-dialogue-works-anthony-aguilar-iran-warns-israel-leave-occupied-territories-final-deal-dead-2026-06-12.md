@@ -44,7 +44,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Friday, June 12, 20126 and our dear friend, Lieutenant Colonel Anthony Agular is here with us. Welcome back, Anthony. >> Thank you. Thank you. It's always a pleasure and uh looking forward to some great discussion. >> Yeah, just starting with what is going on right now because the things are moving so fast.

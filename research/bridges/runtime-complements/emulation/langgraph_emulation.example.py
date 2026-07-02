@@ -11,7 +11,6 @@ import json
 from pathlib import Path
 from typing import Any, Callable
 
-
 def load_boundary_context(bundle_dir: str | Path) -> dict[str, Any]:
     root = Path(bundle_dir)
     envelope = json.loads((root / "emulation-bundle.json").read_text(encoding="utf-8"))
@@ -21,7 +20,6 @@ def load_boundary_context(bundle_dir: str | Path) -> dict[str, Any]:
         "proposal_schema": envelope["proposalReturn"]["schemaPath"],
         "prp": prp,
     }
-
 
 def emulation_node(state: dict[str, Any], llm_call: Callable[[str], str]) -> dict[str, Any]:
     context = load_boundary_context(state["bundle_dir"])

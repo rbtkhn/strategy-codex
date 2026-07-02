@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia 10 kms From Zaporozhzhye City; Evacuations Begin; Putin Returns; Iran Stabilises US Retreats
 
-

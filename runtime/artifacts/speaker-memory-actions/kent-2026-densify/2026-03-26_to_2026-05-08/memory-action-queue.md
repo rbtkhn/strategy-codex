@@ -1,7 +1,5 @@
 # Speaker memory action queue
 
-WORK only; not Record.
-
 Window: `2026-03-26` to `2026-05-08`
 
 - `medium` `consider-helix` `codex/speakers/kent/kent-helix.md` (4 appearance(s); grades: transcript-grade)

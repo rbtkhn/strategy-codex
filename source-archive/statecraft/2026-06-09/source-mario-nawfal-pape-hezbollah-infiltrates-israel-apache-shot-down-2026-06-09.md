@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 So, we have uh two pretty significant developments today. The first one is according to the New York Times, a US Army Apache helicopter went down near the straight of Hammuz and the two crew members were said to be safely rescued.

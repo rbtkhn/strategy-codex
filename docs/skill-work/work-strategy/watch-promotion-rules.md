@@ -1,6 +1,6 @@
 # work-strategy — watch promotion rules
 
-**Status:** WORK only.
+**Status:** non-authoritative.
 
 **Authority:** Promoting text into **STRATEGY.md** is operator strategy discipline. **Record** updates require **RECURSION-GATE** — never conflate the two.
 

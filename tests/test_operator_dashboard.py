@@ -32,7 +32,6 @@ FIXTURE_ROUTER = """\
 | [Hormuz Compact](../notes/compacts/hormuz-transit-sanctions-relief-compact/) | Chokepoint transit insurance sanctions | Hormuz shipping sanctions | America, Iran | x | x | x |
 """
 
-
 def _write_archive(path: Path) -> None:
     day = path.stem[-10:]
     path.write_text(
@@ -52,7 +51,6 @@ def _write_archive(path: Path) -> None:
         ),
         encoding="utf-8",
     )
-
 
 def _setup_fixture_repo(tmp_path: Path, day: str) -> dict[str, Path]:
     (tmp_path / "docs").mkdir(parents=True)
@@ -115,7 +113,6 @@ def _setup_fixture_repo(tmp_path: Path, day: str) -> dict[str, Path]:
 
     return {"source": source, "daily_path": daily_path, "queue_root": queue_root}
 
-
 @pytest.fixture()
 def umbrella_env(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
     day = "2026-06-28"
@@ -124,7 +121,6 @@ def umbrella_env(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
     monkeypatch.setattr("statecraft_war_room.QUEUE_ROOT", paths["queue_root"])
     monkeypatch.setattr("operator_dashboard.REPO_ROOT", tmp_path)
     return tmp_path, paths
-
 
 def _artifact_paths(repo_root: Path) -> dict[str, Path]:
     base = repo_root / "runtime" / "artifacts"
@@ -139,7 +135,6 @@ def _artifact_paths(repo_root: Path) -> dict[str, Path]:
         "umbrella_json": base / "operator-dashboard" / "latest.json",
     }
 
-
 def test_run_all_writes_four_buckets(umbrella_env) -> None:
     repo_root, _paths = umbrella_env
     paths = _artifact_paths(repo_root)
@@ -152,7 +147,6 @@ def test_run_all_writes_four_buckets(umbrella_env) -> None:
     assert result.exit_code == 0
     for key in paths:
         assert paths[key].is_file(), key
-
 
 def test_compose_only_builds_umbrella(umbrella_env) -> None:
     repo_root, _paths = umbrella_env
@@ -198,7 +192,6 @@ def test_compose_only_builds_umbrella(umbrella_env) -> None:
     assert "Refresh context budget" in md
     assert "runtime/artifacts/repo-surgeon/latest.md" in md
 
-
 def test_umbrella_markdown_and_json_fields(umbrella_env) -> None:
     repo_root, _paths = umbrella_env
     config = DashboardRunConfig(no_git=True)
@@ -242,7 +235,6 @@ def test_umbrella_markdown_and_json_fields(umbrella_env) -> None:
     assert payload["next_actions"]
     assert "surgeon_md" in payload["child_paths"]
 
-
 def test_fail_on_blocking_propagates_exit_code(umbrella_env, monkeypatch: pytest.MonkeyPatch) -> None:
     repo_root, _paths = umbrella_env
     paths = _artifact_paths(repo_root)
@@ -280,7 +272,6 @@ def test_fail_on_blocking_propagates_exit_code(umbrella_env, monkeypatch: pytest
     result = run_all(repo_root, config)
     assert result.exit_code == 1
 
-
 def test_main_compose_only_cli(umbrella_env, monkeypatch: pytest.MonkeyPatch) -> None:
     repo_root, _paths = umbrella_env
     paths = _artifact_paths(repo_root)
@@ -307,7 +298,6 @@ def test_main_compose_only_cli(umbrella_env, monkeypatch: pytest.MonkeyPatch) ->
     )
     assert main() == 0
     assert paths["umbrella_md"].is_file()
-
 
 def test_load_child_payloads_missing_raises(umbrella_env) -> None:
     repo_root, _paths = umbrella_env

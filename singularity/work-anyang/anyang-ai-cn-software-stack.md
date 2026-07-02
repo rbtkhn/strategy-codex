@@ -1,7 +1,5 @@
 # anyang-ai — China software stack (operator WORK)
 
-WORK only; not Record.
-
 **Purpose:** Replace cici-ai's default toolchain recommendations — tuned for **Philippines / international** access — with a **China-first** stack for Anyang cohorts. The **learning goal** stays the same (governed personal workspace, git-shaped habits, visible artifacts); the **vendors** change.
 
 **Upstream contrast:** [cici-ai onboarding prerequisites](../work-cici/evidence/cici-neural-sandbox-pt2-rtf-ingest-2026-04-21.md) (GitHub, Claude Pro/Max, Supabase, Telegram). **Do not** paste that list into Anyang member copy without this mapping.

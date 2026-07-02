@@ -266,7 +266,7 @@ If **strict** dream halts for the **same** integrity or governance **reason** mo
 4. If strategy residue needs tacit operator judgment before it can be routed or composed, recommend at most **one** `skill-elicitation` checkpoint as a tomorrow breadcrumb; do not run elicitation inside dream unless the operator explicitly asks in that same message.
 5. If the operator **explicitly** asks to run **`strategy page`**, **`strategy page compose`**, **EOD strategy notebook**, fold strategy inbox, or add stubs in the same message, follow [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) and [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md); otherwise defer to a later **`strategy`** session.
 
-**Boundaries:** **WORK only** — not Record, not `self.md` / EVIDENCE / gate merge.
+**Boundaries:** , not `self.md` / EVIDENCE / gate merge.
 
 **Return brief:** **Strategy notebook:** `deferred` / `FYI missing headers: …` / `composed (operator asked)` — as applicable.
 

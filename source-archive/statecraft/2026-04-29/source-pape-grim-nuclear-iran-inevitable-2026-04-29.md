@@ -23,7 +23,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Breaking Points Welcome and Escalation Trap Frame
 
 **Ryan Grim:**

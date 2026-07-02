@@ -25,22 +25,18 @@ import build_workflow_depth_report as _bwd  # noqa: E402
 
 build_report = _bwd.build_report
 
-
 def test_fixed_depth_mapping() -> None:
     assert fixed_depth_to_budget_and_max_obs("shallow") == ("compact", 30)
     assert fixed_depth_to_budget_and_max_obs("exhaustive") == ("deep", 48)
-
 
 def test_auto_escalation_detected() -> None:
     assert auto_escalation_detected("low_utilization_escalate", "medium") is True
     assert auto_escalation_detected("sufficient_signal", "compact") is False
 
-
 def test_build_report_empty() -> None:
     r = build_report([])
     assert r["receiptCount"] == 0
     assert r["partialMetrics"] is True
-
 
 def test_build_report_one_row() -> None:
     rows = [
@@ -57,7 +53,6 @@ def test_build_report_one_row() -> None:
     assert r["receiptCount"] == 1
     assert r["auto"]["total"] == 1
     assert r["auto"]["escalatedApprox"] == 1
-
 
 def test_append_receipt_minimal(tmp_path: Path) -> None:
     d = decision_from_fixed(

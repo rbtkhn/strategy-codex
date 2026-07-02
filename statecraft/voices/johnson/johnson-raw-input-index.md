@@ -1,6 +1,5 @@
 # Johnson Raw-Input Index
 
-
 Compatibility pointer only.
 
 The canonical Johnson source route map now lives at [johnson-source-index.md](johnson-source-index.md).

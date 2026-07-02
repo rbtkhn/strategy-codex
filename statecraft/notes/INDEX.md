@@ -1,6 +1,5 @@
 # Statecraft notes — discovery stub
 
-
 **Generated SSOT:** [`runtime/artifacts/statecraft-notes-registry.md`](../../runtime/artifacts/statecraft-notes-registry.md) (machine mirror: [`statecraft-notes-registry.json`](../../runtime/artifacts/statecraft-notes-registry.json)).
 
 Regenerate after contract edits:

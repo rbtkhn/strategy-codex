@@ -1,7 +1,6 @@
 # China - Zangezur Transit / Sovereignty Framework
 <!-- word_count: 395 -->
 
-
 ## Transaction Name
 
 Zangezur infrastructure access without ownership of dispute.

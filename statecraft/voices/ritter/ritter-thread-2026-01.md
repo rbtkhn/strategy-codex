@@ -1,7 +1,6 @@
 # Expert thread — `ritter` — `2026-01`
 <!-- word_count: 857 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **month chapter of compatibility continuity**, not as an independent Ritter strand.
@@ -27,7 +26,6 @@ _This monthly chapter is **one** calendar month. Optional **Continuity (month op
 **Default:** at least **~500 words** of substantive prose in `## 2026-01` (see `validate_strategy_expert_threads.py`); list lines with `[strength: …]` do not count toward the minimum by default.
 
 ## 2026-01
-
 
 Cross-lane convergence and tension are notebook-native concepts. For 2026-01, read × marandi, × barnes, × rome-invective (split from ecumenical) as the default **short list** of other experts whose fingerprints commonly collide with `ritter` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
 

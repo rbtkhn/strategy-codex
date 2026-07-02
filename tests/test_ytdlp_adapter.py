@@ -13,7 +13,6 @@ if str(_SCRIPTS) not in sys.path:
 from youtube_transcripts import ytdlp_adapter as adapter  # noqa: E402
 from youtube_transcripts.subtitles_ytdlp import fetch_subtitles_ytdlp  # noqa: E402
 
-
 def test_list_videos_flat_normalizes_watch_urls_and_respects_cutoff(monkeypatch) -> None:
     calls: dict[str, object] = {}
 
@@ -69,7 +68,6 @@ def test_list_videos_flat_normalizes_watch_urls_and_respects_cutoff(monkeypatch)
         }
     ]
 
-
 def test_fetch_video_metadata_subprocess_builds_module_command(monkeypatch) -> None:
     calls: dict[str, object] = {}
 
@@ -104,7 +102,6 @@ def test_fetch_video_metadata_subprocess_builds_module_command(monkeypatch) -> N
     assert calls["text"] is True
     assert data["title"] == "Example"
 
-
 def test_fetch_video_metadata_subprocess_accepts_cookie_args(monkeypatch) -> None:
     calls: dict[str, object] = {}
 
@@ -124,7 +121,6 @@ def test_fetch_video_metadata_subprocess_accepts_cookie_args(monkeypatch) -> Non
     assert "C:\\tmp\\cookies.txt" in calls["cmd"] or "C:/tmp/cookies.txt" in calls["cmd"]
     assert "--cookies-from-browser" in calls["cmd"]
     assert "chrome:Default" in calls["cmd"]
-
 
 def test_fetch_video_metadata_import_accepts_browser_cookies(monkeypatch) -> None:
     calls: dict[str, object] = {}
@@ -152,7 +148,6 @@ def test_fetch_video_metadata_import_accepts_browser_cookies(monkeypatch) -> Non
 
     assert calls["opts"]["cookiefile"] == str(Path("C:/tmp/cookies.txt"))
     assert calls["opts"]["cookiesfrombrowser"] == ("chrome", "Default")
-
 
 def test_fetch_subtitles_prefers_manual_file(monkeypatch) -> None:
     class FakeYDL:
@@ -185,7 +180,6 @@ def test_fetch_subtitles_prefers_manual_file(monkeypatch) -> None:
     assert kind == "manual"
     assert lang == "en"
     assert text == "hello manual"
-
 
 def test_fetch_subtitles_falls_back_to_auto_file(monkeypatch) -> None:
     class FakeYDL:

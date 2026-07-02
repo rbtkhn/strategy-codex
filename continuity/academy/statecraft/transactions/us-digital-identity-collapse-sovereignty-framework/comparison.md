@@ -1,7 +1,6 @@
 # U.S. Digital Identity Framework - Four-Lane Comparison
 <!-- word_count: 117 -->
 
-
 | lane | wants | fears | workable formula |
 | --- | --- | --- | --- |
 | America | rights and legal continuity | platform sovereignty or emergency permanence | audit, fallback, appeal, rollback |

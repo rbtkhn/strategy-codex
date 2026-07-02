@@ -1,7 +1,5 @@
 # Speaker memory action queue
 
-WORK only; not Record.
-
 Window: `2025-04-10` to `2025-04-10`
 
 - `high` `update-existing-arc` `codex/years/2026/davis/davis-johnson-speaker-arc.md` (1 appearance(s); grades: transcript-bearing)

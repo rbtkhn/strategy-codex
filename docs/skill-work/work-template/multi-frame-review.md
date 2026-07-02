@@ -1,6 +1,6 @@
 # Multi-frame review (procedure)
 
-**Status:** WORK only.  
+**Status:** non-authoritative.  
 **Scope:** **How** to run a multi-perspective pass — not a registry of frames.
 
 ---

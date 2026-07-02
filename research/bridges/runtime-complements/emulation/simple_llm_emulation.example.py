@@ -12,7 +12,6 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-
 def load_emulation_bundle(bundle_dir: str | Path) -> dict:
     root = Path(bundle_dir)
     envelope = json.loads((root / "emulation-bundle.json").read_text(encoding="utf-8"))
@@ -24,7 +23,6 @@ def load_emulation_bundle(bundle_dir: str | Path) -> dict:
         "prp": prp,
         "fork_export": fork_export,
     }
-
 
 def build_system_prompt(bundle: dict) -> str:
     envelope = bundle["envelope"]
@@ -38,7 +36,6 @@ def build_system_prompt(bundle: dict) -> str:
         "Return runtime-only observations for the membrane import path when the result is continuity or session residue.\n"
     )
 
-
 def build_runtime_observation_payload(summary: str) -> dict:
     return {
         "type": "session_summary",
@@ -46,7 +43,6 @@ def build_runtime_observation_payload(summary: str) -> dict:
         "human_review_required": True,
         "canonical_surfaces_touched": False,
     }
-
 
 def build_durable_change_stub(topic: str, summary: str) -> dict:
     return {
@@ -56,7 +52,6 @@ def build_durable_change_stub(topic: str, summary: str) -> dict:
         "human_review_required": True,
         "canonical_surfaces_touched": False,
     }
-
 
 if __name__ == "__main__":
     import argparse

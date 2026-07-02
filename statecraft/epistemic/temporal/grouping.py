@@ -6,7 +6,6 @@ from typing import Any
 
 UNMATCHED_EVENT = "unmatched"
 
-
 def group_by_event(structured_predictions: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
     groups: dict[str, list[dict[str, Any]]] = {}
     for pred in structured_predictions:

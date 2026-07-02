@@ -37,7 +37,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 to uh vices how are you man good good um so yeah we uh we covered the attack i appreciate you giving us your time yesterday um here we are the day after iran retaliated israel did not retaliate back but they are still striking southern lebanon uh we've got reports that the big one here and i get your thoughts on according to nbc and c U.S. did not even participate in the attack defensively.

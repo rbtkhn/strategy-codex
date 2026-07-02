@@ -1,7 +1,6 @@
 # CIV-EMP Source Retrieval Matrix
 <!-- word_count: 1049 -->
 
-
 ## Purpose
 
 Use this matrix before creating or upgrading academy-statecraft civilization, empire, helix, or state-memory objects from CIV-EMP.

@@ -15,13 +15,11 @@ from integrations.codegraph.common import (
     write_text,
 )
 
-
 def _safe_node_id(value: Any, fallback: str) -> str:
     text = str(value or "").strip()
     if not text:
         text = fallback
     return text.replace(":", "_").replace("/", "_").replace("\\", "_").replace(" ", "_")
-
 
 def _symbol_match_node(match: Any) -> dict[str, Any]:
     if isinstance(match, dict) and isinstance(match.get("node"), dict):
@@ -29,7 +27,6 @@ def _symbol_match_node(match: Any) -> dict[str, Any]:
     if isinstance(match, dict):
         return match
     return {}
-
 
 def build_mermaid_graph(context_payload: dict[str, Any], max_edges: int = 20) -> str:
     nodes = context_payload.get("nodes", [])
@@ -61,7 +58,6 @@ def build_mermaid_graph(context_payload: dict[str, Any], max_edges: int = 20) ->
     if len(lines) == 1:
         return "graph TD\n  empty[\"No graph edges returned\"]"
     return "\n".join(lines)
-
 
 def build_markdown_report(
     export_payload: dict[str, Any],
@@ -200,7 +196,6 @@ def build_markdown_report(
     lines.append("- Source mode: `strategy-codex-codegraph-pilot`")
     return "\n".join(lines)
 
-
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Export bounded CodeGraph context for pilot workflows.")
     parser.add_argument("--task", required=True, help="Natural-language task or architecture query.")
@@ -228,7 +223,6 @@ def build_parser() -> argparse.ArgumentParser:
         help="Optional command override, e.g. 'npx @colbymchenry/codegraph'.",
     )
     return parser
-
 
 def main() -> int:
     parser = build_parser()
@@ -295,7 +289,6 @@ def main() -> int:
         write_text(markdown_path, markdown)
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

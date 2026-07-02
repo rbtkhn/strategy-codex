@@ -1,6 +1,5 @@
 # Unified Execution Receipts
 
-
 ## Purpose
 
 This memo defines the next receipt-hardening wedge for strategy-codex:

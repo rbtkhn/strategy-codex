@@ -1,6 +1,5 @@
 # Baud source index
 
-
 Purpose: canonical **archive parity** bench for **Jacques Baud** while orthogonality routing (arc, helix, topical threads, host arcs) stays in sibling surfaces.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index baud` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)

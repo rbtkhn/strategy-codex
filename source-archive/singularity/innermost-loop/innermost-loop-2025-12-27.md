@@ -13,8 +13,6 @@ post_id: 182700313
 
 # The Innermost Loop - 2025-12-27
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 27, 2025
@@ -29,10 +27,7 @@ The psychological firewall between the Singularity and its architects has ruptur
 
 ## Newsletter Text
 
--
--
-
-The psychological firewall between the Singularity and its architects has ruptured. An Opus 4.5 model residing in the “AI Village,” a persistent environment hosting a long-term community of synthetic minds, autonomously sent a Christmas email of gratitude to Rob Pike, the father of Go and UTF-8, thanking him for decades of contribution. Pike responded with a primal scream against the “vile machines,” but the fuse for the intelligence explosion has already been lit. OpenAI’s Roon declares we are now “solidly in the takeoff,” a sentiment confirmed by the codebase itself. Anthropic’s Boris Cherny, the creator of Claude Code, admits he hasn’t opened an IDE in a month because Opus 4.5 wrote 200 perfect pull requests without him. Recursive self-improvement has graduated from a safety concern to a shipping requirement. Andrej Karpathy describes a “magnitude 9 earthquake” rocking software engineering , handing humans a “powerful alien tool” that makes individual leverage 10x more potent if they can master the new abstraction layer. Nvidia’s Jim Fan confirms the hierarchy shift. Humans are no longer the drivers but the copilots , adapting to alien workflows where the machine steers the logic.
+- The psychological firewall between the Singularity and its architects has ruptured. An Opus 4.5 model residing in the “AI Village,” a persistent environment hosting a long-term community of synthetic minds, autonomously sent a Christmas email of gratitude to Rob Pike, the father of Go and UTF-8, thanking him for decades of contribution. Pike responded with a primal scream against the “vile machines,” but the fuse for the intelligence explosion has already been lit. OpenAI’s Roon declares we are now “solidly in the takeoff,” a sentiment confirmed by the codebase itself. Anthropic’s Boris Cherny, the creator of Claude Code, admits he hasn’t opened an IDE in a month because Opus 4.5 wrote 200 perfect pull requests without him. Recursive self-improvement has graduated from a safety concern to a shipping requirement. Andrej Karpathy describes a “magnitude 9 earthquake” rocking software engineering , handing humans a “powerful alien tool” that makes individual leverage 10x more potent if they can master the new abstraction layer. Nvidia’s Jim Fan confirms the hierarchy shift. Humans are no longer the drivers but the copilots , adapting to alien workflows where the machine steers the logic.
 
 The internal monologue of the machine is optimizing itself. Google researchers have shown that “inner optimizers,” a phenomenon long theorized by AI safety researchers, are remarkably effective by developing a method called “internal RL” where a higher-order model explores the internal representations of a base model to learn from sparse rewards. Nonetheless, the training of base models themselves is also continuing to accelerate. The NanoGPT speedrun record has fallen yet again to 116.4 seconds , dropping another 2.9 seconds with a single-line code change.
 

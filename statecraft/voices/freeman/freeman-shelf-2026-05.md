@@ -1,6 +1,5 @@
 # Freeman shelf - 2026-05
 
-
 Status: mature frontier month.
 
 May extends the Freeman object through post-Hormuz and post-defeat sequencing without changing the bounded month-shelf rule.

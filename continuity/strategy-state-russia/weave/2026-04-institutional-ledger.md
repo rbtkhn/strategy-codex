@@ -1,7 +1,6 @@
 # 2026-04 institutional ledger (strategy-state-russia)
 <!-- word_count: 226 -->
 
-
 ## Signal class — lane bootstrap activation (2026-04-28)
 
 - Emitting office(s): lane-level routing seed (`strategy-state-russia` bootstrap line in `daily-strategy-inbox.md`)

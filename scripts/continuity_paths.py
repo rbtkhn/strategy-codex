@@ -8,7 +8,6 @@ from pathlib import Path
 CANONICAL_CONTINUITY_DIR = "continuity"
 LEGACY_CODEX_DIR = "codex"
 
-
 def continuity_root(repo_root: Path) -> Path:
     """Return continuity/ when present, else legacy codex/."""
     canonical = repo_root / CANONICAL_CONTINUITY_DIR
@@ -16,7 +15,6 @@ def continuity_root(repo_root: Path) -> Path:
     if canonical.is_dir():
         return canonical
     return legacy
-
 
 def continuity_subpath(repo_root: Path, *parts: str) -> Path:
     """Path under the resolved continuity root."""

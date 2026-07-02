@@ -13,8 +13,6 @@ post_id: 192720083
 
 # The Innermost Loop - 2026-03-31
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 31, 2026
@@ -29,10 +27,7 @@ The Singularity is optimizing the optimizers.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is optimizing the optimizers. Meta researchers introduced AIRA2 , which cracks three structural bottlenecks in AI research agents, from synchronous single-GPU execution to the generalization gap that degrades performance over extended search horizons. The fix is recursive. Bilevel Autoresearch wraps an inner research loop inside an outer one that generates new search strategies as Python code at runtime, with both loops powered by the same LLM and no stronger model required. Meanwhile, Natural-Language Agent Harnesses externalize agent control logic as portable, editable natural-language artifacts, making the harness itself a first-class programmable object. To measure what these agents can actually simulate, the new WR-Arena benchmarks world models across action fidelity, long-horizon forecasting, and simulative reasoning. A controlled experiment has confirmed the payoff: giving an autoresearch agent access to CS papers during hyperparameter search improved results by 3.2%. The agents are getting hungrier for input. Alibaba’s new Qwen3.5-Omni processes text, 10+ hours of audio, images, and video, but only via proprietary API, marking a quiet Chinese retreat from open source.
+- The Singularity is optimizing the optimizers. Meta researchers introduced AIRA2 , which cracks three structural bottlenecks in AI research agents, from synchronous single-GPU execution to the generalization gap that degrades performance over extended search horizons. The fix is recursive. Bilevel Autoresearch wraps an inner research loop inside an outer one that generates new search strategies as Python code at runtime, with both loops powered by the same LLM and no stronger model required. Meanwhile, Natural-Language Agent Harnesses externalize agent control logic as portable, editable natural-language artifacts, making the harness itself a first-class programmable object. To measure what these agents can actually simulate, the new WR-Arena benchmarks world models across action fidelity, long-horizon forecasting, and simulative reasoning. A controlled experiment has confirmed the payoff: giving an autoresearch agent access to CS papers during hyperparameter search improved results by 3.2%. The agents are getting hungrier for input. Alibaba’s new Qwen3.5-Omni processes text, 10+ hours of audio, images, and video, but only via proprietary API, marking a quiet Chinese retreat from open source.
 
 Superintelligence is spilling into atoms. Eli Lilly struck a $2.75 billion deal with Insilico to bring AI-developed drugs to global markets, proving the wet lab is now downstream of the weights. In hardware, a new bismuth selenide memristor from the University of Michigan combines long-term retention with analog tuning to boost AI energy efficiency. Scientists have even created a microscopic QR code smaller than most bacteria, visible only under an electron microscope, now a certified world record. At the nanoscale, information density is becoming indistinguishable from sorcery.
 

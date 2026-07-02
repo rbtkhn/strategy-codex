@@ -1,6 +1,5 @@
 # Furtwangler statecraft slice separation - 2026-05-30
 
-
 Purpose: record the main unresolved contradiction visible in the current `strategy-codex` tree after the recent CIV-STATE runs, and name the next bounded ship without pretending the broader disorder is already solved.
 
 ## Main contradiction

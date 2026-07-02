@@ -47,7 +47,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 [music] Hi everybody. Today is Wednesday, June 10th, 2026 and our dear friend, our brother Patrick Henningson is here with us. Welcome back, Patrick.

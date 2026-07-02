@@ -6,7 +6,7 @@ Task: produce a revised `Diesen x Freeman speaker arc` note.
 
 Requirements:
 
-- Preserve `WORK only; not Record.`
+- Preserve ``
 - Treat the arc as host-local conversational form, not as a generic Freeman profile.
 - Rank the strongest raw-input anchors and explain why the top anchor is the best open-first path.
 - Include one best paired read and explain the adjacency.

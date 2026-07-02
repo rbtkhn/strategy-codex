@@ -32,7 +32,6 @@ _(Append below this line.)_
     assert d in out["mearsheimer"]
     assert any("mearsheimer" in line for line in out["mearsheimer"][d])
 
-
 def test_multiline_thread_ingest_includes_paragraphs_until_next_bullet() -> None:
     inbox = """
 **Accumulator for:** 2026-04-14 _(clock)_
@@ -50,7 +49,6 @@ Second paragraph of quote without a leading dash.
     assert "Second paragraph" in block
     assert "ritter" not in block
 
-
 def test_ignores_unknown_thread_slug() -> None:
     inbox = """
 **Accumulator for:** 2026-04-14 _(clock)_
@@ -61,7 +59,6 @@ _(Append below this line.)_
 """
     out = extract_thread_ingests(inbox, today=date(2026, 4, 14))
     assert not out
-
 
 def test_render_thread_extraction_includes_transcript_and_pages() -> None:
     text = render_thread_extraction(
@@ -80,7 +77,6 @@ def test_render_thread_extraction_includes_transcript_and_pages() -> None:
     assert "transcript line" in text
     assert "k.md" in text
 
-
 def test_render_thread_extraction_includes_raw_input_pointers() -> None:
     text = render_thread_extraction(
         "davis",
@@ -93,7 +89,6 @@ def test_render_thread_extraction_includes_raw_input_pointers() -> None:
     assert "provenance/2026-04-24/a.md" in text
     assert "_(No transcript, raw-input lane, or page material" not in text
 
-
 def test_render_thread_extraction_raw_input_lane_suffices_without_transcript() -> None:
     """Empty rolling transcript is OK when the lane lists on-disk / inbox raw-input (phase-4 gate)."""
     text = render_thread_extraction(
@@ -105,7 +100,6 @@ def test_render_thread_extraction_raw_input_lane_suffices_without_transcript() -
     )
     assert "Union of" in text or "de-duped" in text
     assert "_(No transcript, raw-input lane, or page material" not in text
-
 
 def test_collect_inbox_raw_input_pointers_respects_thread_tag_and_month(
     tmp_path: Path,
@@ -131,14 +125,12 @@ def test_collect_inbox_raw_input_pointers_respects_thread_tag_and_month(
     assert any("foo.md" in p for p in april)
     assert not any("bar.md" in p for p in april)
 
-
 def test_rebuild_threads_returns_one_path_per_canonical_expert(tmp_path: Path) -> None:
     page_index = tmp_path / "page-index.yaml"
     page_index.write_text("pages: []\n", encoding="utf-8")
     paths = rebuild_threads(out_dir=tmp_path, page_index_path=page_index, dry_run=True)
     assert len(paths) == len(CANONICAL_EXPERT_IDS)
     assert all(p.name == "thread.md" for p in paths)
-
 
 def test_rebuild_threads_monthly_extra_paths_for_expert_with_month_files(tmp_path: Path) -> None:
     page_index = tmp_path / "page-index.yaml"

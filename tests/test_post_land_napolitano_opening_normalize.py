@@ -10,7 +10,6 @@ from scripts.post_land_napolitano_opening_normalize import post_land_napolitano_
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _write_capture(path: Path, guest: str, body: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
@@ -33,7 +32,6 @@ source_url: "https://www.youtube.com/watch?v=test"
 """,
         encoding="utf-8",
     )
-
 
 def test_skips_non_napolitano_capture(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     archive = tmp_path / "source-archive" / "statecraft" / "2026-05-29"
@@ -69,7 +67,6 @@ Hey man. Iran controls Hormuz.
     assert result.status == "skipped-not-napolitano"
     assert not result.applied
 
-
 def test_applies_napolitano_trim_on_land(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     archive = tmp_path / "source-archive" / "statecraft" / "2026-05-29"
     path = archive / "source-napolitano-sachs-test.md"
@@ -99,7 +96,6 @@ def test_applies_napolitano_trim_on_land(tmp_path: Path, monkeypatch: pytest.Mon
     assert "Lear Capital" not in transcript
     assert "Professor Sachs, good day" in transcript
 
-
 def test_dry_run_does_not_write(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     archive = tmp_path / "source-archive" / "statecraft" / "2026-05-29"
     path = archive / "source-napolitano-sachs-dry-run.md"
@@ -120,7 +116,6 @@ def test_dry_run_does_not_write(tmp_path: Path, monkeypatch: pytest.MonkeyPatch)
     assert not result.applied
     assert "Undeclared wars" in path.read_text(encoding="utf-8")
 
-
 def test_collect_batch_paths_by_day(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     archive = tmp_path / "source-archive" / "statecraft"
     day = archive / "2026-06-16"
@@ -135,7 +130,6 @@ def test_collect_batch_paths_by_day(tmp_path: Path, monkeypatch: pytest.MonkeyPa
     paths = hook.collect_batch_paths(day="2026-06-16")
     assert len(paths) == 2
     assert all("source-napolitano-" in p.name for p in paths)
-
 
 def test_run_batch_streams_summary(tmp_path: Path, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]) -> None:
     archive = tmp_path / "source-archive" / "statecraft" / "2026-06-16"

@@ -1,6 +1,6 @@
 ﻿# Bookshelf
 
-**WORK only;** not Record.
+**non-authoritative;** not Record.
 
 **Collection name:** **self-library-bookshelf** â€” the operatorâ€™s **physical print library** (300-title-class scale), cataloged under this heading and in [`bookshelf-catalog.yaml`](bookshelf-catalog.yaml) as `Shelf-*` rows. Same thing as â€œBookshelfâ€ / [](../../../../../archive/grace-mar-instance/self-library.md#bookshelf) in the self-library index; the name **self-library-bookshelf** stresses **self-library** as the home for the **shelf** list.
 

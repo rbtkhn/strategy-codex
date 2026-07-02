@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Iran Defies US Refuses Talk Ceasefire About To End; Russia Warns Donbass Falling Baltics Will Follow
 
-

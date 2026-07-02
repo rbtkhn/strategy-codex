@@ -11,14 +11,12 @@ MAP_PATH = REPO_ROOT / "docs" / "harness-architecture-map.md"
 # Markdown links: [text](target) or [text](target#anchor)
 LINK_RE = re.compile(r"\]\(([^)#]+)(?:#[^)]+)?\)")
 
-
 def _resolve_link(target: str, source_dir: Path) -> Path:
     if target.startswith("http://") or target.startswith("https://"):
         return Path()  # external; skip existence check
     if target.startswith("/"):
         return REPO_ROOT / target.lstrip("/")
     return (source_dir / target).resolve()
-
 
 def test_harness_architecture_map_internal_links_exist() -> None:
     text = MAP_PATH.read_text(encoding="utf-8")
@@ -35,7 +33,6 @@ def test_harness_architecture_map_internal_links_exist() -> None:
     assert not missing, "broken internal link(s) in harness-architecture-map.md:\n" + "\n".join(
         sorted(set(missing))
     )
-
 
 def test_harness_architecture_map_links_to_membrane_ssot_sections() -> None:
     text = MAP_PATH.read_text(encoding="utf-8")

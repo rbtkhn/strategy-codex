@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # EU Shock; US Says Ukraine Peace, Russia Relations, Are Core US Interest, Zelensky Allowed Corruption
 
-

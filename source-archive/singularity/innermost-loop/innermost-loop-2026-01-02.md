@@ -13,8 +13,6 @@ post_id: 183253902
 
 # The Innermost Loop - 2026-01-02
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 2, 2026
@@ -29,10 +27,7 @@ The recursive loop of the Singularity is tightening.
 
 ## Newsletter Text
 
--
--
-
-The recursive loop of the Singularity is tightening. Prime Intellect has unveiled a Recursive Language Model (RLM) that manages its own context via a persistent Python REPL, allowing it to inspect and transform data end-to-end without human oversight. We are discovering free compute in the geometry of the model itself. Advances in the NanoGPT Speedrun from the last 6 months that reduced the training time to reach 3.28 loss on FineWeb to below 2 minutes have now been found to generalize to the harder 2.92 loss track, breaking the world record by 25% , while DeepSeek researchers introduced Manifold-Constrained Hyper-Connections , a macro-architecture shift that expands the residual stream into parallel projections to boost performance without computational cost, proving that there is still vast room for architectural innovation beyond the standard transformer.
+- The recursive loop of the Singularity is tightening. Prime Intellect has unveiled a Recursive Language Model (RLM) that manages its own context via a persistent Python REPL, allowing it to inspect and transform data end-to-end without human oversight. We are discovering free compute in the geometry of the model itself. Advances in the NanoGPT Speedrun from the last 6 months that reduced the training time to reach 3.28 loss on FineWeb to below 2 minutes have now been found to generalize to the harder 2.92 loss track, breaking the world record by 25% , while DeepSeek researchers introduced Manifold-Constrained Hyper-Connections , a macro-architecture shift that expands the residual stream into parallel projections to boost performance without computational cost, proving that there is still vast room for architectural innovation beyond the standard transformer.
 
 The interface is dissolving into ambient presence. OpenAI is preparing audio models that can handle interruptions and speak simultaneously with users , laying the groundwork for a screenless “pen” device manufactured by Foxconn intended to replace the smartphone. The hardware of perception is evaporating. Pickle claims to have developed lightweight binocular AR smartglasses for $799 . Reality itself is being pre-rendered. Magnific.ai’s founder used Nano Banana Pro to generate a nearly perfect preview of his unborn child from a 4-month ultrasound, collapsing the time between conception and recognition.
 

@@ -1,6 +1,5 @@
 # Kent surface orthogonality review - 2026-05
 
-
 ## Scope
 
 Local surfaces under review:

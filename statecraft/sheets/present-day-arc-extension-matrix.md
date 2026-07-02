@@ -1,6 +1,5 @@
 # Present-Day Arc Extension Matrix
 
-
 ## Purpose
 
 Use this sheet when a verified live-event read, transaction route, recursive candidate scan, or six-part doctrine read needs to extend deep civilization arcs into present-day operating forms.

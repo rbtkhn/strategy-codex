@@ -1,9 +1,8 @@
 """
-Simple templating synthesis for three-lens output (WORK only; draft).
+Simple templating synthesis for three-lens output (non-authoritative; draft).
 Run after the three analytical lenses; output is draft until operator approves.
 In production: may call LLM wrapper; see docs/skill-work/work-strategy/synthesis-engine.md.
 """
-
 
 def synthesize_minds(
     mearsheimer_text: str, mercouris_text: str, barnes_text: str

@@ -1,6 +1,5 @@
 # Prose Forge
 
-
 **Surface type** — workflow / helper  
 **Primary purpose** — Improve draft prose so it becomes specific, repo-native, and reviewable — not “humanizer” evasion.  
 **When to use** — Promoting model output or draft essays/notes toward durable prose surfaces; before shipping new `essays/` files.  

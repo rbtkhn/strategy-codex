@@ -1,7 +1,5 @@
 # Interpretive Machine Cluster
 
-work only; not Record.
-
 **Canonical home:** [../../../essays/interpretive-machine/README.md](../../../essays/interpretive-machine/README.md)
 
 Compatibility stub — pre-root singularity cluster. Edit repo-root cluster files:

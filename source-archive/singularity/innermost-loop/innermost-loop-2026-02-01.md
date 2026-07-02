@@ -13,8 +13,6 @@ post_id: 186505446
 
 # The Innermost Loop - 2026-02-01
 
-WORK only; not Record.
-
 ## Source
 
 - Title: A Conversation with Cathie Wood
@@ -29,10 +27,7 @@ Cathie Wood is the founder, CEO, and CIO of ARK Invest, which manages several ac
 
 ## Newsletter Text
 
--
--
-
-Cathie Wood is the founder, CEO, and CIO of ARK Invest, which manages several actively managed exchange-traded funds based on disruptive innovation, with reported assets of over $20 billion in June 2025. Below are excerpts from our recent conversation , recorded on January 27, 2026, which have been lightly edited for clarity.
+- Cathie Wood is the founder, CEO, and CIO of ARK Invest, which manages several actively managed exchange-traded funds based on disruptive innovation, with reported assets of over $20 billion in June 2025. Below are excerpts from our recent conversation , recorded on January 27, 2026, which have been lightly edited for clarity.
 
 On Dyson Swarms
 

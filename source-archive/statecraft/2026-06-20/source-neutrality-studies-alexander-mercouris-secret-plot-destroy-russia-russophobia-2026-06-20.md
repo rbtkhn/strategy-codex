@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back to neutrality studies everybody today again in life and with me the one and only Alexander Mercouris. Alexander welcome. >> I'm delighted to be here and to meet you properly for the first time Pascal one to one. Of course we've been in contact many many times but this is the first time we've met and it has been an enormous pleasure.

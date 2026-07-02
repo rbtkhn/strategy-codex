@@ -1,6 +1,5 @@
 # Hoh Source Index
 
-
 Purpose: exhaustive route map for every resolved Matthew Hoh appearance currently materialized in Statecraft Archive.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index hoh` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)

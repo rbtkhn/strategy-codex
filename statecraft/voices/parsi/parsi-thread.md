@@ -1,7 +1,6 @@
 ﻿# Expert thread ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â `parsi`
 <!-- word_count: 10565 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint and compatibility carryover**, not as a thread that competes with the current canonical Parsi shelf.
@@ -44,7 +43,6 @@ _(No narrative distillation yet ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â add prose
 
 **Quincy** / Beltway-facing lane opens the year on **nuclear-talks scope** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â thesis: diplomacy fails if **only** the nuclear file is centered; sanctions relief and escalation dynamics sit in the same conversation.
 
-
 When historical expert context artifacts exist for `parsi` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-01 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
 
 If pages named this expert during 2026-01, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âabsence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
@@ -67,7 +65,6 @@ The 2026-01 segment for the Trita Parsi lane (`parsi`) exists so the notebook ke
 
 Cable and long-form **warning** tone ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â both sides may perceive **short-war** bargaining upside; treat as **hypothesis** until poll / military-fact rows land in `days.md`.
 
-
 The `parsi` laneÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s role (Co-founder & Executive Vice President, Quincy Institute for Responsible Statecraft; author; U.S.ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Iran relations, Iranian foreign policy, Middle East geopolitics.) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
 
 When historical expert context artifacts exist for `parsi` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-02 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
@@ -89,7 +86,6 @@ Finally, 2026-02 should remain safe for **operator rotation**: someone returning
 
 Institutional **event** layer: Quincy **webinar** on **regional shockwaves** and **exit** framing after **kinetic** opening ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â use as **agenda + speaker list** receipt, not battlefield truth.
 
-
 The `parsi` laneÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s role (Co-founder & Executive Vice President, Quincy Institute for Responsible Statecraft; author; U.S.ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Iran relations, Iranian foreign policy, Middle East geopolitics.) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
 
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-03, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
@@ -101,7 +97,6 @@ When historical expert context artifacts exist for `parsi` (per-month files or r
 Open pins belong in prose, not only as bullets. For this `parsi` month segment, explicitly reserve space for **what remains unresolved**: which claims await transcript confirmation, which geopolitical sub-claims depend on translation or primary document access, and which institutional facts are stable enough to reuse in weave scaffolding. That habit keeps later strategy passes from mistaking silence for certainty.
 
 If pages named this expert during 2026-03, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âabsence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
-
 
 The `parsi` laneÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s role (Co-founder & Executive Vice President, Quincy Institute for Responsible Statecraft; author; U.S.ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Iran relations, Iranian foreign policy, Middle East geopolitics.) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
 
@@ -142,7 +137,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 - **2026-03-31** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Quincy Institute webinar ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œWar in Iran: Regional Shockwaves and the Search for an ExitÃƒÂ¢Ã¢â€šÂ¬Ã‚Â (moderated by Parsi).  
   _Source:_ web: `https://quincyinst.org/events/war-in-iran-regional-shockwaves-and-the-search-for-an-exit/`
 
-
 ### 2026-04
 
 - **2026-04** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Ledger mirror 1 (partial month).  
@@ -154,7 +148,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 _Partial month ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **2026-04-12** X / CNN overlay ingested; war-powers + EU-naming id **2026-04-14**; April not closed._
 
 April stacks **Lebanon as sticking point** and nested ceasefire-quote chains on X beside **IslamabadÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Hormuz** thesis week ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Beltway process lane stays **seam-pinned** vs **marandi** legitimacy register.
-
 
 Typical pairings on file for `parsi` emphasize contrast surfaces: ÃƒÆ’Ã¢â‚¬â€ holy-see-moral, ÃƒÆ’Ã¢â‚¬â€ marandi, ÃƒÆ’Ã¢â‚¬â€ macgregor, ÃƒÆ’Ã¢â‚¬â€ sachs, ÃƒÆ’Ã¢â‚¬â€ mercouris. In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-04 segment should be read as **mesh navigation**ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âwhich lanes to pull into the same batch passÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Ârather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
 
@@ -632,7 +625,6 @@ A moral objection (Leo XIV) can be dismissed as non-political. An alliance defec
 ### Appendix
 
 # Page ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 2026-04-15 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â KremlinÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“IRI uranium off-ramp, dual register, and the legitimacy seam
-
 
 | Field | Value |
 |--------|--------|

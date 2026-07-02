@@ -1,7 +1,6 @@
 # Iran State Memory
 <!-- word_count: 3265 -->
 
-
 This civilization object stores the long memory of Iranian state authority from Medes / Achaemenids through Parthian / Sasanian rule, Islamic / Persianate continuity, Safavid Shi'a state formation, Qajar / Pahlavi foreign-pressure memory, Mossadegh / 1953, 1979 revolution, Iran-Iraq War, sanctions endurance, and compute-siege sovereignty. It links that long continuity to one statecraft question: what must current Iranian carriers preserve so a transaction reads as sovereignty, dignity, deterrent continuity, and anti-humiliation competence rather than as externally managed retreat or self-isolating overreaction?
 
 Helix-first role: in the Iran transfer case, this object now functions as a supporting civilization-side strand beneath the primary [Iran helix](../../helix.md). Use the helix for the integrated lane reading; use this note when the governing question has clearly narrowed to continuity memory, dignity-bearing authority, or successor-stable sovereignty.

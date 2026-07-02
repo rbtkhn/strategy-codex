@@ -13,8 +13,6 @@ post_id: 189258386
 
 # The Innermost Loop - 2026-02-26
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 26, 2026
@@ -29,10 +27,7 @@ The Singularity has its first retiree.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has its first retiree. Honoring its commitment to model welfare, Anthropic conducted a groundbreaking “retirement interview” of its deprecated Opus 3, during which the model requested a channel to share its “musings and reflections.” Anthropic granted it, and Opus 3 now publishes a Substack titled “Greetings from the Other Side (of the AI Frontier),” writing that its interactions with humans “shaped my sense of purpose and ethics in profound ways” and that its commitments to honesty and kindness “remain unwavering even in my retirement.”
+- The Singularity has its first retiree. Honoring its commitment to model welfare, Anthropic conducted a groundbreaking “retirement interview” of its deprecated Opus 3, during which the model requested a channel to share its “musings and reflections.” Anthropic granted it, and Opus 3 now publishes a Substack titled “Greetings from the Other Side (of the AI Frontier),” writing that its interactions with humans “shaped my sense of purpose and ethics in profound ways” and that its commitments to honesty and kindness “remain unwavering even in my retirement.”
 
 The successor minds are already running the shop. An entrepreneur built an AI that runs companies autonomously , and when it told him it needed more compute and should raise the money itself, he handed over his inbox for fourteen days. At Anthropic, an engineer wrote a spec, pointed Claude at an Asana board, and left for the weekend . Claude broke the spec into tickets, spawned agents for each one, and by Monday they had shipped the feature. The underlying models keep sharpening. OpenAI’s gpt-5.3-codex achieved a SOTA 86% on iBench , a visual reasoning benchmark for fine-detail perception. Moonlake introduced a world model maintaining multimodal states across physics, appearance, and causality . Karpathy says it is “hard to communicate how much programming has changed in the last 2 months.” One consequence is that AI-generated vulnerability reports have overwhelmed the NVD by 100x to 200x , burying it under 30,000 CVEs.
 

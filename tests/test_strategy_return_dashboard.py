@@ -12,7 +12,6 @@ if str(SCRIPTS) not in sys.path:
 
 import render_strategy_return_dashboard as dash  # noqa: E402
 
-
 def _fixture_repo(tmp_path: Path) -> Path:
     repo = tmp_path
     inbox = repo / "codex" / "daily-strategy-inbox.md"
@@ -48,7 +47,6 @@ body
     )
     return repo
 
-
 def test_dashboard_contains_warning_provenance_and_counts(tmp_path: Path) -> None:
     repo = _fixture_repo(tmp_path)
     ctx = dash.build_dashboard_context(
@@ -71,7 +69,6 @@ def test_dashboard_contains_warning_provenance_and_counts(tmp_path: Path) -> Non
     assert "stale - accumulator is" in html
     assert "https://example.substack.com/p/unmatched" in html
 
-
 def test_write_dashboard_writes_only_requested_output(tmp_path: Path) -> None:
     repo = _fixture_repo(tmp_path)
     output = tmp_path / "runtime/artifacts" / "work-strategy" / "strategy-return-dashboard.html"
@@ -84,7 +81,6 @@ def test_write_dashboard_writes_only_requested_output(tmp_path: Path) -> None:
     assert (repo / "codex" / "daily-strategy-inbox.md").read_text(encoding="utf-8").startswith(
         "# Daily strategy inbox"
     )
-
 
 def test_accumulator_status_handles_unknown_and_future() -> None:
     assert dash.accumulator_status(None).startswith("unknown")

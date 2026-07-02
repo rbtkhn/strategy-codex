@@ -52,7 +52,6 @@ STEPS: list[tuple[str, list[str]]] = [
     ),
 ]
 
-
 def run_step(name: str, cmd: list[str], *, stop_on_fail: bool = True) -> int:
     print(f"\n==> {name}")
     proc = subprocess.run(cmd, cwd=REPO_ROOT)
@@ -60,7 +59,6 @@ def run_step(name: str, cmd: list[str], *, stop_on_fail: bool = True) -> int:
         print(f"[fail] {name} exited {proc.returncode}", file=sys.stderr)
         return proc.returncode
     return proc.returncode
-
 
 def main() -> int:
     import argparse
@@ -87,7 +85,6 @@ def main() -> int:
             return code
     print("\n[ok] prediction pipeline complete")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

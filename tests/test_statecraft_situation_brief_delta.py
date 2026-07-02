@@ -32,22 +32,18 @@ SAMPLE_MATRIX_DAY2 = """
 | **J16-K1** | Live strikes Lebanon | Adjacent | en | **Supported** | cite |
 """
 
-
 def test_parse_iso_date() -> None:
     assert parse_iso_date("2026-06-16").isoformat() == "2026-06-16"
-
 
 def test_grade_from_row_picks_strongest_verdict() -> None:
     row = ["**J14-15**", "claim", "lane", "en", "**Contradicted / absent**", "cite"]
     assert grade_from_row(row) == "Contradicted"
-
 
 def test_parse_fork_grades_extracts_j_ids() -> None:
     grades = parse_fork_grades(SAMPLE_MATRIX, "fixture.md")
     assert set(grades) == {"J14-1", "J14-2", "J14-3"}
     assert grades["J14-1"].grade == "Contradicted"
     assert grades["J14-2"].grade == "Supported"
-
 
 def test_build_delta_block_reports_changes() -> None:
     prior = parse_fork_grades(SAMPLE_MATRIX, "prior.md")
@@ -64,7 +60,6 @@ def test_build_delta_block_reports_changes() -> None:
     assert "**J14-1** | Contradicted | Supported | changed" in block
     assert "**J16-K1**" in block
     assert "Governed brief with source receipts" in block
-
 
 def test_live_repo_matrix_pair() -> None:
     daily_dir = REPO_ROOT / "statecraft" / "daily"

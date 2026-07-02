@@ -4,13 +4,11 @@ import gzip
 
 import pytest
 
-
 def _archive_body(n: int) -> str:
     blocks = []
     for i in range(n):
         blocks.append(f"**[2024-01-{i+1:02d} 12:00:00]** Entry {i}\n> line\n")
     return "# SELF-ARCHIVE\n\n---\n\n" + "\n\n".join(blocks)
-
 
 def _evidence_with_viii(n: int) -> str:
     blocks = []
@@ -23,7 +21,6 @@ def _evidence_with_viii(n: int) -> str:
         + "\n"
     )
     return "# EVIDENCE\n\n## I. X\n\n```yaml\nx: 1\n```\n\n" + gated + "\nEND OF FILE\n"
-
 
 def test_rotate_embedded_viii_compress_writes_gz(tmp_path, monkeypatch):
     import rotate_telegram_archive as ra
@@ -49,7 +46,6 @@ def test_rotate_embedded_viii_compress_writes_gz(tmp_path, monkeypatch):
     with gzip.open(gz, "rt", encoding="utf-8") as f:
         text = f.read()
     assert "Entry 0" in text or "2024-01-01" in text
-
 
 def test_rotate_legacy_standalone_plain_md(tmp_path, monkeypatch):
     import rotate_telegram_archive as ra

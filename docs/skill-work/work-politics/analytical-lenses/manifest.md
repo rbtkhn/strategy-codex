@@ -1,4 +1,4 @@
-# Analytical lenses manifest — work-politics (WORK only)
+# Analytical lenses manifest — work-politics (non-authoritative)
 
 **Status:** Operator methodology. **Not** part of SELF, removed operator-books symlink identity, or Voice unless the companion explicitly approves merges through RECURSION-GATE.
 

@@ -1,7 +1,6 @@
 # Strategy expert — Sergey Karaganov (`karaganov`)
 <!-- word_count: 1380 -->
 
-
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
 **Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`karaganov`** lane (reaction surfaces only until thread row promoted).

@@ -1,6 +1,5 @@
 # Hoh vs Macgregor comparison note
 
-
 Purpose: compare Hoh and Macgregor on the same Iran / oil / legitimacy terrain without collapsing anti-war political critique and force-feasibility critique into one severity register.
 
 ## Maturity note

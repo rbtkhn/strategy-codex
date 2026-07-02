@@ -1,7 +1,6 @@
 # strategy-state-russia — `chapters/2026-04/days.md`
 <!-- word_count: 31 -->
 
-
 Purpose: calendar index for this month in the state-russia lane.
 
 | Date | Consolidated daily | Notes |

@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 ## Tucker Carlson monologue
@@ -168,34 +167,26 @@ There's no question about that. It sold lots of copies then, although the lobby 
 **John Mearsheimer:** actually yeah he wrote a book Abe Foxman that was a direct attack on our book before our book was published and he didn't have the page proofs or anything.
 Uh he was basing his attack on what we had said in the article written the year before and it was scheduled to come out on exactly the same day that our book came out.
 
-
 **John Mearsheimer:** Yes. U and then of course the lobby went to enormous lengths uh to make sure that we got as little attention as possible.
 They ended up getting us cancelled at Google. We were supposed to give a big talk at Google and the lobby moved in and got that talk cancelled. Uh we were supposed to give a big talk at the Chicago Council on Foreign Relations which the lobby then got cancelled 
 
 **John Mearsheimer:** because the lobby doesn't exist. It's just a conspiracy theory and if you disagree the lobby will cancel you.
 
-
 **John Mearsheimer:** Yeah. Yeah.
-
 
 **John Mearsheimer:** Well, I'm I'm just grateful that you lived long enough to see yourself vindicated, completely vindicated, and not just on that question, but on many others. So, so now this has got to be, as someone who assesses the world for a living, one of the most interesting moments of your life, because the world is I don't Well, where are we? Let's just start there. You you look out 
 
 **John Mearsheimer:** and what do you see?
 
-
 **John Mearsheimer:** Nothing but trouble everywhere. And uh that makes it incredibly interesting.
 and uh uh and depressing at the same time. I do wake up sometimes in the morning depressed at the thought that I'm now going to have to go read all the newspapers and all the websites and get the bad news. But it is a fascinating world and trying to make sense of it uh is a very interesting business. So, you know, the idea of coming here to talk to you is very enticing because we get to sort of feel feel our way around and try and figure out what's going on.
-
 
 **John Mearsheimer:** It's just incredible and it I I don't know the answer. That's why I'm grateful you're here. But I I sense that this is a this is a change that history will record as profound. Like this is not just a bump in the road. This is a this is a detour. I think with regard to both the Ukraine war uh and the war against Iran, profound change is going to result from both. I think that Putin is going to win in Ukraine. Uh Ukraine is going to end up as a dysfunctional rump state.
 I think in the process of this war ra NATO has been wrecked. Uh the US trans the US European transatlantic relationship has been badly damaged. Uh and if you go to the Middle East, I think uh the Iranians are going to come out of this war in much better shape than they went into the war on February 28th. And uh I think that America's position uh in the Middle East and certainly Israel's position is going to be dam badly damaged as a result of this war. That those are my instincts as well along the way to that outcome which I mean nothing's guaranteed, but I strongly agree with your assessment. I think that's very likely to happen in both places, but all kinds of other things could happen. So as bad things, very destructive things. So, as you look at both conflicts, which gives you more concern?
 
-
 **John Mearsheimer:** I find it hard to answer that question because I'm so concerned about both conflicts.
 
-
 **John Mearsheimer:** Let's start with Ukraine.
-
 
 **John Mearsheimer:** Yeah. And and I would just say as a general point, I think that the worst outcome in both cases, and I can expound on each is the possibility of nuclear weapons being used. Um, 
 
@@ -211,9 +202,7 @@ And the Russians are having a devil of a time stopping that. And the end result 
 nuclear weapons will be used uh in the Ukraine war. There's been very little coverage in the American press of Ukrainian European American attacks on the Russian homeland.
 What to what extent have they caused damage and casualties and their serious attacks? Well, they've caused serious damage to the energy infrastructure and they occasionally kill a good number of Russian citizens. Uh this is nothing like the bombing attacks in World War II or even the American bombing campaign in Vietnam. Uh it's not on that scale. But from a Russian perspective, any serious attacks on Mother Russia uh are unacceptable. And uh the problem that Putin faces is that there has long been widespread criticism inside Russia that he has not waged the war against Ukraine vigorously enough. The fact is that Putin and the Russian military of course have gone to great lengths to minimize the number of Ukrainian civilians who have been killed. It's very important to understand, you'd never know this from reading the mainstream media in the West.
 
-
 **John Mearsheimer:** No, because he's Hitler.
-
 
 **John Mearsheimer:** Yes. that the Russians have actually not waged a serious punishment campaign against the civilian population uh inside of Ukraine with the possible exception of destroying the electrical grid. Uh but even there the end result was that not many civilians were killed.
 But what's happening here is that pressure is beginning to build on Putin to up the ante to escalate because of these attacks on Russian infrastructure and on the Russian civilian population and the pressure is really building and you see this in the writings of Sergey Karaganov who is the principal proponent of the view that I just described.
@@ -224,7 +213,6 @@ Well, there's a belief that this will bring Putin to the negotiating table and t
 
 **John Mearsheimer:** beatings will continue until morale improves kind of thing.
 
-
 **John Mearsheimer:** Yeah. Yeah. And uh so so that's the idea. And the argument that people like Caraganov make is that the only way that we can reverse this situation is make it clear to the West that there is a red line here. They don't understand that, but we're going to make it clear. And the way we're going to do it is we're going to attack NATO countries and we're going to dare them to counterattack. And the bet is that the uh Europeans and the Americans will back off and tell the Ukrainians no more of those attacks. We won't assist you. we won't provide you with the drones and the intelligence to attack mother Russia anymore. Uh and that this will work. And the Caragana view is if it doesn't work, what we'll then do is use nuclear weapons. And that will surely send a clear message that there is a red line here.
 I understand the reasoning. I disagree.
 I think that European leaders and American leaders would be thrilled if Russia bombed the Baltics, Eastern Europe, even Western Europe. And I think they'd be more thrilled if they use nuclear weapons because it would give Western leaders a justification for waging an allout direct war on Russia, which is what they want. I 
@@ -233,14 +221,11 @@ I think that European leaders and American leaders would be thrilled if Russia b
 
 **John Mearsheimer:** it does seem like though there's this pattern, and I think you see it in this current war where the West provokes Russia to action so it can cast Russia as Nazi Germany and justify aggression against Russia.
 
-
 **John Mearsheimer:** There's no question about that. But here we're talking about NATO getting involved in a war. And NATO's in no position to win a war against the Russians. Uh, number one. Number two, the last thing the United States wants, given that we're up to our eyeballs and alligators in the Middle East, plus we have to worry about containing China and East Asia, is a war uh in Ukraine against Russia. And then most important of all, once you talk about the United States and Russia actually fighting each other, the threat of nuclear escalation uh goes up greatly. And the last thing we want is a nuclear war over Ukraine because Ukraine is just not that important. It is to it is to some people in the US government. I mean, their their ancestors are from there. They they identify with it. They really care about it. Um, I mean, of course, I agree with everything you're saying, but I just then people are not thinking clearly. They really think that by killing civilians or destroying infrastructure in Russia, they can get Putin to who's under pressure from his right flank, as you just said, to say, "Okay, you're right." Well, Carrie's point is you're absolutely right that people in the West are not thinking clearly. Yes. So what we have to do is we have to focus the mind and there's no better way to focus the mind than to pop off a couple nuclear weapons in Europe.
 That will focus their mind. They will get the message. They will understand that we are then out on the slippery slope to oblivion and they will back off. But that's the only way you can get them to back off. Do do you think the people in Russia saying this mean it?
 
-
 **John Mearsheimer:** Yes.
 The thing you want to remember, and I think it's very hard for Americans in general to understand this, is that Russia views what's happening in Ukraine as an existential threat.
-
 
 **John Mearsheimer:** Yes, 
 
@@ -251,11 +236,9 @@ I Oh, I do. Um, but the administration doesn't seem to. And I'm confused by why 
 I know he meant it, shutting down, you know, bringing a peace between Russia and Ukraine immediately. I can do it in one day. He said he did seem motivated to do that.
 um he talked about it for years and then didn't do it. Why?
 
-
 **John Mearsheimer:** Well, let me just start by reminding you that in his first term when he came into office, he had two goals, two major foreign policy goals. One was to end engagement with China and move to a policy of containment. And he was very successful at that. But he also wanted to improve relations with Russia, with Putin in particular, and do everything he could to peel the Chinese and the Russians away from each other and get the Russians on our side of the ledger.
 That was his goal. But he was undermined by Russia gate. This very important to understand that. So when Trump leaves office in 2021, relations between Russia and the United States have hardly improved at all.
 Now, when he comes into office in January of 2025, at that point in time, his goal is to do in the second term with regard to Russia what he did in the first term. Okay? So he starts out on the right foot and lots of people, me included, believe he has all the right instincts and that he's in a position where he can significantly improve relations with Russia, which would certainly be in our interest and maybe even end the Ukraine war, which would be in everybody's interest, including Ukraine's interest.
-
 
 **John Mearsheimer:** But the problem that he runs into is twofold. First of all, he's hamfisted when it comes to diplomacy. He He's just not good at the art of the deal, at least at the diplomatic level. There's almost Yeah. At all. There's just no question about that at this point in time. So, he fails to shut down the war.
 And of course, he's facing huge resistance from inside the deep state.
@@ -269,35 +252,27 @@ It does seem like a kind of nihilism though to keep lobbing missiles and drones 
 
 **John Mearsheimer:** Let me make two points.
 
-
 **John Mearsheimer:**
 
 ### Segment 5 — Yes One Is If You
 
 Yes. One is if you think about the Russian bombing campaign against Ukraine.
 
-
 **John Mearsheimer:** Yes.
-
 
 **John Mearsheimer:** Although the Russians have not killed many Ukrainians, as I said before, it was not a punishment campaign. They have done a huge amount of damage to infrastructure inside of Ukraine. The Russian bombing campaign against Ukraine has been much more extensive than the Ukrainian bombing campaign against Russia. But we have seen no evidence that the Ukrainians are willing to throw their hands up and surrender.
 
-
 **John Mearsheimer:** Smart.
 
-
 **John Mearsheimer:** Therefore, why would you expect the Russians to throw their hands up and surrender? And in fact, given our previous discussion five minutes ago, what the Russians are talking about doing now in response is attacking into Eastern Europe.
-
 
 **John Mearsheimer:** It just seems like there is this misperception and you see this in a lot of other theaters and countries of the leadership of Russia. So we tell ourselves that Putin is an absolute dictator, chairman ma style dictator who can do whatever he wants, who's got total autonomy, sovereignty in his own country, that there are no competing political forces. he's not under pressure from anyone domestically. He just like wakes up and decides what to do. That's completely false. And then two, that he's like the most scary Russian nationalist who's ever lived. He hates the West. He wants to rebuild the Soviet Empire. Like that's not true either. He's pretty moderate by modern Russian standards. No, 
 
 **John Mearsheimer:** he's very moderate.
 
-
 **John Mearsheimer:** Yeah, I know. people who argue that we should get rid of him and we'll get, you know, uh, a real peace nick in his place are living in a dream world. Uh, as I said before, he's being criticized, uh, far and wide inside of Russia for not having waged the war vigorously enough.
 Uh, in fact, going back to when the war started in 2022, I've argued on a number of occasions that if I were playing his hand, uh, I would have, uh, mobilized, uh, the Russian military much more quickly than he did, and I would have played hard ball in ways that he has not played. So, he has been, uh, I don't want to say he's been a pussycat, but the idea that he's been this ruthless leader uh, on the same scale as someone like Adolf Hitler is a laughable argument. Uh but what's happened in the west is that we've created this caricature of him and we've created this Russian threat that bears no resemblance to reality. I mean you see this when people talk about uh the danger of Russia conquering Eastern Europe. In other words, a lot of people are saying, "We've got to stand up to the Russians now because they're on the verge of conquering all of Ukraine, and once they're done with Ukraine, they're going to move into Eastern Europe." And Putin's ultimate goal is to recreate the Soviet Empire. And of course, he has the wherewithal to do that. That's one set of arguments that you hear. But then you hear the argument that the Ukrainians now have the Russians on the ropes. Uh the Russians are in deep trouble. The Russian military is suffering enormous casualties. They're being pushed back to Ukrainians by the Ukrainians. These are two completely different sets of arguments that are at odds with each other. Yes. And the question is which one is true? And the argument that the Russians are on their back feet is wrong. The Russians are moving forward.
 They're steadily but slowly winning the war. But the idea that they're going to conquer all of Ukraine, not going to happen. The idea that they're going to conquer territory in Eastern Europe, not going to happen. But people in the west make that argument. This is especially true in Europe.
-
 
 **John Mearsheimer:** Uh because they want to create a Russian boogeyman so that the Ukrainians stay in the fight. We continue to support the Ukrainians and we go to great lengths to continue to wreck Russia. There are lots of people, it's important to understand this, who want to wreck Russia. They want to continue to do everything they can to wreck the Russian economy. More and more sanctions. Is that what we that's what we have to do? Uh and uh support the Ukrainians on the battlefield so that they can turn the tide uh and then support the attacks with drones and missiles against mother Russia because that will affect the civilian population way in ways that cause the population to rise up against Putin. There's lots of people who still believe this despite the fact that after four plus years uh it hasn't worked and if anything the Russians are going to win the war. I I still and after watching this all these years, I still don't fully understand the motive. Here you have one of the most beautiful countries and cultures in the world with flaws, but compared to what? I mean, Russia is a beautiful place with a beautiful culture, a sense of itself, and it's a civilization, not just a country. Why would you want to destroy it? What What drives people? I I understand why you'd be mad that Putin moved into Eastern Ukraine. Fine. But destroy Russia, like where does that come from?
 Well, the United States during the unipolar moment uh and the unipolar moment runs from about 1992 immediately after the Soviet Union collapses up until about 2017 is by definition the only great power in the world. And we don't like the idea of being challenged when we are the unipole. We think that it's our way or the highway. And you want to remember that in 2000, this is in the middle of the unipolar moment, uh, Putin takes over in Russia. And Putin over the course of the time from 2000 up to 2026 has stood up to the Americans. He gave a famous speech at Munich in 2007 where he made it very clear to the West that he was sick and tired of how the West was treating Russia. And the fact is the United States does not like anybody standing up to it, right? You have to do it our way, right? You you have to be subservient.
@@ -308,23 +283,18 @@ If you go back, let's say, to December 27, 2021, December 2021, and ramp forward
 
 **John Mearsheimer:** remember. Well, yes.
 
-
 **John Mearsheimer:** The United States makes no effort to work with the Russians to avoid a war.
 It's really quite remarkable.
 
-
 **John Mearsheimer:** Well, and not just that provokes Russia by sending Kla Harris to the Munich Security Conference and saying in public to Zelensky, we want you to join NATO on camera.
-
 
 **John Mearsheimer:** Absolutely. This is right before Yes.
 This is right before in February. That's exactly right.
-
 
 **John Mearsheimer:** And then just think about this. The war starts February 24th. Shortly thereafter, I mean a day or two later, Putin sends a message to Zelensky and says, "Let's start negotiating." They first start negotiating in Bellarus and then they go to Istanbul. These are the famous Istanbul negotiations. Okay, this is in March, early April of 2022, almost immediately after the war starts.
 And it looks like the Ukrainians and the Russians may be able to cut a deal. They did not cut the deal, but they're getting closer and closer. Things are working out very well. What happens?
 Boris Johnson, with support from the United States, of course, comes in and he tells the Ukrainians to walk away from the negotiations.
 Now, the question you want to ask yourself is why did this happen?
-
 
 **John Mearsheimer:** Yes. I I've wanted to ask him that, but he won't he won't talk to me.
 The reason it happened is that we thought that economic sanctions would bring the Russians to their knees and that the Ukrainians who we had armed and trained, we meaning the West had armed and trained between 2014 when the crisis first broke out and 2022 when the war broke out, the actual war. In that in that 8-year period, we had armed, we meaning the West, had armed and trained the Ukrainians, and they were a quite formidable fighting force, as the Russians found out over the course of 2022. We believed that the Ukrainian army on the battlefield coupled with economic sanctions would do the Russians in. And that's why we told uh Zelensky to walk away from the negotiations in Istanbul. And you want to also remember that late in the fall of that year, 2022, General Millie, who was the chairman of the Joint Chiefs of Staff, understood that the Ukrainians by that point in time had reached the high water mark. Remember, the Ukrainians had launched two successful offensives against the Russians in 2022, one in Hark, one in Hersan. And Millie said, "This is wonderful, but it's time to cut a deal now because as time goes by, the balance of power will shift against Ukraine and in favor of the Russians." Because at that point, Putin was beginning to mobilize the Russian army in a serious way. I think he called up 300,000 troops in uh September of 2022.
@@ -332,20 +302,16 @@ But anyway, what happened was that Millie was told to cease and desist from maki
 I mean, I kind of get it conceptually and I have no question that you're describing the thinking of the people who made these decisions, but I think if you just ponder like the potential consequences of their plan, so you knock Russia out of the ranks, the great powers, you displace Putin somehow.
 What happens then? This is the biggest country on Earth. It's diverse. It's got all kinds of ethnic groups that get along sort of, but like it could break apart and it's got a largest nuclear arsenal in the world. Destabilizing Russia could be really dangerous for everybody. Did that occur to them?
 
-
 **John Mearsheimer:** No. I I 
 
 **John Mearsheimer:** So, how stupid are they?
-
 
 **John Mearsheimer:** Incredibly.
 No. Look, as as I said to you before, you know, I've studied a lot of international relations over time and when you corner great powers, when you threaten their survival, you do not want to underestimate how risky the policies will be that they are willing to pursue.
 Okay?
 And I think if our policy had actually worked, if it looked like the Russians were going to be knocked out of the ranks of the great powers, they would have then used nuclear weapons.
 
-
 **John Mearsheimer:** Yes.
-
 
 **John Mearsheimer:** Or if it did, if the government collapsed, whatever that meant, and we succeeded in killing Putin, which I know we've been trying to do on and off for a long time, like what then? What if there was a civil war, ethnic breakup of Russia? Like how is that good for ever for the
 
@@ -355,61 +321,45 @@ rest of the world? It's terrible for Russia, but what about the rest of us? It's
 
 **John Mearsheimer:** is it?
 
-
 **John Mearsheimer:** Absolutely. You're you're correct. I mean, we could have easily lived with the Russians. Putin wanted to have good relations with 
 
 **John Mearsheimer:** wanted to join NATO.
 
-
 **John Mearsheimer:** Yeah. It it's the idea that Putin was missing the Soviet Union to the point that he wanted to recreate the Soviet Union and the Soviet Empire in East Europe bears no resemblance to what is in the historical record or what it is explanation of it is.
-
 
 **John Mearsheimer:** It's it just crazy. And and by the way, just to go back to Trump, I think Trump's instincts on both China and Russia, starting with his first term and even his second term, in the beginning, his instincts were correct in both cases. It was time to abandon engagement, contain China. And with regard to Russia, it was time to have good relations with Russia, to end the war in Ukraine. This is in his second term because the war didn't take place in his first term. So I think Trump's instincts were good. But again, Trump's problem is that when it comes to diplomacy, uh he he has the mightest touch in reverse and uh the end result is that he's made a hash of things with the Russians.
 
-
 **John Mearsheimer:** So what's the motive of of European leaders of Macron and Star and Mertz in Western Europe and then the various Eastern European leaders? Like why are they monomomaniacally focused on Putin?
 
-
 **John Mearsheimer:** I don't know for sure. It just seems to me that they have convinced themselves uh that Putin is the second coming of Adolf Hitler. Uh you know, you make these arguments enough times you come to believe them yourselves sometimes.
-
 
 **John Mearsheimer:** Uh I I don't know what they're thinking.
 I mean, there's just no evidence to support this argument in terms of what Putin has said over time or what he's written over time. Or if you just look at the power that's built into the Russian army, this army's had a difficult time capturing the eastern 15th of uh Ukraine, the idea that it's going to conquer all of Ukraine, then roll into Eastern Europe is not a serious argument. And again, he's never said that he was interested in doing that. This is not the second coming of the Vermacht. But for some reason the European elites have convinced themselves that this is the case and it seems that they won't listen to common sense uh on this issue.
 
-
 **John Mearsheimer:** So the idea is that the largest country in the world by landmass with the most resources on earth wants to capture overcrowded collapsing welfare states and like do what with them? It's it's it's like so nuts. Like what would the motive be? Why would the Russians want any of these kind maybe Poland, but even Poland? Why would they want that?
 
-
 **John Mearsheimer:** Well, let me offer an alternative view as to why they wouldn't want it. You just that you just to the one that you just described.
-
 
 **John Mearsheimer:** Uh first of all, the Russians controlled all of those countries in Eastern and Central Europe, entire cold war, 
 
 **John Mearsheimer:** and it did not work out very well, right?
 
-
 **John Mearsheimer:** And they didn't enjoy it actually.
 
-
 **John Mearsheimer:** Yeah. The most powerful political ideology in the on the planet is nationalism. Yes.
-
 
 **John Mearsheimer:** And nationalism is all about sovereignty and self-determination. And whether you're Polish, Czech, uh, Hungarian, German, you want to control your own destiny. And the last thing you want is another country like the Soviet Union or now Russia invading your country. And if you're Russia and you invade that country, what you're going to find is a significant amount of resistance. And just think about the Soviet Union. They had to put down a major insurrection in East Germany in 53. They had to invade Hungary in 56. They had to invade Czechoslovakia in ' 68. They almost had to invade Poland three separate times.
 Then they had to deal with the Albanians, the Yugoslavs, and the Romanians. Right?
 
-
 **John Mearsheimer:** Been there, done that. did not work.
-
 
 **John Mearsheimer:** So you fought in you went to West Point, you served uh as an army officer in the in the Cold War. Do you think having studied it that Russia got a lot out of its empire? Like was it worth it for them? The Soviet Empire, the the Warsaw Pack, the Eastern Block.
 Was that worth having? Great question, Bill. But let me just say I was actually an Air Force officer. I was an enlisted man in the army before I went to West Point, but then I was an Air Force officer. Yeah. Yeah. But well, you went to I went to West Point. Uh you want to remember that uh before 1947, that was when the National Security Act uh created the Air Force Academy. Uh there was no and created an independent air force that the Air Force was actually the Army Airore, right? So West Point provided officers to the Army and to the Air Force. And when I graduated from West Point in 1970, there were a set of limited conditions under which you could go into the Air Force and I qualified.
 So I was in the Air Force rather than the Army. The vast majority of my classmates went uh into the Army, but I went into the Air Force. But I had been in the Army as an enlisted man before I went to West Point. Uh so I actually, including my West Point time, spent 10 years in the military.
 
-
 **John Mearsheimer:** Wow. But to go back to your excellent question about the Soviet Union and its experience in Eastern Europe, the reason that the Soviet Union ended up in Eastern Europe is because on June 22nd, 1941, Nazi Germany launched Operation Barbar Roa for the express purpose of destroying the Soviet Union. Thankfully, the Soviets won the war. But to win the war, they had to drive across Eastern and Central Europe in to Germany. You remember it was the Red Army that went into Berlin uh in 
 
 **John Mearsheimer:** April of 45.
-
 
 **John Mearsheimer:** Exactly. And that's when Hitler, of course, committed suicide. And that war ended on May 8th, 1945.
 And the Soviets ended up, needless to say, occupying virtually all of Eastern Europe. But what happens after that is that the Cold War breaks out and you have the United States on the other side of what we came to call the Iron Curtain, called the intraGerman border, and the Soviet Union uh on the other side.
@@ -417,34 +367,25 @@ And I think that there were two reasons that the Soviets had a vested interest a
 That was one reason. But the other reason that we both stayed was the German problem. You want to remember that World War I and World War II were both all about Germany. Very important to understand that. We forgot that in the Cold War because the Soviets defeated Germany.
 Nevertheless, what happens after 1945 is that Germany is cut in half. The Soviets take one side and we take the other side. And most people don't talk about this in polite company, but we solved the German problem. We cut the country into two parts.
 
-
 **John Mearsheimer:** Exactly.
-
 
 **John Mearsheimer:** They occupied the Soviets one half, we occupied the other half. And although the Cold War was somewhat dangerous, it was altogether pretty peaceful as these things go. I mean, we did have the Cuban Missile Crisis and a handful of crises over Berlin. So, I don't want to overstate the case, but we never came close to having a serious war in the heart of Europe. And we solved the German problem. But that's why the Soviets stayed. But what eventually happens is two things and this leads to the end of the cold war and the end of the Soviet empire in Eastern Europe.
 Number one, the Soviet and the Soviet economy begins to run ground. Uh it really starts in the mid 1960s and it accelerates in the uh early 1980s and of course Gorbachov comes along and the rest is history. But it's it's fundamental flaws in the Soviet economy that eventually brings the Soviet Union down. But the second thing that happens, getting back to what we were talking about before, is that the Soviets understand that occupying Eastern Europe and Central Europe is incredibly expensive. Yes.
 Right. And the people don't want us there.
 
-
 **John Mearsheimer:** Right.
-
 
 **John Mearsheimer:** And it's time to go home. And once you go home, a good idea would be to stay out. Right.
 
-
 **John Mearsheimer:** So it wasn't a net benefit. It's not like they stripped it of its resources and got rich doing it.
-
 
 **John Mearsheimer:** Well, they did strip a lot of resources out of Germany uh early in the coal war, but afterwards, no, it was 
 
 **John Mearsheimer:** industrial resources, but I mean, they didn't they weren't there for the coal.
 
-
 **John Mearsheimer:** No, no, no, no. It was not economically a net benefit.
 
-
 **John Mearsheimer:** That's what I'm saying, right? It was not it's not a win.
-
 
 **John Mearsheimer:** Yeah. Yeah. By the way, if you just think about the collapse of the great empires, you know, we read about the great empires like the British Empire, the Belgian Empire, the French Empire, the Dutch Empire, and so forth and so on. They've all gone away. Okay? And the question you want to ask yourself is why did they all go away? Yes, 
 
@@ -456,29 +397,21 @@ These people in places like India and the Congo, you name it. Yes. And
 You can exploit these colonies and they make a lot of sense economically.
 But by the 20th century, by the time the industrial revolution is in full swing, these empires are basically an albatross around your neck. India is an albatross around Britain's neck in my opinion. And you'll notice just going to who the powerful countries are in the 20th century, Germany, the United States, and Russia/The Soviet Union. The only one that has an empire is Germany. And it's a tiny empire that it acquires in Africa in the late 1800s.
 
-
 **John Mearsheimer:** Yeah. Tiny. Tiny. Namibia.
-
 
 **John Mearsheimer:** Yeah. Yeah. Exactly. They're not a major imperial power. So the three behemoths on the planet, Soviet Union, United States, and Germany do not have empires.
 Britain, France, Belgium, they have empires. And what good are those empires?
 
-
 **John Mearsheimer:** The the economic benefits are small. So it's really the aesthetic benefits that they were after. Like they just they fall in love. They're sentimental about their empires.
-
 
 **John Mearsheimer:** Absolutely.
 
-
 **John Mearsheimer:** But they're not justified by the math.
-
 
 **John Mearsheimer:** Yeah. They're not justified by the math.
 And and then go back to the nationalism part of the story, right? You know, when you occupy these places, you run into resistance.
 
-
 **John Mearsheimer:** Yeah.
-
 
 **John Mearsheimer:** Vietnam, French experience in Vietnam, American experience in Vietnam, 
 
@@ -487,62 +420,46 @@ we're in deep trouble uh and uh we have to do something to counter the Soviets.
 I said at the time, this is dead wrong.
 This is wonderful news for us. If you're arms racing with the Soviets, if you're engaged in a security competition with the Soviets, what you want them to do is jump into a place like Afghanistan, just like they should have been happy that we went into Vietnam, right? You're jumping into a quagmire.
 
-
 **John Mearsheimer:** You said that out loud in 79. I said it out loud, but there was no
 
 ### Segment 7 — Uh Internet At The Time
 
 uh internet at the time. There was no Tucker.
 
-
 **John Mearsheimer:** So, you have a long history of countercultural pronouncements, huh?
 Well, how did people respond when you said that? Because I mean, even I remember I was 10 years old. I remember that vividly. It was It was hysteria 
 
 **John Mearsheimer:** over the invasion of Afghanistan.
 
-
 **John Mearsheimer:** Yeah. Yeah. No, no, you should be h in fact, you want to know something? Just to go to Putin. If you really want to do Putin in, you should welcome in him into the western part of Ukraine where there are all those ethnic Ukrainians.
 Exactly.
 
-
 **John Mearsheimer:** Who will put up a huge amount of resistance cause the Russians untold trouble, right?
-
 
 **John Mearsheimer:** That's completely agree. You know, I I often say the two principal obstacles to aggression today are number one, nuclear weapons and number two, nationalism.
 
-
 **John Mearsheimer:** Yes.
-
 
 **John Mearsheimer:** If you really think about it, invading other countries and trying to, you know, do social engineering is going to get you into a lot of trouble. And I know and for all the hate um much of it so welld deserved toward Israel now part of me always feels sorry for Israel because I I don't think they're brilliant at all. I don't think they're even very clever because they're ignoring the lessons that you're just describing now which don't ever change which is over hubris leads to destruction. Overreach territorial overreach always weakens you. You can hold Gaza for 65 years or whatever. It's not even not even 60 years actually. and uh the West Bank and all that stuff. But like in the end, Lebanon, Israel is kind of ensuring its own destruction by its behavior right now.
 And I feel sorry for them. They don't seem to know that.
 
-
 **John Mearsheimer:** Well, they have Let me make two points on this. The Israelis have no sense of the limits of power.
-
 
 **John Mearsheimer:** Yes, exactly.
 
-
 **John Mearsheimer:** And we have a lot of that.
 
-
 **John Mearsheimer:** We know we do.
-
 
 **John Mearsheimer:** You know, right? But the Israelis have no sense uh of the limits of military power. They they think you can just pound people into submission. And you can do that sometimes, but most of the time you can't. Second point I would make to you is if you think about the whole Zionist enterprise, you go back to 1900 and ramp forward to the present.
 It's an amazing accomplishment that small numbers of European Jews coming out of Europe uh could go to the Middle East and could carve out a state, a Jewish state in a sea of Arabs.
 
-
 **John Mearsheimer:** Yes.
-
 
 **John Mearsheimer:** Palestinians. It's it's really quite remarkable.
 
-
 **John Mearsheimer:** Reviving a dead language along the way.
 Now, the whole thing is amazing. I totally agree.
-
 
 **John Mearsheimer:** Yeah. But in uh the early years, certainly up until 1967, the Israelis have a really powerful sense of the limits of what they could accomplish and they are very careful, right? Uh they don't have the United States as a great power ally at the time. Uh there's no Israel lobby of any consequence. certainly before 1948.
 Uh, and they're in a sea of hostile neighbors. So they have to be very cautious. They have to be tactically and strategically smart.
@@ -556,9 +473,7 @@ Digging deeper. Why? Because it can get away with it. And because it believes th
 **John Mearsheimer:** I think Tucker, what we're saying here, and this gets back to our conversation about how European leaders think about Putin as Hitler and they think about this great Russian threat. And when we talk now about the Israelis that there are just a lot of people who are not thinking straight these days.
 It's really quite remarkable.
 
-
 **John Mearsheimer:** What is that? I agree with you. What is that?
-
 
 **John Mearsheimer:** I don't know. I mean it's a 
 
@@ -566,14 +481,11 @@ It's really quite remarkable.
 
 **John Mearsheimer:** No, not at all. Not at all. I mean, first of all, in in the mainstream media, uh, during the Cold War, we had a much more vibrant and open-ended debate about foreign policy than we do now. Uh, we have a big debate now, but it's sort of the alternative media platforms.
 
-
 **John Mearsheimer:** Yes.
-
 
 **John Mearsheimer:** Like your show uh, Judge Napoleon and all these other shows uh, on one side and the mainstream media on the other side. But inside the mainstream media, I it's truly amazing the extent to which people parrot this conventional wisdom and prevent voices that get heard on the alternative media from intruding into the main 
 
 **John Mearsheimer:** such a narrow band. It's not even a debate really.
-
 
 **John Mearsheimer:** Yeah. And the thing is that most people in the United States and I believe around the world for sure understand that what they're hearing from the mainstream media and what they're hearing from their leaders makes no sense. And uh this of course is why someone like Trump gets elected, right?
 Because Trump says things that are counter to the conventional wisdom.
@@ -583,7 +495,6 @@ Forget what he actually does when he's in office. He ran on a platform that ther
 It's I listen to some of the stuff and I it's not even that I disagree. It's that I'm just confused by how anyone could think that. Just like basic observations about life that no rational person would deny. Don't push your enemies too far.
 Don't corner people because you cause them to have no option but to do something crazy. G give your opponent some wiggle room. Like try to reach a nonviolent accommodation if possible.
 Don't if you love someone, don't help them destroy themselves. These are just like ob obvious like life lessons that everyone knows and yet the people who run these countries seem determined to ignore them. So like what is that?
-
 
 **John Mearsheimer:** I don't know. And they're not all dumb.
 I know some of them. They're not dumb.
@@ -595,13 +506,10 @@ Yeah. And it's the United States. I don't believe it's true in East Asia. I thin
 
 **John Mearsheimer:** Totally.
 
-
 **John Mearsheimer:** Right. They they think basically like we do, they won't say that. In the Middle East, the same thing.
-
 
 **John Mearsheimer:** Oh, sure. Sure. Sure. Uh I don't I I simply don't have a good explanation.
 But just to add to your point, we also just have a lot of evidence over the past decade or so that thinking the way the elite has been thinking does not lead to a good ending. It's it's not like we've had great successes. It's not like the Israelis have had great successes. You know what I mean?
-
 
 **John Mearsheimer:** Um I I kind of don't get it. Uh 
 
@@ -621,57 +529,43 @@ The amount of armaments moved in to that region by the rest of the world is just
 People are still using Alban, you know, Envero's weapons stockpiles to fight wars around the world. So, like when you move a lot of weapons into a region, the the tail on that is very long.
 Absolutely. And uh the Ukrainians will go to great lengths over time to get more and more weaponry. I mean, you have to understand that from Ukraine's point of view, Russia is an existential threat. You and I have paid a lot of attention in the previous conversation to the fact that from Russia's point of view, what's happening in Ukraine is an existential threat, which it certainly is. But if you're a Ukrainian leader and you see what's just happened and the Russians are closer than ever to you and they've taken territory of yours that you want back, you're going to see the Russians as an existential threat. And the Ukrainians will therefore go to great lengths to do everything they can to work with the Europeans and hopefully from their point of view with the United States to solidify their position to get armaments to protect themselves, which you can just marry to the point you were making.
 
-
 **John Mearsheimer:** No, that's right. and and and all of Eastern Europe, if you're the Romanians, the Hungarians, the Poles, I mean, they're all completely afraid of the Russians. And I get it. Take this a step further. What about nuclear weapons?
 Right?
 As we were saying before, this conflict has done enormous damage to NATO and the American military footprint in Europe is shrinking. And one could argue that we're going to have remarkably few uh troops in Europe in the foreseeable future. Yes. Okay. Who knows for sure how that will play out, but the importance of pivoting to Asia, the problems that we have in the Middle East, Europe is really number three on the list. And getting out of there will be a high priority or getting large numbers of troops out of there will be a high priority. Shifting the burden to the Europeans.
 But the problem is the Germans don't have nuclear weapons. The Poles don't have nuclear weapons. And if you believe the Russians are 10 feet tall, and of course the Poles, you know, it's in their mother's milk to believe that the Russians are 10 ft tall.
 
-
 **John Mearsheimer:** And they're excitable.
-
 
 **John Mearsheimer:** Yes. So, and and and the incentives for Poland to get nuclear weapons are very great.
 
-
 **John Mearsheimer:** Oh, for sure.
-
 
 **John Mearsheimer:** Oh, they'll get nuclear weapons, don't you think?
 
-
 **John Mearsheimer:** I don't know.
 
-
 **John Mearsheimer:** If Pakistan has them, Poland's Poland's going to get them. Poland the industrial power of Europe now. Yeah, they're going to have nuclear weapons, I would think.
-
 
 **John Mearsheimer:** And the Germans, right? They're going to have an incentive to get nuclear weapons, 
 
 **John Mearsheimer:** right?
 
-
 **John Mearsheimer:** And then the question you have to ask yourself is, if you're the Russians and you're watching the Germans, remember these are the Germans, World War I, World War II, you're watching the Germans get nuclear weapons, how do you think about that? Uh, and if you see the Poles getting nuclear weapons, how do you think about that? Right? So the potential for danger here is just not to be underestimated. I mean, we were talking before about the Sergey Caraganov scenario where the Russians use nuclear weapons in Eastern Europe because the Ukrainians are attacking mother Russia with drones and missiles.
 Here we're talking about a situation where Poland and Germany might go down the nuclear road and asking ourselves the question, what would be the Russian reaction?
 Before I ask you about what's happening in Iran, I a mystery that I I'd love to hear explained. Why is it that the very same people who pushed Donald Trump to war, regime change war against Iran are literally the same people who pushed him to continue the regime change war against Russia, the war against Putin?
 
-
 **John Mearsheimer:** Well, I think there are two reasons. Um number one is that um the influence of Israel on the American foreign policy establishment cannot be underestimated in large part because of the lobby and Israel and the lobby have a deep-seated interest in making sure that the United States is militarily involved all over the world because they want an American military uh that's at the ready if Israel gets into trouble. So whenever you talk about restraint like the Quincy Institute in Washington talks about restraint, this raises the hackles of the lobby, you notice there was this big 
 
 **John Mearsheimer:** not because America's on the verge of being invaded, but because which is not, but because Israel might need the fire department to show up in an emergency and we've got to pay for that.
-
 
 **John Mearsheimer:** Yes. You want a big fire department that uh is uh fighting wars and is honed uh to win those wars. Uh and this is in Israel's interest. Uh you want I'll show you a good piece of evidence that supports this point. Uh there's a recent article in the New York Times about Israeli intelligence uh going into overdrive and tracking the activities of particular individuals.
 And in the New York Times article, in the United States, 
 
 **John Mearsheimer:** in the United States, yes.
 
-
 **John Mearsheimer:** And in the New York Times article, it was pointed out that the two people who have attract apparently have attracted the most attention or Steve Witkoff uh because they want to know what he's up to and Elbridge KBY. And since Elbridge KBY works mainly on China issues, the Times speculated on why uh Israel would be so interested in keeping a careful eye on Elbridge Colby. And the Times actually said at the end of the piece, it's probably because he's a restrainer, right? He's interested in a restrained foreign policy. Colby does not want to be fighting wars everywhere. Uh he once told me that he was opposed to the Iraq war back in 2003. He wants to concentrate on containing China, but he's not interested in fighting in Ukraine. He's a restrainer. And of course, the Israelis do not like restrainers. They do not like the Quincy Institute, right?
 
-
 **John Mearsheimer:** So, they're allowed to just spy on American citizens, but then continue to receive our tax dollars in order to fund spying on us.
-
 
 **John Mearsheimer:** That's Well, the answer is yes to that.
 Or at least it's been yes to that in the past. But in answer to your question, the first reason here that we are uh uh that our our engagement uh in Ukraine is pushed by the same people who are pushing the Iran war is because of Israel and the Israel lobby and the influence that the lobby and Israel have and seeing the United States involved in places like Ukraine. The second reason is you have lots of Americans, Jews and non-Jews, who have roots in Ukraine and those people believe strongly that Ukraine should be a sovereign state and that the Russians are the bad guys and they believe that we should support the Ukrainians hook, line, and sinker. And the journalist Steve Kinszer has written a book on this that I believe is coming out later this year that explains this phenomenon in great detail. Stephen, his new book shows how many Americans inside of the foreign policy establishment who have roots, family roots in Eastern Europe or in Ukraine or in Russia are deeply committed to supporting Ukraine in its war against Russia, which they see as the bad guy.
@@ -682,41 +576,29 @@ Um, well, anytime you have immigration, you run into this problem. I was recentl
 
 **John Mearsheimer:** is is because of the Cuban-American community, which wields significant influence inside the United States, much like the Israel lobby.
 
-
 **John Mearsheimer:** Yeah. I mean, I' I wouldn't I've spent a lot of time I mean, I lived in Washington most of my life, spent a lot of time at the White House and in Congress. I never once lobbied for Swedish interests. It just never occurred to me though. My name is Carlson. I have blue eyes. But uh yeah, I didn't I just I felt like that would be wrong. Do you know what I mean? It's disgusting. Come here and then lobby on behalf of a foreign country, whatever that country is. It's disgusting.
-
 
 **John Mearsheimer:** I agree completely. I'm I'm against dual citizenship, of course.
 
-
 **John Mearsheimer:** Right. I think if you come to the United States, you become an American. You should have American.
-
 
 **John Mearsheimer:** You have a German last name. Have you ever lobbied on behalf of Germany?
 
-
 **John Mearsheimer:** No. I I don't consider myself German American or Irish American because I'm also partly Irish American. I consider myself American.
-
 
 **John Mearsheimer:** I do too.
 
-
 **John Mearsheimer:** Yeah. I think when you come to the United States, there's and you become a citizen, there's a social contract involved and that social contract involves becoming an American and uh becoming an American first year by definition. Uh otherwise don't come to the United States or you know get a temporary visa which is fine. But if you become an American, I believe that uh you should not be lobbying on uh the uh on the part of other countries whether it's for Cuba or China or uh or or or India or Israel.
-
 
 **John Mearsheimer:** Yeah. And I think uh it's within bounds to to say that as an American. I think I have a right to say that. And uh 
 
 **John Mearsheimer:** and I say that, by the way, as somebody who's been a big proponent of immigration over time. Uh, I'm glad they let all those Russian Jews into the United States or East European Jews into the United States. I think immigration is what made the United States great. If you go back and read about what happened in this country uh, you know, after we got our independence uh, in 1783 and certainly in the 19th and early 20th century, all the immigration uh, is what turned us into the superpower that we are today. So immigration is a good thing but it has to be done in a very careful way.
 
-
 **John Mearsheimer:** Well sex is a good thing, eating is a good thing but you know you keep them within certain boundaries so they remain good things and if you're going to have immigration particularly at scale you have to have rules and the number one rule has to be transfer your allegiance from the country of origin to the country you live in now. That's just got to be rule one and if you can't hold to that rule you can't have immigration. It seems to me, right?
-
 
 **John Mearsheimer:** I think that illegal immigration is an absolutely terrible thing. And I think it's damaged many Americans views towards immigration in general.
 
-
 **John Mearsheimer:** I agree. Me too.
-
 
 **John Mearsheimer:** Number one. And number two, uh although I'm in favor of immigration, I do think if you come to the United States, you become an American and only an American.
 You give up, you know, your German citizenship or your Russian citizenship or whatever. Uh, and I think 
@@ -727,52 +609,38 @@ You give up, you know, your German citizenship or your Russian citizenship or wh
 
 it okay if you're a leading American foreign policy thinker to volunteer as a prison camp guard in a foreign country or is that there's something kind of maybe disloyal about that?
 
-
 **John Mearsheimer:** Well, this is a particularly egregious situation.
-
 
 **John Mearsheimer:** Sir, I can't help bring that up. Here here's a guy who is fully in favor of using the American military to fight wars on Israel's behalf. But when it came for t came time for him to serve in the military, he served in the Israeli military, not the American mil camp guard.
 
-
 **John Mearsheimer:** Something deeply wrong about sick.
 
-
 **John Mearsheimer:** Yeah. And of course, he is the editor of one of the most influential magazines in the United States where he's in a position where he can control the content of that magazine in ways that support Israel. And you can rest assured that anybody who's who criticizes Israel in a meaningful way is uh not going to appear on the pages of the Atlantic.
-
 
 **John Mearsheimer:** How have you been treated in in the Atlantic?
 Okay.
 Well, there is the period before uh Jeffrey Goldberg and since Jeffrey Goldberg, I certainly have not appeared in the pages of the Atlantic since Jeffrey Goldberg, but uh beforehand you want to remember, as I think you do, that uh our lobby piece, the piece that Steve Wal and I wrote on the Israel Lobby, which appeared in 2006 in the London Review of Books, was originally supposed to appear in the Atlantic Monthly, but it did not uh because the Atlantic got cold feet uh and refused to publish it.
 
-
 **John Mearsheimer:** Uh but they did run a very nice piece on me by Bob Kaplan uh after that experience. So I can't say that I've always been treated badly by thought 
 
 **John Mearsheimer:** Kaplan was a very reasonable guy at one point actually I thought of course the the you know the the the previous editor who Michael Kelly who I have no question would have run that piece because he was brave and honest was uh killed covering the Iraq war.
-
 
 **John Mearsheimer:** Yes I remember 
 
 **John Mearsheimer:** waged on behalf of Israel. So it all kind of comes together.
 
-
 **John Mearsheimer:** But Jeff Goldberg is another one of those people who thinks he's doing good for Israel. Yeah. He he he thinks that behaving the way he does in terms of supporting Israel at every turn and suppressing criticism of Israel as best he can is in Israel's interest. I just want to make it clear. I think he's fundamentally wrong. And I think it's people like him and the Bill Amans of the world who are doing enormous damage to Israel.
-
 
 **John Mearsheimer:** Again, you're a parent. If you treated your children who whom you love as much as Jeffrey Goldberg loves Israel, you love your kids. If you treated them like he treats Israel, your kids would all be in rehab.
 Correct.
 
-
 **John Mearsheimer:** I agree.
-
 
 **John Mearsheimer:** Excuse every fault. Attack anyone who points out their shortcomings. Like you would you would wreck those kids.
 
-
 **John Mearsheimer:** Mhm.
 
-
 **John Mearsheimer:** Where does the Iran war go?
-
 
 **John Mearsheimer:** I think at this point in time where we are is that President Trump is desperate to get a settlement. He understands the economic consequences of this war going on for a few more months with the straits closed would be disastrous. He's got to get a deal. And not just simply for economic reasons, but for political reasons as well. uh the midterm elections are coming up and he runs the great danger that if the economy is tanked by November uh that both the House and the Senates will be run by uh the Democrats and he will get impeached and found to be guilty. So he wants to avoid that and of course he wants to avoid crashing the international economy for obvious reasons. So he's desperate.
 You can see it in his face. You can see it in his actions.
@@ -783,11 +651,9 @@ You saw yesterday Mark Levin who's, you know, a longtime Trump hater, then becam
 The second Trump criticized BB, Mark Levin attacks Trump.
 Can Trump realistically, do you think, fight a a battle, a rhetorical battle against Netanyahu and win given that his support now in the United States politically is only Zionists are kind of the only people who still support Trump?
 
-
 **John Mearsheimer:** Let me ask you a question. What's the alternative?
 take this to a really really crazy place, you know, where all of a sudden the war comes home. I mean, there's some attack on the homeland and all of a sudden you have to, you know, you go full post 911 where the whole country is like, you know, mobilized against Iran. I mean, that seems more likely to me. But, you know, but even there, what are you going to do? Let let's just assume that there's some incident somewhere that incentivizes us to really crush Iran.
 How do we do that? You want to understand that we cannot do it with boots on the ground.
-
 
 **John Mearsheimer:** Right. Right. That that's out. Number one. Number two, in terms of restarting the air war, been there, tried that, did not work out very well. Furthermore, we used up huge amounts of our precious weaponry. Right? That's another one of the reasons Trump doesn't want to go back to the air war, right? So, what are we going to do? Use nuclear weapons against Iran? I don't think so. Right?
 Trump has no option. That that's the point here. This is what I'm saying to you. If you think about the situation he's in, he he's been unable to coersse the Iranians. And the Iranians are feeling their oaths. They're feeling powerful, and they're not willing to compromise. and they understand that the longer this war goes on, the more leverage they have. So, they're tough to coersse and the Israelis, Trump just has to do something with them as he's crushed by these international economic considerations.
@@ -796,7 +662,6 @@ There's just all sorts of evidence of that. And if the Israelis really have an i
 They'll go after Saudi Arabia. They'll play hard ball. And that'll just make the economic situation even worse.
 So, what what can Trump do? I I think, you know, who knows for sure, but my surmise is looking at this is that Trump has really no choice but to play hard ball with Netanyahu in ways that he has never done and in ways that no American president has ever done with an Israeli prime minister.
 
-
 **John Mearsheimer:** Trump's devotion to Israel is so slavish that it's just it's just hard to imagine. It's hard to picture that. I mean, I I pray for that. I pray for sovereignty. we should have a country whose leaders make decisions based on what's best for America.
 I just can't picture that. I can't picture Trump actually threatening to defund Israel, which is what it would take. You'd have to say that we're not no more money for you if you if you keep hitting Beirut. I mean, what are you doing?
 Yeah. He would have to play hard ball in ways that you're just saying you find unimaginable and which I find in a certain sense unimaginable as well. But what you want to understand and you understood this before February 28th and you told Trump that he would be remarkably foolish to start a war against Iran. He didn't listen to you.
@@ -804,17 +669,13 @@ He didn't listen to his adviserss. He didn't listen
 
 **John Mearsheimer:** his advisers didn't tell him that.
 
-
 **John Mearsheimer:** Okay.
-
 
 **John Mearsheimer:** They're cowards. But yeah, 
 
 **John Mearsheimer:** but anyway, he started this war.
 
-
 **John Mearsheimer:** He knew. Yeah.
-
 
 **John Mearsheimer:** And he is in deep deep trouble. As is BB Netanyahu, by the way. Right. He's in deep deep trouble, too. Just like Trump is. Uh he's in a no-win situation. If he bucks Trump, he's in real trouble. And if he doesn't buck Trump, he's going to be clobbered inside Israel because his critics, the opposition, is going after him for being a pussycat, for not being willing to say no to Trump. Uh so if he doesn't say no to Trump, right, uh he'll get clobbered. Who are the Israelis who are like the most flagrant welfare case in world history? I mean, way more dependent on our government than any like welfare queen in Detroit has ever been. Like without us, they're done. Literally done.
 What world are they living in where they're like, "Well, don't take that from Trump." 
@@ -831,42 +692,31 @@ What world are they living in where they're like, "Well, don't take that from Tr
 
 for the war was over 90% in Israel was 93%. And the average Israeli thinks that they're running the world, that they have total control and that they need nobody and that if the US pulls, you know, we don't need the US actually. They're too many strings attached when in fact there are no strings attached, but they're they're just so high on their own supply that they don't see at all their vulnerabilities. They're really at peak hubris. That's this person told me.
 
-
 **John Mearsheimer:** Well, there is some of that for sure and there's good reason for them to think that they own us because they have owned us.
 
-
 **John Mearsheimer:** Yes.
-
 
 **John Mearsheimer:** Uh but I do think we are at a very special point in history here. I I think again you cannot underestimated underestimate what a colossal blunder President Trump and Prime Minister Netanyahu made on February 28th. And the chickens are coming home to roost now.
 And I believe that Netanyahu's who's had a handful of conversations with Trump fully understands the pressure that Trump is under. Right. And I believe other people in the administration are talking to the Israelis and telling them that. And it's easy for the opposition to Netanyahu or on the outside and who would like to run Netanyahu out of office so they can move into his seat uh to criticize Netanyahu. But I think even with regard to them, they will eventually get the message. Uh and if they don't, uh Trump then has two choices. he can basically cut off aid to Israel and distance ourselves, distance the United States from Israel's in in ways that was unimaginable, you know, a month ago.
 
-
 **John Mearsheimer:** Yes.
-
 
 **John Mearsheimer:** Uh or we can go off the cliff economically. That's the choice here.
 
-
 **John Mearsheimer:** But either way, we're going to emerge from this with Iran, the government of Iran, controlling the flow of commodities out of the Persian Gulf.
 
-
 **John Mearsheimer:** Yeah. I mean I mean that's crazy. That was not true on February 27th, but it's going to be true going forward. Period.
-
 
 **John Mearsheimer:** Yeah.
 First of all, we had four demands uh you know regarding uh uh Iran's missiles, support for Hezbollah, the Houthis, Hamas, um regard to their nuclear program, and with regard to regime change. Those were the four goals that we started with. uh none of them have been achieved. That's the first point. Second point is your point that they now control the straight of war moves. Right. Third point I would make to you is they're going to come out of this in better economic shape in part because they control the straight of Hormuz but also because a lot of sanctions are going to be lifted off them right and that's good news for them. So economically they're going to be in a superior position after February 28th than before February 28th. Finally, you want to remember that on February 27th, we had a basing structure in the Gulf and we had an alliance structure in the Gulf that looked quite formidable. All those bases have either been destroyed or badly damaged. And that alliance structure that we had with the six Gulf states has been wrecked in very important ways. And it's not clear that we can stay in the Gulf. So if you think about it, 
 
 **John Mearsheimer:** I told Trump this going in. We're this is going to result in us leaving the Middle East. We're going to have less influence in the Middle East by the end.
 
-
 **John Mearsheimer:** It was so obvious.
-
 
 **John Mearsheimer:** Yeah. Well, I you and I agree on that that so many of these things are so obvious, but yet so many really smart people, you know, people who went to fancy universities, have fancy degrees, worked for fancy law firms or what have you, were successful in business, you name it, uh don't see obvious things that people like us see in the foreign policy realm. I, again, getting back to your question before, I I can't explain it.
 Not to get sidetracked, but since you've seen more of it than I have, do you think the the Well, I know the answer.
 To what extent has the caliber of public policy, public intellectual declined over the past 50 years?
-
 
 **John Mearsheimer:** Oh, drastically. There's just no question about that. Uh if you uh uh think about the discourse, right?
 Uh, we live in a world uh 
@@ -875,33 +725,25 @@ Uh, we live in a world uh
 I've just been informed by our great military that last night the Iranians shot down one of our highly sophisticated Apache helicopters while patrolling the street of Hormuz. There were two pilots involved. Both are safe and uninjured. Nevertheless, the United States must of necessity respond to this attack.
 I'm sure that he's going to respond and I would bet a lot of money that the Iranians will respond. The Iranians have made it clear that every time either Israel or the United States or a country like the UAE attacks Iran, uh Iran will not just simply retaliate in kind, but it will retaliate more forcefully than the attacker uh did when it hit Iran to start with. As a graduate of West Point and a former Air Force officer, what is your assessment of the US military's capabilities, you know, 4 months into this war with Iran?
 
-
 **John Mearsheimer:** Well, the United States military is an incredibly formidable fighting force, but uh that doesn't mean that it can uh win a war against Iran. We certainly can't decisively defeat Iran. And in terms of going up the escalation ladder, which is what we're talking about here, uh the United States cannot trump Iran as we go up the escalation ladder. Uh Iran has a huge inventory of missiles and drones. It operates in a target-rich environment. And if we go after targets inside of Iran, you can rest assured that the Iranians will find targets to go after uh inside of uh you know, American controlled areas. Uh and we don't end up coming out on top. I mean, let's watch what happens with President Trump. Is this going to improve our situation? No, not at all.
 I don't understand how four years into the Ukraine war, the United States could be this far behind in drone technology and why we'd have all these aircraft carriers under construction when it's obvious that aircraft carriers cannot be the main means by which we project force in the world. It just doesn't I mean we can't even use them in this conflict meaningfully. So like why is it seem impossible for our military to respond to technological changes in a quick way?
 
-
 **John Mearsheimer:** Uh I think you want to remember that the Iran war I me that the Ukraine war started in 2022 and really for the first two years it was not clear that drones mattered too much. So that takes you up to let's say 2024.
-
 
 **John Mearsheimer:** Fair. Uh and I remember I argued that the key weapon on the battlefield was artillery. Uh it was the king of battle and what really mattered was in Ukraine this is uh was the balance of artillery on the two sides and I paid hardly any attention to drones. Uh if I were writing about the balance of power uh between Ukraine and Russia, now artillery would get uh second place on the list of important weapons. And I think drones would be the most important weapon uh affecting events on the battlefield. And so that's 2024. Here we are in 2026. So it's only recently that we've become aware uh that drones matter as much as they do. And I would imagine that the US military is now scrambling like crazy uh to deal with the drone issue.
 
-
 **John Mearsheimer:** You would think so.
-
 
 **John Mearsheimer:** Yeah. So I I I think that it's it's explainable uh in rational legal terms why we did not pay that much attention uh to drones up until about 2024. But I think we are now paying attention as is everybody else because we understand uh you know that this really matters.
 How do you think this conflict is resolved and how quickly?
-
 
 **John Mearsheimer:** I think that basically you'll end up with something like a frozen conflict.
 Um I think that uh you want to understand what President Trump is trying to do here is he's trying to get a ceasefire, right? And the idea is that if you can get a ceasefire for 30 or 60 days, the number changes that after you get this ceasefire in place, you can then move to negotiations on things like the nuclear issue, reparations, uh the future of the overall package of sanctions and so forth and so on. You want to understand here that we're not talking about settling the nuclear issue in these initial negotiations. The initial negotiations that are going on now are designed to set up a real ceasefire. In other words, we want to stop the shooting completely. And this includes in Lebanon, right? Stop the shooting completely. We want to open the straight and the American blockade and the Iranian blockade. Open the straight.
 The Iranians want $24 billion in frozen assets given back to them.
 
-
 **John Mearsheimer:** Their money, 
 
 **John Mearsheimer:** their money. That's three. That's number three. And number four is the Iranians want sanctions taken off their sale of their oil on global markets. Okay, so those are the four things that have to happen to get a real ceasefire. But you notice in those four elements, you see no evidence of the nuclear issue or the question of overall sanctions or reparations or control of the strait moving forward.
-
 
 **John Mearsheimer:** All these issues will be settled uh in the second round. Now, my view is that you're probably going to get a real ceasefire at some point because that will open the straits and opening the straits matters immensely to President Trump because of what the consequences are for the international economy.
 Now, when it comes to violating that ceasefire, the country that will violate it is Israel.
@@ -909,15 +751,12 @@ But if Israel violates the ceasefire and the Iranians react by shutting down the
 
 **John Mearsheimer:** The one he ran against and hated.
 
-
 **John Mearsheimer:** Yeah. The And by the way, the one he walked away from in 2018. And he now says, you know, when people say, "Why don't you have a nuclear deal now?" He says, "You have to understand it takes many years to negotiate a nuclear deal." Of course, he's correct. But what you want to ask yourself is what does that 
 
 **John Mearsheimer:** Yeah. Yeah. Exactly. So, and by the way, this is a nightmare for the Israelis. I mean, if you want to think about what this war means to the Israelis, right? They would have they were so much better off with the JCPOA, they were so much better off with the deal that they would have gotten on February 27th. Now, they're in a situation where I don't think they're going to get a nuclear deal. I may be wrong. I don't think they're going to get a nuclear deal. And the Iranians, as we both know, have a lot of highlyenriched uranium, up to 60% they can easily turn into weaponsgrade material and build the bomb. And the Israelis have just demonstrated that they don't have the capability. And we have just demonstrated that we don't have the capability to go in there and get that weaponsgrade material and shut down their nuclear enrichment capability forever. So, it is possible that the Iranians may get a bomb.
 
-
 **John Mearsheimer:** Well, they're certainly going to get a more robust economy, and they certainly have cemented their place as like a a legit regional power, which they sort of weren't fully before. I also think this changes their relationship with the GCC.
 I think some of the Gulf states at least were kind of shocked by the unwillingness or inability of the United States to protect them from nuclear from Iranian attacks. actually act as a magnet for Iranian attacks.
-
 
 **John Mearsheimer:** Totally.
 
@@ -925,29 +764,23 @@ I think some of the Gulf states at least were kind of shocked by the unwillingne
 
 And the whole deal was like we'll send trillions to the United States in foreign direct investment, but like you got to protect us.
 
-
 **John Mearsheimer:** Yeah.
-
 
 **John Mearsheimer:** We'll align with Israel. We'll sign the Abraham Accords. We we'll do whatever you want, but you got to protect us. And we didn't. And so you can imagine a world where some of those six countries in anyway become closer to Iran like in 20 years than they were before.
 But certainly the world sees Iran as like a real country now and they control the aperture at the end of the Persian Gulf. So like how are they not way more powerful than they have been in our lifetimes?
-
 
 **John Mearsheimer:** Yeah. Well, as you know, we like to portray other countries as irrational and crazy. Second coming of Adolf Hitler 
 
 **John Mearsheimer:** completely.
 
-
 **John Mearsheimer:** Uh and some crazy theocracy where they throw gays off buildings or something.
 But the truth is if you look at Iran today and you look at the United States and Israel today, which of those three countries looks like the responsible stakeholder in the international system?
-
 
 **John Mearsheimer:** Yeah. Of those three countries, which you know, which seems the least unreasonable? Which this country seems like it has more blasphemy laws than Iran sometimes? I mean, it's crazy the number of things you can't say in the United States because you can't certain words are literally verboten. Certain interpretations of history are crimes.
 Those aren't blasphemy laws. Yes, they are. That's I mean, that's just true.
 But there's much truth in that. But the point is, if you're another country on the planet and you're looking at those three countries, Israel, the most hated country in the world by the way, according to recent polls, and the United States, which is not far from the bottom, 
 
 **John Mearsheimer:** and Iran, which country, right, looks like it is the most uh responsible in terms of its foreign policy, right? And it's the Iranians, right? And uh it's the Americans and the Israelis who both basically look like they're rogue states uh just running around the world uh you know invading countries uh causing genocide and so forth and so on. Uh the damage that has been done to Israel's reputation is just off the charts. It's very hard for me to believe how much damage Israel has done to itself with help from the lobby as I've emphasized in our conversation here. uh but also the United States, the damage that we've done to ourselves, right? And a lot of people will say this is due to Trump. Uh Trump has contributed to this for sure, but look at the Biden administration. Uh it was the Biden administration that supported the genocide in Gaza from the get-go. Uh it was the Biden administration that's principally responsible for what's happened in Ukraine. The Biden administration could have prevented the war in Ukraine and in fact it it wanted it. Exactly. Uh so the Biden administration, one could argue, is almost as bad, if not worse, than the Trump administration.
-
 
 **John Mearsheimer:** May I ask you, so over the past six years, there have been a bunch of different moments where the United States has been accused of using negotiations as a ruse in order to lure its opponents into vulnerability and then assassinate them.
 And I've been hesitant to believe that that could be true because I'm American and I love this country and that's so dishonorable that you would never want to live in a country that would do something like that. That that's truly out of bounds. Starting with the killing, the assassination of General Solommani about 6 years ago in Iraq. He flew in commercial for negotiations. He was killed, which was shocking to me, but everyone else loved it. And then a bunch of times in the past several months, the the bombing of Doha by the Israelis on September 9th of last year.
@@ -957,33 +790,24 @@ Well, there's no question that our closest ally in the world, who we support at 
 
 **John Mearsheimer:** right?
 
-
 **John Mearsheimer:** Uh leadersh in organizations all over the Middle East. And there's no question about that. And there's also no question, as the Sulmani case makes clear, that we've uh moved in that same direction. We're not as bad as them, although we do support what they do. We never criticize them, but we are deeply involved.
-
 
 **John Mearsheimer:** But to pretend that you want to have a negotiation with someone, get them to drop their guard, and then kill them, that's like something Western countries have never done. That's totally out of That's what we used to criticize the American Indians for doing, right? Or the Japanese or some other primitive Eastern culture, right? We we don't do that.
 
-
 **John Mearsheimer:** Well, if you if you remember, we attacked uh Iran uh last June. This is the 12-day war, June 13th to June 25th.
-
 
 **John Mearsheimer:** Uh and that attack, which was initiated by the Israelis, came out of the blue.
 And it's when the Iranians were in the middle of negotiations with 
 
 **John Mearsheimer:** Oh, I remember.
 
-
 **John Mearsheimer:** Yeah.
-
 
 **John Mearsheimer:** But I remember thinking this can't be really happening. We couldn't have known. We would never sign off on that.
 
-
 **John Mearsheimer:** That's the level we've sunk to. I mean, there's just no getting around this. And you see this, I think, with the General Sulammani case. I think that was a colossal mistake on our part, but this is where we're at. And by the way, you know, I think this whole business of assassination is very important because I think it has a blowback effect into the United States. I don't think you want to be sending a signal to people in the United States. Certainly, President Trump should not want to be doing this given that he was the victim of an assassination attempt.
 
-
 **John Mearsheimer:** Should not be sending the message that assassination is a legitimate way of doing business.
-
 
 **John Mearsheimer:** Yes, I agree. just just don't want to do this. It just it it it's not only morally wrong, it just doesn't make any sense for how we conduct politics inside the United States uh or or around the world. Uh assassination should just be for for very exceptional circumstances.
 If you could have assassinated Adolf Hitler, of course, you would have done that. But these are, you know, the extreme cases. Otherwise, uh, we should be out of the business of assassination and actually condemning it when it happens.
@@ -991,17 +815,13 @@ Last question. Do you ever get calls from people who say, "20 years ago, I attac
 
 **John Mearsheimer:** Yes.
 
-
 **John Mearsheimer:** Really?
 
-
 **John Mearsheimer:** Yes. Well, I don't I don't get I don't get phone calls because we don't do phone calls anymore, but Do you ever get texts?
-
 
 **John Mearsheimer:** I get text messages and I get lots of emails uh because my email is uh available. So, lots of people send me uh very nice emails. Uh and a good number of those people uh say that they once thought that I was out to lunch, that I was uh all wrong. And uh 
 
 **John Mearsheimer:** really they admit it.
-
 
 **John Mearsheimer:** Oh, yeah. Yeah. Yeah. It's only in the elite that people never admit they're wrong and never change their views. I I think in the broader public, and by the way, lots of people write to me who disagree with me uh on different issues, but agree with me on other issues. I actually find that my discourse um with the greater public is um quite varigated. There are some people who agree completely with me on uh the Middle East and on Israel in particular and agree with me completely on Ukraine who are deeply offended by my views on China because I believe that we should contain China. Right? And uh there are other people who write who like my views on the Middle East and on Israel but dislike my views on Ukraine. So you know when you engage the public and when I talk about the public here I engage with people all over the planet. I get huge numbers of emails from the global south uh from Europe from Russia. But when you engage with people what you discover is that no group of people have the same views on every issue. That's right. That people tend to disagree. And I actually think that's a wonderful thing. And this gets back to our whole discussion of the media, the mainstream media and the fact that we have uh so few views that challenge the conventional wisdom represented uh in the mainstream media.
 This is not a healthy uh phenomenon.
@@ -1013,29 +833,21 @@ If they listen to Tucker Carlson talk about issue X, uh, and they're trying to f
 
 **John Mearsheimer:** I think now is like I said this at the outset and I really believe it though I don't fully understand it. I think this is like a pivot point in history and it it's important to understand at least some of what's going on. I think it's impossible to understand all of it and how it interconnects and and what it will mean down the road. But I don't think that we should just see these as like isolated bubbling up of turmoil in this or that region. Like I think the whole world is changing and it's important to try to know what is happening.
 
-
 **John Mearsheimer:** I would say Tucker in the best of times the world is incredibly complicated.
 
-
 **John Mearsheimer:** Yes.
-
 
 **John Mearsheimer:** Right. And I sometimes like to say we live in a world of radical uncertainty.
 Yes. Right. That's in the best of times.
 Today, oh my god, it's so hard to figure out what's going on. Right. We're all in a very important way kind of flying blind. And what we're trying to do is make sense of the world. And what we try to do in exchanges like this is go further down that road. and both of us trying to refine our thinking about these important issues and inform lots of people in the process so that everybody is less blind moving forward.
 
-
 **John Mearsheimer:** Yeah. And really the only sin from my perspective is lying. And anyone who's trying his hardest to tell the truth, right or wrong, is an ally of mine.
 That's how I feel about it.
 
-
 **John Mearsheimer:** Amen.
-
 
 **John Mearsheimer:** Amen. John Mor Sharper, professor, thank you very much.
 
-
 **John Mearsheimer:** Thank you for having me. Pleasure. Such a joy every time.
-
 
 **John Mearsheimer:** Thank you.

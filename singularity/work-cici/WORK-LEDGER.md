@@ -1,6 +1,6 @@
 ﻿# WORK-LEDGER â€” work-cici
 
-**Status:** WORK only â€” optional **judgment / compounding** layer for the advisor module.  
+**Status:** non-authoritative â€” optional **judgment / compounding** layer for the advisor module.  
 **Scaffold source:** [work-template/WORK-LEDGER.md](../work-template/WORK-LEDGER.md).  
 **Canonical daily surface:** [SYNC-DAILY.md](SYNC-DAILY.md); navigation hub [INDEX.md](INDEX.md).
 

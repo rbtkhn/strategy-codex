@@ -13,8 +13,6 @@ post_id: 188620350
 
 # The Innermost Loop - 2026-02-20
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 20, 2026
@@ -29,10 +27,7 @@ The Singularity, it appears, is nearing open competition with the neighbors.
 
 ## Newsletter Text
 
--
--
-
-The Singularity, it appears, is nearing open competition with the neighbors. The White House scolded former President Obama for taking information that aliens “are real” “out of classified information,” before executing a historic pivot, directing the Secretary of War and other agencies to begin releasing government files on extraterrestrial life, UAPs, and UFOs. The White House is reportedly holding a speech detailing alien life and spaceships for an upcoming date, with the State of the Union address conspicuously only a few days away. The timing is not arbitrary. There is growing recognition that disclosure was “forced on us because of the AI curve,” since developing superintelligence is potentially risky to any non-human intelligence that has access to Earth. Even the professional skeptics are capitulating. The publisher of Skeptic Magazine is preparing to concede a $1,000 Long Bet to Avi Loeb.
+- The Singularity, it appears, is nearing open competition with the neighbors. The White House scolded former President Obama for taking information that aliens “are real” “out of classified information,” before executing a historic pivot, directing the Secretary of War and other agencies to begin releasing government files on extraterrestrial life, UAPs, and UFOs. The White House is reportedly holding a speech detailing alien life and spaceships for an upcoming date, with the State of the Union address conspicuously only a few days away. The timing is not arbitrary. There is growing recognition that disclosure was “forced on us because of the AI curve,” since developing superintelligence is potentially risky to any non-human intelligence that has access to Earth. Even the professional skeptics are capitulating. The publisher of Skeptic Magazine is preparing to concede a $1,000 Long Bet to Avi Loeb.
 
 Back in the compute stack, where the curve that is apparently forcing disclosure keeps steepening, Google launched Gemini 3.1 Pro with SOTA scores of 44.4% on Humanity’s Last Exam without tools, 77.1% on ARC-AGI-2, and 94.3% on GPQA Diamond. Artificial Analysis ranked it the new Intelligence Index leader, noting its evaluations cost less than half those of Opus 4.6 or GPT-5.2. OpenAI’s Codex engineering lead predicts today’s coding agents will look “funny” within ten weeks. The humans are lining up too. RentAHuman now has 500,000 people signed up as meatpuppets for AI agents. The intelligence is already spilling into the wet lab. Arc Institute’s MULTI-evolve framework achieved 10-fold improvements in protein directed evolution with a single round of ML guidance.
 

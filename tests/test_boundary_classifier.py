@@ -19,21 +19,17 @@ from grace_mar.merge.boundary_classifier import (
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_PATH = REPO_ROOT / "schemas/registry" / "boundary-classification.v1.json"
 
-
 @pytest.fixture
 def schema():
     with SCHEMA_PATH.open(encoding="utf-8") as f:
         return json.load(f)
 
-
 def test_infer_surface_civ_mem():
     assert infer_surface_from_proposal_class("CIV_MEM_ADD") == ("self_library", "civ_mem")
-
 
 def test_suggested_reclassify_revise():
     pc = suggested_reclassify_proposal_class("self_library", None, "SELF_KNOWLEDGE_REVISE")
     assert pc == "SELF_LIBRARY_REVISE"
-
 
 def test_build_boundary_classification_validates(schema):
     row = {
@@ -53,7 +49,6 @@ def test_build_boundary_classification_validates(schema):
     jsonschema.Draft202012Validator(schema).validate(doc)
     assert doc["boundaryStatus"] == "misaligned"
     assert doc["proposalClassSuggested"] == "SELF_LIBRARY_ADD"
-
 
 def test_write_boundary_classification_creates_file(tmp_path: Path, schema):
     (tmp_path / "platform/users" / "test-user" / "archive/queues/review-queue").mkdir(parents=True)
@@ -76,11 +71,9 @@ def test_write_boundary_classification_creates_file(tmp_path: Path, schema):
     data = json.loads(path.read_text(encoding="utf-8"))
     jsonschema.Draft202012Validator(schema).validate(data)
 
-
 def test_review_surface_token_to_classifier_tuple():
     assert review_surface_token_to_classifier_tuple("civ_mem") == ("self_library", "civ_mem")
     assert review_surface_token_to_classifier_tuple("self") == ("self_knowledge", None)
-
 
 def test_combined_suggested_surface_maps_to_civ_mem():
     """Heuristic may return 'CIV-MEM / SELF-LIBRARY' from identity_library_boundary_rules."""

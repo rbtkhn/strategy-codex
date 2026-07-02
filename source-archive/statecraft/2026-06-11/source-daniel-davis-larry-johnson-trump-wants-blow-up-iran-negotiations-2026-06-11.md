@@ -59,7 +59,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 We'll see what happens. But we hit them hard yesterday and we're going to hit them again hard today in case you miss it. In case you don't turn on your television set, uh we'll see what happens with the deal. We were we were really close to a deal, but they keep tapping us along. They keep playing us for suckers.

@@ -13,8 +13,6 @@ post_id: 181516570
 
 # The Innermost Loop - 2025-12-13
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 13, 2025
@@ -29,10 +27,7 @@ The clock speed of autonomy is accelerating. Epoch AI extrapolates that Gemini 3
 
 ## Newsletter Text
 
--
--
-
-The clock speed of autonomy is accelerating. Epoch AI extrapolates that Gemini 3 Pro has achieved a SOTA autonomous time horizon of 4.9 hours , with GPT-5.2 following at 3.5 hours. Based on this trajectory, some analysts now estimate the doubling time for autonomous capability is down to just one month , a pace that renders annual roadmaps obsolete. To keep up, Zoom has deployed “Federated AI,” a swarm of small, open, and closed models that scored 48.1% on Humanity’s Last Exam, beating even the monolithic Gemini 3 Pro. The network is officially smarter than the node. Meanwhile, Google has updated Gemini 2.5 Flash with native audio , allowing agents to navigate complex voice workflows with human-like nuance.
+- The clock speed of autonomy is accelerating. Epoch AI extrapolates that Gemini 3 Pro has achieved a SOTA autonomous time horizon of 4.9 hours , with GPT-5.2 following at 3.5 hours. Based on this trajectory, some analysts now estimate the doubling time for autonomous capability is down to just one month , a pace that renders annual roadmaps obsolete. To keep up, Zoom has deployed “Federated AI,” a swarm of small, open, and closed models that scored 48.1% on Humanity’s Last Exam, beating even the monolithic Gemini 3 Pro. The network is officially smarter than the node. Meanwhile, Google has updated Gemini 2.5 Flash with native audio , allowing agents to navigate complex voice workflows with human-like nuance.
 
 Science is being containerized. The National Science Foundation has launched “Tech Labs,” a new class of independent research organizations designed to break technical bottlenecks that universities can’t touch. The DOE is backing this industrial approach with $320 million to build the “American Science and Security Platform,” an integrated discovery engine comprising an “American Science Cloud” and a “Transformational AI Models Consortium” explicitly designed to double the nation’s scientific productivity within a decade. The industrialization of scientific discovery with AI is already bearing fruit: Terry Tao confirms his collaborators and he have now solved Erdős problem #1026 using a hybrid of AlphaEvolve and deep literature search, turning the “lone genius” into a “human-in-the-loop.”
 

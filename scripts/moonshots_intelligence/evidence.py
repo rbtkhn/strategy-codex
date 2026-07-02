@@ -8,14 +8,12 @@ from moonshots_intelligence import MIN_EVIDENCE_WORDS
 from moonshots_intelligence.grounding import word_count
 from moonshots_intelligence.segment import Segment
 
-
 @dataclass(frozen=True)
 class EvidenceBlock:
     evidence_id: str
     text: str
     source_location: str
     word_count: int
-
 
 def extract_evidence(segments: list[Segment]) -> list[EvidenceBlock]:
     blocks: list[EvidenceBlock] = []
@@ -35,7 +33,6 @@ def extract_evidence(segments: list[Segment]) -> list[EvidenceBlock]:
             )
         )
     return blocks
-
 
 def evidence_map(blocks: list[EvidenceBlock]) -> dict[str, EvidenceBlock]:
     return {block.evidence_id: block for block in blocks}

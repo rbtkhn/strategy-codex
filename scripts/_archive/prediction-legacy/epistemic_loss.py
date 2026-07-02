@@ -34,7 +34,6 @@ STANCE_TO_CLASS = {
     "conditional": "withhold",
 }
 
-
 def shannon_entropy(probs: list[float]) -> float:
     if not probs:
         return 0.0
@@ -51,7 +50,6 @@ def shannon_entropy(probs: list[float]) -> float:
         return 0.0
     return round(clamp01(entropy / max_entropy), 4)
 
-
 def outcome_to_label(outcome: str | None) -> float | None:
     key = str(outcome or "").casefold()
     if key == "yes":
@@ -60,15 +58,12 @@ def outcome_to_label(outcome: str | None) -> float | None:
         return 0.0
     return None
 
-
 def prediction_error(y_pred: float, y_true: float) -> float:
     return round(abs(float(y_pred) - float(y_true)), 4)
-
 
 def brier_score(y_pred: float, y_true: float) -> float:
     delta = float(y_pred) - float(y_true)
     return round(delta * delta, 4)
-
 
 def _parse_date(value: str | None) -> date | None:
     if not value:
@@ -78,10 +73,8 @@ def _parse_date(value: str | None) -> date | None:
     except ValueError:
         return None
 
-
 def _days_between(start: date, end: date) -> int:
     return max(0, (end - start).days)
-
 
 def _pooled_predicted_probs(
     engm_event: dict[str, Any] | None,
@@ -116,7 +109,6 @@ def _pooled_predicted_probs(
     uniform = 1.0 / len(OBSERVATION_CLASSES)
     return [round(uniform, 4) for _ in OBSERVATION_CLASSES]
 
-
 def _observed_stance_probs(timeline_event: dict[str, Any] | None) -> list[float]:
     latest = (timeline_event or {}).get("latest_by_speaker") or {}
     counts = {cls: 0.0 for cls in OBSERVATION_CLASSES}
@@ -133,7 +125,6 @@ def _observed_stance_probs(timeline_event: dict[str, Any] | None) -> list[float]
 
     total = sum(counts.values()) or 1.0
     return [round(counts[cls] / total, 4) for cls in OBSERVATION_CLASSES]
-
 
 def entropy_misalignment(
     *,
@@ -160,7 +151,6 @@ def entropy_misalignment(
         "overconfidence_penalty": overconfidence_penalty,
     }
 
-
 def _collect_shift_dates(timeline_event: dict[str, Any] | None) -> list[str]:
     shifts_root = (timeline_event or {}).get("shifts") or {}
     dates: list[str] = []
@@ -176,7 +166,6 @@ def _collect_shift_dates(timeline_event: dict[str, Any] | None) -> list[str]:
             if to_date:
                 dates.append(str(to_date))
     return dates
-
 
 def regime_shift_delay(
     *,
@@ -211,12 +200,10 @@ def regime_shift_delay(
         "delay_days": delay_days,
     }
 
-
 def _is_brier_eligible(registry_event: dict[str, Any]) -> bool:
     if str(registry_event.get("status") or "") != "resolved":
         return False
     return outcome_to_label(registry_event.get("outcome")) is not None
-
 
 def compute_event_losses(
     event_id: str,
@@ -265,12 +252,10 @@ def compute_event_losses(
 
     return block
 
-
 def _mean(values: list[float]) -> float:
     if not values:
         return 0.0
     return round(sum(values) / len(values), 4)
-
 
 def compute_aggregate_loss(
     *,
@@ -355,7 +340,6 @@ def compute_aggregate_loss(
         "total_loss": total_loss,
     }
 
-
 def build_calibration_payload(
     *,
     registry: dict[str, dict[str, Any]] | None = None,
@@ -439,7 +423,6 @@ def build_calibration_payload(
         "events": event_blocks,
     }
 
-
 def main() -> int:
     import argparse
     import json
@@ -478,7 +461,6 @@ def main() -> int:
         f"(total_loss={payload.get('total_loss')}, events={len(payload.get('events') or {})})"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

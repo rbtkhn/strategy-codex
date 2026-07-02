@@ -1,7 +1,6 @@
 # Present-Day Arc Extension Matrix
 <!-- word_count: 862 -->
 
-
 ## Purpose
 
 Use this sheet when a `hex` read, current-event brief, transaction route, or recursive candidate scan needs to extend deep civilization arcs into present-day operating forms.

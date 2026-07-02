@@ -16,19 +16,16 @@ from validate_statecraft_daily_synthesis import (
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def test_quote_anchor_line_rejects_short_quote() -> None:
     err = validate_quote_anchor_line('Quote anchor: "too short to clear this floor."')
     assert err is not None
     assert "requires at least 12" in err
-
 
 def test_quote_anchor_line_accepts_long_quote() -> None:
     err = validate_quote_anchor_line(
         'Quote anchor: "we have to see the Americans actually implement its side of the bargain."'
     )
     assert err is None
-
 
 def test_validate_daily_file_rejects_wrong_five_volume_order(tmp_path: Path) -> None:
     path = tmp_path / "2026-06-01.md"
@@ -66,7 +63,6 @@ def test_validate_daily_file_rejects_wrong_five_volume_order(tmp_path: Path) -> 
     errors = validate_daily_file(path)
     assert any("Five-Volume CIV-STATE Read labels mismatch" in e for e in errors)
 
-
 def test_validate_monthly_file_rejects_invalid_function_label(tmp_path: Path) -> None:
     path = tmp_path / "2026-06.md"
     path.write_text(
@@ -101,7 +97,6 @@ def test_validate_monthly_file_rejects_invalid_function_label(tmp_path: Path) ->
     )
     errors = validate_monthly_file(path)
     assert any("invalid labels" in e for e in errors)
-
 
 def test_collect_daily_shelf_counts_separates_migrated_from_legacy(tmp_path: Path) -> None:
     (tmp_path / "2026-06-01.md").write_text(
@@ -170,7 +165,6 @@ def test_collect_daily_shelf_counts_separates_migrated_from_legacy(tmp_path: Pat
 
     migrated, legacy, monthly = collect_daily_shelf_counts(tmp_path)
     assert (migrated, legacy, monthly) == (1, 1, 1)
-
 
 def test_repo_validator_smoke() -> None:
     proc = subprocess.run(

@@ -1,7 +1,5 @@
 # Related Projects
 
-WORK only; not Record.
-
 ## Jiang Lens
 
 Repository: [apresmoi/jianglens](https://github.com/apresmoi/jianglens)

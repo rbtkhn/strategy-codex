@@ -1,6 +1,5 @@
 # Expert orthogonality note
 
-
 Purpose: preserve the distinct jobs of the Pape, Crooke, Ritter, and Parsi speaker objects when they cover the same Iran-war, Hormuz, escalation, or negotiation surface.
 
 These four speakers should be read as adjacent instruments, not substitutes.

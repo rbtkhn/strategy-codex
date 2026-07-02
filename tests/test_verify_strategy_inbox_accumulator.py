@@ -10,7 +10,6 @@ ROOT = Path(__file__).resolve().parent.parent
 SCRIPT = ROOT / "scripts" / "verify_strategy_inbox_accumulator.py"
 PY = sys.executable
 
-
 def test_verify_script_ok_when_dates_match(tmp_path):
     inbox = tmp_path / "daily-strategy-inbox.md"
     inbox.write_text(
@@ -25,7 +24,6 @@ def test_verify_script_ok_when_dates_match(tmp_path):
     )
     assert r.returncode == 0, r.stderr
 
-
 def test_verify_script_fails_on_mismatch(tmp_path):
     inbox = tmp_path / "daily-strategy-inbox.md"
     inbox.write_text("**Accumulator for:** 2030-01-01\n", encoding="utf-8")
@@ -36,7 +34,6 @@ def test_verify_script_fails_on_mismatch(tmp_path):
         text=True,
     )
     assert r.returncode == 1
-
 
 def test_verify_script_fails_without_accumulator_line(tmp_path):
     inbox = tmp_path / "x.md"

@@ -10,7 +10,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "runtime" / "log_observation.py"
 
-
 def test_log_observation_never_writes_claude_md(tmp_path: Path) -> None:
     env = {**os.environ, "GRACE_MAR_RUNTIME_LEDGER_ROOT": str(tmp_path)}
     subprocess.run(

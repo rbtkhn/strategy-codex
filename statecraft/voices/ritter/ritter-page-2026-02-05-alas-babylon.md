@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-02-05 (*Alas, Babylon*)
 <!-- word_count: 3489 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-02-05 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 3490
@@ -186,7 +185,6 @@ If, indeed, they can survive the experience.
 
 (I will be travelling to Russia in March to continue my efforts to promote arms control and better relations between the US and Russia. As an independent journalist, I am totally dependent upon the kind and generous donations of readers and supporters to underwrite the costs associated with such a journey (travel, accommodations, meals, studio rental, hiring interpreters, video production and editing, etc.) I am grateful for any support you can provide.)
 
-
 ### Reflection
 
 **Operator note:** Personal memoir (1978 Germany, INF inspection 1988) plus historical/geopolitical claims (CIA/Krol, Pershing/GLCM timeline, New START expiry framing). Some chronology/assertions are contestable—treat as essay, not wire. Light cleanup of operator/OCR errors only.
@@ -203,14 +201,11 @@ If, indeed, they can survive the experience.
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

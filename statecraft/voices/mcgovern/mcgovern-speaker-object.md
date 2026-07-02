@@ -1,6 +1,5 @@
 # McGovern speaker object
 
-
 object_shape: double-helix
 
 Purpose: define Ray McGovern as a first-class speaker object in a way that matches the branches the Codex has now materially embodied on disk. McGovern is not best read here as a native cognition stream or a one-host commentary shelf. He is better read as a **double-helix intelligence-dissent and late-imperial reality-check object** whose `Diesen` and `Alkhorshid / Dialogue Works` branches are both materially real, while `Judging Freedom` remains a strong search-backed third host not yet embodied here.

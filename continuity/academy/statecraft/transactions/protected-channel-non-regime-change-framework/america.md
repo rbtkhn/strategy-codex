@@ -1,7 +1,6 @@
 # America - Protected Channel / Non-Regime-Change Framework
 <!-- word_count: 858 -->
 
-
 ## Transaction Name
 
 Protected-channel and no-regime-change assurance.

@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2026-03-31/source-judging-freedom-mearsheimer-will-trump-go-kamikaze-2026-03-31.md
 ---
 
-
 # Mearsheimer arc
 
 Purpose: define `arc-mearsheimer-continuity` as the canonical statecraft-side person-level continuity surface for John Mearsheimer across hosts, contexts, and time.

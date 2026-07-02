@@ -1,7 +1,5 @@
 # anyang-ai-progress
 
-WORK only; not Record.
-
 **Purpose:** Member progress, proof packets, weekly review — evidence-labeled, not vanity joins.
 
 **Lane hub:** [anyang-ai-lanes.md](../anyang-ai-lanes.md)

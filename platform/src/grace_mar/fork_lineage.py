@@ -11,10 +11,8 @@ from typing import Any
 
 from grace_mar.fork_state import lineage_path
 
-
 def _utc_ts() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
 
 def append_lineage_event(repo_root: Path, fork_id: str, event: dict[str, Any]) -> dict[str, Any]:
     """Append one JSON object line. Adds ts if missing."""
@@ -27,7 +25,6 @@ def append_lineage_event(repo_root: Path, fork_id: str, event: dict[str, Any]) -
     with open(path, "a", encoding="utf-8") as f:
         f.write(line)
     return row
-
 
 def read_lineage_tail(repo_root: Path, fork_id: str, max_lines: int = 500) -> list[dict[str, Any]]:
     path = lineage_path(repo_root, fork_id)

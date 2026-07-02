@@ -49,7 +49,6 @@ SCAN_ROOTS: tuple[Path, ...] = (
     REPO_ROOT / "continuity",
 )
 
-
 def rewrite_text(text: str) -> tuple[str, int]:
     count = 0
     for old, new in SUBSTITUTIONS:
@@ -59,7 +58,6 @@ def rewrite_text(text: str) -> tuple[str, int]:
             count += n
     return text, count
 
-
 def iter_markdown_files() -> list[Path]:
     files: list[Path] = []
     for root in SCAN_ROOTS:
@@ -67,7 +65,6 @@ def iter_markdown_files() -> list[Path]:
             continue
         files.extend(sorted(root.rglob("*.md")))
     return files
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Rewrite narrative-systems research path refs")
@@ -99,7 +96,6 @@ def main() -> int:
 
     print(f"done: {changed_files} file(s), {total} substitution(s)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 >> Um, I'm great. Um, yeah. Um, you know the question. I think there's no need to even ask the question. What's happening today? >> Look, I think they are, uh, very close and I know I've said that before. I know they've said it before and, you know, I'm sure everyone is sick and tired of hearing that, but >> I've said it too. Don't worry.

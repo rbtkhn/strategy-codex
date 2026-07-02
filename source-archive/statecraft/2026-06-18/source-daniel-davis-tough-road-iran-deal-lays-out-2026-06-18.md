@@ -46,7 +46,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 The United States isn't giving up a cent of money to Iran. And even the economic benefits, the sanctions, relief, and so forth that comes along with this bargain only happens if the Iranians perform. >> Admiral was Vice President Vance trying to make this deal sound like a really good deal and trying to still make it sound like we're in charge.

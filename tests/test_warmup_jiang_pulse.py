@@ -9,7 +9,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture()
 def pulse_mod():
     path = REPO_ROOT / "scripts" / "work_jiang" / "warmup_jiang_pulse.py"
@@ -18,7 +17,6 @@ def pulse_mod():
     assert spec.loader is not None
     spec.loader.exec_module(mod)
     return mod
-
 
 def test_parse_instance_work_context_yaml_v1(pulse_mod):
     md = """x
@@ -34,7 +32,6 @@ notes: "n1"
     assert d.get("status") == "TEST"
     assert "hello" in d.get("edge", "")
 
-
 def test_parse_instance_work_context_yaml_legacy_container(pulse_mod):
     md = """<!-- WORK-JIANG-CONTAINER-START -->
 ```yaml
@@ -46,7 +43,6 @@ edge: "legacy"
     d = pulse_mod._parse_instance_work_context_yaml(md)
     assert d.get("status") == "LEG"
 
-
 def test_first_chapter_next_action(pulse_mod):
     q = """# Q
 ## ch01 — Title
@@ -57,7 +53,6 @@ def test_first_chapter_next_action(pulse_mod):
     cid, act = pulse_mod._first_chapter_next_action(q)
     assert cid == "ch01"
     assert "thing" in act
-
 
 def test_build_morning_contains_sections(pulse_mod):
     lines = pulse_mod.build_morning_pulse_lines("grace-mar")

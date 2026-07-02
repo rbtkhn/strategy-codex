@@ -1,4 +1,4 @@
-# Strategy cognition stream templates (WORK only)
+# Strategy cognition stream templates (non-authoritative)
 <!-- word_count: 426 -->
 <!-- word_count: concise bundle -->
 
@@ -17,7 +17,6 @@ profile, thread, transcript, codex-page, strategy page, and mind.
 ## Profile -> `strategy-expert-<expert_id>.md`
 
 # Strategy cognition stream profile - <Stream / full name> (`<expert_id>`)
-
 
 This section is now a compatibility redirect.
 
@@ -41,7 +40,6 @@ Companion files: thread, transcript, codex-page, strategy page, mind.
 ## Thread -> `experts/<expert_id>/<expert_id>-thread-YYYY-MM.md`
 
 # Cognition stream thread handle - `<expert_id>`
-
 
 This section is now a compatibility redirect.
 
@@ -72,7 +70,6 @@ Machine extraction lives between the `<!-- strategy-expert-thread:start -->` and
 
 # Cognition stream transcript - `<expert_id>`
 
-
 The transcript is the 7-day rolling triage sink, not the long-form SSOT.
 It may contain:
 
@@ -92,7 +89,6 @@ Companion files: profile, thread, mind, and codex-pages.
 
 # Cognition stream codex-page - `<expert_id>`
 
-
 This section is now a compatibility redirect.
 
 **Canonical scaffold:** [strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd](strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd)
@@ -107,7 +103,6 @@ Use the canonical page template for the actual codex-page shape.
 
 # Cognition stream strategy page - `<expert_id>`
 
-
 This section is now a compatibility redirect.
 
 **Canonical scaffold:** [strategy-codex-template-page.md#strategy-page---thread-fence-page](strategy-codex-template-page.md#strategy-page---thread-fence-page)
@@ -121,7 +116,6 @@ Use the canonical page template for the actual strategy-page fence shape.
 ## Mind -> `strategy-expert-<expert_id>-mind.md`
 
 # Cognition stream mind - `<expert_id>`
-
 
 The mind file is the long-form voice fingerprint / style map. Keep it separate from the transcript and the thread.
 

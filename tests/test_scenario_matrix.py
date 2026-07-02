@@ -12,7 +12,6 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from work_dev.run_scenario_matrix import build_run_hints  # noqa: E402
 
-
 def test_build_run_hints_maps_required_checks_to_tests() -> None:
     rows = [
         {
@@ -33,7 +32,6 @@ def test_build_run_hints_maps_required_checks_to_tests() -> None:
     assert "tests/test_lane_scope.py" in hint["pytest_targets"]
     assert hint["suggested_pytest"].startswith("pytest ")
 
-
 def test_build_run_hints_falls_back_to_scenario_tests() -> None:
     rows = [
         {
@@ -52,7 +50,6 @@ def test_build_run_hints_falls_back_to_scenario_tests() -> None:
         "tests/test_scenario_generation.py",
         "tests/test_scenario_matrix.py",
     ]
-
 
 def test_run_scenario_matrix_stdout_jsonl() -> None:
     rc = subprocess.run(

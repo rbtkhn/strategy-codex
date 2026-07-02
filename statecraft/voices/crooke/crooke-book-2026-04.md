@@ -45,4 +45,3 @@ civilizational motive, institutional memory, and revolutionary statecraft.
 - Shared raw input lives under [`../../sheets/source-archive-control/`](../../sheets/source-archive-control/.
 - Use readable case-family labels plus exact civ-mem paths when known.
 
-

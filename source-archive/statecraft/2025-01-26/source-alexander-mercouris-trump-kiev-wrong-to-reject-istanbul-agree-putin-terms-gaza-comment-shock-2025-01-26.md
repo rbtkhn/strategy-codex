@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Trump, Kiev Wrong To Reject Istanbul, Agree Putin Terms, Gaza Comment Shock; Novosilka Toretsk Fall
 
-

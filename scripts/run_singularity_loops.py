@@ -20,7 +20,6 @@ from singularity_loop_lib import (  # noqa: E402
     refresh_orchestrator_signals,
 )
 
-
 def _print_loops(loops: list[dict], *, status_filter: str | None) -> None:
     for row in loops:
         status = str((row.get("state") or {}).get("status") or "")
@@ -28,7 +27,6 @@ def _print_loops(loops: list[dict], *, status_filter: str | None) -> None:
             continue
         loop_id = row.get("id", "?")
         print(f"[loop] {loop_id} ({status})")
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -80,7 +78,6 @@ def main() -> int:
 
     print("[ok] singularity loops listed (dry-run; no execution)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

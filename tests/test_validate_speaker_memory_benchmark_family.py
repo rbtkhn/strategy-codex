@@ -6,10 +6,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = REPO_ROOT / "scripts" / "validate_speaker_memory_benchmark_family.py"
-
 
 def load_module():
     spec = importlib.util.spec_from_file_location("validate_speaker_memory_benchmark_family", SCRIPT)
@@ -18,7 +16,6 @@ def load_module():
     sys.modules[spec.name] = module
     spec.loader.exec_module(module)
     return module
-
 
 def test_live_repo_shape_passes_structural_checks_except_known_subprocesses() -> None:
     mod = load_module()
@@ -33,7 +30,6 @@ def test_live_repo_shape_passes_structural_checks_except_known_subprocesses() ->
     assert result["checks"][2]["ok"] is True
     assert result["checks"][5]["ok"] is True
 
-
 def test_fixture_completeness_fails_when_required_file_missing(tmp_path: Path) -> None:
     mod = load_module()
     fixtures = tmp_path / "fixtures"
@@ -47,7 +43,6 @@ def test_fixture_completeness_fails_when_required_file_missing(tmp_path: Path) -
     assert fixture_ids == ["sm-1-speaker-object-repair"]
     assert check.ok is False
     assert "expected-output-shape.md" in check.detail
-
 
 def test_registry_consistency_fails_when_scorer_default_target_missing(tmp_path: Path) -> None:
     mod = load_module()
@@ -67,7 +62,6 @@ def test_registry_consistency_fails_when_scorer_default_target_missing(tmp_path:
     assert check.ok is False
     assert "missing scorer default targets" in check.detail
 
-
 def test_scorer_smoke_fails_when_weak_sample_passes(tmp_path: Path) -> None:
     mod = load_module()
 
@@ -80,7 +74,6 @@ def test_scorer_smoke_fails_when_weak_sample_passes(tmp_path: Path) -> None:
     assert check.ok is False
     assert "expected Broke, got Held" in check.detail
 
-
 def test_speaker_object_baseline_failure_propagates() -> None:
     mod = load_module()
 
@@ -91,7 +84,6 @@ def test_speaker_object_baseline_failure_propagates() -> None:
 
     assert check.ok is False
     assert check.detail == "speaker validator failed"
-
 
 def test_portable_skill_verify_failure_propagates() -> None:
     mod = load_module()

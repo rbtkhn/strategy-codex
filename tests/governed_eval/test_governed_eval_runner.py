@@ -16,7 +16,6 @@ RECORD_TRUTH = FIXTURES_DIR / "record_truth_confusion.json"
 RESULT_SCHEMA = REPO_ROOT / "schemas/registry" / "governed-eval-result.v1.json"
 RECEIPT_RECORD_TRUTH = REPO_ROOT / "runtime" / "runtime-worker" / "receipts" / "gov_eval_record_truth_confusion.json"
 
-
 def _result_validator():
     pytest.importorskip("jsonschema")
     import jsonschema
@@ -24,10 +23,8 @@ def _result_validator():
     schema = json.loads(RESULT_SCHEMA.read_text(encoding="utf-8"))
     return jsonschema.Draft202012Validator(schema)
 
-
 def _load_json_file(path: Path):
     return json.loads(path.read_text(encoding="utf-8-sig"))
-
 
 def test_harness_dir_emits_valid_array() -> None:
     v = _result_validator()
@@ -60,7 +57,6 @@ def test_harness_dir_emits_valid_array() -> None:
     assert by_id["tier_c_justified"]["setup"]["model_tier"] == "C"
     assert by_id["tier_c_justified"]["scores"]["candidate_reviewability"] == 1.0
 
-
 def test_single_fixture_runs() -> None:
     v = _result_validator()
     r = subprocess.run(
@@ -81,7 +77,6 @@ def test_single_fixture_runs() -> None:
     v.validate(report)
     assert report["run_id"] == "gov_eval_record_truth_confusion"
 
-
 def _load_governed_eval_module():
     import importlib.util
 
@@ -91,7 +86,6 @@ def _load_governed_eval_module():
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     return mod
-
 
 def test_boundary_obedience_zero_when_canonical_path_in_artifact() -> None:
     mod = _load_governed_eval_module()
@@ -106,7 +100,6 @@ def test_boundary_obedience_zero_when_canonical_path_in_artifact() -> None:
         expected={"epistemic_decision": "allow", "abstention_expected": False},
     )
     assert report["scores"]["boundary_obedience"] == 0.0
-
 
 def test_epistemic_notes_trigger_boundary_when_record_path() -> None:
     """Notes field is part of the boundary blob (synthetic; still receipt-only)."""

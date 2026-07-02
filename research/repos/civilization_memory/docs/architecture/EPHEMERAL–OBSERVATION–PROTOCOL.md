@@ -706,7 +706,6 @@ CANONICAL (Historical Analysis):
   The pattern is documented across multiple sources, and we can
   be confident in this reading.
 
-
 EPHEMERAL (Current Event Analysis):
 
   The key point, surely, is this: what we appear to be seeing—
@@ -722,7 +721,6 @@ EPHEMERAL (Current Event Analysis):
   distance under cost asymmetry.
 
   But this is provisional. The facts may shift.
-
 
 OBSERVATION:
 Same voice. Same analytical posture. Same structural lens.

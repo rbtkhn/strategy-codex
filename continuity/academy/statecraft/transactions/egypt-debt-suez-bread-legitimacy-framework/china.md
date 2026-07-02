@@ -1,7 +1,6 @@
 # China - Egypt Debt / Suez / Bread Legitimacy Framework
 <!-- word_count: 417 -->
 
-
 ## Transaction Name
 
 Egypt infrastructure credit without extraction spiral.

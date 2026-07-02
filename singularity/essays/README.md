@@ -1,7 +1,5 @@
 # Singularity Essays
 
-work only; not Record.
-
 > **Compatibility shelf.** Canonical primary essay home: [../../essays/README.md](../../essays/README.md) at repo root. New stand-alone essays default there (including cross-channel theses). This folder retains pre-root singularity-native holdings until bounded migration.
 
 This shelf indexes **carriage-bearing singularity theses**.

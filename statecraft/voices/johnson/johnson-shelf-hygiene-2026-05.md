@@ -1,6 +1,5 @@
 # Johnson shelf hygiene - 2026-05
 
-
 Compatibility note: this codex-side hygiene note remains migration residue only.
 
 The canonical Johnson shelf now lives at

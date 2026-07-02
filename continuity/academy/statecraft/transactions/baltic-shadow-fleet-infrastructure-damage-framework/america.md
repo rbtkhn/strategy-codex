@@ -1,7 +1,6 @@
 # America - Baltic Shadow-Fleet Infrastructure Damage Framework
 <!-- word_count: 376 -->
 
-
 ## Transaction Name
 
 Baltic hardening before retaliation.

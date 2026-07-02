@@ -1,6 +1,5 @@
 # Speaker Credibility-Accuracy Bridge
 
-
 This file exists to keep the notebook from collapsing two different judgments into one.
 
 ## Core Distinction

@@ -19,7 +19,6 @@ Use this skill when one argument inside a singularity synthesis memo has become 
 
 ## Boundary
 
-- WORK only; not Record.
 - Promote one bounded argument, not the whole month.
 - Keep the note argument-shaped, not archive-shaped.
 - Do not use note promotion to smuggle in a broad doctrine that still belongs in synthesis.

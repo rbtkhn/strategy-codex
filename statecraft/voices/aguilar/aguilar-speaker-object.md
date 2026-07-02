@@ -1,6 +1,5 @@
 # Aguilar speaker object
 
-
 object_shape: single-helix
 
 Purpose: define Aguilar as a first-class speaker object in a way that matches the actual shelf reality. Aguilar does not yet have a thick native cognition stream, and he does not yet have mature multi-host spread on disk. What he does have is an emerging host-local branch inside the Alkorshid stream that is already distinct enough to merit a speaker folder, plus one additional materially real outside appearance that strengthens the object without changing its basic shape.

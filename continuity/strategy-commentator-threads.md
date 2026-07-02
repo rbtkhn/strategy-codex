@@ -2,7 +2,7 @@
 ﻿# Strategy cognition streams / routing handles (index)
 <!   word_count: 5754   >
 
-**Purpose:** Stable **routing handles** for recurring cognition stream ingests so `batch analysis` lines can name **divergence and correlation** without re deriving the roster each session. The public scaffold is **polyphonic cognition streams** (see [COGNITION STREAMS.md](COGNITION STREAMS.md)); the same **`thread:<expert_id>`** on **different dates** remains the low level **join key** for **accuracy** checks and **opinion drift**. **WORK only**   not Record.
+**Purpose:** Stable **routing handles** for recurring cognition stream ingests so `batch analysis` lines can name **divergence and correlation** without re deriving the roster each session. The public scaffold is **polyphonic cognition streams** (see [COGNITION STREAMS.md](COGNITION STREAMS.md)); the same **`thread:<expert_id>`** on **different dates** remains the low level **join key** for **accuracy** checks and **opinion drift**. 
 
 **Quick roster:** if you only need the eight stream list and handles, start with [COGNITION STREAMS POINTER.md](COGNITION STREAMS POINTER.md).
 

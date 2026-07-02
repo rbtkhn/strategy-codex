@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Zelensky: Ukraine Army Exhausted, Desertions; Budanov: War Lost; EU Gas Price Surge
 
-

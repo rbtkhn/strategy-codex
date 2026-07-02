@@ -13,8 +13,6 @@ post_id: 202278173
 
 # The Innermost Loop - 2026-06-16
 
-WORK only; not Record.
-
 ## Source
 
 - Title: The First Frontier AI Token Price Index
@@ -29,10 +27,7 @@ The Singularity has had a price for the compute that powers it, but never one fo
 
 ## Newsletter Text
 
--
--
-
-The Singularity has had a price for the compute that powers it, but never one for the tokens that compute produces, until now.
+- The Singularity has had a price for the compute that powers it, but never one for the tokens that compute produces, until now.
 
 Earlier this year I wrote about the moment GPU compute became a tradable asset class, when Ornn put the Ornn Compute Price Index (OCPI) on the Bloomberg Terminal , and brought the first compute futures to the Intercontinental Exchange . But compute is only the input. What the AI economy meters, sells, and budgets is the inference token, and the token has never had an honest price.
 

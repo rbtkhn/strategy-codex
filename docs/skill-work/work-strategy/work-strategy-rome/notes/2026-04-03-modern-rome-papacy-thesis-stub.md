@@ -1,6 +1,6 @@
 # Modern Rome — papacy-centered thesis (WORK stub)
 
-**Status:** Operator hypothesis. **WORK only** — not Record, not companion-facing truth. Revise as evidence shifts.
+**Status:** Operator hypothesis. , not companion-facing truth. Revise as evidence shifts.
 
 **Parent:** [work-strategy-rome README](../README.md) · [North star](../README.md#north-star-operator)
 

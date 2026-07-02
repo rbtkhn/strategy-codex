@@ -1,6 +1,6 @@
 # Energy-Chokepoint Monitoring (WORK-STRATEGY module)
 
-**Status:** WORK only. Not part of SELF or Record unless the companion approves a candidate that documents usage (e.g. optional ACT- via RECURSION-GATE).
+**Status:** non-authoritative. Not part of SELF or Record unless the companion approves a candidate that documents usage (e.g. optional ACT- via RECURSION-GATE).
 
 ## Purpose
 

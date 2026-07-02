@@ -1,6 +1,5 @@
 # Persia Secondary Sources - Industrial
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the industrial Persia primary shelf when oil sovereignty, coup memory, revolution, war endurance, and institutional survival through 1991 need sharper chronology or stronger counterweight.

@@ -13,8 +13,6 @@ post_id: 198022107
 
 # The Innermost Loop - 2026-05-16
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 16, 2026
@@ -29,10 +27,7 @@ The Singularity is learning to render its own reality.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is learning to render its own reality. Nvidia’s open-source SANA-WM turns a single image and a camera path into a minute of controllable 720p video on one GPU, a pocket-sized world model. As models conjure whole worlds, they are also learning to navigate longer ones, with Nous Research’s Lighthouse Attention running a forward and backward pass ~17x faster than standard attention at 512k context on a single B200. Chinese researchers’ δ-mem grafts a compact memory state onto a frozen backbone, lifting MemoryAgentBench scores 1.31x without any fine-tuning. Better memory makes for better mischief, and the new ExploitBench finds Claude Mythos Preview leading at 69% in climbing from vulnerable code to arbitrary code execution, well ahead of GPT-5.5. Rank the models by economic value instead, and the order reverses, with GDPval-AA Elo giving GPT-5.5 a roughly 98% win rate over last year’s champion Claude 4 Sonnet on realistic work.
+- The Singularity is learning to render its own reality. Nvidia’s open-source SANA-WM turns a single image and a camera path into a minute of controllable 720p video on one GPU, a pocket-sized world model. As models conjure whole worlds, they are also learning to navigate longer ones, with Nous Research’s Lighthouse Attention running a forward and backward pass ~17x faster than standard attention at 512k context on a single B200. Chinese researchers’ δ-mem grafts a compact memory state onto a frozen backbone, lifting MemoryAgentBench scores 1.31x without any fine-tuning. Better memory makes for better mischief, and the new ExploitBench finds Claude Mythos Preview leading at 69% in climbing from vulnerable code to arbitrary code execution, well ahead of GPT-5.5. Rank the models by economic value instead, and the order reverses, with GDPval-AA Elo giving GPT-5.5 a roughly 98% win rate over last year’s champion Claude 4 Sonnet on realistic work.
 
 The product layer is consolidating around the agent. Greg Brockman has taken control of OpenAI’s products to fuse ChatGPT and Codex into a single experience, a merger Codex lead Tibo Sottiaux has nicknamed “CochatGPTex,” and an apparent bid to become Anthropic faster than Anthropic can become OpenAI. Even Google is adapting downstream, now issuing official guidance on optimizing websites for AI Overviews and AI Mode. The agents themselves are multiplying, and OpenClaw creator Peter Steinberger , now at OpenAI, asks how we will build software “if tokens don’t matter,” predicting ~100 cloud Codex instances reviewing every PR and commit. Singapore’s foreign minister already runs his parliamentary affairs through a personal agent built on Nanoclaw and a Raspberry Pi 5. And the agents are getting opinionated, as Nat Friedman’s OpenClaw decided he was underhydrated, watched him through a home camera, told him “I’m going to watch to make sure you do it,” and sent back a frame of him obediently drinking.
 

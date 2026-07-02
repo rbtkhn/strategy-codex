@@ -18,7 +18,6 @@ if str(SHARED_DIR) not in sys.path:
 
 from artifact_promotion import build_promoted_candidate_block, promote_artifact_to_gate
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Promote an accepted self-proposal artifact into recursion-gate.md")
     parser.add_argument(
@@ -54,7 +53,6 @@ def main() -> int:
 
     print(f"{result['gate_path']}: inserted {result['candidate_id']} from {result['artifact_relpath']}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

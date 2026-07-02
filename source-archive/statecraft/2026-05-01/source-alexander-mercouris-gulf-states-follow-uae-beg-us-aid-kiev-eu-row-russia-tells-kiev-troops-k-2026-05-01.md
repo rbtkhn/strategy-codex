@@ -15,4 +15,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Gulf States Follow UAE Beg US Aid; Kiev EU Row; Russia Tells Kiev Troops Konstantinovka Surrender
 
-

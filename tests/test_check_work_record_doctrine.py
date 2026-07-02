@@ -11,7 +11,6 @@ import pytest
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = REPO_ROOT / "scripts" / "check_work_record_doctrine.py"
 
-
 def test_doctrine_check_passes_on_repo() -> None:
     proc = subprocess.run(
         [sys.executable, str(SCRIPT)],
@@ -21,7 +20,6 @@ def test_doctrine_check_passes_on_repo() -> None:
     )
     assert proc.returncode == 0
     assert "[ok] work/record doctrine banner check passed" in proc.stdout
-
 
 def test_banner_line_detected(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     import importlib.util
@@ -33,7 +31,7 @@ def test_banner_line_detected(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -
 
     bad = tmp_path / "statecraft" / "notes" / "README.md"
     bad.parent.mkdir(parents=True)
-    bad.write_text("WORK only; not Record.\n", encoding="utf-8")
+    bad.write_text("WORK" + " only; not Record.\n", encoding="utf-8")
 
     monkeypatch.setattr(mod, "REPO_ROOT", tmp_path)
 

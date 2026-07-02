@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Breaking Open — Bahrain Kiev Dual Track
 
 **Larry Johnson:** Breaking news. Explosions in Bahrain, explosions in Kiev. This is in response to the attacks of the United States of America on Iran. They struck a number of locations in Iran. Iranians have responded and they are striking Bahrain. We're seeing that the Sheik Issa air base in Bahrain has been targeted by drones. So they are drone strikes on Shik Issa air base in Bahrain. Uh sirens as I mentioned were sounding in Bahrain. Also multiple multiple strikes on uh Kiev uh K missile of an unidentified unidentified type to Chuv Zim in Khiv Oblast. Uh an explosion just heard in Choo. Another missile and rockets are flying there as well.

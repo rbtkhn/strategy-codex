@@ -1,6 +1,5 @@
 # Statecraft Method
 
-
 This file is a delegated module under [statecraft.md](statecraft.md). It owns drafting procedure only.
 
 Open the kernel first if you need:

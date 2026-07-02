@@ -14,13 +14,11 @@ if str(SCRIPTS) not in sys.path:
 
 from voice_prediction_pilot import get_voice_config, list_voice_speakers  # noqa: E402
 
-
 def test_voice_registry_lists_freeman_mercouris_and_macgregor() -> None:
     speakers = list_voice_speakers()
     assert "freeman" in speakers
     assert "mercouris" in speakers
     assert "macgregor" in speakers
-
 
 def test_freeman_config_paths() -> None:
     cfg = get_voice_config("freeman")
@@ -29,7 +27,6 @@ def test_freeman_config_paths() -> None:
     assert cfg.predictions_md_path.name == "freeman-predictions.md"
     assert len(cfg.pilot_event_order) == 7
 
-
 def test_mercouris_config_paths() -> None:
     cfg = get_voice_config("mercouris")
     assert cfg.speaker == "mercouris"
@@ -37,14 +34,12 @@ def test_mercouris_config_paths() -> None:
     assert len(cfg.pilot_event_order) == 2
     assert cfg.schema == "mercouris-predictions-v3"
 
-
 def test_macgregor_config_paths() -> None:
     cfg = get_voice_config("macgregor")
     assert cfg.speaker == "macgregor"
     assert cfg.public_map_path.name == "macgregor-prediction-public-map.json"
     assert len(cfg.pilot_event_order) == 8
     assert cfg.schema == "macgregor-predictions-v3"
-
 
 def test_build_voice_predictions_freeman_check() -> None:
     proc = subprocess.run(
@@ -54,7 +49,6 @@ def test_build_voice_predictions_freeman_check() -> None:
         text=True,
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
-
 
 def test_bootstrap_voice_capture_map_freeman_check() -> None:
     proc = subprocess.run(
@@ -71,7 +65,6 @@ def test_bootstrap_voice_capture_map_freeman_check() -> None:
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
 
-
 def test_bootstrap_voice_capture_map_mercouris_check() -> None:
     proc = subprocess.run(
         [
@@ -86,7 +79,6 @@ def test_bootstrap_voice_capture_map_mercouris_check() -> None:
         text=True,
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
-
 
 def test_build_and_check_mercouris_predictions() -> None:
     build = subprocess.run(
@@ -116,7 +108,6 @@ def test_build_and_check_mercouris_predictions() -> None:
         text=True,
     )
     assert shape.returncode == 0, shape.stderr or shape.stdout
-
 
 def test_build_and_check_macgregor_predictions() -> None:
     build = subprocess.run(

@@ -1,7 +1,6 @@
 # Current Executive Carrier
 <!-- word_count: 388 -->
 
-
 Refresh current officeholder facts before load-bearing use.
 
 ## Role In Current State Form

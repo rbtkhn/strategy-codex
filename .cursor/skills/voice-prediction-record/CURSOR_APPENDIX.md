@@ -102,6 +102,6 @@ Add voices by extending `VOICE_REGISTRY` — paths follow `statecraft/data/<spea
 
 ## Boundary
 
-- WORK only; not Record merge
+- non-authoritative; not Record merge
 - Do not hand-edit generated `<speaker>-predictions.*`
 - Kiev / Kharkov normalization applies in operator-facing MD, not inside verbatim `public_excerpt`

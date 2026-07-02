@@ -58,7 +58,6 @@ verify:
 
 ## Transcript
 
-
 ### Israel Panic — Quinnipiac and US Support
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.

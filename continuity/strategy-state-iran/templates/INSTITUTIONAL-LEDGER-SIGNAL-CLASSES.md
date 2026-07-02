@@ -21,4 +21,4 @@
 3. **Bullets** of what was said / linked (pointer to `raw-input` row or bundle)
 4. Optional: paste [ANNOUNCED-VS-MATERIAL-BLOCK](ANNOUNCED-VS-MATERIAL-BLOCK.md) when **posture** and **field state** can diverge
 
-WORK only; not Record. See [strategy-state-iran README](../README.md).
+See [strategy-state-iran README](../README.md).

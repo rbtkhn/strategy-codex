@@ -1,7 +1,5 @@
 # Speaker memory action queue
 
-WORK only; not Record.
-
 Window: `2025-08-18` to `2025-08-18`
 
 - `medium` `create-candidate-arc` `codex/years/2026/diesen/diesen-davis-speaker-arc.md` (1 appearance(s); grades: transcript-bearing)

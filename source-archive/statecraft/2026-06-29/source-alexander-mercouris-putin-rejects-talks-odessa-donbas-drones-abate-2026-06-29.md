@@ -53,7 +53,6 @@ verify:
 
 ## Transcript
 
-
 ### Show Open — Putin Silence And Frenetic Return
 
 Good day. Today is Monday, 29th June, 2026. And before I proceed with this program, let me remind you again to tick the like button and to check your subscription to this channel. Now, for much of the early part of this year, I have been speaking about the relative absence of Putin from the political scene in Russia in any matter that appeared to be directly connected to the conflict in Ukraine. Um after the attack on his residence in Valdai, Putin basically went to ground.

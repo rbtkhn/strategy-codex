@@ -1,6 +1,5 @@
 # CIV-STATE vs Statecraft
 
-
 This note distinguishes two adjacent but different layers in academy-statecraft.
 
 `Civilizational Statecraft` is the governing discipline. `Civilization and Empire` is the conceptual helix that opens the book. `civ-state` is the repo-root source-memory substrate that preserves that helix for live drafting.

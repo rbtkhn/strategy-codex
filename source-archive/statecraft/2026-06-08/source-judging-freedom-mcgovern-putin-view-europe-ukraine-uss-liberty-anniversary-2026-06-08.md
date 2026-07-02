@@ -37,7 +37,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, June 8, 2026. Ray McGovern joins us now. Ray, a pleasure, my dear man. Thank you so much for all the time you give to us. It seems like five minutes ago we were doing the intelligence community roundtable with Larry Johnson. And before we get to your understanding of the quagmire that President Putin is in and his relationship to the Kremlin and Russian elites, today is the sad anniversary of the Israeli attack on the USS Liberty in 1967. Why have we not gotten an explanation from the United States government of what happened?

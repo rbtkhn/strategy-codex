@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Trump Fiery Call Dane PM; EU Shocked; Rubio Stops Kiev Aid; Putin: Zelensky Not Russia Blocks Talks
 
-

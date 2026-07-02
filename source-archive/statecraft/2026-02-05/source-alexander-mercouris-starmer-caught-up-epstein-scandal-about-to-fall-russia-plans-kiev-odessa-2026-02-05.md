@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Starmer Caught Up Epstein Scandal About To Fall; Russia Plans Kiev Odessa Offensives; UAE Standstill
 
-

@@ -13,7 +13,7 @@
 | [mission-spec-template.md](mission-spec-template.md) | Full mission spec scaffold (statement, success/failure, hypotheses, â€¦) |
 | [swarm-spirit.md](swarm-spirit.md) | **Ritual only:** many modes of attention â†’ one gate-ready bundle; no automation, no gate writes from scripts |
 | [moonshot-orchestration/README.md](moonshot-orchestration/README.md) | **Moonshot Orchestration** â€” source-tier and claim-strength discipline, contribution map template, boundaries, lifecycle, manual dashboard, optional **gate** candidates. **Not** Record truth; **not** a canonical skill. |
-| [career-triad-lens.md](career-triad-lens.md) | Optional **Founder / Joiner / Investor** lens for moonshot- and career-shaped judgment; WORK only; no automation or enforcement. |
+| [career-triad-lens.md](career-triad-lens.md) | Optional **Founder / Joiner / Investor** lens for moonshot- and career-shaped judgment; no automation or enforcement. |
 
 **v0.1 limits (PMOS / missions):** No bot commands, no data-ingestion connectors â€” template + docs + gate pattern only.
 

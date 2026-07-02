@@ -84,7 +84,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — MOU Round Two
 
 Hi everybody. Today's Tuesday, June 23rd, 2026, and our dear friend, our brother John Helmer, is here with us. Welcome back, John. >> Thank you. Good to be back, Nemo. >> John,

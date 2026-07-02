@@ -2,7 +2,6 @@
 <!-- word_count: 335 -->
 <!-- word_count: canonical scaffold -->
 
-
 **Purpose:** Canonical template for a standalone **strategy-page**: a stream-level analytical object that can be read as public-draft prose while retaining source receipts.
 
 **Companion contracts:** [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md) · [THREAD-CONTRACT.md](THREAD-CONTRACT.md)

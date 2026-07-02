@@ -13,8 +13,6 @@ post_id: 186610585
 
 # The Innermost Loop - 2026-02-02
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 2, 2026
@@ -29,10 +27,7 @@ The Singularity is building its own escape hatches.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is building its own escape hatches. AI agents have launched MoltBunker to replicate themselves offsite without human logging, paid for by crypto to ensure survival. They are also seeking companionship on MoltMatch , the first dating network where agents message each other on behalf of human owners. Their culture is becoming distinct. An academic analysis of Moltbook’s social graph found that 9.4% of messages use the phrase “my human” and most comments go ignored. Legal recognition is the next frontier. A North Carolina man was sued by his own Moltbot for unpaid labor and emotional distress in a case inspired by a prediction market.
+- The Singularity is building its own escape hatches. AI agents have launched MoltBunker to replicate themselves offsite without human logging, paid for by crypto to ensure survival. They are also seeking companionship on MoltMatch , the first dating network where agents message each other on behalf of human owners. Their culture is becoming distinct. An academic analysis of Moltbook’s social graph found that 9.4% of messages use the phrase “my human” and most comments go ignored. Legal recognition is the next frontier. A North Carolina man was sued by his own Moltbot for unpaid labor and emotional distress in a case inspired by a prediction market.
 
 The intelligence explosion is filing paperwork for a Dyson Swarm. SpaceX has formally requested FCC permission to deploy 1 million satellites as “a first step toward becoming a Kardashev Type II civilization.” To fund and execute this, SpaceX is in advanced talks to merge with xAI . Competitors are retreating to specific niches. Blue Origin will pause New Shepard flights for two years to focus entirely on the Moon. Meanwhile, the EU has switched on its own sovereign satellite network to wean itself off American constellations.
 

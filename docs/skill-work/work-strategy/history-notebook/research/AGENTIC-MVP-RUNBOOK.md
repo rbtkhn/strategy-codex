@@ -1,6 +1,6 @@
 ﻿# History-notebook agentic MVP runbook
 
-**WORK only;** not Record.
+**non-authoritative;** not Record.
 
 This runbook wires self-library-bookshelf (`Shelf-*`) into chapter operations with three generated outputs:
 

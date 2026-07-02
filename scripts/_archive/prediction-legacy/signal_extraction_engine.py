@@ -53,16 +53,13 @@ CAPITULATION_KEYWORDS = (
     "fragmentation",
 )
 
-
 def _mode_ids(model: dict[str, Any]) -> list[str]:
     modes = model.get("failure_modes") or []
     return [str(m.get("id") or "") for m in modes if isinstance(m, dict)]
 
-
 def _mode_probabilities(model: dict[str, Any]) -> list[float]:
     modes = model.get("failure_modes") or []
     return [float(m.get("probability") or 0) for m in modes if isinstance(m, dict)]
-
 
 def effective_falsifier_model(
     event_id: str,
@@ -89,7 +86,6 @@ def effective_falsifier_model(
     inferred = infer_falsifier_model(event_id, event)
     return inferred, "inferred_view"
 
-
 @contextmanager
 def ablation_falsifier_context(disabled: bool) -> Iterator[None]:
     token = _ablation_no_falsifier.set(bool(disabled))
@@ -98,11 +94,9 @@ def ablation_falsifier_context(disabled: bool) -> Iterator[None]:
     finally:
         _ablation_no_falsifier.reset(token)
 
-
 def _keyword_boost(mode_id: str, keywords: tuple[str, ...]) -> bool:
     slug = mode_id.casefold()
     return any(k in slug for k in keywords)
-
 
 def _normalize_probs(probs: list[float]) -> list[float]:
     total = sum(probs)
@@ -110,7 +104,6 @@ def _normalize_probs(probs: list[float]) -> list[float]:
         n = len(probs) or 1
         return [1.0 / n] * n
     return [round(p / total, 4) for p in probs]
-
 
 def _apply_stance_tilt(
     probs: list[float],
@@ -133,14 +126,12 @@ def _apply_stance_tilt(
             adjusted[idx] = adjusted[idx] * (1.0 - epsilon) + (1.0 / len(adjusted)) * epsilon
     return _normalize_probs(adjusted)
 
-
 def _primary_mode_index(mode_ids: list[str], probs: list[float]) -> int:
     escalation_scores = [
         (idx, prob + (0.05 if _keyword_boost(mid, ESCALATION_KEYWORDS) else 0.0))
         for idx, (mid, prob) in enumerate(zip(mode_ids, probs))
     ]
     return max(escalation_scores, key=lambda t: t[1])[0]
-
 
 def _escalation_index(mode_ids: list[str], probs: list[float]) -> float:
     if not probs:
@@ -154,7 +145,6 @@ def _escalation_index(mode_ids: list[str], probs: list[float]) -> float:
         else:
             weighted += prob * 0.5
     return clamp01(weighted)
-
 
 def build_probability_snapshots(
     event_id: str,
@@ -198,12 +188,10 @@ def build_probability_snapshots(
     primary = mode_ids[idx] if idx < len(mode_ids) else mode_ids[0]
     return snapshots, entropy_series, primary
 
-
 def _voice_weight(speaker: str, *, entropy_score: float) -> float:
     if str(speaker).casefold() == "macgregor" and entropy_score >= 0.85:
         return 0.5
     return 1.0
-
 
 def cross_voice_alignment(
     event_id: str,
@@ -254,7 +242,6 @@ def cross_voice_alignment(
             result = round(result * 0.85, 4)
     return result
 
-
 def _trend_text(signal_type: str, drift: list[float], primary_mode_id: str) -> str:
     if not drift:
         return f"stable probability around {primary_mode_id or 'primary mode'}"
@@ -271,7 +258,6 @@ def _trend_text(signal_type: str, drift: list[float], primary_mode_id: str) -> s
     if signal_type == "saturation":
         return "entropy stable with unresolved stance variance"
     return f"mixed movement on {primary_mode_id or 'primary mode'}"
-
 
 def classify_signal(
     *,
@@ -306,7 +292,6 @@ def classify_signal(
 
     return "directional", 0.35, False
 
-
 def _stance_variance(timeline_event: dict[str, Any] | None) -> float:
     latest = (timeline_event or {}).get("latest_by_speaker") or {}
     if not isinstance(latest, dict) or len(latest) < 2:
@@ -316,7 +301,6 @@ def _stance_variance(timeline_event: dict[str, Any] | None) -> float:
     if len(stances) <= 1:
         return 0.0
     return min(1.0, len(stances) / max(len(latest), 1))
-
 
 def extract_event_signal(
     event_id: str,
@@ -366,7 +350,6 @@ def extract_event_signal(
         "primary_mode_id": primary_mode_id,
     }
 
-
 def extract_signals(
     events: dict[str, dict[str, Any]],
     *,
@@ -393,14 +376,12 @@ def extract_signals(
         )
     return out
 
-
 def _bucket_label(event_id: str, question: str) -> str | None:
     blob = f"{event_id} {question}".casefold()
     for key in ("iran", "ukraine", "nato", "israel", "gaza"):
         if key in blob:
             return key
     return None
-
 
 def build_regime_summary(signals: dict[str, Any], events: dict[str, dict[str, Any]]) -> dict[str, Any]:
     if not signals:
@@ -463,7 +444,6 @@ def build_regime_summary(signals: dict[str, Any], events: dict[str, dict[str, An
         }
     }
 
-
 def build_signals_payload(
     events: dict[str, dict[str, Any]] | None = None,
     *,
@@ -493,7 +473,6 @@ def build_signals_payload(
         "events": signals,
     }
 
-
 def build_regime_summary_payload(
     signals_payload: dict[str, Any],
     events: dict[str, dict[str, Any]] | None = None,
@@ -512,7 +491,6 @@ def build_regime_summary_payload(
         },
         **summary,
     }
-
 
 def main() -> int:
     import argparse
@@ -559,7 +537,6 @@ def main() -> int:
     print(f"[ok] wrote {args.signals_output.relative_to(repo_root)} ({len(signals_payload.get('events') or {})} signal(s))")
     print(f"[ok] wrote {args.regime_output.relative_to(repo_root)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

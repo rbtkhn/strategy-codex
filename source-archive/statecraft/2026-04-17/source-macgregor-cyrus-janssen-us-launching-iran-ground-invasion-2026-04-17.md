@@ -28,7 +28,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Studio Open — US Blockade and Red Sea Threat
 
 Well, everyone, we're very honored to welcome back into the studio a long-time guest and a friend, Colonel Douglas McGregor. He's one of the best geopolitical analysts out there. And Colonel, we need to get right to the bottom of this because we're seeing, you know, the situation in the Middle East continuing to compound.

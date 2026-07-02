@@ -18,7 +18,6 @@ archive_links:
   - source-archive/statecraft/2026-06-08/source-mario-nawfal-weichert-trump-calls-shots-bibi-israel-bombed-iran-2026-06-08.md
 ---
 
-
 # Weichert Arc
 
 Purpose: define `arc-weichert-continuity` as the canonical person-level continuity surface for Brandon J. Weichert across the bounded **2026 Nawfal Iran-war run** (2026-05-17 through 2026-06-08).

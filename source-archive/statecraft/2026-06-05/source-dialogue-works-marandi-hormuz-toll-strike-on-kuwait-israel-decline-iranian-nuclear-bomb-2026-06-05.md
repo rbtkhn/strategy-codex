@@ -32,7 +32,6 @@ transcript_curation: curated_sectioned
 
 ## Cleaned Transcript
 
-
 ### Show Open — Introduction
 
 Uh welcome back to the program. We are joined again by Professor Sed Muhammad Marandi, a professor at Tran University and a former adviser to Iran's nuclear negotiation team. I'm yeah very glad you had the time to speak today cuz uh there seems to be a lot of developments going on both with yeah the war uh the possible diplomatic path and also heard speculations about Iran if not developing a nuclear weapon it would show its capability to do so.

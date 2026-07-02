@@ -10,10 +10,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _scripts_ws() -> Path:
     return REPO_ROOT / "scripts" / "work_strategy"
-
 
 def _load_builder():
     ws = str(_scripts_ws())
@@ -26,9 +24,7 @@ def _load_builder():
     spec.loader.exec_module(mod)
     return mod
 
-
 brp = _load_builder()
-
 
 def test_minimal_task_and_artifact_subprocess(tmp_path: Path) -> None:
     out = tmp_path / "rp.json"
@@ -63,7 +59,6 @@ def test_minimal_task_and_artifact_subprocess(tmp_path: Path) -> None:
     for label in ("## A â€”", "## B â€”", "## C â€”", "## D â€”", "## E â€”", "## F â€”", "## G â€”", "## H â€”", "## I â€”", "## J â€”"):
         assert label in body
 
-
 def test_with_validation_fixture_pass_readiness(tmp_path: Path) -> None:
     out = tmp_path / "rp.json"
     cmd = [
@@ -88,7 +83,6 @@ def test_with_validation_fixture_pass_readiness(tmp_path: Path) -> None:
     assert data["validation"]["status"] == "pass"
     assert data["status"] == "pass"
     assert data["review_readiness"]["status"] == "pass"
-
 
 def test_with_task_shape_report(tmp_path: Path) -> None:
     out = tmp_path / "rp.json"
@@ -115,7 +109,6 @@ def test_with_task_shape_report(tmp_path: Path) -> None:
     data = json.loads(out.read_text(encoding="utf-8"))
     assert data["task_shape"]["primary"] == "decision_point"
 
-
 def test_forbidden_out_under_users(tmp_path: Path) -> None:
     out_path = REPO_ROOT / "__review_packet_forbidden_test__.json"
     cmd = [
@@ -136,7 +129,6 @@ def test_forbidden_out_under_users(tmp_path: Path) -> None:
     assert r.returncode == 0
     assert not out_path.exists()
 
-
 def test_json_stdout(tmp_path: Path) -> None:
     cmd = [
         sys.executable,
@@ -154,7 +146,6 @@ def test_json_stdout(tmp_path: Path) -> None:
     data = json.loads(r.stdout)
     assert data["lane"] == "work-strategy"
     assert data["receipt_family"] == "inspection"
-
 
 def test_fail_on_readiness_never(tmp_path: Path) -> None:
     """needs_review readiness still exits 0 when policy is never."""
@@ -176,7 +167,6 @@ def test_fail_on_readiness_never(tmp_path: Path) -> None:
     data = json.loads(r.stdout)
     assert data["status"] == "needs_review"
     assert data["review_readiness"]["status"] == "needs_review"
-
 
 def test_harness_build_review_packet_receipt_keys(tmp_path: Path) -> None:
     rec = tmp_path / "carry.json"
@@ -210,7 +200,6 @@ def test_harness_build_review_packet_receipt_keys(tmp_path: Path) -> None:
     packet = json.loads(rp.read_text(encoding="utf-8"))
     assert packet["status"] == packet["review_readiness"]["status"]
     assert packet["review_surface"]["primary"] == "review_packet"
-
 
 def test_review_packet_surfaces_arc_movement_from_carry_receipt(tmp_path: Path) -> None:
     rec = tmp_path / "carry.json"
@@ -246,7 +235,6 @@ def test_review_packet_surfaces_arc_movement_from_carry_receipt(tmp_path: Path) 
     assert packet["arc_tags"] == ["arc:peace-leverage"]
     assert packet["arc_movement"]["movement_type"] == "reinforces"
     assert "The run reinforced the standing leverage frame." in brp.render_review_packet_markdown(packet)
-
 
 def test_render_has_standard_headings() -> None:
     pkt = brp.build_review_packet_dict(

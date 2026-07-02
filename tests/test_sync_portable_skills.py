@@ -6,7 +6,6 @@ from pathlib import Path
 
 from scripts import sync_portable_skills as sps
 
-
 class SyncPortableSkillsTests(unittest.TestCase):
     def test_parse_yaml_subset_supports_manifest_shape(self) -> None:
         text = """skills:
@@ -107,7 +106,6 @@ class SyncPortableSkillsTests(unittest.TestCase):
             self.assertIn("scope_class: repo-governed", fm_block)
             self.assertNotIn("scope_class: personal", fm_block)
             self.assertIn("scope_class: personal", out.split("## Cursor")[1])  # appendix body only
-
 
 if __name__ == "__main__":
     unittest.main()

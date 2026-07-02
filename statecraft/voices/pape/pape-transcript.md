@@ -1,7 +1,6 @@
 # Expert transcript — `pape`
 <!-- word_count: 7822 -->
 
-
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) that include `thread:pape` (first line + optional continuation paragraphs), routed on ingest.
 **codex-page:** **`statecraft/voices/pape/pape-page-YYYY-MM-DD.md`** — Verbatim / Reflection / Foresight artifact; points to **verbatim** in [`raw-input/`](../../sheets/source-archive-control/README.md). Distinct from a **`strategy-page`** fence in [`thread.md`](pape-thread.md) unless you duplicate judgment there during EOD compose. **Template:** [`pape-page-template.md`](pape-page-template.md).
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
@@ -49,16 +48,6 @@
 - X | cold: @ProfessorPape (**2026-04-17** ~08:07) — Israel–Lebanon truce as **signal of shifting global power** (more than ceasefire); claims **Iran** demanded end to **Israeli attacks in Lebanon** and **U.S. delivered**; amplifies **NYT Opinion** card on Iran as **major world power** (“4th” framing in card) // hook: **seam** vs **04-14** sectarian worst-case fork + vs Janssen **04-16** **“fourth center”** (different object); **op-ed tier** — not Pape independent ORBAT/power rank | https://x.com/ProfessorPape | verify:pin-exact-status-URL+nytimes-opinion-card+screenshot | thread:pape | grep:Lebanon+Pape+NYT+2026-04-17
 - batch-analysis | 2026-04-17 | **Pape X — 04-14 Lebanon fork × 04-17 truce / NYT power thesis** | **Tension-first:** **04-14** indexed ingest = **downside** / **civil-war** fork + **AP** Washington talks **seam**; **04-17** = **settlement / power-shift** read + **NYT** secondary thesis Pape spotlights — use **dated evolution**, not silent merge. **Homophone risk:** Janssen **04-16** **“fourth center”** (negotiation fork) ≠ NYT headline **“major world power”** / **“4th”** — **do not** equate in Judgment. **Membership:** `thread:pape` only.
 
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-27
 - Inbox | cold: full text in [`source-pape-2-blockades-2-clocks-2026-04-24.md`](../../../source-archive/statecraft/2026-04-24/source-pape-2-blockades-2-clocks-2026-04-24.md) (pointer; SSOT raw-input) | thread:pape
 - Inbox | cold: full text in [`source-pape-zero-sum-escalation-ladder-2026-04-21.md`](../../../source-archive/statecraft/2026-04-21/source-pape-zero-sum-escalation-ladder-2026-04-21.md) (pointer; SSOT raw-input) | thread:pape
@@ -94,17 +83,6 @@
 - YT | cold: **Robert A. Pape** × **Clayton Morris & Natali Morris** (*Redacted* — *The Collapse is Now "Ahead of Schedule"*) — **aired 2026-04-20** — **04-12** **10-day** **shortage** **prediction** **→** **“ahead** **of** **schedule”** **(~4–5** **days** **post);** **Escalation** **Trap** **Substack** **/** **sanctions** **stages** **(≈45d** **prices,** **45–60d** **shortages,** **60–90d** **contraction** **→** **May** **31);** **jet** **fuel** **Europe** **/** **Air** **Canada** **LaGuardia;** **Australia** **/** **India** **stress;** **Hormuz** **~20%** **oil** **+** **dual** **closure** **(Iran** **+** **US)** **frame;** **China** **visit** **—** **stockpile** **/** **~80%** **non-oil** **energy** **/** **quagmire** **helps** **China** **thesis;** **US** **energy** **independence** **vs** **policies** **hastening** **China** **#1;** **SPR** **/** **171** **tankers** **/** **~200M** **bbl** **hypothesis;** **Islamabad** **48h** **paper** **deal** **possible** **but** **low** **stickiness** **/** **Lebanon** **48h** **unwind** **parallel;** **zero-sum** **Hormuz** **+** **nuclear** **/** **Bombing** **to** **Win** **/** **~$40T** **debt** **risk;** **working** **class** **/** **truckers** **/** **gas** **relief** **pitch** **/** **Bessent** **/** **poll** **/** **Erie** **frame;** **consequences** **over** **conspiracy** // hook: **`thread:pape`** **supply** **/** **sanctions** **theory** **×** **`thread:davis`** **`thread:ritter`** **`thread:johnson`** **Hormuz** **week** **—** **not** **§1e** **without** **primaries** | https://www.youtube.com/watch?v=WemB-vfoMaw | verify:full-text+raw-input+aired:2026-04-20+canonical-URL | thread:pape | grep:Pape+Redacted+Hormuz+Escalation+Trap+collapse+Bessent
 - X | cold: @ProfessorPape (**2026-04-17** ~08:07) — Israel–Lebanon truce as **signal of shifting global power** (more than ceasefire); claims **Iran** demanded end to **Israeli attacks in Lebanon** and **U.S. delivered**; amplifies **NYT Opinion** card on Iran as **major world power** (“4th” framing in card) // hook: **seam** vs **04-14** sectarian worst-case fork + vs Janssen **04-16** **“fourth center”** (different object); **op-ed tier** — not Pape independent ORBAT/power rank | https://x.com/ProfessorPape | verify:pin-exact-status-URL+nytimes-opinion-card+screenshot | thread:pape | grep:Lebanon+Pape+NYT+2026-04-17
 - batch-analysis | 2026-04-17 | **Pape X — 04-14 Lebanon fork × 04-17 truce / NYT power thesis** | **Tension-first:** **04-14** indexed ingest = **downside** / **civil-war** fork + **AP** Washington talks **seam**; **04-17** = **settlement / power-shift** read + **NYT** secondary thesis Pape spotlights — use **dated evolution**, not silent merge. **Homophone risk:** Janssen **04-16** **“fourth center”** (negotiation fork) ≠ NYT headline **“major world power”** / **“4th”** — **do not** equate in Judgment. **Membership:** `thread:pape` only.
-
-
-
-
-
-
-
-
-
-
-
 
 ## 2026-04-26
 - Inbox | cold: full text in [`source-pape-2-blockades-2-clocks-2026-04-24.md`](../../../source-archive/statecraft/2026-04-24/source-pape-2-blockades-2-clocks-2026-04-24.md) (pointer; SSOT raw-input) | thread:pape
@@ -142,20 +120,6 @@
 - X | cold: @ProfessorPape (**2026-04-17** ~08:07) — Israel–Lebanon truce as **signal of shifting global power** (more than ceasefire); claims **Iran** demanded end to **Israeli attacks in Lebanon** and **U.S. delivered**; amplifies **NYT Opinion** card on Iran as **major world power** (“4th” framing in card) // hook: **seam** vs **04-14** sectarian worst-case fork + vs Janssen **04-16** **“fourth center”** (different object); **op-ed tier** — not Pape independent ORBAT/power rank | https://x.com/ProfessorPape | verify:pin-exact-status-URL+nytimes-opinion-card+screenshot | thread:pape | grep:Lebanon+Pape+NYT+2026-04-17
 - batch-analysis | 2026-04-17 | **Pape X — 04-14 Lebanon fork × 04-17 truce / NYT power thesis** | **Tension-first:** **04-14** indexed ingest = **downside** / **civil-war** fork + **AP** Washington talks **seam**; **04-17** = **settlement / power-shift** read + **NYT** secondary thesis Pape spotlights — use **dated evolution**, not silent merge. **Homophone risk:** Janssen **04-16** **“fourth center”** (negotiation fork) ≠ NYT headline **“major world power”** / **“4th”** — **do not** equate in Judgment. **Membership:** `thread:pape` only.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-25
 - X | cold: **Robert A. Pape** (@ProfessorPape) — **aired** **2026-04-21** (**~6:27** **AM** **+** **thread** **~14h**) — **ceasefire** **=** **zero-sum** **“next** **phase”** **not** **random** **breakdown;** **Hormuz** **/** **nuclear** **×** **U.S.** **power** **trilemma;** **ladder** **R1** **demonstration** **(tankers,** **disruptions,** **force** **moves)** **→** **R2** **damaging** **economic** **war** **/ infra** **/ ~20%** **Hormuz** **oil;** **R3** **expansion,** **Red** **Sea** **+** **Gulf,** **proxies,** **ground** **risk;** **Escalation** **Trap,** **month-by-month** **grind** // hook: **`thread:pape`** **×** **ceasefire** **/ §1e** **Hormuz** **—** **full** [provenance/2026-04-21/source-pape-zero-sum-escalation-ladder-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-pape-zero-sum-escalation-ladder-2026-04-21.md) | https://x.com/ProfessorPape | verify:full-text+provenance/2026-04-21/source-pape-zero-sum-escalation-ladder-2026-04-21.md+X-thread+2026-04-21+optional-status-permalinks+two-segments-truncated-in-paste | thread:pape | IRAN | grep:Pape+zero-sum+escalation+2026-04-21
 - SS | cold: **Robert Pape** — *Within 10 Days, Shortages Are Already Here* (*Escalation Trap* — **published** **2026-04-22**) — **blockade** **stage** **2** **(physical** **shortage** **+** **production** **stress)** **now;** **price** **→** **access** **inflection;** **EU** **jet** **fuel** **/** **KR** **plastics** **inputs** **/** **Asia** **workweek** **+** **fuel** **anecdotes** **/** **India** **reserves;** **Iraq** **1990s** **/** **Iran** **sanctions** **→** **consolidation** **not** **capitulation** **thesis;** **AP** **~33%** **approval** **cited;** **45–60d** **shortages** **→** **60–90d** **contraction** **→** **1973** **parallel** **/** **coupled-system** **severity** **warning** // hook: **`thread:pape`** **macro** **stages** **×** **`thread:davis`** **/** **`thread:ritter`** **material** **primaries** **—** **full** [provenance/2026-04-22/source-pape-within-10-days-shortages-already-2026-04-22.md](../../../source-archive/statecraft/2026-04-22/source-pape-within-10-days-shortages-already-2026-04-22.md) · **day** **page** [experts/pape/pape-page-2026-04-22.md](pape-page-2026-04-22.md) | https://escalationtrap.substack.com/p/within-10-days-shortages-are-already | verify:operator-paste+paywall-public+raw-input+per-claim-primaries-tier | thread:pape | IRAN | MACRO | grep:Pape+shortages+blockade+Escalation+Trap+2026-04-22
@@ -191,25 +155,9 @@
 - X | cold: @ProfessorPape (**2026-04-17** ~08:07) — Israel–Lebanon truce as **signal of shifting global power** (more than ceasefire); claims **Iran** demanded end to **Israeli attacks in Lebanon** and **U.S. delivered**; amplifies **NYT Opinion** card on Iran as **major world power** (“4th” framing in card) // hook: **seam** vs **04-14** sectarian worst-case fork + vs Janssen **04-16** **“fourth center”** (different object); **op-ed tier** — not Pape independent ORBAT/power rank | https://x.com/ProfessorPape | verify:pin-exact-status-URL+nytimes-opinion-card+screenshot | thread:pape | grep:Lebanon+Pape+NYT+2026-04-17
 - batch-analysis | 2026-04-17 | **Pape X — 04-14 Lebanon fork × 04-17 truce / NYT power thesis** | **Tension-first:** **04-14** indexed ingest = **downside** / **civil-war** fork + **AP** Washington talks **seam**; **04-17** = **settlement / power-shift** read + **NYT** secondary thesis Pape spotlights — use **dated evolution**, not silent merge. **Homophone risk:** Janssen **04-16** **“fourth center”** (negotiation fork) ≠ NYT headline **“major world power”** / **“4th”** — **do not** equate in Judgment. **Membership:** `thread:pape` only.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-24
 - Inbox | cold: full text in [`source-pape-2-blockades-2-clocks-2026-04-24.md`](../../../source-archive/statecraft/2026-04-24/source-pape-2-blockades-2-clocks-2026-04-24.md) (pointer; SSOT raw-input) | thread:pape
 
 ## 2026-05-03
 - Inbox | cold: full text in [`source-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md`](../../../source-archive/statecraft/2026-05-03/source-pape-what-the-first-60-days-actually-changed-and-why-the-next-30-will-be-worse-2026-05-03.md) (pointer; SSOT raw-input) | thread:pape
-
 

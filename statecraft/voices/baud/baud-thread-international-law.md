@@ -1,6 +1,5 @@
 # Baud topical thread — `international-law`
 
-
 Purpose: isolate the recurring **international-law / law-of-war / post-1945 order** lane inside the broader Baud corpus without confusing it with either the **person-centered** [baud-arc.md](baud-arc.md) or the **host-pair** arcs in the Davis, Dialogue Works, and Diesen streams.
 
 ## Boundary

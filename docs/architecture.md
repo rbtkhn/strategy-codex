@@ -1,6 +1,5 @@
 # Architecture — strategy-codex (active)
 
-
 Grace-Mar is archived/frozen. Active strategy-codex work does not grow the fork. See [docs/archive/grace-mar.md](archive/grace-mar.md).
 
 ## What the system is

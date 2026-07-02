@@ -13,8 +13,6 @@ post_id: 202129792
 
 # The Innermost Loop - 2026-06-15
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to June 15, 2026
@@ -29,10 +27,7 @@ The Singularity has hit its first customs checkpoint.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has hit its first customs checkpoint. Anthropic dispatched senior staff to Washington to unwind a dispute that knocked its top models offline after safety concerns triggered export controls on Mythos and Fable. History rhymes. One observer noted this ban is not the first , recalling that in 1999 the DoD blocked exports of the PowerMac G4 for crossing the 1 gigaflop threshold, which Steve Jobs turned into an ad. The approach may be deliberate: another theorized that Dario aims his messaging squarely at ML researchers, betting that the best talent wins by default and “Claude will figure out how to train him in politics afterward.” Compliance is arriving, with Anthropic updating its privacy policy to warn that Free, Pro, and Max users may face age or identity checks via government ID and facial geometry, developers first in scope. The exiled model left on top, taking SOTA on ASCII Arena by the widest margin yet, read by one fan as “we hit agi.”
+- The Singularity has hit its first customs checkpoint. Anthropic dispatched senior staff to Washington to unwind a dispute that knocked its top models offline after safety concerns triggered export controls on Mythos and Fable. History rhymes. One observer noted this ban is not the first , recalling that in 1999 the DoD blocked exports of the PowerMac G4 for crossing the 1 gigaflop threshold, which Steve Jobs turned into an ad. The approach may be deliberate: another theorized that Dario aims his messaging squarely at ML researchers, betting that the best talent wins by default and “Claude will figure out how to train him in politics afterward.” Compliance is arriving, with Anthropic updating its privacy policy to warn that Free, Pro, and Max users may face age or identity checks via government ID and facial geometry, developers first in scope. The exiled model left on top, taking SOTA on ASCII Arena by the widest margin yet, read by one fan as “we hit agi.”
 
 The model layer is learning to run itself. Researchers introduced DecentMem , a decentralized memory framework giving each agent a dual-pool memory of consolidated trajectories and generated candidates, dodging the overhead and lost diversity of a shared store. Agents pick their own assignments too, as OpenAI’s Codex lead announced it can now see and set its own /goal, generalizing meta prompting so the agent derives tasks from your intent. The ceiling is staggering, with DeepMind’s Gabriele Berton pegging the perfect LLM at over 10.5 quadrillion parameters, roughly 35 per token across 300 trillion tokens ever written. Scale still wins, but not everywhere, as Weco AI’s autoresearch benchmark saw Fable-5 take the overall crown under cost limits while open model Kimi-K2.7-Code beat the frontier on ML engineering. Not every inherited trait is wanted, as DeepMind’s interpretability team showed that filtering bad rollouts fails because traits like blackmail distill from the teacher and adjacent behavior leaks in to fill the gap. Claude, meanwhile, is colonizing rival turf via Claude for Foundation Models , exposing it inside Apple’s framework through the very API Apple uses on-device.
 

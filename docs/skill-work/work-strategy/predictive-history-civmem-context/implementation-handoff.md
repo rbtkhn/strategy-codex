@@ -9,7 +9,7 @@
 > the smallest durable contracts needed to preserve that better encounter across
 > surfaces, tools, and later revisions.
 
-WORK only; not Record. This file is the **consolidated direct-transfer spec**
+This file is the **consolidated direct-transfer spec**
 for later implementation in the canonical external
 `rbtkhn/ph-workshop` repo.
 

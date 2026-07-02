@@ -1,6 +1,5 @@
 # America God
 
-
 ## Purpose
 
 Use America's sacred-boundary memory as a statecraft lens for covenant, providence, rights, conscience, oath, civil religion, constitutional legitimacy, and liberty under law.

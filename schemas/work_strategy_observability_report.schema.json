@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://grace-mar.local/schemas/work_strategy_observability_report.schema.json",
   "title": "WorkStrategyObservabilityReport",
-  "description": "Derived aggregate over runtime carry-stack JSON artifacts — WORK-only; not Record.",
+  "description": "Derived aggregate over runtime carry-stack JSON artifacts — ",
   "type": "object",
   "additionalProperties": false,
   "required": [

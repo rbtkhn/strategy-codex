@@ -1,7 +1,5 @@
 # AI Interface As Operating Layer - 2028 Horizon
 
-WORK only; not Record.
-
 ## Source
 
 - Source strand: Moonshots EP #255, "AI operating system" discussion.

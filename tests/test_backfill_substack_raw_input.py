@@ -9,13 +9,11 @@ import backfill_pape_substack_raw_input as pape
 import backfill_ritter_site_raw_input as ritter_site
 import backfill_ritter_substack_raw_input as ritter
 
-
 def test_slug_from_substack_url() -> None:
     assert (
         substack._slug_from_url("https://example.substack.com/p/the-post-title")
         == "the-post-title"
     )
-
 
 def test_run_targets_urls_without_archive_scan(tmp_path, monkeypatch) -> None:
     calls: list[str] = []
@@ -57,7 +55,6 @@ def test_run_targets_urls_without_archive_scan(tmp_path, monkeypatch) -> None:
     assert "thread: pape" in text
     assert calls == ["https://escalationtrap.substack.com/api/v1/posts/a-real-time-test"]
 
-
 def test_pape_wrapper_refuses_broad_archive_scan_by_default(monkeypatch, capsys) -> None:
     monkeypatch.setattr(sys, "argv", ["backfill_pape_substack_raw_input.py"])
 
@@ -65,7 +62,6 @@ def test_pape_wrapper_refuses_broad_archive_scan_by_default(monkeypatch, capsys)
     err = capsys.readouterr().err
     assert "Refusing broad Pape archive scan by default" in err
     assert "not raw-input backlog" in err
-
 
 def test_ritter_wrappers_refuse_broad_archive_scan_by_default(monkeypatch, capsys) -> None:
     monkeypatch.setattr(sys, "argv", ["backfill_ritter_substack_raw_input.py"])
@@ -75,7 +71,6 @@ def test_ritter_wrappers_refuse_broad_archive_scan_by_default(monkeypatch, capsy
     monkeypatch.setattr(sys, "argv", ["backfill_ritter_site_raw_input.py"])
     assert ritter_site.main() == 2
     assert "Refusing broad Ritter archive scan by default" in capsys.readouterr().err
-
 
 def test_crooke_wrapper_refuses_broad_archive_scan_by_default(monkeypatch, capsys) -> None:
     monkeypatch.setattr(sys, "argv", ["backfill_crooke_substack_raw_input.py"])

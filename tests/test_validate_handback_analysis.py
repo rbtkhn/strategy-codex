@@ -10,7 +10,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "work_dev" / "validate_handback_analysis.py"
 
-
 def _run(stdin_json: str) -> tuple[int, str, str]:
     p = subprocess.run(
         [sys.executable, str(SCRIPT)],
@@ -21,7 +20,6 @@ def _run(stdin_json: str) -> tuple[int, str, str]:
         check=False,
     )
     return p.returncode, p.stdout, p.stderr
-
 
 def _openclaw_stage_payload(*, content: str, constitution_check_status: str, staged_risk_tier: str) -> dict[str, str]:
     """Minimal OpenClaw-shaped stage payload for handback-analysis validation."""
@@ -37,7 +35,6 @@ def _openclaw_stage_payload(*, content: str, constitution_check_status: str, sta
         "staged_risk_tier": staged_risk_tier,
     }
 
-
 def test_validate_ok_clear() -> None:
     payload = {
         "content": "summary\n\nCONSTITUTION_ADVISORY: status=advisory_clear; rule_ids=none",
@@ -46,7 +43,6 @@ def test_validate_ok_clear() -> None:
     rc, out, err = _run(json.dumps(payload))
     assert rc == 0
     assert err == ""
-
 
 def test_validate_mismatch_fails() -> None:
     payload = {
@@ -57,7 +53,6 @@ def test_validate_mismatch_fails() -> None:
     assert rc == 1
     assert "embedded" in err.lower() or "advisory" in err.lower()
 
-
 def test_validate_flagged_without_line_fails() -> None:
     payload = {
         "content": "no advisory line here",
@@ -66,7 +61,6 @@ def test_validate_flagged_without_line_fails() -> None:
     rc, _, err = _run(json.dumps(payload))
     assert rc == 1
     assert "advisory_flagged" in err
-
 
 def test_staged_risk_low_conflicts_with_high_concern_narrative() -> None:
     payload = {
@@ -77,7 +71,6 @@ def test_staged_risk_low_conflicts_with_high_concern_narrative() -> None:
     rc, _, err = _run(json.dumps(payload))
     assert rc == 1
     assert "staged_risk_tier" in err and "high-concern" in err
-
 
 def test_quick_merge_conflicts_with_high_concern_summary() -> None:
     payload = {
@@ -90,7 +83,6 @@ def test_quick_merge_conflicts_with_high_concern_summary() -> None:
     assert rc == 1
     assert "high-concern" in err
 
-
 def test_manual_escalate_conflicts_with_approval_like_narrative() -> None:
     payload = {
         "content": "Analysis: safe to merge; low risk after review.",
@@ -100,7 +92,6 @@ def test_manual_escalate_conflicts_with_approval_like_narrative() -> None:
     rc, _, err = _run(json.dumps(payload))
     assert rc == 1
     assert "approval-like" in err
-
 
 def test_manual_escalate_conflicts_with_no_blockers_narrative() -> None:
     payload = {
@@ -112,7 +103,6 @@ def test_manual_escalate_conflicts_with_no_blockers_narrative() -> None:
     assert rc == 1
     assert "approval-like" in err
 
-
 def test_low_tier_conflicts_with_escalation_narrative() -> None:
     payload = {
         "content": "Analysis: needs escalation before any handback action.",
@@ -123,7 +113,6 @@ def test_low_tier_conflicts_with_escalation_narrative() -> None:
     assert rc == 1
     assert "high-concern" in err
 
-
 def test_manual_escalate_allows_matching_rejection_narrative() -> None:
     payload = {
         "content": "Analysis: cannot approve; requires manual review.",
@@ -133,7 +122,6 @@ def test_manual_escalate_allows_matching_rejection_narrative() -> None:
     rc, out, err = _run(json.dumps(payload))
     assert rc == 0
     assert err == ""
-
 
 def test_openclaw_stage_payload_structured_conflict_manual_but_approves_fails() -> None:
     payload = _openclaw_stage_payload(
@@ -149,7 +137,6 @@ def test_openclaw_stage_payload_structured_conflict_manual_but_approves_fails() 
     rc, _, err = _run(json.dumps(payload))
     assert rc == 1
     assert "approval-like" in err
-
 
 def test_staged_risk_tier_omitted_skips_narrative_heuristic() -> None:
     payload = {

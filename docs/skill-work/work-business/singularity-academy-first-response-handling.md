@@ -1,6 +1,6 @@
 # Singularity-Academy First-Response Handling
 
-WORK only. This is an operator reply-routing sheet, not a script to use blindly.
+non-authoritative. This is an operator reply-routing sheet, not a script to use blindly.
 
 ## Purpose
 

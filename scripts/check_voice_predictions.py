@@ -79,11 +79,9 @@ DISALLOWED_EXCERPT_EXCEPTIONS = frozenset(
     {"under_30_verified", "summary_grade_capture", "stub_capture", "rhetorical_analogy"}
 )
 
-
 def capture_map_lookup(path: Path, *, guest_speaker: str) -> dict[tuple[str, str], dict]:
     rows = load_capture_map(path, guest_speaker=guest_speaker)
     return {(str(r["event_id"]), str(r["capture"])): r for r in rows}
-
 
 def capture_body_lookup(capture_map_path: Path, *, guest_speaker: str) -> dict[str, str]:
     bodies: dict[str, str] = {}
@@ -97,7 +95,6 @@ def capture_body_lookup(capture_map_path: Path, *, guest_speaker: str) -> dict[s
         _, body = parse_capture_frontmatter(cap_path.read_text(encoding="utf-8"))
         bodies[capture] = body
     return bodies
-
 
 def check_capture_map(
     config: VoiceConfig,
@@ -138,7 +135,6 @@ def check_capture_map(
             issues.append(f"{label}: {err}")
 
     return issues
-
 
 def check_json(
     path: Path,
@@ -307,7 +303,6 @@ def check_json(
 
     return issues
 
-
 def check_markdown(
     path: Path,
     *,
@@ -382,7 +377,6 @@ def check_markdown(
 
     return issues
 
-
 def run_check(
     *,
     config: VoiceConfig,
@@ -422,7 +416,6 @@ def run_check(
         )
     )
     return issues, []
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -467,7 +460,6 @@ def main() -> int:
         return 1
     print(f"[ok] {config.speaker} predictions valid")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

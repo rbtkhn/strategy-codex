@@ -9,13 +9,11 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture(autouse=True)
 def _scripts_on_path() -> None:
     p = str(REPO_ROOT / "scripts")
     if p not in sys.path:
         sys.path.insert(0, p)
-
 
 def test_self_skills_prefers_canonical_when_both_exist(tmp_path: Path) -> None:
     from repo_io import resolve_surface_markdown_path
@@ -25,7 +23,6 @@ def test_self_skills_prefers_canonical_when_both_exist(tmp_path: Path) -> None:
     p = resolve_surface_markdown_path(tmp_path, "self_skills")
     assert p.name == "self-skills.md"
 
-
 def test_self_skills_legacy_only(tmp_path: Path) -> None:
     from repo_io import resolve_surface_markdown_path
 
@@ -33,13 +30,11 @@ def test_self_skills_legacy_only(tmp_path: Path) -> None:
     p = resolve_surface_markdown_path(tmp_path, "self_skills")
     assert p.name == "skills.md"
 
-
 def test_self_skills_returns_canonical_target_when_missing(tmp_path: Path) -> None:
     from repo_io import resolve_surface_markdown_path
 
     p = resolve_surface_markdown_path(tmp_path, "self_skills")
     assert p == tmp_path / "self-skills.md"
-
 
 def test_self_evidence_archive_then_pointer(tmp_path: Path) -> None:
     from repo_io import resolve_surface_markdown_path
@@ -49,7 +44,6 @@ def test_self_evidence_archive_then_pointer(tmp_path: Path) -> None:
     p = resolve_surface_markdown_path(tmp_path, "self_archive")
     assert p.name == "self-archive.md"
 
-
 def test_self_evidence_pointer_only(tmp_path: Path) -> None:
     from repo_io import resolve_surface_markdown_path
 
@@ -57,13 +51,11 @@ def test_self_evidence_pointer_only(tmp_path: Path) -> None:
     p = resolve_surface_markdown_path(tmp_path, "self_archive")
     assert p.name == "self-evidence.md"
 
-
 def test_self_knowledge_raises(tmp_path: Path) -> None:
     from repo_io import resolve_surface_markdown_path
 
     with pytest.raises(ValueError, match="unknown surface"):
         resolve_surface_markdown_path(tmp_path, "not_a_real_surface")
-
 
 def test_resolve_profile_export_prefers_canonical(tmp_path: Path, monkeypatch) -> None:
     import repo_io
@@ -77,7 +69,6 @@ def test_resolve_profile_export_prefers_canonical(tmp_path: Path, monkeypatch) -
 
     path = repo_io.resolve_profile_export_path("strategy-codex", "manifest.json")
     assert path == profile / "manifest.json"
-
 
 def test_resolve_profile_export_legacy_fallback(tmp_path: Path, monkeypatch) -> None:
     import repo_io

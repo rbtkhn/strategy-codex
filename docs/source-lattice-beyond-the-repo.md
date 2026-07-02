@@ -1,6 +1,5 @@
 # Source-Lattice Beyond The Repo
 
-
 `Source-lattice` should not stay trapped as a local repo pattern.
 
 It names a more general knowledge discipline:

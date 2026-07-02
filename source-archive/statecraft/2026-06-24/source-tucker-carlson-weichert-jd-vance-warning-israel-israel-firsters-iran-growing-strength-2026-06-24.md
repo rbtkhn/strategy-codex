@@ -44,7 +44,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Monologue — Lebanon Casualties and Betrayal
 
 It's always a kind of sketchy proposition to cite casualty figures in the middle of a war. Because if there's one thing combatants, governments lie about, it's how many people have died. You can almost never get a straight answer. Everybody lies about it. They're lying about it now. Four and a half years in.

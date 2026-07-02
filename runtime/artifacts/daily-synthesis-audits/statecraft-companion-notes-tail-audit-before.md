@@ -1,7 +1,5 @@
 # Daily Synthesis Tail-Label Audit (Before)
 
-WORK only; not Record.
-
 - family: legacy `## Statecraft Notes` tail heading on migrated daily synthesis files
 - contract: `scripts/validate_statecraft_daily_synthesis.py` expects optional tail `Companion Notes -> Archival Note`
 - root: `statecraft/daily`

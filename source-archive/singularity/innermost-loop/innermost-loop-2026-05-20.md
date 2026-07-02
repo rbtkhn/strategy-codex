@@ -13,8 +13,6 @@ post_id: 198556061
 
 # The Innermost Loop - 2026-05-20
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 20, 2026
@@ -29,10 +27,7 @@ The Singularity now has a release calendar, a futures curve, and an encyclical.
 
 ## Newsletter Text
 
--
--
-
-The Singularity now has a release calendar, a futures curve, and an encyclical. At I/O, Google made Gemini 3.5 Flash generally available, beating Gemini 3.1 Pro on Terminal-Bench (76.2%), GDPval (1656 Elo), MCP Atlas (83.6%), and CharXiv (84.2%) at roughly 4x the speed. Gemini Omni collapsed text, image, audio, and video into one any-to-any model with SynthID baked in, while Pichai punted Gemini 3.5 Pro , asking the audience to “Give us until next month to get it to you.” One observer sniped that GPT-5.5-medium is already smarter and cheaper, suggesting “it might genuinely be over for anyone not named OpenAI or Anthropic.” The open frontier refuses to cede ground. Prime Intellect released a 4,504-task training env that tripled small-model BFCL via self-play, Odyssey’s new Agora-1 lets four players share a GoldenEye-trained deathmatch as a learned game engine, and Cursor’s Composer 2.5 wraps Moonshot’s Kimi K2.5 with 25x more synthetic tasks, with xAI co-training a 10x successor on Colossus 2.
+- The Singularity now has a release calendar, a futures curve, and an encyclical. At I/O, Google made Gemini 3.5 Flash generally available, beating Gemini 3.1 Pro on Terminal-Bench (76.2%), GDPval (1656 Elo), MCP Atlas (83.6%), and CharXiv (84.2%) at roughly 4x the speed. Gemini Omni collapsed text, image, audio, and video into one any-to-any model with SynthID baked in, while Pichai punted Gemini 3.5 Pro , asking the audience to “Give us until next month to get it to you.” One observer sniped that GPT-5.5-medium is already smarter and cheaper, suggesting “it might genuinely be over for anyone not named OpenAI or Anthropic.” The open frontier refuses to cede ground. Prime Intellect released a 4,504-task training env that tripled small-model BFCL via self-play, Odyssey’s new Agora-1 lets four players share a GoldenEye-trained deathmatch as a learned game engine, and Cursor’s Composer 2.5 wraps Moonshot’s Kimi K2.5 with 25x more synthetic tasks, with xAI co-training a 10x successor on Colossus 2.
 
 Science itself is being orchestrated. Gemini for Science ties Co-Scientist, AlphaEvolve+ERA, and NotebookLM into one stack, with Nature papers and 100+ partners. Distribution is scaling accordingly. The Gemini app just crossed 900M monthly users, and Google is processing 3.2 quadrillion tokens per month , up from 9.7T two years ago. The system tray itself is becoming agentic, with Android Halo pulsing whenever Gemini agents are at work, fed by Antigravity 2.0 (replacing Gemini CLI) and AI Studio’s one-prompt Android app builder . On the world-modeling side, Project Genie can now reskin Street View as “Stone Age” or “Ocean World.” Search AI Mode crossed 1B users on the biggest search-box upgrade in 25 years, while Universal Cart and the new AP2 protocol let Gemini Spark agents transact across merchants from Cloud VMs that run when devices are off. OpenAI’s verifier adopts Google’s SynthID, the one layer where the rivals converge. Apple chose accessibility , letting Vision Pro steer power wheelchairs by eye gaze. The flip side surfaced at IEEE, where imperceptible audio attacks hijacked 13 audio-LLMs at 79-96% success, while Amazon’s Alexa Podcasts generates on-demand episodes from AP and 200+ outlets. Anthropic, reversing course, told Glasswing partners it “fully supports” them sharing Mythos cyber findings publicly.
 

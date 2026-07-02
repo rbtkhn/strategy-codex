@@ -4,7 +4,6 @@ from __future__ import annotations
 
 from bot.avatar_controller import AvatarController, load_avatar_controller
 
-
 def test_load_disabled_when_voice_avatar_off() -> None:
     ctrl = load_avatar_controller({})
     assert not ctrl.enabled
@@ -13,7 +12,6 @@ def test_load_disabled_when_voice_avatar_off() -> None:
         {"voice_avatar": {"enabled": False, "avatar_type": "live2d"}}
     )
     assert not ctrl2.enabled
-
 
 def test_load_legacy_flat_when_voice_on() -> None:
     ctrl = load_avatar_controller(
@@ -28,7 +26,6 @@ def test_load_legacy_flat_when_voice_on() -> None:
     assert ctrl.enabled
     assert ctrl.avatar_type == "live2d"
 
-
 def test_load_nested_avatar_off_disables_despite_type() -> None:
     ctrl = load_avatar_controller(
         {
@@ -39,7 +36,6 @@ def test_load_nested_avatar_off_disables_despite_type() -> None:
         }
     )
     assert not ctrl.enabled
-
 
 def test_load_nested_avatar_on() -> None:
     ctrl = load_avatar_controller(
@@ -52,7 +48,6 @@ def test_load_nested_avatar_on() -> None:
     )
     assert ctrl.enabled
     assert ctrl.avatar_type == "vrm"
-
 
 def test_generate_commands_uses_runtime_emotion_mapping() -> None:
     ctrl = load_avatar_controller(
@@ -76,7 +71,6 @@ def test_generate_commands_uses_runtime_emotion_mapping() -> None:
     cmd = ctrl.generate_commands("hi", 0.6, None)
     assert cmd.emotion == "alert"
 
-
 def test_generate_commands_respects_scaffold_map() -> None:
     ctrl = AvatarController(avatar_type="live2d", model_path="x")
     cmd = ctrl.generate_commands(
@@ -86,7 +80,6 @@ def test_generate_commands_respects_scaffold_map() -> None:
     )
     assert cmd.emotion == "smiling"
     assert cmd.speaking is True
-
 
 def test_send_to_renderer_uses_custom_sender() -> None:
     seen: list[dict] = []

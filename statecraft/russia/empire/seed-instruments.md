@@ -1,6 +1,5 @@
 # Russia Empire Instrument
 
-
 ## Purpose
 
 Use this object as the phase-one Russia empire-side carrier for the symmetric-first CIV-STATE migration. It names the outward instruments through which Russia tries to secure strategic depth, bargaining leverage, and recognition without letting security memory harden into self-defeating overreach.

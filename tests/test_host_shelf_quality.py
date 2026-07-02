@@ -13,10 +13,8 @@ if str(SCRIPTS) not in sys.path:
 
 import host_shelf_quality as quality  # noqa: E402
 
-
 def _caption(words: int = 90) -> str:
     return " ".join(f"word{i}" for i in range(words))
-
 
 def _write_raw(
     notebook_root: Path,
@@ -60,7 +58,6 @@ def _write_raw(
     raw.write_text("\n".join(fields) + "\n", encoding="utf-8")
     return raw
 
-
 def _notebook(tmp_path: Path) -> Path:
     notebook_root = tmp_path / "codex" / "2026"
     obj = notebook_root / "speakers" / "scott-ritter" / "scott-ritter-speaker-object.md"
@@ -70,7 +67,6 @@ def _notebook(tmp_path: Path) -> Path:
     arc.parent.mkdir(parents=True, exist_ok=True)
     arc.write_text("# Davis x Scott Ritter\n", encoding="utf-8")
     return notebook_root
-
 
 def test_quality_counts_all_grades_and_excludes_summary_and_legacy_from_valid_percent(tmp_path: Path) -> None:
     notebook_root = _notebook(tmp_path)
@@ -102,7 +98,6 @@ def test_quality_counts_all_grades_and_excludes_summary_and_legacy_from_valid_pe
     assert summary["transcript_valid_percent"] == 60.0
     assert summary["input_scope"] == "provided-paths"
 
-
 def test_unresolved_speaker_rows_are_counted_but_not_routeable(tmp_path: Path) -> None:
     notebook_root = _notebook(tmp_path)
     paths = [
@@ -122,7 +117,6 @@ def test_unresolved_speaker_rows_are_counted_but_not_routeable(tmp_path: Path) -
     assert summary["routeable_artifact_count"] == 1
     assert summary["unresolved_speaker_count"] == 1
     assert summary["counts"]["transcript-bearing"] == 2
-
 
 def test_prior_artifact_comparison_produces_structure_and_purity_deltas(tmp_path: Path) -> None:
     notebook_root = _notebook(tmp_path)
@@ -150,7 +144,6 @@ def test_prior_artifact_comparison_produces_structure_and_purity_deltas(tmp_path
     assert summary["deltas"]["routeable_artifact_count"] == 1
     assert summary["deltas"]["transcript_valid_count"] == 1
     assert "Structure: +1 routeable" in summary["closeout_line"]
-
 
 def test_residual_noise_and_normalization_state_are_reported(tmp_path: Path) -> None:
     notebook_root = _notebook(tmp_path)
@@ -180,7 +173,6 @@ def test_residual_noise_and_normalization_state_are_reported(tmp_path: Path) -> 
     assert artifact["residual_noise_terms"] == ["Cining", "Rigul", "Tajjikistan"]
     assert "## Residual Noise" in markdown
     assert "normalization `proper-noun-pass`" in markdown
-
 
 def test_residual_noise_detects_operator_paste_artifacts_seen_in_live_runs(tmp_path: Path) -> None:
     notebook_root = _notebook(tmp_path)
@@ -213,7 +205,6 @@ def test_residual_noise_detects_operator_paste_artifacts_seen_in_live_runs(tmp_p
         "Thrron",
     ]
 
-
 def test_write_reports_for_paths_can_expand_to_full_host_month(tmp_path: Path) -> None:
     notebook_root = _notebook(tmp_path)
     selected = _write_raw(notebook_root, "selected", pub_date="2026-04-12")
@@ -230,7 +221,6 @@ def test_write_reports_for_paths_can_expand_to_full_host_month(tmp_path: Path) -
     assert len(summaries) == 1
     assert summaries[0]["input_scope"] == "full-host-month"
     assert summaries[0]["raw_input_count"] == 2
-
 
 def test_cli_apply_writes_json_and_markdown_with_naming_warning(tmp_path: Path, capsys) -> None:
     notebook_root = _notebook(tmp_path)
@@ -262,7 +252,6 @@ def test_cli_apply_writes_json_and_markdown_with_naming_warning(tmp_path: Path, 
     assert payload["input_scope"] == "full-host-month"
     assert (output_root / "2026" / "davis" / "2026-04" / "quality-summary.json").is_file()
     assert (output_root / "2026" / "davis" / "2026-04" / "quality-summary.md").is_file()
-
 
 def test_scoped_git_state_does_not_claim_verified_when_paths_are_missing(
     tmp_path: Path, monkeypatch

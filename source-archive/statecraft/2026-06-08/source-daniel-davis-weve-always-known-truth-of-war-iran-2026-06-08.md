@@ -37,7 +37,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 On February 28th, 2026, President Trump took the United States to war against Iran. In his opening statement that night, he made a number of uh promises about things that we were going to do to Iran, uh how we were going to win the war, all the objectives we were going to accomplish.

@@ -9,12 +9,10 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 REPORT_PATH = REPO_ROOT / "runtime" / "artifacts" / "repo-convergence-report.json"
 LOG_PATH = REPO_ROOT / "runtime" / "operator-events" / "repo-convergence.jsonl"
 
-
 def _read_bytes_or_none(path: Path) -> bytes | None:
     if not path.is_file():
         return None
     return path.read_bytes()
-
 
 def _restore_bytes(path: Path, content: bytes | None) -> None:
     if content is None:
@@ -24,13 +22,11 @@ def _restore_bytes(path: Path, content: bytes | None) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(content)
 
-
 def _path_stat(path: Path) -> tuple[float, int] | None:
     if not path.is_file():
         return None
     st = path.stat()
     return st.st_mtime, st.st_size
-
 
 class _preserve_file:
     def __init__(self, path: Path) -> None:
@@ -44,7 +40,6 @@ class _preserve_file:
     def __exit__(self, exc_type, exc, tb) -> None:
         _restore_bytes(self.path, self.content)
 
-
 def test_run_repo_convergence_explain():
     proc = subprocess.run(
         [sys.executable, "scripts/run_repo_convergence.py", "--explain"],
@@ -55,7 +50,6 @@ def test_run_repo_convergence_explain():
     assert proc.returncode == 0, proc.stdout + proc.stderr
     assert "statecraft_predictions" in proc.stdout
 
-
 def test_run_repo_convergence_check():
     proc = subprocess.run(
         [sys.executable, "scripts/run_repo_convergence.py", "--check", "--quiet"],
@@ -64,7 +58,6 @@ def test_run_repo_convergence_check():
         text=True,
     )
     assert proc.returncode == 0, proc.stdout + proc.stderr
-
 
 def test_check_does_not_write_report_or_log():
     before_report = _path_stat(REPORT_PATH)
@@ -87,7 +80,6 @@ def test_check_does_not_write_report_or_log():
     assert _path_stat(REPORT_PATH) == before_report
     assert _path_stat(LOG_PATH) == before_log
 
-
 def test_hash_excludes_convergence_artifacts():
     sys.path.insert(0, str(REPO_ROOT / "scripts"))
     from run_repo_convergence import (  # noqa: E402
@@ -105,7 +97,6 @@ def test_hash_excludes_convergence_artifacts():
         REPORT_PATH.write_text("temporary convergence report mutation\n", encoding="utf-8")
         after = hash_paths(("runtime/artifacts",))
         assert before == after
-
 
 def test_record_report_writes_in_check_mode():
     with _preserve_file(REPORT_PATH), _preserve_file(LOG_PATH):
@@ -132,7 +123,6 @@ def test_record_report_writes_in_check_mode():
             assert after[1] > 0
         else:
             assert after[0] >= before[0]
-
 
 def test_topo_sort_detects_cycle():
     sys.path.insert(0, str(REPO_ROOT / "scripts"))
@@ -163,7 +153,6 @@ def test_topo_sort_detects_cycle():
     finally:
         reg.LOOPS.clear()
         reg.LOOPS.update(original)
-
 
 def test_registry_scripts_exist():
     sys.path.insert(0, str(REPO_ROOT / "scripts"))

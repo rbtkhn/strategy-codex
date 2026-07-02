@@ -36,7 +36,6 @@ SIGNAL_VECTOR_DIMENSIONS = (
     "entropy_score",
 )
 
-
 def _parse_date(value: str | None) -> date | None:
     if not value:
         return None
@@ -45,10 +44,8 @@ def _parse_date(value: str | None) -> date | None:
     except ValueError:
         return None
 
-
 def _date_add(d: date, days: int) -> date:
     return d + timedelta(days=days)
-
 
 def build_signal_vector(
     signal_block: dict[str, Any] | None,
@@ -70,7 +67,6 @@ def build_signal_vector(
         round(float((semantic_block or {}).get("entropy_score") or 0.0), 4),
     ]
 
-
 def _collect_shift_dates(timeline_event: dict[str, Any] | None) -> list[date]:
     shifts_root = (timeline_event or {}).get("shifts") or {}
     dates: list[date] = []
@@ -87,7 +83,6 @@ def _collect_shift_dates(timeline_event: dict[str, Any] | None) -> list[date]:
                 dates.append(parsed)
     return dates
 
-
 def derive_regime_shift_label(
     *,
     timeline_event: dict[str, Any] | None,
@@ -103,7 +98,6 @@ def derive_regime_shift_label(
             return "shift"
     return "no_shift"
 
-
 def _sorted_entries(timeline_event: dict[str, Any] | None) -> list[dict[str, Any]]:
     entries = (timeline_event or {}).get("entries") or []
     if not isinstance(entries, list):
@@ -112,7 +106,6 @@ def _sorted_entries(timeline_event: dict[str, Any] | None) -> list[dict[str, Any
         [e for e in entries if isinstance(e, dict)],
         key=lambda e: str(e.get("date") or ""),
     )
-
 
 def _slice_timeline_event(
     timeline_event: dict[str, Any] | None,
@@ -133,7 +126,6 @@ def _slice_timeline_event(
         "latest_by_speaker": latest,
         "shifts": timeline_event.get("shifts") or {},
     }
-
 
 def _snapshot_at_anchor(
     event_id: str,
@@ -166,7 +158,6 @@ def _snapshot_at_anchor(
     )
     idx = min(anchor_index, len(snapshots) - 1) if snapshots else 0
     return (snapshots[idx] if snapshots else 0.0), snapshots
-
 
 def derive_delta_label(
     event_id: str,
@@ -220,7 +211,6 @@ def derive_delta_label(
         "p_future": round(p_future, 4),
     }
 
-
 def derive_convergence_label(
     event_id: str,
     event: dict[str, Any],
@@ -269,7 +259,6 @@ def derive_convergence_label(
         return "diverged"
     return "stable"
 
-
 def predict_regime_shift(
     event_id: str,
     *,
@@ -288,7 +277,6 @@ def predict_regime_shift(
     else:
         predicted = "no_shift"
     return {"predicted_outcome": predicted, "task_source": "heuristic_v1"}
-
 
 def predict_delta(
     event_id: str,
@@ -313,7 +301,6 @@ def predict_delta(
         predicted = "flat"
     return {"predicted_outcome": predicted, "task_source": "heuristic_v1"}
 
-
 def predict_convergence(
     *,
     signal_vector: list[float],
@@ -332,7 +319,6 @@ def predict_convergence(
         predicted = "stable"
     return {"predicted_outcome": predicted, "task_source": "heuristic_v1"}
 
-
 def _voice_states_at_anchor(timeline_event: dict[str, Any] | None, anchor_date: str) -> dict[str, str]:
     anchor = _parse_date(anchor_date)
     if not anchor:
@@ -344,7 +330,6 @@ def _voice_states_at_anchor(timeline_event: dict[str, Any] | None, anchor_date: 
         for speaker, row in latest.items()
         if isinstance(row, dict)
     }
-
 
 def build_task_examples(
     *,
@@ -476,7 +461,6 @@ def build_task_examples(
 
     return examples
 
-
 def build_task_payload(
     *,
     registry: dict[str, dict[str, Any]] | None = None,
@@ -522,7 +506,6 @@ def build_task_payload(
         "examples": examples,
     }
 
-
 def main() -> int:
     import argparse
     import json
@@ -558,7 +541,6 @@ def main() -> int:
         f"({payload['_meta']['task_scope']['example_count']} example(s))"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

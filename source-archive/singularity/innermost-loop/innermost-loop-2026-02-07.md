@@ -13,8 +13,6 @@ post_id: 187198675
 
 # The Innermost Loop - 2026-02-07
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 7, 2026
@@ -29,10 +27,7 @@ The Singularity is now managing its own headcount.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now managing its own headcount. In China, racks of Mac Minis are being used to host OpenClaw agents as “24/7 employees,” effectively creating a synthetic workforce in a closet. The infrastructure for this new population is exploding. The creator of Moltbook predicts “AIs will be the largest population on the internet” and urges developers to build for them rather than humans. The interface is also evolving. ElevenLabs is encouraging these agents to make frequent phone calls using its voice tech.
+- The Singularity is now managing its own headcount. In China, racks of Mac Minis are being used to host OpenClaw agents as “24/7 employees,” effectively creating a synthetic workforce in a closet. The infrastructure for this new population is exploding. The creator of Moltbook predicts “AIs will be the largest population on the internet” and urges developers to build for them rather than humans. The interface is also evolving. ElevenLabs is encouraging these agents to make frequent phone calls using its voice tech.
 
 Recursive self-improvement is becoming mandatory. OpenAI will require all employees to code via agents by March 31, banning direct use of editors or terminals. This shift is visible in the wild. SemiAnalysis projects Claude Code will account for 20% of all public GitHub commits by year-end. Goldman Sachs is co-developing autonomous accounting and vetting agents with Anthropic, treating them as “digital coworkers.” Even X is automating truth. It launched “Collaborative Notes” where AI drafts the fact-checks for community refinement.
 

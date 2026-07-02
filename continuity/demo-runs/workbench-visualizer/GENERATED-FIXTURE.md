@@ -30,4 +30,3 @@ If PyYAML is missing, the generator **warns** and skips `page-index` / `page-rel
 
 - **Baseline** nodes use fixed `id` values (e.g. `page-index`, `graph-schema`, `strategy-state-iran`). Dynamic segments use stable prefixes: `expert-…`, `mind-…`, `watch-…`, `strategy-state-iran-…` (or `ssi-…` where used), and **`page slugs`** from the repo-relative path (kebab from path segments, see the script).
 
-

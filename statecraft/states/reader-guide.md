@@ -1,6 +1,5 @@
 # Reader Guide
 
-
 This guide explains how to read **Civilizational Statecraft** correctly.
 
 The work is not a neutral shelf of civilizational notes. It is a comparative statesman's book built to answer a harder question:

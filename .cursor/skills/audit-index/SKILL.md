@@ -118,7 +118,6 @@ Phrases: **`audit index table`**, **`index table june 28`**, **`show index table
 
 Report: scope, exit code, findings summary, fix command if fail, whether `--fix` was applied. Name files read (bounded day-index only) vs files rebuilt.
 
-
 ## Cursor / strategy-codex instance
 
 Repo-specific paths and commands for **audit-index** (from `.cursor/skills/audit-index/`).

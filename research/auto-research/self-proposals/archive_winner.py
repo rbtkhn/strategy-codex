@@ -14,15 +14,12 @@ EXPERIMENTS_DIR = SELF_PROPOSALS_DIR / "experiments"
 ACCEPTED_DIR = SELF_PROPOSALS_DIR / "accepted"
 ARTIFACT_SCHEMA_VERSION = 1
 
-
 def _load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def _proposal_fingerprint(proposal: dict) -> str:
     payload = json.dumps(proposal, sort_keys=True, ensure_ascii=True)
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()
-
 
 def _best_existing_scalar(directory: Path) -> float | None:
     best: float | None = None
@@ -38,7 +35,6 @@ def _best_existing_scalar(directory: Path) -> float | None:
                 best = value
     return best
 
-
 def _fingerprint_exists(directory: Path, fingerprint: str) -> bool:
     for path in sorted(directory.glob("*.json")):
         try:
@@ -48,7 +44,6 @@ def _fingerprint_exists(directory: Path, fingerprint: str) -> bool:
         if payload.get("proposal_fingerprint") == fingerprint:
             return True
     return False
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Archive a winning self-proposal experiment.")
@@ -136,7 +131,6 @@ def main() -> int:
     out_path.write_text(json.dumps(artifact, indent=2) + "\n", encoding="utf-8")
     print(out_path)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

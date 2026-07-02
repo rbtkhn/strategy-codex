@@ -1,7 +1,5 @@
 # Diesen x Freeman speaker arc
 
-WORK only; not Record.
-
 Purpose: explain why the recurring `Diesen x Freeman` lane matters as a host-local conversational form. This is an interpretive routing note downstream of raw-input accumulation, not a provenance ledger, generic Freeman profile, or lattice row.
 
 ## Why this guest run matters

@@ -50,7 +50,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Thursday, June 18, 2026. And our dear friend, our brother Andrei Martyanov is here with us. Welcome back, Andrei. >> My pleasure. >> Andrei, finally we got the text. We got theou the document. And I'm sure that you've seen the document, the points in that document. How did you find it? Oh, I mean it's memorandum.

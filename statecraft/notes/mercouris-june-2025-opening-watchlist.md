@@ -18,7 +18,6 @@ archive_links:
 ---
 # Mercouris June 2025 Opening Watchlist
 
-
 ## Purpose
 
 Open a bounded June 2025 Mercouris watchlist before any broader repair claims are made.

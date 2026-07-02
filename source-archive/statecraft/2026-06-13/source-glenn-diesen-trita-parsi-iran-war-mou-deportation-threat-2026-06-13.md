@@ -45,7 +45,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back. We are joined today by Trita Parcy, the executive vice president of the Quincy Institute for Responsible Statecraft.

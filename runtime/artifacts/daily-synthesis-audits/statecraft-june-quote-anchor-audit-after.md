@@ -1,7 +1,5 @@
 # June Week Quote-Anchor Audit (After)
 
-WORK only; not Record.
-
 - window: `2026-06-03`, `2026-06-04`, `2026-06-06`, `2026-06-07`
 - repair: extended nine anchors from landed `source-archive` lines only
 

@@ -1,6 +1,5 @@
 # China Secondary Sources - Medieval
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the medieval China primary shelf when dynastic restoration, conquest absorption, bureaucratic continuity, or examination order need clearer chronology or institutional context.

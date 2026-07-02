@@ -1,6 +1,5 @@
 # Freeman Raw-Input Index
 
-
 Compatibility pointer only.
 
 The canonical Freeman source route map now lives at [freeman-source-index.md](freeman-source-index.md).

@@ -81,7 +81,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Frozen Assets
 
 Hi everybody. Today's Tuesday, June 23rd, 2026, and our dear friend, our brother, Professor Marandi, is here with us. Welcome back. >> Thank you, Nima. It's always a great pleasure and an honor being on your show. Let me start with what has happened yesterday and the way that because part of what has happened in Switzerland is Iranian

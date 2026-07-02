@@ -19,12 +19,10 @@ if str(_SCRIPTS) not in sys.path:
 
 from voice_prediction_pilot import VOICE_REGISTRY, get_voice_config  # noqa: E402
 
-
 def load_timeline(path: Path) -> dict[str, Any]:
     if not path.is_file():
         return {"events": {}}
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def check_speaker_enrollment(
     speaker: str,
@@ -46,7 +44,6 @@ def check_speaker_enrollment(
                 "(latest_by_speaker, shift, or review)"
             )
     return issues
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -96,7 +93,6 @@ def main() -> int:
         return 0
     print("[ok] notes-lane enrollment check passed")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

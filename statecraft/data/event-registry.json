@@ -19,7 +19,8 @@
     "horizon": "medium",
     "outcome_record": "pending",
     "first_seen": "2025-04-22",
-    "last_seen": "2025-04-22"
+    "last_seen": "2025-04-22",
+    "dimensions": []
   },
   "gaza_ceasefire_holds_2025": {
     "question": "Will the Jan 2025 Gaza arrangement hold as a durable ceasefire (not merely a temporary pause)?",
@@ -44,7 +45,8 @@
     "horizon": "medium",
     "outcome_record": "correct",
     "first_seen": "2025-01-21",
-    "last_seen": "2025-10-10"
+    "last_seen": "2025-10-10",
+    "dimensions": []
   },
   "gaza_hostage_deal_jan_2025": {
     "question": "Will a Gaza hostage-exchange ceasefire deal be reached?",
@@ -67,7 +69,8 @@
     "horizon": "medium",
     "outcome_record": "correct",
     "first_seen": "2025-01-14",
-    "last_seen": "2025-01-21"
+    "last_seen": "2025-01-21",
+    "dimensions": []
   },
   "gulf_crisis_macro_shock": {
     "question": "Will a Gulf crisis produce a macroeconomic shock?",
@@ -91,7 +94,8 @@
     "horizon": "short",
     "outcome_record": "pending",
     "first_seen": "2025-06-01",
-    "last_seen": "2025-06-01"
+    "last_seen": "2025-06-01",
+    "dimensions": []
   },
   "iran_airpower_cannot_force_submission": {
     "question": "Can U.S./Israeli air and naval power force Iran to submit?",
@@ -115,7 +119,8 @@
     "horizon": "short",
     "outcome_record": "pending",
     "first_seen": "2025-06-01",
-    "last_seen": "2025-06-01"
+    "last_seen": "2025-06-01",
+    "dimensions": []
   },
   "iran_great_power_direct_war_entry": {
     "question": "Will Russia or China directly enter a US-Iran war on Iran's side (combat forces, not arms/tech transfers alone)?",
@@ -137,7 +142,8 @@
     "horizon": "medium",
     "outcome_record": "pending",
     "first_seen": "2025-03-28",
-    "last_seen": "2025-03-28"
+    "last_seen": "2025-03-28",
+    "dimensions": []
   },
   "israel_sabotages_exit_ramps": {
     "question": "Will Israel sabotage diplomatic exit ramps in regional wars?",
@@ -161,7 +167,8 @@
     "horizon": "medium",
     "outcome_record": "pending",
     "first_seen": "2025-01-01",
-    "last_seen": "2025-01-01"
+    "last_seen": "2025-01-01",
+    "dimensions": []
   },
   "israel_self_destruction_trajectory": {
     "question": "Is Israel on a self-destructive trajectory (international isolation, moral authority loss, military overextension)?",
@@ -246,7 +253,8 @@
     "horizon": "medium",
     "outcome_record": "pending",
     "first_seen": "2025-01-01",
-    "last_seen": "2025-01-01"
+    "last_seen": "2025-01-01",
+    "dimensions": []
   },
   "russia_odessa_control": {
     "question": "Will Russian forces establish administrative control over Odessa before 2026-12-31?",
@@ -265,7 +273,8 @@
     "horizon": "medium",
     "outcome_record": "pending",
     "first_seen": "2025-01-01",
-    "last_seen": "2025-01-01"
+    "last_seen": "2025-01-01",
+    "dimensions": []
   },
   "ukraine_escalation_russian_capitulation": {
     "question": "Will Trump's Kellogg-style escalation-to-deescalate produce Russian capitulation in Ukraine negotiations?",
@@ -287,7 +296,8 @@
     "horizon": "medium",
     "outcome_record": "correct",
     "first_seen": "2025-01-10",
-    "last_seen": "2025-01-10"
+    "last_seen": "2025-01-10",
+    "dimensions": []
   },
   "ukraine_western_aid_prolongs_war": {
     "question": "Will Western aid prolong the Ukraine war without producing Ukrainian victory?",
@@ -311,7 +321,8 @@
     "horizon": "medium",
     "outcome_record": "pending",
     "first_seen": "2025-01-01",
-    "last_seen": "2025-01-01"
+    "last_seen": "2025-01-01",
+    "dimensions": []
   },
   "us_forward_presence_obsolete": {
     "question": "Is U.S. forward military presence becoming strategically obsolete?",
@@ -335,7 +346,8 @@
     "horizon": "medium",
     "outcome_record": "pending",
     "first_seen": "2025-01-01",
-    "last_seen": "2025-01-01"
+    "last_seen": "2025-01-01",
+    "dimensions": []
   },
   "us_israel_iran_war_preparation_2025": {
     "question": "Are Israel and Iran actively preparing for direct war (force posture, threats, procurement)?",
@@ -357,6 +369,7 @@
     "horizon": "medium",
     "outcome_record": "pending",
     "first_seen": "2025-01-21",
-    "last_seen": "2025-01-21"
+    "last_seen": "2025-01-21",
+    "dimensions": []
   }
 }

@@ -1,7 +1,5 @@
 # From Accumulation To A Governed Interpretive Machine
 
-work only; not Record.
-
 ## The Short Version
 
 `strategy-codex` is no longer becoming more useful mainly by storing more

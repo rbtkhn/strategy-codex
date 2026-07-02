@@ -126,7 +126,6 @@ Elizabeth’s suspension of capital punishment functions as political
 Legal and court directives frame mercy as loyalty-binding technology:
 signal rather than humanitarian reform.
 
-
 severity hardens resistance, clemency personalizes authority.
 
 Massie explains Elizabeth's use of mercy as governance:

@@ -44,7 +44,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Wednesday, June 3rd, 2026 and I'm here to talk about what has happened last night between Iran and the United States. There were some sort of fighting happening last night and all of a sudden it happened and you remember know I was repeating that this blockade is going to escalate and escalate so fast because Iran is not happy with the situation with the blockade.

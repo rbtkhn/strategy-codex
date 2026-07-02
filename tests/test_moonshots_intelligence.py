@@ -25,10 +25,8 @@ from mcp_receipt_lib import validate_json_schema  # noqa: E402
 FIXTURE_ARCHIVE = REPO_ROOT / "tests" / "fixtures" / "moonshots_synthetic_archive.md"
 SCHEMA_PATH = REPO_ROOT / "schemas" / "singularity" / "moonshots-intelligence.schema.json"
 
-
 def _load_schema() -> dict:
     return json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
-
 
 def _make_bullet(evidence_id: str, evidence_text: str, n: int) -> dict:
     return {
@@ -39,12 +37,10 @@ def _make_bullet(evidence_id: str, evidence_text: str, n: int) -> dict:
         "evidence": evidence_text,
     }
 
-
 def test_segment_lossless_synthetic():
     ingested = ingest_archive(FIXTURE_ARCHIVE)
     segments = segment_body(ingested.body)
     assert segments_lossless(ingested.body, segments)
-
 
 def test_evidence_extraction_min_words():
     ingested = ingest_archive(FIXTURE_ARCHIVE)
@@ -54,7 +50,6 @@ def test_evidence_extraction_min_words():
     for block in blocks:
         assert block.word_count >= 30
         assert excerpt_in_capture(block.text, ingested.body)
-
 
 def test_reject_paraphrased_evidence():
     ingested = ingest_archive(FIXTURE_ARCHIVE)
@@ -68,7 +63,6 @@ def test_reject_paraphrased_evidence():
         evidence_by_id=evidence_by_id,
     )
     assert any("paraphrased" in e.reason for e in errors)
-
 
 def test_reject_stitched_evidence():
     ingested = ingest_archive(FIXTURE_ARCHIVE)
@@ -85,7 +79,6 @@ def test_reject_stitched_evidence():
         evidence_by_id=evidence_by_id,
     )
     assert any("stitched" in e.reason for e in errors)
-
 
 def test_assemble_and_schema_validate():
     ingested = ingest_archive(FIXTURE_ARCHIVE)
@@ -123,11 +116,9 @@ def test_assemble_and_schema_validate():
     )
     validate_json_schema(document, SCHEMA_PATH)
 
-
 def test_output_basename_includes_episode_number():
     ingested = ingest_archive(FIXTURE_ARCHIVE)
     assert ingested.meta.get("episode_number") == 999
-
 
 def test_compile_dry_run():
     result = compile_archive(
@@ -138,7 +129,6 @@ def test_compile_dry_run():
     )
     assert result["evidence_count"] >= 3
     assert result.get("dry_run") is True
-
 
 def test_compile_with_bullets_json(tmp_path: Path):
     ingested = ingest_archive(FIXTURE_ARCHIVE)

@@ -33,7 +33,6 @@ When the operator says `monthly deepening`, route to the `periodic-statecraft-re
 
 This file must not contain independent judgment-review doctrine. Put workflow composition in the runbook and current methodology in active skills.
 
-
 ## Cursor / strategy-codex instance
 
 Grace-mar paths and commands for this repository (from `.cursor/skills/monthly-deepening/`).
@@ -71,7 +70,6 @@ python scripts/validate_skills.py
 python scripts/build_statecraft_day_indices.py --day YYYY-MM-DD
 python scripts/build_statecraft_day_dashboard.py --thread mercouris --slug mercouris-thread
 ```
-
 
 ## Cursor / strategy-codex instance
 

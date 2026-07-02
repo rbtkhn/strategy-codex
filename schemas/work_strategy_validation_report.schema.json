@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://grace-mar.local/schemas/work_strategy_validation_report.schema.json",
   "title": "WorkStrategyValidationReport",
-  "description": "Derived validation report from validate_strategy_packet.py — WORK-only; not Record.",
+  "description": "Derived validation report from validate_strategy_packet.py — ",
   "type": "object",
   "additionalProperties": false,
   "required": [

@@ -1,6 +1,5 @@
 # Blumenthal speaker object
 
-
 object_shape: cross-host-reinforced
 
 Purpose: define Blumenthal as a first-class speaker object without overstating him as a mature helix. Unlike Mercouris or Parsi, he does not currently have one thick native cognition-stream body on this shelf. Unlike Marandi, Ritter, or Mearsheimer, he is not yet best entered through a mature host-local arc pair. Blumenthal is best read here as a **cross-host reinforced commentary object** whose clearest strengths are media-legitimacy critique, elite-access suspicion, and U.S.-domestic amplification of Middle East crisis narratives.

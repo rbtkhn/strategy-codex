@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `jermy`
 <!-- word_count: 4878 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Jermy triple-helix structure.
@@ -42,7 +41,6 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 
 **Hormuz** and **carrier-risk** geometry sit beside **Ukraine** strategy commentary in the same **Deep Dive** feed Ã¢â‚¬â€ rough-order **macro** (oil, escalation) stays **hypothesis-grade** until wire rows pin prices and force facts.
 
-
 Cross-lane convergence and tension are notebook-native concepts. For 2026-01, read Ãƒâ€” davis, Ãƒâ€” ritter, Ãƒâ€” mearsheimer (in-show cite) as the default **short list** of other experts whose fingerprints commonly collide with `jermy` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
 
 When historical expert context artifacts exist for `jermy` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-01 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
@@ -64,7 +62,6 @@ Verification stance for Steve Jermy (Commodore, RN ret.) in 2026-01 should stay 
 
 **Peacemonger** and **Deep Dive** feeds widen audience Ã¢â‚¬â€ Iran **strategy** Ã¢â‚¬Å“lost at seaÃ¢â‚¬Â framing sits next to **Ukraine guarantees** skepticism; keep **diesel / closure recovery** thesis distinct from pure **kinetic** analysis.
 
-
 Typical pairings on file for `jermy` emphasize contrast surfaces: Ãƒâ€” davis, Ãƒâ€” ritter, Ãƒâ€” mearsheimer (in-show cite). In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-02 segment should be read as **mesh navigation**Ã¢â‚¬â€which lanes to pull into the same batch passÃ¢â‚¬â€rather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
 
 When historical expert context artifacts exist for `jermy` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-02 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
@@ -84,7 +81,6 @@ Verification stance for Steve Jermy (Commodore, RN ret.) in 2026-02 should stay 
 
 **Strait** reopening / **policing** proposals vs **military** constraints Ã¢â‚¬â€ oil **price band** references in show notes stay **tier-B** until **ICE/benchmark** rows are pinned in strategy work.
 
-
 Open pins belong in prose, not only as bullets. For this `jermy` month segment, explicitly reserve space for **what remains unresolved**: which claims await transcript confirmation, which geopolitical sub-claims depend on translation or primary document access, and which institutional facts are stable enough to reuse in weave scaffolding. That habit keeps later strategy passes from mistaking silence for certainty.
 
 When historical expert context artifacts exist for `jermy` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-03 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
@@ -94,7 +90,6 @@ Verification stance for Steve Jermy (Commodore, RN ret.) in 2026-03 should stay 
 If pages named this expert during 2026-03, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃ¢â‚¬â€absence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
 
 The 2026-03 segment for the Steve Jermy (Commodore, RN ret.) lane (`jermy`) exists so the notebook keeps a **prose spine** alongside any strength-tagged bullets. The roster describes this voice as centered on EnergyÃ¢â‚¬â€œGDP / maritime system: Hormuz closure recovery lags (Ever GivenÃ¢â‚¬â€œstyle knock-on), diesel Ã¢â€ â€™ supply chain / semis / fertilizer; rough-order macro slides vs currency-first economics; close vs distant blockade risk geometry. That one-line role is not a substitute for transcript truth; it is a **routing label** so batch-analysis passes know which mechanism vocabulary to expect when dated material lands. When this month is still partial or ingest-light, the prose layer still records **where verification should attach** (page cites, transcript rows, or hub URLs) without pretending those pins are already closed.
-
 
 Open pins belong in prose, not only as bullets. For this `jermy` month segment, explicitly reserve space for **what remains unresolved**: which claims await transcript confirmation, which geopolitical sub-claims depend on translation or primary document access, and which institutional facts are stable enough to reuse in weave scaffolding. That habit keeps later strategy passes from mistaking silence for certainty.
 
@@ -136,7 +131,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 - **2026-03** Ã¢â‚¬â€ Reopening Strait of Hormuz Realities Ã¢â‚¬â€ YouTube.
   _Source:_ web: `https://www.youtube.com/watch?v=DY0on4YdpPY`
 
-
 ### 2026-04
 
 - **2026-04** Ã¢â‚¬â€ Notebook cross-ref (partial month).
@@ -151,7 +145,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 _Partial month Ã¢â‚¬â€ April Segment 2 is **Page references** to Hormuz blockade / Armstrong cash arcs; no new Jermy transcript line indexed above._
 
 Jermy **closure / reopening Hormuz** Q1 lane aligns with **April** Ritter blockade weave and Armstrong **cash / digital dollar** synthesis Page Ã¢â‚¬â€ energy-system compare, not ORBAT duplicate.
-
 
 Typical pairings on file for `jermy` emphasize contrast surfaces: Ãƒâ€” davis, Ãƒâ€” ritter, Ãƒâ€” mearsheimer (in-show cite). In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-04 segment should be read as **mesh navigation**Ã¢â‚¬â€which lanes to pull into the same batch passÃ¢â‚¬â€rather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
 

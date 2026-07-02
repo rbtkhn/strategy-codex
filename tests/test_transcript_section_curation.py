@@ -30,7 +30,6 @@ from transcript_section_curation import (  # noqa: E402
     write_interview_section_patch_capture,
 )
 
-
 def test_insert_sections_splits_on_anchors_and_last_runs_to_eof():
     body = "Open line. First anchor section one. Second anchor section two tail."
     out = insert_sections(
@@ -41,7 +40,6 @@ def test_insert_sections_splits_on_anchors_and_last_runs_to_eof():
     assert out.startswith("### Open\n\nOpen line.")
     assert "### One\n\nFirst anchor section one." in out
     assert "### Two\n\nSecond anchor section two tail." in out
-
 
 def test_insert_sections_applies_asr_cleanup_before_split():
     body = "Start. Professor Dieng speaks. Next anchor part."
@@ -54,20 +52,16 @@ def test_insert_sections_applies_asr_cleanup_before_split():
     assert "Professor Jiang speaks" in out
     assert "Professor Dieng" not in out
 
-
 def test_normalize_for_anchor_unicode_punctuation():
     assert normalize_for_anchor("Let's — go") == "let's - go"
-
 
 def test_detect_body_marker_statecraft_transcript():
     doc = "---\ntitle: x\n---\n\n## Transcript\n\nHello."
     assert detect_body_marker(doc) == "## Transcript\n"
 
-
 def test_detect_body_marker_cleaned_transcript():
     doc = "---\ntitle: x\n---\n\n## Cleaned Transcript\n\nHello."
     assert detect_body_marker(doc) == "## Cleaned Transcript\n"
-
 
 def test_split_transcript_document_cleaned_transcript():
     doc = "---\n---\n\n## Cleaned Transcript\n\nBody here."
@@ -75,13 +69,11 @@ def test_split_transcript_document_cleaned_transcript():
     assert marker == "## Cleaned Transcript\n"
     assert body.strip() == "Body here."
 
-
 def test_split_transcript_document():
     doc = "---\n---\n\n## Transcript\n\nBody here."
     head, marker, body = split_transcript_document(doc)
     assert marker == "## Transcript\n"
     assert body.strip() == "Body here."
-
 
 def test_mark_sectioned_frontmatter_adds_curation_field():
     head = "---\ntitle: test\nsource_note: \"landed\"\n---\n\n"
@@ -90,19 +82,16 @@ def test_mark_sectioned_frontmatter_adds_curation_field():
     assert "source-section pass" in out
     assert "(3 sections)" in out
 
-
 def _word_tokens(text: str) -> list[str]:
     import re
 
     return re.findall(r"\b\w+\b", text)
-
 
 def _body_tokens_excluding_headings(text: str) -> list[str]:
     import re
 
     stripped = re.sub(r"^### .+$", "", text, flags=re.M)
     return re.findall(r"\b\w+\b", stripped)
-
 
 def test_reflow_runon_monologue_creates_paragraph_breaks():
     sentences = [
@@ -117,7 +106,6 @@ def test_reflow_runon_monologue_creates_paragraph_breaks():
     assert "\n\n" in chunk
     assert count_words(out) == count_words(body)
 
-
 def test_reflow_preserves_word_tokens():
     body = (
         "### One — Topic\n\n"
@@ -127,13 +115,11 @@ def test_reflow_preserves_word_tokens():
     out = reflow_section_paragraphs(body, soft_max_para_words=8, hard_max_para_words=12)
     assert _word_tokens(body) == _word_tokens(out)
 
-
 def test_reflow_idempotent_when_already_paragraphed():
     body = "### One — Topic\n\nShort opener.\n\nAnother short block."
     once = reflow_section_paragraphs(body)
     twice = reflow_section_paragraphs(once)
     assert once == twice
-
 
 def test_reflow_preserves_interview_speaker_and_turn_markers():
     body = (
@@ -147,7 +133,6 @@ def test_reflow_preserves_interview_speaker_and_turn_markers():
     assert out.count(">>") >= 1
     assert "**Guest:**" in out
     assert _word_tokens(body) == _word_tokens(out)
-
 
 def test_reflow_splits_long_labeled_speaker_turn():
     runon = (
@@ -163,7 +148,6 @@ def test_reflow_splits_long_labeled_speaker_turn():
     assert chunk.count("\n\n") >= 1
     assert _word_tokens(body) == _word_tokens(out)
 
-
 def test_insert_sections_plus_reflow_keeps_headings_and_words():
     body = "Open. First anchor middle text. Second anchor tail text."
     sectioned = insert_sections(body, ["A", "B", "C"], ["first anchor", "second anchor"])
@@ -173,13 +157,11 @@ def test_insert_sections_plus_reflow_keeps_headings_and_words():
     assert "### C" in reflowed
     assert _body_tokens_excluding_headings(sectioned) == _body_tokens_excluding_headings(reflowed)
 
-
 def test_split_sentences_respects_u_s_abbreviation():
     text = "Strikes hit U.S. bases. Now, Iran responds."
     sents = split_sentences(text)
     assert len(sents) == 2
     assert sents[0].startswith("Strikes hit U.S.")
-
 
 def test_pack_sentences_prefers_discourse_pivot_break():
     sentences = ["Alpha one two three four five six seven."] + [
@@ -194,7 +176,6 @@ def test_pack_sentences_prefers_discourse_pivot_break():
     assert len(paras) >= 2
     assert any(p.strip().startswith("Now,") for p in paras[1:])
 
-
 def test_inject_dialogue_works_missing_turn_marker_before_host_cue():
     raw = (
         ">> I I think they're out of Jordan. Iran will know where they came from. "
@@ -202,7 +183,6 @@ def test_inject_dialogue_works_missing_turn_marker_before_host_cue():
     )
     injected = inject_dialogue_works_missing_turn_markers(raw)
     assert ">> My understanding today, Larry" in injected
-
 
 def test_inject_section_open_turn_marker_for_johnson_guest_opener():
     body = (
@@ -212,7 +192,6 @@ def test_inject_section_open_turn_marker_for_johnson_guest_opener():
     out = inject_section_open_turn_markers(body)
     assert ">> I mean, let's just last night's attacks" in out
 
-
 def test_inject_section_open_turn_marker_for_guest_opener():
     body = (
         "### Forked Tongue — Test\n\n"
@@ -221,11 +200,9 @@ def test_inject_section_open_turn_marker_for_guest_opener():
     out = inject_section_open_turn_markers(body)
     assert ">> Nima these are really good questions" in out
 
-
 def test_guest_opener_guess_mcgovern_forked_tongue():
     assert _guess_dialogue_works_host("Nima these are really good questions.") is False
     assert _guess_dialogue_works_host("Yeah. The question is Rey, is the United States") is True
-
 
 def test_apply_interview_section_body_section_boundary_guest_opener():
     body = (
@@ -247,7 +224,6 @@ def test_apply_interview_section_body_section_boundary_guest_opener():
     assert "**Ray McGovern:** Nima these are really good questions." in out
     assert "**Nima Alkhorshid:** Yeah. My understanding" in out
     assert turns >= 2
-
 
 def test_write_sectioned_capture_interview_reflow_after_labels():
     work = ROOT / ".codex-tmp" / "pytest-section-curation"
@@ -276,7 +252,6 @@ def test_write_sectioned_capture_interview_reflow_after_labels():
     assert ">>" not in text.split("## Transcript", 1)[1]
     capture.unlink(missing_ok=True)
 
-
 def test_write_sectioned_capture_resection_flattens_existing():
     work = ROOT / ".codex-tmp" / "pytest-section-curation"
     work.mkdir(parents=True, exist_ok=True)
@@ -300,13 +275,11 @@ def test_write_sectioned_capture_resection_flattens_existing():
     assert "### One — First" not in text
     capture.unlink(missing_ok=True)
 
-
 def test_flatten_sectioned_body_drops_headings():
     body = "### One — A\n\nLine one.\n\n### Two — B\n\nLine two."
     flat = flatten_sectioned_body(body)
     assert "###" not in flat
     assert "Line one." in flat and "Line two." in flat
-
 
 def test_normalize_dialogue_works_host_label_suffix():
     raw = (
@@ -317,7 +290,6 @@ def test_normalize_dialogue_works_host_label_suffix():
     out = normalize_dialogue_works_host_label_suffix(raw)
     assert "(host)" not in out
     assert out.count("**Nima Alkhorshid:**") == 3
-
 
 def test_apply_interview_labels_splits_merged_strike_origins_turn():
     raw = (
@@ -333,7 +305,6 @@ def test_apply_interview_labels_splits_merged_strike_origins_turn():
     assert "**Nima Alkhorshid:** Yeah, they've already" in labeled
     assert ">>" not in labeled
 
-
 def test_apply_manual_asr_substitutions_counts_groups():
     text, n = apply_manual_asr_substitutions(
         "Baharin and Strait of form",
@@ -341,7 +312,6 @@ def test_apply_manual_asr_substitutions_counts_groups():
     )
     assert n == 2
     assert "Bahrain" in text and "Strait of Hormuz" in text
-
 
 def test_validate_section_anchors_reports_missing():
     body = "Open. First anchor here. Second anchor tail."
@@ -352,7 +322,6 @@ def test_validate_section_anchors_reports_missing():
     )
     assert len(errs) == 1
     assert "missing anchor" in errs[0].lower() or "not found" in errs[0].lower()
-
 
 def test_write_interview_section_patch_capture_sections_and_receipt():
     work = ROOT / ".codex-tmp" / "pytest-section-curation"

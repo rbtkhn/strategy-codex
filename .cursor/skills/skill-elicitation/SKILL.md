@@ -111,7 +111,7 @@ Default shape: ask 3-5 concrete MCQs or short-answer prompts, summarize the capt
 
 ## Guardrails
 
-- **WORK only.** No edits to `self.md`, `self-archive.md`, or `archive/grace-mar-instance/bot/prompt.py`.
+- **non-authoritative.** No edits to `self.md`, `self-archive.md`, or `archive/grace-mar-instance/bot/prompt.py`.
 - **Review-first.** Show checkpoint summaries before writing. Do not populate files silently.
 - **Not Record truth.** Elicitation outputs are operator working notes, not identity claims. They inform downstream lanes by reference, not automatic propagation.
 - **Not a dumping ground.** Each entry should be useful to at least one downstream lane. If it's not actionable, it doesn't belong.

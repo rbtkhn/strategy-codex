@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Iran Says Will Close Hormuz Straits As US Prepares Attack; Rubio Admits Russian Demands Unchanged
 
-

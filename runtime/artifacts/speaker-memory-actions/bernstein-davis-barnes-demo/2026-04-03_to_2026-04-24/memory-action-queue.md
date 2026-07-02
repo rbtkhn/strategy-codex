@@ -1,7 +1,5 @@
 # Speaker memory action queue
 
-WORK only; not Record.
-
 Window: `2026-04-03` to `2026-04-24`
 
 - `high` `update-existing-arc` `codex/years/2026/davis/davis-barnes-speaker-arc.md` (2 appearance(s))

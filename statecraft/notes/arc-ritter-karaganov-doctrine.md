@@ -33,7 +33,6 @@ nodes:
 
 **Reconciled:** 2026-06-22 · Prior `arc-ritter-2026-01-to-2026-06-karaganov-doctrine.md` → `arc-ritter-karaganov-doctrine.md` (dates out of filename; span in YAML)
 
-
 **Parent:** [Ritter source index](../voices/ritter/ritter-source-index.md) · [June 2026 opening watchlist](./june-2026-opening-watchlist.md) · [McGovern × Ritter SPIEF week contrast](./2026-06-15-mou-week-napolitano-bench-seam.md) (Europe register only)
 
 **Primary Karaganov voice on disk (compare):** [Diesen × Mearsheimer × Karaganov, 2026-06-13](../../source-archive/statecraft/2026-06-13/source-glenn-diesen-mearsheimer-karaganov-nuclear-strike-europe-restore-deterrence-2026-06-13.md)

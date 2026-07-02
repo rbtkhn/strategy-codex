@@ -5,7 +5,6 @@ from pathlib import Path
 
 import build_innermost_loop_longitudinal as longitudinal
 
-
 def _capture(
     root: Path,
     day: str,
@@ -25,7 +24,7 @@ def _capture(
                 "",
                 f"# The Innermost Loop - {day}",
                 "",
-                "WORK only; not Record.",
+                "",
                 "",
                 "## Source",
                 "",
@@ -42,7 +41,6 @@ def _capture(
         encoding="utf-8",
     )
     return path
-
 
 def test_build_index_detects_fronts_and_keeps_source_links(tmp_path: Path) -> None:
     raw_root = tmp_path / "raw"
@@ -71,7 +69,6 @@ def test_build_index_detects_fronts_and_keeps_source_links(tmp_path: Path) -> No
     assert model_front["matched_terms"]["models"] == 1
     assert model_front["matched_terms"]["benchmark"] == 1
 
-
 def test_boilerplate_is_ignored_and_gaps_are_preserved(tmp_path: Path) -> None:
     raw_root = tmp_path / "raw"
     _capture(
@@ -90,7 +87,6 @@ def test_boilerplate_is_ignored_and_gaps_are_preserved(tmp_path: Path) -> None:
     second_labels = [front["label"] for front in index["items"][1]["detected_fronts"]]
     assert "Robotics and embodiment" in second_labels
 
-
 def test_low_confidence_matches_are_reviewed_not_timeline_signals(tmp_path: Path) -> None:
     raw_root = tmp_path / "raw"
     _capture(raw_root, "2026-05-04", "One human concern appeared once.")
@@ -102,7 +98,6 @@ def test_low_confidence_matches_are_reviewed_not_timeline_signals(tmp_path: Path
     assert item["detected_fronts"][0]["confidence"] == "low"
     assert item["detected_fronts"][0]["slug"] == "trust-provenance-and-human-meaning"
     assert index["front_timelines"]["trust-provenance-and-human-meaning"] == []
-
 
 def test_run_writes_stable_outputs_and_readme_section(tmp_path: Path) -> None:
     raw_root = tmp_path / "raw"

@@ -1,6 +1,5 @@
 # Crooke routing
 
-
 Purpose: answer which Crooke surface to open first without collapsing authored and interview source classes or duplicating host chronology.
 
 ## Core rule

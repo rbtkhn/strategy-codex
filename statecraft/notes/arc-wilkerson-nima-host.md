@@ -21,7 +21,6 @@ archive_links:
 
 # Dialogue Works x Wilkerson speaker arc
 
-
 ## Why this guest run matters
 
 The `Dialogue Works x Wilkerson` lane matters because it gives the notebook a repeated **live-pressure imperial and military-statecraft reading** inside a host stream built for sharp crisis-surface questioning.

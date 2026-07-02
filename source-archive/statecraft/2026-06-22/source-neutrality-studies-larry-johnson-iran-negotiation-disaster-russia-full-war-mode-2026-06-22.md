@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back everybody to neutrality studies today for an update with the one and only Larry Johnson. Larry, welcome back. >> Thanks, Pascal. You're you're a busy man traveling the world. >> Well, you are busy, too. You're now By the way, before we start, I mean, you started a venture with Pepe Escobar, and you are now having an a new channel up and running, right? Do you want to tell them about this before first? >> Yeah, transition protocol.

@@ -16,17 +16,14 @@ FIXTURE_NOTEBOOK = (
     Path(__file__).resolve().parent / "fixtures" / "compile_strategy_view" / "notebook"
 )
 
-
 def test_extract_machine_layer() -> None:
     text = "pre\n<!-- strategy-expert-thread:start -->\ninner\n<!-- strategy-expert-thread:end -->\n"
     assert extract_machine_layer(text) == "inner"
-
 
 def test_expert_id_from_thread_path() -> None:
     nb = FIXTURE_NOTEBOOK
     p = nb / "experts" / "demo" / "thread.md"
     assert expert_id_from_thread_path(p, nb) == "demo"
-
 
 def test_build_bundle_fixture(tmp_path: Path) -> None:
     out = tmp_path / "bundle.md"
@@ -48,7 +45,6 @@ def test_build_bundle_fixture(tmp_path: Path) -> None:
     assert "Unhobbling queue tail" in md
     assert "fixture-tool" in md
     assert "### Unhobbling (frontier and tools)" in md
-
 
 def test_build_bundle_expert_filter_excludes() -> None:
     md = build_bundle(

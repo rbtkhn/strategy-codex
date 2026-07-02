@@ -1,6 +1,5 @@
 # Baltic Framework - Three-Lane Comparison
 
-
 | lane | wants | fears | workable formula |
 | --- | --- | --- | --- |
 | Russia | block overattribution | coalition hardening | inquiry before retaliation |

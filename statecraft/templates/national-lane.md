@@ -1,6 +1,5 @@
 # National Lane Template
 
-
 Use this template when seeding a national drafting lane inside academy-statecraft. The lane is not a country encyclopedia. It is a compact bench for turning contemporary analysis and historical statecraft discipline into draftable instruments.
 
 Mature form: the lane should become a book and a machine. The book side tells the evidence-backed story of a civilization under power. The machine side stages reviewable updates from current events, transactions, objection matrices, and scenario tests.

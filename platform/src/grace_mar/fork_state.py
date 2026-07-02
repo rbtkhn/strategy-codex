@@ -20,14 +20,11 @@ DEFAULT_POLICIES: dict[str, Any] = {
     "snapshot_drift_threshold": 0.45,
 }
 
-
 def _utc_now() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-
 def fork_state_path(repo_root: Path, fork_id: str) -> Path:
     return repo_root / "platform/users" / fork_id / "fork_state.json"
-
 
 def load_fork_state(repo_root: Path, fork_id: str) -> dict[str, Any] | None:
     path = fork_state_path(repo_root, fork_id)
@@ -38,7 +35,6 @@ def load_fork_state(repo_root: Path, fork_id: str) -> dict[str, Any] | None:
     except (json.JSONDecodeError, OSError):
         return None
 
-
 def write_fork_state(repo_root: Path, fork_id: str, state: dict[str, Any]) -> None:
     path = fork_state_path(repo_root, fork_id)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -46,7 +42,6 @@ def write_fork_state(repo_root: Path, fork_id: str, state: dict[str, Any]) -> No
     state["fork_id"] = fork_id
     state["updated_at"] = _utc_now()
     path.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
 
 def default_fork_state(fork_id: str, *, seed_commit: str = "") -> dict[str, Any]:
     now = _utc_now()
@@ -69,7 +64,6 @@ def default_fork_state(fork_id: str, *, seed_commit: str = "") -> dict[str, Any]
         "policies": dict(DEFAULT_POLICIES),
     }
 
-
 def ensure_fork_state(repo_root: Path, fork_id: str) -> dict[str, Any]:
     existing = load_fork_state(repo_root, fork_id)
     if existing:
@@ -77,7 +71,6 @@ def ensure_fork_state(repo_root: Path, fork_id: str) -> dict[str, Any]:
     state = default_fork_state(fork_id)
     write_fork_state(repo_root, fork_id, state)
     return state
-
 
 # (from_phase, to_phase) — spec §1 Invariant D
 _ALLOWED_TRANSITIONS: frozenset[tuple[str, str]] = frozenset(
@@ -93,10 +86,8 @@ _ALLOWED_TRANSITIONS: frozenset[tuple[str, str]] = frozenset(
     }
 )
 
-
 def can_transition(from_phase: str, to_phase: str) -> bool:
     return (from_phase, to_phase) in _ALLOWED_TRANSITIONS
-
 
 def transition_fork_phase(
     repo_root: Path,
@@ -119,18 +110,14 @@ def transition_fork_phase(
     write_fork_state(repo_root, fork_id, st)
     return st
 
-
 def sessions_base(repo_root: Path, fork_id: str) -> Path:
     return repo_root / "platform/users" / fork_id / "sessions"
-
 
 def snapshots_base(repo_root: Path, fork_id: str) -> Path:
     return repo_root / "platform/users" / fork_id / "snapshots"
 
-
 def lineage_path(repo_root: Path, fork_id: str) -> Path:
     return repo_root / "platform/users" / fork_id / "fork-lineage.jsonl"
-
 
 def drift_report_path(repo_root: Path, fork_id: str) -> Path:
     return repo_root / "platform/users" / fork_id / "drift-report.json"

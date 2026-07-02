@@ -43,10 +43,8 @@ ARTIFACT_SOURCES = (
     },
 )
 
-
 def _timestamp() -> str:
     return datetime.now(timezone.utc).isoformat()
-
 
 def _safe_relpath(path: Path) -> str:
     try:
@@ -54,10 +52,8 @@ def _safe_relpath(path: Path) -> str:
     except ValueError:
         return str(path.resolve())
 
-
 def _load_json(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def list_swarm_artifacts() -> list[dict[str, Any]]:
     artifacts: list[dict[str, Any]] = []
@@ -88,7 +84,6 @@ def list_swarm_artifacts() -> list[dict[str, Any]]:
     artifacts.sort(key=lambda row: row["mtime"], reverse=True)
     return artifacts
 
-
 def refresh_swarm_state(*, user_id: str = DEFAULT_USER) -> dict[str, Any]:
     artifacts = list_swarm_artifacts()
     pending = [row for row in artifacts if not row["promoted_to_gate_at"]]
@@ -107,12 +102,10 @@ def refresh_swarm_state(*, user_id: str = DEFAULT_USER) -> dict[str, Any]:
     STATE_PATH.write_text(json.dumps(state, indent=2) + "\n", encoding="utf-8")
     return state
 
-
 def read_swarm_state(*, user_id: str = DEFAULT_USER, refresh: bool = True) -> dict[str, Any]:
     if refresh or not STATE_PATH.exists():
         return refresh_swarm_state(user_id=user_id)
     return _load_json(STATE_PATH)
-
 
 def format_swarm_status(state: dict[str, Any]) -> str:
     recent = state.get("recent_runtime/artifacts") or []
@@ -141,7 +134,6 @@ def format_swarm_status(state: dict[str, Any]) -> str:
         lines.extend(["", "No accepted artifacts found yet."])
     return "\n".join(lines)
 
-
 def format_last_artifact(summary: dict[str, Any] | None) -> str:
     if not summary:
         return "No swarm-visible artifacts found yet."
@@ -165,7 +157,6 @@ def format_last_artifact(summary: dict[str, Any] | None) -> str:
         lines.append("staged_candidate: not promoted yet")
     return "\n".join(lines)
 
-
 def get_latest_artifact(*, pending_first: bool = True) -> dict[str, Any] | None:
     artifacts = list_swarm_artifacts()
     if not artifacts:
@@ -176,7 +167,6 @@ def get_latest_artifact(*, pending_first: bool = True) -> dict[str, Any] | None:
         if not artifact["promoted_to_gate_at"]:
             return artifact
     return artifacts[0]
-
 
 def resolve_artifact_reference(reference: str) -> dict[str, Any]:
     ref = (reference or "").strip()
@@ -199,7 +189,6 @@ def resolve_artifact_reference(reference: str) -> dict[str, Any]:
         if artifact["artifact_relpath"] == ref or artifact["artifact_name"] == ref:
             return artifact
     raise ValueError(f"Unknown swarm artifact reference: {reference}")
-
 
 def promote_swarm_artifact(
     artifact_reference: str,
@@ -224,7 +213,6 @@ def promote_swarm_artifact(
     result["swarm_state"] = state
     return result
 
-
 def run_auto_dream(
     *,
     user_id: str = DEFAULT_USER,
@@ -239,10 +227,8 @@ def run_auto_dream(
         strict_mode=strict_mode,
     )
 
-
 def format_auto_dream_status(summary: dict[str, Any]) -> str:
     return _format_auto_dream_summary(summary)
-
 
 def run_debate_review(
     artifact_reference: str,
@@ -253,10 +239,8 @@ def run_debate_review(
     artifact = resolve_artifact_reference(artifact_reference)
     return _run_debate_review(Path(artifact["artifact_path"]), user_id=user_id, write=write, repo_root=REPO_ROOT)
 
-
 def format_debate_status(review: dict[str, Any]) -> str:
     return _format_debate_summary(review)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Swarm read model and promotion helpers")
@@ -312,7 +296,6 @@ def main() -> int:
     except ValueError as exc:
         raise SystemExit(str(exc))
     raise SystemExit(f"Unknown command: {args.command}")
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

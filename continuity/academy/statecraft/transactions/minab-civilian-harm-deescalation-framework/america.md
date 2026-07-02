@@ -1,7 +1,6 @@
 # America - Minab Civilian-Harm De-Escalation Framework
 <!-- word_count: 1010 -->
 
-
 ## Transaction Name
 
 Civilian-harm recognition and protected-channel assurance.

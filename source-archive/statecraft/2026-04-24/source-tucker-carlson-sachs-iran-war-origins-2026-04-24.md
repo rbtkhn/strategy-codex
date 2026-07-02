@@ -23,23 +23,15 @@ title_slug: sachs-carlson-iran-war-origins-2026-04-24
 
 Jeff, thanks a lot for doing this.
 
-
-
 **Jeffrey Sachs:**
 
 great to be with you.
-
-
 
 **Tucker Carlson:**
 
 Where does it go from here? The war in Iran.
 
-
-
-
 ## The fork in the road
-
 
 **Jeffrey Sachs:**
 
@@ -53,11 +45,7 @@ And what we can suspect on that alternative is that the Iranians will of course 
 
 And while I'm an economist, simple economist, not a military analyst, having watched this for decades and tried to understand from the military analysts, I think it would be but a few weeks before a very large part of the infrastructure of the region was destroyed
 
-
-
-
 ## Iran, 1953, and the origins of the conflict
-
 
 **Jeffrey Sachs:**
 
@@ -85,15 +73,9 @@ So when Trump gives his explanations for the current war, he says, "Oh, nuclear 
 
 What a horrible Orwellian term for destroying another country's economy. We've been doing that for decades.
 
-
-
-
 ## Nuclear narrative and the JCPOA
 
-
-
 ## Clean Break and Greater Israel
-
 
 **Jeffrey Sachs:**
 
@@ -125,25 +107,17 @@ But what he thinks he learned from kidnapping the Venezuelan president and then 
 
 so I don't abide by any of those reasons, but there were reasons for this war. And taking the off-ramp means that none of those would be fulfilled. From my point of view, fine. None of them was valid. But from the point of view of the two architects of this war, Trump and Netanyahu, that's quite hard to do. But as I said, the alternative, which is an escalated war within a few weeks, could destroy the world economy
 
-
-
 **Tucker Carlson:**
 
 to Thank you for that. That was Sorry to go on. I loved it. I loved it. and it's much needed because there's always a context. You did this with the Ukraine war once in this room and I've never stopped thinking about it. thank you for that. Couple quick follow-up questions. You talked about the ongoing war against Rome by the United States now 46 years since 1980, first a proxy war with Iraq, etc. , etc. There are reports that the United States in addition to all of that has used geoengineering to evoke a drought in Iran. Is that true?
-
-
 
 **Jeffrey Sachs:**
 
 I doubt it. There are enough reasons for drought as a natural condition of a an arid and semi-arid reason that we don't have to go there.
 
-
-
 **Tucker Carlson:**
 
 Okay. Yeah. second
-
-
 
 **Jeffrey Sachs:**
 
@@ -153,51 +127,35 @@ just because someone drew a political line, it doesn't change the fact that ther
 
 Six of those wars have taken place. The US was and well now seven, but the US was the instrument of all of those. Correct. Okay, great. So this was Israel's plan, but the US military was used. The US has spent5 to10 trillion dollars on this Israel venture. This is the basic point. yes, we've had our own misguided ideas about this, but it's just bizarre. of course, Iraq, we know in detail that this was a concocted war. but Syria has never been understood in as much depth, but it's the same story. why suddenly did Barack Obama feel the compulsion to task the CIA with overthrowing Bashar al-Assad?
 
-
-
 **Tucker Carlson:**
 
 Assad must go.
-
-
 
 **Jeffrey Sachs:**
 
 Yes.
 
-
-
 **Tucker Carlson:**
 
 That was on the lips of everyone in one day.
-
-
 
 **Jeffrey Sachs:**
 
 Are you kidding? I remember I was on Morning Joe that morning that either Hillary or Obama said Saddam must go. And Joe turned to me said, "What do you think about that?" I said, "Oh, that's interesting. How are they going to do that?" Well, it took 14 years, hundreds of thousands of deaths, tens of billions of dollars, massive destruction, massive destabilization. refugee crisis to put a jihadist in in charge right now and then clean it up. But of course
 
-
-
 **Tucker Carlson:**
 
 to take a secular government that protected religious minorities, aloites, Christians, everybody
 
-
-
 **Jeffrey Sachs:**
 
 for generations generationally, father and son did the same and replace it with a guy we thought we were fighting against. and to destroy, of course, historic sites as they're doing in Iran right now, cultural sites, I should say, that are human heritage, not only Syrian or Iranian heritage, but world heritage because they've lasted thousands of years and then our idiocy, we're destroying them in hours.
-
-
 
 **Tucker Carlson:**
 
 Yeah, I would say evil. But yeah, no, that's Okay, so I just want to be clear with that. Third question about the off-ramp. So the United States would have to the president but the whole government would have to swallow that. We'll just have to admit it didn't work and Iran is now more powerful. Iran is an economic power which we didn't understand. I don't think before this war we thought of them as this emerging military threat. Turns out they're an economic power cuz they control the street. But from an Israeli perspective there is this process which I've seen many times where people talk themselves into believing their own rhetoric. So you start out by saying the real threat from Iran is its nuclear program, but you don't mean it. You just want to take Iran out because you don't want Hezbollah and Hamas to hassle you. Got it.
 
 But if you say it enough, you start to believe that the main threat to your existence is this government. And I think the Israelis are there. Like I think they believe that. So could not just Netanyahu, the prime minister, but the whole country, could they live with a strengthened Iran or would they be forced to do something really radical? Well, Netanyahu said a couple of days ago that they're out to annihilate us, which is not true. and
-
-
 
 **Jeffrey Sachs:**
 
@@ -213,8 +171,6 @@ Not only from his fear, but from a complete absence of diplomacy that recognizes
 
 Now it seems like there are a lot of people who have even more radical views and one of them would be Danny Danon whom I know I always thought was kind of a reasonable guy. He's the Israeli ambassador to the United Nations. There was an amazing exchange between you and him at the UN fairly recently that made me think, wow, it's not just Netanyahu. Can you explain that exchange?
 
-
-
 **Jeffrey Sachs:**
 
 Well, I can explain the exchange and I can also say that there are two variants of Israeli extremism that are not the same, but they are now literally a coalition. they're literally a political coalition. and they are a ideological coalition as well. So one is the view every generation they're out to kill us. We have to kill them before they kill us. the preemptive strike, the clean break idea, but again grounded in this perverse maybe related idea that there will never be a Palestine alongside an Israel, which is actually what led to clean break, led to all these wars, led to the militancy, was the absence of Palestinian political rights alongside Israeli political rights, the so-called two-state solution. And since Netanyahu's party Likud going back to its opening charter in 1977 said there will never be a Palestinian state.
@@ -223,25 +179,17 @@ Nothing to talk about, no terms, no security arrangements to make it possible. T
 
 then is a very different variant that is now the coalition partners represented by two now well-known leaders to us Ben-Gvir and Smotrich two cabinet ministers who are religious with a very strange idea and it's a new form of Judaism which actually attaches to some ancient texts, but was not a real form of Judaism for 2,000 years.
 
-
-
 **Tucker Carlson:**
 
 It's not what I grew up with at all.
-
-
 
 **Jeffrey Sachs:**
 
 It's not what I grew up with as a Jew at all. it's something absolutely late 20th century, early 21st century. One of the parties is called Jewish power. and it is the idea that
 
-
-
 **Tucker Carlson:**
 
 that's it actual name.
-
-
 
 **Jeffrey Sachs:**
 
@@ -249,53 +197,35 @@ Yes. in Hebrew, yes. we redeem God's promise to us by becoming greater Israel. S
 
 the Islamic societies the ayyad and Abbasid caliphats enabled Jews and Christians to live within the Islamic lands to live peacefully and to govern themselves primarily but to pay a tax. and so as a way to a avoid taxes many people converted we know this and probably today's Palestinians many of them are descendants from across centuries of Jews who were the settlers who were living there before the 7th century sweep of Islam across the land that's a footnote even David Ben-Gurion the so-called founder of the state of Israel held that view in the 1930s and 40s calling the Palestinians really the original Jews of the land who probably converted and became the Palestinians but today
 
-
-
 **Tucker Carlson:**
 
 wait Ben-Gurion said that
-
-
 
 **Jeffrey Sachs:**
 
 Bengorian said that yes
 
-
-
 **Tucker Carlson:**
 
 what was not to get sidetracked but Ben-Gurion was secular I think
-
-
 
 **Jeffrey Sachs:**
 
 yeah of course all of the original Zionist
 
-
-
 **Tucker Carlson:**
 
 yes from Eastern Europe so what were I don't understand I know they wanted to leave Europe I get But what was the justification in his mind for displacing millions of people from their land if he acknowledged that they were the actual heirs of Abraham? Yeah. The idea was Jews are instead of a religion in their view. The these were not religious people by the way. They didn't consult with the rabbis. So it's all very ironic. But in their view Jews are not a religion. they are a people and in the ideology of Europe of the late 19th century a people needs a state and so the idea was there should be a Jewish state that was the name of the founder of Jewish Zionism Theodor Herzl's first book the Jewish state well that makes sense no but but
-
-
 
 **Jeffrey Sachs:**
 
 but he asked so where and One option was maybe what is today's Uganda.
 
-
-
 **Tucker Carlson:**
 
 Yep.
 
-
-
-
 ## Religious extremism and Christian Zionism
-
 
 **Jeffrey Sachs:**
 
@@ -319,25 +249,17 @@ most Americans are just sick of this right now. overwhelmingly and the polls sho
 
 So, how is this going to be sustained when just Americans basically don't want to be the agents of mass murder and mass suffering and most of us don't believe that the mass expulsion of people is somehow God's command. We don't believe that.
 
-
-
 **Tucker Carlson:**
 
 Well, no. It's insane. And by the way, from a Christian perspective, you can only support Christian Zionism if you ignore the Gospels, which are the heart of Christianity. there's nothing in nothing in there that supports it. So, you would think, by the way, the greatest speech I know of is the sermon on the mount.
-
-
 
 **Jeffrey Sachs:**
 
 It's unbelievable
 
-
-
 **Tucker Carlson:**
 
 for everybody, for the whole world. This isn't a matter of who believes, but blessed are the peacemakers,
-
-
 
 **Jeffrey Sachs:**
 
@@ -345,17 +267,11 @@ of course, should resonate. I think it does resonate with people all over the wo
 
 And don't just say they're evil without reflecting on yourself. This is so basic. All of that is left out because this new version of Judaism or of Christian Zionism is one chapter of Genesis or maybe two. chapter 15 and chapter 18, God's promise, the book of Joshua, which is probably a political tract written during the late 7th century BC during the reign of King Josiah of the state of Judah as a political tract that says, "Murder other people to take the promised land. " And then the book of Revelation, the gospels are not part of that text. No. And it's clear that they're not because the message of the gospels is completely different.
 
-
-
 **Tucker Carlson:**
 
 Yeah. Jesus is saying, "You've been told don't murder. I tell you, don't even be angry at someone else." It's a it's a message of radical reconciliation and nonviolence. So that's just what it says. it's inconvenient, but it's true. So I guess my question is though, if the United States withdraws under popular pressure, its unconditional support for Israel and the Iranian regime stays in place, some form of it does, and once again, Iran is more powerful than it's ever been and now has a clear incentive to buy a nuke from Pakistan or somewhere else. Those are like what does Israel do at that point? That's my concern cuz now it's kind of out of options.
 
-
-
-
 ## Off-ramp, Iran, and Israel
-
 
 **Jeffrey Sachs:**
 
@@ -373,13 +289,9 @@ you'll go under IAEA inspection according to the terms of the nuclear non-prolif
 
 Stay out of it. Stay clear of it. It's a Netanyahu is a repeated failure and liar and everything he's told us for 30 years has turned out to be the opposite. So I'd say that anyway from our point of view. But yes, if you believe that your purpose is greater Israel and continued expansion of Israel's borders, then what I'm saying, no, you wouldn't accept it. You say, why should we settle for that? But I don't believe that. I believe in peace. I believe in a secure state of Israel. I believe in a secure state of Palestine. I believe in getting on with our lives and not focusing America's resources, squandering them endlessly for decades in this absolutely delusional Israeli cause of greater Israel. It's absurd. It's tragic. It's got to end. And it needs to end now before we have a complete disaster.
 
-
-
 **Tucker Carlson:**
 
 Can it can Trump constrain control Netanyahu?
-
-
 
 **Jeffrey Sachs:**
 
@@ -395,47 +307,31 @@ First of all, he has to because this is really about us right now. He has to lis
 
 Now we're going to try peace. That's what he needs to tell him. It can work. If he doesn't do that and in the next few days, this accelerates, and you've said if it does accelerate, Iran's first move will be to destroy civilian infrastructure in the Gulf, Del Energy, the rest. What are the effects at that point? Like what are the Let's just start with the economic effects. by the rest of the world. Yeah. Strangely enough, I came into my profession, which I've been a professor at universities for 46 years and advised well over a 100 governments around the world. I came into this profession writing my PhD dissertation on the oil shocks of the 1970s. I wrote the first model of what how they worked, why they had such negative effects
 
-
-
-
 ## Economic consequences of escalation
-
 
 **Jeffrey Sachs:**
 
 after 73 after 73 and 79. So I wrote the book literally and it's published in 1982 called the economics of worldwide stagflation. The results of those two oil shocks give us an idea of what would happen. what happened in 1973-74 when there was an oil embargo and then in 1979 80 when there was the Iranian revolution was a big disruption of oil supplies. It sent oil prices soaring and it sent the world economy into a tail spin and it was a very particular kind of tail spin because people lost their jobs, incomes went down and inflation soared at the same time. And so you had a economic downturn and a rise of inflation which at the time was viewed as a paradox because usually you have a recession and the prices come down or you have a boom and the prices accelerate. But this was a contraction and an inflation.
 
-
-
 **Tucker Carlson:**
 
 So people had less money coming in and everything costs more to buy.
-
-
 
 **Jeffrey Sachs:**
 
 That's it. And that's what was called stagflation. Now the difference of then and now is that the two shocks then were temporary stops of the flows of oil. One was a boycott by the Arab countries against the US and other buyers like shutting down the Strait of Hormuz.
 
-
-
 **Tucker Carlson:**
 
 Just to be clear, what were they mad about?
-
-
 
 **Jeffrey Sachs:**
 
 They were mad about this the 1973 war
 
-
-
 **Tucker Carlson:**
 
 US support for Israel. Exactly. Just to be clear, this goes this has been the same issue. I was four years old when that happened.
-
-
 
 **Jeffrey Sachs:**
 
@@ -443,61 +339,41 @@ This was this goes back a long way. And then 197980 was the Iranian revolution. 
 
 And what will happen in a short period of time is not a closure of shipping but a destruction of the physical capacities of providing the oil and the gas and the fertilizers and the petrochemicals and the other very core commodities for the world economy. And it doesn't take that much to bring the world economy into a tail spin because you don't need to close down half the oil supply. you might need to shut off 20% of the world oil supply and that by enough will send the prices soaring make Americans really suffer across the board because it's not only at the gas pump and not only in the utility bills but also in the cost of food which will soar from this as well because there will be a worldwide disruption of food supplies coming from this because we're a very significant proportion of the urea, which underpins the nitrogenbased fertilizers of the world come from this region
 
-
-
 **Tucker Carlson:**
 
 from natural gas
-
-
 
 **Jeffrey Sachs:**
 
 from the natural gas production. Exactly. from the oil and gas fields, the hydrocarbon production and other petrochemicals as well. I'm afraid that it won't take long for this to happen. And
 
-
-
 **Tucker Carlson:**
 
 fall if that happens globally.
-
-
 
 **Jeffrey Sachs:**
 
 Yes. One leader pulled me aside a few weeks ago. I don't want to say who exactly but said that person was in a in a country that has a lot of oil production not from the region and said Jeffoff you don't understand I governed our state oil company these are complex systems they don't get rebuilt so fast believe me right this was a very authoritative figure and I really take that to heart.
 
-
-
 **Tucker Carlson:**
 
 Well, energy extraction, refining, petrochemicals, distribution, it's all about a million times more complicated than people understand.
-
-
 
 **Jeffrey Sachs:**
 
 Exactly. And these are very sophisticated plants and they are not built for war. They are built for just normal, peaceful, complex, sophisticated operations. And a lot of that could be destroyed in a very short period of time.
 
-
-
 **Tucker Carlson:**
 
 No, I appreciate that. And I think the view in the US seems to be like if there's oil under the ground, you stick a straw in, it comes out, then it's if you ever if you go and tour a petrochemical plant or oil refinery or any extraction facility, it is like highest level technology, smartest people, super hard to understand the market.
-
-
 
 **Jeffrey Sachs:**
 
 I'll tell you, we had one of a place well and I know well, one of the most sophisticated places in the planet the Emirates. Yes. asking the Federal Reserve a few days ago for emergency swap lines that may be needed in the event of a crisis. This is kind of shocking because first of all, the Emirates you think of as super rich.
 
-
-
 **Tucker Carlson:**
 
 Yeah.
-
-
 
 **Jeffrey Sachs:**
 
@@ -513,29 +389,19 @@ Suppose that a Chinese destroyer comes alongside we're not in self-control right
 
 Oh, what are we doing with all of this gamble when the whole premise of this war was wrong and when the tactical premise that this was a one-day operation was proved wrong by the second day? Why are we still facing this possibility of complete disaster? And I have to say, I'm sorry to say it, Tucker, but Every few days I get an email from somebody who says, I really appreciate what you say, Professor Sachs, but I do want you to know that we're in the end times. and, that this is all, as prophecied. and so, thank you for your voice. They're not hostile messages. They're very nice, sweet people, who say we're in the end times. I'm hoping we're not in the end times. This is the basic point. We should have some prudence. Somebody should reach the president of the United States and say stop before disaster.
 
-
-
 **Tucker Carlson:**
 
 I've tried. I wonder what do you what do you make of that? What do you make of I know you're you're not a famously observant man. However, things are happening that certainly don't have any precedent in our lifetime. you've watched the world carefully for 50 years, and all of a sudden, anomalous things are happening all over. People are behaving in ways you never would have expected they behave. Do you allow for the possibility that some of this is pre-ordained that like there's that, getting off the train?
-
-
 
 **Jeffrey Sachs:**
 
 I don't I've studied history now for my whole life and I've seen disasters. I've studied intensively disasters and near misses and avoided disasters with care. I wrote a book about the Cuban Missile Crisis and its aftermath. I've studied World War I and World War II upside down, right side up from every country's perspective. I've spent a half century looking at this. Terrible things happen because individual leaders and governments make miscalculations. They don't talk to each other. they don't understand the ramifications. They have a breakdown of systematic processes. so I don't think that this is ordained, but I think we're close to overload right now, which is what you see happening around crisis often.
 
-
-
-
 ## Overload, decision-making, and constitutional breakdown
-
 
 **Tucker Carlson:**
 
 What does it mean overload?
-
-
 
 **Jeffrey Sachs:**
 
@@ -545,13 +411,9 @@ It's all been studied for decades later. Many of the judgments that were made we
 
 for example then the UN secretary general U Thant played a huge role as an intermediary and good judgment of the leader today I can't see any process what we hear from outside accounts and again better than I but what we read is that this was Trump's decision basically yes led by Netanyahu
 
-
-
 **Tucker Carlson:**
 
 that's correct
-
-
 
 **Jeffrey Sachs:**
 
@@ -561,41 +423,27 @@ The president of the United States consulted with the leaders of Congress in det
 
 It looks doubtful, but I will follow you, Mr. President." That is not the kind of deliberative process that keeps us in safety.
 
-
-
 **Tucker Carlson:**
 
 And yet, I think that's exactly the process. I don't think there's any decision maker or even anyone who influences the decisions greatly other than Trump. I think the degradation of our political system is so deep right now that maybe there is no u no chance for that. But I do every day plead with the congressional leaders to do their constitutional duty because they're not doing it right now.
-
-
 
 **Jeffrey Sachs:**
 
 I know. and it's not be good and go tell Trump they're a co-equal branch of government that under article one of the constitution assigns them the responsibility for war for the declaration of war it's not even shared they are the only branch that can declare war and when I don't know how many een times now the Republicans All but one, all but the best Republican senator by far, Ran Paul. I regard him as the best senator in the whole Senate. and all the Democrats on the other side, but one, John Fetterman, who I regard as u weird in his complete total allegiance to Israel's reckless agenda. vote that Congress should not have any oversight over this war completely contrary to the whole framework of the Constitution. It shows how degraded we have become.
 
-
-
 **Tucker Carlson:**
 
 Maybe it's an inevitable process where in late stage republics like ours all power vests in the executive the legislative body. Well, think of it this way since so many world leaders. Is there any legislative body in any country you're familiar with that has become more powerful in the last 10 years or they're all shrinking in authority? It's
-
-
 
 **Jeffrey Sachs:**
 
 I know lots of places that have very high levels of deliberation.
 
-
-
 **Tucker Carlson:**
 
 Yep.
 
-
-
-
 ## China, deliberation, and the survival of the system
-
 
 **Jeffrey Sachs:**
 
@@ -607,25 +455,17 @@ So all the bluster is a remnant of the idea that the US has pursued during its i
 
 and that idea that there was a legislative branch where you would have lions of the Senate and the House of Representatives and a speaker who would be a independent voice of politics as the people's tribune. It actually worked to an extent. It really did. I was there. I watched it. I saw it. I quite loved it. we don't have that right now. So could it could it work? Yes. I think there are many interesting things to do in our digital age. We can get people involved much more. We can have public deliberations in different ways. We can upgrade update the way that our system works. But yes, the system could work. It doesn't have to dissolve or devolve to one person operating on gut hunches based on delusions of grandeur that could send the world to disaster. That doesn't have to be the way the world and our system works
 
-
-
 **Tucker Carlson:**
 
 or ends.
-
-
 
 **Jeffrey Sachs:**
 
 Or ends. Exactly. Thank you,
 
-
-
 **Tucker Carlson:**
 
 Jeffrey Sachs. Thank you very much for that.
-
-
 
 **Jeffrey Sachs:**
 

@@ -13,8 +13,6 @@ post_id: 202576486
 
 # The Innermost Loop - 2026-06-18
 
-WORK only; not Record.
-
 ## Source
 
 - Title: The First Early-Stage Ticker Symbol
@@ -29,10 +27,7 @@ The Singularity has been minting trillion-dollar IPOs, but going public overall 
 
 ## Newsletter Text
 
--
--
-
-The Singularity has been minting trillion-dollar IPOs, but going public overall fell out of fashion at exactly the wrong time, until now.
+- The Singularity has been minting trillion-dollar IPOs, but going public overall fell out of fashion at exactly the wrong time, until now.
 
 Going public used to be what ambitious companies did. Railroads in the 1860s were the first technology companies ordinary Americans could buy shares in. Apple listed at $22, Amazon at $18, Google at $85 (IPO-day prices, before subsequent stock splits). The IPO was how technological progress became shared prosperity: founders built something transformative, then opened the door so everyone could participate. The ticker symbol, invented by Edward Calahan in 1867 as a compression protocol for the telegraph, was the artifact that made this possible, giving every citizen real-time access to market information for the first time.
 

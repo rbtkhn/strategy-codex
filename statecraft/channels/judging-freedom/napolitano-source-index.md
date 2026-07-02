@@ -1,6 +1,5 @@
 # Napolitano Source Index
 
-
 Compatibility pointer only.
 
 The canonical route map now lives at [judging-freedom-channel-index.md](judging-freedom-channel-index.md).

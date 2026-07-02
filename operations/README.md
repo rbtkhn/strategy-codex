@@ -1,7 +1,5 @@
 # Operations
 
-WORK only; not Record.
-
 Real-world **operating shelves** for recurring business and property operations. Loop definitions stay in [`singularity/loops/business/`](../singularity/loops/business/); this tree holds output artifacts, strategic plans, templates, and proof landing zones.
 
 ## Projects

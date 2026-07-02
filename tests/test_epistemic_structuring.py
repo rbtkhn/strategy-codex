@@ -24,12 +24,10 @@ from structuring.normalize import (  # noqa: E402
 from structuring.schema import STRUCTURED_SCHEMA_KEYS, validate_structured  # noqa: E402
 from structuring.stance_classifier import classify_stance  # noqa: E402
 
-
 def test_classify_stance_high_confidence() -> None:
     stance, confidence = classify_stance("The US will face severe constraints.")
     assert stance == "high_confidence"
     assert confidence == 0.85
-
 
 def test_classify_stance_medium_and_low() -> None:
     medium_stance, medium_conf = classify_stance("Escalation is likely if forces deploy.")
@@ -39,7 +37,6 @@ def test_classify_stance_medium_and_low() -> None:
     assert low_stance == "low"
     assert low_conf == 0.45
 
-
 def test_similarity_deterministic() -> None:
     left = "China capitulation tariff pressure"
     right = "Will China capitulate to tariff pressure"
@@ -47,7 +44,6 @@ def test_similarity_deterministic() -> None:
     second = similarity(left, right)
     assert first == second
     assert first > 0.0
-
 
 def test_match_event_top1_tiebreak() -> None:
     registry = {
@@ -60,7 +56,6 @@ def test_match_event_top1_tiebreak() -> None:
     }
     assert match_event(observation, registry) == "event_a"
 
-
 def test_match_event_unmatched_when_no_overlap() -> None:
     registry = {
         "event_a": {"question": "quantum computing breakthrough"},
@@ -70,7 +65,6 @@ def test_match_event_unmatched_when_no_overlap() -> None:
         "sentences": [],
     }
     assert match_event(observation, registry) == "unmatched"
-
 
 def test_normalize_observation_schema() -> None:
     registry = {
@@ -91,7 +85,6 @@ def test_normalize_observation_schema() -> None:
     assert structured["prediction"].startswith("The US will face severe operational constraints")
     assert structured["stance"] == "high_confidence"
 
-
 def test_normalize_freeman_fixture_to_china_event() -> None:
     observations = load_voice_captures(voice_dir=FIXTURE_VOICE_DIR, repo_root=REPO_ROOT)
     freeman = next(obs for obs in observations if obs["voice"] == "freeman")
@@ -100,7 +93,6 @@ def test_normalize_freeman_fixture_to_china_event() -> None:
     assert structured["event_id"] == "china_tariff_capitulation_2025"
     assert structured["voice"] == "freeman"
     assert structured["sentences"]
-
 
 def test_run_structuring_layer_integration(tmp_path: Path) -> None:
     registry_path = tmp_path / "event-registry.json"
@@ -133,7 +125,6 @@ def test_run_structuring_layer_integration(tmp_path: Path) -> None:
     payload = json.loads(out_path.read_text(encoding="utf-8"))
     assert payload["_meta"]["layer"] == "structuring"
     assert payload["structured_predictions"][0]["event_id"] == "test_event"
-
 
 def test_pipeline_all_layers(tmp_path: Path) -> None:
     voice_dir = tmp_path / "voice_captures" / "macgregor"

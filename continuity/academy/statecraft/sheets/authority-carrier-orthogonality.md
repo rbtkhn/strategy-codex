@@ -1,7 +1,6 @@
 # Authority Carrier Orthogonality
 <!-- word_count: 398 -->
 
-
 Use this sheet when comparing current state carrier and authority-carrier benches across the four academy-statecraft lanes. The purpose is not biography. The purpose is to preserve four distinct settlement-credibility problems.
 
 ## Core Distinction

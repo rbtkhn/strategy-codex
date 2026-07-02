@@ -26,7 +26,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 **Alex Christoforou:** All right, Alexander, let's talk about the situation in Ukraine. Let's talk about the military situation, the situation with Konstantinovka. We have this uh this narrative from Ukraine and from the uh the collective west media about uh drone drone strikes, drone dominance in the uh the Crema landbridge in Zaparo which is uh once again showing that the tide has turned towards Ukraine's favor.

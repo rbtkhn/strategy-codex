@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Zelensky Wants US Alliance; Says No Kiev Donbass Retreat; Tense Talks; EU Backs Kiev; Moscow Unmoved
 
-

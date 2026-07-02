@@ -3,7 +3,7 @@
 A strong answer should produce a complete speaker-object note with:
 
 - title `# Sachs speaker object`
-- `WORK only; not Record.`
+- ``
 - explicit `object_shape: cross-host-reinforced`
 - a clear purpose statement
 - sections for durable utility, object shape, open-first routing, routing use, and boundaries

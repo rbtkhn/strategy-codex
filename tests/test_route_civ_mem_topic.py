@@ -20,7 +20,6 @@ from route_civ_mem_topic import (  # noqa: E402
     run_mem_bfs,
 )
 
-
 MINIMAL_CFG = {
     "routing_rules_version": 1,
     "default_platform/profile": "latin_catholic_sphere",
@@ -46,14 +45,12 @@ MINIMAL_CFG = {
     },
 }
 
-
 def test_pick_profile_papal_latin() -> None:
     pid, prof, _audit = _pick_profile(
         MINIMAL_CFG, "Pope Leo Vatican visit Italy", None, None, focus_active=False
     )
     assert pid == "latin_catholic_sphere"
     assert prof["primary_civ"] == "ROME"
-
 
 def test_pick_profile_mosque_islam() -> None:
     pid, prof, _audit = _pick_profile(
@@ -62,7 +59,6 @@ def test_pick_profile_mosque_islam() -> None:
     assert pid == "mediterranean_islam_christian_encounter"
     assert prof["primary_civ"] == "ISLAM"
 
-
 def test_pick_profile_override() -> None:
     pid, prof, audit = _pick_profile(
         MINIMAL_CFG, "anything", "latin_catholic_sphere", None, focus_active=False
@@ -70,13 +66,11 @@ def test_pick_profile_override() -> None:
     assert pid == "latin_catholic_sphere"
     assert audit.get("reason") == "profile_override"
 
-
 def test_pick_profile_default_when_no_keyword_match() -> None:
     pid, prof, _audit = _pick_profile(
         MINIMAL_CFG, "quantum computing", None, None, focus_active=False
     )
     assert pid == "latin_catholic_sphere"
-
 
 def test_focus_expired_no_bonus() -> None:
     focus = {
@@ -91,7 +85,6 @@ def test_focus_expired_no_bonus() -> None:
     )
     assert pid == "latin_catholic_sphere"
     assert audit["per_platform/profile"]["latin_catholic_sphere"]["effective_overlap"] == 0
-
 
 def test_focus_bonus_flips_to_mediterranean() -> None:
     focus = {
@@ -112,7 +105,6 @@ def test_focus_bonus_flips_to_mediterranean() -> None:
         "effective_overlap"
     ] == 3
 
-
 def test_sticky_keyword_bonus() -> None:
     focus = {
         "focus_version": 1,
@@ -131,7 +123,6 @@ def test_sticky_keyword_bonus() -> None:
     assert audit["per_platform/profile"]["latin_catholic_sphere"]["sticky_bonus"] == 2
     assert audit["per_platform/profile"]["latin_catholic_sphere"]["effective_overlap"] == 2
 
-
 def test_extract_mem_connections_ordering() -> None:
     fixture = """
 MEM CONNECTIONS
@@ -145,7 +136,6 @@ MEM CONNECTIONS
     assert ids[0].startswith("MEM–ROME–")
     assert "MEM–RUSSIA–THIRD–ROME" in ids
 
-
 @pytest.mark.skipif(
     not (REPO_ROOT / "research" / "repos" / "civilization_memory" / "content").is_dir(),
     reason="civilization_memory checkout not present",
@@ -155,7 +145,6 @@ def test_resolve_mem_id_to_path_papacy() -> None:
     assert p is not None
     assert p.is_file()
     assert p.name == "MEM–ROME–PAPACY.md"
-
 
 @pytest.mark.skipif(
     not (REPO_ROOT / "research" / "repos" / "civilization_memory" / "content").is_dir(),
@@ -173,7 +162,6 @@ def test_run_mem_bfs_finds_neighbors() -> None:
     assert hit
     assert len(edges) >= 2
 
-
 def test_score_profile_required_tokens_disqualifies() -> None:
     cfg = {
         "priority": 10,
@@ -182,7 +170,6 @@ def test_score_profile_required_tokens_disqualifies() -> None:
     }
     overlap, pri = _score_profile(cfg, "foo bar")
     assert overlap == -1
-
 
 @pytest.mark.skipif(
     not (REPO_ROOT / "platform/config" / "civ_mem_topic_routes.yaml").is_file(),

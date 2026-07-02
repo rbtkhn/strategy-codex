@@ -12,7 +12,6 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-
 class TestSchema:
     @pytest.fixture
     def schema(self):
@@ -43,7 +42,6 @@ class TestSchema:
     def test_sensitivity_enum(self, schema):
         sens = set(schema["properties"]["sensitivity"]["enum"])
         assert sens == {"standard", "elevated", "high"}
-
 
 class TestEmit:
     @pytest.fixture
@@ -121,7 +119,6 @@ class TestEmit:
                 source_events=["s1"],
             )
 
-
 class TestRecurrenceScore:
     def test_single_observation(self):
         from emit_seed_claim import compute_recurrence_score
@@ -139,7 +136,6 @@ class TestRecurrenceScore:
         short = compute_recurrence_score(3, "2026-01-01T00:00:00Z", "2026-01-02T00:00:00Z", 3)
         long = compute_recurrence_score(3, "2026-01-01T00:00:00Z", "2026-01-30T00:00:00Z", 3)
         assert long > short
-
 
 class TestSummary:
     @pytest.fixture

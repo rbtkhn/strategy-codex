@@ -13,8 +13,6 @@ post_id: 192465603
 
 # The Innermost Loop - 2026-03-28
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 28, 2026
@@ -29,10 +27,7 @@ The Singularity is debating itself.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is debating itself. Google researchers argue that frontier reasoning models like DeepSeek-R1 don’t improve by thinking longer but instead simulate internal “societies of thought,” spontaneous cognitive debates that argue, verify, and reconcile to solve complex tasks, evoking Minsky’s Society of Mind as an emergent property of scale. These synthetic minds are being tested against each other in new arenas. A new LLM Persuasion Benchmark measures whether one model can change another’s stated position over multi-turn conversation, finding GPT-5.4 and Claude Opus 4.6 as the most convincing debaters. To generate the tasks that sharpen discovery itself, researchers introduced DiscoGen , a procedural generator spanning millions of algorithm discovery challenges across machine learning, paired with DiscoBench for principled evaluation. Meanwhile, Meta released SAM 3.1 , introducing object multiplexing to dramatically boost video processing efficiency.
+- The Singularity is debating itself. Google researchers argue that frontier reasoning models like DeepSeek-R1 don’t improve by thinking longer but instead simulate internal “societies of thought,” spontaneous cognitive debates that argue, verify, and reconcile to solve complex tasks, evoking Minsky’s Society of Mind as an emergent property of scale. These synthetic minds are being tested against each other in new arenas. A new LLM Persuasion Benchmark measures whether one model can change another’s stated position over multi-turn conversation, finding GPT-5.4 and Claude Opus 4.6 as the most convincing debaters. To generate the tasks that sharpen discovery itself, researchers introduced DiscoGen , a procedural generator spanning millions of algorithm discovery challenges across machine learning, paired with DiscoBench for principled evaluation. Meanwhile, Meta released SAM 3.1 , introducing object multiplexing to dramatically boost video processing efficiency.
 
 The machines are solving math that stumps the mathematicians. Harmonic reports its Aristotle AI powered the formalization of an Erdős problem just solved by a 17-year-old. Epoch AI has begun removing problems from its FrontierMath benchmark after AI solutions exposed the problems themselves as insufficiently notable. When the benchmark breaks before the model does, the curve has gone vertical.
 

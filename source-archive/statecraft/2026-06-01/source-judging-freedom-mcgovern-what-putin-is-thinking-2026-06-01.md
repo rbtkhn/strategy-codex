@@ -30,7 +30,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, June 1st, 2026. Ray McGovern joins us now. Uh Ry, thank you very much. I do want to ask you about since you have such an incredible grasp on Russian culture and Russian thinking, what you think President Putin is thinking. Uh but before we do that, I have to uh ask your views on what our longtime friend and colleague Larry Johnson just said on air on this show uh about 35 minutes ago. Chris, cut number five.

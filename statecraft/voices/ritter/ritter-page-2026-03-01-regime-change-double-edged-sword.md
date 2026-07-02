@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-03-01 (*Regime Change, the Double-Edged Sword*)
 <!-- word_count: 2282 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-03-01 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 2283
@@ -128,7 +127,6 @@ But regime change is a sword that cuts both ways.
 
 And in the end, it is the regime of Donald Trump that is at risk of finding itself thrown into the dustbin of history, while the Islamic Republic of Iran lives on, empowered by the memory of its newest martyr, Ali Khamenei.
 
-
 ### Reflection
 
 **Operator note:** Counterfactual/speculative 2026 Iran-war scenario (Epic Fury, Feb 28 strike, Khamenei assassination narrative) consistent with adjacent Ritter Substack essays in this arc. Light cleanup of operator/OCR errors only.
@@ -152,13 +150,11 @@ IHL content: useful for notebook legal seams; adjudication belongs to courts or 
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

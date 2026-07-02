@@ -60,7 +60,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Thursday, June 11th, 2026 and our dear friend Andrei Martyanov is here with us. Welcome back, Andre. >> My pleasure. Andre, the latest news is Donald Trump today said he's going to attack Iran again because yes, last night as you know, we had an attack, American attacker or in Iranian, you know, on Iranian islands and cities in the southern part of Iran and one of them in Karach close to the to the capital of Iran, Tehran.

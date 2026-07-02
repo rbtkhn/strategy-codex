@@ -5,10 +5,8 @@ import json
 import sys
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parent.parent
 SCRIPT_PATH = ROOT / "scripts" / "ingest_external_research.py"
-
 
 def _load_module():
     spec = importlib.util.spec_from_file_location("ingest_external_research_test", SCRIPT_PATH)
@@ -17,7 +15,6 @@ def _load_module():
     sys.modules[spec.name] = mod
     spec.loader.exec_module(mod)
     return mod
-
 
 def _sample_text() -> str:
     return """AI systems are becoming more useful in research-heavy workflows.
@@ -32,7 +29,6 @@ Reference: Workflow receipts under pressure https://example.org/control-plane-no
 Open question: How much authority can be delegated before local review becomes ceremonial?
 Tension: Faster synthesis can still weaken judgment if provenance is weak.
 """
-
 
 def test_build_artifact_extracts_claims_and_citations():
     mod = _load_module()
@@ -70,7 +66,6 @@ def test_build_artifact_extracts_claims_and_citations():
     assert artifact["citations"][1]["title"] == "Workflow receipts under pressure"
     assert artifact["tensions"] == ["Faster synthesis can still weaken judgment if provenance is weak."]
     assert artifact["open_questions"] == ["How much authority can be delegated before local review becomes ceremonial?"]
-
 
 def test_write_outputs_keeps_gate_untouched(tmp_path, monkeypatch):
     mod = _load_module()
@@ -145,7 +140,6 @@ def test_write_outputs_keeps_gate_untouched(tmp_path, monkeypatch):
     assert not (tmp_path / "recursion-gate.md").exists()
     assert not list(tmp_path.rglob("recursion-gate.md"))
 
-
 def test_unresolved_citations_are_preserved():
     mod = _load_module()
     text = """Summary paragraph.
@@ -159,7 +153,6 @@ Reference: A paper title without DOI or URL
     assert citations
     assert citations[0]["resolution_status"] == "unresolved"
     assert citations[0]["title"] == "A paper title without DOI or URL"
-
 
 def test_validation_falls_back_without_jsonschema(monkeypatch):
     mod = _load_module()

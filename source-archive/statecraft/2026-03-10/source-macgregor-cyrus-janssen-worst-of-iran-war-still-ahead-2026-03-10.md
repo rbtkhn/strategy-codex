@@ -28,7 +28,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Cold Open — Netanyahu Demands and Last Act in the Middle East
 
 Netanyahu's delusions of dominating the whole region and demonstrating Jewish supremacy there and worldwide are now Trump's reality. He seems to be committed to that regardless of the cost to us, regardless of the cost to the world. The longer this lasts, the worse the picture gets globally. I think the Iranians have decided that rather than live on their knees, they're going to stand up even if it kills them.

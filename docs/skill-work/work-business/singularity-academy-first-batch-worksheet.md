@@ -1,6 +1,6 @@
 # Singularity-Academy First-Batch Worksheet
 
-WORK only. This is an operator fill sheet.
+non-authoritative. This is an operator fill sheet.
 
 ## Purpose
 

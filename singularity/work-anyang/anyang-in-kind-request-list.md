@@ -1,7 +1,5 @@
 # anyang-ai — in-kind request list (赞助实物清单)
 
-WORK only; not Record.
-
 **Use:** Hand to philanthropist / corporate sponsor — **check boxes** for what they can provide. Cash is secondary (&lt;¥50k / 6 months if needed).
 
 **One-pager:** [anyang-sponsor-one-pager.zh-CN.md](anyang-sponsor-one-pager.zh-CN.md)

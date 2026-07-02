@@ -13,19 +13,16 @@ from moonshots_intelligence.grounding import (
     word_count,
 )
 
-
 @dataclass(frozen=True)
 class ValidationError:
     bullet_index: int
     reason: str
-
 
 def mechanism_has_causal_structure(mechanism: str) -> bool:
     text = mechanism.strip().lower()
     if word_count(mechanism) >= MIN_MECHANISM_WORDS:
         return True
     return any(cue in text for cue in CAUSAL_CUES)
-
 
 def validate_bullet(
     bullet: dict[str, Any],
@@ -57,7 +54,6 @@ def validate_bullet(
             if not excerpt_in_capture(evidence, archive_body):
                 errors.append(ValidationError(bullet_index, "evidence_ref mismatch"))
     return errors
-
 
 def validate_bullets(
     bullets: list[dict[str, Any]],

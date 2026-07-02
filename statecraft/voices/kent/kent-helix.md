@@ -1,6 +1,5 @@
 # Kent helix
 
-
 Purpose: compare Joe Kent across multiple host transformations. Use this when Kent's value is clearer across host-local arcs than inside one stream alone. This is a comparative routing note, not a generic profile and not a replacement for the underlying arcs.
 
 ## Core claim

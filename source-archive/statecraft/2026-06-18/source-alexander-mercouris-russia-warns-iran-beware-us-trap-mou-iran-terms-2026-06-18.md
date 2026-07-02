@@ -35,7 +35,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Thursday 18th June 2026 and before I proceed with this program, I just have a few very short comments to make. Firstly, addressing those people in Moscow who have been anxious to meet with me and who unfortunately because of intense pressures of time I was unable to meet.

@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-01-18 (*Don't Drink the Water*)
 <!-- word_count: 2843 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-01-18 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 2844
@@ -218,7 +217,6 @@ You’ll all be dead
 
 *(Lyrics from the song [Don’t Drink the Water](https://www.youtube.com/watch?v=psIuidkkLjI), by The Dave Matthews Band.)*
 
-
 ### Reflection
 
 **Operator note:** Greenland / Inuit frame + road-trip memoir (Havasupai, Navajo Long Walk, Comanche, Cherokee) with interleaved Dave Matthews Band lyrics. Opinion and historical summary—essay ≠ wire. Light cleanup only; lyrics link per Substack.
@@ -235,13 +233,11 @@ You’ll all be dead
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

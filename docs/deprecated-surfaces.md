@@ -1,6 +1,6 @@
 # Deprecated and frozen surfaces
 
-**Work only; not Record.** Index of lanes that are legacy, frozen, or explicit-revive-only.
+**** Index of lanes that are legacy, frozen, or explicit-revive-only.
 
 **Config SSOT:** [`platform/config/strategy_codex.yaml`](../platform/config/strategy_codex.yaml)
 

@@ -11,7 +11,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture()
 def queue_mod():
     path = REPO_ROOT / "scripts" / "statecraft_intake_queue.py"
@@ -21,7 +20,6 @@ def queue_mod():
     sys.modules[spec.name] = mod
     spec.loader.exec_module(mod)
     return mod
-
 
 def _write_archive(path: Path, *, source_form: str = "interview") -> None:
     path.write_text(
@@ -47,7 +45,6 @@ def _write_archive(path: Path, *, source_form: str = "interview") -> None:
         encoding="utf-8",
     )
 
-
 def test_new_status_without_daily_or_sidecar(queue_mod, tmp_path: Path, monkeypatch):
     day = "2026-06-20"
     archive_root = tmp_path / "source-archive" / "statecraft"
@@ -69,7 +66,6 @@ def test_new_status_without_daily_or_sidecar(queue_mod, tmp_path: Path, monkeypa
     assert len(rows) == 1
     assert rows[0].synthesis_status == "new"
     assert rows[0].in_daily is False
-
 
 def test_daily_status_when_linked(queue_mod, tmp_path: Path, monkeypatch):
     day = "2026-06-21"
@@ -99,7 +95,6 @@ def test_daily_status_when_linked(queue_mod, tmp_path: Path, monkeypatch):
     )
     assert rows[0].synthesis_status == "daily"
     assert rows[0].in_daily is True
-
 
 def test_emit_sidecars_writes_valid_json(queue_mod, tmp_path: Path, monkeypatch):
     day = "2026-06-22"
@@ -131,7 +126,6 @@ def test_emit_sidecars_writes_valid_json(queue_mod, tmp_path: Path, monkeypatch)
     assert sidecar["synthesis_status"] == "queued"
     assert sidecar["non_canonical"] is True
 
-
 def test_write_digest_lists_new_sources(queue_mod):
     day = "2026-06-23"
     rows = [
@@ -152,7 +146,6 @@ def test_write_digest_lists_new_sources(queue_mod):
     assert "Statecraft Intake Digest" in digest
     assert "source-delta-test" in digest
     assert "## Hold / watch" in digest
-
 
 def test_emit_sidecars_does_not_modify_archive(queue_mod, tmp_path: Path, monkeypatch):
     day = "2026-06-24"

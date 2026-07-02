@@ -1,6 +1,5 @@
 # Parsi interview appearances - 2025-2026
 
-
 Purpose: canonical interview-pressure surface for the Parsi shelf.
 
 ## Main host uses

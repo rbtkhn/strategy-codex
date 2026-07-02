@@ -15,7 +15,6 @@ archive_links:
 
 # Dialogue Works x Postol speaker arc
 
-
 Purpose: compact reuse note for the `Dialogue Works x Postol` run inside the Alkorshid stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Postol lane Nima elicits, which files matter most, and why this host lane is the clearest mature Postol branch currently on disk.
 
 ## Why this guest run matters

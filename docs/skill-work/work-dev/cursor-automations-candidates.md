@@ -22,7 +22,7 @@
 | **Steward / gate (manual)** | `recursion-gate.md` | `operator_gate_review_pass.py` Ã¢â€ â€™ **human approve** Ã¢â€ â€™ `process_approved_candidates.py --apply` (never autonomous) | Weekly / on approve | **Companion approval** for every merge |
 | **integrity / derived** | `manifest.json`, `grace-mar-llm.txt`, `fork-manifest.json`, runtime bundle, etc. | `validate-integrity.py`, `regen_grace_mar_derived.sh` (see [work-cadence README](../../../README.md)) | After Record/prompt commits | regen batch vs single export |
 | **work-strategy** (default lane) | `strategy-notebook/**`, inbox, `days.md` | skill-strategy, manual compose | Daily / session | Judgment, verify tier, promote |
-| **work-jiang** | `continuity/predictive-history/**`, registries | `scripts/validate_predictive_history_boundary.py` and boundary docs | On explicit boundary work only | validate freeze contract |
+| **work-jiang** | `continuity/predictive-history/**`, registries | `scripts/validate_predictive_history_boundary.py` and boundary docs | On explicit boundary non-authoritative | validate freeze contract |
 
 **Script safety (for automation design):**
 

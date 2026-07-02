@@ -1,6 +1,5 @@
 # Marandi speaker object
 
-
 object_shape: triple-helix
 
 Purpose: define Marandi as a first-class speaker object that sits above the host-local arcs without flattening them. Marandi remains best read as a **helix-first speaker object**, but the shelf now includes a fuller person-arc stack around that core.

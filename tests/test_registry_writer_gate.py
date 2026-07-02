@@ -21,16 +21,13 @@ from registry_pipeline.registry_writer import (  # noqa: E402
 )
 from prediction_lib import load_event_registry  # noqa: E402
 
-
 def test_current_registry_passes_compile_gate() -> None:
     errors, warnings = validate_registry_gate(load_event_registry())
     assert not errors, errors
 
-
 def test_compile_registry_succeeds() -> None:
     compiled = compile_registry(write=False)
     assert compiled
-
 
 def test_missing_falsifier_inferred_on_upsert() -> None:
     registry = load_event_registry()
@@ -51,7 +48,6 @@ def test_missing_falsifier_inferred_on_upsert() -> None:
         )
         assert log_path.is_file()
 
-
 def test_invalid_falsifier_model_blocked_on_upsert() -> None:
     registry = load_event_registry()
     bad_event = {
@@ -63,7 +59,6 @@ def test_invalid_falsifier_model_blocked_on_upsert() -> None:
     errors, _ = validate_upsert_gate("gate_test_bad_model", bad_event, registry, run_infer=False)
     assert errors
     assert any("falsifier_model" in e for e in errors)
-
 
 def test_inferred_model_only_passes_compile_gate() -> None:
     event_id = "compile_infer_only"
@@ -78,7 +73,6 @@ def test_inferred_model_only_passes_compile_gate() -> None:
     enriched, _ = enrich_event_falsifiers(event_id, event)
     errors, _ = validate_registry_gate({event_id: enriched})
     assert not errors, errors
-
 
 def test_fingerprint_collision_blocked_on_upsert() -> None:
     registry = load_event_registry()

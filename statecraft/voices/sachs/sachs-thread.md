@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `sachs`
 <!-- word_count: 4419 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Sachs speaker structure.
@@ -42,7 +41,6 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 
 **Macro + rogue-state** framing after the **Venezuela** arc Ã¢â‚¬â€ Sachs uses **interview** and **outlet** chains to stress **regime-change playbook** continuity and **tail-risk** to global stability; tier **honesty**: **India Today** / **jeffsachs.org** pages are **primary** hosts, not wire proof of policy moves.
 
-
 The 2026-01 segment for the Jeffrey D. Sachs lane (`sachs`) exists so the notebook keeps a **prose spine** alongside any strength-tagged bullets. The roster describes this voice as centered on University Professor, Columbia; Director, Center for Sustainable Development; President, UN Sustainable Development Solutions Network (SDSN); economist and sustainable-development leader with geopolitical and institutions commentary (UN/DC Ã¢â‚¬Å“process vs personalityÃ¢â‚¬Â theses per index).. That one-line role is not a substitute for transcript truth; it is a **routing label** so batch-analysis passes know which mechanism vocabulary to expect when dated material lands. When this month is still partial or ingest-light, the prose layer still records **where verification should attach** (page cites, transcript rows, or hub URLs) without pretending those pins are already closed.
 
 When historical expert context artifacts exist for `sachs` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-01 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
@@ -62,7 +60,6 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-01, re
 
 **Doha** / **FM Araghchi** Ã¢â‚¬Å“comprehensive peace proposalÃ¢â‚¬Â week Ã¢â‚¬â€ Sachs co-authors / comments on **Palestinian statehood** as load-bearing for **regional** settlement; keep **separate** from **Marandi** **room** facts without a labeled seam.
 
-
 When historical expert context artifacts exist for `sachs` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-02 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
 
 The `sachs` laneÃ¢â‚¬â„¢s role (University Professor, Columbia; Director, Center for Sustainable Development; President, UN Sustainable Development Solutions Network (SDSN); economist and sustainable-development leader with geopolitical and institutions commentary (UN/DC Ã¢â‚¬Å“process vs personalityÃ¢â‚¬Â theses per index).) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃ¢â‚¬â„¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
@@ -79,7 +76,6 @@ Typical pairings on file for `sachs` emphasize contrast surfaces: Ãƒâ€” d
 
 Kinetic **escalation** month in third-party indexes Ã¢â‚¬â€ **underestimation** thesis, **nuclear-use** hypotheticals, **India** / **ground-invasion** dilemmas; **YouTube** long-form for **hegemony** thesis Ã¢â‚¬â€ **capacity / health** claims about **executives** stay **tier-C** per profile.
 
-
 The `sachs` laneÃ¢â‚¬â„¢s role (University Professor, Columbia; Director, Center for Sustainable Development; President, UN Sustainable Development Solutions Network (SDSN); economist and sustainable-development leader with geopolitical and institutions commentary (UN/DC Ã¢â‚¬Å“process vs personalityÃ¢â‚¬Â theses per index).) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃ¢â‚¬â„¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
 
 Cross-lane convergence and tension are notebook-native concepts. For 2026-03, read Ãƒâ€” diesen, Ãƒâ€” mearsheimer, Ãƒâ€” mercouris, Ãƒâ€” parsi as the default **short list** of other experts whose fingerprints commonly collide with `sachs` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
@@ -91,7 +87,6 @@ If pages named this expert during 2026-03, the narrative should eventually say *
 When historical expert context artifacts exist for `sachs` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-03 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
 
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-03, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
-
 
 The `sachs` laneÃ¢â‚¬â„¢s role (University Professor, Columbia; Director, Center for Sustainable Development; President, UN Sustainable Development Solutions Network (SDSN); economist and sustainable-development leader with geopolitical and institutions commentary (UN/DC Ã¢â‚¬Å“process vs personalityÃ¢â‚¬Â theses per index).) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃ¢â‚¬â„¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
 
@@ -138,7 +133,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 - **2026-03-31** (class) Ã¢â‚¬â€ USÃ¢â‚¬â€œIran War Deepens Ã¢â‚¬â€ India dilemma Ã¢â‚¬â€ jeffsachs.org.
   _Source:_ web: `https://www.jeffsachs.org/interviewsandmedia/jzhlpzl4cp25k3d7jrz9j7bpwkwd6x`
 
-
 ### 2026-04
 
 - **2026-04** Ã¢â‚¬â€ Notebook cross-ref (partial month).
@@ -151,7 +145,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 ## 2026-04
 
 _Partial month Ã¢â‚¬â€ April notebook use is **weave-anchored** (DiesenÃƒâ€”Sachs abstract vs Hormuz) plus blockade weave cross-refs; no new dated Sachs primary added here._
-
 
 Cross-lane convergence and tension are notebook-native concepts. For 2026-04, read Ãƒâ€” diesen, Ãƒâ€” mearsheimer, Ãƒâ€” mercouris, Ãƒâ€” parsi as the default **short list** of other experts whose fingerprints commonly collide with `sachs` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
 

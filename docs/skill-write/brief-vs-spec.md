@@ -1,6 +1,5 @@
 # Brief vs spec
 
-
 ## Brief
 
 A **brief** states intent: what the output must achieve, who it is for, what good looks like, examples, constraints, and the acceptance bar.

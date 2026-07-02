@@ -1,7 +1,5 @@
 # Coffee D - Singularity Operating Sheet
 
-WORK only; not Record.
-
 ## Purpose
 
 Use Coffee D when the live question is agency under acceleration: AI substrate, agent control, alignment, displacement, recursive improvement, or human meaning under technical change. Coffee D is not the default route for monetization, offers, revenue, or public copy unless those are being examined as singularity test surfaces rather than handled as plain operations.

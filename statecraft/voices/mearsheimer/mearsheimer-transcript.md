@@ -1,7 +1,6 @@
 # Expert transcript — `mearsheimer`
 <!-- word_count: 2481 -->
 
-
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) that include `thread:mearsheimer` (first line + optional continuation paragraphs), routed on ingest.
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
@@ -19,50 +18,15 @@
 - Inbox | cold: full text in [`source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md`](../../../source-archive/statecraft/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md) (pointer; SSOT raw-input) | thread:mearsheimer
 - Inbox | cold: full text in [`source-hedges-mearsheimer-iran-2026-04-20.md`](../../../source-archive/statecraft/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md) (pointer; SSOT raw-input) | thread:mearsheimer
 
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-27
 - Inbox | cold: full text in [`source-mearsheimer-redacted-trump-iran-2026-04-21.md`](../../../source-archive/statecraft/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:mearsheimer
 - Inbox | cold: full text in [`source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md`](../../../source-archive/statecraft/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md) (pointer; SSOT raw-input) | thread:mearsheimer
 - Inbox | cold: full text in [`source-hedges-mearsheimer-iran-2026-04-20.md`](../../../source-archive/statecraft/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md) (pointer; SSOT raw-input) | thread:mearsheimer
 
-
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-26
 - Inbox | cold: full text in [`source-mearsheimer-redacted-trump-iran-2026-04-21.md`](../../../source-archive/statecraft/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md) (pointer; SSOT raw-input) | thread:mearsheimer
 - Inbox | cold: full text in [`source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md`](../../../source-archive/statecraft/2026-03-29/source-mearsheimer-will-trump-go-kamikaze-2026-03-29.md) (pointer; SSOT raw-input) | thread:mearsheimer
 - Inbox | cold: full text in [`source-hedges-mearsheimer-iran-2026-04-20.md`](../../../source-archive/statecraft/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md) (pointer; SSOT raw-input) | thread:mearsheimer
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## 2026-04-25
 - YT | cold: **Redacted** × **John Mearsheimer** (*Prof. John Mearsheimer: Trump's ONLY option is surrender* — **operator transcript** **2026-04-21**) — **CNBC** **Trump** **bombing** **rhetoric** **vs** **Islamabad** **/ Vance** **pause;** **Mearsheimer:** **U.S.** **interest** **in** **settlement,** **Iran** **holds** **escalation** **cards,** **NYT** **Barnea** **/** **Bibi** **shock-awe** **/ Caine;** **Hormuz** **blockade** **×** **Islamabad** **meeting** **failure;** **lobby** **/ Moby** **Dick** **/ four** **unmet** **war** **goals;** **breaking** **WH** **“fractured** **Iran** **→** **hold** **bombing”** **pivot** **read** **as** **face-saving** **off-ramp;** **economy** **/ Titanic** **/ fert** **+** **helium;** **refinery** **host** **speculation** **—** **Mearsheimer** **Ukraine** **refineries** **only;** **“surrender”** **/ JCPOA** **/ regime-change** **harder;** **Waltz** **war** **crimes** **teased** **pre-ad** // hook: **`thread:mearsheimer`** **×** **§1e** **Islamabad** **/** **Hormuz** **+** **§1d** **Trump** **—** **full** **verbatim** [provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md](../../../source-archive/statecraft/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md) · **day** **page** [experts/mearsheimer/mearsheimer-page-2026-04-21-redacted-trump-iran.md](mearsheimer-page-2026-04-21-redacted-trump-iran.md) | `TBD` canonical watch URL | verify:full-text+provenance/2026-04-21/source-mearsheimer-redacted-trump-iran-2026-04-21.md+operator-transcript | thread:mearsheimer | IRAN | grep:Mearsheimer+Redacted+surrender+2026-04-21

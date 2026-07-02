@@ -7,7 +7,6 @@ from dataclasses import dataclass
 
 _SENTENCE_END = re.compile(r"(?<=[.!?])\s+")
 
-
 @dataclass(frozen=True)
 class Segment:
     text: str
@@ -15,10 +14,8 @@ class Segment:
     end: int
     line_index: int
 
-
 def line_index_at(offset: int, body: str) -> int:
     return body.count("\n", 0, offset) + 1
-
 
 def segment_body(body: str) -> list[Segment]:
     if not body:
@@ -53,7 +50,6 @@ def segment_body(body: str) -> list[Segment]:
             Segment(text=body, start=0, end=len(body), line_index=1)
         )
     return segments
-
 
 def segments_lossless(body: str, segments: list[Segment]) -> bool:
     if not segments:

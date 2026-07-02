@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `johnson`
 <!-- word_count: 11570 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Johnson helix structure.
@@ -45,7 +44,6 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 
 January has **no dated** notebook `thread:` row for Johnson in this Q1 snapshot; the lane is **ex-CIA material / ORBAT / Hormuz geometry** beside HaiphongÃ¢â‚¬â€œRitter roundtables Ã¢â‚¬â€ per roster. Hubs are anchors only.
 
-
 Verification stance for Larry Johnson in 2026-01 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgmentÃ¢â‚¬â€without turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 
 Typical pairings on file for `johnson` emphasize contrast surfaces: Ãƒâ€” ritter, Ãƒâ€” davis; see [transcript digest](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md). In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-01 segment should be read as **mesh navigation**Ã¢â‚¬â€which lanes to pull into the same batch passÃ¢â‚¬â€rather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
@@ -66,7 +64,6 @@ Finally, 2026-01 should remain safe for **operator rotation**: someone returning
 
 February shows **no indexed Q1 primary** in-repo; **`ritter`** / **`davis`** crosses stay **seam-labeled** when the same week needs material detail.
 
-
 Cross-lane convergence and tension are notebook-native concepts. For 2026-02, read Ãƒâ€” ritter, Ãƒâ€” davis; see [transcript digest](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) as the default **short list** of other experts whose fingerprints commonly collide with `johnson` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
 
 The `johnson` laneÃ¢â‚¬â„¢s role (Ex-CIA / material and ORBAT emphasis: force structure, Hormuz geometry, F-15/Isfahan raid narrative reconstructions (HaiphongÃ¢â‚¬â€œRitter roundtables)) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃ¢â‚¬â„¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
@@ -85,7 +82,6 @@ Segment discipline here follows the strategy-notebook contract: Segment 1 is hum
 
 March remains **thin** here; **April** machine extraction references **F-15 / Isfahan** narrative math Ã¢â‚¬â€ Q1 is **identity + routing** only.
 
-
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-03, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
 
 The 2026-03 segment for the Larry Johnson lane (`johnson`) exists so the notebook keeps a **prose spine** alongside any strength-tagged bullets. The roster describes this voice as centered on Ex-CIA / material and ORBAT emphasis: force structure, Hormuz geometry, F-15/Isfahan raid narrative reconstructions (HaiphongÃ¢â‚¬â€œRitter roundtables). That one-line role is not a substitute for transcript truth; it is a **routing label** so batch-analysis passes know which mechanism vocabulary to expect when dated material lands. When this month is still partial or ingest-light, the prose layer still records **where verification should attach** (page cites, transcript rows, or hub URLs) without pretending those pins are already closed.
@@ -95,7 +91,6 @@ Finally, 2026-03 should remain safe for **operator rotation**: someone returning
 Typical pairings on file for `johnson` emphasize contrast surfaces: Ãƒâ€” ritter, Ãƒâ€” davis; see [transcript digest](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md). In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-03 segment should be read as **mesh navigation**Ã¢â‚¬â€which lanes to pull into the same batch passÃ¢â‚¬â€rather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
 
 The `johnson` laneÃ¢â‚¬â„¢s role (Ex-CIA / material and ORBAT emphasis: force structure, Hormuz geometry, F-15/Isfahan raid narrative reconstructions (HaiphongÃ¢â‚¬â€œRitter roundtables)) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃ¢â‚¬â„¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
-
 
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-03, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
 
@@ -124,7 +119,6 @@ The 2026-03 segment for the Larry Johnson lane (`johnson`) exists so the noteboo
 - **2026-03** Ã¢â‚¬â€ No dated notebook ingest Ã¢â‚¬â€ X profile pointer.
   _Source:_ web: `https://x.com/LarrySonar21`
 
-
 ### 2026-04
 
 - **2026-04** Ã¢â‚¬â€ Notebook cross-ref (partial month).
@@ -139,7 +133,6 @@ The 2026-03 segment for the Larry Johnson lane (`johnson`) exists so the noteboo
 _Partial month Ã¢â‚¬â€ **2026-04-10** digest Ã‚Â§B line + **2026-04-17** DavisÃƒâ€”Johnson YT (Hormuz / blockade dual-register) + **2026-04-20** Judging Freedom overlap row + Hormuz scaffold / blockade Pages; not calendar-complete._
 
 April centers **F-15 / Isfahan Ã¢â‚¬Å“rescueÃ¢â‚¬Â** deployment narrative and C-130 / Little Bird load math from HaiphongÃ¢â‚¬â€œRitterÃ¢â‚¬â€œJohnson digest Ã¢â‚¬â€ **same digest Ã‚Â§B** as Ritter ORBAT skepticism lane. **2026-04-20** **Judging Freedom** names **Larry Johnson** as reporter (**two sources**) on **CJCS Caine** / **nuclear** **codes** (**hypothesis** **tier**) Ã¢â‚¬â€ **distinct** **from** digest **Ã‚Â§B** **Johnson** **F-15/Isfahan** **ORBAT** **lane** (**same** **name**, **different** **speech** **act**); seam in [`days.md` Ã‚Â§ 2026-04-20](../../../continuity/chapters/2026/2026-04/days.md#2026-04-20).
-
 
 Verification stance for Larry Johnson in 2026-04 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgmentÃ¢â‚¬â€without turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 

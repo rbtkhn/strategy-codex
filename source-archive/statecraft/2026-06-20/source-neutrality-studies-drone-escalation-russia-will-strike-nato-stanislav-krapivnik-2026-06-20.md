@@ -38,7 +38,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back everybody to neutrality studies today for an update with our friend and colleague Stanislav Krapivnik. Stas, Welcome back. >> Thank you. Always a pleasure. Great having you back. And we want to talk a little bit about the position of Russia today and also how maybe the most recent between Iran and the United States is now impacting the logic or the thinking of of Moscow.

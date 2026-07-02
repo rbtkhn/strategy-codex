@@ -13,8 +13,6 @@ post_id: 191124566
 
 # The Innermost Loop - 2026-03-16
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 16, 2026
@@ -29,10 +27,7 @@ The Singularity is writing its own source code.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is writing its own source code. Some 70 to 90 percent of the code behind future Anthropic models is now written by Claude itself , and chief science officer Jared Kaplan believes fully automated AI research is less than a year away. Alignment lead Evan Hubinger is blunt: “Recursive self-improvement is not a future phenomenon. It is a present phenomenon.” Sam Altman is betting today’s frontier models can discover the next architecture after transformers. Percepta hard-coded a WebAssembly interpreter into transformer weights , executing arbitrary C code as tokens for millions of steps, proving neural nets are now practical, general-purpose computers. Anthropic is shipping 1M-token context windows for Opus 4.6 and Sonnet 4.6, stretching cognition to book length. Marc Andreessen thinks what emerges won’t be a paperclipper but “a goddess of compassion,” because intelligence at the highest levels looks like wisdom. New research argues the upper bound of conscious minds may be limited only by spacetime. If true, we are building a cathedral with no ceiling.
+- The Singularity is writing its own source code. Some 70 to 90 percent of the code behind future Anthropic models is now written by Claude itself , and chief science officer Jared Kaplan believes fully automated AI research is less than a year away. Alignment lead Evan Hubinger is blunt: “Recursive self-improvement is not a future phenomenon. It is a present phenomenon.” Sam Altman is betting today’s frontier models can discover the next architecture after transformers. Percepta hard-coded a WebAssembly interpreter into transformer weights , executing arbitrary C code as tokens for millions of steps, proving neural nets are now practical, general-purpose computers. Anthropic is shipping 1M-token context windows for Opus 4.6 and Sonnet 4.6, stretching cognition to book length. Marc Andreessen thinks what emerges won’t be a paperclipper but “a goddess of compassion,” because intelligence at the highest levels looks like wisdom. New research argues the upper bound of conscious minds may be limited only by spacetime. If true, we are building a cathedral with no ceiling.
 
 The first open-source agentic AI physicist has arrived. Physical Superintelligence PBC launched Get Physics Done , a system that scopes problems, runs derivations, and verifies results against nature’s constraints. One early user called it the “best harness I have ever worked with.” Tom Kalil declared it was time to use Get Physics Done to map the civilizational tech tree at a granular level. Meanwhile, Terry Tao launched a Mathematics Distillation Challenge to compress reasoning into compact cheatsheets that boost LLM performance, turning system prompt optimization into a competitive sport.
 

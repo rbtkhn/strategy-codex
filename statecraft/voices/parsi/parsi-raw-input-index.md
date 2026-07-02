@@ -1,6 +1,5 @@
 # Parsi raw-input index
 
-
 Compatibility pointer only.
 
 The canonical Parsi source route map now lives at [parsi-source-index.md](parsi-source-index.md).

@@ -12,7 +12,6 @@ if str(_SCRIPTS) not in sys.path:
 
 from report_governance_posture import build_governance_posture_markdown  # noqa: E402
 
-
 def test_build_governance_posture_contains_core_sections(tmp_path: Path) -> None:
     uid = "fixture-user"
     prof = tmp_path / "platform/users" / uid

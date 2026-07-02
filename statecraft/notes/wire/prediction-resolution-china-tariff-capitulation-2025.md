@@ -15,7 +15,6 @@ links:
 
 # Prediction resolution — china_tariff_capitulation_2025
 
-
 **Event question:** Will China capitulate to Trump's tariff pressure (major substantive yield, not cosmetic)?  
 **Resolution criteria:** Operator resolves from documented trade/policy concessions.  
 **Freeman arc:** [freeman-predictions.md#china_tariff_capitulation_2025](../voices/freeman/freeman-predictions.md#china_tariff_capitulation_2025)  

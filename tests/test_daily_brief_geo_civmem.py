@@ -17,7 +17,6 @@ from generate_wap_daily_brief import (  # noqa: E402
     _score_keywords,
 )
 
-
 def test_geo_extra_merges_with_defaults() -> None:
     cfg = REPO_ROOT / "docs/skill-work/work-strategy/daily-brief-config.json"
     *_, geo, geo_loc = _load_full_config(cfg)
@@ -25,12 +24,10 @@ def test_geo_extra_merges_with_defaults() -> None:
     assert "idf" in geo
     assert isinstance(geo_loc, dict)
 
-
 def test_score_g_counts_geo_phrases() -> None:
     blob = "The Pentagon announced new naval deployments near NATO waters."
     g = _score_keywords(blob.lower(), tuple(DEFAULT_GEO_MILITARY_PHRASES))
     assert g >= 2
-
 
 def test_civ_mem_resonance_returns_lines() -> None:
     lines = _civ_mem_resonance_lines(

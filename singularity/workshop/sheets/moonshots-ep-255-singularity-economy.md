@@ -1,7 +1,5 @@
 # Moonshots EP #255 - Singularity Economy
 
-WORK only; not Record.
-
 ## Source
 
 - Source: "Anthropic Partners With SpaceX AI, Leopold's $5.5B Bet, and the Singularity Economy | EP #255", Moonshots.

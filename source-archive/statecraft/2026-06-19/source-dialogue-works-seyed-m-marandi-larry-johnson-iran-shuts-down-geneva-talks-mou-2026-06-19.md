@@ -65,7 +65,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Friday, June 19, 2026, and our dear friends Larry Johnson and Professor Miranda are here with us. Welcome back. >> Hi there. I I am upset. I mean, none of you are wearing this shirt, okay? So, I just I'm I'm insulted personally, but that's okay. I'll I'll suck it up. I'll figure out a way to cope.

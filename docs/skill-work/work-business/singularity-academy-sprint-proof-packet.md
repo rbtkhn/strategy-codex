@@ -1,6 +1,6 @@
 # Singularity-Academy Sprint Proof Packet
 
-WORK only. This is a compact evidence packet for the sprint offer.
+non-authoritative. This is a compact evidence packet for the sprint offer.
 
 ## Purpose
 

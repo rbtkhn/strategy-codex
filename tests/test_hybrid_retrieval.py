@@ -16,9 +16,7 @@ SCRIPTS_RUNTIME = REPO_ROOT / "scripts" / "runtime"
 sys.path.insert(0, str(SCRIPTS_RUNTIME))
 import hybrid_scoring as hs  # noqa: E402
 
-
 # ── hybrid_scoring unit tests ─────────────────────────────────────────
-
 
 class TestTokenize:
     def test_basic_tokenization(self) -> None:
@@ -29,7 +27,6 @@ class TestTokenize:
 
     def test_empty_string(self) -> None:
         assert hs.tokenize("") == []
-
 
 class TestTermOverlap:
     def test_full_overlap(self) -> None:
@@ -48,7 +45,6 @@ class TestTermOverlap:
 
     def test_empty_query(self) -> None:
         assert hs.term_overlap_score([], ["beta"]) == 0.0
-
 
 class TestTfidfCosine:
     def test_identical_docs(self) -> None:
@@ -74,7 +70,6 @@ class TestTfidfCosine:
         assert s1 > s2
         assert s3 > s2
 
-
 class TestNormalizeScores:
     def test_spread(self) -> None:
         normed = hs.normalize_scores([1.0, 5.0, 10.0])
@@ -92,14 +87,12 @@ class TestNormalizeScores:
     def test_empty(self) -> None:
         assert hs.normalize_scores([]) == []
 
-
 class TestSemanticHook:
     def test_stub_returns_zero(self) -> None:
         assert hs.semantic_score("any query", "any text") == 0.0
 
     def test_not_available(self) -> None:
         assert hs.semantic_available() is False
-
 
 class TestRecency:
     def test_recent_timestamp_high(self) -> None:
@@ -129,7 +122,6 @@ class TestRecency:
         score = hs.recency_from_mtime(mtime, now=now)
         assert score == 0.0
 
-
 class TestCombineScores:
     def test_default_weights_no_semantic(self) -> None:
         score = hs.combine_scores(1.0, 0.0, 1.0, semantic_active=False)
@@ -154,13 +146,11 @@ class TestCombineScores:
         diff = with_recency - no_recency
         assert 0 < diff < 0.10  # recency influence is small
 
-
 # ── CLI integration tests ─────────────────────────────────────────────
 
 def _run_cli(*extra_args: str) -> subprocess.CompletedProcess[str]:
     cmd = [sys.executable, str(SCRIPTS_RUNTIME / "hybrid_retrieve.py"), *extra_args]
     return subprocess.run(cmd, capture_output=True, text=True)
-
 
 class TestCLI:
     def test_unsupported_surface_rejected(self) -> None:
@@ -235,7 +225,6 @@ class TestCLI:
             "--weights", "bad",
         )
         assert result.returncode != 0
-
 
 # ── lexical ordering test (fixture-based) ─────────────────────────────
 

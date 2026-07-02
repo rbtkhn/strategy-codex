@@ -29,7 +29,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Deal Rumor Open — Bessent Free Passage, Tasnim Denial, Perpetual Cycle
 
 >> So, before we go into your piece, which is which is a a fascinating piece on Substack that you wrote about the dynamic between Iran, the UAE, Israel, sorry, Iran, the UAE, Israel, and Lebanon.

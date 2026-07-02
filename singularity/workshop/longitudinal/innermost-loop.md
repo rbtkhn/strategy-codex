@@ -1,7 +1,5 @@
 # The Innermost Loop Longitudinal Spine
 
-WORK only; not Record.
-
 Deterministic v1 view over local raw captures. Fronts are keyword/rule signals for review, not settled interpretation.
 
 ## Coverage

@@ -17,7 +17,6 @@ _READING_BEFORE_EXAMPLE = re.compile(
     re.DOTALL,
 )
 
-
 def append_act_entry(evidence_content: str, act_entry_fragment: str) -> str:
     """
     Insert a new ``- id: ACT-...`` block before ``## VI. ATTESTATION LOG``,
@@ -28,7 +27,6 @@ def append_act_entry(evidence_content: str, act_entry_fragment: str) -> str:
         return evidence_content[: m.start()] + act_entry_fragment + evidence_content[m.start() :]
     return evidence_content + act_entry_fragment
 
-
 def _format_read_item(read_id: str, title: str, evidence_tier: int, status: str) -> str:
     safe_title = title[:500].replace('"', "'")
     return f"""  - id: {read_id}
@@ -38,7 +36,6 @@ def _format_read_item(read_id: str, title: str, evidence_tier: int, status: str)
     evidence_tier: {evidence_tier}
     source: pipeline merge
 """
-
 
 def upsert_reading_list_entry(
     evidence_content: str,
@@ -66,7 +63,6 @@ def upsert_reading_list_entry(
         return evidence_content[: m_ex.start(3)] + insert + evidence_content[m_ex.start(3) :]
 
     return evidence_content
-
 
 # Back-compat alias
 def insert_reading_list_entry(

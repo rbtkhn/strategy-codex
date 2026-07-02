@@ -13,7 +13,6 @@ VOICE_PROFILES: dict[str, str] = {
     "macgregor": "military_operational",
 }
 
-
 class MearsheimerAdapter(EpistemicPlugin):
     """Stub voice adapter — maps known voices to profile annotations."""
 

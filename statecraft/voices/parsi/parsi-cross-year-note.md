@@ -1,6 +1,5 @@
 # Parsi cross-year note
 
-
 Purpose: clarify where the mature Parsi object really begins and how the shelf should treat `2025-present` continuity without pretending that all captured material has equal arc weight.
 
 ## Governing window

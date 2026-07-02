@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Negotiations Qatar And Walk Away Frame
 
 **Joe Kent:** Um, yeah, let's let's let's keep the first question broad. Is um what do you make of what we're seeing right now? It's um there are negotiations. Trump did say that the uh negotiations they were cancelled on the weekend, but they'll continue in Qatar. There's a bit of a power struggle happening in the Strait of Hormuz. I know you've been advocating for the US to just walk away. Also, walking away is a process. You know, I think it's during negotiations. I think each side is trying to get the best terms it can get.

@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 # Internal vs Public Vocabulary
 
-
 ## Purpose
 
 This note preserves a practical translation rule for `statecraft` prose: some internal machine terms are compact and precise for operator work, but too opaque for general readers. When writing essays, memos, or public-facing analysis, translate those terms into more legible language unless the piece is explicitly teaching the internal concept.

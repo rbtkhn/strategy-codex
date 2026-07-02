@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Lavrov Says US Iran War About Oil; Targets China; Warns Russia Will Enforce Baltic Red Line; Araghchi
 
-

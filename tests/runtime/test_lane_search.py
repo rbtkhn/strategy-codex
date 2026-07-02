@@ -11,13 +11,11 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "runtime" / "lane_search.py"
 
-
 def _write_ledger(tmp_path: Path, rows: list[dict]) -> None:
     obs_dir = tmp_path / "runtime" / "observations"
     obs_dir.mkdir(parents=True)
     path = obs_dir / "index.jsonl"
     path.write_text("\n".join(json.dumps(r, ensure_ascii=False) for r in rows) + "\n", encoding="utf-8")
-
 
 def _run(tmp_path: Path, *args: str) -> subprocess.CompletedProcess[str]:
     env = {**os.environ, "GRACE_MAR_RUNTIME_LEDGER_ROOT": str(tmp_path)}
@@ -29,7 +27,6 @@ def _run(tmp_path: Path, *args: str) -> subprocess.CompletedProcess[str]:
         env=env,
         check=False,
     )
-
 
 def _base(
     obs_id: str,
@@ -53,7 +50,6 @@ def _base(
         "confidence": None,
         "notes": "SECRET_NOTES_BODY_SHOULD_NOT_APPEAR_IN_LANE_SEARCH_OUTPUT",
     }
-
 
 def test_title_phrase_ranks(tmp_path: Path) -> None:
     rows = [
@@ -89,7 +85,6 @@ def test_title_phrase_ranks(tmp_path: Path) -> None:
     lines = [ln for ln in proc.stdout.splitlines() if ln and not ln.startswith("  ")]
     assert lines[0].startswith("obs_20200101T110000Z_bbbbbbbb")
 
-
 def test_summary_term_match(tmp_path: Path) -> None:
     rows = [
         _base(
@@ -105,7 +100,6 @@ def test_summary_term_match(tmp_path: Path) -> None:
     proc = _run(tmp_path, "--lane", "work-strategy", "--query", "zzyxxy", "--limit", "3")
     assert proc.returncode == 0, proc.stderr
     assert "zzyxxy" in proc.stdout
-
 
 def test_filters_by_lane(tmp_path: Path) -> None:
     rows = [
@@ -131,7 +125,6 @@ def test_filters_by_lane(tmp_path: Path) -> None:
     assert proc.returncode == 0, proc.stderr
     assert "other-lane" not in proc.stdout
     assert "work-strategy" in proc.stdout
-
 
 def test_filters_by_source_kind(tmp_path: Path) -> None:
     rows = [
@@ -168,7 +161,6 @@ def test_filters_by_source_kind(tmp_path: Path) -> None:
     assert "compression" not in proc.stdout
     assert "manual_note" in proc.stdout
 
-
 def test_respects_limit(tmp_path: Path) -> None:
     rows = [
         _base(
@@ -187,7 +179,6 @@ def test_respects_limit(tmp_path: Path) -> None:
     blocks = [b for b in proc.stdout.strip().split("\n\n") if b.strip()]
     assert len(blocks) == 2
 
-
 def test_text_mode_is_compact_no_notes(tmp_path: Path) -> None:
     rows = [
         _base(
@@ -203,7 +194,6 @@ def test_text_mode_is_compact_no_notes(tmp_path: Path) -> None:
     proc = _run(tmp_path, "--lane", "work-strategy", "--query", "compact", "--limit", "3")
     assert proc.returncode == 0, proc.stderr
     assert "SECRET_NOTES_BODY" not in proc.stdout
-
 
 def test_json_is_single_array_with_score(tmp_path: Path) -> None:
     rows = [

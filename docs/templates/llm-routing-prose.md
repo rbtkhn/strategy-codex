@@ -3,7 +3,6 @@
 > **Machine routing SSOT.**
 > Not a human onboarding surface.
 
-
 This repository contains multiple index and source surfaces. Do not rely only on GitHub code search when asked to find a file, source corpus, analyst, speaker, dashboard, or index.
 
 This file is a **routing aid**. It does not change repository authority. Canonical truth remains with the relevant source files and existing doctrine ([AGENTS.md](../../AGENTS.md), [docs/archive/grace-mar.md](../../docs/archive/grace-mar.md), [docs/operator-dashboards.md](../operator-dashboards.md)).
@@ -46,17 +45,17 @@ Several surfaces use the word **index**. They are not interchangeable.
 |---|---|---|
 | `source-archive/statecraft/YYYY-MM-DD/day-index.md` | **Day index** — channel / writer / other partitions for one archive day | Derived / archive (rebuild via `build_statecraft_day_indices.py`) |
 | `source-archive/statecraft/YYYY-MM-DD/README.md` | **Day README stub** — pointer to `day-index.md` only | Derived / archive |
-| `statecraft/voices/**/**-source-index.md` | Per-analyst **route map** — which captures to open first | WORK only |
+| `statecraft/voices/**/**-source-index.md` | Per-analyst **route map** — which captures to open first | non-authoritative |
 | [statecraft/voices/voice-index.md](../../statecraft/voices/voice-index.md) | Front door listing all analyst source indexes | WORK routing aid |
 | [source-archive/statecraft/thread-index.md](../../source-archive/statecraft/thread-index.md) | Generated capture **inventory** by thread | Derived / archive |
 | [archive/grace-mar-instance/self-library.md](../../archive/grace-mar-instance/self-library.md) | Canonical removed operator-books symlink reference layer | Canonical reference |
 | [runtime/artifacts/library-index.md](../../runtime/artifacts/library-index.md) | Derived removed operator-books symlink **dashboard** | Derived |
 | [scripts/index_record.py](../../scripts/index_record.py) | Local Chroma / Record vector index builder | Derived local |
 | [docs/archive/codex-speakers-deprecated.md](../archive/codex-speakers-deprecated.md) | Tombstone for terminated `continuity/speakers/` | Archive |
-| [statecraft/channels/](../../statecraft/channels) | Host-family continuity (Davis, Napolitano, Nima / Dialogue Works) | WORK only |
+| [statecraft/channels/](../../statecraft/channels) | Host-family continuity (Davis, Napolitano, Nima / Dialogue Works) | non-authoritative |
 | [statecraft/channels/channel-index.json](../../statecraft/channels/channel-index.json) | **YouTube channel roster** (main) — check-sources SSOT; human: [channel-index.md](../../statecraft/channels/channel-index.md) | Derived from archive; rebuild via `refresh_statecraft_archive_indices.py` |
 | [statecraft/voices/speaker-cluster-map.md](../../statecraft/voices/speaker-cluster-map.md) | Anchor-and-satellite routing after Pape/Ritter/Parsi/Crooke | WORK routing aid |
-| `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker identity, voice fingerprint, pairing hub | WORK only (migrated SSOT) |
+| `statecraft/voices/<speaker>/<speaker>-profile.md` | Per-speaker identity, voice fingerprint, pairing hub | non-authoritative (migrated SSOT) |
 | [continuity/profiles/*-profile.md](../../continuity/profiles) | Profile-only lanes or pre-migration compatibility | Compatibility / profile-only |
 
 **Essays vs channel essay folders vs notes:**

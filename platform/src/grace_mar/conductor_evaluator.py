@@ -29,7 +29,6 @@ _FIDELITY_KEYWORDS: dict[str, frozenset[str]] = {
 
 _LANE_TOKENS = frozenset({"work-strategy", "work-dev", "work-politics", "work-coffee"})
 
-
 def _line_has_weak_opener(line: str) -> bool:
     low = line.lower().strip()
     probes = (
@@ -53,15 +52,12 @@ _OPTION_LINE_BOLD = re.compile(r"^\s*\*\*([A-E])\.\*\*\s*(.+)$", re.IGNORECASE |
 _OPTION_LINE_PLAIN = re.compile(r"^\s*([A-E])\.\s*(.+)$", re.IGNORECASE | re.DOTALL)
 _WORD = re.compile(r"[a-z0-9]+", re.IGNORECASE)
 
-
 def _tokens(s: str) -> set[str]:
     return {m.group(0).lower() for m in _WORD.finditer(s)}
-
 
 def _bigrams(s: str) -> set[tuple[str, str]]:
     toks = [m.group(0).lower() for m in _WORD.finditer(s)]
     return set(zip(toks, toks[1:])) if len(toks) >= 2 else set()
-
 
 def parse_action_menu_lines(markdown: str) -> list[str]:
     """Extract **A.**–**E.** option bodies in letter order (skip missing letters)."""
@@ -82,7 +78,6 @@ def parse_action_menu_lines(markdown: str) -> list[str]:
             out.append(by_letter[letter])
     return out
 
-
 def _pairwise_avg_jaccard(lines: list[str]) -> float:
     if len(lines) < 2:
         return 0.0
@@ -97,7 +92,6 @@ def _pairwise_avg_jaccard(lines: list[str]) -> float:
             union = len(a | b)
             sims.append(inter / union if union else 1.0)
     return sum(sims) / len(sims) if sims else 0.0
-
 
 def _pairwise_bigram_overlap(lines: list[str]) -> float:
     if len(lines) < 2:
@@ -114,14 +108,12 @@ def _pairwise_bigram_overlap(lines: list[str]) -> float:
             sims.append(inter / union if union else 1.0)
     return sum(sims) / len(sims) if sims else 0.0
 
-
 def _leading_verbs(lines: list[str]) -> list[str]:
     verbs: list[str] = []
     for line in lines:
         toks = [m.group(0).lower() for m in _WORD.finditer(line)]
         verbs.append(toks[0] if toks else "")
     return verbs
-
 
 def _discrimination_score(lines: list[str]) -> tuple[float, str]:
     if len(lines) < 2:
@@ -137,7 +129,6 @@ def _discrimination_score(lines: list[str]) -> tuple[float, str]:
     note = f"token_sim~{tok_sim:.2f} bigram_sim~{bi_sim:.2f} verb_bonus~{verb_bonus:.2f}; capped 0–1."
     return score, note
 
-
 def _count_grounding_refs(line: str) -> int:
     n = 0
     if _PATHISH.search(line):
@@ -149,7 +140,6 @@ def _count_grounding_refs(line: str) -> int:
         n += line.count("`") // 2
     return n
 
-
 def _grounding_score(lines: list[str]) -> tuple[float, str, int]:
     if not lines:
         return 0.0, "no lines parsed.", 0
@@ -160,7 +150,6 @@ def _grounding_score(lines: list[str]) -> tuple[float, str, int]:
     score = max(0.0, min(1.0, raw))
     note = f"refs_total={total_refs}; per_line~{per_line:.2f}; heuristic saturation."
     return score, note, total_refs
-
 
 def _actionability_score(lines: list[str]) -> tuple[float, str]:
     if not lines:
@@ -184,7 +173,6 @@ def _actionability_score(lines: list[str]) -> tuple[float, str]:
     note = "average line actionability; weak openers penalized unless scoped concrete cues."
     return max(0.0, min(1.0, avg)), note
 
-
 def _fidelity_score(slug: str, lines: list[str]) -> tuple[float, str]:
     s = normalize_conductor_slug(slug)
     if s not in KNOWN_CONDUCTOR_SLUGS:
@@ -199,7 +187,6 @@ def _fidelity_score(slug: str, lines: list[str]) -> tuple[float, str]:
     note = f"keyword_hits={hits} cap={cap}; stylistic proxy only."
     return raw, note
 
-
 @dataclass(frozen=True)
 class EvalScores:
     discrimination_score: float
@@ -208,7 +195,6 @@ class EvalScores:
     fidelity_score: float
     grounding_reference_count: int
     score_notes: dict[str, str]
-
 
 def evaluate_action_menu(
     slug: str,
@@ -254,7 +240,6 @@ def evaluate_action_menu(
             "fidelity": nf,
         },
     )
-
 
 def evaluate_markdown_menu(
     slug: str,

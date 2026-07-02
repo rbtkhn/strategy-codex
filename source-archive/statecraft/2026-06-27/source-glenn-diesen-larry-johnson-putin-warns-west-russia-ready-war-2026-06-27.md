@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — NATO Proxy And Petersburg Strikes
 
 **Glenn Diesen:** Welcome back. We are joined again by Larry Johnson, a former CI analyst who writes on Soner 21. And I've left a link in the description. So, thank you for coming back on, Larry. It's great to see you as always.

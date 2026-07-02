@@ -47,7 +47,6 @@ verify:
 
 ## Transcript
 
-
 ### Show Open — Sunday Date And FSB Fakrif Claim
 
 Good day. Today is Sunday, 28th June, 2026. And before I proceed with this program, let me remind you again to tick the like button and to check your subscription to this channel. Well, today there has been further news and the two big conflicts that are taking place. The situation in the Persian Gulf continues to deteriorate with Iranian attacks on American military facilities across the Persian Gulf. But I will, as I have done in other recent programs, uh start and focus in this program on the situation in Ukraine.

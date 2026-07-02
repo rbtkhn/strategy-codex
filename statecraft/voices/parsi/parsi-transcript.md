@@ -1,7 +1,6 @@
 ﻿# Expert transcript â€” `parsi`
 <!-- word_count: 1408 -->
 
-
 Compatibility note: this is a legacy continuity transcript surface. Use it as support residue, not as a first-open citation path when the person arc, routing note, thread atlas, bounded month arcs, or raw-input bench already answer the question more directly.
 
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) that include `thread:parsi` (first line + optional continuation paragraphs), routed on ingest.
@@ -27,16 +26,6 @@ Compatibility note: this is a legacy continuity transcript surface. Use it as su
 - X | cold: @tparsi (2026-04-17, later) â€” **If** Iranian claims hold (Tehran threatened to resume strikes on **Israel** unless **Israel** agreed a **Lebanon** ceasefire, and that moved **Trump** to push **Netanyahu**), a narrative may emerge that **Iran** â€œsavedâ€ **Lebanon** // hook: conditional coercion story vs **Marandi** **Lebanon** frame (04-16 BP + 04-17 X) â€” **tension-first** | https://x.com/tparsi | verify:pin-exact-status-URL+screenshot | thread:parsi
 - X | cold: @tparsi **repost** â€” **Joe Kent** embeds **Trump** **Truth Social**: **B-2** nuclear-material terms; **no** money exchange; **Lebanon** / **Hezbollah** seam separate; **Israel** **prohibited** from bombing **Lebanon** by **U.S.**; Kent adds deal may hold if **Trump** enforces **Israel** restrictions and limits **U.S.** military aid // hook: **Parsi** signal-boost â€” **cross** `thread:davis` same-day Trump TS embed; keep **dual-register** with Â§1f pool triage | https://x.com/joekent16jan19 | verify:Truth-Social-primary+Kent-status-URL | thread:parsi
 
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-27
 - X | cold: **Trita Parsi** (@tparsi) â€” **aired** **2026-04-21** â€” **Trump** **â€œcavesâ€** **extends** **ceasefire,** **frames** **IRI** **â€œin** **disarray;â€** **extension** **â€œINDEFINITELY;â€** **Parsi** **read:** **most** **likely** **outcome** **=** **no** **deal,** **no** **sanctions** **relief,** **no** **nuclear** **compromise,** **no** **return** **to** **war,** **Iran** **keeps** **Strait** **control** **â€”** **unstable** **equilibrium;** **Trump** **exits** **war,** **Iran** **sans** **sanctions** **lift** // hook: **`thread:parsi`** **Ã—** **Â§1e** **ceasefire** **/** **Hormuz** **+** **Â§1d** **Trump** **narrative** **â€”** **merge** **only** **with** **WH** **/** **wire** **tier** **on** **â€œindefiniteâ€** **facts** | https://x.com/tparsi | verify:X-account+tparsi+2026-04-21+optional-status-permalink+policy-interpretation-tier+Trump-framing-opinion | thread:parsi | IRAN | grep:Parsi+Trump+ceasefire+indefinite+disarray+2026-04-21
 - X | cold: **Parsi** (@tparsi) â€” **aired** **2026-04-21** â€” **Belgium** **to** **request** **â‰¥** **partial** **suspension** **EUâ€“Israel** **association** **agreement;** **Spain,** **Ireland,** **Slovenia** **already** **did** **â€”** **lag** **=** **â€œoutrage** **and** **shameâ€** // hook: **EU** **/** **Israel** **diplomatic** **seam** **Ã—** **Â§1g** **Europe** **â€”** **pin** **commission** **/** **MS** **releases** **before** **hard** **Judgment** | https://x.com/tparsi | verify:X-account+tparsi+2026-04-21+EU-wire-primary+optional-status-permalink | thread:parsi | ISRAEL | EU | grep:Parsi+Belgium+EU-Israel+association+2026-04-21
@@ -49,17 +38,6 @@ Compatibility note: this is a legacy continuity transcript surface. Use it as su
 - X | cold: @tparsi (2026-04-17, earlier) â€” USâ€“Iran framework reportedly close via **Pakistani** mediation within days; **30â€“60** day window to final agreement; warns **Israel** may sabotage any deal ending USâ€“Iran hostility or lifting sanctions; **Trump** must be tougher on **Netanyahu** than before // hook: **Beltway mechanism** â€” pair **04-16** Marandi BP **Islamabad** authority + sabotage vocabulary; not same evidence tier | https://x.com/tparsi | verify:pin-exact-status-URL+screenshot | thread:parsi
 - X | cold: @tparsi (2026-04-17, later) â€” **If** Iranian claims hold (Tehran threatened to resume strikes on **Israel** unless **Israel** agreed a **Lebanon** ceasefire, and that moved **Trump** to push **Netanyahu**), a narrative may emerge that **Iran** â€œsavedâ€ **Lebanon** // hook: conditional coercion story vs **Marandi** **Lebanon** frame (04-16 BP + 04-17 X) â€” **tension-first** | https://x.com/tparsi | verify:pin-exact-status-URL+screenshot | thread:parsi
 - X | cold: @tparsi **repost** â€” **Joe Kent** embeds **Trump** **Truth Social**: **B-2** nuclear-material terms; **no** money exchange; **Lebanon** / **Hezbollah** seam separate; **Israel** **prohibited** from bombing **Lebanon** by **U.S.**; Kent adds deal may hold if **Trump** enforces **Israel** restrictions and limits **U.S.** military aid // hook: **Parsi** signal-boost â€” **cross** `thread:davis` same-day Trump TS embed; keep **dual-register** with Â§1f pool triage | https://x.com/joekent16jan19 | verify:Truth-Social-primary+Kent-status-URL | thread:parsi
-
-
-
-
-
-
-
-
-
-
-
 
 ## 2026-04-26
 - X | cold: **Trita Parsi** (@tparsi) â€” **aired** **2026-04-21** â€” **Trump** **â€œcavesâ€** **extends** **ceasefire,** **frames** **IRI** **â€œin** **disarray;â€** **extension** **â€œINDEFINITELY;â€** **Parsi** **read:** **most** **likely** **outcome** **=** **no** **deal,** **no** **sanctions** **relief,** **no** **nuclear** **compromise,** **no** **return** **to** **war,** **Iran** **keeps** **Strait** **control** **â€”** **unstable** **equilibrium;** **Trump** **exits** **war,** **Iran** **sans** **sanctions** **lift** // hook: **`thread:parsi`** **Ã—** **Â§1e** **ceasefire** **/** **Hormuz** **+** **Â§1d** **Trump** **narrative** **â€”** **merge** **only** **with** **WH** **/** **wire** **tier** **on** **â€œindefiniteâ€** **facts** | https://x.com/tparsi | verify:X-account+tparsi+2026-04-21+optional-status-permalink+policy-interpretation-tier+Trump-framing-opinion | thread:parsi | IRAN | grep:Parsi+Trump+ceasefire+indefinite+disarray+2026-04-21
@@ -74,20 +52,6 @@ Compatibility note: this is a legacy continuity transcript surface. Use it as su
 - X | cold: @tparsi (2026-04-17, later) â€” **If** Iranian claims hold (Tehran threatened to resume strikes on **Israel** unless **Israel** agreed a **Lebanon** ceasefire, and that moved **Trump** to push **Netanyahu**), a narrative may emerge that **Iran** â€œsavedâ€ **Lebanon** // hook: conditional coercion story vs **Marandi** **Lebanon** frame (04-16 BP + 04-17 X) â€” **tension-first** | https://x.com/tparsi | verify:pin-exact-status-URL+screenshot | thread:parsi
 - X | cold: @tparsi **repost** â€” **Joe Kent** embeds **Trump** **Truth Social**: **B-2** nuclear-material terms; **no** money exchange; **Lebanon** / **Hezbollah** seam separate; **Israel** **prohibited** from bombing **Lebanon** by **U.S.**; Kent adds deal may hold if **Trump** enforces **Israel** restrictions and limits **U.S.** military aid // hook: **Parsi** signal-boost â€” **cross** `thread:davis` same-day Trump TS embed; keep **dual-register** with Â§1f pool triage | https://x.com/joekent16jan19 | verify:Truth-Social-primary+Kent-status-URL | thread:parsi
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-25
 - X | cold: **Trita Parsi** (@tparsi) â€” **aired** **2026-04-21** â€” **Trump** **â€œcavesâ€** **extends** **ceasefire,** **frames** **IRI** **â€œin** **disarray;â€** **extension** **â€œINDEFINITELY;â€** **Parsi** **read:** **most** **likely** **outcome** **=** **no** **deal,** **no** **sanctions** **relief,** **no** **nuclear** **compromise,** **no** **return** **to** **war,** **Iran** **keeps** **Strait** **control** **â€”** **unstable** **equilibrium;** **Trump** **exits** **war,** **Iran** **sans** **sanctions** **lift** // hook: **`thread:parsi`** **Ã—** **Â§1e** **ceasefire** **/** **Hormuz** **+** **Â§1d** **Trump** **narrative** **â€”** **merge** **only** **with** **WH** **/** **wire** **tier** **on** **â€œindefiniteâ€** **facts** | https://x.com/tparsi | verify:X-account+tparsi+2026-04-21+optional-status-permalink+policy-interpretation-tier+Trump-framing-opinion | thread:parsi | IRAN | grep:Parsi+Trump+ceasefire+indefinite+disarray+2026-04-21
 - X | cold: **Parsi** (@tparsi) â€” **aired** **2026-04-21** â€” **Belgium** **to** **request** **â‰¥** **partial** **suspension** **EUâ€“Israel** **association** **agreement;** **Spain,** **Ireland,** **Slovenia** **already** **did** **â€”** **lag** **=** **â€œoutrage** **and** **shameâ€** // hook: **EU** **/** **Israel** **diplomatic** **seam** **Ã—** **Â§1g** **Europe** **â€”** **pin** **commission** **/** **MS** **releases** **before** **hard** **Judgment** | https://x.com/tparsi | verify:X-account+tparsi+2026-04-21+EU-wire-primary+optional-status-permalink | thread:parsi | ISRAEL | EU | grep:Parsi+Belgium+EU-Israel+association+2026-04-21
@@ -100,10 +64,4 @@ Compatibility note: this is a legacy continuity transcript surface. Use it as su
 - X | cold: @tparsi (2026-04-17, earlier) â€” USâ€“Iran framework reportedly close via **Pakistani** mediation within days; **30â€“60** day window to final agreement; warns **Israel** may sabotage any deal ending USâ€“Iran hostility or lifting sanctions; **Trump** must be tougher on **Netanyahu** than before // hook: **Beltway mechanism** â€” pair **04-16** Marandi BP **Islamabad** authority + sabotage vocabulary; not same evidence tier | https://x.com/tparsi | verify:pin-exact-status-URL+screenshot | thread:parsi
 - X | cold: @tparsi (2026-04-17, later) â€” **If** Iranian claims hold (Tehran threatened to resume strikes on **Israel** unless **Israel** agreed a **Lebanon** ceasefire, and that moved **Trump** to push **Netanyahu**), a narrative may emerge that **Iran** â€œsavedâ€ **Lebanon** // hook: conditional coercion story vs **Marandi** **Lebanon** frame (04-16 BP + 04-17 X) â€” **tension-first** | https://x.com/tparsi | verify:pin-exact-status-URL+screenshot | thread:parsi
 - X | cold: @tparsi **repost** â€” **Joe Kent** embeds **Trump** **Truth Social**: **B-2** nuclear-material terms; **no** money exchange; **Lebanon** / **Hezbollah** seam separate; **Israel** **prohibited** from bombing **Lebanon** by **U.S.**; Kent adds deal may hold if **Trump** enforces **Israel** restrictions and limits **U.S.** military aid // hook: **Parsi** signal-boost â€” **cross** `thread:davis` same-day Trump TS embed; keep **dual-register** with Â§1f pool triage | https://x.com/joekent16jan19 | verify:Truth-Social-primary+Kent-status-URL | thread:parsi
-
-
-
-
-
-
 

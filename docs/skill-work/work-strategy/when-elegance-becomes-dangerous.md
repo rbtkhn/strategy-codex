@@ -1,6 +1,5 @@
 # When elegance becomes dangerous
 
-
 **Purpose:** This note names a recurring notebook danger: the moment when a sentence becomes more elegant than the seam it is trying to describe. Use it to decide when seam-first discipline, packet work, or layered preservation should interrupt otherwise attractive synthesis.
 
 ## Core claim

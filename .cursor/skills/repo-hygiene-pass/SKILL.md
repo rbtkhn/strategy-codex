@@ -112,7 +112,6 @@ If verification cannot be completed:
 
 **Avoid:** Do not widen hygiene into feature work, doctrine rewrite, or unrelated refactor.
 
-
 ## Cursor / strategy-codex instance
 
 _(appendix missing: .cursor/skills/repo-hygiene-pass/CURSOR_APPENDIX.md)_

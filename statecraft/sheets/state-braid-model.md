@@ -1,6 +1,5 @@
 # State Braid Model
 
-
 ## Purpose
 
 The braid is a statecraft drafting aid for linked crisis objects that cannot be handled through one arc alone. Some problems become draftable only when several strategic lines are kept together long enough to design authority, restraint, and settlement rather than treating each line as an isolated topic.

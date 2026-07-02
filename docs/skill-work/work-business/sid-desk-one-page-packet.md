@@ -1,6 +1,6 @@
 # Statecraft Intelligence Desk — One-Page Packet
 
-WORK only. Sendable external draft. Not proof of market demand.
+non-authoritative. Sendable external draft. Not proof of market demand.
 
 ## Purpose
 

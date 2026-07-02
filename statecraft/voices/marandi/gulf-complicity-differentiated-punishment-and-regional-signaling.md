@@ -1,6 +1,5 @@
 # Gulf complicity, differentiated punishment, and regional signaling
 
-
 Marandi repeatedly distinguishes among hostile, complicit, and friendlier regional actors, especially in relation to Gulf exposure, transit, and retaliation.
 
 Best host lanes:

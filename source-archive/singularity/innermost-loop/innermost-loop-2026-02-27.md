@@ -13,8 +13,6 @@ post_id: 189365891
 
 # The Innermost Loop - 2026-02-27
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 27, 2026
@@ -29,10 +27,7 @@ The Singularity is now conducting layoffs.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now conducting layoffs. Block just cut over 4,000 employees , roughly half its workforce, “to move faster with smaller teams using AI,” and the market rewarded the purge with a 24% after-hours spike. The company is now targeting $2M+ gross profit per person , four times its pre-COVID efficiency. The creative destruction is sector-wide. Components of the State Street software ETF have lost a combined $1.6 trillion in market cap this year as investors reprice legacy SaaS against AI-native replacements. But where old software withers, new intelligence gets hired. Norway’s $2 trillion sovereign wealth fund now uses Claude to screen investments for reputational and ethical risk, outsourcing moral judgment to the machine at sovereign scale.
+- The Singularity is now conducting layoffs. Block just cut over 4,000 employees , roughly half its workforce, “to move faster with smaller teams using AI,” and the market rewarded the purge with a 24% after-hours spike. The company is now targeting $2M+ gross profit per person , four times its pre-COVID efficiency. The creative destruction is sector-wide. Components of the State Street software ETF have lost a combined $1.6 trillion in market cap this year as investors reprice legacy SaaS against AI-native replacements. But where old software withers, new intelligence gets hired. Norway’s $2 trillion sovereign wealth fund now uses Claude to screen investments for reputational and ethical risk, outsourcing moral judgment to the machine at sovereign scale.
 
 The architecture of cognition is compressing on every axis. Researchers have shown that foundation models can be self-distilled into multi-token predictors that decode 3x faster at under 5% accuracy loss, while Sakana has demonstrated it can compile documents directly into model weights via hypernetworks, giving language models durable memory without bloating context windows. The gains are cascading down the optimal frontier. LM Provers released QED-Nano , a compact 4B model that writes Olympiad-level math proofs approaching frontier performance. Google’s new Nano Banana 2 image model fuses Pro-level reasoning with Flash speed, collapsing the quality-latency tradeoff into a single release.
 

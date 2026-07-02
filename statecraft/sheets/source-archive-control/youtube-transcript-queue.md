@@ -1,7 +1,6 @@
 # YouTube transcript queue
 <!-- word_count: ~780 -->
 
-
 ## Purpose
 
 These are the canonical input channels for strategy-notebook. The queue is a rollout list for YouTube transcript automation and metadata capture, not a taxonomy of different roles.

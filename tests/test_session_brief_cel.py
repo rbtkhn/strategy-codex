@@ -9,7 +9,6 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 
-
 def test_context_surfaces_json_schema() -> None:
     path = REPO / "platform/config" / "context_surfaces.json"
     assert path.is_file()
@@ -18,13 +17,11 @@ def test_context_surfaces_json_schema() -> None:
     assert isinstance(raw.get("operator_runtime_tiers"), dict)
     assert len(raw["operator_runtime_tiers"]) >= 1
 
-
 def test_session_brief_json_loads() -> None:
     path = REPO / "platform/config" / "context_budgets" / "session_brief.json"
     assert path.is_file()
     raw = json.loads(path.read_text(encoding="utf-8"))
     assert "max_pending_ids_listed" in raw
-
 
 def test_session_brief_minimal_stdout_includes_recovery() -> None:
     proc = subprocess.run(
@@ -37,7 +34,6 @@ def test_session_brief_minimal_stdout_includes_recovery() -> None:
     assert proc.returncode == 0, proc.stderr
     assert "Recovery links" in proc.stdout
     assert "recursion-gate.md" in proc.stdout
-
 
 def test_session_brief_compact_stdout_includes_tiers() -> None:
     proc = subprocess.run(

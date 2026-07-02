@@ -10,7 +10,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture()
 def vmr_mod():
     path = REPO_ROOT / "scripts" / "validate_month_maturity_routing_registry.py"
@@ -20,11 +19,9 @@ def vmr_mod():
     spec.loader.exec_module(mod)
     return mod
 
-
 def write_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
-
 
 def make_registry(month_entry: dict) -> dict:
     return {
@@ -33,7 +30,6 @@ def make_registry(month_entry: dict) -> dict:
         "scope": "test",
         "months": [month_entry],
     }
-
 
 def make_metadata(month: str, *, surfaces: list[str], finite_queue: bool, benchmark: bool) -> dict:
     return {
@@ -59,7 +55,6 @@ def make_metadata(month: str, *, surfaces: list[str], finite_queue: bool, benchm
         },
     }
 
-
 def make_entry(route_class: str = "benchmark", status: str = "stable") -> dict:
     return {
         "month": "2026-01",
@@ -73,7 +68,6 @@ def make_entry(route_class: str = "benchmark", status: str = "stable") -> dict:
         "has_finite_queue": False,
         "updated_at": "2026-06-02",
     }
-
 
 def test_validate_registry_ok(tmp_path: Path, vmr_mod):
     repo_root = tmp_path
@@ -91,7 +85,6 @@ def test_validate_registry_ok(tmp_path: Path, vmr_mod):
     errors = vmr_mod.validate_month_maturity_routing_registry(repo_root)
     assert errors == []
 
-
 def test_rejects_bad_route_class(tmp_path: Path, vmr_mod):
     repo_root = tmp_path
     surface = repo_root / "statecraft" / "notes" / "sample-note.md"
@@ -108,7 +101,6 @@ def test_rejects_bad_route_class(tmp_path: Path, vmr_mod):
     errors = vmr_mod.validate_month_maturity_routing_registry(repo_root)
     assert any("route_class must be one of" in error for error in errors)
 
-
 def test_rejects_missing_primary_surface_file(tmp_path: Path, vmr_mod):
     repo_root = tmp_path
     entry = make_entry()
@@ -120,7 +112,6 @@ def test_rejects_missing_primary_surface_file(tmp_path: Path, vmr_mod):
 
     errors = vmr_mod.validate_month_maturity_routing_registry(repo_root)
     assert any("primary_surface not found" in error for error in errors)
-
 
 def test_rejects_metadata_surface_drift(tmp_path: Path, vmr_mod):
     repo_root = tmp_path
@@ -137,7 +128,6 @@ def test_rejects_metadata_surface_drift(tmp_path: Path, vmr_mod):
 
     errors = vmr_mod.validate_month_maturity_routing_registry(repo_root)
     assert any("metadata missing primary surface" in error for error in errors)
-
 
 def test_rejects_metadata_queue_mismatch(tmp_path: Path, vmr_mod):
     repo_root = tmp_path

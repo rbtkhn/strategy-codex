@@ -6,11 +6,9 @@ import subprocess
 import sys
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = REPO_ROOT / "scripts" / "score_speaker_memory_benchmark.py"
 SAMPLES_PATH = REPO_ROOT / "runtime/artifacts" / "benchmarks" / "speaker-memory" / "benchmark_samples.py"
-
 
 def load_sample_outputs() -> dict:
     spec = importlib.util.spec_from_file_location("speaker_memory_benchmark_samples", SAMPLES_PATH)
@@ -19,7 +17,6 @@ def load_sample_outputs() -> dict:
     sys.modules[spec.name] = module
     spec.loader.exec_module(module)
     return module.SAMPLE_OUTPUTS
-
 
 SAMPLE_OUTPUTS = load_sample_outputs()
 STRONG_SM1 = SAMPLE_OUTPUTS["sm-1-speaker-object-repair"]["strong"]
@@ -31,7 +28,6 @@ WEAK_SM3 = SAMPLE_OUTPUTS["sm-3-speaker-structure-metrics"]["weak"]
 STRONG_SM4 = SAMPLE_OUTPUTS["sm-4-speaker-maturity-ranking"]["strong"]
 WEAK_SM4 = SAMPLE_OUTPUTS["sm-4-speaker-maturity-ranking"]["weak"]
 
-
 def write_run(tmp_path: Path, benchmark_id: str, output: str) -> Path:
     run = tmp_path / benchmark_id
     run.mkdir()
@@ -40,7 +36,6 @@ def write_run(tmp_path: Path, benchmark_id: str, output: str) -> Path:
     )
     (run / "output.md").write_text(output, encoding="utf-8")
     return run
-
 
 def score(run: Path) -> dict:
     proc = subprocess.run(
@@ -52,7 +47,6 @@ def score(run: Path) -> dict:
     )
     return json.loads(proc.stdout)
 
-
 def test_strong_sm1_scores_held_without_repairs(tmp_path: Path) -> None:
     result = score(write_run(tmp_path, "sm-1-speaker-object-repair", STRONG_SM1))
 
@@ -61,7 +55,6 @@ def test_strong_sm1_scores_held_without_repairs(tmp_path: Path) -> None:
     assert result["failure_codes"] == []
     assert result["repair_actions"] == []
 
-
 def test_weak_sm1_emits_object_shape_and_open_first_failures(tmp_path: Path) -> None:
     result = score(write_run(tmp_path, "sm-1-speaker-object-repair", WEAK_SM1))
 
@@ -69,13 +62,11 @@ def test_weak_sm1_emits_object_shape_and_open_first_failures(tmp_path: Path) -> 
     assert "missing_object_shape" in result["failure_codes"]
     assert "weak_open_first" in result["failure_codes"]
 
-
 def test_strong_sm2_scores_held(tmp_path: Path) -> None:
     result = score(write_run(tmp_path, "sm-2-speaker-arc-ranking", STRONG_SM2))
 
     assert result["closeout"] == "Held"
     assert result["failure_codes"] == []
-
 
 def test_weak_sm2_emits_rank_and_lattice_failures(tmp_path: Path) -> None:
     result = score(write_run(tmp_path, "sm-2-speaker-arc-ranking", WEAK_SM2))
@@ -84,24 +75,11 @@ def test_weak_sm2_emits_rank_and_lattice_failures(tmp_path: Path) -> None:
     assert "wrong_arc_rank" in result["failure_codes"]
     assert "lattice_overload" in result["failure_codes"]
 
-
-def test_missing_work_boundary_targets_source_note(tmp_path: Path) -> None:
-    output = STRONG_SM2.replace("WORK only; not Record.\n\n", "")
-    result = score(write_run(tmp_path, "sm-2-speaker-arc-ranking", output))
-
-    assert "missing_work_boundary" in result["failure_codes"]
-    actions = {
-        action["failure_code"]: action for action in result["repair_actions"]
-    }
-    assert actions["missing_work_boundary"]["target_type"] == "source_note"
-
-
 def test_strong_sm3_scores_held(tmp_path: Path) -> None:
     result = score(write_run(tmp_path, "sm-3-speaker-structure-metrics", STRONG_SM3))
 
     assert result["closeout"] == "Held"
     assert result["failure_codes"] == []
-
 
 def test_weak_sm3_emits_metric_vector_failure(tmp_path: Path) -> None:
     result = score(write_run(tmp_path, "sm-3-speaker-structure-metrics", WEAK_SM3))
@@ -109,13 +87,11 @@ def test_weak_sm3_emits_metric_vector_failure(tmp_path: Path) -> None:
     assert result["closeout"] == "Broke"
     assert "missing_metric_vector" in result["failure_codes"]
 
-
 def test_strong_sm4_scores_held(tmp_path: Path) -> None:
     result = score(write_run(tmp_path, "sm-4-speaker-maturity-ranking", STRONG_SM4))
 
     assert result["closeout"] == "Held"
     assert result["failure_codes"] == []
-
 
 def test_weak_sm4_emits_ranking_and_mismatch_failures(tmp_path: Path) -> None:
     result = score(write_run(tmp_path, "sm-4-speaker-maturity-ranking", WEAK_SM4))
@@ -123,7 +99,6 @@ def test_weak_sm4_emits_ranking_and_mismatch_failures(tmp_path: Path) -> None:
     assert result["closeout"] == "Broke"
     assert "insufficient_ranking_set" in result["failure_codes"]
     assert "missing_mismatch_case" in result["failure_codes"]
-
 
 def test_no_write_emits_no_files_and_normal_mode_writes_outputs(tmp_path: Path) -> None:
     run = write_run(tmp_path, "sm-1-speaker-object-repair", STRONG_SM1)

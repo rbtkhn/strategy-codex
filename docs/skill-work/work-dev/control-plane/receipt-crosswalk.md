@@ -1,6 +1,5 @@
 # Receipt Crosswalk
 
-
 ## Purpose
 
 This crosswalk makes strategy-codex receipt surfaces legible as one control-plane map without pretending they are one universal log.
@@ -57,7 +56,7 @@ This is a reading crosswalk, not a demand that all schemas use identical field n
 | [mcp-execution-receipts.md](../../../mcp/mcp-execution-receipts.md) | Execution | Tool-shaped action under a declared capability and authority binding | Canonical IX/Evidence fact or merge approval | Receipt JSON, audit report, human review if promoted | Later receipt, blocked action, or gated follow-up | WORK/runtime audit only; receipts alone never merge |
 | Compute ledger | Execution | Cost, backend, task, and coarse outcome accountability | Review sufficiency or semantic correctness | Ledger inspection and related run receipts | New run or budget rule changes | Runtime/accounting only |
 | Runtime observability | Execution | Worker/runtime counts, health, and produced artifact visibility | Approval, truth, or merge authority | Runtime dashboards and reports | New run, operator intervention, or repair | Runtime-only unless staged separately |
-| Carry / strategy run receipts | Execution | Task-scoped run envelope and declared artifact expectations | That the packet content is strategically correct | Receipt JSON, review packet | Revised run or validator follow-up | WORK only |
+| Carry / strategy run receipts | Execution | Task-scoped run envelope and declared artifact expectations | That the packet content is strategically correct | Receipt JSON, review packet | Revised run or validator follow-up | non-authoritative |
 | [workbench receipts](../workbench/README.md) | Inspection | Artifact behavior under stated run/inspection conditions | External facts, merge approval, or Record truth | Workbench receipt plus operator inspection | Revise artifact, re-run, or reject | `recordAuthority: none`, `gateEffect: none` |
 | Verification runs | Inspection | Manual or scripted proof for a capability claim | Governed merge, identity update, or world truth beyond the tested scope | Verification receipt/readout | New verification pass | WORK-only proof support |
 | Cadence events | Coordination | Operator picks, workflow rhythm, conductor/coffee state | Security log or execution proof | Cadence log and session continuity surfaces | New cadence event or explicit close | No Record authority; no merge path |

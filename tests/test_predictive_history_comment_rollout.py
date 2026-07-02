@@ -8,7 +8,6 @@ from grace_mar.predictive_history_comment_rollout import (
     render_telegram_summary,
 )
 
-
 def test_build_queue_rows_resolves_phase_one_and_phase_two(tmp_path: Path) -> None:
     rows = build_queue_rows(queue_path=tmp_path / "queue.json")
 
@@ -24,7 +23,6 @@ def test_build_queue_rows_resolves_phase_one_and_phase_two(tmp_path: Path) -> No
     assert "ph-mus exhibit link" in phase2["comment_draft"]
     assert "ChatGPT, Claude, or Grok" in phase2["comment_draft"]
 
-
 def test_build_queue_rows_parks_missing_phase_two_routes(tmp_path: Path) -> None:
     rows = build_queue_rows(queue_path=tmp_path / "queue.json")
 
@@ -32,7 +30,6 @@ def test_build_queue_rows_parks_missing_phase_two_routes(tmp_path: Path) -> None
     assert parked["status"] == "parked"
     assert "ph-mus route" in parked["park_reason"]
     assert parked["comment_draft"] == ""
-
 
 def test_render_summaries(tmp_path: Path) -> None:
     rows = build_queue_rows(queue_path=tmp_path / "queue.json")

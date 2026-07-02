@@ -119,7 +119,6 @@ If verification cannot be completed:
 
 **Avoid:** Do not turn feedback capture into automatic implementation.
 
-
 ## Cursor / strategy-codex instance
 
 _(appendix missing: .cursor/skills/repo-feedback-prompt/CURSOR_APPENDIX.md)_

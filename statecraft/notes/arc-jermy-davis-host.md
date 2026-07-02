@@ -22,7 +22,6 @@ archive_links:
 
 # Davis x Jermy speaker arc
 
-
 Purpose: compact reuse note for the `Davis x Jermy` run inside the Davis stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Jermy lane Davis elicits, which full-form episodes matter most, and why this is the primary Jermy branch.
 
 ## Orthogonality guide

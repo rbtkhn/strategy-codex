@@ -86,5 +86,4 @@ After the call, Jordan (or the principal) says **“We did X”** (e.g. “We as
 
 The protocol **comes from** civ-mem: it is the **STATE** operating mode (present-moment options, tensions preserved, no write to the long-term record unless the user explicitly relays) turned into a loadable skill. A/B/C map to the civ-mem **three minds** (legitimacy, structure, liability). **D** is the civ-mem lens: when the user has the civ-mem corpus or asks for the civ-mem/condition/seam angle, the agent adds D (condition, seam, one subject many tongues, face vs category) applied to the decision. Polyphonic cognition—holding multiple perspectives without collapsing to one answer—is how STATE behaves; the scenario above shows one integrated run with A/B/C/D.
 
-
 *Use this scenario in demos, outreach, or ClawHub listing to show how the protocol works in a real prep situation.*

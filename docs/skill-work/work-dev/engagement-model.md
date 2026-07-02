@@ -26,7 +26,7 @@ The main rule:
 1. Diagnostic
 2. Architecture pass if needed
 3. One bounded implementation sprint
-4. Advisory or repeated sprint work only if the relationship justifies it
+4. Advisory or repeated sprint non-authoritative if the relationship justifies it
 
 ---
 

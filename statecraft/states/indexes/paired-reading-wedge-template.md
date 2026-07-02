@@ -1,6 +1,5 @@
 # Paired Reading Wedge Template
 
-
 Use this template when an operator needs a compact layered reading wedge rather than a full shelf descent.
 
 ## Two Primary Anchors

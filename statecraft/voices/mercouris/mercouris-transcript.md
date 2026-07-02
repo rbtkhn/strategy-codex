@@ -1,7 +1,6 @@
 # Expert transcript - `mercouris`
 <!-- word_count: 6074 -->
 
-
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) that include `thread:mercouris` (first line + optional continuation paragraphs), routed on ingest.
 **Refined page:** **`mercouris-page-*.md`** in this folder - Verbatim / Reflection / Foresight artifacts pointing to **verbatim** in [`raw-input/`](../../sheets/source-archive-control/README.md. **Verbatim capture** stays under **`raw-input/<date>/`** (e.g. `*-mercouris-verbatim.md` or RSS-merge **`YYYY-MM-DD-mercouris.md`**). Distinct from a **`strategy-page`** fence in [mercouris-thread.md](mercouris-thread.md) unless you duplicate judgment there during EOD compose. **Template:** [`mercouris-page-template.md`](mercouris-page-template.md).
 **Length:** Target **<= 2000 words** per ingest block; whole file soft **<= 20000 words** after prune (7-day window makes overrun unlikely).
@@ -25,16 +24,6 @@
 - YT | cold: **Alexander Mercouris** (*The Duran*) Ã¢â‚¬â€ **aired 2026-04-20** Ã¢â‚¬â€ **UK:** **Starmer** **/** **Mandelson** **/** **Epstein** **/** **failed** **vetting** **/** **Commons** **moment** **(centre** **collapse** **thesis);** **WSJ:** **F-15** **navigator** **rescue** **ops** **room** **Ã¢â‚¬â€** **Trump** **excluded** **(eccentric** **orders** **risk)** **/** **C-in-C** **confidence** **crisis** **frame;** **Hormuz** **/** **US** **blockade** **vs** **Iran** **control;** **PRC** **Navy** **Gulf** **/** **Indian** **Ocean** **hypothesis;** **Russia:** **MoD** **EU** **drone** **sites** **list,** **Lavrov**/**Shoigu** **red** **lines,** **Baltic** **law** **/** **shadow** **fleet** **/** **NATO** **overflight;** **Cuban** **Missile** **Crisis** **analogy** **/** **executive** **control** **contrast;** **Gulf** **Ã¢â‚¬â€** **Spruance** **boarding** **recap,** **Munir** **lift** **blockade** **plea,** **TASS** **~40** **ships** **weekend** **transit** **/** **blockade** **"fiction"** **(Johnson** **echo),** **Islamabad** **Vance**/**Kushner**/**Araghchi**/**Ghalibaf,** **Diego** **Garcia** **strain** **/** **ration** **stress,** **blockade** **lift** **rumor,** **zugzwang** **retreat** **vs** **post-Tuesday** **escalation** **fork;** **Ukraine:** **manpower** **coercion** **in** **Europe,** **Belgian** **four-year** **bleed** **quote,** **Kupyansk**/**Zaporizhzhia**/**Kostiantynivka**/**Sumy** **encirclement** **/** **Chernihiv** **power** // hook: **`thread:mercouris`** **institutional** **Ãƒâ€”** **same-day** **`thread:ritter`** **`thread:johnson`** **Hormuz** **Ã¢â‚¬â€** **verify** **primaries** | https://www.youtube.com/watch?v=TBD-mercouris-russia-blockade-hormuz-2026-04-20 | verify:full-text+raw-input+aired:2026-04-20+pin-canonical-URL | thread:mercouris | grep:Mercouris+Hormuz+TASS+Munir+Spruance+zugzwang+Sumy+WSJ
 - YT | cold: **Alexander Mercouris** (*The Duran*) Ã¢â‚¬â€ **2026-04-19** Ã¢â‚¬â€ **Persian Gulf crisis** stack: Islamabad-era **HormuzÃ¢â‚¬â€œLebanon** linkage **collapsed**; **Trump** statements (**uranium** **handover**, **open** **Strait** **vs** **continued** **blockade**) as **proximate** **cause** **of** **breakdown**; **IRI** **tight** **Hormuz** **control**, **warning** **shots** **at** **tankers** **(per** **Mercouris)**; **WH** **meeting** **(Trump/Rubio/Hegseth/Vance/Wiles)**; **rumor** **US** **may** **seize** **Iran-linked** **ships** **worldwide** **(incl.** **IranÃ¢â€ â€™China** **routes)**; **Ghalibaf** **via** **Tasnim** **rejects** **Trump** **talks** **claims**; **refutes** **David** **Miller** **X** **theory** **(Araghchi** **Ã¢â‚¬Å“twoÃ¢â‚¬Â** **10-point** **lists** **/** **capitulation)** Ã¢â‚¬â€ **cites** **Mirandi** **Islamabad** **accounts** **+** **Ghalibaf** **lead** **delegation** **as** **falsifiers**; **alleges** **Western** **intel** **sow** **Iran** **leadership** **splits** **(parallel** **to** **Qaani** **Mar** **video** **Ã¢â‚¬â€** **Apr** **11** **IRGC** **Qaani** **post** **as** **counter)**; **Velayati** **X**: **regional** **straits**, **Malacca**, **Houthis/** **Bab** **el-Mandeb**, **China** **partners**; **Lavrov** **Antalya**: **war** **Ã¢â‚¬Å“aboutÃ¢â‚¬Â** **Iran** **oil** **/** **China** **supply** **(partial** **readout)**; **Baltic/** **Finland** **red** **lines**, **Grushko** **echo**, **NATO** **Ã¢â‚¬Å“paper** **tigerÃ¢â‚¬Â** **adjacent**; **Ukraine** **strike** **mention** **only** // hook: **Ã‚Â§1dÃ¢â‚¬â€œÃ‚Â§1h** **week** **Ã¢â‚¬â€** **Mercouris** **institutional** **narrative** **vs** **ORBAT** **/** **MFA** **primaries**; **verify** **before** **Judgment** **merge** | https://www.youtube.com/watch?v=TBD-mercouris-2026-04-19 | verify:operator-transcript+pin-canonical-URL+aired:2026-04-19+Tasnim-primary+Bloomberg-if-cited+Lavrov-partial-readout | thread:mercouris | grep:Mercouris+Hormuz+Lavrov+Araghchi+Velayati+Islamabad+Malacca
 
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-27
 - Inbox | cold: full text in [`2026-04-27-mercouris-verbatim.md`](../../../source-archive/statecraft/2026-04-27/day-index.md) (pointer; SSOT raw-input) | thread:mercouris
 - YT | cold: **Alexander Mercouris** (*The Duran* Ã¢â‚¬â€ *Iran Toughens Terms as Araghchi Meets Putin; Refuses Talks on Enrichment; Russia Prepares War With EU* Ã¢â‚¬â€ **operator** **cleaned** **transcript** **2026-04-27**) Ã¢â‚¬â€ **Hormuz** **/** **blockade** **Ã¢â‚¬Å“fictionÃ¢â‚¬Â;** **Lebanon** **ceasefire** **strain;** **Johnson** **/** **CENTCOM** **air** **limits** **/** **ground** **fork;** **Araghchi** **Oman** **/** **Pakistan** **document** **/** **St** **Petersburg** **Ãƒâ€”** **Putin;** **enrichment** **off** **table,** **Hormuz** **governance** **(IranÃ¢â‚¬â€œOman)** **vs** **Ã¢â‚¬Å“reopenÃ¢â‚¬Â** **spin;** **MÃƒÂ¼nchau** **UAEÃ¢â‚¬â€œFed** **swap** **/** **Gopinath;** **Karaganov** **nuclear** **Europe** **rhetoric;** **Bondar** **NYT** **drones;** **Sumy** **/** **Konstantinovka** **/** **Kramatorsk;** **Typhoon** **rumor** **Ãƒâ€”** **UK** **clarification** // hook: **`thread:mercouris`** **Ãƒâ€”** **Ã‚Â§1e** **Hormuz** **+** **Ã‚Â§1f** **markets** **+** **RUÃ¢â‚¬â€œEU** **rhetoric** **Ã¢â‚¬â€** **verbatim** [provenance/2026-04-27/2026-04-27-mercouris-verbatim.md](../../../source-archive/statecraft/2026-04-27/day-index.md) Ã‚Â· **refined** [experts/mercouris/mercouris-page-2026-04-27.md](mercouris-page-2026-04-27.md) | TBD The Duran (pin `watch?v=`) | verify:operator-cleaned-transcript+full-text+pub_date:2026-04-27+second-hand-media+opinion-narrative-tier+not-Record | thread:mercouris | IRAN | RU | EU | UKR | grep:Mercouris+Araghchi+Putin+Hormuz+2026-04-27
@@ -54,17 +43,6 @@
 - YT | cold: **Alexander Mercouris** (*The Duran*) Ã¢â‚¬â€ **aired 2026-04-20** Ã¢â‚¬â€ **UK:** **Starmer** **/** **Mandelson** **/** **Epstein** **/** **failed** **vetting** **/** **Commons** **moment** **(centre** **collapse** **thesis);** **WSJ:** **F-15** **navigator** **rescue** **ops** **room** **Ã¢â‚¬â€** **Trump** **excluded** **(eccentric** **orders** **risk)** **/** **C-in-C** **confidence** **crisis** **frame;** **Hormuz** **/** **US** **blockade** **vs** **Iran** **control;** **PRC** **Navy** **Gulf** **/** **Indian** **Ocean** **hypothesis;** **Russia:** **MoD** **EU** **drone** **sites** **list,** **Lavrov**/**Shoigu** **red** **lines,** **Baltic** **law** **/** **shadow** **fleet** **/** **NATO** **overflight;** **Cuban** **Missile** **Crisis** **analogy** **/** **executive** **control** **contrast;** **Gulf** **Ã¢â‚¬â€** **Spruance** **boarding** **recap,** **Munir** **lift** **blockade** **plea,** **TASS** **~40** **ships** **weekend** **transit** **/** **blockade** **"fiction"** **(Johnson** **echo),** **Islamabad** **Vance**/**Kushner**/**Araghchi**/**Ghalibaf,** **Diego** **Garcia** **strain** **/** **ration** **stress,** **blockade** **lift** **rumor,** **zugzwang** **retreat** **vs** **post-Tuesday** **escalation** **fork;** **Ukraine:** **manpower** **coercion** **in** **Europe,** **Belgian** **four-year** **bleed** **quote,** **Kupyansk**/**Zaporizhzhia**/**Kostiantynivka**/**Sumy** **encirclement** **/** **Chernihiv** **power** // hook: **`thread:mercouris`** **institutional** **Ãƒâ€”** **same-day** **`thread:ritter`** **`thread:johnson`** **Hormuz** **Ã¢â‚¬â€** **verify** **primaries** | https://www.youtube.com/watch?v=TBD-mercouris-russia-blockade-hormuz-2026-04-20 | verify:full-text+raw-input+aired:2026-04-20+pin-canonical-URL | thread:mercouris | grep:Mercouris+Hormuz+TASS+Munir+Spruance+zugzwang+Sumy+WSJ
 - YT | cold: **Alexander Mercouris** (*The Duran*) Ã¢â‚¬â€ **2026-04-19** Ã¢â‚¬â€ **Persian Gulf crisis** stack: Islamabad-era **HormuzÃ¢â‚¬â€œLebanon** linkage **collapsed**; **Trump** statements (**uranium** **handover**, **open** **Strait** **vs** **continued** **blockade**) as **proximate** **cause** **of** **breakdown**; **IRI** **tight** **Hormuz** **control**, **warning** **shots** **at** **tankers** **(per** **Mercouris)**; **WH** **meeting** **(Trump/Rubio/Hegseth/Vance/Wiles)**; **rumor** **US** **may** **seize** **Iran-linked** **ships** **worldwide** **(incl.** **IranÃ¢â€ â€™China** **routes)**; **Ghalibaf** **via** **Tasnim** **rejects** **Trump** **talks** **claims**; **refutes** **David** **Miller** **X** **theory** **(Araghchi** **Ã¢â‚¬Å“twoÃ¢â‚¬Â** **10-point** **lists** **/** **capitulation)** Ã¢â‚¬â€ **cites** **Mirandi** **Islamabad** **accounts** **+** **Ghalibaf** **lead** **delegation** **as** **falsifiers**; **alleges** **Western** **intel** **sow** **Iran** **leadership** **splits** **(parallel** **to** **Qaani** **Mar** **video** **Ã¢â‚¬â€** **Apr** **11** **IRGC** **Qaani** **post** **as** **counter)**; **Velayati** **X**: **regional** **straits**, **Malacca**, **Houthis/** **Bab** **el-Mandeb**, **China** **partners**; **Lavrov** **Antalya**: **war** **Ã¢â‚¬Å“aboutÃ¢â‚¬Â** **Iran** **oil** **/** **China** **supply** **(partial** **readout)**; **Baltic/** **Finland** **red** **lines**, **Grushko** **echo**, **NATO** **Ã¢â‚¬Å“paper** **tigerÃ¢â‚¬Â** **adjacent**; **Ukraine** **strike** **mention** **only** // hook: **Ã‚Â§1dÃ¢â‚¬â€œÃ‚Â§1h** **week** **Ã¢â‚¬â€** **Mercouris** **institutional** **narrative** **vs** **ORBAT** **/** **MFA** **primaries**; **verify** **before** **Judgment** **merge** | https://www.youtube.com/watch?v=TBD-mercouris-2026-04-19 | verify:operator-transcript+pin-canonical-URL+aired:2026-04-19+Tasnim-primary+Bloomberg-if-cited+Lavrov-partial-readout | thread:mercouris | grep:Mercouris+Hormuz+Lavrov+Araghchi+Velayati+Islamabad+Malacca
 
-
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-26
 - Inbox | cold: full text in [`source-alexander-mercouris-us-eu-ukraine-russia-iran-sunday-2026-04-26.md`](../../../source-archive/statecraft/2026-04-26/source-alexander-mercouris-us-eu-ukraine-russia-iran-sunday-2026-04-26.md) (pointer; SSOT raw-input) | thread:mercouris
 - Inbox | cold: full text in [`source-alexander-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md`](../../../source-archive/statecraft/2026-04-24/source-alexander-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md) (pointer; SSOT raw-input) | thread:mercouris
@@ -80,20 +58,6 @@
 - Inbox | cold: full text in [`source-drpezeshkian-april-2026-posts-bundle-2026-04-20.md`](../../../source-archive/statecraft/2026-04-20/source-drpezeshkian-april-2026-posts-bundle-2026-04-20.md) (pointer; SSOT raw-input) | thread:mercouris
 - YT | cold: **Alexander Mercouris** (*The Duran*) Ã¢â‚¬â€ **aired 2026-04-20** Ã¢â‚¬â€ **UK:** **Starmer** **/** **Mandelson** **/** **Epstein** **/** **failed** **vetting** **/** **Commons** **moment** **(centre** **collapse** **thesis);** **WSJ:** **F-15** **navigator** **rescue** **ops** **room** **Ã¢â‚¬â€** **Trump** **excluded** **(eccentric** **orders** **risk)** **/** **C-in-C** **confidence** **crisis** **frame;** **Hormuz** **/** **US** **blockade** **vs** **Iran** **control;** **PRC** **Navy** **Gulf** **/** **Indian** **Ocean** **hypothesis;** **Russia:** **MoD** **EU** **drone** **sites** **list,** **Lavrov**/**Shoigu** **red** **lines,** **Baltic** **law** **/** **shadow** **fleet** **/** **NATO** **overflight;** **Cuban** **Missile** **Crisis** **analogy** **/** **executive** **control** **contrast;** **Gulf** **Ã¢â‚¬â€** **Spruance** **boarding** **recap,** **Munir** **lift** **blockade** **plea,** **TASS** **~40** **ships** **weekend** **transit** **/** **blockade** **"fiction"** **(Johnson** **echo),** **Islamabad** **Vance**/**Kushner**/**Araghchi**/**Ghalibaf,** **Diego** **Garcia** **strain** **/** **ration** **stress,** **blockade** **lift** **rumor,** **zugzwang** **retreat** **vs** **post-Tuesday** **escalation** **fork;** **Ukraine:** **manpower** **coercion** **in** **Europe,** **Belgian** **four-year** **bleed** **quote,** **Kupyansk**/**Zaporizhzhia**/**Kostiantynivka**/**Sumy** **encirclement** **/** **Chernihiv** **power** // hook: **`thread:mercouris`** **institutional** **Ãƒâ€”** **same-day** **`thread:ritter`** **`thread:johnson`** **Hormuz** **Ã¢â‚¬â€** **verify** **primaries** | https://www.youtube.com/watch?v=TBD-mercouris-russia-blockade-hormuz-2026-04-20 | verify:full-text+raw-input+aired:2026-04-20+pin-canonical-URL | thread:mercouris | grep:Mercouris+Hormuz+TASS+Munir+Spruance+zugzwang+Sumy+WSJ
 - YT | cold: **Alexander Mercouris** (*The Duran*) Ã¢â‚¬â€ **2026-04-19** Ã¢â‚¬â€ **Persian Gulf crisis** stack: Islamabad-era **HormuzÃ¢â‚¬â€œLebanon** linkage **collapsed**; **Trump** statements (**uranium** **handover**, **open** **Strait** **vs** **continued** **blockade**) as **proximate** **cause** **of** **breakdown**; **IRI** **tight** **Hormuz** **control**, **warning** **shots** **at** **tankers** **(per** **Mercouris)**; **WH** **meeting** **(Trump/Rubio/Hegseth/Vance/Wiles)**; **rumor** **US** **may** **seize** **Iran-linked** **ships** **worldwide** **(incl.** **IranÃ¢â€ â€™China** **routes)**; **Ghalibaf** **via** **Tasnim** **rejects** **Trump** **talks** **claims**; **refutes** **David** **Miller** **X** **theory** **(Araghchi** **Ã¢â‚¬Å“twoÃ¢â‚¬Â** **10-point** **lists** **/** **capitulation)** Ã¢â‚¬â€ **cites** **Mirandi** **Islamabad** **accounts** **+** **Ghalibaf** **lead** **delegation** **as** **falsifiers**; **alleges** **Western** **intel** **sow** **Iran** **leadership** **splits** **(parallel** **to** **Qaani** **Mar** **video** **Ã¢â‚¬â€** **Apr** **11** **IRGC** **Qaani** **post** **as** **counter)**; **Velayati** **X**: **regional** **straits**, **Malacca**, **Houthis/** **Bab** **el-Mandeb**, **China** **partners**; **Lavrov** **Antalya**: **war** **Ã¢â‚¬Å“aboutÃ¢â‚¬Â** **Iran** **oil** **/** **China** **supply** **(partial** **readout)**; **Baltic/** **Finland** **red** **lines**, **Grushko** **echo**, **NATO** **Ã¢â‚¬Å“paper** **tigerÃ¢â‚¬Â** **adjacent**; **Ukraine** **strike** **mention** **only** // hook: **Ã‚Â§1dÃ¢â‚¬â€œÃ‚Â§1h** **week** **Ã¢â‚¬â€** **Mercouris** **institutional** **narrative** **vs** **ORBAT** **/** **MFA** **primaries**; **verify** **before** **Judgment** **merge** | https://www.youtube.com/watch?v=TBD-mercouris-2026-04-19 | verify:operator-transcript+pin-canonical-URL+aired:2026-04-19+Tasnim-primary+Bloomberg-if-cited+Lavrov-partial-readout | thread:mercouris | grep:Mercouris+Hormuz+Lavrov+Araghchi+Velayati+Islamabad+Malacca
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## 2026-04-25
 - YT | cold: **Alex Christoforou** **w/** **Alexander Mercouris** (*The Duran* Ã¢â‚¬â€ *Sea Blockade Trap: How the US Got Locked Into the Iran Conflict* Ã¢â‚¬â€ **user** **cleaned** **transcript** **2026-04-25**) Ã¢â‚¬â€ **Hormuz** **/ U.S.Ã¢â‚¬â€œIran** **Ã¢â‚¬Å“unstable** **equilibrium;Ã¢â‚¬Â** **dual** **blockade,** **toll** **receipts,** **JCPOA** **off-ramp** **vs** **leverage/** **Ã¢â‚¬Å“face;Ã¢â‚¬Â** **Keane** **/ Politico** **(hearsay),** **indefinite** **blockade** **Ã¢â€ â€™** **regime-change** **wait,** **nuclear** **re-enrichment** **risk,** **CNN** **options,** **IRGC** **moderateÃ¢â‚¬â€œhardliner** **(skeptic),** **civilian/** **clerical** **control** // hook: **`thread:mercouris`** **Ãƒâ€”** **Ã‚Â§1e** **(Hormuz** **+** **stalemate)** **Ã¢â‚¬â€** **full** [provenance/2026-04-25/transcript-duran-mercouris-cristoforu-sea-blockade-iran-2026-04-25.md](../../../source-archive/statecraft/2026-04-25/day-index.md) | TBD (pin `watch?v=`) | verify:user-file+cleaned-transcript+Keane-claim-hearsay+opinion-narrative-tier+CNN-second-hand+not-Record | thread:mercouris | IRAN | US | grep:Mercouris+Christoforu+blockade+JCPOA+Hormuz+2026-04-25
@@ -111,45 +75,9 @@
 - YT | cold: **Alexander Mercouris** (*The Duran*) Ã¢â‚¬â€ **aired 2026-04-20** Ã¢â‚¬â€ **UK:** **Starmer** **/** **Mandelson** **/** **Epstein** **/** **failed** **vetting** **/** **Commons** **moment** **(centre** **collapse** **thesis);** **WSJ:** **F-15** **navigator** **rescue** **ops** **room** **Ã¢â‚¬â€** **Trump** **excluded** **(eccentric** **orders** **risk)** **/** **C-in-C** **confidence** **crisis** **frame;** **Hormuz** **/** **US** **blockade** **vs** **Iran** **control;** **PRC** **Navy** **Gulf** **/** **Indian** **Ocean** **hypothesis;** **Russia:** **MoD** **EU** **drone** **sites** **list,** **Lavrov**/**Shoigu** **red** **lines,** **Baltic** **law** **/** **shadow** **fleet** **/** **NATO** **overflight;** **Cuban** **Missile** **Crisis** **analogy** **/** **executive** **control** **contrast;** **Gulf** **Ã¢â‚¬â€** **Spruance** **boarding** **recap,** **Munir** **lift** **blockade** **plea,** **TASS** **~40** **ships** **weekend** **transit** **/** **blockade** **"fiction"** **(Johnson** **echo),** **Islamabad** **Vance**/**Kushner**/**Araghchi**/**Ghalibaf,** **Diego** **Garcia** **strain** **/** **ration** **stress,** **blockade** **lift** **rumor,** **zugzwang** **retreat** **vs** **post-Tuesday** **escalation** **fork;** **Ukraine:** **manpower** **coercion** **in** **Europe,** **Belgian** **four-year** **bleed** **quote,** **Kupyansk**/**Zaporizhzhia**/**Kostiantynivka**/**Sumy** **encirclement** **/** **Chernihiv** **power** // hook: **`thread:mercouris`** **institutional** **Ãƒâ€”** **same-day** **`thread:ritter`** **`thread:johnson`** **Hormuz** **Ã¢â‚¬â€** **verify** **primaries** | https://www.youtube.com/watch?v=TBD-mercouris-russia-blockade-hormuz-2026-04-20 | verify:full-text+raw-input+aired:2026-04-20+pin-canonical-URL | thread:mercouris | grep:Mercouris+Hormuz+TASS+Munir+Spruance+zugzwang+Sumy+WSJ
 - YT | cold: **Alexander Mercouris** (*The Duran*) Ã¢â‚¬â€ **2026-04-19** Ã¢â‚¬â€ **Persian Gulf crisis** stack: Islamabad-era **HormuzÃ¢â‚¬â€œLebanon** linkage **collapsed**; **Trump** statements (**uranium** **handover**, **open** **Strait** **vs** **continued** **blockade**) as **proximate** **cause** **of** **breakdown**; **IRI** **tight** **Hormuz** **control**, **warning** **shots** **at** **tankers** **(per** **Mercouris)**; **WH** **meeting** **(Trump/Rubio/Hegseth/Vance/Wiles)**; **rumor** **US** **may** **seize** **Iran-linked** **ships** **worldwide** **(incl.** **IranÃ¢â€ â€™China** **routes)**; **Ghalibaf** **via** **Tasnim** **rejects** **Trump** **talks** **claims**; **refutes** **David** **Miller** **X** **theory** **(Araghchi** **Ã¢â‚¬Å“twoÃ¢â‚¬Â** **10-point** **lists** **/** **capitulation)** Ã¢â‚¬â€ **cites** **Mirandi** **Islamabad** **accounts** **+** **Ghalibaf** **lead** **delegation** **as** **falsifiers**; **alleges** **Western** **intel** **sow** **Iran** **leadership** **splits** **(parallel** **to** **Qaani** **Mar** **video** **Ã¢â‚¬â€** **Apr** **11** **IRGC** **Qaani** **post** **as** **counter)**; **Velayati** **X**: **regional** **straits**, **Malacca**, **Houthis/** **Bab** **el-Mandeb**, **China** **partners**; **Lavrov** **Antalya**: **war** **Ã¢â‚¬Å“aboutÃ¢â‚¬Â** **Iran** **oil** **/** **China** **supply** **(partial** **readout)**; **Baltic/** **Finland** **red** **lines**, **Grushko** **echo**, **NATO** **Ã¢â‚¬Å“paper** **tigerÃ¢â‚¬Â** **adjacent**; **Ukraine** **strike** **mention** **only** // hook: **Ã‚Â§1dÃ¢â‚¬â€œÃ‚Â§1h** **week** **Ã¢â‚¬â€** **Mercouris** **institutional** **narrative** **vs** **ORBAT** **/** **MFA** **primaries**; **verify** **before** **Judgment** **merge** | https://www.youtube.com/watch?v=TBD-mercouris-2026-04-19 | verify:operator-transcript+pin-canonical-URL+aired:2026-04-19+Tasnim-primary+Bloomberg-if-cited+Lavrov-partial-readout | thread:mercouris | grep:Mercouris+Hormuz+Lavrov+Araghchi+Velayati+Islamabad+Malacca
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-24
 - Inbox | cold: full text in [`source-alexander-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md`](../../../source-archive/statecraft/2026-04-24/source-alexander-mercouris-russian-mod-iran-alliance-denies-split-kupiansk-2026-04-24.md) (pointer; SSOT raw-input) | thread:mercouris
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-23
 - Inbox | cold: full text in [`source-alexander-mercouris-eu-shock-fuel-crisis-putin-iran-2026-04-23.md`](../../../source-archive/statecraft/2026-04-23/source-alexander-mercouris-eu-shock-fuel-crisis-putin-iran-2026-04-23.md) (pointer; SSOT raw-input) | thread:mercouris
-
-
-
-
 

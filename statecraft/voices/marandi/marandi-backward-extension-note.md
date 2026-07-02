@@ -1,6 +1,5 @@
 # Marandi backward extension note
 
-
 Purpose: define the governed path for extending the Marandi shelf farther backward if additional 2025 material is later captured.
 
 ## Rule

@@ -11,7 +11,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "runtime" / "read_hint.py"
 
-
 def _obs(oid: str, *, lane: str, title: str, summary: str, source_path: str | None = None, **extra) -> dict:
     base = {
         "obs_id": oid,
@@ -30,13 +29,11 @@ def _obs(oid: str, *, lane: str, title: str, summary: str, source_path: str | No
         base["source_path"] = source_path
     return base
 
-
 def _write_ledger(tmp_path: Path, rows: list[dict]) -> None:
     obs_dir = tmp_path / "runtime" / "observations"
     obs_dir.mkdir(parents=True)
     p = obs_dir / "index.jsonl"
     p.write_text("\n".join(json.dumps(r, ensure_ascii=False) for r in rows) + "\n", encoding="utf-8")
-
 
 def _run(tmp_path: Path, *args: str) -> subprocess.CompletedProcess[str]:
     env = {**os.environ, "GRACE_MAR_RUNTIME_LEDGER_ROOT": str(tmp_path)}
@@ -48,7 +45,6 @@ def _run(tmp_path: Path, *args: str) -> subprocess.CompletedProcess[str]:
         env=env,
         check=False,
     )
-
 
 def test_finds_by_path(tmp_path: Path) -> None:
     rows = [
@@ -68,7 +64,6 @@ def test_finds_by_path(tmp_path: Path) -> None:
     assert "lane_timeline.py" in proc.stdout
     assert "still read" in proc.stdout.lower() or "directly" in proc.stdout.lower()
 
-
 def test_finds_by_query(tmp_path: Path) -> None:
     rows = [
         _obs(
@@ -84,7 +79,6 @@ def test_finds_by_query(tmp_path: Path) -> None:
     assert "obs_20200101T100000Z_aaaaaaaa" in proc.stdout
     assert "memory_brief.py" in proc.stdout
 
-
 def test_respects_lane_filter(tmp_path: Path) -> None:
     rows = [
         _obs("obs_20200101T100000Z_aaaaaaaa", lane="work-strategy", title="A", summary="alpha token"),
@@ -96,7 +90,6 @@ def test_respects_lane_filter(tmp_path: Path) -> None:
     assert "aaaaaaaa" in proc.stdout
     assert "bbbbbbbb" not in proc.stdout
 
-
 def test_no_writes(tmp_path: Path) -> None:
     rows = [_obs("obs_20200101T100000Z_aaaaaaaa", lane="x", title="t", summary="hello world")]
     _write_ledger(tmp_path, rows)
@@ -105,7 +98,6 @@ def test_no_writes(tmp_path: Path) -> None:
     proc = _run(tmp_path, "--lane", "x", "--query", "hello")
     assert proc.returncode == 0
     assert extra.read_text() == "keep"
-
 
 def test_requires_path_or_query(tmp_path: Path) -> None:
     _write_ledger(tmp_path, [])

@@ -1,7 +1,6 @@
 # Iran - Pakistan Command-Integrity Scare Framework
 <!-- word_count: 364 -->
 
-
 ## Transaction Name
 
 Pakistan regional spillover restraint.

@@ -13,7 +13,6 @@
 | **Companion education** | Lessons at the edge (THINK, MATH, WORK, CHINESE); knowledge boundary enforced; voice and Lexile from Record. |
 | **Human-teacher pattern** | Operator/caregiver reads skill-think, picks focus, gates content. Record-derived prompt encodes the same logic for LLM-as-tutor. |
 
-
 ---
 
 ## Contents

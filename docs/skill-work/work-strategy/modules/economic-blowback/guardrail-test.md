@@ -1,6 +1,6 @@
 # Economic Blowback Guardrail Test (WORK-STRATEGY module)
 
-**Status:** Operator/process discipline. Not enforced by automation. WORK only.
+**Status:** Operator/process discipline. Not enforced by automation. non-authoritative.
 
 ## Scope
 

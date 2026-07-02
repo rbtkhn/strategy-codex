@@ -13,10 +13,8 @@ import pytest
 
 REPO = Path(__file__).resolve().parent.parent
 
-
 def _read(rel: str) -> str:
     return (REPO / rel).read_text(encoding="utf-8")
-
 
 def test_coffee_skill_step1_and_compass_and_exit_rule():
     md = _read(".cursor/skills/coffee/SKILL.md")
@@ -26,7 +24,6 @@ def test_coffee_skill_step1_and_compass_and_exit_rule():
     assert "stay in coffee" in md.lower()
     assert "exit to normal workflow" in md.lower()
 
-
 def test_menu_reference_bare_compass_vs_full_coffee():
     md = _read("docs/skill-work/work-coffee/menu-reference.md")
     assert "### Bare **`compass`** vs **`coffee`** then **`C`**" in md
@@ -34,7 +31,6 @@ def test_menu_reference_bare_compass_vs_full_coffee():
     assert "operator_coffee.py --mode reentry" in md
     assert "operator_coffee.py -u strategy-codex --mode first-command" in md
     assert "Coffee Bootstrap Brief" in md
-
 
 def test_operator_agent_lanes_plan_default_and_execute():
     md = _read("docs/operator-agent-lanes.md")
@@ -45,18 +41,15 @@ def test_operator_agent_lanes_plan_default_and_execute():
     assert "implement" in md.lower()
     assert "push" in md.lower()
 
-
 def test_harness_warmup_rule_coffee_overlap_and_skip_when_warmup_pasted():
     md = _read(".cursor/rules/harness-warmup.mdc")
     assert "harness_warmup.py" in md
     assert "coffee" in md.lower()
     assert "Warmup was already pasted" in md or "already pasted in this thread" in md
 
-
 def test_operator_coffee_invokes_harness_warmup():
     src = _read("scripts/operator_coffee.py")
     assert "harness_warmup.py" in src
-
 
 def test_memory_self_audit_telemetry_note():
     md = _read("docs/memory-self-audit.md")
@@ -64,13 +57,11 @@ def test_memory_self_audit_telemetry_note():
     assert "blank_lines_collapsed" in md
     assert "changed" in md
 
-
 def test_date_time_conventions_iso_utc():
     md = _read("docs/date-time-conventions.md")
     assert "YYYY-MM-DD" in md
     assert "UTC" in md
     assert "operator_clock.py" in md
-
 
 def test_grace_mar_recursion_gate_parseable():
     gate = REPO / "recursion-gate.md"

@@ -1,7 +1,6 @@
 # Treaty Framework Template
 <!-- word_count: 265 -->
 
-
 Use this template for treaty language, framework agreements, reciprocal de-escalation packages, access arrangements, ceasefire-adjacent instruments, and institutional confidence mechanisms.
 
 ## Title

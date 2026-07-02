@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia Brings Massive Law Claim For Frozen Assets Return; EU Advised To Settle; Huliaipole Captured
 
-

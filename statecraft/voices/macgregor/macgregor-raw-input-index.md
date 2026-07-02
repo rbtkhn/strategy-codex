@@ -1,6 +1,5 @@
 # Macgregor Raw-Input Index
 
-
 Compatibility pointer only.
 
 The canonical Macgregor source route map now lives at [macgregor-source-index.md](macgregor-source-index.md).

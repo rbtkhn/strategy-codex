@@ -1,6 +1,5 @@
 # Governed Interpretation Re-Entry Route - 2026-06-01
 
-
 This is the shortest continuity route back into the repo's recent phase shift.
 
 Use it when you remember that the machine changed, but do not want to reconstruct

@@ -30,7 +30,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Three Breaking Items and §224 Introduction
 
 Lots of news today. The first piece of news is that we now have confirmation that there were five American casualties after Iran struck a missile at the at an air base, the US military air base in Kuwait a as a response to the attacks by the United States of America on Iran on two areas uh two areas which is one is the port of Bandar Abbas and the other one was the airport of Bandar Abbas.

@@ -1,6 +1,5 @@
 # Mercouris refined page — 2026-04-29 (UAE OPEC; Tuapse; Konstantinovka)
 
-
 **Expert:** `mercouris` · **Published:** 2026-04-29 · **Capture:** Mode E — YouTube (see raw-input `source_url`) · **Artifact:** refined page (standalone file under `experts/mercouris/`). Not a `strategy-page` HTML fence in `thread.md` unless you duplicate the same judgment there during EOD compose.
 
 ---

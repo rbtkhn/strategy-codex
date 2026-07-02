@@ -1,6 +1,5 @@
 # Diesen cross-host note
 
-
 Purpose: explain how Diesen belongs in the canonical `voices/` namespace without flattening the distinction between a native cognition stream and a cross-host speaker object.
 
 ## Core note

@@ -8,7 +8,6 @@ from prediction.plugins.regime_plugins import RegimeConfidenceRefinement
 from prediction.plugins.signal_plugins import NarrativeCoherenceSignal
 from prediction.plugins.voice_adapters import MearsheimerAdapter
 
-
 def load_plugins() -> list[EpistemicPlugin]:
     """Return ordered list of registered plugins (object-level + evaluation)."""
     return [
@@ -16,7 +15,6 @@ def load_plugins() -> list[EpistemicPlugin]:
         NarrativeCoherenceSignal(),
         RegimeConfidenceRefinement(),
     ]
-
 
 def load_evaluation_plugins() -> list[EpistemicPlugin]:
     return [CanonicalCalibrationEval()]

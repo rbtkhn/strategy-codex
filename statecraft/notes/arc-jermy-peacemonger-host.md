@@ -21,7 +21,6 @@ archive_links:
 
 # Peacemonger x Jermy speaker arc
 
-
 Purpose: compact reuse note for the `Peacemonger x Jermy` run. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Jermy lane Peacemonger elicits, which full-form episodes matter most, and why this branch completes the Jermy triad rather than remaining loose reinforcement.
 
 ## Orthogonality guide

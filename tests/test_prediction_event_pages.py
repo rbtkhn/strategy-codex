@@ -19,7 +19,6 @@ if str(SCRIPTS) not in sys.path:
 from build_prediction_event_pages import build_outputs  # noqa: E402
 from prediction_lib import load_event_registry  # noqa: E402
 
-
 def test_freeman_event_page_exists_and_has_freeman_row() -> None:
     page = EVENTS_DIR / "gaza_ceasefire_holds_2025.md"
     assert page.is_file()
@@ -27,13 +26,11 @@ def test_freeman_event_page_exists_and_has_freeman_row() -> None:
     assert "freeman" in text
     assert "GENERATED FILE" in text
 
-
 def test_cross_voice_matrix_lists_freeman_and_second_voice() -> None:
     assert MATRIX_PATH.is_file()
     text = MATRIX_PATH.read_text(encoding="utf-8")
     assert "freeman" in text
     assert "mercouris" in text or "macgregor" in text
-
 
 def test_matrix_uses_only_registry_event_ids() -> None:
     registry = load_event_registry()
@@ -45,7 +42,6 @@ def test_matrix_uses_only_registry_event_ids() -> None:
     for event_id in pages:
         assert event_id in registry
 
-
 def test_build_prediction_event_pages_check_passes() -> None:
     proc = subprocess.run(
         ["python3", "scripts/build_prediction_event_pages.py", "--check"],
@@ -54,7 +50,6 @@ def test_build_prediction_event_pages_check_passes() -> None:
         text=True,
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
-
 
 def test_freeman_shelf_json_companion_valid() -> None:
     data = json.loads(FREEMAN_JSON.read_text(encoding="utf-8"))

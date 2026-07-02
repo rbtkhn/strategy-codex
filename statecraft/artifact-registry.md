@@ -1,6 +1,5 @@
 # Statecraft Artifact Registry
 
-
 This is the minimal registry law for new or touched statecraft outputs. It does not try to catalog the entire backfile in v1. Its purpose is to give every new or revised artifact a canonical metadata shape so compiled views, audits, and comparison surfaces can exist later without reinterpreting each note from scratch.
 
 ## Required Metadata

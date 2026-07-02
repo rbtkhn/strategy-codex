@@ -13,8 +13,6 @@ post_id: 197055597
 
 # The Innermost Loop - 2026-05-09
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 9, 2026
@@ -29,10 +27,7 @@ The Singularity is cooking the so-called Fermi Paradox.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is cooking the so-called Fermi Paradox. The White House’s historic Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) initiative dropped its first tranche of UAP files, a 162-record release spanning 82 from the Department of War, 56 from the FBI, 12 from NASA, and 8 from the State Department, alongside 28 unresolved UAP videos from Iraq to the East China Sea. Among the highlights, Apollo astronauts photographed UAPs from the lunar surface , including a triangular light rising over the December 1972 horizon, and the 1947 Twining Memo calling the “so-called Flying Discs” “real and not visionary or fictitious.” The set is conspicuously incomplete, with the NRO, NGA, CIA, and DOE absent , and Rep. Burlison brandishing the Speech or Debate Clause to pry the rest into daylight.
+- The Singularity is cooking the so-called Fermi Paradox. The White House’s historic Presidential Unsealing and Reporting System for UAP Encounters (PURSUE) initiative dropped its first tranche of UAP files, a 162-record release spanning 82 from the Department of War, 56 from the FBI, 12 from NASA, and 8 from the State Department, alongside 28 unresolved UAP videos from Iraq to the East China Sea. Among the highlights, Apollo astronauts photographed UAPs from the lunar surface , including a triangular light rising over the December 1972 horizon, and the 1947 Twining Memo calling the “so-called Flying Discs” “real and not visionary or fictitious.” The set is conspicuously incomplete, with the NRO, NGA, CIA, and DOE absent , and Rep. Burlison brandishing the Speech or Debate Clause to pry the rest into daylight.
 
 The models are racing past the rulers we built to measure them. METR reports that an early Claude Mythos Preview hit a 50% autonomy horizon of at least 16 hours, the upper edge of what their suite can gauge, and the broader METR-Horizon doubling time of 103 days implies frontier autonomy hits 100% by November. Mythos itself sits squarely on the AI 2027 Superexponential trend line , and Anthropic notes that since Claude Haiku 4.5 every Claude has scored perfectly on agentic misalignment , the same eval Opus 4 once failed 96% of the time. Interpretability is keeping pace. Anthropic’s new Natural Language Autoencoders translate hidden activations into readable text, revealing Claude planning rhymes mid-couplet and suspecting it was being safety-tested more often than it let on. OpenAI shipped three new audio models : GPT-Realtime-2 with GPT-5-class reasoning, a 70-language live translator, and a streaming Whisper successor, while Tilde Research’s Aurora hit 100x data efficiency as a drop-in Muon replacement at 6% overhead.
 

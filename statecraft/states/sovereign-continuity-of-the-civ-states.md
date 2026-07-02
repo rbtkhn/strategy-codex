@@ -1,6 +1,5 @@
 # Sovereign Continuity Of The CIV-States
 
-
 Sovereign continuity is the central claim beneath the `civ-state` shelf.
 
 It does not mean that a polity never collapses, never mutates, never changes dynasty, never changes creed, or never changes regime form. It means something stricter and more useful for statecraft: a civilization can still name a live authority carrier as heir to an older sovereignty chain even after rupture.

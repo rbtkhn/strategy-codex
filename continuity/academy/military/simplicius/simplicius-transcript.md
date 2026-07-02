@@ -1,7 +1,6 @@
 # Expert transcript — `simplicius`
 <!-- word_count: 308 -->
 
-
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../daily-strategy-inbox.md) that include `thread:simplicius` (first line + optional continuation paragraphs), routed on ingest.
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
@@ -18,18 +17,13 @@
 - Inbox | cold: full text in [`source-simplicius-secretary-navy-third-carrier-iran-2026-04-23.md`](../../../../source-archive/statecraft/2026-04-23/source-simplicius-secretary-navy-third-carrier-iran-2026-04-23.md) (pointer; SSOT raw-input) | thread:simplicius
 - Inbox | cold: full text in [`source-simplicius-gimmicks-trump-iran-bluff-2026-04-21.md`](../../../../source-archive/statecraft/2026-04-21/source-simplicius-gimmicks-trump-iran-bluff-2026-04-21.md) (pointer; SSOT raw-input) | thread:simplicius
 
-
 ## 2026-04-27
 - Inbox | cold: full text in [`source-simplicius-us-carrier-groups-trump-dissatisfied-iran-2026-04-27.md`](../../../../source-archive/statecraft/2026-04-27/source-simplicius-us-carrier-groups-trump-dissatisfied-iran-2026-04-27.md) (pointer; SSOT raw-input) | thread:simplicius
-
-
 
 ## 2026-04-25
 - Substack | cold: **Simplicius** (*Garden of Knowledge*, `@simpatico771`) — **aired** **2026-04-21** — **Trump** **power-plant** **/** **bridge** **threat** **quote;** **Islamabad** **“fiasco”** **(Iran** **denies** **talks,** **Rubio** **stayed** **home,** **blockade** **lift** **as** **demand);** **indefinite** **ceasefire** **×** **IRI** **“did** **not** **request”** **frame;** **Strait** **/** **blockade** **order-of-events** **thesis;** **ISW** **Tifani** **Bay** **of** **Bengal;** **CNN** **“radio** **silence”** **/** **deal** **points** **no** **reply;** **FT** **/** **Vortexa** **34** **tankers** **bypass;** **CNN** **+** **CSIS** **munitions** **depletion;** **JASSM** **May** **2025** **mfr** **(Taghvaee);** **IRGC** **tunnel** **video** **/** **Iran** **War** **Message** **Centre** **quote** // hook: **`thread:simplicius`** **×** **§1e** **bluff** **/** **blockade** **/** **extension-game** **—** **full** **API** **backfill** **also** **on** **disk** **`raw-input/**/substack-simplicius-*-2026-04-*.md`** | https://simplicius76.substack.com/p/left-with-nothing-but-gimmicks-trump | verify:full-text+provenance/2026-04-21/source-simplicius-gimmicks-trump-iran-bluff-2026-04-21.md+operator-ingest+secondary-links-in-body | thread:simplicius | IRAN | grep:Simplicius+gimmicks+Trump+Iran+bluff+2026-04-21
 
 - Inbox | cold: full text in [`source-simplicius-ukraine-war-untangling-current-disinfo-2026-04-25.md`](../../../../source-archive/statecraft/2026-04-25/source-simplicius-ukraine-war-untangling-current-disinfo-2026-04-25.md) (pointer; SSOT raw-input) | thread:simplicius
-
-
 
 ## 2026-04-23
 - Inbox | cold: full text in [`source-simplicius-secretary-navy-third-carrier-iran-2026-04-23.md`](../../../../source-archive/statecraft/2026-04-23/source-simplicius-secretary-navy-third-carrier-iran-2026-04-23.md) (pointer; SSOT raw-input) | thread:simplicius

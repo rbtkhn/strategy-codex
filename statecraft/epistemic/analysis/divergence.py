@@ -6,7 +6,6 @@ from typing import Any
 
 from .metrics import population_variance
 
-
 def compute_divergence(structured_predictions: list[dict[str, Any]]) -> dict[str, float]:
     by_event: dict[str, list[dict[str, Any]]] = {}
     for pred in structured_predictions:

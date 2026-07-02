@@ -29,7 +29,6 @@ from registry_pipeline.falsifier_validator import (  # noqa: E402
 from prediction_lib import collect_prediction_notes, load_event_registry  # noqa: E402
 from voice_prediction_pilot import VOICE_REGISTRY, load_capture_map  # noqa: E402
 
-
 def collect_referenced_event_ids() -> set[str]:
     refs: set[str] = set()
     for note in collect_prediction_notes():
@@ -42,14 +41,12 @@ def collect_referenced_event_ids() -> set[str]:
             refs.add(str(row.get("event_id") or ""))
     return {r for r in refs if r}
 
-
 def check_orphan_events(events: dict[str, dict[str, Any]]) -> list[str]:
     errors: list[str] = []
     for event_id in sorted(collect_referenced_event_ids()):
         if event_id not in events:
             errors.append(f"orphan event_id {event_id!r} referenced but not in registry")
     return errors
-
 
 def check_fake_shifts(timeline: dict[str, Any]) -> list[str]:
     warnings: list[str] = []
@@ -78,10 +75,8 @@ def check_fake_shifts(timeline: dict[str, Any]) -> list[str]:
                     )
     return warnings
 
-
 def check_event_inflation(events: dict[str, dict[str, Any]]) -> list[str]:
     return fingerprint_gate_errors(events)
-
 
 def check_renderer_ssot(events: dict[str, dict[str, Any]]) -> list[str]:
     warnings: list[str] = []
@@ -97,7 +92,6 @@ def check_renderer_ssot(events: dict[str, dict[str, Any]]) -> list[str]:
             if ev.get("child_event_ids"):
                 warnings.append(f"{speaker}/{event_id}: shelf still exposes child_event_ids")
     return warnings
-
 
 def run_phase3_checks(
     *,
@@ -145,7 +139,6 @@ def run_phase3_checks(
 
     return errors, warnings, queue
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--registry", type=Path, default=DEFAULT_REGISTRY)
@@ -188,7 +181,6 @@ def main() -> int:
         return 1
     print(f"[ok] check_phase3 passed ({len(warnings)} warning(s))")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

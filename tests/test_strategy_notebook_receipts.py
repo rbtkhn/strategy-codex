@@ -1,4 +1,4 @@
-"""Tests for strategy-notebook JSONL receipts (WORK only)."""
+"""Tests for strategy-notebook JSONL receipts (non-authoritative)."""
 
 from __future__ import annotations
 
@@ -19,12 +19,10 @@ from strategy_notebook.receipts import (  # noqa: E402
     rel_posix,
 )
 
-
 def test_page_operation_values() -> None:
     vals = {e.value for e in PageOperation}
     assert "NOOP" in vals and "APPEND" in vals
     assert len(vals) == len(PageOperation)
-
 
 def test_notebook_receipt_round_trip_json() -> None:
     r = NotebookReceipt(
@@ -44,7 +42,6 @@ def test_notebook_receipt_round_trip_json() -> None:
     assert back["page_operation"] == "APPEND"
     assert back["details"] == {"k": "v"}
 
-
 def test_append_receipt_creates_line(tmp_path: Path) -> None:
     log = tmp_path / "r.jsonl"
     r = NotebookReceipt(
@@ -60,11 +57,9 @@ def test_append_receipt_creates_line(tmp_path: Path) -> None:
     row = json.loads(lines[0])
     assert row["status"] == "ok"
 
-
 def test_default_receipt_log_path_under_artifacts() -> None:
     p = default_receipt_log_path(REPO_ROOT)
     assert "runtime/artifacts/work-strategy/strategy-notebook/receipts" in p.as_posix()
-
 
 def test_rel_posix_inside_repo(tmp_path: Path) -> None:
     # minimal fake repo root

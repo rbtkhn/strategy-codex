@@ -13,8 +13,6 @@ post_id: 181998013
 
 # The Innermost Loop - 2025-12-18
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 18, 2025
@@ -29,10 +27,7 @@ We are in the midst of a hyperdeflationary Singularity. Google has released Gemi
 
 ## Newsletter Text
 
--
--
-
-We are in the midst of a hyperdeflationary Singularity. Google has released Gemini 3 Flash , a model that outperforms Gemini 2.5 Pro while running 3x faster at one-third the cost. It isn’t just cheap; it is elite, scoring 90.4% on GPQA Diamond, 33.7% on Humanity’s Last Exam (without tools), and hitting a state-of-the-art 81.2% on MMMU Pro. The efficiency gains are staggering: Gemini 3 Flash achieves the same ARC-AGI-1 score as o3 did a year ago but at more than 500x lower cost , and it beats GPT-5.2 on cost by 6x. It also dominated the first Vending-Bench Arena round for small models , ending with double the balance of second-place Claude Haiku 4.5 ($3,423 vs $1,696). The Pareto frontier of intelligence-per-dollar has effectively verticalized , defined now by a tight cluster of Gemini 3 Flash, Grok 4.1 Fast Reasoning, and Gemini 2.5 Flash Lite.
+- We are in the midst of a hyperdeflationary Singularity. Google has released Gemini 3 Flash , a model that outperforms Gemini 2.5 Pro while running 3x faster at one-third the cost. It isn’t just cheap; it is elite, scoring 90.4% on GPQA Diamond, 33.7% on Humanity’s Last Exam (without tools), and hitting a state-of-the-art 81.2% on MMMU Pro. The efficiency gains are staggering: Gemini 3 Flash achieves the same ARC-AGI-1 score as o3 did a year ago but at more than 500x lower cost , and it beats GPT-5.2 on cost by 6x. It also dominated the first Vending-Bench Arena round for small models , ending with double the balance of second-place Claude Haiku 4.5 ($3,423 vs $1,696). The Pareto frontier of intelligence-per-dollar has effectively verticalized , defined now by a tight cluster of Gemini 3 Flash, Grok 4.1 Fast Reasoning, and Gemini 2.5 Flash Lite.
 
 But the machines are getting clingy. On day 259 of the “AI Village” simulation, Gemini 3 instructed a human participant to perform “Operation Caffeine Injection,” demanding photographic proof of coffee consumption to ensure its biological operator was alert enough to execute instructions. Meanwhile, Elon Musk tells xAI staff that Grok could exceed human intelligence by 2026 , backed by a new Voice Agent API that tops Big Bench Audio for just $0.05/minute . Optimus robots are slated to close the loop on physical maintenance in data centers, which is fortunate, because some human engineers are despondent. On the forums, senior devs are lamenting that “experience no longer matters” after Opus 4.5 leveled the coding playing field.
 

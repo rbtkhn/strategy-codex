@@ -1,6 +1,5 @@
 # Crooke shelf - 2026-04
 
-
 Status: mature dense-core month.
 
 Open with:

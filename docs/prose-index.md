@@ -1,6 +1,5 @@
 # Prose Index
 
-
 This is the canonical chooser for repo-root prose output classes.
 
 Use it when the question is not yet "which file?" but rather "what kind of prose object do I need?"

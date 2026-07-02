@@ -1,7 +1,6 @@
 # Cross-Shelf Bridge
 <!-- word_count: 365 -->
 
-
 This bridge records what academy-theology and academy-military teach each other.
 
 ## Theology Learns From Military

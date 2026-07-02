@@ -11,7 +11,7 @@ This folder is the **operator/advisor WORK layer** in strategy-codex. It is **no
 ## Boundary
 
 - Durable identity truth lives in **each member's own** instance repo, merged only through **their** gate.
-- Advisor notes, evidence pointers, dashboards, and launch copy live here (WORK only).
+- Advisor notes, evidence pointers, dashboards, and launch copy live here (non-authoritative).
 - Scholarship, employment, equity, and payment language stays offer-sensitive — track for operator review; do not convert into legal commitments in this lane.
 
 ## Status

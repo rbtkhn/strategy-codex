@@ -1,7 +1,5 @@
 # Humanoid Robot Scaling strategy-page - 2026-05-08
 
-WORK only; not Record.
-
 <!-- strategy-page:start id="humanoid-robot-scaling-civ-mem" date="2026-05-08" watch="cm-1" -->
 ### Page: Humanoid Robots and the Meaning Layer of Labor
 

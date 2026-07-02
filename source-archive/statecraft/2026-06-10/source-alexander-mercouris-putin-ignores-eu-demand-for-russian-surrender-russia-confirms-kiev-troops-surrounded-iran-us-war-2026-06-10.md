@@ -37,7 +37,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Wednesday 10th June 2026 and as you can tell I'm in a different hotel room in Russia near the city of Scorf where I am of course now attending a conference which will be attended by various academics and by various other friends and um individuals who are active in the world of um independent media.

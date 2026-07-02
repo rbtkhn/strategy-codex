@@ -25,7 +25,6 @@ transcript_curation: curated_sectioned
 
 ## Cleaned, Unabridged Transcript
 
-
 ### Show Open — Davis Intro and Blumenthal Ground-Troop Warning
 
 **Lt. Col. Daniel Davis:** The escalation trap. Has the United States unwittingly walked into an Iranian trap? Now, of course, if you're just listening to the president, if you're listening to the secretary of war earlier today, it sounds like if anybody walked into a trap, it's the Iranians. They have made a fatal mistake that could be catastrophic for their entire government, way of life.

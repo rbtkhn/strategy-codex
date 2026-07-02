@@ -95,7 +95,7 @@ If the operator wants to keep pushing March, the next honest actions are:
    Use March as a comparison month for later escalation and negotiation arcs.
 
 2. `March finite-queue falsification only if a real candidate appears`
-   Reopen closure work only after a URL-backed missing or ambiguous candidate is actually surfaced.
+   Reopen closure non-authoritative after a URL-backed missing or ambiguous candidate is actually surfaced.
 
 3. `Do not force an underrepresentation story`
    Archive density alone is not a reason to invent a March backfill campaign.

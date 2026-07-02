@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # All Out Assault On Konstantinovka; Russia Hails Its MIC's Success; Responds Icily Kiev 20 Point Plan
 
-

@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2025-12-21/source-dialogue-works-andrei-martyanov-its-over-russia-just-unleashed-oreshnik-final-phase-has-begun-2025-12-21.md
 ---
 
-
 # Martyanov Arc
 
 Martyanov's durable statecraft role is to force political and alliance rhetoric back through military means.

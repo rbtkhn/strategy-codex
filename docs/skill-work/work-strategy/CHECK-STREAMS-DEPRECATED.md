@@ -1,6 +1,5 @@
 # Check streams — DEPRECATED (2026-06-21)
 
-
 **Status:** The **`check-streams`** skill slug and **`check streams`** activation phrase are **deprecated** as the canonical name. Use **`check-sources`** / **`check sources`** instead.
 
 ## What replaced it

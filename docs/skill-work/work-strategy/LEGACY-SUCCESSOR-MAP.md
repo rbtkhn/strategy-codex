@@ -1,6 +1,5 @@
 # Legacy Successor Map
 
-
 `work-strategy` is now a **legacy compatibility surface**, not the canonical operator judgment owner.
 
 Use this note when an older `work-strategy` path, rule, or memo still exists on disk and you need to know where its living successor belongs conceptually.

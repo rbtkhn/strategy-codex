@@ -1,7 +1,6 @@
 # Elon Musk Authority Carrier Object
 <!-- word_count: 1034 -->
 
-
 Refresh current officeholder, contract, company, and platform facts before load-bearing use.
 
 ## Object

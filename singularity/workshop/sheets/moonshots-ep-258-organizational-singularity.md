@@ -1,7 +1,5 @@
 # Moonshots EP #258 - Organizational Singularity
 
-WORK only; not Record.
-
 ## Source
 
 - Source: "The New Era of Jobs: Organizational Singularity | EP #258", Moonshots.

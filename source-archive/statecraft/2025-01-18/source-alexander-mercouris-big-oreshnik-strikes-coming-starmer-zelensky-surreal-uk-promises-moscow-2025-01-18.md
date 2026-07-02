@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Big Oreshnik Strikes Coming; Starmer & Zelensky, Surreal UK Promises; Moscow Pledges Iran Aid
 
-

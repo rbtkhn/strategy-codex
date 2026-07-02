@@ -1,6 +1,5 @@
 # Wilkerson October 2025 note
 
-
 Purpose: preserve what October 2025 currently means on the Wilkerson shelf now that the month resolves into a ten-file on-disk core with the previously recovered October corridor fully materialized on disk.
 
 ## Core claim

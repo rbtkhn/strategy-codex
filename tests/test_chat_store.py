@@ -16,7 +16,6 @@ _tmp_db = tempfile.NamedTemporaryFile(suffix=".db", delete=False)
 _tmp_db.close()
 _TMP_DB_PATH = Path(_tmp_db.name)
 
-
 @pytest.fixture(autouse=True)
 def _clean_db():
     """Reset DB for each test."""
@@ -33,12 +32,10 @@ def _clean_db():
     finally:
         conn.close()
 
-
 def _cs():
     import bot.chat_store as cs
     cs.DB_PATH = _TMP_DB_PATH
     return cs
-
 
 class TestStoreAndLoad:
     def test_store_and_load_recent(self):
@@ -72,7 +69,6 @@ class TestStoreAndLoad:
         cs = _cs()
         assert cs.load_recent("nonexistent") == []
 
-
 class TestSummary:
     def test_get_summary_none_when_empty(self):
         cs = _cs()
@@ -90,7 +86,6 @@ class TestSummary:
         finally:
             conn.close()
         assert cs.get_summary("test:1") == "talked about dinosaurs"
-
 
 class TestSearch:
     def test_search_messages(self):
@@ -128,7 +123,6 @@ class TestSearch:
         results = cs.search_messages("test:1", "quantum")
         assert len(results) == 1
         assert results[0]["source"] == "summary"
-
 
 class TestCompaction:
     def test_maybe_compact_below_threshold(self):
@@ -182,7 +176,6 @@ class TestCompaction:
         assert len(remaining) == 1
         assert remaining[0]["content"] == "recent message"
 
-
 class TestClearChannel:
     def test_clear_removes_messages_and_summary(self):
         cs = _cs()
@@ -209,7 +202,6 @@ class TestClearChannel:
         cs.clear_channel("ch:a")
         assert cs.load_recent("ch:a") == []
         assert len(cs.load_recent("ch:b")) == 1
-
 
 class TestMessageCount:
     def test_count(self):

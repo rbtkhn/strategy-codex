@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Thanks for doing this. >> Thank you for having me. Um, is this deal real? >> I think so. I think this is a significant achievement, but nothing is fully real until they manage to get to the final agreement. And we already have a precedent in which we also see that when there was a final agreement, which there was in 2015 that Obama struck, it didn't mean that it necessarily would last because Trump walked out of that deal.

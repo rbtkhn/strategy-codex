@@ -1,6 +1,5 @@
 # Johnson backward extension note
 
-
 Purpose: define the governed path that extends Johnson's canonical dense-core retrieval backward from the April-May 2026 core into late 2025 and then the thinner earlier roots without pretending that the extension is already complete.
 
 ## Current Situation

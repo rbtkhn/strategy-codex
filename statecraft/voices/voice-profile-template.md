@@ -36,7 +36,7 @@ It is **not**:
 | Section | Required | Notes |
 |---|---|---|
 | Title + `expert_id` | yes | `# Strategy expert — <Name> (\`<expert_id>\`)` |
-| Fence | yes | `WORK only; not Record.` |
+| Fence | yes | `` |
 | Canonical pointers | yes | **Canonical profile**, **Canonical shelf**, **Canonical index** (commentator-threads row when applicable) |
 | `## Introduction` | yes | Short orienting paragraph — who, what lane, why reused |
 | `## Identity` | yes | Table: Name, expert_id, Role, Default grep tags, Typical pairings, Notebook-use tags |
@@ -71,7 +71,6 @@ It is **not**:
 ```md
 # Strategy expert — <Full name> (`<expert_id>`)
 <!-- word_count: <n> -->
-
 
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)

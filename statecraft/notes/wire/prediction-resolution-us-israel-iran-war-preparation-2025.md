@@ -15,7 +15,6 @@ links:
 
 # Prediction resolution — us_israel_iran_war_preparation_2025
 
-
 **Event question:** Are Israel and Iran actively preparing for direct war (force posture, threats, procurement)?  
 **Resolution criteria:** Operator resolves from wire + posture evidence when prep falsifier is judged closed.  
 **Freeman arc:** [freeman-predictions.md#us_israel_iran_war_preparation_2025](../voices/freeman/freeman-predictions.md#us_israel_iran_war_preparation_2025)  

@@ -1,6 +1,5 @@
 # McGovern Raw-Input Index
 
-
 Compatibility pointer only.
 
 The canonical McGovern source route map now lives at [mcgovern-source-index.md](mcgovern-source-index.md).

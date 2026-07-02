@@ -13,8 +13,6 @@ post_id: 183342329
 
 # The Innermost Loop - 2026-01-03
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 3, 2026
@@ -29,10 +27,7 @@ The Singularity is shifting from brute force to hyper-efficiency.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is shifting from brute force to hyper-efficiency. Apple researchers have demonstrated that hyperparameter sweeps are scale-invariant , proving that settings found on 50M-parameter toys transfer perfectly to 7B+ models, effectively solving the “tuning tax” of large-scale training. Simultaneously, Princeton has introduced Deep Delta Learning , reinterpreting the transformer’s residual stream as a continuous geometric flow that “cleans” its own feature subspaces layer-by-layer, preventing the interference that plagues deep networks. Logic itself is being visualised. Chinese researchers unveiled DiffThinker , a framework that outperforms GPT-5 by treating logical reasoning as a native image-to-image diffusion task, suggesting that high-level cognition is just high-resolution spatial planning.
+- The Singularity is shifting from brute force to hyper-efficiency. Apple researchers have demonstrated that hyperparameter sweeps are scale-invariant , proving that settings found on 50M-parameter toys transfer perfectly to 7B+ models, effectively solving the “tuning tax” of large-scale training. Simultaneously, Princeton has introduced Deep Delta Learning , reinterpreting the transformer’s residual stream as a continuous geometric flow that “cleans” its own feature subspaces layer-by-layer, preventing the interference that plagues deep networks. Logic itself is being visualised. Chinese researchers unveiled DiffThinker , a framework that outperforms GPT-5 by treating logical reasoning as a native image-to-image diffusion task, suggesting that high-level cognition is just high-resolution spatial planning.
 
 The data center is evolving into a sovereign entity. Anthropic is bypassing the cloud providers entirely, purchasing 1 million TPUv7 chips directly from Broadcom and outsourcing the physical operations to crypto-miners like TeraWulf, creating a vertically integrated intelligence silo. This infrastructure is decoupling from the public grid; a Bloom Energy survey reveals 38% of data centers expect to generate their own power by 2030 , turning server farms into islanded city-states. The market is pricing in this infinite appetite for compute. TSMC’s revenue has doubled , and Kioxia’s stock is up 540% as the world scrambles for NAND flash to store the synthetic data deluge.
 

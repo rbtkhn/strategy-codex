@@ -35,7 +35,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Friday 19th June 2026. And before I begin this program, let me remind you again to tick the like button and to check your subscription to this channel. Well, today we have all sorts of um events taking place in relation to the memorandum of understanding and the negotiations between the United States and Iran and tensions between the United States and Israel.

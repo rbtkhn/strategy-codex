@@ -30,7 +30,6 @@ When the operator names primary-text acquisition without the runbook phrase, red
 
 Acquisition methodology executes inside the runbook workflow. Do not treat this file as a separate operator entrypoint.
 
-
 ## Cursor / strategy-codex instance
 
 **strategy-codex instance notes**

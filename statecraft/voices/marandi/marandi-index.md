@@ -1,6 +1,5 @@
 # Marandi source index
 
-
 Purpose: exhaustive canonical route map for Seyed Mohammad Marandi guest appearances and direct archive anchors on the Marandi shelf.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index marandi` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)

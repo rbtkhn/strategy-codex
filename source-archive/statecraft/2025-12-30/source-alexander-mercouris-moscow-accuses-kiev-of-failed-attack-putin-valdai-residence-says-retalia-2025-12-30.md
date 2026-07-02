@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Moscow Accuses Kiev Of Failed Attack Putin Valdai Residence; Says Retaliation Coming; Oreshnik Ready
 
-

@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 >> Yeah, I think Yeah, look, I think I just posted on my Twitter and I've asked anybody who speaks Hebrew to translate because you never know with these speeches in Hebrew if what's translated is accurate or not.

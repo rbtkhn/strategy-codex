@@ -19,7 +19,6 @@ archive_links:
 
 # Davis x Kent speaker arc
 
-
 Purpose: explain why the recurring `Davis x Kent` lane matters as a host-local conversational form. This is an interpretive routing note downstream of raw-input accumulation, not a provenance ledger and not a substitute for the raw-input files.
 
 ## Why this guest run matters

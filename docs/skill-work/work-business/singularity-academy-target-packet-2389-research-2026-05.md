@@ -1,6 +1,6 @@
 # Singularity-Academy Target Packet - 2389 Research - 2026-05
 
-WORK only. Draft prospect wrapper, not sent communication.
+non-authoritative. Draft prospect wrapper, not sent communication.
 
 ## Why 2389 Research may be a fit
 

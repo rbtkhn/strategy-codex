@@ -1,6 +1,5 @@
 # Wilkerson April 2025 note
 
-
 Purpose: preserve what April 2025 currently means on the Wilkerson shelf without pretending the month is already fully recovered at the YouTube watch-URL layer.
 
 ## Core claim

@@ -1,7 +1,5 @@
 # Singularity Science
 
-work only; not Record.
-
 **Subject/stream research** on [The Innermost Loop](innermost-loop/README.md) and [Moonshots](moonshots/README.md) — the paired strands of the singularity-academy [keystone helix](../../singularity/workshop/keystone-helix.md): dated frontier signal pulse plus conversational synthesis on economy, infrastructure, agency, alignment, and culture.
 
 ## Status

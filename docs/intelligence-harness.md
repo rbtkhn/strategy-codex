@@ -1,6 +1,5 @@
 # Intelligence harness — strategy-codex
 
-
 This page is a **bridge doc** for visitors arriving from the AI-enterprise conversation. It adds external legibility without replacing canonical doctrine. Full argument: [from-accumulation essay](../essays/from-accumulation-to-governed-interpretive-machine.md). Product map: [product-identity.md](product-identity.md). **Architecture routing hub:** [harness-architecture-map.md](harness-architecture-map.md).
 
 ---

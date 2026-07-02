@@ -16,7 +16,6 @@ tags:
 ---
 # CIV-STATE
 
-
 **Activation:** `civ-state` · `statecraft civ-state` *(legacy alias)*
 
 `civ-state` is the exact command door for CIV-STATE as an analysis-and-retrieval bench.

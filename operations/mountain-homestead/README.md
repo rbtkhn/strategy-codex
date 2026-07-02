@@ -1,7 +1,5 @@
 # Mountain homestead — business operating shelf
 
-WORK only; not Record.
-
 Mountain homestead business operating shelf. Treat the 5-acre Pine, Colorado property as a **risk-first rural operating asset**: land + infrastructure + production capacity + risk management + optional revenue.
 
 **Strategic plan (operating SSOT):** [STRATEGIC-PLAN.md](STRATEGIC-PLAN.md)

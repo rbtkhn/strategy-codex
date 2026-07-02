@@ -1,7 +1,6 @@
 # Notebook contract - strategy-codex
 <!-- word_count: 1110 -->
 
-
 **Purpose:** Shared hub for the canonical bundle. Normative detail lives in the files below; do not duplicate long excerpts here. Ownership map: [CONTRACT-INDEX.md](CONTRACT-INDEX.md).
 
 ## Center of gravity

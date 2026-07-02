@@ -13,18 +13,15 @@ REPO_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_VOICE_DIR = REPO_ROOT / "statecraft" / "epistemic" / "observation" / "voice_captures"
 DEFAULT_OUT = REPO_ROOT / "statecraft" / "epistemic" / "data" / "observations.json"
 
-
 def _mtime_iso(path: Path) -> str:
     mtime = path.stat().st_mtime
     return datetime.fromtimestamp(mtime, tz=UTC).isoformat()
-
 
 def _rel_source_file(path: Path, repo_root: Path) -> str:
     try:
         return path.relative_to(repo_root).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def load_voice_captures(
     *,
@@ -56,7 +53,6 @@ def load_voice_captures(
         )
 
     return observations
-
 
 def write_observations(
     observations: list[dict[str, Any]],

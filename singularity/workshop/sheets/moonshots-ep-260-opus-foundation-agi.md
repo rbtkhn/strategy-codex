@@ -1,7 +1,5 @@
 # Moonshots EP #260 - Opus, Foundation, and AGI Timelines
 
-WORK only; not Record.
-
 ## Source
 
 - Source: "Opus 4.8 Beats GPT 5.5, the $220B OpenAI Foundation, and Hassabis's 2029 AGI Prediction | EP #260", Moonshots.

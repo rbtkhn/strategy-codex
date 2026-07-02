@@ -21,7 +21,6 @@ The primary unit is the **month memo**, not the individual issue. Use issue-leve
 
 ## Boundary
 
-- WORK only; not Record.
 - Archive truth stays upstream in raw captures and deterministic longitudinal surfaces.
 - Do not turn the month into equal-weight commentary on every issue.
 - Do not overgenerate support notes.

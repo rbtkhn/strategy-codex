@@ -22,7 +22,6 @@ from voice_prediction_pilot import VOICE_REGISTRY  # noqa: E402
 LOW_N_TRAJECTORY_THRESHOLD = 5
 ARTIFACT_DIR = _REPO_ROOT / "runtime" / "artifacts"
 
-
 def build_mvel_payload(
     *,
     registry: dict[str, dict[str, Any]] | None = None,
@@ -111,7 +110,6 @@ def build_mvel_payload(
         },
     }
 
-
 def run_mvel(
     *,
     semantic_scores: dict[str, Any] | None = None,
@@ -122,7 +120,6 @@ def run_mvel(
         semantic_scores=semantic_scores,
         disagreement=disagreement,
     )["status"]
-
 
 def main() -> int:
     import argparse
@@ -163,7 +160,6 @@ def main() -> int:
         f"unmatched={status['unmatched_count']}"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

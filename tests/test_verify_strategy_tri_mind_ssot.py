@@ -6,7 +6,6 @@ import subprocess
 import sys
 from pathlib import Path
 
-
 def test_verify_strategy_tri_mind_ssot_exits_zero() -> None:
     repo = Path(__file__).resolve().parents[1]
     proc = subprocess.run(

@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Mixed Signals Open — MOU Amendments, Lebanese Latani Crossing, Iran Red Line
 
 So, um, I'll I'll give you kind of an update on on what's been happening because it's been looking weird on the Iranian front, good and bad, mixed messages. Then we're getting it's getting looking bad on the Lebanese front, which plays a role in what happens in Iran because obviously that's a precondition for Iran.

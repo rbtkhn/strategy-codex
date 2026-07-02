@@ -4,7 +4,6 @@ Backfill an expert thread with a clearly labeled reconstructed historical arc.
 
 Design goals
 ------------
-- WORK-only; not Record.
 - Do NOT touch the machine extraction block between:
     <!-- strategy-expert-thread:start -->
     <!-- strategy-expert-thread:end -->

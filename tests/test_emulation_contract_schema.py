@@ -6,20 +6,16 @@ from pathlib import Path
 
 import pytest
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
-
 
 def _load_json(rel_path: str) -> dict:
     return json.loads((REPO_ROOT / rel_path).read_text(encoding="utf-8"))
-
 
 def _validator(rel_path: str):
     jsonschema = pytest.importorskip("jsonschema")
     schema = _load_json(rel_path)
     jsonschema.validators.validator_for(schema).check_schema(schema)
     return jsonschema.Draft202012Validator(schema)
-
 
 def _valid_docs_contract() -> dict:
     return {
@@ -73,7 +69,6 @@ def _valid_docs_contract() -> dict:
         },
     }
 
-
 def _valid_emitted_envelope() -> dict:
     return {
         "$schema": "schemas/registry/emulation-bundle-envelope.v1.json",
@@ -103,12 +98,10 @@ def _valid_emitted_envelope() -> dict:
         "adapterExamples": [],
     }
 
-
 def test_emulation_contract_schema_parses() -> None:
     schema = _load_json("docs/portability/emulation/emulation-bundle-schema.v1.json")
     assert schema["title"] == "Portable emulation bundle contract"
     assert schema["type"] == "object"
-
 
 def test_emulation_contract_schema_enforces_authority_constants() -> None:
     schema = _load_json("docs/portability/emulation/emulation-bundle-schema.v1.json")
@@ -121,7 +114,6 @@ def test_emulation_contract_schema_enforces_authority_constants() -> None:
     assert authority["workLaneAuthority"]["const"] == "local-runtime-only"
     assert authority["canonicalRecordAccess"]["enum"] == ["read-only", "none"]
 
-
 def test_current_emitted_envelope_schema_still_parses() -> None:
     schema = _load_json("schemas/registry/emulation-bundle-envelope.v1.json")
     assert schema["properties"]["format"]["const"] == "grace-mar-emulation-bundle"
@@ -131,12 +123,10 @@ def test_current_emitted_envelope_schema_still_parses() -> None:
         is False
     )
 
-
 def test_docs_contract_validator_accepts_minimal_valid_instance() -> None:
     _validator("docs/portability/emulation/emulation-bundle-schema.v1.json").validate(
         _valid_docs_contract()
     )
-
 
 @pytest.mark.parametrize(
     ("field", "value"),
@@ -154,12 +144,10 @@ def test_docs_contract_rejects_authority_escalation(field: str, value: str) -> N
     with pytest.raises(jsonschema.ValidationError):
         validator.validate(bad)
 
-
 def test_emitted_envelope_validator_accepts_valid_instance() -> None:
     _validator("schemas/registry/emulation-bundle-envelope.v1.json").validate(
         _valid_emitted_envelope()
     )
-
 
 def test_emitted_envelope_rejects_proposal_return_without_human_review() -> None:
     validator = _validator("schemas/registry/emulation-bundle-envelope.v1.json")
@@ -168,7 +156,6 @@ def test_emitted_envelope_rejects_proposal_return_without_human_review() -> None
     bad["proposalReturn"]["humanReviewRequired"] = False
     with pytest.raises(jsonschema.ValidationError):
         validator.validate(bad)
-
 
 def test_emitted_envelope_rejects_runtime_observation_touching_canonical_surfaces() -> None:
     validator = _validator("schemas/registry/emulation-bundle-envelope.v1.json")

@@ -1,7 +1,6 @@
 # `bigserge` codex-page � template (compat stub)
 <!-- word_count: 44 -->
 
-
 **Canonical scaffold:** [../../../../strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd](../../../strategy-codex-template-page.md#codex-page---codexyearchannelexpert_id-page-yyyy-mm-ddmd).
 
 When copying from the canonical template, substitute **`bigserge`** everywhere that file uses the literal token `{expert_id}` (preambles, filenames, `thread:` lines, appendix grep hints).

@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — CENTCOM Strikes and Singapore Ship
 
 Hi everybody. Today is Friday, June 26, 20126 and our dear friend Anthony Agular is here with us. Welcome back, Anthony.

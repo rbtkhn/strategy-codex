@@ -21,7 +21,6 @@ archive_links:
 
 # Freeman March 2026 cross-host arc
 
-
 Purpose: keep the March 2026 Chas Freeman run visible across host shelves so the war-system activation month is not rediscovered piecemeal.
 
 ## Why March Matters

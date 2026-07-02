@@ -1,7 +1,6 @@
 # Expert thread ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â `ritter`
 <!-- word_count: 12241 -->
 
-
 Compatibility note: this file is legacy continuity residue. It is safe for carryover context, but unsafe as a first-open citation surface when the canonical Ritter stack already routes through the person arc, routing note, bounded month synthesis, authored/interview support spine, helix, and raw-input bench at [statecraft/voices/ritter/README.md](README.md).
 Compatibility note: unresolved watch placeholders that survive below in machine carryover are non-canonical by definition. When a capture is not yet pinned locally, prefer the named page file or raw-input artifact rather than treating a placeholder watch string as a usable citation.
 
@@ -70,7 +69,6 @@ Scaffold missing month files from this legacy `thread.md` (when some monthlies a
 - **2026-03-18** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Article dated March 18, 2026: Ritter quoted on USÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Israel Iran campaign framed as failing militarily and strategically; missile defense and dispersal themes per piece.
   _Source:_ web: `https://greatreporter.com/2026/03/18/were-losing-this-war-ritter-says-u-s-israeli-assault-on-iran-is-failing-militarily-legally-and-strategically/`
 
-
 ### 2026-04
 
 - **2026-04** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Notebook cross-ref (partial month).
@@ -88,7 +86,6 @@ Scaffold missing month files from this legacy `thread.md` (when some monthlies a
 _Partial month ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â coverage from indexed machine lines through **2026-04-20** Judging Freedom ingest (plus **2026-04-19** Substack); April not calendar-complete._
 
 April centers **Hormuz / blockade** mechanics vs digest-scale ORBAT: HaiphongÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“RitterÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Johnson quantitative lane (2026-04-10), RitterÃƒÆ’Ã¢â‚¬â€Davis batch-analysis fold (2026-04-12 ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ days **2026-04-14**), related weaves through uranium dual-register **2026-04-15**, then **2026-04-17** **Glenn Diesen** **Baltic** **/ NATO** **Article** **5** **episode** as **Europe-theater** continuity beside the same monthÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s **Islamabad** **/ Hormuz** **thread** **spine**. **2026-04-19** adds a long-form Substack essay, *[The Consequences of Incompetence](https://scottritter.substack.com/p/the-consequences-of-incompetence)*, that compresses the April arc into one through-line: failed first-round coercion, incompatible U.S. perception management versus Iranian negotiation posture, and a blunt forecast of what a resumed war could mean for Gulf and Israeli critical infrastructure. **2026-04-20** adds **Judging Freedom** (*Trump and Hegseth HavenÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢t a Clue*) ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â boarding narrative, Islamabad psychology, **Caine**/**nuclear** gossip (**Larry Johnson** as reporter per host), **IHL** on late-listed infrastructure ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â **explicitly** **seamed** to [digest Ãƒâ€šÃ‚Â§B](../../transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md (**mass-seizure infeasibility** vs **single-ship** story; **`thread:johnson`** **ORBAT** vs **reporter** **Johnson**) in [`days.md` Ãƒâ€šÃ‚Â§ 2026-04-20](../../../continuity/chapters/2026/2026-04/days.md#2026-04-20. Read Substack + JF as **analyst / commentator tier** alongside X and YT stubsÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Ânot a substitute for maritime primaries or for PapeÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s structural read unless the weave carries explicit tier tags.
-
 
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-04, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
 
@@ -412,7 +409,6 @@ A moral objection (Leo XIV) can be dismissed as non-political. An alliance defec
 ### Appendix
 
 # Page ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â 2026-04-15 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â KremlinÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“IRI uranium off-ramp, dual register, and the legitimacy seam
-
 
 | Field | Value |
 |--------|--------|

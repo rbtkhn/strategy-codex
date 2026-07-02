@@ -1,7 +1,5 @@
 # System Design Lineage Cluster
 
-work only; not Record.
-
 **Canonical home:** [../../../essays/system-design-lineage/README.md](../../../essays/system-design-lineage/README.md)
 
 Compatibility stub — pre-root singularity cluster. Edit repo-root cluster files:

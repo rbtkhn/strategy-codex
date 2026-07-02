@@ -19,14 +19,11 @@ from grace_mar.observability.workflow_events import (  # noqa: E402
     event_from_observability_report_aggregate,
 )
 
-
 def test_median_or_none_empty() -> None:
     assert median_or_none([]) is None
 
-
 def test_median_or_none_values() -> None:
     assert median_or_none([1.0, 2.0, 3.0]) == 2.0
-
 
 def test_aggregate_events_counts_by_workflow_type() -> None:
     ev = [
@@ -57,7 +54,6 @@ def test_aggregate_events_counts_by_workflow_type() -> None:
     assert r["totalsByWorkflowType"]["change_proposal"] == 1
     assert r["totalsByWorkflowType"]["change_proposal_aggregate"] == 1
     assert r["batchId"] == "t1"
-
 
 def test_aggregate_validates_report_schema_when_jsonschema() -> None:
     pytest.importorskip("jsonschema")

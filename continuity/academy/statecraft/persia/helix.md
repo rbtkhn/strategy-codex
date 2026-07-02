@@ -1,7 +1,6 @@
 # Iran Civilization / Empire Helix
 <!-- word_count: 1182 -->
 
-
 Purpose: hold together Iran's dignity-centered civilizational code and its coercive-center leverage so statecraft can convert vulnerability into durable security.
 
 ## Where This Sits

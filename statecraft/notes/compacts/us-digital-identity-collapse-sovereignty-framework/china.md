@@ -1,6 +1,5 @@
 # China - U.S. Digital Identity Collapse / Sovereignty Framework
 
-
 ## Transaction Name
 
 Order-preserving identity recovery without lock-in.

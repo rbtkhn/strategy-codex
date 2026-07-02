@@ -1,6 +1,5 @@
 # Parsi speaker object
 
-
 Purpose: define the object hierarchy for the canonical Parsi shelf.
 
 ## Stack

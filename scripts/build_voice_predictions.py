@@ -39,13 +39,11 @@ from voice_prediction_pilot import (  # noqa: E402
 
 assert LIB_ROOT == REPO_ROOT
 
-
 def appearance_label(citation: dict[str, str], *, date: str | None = None) -> str:
     pub = str(date or citation.get("pub_date") or "")
     channel = str(citation.get("channel") or "")
     host = host_short({"channel": channel, "host": channel}, Path(citation["capture"]))
     return f"{pub} {host}".strip()
-
 
 def format_exact_words_cell(app: dict[str, Any], *, guest_speaker: str = "freeman") -> str:
     quote_speaker = str(app.get("quote_speaker") or guest_speaker)
@@ -72,7 +70,6 @@ def format_exact_words_cell(app: dict[str, Any], *, guest_speaker: str = "freema
         return f'"{quote}"'
     return f'"{quote}"'
 
-
 def format_anchor_block(event: dict[str, Any], *, guest_speaker: str = "freeman") -> list[str]:
     lines: list[str] = []
     anchor_context = str(event.get("anchor_context_note") or "").strip()
@@ -92,7 +89,6 @@ def format_anchor_block(event: dict[str, Any], *, guest_speaker: str = "freeman"
         lines.append(f"**Context:** {anchor_context}")
         lines.append("")
     return lines
-
 
 def build_appearances_for_event(
     rows: list[dict[str, Any]],
@@ -145,12 +141,10 @@ def build_appearances_for_event(
     appearances.sort(key=lambda a: (a["date"], a["capture"]))
     return appearances
 
-
 def load_timeline(path: Path) -> dict[str, Any]:
     if not path.is_file():
         return {"events": {}}
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def format_public_position(
     event_public: dict[str, Any],
@@ -171,7 +165,6 @@ def format_public_position(
         return explicit
     return latest.capitalize() if latest else "—"
 
-
 def format_status(event: dict[str, Any]) -> str:
     status = str(event.get("status") or "open")
     if status == "resolved":
@@ -183,7 +176,6 @@ def format_status(event: dict[str, Any]) -> str:
         return f"Resolved — {outcome}"
     return "Open"
 
-
 def render_citation_line(citation: dict[str, str], *, speaker_display_name: str) -> str:
     title = citation.get("title") or "Source"
     channel = citation.get("channel") or "Source"
@@ -194,7 +186,6 @@ def render_citation_line(citation: dict[str, str], *, speaker_display_name: str)
     else:
         title_part = title
     return f"— {speaker_display_name}, **{channel}**, {title_part}, **{pub_date}**"
-
 
 def build_voice_prediction_payload(
     config: VoiceConfig,
@@ -359,17 +350,14 @@ def build_voice_prediction_payload(
         "events": event_payloads,
     }
 
-
 def render_json(payload: dict[str, Any]) -> str:
     return json.dumps(payload, indent=2, ensure_ascii=False) + "\n"
-
 
 def format_position_line(position: str) -> str:
     text = str(position).strip()
     if text.endswith("."):
         return text
     return f"{text}." if text else "—"
-
 
 SOURCE_TRAIL_HEADER = "| Date | Channel | Episode | Stance | Speech act | Excerpt |"
 SOURCE_TRAIL_SEPARATOR = "| --- | --- | --- | --- | --- | --- |"
@@ -379,14 +367,11 @@ OLD_SOURCE_TRAIL_HEADERS = (
     "| Date | Channel | Episode | Stance | Excerpt |",
 )
 
-
 def md_escape_cell(text: str) -> str:
     return str(text).replace("|", "\\|").replace("\n", " ")
 
-
 def md_escape_table_text(text: str) -> str:
     return md_escape_cell(text)
-
 
 def format_episode_cell(citation: dict[str, str]) -> str:
     title = str(citation.get("title") or "Source").strip()
@@ -395,7 +380,6 @@ def format_episode_cell(citation: dict[str, str]) -> str:
     if youtube_url:
         return f"[{safe_title}]({youtube_url})"
     return safe_title
-
 
 def format_source_trail_row(app: dict[str, Any], *, guest_speaker: str) -> str:
     citation = app.get("citation") or {}
@@ -411,7 +395,6 @@ def format_source_trail_row(app: dict[str, Any], *, guest_speaker: str) -> str:
         f"{md_escape_table_text(speech_act)} | "
         f"{md_escape_table_text(excerpt)} |"
     )
-
 
 def format_shift_lines(shifts: list[dict[str, Any]]) -> list[str]:
     if not shifts:
@@ -430,7 +413,6 @@ def format_shift_lines(shifts: list[dict[str, Any]]) -> list[str]:
         f"**Shift note:** {note}",
         "",
     ]
-
 
 def format_registry_meta_lines(event: dict[str, Any]) -> list[str]:
     lines: list[str] = []
@@ -455,7 +437,6 @@ def format_registry_meta_lines(event: dict[str, Any]) -> list[str]:
     if lines:
         lines.append("")
     return lines
-
 
 def render_public_markdown(payload: dict[str, Any], config: VoiceConfig) -> str:
     summary = payload["summary"]
@@ -554,7 +535,6 @@ def render_public_markdown(payload: dict[str, Any], config: VoiceConfig) -> str:
     )
     return "\n".join(lines)
 
-
 def write_outputs(
     payload: dict[str, Any],
     *,
@@ -572,7 +552,6 @@ def write_outputs(
         md_out.parent.mkdir(parents=True, exist_ok=True)
         md_out.write_text(render_public_markdown(payload, config), encoding="utf-8", newline="\n")
         print(f"[ok] wrote {md_out.relative_to(REPO_ROOT)}")
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -659,7 +638,6 @@ def main() -> int:
         md_only=args.md_only,
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

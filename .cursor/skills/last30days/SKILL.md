@@ -33,7 +33,6 @@ When the operator says `last30days`, route to the `periodic-statecraft-review` r
 
 This file must not contain independent judgment-review doctrine. Put workflow composition in the runbook and current methodology in active skills.
 
-
 ## Cursor / strategy-codex instance
 
 Grace-Mar paths and strategy-notebook routing for `last30days`.

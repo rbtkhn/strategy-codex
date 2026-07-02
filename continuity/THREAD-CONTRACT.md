@@ -1,7 +1,6 @@
 # Thread contract â€” strategy-codex
 <!-- word_count: 377 -->
 
-
 **Purpose:** Shared hub for the thread side of the canonical bundle. Normative detail lives in the files below; do not duplicate long excerpts here.
 
 ## Center of gravity

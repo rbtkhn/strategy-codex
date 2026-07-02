@@ -1,6 +1,5 @@
 # Ritter accuracy profile
 
-
 ## Summary
 
 Ritter makes high-testability military and escalation claims more often than many speakers in the corpus. V1 focuses on the claims that already show explicit revision or obvious closure, plus one wider interpretive correction about Russia's opening move.

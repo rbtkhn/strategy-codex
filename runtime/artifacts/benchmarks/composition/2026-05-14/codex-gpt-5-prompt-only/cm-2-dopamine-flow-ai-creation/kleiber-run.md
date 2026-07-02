@@ -1,6 +1,6 @@
 # Kleiber composition benchmark - CM-2 dopamine flow AI creation
 
-WORK only. Not Record. Not a gate substitute.
+non-authoritative. Not Record. Not a gate substitute.
 
 ## Metadata
 

@@ -13,8 +13,6 @@ post_id: 198911799
 
 # The Innermost Loop - 2026-05-22
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 22, 2026
@@ -29,10 +27,7 @@ The Singularity is now forecasting itself.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now forecasting itself. On ForecastBench, an LLM has matched superforecaster performance for the first time , with Google DeepMind’s “green tree” claiming the top spot on the Forecasting Research Institute’s benchmark. Recursive self-improvement is no longer theoretical. Alibaba’s Qwen3.7-Max ran 35 hours of continuous autonomous execution, performing 432 kernel evaluations across 1,158 tool calls and delivering a 10x geometric mean speedup over the Triton reference. Even the benchmarks are getting audacious. A new OpenSCAD LLM benchmark asks frontier models to reconstruct the Pantheon from photos, with Gemini 3.5 Flash High autonomously winning the architecture contest two millennia after Hadrian.
+- The Singularity is now forecasting itself. On ForecastBench, an LLM has matched superforecaster performance for the first time , with Google DeepMind’s “green tree” claiming the top spot on the Forecasting Research Institute’s benchmark. Recursive self-improvement is no longer theoretical. Alibaba’s Qwen3.7-Max ran 35 hours of continuous autonomous execution, performing 432 kernel evaluations across 1,158 tool calls and delivering a 10x geometric mean speedup over the Triton reference. Even the benchmarks are getting audacious. A new OpenSCAD LLM benchmark asks frontier models to reconstruct the Pantheon from photos, with Gemini 3.5 Flash High autonomously winning the architecture contest two millennia after Hadrian.
 
 The unknown is now an engineering problem. Following OpenAI’s disproof of Erdős’s unit distance conjecture, a GPT-5.5 counterexample is being proposed as “the flag of artificial intelligence.” Chemistry has joined the party. Kemira and CuspAI used generative AI to design materials that remove PFAS “forever chemicals” from water, exploring a 300-trillion-structure design space to deliver over 5,000 novel candidates. The skeptics will be predictable. As one observer noted , “One day AI will cure a disease. And many people will look you dead in the eye and say ‘the cure was already in the corpus of human knowledge.’”
 

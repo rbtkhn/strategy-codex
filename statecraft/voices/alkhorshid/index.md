@@ -1,6 +1,5 @@
 # Alkhorshid voice shelf (`alkhorshid`)
 
-
 Purpose: front door for the canonical Nima Alkhorshid **voice** shelf in repo-root `statecraft/voices/alkhorshid/`.
 
 ## Open first

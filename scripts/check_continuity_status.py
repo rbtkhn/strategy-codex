@@ -19,13 +19,10 @@ RE_LAST_ENTRY_DATE = re.compile(
 RE_DAYS_LINK = re.compile(r"\[`[^`]+`\]\(([^)]*days\.md[^)]*)\)")
 RE_CHAPTER_MONTH = re.compile(r"chapters/(\d{4}-\d{2})")
 
-
 from continuity_paths import continuity_root as _continuity_root
-
 
 def continuity_root(repo_root: Path) -> Path:
     return _continuity_root(repo_root)
-
 
 @dataclass
 class StatusReport:
@@ -42,13 +39,11 @@ class StatusReport:
     warnings: list[str] = field(default_factory=list)
     errors: list[str] = field(default_factory=list)
 
-
 def _resolve_link(root: Path, link: str) -> Path:
     link = link.split("#", 1)[0]
     if link.startswith("../"):
         return (root.parent / link.removeprefix("../")).resolve()
     return (root / link).resolve()
-
 
 def _find_chapter_months(root: Path) -> list[str]:
     chapters = root / "chapters"
@@ -61,7 +56,6 @@ def _find_chapter_months(root: Path) -> list[str]:
         if m:
             months.append(m.group(1))
     return sorted(set(months))
-
 
 def check_status(repo_root: Path) -> StatusReport:
     root = continuity_root(repo_root)
@@ -130,7 +124,6 @@ def check_status(repo_root: Path) -> StatusReport:
 
     return report
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--json", action="store_true")
@@ -154,7 +147,6 @@ def main() -> int:
     if args.strict:
         issues.extend(report.warnings)
     return 1 if issues else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

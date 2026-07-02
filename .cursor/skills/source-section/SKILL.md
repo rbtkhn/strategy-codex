@@ -265,7 +265,6 @@ If verification cannot be completed:
 - state what was not verified
 - leave capture unsectioned rather than shipping a broken map
 
-
 ## Cursor / strategy-codex instance
 
 # Cursor appendix — `source-section`

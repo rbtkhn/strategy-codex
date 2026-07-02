@@ -25,7 +25,6 @@ from dream_civmem_echoes import (
 )
 from dream_execution_paths import build_execution_paths
 
-
 def test_parse_coffee_cadence_lines_filters_user_and_window() -> None:
     md = """
 _(Append below this line.)_
@@ -43,7 +42,6 @@ _(Append below this line.)_
     assert runs[1]["mode"] == "closeout"
     assert runs[1]["ok"] is False
 
-
 def test_rollup_coffee_24h_counts_modes(tmp_path: Path) -> None:
     md = """- **2026-04-02 14:00 UTC** — coffee (grace-mar) ok=true mode=work-start
 - **2026-04-02 15:00 UTC** — coffee (grace-mar) ok=true mode=light
@@ -58,13 +56,11 @@ def test_rollup_coffee_24h_counts_modes(tmp_path: Path) -> None:
     assert r["first_ts"] is not None
     assert r["span_hours"] is not None
 
-
 def test_rollup_missing_file_note() -> None:
     p = Path(__file__).resolve().parent / "nonexistent_cadence_xyz.md"
     r = rollup_coffee_24h(user_id="grace-mar", events_path=p)
     assert r["count"] == 0
     assert r["note"] == "no cadence file"
-
 
 def test_rollup_conductor_24h_pairs_outcomes_with_active_master(tmp_path: Path) -> None:
     md = """- **2026-04-02 14:00 UTC** â€” coffee_pick (grace-mar) ok=true picked=conductor conductor=furtwangler
@@ -89,7 +85,6 @@ def test_rollup_conductor_24h_pairs_outcomes_with_active_master(tmp_path: Path) 
     assert "open_arcs" not in r
     assert "recent_closed" not in r
 
-
 def test_rollup_conductor_window_keeps_open_arcs_and_notebook_counts(tmp_path: Path) -> None:
     md = """- **2026-04-02 14:00 UTC** â€” coffee_pick (grace-mar) ok=true picked=conductor conductor=kleiber
 - **2026-04-02 14:05 UTC** â€” coffee_conductor_outcome (grace-mar) ok=true conductor=kleiber verdict=watch notebook_ref=docs/x.md falsify=stay-narrow
@@ -107,7 +102,6 @@ def test_rollup_conductor_window_keeps_open_arcs_and_notebook_counts(tmp_path: P
         {"conductor": "karajan", "ts_iso": "2026-04-02T15:00:00+00:00", "menu_label": "conductor"}
     ]
 
-
 def test_malformed_line_skipped() -> None:
     md = """- **2026-04-02 10:00 UTC** — coffee (grace-mar) ok=true mode=work-start
 not a valid line
@@ -117,7 +111,6 @@ not a valid line
     we = datetime(2026, 4, 2, 15, 0, tzinfo=timezone.utc)
     runs = parse_coffee_cadence_lines(md, user_id="grace-mar", window_start=ws, window_end=we)
     assert len(runs) == 1
-
 
 def test_rollup_work_pass_24h_prefers_coffee_close(tmp_path: Path) -> None:
     md = """- **2026-04-02 14:00 UTC** — coffee_pick (strategy-codex) ok=true picked=D
@@ -132,7 +125,6 @@ def test_rollup_work_pass_24h_prefers_coffee_close(tmp_path: Path) -> None:
     assert r["substantive_count"] == 1
     assert r["last_object_ref"] == "statecraft/synthesis/day/2026-06-17.md"
     assert r["last_attention"] == "one object only"
-
 
 def test_rollup_conductor_24h_exposes_handoff_fields_only(tmp_path: Path) -> None:
     md = """- **2026-04-02 14:00 UTC** — coffee_pick (strategy-codex) ok=true picked=D
@@ -157,13 +149,11 @@ def test_rollup_conductor_24h_exposes_handoff_fields_only(tmp_path: Path) -> Non
         "window_start_utc",
     ]
 
-
 def test_excerpt_self_memory_short_term() -> None:
     text = "## Short-term\n\nhello world\nmore\n\n## Medium-term\n\nx"
     ex = excerpt_self_memory_short_term(text, max_chars=100)
     assert "hello" in ex
     assert "Medium-term" not in ex
-
 
 def test_build_civmem_query_from_digest_skips_reinforcement() -> None:
     d = {
@@ -176,7 +166,6 @@ def test_build_civmem_query_from_digest_skips_reinforcement() -> None:
     assert "Beta" in q
     assert "Alpha" not in q
 
-
 def test_compute_civmem_echoes_index_missing(monkeypatch: pytest.MonkeyPatch) -> None:
     import dream_civmem_echoes as dce
 
@@ -187,7 +176,6 @@ def test_compute_civmem_echoes_index_missing(monkeypatch: pytest.MonkeyPatch) ->
     )
     assert missing is True
     assert echoes == []
-
 
 def test_build_execution_paths_heavy_reentry_prefers_reframe() -> None:
     now = datetime(2026, 1, 1, 22, 0, tzinfo=timezone.utc)
@@ -204,7 +192,6 @@ def test_build_execution_paths_heavy_reentry_prefers_reframe() -> None:
     assert idx == 3
     assert reason == "reentry_heavy"
 
-
 def test_build_execution_paths_integrity_fail() -> None:
     paths, idx, reason = build_execution_paths(
         user_id="grace-mar",
@@ -217,7 +204,6 @@ def test_build_execution_paths_integrity_fail() -> None:
     )
     assert idx == 1
     assert reason == "integrity_or_governance_pressure"
-
 
 def test_build_execution_paths_gate_backlog_forces_reframe() -> None:
     paths, idx, reason = build_execution_paths(
@@ -234,7 +220,6 @@ def test_build_execution_paths_gate_backlog_forces_reframe() -> None:
     assert paths[3]["id"] == "reframe"
     assert idx == 3
     assert reason == "gate_backlog"
-
 
 def test_parse_coffee_pick_in_rollup(tmp_path: Path) -> None:
     md = """- **2026-04-02 14:00 UTC** — coffee (grace-mar) ok=true mode=work-start
@@ -253,7 +238,6 @@ def test_parse_coffee_pick_in_rollup(tmp_path: Path) -> None:
     assert r["picks"][-1].get("picked") == "conductor"
     assert r["picks"][-1].get("conductor") == "kleiber"
 
-
 def test_last_coffee_echo_sees_new_style_conductor_pick(tmp_path: Path) -> None:
     md = """- **2026-04-02 14:00 UTC** — coffee (grace-mar) ok=true mode=work-start
 - **2026-04-02 14:05 UTC** — coffee_pick (grace-mar) ok=true picked=conductor conductor=bernstein
@@ -269,10 +253,8 @@ def test_last_coffee_echo_sees_new_style_conductor_pick(tmp_path: Path) -> None:
     assert echo["conductor"] == "bernstein"
     assert "Conductor line: bernstein." in echo["highlight"]
 
-
 def test_build_last_coffee_echo_none_without_runs() -> None:
     assert build_last_coffee_echo({"count": 0, "runs": [], "picks": []}) is None
-
 
 def test_build_last_coffee_echo_cap_and_source() -> None:
     rollup = {
@@ -301,7 +283,6 @@ def test_build_last_coffee_echo_cap_and_source() -> None:
     assert e["mode"] == "work-start"
     assert len(e["highlight"]) <= 160
 
-
 def test_compute_civmem_echoes_default_limit_one(monkeypatch: pytest.MonkeyPatch) -> None:
     """Default limit=1 returns at most one echo (plan matrix E)."""
     import build_civmem_inrepo_index as bcii
@@ -323,7 +304,6 @@ def test_compute_civmem_echoes_default_limit_one(monkeypatch: pytest.MonkeyPatch
     assert missing is False
     assert len(echoes) == 1
     assert echoes[0]["path"] == "a.md"
-
 
 def test_compute_civmem_echoes_filters_min_overlap(monkeypatch: pytest.MonkeyPatch) -> None:
     import build_civmem_inrepo_index as bcii
@@ -348,10 +328,8 @@ def test_compute_civmem_echoes_filters_min_overlap(monkeypatch: pytest.MonkeyPat
     assert echoes[0]["path"] == "y.md"
     assert echoes[0]["analogy_label"] == ANALOGY_CANDIDATE_LABEL
 
-
 def test_civmem_disclaimer_nonempty() -> None:
     assert "Record" in CIVMEM_DISCLAIMER
-
 
 def test_rollup_object_closes_24h_echoes_last_anchor(tmp_path: Path) -> None:
     md = """- **2026-04-02 14:00 UTC** — coffee_close (strategy-codex) ok=true picked=D outcome=partial readiness=execution_ready object_ref=statecraft/synthesis/day/2026-06-17.md falsify=pseudo-gate-J16 verdict=shaped

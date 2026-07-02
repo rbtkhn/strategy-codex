@@ -1,7 +1,5 @@
 # Foundation Capital as Legitimacy Infrastructure
 
-WORK only; not Record.
-
 **Anchor item:** [Moonshots EP #260 - Opus, Foundation, and AGI Timelines](../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md)
 
 This note preserves one bounded seam from Moonshots EP #260: the singularity-relevant question is not only how powerful advanced systems become, but how large pools of AI-aligned capital begin to present themselves as social-stability infrastructure for the transition those systems create.

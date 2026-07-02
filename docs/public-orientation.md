@@ -6,7 +6,6 @@ record_status: frozen
 
 # Public orientation — strategy-codex
 
-
 Short guide for journalists, bloggers, and other visitors who need a **public-safe** read of this repository — without operator session material or Grace-Mar Record merge authority.
 
 ## What this repo is
@@ -44,7 +43,7 @@ Canonical public corpus: [rbtkhn/predictive-history](https://github.com/rbtkhn/p
 
 - [essays/README.md](../essays/README.md) — cross-channel theses
 - [product-identity.md](product-identity.md) · [harness-architecture-map.md](harness-architecture-map.md)
-- Architecture and membrane docs marked **work only; not Record**
+- Architecture and membrane docs marked **non-authoritative; not Record**
 - Public Predictive History mirror under `public/predictive-history/` (read-only snapshot)
 
 ## Do not infer

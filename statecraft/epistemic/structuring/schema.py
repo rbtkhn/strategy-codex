@@ -14,7 +14,6 @@ STRUCTURED_SCHEMA_KEYS = frozenset(
     }
 )
 
-
 def validate_structured(obj: dict) -> None:
     keys = set(obj)
     missing = STRUCTURED_SCHEMA_KEYS - keys

@@ -1,6 +1,5 @@
 # America Bounded-Command Vs Burden-Sharing Bridge
 
-
 Purpose: regulate the transition inside the America lane when the real uncertainty is still whether the object should be read command-first or settlement-first.
 
 This bridge sits after transcript-grounded intake, not before it.

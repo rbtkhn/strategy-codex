@@ -1,6 +1,5 @@
 # Iran Art
 
-
 ## Purpose
 
 Use Iranian / Persian art as a statecraft lens for architecture, garden, sculpture, relief, miniature, calligraphy, music, sacred geometry, shrine, city, imperial form, Shia visual memory, plateau beauty, and recognition through endurance.

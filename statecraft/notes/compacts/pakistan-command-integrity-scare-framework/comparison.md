@@ -1,6 +1,5 @@
 # Pakistan Framework - Four-Lane Comparison
 
-
 | lane | wants | fears | workable formula |
 | --- | --- | --- | --- |
 | America | nuclear reassurance | sovereignty humiliation and panic | confidential command channel |

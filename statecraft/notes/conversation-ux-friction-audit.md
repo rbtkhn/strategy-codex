@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 ## Conversation UX Friction Audit
 
-
 **Statecraft Registry**
 - Lane: shared
 - Output class: memo

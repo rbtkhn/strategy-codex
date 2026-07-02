@@ -16,7 +16,6 @@ if str(_SCRIPTS) not in sys.path:
 from singularity_loop_invariants import run_singularity_loop_invariants  # noqa: E402
 from validate_all_schemas import load_registry, validate_entry  # noqa: E402
 
-
 def run_check(*, registry_path: Path | None = None) -> int:
     path = registry_path or DEFAULT_REGISTRY
     if not path.is_file():
@@ -48,10 +47,8 @@ def run_check(*, registry_path: Path | None = None) -> int:
     print("[ok] loop registry valid")
     return 0
 
-
 def main() -> int:
     return run_check()
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

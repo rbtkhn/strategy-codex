@@ -1,6 +1,5 @@
 # Operator Playbooks
 
-
 This page is a discovery layer for a few high-value `work-business` workflows.
 
 It does not replace canonical method. Each playbook points back to the real owning surface.

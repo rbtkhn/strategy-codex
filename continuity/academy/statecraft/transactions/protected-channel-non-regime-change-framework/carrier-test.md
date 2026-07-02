@@ -1,7 +1,6 @@
 # Protected Channel / Non-Regime-Change Framework - America Carrier Test
 <!-- word_count: 581 -->
 
-
 Purpose: test whether the protected-channel / non-regime-change framework has a durable America-side authority carrier rather than only a plausible clause set.
 
 ## Carrier judgment

@@ -8,7 +8,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS = REPO_ROOT / "scripts"
 
-
 def _load_validate_integrity():
     path = SCRIPTS / "validate-integrity.py"
     spec = importlib.util.spec_from_file_location("validate_integrity_mod", path)
@@ -16,7 +15,6 @@ def _load_validate_integrity():
     assert spec and spec.loader
     spec.loader.exec_module(mod)
     return mod
-
 
 def test_validate_integrity_exits_zero():
     """validate-integrity.py exits 0 when record is valid."""
@@ -34,7 +32,6 @@ def test_validate_integrity_exits_zero():
     )
     assert result.returncode == 0, f"validate-integrity failed: {result.stderr or result.stdout}"
 
-
 def test_governance_checker_exits_zero():
     """governance_checker.py exits 0 when no violations."""
     result = subprocess.run(
@@ -45,7 +42,6 @@ def test_governance_checker_exits_zero():
     )
     assert result.returncode == 0, f"governance_checker failed: {result.stderr or result.stdout}"
 
-
 def test_validate_template_sync_contract_exits_zero():
     """validate_template_sync_contract.py exits 0 when contract and provenance align."""
     result = subprocess.run(
@@ -55,7 +51,6 @@ def test_validate_template_sync_contract_exits_zero():
         text=True,
     )
     assert result.returncode == 0, f"validate_template_sync_contract failed: {result.stderr or result.stdout}"
-
 
 def test_validate_integrity_json_mode():
     """validate-integrity --json emits valid JSON with ok and errors."""
@@ -80,7 +75,6 @@ def test_validate_integrity_json_mode():
     assert "identity_library_boundary" in data
     assert "ix_a_ok" in data["identity_library_boundary"]
     assert "identity_capability_ok" in data["identity_library_boundary"]
-
 
 def test_validate_template_sync_contract_warns_on_target_applied_drift(tmp_path):
     contract_path = tmp_path / "instance-contract.json"
@@ -146,7 +140,6 @@ def test_validate_template_sync_contract_warns_on_target_applied_drift(tmp_path)
     assert errors == []
     assert any("target/applied templateVersion differ" in warning for warning in warnings)
     assert any("target/applied companion-self commit differ" in warning for warning in warnings)
-
 
 def test_validate_identity_capability_boundary_catches_obvious_bleed(tmp_path):
     user_dir = tmp_path / "demo"

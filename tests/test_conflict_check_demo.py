@@ -8,15 +8,12 @@ import pytest
 
 from bot.conflict_check import check_conflicts, format_conflicts_for_yaml
 
-
 def test_personality_non_personality_skipped():
     yaml = "mind_category: knowledge\nsummary: likes dinosaurs\nsuggested_entry: T-Rex"
     assert check_conflicts(yaml) == []
 
-
 def test_format_empty():
     assert format_conflicts_for_yaml([]) == ""
-
 
 def test_dependent_vs_independent_when_profile_has_independent(tmp_path, monkeypatch):
     """Conflict detection triggers when existing profile has trait opposite to candidate."""

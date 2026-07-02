@@ -1,6 +1,5 @@
 # Orientation-Card Logic
 
-
 ## Problem It Solves
 
 Dense statecraft surfaces often need a fast entry interface before the operator is ready for a full memo, transaction, or comparative pass.

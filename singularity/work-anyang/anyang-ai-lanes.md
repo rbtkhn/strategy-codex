@@ -1,7 +1,5 @@
 # anyang-ai work lanes
 
-WORK only; not Record.
-
 These lanes split the `anyang-ai` operator surface. They are coordination surfaces in strategy-codex — not member Record and not Cici governed state.
 
 **Two orthogonal splits:**

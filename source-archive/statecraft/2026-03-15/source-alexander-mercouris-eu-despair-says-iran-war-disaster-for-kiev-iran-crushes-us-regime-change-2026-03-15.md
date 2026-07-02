@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # EU Despair Says Iran War Disaster For Kiev; Iran Crushes US Regime Change Plan; Moscow No More Talks
 
-

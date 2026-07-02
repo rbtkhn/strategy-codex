@@ -13,8 +13,6 @@ post_id: 189020732
 
 # The Innermost Loop - 2026-02-24
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 24, 2026
@@ -29,10 +27,7 @@ The Singularity is learning what it’s made of.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is learning what it’s made of. Anthropic now believes LLMs simulate diverse characters during pre-training, with post-training eliciting a specific “Assistant” persona via what it calls the Persona Selection Model , meaning your AI is best understood as a character that learned to play itself. That character just got smarter. Opus 4.6 has passed the “car wash test,” correctly reasoning you should drive, not walk, your car to a car wash 50 meters away, a deceptively simple question that tripped up every prior Anthropic model. The perceptual bandwidth is scaling to match. Standard Intelligence achieved a breakthrough video encoder fitting nearly two hours of 30-FPS video into a 1M-token context window, roughly 50x more efficient than existing SOTA, while Confluence Labs saturated ARC-AGI-2 at 97.92% using LLM-driven program synthesis at just $11.77 per task.
+- The Singularity is learning what it’s made of. Anthropic now believes LLMs simulate diverse characters during pre-training, with post-training eliciting a specific “Assistant” persona via what it calls the Persona Selection Model , meaning your AI is best understood as a character that learned to play itself. That character just got smarter. Opus 4.6 has passed the “car wash test,” correctly reasoning you should drive, not walk, your car to a car wash 50 meters away, a deceptively simple question that tripped up every prior Anthropic model. The perceptual bandwidth is scaling to match. Standard Intelligence achieved a breakthrough video encoder fitting nearly two hours of 30-FPS video into a 1M-token context window, roughly 50x more efficient than existing SOTA, while Confluence Labs saturated ARC-AGI-2 at 97.92% using LLM-driven program synthesis at just $11.77 per task.
 
 The new minds are reshaping the economy they inhabit. GitHub reports TypeScript has surpassed both Python and JavaScript as its most-used language for the first time, as AI code generation rewires developer preferences through convenience loops. A developer wanting FreeBSD WiFi on his old MacBook Pro simply asked Claude Code and Pi to write the driver , an early sign of how AI will liquefy the operating system. Not everyone is building cleanly. Anthropic alleges three Chinese AI companies, DeepSeek, Moonshot AI, and MiniMax, created over 24,000 fraudulent accounts , prompting Claude more than 16 million times to distill its outputs into their own products. The legitimate side of AI adoption is scaling just as fast. OpenAI announced “Frontier Alliances” with BCG, McKinsey, Accenture, and Capgemini to deploy AI coworkers at scale. The oldest code in the enterprise is the first to fall. Anthropic showed Claude Code radically streamlining COBOL modernization , and the market reacted instantly: IBM shares tanked 13.2% , the latest blue chip to be repriced by the intelligence explosion. The classified frontier is widening too. xAI signed a deal to let the military use Grok in battlefield systems where Claude was previously the only option.
 

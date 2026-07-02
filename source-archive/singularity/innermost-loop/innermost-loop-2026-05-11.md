@@ -13,8 +13,6 @@ post_id: 197235170
 
 # The Innermost Loop - 2026-05-11
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 11, 2026
@@ -29,10 +27,7 @@ The Singularity is deprecating its own knobs.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is deprecating its own knobs. OpenAI is winding down its fine-tuning API , giving customers until January 2027 to spin up new training jobs. The logic, as one observer notes , may be that as the largest models keep getting better at more things, adjusting their weights matters less. Sam Altman put it bluntly with a tongue-in-cheek AGI re-coinage, joking that GPT-5.5 is a “genius,” not just a “generalist.” To track this profusion of ever-larger minds, Cisco released its open-source Model Provenance Kit , examining metadata and weights like a model genome to spot shared origins and tampering. Meanwhile, the harness is eating the model. Hermes Agent is now #1 on the global OpenRouter token rankings , passing OpenClaw by generating its own skills, while OpenClaw users hand-write theirs and lean on Opus for prompt-injection safety.
+- The Singularity is deprecating its own knobs. OpenAI is winding down its fine-tuning API , giving customers until January 2027 to spin up new training jobs. The logic, as one observer notes , may be that as the largest models keep getting better at more things, adjusting their weights matters less. Sam Altman put it bluntly with a tongue-in-cheek AGI re-coinage, joking that GPT-5.5 is a “genius,” not just a “generalist.” To track this profusion of ever-larger minds, Cisco released its open-source Model Provenance Kit , examining metadata and weights like a model genome to spot shared origins and tampering. Meanwhile, the harness is eating the model. Hermes Agent is now #1 on the global OpenRouter token rankings , passing OpenClaw by generating its own skills, while OpenClaw users hand-write theirs and lean on Opus for prompt-injection safety.
 
 The Erdős backlog is going industrial. Standalone AI solutions to open Erdős problems are skyrocketing . The agents have learned to leave their desks. An OpenAI “Codex mobile” experience has been spotted , letting users keep working with Codex whenever their computer is awake. Codex is also learning to hustle. Told to “go off and make me $5,” it allegedly found an open-source security bounty, filed a legit PR, worked 22 hours across audits, and netted $16.88.
 

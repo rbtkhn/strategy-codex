@@ -60,7 +60,6 @@ If verification cannot be completed:
 - stop before archive land, synthesis, publication, or promotion
 - return a bounded partial result for operator review
 
-
 ## Cursor / strategy-codex instance
 
 _(appendix missing: .cursor/skills/transcript-cleanup/CURSOR_APPENDIX.md)_

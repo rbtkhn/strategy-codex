@@ -26,7 +26,6 @@ REQUIRED_EVENT_FIELDS = (
     "risk_of_overcollapse",
 )
 
-
 def validate_scores(payload: dict) -> list[str]:
     issues: list[str] = []
     if "_meta" not in payload:
@@ -43,7 +42,6 @@ def validate_scores(payload: dict) -> list[str]:
             if field not in block:
                 issues.append(f"events.{event_id}: missing `{field}`")
     return issues
-
 
 def run_check(*, path: Path | None = None, warn_high_entropy: bool = True, advisory: bool = False) -> int:
     target = path or DEFAULT_PATH
@@ -88,7 +86,6 @@ def run_check(*, path: Path | None = None, warn_high_entropy: bool = True, advis
     print("[ok] prediction semantic scores valid (advisory)")
     return 0
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--path", type=Path, default=DEFAULT_PATH)
@@ -100,7 +97,6 @@ def main() -> int:
     )
     args = ap.parse_args()
     return run_check(path=args.path, advisory=args.advisory)
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

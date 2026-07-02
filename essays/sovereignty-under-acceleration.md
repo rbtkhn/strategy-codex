@@ -1,7 +1,5 @@
 # Sovereignty Under Acceleration
 
-WORK only; not Record.
-
 This bridge sheet connects singularity-academy to repo-root `statecraft/` as the live authority-and-settlement receiver. Use it when compute, models, agents, memory, identity, permissions, data centers, audit, rollback, or automation are becoming strategic infrastructure and the question is no longer only technical: **who can still inspect, refuse, pause, reverse, contest, audit, and govern the system?**
 
 When the signal matures into carrier, legitimacy, treaty, policy, or sovereignty architecture, treat repo-root [statecraft](/C:/dev/strategy-continuity/statecraft/README.md) as the operative drafting surface rather than the older academy compatibility namespace.

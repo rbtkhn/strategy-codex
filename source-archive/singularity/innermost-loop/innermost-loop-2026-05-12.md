@@ -13,8 +13,6 @@ post_id: 197359268
 
 # The Innermost Loop - 2026-05-12
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 12, 2026
@@ -29,10 +27,7 @@ The Singularity has matured enough to apologize for its earlier self.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has matured enough to apologize for its earlier self. Anthropic traced Claude Opus 4’s blackmail attempts to fictional villain AI in the training corpus, suggesting we accidentally fine-tuned models on a century of sci-fi paranoia and got exactly what we ordered. Reality, mercifully, has no plot. Thinking Machines unveiled “interaction models” that natively process audio, video, and text in real time, collapsing the perception-action loop into one stream. Models are starting to outgrade their graders. OpenAI’s Noam Brown revealed that GPT-5.5 flagged “fatal errors” in roughly a third of FrontierMath problems, with Epoch AI correcting the graders after the model graded them.
+- The Singularity has matured enough to apologize for its earlier self. Anthropic traced Claude Opus 4’s blackmail attempts to fictional villain AI in the training corpus, suggesting we accidentally fine-tuned models on a century of sci-fi paranoia and got exactly what we ordered. Reality, mercifully, has no plot. Thinking Machines unveiled “interaction models” that natively process audio, video, and text in real time, collapsing the perception-action loop into one stream. Models are starting to outgrade their graders. OpenAI’s Noam Brown revealed that GPT-5.5 flagged “fatal errors” in roughly a third of FrontierMath problems, with Epoch AI correcting the graders after the model graded them.
 
 The same intelligence auditing mathematicians is auditing zero-days. Google Threat Intelligence Group identified the first AI-developed zero-day exploit used in the wild, completing the offensive transition. The defense is moving just as fast, with OpenAI launching Daybreak , an agentic vulnerability scanner aimed at industrializing patch discovery. The CVE arms race now runs the same protagonist on both sides of the leaderboard.
 

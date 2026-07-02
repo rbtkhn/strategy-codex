@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia Blamed for Iran Missile Strikes; Drones Smash Bases. Ships Burn in Hormuz. French Forces Hit
 
-

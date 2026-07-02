@@ -14,7 +14,6 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from work_dev.generate_scenarios import build_matrix  # noqa: E402
 
-
 def test_build_matrix_cartesian_dimensions(tmp_path: Path) -> None:
     base = tmp_path / "baseline_scenarios"
     base.mkdir(parents=True)
@@ -48,7 +47,6 @@ def test_build_matrix_cartesian_dimensions(tmp_path: Path) -> None:
         r.runtime == "cursor" and r.variation == "receipt_state=valid__topology=remote"
         for r in rows
     )
-
 
 def test_build_matrix_explicit_variations_override_cartesian(tmp_path: Path) -> None:
     base = tmp_path / "baseline_scenarios"
@@ -85,7 +83,6 @@ def test_build_matrix_explicit_variations_override_cartesian(tmp_path: Path) -> 
     assert any(r.severity == "high" for r in rows)
     assert all("shadow_log" in r.required_checks for r in rows)
 
-
 def test_generate_scenarios_cli_json_stable_v2() -> None:
     p1 = subprocess.run(
         [sys.executable, str(REPO_ROOT / "scripts" / "work_dev" / "generate_scenarios.py")],
@@ -105,7 +102,6 @@ def test_generate_scenarios_cli_json_stable_v2() -> None:
     data = json.loads(p1.stdout)
     assert data["version"] == 2
     assert len(data["rows"]) >= 1 * 3  # at least one scenario × default runtimes
-
 
 def test_generate_scenarios_cli_writes_utf8_output(tmp_path: Path) -> None:
     out = tmp_path / "matrix.md"

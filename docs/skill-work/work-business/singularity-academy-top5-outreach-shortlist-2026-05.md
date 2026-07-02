@@ -1,6 +1,6 @@
 # Singularity-Academy Top 5 Outreach Shortlist - 2026-05
 
-WORK only. This is a near-term outreach shortlist, not qualification proof.
+non-authoritative. This is a near-term outreach shortlist, not qualification proof.
 
 ## Purpose
 

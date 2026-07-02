@@ -1,6 +1,5 @@
 # Macgregor shelf hygiene audit - 2026-05
 
-
 Purpose: demonstrate `speaker-shelf-hygiene` on the migrated Macgregor shelf, validate the new route stack, classify month maturity, test source boundaries, and keep the monthly segmentation honest.
 
 ## Route-stack diagnosis

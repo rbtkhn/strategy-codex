@@ -44,7 +44,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 >> >> Hey everyone, Judge Andrew Npalitano here for Judging Freedom.

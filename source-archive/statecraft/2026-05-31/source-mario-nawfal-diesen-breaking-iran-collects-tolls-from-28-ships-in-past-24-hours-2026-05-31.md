@@ -31,7 +31,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Hormuz Toll Corridor — Quiet Kinetic Front and $50M-Day Revenue
 
 Well, the reality that we're dealing with now is um [sighs] there's a few things happening.

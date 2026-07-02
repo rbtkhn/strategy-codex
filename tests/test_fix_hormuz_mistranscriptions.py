@@ -11,7 +11,6 @@ if str(SCRIPTS) not in sys.path:
 
 import fix_hormuz_mistranscriptions as fix  # noqa: E402
 
-
 def test_apply_replacements_fixes_first_wave_family() -> None:
     text = (
         "They discussed the straight of hormones.\n"
@@ -42,7 +41,6 @@ def test_apply_replacements_fixes_first_wave_family() -> None:
     assert counts["street_of_ormuz"] == 1
     assert counts["straight_of_hormos"] + counts["split_straight_of_hormos"] == 1
     assert counts["straits_of_homus"] == 1
-
 
 def test_fix_paths_only_touches_high_confidence_files(tmp_path: Path) -> None:
     transcript = tmp_path / "source-archive" / "statecraft" / "2026-02-17" / "transcript-example.md"
@@ -79,7 +77,6 @@ def test_fix_paths_only_touches_high_confidence_files(tmp_path: Path) -> None:
 
     assert result["changed_files"] == 1
     assert transcript.read_text(encoding="utf-8") == "the Strait of Hormuz stayed closed\n"
-
 
 def test_apply_replacements_fixes_second_wave_family() -> None:
     text = (
@@ -119,7 +116,6 @@ def test_apply_replacements_fixes_second_wave_family() -> None:
     assert counts["state_of_formos"] == 1
     assert counts["straight_of_barmuz"] == 1
     assert counts["straits_of_armoose"] == 1
-
 
 def test_apply_replacements_fixes_hermuz_and_hormuse_family() -> None:
     text = (

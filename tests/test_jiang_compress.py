@@ -7,7 +7,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _load_jiang_compress():
     path = REPO_ROOT / "scripts" / "jiang-compress.py"
     spec = importlib.util.spec_from_file_location("jiang_compress_mod", path)
@@ -16,7 +15,6 @@ def _load_jiang_compress():
     sys.modules["jiang_compress_mod"] = mod
     spec.loader.exec_module(mod)
     return mod
-
 
 REQUIRED_KEYS = frozenset(
     {
@@ -37,12 +35,10 @@ REQUIRED_KEYS = frozenset(
     }
 )
 
-
 def test_slugify_title():
     mod = _load_jiang_compress()
     assert mod.slugify_title("Q3 Planning Sync!") == "q3-planning-sync"
     assert mod.slugify_title("!!!") == "compression"
-
 
 def test_write_compression_json_writes_expected_keys(tmp_path):
     mod = _load_jiang_compress()
@@ -75,7 +71,6 @@ def test_write_compression_json_writes_expected_keys(tmp_path):
     assert data["executableNextActions"] == ["Run validators"]
     assert data["linkedEvidence"] == ["continuity/predictive-history/STATUS.md"]
     assert not (repo / "platform/users" / "u1" / "self.md").exists()
-
 
 def test_build_gate_stub_contains_compression_path():
     mod = _load_jiang_compress()

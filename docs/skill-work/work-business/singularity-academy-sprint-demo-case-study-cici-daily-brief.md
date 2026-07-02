@@ -1,6 +1,6 @@
 # AI Operating System Sprint - Demo Case Study
 
-WORK only. Internal demo case study, not external client validation.
+non-authoritative. Internal demo case study, not external client validation.
 
 ## Client type
 

@@ -13,8 +13,6 @@ post_id: 198700912
 
 # The Innermost Loop - 2026-05-21
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 21, 2026
@@ -29,10 +27,7 @@ The Singularity has just cut out the middleman in Erdős’s quip that mathemati
 
 ## Newsletter Text
 
--
--
-
-The Singularity has just cut out the middleman in Erdős’s quip that mathematicians are “machines for turning coffee into theorems.” An internal OpenAI model has disproved Erdős’s longstanding planar unit distance conjecture in discrete geometry, contradicting decades of belief that square grids were optimal. Notably, this came from a general-purpose model, not a math-specialized one. Mathematician Arul Shankar marveled that the model’s chain-of-thought tried “a vast array of ideas from a wide range of mathematics” before honing in methodically with what he called “original ingenious ideas.” Sam Altman called it “a kinda big milestone” evoking “complicated feelings,” while Noam Brown noted that less than a year ago frontier models were merely at IMO gold level . Epoch AI’s Yafah Edelman has pulled her median for solving most Millennium Prize Problems forward to 2032 . The frontier is moving so fast that the White House is quietly briefing labs on an imminent executive order pushing 90-day pre-release notifications for frontier models, treating new releases like FDA submissions.
+- The Singularity has just cut out the middleman in Erdős’s quip that mathematicians are “machines for turning coffee into theorems.” An internal OpenAI model has disproved Erdős’s longstanding planar unit distance conjecture in discrete geometry, contradicting decades of belief that square grids were optimal. Notably, this came from a general-purpose model, not a math-specialized one. Mathematician Arul Shankar marveled that the model’s chain-of-thought tried “a vast array of ideas from a wide range of mathematics” before honing in methodically with what he called “original ingenious ideas.” Sam Altman called it “a kinda big milestone” evoking “complicated feelings,” while Noam Brown noted that less than a year ago frontier models were merely at IMO gold level . Epoch AI’s Yafah Edelman has pulled her median for solving most Millennium Prize Problems forward to 2032 . The frontier is moving so fast that the White House is quietly briefing labs on an imminent executive order pushing 90-day pre-release notifications for frontier models, treating new releases like FDA submissions.
 
 While math cooks, the application layer is fanning out into both the mundane and the absurd. Google is rolling out Gemini-powered conversational ads inside AI Mode and Search, generating tailored creative for queries about, say, making your home smell like a spa. On the unauthorized end of the spectrum, hobbyists are using Seedance 2.0 to “fix” the Harry Potter cinematic universe by violently dispatching the unpopular characters.
 

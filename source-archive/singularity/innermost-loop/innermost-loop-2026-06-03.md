@@ -13,8 +13,6 @@ post_id: 200516847
 
 # The Innermost Loop - 2026-06-03
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to June 3, 2026
@@ -29,10 +27,7 @@ The Singularity has reached the stage where governments would rather benchmark i
 
 ## Newsletter Text
 
--
--
-
-The Singularity has reached the stage where governments would rather benchmark it than license it. The White House issued an executive order , “Promoting Advanced Artificial Intelligence Innovation and Security,” directing agencies to build a classified test of AI cyber capabilities and to invite developers to voluntarily share “covered frontier models” for up to 30 days before release, while forbidding any mandatory licensing regime. Politico read the lighter touch as the AI industry’s latest win in dodging heavier federal oversight. The labs, freed from preclearance, are racing to feed the machines instead. Google is quietly buying code from Play Store developers to train its coding tools, and Microsoft launched its seven-model MAI family, including a reasoning model it claims beats Sonnet 4.6, a 5-billion-parameter coder cheaper than Haiku, an image model surpassing Nano Banana Pro, and the world’s fastest transcription engine across 43 languages.
+- The Singularity has reached the stage where governments would rather benchmark it than license it. The White House issued an executive order , “Promoting Advanced Artificial Intelligence Innovation and Security,” directing agencies to build a classified test of AI cyber capabilities and to invite developers to voluntarily share “covered frontier models” for up to 30 days before release, while forbidding any mandatory licensing regime. Politico read the lighter touch as the AI industry’s latest win in dodging heavier federal oversight. The labs, freed from preclearance, are racing to feed the machines instead. Google is quietly buying code from Play Store developers to train its coding tools, and Microsoft launched its seven-model MAI family, including a reasoning model it claims beats Sonnet 4.6, a 5-billion-parameter coder cheaper than Haiku, an image model surpassing Nano Banana Pro, and the world’s fastest transcription engine across 43 languages.
 
 Some mathematicians, meanwhile, are showing signs of a siege mentality. Sixteen of them, backed by the International Mathematical Union, published the Leiden Declaration on AI and Mathematics , asking the field to disclose AI use and keep humans accountable for correctness, arriving weeks after a model disproved an 80-year-old Erdős conjecture. The New York Times read it plainly , as a sign that even higher mathematics is now exposed to upheaval from AI.
 

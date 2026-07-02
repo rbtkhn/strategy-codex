@@ -21,7 +21,6 @@ if str(_SCRIPTS) not in sys.path:
 
 from mcp_receipt_lib import validate_json_schema  # noqa: E402
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--loop-id", required=True)
@@ -65,7 +64,6 @@ def main() -> int:
 
     print(f"[ok] appended loop run receipt for {args.loop_id}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

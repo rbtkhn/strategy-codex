@@ -1,7 +1,6 @@
 # Zangezur Framework - Four-Lane Comparison
 <!-- word_count: 117 -->
 
-
 | lane | wants | fears | workable formula |
 | --- | --- | --- | --- |
 | America | access and partner credibility | corridor imperialism or adversary alignment | access guarantee without extraterritoriality |

@@ -1,6 +1,5 @@
 # Prediction metrics
 
-
 ## Registry generation
 
 `python3 scripts/build_prediction_registry.py` scans [`statecraft/notes/predictions/`](../statecraft/notes/predictions/) and joins each note to [`statecraft/data/event-registry.json`](../statecraft/data/event-registry.json).

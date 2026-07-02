@@ -1,7 +1,6 @@
 # Iran Nuclear Latency - Four-Lane Comparison
 <!-- word_count: 375 -->
 
-
 Purpose: compare the four national transactions without collapsing latency, weaponization, recognition, and restraint into one generic nuclear deal.
 
 ## Orthogonality

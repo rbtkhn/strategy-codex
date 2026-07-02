@@ -10,7 +10,6 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 
-
 def _load_verifier():
     path = REPO / "scripts/strategy/verify_ritter_refined_pages.py"
     spec = importlib.util.spec_from_file_location("verify_ritter_refined_pages", path)
@@ -18,7 +17,6 @@ def _load_verifier():
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     return mod
-
 
 def test_verify_ritter_refined_pages_exits_zero() -> None:
     proc = subprocess.run(
@@ -28,7 +26,6 @@ def test_verify_ritter_refined_pages_exits_zero() -> None:
         text=True,
     )
     assert proc.returncode == 0, proc.stderr
-
 
 def test_verify_mearsheimer_refined_pages_exits_zero() -> None:
     proc = subprocess.run(
@@ -44,7 +41,6 @@ def test_verify_mearsheimer_refined_pages_exits_zero() -> None:
     )
     assert proc.returncode == 0, proc.stderr
 
-
 def test_verify_page_content_minimal_passes() -> None:
     mod = _load_verifier()
     ch = " ".join(f"w{i}" for i in range(20))
@@ -58,7 +54,6 @@ def test_verify_page_content_minimal_passes() -> None:
     assert not errs
     assert not warns
 
-
 def test_verify_page_content_missing_verbatim_fails() -> None:
     mod = _load_verifier()
     md = (
@@ -67,7 +62,6 @@ def test_verify_page_content_missing_verbatim_fails() -> None:
     )
     errs, _ = mod.verify_page_content("bad.md", md)
     assert any("Verbatim" in e for e in errs)
-
 
 def test_verify_page_content_digest_without_words_passes() -> None:
     mod = _load_verifier()
@@ -80,7 +74,6 @@ def test_verify_page_content_digest_without_words_passes() -> None:
     errs, warns = mod.verify_page_content("digest.md", md)
     assert not errs
     assert not warns
-
 
 def test_verify_page_long_file_no_soft_cap_warning() -> None:
     mod = _load_verifier()

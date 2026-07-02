@@ -2,12 +2,9 @@
 
 from __future__ import annotations
 
-
 SAMPLE_OUTPUTS = {
     "sm-1-speaker-object-repair": {
         "strong": """# Sachs speaker object
-
-WORK only; not Record.
 
 object_shape: cross-host-reinforced
 
@@ -47,8 +44,6 @@ More research may be needed.
     "sm-2-speaker-arc-ranking": {
         "strong": """# Diesen x Freeman speaker arc
 
-WORK only; not Record.
-
 Purpose: host-local conversational form, not a generic Freeman profile.
 
 ## Why this guest run matters
@@ -85,8 +80,6 @@ Use this arc when lattice rows can cite the arc without carrying the interpretat
 - Not a generic Freeman profile.
 """,
         "weak": """# Freeman profile
-
-WORK only; not Record.
 
 ## Arc set
 

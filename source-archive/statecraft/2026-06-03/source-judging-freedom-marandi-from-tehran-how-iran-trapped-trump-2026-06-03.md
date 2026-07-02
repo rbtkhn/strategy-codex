@@ -31,7 +31,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Today is Wednesday, June 3rd, 2026. My dear friend, Professor Muhammad Marandi coming to us live from Tran, Iran. Professor Marandi, always uh a pleasure. Before we get into the uh recent events and allegations, what is life like in Tehran today? Still normaly? >> Yes, things are very normal, judge, and thank you very much for inviting me.

@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # US Raids Venezuela Seizes Maduro; No Resistance; Government Retains Control; China Brazil Humiliated
 
-

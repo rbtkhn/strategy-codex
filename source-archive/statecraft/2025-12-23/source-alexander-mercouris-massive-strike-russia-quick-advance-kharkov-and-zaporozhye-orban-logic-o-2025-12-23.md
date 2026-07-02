@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Massive Strike, Russia Quick Advance Kharkov and Zaporozhye. Orban, Logic Of Loan Takes EU Into War
 
-

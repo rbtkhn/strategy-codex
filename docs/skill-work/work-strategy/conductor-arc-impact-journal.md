@@ -1,6 +1,5 @@
 # Conductor arc impact journal
 
-
 **Purpose:** Append-only narrative ledger for the impact of the **conductor innovation** and the **four-movement arc** on Strategy-codex recursive self-improvement.
 
 Benchmark method:

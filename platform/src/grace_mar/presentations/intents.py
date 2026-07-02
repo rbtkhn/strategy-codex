@@ -196,7 +196,6 @@ LEGACY_TEMPLATE_MAP: dict[tuple[str, str], str] = {
     ("ph-apo", "comparison"): "ph-apo-comparison",
 }
 
-
 def get_template_key(
     family: str,
     subsurface: str,
@@ -211,14 +210,12 @@ def get_template_key(
         raise KeyError(f"family {family!r} does not match subsurface {subsurface!r}")
     return LEGACY_TEMPLATE_MAP[(subsurface, intent)]
 
-
 def default_sections_for(subsurface: str, intent: str, artifact_class: str = "") -> list[str]:
     if artifact_class:
         section_map = DEFAULT_SECTIONS_BY_ARTIFACT_CLASS.get(artifact_class, {})
         if intent in section_map:
             return list(section_map[intent])
     return list(DEFAULT_SECTIONS[subsurface][intent])
-
 
 def list_intents() -> list[dict[str, Any]]:
     rows = []
@@ -242,7 +239,6 @@ def list_intents() -> list[dict[str, Any]]:
         )
     return rows
 
-
 def list_templates() -> list[dict[str, str]]:
     rows: list[dict[str, str]] = []
     for (subsurface, artifact_class, intent), template in TEMPLATE_MAP.items():
@@ -256,7 +252,6 @@ def list_templates() -> list[dict[str, str]]:
             }
         )
     return rows
-
 
 def build_presenton_markdown(bundle: dict[str, Any]) -> str:
     intent = bundle["intent"]

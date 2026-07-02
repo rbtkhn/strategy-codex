@@ -1,6 +1,5 @@
 # Civilization Pattern Template
 
-
 Use this template when promoting a seed from `civilization/seed-patterns.md` into a full lane note.
 
 ## Pattern

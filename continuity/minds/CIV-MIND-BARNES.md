@@ -1,7 +1,6 @@
 # CIV-MIND-BARNES — redirect (stable path)
 <!-- word_count: 31 -->
 
-
 **Canonical voice profile (SSOT):** [statecraft/voices/barnes/barnes-profile.md](../../statecraft/voices/barnes/barnes-profile.md)
 
 **Compatibility chain:** [`../strategy-expert-barnes-mind.md`](../strategy-expert-barnes-mind.md) → voice profile (do not duplicate corpus here).

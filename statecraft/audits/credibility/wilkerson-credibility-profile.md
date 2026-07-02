@@ -1,6 +1,5 @@
 # Wilkerson credibility profile
 
-
 ## Summary
 
 Wilkerson is an imperial-decline and military-statecraft warning speaker whose strongest credibility asset is host-conditioned clarity about what each lane is doing. His main weakness in the current corpus is a thinner visible correction pattern, especially compared with Mercouris and Ritter.

@@ -13,8 +13,6 @@ post_id: 189545805
 
 # The Innermost Loop - 2026-03-01
 
-WORK only; not Record.
-
 ## Source
 
 - Title: A Conversation with Frazer Anderson
@@ -29,10 +27,7 @@ Frazer Anderson is a Managing Director at Link Ventures. The following is a tran
 
 ## Newsletter Text
 
--
--
-
-Frazer Anderson is a Managing Director at Link Ventures . The following is a transcript of our recent conversation , recorded on January 21, 2026, which has been lightly edited for clarity.
+- Frazer Anderson is a Managing Director at Link Ventures . The following is a transcript of our recent conversation , recorded on January 21, 2026, which has been lightly edited for clarity.
 
 Davos and GPU Diplomacy
 

@@ -17,7 +17,6 @@ archive_links:
 
 # Diesen x Beebe speaker arc
 
-
 Purpose: compact reuse note for the `Diesen x Beebe` run inside the Diesen stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Beebe lane Diesen elicits, which full-form episodes matter most, and why this branch is materially real on disk.
 
 ## Orthogonality guide

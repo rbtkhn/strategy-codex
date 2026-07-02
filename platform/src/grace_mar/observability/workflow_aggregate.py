@@ -6,13 +6,11 @@ import statistics
 from collections import Counter, defaultdict
 from typing import Any
 
-
 def median_or_none(values: list[float]) -> float | None:
     nums = [float(v) for v in values if isinstance(v, (int, float))]
     if not nums:
         return None
     return float(statistics.median(nums))
-
 
 def aggregate_events(events: list[dict[str, Any]], *, batch_id: str, sources_used: list[str]) -> dict[str, Any]:
     """Build workflow-observability-report-shaped dict."""

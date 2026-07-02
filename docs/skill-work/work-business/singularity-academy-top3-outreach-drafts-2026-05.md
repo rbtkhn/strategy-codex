@@ -1,6 +1,6 @@
 # Singularity-Academy Top 3 Outreach Drafts - 2026-05
 
-WORK only. Draft outbound copy, not sent communication.
+non-authoritative. Draft outbound copy, not sent communication.
 
 ## Purpose
 

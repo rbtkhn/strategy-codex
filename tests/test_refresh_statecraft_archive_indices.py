@@ -12,11 +12,9 @@ if str(SCRIPTS) not in sys.path:
 import build_statecraft_day_indices as day_idx  # noqa: E402
 import refresh_statecraft_archive_indices as refresh  # noqa: E402
 
-
 def _write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8", newline="\n")
-
 
 def _sample_source(day_dir: Path, slug: str, *, thread: str = "hoh") -> None:
     _write(
@@ -32,7 +30,6 @@ def _sample_source(day_dir: Path, slug: str, *, thread: str = "hoh") -> None:
             "Body.\n"
         ),
     )
-
 
 def test_refresh_writes_day_month_and_root_indices(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
@@ -51,7 +48,6 @@ def test_refresh_writes_day_month_and_root_indices(tmp_path: Path) -> None:
     assert (root / "thread-index.md").is_file()
     assert (root / "stale-index-audit.md").is_file()
 
-
 def test_check_passes_after_refresh(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
     day_one = root / "2026-05-26"
@@ -61,7 +57,6 @@ def test_check_passes_after_refresh(tmp_path: Path) -> None:
     stale_count, _ = refresh.refresh_or_check(root, check=True)
 
     assert stale_count == 0
-
 
 def test_check_fails_when_day_index_stale(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
@@ -75,7 +70,6 @@ def test_check_fails_when_day_index_stale(tmp_path: Path) -> None:
 
     assert stale_count >= 1
     assert any(p.name == "README.md" for p in changed)
-
 
 def test_main_check_exit_code(tmp_path: Path, monkeypatch) -> None:
     root = tmp_path / "source-archive" / "statecraft"

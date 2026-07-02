@@ -25,7 +25,6 @@ Scott Ritter
 
 Apr 13, 2026
 
-
 Donald Trump as Christ
 
 Donald J. Trump is the 47th President of the United States; he previously served as the 45th President of the United States.
@@ -61,8 +60,6 @@ While the Constitution authored by Madison, Hamilton, Jay and others was subsequ
 In a letter to the Danbury Baptists, Jefferson declared that "religion is a matter which lies solely between man and his God, that he owes account to none other for his faith or his worship, that the legislative powers of government reach actions only, and not opinions."
 
 Jefferson then linked this core belief to the Constitution, stating his "sovereign reverence" for the American people who, through the First Amendment of the Constitution, declared that their legislature should "make no law respecting an establishment of religion, or prohibiting the free exercise thereof, thus building a wall of separation between Church & State."
-
-
 
 CEOs touch Trump as they pray
 

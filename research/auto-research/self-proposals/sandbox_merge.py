@@ -20,16 +20,13 @@ if str(SCRIPTS_DIR) not in sys.path:
 
 from stage_gate_candidate import insert_before_processed, next_candidate_id
 
-
 def _yaml_quote(value: str) -> str:
     return json.dumps(value, ensure_ascii=True)
-
 
 def _render_literal(value: str, indent: str = "    ") -> list[str]:
     if not value.strip():
         return [f"{indent}(empty)"]
     return [indent + line for line in value.splitlines()]
-
 
 def _render_source_exchange(exchange: dict[str, str]) -> list[str]:
     lines = ["source_exchange:"]
@@ -37,7 +34,6 @@ def _render_source_exchange(exchange: dict[str, str]) -> list[str]:
         lines.append(f"  {key}: |")
         lines.extend(_render_literal(value))
     return lines
-
 
 def normalize_candidate_bundle(payload: dict[str, Any]) -> dict[str, Any]:
     candidate = dict(payload["candidate_bundle"])
@@ -50,7 +46,6 @@ def normalize_candidate_bundle(payload: dict[str, Any]) -> dict[str, Any]:
     candidate.setdefault("new_vs_record", "Auto-research proposal draft; review against current Record before promotion.")
     candidate.setdefault("suggested_followup", "")
     return candidate
-
 
 def render_candidate_block(
     payload: dict[str, Any],
@@ -116,7 +111,6 @@ def render_candidate_block(
             lines.append(f"  {key}: {_yaml_quote(str(value))}")
     lines.extend(["```", ""])
     return "\n".join(lines)
-
 
 def materialize_sandbox(
     sandbox_root: Path,

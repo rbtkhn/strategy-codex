@@ -1,7 +1,5 @@
 # Mountain Homestead — Strategic Plan
 
-WORK only; not Record.
-
 **Scope:** `operations/mountain-homestead/` operating system.
 
 **One-line strategy:** The mountain homestead uses Singularity to become a risk-scored rural operating asset — every weekly task, monthly repair, and seasonal readiness action should reduce wildfire, continuity, access, water, septic, insurance, or infrastructure risk.

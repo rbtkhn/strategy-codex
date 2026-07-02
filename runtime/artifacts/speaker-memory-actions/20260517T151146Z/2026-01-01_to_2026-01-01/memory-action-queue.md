@@ -1,7 +1,5 @@
 # Speaker memory action queue
 
-WORK only; not Record.
-
 Window: `2026-01-01` to `2026-01-01`
 
 - `high` `update-existing-arc` `codex/years/2026/alkhorshid/alkhorshid-martyanov-speaker-arc.md` (1 appearance(s); grades: transcript-grade)

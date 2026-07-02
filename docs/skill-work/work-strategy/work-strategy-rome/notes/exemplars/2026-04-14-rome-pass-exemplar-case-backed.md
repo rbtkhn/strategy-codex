@@ -1,6 +1,6 @@
 # ROME pass exemplar — case-backed current-events workflow
 
-**Status:** WORK only
+**Status:** non-authoritative
 **Lane:** work-strategy → work-strategy-rome
 **Purpose:** End-to-end proof that the civilizational bridge, case index, promotion ladder, and current-events workflow can be used together inside a live strategy artifact.
 **Related:**

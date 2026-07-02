@@ -181,13 +181,13 @@ Why this matters:
 
 README front doors are generally disciplined:
 
-- almost all shelves start with the `WORK only; not Record.` fence
+- almost all shelves start with the `` fence
 - almost all use `Open First`, `Canonical Structure`, and `Boundary`
 - compatibility and boundary language is usually explicit
 
 But the lower shelf surfaces vary sharply:
 
-- some canonical files keep the `WORK only; not Record.` fence
+- some canonical files keep the `` fence
 - many equally canonical files omit it
 - some canonical files use shared section grammar consistently
 - others are prose-only or sparse
@@ -202,7 +202,7 @@ Examples of especially tidy front doors:
 
 Examples of format irregularity:
 
-- [statecraft/voices/hoh/README.md](../voices/hoh/README.md) places the H1 before the `WORK only; not Record.` fence and uses `Open first:` / `Boundary:` prose instead of the standard `##` sections
+- [statecraft/voices/hoh/README.md](../voices/hoh/README.md) places the H1 before the `` fence and uses `Open first:` / `Boundary:` prose instead of the standard `##` sections
 - several top-level non-README canonical surfaces omit the work fence entirely even within the same mature shelves, for example [statecraft/notes/arc-crooke-continuity.md](../notes/arc-crooke-continuity.md) and [statecraft/voices/mercouris/mercouris-routing.md](../voices/mercouris/mercouris-routing.md)
 
 ### [P2] Cross-host connectivity is under-owned

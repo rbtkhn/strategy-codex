@@ -11,11 +11,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_RUNS = REPO_ROOT / "runtime" / "operator-events" / "singularity-loop-runs.jsonl"
 DEFAULT_REGISTRY = REPO_ROOT / "runtime" / "artifacts" / "loop-registry.json"
 
-
 def load_loop_ids(registry_path: Path = DEFAULT_REGISTRY) -> set[str]:
     data = json.loads(registry_path.read_text(encoding="utf-8-sig"))
     return {str(row["id"]) for row in data.get("loops", [])}
-
 
 def run_check(
     *,
@@ -61,10 +59,8 @@ def run_check(
     print(f"[ok] singularity loop run receipts valid ({count} rows)")
     return 0
 
-
 def main() -> int:
     return run_check()
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

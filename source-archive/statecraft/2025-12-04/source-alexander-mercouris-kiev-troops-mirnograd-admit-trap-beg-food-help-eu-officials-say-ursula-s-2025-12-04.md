@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Kiev Troops Mirnograd Admit Trap Beg Food Help; EU Officials Say Ursula's Asset Plan Is Crazy; India
 
-

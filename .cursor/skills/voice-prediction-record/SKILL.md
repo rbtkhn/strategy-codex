@@ -299,7 +299,6 @@ Report exit codes and issue counts; do not claim ship on chat summary alone.
 | [`news-verify`](../news-verify/SKILL.md) / [`wire-verify`](../wire-verify/SKILL.md) | Closure hook grading |
 | [`speaker-shelf-maintenance`](../runbooks/speaker-shelf-maintenance.runbook.md) | Index hygiene before crawl |
 
-
 ## Cursor / strategy-codex instance
 
 Strategy-codex paths and scripts for **voice-prediction-record**. Replace `<speaker>` with the voice slug (e.g. `freeman`).
@@ -406,6 +405,6 @@ Add voices by extending `VOICE_REGISTRY` — paths follow `statecraft/data/<spea
 
 ## Boundary
 
-- WORK only; not Record merge
+- non-authoritative; not Record merge
 - Do not hand-edit generated `<speaker>-predictions.*`
 - Kiev / Kharkov normalization applies in operator-facing MD, not inside verbatim `public_excerpt`

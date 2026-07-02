@@ -18,13 +18,11 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-
 def _repo_root() -> Path:
     """Resolve repo root (parent of research/)."""
     script_dir = Path(__file__).resolve().parent
     # research/exploration/autogen-deliberation/ -> repo root is three levels up
     return script_dir.parent.parent.parent
-
 
 def _load_self(repo_root: Path, user_id: str) -> str:
     """Load self.md for the user (read-only)."""
@@ -32,7 +30,6 @@ def _load_self(repo_root: Path, user_id: str) -> str:
     if not path.exists():
         return f"(self.md not found: {path})"
     return path.read_text(encoding="utf-8", errors="replace")
-
 
 def _load_gate_snippet(repo_root: Path, user_id: str, max_chars: int = 8000) -> str:
     """Load a snippet of recursion-gate.md (read-only)."""
@@ -44,7 +41,6 @@ def _load_gate_snippet(repo_root: Path, user_id: str, max_chars: int = 8000) -> 
         text = text[:max_chars] + "\n\n... (truncated)\n"
     return text
 
-
 def _write_draft(content: str, out_dir: Path) -> Path:
     """Write draft to output/deliberation-draft-YYYYMMDD.md. Creates out_dir if needed."""
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -52,7 +48,6 @@ def _write_draft(content: str, out_dir: Path) -> Path:
     out_path = out_dir / f"deliberation-draft-{date_str}.md"
     out_path.write_text(content, encoding="utf-8")
     return out_path
-
 
 def run_dry_run(repo_root: Path, user_id: str, out_dir: Path) -> Path:
     """Load context and write a placeholder draft (no AutoGen)."""
@@ -91,7 +86,6 @@ To run with AutoGen: install `pyautogen` (or `autogen`) and run without `--dry-r
 """
 
     return _write_draft(draft, out_dir)
-
 
 def run_with_autogen(repo_root: Path, user_id: str, out_dir: Path) -> Path:
     """Run a minimal AutoGen deliberation and write draft. Optional dependency."""
@@ -145,7 +139,6 @@ AutoGen is available. A full implementation would run a GroupChat (Guardian, Val
 
     return _write_draft(draft, out_dir)
 
-
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Exploration: deliberation draft from Record + gate (read-only; output is draft only)."
@@ -168,7 +161,6 @@ def main() -> None:
 
     print(f"Wrote draft (non-canonical): {path}")
     print("Review the draft; stage only via existing pipeline after human review.")
-
 
 if __name__ == "__main__":
     main()

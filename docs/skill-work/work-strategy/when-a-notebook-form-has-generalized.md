@@ -1,6 +1,5 @@
 # When a Notebook Form Has Generalized
 
-
 A notebook form has not truly generalized just because it survives repetition inside one stream.
 
 It has generalized when all of the following become true:

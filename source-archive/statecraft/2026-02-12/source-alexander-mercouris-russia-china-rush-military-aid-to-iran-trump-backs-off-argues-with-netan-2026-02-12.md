@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia China Rush Military Aid To Iran Trump Backs Off Argues With Netanyahu; Bondi Epstein Meltdown
 
-

@@ -1,6 +1,5 @@
 # Two-Channel Operator Architecture
 
-
 ## Purpose
 
 This note defines the normal operator routing model for `strategy-codex`.

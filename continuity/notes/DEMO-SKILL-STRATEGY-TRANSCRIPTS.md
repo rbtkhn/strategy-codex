@@ -3,7 +3,7 @@
 
 > **Legacy demo (2026-04).** Phase 4 **tri-frame** choreography is **obsolete** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Keep this playbook for **notebook / verify / synthesis** calibration; substitute **`state-synthesis`** / runbook or **single named mind** for new lens exercises.
 
-**Purpose:** Runnable calibration for [skill-strategy](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md): notebook-first output, verify discipline, and **legacy explicit tri-frame** (all **three minds** — archived Phase 4 only). **WORK only** — not Record, not Voice.
+**Purpose:** Runnable calibration for [skill-strategy](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md): notebook-first output, verify discipline, and **legacy explicit tri-frame** (all **three minds** — archived Phase 4 only). , not Voice.
 
 **Prerequisite:** From repo root, run `bash scripts/demo_skill_strategy_transcripts_check.sh` (expect `All digest files present.`). If any file is missing, stop.
 

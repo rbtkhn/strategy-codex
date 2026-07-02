@@ -1,6 +1,5 @@
 # Davis refined page - 2026-04-17 (pool vs Truth Social - U.S. executive dual-register seam)
 
-
 **Expert:** `davis` as bridge surface · **Published:** 2026-04-17 · **Capture:** mixed same-day seam (wire-reported pool remarks + later Truth Social embed surfaced through Davis; no single long-form transcript object) · **Artifact:** refined page (standalone file in the Davis shelf). This is a packet-first page for a cold seam, not a settled notebook judgment.
 
 ---

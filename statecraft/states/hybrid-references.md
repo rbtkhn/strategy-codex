@@ -1,6 +1,5 @@
 # Hybrid References
 
-
 This surface replaces a pure academic bibliography with a CIV-STATE-native references law.
 
 It sits above, and does not replace, the bibliography that each civilization-state volume should carry for its own primary-source field.

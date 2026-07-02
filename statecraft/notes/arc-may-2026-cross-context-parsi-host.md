@@ -21,7 +21,6 @@ archive_links:
 
 # Parsi May 2026 cross-context arc
 
-
 Purpose: bounded cross-context arc note for the May 2026 Parsi run.
 
 Current audit state:

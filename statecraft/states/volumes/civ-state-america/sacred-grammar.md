@@ -1,6 +1,5 @@
 # Sacred Grammar
 
-
 Volume-local deep grammar for **Civilizational Statecraft**, Volume V — America.
 
 - **Core grammar**

@@ -1,5 +1,4 @@
-# Civ-mem topic routing — WORK only; not Record.
-# See docs/skill-work/work-civ-mem/TOPIC-ROUTING.md
+# Civ-mem topic routing — # See docs/skill-work/work-civ-mem/TOPIC-ROUTING.md
 routing_rules_version: 2
 
 # Re-check when bumping research/repos/civilization_memory (MEM–RELEVANCE–* inventory).
@@ -23,7 +22,7 @@ rome_seed_files:
   - MEM–ROME–GEO–MEDITERRANEAN–SEA.md
 
 # Multi-civ `MEM–*.md` rel paths under `content/civilizations/` for `--bfs-mem-target`
-# (Ra / theology lineage trace, WORK only). Used by `theology_ra_trace` + BFS; deduped with ROME seeds.
+# (Ra / theology lineage trace). Used by `theology_ra_trace` + BFS; deduped with ROME seeds.
 theology_seed_mems:
   - ROME/MEM–ROME–PAPACY.md
   - ROME/MEM–ROME–VATICAN.md

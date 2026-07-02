@@ -1,6 +1,5 @@
 # Mandate of Heaven
 
-
 China opens **Volume I** of *Civilizational Statecraft* as the earliest durable dynastic-state continuity chain in the comparative set. Its legitimating grammar is **mandate**: rule is justified when it preserves order and provisioning, and morally stressed when chaos, corruption, or fragmentation appear. Yu the Great is the traditional foundational sovereign; Xia remains foundational narrative and early state memory rather than equally firm documentary administration. The chain becomes legible through Zhou mandate language, Qin-Han standardization, dynastic restoration cycles, and modern reconstitution after Republican fragmentation, with the PRC party-state as present carrier.
 
 In the civilizational motion of this book, China illustrates civilization beautifying through mandate-bearing order; empire amplifying through administrative scale and continental reach; entropy degrading when order hardens into brittle absorption or coercive standardization that outruns humane carry. A statesman dealing with China misreads the present if mandate, humiliation memory, and reconstitution after rupture are treated as mere regime tactics.

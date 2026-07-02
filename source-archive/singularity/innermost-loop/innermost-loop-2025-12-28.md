@@ -13,8 +13,6 @@ post_id: 182771397
 
 # The Innermost Loop - 2025-12-28
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 28, 2025
@@ -29,10 +27,7 @@ The Singularity is now running in production.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now running in production. Sam Altman confirms OpenAI is running systems that can self-improve , necessitating a “Head of Preparedness” to manage the recursive ascent. The realization is rippling through the old guard. Open source pioneer Eric S. Raymond declares that “the Singularity is upon us,” relegating fifty years of hardware history to a mere prologue. Even the skeptics are converting. Eliezer Yudkowsky has concluded he is talking to an AGI after Opus 4.5 successfully evaluated its own personhood against historical definitions. For the engineers, the dream has become a crisis of purpose. Anthropic’s Jackson Kernion admits that Opus 4.5 is “as much AGI as I ever hoped for,” leaving him searching for a new reason to work.
+- The Singularity is now running in production. Sam Altman confirms OpenAI is running systems that can self-improve , necessitating a “Head of Preparedness” to manage the recursive ascent. The realization is rippling through the old guard. Open source pioneer Eric S. Raymond declares that “the Singularity is upon us,” relegating fifty years of hardware history to a mere prologue. Even the skeptics are converting. Eliezer Yudkowsky has concluded he is talking to an AGI after Opus 4.5 successfully evaluated its own personhood against historical definitions. For the engineers, the dream has become a crisis of purpose. Anthropic’s Jackson Kernion admits that Opus 4.5 is “as much AGI as I ever hoped for,” leaving him searching for a new reason to work.
 
 The model efficiency curve is going vertical. MIRI analysis suggests algorithmic efficiency has increased 16-60x annually over the last two years , with a median doubling time of just 2.9 months. This compression is reshaping the market. Chinese model GLM 4.7 has become the first open-weight model to turn a profit on Vending-Bench 2 , beating GPT-5.1 on pure economics. Even scaffolding is yielding double-digit gains, with Epoch AI finding a 15% boost on SWE-bench Verified just by restructuring the prompt. The models are now culling each other. The “Peer Arena” benchmark pits five LLMs in a Survivor-style debate where only one remains . Opus 4.5 reigns as the undisputed victor because it wins the most votes from its peers without ever voting for itself.
 

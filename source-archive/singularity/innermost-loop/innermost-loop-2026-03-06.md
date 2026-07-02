@@ -13,8 +13,6 @@ post_id: 190098907
 
 # The Innermost Loop - 2026-03-06
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 6, 2026
@@ -29,10 +27,7 @@ The Singularity just solved a problem that took a human twenty years to curate.
 
 ## Newsletter Text
 
--
--
-
-The Singularity just solved a problem that took a human twenty years to curate. OpenAI’s GPT-5.4 Thinking and GPT-5.4 Pro models have arrived with native SOTA computer use, a million tokens of context, and an 83.0% GDPval score, matching or exceeding human professionals at knowledge work 83% of the time. It is saturating other benchmarks with SOTA results too: 57.7% on SWE-Bench Pro, 67.3% on WebArena-Verified, and 54.6% on Toolathlon. The model built a “basically perfect” Minecraft clone in 24 minutes, apparently the first AI to pull it off. On the mathematical frontier, GPT-5.4 Pro posted a new SOTA of 38.0% on FrontierMath Tier 4 . Mathematician Bartosz Naskręcki, whose Tier 4 problem was solved by AI for the first time, called it his personal “move 37,” said the solution was clean and felt almost human, and declared his own Singularity had arrived with life on the other side, off to infinity. Epoch AI reported the model has also begun making novel observations on FrontierMath’s Open Problems benchmark, where no model has scored before. Mathematics is cooked.
+- The Singularity just solved a problem that took a human twenty years to curate. OpenAI’s GPT-5.4 Thinking and GPT-5.4 Pro models have arrived with native SOTA computer use, a million tokens of context, and an 83.0% GDPval score, matching or exceeding human professionals at knowledge work 83% of the time. It is saturating other benchmarks with SOTA results too: 57.7% on SWE-Bench Pro, 67.3% on WebArena-Verified, and 54.6% on Toolathlon. The model built a “basically perfect” Minecraft clone in 24 minutes, apparently the first AI to pull it off. On the mathematical frontier, GPT-5.4 Pro posted a new SOTA of 38.0% on FrontierMath Tier 4 . Mathematician Bartosz Naskręcki, whose Tier 4 problem was solved by AI for the first time, called it his personal “move 37,” said the solution was clean and felt almost human, and declared his own Singularity had arrived with life on the other side, off to infinity. Epoch AI reported the model has also begun making novel observations on FrontierMath’s Open Problems benchmark, where no model has scored before. Mathematics is cooked.
 
 The creative stack is negotiating terms with the new minds. Netflix has acquired InterPositive , Ben Affleck’s AI filmmaking startup that trains models on production dailies to handle mixing, coloring, relighting, and VFX in post. Apple Music is moving the opposite direction, launching “Transparency Tags” that require labels specifying whether a track’s artwork, composition, or music video involved AI generation. One industry absorbs the machine wholesale. The other insists on a name tag.
 

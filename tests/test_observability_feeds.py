@@ -14,7 +14,6 @@ import yaml
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS = REPO_ROOT / "scripts"
 
-
 def test_append_lane_violation_event_writes_jsonl(tmp_path: Path) -> None:
     sys.path.insert(0, str(SCRIPTS))
     from check_lane_scope import append_lane_violation_event
@@ -34,7 +33,6 @@ def test_append_lane_violation_event_writes_jsonl(tmp_path: Path) -> None:
     assert obj["detail"] == "declared_lane_failed"
     assert "ts" in obj
 
-
 def test_append_continuity_block_event_writes_jsonl(tmp_path: Path) -> None:
     sys.path.insert(0, str(SCRIPTS))
     from require_continuity_for_handback import append_continuity_block_event
@@ -53,7 +51,6 @@ def test_append_continuity_block_event_writes_jsonl(tmp_path: Path) -> None:
     assert obj["reason"] == "no valid continuity receipt"
     assert obj["source"] == "test"
     assert "ts" in obj
-
 
 @pytest.fixture
 def tmp_lane_repo(tmp_path: Path) -> Path:
@@ -84,7 +81,6 @@ def tmp_lane_repo(tmp_path: Path) -> Path:
     subprocess.run(["git", "add", "-A"], cwd=repo, check=True, capture_output=True)
     subprocess.run(["git", "commit", "-m", "init"], cwd=repo, check=True, capture_output=True)
     return repo
-
 
 @pytest.mark.skipif(
     subprocess.run(["git", "version"], capture_output=True).returncode != 0,

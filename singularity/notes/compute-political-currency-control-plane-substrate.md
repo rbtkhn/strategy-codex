@@ -1,7 +1,5 @@
 # Compute as Political Currency and Control-Plane Substrate
 
-WORK only; not Record.
-
 ## Purpose
 
 This note captures one bounded argument promoted out of the May 2026 Innermost Loop synthesis:

@@ -10,14 +10,12 @@ from scripts.validate_knot_index import (
     validate_knot_index_data,
 )
 
-
 def test_empty_pages_ok() -> None:
     errs = validate_knot_index_data(
         {"schema_version": 3, "knots": []},
         repo_root=REPO_ROOT,
     )
     assert errs == []
-
 
 def test_page_label_kebab_invalid() -> None:
     errs = validate_knot_index_data(
@@ -34,7 +32,6 @@ def test_page_label_kebab_invalid() -> None:
         repo_root=REPO_ROOT,
     )
     assert any("knot_label" in e for e in errs)
-
 
 def test_page_label_kebab_valid(tmp_path: Path) -> None:
     p = tmp_path / "strategy-notebook-page-2026-04-13-test.md"
@@ -54,7 +51,6 @@ def test_page_label_kebab_valid(tmp_path: Path) -> None:
         repo_root=tmp_path,
     )
     assert errs == []
-
 
 def test_duplicate_date_page_label(tmp_path: Path) -> None:
     a = tmp_path / "strategy-notebook-page-2026-04-13-a.md"
@@ -81,7 +77,6 @@ def test_duplicate_date_page_label(tmp_path: Path) -> None:
     )
     assert any("duplicate (date, knot_label)" in e for e in errs)
 
-
 def test_deprecated_weave_label_unknown_key(tmp_path: Path) -> None:
     p = tmp_path / "strategy-notebook-page-2026-04-13-test.md"
     p.write_text("# test\n", encoding="utf-8")
@@ -99,7 +94,6 @@ def test_deprecated_weave_label_unknown_key(tmp_path: Path) -> None:
         repo_root=tmp_path,
     )
     assert any("unknown keys" in e and "weave_label" in e for e in errs)
-
 
 def test_days_md_link_warning_when_basename_missing(tmp_path: Path) -> None:
     """Page indexed but not mentioned in chapters/YYYY-MM/days.md."""
@@ -127,7 +121,6 @@ def test_days_md_link_warning_when_basename_missing(tmp_path: Path) -> None:
     warns = days_md_link_warnings(data, repo_root=tmp_path)
     assert len(warns) == 1
     assert "not found" in warns[0]
-
 
 def test_days_md_link_ok_when_basename_present(tmp_path: Path) -> None:
     nb = (
@@ -158,7 +151,6 @@ def test_days_md_link_ok_when_basename_present(tmp_path: Path) -> None:
     warns = days_md_link_warnings(data, repo_root=tmp_path)
     assert warns == []
 
-
 def test_weave_count_negative(tmp_path: Path) -> None:
     p = tmp_path / "strategy-notebook-page-2026-04-13-test.md"
     p.write_text("# test\n", encoding="utf-8")
@@ -177,7 +169,6 @@ def test_weave_count_negative(tmp_path: Path) -> None:
     )
     assert any("weave_count" in e for e in errs)
 
-
 def test_seam_integrity_out_of_range(tmp_path: Path) -> None:
     p = tmp_path / "strategy-notebook-page-2026-04-13-test.md"
     p.write_text("# test\n", encoding="utf-8")
@@ -195,7 +186,6 @@ def test_seam_integrity_out_of_range(tmp_path: Path) -> None:
         repo_root=tmp_path,
     )
     assert any("seam_integrity" in e for e in errs)
-
 
 def test_v4_optional_fields_ok(tmp_path: Path) -> None:
     p = tmp_path / "strategy-notebook-page-2026-04-13-test.md"
@@ -218,7 +208,6 @@ def test_v4_optional_fields_ok(tmp_path: Path) -> None:
         repo_root=tmp_path,
     )
     assert errs == []
-
 
 def test_basename_must_contain_page(tmp_path: Path) -> None:
     p = tmp_path / "rope-2026-04-13.md"

@@ -11,7 +11,6 @@ import pytest
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = REPO_ROOT / "scripts" / "audit_doctrine_drift.py"
 
-
 def _load_module():
     spec = importlib.util.spec_from_file_location("audit_doctrine_drift_mod", SCRIPT)
     mod = importlib.util.module_from_spec(spec)
@@ -19,11 +18,9 @@ def _load_module():
     spec.loader.exec_module(mod)
     return mod
 
-
 def _write_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
-
 
 def _base_config() -> dict:
     return {
@@ -96,7 +93,6 @@ def _base_config() -> dict:
             },
         ],
     }
-
 
 def _build_repo(root: Path) -> Path:
     (root / "scripts").mkdir(parents=True, exist_ok=True)
@@ -171,12 +167,10 @@ def _build_repo(root: Path) -> Path:
     _write_json(config_path, _base_config())
     return config_path
 
-
 @pytest.fixture
 def tmp_repo(tmp_path: Path) -> tuple[Path, Path]:
     config_path = _build_repo(tmp_path)
     return tmp_path, config_path
-
 
 def test_doctrine_drift_clean_repo(tmp_repo: tuple[Path, Path]) -> None:
     repo_root, config_path = tmp_repo
@@ -184,7 +178,6 @@ def test_doctrine_drift_clean_repo(tmp_repo: tuple[Path, Path]) -> None:
     report = mod.audit_repo(repo_root, config_path)
     assert report["ok"] is True
     assert report["violations"] == []
-
 
 @pytest.mark.parametrize(
     ("mutator", "rule_id"),
@@ -290,7 +283,6 @@ def test_doctrine_drift_reports_each_requested_rule(
     report = mod.audit_repo(repo_root, config_path)
     assert report["ok"] is False
     assert any(item["ruleId"] == rule_id for item in report["violations"])
-
 
 def test_doctrine_drift_cli_json_reports_violations(tmp_repo: tuple[Path, Path]) -> None:
     repo_root, config_path = tmp_repo

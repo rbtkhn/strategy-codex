@@ -11,7 +11,6 @@ import json
 import re
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 FIXTURE_PATH = REPO_ROOT / "tests" / "fixtures" / "draft_skill_contract_gauntlets.json"
 REQUIRED_SUITE_FIELDS = {
@@ -29,17 +28,14 @@ REQUIRED_CASE_FIELDS = {
     "expected_behavior",
 }
 
-
 def _load_suites() -> list[dict]:
     return json.loads(FIXTURE_PATH.read_text(encoding="utf-8"))
-
 
 def _normalize(text: str) -> str:
     normalized = text.lower().replace("\u2019", "'").replace("\u2013", "-")
     normalized = normalized.replace("\u2014", "-")
     normalized = normalized.replace("`", "")
     return re.sub(r"\s+", " ", normalized)
-
 
 def _term_supported(term: str, haystack: str) -> bool:
     term = _normalize(term)
@@ -71,10 +67,8 @@ def _term_supported(term: str, haystack: str) -> bool:
     meaningful = [word for word in words if word not in stopwords]
     return bool(meaningful) and all(word in haystack for word in meaningful)
 
-
 def _missing(terms: list[str], haystack: str) -> list[str]:
     return [term for term in terms if not _term_supported(term, haystack)]
-
 
 def _validate_fixture_shape(suites: list[dict]) -> None:
     assert suites, "draft skill gauntlet fixture must not be empty"
@@ -100,7 +94,6 @@ def _validate_fixture_shape(suites: list[dict]) -> None:
                     f"{case['id']} has empty {field}"
                 )
 
-
 def _score_suite(suite: dict, skill_text: str) -> tuple[int, list[str]]:
     haystack = _normalize(skill_text)
     possible = len(suite["critical_must_cover"]) + 3 * len(suite["cases"])
@@ -123,11 +116,9 @@ def _score_suite(suite: dict, skill_text: str) -> tuple[int, list[str]]:
 
     return round((earned / possible) * 100), misses
 
-
 def test_draft_skill_gauntlet_fixture_integrity() -> None:
     suites = _load_suites()
     _validate_fixture_shape(suites)
-
 
 def test_draft_skill_contract_gauntlets_pass() -> None:
     suites = _load_suites()

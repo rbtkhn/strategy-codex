@@ -1,6 +1,5 @@
 # Bridge Doctrine
 
-
 ## Problem It Solves
 
 Statecraft surfaces often fail when two adjacent layers are both relevant but the operator has no explicit transition rule between them.

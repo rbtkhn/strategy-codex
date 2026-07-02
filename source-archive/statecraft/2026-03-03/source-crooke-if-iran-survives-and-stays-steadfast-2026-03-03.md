@@ -42,10 +42,6 @@ The war on Iran is not projected just for the US to add Iranian resources to the
 
 The Iran war however, is all about a bigger US play: Control of strategic chokepoints, and of energy transit more generally, so as to deny China access to energy markets and so to curtail its growth.
 
-
-
-
-
 The Trump National Security Strategy (NSS) set a goal for US policy of “rebalanc[ing] China’s economy towards household consumption”.
 
 This is American code-speak for coercing China to export less, and for it to import more through a radical economic reconfiguration to consuming more domestically — the object being to restore America’s share of global exports versus hyper-competitive and cheaper Chinese exports.

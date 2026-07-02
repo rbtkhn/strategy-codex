@@ -1,7 +1,5 @@
 # Grace Gems — business operating shelf
 
-WORK only; not Record.
-
 Grace Gems business operating shelf. Contains output artifacts for marketplace operations, product pipeline planning, listing review gate, search/conversion optimization, customer service, promise audits, and business action cards.
 
 **Strategic plan (operating SSOT):** [STRATEGIC-PLAN.md](STRATEGIC-PLAN.md)

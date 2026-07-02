@@ -1,6 +1,5 @@
 # Empire Rome
 
-
 ## Where This Sits
 
 This is Part 2 of the Rome CIV-STATE volume. Open it after [Civilization Rome](civilization-rome.md) when the operator needs Roman outward machinery rather than Roman continuity alone.

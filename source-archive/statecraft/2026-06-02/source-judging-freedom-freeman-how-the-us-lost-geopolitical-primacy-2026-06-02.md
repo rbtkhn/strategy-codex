@@ -31,7 +31,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Ambassador Freeman, uh, welcome here. Let's get right to uh the breaking news of the morning. We'll reserve the Larry Johnson uh revelations uh in just a moment. Uh Iran in in the past 48 hours, Iran has withdrawn from the negotiations with the United States, such as they were.

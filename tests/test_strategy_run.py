@@ -1,4 +1,4 @@
-"""Tests for strategy run wrapper (WORK only)."""
+"""Tests for strategy run wrapper (non-authoritative)."""
 
 from __future__ import annotations
 
@@ -14,12 +14,10 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 STRATEGY_RUN = REPO_ROOT / "scripts" / "strategy_run.py"
 BUILD_REPORT = REPO_ROOT / "scripts" / "build_strategy_run_report.py"
 
-
 def _env(root: Path) -> dict[str, str]:
     e = dict(os.environ)
     e["STRATEGY_RUN_ARTIFACT_ROOT"] = str(root)
     return e
-
 
 def _nb(root: Path) -> Path:
     d = (
@@ -39,7 +37,6 @@ def _nb(root: Path) -> Path:
     (d / "raw-input" / ymd / "note.md").write_text("x", encoding="utf-8")
     return d
 
-
 def _run(
     args: list[str], *, root: Path, check: bool = True
 ) -> subprocess.CompletedProcess:
@@ -51,7 +48,6 @@ def _run(
         text=True,
         check=check,
     )
-
 
 def test_start_creates_state_and_receipt_and_validates_schema(tmp_path: Path) -> None:
     jsonschema = pytest.importorskip("jsonschema")
@@ -103,7 +99,6 @@ def test_start_creates_state_and_receipt_and_validates_schema(tmp_path: Path) ->
         rs = json.load(f)
     jsonschema.validate(rec, schema=rs)
 
-
 def test_start_missing_inbox_is_started_status(tmp_path: Path) -> None:
     jsonschema = pytest.importorskip("jsonschema")
     nb = (
@@ -137,7 +132,6 @@ def test_start_missing_inbox_is_started_status(tmp_path: Path) -> None:
     ) as f:
         jsonschema.validate(st, schema=json.load(f))
 
-
 def test_inspect_resume_complete(tmp_path: Path) -> None:
     _nb(tmp_path)
     p = str(
@@ -170,7 +164,6 @@ def test_inspect_resume_complete(tmp_path: Path) -> None:
     )
     assert comp.is_file()
 
-
 def test_complete_refuses_failed_without_force(tmp_path: Path) -> None:
     _nb(tmp_path)
     p = str(
@@ -193,7 +186,6 @@ def test_complete_refuses_failed_without_force(tmp_path: Path) -> None:
     st2 = json.loads(sp.read_text(encoding="utf-8"))
     assert st2["status"] == "completed"
 
-
 def test_inspect_invalid_run_id(tmp_path: Path) -> None:
     r = _run(
         ["inspect", "--run-id", "stratrun-99999999-nosuch"],
@@ -202,7 +194,6 @@ def test_inspect_invalid_run_id(tmp_path: Path) -> None:
     )
     assert r.returncode == 1
     assert "no state" in r.stderr.lower() or "no state" in r.stdout.lower()
-
 
 def test_proposal_schemas(tmp_path: Path) -> None:
     jsonschema = pytest.importorskip("jsonschema")
@@ -234,7 +225,6 @@ def test_proposal_schemas(tmp_path: Path) -> None:
         encoding="utf-8"
     ) as f:
         jsonschema.validate(page, schema=json.load(f))
-
 
 def test_build_report(tmp_path: Path) -> None:
     _nb(tmp_path)

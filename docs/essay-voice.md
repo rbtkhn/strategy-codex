@@ -1,6 +1,5 @@
 # Essay Voice
 
-
 **One-sentence definition:** topic-first, third-person, tri-blend transport synthesis with Kissinger spine, solemn gravitas, and light apparatus.
 
 **Scope:** repo-root [`essays/`](../essays/README.md) transport voice only — not [`skill-write`](skill-write/README.md) public copy, not channel notes, not named-mind passes.

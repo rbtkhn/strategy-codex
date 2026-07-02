@@ -37,7 +37,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Netanyahu Readout and MOU Article 1
 
 on something breaks while we're talking. >> Yeah, but well I I want to break it to you. Don't No, no. I'll check your laptop. All right. So, um maybe you heard about it. Lebanon and Israel just signed a deal. >> Okay. What is the content of it? >> No clue. >> Okay. We'll be interested. >> What do you think exactly what I have? >> Depends on what's in it.

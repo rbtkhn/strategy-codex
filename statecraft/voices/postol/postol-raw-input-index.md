@@ -1,6 +1,5 @@
 # Postol Raw-Input Index
 
-
 Compatibility pointer only.
 
 The canonical Postol source route map now lives at [postol-source-index.md](postol-source-index.md).

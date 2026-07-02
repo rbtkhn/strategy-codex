@@ -1,7 +1,5 @@
 # Keystone Helix
 
-WORK only; not Record.
-
 ## Thesis
 
 The Innermost Loop and Moonshots constitute the keystone helix of singularity-academy.

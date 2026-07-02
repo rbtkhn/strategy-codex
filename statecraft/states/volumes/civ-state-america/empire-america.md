@@ -1,6 +1,5 @@
 # Empire America
 
-
 ## Where This Sits
 
 This is Part 2 of the America CIV-STATE volume. Open it after [Civilization America](civilization-america.md) when the operator needs the outward machinery by which the American carrier projects, regulates, and overreaches.

@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia Winning Big Victory; Huiliaipole Collapse; EU In Panic Sanctions Baud; US Eyes More Sanctions
 
-

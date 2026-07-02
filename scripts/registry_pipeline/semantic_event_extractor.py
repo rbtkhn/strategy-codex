@@ -10,7 +10,6 @@ from typing import Any
 _REPO_ROOT = Path(__file__).resolve().parents[2]
 OUTPUT = _REPO_ROOT / "runtime" / "artifacts" / "event-candidates.json"
 
-
 def extract_candidates(
     captures: list[dict[str, Any]] | None = None,
     notes: list[dict[str, Any]] | None = None,
@@ -18,7 +17,6 @@ def extract_candidates(
     """Stub: no NLP extraction in Phase 3a."""
     _ = captures, notes
     return []
-
 
 def build_payload(candidates: list[dict[str, Any]] | None = None) -> dict[str, Any]:
     items = candidates if candidates is not None else extract_candidates()
@@ -32,7 +30,6 @@ def build_payload(candidates: list[dict[str, Any]] | None = None) -> dict[str, A
         "candidates": items,
     }
 
-
 def main() -> int:
     import argparse
 
@@ -44,7 +41,6 @@ def main() -> int:
     args.output.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"[ok] wrote {args.output} ({len(payload['candidates'])} candidates)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

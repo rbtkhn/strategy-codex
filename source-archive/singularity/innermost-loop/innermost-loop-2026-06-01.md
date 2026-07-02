@@ -13,8 +13,6 @@ post_id: 200165700
 
 # The Innermost Loop - 2026-06-01
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to June 1, 2026
@@ -29,10 +27,7 @@ The Singularity is learning to fit in your pocket.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is learning to fit in your pocket. PrismML released Bonsai Image 4B , a family of compact diffusion models in 1-bit and ternary variants, the first image model in its class to run on an iPhone. The further intelligence spreads, the more it must defend us from itself. OpenAI launched Rosalind Biodefense , opening GPT-Rosalind to trusted developers for epidemiological modeling, early detection, and pandemic preparedness. Not everyone loves the new crop of minds. Figma’s CEO called Anthropic’s Opus 4.8 “a very strange model,” praising its honesty but panning a personality at once judgmental, hedging, and sycophantic.
+- The Singularity is learning to fit in your pocket. PrismML released Bonsai Image 4B , a family of compact diffusion models in 1-bit and ternary variants, the first image model in its class to run on an iPhone. The further intelligence spreads, the more it must defend us from itself. OpenAI launched Rosalind Biodefense , opening GPT-Rosalind to trusted developers for epidemiological modeling, early detection, and pandemic preparedness. Not everyone loves the new crop of minds. Figma’s CEO called Anthropic’s Opus 4.8 “a very strange model,” praising its honesty but panning a personality at once judgmental, hedging, and sycophantic.
 
 The hardware beneath these minds is being repriced and rebuilt. Nvidia is set to launch its long-awaited N1 and N1X SoCs , an Arm family reportedly reaching 20 cores. The memory that feeds them is the most coveted substance on Earth: Samsung, SK Hynix, and Micron each top a trillion-dollar market cap, together worth about 22% more than the three biggest oil firms. The verdict is that “ memory is now worth more than oil. “ All that silicon wants a body to inhabit. Meta plans to test an AI pendant within the year, chasing 10 million wearable sales in the second half of 2026, while Apple struggles to distill Google’s Gemini small enough for on-device use, and is shopping for acquisitions.
 

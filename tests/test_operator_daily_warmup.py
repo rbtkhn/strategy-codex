@@ -14,7 +14,6 @@ if str(SCRIPTS) not in sys.path:
 
 import operator_daily_warmup as odw  # noqa: E402
 
-
 def test_build_operator_daily_warmup_includes_depth_and_polling_reminder(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:

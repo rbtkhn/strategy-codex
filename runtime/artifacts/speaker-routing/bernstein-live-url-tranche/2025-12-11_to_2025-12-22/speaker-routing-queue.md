@@ -1,7 +1,5 @@
 # Speaker routing queue
 
-WORK only; not Record.
-
 Window: `2025-12-11` to `2025-12-22`
 
 ## existing-speaker-arc

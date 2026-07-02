@@ -6,7 +6,6 @@ record_status: none
 
 # Root directory map — strategy-codex
 
-
 **Purpose:** Legibility hub for what lives at the repository root vs under consolidated subtrees (`runtime/`, `platform/`, `archive/`, …). Link SSOT below; this page does not duplicate full doctrine.
 
 **Related:** [harness-architecture-map.md](harness-architecture-map.md) · [operator-root-artifacts.md](operator-root-artifacts.md) · [runtime-vs-record.md](runtime-vs-record.md) · [canonical-paths.md](canonical-paths.md)

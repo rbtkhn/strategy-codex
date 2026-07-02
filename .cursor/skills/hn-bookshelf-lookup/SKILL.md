@@ -7,7 +7,7 @@ scope_class: repo-governed
 ---
 # History notebook — Bookshelf writer lookup
 
-**WORK only;** not Record. **SSOT:** [bookshelf-catalog.yaml](../../../docs/skill-work/work-strategy/history-notebook/research/bookshelf-catalog.yaml) (Shelf rows) and [book-architecture.yaml](../../../docs/skill-work/work-strategy/history-notebook/book-architecture.yaml) (chapter ids and `file` paths).
+**non-authoritative;** not Record. **SSOT:** [bookshelf-catalog.yaml](../../../docs/skill-work/work-strategy/history-notebook/research/bookshelf-catalog.yaml) (Shelf rows) and [book-architecture.yaml](../../../docs/skill-work/work-strategy/history-notebook/book-architecture.yaml) (chapter ids and `file` paths).
 
 ## When to use
 

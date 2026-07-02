@@ -1,6 +1,5 @@
 # Crooke shelf hygiene - 2026-05
 
-
 Purpose: preserve the migration law that Crooke is self-contained on the statecraft side even while distinctive authored/interview internals remain intact.
 
 Rules:

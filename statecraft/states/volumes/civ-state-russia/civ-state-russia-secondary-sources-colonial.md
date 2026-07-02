@@ -1,6 +1,5 @@
 # Russia Secondary Sources - Colonial
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the colonial Russia primary shelf when Romanov scale, service-state formation, strategic depth, serfdom, imperial administration, or recognition-through-expansion need sharper chronology or counterweight.

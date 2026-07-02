@@ -2,7 +2,6 @@
 <!-- word_count: 37 -->
 <!-- word_count: stub -->
 
-
 This file is a compatibility redirect.
 
 - Deprecated term: `refined page`

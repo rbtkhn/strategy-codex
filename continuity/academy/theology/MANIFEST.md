@@ -1,7 +1,6 @@
 # Academy Theology Manifest
 <!-- word_count: 603 -->
 
-
 This manifest lists the v1 curated copies in `continuity/academy/theology/`. It exists for drift review and source re-entry. It is not an automatic sync contract.
 
 Boundary: do not edit Record surfaces from this shelf. No changes here should touch `self.md`, `self-archive.md`, `recursion-gate.md`, `session-log.md`, or `bot/prompt.py`.

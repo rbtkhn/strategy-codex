@@ -1,7 +1,6 @@
 # Expert transcript - `nima`
 <!-- word_count: 0 -->
 
-
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) that include `thread:nima` (first line + optional continuation paragraphs), routed on ingest.
 **Length:** Target **â‰¤ 2000 words** per ingest block; whole file soft **â‰¤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.

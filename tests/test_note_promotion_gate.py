@@ -9,7 +9,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
-
 def test_reindex_notes_writes_registry() -> None:
     proc = subprocess.run(
         [sys.executable, "scripts/reindex_notes.py"],
@@ -31,7 +30,6 @@ def test_reindex_notes_writes_registry() -> None:
     assert "dashboard" in payload
     assert "notes" in payload
 
-
 def test_reindex_notes_check_passes_after_regen() -> None:
     regen = subprocess.run(
         [sys.executable, "scripts/reindex_notes.py"],
@@ -48,7 +46,6 @@ def test_reindex_notes_check_passes_after_regen() -> None:
     )
     assert proc.returncode == 0, proc.stderr + proc.stdout
     assert "ok:" in proc.stdout
-
 
 def test_promote_note_dry_run() -> None:
     proc = subprocess.run(

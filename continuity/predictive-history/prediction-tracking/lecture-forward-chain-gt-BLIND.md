@@ -65,7 +65,6 @@
 - Contrasts rich/poor parenting environments and argues behavior differences are rational responses to different social games.
 - Links elite overproduction and blocked social mobility to instability, revolution, and historical game-reset dynamics.
 
-
 ### Scores
 
 - **H1:** **hit**
@@ -133,7 +132,6 @@ After **schools + stakeholders**, **parenting × class × success myths** is as 
 - Compares immigrant outcomes across groups and critiques school/test-score narratives as incomplete explanations.
 - Argues status power and group strategy can dominate individual achievement in migration contexts.
 - Frames immigration as a long-cycle game tied to demographics, cohesion, and rule-setting power.
-
 
 ### Scores
 
@@ -203,7 +201,6 @@ last_episode_overweight — H2 still open as parallel branch, not falsified by t
 - Interprets imperial politics as shifting game types: cooperation, hierarchy, factional competition, and outsider capture.
 - Uses historical case studies to argue that adaptability and group structure matter more than initial resource endowments.
 
-
 ### Scores
 
 - **H1:** **hit**
@@ -271,7 +268,6 @@ Immigration + status → civilizational cycle is a repeatable Jiang move.
 - Examines how financial/legal institutions outlast formal empire and continue structuring incentives.
 - Argues elite behavior in post-imperial states reflects inherited game rules around language, money, and mobility.
 - Links offshore finance, schooling, and capital protection to both systemic power and long-run social decay.
-
 
 ### Scores
 
@@ -341,7 +337,6 @@ World-scale game → money/legal institutions is high prior.
 - Frames the U.S. constitutional system as a game architecture optimized for open participation, rule clarity, and merit signaling.
 - Traces Bretton Woods, dollar centrality, and postwar institutions as mechanisms for globalizing one economic-political game.
 
-
 ### Scores
 
 - **H1:** **hit**
@@ -355,7 +350,6 @@ Finance chapter → named hegemon (U.S.) is the default bridge.
 ### miss_taxonomy
 
 —
-
 
 ### Replay (closed-loop calibration)
 
@@ -409,7 +403,6 @@ Finance chapter → named hegemon (U.S.) is the default bridge.
 - Traces how class conflict narratives, party structures, and revolutionary framing reshape broader political coalitions.
 - Uses Europe, Russia, and China to argue ideological transitions often follow power incentives more than doctrinal consistency.
 
-
 ### Scores
 
 - **H1:** **hit**
@@ -423,7 +416,6 @@ U.S. rules → ideological rival system is a clean alternation.
 ### miss_taxonomy
 
 —
-
 
 ### Replay (closed-loop calibration)
 
@@ -477,7 +469,6 @@ U.S. rules → ideological rival system is a clean alternation.
 - Frames the Strait of Hormuz and GCC infrastructure as systemic leverage points with global economic consequences.
 - Contrasts high-cost imperial force posture with low-cost asymmetric strike doctrines and religiously driven escalation logic.
 
-
 ### Scores
 
 - **H1:** **hit**
@@ -491,7 +482,6 @@ Ideology stack → kinetic Mideast chapter is high prior in this corpus.
 ### miss_taxonomy
 
 —
-
 
 ### Replay (closed-loop calibration)
 
@@ -545,7 +535,6 @@ Ideology stack → kinetic Mideast chapter is high prior in this corpus.
 - Maps US advantages (technology, propaganda, money) and Iranian advantages (faith, terrain, nationalism) to how each can backfire.
 - Ends by reframing payoffs: attention/consciousness as currency vs purely material game-theory rewards.
 
-
 ### Scores
 
 - **H1:** **hit**
@@ -559,7 +548,6 @@ First hot-war focus → extract a named Law.
 ### miss_taxonomy
 
 —
-
 
 ### Replay (closed-loop calibration)
 
@@ -613,7 +601,6 @@ First hot-war focus → extract a named Law.
 - Argues escalation outcomes depend more on control/calibration than raw dominance.
 - Predicts US ground intervention, no near-term nuclear use, and later symbolic-religious escalation.
 
-
 ### Scores
 
 - **H1:** **hit**
@@ -627,7 +614,6 @@ Asymmetry → escalation ladder before eschatology.
 ### miss_taxonomy
 
 —
-
 
 ### Replay (closed-loop calibration)
 
@@ -681,7 +667,6 @@ Asymmetry → escalation ladder before eschatology.
 - Links mass × energy × coordination to narrative and end-times scripts as coordination devices.
 - Maps multiple traditions (Jewish accelerationism, Christian Zionism, Islamic/Shia, Catholic, Orthodox) to predicted geopolitical convergences.
 
-
 ### Scores
 
 - **H1:** **hit**
@@ -695,7 +680,6 @@ Escalation with religious sites → eschatological convergence next.
 ### miss_taxonomy
 
 —
-
 
 ### Replay (closed-loop calibration)
 
@@ -749,7 +733,6 @@ Escalation with religious sites → eschatological convergence next.
 - Posits transnational intelligence–crime–science as maintenance of a “parasite” order atop nation-state “host.”
 - Uses Epstein-file excerpts and Kushner links as illustrative glue for the structural argument (lecture’s framing, not independent verification).
 
-
 ### Scores
 
 - **H1:** **hit**
@@ -763,7 +746,6 @@ Convergence → epistemic/deep-network chapter is the pattern.
 ### miss_taxonomy
 
 —
-
 
 ### Replay (closed-loop calibration)
 
@@ -817,7 +799,6 @@ Convergence → epistemic/deep-network chapter is the pattern.
 - Introduces “law of proximity”: nearest (often domestic) games drive decisions more than abstract interstate conflict.
 - Surveys US elite vs counter-elite, Tel Aviv vs Jerusalem, and Iran theocracy vs secular nationalism as internal drivers.
 
-
 ### Scores
 
 - **H1:** **hit**
@@ -831,7 +812,6 @@ Epistemic turn → nearest-player / proximity law.
 ### miss_taxonomy
 
 —
-
 
 ### Replay (closed-loop calibration)
 
@@ -885,7 +865,6 @@ Epistemic turn → nearest-player / proximity law.
 - Argues the successor era prioritizes resilience over efficiency: spirituality, community, and intergenerational power transfer.
 - Maps energy, trade, demography, migration, and regional blocs as stress vectors with explicit scenario claims for the next decades.
 
-
 ### Scores
 
 - **H1:** **hit**
@@ -899,7 +878,6 @@ Proximity → macro systemic transition thesis.
 ### miss_taxonomy
 
 —
-
 
 ### Replay (closed-loop calibration)
 
@@ -953,7 +931,6 @@ Proximity → macro systemic transition thesis.
 - Contrasts US strategy (forcing narrative/political/economic layers to fit military goals) with Iran's adaptive reverse strategy.
 - Argues US constraints (political will, manufacturing limits, casualty aversion) create an opening for Israeli regional primacy.
 
-
 ### Scores
 
 - **H1:** **hit**
@@ -967,7 +944,6 @@ Macro transition → regional primacy / beneficiary thesis in active war.
 ### miss_taxonomy
 
 —
-
 
 ### Replay (closed-loop calibration)
 
@@ -1019,7 +995,6 @@ Macro transition → regional primacy / beneficiary thesis in active war.
 **At a glance (excerpt):**
 - TBD after listen.
 
-
 ### Scores
 
 - **H1:** **hit** (title + reset/world-order frame; corpus **Topic** / **At a glance** still TBD)
@@ -1033,7 +1008,6 @@ TBD **At a glance** still warrants **low confidence** on mechanism detail; title
 ### miss_taxonomy
 
 —
-
 
 ### Replay (closed-loop calibration)
 
@@ -1086,7 +1060,6 @@ TBD_glance_mechanism
 - Introduces a resource-realignment thesis: disrupting Middle East supply could push buyers toward North American / Russian energy and related commodities, with maps logic on fertilizer and water.
 - Poses a deliberate-collapse / “lose to win” contrarian frame versus conventional “failed president” narratives; compares Bush 1991 New World Order pillars to an inverted “Trump World Order.”
 - Q&A ties structural postwar financial architecture to elite competition and asks how geopolitics connects to earlier religious/eschatological lecture threads.
-
 
 ### Scores
 

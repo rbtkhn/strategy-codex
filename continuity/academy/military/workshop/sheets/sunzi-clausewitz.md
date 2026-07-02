@@ -1,7 +1,6 @@
 # Sunzi And Clausewitz
 <!-- word_count: 197 -->
 
-
 ## Purpose
 
 Use Sunzi and Clausewitz as a paired theory sheet: victory before battle, deception, indirectness, friction, moral forces, and war as a political instrument.

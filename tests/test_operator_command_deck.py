@@ -43,7 +43,6 @@ mind_category: knowledge
 ```
 """
 
-
 def _write_archive(path: Path) -> None:
     day = path.stem[-10:]
     path.write_text(
@@ -63,7 +62,6 @@ def _write_archive(path: Path) -> None:
         ),
         encoding="utf-8",
     )
-
 
 def _setup_fixture_repo(tmp_path: Path, day: str, *, desync: bool = False) -> dict[str, Path]:
     archive_root = tmp_path / "source-archive" / "statecraft"
@@ -145,7 +143,6 @@ def _setup_fixture_repo(tmp_path: Path, day: str, *, desync: bool = False) -> di
         "queue_root": monkeypatch_queue,
     }
 
-
 @pytest.fixture()
 def deck_env(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
     day = "2026-06-27"
@@ -153,7 +150,6 @@ def deck_env(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
     monkeypatch.setattr(intake_queue, "QUEUE_ROOT", paths["queue_root"])
     monkeypatch.setattr("statecraft_war_room.QUEUE_ROOT", paths["queue_root"])
     return tmp_path, day, paths
-
 
 def test_generates_deck_with_authority_header(deck_env) -> None:
     repo_root, day, _paths = deck_env
@@ -164,7 +160,6 @@ def test_generates_deck_with_authority_header(deck_env) -> None:
     assert "Authority: advisory only" in md
     assert "## 2. Recommended Next Actions" in md
     assert actions
-
 
 def test_blocking_surgeon_outranks_intake(deck_env, monkeypatch: pytest.MonkeyPatch) -> None:
     repo_root, _day, _paths = deck_env
@@ -186,7 +181,6 @@ def test_blocking_surgeon_outranks_intake(deck_env, monkeypatch: pytest.MonkeyPa
     assert actions[0].category == "repo_surgeon"
     assert actions[0].priority == 1
 
-
 def test_desync_promotes_intake_action(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     day = "2026-06-28"
     paths = _setup_fixture_repo(tmp_path, day, desync=True)
@@ -198,7 +192,6 @@ def test_desync_promotes_intake_action(tmp_path: Path, monkeypatch: pytest.Monke
     intake_actions = [a for a in actions if a.category == "intake"]
     assert intake_actions
     assert intake_actions[0].priority <= 3
-
 
 def test_does_not_mutate_ssot_files(deck_env, monkeypatch: pytest.MonkeyPatch) -> None:
     repo_root, day, paths = deck_env
@@ -228,7 +221,6 @@ def test_does_not_mutate_ssot_files(deck_env, monkeypatch: pytest.MonkeyPatch) -
     assert paths["source"].read_text(encoding="utf-8") == source_before
     assert paths["daily_path"].read_text(encoding="utf-8") == daily_before
 
-
 def test_json_schema_fields(deck_env) -> None:
     repo_root, _day, _paths = deck_env
     ctx = build_deck_context(repo_root, include_git=False)
@@ -249,14 +241,12 @@ def test_json_schema_fields(deck_env) -> None:
         assert key in payload
     assert payload["gate_summary"] is None
 
-
 def test_include_gate_off_by_default(deck_env) -> None:
     repo_root, _day, _paths = deck_env
     ctx = build_deck_context(repo_root, include_git=False, include_gate=False)
     assert ctx.gate_summary is None
     md = build_markdown(ctx, [], generated_at="2099-01-01 00:00 UTC")
     assert "Gate Watch" not in md
-
 
 def test_include_gate_surfaces_pending(deck_env) -> None:
     repo_root, _day, _paths = deck_env
@@ -268,14 +258,12 @@ def test_include_gate_surfaces_pending(deck_env) -> None:
     md = build_markdown(ctx, rank_next_actions(ctx), generated_at="2099-01-01 00:00 UTC")
     assert "Gate Watch" in md
 
-
 def test_no_git_when_flagged(deck_env) -> None:
     repo_root, _day, _paths = deck_env
     summary = load_git_summary(repo_root, enabled=False)
     assert summary.get("enabled") is False
     ctx = build_deck_context(repo_root, include_git=False)
     assert ctx.git_summary.get("enabled") is False
-
 
 def test_handles_missing_budget_receipt(deck_env) -> None:
     repo_root, _day, _paths = deck_env

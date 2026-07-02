@@ -8,7 +8,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 class RunbookSchemaTests(unittest.TestCase):
     def setUp(self) -> None:
         from scripts import validate_skills as vs
@@ -121,7 +120,6 @@ authority: advisory_only
                 self.vs.REPO_ROOT = orig
         errors = [i for i in issues if "silent merge" in i["message"].lower() or "authority" in i["message"].lower()]
         self.assertTrue(errors)
-
 
 if __name__ == "__main__":
     unittest.main()

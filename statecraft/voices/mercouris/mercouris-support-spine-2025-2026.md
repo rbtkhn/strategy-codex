@@ -1,6 +1,5 @@
 # Mercouris support spine - 2025-2026
 
-
 Purpose: own Mercouris's maturity law, month-status law, and the rule for how the January-February 2025 prehistory shelves plus the canonical Jan-May 2026 month ladder relate to stream-owned chronology.
 
 ## What this spine owns

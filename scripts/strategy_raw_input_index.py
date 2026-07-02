@@ -1,6 +1,6 @@
 """Shared discovery for strategy-codex ``raw-input/`` (per-expert, dated folders).
 
-WORK-only; not Record. Used by ``strategy_expert_corpus`` and
+Used by ``strategy_expert_corpus`` and
 ``strategy_expert_transcript`` to avoid duplicating path walks.
 
 **Doctrine:** Inbox is the capture registry; ``raw-input/`` is the verbatim body

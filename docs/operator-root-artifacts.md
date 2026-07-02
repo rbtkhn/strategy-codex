@@ -1,6 +1,5 @@
 # Operator root artifacts — registry supplement
 
-
 Companion to [root-directory-map.md](root-directory-map.md) and [operator-surface-registry.md](operator-surface-registry.md). Lists operator artifacts that are easy to mistake for Record truth.
 
 ---

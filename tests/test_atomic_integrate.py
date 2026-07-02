@@ -16,7 +16,6 @@ if str(SCRIPTS) not in sys.path:
 
 import atomic_integrate as ai  # noqa: E402
 
-
 @pytest.fixture
 def fake_repo(tmp_path: Path) -> tuple[Path, str]:
     r = tmp_path / "repo"
@@ -29,7 +28,6 @@ def fake_repo(tmp_path: Path) -> tuple[Path, str]:
         (ur / name).write_text(f"# {name}\n", encoding="utf-8")
     (r / "testuser-llm.txt").write_text("prp\n", encoding="utf-8")
     return r, uid
-
 
 def test_dry_run_writes_receipt(monkeypatch: pytest.MonkeyPatch, fake_repo: tuple[Path, str]) -> None:
     r, uid = fake_repo
@@ -51,7 +49,6 @@ def test_dry_run_writes_receipt(monkeypatch: pytest.MonkeyPatch, fake_repo: tupl
     assert data["dry_run"] is True
     assert data["success"] is True
     assert "process_approved_candidates.py" in " ".join(data["merge_command"])
-
 
 def test_apply_success_backup_and_receipt(
     monkeypatch: pytest.MonkeyPatch, fake_repo: tuple[Path, str]
@@ -90,7 +87,6 @@ def test_apply_success_backup_and_receipt(
     assert data["success"] is True
     assert data["merge_returncode"] == 0
     assert data["dry_run"] is False
-
 
 def test_apply_merge_failure(monkeypatch: pytest.MonkeyPatch, fake_repo: tuple[Path, str]) -> None:
     r, uid = fake_repo

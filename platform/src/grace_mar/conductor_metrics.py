@@ -18,7 +18,6 @@ SCHEMA_VERSION = "conductor-session-metrics.v1"
 
 _ALLOWED_ORIGINS = frozenset({"coffee", "conductor_only", "inferred"})
 
-
 def build_metrics_payload(
     *,
     body_markdown: str,

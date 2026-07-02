@@ -1,6 +1,5 @@
 # Mearsheimer speaker object
 
-
 object_shape: person-arc-first
 
 Purpose: define John Mearsheimer as a first-class speaker object while keeping chronology in the host shelves and preserving the current double-helix-plus-orbit reality of the shelf.

@@ -11,7 +11,6 @@ from typing import Any
 WORKFLOW_METRIC_CONTRACT_VERSION = "1.0.0"
 WORKFLOW_METRIC_KEY = "workflowMetricContract"
 
-
 def empty_contract(lane: str) -> dict[str, Any]:
     return {
         "schemaVersion": WORKFLOW_METRIC_CONTRACT_VERSION,
@@ -27,7 +26,6 @@ def empty_contract(lane: str) -> dict[str, Any]:
         "partialMetrics": True,
         "notes": "Populated when lane emits comparable counters; else nulls.",
     }
-
 
 def fill_contract(
     lane: str,

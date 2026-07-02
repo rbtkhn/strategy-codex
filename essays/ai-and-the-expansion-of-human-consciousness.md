@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # AI and the Expansion of Human Consciousness
 

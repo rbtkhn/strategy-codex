@@ -18,7 +18,6 @@ if str(SCRIPTS) not in sys.path:
 import export_runtime_bundle as erb  # noqa: E402
 import harness_events as he  # noqa: E402
 
-
 @pytest.fixture
 def work_root() -> Path:
     base = REPO_ROOT / ".test-tmp" / "runtime-audit-root-paths"
@@ -28,7 +27,6 @@ def work_root() -> Path:
         yield root
     finally:
         shutil.rmtree(root, ignore_errors=True)
-
 
 def test_harness_event_appends_under_operator_events(work_root: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     import repo_io
@@ -45,7 +43,6 @@ def test_harness_event_appends_under_operator_events(work_root: Path, monkeypatc
     row = json.loads(path.read_text(encoding="utf-8").strip())
     assert row["fork_id"] == "strategy-codex"
     assert row["harness_id"] == "unit"
-
 
 def test_runtime_bundle_defaults_to_root_bundle_dir(work_root: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr(erb, "REPO_ROOT", work_root)

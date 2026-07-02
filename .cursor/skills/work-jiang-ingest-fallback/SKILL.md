@@ -105,7 +105,6 @@ If verification cannot be completed:
 - do not treat fallback index as canonical registry
 - do not commit unrelated WIP with ingest slice
 
-
 ## Cursor / strategy-codex instance
 
 Grace-mar paths and commands for this repository (from `.cursor/skills/work-jiang-ingest-fallback/`).

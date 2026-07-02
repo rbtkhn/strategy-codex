@@ -1,6 +1,5 @@
 # Kent Support Spine - 2026
 
-
 Purpose: give the Kent starter shelf a speaker-owned support spine beneath routing and above raw provenance. This file does not replace host-local arcs or the source index. It explains what kind of speaker object Kent currently is, where the real density lives, and how the shelf should mature without overstating ownership.
 
 ## What this spine owns

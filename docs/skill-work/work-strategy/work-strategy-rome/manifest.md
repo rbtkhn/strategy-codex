@@ -1,7 +1,7 @@
 # work-strategy-rome — manifest
 
 **Project id:** `work-strategy-rome`  
-**Territory:** `work-strategy` (WORK only).  
+**Territory:** `work-strategy` (non-authoritative).  
 **Companion / Record:** No automatic merge; gate if something must become SELF/EVIDENCE.
 
 ## Scope (in)

@@ -1,6 +1,5 @@
 # Civilization Russia
 
-
 ## Where This Sits
 
 This is Part 1 of the Russia CIV-STATE volume. Open it first when the operator needs Russia's inner continuity logic before moving into imperial reach or operational pressure.

@@ -1,6 +1,5 @@
 # Napolitano cross-host note
 
-
 Purpose: explain how the native `Judging Freedom` host body should be read relative to the guest objects it transforms.
 
 ## Core claim

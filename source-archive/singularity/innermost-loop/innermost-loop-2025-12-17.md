@@ -13,8 +13,6 @@ post_id: 181892997
 
 # The Innermost Loop - 2025-12-17
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 17, 2025
@@ -29,10 +27,7 @@ The miracle of discovery is being deprecated by the Singularity.
 
 ## Newsletter Text
 
--
--
-
-The miracle of discovery is being deprecated by the Singularity. OpenAI and Red Queen Bio have put GPT-5 in charge of a wet lab , where it directed humans and robots to invent a cloning protocol 79x more efficient than standard methods. It isn’t just optimizing biology; it’s accelerating hardware: Quilter’s AI designed a two-board computer system in less than a week , compressing a quarterly engineering cycle into a few days. But the wonder is fading. Terry Tao compares the new era of AI-driven proofs to a magic trick where “awe... can dissipate (or transform to technical respect) once one learns how the trick was performed,” signaling that the “magic” of mathematics is becoming a standard industrial process. To measure this new capability, OpenAI has launched the FrontierScience benchmark to test expert-level reasoning, while ChinaXiv is automatically translating Chinese preprints to finally unify the global scientific corpus.
+- The miracle of discovery is being deprecated by the Singularity. OpenAI and Red Queen Bio have put GPT-5 in charge of a wet lab , where it directed humans and robots to invent a cloning protocol 79x more efficient than standard methods. It isn’t just optimizing biology; it’s accelerating hardware: Quilter’s AI designed a two-board computer system in less than a week , compressing a quarterly engineering cycle into a few days. But the wonder is fading. Terry Tao compares the new era of AI-driven proofs to a magic trick where “awe... can dissipate (or transform to technical respect) once one learns how the trick was performed,” signaling that the “magic” of mathematics is becoming a standard industrial process. To measure this new capability, OpenAI has launched the FrontierScience benchmark to test expert-level reasoning, while ChinaXiv is automatically translating Chinese preprints to finally unify the global scientific corpus.
 
 The sensorium is fully synthesized. OpenAI has released its new GPT Image 1.5 model , which instantly took the #1 spot on LMArena, while Meta unveiled the SAM Audio model to isolate any sound from any source. Resemble AI calls its new Chatterbox Turbo a “DeepSeek moment” for voice; notably, it is MIT-licensed, giving developers a state-of-the-art audio engine without the restrictive commercial shackles of big tech. Google is organizing the output: Gemini Deep Research now generates inline charts and animations, while its new “CC” agent digests your entire digital life into a daily briefing and drafts your emails.
 

@@ -20,18 +20,15 @@ from workflow_depth_control import (  # noqa: E402
     depth_to_mode_and_max_obs,
 )
 
-
 def _unpack(res: tuple):
     mode, reason, phases, guard = res
     return mode, reason, phases, guard
-
 
 def test_depth_to_mode_and_max_obs() -> None:
     assert depth_to_mode_and_max_obs("shallow") == ("compact", 30)
     assert depth_to_mode_and_max_obs("normal") == ("medium", 30)
     assert depth_to_mode_and_max_obs("deep") == ("deep", 30)
     assert depth_to_mode_and_max_obs("exhaustive") == ("deep", 48)
-
 
 def test_count_contradiction_refs() -> None:
     rows = [
@@ -40,7 +37,6 @@ def test_count_contradiction_refs() -> None:
         {"contradiction_refs": ["c"]},
     ]
     assert count_contradiction_refs(rows) == 3
-
 
 def test_auto_no_hits_escalates() -> None:
     mode, reason, phases, guard = _unpack(
@@ -60,7 +56,6 @@ def test_auto_no_hits_escalates() -> None:
     assert any(p.get("phase") == "phase_2_quality_guard" for p in phases)
     assert "guard_summary" in guard
 
-
 def test_auto_sufficient_signal_compact() -> None:
     mode, reason, _, guard = _unpack(
         auto_decide_format(
@@ -77,7 +72,6 @@ def test_auto_sufficient_signal_compact() -> None:
     assert reason == "sufficient_signal"
     assert guard.get("guard_summary") is not None
 
-
 def test_auto_contradiction_escalates() -> None:
     pool = [{"contradiction_refs": ["a", "b", "c", "d"]}]
     mode, reason, _, _ = _unpack(
@@ -93,7 +87,6 @@ def test_auto_contradiction_escalates() -> None:
     )
     assert mode == "medium"
     assert reason == "high_contradiction_density"
-
 
 def test_duplicate_evidence_bloom_halts_low_util_escalation() -> None:
     """Most pool rows repeat the same title as compact-selected evidence."""
@@ -126,7 +119,6 @@ def test_duplicate_evidence_bloom_halts_low_util_escalation() -> None:
     assert guard["stop_signal"] == "duplicate_evidence_ratio"
     assert guard["guard_veto"] is True
     assert "new_total_items" in guard["guard_summary"]
-
 
 def test_diminishing_returns_halts_low_util_escalation() -> None:
     """Pool is large but almost all obs_ids already in compact selection; only four pool rows repeat selected titles so duplicate ratio stays below bloom threshold."""
@@ -161,7 +153,6 @@ def test_diminishing_returns_halts_low_util_escalation() -> None:
     assert float(qg["signal_value"]) <= THRESHOLD_MARGINAL_SUPPORT_GAIN
     assert guard["stop_signal"] == "marginal_support_gain"
 
-
 def test_anchor_drift_risk_halts_low_util_escalation() -> None:
     """Narrow anchor tokens vs generic pool text → high drift (dup ratio and marginal stay below other thresholds)."""
     pool_rows = []
@@ -194,7 +185,6 @@ def test_anchor_drift_risk_halts_low_util_escalation() -> None:
     assert qg["signal"] == "anchor_drift_risk"
     assert float(qg["signal_value"]) >= THRESHOLD_ANCHOR_DRIFT_RISK
     assert guard["stop_signal"] == "anchor_drift_risk"
-
 
 def test_healthy_low_util_still_escalates_to_medium() -> None:
     """Distinct pool rows, anchor words overlap pool, marginal support not depleted."""
@@ -230,7 +220,6 @@ def test_healthy_low_util_still_escalates_to_medium() -> None:
     assert guard.get("guard_veto") is not True
     assert "stop_signal" in guard
 
-
 def test_guard_receipt_has_expected_keys() -> None:
     _, _, _, guard = _unpack(
         auto_decide_format(
@@ -243,7 +232,6 @@ def test_guard_receipt_has_expected_keys() -> None:
     )
     assert "guard_summary" in guard
     assert isinstance(guard["guard_summary"], dict)
-
 
 def test_governance_module_has_no_record_write_paths() -> None:
     """PR 4: workflow_depth_control stays a prepared-context helper — no gate/SELF paths."""

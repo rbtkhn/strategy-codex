@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # US EU Panic $100 Oil Price; Khamenei's Hardline Son New Iran Leader Gets Putin Backing; Gulf Crisis
 
-

@@ -28,7 +28,6 @@ Part I follows Jiang's Civilization lectures in classroom order, transcript-back
 
 End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md — divergence IDs from divergences.jsonl where linked; not chapter_end_predictions (Volume I only).
 
-
 ## Part II (after Part I)
 
 ### Part II — Divergence (Civilization)
@@ -36,7 +35,6 @@ End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md �
 **Begins after:** `civ-ch60`
 
 Historiography and divergence — how Jiang's claims compare to named mainstream or contested positions, using divergence-tracking and book/PART-II-CIVILIZATION-DIVERGENCE.md. Not a forecast scorecard.
-
 
 ## Chapters (Part I)
 

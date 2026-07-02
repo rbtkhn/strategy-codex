@@ -15,7 +15,6 @@ from integrations.scenario_lab.visualize_simulation import (
     build_visualization_markdown,
 )
 
-
 class ScenarioLabBridgeTests(unittest.TestCase):
     def test_build_packet_collects_evidence(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -85,7 +84,6 @@ class ScenarioLabBridgeTests(unittest.TestCase):
         self.assertEqual(bundle["family"], "civ-emp")
         self.assertEqual(bundle["subsurface"], "ce-emp")
         self.assertEqual(bundle["intent"], "briefing")
-
 
 if __name__ == "__main__":
     unittest.main()

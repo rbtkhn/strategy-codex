@@ -1,6 +1,5 @@
 # Panama Framework - Three-Lane Comparison
 
-
 | lane | wants | fears | workable formula |
 | --- | --- | --- | --- |
 | America | reliable transit | ownership backlash | water compact without command claim |

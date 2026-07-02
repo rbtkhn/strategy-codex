@@ -1,7 +1,5 @@
 # Singularity Action Cards
 
-WORK only; not Record.
-
 This shelf contains dated action cards for declared Singularity loops.
 
 Action cards convert loop attention into concrete, reviewable work.

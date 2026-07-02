@@ -56,7 +56,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 It was that evil loss. >> Well, I was going to ask you uh I meant to ask you, but I'm I'll ask you now. I mean, do you ever use the bathroom? I mean, cuz like I see all these all these interviews you're doing. >> Yeah, I I do between the interviews. I used to during the live what happens during the audience could know now what happens during the live in the war.

@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Who is calling the shots between the United States and Israel? Where is this war going? And are we right on the cusp of having a negotiated settlement? And maybe even more importantly than that, where does the United States go? Even aside from this war after this? And has our place in both the region and in the world view been diminished no matter how the war comes out? We're going to talk about all of that today.

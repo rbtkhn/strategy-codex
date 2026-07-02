@@ -14,13 +14,11 @@ if str(SCRIPTS) not in sys.path:
 
 import suggest_morning_forks as smf  # noqa: E402
 
-
 def test_build_fork_scores_returns_sorted_desc():
     rows = smf.build_fork_scores("grace-mar")
     assert len(rows) >= 4
     scores = [r[0] for r in rows]
     assert scores == sorted(scores, reverse=True)
-
 
 def test_each_fork_has_id_title_why():
     for sc, fid, title, why in smf.build_fork_scores("grace-mar"):
@@ -28,7 +26,6 @@ def test_each_fork_has_id_title_why():
         assert title
         assert why
         assert isinstance(sc, float)
-
 
 def test_format_markdown_contains_user_and_commands():
     ranked = smf.build_fork_scores("grace-mar")

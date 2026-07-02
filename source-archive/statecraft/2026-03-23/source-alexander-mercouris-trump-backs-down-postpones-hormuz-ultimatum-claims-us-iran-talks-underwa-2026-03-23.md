@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Trump Backs Down; Postpones Hormuz Ultimatum; Claims US Iran Talks Underway; Iran Defiant; NO Talks
 
-

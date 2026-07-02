@@ -46,7 +46,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Iran MOU And Lebanon First Paragraph
 
 **Andrew Napolitano:** Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, June 29th, 2026. Ray McGovern will be with us in just a moment on what's the latest going on in the Kremlin. Ray McGovern, welcome here. Uh my dear friend, before um we get to Zelensky and whether his drones are militarily effective or being uh launched for domestic political purposes. Uh let's talk about the other hot spot which is uh Iran. Is the memorandum of understanding unraveling in your view?

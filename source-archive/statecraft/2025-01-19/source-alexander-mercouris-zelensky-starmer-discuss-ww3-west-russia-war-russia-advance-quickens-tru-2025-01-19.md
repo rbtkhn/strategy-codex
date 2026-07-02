@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Zelensky, Starmer Discuss WW3; West-Russia War, Russia Advance Quickens; Trump Xi Talk
 
-

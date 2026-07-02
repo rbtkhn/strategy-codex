@@ -29,7 +29,6 @@ ISRAEL_CHILD_IDS = (
     "israel_internal_political_fragmentation",
 )
 
-
 def infer_horizon(event: dict[str, Any]) -> str:
     if event.get("horizon"):
         return str(event["horizon"])
@@ -39,7 +38,6 @@ def infer_horizon(event: dict[str, Any]) -> str:
     if start >= "2024-01-01":
         return "medium"
     return "long"
-
 
 def infer_prediction_type(event: dict[str, Any]) -> str:
     if event.get("prediction_type") in PREDICTION_TYPES:
@@ -51,7 +49,6 @@ def infer_prediction_type(event: dict[str, Any]) -> str:
         return "trajectory"
     return "falsifiable_claim"
 
-
 def infer_event_type(event: dict[str, Any]) -> str:
     if event.get("event_type") in EVENT_TYPES:
         return str(event["event_type"])
@@ -61,7 +58,6 @@ def infer_event_type(event: dict[str, Any]) -> str:
     if "trajectory" in str(event.get("event_id") or ""):
         return "trajectory"
     return "atomic"
-
 
 def infer_outcome_record(event: dict[str, Any]) -> str:
     if event.get("outcome_record") in OUTCOME_RECORDS:
@@ -75,7 +71,6 @@ def infer_outcome_record(event: dict[str, Any]) -> str:
     if outcome in {"yes", "no"}:
         return "correct"
     return "mixed"
-
 
 def normalize_event_v4(event_id: str, event: dict[str, Any]) -> dict[str, Any]:
     out = dict(event)
@@ -91,21 +86,17 @@ def normalize_event_v4(event_id: str, event: dict[str, Any]) -> dict[str, Any]:
         out["last_seen"] = str(out.get("resolved_date") or out.get("start_date") or "")
     return out
 
-
 def _failure_modes_from_model(model: Any) -> list[dict[str, Any]]:
     if not isinstance(model, dict):
         return []
     modes = model.get("failure_modes")
     return list(modes) if isinstance(modes, list) else []
 
-
 def has_string_falsifier(row: dict[str, Any]) -> bool:
     return bool(str(row.get("falsifier") or "").strip())
 
-
 def has_valid_falsifier_model(row: dict[str, Any]) -> bool:
     return not validate_falsifier_model(row.get("falsifier_model"))
-
 
 def has_falsifier_coverage(row: dict[str, Any]) -> bool:
     if row.get("not_falsifiable") is True:
@@ -115,7 +106,6 @@ def has_falsifier_coverage(row: dict[str, Any]) -> bool:
     if has_string_falsifier(row):
         return True
     return has_valid_falsifier_model(row)
-
 
 def validate_falsifier_model(model: Any) -> list[str]:
     errors: list[str] = []
@@ -153,7 +143,6 @@ def validate_falsifier_model(model: Any) -> list[str]:
         errors.append(f"falsifier_model inference_source invalid: {source!r}")
     return errors
 
-
 def shannon_entropy(probabilities: list[float]) -> float:
     import math
 
@@ -163,14 +152,12 @@ def shannon_entropy(probabilities: list[float]) -> float:
             entropy -= float(p) * math.log2(float(p))
     return round(entropy, 4)
 
-
 def falsifier_confidence_from_entropy(entropy: float) -> str:
     if entropy >= HIGH_ENTROPY_THRESHOLD:
         return "low"
     if entropy >= 0.65:
         return "medium"
     return "high"
-
 
 def falsifier_key_for_fingerprint(row: dict[str, Any]) -> str | tuple[str, ...]:
     if has_string_falsifier(row):
@@ -193,7 +180,6 @@ def falsifier_key_for_fingerprint(row: dict[str, Any]) -> str | tuple[str, ...]:
                 return pairs
     return ""
 
-
 def predictive_fingerprint(event_id: str, event: dict[str, Any]) -> tuple[str, ...]:
     event_type = infer_event_type(event)
     horizon = infer_horizon(event)
@@ -204,7 +190,6 @@ def predictive_fingerprint(event_id: str, event: dict[str, Any]) -> tuple[str, .
         dim_ids = tuple(sorted(str(d.get("id") or "") for d in (event.get("dimensions") or [])))
         return ("trajectory", question, falsifier_key, horizon, mechanism, dim_ids)
     return ("atomic", question, falsifier_key, horizon, mechanism)
-
 
 def find_duplicate_fingerprints(
     events: dict[str, dict[str, Any]],
@@ -219,7 +204,6 @@ def find_duplicate_fingerprints(
             dupes.append({"fingerprint": fp, "event_ids": ids})
     return dupes
 
-
 def fingerprint_gate_errors(events: dict[str, dict[str, Any]]) -> list[str]:
     errors: list[str] = []
     for dupe in find_duplicate_fingerprints(events):
@@ -232,7 +216,6 @@ def fingerprint_gate_errors(events: dict[str, dict[str, Any]]) -> list[str]:
         if len(active) > 1:
             errors.append(f"duplicate predictive fingerprint: {active}")
     return errors
-
 
 def upsert_fingerprint_collision(
     event_id: str,
@@ -250,7 +233,6 @@ def upsert_fingerprint_collision(
         if predictive_fingerprint(other_id, other) == fp:
             errors.append(f"{event_id}: fingerprint collision with {other_id}")
     return errors
-
 
 def map_speech_act_to_semantic(speech_act: str | None, *, stance_flip: bool = False) -> str:
     act = str(speech_act or "").strip()

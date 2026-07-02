@@ -13,7 +13,6 @@ from scripts.generate_cici_ai_daily_brief import (
     render_telegram_brief,
 )
 
-
 class GenerateCiciAIDailyBriefTests(unittest.TestCase):
     def test_parse_latest_dashboard_row_uses_latest_filled_row(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -213,7 +212,6 @@ Post next-ob1-fork-proof-post-2026-04-30.md and route replies into progress.
             self.assertEqual(notes[0].title, "Newer")
             self.assertEqual(notes[0].confidence, "B")
             self.assertEqual(notes[0].movement_bullets, ["Newer movement."])
-
 
 if __name__ == "__main__":
     unittest.main()

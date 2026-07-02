@@ -41,17 +41,14 @@ REQUIRED_KEYS = frozenset(
     }
 )
 
-
 def _load_fixture(name: str) -> str:
     data = json.loads((FIXTURES / f"{name}.json").read_text(encoding="utf-8"))
     return str(data["body_markdown"])
-
 
 def test_parse_action_menu_order() -> None:
     md = "**B.** Line two body.\n**A.** Line one body.\n"
     lines = parse_action_menu_lines(md)
     assert lines == ["Line one body.", "Line two body."]
-
 
 def test_fidelity_differs_by_slug() -> None:
     lines = [
@@ -65,14 +62,12 @@ def test_fidelity_differs_by_slug() -> None:
     b = evaluate_action_menu("bernstein", lines).fidelity_score
     assert t > b
 
-
 def test_discrimination_good_gt_bad_dup() -> None:
     good_md = _load_fixture("good")
     bad_md = _load_fixture("bad_dup")
     _, s_good = evaluate_markdown_menu("toscanini", good_md)
     _, s_bad = evaluate_markdown_menu("toscanini", bad_md)
     assert s_good.discrimination_score > s_bad.discrimination_score
-
 
 def test_grounding_good_gt_bad_vague() -> None:
     good_md = _load_fixture("good")
@@ -81,7 +76,6 @@ def test_grounding_good_gt_bad_vague() -> None:
     _, s_bad = evaluate_markdown_menu("toscanini", bad_md)
     assert s_good.grounding_score > s_bad.grounding_score
     assert s_good.grounding_reference_count > s_bad.grounding_reference_count
-
 
 def test_build_metrics_payload_rejects_unknown_slug() -> None:
     with pytest.raises(ValueError, match="unknown conductor_slug"):
@@ -92,7 +86,6 @@ def test_build_metrics_payload_rejects_unknown_slug() -> None:
             user="grace-mar",
         )
 
-
 def test_build_metrics_payload_rejects_bad_origin() -> None:
     with pytest.raises(ValueError, match="invalid session_origin"):
         build_metrics_payload(
@@ -101,7 +94,6 @@ def test_build_metrics_payload_rejects_bad_origin() -> None:
             session_origin="invalid",
             user="grace-mar",
         )
-
 
 def test_harness_emits_schema_shaped_json(tmp_path: Path) -> None:
     out = tmp_path / "metrics.json"
@@ -131,7 +123,6 @@ def test_harness_emits_schema_shaped_json(tmp_path: Path) -> None:
     assert payload["schema_version"] == "conductor-session-metrics.v1"
     assert payload["evaluation"] == {"method": "heuristic_v1", "deterministic": True}
     assert payload["conductor_slug"] == "toscanini"
-
 
 def test_harness_refuses_forbidden_users_output() -> None:
     proc = subprocess.run(

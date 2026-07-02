@@ -1,6 +1,5 @@
 # Freeman backward extension note
 
-
 Purpose: define the next consolidation pass that extends Freeman's canonical thread-atlas surface backward from December 2025 to January 2025 without pretending that the extension is already complete.
 
 ## Current situation

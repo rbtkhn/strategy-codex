@@ -20,7 +20,6 @@ from registry_pipeline.contracts import (  # noqa: E402
 )
 from prediction_lib import load_event_registry  # noqa: E402
 
-
 def validate_falsifiers(
     events: dict[str, dict[str, Any]],
     *,
@@ -76,7 +75,6 @@ def validate_falsifiers(
                             warnings.append(msg)
     return errors, warnings, high_entropy
 
-
 def validate_trajectory_v4(events: dict[str, dict[str, Any]]) -> list[str]:
     errors: list[str] = []
     for event_id, event in sorted(events.items()):
@@ -91,7 +89,6 @@ def validate_trajectory_v4(events: dict[str, dict[str, Any]]) -> list[str]:
                 errors.append(f"{event_id}: trajectory missing dimensions[]")
     return errors
 
-
 def run_falsifier_validator(
     *,
     registry_path: Path | None = None,
@@ -104,7 +101,6 @@ def run_falsifier_validator(
     errors = reg_errors + fals_errors + traj_errors
     warnings = reg_warnings + fals_warnings
     return errors, warnings, high_entropy
-
 
 def main() -> int:
     import argparse
@@ -128,7 +124,6 @@ def main() -> int:
         return 1
     print(f"[ok] falsifier validator passed ({len(warnings)} warning(s), {len(high_entropy)} high-entropy)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

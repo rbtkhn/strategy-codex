@@ -31,14 +31,12 @@ HASH_EXCLUDE_PATHS = {
     "runtime/operator-events/repo-convergence.jsonl",
 }
 
-
 @dataclass
 class CommandResult:
     cmd: list[str]
     returncode: int
     stdout_tail: str
     stderr_tail: str
-
 
 def utc_now() -> str:
     return (
@@ -48,10 +46,8 @@ def utc_now() -> str:
         .replace("+00:00", "Z")
     )
 
-
 def repo_path(rel: str) -> Path:
     return REPO_ROOT / rel
-
 
 def repo_rel(path: Path) -> str:
     try:
@@ -59,10 +55,8 @@ def repo_rel(path: Path) -> str:
     except ValueError:
         return path.as_posix()
 
-
 def should_hash_path(path: Path) -> bool:
     return repo_rel(path) not in HASH_EXCLUDE_PATHS
-
 
 def hash_paths(paths: tuple[str, ...] | list[str]) -> str:
     h = hashlib.sha256()
@@ -84,22 +78,18 @@ def hash_paths(paths: tuple[str, ...] | list[str]) -> str:
                 h.update(p.read_bytes())
     return h.hexdigest()
 
-
 def load_state() -> dict[str, Any]:
     if not STATE_PATH.exists():
         return {}
     return json.loads(STATE_PATH.read_text(encoding="utf-8"))
 
-
 def save_state(state: dict[str, Any]) -> None:
     STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
     STATE_PATH.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
-
 def tail(text: str, lines: int = 8) -> str:
     parts = text.strip().splitlines()
     return "\n".join(parts[-lines:]) if parts else ""
-
 
 def normalize_cmd(cmd: tuple[str, ...] | list[str]) -> list[str]:
     parts = list(cmd)
@@ -110,7 +100,6 @@ def normalize_cmd(cmd: tuple[str, ...] | list[str]) -> list[str]:
     if parts[0].startswith("scripts/"):
         return [sys.executable, *parts]
     return parts
-
 
 def run_command(cmd: tuple[str, ...] | list[str]) -> CommandResult:
     argv = normalize_cmd(cmd)
@@ -127,12 +116,10 @@ def run_command(cmd: tuple[str, ...] | list[str]) -> CommandResult:
         stderr_tail=tail(proc.stderr),
     )
 
-
 def append_log(event: dict[str, Any]) -> None:
     LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
     with LOG_PATH.open("a", encoding="utf-8") as handle:
         handle.write(json.dumps(event, sort_keys=True) + "\n")
-
 
 def topo_sort_loops(names: list[str]) -> list[str]:
     name_set = set(names)
@@ -168,7 +155,6 @@ def topo_sort_loops(names: list[str]) -> list[str]:
         raise SystemExit("cycle detected in loop dependency graph")
     return ordered
 
-
 def closure_with_deps(loop_name: str) -> list[str]:
     if loop_name not in LOOPS:
         raise SystemExit(f"unknown loop: {loop_name}")
@@ -182,19 +168,16 @@ def closure_with_deps(loop_name: str) -> list[str]:
         stack.extend(LOOPS[name].depends_on)
     return topo_sort_loops(sorted(needed))
 
-
 def mark_transitive_dependents_dirty(source: str, dirty: set[str]) -> None:
     for name, spec in LOOPS.items():
         if source in spec.depends_on and name not in dirty:
             dirty.add(name)
             mark_transitive_dependents_dirty(name, dirty)
 
-
 def selected_loop_names(loop_name: str | None) -> list[str]:
     if loop_name:
         return closure_with_deps(loop_name)
     return topo_sort_loops(sorted(LOOPS))
-
 
 def explain_loops(*, as_json: bool) -> int:
     payload = {
@@ -236,11 +219,9 @@ def explain_loops(*, as_json: bool) -> int:
         print()
     return 0
 
-
 def maybe_append_log(event: dict[str, Any], *, record_run: bool) -> None:
     if record_run:
         append_log(event)
-
 
 def run_loops(
     *,
@@ -386,7 +367,6 @@ def run_loops(
 
     return report, new_state, rc
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     mode = parser.add_mutually_exclusive_group()
@@ -440,7 +420,6 @@ def main() -> int:
             print(f"[{report['status']}] check complete; report not written")
 
     return rc
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

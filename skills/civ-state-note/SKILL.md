@@ -20,7 +20,6 @@ synced_by: sync_portable_skills.py
 ---
 # CIV-STATE Note
 
-
 **Activation:** `civ-state note` · `civ-state-note` · `promote civ-state note` · **`CIV-STATE note`** (when class is clear)
 
 Procedure skill for **bounded operator notes** under `statecraft/notes/` when the argument is **CIV-STATE-adjacent** — civilizational pattern, empire/state continuity, public-shelf retrieval gap, or wire+archive seam that benefits from **`public/civ-state/`** framing before (or instead of) reader-facing essay work.
@@ -84,7 +83,7 @@ Do **not** paste public essay body into the note. Do **not** duplicate civic-cha
 
 ## Note shape (bounded)
 
-First line: `WORK only; not Record.`
+Classify as **instrumental work** (not Record). See [work-membrane-v2.md](../../docs/work-membrane-v2.md).
 
 Strong **`civ-state-note`** objects usually include:
 

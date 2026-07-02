@@ -1,6 +1,5 @@
 # Interpretive Machine Corporate Applications
 
-
 This legacy compatibility path no longer owns the canonical doctrine.
 
 The canonical home is now:

@@ -42,17 +42,14 @@ ALLOWED_TARGET_SURFACES = {"self"}
 ALLOWED_MIND_CATEGORIES = {"knowledge", "curiosity", "personality"}
 ALLOWED_GROUNDING_MODES = {"scaffold", "strict"}
 
-
 def extract_json_block(markdown: str) -> dict[str, Any]:
     match = JSON_BLOCK_RE.search(markdown)
     if not match:
         raise ValueError("train.md must contain exactly one fenced JSON block")
     return json.loads(match.group(1))
 
-
 def load_train_payload(path: Path) -> dict[str, Any]:
     return extract_json_block(path.read_text(encoding="utf-8"))
-
 
 def validate_payload(payload: dict[str, Any]) -> list[str]:
     errors: list[str] = []
@@ -142,7 +139,6 @@ def validate_payload(payload: dict[str, Any]) -> list[str]:
             errors.append(f"candidate_bundle.{optional_key} must be a non-empty string when present")
 
     return errors
-
 
 def validate_grounding(payload: dict[str, Any], *, strict: bool) -> list[str]:
     candidate = payload.get("candidate_bundle")

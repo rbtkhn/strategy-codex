@@ -1,6 +1,6 @@
 # Singularity-Academy Sprint Discovery Call Worksheet
 
-WORK only. This is an operator worksheet, not client proof.
+non-authoritative. This is an operator worksheet, not client proof.
 
 ## Purpose
 

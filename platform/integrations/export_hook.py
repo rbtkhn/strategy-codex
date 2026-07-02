@@ -28,7 +28,6 @@ try:
 except ImportError:
     from scripts.export_runtime_bundle import export_runtime_bundle
 
-
 def _prepend_constitution_prefix(out_dir: Path) -> int:
     """
     Prepend machine-readable constitution summary to USER.md for OpenClaw.
@@ -74,7 +73,6 @@ def _prepend_constitution_prefix(out_dir: Path) -> int:
         return 0
     user_md.write_text(prefix + original, encoding="utf-8")
     return 0
-
 
 def run_export(
     target: str,
@@ -167,7 +165,6 @@ def run_export(
 
     return 0
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Export Grace-Mar Record for downstream platform/integrations"
@@ -189,7 +186,6 @@ def main() -> int:
     args = parser.parse_args()
     out = Path(args.output) if args.output else None
     return run_export(args.target, out, args.user, openclaw_format=args.openclaw_format)
-
 
 if __name__ == "__main__":
     sys.exit(main())

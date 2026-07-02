@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia Strikes; Kiev Ukraine Go Dark; Mirnograd Collapse; Zelensky UK/EU Surreal Talks NO To US Plan
 
-

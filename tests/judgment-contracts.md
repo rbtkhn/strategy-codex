@@ -1,7 +1,5 @@
 # Judgment Contracts
 
-WORK only; not Record.
-
 This file indexes the deterministic contract tests that guard strategy-codex judgment workflows. These tests do not prove that geopolitical conclusions are true. They prove that the working artifacts keep their source discipline, role boundaries, forecast discipline, path hygiene, and instrument shape under pressure.
 
 ## Contract Map

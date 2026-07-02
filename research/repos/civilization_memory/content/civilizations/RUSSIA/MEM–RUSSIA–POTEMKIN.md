@@ -158,7 +158,6 @@ Primary source (Imperial Manifesto on Crimea, 1783):
 henceforth united to the Russian Empire, not as spoil of war, but as a
 measure of lasting security.”
 
-
 Massie describes Potemkin's war administration philosophy:
 
 "Potemkin understood that war was not about brilliant maneuvers or

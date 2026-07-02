@@ -18,7 +18,6 @@ sync_policy: manual_curated_fork
 canonical_source_note: Manual curated fork for academy/theology; update deliberately when source changes matter.
 -->
 
-
 # The Delusion of Separation
 
 ### Recognition Theory, the Seam, and the Frequencies We Tune To

@@ -14,7 +14,7 @@
   "daily_inbox_exists": true,
   "daily_inbox_lines": 1047,
   "prediction_ledger_exists": true,
-  "open_prediction_count": 20,
+  "prediction_row_count": 20,
   "stale_status_warning": false,
   "status_errors": [],
   "compiled_views_note": "Compiled views and strategy-console outputs are derived only.",

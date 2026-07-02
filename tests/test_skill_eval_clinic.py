@@ -14,7 +14,6 @@ ROOT = Path(__file__).resolve().parent.parent
 SCRIPT = ROOT / "scripts" / "runtime" / "skill_eval_clinic.py"
 SCHEMA_PATH = ROOT / "schemas" / "skill-eval-report.v1.schema.json"
 
-
 def load_module():
     spec = importlib.util.spec_from_file_location("skill_eval_clinic", SCRIPT)
     assert spec is not None
@@ -23,7 +22,6 @@ def load_module():
     sys.modules[spec.name] = module
     spec.loader.exec_module(module)
     return module
-
 
 def test_strong_skill_scores_high(tmp_path: Path) -> None:
     module = load_module()
@@ -61,7 +59,6 @@ Avoid treating runtime context as durable truth. Do not bypass review.
     assert report.overall_score >= 85
     assert report.schema_version == "skill-eval-report.v1"
 
-
 def test_weak_skill_generates_candidate_improvements(tmp_path: Path) -> None:
     module = load_module()
     skill = tmp_path / "SKILL.md"
@@ -75,7 +72,6 @@ Do the thing quickly.
     report = module.evaluate_skill(skill)
     assert report.overall_score < 70
     assert len(report.candidate_improvements) >= 3
-
 
 def test_report_json_shape(tmp_path: Path) -> None:
     module = load_module()
@@ -96,7 +92,6 @@ Evidence and source references are required. Known risk: stale runtime context.
     assert "findings" in jsonable
     assert "candidate_improvements" in jsonable
     assert "governance_note" in jsonable
-
 
 def test_emitted_json_validates_against_schema(tmp_path: Path) -> None:
     pytest.importorskip("jsonschema")
@@ -124,7 +119,6 @@ Known failure mode: over-promotion of runtime context.
     schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
     Draft202012Validator(schema).validate(jsonable)
 
-
 def test_markdown_report_contains_governance_note(tmp_path: Path) -> None:
     module = load_module()
     skill = tmp_path / "SKILL.md"
@@ -147,7 +141,6 @@ Known failure mode: over-promotion of runtime context.
     markdown = module.report_to_markdown(report)
     assert "Governance Note" in markdown
     assert "does not edit, approve, or merge" in markdown
-
 
 def test_cli_writes_reports(tmp_path: Path) -> None:
     pytest.importorskip("jsonschema")
@@ -179,7 +172,6 @@ Known failure mode: treating runtime context as durable truth.
     assert md.exists()
     parsed = json.loads(out.read_text(encoding="utf-8"))
     assert parsed["schema_version"] == "skill-eval-report.v1"
-
 
 def test_cli_main_subprocess_smoke(tmp_path: Path) -> None:
     pytest.importorskip("jsonschema")

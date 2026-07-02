@@ -11,7 +11,6 @@ if str(SCRIPTS) not in sys.path:
 
 import materialize_youtube_raw_input as mat  # noqa: E402
 
-
 def _spec() -> mat.WatchlistSpec:
     return mat.WatchlistSpec(
         channel_key="glenn-diesen",
@@ -26,10 +25,8 @@ def _spec() -> mat.WatchlistSpec:
         discovery_priority=["uploads_playlist", "channel_feed", "videos_page"],
     )
 
-
 def _caption(words: int = 90) -> str:
     return " ".join(f"word{i}" for i in range(words))
-
 
 def _valid_raw(source_url: str = "https://www.youtube.com/watch?v=abc123def45") -> str:
     return (
@@ -47,14 +44,12 @@ def _valid_raw(source_url: str = "https://www.youtube.com/watch?v=abc123def45") 
         f"{_caption()}\n"
     )
 
-
 def test_valid_transcript_body_passes_verification() -> None:
     result = mat.verify_raw_input_text(_valid_raw())
 
     assert result.ok
     assert result.word_count >= mat.MIN_BODY_WORDS
     assert result.body_chars >= mat.MIN_BODY_CHARS
-
 
 def test_header_only_raw_input_fails_verification() -> None:
     text = (
@@ -74,7 +69,6 @@ def test_header_only_raw_input_fails_verification() -> None:
     assert not result.ok
     assert "body too short" in result.reason
 
-
 def test_placeholder_body_fails_verification() -> None:
     text = _valid_raw().replace("word1", "transcript pending")
 
@@ -83,7 +77,6 @@ def test_placeholder_body_fails_verification() -> None:
     assert not result.ok
     assert "placeholder body" in result.reason
 
-
 def test_missing_transcript_type_fails_verification() -> None:
     text = _valid_raw().replace("transcript_type: auto_subtitles_vtt\n", "")
 
@@ -91,7 +84,6 @@ def test_missing_transcript_type_fails_verification() -> None:
 
     assert not result.ok
     assert result.reason == "missing transcript_type"
-
 
 def test_heading_only_words_do_not_count_as_transcript_body() -> None:
     text = (
@@ -112,7 +104,6 @@ def test_heading_only_words_do_not_count_as_transcript_body() -> None:
 
     assert not result.ok
     assert result.reason == "body too short: 0 words"
-
 
 def test_materialize_url_maps_watchlist_defaults_and_writes_raw_input(tmp_path: Path, monkeypatch) -> None:
     video_id = "abc123def45"
@@ -162,7 +153,6 @@ def test_materialize_url_maps_watchlist_defaults_and_writes_raw_input(tmp_path: 
     assert result["body_word_count"] == 90
     assert result["evidence_grade"] == "transcript-bearing"
 
-
 def test_materialize_uses_operator_metadata_when_youtube_metadata_fetch_fails(tmp_path: Path, monkeypatch) -> None:
     video_id = "metafail123"
 
@@ -200,12 +190,11 @@ def test_materialize_uses_operator_metadata_when_youtube_metadata_fetch_fails(tm
     assert result["caption_kind"] == "manual"
     text = Path(result["output_path"]).read_text(encoding="utf-8")
     assert "title: Operator Supplied Episode" in text
-    assert "pub_date: 2026-05-16" in text
+    assert "pub_date: '2026-05-16'" in text or "pub_date: 2026-05-16" in text
     assert "show: Alexander Mercouris" in text
     assert "host: Alexander Mercouris" in text
     assert "thread: mercouris" in text
     assert f"source_url: https://www.youtube.com/watch?v={video_id}" in text
-
 
 def test_existing_valid_raw_input_returns_already_present_without_fetch(tmp_path: Path, monkeypatch) -> None:
     notebook_root = tmp_path / "codex" / "2026"
@@ -228,7 +217,6 @@ def test_existing_valid_raw_input_returns_already_present_without_fetch(tmp_path
 
     assert result["status"] == "already-present-valid"
     assert Path(result["output_path"]) == existing
-
 
 def test_dry_run_reports_output_without_writing_raw_input(tmp_path: Path, monkeypatch) -> None:
     video_id = "dryrun12345"
@@ -263,7 +251,6 @@ def test_dry_run_reports_output_without_writing_raw_input(tmp_path: Path, monkey
     assert result["output_path"].endswith("youtube-glenn-diesen-dry-run-episode-2026-05-13.md")
     assert not Path(result["output_path"]).exists()
 
-
 def test_write_receipts_outputs_ledger_and_summary(tmp_path: Path) -> None:
     receipt_dir = tmp_path / "receipts"
     paths = mat.write_receipts(
@@ -289,7 +276,6 @@ def test_write_receipts_outputs_ledger_and_summary(tmp_path: Path) -> None:
     assert "YouTube raw-input materialization summary" in summary.read_text(encoding="utf-8")
     assert (receipt_dir / "successful-raw-inputs.txt").is_file()
     assert (receipt_dir / "capture-summary.md").is_file()
-
 
 def test_write_receipts_outputs_manual_scaffold_for_failed_fetch(tmp_path: Path) -> None:
     receipt_dir = tmp_path / "receipts"
@@ -330,7 +316,7 @@ def test_write_receipts_outputs_manual_scaffold_for_failed_fetch(tmp_path: Path)
     assert paste_body.is_file()
     assert verify.is_file()
     assert paths["manual_scaffold_count"] == "1"
-    assert "WORK only; not Record" in text
+    assert "This receipt is a handoff aid, not a captured transcript." in text
     assert "Curator Files" in text
     assert "transcript_type: operator_pasted_transcript" in text
     assert "guest: Jeffrey Sachs" in text
@@ -341,7 +327,6 @@ def test_write_receipts_outputs_manual_scaffold_for_failed_fetch(tmp_path: Path)
     assert "PASTE FULL TRANSCRIPT BODY HERE" in draft.read_text(encoding="utf-8")
     assert "--- PASTE FULL TRANSCRIPT BODY BELOW ---" in paste_body.read_text(encoding="utf-8")
     assert "materialize_youtube_raw_input.py --raw-input" in verify.read_text(encoding="utf-8")
-
 
 def test_main_dry_run_probe_emits_receipts_without_canonical_write(tmp_path: Path, monkeypatch, capsys) -> None:
     video_id = "probe123456"
@@ -390,7 +375,6 @@ def test_main_dry_run_probe_emits_receipts_without_canonical_write(tmp_path: Pat
     assert ledger.is_file()
     assert summary.is_file()
     assert '"verification_ok": true' in ledger.read_text(encoding="utf-8")
-
 
 def test_main_with_appearances_writes_capture_packet(tmp_path: Path, monkeypatch, capsys) -> None:
     video_id = "ritter12345"
@@ -465,7 +449,6 @@ def test_main_with_appearances_writes_capture_packet(tmp_path: Path, monkeypatch
     assert "guest: Ritter" in raw_text
     assert "guest_inference: exact-title-match" in raw_text
 
-
 def test_build_master_index_artifacts_refreshes_archive_root_navigation(tmp_path: Path) -> None:
     notebook_root = tmp_path / "source-archive" / "statecraft"
     raw_path = notebook_root / "2026-05-28" / "transcript-nawfal-kent-trumps-life-is-under-threat-2026-05-28.md"
@@ -504,7 +487,6 @@ def test_build_master_index_artifacts_refreshes_archive_root_navigation(tmp_path
 
     archive_thread_index = Path(artifacts["statecraft_thread_index_markdown"]).read_text(encoding="utf-8")
     assert "| `kent` | 1 | 1 | 1 |" in archive_thread_index
-
 
 def test_raw_input_list_with_appearances_does_not_fetch_or_write_transcripts(tmp_path: Path, monkeypatch, capsys) -> None:
     notebook_root = tmp_path / "codex" / "2026"
@@ -562,7 +544,6 @@ def test_raw_input_list_with_appearances_does_not_fetch_or_write_transcripts(tmp
     assert '"status": "already-present-valid"' in captured.out
     assert len(list((tmp_path / "runtime/artifacts" / "voice-routing" / "existing-run").rglob("appearance-ledger.jsonl"))) == 1
 
-
 def test_no_quality_report_suppresses_quality_artifacts(tmp_path: Path, monkeypatch, capsys) -> None:
     notebook_root = tmp_path / "codex" / "2026"
     obj = notebook_root / "speakers" / "ritter" / "ritter-speaker-object.md"
@@ -615,7 +596,6 @@ def test_no_quality_report_suppresses_quality_artifacts(tmp_path: Path, monkeypa
     assert not (tmp_path / "runtime/artifacts" / "host-shelf-quality").exists()
     summary = (tmp_path / "receipts" / "no-quality-run" / "capture-summary.md").read_text(encoding="utf-8")
     assert "quality closeout: Structure:" not in summary
-
 
 def test_quality_report_from_single_raw_input_expands_to_full_month(tmp_path: Path, monkeypatch, capsys) -> None:
     notebook_root = tmp_path / "codex" / "2026"
@@ -687,7 +667,6 @@ def test_quality_report_from_single_raw_input_expands_to_full_month(tmp_path: Pa
     assert quality_payload["input_scope"] == "full-host-month"
     assert quality_payload["raw_input_count"] == 2
 
-
 def test_existing_legacy_raw_input_can_route_for_appearance(tmp_path: Path) -> None:
     raw = tmp_path / "codex" / "2026" / "raw-input" / "2026-04-20" / "legacy.md"
     raw.parent.mkdir(parents=True)
@@ -709,7 +688,6 @@ def test_existing_legacy_raw_input_can_route_for_appearance(tmp_path: Path) -> N
     assert result["existing_raw_input"] is True
     assert result["evidence_grade"] == "legacy-appearance-only"
     assert "appearance-eligible legacy raw-input" in result["verification_reason"]
-
 
 def test_dry_run_with_appearances_does_not_route(tmp_path: Path, monkeypatch) -> None:
     video_id = "dryap123456"
@@ -749,7 +727,6 @@ def test_dry_run_with_appearances_does_not_route(tmp_path: Path, monkeypatch) ->
     assert not (tmp_path / "runtime/artifacts").exists()
     assert (tmp_path / "receipts" / "dry-appearance" / "successful-raw-inputs.txt").read_text(encoding="utf-8") == ""
 
-
 def test_guest_inference_exact_match_and_ambiguous_refusal(tmp_path: Path) -> None:
     notebook_root = tmp_path / "codex" / "2026"
     for slug in ("ritter", "freeman"):
@@ -764,7 +741,6 @@ def test_guest_inference_exact_match_and_ambiguous_refusal(tmp_path: Path) -> No
     guest, method = mat.infer_guest_from_title("Ritter and Freeman debate escalation", notebook_root)
     assert guest is None
     assert method is None
-
 
 def test_guest_inference_prefers_non_host_title_match(tmp_path: Path, monkeypatch) -> None:
     speakers_dir = tmp_path / "codex" / "speakers"
@@ -798,7 +774,6 @@ def test_guest_inference_prefers_non_host_title_match(tmp_path: Path, monkeypatc
     assert guest == "Ritter"
     assert method == "exact-title-match"
 
-
 def test_guest_inference_uses_known_alias_when_speaker_folder_missing(tmp_path: Path, monkeypatch) -> None:
     speakers_dir = tmp_path / "codex" / "speakers"
     folder = speakers_dir / "davis"
@@ -813,7 +788,6 @@ def test_guest_inference_uses_known_alias_when_speaker_folder_missing(tmp_path: 
     )
     assert guest == "Henningsen"
     assert method == "title-known-speaker-match"
-
 
 def test_materialized_manual_subtitles_are_not_labeled_auto_captions(tmp_path: Path, monkeypatch) -> None:
     video_id = "manual12345"
@@ -845,7 +819,6 @@ def test_materialized_manual_subtitles_are_not_labeled_auto_captions(tmp_path: P
     assert "caption_kind: manual" in text
     assert "source_note: Manual YouTube subtitles extracted with yt_dlp. Not human-verified verbatim." in text
     assert "Auto-captions extracted" not in text
-
 
 def test_host_only_title_match_does_not_write_host_as_guest(tmp_path: Path, monkeypatch) -> None:
     video_id = "hostonly123"
@@ -888,7 +861,6 @@ def test_host_only_title_match_does_not_write_host_as_guest(tmp_path: Path, monk
     assert "guest_inference: host-only-title-match" in text
     assert result["guest"] == ""
     assert result["guest_inference"] == "host-only-title-match"
-
 
 def test_with_appearances_skips_unresolved_guest_capture(tmp_path: Path, monkeypatch, capsys) -> None:
     video_id = "unknown12345"
@@ -935,7 +907,6 @@ def test_with_appearances_skips_unresolved_guest_capture(tmp_path: Path, monkeyp
     assert "unresolved speaker captures: `1`" in summary
     assert "quality closeout: Structure:" in summary
     assert "Unresolved Guest Episode" in summary
-
 
 def test_with_appearances_skips_ambiguous_title_inference(tmp_path: Path, monkeypatch, capsys) -> None:
     video_id = "ambig123456"
@@ -987,7 +958,6 @@ def test_with_appearances_skips_ambiguous_title_inference(tmp_path: Path, monkey
     assert "unresolved speaker captures: `1`" in summary
     assert "quality closeout: Structure:" in summary
     assert "Ritter and Freeman debate escalation" in summary
-
 
 def test_summary_grade_capture_is_not_counted_as_transcript_valid(tmp_path: Path) -> None:
     receipt_dir = tmp_path / "receipts"

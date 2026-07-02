@@ -9,14 +9,12 @@ from process_meta_candidates import (
     validate_meta_candidate,
 )
 
-
 def test_allowlist_accepts_scripts_config_bot():
     assert is_allowlisted_path("scripts/foo.py")
     assert is_allowlisted_path("platform/config/fork-config.json")
     assert is_allowlisted_path("runtime/artifacts/meta-diffs/x.patch")
     assert not is_allowlisted_path("self.md")
     assert not is_allowlisted_path("../escape")
-
 
 def test_paths_in_unified_diff():
     diff = """--- a/scripts/x.py
@@ -26,7 +24,6 @@ def test_paths_in_unified_diff():
 +b
 """
     assert "scripts/x.py" in paths_in_unified_diff(diff)
-
 
 def test_extract_meta_skips_non_meta():
     gate = textwrap.dedent(
@@ -46,7 +43,6 @@ def test_extract_meta_skips_non_meta():
         """
     )
     assert extract_meta_candidates(gate) == []
-
 
 def test_extract_meta_with_inline_diff():
     gate = textwrap.dedent(
@@ -81,7 +77,6 @@ def test_extract_meta_with_inline_diff():
     ok, errs = validate_meta_candidate(c, "grace-mar")
     assert ok, errs
 
-
 def test_validate_rejects_bad_target():
     c = {
         "id": "CANDIDATE-0091",
@@ -96,7 +91,6 @@ def test_validate_rejects_bad_target():
     ok, errs = validate_meta_candidate(c, "grace-mar")
     assert not ok
     assert any("allowlisted" in e for e in errs)
-
 
 def test_filter_proposal_class_substr():
     from recursion_gate_review import filter_review_candidates

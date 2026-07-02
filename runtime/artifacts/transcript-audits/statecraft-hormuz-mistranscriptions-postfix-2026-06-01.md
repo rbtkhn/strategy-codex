@@ -1,7 +1,5 @@
 # Hormuz Mistranscription Audit
 
-WORK only; not Record.
-
 - root: `source-archive/statecraft`
 - total candidate files: `55`
 - total findings: `55`

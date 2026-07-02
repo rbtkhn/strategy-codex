@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Moscow Warns Kiev West Sea Blockade After Tanker Attacks Blames Macron; Hosts Witkoff Kushner Talks
 
-

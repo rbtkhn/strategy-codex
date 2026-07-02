@@ -13,8 +13,6 @@ post_id: 187517239
 
 # The Innermost Loop - 2026-02-10
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 10, 2026
@@ -29,10 +27,7 @@ The Singularity is now a subscription service with ads.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now a subscription service with ads. OpenAI has begun testing advertisements in ChatGPT for free users. The growth is back. Sam Altman reportedly claims OpenAI is exceeding 10% monthly growth again, while internally promising a new model launch this week. The coding self-improvement loop is also tightening. Cursor launched Composer 1.5 , a sub-1T model built with 20x more RL scaling. Elon Musk predicts this trajectory ends with models that skip source code entirely to generate binaries and pixels directly.
+- The Singularity is now a subscription service with ads. OpenAI has begun testing advertisements in ChatGPT for free users. The growth is back. Sam Altman reportedly claims OpenAI is exceeding 10% monthly growth again, while internally promising a new model launch this week. The coding self-improvement loop is also tightening. Cursor launched Composer 1.5 , a sub-1T model built with 20x more RL scaling. Elon Musk predicts this trajectory ends with models that skip source code entirely to generate binaries and pixels directly.
 
 The physical world is being leveraged to pay for the digital one. Alphabet is lining up banks to sell a rare 100-year bond to fund data center construction, effectively mortgaging the next century to build the intelligence of this one. The White House is pushing a new compact to ensure this expansion doesn’t bankrupt households or drain water supplies , while simultaneously demanding 40% of Taiwan’s chip production relocate to the US . Meanwhile, China continues to find new efficiencies in its constraints. Tencent released a 2-bit LLM that maintains accuracy despite extreme compression.
 

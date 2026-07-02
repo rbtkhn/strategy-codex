@@ -72,10 +72,6 @@ Quite possibly, however, Trump may be prepared to cut his losses in Iran — the
 
 Here we go again, roundabout time — “Trump says he doesn’t really believe Putin will do anything without pressure”, the Ukrainian official added.
 
-
-
-
-
 Simplicius speculates:
 
 “Trump has clearly been frustrated by his inability to settle any of the conflicts he had promised easily. And recently, on the heels of the Iranian memorandum saga, he even admitted that he would now be “turning his attention” back to Ukraine.

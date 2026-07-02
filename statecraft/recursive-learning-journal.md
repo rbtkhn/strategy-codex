@@ -1,6 +1,5 @@
 # Statecraft Recursive Learning Journal
 
-
 Purpose: keep a durable log of moments when `statecraft/` does not merely classify an object, but **learns a reusable drafting, routing, or architectural law from one object and then reapplies it elsewhere**.
 
 This is not a source-memory substrate and not a speaker shelf. It is a downstream statecraft journal of governed learning events.
@@ -5315,5 +5314,82 @@ theories ship as plugins; core --check stays stable.
 ```
 
 Routing: [plugins/runner.py](../scripts/prediction/plugins/runner.py) · [event-system.md](../docs/statecraft/event-system.md)
+
+---
+
+## 2026-06-30 — Capture-map SAL recuration (payoff-only claim on dense episodes)
+
+**Tag:** `voice-prediction` · `capture-map` · `sal` · `recuration` · `check_capture_map_epistemic`  
+**Cross-link:** [§ Episystem canonicalization (2026-06-30)](#2026-06-30--episystem-canonicalization-single-epistemic-pipeline) — entropy WARNs surface map gaps; fix map, re-run pipeline. [§ Voice prediction public shelf v3 (2026-06-29)](#2026-06-29---voice-prediction-public-shelf-v3--source-trail-citation-grammar) — shelf fields SSOT; this entry adds **SAL geometry** and dry-run iteration protocol.
+
+### Trigger
+
+Freeman Jan-14 Judging Freedom capture — three rows on one transcript (`gaza_hostage_deal_jan_2025`, `us_israel_iran_war_preparation_2025`, `israel_self_destruction_trajectory`). `check_capture_map_epistemic.py --advisory` flagged Gaza (entropy 1.51, fragmentation despite correct primary) and Iran (host question bound as claim, `quote_speaker: host`, stance yes). Operator ran dry-run SAL tables (v1→v3) before commit; shipped Gaza v2 + Iran v3, synced `freeman-predictions.md`, pushed `d38847146` + `29fcaa612`.
+
+### Extracted law
+
+**Recuration follows SAL geometry, not metadata alone.**
+
+```text
+shared episode + multiple registry events
+  → public_excerpt_raw = event-specific payoff clause only
+  → host_setup + context_note = anaphora, drones, host question (not in SAL claim)
+  → quote_speaker must match claim voice (freeman ≠ mixed/host)
+```
+
+**Measured iteration (Jan-14 receipts):**
+
+| Row | Patch | Primary | Entropy | WARNs |
+|-----|-------|---------|---------|-------|
+| Gaza | original | 35.5% | 1.51 | 2 |
+| Gaza | v2 deal-closure | 67.7% | 0.79 | 0 |
+| Iran | v1 host→Freeman full answer | 44.2% | 1.38 | 2 |
+| Iran | v2 trim bomb clause | 46.0% | 1.41 | 2 |
+| Iran | v3 payoff only | 100% | 0.00 | 0 |
+
+**Corollaries:**
+
+- Coercion / diplomatic-sabotage vocabulary (*bullied Netanyahu*, settlement-rejection history) raises `israel_sabotages_exit_ramps` mass even when `capture_map_event_id` is correct.
+- Bomb / airpower language in the same answer raises `iran_airpower_cannot_force_submission` — not fixable by `quote_speaker` alone.
+- Correct primary + high entropy still WARNs — primary below ~70% on multi-event episodes is a recuration signal, not “good enough.”
+
+### Reapplication
+
+- Any capture with ≥2 rows on one transcript and entropy > 1.2 — dry-run excerpt variants before commit; compare full `event_distribution`, not only `primary_event_id`.
+- Advisory queue: host excerpt + stance yes → Freeman payoff; fragmentation + primary < 55% → payoff-only claim with expanded `host_setup`.
+- Next multi-row speaker captures (Mercouris, etc.) — same protocol before shelf sync.
+- Plugin layer: inspect via `epistemic_enriched.json`; recuration edits capture-map + core pipeline — plugins do not fix SAL bleed.
+
+### Structural changes
+
+| Ship / artifact | Receipt |
+|-----------------|---------|
+| Capture map | `statecraft/data/freeman-prediction-capture-map.json` — Gaza v2, Iran v3 |
+| Shelf | `statecraft/voices/freeman/freeman-predictions.md` — host_setup, blockquote, source trail |
+| Artifacts | `epistemic_state.json` + pipeline rollups (recuration commit) |
+| Commits | `d38847146` (recuration) · `29fcaa612` (plugin API, same session arc) |
+
+### Guardrail
+
+```text
+Do not treat metadata fixes (quote_speaker, public_display, prediction_object_terms)
+as recuration complete when alignment_entropy > 1.2 — iterate excerpt window first.
+
+Do not paste multi-event Freeman paragraphs into one row's public_excerpt_raw
+when sibling rows exist on the same capture — payoff line + host_setup beats verbatim length.
+
+Single-event captures with entropy < 0.8 may keep longer verbatim — payoff-only is for dense multi-event episodes.
+
+Cross-link episystem + Freeman v3 shelf entries — narrow extension, not third capture-map doctrine.
+```
+
+### Current lesson
+
+```text
+On dense multi-event transcripts, host_setup is for humans; public_excerpt_raw is for SAL.
+Iran v3: ~20 words bound 100% when sibling rows carry the rest of the episode.
+```
+
+Routing: [check_capture_map_epistemic.py](../scripts/check_capture_map_epistemic.py) · [freeman-prediction-capture-map.json](../statecraft/data/freeman-prediction-capture-map.json) · RLJ [Episystem](#2026-06-30--episystem-canonicalization-single-epistemic-pipeline) · RLJ [Freeman v3 shelf](#2026-06-29---voice-prediction-public-shelf-v3--source-trail-citation-grammar)
 
 ---

@@ -1,6 +1,6 @@
 # AI Operating System Sprint - Cohort Operator Variant
 
-WORK only. Tailored offer variant.
+non-authoritative. Tailored offer variant.
 
 ## Best fit
 

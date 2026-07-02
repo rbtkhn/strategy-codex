@@ -1,6 +1,5 @@
 # Diesen Index
 
-
 Purpose: front door for the canonical first-pass Diesen `civ-lens` shelf.
 
 ## Open First

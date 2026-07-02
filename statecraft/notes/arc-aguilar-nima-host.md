@@ -17,7 +17,6 @@ archive_links:
 
 # Dialogue Works x Aguilar speaker arc
 
-
 Purpose: compact reuse note for the `Dialogue Works x Aguilar` run inside the Alkorshid stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Aguilar lane Nima elicits, which files matter most, and why this is currently the canonical Aguilar branch on disk.
 
 ## Orthogonality guide

@@ -1,6 +1,5 @@
 # Joe Kent speaker object
 
-
 object_shape: cross-host-reinforced
 
 Purpose: define Joe Kent as a durable speaker object for routing, judgment accumulation, and clean re-entry. This is an orientation object, not a provenance ledger and not a substitute for raw-input.

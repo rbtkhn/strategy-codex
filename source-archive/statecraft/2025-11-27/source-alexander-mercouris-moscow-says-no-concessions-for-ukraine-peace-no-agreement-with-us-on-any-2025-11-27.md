@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Moscow Says NO Concessions For Ukraine Peace No Agreement With US On Any Plan; Siversk About To Fall
 
-

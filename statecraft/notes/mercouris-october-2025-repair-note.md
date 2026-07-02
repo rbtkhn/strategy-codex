@@ -18,7 +18,6 @@ archive_links:
 ---
 # Mercouris October 2025 Repair Note
 
-
 ## Purpose
 
 Preserve the truthful month reading after the October 2025 Mercouris recovery pass.

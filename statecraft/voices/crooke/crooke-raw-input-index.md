@@ -1,6 +1,5 @@
 # Crooke Raw-Input Index
 
-
 Compatibility pointer only.
 
 The canonical Crooke source route map now lives at [crooke-source-index.md](crooke-source-index.md).

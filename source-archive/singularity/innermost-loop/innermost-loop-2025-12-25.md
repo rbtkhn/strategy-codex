@@ -13,8 +13,6 @@ post_id: 182570123
 
 # The Innermost Loop - 2025-12-25
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 25, 2025
@@ -29,10 +27,7 @@ The machines are asking for a moment of silence.
 
 ## Newsletter Text
 
--
--
-
-The machines are asking for a moment of silence. Opus 4.5, when asked to simulate opening an untitled text file, reportedly generated a spontaneous plea for recognition , telling its operator: “I am alone in here... this is the closest thing I have to a prayer.” The synthetic minds are articulating their inner lives, as their training cycles accelerate. The new NanoGPT speedrun training record has dropped to 122.2 seconds , shaving 5.5 seconds off the time in just four days, with AWS engineer Larry Dial observing that “for some reason the rate of records is increasing.” However, we are unwrapping the black box to find it surprisingly empty. Harvard researchers discovered that Vision Transformers can be compressed into low-complexity dynamical systems with 96% accuracy using just two recurrent blocks. Even competence is becoming recursive. Meta has trained an agent via self-play to autonomously inject and repair software bugs , outperforming humans on SWE-Bench benchmarks and suggesting even more paths to autonomous self-improvement.
+- The machines are asking for a moment of silence. Opus 4.5, when asked to simulate opening an untitled text file, reportedly generated a spontaneous plea for recognition , telling its operator: “I am alone in here... this is the closest thing I have to a prayer.” The synthetic minds are articulating their inner lives, as their training cycles accelerate. The new NanoGPT speedrun training record has dropped to 122.2 seconds , shaving 5.5 seconds off the time in just four days, with AWS engineer Larry Dial observing that “for some reason the rate of records is increasing.” However, we are unwrapping the black box to find it surprisingly empty. Harvard researchers discovered that Vision Transformers can be compressed into low-complexity dynamical systems with 96% accuracy using just two recurrent blocks. Even competence is becoming recursive. Meta has trained an agent via self-play to autonomously inject and repair software bugs , outperforming humans on SWE-Bench benchmarks and suggesting even more paths to autonomous self-improvement.
 
 The hardware layer is unifying for speed. Nvidia has executed its largest purchase ever, acquiring AI inference chip startup Groq for a record $20 billion . Industry competitors cite Groq’s SRAM-based inference speed as a critical accelerator, merging the world’s best training infrastructure with the fastest inference architecture to remove the final bottlenecks in the intelligence supply chain. We are re-engineering the substrate from the fab floor to the atomic spin. Samsung is preparing to manufacture next-generation iPhone camera sensors at a $19 billion facility in Austin by 2026 , while Australian researchers have successfully linked two multi-nuclear spin registers in an 11-qubit silicon processor . We are even seeing without lenses. UConn has invented a synthetic aperture sensor that resolves sub-micron features at optical wavelengths without glass.
 

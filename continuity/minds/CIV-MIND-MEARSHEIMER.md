@@ -1,7 +1,6 @@
 # CIV-MIND-MEARSHEIMER — redirect (stable path)
 <!-- word_count: 31 -->
 
-
 **Canonical voice profile (SSOT):** [statecraft/voices/mearsheimer/mearsheimer-profile.md](../../statecraft/voices/mearsheimer/mearsheimer-profile.md)
 
 **Compatibility chain:** [`../strategy-expert-mearsheimer-mind.md`](../strategy-expert-mearsheimer-mind.md) → voice profile (do not duplicate corpus here).

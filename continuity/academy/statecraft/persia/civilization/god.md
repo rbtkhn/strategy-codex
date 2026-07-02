@@ -1,7 +1,6 @@
 # Iran God
 <!-- word_count: 1108 -->
 
-
 ## Purpose
 
 Use Iran's sacred-boundary memory as a statecraft lens for Asha and Druj, Islam, Shia legitimacy, martyrdom, justice, dignity, anti-domination, sovereignty, and restraint as righteous endurance rather than surrender.

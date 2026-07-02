@@ -1,7 +1,5 @@
 # Speaker memory action queue
 
-WORK only; not Record.
-
 Window: `2026-03-26` to `2026-05-15`
 
 - `high` `update-existing-arc` `codex/years/2026/davis/davis-kent-speaker-arc.md` (3 appearance(s); grades: transcript-grade)

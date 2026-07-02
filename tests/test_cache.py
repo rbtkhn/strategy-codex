@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import cache
 
-
 def test_load_json_file_caches_until_cleared(tmp_path) -> None:
     cache.clear_cache()
     p = tmp_path / "x.json"
@@ -15,7 +14,6 @@ def test_load_json_file_caches_until_cleared(tmp_path) -> None:
     cache.clear_cache()
     assert cache.load_json_file(p) == {"x": 2}
     cache.clear_cache()
-
 
 def test_load_schema_relative(tmp_path, monkeypatch) -> None:
     cache.clear_cache()

@@ -22,7 +22,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Saturday, 6th June, 2026. And before I start my video, let me first of all begin by making two brief announcements. The first, which is a followup to the announcement I made yesterday, is to remind everyone that tomorrow I am flying to Moscow. Um, well, I'm flying first to Istanbul and then to Moscow.

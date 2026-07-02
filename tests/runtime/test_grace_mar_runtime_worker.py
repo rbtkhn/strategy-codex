@@ -20,7 +20,6 @@ CANONICAL_TOUCH_PATHS = (
     REPO_ROOT / "archive/grace-mar-instance/bot" / "prompt.py",
 )
 
-
 def _validator():
     try:
         import jsonschema
@@ -29,13 +28,11 @@ def _validator():
     schema = json.loads(TRACE_SCHEMA.read_text(encoding="utf-8"))
     return jsonschema.Draft202012Validator(schema)
 
-
 @pytest.fixture
 def worker_env(tmp_path: Path) -> dict[str, str]:
     env = {k: v for k, v in os.environ.items() if k != "OPENAI_API_KEY"}
     env["GRACE_MAR_RUNTIME_WORKER_HOME"] = str(tmp_path / "runtime-worker")
     return env
-
 
 def test_inspect_work_area_dry_run_writes_only_worker_home(
     tmp_path: Path, worker_env: dict[str, str]
@@ -87,7 +84,6 @@ def test_inspect_work_area_dry_run_writes_only_worker_home(
     v = _validator()
     if v is not None:
         v.validate(obj)
-
 
 def test_overlay_strategy_applies_scope_and_task_type_and_runtime_receipt(
     tmp_path: Path, worker_env: dict[str, str]
@@ -143,7 +139,6 @@ def test_overlay_strategy_applies_scope_and_task_type_and_runtime_receipt(
     if v is not None:
         v.validate(obj)
 
-
 def test_overlay_research_explicit_task_type_overrides_default(
     tmp_path: Path, worker_env: dict[str, str]
 ) -> None:
@@ -178,7 +173,6 @@ def test_overlay_research_explicit_task_type_overrides_default(
     assert rr["overlay"] == "research"
     assert rr["task_type"] == "contradiction"
     assert rr["routed_worker"] == "contradiction_worker"
-
 
 def test_task_type_strategy_records_worker_routing_in_trace(
     tmp_path: Path, worker_env: dict[str, str]
@@ -230,7 +224,6 @@ def test_task_type_strategy_records_worker_routing_in_trace(
     if v is not None:
         v.validate(obj)
 
-
 def test_lens_quick_scan_sets_caps_and_trace_lens(
     tmp_path: Path, worker_env: dict[str, str]
 ) -> None:
@@ -259,7 +252,6 @@ def test_lens_quick_scan_sets_caps_and_trace_lens(
     text = next(prop).read_text(encoding="utf-8")
     assert "**lens:** `quick-scan`" in text
     assert "(cap 25)" in text
-
 
 def test_compose_with_allowlist_only() -> None:
     r = subprocess.run(

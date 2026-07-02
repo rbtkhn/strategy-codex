@@ -1,6 +1,5 @@
 # Napolitano book - 2026-01
 
-
 Purpose: route the January 2026 `Judging Freedom` balanced-core guest set inside the native Napolitano shelf.
 
 ## Core anchors

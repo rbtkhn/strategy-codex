@@ -1,6 +1,5 @@
 # Russia Lit
 
-
 ## Purpose
 
 Use Russian literature as a statecraft lens for suffering, moral depth, humiliation, sacrifice, state/soul tension, exile, witness, recognition, civilizational burden, and the difference between dignified compromise and betrayal of suffering.

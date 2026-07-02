@@ -57,7 +57,7 @@ After substantive pass:
 python3 scripts/log_coffee_close.py -u strategy-codex --picked C --outcome partial --readiness orientation --object-ref singularity/workshop/sheets/moonshots-ep-265-spacex-export-control-rsi.md --falsify "pivot-test-pass-layer-0"
 ```
 
-WORK only; not Record; no gate merge.
+non-authoritative; not Record; no gate merge.
 
 ## Boundary
 

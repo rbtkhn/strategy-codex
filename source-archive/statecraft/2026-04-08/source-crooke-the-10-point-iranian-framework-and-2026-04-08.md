@@ -50,10 +50,6 @@ The Isfahan operation thus collapsed with a heavy loss of aircraft. It is unlike
 
 ‘Plan B’ for a quick in-out ‘win’ for Trump had thus evaporated, leaving him with the options of a major military escalation that would extend beyond his self-imposed 4-6 week deadline to conclude the Iran war ahead of (already fraught) midterm elections.
 
-
-
-
-
 For Iran, were their preconditions to be accepted by the US (a big ‘if’), this was viewed in Tehran to provide an opportunity to reshape the regional geo-political balance of power.
 
 Crucial to this analysis is continued Iranian control of Hormuz, the lifting of all sanctions, the eviction of US military forces and US bases from the region, and the ending of the concomitant petro-dollar dominance across the Persian Gulf.

@@ -1,6 +1,5 @@
 # Baud cross-year note
 
-
 Purpose: compact note for keeping the Baud lane historically honest across years without distorting the current 2026 helix classification.
 
 ## Core correction

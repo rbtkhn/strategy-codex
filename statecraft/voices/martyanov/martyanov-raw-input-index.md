@@ -1,6 +1,5 @@
 # Martyanov Raw-Input Index
 
-
 Compatibility pointer only.
 
 The canonical Martyanov source route map now lives at [martyanov-source-index.md](martyanov-source-index.md).

@@ -1,6 +1,5 @@
 # Power, Truth, Time Retrieval Checklist
 
-
 Status: Superseded by `civilization-empire-faith-science-memory-entropy-retrieval-checklist.md`
 Surface: `civ-state`
 Purpose: turn the `power / truth / time` annex into a bounded retrieval discipline before lane translation or clause drafting

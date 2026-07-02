@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Open — Trump Oil Gusher Claims
 
 The oil is gushing. We have won. And Iran had to sign a surrender document. Now, if you may be wondering, no, I I haven't lost my mind, but that is what some people are saying with a straight face about this Iran situation. Uh, not quite congruent with what the reality is on the ground today, though.

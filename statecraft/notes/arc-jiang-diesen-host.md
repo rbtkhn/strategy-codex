@@ -16,7 +16,6 @@ archive_links:
 
 # Diesen × Jiang speaker arc
 
-
 Purpose: compact reuse note for the `Diesen × Jiang` run inside the Diesen stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: which Jiang guest episodes matter most inside this stream, what kind of lane this is, and which file to open first.
 
 ## Orthogonality guide

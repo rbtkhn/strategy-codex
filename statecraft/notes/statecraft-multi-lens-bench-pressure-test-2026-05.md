@@ -19,7 +19,6 @@ archive_links:
 
 See [notes taxonomy](./README.md#thread-and-arc-canonical-draft).
 
-
 # Statecraft Multi-Lens Bench Pressure Test - 2026-05
 
 Purpose: pressure-test the first-wave `statecraft-multi-lens` preset bench on a small set of live objects so the skill can start refining itself from use rather than only from design.

@@ -1,6 +1,5 @@
 # Krapivnik speaker object
 
-
 object_shape: cross-host-reinforced
 
 Purpose: give Stanislav Krapivnik a canonical speaker lane so recurring guest appearances across `Mercouris`, `Diesen`, and `Dialogue Works` count toward a stable participant index.

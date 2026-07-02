@@ -1,7 +1,5 @@
 # Voice and avatar tools — layer separation
 
-WORK only; not Record.
-
 ---
 
 ## Principle

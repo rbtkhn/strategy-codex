@@ -1,7 +1,5 @@
 # System Design Lineage Is Not Unique in Kind
 
-work only; not Record.
-
 **Canonical home:** [../../essays/system-design-lineage-is-not-unique-in-kind.md](../../essays/system-design-lineage-is-not-unique-in-kind.md)
 
 Compatibility stub — pre-root singularity holding. Cluster support notes:

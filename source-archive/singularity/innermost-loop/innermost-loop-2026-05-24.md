@@ -13,8 +13,6 @@ post_id: 199106998
 
 # The Innermost Loop - 2026-05-24
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 24, 2026
@@ -29,10 +27,7 @@ The Singularity has taken root in civilization’s source code.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has taken root in civilization’s source code. Anthropic announced that its Project Glasswing partners have surfaced more than 10,000 high- or critical-severity vulnerabilities across the most systemically important software in the world, while leaks indicate the lab is also readying “claude-mythos-1-preview” for public release alongside a Claude Security dashboard for enterprise customers. The same model that audits civilization’s code is also writing its syllabus, with a Pangram analysis of nearly 23,000 dissertations finding more than 1 in 5 are now AI-assisted . Even our co-evolutionary partners are getting weights, with Sarama unveiling the first consumer-scale interspecies foundation model , trained via smart dog collars. At the mathematics frontier, Google DeepMind autonomously resolved 9 more of the 353 open Erdős problems at a few hundred dollars apiece, proved 44 of 492 OEIS conjectures, and expanded its deployments into graph theory and algebraic geometry. Proof has become a line item.
+- The Singularity has taken root in civilization’s source code. Anthropic announced that its Project Glasswing partners have surfaced more than 10,000 high- or critical-severity vulnerabilities across the most systemically important software in the world, while leaks indicate the lab is also readying “claude-mythos-1-preview” for public release alongside a Claude Security dashboard for enterprise customers. The same model that audits civilization’s code is also writing its syllabus, with a Pangram analysis of nearly 23,000 dissertations finding more than 1 in 5 are now AI-assisted . Even our co-evolutionary partners are getting weights, with Sarama unveiling the first consumer-scale interspecies foundation model , trained via smart dog collars. At the mathematics frontier, Google DeepMind autonomously resolved 9 more of the 353 open Erdős problems at a few hundred dollars apiece, proved 44 of 492 OEIS conjectures, and expanded its deployments into graph theory and algebraic geometry. Proof has become a line item.
 
 The application layer is dissolving the friction in everyday work. OpenAI showed that Images in ChatGPT can now fill out uploaded scanned paperwork , automating the last analog hideout of bureaucracy. The economics behind that shift are striking, with SemiAnalysis finding that “42% of modern agentic coding time is spent on CPU” doing tool use such as editing files and running lints, recasting CPUs from cloud’s $/core product into the upstream multiplier on token revenue. Music is following code into the same loop, with Spotify and Universal Music Group signing a licensing deal for generative AI covers and remixes of UMG-signed artists. Even the kernel priesthood has joined the loop, with Linus Torvalds noting that AI tooling now does a big chunk of the patch work as Linux submissions jump 20% and many are “actually solid.” Voice is the next abstraction, with Google Docs Live letting you draft documents by speaking. The shadow side of synthesis has also arrived, with internet sleuths re-creating dead pilots’ voices from NTSB documents, prompting the agency to suspend public access to its entire civil transportation accident database. It may be the first time AI capability has forced a federal agency to retract public data.
 

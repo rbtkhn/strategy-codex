@@ -15,7 +15,6 @@ from scripts.normalize_dialogue_works_opening_scaffold import (
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _wrap_capture(transcript_body: str, *, solo: bool = False, extra_meta: str = "") -> str:
     guest_line = "guest: Alastair Crooke" if not solo else "guest_people: []"
     form = "source_form: solo" if solo else "source_form: interview"
@@ -39,7 +38,6 @@ source_url: "https://www.youtube.com/watch?v=test"
 {transcript_body}
 """
 
-
 def test_mid_substack_trim_before_question():
     body = (
         "Hi everybody. Today is Wednesday, May 13, 2026 and our dear friend Alistister Krook is here with us. "
@@ -55,7 +53,6 @@ def test_mid_substack_trim_before_question():
     assert "let me start with what's going on right now" in new_body
     assert "Welcome back, Alistister" in new_body
 
-
 def test_book_interrupt_trim():
     body = (
         "Hi everybody. Today's Friday, June 5th, 2026 and our dear friend Alistister Krook is here with us. "
@@ -70,7 +67,6 @@ def test_book_interrupt_trim():
     assert "axis of resistance" not in new_body
     assert "significant shift in Israeli thinking" in new_body
     assert "I want to start with what has happened between Israel and Lebanon" in new_body
-
 
 def test_solo_timezone_preamble_unchanged():
     body = (
@@ -90,7 +86,6 @@ def test_solo_timezone_preamble_unchanged():
     assert not changed
     assert new_body == body
 
-
 def test_close_substack_trim():
     paragraphs = [
         "Patrick, that is interesting analysis on the lobby.",
@@ -103,7 +98,6 @@ def test_close_substack_trim():
     joined = "\n\n".join(new_paragraphs)
     assert "21st Century Wire" not in joined
     assert "interesting analysis on the lobby" in joined
-
 
 def test_normalize_crooke_fixture_metadata():
     body = (

@@ -108,7 +108,6 @@ When operator names a file:
 - Preserve **tension** — premature synthesis is a panel failure mode.
 - Chat-only demos are valid; disk write is optional unless Ship named.
 
-
 ## Cursor / strategy-codex instance
 
 Strategy-codex routing and SSOT paths for voice-profile-panel.
@@ -142,5 +141,5 @@ Strategy-codex routing and SSOT paths for voice-profile-panel.
 
 ## Boundary
 
-- WORK only; not Record merge
+- non-authoritative; not Record merge
 - Tier A profiles required for triad panel default

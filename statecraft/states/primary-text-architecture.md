@@ -1,6 +1,5 @@
 # Primary-Text Architecture
 
-
 This note defines the CIV-STATE primary-text architecture that sits beneath bibliography source doors and above any future large-scale archival program.
 
 Its purpose is to convert a curated bibliography into a deeper working source substrate without turning the main repo into a bulk text dump.

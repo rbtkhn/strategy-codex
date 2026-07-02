@@ -1,6 +1,5 @@
 # Persia.pkg — CIV-STATE Volume II reference profile v0.1
-# WORK only; not Record.
-# End-to-end reference: profile + parity_rival + settlement clauses
+# # End-to-end reference: profile + parity_rival + settlement clauses
 
 schema_version: "0.1"
 profile_id: persia

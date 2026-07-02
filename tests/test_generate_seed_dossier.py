@@ -8,7 +8,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _load_generate_seed_dossier():
     path = REPO_ROOT / "scripts" / "generate-seed-dossier.py"
     spec = importlib.util.spec_from_file_location("generate_seed_dossier_mod", path)
@@ -17,7 +16,6 @@ def _load_generate_seed_dossier():
     sys.modules["generate_seed_dossier_mod"] = mod
     spec.loader.exec_module(mod)
     return mod
-
 
 def _run_generator(mod, directory: Path) -> str:
     old_argv = sys.argv[:]
@@ -28,7 +26,6 @@ def _run_generator(mod, directory: Path) -> str:
         sys.argv = old_argv
     return (directory / "seed_dossier.md").read_text(encoding="utf-8")
 
-
 def test_generate_seed_dossier_includes_intake_cursor_section(tmp_path):
     mod = _load_generate_seed_dossier()
     target = tmp_path / "seed-phase"
@@ -38,7 +35,6 @@ def test_generate_seed_dossier_includes_intake_cursor_section(tmp_path):
 
     assert "## Intake — Cursor / operator workspace" in text
     assert "cursor" in text.lower()
-
 
 def test_generate_seed_dossier_intake_without_cursor_profile_shows_note(tmp_path):
     mod = _load_generate_seed_dossier()

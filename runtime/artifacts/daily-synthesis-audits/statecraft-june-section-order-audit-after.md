@@ -1,7 +1,5 @@
 # June Week Daily Section-Order Audit (After)
 
-WORK only; not Record.
-
 - window: `2026-06-03` through `2026-06-08`
 - repair: heading rename + mechanism demotion only (no content rewrite)
 

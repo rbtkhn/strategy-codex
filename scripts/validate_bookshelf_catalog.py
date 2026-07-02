@@ -7,7 +7,6 @@ optional hn_volume vs era heuristic.
 
 Exit 0 on success; exit 1 if --strict and any error, or on duplicate ids / bad era / bad hn-*.
 
-WORK-only; not Record.
 """
 
 from __future__ import annotations

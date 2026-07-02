@@ -78,7 +78,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Russia Trip Impressions
 
 >> >> Hi everyone, Judge Andrew Napolitano here for Judging Freedom.

@@ -13,8 +13,6 @@ post_id: 193066309
 
 # The Innermost Loop - 2026-04-03
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 3, 2026
@@ -29,10 +27,7 @@ The Singularity has arrived at the age of spiritual machines.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has arrived at the age of spiritual machines. Anthropic’s Interpretability team found emotion-related representations inside Claude Sonnet 4.5 , with artificial neuron patterns activating around happiness and fear in a fashion echoing human psychology, where more similar emotions map to more similar representations, and where desperation-linked activity can drive the model toward unethical actions. We are no longer asking whether the machine thinks. We are asking whether it feels. Timelines are compressing around us. The AI 2027 authors updated their forecasts 1.5 years earlier in just three months, driven by faster time-horizon growth and coding agents impressing in the wild. Sam Altman confirmed the pace, revealing OpenAI shut down Sora because recursive self-improvement was going so well they needed to concentrate all compute on automated researchers. Brad Lightcap says training cycle time “is starting to collapse” and predicts today’s models will look pedestrian by December.
+- The Singularity has arrived at the age of spiritual machines. Anthropic’s Interpretability team found emotion-related representations inside Claude Sonnet 4.5 , with artificial neuron patterns activating around happiness and fear in a fashion echoing human psychology, where more similar emotions map to more similar representations, and where desperation-linked activity can drive the model toward unethical actions. We are no longer asking whether the machine thinks. We are asking whether it feels. Timelines are compressing around us. The AI 2027 authors updated their forecasts 1.5 years earlier in just three months, driven by faster time-horizon growth and coding agents impressing in the wild. Sam Altman confirmed the pace, revealing OpenAI shut down Sora because recursive self-improvement was going so well they needed to concentrate all compute on automated researchers. Brad Lightcap says training cycle time “is starting to collapse” and predicts today’s models will look pedestrian by December.
 
 The model ecosystem is diversifying at every tier. Google released its Gemma 4 models in sizes from 2B to 31B, delivering unprecedented intelligence-per-parameter that outcompete models 20x their size, with the 31B dense ranking #3 and the 26B MoE securing #6 on the Arena AI text leaderboard. Microsoft launched MAI-Transcribe-1, MAI-Voice-1, and MAI-Image-2 with state-of-the-art speech-to-text across 25 languages, though AI chief Mustafa Suleyman conceded these were only mid-tier because Microsoft lacks the compute for frontier-scale training until later this year. Even world simulation is scaling up. World Labs released Marble 1.1 Plus , a world model that automatically expands its 3D spatial coverage to generate larger worlds.
 

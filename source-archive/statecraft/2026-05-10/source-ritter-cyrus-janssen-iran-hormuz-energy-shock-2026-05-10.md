@@ -32,7 +32,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Studio Open — Let's Talk Geopolitics, Alex Host, and Conflict Frame
 
 **Cyrus Janssen (host):** Well, everyone, welcome to Let's Talk Geopolitics, and we have a special episode in store for you today as we are looking at the Iran conflict that continues to evolve and man, it is just absolutely crazy. Alex, thank you for hosting today. And of course, Mr. Scott Ritter. Scott, welcome to the show.

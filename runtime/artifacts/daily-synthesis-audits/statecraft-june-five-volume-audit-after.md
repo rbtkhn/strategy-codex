@@ -1,7 +1,5 @@
 # June Week Five-Volume Label-Order Audit (After)
 
-WORK only; not Record.
-
 ## Repairs Applied
 
 Reordered five-volume bullets to `China -> Persia -> Rome -> Russia -> America` on:

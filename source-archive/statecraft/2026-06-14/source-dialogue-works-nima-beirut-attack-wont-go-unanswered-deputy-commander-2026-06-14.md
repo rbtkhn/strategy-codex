@@ -39,7 +39,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Sunday, June 14, 2026, and I'm here to talk about the latest news and what's going on between Iran and the United States and Israeli attack on DHI. Again, this is the second attack after Iran announcing that if Israel attacks DHI or if Israel attacks Beirut, Iran is going to respond.

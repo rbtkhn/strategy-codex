@@ -1,6 +1,5 @@
 # Prediction review queue
 
-
 Operator backlog for registry closure, falsifiers, trajectory decomposition, and notes-lane enrollment. Machine-readable companion: [`runtime/artifacts/prediction-review-queue.json`](../../runtime/artifacts/prediction-review-queue.json).
 
 Regenerate queue items:
@@ -37,7 +36,7 @@ python3 scripts/check_voice_enrollment.py --emit-review-queue
 
 **Context:** All three Macgregor capture-map rows cite `source-diesen-macgregor-victory-day-russia-already-won-the-war-2025-05-09.md`. Fingerprints differ on question + falsifier (Phase 3 Rule B). Phase 4.5 signals remain per-event.
 
-**Compression review:** closed in [`compression_engine.py`](../../scripts/prediction/compression_engine.py) via `MACGREGOR_MERGE_REJECTED` — pipeline no longer emits open `review_merge` rows for these pairs.
+**Compression review:** closed in [`compression_engine.py`](../../scripts/registry_pipeline/compression_engine.py) via `MACGREGOR_MERGE_REJECTED` — pipeline no longer emits open `review_merge` rows for these pairs.
 
 ## Open items
 

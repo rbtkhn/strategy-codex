@@ -61,10 +61,6 @@ Already states seeing the extent of the chokehold imposed on Iran are seeking wa
 
 Will the signing of the MoU then indeed be something of an inflection point? It is too early to say, but one initial question must be — has Trump's volte face dealt an irreversible blow to Israel?
 
-
-
-
-
 Lazar Berman, military correspondent of the Times of Israel, observes that "total victory" and 'its illusions' are over —
 
 "The post-October 7 wars, which came with expectations and promises of "total victory," are over - as are their illusions. Palestinians are not going to leave Gaza. Hamas won't disarm, nor will Hezbollah. Trump is not going to return to war in Iran, which can now threaten to withdraw from a deal to get Trump to stop any major Israeli operation against Hamas or Hezbollah …The Middle East has certainly changed".

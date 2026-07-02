@@ -12,17 +12,14 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 import cici_journal_ob1_digest as xj  # noqa: E402
 
-
 def test_next_journal_day_number_from_body(tmp_path: Path) -> None:
     (tmp_path / "2026-04-06.md").write_text("**Journal day:** 4\n", encoding="utf-8")
     (tmp_path / "noise.md").write_text("x", encoding="utf-8")
     assert xj.next_journal_day_number(tmp_path) == 5
 
-
 def test_next_journal_day_number_legacy_filename(tmp_path: Path) -> None:
     (tmp_path / "2026-04-06-day-01.md").write_text("x", encoding="utf-8")
     assert xj.next_journal_day_number(tmp_path) == 2
-
 
 def test_build_markdown_includes_commits() -> None:
     commits = [
@@ -45,7 +42,6 @@ def test_build_markdown_includes_commits() -> None:
     assert "OB1 repo activity" in md
     assert "Cici" in md
     assert "Focus" not in md
-
 
 def test_fetch_commits_for_day_mocked() -> None:
     payload = [
@@ -75,7 +71,6 @@ def test_fetch_commits_for_day_mocked() -> None:
     assert out[0].sha == "deadbee"  # first 7 of sha
     assert out[0].short_message == "Test commit"
 
-
 def test_load_inbox_single_file(tmp_path: Path) -> None:
     inbox = tmp_path / "inbox"
     inbox.mkdir(parents=True)
@@ -85,7 +80,6 @@ def test_load_inbox_single_file(tmp_path: Path) -> None:
     assert prov == ["inbox/2026-04-10.md"]
     assert arts == []
 
-
 def test_load_inbox_folder_order(tmp_path: Path) -> None:
     inbox = tmp_path / "inbox" / "2026-04-10"
     inbox.mkdir(parents=True)
@@ -94,7 +88,6 @@ def test_load_inbox_folder_order(tmp_path: Path) -> None:
     body, prov, arts = xj.load_inbox_for_day(tmp_path, date(2026, 4, 10), no_inbox=False)
     assert "first" in body and "second" in body
     assert prov[0].endswith("a.md") and prov[1].endswith("b.md")
-
 
 def test_build_markdown_operator_and_artifacts(tmp_path: Path) -> None:
     readme = tmp_path / "docs" / "x.md"
@@ -124,7 +117,6 @@ def test_build_markdown_operator_and_artifacts(tmp_path: Path) -> None:
     assert "docs/x.md" in md
     assert "OB1 repo activity" in md
 
-
 def test_extract_session_transcript_for_day(tmp_path: Path) -> None:
     st = tmp_path / "st.md"
     st.write_text(
@@ -139,7 +131,6 @@ def test_extract_session_transcript_for_day(tmp_path: Path) -> None:
     assert "hello" in out
     assert "2026-04-11" not in out
 
-
 def test_artifact_sidecar(tmp_path: Path) -> None:
     inbox = tmp_path / "inbox"
     inbox.mkdir(parents=True)
@@ -150,7 +141,6 @@ def test_artifact_sidecar(tmp_path: Path) -> None:
     body, prov, arts = xj.load_inbox_for_day(tmp_path, date(2026, 4, 10), no_inbox=False)
     assert body is None
     assert "README.md" in arts[0]
-
 
 def test_extract_strategy_notebook_day_block(tmp_path: Path) -> None:
     ym = "2026-04"
@@ -166,7 +156,6 @@ def test_extract_strategy_notebook_day_block(tmp_path: Path) -> None:
     assert "geo line" in block
     assert "2026-04-11" not in block
     assert "days.md" in (rel or "")
-
 
 def test_build_markdown_includes_strategy_notebook_section() -> None:
     ctx = xj.DayContext(
@@ -185,7 +174,6 @@ def test_build_markdown_includes_strategy_notebook_section() -> None:
     )
     assert "From strategy-notebook (same day)" in md
     assert "x" in md
-
 
 def test_no_inbox_returns_empty_context(tmp_path: Path) -> None:
     inbox = tmp_path / "inbox"

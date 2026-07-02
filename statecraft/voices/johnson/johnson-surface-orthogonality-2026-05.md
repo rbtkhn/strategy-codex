@@ -1,6 +1,5 @@
 # Johnson surface orthogonality - 2026-05
 
-
 Purpose: preserve the surface split that now governs Johnson.
 
 ## Current Surface Law

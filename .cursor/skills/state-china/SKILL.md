@@ -23,7 +23,6 @@ Core test: what preserves leverage without forcing China to own visible disorder
 
 ## Boundary
 
-- WORK only; not Record.
 - Start at the lane front door before descending.
 - Use the literature lens as a subordinate civilization-layer test, not as a separate top-level mode.
 - Do not directly rewrite lane books from live drafting.

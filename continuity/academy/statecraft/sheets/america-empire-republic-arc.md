@@ -1,7 +1,6 @@
 # America Empire-Republic Arc
 <!-- word_count: 783 -->
 
-
 ## Purpose
 
 Use this sheet when an America-lane read, hexagon stress test, transaction, clause, or current event invokes empire / republic tension, constitutional authority, executive emergency power, sanctions-finance reach, resource extraction, ideological suppression, alliance burden, maritime order, platform power, technology-industrial capacity, or successor legitimacy.

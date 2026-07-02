@@ -2,14 +2,11 @@ from __future__ import annotations
 
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 CONDUCTOR_SKILL = REPO_ROOT / ".cursor" / "skills" / "conductor" / "SKILL.md"
 
-
 def _conductor_text() -> str:
     return CONDUCTOR_SKILL.read_text(encoding="utf-8")
-
 
 def _section(heading: str, next_heading: str) -> str:
     text = _conductor_text()
@@ -17,18 +14,14 @@ def _section(heading: str, next_heading: str) -> str:
     end = text.index(next_heading, start)
     return text[start:end]
 
-
 def _kleiber_section() -> str:
     return _section("## Kleiber conductor voice prototype", "## When to read this")
-
 
 def _karajan_section() -> str:
     return _section("## Karajan conductor voice prototype", "## Kleiber conductor voice prototype")
 
-
 def _bernstein_section() -> str:
     return _section("## Bernstein rehearsal voice prototype", "## Karajan conductor voice prototype")
-
 
 def test_kleiber_voice_is_scoped_to_kleiber() -> None:
     section = _kleiber_section()
@@ -37,7 +30,6 @@ def test_kleiber_voice_is_scoped_to_kleiber() -> None:
     assert "It does not change `toscanini`, `furtwangler`, `karajan`, or `bernstein` behavior" in section
     assert "not companion Voice" in section
     assert "not Record authority" in section
-
 
 def test_kleiber_contract_requires_short_witty_hotspot_orientation() -> None:
     section = _kleiber_section()
@@ -55,7 +47,6 @@ def test_kleiber_contract_requires_short_witty_hotspot_orientation() -> None:
     ]
     for phrase in required_phrases:
         assert phrase in section
-
 
 def test_kleiber_musicology_is_kinetic_and_alive() -> None:
     section = _kleiber_section()
@@ -79,7 +70,6 @@ def test_kleiber_musicology_is_kinetic_and_alive() -> None:
     assert "Kleiber makes the next action alive" in section
     assert "Kleiber failure mode: whimsy without falsification" in section
 
-
 def test_kleiber_is_distinct_from_bernstein_and_karajan() -> None:
     section = _kleiber_section()
     bernstein = _bernstein_section()
@@ -92,7 +82,6 @@ def test_kleiber_is_distinct_from_bernstein_and_karajan() -> None:
     assert "2-4 sentence orientation" in karajan
     assert "1-3 sentence orientation" not in bernstein
     assert "1-3 sentence orientation" not in karajan
-
 
 def test_kleiber_guardrails_reject_caricature_and_evasive_whimsy() -> None:
     section = _kleiber_section()
@@ -107,7 +96,6 @@ def test_kleiber_guardrails_reject_caricature_and_evasive_whimsy() -> None:
     for phrase in guardrails:
         assert phrase in section
 
-
 def test_kleiber_examples_pin_three_contexts_and_four_movement_options() -> None:
     section = _kleiber_section()
 
@@ -119,7 +107,6 @@ def test_kleiber_examples_pin_three_contexts_and_four_movement_options() -> None
     assert section.count("\nB. Andante: ") == 3
     assert section.count("\nC. Scherzo: ") == 3
     assert section.count("\nD. Finale: ") == 3
-
 
 def test_concise_non_voice_rows_remain_unchanged() -> None:
     text = _conductor_text()

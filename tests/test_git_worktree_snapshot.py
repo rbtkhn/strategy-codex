@@ -16,7 +16,6 @@ from git_worktree_snapshot import (  # noqa: E402
     get_git_worktree_snapshot,
 )
 
-
 def test_capture_git_worktree_snapshot_parses_porcelain() -> None:
     def fake_run(argv, *, cwd, timeout):
         assert argv == ["git", "status", "-sb", "--porcelain"]
@@ -41,7 +40,6 @@ def test_capture_git_worktree_snapshot_parses_porcelain() -> None:
     assert snap.untracked_count == 1
     assert "statecraft/synthesis/day/2026-06-08.md" in snap.changed_paths
 
-
 def test_get_git_worktree_snapshot_uses_process_cache(monkeypatch) -> None:
     clear_git_worktree_snapshot_cache()
     calls = {"n": 0}
@@ -60,7 +58,6 @@ def test_get_git_worktree_snapshot_uses_process_cache(monkeypatch) -> None:
     assert first.branch_name == "main"
     assert second.branch_name == "main"
     assert calls["n"] == 1
-
 
 def test_format_git_state_summary_reports_error() -> None:
     snap = GitWorktreeSnapshot(error="git status timed out after 20s")

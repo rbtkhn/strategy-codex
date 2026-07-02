@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # US-Israel Rift, Iran Strike Off, Trump Publishes Anti-Bibi Video; New Russia Collapse Fantasy
 
-

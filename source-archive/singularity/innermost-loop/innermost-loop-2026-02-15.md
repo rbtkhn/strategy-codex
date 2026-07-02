@@ -13,8 +13,6 @@ post_id: 188033264
 
 # The Innermost Loop - 2026-02-15
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Physical Superintelligence
@@ -29,10 +27,7 @@ The Singularity needs a physics department.
 
 ## Newsletter Text
 
--
--
-
-The Singularity needs a physics department. The last century’s golden age of physics gave us transistors (1947), nuclear energy (1951), and lasers (1960). Whether that era slowed due to complexity, funding, politics, fashion, or other reasons, artificial superintelligence is poised to reignite it. I recently helped found a company to do exactly that.
+- The Singularity needs a physics department. The last century’s golden age of physics gave us transistors (1947), nuclear energy (1951), and lasers (1960). Whether that era slowed due to complexity, funding, politics, fashion, or other reasons, artificial superintelligence is poised to reignite it. I recently helped found a company to do exactly that.
 
 Physical Superintelligence PBC (PSI) is building what it believes is the world’s first vertically integrated factory for physical superintelligence: an AI system that reasons like a theorist, validates like a computational physicist, tests like an experimentalist, discovers what none of them could alone, and drives breakthroughs through to commercial realization and deployment. The company is organized around a single mission: new physics, at scale.
 

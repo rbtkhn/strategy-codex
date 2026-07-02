@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Venezuela Debacle; US No Plan; Rodriguez Defiant; Oil Companies Skeptical; Greenland Next; NATO Risk
 
-

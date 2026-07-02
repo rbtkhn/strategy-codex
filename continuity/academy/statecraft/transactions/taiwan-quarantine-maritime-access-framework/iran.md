@@ -1,7 +1,6 @@
 # Iran - Taiwan Quarantine / Maritime Access Framework
 <!-- word_count: 387 -->
 
-
 ## Transaction Name
 
 Taiwan blockade-precedent discipline.

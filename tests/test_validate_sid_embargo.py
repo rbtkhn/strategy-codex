@@ -11,12 +11,10 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from validate_sid_embargo import validate_file  # noqa: E402
 
-
 def _scratch_path(name: str) -> Path:
     scratch = REPO_ROOT / ".codex-tmp" / "pytest-scratch"
     scratch.mkdir(parents=True, exist_ok=True)
     return scratch / f"{name}-{uuid.uuid4().hex}.md"
-
 
 def test_valid_embargo_passes() -> None:
     path = _scratch_path("embargo-ok")
@@ -31,7 +29,6 @@ sid_deliverable: transaction-memo
         encoding="utf-8",
     )
     assert validate_file(path, strict=True) == []
-
 
 def test_invalid_embargo_fails() -> None:
     path = _scratch_path("embargo-bad")

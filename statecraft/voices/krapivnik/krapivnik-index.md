@@ -1,6 +1,5 @@
 # Krapivnik source index
 
-
 Purpose: canonical statecraft-side source index for **Stanislav Krapivnik** while raw-text authority stays in the Statecraft Archive.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index krapivnik` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)

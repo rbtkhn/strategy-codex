@@ -1,6 +1,5 @@
 # Freeman source index
 
-
 Purpose: exhaustive canonical route map for Amb. Chas Freeman guest appearances and direct archive anchors on the Freeman shelf.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index freeman` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)

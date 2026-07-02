@@ -12,14 +12,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 PREDICTIONS_JSON = REPO_ROOT / "statecraft" / "voices" / "freeman" / "freeman-predictions.json"
 YT = re.compile(r"https?://(?:www\.)?(?:youtube\.com/watch\?v=|youtu\.be/)([\w-]+)")
 
-
 def extract_watch_url(text: str) -> str | None:
     m = YT.search(text)
     if not m:
         return None
     vid = m.group(1)
     return f"https://www.youtube.com/watch?v={vid}"
-
 
 def patch_capture(path: Path, *, dry_run: bool = False) -> bool:
     text = path.read_text(encoding="utf-8")
@@ -46,7 +44,6 @@ def patch_capture(path: Path, *, dry_run: bool = False) -> bool:
     print(f"[ok] patched {path.relative_to(REPO_ROOT)}")
     return True
 
-
 def main() -> int:
     dry_run = "--dry-run" in sys.argv
     data = json.loads(PREDICTIONS_JSON.read_text(encoding="utf-8"))
@@ -60,7 +57,6 @@ def main() -> int:
             patched += 1
     print(f"{'would patch' if dry_run else 'patched'} {patched} capture(s)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

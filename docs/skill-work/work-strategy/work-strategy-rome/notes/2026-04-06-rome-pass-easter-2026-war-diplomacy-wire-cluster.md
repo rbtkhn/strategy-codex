@@ -1,6 +1,6 @@
 # ROME pass — Easter 2026 cluster (Iran-war context): Urbi et Orbi + paired Good Friday bilaterals + wires
 
-**WORK only** — not Record. Filed **2026-04-06**; **Zelenskyy** bilateral row added same session. Contrast pass: **wire-salient** diplomacy and conflict rhetoric vs. formation-only [2026-04-06-rome-pass-20260401-audience-lumen-gentium-laity.md](2026-04-06-rome-pass-20260401-audience-lumen-gentium-laity.md).
+ Filed **2026-04-06**; **Zelenskyy** bilateral row added same session. Contrast pass: **wire-salient** diplomacy and conflict rhetoric vs. formation-only [2026-04-06-rome-pass-20260401-audience-lumen-gentium-laity.md](2026-04-06-rome-pass-20260401-audience-lumen-gentium-laity.md).
 
 ## Primary — Holy See
 

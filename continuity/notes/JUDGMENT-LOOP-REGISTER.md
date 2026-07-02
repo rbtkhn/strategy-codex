@@ -1,7 +1,6 @@
 # Judgment loop register
 <!-- word_count: 174 -->
 
-
 **Purpose:** Optional stronger tracking surface for consequential calls, recurring theses, or especially important warnings that deserve more than the lightweight page-level loop.
 
 **Use this only when needed.** The canonical minimum remains the compact **Call / Falsifier / Revisit** block inside `codex-page` and `strategy-page`. This register is an escalation surface, not a second mandatory compose path.

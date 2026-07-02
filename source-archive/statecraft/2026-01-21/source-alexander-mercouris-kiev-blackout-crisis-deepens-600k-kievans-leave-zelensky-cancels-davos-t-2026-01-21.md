@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Kiev Blackout Crisis Deepens; 600K Kievans Leave; Zelensky Cancels Davos Trip; More Oreshniks; Davos
 
-

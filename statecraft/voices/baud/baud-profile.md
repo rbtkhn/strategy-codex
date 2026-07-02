@@ -1,7 +1,6 @@
 # Strategy expert Ã¢â‚¬â€ `baud`
 <!-- word_count: 419 -->
 
-
 **Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) Ã¢â‚¬â€ **`baud`** lane.
 
 ## Identity

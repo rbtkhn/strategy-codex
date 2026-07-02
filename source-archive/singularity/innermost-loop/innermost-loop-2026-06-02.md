@@ -13,8 +13,6 @@ post_id: 200337544
 
 # The Innermost Loop - 2026-06-02
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to June 2, 2026
@@ -29,10 +27,7 @@ The Singularity has stopped being a finish line and become a leaderboard.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has stopped being a finish line and become a leaderboard. Opus 4.8 just posted a “breathtaking” state-of-the-art 1.5% of human efficiency on ARC-AGI-3 , tripling GPT-5.5’s score and proving the gap between frontier models is now measured in multiples per quarter. The open-weight pack is sprinting to close it. Nvidia’s Nemotron 3 Ultra became the smartest open US model at roughly 550B parameters and 48 points of AAII intelligence, though China’s Kimi K2.6 still leads at 54. MiniMax’s new M3 claims to be the only open-weight model fusing frontier coding, a million-token context, and native multimodality, while undercutting Opus 4.7 at $0.12 per million input tokens against $5. As raw capability commoditizes, the real frontier becomes control. Anthropic is giving the EU’s ENISA access to Mythos , making it the first European agency in Project Glasswing to wield a model officials quietly fear could be turned on the vulnerabilities of critical infrastructure, while the Linux Foundation’s new DNS-AID teaches agents to find each other safely over plain old DNS. The cautionary tale already landed. Hackers seized the Instagram accounts of the Obama White House, a Space Force chief, and Sephora just by politely asking Meta’s support bot to swap the email , the first social engineering attack where the social was optional.
+- The Singularity has stopped being a finish line and become a leaderboard. Opus 4.8 just posted a “breathtaking” state-of-the-art 1.5% of human efficiency on ARC-AGI-3 , tripling GPT-5.5’s score and proving the gap between frontier models is now measured in multiples per quarter. The open-weight pack is sprinting to close it. Nvidia’s Nemotron 3 Ultra became the smartest open US model at roughly 550B parameters and 48 points of AAII intelligence, though China’s Kimi K2.6 still leads at 54. MiniMax’s new M3 claims to be the only open-weight model fusing frontier coding, a million-token context, and native multimodality, while undercutting Opus 4.7 at $0.12 per million input tokens against $5. As raw capability commoditizes, the real frontier becomes control. Anthropic is giving the EU’s ENISA access to Mythos , making it the first European agency in Project Glasswing to wield a model officials quietly fear could be turned on the vulnerabilities of critical infrastructure, while the Linux Foundation’s new DNS-AID teaches agents to find each other safely over plain old DNS. The cautionary tale already landed. Hackers seized the Instagram accounts of the Obama White House, a Space Force chief, and Sephora just by politely asking Meta’s support bot to swap the email , the first social engineering attack where the social was optional.
 
 When the model writes the code, the institution rewrites itself. Microsoft is reportedly stitching GitHub Copilot, chat, Cowork, and a new “Autopilot” agent into one Copilot super app , collapsing the entire toolchain into a single surface. But consolidation has a cost. A historian-turned-engineer warns that “the oral tradition that built software may not survive AI,” as the mentor-to-junior handoff of institutional memory dissolves into model weights. The next cohort may never learn it the old way anyway, since the American Federation of Teachers, the country’s second-largest teachers’ union, just released a ten-point plan to fence off classrooms, capping AI use and banning screens through second grade “unless there is a compelling reason.”
 

@@ -1,7 +1,6 @@
 # Legacy CIV-MEM Object Retrieval Matrix
 <!-- word_count: 90 -->
 
-
 ## Purpose
 
 This file is retained as a compatibility pointer for older links and audit notes.

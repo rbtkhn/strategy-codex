@@ -1,7 +1,5 @@
 # anyang-ai — open tensions (operator WORK)
 
-WORK only; not Record.
-
 **Purpose:** Hold unresolved structure **without false closure** — Furtwangler close receipt for pre-launch seam. Do not treat this file as settled policy; it names pressures until mentor + operator resolve them.
 
 **Mission SSOT:** [anyang-community-mission-operator.md](anyang-community-mission-operator.md)  

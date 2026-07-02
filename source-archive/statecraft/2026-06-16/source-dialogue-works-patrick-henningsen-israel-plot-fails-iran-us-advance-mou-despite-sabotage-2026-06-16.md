@@ -45,7 +45,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Tuesday, June 16, 2026 and our dear friend, our brother Patrick Henningson is here with us. Welcome back. >> Great to be with you, Nema. >> I Let's start Patrick with what was reported. We have the latest report on Axis that Iran is not honest in the way they're negotiating with the United States considered a nuclear program.

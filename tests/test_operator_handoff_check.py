@@ -9,7 +9,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture()
 def handoff_mod():
     path = REPO_ROOT / "scripts" / "operator_handoff_check.py"
@@ -19,14 +18,12 @@ def handoff_mod():
     spec.loader.exec_module(mod)
     return mod
 
-
 @pytest.fixture()
 def gate_unfrozen(monkeypatch: pytest.MonkeyPatch) -> None:
     """Fork-revive gate parsing tests need Record unfrozen."""
     import strategy_codex_config as scc
 
     monkeypatch.setattr(scc, "record_frozen", lambda: False)
-
 
 def test_gate_detail_lines_empty_queue(handoff_mod, gate_unfrozen):
     text = "## Candidates\n\n## Processed\n"
@@ -35,7 +32,6 @@ def test_gate_detail_lines_empty_queue(handoff_mod, gate_unfrozen):
     assert "**Total pending:** 0" in joined
     assert "process_approved_candidates.py" in joined
     assert "operator_gate_review_pass.py" in joined
-
 
 def test_gate_detail_lists_pending_wap_and_companion(handoff_mod, gate_unfrozen):
     gate = """## Candidates
@@ -66,7 +62,6 @@ channel_key: telegram:1
     assert "complete processing" in joined
     assert "test-user/recursion-gate.md" in joined
 
-
 def test_gate_detail_lines_frozen_record(handoff_mod, monkeypatch: pytest.MonkeyPatch):
     import strategy_codex_config as scc
 
@@ -76,7 +71,6 @@ def test_gate_detail_lines_frozen_record(handoff_mod, monkeypatch: pytest.Monkey
     assert "## RECURSION-GATE (frozen)" in joined
     assert "fork revive" in joined
     assert "**Total pending:**" not in joined
-
 
 def test_build_ship_receipt_ahead_and_mixed_slices(handoff_mod):
     lines = handoff_mod.build_ship_receipt(
@@ -102,7 +96,6 @@ def test_build_ship_receipt_ahead_and_mixed_slices(handoff_mod):
     assert "**singularity:**" in joined
     assert "git push origin main" in joined
     assert "3e3517e6" in joined
-
 
 def test_build_handoff_check_full_mode_does_not_raise(handoff_mod, monkeypatch: pytest.MonkeyPatch):
     import strategy_codex_config as scc

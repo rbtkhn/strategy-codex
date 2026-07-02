@@ -13,8 +13,6 @@ post_id: 197942820
 
 # The Innermost Loop - 2026-05-15
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 15, 2026
@@ -29,10 +27,7 @@ The Singularity has begun optimizing its own optimizer.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has begun optimizing its own optimizer. Poetiq turned its “Meta-System” loose on LiveCodeBench Pro, let it build its own harnesses, and hit a new SOTA of 93.9 atop GPT-5.5 with “no fine-tuning, no special access, no hand-built pipelines.” Prime Intellect handed Codex and Claude Code its idle compute to attack the NanoGPT Speedrun optimizer track, and after some 14,000 H200 hours both agents beat the human baseline, with Opus 4.7 now holding the record at 2,930 steps. The architecture is learning to settle down too, as new “Attractor Models” let one module propose embeddings and another solve for the fixed point, taming Looped Transformers enough for a 770M model to outrun a 1.3B one on twice the tokens. Raw scale refuses to tap out, as Datadog’s open-weights time-series foundation model Toto 2 keeps improving with no saturation at 2.5B parameters. Training is escaping Nvidia. Zyphra’s ZAYA1-8B , the first MoE trained end to end on an AMD Instinct stack, wrings frontier intelligence from every active parameter. The bar for competence keeps rising. Mechanize’s GBA Eval asks a model to write a Game Boy Advance emulator from scratch in 24 hours, and GPT-5.5 already clears it 53.2% of the time.
+- The Singularity has begun optimizing its own optimizer. Poetiq turned its “Meta-System” loose on LiveCodeBench Pro, let it build its own harnesses, and hit a new SOTA of 93.9 atop GPT-5.5 with “no fine-tuning, no special access, no hand-built pipelines.” Prime Intellect handed Codex and Claude Code its idle compute to attack the NanoGPT Speedrun optimizer track, and after some 14,000 H200 hours both agents beat the human baseline, with Opus 4.7 now holding the record at 2,930 steps. The architecture is learning to settle down too, as new “Attractor Models” let one module propose embeddings and another solve for the fixed point, taming Looped Transformers enough for a 770M model to outrun a 1.3B one on twice the tokens. Raw scale refuses to tap out, as Datadog’s open-weights time-series foundation model Toto 2 keeps improving with no saturation at 2.5B parameters. Training is escaping Nvidia. Zyphra’s ZAYA1-8B , the first MoE trained end to end on an AMD Instinct stack, wrings frontier intelligence from every active parameter. The bar for competence keeps rising. Mechanize’s GBA Eval asks a model to write a Game Boy Advance emulator from scratch in 24 hours, and GPT-5.5 already clears it 53.2% of the time.
 
 As the machines get better at the work, institutions scramble to govern the output. The arXiv will now hand one-year submission bans to any author caught shipping AI-generated plagiarism, fake references, or errors they plainly never checked, since automation still rewards proofreaders. The convenience keeps deepening regardless, as OpenAI has put Codex inside the ChatGPT mobile app to dispatch work across your laptops and devboxes, and shipped a personal-finance preview letting US Pro users link accounts and interrogate a dashboard of their spending. The same capability carries a darker dual use, and Palo Alto Networks warns of a narrow “three-to-five-month window” to harden systems before models like Anthropic’s Mythos and OpenAI’s GPT-5.5-Cyber make exploiting unknown vulnerabilities routine.
 

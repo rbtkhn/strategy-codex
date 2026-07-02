@@ -1,7 +1,6 @@
 # Speaker Shelf vs Bridge Adapter
 <!-- word_count: 542 -->
 
-
 This note defines the constitutional split between the human-facing speaker shelf and the statecraft-facing bridge adapter layer.
 
 Short form:

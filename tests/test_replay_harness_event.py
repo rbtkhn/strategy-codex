@@ -11,7 +11,6 @@ from grace_mar.replay.report import build_report
 
 ROOT = Path(__file__).resolve().parent.parent
 
-
 def test_find_candidate_yaml_sample_gate() -> None:
     md = """
 ## Candidates
@@ -32,7 +31,6 @@ x: 1
     assert find_candidate_yaml(md, "CANDIDATE-0001") == "status: pending\nfoo: bar"
     assert find_candidate_yaml(md, "candIdate-0002") == "status: approved\nx: 1"
 
-
 def test_harness_rows_for_event_id_lists() -> None:
     hv = [
         {"ts": "a", "event_id": "evt_self"},
@@ -44,14 +42,12 @@ def test_harness_rows_for_event_id_lists() -> None:
     assert len(harness_rows_for_event_id(hv, "evt_z")) == 1
     assert harness_rows_for_event_id(hv, "missing") == []
 
-
 def test_build_report_unknown_event_id() -> None:
     text = build_report(
         ROOT / "platform/users" / "grace-mar",
         event_id="evt_does_not_exist_00000000_deadbeef",
     )
     assert "No pipeline row" in text or "no pipeline row" in text.lower()
-
 
 @pytest.mark.skipif(not (ROOT / "recursion-gate.md").is_file(), reason="no grace-mar platform/profile")
 def test_build_report_grace_mar_known_candidate() -> None:

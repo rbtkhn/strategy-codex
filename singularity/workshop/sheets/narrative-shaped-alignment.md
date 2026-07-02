@@ -1,7 +1,5 @@
 # Narrative-Shaped Alignment
 
-WORK only; not Record.
-
 ## Core Claim
 
 Rules constrain behavior, but narratives form agency.

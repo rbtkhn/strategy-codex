@@ -97,7 +97,6 @@ logger = logging.getLogger(__name__)
 _telegram_app = None
 _telegram_loop = None
 
-
 def _start_telegram_webhook() -> None:
     """Start Telegram webhook in a background thread. Run once at startup."""
     global _telegram_app, _telegram_loop
@@ -134,7 +133,6 @@ def _start_telegram_webhook() -> None:
     t.start()
     logger.info("Telegram webhook thread started")
 
-
 def _format_archive_block(event: str, text: str) -> str:
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     lines = [f"**[{ts}]** `{event}` (platform/miniapp)\n"]
@@ -143,14 +141,12 @@ def _format_archive_block(event: str, text: str) -> str:
     lines.append("\n")
     return "".join(lines)
 
-
 def _session_transcript_header() -> str:
     return (
         "# SESSION TRANSCRIPT\n\n"
         "> Raw conversation log for operator continuity. Not part of the Record. "
         "Approved content is written to SELF-ARCHIVE on merge.\n\n---\n\n"
     )
-
 
 def _append_to_session_transcript(blocks: str) -> None:
     """Append exchange to session-transcript.md (real-time log). Gated approved log is self-archive.md § VIII (merge only)."""
@@ -162,7 +158,6 @@ def _append_to_session_transcript(blocks: str) -> None:
             f.write(blocks.strip() + "\n\n")
     except Exception as e:
         logger.warning("Session transcript write error: %s", e)
-
 
 def _archive_miniapp(user_message: str, reply: str, is_lookup: bool = False, lookup_question: str | None = None) -> None:
     """Append exchange to session-transcript.md (same policy as bot: real-time log; § VIII only on merge). Runs in background."""
@@ -176,11 +171,9 @@ def _archive_miniapp(user_message: str, reply: str, is_lookup: bool = False, loo
 
     threading.Thread(target=_run, daemon=True).start()
 
-
 def _is_affirmative(text: str) -> bool:
     normalized = text.strip().lower().rstrip("!.,")
     return normalized in AFFIRMATIVE_WORDS or any(p in normalized for p in AFFIRMATIVE_PHRASES)
-
 
 def _last_user_message_before(history: list, before_index: int) -> str | None:
     """Return the last user message before the given index."""
@@ -188,7 +181,6 @@ def _last_user_message_before(history: list, before_index: int) -> str | None:
         if history[i].get("role") == "user":
             return (history[i].get("content") or "").strip()
     return None
-
 
 def _should_run_lookup(message: str, history: list) -> str | None:
     """If this is an affirmative follow-up to a lookup offer, return the question to look up."""
@@ -204,7 +196,6 @@ def _should_run_lookup(message: str, history: list) -> str | None:
         return None
     question = _last_user_message_before(history, len(history))
     return question if question else None
-
 
 @app.route("/telegram/webhook", methods=["POST"])
 def telegram_webhook():
@@ -226,18 +217,15 @@ def telegram_webhook():
         return "", 500
     return "", 200
 
-
 @app.route("/manifest.json")
 def manifest():
     """PWA manifest — served with correct MIME type."""
     return send_from_directory("platform/miniapp", "manifest.json", mimetype="application/manifest+json")
 
-
 @app.route("/service-worker.js")
 def service_worker():
     """PWA service worker."""
     return send_from_directory("platform/miniapp", "service-worker.js", mimetype="application/javascript")
-
 
 @app.before_request
 def _https_redirect():
@@ -250,24 +238,20 @@ def _https_redirect():
         return None
     return redirect(request.url.replace("http://", "https://", 1), code=301)
 
-
 @app.route("/")
 def index():
     """Q&A Mini App — interactive chat with Grace-Mar."""
     return send_from_directory("platform/miniapp", "index.html")
-
 
 @app.route("/operator/console")
 def operator_console():
     """Operator console: submit observations, upload artifacts, review gate, view timeline. No markdown on critical path."""
     return send_from_directory("platform/miniapp", "operator-console.html")
 
-
 @app.route("/operator/inbox")
 def operator_inbox():
     """Browser review surface for RECURSION-GATE."""
     return send_from_directory("platform/miniapp", "operator-inbox.html")
-
 
 @app.route("/operator/pol")
 @app.route("/operator/wap")
@@ -275,24 +259,20 @@ def operator_pol_console():
     """Browser ops surface for work-politics."""
     return send_from_directory("platform/miniapp", "operator-pol.html")
 
-
 @app.route("/i/<token>")
 def interview_by_token(token: str):
     """Shareable interview link — reviewer chats with fork, exchanges not archived."""
     return send_from_directory("platform/miniapp", "index.html")
-
 
 @app.route("/me/<user_id>")
 def interview_by_user(user_id: str):
     """Per-user interview link (e.g. /me/grace-mar). Exchanges not archived."""
     return send_from_directory("platform/miniapp", "index.html")
 
-
 @app.route("/platform/app")
 def family_hub():
     """Family hub: chat, log activity, parent-gated review. Bookmark with ?t=<FAMILY_APP_TOKEN>."""
     return send_from_directory("platform/miniapp", "family-hub.html")
-
 
 @app.after_request
 def _cors(resp):
@@ -302,7 +282,6 @@ def _cors(resp):
         "Content-Type, Authorization, X-Family-Token, X-Pol-Token, X-Wap-Token"
     )
     return resp
-
 
 def _operator_auth():
     """Require Bearer token matching OPERATOR_FETCH_SECRET. Return (ok, error_response)."""
@@ -316,14 +295,12 @@ def _operator_auth():
         return False, (jsonify({"error": "Invalid secret"}), 403)
     return True, None
 
-
 def _wap_jobs_path() -> Path:
     raw = (os.getenv("POL_JOBS_PATH", "").strip() or os.getenv("WAP_JOBS_PATH", "").strip())
     if raw:
         p = Path(raw)
         return p if p.is_absolute() else (REPO_ROOT / p)
     return REPO_ROOT / "data" / "wap_jobs.json"
-
 
 def _wap_load_jobs() -> list[dict]:
     path = _wap_jobs_path()
@@ -336,14 +313,12 @@ def _wap_load_jobs() -> list[dict]:
         logger.exception("wap jobs load failed")
         return []
 
-
 def _wap_save_jobs(jobs: list[dict]) -> None:
     path = _wap_jobs_path()
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + ".tmp")
     tmp.write_text(json.dumps(jobs, indent=2), encoding="utf-8")
     tmp.replace(path)
-
 
 def _wap_auth():
     """Require dashboard token (POL_DASHBOARD_TOKEN or legacy WAP_DASHBOARD_TOKEN) via Bearer, X-Pol-Token, or X-Wap-Token."""
@@ -361,13 +336,11 @@ def _wap_auth():
         return False, (jsonify({"error": "X-Pol-Token, X-Wap-Token, or Authorization: Bearer required"}), 401)
     return True, None
 
-
 @app.route("/pol")
 @app.route("/wap")
 def pol_dashboard():
     """Internal work-politics job tracker for SMM + operator. Token on API; bookmark /pol?t=..."""
     return send_from_directory("platform/miniapp", "pol-dashboard.html")
-
 
 @app.route("/api/pol/jobs", methods=["GET", "POST", "OPTIONS"])
 @app.route("/api/wap/jobs", methods=["GET", "POST", "OPTIONS"])
@@ -404,7 +377,6 @@ def pol_jobs():
     _wap_save_jobs(jobs)
     return jsonify({"job": job}), 201
 
-
 @app.route("/api/pol/jobs/<job_id>", methods=["PATCH", "OPTIONS"])
 @app.route("/api/wap/jobs/<job_id>", methods=["PATCH", "OPTIONS"])
 def pol_job_patch(job_id: str):
@@ -436,7 +408,6 @@ def pol_job_patch(job_id: str):
     _wap_save_jobs(jobs)
     return jsonify({"job": job})
 
-
 @app.route("/operator/session-transcript", methods=["GET"])
 def operator_session_transcript():
     """Return session-transcript.md content for operator sync (e.g. into Cursor). Requires OPERATOR_FETCH_SECRET."""
@@ -447,7 +418,6 @@ def operator_session_transcript():
         return jsonify({"error": "session-transcript.md not found", "path": str(SESSION_TRANSCRIPT_PATH)}), 404
     return SESSION_TRANSCRIPT_PATH.read_text(encoding="utf-8"), 200, {"Content-Type": "text/markdown; charset=utf-8"}
 
-
 @app.route("/operator/recursion-gate", methods=["GET"])
 def operator_recursion_gate():
     """Return recursion-gate.md content for operator sync. Requires OPERATOR_FETCH_SECRET."""
@@ -457,7 +427,6 @@ def operator_recursion_gate():
     if not RECURSION_GATE_PATH.exists():
         return jsonify({"error": "recursion-gate.md not found", "path": str(RECURSION_GATE_PATH)}), 404
     return RECURSION_GATE_PATH.read_text(encoding="utf-8"), 200, {"Content-Type": "text/markdown; charset=utf-8"}
-
 
 @app.route("/operator/observations", methods=["POST"])
 def operator_observations():
@@ -488,7 +457,6 @@ def operator_observations():
         "pending_count": count,
         "message": message,
     })
-
 
 @app.route("/operator/runtime/artifacts", methods=["POST"])
 def operator_artifacts():
@@ -530,7 +498,6 @@ def operator_artifacts():
         "message": f"Saved {base}. " + (f"{pending} in review." if staged else "Nothing new to add to profile."),
     })
 
-
 def _timeline_events(limit: int = 50) -> list[dict]:
     """Read pipeline-events.jsonl and return last events for fork timeline (read-only)."""
     out = []
@@ -567,7 +534,6 @@ def _timeline_events(limit: int = 50) -> list[dict]:
             continue
     return out
 
-
 @app.route("/operator/timeline", methods=["GET"])
 def operator_timeline():
     """Return recent pipeline events for fork timeline (read-only). No markdown editing."""
@@ -577,7 +543,6 @@ def operator_timeline():
     limit = min(int(request.args.get("limit", 50)), 100)
     events = _timeline_events(limit=limit)
     return jsonify({"user_id": USER_ID, "events": events, "count": len(events)})
-
 
 @app.route("/operator/gate-candidates", methods=["GET"])
 def operator_gate_candidates():
@@ -594,7 +559,6 @@ def operator_gate_candidates():
     )
     return jsonify({"user_id": USER_ID, "count": len(rows), "items": rows})
 
-
 @app.route("/operator/pol-status", methods=["GET"])
 @app.route("/operator/wap-status", methods=["GET"])
 def operator_pol_status():
@@ -603,7 +567,6 @@ def operator_pol_status():
     if not ok:
         return err
     return jsonify(get_work_politics_snapshot(USER_ID))
-
 
 @app.route("/operator/pol-brief", methods=["GET"])
 @app.route("/operator/wap-brief", methods=["GET"])
@@ -615,7 +578,6 @@ def operator_pol_brief():
     start = (request.args.get("start") or "").strip()
     brief = build_wap_weekly_brief(start_text=start, user_id=USER_ID)
     return brief, 200, {"Content-Type": "text/markdown; charset=utf-8"}
-
 
 @app.route("/operator/gate-candidates/<candidate_id>/action", methods=["POST"])
 def operator_gate_candidate_action(candidate_id: str):
@@ -699,7 +661,6 @@ def operator_gate_candidate_action(candidate_id: str):
         replay_mode="gate",
     )
     return jsonify({"ok": True, "action": action, "message": message, "candidate_id": candidate_id})
-
 
 @app.route("/operator/gate-candidates/merge-approved", methods=["POST"])
 def operator_merge_approved():
@@ -787,7 +748,6 @@ def operator_merge_approved():
         "message": f"Merged {len(approved)} candidate(s) into the Record (territory={territory}).",
     })
 
-
 @app.route("/operator/gate-candidates/batch-action", methods=["POST"])
 def operator_gate_candidates_batch_action():
     """Batch approve or reject candidates. Emits one pipeline event per candidate."""
@@ -834,7 +794,6 @@ def operator_gate_candidates_batch_action():
             results.append({"id": cid, "ok": False, "error": "status update failed"})
     return jsonify({"ok": True, "action": action, "results": results})
 
-
 @app.route("/operator/gate-candidates/generate-receipt", methods=["POST"])
 def operator_gate_candidates_generate_receipt():
     """Generate a merge receipt for the given approved candidate IDs. Does not apply merge."""
@@ -869,7 +828,6 @@ def operator_gate_candidates_generate_receipt():
         "apply_command": apply_cmd,
         "candidate_count": len(requested),
     })
-
 
 def _process_ask_body(data: dict, channel_key: str, archive: bool) -> dict:
     """Run ask flow; channel_key for grounded/lookup (e.g. miniapp, web:family)."""
@@ -912,7 +870,6 @@ def _process_ask_body(data: dict, channel_key: str, archive: bool) -> dict:
         _archive_miniapp(message, reply, is_lookup=False)
     return {"response": reply}
 
-
 @app.route("/api/family/activity", methods=["POST", "OPTIONS"])
 def family_activity():
     if request.method == "OPTIONS":
@@ -943,7 +900,6 @@ def family_activity():
         "message": "Sent for review." if staged else "Nothing new to add right now.",
     })
 
-
 @app.route("/api/family/pending-count", methods=["GET", "OPTIONS"])
 def family_pending_count():
     if request.method == "OPTIONS":
@@ -953,7 +909,6 @@ def family_pending_count():
         return err
     pending = get_pending_candidates()
     return jsonify({"pending_count": len(pending), "user_id": USER_ID})
-
 
 @app.route("/api/family/ask", methods=["POST", "OPTIONS"])
 def family_ask():
@@ -974,7 +929,6 @@ def family_ask():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-
 @app.route("/api/ask", methods=["POST", "OPTIONS"])
 def ask():
     if request.method == "OPTIONS":
@@ -990,7 +944,6 @@ def ask():
         return jsonify(out)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
 
 if __name__ == "__main__":
     if TELEGRAM_BOT_TOKEN and WEBHOOK_BASE_URL:

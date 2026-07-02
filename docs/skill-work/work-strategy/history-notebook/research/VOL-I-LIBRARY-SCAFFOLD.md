@@ -1,6 +1,6 @@
 ﻿# Vol I — Library-guided scaffold (operator)
 
-**WORK only;** not Record. This file **informs** drafting; it does **not** replace chapter SSOT.
+**non-authoritative;** not Record. This file **informs** drafting; it does **not** replace chapter SSOT.
 
 | SSOT | Role |
 |------|------|

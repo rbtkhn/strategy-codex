@@ -15,7 +15,6 @@ if str(RUNTIME) not in sys.path:
 
 from uncertainty_envelope import compute_envelope  # noqa: E402
 
-
 def _base(
     oid: str,
     summary: str,
@@ -42,7 +41,6 @@ def _base(
         "notes": None,
     }
 
-
 def test_conflicted_overrides_sufficient_signals():
     rows = [
         _base(
@@ -58,7 +56,6 @@ def test_conflicted_overrides_sufficient_signals():
     assert env["promotion_recommendation"] == "block"
     assert env["conflicting_refs"]
 
-
 def test_sufficient_two_obs_with_refs():
     rows = [
         _base("obs_20260101T120000Z_aaaaaaaa", "one", refs=["a/1"]),
@@ -69,7 +66,6 @@ def test_sufficient_two_obs_with_refs():
     assert env["fabricated_history_risk"] == "low"
     assert env["promotion_recommendation"] == "allow"
 
-
 def test_insufficient_no_refs():
     rows = [
         _base("obs_20260101T120000Z_aaaaaaaa", "x" * 120, refs=[]),
@@ -77,7 +73,6 @@ def test_insufficient_no_refs():
     env = compute_envelope(rows)
     assert env["evidence_state"] == "insufficient"
     assert env["promotion_recommendation"] == "hold"
-
 
 def test_fabricated_high_single_durable_without_refs():
     rows = [
@@ -91,7 +86,6 @@ def test_fabricated_high_single_durable_without_refs():
     env = compute_envelope(rows)
     assert env["fabricated_history_risk"] == "high"
     assert env["promotion_recommendation"] == "block"
-
 
 def test_score_evidence_cli(tmp_path):
     oid = "obs_20260101T120000Z_aaaaaaaa"
@@ -116,7 +110,6 @@ def test_score_evidence_cli(tmp_path):
     assert r.returncode == 0, r.stderr
     out = json.loads(r.stdout)
     assert "evidence_state" in out
-
 
 def test_flag_fabricated_cli(tmp_path):
     oid = "obs_20260101T120000Z_aaaaaaaa"

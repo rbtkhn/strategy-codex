@@ -31,7 +31,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Welcome to Deep Dive. Danny's on the road once again, but he promises to be sending in some reports from the road. But we're not going to wait for those reports. We thought we keep it going right here with our one of our best friends, Colonel Douglas McGregor, defense and foreign policy analyst, former adviser to the Secretary of Defense. Doug, glad you are here.

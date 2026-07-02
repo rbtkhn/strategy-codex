@@ -1,7 +1,5 @@
 # Innermost Loop Synthesis
 
-work only; not Record.
-
 This shelf is the singularity-facing synthesis layer for Innermost Loop. It is optimized for maximum analytical value and actionable ideas rather than equal-weight commentary on every issue.
 
 Open [shared prose index](/C:/dev/strategy-continuity/docs/prose-index.md) when the unresolved question is whether an output should stay in the month-scale synthesis layer or promote into `notes/` or `essays/`.

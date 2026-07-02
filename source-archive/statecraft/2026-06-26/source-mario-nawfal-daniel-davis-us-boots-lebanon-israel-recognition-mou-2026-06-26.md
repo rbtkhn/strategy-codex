@@ -37,7 +37,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — US Boots Remove Resistance
 
 Breaking news. We have uh a report that's just come out. We've got, first of all, Lieutenant Colonel Daniel Davis here. We've got a report that's come out that essentially is an agreement between the United States of America, Lebanon, and Israel. And the agreement seems like it's in conflict with the MOU.

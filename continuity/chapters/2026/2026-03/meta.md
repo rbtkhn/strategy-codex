@@ -55,4 +55,4 @@ April’s notebook becomes **operationally thick**: **Islamabad** rounds, **Horm
 6. CNBC — Zelenskyy Saudi visit, defense cooperation (2026-03-27). `https://www.cnbc.com/2026/03/27/zelenskyy-saudi-visit-us-troops-middle-east-iran-ukraine-aid-shahed-drones.html`
 7. Notebook — `experts/ritter/thread.md` backfill **2026-03-18** article pointer. `../experts/ritter/thread.md`
 
-_Work only; not Record. Casualty and battle-damage figures from any single outlet are **not** Record-grade without cross-source adjudication._
+_Casualty and battle-damage figures from any single outlet are **not** Record-grade without cross-source adjudication._

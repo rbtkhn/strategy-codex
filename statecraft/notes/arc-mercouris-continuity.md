@@ -21,7 +21,6 @@ archive_links:
 
 # Mercouris arc
 
-
 Purpose: define the current `arc-mercouris-continuity` as a bounded helix of recurring Mercouris arc-threads. This keeps Mercouris from being reduced to either a generic speaker object or an unstructured native stream.
 
 Model note: an **arc is a bounded helix of arc-threads**. For Mercouris, the arc is primarily stream-native: the native Duran/Mercouris continuity is the main body, while Davis and Diesen guest-host appearances reinforce the same thread lines without yet promoting the object into a mature speaker helix.

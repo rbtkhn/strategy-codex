@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `diesen`
 <!-- word_count: 4730 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a host thread that competes with the current canonical Diesen shelf.
@@ -42,7 +41,6 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 
 **Greater Eurasia** long-forms with **Marandi** anchor the month Ã¢â‚¬â€ **multipolar** / **non-Western** register on escalation, domestic unrest narrative, and **Ã¢â‚¬Å“limited strikeÃ¢â‚¬Â** assumptions; cross-host **Macgregor** on **rising war risk** keeps the **importer / distance** lane visible beside pure Tehran voice.
 
-
 Verification stance for Glenn Diesen in 2026-01 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgmentÃ¢â‚¬â€without turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 
 The `diesen` laneÃ¢â‚¬â„¢s role (Eurasia / multipolar discourse; non-Western institutional / rationality frames when distinct from MearsheimerÃ¢â‚¬â„¢s structural-realist register) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃ¢â‚¬â„¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
@@ -65,7 +63,6 @@ When historical expert context artifacts exist for `diesen` (per-month files or 
 
 February weight shifts to **Ukraine** **information** / **Istanbul** theses at the **UN** and podcast Ã¢â‚¬â€ still **same** multipolar toolkit; **Iran** material continues on the feed (**Marandi** Ã¢â‚¬Å“war for survivalÃ¢â‚¬Â) for cross-week **batch-analysis** with January arc.
 
-
 Cross-lane convergence and tension are notebook-native concepts. For 2026-02, read Ãƒâ€” mearsheimer, Ãƒâ€” macgregor, Ãƒâ€” pape, Ãƒâ€” sachs as the default **short list** of other experts whose fingerprints commonly collide with `diesen` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
 
 Open pins belong in prose, not only as bullets. For this `diesen` month segment, explicitly reserve space for **what remains unresolved**: which claims await transcript confirmation, which geopolitical sub-claims depend on translation or primary document access, and which institutional facts are stable enough to reuse in weave scaffolding. That habit keeps later strategy passes from mistaking silence for certainty.
@@ -87,7 +84,6 @@ Verification stance for Glenn Diesen in 2026-02 should stay tier-honest: web-ind
 
 March stacks **Marandi** interviews (military strategy, ceasefire posture, **South Pars** / energy warfare), a **Mercouris** cross-episode on **Iran** Ã¢â€ â€ **Ukraine**, and **Substack** synthesis on **U.S. dominance** Ã¢â‚¬â€ density supports **April** id compares without collapsing registers.
 
-
 Cross-lane convergence and tension are notebook-native concepts. For 2026-03, read Ãƒâ€” mearsheimer, Ãƒâ€” macgregor, Ãƒâ€” pape, Ãƒâ€” sachs as the default **short list** of other experts whose fingerprints commonly collide with `diesen` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
 
 If pages named this expert during 2026-03, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃ¢â‚¬â€absence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
@@ -97,7 +93,6 @@ Typical pairings on file for `diesen` emphasize contrast surfaces: Ãƒâ€” 
 When historical expert context artifacts exist for `diesen` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-03 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
 
 The 2026-03 segment for the Glenn Diesen lane (`diesen`) exists so the notebook keeps a **prose spine** alongside any strength-tagged bullets. The roster describes this voice as centered on Eurasia / multipolar discourse; non-Western institutional / rationality frames when distinct from MearsheimerÃ¢â‚¬â„¢s structural-realist register. That one-line role is not a substitute for transcript truth; it is a **routing label** so batch-analysis passes know which mechanism vocabulary to expect when dated material lands. When this month is still partial or ingest-light, the prose layer still records **where verification should attach** (page cites, transcript rows, or hub URLs) without pretending those pins are already closed.
-
 
 Cross-lane convergence and tension are notebook-native concepts. For 2026-03, read Ãƒâ€” mearsheimer, Ãƒâ€” macgregor, Ãƒâ€” pape, Ãƒâ€” sachs as the default **short list** of other experts whose fingerprints commonly collide with `diesen` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
 
@@ -152,7 +147,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 - **2026-03** Ã¢â‚¬â€ Substack Ã¢â‚¬â€ Iran war accelerating end of U.S. dominance.
   _Source:_ web: `https://glenndiesen.substack.com/p/iran-war-is-accelerating-the-end`
 
-
 ### 2026-04
 
 - **2026-04** Ã¢â‚¬â€ Ledger mirror 1 (partial month).
@@ -164,7 +158,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 _Partial month Ã¢â‚¬â€ **2026-04-12** cold ingest (Jiang Ãƒâ€” Diesen) + **2026-04-14** Pages; not a full April ledger._
 
 April folds **petrodollar / Treasury / HormuzÃ¢â‚¬â€œMalacca** framing beside Islamabad spine Ã¢â‚¬â€ **vi-14** work-jiang lecture verify path Ã¢â‚¬â€ and abstract compare vs Sachs in dedicated Page.
-
 
 When historical expert context artifacts exist for `diesen` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-04 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
 

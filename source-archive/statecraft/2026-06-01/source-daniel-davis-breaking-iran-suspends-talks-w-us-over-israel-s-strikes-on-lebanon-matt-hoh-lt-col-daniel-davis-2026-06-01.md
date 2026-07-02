@@ -32,7 +32,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Peace talks are off. Oil prices are up and President Trump is saying, "What's up?" He's trying to figure all this out. A lot of things have been flying around since even we were on our show earlier today. Uh the Iranian side has come out and said that they have suspended their peace talks with the United States.

@@ -1,7 +1,6 @@
 # Empire And Sacred Order
 <!-- word_count: 251 -->
 
-
 ## Purpose
 
 Study how empire borrows, carries, restrains, or corrupts sacred order. The central problem is not whether theology enters politics; it is what political power does once it speaks sacred language.

@@ -13,8 +13,6 @@ post_id: 185722617
 
 # The Innermost Loop - 2026-01-25
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 25, 2026
@@ -29,10 +27,7 @@ The Singularity is cooking mathematics.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is cooking mathematics. GPT-5.2 Pro officially scored a SOTA 31% on FrontierMath Tier 4 , a massive jump from the previous 19%. The capability leap is so profound that mathematicians are now increasingly focusing on understanding cases where the model failed when they expected it to succeed . Number theorist Dan Romik notes the model “beautifully” overcame layers of difficulty that would require a “fairly significant effort” for human experts.
+- The Singularity is cooking mathematics. GPT-5.2 Pro officially scored a SOTA 31% on FrontierMath Tier 4 , a massive jump from the previous 19%. The capability leap is so profound that mathematicians are now increasingly focusing on understanding cases where the model failed when they expected it to succeed . Number theorist Dan Romik notes the model “beautifully” overcame layers of difficulty that would require a “fairly significant effort” for human experts.
 
 Consequently, the definition of human competence is being rewritten. Anthropic has open-sourced its performance engineering exam because Opus 4.5 beats the best humans under time constraints. They are now inviting applications only from humans who can beat the model given “infinite time.” Those applicants will face an uphill battle, now that Anthropic has introduced “Tasks” for Claude Code, allowing it to track dependencies and collaborate across sessions , effectively giving the AI a project management cortex.
 

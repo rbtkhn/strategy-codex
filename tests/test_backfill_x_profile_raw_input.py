@@ -17,11 +17,9 @@ from scripts.backfill_x_profile_raw_input import (
     run,
 )
 
-
 def test_profile_handle_infers_last_path_segment() -> None:
     assert _profile_handle("https://x.com/RealScottRitter") == "RealScottRitter"
     assert _profile_handle("https://x.com/@RealScottRitter") == "RealScottRitter"
-
 
 def test_extract_status_urls_from_profile_html() -> None:
     html = """
@@ -35,7 +33,6 @@ def test_extract_status_urls_from_profile_html() -> None:
         "https://x.com/RealScottRitter/status/2044502233849475530",
     ]
 
-
 def test_extract_status_text_prefers_tweet_text_block() -> None:
     html = """
     <div data-testid="tweetText"><span>Hello</span><br/>world</div>
@@ -43,20 +40,17 @@ def test_extract_status_text_prefers_tweet_text_block() -> None:
     """
     assert _extract_status_text(html) == "Hello\nworld"
 
-
 def test_extract_status_text_falls_back_to_meta() -> None:
     html = """
     <meta property="og:description" content="Scott Ritter on X: War porn is nonsense">
     """
     assert _extract_status_text(html) == "War porn is nonsense"
 
-
 def test_extract_status_datetime_from_meta() -> None:
     html = '<meta property="article:published_time" content="2026-04-16T19:45:00Z">'
     dt = _extract_status_datetime(html)
     assert dt is not None
     assert dt.date() == date(2026, 4, 16)
-
 
 def test_build_doc_includes_x_frontmatter() -> None:
     doc = _build_doc(
@@ -76,7 +70,6 @@ def test_build_doc_includes_x_frontmatter() -> None:
     assert "thread: ritter" in doc
     assert "# @RealScottRitter Post" in doc
     assert "Hello world" in doc
-
 
 def test_run_writes_status_files_from_explicit_urls(monkeypatch) -> None:
     profile = "https://x.com/RealScottRitter"
@@ -110,7 +103,6 @@ def test_run_writes_status_files_from_explicit_urls(monkeypatch) -> None:
         assert "Hello\nworld" in text or "Hello world" in text
     finally:
         shutil.rmtree(tmpdir, ignore_errors=True)
-
 
 def test_ritter_x_wrapper_refuses_profile_scan_by_default(monkeypatch, capsys) -> None:
     monkeypatch.setattr(sys, "argv", ["backfill_ritter_x_raw_input.py"])

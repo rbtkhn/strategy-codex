@@ -13,10 +13,8 @@ if str(SCRIPTS) not in sys.path:
 
 import verify_integration_receipt as vir  # noqa: E402
 
-
 def _sha(s: str) -> str:
     return vir.sha256_text(s)
-
 
 def test_verify_worktree_match(tmp_path: Path) -> None:
     repo = tmp_path / "repo"
@@ -44,7 +42,6 @@ def test_verify_worktree_match(tmp_path: Path) -> None:
     finally:
         _sys.argv = old
 
-
 def test_verify_mismatch(tmp_path: Path) -> None:
     repo = tmp_path / "repo"
     (repo / "platform/users" / "u").mkdir(parents=True)
@@ -69,7 +66,6 @@ def test_verify_mismatch(tmp_path: Path) -> None:
     finally:
         _sys.argv = old
 
-
 def test_verify_empty_after_hashes_exit_2(tmp_path: Path) -> None:
     repo = tmp_path / "repo"
     rpath = repo / "receipt.json"
@@ -90,7 +86,6 @@ def test_verify_empty_after_hashes_exit_2(tmp_path: Path) -> None:
         assert vir.main() == 2
     finally:
         _sys.argv = old
-
 
 def test_verify_hashes_helper_match(tmp_path: Path) -> None:
     p = tmp_path / "a" / "b.txt"

@@ -32,7 +32,6 @@ transcript_curation: curated_sectioned
 
 ## Cleaned Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Thursday, June 4th, 2026 and our dear friend or brother Stalin love Kreb Pivnik is here with that with with us. Welcome back Sus. >> Thank you. Always a pleasure. >> I want to start with what has happened between Iran and the United States. The United States attack Iranian oil tanker and then Iranian response to Kuwait and Bahrain and during this sort of back and forth firing at each other something hit the international airport in Kuwait.

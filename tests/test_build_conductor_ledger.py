@@ -10,7 +10,6 @@ from scripts.build_conductor_ledger import (
     render_conductor_ledger_markdown,
 )
 
-
 def test_collect_recent_conductor_closes_includes_extended_coffee_close(tmp_path: Path) -> None:
     events = tmp_path / "cadence.md"
     events.write_text(
@@ -32,7 +31,6 @@ _(Append below this line.)_
     assert rows[0]["object_ref"] == "docs/a.md"
     assert rows[1]["kind"] == "coffee_conductor_outcome"
     assert rows[1].get("legacy") is True
-
 
 def test_collect_recent_conductor_closes_includes_outcomes_and_closed_coffee_closes(
     tmp_path: Path,
@@ -59,7 +57,6 @@ _(Append below this line.)_
     assert rows[1]["kind"] == "coffee_close"
     assert rows[1]["conductor"] == "karajan"
 
-
 def test_collect_friction_candidates_skips_template_placeholders(tmp_path: Path) -> None:
     notebook = tmp_path / "journal"
     notebook.mkdir()
@@ -78,7 +75,6 @@ def test_collect_friction_candidates_skips_template_placeholders(tmp_path: Path)
     assert len(rows) == 1
     assert rows[0]["path"].endswith("journal/day.md")
     assert rows[0]["text"] == "Conductor worked once options named concrete batch outcomes."
-
 
 def test_build_and_render_conductor_ledger_reports_active_arc_and_shortcut(
     tmp_path: Path,

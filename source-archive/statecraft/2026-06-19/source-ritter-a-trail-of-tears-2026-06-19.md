@@ -63,16 +63,12 @@ I spent ten days travelling through the territories that are at the heart of Rus
 Scott Ritter
 Jun 19, 2026
 
-
 The impromptu memorial to the victims of the Starobelsk terrorist drone attack
 I embarked on this journey to empower myself to be able to better assess the realities associated with a conflict that has entered its fifth year. I left bearing the burden of how to tell the story of people who have been living under the conditions of war for more than twelve years.
 
 The vision of this trip began to come together in November of last year. I was in Moscow, doing media interviews about the SMO, and was struck by the realization that for the most part the "informed" conversations taking place were between people who simply had no first-hand experience in what they were talking about. While the discussions weren't superficial, and indeed covered the topics addressed responsibly, for me it was more of an academic exercise than an expression of the kind of deep insight that can only come from doing and seeing things for yourself. The whole purpose behind my coming to Russia in the first place was to capture the Russian reality so that I could better explain it to a Western audience. I decided then and there that a visit to the SMO was an absolute necessity.
 
 I had last visited the SMO region in January of 2024, a lightening quick dash through the region which enabled me to say that I had "been there and done that", but little more. Even if the visit had been of a longer duration, there was a need to refresh my personal database. The war in the SMO had progressed from that time to the point that any discussion of the conflict drawing upon two-year-old experiences would simply be an exercise in intellectual frustration.
-
-
-
 
 The Author (center) with Alexander Zyrianov (far right) and guards in Lugansk, January 2024
 The developments in drone warfare alone made the present situation so far removed from past experiences as to represent a completely new reality.
@@ -107,16 +103,10 @@ When I resumed travelling to Russia in August 2025, Alexandra took on the role o
 
 And so it was that this motley crew of adventurers departed Moscow on the morning of July 8, headed in a two-vehicle convoy for Lugansk. It is a long drive from Moscow to Lugansk, taking nearly twelve hours. During this time the team got to know each other better, and by the time we arrived in Lugansk we had developed an easy familiarity sprinkled with the kind of insider humor one can only get through shared experience. We settled in for diner that night in the hotel restaurant. Air raid sirens wailed throughout the meal, a clear sign that we were not in Kansas anymore, as Dorothy in The Wizard of Oz famously noted.
 
-
-
-
 The ruins of the main administrative building of the Starobelsk teacher's college, destroyed in a terrorist drone attack committed by Ukraine on May 22, 2026
 We began our work the next day, with a visit to Starobelsk, where we toured the ruins of the teacher's college that had been attacked by Ukrainian drones on May 22, murdering 21 students in their sleep. We finished the trip nine days later in Melitopol, the interim capital of the Zaporozhia region. We had originally been scheduled to proceed from Melitopol to Kherson, but the roads were impassible due to Ukrainian drone attacks. Even if we would have braved the journey south, the harsh reality was the Ukrainians had severely damaged the Chonhar Bridge connecting Kherson with Crimea, meaning that any trip to Genichesk, the temporary capital of Kherson, would require a round-trip journey along the embattled M-18 highway. Simple risk-gain analysis precluded such insanity. As such we were compelled to make a harrowing dash from Melitopol to Mariupol on June 17 on highways under constant attack from Ukrainian drones.
 
 The time spent between our arrival in Lugansk and our departure from Melitopol was put to good use. I was able to visit three drone units—the "Burevestnik" Regiment in Lugansk, the Drone Company of the M. Krivonos Separate battalion in Donetsk, and the "Archanglesk" Drone Center in Zaporoshia, and conduct related interviews with drone operators and Dmitry Rogozhin, the former ROSCOSMOS Director who today commands the BARS-SARMAT Brigade and related drone center.
-
-
-
 
 A drone operator from the "Burevestnik" Regiment, June 9, 2026
 As a military man, I am accustomed to the realities of war, and I knew going into this project that I would be exposed to some harsh truths about the consequences of the current conflict. War isn't simply about soldiers wielding their instruments of death. It is also about the innocents caught up in this senseless violence.
@@ -166,9 +156,6 @@ At Starobelsk, a similar monument had been set up by the classmates of the decea
 My eyes filled with tears.
 
 At the Alley of Angels, in Donetsk, I joined the Ombudsman for Children's Rights for the Donetsk People's Republic in laying flowers and a soft stuffed toy dog at the base of the memorial to the Children killed by the Ukrainian armed forces in Donetsk since 2014.
-
-
-
 
 Stuffed toy animals at the "Alley of Angels" in Donetsk
 I placed the toy dog next to yellow unicorn.

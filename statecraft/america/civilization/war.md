@@ -1,6 +1,5 @@
 # America War
 
-
 ## Purpose
 
 Use American war memory as a statecraft lens for independence, civil war, congressional war authority, expeditionary empire, moralized intervention, military professionalism, allied burden-sharing, maritime command, executive overreach, war fatigue, and lawful exit.

@@ -1,7 +1,5 @@
 # anyang-ai-foundation (预备轨)
 
-WORK only; not Record.
-
 **Learning lane:** members **below** minimal coding readiness — not ready for solo Gitee fork/clone/push in week one.
 
 **Lane hub:** [anyang-ai-lanes.md](../anyang-ai-lanes.md)

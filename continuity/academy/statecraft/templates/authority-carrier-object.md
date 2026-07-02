@@ -1,7 +1,6 @@
 # Authority Carrier Object Template
 <!-- word_count: 263 -->
 
-
 Use this template when a minister, negotiator, security official, party figure, cleric, military chief, diplomat, or institutional office carries state intent across raw-inputs. This is not a biography template. It tracks how a person or office turns current events into statecraft signals.
 
 ## Object Name

@@ -1,6 +1,6 @@
 ---
 name: skill-jiang
-description: "Blind forward prediction on Jiang Predictive History: prefix-only lectures (NN ≤ k), predict k+1, reveal, score. Canonical audit: lecture-forward-chain-gt-BLIND-prefix-only.md. Volume IV game-theory-NN. WORK only; not Record."
+description: "Blind forward prediction on Jiang Predictive History: prefix-only lectures (NN ≤ k), predict k+1, reveal, score. Canonical audit: lecture-forward-chain-gt-BLIND-prefix-only.md. Volume IV game-theory-NN. "
 preferred_activation: skill-jiang
 activation: skill-jiang
 version: 0.5.1

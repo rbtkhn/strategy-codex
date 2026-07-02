@@ -1,7 +1,6 @@
 # Mercouris refined page — 2026-04-21
 <!-- word_count: 441 -->
 
-
 **Expert:** `mercouris` · **Aired:** 2026-04-21 · **Artifact:** refined page (standalone file under `experts/mercouris/`). Not a `strategy-page` HTML fence in `thread.md` unless you duplicate the same judgment there during EOD compose.
 
 ---

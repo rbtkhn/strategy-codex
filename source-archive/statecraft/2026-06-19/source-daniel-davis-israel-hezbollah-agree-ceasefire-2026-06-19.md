@@ -56,7 +56,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 We have some breaking news. Just about an hour ago, it was announced that Israel and Hezbollah have agreed, sorry about have agreed to a ceasefire. US officials have officials concern concerned, but it's not supposed to take effect until 400 pm today. Uh, and I wasn't clear whether that was 4 p.m. Eastern time or 4 p.m. local time.

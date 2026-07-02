@@ -13,8 +13,6 @@ post_id: 200661054
 
 # The Innermost Loop - 2026-06-04
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to June 4, 2026
@@ -29,10 +27,7 @@ The Singularity is creeping toward the edge.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is creeping toward the edge. Google’s new Gemma 4 12B is an encoder-free multimodal model that pipes vision and audio straight into the LLM backbone, runs on a laptop, and nearly matches its 26B Mixture-of-Experts sibling at under half the memory, all under Apache 2.0 as the family blows past 150 million downloads. Generation is getting cinematic just as fast, as Elon Musk’s just-released Grok Imagine 1.5 conjured an Iliad trailer, staging the siege of Troy on demand. Voice is the last modality to fall, and Miso Labs’ Miso-TTS , billed as the most emotive open voice model yet, clones anyone from a ten-second clip and replies in 110 milliseconds, faster than human reaction time, while staying on-prem so enterprises keep their data in-house.
+- The Singularity is creeping toward the edge. Google’s new Gemma 4 12B is an encoder-free multimodal model that pipes vision and audio straight into the LLM backbone, runs on a laptop, and nearly matches its 26B Mixture-of-Experts sibling at under half the memory, all under Apache 2.0 as the family blows past 150 million downloads. Generation is getting cinematic just as fast, as Elon Musk’s just-released Grok Imagine 1.5 conjured an Iliad trailer, staging the siege of Troy on demand. Voice is the last modality to fall, and Miso Labs’ Miso-TTS , billed as the most emotive open voice model yet, clones anyone from a ten-second clip and replies in 110 milliseconds, faster than human reaction time, while staying on-prem so enterprises keep their data in-house.
 
 The bots are already winning the web. Cloudflare’s Matthew Prince concedes it happened faster than he predicted , as bots have passed humans in online traffic for the first time in history. Meta is monetizing the shift with the Meta Business Agent , a tireless salesforce that qualifies leads, books appointments, and closes deals across WhatsApp, Messenger, and Instagram while wiring into hundreds of systems like Shopify, Zendesk, and Shopee. Amazon is feeding those bots imagery, surfacing AI-generated product photos beneath search that critics warn may depict items that do not exist. Marketers have noticed who the real customers are, so r/biohackers banned new peptide and HRT posts after companies gamed “answer engine optimization,” seeding threads so ChatGPT and Google cite their brands.
 

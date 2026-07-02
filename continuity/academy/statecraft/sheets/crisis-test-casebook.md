@@ -1,7 +1,6 @@
 # Crisis Test Casebook
 <!-- word_count: 609 -->
 
-
 Crisis tests train academy-statecraft to identify the contested object, classify the game, and draft the settlement phrase that makes restraint politically possible.
 
 Use this sheet as method memory. The national lane casebooks preserve what each state learns from the same crisis: [America](../america/crisis-test-casebook.md), [Russia](../russia/crisis-test-casebook.md), [China](../china/crisis-test-casebook.md), and [Iran](../../../../statecraft/sheets/crisis-test-casebook.md).

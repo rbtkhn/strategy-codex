@@ -1,6 +1,5 @@
 # Tri-mind / tri-frame — DEPRECATED (2026-06)
 
-
 **Status:** The **`tri-mind`** skill, **`tri-frame`** / **`tutti`** choreography, and fixed **A/B/C menu** (Mercouris / Mearsheimer / Barnes solo–duet–roundtable) are **obsolete** for active strategy-codex operator workflow.
 
 **Do not** invoke [`.cursor/skills/tri-mind/SKILL.md`](TRI-MIND-DEPRECATED.md) in new sessions. Historical references in notebooks, archives, and demos remain read-only context.

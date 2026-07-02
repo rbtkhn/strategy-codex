@@ -62,10 +62,6 @@ An attempt to agree a ceasefire to open Hormuz would require it to be applicable
 
 Thirdly, Trump claims that that ‘regime change’ has already occurred because he had not heard the names of the new Iranian leaders before -- “These are different people than anyone has ever heard of before, and frankly they’ve been more reasonable. So, we’ve had total regime change beyond what anyone thought possible”. Trump doesn’t know who the ‘new’ third layer of Iran’s leadership are, but nonetheless presumes that they will be more flexible in negotiating with the US. (What is the basis for this ‘faith statement’? No facts needed?)
 
-
-
-
-
 Fourth, any attempt to open Hormuz by direct military assault would be fraught with the risk of sustaining substantial US casualties: Hormuz is home ground to the Iranians and constitutes a prospective battle for which they have been preparing over many years. The geography of Hormuz alone -- narrow waterways, proximity to Iran’s coastline, and dense Iranian defence systems — pose obvious and severe risks. From where would the troops stage? How would they be supplied? How would they be exfiltrated?
 
 Even were US forces to seize Kharg, or one, or all of the three islands adjacent to the UAE coastline, Iran could still attack unauthorised tankers transiting the waterway using surface or submersible drones or missiles launched from mainland Iran.
@@ -91,5 +87,4 @@ The war is Trump’s and the US’ to lose. Trump now realises the war is lost �
 After a month of war, “it is arguably Iran that has secured the most significant strategic victory”, notes Bloomberg — with its ever “tightening grip over traffic through the Strait of Hormuz”:
 
 “There is every sign that Tehran’s ability to control the Strait is increasing … The near-total closure of Hormuz since [early March] ... has proved an exceptionally effective asymmetric weapon in Iran’s fight against two of the world’s most powerful military forces”.
-
 

@@ -36,7 +36,6 @@ transcript_curation: curated_sectioned
 
 ## Cleaned Transcript
 
-
 ### Show Open — Introduction
 
 To my shock, I was asked to write the peace plan to be presented to Putin. They thought if it came from me to have more credibility to Putin, about 2 or 3 weeks later, I get a letter from Trump thanking me from doing so. I am concerned that you remove Putin and then things change. They have their neocons the same way as America has theirs.

@@ -1,6 +1,5 @@
 # Kent Raw-Input Index
 
-
 Compatibility pointer only.
 
 The canonical Kent source route map now lives at [kent-source-index.md](kent-source-index.md).

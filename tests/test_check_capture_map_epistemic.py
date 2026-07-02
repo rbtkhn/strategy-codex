@@ -11,7 +11,6 @@ if str(SCRIPTS) not in sys.path:
 
 import check_capture_map_epistemic as checker  # noqa: E402
 
-
 def test_collect_warnings_high_entropy() -> None:
     objects = [
         {
@@ -32,7 +31,6 @@ def test_collect_warnings_high_entropy() -> None:
     assert any("fragmentation regime" in w for w in warnings)
     assert any("excerpt/speaker may not support stance" in w for w in warnings)
     assert any("source-example.md" in w for w in warnings)
-
 
 def test_collect_warnings_clean_row() -> None:
     objects = [

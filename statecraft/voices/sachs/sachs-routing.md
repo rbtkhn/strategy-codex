@@ -112,7 +112,6 @@ Best current anchors:
 - [2025-12-09 / Neutrality Studies x Sachs](../../../source-archive/statecraft/2025-12-09/source-neutrality-studies-rabkin-ramos-sachs-israels-zionist-self-destruction-2025-12-09.md)
 - [2025-12-19 / HORIZONS Discussion x Sachs](../../../source-archive/statecraft/2025-12-19/source-horizons-vuk-jeremic-sachs-the-asia-pacific-century-explained-2025-12-19.md)
 
-
 ## Open Mercouris Or Tucker First
 
 Open the Mercouris or Tucker anchors first when the real question is:

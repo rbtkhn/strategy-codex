@@ -17,5 +17,5 @@ Operator says **`strategy`**, **`strategy pass`**, **`work-strategy`** (codex pa
 
 ## Boundaries
 
-- WORK only — not Record merge.
+- Instrumental work — not Record merge. See [work-membrane-v2.md](../../docs/work-membrane-v2.md).
 - Verbatim ingest → [strategy-input-raw-ingest.mdc](strategy-input-raw-ingest.mdc) + [`continuity/raw-input/`](../../continuity/raw-input/README.md).

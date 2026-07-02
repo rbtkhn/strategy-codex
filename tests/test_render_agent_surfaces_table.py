@@ -9,14 +9,12 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = REPO_ROOT / "scripts" / "work_dev" / "render_agent_surfaces_table.py"
 
-
 def _load_module():
     spec = importlib.util.spec_from_file_location("render_agent_surfaces_table_mod", SCRIPT)
     mod = importlib.util.module_from_spec(spec)
     assert spec and spec.loader
     spec.loader.exec_module(mod)
     return mod
-
 
 def _run_cli(
     *,
@@ -32,7 +30,6 @@ def _run_cli(
     if check:
         cmd.append("--check")
     return subprocess.run(cmd, cwd=str(REPO_ROOT), capture_output=True, text=True, check=False)
-
 
 def _full_surface(sid: str, **overrides: object) -> dict:
     base = {
@@ -52,7 +49,6 @@ def _full_surface(sid: str, **overrides: object) -> dict:
     }
     base.update(overrides)
     return base
-
 
 def test_renderer_writes_markdown_from_temp_registry(tmp_path: Path) -> None:
     mod = _load_module()
@@ -74,7 +70,6 @@ def test_renderer_writes_markdown_from_temp_registry(tmp_path: Path) -> None:
     reg2 = json.loads(path.read_text(encoding="utf-8"))
     assert mod.build_markdown(reg2) == text
 
-
 def test_warning_phrases_present() -> None:
     mod = _load_module()
     md = mod.build_markdown(
@@ -84,7 +79,6 @@ def test_warning_phrases_present() -> None:
     assert "not approval" in md
     assert "not a merge path" in md
     assert "grants no authority" in md
-
 
 def test_rows_sorted_by_id() -> None:
     mod = _load_module()
@@ -100,7 +94,6 @@ def test_rows_sorted_by_id() -> None:
     pos_z = md.find("| zebra |")
     assert pos_a != -1 and pos_z != -1
     assert pos_a < pos_z
-
 
 def test_list_fields_use_br() -> None:
     mod = _load_module()
@@ -118,7 +111,6 @@ def test_list_fields_use_br() -> None:
     assert "first <br> second" in md
     assert "a <br> b <br> c" in md
 
-
 def test_pipe_characters_escaped_in_cells() -> None:
     mod = _load_module()
     md = mod.build_markdown(
@@ -131,7 +123,6 @@ def test_pipe_characters_escaped_in_cells() -> None:
     assert r"a\|b" in md
     assert r"x\|y" in md
 
-
 def test_check_exits_zero_when_current(tmp_path: Path) -> None:
     reg = {"schemaVersion": "1.0.0", "surfaces": [_full_surface("u")]}
     reg_path = tmp_path / "reg.json"
@@ -143,7 +134,6 @@ def test_check_exits_zero_when_current(tmp_path: Path) -> None:
     assert proc.returncode == 0
     assert proc.stderr == ""
 
-
 def test_check_exits_nonzero_when_stale(tmp_path: Path) -> None:
     reg = {"schemaVersion": "1.0.0", "surfaces": [_full_surface("u")]}
     reg_path = tmp_path / "reg.json"
@@ -154,7 +144,6 @@ def test_check_exits_nonzero_when_stale(tmp_path: Path) -> None:
     assert proc.returncode == 1
     assert "stale" in proc.stderr.lower() or "missing" in proc.stderr.lower()
 
-
 def test_check_exits_nonzero_when_missing(tmp_path: Path) -> None:
     reg = {"schemaVersion": "1.0.0", "surfaces": [_full_surface("u")]}
     reg_path = tmp_path / "reg.json"
@@ -163,7 +152,6 @@ def test_check_exits_nonzero_when_missing(tmp_path: Path) -> None:
     proc = _run_cli(registry=reg_path, output=out, check=True)
     assert proc.returncode == 1
     assert "missing" in proc.stderr.lower()
-
 
 def test_null_and_omitted_fields_render_em_dash() -> None:
     mod = _load_module()
@@ -176,7 +164,6 @@ def test_null_and_omitted_fields_render_em_dash() -> None:
     assert "\u2014" in md
     # receipt required wrong type -> em dash
     assert "| — |" in md or "\u2014" in md.split("Has name")[1]
-
 
 def test_summary_counts() -> None:
     mod = _load_module()

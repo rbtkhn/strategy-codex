@@ -12,7 +12,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "validate_skills.py"
 
-
 class ValidateSkillsIntegrationTests(unittest.TestCase):
     def test_all_skills_valid_default_mode(self) -> None:
         result = subprocess.run(
@@ -24,7 +23,6 @@ class ValidateSkillsIntegrationTests(unittest.TestCase):
         payload = json.loads(result.stdout)
         self.assertEqual(result.returncode, 0, f"Validation failed:\n{result.stdout}")
         self.assertEqual(payload["error_count"], 0, payload.get("issues"))
-
 
 class ValidateSkillsUnitTests(unittest.TestCase):
     def setUp(self) -> None:
@@ -122,7 +120,6 @@ class ValidateSkillsUnitTests(unittest.TestCase):
                 self.vs.REPO_ROOT = orig
         warns = [i for i in issues if i["level"] == "warn" and "differs from manifest" in i["message"]]
         self.assertTrue(warns)
-
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,6 +1,5 @@
 # Jermy speaker object
 
-
 object_shape: triple-helix
 
 Purpose: define Steve Jermy as a first-class speaker object in a way that matches his real utility in the notebook. Unlike Mercouris, Parsi, or Pape, Jermy does not have one thick native cognition stream body here. Jermy is now best read as a **triple-speaker-helix energy-system and maritime-closure object** carried by real `Davis`, `Diesen`, and `Peacemonger` host-local branches.

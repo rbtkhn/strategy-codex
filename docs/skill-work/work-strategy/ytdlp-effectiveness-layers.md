@@ -1,6 +1,5 @@
 # yt-dlp effectiveness layers
 
-
 This note separates three different questions that are often blurred together after a YouTube ingest:
 
 - did **`yt-dlp`** itself work?

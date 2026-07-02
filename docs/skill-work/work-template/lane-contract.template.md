@@ -2,7 +2,7 @@
 
 **Purpose:** …
 
-**Boundaries:** WORK only. Not Record. Merge via RECURSION-GATE only when staging companion-facing facts.
+**Boundaries:** non-authoritative. Not Record. Merge via RECURSION-GATE only when staging companion-facing facts.
 
 ## Authorized sources
 

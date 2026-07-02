@@ -26,7 +26,6 @@ Scott Ritter
 
 Apr 03, 2026
 
-
 MH-53J helicopter hovering over the Iraqi desert at night
 
 On the afternoon of January 18, 1991, during Operation Desert Storm, Iraq launched four modified Scud missiles, known as the Al Hussein, towards targets in Israel. Three of the Al Hussein missiles fell in Tel Aviv, with one scoring a direct hit on a multi-story building. The warhead failed to explode, however, and was recovered intact by Israeli explosives disposal crews from a ground-floor jewelry store. A second Al Hussein hit directly next to a municipal center in Tel Aviv's Hatkiva district, blowing open an unoccupied basement bomb shelter; this missile landed a scant 300 meters from an Al Hussein impact from the day before in the Ezra district of Tel Aviv. Of the 30 people reported injured in this attack, most of the casualties were from this strike. A third Al Hussein struck Yarkon Park, adjacent to the Tel Aviv exhibition center. The fourth and final Al Hussein flew long, landing in the water off the coast of the city.

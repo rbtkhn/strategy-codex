@@ -1,6 +1,5 @@
 # Parsi routing
 
-
 Purpose: fast-routing note for the canonical Parsi shelf.
 
 ## Open First By Task

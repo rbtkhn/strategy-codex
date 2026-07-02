@@ -18,14 +18,11 @@ from stage_gate_candidate import (  # noqa: E402
     next_candidate_id,
 )
 
-
 def test_next_candidate_id_empty():
     assert next_candidate_id("") == "CANDIDATE-0001"
 
-
 def test_next_candidate_id_max():
     assert next_candidate_id("CANDIDATE-0009\nCANDIDATE-0002") == "CANDIDATE-0010"
-
 
 def test_insert_before_processed():
     md = "# G\n\n## Candidates\n\n## Processed\n\nold\n"
@@ -33,7 +30,6 @@ def test_insert_before_processed():
     out = insert_before_processed(md, block)
     assert out.index("### X") < out.index("## Processed")
     assert "## Processed" in out
-
 
 def test_build_block_work_politics_territory():
     b = build_block(
@@ -50,11 +46,9 @@ def test_build_block_work_politics_territory():
     assert "mind_category: curiosity" in b
     assert "operator:wap:stage-paste" in b
 
-
 def test_insert_raises_without_processed():
     with pytest.raises(ValueError, match="## Processed"):
         insert_before_processed("no marker", "x")
-
 
 def test_build_block_proposal_class():
     b = build_block(

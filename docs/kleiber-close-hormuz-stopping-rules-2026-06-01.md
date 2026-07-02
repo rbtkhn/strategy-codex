@@ -1,6 +1,5 @@
 # Kleiber Close - Hormuz Stopping Rules - 2026-06-01
 
-
 The `Hormuz` tranche taught the right small lesson:
 
 ```text

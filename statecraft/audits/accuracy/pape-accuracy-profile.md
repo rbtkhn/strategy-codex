@@ -1,6 +1,5 @@
 # Pape accuracy profile
 
-
 ## Summary
 
 Pape makes scoreable claims in two main forms: authored forecast rows with explicit falsifiers, and interview-side mechanism calls that push those forecasts into public compression. V1 tracks only bounded 2026 Iran-war claims that already have at least partial closure inside the current corpus.

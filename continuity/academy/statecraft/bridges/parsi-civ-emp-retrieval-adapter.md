@@ -1,7 +1,6 @@
 # Parsi CIV-EMP Retrieval Adapter
 <!-- word_count: 331 -->
 
-
 ## Purpose
 
 Use this adapter when a Parsi-style claim needs to extract settlement mechanism, guarantee logic, bargaining architecture, or institutional durability from `civ-emp` without flattening the civilizational/state substrate that the mechanism depends on.

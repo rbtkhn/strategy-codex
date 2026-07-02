@@ -53,7 +53,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Saturday, June 20th, 2026 and our dear friend Larry Johnson is here with us. Welcome back, Larry. >> Hi there. How are you? I am a good shirt choice. >> Yeah, >> we got really We got the blues today. We got the blues. Yeah, Larry, let's start with the two negotiation, two delegations are headed toward Switzerland both on the part of Iranians.

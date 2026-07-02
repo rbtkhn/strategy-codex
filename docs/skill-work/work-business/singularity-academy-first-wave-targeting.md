@@ -1,6 +1,6 @@
 # Singularity-Academy First-Wave Targeting
 
-WORK only. This is a first-batch targeting map, not market validation.
+non-authoritative. This is a first-batch targeting map, not market validation.
 
 ## Purpose
 

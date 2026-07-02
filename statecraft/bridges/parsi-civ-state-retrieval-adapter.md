@@ -1,6 +1,5 @@
 # Parsi CIV-STATE Retrieval Adapter
 
-
 ## Purpose
 
 Use this adapter when a Parsi-style claim needs to extract settlement mechanism, guarantee logic, bargaining architecture, or institutional durability from `civ-state` without flattening the civilizational/state substrate that the mechanism depends on.

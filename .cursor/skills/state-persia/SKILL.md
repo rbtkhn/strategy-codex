@@ -25,7 +25,6 @@ Core test: what converts vulnerability into recognized leverage without humiliat
 
 ## Boundary
 
-- WORK only; not Record.
 - Map `Persia` to `statecraft/iran/`.
 - Start at the lane front door before descending.
 - Use the literature lens as a subordinate civilization-layer test, not as a separate top-level mode.

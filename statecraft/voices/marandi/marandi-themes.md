@@ -1,6 +1,5 @@
 # Marandi themes
 
-
 Purpose: compact theme-family routing layer for the Marandi shelf.
 
 These files are recurring theme families, not transcript substitutes and not replacements for the host-local arcs.

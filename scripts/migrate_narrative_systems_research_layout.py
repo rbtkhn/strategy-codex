@@ -55,7 +55,6 @@ NST_ROOT_FILES: tuple[str, ...] = (
     "open_questions.md",
 )
 
-
 def is_tracked(rel_posix: str) -> bool:
     result = subprocess.run(
         ["git", "ls-files", "--error-unmatch", rel_posix],
@@ -63,7 +62,6 @@ def is_tracked(rel_posix: str) -> bool:
         capture_output=True,
     )
     return result.returncode == 0
-
 
 def is_dir_tracked(src: Path) -> bool:
     rel = src.relative_to(REPO_ROOT).as_posix()
@@ -78,7 +76,6 @@ def is_dir_tracked(src: Path) -> bool:
         text=True,
     )
     return bool(tracked.stdout.strip())
-
 
 def move_path(src: Path, dst: Path, *, dry_run: bool) -> None:
     if not src.exists():
@@ -101,7 +98,6 @@ def move_path(src: Path, dst: Path, *, dry_run: bool) -> None:
         subprocess.run(["git", "add", str(rel_dst)], cwd=REPO_ROOT, check=True)
     print(f"moved {rel_src} -> {rel_dst}")
 
-
 def ensure_scaffold(*, dry_run: bool) -> None:
     for rel in NUMBERED_DIRS:
         path = DST_BASE / rel
@@ -109,7 +105,6 @@ def ensure_scaffold(*, dry_run: bool) -> None:
             print(f"would mkdir {path.relative_to(REPO_ROOT)}")
             continue
         path.mkdir(parents=True, exist_ok=True)
-
 
 def move_glob_contents(src_name: str, dst_rel: str, *, dry_run: bool) -> None:
     src_dir = SRC_BASE / src_name
@@ -122,7 +117,6 @@ def move_glob_contents(src_name: str, dst_rel: str, *, dry_run: bool) -> None:
     if not dry_run and src_dir.exists() and not any(src_dir.iterdir()):
         src_dir.rmdir()
         print(f"removed empty {src_dir.relative_to(REPO_ROOT)}")
-
 
 def move_nst_root_files(*, dry_run: bool) -> None:
     nst = SRC_BASE / "narrative-systems"
@@ -147,7 +141,6 @@ def move_nst_root_files(*, dry_run: bool) -> None:
             nst.rmdir()
             print(f"removed empty {nst.relative_to(REPO_ROOT)}")
 
-
 def write_category_definition_pointer(*, dry_run: bool) -> None:
     path = DST_BASE / "02_narrative_systems" / "category_definition.md"
     body = (
@@ -162,7 +155,6 @@ def write_category_definition_pointer(*, dry_run: bool) -> None:
         path.write_text(body, encoding="utf-8")
         subprocess.run(["git", "add", str(path.relative_to(REPO_ROOT))], cwd=REPO_ROOT, check=True)
         print(f"wrote {path.relative_to(REPO_ROOT)}")
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(
@@ -198,7 +190,6 @@ def main() -> int:
 
     print("migration pass complete")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

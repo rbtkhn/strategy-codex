@@ -60,7 +60,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Interceptor Fundamentals
 
 Most of the focus right now is understandably on getting this war between the United States, Iran, and Israel off the books, ended so that we can get onto some peace. And there's obviously so many things that we have to worry about with that and a lot of headwinds against it. But we want to take a pause from that particular issue right now.

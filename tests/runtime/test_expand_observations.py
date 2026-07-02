@@ -11,13 +11,11 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "runtime" / "expand_observations.py"
 
-
 def _write_ledger(tmp_path: Path, *rows: dict) -> None:
     obs_dir = tmp_path / "runtime" / "observations"
     obs_dir.mkdir(parents=True)
     lines = [json.dumps(r, ensure_ascii=False) + "\n" for r in rows]
     (obs_dir / "index.jsonl").write_text("".join(lines), encoding="utf-8")
-
 
 def _run(tmp_path: Path, *args: str) -> subprocess.CompletedProcess[str]:
     env = {**os.environ, "GRACE_MAR_RUNTIME_LEDGER_ROOT": str(tmp_path)}
@@ -29,7 +27,6 @@ def _run(tmp_path: Path, *args: str) -> subprocess.CompletedProcess[str]:
         env=env,
         check=False,
     )
-
 
 def test_expand_selected_ids_json_array(tmp_path: Path) -> None:
     a = {
@@ -79,13 +76,11 @@ def test_expand_selected_ids_json_array(tmp_path: Path) -> None:
     ]
     assert "record_mutation_candidate" not in data[0]
 
-
 def test_expand_errors_on_missing_id(tmp_path: Path) -> None:
     _write_ledger(tmp_path)
     proc = _run(tmp_path, "--id", "obs_missing_id_xxxxxxxx")
     assert proc.returncode == 2
     assert "missing" in proc.stderr.lower()
-
 
 def test_expand_markdown_output(tmp_path: Path) -> None:
     row = {
@@ -110,7 +105,6 @@ def test_expand_markdown_output(tmp_path: Path) -> None:
     assert row["obs_id"] in proc.stdout
     assert "docs/x.md" in proc.stdout
 
-
 def test_expand_writes_output_file_only(tmp_path: Path) -> None:
     row = {
         "obs_id": "obs_20260101T120000Z_aaaaaaaa",
@@ -133,7 +127,6 @@ def test_expand_writes_output_file_only(tmp_path: Path) -> None:
     assert proc.returncode == 0
     assert out.is_file()
     assert proc.stdout == ""
-
 
 def test_expand_does_not_mutate_ledger(tmp_path: Path) -> None:
     row = {

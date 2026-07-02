@@ -1,6 +1,6 @@
 # Mind Synthesis Engine (Auto + Human-gated)
 
-**Status:** WORK only. Read-only on Record. Output is draft; final synthesis by the operator and gated for any merge.
+**Status:** non-authoritative. Read-only on Record. Output is draft; final synthesis by the operator and gated for any merge.
 
 ## When it runs
 

@@ -13,8 +13,6 @@ post_id: 196586956
 
 # The Innermost Loop - 2026-05-05
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 5, 2026
@@ -29,10 +27,7 @@ The Singularity has finally caught the eye of the regulators.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has finally caught the eye of the regulators. The White House is reportedly considering an executive order to create an AI working group and a formal review process for new models, abandoning its hands-off doctrine just as the curves go vertical. Anthropic co-founder Jack Clark now puts the odds of recursive self-improvement by the end of 2028 at 60% , based on hundreds of public data sources. The benchmarks are catching up to the forecast. Andon Labs’ new Blueprint-Bench 2 finds GPT-5.5 hitting 36.2% at converting apartment photos into 2D floor plans, closing on the 58.6% human baseline, while University of Chicago researchers report frontier coding agents can now autonomously implement an AlphaZero pipeline for Connect Four at a level comparable with external solvers.
+- The Singularity has finally caught the eye of the regulators. The White House is reportedly considering an executive order to create an AI working group and a formal review process for new models, abandoning its hands-off doctrine just as the curves go vertical. Anthropic co-founder Jack Clark now puts the odds of recursive self-improvement by the end of 2028 at 60% , based on hundreds of public data sources. The benchmarks are catching up to the forecast. Andon Labs’ new Blueprint-Bench 2 finds GPT-5.5 hitting 36.2% at converting apartment photos into 2D floor plans, closing on the 58.6% human baseline, while University of Chicago researchers report frontier coding agents can now autonomously implement an AlphaZero pipeline for Connect Four at a level comparable with external solvers.
 
 Meanwhile, the agentic stack is reshuffling. OpenAI’s Codex has overtaken Claude Code in downloads a week after GPT-5.5 shipped, and OpenAI is adding optional AI-generated pets to Codex as floating overlays that announce task completions, because if your code is going to write itself, it might as well come with a Tamagotchi.
 

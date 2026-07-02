@@ -27,7 +27,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Tuesday, 2nd June 2026. And before I proceed with this program, let me remind you again to tick the like button and to check your subscription to this channel. Now, over the last week or so, I have been discussing the probability that the Russians would resume and continue the massive program of strikes against Kiev, specifically Kiev, but no doubt also other places in Ukraine that they warned about following the attack, the Ukrainian attack on the building, the dormatory building in Starobilsk.

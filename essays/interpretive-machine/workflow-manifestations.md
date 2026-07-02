@@ -1,7 +1,5 @@
 # Interpretive Machine Workflow Manifestations
 
-work only; not Record.
-
 ## Purpose
 
 This note identifies how the formulation

@@ -1,7 +1,6 @@
 # America Civilization Seed Patterns
 <!-- word_count: 199 -->
 
-
 These seeds translate CIV-MEM into America-lane civilization patterns. State rules should draw from these patterns and the America empire folder, not directly from CIV-MEM.
 
 ## Constitutional Legitimacy

@@ -1,7 +1,6 @@
 # Hexagon Arc-Lens Stress Test
 <!-- word_count: 877 -->
 
-
 ## Purpose
 
 Use this sheet when a crisis, transaction, clause, current-event read, or policy memo needs the six civilization arc-lenses to act as a diagnostic system rather than as separate notes.

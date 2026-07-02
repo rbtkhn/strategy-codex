@@ -14,12 +14,10 @@ from registry_pipeline.compression_engine import compression_report  # noqa: E40
 from registry_pipeline.contracts import find_duplicate_fingerprints, predictive_fingerprint  # noqa: E402
 from prediction_lib import load_event_registry  # noqa: E402
 
-
 def test_no_duplicate_fingerprints_in_registry() -> None:
     events = load_event_registry()
     dupes = find_duplicate_fingerprints(events)
     assert not dupes, dupes
-
 
 def test_israel_trajectory_fingerprint_is_trajectory_type() -> None:
     events = load_event_registry()
@@ -27,7 +25,6 @@ def test_israel_trajectory_fingerprint_is_trajectory_type() -> None:
     fp = predictive_fingerprint("israel_self_destruction_trajectory", parent)
     assert fp[0] == "trajectory"
     assert len(fp[-1]) == 6
-
 
 def test_fingerprint_uses_falsifier_model_conditions() -> None:
     from registry_pipeline.probabilistic_falsifier_engine import infer_falsifier_model
@@ -40,12 +37,10 @@ def test_fingerprint_uses_falsifier_model_conditions() -> None:
     assert fp[2]  # falsifier key non-empty
     assert isinstance(fp[2], tuple)
 
-
 def test_compression_report_lists_macgregor_merge_proposals() -> None:
     report = compression_report()
     assert report["event_count"] >= 14
     assert isinstance(report["macgregor_merge_proposals"], list)
-
 
 def test_macgregor_merge_proposals_closed_after_operator_review() -> None:
     report = compression_report()

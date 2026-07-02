@@ -1,6 +1,5 @@
 # Proxy Patron Exit Problem, Jan 2025-May 20 2026
 
-
 ## Continuity Pointer
 
 The Jan-May 2025 Ukraine stream inputs preserve a third arc alongside the peace-leverage and capacity-description notes: the proxy patron exit problem.

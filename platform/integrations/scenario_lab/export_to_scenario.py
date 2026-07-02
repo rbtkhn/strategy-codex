@@ -18,7 +18,6 @@ from integrations.scenario_lab.common import (
     write_text,
 )
 
-
 def build_evidence_items(paths: list[Path]) -> list[dict[str, Any]]:
     items: list[dict[str, Any]] = []
     for path in paths:
@@ -33,7 +32,6 @@ def build_evidence_items(paths: list[Path]) -> list[dict[str, Any]]:
             }
         )
     return items
-
 
 def build_packet(
     *,
@@ -62,7 +60,6 @@ def build_packet(
         "assumptions": assumptions,
         "evidence_items": build_evidence_items(evidence_paths),
     }
-
 
 def build_markdown_report(packet: dict[str, Any]) -> str:
     lines: list[str] = []
@@ -101,7 +98,6 @@ def build_markdown_report(packet: dict[str, Any]) -> str:
         lines.append("")
     return "\n".join(lines)
 
-
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Build a Scenario Lab pilot intake packet from local surfaces.")
     parser.add_argument("--scenario", required=True, help="Scenario question or title.")
@@ -124,7 +120,6 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--forecast-root", help="Optional .forecast root override.")
     return parser
 
-
 def main() -> int:
     parser = build_parser()
     args = parser.parse_args()
@@ -143,7 +138,6 @@ def main() -> int:
         markdown_path = resolve_output_path(args.markdown_output, default_root=DEFAULT_OUTPUT_ROOT)
         write_text(markdown_path, build_markdown_report(packet))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

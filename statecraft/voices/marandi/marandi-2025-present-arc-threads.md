@@ -1,6 +1,5 @@
 # Marandi 2025-present thread atlas
 
-
 Purpose: canonical recurring thread atlas for the Marandi shelf across `2025-present`.
 
 This is an atlas, not a host-local arc and not a chronology dump.

@@ -1,6 +1,5 @@
 # Parsi refined page — 2026-04-21 (X cluster — ceasefire, Hormuz, and unstable equilibrium)
 
-
 **Expert:** `parsi` · **Published:** 2026-04-21 · **Capture:** X cluster (see thread / inbox lines for same date; no single long-form transcript object) · **Artifact:** refined page (standalone file in the Parsi shelf). Not a `strategy-page` HTML fence in `thread.md` unless duplicated there during EOD compose.
 
 ---

@@ -38,7 +38,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Tuesday, 16th June, 2026, and as you can tell, I'm back in my hotel room in a rather wet Moscow. Um, I will be traveling fairly shortly from Moscow to London. So um again there is a lot to do today and this is inevitably going to impact again on the length of this program but I am going to make my program today and I'm also give going to give you my apologies for the fact that because of the length of time that the transit took from Scoff to Moscow I was unfortunately unable to make a program yesterday. My apologies to everybody for that fact. Well, here I am in Moscow and I will make my first comments about my impression of this city which um I have now um had an opportunity to tour extensively mostly I should say in the early hours of the morning but nonetheless um and I've also been able to reacquaint myself with one or two of my very old friends uh one of whom was very kind to come and meet me at um an extremely late hour last night.

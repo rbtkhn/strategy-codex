@@ -23,7 +23,6 @@ _SURFACE_TO_ADD_CLASS: dict[tuple[str, str | None], str] = {
     ("work_layer", None): "META_INFRA",
 }
 
-
 def infer_surface_from_proposal_class(proposal_class: str) -> tuple[str, str | None]:
     """
     Map gate proposal_class to export-style surface + optional civ_mem subsurface.
@@ -41,7 +40,6 @@ def infer_surface_from_proposal_class(proposal_class: str) -> tuple[str, str | N
         return "self_archive/placeholders/evidence", None
     return "self_knowledge", None
 
-
 def _display_to_artifact_surface(display: str | None) -> tuple[str, str | None]:
     """Map boundary_review display labels to (surface, subsurface)."""
     d = (display or "").strip().upper()
@@ -57,7 +55,6 @@ def _display_to_artifact_surface(display: str | None) -> tuple[str, str | None]:
         return "self_knowledge", None
     return "self_knowledge", None
 
-
 def _boundary_status(misfiled: bool, surface_current: str, surface_suggested: str, sub_c: str | None, sub_s: str | None) -> str:
     if misfiled:
         return "misaligned"
@@ -65,10 +62,8 @@ def _boundary_status(misfiled: bool, surface_current: str, surface_suggested: st
         return "ambiguous"
     return "clear"
 
-
 def _confidence_score(band: str | None) -> float:
     return {"high": 0.85, "medium": 0.55, "low": 0.25}.get((band or "").lower(), 0.5)
-
 
 def suggested_reclassify_proposal_class(
     surface_suggested: str,
@@ -92,7 +87,6 @@ def suggested_reclassify_proposal_class(
         return base
     return base
 
-
 def review_surface_token_to_classifier_tuple(token: str) -> tuple[str, str | None]:
     """Map gate_review_normalize surface token to (surfaceSuggested, subsurfaceSuggested)."""
     x = (token or "").strip().lower()
@@ -109,7 +103,6 @@ def review_surface_token_to_classifier_tuple(token: str) -> tuple[str, str | Non
     if x == "archive/placeholders/evidence":
         return "self_archive/placeholders/evidence", None
     return "self_knowledge", None
-
 
 def build_boundary_classification(row: dict[str, Any], *, user_slug: str, source: str = "recursion_gate_review") -> dict[str, Any]:
     """Build a boundary-classification.v1 dict from a parse_review_candidates row."""
@@ -162,16 +155,13 @@ def build_boundary_classification(row: dict[str, Any], *, user_slug: str, source
     out["artifactRelPath"] = rel
     return out
 
-
 def _candidate_artifact_basename(candidate_id: str) -> str:
     safe = re.sub(r"[^A-Za-z0-9._-]+", "-", candidate_id).strip("-") or "candidate"
     return safe if safe.endswith(".json") else f"{safe}.json"
 
-
 def boundary_classification_path(user_slug: str, candidate_id: str, repo_root: Path) -> Path:
     base = repo_root / "platform/users" / user_slug / "archive/queues/review-queue" / "boundary-classifications"
     return base / _candidate_artifact_basename(candidate_id)
-
 
 def write_boundary_classification(user_slug: str, row: dict[str, Any], repo_root: Path) -> Path | None:
     """
@@ -185,11 +175,9 @@ def write_boundary_classification(user_slug: str, row: dict[str, Any], repo_root
     path.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     return path
 
-
 def sync_boundary_classification_artifact(user_slug: str, row: dict[str, Any], *, repo_root: Path) -> Path | None:
     """Alias for write_boundary_classification (parse-time sync)."""
     return write_boundary_classification(user_slug, row, repo_root)
-
 
 __all__ = [
     "boundary_classification_path",

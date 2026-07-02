@@ -1,7 +1,5 @@
 # Academy Singularity Watchlist
 
-WORK only; not Record.
-
 This note tracks a small external GitHub watchlist that is useful for singularity-academy routing. It is a signal surface, not a canon surface.
 
 ## Current Candidate

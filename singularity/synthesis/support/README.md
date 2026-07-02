@@ -1,7 +1,5 @@
 # Innermost Loop Support Notes
 
-WORK only; not Record.
-
 These notes are subordinate support surfaces for the monthly Innermost Loop synthesis layer. They exist only where chronology, provenance, counterweight, misreading correction, substrate anchoring, or action-wedge extraction need a narrower issue-level object.
 
 ## Roles

@@ -29,7 +29,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Deal Rumors and Iran in the Driver's Seat
 
 >> Um, a lot has happened as always since we last spoke. Uh, it seems that we're pretty close to a deal. That's how it seems like. If you listen to western media when it comes to Iranian media today they said that according to tasim theou has been altered because we had reports that the already been agreed by both sides again according to western media I think NBC reported that I

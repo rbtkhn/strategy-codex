@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Sirik Strikes And MOU Facade
 
 **Nima Alkhorshid:** Hi everybody. Today is Saturday, June 27th, 2026 and our dear friend Anthony Aguilar is here with us. Welcome back, Tony.

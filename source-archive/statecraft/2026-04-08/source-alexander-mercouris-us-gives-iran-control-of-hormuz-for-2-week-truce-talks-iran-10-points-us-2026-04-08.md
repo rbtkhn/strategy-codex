@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # US Gives Iran Control Of Hormuz For 2 Week Truce; Talks Iran 10 Points; US Out Of Military Options
 
-

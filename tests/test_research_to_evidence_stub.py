@@ -13,13 +13,11 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 pytest.importorskip("jsonschema")
 pytest.importorskip("yaml")
 
-
 @pytest.fixture(autouse=True)
 def _scripts_on_path() -> None:
     p = str(REPO_ROOT / "scripts")
     if p not in sys.path:
         sys.path.insert(0, p)
-
 
 def _minimal_valid_doc() -> dict:
     return {
@@ -50,7 +48,6 @@ def _minimal_valid_doc() -> dict:
         "suggested_gate_action": "keep_as_work",
     }
 
-
 def _run_main(tmp_path: Path, monkeypatch: pytest.MonkeyPatch, doc: dict, argv_tail: list[str]) -> tuple[int, Path, Path]:
     """Run main with receipt dir under tmp_path; returns exit code, stub path, receipt path."""
     import research_to_evidence_stub as rtes
@@ -79,7 +76,6 @@ def _run_main(tmp_path: Path, monkeypatch: pytest.MonkeyPatch, doc: dict, argv_t
     code = rtes.main()
     return code, out_stub, rec_dir
 
-
 def test_valid_input_writes_stub_and_receipt(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     code, stub_path, rec_dir = _run_main(tmp_path, monkeypatch, _minimal_valid_doc(), [])
     assert code == 0
@@ -100,7 +96,6 @@ def test_valid_input_writes_stub_and_receipt(monkeypatch: pytest.MonkeyPatch, tm
             stub_rid = line.split(":", 1)[1].strip().strip('"')
             break
     assert stub_rid == receipts[0].stem
-
 
 def test_output_outside_evidence_stubs_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     import research_to_evidence_stub as rtes
@@ -129,13 +124,11 @@ def test_output_outside_evidence_stubs_fails(monkeypatch: pytest.MonkeyPatch, tm
     )
     assert rtes.main() == 1
 
-
 def test_missing_source_title_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_valid_doc()
     doc["sources"][0]["title"] = ""
     code, _, _ = _run_main(tmp_path, monkeypatch, doc, [])
     assert code == 1
-
 
 def test_source_without_url_or_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_valid_doc()
@@ -143,13 +136,11 @@ def test_source_without_url_or_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_p
     code, _, _ = _run_main(tmp_path, monkeypatch, doc, [])
     assert code == 1
 
-
 def test_claim_unknown_supporting_source_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_valid_doc()
     doc["candidate_claims"][0]["supporting_sources"] = ["no-such-id"]
     code, _, _ = _run_main(tmp_path, monkeypatch, doc, [])
     assert code == 1
-
 
 def test_bad_confidence_enum_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_valid_doc()
@@ -157,13 +148,11 @@ def test_bad_confidence_enum_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Pa
     code, _, _ = _run_main(tmp_path, monkeypatch, doc, [])
     assert code == 1
 
-
 def test_excerpt_over_300_chars_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_valid_doc()
     doc["sources"][0]["short_excerpts"] = ["x" * 301]
     code, _, _ = _run_main(tmp_path, monkeypatch, doc, [])
     assert code == 1
-
 
 def test_output_path_touching_self_md_segment_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     import research_to_evidence_stub as rtes
@@ -192,13 +181,11 @@ def test_output_path_touching_self_md_segment_fails(monkeypatch: pytest.MonkeyPa
     )
     assert rtes.main() == 1
 
-
 def test_denylist_rejects_canonical_approval_phrase(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_valid_doc()
     doc["topic"] = "Discussion of canonical record approval in theory only."
     code, _, _ = _run_main(tmp_path, monkeypatch, doc, [])
     assert code == 1
-
 
 def test_wrong_capability_lane_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     code, _, _ = _run_main(
@@ -209,7 +196,6 @@ def test_wrong_capability_lane_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: 
     )
     assert code == 1
 
-
 def test_validate_extra_rules_direct() -> None:
     from research_to_evidence_stub import validate_extra_rules
 
@@ -218,7 +204,6 @@ def test_validate_extra_rules_direct() -> None:
     doc["candidate_claims"][0]["supporting_sources"] = ["ghost"]
     with pytest.raises(ValueError, match="unknown source_id"):
         validate_extra_rules(doc)
-
 
 def test_subprocess_smoke_matches_example() -> None:
     """Integration-style: real repo root and paths (example JSON + repo configs)."""

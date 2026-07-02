@@ -25,7 +25,6 @@ synced_by: sync_portable_skills.py
 
 **Preferred name (new work):** **`product strategy`** or **`runbook venture ideation`**
 
-
 ## Cursor / strategy-codex instance
 
 ﻿Grace-Mar routing and source notes for this repository.

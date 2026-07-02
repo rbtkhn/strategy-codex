@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Oreshnik Strikes Giant Ukraine Gas Plant; Mayor Urges Kiev Residents Go; Blackouts; EU Gas Shortage
 
-

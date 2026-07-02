@@ -1,6 +1,5 @@
 # Statecraft Rome
 
-
 ## Where This Sits
 
 This is Part 3 of the Rome CIV-STATE volume. It is the present-tense synthesis layer where Roman civilizational residue and imperial universality become a guide to reading legitimacy, fragmentation, institutional endurance, and successor-order claims.

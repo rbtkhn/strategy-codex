@@ -14,14 +14,12 @@ from grace_mar.replay.loaders import (
     resolve_jsonl_path,
 )
 
-
 def test_read_jsonl_skips_bad_lines(tmp_path: Path):
     p = tmp_path / "x.jsonl"
     p.write_text('{"a": 1}\nnot-json\n{"b": 2}\n', encoding="utf-8")
     rows = read_jsonl(p)
     assert len(rows) == 2
     assert rows[0]["a"] == 1
-
 
 def test_resolve_jsonl_prefers_nonempty_primary(tmp_path: Path):
     primary = tmp_path / "p.jsonl"
@@ -31,14 +29,12 @@ def test_resolve_jsonl_prefers_nonempty_primary(tmp_path: Path):
     fb.write_text('{"y": 2}\n', encoding="utf-8")
     assert resolve_jsonl_path(primary, fb) == primary
 
-
 def test_resolve_jsonl_fallback_when_primary_missing(tmp_path: Path):
     primary = tmp_path / "missing.jsonl"
     fb = tmp_path / "bundle" / "audit" / "pipeline-events.jsonl"
     fb.parent.mkdir(parents=True, exist_ok=True)
     fb.write_text('{"event": "staged"}\n', encoding="utf-8")
     assert resolve_jsonl_path(primary, fb) == fb
-
 
 def test_audit_paths_for_profile_resolves_bundle(tmp_path: Path):
     uid = tmp_path / "u1"
@@ -49,7 +45,6 @@ def test_audit_paths_for_profile_resolves_bundle(tmp_path: Path):
     assert paths.pipeline_events == pe
     rows = load_pipeline_events(uid)
     assert len(rows) == 1
-
 
 def test_load_pipeline_events_empty_when_no_files(tmp_path: Path):
     uid = tmp_path / "empty-user"

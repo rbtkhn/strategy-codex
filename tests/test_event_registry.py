@@ -15,12 +15,10 @@ if str(SCRIPTS) not in sys.path:
 from check_event_registry import check_registry, wire_stub_path  # noqa: E402
 from prediction_lib import load_event_registry  # noqa: E402
 
-
 def test_wire_stub_path_uses_kebab_slug() -> None:
     path = wire_stub_path("gaza_ceasefire_holds_2025")
     assert path.name == "prediction-resolution-gaza-ceasefire-holds-2025.md"
     assert path.is_file()
-
 
 def test_resolved_gaza_has_registry_closure_fields() -> None:
     events = load_event_registry()
@@ -29,7 +27,6 @@ def test_resolved_gaza_has_registry_closure_fields() -> None:
     assert gaza["outcome"] == "no"
     assert gaza.get("resolved_date")
     assert gaza.get("resolution_source")
-
 
 def test_israel_trajectory_has_dimensions_only() -> None:
     events = load_event_registry()
@@ -43,7 +40,6 @@ def test_israel_trajectory_has_dimensions_only() -> None:
     for child_id in dim_ids:
         assert child_id not in events
 
-
 def test_check_event_registry_cli_passes() -> None:
     proc = subprocess.run(
         ["python3", "scripts/check_event_registry.py"],
@@ -52,7 +48,6 @@ def test_check_event_registry_cli_passes() -> None:
         text=True,
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
-
 
 def test_strict_enrolled_falsifiers_pass_for_pilot_events() -> None:
     events = load_event_registry()

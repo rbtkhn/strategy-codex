@@ -7,7 +7,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _load_gmb():
     path = REPO_ROOT / "scripts" / "good-morning-brief.py"
     spec = importlib.util.spec_from_file_location("good_morning_brief_mod", path)
@@ -17,18 +16,15 @@ def _load_gmb():
     spec.loader.exec_module(mod)
     return mod
 
-
 def test_user_profile_dir():
     mod = _load_gmb()
     r = Path("/tmp/r")
     assert mod.user_profile_dir(r, "x") == r / "platform/users" / "x"
 
-
 def test_detect_tone_from_memory():
     mod = _load_gmb()
     assert mod._detect_tone_from_memory("Preferred warm-direct tone") == "warm-direct"
     assert mod._detect_tone_from_memory("nothing") == "analytical-crisp"
-
 
 def test_save_daily_intention(tmp_path):
     mod = _load_gmb()
@@ -41,7 +37,6 @@ def test_save_daily_intention(tmp_path):
     body = out.read_text(encoding="utf-8")
     assert "Ship the brief" in body
     assert "not part of the record" in body.lower()
-
 
 def test_yesterday_intention_found(tmp_path):
     mod = _load_gmb()
@@ -57,13 +52,11 @@ def test_yesterday_intention_found(tmp_path):
     got = mod._yesterday_intention(prof, today)
     assert got and "Yesterday focus" in got
 
-
 def test_yesterday_intention_missing(tmp_path):
     mod = _load_gmb()
     prof = tmp_path / "repo" / "platform/users" / "u1"
     prof.mkdir(parents=True)
     assert mod._yesterday_intention(prof, date(2026, 1, 5)) is None
-
 
 def test_run_brief_minimal_no_crash(tmp_path, monkeypatch):
     mod = _load_gmb()

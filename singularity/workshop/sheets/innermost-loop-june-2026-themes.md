@@ -1,7 +1,5 @@
 # Innermost Loop — June 2026 theme sheet
 
-WORK only; not Record.
-
 **Status:** workshop sheet — month synthesis over 17 archived daily posts; newsletter / desk grade until `wire verify — singularity` upgrades load-bearing hooks.
 
 ## Source

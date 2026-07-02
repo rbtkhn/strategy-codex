@@ -38,7 +38,6 @@ from temporal.temporal_engine import (
     write_temporal_view,
 )
 
-
 def run_observation_layer(
     *,
     voice_dir: Path | None = None,
@@ -50,7 +49,6 @@ def run_observation_layer(
     if write:
         write_observations(observations, out_path=out_path)
     return observations
-
 
 def run_structuring_layer(
     observations: list[dict[str, Any]] | None = None,
@@ -75,7 +73,6 @@ def run_structuring_layer(
         )
     return structured
 
-
 def run_analysis_layer(
     structured: list[dict[str, Any]] | None = None,
     *,
@@ -97,7 +94,6 @@ def run_analysis_layer(
             structured_path=structured_path or ANALYSIS_STRUCTURED_IN,
         )
     return analysis_by_event, summary
-
 
 def run_temporal_layer(
     structured: list[dict[str, Any]] | None = None,
@@ -128,7 +124,6 @@ def run_temporal_layer(
             observations_path=observations_path or TEMPORAL_OBSERVATIONS_IN,
         )
     return temporal_by_event, summary
-
 
 def run_all_layers(
     *,
@@ -185,7 +180,6 @@ def run_all_layers(
         temporal_by_event,
         temporal_summary,
     )
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run epistemic audit pipeline layers")
@@ -358,7 +352,6 @@ def main() -> int:
             f"-> {args.temporal_out}"
         )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

@@ -64,7 +64,6 @@ verify:
 
 ## Transcript
 
-
 ### Show Open — June 25 Welcome
 
 Hi everybody. Today's Thursday, June 25th, 2026 and our dear friend Larry Johnson is here with us. Welcome back. >> I'm back. Can't get rid of me like crab grass. Larry, I want to start with what has happened as an outcome of Mark Rutte, the NATO secretary general said and the repercussions of of what he said in Iran, which was huge by the way.

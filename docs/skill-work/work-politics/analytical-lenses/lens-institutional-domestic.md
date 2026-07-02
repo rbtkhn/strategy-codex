@@ -1,7 +1,7 @@
 # Lens: institutional / domestic (law, incentives, capture)
 
 **Lens id:** `institutional_domestic`  
-**WORK only.** Not SELF. Not Voice unless explicitly merged via gate.
+**non-authoritative.** Not SELF. Not Voice unless explicitly merged via gate.
 
 ---
 

@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Trump: 'Up to Putin' How War Ends; Bryansk ATACMS Strike Fails; Gaza Ceasefire, Hamas Stays
 
-

@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Trump Delays Putin Call, Zelensky Again Demands NATO, Sacks Top General, Ukraine Front Lines Crumble
 
-

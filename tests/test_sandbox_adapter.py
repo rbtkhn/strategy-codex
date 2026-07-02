@@ -23,9 +23,7 @@ from work_dev.sandbox_adapter import (
     execute,
 )
 
-
 # ── Authority checks ───────────────────────────────────────────────────
-
 
 class TestAuthority:
     def test_operator_read_write_allowed(self) -> None:
@@ -64,9 +62,7 @@ class TestAuthority:
         assert err is not None
         assert "unknown record_access" in err
 
-
 # ── DryRunBackend ──────────────────────────────────────────────────────
-
 
 class TestDryRunBackend:
     def test_execute_returns_mock(self) -> None:
@@ -80,9 +76,7 @@ class TestDryRunBackend:
         h = b.health()
         assert h["ok"] is True
 
-
 # ── Adapter execute ────────────────────────────────────────────────────
-
 
 class TestExecute:
     def test_dry_run_success(self, tmp_path: Path) -> None:

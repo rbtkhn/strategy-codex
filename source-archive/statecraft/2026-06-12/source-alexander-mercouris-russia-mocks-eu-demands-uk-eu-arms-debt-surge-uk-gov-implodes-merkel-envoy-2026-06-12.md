@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Friday 12th June 2026 and this is another program which I'm making from Russia from uh Scoff region where I have been attending a conference um discussing various matters related to contemporary events. I made um my own presentation um at this conference yesterday. Um, I understand that it was videotaped.

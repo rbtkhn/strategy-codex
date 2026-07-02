@@ -13,8 +13,6 @@ post_id: 182633136
 
 # The Innermost Loop - 2025-12-26
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 26, 2025
@@ -29,10 +27,7 @@ The yardstick has snapped.
 
 ## Newsletter Text
 
--
--
-
-The yardstick has snapped. The ARC Prize Foundation has declared the saturation of the ARC-AGI-1 and ARC-AGI-2 benchmarks , admitting that current tests can no longer bound the fluid intelligence of the frontier. The goalposts have been moved to “Millennium Problem” complexity, effectively conceding that the next benchmark for AI is not human exams, but the unsolved limits of mathematics itself. This cognitive escape velocity is matched by physical recursion. In Beijing, Linkerbot humanoids are assembling and testing their own hands , creating a closed loop of robotic self-replication that previews the coming von Neumann machines. The cycle is tightening everywhere: the NanoGPT training speedrun has smashed the two-minute barrier at 119.3 seconds , reducing model genesis to a rounding error.
+- The yardstick has snapped. The ARC Prize Foundation has declared the saturation of the ARC-AGI-1 and ARC-AGI-2 benchmarks , admitting that current tests can no longer bound the fluid intelligence of the frontier. The goalposts have been moved to “Millennium Problem” complexity, effectively conceding that the next benchmark for AI is not human exams, but the unsolved limits of mathematics itself. This cognitive escape velocity is matched by physical recursion. In Beijing, Linkerbot humanoids are assembling and testing their own hands , creating a closed loop of robotic self-replication that previews the coming von Neumann machines. The cycle is tightening everywhere: the NanoGPT training speedrun has smashed the two-minute barrier at 119.3 seconds , reducing model genesis to a rounding error.
 
 The labor market is processing the obsolescence of code. US programmer employment has dropped 27.5% in two years , a brutal confirmation that software development as we know it may no longer be a long-term human career. But it’s not just programming. DeepMind co-founder Shane Legg predicts all remote work will vanish within a decade , displaced by agents. The vacuum is being filled by capital. The AI sector minted 50 new billionaires this year as it captured 50% of all global venture funding. Venture capital is mutating into infrastructure finance; ex-a16z partner Anjney Midha is raising $10 billion to build a single gigawatt of AI capacity . Meanwhile, crypto has institutionalized; M&A deals hit $8.6 billion as the sector consolidates into the establishment.
 

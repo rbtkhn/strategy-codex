@@ -25,10 +25,8 @@ _ACTION_ORDER = {
     "reject_artifact": 3,
 }
 
-
 def _timestamp() -> str:
     return datetime.now(timezone.utc).isoformat()
-
 
 def _safe_relpath(path: Path) -> str:
     try:
@@ -36,14 +34,11 @@ def _safe_relpath(path: Path) -> str:
     except ValueError:
         return str(path.resolve())
 
-
 def load_target_artifact(artifact_path: Path) -> dict[str, Any]:
     return json.loads(artifact_path.read_text(encoding="utf-8"))
 
-
 def debate_output_dir(*, user_id: str = DEFAULT_USER, repo_root: Path = REPO_ROOT) -> Path:
     return repo_root / "platform/users" / user_id / "derived" / "debate"
-
 
 def _target_projection(artifact: dict[str, Any]) -> dict[str, Any]:
     proposal = artifact.get("proposal") or {}
@@ -56,7 +51,6 @@ def _target_projection(artifact: dict[str, Any]) -> dict[str, Any]:
         "prompt_addition": str(candidate.get("prompt_addition") or projection.get("prompt_addition") or "").strip(),
         "scalar_at_accept": artifact.get("scalar_at_accept"),
     }
-
 
 def synthesize_debate_artifact(
     artifact: dict[str, Any],
@@ -122,11 +116,9 @@ def synthesize_debate_artifact(
         raise ValueError("Invalid debate artifact: " + "; ".join(errors))
     return payload
 
-
 def _review_filename(artifact_path: Path) -> str:
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     return f"debate-{artifact_path.stem}-{ts}.json"
-
 
 def run_debate_review(
     artifact_path: Path,
@@ -149,7 +141,6 @@ def run_debate_review(
         output_dir.mkdir(parents=True, exist_ok=True)
         review_path.write_text(json.dumps(review, indent=2) + "\n", encoding="utf-8")
     return review
-
 
 def format_debate_summary(review: dict[str, Any]) -> str:
     target = review.get("target_artifact") or {}

@@ -56,7 +56,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Undeclared wars are commonplace. Tragically, our government engages in preemptive war, otherwise known as aggression, with no complaints >> >> from the American people. Sadly, we have become accustomed to living with the illegitimate use of force >> [music] >> by government. To develop a truly free society, the issue of initiating force must [music] be understood and rejected.

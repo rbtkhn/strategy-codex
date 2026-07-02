@@ -1,6 +1,5 @@
 # Mercouris Shelf - 2026-06
 
-
 This monthly shelf is the June 2026 continuity-support surface for the `mercouris` cognition stream. June is the month where **Konstantinovka/Lyman collapse**, **Oreshnik strike scaling**, **Iran–US MOU / Hormuz**, and **Kremlin closure of Anchorage** fuse — the native stream treats negotiation as effectively over and military-industrial tempo as forward.
 
 Month status: `live run` — solo channel captures materialized in statecraft archive through 2026-06-21.

@@ -1,6 +1,5 @@
 # Wilkerson March 2025 note
 
-
 Purpose: preserve what March 2025 currently means on the Wilkerson shelf when the month is not materially captured on disk, while still leaving behind a real intake queue for the next pass.
 
 ## Core claim

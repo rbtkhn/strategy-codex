@@ -1,7 +1,6 @@
 # State Memory Template
 <!-- word_count: 393 -->
 
-
 Use this template for civilization-layer objects that store durable state-authority memory. A state-memory object is not a biography, not a current officeholder profile, and not a transaction. It names the long authority pattern that current state carriers inherit.
 
 Arc-lens rule: this file should read as an arc-lens, not as a topic page. It should show what the pattern helps the operator see now, where the pattern originates, how it survives, how it transforms, who carries it now, how it can fail, and how transactions should test it.

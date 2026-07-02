@@ -1,6 +1,5 @@
 # America Shelf Reader
 
-
 ## What This Shelf Is For
 
 Use this shelf to read America as a late-opening Anglo-transfer civilization-state through its own source field. The shelf is for seeing how constitutional inheritance, settler-republic formation, slavery, continental scale, industrial ascent, and post-`1991` coalition-platform command sit inside one contested continuity chain.

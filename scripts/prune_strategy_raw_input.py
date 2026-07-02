@@ -10,8 +10,6 @@ If ``.pruning-suspended`` exists under the raw-input root, ``--apply`` refuses
 unless ``--override`` is passed (operator-initiated prune). Dry-run is
 always allowed.
 
-WORK-only; not Record.
-
 Usage:
   python3 scripts/prune_strategy_raw_input.py --dry-run
   python3 scripts/prune_strategy_raw_input.py --apply

@@ -36,7 +36,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 employed now. Joey, sorry. So, I had to I had to do the job. >> I know. Yeah. >> Well, it's good to have you, man. I appreciate you coming in on such short notice. Me and you always talk whenever we have a we do an interview um to try to understand who's pulling the strings and and who's calling the shots and what pressure is Trump facing.

@@ -6,11 +6,9 @@ import re
 from pathlib import Path
 from typing import Any
 
-
 def filter_pipeline_by_candidate(rows: list[dict[str, Any]], candidate_id: str) -> list[dict[str, Any]]:
     cid = candidate_id.strip().upper()
     return [r for r in rows if str(r.get("candidate_id") or "").upper() == cid]
-
 
 def filter_harness(rows: list[dict[str, Any]], candidate_id: str, bundle_id: str | None) -> list[dict[str, Any]]:
     cid = candidate_id.strip().upper() if candidate_id else ""
@@ -28,7 +26,6 @@ def filter_harness(rows: list[dict[str, Any]], candidate_id: str, bundle_id: str
                 out.append(r)
     return out
 
-
 def filter_merge_receipts(rows: list[dict[str, Any]], candidate_id: str) -> list[dict[str, Any]]:
     cid = candidate_id.strip().upper()
     out: list[dict[str, Any]] = []
@@ -38,14 +35,12 @@ def filter_merge_receipts(rows: list[dict[str, Any]], candidate_id: str) -> list
             out.append(r)
     return out
 
-
 def find_pipeline_row_by_event_id(rows: list[dict[str, Any]], event_id: str) -> dict[str, Any] | None:
     want = event_id.strip()
     for r in rows:
         if str(r.get("event_id") or "") == want:
             return r
     return None
-
 
 def harness_rows_for_event_id(hv: list[dict[str, Any]], eid: str) -> list[dict[str, Any]]:
     want = eid.strip()
@@ -63,7 +58,6 @@ def harness_rows_for_event_id(hv: list[dict[str, Any]], eid: str) -> list[dict[s
             out.append(r)
     return out
 
-
 def find_candidate_yaml(gate_text: str, candidate_id: str) -> str | None:
     want = candidate_id.strip().upper()
     for m in re.finditer(
@@ -75,7 +69,6 @@ def find_candidate_yaml(gate_text: str, candidate_id: str) -> str | None:
             return m.group(3).strip()
     return None
 
-
 def evidence_snippet(evidence_path: Path, evidence_id: str) -> str | None:
     if not evidence_path.is_file():
         return None
@@ -85,14 +78,12 @@ def evidence_snippet(evidence_path: Path, evidence_id: str) -> str | None:
             return line.strip()[:500]
     return None
 
-
 def transcript_hint(transcript_path: Path, max_lines: int = 40) -> str:
     if not transcript_path.is_file():
         return ""
     lines = transcript_path.read_text(encoding="utf-8", errors="ignore").splitlines()
     tail = lines[-max_lines:] if len(lines) > max_lines else lines
     return "\n".join(tail)
-
 
 __all__ = [
     "evidence_snippet",

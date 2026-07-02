@@ -1,7 +1,6 @@
 # China War
 <!-- word_count: 2986 -->
 
-
 ## Purpose
 
 Use Chinese war memory as a statecraft lens for disorder, humiliation, fragmentation, maritime coercion, Taiwan ambiguity, quarantine / blockade classification, PLA restraint, and the boundary between anti-disorder stabilization and escalation.

@@ -1,6 +1,5 @@
 # Freeman Vs Sachs As America-Lane Inputs
 
-
 Purpose: preserve the distinct America-lane value of the May 2026 Chas Freeman and Jeffrey Sachs transcripts so they can be reused as intake rather than re-derived from memory.
 
 ## Shared Lane Ownership

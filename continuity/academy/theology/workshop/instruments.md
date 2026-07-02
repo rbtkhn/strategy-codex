@@ -1,7 +1,6 @@
 # Instruments
 <!-- word_count: 538 -->
 
-
 These are reusable interpretive tools for academy theology, Predictive History notes, and strategy work.
 
 ## Tolstoy Lens Theology Check

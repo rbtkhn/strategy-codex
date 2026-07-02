@@ -6,7 +6,6 @@ from typing import Any
 
 from .metrics import population_variance
 
-
 def compute_voice_spread(
     structured_predictions: list[dict[str, Any]],
     *,

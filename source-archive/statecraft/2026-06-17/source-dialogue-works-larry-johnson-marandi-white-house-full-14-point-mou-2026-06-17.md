@@ -44,7 +44,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today is Wednesday, June 17, 2026 and our dear friend Larry Johnson is here with us. Welcome back, Larry. >> I'm back by coercion. At least you got the shirt on. Good for you. You know, I I I just as a side note I've done several other podcasts today. Uh I did one with a fellow named Miroslav and and and and Chuck Republic.

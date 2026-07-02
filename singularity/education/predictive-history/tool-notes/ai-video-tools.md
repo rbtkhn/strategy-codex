@@ -1,7 +1,5 @@
 # AI video tools — asset-class reference
 
-WORK only; not Record.
-
 **SSOT for vendor prose:** [`../STRATEGIC-PLAN.md`](../STRATEGIC-PLAN.md) (asset classes). This note is operational quick-reference only.
 
 ---

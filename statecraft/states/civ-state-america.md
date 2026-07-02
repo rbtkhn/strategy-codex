@@ -1,6 +1,5 @@
 # CIV-STATE America
 
-
 This is the top-level alias door for the America CIV-STATE volume.
 
 Use it when you want named direct entry into the America civilization-state source surface rather than entering through the full volume map.

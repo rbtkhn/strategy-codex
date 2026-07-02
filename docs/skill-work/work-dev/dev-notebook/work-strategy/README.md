@@ -6,7 +6,7 @@
 
 - **Holds** **paste-ready** prompts, checklists, or spec **fragments** for strategy work that belong in the dev notebook tree, **not** in the rolling [strategy-notebook/](../../../work-strategy/strategy-notebook/) (inbox, `days.md`, `raw-input/`, `weave/`).
 - **Not** a second [work-strategy README](../../../work-strategy/README.md) (full territory identity, skill grid, LANE-CI) — open that for the default path and governed accumulation rules.
-- **Not** the [rolling strategy notebook](../../../work-strategy/strategy-notebook/) (inbox, days) / not Record / not Voice. **WORK only.**
+- **Not** the [rolling strategy notebook](../../../work-strategy/strategy-notebook/) (inbox, days) / not Record / not Voice. **non-authoritative.**
 
 ## Files in this folder
 

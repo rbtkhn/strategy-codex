@@ -1,6 +1,5 @@
 # Wilkerson accuracy profile
 
-
 ## Summary
 
 Wilkerson's claims in the current proving slice are often war-warning and imperial-consequence claims rather than crisp short-cycle factual forecasts. V1 therefore records them honestly, but several remain unresolved because the review window is still short relative to the claim horizon.

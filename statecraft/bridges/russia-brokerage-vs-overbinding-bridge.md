@@ -1,6 +1,5 @@
 # Russia Brokerage-Vs-Overbinding Bridge
 
-
 Purpose: regulate the transition inside the Russia lane when the real uncertainty is still whether the object should be read brokered-recognition-first or anti-overbinding-leverage-first.
 
 ## Trigger

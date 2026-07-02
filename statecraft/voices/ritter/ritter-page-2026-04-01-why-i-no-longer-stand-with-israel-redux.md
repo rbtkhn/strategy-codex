@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-04-01 (*Why I no longer stand with Israel (Redux)*)
 <!-- word_count: 8926 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-04-01 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 8926
@@ -330,7 +329,6 @@ I stand with Palestine, because I stand for the children of Israel and Palestine
 
 (This article was first published in October 2023. Since that time Israel has been declared a genocidal state, and its leaders war criminals. Israel has bombed Gaza into oblivion, bombed Lebanon, bombed Syria, bombed Iraq, bombed Yemen, bombed Qatar, and now bombed Iran. Israel is the living manifestation of the crimes the world identified and attempted to eradicate at Nuremburg, a nation state and population united by an ideology that promotes and implements illegal wars of aggression. Israel is a cancer on humanity, and its eradication is a necessary function of restoring peace and prosperity to the Middle East and the World.)
 
-
 ### Reflection
 
 **Operator note:** Redux repost (2026-04-01); original essay Oct 2023. Body preserves Substack voice including known typos (Dyan, canon, Irael, etc.).
@@ -356,14 +354,11 @@ IHL content: useful for notebook legal seams; adjudication belongs to courts or 
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

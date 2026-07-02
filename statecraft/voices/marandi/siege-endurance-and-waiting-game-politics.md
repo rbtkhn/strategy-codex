@@ -1,6 +1,5 @@
 # Siege, endurance, and waiting-game politics
 
-
 Marandi repeatedly argues that siege pressure hurts Iran, but creates a sharper time crisis for the U.S.-aligned system and global economy.
 
 Best host lanes:

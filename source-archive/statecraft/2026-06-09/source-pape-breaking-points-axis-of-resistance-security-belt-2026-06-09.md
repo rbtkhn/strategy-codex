@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Very excited now to be joined by our great friend of the show, Professor Robert Paper of the University of Chicago. It's good to see you, sir. Thanks for coming back. >> Thank you so much for having me. >> Absolutely. Let's go ahead and start with B1. This really uh caught our interest.

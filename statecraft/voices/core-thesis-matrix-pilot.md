@@ -315,7 +315,6 @@ Detailed thesis sections remain in accumulation order below. Use the tier guide 
 | 2 | Grayzone-adjacent antiwar narrative work should be treated as a routeable pressure register, not automatically as transcript-grade closed fact. | [Mate README](mate/README.md) | The shelf accumulates enough embodied transcript and arc structure that profile-first caution is no longer needed. | A mature helix or host-local arc claim. |
 | 3 | Verification discipline is part of the thesis: ownership, billionaire, and outlet-lineage claims need primary-document closure before they become links-grade statecraft reuse. | [Mate thread](mate/mate-thread.md) | Corporate-lineage and influence claims repeatedly prove robust enough for direct reuse without stronger documentary closure. | Generic skepticism about alternative media. This is a routing caution, not a dismissal of the lane. |
 
-
 ## Open First
 
 | need | open |

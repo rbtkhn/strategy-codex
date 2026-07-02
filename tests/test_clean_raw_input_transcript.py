@@ -11,10 +11,8 @@ if str(SCRIPTS) not in sys.path:
 
 import clean_raw_input_transcript as clean  # noqa: E402
 
-
 def _body(words: int = 90) -> str:
     return " ".join(f"word{i}" for i in range(words))
-
 
 def _raw_input(body: str | None = None) -> str:
     return (
@@ -45,7 +43,6 @@ def _raw_input(body: str | None = None) -> str:
         f"{body or _body()}\n"
     )
 
-
 def test_dry_run_does_not_write_derivative(tmp_path: Path) -> None:
     source = tmp_path / "raw.md"
     source.write_text(_raw_input("Kind: captions\nLanguage: en\n" + _body()), encoding="utf-8")
@@ -56,7 +53,6 @@ def test_dry_run_does_not_write_derivative(tmp_path: Path) -> None:
     assert result.output_path.name == "raw.cleaned.md"
     assert content is None
     assert not result.output_path.exists()
-
 
 def test_apply_writes_cleaned_derivative_without_modifying_source(tmp_path: Path) -> None:
     source = tmp_path / "raw.md"
@@ -83,7 +79,6 @@ def test_apply_writes_cleaned_derivative_without_modifying_source(tmp_path: Path
     assert "Kind: captions" not in text
     assert "Language: en" not in text
 
-
 def test_glossary_only_replaces_known_terms_and_leaves_unknowns() -> None:
     text, corrections = clean.apply_glossary("Zalinski met Unknownistan near the sea of Azorov.")
 
@@ -92,7 +87,6 @@ def test_glossary_only_replaces_known_terms_and_leaves_unknowns() -> None:
         "sea of Azorov -> Sea of Azov": 1,
         "Zalinski -> Zelensky": 1,
     }
-
 
 def test_guest_glossary_is_limited_to_declared_guest() -> None:
     text = "Andre Martiano joined Andre after the break."
@@ -108,7 +102,6 @@ def test_guest_glossary_is_limited_to_declared_guest() -> None:
         "Andre -> Andrei": 1,
     }
 
-
 def test_guest_glossary_supports_second_declared_guest_alias() -> None:
     text = "Larry Wilkinson and Larry Wilkenson joined the panel."
 
@@ -123,7 +116,6 @@ def test_guest_glossary_supports_second_declared_guest_alias() -> None:
         "Larry Wilkenson -> Larry Wilkerson": 1,
     }
 
-
 def test_guest_name_residual_prevents_perfect_score() -> None:
     components = clean.compute_components(
         source_meta={"source_url": "https://www.youtube.com/watch?v=abc123def45", "pub_date": "2026-01-01", "title": "Example", "guest": "Andrei Martyanov"},
@@ -137,7 +129,6 @@ def test_guest_name_residual_prevents_perfect_score() -> None:
 
     assert clean.score_from_components(components) < 100
     assert "Andre Martiano" in components["residual_noise_scan"]["terms"]
-
 
 def test_provenance_conflict_prevents_perfect_score() -> None:
     meta = {
@@ -166,7 +157,6 @@ def test_provenance_conflict_prevents_perfect_score() -> None:
         "guest appears to be host-only inference",
     ]
 
-
 def test_score_below_80_stays_cleaned_draft() -> None:
     components = clean.compute_components(
         source_meta={},
@@ -182,7 +172,6 @@ def test_score_below_80_stays_cleaned_draft() -> None:
 
     assert score < 80
     assert grade == "transcript-grade-cleaned-draft"
-
 
 def test_main_writes_batch_receipts(tmp_path: Path, capsys) -> None:
     source = tmp_path / "raw.md"
@@ -209,7 +198,6 @@ def test_main_writes_batch_receipts(tmp_path: Path, capsys) -> None:
     assert (receipt_root / "batch" / "cleanup-ledger.jsonl").is_file()
     assert (receipt_root / "batch" / "cleanup-summary.md").is_file()
     assert next((receipt_root / "batch" / "details").glob("*.cleanup.json")).is_file()
-
 
 def test_main_accepts_raw_input_list(tmp_path: Path, capsys) -> None:
     source = tmp_path / "raw.md"

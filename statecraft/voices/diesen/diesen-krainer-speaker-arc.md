@@ -1,6 +1,5 @@
 # arc-krainer-diesen-host (compat redirect)
 
-
 **Canonical:** [arc-krainer-diesen-host.md](../../notes/arc-krainer-diesen-host.md)
 
 Legacy path: `statecraft/voices/diesen/diesen-krainer-speaker-arc.md` — Legacy `*-speaker-arc.md` — pointer only.

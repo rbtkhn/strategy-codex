@@ -23,12 +23,10 @@ if str(_SCRIPTS) not in sys.path:
 from prediction_lib import load_event_registry  # noqa: E402
 from voice_prediction_pilot import VOICE_REGISTRY, get_voice_config  # noqa: E402
 
-
 def load_json(path: Path) -> dict[str, Any]:
     if not path.is_file():
         return {}
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def load_voice_shelves() -> dict[str, dict[str, Any]]:
     shelves: dict[str, dict[str, Any]] = {}
@@ -38,7 +36,6 @@ def load_voice_shelves() -> dict[str, dict[str, Any]]:
             continue
         shelves[speaker] = json.loads(config.predictions_json_path.read_text(encoding="utf-8"))
     return shelves
-
 
 def event_voice_row(
     event_id: str,
@@ -56,7 +53,6 @@ def event_voice_row(
                 "status": event.get("status"),
             }
     return None
-
 
 def render_event_page(
     event_id: str,
@@ -103,7 +99,6 @@ def render_event_page(
     lines.extend(["", "## Registry", "", f"- **Falsifier:** {registry_event.get('falsifier') or '—'}", ""])
     return "\n".join(lines)
 
-
 def render_matrix(
     registry: dict[str, dict[str, Any]],
     shelves: dict[str, dict[str, Any]],
@@ -131,7 +126,6 @@ def render_matrix(
         lines.append(f"| {short_q} | " + " | ".join(cells) + " |")
     lines.append("")
     return "\n".join(lines)
-
 
 def build_outputs(
     *,
@@ -164,7 +158,6 @@ def build_outputs(
 
     matrix = render_matrix(registry, shelves)
     return event_pages, matrix
-
 
 def check_outputs(
     *,
@@ -201,7 +194,6 @@ def check_outputs(
     print("[ok] prediction event pages match generator output")
     return 0
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--registry", type=Path, default=DEFAULT_REGISTRY)
@@ -236,7 +228,6 @@ def main() -> int:
     args.matrix.write_text(matrix, encoding="utf-8")
     print(f"[ok] wrote {len(pages)} event page(s) and {args.matrix.relative_to(REPO_ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

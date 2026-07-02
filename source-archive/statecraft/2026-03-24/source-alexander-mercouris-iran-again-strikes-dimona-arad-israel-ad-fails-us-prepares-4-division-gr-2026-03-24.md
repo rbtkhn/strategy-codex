@@ -69,4 +69,3 @@ Now, that of course weakens the line the fortified line based around Sloviansk a
 
 I would just finish by saying there's been reports of another big Russian missile and drone strike on Ukraine last night, but I'm not up to date with this information and I might touch on it in my program tomorrow. Anyway, this is where I'm going to finish today's program. Let me remind you again, you can find all our programs on our various platforms, Locals, Rumble, X, and Substack. You can support our work via Patreon and SubscribeStar and by going to our shop, links under this video. Last but not least, please remember to tick the like button and to check your subscription to this channel. That's me for today. More from me soon. Have a very good day.
 
-

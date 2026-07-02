@@ -12,7 +12,6 @@ if str(_SCRIPTS) not in sys.path:
 
 from pipeline_correlation import find_staged_event_id_for_candidate  # noqa: E402
 
-
 def test_find_staged_event_id_latest():
     with tempfile.NamedTemporaryFile(mode="w", suffix=".jsonl", delete=False, encoding="utf-8") as f:
         p = Path(f.name)
@@ -44,7 +43,6 @@ def test_find_staged_event_id_latest():
     finally:
         p.unlink(missing_ok=True)
 
-
 def test_find_staged_event_id_missing():
     with tempfile.NamedTemporaryFile(mode="w", suffix=".jsonl", delete=False, encoding="utf-8") as f:
         p = Path(f.name)
@@ -53,7 +51,6 @@ def test_find_staged_event_id_missing():
         assert find_staged_event_id_for_candidate(p, "CANDIDATE-9999") is None
     finally:
         p.unlink(missing_ok=True)
-
 
 def test_find_staged_event_id_no_event_id_field():
     with tempfile.NamedTemporaryFile(mode="w", suffix=".jsonl", delete=False, encoding="utf-8") as f:

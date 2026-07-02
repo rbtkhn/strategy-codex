@@ -1,6 +1,5 @@
 # Russia Civilization / Empire Helix
 
-
 Purpose: hold together Russian civilizational security memory and Russian outward power so the lane can draft restraint as strength rather than retreat.
 
 ## Where This Sits

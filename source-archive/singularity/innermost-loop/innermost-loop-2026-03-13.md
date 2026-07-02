@@ -13,8 +13,6 @@ post_id: 190858288
 
 # The Innermost Loop - 2026-03-13
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 13, 2026
@@ -29,10 +27,7 @@ The Singularity is cracking open the hardest problems in mathematics and physics
 
 ## Newsletter Text
 
--
--
-
-The Singularity is cracking open the hardest problems in mathematics and physics. DeepMind used AlphaEvolve to establish new lower bounds for five classical Ramsey numbers , an extremal combinatorics problem so notoriously hard that even Erdős once quipped about its difficulty. On the physical frontier, Swiss researchers demonstrated compact superconductor magnets achieving 42 tesla with palm-sized coils consuming less than one watt of power, proving that even magnetic force is learning to miniaturize. When the machines solve what the legends couldn’t, the old constraints are dissolving.
+- The Singularity is cracking open the hardest problems in mathematics and physics. DeepMind used AlphaEvolve to establish new lower bounds for five classical Ramsey numbers , an extremal combinatorics problem so notoriously hard that even Erdős once quipped about its difficulty. On the physical frontier, Swiss researchers demonstrated compact superconductor magnets achieving 42 tesla with palm-sized coils consuming less than one watt of power, proving that even magnetic force is learning to miniaturize. When the machines solve what the legends couldn’t, the old constraints are dissolving.
 
 The model race is accelerating to match. Elon Musk expects xAI to surpass all competitors in coding by midyear after hiring two senior Cursor leaders . The tools are upgrading themselves in real time, with Claude now building interactive charts and diagrams directly in chat , while Google’s new “Ask Maps” lets Gemini field queries like “where can I charge my dying phone without waiting in a coffee line?” Even competitors are borrowing from each other to keep up. Meta has reportedly discussed temporarily licensing Gemini to power its own AI products after its in-house Avocado model was delayed to at least May, a capitulation that would have been unthinkable twelve months ago.
 

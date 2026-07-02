@@ -44,7 +44,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Friday, June 12, 2026 and our dear friend, Ambassador Chas Freeman is here with us. Welcome back, Ambassador. >> Glad to be with you, Nemo. >> And let's start with what's going on between the United States and Iran. Last night I talked with Larry and we thought that from what I've learned from Iranians they said that they have prepared a text and they're communicating with the United States and Larry was mentioning they are he had his sources were telling him that maybe the United States is going to attack Iran.

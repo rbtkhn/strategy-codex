@@ -1,7 +1,6 @@
 # Russia - Baltic Shadow-Fleet Infrastructure Damage Framework
 <!-- word_count: 366 -->
 
-
 ## Transaction Name
 
 Baltic attribution discipline and non-escalation channel.

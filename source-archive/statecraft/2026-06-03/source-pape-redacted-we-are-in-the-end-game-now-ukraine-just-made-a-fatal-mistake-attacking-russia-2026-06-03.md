@@ -36,7 +36,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 **Host:** Well, Russia says that it may respond with nuclear weapons to the attacks on St. Petersburg that happened today. Here is Russian Deputy Foreign Minister Sergey Rab Rabigkov. That's probably not right. Uh he said to put it straightforwardly, these documents send a signal that encroachments on Russia and its territory by aggressors, including those who may possess such weapons, could prompt us to use these weapons in the worst case scenario, meaning nuclear weapons.

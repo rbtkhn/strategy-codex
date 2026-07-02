@@ -1,6 +1,6 @@
 # Singularity-Academy Sprint One-Page Packet
 
-WORK only. This is a sendable external packet draft, not proof of market demand.
+non-authoritative. This is a sendable external packet draft, not proof of market demand.
 
 ## Purpose
 

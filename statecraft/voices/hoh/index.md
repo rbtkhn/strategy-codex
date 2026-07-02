@@ -1,6 +1,5 @@
 # Hoh Index
 
-
 Purpose: front door for the compact Hoh starter shelf inside `statecraft/voices/`.
 
 ## Open First

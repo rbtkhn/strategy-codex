@@ -1,7 +1,6 @@
 # Book And Machine
 <!-- word_count: 570 -->
 
-
 Purpose: define the mature form of a statecraft lane. Each state lane should become both a readable civilizational volume and a governed analytic machine.
 
 ## Core Formula

@@ -8,7 +8,7 @@
 - **Not** a second [work-dev README](../../README.md) (territory entrypoint) or a duplicate of [work-dev-history.md](../../work-dev-history.md) (milestone log) or [workspace.md](../../workspace.md) (current blockers / next actions). Link those instead.
 - **Not** [cici-notebook](../../../../../README.md) (outward OB1 / Cici line). **Routing:** [journal README — dev-journal vs cici-notebook](journal/README.md#routing-dev-journal-vs-cici-notebook).
 
-**WORK only**; not Record, not Voice.
+, not Voice.
 
 ## Files in this folder
 

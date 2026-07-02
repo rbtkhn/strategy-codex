@@ -1,6 +1,5 @@
 # Ritter speaker object
 
-
 Compatibility note: this codex-side object note remains only as a migration-era
 pointer. The canonical Ritter shelf now lives under
 [statecraft/voices/ritter/](README.md).

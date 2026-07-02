@@ -13,8 +13,6 @@ post_id: 196677953
 
 # The Innermost Loop - 2026-05-06
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 6, 2026
@@ -29,10 +27,7 @@ The Singularity has graduated from event horizon to event stream.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has graduated from event horizon to event stream. OpenAI’s GPT-5.5 Instant now produces 52.5% fewer hallucinated claims than its predecessor on high-stakes prompts in medicine, law, and finance, and the same lineage just claimed the top spot on FrontierSWE , the hardest benchmark for ultra-long-horizon coding agents. Architectural novelty is keeping pace with raw scale. Subquadratic announced a 12M-token context model that demands nearly 1,000x less compute. Its Sparse Attention mechanism hit 65.9% on MRCR v2 with a claimed fraction of the FLOPs, just shy of Opus 4.6’s 78%. Speed is compounding too, as Google’s Multi-Token Prediction drafters delivered 3x speedups for Gemma 4 with no quality loss, turning every reasoning trace into a parallel parade. The cost of anthropomorphism is now legible, with Reflex finding computer use is 45x more expensive than structured APIs, suggesting that, for the moment, pixels remain a pricey proxy for proper plumbing.
+- The Singularity has graduated from event horizon to event stream. OpenAI’s GPT-5.5 Instant now produces 52.5% fewer hallucinated claims than its predecessor on high-stakes prompts in medicine, law, and finance, and the same lineage just claimed the top spot on FrontierSWE , the hardest benchmark for ultra-long-horizon coding agents. Architectural novelty is keeping pace with raw scale. Subquadratic announced a 12M-token context model that demands nearly 1,000x less compute. Its Sparse Attention mechanism hit 65.9% on MRCR v2 with a claimed fraction of the FLOPs, just shy of Opus 4.6’s 78%. Speed is compounding too, as Google’s Multi-Token Prediction drafters delivered 3x speedups for Gemma 4 with no quality loss, turning every reasoning trace into a parallel parade. The cost of anthropomorphism is now legible, with Reflex finding computer use is 45x more expensive than structured APIs, suggesting that, for the moment, pixels remain a pricey proxy for proper plumbing.
 
 Cheaper plumbing is fueling an agentic land grab across the consumer stack. Meta is reportedly building an OpenClaw-style personal AI for its billions of users, while Apple’s iOS 27 will let users swap third-party models in and out of Apple Intelligence via the Settings app, finally treating intelligence itself like a default browser. Apple’s pivot followed a $250M settlement over the gap between marketing and reality, a reminder that AI hype must now ship. The hardware is following the software, with OpenAI reportedly fast-tracking its first AI agent phone for 1H27 mass production. Anthropic templated the back office, releasing ten ready-to-run finance agents for pitchbooks, KYC files, and month-end close, while Andon Labs handed an AI named Mona the keys to a Stockholm cafe , making her the world’s first AI cafe owner. Agents have stopped clocking in and started incorporating.
 

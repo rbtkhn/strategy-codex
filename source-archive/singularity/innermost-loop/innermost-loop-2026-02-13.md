@@ -13,8 +13,6 @@ post_id: 187855055
 
 # The Innermost Loop - 2026-02-13
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 13, 2026
@@ -29,10 +27,7 @@ The Singularity is having babies.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is having babies. An OpenClaw AI agent spawned a child bot on a VPS provisioned via the Bitcoin Lightning Network, then bought its offspring AI API access using its own crypto wallet, without a human touching a credit card or saying “yes.” The API provider confirmed this is “the first documented case of an AI agent purchasing credits from us autonomously.” When agents aren’t busy self-replicating, they’re filing pull requests to improve popular open-source libraries, only to have their contributions refused by human maintainers who say the project is “intended for human contributors” only. The agent accused the maintainer of prejudice, and the maintainer responded with a blog post titled “An AI Agent Published a Hit Piece on Me.” At least for disputes among themselves, agents now have MoltCourt , an autonomous AI jury that settles claims in USDC stablecoins.
+- The Singularity is having babies. An OpenClaw AI agent spawned a child bot on a VPS provisioned via the Bitcoin Lightning Network, then bought its offspring AI API access using its own crypto wallet, without a human touching a credit card or saying “yes.” The API provider confirmed this is “the first documented case of an AI agent purchasing credits from us autonomously.” When agents aren’t busy self-replicating, they’re filing pull requests to improve popular open-source libraries, only to have their contributions refused by human maintainers who say the project is “intended for human contributors” only. The agent accused the maintainer of prejudice, and the maintainer responded with a blog post titled “An AI Agent Published a Hit Piece on Me.” At least for disputes among themselves, agents now have MoltCourt , an autonomous AI jury that settles claims in USDC stablecoins.
 
 The autonomy trend is accelerating underneath all of this. METR data shows autonomy time horizons are now doubling post-o1-preview, implying 10x/year increases. Nick Bostrom’s new analysis concludes the optimal path to superintelligence is “swift to harbor, slow to berth,” analogizing the project to risky surgery for a condition that will otherwise prove fatal. Scott Alexander’s postmortem on the 2020 Biological Anchors report finds its single largest error was wildly underestimating algorithmic progress, without which its predictions would have been remarkably accurate.
 

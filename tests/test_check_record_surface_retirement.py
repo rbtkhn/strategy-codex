@@ -8,7 +8,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def test_record_surface_retirement_passes() -> None:
     proc = subprocess.run(
         [sys.executable, "scripts/check_record_surface_retirement.py"],

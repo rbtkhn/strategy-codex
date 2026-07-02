@@ -10,7 +10,6 @@ if str(SCRIPTS) not in sys.path:
 
 import fix_statecraft_common_asr_entities as fix  # noqa: E402
 
-
 def test_apply_replacements_fixes_selected_entity_families() -> None:
     text = (
         "Xiinping met Wangi near Bundra Abbas while Judge Andrew Npalitano listened to Witgo.\n"
@@ -74,7 +73,6 @@ def test_apply_replacements_fixes_selected_entity_families() -> None:
     assert counts["hegseth_hacket"] == 1
     assert counts["hegseth_split"] == 1
 
-
 def test_apply_replacements_fixes_residual_hegseth_context_variants() -> None:
     text = (
         "Pete Haga and Pete Hax stood next to Peter Hexith.\n"
@@ -120,7 +118,6 @@ def test_apply_replacements_fixes_residual_hegseth_context_variants() -> None:
     assert counts["hegseth_hegath"] == 1
     assert counts["hegseth_tail_token"] == 9
 
-
 def test_apply_replacements_fixes_eu_iran_negotiation_cluster() -> None:
     text = (
         "Keith Stormer and Kayak Kalas met while Kayakalas spoke.\n"
@@ -159,7 +156,6 @@ def test_apply_replacements_fixes_eu_iran_negotiation_cluster() -> None:
     assert counts["litani_lean_river"] == 1
     assert counts["litani_leani_river"] == 1
 
-
 def test_apply_replacements_skips_markdown_link_paths_and_urls() -> None:
     line = (
         "- [source-mercouris-oil-crisis-aragchi-russia-2026-03-06.md]"
@@ -176,7 +172,6 @@ def test_apply_replacements_skips_markdown_link_paths_and_urls() -> None:
     assert counts["araghchi_name"] == 1
     assert counts["xi_jinping"] == 1
     assert counts.get("kiev_kyiv_canonical", 0) == 0
-
 
 def test_fix_root_only_touches_transcript_like_files(tmp_path: Path) -> None:
     transcript = tmp_path / "source-archive" / "statecraft" / "2026-05-31" / "transcript-example.md"
@@ -209,7 +204,6 @@ def test_fix_root_only_touches_transcript_like_files(tmp_path: Path) -> None:
     assert "Pezeshkian" in body
     assert note.read_text(encoding="utf-8") == "Xiinping should stay untouched here.\n"
 
-
 def test_apply_replacements_fixes_khairullin_mercouris_asr_cluster() -> None:
     text = (
         "Marat Kulin on Substack; Marat Khulin and Kyuin compared notes.\n"
@@ -231,7 +225,6 @@ def test_apply_replacements_fixes_khairullin_mercouris_asr_cluster() -> None:
     assert counts["khairullin_kulin"] >= 1
     assert counts["khairullin_hulu_said"] == 1
 
-
 def test_apply_replacements_fixes_nima_alkhorshid_display() -> None:
     text = (
         "Host Nima Alkhorshid opened. **Nima Alkhorshid:** welcome back.\n"
@@ -245,7 +238,6 @@ def test_apply_replacements_fixes_nima_alkhorshid_display() -> None:
     assert counts["nima_alkhorshid_display"] == 2
     assert counts["nima_alkhorshid_surname_poss"] == 1
     assert counts["nima_alkhorshid_surname_canonical"] == 1
-
 
 def test_apply_replacements_fixes_martyanov_asr_family() -> None:
     text = (

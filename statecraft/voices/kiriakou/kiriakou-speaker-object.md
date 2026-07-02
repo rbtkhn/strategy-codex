@@ -1,6 +1,5 @@
 # Kiriakou speaker object
 
-
 object_shape: cross-host-reinforced
 
 Purpose: give John Kiriakou a canonical speaker lane so host-led and guest-led transcript captures project into a stable participant index instead of remaining unresolved.

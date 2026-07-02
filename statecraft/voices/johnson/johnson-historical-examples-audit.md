@@ -1,6 +1,5 @@
 # Johnson historical examples audit
 
-
 Purpose: establish the Johnson shelf's `civ-state` membrane and record how historical-example retrieval should deepen the speaker object without replacing raw-input authority.
 
 ## Current Audit Status

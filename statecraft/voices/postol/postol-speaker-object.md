@@ -1,6 +1,5 @@
 # Postol speaker object
 
-
 object_shape: helix-first
 
 Purpose: define Ted Postol as a first-class speaker object in a way that matches his real utility in the notebook. Unlike Mercouris, Parsi, or Pape, Postol does not have one thick native cognition stream body here. Postol is now best read as a **helix-first technical-destruction and deterrence object** whose `Davis`, `Diesen`, and `Alkorshid` branches are all materially real, even if shelf materialization remains uneven.

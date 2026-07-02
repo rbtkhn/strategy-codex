@@ -71,7 +71,7 @@ Use an HTML comment guard to keep idempotency:
 
 ## Boundaries
 
-- **WORK only** — strategy lane artifacts; not SELF, not EVIDENCE, not Voice.
+- **Instrumental work** — strategy lane artifacts; not SELF, not EVIDENCE, not Voice.
 - Do not treat regenerated RSS as “more true” than prior captures without an explicit compare note.
 
 ## See also

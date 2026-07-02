@@ -1,7 +1,6 @@
 # Iran Lit
 <!-- word_count: 571 -->
 
-
 ## Purpose
 
 Use Iranian / Persian literature as a statecraft lens for Ferdowsi, Shahnameh, Persianate continuity, poetry as sovereignty, martyrdom, dignity, memory beyond regime, and language as a carrier of civilizational survival.

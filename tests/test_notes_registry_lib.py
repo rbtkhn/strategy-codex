@@ -12,7 +12,6 @@ import pytest
 REPO_ROOT = Path(__file__).resolve().parents[1]
 LIB = REPO_ROOT / "scripts" / "notes_registry_lib.py"
 
-
 def _import_lib():
     spec = importlib.util.spec_from_file_location("notes_registry_lib", LIB)
     assert spec and spec.loader
@@ -20,7 +19,6 @@ def _import_lib():
     sys.modules[spec.name] = mod
     spec.loader.exec_module(mod)
     return mod
-
 
 def test_broken_link_spec_counts_missing_note_only(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     lib = _import_lib()
@@ -37,7 +35,7 @@ def test_broken_link_spec_counts_missing_note_only(tmp_path: Path, monkeypatch: 
     source.write_text(
         textwrap.dedent(
             f"""\
-            WORK only.
+            non-authoritative.
 
             - [good](./good-target.md)
             - [missing](./missing-note.md)
@@ -55,7 +53,6 @@ def test_broken_link_spec_counts_missing_note_only(tmp_path: Path, monkeypatch: 
     assert count == 1
     assert "./missing-note.md" in paths
 
-
 def test_valid_archive_link_not_broken(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     lib = _import_lib()
     notes = tmp_path / "statecraft" / "notes"
@@ -72,7 +69,6 @@ def test_valid_archive_link_not_broken(tmp_path: Path, monkeypatch: pytest.Monke
     monkeypatch.setattr(lib, "NOTES_ROOT", notes)
     count, _ = lib.count_broken_note_links(source, source.read_text(encoding="utf-8"))
     assert count == 0
-
 
 def test_dashboard_tier_a_vs_tier_b_summary() -> None:
     lib = _import_lib()

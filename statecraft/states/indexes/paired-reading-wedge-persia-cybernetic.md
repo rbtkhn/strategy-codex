@@ -1,6 +1,5 @@
 # Persia Cybernetic Paired Reading Wedge
 
-
 ## Two Primary Anchors
 
 1. [Islamic Republic legitimacy and sovereignty texts](../volumes/civ-state-persia/civ-state-persia-primary-sources-cybernetic.md) that carry recognition, resistance, and anti-subordination language.

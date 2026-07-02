@@ -19,7 +19,6 @@ VALID_MINIMAL_GENESIS_HASH = (
 
 GENESIS_ALGORITHM = "sha256_newline_joined_canonical_json_v1"
 
-
 def _load_birth_cert_module():
     scripts = REPO_ROOT / "scripts"
     sys.path.insert(0, str(scripts))
@@ -37,13 +36,11 @@ def _load_birth_cert_module():
         except ValueError:
             pass
 
-
 def test_genesis_hash_valid_minimal_fixture(tmp_path) -> None:
     mod = _load_birth_cert_module()
     target = tmp_path / "seed-phase"
     shutil.copytree(REPO_ROOT / "tests/fixtures/seed-phase/valid-minimal", target)
     assert mod.compute_genesis_hash(target) == VALID_MINIMAL_GENESIS_HASH
-
 
 def test_subprocess_birth_certificate_insecure(tmp_path) -> None:
     pytest.importorskip("cryptography")

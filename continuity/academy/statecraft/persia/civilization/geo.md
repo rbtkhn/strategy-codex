@@ -1,7 +1,6 @@
 # Iran Geo
 <!-- word_count: 2588 -->
 
-
 ## Purpose
 
 Use Iranian geography as a statecraft arc-lens for the Iranian Plateau, Zagros and Alborz defensive ring, deserts, Persian Gulf and Hormuz, Caspian, Caucasus, Mesopotamia approaches, water stress, corridor exposure, sanctions ecology, and resource sovereignty.

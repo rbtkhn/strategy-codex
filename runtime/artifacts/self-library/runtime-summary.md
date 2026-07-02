@@ -11,7 +11,6 @@ Active entries: 132
 | -------- | ------------------ | ------------- | -------------- | ---------- |
 | LIB-0149 | Predictive History | operator_book | operator_spine | 2026-04-16 |
 
-
 ## High-priority entries
 
 | ID       | Title                                            | Shelf             | Subtype           | Reviewed   |
@@ -23,7 +22,6 @@ Active entries: 132
 | LIB-0151 | Predictive History — YouTube transcript library  | operator_book     | upstream_corpus   | 2026-04-16 |
 | LIB-0152 | Tucker Carlson Network — curated transcript book | operator_book     | upstream_corpus   | 2026-04-16 |
 | LIB-0132 | Civilization Memory Codex                        | working_reference |                   | 2026-04-16 |
-
 
 ## Operator analytical entries by subtype
 
@@ -54,7 +52,6 @@ Active entries: 132
 | LIB-0151 | Predictive History — YouTube transcript library  | high     | 2026-04-16 |
 | LIB-0152 | Tucker Carlson Network — curated transcript book | high     | 2026-04-16 |
 
-
 ## Scope distribution (top 10)
 
 | Tag         | Count |
@@ -69,7 +66,6 @@ Active entries: 132
 | classics    | 13    |
 | Shakespeare | 13    |
 | plays       | 13    |
-
 
 ## Entries needing review (stale or missing reviewed_at, cutoff 30d)
 
@@ -89,7 +85,6 @@ Active entries: 132
 | LIB-0002 | Usborne World History Encyclopedia: An Illustrated Introduction to World | medium   | —        |
 | LIB-0001 | Usborne World Geography Encyclopedia (Internet Linked)                   | medium   | —        |
 | LIB-0136 | Civ-mem — Essays index                                                   | medium   | —        |
-
 
 ## Duplicate-scope clusters (12)
 
@@ -116,8 +111,6 @@ Active entries: 132
 - LIB-0121, LIB-0122, LIB-0123, LIB-0124, LIB-0125 → scope: ('Arabian Nights', 'tales')
 
 - LIB-0126, LIB-0127, LIB-0128, LIB-0129, LIB-0130, LIB-0131 → scope: ('Jane Austen', 'classics', 'novels')
-
-
 
 ---
 

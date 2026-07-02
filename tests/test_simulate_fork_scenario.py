@@ -27,7 +27,6 @@ if "dotenv" not in sys.modules:
     dotenv_stub.load_dotenv = lambda *args, **kwargs: None
     sys.modules["dotenv"] = dotenv_stub
 
-
 def _minimal_profile(tmp_path: Path) -> Path:
     prof = tmp_path / "snap"
     prof.mkdir()
@@ -61,7 +60,6 @@ edge: "Longer stories"
     )
     return prof
 
-
 def test_grace_mar_profile_dir_retrieve(tmp_path, monkeypatch):
     prof = _minimal_profile(tmp_path)
     monkeypatch.setenv("GRACE_MAR_PROFILE_DIR", str(prof))
@@ -75,7 +73,6 @@ def test_grace_mar_profile_dir_retrieve(tmp_path, monkeypatch):
     out = retriever.retrieve("cats fuzzy", top_k=2)
     assert out and "LEARN-0001" in out[0][0]
 
-
 def test_retriever_labels_skill_write_chunks(tmp_path, monkeypatch):
     prof = _minimal_profile(tmp_path)
     monkeypatch.setenv("GRACE_MAR_PROFILE_DIR", str(prof))
@@ -87,7 +84,6 @@ def test_retriever_labels_skill_write_chunks(tmp_path, monkeypatch):
     importlib.reload(retriever)
     chunks = retriever.load_record_chunks()
     assert any("SKILLS/WRITE" in text for _, text in chunks)
-
 
 @patch("openai.OpenAI")
 def test_run_single_query_mocked(mock_oi, tmp_path, monkeypatch):
@@ -119,7 +115,6 @@ def test_run_single_query_mocked(mock_oi, tmp_path, monkeypatch):
     )
     assert "LEARN-0001" in r["response"]
     assert _estimate_confidence(r["response"]) >= 70
-
 
 def test_export_prp_respects_profile_dir(tmp_path, monkeypatch):
     prof = _minimal_profile(tmp_path)

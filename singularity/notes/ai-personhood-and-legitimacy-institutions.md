@@ -1,7 +1,5 @@
 # AI Personhood and Legitimacy Institutions
 
-WORK only; not Record.
-
 **Anchor item:** [Moonshots EP #259 - AI Personhood, Layoffs, and Regulation](../workshop/sheets/moonshots-ep-259-ai-personhood-layoffs-regulation.md)
 
 This note preserves one bounded seam from Moonshots EP #259: the singularity question is not only whether models get smarter, but which institutions claim the right to name what a model is, what a person is, and what kinds of delegated intelligence remain morally or politically legitimate.

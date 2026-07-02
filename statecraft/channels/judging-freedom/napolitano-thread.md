@@ -1,6 +1,5 @@
 # Legacy compatibility surface — `napolitano-thread`
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a host thread that competes with the current Napolitano shelf structure.

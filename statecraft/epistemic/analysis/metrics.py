@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-
 def population_variance(values: list[float]) -> float:
     if len(values) < 2:
         return 0.0

@@ -1,6 +1,6 @@
 # Singularity-Academy Public Seed Targets - 2026-05
 
-WORK only. These are public seed targets, not qualified leads.
+non-authoritative. These are public seed targets, not qualified leads.
 
 ## Purpose
 

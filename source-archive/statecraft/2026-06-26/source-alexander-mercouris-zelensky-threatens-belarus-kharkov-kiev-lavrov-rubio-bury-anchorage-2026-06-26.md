@@ -35,7 +35,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Ever Lovely and Rubio Bahrain
 
 Good day. Today is Friday, 26th June, 2026. And before I proceed with this program, let me remind you to tick the like button and to check your subscription to this channel. Well, over the last 24 hours, there have been two important events. One is an attack by the IRGC on a um tanker in the straight of Hormuz hugging the coast of Oman.

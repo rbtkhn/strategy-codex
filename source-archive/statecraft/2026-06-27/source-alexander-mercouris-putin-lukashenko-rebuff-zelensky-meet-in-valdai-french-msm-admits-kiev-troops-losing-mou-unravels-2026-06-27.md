@@ -36,7 +36,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Saturday Date And Belarus Threats
 
 Good day. Today is Saturday, 27th June, 2026. And before I proceed with this program, let me remind you again to tick the like button and to check your subscription to this channel. Now, over the last uh week or so, we have had a cascade of threats by President Zelensky of Ukraine against President Lukashenko of Belarus and against the state of Belarus altogether. threats which have included um fairly thinly veiled threats of military action by Ukraine against Belarus unless Belarus takes steps to basically sever its connection to Russia.

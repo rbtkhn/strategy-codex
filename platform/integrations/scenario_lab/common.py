@@ -19,10 +19,8 @@ if os.name == "nt":
 else:
     DEFAULT_SCENARIO_LAB_CMD = ["scenario-lab"]
 
-
 def utc_now_iso() -> str:
     return datetime.now(UTC).isoformat()
-
 
 def relative_to_repo(path: Path) -> str:
     try:
@@ -30,15 +28,12 @@ def relative_to_repo(path: Path) -> str:
     except ValueError:
         return str(path)
 
-
 def slugify(value: str, *, fallback: str = "scenario") -> str:
     text = re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
     return text or fallback
 
-
 def file_sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
-
 
 def markdown_excerpt(path: Path, max_chars: int = 2_000) -> str:
     text = path.read_text(encoding="utf-8").strip()
@@ -46,13 +41,11 @@ def markdown_excerpt(path: Path, max_chars: int = 2_000) -> str:
         text = text[: max_chars - 3].rstrip() + "..."
     return text
 
-
 def resolve_scenario_lab_root(explicit: str | None = None) -> Path:
     raw = explicit or os.environ.get("SCENARIO_LAB_ROOT", "").strip()
     if raw:
         return Path(raw).expanduser().resolve()
     return DEFAULT_SCENARIO_LAB_ROOT
-
 
 def resolve_forecast_root(explicit: str | None = None) -> Path:
     raw = explicit or os.environ.get("SCENARIO_LAB_FORECAST_ROOT", "").strip()
@@ -60,13 +53,11 @@ def resolve_forecast_root(explicit: str | None = None) -> Path:
         return Path(raw).expanduser().resolve()
     return DEFAULT_FORECAST_ROOT
 
-
 def resolve_scenario_lab_cmd(explicit: str | None = None) -> list[str]:
     raw = explicit or os.environ.get("SCENARIO_LAB_CMD", "").strip()
     if raw:
         return shlex.split(raw, posix=False)
     return list(DEFAULT_SCENARIO_LAB_CMD)
-
 
 def run_scenario_lab(
     args: list[str],
@@ -83,29 +74,24 @@ def run_scenario_lab(
         capture_output=True,
     )
 
-
 def load_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def write_json(path: Path, payload: Any) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
     return path
 
-
 def write_text(path: Path, text: str) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text.rstrip() + "\n", encoding="utf-8")
     return path
-
 
 def append_jsonl(path: Path, row: dict[str, Any]) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("a", encoding="utf-8") as handle:
         handle.write(json.dumps(row, ensure_ascii=True, sort_keys=True) + "\n")
     return path
-
 
 def resolve_output_path(path: Path, *, default_root: Path) -> Path:
     if path.is_absolute():

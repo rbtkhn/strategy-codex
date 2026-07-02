@@ -1,6 +1,5 @@
 # America Empire Instrument
 
-
 ## Purpose
 
 Use this object as the phase-one America empire-side carrier for the symmetric-first CIV-STATE migration. It names the outward control instruments through which America tries to secure maritime order, alliance geometry, and sanctions-finance reach without letting emergency empire outrun constitutional legitimacy.

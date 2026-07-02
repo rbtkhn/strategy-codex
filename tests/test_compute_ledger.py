@@ -17,7 +17,6 @@ if str(SCRIPTS) not in sys.path:
 
 from emit_compute_ledger import append_integration_ledger  # noqa: E402
 
-
 @pytest.fixture
 def work_root() -> Path:
     base = REPO_ROOT / ".test-tmp" / "compute-ledger"
@@ -28,10 +27,8 @@ def work_root() -> Path:
     finally:
         shutil.rmtree(root, ignore_errors=True)
 
-
 def _ledger_path(root: Path) -> Path:
     return root / "compute-ledger.jsonl"
-
 
 def test_append_integration_ledger_writes_line(work_root: Path) -> None:
     append_integration_ledger(
@@ -53,7 +50,6 @@ def test_append_integration_ledger_writes_line(work_root: Path) -> None:
     assert o["bucket"] == "integration"
     assert o["success"] is True
 
-
 def test_append_integration_ledger_task_fields(work_root: Path) -> None:
     append_integration_ledger(
         "u1",
@@ -74,7 +70,6 @@ def test_append_integration_ledger_task_fields(work_root: Path) -> None:
     assert o["outcome_confidence"] == 0.95
     assert o["operation"] == "export_with_task"
 
-
 def test_append_integration_ledger_task_fields_omitted(work_root: Path) -> None:
     append_integration_ledger(
         "u1",
@@ -91,7 +86,6 @@ def test_append_integration_ledger_task_fields_omitted(work_root: Path) -> None:
     assert "task_type" not in o
     assert "outcome_confidence" not in o
 
-
 def test_append_integration_ledger_outcome_confidence_clamped(work_root: Path) -> None:
     append_integration_ledger(
         "u1",
@@ -106,7 +100,6 @@ def test_append_integration_ledger_outcome_confidence_clamped(work_root: Path) -
     line = p.read_text(encoding="utf-8").strip().splitlines()[-1]
     o = json.loads(line)
     assert o["outcome_confidence"] == 1.0
-
 
 def test_append_integration_ledger_env_tokens(work_root: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setenv("GRACE_MAR_INTEGRATION_PROMPT_TOKENS", "100")

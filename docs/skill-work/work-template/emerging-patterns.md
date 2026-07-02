@@ -1,6 +1,6 @@
 # Emerging patterns (generic)
 
-**Status:** WORK only — template discipline.  
+**Status:** non-authoritative — template discipline.  
 **Scope:** Lane-level habit for **early, incomplete** patterns that might matter strategically or operationally.  
 **Record boundary:** No direct Record, SELF, EVIDENCE, or Voice writes. **Promoted-to-Record** requires RECURSION-GATE + companion approval.
 

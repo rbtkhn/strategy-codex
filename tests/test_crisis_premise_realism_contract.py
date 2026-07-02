@@ -10,7 +10,6 @@ import json
 import re
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 FIXTURE_PATH = REPO_ROOT / "tests" / "fixtures" / "crisis_premise_realism_contract.json"
 EXPECTED_SCORE = 100
@@ -28,16 +27,13 @@ REQUIRED_CASE_FIELDS = {
 SKILL_PATH = REPO_ROOT / "skills" / "_drafts" / "academy-statecraft-drafting" / "SKILL.md"
 CASEBOOK_PATH = REPO_ROOT / "statecraft" / "sheets" / "crisis-test-casebook.md"
 
-
 def _load_fixture() -> dict:
     return json.loads(FIXTURE_PATH.read_text(encoding="utf-8"))
-
 
 def _normalize(text: str) -> str:
     normalized = text.lower().replace("\u2019", "'").replace("\u2013", "-")
     normalized = normalized.replace("\u2014", "-").replace("`", "")
     return re.sub(r"\s+", " ", normalized)
-
 
 def _term_supported(term: str, haystack: str) -> bool:
     term = _normalize(term)
@@ -66,17 +62,14 @@ def _term_supported(term: str, haystack: str) -> bool:
     meaningful = [word for word in words if word not in stopwords]
     return bool(meaningful) and all(word in haystack for word in meaningful)
 
-
 def _missing_terms(terms: list[str], haystack: str) -> list[str]:
     return [term for term in terms if not _term_supported(term, haystack)]
-
 
 def _case_text(case: dict) -> str:
     chunks = []
     for path in case["paths"]:
         chunks.append((REPO_ROOT / path).read_text(encoding="utf-8"))
     return "\n".join(chunks)
-
 
 def _fixture_failures(fixture: dict) -> list[str]:
     failures: list[str] = []
@@ -110,7 +103,6 @@ def _fixture_failures(fixture: dict) -> list[str]:
         failures.append("fixture must declare at least five critical gates")
 
     return failures
-
 
 def _hard_gate_failures(fixture: dict) -> list[str]:
     failures: list[str] = []
@@ -149,7 +141,6 @@ def _hard_gate_failures(fixture: dict) -> list[str]:
 
     return failures
 
-
 def _score_fixture(fixture: dict) -> tuple[int, list[str], list[str]]:
     score = 0
     misses: list[str] = []
@@ -177,7 +168,6 @@ def _score_fixture(fixture: dict) -> tuple[int, list[str], list[str]]:
 
     return score, misses, critical_failures
 
-
 def _status(score: int, critical_failures: list[str], fixture: dict) -> str:
     if critical_failures:
         return "FAIL"
@@ -187,12 +177,10 @@ def _status(score: int, critical_failures: list[str], fixture: dict) -> str:
         return "WARN"
     return "FAIL"
 
-
 def test_crisis_premise_realism_fixture_integrity() -> None:
     fixture = _load_fixture()
     failures = _fixture_failures(fixture)
     assert not failures, "\n".join(failures)
-
 
 def test_crisis_premise_realism_contract_passes() -> None:
     fixture = _load_fixture()

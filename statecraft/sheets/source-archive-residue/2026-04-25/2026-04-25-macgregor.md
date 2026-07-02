@@ -12,18 +12,3 @@ source_path: docs/skill-work/work-strategy/strategy-notebook/experts/macgregor/t
 - YT | cold: **Douglas Macgregor** × **Glenn Diesen** — **in-episode** **framing** **“day** **three”** **US–Israel–Iran** **war** **—** **regionalized** **strikes** **/** **Gulf** **/** **logistics** **/** **oil** **&** **credibility** **thesis;** **Israel-first** **entry** **(Rubio→SASC** **attribution** **in** **text);** **Iran** **survives** **/** **Israel** **may** **not** **/** **US** **exit** **pressure;** **nuclear-escalation** **branch** **(Israel** **tactical** **→** **Russia–China** **counter** **scenario);** **Netanyahu** **drives** **Trump** **frame** // hook: **`thread:macgregor`** **×** **§1e** **Hormuz** **/** **kinetic** **+** **§1g** **alliance** **credibility** **—** **full** [../../../source-archive/statecraft/_aired-pending/transcript-macgregor-diesen-iran-new-world-yd_uJiRcl0Q.md](../../../../source-archive/statecraft/_aired-pending/transcript-macgregor-diesen-iran-new-world-yd_uJiRcl0Q.md) | https://www.youtube.com/watch?v=yd_uJiRcl0Q | verify:operator-paste+aired-unknown+scenario-framing-not-wire+Rubio-SASC-primary-if-merge+quant-claims-tier+opinion-narrative-tier+nuclear-scenario-tier | thread:macgregor | IRAN | ISRAEL | grep:Macgregor+Diesen+Iran+new-world+yd+aired-pending
 - YT | cold: **Glenn Diesen** × **Douglas Macgregor** (*Iran Negotiations Are a Hoax — U.S. Prepares for 'Total War'* — **operator transcript** **reingest** **2026-04-25**, **aired** **2026-04-21** **in** **voice**) — **Macgregor:** **Islamabad** **II** **“fiction;”** **Vance** **×** **Netanyahu** **call** **=** **not** **negotiation** **+** **Bibi** **in** **charge** **frame;** **WH** **/ markets** **“nonsense;”** **ceasefire** **~3a** **Iran** **—** **prep** **for** **attack;** **offense** **vs** **defensive** **Iran,** **1898** **/** **1914** **/ range** **band,** **JASSM** **/** **stocks,** **Caine** **air-power** **path,** **48–96h** **intensity,** **state-destruction** **targeting** **thesis,** **UAS** **/** **missile** **inventories** **(nominally** **verify);** **fertilizer** **/** **Gulf** **/ jet** **fuel** **/ Europe** **crisis;** **Malacca** **/ Caine** **“catastrophe;”** **Montreux** **1936** **analogy** **Hormuz** **;** **India** **“extension** **cord;”** **Israel** **/ petrodollar** **/ multipolar;** **Ukraine** **/** **Europe** **/ Putin** **restraint;** **Roy** **Cohn** **/ Trump** **Jesus** **image;** **War** **Powers** **week** // hook: **`thread:macgregor`** **×** **§1e** **Islamabad** **/** **Hormuz** **+** **material** **—** **full** **verbatim** [provenance/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md](../../../../source-archive/statecraft/2026-04-21/source-macgregor-diesen-total-war-iran-2026-04-21.md) | https://www.youtube.com/watch?v=1AZPNUaXJ-k | verify:full-text+raw-input+reingest-2026-04-25+operator-transcript+optional-deep-link-t2391s | thread:macgregor | IRAN | grep:Diesen+Macgregor+Iran+hoax+total+war+2026-04-21
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

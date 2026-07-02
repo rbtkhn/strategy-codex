@@ -1,6 +1,5 @@
 # Mercouris helix
 
-
 Purpose: provide the normalized crossing-surface slot for Mercouris without forcing him into the wrong inner architecture.
 
 Mercouris is not primarily a wide multi-host helix object. His strongest continuity is a native stream arc with recurring arc-threads. The crossing job here is therefore:

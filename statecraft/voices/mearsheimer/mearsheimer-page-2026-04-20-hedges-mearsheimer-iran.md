@@ -1,7 +1,6 @@
 # Mearsheimer strategy page — 2026-04-20 (*Iran, Islamabad & Hormuz*)
 <!-- word_count: 6603 -->
 
-
 **Expert:** `mearsheimer` · **Aired:** 2026-04-20 · **Capture:** Mode B — interview (The Chris Hedges Report) · **Artifact:** strategy-page file (`mearsheimer-page-…` under `experts/mearsheimer/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 6603
@@ -196,7 +195,6 @@ But the point is the United States is incredibly powerful, and that’s what mak
 
 We’re not, in my opinion, going to get weaker with the passage of time. The United States is going to remain a very powerful state on the world stage. And the only interesting question is: Will we get our act together and act in responsible ways, which we have not been doing for a long time? I don’t hold out much hope in that regard. But I don’t think it’s a Suez moment. The Suez moment was just one giant step in the gradual decline of British power over the course of the 20th century.
 
-
 ### Reflection
 
 **Operator note:** Operator paste; canonical watch URL not pinned — add when available.
@@ -216,14 +214,11 @@ We’re not, in my opinion, going to get weaker with the passage of time. The Un
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Mearsheimer on same lane? Wire boundary before chapter synthesis?
 
-
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (B); Reflection/Foresight = WORK.
-
 
 ---
 

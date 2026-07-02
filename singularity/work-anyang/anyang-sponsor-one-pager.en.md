@@ -1,6 +1,6 @@
 # anyang-ai — sponsor one-pager (English · operator/advisor sync)
 
-WORK only · **Not** the default handout for the Chinese philanthropist — use [anyang-sponsor-one-pager.zh-CN.md](anyang-sponsor-one-pager.zh-CN.md) in meetings.
+non-authoritative · **Not** the default handout for the Chinese philanthropist — use [anyang-sponsor-one-pager.zh-CN.md](anyang-sponsor-one-pager.zh-CN.md) in meetings.
 
 **Purpose:** Align operator, advisor, and mentor on the **same pitch facts** before sponsor conversations.
 

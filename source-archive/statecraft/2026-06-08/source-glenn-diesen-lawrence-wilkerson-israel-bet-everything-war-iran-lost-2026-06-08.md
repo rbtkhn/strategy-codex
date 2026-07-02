@@ -39,7 +39,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back. We are joined again by Colonel Lawrence Wilkerson, the former chief of staff to the US Secretary of State. So uh thank you for coming back on. I uh wanted to ask you today about uh what's happening now with Israel, Iran, and the United States. We've seen something quite remarkable.

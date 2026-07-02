@@ -1,7 +1,6 @@
 # Mearsheimer Structural-Realist Scoreboard
 <!-- word_count: 1559 -->
 
-
 This is a statecraft tracking surface inspired by Mearsheimer's offensive-realist logic and adapted for academy-statecraft. It is not a published Mearsheimer index. Use it to score which powers have the strongest structural position in an anarchic system, and whether their strategies are being disciplined by balance-of-power logic or distorted by overreach.
 
 The scoreboard runs parallel to the [Pape coercive-center index](pape-coercive-center-index.md):

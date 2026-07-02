@@ -1,7 +1,5 @@
 # System Design Lineage Is Not Unique in Kind
 
-work only; not Record.
-
 The repo's overall system design is not sui generis.
 
 Its major components and nearby analogues already appear across several

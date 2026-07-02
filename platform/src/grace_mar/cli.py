@@ -8,7 +8,6 @@ import sys
 
 from grace_mar.repo_io import repo_root
 
-
 def _usage() -> str:
     return (
         "Usage: grace-mar <command> [args...]\n\n"
@@ -22,18 +21,15 @@ def _usage() -> str:
         "  gate merge [-u USER]     -> scripts/process_approved_candidates.py --apply\n"
     )
 
-
 def _run_script(root, script_name: str, *args: str) -> int:
     script = root / "scripts" / script_name
     return subprocess.call([sys.executable, str(script), *args])
-
 
 def _default_user_flag(rest: list[str]) -> list[str]:
     if "-u" in rest or "--user" in rest:
         return rest
     user = os.getenv("GRACE_MAR_USER_ID", "strategy-codex").strip() or "strategy-codex"
     return ["-u", user, *rest]
-
 
 def _gate_command(root, rest: list[str]) -> int:
     if not rest or rest[0] in ("-h", "--help"):
@@ -78,7 +74,6 @@ def _gate_command(root, rest: list[str]) -> int:
     print(f"Unknown gate subcommand: {sub}", file=sys.stderr)
     return 2
 
-
 def main() -> int:
     argv = sys.argv[1:]
     if not argv or argv[0] in ("-h", "--help"):
@@ -99,7 +94,6 @@ def main() -> int:
 
     print(f"Unknown command: {cmd}", file=sys.stderr)
     return 2
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

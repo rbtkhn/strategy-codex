@@ -1,7 +1,6 @@
 # Expert transcript — `johnson`
 <!-- word_count: 7034 -->
 
-
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) that include `thread:johnson` (first line + optional continuation paragraphs), routed on ingest.
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
@@ -92,16 +91,6 @@
     Larry Johnson: All right, my brother. We’ll see you later
 - batch-analysis | 2026-04-17 | **Barnes × Johnson (YT) — US politics room × Iran week** | **Tension-first:** **`thread:barnes`** **long-form** **domestic-liability** **+** **White** **House** **process** **(C-plane** **hypothesis)** **—** **not** **§1e** **text** **and** **not** **Pentagon** **primary.** **Same** **calendar** **day** **as** **Hormuz** **/** **Islamabad** **expert** **stack** **—** **cross** **`thread:davis`**, **`thread:johnson`** **(Davis** **×** **Johnson** **earlier** **YT),** **`thread:ritter`** **with** **explicit** **plane** **tags** **(room** **vs** **ORBAT** **vs** **FM).** **Falsifiers:** **named** **official** **statements,** **vote** **counts,** **Navy** **press,** **TS** **screenshots.** | crosses:barnes+johnson
 
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-27
 - Inbox | cold: full text in [`source-johnson-lets-talk-geopolitics-whcd-iran-2026-04-26.md`](../../../source-archive/statecraft/2026-04-26/source-johnson-lets-talk-geopolitics-whcd-iran-2026-04-26.md) (pointer; SSOT raw-input) | thread:johnson
 - JF | cold: **Larry Johnson** × **Judge Andrew Napolitano** (*Judging Freedom* — *Who Controls Hormuz?*) — **host date 2026-04-20** — **no** **talks** **until** **blockade** **lift** **+** **IRI** **10** **points**; **Russia** **negotiation** **parallel**; **China→Iran** **cargo** **/** **retaliation** **track**; **Islamabad** **impasse**; **Friday** **concession** **then** **Trump** **blew** **up** **(direct-source** **hypothesis** **in** **voice)**; **37%** **poll** **/** **majority** **anti-war** **thesis**; **Saturday** **WH** **—** **nuclear** **codes** **/** **Caine** **no** **(Johnson** **two-source** **frame)**; **joint** **uranium** **excavation** **as** **delusion**; **Navy** **fired** **/** **engine-room** **disable** **(video** **/** **Telegram** **hypothesis)**; **pizza** **index** **/** **weather** **/** **bombing** **vs** **SOF** **pivot**; **GCC** **grid** **counter** **/** **heat** **viability**; **Waltz** **UN** **IRGC** **bridges** **(quoted)** **vs** **Iran–US** **history** **refutation**; **Netanyahu** **Lebanon** **/** **Christianity** **icon** **controversy**; **Mossad** **regime-change** **concedes** **surface** **vs** **goal** **unchanged**; **Reuters** **street** **hijab** **counter-narrative**; **10k** **troops** **not** **assault** **echelon** **/** **Qeshm** **rejected** **(Trump)** **/** **resupply** **/** **grid** **plan**; **Cooke** **/** **Morandi** **/** **Mojtaba** **generational** **frame**; **Hormuz** **Iran** **control** **on-off** **/** **marinetraffic** **metaphor** **/** **blockade** **re-close** // hook: **`thread:johnson`** **same-day** **JF** **`thread:ritter`** **[Hormuz** **/** **Caine** **/** **Islamabad]** **—** **seam** **not** **merge** | https://www.youtube.com/watch?v=geWpX8w7BNU | verify:full-text+raw-input+aired:2026-04-20+canonical-URL-pinned | thread:johnson | grep:Johnson+Napolitano+Judging+Freedom+Hormuz+Caine+Waltz
@@ -178,17 +167,6 @@
     Daniel Davis: We’ll find out soon enough. Larry, really appreciate you making time on such a busy day. Thanks for coming on.
     Larry Johnson: All right, my brother. We’ll see you later
 - batch-analysis | 2026-04-17 | **Barnes × Johnson (YT) — US politics room × Iran week** | **Tension-first:** **`thread:barnes`** **long-form** **domestic-liability** **+** **White** **House** **process** **(C-plane** **hypothesis)** **—** **not** **§1e** **text** **and** **not** **Pentagon** **primary.** **Same** **calendar** **day** **as** **Hormuz** **/** **Islamabad** **expert** **stack** **—** **cross** **`thread:davis`**, **`thread:johnson`** **(Davis** **×** **Johnson** **earlier** **YT),** **`thread:ritter`** **with** **explicit** **plane** **tags** **(room** **vs** **ORBAT** **vs** **FM).** **Falsifiers:** **named** **official** **statements,** **vote** **counts,** **Navy** **press,** **TS** **screenshots.** | crosses:barnes+johnson
-
-
-
-
-
-
-
-
-
-
-
 
 ## 2026-04-26
 - JF | cold: **Larry Johnson** × **Judge Andrew Napolitano** (*Judging Freedom* — *Who Controls Hormuz?*) — **host date 2026-04-20** — **no** **talks** **until** **blockade** **lift** **+** **IRI** **10** **points**; **Russia** **negotiation** **parallel**; **China→Iran** **cargo** **/** **retaliation** **track**; **Islamabad** **impasse**; **Friday** **concession** **then** **Trump** **blew** **up** **(direct-source** **hypothesis** **in** **voice)**; **37%** **poll** **/** **majority** **anti-war** **thesis**; **Saturday** **WH** **—** **nuclear** **codes** **/** **Caine** **no** **(Johnson** **two-source** **frame)**; **joint** **uranium** **excavation** **as** **delusion**; **Navy** **fired** **/** **engine-room** **disable** **(video** **/** **Telegram** **hypothesis)**; **pizza** **index** **/** **weather** **/** **bombing** **vs** **SOF** **pivot**; **GCC** **grid** **counter** **/** **heat** **viability**; **Waltz** **UN** **IRGC** **bridges** **(quoted)** **vs** **Iran–US** **history** **refutation**; **Netanyahu** **Lebanon** **/** **Christianity** **icon** **controversy**; **Mossad** **regime-change** **concedes** **surface** **vs** **goal** **unchanged**; **Reuters** **street** **hijab** **counter-narrative**; **10k** **troops** **not** **assault** **echelon** **/** **Qeshm** **rejected** **(Trump)** **/** **resupply** **/** **grid** **plan**; **Cooke** **/** **Morandi** **/** **Mojtaba** **generational** **frame**; **Hormuz** **Iran** **control** **on-off** **/** **marinetraffic** **metaphor** **/** **blockade** **re-close** // hook: **`thread:johnson`** **same-day** **JF** **`thread:ritter`** **[Hormuz** **/** **Caine** **/** **Islamabad]** **—** **seam** **not** **merge** | https://www.youtube.com/watch?v=geWpX8w7BNU | verify:full-text+raw-input+aired:2026-04-20+canonical-URL-pinned | thread:johnson | grep:Johnson+Napolitano+Judging+Freedom+Hormuz+Caine+Waltz
@@ -267,19 +245,6 @@
 - batch-analysis | 2026-04-17 | **Barnes × Johnson (YT) — US politics room × Iran week** | **Tension-first:** **`thread:barnes`** **long-form** **domestic-liability** **+** **White** **House** **process** **(C-plane** **hypothesis)** **—** **not** **§1e** **text** **and** **not** **Pentagon** **primary.** **Same** **calendar** **day** **as** **Hormuz** **/** **Islamabad** **expert** **stack** **—** **cross** **`thread:davis`**, **`thread:johnson`** **(Davis** **×** **Johnson** **earlier** **YT),** **`thread:ritter`** **with** **explicit** **plane** **tags** **(room** **vs** **ORBAT** **vs** **FM).** **Falsifiers:** **named** **official** **statements,** **vote** **counts,** **Navy** **press,** **TS** **screenshots.** | crosses:barnes+johnson
 
 - Inbox | cold: full text in [`source-johnson-lets-talk-geopolitics-whcd-iran-2026-04-26.md`](../../../source-archive/statecraft/2026-04-26/source-johnson-lets-talk-geopolitics-whcd-iran-2026-04-26.md) (pointer; SSOT raw-input) | thread:johnson
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## 2026-04-25
 - JF | cold: **Larry Johnson** × **Judge Andrew Napolitano** (*Judging Freedom* — *Who Controls Hormuz?*) — **host date 2026-04-20** — **no** **talks** **until** **blockade** **lift** **+** **IRI** **10** **points**; **Russia** **negotiation** **parallel**; **China→Iran** **cargo** **/** **retaliation** **track**; **Islamabad** **impasse**; **Friday** **concession** **then** **Trump** **blew** **up** **(direct-source** **hypothesis** **in** **voice)**; **37%** **poll** **/** **majority** **anti-war** **thesis**; **Saturday** **WH** **—** **nuclear** **codes** **/** **Caine** **no** **(Johnson** **two-source** **frame)**; **joint** **uranium** **excavation** **as** **delusion**; **Navy** **fired** **/** **engine-room** **disable** **(video** **/** **Telegram** **hypothesis)**; **pizza** **index** **/** **weather** **/** **bombing** **vs** **SOF** **pivot**; **GCC** **grid** **counter** **/** **heat** **viability**; **Waltz** **UN** **IRGC** **bridges** **(quoted)** **vs** **Iran–US** **history** **refutation**; **Netanyahu** **Lebanon** **/** **Christianity** **icon** **controversy**; **Mossad** **regime-change** **concedes** **surface** **vs** **goal** **unchanged**; **Reuters** **street** **hijab** **counter-narrative**; **10k** **troops** **not** **assault** **echelon** **/** **Qeshm** **rejected** **(Trump)** **/** **resupply** **/** **grid** **plan**; **Cooke** **/** **Morandi** **/** **Mojtaba** **generational** **frame**; **Hormuz** **Iran** **control** **on-off** **/** **marinetraffic** **metaphor** **/** **blockade** **re-close** // hook: **`thread:johnson`** **same-day** **JF** **`thread:ritter`** **[Hormuz** **/** **Caine** **/** **Islamabad]** **—** **seam** **not** **merge** | https://www.youtube.com/watch?v=geWpX8w7BNU | verify:full-text+raw-input+aired:2026-04-20+canonical-URL-pinned | thread:johnson | grep:Johnson+Napolitano+Judging+Freedom+Hormuz+Caine+Waltz

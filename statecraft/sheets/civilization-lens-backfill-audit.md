@@ -1,6 +1,5 @@
 # Civilization Arc-Lens Backfill Audit
 
-
 ## Purpose
 
 Audit the existing `art.md`, `lit.md`, `geo.md`, `war.md`, and `peace.md` civilization arc-lenses for America, Russia, China, and Iran against the CIV-STATE retrieval doctrine.

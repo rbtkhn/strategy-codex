@@ -56,7 +56,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 President Trump is just this close to getting a deal. He is all Okay, I know you've heard that a lot of times. As a matter of fact, according to a CNN story, I'll show you in a minute. 38 times to be specific since uh around the 1st of April. And I don't know if you're aware of this kind of breaking news, there hasn't been a deal. We've never been close to a deal, but that's what we continually are told. Now then, on the other hand, President Trump is saying we're on the verge not of a deal, but of going back to full bombing. We're going to see that and what in the world is going on and then some other mixed messages coming out from the White House in the same time frame as all these statements are and we have to conclude what the heck is going on here and there is literally no one better to answer these questions than Robert Barnes who was a constitutional lawyer very politically astute and well connected to DC even though he resides in Tennessee.

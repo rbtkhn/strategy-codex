@@ -13,8 +13,6 @@ post_id: 187390062
 
 # The Innermost Loop - 2026-02-09
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 9, 2026
@@ -29,10 +27,7 @@ The Singularity just bought a 30-second spot.
 
 ## Newsletter Text
 
--
--
-
-The Singularity just bought a 30-second spot. For the first time, AI dominated the Super Bowl ad inventory. OpenAI flashed references to “The Singularity Is Near” before telling viewers to “just build things” with Codex. Amazon’s Alexa+ tried to kill Chris Hemsworth , while Ring promoted AI “Search Parties” for lost pets. Meta pitched blue-collar data center jobs in New Mexico and Iowa alongside smart glasses . Google showed a family designing a home with Nano Banana Pro , Anthropic poked fun at ad-driven AI models , and Wix pushed its Harmony AI website builder . Even the uncanny valley was monetized. Svedka featured humanoid robots partying , Ramp showed “Kevin” from The Office multiplying himself to tackle work, and Hims & Hers mocked Jeff Bezos and Bryan Johnson to sell democratized longevity.
+- The Singularity just bought a 30-second spot. For the first time, AI dominated the Super Bowl ad inventory. OpenAI flashed references to “The Singularity Is Near” before telling viewers to “just build things” with Codex. Amazon’s Alexa+ tried to kill Chris Hemsworth , while Ring promoted AI “Search Parties” for lost pets. Meta pitched blue-collar data center jobs in New Mexico and Iowa alongside smart glasses . Google showed a family designing a home with Nano Banana Pro , Anthropic poked fun at ad-driven AI models , and Wix pushed its Harmony AI website builder . Even the uncanny valley was monetized. Svedka featured humanoid robots partying , Ramp showed “Kevin” from The Office multiplying himself to tackle work, and Hims & Hers mocked Jeff Bezos and Bryan Johnson to sell democratized longevity.
 
 SpaceX has pivoted from colonization to industrialization. Elon Musk announced a shift to building a “self-growing city on the Moon” within 10 years, delaying Mars to focus on securing civilization faster via lunar proximity. The endgame is disassembly. Musk confirmed plans to use mass drivers to shoot lunar material into deep space to build solar-powered AI satellites, calling the visual of a slowly disintegrating moon “incredible.” The market agrees. Prediction markets now give SpaceX a greater than 40% chance of a more than $2 trillion valuation at IPO.
 

@@ -21,7 +21,6 @@ archive_links:
 
 # Johnson April 2026 cross-host arc
 
-
 Purpose: keep the April 2026 Larry Johnson run visible across host shelves and the non-core appearance bench so the blockade-and-ceasefire contradiction phase is not rediscovered piecemeal.
 
 ## Why April Matters

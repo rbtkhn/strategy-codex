@@ -1,6 +1,5 @@
 # Mutation Statecraft
 
-
 ## Purpose
 
 Use this sheet when a familiar object keeps its name but changes its operating function under pressure.

@@ -1,7 +1,5 @@
 # Narrative-Shaped Alignment
 
-WORK only; not Record.
-
 **Canonical home:** [../../essays/narrative-shaped-alignment.md](../../essays/narrative-shaped-alignment.md)
 
 Compatibility stub — pre-root singularity essay holding (mirrored from

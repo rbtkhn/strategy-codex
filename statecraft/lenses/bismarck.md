@@ -1,6 +1,5 @@
 # Bismarck Lens
 
-
 Use Bismarck as an operating lens for limited aims, alliance geometry, equilibrium, and restraint after advantage. This is not a biography shelf. It is a drafting test for whether a treaty, policy paper, or negotiation package avoids turning a solvable objective into a system-wide trap.
 
 ## Core Thesis

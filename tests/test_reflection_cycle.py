@@ -6,7 +6,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def test_filter_review_candidates_signal_type():
     from scripts.recursion_gate_review import filter_review_candidates
 
@@ -17,7 +16,6 @@ def test_filter_review_candidates_signal_type():
     out = filter_review_candidates(rows, status="pending", signal_type="reflection-cycle")
     assert len(out) == 1
     assert out[0]["id"] == "CANDIDATE-0001"
-
 
 def test_collect_bundle_has_slices():
     from grace_mar.reflection.collect import collect_bundle
@@ -35,7 +33,6 @@ def test_collect_bundle_has_slices():
     assert len(b.slices) >= 1
     ctx = b.as_prompt_context(50_000)
     assert "" in ctx or len(ctx) == 0
-
 
 def test_build_reflection_candidate_block_shape():
     from grace_mar.reflection.format_gate import build_reflection_candidate_block
@@ -74,7 +71,6 @@ def test_build_reflection_candidate_block_shape():
     assert "signal_type: reflection-cycle" in block
     assert "status: pending" in block
 
-
 def test_run_reflection_engine_dry_run():
     from grace_mar.reflection.collect import collect_bundle
     from grace_mar.reflection.engine import run_reflection_engine
@@ -91,7 +87,6 @@ def test_run_reflection_engine_dry_run():
     r = run_reflection_engine(b, dry_run=True, max_proposals=5)
     assert r.proposals
     assert len(r.proposals[0].get("evidence_citations") or []) >= 2
-
 
 def test_allow_high_risk_empty_gate_ok(tmp_path: Path):
     from grace_mar.reflection.rate_limit import allow_high_risk_proposal

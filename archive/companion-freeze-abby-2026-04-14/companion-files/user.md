@@ -426,7 +426,6 @@ books_read:
     evidence_id: ACT-0044
     provenance: human_approved
 
-
 ```
 
 #### Facts (LEARN-nnn)
@@ -890,7 +889,6 @@ entries:
     evidence_id: ACT-0041
     provenance: human_approved
 
-
 ```
 
 ### IX-C. PERSONALITY (Observed)
@@ -950,7 +948,6 @@ entries:
     observation: "Values learning from the past — sees history as a way to make better choices, solve problems, and be kinder to each other."
     evidence_id: ACT-0040
     provenance: human_approved
-
 
 ```
 

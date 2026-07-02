@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-02-22 (*The Flamingo Effect*)
 <!-- word_count: 3100 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-02-22 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 3101
@@ -120,7 +119,6 @@ Anything less will be interpreted as nothing less than a Russian surrender.
 
 (Given the deteriorating relations between the US and Russia, and the consequences of such as outlined in this article, there has never been a more important time than now for the kind of citizen diplomacy I have been engaged in as part of my “Waging Peace” Project. I am currently scheduled to travel to Russia, along with Garland Nixon, next month. This trip is made possible by the donations of readers such as yourself. I thank you in advance for your support—I promise to put it to good effect.)
 
-
 ### Reflection
 
 **Operator note:** Mixes documented 2021–2025 diplomatic/military history with speculative 2025–2026 plot beats (FP-5 Flamingo strike on Votkinsk, Denmark production thread, Dec 2025 drone narrative, etc.). Light cleanup of operator/OCR errors only.
@@ -146,14 +144,11 @@ IHL content: useful for notebook legal seams; adjudication belongs to courts or 
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

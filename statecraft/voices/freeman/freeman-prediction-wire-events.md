@@ -1,6 +1,5 @@
 # Freeman prediction pilot — wire events
 
-
 Operator index for the **seven-event Freeman prediction pilot**: falsifiable questions, wire-resolution stubs, register bridges, and rebuild paths. Stance arcs live on [freeman-predictions.md](freeman-predictions.md); this page is for **closure, wire-verify, and registry hygiene**.
 
 **Doctrine:** [event-system.md](../../../docs/statecraft/event-system.md) · **Registry SSOT:** [event-registry.json](../../data/event-registry.json) · **Thesis map:** [freeman-prediction-thesis-map.json](../../data/freeman-prediction-thesis-map.json) · **Auto-file config:** [freeman-prediction-auto-file.json](../../data/freeman-prediction-auto-file.json) · **Skill:** [voice-prediction-record](../../../.cursor/skills/voice-prediction-record/SKILL.md)

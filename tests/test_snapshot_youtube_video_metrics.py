@@ -10,7 +10,6 @@ if str(_SCRIPTS) not in sys.path:
 
 import snapshot_youtube_video_metrics as metrics  # noqa: E402
 
-
 def test_fetch_metadata_routes_through_adapter(monkeypatch) -> None:
     calls: dict[str, object] = {}
 
@@ -27,7 +26,6 @@ def test_fetch_metadata_routes_through_adapter(monkeypatch) -> None:
         "mode": "binary",
     }
     assert data["id"] == "abc123def45"
-
 
 def test_snapshot_record_keeps_expected_json_shape() -> None:
     record = metrics._snapshot_record(
@@ -52,7 +50,6 @@ def test_snapshot_record_keeps_expected_json_shape() -> None:
     assert record["tool_version"] == "2026.05.01"
     assert record["upload_date"] == "20260503"
     assert record["duration"] == 321
-
 
 def test_main_appends_jsonl_and_prints_record(tmp_path: Path, monkeypatch, capsys) -> None:
     out = tmp_path / "video-metrics.jsonl"

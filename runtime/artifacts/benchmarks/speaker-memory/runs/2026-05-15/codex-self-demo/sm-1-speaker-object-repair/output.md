@@ -1,7 +1,5 @@
 # Sachs speaker object
 
-WORK only; not Record.
-
 object_shape: cross-host-reinforced
 
 Purpose: define Sachs as a durable speaker object for routing, judgment accumulation, and clean re-entry. Sachs is not best read here as a stream-native voice or as a mature multi-host helix. His current value is a cross-host reinforced macro-order object: the same widening function keeps appearing across useful host contexts, even though the Diesen-side branch is still the clearest mature lane.

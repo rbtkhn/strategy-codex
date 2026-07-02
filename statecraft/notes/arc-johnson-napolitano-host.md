@@ -20,7 +20,6 @@ archive_links:
 
 # Judging Freedom x Johnson speaker arc
 
-
 Purpose: compact reuse note for the `Judging Freedom x Johnson` lane inside the native Napolitano shelf.
 
 ## Why this guest run matters

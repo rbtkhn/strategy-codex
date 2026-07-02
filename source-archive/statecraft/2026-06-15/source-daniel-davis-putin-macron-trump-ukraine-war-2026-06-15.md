@@ -39,7 +39,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 While all eyes are certainly understandably in the United States focused on what's going to happen on Friday or what may not happen on Friday with the signing of a deal with Iran, things inside of Russia and Ukraine continue a pace. And in fact, we've been telling you here in the last couple of weeks that there have been some growing ominous signs and statements from the Russian side about uh maybe escalating the war and and hitting Kiev harder.

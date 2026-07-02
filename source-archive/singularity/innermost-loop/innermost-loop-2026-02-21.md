@@ -13,8 +13,6 @@ post_id: 188709455
 
 # The Innermost Loop - 2026-02-21
 
-WORK only; not Record.
-
 ## Source
 
 - Title: You Are Invited to February 2027
@@ -29,10 +27,7 @@ Things exist here that don’t exist yet when you are.
 
 ## Newsletter Text
 
--
--
-
-Things exist here that don’t exist yet when you are. A year ago, small teams read something like this and emailed their pitches to alexwg@alexwg.org, subject line February 2027 . We backed the best of them. Here’s what they built.
+- Things exist here that don’t exist yet when you are. A year ago, small teams read something like this and emailed their pitches to alexwg@alexwg.org, subject line February 2027 . We backed the best of them. Here’s what they built.
 
 Weather Control, Not Weather Prediction
 

@@ -14,7 +14,6 @@ if str(SCRIPTS) not in sys.path:
 
 import auto_dream  # noqa: E402
 
-
 @pytest.fixture(autouse=True)
 def _no_frontier_network(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr(
@@ -28,7 +27,6 @@ def _no_frontier_network(monkeypatch: pytest.MonkeyPatch) -> None:
         },
     )
 
-
 def _minimal_user(tmp_path: Path) -> Path:
     users_dir = tmp_path / "platform/users"
     ud = users_dir / "demo"
@@ -40,7 +38,6 @@ def _minimal_user(tmp_path: Path) -> Path:
         encoding="utf-8",
     )
     return users_dir
-
 
 def test_apply_civmem_budget_disabled(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     users_dir = _minimal_user(tmp_path)
@@ -58,7 +55,6 @@ def test_apply_civmem_budget_disabled(monkeypatch: pytest.MonkeyPatch, tmp_path:
     assert summary["civmem_echoes"] == []
     assert summary.get("civmem_suppressed_reason") == "disabled_by_budget"
     assert summary.get("civmem_index_missing") is False
-
 
 def test_apply_civmem_budget_suppressed_on_governance(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     users_dir = _minimal_user(tmp_path)
@@ -83,7 +79,6 @@ def test_apply_civmem_budget_suppressed_on_governance(monkeypatch: pytest.Monkey
     )
     assert summary["civmem_echoes"] == []
     assert summary.get("civmem_suppressed_reason") == "suppressed_governance_alert"
-
 
 def test_max_civ_mem_echoes_slices(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     users_dir = _minimal_user(tmp_path)
@@ -110,7 +105,6 @@ def test_max_civ_mem_echoes_slices(monkeypatch: pytest.MonkeyPatch, tmp_path: Pa
         write_artifacts=False,
     )
     assert len(summary["civmem_echoes"]) == 2
-
 
 def test_rollup_disabled_replaces_with_empty_shape(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     users_dir = _minimal_user(tmp_path)

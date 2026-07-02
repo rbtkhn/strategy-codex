@@ -1,7 +1,6 @@
 # Diesen refined page — 2026-04-10 (host lane)
 <!-- word_count: ~300 -->
 
-
 **Expert:** `diesen` · **Guest (same air):** John Mearsheimer · **Published:** 2026-04-10 · **Capture:** two-expert YT (Greater Eurasia) — *World Changed Forever as Iran Defeated the U.S.* · **Artifact:** refined page — **host lane**. Sibling **guest** **lane:** [mearsheimer-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md](mearsheimer/mearsheimer-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md.
 
 ---

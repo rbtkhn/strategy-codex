@@ -55,7 +55,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Friday, June 19, 2026, and our dear friend, Ambassador Chas Freeman is here with us. Welcome back, Ambassador. >> Very glad to be with you. I've been struggling with a computer, so I'm not entirely up to speed, but um look forward to chatting with you. >> Yeah, Ambassador, start with what's going on in Lebanon.

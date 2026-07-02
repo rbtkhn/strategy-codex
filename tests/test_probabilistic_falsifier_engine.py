@@ -22,7 +22,6 @@ from registry_pipeline.probabilistic_falsifier_engine import (  # noqa: E402
     run_inference,
 )
 
-
 def test_iran_template_selected_for_macgregor_style_event() -> None:
     event_id = "iran_airpower_escalation_2026"
     event = {
@@ -36,7 +35,6 @@ def test_iran_template_selected_for_macgregor_style_event() -> None:
     assert abs(sum(m["probability"] for m in model["failure_modes"]) - 1.0) < 0.02
     assert model["inference_source"] == "heuristic_v1"
 
-
 def test_enrich_event_adds_model_when_falsifier_missing() -> None:
     event_id = "test_infer_gap"
     event = {"question": "Will NATO expand exposure in Ukraine?"}
@@ -45,7 +43,6 @@ def test_enrich_event_adds_model_when_falsifier_missing() -> None:
     assert not validate_falsifier_model(enriched["falsifier_model"])
     assert inferences
     assert inferences[0]["event_id"] == event_id
-
 
 def test_explicit_string_falsifier_not_replaced() -> None:
     event_id = "explicit_falsifier_row"
@@ -58,11 +55,9 @@ def test_explicit_string_falsifier_not_replaced() -> None:
     assert "falsifier_model" not in enriched
     assert not inferences
 
-
 def test_fallback_template_has_high_entropy() -> None:
     model = infer_falsifier_model("opaque_claim_xyz", {"question": "Something vague happens."})
     assert float(model["entropy"]) >= HIGH_ENTROPY_THRESHOLD - 0.05
-
 
 def test_fingerprint_ignores_probability_weight_tweaks() -> None:
     base = {
@@ -78,7 +73,6 @@ def test_fingerprint_ignores_probability_weight_tweaks() -> None:
     tweaked["falsifier_model"]["failure_modes"] = modes
     assert falsifier_key_for_fingerprint(base) == falsifier_key_for_fingerprint(tweaked)
     assert predictive_fingerprint("iran_test_fp", base) == predictive_fingerprint("iran_test_fp", tweaked)
-
 
 def test_run_inference_report_shape() -> None:
     registry = {

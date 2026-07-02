@@ -30,7 +30,6 @@ Part I follows Jiang’s Geo-Strategy lectures in order: one chapter per class s
 
 End each Part I chapter with a boxed subsection "Predictions (this lecture)" listing the three prediction_ids below (or more if added later), each with one-sentence claim_summary.
 
-
 ## Part II (after Part I)
 
 ### Part II — Analyzing Jiang's predictions
@@ -38,7 +37,6 @@ End each Part I chapter with a boxed subsection "Predictions (this lecture)" lis
 **Begins after:** `ch20`
 
 Deep web and news search against the Part I prediction registry: for each claim, gather time-stamped, citable reporting and triangulate across independent lines of evidence where stakes warrant. Score resolved vs pending vs not evaluable; separate antecedent and consequent for conditional claims; weight trend and interpretive claims by explicit metrics or label them honestly. Record internal tensions between chapters. Finish with an overall evaluation—coverage, hit rate where adjudicable, and what would update confidence in the framework as a whole.
-
 
 ## Chapters (Part I)
 

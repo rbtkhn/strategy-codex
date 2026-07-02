@@ -38,7 +38,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back everybody to Neutrality Studies today again with Commodore Steve Jermy. Steve, welcome back. >> Um, very nice to see you Pascal, but also to have been able to have the chance to meet you in person at Tblisi. >> Yeah, that was great. we were together in the at the forum in Tblisi just two weeks ago and it was it was great chatting personally and now it's great to have you back also on uh online on the channel and today we want to discuss actually uh something that also came up in the forum of course which is the the

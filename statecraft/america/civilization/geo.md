@@ -1,6 +1,5 @@
 # America Geo
 
-
 ## Purpose
 
 Use American geography as a statecraft arc-lens for continental scale, Atlantic and Pacific buffers, inland circulation, agriculture, energy, water stress, infrastructure, ports, rivers, plains, mountains, and the ecological limits of continental power.

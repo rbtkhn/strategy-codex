@@ -1,6 +1,5 @@
 # China - Taiwan Quarantine / Maritime Access Framework
 
-
 ## Transaction Name
 
 Taiwan inspection pressure without blockade ownership.

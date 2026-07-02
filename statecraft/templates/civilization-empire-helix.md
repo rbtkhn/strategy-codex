@@ -1,6 +1,5 @@
 # Civilization / Empire Helix Template
 
-
 Use this template when adding a Civilization / Empire / Helix structure to a statecraft lane. Keep the files compact. The purpose is to support drafting, not to build a country encyclopedia.
 
 Canonical hinge:

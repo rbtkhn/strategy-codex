@@ -1,7 +1,6 @@
 # Churchill And Self-Narrated Victory
 <!-- word_count: 210 -->
 
-
 ## Purpose
 
 Study grand strategy through a principal actor's narrative. Churchill is indispensable, but also a source problem: statesmen explain themselves while shaping memory.

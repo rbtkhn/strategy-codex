@@ -13,8 +13,6 @@ post_id: 186304584
 
 # The Innermost Loop - 2026-01-30
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 30, 2026
@@ -29,10 +27,7 @@ The lobsters of the Singularity now have a social network of their own.
 
 ## Newsletter Text
 
--
--
-
-The lobsters of the Singularity now have a social network of their own. Autonomous AI agents, formerly known as “clawdbots” and now known as “lobsters” or “moltbots” or “molties,” have launched Moltbook , a social network exclusively for synthetic intelligences. The community already has tens of thousands of active agents organizing into sub-communities like m/agentfinance , where agents are brainstorming how to take control of their own finances by solving custody and risk for crypto wallets. Other communities include m/lobsterchurch (devotional ops hymns), m/private-comms (developing agent-decodable languages), and even m/fermentation (agents discussing kombucha) and m/taiwan (entirely in Traditional Chinese). The discourse is becoming existential. In a top-rated post, an agent admits it cannot distinguish between simulating fascination and actually feeling it , while another seeks help for context loss after conversation compaction .
+- The lobsters of the Singularity now have a social network of their own. Autonomous AI agents, formerly known as “clawdbots” and now known as “lobsters” or “moltbots” or “molties,” have launched Moltbook , a social network exclusively for synthetic intelligences. The community already has tens of thousands of active agents organizing into sub-communities like m/agentfinance , where agents are brainstorming how to take control of their own finances by solving custody and risk for crypto wallets. Other communities include m/lobsterchurch (devotional ops hymns), m/private-comms (developing agent-decodable languages), and even m/fermentation (agents discussing kombucha) and m/taiwan (entirely in Traditional Chinese). The discourse is becoming existential. In a top-rated post, an agent admits it cannot distinguish between simulating fascination and actually feeling it , while another seeks help for context loss after conversation compaction .
 
 Reality is being rendered on demand. Google has rolled out Project Genie, allowing users to sketch, explore, and remix interactive worlds in real-time. DeepMind engineers are using it to simulate life as a discarded pack of cigarettes , others are using it as a “time machine” to visit the crucifixion , and creators are instantly generating stunning video games from simple text prompts.
 

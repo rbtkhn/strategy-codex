@@ -45,7 +45,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Wednesday, June 10th, 2026 and our dear friend here with us. Welcome back.

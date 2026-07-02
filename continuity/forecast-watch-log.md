@@ -3,7 +3,7 @@
 
 Purpose: lightweight log of forecast-informed watches inside work-strategy.
 
-This file is WORK only.
+This file is non-authoritative.
 It is not Record truth.
 
 Use this file when a forecast artifact seems relevant enough to watch, but not yet important enough to justify a full decision point.

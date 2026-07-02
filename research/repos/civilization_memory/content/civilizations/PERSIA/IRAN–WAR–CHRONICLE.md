@@ -69,7 +69,6 @@ Sources are tiered when helpful. Example tiers: **1. Primary/official** — Trut
 - Append-only discipline, attribution rules, contradiction surfacing
 - Yields a stable, comparable record across days; reduces narrative drift; surfaces patterns and precedents that single-pass or ad-hoc analysis often misses
 
-
 ---
 
 ## Quick Jump

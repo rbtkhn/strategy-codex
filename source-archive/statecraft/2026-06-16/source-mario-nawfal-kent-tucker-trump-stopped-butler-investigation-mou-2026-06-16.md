@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 >> Um there's also the um wasn't he working walking around with a uh what do you call it? The the the scope range word for a rangefinder. He's walking around with a rangefinder and he was flagged as a person of of a suspicious person and nothing was done about it. Um, what's your I know you can't come to definite conclusions, but what's your story? What how do you explain it to yourself when you're sitting there having a coffee by yourself? How do you make sense of it all? >> Uh, way more questions than there are

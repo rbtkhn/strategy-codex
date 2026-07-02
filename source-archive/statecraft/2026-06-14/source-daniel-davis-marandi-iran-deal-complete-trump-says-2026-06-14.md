@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hey everybody, welcome to the Daniel Davis deep dive on the side of the road show edition here. I'm actually in Puerto Rico, my wife's home country, uh, and was literally driving across the countryside when Gary let me know that according to President Trump, we have a deal that's going to be signed on the 19th of June, uh, which is coming up very shortly.

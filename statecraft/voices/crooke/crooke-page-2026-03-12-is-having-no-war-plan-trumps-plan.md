@@ -1,6 +1,5 @@
 # Crooke refined page — 2026-03-12 (*is having no war plan trump's plan?*)
 
-
 **Expert:** `crooke` · **Published:** 2026-03-12 · **Capture:** Mode C — Substack · **Artifact:** refined page (standalone file under `experts/crooke/`). Not a `strategy-page` HTML fence in `thread.md` unless you duplicate judgment there during EOD compose.
 
 <!-- SCOUT_REFINED_PAGE_SCAFFOLD -->
@@ -9,15 +8,9 @@
 
 ### Verbatim
 
-
-
 ### Reflection
 
-
-
 ### Foresight
-
-
 
 ---
 

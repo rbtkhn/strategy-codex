@@ -13,7 +13,6 @@ archive_links:
 ---
 # Jiang vs Johnson - May 2026
 
-
 This note captures the main disagreement between **Jiang Xueqin** and **Larry Johnson** in the May 2026 Iran / Middle East escalation window.
 
 ## Scope

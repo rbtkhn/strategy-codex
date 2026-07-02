@@ -8,7 +8,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _run_authority_check(
     *,
     capabilities: Path,
@@ -38,7 +37,6 @@ def _run_authority_check(
         text=True,
     )
 
-
 def test_authority_check_smoke_repo_defaults(tmp_path: Path) -> None:
     out = tmp_path / "report.md"
     proc = _run_authority_check(
@@ -52,7 +50,6 @@ def test_authority_check_smoke_repo_defaults(tmp_path: Path) -> None:
     text = out.read_text(encoding="utf-8")
     assert "**PASS**" in text
     assert "## Lane → authority" in text
-
 
 def test_duplicate_binding_lane_fails(tmp_path: Path) -> None:
     bindings = tmp_path / "dup.yaml"
@@ -85,7 +82,6 @@ bindings:
     )
     assert proc.returncode == 1
     assert "duplicate binding" in out.read_text(encoding="utf-8").lower()
-
 
 def test_unknown_authority_surface_fails(tmp_path: Path) -> None:
     bindings = tmp_path / "bad-surf.yaml"
@@ -141,7 +137,6 @@ bindings:
     body = out.read_text(encoding="utf-8")
     assert "unknown authority_surface" in body.lower() or "not in authority-map" in body.lower()
 
-
 def test_class_mismatch_without_override_fails(tmp_path: Path) -> None:
     bindings = tmp_path / "bad-class.yaml"
     bindings.write_text(
@@ -195,7 +190,6 @@ bindings:
     assert proc.returncode == 1
     assert "authority-map" in out.read_text(encoding="utf-8").lower()
 
-
 def test_capability_lane_missing_binding_fails(tmp_path: Path) -> None:
     """Bindings omit work_artifact while repo caps include web_research on that lane."""
     bindings = tmp_path / "partial.yaml"
@@ -243,7 +237,6 @@ bindings:
     assert proc.returncode == 1
     assert "no entry in mcp-authority-bindings" in out.read_text(encoding="utf-8").lower()
 
-
 def test_write_without_receipt_fails(tmp_path: Path) -> None:
     caps = tmp_path / "caps.yaml"
     caps.write_text(
@@ -277,7 +270,6 @@ capabilities:
     )
     assert proc.returncode == 1
     assert "requires_receipt" in out.read_text(encoding="utf-8").lower()
-
 
 def test_github_readonly_requires_merge_tokens(tmp_path: Path) -> None:
     caps = tmp_path / "caps.yaml"

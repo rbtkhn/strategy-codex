@@ -21,7 +21,6 @@ archive_links:
 
 # Freeman April 2026 cross-host arc
 
-
 Purpose: keep the April 2026 Chas Freeman run visible across host shelves after the March war-system activation pass.
 
 ## Why April Matters

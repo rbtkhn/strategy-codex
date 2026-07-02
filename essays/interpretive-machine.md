@@ -1,7 +1,5 @@
 # Interpretive Machine
 
-work only; not Record.
-
 The frontier is not only machines that answer, retrieve, or act. It is also machines and workflows that can improve by observing where interpretation breaks, what repairs it, and which repairs deserve promotion into durable structure.
 
 That is the sense in which this repo uses the phrase:

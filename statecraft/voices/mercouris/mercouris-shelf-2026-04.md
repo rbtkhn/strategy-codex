@@ -1,6 +1,5 @@
 # Mercouris Shelf - 2026-04
 
-
 This monthly shelf is the April 2026 synthesis/index for the `mercouris` cognition stream. April should be read as the second **mature dense-core month** in the native Mercouris arc: the point where the March Iran/Hormuz crisis object persists, but now starts to express itself more through blockade credibility, bargaining-system strain, Russia-China backfill, Europe’s fuel and sanctions exposure, and the continuing spillover into Ukraine command, air-defense, and exhaustion questions.
 
 Month status: `mature dense-core month`

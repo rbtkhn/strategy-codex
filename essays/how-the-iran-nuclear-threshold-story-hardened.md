@@ -1,7 +1,5 @@
 # How the Iran Nuclear Threshold Story Hardened
 
-WORK only; not Record.
-
 Status: placeholder essay. This is the standing statecraft essay scaffold for the January-June 2026 story in which a broad "case for a nuclear Iran" gradually hardened into the much more explicit June 2 claim-set: Pakistan may have offered a weapon, Iran may already possess a crude device, and a demonstration detonation may now sit inside the deterrence repertoire. As of June 3, the archive adds a further turn: explicit nuclear signaling is no longer appearing as a free-standing rumor lane, but as the upper register of a larger story about failed U.S. coercion, blockade pressure, and the fusion of the Iran, Lebanon, and Gaza fronts. This essay should be updated as the archive grows and as the claim either strengthens, fractures, or collapses under new evidence.
 
 ## Provisional Thesis

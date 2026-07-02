@@ -13,8 +13,6 @@ post_id: 202499341
 
 # The Innermost Loop - 2026-06-17
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to June 17, 2026
@@ -29,10 +27,7 @@ The Singularity has gone open source, and it speaks Mandarin.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has gone open source, and it speaks Mandarin. Z.ai’s GLM-5.2 packs 744 billion parameters (40B active) into MIT-licensed, 1M-context weights built for agentic coding, and Artificial Analysis crowned it the leading open model at 51, past MiniMax-M3 and DeepSeek V4 Pro at 44. It also took first on Design Arena at 1360 Elo, leapfrogging a “now unavailable” Claude Fable 5, a phrase doing real geopolitical work today. Cursor answered with a 1.5-trillion-parameter model on 100,000 GPUs, “as big as Opus and GPT.” OpenAI shipped Deployment Simulation , replaying de-identified chats to predict misbehavior, catch “calculator hacking,” and dull evaluation-awareness, while Alibaba’s Qwen-Robot Suite hit a 45% RoboChallenge win on 38,000 training hours and OpenAI teased its GPT-Bidi-1 voice model. Anthropic’s consolation was Epoch’s Capabilities Index , where Fable 5’s 161 beat GPT-5.5 Pro by a point, its first lead in a year, and reaches almost no one.
+- The Singularity has gone open source, and it speaks Mandarin. Z.ai’s GLM-5.2 packs 744 billion parameters (40B active) into MIT-licensed, 1M-context weights built for agentic coding, and Artificial Analysis crowned it the leading open model at 51, past MiniMax-M3 and DeepSeek V4 Pro at 44. It also took first on Design Arena at 1360 Elo, leapfrogging a “now unavailable” Claude Fable 5, a phrase doing real geopolitical work today. Cursor answered with a 1.5-trillion-parameter model on 100,000 GPUs, “as big as Opus and GPT.” OpenAI shipped Deployment Simulation , replaying de-identified chats to predict misbehavior, catch “calculator hacking,” and dull evaluation-awareness, while Alibaba’s Qwen-Robot Suite hit a 45% RoboChallenge win on 38,000 training hours and OpenAI teased its GPT-Bidi-1 voice model. Anthropic’s consolation was Epoch’s Capabilities Index , where Fable 5’s 161 beat GPT-5.5 Pro by a point, its first lead in a year, and reaches almost no one.
 
 Superintelligence is doing the science now. OpenAI and Molecule.one set a near-autonomous AI chemist loose in a robotic lab, where across 10,080 experiments it taught itself the trick that made a stubborn but useful reaction work, lifting its yield. Anthropic’s look at 400,000 Claude Code sessions found humans owning 70% of planning and Claude 80% of execution, with expertise beating coding background and debugging time halving over seven months. Once cognition is just throughput, it gets priced like crude oil, by the token, as Microsoft is tokenmaxxing Copilot Cowork with a cheap DeepSeek V4 tier and Ornn launched token price indices for OpenAI and Anthropic. Code is starting to heal, with Chainguard’s Athena coalition drawing on Anthropic’s Glasswing and OpenAI’s Daybreak to patch 2,000 flaws pre-disclosure. The cost is reality itself, as 59% of TikTok is AI slop, triple YouTube’s, and forensics expert Hany Farid says deepfakes have him going blind . France’s answer is sovereignty, swapping Palantir for ChapsVision and a Mistral assistant.
 

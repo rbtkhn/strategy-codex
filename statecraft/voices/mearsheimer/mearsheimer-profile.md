@@ -1,7 +1,6 @@
 # Strategy expert — John Mearsheimer (`mearsheimer`)
 <!-- word_count: 1180 -->
 
-
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
 **Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`mearsheimer`** lane.

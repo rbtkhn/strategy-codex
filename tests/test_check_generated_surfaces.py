@@ -12,9 +12,7 @@ from scripts.check_generated_surfaces import (
     _load_manifest,
 )
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
-
 
 def test_generated_manifest_schema():
     proc = subprocess.run(
@@ -25,7 +23,6 @@ def test_generated_manifest_schema():
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
     assert "25 entries" in proc.stdout
-
 
 def test_manifest_includes_work_dev_control_plane():
     text = (REPO_ROOT / "generated-manifest.yaml").read_text(encoding="utf-8")
@@ -38,13 +35,11 @@ def test_manifest_includes_work_dev_control_plane():
     ):
         assert entry_id in text
 
-
 def test_manifest_includes_statecraft_notes_registry():
     text = (REPO_ROOT / "generated-manifest.yaml").read_text(encoding="utf-8")
     assert "statecraft-notes-registry-md" in text
     assert "runtime/artifacts/statecraft-notes-registry.md" in text
     assert "statecraft-notes-registry-json" in text
-
 
 def test_manifest_includes_freeman_predictions():
     text = (REPO_ROOT / "generated-manifest.yaml").read_text(encoding="utf-8")
@@ -53,13 +48,11 @@ def test_manifest_includes_freeman_predictions():
     assert "freeman-predictions-json" in text
     assert "statecraft/voices/freeman/freeman-predictions.json" in text
 
-
 def test_manifest_includes_freeman_capture_map_check():
     text = (REPO_ROOT / "generated-manifest.yaml").read_text(encoding="utf-8")
     assert "freeman-prediction-capture-map" in text
     assert "statecraft/data/freeman-prediction-capture-map.json" in text
     assert "bootstrap_freeman_capture_map.py" in text
-
 
 def test_manifest_includes_mercouris_predictions():
     text = (REPO_ROOT / "generated-manifest.yaml").read_text(encoding="utf-8")
@@ -68,13 +61,11 @@ def test_manifest_includes_mercouris_predictions():
     assert "mercouris-predictions-json" in text
     assert "statecraft/voices/mercouris/mercouris-predictions.json" in text
 
-
 def test_manifest_includes_mercouris_capture_map_check():
     text = (REPO_ROOT / "generated-manifest.yaml").read_text(encoding="utf-8")
     assert "mercouris-prediction-capture-map" in text
     assert "statecraft/data/mercouris-prediction-capture-map.json" in text
     assert "bootstrap_voice_capture_map.py" in text
-
 
 def test_generated_surfaces_headers_pass():
     proc = subprocess.run(
@@ -84,7 +75,6 @@ def test_generated_surfaces_headers_pass():
         text=True,
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
-
 
 def test_generated_surfaces_strict_passes():
     archive = subprocess.run(
@@ -107,13 +97,11 @@ def test_generated_surfaces_strict_passes():
     assert proc.returncode == 0, proc.stderr or proc.stdout
     assert "ok: generated surfaces check passed" in proc.stdout
 
-
 def test_orphan_generated_file_detected():
     issues = collect_orphan_issues({"LLM-ROUTING.md"}, strict_orphans=True)
     assert not any(
         i.startswith("orphan:") and "LLM-ROUTING.md" in i for i in issues
     )
-
 
 def test_work_dev_surfaces_not_orphan_strict():
     manifest_paths = {entry.path for entry in _load_manifest(MANIFEST_PATH)}
@@ -125,7 +113,6 @@ def test_work_dev_surfaces_not_orphan_strict():
         or "runtime/artifacts/work-dev/" in i
     ]
     assert not work_dev, work_dev
-
 
 def test_orphan_scan_subcommand():
     proc = subprocess.run(

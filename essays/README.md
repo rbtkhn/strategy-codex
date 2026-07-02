@@ -6,8 +6,6 @@ record_status: none
 
 # Essays (strategy-codex)
 
-WORK only; not Record.
-
 **Canonical primary essay shelf** for strategy-codex. Stand-alone, thesis-bearing prose that may draw on **statecraft and singularity together** lives here.
 
 **Prose class SSOT:** [docs/prose-index.md](../docs/prose-index.md)

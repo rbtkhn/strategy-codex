@@ -13,7 +13,6 @@ SCRIPT = REPO_ROOT / "scripts" / "prepared_context" / "build_budgeted_context.py
 SWEEP_SCRIPT = REPO_ROOT / "scripts" / "prepared_context" / "sweep_budgets.py"
 SEED_FIXTURE = REPO_ROOT / "tests" / "fixtures" / "observations-seed.jsonl"
 
-
 def _minimal_obs(oid: str, lane: str, title: str, summary: str) -> dict:
     return {
         "obs_id": oid,
@@ -30,7 +29,6 @@ def _minimal_obs(oid: str, lane: str, title: str, summary: str) -> dict:
         "contradiction_refs": [],
         "notes": None,
     }
-
 
 def test_build_budgeted_context_subprocess(tmp_path: Path) -> None:
     obs_dir = tmp_path / "runtime" / "observations"
@@ -85,7 +83,6 @@ def test_build_budgeted_context_subprocess(tmp_path: Path) -> None:
     assert scores["included_count"] >= 0
     assert scores["total_candidates"] >= scores["included_count"]
 
-
 def _seed_obs_dir(tmp_path: Path) -> Path:
     obs_dir = tmp_path / "runtime" / "observations"
     obs_dir.mkdir(parents=True)
@@ -93,7 +90,6 @@ def _seed_obs_dir(tmp_path: Path) -> Path:
         SEED_FIXTURE.read_text(encoding="utf-8"), encoding="utf-8"
     )
     return obs_dir
-
 
 def test_score_flag_prints_json(tmp_path: Path) -> None:
     """--score flag emits benchmark metrics to stdout."""
@@ -122,7 +118,6 @@ def test_score_flag_prints_json(tmp_path: Path) -> None:
     assert score_data["utilization"] > 0, "seed data should produce non-zero utilization"
     assert score_data["coverage"] > 0, "seed data should produce non-zero coverage"
 
-
 def test_benchmark_scores_across_modes(tmp_path: Path) -> None:
     """Deeper budget modes should include more content (higher utilization)."""
     _seed_obs_dir(tmp_path)
@@ -146,7 +141,6 @@ def test_benchmark_scores_across_modes(tmp_path: Path) -> None:
         scores_by_mode[mode] = json.loads(r.stdout)
     assert scores_by_mode["deep"]["chars_included"] >= scores_by_mode["compact"]["chars_included"]
 
-
 def test_sweep_budgets_json(tmp_path: Path) -> None:
     """sweep_budgets.py --json produces valid JSON with score rows."""
     r = subprocess.run(
@@ -166,7 +160,6 @@ def test_sweep_budgets_json(tmp_path: Path) -> None:
         assert "utilization" in row
         assert "coverage" in row
         assert "mean_included_rank" in row
-
 
 def test_workflow_depth_shallow_writes_receipt(tmp_path: Path) -> None:
     """--workflow-depth with --task-anchor appends JSONL receipt; no canonical writes."""
@@ -218,7 +211,6 @@ def test_workflow_depth_shallow_writes_receipt(tmp_path: Path) -> None:
     assert row["stop_reason"].startswith("fixed_")
     assert row["task_anchor"] == "Test anchor for prepared context"
 
-
 def test_workflow_depth_depth_alias_matches_long_flag(tmp_path: Path) -> None:
     """--depth is an alias for --workflow-depth; receipt matches shallow preset."""
     obs_dir = tmp_path / "runtime" / "observations"
@@ -263,7 +255,6 @@ def test_workflow_depth_depth_alias_matches_long_flag(tmp_path: Path) -> None:
     assert row["workflow_depth"] == "shallow"
     assert row["task_anchor"] == "Alias parity anchor"
 
-
 def test_depth_requires_task_anchor(tmp_path: Path) -> None:
     """--depth without --task-anchor exits with error (same rule as --workflow-depth)."""
     out = tmp_path / "out.md"
@@ -289,7 +280,6 @@ def test_depth_requires_task_anchor(tmp_path: Path) -> None:
     )
     assert r.returncode == 2
     assert "task-anchor" in r.stderr.lower()
-
 
 def test_compute_benchmark_scores_unit() -> None:
     """Unit test for compute_benchmark_scores with synthetic pieces."""

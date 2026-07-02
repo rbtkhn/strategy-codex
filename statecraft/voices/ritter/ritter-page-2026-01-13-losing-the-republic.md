@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-01-13 (*Losing the Republic*)
 <!-- word_count: 1072 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-01-13 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 1073
@@ -107,7 +106,6 @@ Or else our republic is lost.
 
 We failed in our duty to keep it.
 
-
 ### Reflection
 
 **Operator note:** Primary Substack slug is `loosing-the-republic` (platform spelling). Domestic constitutional polemic; 25th Amendment and mental-health claims are advocacy, not verified medical or legal conclusions. Light cleanup of operator/OCR errors only.
@@ -123,13 +121,11 @@ We failed in our duty to keep it.
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

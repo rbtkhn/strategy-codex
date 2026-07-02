@@ -36,7 +36,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Sunday, 21st June, 2026. It is in fact, in the northern hemisphere, the longest day in the year. And it is also Father's Day. And at the start of this program, I would like to do something which gives me very, very great pleasure to do. I've had a very warm and very, um, shall we say, wonderful email from the son of a listener.

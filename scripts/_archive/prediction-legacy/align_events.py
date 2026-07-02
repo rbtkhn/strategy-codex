@@ -18,7 +18,6 @@ from voice_prediction_pilot import (  # noqa: E402
     patterns_match,
 )
 
-
 def _load_public_maps() -> dict[str, dict[str, dict[str, Any]]]:
     by_voice: dict[str, dict[str, dict[str, Any]]] = {}
     for speaker in sorted(VOICE_REGISTRY.keys()):
@@ -30,7 +29,6 @@ def _load_public_maps() -> dict[str, dict[str, dict[str, Any]]]:
             event_order=cfg.pilot_event_order,
         )
     return by_voice
-
 
 def _terms_index(public_maps: dict[str, dict[str, dict[str, Any]]]) -> dict[str, list[str]]:
     index: dict[str, list[str]] = {}
@@ -46,7 +44,6 @@ def _terms_index(public_maps: dict[str, dict[str, dict[str, Any]]]) -> dict[str,
                     existing.append(t)
     return index
 
-
 def semantic_match(claim: str, terms_index: dict[str, list[str]]) -> str | None:
     """Return best event_id whose prediction_object_terms match claim text."""
     hits: list[str] = []
@@ -56,7 +53,6 @@ def semantic_match(claim: str, terms_index: dict[str, list[str]]) -> str | None:
     if len(hits) == 1:
         return hits[0]
     return None
-
 
 def align_to_events(
     claims: list[dict[str, Any]],

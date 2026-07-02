@@ -18,7 +18,6 @@ from voice_prediction_pilot import (  # noqa: E402
     source_citation,
 )
 
-
 def load_statecraft_voices() -> list[dict[str, Any]]:
     """Load capture-map rows for every enrolled voice."""
     voices: list[dict[str, Any]] = []
@@ -36,7 +35,6 @@ def load_statecraft_voices() -> list[dict[str, Any]]:
         )
     return voices
 
-
 def _timestamp_for_row(row: dict[str, Any], *, default_channel: str) -> str:
     appearance = str(row.get("appearance_date") or "").strip()
     if appearance:
@@ -49,7 +47,6 @@ def _timestamp_for_row(row: dict[str, Any], *, default_channel: str) -> str:
         if pub:
             return pub[:10]
     return "1970-01-01"
-
 
 def extract_claims(voices: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Flatten capture-map rows into MVEL claim records."""

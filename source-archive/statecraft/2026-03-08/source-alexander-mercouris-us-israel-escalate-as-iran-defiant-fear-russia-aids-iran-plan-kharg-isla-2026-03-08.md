@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # US Israel Escalate As Iran Defiant, Fear Russia Aids Iran; Plan Kharg Island Capture; Kurds Stay Out
 
-

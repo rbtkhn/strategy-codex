@@ -13,8 +13,6 @@ post_id: 181456316
 
 # The Innermost Loop - 2025-12-12
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 12, 2025
@@ -29,10 +27,7 @@ The cost of reasoning has officially decoupled from the cost of human labor. Ope
 
 ## Newsletter Text
 
--
--
-
-The cost of reasoning has officially decoupled from the cost of human labor. OpenAI has released GPT-5.2 Thinking , the first model to beat human experts on GDPval, a rigorous benchmark testing well-specified knowledge work across 44 distinct occupations. By outperforming professionals on 70% of these tasks at less than 1% of the cost, the model signals the end of the premium on cognitive drudgery. It also cracks the 90% threshold on ARC-AGI-1 for just $11.64 per task, a 390x deflation in the price of reasoning since last year . But the real signal is in the granularity: the model sets a new SOTA on SWE-Bench Pro (55.6%), achieves near-perfect recall on the 256k-token MRCRv2 document integration test, and hits 98.7% on Tau2-bench Telecom for multi-turn tool use. We aren’t just getting better answers; we are getting reliable, long-horizon agency.
+- The cost of reasoning has officially decoupled from the cost of human labor. OpenAI has released GPT-5.2 Thinking , the first model to beat human experts on GDPval, a rigorous benchmark testing well-specified knowledge work across 44 distinct occupations. By outperforming professionals on 70% of these tasks at less than 1% of the cost, the model signals the end of the premium on cognitive drudgery. It also cracks the 90% threshold on ARC-AGI-1 for just $11.64 per task, a 390x deflation in the price of reasoning since last year . But the real signal is in the granularity: the model sets a new SOTA on SWE-Bench Pro (55.6%), achieves near-perfect recall on the 256k-token MRCRv2 document integration test, and hits 98.7% on Tau2-bench Telecom for multi-turn tool use. We aren’t just getting better answers; we are getting reliable, long-horizon agency.
 
 But the frontier remains spiky. Benchmarks show distinctive performance gaps between models, with Claude still leading on creative writing while Gemini dominates judgment tasks. To manage this diversity, Artificial Analysis has released “Stirrup,” a harness that boosts baseline model performance on economic tasks simply by framing the problem correctly. Google is tackling the usability gap with GenTabs , a tool that proactively builds bespoke web apps to solve your specific task, while simultaneously releasing the Deep Research agent via API to commoditize autonomous investigation. Google’s Logan Kilpatrick suggests this is the endgame: superintelligence will likely arrive not as a new model, but as existing weights unlocked by better scaffolding .
 

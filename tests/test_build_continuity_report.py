@@ -18,13 +18,11 @@ from build_continuity_report import build_report, format_md  # noqa: E402
 ARTIFACT_JSON = REPO / "runtime" / "artifacts" / "continuity-report.json"
 ARTIFACT_MD = REPO / "runtime" / "artifacts" / "continuity-report.md"
 
-
 def test_build_report_shape():
     report = build_report(REPO)
     assert report.continuity_root == "continuity"
     assert report.authority.startswith("derived")
     assert report.generated
-
 
 def test_format_md_marks_derived():
     report = build_report(REPO)
@@ -32,7 +30,6 @@ def test_format_md_marks_derived():
     assert "derived" in md.lower()
     assert "not SSOT" in md or "Authority" in md
     assert "Prediction rows" in md
-
 
 def test_build_continuity_report_json_is_non_mutating():
     json_mtime = ARTIFACT_JSON.stat().st_mtime if ARTIFACT_JSON.is_file() else None
@@ -58,7 +55,6 @@ def test_build_continuity_report_json_is_non_mutating():
     if md_mtime is not None:
         assert ARTIFACT_MD.stat().st_mtime == md_mtime
 
-
 def test_build_continuity_report_write_creates_artifacts():
     proc = subprocess.run(
         [
@@ -80,7 +76,6 @@ def test_build_continuity_report_write_creates_artifacts():
     assert ARTIFACT_MD.is_file()
     written = json.loads(ARTIFACT_JSON.read_text(encoding="utf-8"))
     assert written["prediction_row_count"] == data["prediction_row_count"]
-
 
 def test_build_continuity_report_default_prints_markdown():
     json_mtime = ARTIFACT_JSON.stat().st_mtime if ARTIFACT_JSON.is_file() else None

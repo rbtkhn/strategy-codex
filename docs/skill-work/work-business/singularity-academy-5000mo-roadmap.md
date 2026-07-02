@@ -1,6 +1,6 @@
 # Singularity-Academy `$5k/mo` Roadmap
 
-WORK only. Planning surface, not demand proof.
+non-authoritative. Planning surface, not demand proof.
 
 ## Objective
 

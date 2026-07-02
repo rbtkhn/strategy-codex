@@ -1,7 +1,6 @@
 # Academy Next Questions
 <!-- word_count: 219 -->
 
-
 Use this page when a shelf is organized but the next live question is not yet obvious.
 
 ## Current Questions

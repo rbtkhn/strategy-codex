@@ -1,6 +1,5 @@
 # Interpretive Machine Lineage
 
-
 This legacy compatibility path no longer owns the canonical doctrine.
 
 The canonical home is now:

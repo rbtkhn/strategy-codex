@@ -1,7 +1,5 @@
 # Review as Bottleneck — and Interpretive Pause
 
-WORK only; not Record.
-
 **Anchor items:**
 
 - [Moonshots (unscheduled) — Anthropic Pause, Recursive Self-Improvement, AI Personhood](../workshop/sheets/moonshots-emerging-anthropic-pause-recursive-personhood.md)

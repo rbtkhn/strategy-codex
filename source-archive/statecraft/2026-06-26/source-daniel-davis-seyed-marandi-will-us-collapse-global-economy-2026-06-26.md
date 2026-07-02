@@ -38,7 +38,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Trump Nice Iran and Champagne
 
 Iran is being very nice. They're agreeing to everything that I want and they have to. Otherwise, we just go back and do what we have to do. >> Well, that was President Trump yesterday talking about how nice the Iranians are and how they're literally doing everything he has. So, I guess this whole thing with the negotiation settlement is almost wrapped up and we can start popping the champagne.

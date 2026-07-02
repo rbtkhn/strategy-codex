@@ -1,7 +1,6 @@
 # America - Iran Nuclear Latency Recognition Framework
 <!-- word_count: 565 -->
 
-
 ## Transaction Name
 
 Threshold containment bargain.

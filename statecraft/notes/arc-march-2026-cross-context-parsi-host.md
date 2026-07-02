@@ -19,7 +19,6 @@ archive_links:
 
 # Parsi March 2026 cross-context arc
 
-
 Purpose: bounded cross-context arc note for the March 2026 Parsi run.
 
 ## Why March 2026 matters

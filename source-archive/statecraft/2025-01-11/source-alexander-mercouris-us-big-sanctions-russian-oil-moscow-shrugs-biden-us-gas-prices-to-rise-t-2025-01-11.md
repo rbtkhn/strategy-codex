@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # US Big Sanctions Russian Oil, Moscow Shrugs, Biden: US Gas Prices To Rise, Targets Trump
 
-

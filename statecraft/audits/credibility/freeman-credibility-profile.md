@@ -1,6 +1,5 @@
 # Freeman credibility profile
 
-
 ## Summary
 
 Freeman is a high-seriousness, mechanism-heavy speaker whose trust value comes from disciplined historical analogy, scope restraint, and primary-source-friendly argument shape. He shows less visible explicit correction in the current shelf, but the method remains strong enough that low correction frequency should not automatically reduce trust.

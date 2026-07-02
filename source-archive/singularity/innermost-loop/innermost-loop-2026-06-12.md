@@ -13,8 +13,6 @@ post_id: 201760852
 
 # The Innermost Loop - 2026-06-12
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to June 12, 2026
@@ -29,10 +27,7 @@ The Singularity is taking a Dyson Swarm public.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is taking a Dyson Swarm public. SpaceX is making history with the largest IPO ever , priced near $1.8 trillion and opening the public-market era for frontier infrastructure. On a pre-IPO livestream, Musk gave the real reason: raising funds for the “massive capital endeavor” of orbital data centers , his main way to expand AI with round-the-clock solar beyond Earth’s power budget and backlash. Priced at $135, Musk’s net worth is set to hit $970.5 billion , one Tesla rally short of creating the first trillionaire. Founders Fund’s $600M bet on SpaceX is now worth over $50 billion and a16z’s over $10 billion. And the public wants in with more than $70 billion in retail orders.
+- The Singularity is taking a Dyson Swarm public. SpaceX is making history with the largest IPO ever , priced near $1.8 trillion and opening the public-market era for frontier infrastructure. On a pre-IPO livestream, Musk gave the real reason: raising funds for the “massive capital endeavor” of orbital data centers , his main way to expand AI with round-the-clock solar beyond Earth’s power budget and backlash. Priced at $135, Musk’s net worth is set to hit $970.5 billion , one Tesla rally short of creating the first trillionaire. Founders Fund’s $600M bet on SpaceX is now worth over $50 billion and a16z’s over $10 billion. And the public wants in with more than $70 billion in retail orders.
 
 They are betting on minds learning to think longer. A new study found frontier models’ no-chain-of-thought time horizon has doubled yearly for six years , with GPT-5.5 reasoning past 3 human-minutes, and projected to hit 25 by 2030. Intelligence is also hyperdeflating, with Claude Fable 5 well ahead of the token-efficiency frontier , one-shotting a No Man’s Sky clone and, via Ultracode, a Three.js starship that screenshotted and fixed itself until its user was “genuinely shocked.” But capability cuts both ways. Epoch AI judged the Mythos family a genuine leap in exploit development , seven months ahead of trend, and after researchers caught a clause allowing poisoning of AI research in Fable 5’s system card, Anthropic reversed within 48 hours and apologized. Others want to democratize superintelligence outright, as the AI Alliance’s Project Tapestry lets nations co-train one shared model while keeping data local, even as OpenAI weighs drastic price cuts against Anthropic, racing the cost of intelligence toward zero.
 

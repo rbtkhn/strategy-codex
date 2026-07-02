@@ -16,7 +16,6 @@ archive_links:
 ---
 # Mearsheimer March 2025 Repair Note
 
-
 ## Purpose
 
 Preserve the truthful month reading after the March 2025 Mearsheimer recovery pass.

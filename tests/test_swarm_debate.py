@@ -12,7 +12,6 @@ SWARM = ROOT / "research/auto-research" / "swarm"
 if str(SWARM) not in sys.path:
     sys.path.insert(0, str(SWARM))
 
-
 def _load(name: str, path: Path):
     spec = importlib.util.spec_from_file_location(name, path)
     assert spec and spec.loader
@@ -20,7 +19,6 @@ def _load(name: str, path: Path):
     sys.modules[name] = mod
     spec.loader.exec_module(mod)
     return mod
-
 
 def _sample_payload() -> dict:
     return {
@@ -49,7 +47,6 @@ def _sample_payload() -> dict:
         "evaluation_notes": "Test payload.",
     }
 
-
 def _accepted_artifact() -> dict:
     return {
         "proposal": _sample_payload(),
@@ -63,7 +60,6 @@ def _accepted_artifact() -> dict:
         },
         "hard_gates": {"integrity_ok": True, "governance_ok": True},
     }
-
 
 def test_debate_review_writes_derived_artifact(tmp_path, monkeypatch):
     review = importlib.import_module("debate.review")
@@ -80,7 +76,6 @@ def test_debate_review_writes_derived_artifact(tmp_path, monkeypatch):
     assert len(result["role_reviews"]) == 4
     assert Path(result["review_path"]).is_file()
 
-
 def test_debate_review_requests_more_grounding_for_missing_source_exchange(tmp_path, monkeypatch):
     review = importlib.import_module("debate.review")
     tmp_repo = tmp_path / "repo"
@@ -96,7 +91,6 @@ def test_debate_review_requests_more_grounding_for_missing_source_exchange(tmp_p
 
     assert result["final_recommendation"] == "request_more_grounding"
     assert "missing_grounding" in result["blocking_flags"]
-
 
 def test_swarm_orchestrator_runs_debate_without_touching_gate(tmp_path, monkeypatch):
     orchestrator = _load("swarm_orchestrator_debate_test", SWARM / "orchestrator.py")

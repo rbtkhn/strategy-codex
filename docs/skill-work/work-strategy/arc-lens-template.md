@@ -1,6 +1,5 @@
 # Arc Lens Template
 
-
 Use this template for recurring WORK-layer continuity notes that track one strategic pattern across a source window. Arc lenses are routing and synthesis tools, not truth labels and not Record authority.
 
 ## Continuity Pointer

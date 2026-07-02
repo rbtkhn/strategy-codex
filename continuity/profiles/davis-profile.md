@@ -1,7 +1,6 @@
 # Davis profile — compatibility redirect
 <!-- word_count: 32 -->
 
-
 **Canonical profile (SSOT):** [`statecraft/voices/davis/davis-profile.md`](../../statecraft/voices/davis/davis-profile.md)
 
 This path remains for stable links from legacy `continuity/profiles/` routing. **Do not duplicate the corpus here.**

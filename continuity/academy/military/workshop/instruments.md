@@ -1,7 +1,6 @@
 # Instruments
 <!-- word_count: 552 -->
 
-
 These are reusable interpretive tools for academy military, strategy work, and cross-shelf analysis.
 
 ## Campaign Reading Sheet

@@ -17,7 +17,6 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-
 # ---------------------------------------------------------------------------
 # Schema tests
 # ---------------------------------------------------------------------------
@@ -40,7 +39,6 @@ class TestSchema:
     def test_optional_fields_exist(self, schema):
         for field in ("account", "tax_category", "vendor_or_customer", "receipt_ref", "notes"):
             assert field in schema["properties"]
-
 
 # ---------------------------------------------------------------------------
 # Emit tests
@@ -159,7 +157,6 @@ class TestEmit:
         )
         assert row["amount_usd"] == 12.35
 
-
 # ---------------------------------------------------------------------------
 # Summary tests
 # ---------------------------------------------------------------------------
@@ -245,7 +242,6 @@ class TestSummary:
         from business_ledger_summary import _load_rows
         rows = _load_rows("nobody")
         assert rows == []
-
 
 # ---------------------------------------------------------------------------
 # CLI tests

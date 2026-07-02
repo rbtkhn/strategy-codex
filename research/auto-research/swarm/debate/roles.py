@@ -14,21 +14,17 @@ if path_str not in sys.path:
 
 from proposal_io import PLACEHOLDER_GROUNDING_RE
 
-
 def _proposal(artifact: dict[str, Any]) -> dict[str, Any]:
     return artifact.get("proposal") or {}
 
-
 def _candidate_bundle(artifact: dict[str, Any]) -> dict[str, Any]:
     return _proposal(artifact).get("candidate_bundle") or {}
-
 
 def _source_exchange(artifact: dict[str, Any]) -> dict[str, Any]:
     raw_source = artifact.get("raw_source_exchange")
     if isinstance(raw_source, dict) and raw_source:
         return raw_source
     return _candidate_bundle(artifact).get("source_exchange") or {}
-
 
 def _summary(artifact: dict[str, Any]) -> str:
     candidate = _candidate_bundle(artifact)
@@ -37,7 +33,6 @@ def _summary(artifact: dict[str, Any]) -> str:
         return summary
     projection = artifact.get("proposal_projection") or {}
     return str(projection.get("summary") or "").strip()
-
 
 def run_grounding_review(artifact: dict[str, Any]) -> dict[str, Any]:
     source_exchange = _source_exchange(artifact)
@@ -71,7 +66,6 @@ def run_grounding_review(artifact: dict[str, Any]) -> dict[str, Any]:
         "evidence_refs": [f"raw_source_exchange.{key}" for key in sorted(source_exchange)],
         "recommended_action": "promote_candidate",
     }
-
 
 def run_logic_review(artifact: dict[str, Any]) -> dict[str, Any]:
     hard_gates = artifact.get("hard_gates") or {}
@@ -111,7 +105,6 @@ def run_logic_review(artifact: dict[str, Any]) -> dict[str, Any]:
         "recommended_action": "promote_candidate",
     }
 
-
 def run_critic_review(artifact: dict[str, Any]) -> dict[str, Any]:
     scalar = artifact.get("scalar_at_accept")
     if not isinstance(scalar, (int, float)):
@@ -148,7 +141,6 @@ def run_critic_review(artifact: dict[str, Any]) -> dict[str, Any]:
         "evidence_refs": ["scalar_at_accept", "proposal_projection.summary"],
         "recommended_action": "promote_candidate",
     }
-
 
 def run_coordinator_review(
     artifact: dict[str, Any],

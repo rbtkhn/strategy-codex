@@ -1,6 +1,5 @@
 # Statecraft archive index ROI
 
-
 Purpose: quantify the practical gains from adding generated month, year, thread, and stale-audit indices to the canonical statecraft archive.
 
 Scope: this note estimates operational benefit from the navigation layer now present under [source-archive/statecraft](../../source-archive/statecraft/README.md), including:

@@ -1,7 +1,6 @@
 # Prototype — will move to scripts/ after gating. WORK-only; no Record writes.
 from datetime import datetime
 
-
 def ingest_chokepoint_data(event_summary: str) -> dict:
     """
     Placeholder for real OpenClaw / maritime API call.

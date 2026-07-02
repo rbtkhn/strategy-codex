@@ -1,6 +1,5 @@
 # Voices supersede minds — migration doctrine (2026-06)
 
-
 **Status:** For active strategy-codex operator workflow, **`statecraft/voices/<speaker>/<speaker>-profile.md`** is the **canonical SSOT** for named-speaker identity, linguistic register (Tier A detailed fingerprint), role/contrast pointers, and in-voice emulation discipline.
 
 **`strategy-expert-*-mind.md`**, **`CIV-MIND-*.md`**, and **`docs/skill-work/work-strategy/minds/`** are **compatibility surfaces** during migration — **not** the primary read path for new sessions.

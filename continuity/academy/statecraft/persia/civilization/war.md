@@ -1,7 +1,6 @@
 # Iran War
 <!-- word_count: 2795 -->
 
-
 ## Purpose
 
 Use Iranian war memory as a statecraft lens for Marathon / Salamis / Thermopylae, Rome-facing parity, Alexander rupture, Arab and Mongol rupture, Iran-Iraq War, martyrdom, deterrence, Hormuz, sanctions pressure, and imposed vulnerability.

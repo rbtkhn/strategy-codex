@@ -12,7 +12,6 @@ if str(_SCRIPTS) not in sys.path:
 
 from cadence_conductor_resolution import format_coffee_hub_e_line  # noqa: E402
 
-
 def test_format_coffee_hub_e_line_shape() -> None:
     assert format_coffee_hub_e_line("grace-mar") == (
         "Conductor is standalone: name toscanini, furtwangler, karajan, "

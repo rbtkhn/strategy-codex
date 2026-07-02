@@ -13,8 +13,6 @@ post_id: 198407461
 
 # The Innermost Loop - 2026-05-19
 
-WORK only; not Record.
-
 ## Source
 
 - Title: The First Major-Exchange Compute Futures
@@ -29,10 +27,7 @@ The Singularity has had a price since March, but no major exchange to trade it o
 
 ## Newsletter Text
 
--
--
-
-The Singularity has had a price since March, but no major exchange to trade it on, until now.
+- The Singularity has had a price since March, but no major exchange to trade it on, until now.
 
 Two months ago, I wrote about the moment compute became a tradable asset class. Ornn , a company I advise and helped form with backing from 021T Capital , began publishing the Ornn Compute Price Index (OCPI) on the Bloomberg Terminal , the first compute benchmark that derivatives can reference and settle against. OCPI settles against cleared GPU prices, not rate cards or surveys. That was the credentialing step. Bloomberg distribution is how a commodity announces to institutional capital that it is ready. But credentialing is not clearing. To finish the arc oil walked in the 1980s and natural gas in the 1990s, compute had to find a home at a major regulated derivatives exchange. Today it does.
 

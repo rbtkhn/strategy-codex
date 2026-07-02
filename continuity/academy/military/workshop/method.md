@@ -1,7 +1,6 @@
 # Military Workshop Method
 <!-- word_count: 303 -->
 
-
 The method is practical: use campaign literature, theory, and writer lanes to produce disciplined military judgment without confusing narrative with evidence.
 
 ## Pattern

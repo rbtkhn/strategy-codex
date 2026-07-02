@@ -1,6 +1,5 @@
 # Russia Crisis Test Casebook
 
-
 Use this lane casebook to track what Russia learns from each crisis test. The shared method index is [Crisis Test Casebook](../sheets/crisis-test-casebook.md).
 
 | crisis test | what Russia sees first | what Russia fears | leverage | face-saving phrase | best instrument | lesson for Russia |

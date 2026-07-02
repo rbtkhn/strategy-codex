@@ -11,7 +11,6 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from work_dev.log_shadow_decision import append_shadow_decision  # noqa: E402
 
-
 def test_append_shadow_decision(tmp_path: Path) -> None:
     p = tmp_path / "shadow.jsonl"
     append_shadow_decision(

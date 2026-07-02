@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `mearsheimer`
 <!-- word_count: 10005 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Mearsheimer helix structure.
@@ -40,7 +39,6 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 - **Machine hint / opt-out:** `python3 scripts/validate_strategy_expert_threads.py` warns when a `## YYYY-MM` block is heavy on list lines and has **no** prose lines (optional `--month MM` to audit one month only). For a **whole file** where month bullets-only is intentional (transitional ledger), add once in the human layer: `<!-- strategy-expert-thread:segment-1-month-bullets-ledger-ok -->`. Editing assistants: `.cursor/rules/strategy-expert-thread-journal-layer.mdc`.
 ## 2026-01
 
-
 The 2026-01 segment for the John Mearsheimer lane (`mearsheimer`) exists so the notebook keeps a **prose spine** alongside any strength-tagged bullets. The roster describes this voice as centered on Offensive realism: security dilemma, Israel structural, great-power geometry. That one-line role is not a substitute for transcript truth; it is a **routing label** so batch-analysis passes know which mechanism vocabulary to expect when dated material lands. When this month is still partial or ingest-light, the prose layer still records **where verification should attach** (page cites, transcript rows, or hub URLs) without pretending those pins are already closed.
 
 Typical pairings on file for `mearsheimer` emphasize contrast surfaces: Ãƒâ€” davis, Ãƒâ€” mercouris, Ãƒâ€” diesen, Ãƒâ€” sachs. In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-01 segment should be read as **mesh navigation**Ã¢â‚¬â€which lanes to pull into the same batch passÃ¢â‚¬â€rather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
@@ -60,7 +58,6 @@ Open pins belong in prose, not only as bullets. For this `mearsheimer` month seg
 - [strength: low] **Ambiguity:** Full broadcast transcripts not in-repo Ã¢â‚¬â€ treat pull quotes as **verify-tier** until pinned.
 - [strength: medium] **Tension / lattice:** Same Q1 window as **Davis Ãƒâ€” Mearsheimer** Ã¢â‚¬Å“classic regime changeÃ¢â‚¬Â long-form on [Daniel Davis Deep Dive **2026-01-14**](https://danieldavisdeepdive.substack.com/p/prof-mearsheimer-classic-us) Ã¢â‚¬â€ notebook cross; do not merge with **Mercouris** diplomatic-room reads without seam discipline.
 ## 2026-02
-
 
 Finally, 2026-02 should remain safe for **operator rotation**: someone returning after weeks should be able to read this segment and recover **lane orientation** (role: Offensive realism: security dilemma, Israel structural, great-power geometry), **pairing map** (Ãƒâ€” davis, Ãƒâ€” mercouris, Ãƒâ€” diesen, Ãƒâ€” sachs), and **next verification moves** without loading the entire quarter. That recoverability is why the minimum prose budget existsÃ¢â‚¬â€not to pad, but to force a minimum coherent account of what this month was for in the notebook.
 
@@ -82,7 +79,6 @@ Open pins belong in prose, not only as bullets. For this `mearsheimer` month seg
 - [strength: medium] **Lattice:** Feeds **Mercouris Ãƒâ€” Mearsheimer** fork (incentives vs speech-acts) Ã¢â‚¬â€ see April `mercouris-mearsheimer-lebanon-split` (page id `mercouris-mearsheimer-lebanon-split`); Q1 is **upstream** thesis only.
 ## 2026-03
 
-
 Verification stance for John Mearsheimer in 2026-03 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgmentÃ¢â‚¬â€without turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 
 Typical pairings on file for `mearsheimer` emphasize contrast surfaces: Ãƒâ€” davis, Ãƒâ€” mercouris, Ãƒâ€” diesen, Ãƒâ€” sachs. In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-03 segment should be read as **mesh navigation**Ã¢â‚¬â€which lanes to pull into the same batch passÃ¢â‚¬â€rather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
@@ -94,7 +90,6 @@ Open pins belong in prose, not only as bullets. For this `mearsheimer` month seg
 If pages named this expert during 2026-03, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃ¢â‚¬â€absence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
 
 When historical expert context artifacts exist for `mearsheimer` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-03 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
-
 
 Verification stance for John Mearsheimer in 2026-03 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgmentÃ¢â‚¬â€without turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 
@@ -139,7 +134,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 - **2026-03-18** Ã¢â‚¬â€ Piers Morgan Uncensored Ã¢â‚¬â€ Agreeing with Piers on Iran Ã¢â‚¬â€ Substack **22 Mar**.
   _Source:_ web: `https://mearsheimer.substack.com/p/agreeing-with-piers-on-iran`
 
-
 ### 2026-04
 
 - **2026-04** Ã¢â‚¬â€ Notebook cross-ref (partial month).
@@ -157,7 +151,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 _April **2026-04-20** ingests **Chris Hedges Report** operator transcript ([`raw-input/Ã¢â‚¬Â¦/source-hedges-mearsheimer-iran-2026-04-20.md`](../../../source-archive/statecraft/2026-04-20/source-hedges-mearsheimer-iran-2026-04-20.md)); Segment 2 remains **Page-index** + machine block._
 
 April lattice is **Mercouris Ãƒâ€” Mearsheimer** (speech-act vs structural incentives) on Lebanon / Hormuz week Ã¢â‚¬â€ scaffold and blockade weaves carry the cross-expert seam; Pape Janssen block adds domestic escalation-trap vocabulary beside same cycle.
-
 
 Finally, 2026-04 should remain safe for **operator rotation**: someone returning after weeks should be able to read this segment and recover **lane orientation** (role: Offensive realism: security dilemma, Israel structural, great-power geometry), **pairing map** (Ãƒâ€” davis, Ãƒâ€” mercouris, Ãƒâ€” diesen, Ãƒâ€” sachs), and **next verification moves** without loading the entire quarter. That recoverability is why the minimum prose budget existsÃ¢â‚¬â€not to pad, but to force a minimum coherent account of what this month was for in the notebook.
 
@@ -279,7 +272,7 @@ Optional keys (omit if unused): `clusters` (list of strings), `patterns` (list o
 `X | cold: @barnes_law Ã¢â‚¬â€ Ã¢â‚¬Å“Trump doubles down on dumbÃ¢â‚¬Â; QT Disclose.tv summarizing executive TS post (Hormuz blockade in/out, toll interdiction in international waters, mine clearing, escalation rhetoric) // hook: third **domestic** pole on Hormuz lever vs Solomon Ã¢â‚¬Å“cardÃ¢â‚¬Â / Martenson spiral; aligns Ã‚Â§1e + notebook domestic-fork Judgment | https://x.com/barnes_law | verify:pin-exact-status-URL+archive-Truth-Social-primary | thread:barnes`
 `batch-analysis | 2026-04-12 | Barnes + Solomon/Martenson | **Three U.S. domestic reads** on the same Hormuz lever: Solomon/JTNÃ¢â‚¬â€**strategic asset** (Ã¢â‚¬Å“Trump cardÃ¢â‚¬Â); MartensonÃ¢â‚¬â€**spiral / strategery** satire; BarnesÃ¢â‚¬â€**two-word verdict** (Ã¢â‚¬Å“dumbÃ¢â‚¬Â) on the executive order chain (Disclose.tv Ã¢â€ â€™ Truth Social packaging). **Tension:** leverage heroics vs circular-escalation mock vs outright dismissalÃ¢â‚¬â€not one domestic **sell** story; coalition validators see different **movies**.`
 `batch-analysis | 2026-04-14 | carry 04-12Ã¢â‚¬â€œ04-13 expert lanes + PH vi-14/15 + DiesenÃƒâ€”Sachs | **Continuity spine:** **Hormuz / Islamabad / alliance geometry** threads (`ritter`, `mearsheimer`, `mercouris`, `marandi`, `parsi`, `pape`, `davis`, `johnson`, `freeman`, `sachs`) stay the **mechanics + room + trap** / **institutions** stack; **PH vi-14/vi-15** (`diesen`, `jiang`) add **petrodollar / eschatology** overlaysÃ¢â‚¬â€**do not** collapse into one Ã¢â‚¬Å“civilizational verdict.Ã¢â‚¬Â **`diesen`** **same-day** **double** ingest (**vi-14** vs **`crosses:diesen+sachs`**) Ã¢â‚¬â€ keep **lecture** lane separate from **Sachs** **DC-process** **hypotheses** until **verify** tier. **New this cycle (wires / social):** **Italy** as **European hinge** (defense-diplomatic + TrumpÃ¢â‚¬â€œPope friction) + **IRI presidential roster** naming Italy beside othersÃ¢â‚¬â€**treat as coalition narrative + verify tier**, not automatic merge with **04-13** **MarandiÃƒâ€”MercourisÃƒâ€”Ritter** Judgment until primaries pin. **Rome plane** (`ROME`, **Pontifex** / Algeria journey): **parallel legitimacy seam** vs **Hormuz ORBAT**Ã¢â‚¬â€same **tier split** as 04-13 **Grand Mosque** fold. **Weak bridge:** Ã¢â‚¬Å“isolation / beg countsÃ¢â‚¬Â memes = **hypothesis-grade** unless elevated with **dated** **Ã‚Â§1d/Ã‚Â§1e**-class citesÃ¢â‚¬â€**do not** stand in for **`thread:`** experts.`
-`batch-analysis | 2026-04-15 | Mercouris Ãƒâ€” tri-mind | **Tension-first:** thread:mercouris **15 Apr 2026** **The Duran** strand (contested Hormuz narratives, Islamabad reads, LavrovÃ¢â‚¬â€œWangÃ¢â‚¬â€œXi, Russian SC commentary, attrition frame) Ãƒâ€” tri-mind **BÃ¢â€ â€™AÃ¢â€ â€™C** + solo A; fact-check triage rows in days.md **## 2026-04-15** **Links**Ã¢â‚¬â€do not merge second-hand ORBAT with tanker AIS facts without tier discipline. seam:mercouris-tri-frame Ã¢â‚¬â€ WORK only; not a crosses: two-expert row.`
+`batch-analysis | 2026-04-15 | Mercouris Ãƒâ€” tri-mind | **Tension-first:** thread:mercouris **15 Apr 2026** **The Duran** strand (contested Hormuz narratives, Islamabad reads, LavrovÃ¢â‚¬â€œWangÃ¢â‚¬â€œXi, Russian SC commentary, attrition frame) Ãƒâ€” tri-mind **BÃ¢â€ â€™AÃ¢â€ â€™C** + solo A; fact-check triage rows in days.md **## 2026-04-15** **Links**Ã¢â‚¬â€do not merge second-hand ORBAT with tanker AIS facts without tier discipline. seam:mercouris-tri-frame Ã¢â‚¬â€ non-authoritative; not a crosses: two-expert row.`
 `batch-analysis | 2026-04-15 | Mercouris Ãƒâ€” tri-mind | seam:mercouris-tri-frame`
 
 _(Operator/assistant: refine this page content.)_
@@ -508,7 +501,6 @@ Pape stacks four public claims in one appearance:
 ### Appendix
 
 # Page Ã¢â‚¬â€ 2026-04-16 Ã¢â‚¬â€ Pape (Janssen): escalation trap, staged blockade, third-player spoiler
-
 
 | Field | Value |
 |--------|--------|

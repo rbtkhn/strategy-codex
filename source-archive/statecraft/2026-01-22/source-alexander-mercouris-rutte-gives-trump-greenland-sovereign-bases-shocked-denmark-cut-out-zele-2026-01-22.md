@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Rutte Gives Trump Greenland Sovereign Bases; Shocked Denmark Cut Out; Zelensky Seethes Putin Witkoff
 
-

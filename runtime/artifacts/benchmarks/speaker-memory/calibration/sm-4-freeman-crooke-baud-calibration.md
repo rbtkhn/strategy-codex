@@ -1,7 +1,5 @@
 # SM-4 Freeman-Crooke-Baud Calibration
 
-WORK only; not Record.
-
 Purpose: show what a defended `SM-4 speaker-maturity-ranking` looks like when comparing three real shelves with different strengths and shapes.
 
 Primary grounding:

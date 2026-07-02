@@ -33,7 +33,6 @@ LINK_TARGETS = (
     ("NOTEBOOK-CONTRACT.md", "CONTRACT-INDEX.md"),
 )
 
-
 @dataclass
 class ContractIndexReport:
     continuity_root: str
@@ -41,7 +40,6 @@ class ContractIndexReport:
     missing_links: list[str] = field(default_factory=list)
     compiled_marked_derived: bool = False
     errors: list[str] = field(default_factory=list)
-
 
 def check_contract_index(repo_root: Path) -> ContractIndexReport:
     root = continuity_root(repo_root)
@@ -74,7 +72,6 @@ def check_contract_index(repo_root: Path) -> ContractIndexReport:
     report.errors.extend(report.missing_links)
     return report
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--json", action="store_true")
@@ -88,7 +85,6 @@ def main() -> int:
         for e in report.errors:
             print(f"error: {e}", file=sys.stderr)
     return 1 if report.errors else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

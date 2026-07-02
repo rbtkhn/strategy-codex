@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Ukraine Kursk Offensive Fails; Russia, Kurakhovo Captured; Russia Qatar Gas OPEC Looms
 
-

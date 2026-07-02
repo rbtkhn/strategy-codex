@@ -22,7 +22,6 @@ LOGISTIC_MIN_TRAIN_N = 3
 ECE_BINS = 10
 REGIME_SHIFT_INDEX = 3
 
-
 def _parse_date(value: str | None) -> date | None:
     if not value:
         return None
@@ -31,10 +30,8 @@ def _parse_date(value: str | None) -> date | None:
     except ValueError:
         return None
 
-
 def _days_between(start: date, end: date) -> int:
     return max(0, (end - start).days)
-
 
 def probability_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return [
@@ -43,10 +40,8 @@ def probability_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
         if not row.get("outcome_censored") and row.get("outcome") in {"yes", "no"}
     ]
 
-
 def row_label(row: dict[str, Any]) -> float | None:
     return outcome_to_label(str(row.get("outcome") or ""))
-
 
 def predict_persistence(row: dict[str, Any]) -> float:
     delta = row.get("task_labels") or {}
@@ -59,13 +54,11 @@ def predict_persistence(row: dict[str, Any]) -> float:
         return clamp01(float(latent["event_probability"]))
     return 0.5
 
-
 def predict_system(row: dict[str, Any]) -> float:
     latent = row.get("latent_features") or {}
     if isinstance(latent, dict) and latent.get("event_probability") is not None:
         return clamp01(float(latent["event_probability"]))
     return 0.5
-
 
 def fit_train_prior(train_rows: list[dict[str, Any]]) -> tuple[float, float]:
     scored = probability_rows(train_rows)
@@ -74,7 +67,6 @@ def fit_train_prior(train_rows: list[dict[str, Any]]) -> tuple[float, float]:
     if not scored:
         return 1.0, 1.0
     return 1.0 + float(yes_count), 1.0 + float(no_count)
-
 
 def predict_bayesian(row: dict[str, Any], *, alpha: float, beta: float) -> float:
     a = float(alpha)
@@ -91,7 +83,6 @@ def predict_bayesian(row: dict[str, Any], *, alpha: float, beta: float) -> float
         return 0.5
     return round(clamp01(a / (a + b)), 4)
 
-
 def _event_time_origin(event_id: str, events: dict[str, Any], train_rows: list[dict[str, Any]]) -> date | None:
     event = events.get(event_id) if isinstance(events, dict) else None
     if isinstance(event, dict):
@@ -106,7 +97,6 @@ def _event_time_origin(event_id: str, events: dict[str, Any], train_rows: list[d
     anchors = [a for a in anchors if a]
     return min(anchors) if anchors else None
 
-
 def row_time_offset(row: dict[str, Any], *, events: dict[str, Any], train_rows: list[dict[str, Any]]) -> int | None:
     anchor = _parse_date(str(row.get("anchor_date") or ""))
     origin = _event_time_origin(str(row.get("event_id") or ""), events, train_rows)
@@ -114,12 +104,10 @@ def row_time_offset(row: dict[str, Any], *, events: dict[str, Any], train_rows: 
         return None
     return _days_between(origin, anchor)
 
-
 def _logit(p: float) -> float:
     p = clamp01(p)
     p = min(max(p, 1e-6), 1.0 - 1e-6)
     return math.log(p / (1.0 - p))
-
 
 def _sigmoid(x: float) -> float:
     if x >= 0:
@@ -127,7 +115,6 @@ def _sigmoid(x: float) -> float:
         return clamp01(1.0 / (1.0 + z))
     z = math.exp(x)
     return clamp01(z / (1.0 + z))
-
 
 def fit_logistic_trend(
     train_rows: list[dict[str, Any]],
@@ -165,7 +152,6 @@ def fit_logistic_trend(
                 best_a, best_b = a, b
     return best_a, best_b
 
-
 def predict_logistic(
     row: dict[str, Any],
     *,
@@ -179,7 +165,6 @@ def predict_logistic(
         return predict_persistence(row)
     return round(_sigmoid(float(a) + float(b) * t), 4)
 
-
 def predict_regime_persistence(row: dict[str, Any]) -> str:
     latent = row.get("latent_features") or {}
     if isinstance(latent, dict):
@@ -189,10 +174,8 @@ def predict_regime_persistence(row: dict[str, Any]) -> str:
                 return "shift"
     return "no_shift"
 
-
 def predict_regime_system(row: dict[str, Any]) -> str:
     return predict_regime_persistence(row)
-
 
 def expected_calibration_error(
     preds: list[float],
@@ -219,7 +202,6 @@ def expected_calibration_error(
         ece += (len(idxs) / total) * abs(avg_pred - avg_label)
     return round(ece, 4)
 
-
 def regime_f1(preds: list[str], labels: list[str], *, positive: str = "shift") -> dict[str, Any]:
     tp = fp = fn = 0
     support = sum(1 for label in labels if label == positive)
@@ -245,7 +227,6 @@ def regime_f1(preds: list[str], labels: list[str], *, positive: str = "shift") -
         "support": support,
         "positive_class": positive,
     }
-
 
 def score_probability_lane(
     preds: list[float],
@@ -276,7 +257,6 @@ def score_probability_lane(
         "calibration_error": expected_calibration_error(preds[:n], labels),
     }
 
-
 def score_regime_lane(
     preds: list[str],
     rows: list[dict[str, Any]],
@@ -291,7 +271,6 @@ def score_regime_lane(
         "regime_f1": f1_block,
     }
 
-
 def _merge_test_metrics(probability: dict[str, Any], regime: dict[str, Any]) -> dict[str, Any]:
     return {
         "n_probability": probability.get("n_probability", 0),
@@ -301,7 +280,6 @@ def _merge_test_metrics(probability: dict[str, Any], regime: dict[str, Any]) -> 
         "n_regime": regime.get("n_regime", 0),
         "regime_f1": regime.get("regime_f1"),
     }
-
 
 def evaluate_model_on_test(
     test_rows: list[dict[str, Any]],
@@ -315,7 +293,6 @@ def evaluate_model_on_test(
     probability = score_probability_lane(prob_preds, prob_rows)
     regime = score_regime_lane(regime_preds, test_rows)
     return _merge_test_metrics(probability, regime)
-
 
 def build_baseline_payload(
     dataset: dict[str, Any],
@@ -434,7 +411,6 @@ def build_baseline_payload(
         },
     }
 
-
 def main() -> int:
     import argparse
     import json
@@ -459,7 +435,6 @@ def main() -> int:
         f"(test_probability_n={scope['test_probability_n']}, low_n={payload['_meta']['low_n_advisory']})"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

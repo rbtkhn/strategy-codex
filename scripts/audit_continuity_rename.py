@@ -91,7 +91,6 @@ CLASSIFICATIONS = (
     "unknown",
 )
 
-
 @dataclass
 class Finding:
     path: str
@@ -100,7 +99,6 @@ class Finding:
     match: str
     classification: Classification
     context: str = ""
-
 
 @dataclass
 class AuditReport:
@@ -111,22 +109,18 @@ class AuditReport:
     by_token: dict[str, int] = field(default_factory=dict)
     strict_issues: list[str] = field(default_factory=list)
 
-
 def _should_skip_dir(name: str) -> bool:
     if name in SKIP_DIR_NAMES:
         return True
     return any(name.startswith(p) for p in SKIP_DIR_PREFIXES)
 
-
 def _is_archived(rel_posix: str) -> bool:
     return any(rel_posix.startswith(p) for p in ARCHIVE_PREFIXES)
-
 
 def _approved_legacy_path(rel_posix: str) -> bool:
     if rel_posix in APPROVED_LEGACY_PATH_PREFIXES:
         return True
     return any(rel_posix.startswith(p) for p in APPROVED_LEGACY_PATH_PREFIXES)
-
 
 def detect_migration_state(repo_root: Path) -> str:
     codex = repo_root / "codex"
@@ -146,7 +140,6 @@ def detect_migration_state(repo_root: Path) -> str:
     if codex_is_dir:
         return "pre_move"
     return "missing_both"
-
 
 def _classify(
     rel_posix: str,
@@ -183,7 +176,6 @@ def _classify(
         return "path_reference"
     return "unknown"
 
-
 def iter_scan_files(repo_root: Path) -> list[Path]:
     files: list[Path] = []
     for path in repo_root.rglob("*"):
@@ -196,7 +188,6 @@ def iter_scan_files(repo_root: Path) -> list[Path]:
             continue
         files.append(path)
     return sorted(files)
-
 
 def scan_repo(repo_root: Path) -> AuditReport:
     state = detect_migration_state(repo_root)
@@ -229,7 +220,6 @@ def scan_repo(repo_root: Path) -> AuditReport:
     report.by_classification = dict(Counter(f.classification for f in findings))
     report.by_token = dict(Counter(f.token for f in findings))
     return report
-
 
 def _codex_path_finding_allowed(f: Finding, state: str) -> bool:
     if f.token != "codex_slash":
@@ -266,7 +256,6 @@ def _codex_path_finding_allowed(f: Finding, state: str) -> bool:
     if "/intake/" in f.path and f.path.endswith(".txt"):
         return True
     return False
-
 
 def strict_checks(report: AuditReport, repo_root: Path) -> list[str]:
     issues: list[str] = []
@@ -349,7 +338,6 @@ def strict_checks(report: AuditReport, repo_root: Path) -> list[str]:
 
     return issues
 
-
 def format_markdown_report(report: AuditReport) -> str:
     lines = [
         "# Continuity rename audit",
@@ -374,7 +362,6 @@ def format_markdown_report(report: AuditReport) -> str:
             lines.append(f"- {issue}")
     lines.append("")
     return "\n".join(lines)
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -428,7 +415,6 @@ def main() -> int:
             print(f"strict: {issue}", file=sys.stderr)
         return 1
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

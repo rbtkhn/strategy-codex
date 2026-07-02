@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 President Trump last night said that we are very close to having a great good and powerful deal with Iran and maybe this war can come to an end or maybe not. Maybe it'll just continue to to drift on inconsequentially forward. Who can say? But maybe we'll need to go back to war two. All of that is in the offering today and we're going to try to find out how close are we actually to an end of negotiation.

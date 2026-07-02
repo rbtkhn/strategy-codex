@@ -48,10 +48,6 @@ The war is entering a new phase. Trump has an eye on how the war is and will ‘
 
 Simplicius suggests “that Trump’s potential coming attacks against Iran’s energy grid is to be a destabilizing and distracting effect meant to allow US Marines and 82nd Airborne to take Kharg Island, or other Iranian islands. “Senior official” sources continue to claim that the boots-on-ground operation is still highly probable”.
 
-
-
-
-
 Iran evidently is ready to match Trump on the escalatory ladder. Iran’s leadership style plainly has changed with the new Supreme Leader: He is no longer interested in incremental ‘toing and froing’. Iran’s leadership is going for decisive outcomes that will change the West Asian geo-strategic landscape.
 
 And Iran believes that Hormuz represents the leverage with which to do this.
@@ -69,5 +65,4 @@ An Iranian choke-hold over Hormuz -- plus the Houthi’s control over the Red Se
 What is at issue here is not just Iran’s aspiration to eject the US military from the Middle East, but also a geopolitical transformation as GCC and Asian states (such as Japan and South Korea) are compelled by necessity to become ‘client nations’ of Iran to gain access to the Hormuz waterway. And because only Iran would be able to guarantee safe passage.
 
 Effectively, should Iran be able to maintain its choke-hold on the Hormuz, the geo-politics of Asia would be recast in a new strategic reality.
-
 

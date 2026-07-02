@@ -18,11 +18,9 @@ from audit_cadence_rhythm import (
     parse_events,
 )
 
-
 def _write_events(path: Path, body: str) -> Path:
     path.write_text(body, encoding="utf-8")
     return path
-
 
 def test_conductor_audit_counts_explicit_and_inferred_paths(tmp_path: Path) -> None:
     events = _write_events(
@@ -53,7 +51,6 @@ _(Append below this line.)_
     assert summary["closure"]["total_closed"] == 2
     assert summary["closure"]["open_pick_count"] == 0
 
-
 def test_conductor_audit_tracks_open_picks_and_legacy_partial(tmp_path: Path) -> None:
     events = _write_events(
         tmp_path / "cadence.md",
@@ -74,7 +71,6 @@ _(Append below this line.)_
     assert summary["explicit_pick_count"] == 1
     assert summary["closure"]["open_pick_count"] == 1
     assert summary["open_picks"][0]["conductor"] == "toscanini"
-
 
 def test_conductor_audit_evidence_richness_and_format(tmp_path: Path) -> None:
     events = _write_events(
@@ -105,7 +101,6 @@ _(Append below this line.)_
         "legacy_partial=0"
     ) in text
 
-
 def test_conductor_audit_preserves_multiword_falsify_value(tmp_path: Path) -> None:
     events = _write_events(
         tmp_path / "cadence.md",
@@ -121,7 +116,6 @@ _(Append below this line.)_
     assert parsed[1]["kv"]["falsify"] == (
         "If the accumulator date changes on refresh, the read was stale."
     )
-
 
 def test_coffee_recursion_summary_tracks_repeated_unresolved_loops_and_artifacts(
     tmp_path: Path,
@@ -153,7 +147,6 @@ _(Append below this line.)_
         {"loop": "materialization-stub", "count": 2}
     ]
 
-
 def test_rhythm_summary_reports_last_close_separately_from_orientation(tmp_path: Path) -> None:
     events = _write_events(
         tmp_path / "cadence.md",
@@ -177,7 +170,6 @@ _(Append below this line.)_
     assert summary["coffee"]["close_count"] == 1
     assert summary["coffee_recursion"]["last_close"]["readiness"] == "execution_ready"
     assert "coffee close: picked=B outcome=partial readiness=execution_ready" in text
-
 
 def test_conductor_audit_uses_coffee_close_closed_without_double_counting_outcomes(
     tmp_path: Path,

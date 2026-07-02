@@ -1,7 +1,6 @@
 # Civilization Arc-Lens Backfill Audit
 <!-- word_count: 1688 -->
 
-
 ## Purpose
 
 Audit the existing `art.md`, `lit.md`, `geo.md`, `war.md`, and `peace.md` civilization arc-lenses for America, Russia, China, and Iran against the CIV-EMP retrieval doctrine.

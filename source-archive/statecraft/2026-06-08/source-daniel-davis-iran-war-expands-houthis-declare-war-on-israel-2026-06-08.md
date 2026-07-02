@@ -36,7 +36,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 The ceasefire in the Iran war was broken first by Iran, then by Israel, and then both kind of went back to a ceasefire, only we don't really know for sure where it's going to go. And where is all this going to lead to? What is going to happen next? And then, by the way, the war could also be uh horizontally expanding.

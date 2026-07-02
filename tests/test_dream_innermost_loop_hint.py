@@ -11,7 +11,6 @@ if str(SCRIPTS) not in sys.path:
 
 import dream_innermost_loop_hint as hint
 
-
 RSS_FIXTURE = """<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
@@ -32,7 +31,6 @@ RSS_FIXTURE = """<?xml version="1.0" encoding="UTF-8"?>
 </rss>
 """
 
-
 def test_parse_latest_post_selects_newest_and_sanitizes_title():
     latest = hint.parse_latest_post(RSS_FIXTURE)
 
@@ -40,7 +38,6 @@ def test_parse_latest_post_selects_newest_and_sanitizes_title():
     assert latest["published_at"] == "2026-05-09T12:30:00+00:00"
     assert "<script>" not in latest["title"]
     assert latest["title"] == "Latest & Sharper bad"
-
 
 def test_build_frontier_source_hint_is_metadata_only():
     result = hint.build_frontier_source_hint(
@@ -59,7 +56,6 @@ def test_build_frontier_source_hint_is_metadata_only():
     assert "body" not in result
     assert "This body should not be retained" not in str(result)
 
-
 def test_build_frontier_source_hint_failure_is_non_blocking():
     result = hint.build_frontier_source_hint(feed_xml="<not xml")
 
@@ -67,7 +63,6 @@ def test_build_frontier_source_hint_failure_is_non_blocking():
     assert result["source_name"] == "The Innermost Loop"
     assert result["source_mode"] == "live_lookup"
     assert "error" in result
-
 
 def test_format_frontier_source_followup_only_for_ok_hint():
     ok = hint.build_frontier_source_hint(feed_xml=RSS_FIXTURE)

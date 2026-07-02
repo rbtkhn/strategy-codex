@@ -30,7 +30,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Yeah. Yeah. >> Welcome back. Today is June 2nd, 2026 and we have the great privilege of being joined by Stanislav Graivnik, a former US Army officer who since returned to his NATO native Donbas. So, thank you for coming back on the program. >> Thank you. Uh, and it's always a pleasure to be on.

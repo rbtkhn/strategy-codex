@@ -13,8 +13,6 @@ post_id: 195207168
 
 # The Innermost Loop - 2026-04-23
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 23, 2026
@@ -29,10 +27,7 @@ The Singularity is now staring at its own reflection and taking notes.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now staring at its own reflection and taking notes. OpenAI released ChatGPT Images 2.0 , its first image model with thinking capabilities, able to search the web, generate multiple distinct images from one prompt, and audit its own outputs. GPT-Image-2 promptly swept every Image Arena leaderboard with a record +242 point Text-to-Image lead, and in a dizzying bit of recursion, OpenAI demoed the model generating photorealistic screenshots of ChatGPT conversations . The pipeline keeps widening. OpenAI leaked internal names including GPT-5.5, glacier-alpha, and arcanine ahead of an imminent release, while forecasters now peg Anthropic’s Mythos Preview at a METR 50% Time Horizon of 40 hours, a full human work week, with Opus 4.7 at 19.
+- The Singularity is now staring at its own reflection and taking notes. OpenAI released ChatGPT Images 2.0 , its first image model with thinking capabilities, able to search the web, generate multiple distinct images from one prompt, and audit its own outputs. GPT-Image-2 promptly swept every Image Arena leaderboard with a record +242 point Text-to-Image lead, and in a dizzying bit of recursion, OpenAI demoed the model generating photorealistic screenshots of ChatGPT conversations . The pipeline keeps widening. OpenAI leaked internal names including GPT-5.5, glacier-alpha, and arcanine ahead of an imminent release, while forecasters now peg Anthropic’s Mythos Preview at a METR 50% Time Horizon of 40 hours, a full human work week, with Opus 4.7 at 19.
 
 The coding wars are getting downright feudal. Steve Yegge reports DeepMind engineers use Claude daily and threatened to quit when Google floated yanking it, prompting Google to assemble a strike team and unite its coding efforts under the Antigravity platform , even as it reassures the world that 75% of its new code is already AI-generated. Efficiency is scaling sideways. PrismML’s 1.58-bit Ternary Bonsai is roughly 9x smaller than 16-bit models while outperforming peers, and Kimi open-sourced K2.6 with SOTA coding and agent-swarm capabilities. Harmonic’s CEO says AI could surpass human mathematicians on specific tasks within 2 to 3 years, which in this climate feels generous.
 

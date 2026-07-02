@@ -12,7 +12,6 @@ import pytest
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = REPO_ROOT / "scripts" / "check_statecraft_notes.py"
 
-
 def _run(*args: str) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         [sys.executable, str(SCRIPT), *args],
@@ -20,7 +19,6 @@ def _run(*args: str) -> subprocess.CompletedProcess[str]:
         capture_output=True,
         text=True,
     )
-
 
 def _import_module():
     import importlib.util
@@ -32,17 +30,14 @@ def _import_module():
     spec.loader.exec_module(mod)
     return mod
 
-
 def test_warn_mode_exits_zero_on_full_scan() -> None:
     proc = _run("--warn")
     assert proc.returncode == 0
-
 
 def test_script_importable() -> None:
     mod = _import_module()
     assert hasattr(mod, "parse_note_metadata")
     assert "mechanism" in mod.TIER_A_TYPES
-
 
 def test_parse_frontmatter_and_fenced_yaml() -> None:
     mod = _import_module()
@@ -55,7 +50,6 @@ def test_parse_frontmatter_and_fenced_yaml() -> None:
     conflict = REPO_ROOT / "statecraft/notes/conflict-iran-mou-theater.md"
     meta2 = mod.parse_note_metadata(conflict, conflict.read_text(encoding="utf-8"))
     assert meta2.note_type == "conflict"
-
 
 def test_stub_exempt_from_validation(tmp_path: Path) -> None:
     mod = _import_module()
@@ -71,14 +65,12 @@ def test_stub_exempt_from_validation(tmp_path: Path) -> None:
     issues = mod.validate_note(meta, text=stub.read_text(encoding="utf-8"))
     assert issues == []
 
-
 def test_prefix_inference_thread_arc() -> None:
     mod = _import_module()
     for name, expected in (("arc-pape-escalation-trap.md", "arc"), ("trend-china-ai-implementation.md", "trend")):
         path = REPO_ROOT / "statecraft/notes" / name
         meta = mod.parse_note_metadata(path)
         assert meta.prefix_inferred_type == expected
-
 
 def test_strict_fails_incomplete_tier_a_note(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     mod = _import_module()
@@ -88,7 +80,6 @@ def test_strict_fails_incomplete_tier_a_note(tmp_path: Path, monkeypatch: pytest
     bad.write_text(
         textwrap.dedent(
             """\
-            WORK only; not Record.
 
             # Incomplete
             """
@@ -101,7 +92,6 @@ def test_strict_fails_incomplete_tier_a_note(tmp_path: Path, monkeypatch: pytest
     issues = mod.validate_note(meta, text=bad.read_text(encoding="utf-8"))
     assert any("missing note_type" in i for i in issues)
     assert any("missing source_basis" in i for i in issues)
-
 
 def test_shelf_native_requires_archive_anchor(tmp_path: Path) -> None:
     mod = _import_module()
@@ -117,7 +107,6 @@ def test_shelf_native_requires_archive_anchor(tmp_path: Path) -> None:
             source_basis: source-archive
             ---
 
-            WORK only; not Record.
             """
         ),
         encoding="utf-8",
@@ -126,11 +115,9 @@ def test_shelf_native_requires_archive_anchor(tmp_path: Path) -> None:
     issues = mod.validate_note(meta, text=note.read_text(encoding="utf-8"))
     assert any("archive anchor" in i for i in issues)
 
-
 def test_changed_only_flag_accepted() -> None:
     proc = _run("--warn", "--changed-only", "--tier-a-only")
     assert proc.returncode == 0
-
 
 def test_exemplar_notes_validate_clean() -> None:
     mod = _import_module()
@@ -150,7 +137,6 @@ def test_exemplar_notes_validate_clean() -> None:
         assert meta.note_type, name
         assert not issues, f"{name}: {issues}"
 
-
 def test_prediction_note_tier_p_validates_clean() -> None:
     mod = _import_module()
     path = REPO_ROOT / "statecraft/notes/predictions/russia-odessa-control-mercouris-2025-01-10.md"
@@ -160,7 +146,6 @@ def test_prediction_note_tier_p_validates_clean() -> None:
     assert meta.note_type == "prediction"
     issues = mod.validate_note(meta, text=text)
     assert not issues
-
 
 def test_prediction_note_rejects_shelf_native(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     mod = _import_module()
@@ -180,7 +165,6 @@ def test_prediction_note_rejects_shelf_native(tmp_path: Path, monkeypatch: pytes
             authority_level: shelf-native
             ---
 
-            WORK only; not Record.
             """
         ),
         encoding="utf-8",

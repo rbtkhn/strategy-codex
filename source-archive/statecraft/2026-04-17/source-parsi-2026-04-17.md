@@ -11,19 +11,3 @@ source_path: docs/skill-work/work-strategy/strategy-notebook/experts/parsi/trans
 - X | cold: @tparsi (2026-04-17, later) — **If** Iranian claims hold (Tehran threatened to resume strikes on **Israel** unless **Israel** agreed a **Lebanon** ceasefire, and that moved **Trump** to push **Netanyahu**), a narrative may emerge that **Iran** “saved” **Lebanon** // hook: conditional coercion story vs **Marandi** **Lebanon** frame (04-16 BP + 04-17 X) — **tension-first** | https://x.com/tparsi | verify:pin-exact-status-URL+screenshot | thread:parsi
 - X | cold: @tparsi **repost** — **Joe Kent** embeds **Trump** **Truth Social**: **B-2** nuclear-material terms; **no** money exchange; **Lebanon** / **Hezbollah** seam separate; **Israel** **prohibited** from bombing **Lebanon** by **U.S.**; Kent adds deal may hold if **Trump** enforces **Israel** restrictions and limits **U.S.** military aid // hook: **Parsi** signal-boost — **cross** `thread:davis` same-day Trump TS embed; keep **dual-register** with §1f pool triage | https://x.com/joekent16jan19 | verify:Truth-Social-primary+Kent-status-URL | thread:parsi
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

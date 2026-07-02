@@ -1,7 +1,6 @@
 # Cognition Streams Pointer
 <!-- word_count: 82 -->
 
-
 If you only need the current eight cognition streams, use this page first:
 
 - `Nima` - `thread:nima` - `Synthesis`

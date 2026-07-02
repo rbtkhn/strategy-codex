@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Tuesday, June 9th, 2026 and our dear friend, our brother Stanislav Krapivnik is here with us. Welcome back, Stas. >> Always a pleasure. >> I want to start. Today I talk with John Helmer here and his take on the situation in Russia. He says that the pe people are I don't know if we can call them majority of the people in Russia are so much frustrated with the way that the war is going on and he says that people in Russia they're asking the Pong administration to escalate to do it on

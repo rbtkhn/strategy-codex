@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Putin Sends Tough Team Geneva As Russia Prepares Giant Missile Strike; Breaks Through Konstantinovka
 
-

@@ -10,7 +10,6 @@ sys.path.insert(0, str(REPO / "scripts"))
 
 from verify_repo_identity import EXPECTED_ORIGIN, verify_repo_identity
 
-
 def test_verify_repo_identity_accepts_strategy_codex(tmp_path: Path) -> None:
     root = tmp_path / "strategy-codex"
     root.mkdir()
@@ -32,7 +31,6 @@ def test_verify_repo_identity_accepts_strategy_codex(tmp_path: Path) -> None:
     assert "root-name=strategy-codex" in lines
     assert "origin=https rbtkhn/strategy-codex" in lines
     assert "AGENTS=active strategy-codex" in lines
-
 
 def test_verify_repo_identity_rejects_wrong_origin(tmp_path: Path) -> None:
     root = tmp_path / "strategy-codex"

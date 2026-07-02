@@ -5,10 +5,8 @@ from __future__ import annotations
 import re
 from typing import Any
 
-
 def _token_set(text: str) -> set[str]:
     return {token for token in re.findall(r"[a-z0-9]+", text.lower()) if len(token) > 2}
-
 
 def similarity(observation_text: str, event_text: str) -> float:
     obs_tokens = _token_set(observation_text)
@@ -16,7 +14,6 @@ def similarity(observation_text: str, event_text: str) -> float:
     if not obs_tokens or not event_tokens:
         return 0.0
     return len(obs_tokens & event_tokens) / len(obs_tokens | event_tokens)
-
 
 def event_match_text(event: dict[str, Any]) -> str:
     parts = [
@@ -26,14 +23,12 @@ def event_match_text(event: dict[str, Any]) -> str:
     ]
     return " ".join(part.strip() for part in parts if part.strip())
 
-
 def observation_match_text(observation: dict[str, Any]) -> str:
     raw = str(observation.get("raw_text") or "")
     sentences = observation.get("sentences") or []
     if sentences:
         return f"{raw} {' '.join(str(s) for s in sentences)}"
     return raw
-
 
 def match_event(observation: dict[str, Any], event_registry: dict[str, dict[str, Any]]) -> str:
     if not event_registry:

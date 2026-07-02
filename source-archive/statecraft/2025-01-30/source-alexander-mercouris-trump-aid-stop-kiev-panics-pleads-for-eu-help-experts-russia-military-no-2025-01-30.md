@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Trump Aid Stop, Kiev Panics; Pleads For EU Help; Experts: Russia Military Now Stronger Than NATO
 
-

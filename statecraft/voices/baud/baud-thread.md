@@ -1,6 +1,5 @@
 # Legacy compatibility surface — `baud-thread`
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Baud arc, helix, or law-thread structure.

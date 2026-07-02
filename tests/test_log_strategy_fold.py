@@ -12,7 +12,6 @@ PY = sys.executable
 LOG = REPO / "scripts" / "log_strategy_fold.py"
 REPORT = REPO / "scripts" / "report_strategy_fold_learning.py"
 
-
 def _run(args: list[str]) -> subprocess.CompletedProcess:
     return subprocess.run(
         [PY, str(args[0])] + args[1:],
@@ -21,7 +20,6 @@ def _run(args: list[str]) -> subprocess.CompletedProcess:
         text=True,
         check=False,
     )
-
 
 def test_log_strategy_fold_appends_jsonl(tmp_path: Path):
     ledger = tmp_path / "strategy-fold-events.jsonl"
@@ -75,7 +73,6 @@ def test_log_strategy_fold_appends_jsonl(tmp_path: Path):
     assert b["notebook_date"] == "2026-04-02"
     assert b["fold_kind"] == "dream"
 
-
 def test_report_strategy_fold_learning_stdout(tmp_path: Path):
     ledger = tmp_path / "e.jsonl"
     events = [
@@ -118,7 +115,6 @@ def test_report_strategy_fold_learning_stdout(tmp_path: Path):
     assert "Tightest" in out
     assert "Loosest" in out
     assert "tight" in out or "loose" in out
-
 
 def test_log_invalid_date_exits_nonzero(tmp_path: Path):
     ledger = tmp_path / "bad.jsonl"

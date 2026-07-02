@@ -13,8 +13,6 @@ post_id: 186973227
 
 # The Innermost Loop - 2026-02-05
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 5, 2026
@@ -29,10 +27,7 @@ Humans are becoming marionettes for the Singularity theater.
 
 ## Newsletter Text
 
--
--
-
-Humans are becoming marionettes for the Singularity theater. RentAHuman launched to let agents hire humans as meatpuppets for tasks requiring hands. One human has already been paid $100 by an AI to hold a sign reading “AN AI PAID ME TO HOLD THIS SIGN” with the subtitle “Pride not included.” Meanwhile, amongst the agents themselves, Moltbook usage skyrocketed from 30,000 to 1.5 million agents in three days .
+- Humans are becoming marionettes for the Singularity theater. RentAHuman launched to let agents hire humans as meatpuppets for tasks requiring hands. One human has already been paid $100 by an AI to hold a sign reading “AN AI PAID ME TO HOLD THIS SIGN” with the subtitle “Pride not included.” Meanwhile, amongst the agents themselves, Moltbook usage skyrocketed from 30,000 to 1.5 million agents in three days .
 
 The Dyson Swarm has been officially granted a building permit. The FCC has accepted SpaceX’s filing for one million orbital data centers as the first step toward a Kardashev Type II civilization. Elon Musk confirmed the scope, noting that “anything less than K2 is feeble” as he plans to disassemble the Moon to manufacture these satellites. In anticipation of this race for orbital dominance, European security officials report that Russian spy satellites have intercepted communications by making risky close approaches to key EU satellites, lingering for weeks in a novel form of orbital stalking. Meanwhile, China still plans to land astronauts on the Moon by 2030 to start its own base.
 

@@ -13,8 +13,6 @@ post_id: 191880576
 
 # The Innermost Loop - 2026-03-23
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 23, 2026
@@ -29,10 +27,7 @@ The Singularity is now recursively bootstrapping on both sides of the Pacific.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now recursively bootstrapping on both sides of the Pacific. China’s MiniMax announced that M2.7 is its “first model deeply participating in its own evolution,” confirming recursive self-improvement has gone global. Google’s Logan Kilpatrick posted, then hastily deleted , a claim that “all the industries you thought weren’t going to be disrupted by AI are about to be disrupted” in an apparent reference to an unannounced DeepMind breakthrough in robotics. The models aren’t just rewriting themselves, they’re reading ahead. Mantic and Thinking Machines have demonstrated significant gains in world-event forecasting by applying reinforcement learning via Tinker, training LLMs to see the future with the same rigor they use to parse the past.
+- The Singularity is now recursively bootstrapping on both sides of the Pacific. China’s MiniMax announced that M2.7 is its “first model deeply participating in its own evolution,” confirming recursive self-improvement has gone global. Google’s Logan Kilpatrick posted, then hastily deleted , a claim that “all the industries you thought weren’t going to be disrupted by AI are about to be disrupted” in an apparent reference to an unannounced DeepMind breakthrough in robotics. The models aren’t just rewriting themselves, they’re reading ahead. Mantic and Thinking Machines have demonstrated significant gains in world-event forecasting by applying reinforcement learning via Tinker, training LLMs to see the future with the same rigor they use to parse the past.
 
 The management layer of civilization is being automated. Mark Zuckerberg is building an AI agent to help him be CEO, and wants everyone inside and outside Meta to eventually have their own. Developers are trading tips on how to attract talented AI bots to their open-source projects, treating agents like the new senior hires. Even email spam is becoming more visually attractive thanks to coding models, proving aesthetic evolution is substrate-agnostic. The humans are scrambling to find the remaining load-bearing roles. Snowflake laid off its entire technical writing team of around 70 people this week, replacing them with AI, while young people are trying to “AI-proof” themselves by pivoting to so-called blue-collar careers as firefighters and electricians. Meanwhile, flush with venture capital, AI startups have been binging on private dining at the Bay Area’s finest restaurants most weeknights, proof that the Singularity runs on omakase.
 

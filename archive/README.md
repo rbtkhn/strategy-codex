@@ -1,7 +1,5 @@
 # Archive
 
-WORK only; not Record.
-
 This is the repo-root **legacy freeze and preserved-snapshot** layer.
 
 `archive/` is **not** the live source-capture owner for repo-root systems. It exists so historical bundles, freezes, and old residues can remain accessible without teaching active routing.

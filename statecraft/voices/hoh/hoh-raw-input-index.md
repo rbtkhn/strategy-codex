@@ -1,6 +1,5 @@
 # Hoh Raw-Input Index
 
-
 Compatibility pointer only.
 
 The canonical Hoh source route map now lives at [hoh-source-index.md](hoh-source-index.md).

@@ -45,7 +45,6 @@ FREEMAN_WIRE_STUBS: dict[str, str] = {
     ),
 }
 
-
 @dataclass(frozen=True)
 class VoiceConfig:
     speaker: str
@@ -68,7 +67,6 @@ class VoiceConfig:
     shared_capture_suffix: str | None = None
     min_events_for_shared_capture: int = 0
 
-
 def _voice_data_paths(speaker: str) -> tuple[Path, Path, Path, Path, Path, Path]:
     data = REPO_ROOT / "statecraft" / "data"
     voice = REPO_ROOT / "statecraft" / "voices" / speaker
@@ -80,7 +78,6 @@ def _voice_data_paths(speaker: str) -> tuple[Path, Path, Path, Path, Path, Path]
         data / f"{speaker}-prediction-thesis-map.json",
         REPO_ROOT / "runtime" / "artifacts" / f"{speaker}-prediction-crawl.json",
     )
-
 
 def _freeman_config() -> VoiceConfig:
     public_map, capture_map, json_out, md_out, thesis_map, crawl = _voice_data_paths("freeman")
@@ -108,7 +105,6 @@ def _freeman_config() -> VoiceConfig:
         min_events_for_shared_capture=2,
     )
 
-
 MERCOURIS_PILOT_EVENT_ORDER: tuple[str, ...] = (
     "ukraine_escalation_russian_capitulation",
     "us_israel_iran_war_preparation_2025",
@@ -122,7 +118,6 @@ MERCOURIS_WIRE_STUBS: dict[str, str] = {
         "statecraft/notes/wire/prediction-resolution-us-israel-iran-war-preparation-2025.md"
     ),
 }
-
 
 def _mercouris_config() -> VoiceConfig:
     public_map, capture_map, json_out, md_out, thesis_map, crawl = _voice_data_paths("mercouris")
@@ -146,7 +141,6 @@ def _mercouris_config() -> VoiceConfig:
         wire_stubs=MERCOURIS_WIRE_STUBS,
     )
 
-
 MACGREGOR_PILOT_EVENT_ORDER: tuple[str, ...] = (
     "ukraine_escalation_russian_capitulation",
     "ukraine_western_aid_prolongs_war",
@@ -159,7 +153,6 @@ MACGREGOR_PILOT_EVENT_ORDER: tuple[str, ...] = (
 )
 
 MACGREGOR_WIRE_STUBS: dict[str, str] = {}
-
 
 def _macgregor_config() -> VoiceConfig:
     public_map, capture_map, json_out, md_out, thesis_map, crawl = _voice_data_paths("macgregor")
@@ -183,17 +176,14 @@ def _macgregor_config() -> VoiceConfig:
         wire_stubs=MACGREGOR_WIRE_STUBS,
     )
 
-
 VOICE_REGISTRY: dict[str, VoiceConfig] = {
     "freeman": _freeman_config(),
     "mercouris": _mercouris_config(),
     "macgregor": _macgregor_config(),
 }
 
-
 def list_voice_speakers() -> list[str]:
     return sorted(VOICE_REGISTRY.keys())
-
 
 def get_voice_config(speaker: str) -> VoiceConfig:
     key = str(speaker or "").strip().lower()
@@ -201,7 +191,6 @@ def get_voice_config(speaker: str) -> VoiceConfig:
         known = ", ".join(list_voice_speakers()) or "(none)"
         raise ValueError(f"unknown speaker {speaker!r}; known: {known}")
     return VOICE_REGISTRY[key]
-
 
 # Freeman compatibility aliases (legacy imports)
 FREEMAN_SPEAKER = "freeman"
@@ -292,7 +281,6 @@ RECORD_LABELS: dict[str, str] = {
     "diagnostic": "Open — diagnostic",
 }
 
-
 def reiteration_strength(appearance_count: int) -> str:
     if appearance_count <= 1:
         return "single"
@@ -303,7 +291,6 @@ def reiteration_strength(appearance_count: int) -> str:
     if appearance_count <= 10:
         return "high"
     return "very high"
-
 
 def format_horizon_label(
     event_public: dict[str, Any],
@@ -384,11 +371,9 @@ OBVIOUS_ASR_FRAGMENT_PATTERNS = (
     re.compile(r"\bhusalah\b", re.I),
 )
 
-
 def quote_speakers_for(guest_speaker: str) -> frozenset[str]:
     guest = str(guest_speaker or "freeman").strip().lower()
     return frozenset({guest, "host", "mixed", "operator_summary"})
-
 
 def infer_guest_speaker_from_path(path: Path) -> str:
     name = path.name.casefold()
@@ -396,7 +381,6 @@ def infer_guest_speaker_from_path(path: Path) -> str:
         if speaker in name:
             return speaker
     return "freeman"
-
 
 def normalize_capture_row(row: dict[str, Any], *, guest_speaker: str = "freeman") -> dict[str, Any]:
     out = dict(row)
@@ -439,7 +423,6 @@ def normalize_capture_row(row: dict[str, Any], *, guest_speaker: str = "freeman"
     out["host_setup"] = host_setup
     return out
 
-
 def _has_dangling_end(excerpt: str) -> bool:
     words = normalize_for_match(excerpt).split()
     if not words:
@@ -447,9 +430,7 @@ def _has_dangling_end(excerpt: str) -> bool:
     last = words[-1].rstrip(".,;:!?")
     return last in DANGLING_END_WORDS
 
-
 FRAGMENT_START_WORDS = frozenset({"do", "yes", "um", "uh", "or", "at", "to"})
-
 
 def _has_mid_word_start(excerpt: str) -> bool:
     text = excerpt.strip()
@@ -458,14 +439,11 @@ def _has_mid_word_start(excerpt: str) -> bool:
     first = text.split()[0].lower().rstrip(".,;:!?")
     return first in FRAGMENT_START_WORDS
 
-
 def _has_obvious_asr_fragment(excerpt: str) -> bool:
     return any(pattern.search(excerpt) for pattern in OBVIOUS_ASR_FRAGMENT_PATTERNS)
 
-
 def _has_host_address_tokens(excerpt: str) -> bool:
     return any(pattern.search(excerpt) for pattern in HOST_ADDRESS_PATTERNS)
-
 
 def extract_quote(note_text: str) -> str:
     lines = note_text.splitlines()
@@ -488,7 +466,6 @@ def extract_quote(note_text: str) -> str:
         text = text[1:-1].strip()
     return text
 
-
 def shorten_quote(quote: str, max_chars: int = 240) -> str:
     text = quote.strip()
     if len(text) <= max_chars:
@@ -496,15 +473,12 @@ def shorten_quote(quote: str, max_chars: int = 240) -> str:
     cut = text[: max_chars - 1].rsplit(" ", 1)[0]
     return (cut or text[: max_chars - 3]).rstrip() + "…"
 
-
 def require_quote(note_path: Path, quote: str) -> None:
     if not quote.strip():
         raise ValueError(f"missing quote in {note_path}")
 
-
 def extract_quote_stub(note_text: str) -> str:
     return shorten_quote(extract_quote(note_text))
-
 
 def load_public_map(
     path: Path | None = None,
@@ -534,7 +508,6 @@ def load_public_map(
             raise ValueError(f"public map {event_id}.prediction_object_terms must be non-empty strings")
     return data
 
-
 def select_anchor_quote(
     event_public: dict[str, Any],
     touchpoints: list[dict[str, Any]],
@@ -551,7 +524,6 @@ def select_anchor_quote(
     if touchpoints:
         return str(touchpoints[-1].get("quote") or "")
     return ""
-
 
 def derive_record(
     *,
@@ -595,7 +567,6 @@ def derive_record(
 
     return "consistent", RECORD_LABELS["consistent"]
 
-
 def normalize_for_match(text: str) -> str:
     text = text.replace("\u2019", "'").replace("\u2018", "'")
     text = text.replace("\u201c", '"').replace("\u201d", '"')
@@ -604,10 +575,8 @@ def normalize_for_match(text: str) -> str:
     text = re.sub(r"\s+", " ", text.strip().lower())
     return text
 
-
 def word_count(text: str) -> int:
     return len(re.findall(r"\b[\w'-]+\b", text))
-
 
 def is_complete_sentence(text: str, *, capture_body: str | None = None) -> bool:
     stripped = text.strip()
@@ -620,7 +589,6 @@ def is_complete_sentence(text: str, *, capture_body: str | None = None) -> bool:
     if capture_body and excerpt_in_capture(stripped, capture_body):
         return True
     return False
-
 
 def is_title_like(text: str) -> bool:
     stripped = text.strip()
@@ -638,13 +606,11 @@ def is_title_like(text: str) -> bool:
         return True
     return False
 
-
 def extract_youtube_url_from_capture_text(text: str) -> str | None:
     m = YOUTUBE_URL_RE.search(text)
     if not m:
         return None
     return f"https://www.youtube.com/watch?v={m.group(1)}"
-
 
 def parse_capture_frontmatter(text: str) -> tuple[dict[str, str], str]:
     if not text.startswith("---"):
@@ -661,7 +627,6 @@ def parse_capture_frontmatter(text: str) -> tuple[dict[str, str], str]:
         val = val.strip().strip('"').strip("'")
         fm[key.strip()] = val
     return fm, body
-
 
 def source_citation(
     capture_path: Path,
@@ -693,7 +658,6 @@ def source_citation(
         "youtube_url": youtube_url,
     }
 
-
 def excerpt_in_capture(excerpt: str, capture_body: str) -> bool:
     if not excerpt.strip():
         return False
@@ -701,13 +665,11 @@ def excerpt_in_capture(excerpt: str, capture_body: str) -> bool:
     norm_body = normalize_for_match(capture_body)
     return norm_excerpt in norm_body
 
-
 def excerpt_segments_in_capture(excerpt: str, capture_body: str) -> bool:
     parts = [p.strip() for p in re.split(r"\s*\|\|\|\s*", excerpt) if p.strip()]
     if len(parts) <= 1:
         return excerpt_in_capture(excerpt, capture_body)
     return all(excerpt_in_capture(part, capture_body) for part in parts)
-
 
 def _find_word_start(body_words: list[str], seed_words: list[str]) -> int | None:
     for n in range(min(12, len(seed_words)), 5, -1):
@@ -731,7 +693,6 @@ def _find_word_start(body_words: list[str], seed_words: list[str]) -> int | None
                 return best_i
     return None
 
-
 def _match_word_run(body_words: list[str], start_i: int, seed_words: list[str]) -> int:
     matched = 0
     for j, seed_word in enumerate(seed_words):
@@ -743,7 +704,6 @@ def _match_word_run(body_words: list[str], start_i: int, seed_words: list[str]) 
             break
     return matched
 
-
 def extract_original_word_span(body: str, words: list[str]) -> str:
     if not words:
         return ""
@@ -752,7 +712,6 @@ def extract_original_word_span(body: str, words: list[str]) -> str:
     if match:
         return match.group(0).strip()
     return " ".join(words)
-
 
 def align_excerpt_to_capture(
     excerpt: str,
@@ -793,18 +752,15 @@ def align_excerpt_to_capture(
         body_words[start_i:end_i],
     ).strip()
 
-
 def contains_prediction_object(excerpt: str, terms: list[str]) -> bool:
     if not terms:
         return False
     normalized = normalize_for_match(excerpt)
     return any(normalize_for_match(term) in normalized for term in terms if str(term).strip())
 
-
 def _bad_excerpt_start(excerpt: str) -> bool:
     lowered = normalize_for_match(excerpt)
     return any(lowered.startswith(start) for start in BAD_EXCERPT_STARTS)
-
 
 def resolve_prediction_object_terms(
     row: dict[str, Any],
@@ -815,7 +771,6 @@ def resolve_prediction_object_terms(
         return [str(t) for t in row_terms if str(t).strip()]
     event_terms = public_event.get("prediction_object_terms") or []
     return [str(t) for t in event_terms if str(t).strip()]
-
 
 def validate_excerpt_quality(
     *,
@@ -883,7 +838,6 @@ def validate_excerpt_quality(
             errors.append(f"{event_id}: short_decisive_sentence excerpt too short")
 
     return errors
-
 
 def validate_capture_row(
     row: dict[str, Any],
@@ -997,7 +951,6 @@ def validate_capture_row(
 
     return errors
 
-
 def validate_public_excerpt(
     row: dict[str, Any],
     capture_body: str,
@@ -1015,7 +968,6 @@ def validate_public_excerpt(
         is_anchor=is_anchor,
         require_youtube=require_youtube,
     )
-
 
 def load_capture_map(
     path: Path | None = None,
@@ -1039,7 +991,6 @@ def load_capture_map(
             raise ValueError(f"invalid stance {row['stance']!r} in {row}")
         normalized.append(normalize_capture_row(row, guest_speaker=gs))
     return normalized
-
 
 def select_anchor_appearance(
     appearances: list[dict[str, Any]],
@@ -1068,10 +1019,8 @@ def select_anchor_appearance(
         return min(dated, key=lambda a: a["date"])
     return pool[-1]
 
-
 def iso_now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-
 
 def validate_curated_capture_map(
     config: VoiceConfig,

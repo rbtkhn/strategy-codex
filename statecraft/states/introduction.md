@@ -2,7 +2,6 @@
 
 Opening essay for **Civilizational Statecraft** — this title names the essay and the whole-work **civilizational motion**, not the book title.
 
-
 A statesman lives inside necessity. The classical vocabulary of statecraft — reason of state, diplomatic craft, the pursuit of national interest with prudence rather than moral theater — names an art older than modern international relations: steering a sovereign people through power, alliance, timing, coercion, and negotiation so the state survives, secures its interests, and shapes the calculations of others short of catastrophe. Morgenthau's realism insisted that universal moral rules cannot be applied to states in the abstract; consequences matter. Diplomatic doctrine insists that statecraft is not kindness and not merely the prelude to force — it is the disciplined attempt to rearrange how adversaries and partners perceive their circumstances until policy moves in a tolerable direction.
 
 That art fails when it has no civilizational depth. A briefing room can map force, sanctions, and elections. It cannot by itself read mandate grammar, humiliation memory, sacred residue, or the difference between a continuity claim that survives rupture and one that has already thinned into procedural shell. Realism without inherited form becomes geometry. Policy without legitimacy becomes pressure without settlement. The statesman who treats history as episodic news, or adversaries as cultureless units, will mistake empire for order, or civilizational entropy for mere policy friction.

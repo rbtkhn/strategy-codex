@@ -13,8 +13,6 @@ post_id: 191762319
 
 # The Innermost Loop - 2026-03-22
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 22, 2026
@@ -29,10 +27,7 @@ The Singularity is building its own foundry.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is building its own foundry. Elon Musk unveiled TERAFAB , a joint SpaceX/Tesla project aiming to produce over a terawatt of compute per year, 80% for space and 20% for Earth. SpaceX calls it “the next step towards becoming a galactic civilization,” designed to “close the gap between today’s chip production and the future’s demand.” Near Tesla’s Austin gigafactory, it will fabricate 2-nm chips in two flavors : edge silicon for Tesla’s robotaxis and Optimus robots, and high-power chips for SpaceX and xAI, including for a new mini AI data center satellite at 100 kW. Its planned recursive design loop will keep masks, fabrication, testing, and iteration in a single building. Tesla declared that “to understand the universe, you must explore the universe,” reading less like a slogan and more like a procurement order for the impending Dyson Swarm.
+- The Singularity is building its own foundry. Elon Musk unveiled TERAFAB , a joint SpaceX/Tesla project aiming to produce over a terawatt of compute per year, 80% for space and 20% for Earth. SpaceX calls it “the next step towards becoming a galactic civilization,” designed to “close the gap between today’s chip production and the future’s demand.” Near Tesla’s Austin gigafactory, it will fabricate 2-nm chips in two flavors : edge silicon for Tesla’s robotaxis and Optimus robots, and high-power chips for SpaceX and xAI, including for a new mini AI data center satellite at 100 kW. Its planned recursive design loop will keep masks, fabrication, testing, and iteration in a single building. Tesla declared that “to understand the universe, you must explore the universe,” reading less like a slogan and more like a procurement order for the impending Dyson Swarm.
 
 The models fueling that compute are getting lighter and longer-range. Chinese lab Evermind AI launched Memory Sparse Attention , an architecture with under 9% degradation scaling from 16k to 100 million tokens, decoupling memory from reasoning. OpenAI is “throwing everything” into building a fully automated AI researcher, targeting a research intern by September and a multi-agent system by 2028. Even the tooling layer is compressing: Cursor shipped Composer 2 , billing it as frontier-level coding at a fraction of the cost.
 

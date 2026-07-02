@@ -19,7 +19,6 @@ archive_links:
 
 # Ritter April 2026 cross-host arc
 
-
 Compatibility note: the canonical bounded April 2026 Ritter synthesis shelf now
 lives at
 [statecraft/voices/ritter/ritter-shelf-2026-04.md](../voices/ritter/ritter-shelf-2026-04.md).

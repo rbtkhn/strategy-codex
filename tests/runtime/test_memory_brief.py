@@ -11,7 +11,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "runtime" / "memory_brief.py"
 
-
 def _obs(
     oid: str,
     *,
@@ -34,13 +33,11 @@ def _obs(
         "confidence": confidence,
     }
 
-
 def _write_ledger(tmp_path: Path, rows: list[dict]) -> None:
     obs_dir = tmp_path / "runtime" / "observations"
     obs_dir.mkdir(parents=True)
     p = obs_dir / "index.jsonl"
     p.write_text("\n".join(json.dumps(r, ensure_ascii=False) for r in rows) + "\n", encoding="utf-8")
-
 
 def _run(tmp_path: Path, *args: str) -> subprocess.CompletedProcess[str]:
     env = {**os.environ, "GRACE_MAR_RUNTIME_LEDGER_ROOT": str(tmp_path)}
@@ -52,7 +49,6 @@ def _run(tmp_path: Path, *args: str) -> subprocess.CompletedProcess[str]:
         env=env,
         check=False,
     )
-
 
 def test_builds_brief_and_anchor_is_top_hit(tmp_path: Path) -> None:
     rows = [
@@ -96,7 +92,6 @@ def test_builds_brief_and_anchor_is_top_hit(tmp_path: Path) -> None:
     assert "Expanded Takeaways" in out
     assert "recursion-gate.md" in out
 
-
 def test_timeline_window_bounded(tmp_path: Path) -> None:
     rows = [
         _obs("obs_20200101T080000Z_aaaaaaaa", ts="2020-01-01T08:00:00Z", lane="work-strategy", title="a", summary="x"),
@@ -118,7 +113,6 @@ def test_timeline_window_bounded(tmp_path: Path) -> None:
     )
     assert proc.returncode == 0, proc.stderr
     assert proc.stdout.count("2020-01-01T10:00:00Z") >= 1
-
 
 def test_expand_limit(tmp_path: Path) -> None:
     rows = [
@@ -147,7 +141,6 @@ def test_expand_limit(tmp_path: Path) -> None:
     take = proc.stdout.split("## Expanded Takeaways", 1)[-1].split("## Recommended", 1)[0]
     assert take.count("[obs_") <= 2 or take.count("obs_2020") <= 6
 
-
 def test_writes_output_only(tmp_path: Path) -> None:
     rows = [
         _obs(
@@ -174,7 +167,6 @@ def test_writes_output_only(tmp_path: Path) -> None:
     assert "Boundary:" in out_path.read_text(encoding="utf-8")
     assert proc.stdout.strip() == "" or "wrote" in proc.stderr.lower()
 
-
 def test_does_not_touch_self(tmp_path: Path) -> None:
     user = tmp_path / "platform/users" / "u1"
     user.mkdir(parents=True)
@@ -193,7 +185,6 @@ def test_does_not_touch_self(tmp_path: Path) -> None:
     proc = _run(tmp_path, "--lane", "work-strategy", "--query", "iran")
     assert proc.returncode == 0
     assert self_p.read_text() == "# SELF\n"
-
 
 def test_positional_lane_and_query(tmp_path: Path) -> None:
     rows = [
@@ -216,12 +207,10 @@ def test_positional_lane_and_query(tmp_path: Path) -> None:
     assert "Memory Brief" in proc.stdout
     assert "work-strategy" in proc.stdout
 
-
 def test_rejects_lane_plus_positional(tmp_path: Path) -> None:
     _write_ledger(tmp_path, [])
     proc = _run(tmp_path, "--lane", "work-strategy", "work-strategy")
     assert proc.returncode != 0
-
 
 def test_high_confidence_soft_signal(tmp_path: Path) -> None:
     rows = [

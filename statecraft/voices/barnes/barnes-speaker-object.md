@@ -1,6 +1,5 @@
 # Barnes speaker object
 
-
 object_shape: cross-host-reinforced
 
 Purpose: define Barnes as a first-class speaker object in a way that matches his real utility in the notebook. Unlike Mercouris or Parsi, Barnes does not have one thick native cognition stream body. Unlike Marandi or Ritter, he is not yet best described by a mature multi-host helix. Barnes is best read as a **cross-host reinforced commentary object** whose clearest strength is the domestic-liability, legal-process, and executive-chaos register he brings into adjacent crisis lanes.

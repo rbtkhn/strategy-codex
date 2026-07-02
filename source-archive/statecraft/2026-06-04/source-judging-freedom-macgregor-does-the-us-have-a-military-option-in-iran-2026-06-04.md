@@ -27,7 +27,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Today is Thursday, June 4th, 2026. Colonel Douglas McGregor will be with us in just a moment. Does the United States have a military option in Iran?

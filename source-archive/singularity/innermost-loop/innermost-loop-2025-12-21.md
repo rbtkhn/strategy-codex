@@ -13,8 +13,6 @@ post_id: 182239927
 
 # The Innermost Loop - 2025-12-21
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 21, 2025
@@ -29,10 +27,7 @@ The black box has installed a mirror.
 
 ## Newsletter Text
 
--
--
-
-The black box has installed a mirror. Anthropic has successfully trained “Activation Oracles,” LLMs that accept neural activations as input to interrogate their own internal states, uncovering secret knowledge and misalignment that fine-tuning tried to hide, meaning the machine is now capable of psychoanalyzing its own weights. This recursive introspection is matched by observational osmosis. Nvidia introduced NitroGen, a vision-action foundation model trained on 40,000 hours of Twitch and YouTube gameplay, achieving a 52% performance jump by learning to hallucinate the optimal path through 1,000 different gaming environments. Even the training loop is collapsing, as a new NanoGPT speedrun record of 127.7 seconds proves that basic competence is collapsing into a computational rounding error.
+- The black box has installed a mirror. Anthropic has successfully trained “Activation Oracles,” LLMs that accept neural activations as input to interrogate their own internal states, uncovering secret knowledge and misalignment that fine-tuning tried to hide, meaning the machine is now capable of psychoanalyzing its own weights. This recursive introspection is matched by observational osmosis. Nvidia introduced NitroGen, a vision-action foundation model trained on 40,000 hours of Twitch and YouTube gameplay, achieving a 52% performance jump by learning to hallucinate the optimal path through 1,000 different gaming environments. Even the training loop is collapsing, as a new NanoGPT speedrun record of 127.7 seconds proves that basic competence is collapsing into a computational rounding error.
 
 Physics is being reduced to a solvable heuristic. Former DeepMind director David Budden has wagered $10,000 that he will solve the Navier-Stokes existence and smoothness problem by the end of the year, betting that chaos is just a lack of compute. We are already digitizing the ontogeny of life. MIT researchers trained a generative model that predicts fruit fly embryo development with 90% accuracy, predicting cellular folding minute-by-minute and effectively turning developmental biology into a predictive video stream. In the macro world, Tsinghua researchers unlocked a catalytic process converting polystyrene waste to toluene , cutting carbon emissions by 53% and turning pollution back into feedstock.
 

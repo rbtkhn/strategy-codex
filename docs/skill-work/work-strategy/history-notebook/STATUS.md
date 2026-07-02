@@ -1,4 +1,4 @@
-# History Notebook - STATUS (WORK only)
+# History Notebook - STATUS (non-authoritative)
 
 **Single SSOT** for **next `hn-*` chapters to draft.** Strategy-notebook [meta.md](../../../../continuity/chapters) should **link here**, not maintain a parallel queue.
 

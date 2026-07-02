@@ -1,6 +1,5 @@
 # Singularity-Statecraft Handoff Law
 
-
 ## Purpose
 
 Use this protocol when an object is hovering between `singularity/` and

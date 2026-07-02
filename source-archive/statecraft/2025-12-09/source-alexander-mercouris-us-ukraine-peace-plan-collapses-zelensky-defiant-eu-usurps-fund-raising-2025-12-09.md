@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # US Ukraine Peace Plan Collapses; Zelensky Defiant; EU Usurps Fund Raising Powers; Assigns Guarantees
 
-

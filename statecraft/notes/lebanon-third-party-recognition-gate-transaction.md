@@ -18,7 +18,6 @@ archive_links:
 ---
 # Persia — Lebanon Third-Party Recognition Gate Transaction
 
-
 ## Transaction Name
 
 Lebanon third-party recognition gate with coupled transit-restraint sequencing.

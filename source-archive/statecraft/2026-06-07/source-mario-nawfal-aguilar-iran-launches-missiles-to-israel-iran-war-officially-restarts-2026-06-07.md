@@ -36,7 +36,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hey, Colonel. Hello, Mario. How are you? >> Good. Um, so the obviously you're up to speed with what happened. Iran threatened Israel not to strike Beirut. Uh, a week ago. Israel just struck one building, limited striking Beirut. Let me just be clear. It wasn't a massive strike. I didn't make too much of it.

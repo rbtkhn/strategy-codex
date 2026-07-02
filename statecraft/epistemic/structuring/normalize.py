@@ -15,11 +15,9 @@ DEFAULT_REGISTRY = REPO_ROOT / "statecraft" / "data" / "event-registry.json"
 DEFAULT_OBSERVATIONS_IN = REPO_ROOT / "statecraft" / "epistemic" / "data" / "observations.json"
 DEFAULT_STRUCTURED_OUT = REPO_ROOT / "statecraft" / "epistemic" / "data" / "structured_predictions.json"
 
-
 def load_event_registry(*, path: Path | None = None) -> dict[str, dict[str, Any]]:
     registry_path = path or DEFAULT_REGISTRY
     return json.loads(registry_path.read_text(encoding="utf-8"))
-
 
 def load_observations(*, path: Path | None = None) -> list[dict[str, Any]]:
     observations_path = path or DEFAULT_OBSERVATIONS_IN
@@ -28,13 +26,11 @@ def load_observations(*, path: Path | None = None) -> list[dict[str, Any]]:
         return payload
     return list(payload.get("observations") or [])
 
-
 def extract_prediction(obs: dict[str, Any]) -> str:
     sentences = obs.get("sentences") or []
     if sentences:
         return " ".join(str(sentence) for sentence in sentences)
     return str(obs.get("raw_text") or "").strip()
-
 
 def normalize_observation(
     obs: dict[str, Any],
@@ -57,13 +53,11 @@ def normalize_observation(
     validate_structured(structured)
     return structured
 
-
 def normalize_observations(
     observations: list[dict[str, Any]],
     event_registry: dict[str, dict[str, Any]],
 ) -> list[dict[str, Any]]:
     return [normalize_observation(obs, event_registry) for obs in observations]
-
 
 def write_structured_predictions(
     structured: list[dict[str, Any]],

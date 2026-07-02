@@ -17,14 +17,11 @@ from moonshots_intelligence.evidence import EvidenceBlock
 
 PROMPT_PATH = Path(__file__).resolve().parent / "prompts" / "dual_layer_v1.md"
 
-
 def prompt_hash(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()[:16]
 
-
 def load_prompt_template() -> str:
     return PROMPT_PATH.read_text(encoding="utf-8")
-
 
 def build_prompt(evidence_blocks: list[EvidenceBlock], *, min_bullets: int) -> str:
     template = load_prompt_template()
@@ -42,7 +39,6 @@ def build_prompt(evidence_blocks: list[EvidenceBlock], *, min_bullets: int) -> s
         .replace("{{evidence_json}}", json.dumps(payload, indent=2, ensure_ascii=False))
     )
 
-
 def _extract_json_object(text: str) -> dict[str, Any]:
     text = text.strip()
     fence = re.search(r"```(?:json)?\s*(\{.*\})\s*```", text, re.DOTALL)
@@ -57,7 +53,6 @@ def _extract_json_object(text: str) -> dict[str, Any]:
     if not isinstance(data, dict):
         raise ValueError("LLM response is not a JSON object")
     return data
-
 
 def call_openai_json(prompt: str, *, model: str | None = None) -> tuple[dict[str, Any], str]:
     key = os.getenv("OPENAI_API_KEY", "").strip()
@@ -94,13 +89,11 @@ def call_openai_json(prompt: str, *, model: str | None = None) -> tuple[dict[str
     content = body["choices"][0]["message"]["content"]
     return _extract_json_object(content), model_name
 
-
 def load_bullets_json(path: Path) -> dict[str, Any]:
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict):
         raise ValueError("--bullets-json must be a JSON object")
     return data
-
 
 def generate_document(
     evidence_blocks: list[EvidenceBlock],

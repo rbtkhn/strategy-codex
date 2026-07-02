@@ -34,7 +34,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 So, um, without further ado, um, let's begin. What I would like to do to start off the live stream because because people are still getting in is talk about some news items that, um, have that that have interested me. Okay. So basically I want to in in these live streams interact with everyone at the same time give people insight into how I think about the world and how I go about doing research.

@@ -34,10 +34,6 @@ Then there are the Rothschilds who are the principal advisers to Kiev’s Minist
 
 These ‘stakeholders’ in the Witkoff framework — the creditors of Ukraine, the interests of Blackrock and possibly KKR — stand to do well out of a reconstruction package, in the case of a political settlement agreed between the US and Moscow. “As of February 2026, Ukraine’s sovereign dollar bonds are trading in the 60 to 76 cents on the dollar range, reflecting intense market sensitivity to potential peace proposals. Prices have rallied significantly from lows in the 19–20 cent range seen in late 2024 and early 2025 as diplomatic momentum builds”.
 
-
-
-
-
 Rothschilds may, or may not, have a direct interest in the Ukraine debt package, but as a ‘firm’ they have a bitter history in their dealings with President Putin over what happened to Yukos. The latter was the largest oil and gas enterprise in Russia in the 1990s.
 
 In 2003, Mikhail Khodorkovsky, then head of the Russian oil giant Yukos, appointed Lord Jacob Rothschild as the “guarantor” or “protector” of his controlling stake in the company. The transfer of control of Yukos (which consisted of much of Russia’s oil and gas resources) to Lord Rothschild was triggered automatically in 2003 by Khodorkovsky’s arrest by Russian authorities. The intent was to put these resources beyond President Putin’s reach. However, Yukos subsequently was nationalised and wiped out by tax impositions which effectively voided its assets of any value.

@@ -17,7 +17,6 @@ archive_links:
 ---
 # Hormuz Recognition Transit Transaction
 
-
 ## Transaction Name
 
 Hormuz recognition-for-transit restraint clause.

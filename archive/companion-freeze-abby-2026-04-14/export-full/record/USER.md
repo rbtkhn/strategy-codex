@@ -408,7 +408,6 @@ books_read:
   - title: "The Best of Debussy / Classical Piano Music"
     source: LIB-0134
 
-
 ```
 
 #### Facts (LEARN-nnn)
@@ -957,7 +956,6 @@ entries:
     evidence_id: ACT-0053
     provenance: human_approved
 
-
 ```
 
 ### IX-C. PERSONALITY (Observed)
@@ -1040,7 +1038,6 @@ entries:
     observation: "Survey 2026-03-28 (Q10–Q13): When tired or grumpy, both quiet time alone and closeness with someone trusted help. When a lesson or story feels boring, mind drifts to other thoughts. Feels mean-on-purp"
     evidence_id: ACT-0055
     provenance: human_approved
-
 
 ```
 

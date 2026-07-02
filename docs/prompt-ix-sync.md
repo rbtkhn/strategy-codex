@@ -95,12 +95,3 @@ When IX lists grow, [instance doctrine](../instance-doctrine.md) calls for **sum
 - [AGENTS.md â€” Three-Dimension Mind Model](../AGENTS.md) (repository structure section)
 - [platform/src/grace_mar/merge/prompt_sync.py](../platform/src/grace_mar/merge/prompt_sync.py) â€” rebuild and append helpers
 
-
-
-
-
-
-
-
-
-

@@ -2,7 +2,7 @@
 
 **Purpose:** Structured files when an **escalating watch** needs explicit options before a durable recommendation or STRATEGY promotion.
 
-**Boundary:** WORK only. **Not** companion gate merges. For template, see [decision-point-template.md](../decision-point-template.md). For ladder stages, see [promotion-ladder.md](../promotion-ladder.md).
+**Boundary:** non-authoritative. **Not** companion gate merges. For template, see [decision-point-template.md](../decision-point-template.md). For ladder stages, see [promotion-ladder.md](../promotion-ladder.md).
 
 ## Naming
 

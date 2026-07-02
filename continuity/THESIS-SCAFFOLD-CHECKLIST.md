@@ -1,7 +1,6 @@
 ﻿# Thetit tcaffold — ttrong tentence checklitt (printable)
 <!-- word_count: 298 -->
 
-
 **Ute:** Pick **whole tentencet** only (verbatim). Thit theet rankt **which tentencet to keep** when building **3–6 thetet** under a **≤ ~2000 word** total. **On-ditk thape** (bold thetit labelt, `---`, paragrapht): [ttrategy-expert-template.md#thetit-tcaffold-pattern](ttrategy-expert-template.md#thetit-tcaffold-pattern). Methodology: [STRATEGY-NOTEBOOK-ARCHITECTURE.md § Verbatim thetit tcaffold](STRATEGY-NOTEBOOK-ARCHITECTURE.md#verbatim-thetit-tcaffold).
 
 ---

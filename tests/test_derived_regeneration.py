@@ -27,7 +27,6 @@ REGEN = REPO_ROOT / "scripts" / "regenerate_all_derived.py"
 BUILD_MANIFEST = REPO_ROOT / "scripts" / "build_derived_regeneration_manifest.py"
 REPORT_HEALTH = REPO_ROOT / "scripts" / "report_rebuild_health.py"
 
-
 def _run(args: list[str | Path], *, check: bool = True) -> subprocess.CompletedProcess:
     return subprocess.run(
         [sys.executable, *map(str, args)],
@@ -37,13 +36,11 @@ def _run(args: list[str | Path], *, check: bool = True) -> subprocess.CompletedP
         check=check,
     )
 
-
 def test_select_targets_for_self_library_change() -> None:
     selected = select_targets_for_paths(["self-library.md"])
     ids = {target.target_id for target in selected}
     assert "library-index" in ids
     assert "review-dashboard" not in ids
-
 
 def test_select_targets_for_recursion_gate_change() -> None:
     selected = select_targets_for_paths(["recursion-gate.md"])
@@ -52,14 +49,12 @@ def test_select_targets_for_recursion_gate_change() -> None:
     assert "gate-board" in ids
     assert "governance-posture" in ids
 
-
 def test_select_targets_for_rebuild_receipt_change() -> None:
     selected = select_targets_for_paths(
         ["runtime/artifacts/work-dev/rebuild-receipts/derived-rebuild-20260424-120000.json"]
     )
     ids = {target.target_id for target in selected}
     assert "rebuild-health-summary" in ids
-
 
 def test_change_detector_json_reports_matching_target() -> None:
     proc = _run(
@@ -76,7 +71,6 @@ def test_change_detector_json_reports_matching_target() -> None:
     target_ids = {row["targetId"] for row in payload["targets"]}
     assert "library-index" in target_ids
     assert {row["selectionReason"] for row in payload["targets"]} == {"direct"}
-
 
 def test_change_detector_incremental_json_includes_downstream_order() -> None:
     proc = _run(
@@ -96,13 +90,11 @@ def test_change_detector_incremental_json_includes_downstream_order() -> None:
     assert rows["derived-regeneration-manifest"]["selectionReason"] == "direct"
     assert rows["rebuild-health-summary"]["selectionReason"] == "downstream"
 
-
 def test_expand_with_downstream_adds_lane_dashboards() -> None:
     selected = [TARGETS_BY_ID["work-lanes-dashboard-json"]]
     expanded = expand_with_downstream(selected)
     ids = [target.target_id for target in topologically_sort_targets(expanded)]
     assert ids.index("work-lanes-dashboard-json") < ids.index("lane-dashboards")
-
 
 def test_regenerate_all_derived_dry_run_writes_receipt(tmp_path: Path) -> None:
     receipt = tmp_path / "receipt.json"
@@ -128,7 +120,6 @@ def test_regenerate_all_derived_dry_run_writes_receipt(tmp_path: Path) -> None:
         "runtime/artifacts/library-index.md.derived-rationale.json"
     ]
 
-
 def test_build_rationale_payload_uses_sidecar_contract() -> None:
     target = TARGETS_BY_ID["library-index"]
     payload = build_rationale_payload(
@@ -146,7 +137,6 @@ def test_build_rationale_payload_uses_sidecar_contract() -> None:
     assert payload["inputs"] == ["self-library.md"]
     assert payload["human_review_required"] is False
 
-
 def test_build_manifest_payload_has_dependency_data() -> None:
     payload = build_manifest_payload()
     assert payload["schemaVersion"] == "1.0.0-derived-regeneration-manifest"
@@ -162,7 +152,6 @@ def test_build_manifest_payload_has_dependency_data() -> None:
         "runtime/artifacts/library-index.md.derived-rationale.json"
     ]
 
-
 def test_build_manifest_script_writes_manifest(tmp_path: Path) -> None:
     out = tmp_path / "manifest.json"
     proc = _run([BUILD_MANIFEST, "--output", out])
@@ -170,7 +159,6 @@ def test_build_manifest_script_writes_manifest(tmp_path: Path) -> None:
     payload = json.loads(out.read_text(encoding="utf-8"))
     assert payload["recordAuthority"] == "none"
     assert payload["gateEffect"] == "none"
-
 
 def test_report_rebuild_health_summarizes_receipts(tmp_path: Path) -> None:
     receipts_dir = tmp_path / "receipts"
@@ -215,7 +203,6 @@ def test_report_rebuild_health_summarizes_receipts(tmp_path: Path) -> None:
     assert payload["writtenRationaleSidecarCount"] == 1
     assert payload["latestSuccessfulFullRegenAt"] == "2026-04-24T12:00:00Z"
 
-
 def test_target_registry_contains_expected_foundation_targets() -> None:
     expected = {
         "derived-regeneration-manifest",
@@ -230,12 +217,10 @@ def test_target_registry_contains_expected_foundation_targets() -> None:
     }
     assert expected.issubset(TARGETS_BY_ID.keys())
 
-
 def test_sidecar_path_suffix() -> None:
     assert sidecar_path_for_artifact("runtime/artifacts/review-dashboard.md") == (
         "runtime/artifacts/review-dashboard.md.derived-rationale.json"
     )
-
 
 def test_incremental_ordering_keeps_health_after_manifest() -> None:
     selected = [TARGETS_BY_ID["derived-regeneration-manifest"]]

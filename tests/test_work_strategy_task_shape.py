@@ -12,10 +12,8 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _scripts_ws() -> Path:
     return REPO_ROOT / "scripts" / "work_strategy"
-
 
 def _load_classifier():
     ws = str(_scripts_ws())
@@ -28,9 +26,7 @@ def _load_classifier():
     spec.loader.exec_module(mod)
     return mod
 
-
 cts = _load_classifier()
-
 
 FIXTURES = [
     ("docs/skill-work/work-strategy/fixtures/task-shapes/sample-watch-update.md", "watch_update"),
@@ -40,7 +36,6 @@ FIXTURES = [
     ("docs/skill-work/work-strategy/fixtures/task-shapes/sample-contradiction-review.md", "contradiction_review"),
     ("docs/skill-work/work-strategy/fixtures/task-shapes/sample-source-expansion.md", "source_expansion"),
 ]
-
 
 @pytest.mark.parametrize("rel_task,expected_primary", FIXTURES)
 def test_fixture_primary_shape(rel_task: str, expected_primary: str, tmp_path: Path) -> None:
@@ -66,7 +61,6 @@ def test_fixture_primary_shape(rel_task: str, expected_primary: str, tmp_path: P
     assert data["review_surface"]["primary"] == "task_shape_report"
     assert data["classification"]["primary_shape"] == expected_primary
 
-
 def test_frontmatter_overrides_keyword_noise(tmp_path: Path) -> None:
     out = tmp_path / "ts.json"
     cmd = [
@@ -87,7 +81,6 @@ def test_frontmatter_overrides_keyword_noise(tmp_path: Path) -> None:
     assert data["status"] == "pass"
     assert any(s.startswith("frontmatter:") for s in data["classification"]["matched_signals"])
 
-
 def test_ambiguous_low_confidence(tmp_path: Path) -> None:
     out = tmp_path / "ts.json"
     cmd = [
@@ -107,7 +100,6 @@ def test_ambiguous_low_confidence(tmp_path: Path) -> None:
     assert data["classification"]["confidence"] == "low"
     assert data["classification"]["notes"]
 
-
 def test_fail_on_ambiguous_nonzero(tmp_path: Path) -> None:
     out = tmp_path / "ts.json"
     cmd = [
@@ -123,7 +115,6 @@ def test_fail_on_ambiguous_nonzero(tmp_path: Path) -> None:
     ]
     r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
     assert r.returncode == 1
-
 
 def test_forbidden_out_users(tmp_path: Path) -> None:
     bad_out = REPO_ROOT / "platform/users" / "grace-mar" / "_task_shape_forbidden_test.json"
@@ -145,7 +136,6 @@ def test_forbidden_out_users(tmp_path: Path) -> None:
     assert payload["record_boundary"]["canonical_write_violation"] is True
     assert payload["resources_written"] == []
 
-
 def test_json_stdout(tmp_path: Path) -> None:
     out = tmp_path / "ts.json"
     cmd = [
@@ -163,7 +153,6 @@ def test_json_stdout(tmp_path: Path) -> None:
     assert r.returncode == 0
     payload = json.loads(r.stdout)
     assert payload["receipt_family"] == "inspection"
-
 
 def test_carry_harness_classify_embeds_receipt(tmp_path: Path) -> None:
     receipt_path = tmp_path / "receipt.json"
@@ -192,7 +181,6 @@ def test_carry_harness_classify_embeds_receipt(tmp_path: Path) -> None:
     assert ts_path.is_file()
     ts_data = json.loads(ts_path.read_text(encoding="utf-8"))
     assert ts_data["status"] in ("pass", "needs_review")
-
 
 def test_validator_task_shape_cli(tmp_path: Path) -> None:
     out = tmp_path / "val.json"

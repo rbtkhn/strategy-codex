@@ -1,6 +1,5 @@
 # Strategy raw-input capture — DEPRECATED (2026-06-23)
 
-
 **Status:** The **`continuity/raw-input/`** tree, **`continuity/years/*/raw-input/`**, and compat **`docs/.../../../continuity/raw-input/`** paths are **deprecated** for new strategy-codex capture. Do not create new verbatim files there. Legacy files on disk remain **read-only archaeology**.
 
 ## What replaced it

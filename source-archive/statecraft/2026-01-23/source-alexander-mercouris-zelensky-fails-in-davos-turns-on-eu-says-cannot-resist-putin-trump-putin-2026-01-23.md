@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Zelensky Fails In Davos, Turns On EU, Says Cannot Resist Putin Trump; Putin US Agree Dirty War Talks
 
-

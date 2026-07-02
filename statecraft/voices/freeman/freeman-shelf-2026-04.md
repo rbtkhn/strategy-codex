@@ -1,6 +1,5 @@
 # Freeman shelf - 2026-04
 
-
 Status: mature dense-core month.
 
 April is the densest Freeman month for settlement failure, Hormuz pressure, blockade blowback, and diplomacy-dead sequencing.

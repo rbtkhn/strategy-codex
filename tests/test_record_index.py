@@ -22,7 +22,6 @@ from record_index import (  # noqa: E402
     slice_evidence_section,
 )
 
-
 def test_evidence_sections_and_activity_offset():
     md = """# E
 
@@ -44,7 +43,6 @@ x
     assert "READ" not in act  # section I excluded
     entry = slice_evidence_entry(md, idx, "ACT-0001")
     assert "ACT-0001" in entry
-
 
 def test_memory_horizon_index_buckets():
     md = """# MEMORY
@@ -71,7 +69,6 @@ three
     assert any("two" in ln for ln in buckets["medium"])
     assert any("three" in ln for ln in buckets["long"])
 
-
 @pytest.mark.skipif(
     not (REPO / "self-archive.md").is_file(),
     reason="grace-mar EVIDENCE file not present",
@@ -83,7 +80,6 @@ def test_grace_mar_evidence_index_covers_main_sections():
         assert r in idx.section_spans, f"missing section {r}"
     # entry_spans may be empty after a reseed â€” presence of sections is the structural gate
     assert isinstance(idx.entry_spans, dict)
-
 
 def test_grace_mar_recency_scan_regions():
     raw = (REPO / "self-archive.md").read_text(encoding="utf-8")

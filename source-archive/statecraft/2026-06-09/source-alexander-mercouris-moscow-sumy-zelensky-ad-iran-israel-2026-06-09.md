@@ -38,7 +38,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Tuesday, 9th June, 2026. And as you can tell, I am now in Moscow and I'm making this uh program from my hotel room. Um, I've been here several hours, and it's been possible for me to make a to get a general impression of the state of things. Obviously, one can only say so much after being a few hours in a city.

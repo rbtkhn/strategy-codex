@@ -1,6 +1,5 @@
 # Persia Secondary Sources - Ancient
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the ancient Persia primary shelf when Achaemenid imperial form, Zoroastrian sacred residue, parity-bearing sovereignty, or Roman-comparison temptation need stronger chronology or anti-cliche control. This file owns the main Persia-side explanation of why Will Durant is useful here: broad civilizational sweep and accessible transition framing, but not specialist final judgment.

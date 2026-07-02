@@ -6,7 +6,7 @@
 
 ---
 
-## Safe commands (WORK only)
+## Safe commands (non-authoritative)
 
 | Habit | Example command | Why it is safe |
 |-------|-----------------|----------------|

@@ -6,10 +6,8 @@ from pathlib import Path
 
 import scripts.backfill_x_shortform_bundle_raw_input as module
 
-
 def test_default_profile_url_strips_at_prefix() -> None:
     assert module._default_profile_url("@Example") == "https://x.com/Example"
-
 
 def test_main_pins_x_platform(monkeypatch, tmp_path: Path) -> None:
     body = tmp_path / "ocr.md"

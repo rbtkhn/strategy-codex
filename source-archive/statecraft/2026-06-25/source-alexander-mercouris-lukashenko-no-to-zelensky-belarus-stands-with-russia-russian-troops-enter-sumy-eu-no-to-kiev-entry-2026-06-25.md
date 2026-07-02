@@ -35,7 +35,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Zelensky Belarus Threats
 
 Good day. Today is Thursday 25th June 2026 and before I proceed with this program, let me remind you to tick the like button and to check your subscription to this channel. Now, a few days ago, the president of Ukraine, Vladimir Zelensky, made a whole succession of extraordinary threats against Belarus.

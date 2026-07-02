@@ -1,6 +1,5 @@
 # Parity Rival — pattern schema v0.1
-# WORK only; not Record.
-# Prose authority: archive/theory-cross-case-v1/patterns/parity-rival.md
+# # Prose authority: archive/theory-cross-case-v1/patterns/parity-rival.md
 
 schema_version: "0.1"
 pattern_id: parity_rival

@@ -29,7 +29,6 @@ PILOT_EXAMPLE = (
     / "strategy-notebook-visualizer-workbench-receipt.example.json"
 )
 
-
 def _run(args: list[str | Path], *, check: bool = True) -> subprocess.CompletedProcess:
     return subprocess.run(
         [sys.executable, *map(str, args)],
@@ -39,18 +38,15 @@ def _run(args: list[str | Path], *, check: bool = True) -> subprocess.CompletedP
         check=check,
     )
 
-
 def test_validate_example_fixture_passes() -> None:
     p = _run([VALIDATE, EXAMPLE])
     assert p.returncode == 0, p.stderr
     assert "ok" in p.stdout
 
-
 def test_validate_pilot_workbench_receipt_passes() -> None:
     p = _run([VALIDATE, PILOT_EXAMPLE])
     assert p.returncode == 0, p.stderr
     assert "ok" in p.stdout
-
 
 def test_validate_fails_on_bad_record_authority(tmp_path) -> None:
     data = json.loads(EXAMPLE.read_text(encoding="utf-8"))
@@ -61,7 +57,6 @@ def test_validate_fails_on_bad_record_authority(tmp_path) -> None:
     assert p.returncode == 1
     assert "recordAuthority" in p.stderr or "recordAuthority" in p.stdout
 
-
 def test_validate_fails_on_bad_gate_effect(tmp_path) -> None:
     data = json.loads(EXAMPLE.read_text(encoding="utf-8"))
     data["gateEffect"] = "staged"
@@ -69,7 +64,6 @@ def test_validate_fails_on_bad_gate_effect(tmp_path) -> None:
     bad.write_text(json.dumps(data), encoding="utf-8")
     p = _run([VALIDATE, bad], check=False)
     assert p.returncode == 1
-
 
 def test_generator_produces_valid_receipt_at_custom_output(tmp_path) -> None:
     out = tmp_path / "gen.json"
@@ -94,7 +88,6 @@ def test_generator_produces_valid_receipt_at_custom_output(tmp_path) -> None:
     assert data["recordAuthority"] == "none"
     assert data["gateEffect"] == "none"
     assert data["inspection"]["method"] == "pending"
-
 
 def test_generator_refuses_protected_path() -> None:
     target = (

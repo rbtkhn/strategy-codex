@@ -1,6 +1,6 @@
 # Triangulation stub — Iran war (Pape × Postol)
 
-**Status:** WORK only — draft scaffold. **Do not publish** until neutral facts are dated, sourced, and operator/companion approve. Not Record; not Voice knowledge.
+**Status:** non-authoritative — draft scaffold. **Do not publish** until neutral facts are dated, sourced, and operator/companion approve. Not Record; not Voice knowledge.
 
 **Purpose:** Pair two **recent operator-ingested threads** — **Robert Pape** (Breaking Points–style segment: energy, Hormuz leverage, systemic power, NATO stress) and **Theodore Postol** (Glenn Diesen interview: HEU stockpile, breakout latency, nuclear retaliation scenario, urban mass-fire effects) — for **campaign or opposition** copy via [template-three-lenses](../work-politics/analytical-lenses/template-three-lenses.md).
 

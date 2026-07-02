@@ -1,7 +1,6 @@
 # Hormuz Recognition / Transit Restraint
 <!-- word_count: 587 -->
 
-
 ## Source Basis
 
 - CIV-EMP lane: `iran`

@@ -1,7 +1,5 @@
 # Interpretive Machine Cluster
 
-work only; not Record.
-
 This folder is the canonical home of the bounded support cluster behind
 [Interpretive Machine](../interpretive-machine.md).
 

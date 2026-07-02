@@ -71,7 +71,6 @@ python scripts/check_academy_mirror_sync.py --json
 - Do not broad-stage parent changes during a sync check.
 - Do not repair drift unless the user asks. This skill verifies and explains; update/push is a separate action.
 
-
 ## Cursor / strategy-codex instance
 
 _(appendix missing: .cursor/skills/academy-mirror-sync/CURSOR_APPENDIX.md)_

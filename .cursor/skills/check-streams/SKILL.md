@@ -40,7 +40,6 @@ When the operator says **`check streams`**, say you are following **`check sourc
 
 `cognition streams` remains a separate legacy alias — also redirects to **`check sources`**.
 
-
 ## Cursor / strategy-codex instance
 
 _(appendix missing: .cursor/skills/check-streams/CURSOR_APPENDIX.md)_

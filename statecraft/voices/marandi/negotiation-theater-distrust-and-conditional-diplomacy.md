@@ -1,6 +1,5 @@
 # Negotiation theater, distrust, and conditional diplomacy
 
-
 Marandi repeatedly treats negotiations as low-trust, condition-bound, and vulnerable to deception rather than as straightforward peace process language.
 
 Best host lanes:

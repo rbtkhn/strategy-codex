@@ -1,6 +1,5 @@
 # Russia Secondary Sources - Cybernetic
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the cybernetic Russia primary shelf when post-1991 humiliation, restoration claim, presidency, security-state concentration, Ukraine, or sanctions-era proof need stronger present-tense reading or counterweight against total-restoration and total-collapse narratives.

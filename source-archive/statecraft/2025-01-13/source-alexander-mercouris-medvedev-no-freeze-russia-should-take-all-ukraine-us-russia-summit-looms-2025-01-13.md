@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # MEDVEDEV: No Freeze, Russia Should Take ALL Ukraine; US-Russia Summit Looms; EU Sidelined
 
-

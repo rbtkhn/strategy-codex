@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia China Meet Plan Expel US Mideast; Trump Blockade Fails; EU Panics As Russia Brings Asset Case
 
-

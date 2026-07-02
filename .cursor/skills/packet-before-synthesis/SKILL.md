@@ -195,7 +195,6 @@ If verification cannot be completed:
 - stop before archive land, synthesis, publication, or promotion
 - return a bounded partial result for operator review
 
-
 ## Cursor / strategy-codex instance
 
 Grace-mar paths and commands for this repository (from `.cursor/skills/packet-before-synthesis/`).

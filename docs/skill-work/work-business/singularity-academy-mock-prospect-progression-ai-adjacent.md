@@ -1,6 +1,6 @@
 # Singularity-Academy Mock Prospect Progression - AI Adjacent
 
-WORK only. This is a rehearsal surface, not real market traction.
+non-authoritative. This is a rehearsal surface, not real market traction.
 
 ## Purpose
 

@@ -100,4 +100,3 @@ Your brainstorm should **elaborate and extend** this — new combinations, clear
 
 **Consolidated pattern note (repo):** [MINDS-SKILL-STRATEGY-PATTERNS.md](MINDS-SKILL-STRATEGY-PATTERNS.md) — v1 advisory manual derived from brainstorms; extend that file rather than duplicating long pattern prose here.
 
-

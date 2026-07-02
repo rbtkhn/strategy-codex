@@ -33,7 +33,6 @@ transcript_curation: curated_sectioned
 
 ## Cleaned Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Thursday, June 4th, 2026 and our dear friend Andre Martyanov, our brother is here with us. Welcome back, Andre. >> My pleasure. >> Andre, I want to start with what's going on in Russia because we have this sort of chaos. It the war in the Middle East, the war in Ukraine, but what's going on is so important.

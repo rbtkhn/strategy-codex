@@ -9,7 +9,6 @@ if str(_SCRIPTS) not in sys.path:
 
 from youtube_transcripts import whisper_local  # noqa: E402
 
-
 def test_download_audio_wav_routes_through_adapter(tmp_path: Path, monkeypatch) -> None:
     calls: dict[str, object] = {}
     out_wav = tmp_path / "abc123def45.wav"

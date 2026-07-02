@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Yermak Goes Zelensky Regime Unravels; Belgium Blocks EU's Russian Asset Plan US Cuts EU Out of Talks
 
-

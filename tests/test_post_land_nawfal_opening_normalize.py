@@ -11,7 +11,6 @@ from scripts.post_land_nawfal_opening_normalize import post_land_nawfal_opening_
 REPO_ROOT = Path(__file__).resolve().parent.parent
 ARCHIVE = REPO_ROOT / "source-archive" / "statecraft" / "2026-05-31"
 
-
 def _write_capture(path: Path, guest: str, body: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
@@ -34,7 +33,6 @@ source_url: "https://www.youtube.com/watch?v=test"
 """,
         encoding="utf-8",
     )
-
 
 def test_skips_non_nawfal_capture(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     archive = tmp_path / "source-archive" / "statecraft" / "2026-05-31"
@@ -70,7 +68,6 @@ So, the situation in Ukraine continues to develop.
     assert result.status == "skipped-not-nawfal"
     assert not result.applied
 
-
 def test_applies_nawfal_trim_on_land(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     archive = tmp_path / "source-archive" / "statecraft" / "2026-05-31"
     path = archive / "source-nawfal-diesen-test.md"
@@ -92,7 +89,6 @@ def test_applies_nawfal_trim_on_land(tmp_path: Path, monkeypatch: pytest.MonkeyP
     saved = path.read_text(encoding="utf-8")
     assert "opening_trim_applied: true" in saved
     assert "Hey man" not in saved.split("## Transcript", 1)[1]
-
 
 def test_dry_run_does_not_write(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     archive = tmp_path / "source-archive" / "statecraft" / "2026-05-31"

@@ -1,6 +1,5 @@
 # China Lit
 
-
 ## Purpose
 
 Use Chinese literature and classical thought as a statecraft lens for order, sages, ritual legitimacy, statecraft classics, dynastic cycle, harmony / disorder, strategic patience, face, mediation, and the difference between quiet competence and brittle control.

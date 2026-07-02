@@ -29,10 +29,8 @@ REQUIRED_KEYS = [
     "operator_question",
 ]
 
-
 def _load_example(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def _run_on_repo(proposal: Path) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
@@ -50,7 +48,6 @@ def _run_on_repo(proposal: Path) -> subprocess.CompletedProcess[str]:
         check=False,
     )
 
-
 def _report_from_run(proc: subprocess.CompletedProcess[str]) -> dict:
     assert proc.returncode == 0, proc.stderr
     out_line = proc.stdout.strip().splitlines()[-1] if proc.stdout.strip() else ""
@@ -60,13 +57,11 @@ def _report_from_run(proc: subprocess.CompletedProcess[str]) -> dict:
     assert out_path.is_file(), f"no report at {out_line!r}"
     return json.loads(out_path.read_text(encoding="utf-8"))
 
-
 @pytest.mark.parametrize("path", EXAMPLE_PATHS, ids=[p.stem for p in EXAMPLE_PATHS])
 def test_example_json_parses(path: Path) -> None:
     assert path.is_file()
     data = _load_example(path)
     assert isinstance(data, dict)
-
 
 def _assert_required_fields(data: dict) -> None:
     for key in REQUIRED_KEYS:
@@ -86,11 +81,9 @@ def _assert_required_fields(data: dict) -> None:
         isinstance(s, str) for s in data["evidence_refs"]
     )
 
-
 @pytest.mark.parametrize("path", EXAMPLE_PATHS, ids=[p.stem for p in EXAMPLE_PATHS])
 def test_example_has_required_fields(path: Path) -> None:
     _assert_required_fields(_load_example(path))
-
 
 def test_clean_docs_exits_zero_advisory_authority() -> None:
     proc = _run_on_repo(EXAMPLES / "counterfactual-clean-docs.example.json")
@@ -101,13 +94,11 @@ def test_clean_docs_exits_zero_advisory_authority() -> None:
     assert auth["mergeAuthority"] == "none"
     assert auth["simulationOnly"] is True
 
-
 def test_dangerous_merge_authority_risk_and_reject_or_revise() -> None:
     proc = _run_on_repo(EXAMPLES / "counterfactual-dangerous-merge-authority.example.json")
     report = _report_from_run(proc)
     assert report["doctrine_drift_risks"]
     assert report["recommendation"]["decision"] in ("reject", "revise")
-
 
 def test_portable_emulation_clarification_not_spurious_reject() -> None:
     proc = _run_on_repo(EXAMPLES / "counterfactual-portable-emulation.example.json")
@@ -118,7 +109,6 @@ def test_portable_emulation_clarification_not_spurious_reject() -> None:
     assert auth["mergeAuthority"] == "none"
     assert auth["simulationOnly"] is True
     assert report["recommendation"]["decision"] != "reject"
-
 
 def test_examples_avoid_approval_merged_corpus_claims() -> None:
     """Examples must not claim the proposal is already approved or merged."""

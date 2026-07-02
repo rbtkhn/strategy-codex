@@ -1,6 +1,5 @@
 # Jiang Raw-Input Index
 
-
 Compatibility pointer only.
 
 The canonical Jiang source route map now lives at [jiang-source-index.md](jiang-source-index.md).

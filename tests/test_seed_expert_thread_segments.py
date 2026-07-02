@@ -9,7 +9,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "seed_expert_thread_segments.py"
 
-
 def test_main_requires_dry_run_or_apply() -> None:
     r = subprocess.run(
         [
@@ -25,7 +24,6 @@ def test_main_requires_dry_run_or_apply() -> None:
         text=True,
     )
     assert r.returncode == 2
-
 
 def test_inserts_segment_above_marker(tmp_path: Path) -> None:
     t = tmp_path / "strategy-expert-test-expert-thread.md"
@@ -53,7 +51,6 @@ def test_inserts_segment_above_marker(tmp_path: Path) -> None:
     assert "Core stance / through-line" in out
     assert "<!-- strategy-expert-thread:start -->" in out
     assert "machine-line" in out
-
 
 def test_skips_existing_segment(tmp_path: Path) -> None:
     t = tmp_path / "thread.md"

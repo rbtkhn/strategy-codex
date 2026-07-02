@@ -1,6 +1,5 @@
 # Sacred Grammar
 
-
 Volume-local deep grammar for **Civilizational Statecraft**, Volume IV — Russia.
 
 - **Core grammar**

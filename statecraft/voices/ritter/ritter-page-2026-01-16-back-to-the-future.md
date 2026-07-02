@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-01-16 (*Back to the Future*)
 <!-- word_count: 3428 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-01-16 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 3429
@@ -232,7 +231,6 @@ We need a New Cold War if we are going to have a chance at survival.
 
 Because the current state of US-Russian relations has us on a one-way trip on a highway to hell.
 
-
 ### Reflection
 
 **Operator note:** Long US–Russia relations essay (Trump quotes, Alaska/Gurganus thesis, New START, Cold War history, "New Cold War" advocacy). Named-official and CIA claims—essay ≠ wire. Light cleanup of spelling/grammar/OCR errors only.
@@ -254,14 +252,11 @@ Sanctions thread: track whether the piece is arguing mechanism (elite leverage, 
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

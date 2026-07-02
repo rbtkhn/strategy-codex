@@ -74,7 +74,6 @@ UNSUPPORTED_CLASSES: dict[str, str] = {
 
 ADAPTER_VERSION = "1.0.0"
 
-
 # =========================================================================
 # Layer 1 — Core retrieval functions (no MCP dependency)
 # =========================================================================
@@ -87,7 +86,6 @@ def _default_user_id() -> str:
         return "grace-mar"
     return "platform/template"
 
-
 def health() -> dict:
     """Adapter status and capabilities."""
     return {
@@ -98,7 +96,6 @@ def health() -> dict:
         "supported_classes": sorted(SUPPORTED_CLASSES),
         "repo_root": str(REPO_ROOT),
     }
-
 
 def list_export_classes() -> dict:
     """Enumerate export classes with status and descriptions."""
@@ -113,7 +110,6 @@ def list_export_classes() -> dict:
         },
     }
 
-
 def _retrieve_tool_bootstrap(user_id: str) -> dict:
     content = export_prp(user_id=user_id)
     return {
@@ -124,7 +120,6 @@ def _retrieve_tool_bootstrap(user_id: str) -> dict:
         "generated_via": "export_prp",
         "warnings": [],
     }
-
 
 def _retrieve_full(user_id: str) -> dict:
     with tempfile.TemporaryDirectory(prefix="gm_mcp_full_") as tmpdir:
@@ -158,7 +153,6 @@ def _retrieve_full(user_id: str) -> dict:
         "warnings": [],
     }
 
-
 def _retrieve_task_limited(user_id: str) -> dict:
     content = export_fork(user_id=user_id, include_raw=True)
     return {
@@ -170,7 +164,6 @@ def _retrieve_task_limited(user_id: str) -> dict:
         "warnings": [],
     }
 
-
 def _retrieve_capability(user_id: str) -> dict:
     content = export_capability(user_id=user_id)
     return {
@@ -181,7 +174,6 @@ def _retrieve_capability(user_id: str) -> dict:
         "generated_via": "export_capability",
         "warnings": [],
     }
-
 
 def _retrieve_emulation(user_id: str) -> dict:
     with tempfile.TemporaryDirectory(prefix="gm_mcp_emulation_") as tmpdir:
@@ -215,7 +207,6 @@ def _retrieve_emulation(user_id: str) -> dict:
         "warnings": [],
     }
 
-
 _RETRIEVERS: dict[str, object] = {
     "tool_archive/grace-mar-instance/bootstrap": _retrieve_tool_bootstrap,
     "full": _retrieve_full,
@@ -223,7 +214,6 @@ _RETRIEVERS: dict[str, object] = {
     "capability": _retrieve_capability,
     "emulation": _retrieve_emulation,
 }
-
 
 def retrieve_export(user_id: str | None = None, export_class: str = "") -> dict:
     """
@@ -247,7 +237,6 @@ def retrieve_export(user_id: str | None = None, export_class: str = "") -> dict:
 
     retriever = _RETRIEVERS[export_class]
     return retriever(resolved_user)  # type: ignore[operator]
-
 
 # =========================================================================
 # Layer 2 — MCP server (requires ``mcp`` package)
@@ -284,7 +273,6 @@ def _build_mcp_server():  # noqa: ANN202
         return json.dumps(result, indent=2, default=str)
 
     return server
-
 
 if __name__ == "__main__":
     try:

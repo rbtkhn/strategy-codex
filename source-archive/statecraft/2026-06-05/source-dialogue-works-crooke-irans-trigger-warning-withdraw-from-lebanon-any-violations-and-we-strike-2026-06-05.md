@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Cleaned Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Friday, June 5th, 2026 and our dear friend Alistister Krook is here with us. Welcome back, Alistister. >> Thank you very much. That's very kind. >> And I want to start with what has happened between Israel and Lebanon. Israel announced that they're going to hit the city they call Dahi in the southern part of Beirut.

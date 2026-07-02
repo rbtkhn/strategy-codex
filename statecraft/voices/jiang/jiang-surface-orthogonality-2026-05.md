@@ -1,6 +1,5 @@
 # Jiang surface orthogonality review - 2026-05
 
-
 This review checks whether the current Jiang shelf is partitioned sharply enough to preserve cognitive depth, breadth, and connectivity without redundant surfaces.
 
 ## Scope

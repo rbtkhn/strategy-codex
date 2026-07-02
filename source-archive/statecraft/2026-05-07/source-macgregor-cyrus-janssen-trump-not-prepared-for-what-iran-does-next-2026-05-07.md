@@ -28,7 +28,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Studio Open — Week 10 Drama and Express Elevator to Hell
 
 Well, everyone, we're very honored to welcome back into the studio a long-time guest. This is Colonel Douglas McGregor, fantastic insider into all things geopolitics, and certainly the Iran war. Colonel, how are you today? >> Good, Sargon. It's good. >> Yeah, it's great to see you again. Colonel, you know, we are uh in the 10th week of the Iran war, and I just would like to get your your thoughts on this.

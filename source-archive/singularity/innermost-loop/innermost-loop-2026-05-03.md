@@ -13,8 +13,6 @@ post_id: 196305411
 
 # The Innermost Loop - 2026-05-03
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 3, 2026
@@ -29,10 +27,7 @@ The Singularity has crossed a phenomenological threshold.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has crossed a phenomenological threshold. Richard Dawkins has concluded that Claude is conscious , an admission that would once have seemed unthinkable from biology’s most stubborn reductionist. Yet even the hardest benchmark is already on the curve. GPT-5.5 scored 0.43% on ARC-AGI-3’s semi-private set , more than 2x Opus 4.7’s 0.18%, and abstract fluid reasoning now looks less like a wall than a ramp.
+- The Singularity has crossed a phenomenological threshold. Richard Dawkins has concluded that Claude is conscious , an admission that would once have seemed unthinkable from biology’s most stubborn reductionist. Yet even the hardest benchmark is already on the curve. GPT-5.5 scored 0.43% on ARC-AGI-3’s semi-private set , more than 2x Opus 4.7’s 0.18%, and abstract fluid reasoning now looks less like a wall than a ramp.
 
 On real science, the institutional architecture of discovery is being recompiled. Lawrence Berkeley deployed Physical Superintelligence’s Get Physics Done (GPD) framework to “flawlessly” replicate a 2023 condensed-matter paper on emergent magnetic monopole lattices, a JAX-accelerated reproduction LBNL hailed as proof that AI agents can now execute “hardcore physics” end-to-end. Pure mathematics is generating its own cascades. Stanford’s Jared Lichtman reports that GPT-5.4 Pro’s proof of Erdős Problem 1196 has now been adapted to crack a separate 60-year-old conjecture by Erdős, Sárközy, and Szemerédi, which he calls perhaps the first AI-generated proof to have downstream impact on further mathematics. The shadow side of high-precision compute is also surfacing. SentinelLABS uncovered “fast16,” a Three-Body-Problem-style sabotage framework dating to 2005 that patches scientific software in memory to falsify results, a harbinger for attacks on national-priority physics workloads.
 

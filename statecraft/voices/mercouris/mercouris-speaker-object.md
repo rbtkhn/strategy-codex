@@ -1,6 +1,5 @@
 # Mercouris speaker object
 
-
 object_shape: stream-native
 
 Purpose: define Mercouris as a first-class speaker object without forcing him into the wrong shape. Unlike Crooke or Ritter, whose most useful speaker notes are cross-host helixes, Mercouris is primarily a stream-native speaker object whose main body already exists as the native [Mercouris statecraft speaker shelf](README.md). Within that stream, `arc-mercouris-continuity` should be read as a bounded helix containing multiple `arc-mercouris-continuity-threads`.

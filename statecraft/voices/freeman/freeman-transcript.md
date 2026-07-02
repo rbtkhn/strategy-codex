@@ -1,7 +1,6 @@
 # Expert transcript — `freeman`
 <!-- word_count: 689 -->
 
-
 Compatibility note: this is a legacy continuity transcript surface. Use it as support residue, not as a first-open citation path when the canonical Freeman shelf already lives under [statecraft/voices/freeman/](README.md) and the person arc, routing note, bounded month ladder, support spine, or raw-input bench already answer the question more directly.
 
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) that include `thread:freeman` (first line + optional continuation paragraphs), routed on ingest.
@@ -21,32 +20,11 @@ Compatibility note: this is a legacy continuity transcript surface. Use it as su
 - YT | cold: **Amb. Charles Freeman** × **Glenn Diesen** (**2026-04-18** — *Diplomacy Fails - Strait of Hormuz Shut Down Again*) — **U.S. diplomacy decay** / **crony envoys**; **Hormuz** **door vs padlock** + missed **exit**; **Iran** **credibility** vs **Trump** **TS**; **blockade** **sustainability** / **crew** stress vs **Iran** **attrition**; **petrodollar**/yuan; **GCC** **Saudi** **Red Sea** conduit / **Houthi** **Bab el-Mandeb** lever; **China** UN Charter / **Taiwan** strait analogy / **Pakistan** **mediation** / **BRI**–**INSTC** strikes; **Islamabad** **performative** (**Vance**–**Araghchi**) vs **70-person** IRI delegation; **Lebanon** confessional frame / **south** **Gaza model**; **Roy Cohn** / **bankruptcy** **psychology** // hook: **six-thesis** distill + verbatim [source-diesen-2026-04-18-verbatim-2026-04-18.md](../../../source-archive/statecraft/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md) — [strategy-expert-freeman-thread.md](freeman-thread.md) § **Glenn Diesen — 2026-04-18** | https://www.youtube.com/watch?v=TBD-diesen-freeman-2026-04-18 | verify:operator-transcript+pin-canonical-URL+aired:2026-04-18 | thread:freeman | membrane:single | grep:Freeman+Diesen+Hormuz+2026-04-18
 - batch-analysis | 2026-04-18 | **Freeman × Diesen (YT) × Hormuz week stack** | **Tension-first:** **`thread:freeman`** **career-diplomat** **staging** (**door/padlock**, **Islamabad** **performative**, **China** **/ Pakistan** **/ Lebanon** **long** **segments**) — **not** **wire** **ORBAT**. **Cross** **`marandi`** **(Tehran** **register),** **`barnes`** **(White** **House** **/ Vance** **/ Witkoff–Kushner),** **`davis`/`mearsheimer`** **(channel** **geometry),** **`mercouris`** **(institutional** **tickers),** **`parsi`** **(Beltway** **process)** — **explicit** **seams**; **quant** **(**barrels,** **crew** **reports,** **pipeline** **repair)** **verify-first**. | crosses:freeman+diesen(host-not-thread)
 
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-27
 - Inbox | cold: full text in [`source-nima-freeman-israel-agenda-collapsing-2026-04-24.md`](../../../source-archive/statecraft/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md) (pointer; SSOT raw-input) | thread:freeman
 - YT | cold: **Amb. Charles Freeman** (Dialogue Works (Nima), **2026-04-17** — *Israel’s Strategy Just COLLAPSED – Trump Steps In*) — **Phony ceasefire** / **Trump** **rhetoric** vs **reality**; **Israel** **aims unmet** + **Netanyahu** **bind**; **Hormuz** **perception** vs **export** **story** + **GCC hedge**; **US** **decay** / **Rubio**; **Iran** **attrition** // hook: **five theses** + **tri-mind** **`ab+c`** **resolve** — [strategy-expert-freeman-thread.md](freeman-thread.md) § **Dialogue Works (Nima)** + **Tri-mind resolution**; crosses **Davis×Freeman×Mearsheimer** [scaffold](../marandi/marandi-thread.md) (**`strategy-page`** **id** `marandi-ritter-mercouris-hormuz-scaffold`) | https://www.youtube.com/watch?v=TBD-dialogue-works-freeman-2026-04-17 | verify:operator-transcript+pin-canonical-URL | thread:freeman | grep:Freeman+Dialogue+Works+2026-04-17
 - YT | cold: **Amb. Charles Freeman** × **Glenn Diesen** (**2026-04-18** — *Diplomacy Fails - Strait of Hormuz Shut Down Again*) — **U.S. diplomacy decay** / **crony envoys**; **Hormuz** **door vs padlock** + missed **exit**; **Iran** **credibility** vs **Trump** **TS**; **blockade** **sustainability** / **crew** stress vs **Iran** **attrition**; **petrodollar**/yuan; **GCC** **Saudi** **Red Sea** conduit / **Houthi** **Bab el-Mandeb** lever; **China** UN Charter / **Taiwan** strait analogy / **Pakistan** **mediation** / **BRI**–**INSTC** strikes; **Islamabad** **performative** (**Vance**–**Araghchi**) vs **70-person** IRI delegation; **Lebanon** confessional frame / **south** **Gaza model**; **Roy Cohn** / **bankruptcy** **psychology** // hook: **six-thesis** distill + verbatim [source-diesen-2026-04-18-verbatim-2026-04-18.md](../../../source-archive/statecraft/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md) — [strategy-expert-freeman-thread.md](freeman-thread.md) § **Glenn Diesen — 2026-04-18** | https://www.youtube.com/watch?v=TBD-diesen-freeman-2026-04-18 | verify:operator-transcript+pin-canonical-URL+aired:2026-04-18 | thread:freeman | membrane:single | grep:Freeman+Diesen+Hormuz+2026-04-18
 - batch-analysis | 2026-04-18 | **Freeman × Diesen (YT) × Hormuz week stack** | **Tension-first:** **`thread:freeman`** **career-diplomat** **staging** (**door/padlock**, **Islamabad** **performative**, **China** **/ Pakistan** **/ Lebanon** **long** **segments**) — **not** **wire** **ORBAT**. **Cross** **`marandi`** **(Tehran** **register),** **`barnes`** **(White** **House** **/ Vance** **/ Witkoff–Kushner),** **`davis`/`mearsheimer`** **(channel** **geometry),** **`mercouris`** **(institutional** **tickers),** **`parsi`** **(Beltway** **process)** — **explicit** **seams**; **quant** **(**barrels,** **crew** **reports,** **pipeline** **repair)** **verify-first**. | crosses:freeman+diesen(host-not-thread)
-
-
-
-
-
-
-
-
-
-
-
 
 ## 2026-04-26
 - Inbox | cold: full text in [`source-nima-freeman-israel-agenda-collapsing-2026-04-24.md`](../../../source-archive/statecraft/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md) (pointer; SSOT raw-input) | thread:freeman
@@ -54,42 +32,11 @@ Compatibility note: this is a legacy continuity transcript surface. Use it as su
 - YT | cold: **Amb. Charles Freeman** × **Glenn Diesen** (**2026-04-18** — *Diplomacy Fails - Strait of Hormuz Shut Down Again*) — **U.S. diplomacy decay** / **crony envoys**; **Hormuz** **door vs padlock** + missed **exit**; **Iran** **credibility** vs **Trump** **TS**; **blockade** **sustainability** / **crew** stress vs **Iran** **attrition**; **petrodollar**/yuan; **GCC** **Saudi** **Red Sea** conduit / **Houthi** **Bab el-Mandeb** lever; **China** UN Charter / **Taiwan** strait analogy / **Pakistan** **mediation** / **BRI**–**INSTC** strikes; **Islamabad** **performative** (**Vance**–**Araghchi**) vs **70-person** IRI delegation; **Lebanon** confessional frame / **south** **Gaza model**; **Roy Cohn** / **bankruptcy** **psychology** // hook: **six-thesis** distill + verbatim [source-diesen-2026-04-18-verbatim-2026-04-18.md](../../../source-archive/statecraft/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md) — [strategy-expert-freeman-thread.md](freeman-thread.md) § **Glenn Diesen — 2026-04-18** | https://www.youtube.com/watch?v=TBD-diesen-freeman-2026-04-18 | verify:operator-transcript+pin-canonical-URL+aired:2026-04-18 | thread:freeman | membrane:single | grep:Freeman+Diesen+Hormuz+2026-04-18
 - batch-analysis | 2026-04-18 | **Freeman × Diesen (YT) × Hormuz week stack** | **Tension-first:** **`thread:freeman`** **career-diplomat** **staging** (**door/padlock**, **Islamabad** **performative**, **China** **/ Pakistan** **/ Lebanon** **long** **segments**) — **not** **wire** **ORBAT**. **Cross** **`marandi`** **(Tehran** **register),** **`barnes`** **(White** **House** **/ Vance** **/ Witkoff–Kushner),** **`davis`/`mearsheimer`** **(channel** **geometry),** **`mercouris`** **(institutional** **tickers),** **`parsi`** **(Beltway** **process)** — **explicit** **seams**; **quant** **(**barrels,** **crew** **reports,** **pipeline** **repair)** **verify-first**. | crosses:freeman+diesen(host-not-thread)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-25
 - YT | cold: **Chas** **W.** **Freeman** **/** **Dialogue** **Works** **(host** **Nima) —** *Israel’s* *Agenda* *Is* *Collapsing* *Faster* *Than* *Anyone* *Expected* **—** **aired** **2026-04-24** **—** **Hormuz** **blockade** **/** **ceasefire** **frame,** **USN** **carriers,** **NATO** **/** **Orbán,** **Trump** **(deleted)** **Armenia** **/ Pashinyan** **airfield** **read,** **J.D.** **Vance** **(June** **2025** **clip)** **vs** **“collective** **self-defense** **of** **Israel;”** **NPT,** **Greater** **Israel** // hook: **`thread:freeman`** **×** **§1e** **/** **§1g** **—** **full** [provenance/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md](../../../source-archive/statecraft/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md) | TBD (pin Dialogue Works `watch?v=`) | verify:operator-paste+full-text+aired:2026-04-24+opinion-narrative-tier | thread:freeman | IRAN | ISRAEL | NATO | grep:Freeman+Nima+Dialogue+Works+Israel+agenda+2026-04-24
 - YT | cold: **Amb. Charles Freeman** (Dialogue Works (Nima), **2026-04-17** — *Israel’s Strategy Just COLLAPSED – Trump Steps In*) — **Phony ceasefire** / **Trump** **rhetoric** vs **reality**; **Israel** **aims unmet** + **Netanyahu** **bind**; **Hormuz** **perception** vs **export** **story** + **GCC hedge**; **US** **decay** / **Rubio**; **Iran** **attrition** // hook: **five theses** + **tri-mind** **`ab+c`** **resolve** — [strategy-expert-freeman-thread.md](freeman-thread.md) § **Dialogue Works (Nima)** + **Tri-mind resolution**; crosses **Davis×Freeman×Mearsheimer** [scaffold](../marandi/marandi-thread.md) (**`strategy-page`** **id** `marandi-ritter-mercouris-hormuz-scaffold`) | https://www.youtube.com/watch?v=TBD-dialogue-works-freeman-2026-04-17 | verify:operator-transcript+pin-canonical-URL | thread:freeman | grep:Freeman+Dialogue+Works+2026-04-17
 - YT | cold: **Amb. Charles Freeman** × **Glenn Diesen** (**2026-04-18** — *Diplomacy Fails - Strait of Hormuz Shut Down Again*) — **U.S. diplomacy decay** / **crony envoys**; **Hormuz** **door vs padlock** + missed **exit**; **Iran** **credibility** vs **Trump** **TS**; **blockade** **sustainability** / **crew** stress vs **Iran** **attrition**; **petrodollar**/yuan; **GCC** **Saudi** **Red Sea** conduit / **Houthi** **Bab el-Mandeb** lever; **China** UN Charter / **Taiwan** strait analogy / **Pakistan** **mediation** / **BRI**–**INSTC** strikes; **Islamabad** **performative** (**Vance**–**Araghchi**) vs **70-person** IRI delegation; **Lebanon** confessional frame / **south** **Gaza model**; **Roy Cohn** / **bankruptcy** **psychology** // hook: **six-thesis** distill + verbatim [source-diesen-2026-04-18-verbatim-2026-04-18.md](../../../source-archive/statecraft/2026-04-18/source-diesen-2026-04-18-verbatim-2026-04-18.md) — [strategy-expert-freeman-thread.md](freeman-thread.md) § **Glenn Diesen — 2026-04-18** | https://www.youtube.com/watch?v=TBD-diesen-freeman-2026-04-18 | verify:operator-transcript+pin-canonical-URL+aired:2026-04-18 | thread:freeman | membrane:single | grep:Freeman+Diesen+Hormuz+2026-04-18
 - batch-analysis | 2026-04-18 | **Freeman × Diesen (YT) × Hormuz week stack** | **Tension-first:** **`thread:freeman`** **career-diplomat** **staging** (**door/padlock**, **Islamabad** **performative**, **China** **/ Pakistan** **/ Lebanon** **long** **segments**) — **not** **wire** **ORBAT**. **Cross** **`marandi`** **(Tehran** **register),** **`barnes`** **(White** **House** **/ Vance** **/ Witkoff–Kushner),** **`davis`/`mearsheimer`** **(channel** **geometry),** **`mercouris`** **(institutional** **tickers),** **`parsi`** **(Beltway** **process)** — **explicit** **seams**; **quant** **(**barrels,** **crew** **reports,** **pipeline** **repair)** **verify-first**. | crosses:freeman+diesen(host-not-thread)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## 2026-04-24
 - Inbox | cold: full text in [`source-nima-freeman-israel-agenda-collapsing-2026-04-24.md`](../../../source-archive/statecraft/2026-04-24/source-nima-freeman-israel-agenda-collapsing-2026-04-24.md) (pointer; SSOT raw-input) | thread:freeman

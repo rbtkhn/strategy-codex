@@ -44,7 +44,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Open — Deal Progress and Israel Impediment
 
 like the deal is progressing. We're seeing a lot of movement. You've seen it in many of the shows we talked about. They're starting to develop a security umbrella in the Middle East with a number of nations, but America seems to be left out from all of this. We're also seeing this deal, theou progress, but Israel seems to be a major impediment on this.

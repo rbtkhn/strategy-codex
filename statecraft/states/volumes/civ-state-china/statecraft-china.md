@@ -1,6 +1,5 @@
 # Statecraft China
 
-
 ## Where This Sits
 
 This is Part 3 of the China CIV-STATE volume. It is the statesman's synthesis layer: the point where China's civilizational legitimacy and imperial machinery are converted into a live read of pressure, room, leverage, and settlement risk.

@@ -18,7 +18,6 @@ if str(_SCRIPTS) not in sys.path:
 
 from voice_prediction_pilot import VOICE_REGISTRY, get_voice_config, load_capture_map  # noqa: E402
 
-
 def _capture_row_index() -> dict[tuple[str, str, str, str], dict]:
     index: dict[tuple[str, str, str, str], dict] = {}
     for speaker in sorted(VOICE_REGISTRY.keys()):
@@ -34,7 +33,6 @@ def _capture_row_index() -> dict[tuple[str, str, str, str], dict]:
             index[(speaker, event_id, capture, str(row.get("appearance_date") or "")[:10])] = row
             index[(speaker, event_id, capture, "")] = row
     return index
-
 
 def collect_warnings(
     objects: list[dict],
@@ -80,7 +78,6 @@ def collect_warnings(
 
     return warnings
 
-
 def run_check(
     *,
     state_path: Path | None = None,
@@ -113,7 +110,6 @@ def run_check(
         print("[ok] capture-map epistemic advisory (no WARNs)")
     return 0
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--path", type=Path, default=DEFAULT_STATE)
@@ -121,7 +117,6 @@ def main() -> int:
     ap.add_argument("--top", type=int, default=None)
     args = ap.parse_args()
     return run_check(state_path=args.path, advisory=args.advisory, top=args.top)
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

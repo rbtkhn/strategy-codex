@@ -61,7 +61,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 for the Iranian perspective on whatever is happening this morning. We are very fortunate to be joined by Professor Muhammad Marandi of the University of Tehran. Great to see you again, sir. >> Good to see you, sir. >> Great to see the two of you. >> So, let me get your live reaction here to the latest Trump Truth Social post.

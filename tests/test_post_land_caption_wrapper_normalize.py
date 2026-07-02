@@ -6,14 +6,12 @@ from pathlib import Path
 
 from scripts.post_land_caption_wrapper_normalize import post_land_caption_wrapper_normalize
 
-
 def test_skip_non_transcript(tmp_path):
     path = tmp_path / "source-archive" / "statecraft" / "2026-05-13" / "source-notes-test.md"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("---\nkind: article\n---\n\n## Notes\n\nSummary only.\n", encoding="utf-8")
     result = post_land_caption_wrapper_normalize(path)
     assert result.status == "skipped-not-transcript"
-
 
 def test_apply_transcripts_prefix(tmp_path, monkeypatch):
     monkeypatch.setattr(

@@ -1,6 +1,6 @@
 ﻿# Swarm spirit â€” PMOS (WORK ritual, not automation)
 
-**WORK only.** This document names a **human-operated** pattern: many **modes of attention**, one **reviewable** bundle before anything durable. It does **not** describe daemons, bot commands, or scripts that write to [`recursion-gate.md`](../../../archive/grace-mar-instance/recursion-gate.md) or the Record.
+**non-authoritative.** This document names a **human-operated** pattern: many **modes of attention**, one **reviewable** bundle before anything durable. It does **not** describe daemons, bot commands, or scripts that write to [`recursion-gate.md`](../../../archive/grace-mar-instance/recursion-gate.md) or the Record.
 
 **One-line distillation:** *Many voices in the workroom, one envelope at the door.*
 

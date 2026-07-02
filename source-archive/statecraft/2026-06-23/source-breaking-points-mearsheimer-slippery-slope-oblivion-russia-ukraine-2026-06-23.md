@@ -72,7 +72,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Open — Ukrainian Strikes on Russia
 
 Let's go ahead and turn to some more NATO oriented conversation with regard to Ukraine and Russia. There has been a lot going on there. I think it's becoming very dangerous. You've been sounding the alarms. So, we wanted to get you in to give us an update on how you think this is all going. There were some stunning images from last week.

@@ -1,6 +1,5 @@
 # Kent March-May 2026 Cluster Note
 
-
 Purpose: bounded synthesis note for the current Joe Kent cluster so the shelf has one reusable interpretive surface beyond raw provenance and lane selection.
 
 ## Why this cluster matters

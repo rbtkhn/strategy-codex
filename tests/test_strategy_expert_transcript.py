@@ -12,7 +12,6 @@ from scripts.strategy_expert_transcript import (
     triage_to_transcripts,
 )
 
-
 def _minimal_inbox() -> str:
     """No thread: lines — triage adds nothing; existing transcript sections are only pruned."""
     return """# scratch
@@ -20,7 +19,6 @@ def _minimal_inbox() -> str:
 
 _(Append below this line.)_
 """
-
 
 def test_prune_drops_sections_older_than_keep_days_window(tmp_path: Path) -> None:
     """With today=2026-01-20 and keep_days=7, cutoff is 2026-01-13; keep dates > cutoff only."""
@@ -59,7 +57,6 @@ def test_prune_drops_sections_older_than_keep_days_window(tmp_path: Path) -> Non
     assert "## 2026-01-19" in text
     assert "recent" in text
 
-
 def test_prune_exact_cutoff_date_is_removed(tmp_path: Path) -> None:
     """Section dated exactly (today - keep_days) is not kept: d > cutoff is strict."""
     expert = "test-prune-expert"
@@ -96,7 +93,6 @@ def test_prune_exact_cutoff_date_is_removed(tmp_path: Path) -> None:
     assert "on cutoff boundary" not in text
     assert "## 2026-01-14" in text
     assert "first day inside window" in text
-
 
 def test_triage_merges_rss_raw_input_into_transcript(tmp_path: Path) -> None:
     """``kind: rss-item`` + ``thread:`` under raw-input/ is appended like inbox ingests."""
@@ -145,7 +141,6 @@ def test_triage_merges_rss_raw_input_into_transcript(tmp_path: Path) -> None:
     assert "thread:rss-merge-expert" in text
     assert "SSOT raw-input" in text or "verify:raw-input+thread-triage" in text
 
-
 def test_iter_raw_input_yaml_documents_multiple_ingests_in_one_file() -> None:
     text = (
         "---\nkind: rss-item\nthread: e\nguid: g1\nsource_url: u1\npub_date: 2026-01-19\n---\n\n"
@@ -158,7 +153,6 @@ def test_iter_raw_input_yaml_documents_multiple_ingests_in_one_file() -> None:
     assert docs[0][0].get("guid") == "g1"
     assert "One" in docs[0][1]
     assert docs[1][0].get("guid") == "g2"
-
 
 def test_collect_rss_thread_ingests_multi_doc_file(tmp_path: Path) -> None:
     raw_root = tmp_path / "raw-input"
@@ -191,7 +185,6 @@ def test_collect_rss_thread_ingests_multi_doc_file(tmp_path: Path) -> None:
     assert any("Title A" in ln for ln in lines)
     assert any("Title B" in ln for ln in lines)
 
-
 def test_collect_rss_thread_ingests_respects_cutoff(tmp_path: Path) -> None:
     raw_root = tmp_path / "raw-input"
     old = raw_root / "2026-01-10"
@@ -204,7 +197,6 @@ def test_collect_rss_thread_ingests_respects_cutoff(tmp_path: Path) -> None:
         raw_root, cutoff=date(2026, 1, 13), expert_ids_set=frozenset({"e"})
     )
     assert got == {}
-
 
 def test_collect_rss_thread_ingests_includes_shortform_bundle(tmp_path: Path) -> None:
     raw_root = tmp_path / "raw-input"

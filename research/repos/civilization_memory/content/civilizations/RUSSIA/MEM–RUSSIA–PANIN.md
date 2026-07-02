@@ -187,7 +187,6 @@ Robert K. Massie captures Catherine’s governing instinct in
 > held, and defended, even if it alarmed Europe or strained her own
 > administrative limits.”
 
-
 Massie describes Catherine's gradual shift away from Panin's system logic:
 
 "Early in her reign, Catherine valued Panin's system-diplomacy and his

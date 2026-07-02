@@ -116,4 +116,3 @@ And well, as for the negotiations, I think those are to all intents and purposes
 
 Well, this is where I finish today's program. Let me remind you again, you can find all our programs on our various platforms, Locals Rumble X and Substack. You can support our work via Patreon and Subscribe Star and by going to our shop links under this video. Last but not least, please remember to tick the like button and to check your subscription to this channel. That's me for today. More from me soon. Have a very good day.
 
-

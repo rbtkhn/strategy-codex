@@ -14,7 +14,6 @@ FINAL_RECOMMENDATIONS = {
     "reject_artifact",
 }
 
-
 def normalize_role_review(role: str, payload: dict[str, Any]) -> dict[str, Any]:
     verdict = str(payload.get("verdict") or "caution").strip().lower()
     if verdict not in ROLE_VERDICTS:
@@ -34,7 +33,6 @@ def normalize_role_review(role: str, payload: dict[str, Any]) -> dict[str, Any]:
         "evidence_refs": [str(ref).strip() for ref in evidence_refs if str(ref).strip()],
         "recommended_action": recommended_action,
     }
-
 
 def validate_debate_artifact(payload: dict[str, Any]) -> list[str]:
     errors: list[str] = []

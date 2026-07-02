@@ -4,7 +4,6 @@ from pathlib import Path
 
 from grace_mar.presentations.service import create_app
 
-
 class _FakeClient:
     def generate_presentation(self, **_: object) -> dict[str, str]:
         return {
@@ -12,7 +11,6 @@ class _FakeClient:
             "path": "/downloads/presenton-123.pptx",
             "edit_path": "/presentations/presenton-123/edit",
         }
-
 
 def _bundle() -> dict:
     return {
@@ -52,7 +50,6 @@ def _bundle() -> dict:
         },
     }
 
-
 def test_service_render_and_lookup(tmp_path: Path) -> None:
     app = create_app(client=_FakeClient(), store_root=tmp_path)
     client = app.test_client()
@@ -74,7 +71,6 @@ def test_service_render_and_lookup(tmp_path: Path) -> None:
     assert lookup.status_code == 200
     assert lookup.get_json()["render_metadata"]["presenton_presentation_id"] == "presenton-123"
 
-
 def test_service_rejects_disallowed_outputs(tmp_path: Path) -> None:
     app = create_app(client=_FakeClient(), store_root=tmp_path)
     client = app.test_client()
@@ -84,7 +80,6 @@ def test_service_rejects_disallowed_outputs(tmp_path: Path) -> None:
     )
     assert resp.status_code == 422
     assert "not allowed" in resp.get_json()["error"]
-
 
 def test_service_rejects_unsupported_composite_bundle_type(tmp_path: Path) -> None:
     app = create_app(client=_FakeClient(), store_root=tmp_path)

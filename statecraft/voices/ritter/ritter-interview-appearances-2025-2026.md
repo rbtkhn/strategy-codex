@@ -1,6 +1,5 @@
 # Ritter interview appearances - 2025-2026
 
-
 Purpose: wire Scott Ritter's host-owned interview appearances as a secondary routing and corroboration layer. This note supplements the Substack-only forecast ledger and the host-local speaker arcs; it does not replace them.
 
 ## Source Boundary

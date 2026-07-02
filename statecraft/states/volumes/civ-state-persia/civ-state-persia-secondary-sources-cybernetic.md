@@ -1,6 +1,5 @@
 # Persia Secondary Sources - Cybernetic
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the cybernetic Persia primary shelf when deterrence, sanctions survival, Gulf/Hormuz leverage, regime durability, or negotiation-floor reading need stronger present-tense clarification or counterweight against collapse fantasy.

@@ -1,6 +1,5 @@
 # America - Pakistan Command-Integrity Scare Framework
 
-
 ## Transaction Name
 
 Pakistan command reassurance without sovereignty humiliation.

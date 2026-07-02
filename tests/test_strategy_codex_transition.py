@@ -6,10 +6,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-
 REPO = Path(__file__).resolve().parent.parent
 SCRIPT = REPO / "scripts" / "validate_strategy_codex_transition.py"
-
 
 def test_strategy_codex_transition_validator() -> None:
     result = subprocess.run(

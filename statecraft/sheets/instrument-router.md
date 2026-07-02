@@ -1,6 +1,5 @@
 # Instrument Router
 
-
 Use this sheet after a verified live-event or crisis-object read classifies the crisis object. The router maps live events onto the 12-object instrument plateau so the operator can reuse an existing bundle before inventing a new one.
 
 This sheet implements the middle of the workshop's governing maturation line: braid the object, identify the settlement spine, then decide whether the object honestly deserves instrument note form.

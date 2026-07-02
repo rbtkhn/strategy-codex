@@ -40,7 +40,6 @@ REPLACEMENTS = (
 
 EXTENSIONS = {".md", ".mdc", ".py", ".yaml", ".yml", ".json"}
 
-
 def should_skip(path: Path) -> bool:
     if path.resolve() in {p.resolve() for p in SKIP_FILES}:
         return True
@@ -68,7 +67,6 @@ def should_skip(path: Path) -> bool:
         return True
     return False
 
-
 def patch_file(path: Path) -> bool:
     if should_skip(path) or path.suffix.lower() not in EXTENSIONS:
         return False
@@ -83,7 +81,6 @@ def patch_file(path: Path) -> bool:
         path.write_text(text, encoding="utf-8")
         return True
     return False
-
 
 def main() -> int:
     changed = 0
@@ -102,7 +99,6 @@ def main() -> int:
                 print(path.relative_to(REPO))
     print(f"patched {changed} files", file=sys.stderr)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

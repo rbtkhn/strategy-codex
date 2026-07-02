@@ -13,7 +13,6 @@ _s = str(_SCRIPTS)
 if _s not in sys.path:
     sys.path.insert(0, _s)
 
-
 def test_recommend_human_only_heavy() -> None:
     from authority_comprehension_defaults import recommend_for_authority_class
 
@@ -23,7 +22,6 @@ def test_recommend_human_only_heavy() -> None:
     assert r["recommended_reflection_gate"] == "heavy"
     assert r["rationale"]
 
-
 def test_recommend_draftable_fast_path() -> None:
     from authority_comprehension_defaults import recommend_for_authority_class
 
@@ -32,7 +30,6 @@ def test_recommend_draftable_fast_path() -> None:
     assert r["recommended_envelope_class"] == "none"
     assert r["recommended_reflection_gate"] == "none"
 
-
 def test_recommend_review_required_light() -> None:
     from authority_comprehension_defaults import recommend_for_authority_class
 
@@ -40,7 +37,6 @@ def test_recommend_review_required_light() -> None:
     assert r["recommended_impact_tier"] == "medium"
     assert r["recommended_envelope_class"] == "optional"
     assert r["recommended_reflection_gate"] == "light"
-
 
 def test_check_authority_json_memory_governance() -> None:
     proc = subprocess.run(
@@ -63,7 +59,6 @@ def test_check_authority_json_memory_governance() -> None:
     assert data["recommended_envelope_class"] == "required"
     assert data["recommended_reflection_gate"] == "heavy"
 
-
 def test_check_authority_json_prepared_context() -> None:
     proc = subprocess.run(
         [
@@ -83,7 +78,6 @@ def test_check_authority_json_prepared_context() -> None:
     assert data["authority_class"] == "draftable"
     assert data["recommended_envelope_class"] == "none"
     assert data["recommended_reflection_gate"] == "none"
-
 
 def test_check_authority_legacy_stdout_unchanged() -> None:
     proc = subprocess.run(

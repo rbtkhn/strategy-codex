@@ -12,11 +12,9 @@ if str(SCRIPTS) not in sys.path:
 import build_statecraft_day_dashboard as dash  # noqa: E402
 import build_statecraft_day_indices as idx  # noqa: E402
 
-
 def _write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8", newline="\n")
-
 
 def test_dashboard_uses_local_day_readme_when_present(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
@@ -43,7 +41,6 @@ def test_dashboard_uses_local_day_readme_when_present(tmp_path: Path) -> None:
     assert summary.source_count == 1
     assert summary.host_counter["Andrew Napolitano"] == 1
     assert summary.guest_counter["Matt Hoh"] == 1
-
 
 def test_day_readme_parser_round_trips_section_boundaries(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
@@ -72,7 +69,6 @@ def test_day_readme_parser_round_trips_section_boundaries(tmp_path: Path) -> Non
     assert summary.thread_counter == {"hoh": 1}
     assert summary.fallback_counter == {"youtube-alex-mercouris-*": 1}
 
-
 def test_dashboard_falls_back_to_direct_folder_parse_when_readme_missing(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
     day = root / "2025-01-01"
@@ -96,7 +92,6 @@ def test_dashboard_falls_back_to_direct_folder_parse_when_readme_missing(tmp_pat
     assert summary.source_count == 1
     assert summary.channel_counter["Alex Mercouris"] == 1
 
-
 def test_dashboard_filters_days_by_year_and_date_range(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
     for name in ("2025-01-01", "2025-06-01", "2026-05-26", "2026-05-27"):
@@ -107,7 +102,6 @@ def test_dashboard_filters_days_by_year_and_date_range(tmp_path: Path) -> None:
 
     assert [path.name for path in by_year] == ["2026-05-26", "2026-05-27"]
     assert [path.name for path in by_range] == ["2026-05-26"]
-
 
 def test_dashboard_filters_days_by_channel_thread_host_and_guest(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
@@ -153,7 +147,6 @@ def test_dashboard_filters_days_by_channel_thread_host_and_guest(tmp_path: Path)
     assert [day.date for day in by_host_guest] == ["2026-05-27"]
     assert by_intersection == []
 
-
 def test_resolve_output_paths_uses_default_and_slugged_paths() -> None:
     default_md, default_json = dash.resolve_output_paths(None)
     slug_md, slug_json = dash.resolve_output_paths("Dialogue Works")
@@ -162,7 +155,6 @@ def test_resolve_output_paths_uses_default_and_slugged_paths() -> None:
     assert default_json == dash.OUT_JSON
     assert slug_md == dash.SLICES_DIR / "dialogue-works.md"
     assert slug_json == dash.SLICES_DIR / "dialogue-works.json"
-
 
 def test_dashboard_payload_rolls_up_days_and_marks_anomalies(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
@@ -211,7 +203,6 @@ def test_dashboard_payload_rolls_up_days_and_marks_anomalies(tmp_path: Path) -> 
     assert payload["anomalies"]["missingReadmes"] == ["2026-05-27"]
     assert payload["anomalies"]["fallbackHeavyDays"][0]["date"] == "2026-05-27"
 
-
 def test_dashboard_payload_records_slug_in_query(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
     day = root / "2026-05-26"
@@ -220,7 +211,6 @@ def test_dashboard_payload_records_slug_in_query(tmp_path: Path) -> None:
     payload = dash.build_dashboard_payload(root, [dash.load_day_summary(day)], threads=("mercouris",), slug="mercouris-thread")
 
     assert payload["query"]["slug"] == "mercouris-thread"
-
 
 def test_rendered_dashboard_contains_day_ledger_and_links(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
@@ -255,7 +245,6 @@ def test_rendered_dashboard_contains_day_ledger_and_links(tmp_path: Path) -> Non
     assert "[2026-05-26](" in markdown
     assert "Quiet Days (1-2 files)" in markdown
 
-
 def test_dashboard_json_shape_is_serializable(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
     day = root / "2026-05-26"
@@ -267,7 +256,6 @@ def test_dashboard_json_shape_is_serializable(tmp_path: Path) -> None:
     assert '"schemaVersion": "1.0.0-statecraft-day-dashboard"' in encoded
     assert '"days"' in encoded
     assert '"channels": ["Alex Mercouris"]' in encoded
-
 
 def test_slugged_write_does_not_touch_default_dashboard(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"

@@ -18,7 +18,6 @@ archive_links:
 
 # Alkorshid x Ritter speaker arc
 
-
 Purpose: compact reuse note for the `Alkorshid x Ritter` run inside the Dialogue Works stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Ritter lane Dialogue Works elicits, which files matter most, and how this host-local run differs from the Diesen and Davis Ritter lanes.
 
 ## Why this guest run matters

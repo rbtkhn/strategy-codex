@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # EU Won't Join Iran War Wants Moscow Talks; Russia Says NO Throws Out Macron Envoys; Khamenei Moscow
 
-

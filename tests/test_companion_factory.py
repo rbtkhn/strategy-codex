@@ -8,7 +8,6 @@ from pathlib import Path
 
 from tests.conftest import REPO_ROOT, repo_python, run_cmd
 
-
 def test_companion_factory_new_minimal_template(tmp_path) -> None:
     tpl = tmp_path / "template-root"
     seed = tpl / "platform/users" / "platform/template" / "seed-phase"

@@ -37,7 +37,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — MOU Headwinds and Lebanon Point One
 
 Vice President Vance and President Trump are still desperately trying to get a negotiated settlement with the Iran war to get that war off the table to stop the economic bleeding and to stop the the the consequence and the negative aspects on our economy before they get too bad. But they're running up into some real headwinds.

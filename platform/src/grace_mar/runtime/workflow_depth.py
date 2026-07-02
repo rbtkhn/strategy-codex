@@ -17,7 +17,6 @@ DEPTH_CHOICES: tuple[str, ...] = ("shallow", "normal", "deep", "exhaustive", "au
 DepthPreset = Literal["shallow", "normal", "deep", "exhaustive", "auto"]
 BudgetClass = Literal["compact", "medium", "deep"]
 
-
 def fixed_depth_to_budget_and_max_obs(depth: DepthPreset) -> tuple[BudgetClass, int]:
     """Map a fixed depth preset to lane budget class and default max observation candidates."""
     if depth == "shallow":
@@ -30,13 +29,11 @@ def fixed_depth_to_budget_and_max_obs(depth: DepthPreset) -> tuple[BudgetClass, 
         return "deep", 48
     raise ValueError(f"fixed_depth_to_budget_and_max_obs expects fixed preset, got {depth!r}")
 
-
 def workflow_depth_root(repo_root: Path) -> Path:
     raw = os.environ.get("GRACE_MAR_WORKFLOW_DEPTH_HOME", "").strip()
     if raw:
         return Path(raw).expanduser().resolve()
     return (repo_root / "runtime" / "workflow-depth").resolve()
-
 
 def append_workflow_depth_receipt(repo_root: Path, record: dict[str, Any]) -> Path:
     """Append one JSON object as a line to workflow-depth index (append-only)."""
@@ -46,7 +43,6 @@ def append_workflow_depth_receipt(repo_root: Path, record: dict[str, Any]) -> Pa
     with idx.open("a", encoding="utf-8") as f:
         f.write(json.dumps(record, ensure_ascii=False) + "\n")
     return idx
-
 
 @dataclass
 class WorkflowDepthDecision:
@@ -89,7 +85,6 @@ def decision_from_fixed(
         source_workflow=source_workflow,
     )
 
-
 def decision_from_auto_resolved(
     *,
     resolved_budget_class: BudgetClass,
@@ -121,7 +116,6 @@ def decision_from_auto_resolved(
         source_workflow=source_workflow,
     )
 
-
 def auto_escalation_detected(stop_reason: str, resolved_mode: str) -> bool:
     """Heuristic: auto path chose medium after compact dry-pack."""
     if resolved_mode != "medium":
@@ -131,7 +125,6 @@ def auto_escalation_detected(stop_reason: str, resolved_mode: str) -> bool:
         "high_contradiction_density",
         "low_utilization_escalate",
     )
-
 
 def build_workflow_depth_receipt_record(
     *,

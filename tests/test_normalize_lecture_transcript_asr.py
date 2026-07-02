@@ -22,20 +22,17 @@ from normalize_lecture_transcript_asr import (  # noqa: E402
     split_full_transcript,
 )
 
-
 def test_split_full_transcript() -> None:
     md = f"# Title\n\n{FULL_TRANSCRIPT_HEADING}\n\nhello\n"
     head, body, _ = split_full_transcript(md)
     assert FULL_TRANSCRIPT_HEADING in head
     assert body == "\nhello\n"
 
-
 def test_fix_civilization_thieves_article() -> None:
     text, n = fix_civilization_thieves("He marched against the thieves and thieves fled.")
     assert "the Thebes" not in text
     assert "Thebes" in text
     assert n >= 1
-
 
 def test_normalize_civilization_replaces_granicus() -> None:
     raw = "at the battle of granticus in 334"
@@ -44,11 +41,9 @@ def test_normalize_civilization_replaces_granicus() -> None:
     assert "granticus" not in out.lower()
     assert n >= 1
 
-
 def test_detect_series_game_theory_basename() -> None:
     assert detect_series_from_basename("game-theory-01-intro.md") == "game-theory"
     assert detect_series_from_basename("Game-Theory-02-Foo.md") == "game-theory"
-
 
 def test_normalize_game_theory_common_tier_like_geo() -> None:
     """Volume IV uses common tier plus optional GAME_THEORY_REPLACEMENTS (often empty)."""
@@ -56,7 +51,6 @@ def test_normalize_game_theory_common_tier_like_geo() -> None:
     out, n = normalize_transcript_text(raw, series="game-theory")
     assert "Strait of Hormuz" in out
     assert n >= 1
-
 
 def test_normalize_geo_common_tier_proper_names() -> None:
     """Geo-strategy common-tier replacements fix recurring proper-name garbles."""
@@ -96,7 +90,6 @@ def test_normalize_geo_common_tier_proper_names() -> None:
         assert expected in out, f"{raw!r} → expected {expected!r}, got {out!r}"
         assert n >= 1, f"{raw!r} should have at least 1 substitution"
 
-
 def test_normalize_geo_common_tier_does_not_false_positive() -> None:
     """Real English words that look like ASR garbles must NOT be replaced globally."""
     safe_words = [
@@ -109,14 +102,12 @@ def test_normalize_geo_common_tier_does_not_false_positive() -> None:
         assert out == text, f"False positive: {text!r} was changed to {out!r}"
         assert n == 0
 
-
 def test_normalize_civ_parthians_not_mangled() -> None:
     """The thians→Thebans rule must not corrupt 'parthians' into 'parThebans'."""
     text = "the parthians attacked from the east"
     out, n = normalize_transcript_text(text, series="civilization")
     assert "parThebans" not in out, f"Bug: 'parthians' became {out!r}"
     assert "Parthians" in out
-
 
 def test_normalize_civ_new_proper_names() -> None:
     """Civilization audit 2026-03-24: new replacement entries work."""
@@ -140,7 +131,6 @@ def test_normalize_civ_new_proper_names() -> None:
         out, n = normalize_transcript_text(raw, series="civilization")
         assert expected in out, f"{raw!r} → expected {expected!r}, got {out!r}"
         assert n >= 1, f"{raw!r} should have at least 1 substitution"
-
 
 def test_normalize_secret_history_common_tier() -> None:
     """Secret History audit 2026-03-24: common-tier replacements for SH01-04."""
@@ -194,7 +184,6 @@ def test_normalize_secret_history_common_tier() -> None:
         assert expected in out, f"{raw!r} → expected {expected!r}, got {out!r}"
         assert n >= 1, f"{raw!r} should have at least 1 substitution"
 
-
 def test_normalize_secret_history_no_false_positives() -> None:
     """Real words that resemble SH garbles must not be replaced."""
     safe = [
@@ -208,13 +197,11 @@ def test_normalize_secret_history_no_false_positives() -> None:
         assert out == text, f"False positive: {text!r} → {out!r}"
         assert n == 0
 
-
 def test_detect_series_secret_history() -> None:
     from asr_light_clean import detect_series_from_basename
 
     assert detect_series_from_basename("secret-history-21-roman.md") == "secret-history"
     assert detect_series_from_basename("civilization-01-x.md") == "civilization"
-
 
 def test_normalize_secret_history_tier_roman_phrases() -> None:
     """Secret-history tier applies Volume III Roman / Cannae / Polybius garbles."""
@@ -230,14 +217,12 @@ def test_normalize_secret_history_tier_roman_phrases() -> None:
         assert expected in out, f"{raw!r} → expected substring {expected!r}, got {out!r}"
         assert n >= 1, f"{raw!r} should trigger at least one replacement"
 
-
 def test_normalize_secret_history_tier_does_not_break_plain_english() -> None:
     """Secret-history tier must not rewrite unrelated sentences."""
     text = "The solo guitar piece was beautiful."
     out, n = normalize_transcript_text(text, series="secret-history")
     assert out == text
     assert n == 0
-
 
 def test_merge_lecture_transcript_replaces_body_only(tmp_path: Path) -> None:
     import subprocess
@@ -274,7 +259,6 @@ def test_merge_lecture_transcript_replaces_body_only(tmp_path: Path) -> None:
     assert "OLD BODY" not in text
     assert "NEW LINE ONE" in text
     assert "**Topic:** filled" in text
-
 
 def test_normalize_geo_does_not_apply_thieves_to_thebes(tmp_path: Path) -> None:
     """Geo uses common tier only — 'thieves' is not bulk-replaced."""

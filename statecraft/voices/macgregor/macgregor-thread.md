@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `macgregor`
 <!-- word_count: 3631 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Macgregor helix structure.
@@ -47,7 +46,6 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 
 **Importer / third-country** lane opens Q1 on **Diesen** long-form and **Davis** **Davos** parsing Ã¢â‚¬â€ thesis: **U.S.** **overstretch**, **carrier** **geometry**, and **coalition** **distance** from a maximalist **Israel**Ã¢â‚¬â€œ**U.S.** **kinetic** frame; numbers (**Hormuz** traffic, **dollar**) stay **rough-order** until **wire** rows land.
 
-
 When historical expert context artifacts exist for `macgregor` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-01 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
 
 Cross-lane convergence and tension are notebook-native concepts. For 2026-01, read Ãƒâ€” pape, Ãƒâ€” mearsheimer, Ãƒâ€” parsi as the default **short list** of other experts whose fingerprints commonly collide with `macgregor` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
@@ -70,7 +68,6 @@ The `macgregor` laneÃ¢â‚¬â„¢s role (Importers / AsiaÃ¢â‚¬â€œ
 
 February narrows to **short-window** **strike** warnings and **diplomacy-fail** transcripts Ã¢â‚¬â€ **NATO** **Ukraine** **missile** episode late month keeps **cross-theater** **risk** visible beside **Iran** **escalation** talk.
 
-
 Open pins belong in prose, not only as bullets. For this `macgregor` month segment, explicitly reserve space for **what remains unresolved**: which claims await transcript confirmation, which geopolitical sub-claims depend on translation or primary document access, and which institutional facts are stable enough to reuse in weave scaffolding. That habit keeps later strategy passes from mistaking silence for certainty.
 
 Finally, 2026-02 should remain safe for **operator rotation**: someone returning after weeks should be able to read this segment and recover **lane orientation** (role: Importers / AsiaÃ¢â‚¬â€œEurope distance from U.S.Ã¢â‚¬â€œIsrael kinetic frame), **pairing map** (Ãƒâ€” pape, Ãƒâ€” mearsheimer, Ãƒâ€” parsi), and **next verification moves** without loading the entire quarter. That recoverability is why the minimum prose budget existsÃ¢â‚¬â€not to pad, but to force a minimum coherent account of what this month was for in the notebook.
@@ -92,7 +89,6 @@ Verification stance for Douglas Macgregor (@DougAMacgregor) in 2026-02 should st
 ## 2026-03
 
 March shifts to **open conflict** commentary Ã¢â‚¬â€ **Persian Gulf** **control** thesis, **dangerous phase** video essays, and **Hormuz** **oil** **band** **warnings**; align with **Jermy** **macro** **closure** lane only via **labeled** **batch-analysis**.
-
 
 If pages named this expert during 2026-03, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃ¢â‚¬â€absence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
 
@@ -156,7 +152,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 - **2026-03** Ã¢â‚¬â€ 21st Century Wire pointer article.
   _Source:_ web: `https://www.21cir.com/2026/03/191016/`
 
-
 ### 2026-04
 
 - **2026-04** Ã¢â‚¬â€ Ledger mirror 1 (partial month).
@@ -168,7 +163,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 _Partial month Ã¢â‚¬â€ **2026-04-12** machine capture + importer/defection lane; April not closed._
 
 April X-traffic stresses **third-country / importer** distance from U.S.Ã¢â‚¬â€œIsrael kinetic framing Ã¢â‚¬â€ tanker / ROK / Spain diplomatic pointers Ã¢â‚¬â€ **Thesis B** (mediation, buck-passing) vs pure Hormuz ORBAT.
-
 
 The `macgregor` laneÃ¢â‚¬â„¢s role (Importers / AsiaÃ¢â‚¬â€œEurope distance from U.S.Ã¢â‚¬â€œIsrael kinetic frame) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃ¢â‚¬â„¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
 

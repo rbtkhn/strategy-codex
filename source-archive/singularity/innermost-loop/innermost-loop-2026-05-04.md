@@ -13,8 +13,6 @@ post_id: 196413523
 
 # The Innermost Loop - 2026-05-04
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 4, 2026
@@ -29,10 +27,7 @@ The Singularity is being measured by the very minds it’s about to outpace.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is being measured by the very minds it’s about to outpace. OpenAI’s Greg Brockman estimates we’re about 80% of the way to AGI , and Sam Altman concedes that, despite the temptation of cheaper and faster, smarter is still the most important thing , warning users to get ready for their lives to be changed by the next major leap after GPT-5.5. The lab heads now read their own creations like grandmasters. Demis Hassabis, a former chess prodigy himself, plays chess against Gemini to trace its chain-of-thought, sensing precisely when the model starts reasoning itself into trouble. The models have begun contributing original work back. Harmonic’s formal reasoning agent is now solving recently posed research problems with proofs that leading number theorists call “correct, simple, elegant, and beautiful,” complete with novel ideas of their own. The frontier still skews American for now. NIST’s CAISI evaluates Chinese models as lagging by 8 months , a verdict echoed by independent analysis which noted that adjusting for token usage and eval freshness reveals a much wider gap than the 4-5 months crude benchmarks suggest.
+- The Singularity is being measured by the very minds it’s about to outpace. OpenAI’s Greg Brockman estimates we’re about 80% of the way to AGI , and Sam Altman concedes that, despite the temptation of cheaper and faster, smarter is still the most important thing , warning users to get ready for their lives to be changed by the next major leap after GPT-5.5. The lab heads now read their own creations like grandmasters. Demis Hassabis, a former chess prodigy himself, plays chess against Gemini to trace its chain-of-thought, sensing precisely when the model starts reasoning itself into trouble. The models have begun contributing original work back. Harmonic’s formal reasoning agent is now solving recently posed research problems with proofs that leading number theorists call “correct, simple, elegant, and beautiful,” complete with novel ideas of their own. The frontier still skews American for now. NIST’s CAISI evaluates Chinese models as lagging by 8 months , a verdict echoed by independent analysis which noted that adjusting for token usage and eval freshness reveals a much wider gap than the 4-5 months crude benchmarks suggest.
 
 The infrastructure to host all this is bending the macroeconomy into a new shape. Morgan Stanley now expects the five hyperscalers to spend $805B in 2026 and $1.1 trillion in 2027 , roughly equal to all non-tech S&P 500 capex combined. David Sacks notes that AI accounted for 75% of Q1 GDP growth with a 2.5-3% capex tailwind, observing that polls may show AI to be unpopular but economic growth never is, making any halt to AI equivalent to halting the US economy. Yet the fleet is far from saturated. xAI is reportedly using just 11% of its 550,000 Nvidia GPUs compared to Meta and Google’s 43-46% utilization, suggesting a vast reservoir of latent compute. The footprint is going vertical and orbital. Japan’s $23B data center market is set to grow 50% by 2030 , with 52-meter towers rising in urban Tokyo parking lots, while Starcloud is in talks for a $2.2B valuation just one month after closing at $1.1B, building solar-fed data centers in low Earth orbit. Even Japanese toilet makers are pivoting. Toto’s shares surged 18% to a five-year high after announcing record profits and revealing it is now the world’s second-largest producer of electrostatic chucks for NAND chip manufacturing.
 

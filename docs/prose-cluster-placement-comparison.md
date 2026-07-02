@@ -1,6 +1,5 @@
 # Prose Cluster Placement Comparison
 
-
 This is a small live comparison note for one recurring placement question:
 
 `how should a doctrine cluster behave differently when it lives in essays/, notes/, or docs/skill-work/?`

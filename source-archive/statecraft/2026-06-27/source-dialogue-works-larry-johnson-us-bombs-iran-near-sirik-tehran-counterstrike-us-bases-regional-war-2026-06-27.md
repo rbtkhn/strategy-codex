@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Sirik Strikes And Hormuz Context
 
 **Nima Alkhorshid:** Hi everybody. Today is Saturday, June 27, 2026, and our dear friend Larry Johnson is here with us to discuss what's going on right now in the Middle East. The war is happening last night on tonight again on Iranian soil. The same area, by the way, is the Sirik area.

@@ -1,6 +1,5 @@
 # Arc-Conditioned CIV-STATE Worked Examples
 
-
 Purpose: preserve compact proof runs showing how the same `civ-state` object can be queried differently by different speaker-conditioned retrieval adapters.
 
 This note is not a new front door. It is a reuse aid for the bridge layer.

@@ -6,7 +6,7 @@ academy_origin: true
 created_at: 2026-05-16
 source_context: rbtkhn/predictive-history@1dbab13d1288e1d54c2904ea75d8f7a5e4ed529f
 intended_use: upstream_deepening_notes
-boundary: WORK only; not Record; not a Predictive History edit
+boundary: non-authoritative; not Record; not a Predictive History edit
 -->
 
 **Purpose:** Name the theological dimension already latent in the Predictive History Tolstoy Lens without converting the lens into providential history.

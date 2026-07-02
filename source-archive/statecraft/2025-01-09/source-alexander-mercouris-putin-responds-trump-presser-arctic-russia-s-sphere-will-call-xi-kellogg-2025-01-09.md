@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Putin Responds Trump Presser; Arctic Russia's Sphere, Will Call Xi; Kellogg, 100 Days Left Peace
 
-

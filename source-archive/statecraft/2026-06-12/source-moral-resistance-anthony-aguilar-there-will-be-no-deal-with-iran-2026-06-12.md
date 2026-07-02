@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 It does seem like a deal is close. The Pakistanis have come out and said the deal has been confirmed. Israel um says that they don't know anything about it in terms of the details and what they're expressing seems to be very different to what may have been agreed. Trump retweeted the Iranian foreign minister Abbas Araghchi.

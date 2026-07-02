@@ -44,7 +44,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Open — MOU and US-Israel Relationship
 
 Welcome back. We are joined today by Max Blumenthal, the editor and chief at the Grey Zone uh to discuss uh yeah theou and uh what is happening to the USIsraeli relationship. So thank you for coming back on. >> Great to see you Glenn. So uh I guess yeah my first question was uh yeah very specific that is the memorandum of understanding which uh I assume the US had to sign quite reluctantly given that it reads as a well as a declaration of surrender almost.

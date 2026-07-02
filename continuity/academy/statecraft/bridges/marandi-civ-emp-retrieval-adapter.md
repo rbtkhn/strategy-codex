@@ -1,7 +1,6 @@
 # Marandi CIV-EMP Retrieval Adapter
 <!-- word_count: 329 -->
 
-
 ## Purpose
 
 Use this adapter when a Marandi-style claim needs to extract recognition, legitimacy, sovereignty, leverage meaning, or red-line pressure from `civ-emp` without prematurely turning that claim into settlement closure.

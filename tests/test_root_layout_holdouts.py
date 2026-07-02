@@ -23,9 +23,7 @@ import detect_capture_gap as dcg  # noqa: E402
 import generate_gate_dashboard as ggd  # noqa: E402
 import import_working_identity_candidates as iwic  # noqa: E402
 
-
 USER = "strategy-codex"
-
 
 @pytest.fixture
 def work_root():
@@ -36,7 +34,6 @@ def work_root():
         yield root
     finally:
         shutil.rmtree(root, ignore_errors=True)
-
 
 def _write_root_profile(root: Path) -> None:
     (root / "self.md").write_text("# Self\n", encoding="utf-8")
@@ -68,10 +65,8 @@ rejection_reason: duplicate sample
     )
     (root / "last-dream.json").write_text(json.dumps({"ok": True}) + "\n", encoding="utf-8")
 
-
 def _assert_no_strategy_codex_user(root: Path) -> None:
     assert not (root / "platform/users" / USER).exists()
-
 
 def test_analyze_rejection_feedback_uses_root_profile(work_root, monkeypatch):
     _write_root_profile(work_root)
@@ -90,7 +85,6 @@ def test_analyze_rejection_feedback_uses_root_profile(work_root, monkeypatch):
     assert (work_root / "runtime/artifacts" / "rejection_analysis.json").is_file()
     _assert_no_strategy_codex_user(work_root)
 
-
 def test_assess_session_load_uses_root_profile(work_root, monkeypatch):
     _write_root_profile(work_root)
     monkeypatch.setattr(asl, "profile_dir", lambda user_id: work_root)
@@ -103,7 +97,6 @@ def test_assess_session_load_uses_root_profile(work_root, monkeypatch):
     assert result["load_level"] in {"light", "moderate", "heavy"}
     _assert_no_strategy_codex_user(work_root)
 
-
 def test_batch_ingest_observations_writes_root_gate(work_root, monkeypatch):
     _write_root_profile(work_root)
     monkeypatch.setattr(bio, "profile_dir", lambda user_id: work_root)
@@ -114,7 +107,6 @@ def test_batch_ingest_observations_writes_root_gate(work_root, monkeypatch):
     assert "Saw root layout holdout." in (work_root / "recursion-gate.md").read_text(encoding="utf-8")
     _assert_no_strategy_codex_user(work_root)
 
-
 def test_detect_capture_gap_uses_root_profile(work_root, monkeypatch):
     _write_root_profile(work_root)
     monkeypatch.setattr(dcg, "profile_dir", lambda user_id: work_root)
@@ -124,7 +116,6 @@ def test_detect_capture_gap_uses_root_profile(work_root, monkeypatch):
     assert result["last_evidence_id"] == "READ-0001"
     assert result["pending_count"] == 0
     _assert_no_strategy_codex_user(work_root)
-
 
 def test_generate_gate_dashboard_writes_root_dashboard(work_root, monkeypatch):
     _write_root_profile(work_root)
@@ -141,7 +132,6 @@ def test_generate_gate_dashboard_writes_root_dashboard(work_root, monkeypatch):
     assert ggd.main() == 0
     assert (work_root / "gate-dashboard.html").is_file()
     _assert_no_strategy_codex_user(work_root)
-
 
 def test_import_working_identity_candidates_writes_root_gate_and_digest(work_root, monkeypatch):
     _write_root_profile(work_root)

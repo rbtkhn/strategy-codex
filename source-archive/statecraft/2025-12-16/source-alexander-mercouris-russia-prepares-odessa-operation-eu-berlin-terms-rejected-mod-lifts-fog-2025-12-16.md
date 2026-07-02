@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia prepares Odessa operation. EU Berlin terms rejected. MoD lifts FOG OF WAR in Kupiansk
 
-

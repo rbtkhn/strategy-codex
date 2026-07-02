@@ -1,6 +1,5 @@
 # Crooke Lane Consolidation — 2026-05
 
-
 This note consolidates the current `crooke` lane into one operator-facing spine:
 
 - timeline

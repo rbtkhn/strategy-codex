@@ -10,11 +10,9 @@ from grace_mar.presentations.contract import validate_bundle
 from integrations.codegraph.common import REPO_ROOT, relative_to_repo, utc_now_iso
 from integrations.presentations.common import current_git_ref, write_bundle
 
-
 def _markdown_citation(path: str, task: str) -> str:
     rel = relative_to_repo(Path(path))
     return f"{rel} :: CodeGraph pilot export for task '{task}'"
-
 
 def _extract_mermaid(markdown_report: str) -> str:
     fence = "```mermaid"
@@ -22,7 +20,6 @@ def _extract_mermaid(markdown_report: str) -> str:
         return ""
     _, after = markdown_report.split(fence, 1)
     return after.split("```", 1)[0].strip()
-
 
 def build_bundle(
     export_payload: dict[str, Any],
@@ -118,7 +115,6 @@ def build_bundle(
     }
     return validate_bundle(bundle)
 
-
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Build a Presenton bundle from a CodeGraph pilot export.")
     parser.add_argument("--input", type=Path, required=True, help="Path to CodeGraph export JSON.")
@@ -135,7 +131,6 @@ def build_parser() -> argparse.ArgumentParser:
     )
     return parser
 
-
 def main() -> int:
     parser = build_parser()
     args = parser.parse_args()
@@ -150,7 +145,6 @@ def main() -> int:
         output_path = REPO_ROOT / output_path
     write_bundle(bundle, output_path)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

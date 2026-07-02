@@ -1,7 +1,5 @@
 ﻿# Future Roadmap Implications
 
-WORK only; not Record.
-
 ## Source
 
 - [Compute Futures: The Singularity Gets a Price Curve](compute-futures-singularity-price-curve.md)

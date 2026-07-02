@@ -62,7 +62,7 @@ Create:
 - docs/skill-work/work-business/xavier/week-0-priority-stack.md
 
 Rules:
-- WORK only (no self.md edits)
+- non-authoritative (no self.md edits)
 - cite source file names for each extracted claim
 - keep recommendations concrete and 7-day actionable
 ```
@@ -94,5 +94,4 @@ If any step is unclear for more than 10 minutes:
 1. Pause
 2. Ask companion for live walkthrough
 3. Do not improvise merge or posting
-
 

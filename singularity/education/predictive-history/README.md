@@ -1,7 +1,5 @@
 # Predictive History — education outputs
 
-WORK only; not Record.
-
 **Source-grounded curriculum factory** for Predictive History — lecture-first, media-assisted, feedback-driven.
 
 **Strategic plan (operating SSOT):** [STRATEGIC-PLAN.md](STRATEGIC-PLAN.md)

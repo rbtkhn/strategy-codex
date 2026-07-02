@@ -1,6 +1,5 @@
 # Archive Truth-Floor Audit Receipt Pattern
 
-
 Use this when a bounded archive repair family needs a receipt shape that proves
 what changed without pretending to solve the whole archive at once.
 

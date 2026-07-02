@@ -13,8 +13,6 @@ post_id: 191262659
 
 # The Innermost Loop - 2026-03-17
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 17, 2026
@@ -29,10 +27,7 @@ The Singularity is no longer measured in breakthroughs but in procurement cycles
 
 ## Newsletter Text
 
--
--
-
-The Singularity is no longer measured in breakthroughs but in procurement cycles. Jensen Huang predicted that Nvidia’s AI processors would generate $1 trillion in sales through 2027, and the company is building the coalition to prove it. The new Nemotron Coalition is providing DGX Cloud compute to partners including Mistral, Perplexity, Cursor, and Black Forest Labs, who are contributing data and expertise toward open models on Nvidia’s silicon. The models are just the beginning. NemoClaw wraps the OpenClaw agent platform with privacy and security guardrails, while DLSS 5 introduces a real-time neural rendering model that infuses game pixels with photoreal lighting, which Nvidia calls its biggest graphics breakthrough since ray tracing in 2018.
+- The Singularity is no longer measured in breakthroughs but in procurement cycles. Jensen Huang predicted that Nvidia’s AI processors would generate $1 trillion in sales through 2027, and the company is building the coalition to prove it. The new Nemotron Coalition is providing DGX Cloud compute to partners including Mistral, Perplexity, Cursor, and Black Forest Labs, who are contributing data and expertise toward open models on Nvidia’s silicon. The models are just the beginning. NemoClaw wraps the OpenClaw agent platform with privacy and security guardrails, while DLSS 5 introduces a real-time neural rendering model that infuses game pixels with photoreal lighting, which Nvidia calls its biggest graphics breakthrough since ray tracing in 2018.
 
 The software stack needs new iron underneath it. New liquid-cooled Vera CPU racks pack 256 custom processors for reinforcement learning and agentic workloads that GPUs alone cannot handle, while the Groq 3 LPX rack pairs Nvidia’s licensed Groq inference chips with Vera Rubin for the second half of the year. And because Earth is only one customer, a dedicated Space-1 Vera Rubin Module will deliver 25x more AI compute for orbital data centers and autonomous space operations.
 

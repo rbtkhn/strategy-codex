@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back. Today is June 9th, 2026, and we have the pleasure of being joined by Colonel Douglas McGregor, the former adviser to the US Secretary of Defense, uh, as well as being a decorated combat veteran and a prolific author. So, uh, thank you very much for coming back on the program. >> Thank you for inviting me, Glenn.

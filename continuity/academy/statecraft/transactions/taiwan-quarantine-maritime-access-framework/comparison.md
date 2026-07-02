@@ -1,7 +1,6 @@
 # Taiwan Framework - Four-Lane Comparison
 <!-- word_count: 310 -->
 
-
 | lane | wants | fears | workable formula |
 | --- | --- | --- | --- |
 | China | pressure without war ownership | blockade classification and containment | inspection channel with safe-passage categories |

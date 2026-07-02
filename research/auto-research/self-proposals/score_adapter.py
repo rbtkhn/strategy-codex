@@ -6,10 +6,8 @@ from __future__ import annotations
 import re
 from typing import Any
 
-
 def tokenize_text(text: str) -> set[str]:
     return {token for token in re.findall(r"[a-z0-9]+", text.lower()) if len(token) >= 3}
-
 
 def parse_measure_uniqueness_output(text: str) -> dict[str, float]:
     out: dict[str, float] = {}
@@ -25,7 +23,6 @@ def parse_measure_uniqueness_output(text: str) -> dict[str, float]:
             out[key] = float(match.group(1))
     return out
 
-
 def parse_growth_density_output(text: str) -> dict[str, float]:
     out: dict[str, float] = {}
     patterns = {
@@ -39,7 +36,6 @@ def parse_growth_density_output(text: str) -> dict[str, float]:
         if match:
             out[key] = float(match.group(1))
     return out
-
 
 def score_metrics_health(metrics_json: dict[str, Any]) -> float:
     pipeline = metrics_json.get("pipeline_health", {})
@@ -68,7 +64,6 @@ def score_metrics_health(metrics_json: dict[str, Any]) -> float:
     score *= 1.0 - (0.20 * pending_penalty)
     return max(0.0, min(score, 1.0))
 
-
 def score_maintenance_readiness(contradiction_digest: dict[str, Any], *, strict_mode: bool = False) -> float:
     reviewable = contradiction_digest.get("reviewable_count")
     relation_counts = contradiction_digest.get("relation_counts") or {}
@@ -85,7 +80,6 @@ def score_maintenance_readiness(contradiction_digest: dict[str, Any], *, strict_
         return 1.0
     scaled = penalty / max(float(reviewable), 3.0)
     return max(0.0, min(1.0 - scaled, 1.0))
-
 
 def score_source_proposal_alignment(candidate: dict[str, Any]) -> dict[str, float]:
     source_text = " ".join(str(value) for value in (candidate.get("source_exchange") or {}).values())
@@ -115,7 +109,6 @@ def score_source_proposal_alignment(candidate: dict[str, Any]) -> dict[str, floa
         "drift_penalty": round(drift_penalty, 4),
         "alignment_score": round(alignment_score, 4),
     }
-
 
 def score_proposal_quality(payload: dict[str, Any], candidate_block: str) -> dict[str, float]:
     candidate = payload["candidate_bundle"]
@@ -192,7 +185,6 @@ def score_proposal_quality(payload: dict[str, Any], candidate_block: str) -> dic
         "drift_penalty": source_alignment["drift_penalty"],
         "alignment_score": source_alignment["alignment_score"],
     }
-
 
 def build_score_bundle(
     *,

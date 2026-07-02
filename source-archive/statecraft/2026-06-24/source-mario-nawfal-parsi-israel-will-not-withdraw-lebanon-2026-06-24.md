@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Open — Lebanon Withdrawal Reports
 
 Trita, how are you? >> I'm doing well. How are you? >> Good. Um, mainly positive developments from what I'm seeing. Um, just a lot of resistance on the Israeli side. Defense Minister Kat said today even if there is an American demand, we will not withdraw from Lebanon. Um, I don't know whether to take that seriously, whether I should be concerned about Israel because they said the same thing about a ceasefire, they abided by it.

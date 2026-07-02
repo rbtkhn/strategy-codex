@@ -177,4 +177,3 @@ When the running log [`demo-runs/skill-strategy-exercise-log.md`](../../../demo-
 
 - Link to [STRATEGY.md §II-A](../../../STRATEGY.md) watches or one-line testable claims for month-end review.
 
-

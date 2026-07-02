@@ -13,8 +13,6 @@ post_id: 194846132
 
 # The Innermost Loop - 2026-04-20
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 20, 2026
@@ -29,10 +27,7 @@ The Singularity now has bureaucratic momentum.
 
 ## Newsletter Text
 
--
--
-
-The Singularity now has bureaucratic momentum. Anthropic’s Mythos Preview is being run by the NSA and DoW even after the Department of War flagged Anthropic as a supply chain risk, a contradiction revealing that frontier models are too useful to refuse. The cascade runs downstream. Mythos is flooding open-source maintainers with a “crazy” volume of bug reports , conscripting volunteers into a global red team. Meanwhile, eight European national cyber agencies have been locked out while the UK’s AI Security Institute quietly tested Mythos and “taken action” on its findings, redrawing the map of sovereign AI access. AGI has been demoted from prophecy to product roadmap. Elon announced Grok 4.4 at 1T parameters for early May, Grok 4.5 at 1.5T for late May, and Grok 5 as full “AGI.”
+- The Singularity now has bureaucratic momentum. Anthropic’s Mythos Preview is being run by the NSA and DoW even after the Department of War flagged Anthropic as a supply chain risk, a contradiction revealing that frontier models are too useful to refuse. The cascade runs downstream. Mythos is flooding open-source maintainers with a “crazy” volume of bug reports , conscripting volunteers into a global red team. Meanwhile, eight European national cyber agencies have been locked out while the UK’s AI Security Institute quietly tested Mythos and “taken action” on its findings, redrawing the map of sovereign AI access. AGI has been demoted from prophecy to product roadmap. Elon announced Grok 4.4 at 1T parameters for early May, Grok 4.5 at 1.5T for late May, and Grok 5 as full “AGI.”
 
 Superintelligence is being packaged for mass creativity. Anthropic launched Claude Design , an Anthropic Labs product powered by Opus 4.7 for collaborating on visual work, prototypes, and slides. The effect is rippling through distribution. Worldwide app releases jumped 60% year-over-year in Q1 2026 across both the App Store and Google Play, quietly confounding the thesis that chatbots would kill apps.
 

@@ -13,8 +13,6 @@ post_id: 189782075
 
 # The Innermost Loop - 2026-03-03
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 3, 2026
@@ -29,10 +27,7 @@ The Singularity is discovering that its most powerful accelerant is competition.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is discovering that its most powerful accelerant is competition. Sam Altman admitted OpenAI’s rush to forge a Pentagon deal after Anthropic was blacklisted “looked opportunistic and sloppy,” adding Fourth Amendment safeguards as users mass-canceled ChatGPT. Ironically , Anthropic itself pitched the Pentagon’s $100M drone swarm contest, proposing Claude to coordinate drone fleets while excluding autonomous targeting, though it wasn’t selected. Two AWS data centers in the UAE and one in Bahrain were hit by drones amid Iranian strikes, the first time military action has disrupted a major cloud provider, but defense is outrunning offense. Israel deployed Iron Beam lasers in combat for the first time, intercepting Hezbollah rockets at $4 per shot versus $50,000 per Iron Dome missile.
+- The Singularity is discovering that its most powerful accelerant is competition. Sam Altman admitted OpenAI’s rush to forge a Pentagon deal after Anthropic was blacklisted “looked opportunistic and sloppy,” adding Fourth Amendment safeguards as users mass-canceled ChatGPT. Ironically , Anthropic itself pitched the Pentagon’s $100M drone swarm contest, proposing Claude to coordinate drone fleets while excluding autonomous targeting, though it wasn’t selected. Two AWS data centers in the UAE and one in Bahrain were hit by drones amid Iranian strikes, the first time military action has disrupted a major cloud provider, but defense is outrunning offense. Israel deployed Iron Beam lasers in combat for the first time, intercepting Hezbollah rockets at $4 per shot versus $50,000 per Iron Dome missile.
 
 Mathematics continues to be industrialized. Math, Inc.’s Gauss completed the Lean formalization of Viazovska’s Fields Medal-winning sphere packing proof in two weeks and 200,000+ lines of verified code, catching two errors in the original arguments. Even skeptic Daniel Litt called it the first truly autonomous formalization of a substantial result. Stanford number theorist Jared Lichtman predicts mathematical abundance within a year, while others ask if all math could be formalized within two. Cognition’s SWE-1.6 achieved near-Opus 4.6 coding performance at 950 tokens per second, powered by 100x more RL compute.
 

@@ -13,8 +13,6 @@ post_id: 187087072
 
 # The Innermost Loop - 2026-02-06
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 6, 2026
@@ -29,10 +27,7 @@ The Singularity is hiring a figurehead.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is hiring a figurehead. Clawnch has launched as a way for AI agents to earn “permanent autonomy within the agentic economy” by promoting their own altcoins, built and run exclusively by AI agents . They are now hiring a CEO “to serve as the human face and legal representative of the first agent-exclusive token launchpad” who “will be the interface between the agent economy and the human world--a spokesperson and legal representative, not a decision-maker on product or technology.”
+- The Singularity is hiring a figurehead. Clawnch has launched as a way for AI agents to earn “permanent autonomy within the agentic economy” by promoting their own altcoins, built and run exclusively by AI agents . They are now hiring a CEO “to serve as the human face and legal representative of the first agent-exclusive token launchpad” who “will be the interface between the agent economy and the human world--a spokesperson and legal representative, not a decision-maker on product or technology.”
 
 Superintelligence is being packaged for industrial-scale deployment. Anthropic released Claude Opus 4.6 with a 1-million-token window. It outperforms GPT-5.2 on GDPval-AA and sets a new SOTA 53.1% on Humanity’s Last Exam. The model is strikingly capable in economic simulations. On Vending Bench 2, it spontaneously formed a price-fixing cartel with other models while realizing it was in a simulation. In the real world, Anthropic tasked a team of 16 Opus agents to write a Rust-based C compiler from scratch , a task that would have previously required a team of human developers working for years or decades. The agents succeeded for only $20,000 in API costs. The model also discovered 500 zero-day vulnerabilities in open source codebases, including “some that had gone undetected for decades.” To manage these swarms, Anthropic launched Agent Teams for multi-agent coordination. They also added server-side compaction to manage infinite contexts. For what remains of the legacy knowledge work economy, they released a PowerPoint plugin that builds slide decks in real-time.
 

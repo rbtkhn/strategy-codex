@@ -60,11 +60,7 @@ Gulf States may soon have to decide where they stand on this war. On the one han
 
 If Iran’s ‘foot on the throat’ of the global economic system is pursued selectively — according to their specific criteria — it is possible that other states (including the Europeans) may be forced to the ‘negotiating table’ with Tehran to ensure their future economic well-being.
 
-
-
-
 SOURCE: https://www.lloydslist.com/LL1156656/Iran-establishes-safe-shipping-corridor-for-approved-and-paid-for-transits
-
 
 The US’ unseen power structures
 
@@ -87,7 +83,4 @@ Weinstein attributed this situation to ‘a something’ that is undeclared; som
 This was why the Epstein episode was so crucial, Weinstein emphasised: The few details published have painted a power-structure involving intelligence services, money and corruption that spoke to an unspoken Constitutional and acute Security crisis within the US.
 
 Americans urgently needed to be informed what this power structure is — and what its interests are. And to then discuss where Americans stand, and how to recover the elements that could lead to a recovery of a state governed by Americans’ own interests.
-
-
-
 

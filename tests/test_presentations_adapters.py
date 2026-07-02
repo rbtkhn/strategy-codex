@@ -11,7 +11,6 @@ from integrations.presentations.ph_civ_adapter import build_ph_civ_bundle
 REPO_ROOT = Path(__file__).resolve().parent.parent
 EXAMPLES_ROOT = REPO_ROOT / "runtime/artifacts" / "presentations" / "examples"
 
-
 def test_civ_emp_adapter_marks_work_safe_bundle() -> None:
     bundle = build_civ_emp_bundle(
         intent="briefing",
@@ -25,7 +24,6 @@ def test_civ_emp_adapter_marks_work_safe_bundle() -> None:
     assert bundle["policy"]["approved_for_render"] is True
     assert bundle["source_items"]
 
-
 def test_civ_emp_adapter_rejects_outside_paths(tmp_path: Path) -> None:
     outside = tmp_path / "outside.md"
     outside.write_text("x", encoding="utf-8")
@@ -37,7 +35,6 @@ def test_civ_emp_adapter_rejects_outside_paths(tmp_path: Path) -> None:
             source_paths=[outside],
         )
 
-
 def test_civ_emp_adapter_rejects_ce_mus_without_packet_input() -> None:
     with pytest.raises(ValueError, match="require packet_json input"):
         build_civ_emp_bundle(
@@ -46,7 +43,6 @@ def test_civ_emp_adapter_rejects_ce_mus_without_packet_input() -> None:
             audience="Operators",
             subsurface="ce-mus",
         )
-
 
 def test_civ_emp_packet_bundle_accepts_ce_mus_summary(tmp_path: Path) -> None:
     packet = tmp_path / "ce-mus.json"
@@ -81,7 +77,6 @@ def test_civ_emp_packet_bundle_accepts_ce_mus_summary(tmp_path: Path) -> None:
     assert bundle["policy"]["source_mode"] == "strategy-codex-ce-mus-packet"
     assert bundle["presentation_hints"]["section_order"][0] == "Exhibit Summary"
 
-
 def test_civ_emp_packet_bundle_rejects_subsurface_drift(tmp_path: Path) -> None:
     packet = tmp_path / "ce-emp.json"
     packet.write_text(
@@ -110,7 +105,6 @@ def test_civ_emp_packet_bundle_rejects_subsurface_drift(tmp_path: Path) -> None:
             subsurface="ce-emp",
             packet_path=packet,
         )
-
 
 def test_civ_emp_packet_bundle_accepts_decision_comparison_packet(tmp_path: Path) -> None:
     packet = tmp_path / "ce-emp-comparison.json"
@@ -143,7 +137,6 @@ def test_civ_emp_packet_bundle_accepts_decision_comparison_packet(tmp_path: Path
     assert bundle["artifact_class"] == "decision_comparison"
     assert bundle["presentation_hints"]["section_order"][0] == "Comparison Frame"
 
-
 def test_ph_civ_adapter_rejects_forbidden_local_residue() -> None:
     forbidden = Path("C:/dev/strategy-continuity/continuity/predictive-history/fake.md")
     with pytest.raises(ValueError, match="forbidden local Predictive History residue"):
@@ -153,7 +146,6 @@ def test_ph_civ_adapter_rejects_forbidden_local_residue() -> None:
             audience="Readers",
             source_paths=[forbidden],
         )
-
 
 def test_ph_civ_adapter_accepts_explicit_public_packet_for_ph_apo(tmp_path: Path) -> None:
     packet = tmp_path / "public-packet.json"
@@ -192,7 +184,6 @@ def test_ph_civ_adapter_accepts_explicit_public_packet_for_ph_apo(tmp_path: Path
     assert bundle["policy"]["classification"] == "public"
     assert bundle["source_items"][0]["public"] is True
 
-
 def test_ph_civ_adapter_rejects_non_packet_source_file(tmp_path: Path) -> None:
     packet = tmp_path / "public-packet.md"
     packet.write_text("# Not a packet\n\nVisible text", encoding="utf-8")
@@ -204,7 +195,6 @@ def test_ph_civ_adapter_rejects_non_packet_source_file(tmp_path: Path) -> None:
             source_paths=[packet],
             subsurface="ph-civ",
         )
-
 
 def test_ph_civ_adapter_rejects_packet_with_private_markers(tmp_path: Path) -> None:
     packet = tmp_path / "public-packet.json"
@@ -237,7 +227,6 @@ def test_ph_civ_adapter_rejects_packet_with_private_markers(tmp_path: Path) -> N
             subsurface="ph-apo",
         )
 
-
 def test_example_ce_mus_packet_builds_work_safe_museum_bundle() -> None:
     bundle = build_civ_emp_packet_bundle(
         intent="summary",
@@ -252,7 +241,6 @@ def test_example_ce_mus_packet_builds_work_safe_museum_bundle() -> None:
     assert bundle["policy"]["classification"] == "work_public_safe"
     assert bundle["policy"]["source_mode"] == "strategy-codex-ce-mus-packet"
     assert len(bundle["source_items"]) >= 4
-
 
 def test_example_ce_mus_packet_exposes_strategic_exhibit_taxonomy() -> None:
     ce_bundle = build_civ_emp_packet_bundle(

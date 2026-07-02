@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # US-Israel Rift Deepens; Trump Gaza Pressure Shocks Bibi; Patrushev: No More Ukraine Post 2025
 
-

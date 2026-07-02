@@ -47,4 +47,4 @@ python3 scripts/generate_wap_daily_brief.py -u grace-mar --skip-brief \
 
 **Operator habit:** Coffee does **not** auto-run the brief generator ([coffee SKILL](../../../../.cursor/skills/coffee/SKILL.md)). Run the brief when ready, then optional mind overlays.
 
-**Boundary:** WORK only — not Voice, not SELF, not automatic merge into the Record.
+**Boundary:** non-authoritative — not Voice, not SELF, not automatic merge into the Record.

@@ -1,6 +1,5 @@
 # Sergey Lavrov Authority Carrier Object
 
-
 ## Object
 
 Sergey Lavrov, Russian foreign minister.

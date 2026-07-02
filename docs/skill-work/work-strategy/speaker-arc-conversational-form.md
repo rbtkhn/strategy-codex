@@ -1,6 +1,5 @@
 # Speaker Arc as Conversational Form
 
-
 A **speaker arc** is not just a file type.
 
 It is the notebook's way of saying:

@@ -8,7 +8,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DOC = REPO_ROOT / "docs" / "skills" / "cross-host-install.md"
 
-
 class CrossHostInstallDocTests(unittest.TestCase):
     def test_doc_exists(self) -> None:
         self.assertTrue(DOC.is_file(), f"Missing {DOC}")
@@ -22,7 +21,6 @@ class CrossHostInstallDocTests(unittest.TestCase):
         text = DOC.read_text(encoding="utf-8")
         self.assertIn("skills/README.md", text)
         self.assertIn("skills/_schema.md", text)
-
 
 if __name__ == "__main__":
     unittest.main()

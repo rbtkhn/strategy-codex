@@ -17,8 +17,6 @@ threads: [vatican, ai, pope-leo]
 
 # Decree N. DCCII — Linee Guida in materia di intelligenza artificiale
 
-WORK only; not Record.
-
 ## Capture Note
 
 Decree effective 1 January 2025. PDF text extraction via pypdf on 2026-06-13. Italian source text.

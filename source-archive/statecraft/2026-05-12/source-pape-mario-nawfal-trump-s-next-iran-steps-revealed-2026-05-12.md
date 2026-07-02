@@ -29,7 +29,6 @@ quality_note: "ASR normalization pass 2026-06-27; ph-civ replacement SSOT."
 
 ## Transcript
 
-
 ### Show Open — Ceasefire Illusion and Escalation Ladder Check-in
 
 just said, President Lukashenko, who I

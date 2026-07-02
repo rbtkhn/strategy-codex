@@ -22,7 +22,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Friday 6th June 2026. And before I proceed with this program, let me remind you to tick the like button and to check your subscription to this channel. Let me also give advanced uh notice now that on Sunday I will be flying to Russia to attend a conference um arranged by the Ministry of Culture, the Russian Ministry of Culture in the city of Scorf.

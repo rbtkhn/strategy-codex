@@ -1,6 +1,5 @@
 # Baud Index
 
-
 Purpose: front door for the canonical Baud shelf, separating person-level continuity, real topical-thread structure, and host-local transformations without letting compatibility residue masquerade as a second system.
 
 ## Open First

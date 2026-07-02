@@ -59,7 +59,7 @@ Include **silent failure:** output looks polished but is **wrong on facts or sco
 
 ## C. Copy block — Agent evaluation + calibrated delegation spec
 
-**Operator WORK only.** Paste into a reasoning-capable assistant when evaluating a **new** tool or **new** task type. Do not treat output as Record. Fixed closing tag on `guardrails`.
+**Operator non-authoritative.** Paste into a reasoning-capable assistant when evaluating a **new** tool or **new** task type. Do not treat output as Record. Fixed closing tag on `guardrails`.
 
 ```text
 <role>

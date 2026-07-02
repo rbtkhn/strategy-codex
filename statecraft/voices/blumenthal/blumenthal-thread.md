@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `blumenthal`
 <!-- word_count: 4382 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Blumenthal shelf structure.
@@ -42,7 +41,6 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 
 January has **no dated** notebook ingest for Blumenthal in this Q1 snapshot; the lane is **Grayzone / elite-access / Middle East policy critique** Ã¢â‚¬â€ distinct from **`mate`** investigative ownership focus Ã¢â‚¬â€ per roster.
 
-
 The `blumenthal` laneÃ¢â‚¬â„¢s role (Grayzone / antiwar pole: U.S. Middle East policy and elite-access critique; Lebanon/Gulf narrative framing; media-layer Ã¢â‚¬Å“who engineered whatÃ¢â‚¬Â Ã¢â‚¬â€ access and backchannel claims stay hypothesis-grade until primary tape or on-record source) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃ¢â‚¬â„¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
 
 The 2026-01 segment for the Max Blumenthal (@MaxBlumenthal) lane (`blumenthal`) exists so the notebook keeps a **prose spine** alongside any strength-tagged bullets. The roster describes this voice as centered on Grayzone / antiwar pole: U.S. Middle East policy and elite-access critique; Lebanon/Gulf narrative framing; media-layer Ã¢â‚¬Å“who engineered whatÃ¢â‚¬Â Ã¢â‚¬â€ access and backchannel claims stay hypothesis-grade until primary tape or on-record source. That one-line role is not a substitute for transcript truth; it is a **routing label** so batch-analysis passes know which mechanism vocabulary to expect when dated material lands. When this month is still partial or ingest-light, the prose layer still records **where verification should attach** (page cites, transcript rows, or hub URLs) without pretending those pins are already closed.
@@ -60,7 +58,6 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-01, re
 ## 2026-02
 
 February shows **no indexed Q1 primary** in-repo; Lebanon / Gulf access claims stay **hypothesis-grade** until primary tape Ã¢â‚¬â€ per profile discipline.
-
 
 Verification stance for Max Blumenthal (@MaxBlumenthal) in 2026-02 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgmentÃ¢â‚¬â€without turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 
@@ -81,7 +78,6 @@ If pages named this expert during 2026-02, the narrative should eventually say *
 ## 2026-03
 
 March remains **thin** on calendar rows here; **`marandi`** / **`parsi`** seams need explicit labels when the same week is folded.
-
 
 Cross-lane convergence and tension are notebook-native concepts. For 2026-03, read Ãƒâ€” mate, Ãƒâ€” parsi, Ãƒâ€” mercouris, Ãƒâ€” marandi, Ãƒâ€” freeman as the default **short list** of other experts whose fingerprints commonly collide with `blumenthal` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
 
@@ -119,7 +115,6 @@ The `blumenthal` laneÃ¢â‚¬â„¢s role (Grayzone / antiwar pole: U.S. Mid
 - **2026-03** Ã¢â‚¬â€ No dated notebook ingest Ã¢â‚¬â€ Patreon hub.
   _Source:_ web: `https://www.patreon.com/grayzone`
 
-
 ### 2026-04
 
 - **2026-04** Ã¢â‚¬â€ Ledger mirror 1 (partial month).
@@ -132,7 +127,6 @@ The `blumenthal` laneÃ¢â‚¬â„¢s role (Grayzone / antiwar pole: U.S. Mid
 ## 2026-04
 
 _Partial month Ã¢â‚¬â€ no April machine line for Blumenthal in-repo; **Grayzone / elite-access** lane Ã¢â‚¬â€ hub anchors only._
-
 
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-04, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
 
@@ -160,7 +154,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 **Also in:** marandi
 
 # Page Ã¢â‚¬â€ 2026-04-16 Ã¢â‚¬â€ Marandi-primary: Breaking Points Ãƒâ€” Blumenthal (Judging Freedom)
-
 
 | Field | Value |
 |--------|--------|
@@ -283,7 +276,6 @@ Pape stacks four public claims in one appearance:
 ### Appendix
 
 # Page Ã¢â‚¬â€ 2026-04-16 Ã¢â‚¬â€ Pape (Janssen): escalation trap, staged blockade, third-player spoiler
-
 
 | Field | Value |
 |--------|--------|

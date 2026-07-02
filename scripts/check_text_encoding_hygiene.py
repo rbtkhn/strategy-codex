@@ -22,7 +22,6 @@ MOJIBAKE_PATTERNS = (
     "Ã¢â‚¬",
 )
 
-
 @dataclass
 class EncodingMatch:
     path: str
@@ -30,9 +29,7 @@ class EncodingMatch:
     pattern: str
     context: str
 
-
 from continuity_paths import continuity_root as _continuity_root
-
 
 def _continuity_scope_root(repo_root: Path, scope: str) -> Path | None:
     if scope == "continuity":
@@ -41,7 +38,6 @@ def _continuity_scope_root(repo_root: Path, scope: str) -> Path | None:
     if scope == "codex":
         return _continuity_root(repo_root) if (repo_root / "codex").is_dir() else None
     raise ValueError(f"unknown scope: {scope}")
-
 
 def scan_tree(root: Path, repo_root: Path) -> list[EncodingMatch]:
     matches: list[EncodingMatch] = []
@@ -66,7 +62,6 @@ def scan_tree(root: Path, repo_root: Path) -> list[EncodingMatch]:
                     )
                     break
     return matches
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -102,7 +97,6 @@ def main() -> int:
     if matches and args.strict:
         return 1
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

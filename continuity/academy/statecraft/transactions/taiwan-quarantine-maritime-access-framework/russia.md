@@ -1,7 +1,6 @@
 # Russia - Taiwan Quarantine / Maritime Access Framework
 <!-- word_count: 380 -->
 
-
 ## Transaction Name
 
 Taiwan maritime precedent management.

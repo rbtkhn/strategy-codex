@@ -46,7 +46,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Putin Warning And Barbarossa Parallel
 
 **Andrew Napolitano:** Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, June 29th, 2026. Larry Johnson will be with us in just a moment. Is Donald Trump's memorandum of understanding unraveling? Larry Johnson, welcome here, my dear friend. Before we get uh to Trump's memorandum of understanding and the Strait of Hormuz moves, why do you think President uh Vladimir Putin felt the need very ostentatiously last week to tell Europe that Russia's ready for war with it?

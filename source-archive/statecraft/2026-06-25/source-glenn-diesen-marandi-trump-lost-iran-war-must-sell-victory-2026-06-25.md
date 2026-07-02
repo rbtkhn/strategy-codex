@@ -53,7 +53,6 @@ verify:
 
 ## Transcript
 
-
 ### Show Open — MOU Framework and Ten-Point Plan
 
 Welcome back. We are joined again by Seyed Mohammad Marandi, a professor at Tehran University and a former advisor to Iran's nuclear negotiation team. Uh so, yeah, thank you for coming back on the program. I wanted to ask you about the development of the memorandum of understanding because when the United States asked for the initial ceasefire a while ago, uh they agreed to this 10-point plan to stop the hostilities, but as we saw, they didn't abide by it.

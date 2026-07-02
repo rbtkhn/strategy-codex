@@ -1,6 +1,5 @@
 # Power, Truth, Time
 
-
 Status: Superseded by [`public/civ-state/theory/`](../../public/civ-state/theory/README.md)
 Surface: `civ-state`
 Purpose: provide a higher-order orientation frame and academic genealogy for Civilization and Empire retrieval

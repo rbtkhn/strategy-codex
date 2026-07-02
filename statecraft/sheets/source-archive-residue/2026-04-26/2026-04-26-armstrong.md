@@ -14,17 +14,3 @@ source_path: docs/skill-work/work-strategy/strategy-notebook/experts/armstrong/t
 - X | cold: **Martin A. Armstrong** (@ArmstrongEcon) — **Hungary** **/** **Orban** **:** **Ursula** **/** **EU** **“did** **everything** **to** **overthrow** **Orban”** **—** **ties** **to** **Putin,** **lack** **of** **Ukraine** **support;** **EU** **accused** **Orban** **of** **authoritarianism** **/** **corruption** **—** **Armstrong** **frames** **as** **EU** **“projecting”** **their** **agenda** // hook: **`thread:armstrong`** **EU** **/** **Visegrád** **narrative** **×** **Russia** **linkage** **—** **commentator** **tier** | https://x.com/ArmstrongEcon | verify:X-account+aired:~2026-04-20+optional-pin | thread:armstrong | grep:Armstrong+Orban+Ursula+Putin+Ukraine
 - X | cold: **Martin A. Armstrong** (@ArmstrongEcon) — **EU** **election** **interference** **claim** **:** **Scottish,** **Italian,** **Romanian,** **Hungarian,** **German** **—** **to** **“retain** **power”;** **Ursula** **“sent** **spies** **to** **infiltrate** **the** **government”;** **after** **Orban** **conceded** **—** **von** **der** **Leyen** **“jubilant”** **call** **for** **“final** **coup** **de** **grâce”** **to** **national** **identity** **/** **sovereignty** **(eliminate** **nations’** **ability** **to** **stand** **against** **EU** **policies)** **/** **“So** **much** **for** **democracy”** // hook: **sovereignty** **/** **federalism** **fork** **—** **verify** **before** **Judgment** **as** **fact** | https://x.com/ArmstrongEcon | verify:X-account+aired:~2026-04-20+optional-pin | thread:armstrong | grep:Armstrong+EU+Orban+sovereignty+Ursula
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-

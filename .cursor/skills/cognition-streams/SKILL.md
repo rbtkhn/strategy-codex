@@ -25,7 +25,6 @@ synced_by: sync_portable_skills.py
 
 **Preferred name (new work):** **`check sources`** · **`check-sources`**
 
-
 ## Cursor / strategy-codex instance
 
 Legacy alias shim for this repository.

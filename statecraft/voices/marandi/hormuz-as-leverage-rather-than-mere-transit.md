@@ -1,6 +1,5 @@
 # Hormuz as leverage rather than mere transit
 
-
 Marandi repeatedly treats Hormuz as selective leverage, not just a passive shipping route.
 
 Best host lanes:

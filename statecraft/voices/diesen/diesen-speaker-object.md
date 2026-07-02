@@ -1,6 +1,5 @@
 # Diesen speaker object
 
-
 object_shape: stream-native
 
 Purpose: define Diesen as a first-class speaker object while preserving the fact that his main body in this volume is already a native cognition stream. Diesen does not need to be inferred only through helix notes because the notebook already has a thick native stream shelf under `statecraft/voices/diesen/`. This folder exists so Diesen can sit beside the other speaker objects as a peer object rather than only as a host territory.

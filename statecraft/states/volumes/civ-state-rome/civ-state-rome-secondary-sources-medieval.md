@@ -1,6 +1,5 @@
 # Rome Secondary Sources - Medieval
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the medieval Rome primary shelf when Christianization, Byzantine continuity, papal emergence, or transformed-carrier reading need stronger chronology or anti-decline correction.

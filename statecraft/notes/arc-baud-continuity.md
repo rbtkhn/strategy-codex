@@ -15,7 +15,6 @@ archive_links:
 
 # Expert arc - `baud`
 
-
 **Source:** Distilled from [`strategy-expert-baud-transcript.md`](../voices/baud/baud-transcript.md) and from strategy pages or raw captures that route through Baud.
 **Process:** `python3 scripts/strategy_thread.py` maintains only the machine layer between the `strategy-expert-thread` HTML comments. The human-readable journal layer above that marker is operator/assistant maintained.
 **Updated:** Refresh the journal layer when the arc becomes clearer; refresh the machine layer when you run `thread`.

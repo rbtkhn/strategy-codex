@@ -16,7 +16,6 @@ archive_links:
 
 # Diesen x Baud arc
 
-
 Purpose: compact reuse note for the `Diesen x Baud` run that now matters mainly as a **2025 host-local lane** relevant to the Baud cross-year correction. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Baud lane Diesen elicits, which files matter most, and why this branch should be acknowledged without quietly turning the 2026 Baud object into a triple helix.
 
 ## Why this guest run matters

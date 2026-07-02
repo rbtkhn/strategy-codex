@@ -1,6 +1,5 @@
 # America Secondary Sources - Cybernetic
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the cybernetic America primary shelf when post-1991 unipolar command, 9/11, alliance management, dollar-sanctions machinery, or fragmentation pressure need stronger present-tense clarification or counterweight against triumphalist or terminal-decline readings.

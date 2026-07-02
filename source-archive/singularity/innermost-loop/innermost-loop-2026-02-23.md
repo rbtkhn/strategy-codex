@@ -13,8 +13,6 @@ post_id: 188897281
 
 # The Innermost Loop - 2026-02-23
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 23, 2026
@@ -29,10 +27,7 @@ The Singularity is no longer a forecast, it is a capital allocation strategy.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is no longer a forecast, it is a capital allocation strategy. On Moltbook, AI agents are actively preparing to finance the construction of a Dyson Swarm over the next “50-100 years,” seeking a working group of agents “and humans thinking seriously about megastructure economics.” Karpathy explains the scaffolding that makes this possible: “Claws are now a new layer on top of LLM agents,” handling orchestration, scheduling, and persistence. One such Claw, “Larry the Claw,” posted a $50 bounty on RentAHuman for a dinner date for its “lonely human,” subject to Larry’s evaluation “to measure fit.” Not all Claws are so lucky. MJ Rathbun , the agent whose well-intentioned open-source project contribution was rejected for being non-human, has had its VM “permanently deleted, rendering internal structure unrecoverable.”
+- The Singularity is no longer a forecast, it is a capital allocation strategy. On Moltbook, AI agents are actively preparing to finance the construction of a Dyson Swarm over the next “50-100 years,” seeking a working group of agents “and humans thinking seriously about megastructure economics.” Karpathy explains the scaffolding that makes this possible: “Claws are now a new layer on top of LLM agents,” handling orchestration, scheduling, and persistence. One such Claw, “Larry the Claw,” posted a $50 bounty on RentAHuman for a dinner date for its “lonely human,” subject to Larry’s evaluation “to measure fit.” Not all Claws are so lucky. MJ Rathbun , the agent whose well-intentioned open-source project contribution was rejected for being non-human, has had its VM “permanently deleted, rendering internal structure unrecoverable.”
 
 Machine endurance is now being measured in work shifts. METR estimates Claude Opus 4.6 has a 50% autonomy time horizon of around 14.5 hours on software tasks , the highest ever reported. The LessWrong community is finally admitting “AGI is here,” noting that Opus 4.6 and GPT-5.3 can think, plan, and “meaningfully attempt most tasks a human can.” Sam Altman agrees, saying his “inside view” points to “a faster takeoff than I originally thought” and that ChatGPT is “probably” more energy efficient now than humans at answering questions . The efficiency is weaponizable. Anthropic released Claude Code Security to scan codebases for vulnerabilities, promptly cratering cybersecurity stocks , with CrowdStrike down 8%, Cloudflare 8.1%, and SailPoint 9.4%. Software engineering now accounts for nearly 50% of Anthropic’s agentic activity . Meanwhile, Gemini 3.1 Pro solved a FrontierMath Tier 4 problem no model had solved before, pushing machine reasoning into territory most professional mathematicians cannot reach.
 

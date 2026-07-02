@@ -1,7 +1,5 @@
 # Speaker routing queue
 
-WORK only; not Record.
-
 Window: `2025-08-18` to `2025-08-18`
 
 ## existing-speaker-object

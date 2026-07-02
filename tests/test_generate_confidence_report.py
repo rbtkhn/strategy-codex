@@ -11,7 +11,6 @@ from tests.conftest import REPO_ROOT, repo_python, run_cmd
 
 plotly = pytest.importorskip("plotly")
 
-
 def test_confidence_report_writes_html(tmp_path) -> None:
     target = tmp_path / "seed-phase"
     shutil.copytree(REPO_ROOT / "platform/users" / "demo" / "seed-phase", target)

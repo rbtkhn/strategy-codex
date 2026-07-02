@@ -16,15 +16,12 @@ from export_inter_fork_package import (  # noqa: E402
 )
 from import_inter_fork_package import import_inter_fork_package  # noqa: E402
 
-
 def _profile_lookup(repo_root: Path):
     return lambda user: repo_root / "platform/users" / user
-
 
 def _seed_gate(path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("# Gate\n\n## Candidates\n\n## Processed\n", encoding="utf-8")
-
 
 def _seed_review_queue(root: Path) -> None:
     review = root / "archive/queues/review-queue"
@@ -33,7 +30,6 @@ def _seed_review_queue(root: Path) -> None:
     (review / "diffs").mkdir(parents=True, exist_ok=True)
     (review / "change_review_queue.json").write_text('{"queue": []}\n', encoding="utf-8")
     (review / "change_event_log.json").write_text('{"events": []}\n', encoding="utf-8")
-
 
 def test_export_inter_fork_package_writes_under_sender_namespace(tmp_path: Path) -> None:
     sender_root = tmp_path / "platform/users" / "sender-a"
@@ -59,7 +55,6 @@ def test_export_inter_fork_package_writes_under_sender_namespace(tmp_path: Path)
     assert payload["senderForkId"] == "sender-a"
     assert payload["intendedRecipientForkId"] == "recipient-b"
     assert payload["routingHint"] == "candidate_import"
-
 
 def test_import_candidate_package_only_mutates_recipient_namespace(tmp_path: Path) -> None:
     sender_root = tmp_path / "platform/users" / "sender-a"
@@ -104,7 +99,6 @@ def test_import_candidate_package_only_mutates_recipient_namespace(tmp_path: Pat
     copied = recipient_root / "runtime/artifacts" / "inter-fork" / "imports"
     assert any(path.name.endswith(".receipt.json") for path in copied.iterdir())
     assert any(path.name.endswith(".json") and not path.name.endswith(".receipt.json") for path in copied.iterdir())
-
 
 def test_import_change_proposal_package_updates_review_queue(tmp_path: Path) -> None:
     sender_root = tmp_path / "platform/users" / "sender-a"
@@ -156,7 +150,6 @@ def test_import_change_proposal_package_updates_review_queue(tmp_path: Path) -> 
     event_log = json.loads((recipient_root / "archive/queues/review-queue" / "change_event_log.json").read_text(encoding="utf-8"))
     assert event_log["events"][0]["eventType"] == "proposal_created"
     assert result["importMode"] == "change_proposal_review"
-
 
 def test_import_rejects_recipient_mismatch(tmp_path: Path) -> None:
     sender_root = tmp_path / "platform/users" / "sender-a"

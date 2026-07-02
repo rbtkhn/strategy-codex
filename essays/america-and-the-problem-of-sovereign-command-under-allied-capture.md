@@ -1,7 +1,5 @@
 # America and the Problem of Sovereign Command Under Allied Capture
 
-WORK only; not Record.
-
 Status: placeholder essay. This is the `statecraft` essay scaffold for the
 `Section 224` / `FY27 NDAA` controversy and the broader America-side problem it
 may reveal. The object is real enough to justify essay preparation, but the

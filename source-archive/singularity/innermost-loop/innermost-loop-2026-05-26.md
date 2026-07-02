@@ -13,8 +13,6 @@ post_id: 199439796
 
 # The Innermost Loop - 2026-05-26
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 26, 2026
@@ -29,10 +27,7 @@ The Singularity is now taking a power nap.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now taking a power nap. CMU researchers propose in “Language Models Need Sleep” that models should periodically consolidate recent context into persistent fast weights inside SSM blocks before clearing the cache, with longer sleep yielding the largest gains on examples that demand deeper reasoning. Waking hours are doing recursive work too. The new “BenchBench” benchmark asks whether a model can write a benchmark that other strong models cannot simply clear, and GPT-5.2 currently leads as the top benchmark creator. Microsoft pushes the same recursion into agents with SkillOpt , which treats a compact natural-language skill document as the trainable state of a frozen language agent, refined through rollouts, reflection, bounded edits, and held-out validation gates. Sleep, self-test, study, repeat.
+- The Singularity is now taking a power nap. CMU researchers propose in “Language Models Need Sleep” that models should periodically consolidate recent context into persistent fast weights inside SSM blocks before clearing the cache, with longer sleep yielding the largest gains on examples that demand deeper reasoning. Waking hours are doing recursive work too. The new “BenchBench” benchmark asks whether a model can write a benchmark that other strong models cannot simply clear, and GPT-5.2 currently leads as the top benchmark creator. Microsoft pushes the same recursion into agents with SkillOpt , which treats a compact natural-language skill document as the trainable state of a frozen language agent, refined through rollouts, reflection, bounded edits, and held-out validation gates. Sleep, self-test, study, repeat.
 
 The atoms underneath are being reorganized too. Belgian semiconductor research giant imec has fabricated the world’s first quantum dot qubit using High-NA EUV lithography, patterning gate gaps of barely 6 nanometers and pulling quantum hardware onto the same roadmap as next-gen AI processors. IBM is industrializing the next floor up, with the Department of Commerce backing Anderon , America’s first pure-play quantum chip foundry, via $1 billion in CHIPS incentives matched by $1 billion from IBM, the largest single award in a $2 billion package spread across nine companies. Quantum has officially exited the lab and entered the fab.
 

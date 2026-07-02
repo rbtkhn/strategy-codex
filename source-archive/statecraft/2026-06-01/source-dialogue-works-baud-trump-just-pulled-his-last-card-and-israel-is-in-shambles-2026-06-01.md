@@ -36,7 +36,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today is Monday, June 1st, 2026 and our dear friend, our brother Carl Jacquo is here with us. Welcome back, Carl. >> Hi and thank you for having me back in your show. Thank you, >> Carl. I want to start with the situation and what's going on between Israel and Lebanon because we know one of the main points of the talks of the messages between Iran and the United States is is the situation there in that region.

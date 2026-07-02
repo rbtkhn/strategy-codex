@@ -12,7 +12,6 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-
 def read_jsonl(path: Path) -> list[dict[str, Any]]:
     if not path.is_file():
         return []
@@ -29,10 +28,8 @@ def read_jsonl(path: Path) -> list[dict[str, Any]]:
             out.append(row)
     return out
 
-
 def _nonempty_file(path: Path) -> bool:
     return path.is_file() and path.stat().st_size > 0
-
 
 def _operator_jsonl_primary(user_dir: Path, basename: str) -> Path:
     """Prefer runtime/operator-events/; fallback to profile root."""
@@ -44,7 +41,6 @@ def _operator_jsonl_primary(user_dir: Path, basename: str) -> Path:
         return old
     return new
 
-
 def resolve_jsonl_path(primary: Path, bundle_fallback: Path) -> Path:
     """Prefer profile root; use runtime-bundle audit mirror when root missing or empty."""
     if _nonempty_file(primary):
@@ -53,7 +49,6 @@ def resolve_jsonl_path(primary: Path, bundle_fallback: Path) -> Path:
         return bundle_fallback
     return primary
 
-
 def resolve_path(primary: Path, bundle_fallback: Path) -> Path:
     """Prefer profile root file; fallback to bundle path if primary does not exist."""
     if primary.is_file():
@@ -61,7 +56,6 @@ def resolve_path(primary: Path, bundle_fallback: Path) -> Path:
     if bundle_fallback.is_file():
         return bundle_fallback
     return primary
-
 
 @dataclass(frozen=True)
 class AuditPaths:
@@ -108,26 +102,20 @@ class AuditPaths:
             ),
         )
 
-
 def load_pipeline_events(user_dir: Path) -> list[dict[str, Any]]:
     return read_jsonl(AuditPaths.for_profile(user_dir).pipeline_events)
-
 
 def load_merge_receipts(user_dir: Path) -> list[dict[str, Any]]:
     return read_jsonl(AuditPaths.for_profile(user_dir).merge_receipts)
 
-
 def load_compute_ledger(user_dir: Path) -> list[dict[str, Any]]:
     return read_jsonl(AuditPaths.for_profile(user_dir).compute_ledger)
-
 
 def load_harness_events(user_dir: Path) -> list[dict[str, Any]]:
     return read_jsonl(AuditPaths.for_profile(user_dir).harness_events)
 
-
 def load_fork_lineage(user_dir: Path) -> list[dict[str, Any]]:
     return read_jsonl(AuditPaths.for_profile(user_dir).fork_lineage)
-
 
 def load_fork_manifest_raw(user_dir: Path) -> dict[str, Any] | None:
     p = AuditPaths.for_profile(user_dir).fork_manifest
@@ -138,7 +126,6 @@ def load_fork_manifest_raw(user_dir: Path) -> dict[str, Any] | None:
     except json.JSONDecodeError:
         return None
     return data if isinstance(data, dict) else None
-
 
 __all__ = [
     "AuditPaths",

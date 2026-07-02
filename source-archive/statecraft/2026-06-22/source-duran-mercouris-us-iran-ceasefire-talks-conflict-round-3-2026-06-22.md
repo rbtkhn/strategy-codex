@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 All right, Alexander, let's do an update on the negotiations between the United States and Iran, which are taking place in Switzerland with J.D. Vance, Witkoff, and Kushner on the American side, and Ghalibaf and Araghchi on the Iranian side. Pakistan and Qatar are mediating. The talks started over over the weekend.

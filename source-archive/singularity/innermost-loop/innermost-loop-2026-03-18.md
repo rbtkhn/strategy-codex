@@ -13,8 +13,6 @@ post_id: 191414668
 
 # The Innermost Loop - 2026-03-18
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 18, 2026
@@ -29,10 +27,7 @@ The Singularity is distilling itself.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is distilling itself. OpenAI announced GPT-5.4 mini and nano , with mini leaping past GPT-5 mini across coding, reasoning, multimodal understanding, and tool use at 2x the speed, approaching the full 5.4 on benchmarks like SWE-Bench Pro and OSWorld-Verified. A trillion-parameter mystery model called Hunter Alpha surfaced on OpenRouter without attribution, fueling speculation that DeepSeek is stealth-testing its next generation in the wild. To measure what’s actually emerging, DeepMind released a Cognitive Taxonomy decomposing general intelligence into 10 faculties and launched a $200k Kaggle competition to close gaps in metacognition, attention, and social cognition.
+- The Singularity is distilling itself. OpenAI announced GPT-5.4 mini and nano , with mini leaping past GPT-5 mini across coding, reasoning, multimodal understanding, and tool use at 2x the speed, approaching the full 5.4 on benchmarks like SWE-Bench Pro and OSWorld-Verified. A trillion-parameter mystery model called Hunter Alpha surfaced on OpenRouter without attribution, fueling speculation that DeepSeek is stealth-testing its next generation in the wild. To measure what’s actually emerging, DeepMind released a Cognitive Taxonomy decomposing general intelligence into 10 faculties and launched a $200k Kaggle competition to close gaps in metacognition, attention, and social cognition.
 
 The models are already solving problems their creators can’t. HorizonMath , a benchmark of over 100 predominantly unsolved math problems, found GPT-5.4 Pro has already solved two open problems, proposing novel solutions that improve on best-known published results. Harmonic released Aristotle Agent , the world’s first autonomous mathematician, live and free. The DOE is aiming $293 million via the Genesis Mission at leveraging novel AI models to tackle over 20 national challenges in advanced manufacturing, biotech, critical materials, nuclear energy, and quantum science.
 

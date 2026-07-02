@@ -1,6 +1,6 @@
 # Academy Brief - ai-workflow-authority
 
-WORK only; upstream external research, not workshop truth.
+non-authoritative; upstream external research, not workshop truth.
 
 - Source artifact: `research/external/singularity-academy/fixtures/external-research/ai-workflow-authority.artifact.json`
 - Source: `sci-bot.ru`

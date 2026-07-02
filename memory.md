@@ -1,6 +1,6 @@
 # Memory — session continuity (strategy-codex)
 
-**Work only; not museum Record.** Rotatable short / medium / long horizons. See [docs/memory-template.md](docs/memory-template.md).
+**non-authoritative; not museum Record.** Rotatable short / medium / long horizons. See [docs/memory-template.md](docs/memory-template.md).
 
 **Distinction:** `memory.md` is a rotatable session continuity buffer. For durable chronology and notebook continuity, use [`continuity/`](continuity/README.md) (formerly `continuity/`). See [docs/codex-to-continuity-rename.md](docs/codex-to-continuity-rename.md).
 

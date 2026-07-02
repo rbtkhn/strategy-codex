@@ -1,6 +1,5 @@
 # Rome Shelf Reader
 
-
 ## What This Shelf Is For
 
 Use this shelf to read Rome as a transformed-continuity civilization-state through its own source field. The shelf exists to show how Roman order survives not by one uninterrupted territorial carrier, but by mutation across law, church, empire residue, and successor-order memory.

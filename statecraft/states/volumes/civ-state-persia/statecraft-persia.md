@@ -1,6 +1,5 @@
 # Statecraft Persia
 
-
 ## Where This Sits
 
 This is Part 3 of the Persia CIV-STATE volume. It is the operational synthesis layer where Persian civilizational endurance and imperial corridor logic become a present-tense read of leverage, recognition, siege pressure, and settlement possibility.

@@ -1,6 +1,5 @@
 # Blumenthal cross-host note
 
-
 Purpose: keep the guest-distributed and weave-distributed side of the Blumenthal object visible without overstating its maturity.
 
 ## Core note

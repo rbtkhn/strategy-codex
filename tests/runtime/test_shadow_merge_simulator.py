@@ -11,7 +11,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SMS = REPO_ROOT / "scripts" / "runtime" / "shadow_merge_simulator.py"
 
-
 def _gate_skills_fixture() -> str:
     return """# RECURSION GATE — test
 
@@ -41,7 +40,6 @@ review_notes: null
 ## Processed
 """
 
-
 def _gate_misfiled_fixture() -> str:
     return """# RECURSION GATE — test
 
@@ -70,7 +68,6 @@ prompt_addition: none
 ## Processed
 """
 
-
 def _gate_contradiction_fixture() -> str:
     return """# RECURSION GATE — test
 
@@ -97,7 +94,6 @@ prompt_addition: none
 ## Processed
 """
 
-
 def _write_fork(tmp_path: Path, gate_body: str) -> Path:
     user_dir = tmp_path / "platform/users" / "grace-mar"
     user_dir.mkdir(parents=True)
@@ -105,7 +101,6 @@ def _write_fork(tmp_path: Path, gate_body: str) -> Path:
     gate_path = user_dir / "recursion-gate.md"
     gate_path.write_text(gate_body, encoding="utf-8")
     return gate_path
-
 
 def test_skills_candidate_surface_preview(tmp_path: Path) -> None:
     _write_fork(tmp_path, _gate_skills_fixture())
@@ -137,7 +132,6 @@ def test_skills_candidate_surface_preview(tmp_path: Path) -> None:
     assert "self-skills" in text.lower() or "SKILLS" in text
     assert "## Support snapshot" in text
 
-
 def test_simulator_does_not_mutate_canonical_files(tmp_path: Path) -> None:
     gate_path = _write_fork(tmp_path, _gate_skills_fixture())
     self_path = tmp_path / "platform/users" / "grace-mar" / "self.md"
@@ -164,7 +158,6 @@ def test_simulator_does_not_mutate_canonical_files(tmp_path: Path) -> None:
     assert self_path.read_bytes() == before_self
     assert out.is_file()
 
-
 def test_cross_surface_misfiled_surfaces_classification(tmp_path: Path) -> None:
     _write_fork(tmp_path, _gate_misfiled_fixture())
     out = tmp_path / "report.md"
@@ -188,7 +181,6 @@ def test_cross_surface_misfiled_surfaces_classification(tmp_path: Path) -> None:
     assert "## Classification risk" in text
     assert "Misfiled" in text or "SELF-LIBRARY" in text or "medium" in text.lower()
 
-
 def test_contradiction_signal_in_narrative_section(tmp_path: Path) -> None:
     _write_fork(tmp_path, _gate_contradiction_fixture())
     out = tmp_path / "report.md"
@@ -211,7 +203,6 @@ def test_contradiction_signal_in_narrative_section(tmp_path: Path) -> None:
     text = out.read_text(encoding="utf-8")
     assert "## Narrative risk" in text
     assert "contradiction" in text.lower() or "conflict" in text.lower()
-
 
 def test_observation_envelope_appears_when_ledger_present(tmp_path: Path) -> None:
     _write_fork(tmp_path, _gate_skills_fixture())
@@ -265,7 +256,6 @@ def test_observation_envelope_appears_when_ledger_present(tmp_path: Path) -> Non
     text = out.read_text(encoding="utf-8")
     assert "Uncertainty envelope" in text or "conflicting" in text.lower() or "evidence_state" in text
 
-
 def test_build_report_markdown_import() -> None:
     import importlib.util
     import sys
@@ -294,7 +284,6 @@ def test_build_report_markdown_import() -> None:
     assert "SKILLS" in md
     assert "Predicted best-fit (keywords)" in md
 
-
 def _load_sms():
     import importlib.util
     import sys
@@ -309,7 +298,6 @@ def _load_sms():
     spec.loader.exec_module(m)
     return m
 
-
 def test_infer_best_fit_surface_library_for_roman_reference() -> None:
     m = _load_sms()
     sc = m.ShadowCandidate(
@@ -323,7 +311,6 @@ def test_infer_best_fit_surface_library_for_roman_reference() -> None:
     best, _scores = m.infer_best_fit_surface(sc)
     assert best == "SELF-LIBRARY"
 
-
 def test_narrative_risk_keyword_high_when_decisive_without_evidence() -> None:
     m = _load_sms()
     sc = m.ShadowCandidate(
@@ -336,7 +323,6 @@ def test_narrative_risk_keyword_high_when_decisive_without_evidence() -> None:
     assert level == "high"
     assert reason
 
-
 def test_sketch_classify_mismatch_raises_level() -> None:
     m = _load_sms()
     level, reason = m.sketch_classify_risk_vs_keywords(
@@ -347,7 +333,6 @@ def test_sketch_classify_mismatch_raises_level() -> None:
     )
     assert level == "high"
     assert reason
-
 
 def test_proposal_file_json_subprocess(tmp_path: Path) -> None:
     js = {

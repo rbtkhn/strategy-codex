@@ -12,11 +12,9 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-
 @pytest.fixture
 def rules():
     return json.loads((ROOT / "platform/config" / "seed-promotion-rules.json").read_text())
-
 
 def _make_claim(**overrides):
     base = {
@@ -38,7 +36,6 @@ def _make_claim(**overrides):
     }
     base.update(overrides)
     return base
-
 
 class TestEvaluateClaim:
     def test_ready_claim(self, rules):
@@ -107,7 +104,6 @@ class TestEvaluateClaim:
         result = evaluate_claim(claim, rules)
         assert any("approaching" in r for r in [result["verdict"]]
                     ) or len(result["approaching"]) > 0
-
 
 class TestRulesConfig:
     def test_rules_file_exists(self):

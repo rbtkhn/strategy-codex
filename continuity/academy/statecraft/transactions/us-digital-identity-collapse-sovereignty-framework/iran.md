@@ -1,7 +1,6 @@
 # Iran - U.S. Digital Identity Collapse / Sovereignty Framework
 <!-- word_count: 381 -->
 
-
 ## Transaction Name
 
 Sanctions-resilient identity continuity without surveillance overreach.

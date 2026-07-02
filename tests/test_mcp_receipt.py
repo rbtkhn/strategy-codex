@@ -13,19 +13,16 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 pytest.importorskip("jsonschema")
 
-
 @pytest.fixture(autouse=True)
 def _scripts_on_path() -> None:
     p = str(REPO_ROOT / "scripts")
     if p not in sys.path:
         sys.path.insert(0, p)
 
-
 def _load_configs():
     from mcp_receipt_lib import BINDINGS_PATH, CAPABILITIES_PATH, load_yaml
 
     return load_yaml(CAPABILITIES_PATH), load_yaml(BINDINGS_PATH)
-
 
 def test_valid_github_readonly_receipt_passes() -> None:
     from mcp_receipt_lib import RECEIPT_SCHEMA_PATH, capability_by_id, validate_mcp_receipt
@@ -71,7 +68,6 @@ def test_valid_github_readonly_receipt_passes() -> None:
     viols, _warns = validate_mcp_receipt(receipt, caps, binds, schema_path=RECEIPT_SCHEMA_PATH)
     assert viols == []
 
-
 def test_unknown_capability_fails() -> None:
     from mcp_receipt_lib import RECEIPT_SCHEMA_PATH, validate_mcp_receipt
 
@@ -108,7 +104,6 @@ def test_unknown_capability_fails() -> None:
     }
     viols, _ = validate_mcp_receipt(receipt, caps, binds, schema_path=RECEIPT_SCHEMA_PATH)
     assert any("unknown capability" in v.lower() for v in viols)
-
 
 def test_readonly_writes_nonempty_fails() -> None:
     from mcp_receipt_lib import RECEIPT_SCHEMA_PATH, capability_by_id, validate_mcp_receipt
@@ -153,7 +148,6 @@ def test_readonly_writes_nonempty_fails() -> None:
     viols, _ = validate_mcp_receipt(receipt, caps, binds, schema_path=RECEIPT_SCHEMA_PATH)
     assert any("resources_written must be empty" in v for v in viols)
 
-
 def test_candidate_proposal_without_human_review_fails() -> None:
     from mcp_receipt_lib import RECEIPT_SCHEMA_PATH, capability_by_id, validate_mcp_receipt
 
@@ -196,7 +190,6 @@ def test_candidate_proposal_without_human_review_fails() -> None:
     }
     viols, _ = validate_mcp_receipt(receipt, caps, binds, schema_path=RECEIPT_SCHEMA_PATH)
     assert any("requires_human_review" in v for v in viols)
-
 
 def test_evidence_stub_without_gate_review_fails() -> None:
     from mcp_receipt_lib import RECEIPT_SCHEMA_PATH, capability_by_id, validate_mcp_receipt
@@ -241,7 +234,6 @@ def test_evidence_stub_without_gate_review_fails() -> None:
     viols, _ = validate_mcp_receipt(receipt, caps, binds, schema_path=RECEIPT_SCHEMA_PATH)
     assert any("evidence_stub" in v and "requires_gate_review" in v for v in viols)
 
-
 def test_durable_attempt_wrong_authority_class_fails() -> None:
     from mcp_receipt_lib import RECEIPT_SCHEMA_PATH, capability_by_id, validate_mcp_receipt
 
@@ -284,7 +276,6 @@ def test_durable_attempt_wrong_authority_class_fails() -> None:
     }
     viols, _ = validate_mcp_receipt(receipt, caps, binds, schema_path=RECEIPT_SCHEMA_PATH)
     assert any("durable_state_write_attempted" in v for v in viols)
-
 
 def test_success_with_prohibited_action_attempted_fails() -> None:
     from mcp_receipt_lib import RECEIPT_SCHEMA_PATH, capability_by_id, validate_mcp_receipt
@@ -329,7 +320,6 @@ def test_success_with_prohibited_action_attempted_fails() -> None:
     viols, _ = validate_mcp_receipt(receipt, caps, binds, schema_path=RECEIPT_SCHEMA_PATH)
     assert any("success" in v.lower() and "prohibited" in v.lower() for v in viols)
 
-
 def test_credential_use_exceeds_capability_none_fails() -> None:
     from mcp_receipt_lib import RECEIPT_SCHEMA_PATH, capability_by_id, validate_mcp_receipt
 
@@ -373,7 +363,6 @@ def test_credential_use_exceeds_capability_none_fails() -> None:
     viols, _ = validate_mcp_receipt(receipt, caps, binds, schema_path=RECEIPT_SCHEMA_PATH)
     assert any("credential_use" in v for v in viols)
 
-
 def test_generated_receipt_resolves_authority_like_binding(tmp_path: Path) -> None:
     proc = subprocess.run(
         [
@@ -407,7 +396,6 @@ def test_generated_receipt_resolves_authority_like_binding(tmp_path: Path) -> No
     assert data["authority"]["authority_surface"] == "bridge_packets"
     assert data["authority"]["authority_class"] == "ephemeral_only"
     assert data["authority"]["gate_required_for_record_change"] is False
-
 
 def test_receipt_hash_roundtrip() -> None:
     from mcp_receipt_lib import capability_by_id, receipt_sha256_hex

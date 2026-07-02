@@ -1,6 +1,5 @@
 # Mercouris surface orthogonality review - 2026-05
 
-
 ## Scope
 
 Surfaces reviewed:

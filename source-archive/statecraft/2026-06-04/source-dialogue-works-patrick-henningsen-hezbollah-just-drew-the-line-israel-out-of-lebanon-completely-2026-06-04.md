@@ -33,7 +33,6 @@ transcript_curation: curated_sectioned
 
 ## Cleaned Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Thursday, June 4th, 2026, and our dear friend Patrick Hennington is here with us. Welcome back, Patrick. >> Great to be with you, Nema. >> Patrick, let let's start with yesterday what has happened with the case of Lebanon and the United States announced that there is an agreement between the government in Lebanon and Israelis.

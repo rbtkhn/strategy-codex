@@ -16,7 +16,6 @@ archive_links:
 
 # Davis × Barnes speaker arc
 
-
 Purpose: compact reuse note for the `Davis × Barnes` run inside the Davis stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: which Barnes guest episodes matter most inside this stream, what kind of lane this is, and which file to open first.
 
 ## Orthogonality guide

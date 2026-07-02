@@ -4,7 +4,7 @@ Source-bound work-business memos derived from upstream research artifacts.
 
 These notes support the commercial wedge around the AI Operating System Sprint. They are:
 
-- WORK only
+- non-authoritative
 - not workshop sheets
 - not Record truth
 - not client-facing copy by default

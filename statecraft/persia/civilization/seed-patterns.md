@@ -1,6 +1,5 @@
 # Iran Civilization Seed Patterns
 
-
 These seeds translate CIV-MEM into Iran-lane civilization patterns. State rules should draw from these patterns and the Iran empire folder, not directly from CIV-MEM.
 
 ## Dignity And Sovereignty

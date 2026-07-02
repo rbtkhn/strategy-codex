@@ -5,14 +5,12 @@ import sys
 
 import pytest
 
-
 def test_strategy_codex_repo_root_import():
     from strategy_codex import repo_root
 
     root = repo_root()
     assert root.is_dir()
     assert (root / "users").is_dir()
-
 
 def test_grace_mar_compat_warns(capsys):
     from strategy_codex.compat.grace_mar import main

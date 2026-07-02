@@ -5,14 +5,12 @@ import sys
 from datetime import date
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS = REPO_ROOT / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 import build_speaker_memory_actions as sma  # noqa: E402
-
 
 def row(
     appearance_id: str,
@@ -48,7 +46,6 @@ def row(
         "reason": "test route",
     }
 
-
 def test_existing_arc_route_emits_update_action() -> None:
     actions = sma.build_actions([row("ap-arc0000001")])
 
@@ -57,7 +54,6 @@ def test_existing_arc_route_emits_update_action() -> None:
     assert actions[0]["priority"] == "high"
     assert actions[0]["target_path"] == "continuity/years/2026/diesen/arc-beebe-diesen-host.md"
     assert actions[0]["evidence_appearances"] == ["ap-arc0000001"]
-
 
 def test_existing_object_with_candidate_arc_emits_create_candidate_arc() -> None:
     actions = sma.build_actions(
@@ -76,7 +72,6 @@ def test_existing_object_with_candidate_arc_emits_create_candidate_arc() -> None
     assert actions[0]["action_type"] == "create-candidate-arc"
     assert actions[0]["target_path"] == "continuity/years/2026/davis/davis-beebe-speaker-arc.md"
 
-
 def test_candidate_object_route_emits_create_candidate_object() -> None:
     actions = sma.build_actions(
         [
@@ -92,7 +87,6 @@ def test_candidate_object_route_emits_create_candidate_object() -> None:
 
     assert actions[0]["action_type"] == "create-candidate-object"
     assert actions[0]["target_path"].endswith("guest-speaker-object.md")
-
 
 def test_repeated_speaker_across_hosts_emits_consider_helix() -> None:
     actions = sma.build_actions(
@@ -112,7 +106,6 @@ def test_repeated_speaker_across_hosts_emits_consider_helix() -> None:
     assert helix[0]["target_path"] == "statecraft/voices/marandi/marandi-helix.md"
     assert helix[0]["evidence_appearances"] == ["ap-host000001", "ap-host000002"]
 
-
 def test_existing_cross_host_note_suppresses_consider_helix() -> None:
     actions = sma.build_actions(
         [
@@ -128,7 +121,6 @@ def test_existing_cross_host_note_suppresses_consider_helix() -> None:
 
     assert "consider-helix" not in {action["action_type"] for action in actions}
 
-
 def test_monologue_is_excluded_by_default_and_included_when_requested() -> None:
     monologue = row(
         "ap-mono000001",
@@ -143,7 +135,6 @@ def test_monologue_is_excluded_by_default_and_included_when_requested() -> None:
     actions = sma.build_actions([monologue], include_no_action=True)
     assert actions[0]["action_type"] == "no-action"
     assert actions[0]["priority"] == "low"
-
 
 def test_writes_markdown_and_jsonl_with_stable_fields(tmp_path: Path) -> None:
     rows = [row("ap-write00001")]

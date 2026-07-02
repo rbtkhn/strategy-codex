@@ -1,7 +1,5 @@
 # Media Pack — [lesson-id]
 
-WORK only; not Record.
-
 **Lesson brief:** `lessons/[lesson-id]/lesson-brief.md` (or linked lesson artifact)
 **Status:** draft | ready-for-review | approved | rejected
 **Date:**

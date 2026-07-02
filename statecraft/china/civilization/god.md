@@ -1,6 +1,5 @@
 # China God
 
-
 ## Purpose
 
 Use China's sacred-boundary memory as a statecraft lens for Heaven, mandate, ritual order, ancestor continuity, harmony, sage authority, cosmic-political order, unity, and legitimacy through competent rule.

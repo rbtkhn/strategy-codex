@@ -1,7 +1,5 @@
 ﻿# Future Roadmap Implications
 
-WORK only; not Record.
-
 **Canonical home:** [../../essays/future-roadmap-implications.md](../../essays/future-roadmap-implications.md)
 
 Compatibility stub — pre-root singularity essay holding (mirrored from

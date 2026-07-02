@@ -1,6 +1,5 @@
 # The Duran Index
 
-
 Compatibility pointer only.
 
 The canonical channel route map now lives at [the-duran-channel-index.md](the-duran-channel-index.md).

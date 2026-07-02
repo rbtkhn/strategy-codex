@@ -7,7 +7,6 @@ from unittest.mock import patch
 
 from scripts import strategy_batch_analysis_with_history as mod
 
-
 def test_find_snapshot_rows_prefers_batch_analysis_refs() -> None:
     snap = {
         "batch_analysis_refs": [
@@ -22,7 +21,6 @@ def test_find_snapshot_rows_prefers_batch_analysis_refs() -> None:
     assert len(rows) == 1
     assert rows[0]["date"] == "2026-04-14"
 
-
 def test_find_snapshot_rows_fallback_substring() -> None:
     snap = {
         "rows": [
@@ -32,14 +30,12 @@ def test_find_snapshot_rows_fallback_substring() -> None:
     rows = mod.find_snapshot_rows(snap, "ritter", "davis")
     assert len(rows) == 1
 
-
 def test_find_snapshot_rows_plain_list() -> None:
     snap = [
         {"expert_ids": ["davis", "ritter"], "label": "pair"},
     ]
     rows = mod.find_snapshot_rows(snap, "ritter", "davis")
     assert len(rows) == 1
-
 
 def test_compact_block_regex_extracts_fence_body() -> None:
     md = """## Historical stance summary
@@ -51,7 +47,6 @@ historical-expert-context | expert-a | stance=x
     m = mod.COMPACT_BLOCK_RE.search(md)
     assert m is not None
     assert "historical-expert-context | expert-a" in m.group(1)
-
 
 def test_load_historical_context_stance_preview(tmp_path: Path) -> None:
     hist_file = tmp_path / "ritter-2026-01-to-2026-03.md"
@@ -72,7 +67,6 @@ def test_load_historical_context_stance_preview(tmp_path: Path) -> None:
     assert len(ctx.preview_lines) == 4
     assert ctx.preview_lines[0] == "first bullet"
 
-
 def test_iter_month_segments_inclusive() -> None:
     assert mod.iter_month_segments("2026-01", "2026-03") == ["2026-01", "2026-02", "2026-03"]
     assert mod.iter_month_segments("2025-11", "2026-02") == [
@@ -81,7 +75,6 @@ def test_iter_month_segments_inclusive() -> None:
         "2026-01",
         "2026-02",
     ]
-
 
 def test_load_historical_context_prefers_segment_files(tmp_path: Path) -> None:
     seg_dir = tmp_path / "ritter"
@@ -124,7 +117,6 @@ historical-expert-context | ritter | stance=ROLLUP
     assert "ROLLUP" not in ctx.compact_block
     assert ctx.preview_lines[0] == "stance alpha one"
 
-
 def test_load_historical_context_falls_back_when_segment_incomplete(tmp_path: Path) -> None:
     seg_dir = tmp_path / "ritter"
     seg_dir.mkdir()
@@ -156,7 +148,6 @@ historical-expert-context | ritter | stance=ROLLUP_OK
     assert ctx.compact_block is not None
     assert "ROLLUP_OK" in ctx.compact_block
     assert "SEG" not in ctx.compact_block
-
 
 def test_main_requires_dry_run_or_apply() -> None:
     import subprocess

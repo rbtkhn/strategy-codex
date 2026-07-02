@@ -1,7 +1,6 @@
 # Hormuz Compact - Four-Lane Comparison
 <!-- word_count: 634 -->
 
-
 Purpose: compare the four national transactions without collapsing them into consensus.
 
 ## Orthogonality

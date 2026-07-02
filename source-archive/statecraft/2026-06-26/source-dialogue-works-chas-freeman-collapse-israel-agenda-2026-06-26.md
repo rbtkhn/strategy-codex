@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Beth Yahoun and Geneva Round Two
 
 Hi everybody. Today is Friday, June 26, 2026 and our dear friend, Ambassador Chas Freeman is here with us. Welcome back, Ambassador. >> Thank you, Nima. Glad to be with you. >> Uh

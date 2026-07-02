@@ -161,7 +161,7 @@ That means the family layer is no longer only complete by title. It is now also 
 
 Now that the family grid has both title coverage and problem-shape routing, and the corpus now also has [an operator-task router](orientation-operator-task-router.md), the next highest-value surfaces are:
 
-- deeper comparison work only when later architecture classes genuinely emerge
+- deeper comparison non-authoritative when later architecture classes genuinely emerge
 - later domain-specific drafting instruments only if one class repeatedly proves distinct enough to justify them
 - a checkpoint audit if the operator wants to seal the current three-architecture Phase 2 layer as a durable milestone
 

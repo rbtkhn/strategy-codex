@@ -1,6 +1,5 @@
 # Elon Musk Authority Carrier Object
 
-
 Refresh current officeholder, contract, company, and platform facts before load-bearing use.
 
 ## Object

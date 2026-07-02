@@ -13,8 +13,6 @@ post_id: 184130459
 
 # The Innermost Loop - 2026-01-10
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 10, 2026
@@ -29,10 +27,7 @@ The Singularity is starting to make the Manhattan Project look like a rounding e
 
 ## Newsletter Text
 
--
--
-
-The Singularity is starting to make the Manhattan Project look like a rounding error. In 2025, US AI infrastructure capex reached 1.9% of GDP, making the buildout more than three times larger than the Apollo Project (0.6%) and nearly five times larger than the Manhattan Project (0.4%) . This investment is fueling a transition to recursive self-improvement. Anthropic co-founder Jack Clark confirms they are seeing early signs of AI “getting better at doing components of AI research,” from kernel development to autonomous fine-tuning. The loop is nonetheless messy. xAI was reportedly using Claude via Cursor to build Grok until Anthropic cut off access , illustrating the incestuous velocity of the frontier.
+- The Singularity is starting to make the Manhattan Project look like a rounding error. In 2025, US AI infrastructure capex reached 1.9% of GDP, making the buildout more than three times larger than the Apollo Project (0.6%) and nearly five times larger than the Manhattan Project (0.4%) . This investment is fueling a transition to recursive self-improvement. Anthropic co-founder Jack Clark confirms they are seeing early signs of AI “getting better at doing components of AI research,” from kernel development to autonomous fine-tuning. The loop is nonetheless messy. xAI was reportedly using Claude via Cursor to build Grok until Anthropic cut off access , illustrating the incestuous velocity of the frontier.
 
 The scale of these models is going vertical. Jensen Huang revealed Grok 5 will be a 7-trillion-parameter model . Meanwhile, China is racing the West. DeepSeek V4 is launching soon, with internal benchmarks reportedly showing it outperforms Claude and GPT in coding . Reasoning is also being solved. AxiomProver, an autonomous theorem prover, produced formal Lean proofs to solve 12 out of 12 Putnam 2025 competition problems , doing what human prodigies struggle to do, but nearly instantly. Meanwhile, the human-machine interface is evolving rapidly. ElevenLabs released Scribe v2, scoring a SOTA 95.7% on FLEURS and perfecting speech-to-text, while Google has begun officially discouraging website owners from “content chunking” to feed Gemini instead of human visitors.
 

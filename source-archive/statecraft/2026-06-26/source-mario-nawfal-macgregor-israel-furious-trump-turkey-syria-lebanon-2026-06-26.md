@@ -37,7 +37,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Turkey F-35 and Israel Statement
 
 surviving. You got the energy for regular shows. You're doing well. Probably doing better than me. We had an alert today in in Dubai. Um it gave me a didn't give me PTSD because it's not a big deal here, but freaked a lot of people out in Dubai. So they got an alert, seek shelter because of John missile attack.

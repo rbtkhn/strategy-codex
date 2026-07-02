@@ -1,6 +1,5 @@
 # State Lane Development Roadmap
 
-
 Purpose: give every statecraft lane the same development sequence so each state can eventually stand as an independent repo without losing the shared Statecraft grammar.
 
 End state: each lane becomes a book and a machine. The book side is a complete, compelling, evidence-backed civilizational volume. The machine side is a governed recursive update loop that lets statecraft work improve the lane without automatic rewriting.

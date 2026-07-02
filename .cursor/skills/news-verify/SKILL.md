@@ -21,7 +21,6 @@ synced_by: sync_portable_skills.py
 
 **Preferred activation:** **`news verify`**, **`news-verify`**, **`verify tier`**, or **`verify reports`** on a named ingest / brief / transcript batch.
 
-
 **Legacy activation (compatibility):** **`wire verify`**, **`wire-verify`**, **`verify wires`** — same skill; prefer **`news verify`** for new work.
 
 **Term law:** **News** here means **corpus tier 3** — contemporary **reported** claims (news media, official releases, attributed desk lines), not tier-4 analyst commentary.
@@ -381,7 +380,6 @@ Sub-hook passes may use a **short** lane table (combatant rows + mesh lanes) but
 - **fact-check** (host skill) — general triage; native-primary discipline; **`fact check deep`** escalation.
 - Host appendix — repo paths for inbox tokens, statecraft `source_note`, `strategy + verify` gate (Cursor install only).
 
-
 ## Cursor / strategy-codex instance
 
 # News verify — strategy-codex appendix
@@ -512,7 +510,6 @@ After editing the portable core:
 python3 scripts/sync_portable_skills.py --verify
 python3 scripts/validate_skills.py
 ```
-
 
 ## Cursor / strategy-codex instance
 

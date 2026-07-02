@@ -69,7 +69,6 @@ Do not use `memory` to replace an unresolved lane judgment or an unresolved gove
 
 ## Boundary
 
-- WORK only; not Record.
 - Do not edit PH-CIV corpus or CIV-MEM source files from this workflow.
 - Do not create lane instrument notes unless the operator separately asks.
 - Use lane-local `updates/pending.md` for durable recursive candidates; live analysis proposes, human review decides.
@@ -491,7 +490,6 @@ If verification cannot be completed:
 **Completion standard:** memory is complete only when the continuity source and any changed memory surface are named, and the closeout does not imply Record authority.
 
 **Avoid:** Do not let memory updates silently become SELF, EVIDENCE, or canonical Record changes.
-
 
 ## Cursor / strategy-codex instance
 

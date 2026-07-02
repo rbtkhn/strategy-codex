@@ -1,6 +1,5 @@
 # Russia Secondary Sources - Industrial
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the industrial Russia primary shelf when revolution, Soviet mutation, war endurance, superpower parity, or the 1991 endpoint need sharper chronology or stronger anti-caricature control.

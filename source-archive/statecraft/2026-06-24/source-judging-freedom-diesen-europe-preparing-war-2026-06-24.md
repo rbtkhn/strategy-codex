@@ -46,7 +46,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Europe and War
 
 >> >> Hi everyone, Judge Andrew Napolitano here for Judging Freedom.

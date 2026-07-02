@@ -34,10 +34,8 @@ CONFIDENCE_HINT_BOOST: dict[str, float] = {
     "low": -0.08,
 }
 
-
 def map_stance_to_probability(stance: str) -> float:
     return STANCE_TO_PROBABILITY.get(str(stance or "").strip().lower(), 0.50)
-
 
 def compute_confidence(claim_row: dict[str, Any]) -> float:
     speech_act = str(claim_row.get("speech_act") or "restated")
@@ -45,7 +43,6 @@ def compute_confidence(claim_row: dict[str, Any]) -> float:
     hint = str(claim_row.get("confidence_hint") or "").strip().lower()
     boost = CONFIDENCE_HINT_BOOST.get(hint, 0.0)
     return round(clamp01(base + boost), 4)
-
 
 def infer_probabilities(claims: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Add probability and confidence to aligned claims."""

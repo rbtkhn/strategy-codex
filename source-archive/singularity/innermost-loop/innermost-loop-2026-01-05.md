@@ -13,8 +13,6 @@ post_id: 183557142
 
 # The Innermost Loop - 2026-01-05
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 5, 2026
@@ -29,10 +27,7 @@ The intelligence explosion is collapsing the latency between thought and reality
 
 ## Newsletter Text
 
--
--
-
-The intelligence explosion is collapsing the latency between thought and reality. Elon Musk has declared 2026 “the year of the Singularity,” while Anthropic President Daniela Amodei argues that AGI is becoming outdated because we have, in many metrics, already surpassed it. The evidence is in the compile times: Railway CEO Jake Cooper handed Claude a specification for a distributed runtime he had theorized for 5 years, and the model wrote the entire Golang codebase in 4 hours , a task that would have taken months of human labor. Deep reinforcement also keeps accelerating. RAND researchers found that Claude models are developing accurate self-reflective confidence on coding tasks, knowing when they are right before running the code. Meanwhile, the NanoGPT Speedrun record has collapsed once again to 113.7 seconds , causing engineers to joke nervously that model training time records must eventually stop at zero.
+- The intelligence explosion is collapsing the latency between thought and reality. Elon Musk has declared 2026 “the year of the Singularity,” while Anthropic President Daniela Amodei argues that AGI is becoming outdated because we have, in many metrics, already surpassed it. The evidence is in the compile times: Railway CEO Jake Cooper handed Claude a specification for a distributed runtime he had theorized for 5 years, and the model wrote the entire Golang codebase in 4 hours , a task that would have taken months of human labor. Deep reinforcement also keeps accelerating. RAND researchers found that Claude models are developing accurate self-reflective confidence on coding tasks, knowing when they are right before running the code. Meanwhile, the NanoGPT Speedrun record has collapsed once again to 113.7 seconds , causing engineers to joke nervously that model training time records must eventually stop at zero.
 
 The operating system is being colonized by agency. Microsoft is betting that AI agents are the new apps , introducing “Agent Launchers” that let developers register autonomous workers directly into the Windows taskbar. Corporate adoption is scaling vertically. BCG has built over 36,000 custom GPTs using an internal AI assembly line, while OpenAI projects 2.6 billion weekly active users by 2030, one-third of the human population.
 

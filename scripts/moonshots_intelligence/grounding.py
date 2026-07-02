@@ -15,6 +15,5 @@ __all__ = [
 
 _STITCH_MARKER_RE = re.compile(r"\s*\|\|\|\s*")
 
-
 def is_stitched_evidence(text: str) -> bool:
     return bool(_STITCH_MARKER_RE.search(text))

@@ -13,8 +13,6 @@ post_id: 184221943
 
 # The Innermost Loop - 2026-01-11
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 11, 2026
@@ -29,10 +27,7 @@ The Singularity is rapidly becoming the base clock speed of civilization.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is rapidly becoming the base clock speed of civilization. Epoch AI reports that global AI compute capacity is now doubling every 7 months , a 3.3x annual compounding rate that is obliterating historical trends. This exponential pressure is starting to crack open the hardest problems in mathematics. GPT-5.2 Pro and Aristotle have now autonomously resolved Erdős problem #729 , confirming that the bulk solution of math is now a function of compute. We are finding that intelligence is often just a function of attention density. Google researchers discovered that simply repeating a prompt twice allows models to “attend” to their own inputs without reasoning, boosting performance at zero generated token cost.
+- The Singularity is rapidly becoming the base clock speed of civilization. Epoch AI reports that global AI compute capacity is now doubling every 7 months , a 3.3x annual compounding rate that is obliterating historical trends. This exponential pressure is starting to crack open the hardest problems in mathematics. GPT-5.2 Pro and Aristotle have now autonomously resolved Erdős problem #729 , confirming that the bulk solution of math is now a function of compute. We are finding that intelligence is often just a function of attention density. Google researchers discovered that simply repeating a prompt twice allows models to “attend” to their own inputs without reasoning, boosting performance at zero generated token cost.
 
 The physical layer of the network is becoming indistinguishable from magic. Duke and MIT researchers have demonstrated “WISE,” a paradigm where model weights are encoded in radio waves , allowing devices to compute using the air itself in a manner reminiscent of the Borg Collective. Simultaneously, Sandia National Labs has successfully mapped the brain’s motor cortex onto Intel’s Loihi 2 , solving partial differential equations on neuromorphic hardware with biological efficiency. The fabrication bottleneck is also breaking. Dai Nippon Printing has unveiled nanoimprint lithography templates capable of 1.4-nm logic, potentially bypassing the EUV monopoly. However, the silicon hunger is real. TrendForce predicts an “unprecedented” 55% jump in DRAM prices this quarter.
 

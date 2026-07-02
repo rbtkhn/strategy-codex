@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 and I'll read it. >> Okay, >> there it is. All right, so the report, I was just starting to read it as you're jumping on. Israeli Channel 13, the US administration recently halted a military operation that Israel was planning in Gaza. >> The operation was discussed at the top of the political and security ranks recently, and when it reached the Americans, they expressed their displeasure and asked Israel to wait with the plans.

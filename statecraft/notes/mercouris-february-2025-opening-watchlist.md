@@ -18,7 +18,6 @@ archive_links:
 ---
 # Mercouris February 2025 Opening Watchlist
 
-
 ## Purpose
 
 Open a bounded February 2025 Mercouris watchlist before any stronger repair or closure claims are made.

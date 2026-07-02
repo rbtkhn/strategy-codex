@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia Steps Up Iran Aid; Iran Hits F35; Energy Crisis Causes Recession Fears; Neocons Want Kharg Op
 
-

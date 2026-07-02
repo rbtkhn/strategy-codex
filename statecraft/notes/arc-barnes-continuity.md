@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2026-04-03/source-daniel-davis-robert-barnes-war-crimes-hormuz-2026-04-03.md
 ---
 
-
 # Barnes arc
 
 Purpose: hold Barnes as a whole speaker object across hosts and across the January through May 2026 materialized run without pretending he already owns a Johnson-style month lattice.

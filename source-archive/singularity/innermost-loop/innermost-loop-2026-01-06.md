@@ -13,8 +13,6 @@ post_id: 183733432
 
 # The Innermost Loop - 2026-01-06
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 6, 2026
@@ -29,10 +27,7 @@ The hardware substrate of the Singularity is scaling asymptotically.
 
 ## Newsletter Text
 
--
--
-
-The hardware substrate of the Singularity is scaling asymptotically. Nvidia has announced its next-generation Vera Rubin GPU platform is now in full production , delivering 50 petaflops of NVFP4 compute and a 10x reduction in inference costs, with Elon Musk confirming he will have the GPUs operating “at scale” in just 9 months . The simulation layer is also deepening. Nvidia’s DLSS 4.5 now uses a 2nd-gen transformer model to generate five frames for every rendered one, enabling 240+ FPS path tracing. The competition is responding. AMD previewed its MI500 GPUs (2-nm process) for 2027, projecting a 1,000x increase in AI performance , while simultaneously launching the Ryzen AI 400 Series for the edge, which boasts 1.3x faster multitasking . Meanwhile, Intel has officially launched Core Ultra Series 3, the first chips built on the Intel 18A process manufactured in the United States.
+- The hardware substrate of the Singularity is scaling asymptotically. Nvidia has announced its next-generation Vera Rubin GPU platform is now in full production , delivering 50 petaflops of NVFP4 compute and a 10x reduction in inference costs, with Elon Musk confirming he will have the GPUs operating “at scale” in just 9 months . The simulation layer is also deepening. Nvidia’s DLSS 4.5 now uses a 2nd-gen transformer model to generate five frames for every rendered one, enabling 240+ FPS path tracing. The competition is responding. AMD previewed its MI500 GPUs (2-nm process) for 2027, projecting a 1,000x increase in AI performance , while simultaneously launching the Ryzen AI 400 Series for the edge, which boasts 1.3x faster multitasking . Meanwhile, Intel has officially launched Core Ultra Series 3, the first chips built on the Intel 18A process manufactured in the United States.
 
 Matter is becoming a programmable API. Lego has unveiled the “Smart Brick,” a standard 2x4 block containing a 4.1-mm ASIC and local “BrickNet” mesh networking , effectively releasing programmable matter to children. At the industrial scale, the humanoid workforce is coming online: Hyundai plans to deploy 30,000 next-gen Atlas robots annually by 2028, now powered by Google DeepMind’s Gemini Robotics models , while Qualcomm has partnered with Figure to put its new Dragonwing IQ10 processors inside the next wave of androids. Domestic life is also being automated. LG introduced CLOiD, a home robot built on visual-language-action (VLA) models aimed at the “Zero Labor Home.”
 

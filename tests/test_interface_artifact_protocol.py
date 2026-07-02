@@ -11,7 +11,6 @@ REPO = Path(__file__).resolve().parent.parent
 VALIDATE = REPO / "scripts" / "work_dev" / "validate_interface_artifact.py"
 NEW = REPO / "scripts" / "work_dev" / "new_interface_artifact.py"
 
-
 def _run(args: list[str | Path], *, check: bool = True) -> subprocess.CompletedProcess:
     return subprocess.run(
         [sys.executable, *map(str, args)],
@@ -20,7 +19,6 @@ def _run(args: list[str | Path], *, check: bool = True) -> subprocess.CompletedP
         text=True,
         check=check,
     )
-
 
 def _example_data() -> dict:
     return {
@@ -45,7 +43,6 @@ def _example_data() -> dict:
             "demo-runs/workbench-visualizer/README.md"
         ),
     }
-
 
 def test_new_interface_artifact_creates_valid_json(tmp_path) -> None:
     out = tmp_path / "artifact.json"
@@ -80,7 +77,6 @@ def test_new_interface_artifact_creates_valid_json(tmp_path) -> None:
     assert validated.returncode == 0, validated.stderr
     assert "ok" in validated.stdout
 
-
 def test_validator_rejects_record_authority_not_none(tmp_path) -> None:
     data = _example_data()
     data["recordAuthority"] = "full"
@@ -90,7 +86,6 @@ def test_validator_rejects_record_authority_not_none(tmp_path) -> None:
     assert result.returncode == 1
     assert "recordAuthority" in result.stderr
 
-
 def test_validator_rejects_gate_effect_not_none(tmp_path) -> None:
     data = _example_data()
     data["gateEffect"] = "staged"
@@ -99,7 +94,6 @@ def test_validator_rejects_gate_effect_not_none(tmp_path) -> None:
     result = _run([VALIDATE, bad], check=False)
     assert result.returncode == 1
     assert "gateEffect" in result.stderr
-
 
 def test_validator_rejects_canonical_record_access_outside_allowed_values(
     tmp_path,
@@ -111,7 +105,6 @@ def test_validator_rejects_canonical_record_access_outside_allowed_values(
     result = _run([VALIDATE, bad], check=False)
     assert result.returncode == 1
     assert "canonicalRecordAccess" in result.stderr
-
 
 def test_validator_rejects_unknown_artifact_kind(tmp_path) -> None:
     data = _example_data()

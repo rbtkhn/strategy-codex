@@ -3,7 +3,6 @@ import re
 
 import pytest
 
-
 def test_prompt_no_forbidden_phrases():
     """SYSTEM_PROMPT must not contain phrases that break character or disclose AI."""
     from bot.prompt import SYSTEM_PROMPT
@@ -21,13 +20,11 @@ def test_prompt_no_forbidden_phrases():
     for phrase in forbidden:
         assert phrase not in lower, f"Prompt must not contain '{phrase}'"
 
-
 def test_prompt_contains_identity():
     """Prompt should establish character (Grace-Mar)."""
     from bot.prompt import SYSTEM_PROMPT
 
     assert "grace-mar" in SYSTEM_PROMPT.lower() or "Grace-Mar" in SYSTEM_PROMPT
-
 
 def test_prompt_contains_knowledge_boundary():
     """Prompt should instruct abstention / lookup when outside knowledge."""

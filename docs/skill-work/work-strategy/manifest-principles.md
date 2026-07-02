@@ -1,6 +1,6 @@
 # Work-Strategy Manifest Principles
 
-**Status:** Operator/process discipline. WORK only. Not Record truth.
+**Status:** Operator/process discipline. non-authoritative. Not Record truth.
 
 ## Principles
 

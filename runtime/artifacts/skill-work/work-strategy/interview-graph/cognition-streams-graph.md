@@ -1,6 +1,5 @@
 # Polyphonic Cognition Streams
 
-WORK only; not Record.
 This is a count-neutral lattice of cognition streams. The current shape has eight streams: Alkorshid, Diesen, Davis, Mercouris, Crooke, Parsi, Pape, Ritter.
 Each stream is treated as an interpretive voice. The default analysis mode is contrapuntal comparison: surface tensions, harmonies, bridges, and differences without forcing synthesis.
 Window: 2025-05-01 to 2026-05-01.

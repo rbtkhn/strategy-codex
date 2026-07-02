@@ -25,10 +25,8 @@ FORBIDDEN_MODIFICATION_KEYS = frozenset(
 
 FORBIDDEN_SIGNAL_OVERWRITE = frozenset({"directional", "volatility", "drift"})
 
-
 def deep_clone(obj: Any) -> Any:
     return copy.deepcopy(obj)
-
 
 def core_object_to_plugin_input(core_obj: dict[str, Any]) -> dict[str, Any]:
     """Extract plugin input contract from a unified epistemic core object."""
@@ -44,7 +42,6 @@ def core_object_to_plugin_input(core_obj: dict[str, Any]) -> dict[str, Any]:
         "voice": str(core_obj.get("voice") or ""),
         "timestamp": str(core_obj.get("timestamp") or ""),
     }
-
 
 def _forbidden_in_modifications(modifications: dict[str, Any], path: str = "") -> list[str]:
     issues: list[str] = []
@@ -75,7 +72,6 @@ def _forbidden_in_modifications(modifications: dict[str, Any], path: str = "") -
 
     return issues
 
-
 def validate_plugin_output(output: dict[str, Any], *, expected_name: str | None = None) -> list[str]:
     issues: list[str] = []
     if not isinstance(output, dict):
@@ -104,7 +100,6 @@ def validate_plugin_output(output: dict[str, Any], *, expected_name: str | None 
 
     return issues
 
-
 def normalize_plugin_weights(outputs: list[dict[str, Any]]) -> list[float]:
     """Return per-plugin weights capped so aggregate <= MAX_PLUGIN_INFLUENCE."""
     raw = [max(0.0, min(1.0, float(o.get("confidence") or 0.0))) for o in outputs]
@@ -116,10 +111,8 @@ def normalize_plugin_weights(outputs: list[dict[str, Any]]) -> list[float]:
     scale = MAX_PLUGIN_INFLUENCE / total
     return [round(w * scale, 6) for w in raw]
 
-
 def detect_input_mutation(before: dict[str, Any], after: dict[str, Any]) -> bool:
     return json.dumps(before, sort_keys=True) != json.dumps(after, sort_keys=True)
-
 
 class EpistemicPlugin(ABC):
     """Base plugin — operates on cloned core input only."""

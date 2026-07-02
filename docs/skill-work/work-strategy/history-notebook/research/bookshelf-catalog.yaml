@@ -1,6 +1,6 @@
 # History Notebook â€” Bookshelf catalog (title-level seed; Shelf-* rows)
 # Operator collection name: self-library-bookshelf (physical library + this Shelf list;  in self-library).
-# WORK only; not Record. Does not replace book-architecture.yaml or cross-book-map.yaml.
+# Does not replace book-architecture.yaml or cross-book-map.yaml.
 # Self-library pointer:  â€” self-library.md#bookshelf (owned Shelf-* shelf; not operator_book / operator_analytical). Human overview: BOOKSHELF.md (same directory).
 #
 # Schema (items[]):

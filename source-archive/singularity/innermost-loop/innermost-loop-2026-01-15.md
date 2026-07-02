@@ -13,8 +13,6 @@ post_id: 184631724
 
 # The Innermost Loop - 2026-01-15
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 15, 2026
@@ -29,10 +27,7 @@ WORK only; not Record.
 
 ## Newsletter Text
 
--
--
-
-“AI 2027” is starting to look conservative. Cursor has officially released support for GPT-5.2 Codex, calling it “the frontier model for long-running tasks.” To prove it, the CEO of Cursor reports building a complete browser from scratch using the model, which ran uninterrupted for one week , generating 3 million lines of code to build a custom rendering engine in Rust. This shatters the previously official METR autonomy horizon of ~5 hours (Opus 4.5), effectively implying that software engineering is now a promptable commodity. The industry is already reeling. The founder of Browser Use asks, “What is even the value of software at this point? You can literally 1 shot almost anything.”
+- “AI 2027” is starting to look conservative. Cursor has officially released support for GPT-5.2 Codex, calling it “the frontier model for long-running tasks.” To prove it, the CEO of Cursor reports building a complete browser from scratch using the model, which ran uninterrupted for one week , generating 3 million lines of code to build a custom rendering engine in Rust. This shatters the previously official METR autonomy horizon of ~5 hours (Opus 4.5), effectively implying that software engineering is now a promptable commodity. The industry is already reeling. The founder of Browser Use asks, “What is even the value of software at this point? You can literally 1 shot almost anything.”
 
 This acceleration is not limited to code. A UC Irvine math professor gave an internal beta of Grok 4.20 an open problem in harmonic analysis, and within 5 minutes it discovered a novel Bellman function that humans had spent years seeking.
 

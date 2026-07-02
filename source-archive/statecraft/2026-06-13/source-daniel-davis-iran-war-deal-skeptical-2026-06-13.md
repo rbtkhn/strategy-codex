@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 we could be 24 hours away from signing a deal to bring the US and Iran war to an end. Or at least that's what's being claimed here. Uh there's a couple of interesting headlines out this morning. Uh first of all, Pakistani prime minister says that the US Iran peace deal could be signed in within 24 hours. And then we have an interesting comment here which you're going to see how this plays directly into this government reported to restrain IDF action.

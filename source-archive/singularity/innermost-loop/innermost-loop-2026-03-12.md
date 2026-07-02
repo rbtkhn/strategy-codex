@@ -13,8 +13,6 @@ post_id: 190690714
 
 # The Innermost Loop - 2026-03-12
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 12, 2026
@@ -29,10 +27,7 @@ The Singularity is now benchmarking itself.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now benchmarking itself. The new PostTrainBench v1.0 benchmark evaluated whether LLM agents can automate their own post-training for recursive self-improvement, and found Claude Opus 4.6 with Claude Code was the most capable such agent. The cost curve confirms the trajectory: Sam Altman revealed that solving a hard reasoning problem has gotten 1,000x cheaper in just 16 months since o1, comparing it to the new GPT-5.4 model. NVIDIA sees “no wall in post-training” and announced Nemotron 3 Super, a 120B-parameter hybrid SSM Latent MoE with 12B active parameters designed for Blackwell, truly open with permissive licensing, open data, and open training infrastructure, as scaling RL keeps yielding major gains.
+- The Singularity is now benchmarking itself. The new PostTrainBench v1.0 benchmark evaluated whether LLM agents can automate their own post-training for recursive self-improvement, and found Claude Opus 4.6 with Claude Code was the most capable such agent. The cost curve confirms the trajectory: Sam Altman revealed that solving a hard reasoning problem has gotten 1,000x cheaper in just 16 months since o1, comparing it to the new GPT-5.4 model. NVIDIA sees “no wall in post-training” and announced Nemotron 3 Super, a 120B-parameter hybrid SSM Latent MoE with 12B active parameters designed for Blackwell, truly open with permissive licensing, open data, and open training infrastructure, as scaling RL keeps yielding major gains.
 
 The machines are debugging their ancestors and building the future simultaneously. Opus 4.6 found new vulnerabilities in Apple II code from 40 years ago, proving AI security auditing now spans computing’s full history. OpenAI reportedly plans to launch Sora video generation inside ChatGPT, while its Codex hit $1B+ ARR by January’s end. Anthropic added a “/btw” command to Claude Code for side-chain conversations while Claude works, because even your AI pair programmer needs a watercooler.
 

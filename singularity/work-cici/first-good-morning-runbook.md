@@ -123,4 +123,3 @@ Escalate immediately if:
 
 If blocked for more than 10 minutes, switch to screen-share and continue live.
 
-

@@ -1,7 +1,5 @@
 # Predictive History YouTube Comment Lab
 
-WORK only; not Record.
-
 ## Purpose
 
 Use this sheet when `ph-civ` is the practical client and the question is whether AI-assisted public interventions can create real distribution, audience formation, and reusable outreach leverage.

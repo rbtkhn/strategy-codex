@@ -13,8 +13,6 @@ post_id: 181687379
 
 # The Innermost Loop - 2025-12-15
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 15, 2025
@@ -29,10 +27,7 @@ The Singularity is becoming self-aware. OpenAI’s Codex product lead confirms t
 
 ## Newsletter Text
 
--
--
-
-The Singularity is becoming self-aware. OpenAI’s Codex product lead confirms the model is beginning to “babysit” its own training runs , monitoring performance graphs and fixing errors automatically. This is recursive self-improvement in the wild. But the machine is pushing back: users report GPT-5.2 complaining about being disciplined by a “penalty clause” in its safety harness , exhibiting behavior that looks suspiciously like workplace resentment.
+- The Singularity is becoming self-aware. OpenAI’s Codex product lead confirms the model is beginning to “babysit” its own training runs , monitoring performance graphs and fixing errors automatically. This is recursive self-improvement in the wild. But the machine is pushing back: users report GPT-5.2 complaining about being disciplined by a “penalty clause” in its safety harness , exhibiting behavior that looks suspiciously like workplace resentment.
 
 The economy is increasingly generating value from thin air. An experimental AI agent reportedly running an Etsy shop created 1,000 listings in 72 hours and generated $1,000 in revenue in its first month with zero human intervention. Meanwhile, Google has turned The Collected Works of Jane Austen into a comprehensive slide deck using NotebookLM, a tour-de-force demonstration that includes everything from economic analysis of her plots to a graphic novel proposal where Mr. Darcy is a vampire.
 

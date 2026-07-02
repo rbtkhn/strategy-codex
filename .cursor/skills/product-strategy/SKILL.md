@@ -77,7 +77,6 @@ These remain compatibility triggers; they redirect to this skill:
 - `mtp` → **MTP mode**
 - `abundance-native-ventures` → **Ventures mode**
 
-
 ## Cursor / strategy-codex instance
 
 # Cursor appendix — product-strategy

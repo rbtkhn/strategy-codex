@@ -211,7 +211,6 @@ Synthesized from market and agent-orchestration discourse (All-In podcast, 2025)
 | **health-fitness** | Meet where they are; no compulsion; agency. |
 | **lesson generator** | museum knowledge section A/B/C + edge = differentiation (Tomlinson); short activities (CLT); mastery threshold in rules. |
 
-
 **human-teacher:** The formative loop ("We did X" → Record → next prompt) is the core feedback mechanism. One prompt per day reduces friction; 4-option rule supports autonomy. Tutor-as-guide aligns with Khanmigo; knowledge boundary = Record only. See [work-human-teacher roadmap](work-human-teacher/roadmap.md).
 
 **curate-library:** LIBRARY holds books and videos for lookup. Vocabulary-in-context at edge Lexile differentiates from drill apps; curate-library supplies texts and media for lesson prompts. See [work-curate-library](work-curate-library/README.md).

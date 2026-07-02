@@ -1,7 +1,5 @@
 # Singularity loop system
 
-WORK only; not Record.
-
 ## Principle
 
 > Singularity is defined by the loops it runs, not the ideas it contains.

@@ -17,7 +17,6 @@ from scripts.normalize_napolitano_opening_scaffold import (
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _wrap_capture(guest: str, transcript_body: str, extra_meta: str = "") -> str:
     return f"""---
 ingest_date: 2026-05-29
@@ -37,7 +36,6 @@ editorial_note: Operator-pasted transcript body.
 
 {transcript_body}
 """
-
 
 def test_cold_open_and_sponsor_trim():
     body = (
@@ -59,7 +57,6 @@ def test_cold_open_and_sponsor_trim():
     assert "Lear Capital" not in new_body
     assert "Professor Sachs, good day" in new_body
 
-
 def test_already_trimmed_host_tease_unchanged():
     body = (
         "Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, April 20th, 2026. "
@@ -71,7 +68,6 @@ def test_already_trimmed_host_tease_unchanged():
     )
     assert not changed
     assert new_body == body
-
 
 def test_close_promo_trim():
     paragraphs = [
@@ -87,7 +83,6 @@ def test_close_promo_trim():
     assert not joined.rstrip().endswith("And")
     assert "Have a nice evening" in joined
 
-
 def test_close_promo_trim_schedule_block():
     paragraphs = [
         "Professor Sachs, thank you very much.",
@@ -101,7 +96,6 @@ def test_close_promo_trim_schedule_block():
     assert "Coming up tomorrow" not in joined
     assert "Judge Napolitano for Judging Freedom" not in joined
     assert "Have a nice evening" in joined
-
 
 def test_normalize_text_sets_receipt_fields():
     body = (
@@ -125,7 +119,6 @@ def test_normalize_text_sets_receipt_fields():
     assert "Undeclared wars" not in new_text
     assert "Lear Capital" not in new_text
 
-
 def test_cold_open_only_before_host_intro():
     body = (
         "Undeclared wars are commonplace. Freedom's greatest hour of danger is now.\n\n"
@@ -134,7 +127,6 @@ def test_cold_open_only_before_host_intro():
     trimmed, changed = trim_cold_open_block(body)
     assert changed
     assert trimmed.startswith("Hi everyone")
-
 
 def test_sponsor_and_guest_in_one_paragraph():
     paragraph = (
@@ -151,7 +143,6 @@ def test_sponsor_and_guest_in_one_paragraph():
     assert "preparewiththeadjudge" not in joined
     assert "Professor Sachs, good day" in joined
     assert "Why is Israel at war" in joined
-
 
 def test_fused_cold_open_with_hey_intro_and_asr_typo():
     """Operator paste: cold open + host intro in one paragraph; Hey + Npalitano ASR."""
@@ -173,7 +164,6 @@ def test_fused_cold_open_with_hey_intro_and_asr_typo():
     assert "alter or abolish the government" not in new_body
     assert "Hey everyone, Judge Andrew Npalitano here for Judging Freedom" in new_body
     assert "Matt Hoh joins us now" in new_body
-
 
 def test_sponsor_paragraph_removed():
     paragraphs = [

@@ -1,6 +1,5 @@
 # CIV-STATE Rome
 
-
 This is the top-level alias door for the Rome CIV-STATE volume.
 
 Use it when you want named direct entry into the Rome civilization-state source surface rather than entering through the full volume map.

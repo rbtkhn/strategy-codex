@@ -1,6 +1,5 @@
 # Mercouris thread atlas
 
-
 Purpose: preserve the recurring arc-threads inside the Mercouris native stream so `arc-mercouris-continuity` is routeable as a bounded helix, not merely as a pile of daily pages.
 
 Model note: this file is a **thread atlas**, not the arc itself. It names the recurring thematic strands that the Mercouris arc braids across the native stream and uneven guest-host reinforcements. In the speaker template model, an **arc is a bounded helix of arc-threads**; this atlas supplies the Mercouris arc-threads.

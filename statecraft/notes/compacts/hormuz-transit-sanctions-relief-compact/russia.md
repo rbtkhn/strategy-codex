@@ -1,6 +1,5 @@
 # Russia - Hormuz Transit / Sanctions Relief Compact
 
-
 ## Transaction Name
 
 Hormuz leverage-without-entrapment formula.

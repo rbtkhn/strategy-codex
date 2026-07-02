@@ -25,10 +25,8 @@ SRC = REPO_ROOT / "platform/src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
-
 def repo_python() -> str:
     return sys.executable
-
 
 def run_cmd(args: list[str], cwd: Path | None = None) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
@@ -39,13 +37,11 @@ def run_cmd(args: list[str], cwd: Path | None = None) -> subprocess.CompletedPro
         check=False,
     )
 
-
 @pytest.fixture
 def tmp_seed_dir(tmp_path: Path) -> Path:
     d = tmp_path / "seed-phase"
     d.mkdir(parents=True, exist_ok=True)
     return d
-
 
 def copy_fixture(name: str, target: Path) -> Path:
     src = FIXTURES_DIR / name

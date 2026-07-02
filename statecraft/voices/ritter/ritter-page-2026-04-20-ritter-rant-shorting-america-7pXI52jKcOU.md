@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-04-20 (*Ritter's Rant*)
 <!-- word_count: 2196 -->
 
-
 **Expert:** `ritter` · **Aired:** 2026-04-20 · **Capture:** Mode C — YouTube (see raw-input source_url) · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 2196
@@ -50,7 +49,6 @@ Which means it's up to us—the people of the United States, we the people—to 
 The shorting of America must end.
 This has been my rant. Next time a thought crosses my mind, I'll be sure to let you know.
 
-
 ### Reflection
 
 **WORK read.** Verbatim is expert verbatim from capture; this block is notebook analysis only—tier discipline and seams, not a substitute for wire.
@@ -71,13 +69,11 @@ IHL content: useful for notebook legal seams; adjudication belongs to courts or 
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (C); Reflection/Foresight = WORK.
-
 
 ---
 

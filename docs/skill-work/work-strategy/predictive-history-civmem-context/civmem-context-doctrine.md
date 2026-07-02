@@ -1,6 +1,6 @@
 # CIV-MEM Context doctrine for Predictive History
 
-WORK only; transfer package for later use in the external Predictive History
+non-authoritative; transfer package for later use in the external Predictive History
 repo.
 
 ## What this layer is for

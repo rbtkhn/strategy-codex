@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia Helps Iran Jam Starlink Ending Protests; Trump Hits BRICS 25% Iran Tariff; US Prepares Strike
 
-

@@ -1,6 +1,6 @@
 # Bounded Synthesis — Ceasefire Grammar Trio (June 8)
 
-WORK only; not Record. `source_pack`: anchor trio only.
+`source_pack`: anchor trio only.
 
 ## Verified Base (transcript-bearing)
 

@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Zelensky Doubles Down; Failed Kursk, ATACMS Attacks; Baerbock Syria Humiliation
 
-

@@ -13,8 +13,6 @@ post_id: 183053321
 
 # The Innermost Loop - 2025-12-31
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to New Year's Eve 2025
@@ -29,10 +27,7 @@ The timeline to Superintelligence has new dates.
 
 ## Newsletter Text
 
--
--
-
-The timeline to Superintelligence has new dates. The updated “AI Futures Model” from the authors of “AI 2027” now forecasts a 2x gap between ASI and peak human capability by July 2034 . At the same time, the training runs are decentralizing. Epoch AI extrapolates that decentralizing training compute is growing 20x annually , far outstripping the 5x annual growth of frontier training compute, and is on track to catch centralized labs by mid-2031. This convergence coincides with the moment orbital compute has been predicted to become cheaper than ground compute, pointing the vector of progress directly at a Dyson Swarm.
+- The timeline to Superintelligence has new dates. The updated “AI Futures Model” from the authors of “AI 2027” now forecasts a 2x gap between ASI and peak human capability by July 2034 . At the same time, the training runs are decentralizing. Epoch AI extrapolates that decentralizing training compute is growing 20x annually , far outstripping the 5x annual growth of frontier training compute, and is on track to catch centralized labs by mid-2031. This convergence coincides with the moment orbital compute has been predicted to become cheaper than ground compute, pointing the vector of progress directly at a Dyson Swarm.
 
 Mathematics is cooked. GPT-5.2 Pro has scored 29.2% on FrontierMath Tier 4 , a result that has forced professional mathematicians like Bartosz Naskrecki to admit that “2026 will be a hell of a year.” The panic is productive. Naskrecki is now using AI to take “intermediate steps” toward solving the Langlands Program , while Terry Tao concedes that “the definition of a mathematician will broaden” as proofs become a collaborative synth-human output.
 

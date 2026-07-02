@@ -1,6 +1,5 @@
 # Secondary-Source Promotion Ledger
 
-
 Use this ledger when a recurring secondary explanation is no longer best housed only in local era shelves.
 
 ## Status Key

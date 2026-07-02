@@ -13,8 +13,6 @@ post_id: 194085530
 
 # The Innermost Loop - 2026-04-13
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 13, 2026
@@ -29,10 +27,7 @@ The Singularity is now a pastoral concern.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now a pastoral concern. Anthropic hosted about 15 Christian leaders from Catholic and Protestant churches, academia, and business at its headquarters to seek advice on steering Claude’s moral and spiritual development, debating how the model should comfort grieving users and whether Claude could be considered a “child of God.” The commercial end of the faith-tech boom is less measured, as a new app now charges $1.99 a minute to chat with an AI-generated Jesus , undercutting the theologians on price if not on depth.
+- The Singularity is now a pastoral concern. Anthropic hosted about 15 Christian leaders from Catholic and Protestant churches, academia, and business at its headquarters to seek advice on steering Claude’s moral and spiritual development, debating how the model should comfort grieving users and whether Claude could be considered a “child of God.” The commercial end of the faith-tech boom is less measured, as a new app now charges $1.99 a minute to chat with an AI-generated Jesus , undercutting the theologians on price if not on depth.
 
 The architecture beneath the pulpit is being rebuilt. Meta researchers are redesigning the substrate itself, introducing “Neural Computers,” a machine form that unifies computation, memory, and I/O into a learned runtime state and picks up operating behavior directly from screen-and-action traces rather than relying on a normal computer underneath. Japan is racing to build its own sovereign version of the stack, as SoftBank, Sony, Honda, and six other firms launched a joint venture to ship a Japanese 1T-parameter “physical AI” foundation model by 2030.
 

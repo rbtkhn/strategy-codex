@@ -58,7 +58,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 So to continue to react to breaking news this morning, we have Brandon Wert, an independent journalist and analyst of the WER report, the WER Brief over on Substack. Let me get the name right. Great to see you, Brandon. >> Good to see you, man. >> Thank you for having me as always. >> Yeah, it's our it's our pleasure.

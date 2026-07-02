@@ -1,6 +1,5 @@
 # Napolitano book - 2026-04
 
-
 Purpose: April 2026 monthly index for the native `Judging Freedom` shelf.
 
 ## Core April tranche

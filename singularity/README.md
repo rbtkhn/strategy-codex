@@ -1,7 +1,5 @@
 # Singularity
 
-work only; not Record.
-
 This shelf is reserved for singularity study routes, concepts, cases, and curriculum notes: AI takeoff, alignment, agency, automation, cognitive infrastructure, recursive improvement, institutional adaptation, and human meaning under accelerating technical change.
 
 `singularity/` is one of the repo's two primary operator **channels**. Use it for acceleration-native interpretation and design pressure before an object becomes a legitimacy, command, or settlement problem for [statecraft](../statecraft/README.md). For the shared routing law, open [Two-Channel Operator Architecture](/C:/dev/strategy-continuity/docs/operator-two-channel-architecture.md).

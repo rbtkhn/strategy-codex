@@ -1,6 +1,6 @@
 # Singularity-Academy Sprint Discovery Call
 
-WORK only. This is an operator call guide, not client proof.
+non-authoritative. This is an operator call guide, not client proof.
 
 ## Purpose
 

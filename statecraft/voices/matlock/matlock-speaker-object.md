@@ -1,6 +1,5 @@
 # Matlock speaker object
 
-
 object_shape: single-helix
 
 Purpose: define Jack Matlock as a first-class but light speaker object in the shelf. The current direct corpus is a mature Diesen-anchored guest run, not a broad cross-host interview helix. Its value is diplomatic memory: it anchors current Russia/NATO/Ukraine arguments in the lived practice of ending the Cold War and the later failure to build an inclusive European security architecture.

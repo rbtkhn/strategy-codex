@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Open — Gaza UN Report and Yemen Prep
 
 Hi everybody. Today is Thursday, June 24th, 2026 and our dear friend Larry Johnson is here with us. Welcome back, Larry. >> Well, thank you. And let me just acknowledge for the group, for the people watching that uh Nema has a shirt exemption today out of religious observance. So for Ashura uh it is he is entitled to wear black.

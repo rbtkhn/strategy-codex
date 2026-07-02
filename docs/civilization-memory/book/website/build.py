@@ -96,7 +96,6 @@ META_DESCRIPTION = (
     "major religions can test in their own language."
 )
 
-
 def split_sections(text):
     """Return [(section_id, markdown_block), ...]."""
     sections = []
@@ -120,7 +119,6 @@ def split_sections(text):
             sections.append((sid, block))
     return sections
 
-
 def md_to_html(md_text, section_id=""):
     """Convert markdown to HTML. Add ids to h2 and h3 for deep linking."""
     html = markdown.markdown(
@@ -139,19 +137,16 @@ def md_to_html(md_text, section_id=""):
         html = re.sub(rf"<({level})>([^<]+)</\1>", repl, html)
     return html
 
-
 def slug(s):
     s = re.sub(r"[^\w\s-]", "", s)
     s = re.sub(r"[-\s]+", "-", s).strip("-").lower()
     return s[:80] if s else ""
-
 
 def build_nav():
     return "\n".join(
         f'        <li><a href="#{sid}">{label}</a></li>'
         for sid, label, _, _ in SECTION_BOUNDARIES
     )
-
 
 def main():
     force = "--force" in sys.argv
@@ -236,7 +231,6 @@ def main():
 
     OUT_PATH.write_text(html, encoding="utf-8")
     print(f"Wrote {OUT_PATH}")
-
 
 if __name__ == "__main__":
     main()

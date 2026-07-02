@@ -29,7 +29,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Cold Open — Fourth Center Teaser and Janssen Welcome
 
 What's in it for Iran to help bail President Trump out? Because if Iran controls the Strait of Hormuz for the next 6 months or the next year, they're going to get a hundred billion dollars of extra revenue. If you pull out now while Iran is in control of the Strait of Hormuz effectively, then what you're going to do is you are seeing the branch which leads to Iran becoming the fourth center of world power.

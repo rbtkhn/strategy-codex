@@ -1,6 +1,5 @@
 # Persia Shelf Reader
 
-
 ## What This Shelf Is For
 
 Use this shelf to read Persia as a dignity-restoration civilization-state through its own primary-source field. The shelf is for seeing how sacred residue, imperial form, Persianized transformation, Safavid reconcentration, anti-humiliation memory, and deterrent-bearing survivability actually carry continuity.

@@ -102,7 +102,7 @@ If §1–§7 (or the companion’s request) touches **war powers**, **congressio
 - **Template:** [america-first-ky/stress-test-brief-template.md](america-first-ky/stress-test-brief-template.md)  
 - **Method:** [america-first-ky/guardrail-stress-test.md](america-first-ky/guardrail-stress-test.md) (four failure modes, variation table, pass/fail)
 
-**Scaffold (optional):** `python scripts/scaffold_stress_test_brief.py <issue-slug>` writes a dated copy under `america-first-ky/` (WORK only; does not touch the Record).
+**Scaffold (optional):** `python scripts/scaffold_stress_test_brief.py <issue-slug>` writes a dated copy under `america-first-ky/` (non-authoritative; does not touch the Record).
 
 Low-stakes engagement posts can skip §8 unless the operator wants extra discipline.
 

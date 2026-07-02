@@ -2,7 +2,7 @@
 
 **March 19, 2026** — through the gated work-strategy lens with energy-chokepoint monitoring + mind triangulation.
 
-**Status:** WORK only. Draft for operator review. No Record merge without RECURSION-GATE + companion approval.
+**Status:** non-authoritative. Draft for operator review. No Record merge without RECURSION-GATE + companion approval.
 
 ---
 

@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 We have a deal all but done. Almost. The only thing we got to do is put the bow on it, schedule the meeting next week. The signing ceremony somewhere in Europe. Apparently what President Trump said yesterday. Uh and this thing is going to be wrapped up. The Straits of Hormuz is going to be open.

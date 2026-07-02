@@ -1,6 +1,6 @@
 # Verifiable Personal AI — operator deliberation receipts (WORK-STRATEGY module)
 
-**Status:** WORK only. **Not** crypto infrastructure, not WorldLand/LiberVance integration. Inspired by *verifiable compute* narratives (e.g. thin consensus + heavy useful work): a **thin audit layer** for operator-side “personal AI” workflows so deliberation steps are **traceable** without pretending LLM outputs are cryptographically proven.
+**Status:** non-authoritative. **Not** crypto infrastructure, not WorldLand/LiberVance integration. Inspired by *verifiable compute* narratives (e.g. thin consensus + heavy useful work): a **thin audit layer** for operator-side “personal AI” workflows so deliberation steps are **traceable** without pretending LLM outputs are cryptographically proven.
 
 ## Purpose
 

@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Max, absolute pleasure to see you again. It's been been too long and um before before I ask you the first question, um actually you said something before we started going online. I'm like we got to go live immediately because a very it's very accurate statement. C can you say it again and maybe expand on it what you mean by it? I I really like that statement.

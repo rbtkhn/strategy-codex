@@ -1,6 +1,5 @@
 # Mercouris cross-host note
 
-
 Purpose: keep the emerging guest-distributed side of the Mercouris object visible without overstating its maturity.
 
 Model note: `arc-mercouris-continuity` already exists as a stream-native bounded helix of recurring Mercouris arc-threads. This file is narrower: it tracks whether guest-host reinforcement has become dense enough to promote a separate Mercouris speaker helix.

@@ -1,6 +1,5 @@
 # yt-dlp ingest quality rubric
 
-
 This rubric scores a `yt-dlp` ingest as four separate layers rather than one undifferentiated success or failure.
 
 Use it when the operator wants a quick judgment on whether an ingest pass was:

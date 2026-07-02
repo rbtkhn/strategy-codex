@@ -1,7 +1,6 @@
 # Love
 <!-- word_count: 227 -->
 
-
 ## Purpose
 
 Study love as recognition, coordination, and non-domination. The point is to distinguish universal love from sentimental cover for mastery.

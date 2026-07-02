@@ -1,6 +1,5 @@
 # Rome Secondary Sources - Ancient
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the ancient Rome primary shelf when republic-to-empire conversion, legal universality, administrative scale, or late-republic rupture need stronger chronology or anti-cliche correction. This file owns the main Rome-side explanation of why Will Durant is useful here: broad civilizational sweep and readable transition framing, but not specialist final authority.

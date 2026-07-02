@@ -18,7 +18,6 @@ archive_links:
 ---
 # Mercouris November 2025 Opening Watchlist
 
-
 ## Purpose
 
 Open a bounded November 2025 Mercouris watchlist before any broader recovery claims are made.

@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today is Tuesday, June 16, 2026 and our dear friend, Professor Merendi is here with us. Welcome back. >> Thank you for having me Dimma. Thank you very much. It's always a pleasure. >> I want to start with the statement of Hezbollah yesterday because it was so important.

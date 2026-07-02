@@ -1,4 +1,4 @@
-﻿# strategy-codex â€” seam / â€œgamificationâ€ trial (WORK only)
+﻿# strategy-codex â€” seam / â€œgamificationâ€ trial (non-authoritative)
 <!-- word_count: 199 -->
 
 **Purpose:** Optional **observability** for weave quality and verify-first discipline â€” **not** a leaderboard. If a metric becomes the target, it stops measuring seam health (Goodhart risk). Prefer **falsifiable watches** in [`forecast-watch-log.md`](forecast-watch-log.md) over raw counts.

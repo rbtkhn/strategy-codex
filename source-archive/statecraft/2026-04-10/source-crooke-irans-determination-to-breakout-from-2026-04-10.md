@@ -39,11 +39,7 @@ As Ben Rhodes, former US Deputy National Security Advisor, put it:
 
 “It’s hard to lose a war this short: this comprehensively”.
 
-
-
-
 Source: Lebanese journalist Marwa Osman, Telegram — Tabas, 1980; Isfahan, 2026
-
 
 What took Trump from a Tuesday night posting that “a whole civilization will die tonight”, to acquiesce a few hours later to negotiations on the basis of Iran’s 10-point plan, is for conjecture. But perhaps the juxtaposed images of the crashed helicopter from President Carter’s ill-fated attempt to rescue US hostages from Iran in 1980, together with the wreckage of US aircraft near Isfahan from the abandoned Saturday (4 April) attempt to seize enriched uranium from a tunnel at Isfahan, tells its story.
 
@@ -62,5 +58,4 @@ The entire 11 February strike plan that was green-lighted in the White House Sit
 It is no surprise then, that Trump should now be desperately seeking an exit from the Israeli débacle that was set for him. Like Carter, he is on the rocks politically, as well as militarily. But any meaningful off-ramp will require of him to make major concessions — concessions that will grate painfully with his rancorous feelings toward Iran and Iranians.
 
 It seems likely that if negotiations do proceed, they will not produce an agreement. Iran is engaged in exploding a 70 year-old paradigm through forcing — by threat of economic and market pain — a US acquiesce to Iran’s ‘release’ from the panopticon of US and Israeli repression. Will this involve more pain and death (more war), or less? That is the question.
-
 

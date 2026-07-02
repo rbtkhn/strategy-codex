@@ -1,7 +1,6 @@
 # Great-Power Energy Absorber Threshold
 <!-- word_count: 760 -->
 
-
 Use this sheet when a current-event read shows great-power alignment around energy continuity, but the event has not yet become a transaction object. The test protects the router from overproducing new transactions when a summit, statement, or purchase signal is still only a near fit.
 
 Core rule:

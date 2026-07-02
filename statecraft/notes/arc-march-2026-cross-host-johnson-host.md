@@ -16,7 +16,6 @@ archive_links:
 
 # Johnson March 2026 cross-host arc
 
-
 Compatibility note: the canonical bounded March 2026 Johnson synthesis shelf
 now lives at
 [statecraft/voices/johnson/johnson-shelf-2026-03.md](../voices/johnson/johnson-shelf-2026-03.md).

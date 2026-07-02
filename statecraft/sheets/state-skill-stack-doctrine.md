@@ -1,6 +1,5 @@
 # State Skill Stack Doctrine
 
-
 This note defines the constitutional split between the academy-statecraft deployment surface and the lane surfaces.
 
 Short form:

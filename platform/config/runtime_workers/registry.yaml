@@ -1,4 +1,4 @@
-# Runtime worker registry (WORK only — inspectable mapping to existing scripts).
+# Runtime worker registry (non-authoritative — inspectable mapping to existing scripts).
 # v1: documentation + routing metadata; does not spawn workers automatically.
 
 shared_workers:

@@ -1,6 +1,5 @@
 # Krainer source index
 
-
 Purpose: canonical statecraft-side source index for **Alex Krainer** while raw-text authority stays in the Statecraft Archive.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index krainer` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)

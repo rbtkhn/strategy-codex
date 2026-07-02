@@ -22,13 +22,11 @@ from check_lane_scope import (  # noqa: E402
 )
 from infer_lane_from_paths import infer_dominant  # noqa: E402
 
-
 def test_path_matches_glob_starstar() -> None:
     assert path_matches_glob("docs/skill-work/work-dev/README.md", "docs/skill-work/work-dev/**")
     assert path_matches_glob("docs/skill-work/work-dev/a/b.md", "docs/skill-work/work-dev/**")
     assert not path_matches_glob("continuity/predictive-history/x.md", "docs/skill-work/work-dev/**")
     assert path_matches_glob("tests/test_work_jiang_foo.py", "tests/test_work_jiang*.py")
-
 
 def test_check_lane_work_dev_clean() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
@@ -42,7 +40,6 @@ def test_check_lane_work_dev_clean() -> None:
     assert code == 0
     assert any("OK" in m for m in msgs)
 
-
 def test_check_lane_forbidden_work_jiang() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
     code, msgs = check_lane(
@@ -55,7 +52,6 @@ def test_check_lane_forbidden_work_jiang() -> None:
     assert code == 1
     assert any("FORBIDDEN" in m for m in msgs)
 
-
 def test_shared_allowlisted() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
     code, _ = check_lane(
@@ -66,7 +62,6 @@ def test_shared_allowlisted() -> None:
         justification="",
     )
     assert code == 0
-
 
 def test_mixed_fails_without_override() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
@@ -80,7 +75,6 @@ def test_mixed_fails_without_override() -> None:
     assert code == 1
     assert any("OUT_OF_SCOPE" in m for m in msgs)
 
-
 def test_allow_cross_lane_requires_justification() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
     code, msgs = check_lane(
@@ -93,7 +87,6 @@ def test_allow_cross_lane_requires_justification() -> None:
     assert code == 1
     assert any("justification" in m.lower() for m in msgs)
 
-
 def test_allow_cross_lane_with_justification() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
     code, msgs = check_lane(
@@ -105,11 +98,9 @@ def test_allow_cross_lane_with_justification() -> None:
     )
     assert code == 0
 
-
 def test_infer_dominant_single_lane() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
     assert infer_dominant(["docs/skill-work/work-dev/README.md"], doc) == "work-dev"
-
 
 def test_infer_mixed_two_lanes() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
@@ -124,7 +115,6 @@ def test_infer_mixed_two_lanes() -> None:
         == "mixed"
     )
 
-
 def test_infer_work_strategy_lane() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
     assert (
@@ -138,12 +128,10 @@ def test_infer_work_strategy_lane() -> None:
         == "work-strategy"
     )
 
-
 def test_infer_unclassified() -> None:
     doc = {"lanes": {"a": {"owned_paths": ["only-a/**"]}}}
     assert infer_dominant([], doc) == "unclassified"
     assert infer_dominant(["zzz/unknown.txt"], doc) == "unclassified"
-
 
 def test_check_any_lane_matches_work_jiang() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
@@ -153,7 +141,6 @@ def test_check_any_lane_matches_work_jiang() -> None:
     )
     assert code == 0
     assert any("work-jiang" in m or "matched" in m for m in msgs)
-
 
 def test_check_any_lane_mixed_fails() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
@@ -166,7 +153,6 @@ def test_check_any_lane_mixed_fails() -> None:
     )
     assert code == 1
 
-
 def test_infer_multi_owner_path_is_mixed() -> None:
     doc = {
         "lanes": {
@@ -175,7 +161,6 @@ def test_infer_multi_owner_path_is_mixed() -> None:
         }
     }
     assert infer_dominant(["shared/file.txt"], doc) == "mixed"
-
 
 @pytest.fixture
 def tmp_lanes(tmp_path: Path) -> Path:
@@ -192,7 +177,6 @@ def tmp_lanes(tmp_path: Path) -> Path:
     p = tmp_path / "lanes.yaml"
     p.write_text(yaml.safe_dump(cfg), encoding="utf-8")
     return p
-
 
 def test_check_lane_uses_custom_yaml(tmp_lanes: Path) -> None:
     doc = load_lanes(tmp_lanes)
@@ -212,7 +196,6 @@ def test_check_lane_uses_custom_yaml(tmp_lanes: Path) -> None:
         justification="",
     )
     assert code2 == 1
-
 
 @pytest.mark.skipif(
     subprocess.run(["git", "version"], capture_output=True).returncode != 0,

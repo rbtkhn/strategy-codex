@@ -28,7 +28,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Boy Who Cried Wolf and Blockade Post Collapse
 
 Hi, Larry. >> Well, you know, Mario, good hello. Good evening, good afternoon, good morning, whatever it is. Uh, when Esop wrote the fable about the boy who cried wolf, I think that boy only got to cry wolf like three times before the villagers let him get eaten by the damn wolf. Donald Trump is on like cry number 12.

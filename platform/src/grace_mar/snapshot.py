@@ -21,7 +21,6 @@ from grace_mar.fork_state import (
 )
 from grace_mar.drift import compute_drift_report
 
-
 def _sha256_file(path: Path) -> str:
     import hashlib
 
@@ -30,7 +29,6 @@ def _sha256_file(path: Path) -> str:
         for chunk in iter(lambda: f.read(65536), b""):
             h.update(chunk)
     return h.hexdigest()
-
 
 def _git_head(repo_root: Path) -> str:
     try:
@@ -46,10 +44,8 @@ def _git_head(repo_root: Path) -> str:
         pass
     return ""
 
-
 def _pending_blocking(gate_text: str) -> bool:
     return bool(re.search(r"status:\s*pending", gate_text, re.IGNORECASE))
-
 
 def create_snapshot(
     repo_root: Path,

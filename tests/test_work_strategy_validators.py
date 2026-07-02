@@ -12,10 +12,8 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _scripts_ws() -> Path:
     return REPO_ROOT / "scripts" / "work_strategy"
-
 
 def _load_validator_module():
     ws = str(_scripts_ws())
@@ -28,13 +26,10 @@ def _load_validator_module():
     spec.loader.exec_module(mod)
     return mod
 
-
 vsp = _load_validator_module()
-
 
 def test_word_count_helper() -> None:
     assert vsp.word_count("one two three") == 3
-
 
 def test_read_text_if_possible(tmp_path: Path) -> None:
     p = tmp_path / "x.md"
@@ -42,11 +37,9 @@ def test_read_text_if_possible(tmp_path: Path) -> None:
     assert vsp.read_text_if_possible(p) == "hello"
     assert vsp.read_text_if_possible(tmp_path / "missing.md") is None
 
-
 def test_scan_markers_unresolved() -> None:
     r = vsp.scan_markers("TODO fix\nNEEDS REVIEW here\n???", vsp.UNRESOLVED_MARKERS)
     assert r["total_hits"] >= 3
-
 
 def test_summarize_validator_status_order() -> None:
     assert (
@@ -67,7 +60,6 @@ def test_summarize_validator_status_order() -> None:
         )
         == "fail"
     )
-
 
 def test_pass_carry_harness_fixture(tmp_path: Path) -> None:
     out = tmp_path / "val.json"
@@ -100,7 +92,6 @@ def test_pass_carry_harness_fixture(tmp_path: Path) -> None:
     assert data["review_surface"]["primary"] == "validation_report"
     assert data["summary"]["status"] == "pass"
 
-
 def test_missing_artifact_fail(tmp_path: Path) -> None:
     out = tmp_path / "val.json"
     cmd = [
@@ -118,7 +109,6 @@ def test_missing_artifact_fail(tmp_path: Path) -> None:
     data = json.loads(out.read_text(encoding="utf-8"))
     assert data["status"] == "fail"
     assert data["summary"]["status"] == "fail"
-
 
 def test_missing_source_needs_review(tmp_path: Path) -> None:
     out = tmp_path / "val.json"
@@ -140,7 +130,6 @@ def test_missing_source_needs_review(tmp_path: Path) -> None:
     assert data["status"] == "needs_review"
     assert data["summary"]["status"] == "needs_review"
 
-
 def test_thin_artifact_needs_review(tmp_path: Path) -> None:
     out = tmp_path / "val.json"
     cmd = [
@@ -158,7 +147,6 @@ def test_thin_artifact_needs_review(tmp_path: Path) -> None:
     data = json.loads(out.read_text(encoding="utf-8"))
     assert data["status"] == "needs_review"
     assert data["summary"]["status"] == "needs_review"
-
 
 def test_unresolved_markers_needs_review(tmp_path: Path) -> None:
     out = tmp_path / "val.json"
@@ -179,7 +167,6 @@ def test_unresolved_markers_needs_review(tmp_path: Path) -> None:
     assert data["summary"]["status"] == "needs_review"
     ids = [v["id"] for v in data["validators"]]
     assert "unresolved_marker_scan" in ids
-
 
 def test_contradiction_markers_needs_review(tmp_path: Path) -> None:
     art = tmp_path / "tension.md"
@@ -205,7 +192,6 @@ def test_contradiction_markers_needs_review(tmp_path: Path) -> None:
     assert data["summary"]["status"] == "needs_review"
     assert any(v["id"] == "contradiction_marker_scan" for v in data["validators"])
 
-
 def test_forbidden_out_under_users(tmp_path: Path) -> None:
     bad_out = REPO_ROOT / "platform/users" / "grace-mar" / "_validator_forbidden_test.json"
     cmd = [
@@ -227,7 +213,6 @@ def test_forbidden_out_under_users(tmp_path: Path) -> None:
     assert payload["resources_written"] == []
     assert payload["summary"]["status"] == "fail"
 
-
 def test_json_stdout(tmp_path: Path) -> None:
     out = tmp_path / "val.json"
     cmd = [
@@ -245,7 +230,6 @@ def test_json_stdout(tmp_path: Path) -> None:
     assert r.returncode == 0
     payload = json.loads(r.stdout)
     assert payload["receipt_family"] == "inspection"
-
 
 def test_fail_on_status_never(tmp_path: Path) -> None:
     out = tmp_path / "val.json"
@@ -266,7 +250,6 @@ def test_fail_on_status_never(tmp_path: Path) -> None:
     data = json.loads(out.read_text(encoding="utf-8"))
     assert data["status"] == "fail"
     assert data["summary"]["status"] == "fail"
-
 
 def test_carry_harness_run_validators_embeds_summary(tmp_path: Path) -> None:
     receipt_path = tmp_path / "receipt.json"
@@ -300,7 +283,6 @@ def test_carry_harness_run_validators_embeds_summary(tmp_path: Path) -> None:
     val_data = json.loads(val_path.read_text(encoding="utf-8"))
     assert val_data["schema_version"] == "work-strategy-validation-report.v1"
     assert val_data["status"] == "pass"
-
 
 def test_validate_packet_forbidden_output(tmp_path: Path) -> None:
     from packet_common import is_forbidden_record_path

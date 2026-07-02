@@ -59,7 +59,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Well, just a short time ago, President Trump in the White House addressing reporters says this, he has called off the strikes against Iran tonight because a deal is close, that all many parties have come to this agreement on a deal and that it could be finalized within the next 2 to three days.

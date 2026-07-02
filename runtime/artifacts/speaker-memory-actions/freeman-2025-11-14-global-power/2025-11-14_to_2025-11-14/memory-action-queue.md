@@ -1,7 +1,5 @@
 # Speaker memory action queue
 
-WORK only; not Record.
-
 Window: `2025-11-14` to `2025-11-14`
 
 - `high` `update-existing-arc` `codex/years/2026/alkhorshid/alkhorshid-freeman-speaker-arc.md` (1 appearance(s); grades: transcript-grade)

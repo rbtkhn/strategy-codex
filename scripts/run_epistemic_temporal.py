@@ -19,7 +19,6 @@ from temporal.temporal_engine import (  # noqa: E402
     DEFAULT_TEMPORAL_OUT,
 )
 
-
 def main() -> int:
     temporal_by_event, summary = run_temporal_layer(
         structured_path=DEFAULT_STRUCTURED_IN,
@@ -33,7 +32,6 @@ def main() -> int:
         f"-> {DEFAULT_TEMPORAL_OUT}"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

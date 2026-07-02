@@ -1,7 +1,6 @@
 # Bookshelf Crosswalk
 <!-- word_count: 747 -->
 
-
 This crosswalk wires academy-politics into the Bookshelf as a study path, not a ranking. It is title-first for reading, with `Shelf-*` ids for catalog lookup.
 
 ## Reading Path

@@ -37,7 +37,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, June 8, 2026. Alistister Crook will be with us in just a moment. Is Iran willing to chance another war.

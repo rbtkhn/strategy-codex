@@ -44,7 +44,6 @@ APR28_GP = (
     "source-judging-freedom-freeman-what-russia-can-do-for-iran-2026-04-28.md"
 )
 
-
 def row_key(row: dict[str, Any]) -> tuple[str, str, str, str]:
     return (
         str(row["event_id"]),
@@ -53,12 +52,10 @@ def row_key(row: dict[str, Any]) -> tuple[str, str, str, str]:
         str(row.get("speech_act") or ""),
     )
 
-
 def body_for(capture: str) -> str:
     path = REPO_ROOT / capture.replace("\\", "/")
     _, body = parse_capture_frontmatter(path.read_text(encoding="utf-8"))
     return body
-
 
 def apply_defaults(row: dict[str, Any]) -> dict[str, Any]:
     excerpt = str(row.get("public_excerpt") or "").strip()
@@ -70,7 +67,6 @@ def apply_defaults(row: dict[str, Any]) -> dict[str, Any]:
     out.setdefault("public_display", True)
     out.setdefault("asr_repair_notes", [])
     return out
-
 
 PRIORITY_PATCHES: dict[tuple[str, str, str, str], dict[str, Any]] = {
     ("gaza_hostage_deal_jan_2025", JAN14, "", "initial"): {
@@ -169,7 +165,6 @@ PRIORITY_PATCHES: dict[tuple[str, str, str, str], dict[str, Any]] = {
         "public_display": True,
     },
 }
-
 
 SECONDARY_PATCHES: dict[tuple[str, str, str, str], dict[str, Any]] = {
     (
@@ -475,7 +470,6 @@ SECONDARY_PATCHES: dict[tuple[str, str, str, str], dict[str, Any]] = {
     },
 }
 
-
 def auto_extend_row(row: dict[str, Any], body: str, *, min_words: int = 30) -> dict[str, Any]:
     if not row.get("public_display", True):
         return row
@@ -491,7 +485,6 @@ def auto_extend_row(row: dict[str, Any], body: str, *, min_words: int = 30) -> d
         if row.get("asr_repair") == "none":
             row["public_excerpt"] = aligned
     return row
-
 
 def main() -> int:
     data = json.loads(CAPTURE_MAP.read_text(encoding="utf-8"))
@@ -542,7 +535,6 @@ def main() -> int:
     CAPTURE_MAP.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"[ok] wrote {CAPTURE_MAP.relative_to(REPO_ROOT)} ({len(updated)} rows)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

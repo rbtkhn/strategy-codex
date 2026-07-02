@@ -1,7 +1,5 @@
 # Collaborative Architecture Lineage
 
-work only; not Record.
-
 Purpose: establish that the repo's role-differentiated and shared-workspace
 design logic has clear academic precedent.
 

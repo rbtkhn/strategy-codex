@@ -6,7 +6,7 @@
     "bridge event JSONL",
     "coffee/dream integration"
   ],
-  "generated_at": "2026-06-29T15:32:12.310605+00:00",
+  "generated_at": "2026-06-30T14:33:37.644460+00:00",
   "overall_status": "watch",
   "recommended_next_action": "Run bridge at the next session boundary if a transfer prompt or repo seal is needed.",
   "surfaces": {
@@ -19,10 +19,10 @@
       "status": "watch"
     },
     "cadence": {
-      "age_hours": 0.0,
-      "detail": "315 event(s) found for strategy-codex",
+      "age_hours": 0.01,
+      "detail": "318 event(s) found for strategy-codex",
       "name": "cadence events",
-      "observed_at": "2026-06-29T15:32:00+00:00",
+      "observed_at": "2026-06-30T14:33:00+00:00",
       "path": "docs/skill-work/work-cadence/work-cadence-events.md",
       "status": "ok"
     },
@@ -30,7 +30,7 @@
       "age_hours": 0.0,
       "detail": "ok=True",
       "name": "last dream",
-      "observed_at": "2026-06-29T15:32:11.435109+00:00",
+      "observed_at": "2026-06-30T14:33:37.314282+00:00",
       "path": "runtime/daily-handoff/last-dream.json",
       "status": "ok"
     },
@@ -38,7 +38,7 @@
       "age_hours": 0.0,
       "detail": "night handoff present",
       "name": "night handoff",
-      "observed_at": "2026-06-29T15:32:11.926701+00:00",
+      "observed_at": "2026-06-30T14:33:37.461297+00:00",
       "path": "runtime/daily-handoff/night-handoff.json",
       "status": "ok"
     }

@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Ukraine Calamitous Month; Mirnograd Huliaipole Rodinska Stepnogorsk Fall; Trump Dumps Zelensky
 
-

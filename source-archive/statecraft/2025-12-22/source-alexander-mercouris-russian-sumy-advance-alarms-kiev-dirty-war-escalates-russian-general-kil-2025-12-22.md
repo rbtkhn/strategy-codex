@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russian Sumy Advance Alarms Kiev; Dirty War Escalates; Russian General Killed; Chinese Tanker Seized
 
-

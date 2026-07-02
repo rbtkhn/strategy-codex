@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-01-12 (*Iranian Resilience*)
 <!-- word_count: 763 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-01-12 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 764
@@ -33,20 +32,17 @@ This appears to be the goal of the Trump administration, and explains in large p
 
 The world is looking at a deliberate attack on global energy security as a means of bringing down Iran, weakening Russia, and destabilizing BRICS.
 
-
 ### Reflection
 
 **Operator note:** Short Iran domestic/regime-resilience essay (Raisi/Pezeshkian meeting claims, June 2025 war frame, unrest, energy/BRICS close). Scenario and attribution-heavy—essay ≠ wire. Light cleanup only (e.g. hyphen for compound modifier).
 
 **WORK:** Iranian Resilience (Substack) · Format: Substack-style essay. Historical and legal passages reflect Ritter’s read; verify dates, quotes, and casualty figures against primary or scholarly sources if promoted. Lanes: Iran / Gulf / Hormuz seam, Russia–U.S. / Ukraine / strategic stability, Venezuela / coercion & IHL. Commentator tier; verify before wire-use. Prompts: falsifiers, delta vs prior Ritter, wire boundary for `days.md`.
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

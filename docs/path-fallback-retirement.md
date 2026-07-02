@@ -1,6 +1,5 @@
 # Path fallback retirement
 
-
 Machine SSOT: [`path-fallback-retirement.yaml`](../path-fallback-retirement.yaml).
 Resolver: [`scripts/repo_io.py`](../scripts/repo_io.py) (`REPO_PATH_MIGRATIONS`, `REPO_PATH_CLASSIFICATION`).
 

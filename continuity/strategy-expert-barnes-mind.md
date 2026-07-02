@@ -1,7 +1,6 @@
 # Expert mind — Robert Barnes (`barnes`) — compatibility redirect
 <!-- word_count: 75 -->
 
-
 **Canonical SSOT:** [statecraft/voices/barnes/barnes-profile.md](../statecraft/voices/barnes/barnes-profile.md) — Identity, Tier A `#linguistic-style-fingerprint-detailed`, convergence/tension, failure modes, June 2026 receipts.
 
 **Supersession law:** [VOICES-SUPERSEDE-MINDS.md](../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)

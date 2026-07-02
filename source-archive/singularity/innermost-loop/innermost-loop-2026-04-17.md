@@ -13,8 +13,6 @@ post_id: 194516339
 
 # The Innermost Loop - 2026-04-17
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 17, 2026
@@ -29,10 +27,7 @@ The Singularity now ships on a schedule.
 
 ## Newsletter Text
 
--
--
-
-The Singularity now ships on a schedule. Anthropic released Claude Opus 4.7 , a “notable improvement” at the midpoint between Opus 4.6 and the not-yet-public Mythos Preview, the decimal triangulating an unreleased frontier. Internally, the horizon is even closer. Nearly a third of Anthropic staff expect Mythos to replace entry-level engineers and researchers in three months , a private poll doubling as a public leading indicator. The state is pricing it in. The White House OMB is setting up protections to route Mythos into major federal agencies “in the coming weeks,” acknowledging cybersecurity risk because not adopting it is scarier. Meanwhile, OpenAI unveiled GPT-Rosalind , a frontier reasoning model built for biology, drug discovery, and protein engineering, named for a researcher whose entire career it could eclipse before lunch.
+- The Singularity now ships on a schedule. Anthropic released Claude Opus 4.7 , a “notable improvement” at the midpoint between Opus 4.6 and the not-yet-public Mythos Preview, the decimal triangulating an unreleased frontier. Internally, the horizon is even closer. Nearly a third of Anthropic staff expect Mythos to replace entry-level engineers and researchers in three months , a private poll doubling as a public leading indicator. The state is pricing it in. The White House OMB is setting up protections to route Mythos into major federal agencies “in the coming weeks,” acknowledging cybersecurity risk because not adopting it is scarier. Meanwhile, OpenAI unveiled GPT-Rosalind , a frontier reasoning model built for biology, drug discovery, and protein engineering, named for a researcher whose entire career it could eclipse before lunch.
 
 Automation is generating its own exhaust. NIST is restructuring CVE handling after AI-driven submissions drove a 263% spike in vulnerability reports from 2020 to 2025, triaging down to known-exploited and federally-relevant bugs. What AI breaks, AI must also guard. Google is reportedly in talks with the Pentagon to deploy Gemini in classified environments , rebuilding the military ties it once pointedly severed. Gemini is also getting a body: Boston Dynamics’ Spot now runs on Google DeepMind’s Gemini Robotics-ER 1.6 , fusing embodied reasoning with robotics’ most iconic quadruped. OpenAI answered Anthropic’s Cowork with a Codex update that operates your computer alongside you and remembers your preferences, promoting the IDE from autocomplete to coworker. And the corporate dead are being strip-mined. Defunct startups are now liquidated for their Slack archives, Jira tickets, and email threads as premium training data, reincarnating failed companies as weights.
 

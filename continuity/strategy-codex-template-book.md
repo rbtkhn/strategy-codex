@@ -2,7 +2,6 @@
 <!-- word_count: 163 -->
 <!-- word_count: canonical scaffold -->
 
-
 **Purpose:** Canonical book template for strategy-codex. A **book** is the month-bounded synthesis and coordination surface inside a year volume.
 
 **Companion contracts:** [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md) · [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md)
@@ -19,7 +18,6 @@ The book should coordinate the month's chapters, open themes, and synthesis traj
 ## Book scaffold -> `book-YYYY-MM.md`
 
 # Strategy-codex book - `YYYY-MM`
-
 
 **Use it for:**
 

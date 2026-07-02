@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Open — Hormuz Drones and Lebanon Washington Deal
 
 trying to, you know, to to hit the tankers or ships that they were trying to use, you know, the the routes, different routes from the ones that Iran has defined for the region for this form. So, they were somehow attacked by drones and Donald Trump came out and tweeted on that. He said four drones attacking one of the ships in in the Strait of Hormuz and this is the current situation and with the case of Lebanon we had a meeting between the two sides in Washington there is a new agreement it seems I don't know what does that mean it's because the what was so interesting after the meeting Iran and the United States had in Switzerland basically talking about the situation in southern Lebanon you see the president of Lebanon coming out and saying so Israel has to withdraw totally from Lebanon first time for the first time in you know there somehow talking this way and then you see the agreement in Washington in the United States between the two sides and how do you see the two sides one of them is the Strait of Hormuz is so important and the other one is the case of Lebanon is there any sort of hope for any of this, you know, being resolved.

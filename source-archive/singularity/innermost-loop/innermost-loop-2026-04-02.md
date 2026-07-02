@@ -13,8 +13,6 @@ post_id: 192996843
 
 # The Innermost Loop - 2026-04-02
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 2, 2026
@@ -29,10 +27,7 @@ The Singularity is riding a column of fire toward the Moon.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is riding a column of fire toward the Moon. NASA’s Artemis II launched from Kennedy Space Center on Wednesday, the closest crewed approach to the Moon since Apollo, and was spotted mid-flight from a passenger plane because the future now photobombs your evening commute. By 6:59pm, all four Orion solar array wings had deployed , completing a key milestone. Seven hours in, Commander Wiseman’s Outlook inbox failed , confirming that Microsoft’s deepest legacy code cannot survive the vacuum of space. The commercial launch economy is scaling to match. SpaceX has filed confidentially for an IPO seeking a valuation above $1.75 trillion, the largest technology listing ever. Amazon is in talks to acquire Globalstar , the $9 billion satellite telecom partly owned by Apple, to build its own LEO constellation.
+- The Singularity is riding a column of fire toward the Moon. NASA’s Artemis II launched from Kennedy Space Center on Wednesday, the closest crewed approach to the Moon since Apollo, and was spotted mid-flight from a passenger plane because the future now photobombs your evening commute. By 6:59pm, all four Orion solar array wings had deployed , completing a key milestone. Seven hours in, Commander Wiseman’s Outlook inbox failed , confirming that Microsoft’s deepest legacy code cannot survive the vacuum of space. The commercial launch economy is scaling to match. SpaceX has filed confidentially for an IPO seeking a valuation above $1.75 trillion, the largest technology listing ever. Amazon is in talks to acquire Globalstar , the $9 billion satellite telecom partly owned by Apple, to build its own LEO constellation.
 
 The model frontier keeps compounding. Arcee AI released Trinity-Large-Thinking under Apache 2.0, calling it the strongest open model outside China at 76.3% on GPQA-D, beating MiniMax M2.7. Greg Brockman says OpenAI’s upcoming “Spud” (GPT 5.5) is a new pre-train embodying two years of research and has “big model smell.” Dwarkesh Patel frames the near-term implications not as superintelligence but as replication: imagine cloning Terry Tao a thousand times, dumping millions in inference per copy, and pointing them at separate Millennium Prize Problems for a hundred subjective years.
 

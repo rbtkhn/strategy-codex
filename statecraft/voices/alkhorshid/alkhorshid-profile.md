@@ -1,7 +1,6 @@
 # Strategy expert — Nima Alkhorshid (`alkhorshid`)
 <!-- word_count: ~700 -->
 
-
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md) · [alkhorshid-index.md](alkhorshid-index.md) (guest) · [dialogue-works-channel-index.md](../../channels/dialogue-works/dialogue-works-channel-index.md) (host)
 **Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`alkhorshid`** lane (`thread:nima` legacy compat in ingest YAML).

@@ -2,14 +2,11 @@ from __future__ import annotations
 
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 CONDUCTOR_SKILL = REPO_ROOT / ".cursor" / "skills" / "conductor" / "SKILL.md"
 
-
 def _conductor_text() -> str:
     return CONDUCTOR_SKILL.read_text(encoding="utf-8")
-
 
 def _bernstein_section() -> str:
     text = _conductor_text()
@@ -18,7 +15,6 @@ def _bernstein_section() -> str:
     end = text.index(end_marker, start) if end_marker in text[start:] else text.index("## When to read this", start)
     return text[start:end]
 
-
 def test_bernstein_rehearsal_voice_is_scoped_to_bernstein() -> None:
     section = _bernstein_section()
 
@@ -26,7 +22,6 @@ def test_bernstein_rehearsal_voice_is_scoped_to_bernstein() -> None:
     assert "It does not change `toscanini`, `furtwangler`, `karajan`, or `kleiber` behavior" in section
     assert "not companion Voice" in section
     assert "not Record authority" in section
-
 
 def test_bernstein_contract_requires_rehearsal_orientation_before_action_menu() -> None:
     section = _bernstein_section()
@@ -42,7 +37,6 @@ def test_bernstein_contract_requires_rehearsal_orientation_before_action_menu() 
     ]
     for phrase in required_phrases:
         assert phrase in section
-
 
 def test_bernstein_musicology_is_clarity_first_not_caricature() -> None:
     section = _bernstein_section()
@@ -69,7 +63,6 @@ def test_bernstein_musicology_is_clarity_first_not_caricature() -> None:
     assert "Do not use music language as decoration" in section
     assert "state it plainly" in section
 
-
 def test_bernstein_examples_pin_three_contexts_and_four_movement_options() -> None:
     section = _bernstein_section()
 
@@ -81,7 +74,6 @@ def test_bernstein_examples_pin_three_contexts_and_four_movement_options() -> No
     assert section.count("\nB. Andante: ") == 3
     assert section.count("\nC. Scherzo: ") == 3
     assert section.count("\nD. Finale: ") == 3
-
 
 def test_other_conductor_shape_hints_remain_concise() -> None:
     text = _conductor_text()

@@ -13,8 +13,6 @@ post_id: 190527827
 
 # The Innermost Loop - 2026-03-10
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 10, 2026
@@ -29,10 +27,7 @@ The Singularity is now its own full-stack product team.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now its own full-stack product team. Anthropic’s entire growth marketing operation for 10 months was one non-technical person using Claude Code , and the tools that made it possible keep compounding. GPT-5.4 Thinking xHigh Effort topped LiveBench at a SOTA 80.28% , while Utopai Studios rolled out PAI , a long-form cinematic model promising minutes-long continuous video with character consistency across every shot and natural language editing across the whole story. The creative stack now reviews itself: Anthropic introduced Code Review , dispatching a team of agents on every pull request to catch the bugs that skims miss, with reviews averaging $15–25 and per-token billing.
+- The Singularity is now its own full-stack product team. Anthropic’s entire growth marketing operation for 10 months was one non-technical person using Claude Code , and the tools that made it possible keep compounding. GPT-5.4 Thinking xHigh Effort topped LiveBench at a SOTA 80.28% , while Utopai Studios rolled out PAI , a long-form cinematic model promising minutes-long continuous video with character consistency across every shot and natural language editing across the whole story. The creative stack now reviews itself: Anthropic introduced Code Review , dispatching a team of agents on every pull request to catch the bugs that skims miss, with reviews averaging $15–25 and per-token billing.
 
 The intelligence platform wars have entered the bundle-and-reprice phase. Microsoft launched Copilot Cowork , integrating Anthropic’s Claude Cowork into 365 with the same Work IQ personalization layer as its own 365 Copilot. Commenters call the bundle the most expensive acqui-hire of a product concept in tech history, noting Microsoft took the exact product that wiped $220 billion off their market cap, licensed the underlying tech, and shipped it as a feature. Google rolled out Gemini across Workspace with a “Help me create” drafting tool. Meta acquired Moltbook , in a historic acquisition of the top AI agent social network by the top human one. OpenAI acquired Promptfoo for AI vulnerability detection, Nvidia pitched NemoClaw as an open-source enterprise agent platform, and Samsung is exploring vibe coding on Galaxy phones to let users customize not just apps but the entire UX through natural language.
 

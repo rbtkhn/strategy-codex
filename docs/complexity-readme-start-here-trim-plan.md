@@ -1,6 +1,6 @@
 # Phase 8 — README and start-here trim plan
 
-**Work only; not Record.** Targets from [complexity-budget.md](complexity-budget.md) and the complexity mitigation plan.
+**** Targets from [complexity-budget.md](complexity-budget.md) and the complexity mitigation plan.
 
 ## Baseline (2026-06-21)
 

@@ -1,6 +1,5 @@
 # Verified Live-Event To Instrument
 
-
 Use this sheet when the operator names one recent event and needs the shortest honest path from unstable facts to a statecraft artifact.
 
 This is a teaching surface, not a second router. It exists to show the motion clearly:

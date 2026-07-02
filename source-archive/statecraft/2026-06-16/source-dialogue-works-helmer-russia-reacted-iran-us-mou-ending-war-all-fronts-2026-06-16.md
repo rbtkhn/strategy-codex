@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Tuesday, June 16, 2026 and our dear friend, our brother John Helmer is here with us. Welcome back, John. >> Thank you for having me, Nema. It's good to be back again. >> John, everybody's talking about MOU, memorandum of understanding and what's going on. thing it's gonna be a it's gonna we have to start with what's going on between Iran and the United States but before getting there maybe which is one part that is important from your point of view because you see what's going on in Russia basically you understand the

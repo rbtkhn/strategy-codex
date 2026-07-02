@@ -1,7 +1,5 @@
 # Three Layers of Recursive Learning in Statecraft
 
-WORK only; not Record.
-
 **Statecraft Registry**
 - Lane: shared
 - Output class: memo

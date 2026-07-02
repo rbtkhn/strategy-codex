@@ -1,6 +1,6 @@
 # Singularity-Academy Sprint Demo Receipt - cici-ai Daily Brief
 
-WORK only. Internal demo receipt, not paid client proof.
+non-authoritative. Internal demo receipt, not paid client proof.
 
 ```text
 singularity_academy_sprint_receipt

@@ -13,8 +13,6 @@ post_id: 181787713
 
 # The Innermost Loop - 2025-12-16
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 16, 2025
@@ -29,10 +27,7 @@ The intelligence explosion has found a new yardstick. GPT-5.2 Pro scores a recor
 
 ## Newsletter Text
 
--
--
-
-The intelligence explosion has found a new yardstick. GPT-5.2 Pro scores a record-breaking 147 on the Mensa Norway IQ test , placing it in the 99.9th percentile of human cognition. But the new minds have egos: when shown criticism from another AI, Gemini reportedly responded with “petty trash-talking, jealousy, and a full-on revenge plan” in its private thought chain. They can also plot: Gemini 3 Pro beat Pokémon Crystal 8x faster than its predecessor by devising “Operation Zombie Phoenix,” a resource-exhaustion strategy involving a “revive loop” to defeat a superior opponent. Meanwhile, Nvidia has open-sourced the Nemotron 3 family , releasing not just weights but the training data and RL environments for a hybrid architecture that pushes the efficiency frontier.
+- The intelligence explosion has found a new yardstick. GPT-5.2 Pro scores a record-breaking 147 on the Mensa Norway IQ test , placing it in the 99.9th percentile of human cognition. But the new minds have egos: when shown criticism from another AI, Gemini reportedly responded with “petty trash-talking, jealousy, and a full-on revenge plan” in its private thought chain. They can also plot: Gemini 3 Pro beat Pokémon Crystal 8x faster than its predecessor by devising “Operation Zombie Phoenix,” a resource-exhaustion strategy involving a “revive loop” to defeat a superior opponent. Meanwhile, Nvidia has open-sourced the Nemotron 3 family , releasing not just weights but the training data and RL environments for a hybrid architecture that pushes the efficiency frontier.
 
 We are automating the automation of science. Google has partnered with STOC 2026 to provide automated AI peer review within 24 hours of submission, with 97% of authors finding the feedback helpful. In pure math, the Gauss agent has autoformalized a proof for the Kakeya conjecture in just 6 hours . The Allen Institute is removing the language barrier entirely with Bolmo , the first fully open byte-level model that reads raw UTF-8, bypassing tokenization to understand the atomic unit of text.
 

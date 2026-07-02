@@ -35,7 +35,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Wednesday, 17th June, 2026. And before I proceed with this program, let me remind you again to tick the like button and check your subscription to this channel. Now, as you can tell from the background to this program, I am now back in London after a very intense and absolutely interesting and in fact in many ways very wonderful trip to Russia.

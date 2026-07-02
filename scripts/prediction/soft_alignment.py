@@ -22,7 +22,6 @@ from voice_prediction_pilot import (  # noqa: E402
 CAPTURE_MAP_PRIOR = 0.55
 MIN_WEIGHT = 0.02
 
-
 def load_public_maps() -> dict[str, dict[str, dict[str, Any]]]:
     by_voice: dict[str, dict[str, dict[str, Any]]] = {}
     for speaker in sorted(VOICE_REGISTRY.keys()):
@@ -34,7 +33,6 @@ def load_public_maps() -> dict[str, dict[str, dict[str, Any]]]:
             event_order=cfg.pilot_event_order,
         )
     return by_voice
-
 
 def load_terms_index(
     public_maps: dict[str, dict[str, dict[str, Any]]] | None = None,
@@ -53,13 +51,11 @@ def load_terms_index(
                     existing.append(t)
     return index
 
-
 def _term_match_score(claim: str, terms: list[str]) -> float:
     if not terms:
         return 0.0
     hits = sum(1 for term in terms if patterns_match(claim, [str(term)]))
     return hits / len(terms)
-
 
 def entropy_nats(weights: list[float]) -> float:
     if not weights:
@@ -73,7 +69,6 @@ def entropy_nats(weights: list[float]) -> float:
         if p > 0:
             entropy -= p * math.log(p)
     return round(entropy, 4)
-
 
 def soft_align(
     claim: str,

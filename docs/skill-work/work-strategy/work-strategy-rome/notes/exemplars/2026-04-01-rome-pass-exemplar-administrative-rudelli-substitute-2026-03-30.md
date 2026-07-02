@@ -1,6 +1,6 @@
 # ROME-PASS exemplar — administrative Vatican (Substitute, Secretariat of State)
 
-**Type:** **Administrative** exemplar — **Holy See Press Office** bulletin as **personnel primary**, **Vatican News** as **machinery / context** wire. **WORK only** — not Record.
+**Type:** **Administrative** exemplar — **Holy See Press Office** bulletin as **personnel primary**, **Vatican News** as **machinery / context** wire. 
 
 **Pass template:** [ROME-PASS.md](../../ROME-PASS.md) · **Thesis stub:** [2026-04-03-modern-rome-papacy-thesis-stub.md](../2026-04-03-modern-rome-papacy-thesis-stub.md) (**administrative** vs **mind–soul** layers).
 

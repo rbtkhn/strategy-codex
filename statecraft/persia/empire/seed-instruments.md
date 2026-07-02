@@ -1,6 +1,5 @@
 # Iran Empire Instrument
 
-
 ## Purpose
 
 Use this object as the phase-one Iran empire-side carrier for the symmetric-first CIV-STATE migration. It names the outward instruments through which Iran tries to convert vulnerability into deterrent leverage, sanctions relief, regional recognition, and non-disposability without letting pressure tactics harden into self-isolating disruption or partner-driven escalation.

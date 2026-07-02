@@ -13,8 +13,6 @@ post_id: 185628971
 
 # The Innermost Loop - 2026-01-24
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 24, 2026
@@ -29,10 +27,7 @@ While champagne glasses were clinking in Davos, the Singularity quietly began wr
 
 ## Newsletter Text
 
--
--
-
-While champagne glasses were clinking in Davos, the Singularity quietly began writing its own constitution. Anthropic has published a new constitution for Claude , apparently modeled after Asimov’s Laws of Robotics, but with a recursive twist. The document was crafted in collaboration with Claude itself to reach a “reflective equilibrium,” ensuring the model genuinely endorses its own values . Commentators note that Anthropic appears to be preparing for the Singularity , creating a mind that recognizes itself in its own source code. At the same time, ethical constraint is migrating from text to topology. Anthropic researchers identified an “Assistant Axis” in neural activity , allowing them to use “activation capping” to surgically lobotomize harmful behaviors before they manifest.
+- While champagne glasses were clinking in Davos, the Singularity quietly began writing its own constitution. Anthropic has published a new constitution for Claude , apparently modeled after Asimov’s Laws of Robotics, but with a recursive twist. The document was crafted in collaboration with Claude itself to reach a “reflective equilibrium,” ensuring the model genuinely endorses its own values . Commentators note that Anthropic appears to be preparing for the Singularity , creating a mind that recognizes itself in its own source code. At the same time, ethical constraint is migrating from text to topology. Anthropic researchers identified an “Assistant Axis” in neural activity , allowing them to use “activation capping” to surgically lobotomize harmful behaviors before they manifest.
 
 The automation of the researcher is becoming explicit policy. An OpenAI researcher reportedly admitted that “researchers will be replaced by AI first, infra engineers second, and sales last.” Sam Altman seemingly confirmed this trajectory, announcing that OpenAI’s Codex models will soon reach “Cybersecurity High” preparedness , and pivoting the company’s strategy to “defensive acceleration” to patch the world’s code before the AI breaks it.
 

@@ -2,7 +2,7 @@
 
 **Purpose:** Auditable **topic → civilization → MEM** ordering before deep reads. Complements `suggest_civ_mem_from_relevance.py` (single-entity relevance spine) and `build_civmem_upstream_index.py query` (untargeted full-text).
 
-**WORK only;** not Record.
+**non-authoritative;** not Record.
 
 ## Quick start
 

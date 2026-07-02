@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # EU UK Furious As Russia Exports Soar Sanctions Unravel; Aid To Kiev Stops; US NO To Kiev Drone Offer
 
-

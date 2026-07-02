@@ -1,6 +1,6 @@
 # AI Operating System Sprint Proposal - Sample Cohort Proof-Loop
 
-WORK only. Sample proposal for adaptation, not a live client agreement.
+non-authoritative. Sample proposal for adaptation, not a live client agreement.
 
 ## Client
 

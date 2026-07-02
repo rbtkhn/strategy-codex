@@ -90,7 +90,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back to the program. Today we are joined by Professor John Mearsheimer from the University of Chicago and Professor Sergey Karagenov, head of the council for foreign and defense policy and also a former adviser to Gorbachov Yelin as well as President Putin. So uh thank you both for coming back on the program.

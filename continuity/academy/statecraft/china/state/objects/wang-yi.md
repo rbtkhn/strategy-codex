@@ -1,7 +1,6 @@
 # Wang Yi Authority Carrier Object
 <!-- word_count: 1089 -->
 
-
 ## Object
 
 Wang Yi, Chinese foreign minister and party-state diplomatic continuity carrier.

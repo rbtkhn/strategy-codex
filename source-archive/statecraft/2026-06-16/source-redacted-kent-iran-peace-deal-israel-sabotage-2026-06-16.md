@@ -45,7 +45,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Well, Iranian Foreign Minister Araghchi a short time ago said the war with the US is over. So that's encouraging. But again, by all accounts, it will require Israel to withdraw from Lebanon and stop escalating in the Middle East like they unfortunately did today. There was yet another double tap strike reportedly in Lebanon today.

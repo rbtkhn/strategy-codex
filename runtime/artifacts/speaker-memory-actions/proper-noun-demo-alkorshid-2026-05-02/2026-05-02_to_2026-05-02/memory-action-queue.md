@@ -1,7 +1,5 @@
 # Speaker memory action queue
 
-WORK only; not Record.
-
 Window: `2026-05-02` to `2026-05-02`
 
 - `high` `update-existing-arc` `codex/years/2026/alkhorshid/alkhorshid-marandi-speaker-arc.md` (1 appearance(s); grades: cleaned-transcript)

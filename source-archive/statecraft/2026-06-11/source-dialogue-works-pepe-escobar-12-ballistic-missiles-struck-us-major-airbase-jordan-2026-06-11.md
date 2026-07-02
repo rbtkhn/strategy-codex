@@ -57,7 +57,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today is Thursday, June 11, 2026. And our dear friend to [laughter] >> I love it. I love your introduction. >> And our dear friend Pepeco is here with us. Welcome back, Pepe. [snorts] >> What a pleasure to be with you, Nema, and all of you, our audience. Uh, unfortunately now I am in NATO. So no more Shanghai, no more St.

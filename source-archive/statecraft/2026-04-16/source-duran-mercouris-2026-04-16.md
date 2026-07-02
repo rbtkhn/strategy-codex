@@ -492,7 +492,6 @@ An intense battle for the city may be imminent, and Ukrainian defences there do 
     
     <!-- pruned 2026-04-16 (operator A): §2c RSS mirror blocks for 2026-04-13 and 2026-04-14 removed — canonical rows remain in [daily-brief-2026-04-13.md](../daily-brief-2026-04-13.md) §2c and [daily-brief-2026-04-14.md](../daily-brief-2026-04-14.md) §2c. Paste-grade **04-14** expert `thread:` + `batch-analysis` block (Parsi×Davis, Ritter, Sánchez–Xi, Davis×Jermy, Diesen×Sachs, Blumenthal×Parsi) removed after weave into [chapters/2026-04/days.md](chapters/2026-04/days.md) **`## 2026-04-14`**; recover from **git** history on this file if needed. -->
 
-
 - `notebook | cold: Mercouris lane — Hormuz as precedent-for-Beijing problem (U.S. maritime-denial grammar portable beyond Iran); escalation risk as friction-thickening (insurance, routing, posture, rhetoric) before any notional fleet clash // hook: tri-mind narrow pass (Hormuz + PRC escalation); notebook lens fold, not Duran primary | verify:lens-fold+mercouris | thread:mercouris | membrane:single | grep:Hormuz+PRC+precedent`
     
     ### Weave registry — 2026-04-14 (grep anchor)

@@ -1,7 +1,5 @@
 # Innermost Loop — signal research frame
 
-work only; not Record.
-
 Research-layer orientation for **The Innermost Loop** as a dated frontier **signal** stream — not operational monthly synthesis and not workshop sheet output.
 
 **Raw SSOT:** [`source-archive/singularity/innermost-loop/`](../../../source-archive/singularity/innermost-loop/) (verbatim issues; cite, do not mirror).

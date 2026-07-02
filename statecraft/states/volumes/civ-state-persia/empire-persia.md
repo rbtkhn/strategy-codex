@@ -1,6 +1,5 @@
 # Empire Persia
 
-
 ## Where This Sits
 
 This is Part 2 of the Persia CIV-STATE volume. Open it after [Civilization Persia](civilization-persia.md) when the operator needs the outward machinery by which Persian or Iranian dignity becomes deterrence, corridor leverage, and regional bargaining pressure.

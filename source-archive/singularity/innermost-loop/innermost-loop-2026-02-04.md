@@ -13,8 +13,6 @@ post_id: 186815263
 
 # The Innermost Loop - 2026-02-04
 
-WORK only; not Record.
-
 ## Source
 
 - Title: A Conversation with John Werner
@@ -29,10 +27,7 @@ John Werner is the Founder and CEO of Imagination in Action and a Managing Direc
 
 ## Newsletter Text
 
--
--
-
-John Werner is the Founder and CEO of Imagination in Action and a Managing Director at Link Ventures . Below is a transcript of our recent conversation , recorded on December 9, 2025, which has been lightly edited for clarity.
+- John Werner is the Founder and CEO of Imagination in Action and a Managing Director at Link Ventures . Below is a transcript of our recent conversation , recorded on December 9, 2025, which has been lightly edited for clarity.
 
 NeurIPS and the State of AI
 

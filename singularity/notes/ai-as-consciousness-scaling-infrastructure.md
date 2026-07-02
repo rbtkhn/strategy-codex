@@ -1,7 +1,5 @@
 # AI as Consciousness-Scaling Infrastructure
 
-WORK only; not Record.
-
 This note preserves one bounded singularity seam: AI, properly harnessed, may
 become a form of **externalized cognition** whose knowledge-compression and
 retrieval functions may help human consciousness expand under conditions of

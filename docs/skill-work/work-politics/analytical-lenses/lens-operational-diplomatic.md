@@ -1,7 +1,7 @@
 # Lens: operational / diplomatic (near term)
 
 **Lens id:** `operational_diplomatic`  
-**WORK only.** Not SELF. Not Voice unless explicitly merged via gate.
+**non-authoritative.** Not SELF. Not Voice unless explicitly merged via gate.
 
 ---
 

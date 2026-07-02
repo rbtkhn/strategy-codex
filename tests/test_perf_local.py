@@ -10,7 +10,6 @@ import pytest
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SUITE = REPO_ROOT / "scripts" / "run_perf_suite.py"
 
-
 @pytest.mark.skipif(not (REPO_ROOT / "platform/users" / "grace-mar" / "recursion-gate.md").exists(), reason="grace-mar fork not present")
 def test_perf_tier1_smoke():
     env = {**os.environ, "GRACE_MAR_USER_ID": "grace-mar"}

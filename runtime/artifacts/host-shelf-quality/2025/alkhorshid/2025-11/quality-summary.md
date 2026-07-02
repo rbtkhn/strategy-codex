@@ -1,7 +1,5 @@
 # Host shelf quality summary
 
-WORK only; not Record.
-
 - host: `alkhorshid`
 - month: `2025-11`
 - input scope: `full-host-month`

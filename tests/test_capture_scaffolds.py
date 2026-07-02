@@ -10,7 +10,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS = REPO_ROOT / "scripts"
 
-
 def _mini_repo(tmp_path: Path) -> Path:
     root = tmp_path / "mini_repo"
     (root / "docs" / "templates").mkdir(parents=True)
@@ -22,7 +21,6 @@ def _mini_repo(tmp_path: Path) -> Path:
         shutil.copy2(REPO_ROOT / "docs" / "templates" / name, root / "docs" / "templates" / name)
     return root
 
-
 def _run(script: str, *args: str, repo: Path) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         [sys.executable, str(SCRIPTS / script), *args],
@@ -31,7 +29,6 @@ def _run(script: str, *args: str, repo: Path) -> subprocess.CompletedProcess[str
         capture_output=True,
         check=False,
     )
-
 
 def test_new_work_note_writes_under_output(tmp_path: Path) -> None:
     mini = _mini_repo(tmp_path)
@@ -59,7 +56,6 @@ def test_new_work_note_writes_under_output(tmp_path: Path) -> None:
     assert "Lane: work-strategy" in text
     assert "Title: Hello World Test" in text
 
-
 def test_new_evidence_stub_writes_under_output(tmp_path: Path) -> None:
     mini = _mini_repo(tmp_path)
     out = mini / "runtime/artifacts" / "evidence-stubs"
@@ -84,7 +80,6 @@ def test_new_evidence_stub_writes_under_output(tmp_path: Path) -> None:
     assert "Date: 2026-04-13" in text
     assert "Source: session" in text
     assert "Type: analysis" in text
-
 
 def test_new_candidate_draft_writes_under_output(tmp_path: Path) -> None:
     mini = _mini_repo(tmp_path)
@@ -113,7 +108,6 @@ def test_new_candidate_draft_writes_under_output(tmp_path: Path) -> None:
     assert "Lane: work-dev" in text
     assert "Target surface: SKILLS" in text
     assert "Title: Add a skill stub" in text
-
 
 def test_rejects_output_outside_repo_root(tmp_path: Path) -> None:
     mini = _mini_repo(tmp_path)

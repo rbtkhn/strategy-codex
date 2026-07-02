@@ -54,10 +54,6 @@ Iranian innovation admittedly has been long-planned and developed. Its’ effect
 
 That is the Iran war experience. But the wider strategic point is that it has demonstrated that the western ‘way of war’ has been eclipsed by cheap innovative tech and careful asymmetrical planning.
 
-
-
-
-
 The western model can provide devastating damage -- of that there is no doubt -- but its lack of surgical application is also counter-productive in an age of mass media and smartphone photography that testify to civilian death, destruction and suffering.
 
 The second point is that the West remains a cumbersome giant that has failed to understand -- let alone anticipate -- the new asymmetric war. Innovation has been stymied by the consolidation of the Military Industrial Complex into a few bureaucratic monopolies.
@@ -67,5 +63,4 @@ The western way of war is a bust model when ranged against a sophisticated asymm
 But others have indeed noticed the lessons from the Iran war. Russia is one; China is another. There will be more. The West can expect to see the lessons surface in different garbs in the West’s other wars.
 
 The European élites may find that their facilitation of Ukrainian drone attacks deep into Russia may draw a different (kinetic) response in the near future. The warnings have been issued. Will they be heard?
-
 

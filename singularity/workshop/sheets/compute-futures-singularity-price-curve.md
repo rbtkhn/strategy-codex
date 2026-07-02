@@ -1,7 +1,5 @@
 # Compute Futures: The Singularity Gets a Price Curve
 
-WORK only; not Record.
-
 ## Source
 
 - Source basis:

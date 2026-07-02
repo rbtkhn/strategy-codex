@@ -14,7 +14,6 @@ ROOT = Path(__file__).resolve().parent.parent
 SHARED = ROOT / "research/auto-research" / "_shared"
 SWARM = ROOT / "research/auto-research" / "swarm"
 
-
 def _load(name: str, path: Path):
     spec = importlib.util.spec_from_file_location(name, path)
     assert spec and spec.loader
@@ -22,7 +21,6 @@ def _load(name: str, path: Path):
     sys.modules[name] = mod
     spec.loader.exec_module(mod)
     return mod
-
 
 def _sample_payload() -> dict:
     return {
@@ -51,7 +49,6 @@ def _sample_payload() -> dict:
         "evaluation_notes": "Test payload.",
     }
 
-
 def _accepted_artifact() -> dict:
     return {
         "proposal": _sample_payload(),
@@ -59,7 +56,6 @@ def _accepted_artifact() -> dict:
         "artifact_schema_version": 1,
         "raw_source_exchange": _sample_payload()["candidate_bundle"]["source_exchange"],
     }
-
 
 def test_shared_promote_artifact_writes_staged_event(tmp_path, monkeypatch):
     helper = _load("artifact_promotion_shared_test", SHARED / "artifact_promotion.py")
@@ -111,7 +107,6 @@ def test_shared_promote_artifact_writes_staged_event(tmp_path, monkeypatch):
     assert artifact["staged_candidate_id"] == "CANDIDATE-0001"
     assert artifact["promotion_lane"] == "swarm"
 
-
 def test_swarm_orchestrator_refreshes_state(tmp_path, monkeypatch):
     orchestrator = _load("swarm_orchestrator_state_test", SWARM / "orchestrator.py")
     tmp_repo = tmp_path / "repo"
@@ -154,7 +149,6 @@ def test_swarm_orchestrator_refreshes_state(tmp_path, monkeypatch):
     assert state["top_artifact"]["artifact_name"] == "accepted-new.json"
     assert orchestrator.STATE_PATH.is_file()
 
-
 def test_swarm_orchestrator_runs_auto_dream(monkeypatch):
     orchestrator = _load("swarm_orchestrator_dream_test", SWARM / "orchestrator.py")
     calls: list[dict] = []
@@ -185,7 +179,6 @@ def test_swarm_orchestrator_runs_auto_dream(monkeypatch):
         }
     ]
 
-
 class _DummyMessage:
     def __init__(self) -> None:
         self.replies: list[str] = []
@@ -193,18 +186,15 @@ class _DummyMessage:
     async def reply_text(self, text: str) -> None:
         self.replies.append(text)
 
-
 class _DummyUpdate:
     def __init__(self, chat_id: int = 1, user_id: int = 2) -> None:
         self.message = _DummyMessage()
         self.effective_chat = types.SimpleNamespace(id=chat_id)
         self.effective_user = types.SimpleNamespace(id=user_id)
 
-
 class _DummyContext:
     def __init__(self, args: list[str] | None = None) -> None:
         self.args = args or []
-
 
 def _load_bot_module():
     try:
@@ -212,7 +202,6 @@ def _load_bot_module():
         return importlib.import_module("bot.archive/grace-mar-instance/bot")
     except Exception as exc:  # pragma: no cover - environment-dependent skip
         pytest.skip(f"bot module unavailable in test environment: {exc}")
-
 
 def test_swarm_status_command_is_operator_only(monkeypatch):
     bot_mod = _load_bot_module()
@@ -225,7 +214,6 @@ def test_swarm_status_command_is_operator_only(monkeypatch):
     asyncio.run(bot_mod.swarm_status_command(update, context))
 
     assert update.message.replies == ["this command is operator-only."]
-
 
 def test_swarm_promote_command_stages_candidate(monkeypatch):
     bot_mod = _load_bot_module()
@@ -254,7 +242,6 @@ def test_swarm_promote_command_stages_candidate(monkeypatch):
     asyncio.run(bot_mod.swarm_promote_command(update, context))
 
     assert "CANDIDATE-0101 staged" in update.message.replies[0]
-
 
 def test_swarm_dream_command_returns_summary(monkeypatch):
     bot_mod = _load_bot_module()

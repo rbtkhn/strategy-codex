@@ -1,6 +1,5 @@
 # Reason to Resist Index
 
-
 Compatibility pointer only.
 
 The canonical channel route map now lives at [reason-resist-channel-index.md](reason-resist-channel-index.md).

@@ -1,7 +1,5 @@
 # Lesson Brief — [lesson-id]
 
-WORK only; not Record.
-
 **Source lecture/chapter:** (link or cite from continuity/predictive-history or canonical repo)
 **Target learner:** adult reader | high school | middle school | first grade
 **Lesson id:** lesson-NNN

@@ -1,6 +1,5 @@
 # China Secondary Sources - Ancient
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the ancient China primary shelf when mandate grammar, ritual order, early state hardening, or Qin-Han consolidation need chronology, translation, or institutional clarification. This file owns the main China-side explanation of why Will Durant is useful here: broad civilizational sweep and readable transition framing, but not specialist final authority.

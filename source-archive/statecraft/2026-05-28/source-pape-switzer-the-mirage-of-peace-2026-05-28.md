@@ -25,7 +25,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Switzer Welcome and Mearsheimer Three Options Setup
 
 company. And today's guest is Robert Pap. He's professor of political science at the University of Chicago. He's author of many prominent books, including most recently, Our Own Worst Enemies: America and the Age of Violent Populism. Good day, Bob. Great to be with you again. >> Thanks so much for having me, Tom.

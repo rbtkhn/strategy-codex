@@ -1,6 +1,5 @@
 # Macgregor Shelf - 2026-05
 
-
 This monthly shelf is the May 2026 synthesis/index for the migrated Macgregor statecraft shelf.
 
 Month status: `support-only month`

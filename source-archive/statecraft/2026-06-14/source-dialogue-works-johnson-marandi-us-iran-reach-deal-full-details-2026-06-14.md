@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Sunday, June 14, 2026. And our dear friend Larry Johnson is here with us. And Professor Marandi in a moment, he he's going to join us because we were waiting for him. He didn't join, but he's going to join us as we talk. Larry, let me start with what is going on right now between Iran and the United States.

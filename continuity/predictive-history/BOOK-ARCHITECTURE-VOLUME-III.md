@@ -28,7 +28,6 @@ Part I follows Jiang's Secret History lectures in classroom order, transcript-ba
 
 End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md — divergence IDs from divergences.jsonl where linked; not chapter_end_predictions (Volume I only).
 
-
 ## Part II (after Part I)
 
 ### Part II — method TBD (Secret History)
@@ -36,7 +35,6 @@ End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md �
 **Begins after:** `sh-ch28`
 
 Operator locks evaluation mode in book/VOLUME-III-SECRET-HISTORY.md (divergence-first default for Part I boxes; Part II may add adjudication or hybrid).
-
 
 ## Chapters (Part I)
 

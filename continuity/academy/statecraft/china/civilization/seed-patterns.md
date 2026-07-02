@@ -1,7 +1,6 @@
 # China Civilization Seed Patterns
 <!-- word_count: 202 -->
 
-
 These seeds translate CIV-MEM into China-lane civilization patterns. State rules should draw from these patterns and the China empire folder, not directly from CIV-MEM.
 
 ## Order Against Chaos

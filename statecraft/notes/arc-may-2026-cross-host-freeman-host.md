@@ -19,7 +19,6 @@ archive_links:
 
 # Freeman May 2026 cross-host arc
 
-
 Purpose: keep the May 2026 Chas Freeman run visible across host shelves and the non-core appearance bench so the post-Hormuz and post-defeat sequence is not rediscovered piecemeal.
 
 ## Why May Matters

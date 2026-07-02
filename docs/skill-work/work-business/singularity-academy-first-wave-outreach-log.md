@@ -1,6 +1,6 @@
 # Singularity-Academy First-Wave Outreach Log
 
-WORK only. This is an operator movement log, not proof of demand.
+non-authoritative. This is an operator movement log, not proof of demand.
 
 ## Purpose
 

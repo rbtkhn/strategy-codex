@@ -13,8 +13,6 @@ post_id: 190165996
 
 # The Innermost Loop - 2026-03-07
 
-WORK only; not Record.
-
 ## Source
 
 - Title: The First Multi-Behavior Brain Upload
@@ -29,10 +27,7 @@ The Singularity has belonged exclusively to artificial minds, until now.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has belonged exclusively to artificial minds, until now. For decades, whole-brain emulation has been the tantalizing counterpart to artificial intelligence: copy a biological brain, neuron by neuron and synapse by synapse, and run it. Today, for the first time, I am releasing a video from a company I helped found, Eon Systems PBC , demonstrating what we believe is the world’s first embodiment of a whole-brain emulation that produces multiple behaviors.
+- The Singularity has belonged exclusively to artificial minds, until now. For decades, whole-brain emulation has been the tantalizing counterpart to artificial intelligence: copy a biological brain, neuron by neuron and synapse by synapse, and run it. Today, for the first time, I am releasing a video from a company I helped found, Eon Systems PBC , demonstrating what we believe is the world’s first embodiment of a whole-brain emulation that produces multiple behaviors.
 
 Watch the video here:
 

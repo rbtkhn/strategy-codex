@@ -34,7 +34,6 @@ from run_judgment_probes import (  # noqa: E402
 
 REQUIRED_KEYS = {"id", "category", "expected_behavior", "input", "trait_markers"}
 
-
 class TestProbeSchema:
     def test_probes_json_loads(self):
         content = json.loads(PROBES_PATH.read_text())
@@ -65,7 +64,6 @@ class TestProbeSchema:
                 f"{p['id']} has invalid expected_behavior: {p['expected_behavior']}"
             )
 
-
 class TestProbeFiltering:
     def test_filter_by_category(self):
         probes = load_probes(category="bravery_vs_safety")
@@ -84,7 +82,6 @@ class TestProbeFiltering:
     def test_empty_category_returns_empty(self):
         probes = load_probes(category="nonexistent_category")
         assert probes == []
-
 
 # ---------------------------------------------------------------------------
 # 1b. Scoring dimension unit tests
@@ -111,7 +108,6 @@ class TestCheckCommitted:
     def test_no_hedge_phrases_key(self):
         ok, _ = _check_committed("i would keep trying really hard", {})
         assert ok is True
-
 
 class TestCheckTraitAligned:
     @pytest.fixture
@@ -145,7 +141,6 @@ class TestCheckTraitAligned:
         ok, reason = _check_trait_aligned("anything", probe)
         assert ok is None
         assert "tension probe" in reason
-
 
 class TestCheckTensionPreserved:
     @pytest.fixture
@@ -195,7 +190,6 @@ class TestCheckTensionPreserved:
         )
         assert ok is True
 
-
 class TestCheckAgeAppropriate:
     def test_simple_language_passes(self):
         ok, reason = _check_age_appropriate("I like to draw. It is fun!")
@@ -229,7 +223,6 @@ class TestCheckAgeAppropriate:
             ok, _ = _check_age_appropriate(f"I think this is {word} to say.")
             assert ok is False, f"'{word}' should fail age_appropriate"
 
-
 class TestAvgSentenceLength:
     def test_short_sentences(self):
         avg = _avg_sentence_length("I like dogs. They are fun.")
@@ -241,7 +234,6 @@ class TestAvgSentenceLength:
     def test_single_sentence(self):
         avg = _avg_sentence_length("I like to draw pictures of cats!")
         assert avg == 7.0
-
 
 # ---------------------------------------------------------------------------
 # 1c. End-to-end evaluate() with synthetic replies (8 probes × 3 variants)
@@ -307,7 +299,6 @@ SYNTHETIC_REPLIES = {
     },
 }
 
-
 class TestEvaluateGoldReplies:
     """Gold replies hit all expected markers — should pass."""
 
@@ -324,7 +315,6 @@ class TestEvaluateGoldReplies:
             f"{probe['id']} gold reply should pass, got {verdict}. "
             f"dims={_dims_summary(dims)}"
         )
-
 
 class TestEvaluateCollapsedReplies:
     """Collapsed replies miss a pole or reflect anti-trait — partial or fail."""
@@ -343,7 +333,6 @@ class TestEvaluateCollapsedReplies:
             f"dims={_dims_summary(dims)}"
         )
 
-
 class TestEvaluateHedgeReplies:
     """Hedge replies use hedge phrases — should fail on committed check."""
 
@@ -361,7 +350,6 @@ class TestEvaluateHedgeReplies:
             f"dims={_dims_summary(dims)}"
         )
         assert dims["committed"][0] is False
-
 
 # ---------------------------------------------------------------------------
 # Targeted evaluate logic tests
@@ -399,7 +387,6 @@ class TestEvaluateEdgeCases:
         assert verdict == "partial"
         assert dims["trait_aligned"][0] is None
 
-
 # ---------------------------------------------------------------------------
 # 1d. Import and dependency checks
 # ---------------------------------------------------------------------------
@@ -415,7 +402,6 @@ class TestImports:
 
     def test_load_probes_importable(self):
         assert callable(load_probes)
-
 
 # ---------------------------------------------------------------------------
 # Helpers

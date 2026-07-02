@@ -32,7 +32,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Deal vs Resumption — Trump/Hegseth Leverage vs Rational Actors
 
 Yeah. So, a lot of people are talking on whether we're going to have a deal or not. And, uh, I I'll go through kind of the latest developments. There's an update that just came in right now. The Iranians are saying, "Look, they just they're both going back and forth on the various terms, which is expected in a deal.

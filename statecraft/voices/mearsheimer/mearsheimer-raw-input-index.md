@@ -1,6 +1,5 @@
 # Mearsheimer Raw-Input Index
 
-
 Compatibility pointer only.
 
 The canonical Mearsheimer source route map now lives at [mearsheimer-source-index.md](mearsheimer-source-index.md).

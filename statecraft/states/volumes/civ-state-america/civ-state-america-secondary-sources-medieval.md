@@ -1,6 +1,5 @@
 # America Secondary Sources - Medieval
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the medieval America primary shelf when Anglian inheritance, Alfred, charter, common law, or constitutional-kingship carry need stronger documentary context. This file owns the main America-side explanation of why Churchill's *A History of the English-Speaking Peoples* matters here: civilization-specific continuity narration for the Anglo-American chain, not cross-civilizational authority.

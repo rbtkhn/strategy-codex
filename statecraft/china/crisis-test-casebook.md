@@ -1,6 +1,5 @@
 # China Crisis Test Casebook
 
-
 Use this lane casebook to track what China learns from each crisis test. The shared method index is [Crisis Test Casebook](../sheets/crisis-test-casebook.md).
 
 | crisis test | what China sees first | what China fears | leverage | face-saving phrase | best instrument | lesson for China |

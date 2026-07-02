@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Open — MOU Framework Not Agreement
 
 As we have often said, the devil is in the details on this memorandum of understanding between the United States and Iran. And it was great that we got that signed because that started a period of negotiation. But if we don't get things clear in these negotiations and even start off focusing on what the actual terms of the memorandum were, then we're going to find out that we're no closer to an end to this war than we were before.

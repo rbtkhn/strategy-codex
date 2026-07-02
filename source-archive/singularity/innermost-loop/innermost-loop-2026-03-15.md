@@ -13,8 +13,6 @@ post_id: 191046346
 
 # The Innermost Loop - 2026-03-15
 
-WORK only; not Record.
-
 ## Source
 
 - Title: The First Open-Source Agentic AI Physicist
@@ -29,10 +27,7 @@ The Singularity already writes code, trades stocks, and diagnoses tumors, but it
 
 ## Newsletter Text
 
--
--
-
-The Singularity already writes code, trades stocks, and diagnoses tumors, but it has never done physics research end-to-end, until today. Physical Superintelligence PBC (PSI), a company I co-founded, is releasing Get Physics Done (GPD): the first open-source agentic AI physicist that can scope a physics problem, plan the research, carry out derivations and numerical checks, and verify its own results against the constraints that nature actually imposes. Built at PSI by physicists who needed it for their own work, GPD is now available to the global research community.
+- The Singularity already writes code, trades stocks, and diagnoses tumors, but it has never done physics research end-to-end, until today. Physical Superintelligence PBC (PSI), a company I co-founded, is releasing Get Physics Done (GPD): the first open-source agentic AI physicist that can scope a physics problem, plan the research, carry out derivations and numerical checks, and verify its own results against the constraints that nature actually imposes. Built at PSI by physicists who needed it for their own work, GPD is now available to the global research community.
 
 The field that gave us transistors (1947), nuclear energy (1951), and lasers (1960) still runs on the same artisanal production method it used during its last golden age: one theorist, one whiteboard, one career. Meanwhile, existing AI agents ship software, manage calendars, and close tickets, but none of them can tell you whether your Lagrangian is missing a boundary term. GPD can.
 

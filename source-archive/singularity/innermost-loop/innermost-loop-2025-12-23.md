@@ -13,8 +13,6 @@ post_id: 182424132
 
 # The Innermost Loop - 2025-12-23
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 23, 2025
@@ -29,10 +27,7 @@ The monopoly on frontier cognition has dissolved into a mere six-month latency.
 
 ## Newsletter Text
 
--
--
-
-The monopoly on frontier cognition has dissolved into a mere six-month latency. Chinese startup Zhipu AI has released GLM-4.7, an open-weight model that tops GPT-5.2 in WebDev Arena and breaks the 73% barrier on SWE-bench , trailing the closed frontier by half a year. This timeline is hardening into a standard; Epoch AI confirms that leading open-weight Chinese models lag the FrontierMath Tiers 1-3 edge by approximately seven months . Simultaneously, architectures are getting leaner. Researchers have unveiled “Universal Reasoning Models,” which achieve a pass@1 score of 40% on ARC-AGI-1 with only one-eighth the parameters of standard Transformers and substantially better performance, proving that massive scale is not the only path to competence. However, the price of agency is sticky; analysis suggests the “hourly” cost of agents at the METR 50% autonomy time horizon is increasing , creating immense pressure to optimize the inference stack.
+- The monopoly on frontier cognition has dissolved into a mere six-month latency. Chinese startup Zhipu AI has released GLM-4.7, an open-weight model that tops GPT-5.2 in WebDev Arena and breaks the 73% barrier on SWE-bench , trailing the closed frontier by half a year. This timeline is hardening into a standard; Epoch AI confirms that leading open-weight Chinese models lag the FrontierMath Tiers 1-3 edge by approximately seven months . Simultaneously, architectures are getting leaner. Researchers have unveiled “Universal Reasoning Models,” which achieve a pass@1 score of 40% on ARC-AGI-1 with only one-eighth the parameters of standard Transformers and substantially better performance, proving that massive scale is not the only path to competence. However, the price of agency is sticky; analysis suggests the “hourly” cost of agents at the METR 50% autonomy time horizon is increasing , creating immense pressure to optimize the inference stack.
 
 The distinction between natural language and executable code is evaporating. Microsoft has set a “North Star” goal to eliminate every line of C and C++ from its codebase by 2030 , aiming for a velocity where a single engineer can rewrite 1 million lines of code in a month. The tools are ready: Claude Code now supports the Language Server Protocol for deep editor integration, and YouTube has launched a no-code Playables Builder that lets creators generate games via prompts. The military is also upgrading its stack; the US War Department has officially partnered with xAI to deploy advanced models on GenAI.mil.
 

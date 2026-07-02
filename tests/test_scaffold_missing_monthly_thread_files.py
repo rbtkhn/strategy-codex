@@ -14,12 +14,10 @@ from scaffold_missing_monthly_thread_files import (  # noqa: E402
     scaffold_missing,
 )
 
-
 def test_strip_backfill_from_segment() -> None:
     a = "journal\n\n---\n\n<!-- backfill:ritter:start -->\nmore"
     assert "backfill" not in _strip_backfill_from_segment(a)
     assert "journal" in _strip_backfill_from_segment(a)
-
 
 def test_scaffold_missing_writes_only_absent_months(tmp_path: Path) -> None:
     nb = tmp_path / "notebook"
@@ -40,7 +38,6 @@ def test_scaffold_missing_writes_only_absent_months(tmp_path: Path) -> None:
     assert "2026-02" in (ed / "xfoo-thread-2026-02.md").read_text(encoding="utf-8")
     out2 = scaffold_missing(nb, "xfoo", apply=True)
     assert "nothing to scaffold" in " ".join(out2)
-
 
 def test_scaffold_skips_without_monthly_layout(tmp_path: Path) -> None:
     nb = tmp_path / "notebook"

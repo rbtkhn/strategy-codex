@@ -11,7 +11,6 @@ archive_links:
 ---
 # Daily Synthesis Contract Repair Routing - 2026-06-08
 
-
 Opens the **daily synthesis validator** seam using the same tranche logic as
 [archive-truth-floor-repair-routing-2026-06-01.md](./archive-truth-floor-repair-routing-2026-06-01.md).
 

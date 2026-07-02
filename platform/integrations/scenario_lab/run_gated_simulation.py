@@ -23,7 +23,6 @@ from integrations.scenario_lab.common import (
 )
 from integrations.scenario_lab.export_to_scenario import build_markdown_report, build_packet
 
-
 def _coerce_probability(value: Any) -> float | None:
     try:
         number = float(value)
@@ -32,7 +31,6 @@ def _coerce_probability(value: Any) -> float | None:
     if number > 1:
         return round(number / 100.0, 4)
     return round(number, 4)
-
 
 def normalize_runner_payload(payload: dict[str, Any]) -> dict[str, Any]:
     ranked_input = payload.get("ranked_scenarios") or payload.get("scenario_families") or []
@@ -69,7 +67,6 @@ def normalize_runner_payload(payload: dict[str, Any]) -> dict[str, Any]:
         "actor_pressures": actor_pressures,
         "assumptions": assumptions,
     }
-
 
 def build_run_report(
     *,
@@ -116,7 +113,6 @@ def build_run_report(
             "stderr_excerpt": stderr[:1200],
         },
     }
-
 
 def build_run_markdown(report: dict[str, Any]) -> str:
     lines: list[str] = []
@@ -171,7 +167,6 @@ def build_run_markdown(report: dict[str, Any]) -> str:
         lines.append("")
     return "\n".join(lines)
 
-
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Run a bounded Scenario Lab pilot simulation.")
     parser.add_argument("--scenario", required=True, help="Scenario question or title.")
@@ -183,7 +178,6 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--scenario-lab-cmd", help="Optional Scenario Lab command override.")
     parser.add_argument("--forecast-root", help="Optional .forecast root override.")
     return parser
-
 
 def main() -> int:
     parser = build_parser()
@@ -271,7 +265,6 @@ def main() -> int:
         },
     )
     return 0 if runner_status == "succeeded" else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

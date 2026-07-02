@@ -1,7 +1,5 @@
 # Moonshots EP #256 - Inner Loop, Full Stack, and Trust Infrastructure
 
-WORK only; not Record.
-
 ## Source
 
 - Source: "The Future of Chips, Google Omni, and the results of the OpenAI-Suit | EP #256", Moonshots.

@@ -1,6 +1,5 @@
 # Egypt Framework - Four-Lane Comparison
 
-
 | lane | wants | fears | workable formula |
 | --- | --- | --- | --- |
 | America | Suez stability and allied order | austerity collapse and rival capture | protected bread floor plus creditor coordination |

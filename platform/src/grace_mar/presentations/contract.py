@@ -72,36 +72,29 @@ INTENT_SUBSURFACE_MAP: dict[str, tuple[str, ...]] = {
 }
 PH_CIV_SOURCE_MODES = ("external-public-packet",)
 
-
 class BundleValidationError(ValueError):
     """Raised when a presentation bundle violates the v1 contract."""
-
 
 def canonical_bundle_json(bundle: dict[str, Any]) -> str:
     return json.dumps(bundle, ensure_ascii=True, indent=2, sort_keys=True)
 
-
 def bundle_sha256(bundle: dict[str, Any]) -> str:
     return hashlib.sha256(canonical_bundle_json(bundle).encode("utf-8")).hexdigest()
-
 
 def _require_mapping(value: Any, field: str) -> dict[str, Any]:
     if not isinstance(value, dict):
         raise BundleValidationError(f"{field} must be an object")
     return value
 
-
 def _require_non_empty_string(value: Any, field: str) -> str:
     if not isinstance(value, str) or not value.strip():
         raise BundleValidationError(f"{field} must be a non-empty string")
     return value.strip()
 
-
 def _require_list(value: Any, field: str) -> list[Any]:
     if not isinstance(value, list):
         raise BundleValidationError(f"{field} must be a list")
     return value
-
 
 def validate_bundle(bundle: dict[str, Any]) -> dict[str, Any]:
     """Validate and normalize the shared presentation bundle contract."""

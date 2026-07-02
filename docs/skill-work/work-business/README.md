@@ -2,7 +2,7 @@
 
 **Template mirror:** [companion-self `work-business/README.md`](https://github.com/rbtkhn/companion-self/blob/main/docs/skill-work/work-business/README.md) â€” grace-mar adds instance-specific ventures and accounting; diff is expected; align shared boilerplate when syncing.
 
-**Objective:** Business planning, accounting, marketing, and market research for **operator-owned ventures** (Grace Gems, future ventures). Supports strategy, operations, financial tracking, and positioning. **WORK only**; not Record truth. Any merge to Record goes through RECURSION-GATE + companion approval.
+**Objective:** Business planning, accounting, marketing, and market research for **operator-owned ventures** (Grace Gems, future ventures). Supports strategy, operations, financial tracking, and positioning.  truth. Any merge to Record goes through RECURSION-GATE + companion approval.
 
 **Singularity-academy consolidation:** This lane remains canonically `work-business` as an internal path, but it is now also a live `singularity-academy` overlay when the operator is using ventures to test whether recursive, self-improving AI can produce durable leverage across real commercial work. In the repo's two-channel operator architecture, `work-business` is a singularity-native deployment and compression testbed rather than an equal top-level operator category. Canonical singularity hub: [Singularity Workshop](../../../singularity/workshop/README.md).
 
@@ -20,7 +20,7 @@
 | **Deep research** | Structured analysis on companies, technologies, commercial landscape. |
 | **Evidence-linked** | Sources documented; keep ordinary business and singularity work in WORK docs rather than governed-state machinery. |
 
-**Boundaries:** WORK only. No direct SELF/prompt edits. Logging to WORK docs and session notes; optional ACT- only when companion approves a candidate. Discipline is operator/process.
+**Boundaries:** non-authoritative. No direct SELF/prompt edits. Logging to WORK docs and session notes; optional ACT- only when companion approves a candidate. Discipline is operator/process.
 When this lane is being used under `singularity-academy`, do not introduce `candidates` as part of the normal workflow. Stay in WORK unless the operator explicitly asks to route something out to a governed surface.
 
 ### Singularity-use contract

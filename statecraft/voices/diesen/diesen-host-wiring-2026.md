@@ -1,6 +1,5 @@
 # Diesen host wiring - 2026
 
-
 Purpose: make the Diesen host stream navigable as a host-native object. Crooke and Ritter wiring asks how an expert voice persists across hosts. This note asks what Diesen reliably elicits from different expert voices inside his own stream.
 
 Compatibility note: the guest matrix below points mostly to embodied relational arcs still spelled `diesen-*-speaker-arc.md`. In the current repo doctrine, those should be read as compatibility spellings of canonical relational arcs, not as a separate second arc class. Where both spellings exist, prefer the `*-arc.md` file.

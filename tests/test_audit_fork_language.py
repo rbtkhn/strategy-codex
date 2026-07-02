@@ -8,7 +8,6 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 
-
 def test_audit_fork_language_strict_exits_zero():
     proc = subprocess.run(
         [
@@ -24,7 +23,6 @@ def test_audit_fork_language_strict_exits_zero():
         errors="replace",
     )
     assert proc.returncode == 0, proc.stdout + proc.stderr
-
 
 def test_validate_grace_mar_stub_redirects():
     proc = subprocess.run(

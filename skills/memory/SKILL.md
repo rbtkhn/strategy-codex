@@ -67,7 +67,6 @@ Do not use `memory` to replace an unresolved lane judgment or an unresolved gove
 
 ## Boundary
 
-- WORK only; not Record.
 - Do not edit PH-CIV corpus or CIV-MEM source files from this workflow.
 - Do not create lane instrument notes unless the operator separately asks.
 - Use lane-local `updates/pending.md` for durable recursive candidates; live analysis proposes, human review decides.

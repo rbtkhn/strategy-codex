@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Rubio Unipolar Era Over, US Lied To Kiev; EU Debates Russian Gas Return; Ukraine Cascading Collapse
 
-

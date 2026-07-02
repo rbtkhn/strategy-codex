@@ -1,7 +1,5 @@
 # Rights and disclosure — commercial safety
 
-WORK only; not Record.
-
 ---
 
 ## Scope

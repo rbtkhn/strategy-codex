@@ -9,7 +9,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture
 def rpl():
     import sys
@@ -21,13 +20,11 @@ def rpl():
 
     return mod
 
-
 def test_resolve_single_lane_label(rpl) -> None:
     out = rpl.resolve({"body": "", "labels": [{"name": "lane/work-dev"}]})
     assert out[0] == "work-dev"
     assert out[1] is False
     assert out[2] == ""
-
 
 def test_resolve_cross_lane_requires_justification(rpl) -> None:
     pr = {
@@ -39,11 +36,9 @@ def test_resolve_cross_lane_requires_justification(rpl) -> None:
     assert out[1] is True
     assert "wire archive/grace-mar-instance/bot" in out[2]
 
-
 def test_resolve_missing_label_errors(rpl) -> None:
     out = rpl.resolve({"body": "", "labels": []})
     assert out[0] is None
-
 
 def test_main_writes_github_env(tmp_path: Path, monkeypatch: pytest.MonkeyPatch, rpl) -> None:
     event = {

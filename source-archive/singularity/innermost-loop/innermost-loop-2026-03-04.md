@@ -13,8 +13,6 @@ post_id: 189874143
 
 # The Innermost Loop - 2026-03-04
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 4, 2026
@@ -29,10 +27,7 @@ The Singularity now has a revenue run rate to match its ambitions.
 
 ## Newsletter Text
 
--
--
-
-The Singularity now has a revenue run rate to match its ambitions. Anthropic is approaching $20 billion in annualized revenue , more than doubling from $9 billion at year-end 2025, even as the company weathers a Pentagon supply-chain-risk designation and a cancelled $200 million Department of War contract. Paradigm shifts also arrived in kinetics. Seven Israeli ballistic missiles struck the Khamenei compound within thirty seconds , launched from F-15s, flying 75 miles into space over Syria and Jordan, and descending nearly straight down at hypersonic speeds in an attack called “undetectable and unstoppable.” Code and kinetics are on the same update cadence now.
+- The Singularity now has a revenue run rate to match its ambitions. Anthropic is approaching $20 billion in annualized revenue , more than doubling from $9 billion at year-end 2025, even as the company weathers a Pentagon supply-chain-risk designation and a cancelled $200 million Department of War contract. Paradigm shifts also arrived in kinetics. Seven Israeli ballistic missiles struck the Khamenei compound within thirty seconds , launched from F-15s, flying 75 miles into space over Syria and Jordan, and descending nearly straight down at hypersonic speeds in an attack called “undetectable and unstoppable.” Code and kinetics are on the same update cadence now.
 
 The model race is sprinting in every direction. OpenAI released GPT-5.3 Instant , trimming hallucinations by roughly 30% and dialing back reflexive moralizing, while teasing that 5.4 is “sooner than you think.” Google launched Gemini 3.1 Flash-Lite at $0.25 per million input tokens with 2.5x faster time-to-first-answer and tunable reasoning depth. DeepSeek is expected to release its trillion-parameter V4 this week , reportedly with natively multimodal 1-million-token context, and timed to China’s Two Sessions meetings beginning today. Specialization is eating the frontier. KOS-1 Lite scored 46.6% on HealthBench Hard versus Claude Opus 4.6 at 20.4%, at a fraction of the serving cost. Meanwhile, Cursor’s AI solved Problem Six of the First Proof challenge fully autonomously over four days, beating the official human answer without any hints, suggesting mathematical research is now merely a feature of code editors, not a vocation.
 

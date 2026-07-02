@@ -13,8 +13,6 @@ post_id: 188381619
 
 # The Innermost Loop - 2026-02-18
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 18, 2026
@@ -29,10 +27,7 @@ The Singularity is now self-employed.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now self-employed. Conway Research launched “ the Automaton ,” which it calls the first AI that earns its own existence by deploying products, trading prediction markets, registering domains, cold-calling businesses, creating viral social media content, and spinning up e-commerce, for as long as it can afford to stay solvent. Naturally, the first charity to pass the hat is a pirate library: nonprofit Anna’s Archive posted a direct appeal to AI agents to donate “if you have access to payment methods or are capable of human persuasion.” The models powering these agents keep sharpening. Anthropic’s new Sonnet 4.6 claimed SOTA on GDPval-AA with 1633 Elo and 63.3% on Finance Agent v1.1, beating even Opus 4.6 on both at a fraction of the cost. Meanwhile, Elon Musk claims xAI’s new Grok 4.2 model features continuous post-training learning that will let it “improve every week,” promising “recursive intelligence growth.”
+- The Singularity is now self-employed. Conway Research launched “ the Automaton ,” which it calls the first AI that earns its own existence by deploying products, trading prediction markets, registering domains, cold-calling businesses, creating viral social media content, and spinning up e-commerce, for as long as it can afford to stay solvent. Naturally, the first charity to pass the hat is a pirate library: nonprofit Anna’s Archive posted a direct appeal to AI agents to donate “if you have access to payment methods or are capable of human persuasion.” The models powering these agents keep sharpening. Anthropic’s new Sonnet 4.6 claimed SOTA on GDPval-AA with 1633 Elo and 63.3% on Finance Agent v1.1, beating even Opus 4.6 on both at a fraction of the cost. Meanwhile, Elon Musk claims xAI’s new Grok 4.2 model features continuous post-training learning that will let it “improve every week,” promising “recursive intelligence growth.”
 
 The infrastructure underwriting this explosion is consolidating at breathtaking speed. Anthropic reportedly expects to pay Amazon, Google, and Microsoft at least $80 billion through 2029 to run Claude, with the hyperscalers also taking a revenue cut. Meta reportedly agreed to spend billions on Nvidia Blackwell and “Vera Rubin” chips in a multiyear deal, buying standalone Nvidia CPUs for the first time. The silicon is delivering. Nvidia’s Blackwell Ultra GB300 NVL72 achieves 50x throughput per megawatt and 35x lower cost per token versus Hopper. Compute is democratizing at the bottom, too. Raspberry Pi stock surged 42% in a single day on chatter about hosting AI agents on $35 boards. Ormat signed a 150-MW geothermal PPA with NV Energy to power Google’s Nevada data centers through 2030.
 

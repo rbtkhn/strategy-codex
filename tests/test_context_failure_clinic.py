@@ -14,7 +14,6 @@ ROOT = Path(__file__).resolve().parent.parent
 SCRIPT = ROOT / "scripts" / "runtime" / "context_failure_clinic.py"
 SCHEMA_PATH = ROOT / "schemas" / "context-failure-report.v1.schema.json"
 
-
 def load_module():
     spec = importlib.util.spec_from_file_location("context_failure_clinic", SCRIPT)
     assert spec is not None
@@ -23,7 +22,6 @@ def load_module():
     sys.modules[spec.name] = module
     spec.loader.exec_module(module)
     return module
-
 
 def test_authority_drift_is_high_risk(tmp_path: Path) -> None:
     module = load_module()
@@ -42,7 +40,6 @@ It can update canonical memory without review.
     assert report.category_scores["authority_drift"] >= 8
     assert any(finding.category == "authority_drift" for finding in report.findings)
 
-
 def test_missing_evidence_detected_for_strong_claims(tmp_path: Path) -> None:
     module = load_module()
     artifact = tmp_path / "claim.md"
@@ -58,7 +55,6 @@ Therefore the new conclusion must be adopted.
     report = module.evaluate_context(artifact)
     assert report.category_scores["missing_archive/placeholders/evidence"] >= 6
     assert any(finding.category == "missing_archive/placeholders/evidence" for finding in report.findings)
-
 
 def test_compression_loss_detected_without_anchor_receipt(tmp_path: Path) -> None:
     module = load_module()
@@ -76,7 +72,6 @@ It condenses the material into a brief.
     assert report.category_scores["compression_loss"] >= 5
     assert any(action.category == "compression_loss" for action in report.recommended_actions)
 
-
 def test_surface_confusion_detected(tmp_path: Path) -> None:
     module = load_module()
     artifact = tmp_path / "surface.md"
@@ -92,7 +87,6 @@ The derived artifact is the Record.
     report = module.evaluate_context(artifact)
     assert report.category_scores["surface_confusion"] >= 7
     assert any(finding.category == "surface_confusion" for finding in report.findings)
-
 
 def test_json_report_shape(tmp_path: Path) -> None:
     module = load_module()
@@ -116,7 +110,6 @@ This is a candidate and requires review before durable adoption.
     assert "findings" in jsonable
     assert "recommended_actions" in jsonable
     assert "governance_note" in jsonable
-
 
 def test_emitted_json_validates_against_schema(tmp_path: Path) -> None:
     pytest.importorskip("jsonschema")
@@ -142,7 +135,6 @@ Risk: routing ambiguity between work-strategy and strategy-notebook — not sure
     schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
     Draft202012Validator(schema).validate(jsonable)
 
-
 def test_markdown_report_contains_governance_note(tmp_path: Path) -> None:
     module = load_module()
     artifact = tmp_path / "note.md"
@@ -160,7 +152,6 @@ Candidate only. Review required.
     assert "Context Failure Diagnostics Report" in markdown
     assert "Governance Note" in markdown
     assert "does not alter canonical" in markdown
-
 
 def test_report_files_can_be_written(tmp_path: Path) -> None:
     module = load_module()
@@ -181,7 +172,6 @@ This summary is compressed. Source: example.md. Review required.
     assert md.exists()
     parsed = json.loads(out.read_text(encoding="utf-8"))
     assert parsed["schema_version"] == "context-failure-report.v1"
-
 
 def test_cli_main_subprocess_smoke(tmp_path: Path) -> None:
     pytest.importorskip("jsonschema")

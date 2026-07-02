@@ -1,6 +1,6 @@
 ﻿# Tacit capture (Grace-Mar)
 
-**Runtime / WORK only.** Markdown-first intake for lived observations, normalized to JSON, then optional **review-only** candidate objects. **Not** SELF, removed operator-books symlink, SKILLS, EVIDENCE, or Voice prompt truth.
+**Runtime / non-authoritative.** Markdown-first intake for lived observations, normalized to JSON, then optional **review-only** candidate objects. **Not** SELF, removed operator-books symlink, SKILLS, EVIDENCE, or Voice prompt truth.
 
 **Related:** [runtime vs Record](../runtime-vs-record.md), [prepared-context layer](../prepared-context-layer.md), [moonshot operating model](../moonshot-operating-model.md).
 

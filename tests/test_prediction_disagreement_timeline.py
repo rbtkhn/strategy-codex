@@ -14,7 +14,6 @@ import check_prediction_disagreement as check_disagreement  # noqa: E402
 import check_prediction_timeline as check_timeline  # noqa: E402
 import prediction_lib as lib  # noqa: E402
 
-
 def test_disagreement_fixture_values() -> None:
     registry = lib.build_registry_payload()
     payload = lib.build_disagreement_payload(registry)
@@ -31,7 +30,6 @@ def test_disagreement_fixture_values() -> None:
     assert voice["disagreement_score_raw"] == 0.5
     assert voice["disagreement_score_normalized"] == 0.6667
 
-
 def test_timeline_mercouris_qualification_shift() -> None:
     registry = lib.build_registry_payload()
     payload = lib.build_timeline_payload(registry)
@@ -42,7 +40,6 @@ def test_timeline_mercouris_qualification_shift() -> None:
     assert shift.get("legacy_type") == "qualification_shift"
     assert shift["from"] == "no"
     assert shift["to"] == "conditional"
-
 
 def test_disagreement_and_timeline_checks_pass_on_repo() -> None:
     assert check_disagreement.run_check() == 0

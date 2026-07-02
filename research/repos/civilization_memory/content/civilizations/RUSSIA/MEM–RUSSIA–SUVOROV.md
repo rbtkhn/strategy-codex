@@ -137,7 +137,6 @@ Maxim:
 “Тяжело в учении — легко в бою.”
 (Hard in training — easy in battle.)
 
-
 Massie explains Suvorov's soldier-centered approach:
 
 "Suvorov's genius lay in understanding that the common soldier, not the

@@ -1,6 +1,5 @@
 # Mearsheimer credibility profile
 
-
 ## Summary
 
 Mearsheimer is a high-structure, low-cleanup speaker whose credibility is rooted in explicit balance-of-power logic, durable mechanism, and willingness to state when a strategic read was wrong or looked wrong. His correction pattern is more retrospective and structural than tactical.

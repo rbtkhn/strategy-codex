@@ -18,7 +18,6 @@ archive_links:
 ---
 # America - Foreign Client Mesh Separation And Command Review
 
-
 ## Transaction Name
 
 Foreign client mesh separation and command-review firewall.

@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 >> Um, yeah, let's start with the with the most obvious question. Your your thoughts on the theou that we have right now. We've got parts of it that have leaked. You know, my impression it's it's all very vague.

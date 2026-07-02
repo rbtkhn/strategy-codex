@@ -1,6 +1,5 @@
 # Product identity — strategy-codex
 
-
 ## What this repo is
 
 **strategy-codex** is a **governed interpretive machine**: sources land verbatim in archive; synthesis and notes carry judgment; essays carry polished cross-channel arguments; operator work routes through **statecraft** and **singularity**.

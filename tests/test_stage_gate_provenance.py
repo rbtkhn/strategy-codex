@@ -12,7 +12,6 @@ if str(SCRIPTS) not in sys.path:
 
 from stage_gate_candidate import build_block  # noqa: E402
 
-
 def test_build_block_includes_provenance_yaml() -> None:
     block = build_block(
         candidate_id="CANDIDATE-0999",

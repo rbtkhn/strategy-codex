@@ -18,7 +18,7 @@
       "points": 10,
       "critical": true,
       "must_cover": [
-        "WORK only; not Record.",
+        "instrumental work",
         "Validity Status",
         "draft",
         "validated",
@@ -93,7 +93,7 @@
       "points": 10,
       "critical": true,
       "must_cover": [
-        "WORK only; not Record.",
+        "instrumental work",
         "Source Inputs",
         "Raw-input / provenance anchors",
         "Validity Status",
@@ -155,7 +155,7 @@
       "points": 10,
       "critical": true,
       "must_cover": [
-        "WORK only; not Record.",
+        "instrumental work",
         "Shared Source Frame",
         "raw-input",
         "Four-Lane Package",

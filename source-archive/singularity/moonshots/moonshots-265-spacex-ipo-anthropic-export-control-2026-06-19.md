@@ -19,8 +19,6 @@ editorial_note: Operator-pasted transcript; ASR artifacts retained; not human-ve
 
 # Moonshots — SpaceX IPO, Anthropic Export Control, OpenAI IPO Delay | 265
 
-WORK only; not Record.
-
 ## Source
 
 - Title: SpaceX IPOs at $2.89T Market Cap, US Govt Suspends Fable & Mythos 5, Altman Delays OpenAI's IPO | 265

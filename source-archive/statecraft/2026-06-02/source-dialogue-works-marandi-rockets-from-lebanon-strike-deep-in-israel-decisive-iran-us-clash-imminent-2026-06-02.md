@@ -39,7 +39,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Tuesday, June 2nd, 2026 and our dear friend, our brother, Professor Marandi is here with us. Welcome back, Professor. >> Hi Nema. Thank you very much for inviting me. It's always a great pleasure being on your show. >> I want to start with what has happened yesterday. Everybody's talking about it.

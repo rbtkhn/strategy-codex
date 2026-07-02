@@ -1,6 +1,5 @@
 # Packet crosswalk
 
-
 **Purpose:** This is a quick chooser for source-hygiene packet work. Use it to decide what kind of packet a seam wants, what notebook move it supports, and when dual-register maturity should block early synthesis.
 
 Pair with:

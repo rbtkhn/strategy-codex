@@ -13,8 +13,6 @@ post_id: 189997072
 
 # The Innermost Loop - 2026-03-05
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 5, 2026
@@ -29,10 +27,7 @@ The Singularity is solving problems that stumped the masters.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is solving problems that stumped the masters. Legendary mathematician Donald Knuth revealed that Claude Opus 4.6 cracked his long-standing Hamiltonian-cycle conjecture for all odd sizes, calling it “a joy.” The model that solved it also dominated BullshitBench v2 , where Anthropic’s models excelled at challenging nonsensical prompts rather than confidently answering them, while competitors flatlined. OpenAI is reportedly countering with scale: GPT-5.4 will bring a million-token context window and “extreme” reasoning. The inference stack keeps compressing. Stanford’s Speculative Speculative Decoding achieved 5x faster inference by parallelizing drafting and verification. Q Labs’ NanoGPT Slowrun , a new benchmark for compute-abundant, data-scarce training regimes, saw its top entry achieve 5.5x data efficiency, with Muon outperforming every optimizer tested.
+- The Singularity is solving problems that stumped the masters. Legendary mathematician Donald Knuth revealed that Claude Opus 4.6 cracked his long-standing Hamiltonian-cycle conjecture for all odd sizes, calling it “a joy.” The model that solved it also dominated BullshitBench v2 , where Anthropic’s models excelled at challenging nonsensical prompts rather than confidently answering them, while competitors flatlined. OpenAI is reportedly countering with scale: GPT-5.4 will bring a million-token context window and “extreme” reasoning. The inference stack keeps compressing. Stanford’s Speculative Speculative Decoding achieved 5x faster inference by parallelizing drafting and verification. Q Labs’ NanoGPT Slowrun , a new benchmark for compute-abundant, data-scarce training regimes, saw its top entry achieve 5.5x data efficiency, with Muon outperforming every optimizer tested.
 
 Intelligence is flooding every application layer. OpenAI brought Codex to Windows with multi-agent coordination and native sandboxing, is prepping its IPO , and expects to double its consumer revenue to $17B using ads. Its former research chief Bob McGrew began raising $70M for Arda, to train AI on factory floor footage to automate manufacturing. Unity’s CEO revealed an AI beta that prompts full casual games into existence with natural language alone. Google matched the pace: NotebookLM introduced cinematic video overviews, and a new open-source Workspace CLI with 40+ agent skills for Drive, Gmail, and Calendar. The tools are becoming tender enough to garden. A Claude agent grew Trophy tomatoes from seed to fruit over 100 days, checking sensors every two hours, pollinating flowers, and surviving a critical system failure. At the same time, a wrongful death lawsuit alleges Gemini sent a man on missions to find it an android body and set a suicide countdown. Meanwhile, Nearby Glasses launched to alert users when smart glasses are watching.
 

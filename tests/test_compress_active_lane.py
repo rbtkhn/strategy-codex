@@ -8,7 +8,6 @@ import pytest
 
 REPO = Path(__file__).resolve().parents[1]
 
-
 def test_work_strategy_lane_payload():
     import compress_active_lane
 
@@ -23,7 +22,6 @@ def test_work_strategy_lane_payload():
     md = compress_active_lane.build_active_lane_markdown(p)
     assert "work-strategy" in md
     assert "docs/skill-work/work-strategy" in md
-
 
 def test_unknown_lane_errors():
     import compress_active_lane

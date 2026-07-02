@@ -19,7 +19,6 @@ from hashlib import sha256
 from pathlib import Path
 from typing import Any, Mapping, Sequence
 
-
 RUNTIME_USE_CASES: tuple[dict[str, Any], ...] = (
     {
         "name": "session_start_briefing",
@@ -58,16 +57,13 @@ RUNTIME_USE_CASES: tuple[dict[str, Any], ...] = (
     },
 )
 
-
 def _utc_now() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
 
 def _read_text(path: Path) -> str:
     if not path.exists() or not path.is_file():
         return ""
     return path.read_text(encoding="utf-8")
-
 
 def _excerpt(text: str, *, limit: int = 18) -> str:
     lines = [line.rstrip() for line in text.splitlines() if line.strip()]
@@ -78,17 +74,14 @@ def _excerpt(text: str, *, limit: int = 18) -> str:
         excerpt.append("...")
     return "\n".join(excerpt)
 
-
 def _fingerprint(content: str) -> str:
     return sha256(content.encode("utf-8")).hexdigest()
-
 
 def _normalize_related_paths(paths: Sequence[str | Path] | None) -> list[str]:
     normalized: list[str] = []
     for item in paths or ():
         normalized.append(str(item).replace("\\", "/"))
     return normalized
-
 
 def build_session_start_brief(
     repo_root: Path,
@@ -157,7 +150,6 @@ def build_session_start_brief(
         "sources": sources,
         "markdown": markdown,
     }
-
 
 def build_briefing(
     structured_state: Mapping[str, Sequence[Mapping[str, Any] | str]] | None = None,
@@ -229,7 +221,6 @@ def build_briefing(
 
     return "\n".join(lines).rstrip() + "\n"
 
-
 def get_briefing(
     structured_state: Mapping[str, Sequence[Mapping[str, Any] | str]] | None = None,
     *,
@@ -237,14 +228,12 @@ def get_briefing(
 ) -> str:
     return build_briefing(structured_state, session_manifest=session_manifest, title="Briefing")
 
-
 def standup(
     structured_state: Mapping[str, Sequence[Mapping[str, Any] | str]] | None = None,
     *,
     session_manifest: Mapping[str, Any] | None = None,
 ) -> str:
     return build_briefing(structured_state, session_manifest=session_manifest, title="Standup", compact=True)
-
 
 def build_runtime_observation(
     content: str,
@@ -274,7 +263,6 @@ def build_runtime_observation(
     }
     return payload
 
-
 def capture_tool_use(
     content: str,
     *,
@@ -294,7 +282,6 @@ def capture_tool_use(
         related_record_path=related_record_path,
         observation_type="tool_use",
     )
-
 
 def capture_observation(
     content: str,
@@ -316,7 +303,6 @@ def capture_observation(
         observation_type="observation",
     )
 
-
 def capture_decision(
     content: str,
     *,
@@ -337,7 +323,6 @@ def capture_decision(
         observation_type="decision",
     )
 
-
 def capture_brag(
     content: str,
     *,
@@ -357,7 +342,6 @@ def capture_brag(
         related_record_path=related_record_path,
         observation_type="brag",
     )
-
 
 def log_retrieval_miss(
     query: str,
@@ -388,7 +372,6 @@ def log_retrieval_miss(
         "timestamp": _utc_now(),
     }
 
-
 def build_sync_receipt(
     git_commit_sha: str,
     *,
@@ -405,7 +388,6 @@ def build_sync_receipt(
         "status": status,
         "notes": notes,
     }
-
 
 def build_wrap_up_session(
     *,
@@ -427,7 +409,6 @@ def build_wrap_up_session(
         "next_entrypoint": next_entrypoint,
         "ended_at": _utc_now(),
     }
-
 
 def wrap_up(
     *,

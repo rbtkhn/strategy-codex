@@ -1,6 +1,5 @@
 # Putin Carrier Profile
 
-
 Refresh current officeholder facts before load-bearing use.
 
 ## Role In Current State Form

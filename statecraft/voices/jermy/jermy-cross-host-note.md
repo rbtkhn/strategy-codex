@@ -1,6 +1,5 @@
 # Jermy cross-host note
 
-
 Purpose: make the Jermy object legible as a real triple-speaker-helix rather than a single-show specialist with scattered reinforcement.
 
 ## Core note

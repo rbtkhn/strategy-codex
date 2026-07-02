@@ -1,6 +1,6 @@
 # Karajan Close - Transcript Cleanup And Deferred Families
 
-WORK only. Not Record. Artifact-first conductor close.
+non-authoritative. Not Record. Artifact-first conductor close.
 
 ## Object
 

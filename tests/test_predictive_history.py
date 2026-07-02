@@ -7,10 +7,8 @@ import pytest
 
 from grace_mar import predictive_history as ph
 
-
 def test_infers_volume_from_game_theory_title() -> None:
     assert ph.infer_volume("Game Theory #23: The WWIII Chessboard") == "Volume IV - Game Theory"
-
 
 def test_build_document_sets_predictive_history_frontmatter() -> None:
     filename, document, volume = ph.build_document(
@@ -29,7 +27,6 @@ def test_build_document_sets_predictive_history_frontmatter() -> None:
     assert 'volume: "Volume IV - Game Theory"' in document
     assert 'title: "Game Theory #23: The WWIII Chessboard"' in document
     assert "This is a test body." in document
-
 
 def test_main_writes_file_with_explicit_volume(tmp_path: Path) -> None:
     body_file = tmp_path / "input.txt"
@@ -61,7 +58,6 @@ def test_main_writes_file_with_explicit_volume(tmp_path: Path) -> None:
     assert 'volume: "Volume VI - Interviews"' in text
     assert "Transcript body." in text
 
-
 def test_main_prompts_for_volume_when_interactive(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     body_file = tmp_path / "input.txt"
     body_file.write_text("Body without a clue.\n", encoding="utf-8")
@@ -89,7 +85,6 @@ def test_main_prompts_for_volume_when_interactive(monkeypatch: pytest.MonkeyPatc
     outpath = outdir / "predictive-history-2026-05-07-ambiguous-intake.md"
     text = outpath.read_text(encoding="utf-8")
     assert 'volume: "Volume IV - Game Theory"' in text
-
 
 def test_main_requires_volume_when_ambiguous_and_noninteractive(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     body_file = tmp_path / "input.txt"

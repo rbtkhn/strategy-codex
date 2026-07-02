@@ -14,13 +14,11 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 pytest.importorskip("jsonschema")
 pytest.importorskip("yaml")
 
-
 @pytest.fixture(autouse=True)
 def _scripts_on_path() -> None:
     p = str(REPO_ROOT / "scripts")
     if p not in sys.path:
         sys.path.insert(0, p)
-
 
 def _minimal_allowlist_yaml(max_bytes: int = 250_000) -> dict:
     return {
@@ -40,14 +38,12 @@ def _minimal_allowlist_yaml(max_bytes: int = 250_000) -> dict:
         "max_file_bytes": max_bytes,
     }
 
-
 def _dump_allow(tmp_path: Path, cfg: dict) -> Path:
     import yaml
 
     p = tmp_path / "allowlist.yaml"
     p.write_text(yaml.safe_dump(cfg, sort_keys=False, allow_unicode=True), encoding="utf-8")
     return p
-
 
 def _run(
     monkeypatch: pytest.MonkeyPatch,
@@ -93,7 +89,6 @@ def _run(
     code = mlr.main()
     return code, outp if outp.exists() else None, rec_dir
 
-
 def test_valid_docs_read_generates_packet(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     docs = tmp_path / "docs"
     docs.mkdir(parents=True)
@@ -125,7 +120,6 @@ def test_valid_docs_read_generates_packet(monkeypatch: pytest.MonkeyPatch, tmp_p
     assert receipt["governance"]["canonical_record_touched"] is False
     assert receipt["access"]["resources_written"] == []
 
-
 def test_absolute_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     (tmp_path / "docs").mkdir(parents=True)
     doc = {
@@ -140,7 +134,6 @@ def test_absolute_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) ->
     }
     assert _run(monkeypatch, tmp_path, doc)[0] == 1
 
-
 def test_dotdot_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = {
         "schema_version": 1,
@@ -154,7 +147,6 @@ def test_dotdot_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> N
     }
     assert _run(monkeypatch, tmp_path, doc)[0] == 1
 
-
 def test_users_grace_mar_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = {
         "schema_version": 1,
@@ -167,7 +159,6 @@ def test_users_grace_mar_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) 
         },
     }
     assert _run(monkeypatch, tmp_path, doc)[0] == 1
-
 
 def test_dotenv_basename_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     docs = tmp_path / "docs"
@@ -185,7 +176,6 @@ def test_dotenv_basename_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) 
     }
     assert _run(monkeypatch, tmp_path, doc)[0] == 1
 
-
 def test_secret_pattern_basename_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     docs = tmp_path / "docs"
     docs.mkdir()
@@ -202,7 +192,6 @@ def test_secret_pattern_basename_fails(monkeypatch: pytest.MonkeyPatch, tmp_path
     }
     assert _run(monkeypatch, tmp_path, doc)[0] == 1
 
-
 def test_outside_allowed_roots_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     scripts_dir = tmp_path / "scripts"
     scripts_dir.mkdir()
@@ -218,7 +207,6 @@ def test_outside_allowed_roots_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: 
         },
     }
     assert _run(monkeypatch, tmp_path, doc)[0] == 1
-
 
 def test_oversized_file_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     docs = tmp_path / "docs"
@@ -238,7 +226,6 @@ def test_oversized_file_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -
     cfg = _minimal_allowlist_yaml(max_bytes=20)
     code, _, _ = _run(monkeypatch, tmp_path, doc, allow_cfg=cfg)
     assert code == 1
-
 
 def test_excerpt_bounded(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     docs = tmp_path / "docs"
@@ -264,7 +251,6 @@ def test_excerpt_bounded(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> Non
     assert len(parts) >= 2
     inner = parts[1].split("```", 1)[0].strip("\n")
     assert inner == "abcde"
-
 
 @pytest.mark.skipif(
     sys.platform.startswith("win") and os.environ.get("GITHUB_ACTIONS"), reason="symlinks fragile on CI windows"
@@ -300,7 +286,6 @@ def test_symlink_escape_outside_repo_fails(monkeypatch: pytest.MonkeyPatch, tmp_
     finally:
         link.unlink(missing_ok=True)
         outside.unlink(missing_ok=True)
-
 
 def test_repo_example_cli_smoke() -> None:
     """Runs adapter against committed example (writes ignored artifact paths)."""

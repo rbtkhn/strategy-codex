@@ -1,6 +1,5 @@
 # Macgregor credibility profile
 
-
 ## Summary
 
  Macgregor is a force-balance and imperial-overreach speaker with a sharp double-helix structure across Davis and Diesen. His best credibility lies in force-feasibility mechanism, but broader civilizational, political, and now public-compression macro severity claims often require more downstream verification.

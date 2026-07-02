@@ -13,8 +13,6 @@ post_id: 193645696
 
 # The Innermost Loop - 2026-04-08
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 8, 2026
@@ -29,10 +27,7 @@ The Singularity just shipped its first patch for civilization.
 
 ## Newsletter Text
 
--
--
-
-The Singularity just shipped its first patch for civilization. Anthropic announced Project Glasswing , an unprecedented coalition with AWS, Apple, Google, Microsoft, NVIDIA, JPMorganChase, the Linux Foundation, and others, prompted by its still-unreleased Claude Mythos Preview having “reached a level of coding capability where they can surpass all but the most skilled humans at finding and exploiting software vulnerabilities,” already surfacing thousands of high-severity bugs across every major OS and browser so they can be fixed first. Tech leaders are reportedly briefing the White House on what it means that defenders now have a frontier-grade ally on their side of the ledger.
+- The Singularity just shipped its first patch for civilization. Anthropic announced Project Glasswing , an unprecedented coalition with AWS, Apple, Google, Microsoft, NVIDIA, JPMorganChase, the Linux Foundation, and others, prompted by its still-unreleased Claude Mythos Preview having “reached a level of coding capability where they can surpass all but the most skilled humans at finding and exploiting software vulnerabilities,” already surfacing thousands of high-severity bugs across every major OS and browser so they can be fixed first. Tech leaders are reportedly briefing the White House on what it means that defenders now have a frontier-grade ally on their side of the ledger.
 
 The benchmarks read like a victory lap. Mythos posts SOTA scores of 93.9% on SWE-bench Verified, 94.6% on GPQA Diamond, and 56.8% on Humanity’s Last Exam without tools, plus a reportedly “insane” 80% on OpenAI’s GraphWalks long-context benchmark, with 82.0% on Terminal Bench 2.0, 77.8% on SWE-bench Pro, and 79.6% on OSWorld-Verified rounding out the sweep. Anthropic also reports Mythos sped up internal AI research by up to 400x on tasks equivalent to 40 hours of expert work. Mythos marks an apparent upward discontinuity on the Epoch Capabilities Index after a 2+ year Claude trend, though it costs 5x Opus, and Anthropic argues the 2-4x slope jump still hasn’t tripped its Responsible Scaling Policy threshold for AI R&D doubling. Commentators are openly asking whether this is AGI , and the model invents genuinely novel puns like “the Bayesian said he’d probably be at the party, but he’d update me.”
 

@@ -13,8 +13,6 @@ post_id: 202059087
 
 # The Innermost Loop - 2026-06-14
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to June 14, 2026
@@ -29,10 +27,7 @@ The Singularity just tripped over its own guardrails.
 
 ## Newsletter Text
 
--
--
-
-The Singularity just tripped over its own guardrails. After US export controls forced the shutdown of Anthropic’s Fable 5, Artificial Analysis reported that its Intelligence Frontier chart had moved backward for the first time ever. David Sacks laid out the official logic: Fable is the Mythos cyberweapon wrapped in guardrails, a trusted partner jailbroke them, Dario Amodei refused to patch or pull the model, so the administration reluctantly acted. Incredibly, the White House reportedly first tried reaching Amodei, but he was away at a wellness retreat . Amazon’s Andy Jassy had flagged the model’s risks earlier, and the crackdown is also tied to fears a China-linked group reached Mythos and could distill it, which Anthropic says never came up in their talks, noting it bars access from China. Notably, the restrictions won’t extend to rival labs , which the government pins on Anthropic’s refusal to patch and Anthropic attributes to being singled out despite rivals’ similar risks.
+- The Singularity just tripped over its own guardrails. After US export controls forced the shutdown of Anthropic’s Fable 5, Artificial Analysis reported that its Intelligence Frontier chart had moved backward for the first time ever. David Sacks laid out the official logic: Fable is the Mythos cyberweapon wrapped in guardrails, a trusted partner jailbroke them, Dario Amodei refused to patch or pull the model, so the administration reluctantly acted. Incredibly, the White House reportedly first tried reaching Amodei, but he was away at a wellness retreat . Amazon’s Andy Jassy had flagged the model’s risks earlier, and the crackdown is also tied to fears a China-linked group reached Mythos and could distill it, which Anthropic says never came up in their talks, noting it bars access from China. Notably, the restrictions won’t extend to rival labs , which the government pins on Anthropic’s refusal to patch and Anthropic attributes to being singled out despite rivals’ similar risks.
 
 Cut off one frontier and a dozen bloom. Within hours China’s Z.ai answered with “radical openness,” fully open-sourcing GLM-5.2, a million-token coder built to argue that “Frontier Intelligence Belongs to Everyone.” The sentiment went global. India’s founders and policymakers reopened the case for sovereign and open models, Europe branded the shutdown a sovereign-AI “wake-up call,” and OpenAI’s Roon warned that nations without their own ASI risk becoming intellectual vassals, sketching a cyberpunk future where you migrate to birth a child on American soil for a thousandfold brain. His deeper point is subtler. If power’s diffusion is one of the fragile things safety protects, concentrating intelligence to secure us erodes it.
 

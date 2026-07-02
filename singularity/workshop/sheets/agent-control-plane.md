@@ -1,7 +1,5 @@
 # Agent Control Plane
 
-WORK only; not Record.
-
 ## Purpose
 
 Use this as the first singularity workshop sheet. It tests any agent governance system by asking where agency, authority, alignment, receipts, rollback, and human meaning actually live.

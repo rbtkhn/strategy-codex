@@ -58,7 +58,6 @@ archive_links:
 
 **Note:** Marandi **"partial close"** = **Supported** and **compatible** with hours-long drill window (not full blockade). Mearsheimer **live-fire = signal to Trump** — **tier 4 mechanism**; drill timing **Supported** same day as Geneva talks.
 
-
 | ID | Claim (transcript / desk) | Lane | Lang | Verdict | Cite |
 | --- | --- | --- | --- | --- | --- |
 | **J17-M3** | **Andrey Kartapolov** (Duma defense chair): "Ukraine will only win if it becomes part of the **Russian Federation**" — **TASS lead**, re **Finnish President Stubb** | Russia | ru/en | **Supported** | [TASS syndication via Pravda EN Feb 17](https://finland.news-pravda.com/en/world/2026/02/17/15441.html) · [Times of India carry](https://timesofindia.indiatimes.com/videos/international/putin-aide-says-ukraine-would-only-win-by-joining-the-russian-federation/videoshow/128468172.cms) |

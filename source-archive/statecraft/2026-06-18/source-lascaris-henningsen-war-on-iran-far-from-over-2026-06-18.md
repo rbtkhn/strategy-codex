@@ -51,7 +51,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Lebanon Ceasefire Violations
 
 Good day. This is Dimitri Lascaris coming to you for Reason to Resist from Kalamata, Greece on June 18th, 20126. Israel just experienced its worst day since its genocidal rampage in Lebanon began. Today we'll cover the dramatic events in Lebanon and we'll also speak with Patrick Henningson about the memorandum of understanding orou between the Islamic Republic of Iran and the Trump regime.

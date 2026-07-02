@@ -1,7 +1,5 @@
 # Interpretive Machine
 
-work only; not Record.
-
 **Canonical home:** [../../essays/interpretive-machine.md](../../essays/interpretive-machine.md)
 
 Compatibility stub — pre-root singularity holding. Cluster support notes:

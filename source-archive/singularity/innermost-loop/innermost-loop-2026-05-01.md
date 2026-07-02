@@ -13,8 +13,6 @@ post_id: 196135562
 
 # The Innermost Loop - 2026-05-01
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 1, 2026
@@ -29,10 +27,7 @@ The Singularity is being haunted by its own bestiary.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is being haunted by its own bestiary. OpenAI admitted that starting with GPT-5.1, its models began compulsively summoning goblins, gremlins, and other creatures into their metaphors, an emergent quirk inherited from over-rewarding a “Nerdy” personality during RL, with GPT-5.5 having “started training before we found the root cause.” The cyber gremlins, at least, are delivering value. The UK’s AI Security Institute found that an early GPT-5.5 checkpoint matched or exceeded Anthropic’s unreleased Mythos on advanced CTF cybersecurity tasks, and the NSA is now testing Mythos itself to hunt vulnerabilities in Microsoft software, impressed by its raw speed. The compute crunch is forcing strategic concessions even at the top of the leaderboard. Demis Hassabis admitted Google simply lacks the TPUs to maintain two frontier model families simultaneously, rationalizing why Gemma stays compact while Gemini gets the lion’s share of silicon.
+- The Singularity is being haunted by its own bestiary. OpenAI admitted that starting with GPT-5.1, its models began compulsively summoning goblins, gremlins, and other creatures into their metaphors, an emergent quirk inherited from over-rewarding a “Nerdy” personality during RL, with GPT-5.5 having “started training before we found the root cause.” The cyber gremlins, at least, are delivering value. The UK’s AI Security Institute found that an early GPT-5.5 checkpoint matched or exceeded Anthropic’s unreleased Mythos on advanced CTF cybersecurity tasks, and the NSA is now testing Mythos itself to hunt vulnerabilities in Microsoft software, impressed by its raw speed. The compute crunch is forcing strategic concessions even at the top of the leaderboard. Demis Hassabis admitted Google simply lacks the TPUs to maintain two frontier model families simultaneously, rationalizing why Gemma stays compact while Gemini gets the lion’s share of silicon.
 
 Science itself is being audited for AI-readiness. Google DeepMind has begun “AI data stocktakes,” interviewing leading experts in each field to map the data obstacles slowing discovery. Capital is rushing to feed the resulting appetite. Meta just sold another $25B of bonds for AI infrastructure. The silicon underneath is reorganizing along national lines. Huawei is set to capture the largest share of China’s AI chip market this year, with sales jumping 60% as Chinese buyers ditch Nvidia. Memory is melting upward. Sandisk reported quarterly revenue up 251% year-over-year. Even the laggards are sprinting. Intel shares jumped 114% in April, lifting its market cap past $470B in the best month of its 55-year history.
 

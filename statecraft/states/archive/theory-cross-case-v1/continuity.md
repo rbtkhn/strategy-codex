@@ -1,6 +1,5 @@
 ﻿# Continuity Mechanism
 
-
 Use this as the first cross-civilizational comparison sheet for the CIV-STATE shelf.
 
 It holds one question constant across multiple civilizations:

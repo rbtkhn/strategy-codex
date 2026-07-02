@@ -44,7 +44,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Open — Iran Deal Spoils
 
 Good morning everybody. Happy Tuesday. Have an amazing show for everybody today. What do we have Krystal? >> Indeed [music] we do. John Mearsheimer going to join us this morning to talk both about Iran. We have some new developments this morning. President Trump says that support for Iran is a humanitarian mission.

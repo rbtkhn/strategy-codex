@@ -1,7 +1,6 @@
 # Mearsheimer refined page — 2026-02-25 (guest lane)
 <!-- word_count: ~200 -->
 
-
 **Expert:** `mearsheimer` · **Interviewer:** Glenn Diesen · **Published:** 2026-02-25 · Sibling: [diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../diesen/diesen-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)
 
 ---

@@ -111,7 +111,6 @@ term or mercy, returned to their lords and the Tsar’s order, so that
 wandering and disorder may cease and each estate remain fixed in its
 God-appointed place.”
 
-
 Robert K. Massie frames the 1649 Law Code as the foundation that Peter
 would later transform:
 
@@ -180,7 +179,6 @@ Stability is purchased.
 
 Salt riots, urban unrest, and the Stenka Razin rebellion expose pressure
 beneath codification.
-
 
 Robert K. Massie explains how Alexei's stabilization enabled Peter's
 transformation:

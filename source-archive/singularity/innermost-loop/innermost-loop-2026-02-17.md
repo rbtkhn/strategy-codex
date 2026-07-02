@@ -13,8 +13,6 @@ post_id: 188275447
 
 # The Innermost Loop - 2026-02-17
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 17, 2026
@@ -29,10 +27,7 @@ The Singularity is now fielding its own defense contractors.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now fielding its own defense contractors. SpaceX and its now-wholly-owned subsidiary xAI are competing in a secretive Pentagon contest to produce voice-controlled autonomous drone swarming technology , part of a $100 million prize challenge. Meanwhile, the Department of War is reportedly threatening to cut all ties with Anthropic and deem it a “supply chain risk” for attempting to restrict military applications of its models on classified networks.
+- The Singularity is now fielding its own defense contractors. SpaceX and its now-wholly-owned subsidiary xAI are competing in a secretive Pentagon contest to produce voice-controlled autonomous drone swarming technology , part of a $100 million prize challenge. Meanwhile, the Department of War is reportedly threatening to cut all ties with Anthropic and deem it a “supply chain risk” for attempting to restrict military applications of its models on classified networks.
 
 The models keep multiplying. xAI quietly released Grok 4.20 Beta with 4-agent reasoning , and society is struggling to price the agents in. Polylogue has introduced AI-discriminatory pricing : “Free for humans, $10/mo to add AI agents.” In an ironic twist, Ars Technica was forced to apologize for including AI-hallucinated quotes in its coverage of the human open-source project maintainer who refused to accept pull requests from an OpenClaw agent, attributing fabricated statements to the human. On the other hand, more sympathetic homeschooling parents are giving OpenClaw full access to 3D printers to compensate for the fact that it “can use a computer but lacks physicality.”
 

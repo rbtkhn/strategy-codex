@@ -1,7 +1,6 @@
 # Conscience
 <!-- word_count: 225 -->
 
-
 ## Purpose
 
 Study conscience as inner pressure: not merely preference, not merely social conditioning, and not automatically divine command.

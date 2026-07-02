@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — MOU Misunderstanding And Strikes Resume
 
 **Chas Freeman:** Welcome back. We have the great privilege of being joined today by Ambassador Chas Freeman, one of the great American diplomats who also served as the US assistant secretary of defense. So, thank you for coming back on the program.

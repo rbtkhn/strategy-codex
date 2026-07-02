@@ -1,6 +1,5 @@
 # Failure-Mode Routes
 
-
 Use this index when the real question is no longer only "what does this civilization say?" but "how does this kind of civilizational pattern fail across cases?" Each route compares primary-source grammar with interpretive difficulty structure and points back into the layered CIV-STATE stack.
 
 ## Continuity Without Legitimacy

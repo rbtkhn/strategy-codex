@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Wednesday, June 17, 2026 and our dear friend, our brother Pepe Escobar is here with us. Welcome back. >> What a pleasure to be with you, Nima. Especially because I am in the heart of darkness. I am in Netoan in my official uh secluded refuge with this beautiful uh Japanese uh textile behind me and I'm very far from the G7.

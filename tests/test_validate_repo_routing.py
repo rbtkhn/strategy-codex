@@ -8,7 +8,6 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def test_validate_repo_routing_allow_absolute_paths() -> None:
     """Routing surfaces exist; absolute paths allowed until link normalization."""
     proc = subprocess.run(
@@ -22,7 +21,6 @@ def test_validate_repo_routing_allow_absolute_paths() -> None:
         text=True,
     )
     assert proc.returncode == 0, proc.stderr or proc.stdout
-
 
 def test_repo_map_schema_and_barnes_route() -> None:
     from scripts.validate_repo_routing import (
@@ -54,7 +52,6 @@ def test_repo_map_schema_and_barnes_route() -> None:
     for shelf in host_shelves:
         assert host_shelf_route_id(shelf.parent.name) in ids
 
-
 def test_collect_routing_metrics() -> None:
     from scripts.validate_repo_routing import collect_routing_metrics
 
@@ -66,7 +63,6 @@ def test_collect_routing_metrics() -> None:
     assert metrics["markdown_link_count"] >= 600
     assert metrics["broken_link_count"] == 0
     assert metrics["absolute_path_violations"] == 0
-
 
 def test_validate_repo_routing_report_flag() -> None:
     proc = subprocess.run(
@@ -84,7 +80,6 @@ def test_validate_repo_routing_report_flag() -> None:
     assert "## Repo routing metrics" in proc.stdout
     assert "host shelves (disk): 3" in proc.stdout
     assert "host shelves: repo-map lists 3/3 (100.0%)" in proc.stdout
-
 
 def test_benchmark_routing_discovery() -> None:
     proc = subprocess.run(

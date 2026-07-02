@@ -1,6 +1,5 @@
 # China - Panama Canal Water / Transit Sovereignty Framework
 
-
 ## Transaction Name
 
 Panama infrastructure support without canal capture.

@@ -1,6 +1,5 @@
 # Johnson cross-year note
 
-
 Purpose: preserve the fact that the Johnson helix is a single cross-host object while clarifying that its full triple-helix structure was already materially mature in 2025, before the denser 2026 month ladder and atlas were added.
 
 ## Core Claim

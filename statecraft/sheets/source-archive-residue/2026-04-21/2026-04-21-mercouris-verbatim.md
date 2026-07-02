@@ -166,4 +166,4 @@ Let me remind you again, you can find all our programs on our other platforms: L
 
 That’s me for today. More from me soon. Have a very good day.
 
-_WORK only; not Record._
+__

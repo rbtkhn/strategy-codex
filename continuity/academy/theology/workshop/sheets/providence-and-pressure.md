@@ -1,7 +1,6 @@
 # Providence And Pressure
 <!-- word_count: 212 -->
 
-
 ## Purpose
 
 Study how sacred history becomes real historical pressure without turning analysis into a claim that events are divinely authorized or inevitable.

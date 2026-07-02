@@ -1,6 +1,5 @@
 # China Secondary Sources - Industrial
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the industrial China primary shelf when revolutionary refounding, party-state consolidation, Republican fragmentation, war, or Deng-era recomposition through 1991 need sharper chronology or institutional framing.

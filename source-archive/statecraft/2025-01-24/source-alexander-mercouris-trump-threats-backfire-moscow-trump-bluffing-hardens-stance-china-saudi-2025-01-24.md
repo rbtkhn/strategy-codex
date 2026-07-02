@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Trump Threats Backfire; Moscow: Trump Bluffing, Hardens Stance; China Saudi Ignore Trump Calls
 
-

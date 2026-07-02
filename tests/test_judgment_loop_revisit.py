@@ -12,20 +12,16 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from cadence_conductor_resolution import build_conductor_revisit_block  # noqa: E402
 from strategy_notebook.judgment_loops import build_judgment_loop_report  # noqa: E402
 
-
 def _write(path: Path, text: str) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
     return path
-
 
 def test_build_judgment_loop_report_surfaces_due_loop_and_register_status(tmp_path: Path) -> None:
     nb = tmp_path / "codex"
     _write(
         nb / "2026" / "pape" / "pape-page-2026-04-10-test.md",
         """# Pape codex-page - 2026-04-10
-
-WORK only; not Record.
 
 ### Reflection
 
@@ -65,7 +61,6 @@ Commodity pain will harden into a blockade calendar rather than easing into dipl
     assert loop.register_status == "open"
     assert "Update register status" in loop.suggested_next_action or "tag outcome" in loop.suggested_next_action
 
-
 def test_build_judgment_loop_report_accepts_prediction_field(tmp_path: Path) -> None:
     nb = tmp_path / "codex"
     _write(
@@ -95,7 +90,6 @@ def test_build_judgment_loop_report_accepts_prediction_field(tmp_path: Path) -> 
     assert loops
     assert loops[0].call == "The pressure thesis will remain live through late April."
     assert loops[0].falsifier == "Shipping normalizes before the end of April."
-
 
 def test_build_judgment_loop_report_detects_polyphonic_tension(tmp_path: Path) -> None:
     nb = tmp_path / "codex"
@@ -138,7 +132,6 @@ Institutional pressure is moving toward a negotiated stabilization path.
     assert {loop.stream for loop in tension.loops} == {"pape", "diesen"}
     assert "Compare side-by-side" in tension.suggested_next_action
 
-
 def test_build_judgment_loop_report_ignores_scaffold_word_overlap_without_anchor(tmp_path: Path) -> None:
     nb = tmp_path / "codex"
     _write(
@@ -176,7 +169,6 @@ The same weave language now points toward a break in the frame.
     report = build_judgment_loop_report(nb, today=date(2026, 5, 4), user_id="grace-mar")
 
     assert report["tensions"] == []
-
 
 def test_build_judgment_loop_report_collapses_duplicate_topics_into_family(tmp_path: Path) -> None:
     nb = tmp_path / "codex"
@@ -235,7 +227,6 @@ Currency and energy stress still point toward an escalation track.
     assert tension.topic == "Hormuz / blockade mechanics vs bargaining logic"
     assert {loop.stream for loop in tension.loops} == {"pape", "diesen", "ritter"}
     assert tension.suppressed_duplicates >= 1
-
 
 def test_build_conductor_revisit_block_formats_tension(tmp_path: Path) -> None:
     nb = tmp_path / "codex"

@@ -13,7 +13,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "continuity_read_log.py"
 REQUIRED_FILES = ("session-log.md", "recursion-gate.md", "self-archive.md")
 
-
 def test_continuity_read_log_dry_run_grace_mar() -> None:
     """Every push: script exits 0 and reports all continuity files present for grace-mar."""
     proc = subprocess.run(
@@ -30,7 +29,6 @@ def test_continuity_read_log_dry_run_grace_mar() -> None:
     read = set(payload.get("files_read") or [])
     assert set(REQUIRED_FILES) <= read, payload
     assert "missing" not in payload, f"expected all continuity files in repo: {payload}"
-
 
 @pytest.mark.parametrize("name", REQUIRED_FILES)
 def test_grace_mar_continuity_files_committed(name: str) -> None:

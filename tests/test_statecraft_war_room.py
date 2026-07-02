@@ -36,7 +36,6 @@ FIXTURE_ROUTER = """\
 | [Iran Nuclear Latency Recognition Framework](../notes/compacts/iran-nuclear-latency-recognition-framework/) | Nuclear threshold capability, inspection, recognition, sanctions triggers | Iran enrichment breakout inspection threshold status crisis | America, Russia, China, Iran | Recognize latency | Ambiguity panic | Restraint observable |
 """
 
-
 def _write_archive(path: Path) -> None:
     day = path.stem[-10:]
     path.write_text(
@@ -61,7 +60,6 @@ def _write_archive(path: Path) -> None:
         ),
         encoding="utf-8",
     )
-
 
 def _setup_fixture_repo(tmp_path: Path, day: str) -> dict[str, Path]:
     archive_root = tmp_path / "source-archive" / "statecraft"
@@ -129,7 +127,6 @@ def _setup_fixture_repo(tmp_path: Path, day: str) -> dict[str, Path]:
         "transactions_dir": transactions_dir,
     }
 
-
 @pytest.fixture()
 def war_room_env(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
     day = "2026-06-25"
@@ -137,7 +134,6 @@ def war_room_env(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
     monkeypatch.setattr(intake_queue, "QUEUE_ROOT", paths["queue_root"])
     monkeypatch.setattr("statecraft_war_room.QUEUE_ROOT", paths["queue_root"])
     return tmp_path, day, paths
-
 
 def test_generates_report_from_fixture_daily_and_sidecar(war_room_env) -> None:
     repo_root, day, _paths = war_room_env
@@ -148,7 +144,6 @@ def test_generates_report_from_fixture_daily_and_sidecar(war_room_env) -> None:
     assert len(ctx.objects) >= 1
     assert any("Hormuz" in o.name for o in ctx.objects)
 
-
 def test_does_not_mutate_archive_or_daily(war_room_env) -> None:
     repo_root, day, paths = war_room_env
     source_before = paths["source"].read_text(encoding="utf-8")
@@ -156,7 +151,6 @@ def test_does_not_mutate_archive_or_daily(war_room_env) -> None:
     build_war_room_context(repo_root, pin_day=day, max_objects=12)
     assert paths["source"].read_text(encoding="utf-8") == source_before
     assert paths["daily_path"].read_text(encoding="utf-8") == daily_before
-
 
 def test_transaction_router_links(war_room_env) -> None:
     _repo_root, day, paths = war_room_env
@@ -172,7 +166,6 @@ def test_transaction_router_links(war_room_env) -> None:
     assert objs[0].transaction_fit.kind == "exact"
     assert objs[0].transaction_fit.operator_confirm is True
     assert "hormuz-transit-sanctions-relief-compact" in (objs[0].transaction_fit.transaction_path or "")
-
 
 def test_distinguishes_exact_near_none() -> None:
     router = parse_transaction_router(Path(__file__).parent / "_nonexistent_router.md")
@@ -214,7 +207,6 @@ def test_distinguishes_exact_near_none() -> None:
     assert none.kind == "none"
     assert none.operator_confirm is False
 
-
 def test_runtime_derived_authority_label(war_room_env) -> None:
     repo_root, day, _paths = war_room_env
     ctx = build_war_room_context(repo_root, pin_day=day, max_objects=12)
@@ -222,7 +214,6 @@ def test_runtime_derived_authority_label(war_room_env) -> None:
     payload = build_json_payload(ctx, generated_at="2099-01-01 00:00 UTC")
     assert "Mode: runtime / derived" in md
     assert payload["authority"] == "runtime_derived"
-
 
 def test_handles_no_intake_sidecars_gracefully(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     day = "2026-06-26"
@@ -250,7 +241,6 @@ def test_handles_no_intake_sidecars_gracefully(tmp_path: Path, monkeypatch: pyte
     md = build_markdown(ctx, generated_at="2099-01-01 00:00 UTC")
     assert "## 3. Intake Queue Watch" in md
     assert len(ctx.objects) >= 1
-
 
 def test_json_schema_fields(war_room_env) -> None:
     repo_root, day, _paths = war_room_env
@@ -281,7 +271,6 @@ def test_json_schema_fields(war_room_env) -> None:
     fit = obj["transaction_fit"]
     for key in ("kind", "transaction_path", "reason", "operator_confirm"):
         assert key in fit
-
 
 def test_no_transaction_directory_creation(war_room_env, monkeypatch: pytest.MonkeyPatch) -> None:
     repo_root, day, paths = war_room_env

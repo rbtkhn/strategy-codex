@@ -1,6 +1,6 @@
 # Singularity-Academy AI Operating System Sprint
 
-WORK only. This is an operator offer surface, not Record truth.
+non-authoritative. This is an operator offer surface, not Record truth.
 
 ## One-line Offer
 

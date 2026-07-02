@@ -1,7 +1,5 @@
 # Coding Swarms and Human Control Planes
 
-WORK only; not Record.
-
 **Anchor item:** [Moonshots EP #260 - Opus, Foundation, and AGI Timelines](../workshop/sheets/moonshots-ep-260-opus-foundation-agi.md)
 
 This note preserves one bounded seam from Moonshots EP #260: the singularity-relevant change is not just that coding models get better, but that they are being organized into context-inheriting swarms whose coordination burden begins to look like a governance problem rather than a simple productivity upgrade.

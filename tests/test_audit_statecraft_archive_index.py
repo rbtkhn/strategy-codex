@@ -14,11 +14,9 @@ import build_statecraft_archive_navigation as nav  # noqa: E402
 import build_statecraft_day_indices as day_idx  # noqa: E402
 import statecraft_writer_index as writer_idx  # noqa: E402
 
-
 def _write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8", newline="\n")
-
 
 def _sample_capture(host_people: bool = True, threads: bool = True) -> str:
     host_block = "host_people:\n  - Nima Alkhorshid\n" if host_people else ""
@@ -47,7 +45,6 @@ def _sample_capture(host_people: bool = True, threads: bool = True) -> str:
         "Six seven eight nine ten.\n"
     )
 
-
 def test_audit_day_passes_when_index_fresh(tmp_path: Path) -> None:
     day = tmp_path / "2026-06-28"
     _write(day / "source-dialogue-works-sample-2026-06-28.md", _sample_capture())
@@ -60,7 +57,6 @@ def test_audit_day_passes_when_index_fresh(tmp_path: Path) -> None:
     code = audit.main(["--day", "2026-06-28", "--root", str(tmp_path)])
     assert code == 0
 
-
 def test_audit_day_fails_parity_when_index_omits_file(tmp_path: Path) -> None:
     day = tmp_path / "2026-06-28"
     _write(day / "source-dialogue-works-sample-2026-06-28.md", _sample_capture())
@@ -72,7 +68,6 @@ def test_audit_day_fails_parity_when_index_omits_file(tmp_path: Path) -> None:
 
     findings = audit.audit_day_dir(day)
     assert any(f.code == "parity" and f.level == "fail" for f in findings)
-
 
 def test_audit_day_fails_when_index_stale(tmp_path: Path) -> None:
     day = tmp_path / "2026-06-28"
@@ -87,7 +82,6 @@ def test_audit_day_fails_when_index_stale(tmp_path: Path) -> None:
     code = audit.main(["--day", "2026-06-28", "--root", str(tmp_path)])
     assert code == 1
 
-
 def test_hygiene_warns_empty_host_people(tmp_path: Path) -> None:
     day = tmp_path / "2026-06-28"
     path = day / "source-dialogue-works-sample-2026-06-28.md"
@@ -95,7 +89,6 @@ def test_hygiene_warns_empty_host_people(tmp_path: Path) -> None:
     meta = audit.parse_frontmatter(path)
     warnings = audit.capture_hygiene_warnings(path, meta)
     assert any("host_people empty" in w for w in warnings)
-
 
 def test_table_only_emits_inventory_columns(tmp_path: Path, capsys) -> None:
     day = tmp_path / "2026-06-28"
@@ -110,7 +103,6 @@ def test_table_only_emits_inventory_columns(tmp_path: Path, capsys) -> None:
     assert "| Date | Title | URL | Words | Bucket | Kind | § |" in out
     assert "https://www.youtube.com/watch?v=abc123" in out
     assert "Breaking sample" in out
-
 
 def test_table_sort_words_and_json_rows(tmp_path: Path, capsys) -> None:
     day = tmp_path / "2026-06-28"
@@ -136,7 +128,6 @@ def test_table_sort_words_and_json_rows(tmp_path: Path, capsys) -> None:
     assert len(payload["table"]) == 2
     assert payload["table"][0]["words"] >= payload["table"][1]["words"]
 
-
 def test_table_limit_truncates_month_scope(tmp_path: Path) -> None:
     root = tmp_path
     for i in range(3):
@@ -150,7 +141,6 @@ def test_table_limit_truncates_month_scope(tmp_path: Path) -> None:
     shown, truncated = audit.apply_table_limit(sorted_rows, 2)
     assert len(shown) == 2
     assert truncated == 1
-
 
 def test_channel_index_table_and_audit_fresh(tmp_path: Path, monkeypatch) -> None:
     archive_root = tmp_path / "archive"
@@ -179,7 +169,6 @@ def test_channel_index_table_and_audit_fresh(tmp_path: Path, monkeypatch) -> Non
     )
     assert code == 0
 
-
 def _sample_writer_capture() -> str:
     return (
         "---\n"
@@ -194,7 +183,6 @@ def _sample_writer_capture() -> str:
         "# Situation Report\n\n"
         "Prose body for writer index test.\n"
     )
-
 
 def test_writer_index_table_and_audit_fresh(tmp_path: Path) -> None:
     archive_root = tmp_path / "archive"
@@ -217,7 +205,6 @@ def test_writer_index_table_and_audit_fresh(tmp_path: Path) -> None:
     )
     assert code == 0
 
-
 def test_writer_index_fails_when_md_stale(tmp_path: Path) -> None:
     archive_root = tmp_path / "archive"
     day = archive_root / "2026-06-27"
@@ -234,7 +221,6 @@ def test_writer_index_fails_when_md_stale(tmp_path: Path) -> None:
     findings = audit.audit_writer_index(archive_root)
     assert any(f.code == "stale_writer_md" and f.level == "fail" for f in findings)
     assert audit.main(["--writer-index", "--root", str(archive_root)]) == 1
-
 
 def test_channel_index_fails_when_md_stale(tmp_path: Path, monkeypatch) -> None:
     archive_root = tmp_path / "archive"
@@ -257,7 +243,6 @@ def test_channel_index_fails_when_md_stale(tmp_path: Path, monkeypatch) -> None:
     assert any(f.code == "stale_channel_md" and f.level == "fail" for f in findings)
     assert audit.main(["--channel-index", "--root", str(archive_root)]) == 1
 
-
 def test_voice_index_audit_passes_when_shelf_listed(tmp_path: Path, monkeypatch) -> None:
     voices = tmp_path / "statecraft" / "voices"
     shelf = voices / "sample"
@@ -279,7 +264,6 @@ def test_voice_index_audit_passes_when_shelf_listed(tmp_path: Path, monkeypatch)
     assert any(f.code == "registry_parity" and f.level == "pass" for f in findings)
     assert audit.main(["--voice-index", "--table-only"]) == 0
 
-
 def test_voice_index_fails_on_registry_gap(tmp_path: Path, monkeypatch) -> None:
     voices = tmp_path / "statecraft" / "voices"
     shelf = voices / "hidden"
@@ -294,7 +278,6 @@ def test_voice_index_fails_on_registry_gap(tmp_path: Path, monkeypatch) -> None:
     findings = audit.audit_voice_index(voices)
     assert any(f.code == "registry_gap" and f.level == "fail" for f in findings)
     assert audit.main(["--voice-index"]) == 1
-
 
 def test_shelf_index_passes_when_capture_links_resolve(
     tmp_path: Path, monkeypatch
@@ -331,7 +314,6 @@ def test_shelf_index_passes_when_capture_links_resolve(
     assert any(f.code == "links_ok" and f.level == "pass" for f in findings)
     assert any(f.code == "capture_links" and f.level == "pass" for f in findings)
 
-
 def test_shelf_index_fails_when_index_links_missing_capture(
     tmp_path: Path, monkeypatch
 ) -> None:
@@ -351,7 +333,6 @@ def test_shelf_index_fails_when_index_links_missing_capture(
     assert any(f.code == "capture_missing" and f.level == "fail" for f in findings)
     assert audit.main(["--shelf-index", "parsi", "--root", str(archive)]) == 1
 
-
 def test_shelf_index_excludes_pape_date_stub(tmp_path: Path, monkeypatch) -> None:
     archive = tmp_path / "archive"
     day = archive / "2026-04-17"
@@ -370,7 +351,6 @@ def test_shelf_index_excludes_pape_date_stub(tmp_path: Path, monkeypatch) -> Non
     findings = audit.audit_shelf_index("pape", archive_root=archive)
     assert not any(f.code == "archive_unlisted" for f in findings)
     assert any(f.code == "archive_parity" and f.level == "pass" for f in findings)
-
 
 def test_karaganov_shelf_excludes_ritter_reaction_capture(tmp_path: Path, monkeypatch) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
@@ -420,7 +400,6 @@ def test_karaganov_shelf_excludes_ritter_reaction_capture(tmp_path: Path, monkey
     assert parity and parity[0].level == "pass"
     assert "1 eligible" in parity[0].message
 
-
 def test_shelf_index_from_capture_resolves_and_appends(tmp_path: Path, monkeypatch) -> None:
     import shelf_index_from_capture as shelf_cli  # noqa: E402
     import shelf_index_utils as shelf_utils  # noqa: E402
@@ -447,7 +426,6 @@ def test_shelf_index_from_capture_resolves_and_appends(tmp_path: Path, monkeypat
     assert code == 0
     index_text = (crooke / "crooke-index.md").read_text(encoding="utf-8")
     assert capture.name in index_text
-
 
 def test_shelf_slug_filename_token_not_substring(tmp_path: Path, monkeypatch) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
@@ -500,7 +478,6 @@ def test_shelf_slug_filename_token_not_substring(tmp_path: Path, monkeypatch) ->
     assert any(f.code == "archive_parity" and f.level == "pass" for f in findings)
     assert not any(f.code == "archive_unlisted" for f in findings)
 
-
 def test_martyanov_slug_matches_typo_token_and_guest_meta(tmp_path: Path, monkeypatch) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
 
@@ -545,7 +522,6 @@ def test_martyanov_slug_matches_typo_token_and_guest_meta(tmp_path: Path, monkey
     assert typo_capture.name in names
     assert guest_meta_capture.name in names
 
-
 def test_jiang_shelf_excludes_game_theory(tmp_path: Path) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
 
@@ -558,7 +534,6 @@ def test_jiang_shelf_excludes_game_theory(tmp_path: Path) -> None:
     }
     assert not shelf_utils.is_jiang_external_interview(meta, path, "")
     assert not shelf_utils.capture_matches_shelf("jiang", path, meta, "")
-
 
 def test_jiang_shelf_excludes_dialogue_works_about_jiang(tmp_path: Path) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
@@ -577,7 +552,6 @@ def test_jiang_shelf_excludes_dialogue_works_about_jiang(tmp_path: Path) -> None
     assert not shelf_utils.is_jiang_external_interview(meta, path, "")
     assert not shelf_utils.capture_matches_shelf("jiang", path, meta, "")
 
-
 def test_jiang_shelf_includes_diesen_guest(tmp_path: Path) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
 
@@ -591,7 +565,6 @@ def test_jiang_shelf_includes_diesen_guest(tmp_path: Path) -> None:
     }
     assert shelf_utils.is_jiang_external_interview(meta, path, "")
     assert shelf_utils.capture_matches_shelf("jiang", path, meta, "")
-
 
 def test_jiang_shelf_includes_sneako_dual_index(tmp_path: Path) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
@@ -607,7 +580,6 @@ def test_jiang_shelf_includes_sneako_dual_index(tmp_path: Path) -> None:
     assert shelf_utils.is_jiang_external_interview(meta, path, "")
     assert shelf_utils.capture_matches_shelf("jiang", path, meta, "")
 
-
 def test_davis_guest_index_excludes_host_channel(tmp_path: Path) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
 
@@ -615,7 +587,6 @@ def test_davis_guest_index_excludes_host_channel(tmp_path: Path) -> None:
     meta = {"channel_slug": "daniel-davis", "thread": "davis", "host": "Daniel Davis"}
     assert not shelf_utils.is_davis_guest_index_capture(meta, path)
     assert not shelf_utils.capture_matches_shelf("davis", path, meta, "")
-
 
 def test_davis_guest_index_includes_cross_host(tmp_path: Path) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
@@ -629,7 +600,6 @@ def test_davis_guest_index_includes_cross_host(tmp_path: Path) -> None:
     assert shelf_utils.is_davis_guest_index_capture(meta, path)
     assert shelf_utils.capture_matches_shelf("davis", path, meta, "")
 
-
 def test_mercouris_guest_index_excludes_host_channel(tmp_path: Path) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
 
@@ -637,7 +607,6 @@ def test_mercouris_guest_index_excludes_host_channel(tmp_path: Path) -> None:
     meta = {"channel_slug": "alexander-mercouris", "thread": "mercouris", "host": "Alexander Mercouris"}
     assert not shelf_utils.is_mercouris_guest_index_capture(meta, path)
     assert not shelf_utils.capture_matches_shelf("mercouris", path, meta, "")
-
 
 def test_alkhorshid_guest_index_excludes_dialogue_works(tmp_path: Path) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
@@ -651,7 +620,6 @@ def test_alkhorshid_guest_index_excludes_dialogue_works(tmp_path: Path) -> None:
     assert not shelf_utils.is_alkhorshid_guest_index_capture(meta, path)
     assert not shelf_utils.capture_matches_shelf("alkhorshid", path, meta, "")
 
-
 def test_alkhorshid_guest_index_includes_cross_host(tmp_path: Path) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
 
@@ -659,7 +627,6 @@ def test_alkhorshid_guest_index_includes_cross_host(tmp_path: Path) -> None:
     meta = {"channel_slug": "daniel-davis", "guest": "Nima Alkhorshid", "host": "Daniel Davis"}
     assert shelf_utils.is_alkhorshid_guest_index_capture(meta, path)
     assert shelf_utils.capture_matches_shelf("alkhorshid", path, meta, "")
-
 
 def test_diesen_guest_index_excludes_host_channel(tmp_path: Path) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
@@ -669,7 +636,6 @@ def test_diesen_guest_index_excludes_host_channel(tmp_path: Path) -> None:
     assert not shelf_utils.is_diesen_guest_index_capture(meta, path)
     assert not shelf_utils.capture_matches_shelf("diesen", path, meta, "")
 
-
 def test_diesen_guest_index_includes_cross_host(tmp_path: Path) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
 
@@ -677,7 +643,6 @@ def test_diesen_guest_index_includes_cross_host(tmp_path: Path) -> None:
     meta = {"channel_slug": "judging-freedom", "guest": "Glenn Diesen", "host": "Judge Andrew Napolitano"}
     assert shelf_utils.is_diesen_guest_index_capture(meta, path)
     assert shelf_utils.capture_matches_shelf("diesen", path, meta, "")
-
 
 def test_mercouris_guest_index_includes_davis_thread_guest(tmp_path: Path) -> None:
     import shelf_index_utils as shelf_utils  # noqa: E402
@@ -695,7 +660,6 @@ def test_mercouris_guest_index_includes_davis_thread_guest(tmp_path: Path) -> No
     }
     assert shelf_utils.is_mercouris_guest_index_capture(meta, path)
     assert shelf_utils.capture_matches_shelf("mercouris", path, meta, "")
-
 
 def test_jiang_index_rows_have_youtube_url(tmp_path: Path, monkeypatch) -> None:
     import build_jiang_index as jiang_idx  # noqa: E402
@@ -727,7 +691,6 @@ def test_jiang_index_rows_have_youtube_url(tmp_path: Path, monkeypatch) -> None:
     assert shelf_utils.capture_matches_shelf(
         "jiang", capture, {"guest": "Jiang Xueqin", "source_form": "interview", "kind": "transcript"}, ""
     )
-
 
 def test_all_voice_indexes_cli_with_fixture(tmp_path: Path, monkeypatch) -> None:
     archive = tmp_path / "archive"

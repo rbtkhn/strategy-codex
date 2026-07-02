@@ -1,6 +1,6 @@
 # Weak Signals + Analogy Audit
 
-**Status:** WORK only.  
+**Status:** non-authoritative.  
 **Scope:** `work-strategy` operator discipline for early signal detection, historical pattern testing, and promotion into local strategy memory.  
 **Record boundary:** No direct Record, SELF, EVIDENCE, or Voice writes. Promotion beyond WORK requires `RECURSION-GATE` + companion approval.
 

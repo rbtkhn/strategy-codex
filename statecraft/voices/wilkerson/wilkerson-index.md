@@ -1,6 +1,5 @@
 # Wilkerson source index
 
-
 Purpose: exhaustive canonical route map for Lawrence Wilkerson guest appearances and direct archive anchors on the Wilkerson shelf.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index wilkerson` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)

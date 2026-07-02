@@ -56,7 +56,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 President Trump told me that he is getting close to ordering new strikes against Iranian power plants and bridges because he says the Iranians are tapping the United States along when it comes to the negotiating process. >> And no, that was not Trey Yinx from a month ago. That was Trey Inks from about an hour ago as he has just got off the phone according to what he said with President Trump and he's now saying that we're maybe ready to go right back into war even aside from all the things that happened last night. All of which we'll

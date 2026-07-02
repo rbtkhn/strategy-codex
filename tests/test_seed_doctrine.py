@@ -10,7 +10,6 @@ import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 
-
 class TestDoctrine:
     def test_doctrine_doc_exists(self):
         assert (ROOT / "docs" / "seed-phase-doctrine.md").exists()
@@ -27,7 +26,6 @@ class TestDoctrine:
         assert "AGENTS.md" in text
         assert "change-review.md" in text
 
-
 class TestManifestSchema:
     @pytest.fixture
     def manifest_schema(self):
@@ -41,7 +39,6 @@ class TestManifestSchema:
 
     def test_doctrine_version_not_required(self, manifest_schema):
         assert "doctrine_version" not in manifest_schema.get("required", [])
-
 
 class TestSeedPhaseWiring:
     def test_seed_phase_references_doctrine(self):
@@ -59,7 +56,6 @@ class TestSeedPhaseWiring:
     def test_seed_phase_references_timeline(self):
         text = (ROOT / "docs" / "seed-phase.md").read_text()
         assert "seed-timeline.md" in text or "Timeline" in text
-
 
 class TestAllDocsExist:
     @pytest.mark.parametrize("doc", [

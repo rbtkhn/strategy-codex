@@ -1,7 +1,6 @@
 # Expert transcript — `crooke`
 <!-- word_count: 86 -->
 
-
 Compatibility note: this file is a **verbatim carryover surface**, not a canonical first-open Crooke route. Use the canonical statecraft shelf first: [Crooke README](README.md), [crooke-arc.md](crooke-arc.md), [crooke-routing.md](crooke-routing.md), [crooke-source-index.md](crooke-source-index.md), [crooke-helix.md](crooke-helix.md), and [crooke-support-spine-2025-2026.md](crooke-support-spine-2025-2026.md). This file is safe for continuity and recent verbatim carryover, but unsafe as the primary citation route when stronger Crooke shelf surfaces already exist.
 
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) that include `thread:crooke` (first line + optional continuation paragraphs), routed on ingest.
@@ -14,5 +13,4 @@ Compatibility note: this file is a **verbatim carryover surface**, not a canonic
 ---
 
 <!-- Triage appends new date sections below. Do not add content above this line. -->
-
 

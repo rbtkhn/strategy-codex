@@ -1,7 +1,6 @@
 # Workshop Method
 <!-- word_count: 309 -->
 
-
 The method is practical: build study pages and interpretive instruments from stable sources without turning the workshop into another corpus.
 
 ## Pattern

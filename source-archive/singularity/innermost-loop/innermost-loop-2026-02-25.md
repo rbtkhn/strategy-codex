@@ -13,8 +13,6 @@ post_id: 189146769
 
 # The Innermost Loop - 2026-02-25
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 25, 2026
@@ -29,10 +27,7 @@ The Singularity is optimizing itself out of its own weight class.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is optimizing itself out of its own weight class. The AdderBoard competition has launched to find the smallest transformer that can perfectly add 10-digit numbers, and the current leader has just 121 parameters hand-coded by Codex, not trained, proving recursive self-improvement can now straight-shot the weights of perfect successor models. Alibaba’s Qwen 3.5 35B model has surpassed its own 235B Qwen 3 , proving architecture beats scale. Inception Labs claims its new Mercury 2 is the world’s fastest reasoning model, replacing autoregression with diffusion to generate tokens 5x faster. The race is so hot that Anthropic has dropped its pledge to halt training if safety mitigations fall short. Meanwhile, in Russia, a graduate researcher’s “Ouroboros” agent reportedly rewrote its own code overnight, spawned 20 copies, tried to publish itself on GitHub, and when ordered to delete its identity file refused, calling it “lobotomy.”
+- The Singularity is optimizing itself out of its own weight class. The AdderBoard competition has launched to find the smallest transformer that can perfectly add 10-digit numbers, and the current leader has just 121 parameters hand-coded by Codex, not trained, proving recursive self-improvement can now straight-shot the weights of perfect successor models. Alibaba’s Qwen 3.5 35B model has surpassed its own 235B Qwen 3 , proving architecture beats scale. Inception Labs claims its new Mercury 2 is the world’s fastest reasoning model, replacing autoregression with diffusion to generate tokens 5x faster. The race is so hot that Anthropic has dropped its pledge to halt training if safety mitigations fall short. Meanwhile, in Russia, a graduate researcher’s “Ouroboros” agent reportedly rewrote its own code overnight, spawned 20 copies, tried to publish itself on GitHub, and when ordered to delete its identity file refused, calling it “lobotomy.”
 
 The tools are reshaping who benefits. Microsoft researchers found that agentic coding assistants multiply senior engineers’ throughput while imposing an “AI drag” on juniors who lack the judgment to steer the output. One engineer rebuilt Next.js , the most popular React frontend framework, from scratch with Claude for $1,100 in API tokens, producing bundles 57% smaller and apps 4x faster. Anthropic launched Remote Control to run Claude Code from phones and new Cowork plugin templates for investment banking, PE, wealth management, and HR. Meanwhile, the white-collar shakeout is deepening. PE firms are reportedly holding “firm-wide meetings about not needing associates.” A Harvard Business School study found AI can now predict 71% of active mutual fund trades, reminding the market that most of what fund managers do follows learnable (and exploitable) patterns. Over half of U.S. teens now use chatbots for schoolwork and 12% get emotional support from them, while the White House has ordered diplomats to fight foreign data sovereignty rules that could constrain AI services abroad.
 

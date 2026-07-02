@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Trump Blocks Ukraine Arms, Threatens Russia; Moscow Rejects Threats, Zelensky Ukraine Betrayed
 
-

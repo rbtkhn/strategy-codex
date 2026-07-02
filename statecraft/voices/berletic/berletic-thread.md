@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `berletic`
 <!-- word_count: 2854 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Berletic speaker structure.
@@ -42,7 +41,6 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 
 January holds **no dated** `thread:` ingest line for Berletic in this notebook snapshot; the lane remains **industrial capacity, sanctions, proxy-war logistics** per the roster. Treat hub links as **routing anchors**, not proof of a January calendar appearance.
 
-
 Finally, 2026-01 should remain safe for **operator rotation**: someone returning after weeks should be able to read this segment and recover **lane orientation** (role: Industrial capacity, sanctions, proxy-war logistics, force-generation vs headline battlefield narratives; long-run production and material constraints as a distinct fingerprint), **pairing map** (Ãƒâ€” ritter, Ãƒâ€” jermy, Ãƒâ€” diesen, Ãƒâ€” davis, Ãƒâ€” mearsheimer), and **next verification moves** without loading the entire quarter. That recoverability is why the minimum prose budget existsÃ¢â‚¬â€not to pad, but to force a minimum coherent account of what this month was for in the notebook.
 
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-01, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
@@ -60,7 +58,6 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-01, re
 ## 2026-02
 
 February has the same **no-indexed-Q1-primary** posture in-repo; use **`batch-analysis`** when headline battlefield claims need **factory / stockpile / resupply** counterweight beside **`ritter`** ORBAT lanes Ã¢â‚¬â€ per [strategy-commentator-threads](../../../continuity/strategy-commentator-threads.md).
-
 
 If pages named this expert during 2026-02, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃ¢â‚¬â€absence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
 
@@ -81,7 +78,6 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-02, re
 ## 2026-03
 
 March rows for this expert are still **absent** from the indexed notebook ledger; keep third-party index dates **hypothesis-grade** until pinned against primary tape.
-
 
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-03, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
 
@@ -119,7 +115,6 @@ Verification stance for Brian Berletic (@BrianJBerletic, The New Atlas) in 2026-
 - **2026-03** Ã¢â‚¬â€ No dated notebook ingest Ã¢â‚¬â€ YouTube channel hub.
   _Source:_ web: `https://www.youtube.com/@TheNewAtlas`
 
-
 ### 2026-04
 
 - **2026-04** Ã¢â‚¬â€ Ledger mirror 1 (partial month).
@@ -132,7 +127,6 @@ Verification stance for Brian Berletic (@BrianJBerletic, The New Atlas) in 2026-
 ## 2026-04
 
 _Partial month Ã¢â‚¬â€ no April machine/Page row for Berletic in-repo; **industrial capacity / sanctions** lane per roster Ã¢â‚¬â€ hub anchors only._
-
 
 Verification stance for Brian Berletic (@BrianJBerletic, The New Atlas) in 2026-04 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgmentÃ¢â‚¬â€without turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 

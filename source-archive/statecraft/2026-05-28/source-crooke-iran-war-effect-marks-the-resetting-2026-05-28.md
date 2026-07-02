@@ -19,7 +19,6 @@ Conflicts Forum
 May 28, 2026  
 Paid
 
-
 Seemingly, every day brings breathless new claims that an US-Iran ‘deal’ awaits only a signature. As so often happens, the mediators (Pakistanis and Qataris) hope to manage both sides by telling one side that the other party is at the brink of agreement when it is not so, especially in an atmosphere of total mistrust. By these means the mediators hope to push matters towards a final agreement. It is a familiar tactic, but one that quite often results in confusion and distrust -- rather than the hoped-for settlement.
 
 The ‘plan’ at this stage has only two central pillars: Iran’s ‘reopening’ of the Strait of Hormuz (on Iran’s terms) in return for the lifting of the US naval blockade, and — at a later date — an understanding that the dilution of Iran’s 60% enriched uranium would be tackled in return for an end to sanctions.
@@ -39,9 +38,6 @@ Ali Akbar Velayati, Senior Adviser to Iran’s Supreme Leader observes,
 The mediators naturally are desperate to avoid another round of war. Iran however, demands hard detail. This is Trump’s dilemma. He wants a quick win, but the mere hint of a fudged, incomplete deal — mainly on Iran’s terms — brought the wrath of the pro-Israel billionaire class down upon his head (the pushback was intense), and Israel (likely with encouragement from that same class) then blew up Trump’s ceasefire by launching a scorched-earth military assault on Lebanon, and on Gaza and its citizens, so breaching the ceasefire precondition for any deal.
 
 Trump is in zugzwang. (Any move he makes, potentially only worsens his position, whether strategically or domestically).
-
-
-
 
 Territorial waters in the Strait of Hormuz (Source)
 
@@ -92,5 +88,4 @@ Economist Sean Foo explains:
 “Now there’s a reason why Chinese bonds are becoming attractive to global investors, and this goes beyond just geopolitics or trade flows. It comes down to one fundamental reason. China is sitting on over $50 trillion in bank deposits. That’s more than the combined bank holdings of the EU, US and Japan. And that creates something every bond market, such as China’s needs in order to function well — a deep, reliable base of domestic buyers — your own local people buying”.
 
 In sum, as more money flows into Chinese bonds, and the Yuan bond market deepens, Chinese borrowing costs stay low. So Beijing can fund itself cheaply and almost indefinitely — and thus can outlast the US grand strategy to contain China by squeezing both its capital costs and its energy costs.
-
 

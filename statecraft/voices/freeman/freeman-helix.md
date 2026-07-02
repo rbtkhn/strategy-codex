@@ -1,6 +1,5 @@
 # Freeman helix
 
-
 Purpose: explain how Freeman's four core host lanes and broader source bench belong to one speaker object.
 
 ## Surface Grammar

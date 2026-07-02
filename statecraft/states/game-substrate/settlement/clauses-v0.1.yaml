@@ -1,6 +1,5 @@
 # Settlement clause library v0.1
-# WORK only; not Record.
-# Shared clause ids; per-volume weights live in profiles/*.pkg.yaml
+# # Shared clause ids; per-volume weights live in profiles/*.pkg.yaml
 
 schema_version: "0.1"
 

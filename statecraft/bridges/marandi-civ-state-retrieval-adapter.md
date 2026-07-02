@@ -1,6 +1,5 @@
 # Marandi CIV-STATE Retrieval Adapter
 
-
 ## Purpose
 
 Use this adapter when a Marandi-style claim needs to extract recognition, legitimacy, sovereignty, leverage meaning, or red-line pressure from `civ-state` without prematurely turning that claim into settlement closure.

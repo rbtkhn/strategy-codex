@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia Knocks Out Kiev's Nuclear Power; Zelensky Panics Blames Ukraine AD; Alexeyev Gunman Captured
 
-

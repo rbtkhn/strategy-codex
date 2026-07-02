@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-04-03 (*Combat Search and Rescue, the Prequel*)
 <!-- word_count: 1902 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-04-03 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 1903
@@ -27,7 +26,6 @@ A US pilot has been shot down over Iran. US Combat Search and Rescue (CSAR) team
 Scott Ritter
 
 Apr 03, 2026
-
 
 MH-53J helicopter hovering over the Iraqi desert at night
 
@@ -69,7 +67,6 @@ It was clear to everyone that the crew of "Corvette 3" had been taken prisoner b
 
 (This article consists of passages from my book, *The SCUD Hunters*, which I am currently publishing in serialized fashion on my Substack page. While the events in this article pre-date the current war in Iran by some 25 years, the basic problems surrounding CSAR operations remain the same. This article is presented in an effort to take the reader inside the complexities and hazards associated with trying to recover a downed pilot in hostile territory.)
 
-
 ### Reflection
 
 **Operator note:** Operator-ingested Substack essay; includes closing note on serialized *The SCUD Hunters*.
@@ -87,13 +84,11 @@ It was clear to everyone that the crew of "Corvette 3" had been taken prisoner b
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

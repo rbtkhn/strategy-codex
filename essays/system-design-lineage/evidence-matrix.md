@@ -1,7 +1,5 @@
 # System Design Lineage Evidence Matrix
 
-work only; not Record.
-
 Purpose: provide one compact annotated bibliography showing that the repo's
 overall design family has clear academic precedent across multiple traditions.
 

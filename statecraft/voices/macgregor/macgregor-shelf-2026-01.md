@@ -1,6 +1,5 @@
 # Macgregor Shelf - 2026-01
 
-
 This monthly shelf is the January 2026 synthesis/index for the migrated Macgregor statecraft shelf.
 
 Month status: `continuity carryover month`

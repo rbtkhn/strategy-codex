@@ -12,5 +12,3 @@ source_url: https://scottritter.substack.com/p/the-consequences-of-incompetence
     
     `batch-analysis | 2026-04-19 | **Ritter Substack** × **Hormuz** **/ negotiations** **week** | **Tension-first:** **`thread:ritter`** **essay** (**failed** **first-round** **narrative,** **second-strike** **infrastructure** **forecast,** **Trump** **domestic** **risk**) **—** **not** **§1e** **/** **AIS** **primaries.** **Cross** **`thread:davis`** **(physical** **Strait** **/** **cost** **clock),** **`thread:pape`** **(escalation** **trap** **/** **binary),** **`thread:barnes`** **(White** **House** **room** **where** **essay** **touches** **Congress** **/** **elections**)** **—** **explicit** **seams:** **material** **/** **theory** **/** **forecast.** **Falsifiers:** **named** **military** **/** **shipping** **primaries,** **negotiation** **texts,** **vote** **counts.** | crosses:ritter+davis`
 
-
-

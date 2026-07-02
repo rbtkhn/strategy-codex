@@ -16,7 +16,6 @@ archive_links:
 
 # Diesen x Crooke speaker arc
 
-
 Purpose: compact reuse note for the `Diesen x Crooke` run inside the Diesen stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Crooke lane Diesen elicits, which files matter most, and why this run belongs in the Crooke helix rather than being treated as a one-off guest appearance.
 
 ## Why this guest run matters

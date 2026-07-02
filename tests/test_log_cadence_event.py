@@ -22,11 +22,9 @@ from log_cadence_event import (
 )
 from log_coffee_close import build_coffee_close_kv
 
-
 @pytest.fixture(autouse=True)
 def _clear_cursor_model_env(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.delenv("CURSOR_MODEL", raising=False)
-
 
 @pytest.fixture()
 def events_file(tmp_path: Path) -> Path:
@@ -34,7 +32,6 @@ def events_file(tmp_path: Path) -> Path:
     p = tmp_path / "work-cadence-events.md"
     p.write_text(HEADER, encoding="utf-8")
     return p
-
 
 def test_append_one_event(events_file: Path) -> None:
     append_cadence_event(
@@ -44,7 +41,6 @@ def test_append_one_event(events_file: Path) -> None:
     text = events_file.read_text(encoding="utf-8")
     assert "— dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown integrity=pass" in text
     assert text.count("— dream") == 1
-
 
 def test_append_two_events_order(events_file: Path) -> None:
     append_cadence_event(
@@ -61,7 +57,6 @@ def test_append_two_events_order(events_file: Path) -> None:
     dream_pos = text.index("— dream")
     assert coffee_pos < dream_pos, "Events should appear in append order (oldest first)"
 
-
 def test_missing_file_creates_with_header(tmp_path: Path) -> None:
     p = tmp_path / "subdir" / "events.md"
     assert not p.exists()
@@ -74,11 +69,9 @@ def test_missing_file_creates_with_header(tmp_path: Path) -> None:
     assert ANCHOR in text
     assert "— bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=abc1234" in text
 
-
 def test_invalid_kind_raises() -> None:
     with pytest.raises(ValueError, match="kind must be one of"):
         append_cadence_event("nap", "grace-mar", events_path=Path("/dev/null"))
-
 
 def test_ok_false_recorded(events_file: Path) -> None:
     append_cadence_event(
@@ -87,7 +80,6 @@ def test_ok_false_recorded(events_file: Path) -> None:
     )
     text = events_file.read_text(encoding="utf-8")
     assert "ok=false" in text
-
 
 def test_append_thanks_event(events_file: Path) -> None:
     append_cadence_event(
@@ -102,7 +94,6 @@ def test_append_thanks_event(events_file: Path) -> None:
         "— thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=gate-review-later" in text
     )
 
-
 def test_append_harvest_event(events_file: Path) -> None:
     append_cadence_event(
         "harvest",
@@ -114,7 +105,6 @@ def test_append_harvest_event(events_file: Path) -> None:
     )
     text = events_file.read_text(encoding="utf-8")
     assert "— harvest (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown packet=chat" in text
-
 
 def test_append_coffee_close_event(events_file: Path) -> None:
     append_cadence_event(
@@ -135,7 +125,6 @@ def test_append_coffee_close_event(events_file: Path) -> None:
     assert "— coffee_close (strategy-codex) ok=true" in text
     assert "picked=B outcome=partial readiness=execution_ready" in text
     assert "loops=coffee-close,artifact-aware-rhythm" in text
-
 
 def test_build_coffee_close_kv_validates_required_shape() -> None:
     kv = build_coffee_close_kv(
@@ -160,7 +149,6 @@ def test_build_coffee_close_kv_validates_required_shape() -> None:
         "conductor_state": "closed",
     }
 
-
 def test_build_coffee_close_kv_rejects_invalid_values() -> None:
     with pytest.raises(ValueError, match="readiness must be one of"):
         build_coffee_close_kv(picked="A", outcome="done", readiness="ready")
@@ -184,17 +172,14 @@ def test_build_coffee_close_kv_rejects_invalid_values() -> None:
             conductor_state="closed",
         )
 
-
 def test_resolve_cursor_model_env(monkeypatch: pytest.MonkeyPatch) -> None:
     assert resolve_cursor_model() == "unknown"
     monkeypatch.setenv("CURSOR_MODEL", "  Test Model  ")
     assert resolve_cursor_model() == "Test Model"
 
-
 def test_cursor_model_explicit_overrides_env(monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setenv("CURSOR_MODEL", "from-env")
     assert resolve_cursor_model(explicit="from-arg") == "from-arg"
-
 
 def test_append_cursor_model_spaces_become_underscores(events_file: Path) -> None:
     append_cadence_event(
@@ -207,7 +192,6 @@ def test_append_cursor_model_spaces_become_underscores(events_file: Path) -> Non
     )
     text = events_file.read_text(encoding="utf-8")
     assert "cursor_model=A_B_Model" in text
-
 
 def test_dedupe_skips_second_same_kind_user_within_window(
     events_file: Path, capsys: pytest.CaptureFixture[str],
@@ -231,7 +215,6 @@ def test_dedupe_skips_second_same_kind_user_within_window(
     err = capsys.readouterr().err
     assert "cadence dedupe: skipped duplicate coffee (grace-mar)" in err
 
-
 def test_dedupe_allows_after_window(events_file: Path) -> None:
     events_file.write_text(
         HEADER
@@ -250,7 +233,6 @@ def test_dedupe_allows_after_window(events_file: Path) -> None:
     text = events_file.read_text(encoding="utf-8")
     assert text.count("— coffee") == 2
 
-
 def test_dedupe_disabled_allows_back_to_back(events_file: Path) -> None:
     t = datetime(2026, 1, 15, 12, 0, 0, tzinfo=timezone.utc)
     append_cadence_event(
@@ -264,33 +246,27 @@ def test_dedupe_disabled_allows_back_to_back(events_file: Path) -> None:
     text = events_file.read_text(encoding="utf-8")
     assert text.count("— coffee") == 2
 
-
 def test_infer_model_tier_frontier() -> None:
     assert infer_model_tier("claude-4.6-opus-high-thinking") == "frontier"
     assert infer_model_tier("claude-sonnet-4") == "frontier"
     assert infer_model_tier("o4-preview") == "frontier"
-
 
 def test_infer_model_tier_fast() -> None:
     assert infer_model_tier("claude-3.5-haiku") == "fast"
     assert infer_model_tier("gpt-4o-mini") == "fast"
     assert infer_model_tier("gemini-2.0-flash") == "fast"
 
-
 def test_infer_model_tier_unknown() -> None:
     assert infer_model_tier("unknown") == "unknown"
     assert infer_model_tier("") == "unknown"
     assert infer_model_tier("some-new-model") == "unknown"
 
-
 def test_resolve_model_tier_explicit_overrides_inference() -> None:
     assert resolve_model_tier(explicit="frontier", cursor_model="haiku") == "frontier"
     assert resolve_model_tier(explicit="fast", cursor_model="opus") == "fast"
 
-
 def test_resolve_model_tier_kv_overrides_inference() -> None:
     assert resolve_model_tier(kv={"model_tier": "fast"}, cursor_model="opus") == "fast"
-
 
 def test_model_tier_appears_in_cadence_line(events_file: Path) -> None:
     append_cadence_event(
@@ -301,7 +277,6 @@ def test_model_tier_appears_in_cadence_line(events_file: Path) -> None:
     text = events_file.read_text(encoding="utf-8")
     assert "model_tier=frontier" in text
 
-
 def test_model_tier_explicit_overrides_in_cadence_line(events_file: Path) -> None:
     append_cadence_event(
         "coffee", "grace-mar", ok=True, mode="work-start",
@@ -310,7 +285,6 @@ def test_model_tier_explicit_overrides_in_cadence_line(events_file: Path) -> Non
     )
     text = events_file.read_text(encoding="utf-8")
     assert "model_tier=frontier" in text
-
 
 def test_dedupe_different_kind_not_skipped(events_file: Path) -> None:
     t = datetime(2026, 1, 15, 12, 0, 0, tzinfo=timezone.utc)
@@ -333,7 +307,6 @@ def test_conductor_outcome_missing_conductor_warns(
     err = capsys.readouterr().err
     assert "missing conductor=<slug>" in err
 
-
 def test_conductor_outcome_missing_verdict_warns(
     events_file: Path, capsys: pytest.CaptureFixture[str]
 ) -> None:
@@ -347,7 +320,6 @@ def test_conductor_outcome_missing_verdict_warns(
     err = capsys.readouterr().err
     assert "missing verdict=" in err
 
-
 def test_conductor_outcome_missing_anchor_warns(
     events_file: Path, capsys: pytest.CaptureFixture[str]
 ) -> None:
@@ -360,7 +332,6 @@ def test_conductor_outcome_missing_anchor_warns(
     )
     err = capsys.readouterr().err
     assert "should include notebook_ref= or falsify=" in err
-
 
 def test_valid_conductor_outcome_emits_no_soft_gate_warning(
     events_file: Path, capsys: pytest.CaptureFixture[str]
@@ -379,7 +350,6 @@ def test_valid_conductor_outcome_emits_no_soft_gate_warning(
     )
     err = capsys.readouterr().err
     assert "cadence soft-gate" not in err
-
 
 def test_parse_cli_kv_groups_keeps_unquoted_falsify_prose() -> None:
     kv = parse_cli_kv_groups(
@@ -403,7 +373,6 @@ def test_parse_cli_kv_groups_keeps_unquoted_falsify_prose() -> None:
     assert kv["conductor"] == "karajan"
     assert kv["falsify"] == "If a future YouTube caller reintroduces direct yt-dlp execution"
 
-
 def test_build_coffee_close_kv_object_ref_falsify_verdict_attention() -> None:
     kv = build_coffee_close_kv(
         picked="D",
@@ -418,7 +387,6 @@ def test_build_coffee_close_kv_object_ref_falsify_verdict_attention() -> None:
     assert kv["falsify"] == "pseudo-gate-J16-K1-vs-J16-ME1"
     assert kv["verdict"] == "shaped"
     assert kv["attention"] == "one object only"
-
 
 def test_build_coffee_close_kv_rejects_invalid_verdict_and_attention() -> None:
     with pytest.raises(ValueError, match="verdict must be one of"):
@@ -435,7 +403,6 @@ def test_build_coffee_close_kv_rejects_invalid_verdict_and_attention() -> None:
             readiness="orientation",
             attention="kleiber mode",
         )
-
 
 def test_log_coffee_close_cli_main_with_artifact(
     events_file: Path, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str],

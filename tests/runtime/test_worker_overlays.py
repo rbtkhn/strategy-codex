@@ -19,19 +19,16 @@ from worker_overlays import (  # noqa: E402
     load_overlays,
 )
 
-
 def test_overlays_yaml_contains_four_families() -> None:
     data = load_overlays(REPO_ROOT)
     for name in ("strategy", "moonshot", "research", "tacit"):
         assert name in data and isinstance(data[name], dict)
-
 
 def test_strategy_overlay_default_task_and_scope() -> None:
     ov = get_overlay("strategy", REPO_ROOT)
     assert ov["default_task_type"] == "strategy"
     assert "strategy-notebook" in ov["default_scope"]
     assert ov["max_files"] == 250
-
 
 def test_apply_overlay_defaults_fills_nones() -> None:
     ov = get_overlay("strategy", REPO_ROOT)
@@ -47,7 +44,6 @@ def test_apply_overlay_defaults_fills_nones() -> None:
     assert tt == "strategy"
     assert set(applied) == {"scope", "max_files", "max_chars", "task_type"}
 
-
 def test_explicit_args_override_overlay() -> None:
     ov = get_overlay("strategy", REPO_ROOT)
     s, mf, mc, tt, applied = apply_overlay_defaults(
@@ -59,7 +55,6 @@ def test_explicit_args_override_overlay() -> None:
     )
     assert s == "research" and mf == 8 and mc == 12000 and tt == "contradiction"
     assert applied == []
-
 
 def test_unknown_overlay_raises() -> None:
     with pytest.raises(UnknownOverlayError):

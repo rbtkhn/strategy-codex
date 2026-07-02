@@ -22,7 +22,6 @@ from policy_mode_config import (
     staging_decision,
 )
 
-
 # ── resolve_mode strict behavior ────────────────────────────────────
 
 def test_resolve_mode_known_mode() -> None:
@@ -32,7 +31,6 @@ def test_resolve_mode_known_mode() -> None:
         assert resolve_mode(mode_name, defaults) == mode_name
         assert resolve_mode(mode_name, defaults, strict=True) == mode_name
 
-
 def test_resolve_mode_empty_returns_default() -> None:
     """Empty mode resolves to operator_only in both modes."""
     defaults = load_defaults()
@@ -40,12 +38,10 @@ def test_resolve_mode_empty_returns_default() -> None:
     assert resolve_mode("", defaults) == DEFAULT_MODE
     assert resolve_mode(None, defaults, strict=True) == DEFAULT_MODE
 
-
 def test_resolve_mode_unknown_nonstrict_falls_back() -> None:
     """Non-strict mode silently falls back to operator_only."""
     defaults = load_defaults()
     assert resolve_mode("totally_bogus_mode", defaults) == DEFAULT_MODE
-
 
 def test_resolve_mode_unknown_strict_raises() -> None:
     """Strict mode raises UnknownPolicyModeError on unknown mode name."""
@@ -55,7 +51,6 @@ def test_resolve_mode_unknown_strict_raises() -> None:
     assert "totally_bogus_mode" in str(exc_info.value)
     assert "Valid modes" in str(exc_info.value)
 
-
 # ── staging_decision behavior ────────────────────────────────────────
 
 def test_staging_decision_operator_only_allows() -> None:
@@ -64,14 +59,12 @@ def test_staging_decision_operator_only_allows() -> None:
     verb, _ = staging_decision("operator_only", "SELF", defaults)
     assert verb == "allowed"
 
-
 def test_staging_decision_blocked_mode() -> None:
     """If candidate_staging is blocked, verb must be 'blocked'."""
     fake = {"test_blocked": {"candidate_staging": "blocked"}}
     verb, reason = staging_decision("test_blocked", "SELF", fake)
     assert verb == "blocked"
     assert "blocked" in reason.lower()
-
 
 def test_staging_decision_hold_by_default() -> None:
     """hold_by_default mode returns hold_hint."""
@@ -80,7 +73,6 @@ def test_staging_decision_hold_by_default() -> None:
         verb, _ = staging_decision("high_risk_abstention", "EVIDENCE", defaults)
         assert verb in ("hold_hint", "warn", "blocked")
 
-
 def test_staging_decision_identity_bound_self_warns() -> None:
     """identity_bound mode warns on SELF target."""
     defaults = load_defaults()
@@ -88,7 +80,6 @@ def test_staging_decision_identity_bound_self_warns() -> None:
         verb, reason = staging_decision("identity_bound", "SELF", defaults)
         assert verb == "warn"
         assert "policy-ack" in reason.lower() or "strict self guard" in reason.lower()
-
 
 # ── precheck_gate_staging fails on unknown policy mode ───────────────
 
@@ -113,7 +104,6 @@ def test_precheck_fails_on_unknown_policy_mode(tmp_path: Path) -> None:
     assert r.returncode == 2, f"expected exit 2 for unknown mode, got {r.returncode}: {r.stderr}"
     assert "unknown policy mode" in r.stderr.lower() or "Unknown policy mode" in r.stderr
 
-
 def test_precheck_outputs_policy_mode_in_receipt(tmp_path: Path) -> None:
     """precheck_gate_staging.py should print policy_mode in stderr."""
     obs_dir = tmp_path / "runtime" / "observations"
@@ -135,7 +125,6 @@ def test_precheck_outputs_policy_mode_in_receipt(tmp_path: Path) -> None:
     assert r.returncode == 0, r.stderr
     assert "policy_mode: operator_only" in r.stderr
     assert "staging_decision:" in r.stderr
-
 
 # ── stage_candidate_from_observations fails on unknown mode ──────────
 

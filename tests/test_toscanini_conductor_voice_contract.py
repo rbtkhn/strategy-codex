@@ -2,14 +2,11 @@ from __future__ import annotations
 
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 CONDUCTOR_SKILL = REPO_ROOT / ".cursor" / "skills" / "conductor" / "SKILL.md"
 
-
 def _conductor_text() -> str:
     return CONDUCTOR_SKILL.read_text(encoding="utf-8")
-
 
 def _section(heading: str, next_heading: str) -> str:
     text = _conductor_text()
@@ -17,26 +14,20 @@ def _section(heading: str, next_heading: str) -> str:
     end = text.index(next_heading, start)
     return text[start:end]
 
-
 def _toscanini_section() -> str:
     return _section("## Toscanini conductor voice prototype", "## Furtwangler conductor voice prototype")
-
 
 def _furtwangler_section() -> str:
     return _section("## Furtwangler conductor voice prototype", "## Bernstein rehearsal voice prototype")
 
-
 def _bernstein_section() -> str:
     return _section("## Bernstein rehearsal voice prototype", "## Karajan conductor voice prototype")
-
 
 def _karajan_section() -> str:
     return _section("## Karajan conductor voice prototype", "## Kleiber conductor voice prototype")
 
-
 def _kleiber_section() -> str:
     return _section("## Kleiber conductor voice prototype", "## When to read this")
-
 
 def test_toscanini_voice_is_scoped_to_toscanini() -> None:
     section = _toscanini_section()
@@ -45,7 +36,6 @@ def test_toscanini_voice_is_scoped_to_toscanini() -> None:
     assert "It does not change `furtwangler`, `karajan`, `kleiber`, or `bernstein` behavior" in section
     assert "not companion Voice" in section
     assert "not Record authority" in section
-
 
 def test_toscanini_contract_requires_fierce_receipt_orientation() -> None:
     section = _toscanini_section()
@@ -65,7 +55,6 @@ def test_toscanini_contract_requires_fierce_receipt_orientation() -> None:
     ]
     for phrase in required_phrases:
         assert phrase in section
-
 
 def test_toscanini_musicology_is_score_as_evidence() -> None:
     section = _toscanini_section()
@@ -91,7 +80,6 @@ def test_toscanini_musicology_is_score_as_evidence() -> None:
     assert "Toscanini makes the next action accountable" in section
     assert "Toscanini failure mode: heat without receipt" in section
 
-
 def test_toscanini_is_distinct_from_other_prototypes() -> None:
     section = _toscanini_section()
     bernstein = _bernstein_section()
@@ -107,7 +95,6 @@ def test_toscanini_is_distinct_from_other_prototypes() -> None:
     assert "score as archive/placeholders/evidence" not in bernstein
     assert "score as archive/placeholders/evidence" not in karajan
     assert "score as archive/placeholders/evidence" not in kleiber
-
 
 def test_toscanini_guardrails_reject_abusive_caricature() -> None:
     section = _toscanini_section()
@@ -126,7 +113,6 @@ def test_toscanini_guardrails_reject_abusive_caricature() -> None:
     for phrase in guardrails:
         assert phrase in section
 
-
 def test_toscanini_examples_pin_three_contexts_and_four_movement_options() -> None:
     section = _toscanini_section()
 
@@ -138,7 +124,6 @@ def test_toscanini_examples_pin_three_contexts_and_four_movement_options() -> No
     assert section.count("\nB. Andante: ") == 3
     assert section.count("\nC. Scherzo: ") == 3
     assert section.count("\nD. Finale: ") == 3
-
 
 def test_all_five_voice_prototypes_are_present_and_rows_remain() -> None:
     text = _conductor_text()

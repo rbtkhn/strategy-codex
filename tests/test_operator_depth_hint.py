@@ -18,11 +18,9 @@ import operator_depth_hint as odh  # noqa: E402
 
 UTC = timezone.utc
 
-
 def _line(event: str, ts: datetime) -> str:
     o = {"ts": ts.isoformat(), "event": event, "candidate_id": "CANDIDATE-0001"}
     return json.dumps(o)
-
 
 def test_tier_from_counts():
     assert odh._tier_from_counts(0, 0) == 0
@@ -30,7 +28,6 @@ def test_tier_from_counts():
     assert odh._tier_from_counts(0, 5) == 1
     assert odh._tier_from_counts(8, 0) == 2
     assert odh._tier_from_counts(20, 0) == 3
-
 
 def test_analyze_velocity_window(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     uid = "u1"
@@ -52,7 +49,6 @@ def test_analyze_velocity_window(monkeypatch: pytest.MonkeyPatch, tmp_path: Path
     assert snap.applied == 3
     assert snap.approved == 1
     assert snap.tier >= 1
-
 
 def test_maybe_emit_only_on_tier_increase(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     monkeypatch.setattr(odh, "profile_dir", lambda u: tmp_path / "platform/users" / u)

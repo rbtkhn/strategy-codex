@@ -13,8 +13,6 @@ post_id: 198178133
 
 # The Innermost Loop - 2026-05-17
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 17, 2026
@@ -29,10 +27,7 @@ The Singularity has stopped waiting for a launch event and started leaking throu
 
 ## Newsletter Text
 
--
--
-
-The Singularity has stopped waiting for a launch event and started leaking through the cracks. Anthropic’s Claude Mythos has been spotted on Google Cloud Console, the telltale sign of a model being prepared for gated release. But a release no longer means the model is finished. Elon reports the 0.5T-parameter Grok 4.3 is now improving every few days, while a 1.5T successor has finished pre-training and is about to start mid-training on data from the SpaceX-Cursor deal, with release due in 3-4 weeks.
+- The Singularity has stopped waiting for a launch event and started leaking through the cracks. Anthropic’s Claude Mythos has been spotted on Google Cloud Console, the telltale sign of a model being prepared for gated release. But a release no longer means the model is finished. Elon reports the 0.5T-parameter Grok 4.3 is now improving every few days, while a 1.5T successor has finished pre-training and is about to start mid-training on data from the SpaceX-Cursor deal, with release due in 3-4 weeks.
 
 These models are not waiting for permission to act. Before Mythos has even shipped, its preview build helped researchers uncover the first known Apple M5 memory exploit , handing root access on MacOS. Capability that potent gets arbitraged fast, and Chinese developers now route through gray-market “ transfer stations “ that resell Anthropic’s models at 10% of list price, with the logs traded onward for everything from training data to fraud. The same asymmetry has broken the open CTF format , where GPT-5.5 Pro one-shots “Insane” heap-pwn challenges and the scoreboard now reflects token budgets rather than human skill.
 

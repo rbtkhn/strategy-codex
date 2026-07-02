@@ -6,11 +6,9 @@ import shutil
 import sys
 from pathlib import Path
 
-
 REPO = Path(__file__).resolve().parents[1]
 SCRIPT = REPO / "scripts" / "printing_press_scrape_creators_youtube.py"
 TEST_TMP = REPO / ".codex-test-temp" / "printing-press-scrape-creators"
-
 
 def load_adapter():
     spec = importlib.util.spec_from_file_location("pp_scrape_creators_youtube", SCRIPT)
@@ -20,7 +18,6 @@ def load_adapter():
     sys.modules[spec.name] = module
     spec.loader.exec_module(module)
     return module
-
 
 def sample_payload() -> dict:
     return {
@@ -39,7 +36,6 @@ def sample_payload() -> dict:
         ],
     }
 
-
 def test_missing_cli_fails_with_install_guidance(monkeypatch) -> None:
     adapter = load_adapter()
     monkeypatch.delenv("SCRAPE_CREATORS_BIN", raising=False)
@@ -54,7 +50,6 @@ def test_missing_cli_fails_with_install_guidance(monkeypatch) -> None:
 
     assert "printing-press install scrape-creators" in message
 
-
 def test_input_json_allows_utf8_bom() -> None:
     adapter = load_adapter()
     payload_path = TEST_TMP / "bom-payload.json"
@@ -64,7 +59,6 @@ def test_input_json_allows_utf8_bom() -> None:
     payload = adapter.load_payload(payload_path, None)
 
     assert payload["videos"][0]["video_id"] == "abc123DEF45"
-
 
 def test_payload_maps_to_existing_youtube_channel_layout() -> None:
     adapter = load_adapter()
@@ -85,7 +79,6 @@ def test_payload_maps_to_existing_youtube_channel_layout() -> None:
     assert transcripts[0][0].startswith("transcripts/abc123DEF45_")
     assert "# source_tier: printing_press_scrape_creators_public_youtube" in transcripts[0][1]
     assert "First line." in transcripts[0][1]
-
 
 def test_merge_preserves_existing_channel_rows() -> None:
     adapter = load_adapter()
@@ -124,7 +117,6 @@ def test_merge_preserves_existing_channel_rows() -> None:
     assert {row["video_id"] for row in index["videos"]} == {"old111", "abc123DEF45"}
     assert "old111" in manifest["videos"]
     assert "abc123DEF45" in manifest["videos"]
-
 
 def test_v1_rejects_comments_and_credentials() -> None:
     adapter = load_adapter()

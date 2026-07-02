@@ -2,7 +2,6 @@
 <!-- word_count: 208 -->
 <!-- word_count: concise scaffold -->
 
-
 Use the profile as the compact channel index for one of the main strategy-codex lanes. A profile should orient a reader quickly: who this person or channel is, why the lane matters, and where its public output lives.
 
 **Canonical role:**
@@ -22,7 +21,6 @@ Profiles are year-independent lane identity surfaces. They should not be taught 
 
 ```md
 # Strategy expert - <Full name> (`<expert_id>`)
-
 
 **Canonical index:** ...
 

@@ -1,7 +1,5 @@
 # Speaker memory action queue
 
-WORK only; not Record.
-
 Window: `2026-05-06` to `2026-05-10`
 
 - `high` `update-existing-arc` `codex/years/2026/davis/davis-ritter-speaker-arc.md` (1 appearance(s); grades: transcript-bearing)

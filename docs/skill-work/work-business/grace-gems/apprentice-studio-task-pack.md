@@ -1,6 +1,6 @@
 # Apprentice Studio Task Pack - Grace Gems
 
-WORK only. Review-gated. No live customer action without operator approval.
+non-authoritative. Review-gated. No live customer action without operator approval.
 
 ## Purpose
 

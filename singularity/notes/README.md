@@ -1,7 +1,5 @@
 # Singularity Notes
 
-work only; not Record.
-
 This shelf indexes **bounded promoted singularity seams** and other local interpretive objects.
 
 Open [shared prose index](/C:/dev/strategy-continuity/docs/prose-index.md) first when the class decision is still open. This README assumes the answer is already note-class and only explains the local singularity version of that shelf.

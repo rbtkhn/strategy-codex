@@ -32,10 +32,8 @@ from scripts.cadence_conductor_resolution import (
     system_recommended_menu_pick,
 )
 
-
 def _ts(*, day: int = 1, hour: int = 12, minute: int = 0) -> datetime:
     return datetime(2026, 4, day, hour, minute, tzinfo=timezone.utc)
-
 
 def _pick(
     dt: datetime,
@@ -52,10 +50,8 @@ def _pick(
         kv["arc"] = arc
     return {"dt": dt, "kind": "coffee_pick", "user": "grace-mar", "kv": kv, "line": ""}
 
-
 def test_illustration_normalize_legacy_stack():
     assert normalize_conductor_slug("kleiber+toscanini") == "kleiber"
-
 
 def test_illustration_menu_exposes_five_named_conductors_directly():
     assert conductor_slug_for_menu_pick("D1") == "toscanini"
@@ -65,19 +61,16 @@ def test_illustration_menu_exposes_five_named_conductors_directly():
     assert conductor_slug_for_menu_pick("D5") == "kleiber"
     assert conductor_slug_for_menu_pick("D") is None
 
-
 def test_illustration_menu_round_trip_is_stable():
     for slug in ("toscanini", "furtwangler", "bernstein", "karajan", "kleiber"):
         assert menu_pick_for_conductor_slug(slug) == "D"
     assert menu_pick_for_conductor_slug("kleiber+toscanini") == "D"
-
 
 def test_resolve_d_bare_uses_last():
     slug, err = resolve_d_conductor("", last_conductor_slug="bernstein")
     assert slug is None and err == "no_prior"
     _s, err2 = resolve_d_conductor("", last_conductor_slug=None)
     assert err2 == "no_prior"
-
 
 def test_resolve_d_prefix():
     assert resolve_d_conductor("bern", last_conductor_slug=None) == ("bernstein", None)
@@ -87,14 +80,12 @@ def test_resolve_d_prefix():
     assert resolve_d_conductor("k", last_conductor_slug=None)[1] == "ambiguous"
     assert resolve_d_conductor("conductor", last_conductor_slug=None) == (None, "no_match")
 
-
 def test_resolve_d_single_letters_do_not_select_masters():
     """Master-selection letters are deprecated; letters only select resolved actions."""
     assert resolve_d_conductor("B", last_conductor_slug=None) == (None, "no_match")
     assert resolve_d_conductor("b", last_conductor_slug=None) == (None, "no_match")
     assert conductor_submenu_letter_to_slug("D") is None
     assert conductor_submenu_letter_to_slug("x") is None
-
 
 def test_format_conductor_name_prompt_has_no_master_rows():
     text = format_conductor_mcq_block(
@@ -111,19 +102,16 @@ def test_format_conductor_name_prompt_has_no_master_rows():
     assert "**A.**" not in text
     assert "**E.**" not in text
 
-
 def test_build_conductor_mcq_for_user_runs():
     s = build_conductor_mcq_for_user("grace-mar")
     assert "Name a conductor:" in s
     assert "**E.** **Bernstein**" not in s
-
 
 def test_removed_coffee_hub_e_helper_is_name_only():
     s = format_coffee_hub_e_line("grace-mar")
     assert "Conductor is standalone" in s
     assert "**E" not in s
     assert "bernstein" in s
-
 
 def test_illustration_three_kleiber_repetition():
     events = [
@@ -135,7 +123,6 @@ def test_illustration_three_kleiber_repetition():
     assert last_logged_conductor(events) == "kleiber"
     assert last_coffee_pick_conductor_event(events)["kv"]["conductor"] == "kleiber"
 
-
 def test_illustration_rotation_tracks_newest():
     events = [
         _pick(_ts(day=1, hour=8), conductor="kleiber"),
@@ -144,13 +131,11 @@ def test_illustration_rotation_tracks_newest():
     ]
     assert conductor_for_d1_continuation(events) == "karajan"
 
-
 def test_illustration_d2_abc_map():
     assert d2_conductor_from_menu_recommendation("A") == "kleiber"
     assert d2_conductor_from_menu_recommendation("B") == "toscanini"
     assert d2_conductor_from_menu_recommendation("C") == "bernstein"
     assert d2_conductor_from_menu_recommendation("Z") == "furtwangler"
-
 
 def test_illustration_orthogonal_d1_kleiber_d2_bernstein():
     """Last pick can be Kleiber while the helper recommendation points elsewhere."""
@@ -163,7 +148,6 @@ def test_illustration_orthogonal_d1_kleiber_d2_bernstein():
     assert d2 == "bernstein"
     assert system_recommended_menu_pick(assess={"recommended": "C"}) == "D"
 
-
 def test_illustration_focus_tracks_like_conductor():
     events = [
         _pick(_ts(day=1, hour=8), focus="ritter-april", conductor="kleiber"),
@@ -171,14 +155,12 @@ def test_illustration_focus_tracks_like_conductor():
     ]
     assert focus_for_d1_continuation(events) == "mercouris"
 
-
 def test_illustration_dream_worktree_seam_overrides_assess_b():
     dream = {"worktreeAdvice": "merge conflict risk on feature seam"}
     assess = {"recommended": "B"}
     assert d2_conductor_resolved(dream=dream, assess=assess) == "toscanini"
     assert d2_conductor_from_assess_load(assess) == "toscanini"
     assert system_recommended_menu_pick(dream=dream, assess=assess) == "D"
-
 
 def test_illustration_dream_tomorrow_inherits_kleiber():
     assert (
@@ -189,12 +171,10 @@ def test_illustration_dream_tomorrow_inherits_kleiber():
         == "kleiber"
     )
 
-
 def test_illustration_dream_long_arc_hint_prefers_karajan():
     dream = {"summary": "Shape the month arc and rebalance the meta architecture."}
     assert d2_conductor_resolved(dream=dream, assess={"recommended": "C"}) == "karajan"
     assert system_recommended_menu_pick(dream=dream, assess={"recommended": "C"}) == "D"
-
 
 def test_illustration_outcome_parsed_from_snippet(tmp_path):
     user = "grace-mar"
@@ -215,11 +195,9 @@ def test_last_logged_conductor_accepts_new_conductor_pick_shape() -> None:
     events = [_pick(_ts(), picked="conductor", conductor="karajan")]
     assert last_logged_conductor(events) == "karajan"
 
-
 def test_last_logged_conductor_accepts_hub_e_with_conductor() -> None:
     events = [_pick(_ts(), picked="E", conductor="bernstein")]
     assert last_logged_conductor(events) == "bernstein"
-
 
 def test_active_conductor_arc_requires_unclosed_pick() -> None:
     events = [
@@ -238,7 +216,6 @@ def test_active_conductor_arc_requires_unclosed_pick() -> None:
     assert active["focus"] == "front-door"
     assert active["outcome_count"] == 1
 
-
 def test_active_conductor_arc_clears_after_closed_coffee_close() -> None:
     events = [
         _pick(_ts(day=1, hour=8), picked="conductor", conductor="karajan"),
@@ -251,7 +228,6 @@ def test_active_conductor_arc_clears_after_closed_coffee_close() -> None:
         },
     ]
     assert active_conductor_arc(events) is None
-
 
 def test_resolve_active_conductor_movement_uses_latest_open_arc() -> None:
     events = [
@@ -269,7 +245,6 @@ def test_resolve_active_conductor_movement_uses_latest_open_arc() -> None:
         "outcome_count": 0,
     }
 
-
 def test_resolve_active_conductor_movement_returns_none_without_active_arc() -> None:
     events = [
         _pick(_ts(day=1, hour=8), picked="conductor", conductor="kleiber"),
@@ -282,7 +257,6 @@ def test_resolve_active_conductor_movement_returns_none_without_active_arc() -> 
         },
     ]
     assert resolve_active_conductor_movement("d", events) is None
-
 
 def test_closed_arc_stays_dead_after_later_unattributed_outcome() -> None:
     events = [
@@ -311,7 +285,6 @@ def test_closed_arc_stays_dead_after_later_unattributed_outcome() -> None:
     ]
     assert active_conductor_arc(events) is None
     assert resolve_active_conductor_movement("b", events) is None
-
 
 def test_compiled_shortcut_helpers_are_conservative() -> None:
     events = [

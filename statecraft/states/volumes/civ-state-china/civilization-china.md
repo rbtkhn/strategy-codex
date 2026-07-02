@@ -1,6 +1,5 @@
 # Civilization China
 
-
 ## Where This Sits
 
 This is Part 1 of the China CIV-STATE volume. Open it first when the operator needs the right civilizational reading posture before moving into empire or statecraft.

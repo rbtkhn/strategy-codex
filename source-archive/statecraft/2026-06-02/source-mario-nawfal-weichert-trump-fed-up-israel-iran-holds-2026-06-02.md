@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 I think we I think the point is I think the point is all of us would includ [laughter] including including my dear friend yes including my dear friend Leon Hadar who is a practicing Jew and uh [laughter] he he is apparently now an anti-semite because he's written critically of Netanyahu's war. So this is where we are.

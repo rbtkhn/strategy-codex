@@ -30,7 +30,6 @@ Yet, despite a war-weary public, mounting economic strain and politicians who pr
 
 The question now being asked is whether Trump's debacle in Iran will finally break this pattern. Early signs suggest its repercussions may exceed even those of George W Bush's war of choice in Iraq.
 
-
 George W Bush on the nuclear aircraft carrier USS Abraham Lincoln in May 2003, with the 'mission accomplished' banner in the background, barely a month into the Iraq war (Photo: Stephen Jaffe/AFP via Getty)
 George W Bush on the nuclear aircraft carrier USS Abraham Lincoln in May 2003, with the 'mission accomplished' banner in the background, barely a month into the Iraq war (Photo: Stephen Jaffe/AFP via Getty)
 The US actually won the Iraq war in under three weeks. Its military dominance was never in doubt. But it lost the peace, failing to stabilise the country once the insurgency took hold.
@@ -42,7 +41,6 @@ Iran has leveraged geography and asymmetric tactics to blunt American power and 
 The lesson is clear: control of the skies does not guarantee control of outcomes, and without the will to deploy ground forces - and without the ability to translate airpower into decisive results - US military hegemony begins to look increasingly hollow.
 
 Meanwhile, as some experts have pointed out, even though the Iraq war ultimately failed, it did achieve its immediate goal: overthrowing the regime of Saddam Hussein. In Iran, the opposite appears to have happened. Rather than damaging the regime, the war has likely strengthened it and reinforced hard-line control, at a time when it was looking weakened by domestic protests.
-
 
 Air strikes on an oil depot in Tehran on 7 March, 2026 (Photo: Sasan/Middle East Images/AFP)
 Air strikes on an oil depot in Tehran on 7 March, 2026 (Photo: Sasan/Middle East Images/AFP)
@@ -57,7 +55,6 @@ What emerges instead is arguably a different kind of global order: one not defin
 The most likely outcome of the current US-Iran stand-off is neither a deal nor a return to active war, but a prolonged, uneasy equilibrium. That, too, is a sign of the times.
 
 The Trump White House may walk away from negotiations, but it is unlikely to re-enter a full-scale war. Not because the US lacks the capability, but because it lacks the strategic freedom to use it.
-
 
 Pro-regime demonstrators gather with Iranian national flags for a rally in support of the new Supreme Leader in central Tehran (Photo: Atta Kenare/AFP via Getty)
 Pro-regime demonstrators gather with Iranian national flags for a rally in support of the new Supreme Leader in central Tehran (Photo: Atta Kenare/AFP via Getty)

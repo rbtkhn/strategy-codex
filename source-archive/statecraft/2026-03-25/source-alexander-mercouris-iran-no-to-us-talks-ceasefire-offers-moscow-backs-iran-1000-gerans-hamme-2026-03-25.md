@@ -130,4 +130,3 @@ I've said this many times. Anti-Russian policies and rhetoric may be massively p
 
 Now, anyway, this is where I'm going to finish today's program. Let me remind you again, you can find all our programs on our various platforms, Locals, Rumble, and X. You can support our work if you wish via Patreon and SubscribeStar and by going to our shop links under this video. Don't forget to check out our Substack page. That's me for today. More from me soon. Have a very good day.
 
-

@@ -1,6 +1,5 @@
 # Armstrong Index
 
-
 Purpose: front door for the canonical Armstrong shelf.
 
 ## Open First

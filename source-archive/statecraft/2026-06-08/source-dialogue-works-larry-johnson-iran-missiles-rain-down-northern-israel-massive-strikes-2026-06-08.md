@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Monday, June 8, 2026. And our dear friend, our dear dear friend. >> Yeah, you're just saying that to butter me up. Okay. >> Welcome back, Lori. >> Hey, I didn't go anywhere. Okay. I'm Yes, I am back with you. You know, I've been want You've been staying busy, too. You're you're too busy these days.

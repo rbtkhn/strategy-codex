@@ -1,7 +1,6 @@
 # China Art
 <!-- word_count: 553 -->
 
-
 ## Purpose
 
 Use Chinese art as a statecraft lens for calligraphy, painting, music, architecture, sculpture, ritual object, garden, city, landscape, ceremony, infrastructure beauty, disciplined form, imperial continuity, and civilizational refinement.

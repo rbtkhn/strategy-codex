@@ -1,7 +1,6 @@
 # Strategy expert — Robert Pape (`pape`)
 <!-- word_count: 366 -->
 
-
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
 **Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`pape`** lane.

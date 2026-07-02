@@ -55,7 +55,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 >> Well, you know, if the if the pilot uh, you know, the F-35 is a one-seater, so hopefully he didn't have that much laundry to do on this latest flight.

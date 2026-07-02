@@ -46,4 +46,4 @@ The **continuity layer** beneath [statecraft](../statecraft/README.md): dated no
 
 Misc-folder homes (no central registry): see [COMPATIBILITY.md](COMPATIBILITY.md) § Operator books.
 
-WORK only; not Record unless promoted through RECURSION-GATE.
+non-authoritative; not Record unless promoted through RECURSION-GATE.

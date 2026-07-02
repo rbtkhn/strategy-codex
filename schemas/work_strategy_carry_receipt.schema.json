@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://grace-mar.local/schemas/work_strategy_carry_receipt.schema.json",
   "title": "WorkStrategyCarryReceipt",
-  "description": "Derived receipt from run_carry_harness.py — WORK-only; not Record.",
+  "description": "Derived receipt from run_carry_harness.py — ",
   "type": "object",
   "additionalProperties": false,
   "required": [

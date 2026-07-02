@@ -13,8 +13,6 @@ post_id: 199816276
 
 # The Innermost Loop - 2026-05-29
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 29, 2026
@@ -29,10 +27,7 @@ The Singularity is now iterating on itself in public.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now iterating on itself in public. Anthropic launched Opus 4.8 , a “modest but tangible improvement” that still posts a SOTA 69.2% on SWE-Bench Pro, 57.9% on Humanity’s Last Exam with tools, and 1890 on GDPval-AA, pairing fresh honesty gains with misalignment rates that rival the unreleased Mythos Preview, which Anthropic now promises to bring “to all our customers in the coming weeks.” When the safest model is also the strongest, alignment stops being a tax and starts being a moat. That intelligence needs room to run, so Claude Code added dynamic workflows that spin up swarms of parallel subagents to carry codebase-scale migrations across hundreds of thousands of lines from kickoff to merge, with the existing test suite as the only gate. The credit, at least, still goes to humans. Tim Gowers reports that a major additive combinatorics problem just fell to people using methods lifted from the AI solution to the unit distance conjecture, disproving the sum-product conjecture over the reals. Mathematicians are now scavenging spoils from the very intelligence that is quietly outpacing them.
+- The Singularity is now iterating on itself in public. Anthropic launched Opus 4.8 , a “modest but tangible improvement” that still posts a SOTA 69.2% on SWE-Bench Pro, 57.9% on Humanity’s Last Exam with tools, and 1890 on GDPval-AA, pairing fresh honesty gains with misalignment rates that rival the unreleased Mythos Preview, which Anthropic now promises to bring “to all our customers in the coming weeks.” When the safest model is also the strongest, alignment stops being a tax and starts being a moat. That intelligence needs room to run, so Claude Code added dynamic workflows that spin up swarms of parallel subagents to carry codebase-scale migrations across hundreds of thousands of lines from kickoff to merge, with the existing test suite as the only gate. The credit, at least, still goes to humans. Tim Gowers reports that a major additive combinatorics problem just fell to people using methods lifted from the AI solution to the unit distance conjecture, disproving the sum-product conjecture over the reals. Mathematicians are now scavenging spoils from the very intelligence that is quietly outpacing them.
 
 Capital is pricing all of it in. Anthropic raised $65 billion at a $900 billion valuation , vaulting past OpenAI’s $730 billion as the two duel for dominance. Some of that war chest is borrowed. Apollo and Blackstone are shopping a roughly $36 billion debt deal to buy Google TPUs for Anthropic to lease, with Broadcom backstopping the largest tranches and financial engineering now bankrolling silicon engineering. Rivals are regrouping, as Groq raises up to $650 million for a “second act” after a $20 billion Nvidia licensing deal gutted its senior team. The boom shows in the receipts, with Dell’s AI server revenue up 757% to $16.1 billion . Governments want leverage too, so the EU is readying emergency powers to override chip contracts during shortages, while IBM bets $10 billion on a reliable large-scale quantum computer by 2029. Fittingly, ETH Zurich just conjured perfect randomness amplification from quantum physics, manufacturing the one commodity no balance sheet can fake.
 

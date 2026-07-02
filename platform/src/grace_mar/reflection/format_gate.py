@@ -5,10 +5,8 @@ from __future__ import annotations
 import re
 from typing import Any
 
-
 def _yaml_double_quoted(s: str) -> str:
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
-
 
 def _literal_block(s: str, base_indent: str = "    ") -> str:
     if not s.strip():
@@ -18,14 +16,12 @@ def _literal_block(s: str, base_indent: str = "    ") -> str:
         lines.append(base_indent + line)
     return "\n".join(lines) + "\n"
 
-
 def _slug_title(text: str, max_len: int = 52) -> str:
     one = " ".join(text.splitlines()[:1]).strip() or "reflection"
     one = re.sub(r"\s+", " ", one)
     if len(one) > max_len:
         one = one[: max_len - 1].rstrip() + "…"
     return one
-
 
 def build_reflection_candidate_block(
     *,

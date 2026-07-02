@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # UK Banks Warn Starmer Asset Seizure Plan Illegal; Kiev Energy Close To Collapse; Siversk Huiliapole
 
-

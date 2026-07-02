@@ -10,7 +10,6 @@ from scripts.coffee_lane_next_hints import (
     next_work_dev_line,
 )
 
-
 def test_next_work_dev_finds_first_open_item(tmp_path: Path) -> None:
     ws = tmp_path / "docs/skill-work/work-dev"
     ws.mkdir(parents=True)
@@ -29,7 +28,6 @@ def test_next_work_dev_finds_first_open_item(tmp_path: Path) -> None:
     assert "Ship the widget" in line
     assert "#2" in line or "(#2)" in line
 
-
 def test_next_work_dev_all_struck(tmp_path: Path) -> None:
     ws = tmp_path / "docs/skill-work/work-dev"
     ws.mkdir(parents=True)
@@ -42,7 +40,6 @@ def test_next_work_dev_all_struck(tmp_path: Path) -> None:
     )
     line = next_work_dev_line(tmp_path)
     assert "no open item" in line
-
 
 def test_next_academy_singularity_prefers_marked_override(tmp_path: Path) -> None:
     sdir = tmp_path / "singularity/workshop/sheets"
@@ -61,7 +58,6 @@ def test_next_academy_singularity_prefers_marked_override(tmp_path: Path) -> Non
     assert "agent-control-plane.md" in line
     assert "rollback clarity" in line
 
-
 def test_next_academy_singularity_falls_back_to_bridge_when_present(tmp_path: Path) -> None:
     sdir = tmp_path / "singularity/workshop/sheets"
     sdir.mkdir(parents=True)
@@ -70,7 +66,6 @@ def test_next_academy_singularity_falls_back_to_bridge_when_present(tmp_path: Pa
     assert "[statecraft-bridge]" in line
     assert "sovereignty-under-acceleration.md" in line
     assert "institutional carrier" in line
-
 
 def test_next_academy_singularity_falls_back_to_latest_innermost_loop(tmp_path: Path) -> None:
     sdir = tmp_path / "singularity/workshop/sheets"
@@ -81,7 +76,6 @@ def test_next_academy_singularity_falls_back_to_latest_innermost_loop(tmp_path: 
     assert "[pulse]" in line
     assert "innermost-loop-2026-05-17.md" in line
 
-
 def test_next_academy_singularity_falls_back_to_workshop_readme(tmp_path: Path) -> None:
     wdir = tmp_path / "singularity/workshop"
     wdir.mkdir(parents=True)
@@ -89,7 +83,6 @@ def test_next_academy_singularity_falls_back_to_workshop_readme(tmp_path: Path) 
     line = next_academy_singularity_line(tmp_path)
     assert "[reuse]" in line
     assert "singularity/workshop/README.md" in line
-
 
 def test_format_lane_next_hints_two_lines(tmp_path: Path) -> None:
     ws = tmp_path / "docs/skill-work/work-dev"
@@ -111,7 +104,6 @@ def test_format_lane_next_hints_two_lines(tmp_path: Path) -> None:
     assert len(lines) == 2
     assert "Alpha" in lines[0]
     assert "[warning]" in lines[1]
-
 
 def test_assess_session_load_includes_menu_weights() -> None:
     from scripts.assess_session_load import assess_load

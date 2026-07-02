@@ -14,7 +14,6 @@ from import_working_identity_candidates import (  # noqa: E402
     normalize_item,
 )
 
-
 def test_normalize_string_item():
     result = normalize_item(
         "Prefers concise summaries",
@@ -31,7 +30,6 @@ def test_normalize_string_item():
     assert result["source_tool"] == "ChatGPT"
     assert result["supporting_examples"] == []
     assert result["review_status"] == "pending"
-
 
 def test_normalize_object_item():
     raw = {
@@ -51,7 +49,6 @@ def test_normalize_object_item():
     assert result["proposed_target_surface"] == "SKILLS"
     assert result["supporting_examples"] == ["PR review pattern", "Gate review pass"]
 
-
 def test_normalize_empty_claim_returns_empty():
     result = normalize_item("", layer_type="domain_encoding", source_tool="x")
     assert result == {}
@@ -63,7 +60,6 @@ def test_normalize_empty_claim_returns_empty():
     )
     assert result == {}
 
-
 def test_normalize_invalid_confidence_defaults_medium():
     result = normalize_item(
         {"claim": "test", "confidence": "very_high"},
@@ -71,7 +67,6 @@ def test_normalize_invalid_confidence_defaults_medium():
         source_tool="x",
     )
     assert result["confidence"] == "medium"
-
 
 def test_normalize_invalid_durability_defaults_recurring():
     result = normalize_item(
@@ -81,13 +76,11 @@ def test_normalize_invalid_durability_defaults_recurring():
     )
     assert result["durability_class"] == "recurring"
 
-
 def test_layer_to_surface_mapping():
     assert LAYER_TO_SURFACE["domain_encoding"] == "SELF-LIBRARY"
     assert LAYER_TO_SURFACE["workflow_calibration"] == "SKILLS"
     assert LAYER_TO_SURFACE["behavioral_calibration"] == "SELF"
     assert LAYER_TO_SURFACE["artifact_rationale"] == "EVIDENCE"
-
 
 def test_extract_candidates_full():
     data = {
@@ -123,7 +116,6 @@ def test_extract_candidates_full():
     assert candidates[3]["sensitivity_class"] == "review_required"
     assert candidates[3]["claim"] == "May reference internal project names"
 
-
 def test_extract_candidates_empty_sections():
     data = {
         "domain_encoding": [],
@@ -133,7 +125,6 @@ def test_extract_candidates_empty_sections():
     }
     candidates = extract_candidates(data, source_tool="x")
     assert candidates == []
-
 
 def test_extract_candidates_missing_sections():
     data = {"domain_encoding": [{"claim": "test", "confidence": "low"}]}

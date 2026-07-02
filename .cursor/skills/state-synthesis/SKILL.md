@@ -297,7 +297,6 @@ If verification cannot be completed:
 - stop before archive land, synthesis, publication, or promotion
 - return a bounded partial result for operator review
 
-
 ## Cursor / strategy-codex instance
 
 **strategy-codex instance notes**

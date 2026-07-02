@@ -1,6 +1,5 @@
 # Russia - Egypt Debt / Suez / Bread Legitimacy Framework
 
-
 ## Transaction Name
 
 Egypt grain and canal stability diplomacy.

@@ -1,6 +1,5 @@
 # Macgregor Source Index
 
-
 Purpose: exhaustive route map for every resolved Macgregor appearance currently materialized in Statecraft Archive, including host transcripts, shorthand day files, and aired-pending surfaces.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index macgregor` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)

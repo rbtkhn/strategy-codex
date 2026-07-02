@@ -234,7 +234,6 @@ EXCERPT_OVERRIDES: dict[tuple[str, str], dict] = {
     },
 }
 
-
 def load_v1_touchpoints() -> list[dict]:
     data = json.loads(FREEMAN_PREDICTIONS_JSON.read_text(encoding="utf-8"))
     rows: list[dict] = []
@@ -252,7 +251,6 @@ def load_v1_touchpoints() -> list[dict]:
             )
     return rows
 
-
 def apply_overrides(row: dict) -> dict:
     key = (row["event_id"], row["capture"])
     override = EXCERPT_OVERRIDES.get(key)
@@ -262,10 +260,8 @@ def apply_overrides(row: dict) -> dict:
     merged.update(override)
     return merged
 
-
 def finalize_row(row: dict, capture_body: str) -> dict:
     return dict(row)
-
 
 def validate_curated_capture_map(
     capture_map_path: Path = FREEMAN_CAPTURE_MAP,
@@ -278,7 +274,6 @@ def validate_curated_capture_map(
         public_map_path=public_map_path,
     )
 
-
 def build_rows() -> list[dict]:
     rows: list[dict] = []
     for row in load_v1_touchpoints():
@@ -286,7 +281,6 @@ def build_rows() -> list[dict]:
         _, body = parse_capture_frontmatter(cap_path.read_text(encoding="utf-8"))
         rows.append(finalize_row(apply_overrides(row), body))
     return rows
-
 
 def validate_rows(rows: list[dict], public_map: dict[str, dict]) -> list[str]:
     issues: list[str] = []
@@ -312,7 +306,6 @@ def validate_rows(rows: list[dict], public_map: dict[str, dict]) -> list[str]:
             issues.append(f"{label}: {err}")
     return issues
 
-
 def write_map(rows: list[dict], *, dry_run: bool = False) -> None:
     payload = {
         "_meta": {
@@ -331,7 +324,6 @@ def write_map(rows: list[dict], *, dry_run: bool = False) -> None:
         newline="\n",
     )
     print(f"[ok] wrote {FREEMAN_CAPTURE_MAP.relative_to(REPO_ROOT)} ({len(rows)} rows)")
-
 
 def main() -> int:
     dry_run = "--dry-run" in sys.argv
@@ -356,7 +348,6 @@ def main() -> int:
         return 1
     write_map(rows, dry_run=dry_run)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

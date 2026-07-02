@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-01-10 (*The End of a Dream?*)
 <!-- word_count: 4569 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-01-10 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 4570
@@ -290,7 +289,6 @@ I, too, have a dream.
 
 Together we can help make it come true.
 
-
 ### Reflection
 
 **Operator note:** Long US–Russia arms-control / disarmament advocacy essay (Alaska process, GORKI mock negotiation plan, Oreshnik, Golden Dome, fundraising CTA). Attributed claims re CIA, drone strike, budgets—essay ≠ wire. Light cleanup of operator/Substack OCR-style errors only (e.g. breath/breathe, gown/grown).
@@ -313,14 +311,11 @@ Oreshnik / long-range fires: keep launch geography, basing, and escalation reads
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

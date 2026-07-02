@@ -1,7 +1,5 @@
 # Interpretive Machine Lineage
 
-work only; not Record.
-
 ## Purpose
 
 This note traces the academic lineage behind the formulation:

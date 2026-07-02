@@ -1,7 +1,6 @@
 # Mearsheimer strategy page — 2026-03-29 (*Will Trump Go Kamikaze?*)
 <!-- word_count: 1015 -->
 
-
 **Expert:** `mearsheimer` · **Published:** 2026-03-29 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`mearsheimer-page-…` under `experts/mearsheimer/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 1015
@@ -46,7 +45,6 @@ Maybe with some luck we could take a small island in the Persian Gulf, but I don
 - [Wall Street Journal — What an influx of 17,000 U.S. troops could mean for the Iran war](https://www.wsj.com/politics/national-security/what-an-influx-of-17-000-u-s-troops-could-mean-for-the-iran-war-7569afea)
 - [Washington Post — Trump, Iran, ground troops, Marines](https://www.washingtonpost.com/national-security/2026/03/28/trump-iran-ground-troops-marines/)
 
-
 ### Reflection
 
 **Operator note:** Operator paste; public Substack essay. Published date per operator (2026-03-29); Substack byline may read Mar 30, 2026 by timezone. ORBAT counts (~40k regional vs organized combat troops, 82nd ~2k, 31st MEU ~2.5k, 11th MEU mid-April, hypothetical +10k → ~17k), “13 major US installations” damage, million-man Iranian mobilization, USS Iwo Jima / Boxer — in-voice; verify DOD/wire/press if promoted to §1. Paste had “President Troop”; normalized to Trump below.
@@ -64,13 +62,11 @@ Maybe with some luck we could take a small island in the Persian Gulf, but I don
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Mearsheimer on same lane? Wire boundary before chapter synthesis?
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

@@ -13,8 +13,6 @@ post_id: 201013850
 
 # The Innermost Loop - 2026-06-07
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to June 7, 2026
@@ -29,10 +27,7 @@ The Singularity is being drafted into a public-private partnership.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is being drafted into a public-private partnership. The President says he is interested in having the US government hold equity stakes in leading AI labs. OpenAI is already at the table, reportedly weighing donating equity to seed a “Public Wealth Fund” so citizens share the upside. The left flank wants more, as Altman also met Sen. Sanders, who plans a bill transferring 50% of top labs’ equity to a public fund. When the upside is this steep, everyone wants on the cap table.
+- The Singularity is being drafted into a public-private partnership. The President says he is interested in having the US government hold equity stakes in leading AI labs. OpenAI is already at the table, reportedly weighing donating equity to seed a “Public Wealth Fund” so citizens share the upside. The left flank wants more, as Altman also met Sen. Sanders, who plans a bill transferring 50% of top labs’ equity to a public fund. When the upside is this steep, everyone wants on the cap table.
 
 Yet the agents still get winded. The new SWE-Marathon benchmark strings together twenty multi-hour engineering tasks, and even frontier models resolve under 19%, losing the thread over hours. The market is betting the next model fixes that, with Polymarket giving an 84% chance Claude Mythos ships by next month’s end. Until then, thrift rules. CFOs are reining in spending and enterprises are routing hard tasks to frontier models , and easy ones to rivals, threatening OpenAI’s and Anthropic’s premium valuations. Google is supplying that cheap end with quantization-aware Gemma 4 checkpoints shrinking the E2B model below 1GB for phones.
 

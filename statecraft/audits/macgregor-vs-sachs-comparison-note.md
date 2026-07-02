@@ -1,6 +1,5 @@
 # Macgregor vs Sachs comparison note
 
-
 Purpose: compare Macgregor and Sachs on the same Iran / oil / legitimacy terrain without flattening force-feasibility argument, structural exit logic, and negotiation critique into one anti-war bucket.
 
 ## Maturity note

@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-01-05 (*The Sanctions Shield*)
 <!-- word_count: 2663 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-01-05 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 2664
@@ -122,7 +121,6 @@ Sanctions are the chosen vector for this policy to reach fruition.
 
 Therefore, if Russia desires to avoid being caught up in the regime change policy construct of the United States, it has no choice but to do everything possible to keep the sanctions imposed against it by the collective West in place in order to shield itself from the destructive forces of corruption and greed that are an inherent part of any “economic engagement” with the West—especially with the United States under the rule of the most transactionally-minded President in US history, Donald Trump.
 
-
 ### Reflection
 
 **Operator note:** Advocacy essay on sanctions as regime-change lever and “sanctions shield” thesis; cites Syria 2024, Venezuela, Iran, Dugin, Karaganov. Scenario-heavy claims—essay ≠ wire. Light cleanup of operator/OCR errors only.
@@ -145,13 +143,11 @@ Sanctions thread: track whether the piece is arguing mechanism (elite leverage, 
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

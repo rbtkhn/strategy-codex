@@ -1,7 +1,6 @@
 # T-C-L-D audit for strategy-codex
 <!-- word_count: 901 -->
 
-
 **Purpose:** Apply the **Theater / Commodity / On-the-Line / Durable** audit to strategy-codex so the notebook compounds **judgment**, not just archive volume or operator reassurance.
 
 ## Core claim

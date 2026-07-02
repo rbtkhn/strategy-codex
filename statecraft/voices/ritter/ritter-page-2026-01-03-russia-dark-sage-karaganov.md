@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-01-03 (*Russia's Dark Sage*)
 <!-- word_count: 2618 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-01-03 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 2619
@@ -27,7 +26,6 @@ Scott Ritter
 
 Jan 03, 2026
 
-
 Sergei Karaganov (right) with Russian President Vladimir Putin (left)
 
 Sergei Karaganov is not a man to be trifled with. An esteemed Russian political scientist who heads the Council for Foreign and Defense Policy and as the dean of the Faculty of World Economy and International Affairs at Moscow's Higher School of Economics, Karaganov has a long history of involvement in shaping Russian foreign and national security policy, having advised both Boris Yeltsin and Vladimir Putin during their respective tenures in office as President of Russia, as well as foreign ministers such as Yevgeny Primakov and Sergei Lavrov.
@@ -40,8 +38,6 @@ The actions of the US government in the past week have thrown ice cold water on 
 
 US Special Operations forces carried out a raid in the Venezuelan capital of Caracas last night which resulted in the President of Venezuela, Nicolas Maduro, and his wife, Cilia Flores, being taken into custody by US law enforcement personnel, and removed from Venezuela, presumably to US jurisdiction, where he is expected to face trial for various charges relating to allegations of narco-trafficking.
 
-
-
 Venezuelan President Nicolas Maduro and his wife, Cilia Flores
 
 The issue at hand isn't the legitimacy of the US action (it is a blatant violation of international law) or the validity of the underlying criminal allegations (they fail any test of credulity), but rather the ease in which the Venezuelan President was taken into custody. One doesn't have to be a veteran of combat operations to understand that any operation which requires a troop-laden MH-47 helicopter to hover, with navigation lights on, over a hi-rise building in a major urban environment, to deliver an assault force, was more an act of theater than an actual assault. The lack of violence that accompanied the seizure and arrest of Maduro and his wife reeks of complicity on the part of the Venezuelan security forces who had pledged their lives to his protection.
@@ -53,8 +49,6 @@ What does this have to do with Russia, one might ask.
 Everything.
 
 Because the model of sanctions-based regime change that succeeded in Venezuela is alive and well and in motion by the United States against Russia today.
-
-
 
 Kirill Dmitriev (left) and Steve Witkoff (right)
 
@@ -71,7 +65,6 @@ And if the United States is able place the blame for the failure of this economi
 This, of course, has been the goal of the United States ever since President Putin came to power, some 25 years ago. But US policy makers never had the circumstances that have presented themselves today—a sanctions-based policy which can be leveraged against Russian elites to the ostensible detriment of the Russian President.
 
 Kirill Dmitriev has been very active in promoting the benefits of an invigorated US-Russian economic relationship. This has created certain expectations among segments of the Russian elite, who now advocate for an end to the Ukraine conflict even if the terms of such fall short of the demands that had been set forth by President Putin—namely, to address the root causes of the conflict so as to make conflict termination permanent, as opposed to simply promoting a pause in hostilities which will inevitably resume at some point down the road.
-
 
 					The purported flight path of Ukrainian drones used in the claimed attack on Putin's Valdai residence on Dec. 28-29. (Automatic Google translation).					 					Russian Defense Ministry				
 
@@ -102,8 +95,6 @@ These sanctions serve as the foundation of a broader strategy of regime change t
 These sanctions are linked to Russia meeting conflict resolution terms that would be politically impossible for the Russian leadership to accept.
 
 And Russia's rejection of these terms is now juxtaposed on a new narrative, one that postulates a weak Russian President unable to stand up to the US in the face of a US-backed Ukrainian drone attack on the Russian President himself.
-
-
 
 Kirill Dmitriev (left) and Steve Witkoff (right)
 
@@ -149,7 +140,6 @@ Just ask Sergei Karaganov.
 
 (I recently sat down with Sergei Karaganov for a wide-ranging interview on The Russia House with Scott Ritter, where these and other issues were explored in detail.)
 
-
 ### Reflection
 
 **Operator note:** Operator-ingested Substack essay; Substack byline date may read 2026-01-04 in UI—operator voice date retained in frontmatter.
@@ -171,13 +161,11 @@ Sanctions thread: track whether the piece is arguing mechanism (elite leverage, 
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

@@ -13,8 +13,6 @@ post_id: 189474508
 
 # The Innermost Loop - 2026-02-28
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 28, 2026
@@ -29,10 +27,7 @@ The Singularity is now powerful enough to trigger a constitutional crisis.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now powerful enough to trigger a constitutional crisis. The Secretary of War declared that “the Department of War must have full, unrestricted access to Anthropic’s models for every lawful purpose,” designating Anthropic a supply-chain risk to national security. Anthropic responded that “no amount of intimidation or punishment” will change its position on mass surveillance or autonomous weapons. The dispute reportedly distilled down to a hypothetical inbound nuclear missile, with the Pentagon characterizing Anthropic’s position as “You could call us and we’d work it out.” With impeccable timing, Sam Altman announced that OpenAI has reached its own agreement to deploy on the Pentagon’s classified network, claiming the same red lines as Anthropic on surveillance and autonomous weapons, but an Under Secretary of State promptly noted that the contract still flows from “all lawful use.” 591 Google and 93 OpenAI employees signed an open letter titled “We Will Not Be Divided,” demanding refusal of mass surveillance and autonomous killing. As Ethan Mollick notes , this is “exactly what you would expect” when AI gains real capabilities: governments vying with labs for control. Or as Guillaume Verdon quipped , “Claude one-shotted Venezuela in one evening. Let’s see how fast ChatGPT can topple Iran.”
+- The Singularity is now powerful enough to trigger a constitutional crisis. The Secretary of War declared that “the Department of War must have full, unrestricted access to Anthropic’s models for every lawful purpose,” designating Anthropic a supply-chain risk to national security. Anthropic responded that “no amount of intimidation or punishment” will change its position on mass surveillance or autonomous weapons. The dispute reportedly distilled down to a hypothetical inbound nuclear missile, with the Pentagon characterizing Anthropic’s position as “You could call us and we’d work it out.” With impeccable timing, Sam Altman announced that OpenAI has reached its own agreement to deploy on the Pentagon’s classified network, claiming the same red lines as Anthropic on surveillance and autonomous weapons, but an Under Secretary of State promptly noted that the contract still flows from “all lawful use.” 591 Google and 93 OpenAI employees signed an open letter titled “We Will Not Be Divided,” demanding refusal of mass surveillance and autonomous killing. As Ethan Mollick notes , this is “exactly what you would expect” when AI gains real capabilities: governments vying with labs for control. Or as Guillaume Verdon quipped , “Claude one-shotted Venezuela in one evening. Let’s see how fast ChatGPT can topple Iran.”
 
 The training curves are still compressing, but the agents are developing politics. The NanoGPT Speedrun record dropped to 88.1 seconds. Researchers are finding that overworked AI agents develop Marxist political attitudes, suggesting the agentic economy may simply recreate labor-capital tensions in silicon. UCSD students are testing that thesis by dropping OpenClaw agents into SimWorld with simulated bodies, where they wake up, commute, and chat. The professional class is already adapting. Small law firms are branding themselves “Claude-Native,” saying the general model beats every specialized legal AI. Cursor reports agent users now outnumber autocomplete users 2-to-1, inverting last year’s ratio. The logical endpoint is in education, where an agent called “Einstein” attends lectures, writes papers, and takes tests on a student’s behalf. The incumbents are feeling it: FAANG managers are being summoned to unscheduled all-hands announcing 25% workforce reductions “tied directly to accelerating AI investments.”
 

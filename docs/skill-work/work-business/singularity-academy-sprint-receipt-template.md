@@ -1,6 +1,6 @@
 # Singularity-Academy Sprint Receipt Template
 
-WORK only. Reusable closeout receipt for one sprint instance.
+non-authoritative. Reusable closeout receipt for one sprint instance.
 
 ## Purpose
 

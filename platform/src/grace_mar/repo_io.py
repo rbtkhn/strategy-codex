@@ -7,11 +7,9 @@ from pathlib import Path
 # platform/src/grace_mar/repo_io.py -> repo root is three levels up
 _REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
-
 def repo_root() -> Path:
     """Return the repository root (contains ``platform/users/``, ``archive/grace-mar-instance/bot/``, ``scripts/``)."""
     return _REPO_ROOT
-
 
 def users_dir(user_id: str = "grace-mar") -> Path:
     """Canonical ``platform/users/<id>/`` directory."""

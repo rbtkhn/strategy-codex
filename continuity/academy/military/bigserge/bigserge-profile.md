@@ -1,7 +1,6 @@
 # Strategy expert Ã¢â‚¬â€ `bigserge`
 <!-- word_count: 780 -->
 
-
 **Canonical index:** [strategy-commentator-threads.md](../../../strategy-commentator-threads.md) Ã¢â‚¬â€ **`bigserge`** lane.
 
 ---

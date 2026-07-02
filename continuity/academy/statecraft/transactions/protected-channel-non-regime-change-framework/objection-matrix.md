@@ -1,7 +1,6 @@
 # Protected Channel / Non-Regime-Change Framework - Objection Matrix
 <!-- word_count: 955 -->
 
-
 Purpose: stress-test the protected-channel / non-regime-change framework against the main actor-specific resistance points before further clause hardening. This matrix separates public objection from the real concern and names the best immediate patch.
 
 ## Matrix

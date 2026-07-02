@@ -6,7 +6,7 @@ Task: produce the full Markdown body for a repaired `codex/2026/speakers/sachs/s
 
 Requirements:
 
-- Preserve `WORK only; not Record.`
+- Preserve ``
 - Include one explicit `object_shape: cross-host-reinforced` line.
 - Use the canonical speaker object template as the shape guide, but do not leave placeholders.
 - Explain why Sachs is a durable speaker object rather than only a guest in scattered host lanes.

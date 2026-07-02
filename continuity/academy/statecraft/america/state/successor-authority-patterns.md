@@ -1,7 +1,6 @@
 # Successor Authority Patterns
 <!-- word_count: 193 -->
 
-
 Use this note when the America lane needs to test whether an instrument survives a possible U.S. federal rupture, constitutional crisis, civil conflict, or reconstitution of continental authority.
 
 ## Civilizational Pattern Link

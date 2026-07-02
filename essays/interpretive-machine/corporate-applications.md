@@ -1,7 +1,5 @@
 # Interpretive Machine Corporate Applications
 
-work only; not Record.
-
 ## Purpose
 
 This note preserves a focused product and strategy claim:

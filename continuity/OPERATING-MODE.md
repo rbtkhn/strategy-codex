@@ -48,4 +48,4 @@ Capture through the day; once per day (default) run **`strategy page`** or **`st
 
 **Cognition streams** = interpretive voices; **thread handles** = routing joins; **watches** = evolving situation; **days** = chronology in `chapters/YYYY-MM/days.md`; **pages** = primary analytical unit (`strategy-page` in threads).
 
-WORK only; not Record unless promoted through RECURSION-GATE.
+non-authoritative; not Record unless promoted through RECURSION-GATE.

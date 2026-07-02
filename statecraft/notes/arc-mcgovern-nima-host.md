@@ -16,7 +16,6 @@ archive_links:
 
 # Alkorshid x McGovern speaker arc
 
-
 Purpose: compact reuse note for the `Alkorshid x McGovern` run inside the Alkhorshid / Dialogue Works stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of McGovern lane this host elicits, which full-form episodes matter most, and how this branch differs from the Diesen McGovern lane.
 
 ## Orthogonality guide

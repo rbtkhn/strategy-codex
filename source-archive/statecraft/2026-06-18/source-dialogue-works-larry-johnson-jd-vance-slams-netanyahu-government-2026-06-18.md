@@ -60,7 +60,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Thursday, June 18, 2026, and our dear friend Larry Johnson is here with us. Welcome back, Larry. >> Man, every day, boy, you're gonna >> Exactly. >> You're just going to have to rent me a room at at your place. And >> you may come to Brazil. >> Yeah. >> Do it together. >> That'll be That'll be easier.

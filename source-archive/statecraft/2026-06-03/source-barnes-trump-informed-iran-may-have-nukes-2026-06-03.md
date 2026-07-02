@@ -32,7 +32,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Robert so where do we start you choose where we start man there's a whole list of things well you know it's a little a bit of an off uh uh bit beat story that isn't getting the center of attention but some attention but really tells a lot of the story is the have you followed any of these albanian protests over this real estate development the uh so it turns out the real estate development is by jared kushner and ivanka trump who are going to redesign an island in the mediterranean uh off the albanian coast that's actually a preserved natural preserve supposed to be all this there's they're going to put like fancy resorts on all the rest the uh they got inside sweetheart corrupt deals to go through the albanian parliament apparently the protesters are like firebombing the prime minister's house that kind of thing is how the protest level has risen up to it but the ivanka trump and jared kushner apparently recently admitted uh you know ivanka Trump told a story that sounded like Jekyll Island, the famous island that they've created the Federal Reserve when the elite New Yorkers used to summer in off the coast of South Carolina.

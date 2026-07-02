@@ -11,7 +11,6 @@ if str(SCRIPTS) not in sys.path:
 
 import audit_hormuz_mistranscriptions as audit  # noqa: E402
 
-
 def test_find_direct_findings_catches_first_wave_variants() -> None:
     body = (
         "Iran can shut the straight of hormones.\n"
@@ -27,7 +26,6 @@ def test_find_direct_findings_catches_first_wave_variants() -> None:
     assert "trade of hormones" in matches
     assert "straight of / Hormos" in matches
     assert all(finding.suspected_target == "Strait of Hormuz" for finding in findings)
-
 
 def test_find_direct_findings_catches_second_wave_phrase_variants() -> None:
     body = (
@@ -48,7 +46,6 @@ def test_find_direct_findings_catches_second_wave_phrase_variants() -> None:
     assert "straight of Barmuz" in matches
     assert all(finding.tier == "high_confidence" for finding in findings)
 
-
 def test_find_direct_findings_catches_hermuz_and_hormuse_family() -> None:
     body = (
         "The Straits of Hermuz remain blocked.\n"
@@ -66,14 +63,12 @@ def test_find_direct_findings_catches_hermuz_and_hormuse_family() -> None:
     assert "street Hermuz" in matches
     assert all(finding.tier == "high_confidence" for finding in findings)
 
-
 def test_find_direct_findings_does_not_promote_clipped_her_fragment() -> None:
     body = "Oman may collect tolls from the straight of her with Iran."
 
     findings = audit.find_direct_findings(REPO_ROOT / "source-archive" / "statecraft" / "2026-05-27" / "sample.md", body)
 
     assert findings == []
-
 
 def test_find_direct_findings_ignores_correct_mentions() -> None:
     body = (
@@ -85,7 +80,6 @@ def test_find_direct_findings_ignores_correct_mentions() -> None:
 
     assert findings == []
 
-
 def test_find_direct_findings_labels_generic_noun_flattening() -> None:
     body = "Managed traffic continued in the street of Ormuz."
 
@@ -95,7 +89,6 @@ def test_find_direct_findings_labels_generic_noun_flattening() -> None:
     assert findings[0].tier == "high_confidence"
     assert findings[0].reason_code == "generic_noun_flattening"
 
-
 def test_find_direct_findings_uses_medium_for_weaker_phonetic_variant() -> None:
     body = "The navy cannot reopen the straight of Hormone under these conditions."
 
@@ -104,7 +97,6 @@ def test_find_direct_findings_uses_medium_for_weaker_phonetic_variant() -> None:
     assert len(findings) == 1
     assert findings[0].tier == "medium_confidence"
     assert findings[0].reason_code == "phonetic_variant"
-
 
 def test_context_only_for_hormuz_titled_transcript_without_direct_variant(tmp_path: Path) -> None:
     path = tmp_path / "transcript-johnson-hormuz-example.md"
@@ -125,7 +117,6 @@ def test_context_only_for_hormuz_titled_transcript_without_direct_variant(tmp_pa
     assert findings[0].tier == "context_only"
     assert findings[0].reason_code == "title_body_divergence"
 
-
 def test_context_only_skips_when_body_already_mentions_hormuz(tmp_path: Path) -> None:
     path = tmp_path / "transcript-johnson-hormuz-clean-body.md"
     text = (
@@ -142,7 +133,6 @@ def test_context_only_skips_when_body_already_mentions_hormuz(tmp_path: Path) ->
     findings = audit.audit_path(path)
 
     assert findings == []
-
 
 def test_context_only_skips_when_title_body_divergence_is_reviewed(tmp_path: Path) -> None:
     path = tmp_path / "transcript-johnson-hormuz-reviewed.md"
@@ -162,7 +152,6 @@ def test_context_only_skips_when_title_body_divergence_is_reviewed(tmp_path: Pat
 
     assert findings == []
 
-
 def test_audit_excludes_non_transcript_docs(tmp_path: Path) -> None:
     path = tmp_path / "note.md"
     path.write_text("# Notes\n\nThe straight of hormones appears in this essay example.\n", encoding="utf-8")
@@ -170,7 +159,6 @@ def test_audit_excludes_non_transcript_docs(tmp_path: Path) -> None:
     findings = audit.audit_path(path)
 
     assert findings == []
-
 
 def test_main_writes_json_and_markdown_outputs(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft" / "2026-02-17"
@@ -208,7 +196,6 @@ def test_main_writes_json_and_markdown_outputs(tmp_path: Path) -> None:
     assert payload["summary"]["candidate_files"] == 1
     assert payload["summary"]["total_findings"] >= 1
     assert "straight of hormones" in md_path.read_text(encoding="utf-8")
-
 
 def test_main_accepts_relative_output_dir(tmp_path: Path, monkeypatch) -> None:
     root = tmp_path / "source-archive" / "statecraft" / "2026-02-17"

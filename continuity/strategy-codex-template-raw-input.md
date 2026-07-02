@@ -2,7 +2,6 @@
 <!-- word_count: 511 -->
 <!-- word_count: canonical scaffold -->
 
-
 **Purpose:** Canonical raw-input template for strategy-codex. This file owns the literal capture scaffold below codex-pages, strategy-pages, chapters, and books.
 
 **Companion contracts:** [NOTEBOOK-CONTRACT.md](NOTEBOOK-CONTRACT.md) · [STRATEGY-NOTEBOOK-ARCHITECTURE.md](STRATEGY-NOTEBOOK-ARCHITECTURE.md)

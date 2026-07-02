@@ -1,6 +1,5 @@
 # Johnson routing
 
-
 Purpose: make the Johnson speaker object fast to route without duplicating host chronology.
 
 ## Core Rule

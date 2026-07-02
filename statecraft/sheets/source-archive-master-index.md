@@ -2,7 +2,7 @@
 
 Generated: `2026-06-29 02:30:28Z`
 
-WORK only; not Record. This file is generated from the on-disk source-archive tree.
+This file is generated from the on-disk source-archive tree.
 
 Authority rule: the dated source-archive folders remain authoritative.
 
@@ -73,7 +73,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 
 ## 2023-01
 
-
 ### 2023-01-14 (3)
 
 - [README.md](C:/dev/strategy-continuity/source-archive/statecraft/2023-01-14/README.md) — Statecraft Archive - 2023-01-14 | `kind:(none)` | `form:(none)` | `body:short-body`
@@ -81,7 +80,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md](C:/dev/strategy-continuity/source-archive/statecraft/2023-01-14/source-glenn-diesen-mercouris-karaganov-greater-europe-greater-eurasia-2023-01-14.md) — Russia, from Greater Europe to Greater Eurasia w/Sergey Karaganov, Alexander Mercouris, Glenn Diesen | `kind:transcript` | `form:interview` | `body:full-transcript-body` | `thread:karaganov` | `host:Glenn Diesen` | `guest:Alexander Mercouris; Sergey Karaganov` | `grade:transcript-bearing`
 
 ## 2024-01
-
 
 ### 2024-01-28 (3)
 
@@ -91,7 +89,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 
 ## 2024-10
 
-
 ### 2024-10-21 (3)
 
 - [README.md](C:/dev/strategy-continuity/source-archive/statecraft/2024-10-21/README.md) — Statecraft Archive - 2024-10-21 | `kind:(none)` | `form:(none)` | `body:short-body`
@@ -100,7 +97,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 
 ## 2024-12
 
-
 ### 2024-12-16 (3)
 
 - [README.md](C:/dev/strategy-continuity/source-archive/statecraft/2024-12-16/README.md) — Statecraft Archive - 2024-12-16 | `kind:(none)` | `form:(none)` | `body:short-body`
@@ -108,7 +104,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-vatican-city-state-ai-guidelines-dccii-2024-12-16.md](C:/dev/strategy-continuity/source-archive/statecraft/2024-12-16/source-vatican-city-state-ai-guidelines-dccii-2024-12-16.md) — Decree N. DCCII — Linee Guida in materia di intelligenza artificiale | `kind:institutional-primary` | `form:vatican_official_pdf` | `body:non-transcript`
 
 ## 2025-01
-
 
 ### 2025-01-01 (4)
 
@@ -404,7 +399,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 
 ## 2025-02
 
-
 ### 2025-02-02 (3)
 
 - [README.md](C:/dev/strategy-continuity/source-archive/statecraft/2025-02-02/README.md) — Statecraft Archive - 2025-02-02 | `kind:(none)` | `form:(none)` | `body:short-body`
@@ -531,7 +525,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-daniel-davis-white-house-tussle-trump-v-zelensky-prof-john-mearsheimer-2025-02-28.md](C:/dev/strategy-continuity/source-archive/statecraft/2025-02-28/source-daniel-davis-white-house-tussle-trump-v-zelensky-prof-john-mearsheimer-2025-02-28.md) — White House Tussle! Trump v. Zelensky / Prof John Mearsheimer | `kind:transcript` | `form:interview` | `body:full-transcript-body` | `thread:davis` | `host:Daniel Davis` | `guest:John Mearsheimer` | `grade:transcript-bearing`
 
 ## 2025-03
-
 
 ### 2025-03-01 (4)
 
@@ -661,7 +654,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-dialogue-works-amb-chas-freeman-will-iran-get-backup-from-russia-and-china-against-the-u-s-2025-03-28.md](C:/dev/strategy-continuity/source-archive/statecraft/2025-03-28/source-dialogue-works-amb-chas-freeman-will-iran-get-backup-from-russia-and-china-against-the-u-s-2025-03-28.md) — Amb. Chas Freeman: Will Iran Get Backup From Russia & China Against the U.S.? | `kind:transcript` | `form:interview` | `body:full-transcript-body` | `thread:freeman` | `host:Nema` | `guest:Chas Freeman` | `grade:transcript-bearing`
 
 ## 2025-04
-
 
 ### 2025-04-01 (4)
 
@@ -875,7 +867,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-alexander-mercouris-trump-warns-kiev-no-more-weapons-trump-threatens-moscow-more-sanctions-russia-unfazed-by-warning-2025-04-30.md](C:/dev/strategy-continuity/source-archive/statecraft/2025-04-30/source-alexander-mercouris-trump-warns-kiev-no-more-weapons-trump-threatens-moscow-more-sanctions-russia-unfazed-by-warning-2025-04-30.md) — Trump warns Kiev, no more weapons. Trump threatens Moscow, more sanctions. Russia unfazed by warning | `kind:transcript` | `form:solo` | `body:full-transcript-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:transcript-bearing`
 
 ## 2025-05
-
 
 ### 2025-05-01 (5)
 
@@ -1098,7 +1089,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 
 ## 2025-06
 
-
 ### 2025-06-01 (3)
 
 - [README.md](C:/dev/strategy-continuity/source-archive/statecraft/2025-06-01/README.md) — Statecraft Archive - 2025-06-01 | `kind:(none)` | `form:(none)` | `body:short-body`
@@ -1254,7 +1244,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 
 ## 2025-07
 
-
 ### 2025-07-02 (3)
 
 - [README.md](C:/dev/strategy-continuity/source-archive/statecraft/2025-07-02/README.md) — Statecraft Archive - 2025-07-02 | `kind:(none)` | `form:(none)` | `body:short-body`
@@ -1363,7 +1352,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-diesen-sachs-at-the-precipice-of-world-war-3-2025-07-30.md](C:/dev/strategy-continuity/source-archive/statecraft/2025-07-30/source-diesen-sachs-at-the-precipice-of-world-war-3-2025-07-30.md) — Jeffrey Sachs: At the Precipice of World War 3 | `kind:transcript` | `form:interview` | `body:full-transcript-body` | `thread:diesen` | `host:Glenn Diesen` | `guest:Jeffrey Sachs` | `grade:transcript-bearing`
 
 ## 2025-08
-
 
 ### 2025-08-01 (5)
 
@@ -1524,7 +1512,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-judging-freedom-sachs-rubios-shameful-and-illegal-interference-with-the-un-2025-08-29.md](C:/dev/strategy-continuity/source-archive/statecraft/2025-08-29/source-judging-freedom-sachs-rubios-shameful-and-illegal-interference-with-the-un-2025-08-29.md) — [BREAKING SPECIAL]: Rubio's Shameful and Illegal Interference With the UN. w/ Prof. Jeffrey Sachs | `kind:transcript` | `form:interview` | `body:full-transcript-body` | `thread:napolitano` | `host:Andrew Napolitano` | `guest:Jeffrey Sachs` | `grade:transcript-bearing`
 
 ## 2025-09
-
 
 ### 2025-09-02 (3)
 
@@ -1688,7 +1675,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-judging-freedom-sachs-netanyahu-stumbles-2025-09-30.md](C:/dev/strategy-continuity/source-archive/statecraft/2025-09-30/source-judging-freedom-sachs-netanyahu-stumbles-2025-09-30.md) — Prof. Jeffrey Sachs - Netanyahu's Vulgar UN Lies | `kind:youtube` | `form:interview` | `body:non-transcript` | `thread:napolitano` | `host:Andrew Napolitano` | `guest:Jeffrey Sachs`
 
 ## 2025-10
-
 
 ### 2025-10-01 (5)
 
@@ -1873,7 +1859,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-dialogue-works-martin-armstrong-this-is-how-world-war-iii-starts-and-it-already-has-2025-10-31.md](C:/dev/strategy-continuity/source-archive/statecraft/2025-10-31/source-dialogue-works-martin-armstrong-this-is-how-world-war-iii-starts-and-it-already-has-2025-10-31.md) — Martin Armstrong: This Is How World War III Starts… And It Already Has | `kind:transcript` | `form:interview` | `body:full-transcript-body` | `thread:alkhorshid` | `host:Nima Alkhorshid` | `guest:Martin Armstrong` | `grade:legacy-appearance-only`
 
 ## 2025-11
-
 
 ### 2025-11-01 (3)
 
@@ -2060,7 +2045,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-dialogue-works-andrei-martyanov-russia-s-final-moves-as-everything-collapsing-2025-11-30.md](C:/dev/strategy-continuity/source-archive/statecraft/2025-11-30/source-dialogue-works-andrei-martyanov-russia-s-final-moves-as-everything-collapsing-2025-11-30.md) — Andrei Martyanov: Russia's Final moves as EVERYTHING COLLAPSING | `kind:transcript` | `form:interview` | `body:full-transcript-body` | `thread:alkhorshid` | `host:Nima Alkhorshid` | `guest:Andrei Martyanov` | `grade:legacy-appearance-only`
 
 ## 2025-12
-
 
 ### 2025-12-01 (5)
 
@@ -2289,7 +2273,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-alexander-mercouris-russia-displays-oreshnik-plans-2026-odessa-operation-nyt-confirms-us-was-2025-12-31.md](C:/dev/strategy-continuity/source-archive/statecraft/2025-12-31/source-alexander-mercouris-russia-displays-oreshnik-plans-2026-odessa-operation-nyt-confirms-us-was-2025-12-31.md) — Russia Displays Oreshnik, Plans 2026 Odessa Operation; NYT Confirms US Was Behind Kiev Drone Strikes | `kind:transcript` | `form:solo` | `body:short-body` | `thread:mercouris` | `host:Alexander Mercouris` | `grade:legacy-appearance-only`
 
 ## 2026-01
-
 
 ### 2026-01-01 (3)
 
@@ -2554,7 +2537,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 
 ## 2026-02
 
-
 ### 2026-02-01 (3)
 
 - [README.md](C:/dev/strategy-continuity/source-archive/statecraft/2026-02-01/README.md) — Statecraft Archive - 2026-02-01 | `kind:(none)` | `form:(none)` | `body:short-body`
@@ -2796,7 +2778,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md](C:/dev/strategy-continuity/source-archive/statecraft/2026-02-28/source-glenn-diesen-scott-ritter-full-scale-war-as-iran-attacks-all-u-s-targets-2026-02-28.md) — Scott Ritter: Full-Scale War as Iran Attacks All U.S. Targets | `kind:transcript` | `form:interview` | `body:full-transcript-body` | `thread:diesen` | `host:Glenn Diesen` | `guest:Scott Ritter` | `grade:transcript-bearing`
 
 ## 2026-03
-
 
 ### 2026-03-01 (11)
 
@@ -3164,7 +3145,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 
 ## 2026-04
 
-
 ### 2026-04-01 (6)
 
 - [README.md](C:/dev/strategy-continuity/source-archive/statecraft/2026-04-01/README.md) — Statecraft Archive - 2026-04-01 | `kind:(none)` | `form:(none)` | `body:short-body`
@@ -3515,7 +3495,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md](C:/dev/strategy-continuity/source-archive/statecraft/2026-04-30/source-wilkerson-judging-freedom-iran-new-friend-2026-04-30.md) — COL. Lawrence Wilkerson: Iran’s New Friend — Clean Unabridged Transcript | `kind:transcript` | `form:interview` | `body:full-transcript-body` | `host:Judge Andrew Napolitano` | `guest:Colonel Lawrence Wilkerson` | `grade:legacy-appearance-only`
 
 ## 2026-05
-
 
 ### 2026-05-01 (6)
 
@@ -3917,7 +3896,6 @@ Navigation rule: this is a secondary analytic rollup. Canonical archive navigati
 - [source-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md](C:/dev/strategy-continuity/source-archive/statecraft/2026-05-31/source-moral-resistance-u-s-military-attacks-vessels-in-strait-of-hormuz-5-u-s-casualties-in-hor-2026-05-31.md) — U.S MILITARY ATTACKS VESSELS IN STRAIT OF HORMUZ, 5 U.S CASUALTIES IN HORMUZ w/ COL Anthony Aguilar | `kind:cleaned-transcript` | `form:interview` | `body:non-transcript` | `thread:aguilar` | `host:Moral Resistance` | `guest:Lt. Col. Anthony Aguilar`
 
 ## 2026-06
-
 
 ### 2026-06-01 (17)
 

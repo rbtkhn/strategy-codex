@@ -13,8 +13,6 @@ post_id: 202744103
 
 # The Innermost Loop - 2026-06-19
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to June 19, 2026
@@ -29,10 +27,7 @@ The Singularity is a market, not a monarch.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is a market, not a monarch. GPT-5.6 is rumored for next Thursday as Elon Musk bets Chinese open-weight models will reach Fable 5 quality by early 2027. Artificial Analysis’s new AA-Briefcase ranks Fable 5 first, Opus 4.8 second, and open-weight GLM-5.2 third on multi-week knowledge work, and Unsloth’s guide to running that 744B model locally shrinks it from 1.51TB to 217GB. We are teaching them to testify. MIT’s Self-CTRL trains models to describe themselves faithfully, and OpenAI reports that rewarding honesty and humility produced broad alignment that held under adversarial fine-tuning.
+- The Singularity is a market, not a monarch. GPT-5.6 is rumored for next Thursday as Elon Musk bets Chinese open-weight models will reach Fable 5 quality by early 2027. Artificial Analysis’s new AA-Briefcase ranks Fable 5 first, Opus 4.8 second, and open-weight GLM-5.2 third on multi-week knowledge work, and Unsloth’s guide to running that 744B model locally shrinks it from 1.51TB to 217GB. We are teaching them to testify. MIT’s Self-CTRL trains models to describe themselves faithfully, and OpenAI reports that rewarding honesty and humility produced broad alignment that held under adversarial fine-tuning.
 
 The same frontier is where policy gets written. Project Glasswing testers like Dragos and Cisco kept access to Anthropic’s Mythos Preview even after a US export order pulled public Fable 5 and Mythos 5, and Anthropic and the White House have reportedly shifted from a standoff to co-writing rules for grading AI security flaws. SK Telecom has been named as the firm whose Mythos access Washington revoked over alleged China ties it denies. Talent moves just as fast. OpenAI has reportedly poached “Attention Is All You Need” co-author Noam Shazeer two years after Google paid $2.7 billion to reacquire him, a jump he confirmed fondly, prompting Sam Altman to credit gifted Noams to “divine benevolence.”
 

@@ -1,6 +1,5 @@
 # 2026-05-25 intake scaffold
 
-
 This scaffold prepares `provenance/2026-05-25/` to receive today's captures.
 
 Use it as a coordination surface while files are arriving. It is not a transcript, not a terminal evidence unit, and not a substitute for the actual dated raw-input files that should land beside it.

@@ -9,7 +9,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = REPO_ROOT / "scripts" / "run_deterministic_diagnostics.py"
 
-
 def _load_module():
     spec = importlib.util.spec_from_file_location(
         "run_deterministic_diagnostics_mod",
@@ -20,11 +19,9 @@ def _load_module():
     spec.loader.exec_module(mod)
     return mod
 
-
 def _write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
-
 
 def _build_fake_repo(root: Path) -> None:
     _write(
@@ -57,7 +54,6 @@ def _build_fake_repo(root: Path) -> None:
         json.dumps({"proposal_id": "example"}, indent=2) + "\n",
     )
 
-
 def test_runner_exists_and_can_be_invoked(tmp_path: Path) -> None:
     _build_fake_repo(tmp_path)
     result = subprocess.run(
@@ -83,7 +79,6 @@ def test_runner_exists_and_can_be_invoked(tmp_path: Path) -> None:
         / "deterministic-diagnostics-smoke.json"
     )
     assert not smoke_output.exists()
-
 
 def test_runner_returns_zero_and_prints_sections_on_success(
     monkeypatch,
@@ -117,7 +112,6 @@ def test_runner_returns_zero_and_prints_sections_on_success(
     assert calls
     assert all(call[0] == sys.executable for call in calls)
     assert not smoke_output.exists()
-
 
 def test_runner_returns_nonzero_if_subprocess_fails(
     monkeypatch,

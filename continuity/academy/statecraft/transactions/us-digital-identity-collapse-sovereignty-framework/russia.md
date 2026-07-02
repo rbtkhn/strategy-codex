@@ -1,7 +1,6 @@
 # Russia - U.S. Digital Identity Collapse / Sovereignty Framework
 <!-- word_count: 379 -->
 
-
 ## Transaction Name
 
 Digital sovereignty resilience without isolation trap.

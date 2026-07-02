@@ -1,6 +1,5 @@
 # Kleiber Close - Routing And Redirects - 2026-06-01
 
-
 This close records the deeper pattern made visible by the recent Kleiber passes.
 
 ## What Became Clear

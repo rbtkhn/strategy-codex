@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back. Today is Monday, June 15th, and uh we are joined today by Professor Jeffrey Sachs to discuss if uh well, peace could break out in Iran. So, thank you for coming on. We see now >> um well, we see that Trump announced that a deal has been reached. Uh again, one would like to be optimistic.

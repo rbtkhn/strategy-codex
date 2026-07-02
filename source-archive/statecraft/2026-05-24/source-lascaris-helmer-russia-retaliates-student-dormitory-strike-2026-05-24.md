@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Helmer Welcome
 
 Good day. This is Dimitri Lascaris coming to you for a reason to resist from Kalamata, Greece on May 24th, 2026. We are pleased to be joined again by our good friend and frequent guest John Helmer. I usually have a spiel that I repeat when I introduce John, but by now he's so well known to our audience that I'm not going to bother.

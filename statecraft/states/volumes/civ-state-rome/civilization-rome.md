@@ -1,6 +1,5 @@
 # Civilization Rome
 
-
 ## Where This Sits
 
 This is Part 1 of the Rome CIV-STATE volume. Open it first when the operator needs to understand Rome as a transformed continuity rather than a dead empire with attractive ruins.

@@ -7,10 +7,8 @@ from pathlib import Path
 
 import scripts.validate_speaker_state_sets as validator
 
-
 REPO = Path(__file__).resolve().parent.parent
 SCRIPT = REPO / "scripts" / "validate_speaker_state_sets.py"
-
 
 def run_validator(*args: str, repo_root: Path | None = None) -> subprocess.CompletedProcess[str]:
     command = [sys.executable, str(SCRIPT)]
@@ -24,15 +22,12 @@ def run_validator(*args: str, repo_root: Path | None = None) -> subprocess.Compl
         text=True,
     )
 
-
 def write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
 
-
 def rel_link(target: Path, base_file: Path) -> str:
     return Path(os.path.relpath(target, base_file.parent)).as_posix()
-
 
 def test_duplicate_raw_input_link_fails_when_exact_once_declared(tmp_path: Path) -> None:
     raw = tmp_path / "codex" / "years" / "2026" / "raw-input" / "2026-01-01" / "substack-pape-one.md"
@@ -41,8 +36,6 @@ def test_duplicate_raw_input_link_fails_when_exact_once_declared(tmp_path: Path)
     write(
         ledger,
         f"""# Ledger
-
-WORK only; not Record.
 
 ## Source Set
 
@@ -64,14 +57,11 @@ WORK only; not Record.
 
     assert any("duplicate Source Set target" in error for error in errors)
 
-
 def test_missing_raw_input_target_fails(tmp_path: Path) -> None:
     ledger = tmp_path / "codex" / "years" / "2026" / "pape" / "ledger.md"
     write(
         ledger,
         """# Ledger
-
-WORK only; not Record.
 
 ## Source Set
 
@@ -92,7 +82,6 @@ WORK only; not Record.
 
     assert any("missing Source Set target" in error for error in errors)
 
-
 def test_excluded_source_class_in_source_set_fails(tmp_path: Path) -> None:
     raw = tmp_path / "codex" / "years" / "2026" / "raw-input" / "2026-01-01" / "substack-crooke-one.md"
     write(raw, "# source\n")
@@ -100,8 +89,6 @@ def test_excluded_source_class_in_source_set_fails(tmp_path: Path) -> None:
     write(
         note,
         f"""# Interviews
-
-WORK only; not Record.
 
 ## Source Set
 
@@ -122,7 +109,6 @@ WORK only; not Record.
 
     assert any("excluded source class" in error for error in errors)
 
-
 def test_missing_host_arc_from_guest_matrix_fails(tmp_path: Path) -> None:
     arc_one = tmp_path / "codex" / "years" / "2026" / "davis" / "davis-one-speaker-arc.md"
     arc_two = tmp_path / "codex" / "years" / "2026" / "davis" / "davis-two-speaker-arc.md"
@@ -132,8 +118,6 @@ def test_missing_host_arc_from_guest_matrix_fails(tmp_path: Path) -> None:
     write(
         matrix,
         f"""# Davis host wiring
-
-WORK only; not Record.
 
 ## Guest Transformation Matrix
 
@@ -154,7 +138,6 @@ WORK only; not Record.
 
     assert any("davis-two-speaker-arc.md" in error for error in errors)
 
-
 def test_unregistered_speaker_folder_warns_without_failure(tmp_path: Path) -> None:
     speaker_dir = tmp_path / "statecraft" / "voices" / "example"
     speaker_dir.mkdir(parents=True)
@@ -170,7 +153,6 @@ def test_unregistered_speaker_folder_warns_without_failure(tmp_path: Path) -> No
     assert any("no README.md" in warning for warning in warnings)
     assert any("no `example-speaker-object.md`" in warning for warning in warnings)
 
-
 def test_strict_warnings_convert_warnings_to_failure(tmp_path: Path) -> None:
     (tmp_path / "statecraft" / "voices" / "example").mkdir(parents=True)
 
@@ -183,7 +165,6 @@ def test_strict_warnings_convert_warnings_to_failure(tmp_path: Path) -> None:
 
     assert result.returncode == 1
     assert "warning(s) promoted" in result.stderr
-
 
 def test_strict_state_boundary_converts_boundary_warning_to_failure(tmp_path: Path) -> None:
     speaker_dir = tmp_path / "statecraft" / "voices" / "example"
@@ -207,13 +188,11 @@ def test_strict_state_boundary_converts_boundary_warning_to_failure(tmp_path: Pa
     assert result.returncode == 1
     assert "missing WORK-only state boundary" in result.stderr
 
-
 def test_missing_manifest_fails_for_registered_speaker(tmp_path: Path) -> None:
     result = run_validator("--speaker", "crooke", repo_root=tmp_path)
 
     assert result.returncode == 1
     assert "registered speaker manifest is missing" in result.stderr
-
 
 def test_manifest_slug_mismatch_fails(tmp_path: Path) -> None:
     manifest = tmp_path / "statecraft" / "voices" / "crooke" / "state-set.toml"
@@ -232,7 +211,6 @@ provenance_roots = ["source-archive/statecraft"]
     assert result.returncode == 1
     assert "`slug` must be `crooke`" in result.stderr
 
-
 def test_source_set_link_outside_declared_provenance_roots_fails(tmp_path: Path) -> None:
     raw_2025 = tmp_path / "codex" / "years" / "2025" / "raw-input" / "2025-01-01" / "substack-pape-one.md"
     write(raw_2025, "# source\n")
@@ -242,8 +220,6 @@ def test_source_set_link_outside_declared_provenance_roots_fails(tmp_path: Path)
     write(
         ledger,
         f"""# Ledger
-
-WORK only; not Record.
 
 ## Source Set
 
@@ -272,12 +248,10 @@ required_prefixes = ["substack-pape-"]
     assert result.returncode == 1
     assert "outside provenance roots" in result.stderr
 
-
 def test_current_repo_registered_state_sets_validate() -> None:
     for slug in ("pape", "crooke", "ritter", "parsi", "daniel-davis", "diesen"):
         result = run_validator("--speaker", slug)
         assert result.returncode == 0, result.stderr
-
 
 def test_current_repo_manifests_load_and_counts_are_registered() -> None:
     speakers_dir = REPO / "statecraft" / "voices"
@@ -295,7 +269,6 @@ def test_current_repo_manifests_load_and_counts_are_registered() -> None:
     assert ritter is not None and ritter.source_sets[1].expected_count == 48
     assert davis is not None and davis.guest_matrices[0].expected_count == 13
     assert diesen is not None and diesen.guest_matrices[0].expected_count == 20
-
 
 def test_list_prints_registered_state_files() -> None:
     result = run_validator("--list")

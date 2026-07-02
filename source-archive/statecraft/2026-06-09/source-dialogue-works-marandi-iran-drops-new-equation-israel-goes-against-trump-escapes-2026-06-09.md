@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Tuesday, June 9th, 2026 and our dear friend, our brother, Professor Mirand is here with us. Welcome back. >> Thank you, Neimas. Always a great pleasure being on your show. >> I want to start with what has happened between Iran and the Israelis. We had the attacks happening between the two sides.

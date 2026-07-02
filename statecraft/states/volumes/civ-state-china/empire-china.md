@@ -1,6 +1,5 @@
 # Empire China
 
-
 ## Where This Sits
 
 This is Part 2 of the China CIV-STATE volume. Open it after [Civilization China](civilization-china.md) when the operator needs the outward machinery by which Chinese order scales, protects flows, and risks overextension.

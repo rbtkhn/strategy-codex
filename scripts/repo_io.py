@@ -481,7 +481,6 @@ AUTO_RESEARCH_DIR = resolve_repo_path("auto-research")
 REVIEW_QUEUE_DIR = resolve_repo_path("review-queue")
 CONTINUITY_DIR = resolve_repo_path("codex")
 
-
 def continuity_dir() -> Path:
     """Canonical continuity-layer root (continuity/ with continuity/ fallback)."""
     return CONTINUITY_DIR

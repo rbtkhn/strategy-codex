@@ -1,6 +1,5 @@
 # Current Sovereign Heads Of The CIV-States
 
-
 Date anchor: **May 28, 2026**.
 
 Sovereign continuity is not complete until it names a present carrier. In the CIV-STATE shelf, that present carrier becomes fully legible only when its sovereign apex is named as well.

@@ -1,7 +1,7 @@
 # Lens: structural realism (long horizon)
 
 **Lens id:** `structural_realism`  
-**WORK only.** Not SELF. Not Voice unless explicitly merged via gate.
+**non-authoritative.** Not SELF. Not Voice unless explicitly merged via gate.
 
 ---
 

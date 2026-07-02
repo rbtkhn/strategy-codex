@@ -19,7 +19,6 @@ from singularity_loop_lib import (  # noqa: E402
     render_json,
 )
 
-
 def check_artifact(*, output_path: Path) -> int:
     if not output_path.is_file():
         print(f"error: missing {output_path.relative_to(REPO_ROOT)}", file=sys.stderr)
@@ -35,7 +34,6 @@ def check_artifact(*, output_path: Path) -> int:
         return 1
     print("[ok] loop registry artifact matches generator output")
     return 0
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
@@ -66,7 +64,6 @@ def main() -> int:
     args.output.write_text(text, encoding="utf-8")
     print(f"[ok] wrote {args.output.relative_to(REPO_ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

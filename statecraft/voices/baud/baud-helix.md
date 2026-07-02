@@ -1,6 +1,5 @@
 # Baud helix
 
-
 Purpose: compact cross-host note for reading the current recurring Baud lanes together. This is not a substitute for the host-local speaker arcs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Baud voice, and where to enter the helix without pretending a third canonical cognition-stream strand exists.
 
 Cross-year clarification: a real `Diesen x Baud` branch does exist, but as a **2025** lane rather than a 2026 canonical strand. See [baud-cross-year-note.md](baud-cross-year-note.md).

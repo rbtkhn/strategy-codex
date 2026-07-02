@@ -13,7 +13,6 @@ if str(_SCRIPTS) not in sys.path:
 import emit_pipeline_event as epe  # noqa: E402
 import repo_io  # noqa: E402
 
-
 def test_append_pipeline_event_writes_and_returns_id(monkeypatch):
     with tempfile.TemporaryDirectory() as td:
         user = "test-user-emit"

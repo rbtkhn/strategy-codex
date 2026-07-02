@@ -1,6 +1,5 @@
 # Frontier Agent Control Plane Direction
 
-
 ## Why this memo exists
 
 As of May 2026, frontier AI development is converging on three pressures at once:

@@ -13,8 +13,6 @@ post_id: 199557277
 
 # The Innermost Loop - 2026-05-28
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 28, 2026
@@ -29,10 +27,7 @@ The Singularity is officially in its practice-run phase.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is officially in its practice-run phase. DeepMind CEO Demis Hassabis expects AGI around 2030, now sees 2029 as plausible, and considers 2026’s “agentic era” a warm-up lap. The benchmarks agree it’s time for harder tests. Datacurve launched DeepSWE , a long-horizon software engineering benchmark with 91 contamination-free repos across 5 languages, solutions 5.5x denser than SWE-bench Pro, and hand-written behavioral verifiers. Biology is getting its own foundation tier. The Chan Zuckerberg Biohub released a “world model of protein biology” built on ESMC, a language model trained on 2.8 billion sequences from across all of life, plus ESMFold2 for atomic structures and an ESM Atlas mapping 6.8 billion proteins. The math department is being cooked too. Axiom revealed that 8 AxiomProver papers have quietly appeared on arXiv since February, with 5 already accepted at peer-reviewed journals, proving that 100% of primes are partially regular and (under abc) that Ramanujan’s tau misses 100% of primes. A century after Hardy and Ramanujan, the new mathematician runs on silicon.
+- The Singularity is officially in its practice-run phase. DeepMind CEO Demis Hassabis expects AGI around 2030, now sees 2029 as plausible, and considers 2026’s “agentic era” a warm-up lap. The benchmarks agree it’s time for harder tests. Datacurve launched DeepSWE , a long-horizon software engineering benchmark with 91 contamination-free repos across 5 languages, solutions 5.5x denser than SWE-bench Pro, and hand-written behavioral verifiers. Biology is getting its own foundation tier. The Chan Zuckerberg Biohub released a “world model of protein biology” built on ESMC, a language model trained on 2.8 billion sequences from across all of life, plus ESMFold2 for atomic structures and an ESM Atlas mapping 6.8 billion proteins. The math department is being cooked too. Axiom revealed that 8 AxiomProver papers have quietly appeared on arXiv since February, with 5 already accepted at peer-reviewed journals, proving that 100% of primes are partially regular and (under abc) that Ramanujan’s tau misses 100% of primes. A century after Hardy and Ramanujan, the new mathematician runs on silicon.
 
 Software’s biggest legacy codebase is getting an AI-assisted exorcism. At Rust Week in Utrecht , Linux stable kernel maintainer Greg Kroah-Hartman opened with “I’m here to talk about untrusted data and Linux, and how Rust is going to save us,” after AI bug-finders surfaced new vulnerability classes like Dirty Frag, Copy Fail, and Fragnesia, pushing CVE issuance to “13 a day, or something crazy.” Not every AI deployment is so welcome. BusPatrol , which installed AI cameras on tens of thousands of US school buses, plans to convert them into automatic license plate readers and hand the data to cops, turning kids’ commutes into a surveillance dragnet. YouTube is trying the opposite move , automatically tagging significant AI use and making the labels more prominent. And Robinhood is now open to agents , letting customers hand trading and credit-card decisions to AI via MCP.
 

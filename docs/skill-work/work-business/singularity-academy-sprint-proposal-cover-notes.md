@@ -1,6 +1,6 @@
 # Singularity-Academy Sprint Proposal Cover Notes
 
-WORK only. Reusable short notes for sending the next step after a call or packet review.
+non-authoritative. Reusable short notes for sending the next step after a call or packet review.
 
 ## Purpose
 

@@ -1,6 +1,5 @@
 # Jiang external interview index
 
-
 Purpose: canonical **external-channel** guest interview index for **Jiang Xueqin**.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index jiang` — interview parity only.

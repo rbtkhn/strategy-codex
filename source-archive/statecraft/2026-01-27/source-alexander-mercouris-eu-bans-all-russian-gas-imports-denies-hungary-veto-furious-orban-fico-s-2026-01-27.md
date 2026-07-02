@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # EU Bans All Russian Gas Imports Denies Hungary Veto; Furious Orban Fico Sue; Europe Crisis; Kupiansk
 
-

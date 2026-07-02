@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Oh, you didn't have time yet. >> Yeah. Yeah. Yeah. I I I didn't read it. I got a I saw a tweet version of it, but I didn't actually read the details yet. I've been >> It's pretty long. Yeah. >> Yeah. But no, I can comment on it generally if you want. >> Yeah. Now, we'll talk about that in a bit. I want to talk about something.

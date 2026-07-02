@@ -1,7 +1,6 @@
 # Expert thread — `ritter`
 <!-- word_count: 1146 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **month chapter of compatibility continuity**, not as an independent Ritter strand.
@@ -39,8 +38,6 @@ _(No narrative distillation yet — add prose above the markers, not inside them
 - **Machine hint / opt-out:** `python3 scripts/validate_strategy_expert_threads.py` warns when a `## YYYY-MM` block is heavy on list lines and has **no** prose lines (optional `--month MM` to audit one month only). For a **whole file** where month bullets-only is intentional (transitional ledger), add once in the human layer: `<!-- strategy-expert-thread:segment-1-month-bullets-ledger-ok -->`. Editing assistants: `.cursor/rules/strategy-expert-thread-journal-layer.mdc`.
 
 ## 2026-02
-
-
 
 The 2026-02 segment for the Scott Ritter lane (`ritter`) exists so the notebook keeps a **prose spine** alongside any strength-tagged bullets. The roster describes this voice as centered on U.S. military dissent: Hormuz sea control, blockade ops, Vance frame; faith-politics register when Ritter is the speaking expert. That one-line role is not a substitute for transcript truth; it is a **routing label** so batch-analysis passes know which mechanism vocabulary to expect when dated material lands. When this month is still partial or ingest-light, the prose layer still records **where verification should attach** (page cites, transcript rows, or hub URLs) without pretending those pins are already closed.
 

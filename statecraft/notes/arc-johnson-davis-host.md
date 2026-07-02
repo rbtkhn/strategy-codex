@@ -16,7 +16,6 @@ archive_links:
 
 # Davis x Johnson speaker arc
 
-
 Purpose: compact reuse note for the `Davis x Johnson` run inside the Davis stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Johnson lane Davis elicits, which files matter most, and how this host-local run differs from the Diesen and Dialogue Works Johnson lanes.
 
 ## Why this guest run matters

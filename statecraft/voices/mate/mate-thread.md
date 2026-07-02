@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `mate`
 <!-- word_count: 3096 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the intentionally light Mate shelf structure.
@@ -42,7 +41,6 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 
 January stays in the **investigative / accountability** lane MatÃƒÂ© shares with The Grayzone desk: subscriber-first essays on **TrumpÃ¢â‚¬â€œIran** coercion (sanctions plus Ã¢â‚¬Å“helpÃ¢â‚¬Â rhetoric), while the same calendar window carries **lawfare / leaked-email** reporting on efforts against the outlet (often other bylines Ã¢â‚¬â€ treat as **institutional** context, not MatÃƒÂ© byline).
 
-
 The `mate` laneÃ¢â‚¬â„¢s role (Grayzone / investigative lane: media ownership, corporate skin, and propaganda framing; Israel/Palestine vocabulary (colonization thesis); CBS / billionaire / outlet lineage claims Ã¢â‚¬â€ tier verify (filings, corporate docs) before Links-grade) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃ¢â‚¬â„¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
 
 If pages named this expert during 2026-01, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃ¢â‚¬â€absence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
@@ -60,7 +58,6 @@ Open pins belong in prose, not only as bullets. For this `mate` month segment, e
 ## 2026-02
 
 FebruaryÃ¢â‚¬â„¢s recoverable arc is **cross-platform**: a high-traffic **YouTube** hit on **Witkoff** / Iran diplomacy (Useful Idiots), alongside whatever **Pushback** / Grayzone drops land in transcript Ã¢â‚¬â€ good month to test **batch-analysis** pairings with **parsi** or **blumenthal** on negotiation theater.
-
 
 The `mate` laneÃ¢â‚¬â„¢s role (Grayzone / investigative lane: media ownership, corporate skin, and propaganda framing; Israel/Palestine vocabulary (colonization thesis); CBS / billionaire / outlet lineage claims Ã¢â‚¬â€ tier verify (filings, corporate docs) before Links-grade) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃ¢â‚¬â„¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
 
@@ -82,7 +79,6 @@ The 2026-02 segment for the Aaron MatÃƒÂ© (@aaronjmate) lane (`mate`) exists
 
 March compresses on **domestic U.S. excuse-making** for the war (Rubio / Ã¢â‚¬Å“Israel made usÃ¢â‚¬Â narrative) on **aaronmate.net**, while Grayzone publishes parallel **FDD** / White House text overlap and **Europe Ã¢â‚¬Å“terror cellÃ¢â‚¬Â** investigations Ã¢â‚¬â€ often **Wyatt Reed** / **Max Blumenthal** bylines; MatÃƒÂ©Ã¢â‚¬â„¢s **newsletter** spine stays the **CongressionalÃ¢â‚¬â€œMAGA** angle.
 
-
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-03, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
 
 The `mate` laneÃ¢â‚¬â„¢s role (Grayzone / investigative lane: media ownership, corporate skin, and propaganda framing; Israel/Palestine vocabulary (colonization thesis); CBS / billionaire / outlet lineage claims Ã¢â‚¬â€ tier verify (filings, corporate docs) before Links-grade) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃ¢â‚¬â„¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
@@ -92,7 +88,6 @@ Open pins belong in prose, not only as bullets. For this `mate` month segment, e
 Typical pairings on file for `mate` emphasize contrast surfaces: Ãƒâ€” blumenthal, Ãƒâ€” parsi, Ãƒâ€” mercouris, Ãƒâ€” marandi. In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-03 segment should be read as **mesh navigation**Ã¢â‚¬â€which lanes to pull into the same batch passÃ¢â‚¬â€rather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
 
 The 2026-03 segment for the Aaron MatÃƒÂ© (@aaronjmate) lane (`mate`) exists so the notebook keeps a **prose spine** alongside any strength-tagged bullets. The roster describes this voice as centered on Grayzone / investigative lane: media ownership, corporate skin, and propaganda framing; Israel/Palestine vocabulary (colonization thesis); CBS / billionaire / outlet lineage claims Ã¢â‚¬â€ tier verify (filings, corporate docs) before Links-grade. That one-line role is not a substitute for transcript truth; it is a **routing label** so batch-analysis passes know which mechanism vocabulary to expect when dated material lands. When this month is still partial or ingest-light, the prose layer still records **where verification should attach** (page cites, transcript rows, or hub URLs) without pretending those pins are already closed.
-
 
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-03, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
 
@@ -120,7 +115,6 @@ Segment discipline here follows the strategy-notebook contract: Segment 1 is hum
 - **2026-03-03** Ã¢â‚¬â€ Newsletter dated 2026-03-03: traces Rubio / congressional framing that Israel drove the attack decision Ã¢â‚¬â€ domestic U.S. audience, elite-access critique lane.
   _Source:_ web: `https://www.aaronmate.net/p/magas-new-excuse-for-iran-war-israel`
 
-
 ### 2026-04
 
 - **2026-04** Ã¢â‚¬â€ Ledger mirror 1 (partial month).
@@ -133,7 +127,6 @@ Segment discipline here follows the strategy-notebook contract: Segment 1 is hum
 ## 2026-04
 
 _Partial month Ã¢â‚¬â€ no April `thread:` machine lines in Segment 2 at authoring time; Grayzone / newsletter ingests may land later._
-
 
 If pages named this expert during 2026-04, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃ¢â‚¬â€absence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
 

@@ -1,6 +1,5 @@
 # Mercouris routing
 
-
 Purpose: answer which Mercouris surface to open first without forcing stream-native continuity into a fake host-led chronology.
 
 ## Core rule

@@ -1,7 +1,5 @@
 # June Week Quote-Anchor Audit (Before)
 
-WORK only; not Record.
-
 - contract: explicit `Quote anchor:` lines with ≥12 quoted words
 - window: `2026-06-03`, `2026-06-04`, `2026-06-06`, `2026-06-07`
 - failing lines: `9`

@@ -1,12 +1,9 @@
 from pathlib import Path
 
-
 ROOT = Path(__file__).resolve().parents[1]
-
 
 def read(path: str) -> str:
     return (ROOT / path).read_text(encoding="utf-8")
-
 
 def test_plan_mission_has_agentic_risk_review_block():
     text = read("docs/templates/plan-mission.md")
@@ -18,7 +15,6 @@ def test_plan_mission_has_agentic_risk_review_block():
     assert "Revocation / stop path" in text
     assert "Pressure default" in text
     assert "deny" in text and "escalate" in text
-
 
 def test_agent_surface_template_has_agentic_safety_fields():
     text = read("docs/skill-work/work-dev/agent-surface-template.yaml")
@@ -42,7 +38,6 @@ def test_agent_surface_template_has_agentic_safety_fields():
     ]:
         assert expected in text
 
-
 def test_managed_agent_runbook_requires_revocation_and_review_cadence():
     text = read("docs/skill-work/work-dev/managed-agent-design.md")
 
@@ -51,7 +46,6 @@ def test_managed_agent_runbook_requires_revocation_and_review_cadence():
     assert "Pressure default declared" in text
     assert "halt if receipts fail or scope widens" in text
     assert "Stop/revocation receipt written" in text
-
 
 def test_receipt_map_documents_existing_surfaces_and_future_gap():
     text = read("docs/skill-work/work-dev/agentic-receipt-map.md")
@@ -68,7 +62,6 @@ def test_receipt_map_documents_existing_surfaces_and_future_gap():
         "future gap, not v1",
     ]:
         assert expected in text
-
 
 def test_agentic_guardrail_docs_do_not_introduce_lily_role_name():
     paths = [

@@ -1,6 +1,5 @@
 # Freeman speaker object
 
-
 object_shape: person-arc-first
 
 Purpose: define Chas Freeman as a first-class speaker object while keeping chronology in the host shelves and existing Freeman files.

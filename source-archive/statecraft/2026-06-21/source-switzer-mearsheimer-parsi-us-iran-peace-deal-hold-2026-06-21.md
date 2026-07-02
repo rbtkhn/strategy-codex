@@ -45,7 +45,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hello, I'm Tom Switzer. Always great to have your company. Now, today on the program, we're going to be asking this question. Will the US Iran memo of understanding will that hold? And I can't think of two better guests to address this question than John Mearsheimer from the University of Chicago and Trita Parsi who's from the Quincy Institute for Responsible Statecraft.

@@ -1,7 +1,5 @@
 # Transcript cleanup summary
 
-WORK only; not Record.
-
 - batch: `jan-1-cleaned-80`
 - cleaned-80: `1` / `1`
 - receipt: `runtime/artifacts/transcript-cleanup/jan-1-cleaned-80/cleanup-ledger.jsonl`

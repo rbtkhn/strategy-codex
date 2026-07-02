@@ -36,7 +36,6 @@ It is important to point out that the United States has been waging “mental wa
 
 The “Russian reset” gambit failed because of the crude manner in which it was implemented, with little effort being made to disguise the true objectives of the policy—everyone could see that the Russian political opposition was little more than a proxy of the United States, trying to take down the government of Vladimir Putin from within by promulgating a falsified narrative of systemic corruption that even the most cynical Russians failed to embrace. And by dispatching Joe Biden to Moscow in March 2011, the Obama administration ended up exposing its sordid plans for all of Russia to see.
 
-
 On March 10, 2011, Biden addressed an audience at Moscow State University, where he touched on this very reset, framing it as a necessary and natural course correction needed by both countries. “President Obama and I proposed forging a fresh new start by, as I said in the initial speech on our foreign policy, by pressing a restart button, reset button. We wanted to literally reset this relationship, reset it in a way that reflected our mutual interests, so that our countries could move forward together.”
 
 Keeping in mind that the goal of “mental war” is to destroy self-consciousness and change the civilizational basis of the targeted society, then Biden’s speech begins to take on a whole new character. “Consider the following statistics, or polling,” Biden told the assembled students. “In December of 2008, one month before we were sworn in as President and Vice President, polling showed that only 17 percent of all Russians had a positive opinion of the United States—17 percent! This year, that number has jumped to over 60 percent. Our goal is to have it continue to climb.”
@@ -64,7 +63,6 @@ There was more. “Polls show that most Russians want to choose their national a
 Mental War.
 
 “That’s democracy,” Biden declared. “They’re the ingredients of democracy. So I urge all of you students here: Don’t compromise on the basic elements of democracy. You need not make that Faustian bargain.”
-
 
 And again, the audience was told that these were Russian ideas. “And it’s also the message I heard recently when President Medvedev said last week—and I quote him—“freedom cannot be postponed.” Joe Biden didn’t say that. The President of Russia said that.”
 
@@ -95,7 +93,6 @@ This, of course, is his prerogative.
 And Sy is no Russophobe—I have known him for more than a quarter century, and I have always found him to be balanced in his approach to covering matters pertaining to Russia, including those that address Russia’s leader, Vladimir Putin.
 
 But Sy is a reporter, which means he is in many ways a prisoner of his sources. His journalistic instincts have proven him right many more times than they have failed him. In the Netflix documentary Coverup, which came out last year, Sy is asked about his reporting style, which relies heavily on unnamed sources. “People, for a lot of reasons,” Sy said, “they talk. They talk to me.” The key, Hersh noted, “was get out of the way of the story.”
-
 
 But there are times when a reporter needs to jump in front of a story, or else it will get away from him like a runaway train. This was the case of a sensational book Sy wrote about John F. Kennedy titled The Dark Side of Camelot. Sy had incorporated material into the initial draft of the book which was derived exclusively from documents he received from Lawrence X. Cusack Jr. These documents turned out to be forgeries, forcing Sy to remove a complete chapter from his manuscript, as well as making additional changes to the rest of the manuscript. Cusack was later convicted of fraud, and sentenced to nine years in prison.
 
@@ -131,7 +128,6 @@ I just wish Sy had called me about his Russia story.
 
 Not only is the provenance of the claims set forth in the article questionable—the US intelligence community is composed almost entirely of Russophobes dedicated to spreading misinformation about Russia and its leader—but the actual data defies belief.
 
-
 At one point in the article Sy, quoting this “official”, quotes Russian General Valery Gerasimov, the Chief of the Russian General Staff, as lamenting “I no longer have an army. My tanks and armored vehicles are junk, my artillery barrels worn out. My supplies intermittent. My sergeants and mid-grade officers dead, and my rank and file ex-convicts.”
 
 It is highly unlikely—indeed, nigh on impossible—that Gerasimov ever said such a thing. This is the highest ranking officer in the Russian military, and a close and personal confidant of the Russian President. Such a statement from a man in his position, even if true, would be tantamount to treason.
@@ -157,7 +153,6 @@ I’ve been five times, including travel to Crimea, Kherson, Zaporozhia, Donetsk
 I’ve interviewed Russian Generals, Colonels, Lieutenant Colonels, Majors, Captains, Lieutenants, and Sergeants.
 
 Men who have served, and are currently serving, on the front lines.
-
 
 I’ve travelled Russia extensively.
 
@@ -188,7 +183,6 @@ This is a meaningless observation, which seeks to give credibility to a source t
 Sy has been writing on Russia and the Ukraine conflict for some time now, and I have had similarly negative reactions to those articles and their over reliance upon unnamed sources who claim to have special access to Russian policy questions, but exhibit absolute ignorance about Russian reality. So why have I chosen to bring attention to this article at this time?
 
 To be honest, this is not something I wanted to do. Sy is a very good and close friend, and this will always be the case. But the fact is Sy is being played by forces within the US government who are waging “Mental War” against Russia. Normally, such an argument would be mooted by the fact that Russia is not normally responsive to western propaganda published in western outlets, if for no other reason than that pushing Russophobic nonsense on an inherently Russophobic audience serves the same function as a self-licking ice cream cone, “analysis” that exists primarily to justify its own existence.
-
 
 But since the Alaska Summit of August 2025, there is a new dynamic that alters how this western propaganda is viewed by Russians inside Russia. The so-called “Spirit of Alaska” has taken on a life of its own, with the prospect of economic prosperity linked to the negotiated end of the Russian-Ukrainian conflict increasingly resonating within certain circles of Russian economic and political elites. A critical aspect of this “Spirit of Alaska” is the ongoing dialogue between Kirill Dmitriev, President Putin’s designated interlocutor with Trump’s point man on Russia, Steve Witkoff. This dialogue, extensively promoted by Dmitriev, focuses on the economic benefits that will accrue for Russia once the war with Ukraine ends and economic relations with the US begin.
 

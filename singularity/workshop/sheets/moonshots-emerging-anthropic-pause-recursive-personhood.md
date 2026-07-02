@@ -1,7 +1,5 @@
 # Moonshots (unscheduled) — Emerging Situation: Anthropic Global Pause, Recursive Self-Improvement, and AI Personhood
 
-WORK only; not Record.
-
 ## Source
 
 - Source: "Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement, and AI Personhood Arrives", Moonshots (Peter Diamandis et al.).

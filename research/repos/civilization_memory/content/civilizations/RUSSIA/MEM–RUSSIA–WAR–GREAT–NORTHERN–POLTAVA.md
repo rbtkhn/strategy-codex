@@ -97,7 +97,6 @@ Consequences:
 
 Rather than exit, Russia **re-enters the system deeper**.
 
-
 Robert K. Massie captures how Narva's humiliation became instructional:
 
 "Narva was a disaster, but it was also a revelation. Peter learned

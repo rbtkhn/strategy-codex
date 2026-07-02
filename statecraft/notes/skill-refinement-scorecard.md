@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 # Skill Refinement Scorecard
 
-
 ## Purpose
 
 This note gives `statecraft/` a reusable way to judge whether skill refinements are producing real operational gains rather than cleaner wording alone.

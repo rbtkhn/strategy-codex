@@ -15,9 +15,7 @@ SCRIPTS_RUNTIME = REPO_ROOT / "scripts" / "runtime"
 sys.path.insert(0, str(SCRIPTS_RUNTIME))
 from generate_chunks import chunk_file, source_hash  # noqa: E402
 
-
 # ── chunk generation unit tests ───────────────────────────────────────
-
 
 SMALL_DOC = "# Title\n\nOne short paragraph."
 
@@ -29,7 +27,6 @@ LARGE_DOC = "\n\n".join([
     "## Section four\n\nFourth section covers strategy notebook entries and daily analysis. " * 5,
     "## Section five\n\nFifth section has Barnes countercurrent and jurisdiction history. " * 5,
 ])
-
 
 class TestChunkFile:
     def test_large_doc_produces_multiple_chunks(self) -> None:
@@ -94,9 +91,7 @@ class TestChunkFile:
             assert len(c["content"].strip()) > 0
             assert c["char_count"] > 0
 
-
 # ── chunk store tests ─────────────────────────────────────────────────
-
 
 class TestChunkStore:
     def test_no_chunks_available(self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
@@ -148,9 +143,7 @@ class TestChunkStore:
         paths = chunk_store.chunked_source_paths("artifact_lookup")
         assert "runtime/artifacts/test.md" in paths
 
-
 # ── CLI integration tests ─────────────────────────────────────────────
-
 
 class TestGenerateChunksCLI:
     def test_single_file_chunking(self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
@@ -185,9 +178,7 @@ class TestGenerateChunksCLI:
         assert result.returncode == 0
         assert "skipped" in result.stderr.lower()
 
-
 # ── hybrid retrieval chunk integration ────────────────────────────────
-
 
 class TestHybridChunkIntegration:
     def test_chunk_aware_search(self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:

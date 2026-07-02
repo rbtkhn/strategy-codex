@@ -21,7 +21,6 @@ README_SELF_MONTHLY = re.compile(
     re.IGNORECASE,
 )
 
-
 def _tracked_files() -> list[str]:
     result = subprocess.run(
         ["git", "ls-files"],
@@ -32,18 +31,14 @@ def _tracked_files() -> list[str]:
     )
     return [line.strip() for line in result.stdout.splitlines() if line.strip()]
 
-
 def test_voices_templates_dir_retired() -> None:
     assert not (VOICES / "_templates").exists()
-
 
 def test_voices_scratch_dir_retired() -> None:
     assert not (VOICES / "_scratch").exists()
 
-
 def test_root_examples_dir_retired() -> None:
     assert not (REPO_ROOT / "examples").exists()
-
 
 def test_no_subdirs_under_speaker_shelves() -> None:
     violations: list[str] = []
@@ -60,7 +55,6 @@ def test_no_subdirs_under_speaker_shelves() -> None:
         violations
     )
 
-
 def test_no_tracked_stream_or_themes_paths() -> None:
     bad: list[str] = []
     for path in _tracked_files():
@@ -70,7 +64,6 @@ def test_no_tracked_stream_or_themes_paths() -> None:
             if path.startswith("statecraft/voices/") or path.startswith("statecraft/channels/"):
                 bad.append(path)
     assert not bad, "tracked files still under stream/ or themes/:\n" + "\n".join(bad[:50])
-
 
 def test_no_forbidden_path_strings_in_live_docs() -> None:
     hits: list[str] = []
@@ -98,7 +91,6 @@ def test_no_forbidden_path_strings_in_live_docs() -> None:
             hits.append(path)
     assert not hits, "live files still cite nested stream/themes paths:\n" + "\n".join(hits[:30])
 
-
 def _shelf_markdown_paths() -> list[str]:
     out: list[str] = []
     for path in _tracked_files():
@@ -111,7 +103,6 @@ def _shelf_markdown_paths() -> list[str]:
         elif path.startswith("statecraft/channels/") and path.count("/") >= 3:
             out.append(path)
     return out
-
 
 def test_no_stale_flattening_labels_in_shelf_docs() -> None:
     hits: list[str] = []

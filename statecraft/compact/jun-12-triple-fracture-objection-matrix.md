@@ -1,6 +1,5 @@
 # Jun 12 Triple-Fracture Objection Matrix
 
-
 **Deploy judgment:** America × Persia **comparison required** — no single lane owns the dominant Jun 12 object. This compact holds the **shared compression** so downstream notes do not repeat the same block.
 
 **Live object:** **MOU bridge survivability under triple fracture** — published scaffold vs coordinated denial, Lebanon point-1 live ops (J12-6 fail), and **§224 mesh quid** during the 60-day summer calendar bridge.

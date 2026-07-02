@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today is Monday, June 8th, 2026 and our dear friend, our brother Colonel Jacobu is here with us. Welcome back, Carl.

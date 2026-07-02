@@ -17,12 +17,10 @@ BLOCKLIST = (
     / "public/predictive-history/data/asr-blocklist/volume-ii-pilot.json"
 )
 
-
 def test_transcript_body_splits_on_part_i_marker() -> None:
     text = "---\n---\n\n## Part I: Full transcript\n\nbronch age here\n"
     assert "bronch age" in transcript_body(text)
     assert "---" not in transcript_body(text)
-
 
 def test_line_hits_finds_known_mangling() -> None:
     payload = json.loads(BLOCKLIST.read_text(encoding="utf-8"))
@@ -31,7 +29,6 @@ def test_line_hits_finds_known_mangling() -> None:
     hits = line_hits(path, body, payload["entries"], set())
     assert any(hit.literal == "bronch age" for hit in hits)
 
-
 def test_allowed_residual_suppresses_hit() -> None:
     payload = json.loads(BLOCKLIST.read_text(encoding="utf-8"))
     body = "normally effing goes well in our forest.\n"
@@ -39,7 +36,6 @@ def test_allowed_residual_suppresses_hit() -> None:
     allowed = {item["literal"] for item in payload["allowed_residuals"]}
     hits = line_hits(path, body, payload["entries"], allowed)
     assert hits == []
-
 
 def test_blocklist_has_pilot_scope_metadata() -> None:
     payload = json.loads(BLOCKLIST.read_text(encoding="utf-8"))

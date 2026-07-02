@@ -39,7 +39,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today I want to say today, but it's tonight. Tonight is June 9th, 2026. And I'm here to talk about what's going on between Iran and the United States. Today we've learned that an American helicopter, Apache helicopter was hit in the Strait of Hormuz and it was reported by mainstream media in the United States.

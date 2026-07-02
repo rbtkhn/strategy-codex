@@ -1,6 +1,6 @@
 # ROME pass — General Audience 1 Apr 2026 (*Lumen gentium* — laity)
 
-**WORK only** — not Record. Filed **2026-04-06** per [ROME-PASS.md](../ROME-PASS.md).
+ Filed **2026-04-06** per [ROME-PASS.md](../ROME-PASS.md).
 
 ## Primary (1)
 

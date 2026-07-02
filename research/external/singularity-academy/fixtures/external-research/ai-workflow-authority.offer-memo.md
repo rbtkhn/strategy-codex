@@ -1,6 +1,6 @@
 # Singularity-Academy Offer Memo - ai-workflow-authority
 
-WORK only; source-bound business memo derived from external research.
+non-authoritative; source-bound business memo derived from external research.
 
 - Source artifact: `research/external/singularity-academy/fixtures/external-research/ai-workflow-authority.artifact.json`
 - Query: How should review-gated AI workflow research be applied to singularity academy?

@@ -41,7 +41,7 @@ python scripts/emit_pipeline_event.py stress_test_passed none brief=weekly-2026-
 python scripts/emit_pipeline_event.py loop_cycle_staged none territory=wap cycle=daily-loop-brief
 ```
 
-## Scaffolds (optional, WORK only)
+## Scaffolds (optional)
 
 | Command | Output |
 |---------|--------|

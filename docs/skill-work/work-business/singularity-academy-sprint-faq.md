@@ -1,6 +1,6 @@
 # Singularity-Academy Sprint FAQ
 
-WORK only. This is concise buyer-facing FAQ copy, not proof of demand.
+non-authoritative. This is concise buyer-facing FAQ copy, not proof of demand.
 
 ## Purpose
 

@@ -1,6 +1,6 @@
 # Singularity-Academy Sprint Outreach Sequence
 
-WORK only. Draft outreach copy.
+non-authoritative. Draft outreach copy.
 
 ## Use
 

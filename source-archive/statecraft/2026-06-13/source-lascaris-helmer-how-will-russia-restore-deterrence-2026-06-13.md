@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Helmer Deterrence and Russian Street
 
 Good day. This is Demetri Lascaris coming to you for Reason to Resist from Kamata, Greece on June 14th, 2026, although it will be June 13th uh in North America when we publish this video in a few hours time. I'm very pleased to be joined again by our good friend and frequent guest of On Reason to Resist, John Helmer.

@@ -16,14 +16,12 @@ DEFAULT_OBSERVATIONS_IN = REPO_ROOT / "statecraft" / "epistemic" / "data" / "obs
 DEFAULT_STRUCTURED_IN = REPO_ROOT / "statecraft" / "epistemic" / "data" / "structured_predictions.json"
 DEFAULT_TEMPORAL_OUT = REPO_ROOT / "statecraft" / "epistemic" / "data" / "temporal.json"
 
-
 def load_structured_predictions(*, path: Path | None = None) -> list[dict[str, Any]]:
     structured_path = path or DEFAULT_STRUCTURED_IN
     payload = json.loads(structured_path.read_text(encoding="utf-8"))
     if isinstance(payload, list):
         return payload
     return list(payload.get("structured_predictions") or [])
-
 
 def enrich_with_timestamps(
     structured: list[dict[str, Any]],
@@ -37,7 +35,6 @@ def enrich_with_timestamps(
         enriched.append(copy)
     return enriched
 
-
 def build_timeline_entry(pred: dict[str, Any]) -> dict[str, Any]:
     return {
         "voice": pred["voice"],
@@ -45,7 +42,6 @@ def build_timeline_entry(pred: dict[str, Any]) -> dict[str, Any]:
         "confidence": pred["confidence"],
         "timestamp": pred.get("timestamp") or "",
     }
-
 
 def build_temporal_view(
     structured: list[dict[str, Any]],
@@ -68,7 +64,6 @@ def build_temporal_view(
 
     summary = {"event_count": len(temporal_by_event)}
     return temporal_by_event, summary
-
 
 def write_temporal_view(
     temporal_by_event: list[dict[str, Any]],

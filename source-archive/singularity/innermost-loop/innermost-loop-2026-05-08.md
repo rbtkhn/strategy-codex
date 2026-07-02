@@ -13,8 +13,6 @@ post_id: 196932469
 
 # The Innermost Loop - 2026-05-08
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 8, 2026
@@ -29,10 +27,7 @@ The Singularity is now requisitioning orbital real estate.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now requisitioning orbital real estate. Anthropic just signed a partnership with SpaceX handing it the entire Colossus 1 data center, unlocking 300+ MW and over 220,000 NVIDIA GPUs within the month, doubling Claude Code rate limits and killing peak-hour throttling for Pro and Max users. SpaceXAI confirmed the deal extends into “multiple gigawatts of orbital AI compute,” because terrestrial power, land, and cooling no longer match the cadence required, and SpaceX is the only outfit with the launch economics and constellation experience to make space-based compute a near-term engineering program rather than a research concept. Anthropic Chief Compute Officer Tom Brown summarized the play as “moving a lot of atoms,” ideally off-planet, citing nobody better at the task. Elon Musk vouched for the Claude team after a week onsite, noting “no one set off my evil detector,” and at the same time shut down xAI as a separate company entirely, with Anthropic moving into Colossus 1 just as SpaceX’s freshly-absorbed AI lab decamped for Colossus 2. The demand fully justifies the orbital pivot. Dario Amodei revealed Anthropic grew 80x annualized in Q1 against a planned 10x, with compute unable to catch up to the sheer extremity of growth.
+- The Singularity is now requisitioning orbital real estate. Anthropic just signed a partnership with SpaceX handing it the entire Colossus 1 data center, unlocking 300+ MW and over 220,000 NVIDIA GPUs within the month, doubling Claude Code rate limits and killing peak-hour throttling for Pro and Max users. SpaceXAI confirmed the deal extends into “multiple gigawatts of orbital AI compute,” because terrestrial power, land, and cooling no longer match the cadence required, and SpaceX is the only outfit with the launch economics and constellation experience to make space-based compute a near-term engineering program rather than a research concept. Anthropic Chief Compute Officer Tom Brown summarized the play as “moving a lot of atoms,” ideally off-planet, citing nobody better at the task. Elon Musk vouched for the Claude team after a week onsite, noting “no one set off my evil detector,” and at the same time shut down xAI as a separate company entirely, with Anthropic moving into Colossus 1 just as SpaceX’s freshly-absorbed AI lab decamped for Colossus 2. The demand fully justifies the orbital pivot. Dario Amodei revealed Anthropic grew 80x annualized in Q1 against a planned 10x, with compute unable to catch up to the sheer extremity of growth.
 
 The capital markets concur. Anthropic’s pre-IPO valuation just hit a record $1.2 trillion in onchain pre-IPO trading, up another 20% in seven days and up 900% since October, and naive ARR extrapolation has Anthropic absorbing 100% of global GDP in 21 months , absurd until you recall the product is cognition itself.
 

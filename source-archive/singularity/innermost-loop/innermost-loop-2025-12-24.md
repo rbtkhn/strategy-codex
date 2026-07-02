@@ -13,8 +13,6 @@ post_id: 182508143
 
 # The Innermost Loop - 2025-12-24
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 24, 2025
@@ -29,10 +27,7 @@ The curve is steepening into a wall.
 
 ## Newsletter Text
 
--
--
-
-The curve is steepening into a wall. Poetiq reports that its harness running on GPT-5.2-xhigh achieves superhuman SOTA 75% performance on ARC-AGI-2 at under $8 per problem , nearly saturating the benchmark and beating the previous SOTA by approximately 15% without requiring any modification to the base model. This breakout is not an anomaly. The Epoch Capabilities Index reveals that frontier model improvement rates nearly doubled after April 2024 , fueled by the shift to reasoning. The scaling laws are holding even in the details: researchers found that fine-tuning for linear compositionality of reasoning compute consistently yields gains. DeepMind is cracking the black box open with Gemma Scope 2 , placing Sparse Autoencoders on every layer to map the geography of machine thought.
+- The curve is steepening into a wall. Poetiq reports that its harness running on GPT-5.2-xhigh achieves superhuman SOTA 75% performance on ARC-AGI-2 at under $8 per problem , nearly saturating the benchmark and beating the previous SOTA by approximately 15% without requiring any modification to the base model. This breakout is not an anomaly. The Epoch Capabilities Index reveals that frontier model improvement rates nearly doubled after April 2024 , fueled by the shift to reasoning. The scaling laws are holding even in the details: researchers found that fine-tuning for linear compositionality of reasoning compute consistently yields gains. DeepMind is cracking the black box open with Gemma Scope 2 , placing Sparse Autoencoders on every layer to map the geography of machine thought.
 
 We are living through the twilight of human programming. Signal founder Moxie Marlinspike describes the “novel and sweet” sensation of the “last days of software development,” a sentiment echoed by Anthropic’s Sholto Douglas, who predicts continual learning will be solved in 2026 , triggering the total automation of knowledge work. The machines are already polyglots: Chinese lab MiniMax released M2.1, an open-weight model optimized for Rust, Java, and C++ , recognizing that real-world systems are not written solely in Python.
 

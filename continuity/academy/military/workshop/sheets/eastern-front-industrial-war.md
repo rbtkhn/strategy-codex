@@ -1,7 +1,6 @@
 # Eastern Front Industrial War
 <!-- word_count: 205 -->
 
-
 ## Purpose
 
 Study industrial war at scale: attrition, operational depth, adaptation, political will, logistics, production, and the limits of clean campaign narrative.

@@ -39,7 +39,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 President Trump is looking to celebrate his victory about get about the deal that is going to be signed on Friday. At least that's the schedule uh releasing out on True Social this morning that hey everything is already starting to happen. In fact, there's oil going through the straits right now. According to what he wrote, ships are starting to move.

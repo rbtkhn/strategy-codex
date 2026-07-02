@@ -4,7 +4,6 @@ from __future__ import annotations
 
 from typing import Any
 
-
 def group_by_event_and_voice(
     claims: list[dict[str, Any]],
 ) -> dict[tuple[str, str], list[dict[str, Any]]]:
@@ -17,7 +16,6 @@ def group_by_event_and_voice(
         grouped.setdefault((event_id, voice), []).append(dict(claim))
     return grouped
 
-
 def _trajectory_point(claim: dict[str, Any]) -> dict[str, Any]:
     return {
         "timestamp": str(claim.get("timestamp") or ""),
@@ -29,7 +27,6 @@ def _trajectory_point(claim: dict[str, Any]) -> dict[str, Any]:
         "speech_act": str(claim.get("speech_act") or ""),
         "capture": str(claim.get("capture") or ""),
     }
-
 
 def build_trajectories(claims: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Group matched probabilistic claims into sorted trajectories."""

@@ -49,4 +49,4 @@ January closes into **Februaryâ€™s kinetic opening** (deadlines, buildup, *
 4. Reuters â€” Syrian government and Kurdish-led SDF integration / ceasefire agreement (2026-01-30). `https://www.reuters.com/world/middle-east/syrian-kurdish-led-sdf-agree-ceasefire-phased-integration-deal-with-government-2026-01-30/`
 5. Notebook â€” `experts/mercouris/thread.md` machine layer, **2026-01** The Duran / Rumble line (NATO â€œwartime mindsetâ€ / European rearmament debate). `../experts/mercouris/thread.md`
 
-_Work only; not Record. Web rows are assistant-compiled pointers â€” re-verify before promotion._
+_Web rows are assistant-compiled pointers â€” re-verify before promotion._

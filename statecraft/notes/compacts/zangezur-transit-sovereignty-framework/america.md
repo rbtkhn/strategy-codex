@@ -1,6 +1,5 @@
 # America - Zangezur Transit / Sovereignty Framework
 
-
 ## Transaction Name
 
 Zangezur access guarantee without extraterritoriality.

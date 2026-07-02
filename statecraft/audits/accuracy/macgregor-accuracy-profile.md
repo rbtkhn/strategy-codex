@@ -1,6 +1,5 @@
 # Macgregor accuracy profile
 
-
 ## Summary
 
 Macgregor's scoreable claims often sit between hard force-feasibility and wider imperial or social consequence. V1 favors the harder, more bounded subset while leaving several wider claims unresolved, and the new Mario Nawfal pass adds a concrete future-closeable energy forecast without forcing closure on the broader collapse rhetoric.

@@ -1,6 +1,5 @@
 # China Order Arc
 
-
 ## Purpose
 
 Use this sheet when a China-lane read, six-part doctrine read, transaction, clause, or current event invokes order, mandate, unity, development continuity, maritime ambiguity, party-state implementation, compute sovereignty, or fear of disorder.

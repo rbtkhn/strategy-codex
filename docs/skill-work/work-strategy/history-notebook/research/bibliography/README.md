@@ -1,6 +1,6 @@
 ﻿# Bookshelf — formal bibliography (generated)
 
-**WORK only;** not Record.
+**non-authoritative;** not Record.
 
 Markdown files in this directory are **generated** from [../bookshelf-catalog.yaml](../bookshelf-catalog.yaml). Do not edit them by hand.
 

@@ -11,7 +11,7 @@ Use it to keep Xavier's daily political/workflow practices aligned with Grace-Ma
 
 - Daily manual sync contract for relevant `work-politics` updates
 - Sync log for audit trail and continuity
-- Xavier-safe adaptation boundary (WORK only, no Record writes)
+- Xavier-safe adaptation boundary (non-authoritative, no Record writes)
 
 ---
 

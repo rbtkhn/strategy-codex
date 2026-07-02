@@ -1,6 +1,5 @@
 # China Secondary Sources - Cybernetic
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the cybernetic China primary shelf when post-1991 rejuvenation, digital governance, maritime-frontier order, and party-state control need sharper institutional reading or counterweight against both collapse and omnipotence narratives.

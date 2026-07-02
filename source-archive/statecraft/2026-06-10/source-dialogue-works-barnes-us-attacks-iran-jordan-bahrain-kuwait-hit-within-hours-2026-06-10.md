@@ -44,7 +44,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 [music] Hi everybody. Today's Wednesday, June 10th, 2026 and our dear friend Robert is here with us. Welcome back, Robert.

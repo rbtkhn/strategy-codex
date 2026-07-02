@@ -45,7 +45,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Well, we are learning more now about this peace deal between the United States and Iran, but of course, there's still a lot we don't know. How much will the United States actually pay in reparations? We think we have a framework. We'll talk about that in a second. What does this mean for shipping through the Strait of Hormuse, Iran's nuclear program? And we also don't know to the full extent of Israel's involvement in this agreed peace.

@@ -94,7 +94,6 @@ If verification cannot be completed:
 - state which step failed (verify, sync, validate)
 - do not commit generated host skill without successful verify
 
-
 ## Cursor / strategy-codex instance
 
 _(appendix missing: .cursor/skills/portable-skills-sync/CURSOR_APPENDIX.md)_

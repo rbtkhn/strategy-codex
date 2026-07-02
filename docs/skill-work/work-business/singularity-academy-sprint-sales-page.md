@@ -1,6 +1,6 @@
 # Singularity-Academy Sprint Sales Page
 
-WORK only. This is draft buyer-facing copy, not market proof.
+non-authoritative. This is draft buyer-facing copy, not market proof.
 
 ## Header
 

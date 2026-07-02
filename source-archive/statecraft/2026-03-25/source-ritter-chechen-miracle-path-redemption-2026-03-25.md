@@ -26,7 +26,6 @@ Scott Ritter
 
 Mar 25, 2026
 
-
 The Author (left) with the Head of the Chechen Republic Ramzan Kadyrov (right)
 
 Over the course of 24 days – from December 28 to January 20 – I was able to take in the sights and sounds of Moscow and Saint Petersburg, as these two cities celebrated both the New Year and Russian Orthodox Christmas (I also got to experience the freezing cold of the Russian winter, which was very much part of the experience!)

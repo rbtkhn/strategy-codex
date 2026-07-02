@@ -1,7 +1,5 @@
 # anyang-ai — Gitee template import (from Cici upstream)
 
-WORK only; not Record.
-
 **Audience:** Anyang mentor (one-time setup) + operator advisor. **Students** use [§4 Student fork flow](#4-student-fork-flow-tier-a) only — they do **not** import from GitHub themselves.
 
 **Upstream:** [github.com/Xavier-x01/Cici](https://github.com/Xavier-x01/Cici) (OB1 instance reference; international golden path).  

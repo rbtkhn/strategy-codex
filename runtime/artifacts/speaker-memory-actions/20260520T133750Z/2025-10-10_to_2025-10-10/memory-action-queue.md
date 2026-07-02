@@ -1,7 +1,5 @@
 # Speaker memory action queue
 
-WORK only; not Record.
-
 Window: `2025-10-10` to `2025-10-10`
 
 - `high` `update-existing-arc` `codex/years/2026/diesen/diesen-wilkerson-speaker-arc.md` (1 appearance(s); grades: transcript-bearing)

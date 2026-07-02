@@ -1,7 +1,6 @@
 # Sacrifice And Violence
 <!-- word_count: 200 -->
 
-
 ## Purpose
 
 Study the line between sacrifice that binds, sacrifice that purifies, and sacrifice that becomes permission for violence.

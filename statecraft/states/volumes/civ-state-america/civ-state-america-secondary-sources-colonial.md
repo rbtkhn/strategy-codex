@@ -1,6 +1,5 @@
 # America Secondary Sources - Colonial
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the colonial America primary shelf when founding contradiction, slavery, constitutional formation, settler-republic expansion, or the Atlantic transfer need sharper chronology or anti-hagiographic correction.

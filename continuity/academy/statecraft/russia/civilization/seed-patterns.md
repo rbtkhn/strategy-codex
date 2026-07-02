@@ -1,7 +1,6 @@
 # Russia Civilization Seed Patterns
 <!-- word_count: 191 -->
 
-
 These seeds translate CIV-MEM into Russia-lane civilization patterns. State rules should draw from these patterns and the Russia empire folder, not directly from CIV-MEM.
 
 ## Encirclement And Security Depth

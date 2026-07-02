@@ -58,7 +58,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — NATO Strike Prediction
 
 [music] >> Good day. This is Dimitri Lascaris coming to you from Kalamata, Greece for reason to resist on May 18th, 2026. I'd like to begin today's report by making a bold prediction and one which I am not at all happy to have to make. And my prediction is that before the end of 2026, Russia will retaliate to the West's countless provocations by striking at least one military industrial target in at least one European NATO country.

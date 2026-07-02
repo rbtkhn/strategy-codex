@@ -12,7 +12,6 @@ updated_at: 2026-06-28
 
 # Marandi April 2026 cross-host arc
 
-
 Purpose: bounded cross-host arc note for the mature April 2026 Marandi run.
 
 This is not a replacement for the host-local arcs. It exists to show how the three-host Marandi object thickens inside one high-density month.

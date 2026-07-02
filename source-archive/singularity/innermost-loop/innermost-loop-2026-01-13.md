@@ -13,8 +13,6 @@ post_id: 184438597
 
 # The Innermost Loop - 2026-01-13
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 13, 2026
@@ -29,10 +27,7 @@ Recursive self-improvement has graduated from a safety paper to a shipping manif
 
 ## Newsletter Text
 
--
--
-
-Recursive self-improvement has graduated from a safety paper to a shipping manifest. Anthropic has confirmed that Claude Code wrote the entire new Claude Cowork desktop app in just 1.5 weeks. The app grants Claude direct access to the file system , allowing it to reorganize local reality by sorting downloads and generating reports. This agentic shift is reshaping the corporate org chart. McKinsey’s CEO says he now counts AI agents as “people” that the firm “employs.” He notes the firm has 40,000 humans and 20,000 agents with a goal of reaching parity within 18 months.
+- Recursive self-improvement has graduated from a safety paper to a shipping manifest. Anthropic has confirmed that Claude Code wrote the entire new Claude Cowork desktop app in just 1.5 weeks. The app grants Claude direct access to the file system , allowing it to reorganize local reality by sorting downloads and generating reports. This agentic shift is reshaping the corporate org chart. McKinsey’s CEO says he now counts AI agents as “people” that the firm “employs.” He notes the firm has 40,000 humans and 20,000 agents with a goal of reaching parity within 18 months.
 
 The definition of intelligence is expanding. A new “Prediction Arena” AI benchmark gives SOTA models $10,000 in real cash to bet on Kalshi, testing whether AI can reason about probable futures in real time. We are even training robots on imagination. Humanoid startup 1X has launched a new “1XWM” world model trained on robot actions derived from text-conditioned video generation, distinguishing it from conventional VLA models that predict trajectories from static image-language inputs. The ecosystem is consolidating. Apple and Google jointly announced a multi-year collaboration where future Apple Intelligence features, including a more personalized Siri, will rely on Gemini. Alphabet became the fourth Big Tech company to hit a $4T market value on the news.
 

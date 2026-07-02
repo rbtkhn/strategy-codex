@@ -1,7 +1,5 @@
 # June Week Daily Section-Order Audit (Before)
 
-WORK only; not Record.
-
 - window: `2026-06-03` through `2026-06-08` migrated daily notes
 - contract: eight required `##` headings in fixed order (see `validate_statecraft_daily_synthesis.py`)
 - prior tranche closed: tail-label (`Companion Notes`) on 2026-06-08 Kleiber pass

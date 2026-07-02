@@ -29,7 +29,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### VFT Open — Vine and Fig Tree, NSC AI Video, Dissident-Right Target List
 
 So, I want to bring this up first before we go into what's happening in Iran and there's a lot of developments there. Whether we have a deal, we don't have a deal, why suddenly they're talking about the Abraham's Accords, what Netanyahu is doing in Lebanon.

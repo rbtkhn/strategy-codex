@@ -15,7 +15,6 @@ BODY_MARKERS = (
     "## Why this guest run matters",
 )
 
-
 def _shelf_arc_files(root: Path) -> list[Path]:
     out: list[Path] = []
     for path in root.rglob("*.md"):
@@ -24,7 +23,6 @@ def _shelf_arc_files(root: Path) -> list[Path]:
         if path.name.endswith("-arc.md") or path.name.endswith("-speaker-arc.md"):
             out.append(path)
     return out
-
 
 def test_no_load_bearing_arc_bodies_on_shelves():
     offenders: list[str] = []
@@ -37,11 +35,9 @@ def test_no_load_bearing_arc_bodies_on_shelves():
                 offenders.append(str(path.relative_to(REPO)))
     assert not offenders, "arc bodies remain on shelves:\n" + "\n".join(offenders[:20])
 
-
 def test_notes_arc_inventory_minimum():
     arcs = list(NOTES.glob("arc-*.md"))
     assert len(arcs) >= 90
-
 
 def test_mearsheimer_orthogonality_trio_in_notes():
     for name in (

@@ -1,7 +1,5 @@
 # Humanoid Robot Scaling strategy-page - source-pack run - 2026-05-08
 
-WORK only; not Record.
-
 <!-- strategy-page:start id="humanoid-robot-scaling-source-pack" date="2026-05-08" watch="cm-1-source-pack" -->
 ### Page: Humanoid Robots and the Status Shock of Useful Bodies
 

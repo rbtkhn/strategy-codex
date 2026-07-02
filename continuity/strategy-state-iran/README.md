@@ -9,7 +9,7 @@
 | **strategy-state-iran (this tree)** | **Institution-centric, signal-centric, contradiction-aware:** **primary container = [channel](channels/README.md)**, not an expert-like person thread. **What** = institutional registers, **tiers** (FM vs Majlis vs republication), **announced vs material** tension. **Where to write** = [`weave/`](weave/) (ledger + interpretation), [channels](channels/) (routing and judgment aids), [clusters](clusters/) (multi-day objects); chronology stays in `chapters/`. |
 | **Shared** | Same [`raw-input/`](../raw-input/) paths — **point here**; do not duplicate verbatim. |
 
-**WORK only; not Record.** Durable identity surfaces stay in the companion-gated pipeline (see [AGENTS.md](../../AGENTS.md)); this lane is **governed judgment** only.
+**** Durable identity surfaces stay in the companion-gated pipeline (see [AGENTS.md](../../AGENTS.md)); this lane is **governed judgment** only.
 
 ## Why this diverges from `experts/`
 

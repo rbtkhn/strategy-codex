@@ -1,7 +1,6 @@
 # Strategy expert — `greenwald`
 <!-- word_count: 142 -->
 
-
 This is the profile-level routing home for Glenn Greenwald. Greenwald is useful in the notebook as a commentator-thread lane, but does not currently justify a standalone `statecraft/voices/greenwald/` shelf under the stricter real-continuity rule.
 
 ## Open first

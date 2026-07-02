@@ -1,6 +1,5 @@
 # Policy Paper Template
 
-
 Use this template for policy papers, decision memoranda, sanctions designs, war-powers analysis, sovereignty arguments, and institutional recommendations.
 
 ## Title

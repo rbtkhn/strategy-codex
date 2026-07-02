@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Iran Tightens Hormuz Blockade. US Strikes Intensify. Kurds IN, Ukraine OUT. EU Economic Collapse
 
-

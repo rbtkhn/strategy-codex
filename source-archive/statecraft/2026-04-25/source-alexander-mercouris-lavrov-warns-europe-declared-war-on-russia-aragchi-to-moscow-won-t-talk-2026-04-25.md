@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Lavrov Warns Europe Declared War On Russia; Araghchi To Moscow Won't Talk To US; EU: Kiev Cannot Join
 
-

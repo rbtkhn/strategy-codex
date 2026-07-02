@@ -1,6 +1,6 @@
 # Singularity-Academy Sprint Scorecard
 
-WORK only. This is a before/after measurement surface, not a guarantee of ROI.
+non-authoritative. This is a before/after measurement surface, not a guarantee of ROI.
 
 ## Purpose
 

@@ -1,7 +1,7 @@
 ﻿# strategy-codex — trace and receipts contract (v1)
 <!-- word_count: 349 -->
 
-WORK only; not Record. **Canonical** judgment lives in Git Markdown (expert `thread.md`, `strategy-page` fences, `chapters/…/days.md`). This contract describes **append-only machine receipts** for notebook-affecting commands so runs are **inspectable** and **separate** from [FOLD-LEARNING.md](FOLD-LEARNING.md) / `strategy-fold-events.jsonl` and [artifacts/work-strategy/strategy-observability.json](../../../../artifacts/work-strategy/strategy-observability.json) (separate channels; optional timestamp cross-link only).
+**Canonical** judgment lives in Git Markdown (expert `thread.md`, `strategy-page` fences, `chapters/…/days.md`). This contract describes **append-only machine receipts** for notebook-affecting commands so runs are **inspectable** and **separate** from [FOLD-LEARNING.md](FOLD-LEARNING.md) / `strategy-fold-events.jsonl` and [artifacts/work-strategy/strategy-observability.json](../../../../artifacts/work-strategy/strategy-observability.json) (separate channels; optional timestamp cross-link only).
 
 ## Receipt storage
 

@@ -1,6 +1,5 @@
 # Speaker Arc vs Canon Note
 
-
 This note explains why **speaker arc** is the better term than **canon note** for the host × guest notebook object.
 
 The difference is not only semantic. It is also:

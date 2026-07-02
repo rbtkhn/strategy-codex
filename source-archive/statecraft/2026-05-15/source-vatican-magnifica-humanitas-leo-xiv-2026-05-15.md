@@ -17,8 +17,6 @@ threads: [vatican, ai, pope-leo]
 
 # Magnifica Humanitas — On Safeguarding the Human Person in the Time of Artificial Intelligence
 
-WORK only; not Record.
-
 ## Capture Note
 
 Signed 15 May 2026; released 25 May 2026. Fetched from official Vatican URL on 2026-06-13. HTML stripped to plain text.

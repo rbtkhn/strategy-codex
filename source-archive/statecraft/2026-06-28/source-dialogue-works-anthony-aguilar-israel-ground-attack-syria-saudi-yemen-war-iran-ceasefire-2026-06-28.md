@@ -42,7 +42,6 @@ quality_note: "ASR normalization pass 2026-06-29; ph-civ replacement SSOT."
 
 ## Transcript
 
-
 ### Breaking Open — Ceasefire Doha Lebanon Yemen Syria
 
 **Anthony Aguilar:** I appreciate you guys joining in. There is a ceasefire in Iran. Ceasefire again. The US and Iran have agreed to a ceasefire. They're going to be meeting on Tuesday in Doha for an agreement. And so hostilities have ended. The answer is why did the hostilities end? That meeting is specifically about the Strait of Haramus. Are they going to come to an agreement or not? That's going to be the million question. also major major buildups in two different areas. The first oh sorry three different areas. The one is Lebanon. We still have a situation where there's no agreement about Lebanon. We seen some shocking scenes today about major bombing and bombardment of Lebanon.

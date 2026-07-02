@@ -10,7 +10,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture()
 def sync_mod():
     path = REPO_ROOT / "scripts" / "check_statecraft_intake_daily_sync.py"
@@ -20,7 +19,6 @@ def sync_mod():
     sys.modules[spec.name] = mod
     spec.loader.exec_module(mod)
     return mod
-
 
 def test_parse_daily_checkpoint_and_slugs(sync_mod):
     text = """
@@ -32,7 +30,6 @@ Archive checkpoint: **14** source-bearing captures.
     slugs = sync_mod._parse_daily_source_slugs(text, "2026-06-08")
     assert "source-judging-freedom-sachs-is-trump-losing-it-2026-06-08.md" in slugs
     assert len(slugs) == 2
-
 
 def test_desync_when_daily_missing_archive_slug(sync_mod, tmp_path: Path):
     day = "2026-06-08"
@@ -62,7 +59,6 @@ def test_desync_when_daily_missing_archive_slug(sync_mod, tmp_path: Path):
     assert report.archive_only == ("source-beta-test-2026-06-08.md",)
     assert report.exit_code == 1
 
-
 def test_ok_when_lists_align(sync_mod, tmp_path: Path):
     day = "2026-06-08"
     archive_root = tmp_path / "source-archive" / "statecraft"
@@ -87,7 +83,6 @@ def test_ok_when_lists_align(sync_mod, tmp_path: Path):
     assert report.status == "ok"
     assert report.exit_code == 0
 
-
 def test_no_daily_is_ok(sync_mod, tmp_path: Path):
     day = "2026-06-09"
     archive_root = tmp_path / "source-archive" / "statecraft"
@@ -102,12 +97,10 @@ def test_no_daily_is_ok(sync_mod, tmp_path: Path):
     assert report.status == "no_daily"
     assert report.exit_code == 0
 
-
 def test_live_june_08_ok_after_sachs_wire_in(sync_mod):
     report = sync_mod.build_sync_report("2026-06-08")
     assert report.status == "ok", sync_mod.format_human(report)
     assert "DESYNC" not in sync_mod.format_human(report).upper()
-
 
 def test_resolve_latest_captured_day_picks_newest_with_sources(sync_mod, tmp_path: Path):
     archive_root = tmp_path / "source-archive" / "statecraft"
@@ -121,12 +114,10 @@ def test_resolve_latest_captured_day_picks_newest_with_sources(sync_mod, tmp_pat
 
     assert sync_mod.resolve_latest_captured_day(root=archive_root) == "2026-06-08"
 
-
 def test_resolve_latest_captured_day_none_when_empty(sync_mod, tmp_path: Path):
     archive_root = tmp_path / "source-archive" / "statecraft"
     archive_root.mkdir(parents=True)
     assert sync_mod.resolve_latest_captured_day(root=archive_root) is None
-
 
 def test_batch_audit_mixed_ok_and_desync(sync_mod, tmp_path: Path):
     archive_root = tmp_path / "source-archive" / "statecraft"

@@ -15,7 +15,6 @@ if str(REPO / "scripts") not in sys.path:
 from check_continuity_status import check_status  # noqa: E402
 from check_text_encoding_hygiene import scan_tree  # noqa: E402
 
-
 def test_encoding_scan_finds_mojibake(tmp_path: Path):
     root = tmp_path / "codex"
     root.mkdir()
@@ -25,13 +24,11 @@ def test_encoding_scan_finds_mojibake(tmp_path: Path):
     assert len(matches) == 1
     assert matches[0].pattern.startswith("Ãƒ")
 
-
 def test_encoding_scan_clean_file(tmp_path: Path):
     root = tmp_path / "codex"
     root.mkdir()
     (root / "clean.md").write_text("# Clean\n\nNormal apostrophe's text.\n", encoding="utf-8")
     assert scan_tree(root, tmp_path) == []
-
 
 def test_encoding_hygiene_warn_exits_zero_on_dirty(tmp_path: Path, monkeypatch):
     root = tmp_path / "codex"
@@ -53,7 +50,6 @@ def test_encoding_hygiene_warn_exits_zero_on_dirty(tmp_path: Path, monkeypatch):
     )
     assert proc.returncode == 0
 
-
 def test_encoding_hygiene_strict_fails_on_dirty(tmp_path: Path):
     root = tmp_path / "codex"
     root.mkdir()
@@ -73,7 +69,6 @@ def test_encoding_hygiene_strict_fails_on_dirty(tmp_path: Path):
         errors="replace",
     )
     assert proc.returncode == 1
-
 
 def _write_min_status(root: Path) -> None:
     days_dir = root / "chapters" / "2026-06"
@@ -97,7 +92,6 @@ def _write_min_status(root: Path) -> None:
         encoding="utf-8",
     )
 
-
 def test_check_status_passes_min_layout(tmp_path: Path):
     root = tmp_path / "codex"
     root.mkdir()
@@ -107,7 +101,6 @@ def test_check_status_passes_min_layout(tmp_path: Path):
     assert report.last_entry_anchor_found
     assert report.errors == []
 
-
 def test_check_status_fails_missing_anchor(tmp_path: Path):
     root = tmp_path / "codex"
     root.mkdir()
@@ -116,7 +109,6 @@ def test_check_status_fails_missing_anchor(tmp_path: Path):
     days.write_text("## 2026-06-20\n", encoding="utf-8")
     report = check_status(tmp_path)
     assert any("anchor" in e for e in report.errors)
-
 
 def test_check_continuity_status_on_repo():
     proc = subprocess.run(
@@ -128,7 +120,6 @@ def test_check_continuity_status_on_repo():
         errors="replace",
     )
     assert proc.returncode == 0, proc.stdout + proc.stderr
-
 
 def test_check_codex_status_wrapper():
     proc = subprocess.run(

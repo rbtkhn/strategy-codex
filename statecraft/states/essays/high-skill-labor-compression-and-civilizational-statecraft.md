@@ -1,6 +1,5 @@
 # High-Skill Labor Compression and Civilizational Statecraft
 
-
 This note bridges singularity-workshop acceleration analysis into `civ-state`.
 
 The relevant singularity object is not automation in the abstract. It is **high-skill labor compression**: analytical, legal, diplomatic, intelligence, clerical, and policy-forming work becoming cheaper, faster, and more synthetically reproducible.

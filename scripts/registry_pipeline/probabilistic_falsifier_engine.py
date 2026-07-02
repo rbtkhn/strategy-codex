@@ -26,11 +26,9 @@ from registry_pipeline.contracts import (  # noqa: E402
 OUTPUT = _REPO_ROOT / "runtime" / "artifacts" / "falsifier-inference-report.json"
 QUEUE = _REPO_ROOT / "runtime" / "artifacts" / "prediction-review-queue.json"
 
-
 def _slug(text: str) -> str:
     slug = re.sub(r"[^a-z0-9]+", "_", str(text).lower()).strip("_")
     return slug[:48] or "mode"
-
 
 def _normalize_model(modes: list[dict[str, Any]], *, inference_source: str = "heuristic_v1") -> dict[str, Any]:
     total = sum(float(m["probability"]) for m in modes)
@@ -54,7 +52,6 @@ def _normalize_model(modes: list[dict[str, Any]], *, inference_source: str = "he
         "inference_source": inference_source,
         "entropy": entropy,
     }
-
 
 def _template_modes(event_id: str, event: dict[str, Any]) -> list[dict[str, Any]]:
     question = str(event.get("question") or event_id).casefold()
@@ -151,11 +148,9 @@ def _template_modes(event_id: str, event: dict[str, Any]) -> list[dict[str, Any]
         },
     ]
 
-
 def infer_falsifier_model(event_id: str, event: dict[str, Any]) -> dict[str, Any]:
     modes = _template_modes(event_id, event)
     return _normalize_model(modes, inference_source="heuristic_v1")
-
 
 def enrich_row_falsifiers(row: dict[str, Any], *, event_id: str, path: str) -> tuple[dict[str, Any], dict[str, Any] | None]:
     out = dict(row)
@@ -178,7 +173,6 @@ def enrich_row_falsifiers(row: dict[str, Any], *, event_id: str, path: str) -> t
         "high_entropy": float(model["entropy"]) >= HIGH_ENTROPY_THRESHOLD,
     }
     return out, meta
-
 
 def enrich_event_falsifiers(event_id: str, event: dict[str, Any]) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     from registry_pipeline.contracts import infer_prediction_type
@@ -216,7 +210,6 @@ def enrich_event_falsifiers(event_id: str, event: dict[str, Any]) -> tuple[dict[
 
     return out, inferences
 
-
 def enrich_registry(registry: dict[str, dict[str, Any]]) -> tuple[dict[str, dict[str, Any]], list[dict[str, Any]]]:
     enriched: dict[str, dict[str, Any]] = {}
     all_inferences: list[dict[str, Any]] = []
@@ -225,7 +218,6 @@ def enrich_registry(registry: dict[str, dict[str, Any]]) -> tuple[dict[str, dict
         enriched[event_id] = event_out
         all_inferences.extend(inferences)
     return enriched, all_inferences
-
 
 def build_inference_report(
     registry: dict[str, dict[str, Any]],
@@ -242,7 +234,6 @@ def build_inference_report(
         "inferences": inferences,
         "high_entropy": [row for row in inferences if row.get("high_entropy")],
     }
-
 
 def review_queue_items(inferences: list[dict[str, Any]]) -> list[dict[str, Any]]:
     items: list[dict[str, Any]] = []
@@ -269,11 +260,9 @@ def review_queue_items(inferences: list[dict[str, Any]]) -> list[dict[str, Any]]
             )
     return items
 
-
 def run_inference(registry: dict[str, dict[str, Any]]) -> dict[str, Any]:
     _, inferences = enrich_registry(registry)
     return build_inference_report(registry, inferences)
-
 
 def main() -> int:
     import argparse
@@ -307,7 +296,6 @@ def main() -> int:
         print(f"[ok] wrote {args.queue_output}")
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

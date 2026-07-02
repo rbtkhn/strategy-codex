@@ -11,7 +11,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 LANE = ROOT / "research/auto-research" / "self-proposals"
 
-
 def _load(name: str, path: Path):
     spec = importlib.util.spec_from_file_location(name, path)
     assert spec and spec.loader
@@ -19,7 +18,6 @@ def _load(name: str, path: Path):
     sys.modules[name] = mod
     spec.loader.exec_module(mod)
     return mod
-
 
 def _sample_payload() -> dict:
     return {
@@ -48,7 +46,6 @@ def _sample_payload() -> dict:
         "evaluation_notes": "Test payload.",
     }
 
-
 def _run_main(module, argv: list[str]):
     old_argv = sys.argv[:]
     try:
@@ -56,7 +53,6 @@ def _run_main(module, argv: list[str]):
         return module.main()
     finally:
         sys.argv = old_argv
-
 
 def test_proposal_io_parses_markdown_block(tmp_path):
     proposal_io = _load("proposal_io_test", LANE / "proposal_io.py")
@@ -73,7 +69,6 @@ def test_proposal_io_parses_markdown_block(tmp_path):
     assert parsed["hypothesis"] == payload["hypothesis"]
     assert errors == []
 
-
 def test_validate_grounding_rejects_placeholder_source_in_strict_mode():
     proposal_io = _load("proposal_io_grounding_test", LANE / "proposal_io.py")
     payload = _sample_payload()
@@ -82,7 +77,6 @@ def test_validate_grounding_rejects_placeholder_source_in_strict_mode():
     errors = proposal_io.validate_grounding(payload, strict=True)
 
     assert any("placeholder grounding markers" in error for error in errors)
-
 
 def test_sandbox_merge_inserts_candidate_before_processed(tmp_path):
     sandbox_merge = _load("sandbox_merge_test", LANE / "sandbox_merge.py")
@@ -107,7 +101,6 @@ def test_sandbox_merge_inserts_candidate_before_processed(tmp_path):
     assert f"### {sandbox['candidate_id']}" in updated_gate
     assert updated_gate.index(f"### {sandbox['candidate_id']}") < updated_gate.index("## Processed")
     assert "auto_research:" in sandbox["candidate_block"]
-
 
 def test_score_adapter_builds_bounded_scalar():
     score_adapter = _load("score_adapter_test", LANE / "score_adapter.py")
@@ -136,7 +129,6 @@ def test_score_adapter_builds_bounded_scalar():
     assert 0.0 <= bundle["scalar"] <= 1.0
     assert bundle["comparison"]["delta_from_baseline"] is not None
 
-
 def test_score_proposal_quality_penalizes_source_drift():
     score_adapter = _load("score_adapter_drift_test", LANE / "score_adapter.py")
     payload = _sample_payload()
@@ -149,7 +141,6 @@ def test_score_proposal_quality_penalizes_source_drift():
     assert scored["novel_term_ratio"] > 0.5
     assert scored["alignment_score"] < 0.5
     assert scored["drift_penalty"] > 0.3
-
 
 def test_promote_helper_serializes_pending_candidate():
     promote = _load("promote_to_gate_test", LANE / "promote_to_gate.py")
@@ -171,7 +162,6 @@ def test_promote_helper_serializes_pending_candidate():
     assert 'accepted_artifact: "research/auto-research/self-proposals/accepted/example.json"' in candidate_block
     assert 'review_note: "Operator reviewed raw source and wants gate visibility."' in candidate_block
 
-
 def test_prepare_strict_grounding_returns_zero_scalar_for_scaffold_payload(tmp_path):
     prepare = _load("prepare_grounding_test", LANE / "prepare.py")
     train = tmp_path / "train.md"
@@ -190,7 +180,6 @@ def test_prepare_strict_grounding_returns_zero_scalar_for_scaffold_payload(tmp_p
     assert result["score_bundle"]["ok"] is False
     assert result["score_bundle"]["scalar"] == 0.0
     assert result["grounding_errors"]
-
 
 def test_archive_winner_writes_transparent_metadata_fields(tmp_path):
     archive = _load("archive_winner_test", LANE / "archive_winner.py")
@@ -224,7 +213,6 @@ def test_archive_winner_writes_transparent_metadata_fields(tmp_path):
     assert artifact["proposal_projection"]["summary"] == payload["proposal"]["candidate_bundle"]["summary"]
     assert artifact["proposal_fingerprint"]
 
-
 def test_archive_winner_rejects_duplicate_fingerprint_without_force(tmp_path):
     archive = _load("archive_winner_dupe_test", LANE / "archive_winner.py")
     archive.ACCEPTED_DIR = tmp_path / "accepted"
@@ -254,7 +242,6 @@ def test_archive_winner_rejects_duplicate_fingerprint_without_force(tmp_path):
     else:
         raise AssertionError("expected duplicate fingerprint rejection")
 
-
 def test_promote_to_gate_requires_review_note(tmp_path):
     promote = _load("promote_to_gate_review_note_test", LANE / "promote_to_gate.py")
     artifact_path = tmp_path / "accepted.json"
@@ -275,7 +262,6 @@ def test_promote_to_gate_requires_review_note(tmp_path):
         assert "--review-note is required" in str(exc)
     else:
         raise AssertionError("expected review-note requirement")
-
 
 def test_promote_to_gate_refuses_scaffold_grounding_artifact():
     promote = _load("promote_to_gate_scaffold_test", LANE / "promote_to_gate.py")

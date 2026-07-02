@@ -1,6 +1,6 @@
 # work-cici — authorized sources index
 
-**Purpose:** Single lane registry for feeds, URLs, and doc pointers the operator uses for **Xavier / BrewMind** WORK — without duplicating long channel lists. **WORK only;** not Record truth.
+**Purpose:** Single lane registry for feeds, URLs, and doc pointers the operator uses for **Xavier / BrewMind** WORK — without duplicating long channel lists. **non-authoritative;** not Record truth.
 
 **Principle:** [work-modules-sources-principle.md](../work-modules-sources-principle.md)
 

@@ -30,7 +30,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hey everybody, welcome back to the Daniel Davis deep dive road show edition. I am still in Tlisi, Georgia where I'm at a conference on sustainable development. A lot of things are going on. We cannot wait until I get back to my studio to tell you about it because there's a lot of developments in both the Russia Ukraine war and in the US Iran war that directly affect where these wars could go and American national security.

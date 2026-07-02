@@ -1,7 +1,6 @@
 # Strategy expert - `berletic`
 <!-- word_count: 428 -->
 
-
 **Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) - **`berletic`** lane.
 
 ## Identity

@@ -56,18 +56,15 @@ Revisit after Geneva signing or 2026-06-19 wire close.
 *Statecraft Intelligence Desk provides geopolitical intelligence support and draft background memoranda for the Firm's internal professional use. Vendor is not legal counsel to the Firm or its clients. The Firm is solely responsible for all legal advice, compliance determinations, and client communications. Deliverables are judgment support, not investment advice.*
 """
 
-
 def _scratch_path(name: str) -> Path:
     scratch = REPO_ROOT / ".codex-tmp" / "pytest-scratch"
     scratch.mkdir(parents=True, exist_ok=True)
     return scratch / f"{name}-{uuid.uuid4().hex}.md"
 
-
 def test_valid_memo_passes() -> None:
     path = _scratch_path("memo")
     path.write_text(VALID_MEMO, encoding="utf-8")
     assert validate_memo_file(path) == []
-
 
 def test_missing_falsifiers_fails() -> None:
     path = _scratch_path("memo-broken")
@@ -78,7 +75,6 @@ def test_missing_falsifiers_fails() -> None:
     path.write_text(broken, encoding="utf-8")
     errors = validate_memo_file(path)
     assert any("Falsifiers" in e for e in errors)
-
 
 def test_template_documents_embargo_values() -> None:
     template = REPO_ROOT / "statecraft" / "templates" / "sid-transaction-memo.md"

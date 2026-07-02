@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 is really rather, uh, remarkable, uh, Professor Mearsheimer, uh, about unconditional surrender. Chris, cut number 14. >> You had talked about you only wanted unconditional surrender. And well, the MOU doesn't look like unconditional surrender. Well, it really probably is unconditional surrender. >> Yes, I think so.

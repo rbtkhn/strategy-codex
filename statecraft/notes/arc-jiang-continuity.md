@@ -19,12 +19,10 @@ archive_links:
   - source-archive/statecraft/2026-05-12/source-game-theory-24-the-ai-apocalypse-2026-05-12.md
 ---
 
-
 Open alongside:
 
 - [jiang routing](../voices/jiang/jiang-routing.md)
 - [jiang index](../voices/jiang/jiang-index.md)
-
 
 # Jiang Arc
 

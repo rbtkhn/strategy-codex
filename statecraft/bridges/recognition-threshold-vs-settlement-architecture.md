@@ -1,6 +1,5 @@
 # Recognition Threshold Vs Settlement Architecture
 
-
 This note explains what the Pape / Marandi / Parsi comparison provides that is valuable and unique.
 
 The short answer is:

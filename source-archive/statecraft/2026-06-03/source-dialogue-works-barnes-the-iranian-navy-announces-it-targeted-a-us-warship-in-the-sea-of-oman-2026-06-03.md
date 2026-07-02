@@ -39,7 +39,6 @@ transcript_curation: curated_sectioned
 
 ## Cleaned Transcript
 
-
 ### Show Open — Introduction
 
 **Nima Alkhorshid:** Hi everybody. Today's Wednesday, June 3rd, 2026, and our dear friend Robert Barnes is here with us. Welcome back, Robert.

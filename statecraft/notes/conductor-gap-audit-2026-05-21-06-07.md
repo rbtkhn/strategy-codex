@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 # Conductor gap audit — 2026-05-21 through 2026-06-07
 
-
 **Purpose:** Name statecraft learning that **should have carried a conductor close**
 but did not, during the mid-month window before the **2026-06-08** five-conductor
 ship sequence.

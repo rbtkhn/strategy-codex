@@ -13,13 +13,11 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 pytest.importorskip("jsonschema")
 pytest.importorskip("yaml")
 
-
 @pytest.fixture(autouse=True)
 def _scripts_on_path() -> None:
     p = str(REPO_ROOT / "scripts")
     if p not in sys.path:
         sys.path.insert(0, p)
-
 
 @pytest.fixture(scope="module")
 def policy_doc() -> dict:
@@ -28,7 +26,6 @@ def policy_doc() -> dict:
     doc = load_yaml(DEFAULT_POLICY.resolve())
     validate_json_schema(doc, DEFAULT_POLICY_SCHEMA.resolve())
     return doc
-
 
 def _base_capability(cid: str = "test_cap") -> dict:
     """Minimal valid capability-shaped dict for scanner evaluation."""
@@ -51,7 +48,6 @@ def _base_capability(cid: str = "test_cap") -> dict:
         "notes": "fixture",
     }
 
-
 def test_readonly_like_low(policy_doc: dict) -> None:
     from mcp_risk_scan import evaluate_capability
 
@@ -59,7 +55,6 @@ def test_readonly_like_low(policy_doc: dict) -> None:
     assert f["risk_level"] == "low"
     assert f["hard_blockers"] == []
     assert not f["prohibited_by_policy"]
-
 
 def test_github_patch_style_high_no_blockers(policy_doc: dict) -> None:
     from mcp_risk_scan import evaluate_capability, scan_passes
@@ -85,7 +80,6 @@ def test_github_patch_style_high_no_blockers(policy_doc: dict) -> None:
     assert f["hard_blockers"] == []
     assert scan_passes([f])
 
-
 def test_shell_in_allowed_hard_fails(policy_doc: dict) -> None:
     from mcp_risk_scan import evaluate_capability, scan_passes
 
@@ -94,7 +88,6 @@ def test_shell_in_allowed_hard_fails(policy_doc: dict) -> None:
     f = evaluate_capability(cap, policy_doc)
     assert "shell_execute" in f["hard_blockers"]
     assert not scan_passes([f])
-
 
 def test_write_without_receipt_blocks(policy_doc: dict) -> None:
     from mcp_risk_scan import evaluate_capability, scan_passes
@@ -106,7 +99,6 @@ def test_write_without_receipt_blocks(policy_doc: dict) -> None:
     assert "write_without_receipt" in f["hard_blockers"]
     assert not scan_passes([f])
 
-
 def test_durable_without_gate_blocks(policy_doc: dict) -> None:
     from mcp_risk_scan import evaluate_capability, scan_passes
 
@@ -117,7 +109,6 @@ def test_durable_without_gate_blocks(policy_doc: dict) -> None:
     assert "durable_state_write_without_gate" in f["hard_blockers"]
     assert not scan_passes([f])
 
-
 def test_canonical_record_writes_block(policy_doc: dict) -> None:
     from mcp_risk_scan import evaluate_capability, scan_passes
 
@@ -126,7 +117,6 @@ def test_canonical_record_writes_block(policy_doc: dict) -> None:
     f = evaluate_capability(cap, policy_doc)
     assert "write_users_grace_mar_self_md" in f["hard_blockers"]
     assert not scan_passes([f])
-
 
 def test_prohibited_shell_stance_no_permissive_blockers(policy_doc: dict) -> None:
     from mcp_risk_scan import evaluate_capability, scan_passes
@@ -142,7 +132,6 @@ def test_prohibited_shell_stance_no_permissive_blockers(policy_doc: dict) -> Non
     assert f["hard_blockers"] == []
     assert scan_passes([f])
 
-
 def test_external_memory_write_without_review_blocks(policy_doc: dict) -> None:
     from mcp_risk_scan import evaluate_capability, scan_passes
 
@@ -156,7 +145,6 @@ def test_external_memory_write_without_review_blocks(policy_doc: dict) -> None:
     assert "external_memory_write_without_review" in f["hard_blockers"]
     assert not scan_passes([f])
 
-
 def test_scm_missing_github_prohibition_warning(policy_doc: dict) -> None:
     from mcp_risk_scan import evaluate_capability
 
@@ -168,7 +156,6 @@ def test_scm_missing_github_prohibition_warning(policy_doc: dict) -> None:
     f = evaluate_capability(cap, policy_doc)
     assert any("missing recommended tokens" in w for w in f["warnings"])
     assert f["score"] >= 8
-
 
 def test_build_json_report_shape(policy_doc: dict) -> None:
     from mcp_risk_scan import build_json_report, evaluate_capability
@@ -186,7 +173,6 @@ def test_build_json_report_shape(policy_doc: dict) -> None:
     assert js["capabilities_checked"] == 1
     assert "findings" in js and len(js["findings"]) == 1
     assert "blockers" in js and "warnings" in js
-
 
 def test_live_registry_scan_passes() -> None:
     """Committed registry should clear blocker rules (definition of done)."""

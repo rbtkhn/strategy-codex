@@ -1,6 +1,5 @@
 # Mearsheimer page — 2026-02-25 (legacy pointer; lane-split)
 
-
 **Superseded (lane split):** This file previously duplicated the full line-by-line transcript. **SSOT** is [provenance/2026-02-25/source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](../../../source-archive/statecraft/2026-02-25/source-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md) only.
 
 - **Guest lane (Mearsheimer analysis):** [mearsheimer-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md](mearsheimer-page-2026-02-25-diesen-mearsheimer-case-for-nuclear-iran-2026-02-25.md)

@@ -17,13 +17,11 @@ import check_prediction_metrics as check_metrics  # noqa: E402
 import check_prediction_registry as check_registry  # noqa: E402
 import prediction_lib as lib  # noqa: E402
 
-
 def test_build_registry_fixture_shape() -> None:
     payload = lib.build_registry_payload()
     assert len(payload["predictions"]) == 3
     speakers = {row["speaker"] for row in payload["predictions"]}
     assert speakers == {"mercouris", "ritter"}
-
 
 def test_metrics_open_event_accuracy_null() -> None:
     registry = lib.build_registry_payload()
@@ -33,11 +31,9 @@ def test_metrics_open_event_accuracy_null() -> None:
         assert bucket["accuracy"] is None
         assert bucket["scorable"] == 0
 
-
 def test_registry_and_metrics_checks_pass_on_repo() -> None:
     assert check_registry.run_check() == 0
     assert check_metrics.run_check() == 0
-
 
 def test_registry_fails_on_unknown_event(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     data_dir = tmp_path / "statecraft" / "data"

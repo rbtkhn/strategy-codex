@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Iran Debacle; US Officials Tell Trump End War; Trump Calls Putin Begs Help Tough Talks; Iran Defiant
 
-

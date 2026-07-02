@@ -9,7 +9,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture()
 def script_module():
     import importlib.util
@@ -21,7 +20,6 @@ def script_module():
     spec.loader.exec_module(mod)
     return mod
 
-
 def test_dedupe_applied_keeps_earliest_per_candidate(script_module):
     events = [
         {"event": "applied", "ts": "2026-03-20T08:07:12.551688", "candidate_id": "CANDIDATE-0088"},
@@ -30,7 +28,6 @@ def test_dedupe_applied_keeps_earliest_per_candidate(script_module):
     by = script_module._dedupe_applied_by_candidate(events)
     assert len(by) == 1
     assert by["CANDIDATE-0088"]["ts"] == "2026-03-20T08:06:49.142480"
-
 
 def test_existing_merge_candidate_ids(script_module):
     text = """
@@ -41,7 +38,6 @@ def test_existing_merge_candidate_ids(script_module):
 ## Something else
 """
     assert script_module._existing_merge_candidate_ids(text) == {"CANDIDATE-0086"}
-
 
 def test_run_apply_inserts_section_before_footer(tmp_path, script_module):
     user = "test-fork"
@@ -87,7 +83,6 @@ def test_run_apply_inserts_section_before_footer(tmp_path, script_module):
     assert "CANDIDATE-0001" in out
     assert out.index("Pipeline merge") < out.index("END OF FILE")
     assert "- 2026-01-02 12:00:00 | pipeline merge | CANDIDATE-0001 | approved by operator" in out
-
 
 def test_run_skips_when_already_logged(tmp_path, script_module):
     user = "test-fork2"

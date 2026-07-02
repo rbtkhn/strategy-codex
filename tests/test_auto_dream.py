@@ -14,11 +14,9 @@ import auto_dream
 import contradiction_digest
 import score_adapter
 
-
 def _gate_text(*blocks: str) -> str:
     joined = "\n\n".join(blocks)
     return f"# Gate\n\n## Candidates\n\n{joined}\n\n## Processed\n"
-
 
 def test_contradiction_digest_flags_duplicate_and_contradiction(tmp_path):
     users_dir = tmp_path / "platform/users"
@@ -80,7 +78,6 @@ source_exchange:
     assert artifact is not None
     assert errors == []
 
-
 def test_contradiction_digest_strict_mode_escalates_dense_overlap(tmp_path):
     users_dir = tmp_path / "platform/users"
     user_dir = users_dir / "demo"
@@ -127,7 +124,6 @@ source_exchange:
     strict_entry = strict_digest["entries"][0]
     assert normal_entry["relationship_type"] == "refinement"
     assert strict_entry["relationship_type"] == "contradiction"
-
 
 def test_auto_dream_maintains_self_memory_and_writes_digest(tmp_path, monkeypatch):
     import repo_io
@@ -213,7 +209,6 @@ Last rotated: 2026-01-01
     assert any("AI frontier watch" in item for item in handoff.get("followups", []))
     assert summary.get("agent_surface", {}).get("cursor_model") == "unknown"
 
-
 def test_auto_dream_strict_mode_halts_before_writes_on_failed_checks(tmp_path, monkeypatch):
     users_dir = tmp_path / "platform/users"
     user_dir = users_dir / "demo"
@@ -259,7 +254,6 @@ def test_auto_dream_strict_mode_halts_before_writes_on_failed_checks(tmp_path, m
     assert not (user_dir / "derived" / "contradictions" / "auto-dream-digest.json").exists()
     assert events == []
 
-
 def test_score_bundle_includes_maintenance_readiness():
     bundle = score_adapter.build_score_bundle(
         integrity_json={"ok": True},
@@ -282,7 +276,6 @@ def test_score_bundle_includes_maintenance_readiness():
     assert "maintenance_readiness" in bundle["components"]
     assert 0.0 <= bundle["components"]["maintenance_readiness"] <= 1.0
     assert "contradiction_digest" in bundle["optional_metrics"]
-
 
 def test_score_bundle_strict_maintenance_hard_gates_low_readiness():
     bundle = score_adapter.build_score_bundle(
@@ -307,7 +300,6 @@ def test_score_bundle_strict_maintenance_hard_gates_low_readiness():
     assert bundle["ok"] is False
     assert bundle["hard_gates"]["maintenance_ready"] is False
     assert bundle["scalar"] == 0.0
-
 
 def test_format_auto_dream_summary_headline_prefix():
     summary = {
@@ -342,7 +334,6 @@ def test_format_auto_dream_summary_headline_prefix():
     assert "handoff=yes" in first
     assert "autoDream status" in out
     assert "AI frontier watch: The Innermost Loop latest" in out
-
 
 def test_format_auto_dream_summary_strict_headline_halted():
     summary = {

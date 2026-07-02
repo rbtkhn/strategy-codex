@@ -1,6 +1,6 @@
 # SID Desk Offer — Spine
 
-WORK only. Operator offer architecture for **Statecraft Intelligence Desk (SID)**. Not Record truth. Not proof of market demand.
+non-authoritative. Operator offer architecture for **Statecraft Intelligence Desk (SID)**. Not Record truth. Not proof of market demand.
 
 ## Governing name
 

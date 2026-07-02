@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-01-06 (*The Battle of New York*)
 <!-- word_count: 3236 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-01-06 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 3237
@@ -160,7 +159,6 @@ And now to Jefferson’s letter:
 
 “The people cannot be all, and always, well informed,” Thomas Jefferson wrote in a letter to William Stephens Smith, a US representative from the State of New York, on November 13, 1787. “The part which is wrong will be discontented in proportion to the importance of the facts they misconceive. If they remain quiet under such misconceptions it is a lethargy, the forerunner of death to the public liberty. We have had thirteen states independent eleven years. There has been one rebellion. That comes to one rebellion in a century and a half for each state. What country before ever existed a century and half without a rebellion? And what country can preserve its liberties if their rulers are not warned from time to time that their people preserve the spirit of resistance? Let them take arms. The remedy is to set them right as to facts, pardon and pacify them. What signify a few lives lost in a century or two? The tree of liberty must be refreshed from time to time with the blood of patriots and tyrants. It is its natural manure.”
 
-
 ### Reflection
 
 **Operator note:** Legal–constitutional polemic on Maduro prosecution (SDNY, Judge Hellerstein) and UN Charter Article 2(4); includes contested legal readings and Jefferson “tree of liberty” block quote (author’s Smith identification/dating may be simplified). Essay ≠ wire. Light cleanup of operator/OCR errors only.
@@ -178,14 +176,11 @@ And now to Jefferson’s letter:
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

@@ -1,7 +1,5 @@
 # Pope Leo on AI
 
-WORK only; not Record.
-
 **Canonical home:** [leo-barnes-jiang-on-ai.md](./leo-barnes-jiang-on-ai.md)
 
 Compatibility redirect — the cross-channel Leo + Barnes + Jiang comparative essay

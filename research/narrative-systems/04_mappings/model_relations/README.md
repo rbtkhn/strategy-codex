@@ -1,7 +1,5 @@
 # Model Relations
 
-work only; not Record.
-
 ## Status
 
 Research scaffold — sub-layer of [Narrative Systems (NST)](../../README.md). Not loop-wired.

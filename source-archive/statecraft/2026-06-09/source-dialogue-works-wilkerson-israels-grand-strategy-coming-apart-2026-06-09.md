@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Tuesday, June 9th, 2026 and our dear friend Carl Wilkerson is here with us. Welcome back, Lar. >> Good to be with you, Neon. >> I want to start with what JD Vance said last night. We know the the attacks Iran Israel attack in Lebanon, Iranian response to Israeli attack. But before getting there, I want to put I want to play out what JD Vance said about the situation between the United States and Iran.

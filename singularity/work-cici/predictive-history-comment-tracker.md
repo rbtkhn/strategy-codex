@@ -1,7 +1,5 @@
 # Predictive History Comment Tracker
 
-WORK only; not Record.
-
 ## Purpose
 
 Track comment candidates, posted comments, and public receipts in one simple operator-readable ledger.

@@ -158,7 +158,6 @@ If verification cannot be completed:
 
 **Optional:** If the same **search** or **doctrine** gap repeats, add **one** line to your **account checklist** (instance path) or to this portable core. Draft output still needs human approval before any post. In grace-mar, the instance appendix lists the canonical checklist path.
 
-
 ## Cursor / strategy-codex instance
 
 Use these paths **in this repository** when applying the portable skill. Replace with your own tree when forking.

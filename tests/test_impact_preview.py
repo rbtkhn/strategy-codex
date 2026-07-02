@@ -15,7 +15,6 @@ from grace_mar.merge.impact_preview import format_impact_summary, preview_candid
 USER = "grace-mar"
 BASE = f"{USER}"
 
-
 def _candidate(**overrides) -> dict:
     base = {
         "id": "CANDIDATE-0001",
@@ -28,7 +27,6 @@ def _candidate(**overrides) -> dict:
     }
     base.update(overrides)
     return base
-
 
 class TestKnowledgeCandidate:
     def test_touches_self_and_archive(self):
@@ -55,7 +53,6 @@ class TestKnowledgeCandidate:
         assert f"{BASE}/recursion-gate.md" in r["files_touched"]
         assert f"{BASE}/session-log.md" in r["files_touched"]
 
-
 class TestCuriosityCandidate:
     def test_surface_is_ix_b(self):
         r = preview_candidate_impact(
@@ -71,7 +68,6 @@ class TestCuriosityCandidate:
         )
         assert "IX-B" in r["sections_touched"]
 
-
 class TestPersonalityCandidate:
     def test_surface_is_ix_c(self):
         r = preview_candidate_impact(
@@ -79,7 +75,6 @@ class TestPersonalityCandidate:
             user_id=USER,
         )
         assert r["surface"] == "IX-C"
-
 
 class TestReadCandidate:
     def test_includes_reading_list(self):
@@ -95,7 +90,6 @@ class TestReadCandidate:
             user_id=USER,
         )
         assert "Writing log" in r["sections_touched"]
-
 
 class TestPromptModes:
     def test_prompt_append(self):
@@ -129,7 +123,6 @@ class TestPromptModes:
         )
         assert r["prompt_section"] == "YOUR VOICE"
 
-
 class TestBoundaryFlags:
     def test_reclassification_needed(self):
         r = preview_candidate_impact(
@@ -162,7 +155,6 @@ class TestBoundaryFlags:
         )
         assert r["boundary_flags"] == []
 
-
 class TestProposalClassRouting:
     def test_library_candidate_touches_self_library(self):
         r = preview_candidate_impact(
@@ -189,7 +181,6 @@ class TestProposalClassRouting:
         )
         assert "multi_surface" in r["risk_factors"]
 
-
 class TestMinimalCandidate:
     def test_empty_candidate_defaults_gracefully(self):
         r = preview_candidate_impact({}, user_id=USER)
@@ -203,7 +194,6 @@ class TestMinimalCandidate:
             user_id=USER,
         )
         assert r["candidate_id"] == "CANDIDATE-0042"
-
 
 class TestFormatSummary:
     def test_simple_summary(self):

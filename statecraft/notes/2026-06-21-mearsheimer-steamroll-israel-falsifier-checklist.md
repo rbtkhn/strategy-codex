@@ -18,7 +18,6 @@ archive_links:
 ---
 # 2026-06-21 — Mearsheimer steamroll-Israel falsifier checklist (MOU / Lebanon)
 
-
 **Pub date:** 2026-06-21  
 **Judgment tier:** structural watch — not wire-verified unless noted  
 **Parent:** [Jun 15 MOU-week Napolitano bench seam](./2026-06-15-mou-week-napolitano-bench-seam.md) · [June 2026 opening watchlist](./june-2026-opening-watchlist.md)

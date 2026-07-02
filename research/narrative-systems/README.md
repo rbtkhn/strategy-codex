@@ -1,7 +1,5 @@
 # Narrative Systems Research
 
-work only; not Record.
-
 Category-theoretic **meta-framework research** for modeling how narratives, cognition, and geopolitical interpretation relate — WIP formal research under the singularity channel (not loop SSOT, not system invariants).
 
 Narrative Systems studies how multiple discourse models relate (Epistemic Geometry, Predictive History, civilization-state, …). It is **not** subject research about any one corpus. Predictive History subject research lives at [`../predictive-history/`](../predictive-history/).

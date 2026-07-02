@@ -36,7 +36,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Cadets Meeting
 
 Good day. Today is Tuesday, 23rd June, 2026. And before I proceed with this program, let me remind you again to take the like button and to check your subscription to this channel. Now, the most interesting thing, in my opinion, to have taken place over the last 24 hours is a meeting, another meeting which took place in the Kremlin today.

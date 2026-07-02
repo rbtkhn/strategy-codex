@@ -1,6 +1,5 @@
 # Abbas Araghchi Authority Carrier Object
 
-
 ## Object
 
 Abbas Araghchi, Iranian foreign minister and negotiating carrier.

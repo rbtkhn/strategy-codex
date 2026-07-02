@@ -16,7 +16,6 @@ archive_links:
 
 # Diesen x Macgregor speaker arc
 
-
 Purpose: compact reuse note for the `Diesen x Macgregor` run inside the Diesen stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: which Macgregor guest episodes matter most inside this stream, what kind of lane this is, and which file to open first.
 
 ## Why this guest run matters

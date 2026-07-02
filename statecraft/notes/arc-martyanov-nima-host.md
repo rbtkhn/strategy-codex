@@ -16,7 +16,6 @@ archive_links:
 
 # Dialogue Works x Martyanov speaker arc
 
-
 Purpose: compact reuse note for the `Dialogue Works x Martyanov` run inside the Alkorshid stream. This is not a substitute for the raw-input shelf. It exists so future routing can quickly answer: what kind of Martyanov lane Alkorshid elicits, which files matter most, and why this is still the clearest mature Martyanov branch on disk.
 
 ## Why this guest run matters

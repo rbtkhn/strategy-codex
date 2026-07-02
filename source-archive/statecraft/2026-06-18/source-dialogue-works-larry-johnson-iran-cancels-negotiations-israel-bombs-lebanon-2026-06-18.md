@@ -51,7 +51,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 So, Larry, what's your what's your preferred grilling technique? >> Um, a komado a komado grill or the Big Green Egg, a ceramic grill. You sear the steak for 2 minutes on each side and then you close it down and depending up on what kind of uh temperature you want in the middle. You leave it on for 8 minutes, 10 minutes, 14 minutes.

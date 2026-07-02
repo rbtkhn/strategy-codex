@@ -12,8 +12,6 @@ Date window matches scripts/strategy_expert_transcript.py and prune_strategy_raw
 Destination folders ``raw-input/YYYY-MM-DD/`` use the **air / publication** day
 (``pub_date``), aligned with ``provenance/README.md`` § Layout — not “ingest day.”
 
-WORK-only; not Record.
-
 Usage:
   python3 scripts/populate_strategy_raw_input.py --dry-run
   python3 scripts/populate_strategy_raw_input.py --apply

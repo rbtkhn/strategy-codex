@@ -31,7 +31,6 @@ ANSWER_CLASS_ENUM = (
     "unresolved",
 )
 
-
 def _synthetic_session_id(row: dict[str, Any]) -> str | None:
     ch = str(row.get("channel_key") or "").strip()
     ts = str(row.get("ts") or "")[:10]
@@ -40,17 +39,14 @@ def _synthetic_session_id(row: dict[str, Any]) -> str | None:
     h = hashlib.sha256(f"{ch}|{ts}".encode()).hexdigest()[:12]
     return f"synth_{h}"
 
-
 def _user_slug(user_dir: Path) -> str:
     return user_dir.name
-
 
 def _repo_relative(path: Path, repo_root: Path) -> str:
     try:
         return path.relative_to(repo_root).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def build_replay_events(
     user_dir: Path,
@@ -107,14 +103,12 @@ def build_replay_events(
         out.append(doc)
     return out
 
-
 def _merge_has_candidate(receipt: dict[str, Any], candidate_id: str) -> bool:
     ids = receipt.get("candidate_ids")
     if not isinstance(ids, list):
         return False
     c = candidate_id.strip().upper()
     return any(str(x).upper() == c for x in ids)
-
 
 def default_runtime_refs(user_dir: Path, repo_root: Path) -> list[str]:
     refs: list[str] = []
@@ -124,7 +118,6 @@ def default_runtime_refs(user_dir: Path, repo_root: Path) -> list[str]:
             refs.append(_repo_relative(p, repo_root))
     return refs
 
-
 def default_policy_refs(user_dir: Path, repo_root: Path) -> list[str]:
     refs: list[str] = []
     for name in ("intent.md", "intent_snapshot.json"):
@@ -132,7 +125,6 @@ def default_policy_refs(user_dir: Path, repo_root: Path) -> list[str]:
         if p.is_file():
             refs.append(_repo_relative(p, repo_root))
     return refs
-
 
 def classify_pipeline_row_provenance(row: dict[str, Any]) -> str:
     """Heuristic class for one pipeline row (audit/governance oriented)."""
@@ -158,7 +150,6 @@ def classify_pipeline_row_provenance(row: dict[str, Any]) -> str:
     if has_rec:
         return "record_backed"
     return "unresolved"
-
 
 def infer_answer_provenance(
     user_dir: Path,
@@ -205,13 +196,11 @@ def infer_answer_provenance(
         "notes": "Heuristic mix from recent pipeline rows; not token-level model attribution.",
     }
 
-
 def _dominant_class(counts: dict[str, int]) -> str:
     best = max(counts, key=lambda k: counts[k])
     if counts[best] == 0:
         return "unresolved"
     return best
-
 
 def replay_provenance_summary(user_dir: Path, repo_root: Path) -> dict[str, Any]:
     """Structured summary for session_brief and metrics (counts + copy lines)."""
@@ -238,7 +227,6 @@ def replay_provenance_summary(user_dir: Path, repo_root: Path) -> dict[str, Any]
         "recent_staged": staged_recent,
     }
 
-
 def write_replay_artifacts(
     user_dir: Path,
     repo_root: Path,
@@ -259,7 +247,6 @@ def write_replay_artifacts(
     rp.write_text(json.dumps(replay, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     pp.write_text(json.dumps(prov, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return rp, pp
-
 
 __all__ = [
     "ANSWER_CLASS_ENUM",

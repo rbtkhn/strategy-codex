@@ -1,6 +1,5 @@
 # Kleiber Close - Prose Routing - 2026-06-01
 
-
 This close records the design gain from the recent prose-routing pass.
 
 ## What Changed

@@ -1,7 +1,6 @@
 # Byzantium And Frontier Endurance
 <!-- word_count: 204 -->
 
-
 ## Purpose
 
 Study military endurance as civilizational survival: Roman continuity, Orthodoxy, frontier depth, diplomacy, fortification, and long-war equilibrium.

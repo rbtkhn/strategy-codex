@@ -1,6 +1,5 @@
 # Blumenthal Raw-Input Index
 
-
 Compatibility pointer only.
 
 The canonical compatibility copy now lives at [blumenthal-index.md](blumenthal-index.md).

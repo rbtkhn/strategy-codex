@@ -21,7 +21,6 @@ Use this skill when one statecraft argument has become **reusable enough to stan
 
 ## Boundary
 
-- WORK only; not Record.
 - Promote **one bounded argument**, not the whole day or month.
 - Keep the note **argument-shaped**, not archive-shaped (no verbatim transcript mirrors).
 - Default to **shelf-native** under `statecraft/notes/`; do not duplicate full prose on speaker shelves.
@@ -92,8 +91,6 @@ A strong statecraft note usually includes some subset of:
 Do **not** bloat into a pseudo-essay. Tables are fine when they preserve **disproportion** (who carries what).
 
 **Filename:** kebab-case, date or topic slug, unique on shelf — e.g. `june-18-2026-mou-guest-pair-citation-split.md`.
-
-**Header fence:** first line `WORK only; not Record.`
 
 ### 4. Preserve source anchors
 

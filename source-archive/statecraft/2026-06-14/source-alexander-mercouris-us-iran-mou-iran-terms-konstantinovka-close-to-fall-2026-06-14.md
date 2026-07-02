@@ -38,7 +38,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Sunday 14th June 2026 and today is the last day of my conference here in Russia. Thereafter I will be making my long winding journey back to London via Moscow and Istanbul. Um again it may not be easy for me to provide videos programming every day. Um, but I will do the best that I can just to say.

@@ -14,25 +14,21 @@ if str(SCRIPTS) not in sys.path:
 import build_voice_index_registry as reg_cli  # noqa: E402
 import voice_index_registry_core as core  # noqa: E402
 
-
 def test_validate_yaml_code_exclusion_parity_passes_with_seed() -> None:
     registry = core.load_voice_index_registry_yaml()
     findings = core.validate_yaml_code_exclusion_parity(registry)
     assert any(f.code == "exception_registry" and f.level == "pass" for f in findings)
-
 
 def test_validate_yaml_code_exclusion_parity_fails_when_missing() -> None:
     registry = {"schema_version": "1.0", "voices": {"pape": {"exclusions": ["ok"]}}}
     findings = core.validate_yaml_code_exclusion_parity(registry)
     assert any(f.level == "fail" and f.code == "exception_registry" for f in findings)
 
-
 def test_build_voice_index_registry_check_missing_artifacts(tmp_path: Path, monkeypatch) -> None:
     md = tmp_path / "voice-index-parity.md"
     js = tmp_path / "voice-index-parity.json"
     monkeypatch.setattr(reg_cli, "REPO_ROOT", tmp_path)
     assert reg_cli.check_artifacts(md_path=md, json_path=js, archive_root=tmp_path / "arch") == 1
-
 
 def test_render_registry_json_shape() -> None:
     row = core.VoiceRegistryRow(

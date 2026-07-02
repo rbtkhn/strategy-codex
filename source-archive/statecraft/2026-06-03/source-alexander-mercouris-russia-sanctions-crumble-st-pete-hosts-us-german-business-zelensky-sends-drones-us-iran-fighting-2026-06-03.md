@@ -27,7 +27,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Wednesday 3rd June 2026 and today the St. Petersburg International Economic Forum opens in St. Petersburg and again today entirely predictably the Ukrainians have attempted to carry out strikes on St. Petersburg not on the city itself and not on the venue of the forum itself. This is located a significant distance from St. Petersburg itself.

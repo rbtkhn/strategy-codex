@@ -31,7 +31,6 @@ jobs:
       - name: Root profile export nest
         run: python scripts/assert_root_profile_exports.py
 
-
       - name: Complexity audit (baseline report)
         run: python3 scripts/audit_repo_complexity.py
 

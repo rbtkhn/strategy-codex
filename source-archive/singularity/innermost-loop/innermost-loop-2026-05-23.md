@@ -13,8 +13,6 @@ post_id: 198980279
 
 # The Innermost Loop - 2026-05-23
 
-WORK only; not Record.
-
 ## Source
 
 - Title: The First Consumer-Scale Interspecies Foundation Model
@@ -29,10 +27,7 @@ The Singularity has been fluent in exactly one species, the only one that ever w
 
 ## Newsletter Text
 
--
--
-
-The Singularity has been fluent in exactly one species, the only one that ever wrote its mind down, until now.
+- The Singularity has been fluent in exactly one species, the only one that ever wrote its mind down, until now.
 
 Everything AI has ever learned came with a record already written. Text, code, protein, images: humans had documented each domain, and the machine only had to read. AI progressed in the order things were written down. Non-human animal cognition is the first frontier where the record does not exist, because no other species ever wrote one down. Worse, meaning lives not in the signal but in what reliably happens around it. Synthetic data cannot help, because they only interpolate distributions a model has already seen, and no model has ever seen what another species means. The non-human data have to be measured into existence.
 

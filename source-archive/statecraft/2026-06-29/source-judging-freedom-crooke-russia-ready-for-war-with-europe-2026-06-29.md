@@ -46,7 +46,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Iran MOU Before Russia Pivot
 
 **Alastair Crooke:** Hi everyone, Judge Andrew Napolitano here for Judging Freedom. Today is Monday, June 29th, 2026. Alastair Crooke will be with us in just a moment. Why is Russia announcing that it is ready for war with Europe? Alastair Crooke, welcome here uh my dear friend. Uh before uh we get to why Russia is announcing that it is prepared to fight a war with Europe, a couple of uh questions and a brief dialogue about uh Iran.

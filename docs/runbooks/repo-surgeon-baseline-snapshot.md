@@ -1,6 +1,6 @@
 # Repo Surgeon baseline snapshot (count-only)
 
-**Work only; not Record.** Regenerate via [repo-surgeon.md](repo-surgeon.md).
+**** Regenerate via [repo-surgeon.md](repo-surgeon.md).
 
 | Date | Scope | Blocking | Warnings | Notes |
 | --- | --- | --- | --- | --- |

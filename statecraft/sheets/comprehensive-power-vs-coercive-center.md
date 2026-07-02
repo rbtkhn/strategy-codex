@@ -1,6 +1,5 @@
 # Comprehensive Power Vs Coercive Center
 
-
 Use this sheet when a claim about "world power" needs metric discipline before it becomes a policy paper, treaty design, negotiation brief, or alliance argument.
 
 ## Core Question

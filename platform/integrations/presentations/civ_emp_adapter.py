@@ -52,7 +52,6 @@ PACKET_TYPE_BY_SUBSURFACE = {
     "ce-mus": {"ce_mus_packet": "strategic_exhibit"},
 }
 
-
 def _ensure_under_civ_emp(path: Path) -> Path:
     resolved = path.resolve()
     try:
@@ -60,7 +59,6 @@ def _ensure_under_civ_emp(path: Path) -> Path:
     except ValueError as exc:
         raise ValueError(f"{path} is not under {CIV_EMP_ROOT}") from exc
     return resolved
-
 
 def _base_bundle(
     *,
@@ -106,7 +104,6 @@ def _base_bundle(
     bundle["provenance"]["bundle_sha256"] = bundle_sha256(bundle)
     return bundle
 
-
 def build_civ_emp_bundle(
     *,
     intent: str,
@@ -150,7 +147,6 @@ def build_civ_emp_bundle(
         hashes=hashes,
         source_mode="strategy-codex-civ-emp-adapter",
     )
-
 
 def build_civ_emp_packet_bundle(
     *,

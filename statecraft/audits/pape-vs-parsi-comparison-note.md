@@ -1,6 +1,5 @@
 # Pape vs Parsi comparison note
 
-
 Purpose: test whether the audit hub can compare two adjacent mechanism-heavy speakers without collapsing them into the same credibility shape.
 
 ## Shared ground

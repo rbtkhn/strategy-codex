@@ -1,6 +1,5 @@
 # Kleiber Value Estimate - 2026-06-01
 
-
 This note records an estimate of the future efficiency gains and compounding value created by the recent Kleiber upgrades:
 
 - interpretive-machine relocation into a clearer canonical singularity home

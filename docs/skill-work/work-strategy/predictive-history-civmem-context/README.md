@@ -1,6 +1,6 @@
 # Predictive History CIV-MEM context transfer package
 
-WORK only; not Record. This folder is a **transfer-ready handoff package**
+This folder is a **transfer-ready handoff package**
 prepared inside `strategy-codex` for later application in the external
 `rbtkhn/ph-workshop` repo.
 

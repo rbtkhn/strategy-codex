@@ -26,37 +26,28 @@
 **A — Legitimacy / orientation**  
 *Narrative, legitimacy, civilizational continuity. How does this look in the frame of purpose, narrative, or “how will this be read?”*
 
-- 
-- 
-- 
+- - 
 
 ---
 
 **B — Structure / constraints**  
 *Power distribution, institutional constraints, geographic or strategic reality. What are the fixed constraints, the structure of the situation?*
 
-- 
-- 
-- 
+- - 
 
 ---
 
 **C — Liability / mechanism**  
 *Who bears risk? Defection incentive? Institutional survival? “Who defects first?”*
 
-- 
-- 
-- 
+- - 
 
 ---
 
 **D (optional) — Civ-mem lens**  
 *Condition, seam, one subject many tongues. Is the seam visible? Face vs category?*
 
-- 
-- 
-
----
+- ---
 
 **Tensions (if any):**  
 *Where do A, B, C pull in different directions? Don’t resolve; note.*

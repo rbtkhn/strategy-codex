@@ -13,8 +13,6 @@ post_id: 181344221
 
 # The Innermost Loop - 2025-12-11
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 11, 2025
@@ -29,10 +27,7 @@ The Singularity is hitting a coordination tax. DeepMind has discovered that mult
 
 ## Newsletter Text
 
--
--
-
-The Singularity is hitting a coordination tax. DeepMind has discovered that multi-agent systems suffer from diminishing returns , with decentralized coordination amplifying errors by 17.2x. The solution is centralized command, which drops error amplification to 4.4x, proving that even silicon intelligences need a boss. But the individual units are getting sharper: Anthropic’s models are apparently improving 2% per month on SWE-bench Verified , putting them on track to saturate the benchmark by late 2026. To verify what the models know, DeepMind launched the FACTS Benchmark . Separately, Google upgraded Gemini’s Text-to-Speech to handle context-aware pacing and multi-speaker consistency.
+- The Singularity is hitting a coordination tax. DeepMind has discovered that multi-agent systems suffer from diminishing returns , with decentralized coordination amplifying errors by 17.2x. The solution is centralized command, which drops error amplification to 4.4x, proving that even silicon intelligences need a boss. But the individual units are getting sharper: Anthropic’s models are apparently improving 2% per month on SWE-bench Verified , putting them on track to saturate the benchmark by late 2026. To verify what the models know, DeepMind launched the FACTS Benchmark . Separately, Google upgraded Gemini’s Text-to-Speech to handle context-aware pacing and multi-speaker consistency.
 
 Thanks for reading The Innermost Loop! Subscribe for free to receive new posts and support my work.
 

@@ -1,6 +1,5 @@
 # Dialogue Works Channel Index
 
-
 Purpose: exhaustive route map for every **`source-dialogue-works-*`** capture on the **Dialogue Works** channel (`channel_slug: dialogue-works`).
 
 Host: Nima Alkhorshid — [nima-host-law.md](nima-host-law.md). Naming law: [dialogue-works-disambiguation.md](dialogue-works-disambiguation.md). Metadata crawl: [dialogue-works-inventory.md](../../sheets/source-archive-control/dialogue-works-inventory.md).

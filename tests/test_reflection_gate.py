@@ -12,7 +12,6 @@ _SCRIPTS = str(REPO_ROOT / "scripts")
 if _SCRIPTS not in sys.path:
     sys.path.insert(0, _SCRIPTS)
 
-
 def test_reflection_gate_label_mapping() -> None:
     from recursion_gate_review import _reflection_gate_label
 
@@ -21,7 +20,6 @@ def test_reflection_gate_label_mapping() -> None:
     assert _reflection_gate_label("medium") == "light"
     assert _reflection_gate_label("high") == "heavy"
     assert _reflection_gate_label("boundary") == "heavy"
-
 
 def test_validate_gate_heavy_advisory_envelope_class(tmp_path: Path) -> None:
     from validate_gate_comprehension_envelope import validate_gate
@@ -49,7 +47,6 @@ suggested_entry: x
     strict, advisory = validate_gate(gate)
     assert not strict
     assert any("Heavy Gate" in line and "envelope_class" in line for line in advisory)
-
 
 def test_validate_gate_strict_required_missing_envelope(tmp_path: Path) -> None:
     from validate_gate_comprehension_envelope import validate_gate

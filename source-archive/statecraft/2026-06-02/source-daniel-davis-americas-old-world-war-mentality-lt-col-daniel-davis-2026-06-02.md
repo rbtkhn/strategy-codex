@@ -30,7 +30,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Old ways never die easily, especially when they've had a long period of time like we have. Really since the end of World War II, but definitely since the end of the Cold War, we have been the United States the dominant power in the world and everything else to include Europe, the global south, China, and to include Russia, what was the Soviet Union, and then subsequently Russia, and then all the uh states that arose after the USSR fell apart.

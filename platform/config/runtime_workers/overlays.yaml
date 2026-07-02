@@ -1,4 +1,4 @@
-# Runtime worker overlays (WORK only — non-canonical defaults; not routing, not Record truth).
+# Runtime worker overlays (non-authoritative — non-canonical defaults; not routing, not Record truth).
 # Precedence: explicit CLI > overlay defaults > built-in worker/lens defaults.
 # v1: four overlays; fields are optional except where noted per-overlay.
 

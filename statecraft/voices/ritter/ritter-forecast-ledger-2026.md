@@ -1,6 +1,5 @@
 # Ritter Forecast + Warning Ledger - 2026
 
-
 Purpose: wire the local Ritter Substack essay sequence into a longitudinal forecast, warning, and tension ledger. Version 1 uses only local `substack-ritter-*.md` captures as the source spine. Other Ritter appearances and non-Substack captures are deferred as possible corroboration layers.
 
 Boundary note: this file is the authored support spine for Ritter. It is not a substitute for interview chronology, host-local arcs, or the bounded March/April/May month synthesis surfaces.

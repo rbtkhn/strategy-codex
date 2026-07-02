@@ -1,6 +1,5 @@
 # Crooke helix
 
-
 Purpose: compact cross-host note for reading the recurring Crooke lanes together. This is not a substitute for the host-local speaker arcs. It exists so future routing can quickly answer: why these lanes belong together, what each host transforms in the Crooke voice, and where to enter the helix.
 
 For the authored mechanism spine, see [crooke-forecast-ledger-2026.md](../../../statecraft/voices/crooke/crooke-forecast-ledger-2026.md). It remains Substack-only, but it should be read as the second strand crossing the interview helix: authored mechanism on one side, host-pressure transformation on the other.

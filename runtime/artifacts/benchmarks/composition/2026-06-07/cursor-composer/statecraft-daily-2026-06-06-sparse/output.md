@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Statecraft Daily Synthesis - 2026-06-06
 

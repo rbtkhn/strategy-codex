@@ -1,7 +1,5 @@
 # Speaker memory action queue
 
-WORK only; not Record.
-
 Window: `2025-08-10` to `2025-08-10`
 
 - `high` `update-existing-arc` `codex/years/2026/alkhorshid/alkhorshid-ritter-speaker-arc.md` (1 appearance(s); grades: transcript-bearing)

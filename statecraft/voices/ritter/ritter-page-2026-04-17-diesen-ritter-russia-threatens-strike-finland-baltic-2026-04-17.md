@@ -1,7 +1,6 @@
 # Ritter refined page — 2026-04-17 (guest lane)
 <!-- word_count: ~240 -->
 
-
 **Expert:** `ritter` · **Interviewer (show):** Glenn Diesen (Greater Eurasia) · **Published:** 2026-04-17 · **Capture:** two-expert YT — *Russia Threatens Strike on Finland & Baltic States* · **Artifact:** refined page — **guest lane** (MoD/NATO/escalation read + cross-theater Hormuz carryover in voice). Sibling **host** lane: [diesen-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md](../diesen/diesen-page-2026-04-17-diesen-ritter-russia-threatens-strike-finland-baltic-2026-04-17.md.
 
 ---

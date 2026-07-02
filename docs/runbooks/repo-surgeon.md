@@ -1,6 +1,5 @@
 # Repo Surgeon runbook
 
-
 Reference-integrity closure for `strategy-codex`: markdown links, local path leaks, path adoption, generated-surface drift, archive boundaries, and authority markers.
 
 **Artifacts:** `runtime/artifacts/repo-surgeon/` (gitignored). Regenerate on demand.

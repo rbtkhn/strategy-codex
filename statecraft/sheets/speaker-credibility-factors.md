@@ -1,6 +1,5 @@
 # Speaker Credibility Factors
 
-
 Use this sheet when the notebook needs to compare speakers by credibility rather than by agreement, usefulness, or rhetorical force.
 
 This file is doctrinal only. For live speaker trust classes, claim-by-claim scoring, and the operational workflow, move into [statecraft/audits/README.md](../audits/README.md) and [speaker-audit-workflow.md](../audits/speaker-audit-workflow.md).

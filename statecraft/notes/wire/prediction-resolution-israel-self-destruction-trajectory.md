@@ -16,7 +16,6 @@ links:
 
 # Prediction resolution — israel_self_destruction_trajectory
 
-
 **Event question:** Is Israel on a self-destructive trajectory (international isolation, moral authority loss, military overextension)?  
 **Resolution criteria:** Operator judgment: **yes** if isolation, overextension, and domestic-strain indicators materially worsened; **no** if broad stabilization or normalization. Document `resolution_source`.  
 **Freeman arc:** [freeman-predictions.md#israel_self_destruction_trajectory](../voices/freeman/freeman-predictions.md#israel_self_destruction_trajectory)  

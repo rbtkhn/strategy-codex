@@ -1,6 +1,5 @@
 # Russia Shelf Reader
 
-
 ## What This Shelf Is For
 
 Use this shelf to read Russia as a late-opening civilization-state whose continuity is carried by regathering after fracture. The shelf is for seeing how sovereignty survives domination, empire, mutation, collapse, and restoration claim without forcing a false ancient documentary opening.

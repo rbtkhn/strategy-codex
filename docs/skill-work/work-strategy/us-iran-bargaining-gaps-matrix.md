@@ -1,6 +1,6 @@
 # U.S.–Iran bargaining gaps — ranked matrix (operator)
 
-**Territory:** work-strategy · **WORK only** — not Record, not unsourced Voice knowledge.  
+**Territory:** work-strategy · , not unsourced Voice knowledge.  
 **Use:** Prioritize outreach / framework language / weak-signal tests by **where tension is highest**, not by headline noise alone.  
 **Snapshot:** 2026-04-10 — operator synthesis; individual cells should be refreshed against wires and primary statements before public or campaign use.
 

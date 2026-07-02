@@ -42,7 +42,6 @@ _IX_C = re.compile(
     re.DOTALL,
 )
 
-
 def insert_prompt_addition(prompt_content: str, prompt_section: str, addition: str) -> str:
     """
     Insert one bullet under an explicit section header (legacy append-style
@@ -71,7 +70,6 @@ def insert_prompt_addition(prompt_content: str, prompt_section: str, addition: s
         return prompt_content.replace("## HOW YOU HANDLE THINGS", line + "\n\n## HOW YOU HANDLE THINGS", 1)
     return prompt_content
 
-
 def _topics_from_topic_lines(yaml_body: str) -> list[str]:
     out: list[str] = []
     for line in yaml_body.splitlines():
@@ -81,7 +79,6 @@ def _topics_from_topic_lines(yaml_body: str) -> list[str]:
             if t:
                 out.append(t)
     return out
-
 
 def _observations_from_ix_c(yaml_body: str) -> list[str]:
     out: list[str] = []
@@ -93,12 +90,10 @@ def _observations_from_ix_c(yaml_body: str) -> list[str]:
                 out.append(t)
     return out
 
-
 def _fmt_bullets(items: list[str], empty_msg: str) -> str:
     if not items:
         return f"- {empty_msg}\n"
     return "\n".join(f"- {b}" for b in items) + "\n"
-
 
 def rebuild_observation_sections_from_self(prompt_content: str, self_content: str) -> str:
     """

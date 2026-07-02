@@ -13,8 +13,6 @@ post_id: 188140905
 
 # The Innermost Loop - 2026-02-16
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 16, 2026
@@ -29,10 +27,7 @@ The Singularity is now doing original physics.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now doing original physics. OpenAI used GPT-5.2 Pro to conjecture a new formula for gluon scattering amplitudes , then had a scaffolded version spend 12 hours producing a formal proof of its validity. Physicist Andy Strominger reportedly called it the first time he’d seen AI solve a problem in his kind of physics that might not have been solvable by humans. The same lab believes it has solved at least 6 of 10 research-level math problems in the “First Proof” challenge, whose solutions were kept confidential. The “AI 2027” authors graded 2025 progress at nearly 65% of the originally predicted pace , meaning full software engineering automation could arrive as soon as late 2027 or early 2028.
+- The Singularity is now doing original physics. OpenAI used GPT-5.2 Pro to conjecture a new formula for gluon scattering amplitudes , then had a scaffolded version spend 12 hours producing a formal proof of its validity. Physicist Andy Strominger reportedly called it the first time he’d seen AI solve a problem in his kind of physics that might not have been solvable by humans. The same lab believes it has solved at least 6 of 10 research-level math problems in the “First Proof” challenge, whose solutions were kept confidential. The “AI 2027” authors graded 2025 progress at nearly 65% of the originally predicted pace , meaning full software engineering automation could arrive as soon as late 2027 or early 2028.
 
 Agents are learning to recursively self-improve and spend money. A Berkeley researcher told his coding agent to cut its own cost by 99% . It ran overnight watching its own logs, editing its own code, and rerunning until metrics dropped, delivering a 98% cost cut across nine changes no human wrote. Peter Steinberger, the creator of OpenClaw, is joining OpenAI to bring “agents to everyone” . Lobster.cash launched to give AI agents their own Visa cards and stablecoin wallets, giving agents financial autonomy without requiring them to shill altcoins.
 

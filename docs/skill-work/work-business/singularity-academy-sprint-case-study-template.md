@@ -1,6 +1,6 @@
 # Singularity-Academy Sprint Case Study Template
 
-WORK only. Reusable case-study scaffold.
+non-authoritative. Reusable case-study scaffold.
 
 ## Purpose
 

@@ -1,6 +1,5 @@
 # Berletic Index
 
-
 Purpose: front door for the canonical Berletic shelf.
 
 ## Open First

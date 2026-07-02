@@ -1,6 +1,5 @@
 # Armstrong cross-host note
 
-
 Purpose: keep the Armstrong object honest by distinguishing between the mature Dialogue Works branch, the native Armstrong shelf, and thinner outside-host reinforcement.
 
 ## Core note

@@ -11,12 +11,10 @@ SCRIPTS = REPO_ROOT / "scripts"
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
-
 def _write_manifest(root: Path, content: str) -> None:
     cfg = root / "platform/config"
     cfg.mkdir(parents=True, exist_ok=True)
     (cfg / "operator_shell_manifest.yaml").write_text(content, encoding="utf-8")
-
 
 def test_validate_ok_minimal(tmp_path: Path) -> None:
     from validate_operator_shell_manifest import validate_operator_shell_manifest
@@ -39,7 +37,6 @@ def test_validate_ok_minimal(tmp_path: Path) -> None:
     assert not errs
     assert not warns
 
-
 def test_validate_rejects_dotdot(tmp_path: Path) -> None:
     from validate_operator_shell_manifest import validate_operator_shell_manifest
 
@@ -59,7 +56,6 @@ def test_validate_rejects_dotdot(tmp_path: Path) -> None:
     )
     errs, _ = validate_operator_shell_manifest(tmp_path, require_files=True)
     assert any(".." in e for e in errs)
-
 
 def test_validate_rejects_users_prefix(tmp_path: Path) -> None:
     from validate_operator_shell_manifest import validate_operator_shell_manifest

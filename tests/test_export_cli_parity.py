@@ -13,7 +13,6 @@ REPO = Path(__file__).resolve().parents[1]
 SCRIPTS = REPO / "scripts"
 FIXTURE = REPO / "tests" / "fixtures" / "export_volatile_keys.json"
 
-
 def _strip_volatile(obj: object) -> object:
     data = json.loads(json.dumps(obj))  # deep copy via json
     cfg = json.loads(FIXTURE.read_text(encoding="utf-8"))
@@ -40,7 +39,6 @@ def _strip_volatile(obj: object) -> object:
 
     return strip_dict(data)
 
-
 def _run(cmd: list[str]) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         cmd,
@@ -49,7 +47,6 @@ def _run(cmd: list[str]) -> subprocess.CompletedProcess[str]:
         text=True,
         check=False,
     )
-
 
 def test_export_fork_matches_unified_cli_json():
     """Legacy export_fork vs export.py fork (stdout JSON, volatile keys stripped)."""
@@ -77,7 +74,6 @@ def test_export_fork_matches_unified_cli_json():
     ja = json.loads(ra.stdout)
     jb = json.loads(rb.stdout)
     assert _strip_volatile(ja) == _strip_volatile(jb)
-
 
 def test_export_py_all_invokes_runtime_bundle():
     """G1: ``all`` uses same script as ``bundle`` (smoke: --help on child not available; check dispatch)."""

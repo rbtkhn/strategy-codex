@@ -9,7 +9,6 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 
-
 def test_bin_thread_help_matches_python_entrypoint() -> None:
     """platform/bin/thread forwards argv to scripts/strategy_thread.py."""
     wrapper = REPO / "platform/bin" / "thread"
@@ -28,7 +27,6 @@ def test_bin_thread_help_matches_python_entrypoint() -> None:
     assert proc.returncode == 0, proc.stderr
     assert "--dry-run" in proc.stdout
 
-
 def test_strategy_thread_help_delegates_to_corpus_script() -> None:
     script = REPO / "scripts" / "strategy_thread.py"
     proc = subprocess.run(
@@ -42,7 +40,6 @@ def test_strategy_thread_help_delegates_to_corpus_script() -> None:
     assert "strategy_expert_corpus.py" in proc.stdout
     assert "continuity/daily-strategy-inbox.md" in proc.stdout
     assert "--dry-run" in proc.stdout
-
 
 def test_strategy_thread_dry_run_exits_zero() -> None:
     """Wrapper forwards argv; dry-run lists targets without writing."""

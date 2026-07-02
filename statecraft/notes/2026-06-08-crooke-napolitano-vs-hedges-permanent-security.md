@@ -18,7 +18,6 @@ archive_links:
 ---
 # Crooke × Napolitano vs Crooke × Hedges — Permanent Security vs Ceasefire-for-All
 
-
 **Parent:** [2026-06-08 daily](../synthesis/day/2026-06-08.md) · [Crooke three-date arc](../synthesis/2026-06-crooke-three-date-ceasefire-for-all-arc.md) · [Davis fulcrum companion](../notes/2026-06-08-davis-lebanon-fulcrum-crooke-ceasefire-for-all.md)
 
 **Sources:**

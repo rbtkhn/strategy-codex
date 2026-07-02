@@ -1,7 +1,6 @@
 # America Art
 <!-- word_count: 597 -->
 
-
 ## Purpose
 
 Use American art as a statecraft lens for visual art, music, architecture, sculpture, monument, performance, mass culture, civic ritual, landscape, industrial modernity, technological confidence, and the image of freedom.

@@ -6,7 +6,7 @@ academy_origin: true
 created_at: 2026-05-16
 source_context: rbtkhn/predictive-history@1dbab13d1288e1d54c2904ea75d8f7a5e4ed529f
 intended_use: upstream_deepening_notes
-boundary: WORK only; not Record; not a Predictive History edit
+boundary: non-authoritative; not Record; not a Predictive History edit
 -->
 
 **Purpose:** Hold candidate notes that could later help Predictive History evolve the Tolstoy Lens from actor-pressure causation into actor-pressure-conscience causation where appropriate.

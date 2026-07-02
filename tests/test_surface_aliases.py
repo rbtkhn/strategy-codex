@@ -7,7 +7,6 @@ import sys
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def test_normalize_surface_token_library_variants() -> None:
     sys.path.insert(0, str(REPO_ROOT / "scripts"))
     from surface_aliases import normalize_surface_token
@@ -20,13 +19,11 @@ def test_normalize_surface_token_library_variants() -> None:
     assert normalize_surface_token("Self-Library") == "LIBRARY"
     assert normalize_surface_token("library") == "LIBRARY"
 
-
 def test_normalize_surface_unknown_passthrough() -> None:
     sys.path.insert(0, str(REPO_ROOT / "scripts"))
     from surface_aliases import normalize_surface_token
 
     assert normalize_surface_token("OTHER_SURFACE") == "OTHER_SURFACE"
-
 
 def test_get_surface_by_key_and_legacy() -> None:
     sys.path.insert(0, str(REPO_ROOT / "scripts"))
@@ -39,7 +36,6 @@ def test_get_surface_by_key_and_legacy() -> None:
     assert get_surface_by_key("knowledge") is SURFACES["self_knowledge"]
     assert get_surface_by_key("unknown_xyz") is None
 
-
 def test_get_surface_by_file_stem() -> None:
     sys.path.insert(0, str(REPO_ROOT / "scripts"))
     from surface_aliases import get_surface_by_file_stem
@@ -50,7 +46,6 @@ def test_get_surface_by_file_stem() -> None:
     assert get_surface_by_file_stem("skills").canonical_key == "self_skills"
     assert get_surface_by_file_stem("self-skills") is not None
     assert get_surface_by_file_stem("self-skills").canonical_key == "self_skills"
-
 
 def test_display_and_canonical_helpers() -> None:
     sys.path.insert(0, str(REPO_ROOT / "scripts"))

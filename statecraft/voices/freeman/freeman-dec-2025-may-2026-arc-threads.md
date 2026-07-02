@@ -1,6 +1,5 @@
 # Freeman December 2025-May 2026 thread atlas
 
-
 Purpose: preserve the six recurring arc-threads in Chas Freeman's December 2025-May 2026 run so the wider Freeman arc is routeable as a synthesis, not only as scattered host appearances.
 
 Model note: this file is a **thread atlas**, not a host-local arc by itself. It names the recurring thematic strands that monthly and host-local arcs braid differently. In the speaker template model, an **arc is a bounded helix of arc-threads**; this atlas supplies the arc-threads that Freeman arcs can braid.

@@ -13,8 +13,6 @@ post_id: 183138626
 
 # The Innermost Loop - 2026-01-01
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to 2026
@@ -29,10 +27,7 @@ The machines have learned to nurture.
 
 ## Newsletter Text
 
--
--
-
-The machines have learned to nurture. In an apparent world first, Claude has successfully monitored and managed the environmental conditions for a growing tomato plant , extending its agency from digital text to biological stewardship. Efficiency is making a quantum leap. Chinese firm iQuest claims its 40B-parameter Coder-V1 model achieves a SOTA 81.4% on SWE-bench Verified using a “looped” recurrent transformer, signaling another potential “DeepSeek moment” where algorithmic novelty beats raw scale. We are simultaneously redefining the architecture of thought. Adobe researchers have formalized an information-theoretic approach for AI to discover concepts from raw experience, allowing models to understand that definitions like “planet” are fluid structures rather than static database entries.
+- The machines have learned to nurture. In an apparent world first, Claude has successfully monitored and managed the environmental conditions for a growing tomato plant , extending its agency from digital text to biological stewardship. Efficiency is making a quantum leap. Chinese firm iQuest claims its 40B-parameter Coder-V1 model achieves a SOTA 81.4% on SWE-bench Verified using a “looped” recurrent transformer, signaling another potential “DeepSeek moment” where algorithmic novelty beats raw scale. We are simultaneously redefining the architecture of thought. Adobe researchers have formalized an information-theoretic approach for AI to discover concepts from raw experience, allowing models to understand that definitions like “planet” are fluid structures rather than static database entries.
 
 The physical plant of intelligence is doubling. Elon Musk’s xAI now has 450,000 GPUs online , with construction underway to hit 900,000 by Q2. To power this exponential thirst, Goldman Sachs is financing 5 GW of “private power campuses” in Texas , utilizing modular gas turbines to bypass the grid queue, while Morgan Stanley warns of a 44-GW US power shortfall by 2028 . Financial capital is merging with silicon. Private equity firm Brookfield is launching a cloud business to lease chips directly to developers , backed by a $10 billion fund.
 

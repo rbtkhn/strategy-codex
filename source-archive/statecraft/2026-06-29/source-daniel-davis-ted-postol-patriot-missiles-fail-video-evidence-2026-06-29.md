@@ -48,7 +48,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Three Pillars And Ninety Percent Claim
 
 **Ted Postol:** Modern warfare today is really designed around three primary things. There is the drone warfare, both offensive and defense. There is the offensive missiles and there is the defensive missiles. And if you don't have capabilities in all three of these, you are going to be in a real world of hurt when it comes to modern warfare. We saw that in the Azerbaijan Armenia war in 2020. We are seeing it continuously in the Russia Ukraine war. We're even seeing it in the Middle East war both with with uh Israel and Hamas, Israel and Hezbollah and especially even the United States throughout the region. It is now a really important part.

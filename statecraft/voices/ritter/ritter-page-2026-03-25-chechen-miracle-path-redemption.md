@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-03-25 (*How the Chechen miracle kick-started the Russian 'Path of Redemption'*)
 <!-- word_count: 2035 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-03-25 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 2036
@@ -27,7 +26,6 @@ In early 2024, I traveled to Chechnya, where I met with people who once fought a
 Scott Ritter
 
 Mar 25, 2026
-
 
 The Author (left) with the Head of the Chechen Republic Ramzan Kadyrov (right)
 
@@ -65,7 +63,6 @@ The Chechen miracle is the living manifestation of Russian redemption.
 
 (This article was originally published in RT on February 4, 2024. I am currently in Grozny conducting interviews in support of a documentary film, Inside Chechnya, I hope to release sometime this summer. This project, and others like it, are made possible by the generous donations of those who support my work. Thank you.)
 
-
 ### Reflection
 
 **Operator note:** Operator-ingested Substack republication; prior RT publication noted in closing graf. Substack UI may show adjacent calendar date—operator voice date retained.
@@ -82,13 +79,11 @@ The Chechen miracle is the living manifestation of Russian redemption.
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

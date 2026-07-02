@@ -1,7 +1,6 @@
 # Napoleon And Overextension
 <!-- word_count: 178 -->
 
-
 ## Purpose
 
 Study operational brilliance and its failure modes: tempo, decisive maneuver, corps organization, logistics, empire, and the point where success outruns sustainment.

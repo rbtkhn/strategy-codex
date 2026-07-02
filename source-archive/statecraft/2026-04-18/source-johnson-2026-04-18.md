@@ -1030,5 +1030,3 @@ source_path: docs/skill-work/work-strategy/strategy-notebook/experts/johnson/tra
     Daniel Davis: We’ll find out soon enough. Larry, really appreciate you making time on such a busy day. Thanks for coming on.
     Larry Johnson: All right, my brother. We’ll see you later
 
-
-

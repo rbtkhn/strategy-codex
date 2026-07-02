@@ -1,6 +1,5 @@
 # Shared Recursive Update Queue
 
-
 Membrane rule: live analysis proposes; human review decides; shared statecraft
 surfaces update only after acceptance. Stage durable shared-machine candidates
 here before changing shared doctrine, routing, or recursive-learning surfaces.

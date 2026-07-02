@@ -13,7 +13,6 @@ from scripts.strategy_historical_expert_context import (
     strip_backfill_block,
 )
 
-
 def test_strip_backfill_removes_block() -> None:
     text = """## Segment 1
 
@@ -30,7 +29,6 @@ SECRET
     assert "SECRET" not in out
     assert "one" in out
 
-
 def test_parse_segments_h2_prefers_h2() -> None:
     stripped = """## 2026-01
 - [strength: high] Claim about mechanism.
@@ -44,7 +42,6 @@ def test_parse_segments_h2_prefers_h2() -> None:
     assert "YYYY-MM" in note
     assert segs[0].source == "h2"
 
-
 def test_parse_segments_h3_fallback() -> None:
     stripped = """### 2026-01
 - bullet a
@@ -55,7 +52,6 @@ def test_parse_segments_h3_fallback() -> None:
     assert len(segs) == 2
     assert segs[0].source == "h3"
     assert "fallback" in note
-
 
 def test_human_layer_excludes_machine_block() -> None:
     full = """# T
@@ -68,7 +64,6 @@ inside
     h = extract_human_layer(full)
     assert "inside" not in h
     assert "above" in h
-
 
 def test_render_single_month_artifact_title() -> None:
     seg = Segment(
@@ -84,7 +79,6 @@ def test_render_single_month_artifact_title() -> None:
     md = render_single_month_artifact("e-id", seg, "docs/x.md", "note")
     assert md.startswith("# Historical expert context — `e-id` — `2026-02`")
     assert "Segments included: 2026-02" in md
-
 
 def test_filter_segments_range() -> None:
     from scripts.strategy_historical_expert_context import Segment
@@ -114,7 +108,6 @@ def test_filter_segments_range() -> None:
     f = filter_segments(segs, "2026-01", "2026-03")
     assert len(f) == 1
     assert f[0].segment_id == "2026-01"
-
 
 def test_fixture_file_roundtrip_skips_backfill(tmp_path: Path) -> None:
     """Last ## month body must not include backfill HTML."""

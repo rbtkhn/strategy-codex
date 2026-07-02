@@ -18,20 +18,17 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 HRE_SCHEMA = REPO_ROOT / "schemas/registry" / "harness-replay-event.v1.json"
 AP_SCHEMA = REPO_ROOT / "schemas/registry" / "answer-provenance.v1.json"
 
-
 @pytest.fixture
 def hre_validator():
     with HRE_SCHEMA.open(encoding="utf-8") as f:
         schema = json.load(f)
     return jsonschema.Draft202012Validator(schema)
 
-
 @pytest.fixture
 def ap_validator():
     with AP_SCHEMA.open(encoding="utf-8") as f:
         schema = json.load(f)
     return jsonschema.Draft202012Validator(schema)
-
 
 def test_classify_record_backed():
     row = {
@@ -41,16 +38,13 @@ def test_classify_record_backed():
     }
     assert classify_pipeline_row_provenance(row) == "record_backed"
 
-
 def test_classify_staged_without_refs_is_audit_lane():
     row = {"event": "staged", "candidate_id": "CANDIDATE-0001"}
     assert classify_pipeline_row_provenance(row) == "audit_only"
 
-
 def test_classify_truly_unresolved():
     row = {"event": "unknown_custom", "candidate_id": "CANDIDATE-0001"}
     assert classify_pipeline_row_provenance(row) == "unresolved"
-
 
 def test_build_replay_events_validates(tmp_path: Path, hre_validator):
     repo = tmp_path / "repo"
@@ -75,7 +69,6 @@ def test_build_replay_events_validates(tmp_path: Path, hre_validator):
     events = build_replay_events(uid, repo, limit=50)
     assert len(events) == 1
     hre_validator.validate(events[0])
-
 
 def test_infer_answer_provenance_validates(tmp_path: Path, ap_validator):
     repo = tmp_path / "repo"

@@ -19,7 +19,6 @@ archive_links:
 
 # Dialogue Works x Marandi speaker arc
 
-
 Purpose: compact reuse note for the `Dialogue Works x Marandi` run inside the Dialogue Works stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Marandi lane Dialogue Works elicits, which files matter most, and how this host-local run differs from the Davis and Diesen Marandi lanes.
 
 ## Why this guest run matters

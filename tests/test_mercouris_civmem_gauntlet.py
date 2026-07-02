@@ -6,7 +6,6 @@ import json
 import re
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 FIXTURE_PATH = REPO_ROOT / "tests" / "fixtures" / "mercouris_civmem_gauntlet.json"
 SKILL_PATH = (
@@ -59,20 +58,16 @@ CRITICAL_GATES = {
     ],
 }
 
-
 def _load_cases() -> list[dict]:
     return json.loads(FIXTURE_PATH.read_text(encoding="utf-8"))
 
-
 def _skill_text() -> str:
     return SKILL_PATH.read_text(encoding="utf-8")
-
 
 def _normalize(text: str) -> str:
     normalized = text.lower().replace("\u2019", "'").replace("\u2013", "-")
     normalized = normalized.replace("\u2014", "-")
     return re.sub(r"\s+", " ", normalized)
-
 
 def _term_supported(term: str, haystack: str) -> bool:
     """Return whether a fixture term is supported by the skill contract.
@@ -108,10 +103,8 @@ def _term_supported(term: str, haystack: str) -> bool:
     ]
     return bool(meaningful) and all(word in haystack for word in meaningful)
 
-
 def _missing_terms(terms: list[str], haystack: str) -> list[str]:
     return [term for term in terms if not _term_supported(term, haystack)]
-
 
 def _validate_fixture_shape(cases: list[dict]) -> None:
     assert len(cases) == EXPECTED_CASE_COUNT, "fixture count must be exactly 12"
@@ -149,7 +142,6 @@ def _validate_fixture_shape(cases: list[dict]) -> None:
 
     assert abs(total_case_budget - EXPECTED_CASE_BUDGET) < 0.001
     assert abs(total_case_budget + FIXTURE_INTEGRITY_SCORE - EXPECTED_SUITE_BUDGET) < 0.001
-
 
 def _score_suite(cases: list[dict], skill_text: str) -> tuple[float, list[str]]:
     haystack = _normalize(skill_text)
@@ -192,7 +184,6 @@ def _score_suite(cases: list[dict], skill_text: str) -> tuple[float, list[str]]:
 
     return round(score), misses
 
-
 def _critical_failures(skill_text: str) -> list[str]:
     haystack = _normalize(skill_text)
     failures = []
@@ -201,7 +192,6 @@ def _critical_failures(skill_text: str) -> list[str]:
         if missing:
             failures.append(f"{gate}: missing {missing}")
     return failures
-
 
 def _suite_status(score: float, critical_failures: list[str]) -> str:
     if critical_failures:
@@ -212,11 +202,9 @@ def _suite_status(score: float, critical_failures: list[str]) -> str:
         return "WARN"
     return "FAIL"
 
-
 def test_fixture_integrity_and_budget() -> None:
     cases = _load_cases()
     _validate_fixture_shape(cases)
-
 
 def test_all_gauntlet_terms_are_supported_by_skill_contract() -> None:
     cases = _load_cases()
@@ -226,7 +214,6 @@ def test_all_gauntlet_terms_are_supported_by_skill_contract() -> None:
     assert not misses, "\n".join(misses)
     assert score == EXPECTED_SUITE_BUDGET
 
-
 def test_critical_failure_gates_are_closed() -> None:
     cases = _load_cases()
     _validate_fixture_shape(cases)
@@ -234,7 +221,6 @@ def test_critical_failure_gates_are_closed() -> None:
 
     failures = _critical_failures(_skill_text())
     assert not failures, "\n".join(failures)
-
 
 def test_quantified_suite_score_passes() -> None:
     cases = _load_cases()

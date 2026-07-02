@@ -698,7 +698,6 @@ CANONICAL REFERENCE:
 Embedded legacy mirrors are archival only and non-operative.
 For governance, always consult the canonical template.
 
-
 ────────────────────────────────────────────────────────────
 END OF FILE — CIV–CORE–ROME — v3.0
 ────────────────────────────────────────────────────────────

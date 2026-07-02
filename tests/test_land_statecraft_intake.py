@@ -11,7 +11,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture()
 def intake_mod(monkeypatch, tmp_path: Path):
     path = REPO_ROOT / "scripts" / "land_statecraft_intake.py"
@@ -23,10 +22,8 @@ def intake_mod(monkeypatch, tmp_path: Path):
     monkeypatch.setattr(mod, "REPO_ROOT", tmp_path)
     return mod
 
-
 def _day_out(tmp_path: Path, day: str, stem: str) -> Path:
     return tmp_path / "source-archive" / "statecraft" / day / f"{stem}-{day}.md"
-
 
 def _mercouris_header(intake_mod, *, title: str = "Test episode", day: str = "2026-06-99") -> str:
     return intake_mod._build_mercouris_solo_header(
@@ -38,26 +35,21 @@ def _mercouris_header(intake_mod, *, title: str = "Test episode", day: str = "20
         source_note="pytest capture",
     )
 
-
 def test_detect_family_mercouris_solo(intake_mod, tmp_path: Path):
     out = _day_out(tmp_path, "2026-06-99", "source-alex-mercouris-fixture")
     assert intake_mod._detect_family(out, "auto") == "mercouris-solo"
-
 
 def test_mercouris_solo_always_chunks_even_when_small(intake_mod):
     body = "Short solo paragraph.\n"
     assert intake_mod._needs_chunked_land(body, "mercouris-solo") is True
 
-
 def test_generic_small_body_not_chunked(intake_mod):
     body = "Small generic body.\n"
     assert intake_mod._needs_chunked_land(body, "generic") is False
 
-
 def test_generic_large_body_chunks_by_byte_threshold(intake_mod):
     body = ("x" * (12 * 1024)) + "\n"
     assert intake_mod._needs_chunked_land(body, "generic") is True
-
 
 def test_split_body_chunks_at_paragraph_boundaries(intake_mod):
     para_a = "a" * 8_000
@@ -67,7 +59,6 @@ def test_split_body_chunks_at_paragraph_boundaries(intake_mod):
     assert len(chunks) == 2
     assert para_a in chunks[0]
     assert para_b in chunks[1]
-
 
 def test_land_intake_mercouris_chunked_roundtrip(intake_mod, tmp_path: Path):
     day = "2026-06-99"
@@ -98,7 +89,6 @@ def test_land_intake_mercouris_chunked_roundtrip(intake_mod, tmp_path: Path):
     sidecar = out.parent / f"_land_{slug}"
     assert not sidecar.exists()
 
-
 def test_land_intake_dry_run_writes_no_archive_file(intake_mod, tmp_path: Path, capsys):
     day = "2026-06-99"
     out = _day_out(tmp_path, day, "source-alex-mercouris-pytest-dry-run")
@@ -121,7 +111,6 @@ def test_land_intake_dry_run_writes_no_archive_file(intake_mod, tmp_path: Path, 
     assert "dry-run: would write" in captured.out
     assert "chunked: True" in captured.out
 
-
 def test_main_requires_body_source(intake_mod, tmp_path: Path, monkeypatch, capsys):
     day = "2026-06-99"
     out = _day_out(tmp_path, day, "source-alex-mercouris-pytest-main")
@@ -141,7 +130,6 @@ def test_main_requires_body_source(intake_mod, tmp_path: Path, monkeypatch, caps
     rc = intake_mod.main()
     assert rc == 1
     assert "supply --body-file" in capsys.readouterr().err
-
 
 def test_main_mercouris_requires_title_or_header(intake_mod, tmp_path: Path, monkeypatch, capsys):
     day = "2026-06-99"

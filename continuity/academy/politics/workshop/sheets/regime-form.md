@@ -1,7 +1,6 @@
 # Regime Form
 <!-- word_count: 322 -->
 
-
 ## Purpose
 
 Use this as the first politics workshop sheet. It turns a political case into a reusable map of regime form, legitimacy, persuasion, party organization, and veto power.

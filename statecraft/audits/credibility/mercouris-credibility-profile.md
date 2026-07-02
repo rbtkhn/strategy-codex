@@ -1,6 +1,5 @@
 # Mercouris credibility profile
 
-
 ## Summary
 
 Mercouris is a stream-native depth speaker whose main credibility asset is not modesty of tone but repeated willingness to correct factual and sequencing details without abandoning the wider analytic frame. The notebook reuses him as a high-cadence continuity voice with strong institutional and diplomatic narrative carry.

@@ -1,6 +1,5 @@
 # Matlock source index
 
-
 Purpose: canonical statecraft-side source index for **Jack Matlock** while raw-text authority stays in the Statecraft Archive.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index matlock` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)

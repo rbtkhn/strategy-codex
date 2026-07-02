@@ -28,7 +28,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Studio Open — Alaska Summit and Ukrainian Front Collapse
 
 Well, everyone, once again, I'm very honored to welcome into the podcast uh Colonel Douglas McGregor, one of the best insiders into all things Russia, Ukraine, but also geopolitics around the world. Colonel, how are you today? >> Great, Cyrus. Thanks for inviting me. >> Well, Colonel, we've got the entire world is watching Washington DC.

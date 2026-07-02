@@ -1,7 +1,5 @@
 # Moonshots EP #259 - AI Personhood, Layoffs, and Regulation
 
-WORK only; not Record.
-
 ## Source
 
 - Source: "The Vatican's Stance on AI, The Mass Tech Layoffs, and China's 2027 Moon Flyby | EP #259", Moonshots.

@@ -14,11 +14,9 @@ import build_statecraft_archive_navigation as nav  # noqa: E402
 import build_statecraft_day_indices as day_idx  # noqa: E402
 import build_statecraft_month_indices as month_idx  # noqa: E402
 
-
 def _write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8", newline="\n")
-
 
 def test_build_year_index_rolls_up_months_and_links(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
@@ -61,7 +59,6 @@ def test_build_year_index_rolls_up_months_and_links(tmp_path: Path) -> None:
     assert "| `2026-05` | 2 | 2 |" in rendered
     assert "[open](./2026-05.md)" in rendered
 
-
 def test_build_thread_index_rolls_up_threads_across_days(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
     day_one = root / "2026-05-26"
@@ -100,7 +97,6 @@ def test_build_thread_index_rolls_up_threads_across_days(tmp_path: Path) -> None
     assert "- Thread-linked source files: `2`" in rendered
     assert "| `hoh` | 2 | 2 | 1 |" in rendered
     assert "`2026-05-26` | `2026-05-27`" in rendered
-
 
 def test_stale_index_audit_marks_ok_stale_and_missing(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
@@ -168,7 +164,6 @@ def test_stale_index_audit_marks_ok_stale_and_missing(tmp_path: Path) -> None:
     assert "- Year indices: `ok` (1)" in rendered
     assert "- Thread index: `ok`" in rendered
 
-
 def test_channel_registry_key_routes_configured_host_only_davis_captures() -> None:
     davis_meta = {
         "source_type": "youtube",
@@ -197,7 +192,6 @@ def test_channel_registry_key_routes_configured_host_only_davis_captures() -> No
         "source-diesen-wilkerson-ceasefire-fails-2026-04-10.md",
     )
     assert slug == "glenn-diesen"
-
 
 def test_channel_registry_key_routes_configured_series_values() -> None:
     duran_meta = {
@@ -235,7 +229,6 @@ def test_channel_registry_key_routes_configured_series_values() -> None:
     )
     assert slug == "john-kiriakou"
 
-
 def test_channel_index_excludes_misc_slugs_from_main_index() -> None:
     root = REPO_ROOT / "source-archive" / "statecraft"
     rendered = nav.build_channel_index(root)
@@ -247,7 +240,6 @@ def test_channel_index_excludes_misc_slugs_from_main_index() -> None:
     assert "`unknown`" not in rendered
     assert "channel-index-misc.md" in rendered
     assert "channel-index.json" in rendered
-
 
 def test_build_channel_index_json_main_roster_excludes_misc() -> None:
     root = REPO_ROOT / "source-archive" / "statecraft"
@@ -264,7 +256,6 @@ def test_build_channel_index_json_main_roster_excludes_misc() -> None:
     assert payload["stats"]["discoverable_count"] == 15
     assert all(row["discoverable"] for row in payload["channels"])
 
-
 def test_main_roster_slugs_have_full_discovery_rows() -> None:
     import statecraft_youtube_discovery as discovery
 
@@ -276,7 +267,6 @@ def test_main_roster_slugs_have_full_discovery_rows() -> None:
         assert slug in by_key, slug
         assert str(by_key[slug].get("channel_id") or "").startswith("UC"), slug
         assert str(by_key[slug].get("handle_url") or "").startswith("http"), slug
-
 
 def test_load_check_sources_roster_reads_json_or_rebuilds(tmp_path: Path) -> None:
     import statecraft_youtube_discovery as discovery
@@ -320,7 +310,6 @@ def test_load_check_sources_roster_reads_json_or_rebuilds(tmp_path: Path) -> Non
 
     rebuilt = discovery.load_check_sources_roster(root=archive_root, rebuild=True)
     assert {row["slug"] for row in rebuilt} == slugs
-
 
 def test_build_writer_index_counts_configured_substack_feeds(tmp_path: Path, monkeypatch) -> None:
     import statecraft_writer_index as writer_index
@@ -394,7 +383,6 @@ def test_build_writer_index_counts_configured_substack_feeds(tmp_path: Path, mon
     assert "`crooke`" in rendered
     assert "`pape`" in rendered
 
-
 def test_is_youtube_capture_shared_membrane_helper() -> None:
     from statecraft_day_archive import is_youtube_capture
 
@@ -403,7 +391,6 @@ def test_is_youtube_capture_shared_membrane_helper() -> None:
     assert is_youtube_capture({"source_url": "https://www.youtube.com/watch?v=abc"}) is True
     assert is_youtube_capture({"source_url": "https://youtu.be/abc"}) is True
     assert is_youtube_capture({"source_type": "substack", "source_url": "https://conflictsforum.substack.com/p/x"}) is False
-
 
 def test_writer_index_includes_ritter_prose_on_transcript(tmp_path: Path, monkeypatch) -> None:
     import statecraft_writer_index as writer_index
@@ -448,7 +435,6 @@ def test_writer_index_includes_ritter_prose_on_transcript(tmp_path: Path, monkey
     payload = writer_index.build_writer_index_json(root, config)
     by_slug = {row["writer_slug"]: row for row in payload["writers"]}
     assert by_slug["ritter"]["file_count"] == 1
-
 
 def test_load_check_written_roster_reads_json_or_rebuilds(tmp_path: Path, monkeypatch) -> None:
     import statecraft_writer_index as writer_index
@@ -509,7 +495,6 @@ def test_load_check_written_roster_reads_json_or_rebuilds(tmp_path: Path, monkey
 
     rebuilt = writer_index.load_check_written_roster(root=archive_root, config_path=config, rebuild=True)
     assert {row["writer_slug"] for row in rebuilt} == slugs
-
 
 def test_configured_writer_roster_slugs_have_discovery_rows() -> None:
     import statecraft_writer_index as writer_index

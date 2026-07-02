@@ -22,7 +22,6 @@ from repo_io import (  # noqa: E402
     resolve_ledger_path,
 )
 
-
 @pytest.fixture
 def isolated_root(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
     import repo_io
@@ -31,7 +30,6 @@ def isolated_root(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
     monkeypatch.setattr(repo_io, "OPERATOR_EVENTS_DIR", tmp_path / "runtime" / "operator-events")
     monkeypatch.setattr(repo_io, "DEFAULT_USERS_DIR", tmp_path / "platform/users")
     return tmp_path
-
 
 def test_resolve_ledger_prefers_operator_events(isolated_root: Path) -> None:
     root = profile_dir("strategy-codex")
@@ -43,19 +41,16 @@ def test_resolve_ledger_prefers_operator_events(isolated_root: Path) -> None:
     new.write_text('{"event":"applied"}\n', encoding="utf-8")
     assert resolve_ledger_path("strategy-codex", "pipeline-events.jsonl") == new
 
-
 def test_resolve_ledger_fallback_root(isolated_root: Path) -> None:
     root = profile_dir("strategy-codex")
     legacy = root / "merge-receipts.jsonl"
     legacy.write_text('{"merged_at":"2026-01-01"}\n', encoding="utf-8")
     assert resolve_ledger_path("strategy-codex", "merge-receipts.jsonl") == legacy
 
-
 def test_operator_ledger_write_path_creates_dir(isolated_root: Path) -> None:
     p = operator_ledger_write_path("strategy-codex", "cadence-learning-events.jsonl")
     assert p.parent.is_dir()
     assert p == isolated_root / "runtime" / "operator-events" / "cadence-learning-events.jsonl"
-
 
 def test_last_dream_prefers_daily_handoff(isolated_root: Path) -> None:
     root = profile_dir("strategy-codex")
@@ -65,7 +60,6 @@ def test_last_dream_prefers_daily_handoff(isolated_root: Path) -> None:
     root_legacy = root / LAST_DREAM_BASENAME
     root_legacy.write_text(json.dumps({"ok": False}), encoding="utf-8")
     assert resolve_last_dream_path("strategy-codex") == handoff
-
 
 def test_last_dream_write_path(isolated_root: Path) -> None:
     p = last_dream_write_path("strategy-codex")

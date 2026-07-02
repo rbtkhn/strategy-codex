@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 # Speaker Audit Workflow
 
-
 Use this note when the audit hub is conceptually clear but the next operator move is not.
 
 The goal is to keep `credibility` and `accuracy` separate while making both easier to populate in a repeatable way.

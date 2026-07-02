@@ -7,7 +7,6 @@ so the operator can see impact *before* approving.
 
 from __future__ import annotations
 
-
 def _classify_surface(mind_category: str, profile_target: str) -> str:
     cat = (mind_category or "").lower()
     pt = (profile_target or "").upper()
@@ -16,7 +15,6 @@ def _classify_surface(mind_category: str, profile_target: str) -> str:
     if "curiosity" in cat or "IX-B" in pt:
         return "IX-B"
     return "IX-C"
-
 
 def _prompt_effect(candidate: dict) -> str:
     mode = (candidate.get("prompt_merge_mode") or "").strip().lower()
@@ -27,7 +25,6 @@ def _prompt_effect(candidate: dict) -> str:
         return "append"
     return "none"
 
-
 def _prompt_section_label(candidate: dict, surface: str) -> str:
     section = (candidate.get("prompt_section") or "").strip()
     if section:
@@ -37,7 +34,6 @@ def _prompt_section_label(candidate: dict, surface: str) -> str:
     if surface == "IX-B":
         return "YOUR CURIOSITY"
     return "YOUR PERSONALITY"
-
 
 def preview_candidate_impact(
     candidate: dict,
@@ -128,7 +124,6 @@ def preview_candidate_impact(
         "boundary_flags": boundary_flags,
         "risk_factors": risk_factors,
     }
-
 
 def format_impact_summary(impact: dict) -> str:
     """One-line human-readable summary of an impact preview."""

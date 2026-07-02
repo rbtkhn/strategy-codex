@@ -101,7 +101,7 @@
 
 ## Escalation marker preference
 
-**SSOT** for optional inline cues inside **`days.md`** / notebook prose (WORK-only; not Record updates):
+**SSOT** for optional inline cues inside **`days.md`** / notebook prose (updates):
 
 - **`[watch]`** — a reusable signal that may need follow-up or watch-support work later.
 - **`[decision]`** — a live issue that may warrant a **decision point** when real options exist.
@@ -189,5 +189,4 @@ Operator notebook prefs: variable daily length; minimum Chronicle / Reflection /
 | 2026-04-17 | **Daily brief LLM parity:** Retired separate “Grok overlay” / “external model overlay” wording — LLM or paste supplements = same `daily-brief-YYYY-MM-DD.md` artifact as generator output; prefs § *Daily brief supplements*, `skill-strategy`, sample April briefs §1f, `grok-daily-brief.md`, `DEFAULT-PATH.md`. |
 | 2026-04-17 | **Page length on weave:** **`strategy-notebook-page-*.md`** target **300–1000 words**; page-shape menu stubs scoped to that band; architecture § *Weave command* + *Weave choice*; template + skill-strategy checklist. |
 | 2026-04-17 | **US–Iran kinetic (cross-author track):** summary table row + § *US–Iran kinetic likelihood* + [US-IRAN-KINETIC-TRACKER.md](US-IRAN-KINETIC-TRACKER.md) stub; short paste block pointer; `chapters/YYYY-MM/meta.md` cross-link when the month touches U.S.–Iran escalation. |
-
 

@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # EU Plan Unravels, Merz Is Humiliated. Aid To Ukraine Cut; Odessa In Sight. Oreshnik Rolls Out
 
-

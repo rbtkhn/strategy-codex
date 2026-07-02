@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Remove Trump Pressure
 
 Judgment Day, we could be on the cusp of acknowledging or maybe more like revealing that there are limits to America's power. Now, you wouldn't think that that's what was on the agenda today because at least some of the signs coming out of the Middle East in terms of the US-Iran war and trying to find a negotiated settlement seem to be positive.

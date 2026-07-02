@@ -1,7 +1,6 @@
 # Mearsheimer strategy page — 2026-01-20 (*The Tag Team Fails in Iran*)
 <!-- word_count: 1645 -->
 
-
 **Expert:** `mearsheimer` · **Published:** 2026-01-20 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`mearsheimer-page-…` under `experts/mearsheimer/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 1645
@@ -48,7 +47,6 @@ I find it curious that there is virtually no meaningful information in the publi
 
 The **bottom line** is two-fold: 1) the tag team failed to overthrow the regime in Iran, although it surely has not given up on that goal; and 2) there is good reason to think that Israel and the US did not win the 12-Day war.
 
-
 ### Reflection
 
 **Operator note:** Operator paste; public Substack essay. Four-part “tag team” thesis (sanctions → foment violence/Starlink/media → primed US/IL strike); Mossad/CIA on-ground, Pompeo/Trump quotes, Mossad Farsi message — attribution-heavy; verify primary/wire if promoted to §1. 12-Day war (June 2025), DIA vs Trump on 22 Jun 2025 nuclear strike, Netanyahu–Trump 14 Jan 2026 bombing report — in-voice analyst tier. Paste “If fact” → In fact; “the12-Day” → spaced.
@@ -66,13 +64,11 @@ The **bottom line** is two-fold: 1) the tag team failed to overthrow the regime 
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Mearsheimer on same lane? Wire boundary before chapter synthesis?
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

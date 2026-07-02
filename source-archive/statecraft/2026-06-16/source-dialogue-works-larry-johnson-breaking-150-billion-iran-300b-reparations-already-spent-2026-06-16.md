@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Tuesday, June 16, 2026, and our dear friend Larry Johnson is here with us. Welcome back, Larry. >> Howdy. A nice shirt. Okay, good. I was saying you you know you you didn't give Miranda the shirt treatment, you know, but that's right. Our special relation. >> You have to force him to wear that the same shirt that you gave to him.

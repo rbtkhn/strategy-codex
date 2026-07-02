@@ -18,7 +18,6 @@ if str(_SCRIPTS) not in sys.path:
 from prediction.epistemic_core import REGIME_LABELS  # noqa: E402
 from prediction.run_pipeline import check_artifacts  # noqa: E402
 
-
 def validate_state(payload: dict) -> list[str]:
     issues: list[str] = []
     if payload.get("interpretation") != "epistemic_state":
@@ -60,7 +59,6 @@ def validate_state(payload: dict) -> list[str]:
         if label and label not in REGIME_LABELS:
             issues.append(f"objects[{idx}] invalid regime label {label!r}")
     return issues
-
 
 def run_check(*, state_path: Path | None = None, advisory: bool = False) -> int:
     target = state_path or DEFAULT_STATE
@@ -108,14 +106,12 @@ def run_check(*, state_path: Path | None = None, advisory: bool = False) -> int:
     print("[ok] episystem pipeline valid (advisory)")
     return 0
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--path", type=Path, default=DEFAULT_STATE)
     ap.add_argument("--advisory", action="store_true")
     args = ap.parse_args()
     return run_check(state_path=args.path, advisory=args.advisory)
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

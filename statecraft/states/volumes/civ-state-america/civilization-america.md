@@ -1,6 +1,5 @@
 # Civilization America
 
-
 ## Where This Sits
 
 This is Part 1 of the America CIV-STATE volume. Open it first when the operator needs the civilizational claim beneath American statehood, empire, and internal dispute.

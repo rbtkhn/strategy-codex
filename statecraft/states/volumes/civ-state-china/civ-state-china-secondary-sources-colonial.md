@@ -1,6 +1,5 @@
 # China Secondary Sources - Colonial
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the colonial China primary shelf when late-Qing breakdown, treaty-port pressure, Taiping fracture, reform failure, or Japan-led humiliation need stronger chronology and counterweight.

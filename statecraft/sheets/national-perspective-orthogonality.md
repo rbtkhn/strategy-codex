@@ -1,6 +1,5 @@
 # National Perspective Orthogonality
 
-
 Use this sheet when a policy question needs to be analyzed from several state perspectives without flattening them into one generic "strategic" view. The goal is not empathy theater or roleplay. The goal is to isolate each state's durable interest, fear, leverage, institutional carrier, and preferred off-ramp.
 
 ## Core Question

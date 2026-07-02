@@ -1,7 +1,6 @@
 # Iran - Egypt Debt / Suez / Bread Legitimacy Framework
 <!-- word_count: 432 -->
 
-
 ## Transaction Name
 
 Egypt legitimacy-good sovereignty reading.

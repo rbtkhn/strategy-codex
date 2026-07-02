@@ -1,6 +1,5 @@
 # Spine And Support Ring
 
-
 ## Problem It Solves
 
 Large systems become unreadable when every strengthening surface is treated like a primary route stop.

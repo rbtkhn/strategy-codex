@@ -16,7 +16,6 @@ from cadence_learning import (  # noqa: E402
     log_dream_stage,
 )
 
-
 def test_dream_stage_and_coffee_resolution_round_trip(tmp_path: Path) -> None:
     ledger = tmp_path / "cadence-learning-events.jsonl"
     handoff = {
@@ -59,7 +58,6 @@ def test_dream_stage_and_coffee_resolution_round_trip(tmp_path: Path) -> None:
     assert resolution["dream_match_class"] == "confirmed"
     assert resolution["hindsight_class"] == "validated"
 
-
 def test_coffee_resolution_carries_extended_close_fields(tmp_path: Path) -> None:
     ledger = tmp_path / "cadence-learning-events.jsonl"
     log_dream_stage(
@@ -94,7 +92,6 @@ def test_coffee_resolution_carries_extended_close_fields(tmp_path: Path) -> None
     assert resolution["falsify"] == "pseudo-gate-J16"
     assert resolution["verdict"] == "shaped"
     assert resolution["attention"] == "one object only"
-
 
 def test_pattern_watch_detects_repeated_premature_confirm(tmp_path: Path) -> None:
     ledger = tmp_path / "cadence-learning-events.jsonl"

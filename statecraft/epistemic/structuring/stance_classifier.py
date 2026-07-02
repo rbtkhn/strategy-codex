@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-
 def classify_stance(text: str) -> tuple[str, float]:
     lowered = text.lower()
 

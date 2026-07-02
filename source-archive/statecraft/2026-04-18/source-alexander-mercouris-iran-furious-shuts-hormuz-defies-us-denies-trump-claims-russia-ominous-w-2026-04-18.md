@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Iran Furious Shuts Hormuz Defies US Denies Trump Claims; Russia Ominous War Warning To Baltic States
 
-

@@ -1,7 +1,5 @@
 # Spine Health Checklist
 
-WORK only; not Record.
-
 Use this checklist when maintaining the Innermost Loop longitudinal spine or any similar deterministic review surface.
 
 ## Quick Checks

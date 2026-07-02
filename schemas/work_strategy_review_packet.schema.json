@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://grace-mar.local/schemas/work_strategy_review_packet.schema.json",
   "title": "WorkStrategyReviewPacket",
-  "description": "Derived review packet from build_review_packet.py — WORK-only; not Record.",
+  "description": "Derived review packet from build_review_packet.py — ",
   "type": "object",
   "additionalProperties": false,
   "required": [

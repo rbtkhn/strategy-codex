@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `jiang`
 <!-- word_count: 2770 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current profile-first Jiang shelf.
@@ -44,7 +43,6 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 
 January has **no calendar-indexed PH lecture row** in this strategy-notebook Q1 ledger; Q1 months may stay **episodic** or empty of public URLs Ã¢â‚¬â€ tooling still gets three **##** segments for continuity.
 
-
 Finally, 2026-01 should remain safe for **operator rotation**: someone returning after weeks should be able to read this segment and recover **lane orientation** (role: Long-horizon civilizational / game-theory lectures; PH is the sole upstream for notebook-facing Jiang ingest), **pairing map** (x mearsheimer, x diesen, x sachs), and **next verification moves** without loading the entire quarter. That recoverability is why the minimum prose budget existsÃ¢â‚¬â€not to pad, but to force a minimum coherent account of what this month was for in the notebook.
 
 The 2026-01 segment for the Jiang Xueqin (Predictive History) lane (`jiang`) exists so the notebook keeps a **prose spine** alongside any strength-tagged bullets. The roster describes this voice as centered on Long-horizon civilizational / game-theory lectures; PH is the sole upstream for notebook-facing Jiang ingest. That one-line role is not a substitute for transcript truth; it is a **routing label** so batch-analysis passes know which mechanism vocabulary to expect when dated material lands. When this month is still partial or ingest-light, the prose layer still records **where verification should attach** (page cites, transcript rows, or hub URLs) without pretending those pins are already closed.
@@ -63,7 +61,6 @@ Verification stance for Jiang Xueqin (Predictive History) in 2026-01 should stay
 
 February likewise shows **no dated notebook-facing ingest** for Jiang in-repo; long-horizon **game-theory / civilizational** material remains in the **work-jiang** archive Ã¢â‚¬â€ not collapsed into other expert lanes.
 
-
 Open pins belong in prose, not only as bullets. For this `jiang` month segment, explicitly reserve space for **what remains unresolved**: which claims await transcript confirmation, which geopolitical sub-claims depend on translation or primary document access, and which institutional facts are stable enough to reuse in weave scaffolding. That habit keeps later strategy passes from mistaking silence for certainty.
 
 The 2026-02 segment for the Jiang Xueqin (Predictive History) lane (`jiang`) exists so the notebook keeps a **prose spine** alongside any strength-tagged bullets. The roster describes this voice as centered on Long-horizon civilizational / game-theory lectures; PH is the sole upstream for notebook-facing Jiang ingest. That one-line role is not a substitute for transcript truth; it is a **routing label** so batch-analysis passes know which mechanism vocabulary to expect when dated material lands. When this month is still partial or ingest-light, the prose layer still records **where verification should attach** (page cites, transcript rows, or hub URLs) without pretending those pins are already closed.
@@ -81,7 +78,6 @@ Segment discipline here follows the strategy-notebook contract: Segment 1 is hum
 ## 2026-03
 
 March remains **scope-note** territory until the operator pins indexed transcripts; **April** machine lines may reference **vi-15** etc. Ã¢â‚¬â€ Q1 is **honest sparsity**.
-
 
 Cross-lane convergence and tension are notebook-native concepts. For 2026-03, read x mearsheimer, x diesen, x sachs as the default **short list** of other experts whose fingerprints commonly collide with `jiang` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
 
@@ -119,7 +115,6 @@ The `jiang` laneÃ¢â‚¬â„¢s role (Long-horizon civilizational / game-the
 - **2026-03** Ã¢â‚¬â€ No dated notebook ingest Ã¢â‚¬â€ repeat channel anchor.
   _Source:_ web: `https://www.youtube.com/@PredictiveHistory`
 
-
 ### 2026-04
 
 - **2026-04** Ã¢â‚¬â€ Ledger mirror 1 (partial month).
@@ -132,7 +127,6 @@ The `jiang` laneÃ¢â‚¬â„¢s role (Long-horizon civilizational / game-the
 _Partial month Ã¢â‚¬â€ **2026-04-12** cold ingest only in Segment 2; PH / work-jiang routing unchanged._
 
 April indexes **vi-15** tri-voice overlay (Jiang Ãƒâ€” Sneako Ãƒâ€” Dugin) Ã¢â‚¬â€ eschatology / multipolarity / narrative-escalation hook Ã¢â‚¬â€ cite lecture file, not headlines.
-
 
 Finally, 2026-04 should remain safe for **operator rotation**: someone returning after weeks should be able to read this segment and recover **lane orientation** (role: Long-horizon civilizational / game-theory lectures; PH is the sole upstream for notebook-facing Jiang ingest), **pairing map** (x mearsheimer, x diesen, x sachs), and **next verification moves** without loading the entire quarter. That recoverability is why the minimum prose budget existsÃ¢â‚¬â€not to pad, but to force a minimum coherent account of what this month was for in the notebook.
 

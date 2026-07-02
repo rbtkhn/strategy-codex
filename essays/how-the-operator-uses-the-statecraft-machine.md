@@ -1,7 +1,5 @@
 # How The Operator Uses The Statecraft Machine
 
-WORK only; not Record.
-
 Purpose: name the distinctive question-types the operator has actually been asking of `statecraft/` and show how those questions differ from ordinary strategy notes, speaker intake, or historiographic summary.
 
 This is not a general theory of the system. It is a grounded note about actual observed usage across the recent statecraft buildout.

@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Statecraft Archive and Statecraft Synthesis
 

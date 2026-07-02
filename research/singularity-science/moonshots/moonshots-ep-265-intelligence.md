@@ -1,7 +1,5 @@
 # Moonshots Intelligence — moonshots-ep-265-intelligence
 
-work only; not Record.
-
 ## Provenance
 
 - Archive: `source-archive/singularity/moonshots/moonshots-265-spacex-ipo-anthropic-export-control-2026-06-19.md`
@@ -99,7 +97,6 @@ Episode 265 stacks civilizational capital markets, frontier access governance, a
 
 > >> Yeah, and the [clears throat] Kessler math uh comes up with a certain amount of mass at a certain orbit, you know, where it becomes critical mass where if one explodes, the whole thing becomes a chain reaction.
 
-
 ### Bullet 9 (E9)
 
 - **Claim:** Silent downgrade and retention policies erode vendor trust before bans
@@ -120,7 +117,6 @@ Episode 265 stacks civilizational capital markets, frontier access governance, a
 **Evidence (verbatim):**
 
 > >> By the way, I know that you're busy and sometimes these episodes run long and you don't have time to listen to the whole episode or if on occasion you miss an episode, I now put out a moonshot summary on Substack which includes a link to all the stories that we cover.
-
 
 ### Bullet 11 (E11)
 

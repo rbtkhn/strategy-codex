@@ -341,7 +341,6 @@ def classify_shift(from_stance: str, to_stance: str) -> str:
         return "certainty_shift"
     return "stance_change"
 
-
 def classify_semantic_shift(
     *,
     from_stance: str,
@@ -374,7 +373,6 @@ def classify_semantic_shift(
     if hor_a and hor_b and hor_a != hor_b:
         return "horizon_shift"
     return None
-
 
 def map_speech_act_to_semantic(speech_act: str | None, *, stance_flip: bool = False) -> str:
     act = str(speech_act or "").strip()

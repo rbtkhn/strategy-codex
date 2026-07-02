@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everyone, Judge Andrew Npalitaniano here for Judging Freedom. Today is Tuesday, June 16th, 2026. Ambassador Chaz Freeman will be with us in just a moment. What happens if President Trump says no to Prime Minister Benjamin Netanyahu?

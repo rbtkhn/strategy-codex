@@ -36,7 +36,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hey everybody, welcome to a late edition of the Daniel Davis deep dive. We have breaking news. Iran and Israel have exchanged missile fire today on Sunday for the first time since April. This has been something that's been building up for a long time and the big question on everybody's mind is what happens next.

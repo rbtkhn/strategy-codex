@@ -1,6 +1,5 @@
 # China - Baltic Shadow-Fleet Infrastructure Damage Framework
 
-
 ## Transaction Name
 
 Baltic route protection without attribution trap.

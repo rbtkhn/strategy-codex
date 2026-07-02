@@ -11,7 +11,6 @@ if str(SCRIPTS) not in sys.path:
 
 from prediction.plugins.runner import build_enriched_payload, run_plugins_on_object  # noqa: E402
 
-
 def _minimal_bundle() -> dict:
     core_obj = {
         "voice": "freeman",
@@ -36,7 +35,6 @@ def _minimal_bundle() -> dict:
         }
     }
 
-
 def test_run_plugins_isolated_per_object() -> None:
     core_obj = _minimal_bundle()["epistemic_state"]["objects"][0]
     results, merged = run_plugins_on_object(core_obj)
@@ -45,7 +43,6 @@ def test_run_plugins_isolated_per_object() -> None:
     assert "mearsheimer_adapter_v0" in names
     assert "narrative_coherence_signal_v0" in names
     assert "voice_profile" in merged.get("annotations", {})
-
 
 def test_build_enriched_payload_shape() -> None:
     payload = build_enriched_payload(_minimal_bundle(), registry={})

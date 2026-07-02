@@ -113,7 +113,6 @@ def _refresh_singularity_loop_signals(*, quiet: bool) -> None:
     except Exception:
         pass
 
-
 def _emit_agent_handoff_glance(*, quiet: bool) -> None:
     try:
         from check_agent_handoff_queue import render_agent_handoff_glance
@@ -125,7 +124,6 @@ def _emit_agent_handoff_glance(*, quiet: bool) -> None:
         render_agent_handoff_glance(),
         quiet=False,
     )
-
 
 def _run_inline_steps(
     user: str,

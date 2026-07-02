@@ -1,7 +1,6 @@
 # Mercouris refined page — 2026-04-18
 <!-- word_count: 280 -->
 
-
 **Expert:** `mercouris` · **Ingest:** 2026-04-18 · **Artifact:** refined page (standalone file under `experts/mercouris/`). **Note:** This date is a `notebook |` lens row only—not a The Duran episode verbatim. Use for tri-mind / Hormuz–PRC precedent folds alongside [`days.md` § 2026-04-16](../../../continuity/chapters/2026/2026-04/days.md#2026-04-16.
 
 ---

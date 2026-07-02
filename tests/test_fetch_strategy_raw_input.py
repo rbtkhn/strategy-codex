@@ -35,20 +35,16 @@ _SUBSTACK_RSS_ONE_ITEM = b"""<?xml version="1.0"?>
   </item>
 </channel></rss>"""
 
-
 def test_parse_pub_date_rfc822() -> None:
     d = _parse_pub_date("Mon, 21 Apr 2026 12:00:00 GMT")
     assert d == date(2026, 4, 21)
-
 
 def test_parse_pub_date_iso_z() -> None:
     d = _parse_pub_date("2026-04-21T18:30:00Z")
     assert d == date(2026, 4, 21)
 
-
 def test_strip_html() -> None:
     assert "hello" in _strip_html("<p>hello <b>world</b></p>").lower()
-
 
 def test_rss20_items() -> None:
     xml = b"""<?xml version="1.0"?>
@@ -67,7 +63,6 @@ def test_rss20_items() -> None:
     assert items[0]["title"] == "Test Post"
     assert items[0]["link"] == "https://example.com/p/1"
 
-
 def test_atom_items() -> None:
     xml = b"""<?xml version="1.0"?>
     <feed xmlns="http://www.w3.org/2005/Atom">
@@ -85,7 +80,6 @@ def test_atom_items() -> None:
     assert items[0]["title"] == "Atom Title"
     assert items[0]["link"] == "https://example.com/a/2"
 
-
 def test_threaded_raw_input_filename_same_pattern_all_experts() -> None:
     assert _threaded_raw_input_filename(air=date(2026, 4, 21), expert_id="mercouris") == (
         "2026-04-21-mercouris.md"
@@ -93,7 +87,6 @@ def test_threaded_raw_input_filename_same_pattern_all_experts() -> None:
     assert _threaded_raw_input_filename(air=date(2026, 4, 21), expert_id="simplicius") == (
         "2026-04-21-simplicius.md"
     )
-
 
 def test_rss_no_thread_filename_stable() -> None:
     fname = _rss_no_thread_filename(
@@ -104,7 +97,6 @@ def test_rss_no_thread_filename_stable() -> None:
     )
     assert fname.startswith("rss-test-2026-04-21-")
     assert fname.endswith(".md")
-
 
 def test_build_rss_item_document_content() -> None:
     _guid, body = _build_rss_item_document(
@@ -125,7 +117,6 @@ def test_build_rss_item_document_content() -> None:
     assert "ingest_date: 2026-04-25" in body
     assert "pub_date: 2026-04-21" in body
 
-
 def test_build_rss_item_document_includes_optional_thread_in_yaml() -> None:
     _, body = _build_rss_item_document(
         ingest_date=date(2026, 4, 25),
@@ -144,14 +135,12 @@ def test_build_rss_item_document_includes_optional_thread_in_yaml() -> None:
     fm_block = body.split("---", 2)[1]
     assert "guid:" in fm_block and "thread: simplicius" in fm_block
 
-
 def test_load_config_example_exists() -> None:
     p = (
         Path(__file__).resolve().parent.parent
         / "docs/skill-work/work-strategy/strategy-notebook/raw-input/fetch-sources.example.json"
     )
     assert p.is_file()
-
 
 def test_fetch_sources_json_substack_feeds() -> None:
     """Committed fetch-sources.json lists enabled Substack /feed URLs and slug_prefixes."""
@@ -171,7 +160,6 @@ def test_fetch_sources_json_substack_feeds() -> None:
     assert prefixes == {"rss-simplicius", "rss-bigserge", "rss-greenwald", "rss-ritter", "rss-conflictsforum"}
     threads = {str(f.get("thread") or "") for f in substack}
     assert threads == {"simplicius", "bigserge", "greenwald", "ritter", "crooke"}
-
 
 def test_run_apply_writes_per_expert_daily_file_with_mock_fetch(
     tmp_path: Path, monkeypatch
@@ -235,7 +223,6 @@ def test_run_apply_writes_per_expert_daily_file_with_mock_fetch(
         assert "feed_url:" in t
         assert "thread:" in t
 
-
 _SUBSTACK_RSS_TWO_ITEMS = b"""<?xml version="1.0"?>
 <rss version="2.0"><channel>
   <item>
@@ -253,7 +240,6 @@ _SUBSTACK_RSS_TWO_ITEMS = b"""<?xml version="1.0"?>
     <description>&lt;p&gt;B&lt;/p&gt;</description>
   </item>
 </channel></rss>"""
-
 
 def test_run_appends_second_rss_item_into_same_expert_daily_file(
     tmp_path: Path, monkeypatch

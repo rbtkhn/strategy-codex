@@ -53,7 +53,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 The straight of hormones is closed according to the IRGC. Of course, if you listen to some other folks, you may have a different answer on that, but that's the news that's breaking out right now. The IRGC released this statement on their news agencies. This is the ISNA. It was on several of them where it says Katam al- Anbia central headquarters in view of the blatant breach of promises and covenant breaking by America regarding the failure to implement the first clause of the end of war agreement and in response to the uninterrupted and

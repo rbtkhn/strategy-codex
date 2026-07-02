@@ -22,7 +22,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Sunday, 7th June, 2026. And as you can see, I'm making this program from my old position in my uh library. And again, I'm dressed in simpler travel clothes because I will be literally the moment I finish this program off on my travels towards Russia and ultimately towards the city of Scoff.

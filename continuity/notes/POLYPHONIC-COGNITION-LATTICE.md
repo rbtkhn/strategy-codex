@@ -1,7 +1,6 @@
 # Polyphonic Cognition Lattice
 <!-- word_count: 311 -->
 
-
 **Doctrine:** a polyphonic cognition lattice is the notebook pattern that emerges when multiple expert lanes keep their own voice, but recurring markers line up across them.
 
 ## Access-layer discipline

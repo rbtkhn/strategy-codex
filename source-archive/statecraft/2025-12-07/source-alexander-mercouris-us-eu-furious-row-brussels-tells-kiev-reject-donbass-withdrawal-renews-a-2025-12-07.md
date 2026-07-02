@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # US EU Furious Row; Brussels Tells Kiev Reject Donbass Withdrawal Renews Asset Loan Plan; Kiev Strike
 
-

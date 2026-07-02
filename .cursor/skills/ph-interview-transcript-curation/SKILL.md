@@ -82,7 +82,6 @@ Use when batch pass 7-style heuristics mis-attribute lecture blocks to the host.
 | **Host monologue** | Plato Sapiens / independent-media | Long Steven blocks stay under Steven |
 | **Stop rule** | Low confidence | README unresolved; do not guess |
 
-
 ## Use this skill when
 
 - A promoted PH **interview** transcript needs curation: **Title Case section rails**, **speaker/turn labeling**, ASR/toponym cleanup, duplicate-line removal
@@ -216,7 +215,6 @@ If verification cannot be completed:
 | PH external interview promote | `scripts/intake_interview_external.py` (PH repo) — sibling workflow |
 | Mirror refresh | `scripts/sync_predictive_history_mirror.py` (strategy-codex) |
 | Skill capture | [`extract-skill-from-session`](../extract-skill-from-session/SKILL.md) |
-
 
 ## Cursor / strategy-codex instance
 

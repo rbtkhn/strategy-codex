@@ -1,7 +1,6 @@
 # Strategy expert - `armstrong`
 <!-- word_count: 386 -->
 
-
 **Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) - **`armstrong`** lane.
 
 ## Identity

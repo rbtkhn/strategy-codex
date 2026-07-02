@@ -15,8 +15,6 @@ panel: Peter Diamandis; Alex Wissner-Gross; Dave; Salem
 
 # Moonshots — Emerging Situation: Anthropic Global Pause, Recursive Self-Improvement, and AI Personhood
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Emerging Situation: Anthropic's Global Pause, Recursive Self-Improvement, and AI Personhood Arrives

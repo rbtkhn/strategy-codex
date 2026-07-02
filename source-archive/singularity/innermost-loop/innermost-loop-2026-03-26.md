@@ -13,8 +13,6 @@ post_id: 192197226
 
 # The Innermost Loop - 2026-03-26
 
-WORK only; not Record.
-
 ## Source
 
 - Title: The First Tradable Compute Price Index
@@ -29,10 +27,7 @@ The Singularity has been financing the largest infrastructure buildout in histor
 
 ## Newsletter Text
 
--
--
-
-The Singularity has been financing the largest infrastructure buildout in history without a standard price for GPU compute, until now.
+- The Singularity has been financing the largest infrastructure buildout in history without a standard price for GPU compute, until now.
 
 Nearly $7 trillion in data-center investment is projected through 2030. Alphabet, Amazon, Meta, and Microsoft alone are staking a combined $650 billion this year . But the capital is flowing blind. No lender can efficiently underwrite what it cannot price. No insurer can accurately cover what it cannot benchmark. No investor can reliably mark a position to market. Trillions of dollars of GPU infrastructure are being financed the way venture deals are, on trust, relationships, and proprietary guesswork, when they should be financed the way energy is, on transparent markets.
 

@@ -23,11 +23,9 @@ from grace_mar.fork_state import (  # noqa: E402
 )
 from grace_mar.drift import compute_drift_report  # noqa: E402
 
-
 def test_can_transition_seed_to_interact():
     assert can_transition("seed", "interact")
     assert not can_transition("seed", "snapshotted")
-
 
 def test_ensure_fork_state_roundtrip(tmp_path, monkeypatch):
     # Use tmp repo layout: tmp_path/u/
@@ -42,7 +40,6 @@ def test_ensure_fork_state_roundtrip(tmp_path, monkeypatch):
     st2 = load_fork_state(root, uid)
     assert st2["fork_id"] == uid
 
-
 def test_lineage_append(tmp_path):
     root = tmp_path
     uid = "lf-test"
@@ -51,7 +48,6 @@ def test_lineage_append(tmp_path):
     tail = read_lineage_tail(root, uid, max_lines=5)
     assert tail and tail[-1]["event"] == "test"
 
-
 def test_transition_updates_phase(tmp_path):
     root = tmp_path
     uid = "tr-test"
@@ -59,7 +55,6 @@ def test_transition_updates_phase(tmp_path):
     transition_fork_phase(root, uid, "interact")
     st = load_fork_state(root, uid)
     assert st["phase"] == "interact"
-
 
 def test_drift_report_writes(tmp_path):
     root = tmp_path

@@ -796,7 +796,7 @@ Islamabad and **Hormuz** coverage this week is carrying **three** **audience** s
 
 `batch-analysis | 2026-04-14 | Ritter Ã— Davis | crosses:ritter+davis`
 
-`batch-analysis | 2026-04-15 | Mercouris Ã— tri-mind | **Tension-first:** thread:mercouris **15 Apr 2026** **The Duran** strand (contested Hormuz narratives, Islamabad reads, Lavrovâ€“Wangâ€“Xi, Russian SC commentary, attrition frame) Ã— tri-mind **Bâ†’Aâ†’C** + solo A; fact-check triage rows in days.md **## 2026-04-15** **Links**â€”do not merge second-hand ORBAT with tanker AIS facts without tier discipline. seam:mercouris-tri-frame â€” WORK only; not a crosses: two-author row.`
+`batch-analysis | 2026-04-15 | Mercouris Ã— tri-mind | **Tension-first:** thread:mercouris **15 Apr 2026** **The Duran** strand (contested Hormuz narratives, Islamabad reads, Lavrovâ€“Wangâ€“Xi, Russian SC commentary, attrition frame) Ã— tri-mind **Bâ†’Aâ†’C** + solo A; fact-check triage rows in days.md **## 2026-04-15** **Links**â€”do not merge second-hand ORBAT with tanker AIS facts without tier discipline. seam:mercouris-tri-frame â€” non-authoritative; not a crosses: two-author row.`
 
 `batch-analysis | 2026-04-15 | Mercouris Ã— tri-mind | seam:mercouris-tri-frame`
 

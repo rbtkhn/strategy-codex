@@ -16,4 +16,4 @@
 
 **Chronology** stays in [`chapters/YYYY-MM/daily/`](../chapters/2026-04/daily/) and [days index](../chapters/2026-04/days.md). **Multi-day objects** = [clusters/](../clusters/README.md).
 
-WORK only; not Record. [README parent](../README.md).
+[README parent](../README.md).

@@ -1,6 +1,5 @@
 # Russia Depth Arc
 
-
 ## Purpose
 
 Use this sheet when a Russia-lane read, six-part doctrine read, transaction, clause, or current event invokes Russian depth, exposure, encirclement, recognition, buffers, access, sanctions resistance, or great-power equilibrium.

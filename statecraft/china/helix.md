@@ -1,6 +1,5 @@
 # China Civilization / Empire Helix
 
-
 Purpose: hold together China's order-centered civilizational code and its outward infrastructure-finance power so statecraft can keep expansion adaptive.
 
 ## Where This Sits

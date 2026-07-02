@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # Persia — June 7 Lebanon-Trigger Synthesis (Dual-Carrier)
 

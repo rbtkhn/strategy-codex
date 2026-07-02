@@ -13,8 +13,6 @@ post_id: 186081685
 
 # The Innermost Loop - 2026-01-28
 
-WORK only; not Record.
-
 ## Source
 
 - Title: A Conversation with Peter Danenberg
@@ -29,10 +27,7 @@ Peter Danenberg is a Senior Software Engineer at Google DeepMind, where he leads
 
 ## Newsletter Text
 
--
--
-
-Peter Danenberg is a Senior Software Engineer at Google DeepMind, where he leads rapid prototyping for the Gemini AI platform. Below is a transcript of our recent conversation in Davos, Switzerland, recorded on January 21, 2026, which has been lightly edited for clarity.
+- Peter Danenberg is a Senior Software Engineer at Google DeepMind, where he leads rapid prototyping for the Gemini AI platform. Below is a transcript of our recent conversation in Davos, Switzerland, recorded on January 21, 2026, which has been lightly edited for clarity.
 
 Throwing Compute at the Wall in a 48-Hour Prototype Cycle
 

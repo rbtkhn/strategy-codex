@@ -1,4 +1,4 @@
-"""Smoke tests for scripts/strategy_console.py (WORK only; read-only on notebook)."""
+"""Smoke tests for scripts/strategy_console.py (non-authoritative; read-only on notebook)."""
 
 from __future__ import annotations
 
@@ -10,7 +10,6 @@ from pathlib import Path
 import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-
 
 @pytest.fixture
 def minimal_notebook(tmp_path: Path) -> Path:
@@ -39,7 +38,6 @@ def minimal_notebook(tmp_path: Path) -> Path:
     (nb / "strategy-console").mkdir()
     return nb
 
-
 def test_strategy_console_writes_console_view(minimal_notebook: Path) -> None:
     script = REPO_ROOT / "scripts" / "strategy_console.py"
     r = subprocess.run(
@@ -67,7 +65,6 @@ def test_strategy_console_writes_console_view(minimal_notebook: Path) -> None:
     assert "## Open loops due for revisit" in text
     assert "## Tonight review queue" in text
     assert "`ztest`" in text
-
 
 def test_strategy_console_missing_roster_lists_gap(tmp_path: Path) -> None:
     nb = tmp_path / "nb"

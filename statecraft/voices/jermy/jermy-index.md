@@ -1,6 +1,5 @@
 # Jermy source index
 
-
 Purpose: canonical statecraft-side source index for **Commodore Steve Jermy** while raw-text authority stays in the Statecraft Archive.
 
 ## Surface Grammar

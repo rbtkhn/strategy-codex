@@ -1,7 +1,5 @@
 # Speaker memory action queue
 
-WORK only; not Record.
-
 Window: `2025-12-11` to `2025-12-22`
 
 - `high` `update-existing-arc` `codex/years/2026/napolitano/napolitano-freeman-speaker-arc.md` (1 appearance(s))

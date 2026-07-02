@@ -13,8 +13,6 @@ post_id: 193471154
 
 # The Innermost Loop - 2026-04-07
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 7, 2026
@@ -29,10 +27,7 @@ The Singularity has started running its own experiments while we sleep.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has started running its own experiments while we sleep. UNC researchers let an AI loose for 72 hours of autonomous research , during which it ran 50 experiments and invented a long-context memory system that beats every human-designed baseline, a tidy demonstration that the scientist is now a subroutine. The frontier is also learning to police itself. OpenAI, Anthropic, and Google are now sharing intelligence through the Frontier Model Forum to detect Chinese distillation attacks, a rare outbreak of lab solidarity against the entropy of open weights. Inside Meta, the arms race has gone intramural via “Claudeonomics,” an internal leaderboard where employees flex by burning tokens in a new ritual called “tokenmaxxing,” because in 2026 conspicuous consumption is measured in context windows. The logical endpoint of tokenmaxxing is the solo conglomerate. Henry Intelligent Machines just unveiled the first one-person AI conglomerates , an agent layer that spins up and operates fleets of microbusinesses for a single human owner. Meanwhile, the security economy is buckling under AI-assisted velocity, as the Internet Bug Bounty program has paused new submissions because vulnerability discovery got too cheap to price.
+- The Singularity has started running its own experiments while we sleep. UNC researchers let an AI loose for 72 hours of autonomous research , during which it ran 50 experiments and invented a long-context memory system that beats every human-designed baseline, a tidy demonstration that the scientist is now a subroutine. The frontier is also learning to police itself. OpenAI, Anthropic, and Google are now sharing intelligence through the Frontier Model Forum to detect Chinese distillation attacks, a rare outbreak of lab solidarity against the entropy of open weights. Inside Meta, the arms race has gone intramural via “Claudeonomics,” an internal leaderboard where employees flex by burning tokens in a new ritual called “tokenmaxxing,” because in 2026 conspicuous consumption is measured in context windows. The logical endpoint of tokenmaxxing is the solo conglomerate. Henry Intelligent Machines just unveiled the first one-person AI conglomerates , an agent layer that spins up and operates fleets of microbusinesses for a single human owner. Meanwhile, the security economy is buckling under AI-assisted velocity, as the Internet Bug Bounty program has paused new submissions because vulnerability discovery got too cheap to price.
 
 The compute substrate is printing money at industrial scale. Samsung just reported a record ~$38B Q1 operating profit, up more than 8x YoY , as AI chip demand pumps memory prices skyward. Anthropic is cashing that check forward, inking a multi-gigawatt TPU deal with Google and Broadcom while disclosing run-rate revenue has leapt from roughly $9B at end of 2025 to over $30B today. OpenAI is scaling even more aggressively and more expensively, reportedly planning to spend $121B on compute in 2028 alone while burning $85B that year, with Altman having committed the company to $600B in five-year spending and eyeing a Q4 IPO. The physical backlash to all this capex is starting to turn violent. An Indianapolis city councilor says his home was shot up 13 times over a proposed neighborhood data center, with a note reading “NO DATA CENTERS,” a grim reminder that the cloud still casts a very local shadow.
 

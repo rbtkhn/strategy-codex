@@ -1,6 +1,5 @@
 # Monthly Arc Lens Brief, YYYY-MM
 
-
 ## Month / Coverage Window
 
 - Month:

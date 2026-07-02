@@ -1,6 +1,5 @@
 # Glenn Diesen Index
 
-
 Compatibility pointer only.
 
 The canonical channel route map now lives at [glenn-diesen-channel-index.md](glenn-diesen-channel-index.md).

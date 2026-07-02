@@ -44,7 +44,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back. We are joined today by Alex Krainer, an author, market analyst, and also a former hedge fund manager to yeah get some perspective on the political and economic changes in the world. So, thank you for coming back on the program. >> Always a pleasure to join you, Glenn. Thank you for the invite. So um I was thinking today though that it's it's quite easy to get consumed by all of these uh you know day-to-day events as so much is happening in the world at uh yeah break neck speed.

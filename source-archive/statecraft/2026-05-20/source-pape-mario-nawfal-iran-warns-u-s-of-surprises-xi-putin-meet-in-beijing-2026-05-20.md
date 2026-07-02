@@ -28,7 +28,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Xi-Putin Beijing Summit Readout
 
 Oh, great. Okay, well, you can keep me updated, Mario. I'll read out I'll read out the statement. So, yeah, it's the latest statement here that they said So,

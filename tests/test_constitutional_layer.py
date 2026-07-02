@@ -11,7 +11,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture()
 def constitutional_env(tmp_path: Path):
     """Repo root with runtime_config + profile with seed-phase constitution."""
@@ -37,7 +36,6 @@ def constitutional_env(tmp_path: Path):
         encoding="utf-8",
     )
     return tmp_path, profile
-
 
 def test_constitutional_critique_revision_path(constitutional_env, monkeypatch):
     repo_root, profile_dir = constitutional_env
@@ -97,7 +95,6 @@ def test_constitutional_critique_revision_path(constitutional_env, monkeypatch):
     assert out2 == "short ok"
     assert client.chat.completions.create.call_count == 2
     assert cl._cache_hits >= 1
-
 
 def test_constitutional_disabled_no_calls(tmp_path: Path, monkeypatch):
     monkeypatch.delenv("CONSTITUTIONAL_REDIS_URL", raising=False)

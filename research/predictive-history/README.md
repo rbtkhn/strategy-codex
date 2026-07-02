@@ -1,8 +1,6 @@
 # Predictive History (Subject Research)
 
-work only; not Record.
-
-This folder holds **research about** the [rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history) repo and lecture corpus — interpretive, analytical, and theoretical work only.
+This folder holds **research about** the [rbtkhn/predictive-history](https://github.com/rbtkhn/predictive-history) repo and lecture corpus — interpretive, analytical, and theoretical non-authoritative.
 
 **Not the corpus.** Corpus SSOT is **`rbtkhn/predictive-history`** (author, validate, push there).
 

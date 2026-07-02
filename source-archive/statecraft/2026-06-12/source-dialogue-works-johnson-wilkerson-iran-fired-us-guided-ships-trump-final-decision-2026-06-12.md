@@ -45,7 +45,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Friday, June 12th, 2026, and our dear friend Colonel Wilkerson and Larry Johnson are here with us. Welcome back. >> Hi there. >> And appreciate the appreciate the short choice today. >> It's totally the opposite. By the way, you're red. >> You got team red, team blue. You guys choose. Larry, you remember last night we were talking about what's going on in the Middle East and you said that maybe they attack Iran. That could be the case.

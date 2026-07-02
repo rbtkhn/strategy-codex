@@ -1,6 +1,5 @@
 # Christoforou speaker object
 
-
 object_shape: stream-anchored-with-cross-host-reinforcement
 
 Purpose: give Alex Christoforou a canonical speaker lane so recurring Duran-hosted statecraft captures surface truthfully in participant indexes rather than only under guest lanes such as `mercouris`.

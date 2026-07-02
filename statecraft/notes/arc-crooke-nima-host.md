@@ -16,7 +16,6 @@ archive_links:
 
 # Dialogue Works x Crooke speaker arc
 
-
 Purpose: compact reuse note for the `Dialogue Works x Crooke` run inside the Alkorshid stream. This is not a substitute for the raw-input files. It exists so future routing can quickly answer: what kind of Crooke lane Nima elicits, which files matter most, and why this host lane completes the Crooke helix rather than remaining an inferred third strand.
 
 ## Why this guest run matters

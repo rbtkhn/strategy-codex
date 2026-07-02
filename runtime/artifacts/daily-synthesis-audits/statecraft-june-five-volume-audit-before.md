@@ -1,7 +1,5 @@
 # June Week Five-Volume Label-Order Audit (Before)
 
-WORK only; not Record.
-
 - contract order: `China -> Persia -> Rome -> Russia -> America`
 - label format: ``- `Civ`:`` (backtick-wrapped)
 - window: `2026-06-03` through `2026-06-08`

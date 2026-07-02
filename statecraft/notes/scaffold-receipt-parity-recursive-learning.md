@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 ## Scaffold Receipt Parity — Recursive Learning Entry
 
-
 **Statecraft Registry**
 - Lane: shared
 - Output class: memo

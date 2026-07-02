@@ -14,17 +14,14 @@ if str(SCRIPTS) not in sys.path:
 
 import context_budget as cb  # noqa: E402
 
-
 def test_load_context_budget_missing_returns_empty(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr(cb, "BUDGETS_DIR", tmp_path)
     assert cb.load_context_budget("nope") == {}
-
 
 def test_load_context_budget_bad_json_returns_empty(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     monkeypatch.setattr(cb, "BUDGETS_DIR", tmp_path)
     (tmp_path / "x.json").write_text("{not json", encoding="utf-8")
     assert cb.load_context_budget("x") == {}
-
 
 def test_load_daily_brief_budget_from_repo() -> None:
     path = REPO / "platform/config" / "context_budgets" / "daily_brief.json"
@@ -33,7 +30,6 @@ def test_load_daily_brief_budget_from_repo() -> None:
     assert isinstance(raw, dict)
     assert cb.get_bool(raw, "append_cel_footer", False) is True
 
-
 def test_load_session_brief_budget_from_repo() -> None:
     """session_brief.json exists and loads (CEL budgets)."""
     path = REPO / "platform/config" / "context_budgets" / "session_brief.json"
@@ -41,7 +37,6 @@ def test_load_session_brief_budget_from_repo() -> None:
     raw = cb.load_context_budget("session_brief")
     assert isinstance(raw, dict)
     assert cb.get_int(raw, "max_pending_ids_listed", 99) >= 1
-
 
 def test_get_int_and_get_bool() -> None:
     d = {"a": 3, "b": "7", "c": True, "d": "yes", "e": "off"}

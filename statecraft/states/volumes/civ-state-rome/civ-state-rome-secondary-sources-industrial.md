@@ -1,6 +1,5 @@
 # Rome Secondary Sources - Industrial
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the industrial Rome primary shelf when narrowed Vatican carry, nation-state friction, concordat politics, or Latin-world residue through 1991 need stronger chronology or counterweight against false death reading.

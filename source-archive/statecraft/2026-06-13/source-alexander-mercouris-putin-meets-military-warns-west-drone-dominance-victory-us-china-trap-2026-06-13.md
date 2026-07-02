@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Saturday, 13th June, 2026. And as you can see, I'm still in Scoff in Russia, where I've had a rather quieter day than on other days, but there's still been an awful lot to discuss, some of which I will touch on later in this over the course of this program. Anyway, in the meantime, the news from the various wars continues and I will turn later in this program, I will discuss later in this program the situation between the United States and Iran which according to some reports is becoming stranger and stranger all the

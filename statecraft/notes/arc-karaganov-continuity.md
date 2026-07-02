@@ -12,7 +12,6 @@ archive_links:
   - source-archive/statecraft/2026-05-10/source-glen-diesen-sergey-karaganov-world-war-nuclear-doctrine-eurasia-2026-05-10.md
 ---
 
-
 # Karaganov Arc
 
 Sergey Karaganov's durable statecraft role is to carry **internal Russian elite strategic doctrine** in a form the notebook can pressure-test against Western reaction lanes.

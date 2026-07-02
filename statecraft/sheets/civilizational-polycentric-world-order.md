@@ -1,6 +1,5 @@
 # Civilizational Polycentric World Order
 
-
 Use this sheet when a draft, memo, comparison, or lane judgment needs a cleaner vocabulary for world order than `unipolar`, `multipolar`, or `rules-based order` alone can provide.
 
 This is not a generic IR glossary. It is a statecraft hinge.

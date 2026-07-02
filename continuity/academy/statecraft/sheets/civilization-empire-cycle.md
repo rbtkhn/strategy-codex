@@ -1,7 +1,6 @@
 # Civilization And Empire Cycle
 <!-- word_count: 357 -->
 
-
 Purpose: make the Civilization and Empire helix diagnostic. Use the cycle to test whether a statecraft lane is preserving civilization, amplifying it, degrading it, or restoring it.
 
 ## Core Cycle

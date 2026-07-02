@@ -27,7 +27,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 **Alex Christoforou:** All right, Alexander, let's talk about the St. Petersburg International Economic Forum and uh Putin's Q&A with uh with mainstream western mainstream media as well as as other other media. We're talking about questions from the the France's AFP, Associated Press, German media was there, Spain, Spanish media, but you also had media from uh from India, Egypt, Belarus, Azarbaian, uh China, Kazakhstan. Uh Putin Putin said some some interesting things. He revealed some interesting things and then he also said a lot of a lot of not interesting things in my opinion. He seemed to walk back a lot of uh a lot of hardline rhetoric. At least that's what I thought. But uh anyway, what are your thoughts on everything that that Putin said?

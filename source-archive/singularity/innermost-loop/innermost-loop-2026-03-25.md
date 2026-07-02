@@ -13,8 +13,6 @@ post_id: 192101890
 
 # The Innermost Loop - 2026-03-25
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 25, 2026
@@ -29,10 +27,7 @@ The Singularity is being reorganized for maximum velocity.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is being reorganized for maximum velocity. OpenAI has finished pretraining its next flagship model, codenamed “ Spud ,” and expects it to accelerate the economy within weeks. To clear the runway, the company is shutting down Sora, renaming its product org to “AGI Deployment,” and Sam Altman is handing off direct control of safety and security teams to focus on raising capital, supply chains, and building data centers at planetary scale. In a sign of OpenAI racing to become Anthropic faster than Anthropic can become OpenAI, the Sora shutdown is part of a broader pivot toward business and coding ahead of a potential IPO as early as Q4. The collateral damage is cinematic: Disney has ended its partnership with OpenAI, including plans for a $1 billion stake. Meanwhile, model compression is going vertical. Google Research introduced TurboQuant , quantizing the KV cache to just 3 bits without training or accuracy loss for up to 8x performance on H100 GPUs. Yann LeCun and colleagues unveiled LeWM , the first JEPA that trains stably end-to-end from raw pixels, planning up to 48x faster than foundation-model-based world models on a single GPU.
+- The Singularity is being reorganized for maximum velocity. OpenAI has finished pretraining its next flagship model, codenamed “ Spud ,” and expects it to accelerate the economy within weeks. To clear the runway, the company is shutting down Sora, renaming its product org to “AGI Deployment,” and Sam Altman is handing off direct control of safety and security teams to focus on raising capital, supply chains, and building data centers at planetary scale. In a sign of OpenAI racing to become Anthropic faster than Anthropic can become OpenAI, the Sora shutdown is part of a broader pivot toward business and coding ahead of a potential IPO as early as Q4. The collateral damage is cinematic: Disney has ended its partnership with OpenAI, including plans for a $1 billion stake. Meanwhile, model compression is going vertical. Google Research introduced TurboQuant , quantizing the KV cache to just 3 bits without training or accuracy loss for up to 8x performance on H100 GPUs. Yann LeCun and colleagues unveiled LeWM , the first JEPA that trains stably end-to-end from raw pixels, planning up to 48x faster than foundation-model-based world models on a single GPU.
 
 The labs are pointing their models at the hardest problems in science. The newly organized OpenAI Foundation , armed with $1 billion per year, is prioritizing AI to cure Alzheimer’s by mapping disease pathways and accelerating treatment personalization. MIT researchers showed that LLM agents can now autonomously execute high energy physics analysis pipelines , with Claude Code automating everything from event selection to paper drafting. The product layer is expanding in parallel. OpenAI is rolling out visual shopping in ChatGPT , letting users discover products by uploading images. Anthropic is introducing auto mode in Claude Code , where Claude makes permission decisions on your behalf with safeguards for longer agentic tasks. The agentic surface area is bleeding into unexpected places: people are now using Chipotle’s order bot for free coding assistance by saying they need help before they can eat their bowl.
 

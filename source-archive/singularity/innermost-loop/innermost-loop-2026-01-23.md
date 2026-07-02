@@ -13,8 +13,6 @@ post_id: 185544601
 
 # The Innermost Loop - 2026-01-23
 
-WORK only; not Record.
-
 ## Source
 
 - Title: A Conversation with Ray Kurzweil
@@ -29,10 +27,7 @@ Ray Kurzweil has been a north star for futurists for decades.
 
 ## Newsletter Text
 
--
--
-
-Ray Kurzweil has been a north star for futurists for decades. Below are excerpts from our recent conversation as part of the “Moonshots” podcast, recorded on January 15, 2026, which have been lightly edited for clarity.
+- Ray Kurzweil has been a north star for futurists for decades. Below are excerpts from our recent conversation as part of the “Moonshots” podcast, recorded on January 15, 2026, which have been lightly edited for clarity.
 
 On Confirming the Singularity
 

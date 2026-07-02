@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Big Sanctions Fail Russian Oil Exports Grow; Scandals Leaks Rock EU; India Russia Talks; Kiev Strike
 
-

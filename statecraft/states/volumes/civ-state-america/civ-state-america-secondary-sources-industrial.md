@@ -1,6 +1,5 @@
 # America Secondary Sources - Industrial
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the industrial America primary shelf when preserved union, industrial ascent, Civil War and Reconstruction, Cold War command, or the 1991 endpoint need stronger chronology or anti-innocence correction.

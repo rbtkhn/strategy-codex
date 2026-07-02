@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 We are joined with actually some breaking news by Professor Robert Pape who of course is the author of the escalation trap Substack. You can check that out. And he is a professor at the University of Chicago. Professor Pape, thank you so much for joining us again. >> Thank you for having me. >> Yeah.

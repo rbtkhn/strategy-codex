@@ -1,6 +1,5 @@
 # Jermy Index
 
-
 Purpose: front door for the canonical Jermy shelf.
 
 ## Open First

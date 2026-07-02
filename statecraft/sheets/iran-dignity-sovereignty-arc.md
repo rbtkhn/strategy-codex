@@ -1,6 +1,5 @@
 # Iran Dignity-Sovereignty Arc
 
-
 ## Purpose
 
 Use this sheet when an Iran-lane read, six-part doctrine read, transaction, clause, or current event invokes dignity, sovereignty, deterrence, sanctions endurance, nuclear latency, Hormuz leverage, non-regime-change, verification, martyrdom, or imposed vulnerability.

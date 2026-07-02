@@ -18,7 +18,6 @@ sync_policy: manual_curated_fork
 canonical_source_note: Manual curated fork for academy/theology; update deliberately when source changes matter.
 -->
 
-
 # Writing the Book and Death
 
 ### On the Most Interesting Activity and Why We Need Not Fear the End

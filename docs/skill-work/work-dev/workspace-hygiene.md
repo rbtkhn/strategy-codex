@@ -1,6 +1,5 @@
 # Workspace hygiene
 
-
 ## Purpose
 
 This note classifies local clutter that can make audits and commits harder to read without changing system behavior. It is guidance for operators and coding agents, not a cleanup command.

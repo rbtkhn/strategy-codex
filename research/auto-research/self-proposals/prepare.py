@@ -37,7 +37,6 @@ SANDBOX_ROOT_DIR = EXPERIMENTS_DIR / ".sandboxes"
 LAST_SCORE_PATH = EXPERIMENTS_DIR / "last_score.json"
 LAST_CANDIDATE_PATH = EXPERIMENTS_DIR / "last_candidate.md"
 
-
 def _run_json_command(command: list[str], cwd: Path) -> dict[str, Any]:
     completed = subprocess.run(command, cwd=cwd, capture_output=True, text=True)
     stdout = completed.stdout.strip()
@@ -62,11 +61,9 @@ def _run_json_command(command: list[str], cwd: Path) -> dict[str, Any]:
     payload["_stderr"] = completed.stderr.strip()
     return payload
 
-
 def _run_text_command(command: list[str], cwd: Path) -> tuple[int, str, str]:
     completed = subprocess.run(command, cwd=cwd, capture_output=True, text=True)
     return completed.returncode, completed.stdout, completed.stderr
-
 
 def _load_baseline_scalar(path: Path | None) -> float | None:
     if not path or not path.is_file():
@@ -82,7 +79,6 @@ def _load_baseline_scalar(path: Path | None) -> float | None:
     if isinstance(value, (int, float)):
         return float(value)
     return None
-
 
 def _failed_score_bundle(
     *,
@@ -114,7 +110,6 @@ def _failed_score_bundle(
         "grounding_errors": grounding_errors or [],
     }
 
-
 def _maybe_run_optional_measures(user_id: str, allow_live_benchmarks: bool) -> tuple[dict[str, float] | None, dict[str, float] | None]:
     if not allow_live_benchmarks:
         return None, None
@@ -140,7 +135,6 @@ def _maybe_run_optional_measures(user_id: str, allow_live_benchmarks: bool) -> t
             uniqueness = parsed or None
 
     return uniqueness, growth
-
 
 def run_prepare(
     *,
@@ -253,7 +247,6 @@ def run_prepare(
 
     return result
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Evaluate a sandboxed self-proposal draft.")
     parser.add_argument("--user", "-u", default="grace-mar", help="User id (default: grace-mar)")
@@ -315,7 +308,6 @@ def main() -> int:
     else:
         print(result["score_bundle"]["scalar"])
     return 0 if result["score_bundle"]["ok"] else 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

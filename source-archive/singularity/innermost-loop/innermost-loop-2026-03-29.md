@@ -13,8 +13,6 @@ post_id: 192526120
 
 # The Innermost Loop - 2026-03-29
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 29, 2026
@@ -29,10 +27,7 @@ The Singularity is about to shift into a higher gear.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is about to shift into a higher gear. GPT-5.5, Claude 5 Mythos, and DeepSeek-V4 are all expected to drop in April , a triple release that commentators warn could make frontier intelligence too expensive for most of humanity to afford as massive training runs become table stakes, putting pressure on rate limits and pricing. The compression game continues regardless. In OpenAI’s Parameter Golf competition, a challenge to train the best language model that fits in a 16MB artifact on 8xH100s, the best claimed result is now 42.7x better than the baseline , proving optimization finds a way at any scale. That optimization is already eating mathematics alive. Last year, models scored below 5% on USAMO 2025, but GPT-5.4 just scored 95% on the 2026 exam , saturating the benchmark in twelve months flat.
+- The Singularity is about to shift into a higher gear. GPT-5.5, Claude 5 Mythos, and DeepSeek-V4 are all expected to drop in April , a triple release that commentators warn could make frontier intelligence too expensive for most of humanity to afford as massive training runs become table stakes, putting pressure on rate limits and pricing. The compression game continues regardless. In OpenAI’s Parameter Golf competition, a challenge to train the best language model that fits in a 16MB artifact on 8xH100s, the best claimed result is now 42.7x better than the baseline , proving optimization finds a way at any scale. That optimization is already eating mathematics alive. Last year, models scored below 5% on USAMO 2025, but GPT-5.4 just scored 95% on the 2026 exam , saturating the benchmark in twelve months flat.
 
 Biology is becoming a compile target. Anthropic is testing Claude Operon , a desktop mode for biology, from phylogenetic trees to CRISPR knockout screens. We are reading the source code of senescence. Researchers have demonstrated the first integrated framework for how epigenetic regulation controls aging , while Northwestern scientists created HOBIT , a “living pharmacy” implant that kept engineered cells alive for a month inside rats while dosing three drugs at once, including a GLP-1 medication. Neko Health, founded by Spotify’s Daniel Ek, plans to open its first US body-scan clinic in New York this spring. The garage biohackers are keeping pace. The man who developed a custom mRNA immunotherapy for his dog’s cancer using Gemini, Grok, and ChatGPT is now starting a company to end cancer for dogs.
 

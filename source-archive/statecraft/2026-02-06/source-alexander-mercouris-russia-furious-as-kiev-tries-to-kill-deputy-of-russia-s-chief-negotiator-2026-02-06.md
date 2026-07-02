@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia Furious As Kiev Tries To Kill Deputy Of Russia's Chief Negotiator; Lavrov Says NATO Plans War
 
-

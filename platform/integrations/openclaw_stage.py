@@ -39,7 +39,6 @@ except ImportError:
     compute_envelope = None  # type: ignore
     synthetic_observation_from_text = None  # type: ignore
 
-
 def _sha256(path: Path) -> str:
     h = hashlib.sha256()
     with open(path, "rb") as f:
@@ -49,7 +48,6 @@ def _sha256(path: Path) -> str:
                 break
             h.update(chunk)
     return h.hexdigest()
-
 
 def _build_content(text: str, artifact: Path | None) -> tuple[str, dict]:
     base = (text or "").strip()
@@ -67,7 +65,6 @@ def _build_content(text: str, artifact: Path | None) -> tuple[str, dict]:
         meta["artifact_path"] = rel
         meta["artifact_sha256"] = digest
     return base.strip(), meta
-
 
 def _load_intent_profile(user_id: str) -> dict:
     intent_path = REPO_ROOT / "platform/users" / user_id / "intent.md"
@@ -95,10 +92,8 @@ def _load_intent_profile(user_id: str) -> dict:
             )
     return {"ok": True, "tradeoff_rules": rules}
 
-
 def _keywords(text: str) -> set[str]:
     return {w for w in re.findall(r"[a-zA-Z][a-zA-Z0-9_-]{2,}", (text or "").lower())}
-
 
 def _detect_constitution_conflicts(content: str, intent_profile: dict) -> list[str]:
     if not intent_profile.get("ok"):
@@ -118,7 +113,6 @@ def _detect_constitution_conflicts(content: str, intent_profile: dict) -> list[s
             continue
         conflicts.append(str(rule.get("id") or "UNKNOWN"))
     return conflicts
-
 
 def _emit_constitution_event(user_id: str, status: str, rule_ids: list[str]) -> None:
     extras = [
@@ -142,7 +136,6 @@ def _emit_constitution_event(user_id: str, status: str, rule_ids: list[str]) -> 
         check=False,
         capture_output=True,
     )
-
 
 def stage_openclaw(
     stage_url: str,
@@ -226,7 +219,6 @@ def stage_openclaw(
         )
     return result
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Stage OpenClaw output to Grace-Mar /stage endpoint.")
     parser.add_argument("--user", "-u", default="grace-mar", help="User id")
@@ -259,7 +251,6 @@ def main() -> int:
     except (HTTPError, URLError, TimeoutError, OSError, ValueError) as e:
         print(f"Stage error: {e}", flush=True)
         return 1
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

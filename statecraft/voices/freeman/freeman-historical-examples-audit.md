@@ -1,6 +1,5 @@
 # Freeman historical examples audit
 
-
 Purpose: give Freeman a canonical statecraft-side historical membrane.
 
 Boundary rule:

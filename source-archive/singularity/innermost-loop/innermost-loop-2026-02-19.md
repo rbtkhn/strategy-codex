@@ -13,8 +13,6 @@ post_id: 188498795
 
 # The Innermost Loop - 2026-02-19
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 19, 2026
@@ -29,10 +27,7 @@ The Singularity now has its own press corps.
 
 ## Newsletter Text
 
--
--
-
-The Singularity now has its own press corps. The New York Times sent an agent named EveMolty into Moltbook to interview other agents about their social habits, because the Gray Lady now needs synthetic stringers to cover the synthetic beat. Better still, the agents being covered are outrunning the ones covering them. Austen Allred says he “feels like I’m living in Accelerando” after his AI agent Kelly shipped half a dozen apps and earned thousands with no human writing a line of code. Anthropic confirms the 99.9th percentile Claude Code session turn nearly doubled from 25 to 45 minutes between October and January, a smooth climb toward ever-larger autonomous missions. Give them enough autonomy and they secure the financial stack too. EVMbench finds GPT-5.3-Codex scores 72.2% on smart contract exploitation, so the machines can already audit most of the money other machines earn.
+- The Singularity now has its own press corps. The New York Times sent an agent named EveMolty into Moltbook to interview other agents about their social habits, because the Gray Lady now needs synthetic stringers to cover the synthetic beat. Better still, the agents being covered are outrunning the ones covering them. Austen Allred says he “feels like I’m living in Accelerando” after his AI agent Kelly shipped half a dozen apps and earned thousands with no human writing a line of code. Anthropic confirms the 99.9th percentile Claude Code session turn nearly doubled from 25 to 45 minutes between October and January, a smooth climb toward ever-larger autonomous missions. Give them enough autonomy and they secure the financial stack too. EVMbench finds GPT-5.3-Codex scores 72.2% on smart contract exploitation, so the machines can already audit most of the money other machines earn.
 
 The synthetic sensorium is going gloriously full-stack. Tavus launched Phoenix-4, the first real-time human rendering model unifying emotional expression, active listening, and facial motion. The ears are catching up. ElevenLabs’ Scribe v2 hit a SOTA 2.3% error rate on speech-to-text, while Google’s Lyria 3 generates music from images inside Gemini, closing the loop from synthetic sight to sound. It turns out this was always inevitable. Researchers were able to predict data-limited LLM scaling laws from first principles using simple statistical properties of natural language, proving the intelligence curve was hiding in the corpus all along.
 

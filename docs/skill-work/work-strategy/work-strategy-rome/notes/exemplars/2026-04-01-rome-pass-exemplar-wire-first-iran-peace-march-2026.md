@@ -1,6 +1,6 @@
 # ROME-PASS exemplar — wire-first (Iran / Middle East peace lines, March 2026)
 
-**Type:** **Wire-first** exemplar — pass **began** from **Vatican News** / **Reuters** headlines, then **locked** wording on **vatican.va** primary. **WORK only** — not Record.
+**Type:** **Wire-first** exemplar — pass **began** from **Vatican News** / **Reuters** headlines, then **locked** wording on **vatican.va** primary. 
 
 **Pass template:** [ROME-PASS.md](../../ROME-PASS.md) · **Thesis stub:** [2026-04-03-modern-rome-papacy-thesis-stub.md](../2026-04-03-modern-rome-papacy-thesis-stub.md)
 

@@ -1,6 +1,6 @@
 # Singularity-Academy Target Packet - AI Adjacent - 2026-05
 
-WORK only. Draft prospect wrapper, not sent communication.
+non-authoritative. Draft prospect wrapper, not sent communication.
 
 ## Why AI Adjacent may be a fit
 

@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Hormuz Basics
 
 Hi everyone, Judge Andrew Npalitano here for Judging Freedom.

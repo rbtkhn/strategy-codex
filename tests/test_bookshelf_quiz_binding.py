@@ -18,7 +18,6 @@ CATALOG = REPO / "docs" / "skill-work" / "work-strategy" / "history-notebook" / 
 ANCHORS = REPO / "docs" / "skill-work" / "work-strategy" / "history-notebook" / "research" / "bookshelf-quiz-anchors.yaml"
 TEST_TMP = REPO / ".codex-test-temp" / "bookshelf-quiz-binding"
 
-
 SELF_FIXTURE = """# Self
 
 ## IX-A. KNOWLEDGE
@@ -42,7 +41,6 @@ entries:
 ```
 """
 
-
 def _gate(candidate_yaml: str) -> str:
     return f"""# Gate
 
@@ -56,7 +54,6 @@ def _gate(candidate_yaml: str) -> str:
 
 ## Processed
 """
-
 
 def _run_check(candidate_yaml: str) -> subprocess.CompletedProcess[str]:
     TEST_TMP.mkdir(parents=True, exist_ok=True)
@@ -82,7 +79,6 @@ def _run_check(candidate_yaml: str) -> subprocess.CompletedProcess[str]:
         capture_output=True,
         text=True,
     )
-
 
 VALID_CANDIDATE = """
 status: pending
@@ -111,7 +107,6 @@ suggested_entry: "Knows: the Melian Dialogue is a realist lesson about power asy
 prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 """
-
 
 ADAMS_CANDIDATE = """
 status: pending
@@ -143,7 +138,6 @@ prompt_section: YOUR KNOWLEDGE
 prompt_addition: none
 """
 
-
 def test_committed_quiz_anchors_validate() -> None:
     result = subprocess.run(
         [PY, str(VALIDATE), "--catalog", str(CATALOG), "--anchors", str(ANCHORS)],
@@ -153,11 +147,9 @@ def test_committed_quiz_anchors_validate() -> None:
     )
     assert result.returncode == 0, result.stderr + result.stdout
 
-
 def test_valid_primary_source_candidate_passes() -> None:
     result = _run_check(VALID_CANDIDATE)
     assert result.returncode == 0, result.stderr + result.stdout
-
 
 def test_visible_prompt_must_not_leak_internal_shelf() -> None:
     bad = VALID_CANDIDATE.replace(
@@ -168,13 +160,11 @@ def test_visible_prompt_must_not_leak_internal_shelf() -> None:
     assert result.returncode == 1
     assert "leaks internal source ids" in result.stdout
 
-
 def test_unknown_shelf_ref_fails() -> None:
     bad = VALID_CANDIDATE.replace("Shelf-0003", "Shelf-9999")
     result = _run_check(bad)
     assert result.returncode == 1
     assert "unknown shelf_ref" in result.stdout
-
 
 def test_weak_missing_shelf_refs_warns_but_passes() -> None:
     weak = VALID_CANDIDATE.replace("source_binding_strength: strong", "source_binding_strength: weak")
@@ -184,7 +174,6 @@ def test_weak_missing_shelf_refs_warns_but_passes() -> None:
     assert result.returncode == 0, result.stderr + result.stdout
     assert "missing shelf_refs" in result.stdout
 
-
 def test_approval_receipt_prefers_full_quiz_receipt() -> None:
     import process_approved_candidates as pac
 
@@ -192,7 +181,6 @@ def test_approval_receipt_prefers_full_quiz_receipt() -> None:
     assert "quiz_receipt:" in receipt
     assert "selected_answer" in receipt
     assert "staged_claim" in receipt
-
 
 def test_ix_a_merge_remains_prose_only() -> None:
     import process_approved_candidates as pac
@@ -235,7 +223,6 @@ entries:
     assert "Knows: the Melian Dialogue" not in self_out
     assert "Knows: the Melian Dialogue" in knowledge_out
 
-
 def test_john_adams_anchor_lookup_preflight_and_receipt_extraction() -> None:
     anchors_text = ANCHORS.read_text(encoding="utf-8")
     assert "id: bq-john-adams-revolutionary-writings" in anchors_text
@@ -252,7 +239,6 @@ def test_john_adams_anchor_lookup_preflight_and_receipt_extraction() -> None:
     assert "quiz_receipt:" in receipt
     assert 'citation_label: "John Adams, Revolutionary Writings"' in receipt
     assert "staged_claim:" in receipt
-
 
 def test_bookshelf_receipt_checks_degrade_to_warning_without_pyyaml(monkeypatch) -> None:
     import check_gate_merge_readiness as cgr

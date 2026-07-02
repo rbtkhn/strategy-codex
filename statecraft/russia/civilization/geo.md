@@ -1,6 +1,5 @@
 # Russia Geo
 
-
 ## Purpose
 
 Use Russian geography as a statecraft arc-lens for steppe exposure, forest-depth defense, river systems, Black Sea/Baltic/Arctic access, Siberia, winter and rasputitsa, invasion corridors, energy geography, and the ecological friction of scale.

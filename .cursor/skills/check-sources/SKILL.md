@@ -724,7 +724,6 @@ If verification cannot be completed:
 - stop before archive land, synthesis, publication, or promotion
 - return a bounded partial result for operator review
 
-
 ## Cursor / strategy-codex instance
 
 Grace-mar paths and commands for this repository (from `.cursor/skills/check-sources/`).
@@ -762,7 +761,6 @@ python scripts/refresh_statecraft_archive_indices.py
 python scripts/build_voice_routing_queue.py --start YYYY-MM-DD --end YYYY-MM-DD
 python scripts/validate_skills.py
 ```
-
 
 ## Cursor / strategy-codex instance
 

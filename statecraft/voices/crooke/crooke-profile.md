@@ -1,7 +1,6 @@
 # Strategy expert — Alastair Crooke (`crooke`)
 <!-- word_count: 361 -->
 
-
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
 **Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`crooke`** lane.

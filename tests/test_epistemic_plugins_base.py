@@ -16,7 +16,6 @@ from prediction.plugins.base import (  # noqa: E402
     validate_plugin_output,
 )
 
-
 def test_validate_plugin_output_ok() -> None:
     output = {
         "plugin_name": "test_plugin",
@@ -28,7 +27,6 @@ def test_validate_plugin_output_ok() -> None:
         "confidence": 0.2,
     }
     assert validate_plugin_output(output) == []
-
 
 def test_validate_rejects_signal_overwrite() -> None:
     output = {
@@ -43,7 +41,6 @@ def test_validate_rejects_signal_overwrite() -> None:
     issues = validate_plugin_output(output)
     assert any("directional" in i for i in issues)
 
-
 def test_validate_rejects_regime_label() -> None:
     output = {
         "plugin_name": "bad",
@@ -57,12 +54,10 @@ def test_validate_rejects_regime_label() -> None:
     issues = validate_plugin_output(output)
     assert any("label" in i for i in issues)
 
-
 def test_normalize_plugin_weights_caps_at_max() -> None:
     outputs = [{"confidence": 0.5}, {"confidence": 0.5}, {"confidence": 0.5}]
     weights = normalize_plugin_weights(outputs)
     assert abs(sum(weights) - MAX_PLUGIN_INFLUENCE) < 1e-6
-
 
 def test_detect_input_mutation() -> None:
     before = {"a": 1}

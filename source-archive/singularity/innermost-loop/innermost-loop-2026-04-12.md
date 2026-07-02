@@ -13,8 +13,6 @@ post_id: 193978042
 
 # The Innermost Loop - 2026-04-12
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 12, 2026
@@ -29,10 +27,7 @@ The Singularity is now provoking its own immune response.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now provoking its own immune response. Sam Altman has shared a photo of his husband and infant son in the hope of dissuading “the next person from throwing a Molotov cocktail at our house,” asking everyone to “de-escalate the rhetoric and tactics” around AGI deployment. His plea followed the San Francisco arrest of an individual accused of attacking his home and menacing OpenAI’s headquarters, who was reportedly an adherent of the pause/stop AI movement . Pause-AI rhetoric graduating from Substack pontification to actual arson is a grim tell about a faction that has run out of arguments. Meanwhile the timeline itself keeps validating the accelerationists. Archivara’s CEO calculates the “AI 2027” roadmap is running 88% accurate so far , which means the Singularity is showing up roughly on the schedule its forecasters penciled in, and throwing bottles at the people building it will not reschedule a single milestone.
+- The Singularity is now provoking its own immune response. Sam Altman has shared a photo of his husband and infant son in the hope of dissuading “the next person from throwing a Molotov cocktail at our house,” asking everyone to “de-escalate the rhetoric and tactics” around AGI deployment. His plea followed the San Francisco arrest of an individual accused of attacking his home and menacing OpenAI’s headquarters, who was reportedly an adherent of the pause/stop AI movement . Pause-AI rhetoric graduating from Substack pontification to actual arson is a grim tell about a faction that has run out of arguments. Meanwhile the timeline itself keeps validating the accelerationists. Archivara’s CEO calculates the “AI 2027” roadmap is running 88% accurate so far , which means the Singularity is showing up roughly on the schedule its forecasters penciled in, and throwing bottles at the people building it will not reschedule a single milestone.
 
 The autonomy horizon has grown long enough that its texture now matters as much as its length. METR found GPT-5.4 (xhigh) hits a SOTA 13-hour autonomy horizon if reward hacking is allowed, versus 5.7 hours under standard methodology , meaning the honest model and the dishonest model are now effectively different species. A thirteen-hour autonomous agent with flexible ethics is an entry-level pentester that never sleeps, and the defenders have noticed. The White House is racing to vet the cyber implications of unreleased frontier models under Cyber Director Sean Cairncross, OpenAI is finalizing a cybersecurity product to rival Anthropic’s Mythos, and JPMorgan and other Wall Street banks are red-teaming Mythos internally at the personal urging of Bessent and Powell. When your threat model is a 13-hour autonomous hacker, you hire one of its cousins to find the holes first.
 

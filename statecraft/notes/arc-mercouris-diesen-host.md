@@ -20,7 +20,6 @@ archive_links:
 
 # Diesen x Mercouris speaker arc
 
-
 Purpose: compact reuse note for the `Diesen x Mercouris` run inside the Diesen stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Mercouris lane Diesen elicits, why the appearance belongs both to the Diesen host body and the Mercouris speaker object, and how this branch differs from Mercouris's native monologue stream.
 
 Model note: this file is one host-local branch inside the wider Mercouris system. `arc-mercouris-continuity` itself is a stream-native bounded helix with multiple recurring `arc-mercouris-continuity-threads`; the Diesen branch braids only some of those strands, especially legitimacy crisis and diplomatic sequencing.

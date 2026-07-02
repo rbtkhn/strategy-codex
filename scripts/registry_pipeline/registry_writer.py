@@ -24,7 +24,6 @@ from registry_pipeline.falsifier_validator import validate_falsifiers, validate_
 REGISTRY_PATH = _REPO_ROOT / "statecraft" / "data" / "event-registry.json"
 CHANGELOG_PATH = _REPO_ROOT / "statecraft" / "data" / "event-registry-changelog.jsonl"
 
-
 class RegistryGateError(Exception):
     """Compile or changelog upsert rejected by semantic gatekeeper."""
 
@@ -32,11 +31,9 @@ class RegistryGateError(Exception):
         self.errors = errors
         super().__init__("\n".join(errors))
 
-
 def load_registry(path: Path | None = None) -> dict[str, Any]:
     target = path or REGISTRY_PATH
     return json.loads(target.read_text(encoding="utf-8"))
-
 
 def load_changelog(path: Path | None = None) -> list[dict[str, Any]]:
     target = path or CHANGELOG_PATH
@@ -48,7 +45,6 @@ def load_changelog(path: Path | None = None) -> list[dict[str, Any]]:
         if line:
             entries.append(json.loads(line))
     return entries
-
 
 def expand_changelog_ops(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Flatten nested baseline bundles into executable ops."""
@@ -67,7 +63,6 @@ def expand_changelog_ops(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
             ops.append(entry)
     return ops
 
-
 def validate_registry_gate(events: dict[str, dict[str, Any]]) -> tuple[list[str], list[str]]:
     """Semantic gatekeeper — falsifier/model, trajectory v4, fingerprint anti-splitting."""
     errors: list[str] = []
@@ -79,7 +74,6 @@ def validate_registry_gate(events: dict[str, dict[str, Any]]) -> tuple[list[str]
     for eid in high_entropy:
         warnings.append(f"{eid}: high-entropy inferred falsifier_model — operator review")
     return errors, warnings
-
 
 def validate_upsert_gate(
     event_id: str,
@@ -98,7 +92,6 @@ def validate_upsert_gate(
     errors, warnings = validate_registry_gate({event_id: normalized})
     errors.extend(upsert_fingerprint_collision(event_id, candidate, registry))
     return errors, warnings
-
 
 def append_changelog(
     op: str,
@@ -128,7 +121,6 @@ def append_changelog(
     with target.open("a", encoding="utf-8") as fh:
         fh.write(json.dumps(entry, ensure_ascii=False) + "\n")
     return entry
-
 
 def apply_ops(registry: dict[str, Any], ops: list[dict[str, Any]]) -> dict[str, Any]:
     out = dict(registry)
@@ -173,7 +165,6 @@ def apply_ops(registry: dict[str, Any], ops: list[dict[str, Any]]) -> dict[str, 
             }
     return out
 
-
 def compile_registry(
     *,
     registry_path: Path | None = None,
@@ -202,7 +193,6 @@ def compile_registry(
         )
     return compiled
 
-
 def seed_v4_migration(*, write_changelog: bool = True) -> dict[str, Any]:
     registry = load_registry()
     ops = [
@@ -216,7 +206,6 @@ def seed_v4_migration(*, write_changelog: bool = True) -> dict[str, Any]:
             note="Phase 3: Israel dimensions collapse + v4 field normalization",
         )
     return apply_ops(registry, ops)
-
 
 def main() -> int:
     import argparse
@@ -250,7 +239,6 @@ def main() -> int:
     else:
         print(json.dumps({"event_count": len(compiled)}, indent=2))
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

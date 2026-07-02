@@ -14,13 +14,11 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 pytest.importorskip("jsonschema")
 pytest.importorskip("yaml")
 
-
 @pytest.fixture(autouse=True)
 def _scripts_on_path() -> None:
     p = str(REPO_ROOT / "scripts")
     if p not in sys.path:
         sys.path.insert(0, p)
-
 
 def _minimal_allowlist_yaml(max_bytes: int = 250_000) -> dict:
     return {
@@ -40,14 +38,12 @@ def _minimal_allowlist_yaml(max_bytes: int = 250_000) -> dict:
         "max_file_bytes": max_bytes,
     }
 
-
 def _dump_allow(tmp_path: Path, cfg: dict) -> Path:
     import yaml
 
     p = tmp_path / "allowlist.yaml"
     p.write_text(yaml.safe_dump(cfg, sort_keys=False, allow_unicode=True), encoding="utf-8")
     return p
-
 
 def _base_doc(path: str = "docs/root", **req_kw: object) -> dict:
     req = {
@@ -62,7 +58,6 @@ def _base_doc(path: str = "docs/root", **req_kw: object) -> dict:
     }
     req.update(req_kw)  # type: ignore[arg-type]
     return {"schema_version": 1, "request": req}
-
 
 def _run(
     monkeypatch: pytest.MonkeyPatch,
@@ -108,7 +103,6 @@ def _run(
     code = mli.main()
     return code, outp if outp.exists() else None, rec_dir
 
-
 def test_valid_docs_dir_index_generates_packet(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     root = tmp_path / "docs" / "root"
     root.mkdir(parents=True)
@@ -140,22 +134,18 @@ def test_valid_docs_dir_index_generates_packet(monkeypatch: pytest.MonkeyPatch, 
     rid = receipt["receipt_id"]
     assert rid in body
 
-
 def test_absolute_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     (tmp_path / "docs").mkdir(parents=True)
     doc = _base_doc("/etc")
     assert _run(monkeypatch, tmp_path, doc)[0] == 1
 
-
 def test_dotdot_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _base_doc("docs/../outside")
     assert _run(monkeypatch, tmp_path, doc)[0] == 1
 
-
 def test_users_grace_mar_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _base_doc("")
     assert _run(monkeypatch, tmp_path, doc)[0] == 1
-
 
 def test_dotenv_root_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     docs = tmp_path / "docs"
@@ -164,7 +154,6 @@ def test_dotenv_root_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> N
 
     doc = _base_doc("docs/.env")
     assert _run(monkeypatch, tmp_path, doc)[0] == 1
-
 
 def test_secret_pattern_skipped(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     root = tmp_path / "docs" / "root"
@@ -179,14 +168,12 @@ def test_secret_pattern_skipped(monkeypatch: pytest.MonkeyPatch, tmp_path: Path)
     assert "my-secret-notes" not in body
     assert "Skipped entries:** 1" in body or "Skipped entries:** " in body
 
-
 def test_outside_allowed_roots_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     scripts_dir = tmp_path / "scripts"
     scripts_dir.mkdir(parents=True)
 
     doc = _base_doc("scripts")
     assert _run(monkeypatch, tmp_path, doc)[0] == 1
-
 
 def test_non_directory_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     docs = tmp_path / "docs"
@@ -195,7 +182,6 @@ def test_non_directory_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Pat
 
     doc = _base_doc("docs/only.txt")
     assert _run(monkeypatch, tmp_path, doc)[0] == 1
-
 
 def test_max_entries_enforced(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     root = tmp_path / "docs" / "many"
@@ -210,7 +196,6 @@ def test_max_entries_enforced(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -
     body = outp.read_text(encoding="utf-8")
     assert "**Total entries emitted:** 2" in body
 
-
 def test_max_depth_enforced(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     root = tmp_path / "docs" / "deep"
     root.mkdir(parents=True)
@@ -224,7 +209,6 @@ def test_max_depth_enforced(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> 
     assert outp is not None
     body = outp.read_text(encoding="utf-8")
     assert "inner.txt" not in body
-
 
 def test_oversized_line_count_placeholder(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     root = tmp_path / "docs" / "big"
@@ -269,7 +253,6 @@ def test_oversized_line_count_placeholder(monkeypatch: pytest.MonkeyPatch, tmp_p
     body = outp.read_text(encoding="utf-8")
     assert "over max_file_bytes" in body
 
-
 @pytest.mark.skipif(
     sys.platform.startswith("win") and os.environ.get("GITHUB_ACTIONS"), reason="symlinks fragile on CI windows"
 )
@@ -296,7 +279,6 @@ def test_symlink_escape_target_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: 
         (outside / "nested").unlink(missing_ok=True)
         outside.rmdir()
 
-
 @pytest.mark.skipif(
     sys.platform.startswith("win") and os.environ.get("GITHUB_ACTIONS"), reason="symlinks fragile on CI windows"
 )
@@ -315,7 +297,6 @@ def test_symlink_child_skipped(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) 
     assert outp is not None
     body = outp.read_text(encoding="utf-8")
     assert "readme_link" not in body.lower()
-
 
 def test_repo_example_cli_smoke() -> None:
     """Runs adapter against committed example (writes ignored artifact paths)."""

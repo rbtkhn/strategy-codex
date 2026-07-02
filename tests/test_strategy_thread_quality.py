@@ -33,7 +33,6 @@ from report_strategy_thread_quality import (
 )
 from strategy_expert_corpus import THREAD_MARKER_END, THREAD_MARKER_START
 
-
 # ---------------------------------------------------------------------------
 # Fixtures
 # ---------------------------------------------------------------------------
@@ -45,19 +44,16 @@ def notebook_dir(tmp_path: Path) -> Path:
     d.mkdir()
     return d
 
-
 def _expert_dir(notebook_dir: Path, expert_id: str) -> Path:
     d = notebook_dir / "experts" / expert_id
     d.mkdir(parents=True, exist_ok=True)
     return d
-
 
 def _write_profile(notebook_dir: Path, expert_id: str) -> None:
     _expert_dir(notebook_dir, expert_id)
     (notebook_dir / "experts" / expert_id / "profile.md").write_text(
         f"# Expert — `{expert_id}`\n", encoding="utf-8"
     )
-
 
 def _write_transcript(notebook_dir: Path, expert_id: str, dates: dict[str, list[str]]) -> None:
     _expert_dir(notebook_dir, expert_id)
@@ -74,7 +70,6 @@ def _write_transcript(notebook_dir: Path, expert_id: str, dates: dict[str, list[
         "\n".join(lines), encoding="utf-8"
     )
 
-
 def _write_thread(notebook_dir: Path, expert_id: str, machine_lines: list[str]) -> None:
     _expert_dir(notebook_dir, expert_id)
     inner = (
@@ -89,7 +84,6 @@ def _write_thread(notebook_dir: Path, expert_id: str, machine_lines: list[str]) 
         f"{THREAD_MARKER_END}\n",
         encoding="utf-8",
     )
-
 
 # ---------------------------------------------------------------------------
 # Missing files
@@ -106,7 +100,6 @@ def test_missing_profile(notebook_dir: Path) -> None:
     assert diag.thread_exists
     assert any("missing platform/profile" in i for i in diag.issues)
 
-
 def test_all_files_present(notebook_dir: Path) -> None:
     eid = "testexp"
     _write_profile(notebook_dir, eid)
@@ -118,7 +111,6 @@ def test_all_files_present(notebook_dir: Path) -> None:
     assert diag.transcript_exists
     assert diag.thread_exists
     assert not diag.issues
-
 
 # ---------------------------------------------------------------------------
 # Stale threads
@@ -133,7 +125,6 @@ def test_stale_thread_no_recent_dates(notebook_dir: Path) -> None:
     assert diag.stale
     assert any("stale" in i for i in diag.issues)
 
-
 def test_fresh_thread(notebook_dir: Path) -> None:
     eid = "testexp"
     _write_transcript(notebook_dir, eid, {"2026-04-18": ["- fresh line"]})
@@ -144,12 +135,10 @@ def test_fresh_thread(notebook_dir: Path) -> None:
     assert diag.transcript_line_count == 1
     assert diag.newest_transcript_date == "2026-04-18"
 
-
 def test_stale_no_transcript_file(notebook_dir: Path) -> None:
     diag = ExpertDiagnostic(expert_id="ghost")
     _check_transcript_content(diag, notebook_dir, cutoff=date(2026, 4, 11))
     assert diag.stale
-
 
 # ---------------------------------------------------------------------------
 # Coverage gap
@@ -165,7 +154,6 @@ def test_coverage_gap_transcript_content_empty_machine(notebook_dir: Path) -> No
     assert diag.coverage_gap
     assert diag.machine_layer_line_count == 0
 
-
 def test_no_coverage_gap_when_machine_has_content(notebook_dir: Path) -> None:
     eid = "testexp"
     _write_transcript(notebook_dir, eid, {"2026-04-18": ["- content"]})
@@ -176,7 +164,6 @@ def test_no_coverage_gap_when_machine_has_content(notebook_dir: Path) -> None:
     assert not diag.coverage_gap
     assert diag.machine_layer_line_count == 3
 
-
 # ---------------------------------------------------------------------------
 # Density
 # ---------------------------------------------------------------------------
@@ -186,12 +173,10 @@ def test_density_ratio() -> None:
     _compute_density(diag)
     assert diag.density_ratio == 0.5
 
-
 def test_density_zero_transcript() -> None:
     diag = ExpertDiagnostic(expert_id="test", transcript_line_count=0, machine_layer_line_count=5)
     _compute_density(diag)
     assert diag.density_ratio is None
-
 
 # ---------------------------------------------------------------------------
 # Roster drift
@@ -212,7 +197,6 @@ def test_roster_drift_ok(tmp_path: Path) -> None:
     assert not drift.missing_from_table
     assert not drift.extra_in_table
 
-
 def test_roster_drift_missing_expert(tmp_path: Path) -> None:
     from strategy_expert_corpus import CANONICAL_EXPERT_IDS
 
@@ -226,7 +210,6 @@ def test_roster_drift_missing_expert(tmp_path: Path) -> None:
     drift = _check_roster_drift(index)
     assert not drift.ok
     assert CANONICAL_EXPERT_IDS[-1] in drift.missing_from_table
-
 
 # ---------------------------------------------------------------------------
 # Batch-analysis alignment
@@ -242,7 +225,6 @@ def test_batch_alignment_catches_unknown_tag(tmp_path: Path) -> None:
     assert len(issues) == 1
     assert issues[0].raw_tag == "nonexistent"
 
-
 def test_batch_alignment_clean_for_canonical(tmp_path: Path) -> None:
     inbox = tmp_path / "inbox.md"
     inbox.write_text(
@@ -251,7 +233,6 @@ def test_batch_alignment_clean_for_canonical(tmp_path: Path) -> None:
     )
     issues = _check_batch_alignment(inbox)
     assert len(issues) == 0
-
 
 # ---------------------------------------------------------------------------
 # Full report assembly
@@ -286,7 +267,6 @@ def test_report_assembly_minimal(notebook_dir: Path, tmp_path: Path) -> None:
     assert not first.coverage_gap
     assert first.transcript_line_count == 1
     assert first.machine_layer_line_count == 2
-
 
 def test_format_outputs(notebook_dir: Path, tmp_path: Path) -> None:
     inbox = tmp_path / "inbox.md"

@@ -1,6 +1,5 @@
 # Russia God
 
-
 ## Purpose
 
 Use Russia's sacred-boundary memory as a statecraft lens for Orthodoxy, Rus inheritance, holy endurance, suffering / redemption, civilizational sovereignty, and recognition as a pole rather than a managed periphery.

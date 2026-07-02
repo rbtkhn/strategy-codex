@@ -28,7 +28,6 @@ Part I follows Jiang's Game Theory lectures in classroom order, transcript-backe
 
 End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md — divergence IDs from divergences.jsonl where linked; not chapter_end_predictions (Volume I only) unless Part II policy adopts prediction adjudication.
 
-
 ## Part II (after Part I)
 
 ### Part II — method TBD (Game Theory)
@@ -36,7 +35,6 @@ End each Part I chapter with a boxed subsection per CHAPTER-DIVERGENCE-BOX.md �
 **Begins after:** `gt-ch22`
 
 Operator locks evaluation mode in book/VOLUME-IV-GAME-THEORY.md (divergence-first default for Part I boxes).
-
 
 ## Chapters (Part I)
 

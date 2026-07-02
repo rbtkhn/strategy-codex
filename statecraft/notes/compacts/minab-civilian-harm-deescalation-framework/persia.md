@@ -1,6 +1,5 @@
 # Iran - Minab Civilian-Harm De-Escalation Framework
 
-
 ## Transaction Name
 
 Minab dignity-preserving de-escalation sequence.

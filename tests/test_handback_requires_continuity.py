@@ -9,7 +9,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture
 def handback_module():
     import importlib
@@ -23,7 +22,6 @@ def handback_module():
 
     importlib.reload(hs)
     return hs
-
 
 def test_openclaw_stage_returns_428_when_no_receipt(handback_module, monkeypatch: pytest.MonkeyPatch) -> None:
     hs = handback_module
@@ -48,7 +46,6 @@ def test_openclaw_stage_returns_428_when_no_receipt(handback_module, monkeypatch
     assert rv.status_code == 428
     data = rv.get_json()
     assert data.get("continuity_required") is True
-
 
 def test_openclaw_stage_proceeds_when_receipt_ok(handback_module, monkeypatch: pytest.MonkeyPatch) -> None:
     hs = handback_module
@@ -78,7 +75,6 @@ def test_openclaw_stage_proceeds_when_receipt_ok(handback_module, monkeypatch: p
     assert rv.status_code == 200
     data = rv.get_json()
     assert data.get("ok") is True
-
 
 def test_browser_stage_skips_continuity_gate(handback_module, monkeypatch: pytest.MonkeyPatch) -> None:
     hs = handback_module

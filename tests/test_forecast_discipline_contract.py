@@ -6,7 +6,6 @@ import json
 import re
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 FIXTURE_PATH = REPO_ROOT / "tests" / "fixtures" / "forecast_discipline_contract.json"
 EXPECTED_SCORE = 100
@@ -23,16 +22,13 @@ REQUIRED_LEDGER_FIELDS = {
     "min_rows",
 }
 
-
 def _load_fixture() -> dict:
     return json.loads(FIXTURE_PATH.read_text(encoding="utf-8"))
-
 
 def _normalize(text: str) -> str:
     normalized = text.lower().replace("\u2019", "'").replace("\u2013", "-")
     normalized = normalized.replace("\u2014", "-")
     return re.sub(r"\s+", " ", normalized)
-
 
 def _term_supported(term: str, haystack: str) -> bool:
     term = _normalize(term).replace("`", "")
@@ -58,10 +54,8 @@ def _term_supported(term: str, haystack: str) -> bool:
     meaningful = [word for word in words if word not in stopwords]
     return bool(meaningful) and all(word in plain_haystack for word in meaningful)
 
-
 def _missing_terms(terms: list[str], haystack: str) -> list[str]:
     return [term for term in terms if not _term_supported(term, haystack)]
-
 
 def _section_after_heading(text: str, heading: str) -> str:
     heading_re = re.compile(rf"^##\s+{re.escape(heading)}\s*$", re.MULTILINE)
@@ -73,11 +67,9 @@ def _section_after_heading(text: str, heading: str) -> str:
         return text[match.end() : match.end() + next_heading.start()]
     return text[match.end() :]
 
-
 def _split_markdown_row(row: str) -> list[str]:
     cells = row.strip().strip("|").split("|")
     return [cell.strip() for cell in cells]
-
 
 def _parse_table(section: str) -> tuple[list[str], list[dict[str, str]]]:
     rows = [line for line in section.splitlines() if line.strip().startswith("|")]
@@ -92,10 +84,8 @@ def _parse_table(section: str) -> tuple[list[str], list[dict[str, str]]]:
         data_rows.append(dict(zip(headers, cells, strict=True)))
     return headers, data_rows
 
-
 def _has_raw_input_link(cell: str) -> bool:
     return "raw-input" in cell and re.search(r"\[[^\]]+\]\([^)]+\)", cell) is not None
-
 
 def _fixture_failures(fixture: dict) -> list[str]:
     failures: list[str] = []
@@ -124,12 +114,10 @@ def _fixture_failures(fixture: dict) -> list[str]:
 
     return failures
 
-
 def _check_skill_contract(fixture: dict) -> list[str]:
     contract = fixture["skill_contract"]
     text = (REPO_ROOT / contract["path"]).read_text(encoding="utf-8")
     return _missing_terms(contract["must_cover"], _normalize(text))
-
 
 def _check_ledger(ledger: dict, allowed_statuses: list[str]) -> list[str]:
     text = (REPO_ROOT / ledger["path"]).read_text(encoding="utf-8")
@@ -168,7 +156,6 @@ def _check_ledger(ledger: dict, allowed_statuses: list[str]) -> list[str]:
 
     return failures
 
-
 def _score_fixture(fixture: dict) -> tuple[int, list[str], list[str]]:
     score = 0
     misses: list[str] = []
@@ -195,7 +182,6 @@ def _score_fixture(fixture: dict) -> tuple[int, list[str], list[str]]:
 
     return score, misses, critical_failures
 
-
 def _status(score: int, critical_failures: list[str], fixture: dict) -> str:
     if critical_failures:
         return "FAIL"
@@ -205,12 +191,10 @@ def _status(score: int, critical_failures: list[str], fixture: dict) -> str:
         return "WARN"
     return "FAIL"
 
-
 def test_forecast_discipline_fixture_integrity() -> None:
     fixture = _load_fixture()
     failures = _fixture_failures(fixture)
     assert not failures, "\n".join(failures)
-
 
 def test_forecast_discipline_contract_passes() -> None:
     fixture = _load_fixture()

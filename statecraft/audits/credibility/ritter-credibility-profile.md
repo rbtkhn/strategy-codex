@@ -1,6 +1,5 @@
 # Ritter credibility profile
 
-
 ## Summary
 
 Ritter is a mechanism-heavy escalation and war-feasibility speaker whose credibility comes from explicit causal language, operational consequence, and unusual willingness to admit direct wrongness. He is also host-sensitive: the same strengths that make him vivid can become evidentiary liabilities under hotter live-war pressure.

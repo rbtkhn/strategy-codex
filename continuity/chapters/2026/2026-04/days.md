@@ -34,7 +34,7 @@ Append-only. Newest dated block at the **bottom**.
 
 ### Foresight
 
-- **Canonical home** for the final three-sentence / diplomatic block: summary only, framework only, or both Ã¢â‚¬â€ decided next working session (see 2026-04-09 entry).
+- **Canonical home** for the final three-sentence / diplomatic block: summary only, framenon-authoritative, or both Ã¢â‚¬â€ decided next working session (see 2026-04-09 entry).
 - **Public caveat:** one line on Cannae **as battle** vs **war** outcome Ã¢â‚¬â€ yes if the graf ships to a general audience.
 
 ### Bets / watches (optional)

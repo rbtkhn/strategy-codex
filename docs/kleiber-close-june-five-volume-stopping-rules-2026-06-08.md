@@ -1,6 +1,5 @@
 # Kleiber Close - June Five-Volume Stopping Rules - 2026-06-08
 
-
 Third tranche in the daily-synthesis contract repair stack.
 
 ## Extracted Law

@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back. We have the great privilege of being joined today by Seyed Mohammad Marandi, a professor at Tehran University and also a former adviser to Iran's nuclear negotiation team. So, thank you very much for taking the time to come on today. As I understand, it's been a bit of a chaotic day. We seen over the last few days that uh well, Israel escalated its attacks on Lebanon um well, which were supposed to be in a ceasefire. Iran seemingly retaliated by striking Israel. Trump then promised that well that he would talk to Netanyahu asking him not to retaliate against Iran. Israel has appeared to ignore this if it was true to begin with as Israel has now attacked Iran and uh as a result we also see now that Yemen has announced it will shut down Israel's access to the Red Sea. Uh again, this appears to be spiraling very quickly back to what could be an all-out war, except it could be much worse or much greater this time than the 39 39-day war given that well the access to the Red Sea and other arenas of escalation could happen. So again, you are there in Tehran. I'm not I was wondering yeah can you I guess unpack what is going on because this appears to be quite uh dramatic.

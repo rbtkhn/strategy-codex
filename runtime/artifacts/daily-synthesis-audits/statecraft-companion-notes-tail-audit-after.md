@@ -1,7 +1,5 @@
 # Daily Synthesis Tail-Label Audit (After)
 
-WORK only; not Record.
-
 - family: legacy `## Statecraft Notes` tail heading
 - repair applied: mechanical rename to `## Companion Notes` across `19` migrated daily files
 - grep remainder for `## Statecraft Notes` in `statecraft/daily`: `0`

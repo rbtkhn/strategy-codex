@@ -1,7 +1,6 @@
 # Civilizational Pattern To Statecraft
 <!-- word_count: 416 -->
 
-
 Canonical hinge:
 
 > Civilizational pattern and narrative become statecraft only when converted into authority, restraint, and settlement.

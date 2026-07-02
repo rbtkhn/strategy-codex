@@ -9,14 +9,12 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture
 def cn():
     sys.path.insert(0, str(REPO_ROOT / "scripts"))
     from work_dev import compound_notes
 
     return compound_notes
-
 
 def test_derived_compound_artifact_preamble(cn) -> None:
     s = cn.derived_compound_artifact_preamble("work_dev_compound_refresh")
@@ -27,7 +25,6 @@ def test_derived_compound_artifact_preamble(cn) -> None:
     assert "artifact_kind: work_dev_compound_refresh" in s
     assert s.endswith("---\n")
     assert "artifact_kind: unknown" in cn.derived_compound_artifact_preamble("!!!")
-
 
 def test_gate_candidate_truthy(cn) -> None:
     t = cn.gate_candidate_truthy
@@ -44,7 +41,6 @@ def test_gate_candidate_truthy(cn) -> None:
     assert t("no") is False
     assert t("false") is False
 
-
 def test_parse_front_matter_minimal(cn) -> None:
     text = """---
 date: 2026-01-15
@@ -58,7 +54,6 @@ Body here.
     assert m.get("title") == "Hello"
     assert m.get("gate_candidate") is True
 
-
 def test_parse_front_matter_affected_files_list(cn) -> None:
     text = """---
 title: t
@@ -70,7 +65,6 @@ affected_files:
     m = cn.parse_front_matter(text)
     assert m.get("affected_files") == ["foo/bar.py", "baz.md"]
 
-
 def test_body_after_front_matter(cn) -> None:
     text = """---
 k: v
@@ -79,7 +73,6 @@ First line
 Second
 """
     assert cn.body_after_front_matter(text).rstrip("\n") == "First line\nSecond"
-
 
 def test_extract_h2_section(cn) -> None:
     body = """# ignore
@@ -95,7 +88,6 @@ Gone
     assert cn.extract_h2_section(body, "Reusable lesson") == "Line one"
     # Case-sensitive: no match
     assert cn.extract_h2_section(body, "reusable lesson") == ""
-
 
 def test_load_note_file_path_and_source_path(tmp_path: Path, cn) -> None:
     p = tmp_path / "note.md"
@@ -117,7 +109,6 @@ Hi
     assert d["name"] == "note.md"
     assert d["meta"].get("title") == "T"
     assert "Hi" in d["body"]
-
 
 def test_parse_note_for_export_flags_gate_candidate(tmp_path: Path, cn) -> None:
     p = tmp_path / "g.md"

@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Putin's Toughest Line In Presser; NO Kherson Zaporozhye Ceasefire Agreed; Reaffirms Moscow Demands
 
-

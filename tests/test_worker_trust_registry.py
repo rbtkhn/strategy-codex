@@ -15,7 +15,6 @@ VERIFY_SCRIPT = RUNTIME / "verify_worker_trust_registry.py"
 REGISTRY_PATH = REPO_ROOT / "platform/config" / "runtime_workers" / "worker-trust-registry.v1.json"
 SCHEMA_PATH = REPO_ROOT / "schemas" / "worker-trust-registry.v1.schema.json"
 
-
 @pytest.fixture
 def verify_module():
     pytest.importorskip("jsonschema")
@@ -24,7 +23,6 @@ def verify_module():
     import verify_worker_trust_registry as v
 
     return v
-
 
 def test_verifier_script_exits_zero_on_repo_registry() -> None:
     pytest.importorskip("jsonschema")
@@ -36,7 +34,6 @@ def test_verifier_script_exits_zero_on_repo_registry() -> None:
         check=False,
     )
     assert r.returncode == 0, r.stderr + r.stdout
-
 
 def test_policy_forbidden_in_allowed(verify_module, tmp_path: Path) -> None:
     reg = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
@@ -50,7 +47,6 @@ def test_policy_forbidden_in_allowed(verify_module, tmp_path: Path) -> None:
         skip_yaml_parity=True,
     )
     assert any("forbidden actions in allowed_actions" in e for e in errs)
-
 
 def test_policy_stage_without_gate(verify_module, tmp_path: Path) -> None:
     pytest.importorskip("jsonschema")
@@ -68,7 +64,6 @@ def test_policy_stage_without_gate(verify_module, tmp_path: Path) -> None:
         skip_yaml_parity=True,
     )
     assert any("stage_candidate requires gate_review_required" in e for e in errs)
-
 
 def test_schema_validation_failure(verify_module, tmp_path: Path) -> None:
     pytest.importorskip("jsonschema")

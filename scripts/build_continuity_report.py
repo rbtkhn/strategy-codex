@@ -22,7 +22,6 @@ OUT_MD = REPO_ROOT / "runtime" / "artifacts" / "continuity-report.md"
 
 RE_CHAPTER = re.compile(r"chapters/(\d{4}-\d{2})")
 
-
 @dataclass
 class ContinuityReport:
     generated: str
@@ -40,7 +39,6 @@ class ContinuityReport:
     compiled_views_note: str = "Compiled views and strategy-console outputs are derived only."
     next_suggested_action: str = ""
 
-
 def _chapter_months(root: Path) -> list[str]:
     months: list[str] = []
     chapters = root / "chapters"
@@ -52,14 +50,12 @@ def _chapter_months(root: Path) -> list[str]:
                 months.append(m.group(1))
     return sorted(set(months))
 
-
 def _count_prediction_rows(path: Path) -> int | None:
     if not path.is_file():
         return None
     text = path.read_text(encoding="utf-8")
     # Rough: rows with status open/pending in table
     return len(re.findall(r"\|\s*`pred-[^`]+`", text))
-
 
 def build_report(repo_root: Path) -> ContinuityReport:
     root = continuity_root(repo_root)
@@ -87,7 +83,6 @@ def build_report(repo_root: Path) -> ContinuityReport:
     else:
         report.next_suggested_action = "Continue EOD compose per OPERATING-MODE.md."
     return report
-
 
 def format_md(report: ContinuityReport) -> str:
     lines = [
@@ -119,7 +114,6 @@ def format_md(report: ContinuityReport) -> str:
         lines.append("")
     return "\n".join(lines)
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--json", action="store_true", help="Print JSON to stdout only")
@@ -147,7 +141,6 @@ def main() -> int:
         print(format_md(report))
 
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

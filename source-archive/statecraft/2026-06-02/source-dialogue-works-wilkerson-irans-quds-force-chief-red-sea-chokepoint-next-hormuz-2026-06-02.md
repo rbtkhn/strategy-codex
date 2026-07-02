@@ -38,7 +38,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today is Tuesday, June 2nd, 2026 and our dear friend Carl Wilkerson is here with us. Welcome back there. >> Good to be with you, Ne. Although it's not a good time. Things things are really falling apart. I I mean I mean that. Yeah, Larry. Yesterday there was a storm between Israel and Lebanon.

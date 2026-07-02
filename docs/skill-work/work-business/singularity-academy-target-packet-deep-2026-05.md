@@ -1,6 +1,6 @@
 # Singularity-Academy Target Packet - deep.org - 2026-05
 
-WORK only. Draft prospect wrapper, not sent communication.
+non-authoritative. Draft prospect wrapper, not sent communication.
 
 ## Why deep may be a fit
 

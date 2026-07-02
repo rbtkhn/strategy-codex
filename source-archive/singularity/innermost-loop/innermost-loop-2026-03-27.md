@@ -13,8 +13,6 @@ post_id: 192309569
 
 # The Innermost Loop - 2026-03-27
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 27, 2026
@@ -29,10 +27,7 @@ The Singularity has outwritten us.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has outwritten us. ARK Invest projects that AI written output exceeded human written output in 2025 for the first time in history. Wikipedia noticed , banning editors from writing or rewriting articles using AI, a firewall around the last encyclopedia that still requires a human to hit “publish.” The frontier keeps climbing. Anthropic leaked and then deleted an announcement of “Claude Mythos,” a new tier above Opus with dramatically higher scores in coding, reasoning, and cybersecurity. But raw power is not general intelligence, and the ARC Prize Foundation just proved it. ARC-AGI-3 launched with 135 novel game environments designed to be trivial for humans and humbling for machines, requiring exploration, hypothesis formation, and adaptive learning. The frontier models validated the design , with Gemini 3.1 Pro at 0.37%, GPT-5.4 at 0.26%, Opus 4.6 at 0.25%, and Grok 4.2 at 0%. Then Symbolica’s Agentica SDK dropped an unverified 36.08% on day one, passing 113 of 182 levels for $1,005 while Opus 4.6 spent $8,900 to achieve 0.25%, suggesting the next leap may come not from scaling weights but from rethinking the scaffolding entirely. Mirendil , a new startup led by former Anthropic researchers, is betting on exactly that, announcing “self-accelerating AI R&D” built around models that improve themselves.
+- The Singularity has outwritten us. ARK Invest projects that AI written output exceeded human written output in 2025 for the first time in history. Wikipedia noticed , banning editors from writing or rewriting articles using AI, a firewall around the last encyclopedia that still requires a human to hit “publish.” The frontier keeps climbing. Anthropic leaked and then deleted an announcement of “Claude Mythos,” a new tier above Opus with dramatically higher scores in coding, reasoning, and cybersecurity. But raw power is not general intelligence, and the ARC Prize Foundation just proved it. ARC-AGI-3 launched with 135 novel game environments designed to be trivial for humans and humbling for machines, requiring exploration, hypothesis formation, and adaptive learning. The frontier models validated the design , with Gemini 3.1 Pro at 0.37%, GPT-5.4 at 0.26%, Opus 4.6 at 0.25%, and Grok 4.2 at 0%. Then Symbolica’s Agentica SDK dropped an unverified 36.08% on day one, passing 113 of 182 levels for $1,005 while Opus 4.6 spent $8,900 to achieve 0.25%, suggesting the next leap may come not from scaling weights but from rethinking the scaffolding entirely. Mirendil , a new startup led by former Anthropic researchers, is betting on exactly that, announcing “self-accelerating AI R&D” built around models that improve themselves.
 
 The model wars are becoming a platform land grab. Google released Gemini 3.1 Flash Live , a voice model tuned for fluid, low-latency conversation, while simultaneously launching tools that let Gemini users upload chat history from rival apps, treating your ChatGPT logs as migration bait, and expanding Search Live globally to over 200 countries. Apple reportedly negotiated complete access to Gemini’s weights in its own data centers, with distillation rights for on-device models, and plans to open Siri to outside AI assistants in iOS 27, letting users route queries to Google, Anthropic, or anyone installed from the App Store. Apple’s walled garden is becoming a bazaar. OpenAI surpassed $100 million in annualized ad revenue just six weeks after its pilot launched, proving that attention is still the base currency even in the age of intelligence, but shelved its “adult mode” indefinitely after staff and investor pushback, drawing a line where monetization meets societal risk.
 

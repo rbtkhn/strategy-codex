@@ -18,7 +18,6 @@ synced_by: sync_portable_skills.py
 ---
 # CIV-STATE
 
-
 **Activation:** `civ-state` · `statecraft civ-state` *(legacy alias)*
 
 `civ-state` is the exact command door for CIV-STATE as an analysis-and-retrieval bench.
@@ -238,7 +237,6 @@ Do not call this complete unless:
 `civ-state` does not replace deploy routing, lane skills, daily synthesis, transaction drafting, or explicit volume-authoring.
 
 It is the upstream CIV-STATE command surface: frame, retrieve, promote, review — through the public book corpus first.
-
 
 ## Cursor / strategy-codex instance
 

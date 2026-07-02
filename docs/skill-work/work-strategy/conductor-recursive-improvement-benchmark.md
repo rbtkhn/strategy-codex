@@ -1,6 +1,5 @@
 # Conductor recursive-improvement benchmark
 
-
 **Purpose:** Quantify whether the combination of named **conductor stances** and the **four-movement arc** is increasing Strategy-codex's recursive self-improvement power over time.
 
 This benchmark does **not** measure geopolitical truth. It measures whether conductor passes are improving the repo's ability to improve its own **judgment machinery**, **method surfaces**, and **durable re-entry paths**.

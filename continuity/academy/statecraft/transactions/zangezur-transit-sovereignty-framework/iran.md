@@ -1,7 +1,6 @@
 # Iran - Zangezur Transit / Sovereignty Framework
 <!-- word_count: 397 -->
 
-
 ## Transaction Name
 
 Zangezur sovereignty firewall.

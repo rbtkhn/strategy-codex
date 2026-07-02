@@ -17,7 +17,6 @@ from voice_runtime_config import (  # noqa: E402
     emotion_mapping_config_from_avatar,
 )
 
-
 def test_parse_defaults_empty_block() -> None:
     s = parse_voice_avatar_block(None)
     assert s.voice_stack_enabled is False
@@ -25,7 +24,6 @@ def test_parse_defaults_empty_block() -> None:
     assert s.avatar.type == "none"
     assert s.avatar.enabled is False
     assert s.stt.provider == "deepgram"
-
 
 def test_parse_legacy_flat_avatar_no_nested_key() -> None:
     s = parse_voice_avatar_block(
@@ -42,7 +40,6 @@ def test_parse_legacy_flat_avatar_no_nested_key() -> None:
     assert s.avatar.model_path == "/models/x"
     assert s.avatar.renderer_url == "http://r"
 
-
 def test_nested_avatar_disabled_overrides_type() -> None:
     s = parse_voice_avatar_block(
         {
@@ -52,7 +49,6 @@ def test_nested_avatar_disabled_overrides_type() -> None:
     )
     assert s.avatar.type == "live2d"
     assert s.avatar.enabled is False
-
 
 def test_nested_avatar_empty_dict_ignores_legacy_type() -> None:
     s = parse_voice_avatar_block(
@@ -65,11 +61,9 @@ def test_nested_avatar_empty_dict_ignores_legacy_type() -> None:
     assert s.avatar.type == "none"
     assert s.avatar.enabled is False
 
-
 def test_latency_mode_invalid_falls_back_balanced() -> None:
     s = parse_voice_avatar_block({"latency_mode": "nope"})
     assert s.latency_mode == "balanced"
-
 
 def test_merge_critique_balanced_unchanged() -> None:
     cc = {"trigger_threshold": 0.78, "long_response_chars": 800}
@@ -77,20 +71,17 @@ def test_merge_critique_balanced_unchanged() -> None:
     assert out == cc
     assert out is not cc
 
-
 def test_merge_critique_governed_stricter() -> None:
     cc = {"trigger_threshold": 0.78, "long_response_chars": 800}
     out = merge_critique_for_latency_mode(cc, "governed")
     assert out["trigger_threshold"] >= 0.92
     assert out["long_response_chars"] <= 600
 
-
 def test_merge_critique_ultra_low_relaxed() -> None:
     cc = {"trigger_threshold": 0.78, "long_response_chars": 800}
     out = merge_critique_for_latency_mode(cc, "ultra_low")
     assert out["trigger_threshold"] <= 0.45
     assert out["long_response_chars"] >= 2400
-
 
 def test_emotion_mapping_from_named_keys() -> None:
     from voice_runtime_config import AvatarNestedSettings

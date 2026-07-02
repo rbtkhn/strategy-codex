@@ -48,10 +48,6 @@ US military historian Michael Vlahos, in a long essay — America is a Religion 
 
 “Since its founding, the United States has pursued, with burning religious fervour, a higher calling to redeem humanity, punish the wicked, and christen a golden millennium on earth. America has steadfastly hewed to its unique vision of divine mission as “God’s New Israel”.
 
-
-
-
-
 Of course, American ‘Civil Religion’ is inextricably linked with the Reformation, Calvinist Christianity, and Protestantism. “Although its scriptural reading became secular in the Progressive era, the American religion still remained tethered to its formative roots”, Vlahos argues.
 
 “Hence, America is not only “messianic” in character — as in, “possessed by passion and zeal” — but manifests an implicitly biblical vision proclaiming its faith in the predestined nature of its passage. A “chosen nation” divinely elected to act in the name of Providence as the world’s Redeemer”.
@@ -71,5 +67,4 @@ Consequently, writes Vlahos, American messianism slid into “a Manichaean caric
 Today, the US is experiencing deep polarisation at home, whilst still pursuing conflicts overseas whose aims US leaders try to connect to the redemptive narratives coined for service in the domestic struggle (i.e. validating the ‘Peace through Strength‘ meme) via the war on Iran. The US establishment thus links ‘victory’ in a foreign war as the means to restore its political standing domestically and internationally. Michael Vlahos calls this duality “a mutually destructive dynamic”.
 
 It virtually assures that Washington will not be able to think straight about Iran, and will opt for the wrong tactics.
-
 

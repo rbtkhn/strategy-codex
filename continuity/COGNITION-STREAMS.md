@@ -1,7 +1,6 @@
 # Polyphonic Cognition Streams
 <!-- word_count: 800 -->
 
-
 ## Purpose
 
 Strategy-codex is scaffolded around **polyphonic cognition streams**: durable interpretive voices that can receive daily inputs, preserve source provenance, and be compared contrapuntally without forcing synthesis.

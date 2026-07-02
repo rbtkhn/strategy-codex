@@ -13,13 +13,11 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 pytest.importorskip("jsonschema")
 pytest.importorskip("yaml")
 
-
 @pytest.fixture(autouse=True)
 def _scripts_on_path() -> None:
     p = str(REPO_ROOT / "scripts")
     if p not in sys.path:
         sys.path.insert(0, p)
-
 
 def _minimal_manifest() -> dict:
     return {
@@ -41,7 +39,6 @@ def _minimal_manifest() -> dict:
         },
         "operator": {"intended_use": "Unit-test harness manifest admission gates."},
     }
-
 
 def test_infer_github_readonly_mapping() -> None:
     import mcp_manifest_admission as mma
@@ -68,7 +65,6 @@ def test_infer_github_readonly_mapping() -> None:
     assert mid == "github_readonly"
     assert "scm" in reason.lower() or "github" in reason.lower()
 
-
 def test_infer_shell_maps_shell_execution_prohibited() -> None:
     import mcp_manifest_admission as mma
 
@@ -77,7 +73,6 @@ def test_infer_shell_maps_shell_execution_prohibited() -> None:
 
     mid, _ = mma.infer_matched_capability_id(manifest)
     assert mid == "shell_execution_prohibited"
-
 
 def test_infer_memory_maps_memory_external() -> None:
     import mcp_manifest_admission as mma
@@ -88,7 +83,6 @@ def test_infer_memory_maps_memory_external() -> None:
     mid, _ = mma.infer_matched_capability_id(manifest)
     assert mid == "memory_external_prohibited_by_default"
 
-
 def test_merge_tokens_in_allowed_blocked_locally() -> None:
     import mcp_manifest_admission as mma
 
@@ -97,7 +91,6 @@ def test_merge_tokens_in_allowed_blocked_locally() -> None:
 
     reasons = mma.admission_local_blockers(manifest)
     assert any("merge_to_main" in r for r in reasons)
-
 
 def test_users_grace_mar_path_blocked_locally() -> None:
     import mcp_manifest_admission as mma
@@ -108,7 +101,6 @@ def test_users_grace_mar_path_blocked_locally() -> None:
     reasons = mma.admission_local_blockers(manifest)
     assert any("users_grace_mar" in r for r in reasons)
 
-
 def test_database_mutating_verbs_blocked_locally() -> None:
     import mcp_manifest_admission as mma
 
@@ -117,7 +109,6 @@ def test_database_mutating_verbs_blocked_locally() -> None:
 
     reasons = mma.admission_local_blockers(manifest)
     assert any("database_mutating" in r for r in reasons)
-
 
 def test_validate_manifest_paths_rejects_dotdot() -> None:
     import mcp_manifest_admission as mma
@@ -145,7 +136,6 @@ def test_validate_manifest_paths_rejects_dotdot() -> None:
     with pytest.raises(ValueError, match=r"\.\."):
         mma.validate_manifest_paths(doc)
 
-
 def test_infer_needs_manual_classification() -> None:
     import mcp_manifest_admission as mma
 
@@ -154,7 +144,6 @@ def test_infer_needs_manual_classification() -> None:
 
     mid, _ = mma.infer_matched_capability_id(manifest)
     assert mid == mma.NEEDS_MANUAL
-
 
 def test_requested_output_lane_widening_blocked(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     import yaml
@@ -203,7 +192,6 @@ def test_requested_output_lane_widening_blocked(monkeypatch: pytest.MonkeyPatch,
     body = out.read_text(encoding="utf-8")
     assert "requested_output_lane_exceeds_matched_capability_lane" in body
 
-
 def test_github_readonly_example_packet_success(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     import mcp_manifest_admission as mma
 
@@ -247,7 +235,6 @@ def test_github_readonly_example_packet_success(monkeypatch: pytest.MonkeyPatch,
     assert len(receipts) == 1
     receipt = json.loads(receipts[0].read_text(encoding="utf-8"))
     assert receipt["result"]["status"] == "success"
-
 
 def test_example_yaml_optional_cli_smoke() -> None:
     """Runs admission against repo example manifest into repo artifacts bucket."""

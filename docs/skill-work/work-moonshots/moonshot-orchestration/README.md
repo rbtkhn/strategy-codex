@@ -26,7 +26,7 @@ Moonshot Orchestration is a **WORK-layer module** for converting high-variance *
 
 ## Default operating path
 
-1. Capture moonshot **signal** (inbox, note, or link â€” WORK only).  
+1. Capture moonshot **signal** (inbox, note, or link â€” non-authoritative).  
 2. **Classify** source tier (see [moonshot-source-policy.md](moonshot-source-policy.md)).  
 3. Create or update a **Moonshot Contribution Map** ([moonshot-map-template.md](moonshot-map-template.md)).  
 4. Run **boundary** check ([moonshot-boundary.md](moonshot-boundary.md)).  

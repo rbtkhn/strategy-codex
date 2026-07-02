@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 We are getting closer and closer to that ever elusive signing day for this memorandum of understanding between the United States and Iran set for Friday in Switzerland I believe is where it said or Geneva I'm sorry set for Geneva. Will we get there though? That's one of my biggest concerns that see there's a lot of headwinds against this which we've been talking about.

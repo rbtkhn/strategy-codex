@@ -15,4 +15,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Putin New Demand As Kiev Collapses: NATO Expansion Must Be Reversed; EU In Panic; Argues Over Envoy
 
-

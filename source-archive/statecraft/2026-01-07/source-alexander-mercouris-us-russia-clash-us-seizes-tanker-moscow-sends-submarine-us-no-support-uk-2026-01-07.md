@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # US Russia Clash; US Seizes Tanker; Moscow Sends Submarine; US NO Support UK/EU Troops Ukraine Plan
 
-

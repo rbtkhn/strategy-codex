@@ -1,7 +1,6 @@
 # Mearsheimer refined page — 2026-04-10 (guest lane)
 <!-- word_count: ~420 -->
 
-
 **Expert:** `mearsheimer` · **Interviewer (show):** Glenn Diesen (Greater Eurasia) · **Published:** 2026-04-10 · **Capture:** two-expert YT (Diesen) — *World Changed Forever as Iran Defeated the U.S.* · **Artifact:** refined page — **guest lane** (structural realism / U.S. grand strategy). Sibling **host** **lane:** [diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md](../diesen/diesen-page-2026-04-10-diesen-mearsheimer-world-changed-forever-2026-04-10.md).
 
 ---

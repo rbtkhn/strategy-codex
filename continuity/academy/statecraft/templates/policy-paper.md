@@ -1,7 +1,6 @@
 # Policy Paper Template
 <!-- word_count: 276 -->
 
-
 Use this template for policy papers, decision memoranda, sanctions designs, war-powers analysis, sovereignty arguments, and institutional recommendations.
 
 ## Title

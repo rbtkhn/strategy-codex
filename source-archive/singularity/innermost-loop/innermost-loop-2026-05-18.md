@@ -13,8 +13,6 @@ post_id: 198345671
 
 # The Innermost Loop - 2026-05-18
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 18, 2026
@@ -29,10 +27,7 @@ The Singularity is learning to audit its own mind.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is learning to audit its own mind. Microsoft’s Nando de Freitas reports that “One line of code is all it takes to prevent LLM agent delusions,” by masking an agent’s past actions from its history so it stops mistaking hallucinations for memory. Better agents need better tools, and SpaceXAI launched Grok Build, an early-beta coding agent and CLI for software engineering. The frontier is no longer reliably American, as Chinese groups including ByteDance and Kuaishou have apparently overtaken the US in video generation, training on short-form libraries that advertising, ecommerce, and entertainment devour.
+- The Singularity is learning to audit its own mind. Microsoft’s Nando de Freitas reports that “One line of code is all it takes to prevent LLM agent delusions,” by masking an agent’s past actions from its history so it stops mistaking hallucinations for memory. Better agents need better tools, and SpaceXAI launched Grok Build, an early-beta coding agent and CLI for software engineering. The frontier is no longer reliably American, as Chinese groups including ByteDance and Kuaishou have apparently overtaken the US in video generation, training on short-form libraries that advertising, ecommerce, and entertainment devour.
 
 Cheap intelligence also means cheap noise. Bug bounty programs are drowning in AI-generated vulnerability reports, with Bugcrowd, whose clients include OpenAI and T-Mobile, seeing submissions quadruple in three weeks. Linus Torvalds concurs, calling the Linux kernel’s security mailing list “almost entirely unmanageable” under duplicate AI reports. Aimed with intent, that firepower is priceless, and Anthropic will brief the Financial Stability Board and central banks on real vulnerabilities its Mythos Preview model found in the global financial system.
 

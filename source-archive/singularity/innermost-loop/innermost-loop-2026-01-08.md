@@ -13,8 +13,6 @@ post_id: 183933206
 
 # The Innermost Loop - 2026-01-08
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 8, 2026
@@ -29,10 +27,7 @@ The marginal cost of intelligence is trending toward zero.
 
 ## Newsletter Text
 
--
--
-
-The marginal cost of intelligence is trending toward zero. NanoGPT Speedrun training times have collapsed yet again to a new world record of 109.2 seconds thanks to a novel attention mechanism that enables queries to retrieve two values per target position instead of one. This collapse in the cost of intelligence is beginning to infect the physical sciences. Math, Inc. has partnered with Terry Tao to autoformalize an entire web of estimates in analytic number theory , while a Brookhaven physicist used OpenAI’s o3-mini-high model to exactly solve the q=3 case of the 1-D J1-J2 q-state Potts model , signaling that AI has begun closing open problems in physics.
+- The marginal cost of intelligence is trending toward zero. NanoGPT Speedrun training times have collapsed yet again to a new world record of 109.2 seconds thanks to a novel attention mechanism that enables queries to retrieve two values per target position instead of one. This collapse in the cost of intelligence is beginning to infect the physical sciences. Math, Inc. has partnered with Terry Tao to autoformalize an entire web of estimates in analytic number theory , while a Brookhaven physicist used OpenAI’s o3-mini-high model to exactly solve the q=3 case of the 1-D J1-J2 q-state Potts model , signaling that AI has begun closing open problems in physics.
 
 The economics of orbit are being rewritten. Mach33 analysis finds that manufacturing 10,000 Starships per year renders orbital compute cheaper than terrestrial data center builds ($300M transport versus $14B land acquisition), turns massive orbital construction into a simple logistics problem, and drops point-to-point earth transport to $1,000/ticket , rivaling business class. ARK Invest concurs, predicting SpaceX will cross the orbital computing cost-efficiency threshold by 2030 , requiring 100 launches a day. As a prelude to the Dyson Swarm, orbit is becoming a political command center. Reza Pahlavi is actively coordinating an attempted regime change in Iran from low Earth orbit via hundreds of thousands of Starlink terminals.
 

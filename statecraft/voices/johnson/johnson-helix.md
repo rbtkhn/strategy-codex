@@ -1,6 +1,5 @@
 # Johnson helix
 
-
 Purpose: compact cross-host note for reading the recurring Johnson lanes together.
 
 ## Core Claim

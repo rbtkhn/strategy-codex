@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back to the program. We are joined today by Seyed Muhammad Marandi, a professor at Tehran University and also uh former adviser to Iran's nuclear negotiation team. So uh thank you for coming back on. Uh I think most of the world now is looking at uh what is happening in uh in this deal or what looks like a deal between Iran and the United States.

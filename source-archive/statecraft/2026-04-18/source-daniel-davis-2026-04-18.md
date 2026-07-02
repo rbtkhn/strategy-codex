@@ -16,18 +16,3 @@ source_path: docs/skill-work/work-strategy/strategy-notebook/experts/davis/trans
 - X | cold: @tparsi **repost** — **Joe Kent** embeds **Trump** **Truth Social**: **B-2** nuclear-material terms; **no** money exchange; **Lebanon** / **Hezbollah** seam separate; **Israel** **prohibited** from bombing **Lebanon** by **U.S.**; Kent adds deal may hold if **Trump** enforces **Israel** restrictions and limits **U.S.** military aid // hook: **Parsi** signal-boost — **cross** `thread:davis` same-day Trump TS embed; keep **dual-register** with §1f pool triage | https://x.com/joekent16jan19 | verify:Truth-Social-primary+Kent-status-URL | thread:parsi
 - batch-analysis | 2026-04-17 | **Barnes × Johnson (YT) — US politics room × Iran week** | **Tension-first:** **`thread:barnes`** **long-form** **domestic-liability** **+** **White** **House** **process** **(C-plane** **hypothesis)** **—** **not** **§1e** **text** **and** **not** **Pentagon** **primary.** **Same** **calendar** **day** **as** **Hormuz** **/** **Islamabad** **expert** **stack** **—** **cross** **`thread:davis`**, **`thread:johnson`** **(Davis** **×** **Johnson** **earlier** **YT),** **`thread:ritter`** **with** **explicit** **plane** **tags** **(room** **vs** **ORBAT** **vs** **FM).** **Falsifiers:** **named** **official** **statements,** **vote** **counts,** **Navy** **press,** **TS** **screenshots.** | crosses:barnes+johnson
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

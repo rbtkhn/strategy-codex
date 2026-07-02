@@ -1,6 +1,6 @@
 # Singularity-Academy Top 3 Execution Bundle - 2026-05-23
 
-WORK only. This is an operator send bundle, not proof of demand.
+non-authoritative. This is an operator send bundle, not proof of demand.
 
 ## Purpose
 

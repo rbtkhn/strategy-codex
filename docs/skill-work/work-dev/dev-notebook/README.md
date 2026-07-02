@@ -4,7 +4,7 @@
 
 **Contract — read before adding files**
 
-This folder is **not** a second **strategy-notebook** or **cici-notebook**. **Day-scale, fold-at-dream surfaces** (days.md, `daily-*-inbox`, chapter threads) stay in their home territories. Here we only keep **reusable text** (paste-ready prompts, migration specs, “how we implemented X” references) and the **inward work-dev journal** (dev journal (`docs/skill-work/work-dev/dev-notebook/work-dev/journal/`)). **No secrets** in prose — env var names and paths only. **WORK only**; not Record, not Voice knowledge.
+This folder is **not** a second **strategy-notebook** or **cici-notebook**. **Day-scale, fold-at-dream surfaces** (days.md, `daily-*-inbox`, chapter threads) stay in their home territories. Here we only keep **reusable text** (paste-ready prompts, migration specs, “how we implemented X” references) and the **inward work-dev journal** (dev journal (`docs/skill-work/work-dev/dev-notebook/work-dev/journal/`)). **No secrets** in prose — env var names and paths only. , not Voice knowledge.
 
 | Lane subfolder | Holds | Does **not** replace |
 |----------------|-------|----------------------|
@@ -60,8 +60,8 @@ dev-notebook/
 | [work-dev/HISTORY-ANCHORS.md](work-dev/HISTORY-ANCHORS.md) | work-dev milestones from [work-dev-history.md](../work-dev-history.md). |
 | [work-dev/constitutional-recursive-improvement-2026-04-24.md](work-dev/constitutional-recursive-improvement-2026-04-24.md) | Architecture / positioning note: Grace-Mar's distinctive structure is **constitutional recursive improvement** under memory boundaries. |
 | **Conductor (work-dev)** | § [Conductor (work-dev)](#conductor-work-dev) above — [conductor skill](../../../../.cursor/skills/conductor/SKILL.md) ↔ journal / workspace landing. |
-| [work-dev/identity-fork-protocol-ifp-2026-04-24.md](work-dev/identity-fork-protocol-ifp-2026-04-24.md) | **Identity Fork Protocol (IFP)** — structured spec + comparisons (WORK only; not Record). |
-| [work-dev/ifp-vs-clawsouls-technical-comparison-2026-04-24.md](work-dev/ifp-vs-clawsouls-technical-comparison-2026-04-24.md) | **IFP vs. ClawSouls** — technical axis comparison (ecosystem research; WORK only). |
+| [work-dev/identity-fork-protocol-ifp-2026-04-24.md](work-dev/identity-fork-protocol-ifp-2026-04-24.md) | **Identity Fork Protocol (IFP)** — structured spec + comparisons (non-authoritative). |
+| [work-dev/ifp-vs-clawsouls-technical-comparison-2026-04-24.md](work-dev/ifp-vs-clawsouls-technical-comparison-2026-04-24.md) | **IFP vs. ClawSouls** — technical axis comparison (ecosystem research). |
 | [work-dev/journal/README.md](work-dev/journal/README.md) | Inward work-dev **day** learning log. |
 | [work-cici/README.md](work-cici/README.md) | work-cici subfolder: contract, handoff pointers, links into [work-cici/](../../work-cici/INDEX.md). |
 | [work-cici/UPSTREAM-MAP.md](work-cici/UPSTREAM-MAP.md) | Cici GitHub `main` path table (prompts, governed-state, `.claude/`, scripts) + regen recipe. |

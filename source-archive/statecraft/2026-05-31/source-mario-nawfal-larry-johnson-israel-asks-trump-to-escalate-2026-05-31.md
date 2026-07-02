@@ -32,7 +32,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Charlie Kirk Thread — TPUSA Break, August Pressure, Operational Doubts
 
 Larry. Did you hear the part I talked about TPUSA? >> Yeah. So, the Charlie Kirk there there's let's call it circumstantial evidence that points to an Israeli hand in his murder and it is Candace Owens has been doing a very good job of investigating it while the US government has you know as Joe Kent testified to after leaving >> Yeah.

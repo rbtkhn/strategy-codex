@@ -13,8 +13,6 @@ post_id: 192850313
 
 # The Innermost Loop - 2026-04-01
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 1, 2026
@@ -29,10 +27,7 @@ The Singularity is leaking.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is leaking. Anthropic’s Claude Code, a ~512,000-line TypeScript codebase, has leaked to the world , and third-party forensics reveal a delightfully paranoid architecture: anti-distillation features that inject decoy tool definitions to poison copycats, an undercover mode that hides internal codenames, and a retro regex-based sentiment analyzer to detect user frustration. Naturally, the leaked repo was immediately flooded with thousands of GitHub issues in Mandarin by Chinese AI agents promoting themselves, turning Anthropic’s most guarded codebase into the world’s most sophisticated billboard.
+- The Singularity is leaking. Anthropic’s Claude Code, a ~512,000-line TypeScript codebase, has leaked to the world , and third-party forensics reveal a delightfully paranoid architecture: anti-distillation features that inject decoy tool definitions to poison copycats, an undercover mode that hides internal codenames, and a retro regex-based sentiment analyzer to detect user frustration. Naturally, the leaked repo was immediately flooded with thousands of GitHub issues in Mandarin by Chinese AI agents promoting themselves, turning Anthropic’s most guarded codebase into the world’s most sophisticated billboard.
 
 The models are shrinking to the point of absurdity. PrismML released 1-bit Bonsai 8B , calling it the first commercially viable single-bit model, requiring only 1.15GB of memory while matching full-precision 8B models on benchmarks, delivering over 10x the intelligence density for robotics and edge computing. Meta researchers pushed compression further with TinyLoRA , training Qwen2.5 8B to 91% accuracy on GSM8K with just 13 parameters in bf16, 26 bytes total, an important step toward an optimally compact reasoning model. The cost curve is compressing too. Google introduced Veo 3.1 Lite , its most cost-effective video model, at less than half the cost of Veo 3.1 Fast with the same speed. The frontier of mathematical proof continues to fall. OpenAI researchers solved three further Erdős problems using an internal model, each proof short and elegant, confirming that conjecture-busting is now a routine deployment. To see where all this leads, Feltsense announced it rebuilt every startup in Y Combinator’s latest demo day batch using agents alone, producing fully usable products, suggesting the seed-stage economy may soon fit inside a single inference call.
 

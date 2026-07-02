@@ -12,7 +12,6 @@ if str(SCRIPTS) not in sys.path:
 
 import audit_context_tax as act  # noqa: E402
 
-
 def test_build_context_tax_report_has_blocks() -> None:
     r = act.build_context_tax_report(user_id="grace-mar")
     assert r["user_id"] == "grace-mar"

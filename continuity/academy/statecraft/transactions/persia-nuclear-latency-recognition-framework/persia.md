@@ -1,7 +1,6 @@
 # Iran - Iran Nuclear Latency Recognition Framework
 <!-- word_count: 545 -->
 
-
 ## Transaction Name
 
 Dignity-preserving latency restraint.

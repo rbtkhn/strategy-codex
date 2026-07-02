@@ -38,7 +38,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 We have breaking news. According to the Central Command and now starting to be many other media outlets, the United States has once again attacked Iranian territory. According to the Central Command, uh the forces began launching self-defense strikes against Iran at 5:00 p.m. Eastern time today at the commander-in-chief's direction in response to yesterday's downing of a US Army Apache helicopter.

@@ -13,8 +13,6 @@ post_id: 182976418
 
 # The Innermost Loop - 2025-12-30
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 30, 2025
@@ -29,10 +27,7 @@ The service economy is facing an AI margin call.
 
 ## Newsletter Text
 
--
--
-
-The service economy is facing an AI margin call. Meta has effectively acquired Manus for reportedly over $2 billion , apparently valuing the startup’s ability to automate complex remote work at roughly $1 billion per percentage point of the Remote Labor Index (RLI) . The RLI, a Scale AI benchmark comprising real-world, economically valuable projects across multiple sectors, saw Manus hit a SOTA 2.5%, edging out Groq 4 (2.1%) and GPT-5 (1.7%). With the market apparently pricing total remote labor automation at an outrageously low $80 billion, on margin, technological deflation is in the air.
+- The service economy is facing an AI margin call. Meta has effectively acquired Manus for reportedly over $2 billion , apparently valuing the startup’s ability to automate complex remote work at roughly $1 billion per percentage point of the Remote Labor Index (RLI) . The RLI, a Scale AI benchmark comprising real-world, economically valuable projects across multiple sectors, saw Manus hit a SOTA 2.5%, edging out Groq 4 (2.1%) and GPT-5 (1.7%). With the market apparently pricing total remote labor automation at an outrageously low $80 billion, on margin, technological deflation is in the air.
 
 The architecture of cognition is finding new gears. Stanford researchers achieved a breakthrough in continual learning via test-time training , allowing models to learn from next-token prediction with constant latency regardless of context length. Optimization is fractal. The NanoGPT speedrun record dropped, yet again, to 115.1 seconds . New Asian frontier labs are coming online every day. SK Telecom launched South Korea’s first 500B model, “A.X K1,” establishing a “sovereign AI foundation.” Meanwhile, corporate adoption is becoming mandatory. Notion is building custom employee agents , and Microsoft is literally paying customers to train staff on Copilot .
 

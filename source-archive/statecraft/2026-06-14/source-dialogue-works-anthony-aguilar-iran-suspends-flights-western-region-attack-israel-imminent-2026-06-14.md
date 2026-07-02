@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Sunday, June 14, 2026 and our dear friend, our brother Anthony Aguilar is here with us. Welcome back Tony. >> Thank you. It's a pleasure to be here as always and thanks for having me on. >> Tony, I want to start with what the madness of today. What has happened? You remember last time Israel attacked Beirut in Dah again.

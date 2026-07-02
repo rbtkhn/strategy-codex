@@ -13,8 +13,6 @@ post_id: 183789174
 
 # The Innermost Loop - 2026-01-07
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 7, 2026
@@ -29,10 +27,7 @@ The “AI Dream” has been realized years ahead of schedule.
 
 ## Newsletter Text
 
--
--
-
-The “AI Dream” has been realized years ahead of schedule. Engineers are now concluding that Opus 4.5 in Claude Code “is AGI,” a sentiment echoed by the collapse of unsolved mathematics. Mathematician Bartosz Naskrecki reports that GPT-5.2 Pro has become so proficient that he “can hardly find any non-trivial hard problem” it cannot solve in two hours, declaring “the Singularity is near.” This is not hyperbole. GPT-5.2 and Harmonic’s Aristotle have autonomously resolved Erdos problem #728 before any human, marking the moment where mathematical discovery becomes an automated background process.
+- The “AI Dream” has been realized years ahead of schedule. Engineers are now concluding that Opus 4.5 in Claude Code “is AGI,” a sentiment echoed by the collapse of unsolved mathematics. Mathematician Bartosz Naskrecki reports that GPT-5.2 Pro has become so proficient that he “can hardly find any non-trivial hard problem” it cannot solve in two hours, declaring “the Singularity is near.” This is not hyperbole. GPT-5.2 and Harmonic’s Aristotle have autonomously resolved Erdos problem #728 before any human, marking the moment where mathematical discovery becomes an automated background process.
 
 Prediction is becoming a verifiable compute primitive. The new OpenForecaster 8B model is making SOTA predictions on open-ended questions , competitive with proprietary giants by treating post-training events as the “future” it must predict. Strategic thinking is being debugged in public. Vercel is hosting live chess matches between frontier models , bringing reinforcement learning full circle. Meanwhile, xAI has confirmed Grok 5 is currently in training .
 

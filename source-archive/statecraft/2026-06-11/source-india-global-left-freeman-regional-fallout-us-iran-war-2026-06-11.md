@@ -58,7 +58,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 let me welcome our guest tonight, Ambassador Chess Freeman.

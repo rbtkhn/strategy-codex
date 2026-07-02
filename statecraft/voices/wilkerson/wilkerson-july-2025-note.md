@@ -1,6 +1,5 @@
 # Wilkerson July 2025 note
 
-
 Purpose: preserve what July 2025 currently means on the Wilkerson shelf without pretending the month is denser than the repo can honestly support.
 
 ## Core claim

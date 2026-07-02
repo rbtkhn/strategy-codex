@@ -14,7 +14,6 @@ import pytest
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
-
 # ---------------------------------------------------------------------------
 # Fixtures
 # ---------------------------------------------------------------------------
@@ -46,7 +45,6 @@ def notebook(tmp_path: Path) -> Path:
         """)
         (d / "thread.md").write_text(thread_content, encoding="utf-8")
     return nb
-
 
 @pytest.fixture()
 def notebook_with_pages(notebook: Path) -> Path:
@@ -91,7 +89,6 @@ def notebook_with_pages(notebook: Path) -> Path:
 
     return notebook
 
-
 # ---------------------------------------------------------------------------
 # expert_paths
 # ---------------------------------------------------------------------------
@@ -104,7 +101,6 @@ class TestExpertPaths:
         assert paths["transcript"] == notebook / "experts" / "pape" / "transcript.md"
         assert paths["thread"] == notebook / "experts" / "pape" / "thread.md"
         assert paths["mind"] == notebook / "experts" / "pape" / "mind.md"
-
 
 # ---------------------------------------------------------------------------
 # Page reader
@@ -218,7 +214,6 @@ class TestPageReader:
         assert dups[0].date == "2026-01-10"
         assert "from-monthly" in dups[0].content
 
-
 # ---------------------------------------------------------------------------
 # Page composition (strategy_page.py)
 # ---------------------------------------------------------------------------
@@ -294,7 +289,6 @@ class TestPageComposer:
         text = tp.read_text(encoding="utf-8")
         assert 'id="monthly-page"' in text
 
-
 # ---------------------------------------------------------------------------
 # Weave analysis
 # ---------------------------------------------------------------------------
@@ -327,7 +321,6 @@ class TestWeave:
         from strategy_weave import _gather_pages
         pages = _gather_pages([], ["hormuz"], notebook_with_pages)
         assert len(pages) >= 2
-
 
 # ---------------------------------------------------------------------------
 # Watch tool
@@ -394,7 +387,6 @@ class TestWatch:
         md = format_watches_markdown([])
         assert "No watches found" in md
 
-
 # ---------------------------------------------------------------------------
 # Migration
 # ---------------------------------------------------------------------------
@@ -438,7 +430,6 @@ class TestMigration:
         assert (nb / "experts" / "davis" / "profile.md").is_file()
         assert (nb / "experts" / "davis" / "thread.md").is_file()
         assert not (nb / "strategy-expert-davis.md").exists()
-
 
 # ---------------------------------------------------------------------------
 # Thread update (page candidate suggestion)

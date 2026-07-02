@@ -1,7 +1,6 @@
 
 # Wilkerson Source Index (compat redirect)
 
-
 Compatibility pointer only.
 
 The canonical exhaustive Wilkerson corpus route map lives at **[wilkerson-index.md](wilkerson-index.md)** — month-grouped archive links, host-arc pointers, audit receipt.

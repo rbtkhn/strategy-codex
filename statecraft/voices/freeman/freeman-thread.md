@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `freeman`
 <!-- word_count: 7222 -->
 
-
 Compatibility note: this file is legacy continuity residue. It is safe for carryover context, but unsafe as a first-open citation surface when the canonical Freeman stack now lives under [statecraft/voices/freeman/](README.md) and already routes through the person arc, routing note, bounded month ladder, helix, support spine, and raw-input bench.
 
 ## Orthogonality guide
@@ -44,7 +43,6 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 
 January carries **no dated** `thread:` line for Freeman in this notebook snapshot; the lane is **career-diplomat material / alliance framing** separate from papal moral registers Ã¢â‚¬â€ per roster. Hubs are routing anchors only.
 
-
 When historical expert context artifacts exist for `freeman` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-01 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
 
 Cross-lane convergence and tension are notebook-native concepts. For 2026-01, read Ãƒâ€” parsi, Ãƒâ€” mercouris, Ãƒâ€” [rome-persia-legitimacy-signal-check.md](../../../continuity/rome-persia-legitimacy-signal-check.md) (seam, not merge) as the default **short list** of other experts whose fingerprints commonly collide with `freeman` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
@@ -62,7 +60,6 @@ The 2026-01 segment for the Charles (Ã¢â‚¬Å“ChasÃ¢â‚¬Â) Freema
 ## 2026-02
 
 February shows **no indexed Q1 primary** in-repo; pair with **`parsi`** / **`mercouris`** only via **labeled** **`batch-analysis`** when diplomacy weeks overlap.
-
 
 Open pins belong in prose, not only as bullets. For this `freeman` month segment, explicitly reserve space for **what remains unresolved**: which claims await transcript confirmation, which geopolitical sub-claims depend on translation or primary document access, and which institutional facts are stable enough to reuse in weave scaffolding. That habit keeps later strategy passes from mistaking silence for certainty.
 
@@ -84,7 +81,6 @@ Segment discipline here follows the strategy-notebook contract: Segment 1 is hum
 
 March remains **scope-only** until transcript rows land; **April** IslamabadÃ¢â‚¬â€œHormuz weave Pages may reference Freeman beside Davis/Mearsheimer scaffolds.
 
-
 Cross-lane convergence and tension are notebook-native concepts. For 2026-03, read Ãƒâ€” parsi, Ãƒâ€” mercouris, Ãƒâ€” [rome-persia-legitimacy-signal-check.md](../../../continuity/rome-persia-legitimacy-signal-check.md) (seam, not merge) as the default **short list** of other experts whose fingerprints commonly collide with `freeman` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
 
 The `freeman` laneÃ¢â‚¬â„¢s role (Retired career diplomat: inconclusive talks, alliance and material framing (Islamabad as diplomacy-while-war); separate plane from papal moral register) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃ¢â‚¬â„¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
@@ -96,7 +92,6 @@ Segment discipline here follows the strategy-notebook contract: Segment 1 is hum
 Finally, 2026-03 should remain safe for **operator rotation**: someone returning after weeks should be able to read this segment and recover **lane orientation** (role: Retired career diplomat: inconclusive talks, alliance and material framing (Islamabad as diplomacy-while-war); separate plane from papal moral register), **pairing map** (Ãƒâ€” parsi, Ãƒâ€” mercouris, Ãƒâ€” [rome-persia-legitimacy-signal-check.md](../../../continuity/rome-persia-legitimacy-signal-check.md) (seam, not merge)), and **next verification moves** without loading the entire quarter. That recoverability is why the minimum prose budget existsÃ¢â‚¬â€not to pad, but to force a minimum coherent account of what this month was for in the notebook.
 
 Typical pairings on file for `freeman` emphasize contrast surfaces: Ãƒâ€” parsi, Ãƒâ€” mercouris, Ãƒâ€” [rome-persia-legitimacy-signal-check.md](../../../continuity/rome-persia-legitimacy-signal-check.md) (seam, not merge). In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-03 segment should be read as **mesh navigation**Ã¢â‚¬â€which lanes to pull into the same batch passÃ¢â‚¬â€rather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
-
 
 Cross-lane convergence and tension are notebook-native concepts. For 2026-03, read Ãƒâ€” parsi, Ãƒâ€” mercouris, Ãƒâ€” [rome-persia-legitimacy-signal-check.md](../../../continuity/rome-persia-legitimacy-signal-check.md) (seam, not merge) as the default **short list** of other experts whose fingerprints commonly collide with `freeman` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
 
@@ -124,7 +119,6 @@ The `freeman` laneÃ¢â‚¬â„¢s role (Retired career diplomat: inconclusiv
 
 - **2026-03** Ã¢â‚¬â€ No dated notebook ingest Ã¢â‚¬â€ example long-form (verify before cite).
   _Source:_ web: `https://www.youtube.com/watch?v=o7RQ_ue6iY0`
-
 
 ### 2026-04
 

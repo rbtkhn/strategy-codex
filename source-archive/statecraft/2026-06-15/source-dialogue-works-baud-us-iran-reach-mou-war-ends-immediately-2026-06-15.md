@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Monday, June 15, 2026 and our dear friend, our brother Colonel Joshu is here with us. Welcome back home. >> Thank you very much for having me again. Happy to be back. I you know what has happened last night was it was just everything was exploding before our eyes in terms of the talks in terms of the Iranian reaction we had Israeli attack on Lebanon then Iran said they're going to attack Israel the same way the first time they attacked Da I'm talking about Beirut and Da then the United States did everything they started with

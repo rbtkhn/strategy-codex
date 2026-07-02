@@ -1,6 +1,6 @@
 # Furtwangler Close - Unresolved Worktree Tensions
 
-WORK only. Not Record. Artifact-first conductor close.
+non-authoritative. Not Record. Artifact-first conductor close.
 
 ## Object
 

@@ -13,8 +13,6 @@ post_id: 190933976
 
 # The Innermost Loop - 2026-03-14
 
-WORK only; not Record.
-
 ## Source
 
 - Title: A Conversation with Mustafa Suleyman
@@ -29,10 +27,7 @@ Mustafa Suleyman is the CEO of Microsoft AI. The following are excerpts from our
 
 ## Newsletter Text
 
--
--
-
-Mustafa Suleyman is the CEO of Microsoft AI . The following are excerpts from our recent conversation , recorded on December 5, 2025, which have been lightly edited for clarity.
+- Mustafa Suleyman is the CEO of Microsoft AI . The following are excerpts from our recent conversation , recorded on December 5, 2025, which have been lightly edited for clarity.
 
 On the Modern Turing Test
 

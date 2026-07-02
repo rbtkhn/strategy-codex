@@ -44,7 +44,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Saturday, June 13, 2026, and our dear friend, our brother, Professor Marandi, is here with us. Welcome back. >> Hi, Nima. Thank you very much for inviting me. It's always a great honor being on your show. I wouldn't start with what's going on between Iran and the United States because yesterday we had some sort of reports from the Iranian media.

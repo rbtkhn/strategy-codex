@@ -17,20 +17,17 @@ from prediction.epistemic_core import (  # noqa: E402
     process_claim,
 )
 
-
 def _registry() -> dict:
     return {
         "evt_a": {"question": "Will A happen?", "falsifier": "falsifier a", "status": "open"},
         "evt_b": {"question": "Will B happen?", "falsifier": "falsifier b", "status": "open"},
     }
 
-
 def _terms_index() -> dict:
     return {
         "evt_a": ["alpha", "capitulation"],
         "evt_b": ["beta", "tariff"],
     }
-
 
 def test_classify_regime_escalation() -> None:
     regime = classify_regime(
@@ -40,7 +37,6 @@ def test_classify_regime_escalation() -> None:
     )
     assert regime["label"] == "escalation"
 
-
 def test_classify_regime_fragmentation() -> None:
     regime = classify_regime(
         {"directional": 0.4, "volatility": 0.3, "drift": 0.02},
@@ -48,7 +44,6 @@ def test_classify_regime_fragmentation() -> None:
         1.5,
     )
     assert regime["label"] == "fragmentation"
-
 
 def test_macgregor_volatility_dampening() -> None:
     trajectories = [
@@ -87,14 +82,12 @@ def test_macgregor_volatility_dampening() -> None:
     assert high_ent["volatility"] <= low_ent["volatility"]
     assert high_ent["volatility"] < low_ent["volatility"]
 
-
 def test_partition_claims_matched() -> None:
     claims = [{"voice": "freeman", "event_id": "evt_a", "claim": "alpha"}]
     matched, unmatched, audit = partition_claims(claims, _registry())
     assert len(matched) == 1
     assert len(unmatched) == 0
     assert audit["stats"]["matched_count"] == 1
-
 
 def test_process_claim_includes_capture_map_event_id() -> None:
     claims = infer_probabilities(

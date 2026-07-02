@@ -13,8 +13,6 @@ post_id: 188794199
 
 # The Innermost Loop - 2026-02-22
 
-WORK only; not Record.
-
 ## Source
 
 - Title: A Conversation with Ben Horowitz
@@ -29,10 +27,7 @@ Ben Horowitz is the cofounder of Andreessen Horowitz (a16z), which recently beca
 
 ## Newsletter Text
 
--
--
-
-Ben Horowitz is the cofounder of Andreessen Horowitz (a16z) , which recently became the largest American venture capital firm by assets under management . Below are excerpts from our recent conversation , recorded on February 13, 2026, which have been lightly edited for clarity.
+- Ben Horowitz is the cofounder of Andreessen Horowitz (a16z) , which recently became the largest American venture capital firm by assets under management . Below are excerpts from our recent conversation , recorded on February 13, 2026, which have been lightly edited for clarity.
 
 On Government Classification of AI, Math, and Physics
 

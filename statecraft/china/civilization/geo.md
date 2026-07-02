@@ -1,6 +1,5 @@
 # China Geo
 
-
 ## Purpose
 
 Use Chinese geography as a statecraft arc-lens for river systems, hydraulic order, North China Plain, Yellow/Yangtze axes, Grand Canal logistics, coastal ports, Taiwan Strait, South/East China Seas, food/water/energy security, and flood/drought disorder.

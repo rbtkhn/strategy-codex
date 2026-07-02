@@ -1,6 +1,5 @@
 # Freeman shelf - 2026-03
 
-
 Status: mature retrieval month.
 
 March is the first clearly mature Freeman war-system month across hosts.

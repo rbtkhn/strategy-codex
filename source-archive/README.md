@@ -1,7 +1,5 @@
 # Source Archive
 
-WORK only; not Record.
-
 This is the repo-root canonical **source-truth** layer shared by the live top-level systems.
 
 It exists partly to stop namespace relapse: new source work should not be framed through legacy `strategy-notebook`, `raw-input`, or `codex` ownership assumptions when the live consumers are repo-root `statecraft/` and `singularity/`.

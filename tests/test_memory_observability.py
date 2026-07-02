@@ -5,9 +5,7 @@ from pathlib import Path
 
 from scripts import build_memory_observability as mbo
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
-
 
 def test_parse_cadence_event_timestamps_for_user_only():
     text = "\n".join(
@@ -25,13 +23,11 @@ def test_parse_cadence_event_timestamps_for_user_only():
         "2026-05-01T00:10:00+00:00",
     ]
 
-
 def test_classify_age_thresholds():
     assert mbo._classify_age(None, ok_h=24, watch_h=72) == "missing"
     assert mbo._classify_age(23.9, ok_h=24, watch_h=72) == "ok"
     assert mbo._classify_age(48, ok_h=24, watch_h=72) == "watch"
     assert mbo._classify_age(73, ok_h=24, watch_h=72) == "stale"
-
 
 def test_render_markdown_has_exactly_one_recommended_next_action():
     now = datetime(2026, 5, 1, tzinfo=timezone.utc)
@@ -83,7 +79,6 @@ def test_render_markdown_has_exactly_one_recommended_next_action():
     assert "## Continuity surface summary" in md
     assert "`missing`" in md
 
-
 def test_observability_one_liner_is_compact():
     report = {
         "overall_status": "missing",
@@ -93,7 +88,6 @@ def test_observability_one_liner_is_compact():
     line = mbo.format_observability_one_liner(report)
 
     assert line == "Memory observability: missing - Refresh the night handoff."
-
 
 def test_json_report_contains_expected_top_level_keys():
     now = datetime(2026, 5, 1, tzinfo=timezone.utc)
@@ -109,7 +103,6 @@ def test_json_report_contains_expected_top_level_keys():
     }
     assert set(report["surfaces"]) == {"cadence", "last_dream", "night_handoff", "bridge_state"}
 
-
 def test_coffee_and_dream_wiring_is_one_line_and_non_blocking():
     coffee_script = (REPO_ROOT / "scripts" / "operator_coffee.py").read_text(encoding="utf-8")
     dream_script = (REPO_ROOT / "scripts" / "auto_dream.py").read_text(encoding="utf-8")
@@ -124,7 +117,6 @@ def test_coffee_and_dream_wiring_is_one_line_and_non_blocking():
     assert "Do not paste the full dashboard into coffee" in coffee_skill
     assert "Do not paste the full dashboard into dream" in dream_skill
 
-
 def test_strategy_codex_last_dream_uses_runtime_daily_handoff():
     last_dream = REPO_ROOT / "runtime" / "daily-handoff" / "last-dream.json"
     if not last_dream.is_file():
@@ -134,7 +126,6 @@ def test_strategy_codex_last_dream_uses_runtime_daily_handoff():
     assert surface["status"] == "ok"
     assert surface["path"] == "runtime/daily-handoff/last-dream.json"
     assert surface["detail"] == "ok=True"
-
 
 def test_night_handoff_write_path_matches_canonical_daily_handoff():
     from scripts.repo_io import night_handoff_write_path

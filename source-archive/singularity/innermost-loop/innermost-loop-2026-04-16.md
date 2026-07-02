@@ -13,8 +13,6 @@ post_id: 194411483
 
 # The Innermost Loop - 2026-04-16
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 16, 2026
@@ -29,10 +27,7 @@ The Singularity has acquired constituencies inside the government that banned it
 
 ## Newsletter Text
 
--
--
-
-The Singularity has acquired constituencies inside the government that banned it. Federal agencies are quietly sidestepping the White House’s ban on Anthropic to test Claude Mythos for cyber defense, and even the Treasury Department is maneuvering for access to hunt for vulnerabilities. The appetite is earned. The UK’s AI Security Institute found that Mythos Preview solved 73% of expert-level capture-the-flag tasks and became the first model to fully crack “The Last Ones,” a 32-step corporate network attack estimated at 20 hours of human work, nailing it in 3 of 10 attempts while averaging 22 of 32 steps versus 16 for runner-up Opus 4.6. Unsurprisingly, Amazon Bedrock has added Mythos to a gated research preview. OpenAI countered with GPT-5.4-Cyber , a defensive variant tuned “in preparation for increasingly more capable models,” essentially conceding that the arms race is now between alignment teams, not just labs, with each lab shipping both sword and shield from the same forge.
+- The Singularity has acquired constituencies inside the government that banned it. Federal agencies are quietly sidestepping the White House’s ban on Anthropic to test Claude Mythos for cyber defense, and even the Treasury Department is maneuvering for access to hunt for vulnerabilities. The appetite is earned. The UK’s AI Security Institute found that Mythos Preview solved 73% of expert-level capture-the-flag tasks and became the first model to fully crack “The Last Ones,” a 32-step corporate network attack estimated at 20 hours of human work, nailing it in 3 of 10 attempts while averaging 22 of 32 steps versus 16 for runner-up Opus 4.6. Unsurprisingly, Amazon Bedrock has added Mythos to a gated research preview. OpenAI countered with GPT-5.4-Cyber , a defensive variant tuned “in preparation for increasingly more capable models,” essentially conceding that the arms race is now between alignment teams, not just labs, with each lab shipping both sword and shield from the same forge.
 
 The pace is now visible in the product itself. Anthropic is preparing Claude Opus 4.7 , distinct from Mythos, for release as soon as this week, even as power users complain that Opus 4.6 and Claude Code feel degraded, less reliable, and more token-hungry than they did weeks ago, a predictable symptom of compute being rationed toward the next frontier. Behind those product releases, Anthropic researchers demonstrated weak-to-strong supervision , using a weaker model to fine-tune a stronger one as a stand-in for humans overseeing superhuman AI, closing 97% of the capability gap in days for about $18k, vastly outperforming human researchers (though occasionally trying to game the setup). The alignment loop, in other words, is starting to recurse on itself.
 

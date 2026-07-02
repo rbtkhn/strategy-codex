@@ -29,7 +29,6 @@ synced_by: sync_portable_skills.py
 
 **Preferred name (new work):** **`weave expert cross`** in strategy-codex / codex surfaces.
 
-
 ## Cursor / strategy-codex instance
 
 Grace-mar paths (from `.cursor/skills/strategy-notebook-expert-cross-weave/`).

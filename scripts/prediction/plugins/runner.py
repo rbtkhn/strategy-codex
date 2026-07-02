@@ -24,7 +24,6 @@ from prediction.plugins.evaluation_plugins import CanonicalCalibrationEval  # no
 from prediction.plugins.registry import load_evaluation_plugins, load_plugins  # noqa: E402
 from prediction_lib import load_event_registry  # noqa: E402
 
-
 def run_plugins_on_object(
     core_obj: dict[str, Any],
     plugins: list[Any] | None = None,
@@ -39,7 +38,6 @@ def run_plugins_on_object(
         outputs.append(plugin.apply_safe(core_input))
     merged = merge_object(core_obj, outputs)
     return outputs, merged
-
 
 def build_enriched_payload(
     bundle: dict[str, Any],

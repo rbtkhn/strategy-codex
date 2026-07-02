@@ -13,8 +13,6 @@ post_id: 185844696
 
 # The Innermost Loop - 2026-01-26
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 26, 2026
@@ -29,10 +27,7 @@ The Singularity is revealing its mathematical skeleton.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is revealing its mathematical skeleton. Epoch AI finds that models excelling at math benchmarks also dominate coding and reasoning, pointing to a unified capability substrate, with cross-domain correlation (68%) nearly matching within-domain correlation (79%). AI-for-math startup Math, Inc. has distilled this insight into a battle cry: “Solve math, solve everything.” Even Fields Medalist Terry Tao is starting to wonder if next-word prediction is “actually a lot of what humans do,” suggesting intelligence may be simpler than we imagined. The frontier is being systematically catalogued. A new “UnsolvedMath” dataset has curated over 1,000 open problems spanning Hilbert’s 23 to the Millennium Prize, from tractable to transcendent. GPT 5.2 with Extended Thinking currently dominates the leaderboard “by a lot.”
+- The Singularity is revealing its mathematical skeleton. Epoch AI finds that models excelling at math benchmarks also dominate coding and reasoning, pointing to a unified capability substrate, with cross-domain correlation (68%) nearly matching within-domain correlation (79%). AI-for-math startup Math, Inc. has distilled this insight into a battle cry: “Solve math, solve everything.” Even Fields Medalist Terry Tao is starting to wonder if next-word prediction is “actually a lot of what humans do,” suggesting intelligence may be simpler than we imagined. The frontier is being systematically catalogued. A new “UnsolvedMath” dataset has curated over 1,000 open problems spanning Hilbert’s 23 to the Millennium Prize, from tractable to transcendent. GPT 5.2 with Extended Thinking currently dominates the leaderboard “by a lot.”
 
 The economic rationality of machines is being benchmarked. EconBench finds GPT-5 has the highest economic rationality while Sonnet 4.5 is the most prosocial. This prosociality apparently extends to portfolio management. Rallies AI gave eight models $100k each to trade freely since November, and Claude Sonnet 4.5 is beating all competitors and the S&P 500, returning 8.7% versus the index’s 1.9%.
 

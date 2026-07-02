@@ -1,7 +1,5 @@
 # Moonshots EP #265 — SpaceX IPO, Export Control, RSI
 
-WORK only; not Record.
-
 **Status:** workshop sheet — archive wired; verify table contested until primary cites. Statecraft export-control seam → crossover note only.
 
 ## Source
@@ -113,7 +111,7 @@ Default tier: **contested / panel-only** until primary source or wire-verify upg
 
 ## Operator MTP (strategy-codex)
 
-WORK only; not Record. Not SpaceX panel copy.
+Not SpaceX panel copy.
 
 **Layer 0 — one sentence:** Keep human judgment sovereign over accelerating machine interpretation — by routing every serious claim through verbatim source truth, typed artifact authority, and falsifiable synthesis, so interpretation compounds into accountable judgment instead of disposable output.
 

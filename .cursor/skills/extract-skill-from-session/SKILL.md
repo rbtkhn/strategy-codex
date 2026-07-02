@@ -99,7 +99,6 @@ If verification cannot be completed:
 - state missing context
 - offer **maybe** with pointer-only row instead of full skill
 
-
 ## Cursor / strategy-codex instance
 
 # strategy-codex host appendix — extract-skill-from-session

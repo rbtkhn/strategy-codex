@@ -9,7 +9,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture()
 def vp_mod():
     path = REPO_ROOT / "scripts" / "work_jiang" / "validate_patterns_registry.py"
@@ -18,7 +17,6 @@ def vp_mod():
     assert spec.loader is not None
     spec.loader.exec_module(mod)
     return mod
-
 
 def test_validate_recurrence_exceeds_total_cases(vp_mod):
     patterns = [
@@ -44,7 +42,6 @@ def test_validate_recurrence_exceeds_total_cases(vp_mod):
     errors, _ = vp_mod.validate_patterns(patterns, {"jiang-GS01-001"})
     assert any("cannot exceed total_cases" in e for e in errors)
 
-
 def test_validate_signatures_exceed_total(vp_mod):
     patterns = [
         {
@@ -61,7 +58,6 @@ def test_validate_signatures_exceed_total(vp_mod):
     ]
     errors, _ = vp_mod.validate_patterns(patterns, set())
     assert any("signatures_matched" in e and "total_cases" in e for e in errors)
-
 
 def test_validate_dependency_unknown(vp_mod):
     patterns = [

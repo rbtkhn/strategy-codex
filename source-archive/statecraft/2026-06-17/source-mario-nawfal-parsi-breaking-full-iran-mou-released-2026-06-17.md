@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 I was uh joking with um Mark Dubowitz from the FDD about the MOU. I asked him the question. I'm like, "Did the um did do you think the Israelis have seen the MOU?" He's like, "I I would be surprised." Like, "Why didn't they see the MOU?" And he implied that he believes they saw it. So then I I started laughing and I joked.

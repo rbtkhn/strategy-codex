@@ -1,4 +1,3 @@
-WORK only; not Record.
 
 # check-streams thin-month speaker queue - 2025
 

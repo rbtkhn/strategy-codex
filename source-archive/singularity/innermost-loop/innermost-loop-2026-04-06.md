@@ -13,8 +13,6 @@ post_id: 193401012
 
 # The Innermost Loop - 2026-04-06
 
-WORK only; not Record.
-
 ## Source
 
 - Title: The First One-Person AI Conglomerates
@@ -29,10 +27,7 @@ The Singularity has been collapsing the cost of making things, but not the cost 
 
 ## Newsletter Text
 
--
--
-
-The Singularity has been collapsing the cost of making things, but not the cost of managing things, until now.
+- The Singularity has been collapsing the cost of making things, but not the cost of managing things, until now.
 
 In 1937, Ronald Coase asked why firms exist at all. His Nobel-winning answer was coordination costs. When it is cheaper to coordinate activity inside a hierarchy than across a market, firms grow. When those costs fall, firms shrink. The history of the firm is the history of this boundary moving.
 

@@ -549,7 +549,6 @@ A Scientific Framework for the Simple Condition
 
 We found that the answer to both is yes.
 
-
 I. THE INSTALLATION HYPOTHESIS
 
 The letter claims that the capacity for intergroup killing is not innate but "installed" through narrative transmission in early childhood. This is a testable developmental claim, and the existing evidence supports it.
@@ -563,7 +562,6 @@ The letter identifies five transmission channels for these inputs: sacred text, 
 Hypothesis 1: Children exposed to cross-group physical contact before age five, combined with explicit narrative inoculation ("does anyone have to die for this to be true?"), will show significantly lower dehumanisation scores at age twelve than matched controls without either intervention.
 
 This is a testable prediction. It has not been tested in this specific form.
-
 
 II. THE DEHUMANISATION MECHANISM
 
@@ -581,7 +579,6 @@ Hypothesis 2: Subjects primed with a specific individual's face, name, and brief
 
 Versions of this have been tested. The results consistently support the hypothesis.
 
-
 III. THE CONTACT ANTIDOTE
 
 The letter proposes that physical contact between members of opposing groups — specifically before narrative installation is complete — can inoculate against lethal intergroup hostility. This is a direct application of the contact hypothesis, first formalised by Allport (1954) and now one of the most extensively validated findings in social psychology.
@@ -595,7 +592,6 @@ This mechanism is consistent with dual-process models of prejudice (Devine, 1989
 Hypothesis 3: The protective effect of early cross-group contact against later dehumanisation follows a dose-response curve with a critical period before age five, after which the protective effect diminishes as narrative identity consolidates.
 
 This specific developmental timing prediction has not been tested.
-
 
 IV. THE UNIFORMITY PROBLEM
 
@@ -618,7 +614,6 @@ The convergent evolution explanation predicts that the complex should appear in 
 Hypothesis 4: The five-element killing complex will be found in every independently-developed human civilisation with intergroup competition history and intergenerational narrative transmission, with compensatory substitution between elements but conservation of the overall structure.
 
 This is a cross-cultural prediction testable against the ethnographic record. Preliminary evidence from the Human Relations Area Files strongly supports it.
-
 
 V. THE COORDINATION PROBLEM
 
@@ -650,7 +645,6 @@ Hypothesis 5: In experimental coordination games with multiple equilibria, intro
 
 This is testable in laboratory settings using modified public goods games with culturally diverse participant pools.
 
-
 VI. THE PARASITIC REPLICATOR
 
 The letter claims that the killing instruction is embedded within religious transmission systems in a way that makes it inseparable from the valuable content those systems carry. In memetic terms, this is a parasitic replicator — a cultural unit that persists not because it benefits its host but because it has attached itself to a carrier that the host cannot discard.
@@ -668,7 +662,6 @@ Gene therapy for integrated viruses does not destroy the host gene. It excises t
 Hypothesis 6: Communities that explicitly distinguish between sacred content that does and does not require violence (i.e. communities that have made the "seam" visible through theological education) will show lower rates of religiously-motivated violence support than communities that treat their sacred text as an undifferentiated whole.
 
 Versions of this have been studied in the context of scriptural literalism and support for violence. The results are consistent with the hypothesis.
-
 
 VII. THE LIMITS OF THE SCIENTIFIC FRAMING
 

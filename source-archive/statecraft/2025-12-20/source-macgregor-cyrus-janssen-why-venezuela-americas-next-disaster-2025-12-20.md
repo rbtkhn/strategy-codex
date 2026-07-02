@@ -28,7 +28,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Cold Open — Coup Logic and Oil Blockade Montage
 
 I think we're trying to stage a coup. We're trying with the help of CIA mercenaries and agents along with domestic malcontents, people that don't like Maduro, about 20% of the population, with their help trying to stage a coup that could then bring in Mrs. Mashado as the preferred puppet in Karacus.

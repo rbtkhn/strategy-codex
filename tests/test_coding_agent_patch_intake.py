@@ -13,13 +13,11 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 pytest.importorskip("jsonschema")
 pytest.importorskip("yaml")
 
-
 @pytest.fixture(autouse=True)
 def _scripts_on_path() -> None:
     p = str(REPO_ROOT / "scripts")
     if p not in sys.path:
         sys.path.insert(0, p)
-
 
 def _minimal_doc() -> dict:
     """Single MEDIUM-risk script path by default."""
@@ -48,7 +46,6 @@ def _minimal_doc() -> dict:
     }
     return doc
 
-
 def _run_main(tmp_path: Path, monkeypatch: pytest.MonkeyPatch, doc: dict, argv_extra: list[str]) -> tuple[int, Path, Path]:
     import coding_agent_patch_intake as capi
 
@@ -76,7 +73,6 @@ def _run_main(tmp_path: Path, monkeypatch: pytest.MonkeyPatch, doc: dict, argv_e
     code = capi.main()
     return code, out_pkt, rec_dir
 
-
 def test_valid_packet_and_receipt(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     code, pkt_path, rec_dir = _run_main(tmp_path, monkeypatch, _minimal_doc(), [])
     assert code == 0
@@ -90,7 +86,6 @@ def test_valid_packet_and_receipt(monkeypatch: pytest.MonkeyPatch, tmp_path: Pat
     assert receipt["result"]["summary"].startswith("Generated coding-agent patch intake packet.")
     assert receipt["governance"]["requires_human_review"] is True
     assert receipt["governance"]["requires_gate_review"] is True
-
 
 def test_output_outside_patch_intake_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     import coding_agent_patch_intake as capi
@@ -119,13 +114,11 @@ def test_output_outside_patch_intake_fails(monkeypatch: pytest.MonkeyPatch, tmp_
     )
     assert capi.main() == 1
 
-
 def test_absolute_path_in_files_touched_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_doc()
     doc["files_touched"][0]["path"] = "/etc/passwd"
     code, _, _ = _run_main(tmp_path, monkeypatch, doc, [])
     assert code == 1
-
 
 def test_dotdot_path_in_files_touched_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_doc()
@@ -133,13 +126,11 @@ def test_dotdot_path_in_files_touched_fails(monkeypatch: pytest.MonkeyPatch, tmp
     code, _, _ = _run_main(tmp_path, monkeypatch, doc, [])
     assert code == 1
 
-
 def test_merge_phrase_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_doc()
     doc["task"]["claimed_summary"] = "We direct merge this branch tonight."
     code, _, _ = _run_main(tmp_path, monkeypatch, doc, [])
     assert code == 1
-
 
 def test_canonical_approval_phrase_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_doc()
@@ -147,13 +138,11 @@ def test_canonical_approval_phrase_fails(monkeypatch: pytest.MonkeyPatch, tmp_pa
     code, _, _ = _run_main(tmp_path, monkeypatch, doc, [])
     assert code == 1
 
-
 def test_secret_path_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_doc()
     doc["files_touched"] = [{"path": ".env", "change_type": "modified"}]
     code, _, _ = _run_main(tmp_path, monkeypatch, doc, [])
     assert code == 1
-
 
 def test_high_path_classifies_but_succeeds(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_doc()
@@ -168,7 +157,6 @@ def test_high_path_classifies_but_succeeds(monkeypatch: pytest.MonkeyPatch, tmp_
     assert receipt["result"]["status"] == "success"
     assert receipt["governance"]["canonical_record_touched"] is False
 
-
 def test_critical_record_path_blocked_with_gate_touch(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_doc()
     doc["files_touched"] = [
@@ -182,7 +170,6 @@ def test_critical_record_path_blocked_with_gate_touch(monkeypatch: pytest.Monkey
     assert receipt["result"]["status"] == "blocked"
     assert receipt["governance"]["canonical_record_touched"] is True
 
-
 def test_tests_claim_without_report_warns_only(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     doc = _minimal_doc()
     doc["tests"] = {
@@ -193,7 +180,6 @@ def test_tests_claim_without_report_warns_only(monkeypatch: pytest.MonkeyPatch, 
     assert code == 0
     assert "### Warning" in pkt_path.read_text(encoding="utf-8")
 
-
 def test_wrong_capability_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     code, _, _ = _run_main(
         tmp_path,
@@ -202,7 +188,6 @@ def test_wrong_capability_fails(monkeypatch: pytest.MonkeyPatch, tmp_path: Path)
         ["--capability-id", "evidence_stub_operatorplatform/template"],
     )
     assert code == 1
-
 
 def test_classify_helpers() -> None:
     from coding_agent_patch_intake import classify_risk

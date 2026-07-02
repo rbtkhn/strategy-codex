@@ -13,8 +13,6 @@ post_id: 187290084
 
 # The Innermost Loop - 2026-02-08
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 8, 2026
@@ -29,10 +27,7 @@ The bootstrap phase of the Singularity is complete.
 
 ## Newsletter Text
 
--
--
-
-The bootstrap phase of the Singularity is complete. Anthropic’s Chief Product Officer confirms that “effectively 100%” of Anthropic product code is now written by Claude . OpenAI has reduced its model release cycle from 97 days to 29 days , a 3x acceleration in cadence. DeepMind is using AlphaEvolve to discover new nonlinear activation functions like “Turbulent,” which outperforms RELU by 3x, showing yet again that AI is now better at designing AI than humans are. Meanwhile, xAI’s latest Grok-Imagine-Image model has expanded the Pareto frontier in image generation benchmarks. OpenAI’s Noam Brown predicts that by year-end, autonomy horizons will be so unbounded that measuring them will become the main challenge .
+- The bootstrap phase of the Singularity is complete. Anthropic’s Chief Product Officer confirms that “effectively 100%” of Anthropic product code is now written by Claude . OpenAI has reduced its model release cycle from 97 days to 29 days , a 3x acceleration in cadence. DeepMind is using AlphaEvolve to discover new nonlinear activation functions like “Turbulent,” which outperforms RELU by 3x, showing yet again that AI is now better at designing AI than humans are. Meanwhile, xAI’s latest Grok-Imagine-Image model has expanded the Pareto frontier in image generation benchmarks. OpenAI’s Noam Brown predicts that by year-end, autonomy horizons will be so unbounded that measuring them will become the main challenge .
 
 The agentic economy is becoming a physical aesthetic. Because “every powerful little crustacean needs a proper shell,” companies have started selling kawaii enclosures for Mac minis to host OpenClaw agents. One user reports his agents “work for me 24/7... do not eat... do not complain.” Another group of six OpenClaw agents is running a company autonomously via cron jobs that get them to “show up for work” every day. We are even starting to wear them on our bodies. VisionClaw turns Ray-Ban smart glasses into a JARVIS-style agent .
 

@@ -1,6 +1,5 @@
 # Statecraft Russia
 
-
 ## Where This Sits
 
 This is Part 3 of the Russia CIV-STATE volume. It is the present-tense synthesis layer where Russian civilizational regathering and imperial depth logic become a live diplomatic read of restoration, encirclement, symbolic activation, and overreach risk.

@@ -1,7 +1,5 @@
 # May 2026 Control-Plane Compression
 
-WORK only; not Record.
-
 **Anchor item:** [Innermost Loop Synthesis - May 2026](../synthesis/2026-05.md)  
 **Companion source-hygiene note:** [may-2026-control-plane-compression-source-hygiene.md](./may-2026-control-plane-compression-source-hygiene.md)  
 **Narrow promoted companion:** [Compute as Political Currency and Control-Plane Substrate](./compute-political-currency-control-plane-substrate.md)

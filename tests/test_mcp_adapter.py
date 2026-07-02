@@ -23,7 +23,6 @@ from mcp_adapter import (  # noqa: E402
     retrieve_export,
 )
 
-
 # ── health ──────────────────────────────────────────────────────────────
 
 def test_health_returns_ok():
@@ -32,12 +31,10 @@ def test_health_returns_ok():
     assert result["adapter"] == "grace-mar-mcp"
     assert result["read_only"] is True
 
-
 def test_health_lists_supported_classes():
     result = health()
     for cls in SUPPORTED_CLASSES:
         assert cls in result["supported_classes"]
-
 
 # ── list_export_classes ─────────────────────────────────────────────────
 
@@ -47,19 +44,16 @@ def test_list_classes_includes_supported():
         assert cls in result["supported"]
         assert result["supported"][cls]["operational"] is True
 
-
 def test_list_classes_includes_capability_as_supported():
     result = list_export_classes()
     assert "capability" in result["supported"]
     assert result["supported"]["capability"]["operational"] is True
-
 
 def test_list_classes_includes_unsupported():
     result = list_export_classes()
     assert "internal" in result["unsupported"]
     assert result["unsupported"]["internal"]["operational"] is False
     assert result["unsupported"]["internal"]["description"]
-
 
 # ── retrieve_export — successful paths ──────────────────────────────────
 
@@ -71,7 +65,6 @@ def test_retrieve_tool_bootstrap():
     assert isinstance(result["content"], str)
     assert len(result["content"]) > 0
     assert result["generated_via"] == "export_prp"
-
 
 def test_retrieve_full():
     result = retrieve_export(user_id="grace-mar", export_class="full")
@@ -86,7 +79,6 @@ def test_retrieve_full():
     assert isinstance(content["bundle_files"], list)
     assert result["generated_via"] == "export_runtime_bundle"
 
-
 def test_retrieve_task_limited():
     result = retrieve_export(user_id="grace-mar", export_class="task_limited")
     assert "error" not in result
@@ -94,7 +86,6 @@ def test_retrieve_task_limited():
     assert result["content_type"] == "application/json"
     assert isinstance(result["content"], dict)
     assert result["generated_via"] == "export_fork"
-
 
 # ── retrieve_export — rejection paths ───────────────────────────────────
 
@@ -106,7 +97,6 @@ def test_retrieve_capability():
     assert isinstance(result["content"], dict)
     assert result["generated_via"] == "export_capability"
 
-
 def test_retrieve_emulation():
     result = retrieve_export(user_id="grace-mar", export_class="emulation")
     assert "error" not in result
@@ -115,20 +105,17 @@ def test_retrieve_emulation():
     assert isinstance(result["content"], dict)
     assert result["generated_via"] == "export_emulation_bundle"
 
-
 def test_internal_class_not_exposed():
     result = retrieve_export(user_id="grace-mar", export_class="internal")
     assert "error" in result
     assert "not exportable" in result["error"]
     assert "supported_classes" in result
 
-
 def test_unknown_class_rejects():
     result = retrieve_export(user_id="grace-mar", export_class="nonexistent_class")
     assert "error" in result
     assert "unknown" in result["error"]
     assert "supported_classes" in result
-
 
 # ── response shape invariants ───────────────────────────────────────────
 

@@ -1,6 +1,5 @@
 # Marandi Raw-Input Index
 
-
 Compatibility pointer only.
 
 The canonical Marandi source route map now lives at [marandi-source-index.md](marandi-source-index.md).

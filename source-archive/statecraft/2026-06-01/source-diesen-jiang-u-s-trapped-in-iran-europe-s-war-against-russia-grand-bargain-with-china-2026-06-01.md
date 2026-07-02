@@ -33,7 +33,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back. We have the pleasure of being joined today again by Jang Shu Chin who has taken the internet by storm with this excellent analysis. So, thank you very much for coming back on the program. >> Thanks, L. >> So, uh we see that the rapid shifts in the international distribution of power tend to be extremely disruptive and destabilizing.

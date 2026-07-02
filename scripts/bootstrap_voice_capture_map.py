@@ -13,7 +13,6 @@ if str(_SCRIPTS) not in sys.path:
 
 from voice_prediction_pilot import get_voice_config, validate_curated_capture_map  # noqa: E402
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument(
@@ -51,7 +50,6 @@ def main() -> int:
         return 1
     print(f"[ok] {config.speaker} capture map valid ({row_count} rows)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

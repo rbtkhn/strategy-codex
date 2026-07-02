@@ -12,7 +12,6 @@ archive_links:
   - source-archive/statecraft/2026-06-26/source-dialogue-works-robert-barnes-iran-drones-ship-without-state-approval-2026-06-26.md
 ---
 
-
 # Formal Sovereignty Vs Internal Carriage
 
 ## Purpose

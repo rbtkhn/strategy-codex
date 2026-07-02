@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Today is Monday, June 22nd, 2026. Professor Jeffrey Sachs joins us now. Professor Sachs, as always, it's a pleasure and I I know you're traveling and you're on the other side of the world. So, an extra thanks for sharing this time with us. Is the straight of Hormuz open? >> Uh, I'm not sure because I haven't checked in the last five minutes, but I think it is uh going to be open in the coming days.

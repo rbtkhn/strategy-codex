@@ -14,8 +14,6 @@ membrane: single
 
 *Cleaned transcript. Embedded sponsor reads were removed; interview content was preserved and lightly corrected for readability.*
 
-
-
 **Tucker Carlson:** John, thanks for doing this.
 
 **John Kiriakou:** Thanks for the invitation.

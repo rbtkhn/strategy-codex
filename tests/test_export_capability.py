@@ -20,7 +20,6 @@ from export_capability import (  # noqa: E402
     RATIONALE_REQUIRED_FIELDS,
 )
 
-
 # ── top-level shape ────────────────────────────────────────────────────
 
 def test_export_returns_required_keys():
@@ -31,7 +30,6 @@ def test_export_returns_required_keys():
     assert result["format"] == "grace-mar-capability-export"
     assert result["user_id"] == "grace-mar"
 
-
 def test_counts_are_consistent():
     result = export_capability(user_id="grace-mar")
     counts = result["counts"]
@@ -39,7 +37,6 @@ def test_counts_are_consistent():
     total = sum(len(v) for v in evidence.values())
     assert counts["evidence_total"] == total
     assert counts["rationale_total"] == len(result["rationales"])
-
 
 # ── identity context ───────────────────────────────────────────────────
 
@@ -51,11 +48,9 @@ def test_identity_context_minimal():
     assert "lexile_output" in ctx
     assert len(ctx) == 3, "identity_context should contain only name, age, lexile_output"
 
-
 def test_identity_context_no_full_self():
     result = export_capability(user_id="grace-mar")
     assert "self" not in result or "raw" not in result.get("self", {})
-
 
 # ── evidence filtering ─────────────────────────────────────────────────
 
@@ -66,13 +61,11 @@ def test_evidence_has_production_categories():
     assert "create" in ev
     assert "act" in ev
 
-
 def test_evidence_excludes_read_and_media():
     result = export_capability(user_id="grace-mar")
     ev = result["archive/placeholders/evidence"]
     assert "read" not in ev
     assert "media" not in ev
-
 
 def test_evidence_entries_have_ids():
     result = export_capability(user_id="grace-mar")
@@ -80,7 +73,6 @@ def test_evidence_entries_have_ids():
         for entry in result["archive/placeholders/evidence"][category]:
             assert "id" in entry
             assert entry["id"].startswith(category.upper() + "-")
-
 
 # ── rationale loading ──────────────────────────────────────────────────
 
@@ -92,24 +84,20 @@ def test_rationale_attachment():
         for field in RATIONALE_REQUIRED_FIELDS:
             assert field in r, f"rationale missing required field {field!r}"
 
-
 def test_rationale_export_class_is_capability():
     result = export_capability(user_id="grace-mar")
     for r in result["rationales"]:
         if "export_class" in r:
             assert r["export_class"] == "capability"
 
-
 def test_empty_rationales_ok(tmp_path):
     rationales = _load_rationales(tmp_path)
     assert rationales == []
-
 
 def test_invalid_rationale_skipped(tmp_path):
     (tmp_path / "bad.json").write_text('{"artifact_name": "X"}', encoding="utf-8")
     rationales = _load_rationales(tmp_path)
     assert len(rationales) == 0
-
 
 # ── skills section ─────────────────────────────────────────────────────
 
@@ -120,7 +108,6 @@ def test_skills_structure():
     assert "gaps" in skills
     assert "milestones" in skills
     assert isinstance(skills["claims"], list)
-
 
 # ── CLI smoke test ─────────────────────────────────────────────────────
 
@@ -133,7 +120,6 @@ def test_cli_smoke():
     assert proc.returncode == 0
     data = json.loads(proc.stdout)
     assert data["format"] == "grace-mar-capability-export"
-
 
 # ── JSON serialization ─────────────────────────────────────────────────
 

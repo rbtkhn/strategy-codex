@@ -32,7 +32,6 @@ transcript_curation: curated_sectioned
 
 ## Cleaned Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Thursday, June 4th, 2026, and our dear friend Alex Trainer is here with us. We had some technical issues here. That's why we're late here. And it was so funny. But Alex, welcome back. >> Thank you for having me, Nema. And the picture is a little bit different cuz I I had to connect over my phone because my my uh my laptop was acting up and we couldn't hear each other.

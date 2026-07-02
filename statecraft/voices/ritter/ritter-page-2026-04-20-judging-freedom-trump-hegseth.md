@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-04-20 (*Trump and Hegseth Haven't a Clue*)
 <!-- word_count: 3879 -->
 
-
 **Expert:** `ritter` · **Aired:** 2026-04-20 · **Capture:** Mode B — Judging Freedom / interview (see raw-input series) · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 3879
@@ -90,7 +89,6 @@ There was so much this Board could have done and been involved in. It would have
 Judge Andrew Napolitano: Wow. Scotty, thank you very much. Deeply appreciated, my dear friend. Good luck with what you're going to be doing in the next few days, and we'll talk to you again soon.
 Scott Ritter: Okay. Thank you very much.
 
-
 ### Reflection
 
 **WORK read.** Verbatim is expert verbatim from capture; this block is notebook analysis only—tier discipline and seams, not a substitute for wire.
@@ -112,14 +110,11 @@ IHL content: useful for notebook legal seams; adjudication belongs to courts or 
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (B); Reflection/Foresight = WORK.
-
 
 ---
 

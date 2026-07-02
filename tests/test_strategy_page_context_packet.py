@@ -11,7 +11,6 @@ from scripts.strategy.page_context_packet import (
     render_thread_context_packet,
 )
 
-
 def test_thread_context_packet_uses_previous_months_and_classifies_snippets(
     tmp_path: Path,
 ) -> None:
@@ -55,7 +54,6 @@ Iran remains an anchor for the lane and still matters for later pages.
     assert "## Month briefs" in rendered
     assert "## Drafting guidance" in rendered
 
-
 def test_thread_context_packet_falls_back_when_no_prior_month_exists(
     tmp_path: Path,
 ) -> None:
@@ -78,7 +76,6 @@ Initial month anchor. Iran remains the frame.
     assert packet.source_months == ["2026-01"]
     assert "fell back" in packet.selection_note
     assert packet.month_contexts[0].month == "2026-01"
-
 
 def test_crooke_builder_surfaces_context_packet_link(
     tmp_path: Path,

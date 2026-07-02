@@ -18,7 +18,6 @@ sync_policy: manual_curated_fork
 canonical_source_note: Manual curated fork for academy/theology; update deliberately when source changes matter.
 -->
 
-
 # One Subject, Many Tongues
 
 ### Islam and Christianity and the Shared Reference

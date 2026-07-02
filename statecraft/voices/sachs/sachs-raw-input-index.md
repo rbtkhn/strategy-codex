@@ -1,6 +1,5 @@
 # Sachs Raw-Input Index
 
-
 Compatibility pointer only.
 
 The canonical Sachs source route map now lives at [sachs-source-index.md](sachs-source-index.md).

@@ -1,6 +1,5 @@
 # Ritter Source Index
 
-
 Purpose: exhaustive route map for every resolved `raw-input` appearance of Scott Ritter currently materialized in this repo, including authored Substack captures, direct host interviews, mixed-guest files, shorthand day files, generic `transcript-ritter` surfaces, and explicit raw-input discovery surfaces.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index ritter` — author/guest parity; skill **`audit index`**. Post-land: `python scripts/shelf_index_from_capture.py --path <capture> --apply`.

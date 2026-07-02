@@ -102,4 +102,4 @@ If those answers are weak, the automation is probably reaching for judgment too 
 - deciding whether a tool is still visibility-first
 - checking whether a strategy artifact is quietly substituting for operator judgment
 
-WORK only. Not Record.
+non-authoritative. Not Record.

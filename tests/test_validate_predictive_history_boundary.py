@@ -8,7 +8,6 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from validate_predictive_history_boundary import classify_paths, format_violation_message
 
-
 def test_allows_boundary_maintenance_paths() -> None:
     blocked, allowed = classify_paths(
         [
@@ -22,7 +21,6 @@ def test_allows_boundary_maintenance_paths() -> None:
         "continuity/predictive-history/README.md",
         "research/external/youtube-channels/predictive-history/README.md",
     ]
-
 
 def test_blocks_frozen_predictive_history_content_paths() -> None:
     blocked, allowed = classify_paths(
@@ -38,7 +36,6 @@ def test_blocks_frozen_predictive_history_content_paths() -> None:
     ]
     assert allowed == []
 
-
 def test_normalizes_windows_paths() -> None:
     blocked, allowed = classify_paths(
         [r".\codex\predictive-history\BOOK-ARCHITECTURE.md"]
@@ -46,7 +43,6 @@ def test_normalizes_windows_paths() -> None:
 
     assert blocked == ["continuity/predictive-history/BOOK-ARCHITECTURE.md"]
     assert allowed == []
-
 
 def test_violation_message_points_to_external_repo() -> None:
     message = format_violation_message(

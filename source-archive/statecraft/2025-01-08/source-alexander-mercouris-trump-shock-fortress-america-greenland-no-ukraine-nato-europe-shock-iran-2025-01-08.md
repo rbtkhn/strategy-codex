@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Trump Shock; Fortress America, Greenland, No Ukraine NATO; Europe Shock; Iran Strike Coming
 
-

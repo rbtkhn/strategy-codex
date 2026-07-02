@@ -5,7 +5,6 @@ from __future__ import annotations
 
 from typing import Any
 
-
 def run_singularity_loop_invariants(loops: list[dict[str, Any]]) -> list[str]:
     """Return human-readable violation lines for loaded loop registry rows."""
     issues: list[str] = []
@@ -36,7 +35,6 @@ def run_singularity_loop_invariants(loops: list[dict[str, Any]]) -> list[str]:
             issues.append(f"dependency cycle involving `{loop_id}`")
 
     return issues
-
 
 def _has_cycle(
     loop_id: str,

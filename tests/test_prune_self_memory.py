@@ -10,7 +10,6 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 import prune_self_memory as ps  # noqa: E402
 
-
 def test_split_horizons_roundtrip() -> None:
     text = """# H\n\n## Short-term\n\nA line\n\n## Medium-term\n\nB line\n\n## Long-term\n\nC line\n"""
     sp = ps._split_horizons(text)
@@ -20,7 +19,6 @@ def test_split_horizons_roundtrip() -> None:
     assert [s[0] for s in sections] == ["short", "medium", "long"]
     rebuilt = ps._rebuild(preamble, sections)
     assert "A line" in rebuilt and "B line" in rebuilt
-
 
 def test_prune_over_max(tmp_path: Path) -> None:
     user = tmp_path / "platform/users" / "u1"
@@ -39,7 +37,6 @@ def test_prune_over_max(tmp_path: Path) -> None:
     assert len(new_t) <= 400
     assert "m" in new_t and "l" in new_t
 
-
 def test_no_prune_under_max(tmp_path: Path) -> None:
     user = tmp_path / "platform/users" / "u2"
     user.mkdir(parents=True)
@@ -50,7 +47,6 @@ def test_no_prune_under_max(tmp_path: Path) -> None:
     new_t, pruned, _msg, _ = ps.run_prune(user, max_chars=9000, target_chars=8000)
     assert pruned == ""
     assert new_t == (user / "self-memory.md").read_text(encoding="utf-8")
-
 
 def test_legacy_prune(tmp_path: Path) -> None:
     user = tmp_path / "platform/users" / "u3"

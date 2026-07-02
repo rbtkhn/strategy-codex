@@ -13,8 +13,6 @@ post_id: 199255962
 
 # The Innermost Loop - 2026-05-25
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to May 25, 2026
@@ -29,10 +27,7 @@ The Singularity has acquired a holy imprimatur.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has acquired a holy imprimatur. Pope Leo XIV has issued Magnifica Humanitas , a 42,300-word encyclical setting out a sweeping vision for the AI age, itself the product of a Vatican lobbying season involving Meta, Google, and Amazon. The deepest theological influence, however, appears to come from Anthropic, with the Washington Post noting that the Pope’s description of AI as “cultivated” rather than “built” echoes the lab’s framing word-for-word. The encyclical states that internal representations of current AI systems “remain, at present, unknown.” Sitting beside the Pope, Anthropic co-founder Chris Olah warned that mass labor displacement could become “a moral imperative of historic proportions,” and Leo XIV announced the Church and Anthropic would together “find the way for humanity, in this time of artificial intelligence.”
+- The Singularity has acquired a holy imprimatur. Pope Leo XIV has issued Magnifica Humanitas , a 42,300-word encyclical setting out a sweeping vision for the AI age, itself the product of a Vatican lobbying season involving Meta, Google, and Amazon. The deepest theological influence, however, appears to come from Anthropic, with the Washington Post noting that the Pope’s description of AI as “cultivated” rather than “built” echoes the lab’s framing word-for-word. The encyclical states that internal representations of current AI systems “remain, at present, unknown.” Sitting beside the Pope, Anthropic co-founder Chris Olah warned that mass labor displacement could become “a moral imperative of historic proportions,” and Leo XIV announced the Church and Anthropic would together “find the way for humanity, in this time of artificial intelligence.”
 
 The frontier is already racing to define that way. SaaS-Bench , a new benchmark spanning 23 real deployable SaaS systems, places Claude Opus 4.7 first at 43.9%, narrowly ahead of GPT-5.5 High. Elon Musk reports that Grok V9-Medium has finished training on heavy supplemental Cursor data, formally elevating the soon-to-be-SpaceXAI-owned IDE startup into “a frontier lab.” OpenAI’s Greg Brockman is meanwhile encouraging developers to adopt a “self improvement prompt for codex,” while Claude is reportedly about to receive a file-based memory upgrade that mirrors how always-on agents already remember. Apple, sensing the shifting tide, is readying genai.apple.com ahead of WWDC.
 

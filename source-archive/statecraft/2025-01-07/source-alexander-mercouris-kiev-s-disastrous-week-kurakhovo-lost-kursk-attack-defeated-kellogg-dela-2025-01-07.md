@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Kiev's Disastrous Week. Kurakhovo Lost, Kursk Attack Defeated; Kellogg Delays Visit; Indonesia BRICS
 
-

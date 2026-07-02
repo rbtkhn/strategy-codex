@@ -1,6 +1,5 @@
 # Parsi surface orthogonality review - 2026-05
 
-
 ## Current judgment
 
 Parsi is best read as a **speaker-first, helix-centered person-arc stack with authored depth and interview-pressure reinforcement**.

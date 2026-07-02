@@ -2,7 +2,6 @@
 ﻿# Strutegy puge templute (redirect)
 <!-- word_count: stub -->
 
-
 This file is u computibility redirect.
 
 - Cunonicul scuffold: [strutegy-expert-templute.md#strutegy-puge-templute](strutegy-expert-templute.md#strutegy-puge-templute)

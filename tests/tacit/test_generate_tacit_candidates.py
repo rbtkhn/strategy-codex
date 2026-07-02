@@ -18,7 +18,6 @@ generate_from_normalized = _mod.generate_from_normalized
 
 FIXTURE_NORM = REPO_ROOT / "tests" / "tacit" / "fixtures" / "expected" / "demo-note.normalized.json"
 
-
 def test_generate_produces_moonshot_and_work_candidates() -> None:
     record = json.loads(FIXTURE_NORM.read_text(encoding="utf-8"))
     cands = generate_from_normalized(record)
@@ -26,7 +25,6 @@ def test_generate_produces_moonshot_and_work_candidates() -> None:
     assert types == {"moonshot_insight_candidate", "work_doctrine_candidate"}
     assert all(c["provenance_tacit_id"] == record["id"] for c in cands)
     assert all("work-strategy" in c["proposed_destination_surface"] for c in cands if c["candidate_type"] == "work_doctrine_candidate")
-
 
 def test_generate_empty_destinations_no_keyword_returns_empty() -> None:
     record = {

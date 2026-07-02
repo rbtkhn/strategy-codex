@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Hormuz Insurance and IRGC Resurrection
 
 Hi everyone, Judge Andrew Napolitano here for Judging Freedom.

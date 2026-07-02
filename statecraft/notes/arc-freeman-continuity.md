@@ -21,7 +21,6 @@ archive_links:
 
 # Freeman arc
 
-
 Purpose: define `arc-freeman-continuity` as the canonical person-level continuity surface for Chas Freeman across hosts, contexts, and time.
 
 Freeman should be read as a mature person-arc-first speaker object:

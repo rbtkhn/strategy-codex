@@ -12,11 +12,9 @@ if str(SCRIPTS) not in sys.path:
 import build_statecraft_day_indices as idx  # noqa: E402
 import build_statecraft_speaker_dashboard as spk  # noqa: E402
 
-
 def _write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8", newline="\n")
-
 
 def test_collect_speaker_stats_rolls_up_guest_host_channel_and_thread(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
@@ -60,7 +58,6 @@ def test_collect_speaker_stats_rolls_up_guest_host_channel_and_thread(tmp_path: 
     assert marandi.channel_counter["Judging Freedom"] == 1
     assert marandi.thread_counter["iran"] == 1
     assert marandi.thread_counter["marandi"] == 1
-
 
 def test_build_speaker_dashboard_payload_ranks_top_guests(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
@@ -116,7 +113,6 @@ def test_build_speaker_dashboard_payload_ranks_top_guests(tmp_path: Path) -> Non
     assert payload["aggregates"]["topSpeakers"][0]["fileCount"] == 2
     assert payload["aggregates"]["topSpeakers"][0]["dayCount"] == 2
 
-
 def test_build_saved_speaker_slices_writes_guest_filtered_day_dashboard(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
     day = root / "2026-05-26"
@@ -154,7 +150,6 @@ def test_build_saved_speaker_slices_writes_guest_filtered_day_dashboard(tmp_path
         spk.OUT_DIR = original_out_dir
         spk.SLICES_DIR = original_slices_dir
 
-
 def test_render_speaker_dashboard_markdown_mentions_saved_slices(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"
     day = root / "2026-05-26"
@@ -181,7 +176,6 @@ def test_render_speaker_dashboard_markdown_mentions_saved_slices(tmp_path: Path)
     assert "`Seyed M. Marandi`" in markdown
     assert "## Saved Speaker Slices" in markdown
     assert "`seyed-m-marandi`" in markdown
-
 
 def test_select_day_dirs_respects_year_and_range(tmp_path: Path) -> None:
     root = tmp_path / "source-archive" / "statecraft"

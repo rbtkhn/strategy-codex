@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back to the program. We are joined today by Patrick Henningson, a journalist who is following the Middle East uh as well as the conflict in Ukraine extremely closely. So uh thank you for coming on the program.

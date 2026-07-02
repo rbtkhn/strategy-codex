@@ -1,6 +1,5 @@
 # Statecraft America
 
-
 ## Where This Sits
 
 This is Part 3 of the America CIV-STATE volume. It is the present-tense synthesis layer where American civilizational contestation and imperial machinery become a guide to reading legitimacy, alliance order, crisis interpretation, and republican strain under global burden.

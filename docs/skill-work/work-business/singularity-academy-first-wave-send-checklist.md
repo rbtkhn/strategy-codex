@@ -1,6 +1,6 @@
 # Singularity-Academy First-Wave Send Checklist
 
-WORK only. This is an operator execution sheet, not proof of demand.
+non-authoritative. This is an operator execution sheet, not proof of demand.
 
 ## Purpose
 

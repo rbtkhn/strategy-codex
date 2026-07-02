@@ -1,6 +1,6 @@
 # Singularity-Academy Sprint Prospect Pipeline
 
-WORK only. This is an operator pipeline sheet, not demand proof.
+non-authoritative. This is an operator pipeline sheet, not demand proof.
 
 ## Purpose
 

@@ -21,7 +21,6 @@ EXPECTED_PHASE_IDS: tuple[str, ...] = (
     "phase_6_operator_questions",
 )
 
-
 def _base_obs(oid: str, lane: str, summary: str, refs: list[str]) -> dict:
     return {
         "obs_id": oid,
@@ -38,7 +37,6 @@ def _base_obs(oid: str, lane: str, summary: str, refs: list[str]) -> dict:
         "contradiction_refs": [],
         "notes": None,
     }
-
 
 def test_build_review_packet_markdown_unit():
     sys.path.insert(0, str(REPO_ROOT / "scripts" / "runtime"))
@@ -93,7 +91,6 @@ def test_build_review_packet_markdown_unit():
     assert phase_checks[0]["phase"] == "evidence_pass"
     assert phase_checks[0]["scope_drift_risk"] in ("low", "medium", "high")
 
-
 def test_task_anchor_required_exit_code():
     r = subprocess.run(
         [
@@ -114,7 +111,6 @@ def test_task_anchor_required_exit_code():
     )
     assert r.returncode == 2
     assert "task-anchor" in r.stderr.lower()
-
 
 def test_pre_gate_subprocess(tmp_path: Path) -> None:
     obs_dir = tmp_path / "runtime" / "observations"
@@ -149,7 +145,6 @@ def test_pre_gate_subprocess(tmp_path: Path) -> None:
     assert "## Task Anchor" in r.stdout
     assert "Assess observations before staging to gate." in r.stdout
     assert a["obs_id"] in r.stdout
-
 
 def test_candidate_review_subprocess(tmp_path: Path) -> None:
     user = "testuser"
@@ -197,7 +192,6 @@ profile_target: IX-A.1
     assert "gate-text-derived" in r.stdout
     assert "Boundary Pass" in r.stdout
     assert "Review pending candidate for gate hygiene." in r.stdout
-
 
 def test_receipt_out_json(tmp_path: Path) -> None:
     obs_dir = tmp_path / "runtime" / "observations"
@@ -255,7 +249,6 @@ def test_receipt_out_json(tmp_path: Path) -> None:
     assert data["run_id"].startswith("ro_")
     # stdout empty when -o used (md goes to file)
     assert out_md.read_text(encoding="utf-8").startswith("# Review Packet")
-
 
 def test_orchestrator_outputs_only_operator_paths(tmp_path: Path) -> None:
     """Read-only: script writes only paths the test passes (no canonical Record targets)."""

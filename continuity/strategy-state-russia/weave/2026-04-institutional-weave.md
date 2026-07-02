@@ -1,7 +1,6 @@
 # 2026-04 institutional weave (strategy-state-russia)
 <!-- word_count: 33 -->
 
-
 ## Month reading (placeholder)
 
 No institutional constellation synthesized yet for this lane.

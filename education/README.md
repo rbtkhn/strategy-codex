@@ -1,7 +1,5 @@
 # Education — curriculum factory
 
-WORK only; not Record.
-
 **Curriculum factory** — one source spine → **human** teach artifacts + **agent** training corpora.
 
 | Audience | Factory output (examples) |

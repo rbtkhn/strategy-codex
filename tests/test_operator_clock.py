@@ -9,7 +9,6 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 
-
 def test_operator_clock_full_iso_utc():
     out = subprocess.run(
         [sys.executable, str(REPO / "scripts/operator_clock.py")],
@@ -22,7 +21,6 @@ def test_operator_clock_full_iso_utc():
     assert out.endswith("Z")
     parsed = datetime.strptime(out, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
     assert abs((datetime.now(timezone.utc) - parsed).total_seconds()) < 120
-
 
 def test_operator_clock_date_only():
     out = subprocess.run(

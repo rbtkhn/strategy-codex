@@ -15,14 +15,12 @@ DEFAULT_ANALYSIS_OUT = REPO_ROOT / "statecraft" / "epistemic" / "data" / "analys
 
 UNMATCHED_EVENT = "unmatched"
 
-
 def load_structured_predictions(*, path: Path | None = None) -> list[dict[str, Any]]:
     structured_path = path or DEFAULT_STRUCTURED_IN
     payload = json.loads(structured_path.read_text(encoding="utf-8"))
     if isinstance(payload, list):
         return payload
     return list(payload.get("structured_predictions") or [])
-
 
 def analyze_event(event_id: str, preds: list[dict[str, Any]]) -> dict[str, Any]:
     voice_spread = compute_voice_spread(preds, event_id=event_id)
@@ -34,13 +32,11 @@ def analyze_event(event_id: str, preds: list[dict[str, Any]]) -> dict[str, Any]:
         "voice_spread": voice_spread,
     }
 
-
 def analyze(structured_predictions: list[dict[str, Any]]) -> dict[str, Any]:
     return {
         "voice_spread": compute_voice_spread(structured_predictions),
         "cross_voice_divergence": compute_divergence(structured_predictions),
     }
-
 
 def analyze_all(
     structured_predictions: list[dict[str, Any]],
@@ -57,7 +53,6 @@ def analyze_all(
     ]
     summary = analyze(structured_predictions)
     return analysis_by_event, summary
-
 
 def write_analysis(
     analysis_by_event: list[dict[str, Any]],

@@ -18,7 +18,6 @@ archive_links:
 ---
 # Mercouris November 2025 Repair Note
 
-
 ## Purpose
 
 Preserve the truthful month reading after the recent November 2025 Mercouris intake streak.

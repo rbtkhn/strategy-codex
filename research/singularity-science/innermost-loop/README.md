@@ -1,7 +1,5 @@
 # Innermost Loop — analysis
 
-work only; not Record.
-
 Analysis workspace for **The Innermost Loop** newsletter stream — structured research, models, and critiques built **on top of** dated frontier signals.
 
 **Seed:** [signal-research-frame.md](signal-research-frame.md)

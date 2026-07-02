@@ -1,7 +1,6 @@
 # China Order Arc
 <!-- word_count: 858 -->
 
-
 ## Purpose
 
 Use this sheet when a China-lane read, hexagon stress test, transaction, clause, or current event invokes order, mandate, unity, development continuity, maritime ambiguity, party-state implementation, compute sovereignty, or fear of disorder.

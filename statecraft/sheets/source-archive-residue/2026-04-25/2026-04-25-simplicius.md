@@ -11,5 +11,3 @@ source_path: docs/skill-work/work-strategy/strategy-notebook/experts/simplicius/
 
 - Inbox | cold: full text in [`source-simplicius-ukraine-war-untangling-current-disinfo-2026-04-25.md`](../../../../source-archive/statecraft/2026-04-25/source-simplicius-ukraine-war-untangling-current-disinfo-2026-04-25.md) (pointer; SSOT raw-input) | thread:simplicius
 
-
-

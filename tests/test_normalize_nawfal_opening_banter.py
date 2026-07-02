@@ -18,7 +18,6 @@ from scripts.normalize_nawfal_opening_banter import (
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _wrap_capture(guest: str, transcript_body: str) -> str:
     return f"""---
 ingest_date: 2026-05-31
@@ -39,7 +38,6 @@ editorial_note: Light cleanup only.
 {transcript_body}
 """
 
-
 def test_diesen_fixture_trims_schedule_banter():
     body = (
         "Hey man. >> Hi. How are you? >> Good. Glenn, you? >> Yeah. I can't complain. >> Long time.\n\n"
@@ -54,7 +52,6 @@ def test_diesen_fixture_trims_schedule_banter():
     assert "welcome back to reality" not in new_body.lower()
     assert "interesting development" in new_body
 
-
 def test_aguilar_fixture_unchanged():
     body = (
         "Hey, Colonel. Hello, Mario. How are you? >> Good. Um, so the obviously you're up to speed "
@@ -63,7 +60,6 @@ def test_aguilar_fixture_unchanged():
     new_body, changed, _, _, _, _, _ = trim_transcript_body(body, "Lt. Col. Anthony Aguilar", False)
     assert not changed
     assert new_body == body
-
 
 def test_aguilar_orphan_fragment_trim():
     body = (
@@ -78,7 +74,6 @@ def test_aguilar_orphan_fragment_trim():
     assert "heard the last thing" not in joined.lower()
     assert "US Navy Central Command" in joined
     assert ">> Yes, this is an outcome" in joined
-
 
 def test_orphan_second_pass_on_trimmed_file():
     text = _wrap_capture(
@@ -102,7 +97,6 @@ def test_orphan_second_pass_on_trimmed_file():
     assert EDITORIAL_ORPHAN_TRIM_NOTE in new_text
     assert "heard the last thing" not in new_text.split("## Transcript", 1)[1].lower()
 
-
 def test_johnson_guest_dropout_trim():
     body = (
         "ISRAEL ASKS TRUMP TO ESCALATE - YouTube\n\nTranscripts:\n"
@@ -121,7 +115,6 @@ def test_johnson_guest_dropout_trim():
     assert "Larry. Did you hear" in joined
     assert "circumstantial archive/placeholders/evidence" in joined
 
-
 def test_kent_opening_no_guest_dropout_trim():
     body = (
         "So, I want to bring this up first before we go into what's happening in Iran. "
@@ -129,7 +122,6 @@ def test_kent_opening_no_guest_dropout_trim():
     )
     new_paragraphs, changed = trim_guest_dropout_block([body], "Joe Kent")
     assert not changed
-
 
 def test_barnes_production_block_trim():
     body = (
@@ -147,7 +139,6 @@ def test_barnes_production_block_trim():
     assert "a lot of people are talking" in joined.lower()
     assert "resumption of war" in joined.lower()
 
-
 def test_aguilar_opening_keeps_lisa_when_substantive_first():
     body = (
         "Uh, Colonel, how are you? >> I'm doing well. How are you, Mario? >> Good. Um, I'm hoping you can help me make sense of this. "
@@ -155,7 +146,6 @@ def test_aguilar_opening_keeps_lisa_when_substantive_first():
     )
     new_paragraphs, changed = trim_production_audio_block([body])
     assert not changed
-
 
 def test_production_second_pass_on_trimmed_file():
     text = _wrap_capture(
@@ -179,7 +169,6 @@ def test_production_second_pass_on_trimmed_file():
     assert EDITORIAL_PRODUCTION_TRIM_NOTE in new_text
     assert "lisa" not in new_text.split("## Transcript", 1)[1].lower()
 
-
 def test_macgregor_fixture_unchanged():
     body = (
         "So, cuz Trump is praising the Islamic Republic, saying he wants to meet uh the supreme leader. "
@@ -189,7 +178,6 @@ def test_macgregor_fixture_unchanged():
     new_body, changed, _, _, _, _, _ = trim_transcript_body(body, "Douglas Macgregor", False)
     assert not changed
     assert "Strait of Hormuz" in new_body
-
 
 def test_normalize_text_updates_metadata_on_apply_shape():
     text = _wrap_capture(
@@ -206,7 +194,6 @@ def test_normalize_text_updates_metadata_on_apply_shape():
     assert "opening_trim_applied: true" in new_text
     assert EDITORIAL_TRIM_NOTE in new_text
     assert "Hey man" not in new_text.split("## Transcript", 1)[1]
-
 
 def test_reapply_on_trimmed_file_is_noop():
     text = _wrap_capture(
@@ -226,7 +213,6 @@ def test_reapply_on_trimmed_file_is_noop():
     assert second_change.opening_tier == "heavy-banter"
     assert "opening_trim_applied: true" in new_text
     assert "opening_tier: heavy-banter" in new_text
-
 
 def test_tag_only_sets_opening_tier_without_trim():
     text = _wrap_capture(

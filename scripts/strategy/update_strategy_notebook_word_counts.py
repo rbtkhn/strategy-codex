@@ -241,7 +241,6 @@ def _read_text_safe(path: Path) -> str | None:
     except UnicodeDecodeError:
         return None
 
-
 def _expected_count(content: str) -> int:
     sp = _split_front_matter(content)
     if sp is not None:

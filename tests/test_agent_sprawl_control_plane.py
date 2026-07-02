@@ -9,7 +9,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = REPO_ROOT / "scripts" / "work_dev" / "audit_agent_sprawl.py"
 
-
 def _load_module():
     spec = importlib.util.spec_from_file_location("audit_agent_sprawl_mod", SCRIPT)
     mod = importlib.util.module_from_spec(spec)
@@ -17,11 +16,9 @@ def _load_module():
     spec.loader.exec_module(mod)
     return mod
 
-
 def _write_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
-
 
 def _surface(
     surface_id: str,
@@ -55,7 +52,6 @@ def _surface(
         payload.update(extra)
     return payload
 
-
 def _build_registry(root: Path, surfaces: list[dict]) -> Path:
     (root / "docs" / "contracts").mkdir(parents=True, exist_ok=True)
     (root / "docs" / "contracts" / "example.yaml").write_text(
@@ -65,7 +61,6 @@ def _build_registry(root: Path, surfaces: list[dict]) -> Path:
     config_path = root / "platform/config" / "agent-surfaces.v1.json"
     _write_json(config_path, {"schemaVersion": "1.0.0", "surfaces": surfaces})
     return config_path
-
 
 def _run_cli(repo_root: Path, config_path: Path, *args: str) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
@@ -83,7 +78,6 @@ def _run_cli(repo_root: Path, config_path: Path, *args: str) -> subprocess.Compl
         text=True,
         check=False,
     )
-
 
 def test_clean_registry_passes(tmp_path: Path) -> None:
     config_path = _build_registry(
@@ -111,7 +105,6 @@ def test_clean_registry_passes(tmp_path: Path) -> None:
     assert proc.returncode == 0
     assert "0 errors, 0 warnings" in proc.stdout
 
-
 def test_duplicate_id_fails(tmp_path: Path) -> None:
     config_path = _build_registry(
         tmp_path,
@@ -122,7 +115,6 @@ def test_duplicate_id_fails(tmp_path: Path) -> None:
     assert report["ok"] is False
     assert any(item["kind"] == "duplicate_id" for item in report["errors"])
 
-
 def test_merge_authority_not_none_fails(tmp_path: Path) -> None:
     config_path = _build_registry(
         tmp_path,
@@ -131,7 +123,6 @@ def test_merge_authority_not_none_fails(tmp_path: Path) -> None:
     mod = _load_module()
     report = mod.audit_registry(config_path, tmp_path)
     assert any(item["kind"] == "merge_authority_must_be_none" for item in report["errors"])
-
 
 def test_invalid_canonical_record_access_fails(tmp_path: Path) -> None:
     config_path = _build_registry(
@@ -142,7 +133,6 @@ def test_invalid_canonical_record_access_fails(tmp_path: Path) -> None:
     report = mod.audit_registry(config_path, tmp_path)
     assert any(item["kind"] == "invalid_canonical_record_access" for item in report["errors"])
 
-
 def test_invalid_gate_effect_fails(tmp_path: Path) -> None:
     config_path = _build_registry(
         tmp_path,
@@ -151,7 +141,6 @@ def test_invalid_gate_effect_fails(tmp_path: Path) -> None:
     mod = _load_module()
     report = mod.audit_registry(config_path, tmp_path)
     assert any(item["kind"] == "invalid_gate_effect" for item in report["errors"])
-
 
 def test_missing_receipt_requirement_fails_unless_explicitly_exempt(tmp_path: Path) -> None:
     failing_config = _build_registry(
@@ -180,7 +169,6 @@ def test_missing_receipt_requirement_fails_unless_explicitly_exempt(tmp_path: Pa
         for item in passing_report["errors"]
     )
 
-
 def test_overlapping_write_categories_warn_but_exit_zero(tmp_path: Path) -> None:
     config_path = _build_registry(
         tmp_path,
@@ -208,7 +196,6 @@ def test_overlapping_write_categories_warn_but_exit_zero(tmp_path: Path) -> None
     proc = _run_cli(tmp_path, config_path)
     assert proc.returncode == 0
     assert "Warnings:" in proc.stdout
-
 
 def test_json_output_includes_expected_top_level_keys(tmp_path: Path) -> None:
     config_path = _build_registry(

@@ -1,6 +1,5 @@
 # Napolitano speaker object
 
-
 object_shape: stream-native
 
 Purpose: define Napolitano as a first-class speaker object while preserving the fact that his main body in this volume is already a native host stream. `Judging Freedom` does not need to be inferred only through guest arcs because the Codex now has a native `napolitano/` shelf.

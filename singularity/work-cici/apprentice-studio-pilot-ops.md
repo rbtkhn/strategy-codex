@@ -1,6 +1,6 @@
 # Apprentice Studio Pilot Ops
 
-WORK only. This is an operator coordination surface, not Cici's Record.
+non-authoritative. This is an operator coordination surface, not Cici's Record.
 
 ## Purpose
 

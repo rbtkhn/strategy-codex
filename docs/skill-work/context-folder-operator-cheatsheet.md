@@ -1,6 +1,6 @@
 # Context folder + questions-as-spec — operator cheat sheet
 
-**WORK only** — not Record. One page for heavy multi-file EXECUTE.
+ One page for heavy multi-file EXECUTE.
 
 **Full skill (draft):** [context-folder-assembly](../../skills/_drafts/context-folder-assembly/SKILL.md) · **PLAN lane:** [operator-agent-lanes.md](../operator-agent-lanes.md) · **Template:** [questions-as-spec-template.md](./questions-as-spec-template.md)
 

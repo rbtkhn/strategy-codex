@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Iran Ceasefire Charade
 
 Good day. This is Demetri Lascaris coming to you from Kalamata, Greece for Reason to Resist on May 26, 2026. Yesterday, during a reason to resist live stream, I argued yet again that the Trump regime's negotiations with Iran are an elaborate charade. I explained the reasons for my belief that Trump is negotiating in bad faith and that this entire spectacle is designed to manipulate oil and stock markets and also to convince American voters who are overwhelmingly opposed to this catastrophic and criminal war that Trump

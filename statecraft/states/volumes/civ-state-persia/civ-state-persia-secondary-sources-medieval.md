@@ -1,6 +1,5 @@
 # Persia Secondary Sources - Medieval
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the medieval Persia primary shelf when Islam as transformed carrier, Persianate continuity, *Shahnameh* transmission, science-law synthesis, or Safavid reconcentration need stronger transmission or institutional context.

@@ -1,7 +1,6 @@
 # Russia Depth Arc
 <!-- word_count: 572 -->
 
-
 ## Purpose
 
 Use this sheet when a Russia-lane read, hexagon stress test, transaction, clause, or current event invokes Russian depth, exposure, encirclement, recognition, buffers, access, sanctions resistance, or great-power equilibrium.

@@ -1,6 +1,6 @@
 # Singularity-Academy Top 3 Target Refresh - 2026-05-23
 
-WORK only. This is a current public-signals refresh, not qualification proof.
+non-authoritative. This is a current public-signals refresh, not qualification proof.
 
 ## Purpose
 

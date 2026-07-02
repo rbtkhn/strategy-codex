@@ -1,7 +1,5 @@
 # Moonshots Intelligence Pipeline
 
-work only; not Record.
-
 Deterministic **epistemic compiler** for Moonshots archive transcripts → structured intelligence documents with verbatim-grounded evidence and strict validation.
 
 ## Layer boundaries

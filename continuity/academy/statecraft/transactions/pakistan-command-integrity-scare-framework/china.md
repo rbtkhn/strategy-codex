@@ -1,7 +1,6 @@
 # China - Pakistan Command-Integrity Scare Framework
 <!-- word_count: 357 -->
 
-
 ## Transaction Name
 
 Pakistan patron reassurance without ownership.

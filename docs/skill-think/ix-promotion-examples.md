@@ -1,6 +1,6 @@
 # THINK → IX — examples
 
-**WORK only illustrations** — not Record truth.
+**non-authoritative illustrations** — not Record truth.
 
 | Situation | Typical disposition |
 |-----------|------------------------|

@@ -1,7 +1,5 @@
 # anyang-ai — skills rubric (sponsor-facing)
 
-WORK only; not Record.
-
 **Calibration:** [anyang-philanthropist-calibration.md](../anyang-philanthropist-calibration.md) §3
 
 **Scale:** **Not yet** → **Emerging** → **Solid** (mentor judgment + evidence pointer)

@@ -1,6 +1,5 @@
 # Macgregor x Mario Nawfal note - 2026-05-27
 
-
 Purpose: extract the most reusable claims from the May 27 2026 Mario Nawfal appearance without promoting the entire interview's severity register into settled shelf law.
 
 Primary source:

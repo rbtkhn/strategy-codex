@@ -9,7 +9,6 @@ from scripts.build_work_pass_ledger import (
     render_work_pass_ledger_markdown,
 )
 
-
 def test_collect_recent_work_pass_closes_extended_row(tmp_path: Path) -> None:
     events = tmp_path / "cadence.md"
     events.write_text(
@@ -29,7 +28,6 @@ _(Append below this line.)_
     assert rows[0]["kind"] == "coffee_close"
     assert rows[0]["object_ref"] == "docs/a.md"
     assert rows[0]["legacy"] is False
-
 
 def test_render_work_pass_ledger_markdown_title() -> None:
     md = render_work_pass_ledger_markdown(
@@ -58,7 +56,6 @@ def test_render_work_pass_ledger_markdown_title() -> None:
     )
     assert md.startswith("# Work-pass ledger")
     assert "coffee_close" in md
-
 
 def test_build_conductor_shim_reexports_work_pass() -> None:
     from scripts import build_conductor_ledger as shim

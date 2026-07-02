@@ -32,13 +32,11 @@ DEFAULT_SPLIT_DATE = "2026-01-01"
 LOW_N_ADVISORY_THRESHOLD = 20
 CLAIM_MAX_LEN = 120
 
-
 def _truncate(text: str, limit: int = CLAIM_MAX_LEN) -> str:
     cleaned = " ".join(str(text or "").split())
     if len(cleaned) <= limit:
         return cleaned
     return cleaned[: limit - 3] + "..."
-
 
 def build_voice_observations(
     event: dict[str, Any],
@@ -70,7 +68,6 @@ def build_voice_observations(
         )
     return observations
 
-
 def build_latent_features(
     *,
     engm_event: dict[str, Any] | None,
@@ -89,7 +86,6 @@ def build_latent_features(
         "inference_source": "heuristic_v1",
     }
 
-
 def _outcome_at_anchor(event: dict[str, Any], anchor_date: str) -> tuple[str | None, bool]:
     status = str(event.get("status") or "")
     outcome = event.get("outcome")
@@ -103,7 +99,6 @@ def _outcome_at_anchor(event: dict[str, Any], anchor_date: str) -> tuple[str | N
         return str(outcome), False
     return None, True
 
-
 def _timestamps_to_anchor(timeline_event: dict[str, Any] | None, anchor_date: str) -> list[str]:
     anchor = _parse_date(anchor_date)
     if not anchor:
@@ -114,7 +109,6 @@ def _timestamps_to_anchor(timeline_event: dict[str, Any] | None, anchor_date: st
         if entry_date and entry_date <= anchor:
             dates.append(entry_date.isoformat())
     return dates or [anchor_date]
-
 
 def _falsifier_model_snapshot(event_id: str, event: dict[str, Any]) -> dict[str, Any]:
     model, distribution_source = effective_falsifier_model(event_id, event)
@@ -133,7 +127,6 @@ def _falsifier_model_snapshot(event_id: str, event: dict[str, Any]) -> dict[str,
         "distribution_source": distribution_source,
         "failure_modes": slim_modes,
     }
-
 
 def build_task_labels_for_anchor(
     event_id: str,
@@ -183,7 +176,6 @@ def build_task_labels_for_anchor(
         }
     return labels
 
-
 def build_dataset_row(
     event_id: str,
     event: dict[str, Any],
@@ -230,7 +222,6 @@ def build_dataset_row(
         "interpretation": "epistemic_dataset_row",
     }
 
-
 def temporal_split(rows: list[dict[str, Any]], *, split_date: str) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     split = _parse_date(split_date) or date.fromisoformat(DEFAULT_SPLIT_DATE)
     train: list[dict[str, Any]] = []
@@ -242,7 +233,6 @@ def temporal_split(rows: list[dict[str, Any]], *, split_date: str) -> tuple[list
         else:
             train.append(row)
     return train, test
-
 
 def expand_registry_no_compression(registry: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
     expanded = dict(registry)
@@ -259,7 +249,6 @@ def expand_registry_no_compression(registry: dict[str, dict[str, Any]]) -> dict[
     except ImportError:
         pass
     return expanded
-
 
 def build_dataset_rows(
     *,
@@ -324,7 +313,6 @@ def build_dataset_rows(
             )
     return rows
 
-
 def build_dataset_payload(
     *,
     registry: dict[str, dict[str, Any]] | None = None,
@@ -386,7 +374,6 @@ def build_dataset_payload(
         "test": test,
     }
 
-
 def main() -> int:
     import argparse
     import json
@@ -428,7 +415,6 @@ def main() -> int:
         f"(train={scope['train_count']}, test={scope['test_count']})"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

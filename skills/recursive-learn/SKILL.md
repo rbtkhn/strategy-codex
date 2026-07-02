@@ -16,7 +16,6 @@ tags:
 ---
 # Recursive Learning
 
-
 **Activation:** `recursive learn` · `recursive-learn` · `RLJ` · `recursive learning` *(legacy)* · `review this session through recursive learning`
 
 **SSOT (open first — do not repo-grep):** [statecraft/recursive-learning-journal.md](../../statecraft/recursive-learning-journal.md)

@@ -13,8 +13,6 @@ post_id: 185958282
 
 # The Innermost Loop - 2026-01-27
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 27, 2026
@@ -29,10 +27,7 @@ The Singularity has a new mascot, and it is a lobster.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has a new mascot, and it is a lobster. Due to trademark issues, the autonomous “Clawdbot” AI has rebranded as a crustacean , bringing reality into alignment with the first chapter of Accelerando . Users are already treating it as a sovereign entity, setting up dedicated Apple IDs, phone numbers, and Mac Minis to give the bot digital personhood. Some commentators are calling it the “first digital employee” and the harbinger of post-labor economics. Elsewhere, the recursive self-improvement loop is closing. Anthropic introduced MCP Apps to let tools render interactive UIs directly in the chat, while Factory AI released a coding agent that analyzes its own interactions and updates its codebase daily . Even Andrej Karpathy notes that AI stamina is a “feel the AGI” moment , as agents grind through problems that would break human resolve.
+- The Singularity has a new mascot, and it is a lobster. Due to trademark issues, the autonomous “Clawdbot” AI has rebranded as a crustacean , bringing reality into alignment with the first chapter of Accelerando . Users are already treating it as a sovereign entity, setting up dedicated Apple IDs, phone numbers, and Mac Minis to give the bot digital personhood. Some commentators are calling it the “first digital employee” and the harbinger of post-labor economics. Elsewhere, the recursive self-improvement loop is closing. Anthropic introduced MCP Apps to let tools render interactive UIs directly in the chat, while Factory AI released a coding agent that analyzes its own interactions and updates its codebase daily . Even Andrej Karpathy notes that AI stamina is a “feel the AGI” moment , as agents grind through problems that would break human resolve.
 
 The scaling laws are going vertical. Sam Altman is promising a model 100x more capable, faster, and cheaper than current frontiers. This acceleration is contagious. OpenAI aims to compress 25 years of science into the next 5 , already processing 8.4 million weekly messages on advanced math and physics. The competition is fierce. Alibaba’s Qwen3-Max-Thinking now rivals GPT-5.2 and Opus 4.5 on 19 benchmarks, while Moonshot AI’s Kimi K2.5 has claimed the global SOTA on agentic benchmarks . Meanwhile, Grok 4.20 Checkpoint is the only profitable model on PredictionArena , actively generating alpha while others lose money.
 

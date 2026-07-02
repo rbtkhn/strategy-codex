@@ -17,8 +17,6 @@ threads: [vatican, ai, pope-leo]
 
 # Antiqua et Nova — Note on the Relationship Between Artificial Intelligence and Human Intelligence
 
-WORK only; not Record.
-
 ## Capture Note
 
 Fetched from official Vatican URL on 2026-06-13. HTML stripped to plain text; numbered sections preserved in flow. Not a summary or stub.

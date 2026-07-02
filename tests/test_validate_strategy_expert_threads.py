@@ -17,7 +17,6 @@ from scripts.validate_strategy_expert_threads import (
 # Single prose line meeting the Segment 1 prose floor (validator counts words on prose lines only).
 _PROSE_FLOOR_LINE = " ".join(["word"] * MIN_PROSE_WORDS)
 
-
 def test_iter_month_h2_bodies_splits_months(tmp_path: Path) -> None:
     human = textwrap.dedent(
         """\
@@ -41,14 +40,12 @@ def test_iter_month_h2_bodies_splits_months(tmp_path: Path) -> None:
     assert "- a" in blocks[0][1]
     assert "Para line" in blocks[1][1]
 
-
 def test_analyze_month_body_counts_bullets_and_prose() -> None:
     b, p = analyze_month_body(
         "- one\n- two\n- three\n\nSome prose line that is long enough.\n"
     )
     assert b == 3
     assert p == 1
-
 
 def test_validate_thread_file_warns_bullet_only_month(tmp_path: Path) -> None:
     p = tmp_path / "strategy-expert-test-expert-thread.md"
@@ -73,7 +70,6 @@ def test_validate_thread_file_warns_bullet_only_month(tmp_path: Path) -> None:
     assert len(warns) == 1
     assert "2026-01" in warns[0]
 
-
 def test_validate_thread_file_opt_out_suppresses(tmp_path: Path) -> None:
     p = tmp_path / "strategy-expert-test-expert-thread.md"
     p.write_text(
@@ -95,7 +91,6 @@ def test_validate_thread_file_opt_out_suppresses(tmp_path: Path) -> None:
         encoding="utf-8",
     )
     assert validate_thread_file(p) == []
-
 
 def test_validate_thread_file_prose_mixed_ok(tmp_path: Path) -> None:
     p = tmp_path / "strategy-expert-test-expert-thread.md"
@@ -119,7 +114,6 @@ def test_validate_thread_file_prose_mixed_ok(tmp_path: Path) -> None:
         encoding="utf-8",
     )
     assert validate_thread_file(p) == []
-
 
 def test_validate_thread_file_month_filter_skips_other_months(tmp_path: Path) -> None:
     """--month only evaluates matching ## YYYY-MM blocks."""

@@ -1,6 +1,5 @@
 # Pape Lane Consolidation - 2026-05
 
-
 This note consolidates the current `pape` lane into one operator-facing spine:
 
 - timeline

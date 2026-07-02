@@ -8,7 +8,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 STUB = "Deprecated compatibility stub"
 TX_ROOT = REPO_ROOT / "statecraft"
 
-
 def _collect_transaction_files() -> list[Path]:
     files: list[Path] = []
     for path in TX_ROOT.rglob("*"):
@@ -17,7 +16,6 @@ def _collect_transaction_files() -> list[Path]:
         if path.is_file() and path.suffix == ".md":
             files.append(path)
     return sorted(files)
-
 
 def test_legacy_transaction_md_files_are_stubs_or_tombstones() -> None:
     allowed_non_stub = {

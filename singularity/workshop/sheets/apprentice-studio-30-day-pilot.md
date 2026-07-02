@@ -1,7 +1,5 @@
 # Apprentice Studio - 30-Day Pilot
 
-WORK only; not Record.
-
 ## Purpose
 
 `Apprentice Studio` is a 30-day pilot that uses:

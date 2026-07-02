@@ -1,6 +1,5 @@
 # Kleiber Close - June Section-Order Stopping Rules - 2026-06-08
 
-
 Second tranche in the daily-synthesis contract repair stack (after tail-label close).
 
 ## Extracted Law

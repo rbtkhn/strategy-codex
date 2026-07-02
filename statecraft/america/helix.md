@@ -1,6 +1,5 @@
 # America Civilization / Empire Helix
 
-
 Purpose: hold America's republic / empire tension open long enough to draft instruments that preserve sovereignty and security without consuming constitutional legitimacy.
 
 ## Where This Sits

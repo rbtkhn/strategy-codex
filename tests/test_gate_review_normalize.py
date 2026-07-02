@@ -12,7 +12,6 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from gate_review_normalize import normalize_review_item  # noqa: E402
 
-
 def _base_row(**kwargs):
     r = {
         "id": "CANDIDATE-0999",
@@ -32,7 +31,6 @@ def _base_row(**kwargs):
     r.update(kwargs)
     return r
 
-
 def test_work_politics_boundary_maps_work_layer():
     row = _base_row(
         territory="work-politics",
@@ -48,7 +46,6 @@ def test_work_politics_boundary_maps_work_layer():
     assert n["requires_reclassification"] is False
     assert n["review_type"] == "routine"
 
-
 def test_civ_mem_proposal_boundary():
     row = _base_row(
         proposal_class="CIV_MEM_ADD",
@@ -61,7 +58,6 @@ def test_civ_mem_proposal_boundary():
     n = normalize_review_item(row)
     assert n["target_surface"] == "civ_mem"
     assert n["proposal_class"] == "CIV_MEM_ADD"
-
 
 def test_misfiled_triggers_boundary_review_type():
     row = _base_row(
@@ -83,13 +79,11 @@ def test_misfiled_triggers_boundary_review_type():
     assert n["suggested_reclassify_proposal_class"] == "SELF_LIBRARY_ADD"
     assert any("LIB" in x for x in n["boundary_hint_reasons"])
 
-
 def test_quick_merge_risk_maps_low():
     row = _base_row(risk_tier="quick_merge_eligible")
     n = normalize_review_item(row)
     assert n["risk_level"] == "low"
     assert n["materiality"] == "low"
-
 
 def test_manual_escalate_maps_high():
     row = _base_row(risk_tier="manual_escalate")
@@ -97,14 +91,12 @@ def test_manual_escalate_maps_high():
     assert n["risk_level"] == "high"
     assert n["materiality"] == "high"
 
-
 def test_evidence_count_from_raw_block():
     row = _base_row(
         raw_block="evidence_id: ACT-0001\nevidence_id: ACT-0002\n",
     )
     n = normalize_review_item(row)
     assert n["evidence_count"] == 2
-
 
 def test_validate_change_review_demo_subprocess():
     script = REPO_ROOT / "scripts" / "validate-change-review.py"
@@ -117,7 +109,6 @@ def test_validate_change_review_demo_subprocess():
         timeout=60,
     )
     assert r.returncode == 0, r.stderr + r.stdout
-
 
 def _write_pre_decision_review_queue_fixture(review_dir: Path) -> None:
     """Minimal valid tree: proposals + diffs, empty decisions/."""
@@ -200,7 +191,6 @@ def _write_pre_decision_review_queue_fixture(review_dir: Path) -> None:
     (review_dir / "change_event_log.json").write_text(
         json.dumps(event_log, indent=2), encoding="utf-8"
     )
-
 
 def test_validate_change_review_allow_missing_decisions_subprocess(tmp_path):
     script = REPO_ROOT / "scripts" / "validate-change-review.py"

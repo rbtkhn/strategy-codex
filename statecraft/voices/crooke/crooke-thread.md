@@ -1,7 +1,6 @@
 ﻿# Expert thread ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â `crooke`
 <!-- word_count: 3013 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Crooke ledger, helix, and real topical-thread structure.
@@ -42,7 +41,6 @@ _(No narrative distillation yet ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â add prose
 
 January has **no dated** notebook ingest row for Crooke in this snapshot; the voice stays **LevantÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Islamabad room / spoiler** reads beside **`davis`** digests when the operator crosses lanes ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â per roster. Hub URLs are **anchors** only.
 
-
 When historical expert context artifacts exist for `crooke` (per-month files or rollups under `artifacts/skill-work/work-strategy/historical-expert-context/`), this 2026-01 narrative should be read as **adjacent** to those summaries: the artifact compresses stance for handoff; the thread segment preserves operator-facing **arc and intent**. If the two ever diverge, treat dated ingests and explicit ledger lines as the stricter ground, and use prose to explain tension rather than smoothing it away.
 
 The `crooke` laneÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s role (Former diplomat / LevantÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Islamabad ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œroomÃƒÂ¢Ã¢â€šÂ¬Ã‚Â and spoiler reads; often beside Davis in digests) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
@@ -62,7 +60,6 @@ Verification stance for Alastair Crooke in 2026-01 should stay tier-honest: web-
 ## 2026-02
 
 February likewise shows **no indexed Q1 primary** in-repo; keep **`marandi`** / **`parsi`** seams explicit when folding the same week.
-
 
 Typical pairings on file for `crooke` emphasize contrast surfaces: ÃƒÆ’Ã¢â‚¬â€ davis, ÃƒÆ’Ã¢â‚¬â€ marandi, ÃƒÆ’Ã¢â‚¬â€ parsi. In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-02 segment should be read as **mesh navigation**ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âwhich lanes to pull into the same batch passÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Ârather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
 
@@ -84,7 +81,6 @@ Verification stance for Alastair Crooke in 2026-02 should stay tier-honest: web-
 
 March remains **thin** on dated captures here; downstream **April** ids may reference Crooke beside Davis ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Q1 is **routing + lane identity** only.
 
-
 Verification stance for Alastair Crooke in 2026-03 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgmentÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âwithout turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 
 Cross-lane convergence and tension are notebook-native concepts. For 2026-03, read ÃƒÆ’Ã¢â‚¬â€ davis, ÃƒÆ’Ã¢â‚¬â€ marandi, ÃƒÆ’Ã¢â‚¬â€ parsi as the default **short list** of other experts whose fingerprints commonly collide with `crooke` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
@@ -96,7 +92,6 @@ When historical expert context artifacts exist for `crooke` (per-month files or 
 Segment discipline here follows the strategy-notebook contract: Segment 1 is human journal prose; Segment 2 is machine extraction. For 2026-03, the point of a long prose block is to prevent the month from collapsing into a **compressed ledger** that *looks* like analysis but is really a hook list. Hooks are valuable; they are also incomplete without the surrounding sentences that say **why** the hook matters for pages, for open pins, or for the next verify pass.
 
 The `crooke` laneÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s role (Former diplomat / LevantÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Islamabad ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œroomÃƒÂ¢Ã¢â€šÂ¬Ã‚Â and spoiler reads; often beside Davis in digests) also implies **failure-mode awareness**: where this voice tends to overread incentives, flatten complexity, or overweight a single domain. This segment is a place to name that risk in calm language when the monthÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s material invites it, especially before weave work pulls the voice into a page as primary commentator. Naming failure mode is WORK hygiene; it is not an attack on the voice.
-
 
 Verification stance for Alastair Crooke in 2026-03 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgmentÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âwithout turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 
@@ -125,7 +120,6 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-03, re
 - **2026-03** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â No dated notebook ingest ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â @alastaircrooke Substack profile.  
   _Source:_ web: `https://substack.com/@alastaircrooke`
 
-
 ### 2026-04
 
 - **2026-04** ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Ledger mirror 1 (partial month).  
@@ -138,7 +132,6 @@ Cross-lane convergence and tension are notebook-native concepts. For 2026-03, re
 ## 2026-04
 
 _Partial month ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â no April `thread:` machine line or Page index row for Crooke in-repo at authoring time; **LevantÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Islamabad spoiler** lane stays routing-only._
-
 
 If pages named this expert during 2026-04, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âabsence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
 
@@ -166,7 +159,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 _Auto-generated from `transcript.md` + **on-disk** and **inbox** `raw-input/` (de-duped union) + `strategy-page` blocks + optional legacy on-disk index rows. **Journal layer** (narrative) lives **above** the **strategy-expert-thread** start HTML comment. The machine-layer HTML block is replaced on each `thread` run._
 
 ### Recent transcript material
-
 
 ### Recent raw-input (lane)
 

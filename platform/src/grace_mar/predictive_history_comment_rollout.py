@@ -8,7 +8,6 @@ The rollout is review-gated:
 - mark entries approved or rejected
 - post only approved, non-parked entries
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -40,7 +39,6 @@ PH_CIV_TREE_BASE = f"{PH_CIV_GITHUB_BASE}/tree/main"
 PH_CIV_BLOB_BASE = f"{PH_CIV_GITHUB_BASE}/blob/main"
 YOUTUBE_INSERT_URL = "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet"
 
-
 @dataclass(frozen=True)
 class SourceVideo:
     video_id: str
@@ -49,11 +47,9 @@ class SourceVideo:
     youtube_url: str
     transcript_path: str
 
-
 def _ensure_ph_civ_importable() -> None:
     if PH_CIV_SRC.exists() and str(PH_CIV_SRC) not in sys.path:
         sys.path.insert(0, str(PH_CIV_SRC))
-
 
 def _ph_cli():
     _ensure_ph_civ_importable()
@@ -61,20 +57,16 @@ def _ph_cli():
 
     return ph_cli
 
-
 def _read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
-
 
 def _write_text(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
 
-
 def _slugify_filename(value: str) -> str:
     slug = re.sub(r"[^a-zA-Z0-9_-]+", "-", value).strip("-").lower()
     return slug or "untitled"
-
 
 def load_source_videos(path: Path = SOURCE_INDEX_PATH) -> list[SourceVideo]:
     """Parse the public source video index table into structured rows."""
@@ -105,7 +97,6 @@ def load_source_videos(path: Path = SOURCE_INDEX_PATH) -> list[SourceVideo]:
         )
     return videos
 
-
 def _existing_rows(queue_path: Path) -> dict[tuple[str, int], dict[str, Any]]:
     if not queue_path.exists():
         return {}
@@ -117,14 +108,11 @@ def _existing_rows(queue_path: Path) -> dict[tuple[str, int], dict[str, Any]]:
         if row.get("source_id") and row.get("phase") is not None
     }
 
-
 def _chapter_folder_url(payload: dict[str, Any]) -> str | None:
     return payload.get("github_folder_url")
 
-
 def _phase1_comment(payload: dict[str, Any]) -> str:
     return payload["suggested_youtube_comment"]
-
 
 def _base_queue_entry(
     *,
@@ -156,7 +144,6 @@ def _base_queue_entry(
         "post_receipt": {},
     }
 
-
 def _merge_state(entry: dict[str, Any], existing: dict[str, Any] | None) -> dict[str, Any]:
     if not existing:
         return entry
@@ -180,7 +167,6 @@ def _merge_state(entry: dict[str, Any], existing: dict[str, Any] | None) -> dict
         if key in existing and existing[key] not in (None, ""):
             merged[key] = existing[key]
     return merged
-
 
 def build_queue_rows(
     *,
@@ -219,11 +205,9 @@ def build_queue_rows(
     rows.sort(key=lambda row: (row["source_id"], int(row["phase"])))
     return rows
 
-
 def save_queue(rows: list[dict[str, Any]], path: Path = QUEUE_PATH) -> None:
     payload = {"rows": rows, "generated_at_utc": datetime.now(timezone.utc).isoformat()}
     _write_text(path, json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
-
 
 def _render_phase1_draft_markdown(row: dict[str, Any]) -> str:
     lines = [
@@ -278,7 +262,6 @@ def _render_phase1_draft_markdown(row: dict[str, Any]) -> str:
     )
     return "\n".join(lines) + "\n"
 
-
 def render_phase1_drafts(rows: list[dict[str, Any]], drafts_dir: Path = DRAFTS_DIR) -> list[Path]:
     drafts_dir.mkdir(parents=True, exist_ok=True)
     written: list[Path] = []
@@ -296,14 +279,12 @@ def render_phase1_drafts(rows: list[dict[str, Any]], drafts_dir: Path = DRAFTS_D
             existing.unlink()
     return written
 
-
 def load_queue(path: Path = QUEUE_PATH) -> list[dict[str, Any]]:
     if not path.exists():
         return []
     payload = json.loads(_read_text(path))
     rows = payload.get("rows", payload if isinstance(payload, list) else [])
     return list(rows)
-
 
 def _status_counts(rows: list[dict[str, Any]], *, phase: int | None = None) -> dict[str, int]:
     counts: dict[str, int] = {"ready": 0, "parked": 0, "approved": 0, "posted": 0, "needs_review": 0, "rejected": 0}
@@ -315,7 +296,6 @@ def _status_counts(rows: list[dict[str, Any]], *, phase: int | None = None) -> d
         counts.setdefault(str(row.get("approval_state", "")), 0)
         counts[str(row.get("approval_state", ""))] += 1
     return counts
-
 
 def render_markdown_summary(rows: list[dict[str, Any]]) -> str:
     lines = [
@@ -348,7 +328,6 @@ def render_markdown_summary(rows: list[dict[str, Any]]) -> str:
         lines.append(f"| {row['source_id']} | {row['phase']} | {row.get('park_reason', '')} |")
     return "\n".join(lines)
 
-
 def render_telegram_summary(rows: list[dict[str, Any]]) -> str:
     phase1 = _status_counts(rows, phase=1)
     return "\n".join(
@@ -361,7 +340,6 @@ def render_telegram_summary(rows: list[dict[str, Any]]) -> str:
         ]
     )
 
-
 def _video_id_from_url(url: str) -> str:
     parsed = urlparse(url)
     if parsed.hostname in {"youtu.be"}:
@@ -371,7 +349,6 @@ def _video_id_from_url(url: str) -> str:
         if "v" in query and query["v"]:
             return query["v"][0]
     raise ValueError(f"Could not parse YouTube video id from URL: {url}")
-
 
 def _youtube_insert_comment(*, video_id: str, text: str, access_token: str, timeout: int = 30) -> dict[str, Any]:
     payload = {
@@ -393,10 +370,8 @@ def _youtube_insert_comment(*, video_id: str, text: str, access_token: str, time
     with urlopen(request, timeout=timeout) as response:
         return json.loads(response.read().decode("utf-8"))
 
-
 def _comment_url(video_id: str, comment_id: str | int) -> str:
     return f"https://www.youtube.com/watch?v={video_id}&lc={comment_id}"
-
 
 def set_entry_state(
     *,
@@ -416,7 +391,6 @@ def set_entry_state(
         raise KeyError(f"No queue row found for {source_id} phase {phase}")
     save_queue(rows, queue_path)
     return rows
-
 
 def post_approved_rows(
     *,
@@ -455,7 +429,6 @@ def post_approved_rows(
         save_queue(rows, queue_path)
     return rows
 
-
 def _build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--queue", type=Path, default=QUEUE_PATH, help="Queue state file")
@@ -488,7 +461,6 @@ def _build_parser() -> argparse.ArgumentParser:
     post.set_defaults(func=_cmd_post)
     return p
 
-
 def _cmd_build(args: argparse.Namespace) -> int:
     rows = build_queue_rows(queue_path=args.queue, source_index_path=args.source_index)
     if args.write:
@@ -500,7 +472,6 @@ def _cmd_build(args: argparse.Namespace) -> int:
         print(render_markdown_summary(rows))
     return 0
 
-
 def _cmd_report(args: argparse.Namespace) -> int:
     rows = load_queue(args.queue)
     if not rows:
@@ -509,7 +480,6 @@ def _cmd_report(args: argparse.Namespace) -> int:
     print("")
     print(render_telegram_summary(rows))
     return 0
-
 
 def _cmd_draft(args: argparse.Namespace) -> int:
     rows = build_queue_rows(queue_path=args.queue, source_index_path=args.source_index)
@@ -524,12 +494,10 @@ def _cmd_draft(args: argparse.Namespace) -> int:
     print(row["comment_draft"])
     return 0
 
-
 def _cmd_set_state(args: argparse.Namespace) -> int:
     set_entry_state(queue_path=args.queue, source_id=args.source_id, phase=args.phase, approval_state=args.state)
     print(f"updated: {args.source_id} phase {args.phase} -> {args.state}")
     return 0
-
 
 def _cmd_post(args: argparse.Namespace) -> int:
     if not args.access_token and not args.dry_run:
@@ -547,11 +515,9 @@ def _cmd_post(args: argparse.Namespace) -> int:
         print(render_telegram_summary(rows))
     return 0
 
-
 def main(argv: list[str] | None = None) -> int:
     args = _build_parser().parse_args(argv)
     return args.func(args)
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

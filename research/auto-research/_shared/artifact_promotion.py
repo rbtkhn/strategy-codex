@@ -26,17 +26,14 @@ from repo_io import profile_dir, read_path
 from sandbox_merge import render_candidate_block
 from stage_gate_candidate import insert_before_processed, next_candidate_id
 
-
 def load_artifact(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
-
 
 def _safe_relpath(path: Path) -> str:
     try:
         return str(path.resolve().relative_to(REPO_ROOT))
     except ValueError:
         return str(path.resolve())
-
 
 def build_promoted_candidate_block(
     artifact: dict[str, Any],
@@ -92,7 +89,6 @@ def build_promoted_candidate_block(
         auto_research_metadata=auto_meta,
     )
     return candidate_id, candidate_block
-
 
 def promote_artifact_to_gate(
     artifact_path: Path,

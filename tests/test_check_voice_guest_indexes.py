@@ -12,14 +12,11 @@ if str(SCRIPTS) not in sys.path:
 
 import check_voice_guest_indexes as guest_check  # noqa: E402
 
-
 def test_guest_index_batch_check_passes_on_repo() -> None:
     assert guest_check.main([]) == 0
 
-
 def test_guest_index_batch_unknown_slug() -> None:
     assert guest_check.main(["--voice", "not-a-voice"]) == 1
-
 
 def test_guest_index_single_voice_check(tmp_path: Path, monkeypatch) -> None:
     script = tmp_path / "build_sample_guest_index.py"

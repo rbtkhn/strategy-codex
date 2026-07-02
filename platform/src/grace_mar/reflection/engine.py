@@ -10,7 +10,6 @@ from typing import Any
 
 from grace_mar.reflection.collect import ReflectionBundle
 
-
 @dataclass
 class ReflectionResult:
     """Output of a reflection run (before writing files)."""
@@ -21,7 +20,6 @@ class ReflectionResult:
     raw_model_json: str | None = None
     critique_notes: list[str] = field(default_factory=list)
 
-
 SYSTEM = """You are a Grace-Mar pipeline analyst. You ONLY use evidence from the bundled excerpts.
 You must not invent facts not present in the excerpts. Output valid JSON only.
 Mind categories for mergeable candidates MUST be one of: knowledge, curiosity, personality.
@@ -29,7 +27,6 @@ profile_target MUST be one of: IX-A. KNOWLEDGE, IX-B. CURIOSITY, IX-C. PERSONALI
 Proposals targeting skills.md, JSON files, or SELF-LIBRARY structural edits must set reflection_axis
 to skills, intent, or library and include in suggested_entry explicit text that operator merge to
 those files is MANUAL (not automated by process_approved_candidates)."""
-
 
 USER_TEMPLATE = """Analyze the following operator bundle for fork `{user_id}` (lookback {days} days).
 
@@ -64,14 +61,12 @@ Rules:
 {bundle_text}
 """
 
-
 def _parse_json_object(text: str) -> dict[str, Any]:
     text = text.strip()
     m = re.search(r"\{[\s\S]*\}\s*$", text)
     if m:
         text = m.group(0)
     return json.loads(text)
-
 
 def _validate_and_trim_proposals(
     proposals: list[dict[str, Any]],
@@ -96,7 +91,6 @@ def _validate_and_trim_proposals(
         out.append(p)
     out.sort(key=lambda x: int(x.get("priority_score") or 0), reverse=True)
     return out[:max_n], notes
-
 
 def run_reflection_engine(
     bundle: ReflectionBundle,

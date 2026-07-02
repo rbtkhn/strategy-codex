@@ -16,7 +16,6 @@ archive_links:
 
 # Dialogue Works x Armstrong speaker arc
 
-
 Purpose: compact reuse note for the `Dialogue Works x Armstrong` run inside the Alkorshid stream. This is not a substitute for the raw-input shelf. It exists so future routing can quickly answer: what kind of Armstrong lane Alkorshid elicits, which files matter most, and why this is now the clearest mature Armstrong branch on disk.
 
 ## Orthogonality guide

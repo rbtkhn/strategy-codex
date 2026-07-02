@@ -2,7 +2,7 @@
 
 **Status:** Template / scaffold  
 **Scope:** Reusable architecture for any WORK territory (`work-strategy`, `work-politics`, `work-dev`, future `work-*` lanes).  
-**Boundary:** WORK only. No direct Record, SELF, EVIDENCE, or Voice writes. Promotion beyond WORK requires the laneâ€™s gate and companion approval where Record or Voice are affected.
+**Boundary:** non-authoritative. No direct Record, SELF, EVIDENCE, or Voice writes. Promotion beyond WORK requires the laneâ€™s gate and companion approval where Record or Voice are affected.
 
 **Relation to MV checklist:** **Tier 0** onboarding steps live in [work-template.md](../work-template.md) (README + history + registry). This folder is the **deeper pattern library** (ledger, daily surface, emerging patterns, multi-frame review).
 

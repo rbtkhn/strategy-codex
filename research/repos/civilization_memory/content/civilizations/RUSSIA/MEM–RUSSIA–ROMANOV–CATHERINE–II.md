@@ -303,7 +303,6 @@ Key measures:
 
 Robert K. Massie captures the constraint imposed by noble resistance:
 
-
 “The nobles who surrounded Catherine were deeply suspicious of any
 reform that might improve the condition of the peasants. They feared
 that even minor concessions would weaken their authority, and Catherine

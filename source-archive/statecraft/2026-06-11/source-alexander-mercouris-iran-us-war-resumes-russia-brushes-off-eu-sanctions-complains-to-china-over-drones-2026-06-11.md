@@ -50,7 +50,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is 11th June 2026 and as you can see I'm still in Russia attending the conference. In fact, I'm going to be submitting a paper to the conference tomorrow and making a presentation. And as a result, inevitably my programs will continue to be shorter than usual. Well, over the last 24 hours, we've had more attacks by the United States against Iran, more missile strikes.

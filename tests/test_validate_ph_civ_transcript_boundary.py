@@ -12,7 +12,6 @@ from validate_ph_civ_transcript_boundary import (  # noqa: E402
     is_protected_transcript_path,
 )
 
-
 def test_blocks_mirror_prefixed_transcript_paths() -> None:
     blocked, allowed = classify_paths(
         [
@@ -28,7 +27,6 @@ def test_blocks_mirror_prefixed_transcript_paths() -> None:
         "public/predictive-history/book/volume-ii/civ-07/civ-07-commentary.md"
     ]
 
-
 def test_blocks_submodule_relative_transcript_paths() -> None:
     blocked, allowed = classify_paths(
         [
@@ -40,12 +38,10 @@ def test_blocks_submodule_relative_transcript_paths() -> None:
     assert blocked == ["book/volume-v/gb-03/gb-03-transcript.md"]
     assert allowed == ["data/cards/gb-03.md"]
 
-
 def test_normalizes_windows_paths() -> None:
     assert is_protected_transcript_path(
         r"public\ph-civ\book\volume-ii\civ-10\civ-10-transcript.md"
     )
-
 
 def test_allows_boundary_maintenance_paths() -> None:
     blocked, allowed = classify_paths(
@@ -57,7 +53,6 @@ def test_allows_boundary_maintenance_paths() -> None:
 
     assert blocked == []
     assert len(allowed) == 2
-
 
 def test_violation_message_documents_escape_hatch() -> None:
     message = format_violation_message(

@@ -11,7 +11,6 @@ if str(SCRIPTS) not in sys.path:
 
 import cognition_streams_audit as csa  # noqa: E402
 
-
 def test_default_watchlist_is_six_stream_daily_set() -> None:
     watchlist = csa._load_watchlist()
 
@@ -29,14 +28,12 @@ def test_default_watchlist_is_six_stream_daily_set() -> None:
     assert judging_freedom.thread == "napolitano"
     assert judging_freedom.file_prefix == "transcript-napolitano"
 
-
 def test_main_roster_loads_fourteen_discoverable_channels() -> None:
     roster = csa._load_roster(archive_root=REPO_ROOT / "source-archive" / "statecraft", watchlist_only=False)
     assert len(roster) == 14
     assert "predictive-history" in roster
     assert "mario-nawfal" in roster
     assert "jeffrey-sachs" not in roster
-
 
 def _receipt(channel_key: str, channel_name: str, rows: list[dict[str, object]]) -> dict[str, object]:
     return {
@@ -49,11 +46,9 @@ def _receipt(channel_key: str, channel_name: str, rows: list[dict[str, object]])
         "items": rows,
     }
 
-
 def _write_raw(path: Path, *, source_url: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(f"---\nsource_url: \"{source_url}\"\n---\nbody\n", encoding="utf-8")
-
 
 def test_may_regression_classifications_and_queue(tmp_path: Path) -> None:
     receipts = tmp_path / "receipts" / "2026-05-11_to_2026-05-13"
@@ -354,7 +349,6 @@ def test_may_regression_classifications_and_queue(tmp_path: Path) -> None:
     assert "hidden-short" not in queue_md
     assert "hidden-companion" not in queue_md
 
-
 def test_summary_reports_target_date_even_when_undated_backlog_is_below_threshold() -> None:
     rows = [
         {
@@ -423,7 +417,6 @@ def test_summary_reports_target_date_even_when_undated_backlog_is_below_threshol
     assert summary["target_date_captured_main"] == 2
     assert summary["target_date_pct"] == 1.0
     assert summary["target_date_must_capture_remaining"] == 0
-
 
 def test_offline_rerun_is_stable(tmp_path: Path) -> None:
     receipts = tmp_path / "receipts" / "2026-05-12_to_2026-05-12"
@@ -514,7 +507,6 @@ def test_offline_rerun_is_stable(tmp_path: Path) -> None:
 
     assert result_a["summary"] == result_b["summary"]
     assert result_a["queue_groups"] == result_b["queue_groups"]
-
 
 def test_fetch_metadata_falls_back_to_module(monkeypatch) -> None:
     calls: list[str] = []

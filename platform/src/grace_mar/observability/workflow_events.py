@@ -11,19 +11,15 @@ from typing import Any
 
 EVENT_SCHEMA_VERSION = "1.0.0-workflow-event"
 
-
 def new_event_id() -> str:
     return str(uuid.uuid4())
-
 
 def workflow_id_from_parts(*parts: str) -> str:
     h = hashlib.sha256("|".join(parts).encode("utf-8")).hexdigest()[:16]
     return f"wf_{h}"
 
-
 def _iso_now() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
 
 def event_from_runtime_trace_line(
     obj: dict[str, Any],
@@ -64,7 +60,6 @@ def event_from_runtime_trace_line(
         "notes": f"task_mode={obj.get('task_mode')}",
     }
 
-
 def event_from_change_proposal(
     proposal: dict[str, Any],
     *,
@@ -103,7 +98,6 @@ def event_from_change_proposal(
         "notes": f"changeType={proposal.get('changeType')}",
     }
 
-
 def _touched_surfaces(proposal: dict[str, Any]) -> list[str]:
     out: list[str] = []
     ts = proposal.get("targetSurface")
@@ -113,7 +107,6 @@ def _touched_surfaces(proposal: dict[str, Any]) -> list[str]:
         if isinstance(s, str) and s:
             out.append(s)
     return out
-
 
 def event_from_observability_report_aggregate(
     report: dict[str, Any],
@@ -150,7 +143,6 @@ def event_from_observability_report_aggregate(
         "partialConfidence": "aggregate_only",
         "notes": f"staleReviewCount={stale}; proposalCounts embedded in source report",
     }
-
 
 def event_from_workflow_depth_line(
     obj: dict[str, Any],
@@ -190,7 +182,6 @@ def event_from_workflow_depth_line(
         "notes": f"mode={mode}",
     }
 
-
 def event_from_retrieval_miss_line(
     obj: dict[str, Any],
     *,
@@ -225,7 +216,6 @@ def event_from_retrieval_miss_line(
         "partialConfidence": "partial",
         "notes": "",
     }
-
 
 def event_from_lane_observability(
     doc: dict[str, Any],
@@ -262,7 +252,6 @@ def event_from_lane_observability(
         "partialConfidence": "aggregate_only",
         "notes": json.dumps({"keys": list(doc.keys())[:12]}),
     }
-
 
 def load_jsonl(path: Path) -> list[dict[str, Any]]:
     if not path.is_file():

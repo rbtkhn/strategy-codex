@@ -13,8 +13,6 @@ post_id: 191988097
 
 # The Innermost Loop - 2026-03-24
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 24, 2026
@@ -29,10 +27,7 @@ The Singularity now has a multi-trillion-dollar endorsement.
 
 ## Newsletter Text
 
--
--
-
-The Singularity now has a multi-trillion-dollar endorsement. Jensen Huang has declared “I think we’ve achieved AGI,” a statement that lands differently when uttered by the man who manufactures the substrate it runs on. The architecture of that intelligence is turning recursively inward. Meta researchers have introduced “hyperagents,” self-referential agents that fuse task-solving and self-modification into one editable program, enabling metacognitive recursion that improves not just performance but the mechanism of future improvement. The same intelligence that recurses toward infinity now fits in a palm. The ANEMLL open source project has run a 400B model on an iPhone 17 Pro at 0.6 tokens per second, putting what Jensen calls AGI in your pocket.
+- The Singularity now has a multi-trillion-dollar endorsement. Jensen Huang has declared “I think we’ve achieved AGI,” a statement that lands differently when uttered by the man who manufactures the substrate it runs on. The architecture of that intelligence is turning recursively inward. Meta researchers have introduced “hyperagents,” self-referential agents that fuse task-solving and self-modification into one editable program, enabling metacognitive recursion that improves not just performance but the mechanism of future improvement. The same intelligence that recurses toward infinity now fits in a palm. The ANEMLL open source project has run a 400B model on an iPhone 17 Pro at 0.6 tokens per second, putting what Jensen calls AGI in your pocket.
 
 The machines are solving problems their creators could not. GPT-5.4 Pro has cracked the first open problem in the FrontierMath Open Problems benchmark, real research questions professional mathematicians have tried and failed to answer. Will Brian , the UNC Charlotte professor who posed the conjecture in 2019, called it “an exciting solution” that eliminated an inefficiency in his construction. The pattern is broader than one conjecture. Epoch AI notes a consistent pattern across autonomous novel math: experts consider the general approach but get stuck executing it, and when they see the AI solution, they are happy with it. The frontier is shifting from individual breakthroughs to sustained inquiry. Anthropic has recommended Physical Superintelligence PBC’s Get Physics Done (GPD) software for long-running scientific computing with Claude, turning the model into a persistent research engine.
 

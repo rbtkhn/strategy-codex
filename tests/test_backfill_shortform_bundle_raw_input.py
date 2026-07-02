@@ -7,7 +7,6 @@ from pathlib import Path
 
 from scripts.backfill_shortform_bundle_raw_input import _build_doc, run
 
-
 def test_build_doc_uses_shortform_bundle_kind() -> None:
     doc = _build_doc(
         ingest_date=date(2026, 5, 7),
@@ -28,7 +27,6 @@ def test_build_doc_uses_shortform_bundle_kind() -> None:
     assert "## Screenshot provenance" in doc
     assert "shot-1.png" in doc
     assert "Post one" in doc
-
 
 def test_run_writes_daily_shortform_bundle(tmp_path: Path) -> None:
     body = tmp_path / "ocr.md"

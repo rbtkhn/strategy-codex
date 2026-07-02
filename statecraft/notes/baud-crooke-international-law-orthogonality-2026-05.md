@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 # Baud-Crooke international-law orthogonality review - 2026-05
 
-
 ## Scope
 
 Local cluster under review:

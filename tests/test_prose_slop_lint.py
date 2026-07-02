@@ -8,10 +8,8 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from prose_slop_lint import lint_file, lint_text  # noqa: E402
 
-
 def rule_ids(findings) -> set[str]:
     return {f.rule_id for f in findings}
-
 
 # Golden strings from docs/essay-voice.md template slop section
 BAD_LEDE = """# Test Essay
@@ -33,30 +31,25 @@ Leo refuses delegation in plain prose here.
 One closing sentence without em-dash symmetry in body paragraphs.
 """
 
-
 def test_must_flag_bad_lede() -> None:
     findings = lint_text(BAD_LEDE)
     ids = rule_ids(findings)
     assert "SLOP-01" in ids
     assert "SLOP-04" in ids
 
-
 def test_must_pass_good_revision() -> None:
     findings = lint_text(GOOD_REVISION)
     slop = {f.rule_id for f in findings if f.rule_id.startswith("SLOP-")}
     assert slop == set()
-
 
 def test_must_flag_tri_mind() -> None:
     text = "# X\n\nThis is a tri-mind roundtable about AI.\n"
     findings = lint_text(text)
     assert "SLOP-08" in rule_ids(findings)
 
-
 def test_must_pass_set_piece_blockquote() -> None:
     findings = lint_text(SET_PIECE_BLOCKQUOTE)
     assert "SLOP-02" not in rule_ids(findings)
-
 
 def test_leo_exemplar_passes_default_lint() -> None:
     path = REPO_ROOT / "essays/leo-barnes-jiang-on-ai.md"
@@ -64,13 +57,11 @@ def test_leo_exemplar_passes_default_lint() -> None:
     slop = {f.rule_id for f in findings if f.rule_id.startswith("SLOP-")}
     assert slop == set()
 
-
 def test_leo_exemplar_passes_strict_full_lint() -> None:
     path = REPO_ROOT / "essays/leo-barnes-jiang-on-ai.md"
     findings = lint_file(path, strict=True, full=True)
     slop = {f.rule_id for f in findings if f.rule_id.startswith("SLOP-")}
     assert slop == set()
-
 
 def test_rhetorical_question_closer_full_scan() -> None:
     text = "# Essay\n\nBody paragraph with a claim.\n\n## Falsifiers\n\nMaybe this fails?\n"

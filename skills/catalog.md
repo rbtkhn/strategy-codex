@@ -213,7 +213,7 @@ Canonical method: [skills/statecraft-multi-lens/SKILL.md](statecraft-multi-lens/
 - **What you get**
   - A shelf-native bounded note (Purpose, owns-here blocks, citation hygiene, falsifiers) plus README index entry; bidirectional link when a parent day exists.
 - **Boundary**
-  - WORK only; one argument per note; no transcript mirrors; does not replace `state-synthesis` for whole-day work or `statecraft-intelligence-essay` for essay-class prose.
+  - non-authoritative; one argument per note; no transcript mirrors; does not replace `state-synthesis` for whole-day work or `statecraft-intelligence-essay` for essay-class prose.
 - **Current status**
   - `promoted`
 
@@ -251,7 +251,7 @@ Canonical method: [skills/monthly-deepening/SKILL.md](monthly-deepening/SKILL.md
 - **What you get**
   - A dated seam with signal, judgment, links, and open hooks, plus optional batch-analysis grep anchors.
 - **Boundary**
-  - WORK only; not SELF, not EVIDENCE, and not Record staging.
+  - non-authoritative; not SELF, not EVIDENCE, and not Record staging.
 - **Current status**
   - `promoted`
 
@@ -270,7 +270,7 @@ Canonical method: [skills/strategy-notebook-expert-cross-weave/SKILL.md](strateg
 - **What you get**
   - A new family, routing, or meta-surface artifact plus synchronized control-plane metrics and a clearer next wedge.
 - **Boundary**
-  - WORK only; not Record, not PH-CIV authoring, and not raw CIV-MEM backfill.
+  - non-authoritative; not Record, not PH-CIV authoring, and not raw CIV-MEM backfill.
 - **Current status**
   - `archived`
 
@@ -289,7 +289,7 @@ Canonical method: [skills/statecraft-helix-synthesis/SKILL.md](statecraft-helix-
 - **What you get**
   - One recommended path, fixed menu, and letter handoff into frame/retrieve/promote/review work.
 - **Boundary**
-  - WORK only; not Record; does not replace deploy routing or lane skills.
+  - non-authoritative; not Record; does not replace deploy routing or lane skills.
 - **Current status**
   - `promoted`
 
@@ -308,7 +308,7 @@ Canonical method: [skills/civ-state/SKILL.md](civ-state/SKILL.md)
 - **What you get**
   - One argument-shaped note with retrieve posture, source anchors, falsifiers, and README wiring — not civic-chain word bands.
 - **Boundary**
-  - WORK only; not Record; does not edit `public/civ-state/` (hand off to **`civ-state-essay`**). Use **`state-note`** when CIV-STATE pre-pass is not load-bearing.
+  - non-authoritative; not Record; does not edit `public/civ-state/` (hand off to **`civ-state-essay`**). Use **`state-note`** when CIV-STATE pre-pass is not load-bearing.
 - **Current status**
   - `promoted`
 
@@ -346,7 +346,7 @@ Canonical method: [skills/civ-state-primary-text-acquisition/SKILL.md](civ-state
 - **What you get**
   - A detailed bridge note, an additive seed-list section, or an attribution-correction pass that preserves chapter-generating ideas.
 - **Boundary**
-  - WORK only; not Record, not destination-corpus doctrine, and not a substitute for full chapter writing.
+  - non-authoritative; not Record, not destination-corpus doctrine, and not a substitute for full chapter writing.
 - **Current status**
   - `promoted`
 

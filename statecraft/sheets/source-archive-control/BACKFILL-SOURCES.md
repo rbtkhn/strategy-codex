@@ -1,7 +1,6 @@
 # Backfill sources registry
 <!-- word_count: 521 -->
 
-
 ## Purpose
 
 This file is the routing registry for strategy-notebook backfill scripts. It does not replace the scripts, raw captures, expert profiles, or validation. It exists to reduce wrapper sprawl by making each backfill script answer one question:

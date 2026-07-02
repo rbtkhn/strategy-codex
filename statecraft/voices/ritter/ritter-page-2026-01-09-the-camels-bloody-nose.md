@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-01-09 (*The Camel’s Bloody Nose*)
 <!-- word_count: 659 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-01-09 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 660
@@ -49,20 +48,17 @@ The next time—if there is a next time—the camel may not survive.
 
 Let’s hope the west is sophisticated enough to comprehend the message Russia appears to be sending.
 
-
 ### Reflection
 
 **Operator note:** Short escalation-signal essay (Oreshnik, Lvov/Kiev strikes, Kapustin Yar training-launch read). Near-war/scenario-adjacent claims (CIA drones, tanker seizures, NATO defense)—essay ≠ wire. Light cleanup of operator/OCR errors only.
 
 **WORK:** The Camel’s Bloody Nose (Substack) · Format: Substack-style essay. Historical and legal passages reflect Ritter’s read; verify dates, quotes, and casualty figures against primary or scholarly sources if promoted. Lanes: Russia–U.S. / Ukraine / strategic stability, Nuclear / arms control. Commentator tier; verify before wire-use. Prompts: falsifiers, delta vs prior Ritter, wire boundary for `days.md`.
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

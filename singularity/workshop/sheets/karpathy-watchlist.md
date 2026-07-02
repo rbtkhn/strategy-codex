@@ -1,7 +1,5 @@
 # Karpathy Watchlist
 
-WORK only; not Record.
-
 ## Source
 
 - Source profile: [karpathy](https://github.com/karpathy)

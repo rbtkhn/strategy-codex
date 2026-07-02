@@ -14,7 +14,6 @@ editorial_note: "Operator-pasted cleaned transcript."
 ---
 > **Archive SSOT:** [source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md](../../../../../source-archive/statecraft/2025-05-14/source-glenn-diesen-sergey-karaganov-russias-eurasian-future-spiritual-revival-2025-05-14.md) — this legacy path is compatibility residue only.
 
-
 # Diesen / Sergey Karaganov - Russia's Eurasian Future & Spiritual Revival
 
 **Channel:** Glenn Diesen  

@@ -1,6 +1,5 @@
 # America Crisis Test Casebook
 
-
 Use this lane casebook to track what America learns from each crisis test. The shared method index is [Crisis Test Casebook](../sheets/crisis-test-casebook.md).
 
 | crisis test | what America sees first | what America fears | leverage | face-saving phrase | best instrument | lesson for America |

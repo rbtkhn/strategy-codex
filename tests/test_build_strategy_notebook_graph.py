@@ -1,4 +1,4 @@
-"""Tests for scripts/build_strategy_notebook_graph.py (WORK only)."""
+"""Tests for scripts/build_strategy_notebook_graph.py (non-authoritative)."""
 
 from __future__ import annotations
 
@@ -11,7 +11,6 @@ from pathlib import Path
 import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-
 
 @pytest.fixture()
 def minimal_notebook(tmp_path: Path) -> Path:
@@ -36,7 +35,6 @@ def minimal_notebook(tmp_path: Path) -> Path:
     """)
     (d / "thread.md").write_text(thread_content, encoding="utf-8")
     return nb
-
 
 def test_build_graph_has_page_expert_and_watch(
     minimal_notebook: Path, tmp_path: Path

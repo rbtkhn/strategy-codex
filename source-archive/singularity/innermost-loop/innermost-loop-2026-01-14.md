@@ -13,8 +13,6 @@ post_id: 184547307
 
 # The Innermost Loop - 2026-01-14
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 14, 2026
@@ -29,10 +27,7 @@ The Singularity is now proving theorems that humans cannot.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now proving theorems that humans cannot. Ravi Vakil, president of the American Mathematical Society, has used Gemini Deep Think to prove a new result in Algebraic Geometry . He admits the AI produced insights he is “unsure he could have reached alone,” propelling the project forward intellectually. More broadly, mathematics is finally succumbing to automation. Harmonic, flush with $295 million, has announced plans to solve the Riemann Hypothesis, Hodge Conjecture, and Millennium Prize problems .
+- The Singularity is now proving theorems that humans cannot. Ravi Vakil, president of the American Mathematical Society, has used Gemini Deep Think to prove a new result in Algebraic Geometry . He admits the AI produced insights he is “unsure he could have reached alone,” propelling the project forward intellectually. More broadly, mathematics is finally succumbing to automation. Harmonic, flush with $295 million, has announced plans to solve the Riemann Hypothesis, Hodge Conjecture, and Millennium Prize problems .
 
 The workforce is scaling horizontally into the synthetic realm. A startup called Atoms has launched an autonomous AI team that builds, launches, and scales real businesses . Salesforce released Slackbot as an “out-of-the-box employee agent,” treating humans and agents as fungible assets. Privacy remains a premium in this new stack. Signal creator Moxie Marlinspike has launched Confer, an open-source AI assistant that is cryptographically verifiable to be unreadable by anyone but the user. Meanwhile, the scale of creation is going vertical. Google announced that Nano Banana Pro has been used to generate 1 billion images in its first 53 days . The company also upgraded Veo 3.1 to allow identity consistency across video generation. To consume this flood of reality, Meta and EssilorLuxottica are doubling smart glass production to 20 million units a year.
 

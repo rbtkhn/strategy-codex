@@ -1,6 +1,5 @@
 # America - Panama Canal Water / Transit Sovereignty Framework
 
-
 ## Transaction Name
 
 Panama transit reliability without ownership politics.

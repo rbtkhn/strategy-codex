@@ -1,6 +1,5 @@
 # PH-CIV Era Overlay Options
 
-
 This note preserves possible ways to overlay the CIV-STATE era structure onto `ph-civ` in the future.
 
 The governing caution is simple:

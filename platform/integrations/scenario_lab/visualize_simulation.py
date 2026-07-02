@@ -8,7 +8,6 @@ from grace_mar.presentations.contract import validate_bundle
 from integrations.presentations.common import current_git_ref, write_bundle
 from integrations.scenario_lab.common import REPO_ROOT, load_json, relative_to_repo, utc_now_iso, write_text
 
-
 def build_mermaid_tree(report: dict[str, Any]) -> str:
     lines = ["graph TD", '  root["Scenario Lab Run"]']
     ranked = report.get("result", {}).get("ranked_scenarios", [])
@@ -23,7 +22,6 @@ def build_mermaid_tree(report: dict[str, Any]) -> str:
         label = f"{item.get('name', f'Scenario {idx}')} ({probability})".replace('"', "'")
         lines.append(f'  root --> {node}["{label}"]')
     return "\n".join(lines)
-
 
 def build_visualization_markdown(report: dict[str, Any], packet: dict[str, Any] | None) -> str:
     lines: list[str] = []
@@ -74,7 +72,6 @@ def build_visualization_markdown(report: dict[str, Any], packet: dict[str, Any] 
                 lines.append(f"- `{item['source_path']}`")
             lines.append("")
     return "\n".join(lines)
-
 
 def build_bundle(report: dict[str, Any], packet: dict[str, Any] | None, report_path: Path) -> dict[str, Any]:
     markdown = build_visualization_markdown(report, packet)
@@ -149,7 +146,6 @@ def build_bundle(report: dict[str, Any], packet: dict[str, Any] | None, report_p
     }
     return validate_bundle(bundle)
 
-
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Visualize a Scenario Lab pilot run for markdown and Presenton.")
     parser.add_argument("--input", type=Path, required=True, help="Path to report.json from run_gated_simulation.")
@@ -157,7 +153,6 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--bundle-output", type=Path, help="Optional presentation bundle output path.")
     parser.add_argument("--packet", type=Path, help="Optional packet.json path; defaults to sibling packet.json.")
     return parser
-
 
 def main() -> int:
     parser = build_parser()
@@ -175,7 +170,6 @@ def main() -> int:
             bundle_path = REPO_ROOT / bundle_path
         write_bundle(build_bundle(report, packet, args.input), bundle_path)
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

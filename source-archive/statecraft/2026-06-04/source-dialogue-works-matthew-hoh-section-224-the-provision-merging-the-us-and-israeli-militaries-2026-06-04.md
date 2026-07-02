@@ -51,7 +51,6 @@ transcript_curation: curated_sectioned
 
 ## Cleaned Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Thursday, June 4th, 2026, and our dear friend, our brother Matt Ho is here with us. Welcome back, Matt. >> Hi, Nema. How you doing? >> I'm doing fine. I'm doing great. Matt, I want to start with what has happened today, the announcement of the United States that they reached a a an agreement between Israel and Lebanon.

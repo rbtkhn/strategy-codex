@@ -12,7 +12,6 @@ REPO = Path(__file__).resolve().parent.parent
 PY = sys.executable
 SCRIPT = REPO / "scripts" / "strategy_context.py"
 
-
 def test_extract_day_block_and_open():
     from scripts.strategy_context import (
         extract_day_block,
@@ -40,7 +39,6 @@ def test_extract_day_block_and_open():
     assert bullets[0] == "First open"
     assert "bold" in bullets[1]
 
-
 def test_truncate_words():
     from scripts.strategy_context import truncate_words
 
@@ -48,7 +46,6 @@ def test_truncate_words():
     out = truncate_words(s, 10)
     assert len(out.split()) <= 10
     assert out.endswith("…")
-
 
 def test_count_expert_rows_sample():
     from scripts.strategy_context import count_expert_table_rows
@@ -61,7 +58,6 @@ def test_count_expert_rows_sample():
 """
     assert count_expert_table_rows(sample) == 2
 
-
 def test_strategy_context_uses_strategy_codex_canonical_dir():
     from scripts.strategy_context import (
         LEGACY_STRATEGY_NOTEBOOK_DIR,
@@ -72,7 +68,6 @@ def test_strategy_context_uses_strategy_codex_canonical_dir():
     assert NOTEBOOK == STRATEGY_CODEX_DIR
     assert STRATEGY_CODEX_DIR.name == "codex"
     assert LEGACY_STRATEGY_NOTEBOOK_DIR.name == "strategy-notebook"
-
 
 def test_strategy_context_smoke_compact():
     r = subprocess.run(
@@ -93,19 +88,16 @@ def test_strategy_context_smoke_compact():
     assert "daily-strategy-inbox.md" in r.stdout
     assert "2026-04-13" in r.stdout
 
-
 def test_meta_excerpt_sample():
     from scripts.strategy_context import meta_excerpt
 
     assert "not found" in meta_excerpt(Path("/nonexistent/meta.md"))
-
 
 def test_minds_excerpt_month_fallback():
     from scripts.strategy_context import minds_excerpt
 
     out = minds_excerpt("2099-01-01")
     assert "2099-01" in out or "missing" in out.lower()
-
 
 def test_strategy_context_compact_meta_minds():
     r = subprocess.run(
@@ -128,7 +120,6 @@ def test_strategy_context_compact_meta_minds():
     assert "meta.md" in r.stdout
     assert "minds/outputs" in r.stdout
 
-
 def test_strategy_context_paragraph_word_cap():
     r = subprocess.run(
         [
@@ -148,7 +139,6 @@ def test_strategy_context_paragraph_word_cap():
     assert r.returncode == 0, r.stderr
     n = len(r.stdout.split())
     assert n <= 85
-
 
 def test_parse_work_choice_strategy_events_filters():
     from scripts.strategy_context import parse_work_choice_strategy_events
@@ -179,7 +169,6 @@ def test_parse_work_choice_strategy_events_filters():
     assert all(e.kind == "WORK-choice" for e in events)
     assert len(events) == 3
 
-
 def test_parse_fold_jsonl_events(tmp_path):
     from scripts.strategy_context import parse_fold_jsonl_events
 
@@ -196,7 +185,6 @@ def test_parse_fold_jsonl_events(tmp_path):
     assert events[0].kind == "fold"
     assert "manual" in events[0].summary
     assert "hello" in events[0].summary
-
 
 def test_merge_history_events_sort_and_take():
     from datetime import datetime, timezone
@@ -217,7 +205,6 @@ def test_merge_history_events_sort_and_take():
     )
     assert [m.kind for m in merged] == ["b", "c"]
 
-
 def test_format_history_section_empty_and_nonempty():
     from datetime import datetime, timezone
 
@@ -233,7 +220,6 @@ def test_format_history_section_empty_and_nonempty():
     assert "### Recent strategy activity (lightweight)" in block
     assert "Indicative only" in block
     assert "fold" in block
-
 
 def test_strategy_context_recent_smoke():
     r = subprocess.run(

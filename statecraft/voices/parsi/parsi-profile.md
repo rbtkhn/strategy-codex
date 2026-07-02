@@ -1,7 +1,6 @@
 # Strategy expert — Trita Parsi (`parsi`)
 <!-- word_count: 1780 -->
 
-
 **Canonical profile:** this file.
 **Canonical shelf:** [README.md](README.md) · [index.md](index.md)
 **Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) — **`parsi`** lane.

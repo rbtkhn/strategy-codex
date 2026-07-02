@@ -67,7 +67,6 @@ EVENT_BUCKET_WEIGHTS: dict[str, list[float]] = {
 PROB_EPSILON = 0.02
 PROB_CEILING = 0.98
 
-
 def softmax(logits: list[float]) -> list[float]:
     if not logits:
         return []
@@ -76,24 +75,19 @@ def softmax(logits: list[float]) -> list[float]:
     total = sum(exps) or 1.0
     return [round(v / total, 4) for v in exps]
 
-
 def clamp_probability(value: float) -> float:
     return max(PROB_EPSILON, min(PROB_CEILING, float(value)))
 
-
 def _dot(weights: list[float], z: list[float]) -> float:
     return sum(float(w) * float(v) for w, v in zip(weights, z))
-
 
 def _escalation_label_to_scalar(label: str) -> float:
     mapping = {"increasing": 0.75, "stable": 0.5, "decreasing": 0.25}
     return mapping.get(str(label or "").casefold(), 0.5)
 
-
 def _alignment_label_to_scalar(label: str) -> float:
     mapping = {"high": 0.8, "moderate": 0.55, "low": 0.3}
     return mapping.get(str(label or "").casefold(), 0.5)
-
 
 def _mean_signal_drift(signals: dict[str, Any]) -> float:
     deltas: list[float] = []
@@ -109,7 +103,6 @@ def _mean_signal_drift(signals: dict[str, Any]) -> float:
         return 0.5
     return clamp01(sum(deltas) / len(deltas))
 
-
 def _mean_escalation_tail(signals: dict[str, Any]) -> float:
     tails: list[float] = []
     for block in (signals or {}).values():
@@ -122,20 +115,17 @@ def _mean_escalation_tail(signals: dict[str, Any]) -> float:
         return 0.5
     return clamp01(sum(tails) / len(tails))
 
-
 def _resolved_ratio(registry: dict[str, dict[str, Any]]) -> float:
     if not registry:
         return 0.5
     resolved = sum(1 for ev in registry.values() if str(ev.get("status") or "") == "resolved")
     return clamp01(resolved / len(registry))
 
-
 def _regime_shift_rate(signals: dict[str, Any]) -> float:
     if not signals:
         return 0.0
     hits = sum(1 for block in signals.values() if isinstance(block, dict) and block.get("regime_shift_detected"))
     return hits / max(len(signals), 1)
-
 
 def infer_latent_state(
     *,
@@ -164,7 +154,6 @@ def infer_latent_state(
         "inference_source": "heuristic_v1",
     }
 
-
 def sensor_weight_for_voice(voice: str, *, semantic_events: dict[str, Any] | None = None) -> float:
     if str(voice).casefold() != "macgregor":
         return 1.0
@@ -180,7 +169,6 @@ def sensor_weight_for_voice(voice: str, *, semantic_events: dict[str, Any] | Non
     if total and high_entropy / total >= 0.5:
         return 0.5
     return 0.85
-
 
 def project_voice(Z: list[float], voice: str, *, sensor_weight: float = 1.0) -> dict[str, Any]:
     key = str(voice).casefold()
@@ -202,14 +190,12 @@ def project_voice(Z: list[float], voice: str, *, sensor_weight: float = 1.0) -> 
         "voice_projection": key,
     }
 
-
 def _event_bucket(event_id: str, question: str) -> str:
     blob = f"{event_id} {question}".casefold()
     for key in ("iran", "ukraine", "nato", "israel", "gaza"):
         if key in blob:
             return key
     return "default"
-
 
 def _stance_agreement(timeline_event: dict[str, Any] | None) -> float:
     latest = (timeline_event or {}).get("latest_by_speaker") or {}
@@ -220,7 +206,6 @@ def _stance_agreement(timeline_event: dict[str, Any] | None) -> float:
     if len(stances) <= 1:
         return 1.0
     return clamp01(1.0 - (len(stances) - 1) / max(len(latest), 1))
-
 
 def decode_event_probability(
     event_id: str,
@@ -238,7 +223,6 @@ def decode_event_probability(
     agreement = _stance_agreement(timeline_event)
     raw = alpha * latent_term + beta * signal_conf + gamma * agreement
     return round(clamp_probability(raw), 4)
-
 
 def build_event_engm_block(
     event_id: str,
@@ -270,7 +254,6 @@ def build_event_engm_block(
         "interpretation": "probabilistic_projection",
         "voice_projections": voice_projections,
     }
-
 
 def build_engm_payload(
     *,
@@ -328,7 +311,6 @@ def build_engm_payload(
         "events": events_out,
     }
 
-
 def main() -> int:
     import argparse
     import json
@@ -365,7 +347,6 @@ def main() -> int:
     args.output.write_text(render_json(payload), encoding="utf-8")
     print(f"[ok] wrote {args.output.relative_to(_REPO_ROOT)} ({len(payload.get('events') or {})} event(s))")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

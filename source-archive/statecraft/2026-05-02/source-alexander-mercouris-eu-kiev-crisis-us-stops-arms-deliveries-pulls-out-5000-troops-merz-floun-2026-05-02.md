@@ -15,4 +15,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # EU Kiev Crisis; US Stops Arms Deliveries Pulls Out 5000 Troops; Merz Flounders; Russia Odessa Goal
 
-

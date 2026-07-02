@@ -19,7 +19,6 @@ archive_links:
 
 # Dialogue Works x Freeman speaker arc
 
-
 ## Why this guest run matters
 
 The `Dialogue Works x Freeman` lane matters because it gives the notebook a repeated **diplomatic-memory reading of live crisis pressure** inside a host stream built for sharp current-events questioning.

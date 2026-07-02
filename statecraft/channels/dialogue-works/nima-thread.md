@@ -1,7 +1,6 @@
 # Expert thread - `nima`
 <!-- word_count: ~120 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a host thread that competes with the current canonical Nima shelf.

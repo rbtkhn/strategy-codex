@@ -1,7 +1,5 @@
 # anyang-ai — philanthropist calibration (operator WORK)
 
-WORK only; not Record.
-
 **Status:** Calibrated from operator MCQ session (2026-06-08). Use for **sponsor pitch** and plan updates — not legal advice.
 
 **Mission SSOT:** [anyang-community-mission-operator.md](anyang-community-mission-operator.md)

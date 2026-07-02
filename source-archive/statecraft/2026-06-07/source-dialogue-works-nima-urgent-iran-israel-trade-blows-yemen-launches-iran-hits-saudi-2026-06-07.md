@@ -35,7 +35,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today here in Brazil is Monday and because it's 12:15 and a.m. but in the east coast of the United States is 11:15. Then I want to start with what has happened today. This is today here in Brazil is June 8th, 2026 but still in the east coast of the United States is June 7, 2026. So just mentioning that today what has happened as I mentioned before today I had it's a long sort of explanation of what's going on between Israel and Lebanon.

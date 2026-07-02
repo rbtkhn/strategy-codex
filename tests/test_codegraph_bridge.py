@@ -12,7 +12,6 @@ from integrations.codegraph.export_code_context import (
 )
 from integrations.codegraph.generate_architecture_bundle import build_bundle
 
-
 class CodeGraphBridgeTests(unittest.TestCase):
     def test_resolve_codegraph_cmd_prefers_local_windows_binary(self) -> None:
         fake_binary = Path(
@@ -110,7 +109,6 @@ class CodeGraphBridgeTests(unittest.TestCase):
         self.assertEqual(bundle["intent"], "roadmap")
         self.assertEqual(bundle["policy"]["source_mode"], "strategy-codex-codegraph-pilot")
         self.assertTrue(json.dumps(bundle))
-
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,7 +1,6 @@
 # Lane-To-Corpus Promotion Policy
 <!-- word_count: 334 -->
 
-
 ## Canonical rule
 
 Strategy-codex now uses a strict split:

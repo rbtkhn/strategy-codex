@@ -44,7 +44,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Tuesday, June 9th, 2026 and our dear friend Anthony Aguular, Lieutenant Colonel Anthony Aguilar. Welcome back, Tony. >> Thank you. Thanks for having me and it's uh it's great to be on to have this discussion as there's a lot going on. >> Yeah, exactly. I want to start with the latest news that Donald Trump announced.

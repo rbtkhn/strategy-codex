@@ -13,8 +13,6 @@ post_id: 193693173
 
 # The Innermost Loop - 2026-04-09
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 9, 2026
@@ -29,10 +27,7 @@ The Singularity has started classifying human-written code as a hazardous materi
 
 ## Newsletter Text
 
--
--
-
-The Singularity has started classifying human-written code as a hazardous material. In the wake of Anthropic’s Mythos announcement, commentators warn that “it will be unsafe” for humans to write code at all, given Mythos’s superhuman vulnerability discovery, an inversion in which the most dangerous thing in the room is no longer the AI but the artisanal for-loop. Mythos also appears to be the first model class trained at scale on Blackwells , with Vera Rubins waiting in the wings, a generational handoff happening while pre-training still has headroom, RL is paying off, and a tidal wave of fresh compute is just starting to land. OpenAI is reportedly finalizing its own Mythos-style staggered rollout of a cyber model to a small set of partners, while Elon says SpaceXAI’s Colossus 2 now has 7 models in training , from Imagine V2 through twin 1T and 1.5T variants up to a 10T behemoth, with each pretraining run lasting roughly two months. Yet sheer firepower is not the same as frontier position. A leaked memo from the post-merger xAI’s new president, who also runs Starlink, admits the lab is “clearly behind” the other frontier shops and is reorganizing engineering ahead of the SpaceX IPO, since 7 simultaneous training runs cannot, by themselves, manufacture taste.
+- The Singularity has started classifying human-written code as a hazardous material. In the wake of Anthropic’s Mythos announcement, commentators warn that “it will be unsafe” for humans to write code at all, given Mythos’s superhuman vulnerability discovery, an inversion in which the most dangerous thing in the room is no longer the AI but the artisanal for-loop. Mythos also appears to be the first model class trained at scale on Blackwells , with Vera Rubins waiting in the wings, a generational handoff happening while pre-training still has headroom, RL is paying off, and a tidal wave of fresh compute is just starting to land. OpenAI is reportedly finalizing its own Mythos-style staggered rollout of a cyber model to a small set of partners, while Elon says SpaceXAI’s Colossus 2 now has 7 models in training , from Imagine V2 through twin 1T and 1.5T variants up to a 10T behemoth, with each pretraining run lasting roughly two months. Yet sheer firepower is not the same as frontier position. A leaked memo from the post-merger xAI’s new president, who also runs Starlink, admits the lab is “clearly behind” the other frontier shops and is reorganizing engineering ahead of the SpaceX IPO, since 7 simultaneous training runs cannot, by themselves, manufacture taste.
 
 The model zoo is speciating fast. Meta’s Muse Spark, the first model under Alexandr Wang, is being called “a data labeling CEO’s model” for crushing data-quality benchmarks while flubbing reasoning ones, a reminder that you ship the org chart you have. Alibaba anonymously dropped HappyHorse-1.0 , which promptly seized the #1 slot on Artificial Analysis’s text-to-video and image-to-video boards, knocking ByteDance’s Seedance 2.0 down to second. ByteDance is fighting back by making old models smarter mid-flight with In-Place Test-Time Training , repurposing MLP projection matrices as fast weights so a 4B model can dominate at 128k context. OpenAI’s researchers, meanwhile, solved 5 more Erdős problems across combinatorics, probability, and number theory, steadily turning the open conjectures of the 20th century into closed tickets in the issue tracker of the 21st. Cognition’s Scott Wu notes global FLOPs are growing ~3x annually while inference demand is growing ~10x , a scissor that forecasts price hikes and a flight to smaller, leaner models.
 

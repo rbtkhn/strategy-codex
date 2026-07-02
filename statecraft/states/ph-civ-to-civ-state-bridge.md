@@ -1,6 +1,5 @@
 # PH-CIV to CIV-STATE Bridge
 
-
 This note explains the method link between `ph-civ` and `civ-state`.
 
 `ph-civ` is the public civilizational source world. `civ-state` is the local civilization-state source-memory substrate used for drafting. They align in substance, but they do different work. `ph-civ` turns historical material into public pattern and live pressure reading. `civ-state` turns that pattern into continuity-bearing comparative statecraft memory.

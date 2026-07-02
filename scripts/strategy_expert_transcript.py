@@ -14,7 +14,6 @@ and prunes date sections older than ``--days`` (default 7).
 This module is **not** an operator-facing command. It is called automatically
 by ``strategy_thread.py`` before the thread distillation step.
 
-WORK-only; not Record.
 """
 
 from __future__ import annotations

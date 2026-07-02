@@ -1,6 +1,5 @@
 # Karaganov speaker object
 
-
 object_shape: single-helix
 
 Purpose: define Sergey Karaganov as a first-class but light speaker object in the shelf. The current direct corpus is not a broad cross-host interview run. It is a Diesen-anchored doctrinal branch, plus wider reaction surfaces that treat "Karaganov doctrine" as a nuclear-escalation and Russian strategic-signaling problem.

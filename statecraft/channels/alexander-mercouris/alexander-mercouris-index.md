@@ -1,6 +1,5 @@
 # Alexander Mercouris Index
 
-
 Compatibility pointer only.
 
 The canonical channel route map now lives at [alexander-mercouris-channel-index.md](alexander-mercouris-channel-index.md).

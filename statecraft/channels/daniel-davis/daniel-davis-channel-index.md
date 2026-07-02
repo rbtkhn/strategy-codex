@@ -1,6 +1,5 @@
 # Daniel Davis Channel Index
 
-
 Purpose: exhaustive route map for every resolved **`source-daniel-davis-*`** capture materialized in this repo (`channel_slug: daniel-davis` · host **Daniel Davis**), including host-native captures, guest-bearing host interviews, shorthand day files, generic `transcript-davis` surfaces, and explicit raw-input discovery surfaces.
 
 **Guest elsewhere:** [`davis-index.md`](../../voices/davis/davis-index.md) — Davis on other hosts only; do not duplicate those rows here.

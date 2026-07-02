@@ -38,7 +38,6 @@ transcript_curation: curated_sectioned
 
 ## Cleaned Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Friday, June 5th, 2026, and our dear friends Larry Johnson and Colonel Wilkerson are back with us. Welcome back. >> Hi there. Nice shirt, >> Larry. He's just smashing everything here. >> Yeah, >> all the rules. >> I'm a disruptive influence. >> Yeah. I I want to start Larry with you because for the third time it seems that was it was reported that the two American destroyers try to enter the Persian Gulf without Iran's permission >> and then Iranian Navy said they announced that it targeted vessels with

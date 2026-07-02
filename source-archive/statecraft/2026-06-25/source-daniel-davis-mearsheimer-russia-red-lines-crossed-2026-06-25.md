@@ -57,7 +57,6 @@ verify:
 
 ## Transcript
 
-
 ### Show Open — Rubio Side and Vance 2028 Game
 
 While most attention in the United States is focused on what is going on in the Persian Gulf for obvious reasons, it has a great deal to do with our economy and our national security. Are we going to get this war over with? Is it going to go back under hot war? Those are all things that we talk about a lot on this channel for obvious reasons, but we want to make sure you're aware there are other things going on, not just incidental, but things that are very important.

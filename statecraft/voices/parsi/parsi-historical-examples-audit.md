@@ -1,6 +1,5 @@
 # Parsi historical examples audit
 
-
 Purpose: establish the Parsi shelf's `civ-state` membrane and preserve how historical-pattern retrieval should deepen the shelf without replacing authored or interview source authority.
 
 ## Current audit status

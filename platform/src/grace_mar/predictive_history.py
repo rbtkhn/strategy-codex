@@ -5,7 +5,6 @@ It stages a corpus note under ``codex/predictive-history/intake/`` with
 Predictive History frontmatter, auto-detects the volume when possible, and
 asks for clarification only when the volume is ambiguous.
 
-WORK only; not Record.
 """
 
 from __future__ import annotations
@@ -39,13 +38,11 @@ _VOLUME_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
     (re.compile(r"\bessay(s)?\b|\bes[-\s]?\d+\b|\bsubstack\b", re.I), "Volume VII - Essays"),
 )
 
-
 def _slugify(text: str, *, max_len: int = 80) -> str:
     s = text.lower().strip()
     s = re.sub(r"[^a-z0-9]+", "-", s)
     s = re.sub(r"-+", "-", s).strip("-")
     return (s[:max_len].rstrip("-") or "item")
-
 
 def _extract_title(body: str) -> str | None:
     for line in body.splitlines():
@@ -57,7 +54,6 @@ def _extract_title(body: str) -> str | None:
         return stripped
     return None
 
-
 def infer_volume(text: str) -> str | None:
     """Best-effort Predictive History volume inference from title/body text."""
     if not text:
@@ -67,7 +63,6 @@ def infer_volume(text: str) -> str | None:
         if pattern.search(normalized):
             return volume
     return None
-
 
 def _prompt_for_volume(default_text: str) -> str | None:
     print("Predictive History volume is ambiguous.", file=sys.stderr)
@@ -84,7 +79,6 @@ def _prompt_for_volume(default_text: str) -> str | None:
             return f"Volume {roman} - {label}"
     print(f"Unrecognized choice: {choice!r}", file=sys.stderr)
     return None
-
 
 def _frontmatter(
     *,
@@ -113,13 +107,11 @@ def _frontmatter(
     lines.append("")
     return "\n".join(lines)
 
-
 def _display_path(path: Path) -> str:
     try:
         return path.relative_to(repo_root()).as_posix()
     except ValueError:
         return path.as_posix()
-
 
 def build_document(
     *,
@@ -154,7 +146,6 @@ def build_document(
     document = frontmatter + rendered_body
     return filename, document, resolved_volume
 
-
 def _parse_args(argv: list[str] | None) -> argparse.Namespace:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--title", default="", help="Corpus item title")
@@ -169,7 +160,6 @@ def _parse_args(argv: list[str] | None) -> argparse.Namespace:
     p.add_argument("--dry-run", action="store_true", help="Preview without writing")
     p.add_argument("--apply", action="store_true", help="Write the intake note (default when --dry-run is absent)")
     return p.parse_args(argv)
-
 
 def main(argv: list[str] | None = None) -> int:
     args = _parse_args(argv)
@@ -214,7 +204,6 @@ def main(argv: list[str] | None = None) -> int:
     outpath.write_text(document, encoding="utf-8")
     print(f"wrote: {_display_path(outpath)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

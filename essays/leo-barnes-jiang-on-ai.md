@@ -4,8 +4,6 @@ voice_profile: tri-blend-band-a
 
 # Leo, Barnes, and Jiang on AI
 
-WORK only; not Record.
-
 Machine competence is scaling faster than answerability — and three registers in this repo refuse the same naive triumphalism about artificial intelligence, each pressing a different failure mode. Pope Leo XIV speaks as a legitimacy-bearing office that must not delegate moral judgment to machines. Robert Barnes follows the forensic political economy of bubble, circular finance, and capture around a product that hallucinates. Jiang Xueqin reads a pedagogical-eschatological arc: supervised machine learning dressed as thought, bailout theater, and a surveillance end-state sold through occult branding and US–China race fiction.
 
 The notes hold verbatim depth and source maps; the Vatican primaries are archived in full. What follows carries a single transport claim: office, liability, and formation triangulate **answerability** while scale, convenience, and persuasive synthetic speech keep advancing together.

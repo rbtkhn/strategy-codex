@@ -1,6 +1,5 @@
 # Legacy operator concepts — redirect index
 
-
 Obsolete or frozen operator patterns in strategy-codex. **Do not** use as default routing. Historical material: [`archive/grace-mar-corpus/README.md`](../archive/grace-mar-corpus/README.md).
 
 **Active product:** governed interpretive machine — [`product-identity.md`](product-identity.md) · [`start-here.md`](start-here.md).

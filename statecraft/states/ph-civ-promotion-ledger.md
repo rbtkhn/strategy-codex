@@ -1,6 +1,5 @@
 # PH-CIV Promotion Ledger
 
-
 This ledger is the compact intake surface for promoting public `ph-civ` insight into `civ-state`.
 
 Its job is narrower than the [CIV-STATE review queue](review-queue.md). The review queue governs upstream corrections to `civ-state` once a source-memory change is actually warranted. This ledger sits one step earlier and records the conversion attempt itself:

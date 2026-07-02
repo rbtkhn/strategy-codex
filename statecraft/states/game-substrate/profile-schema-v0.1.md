@@ -1,6 +1,5 @@
 # Profile Schema v0.1
 
-
 Faction package schema for **Tier B** game substrate. One file (`*.pkg.yaml`) per civilization-state volume. Prose authority remains in the book; profiles are **extracts with anchors**.
 
 **Reference implementation:** [persia.pkg.yaml](profiles/persia.pkg.yaml)

@@ -37,7 +37,6 @@ skills/skill-candidates.md
 
 Do not extend this archived file. If current work needs this pattern, create or update an active runbook or active skill instead.
 
-
 ## Cursor / strategy-codex instance
 
 ## strategy-codex instance

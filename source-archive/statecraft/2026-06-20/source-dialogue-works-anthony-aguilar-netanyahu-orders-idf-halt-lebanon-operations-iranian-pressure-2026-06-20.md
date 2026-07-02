@@ -50,7 +50,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Saturday, June 20th, 2026 and our dear friend, [clears throat] Lieutenant Colonel Anthony Agular is here with us. Welcome back, Tony. >> Thank you. Thank you. It's uh good to be here and uh you know it seems like uh in the last few days a lot has changed and a lot hasn't but some important things have and uh it could make all the difference.

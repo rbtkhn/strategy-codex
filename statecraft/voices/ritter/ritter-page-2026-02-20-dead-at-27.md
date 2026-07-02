@@ -1,7 +1,6 @@
 # Ritter strategy page — 2026-02-20 (*Dead at 27*)
 <!-- word_count: 2077 -->
 
-
 **Expert:** `ritter` · **Published:** 2026-02-20 · **Capture:** Mode A — Substack · **Artifact:** strategy-page file (`ritter-page-…` under `experts/ritter/`). Optional: echo in `thread.md` fence for watches / cross-expert duplication.
 
 **Words:** 2078
@@ -130,7 +129,6 @@ Do nothing, and she’ll be dead at 27.
 
 Along with tens of thousands of others whose lives will tragically be cut short by the immorality of the American government, and the inaction of the American people.
 
-
 ### Reflection
 
 **Operator note:** Advocacy essay mixing memoir (1990–1991 Gulf War targeting, 1985 Iran plan update, 2003 Iraq judgment) with near-term US–Iran war framing and Polymarket odds. Light cleanup of operator/OCR errors only.
@@ -148,13 +146,11 @@ Along with tens of thousands of others whose lives will tragically be cut short 
 
 **Prompts:** Falsifiable claim this week? Delta vs prior Ritter on same lane? Wire boundary before chapter synthesis?
 
-
 ### Foresight
 
 - **Falsifiers:** Wire/primary items that would change the thesis.
 - **Resume:** Next capture, `days.md` seam, chapter meta.
 - **Tier:** Verbatim = expert (A); Reflection/Foresight = WORK.
-
 
 ---
 

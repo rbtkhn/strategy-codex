@@ -6,7 +6,6 @@ import shutil
 
 from tests.conftest import REPO_ROOT, copy_fixture, repo_python, run_cmd
 
-
 def test_generate_seed_dossier_demo_copy_has_expected_sections(tmp_path) -> None:
     target = tmp_path / "seed-phase"
     shutil.copytree(REPO_ROOT / "platform/users" / "demo" / "seed-phase", target)
@@ -20,7 +19,6 @@ def test_generate_seed_dossier_demo_copy_has_expected_sections(tmp_path) -> None
     assert "## Seed intent" in text
     assert "## Identity Summary" in text
     assert "## Activation Recommendation" in text
-
 
 def test_generate_seed_dossier_for_valid_minimal_fixture(tmp_seed_dir) -> None:
     copy_fixture("valid-minimal", tmp_seed_dir)
@@ -36,7 +34,6 @@ def test_generate_seed_dossier_for_valid_minimal_fixture(tmp_seed_dir) -> None:
     assert "## Seed intent" in text
     assert "## Work dev context" in text
     assert "## Work business context" in text
-
 
 def test_generate_seed_dossier_fails_on_missing_required_json(tmp_seed_dir) -> None:
     copy_fixture("invalid-missing-artifact", tmp_seed_dir)

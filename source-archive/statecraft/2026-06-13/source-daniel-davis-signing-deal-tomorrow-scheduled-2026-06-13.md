@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 We have breaking news. President Trump is not only saying there's going to be a deal, he is now announcing when it will be signed. He's saying it will be signed tomorrow on Sunday. The exact time has not been listed or exactly where or how the parties will be signed. There's a little bit of confusion on that, but President Trump is very emphatic that that is what is going to happen tomorrow.

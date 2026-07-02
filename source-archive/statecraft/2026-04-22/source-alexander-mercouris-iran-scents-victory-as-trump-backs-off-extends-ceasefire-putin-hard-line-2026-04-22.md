@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Iran Scents Victory As Trump Backs Off Extends Ceasefire; Putin Hard Line Slaviansk Defence Crumbles
 
-

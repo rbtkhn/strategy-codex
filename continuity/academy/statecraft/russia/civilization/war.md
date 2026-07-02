@@ -1,7 +1,6 @@
 # Russia War
 <!-- word_count: 2885 -->
 
-
 ## Purpose
 
 Use Russian war memory as a statecraft lens for invasion corridors, strategic depth, command compression, sacrifice legitimacy, control nodes, nuclear continuity, and the boundary between legitimate security and overreach.

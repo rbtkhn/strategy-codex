@@ -2,7 +2,7 @@
 
 **Purpose:** One dated (or rolling) **operator surface**: snapshot + focus + fast/slow + optional emerging pattern + inputs + themes + multi-frame pass + synthesis + next actions.
 
-**Boundary:** WORK only. Not Record truth. Human sign-off before client-facing or public ship.
+**Boundary:** non-authoritative. Not Record truth. Human sign-off before client-facing or public ship.
 
 **Important:** This file uses **semantic section titles only** — no fixed `1b` / `1d` numbering. Each lane assigns numbers (or dates) locally. **work-strategy** uses a numbered combined brief; see mapping below.
 

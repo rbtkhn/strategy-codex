@@ -9,7 +9,6 @@ from check_transaction_term_usage import TIER1_DOCS, TIER2_SKILLS
 
 LoopKind = Literal["validator", "builder", "hybrid", "gate_reporter"]
 
-
 @dataclass(frozen=True)
 class LoopSpec:
     kind: LoopKind
@@ -18,7 +17,6 @@ class LoopSpec:
     writes: tuple[str, ...] = ()
     depends_on: tuple[str, ...] = ()
     description: str = ""
-
 
 def _membrane_inputs() -> tuple[str, ...]:
     """Scheduling triggers mapped to membrane validator watch lists."""
@@ -36,14 +34,21 @@ def _membrane_inputs() -> tuple[str, ...]:
     )
     # trigger: check_transaction_term_usage.TIER1_DOCS + TIER2_SKILLS
     transaction = tuple(TIER1_DOCS) + tuple(TIER2_SKILLS)
-    # trigger: check_work_record_doctrine.iter_scan_roots
+    # trigger: check_work_record_doctrine (full-repo *.md scan)
     work_record = (
         "statecraft",
         "docs",
         "continuity",
+        "singularity",
+        "operations",
+        "essays",
+        "research",
+        "source-archive",
+        "runtime/artifacts",
         "scripts",
         "skills",
         ".cursor",
+        "platform",
         "README.md",
         "AGENTS.md",
         "contributing.md",
@@ -73,7 +78,6 @@ def _membrane_inputs() -> tuple[str, ...]:
                 seen.add(path)
                 ordered.append(path)
     return tuple(ordered)
-
 
 LOOPS: dict[str, LoopSpec] = {
     "routing": LoopSpec(

@@ -1,7 +1,5 @@
 # Sovereignty Under Acceleration
 
-WORK only; not Record.
-
 **Canonical home:** [../../essays/sovereignty-under-acceleration.md](../../essays/sovereignty-under-acceleration.md)
 
 Compatibility stub — pre-root singularity essay holding (mirrored from

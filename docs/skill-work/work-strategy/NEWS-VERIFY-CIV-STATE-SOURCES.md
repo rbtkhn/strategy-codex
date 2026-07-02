@@ -1,6 +1,5 @@
 # News-verify — CIV-STATE source registry
 
-
 **SSOT** for [news-verify](../../../skills/news-verify/SKILL.md) lane routing: which **official**, **native-language**, and **wire** surfaces to search per **statecraft civ-state lane** before synthesis or daily promotion.
 
 **Procedure owner:** `.cursor/skills/news-verify/SKILL.md` § *CIV-STATE sweep (every pass)*.

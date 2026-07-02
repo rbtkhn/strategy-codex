@@ -1,6 +1,5 @@
 # Ukraine Peace-Leverage Arc, Jan 2025-May 20 2026
 
-
 ## Continuity Pointer
 
 The Jan-May 2025 stream inputs captured on 2026-05-20 form a useful continuity arc on the collapse of Western and Ukrainian bargaining leverage in the Ukraine war.

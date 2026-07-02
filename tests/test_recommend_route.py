@@ -5,7 +5,6 @@ from __future__ import annotations
 import importlib.util
 from pathlib import Path
 
-
 def _load_module():
     root = Path(__file__).resolve().parents[1]
     path = root / "scripts" / "recommend_route.py"
@@ -15,10 +14,8 @@ def _load_module():
     spec.loader.exec_module(mod)
     return mod, root
 
-
 def _config(mod, root):
     return mod.load_config(root / "platform/config" / "route_recommendation.json")
-
 
 def test_coding_vs_research_shapes():
     mod, root = _load_module()
@@ -38,14 +35,12 @@ def test_coding_vs_research_shapes():
     )
     assert d2["task_shape"] == "research_to_artifact"
 
-
 def test_governance_requires_gate_review():
     mod, root = _load_module()
     cfg = _config(mod, root)
     d = mod.infer_recommendation("Should this candidate become durable knowledge?", cfg, None)
     assert d["task_shape"] == "governance_review"
     assert d["requires_gate_review"] is True
-
 
 def test_unclear_vague_fallback():
     mod, root = _load_module()
@@ -54,7 +49,6 @@ def test_unclear_vague_fallback():
     assert d["task_shape"] == "unclear"
     assert d["confidence"] == "low"
     assert "clarify" in d["suggested_next_step"].lower() or "sentence" in d["suggested_next_step"].lower()
-
 
 def test_render_receipt_includes_yaml_and_sections():
     mod, root = _load_module()
@@ -68,14 +62,11 @@ def test_render_receipt_includes_yaml_and_sections():
     assert "# Route Recommendation" in body
     assert "Governance note" in body
 
-
 def test_forbidden_under_users_returns_true():
     """Staging derived receipts under ``*`` is forbidden."""
     mod, repo = _load_module()
     under_users = repo / "platform/users" / "grace-mar" / "hypothetical-route-receipt.md"
     assert mod.is_forbidden_record_path(under_users, repo) is True
-
-
 
 def test_work_strategy_lane_hint_boosts_scores():
     mod, root = _load_module()

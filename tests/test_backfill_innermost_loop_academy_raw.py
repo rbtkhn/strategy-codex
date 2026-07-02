@@ -4,7 +4,6 @@ from datetime import date
 
 import backfill_innermost_loop_academy_raw as raw
 
-
 def test_title_or_slug_date_wins_over_published_date() -> None:
     assert raw._date_from_title_or_slug(
         "Welcome to May 15, 2026",
@@ -17,7 +16,6 @@ def test_title_or_slug_date_wins_over_published_date() -> None:
         date(2026, 5, 15),
     ) == date(2026, 5, 14)
 
-
 def test_run_writes_full_local_captures_and_indexes_them(tmp_path, monkeypatch) -> None:
     raw_root = tmp_path / "singularity/workshop/raw-input/innermost-loop"
     workshop_readme = tmp_path / "singularity/workshop/README.md"
@@ -28,7 +26,7 @@ def test_run_writes_full_local_captures_and_indexes_them(tmp_path, monkeypatch) 
         "# Singularity Workshop\n\n## First Instruments To Build\n\n- One\n",
         encoding="utf-8",
     )
-    shelf_readme.write_text("# Singularity\n\nWORK only; not Record.\n", encoding="utf-8")
+    shelf_readme.write_text("# Singularity\n\n\n", encoding="utf-8")
 
     def fake_fetch_json(url: str, *, timeout: int = 60) -> object:
         if "/api/v1/archive" in url and "offset=0" in url:
@@ -94,7 +92,6 @@ def test_run_writes_full_local_captures_and_indexes_them(tmp_path, monkeypatch) 
     shelf = shelf_readme.read_text(encoding="utf-8")
     assert "## Raw Capture Backfill" in shelf
     assert "../source-archive/singularity/innermost-loop/innermost-loop-2026-05-17.md" in shelf
-
 
 def test_existing_capture_is_not_overwritten_without_flag(tmp_path, monkeypatch) -> None:
     raw_root = tmp_path / "raw"

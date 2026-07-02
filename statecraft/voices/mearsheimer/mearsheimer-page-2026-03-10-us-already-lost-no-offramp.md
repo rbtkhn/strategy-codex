@@ -1,6 +1,5 @@
 # Mearsheimer page — 2026-03-10 (legacy pointer; lane-split)
 
-
 **Superseded (lane split):** This file previously duplicated the full line-by-line transcript. **SSOT** is [provenance/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](../../../source-archive/statecraft/2026-03-10/source-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md) only.
 
 - **Guest lane (Mearsheimer analysis):** [mearsheimer-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md](mearsheimer-page-2026-03-10-diesen-mearsheimer-us-already-lost-no-offramp-2026-03-10.md)

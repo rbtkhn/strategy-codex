@@ -1,6 +1,5 @@
 ﻿# Persia Bibliography
 
-
 This is the working volume bibliography for the Persia CIV-STATE book. Its center of gravity is primary sources first, then bounded secondary and doctrinal support. It is built as a dignity-restoration canon: sacred residue, imperial form, Persianized transformation, Safavid reconcentration, anti-humiliation memory, and deterrent-bearing survivable sovereignty remain the main spine, while Rome, India, China, Russia, Ottoman rivalry, Gulf pressure, and modern intervention memory stay real but subordinate to the core Persian continuity grammar. The Industrial shelf ends in 1991 and the Cybernetic shelf begins after that boundary.
 
 ## Primary Sources by Era

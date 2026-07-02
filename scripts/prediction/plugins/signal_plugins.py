@@ -6,7 +6,6 @@ from typing import Any
 
 from prediction.plugins.base import EpistemicPlugin
 
-
 class NarrativeCoherenceSignal(EpistemicPlugin):
     """Stub — lower coherence when alignment entropy is high."""
 

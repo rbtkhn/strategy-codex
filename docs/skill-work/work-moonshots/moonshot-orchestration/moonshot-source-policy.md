@@ -1,6 +1,6 @@
 # Moonshot — source and claim policy
 
-**Status:** WORK only. Pairs with [work-strategy/brief-source-registry.md](../../work-strategy/brief-source-registry.md) for **strategy-lane** discipline; this file is **orchestration-specific** and **not** a duplicate of that registry.
+**Status:** non-authoritative. Pairs with [work-strategy/brief-source-registry.md](../../work-strategy/brief-source-registry.md) for **strategy-lane** discipline; this file is **orchestration-specific** and **not** a duplicate of that registry.
 
 ## Source tiers (signal quality)
 

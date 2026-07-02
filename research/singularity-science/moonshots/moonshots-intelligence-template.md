@@ -1,7 +1,5 @@
 # Moonshots Intelligence Document — template
 
-work only; not Record.
-
 **Output shape SSOT** for compiled intelligence documents. The compiler (`scripts/compile_moonshots_intelligence.py`) fills this structure when emitting `moonshots-ep-<N>-intelligence.md` (or `moonshots-emerging-<slug>-intelligence.md`).
 
 Do not edit per-episode instances here — this file defines the canonical sections only.

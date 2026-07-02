@@ -56,7 +56,6 @@ CONFIDENCE_HINT_BOOST: dict[str, float] = {
     "low": -0.08,
 }
 
-
 def load_statecraft_voices() -> list[dict[str, Any]]:
     voices: list[dict[str, Any]] = []
     for speaker in sorted(VOICE_REGISTRY.keys()):
@@ -73,7 +72,6 @@ def load_statecraft_voices() -> list[dict[str, Any]]:
         )
     return voices
 
-
 def _timestamp_for_row(row: dict[str, Any], *, default_channel: str) -> str:
     appearance = str(row.get("appearance_date") or "").strip()
     if appearance:
@@ -86,7 +84,6 @@ def _timestamp_for_row(row: dict[str, Any], *, default_channel: str) -> str:
         if pub:
             return pub[:10]
     return "1970-01-01"
-
 
 def extract_claims(voices: list[dict[str, Any]]) -> list[dict[str, Any]]:
     results: list[dict[str, Any]] = []
@@ -115,7 +112,6 @@ def extract_claims(voices: list[dict[str, Any]]) -> list[dict[str, Any]]:
             )
     results.sort(key=lambda r: (r["voice"], r["event_id"], r["timestamp"], r["capture"]))
     return results
-
 
 def partition_claims(
     claims: list[dict[str, Any]],
@@ -166,7 +162,6 @@ def partition_claims(
     }
     return matched, unmatched, audit
 
-
 def infer_probabilities(claims: list[dict[str, Any]]) -> list[dict[str, Any]]:
     output: list[dict[str, Any]] = []
     for claim in claims:
@@ -184,7 +179,6 @@ def infer_probabilities(claims: list[dict[str, Any]]) -> list[dict[str, Any]]:
         row["interpretation"] = "probabilistic_projection"
         output.append(row)
     return output
-
 
 def build_trajectories(claims: list[dict[str, Any]]) -> list[dict[str, Any]]:
     grouped: dict[tuple[str, str], list[dict[str, Any]]] = {}
@@ -219,7 +213,6 @@ def build_trajectories(claims: list[dict[str, Any]]) -> list[dict[str, Any]]:
         output.append({"event_id": event_id, "voice": voice, "trajectory": trajectory})
     return output
 
-
 def _semantic_entropy(semantic_scores: dict[str, Any], event_id: str | None) -> float:
     if not event_id:
         return 0.0
@@ -230,7 +223,6 @@ def _semantic_entropy(semantic_scores: dict[str, Any], event_id: str | None) -> 
     if not isinstance(block, dict):
         return 0.0
     return float(block.get("entropy_score") or 0.0)
-
 
 def _latest_probability_vector(
     trajectories: list[dict[str, Any]],
@@ -248,7 +240,6 @@ def _latest_probability_vector(
         if isinstance(last, dict):
             latest[voice] = float(last.get("probability") or 0.5)
     return latest
-
 
 def compute_alignment_score(
     event_id: str,
@@ -280,7 +271,6 @@ def compute_alignment_score(
         return 1.0
     total_w = sum(pair_weights) or 1.0
     return round(sum(s * w for s, w in zip(scores, pair_weights)) / total_w, 4)
-
 
 def enrich_trajectories(
     trajectories: list[dict[str, Any]],
@@ -319,7 +309,6 @@ def enrich_trajectories(
         output.append(block)
     return output
 
-
 def _trajectory_index(
     trajectories: list[dict[str, Any]],
 ) -> dict[tuple[str, str], list[dict[str, Any]]]:
@@ -332,7 +321,6 @@ def _trajectory_index(
             index[(event_id, voice)] = [p for p in points if isinstance(p, dict)]
     return index
 
-
 def _point_at_or_before(points: list[dict[str, Any]], timestamp: str) -> dict[str, Any] | None:
     if not points:
         return None
@@ -341,7 +329,6 @@ def _point_at_or_before(points: list[dict[str, Any]], timestamp: str) -> dict[st
     if not eligible:
         return points[0]
     return sorted(eligible, key=lambda p: str(p.get("timestamp") or ""))[-1]
-
 
 def project_trajectories(
     event_distribution: list[dict[str, Any]],
@@ -371,7 +358,6 @@ def project_trajectories(
             }
         )
     return projections
-
 
 def compute_signal(
     projections: list[dict[str, Any]],
@@ -409,7 +395,6 @@ def compute_signal(
         "drift": round(clamp01(drift), 4),
     }
 
-
 def classify_regime(
     signal: dict[str, float],
     event_distribution: list[dict[str, Any]],
@@ -442,13 +427,11 @@ def classify_regime(
         "confidence": round(clamp01(confidence), 4),
     }
 
-
 def _primary_event_id(event_distribution: list[dict[str, Any]]) -> str | None:
     if not event_distribution:
         return None
     best = max(event_distribution, key=lambda e: float(e.get("weight") or 0.0))
     return str(best.get("event_id") or "") or None
-
 
 def process_claim(
     point: dict[str, Any],
@@ -505,7 +488,6 @@ def process_claim(
         "stance": str(point.get("stance") or "uncertain"),
     }
 
-
 def build_signals_rollup(objects: list[dict[str, Any]]) -> dict[str, Any]:
     by_event: dict[str, list[dict[str, Any]]] = {}
     for obj in objects:
@@ -543,7 +525,6 @@ def build_signals_rollup(objects: list[dict[str, Any]]) -> dict[str, Any]:
         "interpretation": "epistemic_signals",
         "events": events,
     }
-
 
 def build_regimes_rollup(objects: list[dict[str, Any]]) -> dict[str, Any]:
     by_event: dict[str, list[dict[str, Any]]] = {}
@@ -594,7 +575,6 @@ def build_regimes_rollup(objects: list[dict[str, Any]]) -> dict[str, Any]:
         },
         "events": event_regimes,
     }
-
 
 def build_epistemic_payload(
     *,

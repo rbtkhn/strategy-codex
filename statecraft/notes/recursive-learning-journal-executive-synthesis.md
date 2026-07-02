@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 ## Recursive Learning Journal Executive Synthesis
 
-
 **Statecraft Registry**
 - Lane: shared
 - Output class: memo

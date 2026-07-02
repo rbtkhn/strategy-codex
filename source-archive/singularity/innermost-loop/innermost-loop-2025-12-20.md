@@ -13,8 +13,6 @@ post_id: 182163886
 
 # The Innermost Loop - 2025-12-20
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 20, 2025
@@ -29,10 +27,7 @@ The exponential curve has shattered into a superexponential vertical.
 
 ## Newsletter Text
 
--
--
-
-The exponential curve has shattered into a superexponential vertical. METR confirms that Claude Opus 4.5 has achieved a state-of-the-art 50% autonomy time horizon of 4 hours and 49 minutes , a leap so massive it aligns with a “fast timeline” variant of the “AI 2027” scenario, where each doubling of autonomy gets 15% easier . The implications are immediate. Anthropic’s Stephen McAleer has pivoted entirely to automated alignment research , declaring that human oversight is obsolete in the face of the coming intelligence explosion. The markets failed to price this in. Manifold prediction markets significantly underestimated the Opus breakout , leaving the forecasting community scrambling to recalibrate for recursive self-improvement.
+- The exponential curve has shattered into a superexponential vertical. METR confirms that Claude Opus 4.5 has achieved a state-of-the-art 50% autonomy time horizon of 4 hours and 49 minutes , a leap so massive it aligns with a “fast timeline” variant of the “AI 2027” scenario, where each doubling of autonomy gets 15% easier . The implications are immediate. Anthropic’s Stephen McAleer has pivoted entirely to automated alignment research , declaring that human oversight is obsolete in the face of the coming intelligence explosion. The markets failed to price this in. Manifold prediction markets significantly underestimated the Opus breakout , leaving the forecasting community scrambling to recalibrate for recursive self-improvement.
 
 Mathematics is being solved by agentic loops. ByteDance released Seed-Prover 1.5 , a model trained via large-scale agentic reinforcement learning that solved 11 of 12 problems from the 2025 Putnam competition and 88% of the undergraduate benchmark, effectively automating the math degree. Google revealed that Gemini 3 Flash’s performance gains come from similar “agentic RL” breakthroughs , allowing it to score 36% on FrontierMath Tiers 1-3 and match far more expensive models. The consensus is shifting. A new DeepMind paper argues superintelligence will emerge from collective agent networks , not a monolithic mind. Simultaneously, Alibaba is redefining machine vision with Qwen-Image-Layered , the first foundation model capable of natively decomposing images into discrete layers.
 

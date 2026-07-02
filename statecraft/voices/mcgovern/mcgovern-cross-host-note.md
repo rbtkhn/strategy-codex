@@ -1,6 +1,5 @@
 # McGovern cross-host note
 
-
 Purpose: keep Ray McGovern's cross-host status honest by separating what is materially embodied on disk from what is only search-backed. This note exists so the Codex does not let the obvious breadth of the object outrun embodiment discipline.
 
 ## Current branch reality

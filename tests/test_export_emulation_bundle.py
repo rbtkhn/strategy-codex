@@ -15,13 +15,11 @@ if str(SCRIPTS) not in sys.path:
 import export_emulation_bundle as emulation_module  # noqa: E402
 import export_runtime_bundle as runtime_bundle_module  # noqa: E402
 
-
 def _envelope_validator():
     jsonschema = pytest.importorskip("jsonschema")
     schema = json.loads(emulation_module.SCHEMA_PATH.read_text(encoding="utf-8"))
     jsonschema.validators.validator_for(schema).check_schema(schema)
     return jsonschema.Draft202012Validator(schema)
-
 
 def test_build_emulation_envelope_points_to_existing_surfaces() -> None:
     payload = emulation_module.build_emulation_envelope(
@@ -42,7 +40,6 @@ def test_build_emulation_envelope_points_to_existing_surfaces() -> None:
     )
     assert payload["runtimeObservationReturn"]["humanReviewRequired"] is True
     assert payload["runtimeObservationReturn"]["canonicalSurfacesTouched"] is False
-
 
 def test_export_emulation_bundle_writes_envelope_and_policy_refs(
     monkeypatch, tmp_path: Path
@@ -83,7 +80,6 @@ def test_export_emulation_bundle_writes_envelope_and_policy_refs(
     assert runtime_bundle["format"] == "grace-mar-runtime/bundle"
     assert authority_map["schemaVersion"] == "1.0.0"
     assert proposal_schema["$id"] == "schemas/registry/change-proposal.v1.json"
-
 
 def test_export_emulation_bundle_main_smoke(
     monkeypatch, tmp_path: Path, capsys: pytest.CaptureFixture[str]

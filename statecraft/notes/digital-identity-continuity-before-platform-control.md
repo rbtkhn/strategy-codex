@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 # America - Digital Identity Continuity Before Platform Control
 
-
 ## Transaction Name
 
 Identity continuity before platform control.

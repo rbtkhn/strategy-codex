@@ -64,11 +64,7 @@ The Islamabad talks failed firstly, because the gaps between the two sides were 
 
 Iran, by contrast, entered the talks with the conviction that it had emerged stronger than after the 12-day war. In their reading, this meant that the effect of the control of Hormuz and the Red Sea had not yet reached the stage at which the balance of pain could be said to be decisively in Iran’s favour — and certainly had not reached the point at which significant concessions from Iran might be appropriate.
 
-
-
-
 Source: Ebrahim Mazizi, Head of Iranian Parliament’s National Security Commission
-
 
 What is likely to be the next stage? Well — more war. Bigger kinetic war with the focus likely to be on another massive series of missile strikes on mostly Iran’s civil infrastructure (since the Israeli/US target bank was never intended to outlast a few days of strikes).
 
@@ -85,5 +81,4 @@ This will constitute another economic front in the war — and extend the econom
 Is it likely that China and Russia will not understand this statement as anything other than another a US attempt (after the Venezuela blockade) to squeeze China’s energy supply lines. Hormuz still remains open to Chinese vessels. Trump’s blockade attempt was the initial squeeze — and now he threatens to sanction Chinese banks and trade.
 
 Trump’s tariff war will be seen in retrospect to be peanuts to the threatened strike on China’s supply lines.
-
 

@@ -45,7 +45,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Very excited now to be joined by our great friend Trita Parsi uh who has found himself under attack by the despicable Barry Weiss. Let's start with Bzero up here on the screen. I do want to draw draw this to everyone's attention. Uh Dr. Parsi has found himself uh attacked by the free press who allegedly reported uh that he was you know being considered for deportation.

@@ -1,7 +1,6 @@
 # Expert transcript — `davis`
 <!-- word_count: 1765 -->
 
-
 **Source:** Verbatim blocks from [`daily-strategy-inbox.md`](../../../continuity/daily-strategy-inbox.md) that include `thread:davis` (first line + optional continuation paragraphs), routed on ingest.
 **Length:** Target **≤ 2000 words** per ingest block; whole file soft **≤ 20000 words** after prune (7-day window makes overrun unlikely).
 **Retention:** 7-day rolling window; date sections older than 7 days are pruned automatically.
@@ -28,16 +27,6 @@
 - notebook | cold: **IRI FM** **@araghchi** **2026-04-17 06:45** — Hormuz passage for commercial vessels for **ceasefire** remainder on **PMO** coordinated route; opens **in line with** **Lebanon ceasefire** // hook: **expert-thread continuity** — **no** `thread:` (state primary); **cross** `parsi` Lebanon scope, `marandi` register, `mercouris` Lebanon institutional surface, `thread:davis` QT packaging | verify:IRI-primary+cross-thread-continuity | IRI+TEHRAN+Lebanon
 - batch-analysis | 2026-04-17 | **Barnes × Johnson (YT) — US politics room × Iran week** | **Tension-first:** **`thread:barnes`** **long-form** **domestic-liability** **+** **White** **House** **process** **(C-plane** **hypothesis)** **—** **not** **§1e** **text** **and** **not** **Pentagon** **primary.** **Same** **calendar** **day** **as** **Hormuz** **/** **Islamabad** **expert** **stack** **—** **cross** **`thread:davis`**, **`thread:johnson`** **(Davis** **×** **Johnson** **earlier** **YT),** **`thread:ritter`** **with** **explicit** **plane** **tags** **(room** **vs** **ORBAT** **vs** **FM).** **Falsifiers:** **named** **official** **statements,** **vote** **counts,** **Navy** **press,** **TS** **screenshots.** | crosses:barnes+johnson
 
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-27
 - Inbox | cold: full text in [`source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md`](../../../source-archive/statecraft/2026-04-24/source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md) (pointer; SSOT raw-input) | thread:davis
 - Inbox | cold: full text in [`source-daniel-davis-trump-all-time-in-the-world-2026-04-23.md`](../../../source-archive/statecraft/2026-04-23/source-daniel-davis-trump-all-time-in-the-world-2026-04-23.md) (pointer; SSOT raw-input) | thread:davis
@@ -53,17 +42,6 @@
 - X | cold: @DanielLDavis1 same calendar day — embeds **Trump** Truth Social **~09:57** (~**30 min** after Hormuz “open” framing per Davis); Davis reads **maximalist** terms (**nuclear** reprocessing / **no** money / **Lebanon–Hezbollah** separate / **Israel** **prohibited** from bombing **Lebanon** by **USA**) as **slamming door** on diplomatic space // hook: **§1e** executive primary + **falsifier** for §1f single-arc de-escalation; pin **Truth Social** full text | verify:truth-social-primary+embed-chain | thread:davis
 - notebook | cold: **IRI FM** **@araghchi** **2026-04-17 06:45** — Hormuz passage for commercial vessels for **ceasefire** remainder on **PMO** coordinated route; opens **in line with** **Lebanon ceasefire** // hook: **expert-thread continuity** — **no** `thread:` (state primary); **cross** `parsi` Lebanon scope, `marandi` register, `mercouris` Lebanon institutional surface, `thread:davis` QT packaging | verify:IRI-primary+cross-thread-continuity | IRI+TEHRAN+Lebanon
 - batch-analysis | 2026-04-17 | **Barnes × Johnson (YT) — US politics room × Iran week** | **Tension-first:** **`thread:barnes`** **long-form** **domestic-liability** **+** **White** **House** **process** **(C-plane** **hypothesis)** **—** **not** **§1e** **text** **and** **not** **Pentagon** **primary.** **Same** **calendar** **day** **as** **Hormuz** **/** **Islamabad** **expert** **stack** **—** **cross** **`thread:davis`**, **`thread:johnson`** **(Davis** **×** **Johnson** **earlier** **YT),** **`thread:ritter`** **with** **explicit** **plane** **tags** **(room** **vs** **ORBAT** **vs** **FM).** **Falsifiers:** **named** **official** **statements,** **vote** **counts,** **Navy** **press,** **TS** **screenshots.** | crosses:barnes+johnson
-
-
-
-
-
-
-
-
-
-
-
 
 ## 2026-04-26
 - Inbox | cold: full text in [`source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md`](../../../source-archive/statecraft/2026-04-24/source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md) (pointer; SSOT raw-input) | thread:davis
@@ -81,20 +59,6 @@
 - notebook | cold: **IRI FM** **@araghchi** **2026-04-17 06:45** — Hormuz passage for commercial vessels for **ceasefire** remainder on **PMO** coordinated route; opens **in line with** **Lebanon ceasefire** // hook: **expert-thread continuity** — **no** `thread:` (state primary); **cross** `parsi` Lebanon scope, `marandi` register, `mercouris` Lebanon institutional surface, `thread:davis` QT packaging | verify:IRI-primary+cross-thread-continuity | IRI+TEHRAN+Lebanon
 - batch-analysis | 2026-04-17 | **Barnes × Johnson (YT) — US politics room × Iran week** | **Tension-first:** **`thread:barnes`** **long-form** **domestic-liability** **+** **White** **House** **process** **(C-plane** **hypothesis)** **—** **not** **§1e** **text** **and** **not** **Pentagon** **primary.** **Same** **calendar** **day** **as** **Hormuz** **/** **Islamabad** **expert** **stack** **—** **cross** **`thread:davis`**, **`thread:johnson`** **(Davis** **×** **Johnson** **earlier** **YT),** **`thread:ritter`** **with** **explicit** **plane** **tags** **(room** **vs** **ORBAT** **vs** **FM).** **Falsifiers:** **named** **official** **statements,** **vote** **counts,** **Navy** **press,** **TS** **screenshots.** | crosses:barnes+johnson
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-25
 - YT | cold: **Daniel** **Davis (Lt** **Col.)** **×** **Robert** **Barnes** — *Robert Barnes on Iran, market manipulation, and behavioral decline* — **aired** **2026-04-24** — **cleaned** **transcript:** **U.S.–Iran** **settlement,** **“fractured”** **/ disjoint** **(U.S. vs** **alleged** **Iran** **splits),** **breaking** **news** **(sequence** **in** **transcript** **—** **verify** **tapes** **if** **citing** **timing);** **Vance** **deal** **architecture,** **market** **manipulation,** **Trump** **behavioral** **decline** **frame** // hook: **`thread:davis`** **×** **`thread:barnes`** **—** **§1d** **/ §1e** **domestic** **+** **negotiation** **frame** **—** **full** [provenance/2026-04-24/source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md](../../../source-archive/statecraft/2026-04-24/source-daniel-davis-robert-barnes-iran-rug-pull-behavioral-dementia-2026-04-24.md) | https://www.youtube.com/watch?v=Pcd4tM5ai6o | verify:operator-cleaned-transcript+YouTube+full-text+aired:2026-04-24+opinion-narrative-tier+not-Record | thread:davis | crosses:barnes | IRAN | US-POL | grep:Davis+Barnes+behavioral+decline+2026-04-24
 - YT | cold: **Daniel** **Davis** **(Lt** **Col.)** — *Trump Says He's Got 'All the Time in the World'* — **aired** **2026-04-23** — **cleaned** **caption** **transcript:** **Truth** **Social** **/ Trump** **“all** **the** **time** **in** **the** **world”** **vs** **Iran,** **credibility** **/ media** **montage,** **“we’ve** **won”** **/** **11** **Mar** **clip** **vs** **current** **war;** **Pakistan** **deal** **/ power** **plant** **threats** **(narrated);** **ORBAT** **+** **blockade** **claims** **(commentary** **—** **not** **wire** **per** **line)** // hook: **`thread:davis`** **×** **§1d** **Trump** **/ TS** **+** **§1e** **Iran** **(credibility,** **clock)** **—** **full** [provenance/2026-04-23/source-daniel-davis-trump-all-time-in-the-world-2026-04-23.md](../../../source-archive/statecraft/2026-04-23/source-daniel-davis-trump-all-time-in-the-world-2026-04-23.md) | TBD (pin `watch?v=`) | verify:operator-file+cleaned-caption+full-text+aired:2026-04-23+TS-quote-tier+opinion-narrative-tier+not-Record | thread:davis | IRAN | grep:Davis+Trump+all+time+world+2026-04-23
@@ -111,27 +75,6 @@
 - notebook | cold: **IRI FM** **@araghchi** **2026-04-17 06:45** — Hormuz passage for commercial vessels for **ceasefire** remainder on **PMO** coordinated route; opens **in line with** **Lebanon ceasefire** // hook: **expert-thread continuity** — **no** `thread:` (state primary); **cross** `parsi` Lebanon scope, `marandi` register, `mercouris` Lebanon institutional surface, `thread:davis` QT packaging | verify:IRI-primary+cross-thread-continuity | IRI+TEHRAN+Lebanon
 - batch-analysis | 2026-04-17 | **Barnes × Johnson (YT) — US politics room × Iran week** | **Tension-first:** **`thread:barnes`** **long-form** **domestic-liability** **+** **White** **House** **process** **(C-plane** **hypothesis)** **—** **not** **§1e** **text** **and** **not** **Pentagon** **primary.** **Same** **calendar** **day** **as** **Hormuz** **/** **Islamabad** **expert** **stack** **—** **cross** **`thread:davis`**, **`thread:johnson`** **(Davis** **×** **Johnson** **earlier** **YT),** **`thread:ritter`** **with** **explicit** **plane** **tags** **(room** **vs** **ORBAT** **vs** **FM).** **Falsifiers:** **named** **official** **statements,** **vote** **counts,** **Navy** **press,** **TS** **screenshots.** | crosses:barnes+johnson
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2026-04-23
 - Inbox | cold: full text in [`source-daniel-davis-trump-all-time-in-the-world-2026-04-23.md`](../../../source-archive/statecraft/2026-04-23/source-daniel-davis-trump-all-time-in-the-world-2026-04-23.md) (pointer; SSOT raw-input) | thread:davis
-
-
-
-
 

@@ -1,6 +1,6 @@
 # Moonshot — lifecycle
 
-**Status:** WORK only. [Source policy](moonshot-source-policy.md) · [boundaries](moonshot-boundary.md).
+**Status:** non-authoritative. [Source policy](moonshot-source-policy.md) · [boundaries](moonshot-boundary.md).
 
 | # | Stage | Input | Output | Allowed action | Forbidden action |
 |---|--------|--------|--------|----------------|------------------|

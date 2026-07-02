@@ -1,7 +1,5 @@
 # The Innermost Loop - 2026-05-16
 
-WORK only; not Record.
-
 ## Source
 
 - Source: Dr. Alex Wissner-Gross, "Welcome to May 16, 2026", The Innermost Loop.

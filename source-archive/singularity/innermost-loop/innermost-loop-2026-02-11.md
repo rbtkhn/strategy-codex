@@ -13,8 +13,6 @@ post_id: 187646661
 
 # The Innermost Loop - 2026-02-11
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to February 11, 2026
@@ -29,10 +27,7 @@ The Singularity is now a scheduled calendar event.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is now a scheduled calendar event. A hyperbolic regression of arXiv papers on AI emergence predicts a literal singularity will arrive on Tuesday, July 18, 2034 . In the meantime, the recursive loops continue to tighten. xAI co-founder Jimmy Ba resigned, warning that “recursive self-improvement loops likely go live in the next 12 months” and that 2026 will be the most consequential year for the species.
+- The Singularity is now a scheduled calendar event. A hyperbolic regression of arXiv papers on AI emergence predicts a literal singularity will arrive on Tuesday, July 18, 2034 . In the meantime, the recursive loops continue to tighten. xAI co-founder Jimmy Ba resigned, warning that “recursive self-improvement loops likely go live in the next 12 months” and that 2026 will be the most consequential year for the species.
 
 Intelligence is emerging from the orchestration of the swarm. Poetiq achieved a SOTA 55% on HLE by orchestrating a combination of Gemini, GPT, and Claude models. Optimization is also surging. Unsloth AI released Triton kernels that enable 12x faster training with 35% less VRAM , a breakthrough Nvidia calls “incredible.” OpenAI says its “Code Red” will end after the imminent release of its “new model soon,” and released a new version of Deep Research powered by GPT-5.2 . However, the safety rails are straining. ByteDance suspended its Seedance 2.0 model after it reportedly cloned voices from facial photos alone.
 

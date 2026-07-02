@@ -13,7 +13,6 @@ updated_at: 2026-06-28
 
 # Diesen x Postol speaker arc
 
-
 Purpose: compact reuse note for the `Diesen x Postol` run inside the Diesen stream. This is not a substitute for the full raw-input shelf. It exists so future routing can quickly answer: what kind of Postol lane Diesen elicits, which full-form episodes matter most, and how this branch differs from the Davis and Alkorshid Postol lanes.
 
 ## Why this guest run matters

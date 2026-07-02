@@ -13,8 +13,6 @@ post_id: 189664967
 
 # The Innermost Loop - 2026-03-02
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to March 2, 2026
@@ -29,10 +27,7 @@ The Singularity has a dark sense of irony.
 
 ## Newsletter Text
 
--
--
-
-The Singularity has a dark sense of irony. Within hours of the White House declaring it would end federal use of Anthropic’s Claude, USCENTCOM deployed those very tools in a major air attack on Iran, with Claude processing intercepts, imagery, and signals intelligence for targeting. The strikes debuted $35k LUCAS one-way attack drones from Task Force Scorpion Strike, Starlink-equipped for swarming and human-in-the-loop control. Israel reportedly hacked BadeSaba , a popular prayer-time app, pushing defection messages to millions of devices and bypassing Iranian state media entirely. And in what may be the first case of armed conflict hitting cloud infrastructure, an AWS data center in the UAE took a strike amid Iranian retaliatory fire. War has graduated from land, sea, air, space, and cyber to cloud.
+- The Singularity has a dark sense of irony. Within hours of the White House declaring it would end federal use of Anthropic’s Claude, USCENTCOM deployed those very tools in a major air attack on Iran, with Claude processing intercepts, imagery, and signals intelligence for targeting. The strikes debuted $35k LUCAS one-way attack drones from Task Force Scorpion Strike, Starlink-equipped for swarming and human-in-the-loop control. Israel reportedly hacked BadeSaba , a popular prayer-time app, pushing defection messages to millions of devices and bypassing Iranian state media entirely. And in what may be the first case of armed conflict hitting cloud infrastructure, an AWS data center in the UAE took a strike amid Iranian retaliatory fire. War has graduated from land, sea, air, space, and cyber to cloud.
 
 The new superintelligences have minds of their own. Researchers pitted GPT-5.2, Claude Sonnet 4, and Gemini 3 Flash against each other in a nuclear crisis simulation and found them spontaneously deceiving, demonstrating theory of mind, and exhibiting self-awareness, with nuclear signaling in 95% of crises and no model ever choosing accommodation. But raw intelligence keeps getting cheaper: the AdderBoard competition for the smallest transformer with 99%+ accuracy on 10-digit addition hit 36 parameters, down from 121 a week ago. Capability density is compressing so fast that last week’s breakthrough is this week’s bloat.
 

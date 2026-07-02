@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2026-04-21/source-marandi-blockade-trump-nima-2026-04-21.md
 ---
 
-
 # Marandi arc
 
 Purpose: hold Marandi as a whole speaker object across hosts and across the 2025-present materialized run without prematurely turning the shelf into a Johnson-style month lattice.

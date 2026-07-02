@@ -7,7 +7,6 @@ Compares against ``chapters[].id`` in history-notebook/book-architecture.yaml.
 
 Exit 0 always unless --strict (then exit 1 if any unknown id).
 
-WORK-only; not Record.
 """
 
 from __future__ import annotations

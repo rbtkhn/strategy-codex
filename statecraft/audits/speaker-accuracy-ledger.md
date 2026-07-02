@@ -1,6 +1,5 @@
 # Speaker Accuracy Ledger
 
-
 This ledger tracks bounded claims and their later review status.
 
 Question:

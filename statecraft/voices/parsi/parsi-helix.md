@@ -1,6 +1,5 @@
 # Parsi helix
 
-
 Purpose: compact note for reading Parsi's authored diplomacy mechanism together with his interview-pressure appearances.
 
 ## Core claim

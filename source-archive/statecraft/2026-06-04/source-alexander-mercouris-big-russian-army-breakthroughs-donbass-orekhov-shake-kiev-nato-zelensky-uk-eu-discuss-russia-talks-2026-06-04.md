@@ -34,7 +34,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Thursday 4th June 2026 and before I proceed with this program, let me remind you again to tick the like button and to check your subscription to this channel. Now today um unlike my practice over the last few weeks, I am going to begin with a military update about the situation in Ukraine because news is now starting to pour in at a increasingly rapid pace from the front lines.

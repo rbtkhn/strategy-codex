@@ -39,7 +39,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Monday, 22nd June, 2026. And before I proceed with this program, let me remind you again to take the like button and to check your subscription to this channel. Now, today, Monday, 22nd June, 2026, also happens to be happens to be the anniversary of the German attack on the Soviet Union in Operation Barbarossa back in 1941.

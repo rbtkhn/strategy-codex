@@ -19,7 +19,6 @@ VOICE_WEIGHTS: dict[str, float] = {
     "macgregor": MACGREGOR_ENTROPY_DOWNWEIGHT,
 }
 
-
 def _semantic_entropy(semantic_scores: dict[str, Any], event_id: str) -> float:
     events = semantic_scores.get("events") if isinstance(semantic_scores, dict) else {}
     if not isinstance(events, dict):
@@ -28,7 +27,6 @@ def _semantic_entropy(semantic_scores: dict[str, Any], event_id: str) -> float:
     if not isinstance(block, dict):
         return 0.0
     return float(block.get("entropy_score") or 0.0)
-
 
 def _latest_probability_vector(
     trajectories: list[dict[str, Any]],
@@ -46,7 +44,6 @@ def _latest_probability_vector(
         if isinstance(last, dict):
             latest[voice] = float(last.get("probability") or 0.5)
     return latest
-
 
 def compute_alignment_score(
     event_id: str,
@@ -83,7 +80,6 @@ def compute_alignment_score(
     total_w = sum(pair_weights) or 1.0
     return round(sum(s * w for s, w in zip(scores, pair_weights)) / total_w, 4)
 
-
 def entropy_weight(trajectory: list[dict[str, Any]], *, entropy: float) -> float:
     """Weight trajectory points — lower weight when semantic entropy is high."""
     if not trajectory:
@@ -102,7 +98,6 @@ def entropy_weight(trajectory: list[dict[str, Any]], *, entropy: float) -> float
     if total <= 0:
         return round(float(trajectory[-1].get("probability") or 0.5), 4)
     return round(weighted_sum / total, 4)
-
 
 def normalize_cross_voice(
     trajectories: list[dict[str, Any]],

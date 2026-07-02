@@ -1,7 +1,6 @@
 # America - Egypt Debt / Suez / Bread Legitimacy Framework
 <!-- word_count: 456 -->
 
-
 ## Transaction Name
 
 Egypt creditor restraint and bread floor.

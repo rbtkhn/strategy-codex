@@ -1,7 +1,6 @@
 # CIV-MIND-MERCOURIS — redirect (stable path)
 <!-- word_count: 31 -->
 
-
 **Canonical voice profile (SSOT):** [statecraft/voices/mercouris/mercouris-profile.md](../../statecraft/voices/mercouris/mercouris-profile.md)
 
 **Compatibility chain:** [`../strategy-expert-mercouris-mind.md`](../strategy-expert-mercouris-mind.md) → voice profile (do not duplicate corpus here).

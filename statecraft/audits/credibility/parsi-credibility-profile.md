@@ -1,6 +1,5 @@
 # Parsi credibility profile
 
-
 ## Summary
 
 Parsi is a diplomacy-architecture speaker whose main value comes from settlement design, sanctions logic, guarantee structure, and the ability to show why coercion fails without a political landing zone. The notebook can often extend high provisional trust quickly here because the mechanism is disciplined, but the current corpus shows more conditional openness than explicit first-person revision.

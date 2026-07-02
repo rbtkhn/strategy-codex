@@ -1,6 +1,5 @@
 # Source-Archive Ownership vs Speaker Arc
 
-
 This note distinguishes two nearby but different questions:
 
 - **who owns the source-archive capture?**

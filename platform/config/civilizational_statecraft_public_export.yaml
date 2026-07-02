@@ -139,7 +139,7 @@ forbidden_patterns:
   - "statecraft/china/transactions"
   - "statecraft/persia/transactions"
   - "statecraft/russia/transactions"
-  - "WORK only; not Record"
+  - "non-authoritative; not Record"
 
 link_rewrite:
   - from: "volumes/civ-state-{slug}/"

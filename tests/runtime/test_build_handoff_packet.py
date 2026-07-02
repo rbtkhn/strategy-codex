@@ -10,7 +10,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 CP = REPO_ROOT / "scripts" / "runtime" / "checkpoint_session.py"
 HO = REPO_ROOT / "scripts" / "runtime" / "build_handoff_packet.py"
 
-
 def test_build_handoff_packet_subprocess(tmp_path: Path) -> None:
     subprocess.run(
         [

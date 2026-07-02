@@ -36,7 +36,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 >> Um again, we don't know exactly what's going on because there are reports and we have seen very clearly that uh in times of war, particularly these times of war, initial reports may end up being somewhat inaccurate. Um, I think it's

@@ -1,6 +1,6 @@
 ﻿# WORK-LEDGER â€” work-dev
 
-**Status:** WORK only â€” optional **judgment / compounding** layer.  
+**Status:** non-authoritative â€” optional **judgment / compounding** layer.  
 **Scaffold source:** [work-template/WORK-LEDGER.md](../work-template/WORK-LEDGER.md).  
 **Canonical operator surface:** [workspace.md](workspace.md) stays first for day-to-day state and next actions.
 

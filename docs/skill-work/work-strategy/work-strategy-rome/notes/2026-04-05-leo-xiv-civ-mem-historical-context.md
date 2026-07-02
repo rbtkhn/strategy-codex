@@ -1,7 +1,7 @@
 # Leo XIV — CIV-MEM historical context (ROME-PASS + slow layer)
 
 **Date:** 2026-04-05  
-**Territory:** work-strategy-rome · **WORK only** — not Record, not companion catechesis.  
+**Territory:** work-strategy-rome · , not companion catechesis.  
 **Primary OSINT spine:** [leo-xiv-osint-prc-brief-2026-04-04.md](../../../work-politics/leo-xiv-osint-prc-brief-2026-04-04.md) (Bollettino-backed China tranche, master timeline, tier **A–D** discipline).
 
 **Disclaimer:** Civ-mem material below is **analogy and institutional framing only** — not evidence of what Pope Leo XIV said or did, not a recommendation, **not** Record. Public or campaign copy that cites it follows [civ-mem-draft-protocol.md](../../../work-politics/civ-mem-draft-protocol.md). See [ROME-PASS.md](../ROME-PASS.md) source order: **CIV-MEM never replaces vatican.va / Bollettino for “what happened this week.”**

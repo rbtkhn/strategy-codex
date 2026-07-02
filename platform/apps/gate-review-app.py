@@ -55,7 +55,6 @@ _RECLASSIFY_SURFACE_OPTIONS = (
     ("work_layer", "work_layer"),
 )
 
-
 def _auth():
     if not OPERATOR_SECRET:
         return True
@@ -64,10 +63,8 @@ def _auth():
         return auth[7:].strip() == OPERATOR_SECRET
     return request.args.get("token") == OPERATOR_SECRET
 
-
 def _age_label(age_days):
     return "—" if age_days is None else f"{age_days}d"
-
 
 @app.route("/")
 def index():
@@ -324,7 +321,6 @@ def index():
 </body>
 </html>"""
 
-
 @app.route("/action", methods=["POST"])
 def action():
     """Apply approve, reject, defer, or reclassify; update recursion-gate and optionally quick-merge."""
@@ -437,7 +433,6 @@ def action():
         }
     )
 
-
 @app.route("/diff-queue")
 def diff_queue():
     """Render the Record Diff Queue as HTML — unified diff-card view of pending gate candidates."""
@@ -484,7 +479,6 @@ def diff_queue():
 </body>
 </html>"""
 
-
 @app.route("/api/diff-queue")
 def api_diff_queue():
     """JSON list of pending candidates as identity-diff v1 objects."""
@@ -497,7 +491,6 @@ def api_diff_queue():
 
     diffs = convert_gate(USER_ID)
     return jsonify({"user_id": USER_ID, "count": len(diffs), "diffs": diffs})
-
 
 def _md_to_html(md_text: str) -> str:
     """Minimal Markdown-to-HTML for diff queue rendering (no external deps)."""
@@ -551,7 +544,6 @@ def _md_to_html(md_text: str) -> str:
         out.append("</ul>")
     return "\n".join(out)
 
-
 @app.route("/api/candidates")
 def api_candidates():
     """JSON list of pending candidates for external UIs (raw + normalized review shape)."""
@@ -570,7 +562,6 @@ def api_candidates():
         }
     )
 
-
 @app.route("/api/work-politics/review")
 def api_work_politics_review():
     if not _auth():
@@ -582,7 +573,6 @@ def api_work_politics_review():
         return jsonify({"user_id": USER_ID, "count": len(items), "items": items})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
 
 @app.route("/api/work-politics/client", methods=["POST"])
 def api_work_politics_client():
@@ -608,7 +598,6 @@ def api_work_politics_client():
         return jsonify({"error": str(e)}), 400
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
 
 @app.route("/api/work-politics/engagement", methods=["POST"])
 def api_work_politics_engagement():
@@ -642,7 +631,6 @@ def api_work_politics_engagement():
         return jsonify({"error": str(e)}), 404
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
 
 @app.route("/api/work-politics/review-action", methods=["POST"])
 def api_work_politics_review_action():
@@ -683,7 +671,6 @@ def api_work_politics_review_action():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-
 @app.route("/api/work-politics/funnel-event", methods=["POST"])
 def api_work_politics_funnel_event():
     if not _auth():
@@ -708,7 +695,6 @@ def api_work_politics_funnel_event():
         return jsonify({"error": str(e)}), 404
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.getenv("PORT", "5001")), debug=os.getenv("FLASK_DEBUG", "").lower() in ("1", "true"))

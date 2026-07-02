@@ -1,7 +1,5 @@
 # Agent Control Plane
 
-WORK only; not Record.
-
 **Canonical home:** [../../essays/agent-control-plane.md](../../essays/agent-control-plane.md)
 
 Compatibility stub — pre-root singularity essay holding (mirrored from

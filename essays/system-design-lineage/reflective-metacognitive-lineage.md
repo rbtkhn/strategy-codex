@@ -1,7 +1,5 @@
 # Reflective and Metacognitive Lineage
 
-work only; not Record.
-
 Purpose: establish that the repo's reflective and interpretive self-improvement
 logic has clear academic precedent.
 

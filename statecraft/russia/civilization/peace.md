@@ -1,6 +1,5 @@
 # Russia Peace
 
-
 ## Purpose
 
 Use Russian peace memory as a statecraft lens for recognition, buffer settlement, security guarantees, controlled ambiguity, nuclear restraint, non-subordination, and the difference between peace as equilibrium and peace as humiliation disguised as order.

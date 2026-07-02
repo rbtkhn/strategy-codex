@@ -11,7 +11,6 @@ HAND_BACK_MATRIX = (
     REPO_ROOT / "docs/skill-work/work-dev/scenarios/handback_tail_stress.matrix.md"
 )
 
-
 def test_handback_tail_stress_openclaw_stressors_by_risk_stance() -> None:
     """handback_tail_stress.yaml: 1 runtime × 8 stressor dimension values."""
     rows = build_matrix(scenario_filter="handback_tail", runtimes=["openclaw"])
@@ -44,7 +43,6 @@ def test_handback_tail_stress_openclaw_stressors_by_risk_stance() -> None:
         "low_but_warns",
         "manual_but_approves",
     ]
-
 
 def test_handback_tail_matrix_file_matches_generator() -> None:
     """Checked-in matrix stays in sync with YAML (CI drift guard)."""

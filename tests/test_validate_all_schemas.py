@@ -13,7 +13,6 @@ import pytest
 REPO_ROOT = Path(__file__).resolve().parents[1]
 VALIDATOR = REPO_ROOT / "scripts" / "validate_all_schemas.py"
 
-
 def _run(*args: str) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         [sys.executable, str(VALIDATOR), *args],
@@ -22,12 +21,10 @@ def _run(*args: str) -> subprocess.CompletedProcess[str]:
         text=True,
     )
 
-
 def test_validate_all_schemas_prediction_scope_passes() -> None:
     proc = _run("--scope", "prediction")
     assert proc.returncode == 0
     assert "[ok] validate_all_schemas passed" in proc.stdout
-
 
 def test_missing_prediction_status_fails(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     import importlib.util

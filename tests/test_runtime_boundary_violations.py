@@ -34,7 +34,6 @@ CANONICAL_RECORD_PATHS = {
     "archive/grace-mar-instance/bot/prompt.py",
 }
 
-
 # â”€â”€ PR 3.1: prepared-context output contains boundary disclaimer â”€â”€â”€â”€â”€
 
 def test_budgeted_context_contains_boundary_disclaimer(tmp_path: Path) -> None:
@@ -70,7 +69,6 @@ def test_budgeted_context_contains_boundary_disclaimer(tmp_path: Path) -> None:
         "(runtime/WORK scaffolding, not Record truth)"
     )
 
-
 # â”€â”€ PR 3.2: retrieval results must not include canonical Record paths â”€
 
 def test_retrieval_excludes_canonical_record_paths(tmp_path: Path) -> None:
@@ -101,7 +99,6 @@ def test_retrieval_excludes_canonical_record_paths(tmp_path: Path) -> None:
             assert canonical not in r.path, (
                 f"retrieval returned canonical Record path '{canonical}' in result: {r.path}"
             )
-
 
 # â”€â”€ PR 3.3: active-lane compression output goes to runtime/artifacts/ â”€â”€â”€â”€â”€â”€â”€â”€
 
@@ -135,7 +132,6 @@ def test_compress_active_lane_writes_to_artifacts(tmp_path: Path) -> None:
             assert original == full.read_text(encoding="utf-8"), (
                 f"compress_active_lane modified canonical file: {cp}"
             )
-
 
 # â”€â”€ PR 3.4: active-lane compression never includes Record content â”€â”€â”€â”€
 
@@ -171,7 +167,6 @@ def test_compress_active_lane_no_record_content(tmp_path: Path) -> None:
             "active-lane compression leaked self.md content into artifact"
         )
 
-
 # â”€â”€ PR 3.5: skill-card output stays under runtime/artifacts/ â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 def test_skill_cards_output_under_artifacts(tmp_path: Path) -> None:
@@ -194,7 +189,6 @@ def test_skill_cards_output_under_artifacts(tmp_path: Path) -> None:
         assert not full.exists(), (
             f"build_skill_cards created canonical Record file: {cp}"
         )
-
 
 # â”€â”€ PR 3.6: receipt file is non-canonical â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
@@ -231,7 +225,6 @@ def test_budget_receipt_not_canonical(tmp_path: Path) -> None:
         assert not (tmp_path / cp).exists(), (
             f"budget build created canonical file: {cp}"
         )
-
 
 # â”€â”€ PR 3.7: observation store writes stay in runtime/ â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 

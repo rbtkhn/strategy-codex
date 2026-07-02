@@ -14,19 +14,16 @@ if str(SRC) not in sys.path:
 
 from grace_mar import structured_memory  # noqa: E402
 
-
 def test_route_capture_explicit_hint_wins() -> None:
     route = structured_memory.route_capture_surface("ignored text", surface_hint="decisions")
     assert route.surface_key == "decisions"
     assert route.legacy_surface_key == "governed_state"
     assert route.reason == "explicit surface hint"
 
-
 def test_route_capture_accepts_legacy_hint_aliases() -> None:
     route = structured_memory.route_capture_surface("ignored text", surface_hint="prepared_context")
     assert route.surface_key == "thinking"
     assert route.legacy_surface_key == "prepared_context"
-
 
 def test_route_capture_heuristic_prefers_goals() -> None:
     route = structured_memory.route_capture_surface(
@@ -36,12 +33,10 @@ def test_route_capture_heuristic_prefers_goals() -> None:
     assert route.legacy_surface_key == "governed_state"
     assert route.reason.startswith("heuristic keyword match")
 
-
 def test_route_capture_defaults_to_thinking() -> None:
     route = structured_memory.route_capture_surface("A vague note without obvious signals.")
     assert route.surface_key == "thinking"
     assert route.legacy_surface_key == "prepared_context"
-
 
 def test_build_capture_record_uses_title_and_compatibility() -> None:
     record = structured_memory.build_capture_record(
@@ -57,7 +52,6 @@ def test_build_capture_record_uses_title_and_compatibility() -> None:
     assert record["title"]
     assert record["body"].startswith("We decided")
 
-
 def test_build_tool_payload_accepts_capture_observation() -> None:
     payload = structured_memory.build_tool_payload(
         "capture_observation",
@@ -70,7 +64,6 @@ def test_build_tool_payload_accepts_capture_observation() -> None:
     assert payload["surface_key"] == "thinking"
     assert payload["legacy_surface_key"] == "prepared_context"
     assert payload["session_id"] == "SES-20260507-001"
-
 
 def test_build_session_event_maps_legacy_surface() -> None:
     event = structured_memory.build_session_event(
@@ -85,7 +78,6 @@ def test_build_session_event_maps_legacy_surface() -> None:
     assert event["legacy_surface_key"] == "prepared_context"
     assert event["event_type"] == "prompt_submit"
     assert event["payload"] == {"prompt_id": "P-1"}
-
 
 def test_get_briefing_renders_sections() -> None:
     brief = structured_memory.get_briefing(
@@ -114,7 +106,6 @@ def test_get_briefing_renders_sections() -> None:
     assert "## Session Events" in brief
     assert "north_star / active_projects / decisions -> governed_state" in brief
 
-
 def test_standup_is_compact() -> None:
     standup = structured_memory.standup(
         {"thinking": [{"body": "Keep the wedge small."}]},
@@ -123,7 +114,6 @@ def test_standup_is_compact() -> None:
     assert "# Standup" in standup
     assert "## Next Step" in standup
     assert "Compact" not in standup
-
 
 def test_start_and_wrap_use_fork_lifecycle(monkeypatch: pytest.MonkeyPatch) -> None:
     calls: list[tuple[str, tuple, dict]] = []

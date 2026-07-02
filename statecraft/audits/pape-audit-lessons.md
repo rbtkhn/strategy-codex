@@ -1,6 +1,5 @@
 # Pape audit lessons
 
-
 Purpose: record what the first real post-commit audit test taught us about the speaker audit system itself.
 
 ## What worked

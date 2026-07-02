@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 It took nearly two months for the United States and Iran to get to a memorandum of understanding that both would accept, both would sign, and then start the negotiating process. So, that was hard, but at least we got that that done. Now, as we say, it's an understatement to say the devil's in the details of taking even the words in thatou and then converting those into a negotiated settlement to actually end the war.

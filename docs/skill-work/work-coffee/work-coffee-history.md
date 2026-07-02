@@ -13,7 +13,6 @@ This log is WORK-only. It is not the Record, not MEMORY, and not a substitute fo
 - Updated coffee lane hints so **B / D** context now means **Engineer / Singularity** (`work-dev` next action plus academy-singularity next action).
 - Preserved legacy Capitalist / bookshelf-product work as explicit-request routing rather than a coffee hub default.
 
-
 ## 2026-03-31 — `hey` to `coffee`, ritual doctrine formalized
 
 - Reframed the daily operator ritual so `coffee` became the canonical trigger and `hey` became a legacy alias.

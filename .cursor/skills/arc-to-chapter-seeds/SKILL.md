@@ -29,7 +29,6 @@ This skill is for the stage before full chapter writing. Its job is to turn a li
 
 ## Boundary
 
-- WORK only; not Record.
 - Do not let the source arc silently become the governing architecture of the destination corpus.
 - Do not confuse chapter seeds with finished chapter plans.
 - Do not move source-workshop language into destination-corpus surfaces unless the operator explicitly asks.
@@ -162,7 +161,6 @@ When finishing a pass, summarize:
 - what attribution issue mattered most
 - which seed now looks strongest for later chapter materialization
 
-
 ## Cursor / strategy-codex instance
 
 ## strategy-codex instance
@@ -184,7 +182,6 @@ python scripts/validate_skills.py
 ```
 
 - Keep this skill upstream. Do not let it write destination-corpus doctrine or imply that a seed list has already become a chapter architecture.
-
 
 ## Cursor / strategy-codex instance
 

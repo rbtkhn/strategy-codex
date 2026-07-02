@@ -1,6 +1,5 @@
 # China Empire Instrument
 
-
 ## Purpose
 
 Use this object as the phase-one China empire-side carrier for the symmetric-first CIV-STATE migration. It names the outward instruments through which China tries to secure energy, routes, finance, industrial continuity, and anti-coercion leverage without letting the stabilizer role harden into visible policing burden or premature coalition containment.

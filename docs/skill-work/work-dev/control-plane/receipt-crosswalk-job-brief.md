@@ -52,7 +52,7 @@ Secondary audience is future integration/spec work that needs a stable reference
 ## Constraints
 
 - Length / format: one compact markdown doc, table-heavy where useful
-- Brand, legal, or governance limits: WORK only; no Record implications
+- Brand, legal, or governance limits: non-authoritative; no Record implications
 - Technical limits: no schema rewrite required in this wedge
 - Context budget: should be readable in one pass by an operator during implementation planning
 

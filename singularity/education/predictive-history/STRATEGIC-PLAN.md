@@ -1,7 +1,5 @@
 # Predictive History Education — Strategic Plan
 
-WORK only; not Record.
-
 **Scope:** `singularity/education/predictive-history/` and loop cluster `predictive-history-*`.
 
 **One-line strategy:** Predictive History becomes a source-grounded education media engine — Singularity consumes the canonical public corpus and produces learner-facing derivatives; it does not mirror corpus taxonomy.

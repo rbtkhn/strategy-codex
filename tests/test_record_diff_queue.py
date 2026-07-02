@@ -20,7 +20,6 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-
 # ---------------------------------------------------------------------------
 # Schema validation tests
 # ---------------------------------------------------------------------------
@@ -52,7 +51,6 @@ class TestIdentityDiffSchema:
     def test_existing_required_fields_unchanged(self, schema):
         expected = {"schemaVersion", "diffId", "userSlug", "category", "before", "after", "changeSummary", "evidenceRefs"}
         assert expected == set(schema["required"])
-
 
 # ---------------------------------------------------------------------------
 # Demo data tests
@@ -86,7 +84,6 @@ class TestDemoData:
 
     def test_diff_002_recommended_action(self, diff_002):
         assert diff_002["recommendedAction"] == "defer"
-
 
 # ---------------------------------------------------------------------------
 # Renderer tests
@@ -189,7 +186,6 @@ class TestRenderer:
         assert "diff-001" in ids
         assert "diff-002" in ids
 
-
 # ---------------------------------------------------------------------------
 # Gate adapter tests
 # ---------------------------------------------------------------------------
@@ -253,7 +249,6 @@ class TestGateAdapter:
         yaml = self.SAMPLE_YAML + "conflicts_detected: none\n"
         diff = candidate_to_diff("CANDIDATE-0004", "No conflict", yaml, "")
         assert "conflictNote" not in diff
-
 
 # ---------------------------------------------------------------------------
 # CLI integration tests

@@ -12,12 +12,10 @@ if str(SCRIPTS) not in sys.path:
 
 from record_slice_loader import load_record_slices_for_lesson
 
-
 def test_err_user_not_found() -> None:
     out = load_record_slices_for_lesson("nonexistent-fork-xyz", max_chars=1000)
     assert out["ok"] is False
     assert out["error"] == "ERR_USER_NOT_FOUND"
-
 
 def test_tmp_user_truncation(tmp_path) -> None:
     ud = tmp_path / "u1"

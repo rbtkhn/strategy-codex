@@ -1,7 +1,5 @@
 # Singularity Action Card Standard
 
-WORK only; not Record.
-
 ## Purpose
 
 A Singularity action card is a dated, reviewable work order for a declared loop.

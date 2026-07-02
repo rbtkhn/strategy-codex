@@ -17,7 +17,6 @@ archive_links:
 ---
 # Statecraft Participant Index Audit - 2026-06-03
 
-
 ## Purpose
 
 Preserve the corpus-level rule for how participant-bearing statecraft source objects should surface in speaker lanes, and record the bounded June 3, 2026 audit that repaired the current archive stack.

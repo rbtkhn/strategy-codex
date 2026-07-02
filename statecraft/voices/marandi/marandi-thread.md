@@ -1,7 +1,6 @@
 # Expert thread Ã¢â‚¬â€ `marandi`
 <!-- word_count: 9647 -->
 
-
 ## Orthogonality guide
 
 Read this file as a **legacy continuity checkpoint**, not as a thread that competes with the current Marandi helix structure.
@@ -42,7 +41,6 @@ _(No narrative distillation yet Ã¢â‚¬â€ add prose above the markers, 
 
 Early-year material frames **domestic unrest**, foreign-media narrative, and escalation warnings from **Tehran** Ã¢â‚¬â€ this register stresses **legitimacy** and **proportionality** in how Western outlets read riots versus state-aligned rallies.
 
-
 Typical pairings on file for `marandi` emphasize contrast surfaces: Ãƒâ€” ritter, Ãƒâ€” parsi, Ãƒâ€” rome-ecumenical (Pontifex / Marandi Easter). In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-01 segment should be read as **mesh navigation**Ã¢â‚¬â€which lanes to pull into the same batch passÃ¢â‚¬â€rather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
 
 The 2026-01 segment for the Seyed Mohammad Marandi lane (`marandi`) exists so the notebook keeps a **prose spine** alongside any strength-tagged bullets. The roster describes this voice as centered on Iranian English long-form: negotiation process, red lines, legitimacy register. That one-line role is not a substitute for transcript truth; it is a **routing label** so batch-analysis passes know which mechanism vocabulary to expect when dated material lands. When this month is still partial or ingest-light, the prose layer still records **where verification should attach** (page cites, transcript rows, or hub URLs) without pretending those pins are already closed.
@@ -65,7 +63,6 @@ When historical expert context artifacts exist for `marandi` (per-month files or
 
 February clips stack **catastrophic-war** framing (long-form podcast) beside **post-strike** urgency narratives Ã¢â‚¬â€ useful for **timing** and **register** (who is speaking after which event), not for collapsing into a single Ã¢â‚¬Å“Iran position.Ã¢â‚¬Â
 
-
 Typical pairings on file for `marandi` emphasize contrast surfaces: Ãƒâ€” ritter, Ãƒâ€” parsi, Ãƒâ€” rome-ecumenical (Pontifex / Marandi Easter). In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-02 segment should be read as **mesh navigation**Ã¢â‚¬â€which lanes to pull into the same batch passÃ¢â‚¬â€rather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
 
 If pages named this expert during 2026-02, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃ¢â‚¬â€absence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
@@ -87,7 +84,6 @@ The 2026-02 segment for the Seyed Mohammad Marandi lane (`marandi`) exists so th
 
 March density shifts to **war-in-progress** commentary Ã¢â‚¬â€ **military-strategy** critiques, **ceasefire** posture, and **energy / South Pars** framing; **Glenn Diesen** long-form is the main discoverability spine in search bundles.
 
-
 Cross-lane convergence and tension are notebook-native concepts. For 2026-03, read Ãƒâ€” ritter, Ãƒâ€” parsi, Ãƒâ€” rome-ecumenical (Pontifex / Marandi Easter) as the default **short list** of other experts whose fingerprints commonly collide with `marandi` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
 
 If pages named this expert during 2026-03, the narrative should eventually say **which page** and **what job** the voice did (pressure, validate, narrate) in plain English. If legacy index lines are still empty, say that plainly tooÃ¢â‚¬â€absence matters for pipeline honesty. The machine block below the marker will populate page references when the index points here; Segment 1 should still record what the operator noticed at human speed before automation catches up.
@@ -99,7 +95,6 @@ Segment discipline here follows the strategy-notebook contract: Segment 1 is hum
 Verification stance for Seyed Mohammad Marandi in 2026-03 should stay tier-honest: web-index rows, newsletter dates, and YouTube upload metadata differ in **claim strength**. The notebook uses `[strength: low|medium|high]` precisely because not every cite supports the same inference. Prose here can narrate **what kind of mistake** would happen if a low-strength hook were promoted to a headline judgmentÃ¢â‚¬â€without turning that caution into a substitute for fresh primary checks when the operator needs cite-grade output.
 
 Typical pairings on file for `marandi` emphasize contrast surfaces: Ãƒâ€” ritter, Ãƒâ€” parsi, Ãƒâ€” rome-ecumenical (Pontifex / Marandi Easter). In WORK, those pairings are **operational**: they tell the operator which other `thread:` lanes to open when a claim needs a second fingerprint, not a second opinion dressed as neutrality. This 2026-03 segment should be read as **mesh navigation**Ã¢â‚¬â€which lanes to pull into the same batch passÃ¢â‚¬â€rather than as a claim that those voices agreed or disagreed on any particular day unless a dated bullet below says so explicitly.
-
 
 Cross-lane convergence and tension are notebook-native concepts. For 2026-03, read Ãƒâ€” ritter, Ãƒâ€” parsi, Ãƒâ€” rome-ecumenical (Pontifex / Marandi Easter) as the default **short list** of other experts whose fingerprints commonly collide with `marandi` on batch passes. Convergence is not friendship; tension is not feud. Both are **pattern labels** for what repeated comparative reading tends to show, subject to update when new evidence changes the shape of disagreement.
 
@@ -143,7 +138,6 @@ Canonical page paths and raw ingest lines live in **Segment 2** below (regenerat
 
 - **2026-03** Ã¢â‚¬â€ South Pars / economic war Ã¢â‚¬â€ gas infrastructure strikes.
   _Source:_ web: `https://www.youtube.com/watch?v=AYLACkCWXRA`
-
 
 ### 2026-04
 
@@ -318,7 +312,6 @@ none this pass
 
 # Page Ã¢â‚¬â€ 2026-04-16 Ã¢â‚¬â€ Marandi-primary: Breaking Points Ãƒâ€” Blumenthal (Judging Freedom)
 
-
 | Field | Value |
 |--------|--------|
 | **Date** | 2026-04-16 |
@@ -416,7 +409,7 @@ none this pass
 `notebook | cold: Mercouris lane Ã¢â‚¬â€ Hormuz as precedent-for-Beijing problem (U.S. maritime-denial grammar portable beyond Iran); escalation risk as friction-thickening (insurance, routing, posture, rhetoric) before any notional fleet clash // hook: tri-mind narrow pass (Hormuz + PRC escalation); notebook lens fold, not Duran primary | verify:lens-fold+mercouris | thread:mercouris | membrane:single | grep:Hormuz+PRC+precedent`
 **Folded (2026-04-13)** Ã¢â‚¬â€ **@MarioNawfal Ãƒâ€” Grand Mosque** (TrumpÃ¢â‚¬â€œLeo vs **Grand Mosque of Algiers**, tier-A **Vatican News**) Ã¢â€ â€™ **`## 2026-04-13`** **Signal** / **Judgment** / **Links** / **Open**. **Also folded:** scratch lines (**Judging Freedom** Ãƒâ€” **Larry Johnson**; **Davis Deep Dive** Ãƒâ€” **Ritter**; **`batch-analysis`** tri-mind) Ã¢â€ â€™ same **`## 2026-04-13`** (**Judgment** Ã‚Â§ **Mercouris Ãƒâ€” Johnson**, Ã‚Â§ **Ritter ego reduction vs structural fold**). Verbatim paste-grade lines / backticks in **git history** for this file.
 `batch-analysis | 2026-04-14 | carry 04-12Ã¢â‚¬â€œ04-13 expert lanes + PH vi-14/15 + DiesenÃƒâ€”Sachs | **Continuity spine:** **Hormuz / Islamabad / alliance geometry** threads (`ritter`, `mearsheimer`, `mercouris`, `marandi`, `parsi`, `pape`, `davis`, `johnson`, `freeman`, `sachs`) stay the **mechanics + room + trap** / **institutions** stack; **PH vi-14/vi-15** (`diesen`, `jiang`) add **petrodollar / eschatology** overlaysÃ¢â‚¬â€**do not** collapse into one Ã¢â‚¬Å“civilizational verdict.Ã¢â‚¬Â **`diesen`** **same-day** **double** ingest (**vi-14** vs **`crosses:diesen+sachs`**) Ã¢â‚¬â€ keep **lecture** lane separate from **Sachs** **DC-process** **hypotheses** until **verify** tier. **New this cycle (wires / social):** **Italy** as **European hinge** (defense-diplomatic + TrumpÃ¢â‚¬â€œPope friction) + **IRI presidential roster** naming Italy beside othersÃ¢â‚¬â€**treat as coalition narrative + verify tier**, not automatic merge with **04-13** **MarandiÃƒâ€”MercourisÃƒâ€”Ritter** Judgment until primaries pin. **Rome plane** (`ROME`, **Pontifex** / Algeria journey): **parallel legitimacy seam** vs **Hormuz ORBAT**Ã¢â‚¬â€same **tier split** as 04-13 **Grand Mosque** fold. **Weak bridge:** Ã¢â‚¬Å“isolation / beg countsÃ¢â‚¬Â memes = **hypothesis-grade** unless elevated with **dated** **Ã‚Â§1d/Ã‚Â§1e**-class citesÃ¢â‚¬â€**do not** stand in for **`thread:`** experts.`
-`batch-analysis | 2026-04-15 | Mercouris Ãƒâ€” tri-mind | **Tension-first:** thread:mercouris **15 Apr 2026** **The Duran** thread (contested Hormuz narratives, Islamabad reads, LavrovÃ¢â‚¬â€œWangÃ¢â‚¬â€œXi, Russian SC commentary, attrition frame) Ãƒâ€” tri-mind **BÃ¢â€ â€™AÃ¢â€ â€™C** + solo A; fact-check triage rows in days.md **## 2026-04-15** **Links**Ã¢â‚¬â€do not merge second-hand ORBAT with tanker AIS facts without tier discipline. seam:mercouris-tri-frame Ã¢â‚¬â€ WORK only; not a crosses: two-expert row.`
+`batch-analysis | 2026-04-15 | Mercouris Ãƒâ€” tri-mind | **Tension-first:** thread:mercouris **15 Apr 2026** **The Duran** thread (contested Hormuz narratives, Islamabad reads, LavrovÃ¢â‚¬â€œWangÃ¢â‚¬â€œXi, Russian SC commentary, attrition frame) Ãƒâ€” tri-mind **BÃ¢â€ â€™AÃ¢â€ â€™C** + solo A; fact-check triage rows in days.md **## 2026-04-15** **Links**Ã¢â‚¬â€do not merge second-hand ORBAT with tanker AIS facts without tier discipline. seam:mercouris-tri-frame Ã¢â‚¬â€ non-authoritative; not a crosses: two-expert row.`
 `batch-analysis | 2026-04-15 | Mercouris Ãƒâ€” tri-mind | seam:mercouris-tri-frame`
 
 _(Operator/assistant: refine this page content.)_
@@ -563,7 +556,6 @@ Pape stacks four public claims in one appearance:
 ### Appendix
 
 # Page Ã¢â‚¬â€ 2026-04-16 Ã¢â‚¬â€ Pape (Janssen): escalation trap, staged blockade, third-player spoiler
-
 
 | Field | Value |
 |--------|--------|

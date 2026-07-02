@@ -1,6 +1,5 @@
 # Raw-Input Lane Ownership
 
-
 This note gives the ownership rule for raw-input captures when a host channel and a recurring expert lane point in different directions.
 
 ## Core rule

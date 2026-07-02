@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — MAGA Fracture
 
 I have some consistency with the mugs. >> Well, the other one's in the wash, so I have my my green today. >> How are you? >> I'm very good. Green actually is my favorite color. Fun fact. Um, but I'm good. I'm good. How are you? >> Good. Good. The the team came up with a good topic for us to chat about and that's the the split within MAGA because of what Tucker and Marie and Taylor Green announced in the last 24 hours.

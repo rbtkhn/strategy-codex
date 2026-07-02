@@ -9,7 +9,6 @@ updated_at: 2026-06-28
 ---
 # Mercouris Format Synergy Doctrine
 
-
 Use this note when month work, intake work, or coverage judgment is starting to blur `solo Mercouris` and `Duran / Mercouris` into one undifferentiated bucket.
 
 ## Core Claim

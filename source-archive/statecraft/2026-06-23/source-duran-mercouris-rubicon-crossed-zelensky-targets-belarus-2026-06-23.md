@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Project Ukraine
 
 All right, Alexander, let's talk about project Ukraine. We had uh

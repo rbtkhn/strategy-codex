@@ -15,10 +15,8 @@ if os.name == "nt":
 else:
     DEFAULT_CODEGRAPH_CMD = ["npx", "@colbymchenry/codegraph"]
 
-
 def utc_now_iso() -> str:
     return datetime.now(UTC).isoformat()
-
 
 def relative_to_repo(path: Path) -> str:
     try:
@@ -26,13 +24,11 @@ def relative_to_repo(path: Path) -> str:
     except ValueError:
         return str(path)
 
-
 def _windows_codegraph_cache_glob() -> str:
     return (
         ".codex-tmp/npm-cache/_npx/*/node_modules/"
         "@colbymchenry/codegraph-win32-x64/platform/bin/codegraph.cmd"
     )
-
 
 def find_local_codegraph_cmd() -> list[str] | None:
     if os.name != "nt":
@@ -45,7 +41,6 @@ def find_local_codegraph_cmd() -> list[str] | None:
     newest = max(candidates, key=lambda path: path.stat().st_mtime)
     return [str(newest)]
 
-
 def resolve_codegraph_cmd(explicit: str | None = None) -> list[str]:
     raw = explicit or os.environ.get("CODEGRAPH_CMD", "").strip()
     if raw:
@@ -54,7 +49,6 @@ def resolve_codegraph_cmd(explicit: str | None = None) -> list[str]:
     if local_cmd:
         return local_cmd
     return list(DEFAULT_CODEGRAPH_CMD)
-
 
 def run_codegraph(
     args: list[str],
@@ -75,7 +69,6 @@ def run_codegraph(
         env=env,
     )
 
-
 def run_codegraph_json(
     args: list[str],
     *,
@@ -85,12 +78,10 @@ def run_codegraph_json(
     result = run_codegraph(args, cwd=cwd, codegraph_cmd=codegraph_cmd)
     return json.loads(result.stdout)
 
-
 def write_json(path: Path, payload: Any) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
     return path
-
 
 def write_text(path: Path, text: str) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)

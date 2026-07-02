@@ -1,7 +1,6 @@
 # America - U.S. Digital Identity Collapse / Sovereignty Framework
 <!-- word_count: 402 -->
 
-
 ## Transaction Name
 
 Identity continuity before platform control.

@@ -6,10 +6,8 @@ from typing import Any
 
 from prediction.plugins.base import MAX_PLUGIN_INFLUENCE, deep_clone, normalize_plugin_weights
 
-
 def _clamp01(value: float) -> float:
     return max(0.0, min(1.0, value))
-
 
 def merge_object(
     core_obj: dict[str, Any],
@@ -70,7 +68,6 @@ def merge_object(
         },
         "annotations": annotations,
     }
-
 
 def merge_evaluation_rollups(
     rollups: list[dict[str, Any]],

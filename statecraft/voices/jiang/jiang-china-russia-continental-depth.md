@@ -1,6 +1,5 @@
 # Jiang on China, Russia, and Continental Depth
 
-
 This note isolates one specific Jiang fault line that keeps recurring in recent use: **whether Jiang underweights the strategic value of Russia to China**.
 
 It is a sibling to [jiang-on-china.md](jiang-on-china.md), not a replacement for it. The broader note captures Jiang's overall China frame; this one focuses narrowly on **dependence vs strategic depth**, **northern routes**, and **overland access to west Eurasia**.

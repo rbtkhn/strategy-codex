@@ -30,7 +30,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### CENTCOM Warning — Operation Sledgehammer Foreseen, Toll Endstate
 
 US Navy Central Command has warned mariners and airmen that Sentcom will be conducting military operations in the straight of Hamuz north of Oman's Musandam Peninsula located in the middle of the straight. Um, the Navy has advised mariners to uh collaborate with the US when when transiting the strait, transiting the straight.

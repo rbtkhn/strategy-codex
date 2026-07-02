@@ -733,7 +733,6 @@ Do not add speculative speaker lanes for unresolved names. If a participant does
 
 The source ends as a **real full-source archive object** in the canonical statecraft source archive, filed under the right family, with honest provenance and no archive/control-plane drift.
 
-
 ## Cursor / strategy-codex instance
 
 **strategy-codex instance notes**

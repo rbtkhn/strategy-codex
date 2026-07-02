@@ -12,11 +12,9 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-
 @pytest.fixture
 def rules():
     return json.loads((ROOT / "platform/config" / "seed-promotion-rules.json").read_text())
-
 
 def _make_claim(**overrides):
     base = {
@@ -38,7 +36,6 @@ def _make_claim(**overrides):
     }
     base.update(overrides)
     return base
-
 
 class TestNurseryCard:
     def test_still_seed_has_reasons(self, rules):

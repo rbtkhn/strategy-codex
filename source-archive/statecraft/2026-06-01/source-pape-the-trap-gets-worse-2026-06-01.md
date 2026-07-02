@@ -24,7 +24,6 @@ Five Questions from Sunday's Briefing That Reveal Why Trump Cannot Escape the Es
 Prof Robert Pape
 Jun 01, 2026
 
-
 For the past ninety days, Washington has been obsessed with a single question: will President Trump and Iran reach a nuclear agreement?
 
 That is no longer the most important question.

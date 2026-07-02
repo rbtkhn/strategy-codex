@@ -1,6 +1,6 @@
 # Toscanini dopamine / flow agency demo
 
-WORK only. Not Record. Not EVIDENCE. Not a gate substitute.
+non-authoritative. Not Record. Not EVIDENCE. Not a gate substitute.
 
 ## Metadata
 

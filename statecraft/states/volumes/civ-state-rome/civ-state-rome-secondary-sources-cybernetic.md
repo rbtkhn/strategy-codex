@@ -1,6 +1,5 @@
 # Rome Secondary Sources - Cybernetic
 
-
 ## What This Secondary Shelf Is For
 
 Use this shelf after the cybernetic Rome primary shelf when post-1991 Roman residue, papal world speech, Vatican diplomacy, or successor-order comparison need stronger present-tense framing or counterweight against theatrical revivalism.

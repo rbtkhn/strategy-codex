@@ -1,7 +1,6 @@
 # Protected Channel / Non-Regime-Change Framework - Sequence Brief
 <!-- word_count: 496 -->
 
-
 Purpose: convert the protected-channel framework into the smallest honest rollout sequence so the hardened clauses can be tested as a live instrument rather than admired as static text.
 
 ## Sequence logic

@@ -16,7 +16,6 @@ archive_links:
 ---
 # Mearsheimer March 2025 Opening Watchlist
 
-
 ## Purpose
 
 Open and maintain a bounded March 2025 Mearsheimer watchlist before any broader repair claims are made.

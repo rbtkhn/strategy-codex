@@ -1,6 +1,6 @@
 ﻿# Moonshot â€” boundaries
 
-**Status:** WORK only. Re-read [README](README.md) for lane status.
+**Status:** non-authoritative. Re-read [README](README.md) for lane status.
 
 ## Immutable boundaries
 

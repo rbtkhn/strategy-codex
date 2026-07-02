@@ -1,7 +1,5 @@
 # Civilization State (Synthetic Dynamics)
 
-work only; not Record.
-
 ## Status
 
 Research scaffold — not wired to [`singularity/loops/`](../../loops/README.md) or runtime execution.

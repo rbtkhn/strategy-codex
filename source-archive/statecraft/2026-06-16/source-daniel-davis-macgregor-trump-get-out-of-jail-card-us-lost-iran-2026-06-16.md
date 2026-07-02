@@ -41,7 +41,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 President Trump says he is going to release the terms of the deal, the memorandum of understanding with Iran if he has to stand in front of a podium and read it himself. And believe me, there is a lot of people that want to hear what is really in that because what has been leaked today is very upsetting to a lot of people, especially in Israel and those in America who are big supporters of Israel.

@@ -1,7 +1,5 @@
 # Moonshots — analysis
 
-work only; not Record.
-
 Analysis workspace for the **Moonshots** podcast stream — structured research, consequence-mapping, and synthesis notes built **on top of** episode captures.
 
 **Seed:** [synthesis-research-frame.md](synthesis-research-frame.md)

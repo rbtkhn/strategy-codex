@@ -117,7 +117,6 @@ Each entry should include:
 - Public-facing copy still requires human review and source checks.
 - If an item has no clear `next_test`, usually do not log it.
 
-
 ## Cursor / strategy-codex instance
 
 Grace-mar paths and runbook links for this repository (from `.cursor/skills/skill-narrative/`).

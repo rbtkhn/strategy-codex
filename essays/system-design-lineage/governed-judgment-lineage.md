@@ -1,7 +1,5 @@
 # Governed Judgment and Mixed-Initiative Lineage
 
-work only; not Record.
-
 Purpose: establish that the repo's human-governed, mixed-initiative, and
 judgment-support logic has clear academic precedent.
 

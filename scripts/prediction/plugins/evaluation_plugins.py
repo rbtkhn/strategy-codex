@@ -6,7 +6,6 @@ from typing import Any
 
 from prediction.plugins.base import EpistemicPlugin
 
-
 class CanonicalCalibrationEval(EpistemicPlugin):
     """Stub Phase-D seed — Brier-style rollup on resolved registry events."""
 

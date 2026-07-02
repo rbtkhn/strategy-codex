@@ -28,7 +28,6 @@ HN_ARCH = (
     / "book-architecture.yaml"
 )
 
-
 def test_committed_catalog_validates() -> None:
     r = subprocess.run(
         [sys.executable, str(SCRIPT), "--catalog", str(CATALOG), "--architecture", str(HN_ARCH)],
@@ -37,7 +36,6 @@ def test_committed_catalog_validates() -> None:
         text=True,
     )
     assert r.returncode == 0, r.stderr + r.stdout
-
 
 def test_unknown_hn_chapter_fails(tmp_path: Path) -> None:
     bad = tmp_path / "bad.yaml"
@@ -61,7 +59,6 @@ items:
     assert r.returncode == 1
     assert "unknown hn chapter" in r.stderr.lower() or "hn-i-v1-99" in r.stderr
 
-
 def test_eras_must_include_primary_era(tmp_path: Path) -> None:
     bad = tmp_path / "bad.yaml"
     bad.write_text(
@@ -84,7 +81,6 @@ items:
     )
     assert r.returncode == 1
     assert "must be included in eras" in r.stderr
-
 
 def test_redundant_single_eras_warns_in_strict(tmp_path: Path) -> None:
     bad = tmp_path / "warn.yaml"

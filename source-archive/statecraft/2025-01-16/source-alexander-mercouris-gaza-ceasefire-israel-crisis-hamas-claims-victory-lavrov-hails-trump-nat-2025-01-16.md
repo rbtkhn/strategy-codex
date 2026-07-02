@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Gaza Ceasefire, Israel Crisis, Hamas Claims Victory; Lavrov Hails Trump NATO Comments; EU Gas Crisis
 
-

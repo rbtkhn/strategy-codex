@@ -14,7 +14,6 @@ archive_links:
   - source-archive/statecraft/2026-03-20/source-diesen-crooke-iran-sets-conditions-for-access-to-the-strait-of-hormuz-2026-03-20.md
 ---
 
-
 # Crooke March 2026 interview cross-host arc
 
 Purpose: bound the first dense interview month in the Crooke `2026-03 -> 2026-05` core.

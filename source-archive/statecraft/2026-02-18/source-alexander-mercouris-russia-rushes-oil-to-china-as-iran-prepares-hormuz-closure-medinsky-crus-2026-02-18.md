@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Russia Rushes Oil To China As Iran Prepares Hormuz Closure; Medinsky Crushes Kiev Hopes Geneva Talks
 
-

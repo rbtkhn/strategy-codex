@@ -40,7 +40,6 @@ DEFAULT_SECTION_ORDERS = {
     ],
 }
 
-
 def _forbidden_local_ph_path(path: Path) -> bool:
     resolved = path.resolve()
     for root in FORBIDDEN_PH_ROOTS:
@@ -51,7 +50,6 @@ def _forbidden_local_ph_path(path: Path) -> bool:
         return True
     return False
 
-
 def _require_source_id(source_id: object, *, field: str) -> str:
     value = str(source_id or "").strip()
     if not value:
@@ -59,7 +57,6 @@ def _require_source_id(source_id: object, *, field: str) -> str:
     if not SOURCE_ID_RE.match(value):
         raise ValueError(f"{field} must use a public ph-civ style source_id")
     return value
-
 
 def _base_bundle(
     *,
@@ -101,7 +98,6 @@ def _base_bundle(
     }
     bundle["provenance"]["bundle_sha256"] = bundle_sha256(bundle)
     return bundle
-
 
 def build_ph_civ_bundle(
     *,

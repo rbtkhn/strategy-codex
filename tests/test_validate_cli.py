@@ -10,7 +10,6 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 
-
 def _tails_for_ci(user: str) -> list[list[str]]:
     from ci_validation_inventory import checks_for_group
 
@@ -19,7 +18,6 @@ def _tails_for_ci(user: str) -> list[list[str]]:
         tail = spec.argv_builder(user)
         out.append([spec.script_relpath, *tail])
     return out
-
 
 def test_ci_group_matches_test_workflow_order():
     """Steps and argv tails align with test.yml (Assert canonical paths … Validate work-dev)."""
@@ -33,7 +31,6 @@ def test_ci_group_matches_test_workflow_order():
         ["scripts/work_dev/validate_control_plane.py"],
     ]
 
-
 def test_validate_ci_exits_zero_when_healthy():
     r = subprocess.run(
         [sys.executable, str(REPO / "scripts" / "validate.py"), "--user", "grace-mar", "ci"],
@@ -43,7 +40,6 @@ def test_validate_ci_exits_zero_when_healthy():
         timeout=300,
     )
     assert r.returncode == 0, r.stderr + r.stdout
-
 
 def test_validate_json_schema_version():
     r = subprocess.run(
@@ -68,7 +64,6 @@ def test_validate_json_schema_version():
     for step in data["checks"]:
         assert "user_scope" in step
         assert step["status"] in ("pass", "fail", "timeout", "error", "skipped")
-
 
 def test_expensive_skips_without_openai():
     env2 = os.environ.copy()

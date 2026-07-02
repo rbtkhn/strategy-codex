@@ -1,7 +1,6 @@
 # Russia - Zangezur Transit / Sovereignty Framework
 <!-- word_count: 400 -->
 
-
 ## Transaction Name
 
 Zangezur mediation without overbinding.

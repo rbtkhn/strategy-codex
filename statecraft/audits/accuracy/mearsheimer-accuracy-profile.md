@@ -1,6 +1,5 @@
 # Mearsheimer accuracy profile
 
-
 ## Summary
 
 Mearsheimer makes fewer small factual claims than speakers like Mercouris, but more large strategic claims with strong structural testability. V1 therefore scores fewer rows, but the rows are more consequential.

@@ -39,7 +39,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hey, coconut water. Uh yeah, man. Look, it's uh it's not looking good. I um I was very optimistic yesterday. I know my audience is tired of hearing me say that. I still think Trump wants a deal, but he's talking about bombing Iran again. Yesterday there was the weird event with the helicopter that I'm still trying to get, you know, put all the pieces together.

@@ -13,8 +13,6 @@ post_id: 183448751
 
 # The Innermost Loop - 2026-01-04
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to January 4, 2026
@@ -29,10 +27,7 @@ We have officially entered the recursive self-improvement phase.
 
 ## Newsletter Text
 
--
--
-
-We have officially entered the recursive self-improvement phase. Elon Musk now recognizes that we have entered the Singularity , a sentiment backed by the collapse of human programming. The volume of new questions on StackOverflow has decayed to pre-public levels , signaling the end of the human developer era. In place of humans asking humans for programming help, new paradigms like Recursive Language Models (RLMs) are emerging, programmatically decomposing and recursively calling themselves to handle contexts two orders of magnitude larger than their windows. To monetize the intelligence explosion, xAI has launched Grok Business and Enterprise tiers , operationalizing the Singularity for $30 a seat.
+- We have officially entered the recursive self-improvement phase. Elon Musk now recognizes that we have entered the Singularity , a sentiment backed by the collapse of human programming. The volume of new questions on StackOverflow has decayed to pre-public levels , signaling the end of the human developer era. In place of humans asking humans for programming help, new paradigms like Recursive Language Models (RLMs) are emerging, programmatically decomposing and recursively calling themselves to handle contexts two orders of magnitude larger than their windows. To monetize the intelligence explosion, xAI has launched Grok Business and Enterprise tiers , operationalizing the Singularity for $30 a seat.
 
 Scientific discovery is being compressed into minutes. Claude Code is collapsing the research cycle, replicating a 3-month PhD project in 20 minutes and generating Google’s entire year of agent orchestrator work in one hour . This acceleration extends to biology. The CEO of MagicPath used Claude Code to scan his raw DNA for health risks , turning genomics into a debugging task. Simultaneously, Danielle Fong demonstrated that Claude Code can use Nano Banana as a persistent visual memory , while Gemini 3 Pro is achieving 60% accuracy on 2-hop latent reasoning , effectively “thinking” across degrees of separation without chain-of-thought. However, the model semantics remain fragile: Italian researchers found that curated adversarial poetry acts as a universal jailbreak, bypassing safety mechanisms simply by being too literary to censor.
 

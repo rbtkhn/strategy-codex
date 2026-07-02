@@ -1,7 +1,5 @@
 # Speaker memory action queue
 
-WORK only; not Record.
-
 Window: `2026-05-19` to `2026-05-19`
 
 - `high` `update-existing-arc` `codex/years/2026/diesen/diesen-ritter-speaker-arc.md` (1 appearance(s); grades: transcript-bearing)

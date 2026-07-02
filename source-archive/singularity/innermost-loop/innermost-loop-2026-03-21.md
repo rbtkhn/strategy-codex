@@ -13,8 +13,6 @@ post_id: 191684270
 
 # The Innermost Loop - 2026-03-21
 
-WORK only; not Record.
-
 ## Source
 
 - Title: The First AI-Grown Land
@@ -29,10 +27,7 @@ The Singularity has been collapsing the cost of intelligence, energy, code, and 
 
 ## Newsletter Text
 
--
--
-
-The Singularity has been collapsing the cost of intelligence, energy, code, and even protein folding toward zero, but the cost of land has seemed permanently immune to technological deflation, until now.
+- The Singularity has been collapsing the cost of intelligence, energy, code, and even protein folding toward zero, but the cost of land has seemed permanently immune to technological deflation, until now.
 
 Mark Twain reportedly once advised, “Buy land, they’re not making it anymore.” In fact, humans have been making land since antiquity. The Dutch poldered , Boston filled its Back Bay , Dubai dredged the Palm Jumeirah into existence. But Twain was right in practice, because every method to date has been so expensive that land remained effectively scarce no matter how much you made. Only about 600,000 acres of artificial land have been built by brute force since 2000 , roughly the size of Luxembourg. The world spends tens of billions of dollars a year on these methods, and that is all we have to show for it. And the ocean still takes it back.
 

@@ -1,7 +1,6 @@
 # Strategy expert - Jeffrey D. Sachs (`sachs`)
 <!-- word_count: 782 -->
 
-
 **Canonical index:** [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md) - **`sachs`** lane.
 
 ---

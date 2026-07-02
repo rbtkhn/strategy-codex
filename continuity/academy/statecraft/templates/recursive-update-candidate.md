@@ -1,7 +1,6 @@
 # Recursive Update Candidate Template
 <!-- word_count: 119 -->
 
-
 Use this template when a current-event read, transaction, objection matrix, or scenario test exposes a durable lane improvement. The candidate is the membrane between the machine and the book: live analysis proposes, human review decides, and book surfaces update only after acceptance.
 
 Allowed targets:

@@ -1,6 +1,6 @@
 # Batch-analysis with history — `mercouris` × `mearsheimer`
 
-WORK only; additive prompt bundle.
+non-authoritative; additive prompt bundle.
 History window: 2026-01 → 2026-03
 
 ## Historical expert context

@@ -15,7 +15,6 @@ REQUIRED = [
     "statecraft/epistemic/observation/voice_captures",
 ]
 
-
 def test_epistemic_audit_namespace_exists() -> None:
     for rel in REQUIRED:
         assert (REPO_ROOT / rel).exists(), f"missing: {rel}"

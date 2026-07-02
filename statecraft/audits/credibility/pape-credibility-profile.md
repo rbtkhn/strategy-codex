@@ -1,6 +1,5 @@
 # Pape credibility profile
 
-
 ## Summary
 
 Pape is a mechanism-heavy authored forecast speaker whose main value comes from explicit escalation logic, threshold thinking, and unusually clear falsifier structure. The notebook can often reuse him quickly at the mechanism level, but the current corpus shows much less visible first-person correction than speakers such as Mercouris or Ritter.

@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 So [clears throat] we are live. We now have the entire document released by Iran by the United States of America. The memorandum of understanding very minor differences between the two versions. And it's complete and total surrender by the United States of America. Complete surrender by Trump. This document is probably worse than the versions we got earlier.

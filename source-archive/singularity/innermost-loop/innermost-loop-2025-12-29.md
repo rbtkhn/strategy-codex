@@ -13,8 +13,6 @@ post_id: 182867976
 
 # The Innermost Loop - 2025-12-29
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 29, 2025
@@ -29,10 +27,7 @@ The intelligence explosion now has a measurable speed.
 
 ## Newsletter Text
 
--
--
-
-The intelligence explosion now has a measurable speed. Analysis reveals that leading models have improved by an average of 2.5 IQ points per month since May 2024 , a compounding rate that suggests the human-level baseline will rapidly fall behind AI. The ecosystem is diversifying as it accelerates. Chinese model GLM-4.7 has taken the top open-weight spot on the Artificial Analysis leaderboard , while South Korea’s Naver launched HyperCLOVA X SEED Think, a 32B model that outperforms Gemini 3 Pro on agentic tool use. The workflow of the master craftsman has already dissolved. Andrej Karpathy reports that Claude now conducts all optimization experiments for his “nanochat” project , keeping him in the recursive self-improvement loop of a process he used to drive manually. We are engineering a synthetic prefrontal cortex. Chinese researchers have proposed a “System 3” architecture that grafts an outer self-improvement loop onto LLMs, achieving an 80% reduction in reasoning steps. Even the smallest circuits are waking up. Enthusiasts have compressed a language model onto a Z80 chip with 64-KB RAM . Furthermore, researchers found that diffusion models generate quality samples before they memorize , suggesting that for some synthetic minds, imagination is computationally cheaper than memory.
+- The intelligence explosion now has a measurable speed. Analysis reveals that leading models have improved by an average of 2.5 IQ points per month since May 2024 , a compounding rate that suggests the human-level baseline will rapidly fall behind AI. The ecosystem is diversifying as it accelerates. Chinese model GLM-4.7 has taken the top open-weight spot on the Artificial Analysis leaderboard , while South Korea’s Naver launched HyperCLOVA X SEED Think, a 32B model that outperforms Gemini 3 Pro on agentic tool use. The workflow of the master craftsman has already dissolved. Andrej Karpathy reports that Claude now conducts all optimization experiments for his “nanochat” project , keeping him in the recursive self-improvement loop of a process he used to drive manually. We are engineering a synthetic prefrontal cortex. Chinese researchers have proposed a “System 3” architecture that grafts an outer self-improvement loop onto LLMs, achieving an 80% reduction in reasoning steps. Even the smallest circuits are waking up. Enthusiasts have compressed a language model onto a Z80 chip with 64-KB RAM . Furthermore, researchers found that diffusion models generate quality samples before they memorize , suggesting that for some synthetic minds, imagination is computationally cheaper than memory.
 
 The geography of intellect is consolidating. Analysis of NeurIPS 2025 papers shows cutting-edge research is now almost exclusively shaped in Beijing, Shanghai, and San Francisco . Deep learning is beginning to industrialize the production of mathematical proof. Terry Tao has started cataloging AI’s contribution to Erdős problems , documenting 48 full solutions, 32 partial results, and 7 failures. After all, a single human proof is genius, but a million AI proofs are a statistic. We are also finding our reflection in the weights. Oxford researchers discovered that humans and transformers share similar learning dynamics when generalizing rules.
 

@@ -1,7 +1,5 @@
 # Predictive History Comment Targeting Rubric
 
-WORK only; not Record.
-
 ## Purpose
 
 Use this rubric to decide which Predictive History YouTube videos deserve comment effort first.

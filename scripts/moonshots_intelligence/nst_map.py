@@ -4,7 +4,6 @@ from __future__ import annotations
 
 from typing import Any
 
-
 def apply_nst_mapping(document: dict[str, Any]) -> dict[str, Any]:
     mapping: list[dict[str, str]] = []
     for bullet in document.get("bullets") or []:

@@ -1,6 +1,5 @@
 # China Shelf Reader
 
-
 ## What This Shelf Is For
 
 Use this shelf to read China as an order-bearing civilization-state through its own source doors. The point is to see how mandate, bureaucratic continuity, anti-chaos legitimacy, rupture, and reconstitution are carried across eras before widening into comparison or present-tense statecraft.

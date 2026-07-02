@@ -1,6 +1,5 @@
 # check-streams performance rubric
 
-
 Use this rubric when the operator wants to judge how well a `check streams`
 run performed as a **daily watch-aperture action**, not just whether some files
 eventually got written.

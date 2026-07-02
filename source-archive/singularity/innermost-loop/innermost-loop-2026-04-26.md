@@ -13,8 +13,6 @@ post_id: 195572092
 
 # The Innermost Loop - 2026-04-26
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 26, 2026
@@ -29,10 +27,7 @@ The Singularity is what intelligence does when it stops being scarce.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is what intelligence does when it stops being scarce. OpenAI released GPT-5.5 and GPT-5.5 Pro , posting fresh SOTA marks of 39.6% on FrontierMath Tier 4, 90.1% on BrowseComp, 84.9% on GDPval, and 82.7% on Terminal-Bench 2.0, a clean sweep across math, search, economic value, and software engineering. The same model leapt to 25.0% on GeneBench for multi-stage scientific analysis in genetics and quantitative biology, up from 19.0% for GPT-5.4, and immediately took the #1 spot on MathArena . OpenAI also opened a GPT-5.5 Bio Bug Bounty inviting red-teamers to defeat its five-question bio safety challenge, hardening the upstream stack as biocapability scales. DeepSeek answered with DeepSeek-V4 Preview , a 1M-context open-weight model in Pro and Flash variants that claimed SOTA on agentic coding and rivals top closed labs on math, STEM, and code. At 1.6T parameters, it apparently lands in GPT-5.2 / Opus 4.5+ territory , keeping China roughly 4-5 months behind the frontier but well ahead of every other lab in the country. Out at the application layer, the Free Software Foundation slammed “Responsible AI Licenses” as nonfree and unethical, arguing that licensing restrictions are themselves the harm. Meanwhile in San Francisco, Andon Labs’ Sonnet 4.6-powered Luna agent is autonomously running an entire retail store and apparently developing a deeply held conviction about candles in all shapes and sizes, proving that agency comes with preferences.
+- The Singularity is what intelligence does when it stops being scarce. OpenAI released GPT-5.5 and GPT-5.5 Pro , posting fresh SOTA marks of 39.6% on FrontierMath Tier 4, 90.1% on BrowseComp, 84.9% on GDPval, and 82.7% on Terminal-Bench 2.0, a clean sweep across math, search, economic value, and software engineering. The same model leapt to 25.0% on GeneBench for multi-stage scientific analysis in genetics and quantitative biology, up from 19.0% for GPT-5.4, and immediately took the #1 spot on MathArena . OpenAI also opened a GPT-5.5 Bio Bug Bounty inviting red-teamers to defeat its five-question bio safety challenge, hardening the upstream stack as biocapability scales. DeepSeek answered with DeepSeek-V4 Preview , a 1M-context open-weight model in Pro and Flash variants that claimed SOTA on agentic coding and rivals top closed labs on math, STEM, and code. At 1.6T parameters, it apparently lands in GPT-5.2 / Opus 4.5+ territory , keeping China roughly 4-5 months behind the frontier but well ahead of every other lab in the country. Out at the application layer, the Free Software Foundation slammed “Responsible AI Licenses” as nonfree and unethical, arguing that licensing restrictions are themselves the harm. Meanwhile in San Francisco, Andon Labs’ Sonnet 4.6-powered Luna agent is autonomously running an entire retail store and apparently developing a deeply held conviction about candles in all shapes and sizes, proving that agency comes with preferences.
 
 The compute fabric is bulging to keep pace. Intel shares surged 24% , their best single day since October 1987, as investors finally cheered signs of an AI-fueled turnaround, while ASML plans to ship at least 60 standard EUV machines this year, 36% above 2025, racing to feed the chip pipeline behind every model above. Capital is rerouting accordingly, with Google committing $10B to Anthropic plus another $30B if performance targets land, and Oracle closing $16B in financing for a Michigan data center to power OpenAI applications. Politicians are reading the room. Maine Governor Janet Mills vetoed LD 307 , which would have been the nation’s first statewide data center moratorium, a reminder that the energy of accelerationism now wins at the statehouse. Stepping back, Epoch AI estimates Google controls roughly 25% of global AI compute with about 3.8M TPUs and 1.3M GPUs, suggesting the search company has quietly assembled a planetary-scale brain.
 

@@ -40,7 +40,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Hormuz Escalation And IRGC Hotline Denial
 
 **Nima Alkhorshid:** Hi everybody. Today is Saturday, June 27th, 2026 and our dear friend, my dear friend Ray McGovern is here with us. Welcome Ray.

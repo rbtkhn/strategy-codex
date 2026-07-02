@@ -80,7 +80,7 @@ Link courses as **reference**; any structured pathway in-repo belongs in separat
 
 ## Related docs
 
-- - [bloom-mastery-adaptation.md](../../bloom-mastery-adaptation.md) — Pomodoro-style blocks in the AI school analogy table
+- [bloom-mastery-adaptation.md](../../bloom-mastery-adaptation.md) — Pomodoro-style blocks in the AI school analogy table
 - [schema-record-api.md](../../schema-record-api.md) — minimal lesson prompt shape
 - [work-lesson-generation-walkthrough.md](../work-lesson-generation-walkthrough.md) — how lesson prompts are built
 - [delegation-spec-external-agents.md](delegation-spec-external-agents.md) — external agent delegation outline (separate concern)

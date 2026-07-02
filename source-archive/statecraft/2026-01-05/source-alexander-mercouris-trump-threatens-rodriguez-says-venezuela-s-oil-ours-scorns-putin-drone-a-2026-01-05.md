@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # Trump Threatens Rodriguez; Says Venezuela's Oil Ours; Scorns Putin Drone Attack; Moscow Ups Demands
 
-

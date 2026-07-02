@@ -11,13 +11,11 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "prepared_context" / "build_context_from_observations.py"
 
-
 def _write_ledger(tmp_path: Path, *rows: dict) -> None:
     obs_dir = tmp_path / "runtime" / "observations"
     obs_dir.mkdir(parents=True)
     lines = [json.dumps(r, ensure_ascii=False) + "\n" for r in rows]
     (obs_dir / "index.jsonl").write_text("".join(lines), encoding="utf-8")
-
 
 def _run(tmp_path: Path, *args: str) -> subprocess.CompletedProcess[str]:
     env = {**os.environ, "GRACE_MAR_RUNTIME_LEDGER_ROOT": str(tmp_path)}
@@ -29,7 +27,6 @@ def _run(tmp_path: Path, *args: str) -> subprocess.CompletedProcess[str]:
         env=env,
         check=False,
     )
-
 
 def _base_row(oid: str, lane: str, summary: str, conf: float | None = None) -> dict:
     return {
@@ -48,7 +45,6 @@ def _base_row(oid: str, lane: str, summary: str, conf: float | None = None) -> d
         "notes": None,
     }
 
-
 def test_lane_match_enforced(tmp_path: Path) -> None:
     a = _base_row("obs_20260101T120000Z_aaaaaaaa", "work-strategy", "one")
     b = _base_row("obs_20260101T130000Z_bbbbbbbb", "other-lane", "two")
@@ -66,7 +62,6 @@ def test_lane_match_enforced(tmp_path: Path) -> None:
     )
     assert proc.returncode == 2
     assert "outside lane" in proc.stderr or "expected" in proc.stderr
-
 
 def test_mixed_lane_allows(tmp_path: Path) -> None:
     a = _base_row("obs_20260101T120000Z_aaaaaaaa", "a", "one")
@@ -89,7 +84,6 @@ def test_mixed_lane_allows(tmp_path: Path) -> None:
     assert "(mixed lanes)" in text
     assert a["obs_id"] in text
 
-
 def test_boundary_notice_and_ids(tmp_path: Path) -> None:
     a = _base_row("obs_20260101T120000Z_aaaaaaaa", "work-strategy", "one")
     _write_ledger(tmp_path, a)
@@ -111,7 +105,6 @@ def test_boundary_notice_and_ids(tmp_path: Path) -> None:
     assert "Uncertainty envelope" in text
     assert "Evidence state:" in text
 
-
 def test_does_not_write_canonical_record_paths(tmp_path: Path) -> None:
     a = _base_row("obs_20260101T120000Z_aaaaaaaa", "work-strategy", "one")
     _write_ledger(tmp_path, a)
@@ -127,7 +120,6 @@ def test_does_not_write_canonical_record_paths(tmp_path: Path) -> None:
     )
     assert proc.returncode == 0
     assert not (tmp_path / "platform/users").exists()
-
 
 def test_max_ids(tmp_path: Path) -> None:
     rows = [

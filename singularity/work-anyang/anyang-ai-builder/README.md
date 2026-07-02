@@ -1,7 +1,5 @@
 # anyang-ai-builder (实操轨)
 
-WORK only; not Record.
-
 **Learning lane:** members with **minimal coding readiness** — can use Gitee with mentor support in week one.
 
 **Lane hub:** [anyang-ai-lanes.md](../anyang-ai-lanes.md)

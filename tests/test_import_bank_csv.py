@@ -16,7 +16,6 @@ _ibc = importlib.util.module_from_spec(_SPEC)
 sys.modules["import_bank_csv"] = _ibc
 _SPEC.loader.exec_module(_ibc)
 
-
 class TestIsEtsyBankDescriptor:
     @pytest.mark.parametrize(
         ("name", "memo", "expected"),
@@ -34,7 +33,6 @@ class TestIsEtsyBankDescriptor:
     )
     def test_patterns(self, name: str, memo: str, expected: bool) -> None:
         assert _ibc.is_etsy_bank_descriptor(name, memo) is expected
-
 
 class TestClassifyMemo:
     def test_credit_memo_only_etsy_payments(self) -> None:

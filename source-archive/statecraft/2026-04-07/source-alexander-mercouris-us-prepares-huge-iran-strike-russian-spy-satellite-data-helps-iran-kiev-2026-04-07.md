@@ -14,4 +14,3 @@ source_note: "Automated YouTube index mirror for Alex Mercouris hub capture."
 ---
 # US Prepares Huge Iran Strike; Russian Spy Satellite Data Helps Iran; Kiev Fears Big Oreshnik Strike
 
-

@@ -1,7 +1,5 @@
 # BrewMind — business plan (WORK draft)
 
-WORK only; not Record.
-
 **Canonical home:** [../../essays/brewmind-business-plan.md](../../essays/brewmind-business-plan.md)
 
 Compatibility stub — pre-root singularity essay holding (promoted from

@@ -13,7 +13,6 @@ EVAL_SCRIPT = REPO_ROOT / "scripts" / "runtime" / "eval_retrieval.py"
 GOLDEN_FIXTURE = REPO_ROOT / "tests" / "fixtures" / "retrieval-golden.jsonl"
 SEED_FIXTURE = REPO_ROOT / "tests" / "fixtures" / "observations-seed.jsonl"
 
-
 def test_eval_retrieval_golden_set(tmp_path: Path) -> None:
     """Run eval against seed observations; expect non-zero precision."""
     obs_dir = tmp_path / "runtime" / "observations"
@@ -37,7 +36,6 @@ def test_eval_retrieval_golden_set(tmp_path: Path) -> None:
     assert result["precision_at_k"] > 0.0, "seed data should produce at least some hits"
     assert 0.0 <= result["mrr"] <= 1.0
     assert "per_query" in result
-
 
 def test_eval_retrieval_precision_above_threshold(tmp_path: Path) -> None:
     """Precision@10 on seed data should be at least 85% — regression gate."""
@@ -64,7 +62,6 @@ def test_eval_retrieval_precision_above_threshold(tmp_path: Path) -> None:
         + ", ".join(q["query"][:40] for q in result["per_query"] if not q["hit"])
     )
 
-
 def test_eval_retrieval_empty_golden(tmp_path: Path) -> None:
     """Empty golden set should return exit code 1."""
     empty = tmp_path / "empty.jsonl"
@@ -74,7 +71,6 @@ def test_eval_retrieval_empty_golden(tmp_path: Path) -> None:
         capture_output=True, text=True,
     )
     assert r.returncode == 1
-
 
 def test_eval_unit_evaluate() -> None:
     """Unit test for evaluate() with synthetic golden entries."""
@@ -87,7 +83,6 @@ def test_eval_unit_evaluate() -> None:
         assert "query" in entry
         assert "surface" in entry
         assert "expected_path" in entry
-
 
 def test_golden_fixture_valid_json() -> None:
     """Golden fixture must be valid JSONL with required keys."""

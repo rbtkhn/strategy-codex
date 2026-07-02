@@ -23,7 +23,6 @@ synced_by: sync_portable_skills.py
 
 **Preferred name (new work):** **`news verify`** · **`news-verify`**
 
-
 ## Cursor / strategy-codex instance
 
 # Wire verify (legacy alias)

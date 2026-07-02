@@ -12,12 +12,10 @@ import pytest
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS_RUNTIME = REPO_ROOT / "scripts" / "runtime"
 
-
 @pytest.fixture(autouse=True)
 def _isolate_ledger(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     """Route ledger writes to tmp_path so tests never touch the real runtime dir."""
     monkeypatch.setenv("GRACE_MAR_RUNTIME_LEDGER_ROOT", str(tmp_path))
-
 
 def _run_logger(*extra_args: str) -> subprocess.CompletedProcess[str]:
     cmd = [
@@ -27,7 +25,6 @@ def _run_logger(*extra_args: str) -> subprocess.CompletedProcess[str]:
     ]
     return subprocess.run(cmd, capture_output=True, text=True)
 
-
 def _run_summary(*extra_args: str) -> subprocess.CompletedProcess[str]:
     cmd = [
         sys.executable,
@@ -36,13 +33,10 @@ def _run_summary(*extra_args: str) -> subprocess.CompletedProcess[str]:
     ]
     return subprocess.run(cmd, capture_output=True, text=True)
 
-
 def _ledger_path(tmp_path: Path) -> Path:
     return tmp_path / "runtime" / "retrieval-misses" / "index.jsonl"
 
-
 # --- Logger tests ---
-
 
 class TestLogRetrievalMiss:
     def test_valid_record_created(self, tmp_path: Path) -> None:
@@ -138,9 +132,7 @@ class TestLogRetrievalMiss:
         lines = [l for l in ledger.read_text(encoding="utf-8").splitlines() if l.strip()]
         assert len(lines) == 3
 
-
 # --- Summary tests ---
-
 
 class TestSummarizeRetrievalMisses:
     def _seed_ledger(self, tmp_path: Path, records: list[dict]) -> None:

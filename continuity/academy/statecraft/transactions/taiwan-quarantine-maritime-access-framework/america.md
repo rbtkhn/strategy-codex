@@ -1,7 +1,6 @@
 # America - Taiwan Quarantine / Maritime Access Framework
 <!-- word_count: 443 -->
 
-
 ## Transaction Name
 
 Taiwan transit reassurance without automatic blockade recognition.

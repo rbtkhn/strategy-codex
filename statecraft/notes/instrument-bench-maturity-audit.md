@@ -18,9 +18,7 @@ archive_links:
 ---
 # Transaction-Bench Maturity Audit
 
-
 See [notes taxonomy](./README.md#thread-and-arc-canonical-draft).
-
 
 Purpose: measure transaction-bench maturity across the four hardened statecraft lanes using the same bounded-entry, bridge, spine, and proof-anchor dashboard.
 

@@ -8,7 +8,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 @pytest.fixture
 def gbp():
     import sys
@@ -19,7 +18,6 @@ def gbp():
     import gate_block_parser as mod
 
     return mod
-
 
 def test_mean_pending_provenance_two_blocks(gbp) -> None:
     md = """## Candidates
@@ -46,7 +44,6 @@ candidate_source: x
     assert score is not None
     assert abs(score - 0.6) < 1e-6
 
-
 def test_iter_candidate_yaml_in_active_section(gbp) -> None:
     md = """## Candidates
 ### CANDIDATE-9
@@ -61,7 +58,6 @@ summary: hi
     assert "## Processed" not in tail or tail.strip() == ""
     ids = [c for c, _, _ in gbp.iter_candidate_yaml_blocks(active)]
     assert ids == ["CANDIDATE-9"]
-
 
 def test_pending_region_excludes_processed_candidates(gbp) -> None:
     """Block after ## Processed must not count as pending for provenance."""

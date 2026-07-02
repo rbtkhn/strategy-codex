@@ -1,7 +1,6 @@
 # Civilization and Empire vs Civilizational Statecraft
 <!-- word_count: 1251 -->
 
-
 This note distinguishes two adjacent but different layers in academy-statecraft.
 
 Short form:

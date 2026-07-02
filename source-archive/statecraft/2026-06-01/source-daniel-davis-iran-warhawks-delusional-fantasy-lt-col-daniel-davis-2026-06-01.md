@@ -31,7 +31,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 give Trump credit for what he's doing here. They, you know, they shut down the straits. Eventually, we put a blockade in that shut down 100% of their exports. Now, he's taken another aggressive action to open up the straits. And I think it's more likely than not that we will return to combat operations to finish these guys once and for all.

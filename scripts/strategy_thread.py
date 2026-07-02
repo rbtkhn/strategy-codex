@@ -34,8 +34,6 @@ material or tension-bearing content is detected.
 **Not** **``weave``**: **``thread``** updates transcript and thread files
 only; it does **not** perform integrated analysis or write pages.
 
-WORK-only; not Record.
-
 Spec: ``continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md``
 § *Thread (terminology)*.
 """

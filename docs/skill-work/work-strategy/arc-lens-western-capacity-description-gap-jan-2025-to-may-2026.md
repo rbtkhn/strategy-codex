@@ -1,6 +1,5 @@
 # Western Capacity-Description Gap, Jan 2025-May 20 2026
 
-
 ## Continuity Pointer
 
 The Jan-May 2025 Ukraine stream inputs preserve a second arc alongside the peace-leverage sequence: Western official self-description increasingly outruns Western material capacity. Repo-current 2026 captures extend that arc into a sharper present-tense form:

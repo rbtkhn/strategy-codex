@@ -1,7 +1,6 @@
 # Russia Art
 <!-- word_count: 549 -->
 
-
 ## Purpose
 
 Use Russian art as a statecraft lens for icon, liturgy, architecture, music, ballet, monument, museum, ceremony, Soviet monumental form, wartime endurance, and beauty under pressure.

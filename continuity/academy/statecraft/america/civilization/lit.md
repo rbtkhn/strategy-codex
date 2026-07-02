@@ -1,7 +1,6 @@
 # America Lit
 <!-- word_count: 1044 -->
 
-
 ## Purpose
 
 Use American literature as a statecraft lens for republic conscience, constitutional moral language, frontier self-making, individual dissent, anti-imperial critique, public witness, war fatigue, and the difference between liberty as lawful self-rule and liberty as imperial cover.

@@ -13,8 +13,6 @@ post_id: 182320297
 
 # The Innermost Loop - 2025-12-22
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to December 22, 2025
@@ -29,10 +27,7 @@ The models are learning to learn in real-time.
 
 ## Newsletter Text
 
--
--
-
-The models are learning to learn in real-time. Swiss researchers have unveiled a Meta-RL framework that allows agents to reflect on feedback without gradient updates , yielding double-digit performance gains in complex environments by turning test-time compute into active exploration. The metrics are confirming that general reasoning is the universal solvent for task complexity. Third-party analysis of METR data finds that autonomy time horizons now correlate strongly with benchmarks like ARC-AGI and FrontierMath , suggesting that the era of jagged capabilities may be concluding and intelligence is becoming a smooth, predictable surface. Efficiency is the new frontier. A Google engineer confirmed Gemini 3 Flash is a product of pretraining distillation , while Harvard and Meta researchers proved that updating query projection matrices is more efficient than simply generating thinking tokens for long contexts. Even the visual cortex is scaling up. AI image editor Reve forecasts 5-minute generative videos by 2026 , with hour-long coherent streams following shortly after.
+- The models are learning to learn in real-time. Swiss researchers have unveiled a Meta-RL framework that allows agents to reflect on feedback without gradient updates , yielding double-digit performance gains in complex environments by turning test-time compute into active exploration. The metrics are confirming that general reasoning is the universal solvent for task complexity. Third-party analysis of METR data finds that autonomy time horizons now correlate strongly with benchmarks like ARC-AGI and FrontierMath , suggesting that the era of jagged capabilities may be concluding and intelligence is becoming a smooth, predictable surface. Efficiency is the new frontier. A Google engineer confirmed Gemini 3 Flash is a product of pretraining distillation , while Harvard and Meta researchers proved that updating query projection matrices is more efficient than simply generating thinking tokens for long contexts. Even the visual cortex is scaling up. AI image editor Reve forecasts 5-minute generative videos by 2026 , with hour-long coherent streams following shortly after.
 
 The scientific method is being overclocked. Researchers using LLMs are posting up to 50% more papers on preprint servers , effectively dilating the subjective time of discovery. The machines are increasingly handling the heavy lifting. Diffusion models have successfully designed bimetallic alloy catalysts for low-carbon ammonia decomposition , solving critical sustainability bottlenecks that stumped human chemists.
 

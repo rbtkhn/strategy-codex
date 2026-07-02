@@ -13,8 +13,6 @@ post_id: 187949228
 
 # The Innermost Loop - 2026-02-14
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Solve Everything
@@ -29,10 +27,7 @@ Peter Diamandis and I have just released Solve Everything: Achieving Abundance b
 
 ## Newsletter Text
 
--
--
-
-Peter Diamandis and I have just released Solve Everything: Achieving Abundance by 2035 , a book-length blueprint for how to aim the Singularity at every problem that has ever made human life short, expensive, or unfair, and solve them all within a decade.
+- Peter Diamandis and I have just released Solve Everything: Achieving Abundance by 2035 , a book-length blueprint for how to aim the Singularity at every problem that has ever made human life short, expensive, or unfair, and solve them all within a decade.
 
 Our central thesis is blunt. Superintelligence is no longer a question of if but of where we point it . We argue that the Intelligence Revolution is a war on the final bottleneck , scarce expert attention, and that its weapon is the Token: artificial cognition collapsing toward the cost of electricity. We introduce the “Industrial Intelligence Stack,” a nine-layer framework for converting any messy real-world domain, from dermatology to fusion containment, into a system that can be solved by pouring compute into it the way we pour concrete into a foundation. We define a six-stage “Maturation Curve” from L0 (”The Muddle,” where nobody agrees on the rules) to L5 (”Solved,” where the service is as boring and reliable as tap water), and argue that every field in human civilization is now climbing this ladder on a predictable schedule.
 

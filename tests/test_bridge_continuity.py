@@ -20,7 +20,6 @@ run_harness = _harness.run_harness
 
 PASS_THRESHOLD = 0.8
 
-
 def test_bridge_round_trip_overall():
     result = run_harness(REPO_ROOT, "grace-mar")
     assert result["overall_score"] >= PASS_THRESHOLD, (
@@ -29,24 +28,20 @@ def test_bridge_round_trip_overall():
         + ", ".join(d["name"] for d in result["dimensions"] if not d["passed"])
     )
 
-
 def test_bridge_gate_fidelity():
     result = run_harness(REPO_ROOT, "grace-mar")
     gate = next(d for d in result["dimensions"] if d["name"] == "gate")
     assert gate["passed"], f"Gate fidelity failed: {gate['detail']}"
-
 
 def test_bridge_dream_fidelity():
     result = run_harness(REPO_ROOT, "grace-mar")
     dream = next(d for d in result["dimensions"] if d["name"] == "dream")
     assert dream["passed"], f"Dream fidelity failed: {dream['detail']}"
 
-
 def test_bridge_territory_recall():
     result = run_harness(REPO_ROOT, "grace-mar")
     terr = next(d for d in result["dimensions"] if d["name"] == "territories")
     assert terr["passed"], f"Territory recall failed: {terr['detail']}"
-
 
 def test_bridge_commit_preservation():
     result = run_harness(REPO_ROOT, "grace-mar")

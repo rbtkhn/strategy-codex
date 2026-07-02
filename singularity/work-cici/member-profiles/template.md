@@ -15,15 +15,11 @@ One sentence describing the member's role in the team.
 
 ## What they are responsible for
 
-- 
-- 
-- 
+- - 
 
 ## What value they create
 
-- 
-- 
-- 
+- - 
 
 ## What good looks like
 

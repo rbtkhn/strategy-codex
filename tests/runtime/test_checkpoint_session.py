@@ -9,7 +9,6 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 SCRIPT = REPO_ROOT / "scripts" / "runtime" / "checkpoint_session.py"
 
-
 def test_checkpoint_session_subprocess(tmp_path: Path) -> None:
     out = tmp_path / "runtime/artifacts" / "handoffs" / "checkpoints"
     r = subprocess.run(
@@ -39,7 +38,6 @@ def test_checkpoint_session_subprocess(tmp_path: Path) -> None:
     assert "maybe later" in text
     assert "Policy mode: operator_only" in text
     assert "Boundary reminder" in text
-
 
 def test_checkpoint_from_memory_brief(tmp_path: Path) -> None:
     mb = tmp_path / "brief.md"

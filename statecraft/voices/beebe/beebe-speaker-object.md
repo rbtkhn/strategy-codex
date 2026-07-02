@@ -1,6 +1,5 @@
 # Beebe speaker object
 
-
 object_shape: cross-host-reinforced
 
 Purpose: define George Beebe as a first-class speaker object in a way that matches what is actually embodied on disk. Beebe is not best read here as a native cognition stream or as a fully symmetric multi-host helix. He is better read as a **Diesen-dominant intelligence-statecraft and escalation-management object** whose strongest current branch is materially real on disk, while broader host spread remains partly search-backed rather than fully imported.

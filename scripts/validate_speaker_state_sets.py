@@ -34,7 +34,9 @@ DATE_NAMED_RE = re.compile(r"^\d{4}-\d{2}-\d{2}-")
 WINDOWS_DRIVE_RE = re.compile(r"^[A-Za-z]:[\\/]")
 
 BOUNDARY_MARKERS = (
-        "WORK-only strategy-codex analysis. This is not Record material.",
+    "instrumental work — not Record",
+    "WORK-only strategy-codex analysis. This is not Record material.",
+    "This surface is non-authoritative and subject to revision.",
 )
 
 OBVIOUS_STATE_NAME_RE = re.compile(

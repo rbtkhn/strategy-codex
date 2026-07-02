@@ -56,7 +56,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 President Trump told Fox News 49 Tomahawk missiles hit locations as close as 40 miles from the capital of Tan. Positions were also targeted along the southwestern part of the country. The president described the strikes as violent and vicious. Also, President Trump says top Iranian officials called him directly asking him to stop the bombing.

@@ -4,9 +4,7 @@ import importlib.util
 import sys
 from pathlib import Path
 
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
-
 
 def load_module(path: Path, name: str):
     spec = importlib.util.spec_from_file_location(name, path)
@@ -16,7 +14,6 @@ def load_module(path: Path, name: str):
     sys.modules[spec.name] = module
     spec.loader.exec_module(module)
     return module
-
 
 def test_strategy_page_scaffold_prefers_standalone_stream_path(tmp_path: Path) -> None:
     strategy_page = load_module(REPO_ROOT / "scripts" / "strategy_page.py", "strategy_page_script")
@@ -30,7 +27,6 @@ def test_strategy_page_scaffold_prefers_standalone_stream_path(tmp_path: Path) -
     )
 
     assert path == tmp_path / "codex" / "2026" / "pape" / "pape-page-2026-05-09-escalation-trap.md"
-
 
 def test_strategy_page_scaffold_uses_public_signal_judgment_prediction() -> None:
     strategy_page = load_module(REPO_ROOT / "scripts" / "strategy_page.py", "strategy_page_script_public")
@@ -52,7 +48,6 @@ def test_strategy_page_scaffold_uses_public_signal_judgment_prediction() -> None
     body = text.split("### Sources", 1)[0]
     for term in banned_body_terms:
         assert term not in body
-
 
 def test_observability_counts_new_strategy_chapter_headings(tmp_path: Path) -> None:
     observability = load_module(
@@ -83,7 +78,6 @@ z
     )
 
     assert observability._section_density(days)["avg_sections"] == 4.0
-
 
 def test_signal_snippets_prefer_signal_with_chronicle_fallback() -> None:
     snippets = load_module(

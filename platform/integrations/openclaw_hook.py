@@ -31,7 +31,6 @@ try:
 except ImportError:
     append_harness_event = None  # type: ignore
 
-
 def _sha256(path: Path) -> str:
     h = hashlib.sha256()
     with open(path, "rb") as f:
@@ -41,7 +40,6 @@ def _sha256(path: Path) -> str:
                 break
             h.update(chunk)
     return h.hexdigest()
-
 
 def _collect_export_files(out_dir: Path, fmt: str) -> list[Path]:
     candidates = {
@@ -61,7 +59,6 @@ def _collect_export_files(out_dir: Path, fmt: str) -> list[Path]:
             files.append(p)
     return files
 
-
 def _bundle_id(out_dir: Path) -> str:
     bundle_path = out_dir / "runtime/bundle" / "bundle.json"
     if not bundle_path.exists():
@@ -71,7 +68,6 @@ def _bundle_id(out_dir: Path) -> str:
         return str(payload.get("bundle_id") or "")
     except Exception:
         return ""
-
 
 def _emit_openclaw_event(user_id: str, out_dir: Path, fmt: str, files: list[Path], status: str, error: str = "") -> None:
     hashes = ",".join(f"{p.name}:{_sha256(p)}" for p in files)
@@ -112,7 +108,6 @@ def _emit_openclaw_event(user_id: str, out_dir: Path, fmt: str, files: list[Path
         capture_output=True,
     )
 
-
 def _post_export(post_url: str, user_id: str, files: list[Path], api_key: str = "") -> None:
     payload_files = []
     for path in files:
@@ -130,7 +125,6 @@ def _post_export(post_url: str, user_id: str, files: list[Path], api_key: str = 
     if api_key:
         req.add_header("X-Api-Key", api_key)
     urlopen(req, timeout=30)
-
 
 def _append_openclaw_export_ledger(
     user_id: str,
@@ -164,7 +158,6 @@ def _append_openclaw_export_ledger(
         )
     except Exception:
         pass
-
 
 def run_openclaw_export(
     user_id: str,
@@ -219,7 +212,6 @@ def run_openclaw_export(
     _append_openclaw_export_ledger(user_id, files, success=True, t0=t0)
     return 0
 
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Export Grace-Mar Record for OpenClaw")
     parser.add_argument("--user", "-u", default="grace-mar", help="User id")
@@ -250,7 +242,6 @@ def main() -> int:
         api_key=args.api_key,
         emit_event=args.emit_event,
     )
-
 
 if __name__ == "__main__":
     sys.exit(main())

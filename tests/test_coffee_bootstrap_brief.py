@@ -19,11 +19,9 @@ from coffee_bootstrap_brief import (
 )
 from operator_coffee import _CAPTURE_KWARGS, _run
 
-
 def _write_events(path: Path, body: str) -> Path:
     path.write_text(body, encoding="utf-8")
     return path
-
 
 def test_recent_rhythm_prefers_coffee_close_and_omits_dates(tmp_path: Path) -> None:
     events = _write_events(
@@ -51,7 +49,6 @@ _(Append below this line.)_
     assert "2026-" not in text
     assert "UTC" not in text
 
-
 def test_recent_rhythm_falls_back_to_recent_cadence_without_close(tmp_path: Path) -> None:
     events = _write_events(
         tmp_path / "cadence.md",
@@ -71,7 +68,6 @@ _(Append below this line.)_
 
     assert "we used coffee in work-start mode -> we already gave the day a consolidation pass" in text
     assert "No coffee_close receipt yet" in text
-
 
 def test_bootstrap_brief_formats_recommendation_without_conductor_hub_line() -> None:
     text = format_coffee_bootstrap_brief(
@@ -103,7 +99,6 @@ def test_bootstrap_brief_formats_recommendation_without_conductor_hub_line() -> 
     assert "Conductor continuity: kleiber closed" in text
     assert "E. Conductor" not in text
 
-
 def test_git_credential_status_reports_invalid_token(monkeypatch) -> None:
     calls: list[list[str]] = []
 
@@ -133,7 +128,6 @@ def test_git_credential_status_reports_invalid_token(monkeypatch) -> None:
         ["gh", "auth", "status", "-h", "github.com"],
     ]
 
-
 def test_git_state_status_summarizes_ahead_dirty_and_untracked(monkeypatch) -> None:
     from git_worktree_snapshot import GitWorktreeSnapshot, clear_git_worktree_snapshot_cache
 
@@ -158,7 +152,6 @@ def test_git_state_status_summarizes_ahead_dirty_and_untracked(monkeypatch) -> N
 
     assert _git_state_status() == "main...origin/main [ahead 1]; dirty=2; untracked=1"
 
-
 def test_git_state_status_reports_clean(monkeypatch) -> None:
     from git_worktree_snapshot import GitWorktreeSnapshot, clear_git_worktree_snapshot_cache
 
@@ -176,7 +169,6 @@ def test_git_state_status_reports_clean(monkeypatch) -> None:
 
     assert _git_state_status() == "main...origin/main; clean"
 
-
 def test_pytest_status_reports_missing(monkeypatch) -> None:
     def fake_run(argv, **kwargs):
         return type(
@@ -188,7 +180,6 @@ def test_pytest_status_reports_missing(monkeypatch) -> None:
     monkeypatch.setattr("coffee_bootstrap_brief.subprocess.run", fake_run)
 
     assert _pytest_status() == "missing - install test extras before pytest verification"
-
 
 def test_recommendation_uses_coffee_close_readiness() -> None:
     base_weights = _compute_option_weights("light", None, 0)
@@ -231,7 +222,6 @@ def test_recommendation_uses_coffee_close_readiness() -> None:
     assert rec == "B"
     assert "tested before another push" in reason
 
-
 def test_operator_coffee_exposes_first_command_mode() -> None:
     src = (REPO_ROOT / "scripts" / "operator_coffee.py").read_text(encoding="utf-8")
 
@@ -240,7 +230,6 @@ def test_operator_coffee_exposes_first_command_mode() -> None:
     assert "Coffee Bootstrap Brief" in src
     assert "append_cadence_event(" in src
     assert "mode=args.mode" in src
-
 
 def test_operator_coffee_quiet_capture_replaces_decode_errors(monkeypatch) -> None:
     seen: dict[str, object] = {}

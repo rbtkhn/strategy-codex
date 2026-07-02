@@ -12,7 +12,6 @@ import pytest
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-
 def _load_carry_module():
     ws = str(REPO_ROOT / "scripts" / "work_strategy")
     if ws not in sys.path:
@@ -24,14 +23,11 @@ def _load_carry_module():
     spec.loader.exec_module(mod)
     return mod
 
-
 carry = _load_carry_module()
-
 
 def test_word_count_basic() -> None:
     assert carry.word_count("one two three") == 3
     assert carry.word_count("") == 0
-
 
 @pytest.mark.parametrize(
     "rel",
@@ -44,16 +40,13 @@ def test_is_forbidden_record_path_users(rel: str) -> None:
     p = REPO_ROOT / rel
     assert carry.is_forbidden_record_path(p, REPO_ROOT) is True
 
-
 def test_is_forbidden_record_path_bot_prompt() -> None:
     p = REPO_ROOT / "archive/grace-mar-instance/bot" / "prompt.py"
     assert carry.is_forbidden_record_path(p, REPO_ROOT) is True
 
-
 def test_is_forbidden_runtime_ok() -> None:
     p = REPO_ROOT / "runtime" / "work-strategy" / "carry-receipts" / "x.json"
     assert carry.is_forbidden_record_path(p, REPO_ROOT) is False
-
 
 def test_sample_pass_receipt(tmp_path: Path) -> None:
     out = tmp_path / "receipt.json"
@@ -88,7 +81,6 @@ def test_sample_pass_receipt(tmp_path: Path) -> None:
     assert data["review_surface"]["primary"] == "receipt_json"
     assert any(path.endswith("receipt.json") for path in data["resources_written"])
 
-
 def test_missing_artifact_fail(tmp_path: Path) -> None:
     out = tmp_path / "receipt.json"
     cmd = [
@@ -108,7 +100,6 @@ def test_missing_artifact_fail(tmp_path: Path) -> None:
     data = json.loads(out.read_text(encoding="utf-8"))
     assert data["result"] == "fail"
     assert data["status"] == "fail"
-
 
 def test_thin_artifact_needs_review(tmp_path: Path) -> None:
     thin = tmp_path / "thin.md"
@@ -132,7 +123,6 @@ def test_thin_artifact_needs_review(tmp_path: Path) -> None:
     assert data["result"] == "needs_review"
     assert data["status"] == "needs_review"
 
-
 def test_forbidden_out_no_write(tmp_path: Path) -> None:
     bad_out = REPO_ROOT / "platform/users" / "grace-mar" / "_carry_harness_forbidden_test.json"
     cmd = [
@@ -155,7 +145,6 @@ def test_forbidden_out_no_write(tmp_path: Path) -> None:
     assert payload["record_boundary"]["canonical_write_violation"] is True
     assert payload["resources_written"] == []
 
-
 def test_json_stdout(tmp_path: Path) -> None:
     out = tmp_path / "receipt.json"
     cmd = [
@@ -174,7 +163,6 @@ def test_json_stdout(tmp_path: Path) -> None:
     r = subprocess.run(cmd, cwd=REPO_ROOT, capture_output=True, text=True)
     assert r.returncode == 0
     json.loads(r.stdout)
-
 
 def test_arc_movement_annotation_round_trips(tmp_path: Path) -> None:
     out = tmp_path / "receipt.json"
@@ -207,7 +195,6 @@ def test_arc_movement_annotation_round_trips(tmp_path: Path) -> None:
     assert data["arc_movement"]["movement_type"] == "updates"
     assert any(c["id"] == "arc_movement_complete" and c["status"] == "pass" for c in data["checks"])
 
-
 def test_incomplete_arc_annotation_needs_review(tmp_path: Path) -> None:
     out = tmp_path / "receipt.json"
     cmd = [
@@ -234,7 +221,6 @@ def test_incomplete_arc_annotation_needs_review(tmp_path: Path) -> None:
     assert data["arc_tags"] == ["arc:proxy-patron"]
     assert any(c["id"] == "arc_movement_complete" and c["status"] == "needs_review" for c in data["checks"])
 
-
 def test_fail_on_result_never(tmp_path: Path) -> None:
     out = tmp_path / "receipt.json"
     cmd = [
@@ -255,7 +241,6 @@ def test_fail_on_result_never(tmp_path: Path) -> None:
     assert r.returncode == 0
     data = json.loads(out.read_text(encoding="utf-8"))
     assert data["result"] == "fail"
-
 
 def test_inspect_artifact(tmp_path: Path) -> None:
     p = tmp_path / "x.md"

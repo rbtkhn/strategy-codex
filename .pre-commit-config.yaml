@@ -10,6 +10,11 @@ repos:
         entry: python scripts/check_deprecated_naming.py
         language: system
         pass_filenames: false
+      - id: work-record-doctrine-check
+        name: Deprecated WORK/Record banner check
+        entry: python scripts/check_work_record_doctrine.py --staged
+        language: system
+        pass_filenames: false
       - id: governance-check
         name: Governance checker
         entry: python scripts/governance_checker.py

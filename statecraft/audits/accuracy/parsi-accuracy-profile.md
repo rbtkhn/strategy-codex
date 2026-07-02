@@ -1,6 +1,5 @@
 # Parsi accuracy profile
 
-
 ## Summary
 
 Parsi makes scoreable claims mainly as diplomacy and coercion-architecture forecasts: what blockades will fail to do, what sequencing will preserve leverage, and what any durable bargain would have to contain. V1 tracks only bounded 2025-2026 Iran-war claims that can be reviewed honestly inside the current corpus window.

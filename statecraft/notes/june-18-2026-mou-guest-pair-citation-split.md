@@ -109,7 +109,7 @@ Same host/day, **back-to-back registers**. Napolitano runs **clip + lens**.
 
 **Macgregor owns:**
 
-- MOU **not peace treaty** — framework only; salient points: stop shooting, open strait
+- MOU **not peace treaty** — framenon-authoritative; salient points: stop shooting, open strait
 - **Quantified shocks:** 20% LNG; 30% fertilizer; 30% helium
 - **SPR 2.5–3 weeks** (tighter than Johnson’s four-week line)
 - **Trump Beirut apartment** clip = come-to-Jesus; military **not** everything/everywhere

@@ -1,7 +1,6 @@
 # Empire Instrument Template
 <!-- word_count: 167 -->
 
-
 Use this template when promoting a seed from `empire/seed-instruments.md` into a full lane note.
 
 ## Instrument

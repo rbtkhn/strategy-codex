@@ -1,6 +1,5 @@
 # Mearsheimer shelf hygiene audit - 2026-05
 
-
 Purpose: demonstrate the refined `speaker-shelf-hygiene` skill on the live Mearsheimer shelf, including the `host-led mature month` exception. This audit validates the route stack, classifies month maturity, tests source boundaries, and judges whether the wider Mearsheimer non-core bench is still contained well enough to avoid a native speaker month shelf.
 
 ## Route-stack diagnosis

@@ -1,6 +1,5 @@
 # Freeman accuracy profile
 
-
 ## Summary
 
 Freeman's claims are often mechanism-rich but slower-closing than those of more event-driven speakers. V1 therefore scores a small set of bounded mechanism and settlement claims, accepting that several remain unresolved under the present review window.

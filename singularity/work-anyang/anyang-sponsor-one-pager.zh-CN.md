@@ -1,6 +1,6 @@
 # anyang-ai 赞助合作一页纸（草案）
 
-WORK only · 面向潜在赞助人 · 非法律文件
+non-authoritative · 面向潜在赞助人 · 非法律文件
 
 **英文校准来源：** [anyang-philanthropist-calibration.md](anyang-philanthropist-calibration.md)  
 **实物支持清单：** [anyang-in-kind-request-list.md](anyang-in-kind-request-list.md)

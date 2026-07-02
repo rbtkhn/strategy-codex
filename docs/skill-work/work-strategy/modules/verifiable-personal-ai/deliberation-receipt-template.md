@@ -1,4 +1,4 @@
-# Deliberation receipt — template (WORK only)
+# Deliberation receipt — template (non-authoritative)
 
 Copy this file or the YAML block below per run. Store next to the draft (e.g. `work-business/…-receipt-2026-03-19.md`) or link from RECURSION-GATE candidate text.
 

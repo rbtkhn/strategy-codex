@@ -1,6 +1,5 @@
 # Kent Source Index
 
-
 Purpose: provide the current canonical route map for materialized Joe Kent appearances on disk.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index kent` — author/guest parity; skill **`audit index`**. (_Curated rebuild via builder — no `--fix`._)

@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Hi everybody. Today's Wednesday, June 17, 220, 2026, and our dear friend, our brother Anthony Aguular is here with us. Welcome back, Tony. >> Thank you for having me. It's a great day to discuss some important things. >> Exactly. And the one of the most important things is this this the release of the 14point plan or the 14point MOU memorandum of of understanding between Iranians and Americans.

@@ -27,7 +27,6 @@ This companion is intended to support durable personal reasoning, guided knowled
 
 **Review-required:** identity shifts; pedagogy changes; memory governance changes; safety rule changes.
 
-
 ## Intake — Cursor / operator workspace
 
 - **IDE:** cursor · **Rules preset:** `instance_light`

@@ -1,6 +1,6 @@
 # U.S.-framed five-point Gulf peace framework (operator synthesis)
 
-**Status:** WORK only — operator-authored consolidation for negotiation and messaging work. **Do not publish** externally until any factual claims you intend to assert are backed by dated primary sources. Not Record; not Voice knowledge.
+**Status:** non-authoritative — operator-authored consolidation for negotiation and messaging work. **Do not publish** externally until any factual claims you intend to assert are backed by dated primary sources. Not Record; not Voice knowledge.
 
 **Purpose:** A single U.S.-framed package pairing **consolidated commitments**, **legal anchors and transparency mechanisms**, and **illustrative historical precedents** (modern/pre-1900 and ancient/medieval). Precedents are **analogies for framing**, not legal authority, until you attach citations and an analogy audit. The same operational lines are folded into the **[Islamabad Framework — operator edition](islamabad-framework-operator-edition.md)** as optional **Annex A** add-ons—**roadmap**, not treaty—rather than as a competing “U.S. treaty draft.” The **[short public file](islamabad-framework.md)** stays preamble + five paragraphs only.
 

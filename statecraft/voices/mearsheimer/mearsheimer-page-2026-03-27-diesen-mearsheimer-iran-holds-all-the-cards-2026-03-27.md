@@ -1,7 +1,6 @@
 # Mearsheimer refined page — 2026-03-27 (guest lane)
 <!-- word_count: ~200 -->
 
-
 **Expert:** `mearsheimer` · **Interviewer:** Glenn Diesen · **Published:** 2026-03-27 · Sibling: [diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md](../diesen/diesen-page-2026-03-27-diesen-mearsheimer-iran-holds-all-the-cards-2026-03-27.md)
 
 ---

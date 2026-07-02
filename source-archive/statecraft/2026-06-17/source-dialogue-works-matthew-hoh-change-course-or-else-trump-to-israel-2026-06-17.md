@@ -42,7 +42,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 the US. >> Hi everybody. Today's Wednesday, June 17, 2026, 2026, and our dear friend Matt Hoh is here with us. Welcome back, Matt. >> Hi, Nima. Good to see you. >> Matt, I I want to play a clip of CNN and because it seems that they got the document MOU from the diplomats in Europe.

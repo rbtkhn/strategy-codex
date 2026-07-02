@@ -14,12 +14,10 @@ if str(WJ) not in sys.path:
 
 from validate_lecture_analysis_json import validate_obj  # noqa: E402
 
-
 def test_fixture_valid() -> None:
     p = ROOT / "continuity/predictive-history/fixtures/lecture_analysis_valid_min.json"
     data = json.loads(p.read_text(encoding="utf-8"))
     assert validate_obj(data) == []
-
 
 def test_missing_summary_errors() -> None:
     data = json.loads(
@@ -31,7 +29,6 @@ def test_missing_summary_errors() -> None:
     errs = validate_obj(data)
     assert any("summary" in e for e in errs)
 
-
 def test_analysis_json_version_mismatch_errors() -> None:
     data = json.loads(
         (ROOT / "continuity/predictive-history/fixtures/lecture_analysis_valid_min.json").read_text(
@@ -41,7 +38,6 @@ def test_analysis_json_version_mismatch_errors() -> None:
     data["analysis_json_version"] = "9.9"
     errs = validate_obj(data)
     assert any("analysis_json_version" in e for e in errs)
-
 
 def test_extractor_registry_civ() -> None:
     from extractors.registry import get_extractor_class

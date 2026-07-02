@@ -10,13 +10,11 @@ from identity_library_boundary_rules import (
 
 from validate_identity_library_boundary import collect_identity_library_violations
 
-
 def test_gate_path_leak_triggers_without_long_text():
     text = "See docs/civilization-memory/essays/foo.md for the full argument."
     surf, reasons = gate_suggested_reference_surface(text, long_ref_threshold=500)
     assert surf == "CIV-MEM / SELF-LIBRARY"
     assert any("path" in r.lower() for r in reasons)
-
 
 def test_gate_corpus_keyword_requires_length():
     short = "She mentioned CIV-MEM once."
@@ -24,7 +22,6 @@ def test_gate_corpus_keyword_requires_length():
     long = "She mentioned CIV-MEM once. " + "word " * 50
     surf, _ = gate_suggested_reference_surface(long)
     assert surf == "CIV-MEM / SELF-LIBRARY"
-
 
 def test_ix_a_topic_path_leak_in_block():
     block = """
@@ -34,7 +31,6 @@ def test_ix_a_topic_path_leak_in_block():
     viol = collect_ix_a_topic_violations_from_block(block, rel_path="x/self.md")
     assert len(viol) == 1
     assert "CIV-MEM/library path" in viol[0]
-
 
 def test_ix_a_merge_preview_full_self():
     body = """# Self
@@ -48,14 +44,12 @@ def test_ix_a_merge_preview_full_self():
 """
     assert collect_ix_a_violations_from_self_md(body, rel_path="u/self.md") == []
 
-
 def test_ix_a_topic_too_long():
     long_topic = "x" * 400
     block = f'  - id: LEARN-1\n    topic: "{long_topic}"\n'
     viol = collect_ix_a_topic_violations_from_block(block)
     assert len(viol) == 1
     assert "length" in viol[0]
-
 
 def test_identity_library_boundary_prefers_self_knowledge_file():
     user_dir = Path(".codex-test-temp") / "identity-library-boundary" / "demo"

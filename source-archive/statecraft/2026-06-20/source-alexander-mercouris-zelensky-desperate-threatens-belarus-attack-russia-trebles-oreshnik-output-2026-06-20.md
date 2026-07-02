@@ -37,7 +37,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Good day. Today is Saturday 20th June 2026. And before I proceed with this program, let me remind you to tick the like button and to check your subscription to this channel. Now, in my program yesterday, I discussed the latest military developments on the Ukrainian battlefields and spoke about the deteriorating situation for Ukraine, the rapidly deteriorating situation for Ukraine on the front lines.

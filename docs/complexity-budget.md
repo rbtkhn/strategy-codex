@@ -1,6 +1,5 @@
 # Complexity budget — strategy-codex
 
-
 This document defines anti-sprawl targets for the complexity mitigation program. Metrics are collected by `python3 scripts/audit_repo_complexity.py`.
 
 ## Product kernel (never simplify away)

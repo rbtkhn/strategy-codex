@@ -1,7 +1,5 @@
 # System Design Lineage Cluster
 
-work only; not Record.
-
 This folder is the canonical support cluster behind
 [System Design Lineage Is Not Unique in Kind](../system-design-lineage-is-not-unique-in-kind.md).
 

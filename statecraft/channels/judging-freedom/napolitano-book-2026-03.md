@@ -1,6 +1,5 @@
 # Napolitano book - 2026-03
 
-
 Purpose: March 2026 monthly index for the native `Judging Freedom` shelf.
 
 ## Core March tranche

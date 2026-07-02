@@ -43,7 +43,6 @@ transcript_curation: curated_sectioned
 
 ## Transcript
 
-
 ### Show Open — Introduction
 
 Welcome back. We are joined today by Stanislav Krapivnik, a former US Army officer now in Russia. Uh thank you for coming back on the program. Glenn, always a pleasure. You you know at the very beginning uh of all this insanity uh when uh everybody started, oh, you can't wear anything with a letter Z.

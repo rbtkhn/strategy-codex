@@ -6,7 +6,6 @@ from typing import Any
 
 from prediction.plugins.base import EpistemicPlugin
 
-
 class RegimeConfidenceRefinement(EpistemicPlugin):
     """Stub — nudge confidence down when fragmentation + high entropy."""
 

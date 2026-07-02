@@ -19,7 +19,6 @@ archive_links:
   - source-archive/statecraft/2026-04-22/source-pape-within-10-days-shortages-already-2026-04-22.md
 ---
 
-
 # Pape Arc
 
 Purpose: define `arc-pape-continuity` as the canonical person-level continuity surface for Robert Pape across authored and interview contexts, time, and pressure environments.

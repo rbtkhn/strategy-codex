@@ -18,7 +18,6 @@ synced_by: sync_portable_skills.py
 ---
 # Recursive Learning
 
-
 **Activation:** `recursive learn` · `recursive-learn` · `RLJ` · `recursive learning` *(legacy)* · `review this session through recursive learning`
 
 **SSOT (open first — do not repo-grep):** [statecraft/recursive-learning-journal.md](../../statecraft/recursive-learning-journal.md)
@@ -358,7 +357,6 @@ If verification cannot be completed:
 **Completion standard:** recursive-learn is complete only when the lesson is tied to a specific observed pattern and the proposed change has an explicit surface.
 
 **Avoid:** Do not generalize from one incident into global doctrine unless recurrence or severity is named.
-
 
 ## Cursor / strategy-codex instance
 

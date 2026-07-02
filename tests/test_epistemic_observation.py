@@ -17,11 +17,9 @@ from observation.loader import load_voice_captures, write_observations  # noqa: 
 from observation.parser import extract_sentences, parse_voice_capture  # noqa: E402
 from pipeline.run_pipeline import run_observation_layer  # noqa: E402
 
-
 def test_extract_sentences_splits_on_punctuation() -> None:
     text = "First claim. Second claim! Third claim?"
     assert extract_sentences(text) == ["First claim", "Second claim", "Third claim"]
-
 
 def test_parse_voice_capture_deterministic_id() -> None:
     kwargs = {
@@ -35,7 +33,6 @@ def test_parse_voice_capture_deterministic_id() -> None:
     assert first["observation_id"] == second["observation_id"]
     assert first["sentences"] == ["Escalation is likely"]
 
-
 def test_parse_voice_capture_includes_all_sentences() -> None:
     obs = parse_voice_capture(
         voice="macgregor",
@@ -45,7 +42,6 @@ def test_parse_voice_capture_includes_all_sentences() -> None:
     )
     assert obs["sentences"] == ["The US will face constraints", "Neutral line"]
 
-
 def test_load_voice_captures_from_fixtures() -> None:
     observations = load_voice_captures(voice_dir=FIXTURE_VOICE_DIR, repo_root=REPO_ROOT)
     assert len(observations) >= 2
@@ -54,7 +50,6 @@ def test_load_voice_captures_from_fixtures() -> None:
     assert "freeman" in voices
     macgregor = next(o for o in observations if o["voice"] == "macgregor")
     assert len(macgregor["sentences"]) >= 2
-
 
 def test_write_observations_envelope(tmp_path: Path) -> None:
     observations = [
@@ -71,7 +66,6 @@ def test_write_observations_envelope(tmp_path: Path) -> None:
     assert payload["_meta"]["layer"] == "observation"
     assert payload["_meta"]["row_count"] == 1
     assert len(payload["observations"]) == 1
-
 
 def test_run_observation_layer_integration(tmp_path: Path) -> None:
     voice_dir = tmp_path / "voice_captures" / "macgregor"

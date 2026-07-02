@@ -2,7 +2,6 @@
 
 **Purpose:** Walk through how grace-mar's **skill-work** (together with THINK, SELF, and edge) is used to **generate personalized lesson prompts** that the human companion (operator, parent, caregiver) can paste into any LLM (ChatGPT, Grok, etc.). The LLM acts as tutor; the Record supplies context. Multiple concrete examples show prompt construction and the kind of lessons that result.
 
-
 ---
 
 ## 0. Ideal UX: one prompt per day
@@ -80,7 +79,6 @@ The **generator** (script or manual) reads these files, extracts the relevant se
 **In practice:** The lesson prompt’s “What she knows (museum knowledge section A)” and “What she’s curious about (museum knowledge section B)” sections are the **content and interest** inputs; the “Who she is” and rules (e.g. “Do not add facts not listed above,” “respect her level”) are the **personality and boundary** inputs derived from museum knowledge section C and the knowledge boundary. Together they ensure lessons are personalized (knowledge and curiosity) and respectful (personality and identity), whether the “tutor” is a human following work-human-teacher objectives or an LLM following a Record-derived prompt. Template: companion-self [work-human-teacher](https://github.com/rbtkhn/companion-self/tree/main/docs/skill-work/skill-work-human-teacher) (human-teacher-objectives: read skill-think, modulate focus and gate, respect identity).
 
 **museum knowledge section A scope:** museum knowledge section A applies to THINK and WRITE content (reading, comprehension, production). It does **not** limit skill-work capabilities. WORK (making, planning, execution) is an instrument that grows with technology; its capabilities are not bounded by museum knowledge section A. When a lesson includes WORK activities, the WORK edge and goals come from the BUILD container; museum knowledge section A constrains only the content dimensions of the lesson (e.g. what the tutor assumes for context), not what WORK can propose.
-
 
 ---
 

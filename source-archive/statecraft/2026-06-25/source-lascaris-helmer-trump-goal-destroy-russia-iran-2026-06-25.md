@@ -53,7 +53,6 @@ verify:
 
 ## Transcript
 
-
 ### Show Open — Voronezh Strike and Academy Speech
 
 Good day. This is Dimitri Lascaris coming to you from Kalamata, Greece for Reason to Resist on June 25th, 2026. We are pleased to be joined again by our good friend John Helmer, the longest continuously serving foreign correspondent in Russia and the only Western journalist to direct his own bureau independent of national or commercial ties.

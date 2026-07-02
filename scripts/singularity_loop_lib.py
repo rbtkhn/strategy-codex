@@ -21,17 +21,14 @@ from mcp_receipt_lib import validate_json_schema  # noqa: E402
 from singularity_loop_invariants import run_singularity_loop_invariants  # noqa: E402
 from yaml_compat import safe_load_path  # noqa: E402
 
-
 def repo_relative(path: Path) -> str:
     try:
         return str(path.relative_to(REPO_ROOT)).replace("\\", "/")
     except ValueError:
         return str(path).replace("\\", "/")
 
-
 def render_json(payload: dict[str, Any]) -> str:
     return json.dumps(payload, indent=2, ensure_ascii=False) + "\n"
-
 
 def iter_loop_yaml_files(*, loops_dir: Path | None = None) -> list[Path]:
     root = loops_dir or LOOPS_DIR
@@ -39,17 +36,14 @@ def iter_loop_yaml_files(*, loops_dir: Path | None = None) -> list[Path]:
         return []
     return sorted(root.rglob("*.yaml"))
 
-
 def load_loop_document(path: Path) -> dict[str, Any]:
     data = safe_load_path(path, feature=repo_relative(path))
     if not isinstance(data, dict):
         raise ValueError(f"{repo_relative(path)}: expected mapping at root")
     return data
 
-
 def validate_loop_document(data: dict[str, Any], *, label: str) -> None:
     validate_json_schema(data, LOOP_SCHEMA_PATH)
-
 
 def flatten_loop_row(data: dict[str, Any], *, source_file: str) -> dict[str, Any]:
     loop = data["loop"]
@@ -60,7 +54,6 @@ def flatten_loop_row(data: dict[str, Any], *, source_file: str) -> dict[str, Any
     if "last_run" not in row:
         row["last_run"] = None
     return row
-
 
 def collect_loop_rows(*, loops_dir: Path | None = None) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
@@ -85,7 +78,6 @@ def collect_loop_rows(*, loops_dir: Path | None = None) -> list[dict[str, Any]]:
     rows.sort(key=lambda row: str(row["id"]))
     return rows
 
-
 def build_registry_payload(*, loops_dir: Path | None = None) -> dict[str, Any]:
     loops = collect_loop_rows(loops_dir=loops_dir)
     return {
@@ -96,7 +88,6 @@ def build_registry_payload(*, loops_dir: Path | None = None) -> dict[str, Any]:
         },
         "loops": loops,
     }
-
 
 def default_signals_payload() -> dict[str, Any]:
     return {
@@ -109,7 +100,6 @@ def default_signals_payload() -> dict[str, Any]:
         "blocked_loops": [],
         "attention_required": [],
     }
-
 
 def build_orchestrator_signals(*, loops: list[dict[str, Any]], source: str) -> dict[str, Any]:
     attention: list[str] = []
@@ -134,7 +124,6 @@ def build_orchestrator_signals(*, loops: list[dict[str, Any]], source: str) -> d
     payload["_meta"]["source"] = source
     return payload
 
-
 def refresh_orchestrator_signals(
     *,
     registry_path: Path | None = None,
@@ -151,7 +140,6 @@ def refresh_orchestrator_signals(
     out.write_text(render_json(payload), encoding="utf-8")
     return payload
 
-
 def format_singularity_signals_brief(payload: dict[str, Any]) -> str | None:
     pending = payload.get("pending_loops") or []
     blocked = payload.get("blocked_loops") or []
@@ -167,12 +155,10 @@ def format_singularity_signals_brief(payload: dict[str, Any]) -> str | None:
         parts.append(f"blocked: {', '.join(blocked)}")
     return "Singularity loops — " + "; ".join(parts)
 
-
 def refresh_and_brief(*, source: str) -> str | None:
     """Refresh orchestrator signals and return a one-line brief when non-empty."""
     payload = refresh_orchestrator_signals(source=source)
     return format_singularity_signals_brief(payload)
-
 
 def load_registry(*, registry_path: Path | None = None) -> dict[str, Any]:
     path = registry_path or DEFAULT_REGISTRY_OUTPUT

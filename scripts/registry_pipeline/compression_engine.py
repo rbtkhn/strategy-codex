@@ -28,7 +28,6 @@ MACGREGOR_MERGE_REJECTED: frozenset[str] = frozenset(
     }
 )
 
-
 def compression_report(
     events: dict[str, dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
@@ -65,7 +64,6 @@ def compression_report(
         "macgregor_only_seeds": macgregor_only,
     }
 
-
 def apply_macgregor_deprecations(
     *,
     event_ids: list[str] | None = None,
@@ -90,7 +88,6 @@ def apply_macgregor_deprecations(
         )
         applied.append(event_id)
     return applied
-
 
 def main() -> int:
     import argparse
@@ -122,7 +119,6 @@ def main() -> int:
         print(f"Duplicate fingerprints: {len(report['duplicate_fingerprints'])}")
         print(f"Macgregor merge proposals: {len(report['macgregor_merge_proposals'])}")
     return 1 if report["duplicate_fingerprints"] else 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

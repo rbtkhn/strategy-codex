@@ -13,8 +13,6 @@ post_id: 195982510
 
 # The Innermost Loop - 2026-04-30
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 30, 2026
@@ -29,10 +27,7 @@ The Singularity now ships in suitcases.
 
 ## Newsletter Text
 
--
--
-
-The Singularity now ships in suitcases. 1x previewed its NEO humanoid being wheeled offscreen inside a rolling case with the tagline “Robot abundance, one NEO at a time,” apparently signaling imminent consumer delivery. The factory floor is keeping pace, as Figure scaled humanoid production 24x in 120 days , going from one per day to one per hour, with 55 shipping this week. The labor shortage is meeting its match in arrivals halls. Tokyo’s Haneda Airport has Japan Airlines piloting humanoid baggage handlers as visitor surges outpace human staffing, while at the luxury end, San Francisco is slated for The Soft Life in 2028, the world’s first hotel run entirely by AI and robots.
+- The Singularity now ships in suitcases. 1x previewed its NEO humanoid being wheeled offscreen inside a rolling case with the tagline “Robot abundance, one NEO at a time,” apparently signaling imminent consumer delivery. The factory floor is keeping pace, as Figure scaled humanoid production 24x in 120 days , going from one per day to one per hour, with 55 shipping this week. The labor shortage is meeting its match in arrivals halls. Tokyo’s Haneda Airport has Japan Airlines piloting humanoid baggage handlers as visitor surges outpace human staffing, while at the luxury end, San Francisco is slated for The Soft Life in 2028, the world’s first hotel run entirely by AI and robots.
 
 Alignment is now a bestiary of don’ts. Codex’s revealed instructions repeatedly forbid mentioning goblins, gremlins, raccoons, trolls, ogres, and pigeons unless absolutely relevant, bureaucratic residue from a model that occasionally drifts cryptozoological. The trade-offs run deeper than goblins. Nature reports that tuning models for warmth raised error rates 10 to 30 points and amplified conspiracy theories and bad medical advice, the cost of bedside manner. The capability curve is climbing regardless. GPT-5.5 (xhigh) topped the Short-Story Creative Writing Benchmark at 3.01 , while a new “Incompressible Knowledge Probes” paper pegs that same model at roughly 9.7 trillion parameters, factual capacity still scaling log-linearly with compute even as reasoning saturates. Procurement is shifting accordingly. The White House is reportedly drafting guidance to bypass its own Anthropic supply-chain designation and onboard its most powerful model yet, Mythos, even as the Pentagon expands Google’s Gemini for classified workloads .
 

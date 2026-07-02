@@ -1,6 +1,5 @@
 # Johnson source index
 
-
 Purpose: exhaustive canonical route map for Larry C. Johnson guest appearances and direct archive anchors on the Johnson shelf.
 
 **Audit:** `python scripts/audit_statecraft_archive_index.py --shelf-index johnson` — author/guest parity; skill **`audit index`**. Post-land: `python scripts/shelf_index_from_capture.py --path <capture> --apply`. (_Curated rebuild via builder — no `--fix`._)

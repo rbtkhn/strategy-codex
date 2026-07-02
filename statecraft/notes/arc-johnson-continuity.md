@@ -21,7 +21,6 @@ archive_links:
 
 # Johnson arc
 
-
 Purpose: define `arc-johnson-continuity` as the canonical person-level continuity surface for Larry Johnson across hosts, contexts, and time.
 
 ## Separation Rule

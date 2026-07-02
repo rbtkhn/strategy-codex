@@ -1,6 +1,6 @@
 # Work-pass ledger
 
-WORK only; derived from extended `coffee_close` cadence (+ legacy conductor rows read-only). Not Record.
+non-authoritative; derived from extended `coffee_close` cadence (+ legacy conductor rows read-only). Not Record.
 
 - Window: last `7` day(s)
 - Generated: `2026-06-19T09:25:51.459014+00:00`

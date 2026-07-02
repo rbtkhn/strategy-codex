@@ -32,7 +32,6 @@ transcript_curation: curated_sectioned
 
 ## Cleaned Transcript
 
-
 ### Show Open — Introduction
 
 Everybody, today's Friday, June 5th, 2026, and our dear friend, Ambassador Chess Freeman is here with us. Welcome back, Ambassador. >> Very glad to be with you, Nema. Happy Friday. >> Yeah, thank you. And I want to start, ambassador, with the new polls coming out and the public opinion toward Israel.

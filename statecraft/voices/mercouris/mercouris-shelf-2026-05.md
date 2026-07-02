@@ -1,6 +1,5 @@
 # Mercouris Shelf - 2026-05
 
-
 This monthly shelf is the May 2026 frontier entry for the `mercouris` cognition stream. May should be read as the third **mature dense-core month** in the native Mercouris arc: the point where the March-April Iran/Hormuz and failed-coercion object persists, but is now expressed through rollback theater, coalition brittleness, deterrent warning, Europe-side political fragility, and the opening of deeper command-and-corruption crisis inside Kiev.
 
 Month status: `mature dense-core month`

@@ -27,14 +27,12 @@ from registry_pipeline.contracts import (  # noqa: E402
 )
 from prediction_lib import load_event_registry, render_json  # noqa: E402
 
-
 def _question_near_misses(events: dict[str, dict[str, Any]]) -> dict[str, int]:
     by_question: dict[str, list[str]] = {}
     for event_id, event in events.items():
         q = str(event.get("question") or event_id).strip().casefold()
         by_question.setdefault(q, []).append(event_id)
     return {eid: len(ids) for q, ids in by_question.items() for eid in ids if len(ids) > 1}
-
 
 def build_semantic_scores_payload(
     events: dict[str, dict[str, Any]] | None = None,
@@ -94,7 +92,6 @@ def build_semantic_scores_payload(
         "events": events_out,
     }
 
-
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--registry", type=Path, default=DEFAULT_REGISTRY)
@@ -106,7 +103,6 @@ def main() -> int:
     args.output.write_text(render_json(payload), encoding="utf-8")
     print(f"[ok] wrote {args.output.relative_to(REPO_ROOT)}")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

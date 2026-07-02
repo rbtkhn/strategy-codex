@@ -13,8 +13,6 @@ post_id: 195627429
 
 # The Innermost Loop - 2026-04-27
 
-WORK only; not Record.
-
 ## Source
 
 - Title: Welcome to April 27, 2026
@@ -29,10 +27,7 @@ The Singularity is the weather now, not the forecast.
 
 ## Newsletter Text
 
--
--
-
-The Singularity is the weather now, not the forecast. Nick Bostrom says what surprised him most is this extended era of roughly human-level AI , which has already stretched 3-5 years and may stretch further, an era both alien and familiar. Demis Hassabis, who once said AGI required 1-2 more breakthroughs, now thinks it’s a coin flip whether more are needed at all. The economy refuses to collapse on cue. Sam Altman mocked the gap between “post-AGI nobody works” predictions and users adopting polyphasic sleep so they can ship more code with GPT-5.5 in Codex. The strategic frame is flipping too. OpenAI’s Noam Brown notes that model weights now matter relatively less than securing inference compute, which is to say the prize is no longer the recipe but the kitchen. The recipes also live faster and die younger, with GPT-4o running for 21 months while GPT-5.4 lasted only 49 days , a mayfly schedule for synthetic minds. The mayflies, however, are getting things done. Liam Price, a 23-year-old with no advanced math training, used a single GPT-5.4 Pro prompt to crack an Erdős problem that had eluded prominent minds, prompting Terry Tao to muse that humans hit a “mental block” from making “a slight wrong turn at move one.”
+- The Singularity is the weather now, not the forecast. Nick Bostrom says what surprised him most is this extended era of roughly human-level AI , which has already stretched 3-5 years and may stretch further, an era both alien and familiar. Demis Hassabis, who once said AGI required 1-2 more breakthroughs, now thinks it’s a coin flip whether more are needed at all. The economy refuses to collapse on cue. Sam Altman mocked the gap between “post-AGI nobody works” predictions and users adopting polyphasic sleep so they can ship more code with GPT-5.5 in Codex. The strategic frame is flipping too. OpenAI’s Noam Brown notes that model weights now matter relatively less than securing inference compute, which is to say the prize is no longer the recipe but the kitchen. The recipes also live faster and die younger, with GPT-4o running for 21 months while GPT-5.4 lasted only 49 days , a mayfly schedule for synthetic minds. The mayflies, however, are getting things done. Liam Price, a 23-year-old with no advanced math training, used a single GPT-5.4 Pro prompt to crack an Erdős problem that had eluded prominent minds, prompting Terry Tao to muse that humans hit a “mental block” from making “a slight wrong turn at move one.”
 
 The substrate of intelligence is stretching from your pocket to your living room. OpenAI is reportedly working with MediaTek and Qualcomm on AI smartphone processors , with Luxshare manufacturing and mass production targeted for 2028. Apple, not to be outflanked, has six major product categories in the pipeline , including AI AirPods, smart glasses, pendants, smart displays, tabletop robots, and security cameras. The backend is scaling to match. Kevin O’Leary is planning a hyperscale data center in Utah’s Box Elder County that will generate its own power, clean its own water for the Great Salt Lake, and consume more electricity than the entire state. Demand is so excessive, says the AWS CEO, that “we have never retired old A100s,” a sign that we have entered the post-obsolescence era of silicon.
 

@@ -1,7 +1,5 @@
 # Moonshots — synthesis research frame
 
-work only; not Record.
-
 Research-layer orientation for **Moonshots** as a **conversational synthesis** stream — consequence-mapping on economy, infrastructure, agency, alignment, and culture.
 
 **Raw SSOT:** [`source-archive/singularity/moonshots/`](../../../source-archive/singularity/moonshots/) (verbatim transcripts; cite, do not mirror).

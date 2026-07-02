@@ -40,14 +40,12 @@ COMPONENT_BY_VARIANT = {
     "no_disagreement_graph": "disagreement_graph",
 }
 
-
 @dataclass(frozen=True)
 class AblationFlags:
     compression: bool = True
     falsifier_model: bool = True
     signal_extraction: bool = True
     disagreement_graph: bool = True
-
 
 VARIANTS: dict[str, AblationFlags] = {
     "full": AblationFlags(),
@@ -57,7 +55,6 @@ VARIANTS: dict[str, AblationFlags] = {
     "no_disagreement_graph": AblationFlags(disagreement_graph=False),
 }
 
-
 def _parse_date(value: str | None) -> date | None:
     if not value:
         return None
@@ -65,7 +62,6 @@ def _parse_date(value: str | None) -> date | None:
         return date.fromisoformat(str(value)[:10])
     except ValueError:
         return None
-
 
 def neutralize_signals_payload(signals: dict[str, Any]) -> dict[str, Any]:
     payload = copy.deepcopy(signals)
@@ -89,7 +85,6 @@ def neutralize_signals_payload(signals: dict[str, Any]) -> dict[str, Any]:
             "signal_type": "directional",
         }
     return payload
-
 
 def neutralize_disagreement_payload(disagreement: dict[str, Any]) -> dict[str, Any]:
     payload = copy.deepcopy(disagreement)
@@ -120,7 +115,6 @@ def neutralize_disagreement_payload(disagreement: dict[str, Any]) -> dict[str, A
             },
         }
     return payload
-
 
 def prepare_ablation_inputs(
     flags: AblationFlags,
@@ -159,7 +153,6 @@ def prepare_ablation_inputs(
         sig = signals
 
     return reg, tl, sig, dis, sem
-
 
 def rebuild_membrane(
     flags: AblationFlags,
@@ -208,7 +201,6 @@ def rebuild_membrane(
         "disagreement": dis,
     }
 
-
 def _pooled_observation_probs(engm: dict[str, Any]) -> list[float]:
     events = engm.get("events") if isinstance(engm, dict) else {}
     pooled = {cls: 0.0 for cls in OBSERVATION_CLASSES}
@@ -234,7 +226,6 @@ def _pooled_observation_probs(engm: dict[str, Any]) -> list[float]:
         return [1.0 / len(OBSERVATION_CLASSES)] * len(OBSERVATION_CLASSES)
     return [round(pooled[cls] / count, 4) for cls in OBSERVATION_CLASSES]
 
-
 def _graph_coherence(disagreement: dict[str, Any]) -> float | None:
     events = disagreement.get("events") if isinstance(disagreement, dict) else {}
     if not isinstance(events, dict) or not events:
@@ -250,7 +241,6 @@ def _graph_coherence(disagreement: dict[str, Any]) -> float | None:
         return None
     return round(1.0 - (sum(norms) / len(norms)), 4)
 
-
 def _mean_cross_voice_alignment(test_rows: list[dict[str, Any]]) -> float | None:
     values: list[float] = []
     for row in test_rows:
@@ -263,7 +253,6 @@ def _mean_cross_voice_alignment(test_rows: list[dict[str, Any]]) -> float | None
     if not values:
         return None
     return round(sum(values) / len(values), 4)
-
 
 def _regime_shift_delay_mean(
     test_rows: list[dict[str, Any]],
@@ -297,7 +286,6 @@ def _regime_shift_delay_mean(
     if not delays:
         return 0.0
     return round(sum(delays) / len(delays), 4)
-
 
 def score_variant(
     membrane: dict[str, Any],
@@ -342,7 +330,6 @@ def score_variant(
         },
     }
 
-
 def compute_drops(
     variants: dict[str, dict[str, Any]],
     *,
@@ -376,7 +363,6 @@ def compute_drops(
             entry["performance_drop"] = round(float(value) - float(ref_value), 4)
         drops.append(entry)
     return drops
-
 
 def build_ablation_payload(
     *,
@@ -463,7 +449,6 @@ def build_ablation_payload(
         "insight": insight,
     }
 
-
 def main() -> int:
     import argparse
     import json
@@ -504,7 +489,6 @@ def main() -> int:
         f"(test_probability_n={scope['test_probability_n']}, low_n={payload['_meta']['low_n_advisory']})"
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

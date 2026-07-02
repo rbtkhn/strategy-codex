@@ -12,9 +12,7 @@ from scripts.check_archive_boundary import (
     _scan_mention_budget,
 )
 
-
 REPO_ROOT = Path(__file__).resolve().parent.parent
-
 
 def test_canonical_pointer_matches_complexity_budget():
     expected = (
@@ -22,7 +20,6 @@ def test_canonical_pointer_matches_complexity_budget():
         "See docs/archive/grace-mar.md."
     )
     assert CANONICAL_ARCHIVE_POINTER == expected
-
 
 def test_duplicated_narrative_fails_mention_budget():
     bad = (
@@ -32,7 +29,6 @@ def test_duplicated_narrative_fails_mention_budget():
     issues = _scan_mention_budget("README.md", bad, max_narrative=1)
     assert any("without canonical archive pointer" in i for i in issues)
     assert _count_narrative_mentions(bad) >= 2
-
 
 def test_pointer_plus_operational_fork_revive_passes():
     good = (
@@ -44,7 +40,6 @@ def test_pointer_plus_operational_fork_revive_passes():
     issues = _scan_mention_budget("docs/start-here.md", good, max_narrative=1)
     assert issues == []
 
-
 def test_check_archive_boundary_passes_primary_docs():
     proc = subprocess.run(
         [sys.executable, "scripts/check_archive_boundary.py"],
@@ -54,7 +49,6 @@ def test_check_archive_boundary_passes_primary_docs():
     )
     assert proc.returncode == 0, proc.stderr
     assert "ok: archive mention budget check passed" in proc.stdout
-
 
 def test_check_archive_boundary_strict_on_bad_fixture():
     with tempfile.TemporaryDirectory() as tmp:

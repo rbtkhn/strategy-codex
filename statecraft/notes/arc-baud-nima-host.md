@@ -22,7 +22,6 @@ archive_links:
 
 # Dialogue Works x Baud arc
 
-
 ## Why this guest run matters
 
 The `Dialogue Works x Baud` lane matters because it gives the notebook a repeated **law-of-war / mandate / strategic-rationality** register inside a host stream that presses the live crisis hard.
