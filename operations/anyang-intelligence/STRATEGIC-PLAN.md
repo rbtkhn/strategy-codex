@@ -4,7 +4,9 @@ Operator material; not Record.
 
 **Scope:** `operations/anyang-intelligence/` commercial venture operating shelf.
 
-**Prospectus version:** v1.5
+**Prospectus version:** v1.6
+
+**v1.6 note:** Adds guiding purpose tagline, [Core Objectives](#core-objectives) section, and expanded §15 closing vision. Light echo on shelf [README.md](README.md), [AI-OPERATING-SYSTEM.md](AI-OPERATING-SYSTEM.md), [HUMAN-WEIGHT-UPDATE-SYSTEM.md](HUMAN-WEIGHT-UPDATE-SYSTEM.md), and agent v1.5 Core Thesis blocks (link here). No financial rewrite; proof obligations unchanged.
 
 **v1.5 note:** Operational Strategist prompt refreshed in [AI-OPERATING-SYSTEM.md](AI-OPERATING-SYSTEM.md) for agentic-era supervision layer, hybrid workflows, 1–2yr autonomy-risk assessment, and adaptation priority field. [Agentic adaptation brief](strategy/2026-07-03-agentic-era-adaptation-brief.md) is the first v1.5 Strategist cycle output. Operational **Builder** prompt refreshed (v1.5) for hybrid module design, verification hedging, and weight-update execution — first cycle outputs: [hybrid module spec](builder/2026-07-03-agent-orchestration-supervision-module.md), [hybrid supervision rubric](builder/2026-07-03-hybrid-supervision-rubric.md), [week-12 hybrid pilot template](builder/templates/milestone-week-12-hybrid-pilot.md). Operational **Growth** prompt refreshed (v1.5) for proof-driven hybrid acquisition, autonomy hedging, and Embed/community funnels — first cycle outputs: [hybrid supervision growth brief](growth/2026-07-03-hybrid-supervision-growth-brief.md), [7-day agent challenge funnel](growth/2026-07-03-seven-day-agent-challenge-funnel.md). No financial rewrite; proof obligations unchanged; Workflow Ship Sprint wedge sequencing unchanged.
 
@@ -17,6 +19,8 @@ Operator material; not Record.
 **v1.1 note:** Adds competitive benchmark (AI Operator ADOPT), execution mechanics (Orient/Build/Ship/Embed/Scale), behavior-change layer, and upgraded proof obligations. No full product rewrite.
 
 **One-line strategy:** Anyang Intelligence is an AI-native vocational training company that closes the gap between knowing AI tools and running AI-powered workflows — a workforce transformation system, not a course marketplace.
+
+**Guiding purpose:** **Mastery of intelligence for abundance in life, work, and community.**
 
 **Offer-sensitive:** Pricing, ARR, and investment thesis in this document are operator-only material — not legal commitments, not `skill-write` public copy without review.
 
@@ -78,6 +82,16 @@ The global workforce is undergoing a structural shift:
 - AI operational competence is extremely rare
 
 There is a gap between **knowing AI tools** and **running AI-powered workflows**. Anyang Intelligence exists to close this gap.
+
+---
+
+## Core Objectives
+
+**Mastery of intelligence for abundance in life, work, and community.**
+
+- **In Life**: Greater freedom, creativity, and calm possibility.
+- **In Work**: Higher impact, fulfillment, and leverage with less friction.
+- **In Community**: Generous contribution that lifts others and builds collective strength.
 
 ---
 
@@ -313,7 +327,7 @@ The transition from **static education** to **AI-native operational training sys
 
 ## 15. Closing vision
 
-Anyang Intelligence aims to become the global standard for training AI-native workers — where education becomes a continuously evolving operational system rather than static content.
+Anyang Intelligence aims to become the global standard for transforming how people relate to intelligence — where education becomes a continuously evolving operational system. At the heart of everything we do is **Mastery of intelligence for abundance in life, work, and community** — helping individuals and organizations move from scarcity to creation, from limitation to mastery, and from isolation to shared prosperity.
 
 ---
 

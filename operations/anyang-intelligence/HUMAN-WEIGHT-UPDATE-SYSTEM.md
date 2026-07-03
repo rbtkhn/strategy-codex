@@ -20,6 +20,10 @@ Bitcoin is modeled as a **potential external settlement layer** for economic val
 
 **Operational execution** (agent prompts, pilot kits, proof obligations) remains in [AI-OPERATING-SYSTEM.md](AI-OPERATING-SYSTEM.md). This document is the **conceptual layer** — vocabulary and modeling, not a replacement for operational prompts.
 
+**Guiding purpose:** **Mastery of intelligence for abundance in life, work, and community.** — see [STRATEGIC-PLAN Core Objectives](STRATEGIC-PLAN.md#core-objectives).
+
+- **In Life:** Weight updates aim at freedom and calm possibility, not anxiety-driven tool churn.
+
 **Agentic era (v1.4):** The shift to autonomous agents steepens the gradient on human weights — operators are the **supervision layer** in multi-agent systems. See [STRATEGIC-PLAN §2](STRATEGIC-PLAN.md#2-market-opportunity).
 
 ---
