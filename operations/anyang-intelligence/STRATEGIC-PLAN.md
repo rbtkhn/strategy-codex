@@ -4,7 +4,9 @@ WORK only; not Record.
 
 **Scope:** `operations/anyang-intelligence/` commercial venture operating shelf.
 
-**Prospectus version:** v1.1
+**Prospectus version:** v1.2
+
+**v1.2 note:** Adds [3-agent AI operating system](AI-OPERATING-SYSTEM.md) (Strategist / Builder / Growth), output shelves (`strategy/`, `builder/`, `growth/`), and documented loop stubs. No rewrite of §1–15 financial or product body.
 
 **v1.1 note:** Adds competitive benchmark (AI Operator ADOPT), execution mechanics (Orient/Build/Ship/Embed/Scale), behavior-change layer, and upgraded proof obligations. No full product rewrite.
 
@@ -31,9 +33,22 @@ WORK only; not Record.
 | Layer | Repo home |
 | --- | --- |
 | Commercial venture (this doc, GTM proof) | `operations/anyang-intelligence/` |
+| 3-agent operating system | [AI-OPERATING-SYSTEM.md](AI-OPERATING-SYSTEM.md) |
 | China cohort pilot | `singularity/work-anyang/` |
 | Curriculum (human + agent packs, later) | `education/<subject-slug>/` when ready |
 | Cohort operator entry | `singularity/work-anyang/OPERATOR-RUNBOOK.md` |
+
+### Organizational architecture (v1.2)
+
+Anyang Intelligence runs as a **3-agent closed loop** — Strategist (what), Builder (how), Growth (who pays). Full prompts, orchestration rule, and repo routing: [AI-OPERATING-SYSTEM.md](AI-OPERATING-SYSTEM.md).
+
+| Agent | Decides | STRATEGIC-PLAN anchor | In-folder outputs |
+| --- | --- | --- | --- |
+| **Strategist** | WHAT to build | Orient; §4 intelligence layer; proof obligations | [`strategy/`](strategy/), [`reports/`](reports/) |
+| **Builder** | HOW to deliver | Build, Ship, Embed; curriculum factory | [`builder/`](builder/), [`reports/`](reports/) |
+| **Growth** | WHO pays / distribution | §7 GTM, §8 growth engine | [`growth/`](growth/), [`reports/`](reports/) |
+
+China wedge (`singularity/work-anyang/`) is **Builder proof** — not a fourth agent. Mentor/sponsor ops stay in [OPERATOR-RUNBOOK.md](../../singularity/work-anyang/OPERATOR-RUNBOOK.md).
 
 ---
 

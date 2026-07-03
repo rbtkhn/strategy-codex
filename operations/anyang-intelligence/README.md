@@ -8,7 +8,11 @@ Operating shelf for **Anyang Intelligence** — the AI-native vocational trainin
 
 | Artifact | Role |
 | --- | --- |
-| [STRATEGIC-PLAN.md](STRATEGIC-PLAN.md) | Commercial venture prospectus v1 — investor-facing strategy |
+| [STRATEGIC-PLAN.md](STRATEGIC-PLAN.md) | Commercial venture prospectus — investor-facing strategy |
+| [AI-OPERATING-SYSTEM.md](AI-OPERATING-SYSTEM.md) | 3-agent org architecture (Strategist / Builder / Growth) |
+| [`strategy/`](strategy/) | Strategist outputs — opportunity briefs, segment picks |
+| [`builder/`](builder/) | Builder outputs — module specs, ship-sprint designs |
+| [`growth/`](growth/) | Growth outputs — funnel briefs, campaign specs |
 | [`reports/`](reports/) | Workflow proof, market-signal digests, GTM case studies |
 
 ## Related surfaces
@@ -42,6 +46,10 @@ Operating shelf for **Anyang Intelligence** — the AI-native vocational trainin
 anyang-intelligence/
   README.md
   STRATEGIC-PLAN.md
+  AI-OPERATING-SYSTEM.md
+  strategy/
+  builder/
+  growth/
   reports/
     README.md
     2026-07-02-ai-operator-adopt-benchmark.md
