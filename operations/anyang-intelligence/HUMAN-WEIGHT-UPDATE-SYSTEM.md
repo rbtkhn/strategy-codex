@@ -183,6 +183,8 @@ Output:
 
 Distributes capability upgrades and converts them into revenue.
 
+**Operational prompt (v1.5):** Pilot execution and proof-driven acquisition use [AI-OPERATING-SYSTEM.md § Growth](AI-OPERATING-SYSTEM.md#agent-3--growth). The conceptual prompt below is the weight-update modeling layer only.
+
 ### Responsibilities
 
 - Design acquisition funnels

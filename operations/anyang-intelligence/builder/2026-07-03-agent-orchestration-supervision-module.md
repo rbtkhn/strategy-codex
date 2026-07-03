@@ -21,7 +21,7 @@ Operator material; not Record.
 | **Verification Method** | [Hybrid supervision rubric](2026-07-03-hybrid-supervision-rubric.md) overlay (0–40 supplemental); filed via [week-12 hybrid pilot template](templates/milestone-week-12-hybrid-pilot.md). Base pass still requires [workflow ship rubric](2026-07-02-workflow-ship-rubric.md) ≥80/100. |
 | **System Design Notes** | 70/20/10 — 70% hands-on chain supervision, 20% peer review of guardrails, 10% orchestration patterns brief. Pairs with module map weeks 8–10 (integration → production). Minimal tooling: approval workflow (even lightweight — spreadsheet + sign-off), observability log template, exception playbook stub. Embed: micro-log of one supervision decision per week (wk 10–12). |
 | **Adaptation Notes** | As agent reliability improves, module emphasis shifts from exception firefighting → orchestration design + audit trails (portable across vendor platforms). Stronger governance layer hedges autonomy erosion — supervision skills remain monetizable premium. |
-| **Next Action** | **Growth** — defer hybrid-overlay marketing until first scored hybrid pilot in `reports/`; **Strategist** if orchestration falsifier triggers (see adaptation brief). |
+| **Next Action** | **Growth** — [hybrid growth brief](../growth/2026-07-03-hybrid-supervision-growth-brief.md) and [7-day challenge outline](../growth/2026-07-03-seven-day-agent-challenge-funnel.md) delivered; external hybrid marketing remains proof-gated until `reports/` receipt. **Strategist** if orchestration falsifier triggers. |
 
 ---
 

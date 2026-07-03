@@ -56,10 +56,12 @@ Signals to ingest on next Strategist cycle:
 | --- | --- |
 | This adaptation brief | [`strategy/`](.) |
 | Hybrid rubric + week-12 template | [`../builder/`](../builder/) — [delivered](2026-07-03-hybrid-supervision-rubric.md) |
+| Growth funnel briefs | [`../growth/`](../growth/) — [hybrid growth](../growth/2026-07-03-hybrid-supervision-growth-brief.md) · [7-day challenge](../growth/2026-07-03-seven-day-agent-challenge-funnel.md) |
 | Scored hybrid pilot (future) | [`../reports/`](../reports/) |
 | Operational Strategist prompt v1.5 | [AI-OPERATING-SYSTEM.md](../AI-OPERATING-SYSTEM.md#agent-1--strategist) |
+| Operational Growth prompt v1.5 | [AI-OPERATING-SYSTEM.md](../AI-OPERATING-SYSTEM.md#agent-3--growth) |
 
-**Single prioritized next action:** Growth — defer hybrid-overlay marketing until first scored hybrid pilot in `reports/` (Builder deliverables complete).
+**Single prioritized next action:** When cohort runs — file first scored hybrid pilot in `reports/`; then unlock hybrid Proof Narrative in Growth briefs.
 
 ---
 
@@ -72,7 +74,7 @@ Signals to ingest on next Strategist cycle:
 | Respects proof obligations | Yes — no new 90-day gate; no external cert claims |
 | Wedge sequencing preserved | Yes — overlay only; workflow-ship wedge primary |
 | v1.5 format complete | Yes — all eight table fields + additional sections |
-| Single next owner | Growth (Builder handoff complete) |
+| Single next owner | Cohort execution — hybrid pilot receipt in `reports/` (Growth briefs delivered) |
 
 ---
 
