@@ -34,6 +34,7 @@ Extends Workflow Ship Sprint weeks 8–12 — **not** a new flagship SKU.
 
 | Date | Artifact | Role |
 | --- | --- | --- |
+| 2026-07-03 | [2026-07-03-proof-collection-pack.md](2026-07-03-proof-collection-pack.md) | `reports/` filing runbook — week 6 / 12 slots, naming, falsifier map |
 | 2026-07-02 | [2026-07-02-accelerator-module-map.md](2026-07-02-accelerator-module-map.md) | 12-week module map |
 | 2026-07-02 | [2026-07-02-workflow-ship-rubric.md](2026-07-02-workflow-ship-rubric.md) | 100-point pass rubric (≥80) |
 | — | [templates/](templates/) | Week 4/6/8/12 milestone + ROI checkpoint |

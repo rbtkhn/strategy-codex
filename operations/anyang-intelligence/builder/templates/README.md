@@ -2,7 +2,7 @@
 
 Operator material; not Record.
 
-Fill-in artifacts for cohort facilitators. Specs: [module map](../2026-07-02-accelerator-module-map.md) · [rubric](../2026-07-02-workflow-ship-rubric.md).
+Fill-in artifacts for cohort facilitators. Specs: [module map](../2026-07-02-accelerator-module-map.md) · [rubric](../2026-07-02-workflow-ship-rubric.md) · [proof collection pack](../2026-07-03-proof-collection-pack.md) (`reports/` filing).
 
 | Template | Week | Gate |
 | --- | --- | --- |
