@@ -132,6 +132,8 @@ Output:
 
 Implements structured capability transformations.
 
+**Operational prompt (v1.5):** Pilot execution and hybrid module design use [AI-OPERATING-SYSTEM.md § Builder](AI-OPERATING-SYSTEM.md#agent-2--builder). The conceptual prompt below is the weight-update modeling layer only.
+
 ### Responsibilities
 
 - Design skill transformation modules

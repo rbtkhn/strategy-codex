@@ -55,11 +55,11 @@ Signals to ingest on next Strategist cycle:
 | Artifact | Shelf |
 | --- | --- |
 | This adaptation brief | [`strategy/`](.) |
-| Hybrid rubric + week-12 template (next) | [`../builder/`](../builder/) |
+| Hybrid rubric + week-12 template | [`../builder/`](../builder/) — [delivered](2026-07-03-hybrid-supervision-rubric.md) |
 | Scored hybrid pilot (future) | [`../reports/`](../reports/) |
 | Operational Strategist prompt v1.5 | [AI-OPERATING-SYSTEM.md](../AI-OPERATING-SYSTEM.md#agent-1--strategist) |
 
-**Single prioritized next action:** Builder — hybrid supervision rubric + week-12 hybrid pilot template in `builder/`.
+**Single prioritized next action:** Growth — defer hybrid-overlay marketing until first scored hybrid pilot in `reports/` (Builder deliverables complete).
 
 ---
 
@@ -72,7 +72,7 @@ Signals to ingest on next Strategist cycle:
 | Respects proof obligations | Yes — no new 90-day gate; no external cert claims |
 | Wedge sequencing preserved | Yes — overlay only; workflow-ship wedge primary |
 | v1.5 format complete | Yes — all eight table fields + additional sections |
-| Single next owner | Builder |
+| Single next owner | Growth (Builder handoff complete) |
 
 ---
 

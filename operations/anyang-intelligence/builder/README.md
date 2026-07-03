@@ -18,6 +18,18 @@ Workflow proof write-ups may also land in [`../reports/`](../reports/).
 
 **Opportunity (agentic era):** Accelerator **governance week** — authorization flows, audit trails, escalation playbooks — from enterprise HITL demand in [STRATEGIC-PLAN §2](../STRATEGIC-PLAN.md#2-market-opportunity).
 
+## Hybrid Supervision overlay (v1.5)
+
+Extends Workflow Ship Sprint weeks 8–12 — **not** a new flagship SKU.
+
+| Date | Artifact | Role |
+| --- | --- | --- |
+| 2026-07-03 | [2026-07-03-agent-orchestration-supervision-module.md](2026-07-03-agent-orchestration-supervision-module.md) | Weight-update module spec (weeks 8–10) |
+| 2026-07-03 | [2026-07-03-hybrid-supervision-rubric.md](2026-07-03-hybrid-supervision-rubric.md) | Optional 0–40 overlay on base rubric |
+| 2026-07-03 | [templates/milestone-week-12-hybrid-pilot.md](templates/milestone-week-12-hybrid-pilot.md) | Week-12 hybrid pilot filing |
+
+**Strategist input:** [2026-07-03-agentic-era-adaptation-brief.md](../strategy/2026-07-03-agentic-era-adaptation-brief.md)
+
 ## Specs (Workflow Ship Sprint pilot)
 
 | Date | Artifact | Role |
@@ -26,7 +38,7 @@ Workflow proof write-ups may also land in [`../reports/`](../reports/).
 | 2026-07-02 | [2026-07-02-workflow-ship-rubric.md](2026-07-02-workflow-ship-rubric.md) | 100-point pass rubric (≥80) |
 | — | [templates/](templates/) | Week 4/6/8/12 milestone + ROI checkpoint |
 
-**Strategist input:** [2026-07-02-workflow-ship-sprint-wedge.md](../strategy/2026-07-02-workflow-ship-sprint-wedge.md)
+**Strategist input:** [2026-07-02-workflow-ship-sprint-wedge.md](../strategy/2026-07-02-workflow-ship-sprint-wedge.md) · [2026-07-03-agentic-era-adaptation-brief.md](../strategy/2026-07-03-agentic-era-adaptation-brief.md)
 
 ## Related
 

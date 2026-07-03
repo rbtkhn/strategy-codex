@@ -6,7 +6,7 @@ Operator material; not Record.
 
 **Prospectus version:** v1.5
 
-**v1.5 note:** Operational Strategist prompt refreshed in [AI-OPERATING-SYSTEM.md](AI-OPERATING-SYSTEM.md) for agentic-era supervision layer, hybrid workflows, 1–2yr autonomy-risk assessment, and adaptation priority field. [Agentic adaptation brief](strategy/2026-07-03-agentic-era-adaptation-brief.md) is the first v1.5 cycle output. No financial rewrite; proof obligations unchanged; Workflow Ship Sprint wedge sequencing unchanged.
+**v1.5 note:** Operational Strategist prompt refreshed in [AI-OPERATING-SYSTEM.md](AI-OPERATING-SYSTEM.md) for agentic-era supervision layer, hybrid workflows, 1–2yr autonomy-risk assessment, and adaptation priority field. [Agentic adaptation brief](strategy/2026-07-03-agentic-era-adaptation-brief.md) is the first v1.5 Strategist cycle output. Operational **Builder** prompt refreshed (v1.5) for hybrid module design, verification hedging, and weight-update execution — first cycle outputs: [hybrid module spec](builder/2026-07-03-agent-orchestration-supervision-module.md), [hybrid supervision rubric](builder/2026-07-03-hybrid-supervision-rubric.md), [week-12 hybrid pilot template](builder/templates/milestone-week-12-hybrid-pilot.md). No financial rewrite; proof obligations unchanged; Workflow Ship Sprint wedge sequencing unchanged.
 
 **v1.4 note:** Absorbs agentic-era macro context into §2 and §14 (chat → autonomous agents; TAM stack; human supervision layer). No standalone market report; no financial rewrite; proof obligations unchanged.
 
@@ -51,7 +51,7 @@ Anyang Intelligence runs as a **3-agent closed loop** — Strategist (what), Bui
 | Agent | Decides | STRATEGIC-PLAN anchor | In-folder outputs |
 | --- | --- | --- | --- |
 | **Strategist** | WHAT to build | Orient; §4 intelligence layer; proof obligations; v1.5 adaptation cycle | [`strategy/`](strategy/) (incl. [agentic adaptation brief](strategy/2026-07-03-agentic-era-adaptation-brief.md)), [`reports/`](reports/) |
-| **Builder** | HOW to deliver | Build, Ship, Embed; curriculum factory | [`builder/`](builder/), [`reports/`](reports/) |
+| **Builder** | HOW to deliver | Build, Ship, Embed; curriculum factory; v1.5 hybrid overlay | [`builder/`](builder/) (incl. [hybrid supervision kit](builder/2026-07-03-hybrid-supervision-rubric.md)), [`reports/`](reports/) |
 | **Growth** | WHO pays / distribution | §7 GTM, §8 growth engine | [`growth/`](growth/), [`reports/`](reports/) |
 
 China wedge (`singularity/work-anyang/`) is **Builder proof** — not a fourth agent. Mentor/sponsor ops stay in [OPERATOR-RUNBOOK.md](../../singularity/work-anyang/OPERATOR-RUNBOOK.md).
