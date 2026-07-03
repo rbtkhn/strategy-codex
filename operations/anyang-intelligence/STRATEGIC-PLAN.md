@@ -4,7 +4,9 @@ Operator material; not Record.
 
 **Scope:** `operations/anyang-intelligence/` commercial venture operating shelf.
 
-**Prospectus version:** v1.4
+**Prospectus version:** v1.5
+
+**v1.5 note:** Operational Strategist prompt refreshed in [AI-OPERATING-SYSTEM.md](AI-OPERATING-SYSTEM.md) for agentic-era supervision layer, hybrid workflows, 1–2yr autonomy-risk assessment, and adaptation priority field. [Agentic adaptation brief](strategy/2026-07-03-agentic-era-adaptation-brief.md) is the first v1.5 cycle output. No financial rewrite; proof obligations unchanged; Workflow Ship Sprint wedge sequencing unchanged.
 
 **v1.4 note:** Absorbs agentic-era macro context into §2 and §14 (chat → autonomous agents; TAM stack; human supervision layer). No standalone market report; no financial rewrite; proof obligations unchanged.
 
@@ -48,7 +50,7 @@ Anyang Intelligence runs as a **3-agent closed loop** — Strategist (what), Bui
 
 | Agent | Decides | STRATEGIC-PLAN anchor | In-folder outputs |
 | --- | --- | --- | --- |
-| **Strategist** | WHAT to build | Orient; §4 intelligence layer; proof obligations | [`strategy/`](strategy/), [`reports/`](reports/) |
+| **Strategist** | WHAT to build | Orient; §4 intelligence layer; proof obligations; v1.5 adaptation cycle | [`strategy/`](strategy/) (incl. [agentic adaptation brief](strategy/2026-07-03-agentic-era-adaptation-brief.md)), [`reports/`](reports/) |
 | **Builder** | HOW to deliver | Build, Ship, Embed; curriculum factory | [`builder/`](builder/), [`reports/`](reports/) |
 | **Growth** | WHO pays / distribution | §7 GTM, §8 growth engine | [`growth/`](growth/), [`reports/`](reports/) |
 
