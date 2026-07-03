@@ -26,6 +26,8 @@ Bitcoin is modeled as a **potential external settlement layer** for economic val
 
 **ExO alignment:** Weight-update cycles mirror [IDEAS](STRATEGIC-PLAN.md#ideas-internal-control-and-agility) — experimentation (measurable before → after deltas), dashboards (proof-as-inference in `reports/`), social technologies (embed norms and proof obligations). Shared proof outputs compound [SCALE](STRATEGIC-PLAN.md#scale-external-leverage) engagement. *Conceptual framework lineage only.*
 
+**Latent space:** Operator authorship probes collective compressed knowledge ([STRATEGIC-PLAN §4](STRATEGIC-PLAN.md#latent-space-and-operator-authorship)); weight updates steer inference toward measurable outputs — modeling language only, not model-internals access.
+
 **Agentic era (v1.4):** The shift to autonomous agents steepens the gradient on human weights — operators are the **supervision layer** in multi-agent systems. See [STRATEGIC-PLAN §2](STRATEGIC-PLAN.md#2-market-opportunity).
 
 ---
