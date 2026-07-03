@@ -1,6 +1,6 @@
 # Anyang Intelligence — reports
 
-WORK only; not Record. Not `skill-write` public copy without review.
+Operator material; not Record. Not `skill-write` public copy without review.
 
 Market-signal digests, competitive benchmarks, workflow case studies, and GTM receipts for the commercial venture shelf.
 

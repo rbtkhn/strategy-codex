@@ -1,6 +1,6 @@
 # Growth brief — Paid pilot cohort funnel (Workflow Ship Sprint)
 
-WORK only; not Record. Offer-sensitive — not public copy without review.
+Operator material; not Record. Offer-sensitive — not public copy without review.
 
 **Date:** 2026-07-02  
 **Agent:** Growth  
@@ -15,6 +15,8 @@ WORK only; not Record. Offer-sensitive — not public copy without review.
 **Motion:** Proof-first **direct outbound + founder-led content** — not paid scale until week-12 case study exists in `reports/`.
 
 **Phase 0 (now → first pilot enrolled):** Warm network + LinkedIn/YouTube **workflow demo seeds** that point to conversation, not checkout.
+
+**Free tier (agentic era):** **Agentic workflow template library** — templates and challenges → email capture → paid cohort ([STRATEGIC-PLAN §8](../STRATEGIC-PLAN.md#8-growth-engine)).
 
 **Phase 1 (pilot running):** Document pilot in real time (with participant consent) for internal case-study draft — no public ROI multiples.
 
@@ -50,11 +52,11 @@ Warm intro     →  Share rubric PDF  →  Scope + price     →  Week 6 ROI int
 | Stage | Goal | Exit criterion |
 | --- | --- | --- |
 | **Awareness** | Target team knows we ship workflows, not prompts | One engaged reply or call booked |
-| **Interest** | Prospect sees rubric + 12-week map (WORK PDF or Notion) | Confirmed pain + 3–8 person team |
+| **Interest** | Prospect sees rubric + 12-week map (internal PDF or Notion) | Confirmed pain + 3–8 person team |
 | **Decision** | Pilot scope, price, start date | Signed pilot agreement + payment |
 | **Pilot** | Team completes program | Week 12 rubric pass + case study draft → `reports/` |
 
-### Pilot offer shape (WORK only)
+### Pilot offer shape (internal planning)
 
 | Element | Spec |
 | --- | --- |
@@ -134,7 +136,7 @@ When week 12 passes:
 
 ## Revenue impact
 
-| Horizon | Impact (WORK hypothesis — not forecast) |
+| Horizon | Impact (internal hypothesis — not forecast) |
 | --- | --- |
 | **First pilot closed** | $3k–$8k cash; validates willingness to pay for ship proof |
 | **Week 6** | Internal ROI artifact; **no** scale spend |

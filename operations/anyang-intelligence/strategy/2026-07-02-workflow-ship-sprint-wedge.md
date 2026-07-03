@@ -1,11 +1,11 @@
 # Strategist brief — Workflow Ship Sprint as Phase 1 flagship SKU
 
-WORK only; not Record. Offer-sensitive — not public copy without review.
+Operator material; not Record. Offer-sensitive — not public copy without review.
 
 **Date:** 2026-07-02  
 **Agent:** Strategist  
 **Status:** active — handoff to Builder  
-**Inputs:** [STRATEGIC-PLAN.md](../STRATEGIC-PLAN.md) v1.2 · [ADOPT benchmark](../reports/2026-07-02-ai-operator-adopt-benchmark.md) · [open tensions](../../singularity/work-anyang/anyang-open-tensions.md)
+**Inputs:** [STRATEGIC-PLAN.md](../STRATEGIC-PLAN.md) v1.4 · [ADOPT benchmark](../reports/2026-07-02-ai-operator-adopt-benchmark.md) · [open tensions](../../singularity/work-anyang/anyang-open-tensions.md)
 
 ---
 
@@ -44,6 +44,8 @@ WORK only; not Record. Offer-sensitive — not public copy without review.
 
 **Geography:** Global English delivery (LinkedIn/YouTube proof loop). China proof cell runs parallel under Builder R&D — not merged into this cohort SKU.
 
+**Agentic-era sequencing (v1.4):** Structural gap favors **team wedge first** (supervise/orchestrate agentic workflows in production). [Individual B2C brief](2026-07-02-individual-operator-weight-update.md) stays sequenced **after** first team case study — not reprioritized by agentic shift alone.
+
 ---
 
 ## Revenue model
@@ -54,7 +56,7 @@ WORK only; not Record. Offer-sensitive — not public copy without review.
 | **Upsell** | Transformation program, certification exam (future) | After week-6 ROI checkpoint artifact exists in `reports/` |
 | **China cell** | Sponsor in-kind + lean cash (<¥50k / 6 mo) | Separate sponsor track — not counted in global ARR Year 1 |
 
-**90-day revenue hypothesis (WORK only):** One paid pilot cohort ($3k–$8k team) + one published case study → unlocks Growth content engine. **Not** a forecast or external claim.
+**90-day revenue hypothesis (internal planning):** One paid pilot cohort ($3k–$8k team) + one published case study → unlocks Growth content engine. **Not** a forecast or external claim.
 
 ---
 

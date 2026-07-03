@@ -1,6 +1,6 @@
 # Builder spec — Workflow ship rubric (100-point scale)
 
-WORK only; not Record.
+Operator material; not Record.
 
 **Date:** 2026-07-02  
 **Program:** AI Operator Accelerator — Workflow Ship Sprint  

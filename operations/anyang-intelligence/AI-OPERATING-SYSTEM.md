@@ -1,12 +1,12 @@
 # Anyang Intelligence — 3-Agent AI Operating System
 
-WORK only; not Record.
+Operator material; not Record.
 
 **Scope:** `operations/anyang-intelligence/` organizational architecture.
 
 **Related:** [STRATEGIC-PLAN.md](STRATEGIC-PLAN.md) · [README.md](README.md)
 
-**Offer-sensitive:** Agent prompts and commercial outputs are WORK-only operator material — not legal commitments, not `skill-write` public copy without review.
+**Offer-sensitive:** Agent prompts and commercial outputs are operator-only material — not legal commitments, not `skill-write` public copy without review.
 
 ---
 
@@ -54,6 +54,8 @@ Human capability can also be modeled as a **weight-updating system** (ML analogy
 Extended conceptual stack (modeling only — see [HUMAN-WEIGHT-UPDATE-SYSTEM.md](HUMAN-WEIGHT-UPDATE-SYSTEM.md)): Human System State → Economic Output → optional Bitcoin settlement (future) → feedback.
 
 Market signals land in [`reports/`](reports/) and [`strategy/`](strategy/). Builder outputs land in [`builder/`](builder/) and (when curriculum ships) root [`education/`](../../education/README.md). Growth outputs land in [`growth/`](growth/) and proof receipts in [`reports/`](reports/).
+
+**Market-signal example (v1.4):** Agentic-era context in [STRATEGIC-PLAN §2](STRATEGIC-PLAN.md#2-market-opportunity) is Strategist-cycle input — may falsify segment priority vs the current Workflow Ship Sprint wedge.
 
 ---
 
@@ -118,7 +120,7 @@ Output format:
 | Opportunity | Named market gap or segment pull |
 | Product Definition | SKU shape (Accelerator, Transformation, certification path) |
 | Target Segment | Individual / SME / enterprise |
-| Revenue Model | Stream + illustrative range (WORK-only) |
+| Revenue Model | Stream + illustrative range (operator-only) |
 | Next Action | Single executable handoff to Builder |
 
 ### Repo routing
@@ -237,7 +239,7 @@ Output format:
 | --- | --- |
 | Growth Strategy | Channel + motion summary |
 | Funnel Design | Stages from awareness to paid |
-| Key Message | ROI-driven value prop (WORK-only) |
+| Key Message | ROI-driven value prop (operator-only) |
 | Conversion Path | CTA, offer, proof artifact required |
 | Revenue Impact | Directional impact note — not external claim without receipt |
 

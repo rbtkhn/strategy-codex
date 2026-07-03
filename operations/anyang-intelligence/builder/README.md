@@ -1,6 +1,6 @@
 # Anyang Intelligence — Builder outputs
 
-WORK only; not Record. Not `skill-write` public copy without review.
+Operator material; not Record. Not `skill-write` public copy without review.
 
 **Agent:** Builder (HOW to deliver) — see [AI-OPERATING-SYSTEM.md](../AI-OPERATING-SYSTEM.md).
 
@@ -15,6 +15,8 @@ Shipped curriculum packs land under root [`education/<subject-slug>/`](../../../
 China cohort proof artifacts live in [`singularity/work-anyang/`](../../../singularity/work-anyang/README.md) — Builder R&D cell, not a fourth agent.
 
 Workflow proof write-ups may also land in [`../reports/`](../reports/).
+
+**Opportunity (agentic era):** Accelerator **governance week** — authorization flows, audit trails, escalation playbooks — from enterprise HITL demand in [STRATEGIC-PLAN §2](../STRATEGIC-PLAN.md#2-market-opportunity).
 
 ## Specs (Workflow Ship Sprint pilot)
 

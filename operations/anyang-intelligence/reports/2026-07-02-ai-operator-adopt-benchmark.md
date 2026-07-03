@@ -1,6 +1,6 @@
 # AI Operator ADOPT Method™ — competitive benchmark
 
-WORK only; not Record.
+Operator material; not Record.
 
 **Scope:** `operations/anyang-intelligence/reports/` market-signal digest.
 

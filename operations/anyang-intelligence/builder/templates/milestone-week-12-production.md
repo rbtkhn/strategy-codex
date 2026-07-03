@@ -1,6 +1,6 @@
 # Milestone — Week 12 production ship
 
-WORK only; not Record.
+Operator material; not Record.
 
 **Program:** AI Operator Accelerator — Workflow Ship Sprint  
 **Gate:** Production use + rubric score ≥80/100.

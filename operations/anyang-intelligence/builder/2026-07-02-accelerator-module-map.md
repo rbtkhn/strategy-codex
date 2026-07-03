@@ -1,6 +1,6 @@
 # Builder spec — AI Operator Accelerator module map (12 weeks)
 
-WORK only; not Record. Offer-sensitive — not public copy without review.
+Operator material; not Record. Offer-sensitive — not public copy without review.
 
 **Date:** 2026-07-02  
 **Agent:** Builder  

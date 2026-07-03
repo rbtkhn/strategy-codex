@@ -1,6 +1,6 @@
 # Anyang Intelligence — Strategist outputs
 
-WORK only; not Record. Not `skill-write` public copy without review.
+Operator material; not Record. Not `skill-write` public copy without review.
 
 **Agent:** Strategist (WHAT to build) — see [AI-OPERATING-SYSTEM.md](../AI-OPERATING-SYSTEM.md).
 
@@ -8,7 +8,7 @@ WORK only; not Record. Not `skill-write` public copy without review.
 
 - Opportunity briefs and segment prioritization memos
 - Product definition handoffs to Builder
-- Revenue-model notes (WORK-only; offer-sensitive)
+- Revenue-model notes (operator-only; offer-sensitive)
 
 Market digests and competitive benchmarks stay in [`../reports/`](../reports/).
 
@@ -16,7 +16,8 @@ Market digests and competitive benchmarks stay in [`../reports/`](../reports/).
 
 | Date | Brief | Status |
 | --- | --- | --- |
-| 2026-07-02 | [2026-07-02-workflow-ship-sprint-wedge.md](2026-07-02-workflow-ship-sprint-wedge.md) | Active — Builder handoff |
+| 2026-07-02 | [2026-07-02-workflow-ship-sprint-wedge.md](2026-07-02-workflow-ship-sprint-wedge.md) | Active — Builder handoff (primary, SME team) |
+| 2026-07-02 | [2026-07-02-individual-operator-weight-update.md](2026-07-02-individual-operator-weight-update.md) | Exploratory — secondary B2C; sequenced after team case study |
 
 ## Related
 

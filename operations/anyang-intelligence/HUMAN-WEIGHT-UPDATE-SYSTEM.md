@@ -1,12 +1,12 @@
 # Anyang Intelligence — Human Weight Update System
 
-WORK only; not Record.
+Operator material; not Record.
 
 **Scope:** `operations/anyang-intelligence/` conceptual architecture (modeling lens).
 
 **Related:** [AI-OPERATING-SYSTEM.md](AI-OPERATING-SYSTEM.md) (operational SSOT) · [STRATEGIC-PLAN.md](STRATEGIC-PLAN.md) · [README.md](README.md)
 
-**Offer-sensitive:** Conceptual prompts and economic framing are WORK-only — not legal commitments, not investment advice, not `skill-write` public copy without review.
+**Offer-sensitive:** Conceptual prompts and economic framing are operator-only — not legal commitments, not investment advice, not `skill-write` public copy without review.
 
 ---
 
@@ -19,6 +19,8 @@ Humans are treated as **adaptive intelligence nodes** whose weights (skills, beh
 Bitcoin is modeled as a **potential external settlement layer** for economic value produced by capability updates — optional/future only; see [Bitcoin settlement layer](#bitcoin-settlement-layer-optionalfuture-module).
 
 **Operational execution** (agent prompts, pilot kits, proof obligations) remains in [AI-OPERATING-SYSTEM.md](AI-OPERATING-SYSTEM.md). This document is the **conceptual layer** — vocabulary and modeling, not a replacement for operational prompts.
+
+**Agentic era (v1.4):** The shift to autonomous agents steepens the gradient on human weights — operators are the **supervision layer** in multi-agent systems. See [STRATEGIC-PLAN §2](STRATEGIC-PLAN.md#2-market-opportunity).
 
 ---
 
@@ -118,7 +120,7 @@ Output:
 | --- | --- |
 | Capability Opportunity | Named transformation gap |
 | Before → After Weight Update | Observable capability delta |
-| Economic Value Impact | Directional output link (WORK-only) |
+| Economic Value Impact | Directional output link (operator-only) |
 | Target Segment | Individual / team / enterprise |
 | Monetization Path | Cohort, pilot, enterprise — ties to revenue |
 
@@ -218,7 +220,7 @@ Output:
 | Growth Strategy | Channel + motion |
 | Funnel Design | Stages to paid transformation |
 | Proof Narrative | Before → after story (receipt-backed) |
-| Revenue Model | Stream + band (WORK-only) |
+| Revenue Model | Stream + band (operator-only) |
 
 ---
 

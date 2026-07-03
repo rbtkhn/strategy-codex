@@ -1,6 +1,6 @@
 # Milestone — Week 8 integration ship
 
-WORK only; not Record.
+Operator material; not Record.
 
 **Program:** AI Operator Accelerator — Workflow Ship Sprint  
 **Gate:** Workflow connected to target environment — not localhost-only.

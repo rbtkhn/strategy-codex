@@ -1,6 +1,6 @@
 # Milestone — Week 4 prototype ship
 
-WORK only; not Record.
+Operator material; not Record.
 
 **Program:** AI Operator Accelerator — Workflow Ship Sprint  
 **Gate:** Prototype runs end-to-end once without facilitator building it for you.

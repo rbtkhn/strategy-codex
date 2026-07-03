@@ -1,6 +1,6 @@
 # Week 6 ROI checkpoint
 
-WORK only; not Record. **Copy finalized version to** [`../../reports/`](../../reports/) **when pilot completes.**
+Operator material; not Record. **Copy finalized version to** [`../../reports/`](../../reports/) **when pilot completes.**
 
 **Program:** AI Operator Accelerator — Workflow Ship Sprint  
 **Purpose:** Mid-program proof artifact — required before scale marketing (see [STRATEGIC-PLAN proof obligations](../../STRATEGIC-PLAN.md#proof-obligations-90-day)).

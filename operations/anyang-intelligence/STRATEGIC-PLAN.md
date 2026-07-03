@@ -1,10 +1,12 @@
 # Anyang Intelligence — Strategic Plan
 
-WORK only; not Record.
+Operator material; not Record.
 
 **Scope:** `operations/anyang-intelligence/` commercial venture operating shelf.
 
-**Prospectus version:** v1.3
+**Prospectus version:** v1.4
+
+**v1.4 note:** Absorbs agentic-era macro context into §2 and §14 (chat → autonomous agents; TAM stack; human supervision layer). No standalone market report; no financial rewrite; proof obligations unchanged.
 
 **v1.3 note:** Adds [human weight-update conceptual layer](HUMAN-WEIGHT-UPDATE-SYSTEM.md) (ML metaphor, optional Bitcoin settlement model) and [`settlement/`](settlement/README.md) stub. Operational [3-agent OS](AI-OPERATING-SYSTEM.md) and pilot kit unchanged. No rewrite of §1–15 financial or product body.
 
@@ -14,7 +16,7 @@ WORK only; not Record.
 
 **One-line strategy:** Anyang Intelligence is an AI-native vocational training company that closes the gap between knowing AI tools and running AI-powered workflows — a workforce transformation system, not a course marketplace.
 
-**Offer-sensitive:** Pricing, ARR, and investment thesis in this document are WORK-only operator material — not legal commitments, not `skill-write` public copy without review.
+**Offer-sensitive:** Pricing, ARR, and investment thesis in this document are operator-only material — not legal commitments, not `skill-write` public copy without review.
 
 ---
 
@@ -87,9 +89,28 @@ There is a gap between **knowing AI tools** and **running AI-powered workflows**
 - Corporate training market exceeding $350B globally
 - Rapid emergence of “AI literacy → AI productivity” gap
 
+### Agentic era (mid-2026)
+
+The AI industry is shifting from conversational chat to **autonomous, goal-oriented agents** — perception, planning, tool use, memory, and execution. This agentic wave is the next growth cycle after generative AI.
+
+**TAM stack (how the markets relate):**
+
+| Layer | Scale (directional) | Anyang position |
+| --- | --- | --- |
+| **Agentic infrastructure** | ~$7–8B (2025) → $30–100B+ (2030–2032); 45%+ CAGR `[verify before public copy]` | **Not** our product — we do not build models or agent platforms |
+| **Operator enablement** | Workforce transformation; applied operators within the broader ~$350B corporate training frame | **Our wedge** — train the human layer that supervises, orchestrates, and governs agentic workflows |
+
+**Drivers:** Long context, browser/computer use, memory systems, multi-agent orchestration, falling inference cost, standardized tool layers from cloud and open ecosystems.
+
+**Adoption:** Enterprises move from pilots to scaled deployment across software engineering, operations, customer service, healthcare, and finance. Frontier labs merge chat interfaces with agent capabilities.
+
+**Structural gap:** Agent capability is advancing faster than operator competence. Most organizations know how to access tools but lack skills to **design, supervise, orchestrate, and govern** agentic workflows at scale. Anyang trains **AI Operators** — the human layer that turns frontier agents into measurable outcomes. We are not building models or platforms.
+
+**Regulatory and trust:** Safety, controllability, user authorization, and tiered governance are becoming core enterprise requirements — especially in sensitive sectors. Human-in-the-loop design is product requirement, not optional ethics. See Builder governance-module opportunity in [builder/README.md](builder/README.md).
+
 ### Core insight
 
-Most AI education focuses on prompting, theory, and tools. Enterprises need **AI systems operators who can redesign workflows**.
+Most AI education focuses on prompting, theory, and tools. Enterprises need **AI systems operators who can redesign workflows** — increasingly **agent-powered workflows** with supervision and governance.
 
 Industry benchmark [AI Operator ADOPT](reports/2026-07-02-ai-operator-adopt-benchmark.md) validates strong demand for operator-style transformation programs — Anyang competes on systems intelligence and closed-loop curriculum, not by cloning competitor frameworks.
 
@@ -212,6 +233,8 @@ demonstrated workflow improvement (ship sprint)
 
 Case studies, ROI checkpoints, and habit-pilot designs land under [`reports/`](reports/).
 
+**Phase 2 content ambition (not a 90-day falsifier):** After the first published cohort case study unlocks scale GTM, target **8–12 agent-powered workflow proofs** (demos, templates, and case studies) as content-engine volume — see [proof obligations](#proof-obligations-90-day) for the one-case-study gate.
+
 ---
 
 ## 9. Positioning
@@ -280,7 +303,9 @@ Assumptions TBD — figures below are directional only, not forecasts.
 
 ## 14. Investment thesis
 
-Investing in Anyang Intelligence is a bet on the transition from **static education** to **AI-native operational training systems** that embed **behavior change**, not temporary awareness.
+Investing in Anyang Intelligence is a bet that the **agentic infrastructure race expands operator-training TAM** — while returns accrue to the **human supervision and orchestration layer**, not to building agents or platforms.
+
+The transition from **static education** to **AI-native operational training systems** that embed **behavior change** (not temporary awareness) is the mechanism. Frontier agent capability creates structural demand for trained operators; Anyang captures that wedge.
 
 ---
 

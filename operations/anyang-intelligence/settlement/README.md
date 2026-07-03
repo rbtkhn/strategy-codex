@@ -1,6 +1,6 @@
 # Anyang Intelligence — settlement layer (future)
 
-WORK only; not Record.
+Operator material; not Record.
 
 **Status:** Stub only — **no implementation** in current PRs.
 

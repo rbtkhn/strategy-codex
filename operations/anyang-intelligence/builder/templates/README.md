@@ -1,6 +1,6 @@
 # Builder templates — Accelerator Workflow Ship Sprint
 
-WORK only; not Record.
+Operator material; not Record.
 
 Fill-in artifacts for cohort facilitators. Specs: [module map](../2026-07-02-accelerator-module-map.md) · [rubric](../2026-07-02-workflow-ship-rubric.md).
 
