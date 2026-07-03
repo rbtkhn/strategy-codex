@@ -3,7 +3,7 @@ ingest_date: 2026-04-25
 pub_date: 2026-04-25
 thread: simplicius
 kind: transcript
-source_path: docs/skill-work/work-strategy/strategy-notebook/experts/simplicius/transcript.md
+source_path: docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/simplicius/transcript.md
 ---
 
 ## 2026-04-25

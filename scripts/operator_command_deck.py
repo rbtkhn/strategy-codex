@@ -6,7 +6,7 @@ Aggregates Repo Surgeon, Statecraft War Room, git, budget, and backlog signals.
 Read-only except report outputs.
 
 See runtime/artifacts/operator-command-deck/README.md and
-docs/skill-work/work-dev/operator-dashboard-consolidation-phase0.md.
+docs/archive/skill-work-legacy/work-dev/operator-dashboard-consolidation-phase0.md.
 """
 
 from __future__ import annotations

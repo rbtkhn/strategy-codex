@@ -10,8 +10,8 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 REPLACEMENTS = (
-    ("LIB-0156", "`docs/skill-work/work-strategy/history-notebook/`"),
-    ("LIB-0159", "`docs/skill-work/work-strategy/theology-notebook/`"),
+    ("LIB-0156", "`docs/archive/skill-work-legacy/work-strategy/history-notebook/`"),
+    ("LIB-0159", "`docs/archive/skill-work-legacy/work-strategy/theology-notebook/`"),
     ("LIB-0140..0148", "museum theology entries (archive)"),
     ("cognitive fork", "interpretive machine"),
     ("Cognitive fork", "Interpretive machine"),

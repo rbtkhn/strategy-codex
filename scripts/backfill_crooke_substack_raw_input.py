@@ -23,7 +23,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_RAW_ROOT = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/raw-input"
+    REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/raw-input"
 )
 DEFAULT_HOSTNAME = "conflictsforum.substack.com"
 DEFAULT_YEAR = 2026

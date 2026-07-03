@@ -27,7 +27,7 @@ synced_by: sync_portable_skills.py
 
 **Scope:** Fast external check on **tier-3 contemporary reported claims** — news media, official/government releases, and attributed desk lines inside ingests — especially when **second-hand inside a transcript** ("according to the New York Times…", "Axios says…", "Hebrew media reports…").
 
-**Corpus tier (source-lattice):** News-verify grades **corpus tier 3 only** — current-events news / official. SSOT: [source-lattice § statecraft corpus tiers](../../docs/source-lattice-beyond-the-repo.md#statecraft-corpus-tiers-strategy-codex) · registry [§ placement](../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#source-lattice-placement).
+**Corpus tier (source-lattice):** News-verify grades **corpus tier 3 only** — current-events news / official. SSOT: [source-lattice § statecraft corpus tiers](../../docs/source-lattice-beyond-the-repo.md#statecraft-corpus-tiers-strategy-codex) · registry [§ placement](../../docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#source-lattice-placement).
 
 | Tier | Scope |
 |------|--------|
@@ -109,7 +109,7 @@ One portable skill; **two sweep grammars**. Shared: tier **3** vs tier **4** fen
 
 | Profile | Default when | Sweep model | SSOT |
 |---------|--------------|-------------|------|
-| **Statecraft** (default) | `source-archive/statecraft/`, verification matrices, daily briefs, combatant seams | **CIV-STATE** five lanes — cite or **`-absent`** each | [CIV-STATE registry](../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md) |
+| **Statecraft** (default) | `source-archive/statecraft/`, verification matrices, daily briefs, combatant seams | **CIV-STATE** five lanes — cite or **`-absent`** each | [CIV-STATE registry](../../docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md) |
 | **Singularity** (stub v0.1) | `source-archive/singularity/`, workshop sheets, RSI / markets / vendor seams | **MR-VOL** — cite or **`-absent`** only for **hook-touched** surfaces | [§ Singularity sweep profile (stub)](#singularity-sweep-profile-stub) |
 
 **Operator shorthand:** `news verify` or `news verify — statecraft` = CIV-STATE default; **`news verify — singularity`** = singularity profile. Infer from path when unqualified.
@@ -190,19 +190,19 @@ Scan for:
 
 **Do not** close news-verify on **English-only Western wires** alone when hooks are **regime- or institution-attributed**.
 
-**Source registry (SSOT):** [NEWS-VERIFY-CIV-STATE-SOURCES.md](../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md) — **corpus tier 3** per-lane outlet tables (**3a/3b/3c**; legacy T1/T2/T3), URLs, native-lang law, and verify tokens. **Do not** maintain parallel outlet lists in chat; extend the registry when a lane gains a new stable **3a**.
+**Source registry (SSOT):** [NEWS-VERIFY-CIV-STATE-SOURCES.md](../../docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md) — **corpus tier 3** per-lane outlet tables (**3a/3b/3c**; legacy T1/T2/T3), URLs, native-lang law, and verify tokens. **Do not** maintain parallel outlet lists in chat; extend the registry when a lane gains a new stable **3a**.
 
 **Fixed lanes — search all five on every `news verify` pass using the statecraft profile** (same story window as the hooks; **no topic triggers**):
 
 | Lane | Repo surface | Registry | If lane silent in window |
 |------|--------------|----------|---------------------------|
-| **America** | `statecraft/america/` | [§ America](../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#america-lane) | `verify:america-lane-absent` |
-| **Persia** | `statecraft/persia/` | [§ Persia](../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#persia-lane) | `verify:persia-lane-absent` |
-| **China (PRC)** | `statecraft/china/` | [§ China](../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#china-lane-prc) | `verify:prc-lane-absent` |
-| **Russia** | `statecraft/russia/` | [§ Russia](../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#russia-lane) | `verify:russia-lane-absent` |
-| **Rome (Holy See)** | `work-strategy-rome/` | [§ Rome](../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#rome-lane-civ-state) | `verify:rome-lane-absent` |
+| **America** | `statecraft/america/` | [§ America](../../docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#america-lane) | `verify:america-lane-absent` |
+| **Persia** | `statecraft/persia/` | [§ Persia](../../docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#persia-lane) | `verify:persia-lane-absent` |
+| **China (PRC)** | `statecraft/china/` | [§ China](../../docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#china-lane-prc) | `verify:prc-lane-absent` |
+| **Russia** | `statecraft/russia/` | [§ Russia](../../docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#russia-lane) | `verify:russia-lane-absent` |
+| **Rome (Holy See)** | `work-strategy-rome/` | [§ Rome](../../docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#rome-lane-civ-state) | `verify:rome-lane-absent` |
 
-**Daily-brief companions** (48h scan — not duplicate registries): [jd-vance-watch](../../docs/skill-work/work-strategy/daily-brief-jd-vance-watch.md) · [iran-watch](../../docs/skill-work/work-strategy/daily-brief-iran-watch.md) · [prc-watch](../../docs/skill-work/work-strategy/daily-brief-prc-watch.md) · [putin-watch](../../docs/skill-work/work-strategy/daily-brief-putin-watch.md) · [native-international-pass](../../docs/skill-work/work-strategy/daily-brief-native-international-pass.md).
+**Daily-brief companions** (48h scan — not duplicate registries): [jd-vance-watch](../../docs/archive/skill-work-legacy/work-strategy/daily-brief-jd-vance-watch.md) · [iran-watch](../../docs/archive/skill-work-legacy/work-strategy/daily-brief-iran-watch.md) · [prc-watch](../../docs/archive/skill-work-legacy/work-strategy/daily-brief-prc-watch.md) · [putin-watch](../../docs/archive/skill-work-legacy/work-strategy/daily-brief-putin-watch.md) · [native-international-pass](../../docs/archive/skill-work-legacy/work-strategy/daily-brief-native-international-pass.md).
 
 **Sweep law:**
 
@@ -211,7 +211,7 @@ Scan for:
 - **Mesh:** non-combatant lanes (**PRC**, **Rome**) inform **framing** when combatant lanes contest; they **do not** override America/Persia attribution.
 - **Lanes disagree** → **`Contested`** or **`Unclear`** — never flatten to one wire.
 - **Commentator transcript** = **interpretation** unless paired to lane primaries.
-- **Adjacent** (Israel, Oman): [registry § Adjacent](../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#adjacent-israel) — **outside** the five-lane sweep; add only when the hook names IDF/Oman/mediation.
+- **Adjacent** (Israel, Oman): [registry § Adjacent](../../docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#adjacent-israel) — **outside** the five-lane sweep; add only when the hook names IDF/Oman/mediation.
 
 Extended outlet names may appear in `research/repos/civilization_memory/.../IRAN–WAR–CHRONICLE.md`; the **registry** is the operator news-verify SSOT.
 
@@ -268,7 +268,7 @@ Search **only lanes the hook touches**. Do **not** run CIV-STATE Persia/PRC/Rome
 
 **Chat header:** `Profile: singularity · MR-VOL sweep: n/n (hook-scoped)` — not `CIV-STATE 5/5`.
 
-**Registry (planned):** `docs/skill-work/work-singularity/WIRE-VERIFY-SINGULARITY-SOURCES.md` — ad hoc cites until EXECUTE.
+**Registry (planned):** `docs/archive/skill-work-legacy/work-singularity/WIRE-VERIFY-SINGULARITY-SOURCES.md` — ad hoc cites until EXECUTE.
 
 ## Attribution duel subroutine
 
@@ -374,9 +374,9 @@ Sub-hook passes may use a **short** lane table (combatant rows + mesh lanes) but
 ## Related
 
 - **[source-lattice-beyond-the-repo.md](../../docs/source-lattice-beyond-the-repo.md#statecraft-corpus-tiers-strategy-codex)** — corpus tiers **1–4** (news-verify = tier **3** only).
-- **[NEWS-VERIFY-CIV-STATE-SOURCES.md](../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md)** — statecraft profile SSOT (America, Persia, China, Russia, Rome; **3a–3c**).
+- **[NEWS-VERIFY-CIV-STATE-SOURCES.md](../../docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md)** — statecraft profile SSOT (America, Persia, China, Russia, Rome; **3a–3c**).
 - **[source-archive/singularity/README.md](../../source-archive/singularity/README.md#intake-triad-operator-protocol)** — intake triad; singularity verify before promote.
-- **`WIRE-VERIFY-SINGULARITY-SOURCES.md`** — *planned* MR-VOL registry under `docs/skill-work/work-singularity/` (stub cites ad hoc until landed).
+- **`WIRE-VERIFY-SINGULARITY-SOURCES.md`** — *planned* MR-VOL registry under `docs/archive/skill-work-legacy/work-singularity/` (stub cites ad hoc until landed).
 - **fact-check** (host skill) — general triage; native-primary discipline; **`fact check deep`** escalation.
 - Host appendix — repo paths for inbox tokens, statecraft `source_note`, `strategy + verify` gate (Cursor install only).
 
@@ -387,23 +387,23 @@ Sub-hook passes may use a **short** lane table (combatant rows + mesh lanes) but
 | Topic | Path |
 |-------|------|
 | **Corpus tiers 1–4** (news-verify = tier **3** only) | [docs/source-lattice-beyond-the-repo.md § statecraft corpus tiers](../../docs/source-lattice-beyond-the-repo.md#statecraft-corpus-tiers-strategy-codex) |
-| **CIV-STATE wire source registry (SSOT)** | [docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md](../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md) — sub-tiers **3a/3b/3c** |
+| **CIV-STATE wire source registry (SSOT)** | [docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md](../../docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md) — sub-tiers **3a/3b/3c** |
 | Portable core | [skills/news-verify/SKILL.md](SKILL.md) |
 | General fact triage | [.cursor/skills/fact-check/SKILL.md](../../.cursor/skills/fact-check/SKILL.md) |
-| Strategy + verify gate | [DEFAULT-PATH.md](../../docs/skill-work/work-strategy/DEFAULT-PATH.md) + [news-verify/SKILL.md](../news-verify/SKILL.md) |
+| Strategy + verify gate | [DEFAULT-PATH.md](../../docs/archive/skill-work-legacy/work-strategy/DEFAULT-PATH.md) + [news-verify/SKILL.md](../news-verify/SKILL.md) |
 | Statecraft intake | [.cursor/skills/statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
-| Daily brief verify tokens | [docs/skill-work/work-strategy/daily-brief-template.md](../../docs/skill-work/work-strategy/daily-brief-template.md) § Inbox paste target |
-| Strategy inbox | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../continuity/daily-strategy-inbox.md) |
-| Notebook verify discipline | [docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-PREFERENCES.md](../../continuity/NOTEBOOK-PREFERENCES.md) |
+| Daily brief verify tokens | [docs/archive/skill-work-legacy/work-strategy/daily-brief-template.md](../../docs/archive/skill-work-legacy/work-strategy/daily-brief-template.md) § Inbox paste target |
+| Strategy inbox | [continuity/daily-strategy-inbox.md](../../continuity/daily-strategy-inbox.md) |
+| Notebook verify discipline | [continuity/NOTEBOOK-PREFERENCES.md](../../continuity/NOTEBOOK-PREFERENCES.md) |
 | Statecraft archive | [source-archive/statecraft/](../../statecraft) |
-| Iran native triangulation | [docs/skill-work/work-strategy/daily-brief-iran-watch.md](../../docs/skill-work/work-strategy/daily-brief-iran-watch.md) |
-| Native-language pass (all jurisdictions) | [docs/skill-work/work-strategy/daily-brief-native-international-pass.md](../../docs/skill-work/work-strategy/daily-brief-native-international-pass.md) |
+| Iran native triangulation | [docs/archive/skill-work-legacy/work-strategy/daily-brief-iran-watch.md](../../docs/archive/skill-work-legacy/work-strategy/daily-brief-iran-watch.md) |
+| Native-language pass (all jurisdictions) | [docs/archive/skill-work-legacy/work-strategy/daily-brief-native-international-pass.md](../../docs/archive/skill-work-legacy/work-strategy/daily-brief-native-international-pass.md) |
 | Persia statecraft lane | [statecraft/persia/README.md](../../statecraft/persia/README.md) |
-| Rome / Holy See (CIV-STATE) | [NEWS-VERIFY-CIV-STATE-SOURCES.md § Rome](../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#rome-lane-civ-state) · [ROME-PASS.md](../../docs/skill-work/work-strategy/work-strategy-rome/ROME-PASS.md) |
+| Rome / Holy See (CIV-STATE) | [NEWS-VERIFY-CIV-STATE-SOURCES.md § Rome](../../docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#rome-lane-civ-state) · [ROME-PASS.md](../../docs/archive/skill-work-legacy/work-strategy/work-strategy-rome/ROME-PASS.md) |
 | America statecraft lane | [statecraft/america/README.md](../../statecraft/america/README.md) |
 | China (PRC) statecraft lane | [statecraft/china/README.md](../../statecraft/china/README.md) |
-| PRC 48h watch (neutral Iran-war triangulation) | [docs/skill-work/work-strategy/daily-brief-prc-watch.md](../../docs/skill-work/work-strategy/daily-brief-prc-watch.md) |
-| U.S. executive / VP watch | [docs/skill-work/work-strategy/daily-brief-jd-vance-watch.md](../../docs/skill-work/work-strategy/daily-brief-jd-vance-watch.md) |
+| PRC 48h watch (neutral Iran-war triangulation) | [docs/archive/skill-work-legacy/work-strategy/daily-brief-prc-watch.md](../../docs/archive/skill-work-legacy/work-strategy/daily-brief-prc-watch.md) |
+| U.S. executive / VP watch | [docs/archive/skill-work-legacy/work-strategy/daily-brief-jd-vance-watch.md](../../docs/archive/skill-work-legacy/work-strategy/daily-brief-jd-vance-watch.md) |
 | Iran war source hierarchy (research) | [research/repos/civilization_memory/content/civilizations/PERSIA/IRAN–WAR–CHRONICLE.md](../../research/repos/civilization_memory/content/civilizations/PERSIA/IRAN–WAR–CHRONICLE.md) |
 | Work menu conventions | [continuity/menu-conventions.md](../../continuity/menu-conventions.md) |
 
@@ -518,19 +518,19 @@ python3 scripts/validate_skills.py
 | Topic | Path |
 |-------|------|
 | **Corpus tiers 1–4** (news-verify = tier **3** only) | [docs/source-lattice-beyond-the-repo.md § statecraft corpus tiers](../../../docs/source-lattice-beyond-the-repo.md#statecraft-corpus-tiers-strategy-codex) |
-| **CIV-STATE news source registry (SSOT)** | [docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md](../../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md) — sub-tiers **3a/3b/3c** |
+| **CIV-STATE news source registry (SSOT)** | [docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md](../../../docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md) — sub-tiers **3a/3b/3c** |
 | Portable core | [skills/news-verify/SKILL.md](../../../skills/news-verify/SKILL.md) |
 | Legacy alias | [skills/wire-verify/SKILL.md](../../../skills/wire-verify/SKILL.md) |
 | General fact triage | [.cursor/skills/fact-check/SKILL.md](../fact-check/SKILL.md) |
-| Strategy + verify gate | [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) + [news-verify/SKILL.md](../news-verify/SKILL.md) |
+| Strategy + verify gate | [DEFAULT-PATH.md](../../../docs/archive/skill-work-legacy/work-strategy/DEFAULT-PATH.md) + [news-verify/SKILL.md](../news-verify/SKILL.md) |
 | Statecraft intake | [.cursor/skills/statecraft-source-intake/SKILL.md](../statecraft-source-intake/SKILL.md) |
-| Daily brief verify tokens | [docs/skill-work/work-strategy/daily-brief-template.md](../../../docs/skill-work/work-strategy/daily-brief-template.md) § Inbox paste target |
-| Strategy inbox | [docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md) |
-| Notebook verify discipline | [docs/skill-work/work-strategy/strategy-notebook/NOTEBOOK-PREFERENCES.md](../../../continuity/NOTEBOOK-PREFERENCES.md) |
+| Daily brief verify tokens | [docs/archive/skill-work-legacy/work-strategy/daily-brief-template.md](../../../docs/archive/skill-work-legacy/work-strategy/daily-brief-template.md) § Inbox paste target |
+| Strategy inbox | [continuity/daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md) |
+| Notebook verify discipline | [continuity/NOTEBOOK-PREFERENCES.md](../../../continuity/NOTEBOOK-PREFERENCES.md) |
 | Statecraft archive | [source-archive/statecraft/](../../../source-archive/statecraft/) |
-| Iran native triangulation | [docs/skill-work/work-strategy/daily-brief-iran-watch.md](../../../docs/skill-work/work-strategy/daily-brief-iran-watch.md) |
-| Native-language pass (all jurisdictions) | [docs/skill-work/work-strategy/daily-brief-native-international-pass.md](../../../docs/skill-work/work-strategy/daily-brief-native-international-pass.md) |
+| Iran native triangulation | [docs/archive/skill-work-legacy/work-strategy/daily-brief-iran-watch.md](../../../docs/archive/skill-work-legacy/work-strategy/daily-brief-iran-watch.md) |
+| Native-language pass (all jurisdictions) | [docs/archive/skill-work-legacy/work-strategy/daily-brief-native-international-pass.md](../../../docs/archive/skill-work-legacy/work-strategy/daily-brief-native-international-pass.md) |
 | Persia statecraft lane | [statecraft/persia/README.md](../../../statecraft/persia/README.md) |
-| Rome / Holy See (CIV-STATE) | [NEWS-VERIFY-CIV-STATE-SOURCES.md § Rome](../../../docs/skill-work/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#rome-lane-civ-state) · [ROME-PASS.md](../../../docs/skill-work/work-strategy/work-strategy-rome/ROME-PASS.md) |
+| Rome / Holy See (CIV-STATE) | [NEWS-VERIFY-CIV-STATE-SOURCES.md § Rome](../../../docs/archive/skill-work-legacy/work-strategy/NEWS-VERIFY-CIV-STATE-SOURCES.md#rome-lane-civ-state) · [ROME-PASS.md](../../../docs/archive/skill-work-legacy/work-strategy/work-strategy-rome/ROME-PASS.md) |
 | America statecraft lane | [statecraft/america/README.md](../../../statecraft/america/README.md) |
 | China (PRC) statecraft lane | [statecraft/china/README.md](../../../statecraft/china/README.md) |

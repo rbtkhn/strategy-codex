@@ -52,7 +52,7 @@ Stall recovery and validator-first detail: [`.cursor/rules/agent-execution-hygie
 When a fork touches the **Record** or **gate**, include at least one **explicit anchor** per option where helpful:
 
 - `` `recursion-gate.md` `` and **`CANDIDATE-XXXX`** when relevant
-- Repo-relative paths: `` `docs/skill-work/...` ``, `` `scripts/....py` ``
+- Repo-relative paths: `` `docs/archive/skill-work-legacy/...` ``, `` `scripts/....py` ``
 - Links to GitHub are fine for **read-only** context; **canonical edits** stay in this repo
 
 This turns selection into **grounded** handoff without bypassing **RECURSION-GATE**.
@@ -109,7 +109,7 @@ python3 scripts/log_operator_choice.py -u grace-mar --context WORK --picked A --
 
 Appends `### [WORK-choice]` blocks to **`session-transcript.md`** (operator continuity, not gated Record).
 
-**`coffee` session trail:** Sessions started with **`coffee`** (work-start vs signing-off Step 1; optional light, minimal, survey; legacy **`hey`** still works) can leave traces in **`session-transcript.md`** (raw lines and **`[WORK-choice]`** via `log_operator_choice.py`) and/or dated bullets under **`docs/skill-work/work-*/*-history.md`** (per-lane milestones â€” [work-modules-history-principle.md](work-modules-history-principle.md)). Distinct from **`memory.md`** (companion continuity). See [canonical paths](../canonical-paths.md).
+**`coffee` session trail:** Sessions started with **`coffee`** (work-start vs signing-off Step 1; optional light, minimal, survey; legacy **`hey`** still works) can leave traces in **`session-transcript.md`** (raw lines and **`[WORK-choice]`** via `log_operator_choice.py`) and/or dated bullets under **`docs/archive/skill-work-legacy/work-*/*-history.md`** (per-lane milestones â€” [work-modules-history-principle.md](work-modules-history-principle.md)). Distinct from **`memory.md`** (companion continuity). See [canonical paths](../canonical-paths.md).
 
 **Aggregate after ~30 days:**
 
@@ -211,6 +211,6 @@ Dated WORK outputs (daily brief, weekly scaffold, newsletter digest, optional `m
 - **Fixed session menu (`coffee` - same **A-D** hub for work-start and signing-off; legacy **hey** still works):** not the 3-5 WORK pattern - canonical hub: **A** Steward, **B** Engineer, **C** Statecraft, **D** Singularity. Coffee **C** then routes into the four civilizational-state lanes America, China, Persia, and Russia. Conductor is standalone by `conductor` / master name, not a hub letter. **C** exits the coffee hub by default unless **`stay in coffee`**; **skills** / **meta:** say with **B - Engineer**. Legacy **A-G** workload table for mapping: [menu-reference.md](continuity/coffee/menu-reference.md)). Roles: [.cursor/skills/coffee/SKILL.md](../../.cursor/skills/coffee/SKILL.md).
 - [Operatorâ€“agent lanes](../operator-agent-lanes.md)
 - [Coffee skill](../../.cursor/skills/coffee/SKILL.md)
-- [Work territory history logs](work-modules-history-principle.md) (`docs/skill-work/work-*/*-history.md`)
+- [Work territory history logs](work-modules-history-principle.md) (`docs/archive/skill-work-legacy/work-*/*-history.md`)
 - [Bootstrap â€” coffee](../../archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md)
 - [Date and time formats](../date-time-conventions.md)

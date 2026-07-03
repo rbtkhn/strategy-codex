@@ -13,7 +13,7 @@ Operator context (optional): before a long indexing or review session, you may r
 ``python scripts/compress_active_lane.py --lane work-<id>`` to emit a small
 ``runtime/artifacts/context/active-lane-*.md`` summary with recovery paths — that file is
 not indexed as Record; it is a Context Efficiency Layer aid (see
-``docs/skill-work/active-lane-compression.md``).
+``docs/archive/skill-work-legacy/active-lane-compression.md``).
 """
 
 import os

@@ -6,7 +6,7 @@
 **Purpose:** The single canonical, agent-readable design system for all Grace-Mar interfaces, creative outputs, and generated UIs.
 
 **Status:** Operator / creative-pipeline draft. **Not** SELF or Voice canon until merged through [recursion-gate.md](recursion-gate.md) per [AGENTS.md](../../AGENTS.md).  
-**Pipeline:** [creative-pipeline.md](../../docs/skill-work/work-dev/creative-pipeline.md)  
+**Pipeline:** [creative-pipeline.md](../../docs/archive/skill-work-legacy/work-dev/creative-pipeline.md)  
 **Revision:** v1.4 (2026-03-27) — full Workspace Panel interactions; artifact paths aligned with [canonical EVIDENCE](../../docs/canonical-paths.md).
 
 ---

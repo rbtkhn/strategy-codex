@@ -173,4 +173,4 @@ Parent daily (when written): [State Synthesis - 2026-06-08](../synthesis/day/202
 Related:
 
 - [America helix](../america/helix.md) — empire deforms civilization when review thins
-- [Thomas Massie / jurisdiction history skill context](../../docs/skill-work/work-politics) — optional politics-lane handoff if operator wants KY-4 floor-speech follow-up (not expanded here)
+- [Thomas Massie / jurisdiction history skill context](../../docs/archive/skill-work-legacy/work-politics) — optional politics-lane handoff if operator wants KY-4 floor-speech follow-up (not expanded here)

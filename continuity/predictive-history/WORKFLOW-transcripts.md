@@ -185,7 +185,7 @@ Optional: `python3 scripts/work_jiang/ingest_analysis_json_to_staging.py` to dra
 Run any subset per video; order is flexible.
 
 1. **Internal consistency** â€” Do definitions stay stable? Do later claims depend on earlier ones?  
-2. **CIV-MEM lattice** â€” Follow [CIV-MEM-LENS.md](CIV-MEM-LENS.md): **conditions**, **institutions**, **seams**, **continuity/memory**, **time structure**, **decline/stress**, then **multi-perspective**. [work-civ-mem](../../docs/skill-work/work-civ-mem/README.md) / [`docs/civilization-memory/`](../../docs/civilization-memory/README.md) are **retrieval surfaces** for analogy and vocabulary â€” not automatic truth. For comparison passes, always consult civ-mem, then write a short bridge paragraph plus path refs in the memo or JSON sidecar. If relevance is weak, set confidence low and say so explicitly; do not force a match. Tag `{CMC: path}` if corpus text enters a shippable draft ([civ-mem-draft-protocol](../../docs/skill-work/work-politics/civ-mem-draft-protocol.md)).  
+2. **CIV-MEM lattice** â€” Follow [CIV-MEM-LENS.md](CIV-MEM-LENS.md): **conditions**, **institutions**, **seams**, **continuity/memory**, **time structure**, **decline/stress**, then **multi-perspective**. [work-civ-mem](../../docs/archive/skill-work-legacy/work-civ-mem/README.md) / [`docs/civilization-memory/`](../../docs/civilization-memory/README.md) are **retrieval surfaces** for analogy and vocabulary â€” not automatic truth. For comparison passes, always consult civ-mem, then write a short bridge paragraph plus path refs in the memo or JSON sidecar. If relevance is weak, set confidence low and say so explicitly; do not force a match. Tag `{CMC: path}` if corpus text enters a shippable draft ([civ-mem-draft-protocol](../../docs/archive/skill-work-legacy/work-politics/civ-mem-draft-protocol.md)).  
 3. **PSY-HIST lattice** â€” Follow [PSY-HIST-LENS.md](PSY-HIST-LENS.md): **macro variables**, **psychological inertia**, **cycle phase**, **Seldon crisis**, **predictability horizon**, **steering levers**, **validation protocol**. Dual-lens with CIV-MEM; see dual-lens workflow below.  
 4. **Current-events grounding (optional)** â€” One short paragraph: where abstract claims meet a concrete episode; flag **ship** vs **draft** if anything could become public copy.  
 5. **Book/site placement** â€” Outline hook: which chapter or site section this feeds; duplicates or contradictions vs other memos.
@@ -305,5 +305,5 @@ Before treating a memo as â€œdone for this sprintâ€:
 
 - [work-jiang README](README.md) â€” research tree  
 - [Predictive History channel README](../../README.md) â€” fetch details, gitignore behavior  
-- [work-civ-mem README](../../docs/skill-work/work-civ-mem/README.md) â€” lattice as external reference, not automatic Record  
+- [work-civ-mem README](../../docs/archive/skill-work-legacy/work-civ-mem/README.md) â€” lattice as external reference, not automatic Record  
 

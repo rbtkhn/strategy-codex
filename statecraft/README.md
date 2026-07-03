@@ -6,7 +6,7 @@ This is the front-door orientation module for repo-root `statecraft/`.
 
 `statecraft/` is the second of the repo's two primary operator **channels**. Use it when the unresolved question is no longer only what system is emerging, but what legitimacy-bearing, command-bearing, or settlement-bearing object now has to be judged. For the shared routing law, open [Two-Channel Operator Architecture](../docs/operator-two-channel-architecture.md).
 
-`statecraft/` is now the **canonical operator judgment surface** for live geopolitical, civilizational, legitimacy-bearing, and mechanism-bearing analytical work in this repo. The older `docs/skill-work/work-strategy/` surface remains on disk as a legacy compatibility namespace, but it is no longer the active public/operator-facing owner.
+`statecraft/` is now the **canonical operator judgment surface** for live geopolitical, civilizational, legitimacy-bearing, and mechanism-bearing analytical work in this repo. The older `docs/archive/skill-work-legacy/work-strategy/` surface remains on disk as a legacy compatibility namespace, but it is no longer the active public/operator-facing owner.
 
 In the current topology:
 
@@ -27,7 +27,7 @@ For the lane-specific membrane grammar, open [statecraft work membrane](work-mem
 
 Open [statecraft.md](statecraft.md) first when you need the full continuity surface. Open this README when the continuity frame is already live and you just need to enter the right lane or next working surface.
 
-For the migration-facing map from the old strategy surface, open [Legacy Successor Map](../docs/skill-work/work-strategy/LEGACY-SUCCESSOR-MAP.md).
+For the migration-facing map from the old strategy surface, open [Legacy Successor Map](../docs/archive/skill-work-legacy/work-strategy/LEGACY-SUCCESSOR-MAP.md).
 
 For the canonical source/synthesis stack, open [Statecraft Archive and Statecraft Synthesis](archive-synthesis-law.md).
 

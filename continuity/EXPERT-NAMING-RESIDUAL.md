@@ -38,7 +38,7 @@ This file tracks residuals under that doctrine. It is not a signal to rename par
 ```bash
 diff -u \
   research/repos/civilization_memory/docs/templates/CIV–MIND–MEARSHEIMER.md \
-  docs/skill-work/work-strategy/strategy-notebook/strategy-expert-mearsheimer-mind.md
+  docs/archive/skill-work-legacy/work-strategy/strategy-notebook/strategy-expert-mearsheimer-mind.md
 ```
 
 Use the **redirect** path when comparing bookmark stability: `minds/CIV-MIND-MEARSHEIMER.md` → same body as `strategy-expert-mearsheimer-mind.md`.
@@ -47,4 +47,4 @@ If the submodule directory is missing, skip or update the checkout per instance 
 
 ## Lens-fold verify token
 
-Inbox and transcripts use **`verify:lens-fold+<expert_id>`** (same id as **`thread:<expert_id>`**). Documented in [strategy-expert-template.md](strategy-expert-template.md) (journal layer, *Lens vs lane*) and [.cursor/skills/skill-strategy/SKILL.md](../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md).
+Inbox and transcripts use **`verify:lens-fold+<expert_id>`** (same id as **`thread:<expert_id>`**). Documented in [strategy-expert-template.md](strategy-expert-template.md) (journal layer, *Lens vs lane*) and [.cursor/skills/skill-strategy/SKILL.md](../docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md).

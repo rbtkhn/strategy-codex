@@ -5,7 +5,7 @@ non-authoritative. Exits 0 if all checks pass, 1 otherwise.
 
 Usage:
   python3 scripts/validate_strategy_decision_points.py
-  python3 scripts/validate_strategy_decision_points.py --root docs/skill-work/work-strategy/decision-points
+  python3 scripts/validate_strategy_decision_points.py --root docs/archive/skill-work-legacy/work-strategy/decision-points
 """
 
 from __future__ import annotations
@@ -47,7 +47,7 @@ def main() -> int:
     parser.add_argument(
         "--root",
         type=Path,
-        default=Path("docs/skill-work/work-strategy/decision-points"),
+        default=Path("docs/archive/skill-work-legacy/work-strategy/decision-points"),
         help="Directory containing decision point markdown files",
     )
     args = parser.parse_args()

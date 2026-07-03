@@ -71,7 +71,7 @@ The operator goal is not full awareness. It is enough orientation to avoid accid
 |---------|--------------|--------------------|
 | **Record** (`self*.md`, `self-archive.md`) | Canonical companion state after approval | A place for ad-hoc operator notes |
 | **Gate** (`recursion-gate.md`) | Pending proposed Record changes | Approval, rejection, or merge by itself |
-| **work docs** (`docs/skill-work/work-*`) | Operator planning, execution, strategy, lane doctrine | Companion identity truth |
+| **work docs** (`docs/archive/skill-work-legacy/work-*`) | Operator planning, execution, strategy, lane doctrine | Companion identity truth |
 | **Runtime / MEMORY** | Continuity, handoff, session weather | Durable Record authority |
 | **Artifacts** (`runtime/artifacts/`) | Rebuildable summaries, receipts, dashboards, derived views | Source of truth without source links |
 | **Old or broad docs** | Background and lineage | Mandatory reading before every session |

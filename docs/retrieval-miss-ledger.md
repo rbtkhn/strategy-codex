@@ -103,8 +103,8 @@ python scripts/runtime/summarize_retrieval_misses.py --json
   "failure_class": "aggregation_failure",
   "notes": "Barnes entries in strategy-notebook scattered across 3 days; lane_search returned individual hits but no combined view",
   "related_paths": [
-    "docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/",
-    "docs/skill-work/work-strategy/strategy-notebook/minds/CIV-MIND-BARNES.md"
+    "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/chapters/2026-04/",
+    "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/minds/CIV-MIND-BARNES.md"
   ],
   "lane_or_context": "work-strategy",
   "recorded_by": "operator"

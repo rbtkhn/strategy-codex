@@ -52,7 +52,7 @@ Use this classification before writing anything:
 | Surface | Destination | Rule |
 |---------|-------------|------|
 | Record | `recursion-gate.md` | Only for explicit SELF, EVIDENCE, prompt, or Voice truth candidates. |
-| WORK | `docs/skill-work/`, work-dev notes, or skill-candidate pointer | Cadence, scripts, strategy, and workflow method stay out of the Record gate. |
+| WORK | `docs/archive/skill-work-legacy/`, work-dev notes, or skill-candidate pointer | Cadence, scripts, strategy, and workflow method stay out of the Record gate. |
 | Runtime / derived | Artifacts, dashboards, manifests, receipts, or rebuild docs | Treat as rebuildable observability, not Record truth. |
 | Portable skill | `skills/skill-candidates.md`, `_drafts/`, then listed skill after approval | Use the skill discovery ladder; do not jump to manifest without operator approval. |
 

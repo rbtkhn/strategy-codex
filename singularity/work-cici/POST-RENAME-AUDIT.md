@@ -14,7 +14,7 @@ Active top-level hub and lane entrypoints describe **Cici** as the current lane 
 
 | File | Result |
 |------|--------|
-| [docs/skill-work/README.md](../README.md) | **Pass** â€” work-cici row: â€œCici, formerly Xavierâ€; not Ciciâ€™s Record repo. |
+| [docs/archive/skill-work-legacy/README.md](../README.md) | **Pass** â€” work-cici row: â€œCici, formerly Xavierâ€; not Ciciâ€™s Record repo. |
 | [README.md](README.md) | **Pass** â€” Purpose, Rename note, Naming, legacy table, Cici-first body. |
 | [INDEX.md](INDEX.md) | **Pass** (after audit) â€” README row Cici-first; two table cells updated (SYNC-DAILY, rubric); row for [POST-RENAME-AUDIT.md](POST-RENAME-AUDIT.md) added. |
 | [LANES.md](LANES.md) | **Pass** (after audit) â€” H1 and lead now Cici; template Record path `xavier/` called out as instance template, not lane name. |
@@ -78,12 +78,12 @@ Ongoing â€œXavierâ€ uses that are **intentional** (not drift): GitHub `
 ## Validation (recorded 2026-04-24)
 
 ```bash
-grep -R "Advisor/project module for Xavier" -n docs/skill-work/README.md docs/skill-work/work-cici/README.md docs/skill-work/work-cici/INDEX.md docs/skill-work/work-cici/LANES.md 2>/dev/null || true
-grep -R "Not Xavier" -n docs/skill-work/README.md docs/skill-work/work-cici/README.md docs/skill-work/work-cici/INDEX.md docs/skill-work/work-cici/LANES.md 2>/dev/null || true
+grep -R "Advisor/project module for Xavier" -n docs/archive/skill-work-legacy/README.md singularity/work-cici/README.md singularity/work-cici/INDEX.md singularity/work-cici/LANES.md 2>/dev/null || true
+grep -R "Not Xavier" -n docs/archive/skill-work-legacy/README.md singularity/work-cici/README.md singularity/work-cici/INDEX.md singularity/work-cici/LANES.md 2>/dev/null || true
 # (no matches expected for those four files)
-grep -R "" -n docs/skill-work/work-cici 2>/dev/null | head -20
-find docs/skill-work/work-cici -maxdepth 1 -type f | sort
-test -d docs/skill-work/work-cici
+grep -R "" -n docs/archive/skill-work-legacy/work-cici 2>/dev/null | head -20
+find docs/archive/skill-work-legacy/work-cici -maxdepth 1 -type f | sort
+test -d docs/archive/skill-work-legacy/work-cici
 ```
 
 `` matches are **expected** on leakage / boundary lines (forbid copying into instance trees).

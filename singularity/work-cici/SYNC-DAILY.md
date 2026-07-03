@@ -19,9 +19,9 @@ Date: **2026-04-30**
 - status: `stale - forced scan required`
 - score (impact + urgency + cici-readiness): `pending`
 - proposed updates (max 5):
-  - forced scan: `docs/skill-work/work-dev/workspace.md`
-  - forced scan: `docs/skill-work/work-dev/known-gaps.md`
-  - forced scan: `docs/skill-work/work-dev/integration-status.md`
+  - forced scan: `docs/archive/skill-work-legacy/work-dev/workspace.md`
+  - forced scan: `docs/archive/skill-work-legacy/work-dev/known-gaps.md`
+  - forced scan: `docs/archive/skill-work-legacy/work-dev/integration-status.md`
   - forced scan: changed warmup scripts if Cici-facing handback or beginner-safe guidance changed
 - action today:
   - Add a dated 2026-04-30 [work-dev-mirror/SYNC-LOG.md](work-dev-mirror/SYNC-LOG.md) row after the scan; mirror only Cici-readable deltas, not deep CI churn.
@@ -30,9 +30,9 @@ Date: **2026-04-30**
 - status: `stale - forced scan required`
 - score (impact + urgency + cici-readiness): `pending`
 - proposed updates (max 5):
-  - forced scan: `docs/skill-work/work-politics/workspace.md`
-  - forced scan: `docs/skill-work/work-politics/polling-and-markets.md`
-  - forced scan: `docs/skill-work/work-politics/brief-source-registry.md`
+  - forced scan: `docs/archive/skill-work-legacy/work-politics/workspace.md`
+  - forced scan: `docs/archive/skill-work-legacy/work-politics/polling-and-markets.md`
+  - forced scan: `docs/archive/skill-work-legacy/work-politics/brief-source-registry.md`
   - defer campaign-only deltas unless Cici is actively on KY-4 brief cadence
 - action today:
   - Add a dated 2026-04-30 [work-politics-mirror/SYNC-LOG.md](work-politics-mirror/SYNC-LOG.md) row after the scan; mirror only material she can actually use.

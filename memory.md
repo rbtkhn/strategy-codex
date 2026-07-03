@@ -24,7 +24,7 @@ Analytical register; structural-first, compression-oriented responses.
 ## Medium-term
 
 - Check `continuity/STATUS.md` and `continuity/daily-strategy-inbox.md` on strategy passes.
-- Dev journal: `docs/skill-work/work-dev/dev-notebook/work-dev/journal/`.
+- Dev journal: `docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/`.
 
 ## Long-term
 

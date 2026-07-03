@@ -87,12 +87,12 @@ TARGET_REWRITES: dict[str, str] = {
     "statecraft.md": "statecraft/README.md",
     "approval-workflow.md": "docs/externals/massie/smm-training/approval-workflow.md",
     "templates.md": "docs/externals/massie/smm-training/templates.md",
-    "massie-ky4.md": "docs/skill-work/work-politics/clients/massie-ky4.md",
-    "wap-candidate-template.md": "docs/skill-work/work-politics/pol-candidate-template.md",
+    "massie-ky4.md": "docs/archive/skill-work-legacy/work-politics/clients/massie-ky4.md",
+    "wap-candidate-template.md": "docs/archive/skill-work-legacy/work-politics/pol-candidate-template.md",
     "self-moonshots.md": "archive/grace-mar-instance/self-moonshots.md",
     "runtime-worker.md": "docs/runtime-worker.md",
     "recursive-self-learning-objectives.md": (
-        "docs/skill-work/skill-work-human-teacher/README.md"
+        "docs/archive/skill-work-legacy/skill-work-human-teacher/README.md"
     ),
     "jiang-predictive-history-index.md": (
         "source-archive/statecraft/jiang-predictive-history-index.md"
@@ -104,7 +104,7 @@ TARGET_REWRITES: dict[str, str] = {
     "arc-ritter-continuity.md": "statecraft/voices/ritter/ritter-arc.md",
     "openclaw-integration.md": "docs/openclaw-integration.md",
     "polyphonic-cognition-protocol-skill.md": (
-        "docs/skill-work/work-politics/polyphonic-cognition-protocol-skill.md"
+        "docs/archive/skill-work-legacy/work-politics/polyphonic-cognition-protocol-skill.md"
     ),
     "self-archive.md": "archive/grace-mar-instance/self-archive.md",
     "self-evidence.md": "archive/grace-mar-instance/self-evidence.md",
@@ -139,13 +139,13 @@ TARGET_REWRITES: dict[str, str] = {
     ),
     "statecraft/states/theory/form.md": "public/civ-state/theory/memory.md",
     "integration-apis.md": "docs/architecture.md",
-    "skill-work.md": "docs/skill-work/README.md",
+    "skill-work.md": "docs/archive/skill-work-legacy/README.md",
     "conceptual-frameoork.md": "docs/conceptual-framework.md",
     "boundary-self-knooledge-self-library.md": "docs/archive/boundary-self-knowledge-self-library.md",
     "COMPANION-SELF-museum library shelf-ALIGNMENT.md": (
-        "docs/skill-work/work-companion-self/TEMPLATE-BASELINE.md"
+        "docs/archive/skill-work-legacy/work-companion-self/TEMPLATE-BASELINE.md"
     ),
-    "platform/template/work-business.md": "docs/skill-work/work-business/README.md",
+    "platform/template/work-business.md": "docs/archive/skill-work-legacy/work-business/README.md",
     "ingestion-and-sources.md": "docs/architecture.md",
     "project-6week-coding.md": "docs/contributing.md",
     "cursor-pack-from-seed.md": "platform/template/README.md",
@@ -159,8 +159,8 @@ TARGET_REWRITES: dict[str, str] = {
     "speaker-credibility-accuracy-bridge.md": "statecraft/notes/speaker-audit-workflow.md",
     "speaker-credibility-matrix.md": "statecraft/notes/speaker-audit-workflow.md",
     "strategy-expert-template.md": "statecraft/voices/voice-profile-template.md",
-    "continuity-log.jsonl": "docs/skill-work/work-dev/persistence-and-memory-surfaces.md",
-    "sandbox-adapter.md": "docs/skill-work/work-dev/managed-agent-design.md",
+    "continuity-log.jsonl": "docs/archive/skill-work-legacy/work-dev/persistence-and-memory-surfaces.md",
+    "sandbox-adapter.md": "docs/archive/skill-work-legacy/work-dev/managed-agent-design.md",
     "analysis-grace-mar-self-evidence.md": "docs/archive/analysis-grace-mar-self-evidence.md",
     "ANALYSIS-GRACE-MAR-museum knowledge.md": "archive/grace-mar-instance/self-knowledge.md",
     "deveeopment-handoff.md": "docs/development-handoff.md",
@@ -178,7 +178,7 @@ TARGET_REWRITES: dict[str, str] = {
         "statecraft/bridges/anchored-historical-citation-policy.md"
     ),
     "sid-desk-competitive-comparison.md": (
-        "docs/skill-work/work-business/sid-desk-offer-spine.md"
+        "docs/archive/skill-work-legacy/work-business/sid-desk-offer-spine.md"
     ),
     "arc-marandi-continuity.md": "statecraft/voices/marandi/marandi-arc.md",
     "arc-parsi-continuity.md": "statecraft/voices/parsi/parsi-arc.md",
@@ -336,14 +336,14 @@ def resolve_legacy_path(path_part: str) -> Path | None:
         if candidate.is_file():
             return candidate
 
-    if norm.startswith("docs/skill-work/work-cici/"):
-        tail = norm.removeprefix("docs/skill-work/work-cici/")
+    if norm.startswith("singularity/work-cici/"):
+        tail = norm.removeprefix("singularity/work-cici/")
         candidate = REPO_ROOT / "singularity" / "work-cici" / tail
         if candidate.is_file():
             return candidate
 
     if "skill-strategy/SKILL.md" in norm.replace("\\", "/"):
-        candidate = REPO_ROOT / "docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md"
+        candidate = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md"
         if candidate.is_file():
             return candidate
 
@@ -354,13 +354,13 @@ def resolve_legacy_path(path_part: str) -> Path | None:
 
     if "strategy-notebook/" in norm:
         rewritten = norm.replace(
-            "docs/skill-work/work-strategy/strategy-notebook/",
+            "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/",
             "continuity/",
         ).replace("strategy-notebook/", "continuity/")
         candidate = REPO_ROOT / rewritten
         if candidate.is_file():
             return candidate
-        dep = REPO_ROOT / "docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md"
+        dep = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md"
         if dep.is_file() and "raw-input" in norm:
             return dep
 
@@ -532,7 +532,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/work-strategy/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-strategy/"):
         replacements.extend(
             [
                 ("strategy-notebook/NOTEBOOK-PREFERENCES.md", "../../continuity/NOTEBOOK-PREFERENCES.md"),
@@ -541,7 +541,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ("../../continuity/chapters/2026-04/", "../../../continuity/chapters/2026/2026-04/"),
                 (
                     "../../.cursor/skills/skill-strategy/SKILL.md",
-                    "../../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md",
+                    "../../../docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md",
                 ),
                 (
                     "../../../.cursor/skills/skill-strategy/SKILL.md",
@@ -569,7 +569,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/work-strategy/minds/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-strategy/minds/"):
         replacements.append(
             (
                 "../strategy-notebook/",
@@ -718,15 +718,15 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
     if rel.startswith("statecraft/voices/jiang/"):
         replacements.append(("ph-civ/", "../../../public/predictive-history/"))
 
-    if rel.startswith("docs/skill-work/work-business/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-business/"):
         replacements.append(("../work-cici/", "../../singularity/work-cici/"))
         replacements.append(("../../work-cici/", "../../../singularity/work-cici/"))
 
-    if rel.startswith("docs/skill-work/"):
+    if rel.startswith("docs/archive/skill-work-legacy/"):
         replacements.append(
             (
                 "../../.cursor/skills/tri-mind/SKILL.md",
-                "../../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md",
+                "../../../docs/archive/skill-work-legacy/work-strategy/TRI-MIND-DEPRECATED.md",
             )
         )
         replacements.append(
@@ -741,28 +741,28 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             [
                 ("../runbooks/", "../../skills/runbooks/"),
                 (
-                    "../../../docs/skill-work/work-strategy/strategy-notebook/raw-input/",
-                    "../../../../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md",
+                    "../../../docs/archive/skill-work-legacy/work-strategy/strategy-notebook/raw-input/",
+                    "../../../../docs/archive/skill-work-legacy/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md",
                 ),
                 (
-                    "../../../docs/skill-work/work-strategy/strategy-notebook/",
+                    "../../../docs/archive/skill-work-legacy/work-strategy/strategy-notebook/",
                     "../../../../continuity/",
                 ),
                 (
-                    "../../../docs/skill-work/work-cici/archive/",
+                    "../../../singularity/work-cici/archive/",
                     "../../../../singularity/work-cici/",
                 ),
                 (
-                    "../../../docs/skill-work/work-cici/",
+                    "../../../singularity/work-cici/",
                     "../../../../singularity/work-cici/",
                 ),
                 (
                     "../../.cursor/skills/skill-strategy/SKILL.md",
-                    "../../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md",
+                    "../../../docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md",
                 ),
                 (
                     "../../../.cursor/skills/skill-strategy/SKILL.md",
-                    "../../../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md",
+                    "../../../../docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md",
                 ),
                 ("../../.cursor/rules/", "../../../.cursor/rules/"),
                 ("../../.codex-tmp/", "../../../.codex-tmp/"),
@@ -776,7 +776,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/work-dev/dev-notebook/work-cici/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-dev/dev-notebook/work-cici/"):
         replacements.extend(
             [
                 ("../../../work-cici/", "../../../../../singularity/work-cici/"),
@@ -792,7 +792,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/work-cici/"):
+    if rel.startswith("singularity/work-cici/"):
         replacements.append(
             (
                 "../../../singularity/work-cici/",
@@ -806,7 +806,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
     if rel.startswith("statecraft/notes/") and "/reentry/" not in rel and "/watch/" not in rel:
         replacements.append(("../../arc-", "arc-"))
 
-    if rel.startswith("docs/skill-work/work-strategy/work-strategy-rome/notes/exemplars/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-strategy/work-strategy-rome/notes/exemplars/"):
         replacements.extend(
             [
                 ("../../current-events-analysis.md", "../../../current-events-analysis.md"),
@@ -816,7 +816,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/work-politics/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-politics/"):
         replacements.extend(
             [
                 ("../../wap-dashboard.md", "smm-workspace.md"),
@@ -830,7 +830,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
     if rel.startswith("docs/runtime/"):
         replacements.append(("](runtime-worker.md)", "](../runtime-worker.md)"))
 
-    if rel.startswith("docs/skill-work/work-civ-mem/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-civ-mem/"):
         replacements.extend(
             [
                 ("topic-trace-tempeate.md", "topic-trace-template.md"),
@@ -841,7 +841,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/work-moonshots/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-moonshots/"):
         replacements.append(
             (
                 "../../../self-moonshots.md",
@@ -917,10 +917,10 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
     if rel.startswith("statecraft/notes/intake/"):
         replacements.append(("../persia/", "../../persia/"))
 
-    if rel.startswith("docs/skill-work/work-politics/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-politics/"):
         replacements.append(("../../work-strategy/", "../work-strategy/"))
 
-    if rel.startswith("docs/skill-work/work-strategy/history-notebook/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-strategy/history-notebook/"):
         replacements.extend(
             [
                 ("../../../continuity/chapters/", "../../../../continuity/chapters/"),
@@ -928,7 +928,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/work-strategy/") and "speaker-arc-vs-comparative" in rel:
+    if rel.startswith("docs/archive/skill-work-legacy/work-strategy/") and "speaker-arc-vs-comparative" in rel:
         replacements.append(("../../notes/", "../../../statecraft/notes/"))
 
     if rel.startswith("skills/runbooks/"):
@@ -943,7 +943,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ),
                 (
                     "../daily-brief-",
-                    "../../../../docs/skill-work/work-strategy/daily-brief-",
+                    "../../../../docs/archive/skill-work-legacy/work-strategy/daily-brief-",
                 ),
                 (
                     "../crooke/crooke-page-",
@@ -952,7 +952,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/work-strategy/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-strategy/"):
         replacements.extend(
             [
                 ("../../.cursor/rules/", "../../../.cursor/rules/"),
@@ -968,7 +968,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/work-strategy/minds/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-strategy/minds/"):
         replacements.extend(
             [
                 ("**LIB:** []", "**LIB:** [self-library.md]"),
@@ -984,7 +984,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/work-dev/control-plane/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-dev/control-plane/"):
         replacements.extend(
             [
                 (
@@ -998,7 +998,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/work-politics/") and "smm-xavier-handbook-bundle" in rel:
+    if rel.startswith("docs/archive/skill-work-legacy/work-politics/") and "smm-xavier-handbook-bundle" in rel:
         replacements.extend(
             [
                 ("](../calendar-2026.md)", "](calendar-2026.md)"),
@@ -1082,7 +1082,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ("../../notes/mearsheimer-arc.md", "mearsheimer-arc.md"),
                 (
                     "../../minds/MINDS-SKILL-STRATEGY-PATTERNS.md",
-                    "../../../../docs/skill-work/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md",
+                    "../../../../docs/archive/skill-work-legacy/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md",
                 ),
                 (
                     "../../academy/statecraft/civ-emp/",
@@ -1251,7 +1251,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
         replacements.append(
             (
                 "](../minds/MINDS-SKILL-STRATEGY-PATTERNS.md for",
-                "](../../../../docs/skill-work/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md) for",
+                "](../../../../docs/archive/skill-work-legacy/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md) for",
             )
         )
 
@@ -1372,7 +1372,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/") and not rel.startswith("docs/skill-work/"):
+    if rel.startswith("docs/") and not rel.startswith("docs/archive/skill-work-legacy/"):
         slash_depth = rel.count("/")
         replacements.extend(
             [
@@ -1502,7 +1502,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             )
         )
 
-    if rel == "docs/skill-work/work-strategy/predictive-history-comment-rollout/README.md":
+    if rel == "docs/archive/skill-work-legacy/work-strategy/predictive-history-comment-rollout/README.md":
         replacements.append(
             (
                 "statecraft/voices/civ-lens-jiang/ph-civ/docs/source-video-index.md",
@@ -1532,7 +1532,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/work-strategy/history-notebook/POLYPHONY-WORKFLOW.md"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-strategy/history-notebook/POLYPHONY-WORKFLOW.md"):
         replacements.extend(
             [
                 (
@@ -1547,7 +1547,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/"):
+    if rel.startswith("docs/archive/skill-work-legacy/"):
         slash_depth = rel.count("/")
         replacements.extend(
             [
@@ -1558,8 +1558,8 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 ("../../good-night-brief-spec.md", "README.md"),
                 ("../../good-night-template.md", "decision-fatigue-reduction.md"),
                 ("../../../scripts/good-night-brief.py", "../../../scripts/operator_end_of_day.py"),
-                ("../../daily-brief-jiang-layer.md", "../../../docs/skill-work/work-strategy/daily-brief-jiang-layer.md"),
-                ("../../LEARN_MODE_RULES.md", "../../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md"),
+                ("../../daily-brief-jiang-layer.md", "../../../docs/archive/skill-work-legacy/work-strategy/daily-brief-jiang-layer.md"),
+                ("../../LEARN_MODE_RULES.md", "../../../docs/archive/skill-work-legacy/work-strategy/LEARN_MODE_RULES.md"),
                 ("../../../good-morning-brief-spec.md", "../../good-morning-brief-spec.md"),
                 ("../../../good-night-brief-spec.md", "../../good-night-brief-spec.md"),
                 ("../../../good-night-template.md", "../../good-night-template.md"),
@@ -1636,11 +1636,11 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             [
                 (
                     "../../LEARN_MODE_RULES.md",
-                    "../../../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md",
+                    "../../../../docs/archive/skill-work-legacy/work-strategy/LEARN_MODE_RULES.md",
                 ),
                 (
                     "../../daily-brief-jiang-layer.md",
-                    "../../../../docs/skill-work/work-strategy/daily-brief-jiang-layer.md",
+                    "../../../../docs/archive/skill-work-legacy/work-strategy/daily-brief-jiang-layer.md",
                 ),
                 (
                     "strategy-expert-template.md#voice-fingerprint-compact",
@@ -1697,7 +1697,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/work-dev/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-dev/"):
         replacements.extend(
             [
                 ("../operator-agent-lanes.md", "../../operator-agent-lanes.md"),
@@ -1753,7 +1753,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/self-work/"):
+    if rel.startswith("docs/archive/skill-work-legacy/self-work/"):
         replacements.append(
             (
                 "../decision-fatigue-reduction.md",
@@ -1761,7 +1761,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             )
         )
 
-    if rel.startswith("docs/skill-work/skill-work-human-teacher/"):
+    if rel.startswith("docs/archive/skill-work-legacy/skill-work-human-teacher/"):
         replacements.append(
             (
                 "../../../skill-think/",
@@ -1769,7 +1769,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             )
         )
 
-    if rel.startswith("docs/skill-work/work-business/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-business/"):
         replacements.append(
             (
                 "sid-desk-competitive-comparison.md",
@@ -1777,7 +1777,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             )
         )
 
-    if rel.startswith("docs/skill-work/work-civ-mem/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-civ-mem/"):
         replacements.append(
             (
                 "../../deveeopment-handoff.md",
@@ -1785,7 +1785,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             )
         )
 
-    if rel.startswith("docs/skill-work/work-companion-self/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-companion-self/"):
         replacements.append(
             (
                 "../../../canonical-paths.md",
@@ -1801,7 +1801,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             )
         )
 
-    if rel.startswith("docs/skill-work/work-health-fitness/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-health-fitness/"):
         replacements.extend(
             [
                 (
@@ -1815,7 +1815,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel == "docs/skill-work/work-strategy/DEFAULT-PATH.md":
+    if rel == "docs/archive/skill-work-legacy/work-strategy/DEFAULT-PATH.md":
         replacements.append(
             (
                 "work-coffee/menu-reference.md",
@@ -1823,7 +1823,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             )
         )
 
-    if rel.startswith("docs/skill-work/work-strategy/history-notebook/research/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-strategy/history-notebook/research/"):
         replacements.append(
             (
                 "../../../../.github/workflows/",
@@ -1831,7 +1831,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             )
         )
 
-    if rel.startswith("docs/skill-work/work-template/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-template/"):
         replacements.extend(
             [
                 ("../operator-agent-lanes.md", "../../operator-agent-lanes.md"),
@@ -1842,7 +1842,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             ]
         )
 
-    if rel.startswith("docs/skill-work/work-dev/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-dev/"):
         replacements.extend(
             [
                 (
@@ -1913,7 +1913,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             )
         )
 
-    if rel.startswith("docs/skill-work/work-strategy/theology-notebook/STATUS.md"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-strategy/theology-notebook/STATUS.md"):
         replacements.append(
             (
                 "../work-civ-mem/",
@@ -1921,7 +1921,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             )
         )
 
-    if rel == "docs/skill-work/work-moonshots/swarm-spirit.md":
+    if rel == "docs/archive/skill-work-legacy/work-moonshots/swarm-spirit.md":
         replacements.append(
             (
                 "../work-strategy/strategy-notebook/experts/",
@@ -2031,11 +2031,11 @@ def _dashify_civmem_filename(match: re.Match[str]) -> str:
     return prefix + name.replace("-", CIVMEM_DASH)
 
 def fix_civ_mem_draft_protocol(text: str, file_path: Path) -> tuple[str, int]:
-    """Collapse over-deep civ-mem-draft-protocol links under docs/skill-work/."""
+    """Collapse over-deep civ-mem-draft-protocol links under docs/archive/skill-work-legacy/."""
     rel = file_path.relative_to(REPO_ROOT).as_posix()
-    if not rel.startswith("docs/skill-work/"):
+    if not rel.startswith("docs/archive/skill-work-legacy/"):
         return text, 0
-    target = REPO_ROOT / "docs/skill-work/work-politics/civ-mem-draft-protocol.md"
+    target = REPO_ROOT / "docs/archive/skill-work-legacy/work-politics/civ-mem-draft-protocol.md"
     if not target.is_file():
         return text, 0
     correct = os.path.relpath(target, file_path.parent.resolve()).replace("\\", "/")
@@ -2116,7 +2116,7 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
         patterns.append((r"(?:\.\./)+continuity/", "../../../continuity/"))
     if "source-archive-residue" in rel:
         patterns.append((r"(?:\.\./\.\./\.\./voices/marandi/)+", "../../../voices/marandi/"))
-    if rel.startswith("docs/skill-work/work-strategy/history-notebook/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-strategy/history-notebook/"):
         patterns.extend(
             [
                 (r"(?:\.\./)+continuity/chapters/", "../../../../continuity/chapters/"),
@@ -2127,7 +2127,7 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
                 (r"(?:\.\./)+research/repos/", "../../../../research/repos/"),
             ]
         )
-    if rel.startswith("docs/skill-work/work-strategy/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-strategy/"):
         patterns.append((r"(?:\.\./)+\.cursor/rules/", "../../../.cursor/rules/"))
     if rel.startswith("continuity/coffee/"):
         patterns.append(
@@ -2141,7 +2141,7 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
                     r"](../../../../journal-metrics-habit.md)",
                 ),
             )
-        elif rel.startswith("docs/skill-work/work-dev/dev-notebook/work-dev/"):
+        elif rel.startswith("docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/"):
             patterns.append(
                 (
                     r"\]\((?:\.\./)+journal-metrics-habit\.md\)",
@@ -2159,7 +2159,7 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
         patterns.append(
             (
                 r"\]\(daily-brief-([0-9-]+)\.md ([^)]*)",
-                r"](../../../../docs/skill-work/work-strategy/daily-brief-\1.md) \2",
+                r"](../../../../docs/archive/skill-work-legacy/work-strategy/daily-brief-\1.md) \2",
             )
         )
         patterns.append(
@@ -2206,7 +2206,7 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
         )
     if rel.startswith("statecraft/voices/davis/"):
         patterns.append((r"\]\(\.\./davis-", r"](davis-"))
-    if rel.startswith("docs/skill-work/work-strategy/minds/"):
+    if rel.startswith("docs/archive/skill-work-legacy/work-strategy/minds/"):
         patterns.append(
             (
                 r"\]\(\.\./\.\./\.\./\.cursor/rules/",
@@ -2512,9 +2512,9 @@ def fix_cursor_skills_depth(text: str, file_path: Path) -> tuple[str, int]:
     return text, count
 
 def fix_agents_depth(text: str, file_path: Path) -> tuple[str, int]:
-    """Fix common wrong-depth AGENTS.md links under docs/skill-work/."""
+    """Fix common wrong-depth AGENTS.md links under docs/archive/skill-work-legacy/."""
     rel = file_path.relative_to(REPO_ROOT).as_posix()
-    if not rel.startswith("docs/skill-work/"):
+    if not rel.startswith("docs/archive/skill-work-legacy/"):
         return text, 0
     agents = REPO_ROOT / "AGENTS.md"
     if not agents.is_file():

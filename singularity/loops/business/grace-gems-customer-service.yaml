@@ -6,7 +6,7 @@ loop:
     description: New buyer message, order issue, review, return request, or shipping problem on either Grace Gems Etsy shop
   inputs:
     - description: Buyer messages, reviews, order records, shipping status, and shop policies for GraceGemsUS and GioielloHandcrafted
-    - description: Approved response templates from docs/skill-work/work-business/grace-gems/ and operations/grace-gems/customer-service/templates/
+    - description: Approved response templates from docs/archive/skill-work-legacy/work-business/grace-gems/ and operations/grace-gems/customer-service/templates/
     - description: Customer-promise checklist at operations/grace-gems/customer-service/promise-audits/customer-promise-checklist.md
   process:
     steps:

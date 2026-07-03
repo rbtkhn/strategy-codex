@@ -8,7 +8,7 @@
 
 **Participants:** **Glenn Diesen** (host); **John J. Mearsheimer** (guest, University of Chicago).
 
-**Scope:** [work-strategy](../../../../docs/skill-work/work-strategy/README.md) upstream — interview / analysis, not primary reporting. **Not** companion Record. Treat numbers, war outcomes, base damage, polling, and casualty claims as **speaker-sourced** until triangulated with wires or primaries.
+**Scope:** [work-strategy](../../../../docs/archive/skill-work-legacy/work-strategy/README.md) upstream — interview / analysis, not primary reporting. **Not** companion Record. Treat numbers, war outcomes, base damage, polling, and casualty claims as **speaker-sourced** until triangulated with wires or primaries.
 
 ---
 

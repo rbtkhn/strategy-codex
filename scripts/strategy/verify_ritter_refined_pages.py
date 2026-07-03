@@ -21,7 +21,7 @@ except ImportError:  # pragma: no cover
     yaml = None  # type: ignore
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 RITTER = NOTEBOOK / "experts" / "ritter"
 MEARSHEIMER = NOTEBOOK / "experts" / "mearsheimer"
 

@@ -24,7 +24,7 @@ memo_format_version: 1
 - **publication_date:** 2026-04-25
 - **essay (curated text):** [substack/essays/the-trump-new-deal.md](../substack/essays/the-trump-new-deal.md)
 - **crosswalk:** [substack/README.md](../substack/README.md) (newest section — follows **The US-Iran War, Round Two**)
-- **strategy-notebook mirror:** [docs/skill-work/work-strategy/strategy-notebook/provenance/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md](../../../source-archive/statecraft/2026-04-25/day-index.md)
+- **strategy-notebook mirror:** [docs/archive/skill-work-legacy/work-strategy/strategy-notebook/provenance/2026-04-25/substack-jiang-trump-new-deal-2026-04-25.md](../../../source-archive/statecraft/2026-04-25/day-index.md)
 - **analyzed_at:** *(operator)*
 
 ## Thesis / aim

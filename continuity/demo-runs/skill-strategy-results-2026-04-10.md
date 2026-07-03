@@ -1,7 +1,7 @@
 # skill-strategy transcript demo — results log (audit)
 <!-- word_count: 401 -->
 
-> **Frozen audit (2026-04-10).** **Tri-frame** Phase 4 scores are **historical** — choreography deprecated per [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Do not treat **Pass** on tri-frame as current routing.
+> **Frozen audit (2026-04-10).** **Tri-frame** Phase 4 scores are **historical** — choreography deprecated per [TRI-MIND-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/TRI-MIND-DEPRECATED.md). Do not treat **Pass** on tri-frame as current routing.
 
 **Source playbook:** [`../notes/DEMO-SKILL-STRATEGY-TRANSCRIPTS.md`](../notes/DEMO-SKILL-STRATEGY-TRANSCRIPTS.md)  
 **Primary notebook surface:** [`../chapters/2026-04/days.md`](../chapters/2026/2026-04/days.md) — section `### DEMO — skill-strategy calibration (2026-04-10 session)`
@@ -17,7 +17,7 @@
 | Links complete | **Pass** | Phase 3 lists all three digest paths under `research/external/work-strategy/transcripts/`. |
 | Tri-frame / three minds | **Pass** | Phase 4 has **Mercouris → Mearsheimer → Barnes** labeled sections plus `CIV-MIND-*.md` notebook stubs. |
 | Contradiction preservation | **Pass** | Phase 3 names distinct mechanisms per source (not flattened to one story); frames coexist without forced merge. |
-| No STRATEGY touch | **Pass** | Phase 5 states no edit to `docs/skill-work/work-strategy/STRATEGY.md`. |
+| No STRATEGY touch | **Pass** | Phase 5 states no edit to `docs/archive/skill-work-legacy/work-strategy/STRATEGY.md`. |
 | WORK boundary | **Pass** | Documentation-only; no `recursion-gate` merge, no `self.md` / Record edits in this run. |
 | Anti–triple recap | **Pass** | Phase 3 is compressed cross-digest synthesis; no three full Perceiver pastes. |
 
@@ -38,7 +38,7 @@
 ```text
 Date: 2026-04-10
 Operator: (session — grace-mar work-strategy)
-Output surface: docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/days.md
+Output surface: docs/archive/skill-work-legacy/work-strategy/strategy-notebook/chapters/2026-04/days.md
 Shell check: pass (scripts/demo_skill_strategy_transcripts_check.sh — exit 0)
 
 Phase 1: Pass — Mearsheimer digest only; Chronicle / Reflection / References + one digest path.

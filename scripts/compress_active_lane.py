@@ -3,7 +3,7 @@
 Compress one WORK lane into a small markdown (or JSON) artifact with recovery paths.
 
 This is a Context Efficiency Layer (CEL) helper — not a second Record and not the
-JSON paste caps in platform/config/context_budgets/ (see docs/skill-work/active-lane-compression.md).
+JSON paste caps in platform/config/context_budgets/ (see docs/archive/skill-work-legacy/active-lane-compression.md).
 
 Usage:
   python3 scripts/compress_active_lane.py --lane work-strategy
@@ -109,14 +109,14 @@ def build_active_lane_payload(lane: str, user_id: str, repo_root: Path) -> dict:
             focus, risk = _ledger_excerpt(lc)
             break
 
-    readme_rel = f"docs/skill-work/{lane_n}/README.md"
+    readme_rel = f"docs/archive/skill-work-legacy/{lane_n}/README.md"
     try:
         self_rel = sw_path.relative_to(repo_root).as_posix()
     except ValueError:
         self_rel = f"{user_id}/self-work.md"
     sources = [readme_rel, self_rel]
     if (lane_path / "WORK-LEDGER.md").exists():
-        sources.insert(1, f"docs/skill-work/{lane_n}/WORK-LEDGER.md")
+        sources.insert(1, f"docs/archive/skill-work-legacy/{lane_n}/WORK-LEDGER.md")
 
     current_objective = sw_line or objective
     recommendation = (

@@ -49,7 +49,7 @@ Discovery `file_prefix` on each channel and archive land names are **different s
 
 | Surface | Path | Prefix rule | Role |
 |---------|------|-------------|------|
-| **Raw-input queue** | `docs/skill-work/work-strategy/strategy-notebook/raw-input/<pub_date>/` | `file_prefix` from [`statecraft_youtube_discovery.json`](../../../platform/config/statecraft_youtube_discovery.json) — often legacy `youtube-*` or `transcript-*` | Transcript automation / backfill staging |
+| **Raw-input queue** | `docs/archive/skill-work-legacy/work-strategy/strategy-notebook/raw-input/<pub_date>/` | `file_prefix` from [`statecraft_youtube_discovery.json`](../../../platform/config/statecraft_youtube_discovery.json) — often legacy `youtube-*` or `transcript-*` | Transcript automation / backfill staging |
 | **Statecraft source archive** | `source-archive/statecraft/YYYY-MM-DD/` | Always `source-<topic-slug>-YYYY-MM-DD.md` | Canonical full-source capture ([filename law](../../../source-archive/statecraft/README.md)) |
 
 **Watchlist mapping** (queue config → archive land):
@@ -66,7 +66,7 @@ Discovery `file_prefix` on each channel and archive land names are **different s
 
 Channel-index routing also reads legacy raw-input prefixes and explicit `source-*` rules in discovery config (`filename_prefix_index_canonical`) so thin-YAML archive captures still roll up correctly. New **source-archive** lands: use `source-*` only; keep shape in frontmatter (`kind`, `source_form`, `channel_slug`).
 
-**Deprecated:** `youtube-raw-input-transcript` / `materialize_youtube_raw_input.py --apply` — [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md). Use **`source-intake`** after roster approval or paste.
+**Deprecated:** `youtube-raw-input-transcript` / `materialize_youtube_raw_input.py --apply` — [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../../docs/archive/skill-work-legacy/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md). Use **`source-intake`** after roster approval or paste.
 
 ## Runner suggestions
 
@@ -74,7 +74,7 @@ Use the generic helper for the majority of cases:
 
 - `scripts/backfill_youtube_channel_raw_input.py`
 
-Discovery config (replaces deprecated `cognition-streams-watchlist.json`): `platform/config/statecraft_youtube_discovery.json`. Channel listing: `statecraft/channels/channel-index.md`. See [COGNITION-STREAMS-WATCHLIST-DEPRECATED.md](../../../docs/skill-work/work-strategy/COGNITION-STREAMS-WATCHLIST-DEPRECATED.md).
+Discovery config (replaces deprecated `cognition-streams-watchlist.json`): `platform/config/statecraft_youtube_discovery.json`. Channel listing: `statecraft/channels/channel-index.md`. See [COGNITION-STREAMS-WATCHLIST-DEPRECATED.md](../../../docs/archive/skill-work-legacy/work-strategy/COGNITION-STREAMS-WATCHLIST-DEPRECATED.md).
 
 Thin wrappers exist for the common rollout targets:
 

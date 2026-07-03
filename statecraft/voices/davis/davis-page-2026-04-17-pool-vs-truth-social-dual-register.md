@@ -39,7 +39,7 @@ What is not yet reusable as a settled claim is whether the two lines represent s
 
 ### Appendix
 
-- **Brief anchor:** [daily-brief-2026-04-17.md](../docs/skill-work/work-strategy/daily-brief-2026-04-17.md
+- **Brief anchor:** [daily-brief-2026-04-17.md](../docs/archive/skill-work-legacy/work-strategy/daily-brief-2026-04-17.md
 - **Thread anchor:** [davis-thread.md](davis-thread.md
 - **Inbox / triage:** [daily-strategy-inbox.md](daily-strategy-inbox.md
 - **Companion note:** [davis-source-hygiene-2026-04-17-us-executive-dual-register.md](davis-source-hygiene-2026-04-17-us-executive-dual-register.md

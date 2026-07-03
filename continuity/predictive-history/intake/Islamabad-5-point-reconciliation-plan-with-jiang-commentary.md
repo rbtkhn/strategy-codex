@@ -1,15 +1,15 @@
 # Islamabad Framework — five-point plan (with annotated Jiang commentary)
 <!-- word_count: 1802 -->
 
-**Working title:** **Islamabad Framework** — five-point roadmap toward a binding settlement (Islamabad talks, April 2026). **Canonical public copy** (preamble + five paragraphs) is [islamabad-framework.md](../../../docs/skill-work/work-strategy/islamabad-framework.md); **annexes, rubric, and full synthesis** are in [islamabad-framework-operator-edition.md](../../../docs/skill-work/work-strategy/islamabad-framework-operator-edition.md).  
+**Working title:** **Islamabad Framework** — five-point roadmap toward a binding settlement (Islamabad talks, April 2026). **Canonical public copy** (preamble + five paragraphs) is [islamabad-framework.md](../../../docs/archive/skill-work-legacy/work-strategy/islamabad-framework.md); **annexes, rubric, and full synthesis** are in [islamabad-framework-operator-edition.md](../../../docs/archive/skill-work-legacy/work-strategy/islamabad-framework-operator-edition.md).  
 **Document type:** Operator draft + **analytical overlay** — not Predictive History lecture text, not Record, not Voice knowledge.  
 **Commentary basis:** Jiang Xueqin’s **on-record** themes across **Geo-Strategy**, **Game Theory**, and **Interviews** corpus under `continuity/predictive-history/lectures/` (headers, at-a-glance, and recurring war-spine arguments). Commentary is **synthetic** (what he *would likely stress*), not attributed quotations unless you add timestamps later.
 
 **Related:**
 
-- [U.S.-framed five-point Gulf peace framework (2026-04-08)](../../../docs/skill-work/work-strategy/us-framed-five-point-gulf-peace-framework-2026-04-08.md) — operator synthesis with legal anchors, transparency to Congress, and historical precedent columns (differs on withdrawal geometry, Hormuz fees, HEU disposition, sanctions sequencing).
-- [The Islamabad Framework (v0.7, 2026-04-08)](../../../docs/skill-work/work-strategy/islamabad-framework.md) — diplomatic working document (six sections, civ-mem grounded, dual-audience architecture).
-- [The Islamabad Framework — operator edition (2026-04-08)](../../../docs/skill-work/work-strategy/islamabad-framework-operator-edition.md) — merged spine + U.S. operational annex + Jiang optimization annex + quantitative rubric.
+- [U.S.-framed five-point Gulf peace framework (2026-04-08)](../../../docs/archive/skill-work-legacy/work-strategy/us-framed-five-point-gulf-peace-framework-2026-04-08.md) — operator synthesis with legal anchors, transparency to Congress, and historical precedent columns (differs on withdrawal geometry, Hormuz fees, HEU disposition, sanctions sequencing).
+- [The Islamabad Framework (v0.7, 2026-04-08)](../../../docs/archive/skill-work-legacy/work-strategy/islamabad-framework.md) — diplomatic working document (six sections, civ-mem grounded, dual-audience architecture).
+- [The Islamabad Framework — operator edition (2026-04-08)](../../../docs/archive/skill-work-legacy/work-strategy/islamabad-framework-operator-edition.md) — merged spine + U.S. operational annex + Jiang optimization annex + quantitative rubric.
 
 ---
 

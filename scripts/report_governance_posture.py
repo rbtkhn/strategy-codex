@@ -3,7 +3,7 @@
 Emit a partner- and operator-facing governance posture one-pager (Markdown).
 
 Read-only with respect to Record: only writes the output file. See
-docs/skill-work/work-dev/safety-story-ux.md and AGENTS.md.
+docs/archive/skill-work-legacy/work-dev/safety-story-ux.md and AGENTS.md.
 
   python3 scripts/report_governance_posture.py -u grace-mar
   python3 scripts/report_governance_posture.py -u grace-mar -o runtime/artifacts/governance-posture.md
@@ -109,7 +109,7 @@ def build_governance_posture_markdown(
         "3. **OpenClaw and assistants stage only** — they do not write SELF, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py` without "
         "that merge. Chat is not proof of Record truth.\n\n",
         "## Inspectability (what “safe” means here)\n\n",
-        "Same dimensions as [safety-story-ux.md](../docs/skill-work/work-dev/safety-story-ux.md), with paths "
+        "Same dimensions as [safety-story-ux.md](../docs/archive/skill-work-legacy/work-dev/safety-story-ux.md), with paths "
         f"for **`{base}/`**:\n\n",
         "| Dimension | Question | Where |\n",
         "|-----------|----------|-------|\n",

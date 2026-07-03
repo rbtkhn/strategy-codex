@@ -1,6 +1,6 @@
 # Runtime worker (OpenAI / optional LLM)
 
-**Purpose:** A thin, disposable **WORK** helper under `scripts/runtime/` that inspects bounded doc trees (default: full `docs/skill-work/work-strategy/strategy-notebook/`), optionally summarizes with an LLM when `OPENAI_API_KEY` is set, and writes **only** under `runtime/runtime-worker/` (or `GRACE_MAR_RUNTIME_WORKER_HOME`).
+**Purpose:** A thin, disposable **WORK** helper under `scripts/runtime/` that inspects bounded doc trees (default: full `docs/archive/skill-work-legacy/work-strategy/strategy-notebook/`), optionally summarizes with an LLM when `OPENAI_API_KEY` is set, and writes **only** under `runtime/runtime-worker/` (or `GRACE_MAR_RUNTIME_WORKER_HOME`).
 
 **Not:**
 

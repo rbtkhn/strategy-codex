@@ -33,4 +33,4 @@ When running a **full** weekly brief (not doc-only), complete [weekly-brief-temp
 
 ## Daily horizon (optional)
 
-`python scripts/generate_wap_daily_brief.py -u grace-mar -o docs/skill-work/work-strategy/daily-brief-$(date +%Y-%m-%d).md` — **work-politics + work-strategy**, dual W/S scores. [work-strategy/daily-brief-template.md](../skill-work/work-strategy/daily-brief-template.md).
+`python scripts/generate_wap_daily_brief.py -u grace-mar -o docs/archive/skill-work-legacy/work-strategy/daily-brief-$(date +%Y-%m-%d).md` — **work-politics + work-strategy**, dual W/S scores. [work-strategy/daily-brief-template.md](../skill-work/work-strategy/daily-brief-template.md).

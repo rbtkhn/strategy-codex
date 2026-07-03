@@ -4,7 +4,7 @@ pub_date: 2026-04-17
 thread: marandi
 kind: transcript
 source_form: post
-source_path: docs/skill-work/work-strategy/strategy-notebook/experts/marandi/transcript.md
+source_path: docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/marandi/transcript.md
 ---
 ## 2026-04-17
 - X | cold: @s_m_marandi (2026-04-17) — **Hormuz opening is not unrestricted** — three conditions: (1) **commercial ships only** — no military vessels or belligerent-party shipments; (2) **Iran** decides which ships may pass; (3) transit **only** on **Iran-designated route** // hook: **tightens** same-day **@araghchi** “completely open” FM line — **elite English** register vs diplomatic **tweet**; screenshot on disk | [assets/marandi/x-2026-04-17-hormuz-three-conditions.png](assets/marandi/x-2026-04-17-hormuz-three-conditions.png) | verify:pin-status-URL+screenshot | thread:marandi | grep:Hormuz+Marandi+conditions

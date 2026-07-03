@@ -1,9 +1,9 @@
 ---
 description: Expert thread journal layer — prose-first narrative (not bullet-default)
 globs:
-  - docs/skill-work/work-strategy/strategy-notebook/strategy-expert-*-thread.md
-  - docs/skill-work/work-strategy/strategy-notebook/experts/*/thread.md
-  - docs/skill-work/work-strategy/strategy-notebook/experts/*/*-thread-*.md
+  - docs/archive/skill-work-legacy/work-strategy/strategy-notebook/strategy-expert-*-thread.md
+  - docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/*/thread.md
+  - docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/*/*-thread-*.md
 alwaysApply: false
 ---
 
@@ -11,7 +11,7 @@ alwaysApply: false
 
 Applies when **editing or drafting** the human layer **above** `<!-- strategy-expert-thread:start -->`.
 
-**Naming:** **Journal layer** = file-level human narrative (not overwritten by **`thread`**). **Segment 1–4** (2026) = month index in a **single** `thread.md` — **January** through **April**; with **one file per month** (`*-thread-YYYY-MM.md`) there is one **`## YYYY-MM`** (or a short month-true intro) per file. **Machine layer** = script block between HTML markers — **not** “Segment 2” in the month sense. **Partial split:** if both monthly and `thread.md` exist, the monthly chapter is the **canonical** file for that month; discovery unions paths per architecture § *Partial monthly layout*. Full spec: `docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md` § Thread.
+**Naming:** **Journal layer** = file-level human narrative (not overwritten by **`thread`**). **Segment 1–4** (2026) = month index in a **single** `thread.md` — **January** through **April**; with **one file per month** (`*-thread-YYYY-MM.md`) there is one **`## YYYY-MM`** (or a short month-true intro) per file. **Machine layer** = script block between HTML markers — **not** “Segment 2” in the month sense. **Partial split:** if both monthly and `thread.md` exist, the monthly chapter is the **canonical** file for that month; discovery unions paths per architecture § *Partial monthly layout*. Full spec: `continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md` § Thread.
 
 ## Default (do not invert)
 
@@ -27,7 +27,7 @@ Applies when **editing or drafting** the human layer **above** `<!-- strategy-ex
 
 ## Cross-check blocks (optional)
 
-When folding one expert’s theses against **other `thread:`** lanes and **§1e / maritime** discipline, add **`### Cross-check (…)`** inside the relevant **`## YYYY-MM`**, **above** the machine markers — **hybrid** lede + table or **`[strength: …]`** bullets; **balanced** tier handling (one seam sentence; heavy detail → `days.md` / `batch-analysis`). Major ingests may warrant a **`days.md` `### Links`** back-pointer. Full normative wording: `docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md` § *Thread* → *Cross-check blocks (hybrid) and tier discipline* (`#expert-thread-cross-check-blocks`).
+When folding one expert’s theses against **other `thread:`** lanes and **§1e / maritime** discipline, add **`### Cross-check (…)`** inside the relevant **`## YYYY-MM`**, **above** the machine markers — **hybrid** lede + table or **`[strength: …]`** bullets; **balanced** tier handling (one seam sentence; heavy detail → `days.md` / `batch-analysis`). Major ingests may warrant a **`days.md` `### Links`** back-pointer. Full normative wording: `continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md` § *Thread* → *Cross-check blocks (hybrid) and tier discipline* (`#expert-thread-cross-check-blocks`).
 
 ## Do not
 

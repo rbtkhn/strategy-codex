@@ -50,7 +50,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Linguistic style fingerprint (detailed)
 
-**Evidence class:** Jun 2026 *Trail of Tears* Substack + 2026 arc/routing shelf + interview-lane habits. Historical mind quote bank (if needed): search `strategy-expert-ritter` in git history or legacy redirects under [minds/README.md](../../../docs/skill-work/work-strategy/minds/README.md).
+**Evidence class:** Jun 2026 *Trail of Tears* Substack + 2026 arc/routing shelf + interview-lane habits. Historical mind quote bank (if needed): search `strategy-expert-ritter` in git history or legacy redirects under [minds/README.md](../../../docs/archive/skill-work-legacy/work-strategy/minds/README.md).
 
 | Family | Sub-dimension | Pattern | Example lines | Anti-pattern |
 |--------|---------------|---------|---------------|--------------|
@@ -157,6 +157,6 @@ Treat public site, Substack, and video surfaces as **discovery indexes**, not co
 ## Legacy redirects (compatibility)
 
 - [`continuity/2026/ritter/ritter-thread.md`](ritter-thread.md) · [`ritter-transcript.md`](ritter-transcript.md) — **not** promotion path for new work.
-- Legacy minds: [minds/README.md](../../../docs/skill-work/work-strategy/minds/README.md) · [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
+- Legacy minds: [minds/README.md](../../../docs/archive/skill-work-legacy/work-strategy/minds/README.md) · [VOICES-SUPERSEDE-MINDS.md](../../../docs/archive/skill-work-legacy/work-strategy/VOICES-SUPERSEDE-MINDS.md)
 
 **Commentator metrics (illustrative):** SCI 0.82 · AD 0.48 · CTC 0.74 — see [strategy-commentator-threads.md](../../../continuity/strategy-commentator-threads.md); not live scoring in this profile.

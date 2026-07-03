@@ -202,7 +202,7 @@ def test_proposal_schemas(tmp_path: Path) -> None:
         "target_date": "2026-04-16",
         "thesis": "Test thesis line.",
         "mode": "days_only",
-        "target_file": "docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/days.md",
+        "target_file": "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/chapters/2026-04/days.md",
         "references": ["inbox:line1"],
         "approval_required": True,
     }
@@ -214,7 +214,7 @@ def test_proposal_schemas(tmp_path: Path) -> None:
         "run_id": "stratrun-20260416-deadbeef",
         "page_id": "test-p",
         "operation": "new",
-        "target_thread": "docs/skill-work/work-strategy/strategy-notebook/experts/mercouris/thread.md",
+        "target_thread": "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/mercouris/thread.md",
         "watch_ids": ["hormuz"],
         "experts": ["mercouris"],
         "thesis": "T",

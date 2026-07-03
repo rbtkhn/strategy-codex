@@ -340,13 +340,13 @@ _(Append below this line.)_
 - **2026-04-27 17:02 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=mem-boundary-crosslink
 - **2026-04-27 17:19 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
 - **2026-04-27 17:22 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=no_action conductor=kleiber action=integrity_c falsify=validate-integrity-ok
-- **2026-04-27 17:24 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=watch conductor=kleiber action=derived_A notebook_ref=docs/skill-work/work-dev/derived-regeneration.md
+- **2026-04-27 17:24 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=watch conductor=kleiber action=derived_A notebook_ref=docs/archive/skill-work-legacy/work-dev/derived-regeneration.md
 - **2026-04-28 04:00 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-04-28 04:26 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=65ad506f
 - **2026-04-28 05:03 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
 - **2026-04-28 14:35 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-04-28 15:05 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein
-- **2026-04-28 15:09 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown notebook_ref=docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/days.md
+- **2026-04-28 15:09 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown notebook_ref=docs/archive/skill-work-legacy/work-strategy/strategy-notebook/chapters/2026-04/days.md
 - **2026-04-28 15:14 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-04-28 15:17 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=C
 - **2026-04-28 15:59 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
@@ -579,7 +579,7 @@ _(Append below this line.)_
 - **2026-05-17 18:48 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
 - **2026-05-18 04:44 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-05-18 04:57 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=gpt-5 model_tier=unknown picked=A steward=gate
-- **2026-05-18 05:00 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=docs/skill-work/work-dev/kleiber-composition-benchmark.md loops=conductor-actionability-close next=commit-staged-conductor-actionability-bundle
+- **2026-05-18 05:00 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=docs/archive/skill-work-legacy/work-dev/kleiber-composition-benchmark.md loops=conductor-actionability-close next=commit-staged-conductor-actionability-bundle
 - **2026-05-18 05:03 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=gpt-5 model_tier=unknown picked=conductor conductor=furtwangler
 - **2026-05-18 06:06 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
 - **2026-05-18 12:30 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
@@ -607,8 +607,8 @@ _(Append below this line.)_
 - **2026-05-20 01:16 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
 - **2026-05-20 01:32 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-05-20 01:33 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=B
-- **2026-05-20 01:40 UTC** — coffee_close (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=B outcome=done readiness=ship_ready artifacts=scripts/canonical_change_detector.py,tests/test_derived_regeneration.py,docs/skill-work/work-dev/derived-regeneration.md next=review-stage-commit
-- **2026-05-20 02:04 UTC** — coffee_close (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=B outcome=done readiness=ship_ready artifacts=docs/skill-work/work-dev/scenarios/baseline_scenarios/handback_tail_stress.yaml,docs/skill-work/work-dev/scenarios/handback_tail_stress.matrix.md,scripts/work_dev/validate_handback_analysis.py,scripts next=review-stage-commit-gap-005-006
+- **2026-05-20 01:40 UTC** — coffee_close (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=B outcome=done readiness=ship_ready artifacts=scripts/canonical_change_detector.py,tests/test_derived_regeneration.py,docs/archive/skill-work-legacy/work-dev/derived-regeneration.md next=review-stage-commit
+- **2026-05-20 02:04 UTC** — coffee_close (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=B outcome=done readiness=ship_ready artifacts=docs/archive/skill-work-legacy/work-dev/scenarios/baseline_scenarios/handback_tail_stress.yaml,docs/archive/skill-work-legacy/work-dev/scenarios/handback_tail_stress.matrix.md,scripts/work_dev/validate_handback_analysis.py,scripts next=review-stage-commit-gap-005-006
 - **2026-05-20 02:11 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=C
 - **2026-05-20 05:59 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
 - **2026-05-20 12:29 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=codex model_tier=unknown
@@ -617,13 +617,13 @@ _(Append below this line.)_
 - **2026-05-20 14:28 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=C
 - **2026-05-20 16:05 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-05-20 16:09 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A steward=git
-- **2026-05-20 16:11 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=partial readiness=ship_ready artifacts=docs/skill-work/work-dev/scenarios/baseline_scenarios/handback_tail_stress.yaml,docs/skill-work/work-dev/scenarios/handback_tail_stress.matrix.md,scripts/work_dev/validate_handback_analysis.py next=commit-verified-handback-tail-slice
+- **2026-05-20 16:11 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=partial readiness=ship_ready artifacts=docs/archive/skill-work-legacy/work-dev/scenarios/baseline_scenarios/handback_tail_stress.yaml,docs/archive/skill-work-legacy/work-dev/scenarios/handback_tail_stress.matrix.md,scripts/work_dev/validate_handback_analysis.py next=commit-verified-handback-tail-slice
 - **2026-05-20 16:17 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=D
 - **2026-05-20 16:19 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein
 - **2026-05-20 17:22 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
-- **2026-05-20 17:27 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=receipt-crosswalk-brief-sealed conductor=karajan notebook_ref=docs/skill-work/work-dev/control-plane/receipt-crosswalk-job-brief.md
+- **2026-05-20 17:27 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=receipt-crosswalk-brief-sealed conductor=karajan notebook_ref=docs/archive/skill-work-legacy/work-dev/control-plane/receipt-crosswalk-job-brief.md
 - **2026-05-20 18:17 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
-- **2026-05-20 18:19 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=Held conductor=kleiber notebook_ref=docs/skill-work/work-dev/control-plane/receipt-crosswalk.md falsify=no-fake-universal-log-no-duplicate-doctrine-no-file-dump
+- **2026-05-20 18:19 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=Held conductor=kleiber notebook_ref=docs/archive/skill-work-legacy/work-dev/control-plane/receipt-crosswalk.md falsify=no-fake-universal-log-no-duplicate-doctrine-no-file-dump
 - **2026-05-21 05:46 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
 - **2026-05-21 11:56 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-05-21 15:50 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
@@ -645,7 +645,7 @@ _(Append below this line.)_
 - **2026-05-24 14:05 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-05-24 14:06 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=C
 - **2026-05-24 14:15 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
-- **2026-05-24 14:17 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=karajan verdict=hormuz-authority-split-shaped notebook_ref=docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-05-24-day-07.md falsify=compact-iran-summary-diverges-from-canonical-iran-transaction
+- **2026-05-24 14:17 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=karajan verdict=hormuz-authority-split-shaped notebook_ref=docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/2026-05-24-day-07.md falsify=compact-iran-summary-diverges-from-canonical-iran-transaction
 - **2026-05-24 16:47 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-05-24 17:28 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-05-25 13:16 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
@@ -695,13 +695,13 @@ _(Append below this line.)_
 - **2026-06-08 06:36 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=toscanini
 - **2026-06-08 06:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=toscanini notebook_ref=continuity/_deprecated/conductor/CONDUCTOR-PASS.md falsify=skill-mount-integrity-fails-or-handoff-hub-diverges-from-coffee
 - **2026-06-08 06:40 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=furtwangler
-- **2026-06-08 06:43 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=furtwangler notebook_ref=docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md falsify=statecraft-batch-commit-without-deploy-ownership-or-explicit-multi-lane-receipt
+- **2026-06-08 06:43 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=furtwangler notebook_ref=docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md falsify=statecraft-batch-commit-without-deploy-ownership-or-explicit-multi-lane-receipt
 - **2026-06-08 06:48 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=kleiber
 - **2026-06-08 07:00 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown conductor=kleiber verdict=held notebook_ref=runtime/artifacts/benchmarks/composition/2026-06-07/cursor-composer/lebanon-third-party-gate-kleiber/closeout.md falsify=statecraft-commit-without-persia-slice-receipt-or-america-primary-ownership
 - **2026-06-08 07:01 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=bernstein
-- **2026-06-08 07:33 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown conductor=bernstein verdict=held notebook_ref=docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md falsify=verification-commit-restages-2ec582124-or-batches-civ-lens-without-separate-intent
+- **2026-06-08 07:33 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown conductor=bernstein verdict=held notebook_ref=docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md falsify=verification-commit-restages-2ec582124-or-batches-civ-lens-without-separate-intent
 - **2026-06-08 07:36 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=karajan
-- **2026-06-08 07:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown conductor=karajan verdict=held notebook_ref=docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md falsify=hierarchy-commit-batches-civ-lens-or-reopens-2ec582124-lane-order
+- **2026-06-08 07:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown conductor=karajan verdict=held notebook_ref=docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md falsify=hierarchy-commit-batches-civ-lens-or-reopens-2ec582124-lane-order
 - **2026-06-08 17:52 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
 - **2026-06-08 17:53 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=A learning_action=confirm
 - **2026-06-08 17:57 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=e6807c348,4aeb4da73 loops=stage-commit-bootstrap-drift-fix next=push-parent-and-ph-civ-remote-when-ready
@@ -787,7 +787,7 @@ _(Append below this line.)_
 - **2026-06-17 09:19 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-17 09:21 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=D learning_action=reframe
 - **2026-06-17 09:46 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
-- **2026-06-17 09:51 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor outcome=partial readiness=execution_ready artifacts=docs/skill-work/work-business/sid-desk-offer-spine.md loops=sid-first-wave-send next=sid-pilot-sow-excerpt conductor=karajan
+- **2026-06-17 09:51 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor outcome=partial readiness=execution_ready artifacts=docs/archive/skill-work-legacy/work-business/sid-desk-offer-spine.md loops=sid-first-wave-send next=sid-pilot-sow-excerpt conductor=karajan
 - **2026-06-17 11:24 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
 - **2026-06-17 11:26 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm
 - **2026-06-17 11:28 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=a93bceccf loops=sid-pilot-sow-excerpt next=wip-slice-commits

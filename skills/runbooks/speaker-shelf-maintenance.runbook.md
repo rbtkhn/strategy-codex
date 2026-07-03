@@ -144,5 +144,5 @@ If verification cannot be completed:
 ## Return Paths
 
 - [skills/runbooks/README.md](README.md)
-- [docs/skill-work/work-strategy/README.md](../../docs/skill-work/work-strategy/README.md)
+- [docs/archive/skill-work-legacy/work-strategy/README.md](../../docs/archive/skill-work-legacy/work-strategy/README.md)
 - [`check-sources`](../../skills/check-sources/SKILL.md) — live source discovery

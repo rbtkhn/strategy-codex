@@ -31,8 +31,8 @@ from youtube_transcripts.index_rows import load_index_videos  # noqa: E402
 
 CHANNEL_URL = "https://www.youtube.com/@dialogueworks01/videos"
 START_DATE = date(2026, 1, 1)
-PROFILE_PATH = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/experts/nima/profile.md"
-INVENTORY_PATH = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/raw-input/dialogue-works-inventory.md"
+PROFILE_PATH = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/nima/profile.md"
+INVENTORY_PATH = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/raw-input/dialogue-works-inventory.md"
 
 ROUTE_HINTS = (
     ("larry c. johnson", "thread: johnson"),
@@ -291,7 +291,7 @@ def main(argv: list[str] | None = None) -> int:
     if crawl_index is None:
         crawl_index = run_crawl(crawl_output_dir=args.crawl_output_dir, limit=args.limit, sleep=args.sleep)
 
-    rows = build_rows(crawl_index=crawl_index, raw_input_root=REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/raw-input")
+    rows = build_rows(crawl_index=crawl_index, raw_input_root=REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/raw-input")
     profile_text = render_profile(rows)
     inventory_text = render_inventory(rows)
 

@@ -33,7 +33,7 @@ from strategy_expert_corpus import (
 )
 
 NOTEBOOK_DIR = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+    REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 )
 DEFAULT_KNOT_INDEX = NOTEBOOK_DIR / "knot-index.yaml"
 DEFAULT_KNOT_CONNECTIONS = NOTEBOOK_DIR / "knot-connections.yaml"

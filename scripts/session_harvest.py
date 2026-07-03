@@ -27,8 +27,8 @@ MODES = ("default", "technical", "strategic", "minimal")
 TERRITORY_HISTORIES = [
     "continuity/coffee/coffee-history.md",
     "continuity/dream/dream-history.md",
-    "docs/skill-work/work-politics/work-politics-history.md",
-    "docs/skill-work/work-dev/work-dev-history.md",
+    "docs/archive/skill-work-legacy/work-politics/work-politics-history.md",
+    "docs/archive/skill-work-legacy/work-dev/work-dev-history.md",
 ]
 
 def _optional_second_repo() -> Path | None:

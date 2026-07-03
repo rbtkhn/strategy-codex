@@ -2,7 +2,7 @@
 
 Use this file to resume development quickly in a new agent conversation.
 
-**Bootstrap:** `archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md` is the current bootstrap entrypoint, but it now serves the `strategy-codex` repo and its embedded Grace-Mar instance. It defaults to **work-dev** (OpenClaw + companion gate); read `docs/skill-work/work-dev/README.md` then `docs/openclaw-integration.md`. **work-jiang (Jiang book/site lane):** `archive/grace-mar-instance/bootstrap/work-jiang-bootstrap.md` â€” read order, membrane, verify block, skill link.
+**Bootstrap:** `archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md` is the current bootstrap entrypoint, but it now serves the `strategy-codex` repo and its embedded Grace-Mar instance. It defaults to **work-dev** (OpenClaw + companion gate); read `docs/archive/skill-work-legacy/work-dev/README.md` then `docs/openclaw-integration.md`. **work-jiang (Jiang book/site lane):** `archive/grace-mar-instance/bootstrap/work-jiang-bootstrap.md` â€” read order, membrane, verify block, skill link.
 
 Last updated: 2026-03-28
 
@@ -94,15 +94,15 @@ Last updated: 2026-03-28
 ## Recently Completed (High Level)
 
 ### Companion-self boundary clarification (2026-03-13)
-- **`docs/skill-work/work-companion-self/README.md`** â€” Added canonical template-vs-instance framing plus an upstreamability test for deciding what can merge back to `companion-self`.
+- **`docs/archive/skill-work-legacy/work-companion-self/README.md`** â€” Added canonical template-vs-instance framing plus an upstreamability test for deciding what can merge back to `companion-self`.
 - **`docs/merging-from-companion-self.md`** â€” Clarified `grace-mar` as private proving ground and added a checklist for deciding whether a structural change should go upstream.
 - **`companion-self-bootstrap.md`** â€” Strengthened the template/public-vs-instance/private distinction so future template work starts from the right boundary.
 
 ### Companion-self alignment audit refresh (2026-03-13)
 - **`docs/audit-grace-mar-vs-companion-self-template.md`** â€” Reframed the audit around concept alignment vs manifest/path alignment; conclusion is now "conceptually aligned, operationally stale" rather than blanket path-level compliance.
 - **`docs/merging-from-companion-self.md`** â€” Updated sync guidance to treat `template-manifest.json`, `template-version.json`, and `how-instances-consume-upgrades.md` as the live upstream contract.
-- **`docs/skill-work/work-companion-self/audit-report.md`** â€” Marked the older non-manifest diff as legacy; `audit-report-manifest.md` is the current path-level reference until the next regenerated report.
-- **`docs/skill-work/work-companion-self/README.md`** â€” Added the canonical operator instruction for "build in grace-mar first, then upstream the reusable layer."
+- **`docs/archive/skill-work-legacy/work-companion-self/audit-report.md`** â€” Marked the older non-manifest diff as legacy; `audit-report-manifest.md` is the current path-level reference until the next regenerated report.
+- **`docs/archive/skill-work-legacy/work-companion-self/README.md`** â€” Added the canonical operator instruction for "build in grace-mar first, then upstream the reusable layer."
 
 ### CI + PRP workflow hardening (2026-03-13)
 - **`.github/workflows/governance.yml`** â€” Added `validate-integrity.py --json` to the no-secrets governance CI path so routine push/PR checks cover both policy scan and canonical Record integrity.
@@ -123,17 +123,17 @@ Last updated: 2026-03-28
 
 ### Work layer taxonomy rewrite (2026-03-13)
 - **Core docs updated:** `docs/id-taxonomy.md`, `docs/conceptual-framework.md`, `docs/skills-modularity.md`, `docs/skills-template.md`, `docs/architecture.md`, `docs/grace-mar-core.md`, `docs/identity-fork-protocol.md`, `readme.md`, `docs/white-paper.md`, `docs/operator-brief.md`, `docs/portability.md`, and `companion-self-bootstrap.md`.
-- **Core change:** THINK and WRITE remain the only Record-bound self-skills; work now lives in a separate execution layer (`docs/skill-work/work-*/`, `work-*.md`).
+- **Core change:** THINK and WRITE remain the only Record-bound self-skills; work now lives in a separate execution layer (`docs/archive/skill-work-legacy/work-*/`, `work-*.md`).
 - **Runtime/export alignment completed for first-pass closure:** `scripts/export_curriculum.py`, `scripts/export_manifest.py`, `scripts/generate_profile.py`, `scripts/export_view.py`, `scripts/generate_lesson_prompt.py`, and `docs/self-template.md` now treat work as adjacent context rather than a peer self-skill.
 - **Legacy boundary clarified:** historical analysis/audit docs still retain `self-skill-work` / `BUILD` where needed, but current canonical docs now label those references as legacy compatibility surfaces rather than active schema.
 
 ### work-civ-mem territory setup (2026-03-13)
-- **New territory:** `docs/skill-work/work-civ-mem/README.md` and `docs/skill-work/work-civ-mem/roadmap.md`.
+- **New territory:** `docs/archive/skill-work-legacy/work-civ-mem/README.md` and `docs/archive/skill-work-legacy/work-civ-mem/roadmap.md`.
 - **Scope:** Grace-Mar stewardship surface for the external `civilization_memory` repository â€” repo management, audits, drift detection, contribution prep, and workflow clarity.
 - **Boundary:** `civilization_memory` remains the managed external repo; `work-civ-mem` is Grace-Mar's management territory for it; adjacent Companion Self product priorities are recorded in the roadmap but are not part of the first-pass implementation scope.
-- **Indexed:** `docs/skill-work/README.md` now lists `work-civ-mem` alongside the other work territories.
+- **Indexed:** `docs/archive/skill-work-legacy/README.md` now lists `work-civ-mem` alongside the other work territories.
 - **Adjacent strategic priorities captured (future, not implemented here):** approval inbox for `RECURSION-GATE`, visible provenance surfaces, and a portability-grade export bundle.
-- **Operational surfaces added:** `docs/skill-work/work-civ-mem/workspace.md` (runbook) and `docs/skill-work/work-civ-mem/audit-report.md` (initial baseline snapshot).
+- **Operational surfaces added:** `docs/archive/skill-work-legacy/work-civ-mem/workspace.md` (runbook) and `docs/archive/skill-work-legacy/work-civ-mem/audit-report.md` (initial baseline snapshot).
 
 ### Approval inbox specification (2026-03-13)
 - **`docs/approval-inbox-spec.md`** â€” New implementation-ready product spec for a browser-first `RECURSION-GATE` approval inbox.
@@ -171,7 +171,7 @@ Last updated: 2026-03-28
 - **Current doctrine:** WRITE remains the cleaner pure skill-container model; THINK may carry clearly labeled overlays when needed for context or work-horizon interpretation.
 
 ### work-politics â†” RECURSION-GATE sync (2026-03-12)
-- **docs/skill-work/work-politics/README.md** â€” Â§ Sync with RECURSION-GATE (doc vs gate, rhythm, IX vs ACT).
+- **docs/archive/skill-work-legacy/work-politics/README.md** â€” Â§ Sync with RECURSION-GATE (doc vs gate, rhythm, IX vs ACT).
 - **pol-candidate-template.md** â€” paste-ready work-politics YAML.
 
 ### Trajectory export + RL boundary (2026-03-12)
@@ -294,7 +294,7 @@ Last updated: 2026-03-28
 - **Second consumer path:** `platform/integrations/export_hook.py --target cursor` now exports the canonical runtime bundle directly for Cursor/Codex/Claude-style runtime consumers, proving the bundle is not OpenClaw-only.
 
 ### work-politics operator surface (2026-03-14)
-- **New work-politics entrypoint:** `docs/skill-work/work-politics/workspace.md` now defines the operator schema and canonical file map for the territory.
+- **New work-politics entrypoint:** `docs/archive/skill-work-legacy/work-politics/workspace.md` now defines the operator schema and canonical file map for the territory.
 - **Structured work-politics workflow docs:** `brief-source-registry.md` tracks weekly-brief source readiness, and `content-queue.md` tracks `@usa_first_ky` content state (`idea` â†’ `posted`).
 - **New ops module:** `scripts/work_politics_ops.py` derives campaign status, document freshness, work-politics gate state, blockers, revenue summary, and next actions from existing work-politics docs plus the canonical gate.
 - **New browser surface:** `platform/miniapp/operator-pol.html` plus `/operator/pol-status` and `/operator/pol-brief` (legacy `/operator/wap*`) in `platform/apps/miniapp_server.py` provide an authenticated work-politics console without creating a second queue.
@@ -302,7 +302,7 @@ Last updated: 2026-03-28
 - **Canonical workflow docs refreshed:** `README.md`, `metrics.md`, `account-x.md`, and `smm-workspace.md` now point operators toward the workspace, content queue, and brief-generation path rather than prose-only operation.
 
 ### work-politics outreach system v1 (2026-03-14)
-- **New outreach entrypoint:** `docs/skill-work/work-politics/outreach-workspace.md` defines outreach as a market-learning surface, not a mass-email engine.
+- **New outreach entrypoint:** `docs/archive/skill-work-legacy/work-politics/outreach-workspace.md` defines outreach as a market-learning surface, not a mass-email engine.
 - **Offer + proof surfaces:** `offers.md` and `proof-ledger.md` now hold bounded offer framing and reusable operational proof lines.
 - **Target + learning surfaces:** `target-registry.md`, `outreach-funnel.md`, and `objection-log.md` define who outreach is for, what happened by stage, and what objections are teaching us.
 - **work-politics docs aligned:** `workspace.md`, `README.md`, and `metrics.md` now include outreach as part of the canonical territory workflow.
@@ -313,10 +313,10 @@ Last updated: 2026-03-28
 - **Tracking updated:** `outreach-funnel.md`, `objection-log.md`, `proof-ledger.md`, `README.md`, and `metrics.md` now distinguish direct versus partner-led learning and partner-safe proof use.
 
 ### work-build-ai operatorization pass (2026-03-14)
-- **New build-ai entrypoint:** `docs/skill-work/work-build-ai/workspace.md` now defines the territory's current state, blockers, next actions, and canonical file map.
+- **New build-ai entrypoint:** `docs/archive/skill-work-legacy/work-build-ai/workspace.md` now defines the territory's current state, blockers, next actions, and canonical file map.
 - **Reality surfaces added:** `integration-status.md`, `known-gaps.md`, and `provenance-checklist.md` now separate implemented behavior from partial or documented-only behavior.
 - **Benchmark honesty pass:** `economic-benchmarks.md` now marks metrics as instrumented, partial, manual, or planned instead of implying full coverage.
-- **README/index aligned:** `work-build-ai/README.md` and `docs/skill-work/README.md` now point operators toward the new status and provenance surfaces.
+- **README/index aligned:** `work-build-ai/README.md` and `docs/archive/skill-work-legacy/README.md` now point operators toward the new status and provenance surfaces.
 
 ### work-build-ai business layer v1 (2026-03-14)
 - **Business surfaces added:** `offers.md`, `target-registry.md`, `proof-ledger.md`, `engagement-model.md`, `delivery-playbook.md`, `partner-channel.md`, and `objection-log.md`.

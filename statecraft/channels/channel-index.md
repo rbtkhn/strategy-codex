@@ -11,7 +11,7 @@ or configured `host`, YAML `series`, or filename prefix when listed in discovery
 
 Low-volume / occasional channels live in [channel-index-misc.md](./channel-index-misc.md).
 
-Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../platform/config/statecraft_youtube_discovery.json) · [youtube-transcript-queue.md](../../statecraft/sheets/source-archive-control/youtube-transcript-queue.md) · Legacy: [COGNITION-STREAMS-WATCHLIST-DEPRECATED.md](../../docs/skill-work/work-strategy/COGNITION-STREAMS-WATCHLIST-DEPRECATED.md)
+Curated daily watchlist (subset): [statecraft_youtube_discovery.json](../../platform/config/statecraft_youtube_discovery.json) · [youtube-transcript-queue.md](../../statecraft/sheets/source-archive-control/youtube-transcript-queue.md) · Legacy: [COGNITION-STREAMS-WATCHLIST-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/COGNITION-STREAMS-WATCHLIST-DEPRECATED.md)
 
 ## Stats
 

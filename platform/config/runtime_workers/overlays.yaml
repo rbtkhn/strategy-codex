@@ -4,7 +4,7 @@
 
 strategy:
   default_task_type: strategy
-  default_scope: docs/skill-work/work-strategy/strategy-notebook
+  default_scope: docs/archive/skill-work-legacy/work-strategy/strategy-notebook
   max_files: 250
   max_chars: 150000
   emphasize_anchor: true
@@ -12,7 +12,7 @@ strategy:
 
 moonshot:
   default_task_type: moonshot
-  default_scope: docs/skill-work/work-strategy/strategy-notebook
+  default_scope: docs/archive/skill-work-legacy/work-strategy/strategy-notebook
   max_files: 300
   max_chars: 180000
   emphasize_anchor: true

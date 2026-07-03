@@ -17,6 +17,6 @@ review_date: 2026-12-31
 
 **Activation:** `tri-mind`, `tri-frame`, `tutti` — redirect once; use a single speaker profile or the periodic review runbook unless operator revives multi-lens through skill-candidates.
 
-**SSOT:** [TRI-MIND-DEPRECATED.md](../../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md)
+**SSOT:** [TRI-MIND-DEPRECATED.md](../../../docs/archive/skill-work-legacy/work-strategy/TRI-MIND-DEPRECATED.md)
 
 **Preferred name (new work):** named speaker lens or **`runbook periodic review`**.

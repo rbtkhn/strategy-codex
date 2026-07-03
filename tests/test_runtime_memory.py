@@ -27,8 +27,8 @@ def test_session_start_brief_reads_continuity_files(monkeypatch) -> None:
         (REPO_ROOT / "session-log.md").resolve(): "session log\nline 2\n",
         (REPO_ROOT / "recursion-gate.md").resolve(): "gate\nentry\n",
         (REPO_ROOT / "self-evidence.md").resolve(): "evidence\nentry\n",
-        (REPO_ROOT / "docs/skill-work/work-dev/workspace.md").resolve(): "workspace\n",
-        (REPO_ROOT / "docs/skill-work/work-dev/session-continuity-contract.md").resolve(): "continuity\n",
+        (REPO_ROOT / "docs/archive/skill-work-legacy/work-dev/workspace.md").resolve(): "workspace\n",
+        (REPO_ROOT / "docs/archive/skill-work-legacy/work-dev/session-continuity-contract.md").resolve(): "continuity\n",
     }
 
     def fake_read_text(path: Path) -> str:

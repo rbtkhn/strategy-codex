@@ -13,7 +13,7 @@ Usage (from repo root):
     --title "Example Interface Artifact" \
     --artifact-kind html-visualizer \
     --generated-path runtime/artifacts/work-dev/interface-runtime/artifacts/example.html \
-    --source-input docs/skill-work/work-strategy/strategy-notebook \
+    --source-input docs/archive/skill-work-legacy/work-strategy/strategy-notebook \
     --intended-use "Example protocol smoke test"
 """
 

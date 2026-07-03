@@ -51,7 +51,7 @@ def pick_candidate(source: Path, basename: str, candidates: list[Path]) -> Path 
             value += 4
         if rel.startswith("continuity/"):
             value += 3
-        if rel.startswith("docs/skill-work/"):
+        if rel.startswith("docs/archive/skill-work-legacy/"):
             value += 2
         try:
             if source.relative_to(REPO_ROOT).parts[0] == path.relative_to(REPO_ROOT).parts[0]:

@@ -1,9 +1,9 @@
 # Demo script — `skill-strategy` using three ingested transcripts
 <!-- word_count: 1395 -->
 
-> **Legacy demo (2026-04).** Phase 4 **tri-frame** choreography is **obsolete** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Keep this playbook for **notebook / verify / synthesis** calibration; substitute **`state-synthesis`** / runbook or **single named mind** for new lens exercises.
+> **Legacy demo (2026-04).** Phase 4 **tri-frame** choreography is **obsolete** — [TRI-MIND-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/TRI-MIND-DEPRECATED.md). Keep this playbook for **notebook / verify / synthesis** calibration; substitute **`state-synthesis`** / runbook or **single named mind** for new lens exercises.
 
-**Purpose:** Runnable calibration for [skill-strategy](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md): notebook-first output, verify discipline, and **legacy explicit tri-frame** (all **three minds** — archived Phase 4 only). , not Voice.
+**Purpose:** Runnable calibration for [skill-strategy](../../docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md): notebook-first output, verify discipline, and **legacy explicit tri-frame** (all **three minds** — archived Phase 4 only). , not Voice.
 
 **Prerequisite:** From repo root, run `bash scripts/demo_skill_strategy_transcripts_check.sh` (expect `All digest files present.`). If any file is missing, stop.
 
@@ -44,7 +44,7 @@ Optional index: [`research/external/work-strategy/analyst-corpus/INDEX.md`](../.
 
 ## Phase 0 — Prep (about 5 minutes)
 
-1. Skim [skill-strategy SKILL](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md): **Modes**, **Default moves**, **Anti-patterns**, **Three minds (optional — granular)**.
+1. Skim [skill-strategy SKILL](../../docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md): **Modes**, **Default moves**, **Anti-patterns**, **Three minds (optional — granular)**.
 2. Confirm you understand: **tri-frame is explicit in this demo** (not the default for every `strategy` pass in normal work). See [strategy-minds-granular](../../../../.cursor/rules/strategy-minds-granular.mdc).
 
 ---
@@ -129,7 +129,7 @@ Synthesize across all three digests (Mearsheimer, Mercouris, Davis×Crooke paths
 
 ## Phase 4 — Tri-frame (three minds) — **legacy; mandatory only for full 2026-04 demo replay**
 
-> **Deprecated:** Do not use tri-frame as the default lens path. [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md) · replacement: [**`periodic-statecraft-review` runbook**](../../skills/runbooks/periodic-statecraft-review.runbook.md) or **`state-synthesis`**.
+> **Deprecated:** Do not use tri-frame as the default lens path. [TRI-MIND-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/TRI-MIND-DEPRECATED.md) · replacement: [**`periodic-statecraft-review` runbook**](../../skills/runbooks/periodic-statecraft-review.runbook.md) or **`state-synthesis`**.
 
 **Goal:** Exercise **Mercouris**, **Mearsheimer**, and **Barnes** on the **shared corpus**, with explicit trigger so [granular minds](../../../../.cursor/rules/strategy-minds-granular.mdc) is satisfied.
 
@@ -141,14 +141,14 @@ Synthesize across all three digests (Mearsheimer, Mercouris, Davis×Crooke paths
 
 **Recipe:** [MINDS-SKILL-STRATEGY-PATTERNS.md — Recipe C (tri-frame / LEARN)](../minds/MINDS-SKILL-STRATEGY-PATTERNS.md). **Analysis order for this demo:** **Mercouris → Mearsheimer → Barnes** (preserve contradictions; one synthesis line).
 
-**Note:** The [skill-strategy post-entry lens menu](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md) lists offer order **Barnes → Mearsheimer → Mercouris** for optional picks. That is **menu order**, not the same as Recipe C **analysis order** for a deep tri-frame pass.
+**Note:** The [skill-strategy post-entry lens menu](../../docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md) lists offer order **Barnes → Mearsheimer → Mercouris** for optional picks. That is **menu order**, not the same as Recipe C **analysis order** for a deep tri-frame pass.
 
 **Prompt (copy):**
 
 ```text
 Tri-frame, strict — Hormuz coercion, Lebanon ceasefire scope, and U.S. alliance strain.
 
-Use the three trimmed minds under docs/skill-work/work-strategy/strategy-notebook/minds/ (CIV-MIND-MERCOURIS, CIV-MIND-MEARSHEIMER, CIV-MIND-BARNES). Analysis order: Mercouris, then Mearsheimer, then Barnes. Ground every section in the three transcript digests (2026-04-10 Mearsheimer, Mercouris, Davis×Crooke paths).
+Use the three trimmed minds under docs/archive/skill-work-legacy/work-strategy/strategy-notebook/minds/ (CIV-MIND-MERCOURIS, CIV-MIND-MEARSHEIMER, CIV-MIND-BARNES). Analysis order: Mercouris, then Mearsheimer, then Barnes. Ground every section in the three transcript digests (2026-04-10 Mearsheimer, Mercouris, Davis×Crooke paths).
 
 Append ### DEMO — Phase 4 with three labeled subsections (Mercouris, Mearsheimer, Barnes), then one synthesis line (converge or tension). ### References must list three digests + three mind files. Do not edit STRATEGY.md. Optional: if using LEARN MODE extraction, follow LEARN_MODE_RULES.md and label it.
 ```

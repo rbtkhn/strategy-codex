@@ -69,7 +69,7 @@
 - **Latest evidence:** [SYNC-DAILY.md](SYNC-DAILY.md) Â§ Template alignment check; deep audit: [work-companion-self/README.md](../work-companion-self/README.md), `scripts/template_diff.py`.  
 - **Framing note:** Advisor module should not silently diverge from template semantics that affect instance onboarding.  
 - **Primary implication:** Pin `main` or a tag; batch reconciliation when drift is material.  
-- **Contradiction / caution:** Instance-only WORK under `docs/skill-work/**` is expected; not every manifest diff requires a merge slice.
+- **Contradiction / caution:** Instance-only WORK under `docs/archive/skill-work-legacy/**` is expected; not every manifest diff requires a merge slice.
 
 - **Watch:** Content plan vs SMM capability rubric  
 - **First noticed:** 2026-04-04  

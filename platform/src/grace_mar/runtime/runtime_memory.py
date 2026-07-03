@@ -26,8 +26,8 @@ RUNTIME_USE_CASES: tuple[dict[str, Any], ...] = (
             "session-log.md",
             "recursion-gate.md",
             "self-evidence.md",
-            "docs/skill-work/work-dev/workspace.md",
-            "docs/skill-work/work-dev/session-continuity-contract.md",
+            "docs/archive/skill-work-legacy/work-dev/workspace.md",
+            "docs/archive/skill-work-legacy/work-dev/session-continuity-contract.md",
         ],
         "writes": ["sessions", "runtime_observations", "prepared_context_cache"],
     },
@@ -39,7 +39,7 @@ RUNTIME_USE_CASES: tuple[dict[str, Any], ...] = (
     {
         "name": "decision_capture",
         "reads": [
-            "docs/skill-work/work-dev/agent-memory-pgvector-spec.md",
+            "docs/archive/skill-work-legacy/work-dev/agent-memory-pgvector-spec.md",
             "docs/platform/integrations/ob1/structured-memory-mcp.md",
             "active work doc or lane README",
         ],
@@ -101,8 +101,8 @@ def build_session_start_brief(
         Path("session-log.md"),
         Path("recursion-gate.md"),
         Path("self-evidence.md"),
-        Path("docs/skill-work/work-dev/workspace.md"),
-        Path("docs/skill-work/work-dev/session-continuity-contract.md"),
+        Path("docs/archive/skill-work-legacy/work-dev/workspace.md"),
+        Path("docs/archive/skill-work-legacy/work-dev/session-continuity-contract.md"),
     ]
     if include_paths:
         paths.extend(Path(p) for p in include_paths)

@@ -7,7 +7,7 @@ via scripts/log_operator_choice.py (same mechanism as work-menu-conventions).
 
 Optional --recent N (or --history for N=20) appends a lightweight **recent strategy activity**
 section after state: merges strategy-fold-events.jsonl, filtered WORK-choice blocks from
-session-transcript.md, and optional git commits under docs/skill-work/work-strategy.
+session-transcript.md, and optional git commits under docs/archive/skill-work-legacy/work-strategy.
 
 Usage:
   python3 scripts/strategy_context.py -u grace-mar
@@ -153,7 +153,7 @@ def parse_fold_jsonl_events(path: Path) -> list[HistoryEvent]:
     return out
 
 def git_strategy_lane_events(repo_root: Path, limit: int) -> list[HistoryEvent]:
-    """Last `limit` commits touching docs/skill-work/work-strategy; empty if git fails."""
+    """Last `limit` commits touching docs/archive/skill-work-legacy/work-strategy; empty if git fails."""
     if limit <= 0:
         return []
     try:
@@ -166,7 +166,7 @@ def git_strategy_lane_events(repo_root: Path, limit: int) -> list[HistoryEvent]:
                 f"-n{limit}",
                 "--format=%cI%x09%s",
                 "--",
-                "docs/skill-work/work-strategy",
+                "docs/archive/skill-work-legacy/work-strategy",
             ],
             capture_output=True,
             text=True,
@@ -584,7 +584,7 @@ def main() -> int:
         type=int,
         default=0,
         metavar="K",
-        help="Include up to K latest git commits touching docs/skill-work/work-strategy in the merge pool",
+        help="Include up to K latest git commits touching docs/archive/skill-work-legacy/work-strategy in the merge pool",
     )
     args = ap.parse_args()
     uid = args.user.strip()

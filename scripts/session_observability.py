@@ -47,7 +47,7 @@ EXPLORATORY_PATTERNS = [
     "self-memory.md",
     "session-log.md",
     "session-transcript.md",
-    "docs/skill-work/",
+    "docs/archive/skill-work-legacy/",
     ".cursor/",
 ]
 

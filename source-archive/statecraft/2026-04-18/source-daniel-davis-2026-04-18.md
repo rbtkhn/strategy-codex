@@ -5,7 +5,7 @@ thread: davis
 channel_slug: daniel-davis
 kind: transcript
 source_form: post
-source_path: docs/skill-work/work-strategy/strategy-notebook/experts/davis/transcript.md
+source_path: docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/davis/transcript.md
 ---
 ## 2026-04-18
 - YT | cold: **Daniel Davis** — *Iran Closes Strait of Hormuz, Now What?* — Trump clip vs **Iranian** **memory** **frame** (**1953**/**Iran–Iraq**/**EFP** **nuance**); **dual-blockade** **(Araghchi** **/** **IRGC** **all-or-nothing** **vs** **Trump** **Truth** **Social)**; **Sean** **Bell** **(Sky)** **×** **Davis** on **gunboat** **signaling** **vs** **full** **sea** **denial**; **AIS** **/** **route** **maps** **(two-lane** **pre-war** **vs** **single** **approved** **path)**; **spin** **vs** **physical** **Strait** **control**; **macro** **stack** **(inventories,** **Bessent** **waiver** **whiplash,** **fertilizer** **/** **jet** **fuel)**; **Trump** **nuclear-material** **/** **no** **Hormuz** **tolls** **claims** **vs** **IRI** **red** **lines**; **Islamabad** **May** **2025** **analogy**; **ceasefire** **Wednesday** **clock** **/** **war** **resume** **threat** — **verify-first** on **market-manipulation** **hypothesis** **and** **all** **numeric** **claims** // hook: Hormuz lattice + [strategy-expert-davis-thread.md](strategy-expert-davis-thread.md) **2026-04** Deep Dive; verbatim [source-deepdive-iran-closes-hormuz-2026-04-18-verbatim-2026-04-18.md](source-deepdive-iran-closes-hormuz-2026-04-18-verbatim-2026-04-18.md) | https://www.youtube.com/watch?v=TBD-davis-hormuz-deepdive-2026-04-18 | verify:operator-verbatim+pin-canonical-URL+aired:TBD+TS-primary+IRGC-statements | thread:davis | grep:Hormuz+Davis+Araghchi+IRGC+Khamenei+Bessent+Bell

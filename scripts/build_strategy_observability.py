@@ -27,7 +27,7 @@ from repo_io import SRC_DIR
 from grace_mar.observability.metric_contract import WORKFLOW_METRIC_KEY, fill_contract  # noqa: E402
 OUT = REPO_ROOT / "runtime/artifacts/work-strategy/strategy-observability.json"
 
-STRATEGY_ROOT = REPO_ROOT / "docs/skill-work/work-strategy"
+STRATEGY_ROOT = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy"
 NB_ROOT = REPO_ROOT / "codex"
 
 def _count_dated_entries(days_path: Path) -> tuple[int, list[str]]:

@@ -11,4 +11,4 @@
 
 **Category mix (latest `all` scan):** predominantly `broken_link`; residual `absolute_path` (~28) in example paths and operator receipts.
 
-**Next tranche:** statecraft `*-thread.md` machine-layer legacy targets; `.cursor/skills` depth to `skills/runbooks/`; missing `work-cici` placeholder paths → `docs/skill-work/work-cici/README.md`.
+**Next tranche:** statecraft `*-thread.md` machine-layer legacy targets; `.cursor/skills` depth to `skills/runbooks/`; missing `work-cici` placeholder paths → `singularity/work-cici/README.md`.

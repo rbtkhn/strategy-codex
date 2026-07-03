@@ -94,7 +94,7 @@ DISALLOWED_PATTERNS: list[tuple[re.Pattern[str], str]] = [
 ]
 
 ALLOWED_PATH_FRAGMENTS = (
-    "docs/skill-work/work-business/",
+    "docs/archive/skill-work-legacy/work-business/",
     "scripts/emit_business_transaction.py",
     "scripts/import_bank_csv.py",
     "statecraft/templates/sid-transaction-memo.md",

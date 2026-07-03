@@ -16,7 +16,7 @@ workspace:
 - **Notes** (concepts, polyphony, face/category/blade, research briefs).
 - **`minds/`** - **No mind files here.** Canonical **CIV-MIND** profiles for
   strategy work live only under
-  [`docs/skill-work/work-strategy/minds/`](../skill-work/work-strategy/minds/README.md)
+  [`docs/archive/skill-work-legacy/work-strategy/minds/`](../skill-work/work-strategy/minds/README.md)
   (self-contained; **do not require** civ-mem). See [minds/README.md](minds/README.md).
 
 Do not treat `docs/civilization-memory/` as the civ-mem corpus itself; treat it

@@ -11,7 +11,7 @@
 
 ## Active moonshots
 
-_(One subsection per moonshot; full template: [moonshot-template.md](../../docs/skill-work/work-moonshots/moonshot-template.md).)_
+_(One subsection per moonshot; full template: [moonshot-template.md](../../docs/archive/skill-work-legacy/work-moonshots/moonshot-template.md).)_
 
 ### MS-001 — `christianity-islam-civilizational-bridge`
 

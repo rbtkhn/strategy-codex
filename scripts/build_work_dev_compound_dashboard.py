@@ -54,12 +54,12 @@ ARTIFACTS_CHECK = [
 ]
 
 DOCS_CHECK: list[tuple[str, str]] = [
-    ("docs/skill-work/work-dev/three-compounding-loops.md", "Record vs WORK vs CI compounding"),
-    ("docs/skill-work/work-dev/derived-regeneration.md", "Derived regeneration roadmap / rebuildability"),
-    ("docs/skill-work/work-dev/compound-loop.md", "Compound work loop process and boundary"),
-    ("docs/skill-work/work-dev/compound-gate-export.md", "Gate candidate export — boundary and command"),
-    ("docs/skill-work/work-dev/reviewer-matrix.md", "Review lenses and promotion rules"),
-    ("docs/skill-work/work-dev/compound-note-template.md", "Compound note front matter and sections"),
+    ("docs/archive/skill-work-legacy/work-dev/three-compounding-loops.md", "Record vs WORK vs CI compounding"),
+    ("docs/archive/skill-work-legacy/work-dev/derived-regeneration.md", "Derived regeneration roadmap / rebuildability"),
+    ("docs/archive/skill-work-legacy/work-dev/compound-loop.md", "Compound work loop process and boundary"),
+    ("docs/archive/skill-work-legacy/work-dev/compound-gate-export.md", "Gate candidate export — boundary and command"),
+    ("docs/archive/skill-work-legacy/work-dev/reviewer-matrix.md", "Review lenses and promotion rules"),
+    ("docs/archive/skill-work-legacy/work-dev/compound-note-template.md", "Compound note front matter and sections"),
 ]
 
 SCRIPTS_CHECK: list[tuple[str, str]] = [

@@ -15,13 +15,13 @@ tags:
 portable_source: skills/youtube-raw-input-transcript/SKILL.md
 synced_by: sync_portable_skills.py
 deprecated: 2026-06-20
-see: docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md
+see: docs/archive/skill-work-legacy/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md
 ---
 # DEPRECATED — YouTube raw-input / materialize skill
 
 **Status:** Deprecated **2026-06-20**. Do not invoke **`youtube transcript`** or **`materialize_youtube_raw_input.py --apply`** for new work in strategy-codex.
 
-Full spec: [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../docs/skill-work/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md)
+Full spec: [YOUTUBE-MATERIALIZE-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/YOUTUBE-MATERIALIZE-DEPRECATED.md)
 
 ## Use instead
 

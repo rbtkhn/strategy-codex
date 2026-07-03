@@ -400,7 +400,7 @@ def build_channel_index(root: Path) -> str:
         "Curated daily watchlist (subset): "
         "[statecraft_youtube_discovery.json](../../platform/config/statecraft_youtube_discovery.json) · "
         "[youtube-transcript-queue.md](../../statecraft/sheets/source-archive-control/youtube-transcript-queue.md) · "
-        "Legacy: [COGNITION-STREAMS-WATCHLIST-DEPRECATED.md](../../docs/skill-work/work-strategy/COGNITION-STREAMS-WATCHLIST-DEPRECATED.md)",
+        "Legacy: [COGNITION-STREAMS-WATCHLIST-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/COGNITION-STREAMS-WATCHLIST-DEPRECATED.md)",
         "",
         "## Stats",
         "",

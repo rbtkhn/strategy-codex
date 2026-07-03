@@ -57,7 +57,7 @@ def render_summary(rows: list[DecisionRow], *, generated_at: str) -> str:
     lines = [
         "# Decision Ledger Summary",
         "",
-        "**Derived artifact.** Source: `docs/skill-work/work-dev/decision-ledger.md`. Not Record authority.",
+        "**Derived artifact.** Source: `docs/archive/skill-work-legacy/work-dev/decision-ledger.md`. Not Record authority.",
         "",
         f"Generated: {generated_at}",
         "",

@@ -1,6 +1,6 @@
 ---
 name: skill-write
-description: "Primary activation tokens (strong): skill-write, strategy write, publish to Locals, VivaBarnesLaw / Duran, X trim, PH comment -> then read docs/skill-write/write-operator-preferences.md + write-shipping-checklist.md. Weak alias: bare \"write\" (ambiguous with code tasks) -> use strong tokens when you mean operator public copy. Operator public copy for Locals (VivaBarnesLaw, Duran), X, Predictive History comments. Compound: strategy write / strategy + write in the same turn -> substance from [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) / codex frontier and this hub for paste-ready prose (topic-first ledes, memorable declarative closers, checklist). VivaBarnesLaw Locals defaults are NOT CIV-MIND-BARNES / tri-mind voice unless explicitly requested."
+description: "Primary activation tokens (strong): skill-write, strategy write, publish to Locals, VivaBarnesLaw / Duran, X trim, PH comment -> then read docs/skill-write/write-operator-preferences.md + write-shipping-checklist.md. Weak alias: bare \"write\" (ambiguous with code tasks) -> use strong tokens when you mean operator public copy. Operator public copy for Locals (VivaBarnesLaw, Duran), X, Predictive History comments. Compound: strategy write / strategy + write in the same turn -> substance from [DEFAULT-PATH.md](../../../docs/archive/skill-work-legacy/work-strategy/DEFAULT-PATH.md) / codex frontier and this hub for paste-ready prose (topic-first ledes, memorable declarative closers, checklist). VivaBarnesLaw Locals defaults are NOT CIV-MIND-BARNES / tri-mind voice unless explicitly requested."
 preferred_activation: skill-write
 activation: skill-write
 category: domain-pack
@@ -32,7 +32,7 @@ scope_class: repo-governed
 | Operator says | Agent does |
 |---------------|------------|
 | **`skill-write`**, **`strategy write`**, **`publish`** (Locals / X / PH), **VivaBarnesLaw** / **Locals paste** | Load **write-operator-preferences** and apply **shipping checklist** before shipping paste-ready copy. |
-| **`strategy`** + **`write`** / **`publish`** in the **same** request | Substance from [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) / codex frontier; this hub for **public surface** prose — **both**, not write alone. |
+| **`strategy`** + **`write`** / **`publish`** in the **same** request | Substance from [DEFAULT-PATH.md](../../../docs/archive/skill-work-legacy/work-strategy/DEFAULT-PATH.md) / codex frontier; this hub for **public surface** prose — **both**, not write alone. |
 | Bare **`write`** (coding context) | **Not** this skill by default - clarify or use **`skill-write`**. |
 | **Locals** / **VivaBarnesLaw** | Forum craft per hub - **not** default [`CIV-MIND-BARNES`](../../../statecraft/voices/barnes/barnes-mind.md) linguistic fingerprint (that is **tri-mind / WORK** unless explicitly requested). |
 
@@ -46,7 +46,7 @@ For **analysis-derived Locals** drafts, the standard workflow now includes:
 
 ## Relation to `strategy` / codex pass
 
-After a substantive **`strategy`** pass ([DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md)), you **may offer once** whether the operator wants **`skill-write`** next unless they already combined **`strategy write`**. When combined in one message, apply **both** contracts.
+After a substantive **`strategy`** pass ([DEFAULT-PATH.md](../../../docs/archive/skill-work-legacy/work-strategy/DEFAULT-PATH.md)), you **may offer once** whether the operator wants **`skill-write`** next unless they already combined **`strategy write`**. When combined in one message, apply **both** contracts.
 
 ## Internal vs public wording
 
@@ -66,7 +66,7 @@ Do not make the reader learn repo shorthand unless that teaching move is itself 
 
 ## Optional: `civilization_memory` adjacency (WORK)
 
-When drafting copy anchored to [`research/repos/civilization_memory`](../../../research/repos/civilization_memory) paths, optional structural receipts: [`external-codex-explorer.md`](../../../docs/skill-work/work-dev/external-codex-explorer.md). Policy detail stays in **[write-operator-preferences](../../../docs/skill-write/write-operator-preferences.md)** (subsection *External codex neighborhood*).
+When drafting copy anchored to [`research/repos/civilization_memory`](../../../research/repos/civilization_memory) paths, optional structural receipts: [`external-codex-explorer.md`](../../../docs/archive/skill-work-legacy/work-dev/external-codex-explorer.md). Policy detail stays in **[write-operator-preferences](../../../docs/skill-write/write-operator-preferences.md)** (subsection *External codex neighborhood*).
 
 ## Cursor rules (always-on overlays)
 

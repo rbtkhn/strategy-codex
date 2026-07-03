@@ -41,13 +41,13 @@ Use these as source lanes:
 
 | Source | Path |
 |--------|------|
-| work-business | [docs/skill-work/work-business/README.md](../../../docs/skill-work/work-business/README.md) |
-| Grace Gems | [docs/skill-work/work-business/grace-gems/README.md](../../../docs/skill-work/work-business/grace-gems/README.md) |
-| work-cici | [docs/skill-work/work-cici/README.md](../../../README.md) |
-| work-dev | [docs/skill-work/work-dev/README.md](../../../docs/skill-work/work-dev/README.md) |
-| work-strategy | [docs/skill-work/work-strategy/README.md](../../../docs/skill-work/work-strategy/README.md) |
+| work-business | [docs/archive/skill-work-legacy/work-business/README.md](../../../docs/archive/skill-work-legacy/work-business/README.md) |
+| Grace Gems | [docs/archive/skill-work-legacy/work-business/grace-gems/README.md](../../../docs/archive/skill-work-legacy/work-business/grace-gems/README.md) |
+| work-cici | [singularity/work-cici/README.md](../../../README.md) |
+| work-dev | [docs/archive/skill-work-legacy/work-dev/README.md](../../../docs/archive/skill-work-legacy/work-dev/README.md) |
+| work-strategy | [docs/archive/skill-work-legacy/work-strategy/README.md](../../../docs/archive/skill-work-legacy/work-strategy/README.md) |
 | work-cadence | [continuity/cadence/README.md](../../../continuity/cadence/README.md) |
-| Work-dev sources | [docs/skill-work/work-dev/work-dev-sources.md](../../../docs/skill-work/work-dev/work-dev-sources.md) |
+| Work-dev sources | [docs/archive/skill-work-legacy/work-dev/work-dev-sources.md](../../../docs/archive/skill-work-legacy/work-dev/work-dev-sources.md) |
 
 ## Approval Boundary
 

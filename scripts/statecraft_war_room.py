@@ -5,7 +5,7 @@ Statecraft War Room — advisory rollup of live statecraft objects.
 Read-only except report outputs. Does not create instrument compact directories.
 
 See runtime/artifacts/statecraft-war-room/README.md and
-docs/skill-work/work-dev/operator-dashboard-consolidation-phase0.md.
+docs/archive/skill-work-legacy/work-dev/operator-dashboard-consolidation-phase0.md.
 """
 
 from __future__ import annotations

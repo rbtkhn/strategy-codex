@@ -20,8 +20,8 @@ CONDUCTOR_DOCS = (
 )
 
 REMOVED_STRATEGY_NOTEBOOK_TARGETS = (
-    "docs/skill-work/work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md",
-    "docs/skill-work/work-strategy/strategy-notebook/CONDUCTOR-CLOSE-TEMPLATE.md",
+    "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md",
+    "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/CONDUCTOR-CLOSE-TEMPLATE.md",
     "work-strategy/strategy-notebook/CONDUCTOR-IMPROVEMENT-LOOP.md",
     "work-strategy/strategy-notebook/CONDUCTOR-CLOSE-TEMPLATE.md",
 )
@@ -99,7 +99,7 @@ def test_conductor_finale_requires_actionability_close() -> None:
         encoding="utf-8"
     )
     texts = [protocol]
-    benchmark_path = REPO_ROOT / "docs/skill-work/work-dev/kleiber-composition-benchmark.md"
+    benchmark_path = REPO_ROOT / "docs/archive/skill-work-legacy/work-dev/kleiber-composition-benchmark.md"
     if benchmark_path.is_file():
         texts.append(benchmark_path.read_text(encoding="utf-8"))
 

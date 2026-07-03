@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build a structural neighborhood report for a path inside an external codex checkout.
 
-WORK-only — derived receipt; not Record truth. See docs/skill-work/work-dev/external-codex-explorer.md
+WORK-only — derived receipt; not Record truth. See docs/archive/skill-work-legacy/work-dev/external-codex-explorer.md
 """
 
 from __future__ import annotations

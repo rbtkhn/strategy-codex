@@ -1,6 +1,6 @@
 # Health-Fitness Profile — Abigail (Abby)
 
-**work-health-fitness user.** Companion-led. Phase 0 (Record-only). See [work-health-fitness](../../docs/skill-work/work-health-fitness/README.md).
+**work-health-fitness user.** Companion-led. Phase 0 (Record-only). See [work-health-fitness](../../docs/archive/skill-work-legacy/work-health-fitness/README.md).
 
 ---
 

@@ -12,7 +12,7 @@ Use this skill when drafting `ph-civ` Civilization YouTube comments that are mea
 **Read first:**
 
 - [`docs/skill-write/predictive-history-youtube-comments.md`](../../../docs/skill-write/predictive-history-youtube-comments.md)
-- [`docs/skill-work/work-strategy/predictive-history-comment-rollout/wave-one-civ-01-to-civ-06.md`](../../../docs/skill-work/work-strategy/predictive-history-comment-rollout/wave-one-civ-01-to-civ-06.md)
+- [`docs/archive/skill-work-legacy/work-strategy/predictive-history-comment-rollout/wave-one-civ-01-to-civ-06.md`](../../../docs/archive/skill-work-legacy/work-strategy/predictive-history-comment-rollout/wave-one-civ-01-to-civ-06.md)
 
 ## Core rule
 

@@ -20,7 +20,7 @@ from strategy_expert_corpus import RE_IN_FOLDER_MONTH_THREAD  # noqa: E402
 
 DEFAULT_DIR = (
     REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook"
+    / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 )
 
 SKIP_FILES = {

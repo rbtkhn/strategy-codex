@@ -7,7 +7,7 @@ alwaysApply: false
 
 Operator-only continuity tooling. **Not** Record truth; **not** a replacement for `harness_warmup.py` or the gate.
 
-- **Full runbook:** `docs/skill-work/work-dev/google-workspace-cli-operator.md`
+- **Full runbook:** `docs/archive/skill-work-legacy/work-dev/google-workspace-cli-operator.md`
 - **Config:** local `.env.gws.local` (see `.gitignore` â€” `.env.*.local` is ignored).
 - **Logging:** use a local work-dev log file; do **not** treat `session-log.md` as an operator tooling audit trail.
 

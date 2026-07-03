@@ -125,7 +125,7 @@ India remains a long-horizon comprehensive-power partner and balancing pole. Do 
 
 ## Wire verification
 
-**News-verify:** America lane is **lane 1** of the five-lane CIV-STATE sweep on every `wire verify` pass — [WIRE-VERIFY-CIV-STATE-SOURCES.md § America](../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md#america-lane).
+**News-verify:** America lane is **lane 1** of the five-lane CIV-STATE sweep on every `wire verify` pass — [WIRE-VERIFY-CIV-STATE-SOURCES.md § America](../../docs/archive/skill-work-legacy/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md#america-lane).
 
 ## Drafting Prompts
 

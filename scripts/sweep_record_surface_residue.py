@@ -34,7 +34,7 @@ REPLACEMENTS: tuple[tuple[str, str], ...] = (
     ("LIB-0153", "strategy-codex (`continuity/`)"),
     ("LIB-0149", "predictive-history (`continuity/predictive-history/`)"),
     ("LIB-0154", "cici notebook (`singularity/work-cici/cici-notebook/`)"),
-    ("LIB-0155", "dev journal (`docs/skill-work/work-dev/dev-notebook/work-dev/journal/`)"),
+    ("LIB-0155", "dev journal (`docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/`)"),
     ("LIB-0151", "Predictive History YouTube library (`research/external/youtube-channels/predictive-history/`)"),
     ("prune_self_memory.py", "prune_memory.py"),
     ("resolve_self_memory_path", "resolve_memory_path"),

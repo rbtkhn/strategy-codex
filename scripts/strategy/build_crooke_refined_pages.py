@@ -4,7 +4,7 @@
 Run from repo root:
   python3 scripts/strategy/build_crooke_refined_pages.py
 
-Scaffolds match docs/skill-work/work-strategy/strategy-notebook/refined-page-template.md
+Scaffolds match docs/archive/skill-work-legacy/work-strategy/strategy-notebook/refined-page-template.md
 (Mode C — Substack; audit_refined_pages.py-friendly).
 
 Idempotent: overwrites manifest; overwrites crooke-page files that still contain
@@ -38,7 +38,7 @@ except ImportError:  # pragma: no cover
     )
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 RAW = NOTEBOOK / "raw-input"
 CROOKE = NOTEBOOK / "experts" / "crooke"
 MANIFEST_PATH = CROOKE / "crooke-pages-manifest.yaml"

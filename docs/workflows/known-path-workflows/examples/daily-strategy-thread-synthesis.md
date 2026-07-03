@@ -10,12 +10,12 @@ trigger: "End of strategy day or operator-invoked before EOD compose"
 authority_class: draftable
 maximum_action: "Produce a single reviewable draft markdown file summarizing signals; never merge into expert threads or days.md without operator weave and gate rules."
 input_surfaces:
-  - docs/skill-work/work-strategy/strategy-notebook/chapters/
-  - docs/skill-work/work-strategy/strategy-notebook/raw-input/
-  - docs/skill-work/work-strategy/strategy-notebook/inbox/
-  - docs/skill-work/work-strategy/daily-brief-YYYY-MM-DD.md
+  - docs/archive/skill-work-legacy/work-strategy/strategy-notebook/chapters/
+  - docs/archive/skill-work-legacy/work-strategy/strategy-notebook/raw-input/
+  - docs/archive/skill-work-legacy/work-strategy/strategy-notebook/inbox/
+  - docs/archive/skill-work-legacy/work-strategy/daily-brief-YYYY-MM-DD.md
 output_surfaces:
-  - docs/skill-work/work-strategy/strategy-notebook/raw-input/
+  - docs/archive/skill-work-legacy/work-strategy/strategy-notebook/raw-input/
 related_existing_surfaces:
   - runtime_vs_record
   - authority_map
@@ -42,7 +42,7 @@ Consolidate **recent strategy-notebook inputs** (chapter `days.md` pointers, `ra
 
 1. Read **compose-day** scope from [NOTEBOOK-PREFERENCES](../../../../continuity/NOTEBOOK-PREFERENCES.md) and active `chapters/YYYY-MM/days.md` (read-only).
 2. Scan **inbox** and **raw-input** for the same window (read-only).
-3. Optionally read `docs/skill-work/work-strategy/daily-brief-YYYY-MM-DD.md` for §1d–§1h anchors (read-only).
+3. Optionally read `docs/archive/skill-work-legacy/work-strategy/daily-brief-YYYY-MM-DD.md` for §1d–§1h anchors (read-only).
 4. Emit **one** draft file under `strategy-notebook/raw-input/` (or operator-chosen draft path) with sections: Chronicle summary, Open threads, Tensions, Missing signals, Proposed next actions (all draft).
 5. Operator **reviews**; operator **weaves** into `days.md` / expert `thread.md` using existing repo conventions; **no** direct append to expert threads by the workflow as executed.
 

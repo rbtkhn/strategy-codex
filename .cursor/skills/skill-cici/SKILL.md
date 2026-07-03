@@ -13,7 +13,7 @@ scope_class: repo-governed
 
 **Purpose:** Run a **consistent daily (or session) learning log** for **Open Brain (OB1)**, the **[Cici](https://github.com/Xavier-x01/Cici)** instance repo, and **BrewMind** — without confusing **WORK coaching** with **Record** or **gate** merges.
 
-**Canonical prose + automation spec (grace-mar):** [docs/skill-work/work-cici/cici-notebook/README.md](../../../README.md) · [SYNTHESIS-SOURCES.md](../../../singularity/work-cici/cici-notebook/SYNTHESIS-SOURCES.md).
+**Canonical prose + automation spec (grace-mar):** [singularity/work-cici/cici-notebook/README.md](../../../README.md) · [SYNTHESIS-SOURCES.md](../../../singularity/work-cici/cici-notebook/SYNTHESIS-SOURCES.md).
 
 ---
 
@@ -22,7 +22,7 @@ scope_class: repo-governed
 Answer one question:
 
 - **“In Xavier’s OB1 / Cici / BrewMind world, I am observing, coaching, or logging …”** → this skill (and **cici-notebook** paths in grace-mar if Mode A).
-- **“In grace-mar’s own work-dev / integration / harness, I am building …”** → [dev-journal (work notebook / work-dev lane)](../../../docs/skill-work/work-dev/dev-notebook/work-dev/journal/README.md), not this skill.
+- **“In grace-mar’s own work-dev / integration / harness, I am building …”** → [dev-journal (work notebook / work-dev lane)](../../../docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/README.md), not this skill.
 - **“Launching or operating a localized cohort”** (Anyang families, WeChat room, China stack, sponsor pitch, Foundation/Builder lanes) → [OPERATOR-RUNBOOK.md](../../../singularity/work-anyang/OPERATOR-RUNBOOK.md) and [singularity/work-anyang/](../../../singularity/work-anyang/README.md) — **not** cici-notebook digest mode.
 
 If a day touches **both**, split: Xavier trajectory **here**; grace-mar implementation reflection **dev-journal**. Cohort launch work stays in **work-anyang** even when the upstream pattern is cici-ai.
@@ -62,7 +62,7 @@ If **L1 (commits)** and **L2 (notes)** disagree, do not force resolution: add a 
 
 ## Mode A — Mentor / operator in grace-mar
 
-**Where files live:** `docs/skill-work/work-cici/cici-notebook/`
+**Where files live:** `singularity/work-cici/cici-notebook/`
 
 **Steps**
 
@@ -150,6 +150,6 @@ See [think-purpose-and-boundary.md](../../../docs/skill-think/think-purpose-and-
 | Digest script | [scripts/cici_journal_ob1_digest.py](../../../scripts/cici_journal_ob1_digest.py) |
 | Work-xavier index | [INDEX.md](../../../singularity/work-cici/INDEX.md) |
 | Localized cohort (Anyang) | [OPERATOR-RUNBOOK.md](../../../singularity/work-anyang/OPERATOR-RUNBOOK.md) |
-| `strategy` / DEFAULT-PATH (parallel rhythm) | [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) |
+| `strategy` / DEFAULT-PATH (parallel rhythm) | [DEFAULT-PATH.md](../../../docs/archive/skill-work-legacy/work-strategy/DEFAULT-PATH.md) |
 | THINK boundary | [think-purpose-and-boundary.md](../../../docs/skill-think/think-purpose-and-boundary.md) |
 | Operator writing (public excerpts only) | [write-operator-preferences.md](../../../docs/skill-write/write-operator-preferences.md) |

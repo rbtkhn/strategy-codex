@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Materialize the four strategy-expert files from the bundle template.
 
-Reads ``docs/skill-work/work-strategy/strategy-notebook/strategy-expert-template.md``
+Reads ``docs/archive/skill-work-legacy/work-strategy/strategy-notebook/strategy-expert-template.md``
 (anchors ``profile-template``, ``thread-template``, ``transcript-template``,
 ``mind-template``) and writes:
 
@@ -31,10 +31,10 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 DEFAULT_BUNDLE = (
     REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook/strategy-expert-template.md"
+    / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/strategy-expert-template.md"
 )
 DEFAULT_OUT = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+    REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 )
 
 ANCHOR_PROFILE = "<a id=\"profile-template\"></a>"

@@ -3,7 +3,7 @@
 Rough blended token cost estimate for planning (not billing).
 
 Prices drift constantly — maintain a local JSON config copied from
-token_economics_models.example.json. See docs/skill-work/work-dev/economic-benchmarks.md.
+token_economics_models.example.json. See docs/archive/skill-work-legacy/work-dev/economic-benchmarks.md.
 
 Complements emit_compute_ledger.py (actual usage) with what-if math.
 

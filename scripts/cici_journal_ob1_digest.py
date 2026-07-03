@@ -346,7 +346,7 @@ def extract_strategy_notebook_day_block(
     """Return the ``## YYYY-MM-DD`` section from the month ``days.md`` (geopolitical / strategy synthesis)."""
     ym = f"{day.year:04d}-{day.month:02d}"
     iso = day.isoformat()
-    rel = f"docs/skill-work/work-strategy/strategy-notebook/chapters/{ym}/days.md"
+    rel = f"docs/archive/skill-work-legacy/work-strategy/strategy-notebook/chapters/{ym}/days.md"
     path = repo_root / rel
     if not path.is_file():
         return None, rel

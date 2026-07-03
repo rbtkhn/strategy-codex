@@ -5,9 +5,9 @@ alwaysApply: true
 
 # Strategy input → source archive (mandatory verbatim capture)
 
-**SSOT:** [source-archive/statecraft/README.md](../../source-archive/statecraft/README.md) · [NOTEBOOK-PREFERENCES.md](../../continuity/NOTEBOOK-PREFERENCES.md) · [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [statecraft-source-intake SKILL](../../.cursor/skills/statecraft-source-intake/SKILL.md)
+**SSOT:** [source-archive/statecraft/README.md](../../source-archive/statecraft/README.md) · [NOTEBOOK-PREFERENCES.md](../../continuity/NOTEBOOK-PREFERENCES.md) · [RAW-INPUT-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/RAW-INPUT-DEPRECATED.md) · [statecraft-source-intake SKILL](../../.cursor/skills/statecraft-source-intake/SKILL.md)
 
-**Deprecated:** `continuity/raw-input/` (formerly `continuity/raw-input/`), `continuity/years/*/raw-input/`, and compat `docs/.../strategy-notebook/raw-input/` — do not write new captures there. See [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md).
+**Deprecated:** `continuity/raw-input/` (formerly `continuity/raw-input/`), `continuity/years/*/raw-input/`, and compat `docs/.../strategy-notebook/raw-input/` — do not write new captures there. See [RAW-INPUT-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/RAW-INPUT-DEPRECATED.md).
 
 **Capture types:** When material is clearly **essay** (Substack, long web), **transcript** (YouTube, podcast), **social** (X, Locals, threads), or **wire / institutional PDF**, read the **source-intake** family table before choosing **`kind:`**, **`source_form:`**, and inbox-stub shape — do not default blindly to **`paste-bundle`** / **`mixed`** without checking that calibration.
 
@@ -16,7 +16,7 @@ alwaysApply: true
 Treat as **strategy input** when **any** of the following is true:
 
 - The operator says **strategy input** (or obvious variants: **strategy input crooke**, **ingest this**, **notebook ingest**, **capture this for strategy**) **and** supplies or points at **external source material**.
-- **Same intent without the exact phrase:** in **`docs/skill-work/work-strategy/`**, **`continuity/`**, or clear **work-strategy** lane work, the operator pastes **full or substantial verbatim** (article, essay, statement, long excerpt) **with** a **URL** or **identifiable publication date/title**, expecting analysis — **not** a one-line headline-only prompt.
+- **Same intent without the exact phrase:** in **`docs/archive/skill-work-legacy/work-strategy/`**, **`continuity/`**, or clear **work-strategy** lane work, the operator pastes **full or substantial verbatim** (article, essay, statement, long excerpt) **with** a **URL** or **identifiable publication date/title**, expecting analysis — **not** a one-line headline-only prompt.
 
 **Out of scope:** casual links with no paste and no request to retain text; pure **PLAN** / hypothesis threads where the operator declined disk writes; **Record** surfaces (`*`) — different pipeline.
 

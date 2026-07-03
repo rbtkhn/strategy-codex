@@ -428,7 +428,7 @@ If the **same** troubleshooting bullet applies **twice in a short window**, add 
 `work-cadence` does **not** replace any existing continuity surface.
 
 - **Spec docs:** `docs/good-morning-brief-spec.md`, `docs/good-night-brief-spec.md`, `docs/good-night-template.md`
-- **Sync pack:** `docs/skill-work/self-work/sync-pack/` (optional territory sync module)
+- **Sync pack:** `docs/archive/skill-work-legacy/self-work/sync-pack/` (optional territory sync module)
 - **Operational handoff:** `runtime/daily-handoff/night-handoff.json`
 - **Ephemeral memory:** `memory.md`
 - **Governed changes:** Instance-specific gate (`recursion-gate.md` or `archive/queues/review-queue/`)

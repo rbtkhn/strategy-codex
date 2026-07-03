@@ -325,10 +325,10 @@ def _recovery_link_lines(user_name: str, *, compact: bool) -> list[str]:
         f"- `{base}/recursion-gate.md`",
         f"- `{base}/self.md`",
         f"- `{base}/self-archive.md`",
-        "- `docs/skill-work/work-dev/workspace.md`",
-        "- `docs/skill-work/context-efficiency-layer.md`",
-        "- `docs/skill-work/active-lane-compression.md`",
-        "- `docs/skill-work/reality-sprint-block.md`",
+        "- `docs/archive/skill-work-legacy/work-dev/workspace.md`",
+        "- `docs/archive/skill-work-legacy/context-efficiency-layer.md`",
+        "- `docs/archive/skill-work-legacy/active-lane-compression.md`",
+        "- `docs/archive/skill-work-legacy/reality-sprint-block.md`",
     ]
     return lines
 
@@ -507,7 +507,7 @@ def main() -> int:
         "--active-lane",
         default=None,
         metavar="LANE",
-        help="With --minimal or --compact: append one WORK lane compression (docs/skill-work/work-*). See docs/skill-work/active-lane-compression.md.",
+        help="With --minimal or --compact: append one WORK lane compression (docs/archive/skill-work-legacy/work-*). See docs/archive/skill-work-legacy/active-lane-compression.md.",
     )
     args = parser.parse_args()
     territory = normalize_territory_cli(args.territory)

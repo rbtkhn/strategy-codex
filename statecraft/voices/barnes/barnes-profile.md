@@ -77,7 +77,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Legacy redirects (compatibility)
 
-[`strategy-expert-barnes-mind.md`](../../../continuity/strategy-expert-barnes-mind.md) · [CIV-MIND-BARNES.md](../../../continuity/minds/CIV-MIND-BARNES.md) → this profile. [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
+[`strategy-expert-barnes-mind.md`](../../../continuity/strategy-expert-barnes-mind.md) · [CIV-MIND-BARNES.md](../../../continuity/minds/CIV-MIND-BARNES.md) → this profile. [VOICES-SUPERSEDE-MINDS.md](../../../docs/archive/skill-work-legacy/work-strategy/VOICES-SUPERSEDE-MINDS.md)
 
 ## Convergence fingerprint
 

@@ -56,9 +56,9 @@ When the operator says `bridge`, read the following files if they exist:
 1. **`continuity/cadence/cadence-events.md`** — recent cadence rhythm
 2. **`continuity/coffee/coffee-history.md`** — recent coffee lane activity
 3. **`continuity/dream/dream-history.md`** — recent dream lane activity
-4. **`docs/skill-work/work-strategy/`** surfaces that clearly anchored the session, if relevant
-5. **`docs/skill-work/work-dev/work-dev-history.md`** — recent dev activity, if relevant
-6. **`docs/skill-work/work-politics/work-politics-history.md`** — recent politics activity, if relevant
+4. **`docs/archive/skill-work-legacy/work-strategy/`** surfaces that clearly anchored the session, if relevant
+5. **`docs/archive/skill-work-legacy/work-dev/work-dev-history.md`** — recent dev activity, if relevant
+6. **`docs/archive/skill-work-legacy/work-politics/work-politics-history.md`** — recent politics activity, if relevant
 7. **Workspace-local bridge/handoff artifacts** if the repo has them
 
 Also run:

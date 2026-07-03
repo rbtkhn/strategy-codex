@@ -937,7 +937,7 @@ proposed_change: |
   Do not replace it with another IX-C row for cadence — ritual choices, frequencies, and
   cadence-events.md telemetry stay under continuity/cadence/, work-coffee/,
   .cursor/skills (coffee, dream, bridge, conductor, thanks), and work-dev scripts (see
-  docs/skill-work/work-dev/ for runners and logging).
+  docs/archive/skill-work-legacy/work-dev/ for runners and logging).
   Renumbering other PERS-* ids is not required; only remove the PERS-004 block.
 suggested_entry: "Manual apply: delete PERS-004 from self.md IX-C per proposed_change."
 prompt_section: YOUR PERSONALITY
@@ -1081,7 +1081,7 @@ channel_key: operator:cursor:stage-paste
 source: operator — scripts/stage_gate_candidate.py
 source_exchange:
   operator: |
-    Membrane source: docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF-MEMBRANE-CANDIDATE-DRAFTS.md
+    Membrane source: docs/archive/skill-work-legacy/work-strategy/history-notebook/research/BOOKSHELF-MEMBRANE-CANDIDATE-DRAFTS.md
     Proposed statement: Sustained engagement with Library of America is part of how knowledge is organized and interpreted across sessions.
     Profile target suggestion: IX-B. CURIOSITY
     Evidence: HNSRC-0101, HNSRC-0102, HNSRC-0103, HNSRC-0104, HNSRC-0105, HNSRC-0106, HNSRC-0107, HNSRC-0108
@@ -1108,7 +1108,7 @@ channel_key: operator:cursor:stage-paste
 source: operator — scripts/stage_gate_candidate.py
 source_exchange:
   operator: |
-    Membrane source: docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF-MEMBRANE-CANDIDATE-DRAFTS.md
+    Membrane source: docs/archive/skill-work-legacy/work-strategy/history-notebook/research/BOOKSHELF-MEMBRANE-CANDIDATE-DRAFTS.md
     Proposed statement: Sustained engagement with America is part of how knowledge is organized and interpreted across sessions.
     Profile target suggestion: IX-B. CURIOSITY
     Evidence: HNSRC-0087, HNSRC-0088, HNSRC-0089, HNSRC-0090, HNSRC-0091, HNSRC-0092, HNSRC-0093, HNSRC-0094
@@ -1335,7 +1335,7 @@ signal_type: lane_engagement
 profile_target: IX-B. CURIOSITY
 status: approved
 channel_key: operator:cursor
-source: docs/skill-work/work-strategy/README.md, strategy-notebook (64 expert files)
+source: docs/archive/skill-work-legacy/work-strategy/README.md, strategy-notebook (64 expert files)
 summary: "Geopolitics and international relations"
 merged_as: CUR-0001
 ```
@@ -1361,7 +1361,7 @@ signal_type: lane_engagement
 profile_target: IX-B. CURIOSITY
 status: approved
 channel_key: operator:cursor
-source: docs/skill-work/work-dev/README.md, work-companion-self/README.md
+source: docs/archive/skill-work-legacy/work-dev/README.md, work-companion-self/README.md
 summary: "AI systems design and companion-self architecture"
 merged_as: CUR-0003
 ```
@@ -1374,7 +1374,7 @@ signal_type: lane_engagement
 profile_target: IX-B. CURIOSITY
 status: approved
 channel_key: operator:cursor
-source: docs/skill-work/work-politics/README.md
+source: docs/archive/skill-work-legacy/work-politics/README.md
 summary: "Political consulting (interest only)"
 merged_as: CUR-0004
 ```
@@ -1387,7 +1387,7 @@ signal_type: lane_engagement
 profile_target: IX-B. CURIOSITY
 status: approved
 channel_key: operator:cursor
-source: docs/skill-work/work-civ-mem/README.md, LIB-0157
+source: docs/archive/skill-work-legacy/work-civ-mem/README.md, LIB-0157
 summary: "Civilizational history and structured knowledge"
 merged_as: CUR-0005
 ```
@@ -1413,7 +1413,7 @@ signal_type: lane_engagement
 profile_target: IX-B. CURIOSITY
 status: approved
 channel_key: operator:cursor
-source: docs/skill-work/work-cici/README.md, work-alpha-school/README.md
+source: singularity/work-cici/README.md, work-alpha-school/README.md
 summary: "Mentoring and teaching methodology"
 merged_as: CUR-0007
 ```
@@ -1426,7 +1426,7 @@ signal_type: elicitation_extract
 profile_target: IX-C. PERSONALITY
 status: approved
 channel_key: operator:cursor
-source: docs/skill-work/work-elicitation/operator-decisions.md, operator-rhythm.md
+source: docs/archive/skill-work-legacy/work-elicitation/operator-decisions.md, operator-rhythm.md
 summary: "Cognitive style — evaluate-then-pick with compression"
 merged_as: PERS-001
 ```
@@ -1439,7 +1439,7 @@ signal_type: elicitation_extract
 profile_target: IX-C. PERSONALITY
 status: approved
 channel_key: operator:cursor
-source: docs/skill-work/work-elicitation/operator-rhythm.md, operator-decisions.md
+source: docs/archive/skill-work-legacy/work-elicitation/operator-rhythm.md, operator-decisions.md
 summary: "Interaction mode — short prompts, menu-driven selection"
 merged_as: PERS-002
 ```
@@ -1452,7 +1452,7 @@ signal_type: elicitation_extract
 profile_target: IX-C. PERSONALITY
 status: approved
 channel_key: operator:cursor
-source: docs/skill-work/work-elicitation/operator-thresholds.md
+source: docs/archive/skill-work-legacy/work-elicitation/operator-thresholds.md
 summary: "Quality standard — falsifiable thesis + attributed sources + named tensions"
 merged_as: PERS-003
 ```
@@ -1465,7 +1465,7 @@ signal_type: elicitation_extract
 profile_target: IX-C. PERSONALITY
 status: approved
 channel_key: operator:cursor
-source: docs/skill-work/work-elicitation/operator-rhythm.md
+source: docs/archive/skill-work-legacy/work-elicitation/operator-rhythm.md
 summary: "Work rhythm — punctuated resets"
 merged_as: PERS-004
 ```
@@ -1478,7 +1478,7 @@ signal_type: elicitation_extract
 profile_target: IX-C. PERSONALITY
 status: approved
 channel_key: operator:cursor
-source: docs/skill-work/work-elicitation/operator-decisions.md
+source: docs/archive/skill-work-legacy/work-elicitation/operator-decisions.md
 summary: "Decision failure sensitivity"
 merged_as: PERS-005
 ```
@@ -1491,7 +1491,7 @@ signal_type: elicitation_extract
 profile_target: IX-C. PERSONALITY
 status: approved
 channel_key: operator:cursor
-source: docs/skill-work/work-elicitation/operator-frictions.md
+source: docs/archive/skill-work-legacy/work-elicitation/operator-frictions.md
 summary: "Friction signature — cold-thread context loss and premature infrastructure"
 merged_as: PERS-006
 ```

@@ -36,7 +36,7 @@ Extract tacit operator knowledge into explicit, reviewable WORK artifacts. The t
 | 4. **Friction** | `operator-frictions.md` | What repeatedly wastes attention, time, or momentum? |
 | 5. **Thresholds** | `operator-thresholds.md` | What counts as good enough? When escalate, stop, continue, or ask? |
 
-All files live under `docs/skill-work/work-elicitation/`.
+All files live under `docs/archive/skill-work-legacy/work-elicitation/`.
 
 ---
 
@@ -77,7 +77,7 @@ Default shape: ask 3-5 concrete MCQs or short-answer prompts, summarize the capt
 
 ## Steps (agent)
 
-1. **Read current state.** Open the target file(s) under `docs/skill-work/work-elicitation/`. Note what's already populated and what's blank.
+1. **Read current state.** Open the target file(s) under `docs/archive/skill-work-legacy/work-elicitation/`. Note what's already populated and what's blank.
 
 2. **Choose mode.** Full pass, single-layer, or telemetry-grounded (based on operator's trigger or agent judgment).
 
@@ -135,7 +135,7 @@ Default shape: ask 3-5 concrete MCQs or short-answer prompts, summarize the capt
 
 ## Related files
 
-- `docs/skill-work/work-elicitation/README.md` — lane boundary and contents
-- `docs/skill-work/work-elicitation/work-elicitation-history.md` — append-only log
-- `docs/skill-work/work-template.md` — lane creation checklist
+- `docs/archive/skill-work-legacy/work-elicitation/README.md` — lane boundary and contents
+- `docs/archive/skill-work-legacy/work-elicitation/work-elicitation-history.md` — append-only log
+- `docs/archive/skill-work-legacy/work-template.md` — lane creation checklist
 - Upstream model: [OB1 Work Operating Model Activation](https://github.com/NateBJones-Projects/OB1/tree/main/recipes/work-operating-model-activation)

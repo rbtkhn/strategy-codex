@@ -3,7 +3,7 @@ ingest_date: 2026-04-18
 pub_date: 2026-04-18
 kind: verbatim-sidecar
 source_form: post
-source_path: docs/skill-work/work-strategy/strategy-notebook/source-deepdive-iran-closes-hormuz-2026-04-18-verbatim-2026-04-18.md
+source_path: docs/archive/skill-work-legacy/work-strategy/strategy-notebook/source-deepdive-iran-closes-hormuz-2026-04-18-verbatim-2026-04-18.md
 ---
 # Verbatim — Lt Col Daniel Davis (ret.) *Deep Dive* (WORK)
 

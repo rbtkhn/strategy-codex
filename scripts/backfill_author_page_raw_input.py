@@ -28,7 +28,7 @@ from urllib.parse import urljoin, urlparse
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_RAW_ROOT = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/raw-input"
+    REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/raw-input"
 )
 USER_AGENT = "grace-mar-backfill-author-page/1.0 (+local strategy notebook ingest)"
 

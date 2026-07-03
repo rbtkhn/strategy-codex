@@ -8,7 +8,7 @@
 
 **`self-history`** holds a **systematic, dense** timeline that combines:
 
-1. **WORK stream** — consolidation of per-lane operator milestones from **`docs/skill-work/work-*/*-history.md`** (see [work-modules-history-principle.md](../../docs/skill-work/work-modules-history-principle.md)).
+1. **WORK stream** — consolidation of per-lane operator milestones from **`docs/archive/skill-work-legacy/work-*/*-history.md`** (see [work-modules-history-principle.md](../../docs/archive/skill-work-legacy/work-modules-history-principle.md)).
 2. **COMPANION stream** — **gate-approved** companion-relevant events and facts already merged into **SELF / EVIDENCE** (summaries or pointers with **ACT ids / dates / merge receipts** — never **pending** gate text as fact).
 
 **Use:** human orientation, future retrieval, and (optionally) ML — with **provenance** preserved so the two streams do not collapse.
@@ -40,14 +40,14 @@ Choose one rhythm and stick to it (document changes here if you switch):
 ### Initial population (2026-03-30)
 
 - **COMPANION strategy:** **3a — monthly rollup** from merged **`platform/users/grace-mar/self-archive.md` § V. ACTIVITY LOG** (YAML `activities`); not § VIII transcript; not pending gate.
-- **WORK strategy:** Copy from **`docs/skill-work/work-*/*-history.md`** logs as of same date; note empty lanes explicitly.
+- **WORK strategy:** Copy from **`docs/archive/skill-work-legacy/work-*/*-history.md`** logs as of same date; note empty lanes explicitly.
 
 ---
 
 ## Log — WORK (aggregate)
 
-- **WORK:work-dev — 2026-03-30** — Huang / Lex #494 digest + OpenClaw/Grace-Mar diff: `research/external/work-dev/transcripts/lex-fridman-494-jensen-huang-DIGEST.md`; README index row; commits through `51de012` (source: [work-dev-history.md](../../docs/skill-work/work-dev/work-dev-history.md)).
-- **WORK:meta — 2026-03-30** — No dated `## Log` entries yet in other `docs/skill-work/work-*/*-history.md` territories (work-politics, work-jiang, work-strategy, work-business, work-career, work-companion-self, work-curate-library, work-health-fitness, work-human-teacher, work-cici, work-civ-mem, work-alpha-school).
+- **WORK:work-dev — 2026-03-30** — Huang / Lex #494 digest + OpenClaw/Grace-Mar diff: `research/external/work-dev/transcripts/lex-fridman-494-jensen-huang-DIGEST.md`; README index row; commits through `51de012` (source: [work-dev-history.md](../../docs/archive/skill-work-legacy/work-dev/work-dev-history.md)).
+- **WORK:meta — 2026-03-30** — No dated `## Log` entries yet in other `docs/archive/skill-work-legacy/work-*/*-history.md` territories (work-politics, work-jiang, work-strategy, work-business, work-career, work-companion-self, work-curate-library, work-health-fitness, work-human-teacher, work-cici, work-civ-mem, work-alpha-school).
 
 ---
 

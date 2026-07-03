@@ -36,7 +36,7 @@ When `hybrid_retrieve.py` searches a 155 KB file (e.g. strategy-notebook `days.m
 ```json
 {
   "chunk_id": "chk_a1b2c3d4_0003",
-  "source_path": "docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/days.md",
+  "source_path": "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/chapters/2026-04/days.md",
   "source_hash": "a1b2c3d4e5f6",
   "chunk_index": 3,
   "total_chunks": 12,
@@ -54,7 +54,7 @@ When `hybrid_retrieve.py` searches a 155 KB file (e.g. strategy-notebook `days.m
 | Surface | Source directory | Chunked |
 |---|---|---|
 | `artifact_lookup` | `runtime/artifacts/` | Yes — `.md` and `.txt` files over 4 KB |
-| `notebook_lookup` | `docs/skill-work/work-strategy/strategy-notebook/chapters/` | Yes — `.md` and `.txt` files over 4 KB |
+| `notebook_lookup` | `docs/archive/skill-work-legacy/work-strategy/strategy-notebook/chapters/` | Yes — `.md` and `.txt` files over 4 KB |
 | `prepared_context` | `runtime/observations/index.jsonl` | No — already entry-level via observation store |
 | `evidence_lookup` | `self-archive.md` | No — already entry-level via evidence parser |
 
@@ -91,14 +91,14 @@ Results from chunked files include line ranges and section hints:
 
 ```json
 {
-  "path": "docs/skill-work/.../days.md:45-78",
+  "path": "docs/archive/skill-work-legacy/.../days.md:45-78",
   "label": "## 2026-04-14",
   "meta": {
     "chunk_id": "chk_a1b2c3d4_0003",
     "chunk_index": 3,
     "total_chunks": 12,
     "section_hint": "## 2026-04-14",
-    "source_path": "docs/skill-work/.../days.md"
+    "source_path": "docs/archive/skill-work-legacy/.../days.md"
   }
 }
 ```

@@ -5,9 +5,9 @@ alwaysApply: true
 
 # work-strategy voices — granular use (tri-mind deprecated; minds superseded)
 
-**`tri-mind` / `tri-frame` / `tutti` are deprecated** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md).
+**`tri-mind` / `tri-frame` / `tutti` are deprecated** — [TRI-MIND-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/TRI-MIND-DEPRECATED.md).
 
-**Voices supersede minds** — [VOICES-SUPERSEDE-MINDS.md](../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md). Fork/gate: [`docs/archive/grace-mar.md`](../../docs/archive/grace-mar.md). For new work, **`statecraft/voices/<speaker>/<speaker>-profile.md`** is SSOT; **`strategy-expert-*-mind.md`** is compatibility only.
+**Voices supersede minds** — [VOICES-SUPERSEDE-MINDS.md](../../docs/archive/skill-work-legacy/work-strategy/VOICES-SUPERSEDE-MINDS.md). Fork/gate: [`docs/archive/grace-mar.md`](../../docs/archive/grace-mar.md). For new work, **`statecraft/voices/<speaker>/<speaker>-profile.md`** is SSOT; **`strategy-expert-*-mind.md`** is compatibility only.
 
 Do **not** assume **tri-frame** on every **`strategy`**, **`strategy pass`**, or **skill-strategy** pass.
 
@@ -15,8 +15,8 @@ Do **not** assume **tri-frame** on every **`strategy`**, **`strategy pass`**, or
 
 **Named speaker (single):** When the operator names **Mercouris**, **Mearsheimer**, **Barnes**, or another mapped expert, read **`statecraft/voices/<speaker>/<speaker>-profile.md`** and render in authentic register per [minds-authentic-voice.mdc](minds-authentic-voice.mdc).
 
-**LEARN MODE** tri-frame ordering is **legacy** — [LEARN_MODE_RULES.md](../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md) only when operator explicitly invokes archive LEARN protocol.
+**LEARN MODE** tri-frame ordering is **legacy** — [LEARN_MODE_RULES.md](../../docs/archive/skill-work-legacy/work-strategy/LEARN_MODE_RULES.md) only when operator explicitly invokes archive LEARN protocol.
 
-**Entry points:** [`statecraft/voices/README.md`](../../statecraft/voices/README.md) (canonical) · [`docs/skill-work/work-strategy/minds/README.md`](../../docs/skill-work/work-strategy/minds/README.md) (compatibility redirect).
+**Entry points:** [`statecraft/voices/README.md`](../../statecraft/voices/README.md) (canonical) · [`docs/archive/skill-work-legacy/work-strategy/minds/README.md`](../../docs/archive/skill-work-legacy/work-strategy/minds/README.md) (compatibility redirect).
 
 **In-voice output:** Follow [`.cursor/rules/minds-authentic-voice.mdc`](minds-authentic-voice.mdc).

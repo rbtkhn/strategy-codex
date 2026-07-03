@@ -16,9 +16,9 @@ lanes:
   work-dev:
     owned_paths:
       - "lanes.yaml"
-      - "docs/skill-work/work-dev/**"
+      - "docs/archive/skill-work-legacy/work-dev/**"
       - "continuity/menu-conventions.md"
-      - "docs/skill-work/work-build-ai/integration-status.md"
+      - "docs/archive/skill-work-legacy/work-build-ai/integration-status.md"
       - "docs/diagnostics/fixtures/**"
       - "scripts/surface_aliases.py"
       - "docs/openclaw-integration.md"
@@ -113,7 +113,7 @@ lanes:
       - ".github/workflows/lane-pr-hint.yml"
       - ".github/workflows/test.yml"
       - "lanes.yaml"
-      - "docs/skill-work/work-dev/lane-scope-checklist.md"
+      - "docs/archive/skill-work-legacy/work-dev/lane-scope-checklist.md"
       - "docs/development-handoff.md"
       - "AGENTS.md"
       - "README.md"
@@ -154,7 +154,7 @@ lanes:
   work-politics:
     owned_paths:
       - "miniapp/pol-dashboard.html"
-      - "docs/skill-work/work-politics/**"
+      - "docs/archive/skill-work-legacy/work-politics/**"
       - "scripts/generate_work_politics_*.py"
       - "scripts/generate_wap_*.py"
       - "scripts/operator_work_politics_pulse.py"
@@ -172,7 +172,7 @@ lanes:
 
   work-strategy:
     owned_paths:
-      - "docs/skill-work/work-strategy/**"
+      - "docs/archive/skill-work-legacy/work-strategy/**"
       - "research/prototypes/mind-synthesis.py"
       - "scripts/emit_work_strategy_gate_paste_snippet.py"
       - "scripts/work_strategy/**"
@@ -183,7 +183,7 @@ lanes:
       - "schemas/work_strategy_observability_report.schema.json"
       - "config/work_strategy_task_shapes.yaml"
       - "runtime/work-strategy/**"
-      - "docs/skill-work/work-strategy/fixtures/**"
+      - "docs/archive/skill-work-legacy/work-strategy/fixtures/**"
       - "tests/test_work_strategy_carry_harness.py"
       - "tests/test_work_strategy_validators.py"
       - "tests/test_work_strategy_task_shape.py"

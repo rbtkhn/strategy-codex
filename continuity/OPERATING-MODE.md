@@ -11,7 +11,7 @@ End-of-day strategy session and daily continuity workflow.
 4. Add **zero or one** new or revised `strategy-page` in time-scoped thread files under `continuity/years/2026/<channel>/`.
 5. **Stop.**
 
-Full `strategy` pass: [DEFAULT-PATH.md](../docs/skill-work/work-strategy/DEFAULT-PATH.md).
+Full `strategy` pass: [DEFAULT-PATH.md](../docs/archive/skill-work-legacy/work-strategy/DEFAULT-PATH.md).
 
 ## Session types and stack
 

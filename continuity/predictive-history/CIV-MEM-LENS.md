@@ -3,7 +3,7 @@
 
 **Purpose:** Use civilization-memory framing - conditions, institutions, seams, continuity, horizons - as a structured overlay on Predictive History comparison work. CIV-MEM is a reference spine, not identity and not a second corpus.
 
-**Boundary:** [`civilization_memory`](../../docs/skill-work/work-civ-mem/README.md) and [`docs/civilization-memory/`](../../docs/civilization-memory/README.md) are external reference surfaces. They inform how you analyze the corpus; they do not become companion Record unless gated. See [README-operator.md](./README-operator.md).
+**Boundary:** [`civilization_memory`](../../docs/archive/skill-work-legacy/work-civ-mem/README.md) and [`docs/civilization-memory/`](../../docs/civilization-memory/README.md) are external reference surfaces. They inform how you analyze the corpus; they do not become companion Record unless gated. See [README-operator.md](./README-operator.md).
 
 ---
 
@@ -98,5 +98,5 @@ This table belongs in an analysis memo, not the Voice profile, unless gated.
 ## Related
 
 - [WORKFLOW-transcripts.md](WORKFLOW-transcripts.md)
-- [work-civ-mem README](../../docs/skill-work/work-civ-mem/README.md)
+- [work-civ-mem README](../../docs/archive/skill-work-legacy/work-civ-mem/README.md)
 - [Civilization memory lane](../../docs/lanes/civilization-memory.md)

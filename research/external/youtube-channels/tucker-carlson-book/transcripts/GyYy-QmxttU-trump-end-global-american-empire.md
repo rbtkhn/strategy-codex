@@ -20,7 +20,7 @@ canonical: ../../../work-strategy/transcripts/2026-04-02-tucker-carlson-trump-en
 
 **Transcript note:** English auto-captions fetched with `yt-dlp` (2026-04-01); light cleanup (Strait/Hormuz spellings, obvious ASR fixes). **Verify** quoted presidential lines against primary video before ship-facing copy.
 
-**Scope:** [work-strategy](../../../../docs/skill-work/work-strategy/README.md) upstream — **opinion monologue** on US–Iran conflict, **geopolitics**, and **religious leadership** framing. **Not** companion Record. **Not** endorsement.
+**Scope:** [work-strategy](../../../../docs/archive/skill-work-legacy/work-strategy/README.md) upstream — **opinion monologue** on US–Iran conflict, **geopolitics**, and **religious leadership** framing. **Not** companion Record. **Not** endorsement.
 
 ---
 

@@ -54,7 +54,7 @@ TARGETS: tuple[RebuildTarget, ...] = (
         watch_patterns=(
             "scripts/derived_regeneration.py",
             "scripts/build_derived_regeneration_manifest.py",
-            "docs/skill-work/work-dev/derived-regeneration.md",
+            "docs/archive/skill-work-legacy/work-dev/derived-regeneration.md",
         ),
         command_templates=(("python3", "scripts/build_derived_regeneration_manifest.py"),),
         outputs=("runtime/artifacts/work-dev/derived-regeneration-manifest.json",),
@@ -278,7 +278,7 @@ TARGETS: tuple[RebuildTarget, ...] = (
             "harness-events.jsonl",
             "session-log.md",
             "scripts/report_governance_posture.py",
-            "docs/skill-work/work-dev/safety-story-ux.md",
+            "docs/archive/skill-work-legacy/work-dev/safety-story-ux.md",
             "docs/runtime-vs-record.md",
         ),
         command_templates=(
@@ -294,7 +294,7 @@ TARGETS: tuple[RebuildTarget, ...] = (
         policy_mode="Strategy",
         rationale="Project markdown-canonical strategy notebook structure into derived graph views for orientation, clustering, and navigation.",
         watch_patterns=(
-            "docs/skill-work/work-strategy/strategy-notebook/**",
+            "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/**",
             "scripts/build_strategy_notebook_graph.py",
         ),
         command_templates=(("python3", "scripts/build_strategy_notebook_graph.py"),),
@@ -311,8 +311,8 @@ TARGETS: tuple[RebuildTarget, ...] = (
         policy_mode="Surface",
         rationale="Rebuild work-dev compound dashboards and exports when compound notes or Autoresearch run notes change, keeping research scaffolding inspectable without Record authority.",
         watch_patterns=(
-            "docs/skill-work/work-dev/compound-notes/**",
-            "docs/skill-work/work-dev/autoresearch-runs/**",
+            "docs/archive/skill-work-legacy/work-dev/compound-notes/**",
+            "docs/archive/skill-work-legacy/work-dev/autoresearch-runs/**",
             "scripts/work_dev_compound_refresh.py",
             "scripts/export_work_dev_compound_gate_candidates.py",
             "scripts/build_work_dev_compound_dashboard.py",
@@ -336,7 +336,7 @@ TARGETS: tuple[RebuildTarget, ...] = (
         policy_mode="Surface",
         rationale="Summarize durable work-dev operator decisions for quick recovery while keeping the decision ledger itself as the non-canonical source.",
         watch_patterns=(
-            "docs/skill-work/work-dev/decision-ledger.md",
+            "docs/archive/skill-work-legacy/work-dev/decision-ledger.md",
             "scripts/build_decision_ledger_summary.py",
         ),
         command_templates=(("python3", "scripts/build_decision_ledger_summary.py"),),

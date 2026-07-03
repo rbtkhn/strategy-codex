@@ -46,7 +46,7 @@ Use a different strong model. Ask for risks, hidden assumptions, failure modes, 
 - `AGENTS.md`
 - `docs/architecture.md`
 - `docs/governance-unbundling.md`
-- Relevant lane: `docs/skill-work/work-*/...`
+- Relevant lane: `docs/archive/skill-work-legacy/work-*/...`
 - Other: [list]
 
 ## 5. Proposed Approach (High-level)

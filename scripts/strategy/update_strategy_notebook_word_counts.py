@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Insert or update script-maintained word counts in strategy-notebook markdown.
 
-Scans ``docs/skill-work/work-strategy/strategy-notebook/**/*.md`` (with exclusions
+Scans ``docs/archive/skill-work-legacy/work-strategy/strategy-notebook/**/*.md`` (with exclusions
 below), computes a deterministic approximate word count of operator-facing body
 text, and either:
 

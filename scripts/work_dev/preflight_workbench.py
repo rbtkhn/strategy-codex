@@ -22,22 +22,22 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
 DOCS_REQUIRED: list[str] = [
-    "docs/skill-work/work-dev/workbench/README.md",
-    "docs/skill-work/work-dev/workbench/WORKBENCH-RECEIPT-SPEC.md",
-    "docs/skill-work/work-dev/workbench/VISUAL-INSPECTION-PROTOCOL.md",
-    "docs/skill-work/work-dev/workbench/CANDIDATE-COMPARISON-PROTOCOL.md",
+    "docs/archive/skill-work-legacy/work-dev/workbench/README.md",
+    "docs/archive/skill-work-legacy/work-dev/workbench/WORKBENCH-RECEIPT-SPEC.md",
+    "docs/archive/skill-work-legacy/work-dev/workbench/VISUAL-INSPECTION-PROTOCOL.md",
+    "docs/archive/skill-work-legacy/work-dev/workbench/CANDIDATE-COMPARISON-PROTOCOL.md",
 ]
 
 VISUALIZER_REQUIRED: list[str] = [
-    "docs/skill-work/work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md",
-    "docs/skill-work/work-strategy/strategy-notebook/demo-runs/workbench-visualizer/GENERATED-FIXTURE.md",
-    "docs/skill-work/work-strategy/strategy-notebook/demo-runs/workbench-visualizer/strategy-notebook-visualizer.html",
-    "docs/skill-work/work-strategy/strategy-notebook/demo-runs/workbench-visualizer/strategy-notebook-visualizer.fixture.json",
+    "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/demo-runs/workbench-visualizer/README.md",
+    "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/demo-runs/workbench-visualizer/GENERATED-FIXTURE.md",
+    "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/demo-runs/workbench-visualizer/strategy-notebook-visualizer.html",
+    "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/demo-runs/workbench-visualizer/strategy-notebook-visualizer.fixture.json",
 ]
 
-EXAMPLES_GLOB = "docs/skill-work/work-dev/workbench/examples"
+EXAMPLES_GLOB = "docs/archive/skill-work-legacy/work-dev/workbench/examples"
 FIXTURE_REL = (
-    "docs/skill-work/work-strategy/strategy-notebook/demo-runs/"
+    "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/demo-runs/"
     "workbench-visualizer/strategy-notebook-visualizer.fixture.json"
 )
 GENERATOR_SCRIPT = "scripts/work_strategy/generate_strategy_notebook_visualizer_fixture.py"

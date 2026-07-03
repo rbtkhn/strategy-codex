@@ -1,11 +1,11 @@
 # Operator polyphony overlay (Predictive History book)
 <!-- word_count: 359 -->
 
-**Scope:** WORK-only operator judgment — **not** student export, **not** Jiang lecture voice. Mirrors the strategy-notebook month **`## Polyphony / lens tension`** contract ([STRATEGY-NOTEBOOK-ARCHITECTURE.md](../STRATEGY-NOTEBOOK-ARCHITECTURE.md) · **Polyphony / lens tension**). Fingerprint spirit: [`strategy-notebook/minds/`](../../docs/skill-work/work-strategy/strategy-notebook/minds/) `CIV-MIND-*.md`.
+**Scope:** WORK-only operator judgment — **not** student export, **not** Jiang lecture voice. Mirrors the strategy-notebook month **`## Polyphony / lens tension`** contract ([STRATEGY-NOTEBOOK-ARCHITECTURE.md](../STRATEGY-NOTEBOOK-ARCHITECTURE.md) · **Polyphony / lens tension**). Fingerprint spirit: [`strategy-notebook/minds/`](../../docs/archive/skill-work-legacy/work-strategy/strategy-notebook/minds/) `CIV-MIND-*.md`.
 
-**Parallel notebook:** [chapters/2026-04/meta.md](../../docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/meta.md) § Polyphony — **update both files in the same session** when the month’s arc or this book’s active queue focus shifts.
+**Parallel notebook:** [chapters/2026-04/meta.md](../../docs/archive/skill-work-legacy/work-strategy/strategy-notebook/chapters/2026-04/meta.md) § Polyphony — **update both files in the same session** when the month’s arc or this book’s active queue focus shifts.
 
-**History Notebook (chapter drafting):** [POLYPHONY-WORKFLOW.md](../../docs/skill-work/work-strategy/history-notebook/POLYPHONY-WORKFLOW.md) — same M→Me→B + tension shape, applied to neutral spine → public STYLE-GUIDE chapters (operator-only voice pass; no mind names in published prose).
+**History Notebook (chapter drafting):** [POLYPHONY-WORKFLOW.md](../../docs/archive/skill-work-legacy/work-strategy/history-notebook/POLYPHONY-WORKFLOW.md) — same M→Me→B + tension shape, applied to neutral spine → public STYLE-GUIDE chapters (operator-only voice pass; no mind names in published prose).
 
 **Book scope label (this file):** Volume I Geo-Strategy — twenty-chapter arc + April 2026 strategy alignment (Islamabad / Hormuz / pause). Revise the line when the operator’s PH reading head or volume emphasis moves.
 

@@ -53,9 +53,9 @@ English, Chinese. Colorado. Love: Elitch Gardens, The Broadmoor, Casa Bonita, An
 - Knows Earth structure (Americas, continents, oceans) and desert elements (mountains, sun, sand, cacti, camels). Geography homework from school.
 - One reason we learn history is to learn from past mistakes so we can make better choices and be kinder to each other.
 - Phase 7 survey: Mars (oceans/trees), Earth crust, ballet (all), dinosaurs-extinct curiosity, animals in stories, friends laugh + move/play.
-- WORK (operator only): Political-consulting territory now requires a recency slice each weekly brief (7d or 30d) and logs assembled date; see docs/skill-work/work-politics/. Not campaign ad
-- WORK (operator only): High-stakes america-first-ky briefs may use factorial stress-test protocol (docs/skill-work/work-politics/america-first-ky/). Not Voice knowledge; not automated governance_checke
-- WORK (operator only): Political-consulting briefs may use triangulated analytical lenses (structural, operational-diplomatic, institutional-domestic); see docs/skill-work/work-politics/analytical-lens
+- WORK (operator only): Political-consulting territory now requires a recency slice each weekly brief (7d or 30d) and logs assembled date; see docs/archive/skill-work-legacy/work-politics/. Not campaign ad
+- WORK (operator only): High-stakes america-first-ky briefs may use factorial stress-test protocol (docs/archive/skill-work-legacy/work-politics/america-first-ky/). Not Voice knowledge; not automated governance_checke
+- WORK (operator only): Political-consulting briefs may use triangulated analytical lenses (structural, operational-diplomatic, institutional-domestic); see docs/archive/skill-work-legacy/work-politics/analytical-lens
 - WORK (operator only): Strategy lane uses energy-chokepoint module for energy-related events (prior documented precedent in work-strategy), triangulated lenses + synthesis-engine for current-events, ec
 
 ## CURIOSITY

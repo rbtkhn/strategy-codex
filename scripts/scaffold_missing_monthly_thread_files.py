@@ -35,7 +35,7 @@ from migrate_thread_md_to_monthly import (  # noqa: E402
 )
 from strategy_expert_corpus import month_thread_paths_by_month  # noqa: E402
 
-NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 
 def _action_path(dest: Path) -> str:
     try:

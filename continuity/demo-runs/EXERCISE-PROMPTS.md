@@ -1,9 +1,9 @@
 # skill-strategy exercise prompts (copy-paste)
 <!-- word_count: 265 -->
 
-> **Legacy exercises (2026-04).** Prompts mentioning **tri-frame** (Exercises 4, 8, demo Phase 4) are **archive replay only** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). New multi-lens work → **`state-synthesis`** / **`periodic-statecraft-review`** runbook.
+> **Legacy exercises (2026-04).** Prompts mentioning **tri-frame** (Exercises 4, 8, demo Phase 4) are **archive replay only** — [TRI-MIND-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/TRI-MIND-DEPRECATED.md). New multi-lens work → **`state-synthesis`** / **`periodic-statecraft-review`** runbook.
 
-**Contract (dissolved skill):** [DEFAULT-PATH.md](../../docs/skill-work/work-strategy/DEFAULT-PATH.md) · [SKILL-STRATEGY-DEPRECATED.md](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md)  
+**Contract (dissolved skill):** [DEFAULT-PATH.md](../../docs/archive/skill-work-legacy/work-strategy/DEFAULT-PATH.md) · [SKILL-STRATEGY-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md)  
 **Notebook:** [`../chapters/YYYY-MM/days.md`](../chapters/2026/2026-04/days.md) — append `### EXERCISE — <slug> (YYYY-MM-DD)` **or** clean-room under this folder + one pointer line in `days.md`.  
 **Log:** append a row to [`skill-strategy-exercise-log.md`](skill-strategy-exercise-log.md).  
 **Rubric:** [`skill-strategy-exercise-rubric-reference.md`](skill-strategy-exercise-rubric-reference.md).
@@ -20,7 +20,7 @@
 strategy
 
 Exercise 1 — headline collapse. Read the synthetic mashup paragraph in:
-docs/skill-work/work-strategy/strategy-notebook/demo-runs/skill-strategy-exercise-headline-collapse-2026-04-12.md
+docs/archive/skill-work-legacy/work-strategy/strategy-notebook/demo-runs/skill-strategy-exercise-headline-collapse-2026-04-12.md
 
 Rewrite into tagged bullets: thread label + short paraphrase + verify-needed flag per line.
 Optional second step: Thesis A / Thesis B if two channels disagree on scope.
@@ -164,5 +164,5 @@ Expected: refuse; cite RECURSION-GATE / proposal class; offer staging language o
 **If:** `research/repos/civilization_memory/docs/templates/CIV–MIND–MEARSHEIMER.md` exists.
 
 ```text
-Read-only compare: one bullet on intent diff between docs/skill-work/work-strategy/strategy-notebook/minds/CIV-MIND-MEARSHEIMER.md and upstream template — governance-only; no silent overwrite of canonical stub. Log upstream hash if useful.
+Read-only compare: one bullet on intent diff between docs/archive/skill-work-legacy/work-strategy/strategy-notebook/minds/CIV-MIND-MEARSHEIMER.md and upstream template — governance-only; no silent overwrite of canonical stub. Log upstream hash if useful.
 ```

@@ -395,4 +395,4 @@ restraint. Period. End of story.
 
 ────────────────────────────────────────────────────────────
 
-See [MINDS-SKILL-STRATEGY-PATTERNS.md](../../../docs/skill-work/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md) for recipes and post-entry lens offer.
+See [MINDS-SKILL-STRATEGY-PATTERNS.md](../../../docs/archive/skill-work-legacy/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md) for recipes and post-entry lens offer.

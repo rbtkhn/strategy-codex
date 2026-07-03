@@ -109,7 +109,7 @@ def test_work_dev_surfaces_not_orphan_strict():
     work_dev = [
         i
         for i in issues
-        if "docs/skill-work/work-dev/generated/" in i
+        if "docs/archive/skill-work-legacy/work-dev/generated/" in i
         or "runtime/artifacts/work-dev/" in i
     ]
     assert not work_dev, work_dev

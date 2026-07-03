@@ -1,12 +1,12 @@
 ---
 description: strategy inbox — Accumulator for must match operator local today (simple verify)
-globs: docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md
+globs: continuity/daily-strategy-inbox.md
 alwaysApply: false
 ---
 
 # Daily strategy inbox — `Accumulator for:` date
 
-**File:** [`docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md`](../../docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md)
+**File:** [`continuity/daily-strategy-inbox.md`](../../continuity/daily-strategy-inbox.md)
 
 ## Invariant
 

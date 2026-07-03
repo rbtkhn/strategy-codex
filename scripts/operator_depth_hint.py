@@ -41,8 +41,8 @@ TIER_THRESHOLDS: tuple[tuple[int, int, int], ...] = (
 
 HINT_BODY = (
     "High pipeline velocity — consider work-dev operator depth: "
-    "`docs/skill-work/work-dev/workspace.md`, `archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md` (merge ritual + receipts), "
-    "`scripts/operator_merge_once.sh`, `docs/skill-work/work-dev/README.md` § Operator path."
+    "`docs/archive/skill-work-legacy/work-dev/workspace.md`, `archive/grace-mar-instance/bootstrap/grace-mar-bootstrap.md` (merge ritual + receipts), "
+    "`scripts/operator_merge_once.sh`, `docs/archive/skill-work-legacy/work-dev/README.md` § Operator path."
 )
 
 @dataclass(frozen=True)
@@ -208,7 +208,7 @@ def velocity_oneliner(user_id: str, *, window_days: int = 7) -> str:
         )
     return (
         f"Pipeline velocity ({window_days}d): {snap.applied} merge(s), {snap.approved} approval(s) — "
-        f"tier L{snap.tier} active; depth docs: `docs/skill-work/work-dev/workspace.md` "
+        f"tier L{snap.tier} active; depth docs: `docs/archive/skill-work-legacy/work-dev/workspace.md` "
         f"(run `python3 scripts/operator_depth_hint.py -u {user_id}` to emit harness hint on tier increases)."
     )
 

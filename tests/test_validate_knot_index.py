@@ -23,7 +23,7 @@ def test_page_label_kebab_invalid() -> None:
             "schema_version": 3,
             "knots": [
                 {
-                    "path": "docs/skill-work/work-strategy/strategy-notebook/page-index.yaml",
+                    "path": "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/page-index.yaml",
                     "date": "2026-04-13",
                     "knot_label": "Bad_Case",
                 }
@@ -99,7 +99,7 @@ def test_days_md_link_warning_when_basename_missing(tmp_path: Path) -> None:
     """Page indexed but not mentioned in chapters/YYYY-MM/days.md."""
     nb = (
         tmp_path
-        / "docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04"
+        / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/chapters/2026-04"
     )
     pages_dir = nb / "pages"
     pages_dir.mkdir(parents=True)
@@ -125,7 +125,7 @@ def test_days_md_link_warning_when_basename_missing(tmp_path: Path) -> None:
 def test_days_md_link_ok_when_basename_present(tmp_path: Path) -> None:
     nb = (
         tmp_path
-        / "docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04"
+        / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/chapters/2026-04"
     )
     pages_dir = nb / "pages"
     pages_dir.mkdir(parents=True)

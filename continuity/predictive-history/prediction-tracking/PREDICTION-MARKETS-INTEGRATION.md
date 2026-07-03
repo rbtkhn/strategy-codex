@@ -55,7 +55,7 @@ Until schema is wired, operators can keep crosswalks in **analysis memos** and l
 ## Relation to other surfaces
 
 - **[README.md](README.md)** — Core prediction discipline and JSONL shape.
-- **work-politics Polymarket** — KY-04 / campaign markets live under [work-politics polling-and-markets.md](../../../docs/skill-work/work-politics/polling-and-markets.md). work-jiang may reference **different** markets (geopolitics, macro); avoid duplicating Massie-specific URLs unless the same claim is genuinely in scope.
+- **work-politics Polymarket** — KY-04 / campaign markets live under [work-politics polling-and-markets.md](../../../docs/archive/skill-work-legacy/work-politics/polling-and-markets.md). work-jiang may reference **different** markets (geopolitics, macro); avoid duplicating Massie-specific URLs unless the same claim is genuinely in scope.
 
 ---
 

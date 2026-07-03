@@ -1,12 +1,12 @@
 ---
 description: Territory awareness when working in skill-work territories
-globs: docs/skill-work/**
+globs: docs/archive/skill-work-legacy/**
 alwaysApply: false
 ---
 
 # Territory Awareness
 
-When working in `docs/skill-work/`, treat each subdirectory as a **territory** — a self-contained region with its own identity, memory, interface, and rules.
+When working in `docs/archive/skill-work-legacy/`, treat each subdirectory as a **territory** — a self-contained region with its own identity, memory, interface, and rules.
 
 ---
 
@@ -27,12 +27,12 @@ When working in `docs/skill-work/`, treat each subdirectory as a **territory** �
 | dream | `continuity/dream/` | README, `.cursor/skills/dream/SKILL.md` |
 | work-cadence | `continuity/cadence/` | README, work-cadence-events, `.cursor/skills/bridge/SKILL.md` |
 | work-dream | `continuity/dream/` | README, work-dream-history, `.cursor/skills/dream/SKILL.md` |
-| work-politics | `docs/skill-work/work-politics/` | README, principal-profile, revenue-log, seed-allocation-plan, opposition-brief, sentient-framing |
-| work-health-fitness | `docs/skill-work/work-health-fitness/` | README, roadmap |
-| work-human-teacher | `docs/skill-work/work-human-teacher/` | README, roadmap |
-| work-companion-self | `docs/skill-work/work-companion-self/` | README, roadmap |
-| work-cici | `docs/skill-work/work-cici/` | INDEX, ALIGNMENT, LEAKAGE-CHECKLIST, cici-notebook/README; canonical OB1 instance repo **Cici**; `.cursor/rules/work-cici-lane.mdc` |
-| work-alpha-school | `docs/skill-work/work-alpha-school/` | README |
+| work-politics | `docs/archive/skill-work-legacy/work-politics/` | README, principal-profile, revenue-log, seed-allocation-plan, opposition-brief, sentient-framing |
+| work-health-fitness | `docs/archive/skill-work-legacy/work-health-fitness/` | README, roadmap |
+| work-human-teacher | `docs/archive/skill-work-legacy/work-human-teacher/` | README, roadmap |
+| work-companion-self | `docs/archive/skill-work-legacy/work-companion-self/` | README, roadmap |
+| work-cici | `singularity/work-cici/` | INDEX, ALIGNMENT, LEAKAGE-CHECKLIST, cici-notebook/README; canonical OB1 instance repo **Cici**; `.cursor/rules/work-cici-lane.mdc` |
+| work-alpha-school | `docs/archive/skill-work-legacy/work-alpha-school/` | README |
 
 ---
 

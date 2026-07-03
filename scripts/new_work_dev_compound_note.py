@@ -96,7 +96,7 @@ No gate action by default. This remains a work-only learning artifact unless exp
 
 def main() -> int:
     ap = argparse.ArgumentParser(
-        description="Create a new work-dev compound note under docs/skill-work/work-dev/compound-notes/"
+        description="Create a new work-dev compound note under docs/archive/skill-work-legacy/work-dev/compound-notes/"
     )
     ap.add_argument("--title", required=True, help="Title for the note and filename slug")
     ap.add_argument("--date", default="", help="YYYY-MM-DD (default: today, local date)")

@@ -1,7 +1,7 @@
 # Analogue apps → skill-strategy: deltas after redundancy audit
 <!-- word_count: 369 -->
 
-**Purpose:** Filtered outcome of the “web analogues” brainstorm. Most ideas **duplicate** behavior already specified in [`skill-strategy`](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md), [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../STRATEGY-NOTEBOOK-ARCHITECTURE.md), and [NOTEBOOK-PREFERENCES.md](../NOTEBOOK-PREFERENCES.md). **Do not** paste long analogue narratives into the skill.
+**Purpose:** Filtered outcome of the “web analogues” brainstorm. Most ideas **duplicate** behavior already specified in [`skill-strategy`](../../docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md), [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../STRATEGY-NOTEBOOK-ARCHITECTURE.md), and [NOTEBOOK-PREFERENCES.md](../NOTEBOOK-PREFERENCES.md). **Do not** paste long analogue narratives into the skill.
 
 ## Dropped — no skill change needed
 

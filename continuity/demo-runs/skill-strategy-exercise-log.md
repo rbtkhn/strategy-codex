@@ -1,7 +1,7 @@
 # skill-strategy exercise series — running log
 <!-- word_count: 349 -->
 
-> **Historical log.** Rows referencing **tri-frame** / **TF** are **2026-04 archive** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md).
+> **Historical log.** Rows referencing **tri-frame** / **TF** are **2026-04 archive** — [TRI-MIND-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/TRI-MIND-DEPRECATED.md).
 
 **Purpose:** Comparable rows across runs — notebook path, rubric snapshot, failure mode, recursive **SKILL.md** candidate. See [`EXERCISE-PROMPTS.md`](EXERCISE-PROMPTS.md) for copy-paste prompts and exercise definitions.
 

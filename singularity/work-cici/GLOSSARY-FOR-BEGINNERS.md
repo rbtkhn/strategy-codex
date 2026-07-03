@@ -52,7 +52,7 @@ Short, plain-language definitions used in `work-cici`.
   Plain name for that stack in everyday AI talk: a **tool-using helper** that can **read** the Record to stay accurate, **draft and stage** work, and **only** change durable identity after **Mind** approves the gate. **Not** the **Voice** (the chat that speaks the Record when queried). **Not** a fourth part of the triad next to Mind, Record, and Voice.
 
 - **Skill-work agent**  
-  A **work agent** scoped to **`docs/skill-work/`** and **WORK territories** (runbooks, mirrors, **lanes**). Meant to be **replicated** (same playbook in another module) and run **in parallel** (separate branch, lane, or session). Same rule: **no silent merge** into the Record.
+  A **work agent** scoped to **`docs/archive/skill-work-legacy/`** and **WORK territories** (runbooks, mirrors, **lanes**). Meant to be **replicated** (same playbook in another module) and run **in parallel** (separate branch, lane, or session). Same rule: **no silent merge** into the Record.
 
 - **Interpretive machine vs Git fork**  
   **Interpretive machine** = the Record (governed self). **Git fork** = a separate repository on GitHub (or similar). Same English word, different layers.

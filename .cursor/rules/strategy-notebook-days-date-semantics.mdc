@@ -5,7 +5,7 @@ alwaysApply: true
 
 # Strategy codex — `days.md` date semantics (anti-split)
 
-**SSOT:** [STRATEGY-NOTEBOOK-ARCHITECTURE.md — `days.md` date keys](../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md#days-md-date-semantics). Namespace **`strategy-notebook`** is deprecated — [STRATEGY-NOTEBOOK-DEPRECATED.md](../../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md).
+**SSOT:** [STRATEGY-NOTEBOOK-ARCHITECTURE.md — `days.md` date keys](../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md#days-md-date-semantics). Namespace **`strategy-notebook`** is deprecated — [STRATEGY-NOTEBOOK-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md).
 
 **Invariants (WORK / `strategy` / **EOD compose**):**
 
@@ -14,4 +14,4 @@ alwaysApply: true
 - **Operator last-ingest boundary** → fold assistant work into that **notebook day** (or episodic heading), not extra split headings.
 - **`STATUS.md`** links must match **real** `days.md` anchors after consolidation.
 
-**EOD page-shape menu** (options before editing `days.md` in the **EOD strategy session**) — [architecture § EOD compose — page-shape menu](../../docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-ARCHITECTURE.md#weave-command-page-shape-menu). *Legacy:* “Weave menu.”
+**EOD page-shape menu** (options before editing `days.md` in the **EOD strategy session**) — [architecture § EOD compose — page-shape menu](../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md#weave-command-page-shape-menu). *Legacy:* “Weave menu.”

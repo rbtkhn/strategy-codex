@@ -1,6 +1,6 @@
 ﻿# work-dev workspace
 
-> **Mirror (work-cici):** Copied from canonical [`docs/skill-work/work-dev/workspace.md`](../work-dev/workspace.md) for advisor sync. **Unlinked** filenames in the table below are still paths under `docs/skill-work/work-dev/` in the grace-mar tree. **Clickable** links are adjusted for this folder.
+> **Mirror (work-cici):** Copied from canonical [`docs/archive/skill-work-legacy/work-dev/workspace.md`](../work-dev/workspace.md) for advisor sync. **Unlinked** filenames in the table below are still paths under `docs/archive/skill-work-legacy/work-dev/` in the grace-mar tree. **Clickable** links are adjusted for this folder.
 
 Canonical operator entrypoint for the `work-dev` territory.
 
@@ -115,7 +115,7 @@ Crypto belongs adjacent to these lanes as a future **authority / settlement / ac
 4. ~~Refresh stale derived exports (`manifest.json`, `llms.txt`, `intent_snapshot.json`, `fork-manifest.json`, PRP, runtime bundle). Validator flags these; run `refresh_derived_exports.py` after confirming no Record changes are pending.~~ Done (2026-04-12: `refresh_derived_exports.py -u grace-mar`; commit `3a17caf`).
 5. Close BUILD-AI-GAP-005 (factorial scenario library) or BUILD-AI-GAP-006 (reasoning vs action handback) â€” both `partial`; pick whichever unblocks the next real integration test.
 6. OB1 chunking spike â€” when demand materializes: export one real `self.md` under each strategy, measure retrieval precision, pick the winner. Blocking prerequisite for the bridge exporter (PR 4). See `docs/integrations/ob1/architecture.md` Â§ Known technical risks.
-7. Apply risk-mitigation template (success criteria, sustainment, deprecation, scope creep) to remaining uncovered territories: `work-politics`, `work-civ-mem`, `work-cici`. Template: `docs/skill-work/work-template/README.md` Â§ Risk-mitigation checklist.
+7. Apply risk-mitigation template (success criteria, sustainment, deprecation, scope creep) to remaining uncovered territories: `work-politics`, `work-civ-mem`, `work-cici`. Template: `docs/archive/skill-work-legacy/work-template/README.md` Â§ Risk-mitigation checklist.
 
 ---
 

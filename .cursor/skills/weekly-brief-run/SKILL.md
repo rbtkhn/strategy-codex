@@ -55,8 +55,8 @@ Focus on:
 
 When the brief touches **war powers**, **congressional ethics / insider-trading**, **cartel-economy claims with legal bite**, or **border + civil liberties** in a volatile window, remind the operator to complete **§8** of the weekly template *before* treating copy as ship-ready:
 
-- Framework: `docs/skill-work/work-politics/america-first-ky/guardrail-stress-test.md`
-- Paste template: `docs/skill-work/work-politics/america-first-ky/stress-test-brief-template.md`
+- Framework: `docs/archive/skill-work-legacy/work-politics/america-first-ky/guardrail-stress-test.md`
+- Paste template: `docs/archive/skill-work-legacy/work-politics/america-first-ky/stress-test-brief-template.md`
 - Dated scaffold: `python3 scripts/scaffold_stress_test_brief.py <issue-slug>` (optional `--dry-run` to preview path)
 
 This is WORK-only documentation; it does not merge into the Record.
@@ -65,14 +65,14 @@ This is WORK-only documentation; it does not merge into the Record.
 
 ## After the brief run — doc-only loop
 
-**Optional:** If **readiness** or **stale source** warnings repeat for the **same** path twice, tighten [brief-source-registry.md](../../../docs/skill-work/work-politics/brief-source-registry.md) or this skill with **one** line (owner, refresh rhythm, or override flag). No new scripts.
+**Optional:** If **readiness** or **stale source** warnings repeat for the **same** path twice, tighten [brief-source-registry.md](../../../docs/archive/skill-work-legacy/work-politics/brief-source-registry.md) or this skill with **one** line (owner, refresh rhythm, or override flag). No new scripts.
 
 ## Related files
 
 - `docs/operator-skills.md`
-- `docs/skill-work/work-politics/weekly-brief-template.md` (includes §1b geo/military + §1c civ-mem depth)
-- `docs/skill-work/work-strategy/daily-brief-config.json` (feeds + `geo_military_keyword_phrases_extra`)
-- `docs/skill-work/work-politics/brief-source-registry.md`
-- `docs/skill-work/work-politics/content-queue.md`
-- `docs/skill-work/work-politics/america-first-ky/guardrail-stress-test.md`
-- `docs/skill-work/work-politics/civ-mem-draft-protocol.md`
+- `docs/archive/skill-work-legacy/work-politics/weekly-brief-template.md` (includes §1b geo/military + §1c civ-mem depth)
+- `docs/archive/skill-work-legacy/work-strategy/daily-brief-config.json` (feeds + `geo_military_keyword_phrases_extra`)
+- `docs/archive/skill-work-legacy/work-politics/brief-source-registry.md`
+- `docs/archive/skill-work-legacy/work-politics/content-queue.md`
+- `docs/archive/skill-work-legacy/work-politics/america-first-ky/guardrail-stress-test.md`
+- `docs/archive/skill-work-legacy/work-politics/civ-mem-draft-protocol.md`

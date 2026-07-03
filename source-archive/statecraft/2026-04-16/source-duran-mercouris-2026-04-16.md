@@ -6,7 +6,7 @@ show: The Duran
 channel_slug: the-duran
 kind: transcript
 source_form: post
-source_path: docs/skill-work/work-strategy/strategy-notebook/experts/mercouris/transcript.md
+source_path: docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/mercouris/transcript.md
 ---
 ## 2026-04-16
 

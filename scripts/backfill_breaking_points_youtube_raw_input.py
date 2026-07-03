@@ -33,7 +33,7 @@ def main() -> int:
             "--work-dir",
             str(REPO_ROOT / ".codex-tmp" / "youtube-breaking-points"),
             "--notebook-root",
-            str(REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"),
+            str(REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"),
             "--limit",
             "20",
             "--sleep",

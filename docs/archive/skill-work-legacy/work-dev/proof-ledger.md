@@ -1,0 +1,49 @@
+# work-dev proof ledger
+
+Reusable proof fragments for the `work-dev` business layer.
+
+This is an internal proof bank:
+
+- what changed operationally
+- what line is safe to reuse
+- what is still only internal framing
+
+---
+
+## Proof entries
+
+| Proof ID | Context | What changed | Reusable line | External-use status | Notes |
+|---------|---------|--------------|---------------|---------------------|-------|
+| **BUILD-AI-PROOF-0001** | OpenClaw integration architecture | Grace-Mar formalized OpenClaw as a runtime adapter rather than the canonical identity owner | "We separate canonical identity from runtime continuity so a client's understanding does not get trapped inside one agent runtime." | **external_summary_ok** | Strongest wedge statement. |
+| **BUILD-AI-PROOF-0002** | Runtime portability work | Export and bundle surfaces were generalized beyond OpenClaw-specific naming | "We can design AI systems so exports and runtime compatibility survive beyond one tool or vendor." | **external_summary_ok** | Good for portability framing. |
+| **BUILD-AI-PROOF-0003** | Governance / gating | Stage-only handback and approval doctrine were made explicit | "We can keep human approval at the gate instead of letting downstream tools silently write canonical truth." | **external_summary_ok** | Strong for governance-sensitive buyers. |
+| **BUILD-AI-PROOF-0004** | Operatorization pass | Territory now distinguishes implemented behavior from documented-only behavior | "We do not just describe AI governance; we force the system to state what is real, partial, or still aspirational." | **internal_preferred** | Good for proposals or partner conversations, but avoid overstating external maturity. |
+| **BUILD-AI-PROOF-0005** | Quality gates narrative | Counterfactual harness, integrity, continuity CI, and gate-health docs framed as **visible boundary checks**, not engineering chores | "Our evals are the product — they show the fork stays inside the companion's knowledge boundary and governance rules, not just that the model ran." | **external_summary_ok** | Pair with [quality-gates-narrative.md](quality-gates-narrative.md); do not imply a shipped dashboard UI until one exists. |
+| **BUILD-AI-PROOF-0006** | Session continuity contract | Continuity documented as **files + scripts + CI**, not implicit agent memory | "Continuity isn't 'the AI remembers' — it's which files you read, which script you run, and CI proving that path still works." | **external_summary_ok** | Pair with [session-continuity-contract.md](session-continuity-contract.md). |
+| **BUILD-AI-PROOF-0007** | Safety story UX | Pending vs approved, receipts, pipeline staged/applied, last merge — **audit continuity** framed as primary user comfort, not admin trivia | "We treat audit trails as the product — you always see what's waiting, what merged, and what OpenClaw only staged, so you're not guessing from chat." | **external_summary_ok** | Pair with [safety-story-ux.md](safety-story-ux.md); do not imply a shipped unified dashboard until one exists. |
+| **BUILD-AI-PROOF-0008** | Third-party market discourse | Large vendor TAM / agent-commerce headlines are labeled **narrative temperature**, not internal metrics | "We separate analyst headlines from our own instrumentation — third-party market numbers are for context, not our ledger." | **external_summary_ok** | Pair with [economic-benchmarks.md](economic-benchmarks.md) § third-party narrative; do not cite McKinsey-style figures as Grace-Mar truth. |
+| **BUILD-AI-PROOF-0009** | Agent-ready data vs canonical Record | MCP and messy enterprise data ≠ a governed identity export; portable Record + gate stays the contract | "Agent-ready commerce still needs a clean identity contract and a human gate — plumbing alone doesn't make messy data canonical." | **external_summary_ok** | Aligns with [research-agent-readable-writable-commerce.md](research-agent-readable-writable-commerce.md); avoid claiming we instrument vendor TAM. |
+| **BUILD-AI-PROOF-0010** | Partner positioning (one loop) | Export + stage-only handback + merge separation | "We deliver a portable Record, stage handback for review, and keep merge on the human side — that's the whole loop in three clauses." | **external_summary_ok** | Pair with [INTEGRATION-PROGRAM.md](INTEGRATION-PROGRAM.md). |
+
+### Partner one-liners (pasteable)
+
+Use only when bounded by the proof rows above:
+
+1. "Portable identity export, stage-only handback, human merge — we don't let downstream tools silently write canonical truth."
+2. "Third-party trillion-dollar headlines are market temperature for us, not numbers on our dashboard."
+3. "Continuity is which files you read and which script proves it — not implicit chat memory."
+4. "MCP over messy data isn't the same as a governed fork; we own the export contract and the gate."
+
+---
+
+## How to use this file
+
+1. Reuse short lines only when they remain truthful and bounded.
+2. Add new rows when internal work produces a real before/after operational improvement.
+3. Prefer operational language over abstract philosophy in client-facing use.
+
+---
+
+## Guardrail
+
+Proof should come from actual territory changes, not future positioning claims.

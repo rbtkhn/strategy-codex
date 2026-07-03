@@ -59,7 +59,7 @@ def _base_config() -> dict:
             {
                 "id": "work-docs-no-canonical-merge-authority",
                 "kind": "text_forbidden_regex",
-                "targets": ["docs/skill-work/**/*.md"],
+                "targets": ["docs/archive/skill-work-legacy/**/*.md"],
                 "forbiddenRegex": (
                     "\\b(?:can|may|has|have|grants?|with)\\b[^\\n]{0,80}"
                     "\\b(?:canonical )?merge authority\\b"

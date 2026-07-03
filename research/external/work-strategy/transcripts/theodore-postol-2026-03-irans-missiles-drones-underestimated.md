@@ -8,7 +8,7 @@
 
 **Ingested:** 2026-04-02 (operator paste).
 
-**Scope:** [work-strategy](../../../../docs/skill-work/work-strategy/README.md) upstream — technical and strategic opinion. **Not** companion Record. Verify **battle damage**, **interceptor stocks**, **cost figures**, and **RUSI** attribution before ship-facing copy.
+**Scope:** [work-strategy](../../../../docs/archive/skill-work-legacy/work-strategy/README.md) upstream — technical and strategic opinion. **Not** companion Record. Verify **battle damage**, **interceptor stocks**, **cost figures**, and **RUSI** attribution before ship-facing copy.
 
 **ASR note:** Transcript renders **“Apostol”** / **“BYU”** for **Postol** / **BeiDou** in places — correct when quoting formally.
 

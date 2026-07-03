@@ -71,7 +71,7 @@ It begins **blank** in the template and is populated only when seed-survey evide
 **Boundary notes**
 
 - `work-dev.md` is a **user module** under ``.
-- It is **not** the operator-facing `docs/skill-work/work-dev/` tree (integration, OpenClaw, exports).
+- It is **not** the operator-facing `docs/archive/skill-work-legacy/work-dev/` tree (integration, OpenClaw, exports).
 - It is **not** `self-skill-work`, which tracks **skill claims** rather than development-context preferences.
 
 **Schema note:** `work_dev_seed.json` uses `additionalProperties: false`; new keys require a schema version bump.
@@ -107,7 +107,7 @@ It begins **blank** in the template and is populated only when seed-survey evide
 **Boundary notes**
 
 - `work-business.md` is a **user module** under ``.
-- It is **not** the operator-facing `docs/skill-work/work-business/` tree (research docs, Grace Gems, deep dives).
+- It is **not** the operator-facing `docs/archive/skill-work-legacy/work-business/` tree (research docs, Grace Gems, deep dives).
 - It is **not** `self-skill-work`, which tracks **skill claims** rather than commercial-context preferences.
 
 **Schema note:** `work_business_seed.json` uses `additionalProperties: false`; new keys require a schema version bump.

@@ -6,7 +6,7 @@ Orchestrates existing check scripts plus scoped link and local-path scans.
 Read-only except for report output paths.
 
 See runtime/artifacts/repo-surgeon/README.md and
-docs/skill-work/work-dev/operator-dashboard-consolidation-phase0.md.
+docs/archive/skill-work-legacy/work-dev/operator-dashboard-consolidation-phase0.md.
 """
 
 from __future__ import annotations

@@ -10,13 +10,13 @@ For the lane-specific membrane grammar, open [singularity work membrane](../work
 
 `singularity-academy` may consolidate other work lanes when the purpose is not merely to operate them, but to test the Innermost Loop / Moonshots thesis in live conditions: recursive self-improving AI, agent control, substrate dependence, skill displacement, and real-world leverage across unrelated projects.
 
-Most overlay lanes keep their own canonical shelves. `work-cici` is the main singularity-native cohort/advisor overlay: its live authority now sits at [singularity/work-cici](../work-cici/README.md), while `docs/skill-work/work-cici/` remains a compatibility pointer.
+Most overlay lanes keep their own canonical shelves. `work-cici` is the main singularity-native cohort/advisor overlay: its live authority now sits at [singularity/work-cici](../work-cici/README.md), while `singularity/work-cici/` remains a compatibility pointer.
 
 This consolidation is work-only. `singularity-academy` does not use `candidates`, `recursion-gate`, or governed Record routing as part of its normal flow. If a durable cross-session fact or identity-level claim later needs governed treatment, route it out of the workshop explicitly at the boundary rather than building gate mechanics into the workshop itself.
 
-- [work-business](../../docs/skill-work/work-business/README.md) - operator ventures such as Grace Gems become live singularity test cases when the question is whether agents improve throughput, judgment, marketing, bookkeeping, or business formation over repeated cycles.
+- [work-business](../../docs/archive/skill-work-legacy/work-business/README.md) - operator ventures such as Grace Gems become live singularity test cases when the question is whether agents improve throughput, judgment, marketing, bookkeeping, or business formation over repeated cycles.
 - [work-cici](../work-cici/README.md) - Cici AI is the singularity-native cohort / advisor overlay for testing whether recursive AI scaffolds help novices start, coordinate, learn, and compound faster than ordinary onboarding or coaching.
-- [work-dev](../../docs/skill-work/work-dev/README.md) - OpenClaw, external-agent, eval, control-plane, substrate, and code-intelligence work becomes a live singularity test case when the question is whether recursive tooling, agents, and technical control planes create durable leverage under acceleration.
+- [work-dev](../../docs/archive/skill-work-legacy/work-dev/README.md) - OpenClaw, external-agent, eval, control-plane, substrate, and code-intelligence work becomes a live singularity test case when the question is whether recursive tooling, agents, and technical control planes create durable leverage under acceleration.
 
 Use the workshop to compare these lanes by the same fields:
 
@@ -56,12 +56,12 @@ For Coffee D specifically, add one routing question before closing the pass: has
 - [Scenario Lab Pilot](sheets/scenario-lab-pilot.md) - bounded futures substrate for structured branching, actor pressure, and scenario-family work inside singularity-academy.
 - [AI interface as operating layer - 2028 horizon](../../essays/interface-operating-layer-2028.md) — essay; [operating sheet](sheets/interface-operating-layer-2028.md)
 - [Narrative-Shaped Alignment](../../essays/narrative-shaped-alignment.md) — essay; [operating sheet](sheets/narrative-shaped-alignment.md)
-- [CodeGraph pilot benchmark](../../docs/skill-work/work-dev/codegraph-pilot-benchmark.md) - bounded technical proving-ground loop for deciding whether local code-intelligence actually compounds enough to expand.
+- [CodeGraph pilot benchmark](../../docs/archive/skill-work-legacy/work-dev/codegraph-pilot-benchmark.md) - bounded technical proving-ground loop for deciding whether local code-intelligence actually compounds enough to expand.
 
 ## Commercial Wedge
 
-- [Singularity-Academy AI Operating System Sprint](../../docs/skill-work/work-business/singularity-academy-ai-operating-system-sprint.md) - work-only service offer for testing whether control-plane, reporting, and beginner-safe workflow doctrine can become a real paid install.
-- [Singularity-Academy `$5k/mo` Roadmap](../../docs/skill-work/work-business/singularity-academy-5000mo-roadmap.md) - narrow business path for turning the workshop's live-lane doctrine into one sellable service instead of a content-only posture.
+- [Singularity-Academy AI Operating System Sprint](../../docs/archive/skill-work-legacy/work-business/singularity-academy-ai-operating-system-sprint.md) - work-only service offer for testing whether control-plane, reporting, and beginner-safe workflow doctrine can become a real paid install.
+- [Singularity-Academy `$5k/mo` Roadmap](../../docs/archive/skill-work-legacy/work-business/singularity-academy-5000mo-roadmap.md) - narrow business path for turning the workshop's live-lane doctrine into one sellable service instead of a content-only posture.
 
 ## Keystone Helix
 

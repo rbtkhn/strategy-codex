@@ -46,7 +46,7 @@ For strategy-codex that means:
 1. **Archive before synthesis** (verbatim SSOT) — reduces rewrite drift, increases review surface area on purpose.
 2. **Workshop sheets carry boundary warnings** — synthesis is prompt, not law.
 3. **Notes promote one seam** — review cost is bounded per artifact.
-4. **Session continuity is contractual** (`docs/skill-work/work-dev/session-continuity-contract.md`) — new agents do not inherit review state; harness paste is load, not memory.
+4. **Session continuity is contractual** (`docs/archive/skill-work-legacy/work-dev/session-continuity-contract.md`) — new agents do not inherit review state; harness paste is load, not memory.
 
 The failure mode to watch: **review collapse** — treating agent fluency as verification because the next menu pick is already waiting.
 

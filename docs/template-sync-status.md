@@ -61,7 +61,7 @@ Living document for **alignment** between this **instance** and the [companion-s
 - **[approval-inbox-spec.md](approval-inbox-spec.md)** â€” **Portable baseline** link + grace-mar extended UX/API spec.
 - **Historical seed narrative** vs Seed Phase v2 numbered stages â€” [companion-self-seed-phase-v2-mapping.md](companion-self-seed-phase-v2-mapping.md).
 - **Operator tooling** (harness, work-jiang, operator cadence / `operator_daily_warmup`) â€” instance-specific; not required to match template minimal student app.
-- **`docs/skill-work/work-*`** â€” large **instance-only** trees (work-build-ai legacy, generated dashboards, etc.); entrypoint READMEs carry **template mirror** links for diff hygiene.
+- **`docs/archive/skill-work-legacy/work-*`** â€” large **instance-only** trees (work-build-ai legacy, generated dashboards, etc.); entrypoint READMEs carry **template mirror** links for diff hygiene.
 
 ---
 
@@ -71,7 +71,7 @@ Living document for **alignment** between this **instance** and the [companion-s
 |------|---------|------------------|
 | **Canonical template surfaces** | Portable template material that grace-mar normally wants close to upstream | `schemas/registry/`, `platform/template/`, change-review doctrine docs, template validators |
 | **Mirrored-but-adapted** | Same conceptual surface, but grace-mar keeps additional reference-implementation detail | `identity-fork-protocol.md`, contradiction docs, architecture/concept expansions, local schema mirrors |
-| **Instance-only** | Never part of template parity | ``, platform/deployment/runtime config, local operator tooling, most `docs/skill-work/work-*` trees |
+| **Instance-only** | Never part of template parity | ``, platform/deployment/runtime config, local operator tooling, most `docs/archive/skill-work-legacy/work-*` trees |
 
 This classification is the default answer when a diff appears: first decide the class, then decide whether anything should merge.
 

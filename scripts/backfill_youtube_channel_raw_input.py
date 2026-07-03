@@ -422,7 +422,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--file-prefix", default="youtube")
     ap.add_argument("--source-note", default="")
     ap.add_argument("--work-dir", type=Path, default=REPO_ROOT / ".codex-tmp" / "youtube-channel")
-    ap.add_argument("--notebook-root", type=Path, default=REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook")
+    ap.add_argument("--notebook-root", type=Path, default=REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook")
     ap.add_argument("--limit", type=int, default=20)
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--ingest-date", type=str, default=None, help="YYYY-MM-DD ingest_date in frontmatter")

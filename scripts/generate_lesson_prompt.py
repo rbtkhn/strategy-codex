@@ -6,7 +6,7 @@ Preserved for reference. See archive/companion-freeze-abby-2026-04-14/ for conte
 Generate a one-prompt-per-day lesson for the human companion to paste into ChatGPT or Grok.
 
 Reads the Record (`self.md`, `skill-think.md`) plus adjacent lesson work context when present, extracts IX-A/B, edge, work goals,
-and fills the minimal prompt shape from docs/skill-work/work-lesson-generation-walkthrough.md §3.
+and fills the minimal prompt shape from docs/archive/skill-work-legacy/work-lesson-generation-walkthrough.md §3.
 
 Design: structure+execution (human provides structure via prompt; LLM executes), evidence-first
 (base activities on Record; "We did [X]" for handback). Rules from lesson-rules-config.yaml.
@@ -14,7 +14,7 @@ Output: one text block for copy-paste. Run once per day; regenerate after "we di
 
 Usage:
     python scripts/generate_lesson_prompt.py -u grace-mar
-    python scripts/generate_lesson_prompt.py -u grace-mar -o docs/skill-work/sample-lesson-prompt-grace-mar.txt
+    python scripts/generate_lesson_prompt.py -u grace-mar -o docs/archive/skill-work-legacy/sample-lesson-prompt-grace-mar.txt
     python scripts/generate_lesson_prompt.py -u grace-mar -n Robert -o lesson.txt
     python scripts/generate_lesson_prompt.py -u grace-mar --tier specialized --focus math
 """

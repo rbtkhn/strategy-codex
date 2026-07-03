@@ -63,8 +63,8 @@ They also produce a compact session-start brief from:
 - `session-log.md`
 - `recursion-gate.md`
 - `self-evidence.md`
-- `docs/skill-work/work-dev/workspace.md`
-- `docs/skill-work/work-dev/session-continuity-contract.md`
+- `docs/archive/skill-work-legacy/work-dev/workspace.md`
+- `docs/archive/skill-work-legacy/work-dev/session-continuity-contract.md`
 
 ## Typical workflow
 

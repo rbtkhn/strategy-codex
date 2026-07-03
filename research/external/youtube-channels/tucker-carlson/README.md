@@ -30,7 +30,7 @@ Optional bulk caption pull for **one** video: reuse `scripts/fetch_youtube_chann
 
 ## Guardrails
 
-- Opinion + narrative; triangulate claims with **primary** or **cited news** before ship-facing copy — see [external-tech-scan.md](../../../../docs/skill-work/work-strategy/external-tech-scan.md).
+- Opinion + narrative; triangulate claims with **primary** or **cited news** before ship-facing copy — see [external-tech-scan.md](../../../../docs/archive/skill-work-legacy/work-strategy/external-tech-scan.md).
 - **work-politics** drafts still need sources and gate policy.
 
 ---

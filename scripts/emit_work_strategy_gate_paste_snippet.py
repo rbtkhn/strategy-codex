@@ -4,7 +4,7 @@ Emit a canonical ### CANDIDATE-* snippet for work-strategy milestones (RECURSION
 
 Default rows match existing gate convention: territory: work-politics, channel_key: operator:work-strategy.
 Writes <user>/archive/grace-mar-instance/recursion-gate-staging/work-strategy-<date>.paste-snippet.md.
-See docs/skill-work/work-strategy/LANE-CI.md.
+See docs/archive/skill-work-legacy/work-strategy/LANE-CI.md.
 """
 
 from __future__ import annotations
@@ -57,7 +57,7 @@ def build_snippet(
             f"summary: {safe_summary}",
             "```",
             "",
-            "_Add source, source_exchange, suggested_entry, profile_target per docs/skill-work/work-politics/pol-candidate-template.md if using work-politics channel_key bucket._",
+            "_Add source, source_exchange, suggested_entry, profile_target per docs/archive/skill-work-legacy/work-politics/pol-candidate-template.md if using work-politics channel_key bucket._",
             "",
         ]
     )

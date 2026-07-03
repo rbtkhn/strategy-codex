@@ -414,7 +414,7 @@ def matrix_markdown_matches(rows: list[ScenarioRow], path: Path) -> tuple[bool, 
         return True, ""
     return False, (
         f"matrix drift: {path} does not match regenerated output "
-        f"(regenerate per docs/skill-work/work-dev/scenarios/baseline_scenarios/README.md)\n"
+        f"(regenerate per docs/archive/skill-work-legacy/work-dev/scenarios/baseline_scenarios/README.md)\n"
     )
 
 def main() -> int:

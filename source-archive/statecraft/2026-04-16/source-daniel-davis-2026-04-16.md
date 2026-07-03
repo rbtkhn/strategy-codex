@@ -5,7 +5,7 @@ thread: davis
 channel_slug: daniel-davis
 kind: transcript
 source_form: post
-source_path: docs/skill-work/work-strategy/strategy-notebook/experts/davis/transcript.md
+source_path: docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/davis/transcript.md
 ---
 ## 2026-04-16
 - `YT | cold: **Daniel Davis** — *Iran Closes Strait of Hormuz, Now What?* — Trump clip vs **Iranian** **memory** **frame**; **dual-blockade** **(Araghchi** **/** **IRGC** **vs** **Trump** **TS)**; **Sean** **Bell** **(Sky)** **cross**; **AIS** **route** **graphics**; **spin** **vs** **Strait** **control**; **macro** **(inventories,** **Bessent** **whiplash,** **fertilizer** **/** **jet** **fuel)**; **Trump** **nuclear** **/** **no-tolls** **claims** **vs** **IRI** **red** **lines**; **ceasefire** **Wednesday** **clock** // hook: **`thread:davis`** **deep-dive** **verbatim** **—** **pin** **YT** **+** **aired** **date**; **cross** **04-17** **Johnson** **×** **Davis**, **Ritter** **Hormuz** **mechanics**, **Pape** **supply** **trap** | https://www.youtube.com/watch?v=TBD-davis-hormuz-deepdive-2026-04-18 | verify:operator-verbatim+source-deepdive-iran-closes-hormuz-2026-04-18-verbatim-2026-04-18.md+pin-canonical-URL+aired:TBD | thread:davis | grep:Hormuz+Davis+Araghchi+IRGC+Bell+Bessent`

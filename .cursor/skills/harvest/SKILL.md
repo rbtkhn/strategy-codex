@@ -89,8 +89,8 @@ Resolve **`<id>`** from the instance (default **`grace-mar`** in this repo). Rea
 3. **`last-dream.json`** — last dream summary (hints only)
 4. **`continuity/coffee/coffee-history.md`**
 5. **`continuity/dream/dream-history.md`**
-6. **`docs/skill-work/work-politics/work-politics-history.md`** — if present
-7. **`docs/skill-work/work-dev/work-dev-history.md`** — if present
+6. **`docs/archive/skill-work-legacy/work-politics/work-politics-history.md`** — if present
+7. **`docs/archive/skill-work-legacy/work-dev/work-dev-history.md`** — if present
 8. **`session-transcript.md`** — if **missing**, skip. If **present**, read per **Thread depth and honesty** (default **tail 200 lines**; **deep** = full file or last 500 if huge).
 
 Also run in **this** repo:

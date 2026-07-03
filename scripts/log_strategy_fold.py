@@ -5,7 +5,7 @@ Append one strategy-notebook fold event to strategy-fold-events.jsonl.
 Legacy name; the current operator command is 'weave'. Script and JSONL field names
 retain 'fold' for backward compatibility.
 
-WORK-only ledger — not Record, not MEMORY. See docs/skill-work/work-strategy/strategy-notebook/FOLD-LEARNING.md.
+WORK-only ledger — not Record, not MEMORY. See docs/archive/skill-work-legacy/work-strategy/strategy-notebook/FOLD-LEARNING.md.
 
 Usage:
   python3 scripts/log_strategy_fold.py -u grace-mar --notebook-date 2026-04-13 --fold-kind manual

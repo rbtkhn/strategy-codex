@@ -33,7 +33,7 @@ from strategy_expert_corpus import CANONICAL_EXPERT_IDS, _EXPERT_IDS_SET
 
 DEFAULT_INBOX = (
     REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md"
+    / "continuity/daily-strategy-inbox.md"
 )
 DEFAULT_OUT = (
     REPO_ROOT / "runtime/artifacts/skill-work/work-strategy/batch-analysis-snapshot.json"

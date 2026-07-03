@@ -75,7 +75,7 @@ When an instance (e.g. Grace-Mar) merges upgrades from companion-self, it should
 | `docs/identity-fork-protocol.md` | Protocol: Sovereign Merge Rule, schema (SELF, self-skill-*, self-evidence), evidence linking. |
 | `docs/seed-phase.md` | Definition of seed phase; what creates initial Record. |
 | `docs/long-term-objective.md` | Permanent system rules (democratize mastery learning; sovereignty; knowledge boundary). |
-| `docs/skill-work/skill-work-human-teacher/human-teacher-objectives.md` | Human teaching/learning objectives (skill-work-human-teacher submodule): read and modulate skill-think; operator/parent augment path. |
+| `docs/archive/skill-work-legacy/skill-work-human-teacher/human-teacher-objectives.md` | Human teaching/learning objectives (skill-work-human-teacher submodule): read and modulate skill-think; operator/parent augment path. |
 | `docs/instance-patterns.md` | Instance patterns and reference implementation (Grace-Mar variations, analyst contract, staging format). |
 | `docs/change-review.md` | Change review v1 entrypoint: governed post-seed self-revision doctrine (separate from seed phase). |
 | `docs/contradiction-policy.md` | Contradiction classification and resolution policy during change review. |

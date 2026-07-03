@@ -4,7 +4,7 @@ pub_date: 2026-04-17
 thread: johnson
 kind: transcript
 source_form: post
-source_path: docs/skill-work/work-strategy/strategy-notebook/experts/johnson/transcript.md
+source_path: docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/johnson/transcript.md
 ---
 ## 2026-04-17
 

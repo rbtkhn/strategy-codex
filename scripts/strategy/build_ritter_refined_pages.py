@@ -7,7 +7,7 @@ Run from repo root after adding new Substack / JF / Ritter's Rant verbatim files
 Scaffolds are structural only (empty Verbatim / Reflection / Foresight). After ingest, run
 `scripts/strategy/assemble_ritter_pages_verbatim.py` to embed ~80% expert verbatim in Verbatim
 and generated WORK analysis in Reflection/Foresight per
-`docs/skill-work/work-strategy/strategy-notebook/refined-page-template.md` (Ritter extended modes; compat stub: `experts/ritter/ritter-page-template.md`).
+`docs/archive/skill-work-legacy/work-strategy/strategy-notebook/refined-page-template.md` (Ritter extended modes; compat stub: `experts/ritter/ritter-page-template.md`).
 
 Idempotent: overwrites manifest; overwrites ritter-page scaffolds that still contain
 the marker SCOUT_REFINED_PAGE_SCAFFOLD (or use --force to overwrite all).
@@ -44,7 +44,7 @@ except ImportError:  # pragma: no cover
     )
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 RAW = NOTEBOOK / "raw-input"
 RITTER = NOTEBOOK / "experts" / "ritter"
 MANIFEST_PATH = RITTER / "ritter-pages-manifest.yaml"

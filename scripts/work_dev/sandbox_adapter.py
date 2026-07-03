@@ -5,7 +5,7 @@ Sandbox adapter — governance wrapper for external sandbox runtimes.
 Wraps external sandboxes (E2B, Daytona, Docker, or dry-run) with
 authority checks, pre/post receipts, and compute-ledger integration.
 
-See: docs/skill-work/work-dev/sandbox-adapter-spec.md
+See: docs/archive/skill-work-legacy/work-dev/sandbox-adapter-spec.md
 
 Usage (dry-run):
   python scripts/work_dev/sandbox_adapter.py -u grace-mar --backend dry_run --command "echo hello"

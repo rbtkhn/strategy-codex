@@ -135,7 +135,7 @@ def main() -> None:
     args = p.parse_args()
 
     repo = Path(__file__).resolve().parents[2]
-    root = repo / "docs/skill-work/work-strategy/strategy-notebook/experts"
+    root = repo / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts"
     files = sorted(
         x for x in root.rglob("*-page-*.md") if not x.name.endswith("-page-template.md")
     )

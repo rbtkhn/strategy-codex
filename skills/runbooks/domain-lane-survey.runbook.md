@@ -7,7 +7,7 @@ scope_class: repo-governed
 skills:
   - repo-hygiene-pass
 outputs:
-  - bounded SURVEY markdown under docs/skill-work/work-[lane]/
+  - bounded SURVEY markdown under docs/archive/skill-work-legacy/work-[lane]/
 authority: advisory_only
 verification_level: receipt_required
 risk_tier: low
@@ -42,7 +42,7 @@ Scan the landscape before creating a new `work-*` territory or adopting a tool/f
 |---:|---|---|
 | 1 | Lane README or stated objective | Anchor scope |
 | 2 | **Survey workflow** (this runbook) | Landscape scan, verdicts, gaps |
-| 3 | [work-template.md](../../docs/skill-work/work-template.md) | Lane creation checklist after survey |
+| 3 | [work-template.md](../../docs/archive/skill-work-legacy/work-template.md) | Lane creation checklist after survey |
 | 4 | Optional **`repo-hygiene-pass`** | After lane scaffold exists |
 
 ## Inputs Required
@@ -52,7 +52,7 @@ Scan the landscape before creating a new `work-*` territory or adopting a tool/f
 
 ## Workflow Steps
 
-1. **Read the lane objective** — If `docs/skill-work/work-[lane]/README.md` exists, read it; otherwise use the operator's stated goal.
+1. **Read the lane objective** — If `docs/archive/skill-work-legacy/work-[lane]/README.md` exists, read it; otherwise use the operator's stated goal.
 
 2. **Web search** (3–5 targeted queries) for open-source tools, commercial products, published frameworks, and community prior art in that domain.
 
@@ -69,13 +69,13 @@ Scan the landscape before creating a new `work-*` territory or adopting a tool/f
    | **Reference** | Learn from it; build your own version |
    | **Ignore** | Different problem or low quality |
 
-5. **Write results** to `docs/skill-work/work-[lane]/SURVEY_[lane].md`:
+5. **Write results** to `docs/archive/skill-work-legacy/work-[lane]/SURVEY_[lane].md`:
    - landscape summary (2–3 sentences)
    - findings table (name, verdict, notes)
    - gaps and opportunities
    - recommendations (adopt vs build)
 
-6. **Proceed to lane creation checklist** in [work-template.md](../../docs/skill-work/work-template.md) step 4.
+6. **Proceed to lane creation checklist** in [work-template.md](../../docs/archive/skill-work-legacy/work-template.md) step 4.
 
 7. **Optional — unpack recommendations** (Think lane only): if the operator asks for tradeoffs on survey recommendations, restate scope, list pros/cons, name **disproportion**, and recommend — per [operator-style.mdc](../../.cursor/rules/operator-style.mdc). No repo edits unless they switch to ship.
 
@@ -119,7 +119,7 @@ If verification cannot be completed:
 ## Return Paths
 
 - [skills/runbooks/README.md](README.md)
-- [docs/skill-work/recipes/onboard-new-lane.md](../../docs/skill-work/recipes/onboard-new-lane.md)
+- [docs/archive/skill-work-legacy/recipes/onboard-new-lane.md](../../docs/archive/skill-work-legacy/recipes/onboard-new-lane.md)
 - [docs/skills-map.md](../../docs/skills-map.md)
 
 ## Guardrails

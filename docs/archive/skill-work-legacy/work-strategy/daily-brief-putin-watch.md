@@ -1,0 +1,36 @@
+# Putin - last 48 hours (explicit daily brief route)
+
+**Purpose:** Standing **operator WORK** slice for the daily brief: **Vladimir Putin's public statements and visible activity** in a **rolling 48-hour** window (not Record truth, not Voice knowledge).
+
+**When:** When the operator explicitly requests the **daily brief** or a **daily-brief refresh** in the [coffee skill](../../../.cursor/skills/coffee/SKILL.md) ecosystem (legacy **hey** still works): run the **web scan**, then write the **compact block** (bullets + URLs) into **section 1d** (`## 1d. Putin - last 48 hours`) **in the daily brief file** after `generate_work_politics_daily_brief.py` (or when refreshing an existing today's file). Step 1 **coffee** does **not** run this scan automatically.
+
+---
+
+## What to cover
+
+- **Scheduled appearances** (Kremlin events, forums, phone calls) with **date/time (UTC if possible)**.
+- **Quoted lines** that move policy or negotiation framing; attribute to **wire or official transcript**, not paraphrase-only.
+- **Domestic security / military** remarks if they are new in the window.
+- If **nothing material** in 48h: one line - `"No major new Putin statements located in window; see Kremlin feed for minor events."`
+
+## Canonical surfaces (bookmark)
+
+| Surface | URL | Notes |
+|--------|-----|--------|
+| Kremlin - events / transcripts | [kremlin.ru/events/president](http://kremlin.ru/events/president) | Primary for official wording |
+| Reuters - Russia / Ukraine | [reuters.com/world](https://www.reuters.com/world/) | Cross-check time and phrasing |
+| BBC - Russia / Ukraine | [bbc.com/news/world](https://www.bbc.com/news/world) | |
+| TASS (English) | [tass.com](https://tass.com/) | State wire; label as such |
+| RIA Novosti | [ria.ru](https://ria.ru/) | Russian-language; use with attribution |
+
+**Native-language triangulation:** When Russia is load-bearing for the day, add **at least one Russian-language or Kremlin-primary line** (see [daily-brief-native-international-pass.md](daily-brief-native-international-pass.md)); this is not optional for full section 1d passes on active Kremlin / Ukraine threads.
+
+## Guardrails
+
+- **Cite URLs** for each bullet used in client-facing or posted material.
+- **Do not** merge into SELF, EVIDENCE, or `archive/grace-mar-instance/bot/prompt.py` without the gated pipeline.
+- **RSS section 2** of the daily brief may surface Putin-adjacent headlines; it **does not** replace this pass (timing, full quotes, Kremlin schedule).
+
+---
+
+**Last procedure refresh:** 2026-04-12

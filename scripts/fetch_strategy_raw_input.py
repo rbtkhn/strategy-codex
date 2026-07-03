@@ -53,7 +53,7 @@ if str(_SCRIPTS) not in sys.path:
 
 from strategy_expert_corpus import _EXPERT_IDS_SET  # noqa: E402
 from strategy_expert_transcript import iter_raw_input_yaml_documents  # noqa: E402
-DEFAULT_NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+DEFAULT_NOTEBOOK = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 DEFAULT_INBOX = DEFAULT_NOTEBOOK / "daily-strategy-inbox.md"
 DEFAULT_RAW_ROOT = DEFAULT_NOTEBOOK / "raw-input"
 DEFAULT_CONFIG = DEFAULT_RAW_ROOT / "fetch-sources.json"

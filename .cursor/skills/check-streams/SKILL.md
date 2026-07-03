@@ -17,13 +17,13 @@ tags:
 portable_source: skills/check-streams/SKILL.md
 synced_by: sync_portable_skills.py
 deprecated: 2026-06-21
-see: docs/skill-work/work-strategy/CHECK-STREAMS-DEPRECATED.md
+see: docs/archive/skill-work-legacy/work-strategy/CHECK-STREAMS-DEPRECATED.md
 ---
 # DEPRECATED — Check streams
 
 **Status:** Deprecated **2026-06-21**. Do not treat **`check streams`** as the canonical skill name for new work.
 
-Full spec: [CHECK-STREAMS-DEPRECATED.md](../../docs/skill-work/work-strategy/CHECK-STREAMS-DEPRECATED.md)
+Full spec: [CHECK-STREAMS-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/CHECK-STREAMS-DEPRECATED.md)
 
 ## Use instead
 

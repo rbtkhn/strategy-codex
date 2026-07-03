@@ -312,7 +312,7 @@ none this pass
 
 ### References
 
-- [daily-brief-2026-04-12.md](../../../docs/skill-work/work-strategy/daily-brief-2026-04-12.md)
+- [daily-brief-2026-04-12.md](../../../docs/archive/skill-work-legacy/work-strategy/daily-brief-2026-04-12.md)
 - [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md) Ã¢â‚¬â€ **Expert-thread continuity** / **batch-analysis** tails
 - **`### Web verification (2026-04-12)`** table in [`days.md`](../../../continuity/chapters/2026/2026-04/days.md#2026-04-12) Ã¢â‚¬â€ AP/Dawn/NBC triage rows
 
@@ -340,7 +340,7 @@ none this pass
 
 ### Reflection
 
-**Weave (this page):** **`ritter`** carries **Hormuz** **sea-control** / **blockade** **mechanics** (semantics, hull burden, third-party **hull** behavior, **time** / **storage**). **Same topic**, **non-interchangeable** **expert** **objects:** **`davis`** + **`jermy`** = **executive** **clock** + **systemic** **energy** **lag**; **`diesen`** + **`sachs`** = **talks**/**institutions** **collapse** **frame** on **blockade** (**orthogonal** to **vi-14** per related weave); **`parsi`** + **`davis`** = **EU** **naming** vs **Congress** **lane**; **`barnes`** = **domestic** **TS** **liability** **pole** (inbox **Disclose**/**Truth Social** **chain**) Ã¢â‚¬â€ **not** **Navy** **facts**; **`johnson`** = **digest** **ORBAT** **Haiphong** **roundtable** path ([transcript digest](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md)); **`marandi`** / **`mercouris`** / **`mearsheimer`** = **continuity spine** **room** / **geometry** Ã¢â‚¬â€ **triangulate**, **do not** **collapse** into **one** **Ritter** **paragraph** without **labeled** **seams**.
+**Weave (this page):** **`ritter`** carries **Hormuz** **sea-control** / **blockade** **mechanics** (semantics, hull burden, third-party **hull** behavior, **time** / **storage**). **Same topic**, **non-interchangeable** **expert** **objects:** **`davis`** + **`jermy`** = **executive** **clock** + **systemic** **energy** **lag**; **`diesen`** + **`sachs`** = **talks**/**institutions** **collapse** **frame** on **blockade** (**orthogonal** to **vi-14** per related weave); **`parsi`** + **`davis`** = **EU** **naming** vs **Congress** **lane**; **`barnes`** = **domestic** **TS** **liability** **pole** (inbox **Disclose**/**Truth Social** **chain**) Ã¢â‚¬â€ **not** **Navy** **facts**; **`johnson`** = **digest** **ORBAT** **Haiphong** **roundtable** path ([transcript digest](../../../docs/archive/skill-work-legacy/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md)); **`marandi`** / **`mercouris`** / **`mearsheimer`** = **continuity spine** **room** / **geometry** Ã¢â‚¬â€ **triangulate**, **do not** **collapse** into **one** **Ritter** **paragraph** without **labeled** **seams**.
 
 ### Foresight
 
@@ -402,7 +402,7 @@ none this pass
 - **Ritter 085 (pin):** inbox line Ã¢â‚¬â€ `TBD-canonical-085` Ã¢â€ â€™ replace when canonical **YouTube** ID is fixed.
 - **Davis Ãƒâ€” Jermy (same day):** [YouTube `etxmqrdm3V0`](https://www.youtube.com/watch?v=etxmqrdm3V0) Ã¢â‚¬â€ **`thread:davis`**, **`thread:jermy`**
 - **Diesen Ãƒâ€” Sachs blockade:** [YouTube `S6mlCuvKKIQ`](https://www.youtube.com/watch?v=S6mlCuvKKIQ) Ã¢â‚¬â€ **`thread:diesen`**, **`thread:sachs`**
-- **Haiphong / Johnson / Ritter digest:** [transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md](../../../docs/skill-work/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) Ã¢â‚¬â€ **`thread:johnson`**, **`thread:ritter`** (digest rows)
+- **Haiphong / Johnson / Ritter digest:** [transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md](../../../docs/archive/skill-work-legacy/work-strategy/transcript-analysis-haiphong-ritter-johnson-iran-2026-04.md) Ã¢â‚¬â€ **`thread:johnson`**, **`thread:ritter`** (digest rows)
 
 ### Receipt
 

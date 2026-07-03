@@ -20,7 +20,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
-NOTEBOOK_DIR = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK_DIR = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 
 from strategy_expert_corpus import RE_FLAT_MONTH_THREAD, RE_IN_FOLDER_MONTH_THREAD  # noqa: E402
 

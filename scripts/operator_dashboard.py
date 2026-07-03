@@ -6,7 +6,7 @@ Runs Repo Surgeon, Statecraft War Room, and Operator Command Deck in-process,
 then writes a stitched index at runtime/artifacts/operator-dashboard/latest.*.
 
 See runtime/artifacts/operator-dashboard/README.md and
-docs/skill-work/work-dev/operator-dashboard-consolidation-phase0.md.
+docs/archive/skill-work-legacy/work-dev/operator-dashboard-consolidation-phase0.md.
 """
 
 from __future__ import annotations
@@ -43,7 +43,7 @@ RETURN_PATHS = [
     "runtime/artifacts/statecraft-war-room/README.md",
     "runtime/artifacts/operator-command-deck/README.md",
     "docs/operator-dashboard-when-to-use.md",
-    "docs/skill-work/work-dev/operator-dashboard-consolidation-phase0.md",
+    "docs/archive/skill-work-legacy/work-dev/operator-dashboard-consolidation-phase0.md",
 ]
 
 CHILD_DASHBOARDS: tuple[tuple[str, str, Path], ...] = (

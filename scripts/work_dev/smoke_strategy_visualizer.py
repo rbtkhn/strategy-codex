@@ -20,7 +20,7 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 
 DEFAULT_HTML = (
-    "docs/skill-work/work-strategy/strategy-notebook/demo-runs/"
+    "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/demo-runs/"
     "workbench-visualizer/strategy-notebook-visualizer.html"
 )
 

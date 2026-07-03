@@ -11,7 +11,7 @@ loop:
     - description: Approved listings and publish decisions from operations/grace-gems/listings/review/ (grace-gems-margin-policy-review output)
     - description: Search-conversion experiment queue from grace-gems-search-conversion-review (soft feed)
     - description: Customer service queue and open issues from grace-gems-customer-service (soft feed; see operations/grace-gems/README.md)
-    - description: Doctrine and playbooks at docs/skill-work/work-business/grace-gems/ (monthly review, workflow reminders)
+    - description: Doctrine and playbooks at docs/archive/skill-work-legacy/work-business/grace-gems/ (monthly review, workflow reminders)
   process:
     steps:
       - description: Check open orders, overdue shipments, buyer messages, and shop alerts on both storefronts

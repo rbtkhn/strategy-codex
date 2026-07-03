@@ -1,6 +1,6 @@
 # work-strategy — transcript ingest (operator)
 
-**Purpose:** Hold **raw or lightly curated transcripts** that feed the **work-strategy** pipeline ([current-events-analysis.md](../../../../docs/skill-work/work-strategy/current-events-analysis.md) step 1 **Perceiver**, [persuasive-content-pipeline.md](../../../../docs/skill-work/work-strategy/persuasive-content-pipeline.md), [LEARN_MODE_RULES.md](../../../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md)), **separate from** the companion **Record** and **separate from** the frozen local Predictive History residue in this repo.
+**Purpose:** Hold **raw or lightly curated transcripts** that feed the **work-strategy** pipeline ([current-events-analysis.md](../../../../docs/archive/skill-work-legacy/work-strategy/current-events-analysis.md) step 1 **Perceiver**, [persuasive-content-pipeline.md](../../../../docs/archive/skill-work-legacy/work-strategy/persuasive-content-pipeline.md), [LEARN_MODE_RULES.md](../../../../docs/archive/skill-work-legacy/work-strategy/LEARN_MODE_RULES.md)), **separate from** the companion **Record** and **separate from** the frozen local Predictive History residue in this repo.
 
 **Not Voice knowledge** until anything is merged through **RECURSION-GATE** per [AGENTS.md](../../../../AGENTS.md).
 
@@ -41,9 +41,9 @@ Lens pass (optional — pick one, combine, or skip):
 - Mercouris: <one line in Mercouris linguistic fingerprint>
 ```
 
-**Fingerprint:** Same requirement as [`skill-strategy` § Post-entry lens offer](../../../../.cursor/skills/skill-strategy/SKILL.md#post-entry-lens-offer) — read **LINGUISTIC FINGERPRINT** in [strategy-expert-barnes-mind.md](../../../../docs/skill-work/work-strategy/strategy-notebook/strategy-expert-barnes-mind.md), [strategy-expert-mearsheimer-mind.md](../../../../docs/skill-work/work-strategy/strategy-notebook/strategy-expert-mearsheimer-mind.md), [strategy-expert-mercouris-mind.md](../../../../docs/skill-work/work-strategy/strategy-notebook/strategy-expert-mercouris-mind.md) (SSOT; [`CIV-MIND-*.md`](../../../../docs/skill-work/work-strategy/strategy-notebook/minds/) redirect to the same files). No generic placeholder lines.
+**Fingerprint:** Same requirement as [`skill-strategy` § Post-entry lens offer](../../../../.cursor/skills/skill-strategy/SKILL.md#post-entry-lens-offer) — read **LINGUISTIC FINGERPRINT** in [strategy-expert-barnes-mind.md](../../../../docs/archive/skill-work-legacy/work-strategy/strategy-notebook/strategy-expert-barnes-mind.md), [strategy-expert-mearsheimer-mind.md](../../../../docs/archive/skill-work-legacy/work-strategy/strategy-notebook/strategy-expert-mearsheimer-mind.md), [strategy-expert-mercouris-mind.md](../../../../docs/archive/skill-work-legacy/work-strategy/strategy-notebook/strategy-expert-mercouris-mind.md) (SSOT; [`CIV-MIND-*.md`](../../../../docs/archive/skill-work-legacy/work-strategy/strategy-notebook/minds/) redirect to the same files). No generic placeholder lines.
 
-**Rules:** **B → M → M** order; **one-liners in-voice only** until the operator picks; not a default **tri-frame** deep pass unless they ask (see [strategy-minds-granular](../../../../.cursor/rules/strategy-minds-granular.mdc)). If they pick a lens, append to that day’s **`days.md`** block per [MINDS-SKILL-STRATEGY-PATTERNS](../../../../docs/skill-work/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md) recipes.
+**Rules:** **B → M → M** order; **one-liners in-voice only** until the operator picks; not a default **tri-frame** deep pass unless they ask (see [strategy-minds-granular](../../../../.cursor/rules/strategy-minds-granular.mdc)). If they pick a lens, append to that day’s **`days.md`** block per [MINDS-SKILL-STRATEGY-PATTERNS](../../../../docs/archive/skill-work-legacy/work-strategy/minds/MINDS-SKILL-STRATEGY-PATTERNS.md) recipes.
 
 ---
 
@@ -74,14 +74,14 @@ Lens pass (optional — pick one, combine, or skip):
 
 1. **Manual paste** — Drop text into a new `.md` or `.txt`; add source line at top.
 2. **YouTube (same tooling as other lanes)** — For **Predictive History** channel videos, fetch or prepare material in the external canonical repo first, then copy bounded snapshots or review artifacts here when `strategy-codex` needs to analyze them. For **work-strategy-only** sources (e.g. GTC panels, strategy podcasts), either copy the fetched `.txt` here with a note **or** add a channel folder under `research/external/youtube-channels/` following the shared YouTube tooling pattern.
-3. **Downstream** — Run **Perceiver** (neutral fact summary ≤200 words) from the file; then [current-events-analysis.md](../../../../docs/skill-work/work-strategy/current-events-analysis.md) (energy hook if relevant → lenses → synthesis). Log outcomes in **STRATEGY.md** §III / §IV (operator strategy log) when useful.
+3. **Downstream** — Run **Perceiver** (neutral fact summary ≤200 words) from the file; then [current-events-analysis.md](../../../../docs/archive/skill-work-legacy/work-strategy/current-events-analysis.md) (energy hook if relevant → lenses → synthesis). Log outcomes in **STRATEGY.md** §III / §IV (operator strategy log) when useful.
 4. **Same turn — lens menu** — Present **[Three minds lens offer](#three-minds-lens-offer-after-every-ingest)** in chat (see table row above). **Skip** only if the operator said **no menu** / **no options** for that turn.
 
 ---
 
 ## Guardrails
 
-- Treat long-form media as **narrative + opinion** unless triangulated with **primary** or **cited news** — see [external-tech-scan.md](../../../../docs/skill-work/work-strategy/external-tech-scan.md).
+- Treat long-form media as **narrative + opinion** unless triangulated with **primary** or **cited news** — see [external-tech-scan.md](../../../../docs/archive/skill-work-legacy/work-strategy/external-tech-scan.md).
 - **work-politics** ship copy still needs **sources** and gate policy; transcripts here are **upstream** research.
 
 ---
@@ -90,5 +90,5 @@ Lens pass (optional — pick one, combine, or skip):
 
 - [Tucker Carlson curated book](../../youtube-channels/tucker-carlson/README.md) — **highly curated** index (not full channel); processed bodies still live **here** as `*.md`.
 - [Analyst corpus INDEX](../analyst-corpus/INDEX.md) — register each transcript row + optional per-analyst notes under `analyst-corpus/analysts/<slug>/`.
-- [common-inputs.md](../../../../docs/skill-work/work-strategy/common-inputs.md) — shared inputs with work-politics.
-- [work-strategy README](../../../../docs/skill-work/work-strategy/README.md) — territory index.
+- [common-inputs.md](../../../../docs/archive/skill-work-legacy/work-strategy/common-inputs.md) — shared inputs with work-politics.
+- [work-strategy README](../../../../docs/archive/skill-work-legacy/work-strategy/README.md) — territory index.

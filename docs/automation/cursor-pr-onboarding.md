@@ -64,9 +64,9 @@ This automation **narrates** and **orients** the operator. It is **not** a secon
 
 | Signal | Likely lane / category | Note |
 | --- | --- | --- |
-| `docs/skill-work/work-dev/**` | work-dev | Technical execution / architecture / work-dev **control** plane. |
-| `docs/skill-work/work-strategy/**` | work-strategy | Strategy notebook, geopolitical **WORK** |
-| `docs/skill-work/work-cici/**` | work-cici | Cici-related **WORK** |
+| `docs/archive/skill-work-legacy/work-dev/**` | work-dev | Technical execution / architecture / work-dev **control** plane. |
+| `docs/archive/skill-work-legacy/work-strategy/**` | work-strategy | Strategy notebook, geopolitical **WORK** |
+| `singularity/work-cici/**` | work-cici | Cici-related **WORK** |
 | `continuity/predictive-history/**` or `continuity/predictive-history/**` | work-jiang | Jiang / Predictive History lane; [work-jiang](https://github.com/rbtkhn/strategy-continuity/blob/main/.github/workflows/work-jiang.yml) may path-filter |
 | `**` | **Record-sensitive** | Treat as **protected**; **companion** / gate **governance** applies to merges |
 | `archive/grace-mar-instance/bot/prompt.py` | **prompt-sensitive** | High caution; often **gated** commit expectations |

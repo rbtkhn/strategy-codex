@@ -43,7 +43,7 @@ def test_strategy_notebook_month_paths_span() -> None:
     assert "2026-04" in str(paths[1])
 
 def test_missing_strategy_notebook_days(tmp_path: Path) -> None:
-    ch = tmp_path / "docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04"
+    ch = tmp_path / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/chapters/2026-04"
     ch.mkdir(parents=True)
     (ch / "days.md").write_text("## 2026-04-10\n\nx\n", encoding="utf-8")
     want = [date(2026, 4, 10), date(2026, 4, 11)]

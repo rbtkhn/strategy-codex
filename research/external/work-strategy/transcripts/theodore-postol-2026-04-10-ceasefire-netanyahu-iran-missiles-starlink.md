@@ -6,7 +6,7 @@
 
 **Participants:** **Host**; **Theodore Postol** (guest).
 
-**Scope:** [work-strategy](../../../../docs/skill-work/work-strategy/README.md) upstream — opinion, technical analysis, and **charged political/moral language**. **Not** companion Record. Treat **poll percentages**, **RUSI** interceptor dates, **oil prices**, **order-of-battle**, and **combat** claims as **speaker-sourced** until triangulated. Some passages use **Hitler** analogies and **dual-loyalty** framing — **handle with care** in any public or ship-facing copy; do not strip context when reviewing in WORK.
+**Scope:** [work-strategy](../../../../docs/archive/skill-work-legacy/work-strategy/README.md) upstream — opinion, technical analysis, and **charged political/moral language**. **Not** companion Record. Treat **poll percentages**, **RUSI** interceptor dates, **oil prices**, **order-of-battle**, and **combat** claims as **speaker-sourced** until triangulated. Some passages use **Hitler** analogies and **dual-loyalty** framing — **handle with care** in any public or ship-facing copy; do not strip context when reviewing in WORK.
 
 ---
 

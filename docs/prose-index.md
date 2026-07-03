@@ -6,7 +6,7 @@ Use it when the question is not yet "which file?" but rather "what kind of prose
 
 If a shelf README and this index ever seem to compete, this index wins on prose-class routing and the shelf README should be read as the **canonical local entrypoint** for that shelf.
 
-For one compact live comparison of how cluster behavior changes across `essays/`, `notes/`, and `docs/skill-work/`, see [prose-cluster-placement-comparison.md](prose-cluster-placement-comparison.md).
+For one compact live comparison of how cluster behavior changes across `essays/`, `notes/`, and `docs/archive/skill-work-legacy/`, see [prose-cluster-placement-comparison.md](prose-cluster-placement-comparison.md).
 
 ## Core Split
 
@@ -117,7 +117,7 @@ Do not confuse prose shelves with:
 
 They are also not:
 
-- **legacy compatibility lanes**: older surfaces such as `docs/skill-work/work-strategy/` may still hold useful doctrine, but they are not canonical prose-shelf owners
+- **legacy compatibility lanes**: older surfaces such as `docs/archive/skill-work-legacy/work-strategy/` may still hold useful doctrine, but they are not canonical prose-shelf owners
 - **constitutional kernels**: files like `statecraft/statecraft.md` or root domain READMEs may contain strong prose without thereby becoming essay shelves
 
 ## Stability Note

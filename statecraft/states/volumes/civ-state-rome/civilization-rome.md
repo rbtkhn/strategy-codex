@@ -82,6 +82,6 @@ Open Rome correctly by asking whether the problem involves territorial power, or
 ## Key CIV-MEM Anchors
 
 - [Rome sacred grammar](../../volumes/civ-state-rome/sacred-grammar.md)
-- [Rome volume writing brief](../../../../docs/skill-work/work-strategy/work-strategy-rome/ROME-PASS.md)
+- [Rome volume writing brief](../../../../docs/archive/skill-work-legacy/work-strategy/work-strategy-rome/ROME-PASS.md)
 - [Statecraft front door](../../../README.md)
 - [Civilization](../../../../public/civ-state/theory/civilization.md) · [theory shelf](../../../../public/civ-state/theory/README.md)

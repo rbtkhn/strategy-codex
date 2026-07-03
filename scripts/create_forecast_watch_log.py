@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Append a forecast-informed entry to docs/skill-work/work-strategy/strategy-notebook/forecast-watch-log.md."""
+"""Append a forecast-informed entry to docs/archive/skill-work-legacy/work-strategy/strategy-notebook/forecast-watch-log.md."""
 
 from __future__ import annotations
 
@@ -60,7 +60,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--next-review-date", required=True)
     parser.add_argument(
         "--out",
-        default="docs/skill-work/work-strategy/strategy-notebook/forecast-watch-log.md",
+        default="docs/archive/skill-work-legacy/work-strategy/strategy-notebook/forecast-watch-log.md",
     )
     return parser.parse_args()
 

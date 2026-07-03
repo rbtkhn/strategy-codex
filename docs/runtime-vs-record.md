@@ -27,7 +27,7 @@ These change only through the **gated pipeline** and companion-approved merge ([
 
 ---
 
-## Work territories (`docs/skill-work/work-*`)
+## Work territories (`docs/archive/skill-work-legacy/work-*`)
 
 Work lanes are for planning, judgment, notebooks, and execution support. They are **not** Record truth. In membrane-v2 terms they are primarily `instrumental work`, while some durable outputs they produce may stabilize as `governed adjacent` or `runtime / derived` surfaces. Promotion into SELF / EVIDENCE / prompt requires the same **gate + merge script** as any other profile change.
 
@@ -84,7 +84,7 @@ If a runtime-only or derived surface cannot currently prove freshness, treat it 
 Forecast outputs belong to work unless and until a human separately stages a downstream conclusion for review.
 A forecast artifact is not a Record fact.
 It is a provisional planning object with explicit assumptions, invalidators, and uncertainty.
-See [docs/skill-work/work-forecast/forecast-protocol.md](skill-work/work-forecast/forecast-protocol.md).
+See [docs/archive/skill-work-legacy/work-forecast/forecast-protocol.md](skill-work/work-forecast/forecast-protocol.md).
 
 ## Forecast receipts and observability
 
@@ -107,6 +107,6 @@ Record changes still require separate staging and approval.
 ## Where to read next
 
 - [conceptual-framework.md](conceptual-framework.md) — triad and knowledge boundary  
-- [docs/skill-work/context-efficiency-layer.md](skill-work/context-efficiency-layer.md) — CEL  
+- [docs/archive/skill-work-legacy/context-efficiency-layer.md](skill-work/context-efficiency-layer.md) — CEL  
 - [runtime/artifacts/README.md](../runtime/artifacts/README.md) — derived artifact policy
 - [portable-record/promotion-rules.md](portable-record/promotion-rules.md) — how approved external candidates enter canonical surfaces  

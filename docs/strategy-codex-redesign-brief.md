@@ -58,7 +58,7 @@
 |--------|---------------|-----------|-------------|
 | **Generated navigation** | `source-archive/statecraft/*.md` indices, `source-archive/statecraft/stale-index-audit.md`, `source-archive/statecraft/thread-index.md`, `statecraft/data/month-routing-metadata.json` | Indexes are **derived only**; CI fails stale day/month rows | Extend `scripts/build_statecraft_archive_navigation.py`; add `validate_archive_indexes.py` to CI |
 | **Promotion ladder** | `source-archive/statecraft/` → `statecraft/synthesis/day/` → `statecraft/notes/` → `essays/` | One documented ladder; every synthesis cites archive paths | Document in `statecraft/README.md`; lint missing `source:` frontmatter |
-| **Legacy notebook convergence** | `docs/skill-work/work-strategy/strategy-notebook/`, `continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md`, dual `thread.md` + monthly thread files | Host-equivalent routes under `continuity/`; notebook namespace read-only compatibility | Finish `scripts/migrate_thread_md_to_monthly.py` passes; stop new captures in deprecated `raw-input/` when `source-archive` applies |
+| **Legacy notebook convergence** | `docs/archive/skill-work-legacy/work-strategy/strategy-notebook/`, `continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md`, dual `thread.md` + monthly thread files | Host-equivalent routes under `continuity/`; notebook namespace read-only compatibility | Finish `scripts/migrate_thread_md_to_monthly.py` passes; stop new captures in deprecated `raw-input/` when `source-archive` applies |
 | **Gate ergonomics** | `recursion-gate.md`, `scripts/preview_candidate_impact.py`, `scripts/build_gate_board.py`, `scripts/generate_gate_dashboard.py`, `platform/apps/gate-review-app.py` | Single CLI: `codex gate list \| review \| diff \| merge` wrapping existing scripts | Thin `scripts/codex_cli.py` or `scripts/operator_gate.py` facade; no new merge authority |
 | **Schema-validated proposals** | `scripts/stage_gate_candidate.py`, `schemas/registry/`, `archive/queues/review-queue/boundary-classifications/` | Machine-first candidates; human-readable gate board renders from JSON | Promote gate blocks to validated JSON; keep markdown export view |
 | **Context budgets declarative** | `platform/config/context_budgets/`, `scripts/compress_active_lane.py`, `scripts/build_skill_cards.py` | Config-driven prepared context; fewer one-off scripts | One manifest: lane → budget → builders |
@@ -73,7 +73,7 @@
 | Surface | Paths | Rule |
 |---------|-------|------|
 | Predictive History local corpus | `continuity/predictive-history/`, `research/external/youtube-channels/predictive-history/` | Observe, critique, cite public IDs only — [predictive-history-external-boundary.md](predictive-history-external-boundary.md) |
-| Legacy strategy-notebook namespace | `docs/skill-work/work-strategy/strategy-notebook/` | Compatibility reads; new work routes to `continuity/` + `source-archive/statecraft/` |
+| Legacy strategy-notebook namespace | `docs/archive/skill-work-legacy/work-strategy/strategy-notebook/` | Compatibility reads; new work routes to `continuity/` + `source-archive/statecraft/` |
 | Deprecated operator beats | `.cursor/skills/thanks/SKILL.md` | Use `coffee` / `conductor` instead |
 | Grace-Mar template reconciliation | `companion-self` sync paths in archived docs | strategy-codex-native routing unless operator invokes legacy lane |
 | Dual thread layouts | legacy `experts/*/thread.md` alongside `continuity/years/*/*-thread-YYYY-MM.md` | Union discovery until migration complete; no new legacy containers |

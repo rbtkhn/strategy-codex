@@ -30,7 +30,7 @@ Do not treat this mirror as authorization to edit `xavier/self.md` directly.
 
 ## Start here
 
-1. [workspace.md](workspace.md) — operator map (mirrored from canonical [work-dev/workspace.md](../work-dev/workspace.md); links resolve into grace-mar `docs/skill-work/`)
+1. [workspace.md](workspace.md) — operator map (mirrored from canonical [work-dev/workspace.md](../work-dev/workspace.md); links resolve into grace-mar `docs/archive/skill-work-legacy/`)
 2. [USE-NOW-VS-LATER.md](USE-NOW-VS-LATER.md)
 3. [NO-TERMINAL-OPERATING-PROMPTS.md](NO-TERMINAL-OPERATING-PROMPTS.md)
 4. [RELIABILITY-CHECKLIST.md](RELIABILITY-CHECKLIST.md)

@@ -39,8 +39,8 @@ This is where active execution, planning, and experimentation happen.
 
 Live examples:
 
-- [docs/skill-work/work-strategy/README.md](../docs/skill-work/work-strategy/README.md)
-- [docs/skill-work/work-dev/README.md](../docs/skill-work/work-dev/README.md)
+- [docs/archive/skill-work-legacy/work-strategy/README.md](../docs/archive/skill-work-legacy/work-strategy/README.md)
+- [docs/archive/skill-work-legacy/work-dev/README.md](../docs/archive/skill-work-legacy/work-dev/README.md)
 - [singularity/workshop/sheets/coffee-d-singularity.md](../singularity/workshop/sheets/coffee-d-singularity.md)
 - [statecraft/states/migration/README.md](../statecraft/states/migration/README.md)
 

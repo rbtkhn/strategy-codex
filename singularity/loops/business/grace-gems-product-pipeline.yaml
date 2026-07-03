@@ -9,7 +9,7 @@ loop:
     - description: Available inventory, raw materials, finished products, photos, and draft listings for GraceGemsUS and GioielloHandcrafted
     - description: Prior sales and traffic data per shop (GraceGemsUS, GioielloHandcrafted)
     - description: Competitor and marketplace trend observations
-    - description: Business context at docs/skill-work/work-business/grace-gems/ (not loop output SSOT)
+    - description: Business context at docs/archive/skill-work-legacy/work-business/grace-gems/ (not loop output SSOT)
     - description: Strategic positioning at operations/grace-gems/STRATEGIC-PLAN.md (custom natural gemstone center; lab-grown only with clear promise)
     - description: Search-conversion experiment queue from grace-gems-search-conversion-review (soft feed)
   process:

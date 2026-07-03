@@ -69,7 +69,7 @@ from pathlib import Path
 from typing import Iterable, Optional
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-NOTEBOOK_DIR = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK_DIR = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 CHAPTERS_DIR = NOTEBOOK_DIR / "chapters"
 ARTIFACT_DIR = REPO_ROOT / "runtime/artifacts/skill-work/work-strategy/backfills"
 
@@ -192,7 +192,7 @@ def git_mentions_for_expert(
             pattern,
             "--format=%H|%cs|%s",
             "--",
-            "docs/skill-work/work-strategy/strategy-notebook",
+            "docs/archive/skill-work-legacy/work-strategy/strategy-notebook",
         ]
     )
 
@@ -217,7 +217,7 @@ def git_mentions_for_expert(
             Evidence(
                 event_date=d[:10],
                 source_type="git",
-                path="docs/skill-work/work-strategy/strategy-notebook",
+                path="docs/archive/skill-work-legacy/work-strategy/strategy-notebook",
                 title="Git commit touching notebook",
                 summary=truncate(subj, 180),
                 anchors=[sha[:12]],

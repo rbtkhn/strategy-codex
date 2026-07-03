@@ -18,7 +18,7 @@ from work_dev.evaluate_autonomy_tiers import (  # noqa: E402
     shadow_autonomy_snapshot,
 )
 
-TIER_YAML = REPO_ROOT / "docs/skill-work/work-dev/autonomy/tier_thresholds.yaml"
+TIER_YAML = REPO_ROOT / "docs/archive/skill-work-legacy/work-dev/autonomy/tier_thresholds.yaml"
 
 def test_load_tier_config_low_risk() -> None:
     c = load_tier_config(TIER_YAML, "low_risk_staging_suggestions")
@@ -115,7 +115,7 @@ def test_format_autonomy_warmup_line_none_without_log(tmp_path: Path) -> None:
     assert format_autonomy_warmup_line(tmp_path) is None
 
 def test_format_autonomy_warmup_line_with_shadow(tmp_path: Path) -> None:
-    yml = tmp_path / "docs/skill-work/work-dev/autonomy/tier_thresholds.yaml"
+    yml = tmp_path / "docs/archive/skill-work-legacy/work-dev/autonomy/tier_thresholds.yaml"
     yml.parent.mkdir(parents=True)
     yml.write_text(TIER_YAML.read_text(encoding="utf-8"), encoding="utf-8")
     log = tmp_path / "runtime/autonomy/shadow_decisions.jsonl"

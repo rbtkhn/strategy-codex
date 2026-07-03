@@ -2,7 +2,7 @@
 
 Run on **major** proposals, large OpenClaw handbacks, or multi-step agent runs before elevating content toward merge. **Not** Record truth — a discipline aid only.
 
-**Related:** [agent-reliability-playbook.md](../../../docs/skill-work/work-dev/agent-reliability-playbook.md); digest [nate-b-jones-ai-job-market-seven-skills-2026.md](../../../research/external/work-dev/transcripts/nate-b-jones-ai-job-market-seven-skills-2026.md); [creative-pipeline.md](../../../docs/skill-work/work-dev/creative-pipeline.md) (visual / UI work).
+**Related:** [agent-reliability-playbook.md](../../../docs/archive/skill-work-legacy/work-dev/agent-reliability-playbook.md); digest [nate-b-jones-ai-job-market-seven-skills-2026.md](../../../research/external/work-dev/transcripts/nate-b-jones-ai-job-market-seven-skills-2026.md); [creative-pipeline.md](../../../docs/archive/skill-work-legacy/work-dev/creative-pipeline.md) (visual / UI work).
 
 ---
 

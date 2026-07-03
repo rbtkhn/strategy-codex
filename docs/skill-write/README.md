@@ -10,7 +10,7 @@
 |-------|----------|------|
 | **Companion WRITE (Record)** | `skill-write.md` (and related archive/placeholders/evidence) | What the fork **demonstrates** — samples, YAML, capability trajectory; feeds **Voice** / linguistic layer per skills-modularity §4. |
 | **skill-write doctrine (this hub)** | `docs/skill-write/*.md` | **Operator preferences** and **drafting craft** — how agent-assisted drafts are shaped for **Locals / X / YouTube comments** (above), plus ledes, closers, density; update when your taste changes. |
-| **CIV-MIND-BARNES / tri-mind Barnes** | `docs/skill-work/work-strategy/strategy-notebook/experts/barnes/mind.md` (via [minds/README.md](../skill-work/work-strategy/minds/README.md)) | **WORK/strategy** analysis voice — **orthogonal** to **VivaBarnesLaw Locals** paste-up defaults; see [write-operator-preferences.md](write-operator-preferences.md) (*Not the same as*). |
+| **CIV-MIND-BARNES / tri-mind Barnes** | `docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/barnes/mind.md` (via [minds/README.md](../skill-work/work-strategy/minds/README.md)) | **WORK/strategy** analysis voice — **orthogonal** to **VivaBarnesLaw Locals** paste-up defaults; see [write-operator-preferences.md](write-operator-preferences.md) (*Not the same as*). |
 
 **Territory:** **self-skill-write** in the Record still means **capability-facing** production evidence. **Identity-facing** truth stays **SELF**. This hub holds **how you want prose shaped** when collaborating with agents, alongside pointers into `.cursor/rules/` where those rules are also enforced in Cursor.
 

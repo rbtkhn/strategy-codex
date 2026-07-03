@@ -47,7 +47,7 @@ That keeps Automations from becoming a second CI system. Deterministic checks st
 
 ## Prior work
 
-A broader opportunity probe (friction list, CI inventory) lives in [docs/skill-work/work-dev/cursor-automations-candidates.md](../skill-work/work-dev/cursor-automations-candidates.md). **Prompts SSOT** for paste-ready text is this `docs/automation/` tree.
+A broader opportunity probe (friction list, CI inventory) lives in [docs/archive/skill-work-legacy/work-dev/cursor-automations-candidates.md](../skill-work/work-dev/cursor-automations-candidates.md). **Prompts SSOT** for paste-ready text is this `docs/automation/` tree.
 
 <a id="automation-readiness"></a>
 

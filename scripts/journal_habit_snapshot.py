@@ -5,7 +5,7 @@ Journal habit snapshot — filename-based rhythm only.
 Scans work-dev dev-notebook/work-dev/journal (*-day-*.md) and cici-notebook (YYYY-MM-DD.md) for calendar
 dates in filenames; prints active days in a rolling window and staleness.
 
-Does not parse frontmatter or prose. See docs/skill-work/journal-metrics-habit.md.
+Does not parse frontmatter or prose. See docs/archive/skill-work-legacy/journal-metrics-habit.md.
 """
 
 from __future__ import annotations
@@ -99,7 +99,7 @@ def main() -> int:
         print()
 
     print(
-        "Phase 0 / optional YAML: docs/skill-work/journal-metrics-habit.md",
+        "Phase 0 / optional YAML: docs/archive/skill-work-legacy/journal-metrics-habit.md",
     )
     return 0
 

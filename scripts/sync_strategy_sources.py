@@ -16,8 +16,8 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-MD_PATH = REPO_ROOT / "docs/skill-work/work-strategy/work-strategy-sources.md"
-YAML_PATH = REPO_ROOT / "docs/skill-work/work-strategy/authorized-sources.yaml"
+MD_PATH = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/work-strategy-sources.md"
+YAML_PATH = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/authorized-sources.yaml"
 
 _URL_RE = re.compile(r"https?://[^\s\)|]+")
 

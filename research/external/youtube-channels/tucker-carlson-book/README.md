@@ -12,10 +12,10 @@ This book is indexed for **work-politics** as **long-form narrative ingest** (Ir
 
 | Doc | Role |
 |-----|------|
-| [work-politics-sources.md](../../../../docs/skill-work/work-politics/work-politics-sources.md) | **§ Tucker Carlson Network** — when to use the book, guardrails, links to ROME-PASS exemplar and work-jiang |
-| [brief-source-registry.md](../../../../docs/skill-work/work-politics/brief-source-registry.md) | Registry row points at [INDEX.md](INDEX.md) for brief refresh cadence |
-| [workspace.md](../../../../docs/skill-work/work-politics/workspace.md) | Dashboard + canonical files mention **TCN** → this book |
-| [iran-foreign-policy-brief.md](../../../../docs/skill-work/work-politics/iran-foreign-policy-brief.md) | Issue brief to align monologue / interview **frames** with principal-grounded messaging |
+| [work-politics-sources.md](../../../../docs/archive/skill-work-legacy/work-politics/work-politics-sources.md) | **§ Tucker Carlson Network** — when to use the book, guardrails, links to ROME-PASS exemplar and work-jiang |
+| [brief-source-registry.md](../../../../docs/archive/skill-work-legacy/work-politics/brief-source-registry.md) | Registry row points at [INDEX.md](INDEX.md) for brief refresh cadence |
+| [workspace.md](../../../../docs/archive/skill-work-legacy/work-politics/workspace.md) | Dashboard + canonical files mention **TCN** → this book |
+| [iran-foreign-policy-brief.md](../../../../docs/archive/skill-work-legacy/work-politics/iran-foreign-policy-brief.md) | Issue brief to align monologue / interview **frames** with principal-grounded messaging |
 
 ---
 
@@ -51,4 +51,4 @@ When you **edit** a file that has a `canonical` path in its YAML front matter, c
 
 ## Guardrails
 
-- Opinion, narrative, and theological claims; **verify** numbers and news lines against **primary** sources before ship-facing copy — see [external-tech-scan.md](../../../../docs/skill-work/work-strategy/external-tech-scan.md).
+- Opinion, narrative, and theological claims; **verify** numbers and news lines against **primary** sources before ship-facing copy — see [external-tech-scan.md](../../../../docs/archive/skill-work-legacy/work-strategy/external-tech-scan.md).

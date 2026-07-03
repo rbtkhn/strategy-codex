@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate docs/skill-work/work-strategy/authorized-sources.yaml against JSON Schema."""
+"""Validate docs/archive/skill-work-legacy/work-strategy/authorized-sources.yaml against JSON Schema."""
 
 from __future__ import annotations
 
@@ -20,7 +20,7 @@ def main() -> int:
     ap.add_argument(
         "--yaml",
         type=Path,
-        default=REPO_ROOT / "docs/skill-work/work-strategy/authorized-sources.yaml",
+        default=REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/authorized-sources.yaml",
     )
     ap.add_argument(
         "--schema",

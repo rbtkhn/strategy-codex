@@ -41,13 +41,13 @@ Grace-Mar observes, records, and infers capability from accumulated evidence.
 
 SKILLS now organizes under **two Record-bound modules: THINK and WRITE**. These are the capability containers that describe what the companion can do **inside the Record**. They are evidence-linked, gated, and constrained by the Record's knowledge boundary.
 
-**Split-template extensions:** The companion-self **`platform/template/`** scaffold may also ship **self-skill-work.md** (making/doing — not the same as operator **`docs/skill-work/`** territories) and **self-skill-steward.md** (**STEWARD** — governance literacy at the gate; not merge authority). See [skills-modularity.md](skills-modularity.md) §1–2 and [concept.md](concept.md) §4.
+**Split-template extensions:** The companion-self **`platform/template/`** scaffold may also ship **self-skill-work.md** (making/doing — not the same as operator **`docs/archive/skill-work-legacy/`** territories) and **self-skill-steward.md** (**STEWARD** — governance literacy at the gate; not merge authority). See [skills-modularity.md](skills-modularity.md) §1–2 and [concept.md](concept.md) §4.
 
 ### II-A. Separate work / execution layer
 
 **Operator work territories are not self-skill modules.** Execution and runbooks live in a separate layer (below). That is distinct from the optional **self-skill-work.md** *file* on the companion-self split template, which holds **Record-bound** project/making **capability** evidence — see [skills-modularity.md](skills-modularity.md). Work now lives in this execution layer:
 
-- `docs/skill-work/work-*/` = reusable **work territories**
+- `docs/archive/skill-work-legacy/work-*/` = reusable **work territories**
 - `work-*.md` = instance **work contexts**
 
 Work territories may use broader LLM capability, tools, APIs, and planning loops than the Record allows. They may produce artifacts, plans, and staged candidates. But they do **not** write Record truth directly, and they do **not** change SELF, EVIDENCE, or prompt without the same companion gate.

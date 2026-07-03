@@ -303,8 +303,8 @@ When hub **D** is chosen, reply with a bounded **Singularity menu - reply A-D** 
 - Session is **multi-round**: 5–10 MCQs per round when using the scripted stance round artifact.
 - After each round, ask continue/stop.
 - On stop, produce:
-  - `docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF-MEMBRANE-REPORT.md`
-  - `docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF-MEMBRANE-CANDIDATE-DRAFTS.md`
+  - `docs/archive/skill-work-legacy/work-strategy/history-notebook/research/BOOKSHELF-MEMBRANE-REPORT.md`
+  - `docs/archive/skill-work-legacy/work-strategy/history-notebook/research/BOOKSHELF-MEMBRANE-CANDIDATE-DRAFTS.md`
 - Output is draft-only; no direct writes to `recursion-gate.md` unless explicitly requested.
 
 **Write-shaped** work is **not** an extra letter - it routes by explicit **`write`** / **`skill-write`** / commercial request, or when the operator says **`write`** / **`skill-write`** without **`coffee`**. Do not add a separate micro-hints row.
@@ -321,7 +321,7 @@ When hub **D** is chosen, reply with a bounded **Singularity menu - reply A-D** 
 
 - **A. Confirm / Steward** — **boundary hygiene** \| **integrity/exports** \| **git/ship** \| **gate** (fork revive only). **Default if the operator says `A` only:** **git/ship** when worktree pressure; else **boundary hygiene**. **`A gate`** only when operator revives fork ([`grace-mar-instance-boundary.md`](../../../docs/grace-mar-instance-boundary.md)). **`A integrity`** / **`A git`** / **`A ship`** → that track; **`A both`** / **`A all`** as in [menu-reference — Steward](../../../continuity/coffee/menu-reference.md#ah-table). Gate merges never without companion **approve** + `process_approved_candidates.py`. Template-sync work is legacy/archive-only unless named explicitly. *(Legacy hub letter **B**.)*
 
-- **B. Engineer** — **work-dev + skills/meta** (not git/ship or full membrane audits — those are **A**): `docs/skill-work/work-dev/` + [work-dev-sources.md](../../../docs/skill-work/work-dev/work-dev-sources.md); **skills / meta** when **`skills`** / **`meta`** with **B**. **work-cici** ops when engineering-shaped. **When hub B is chosen:** After **one short orientation line**, deliver **Engineer next moves** — **3–5 options** labeled **A through E** (**or A–D** if four), **each option its own line**, under an explicit heading such as **`Engineer menu — reply A–E`** — **not** `B1`–`B5` and not unlabeled lists. Each new submenu **restarts letters from A**; disambiguate from the **Coffee hub** with the menu title (same idea as **letter-collision** labeling for Conductor action MCQ vs hub). Each line is a **repo-grounded** plausible next step (work-dev wedge, script, CI, **skills** path) — **enumeration only** until the operator picks. Use Step 1 **`Lane context (for hub B / D)`** and [workspace.md](../../../docs/skill-work/work-dev/workspace.md) § **Next actions** when helpful. **Detail:** [menu-reference § Engineer (B) — detailed scope](../../../continuity/coffee/menu-reference.md#build-b--detailed-scope) *(legacy letter **Build** / old hub **A**).*
+- **B. Engineer** — **work-dev + skills/meta** (not git/ship or full membrane audits — those are **A**): `docs/archive/skill-work-legacy/work-dev/` + [work-dev-sources.md](../../../docs/archive/skill-work-legacy/work-dev/work-dev-sources.md); **skills / meta** when **`skills`** / **`meta`** with **B**. **work-cici** ops when engineering-shaped. **When hub B is chosen:** After **one short orientation line**, deliver **Engineer next moves** — **3–5 options** labeled **A through E** (**or A–D** if four), **each option its own line**, under an explicit heading such as **`Engineer menu — reply A–E`** — **not** `B1`–`B5` and not unlabeled lists. Each new submenu **restarts letters from A**; disambiguate from the **Coffee hub** with the menu title (same idea as **letter-collision** labeling for Conductor action MCQ vs hub). Each line is a **repo-grounded** plausible next step (work-dev wedge, script, CI, **skills** path) — **enumeration only** until the operator picks. Use Step 1 **`Lane context (for hub B / D)`** and [workspace.md](../../../docs/archive/skill-work-legacy/work-dev/workspace.md) § **Next actions** when helpful. **Detail:** [menu-reference § Engineer (B) — detailed scope](../../../continuity/coffee/menu-reference.md#build-b--detailed-scope) *(legacy letter **Build** / old hub **A**).*
 
 - **C. Statecraft** - Opens the repo-root statecraft routing front door. Do **not** auto-run daily brief, `check streams`, bookshelf elicitation, or archived Tri-Frame before this submenu. Output one short orientation sentence using deployer pressure grammar, then:
   - `Statecraft router - reply A-D`
@@ -354,7 +354,7 @@ When hub **D** is chosen, reply with a bounded **Singularity menu - reply A-D** 
 
 - **Conductor** — standalone only; not part of the coffee hub.
 
-**Composition benchmark note:** Coffee only routes to Conductor/Kleiber; it does **not** run benchmarks directly or add a standalone benchmark hub item. In V1, Strategy-codex composition benchmarks run only from the resolved **Kleiber** Conductor Action Menu as fixed **D. Finale** (`Run composition benchmark`) per [kleiber-composition-benchmark.md](../../../docs/skill-work/work-dev/kleiber-composition-benchmark.md).
+**Composition benchmark note:** Coffee only routes to Conductor/Kleiber; it does **not** run benchmarks directly or add a standalone benchmark hub item. In V1, Strategy-codex composition benchmarks run only from the resolved **Kleiber** Conductor Action Menu as fixed **D. Finale** (`Run composition benchmark`) per [kleiber-composition-benchmark.md](../../../docs/archive/skill-work-legacy/work-dev/kleiber-composition-benchmark.md).
 
 **Exit / re-offer:** After **A**, **B**, or **D**, re-offer the full **coffee** hub **A–D** after the current branch settles. If a standalone Conductor turn was opened, stay on the Conductor track rather than re-offering coffee in the same reply. After **C**, exit to normal workflow unless **`stay in coffee`**. After **A** (Steward), see [menu-reference § Steward follow-up fork](../../../continuity/coffee/menu-reference.md#steward-follow-up-fork-implement-now-vs-later) *(legacy docs may still say **B** for Steward → read **A**).* Synonyms **`A+ship`** / **`EXECUTE`** → **Implement now** on steward track. **Decision-fatigue rule:** after a hub branch opens one submenu, the next assistant turn should execute the selected item, recommend one default, or report the blocker rather than opening another broad menu.
 
@@ -368,7 +368,7 @@ Legacy Symphony conductors are **deprecated** — use **`coffee`** hub; historic
 
 ## Session trail (optional)
 
-Sessions begin when the operator says **`coffee`** (optional modifiers). To keep a trail: use **`session-transcript.md`** and/or append dated bullets to **`docs/skill-work/work-*/*-history.md`**. **Not** the gated Record; **not** `memory`. See [work-menu-conventions.md](../../../continuity/menu-conventions.md).
+Sessions begin when the operator says **`coffee`** (optional modifiers). To keep a trail: use **`session-transcript.md`** and/or append dated bullets to **`docs/archive/skill-work-legacy/work-*/*-history.md`**. **Not** the gated Record; **not** `memory`. See [work-menu-conventions.md](../../../continuity/menu-conventions.md).
 
 <a id="cadence-audit"></a>
 
@@ -393,8 +393,8 @@ For conductor-backed closes, add `--picked conductor --conductor <slug> --conduc
 - `continuity/cadence/cadence-events.md` — per-run cadence telemetry
 - `.cursor/skills/dream/SKILL.md` — night-side counterpart
 - `.cursor/skills/thanks/SKILL.md` — **`thanks`** **deprecated** for the single-operator workflow; prefer **conductor** or **`coffee` light/minimal`
-- `docs/skill-work/work-politics/polling-and-markets.md` - KY-4 polling by explicit request, not Coffee C by default.
-- `docs/skill-work/work-strategy/daily-brief-minds-menu.md` - archived Tri-Frame **three minds** (Barnes / Mearsheimer / Mercouris) by explicit synthesis request, not Coffee C by default.
-- `docs/skill-work/work-politics/america-first-ky/guardrail-stress-test.md` — messaging discipline
+- `docs/archive/skill-work-legacy/work-politics/polling-and-markets.md` - KY-4 polling by explicit request, not Coffee C by default.
+- `docs/archive/skill-work-legacy/work-strategy/daily-brief-minds-menu.md` - archived Tri-Frame **three minds** (Barnes / Mearsheimer / Mercouris) by explicit synthesis request, not Coffee C by default.
+- `docs/archive/skill-work-legacy/work-politics/america-first-ky/guardrail-stress-test.md` — messaging discipline
 - `.cursor/skills/state-deploy/SKILL.md` - verified named recent events now dissolve into lane deployment rather than opening a separate event function.
 - `.cursor/skills/elicit-knowledge/SKILL.md` - explicit MCQs toward museum knowledge section A / gate staging, outside Coffee C unless converted into a statecraft artifact.

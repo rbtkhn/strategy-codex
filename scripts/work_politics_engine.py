@@ -25,7 +25,7 @@ UTC = timezone.utc
 
 TERRITORY = "work-politics"
 
-# Align with docs/skill-work/work-politics/README.md channel_key table + generic artifact slugs.
+# Align with docs/archive/skill-work-legacy/work-politics/README.md channel_key table + generic artifact slugs.
 CHANNEL_PATTERNS = [
     re.compile(r"^operator:wap:us-[a-z0-9-]+$"),
     re.compile(r"^operator:wap:us-state-[a-z0-9-]+-[a-z0-9-]+$"),

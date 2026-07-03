@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Warn on unknown History Notebook chapter ids cited in strategy-notebook.
 
-Scans markdown under docs/skill-work/work-strategy/strategy-notebook/ for tokens
+Scans markdown under docs/archive/skill-work-legacy/work-strategy/strategy-notebook/ for tokens
 matching ``hn-`` + slug segments (same convention as book-architecture.yaml).
 Compares against ``chapters[].id`` in history-notebook/book-architecture.yaml.
 
@@ -22,8 +22,8 @@ except ImportError:
     sys.exit("PyYAML required: pip install pyyaml")
 
 REPO = Path(__file__).resolve().parent.parent
-HN_ARCH = REPO / "docs/skill-work/work-strategy/history-notebook/book-architecture.yaml"
-STRATEGY_NB = REPO / "docs/skill-work/work-strategy/strategy-notebook"
+HN_ARCH = REPO / "docs/archive/skill-work-legacy/work-strategy/history-notebook/book-architecture.yaml"
+STRATEGY_NB = REPO / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 
 # hn-i-v1-04, hn-app-method, hn-v-america-hegemonic
 RE_HN_ID = re.compile(r"\b(hn(?:-[a-z0-9]+)+)\b")

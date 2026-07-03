@@ -37,9 +37,9 @@ def _extract_next_actions_section(text: str) -> str | None:
     return rest[: m2.start()] if m2 else rest
 
 def next_work_dev_line(repo: Path) -> str:
-    path = repo / "docs/skill-work/work-dev/workspace.md"
+    path = repo / "docs/archive/skill-work-legacy/work-dev/workspace.md"
     if not path.is_file():
-        return "Next work-dev: missing docs/skill-work/work-dev/workspace.md"
+        return "Next work-dev: missing docs/archive/skill-work-legacy/work-dev/workspace.md"
     text = path.read_text(encoding="utf-8")
     section = _extract_next_actions_section(text)
     if section is None:

@@ -17,7 +17,7 @@
 | Surface | Repo / path | Role |
 |---------|-------------|------|
 | **companion-self** | [github.com/rbtkhn/companion-self](https://github.com/rbtkhn/companion-self) | **Template** â€” `platform/template/`, protocol docs, **upstream** for instances. **Always hyphenated** as a **system name** ([glossary.md](glossary.md)). |
-| **grace-mar** | This repository; `` | **Reference instance** â€” live Record; operator tooling under `docs/skill-work/`. |
+| **grace-mar** | This repository; `` | **Reference instance** â€” live Record; operator tooling under `docs/archive/skill-work-legacy/`. |
 
 **Other instances** (e.g. a companion who bootstraps from the template in **their own** repository) are **not** mirrored here; alignment is **concept + protocol**, not co-location in the grace-mar repo.
 
@@ -58,7 +58,7 @@ Canonical paths are **lowercase** ([canonical-paths.md](canonical-paths.md)). **
 
 | Area | grace-mar | companion-self |
 |------|-----------|----------------|
-| Full `docs/skill-work/*` | Many territories | Narrower / submodule docs |
+| Full `docs/archive/skill-work-legacy/*` | Many territories | Narrower / submodule docs |
 
 **Verdict:** Alignment is **manifest + operator docs**, not file-for-file parity with the template.
 

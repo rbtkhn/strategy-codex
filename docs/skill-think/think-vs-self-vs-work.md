@@ -29,4 +29,4 @@ flowchart TB
 ## Cross-links
 
 - [we-read-think-self-pipeline.md](../we-read-think-self-pipeline.md)
-- [docs/skill-work/README.md](../skill-work/README.md) — WORK is adjacent, not inside SKILLS
+- [docs/archive/skill-work-legacy/README.md](../skill-work/README.md) — WORK is adjacent, not inside SKILLS

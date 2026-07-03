@@ -59,7 +59,7 @@ Default dry-run prints the paths it would write. With `--apply`, output goes to:
 After acquisition, route through the existing work-strategy transcript path:
 
 - `research/external/work-strategy/transcripts/README.md`
-- `docs/skill-work/work-strategy/current-events-analysis.md`
-- `docs/skill-work/work-strategy/LEARN_MODE_RULES.md`
+- `docs/archive/skill-work-legacy/work-strategy/current-events-analysis.md`
+- `docs/archive/skill-work-legacy/work-strategy/LEARN_MODE_RULES.md`
 
 Transcript material remains commentary, argument, or actor claim unless independently verified.

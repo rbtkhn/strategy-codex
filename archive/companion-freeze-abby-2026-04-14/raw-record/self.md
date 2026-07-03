@@ -721,21 +721,21 @@ entries:
 
   - id: LEARN-0040
     date: 2026-03-14
-    topic: "WORK (operator only): Political-consulting territory now requires a recency slice each weekly brief (7d or 30d) and logs assembled date; see docs/skill-work/work-politics/. Not campaign ad"
+    topic: "WORK (operator only): Political-consulting territory now requires a recency slice each weekly brief (7d or 30d) and logs assembled date; see docs/archive/skill-work-legacy/work-politics/. Not campaign ad"
     source: pipeline merge
     evidence_id: ACT-0045
     provenance: human_approved
 
   - id: LEARN-0041
     date: 2026-03-20
-    topic: "WORK (operator only): High-stakes america-first-ky briefs may use factorial stress-test protocol (docs/skill-work/work-politics/america-first-ky/). Not Voice knowledge; not automated governance_checke"
+    topic: "WORK (operator only): High-stakes america-first-ky briefs may use factorial stress-test protocol (docs/archive/skill-work-legacy/work-politics/america-first-ky/). Not Voice knowledge; not automated governance_checke"
     source: pipeline merge
     evidence_id: ACT-0047
     provenance: human_approved
 
   - id: LEARN-0042
     date: 2026-03-20
-    topic: "WORK (operator only): Political-consulting briefs may use triangulated analytical lenses (structural, operational-diplomatic, institutional-domestic); see docs/skill-work/work-politics/analytical-lens"
+    topic: "WORK (operator only): Political-consulting briefs may use triangulated analytical lenses (structural, operational-diplomatic, institutional-domestic); see docs/archive/skill-work-legacy/work-politics/analytical-lens"
     source: pipeline merge
     evidence_id: ACT-0048
     provenance: human_approved

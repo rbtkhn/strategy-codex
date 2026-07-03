@@ -18,7 +18,7 @@ from generate_wap_daily_brief import (  # noqa: E402
 )
 
 def test_geo_extra_merges_with_defaults() -> None:
-    cfg = REPO_ROOT / "docs/skill-work/work-strategy/daily-brief-config.json"
+    cfg = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/daily-brief-config.json"
     *_, geo, geo_loc = _load_full_config(cfg)
     assert "pentagon" in geo
     assert "idf" in geo

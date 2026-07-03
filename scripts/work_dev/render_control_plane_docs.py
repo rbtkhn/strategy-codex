@@ -19,7 +19,7 @@ OUT_DIR = REPO_ROOT / "docs" / "skill-work" / "work-dev" / "generated"
 
 BANNER = (
     "<!-- GENERATED FILE — do not edit by hand. "
-    "Source: docs/skill-work/work-dev/control-plane/*.yaml — "
+    "Source: docs/archive/skill-work-legacy/work-dev/control-plane/*.yaml — "
     "run: python scripts/work_dev/render_control_plane_docs.py -->\n\n"
 )
 
@@ -107,7 +107,7 @@ def main() -> int:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     for name, render_fn in outputs.items():
         (OUT_DIR / name).write_text(render_fn(), encoding="utf-8")
-    print("render_control_plane_docs: OK -> docs/skill-work/work-dev/generated/")
+    print("render_control_plane_docs: OK -> docs/archive/skill-work-legacy/work-dev/generated/")
     return 0
 
 if __name__ == "__main__":

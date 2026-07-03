@@ -14,7 +14,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 FILES: tuple[str, ...] = (
-    "docs/skill-work/README.md",
+    "docs/archive/skill-work-legacy/README.md",
     "singularity/work-cici/DAILY-OPS-CARD.md",
     "singularity/work-cici/GOOD-MORNING.md",
     "singularity/work-cici/README.md",

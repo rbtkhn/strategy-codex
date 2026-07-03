@@ -2,7 +2,7 @@
 
 **Kind:** Adjacent corpus (not Jiang Xueqin). Useful for **method contrast** (how elite practitioners frame agents, claws, research/auto-research) or book/site methodology notes.
 
-**work-dev ingestion:** [research-no-priors-karpathy-end-of-coding.md](../../../../docs/skill-work/work-dev/research-no-priors-karpathy-end-of-coding.md) — Grace-Mar ⟷ OpenClaw alignment table + guardrails (canonical operator lens).  
+**work-dev ingestion:** [research-no-priors-karpathy-end-of-coding.md](../../../../docs/archive/skill-work-legacy/work-dev/research-no-priors-karpathy-end-of-coding.md) — Grace-Mar ⟷ OpenClaw alignment table + guardrails (canonical operator lens).  
 **Show:** No Priors (`no priors` / “No Briars” in ASR)  
 **Guest:** Andrej Karpathy  
 **Source:** YouTube (add canonical URL when archived)  

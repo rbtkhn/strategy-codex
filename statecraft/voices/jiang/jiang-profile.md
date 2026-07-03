@@ -112,7 +112,7 @@ Jiang Xueqin's Predictive History lectures are the **work-jiang** book spine. Th
 
 This expert lane is the **mandatory membrane** for PH Ã¢â€ â€™ strategy-notebook. PH material that has not been routed through `thread:jiang` and this file may not directly shape strategy pages.
 
-See: [work-jiang README](../../../README.md), [daily-brief-jiang-layer.md](../../../docs/skill-work/work-strategy/daily-brief-jiang-layer.md), [LEARN_MODE_RULES.md](../../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md).
+See: [work-jiang README](../../../README.md), [daily-brief-jiang-layer.md](../../../docs/archive/skill-work-legacy/work-strategy/daily-brief-jiang-layer.md), [LEARN_MODE_RULES.md](../../../docs/archive/skill-work-legacy/work-strategy/LEARN_MODE_RULES.md).
 
 ---
 

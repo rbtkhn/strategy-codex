@@ -66,10 +66,10 @@ Decision rule:
 ## No-terminal scan prompt
 
 ```text
-Scan for relevant updates in docs/skill-work/work-dev/ since my last sync.
+Scan for relevant updates in docs/archive/skill-work-legacy/work-dev/ since my last sync.
 
 Inputs:
-- docs/skill-work/work-dev/
+- docs/archive/skill-work-legacy/work-dev/
 - singularity/work-cici/work-dev-mirror/
 - singularity/work-cici/work-dev-mirror/SYNC-LOG.md
 
@@ -91,7 +91,7 @@ Tasks:
 From repo root:
 
 ```bash
-git log --since="7 days ago" --name-only -- docs/skill-work/work-dev
+git log --since="7 days ago" --name-only -- docs/archive/skill-work-legacy/work-dev
 ```
 
 Then manually review candidate files before mirroring into `work-cici/work-dev-mirror/`.

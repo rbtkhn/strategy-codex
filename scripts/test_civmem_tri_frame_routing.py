@@ -4,7 +4,7 @@ Smoke test for Grace-Mar tri-frame civ-mem routing (WORK).
 
 Verifies upstream civilization_memory checkout has the expected spine files for a
 default entity and that sample per-mind MEM paths exist — mirrors
-docs/skill-work/work-strategy/minds/CIV-MEM-TRI-FRAME-ROUTING.md.
+docs/archive/skill-work-legacy/work-strategy/minds/CIV-MEM-TRI-FRAME-ROUTING.md.
 
 Usage:
   python3 scripts/test_civmem_tri_frame_routing.py
@@ -60,7 +60,7 @@ def run_russia() -> int:
     print(f"  spine: MEM–RELEVANCE, CIV–STATE, CIV–SCHOLAR, CIV–CORE")
     for k, v in samples.items():
         print(f"  {k}: {v.name}")
-    print(f"  routing doc: docs/skill-work/work-strategy/minds/CIV-MEM-TRI-FRAME-ROUTING.md")
+    print(f"  routing doc: docs/archive/skill-work-legacy/work-strategy/minds/CIV-MEM-TRI-FRAME-ROUTING.md")
     return 0
 
 def run_rome() -> int:
@@ -111,7 +111,7 @@ def run_rome() -> int:
         print(f"  spine: {p.name}")
     for k, v in samples.items():
         print(f"  {k}: {v.name}")
-    print("  drill doc: docs/skill-work/work-strategy/strategy-notebook/TRUMP-LEO-CIV-MEM-BARNES-DRILL.md")
+    print("  drill doc: docs/archive/skill-work-legacy/work-strategy/strategy-notebook/TRUMP-LEO-CIV-MEM-BARNES-DRILL.md")
     return 0
 
 def main() -> int:

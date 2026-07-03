@@ -7,7 +7,7 @@
 THINK is **not**:
 
 - **Identity (SELF / IX-Aâ€“C)** â€” stable â€œwho she isâ€ lines belong in `self.md` **after gate** when promoted.
-- **WORK** â€” planning, campaigns, integration tasks live in `docs/skill-work/` and `work-*.md` under ``, not in THINK doctrine.
+- **WORK** â€” planning, campaigns, integration tasks live in `docs/archive/skill-work-legacy/` and `work-*.md` under ``, not in THINK doctrine.
 - **A substitute for EVIDENCE** â€” READ/ACT entries remain in `self-archive.md` (EVIDENCE); THINK **interprets** intake, it does not replace dated evidence rows.
 
 ## Promotion to SELF IX

@@ -206,7 +206,7 @@ def main() -> int:
         "--notes-dir",
         type=Path,
         default=NOTES_DIR,
-        help="Compound notes directory (default: docs/skill-work/work-dev/compound-notes)",
+        help="Compound notes directory (default: docs/archive/skill-work-legacy/work-dev/compound-notes)",
     )
     ap.add_argument(
         "--output",

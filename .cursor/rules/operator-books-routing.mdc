@@ -17,9 +17,9 @@ Operator-authored books live in **existing misc folders**. There is **no** centr
 
 **`strategy-codex`** (preferred) → **`continuity/`** (`STATUS.md`, `chapters/`, `daily-strategy-inbox.md`, `STRATEGY-NOTEBOOK-ARCHITECTURE.md`). Legacy path: **`codex/`** redirect only.
 
-**`strategy-notebook`** (legacy phrase) → same destination **`continuity/`** — do **not** use for new paths or docs. Full spec: [STRATEGY-NOTEBOOK-DEPRECATED.md](../../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md).
+**`strategy-notebook`** (legacy phrase) → same destination **`continuity/`** — do **not** use for new paths or docs. Full spec: [STRATEGY-NOTEBOOK-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md).
 
-Legacy path `docs/skill-work/work-strategy/strategy-notebook/` is **compat redirect only** — do not add artifacts.
+Legacy path `docs/archive/skill-work-legacy/work-strategy/strategy-notebook/` is **compat redirect only** — do not add artifacts.
 
 **Do not** treat **`strategy-codex`** as **`STRATEGY.md`** (milestone ledger).
 
@@ -28,10 +28,10 @@ Legacy path `docs/skill-work/work-strategy/strategy-notebook/` is **compat redir
 | Phrase | Path |
 |--------|------|
 | cici notebook | `singularity/work-cici/cici-notebook/` |
-| dev journal | `docs/skill-work/work-dev/dev-notebook/work-dev/journal/` |
-| history notebook | `docs/skill-work/work-strategy/history-notebook/` |
-| theology notebook | `docs/skill-work/work-strategy/theology-notebook/` |
+| dev journal | `docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/` |
+| history notebook | `docs/archive/skill-work-legacy/work-strategy/history-notebook/` |
+| theology notebook | `docs/archive/skill-work-legacy/work-strategy/theology-notebook/` |
 | civilization memory (upstream) | `research/repos/civilization_memory/` |
-| bookshelf (owned print) | `docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF.md` |
+| bookshelf (owned print) | `docs/archive/skill-work-legacy/work-strategy/history-notebook/research/BOOKSHELF.md` |
 
 Index table: **`continuity/README.md`** § Operator books (misc homes).

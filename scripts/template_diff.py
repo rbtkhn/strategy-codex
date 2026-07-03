@@ -5,7 +5,7 @@ Compare grace-mar with companion-self on template paths. work-companion-self Pha
 Reports: (a) what template has that instance lacks (pull needed); (b) what instance has diverged.
 Does NOT overwrite anything. Per MERGING-FROM-COMPANION-SELF §4.
 
-Paths listed in `docs/skill-work/work-companion-self/expected-template-drift.json` are
+Paths listed in `docs/archive/skill-work-legacy/work-companion-self/expected-template-drift.json` are
 reported under **Expected drift** and omitted from the actionable **differ** bucket.
 
 Uses grace-mar MERGING-FROM-COMPANION-SELF paths by default. Use --use-manifest to load
@@ -56,7 +56,7 @@ TEMPLATE_FILES_GRACE_MAR = [
 ]
 
 def _skill_work_files(root: Path) -> list[Path]:
-    """List .md and .yaml files under docs/skill-work/ (relative to root)."""
+    """List .md and .yaml files under docs/archive/skill-work-legacy/ (relative to root)."""
     skill_work = root / "docs" / "skill-work"
     if not skill_work.exists():
         return []
@@ -98,7 +98,7 @@ def _load_expected_drift(instance_root: Path) -> dict[str, str]:
     Paths documented as intentionally not byte-identical to the template.
     Relative paths like docs/identity-fork-protocol.md -> human reason string.
     """
-    p = instance_root / "docs/skill-work/work-companion-self/expected-template-drift.json"
+    p = instance_root / "docs/archive/skill-work-legacy/work-companion-self/expected-template-drift.json"
     if not p.exists():
         return {}
     try:
@@ -262,7 +262,7 @@ def main() -> None:
     parser.add_argument(
         "--include-skill-work",
         action="store_true",
-        help="Additionally compare docs/skill-work/ recursively in both repos",
+        help="Additionally compare docs/archive/skill-work-legacy/ recursively in both repos",
     )
     parser.add_argument("--brief", "-b", action="store_true", help="Brief output (counts only)")
     parser.add_argument("--output", "-o", type=Path, help="Write report to file")
@@ -373,7 +373,7 @@ def main() -> None:
             emit("  - **" + p + "** — " + reason)
         emit()
         emit(
-            "Machine list: `docs/skill-work/work-companion-self/expected-template-drift.json`"
+            "Machine list: `docs/archive/skill-work-legacy/work-companion-self/expected-template-drift.json`"
         )
         emit()
 

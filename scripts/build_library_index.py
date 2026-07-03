@@ -29,9 +29,9 @@ The central operator-books dashboard is **retired**. Operator books live in **mi
 | strategy-codex | `continuity/` |
 | predictive-history | `continuity/predictive-history/` |
 | cici notebook | `singularity/work-cici/cici-notebook/` |
-| dev journal | `docs/skill-work/work-dev/dev-notebook/work-dev/journal/` |
-| history notebook | `docs/skill-work/work-strategy/history-notebook/` |
-| theology notebook | `docs/skill-work/work-strategy/theology-notebook/` |
+| dev journal | `docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/` |
+| history notebook | `docs/archive/skill-work-legacy/work-strategy/history-notebook/` |
+| theology notebook | `docs/archive/skill-work-legacy/work-strategy/theology-notebook/` |
 
 See **`continuity/README.md`** § Operator books (misc homes) and **`.cursor/rules/operator-books-routing.mdc`**.
 """

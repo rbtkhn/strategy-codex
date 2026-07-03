@@ -28,7 +28,7 @@
 | Elicit-knowledge → museum knowledge section A | `.cursor/skills/elicit-knowledge/SKILL.md` | Statecraft / bookshelf as WORK |
 | companion-self template sync | archived docs | strategy-codex-native routing |
 | Local PH corpus editing | `continuity/predictive-history/` | [`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history) observe-only |
-| strategy-notebook namespace | `docs/skill-work/work-strategy/strategy-notebook/` | `continuity/` + `source-archive/statecraft/` |
+| strategy-notebook namespace | `docs/archive/skill-work-legacy/work-strategy/strategy-notebook/` | `continuity/` + `source-archive/statecraft/` |
 | Legacy lane `transactions/` | `statecraft/**/transactions/` | [`statecraft/notes/`](../../statecraft/notes/README.md) · [`notes/compacts/`](../../statecraft/notes/compacts/) — [inventory](audits/transaction-retirement-inventory-2026-06.md) |
 
 ---

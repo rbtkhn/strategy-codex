@@ -47,10 +47,10 @@ from strategy_page_reader import (
 
 DEFAULT_INBOX = (
     REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md"
+    / "continuity/daily-strategy-inbox.md"
 )
 DEFAULT_NOTEBOOK = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+    REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 )
 
 # ---------------------------------------------------------------------------

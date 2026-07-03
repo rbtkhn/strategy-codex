@@ -29,12 +29,12 @@ When both names appear:
 | Operator phrase | Canonical path |
 |-----------------|----------------|
 | `strategy-codex` | `continuity/` (this tree) |
-| `strategy-notebook` (legacy) | `continuity/` — [STRATEGY-NOTEBOOK-DEPRECATED.md](../docs/skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md) |
+| `strategy-notebook` (legacy) | `continuity/` — [STRATEGY-NOTEBOOK-DEPRECATED.md](../docs/archive/skill-work-legacy/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md) |
 | `predictive-history` | `continuity/predictive-history/` |
 | cici notebook | `singularity/work-cici/cici-notebook/` |
-| dev journal | `docs/skill-work/work-dev/dev-notebook/work-dev/journal/` |
-| history notebook | `docs/skill-work/work-strategy/history-notebook/` |
-| theology notebook | `docs/skill-work/work-strategy/theology-notebook/` |
+| dev journal | `docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/` |
+| history notebook | `docs/archive/skill-work-legacy/work-strategy/history-notebook/` |
+| theology notebook | `docs/archive/skill-work-legacy/work-strategy/theology-notebook/` |
 
 Routing rule: [`.cursor/rules/operator-books-routing.mdc`](../.cursor/rules/operator-books-routing.mdc).
 

@@ -1,11 +1,11 @@
 # Executive report — `skill-strategy` transcript demo (implementation)
 <!-- word_count: 825 -->
 
-> **Legacy report (2026-04-10).** References **tri-frame** Phase 4 as delivered calibration — choreography now deprecated per [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md).
+> **Legacy report (2026-04-10).** References **tri-frame** Phase 4 as delivered calibration — choreography now deprecated per [TRI-MIND-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/TRI-MIND-DEPRECATED.md).
 
 **Audience:** Operator / work-strategy stakeholders  
 **Date:** 2026-04-10  
-**Subject:** Outcomes of delivering a **runnable calibration** for [`skill-strategy`](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md) using three ingested analyst transcripts  
+**Subject:** Outcomes of delivering a **runnable calibration** for [`skill-strategy`](../../docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md) using three ingested analyst transcripts  
 **Scope:** WORK territory only — not companion Record, not public campaign copy
 
 ---

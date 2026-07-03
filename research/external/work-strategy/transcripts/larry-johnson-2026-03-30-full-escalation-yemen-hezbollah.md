@@ -12,7 +12,7 @@
 
 **Ingested:** 2026-03-30.
 
-**Scope:** [work-strategy](../../../../docs/skill-work/work-strategy/README.md) upstream — **opinion / monologue** with **historical analogies** and **scenario war claims** (March 2026 timeline). **Not** companion Record. Contains **crude language**, **stereotypes**, and **religious invective** in places; archived for **analysis**, not endorsement.
+**Scope:** [work-strategy](../../../../docs/archive/skill-work-legacy/work-strategy/README.md) upstream — **opinion / monologue** with **historical analogies** and **scenario war claims** (March 2026 timeline). **Not** companion Record. Contains **crude language**, **stereotypes**, and **religious invective** in places; archived for **analysis**, not endorsement.
 
 ---
 

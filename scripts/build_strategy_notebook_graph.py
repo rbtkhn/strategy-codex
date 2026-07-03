@@ -20,7 +20,7 @@ if str(REPO_ROOT / "scripts") not in sys.path:
 from repo_io import ARTIFACTS_DIR  # noqa: E402
 
 DEFAULT_NOTEBOOK = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+    REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 )
 DEFAULT_GRAPH = (
     ARTIFACTS_DIR

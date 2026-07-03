@@ -146,7 +146,7 @@ Use `work-cici` as the human-uplift and coordination test surface inside `singul
 - [Agent control plane](agent-control-plane.md) - substrate authority, permissions, receipts, and human-gated control.
 - [Sovereignty Under Acceleration](sovereignty-under-acceleration.md) - bridge sheet when the object matures into authority, carrier, legitimacy, or policy design.
 - [Narrative-Shaped Alignment](narrative-shaped-alignment.md) - cultural substrate and story-shaped alignment.
-- [CodeGraph pilot benchmark](../../../docs/skill-work/work-dev/codegraph-pilot-benchmark.md) - bounded expand/contain/retire loop for technical leverage under acceleration.
+- [CodeGraph pilot benchmark](../../../docs/archive/skill-work-legacy/work-dev/codegraph-pilot-benchmark.md) - bounded expand/contain/retire loop for technical leverage under acceleration.
 
 ## Coffee D Next Action
 

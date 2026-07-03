@@ -2,7 +2,7 @@
 
 **Purpose:** Keep a **durable, machine-readable** list of videos that informed early **work-dev** thinking — one row per video (`video_id`, `title`, `url`, duration, optional `upload_date`). Useful for provenance, re-fetching transcripts later, and **long-horizon research** (e.g. studying how this system’s external inputs evolved).
 
-**Not Record truth.** These files are operator research inventory, not SELF or Voice knowledge. Channel home pages stay in [work-dev-sources.md](../../../docs/skill-work/work-dev/work-dev-sources.md); this tree holds **episode-level** detail.
+**Not Record truth.** These files are operator research inventory, not SELF or Voice knowledge. Channel home pages stay in [work-dev-sources.md](../../../docs/archive/skill-work-legacy/work-dev/work-dev-sources.md); this tree holds **episode-level** detail.
 
 ## Layout
 
@@ -17,7 +17,7 @@
 
 ## How it was generated
 
-From repo root (requires `yt-dlp`; see [work-dev-sources.md](../../../docs/skill-work/work-dev/work-dev-sources.md)):
+From repo root (requires `yt-dlp`; see [work-dev-sources.md](../../../docs/archive/skill-work-legacy/work-dev/work-dev-sources.md)):
 
 ```bash
 # Latest N videos per channel (fast listing; upload_date often empty)

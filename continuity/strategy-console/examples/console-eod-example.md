@@ -9,7 +9,7 @@
 - Generated: 2026-04-20T22:00:00Z
 - Mode: eod
 - Watch filter: none
-- Notebook root: `docs/skill-work/work-strategy/strategy-notebook`
+- Notebook root: `docs/archive/skill-work-legacy/work-strategy/strategy-notebook`
 - Current month: 2026-04
 - Current day: 2026-04-20
 - Output status: ok

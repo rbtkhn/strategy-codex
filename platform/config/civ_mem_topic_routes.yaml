@@ -1,4 +1,4 @@
-# Civ-mem topic routing — # See docs/skill-work/work-civ-mem/TOPIC-ROUTING.md
+# Civ-mem topic routing — # See docs/archive/skill-work-legacy/work-civ-mem/TOPIC-ROUTING.md
 routing_rules_version: 2
 
 # Re-check when bumping research/repos/civilization_memory (MEM–RELEVANCE–* inventory).
@@ -13,7 +13,7 @@ tier_a_relevance_entities:
 default_profile: latin_catholic_sphere
 
 # ROME seeds (no MEM–RELEVANCE–ROME.md at many pins) — paths under content/civilizations/ROME/
-# Aligned with docs/skill-work/work-strategy/strategy-notebook/TRUMP-LEO-CIV-MEM-BARNES-DRILL.md
+# Aligned with docs/archive/skill-work-legacy/work-strategy/strategy-notebook/TRUMP-LEO-CIV-MEM-BARNES-DRILL.md
 rome_seed_files:
   - MEM–ROME–PAPACY.md
   - MEM–ROME–VATICAN.md

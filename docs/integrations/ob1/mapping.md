@@ -28,7 +28,7 @@ This section is **not** part of the bridge object schemas. It orients operators 
 | **Cici** | **Git-managed governed state** per [Cici doctrine](https://github.com/Xavier-x01/Cici/blob/main/docs/governed-state-doctrine.md) (if git and Supabase diverge, **governed files win**). | Supabase as **operational bridge** (search, MCP, etc.). |
 | **grace-mar** | **Record** under `` (and gated merge path) â€” **companion-self** authority model. | MEMORY, WORK drafts, exports; OB1 downstream of export is **not** canonical for identity. |
 
-**Structural caution:** Ciciâ€™s Phase 1 **folder names** resemble grace-marâ€™s **state-model vocabulary** (evidence, prepared context, governed state). In grace-mar, **root** [`archive/placeholders/evidence/`](../../../archive/placeholders/evidence/) and [`runtime/prepared-context/`](../../../runtime/prepared-context/) are **reserved placeholders** only â€” see [state model Â§ Repo layout](../../state-model.md#repo-layout-grace-mar). Territory-scoped evidence (e.g. work-cici) lives under `docs/skill-work/.../archive/placeholders/evidence/`. **Do not** assume Cici-style routing exists at the repo root without reading those docs.
+**Structural caution:** Ciciâ€™s Phase 1 **folder names** resemble grace-marâ€™s **state-model vocabulary** (evidence, prepared context, governed state). In grace-mar, **root** [`archive/placeholders/evidence/`](../../../archive/placeholders/evidence/) and [`runtime/prepared-context/`](../../../runtime/prepared-context/) are **reserved placeholders** only â€” see [state model Â§ Repo layout](../../state-model.md#repo-layout-grace-mar). Territory-scoped evidence (e.g. work-cici) lives under `docs/archive/skill-work-legacy/.../archive/placeholders/evidence/`. **Do not** assume Cici-style routing exists at the repo root without reading those docs.
 
 ---
 
@@ -61,7 +61,7 @@ Each exported chunk produces one **export object** â€” a content file plus 
 | `archive/placeholders/evidence` | `self-archive.md` (EVIDENCE) | A | Immutable dated entries (ACT, READ, WRITE, CREATE, MEDIA) |
 | `skills` | `self-skills.md` | A | Capability claims â€” upgrade only, never downgrade |
 | `memory` | `memory.md` | B | Ephemeral continuity, not durable Record; excluded by default |
-| `work` | `work-*.md`, `docs/skill-work/` | C | Operator work product; mixed trust; excluded by default |
+| `work` | `work-*.md`, `docs/archive/skill-work-legacy/` | C | Operator work product; mixed trust; excluded by default |
 | `archive` | Artifacts under `runtime/artifacts/` | A | Companion-produced artifacts (drawings, writing samples) |
 
 ### Manifest schema

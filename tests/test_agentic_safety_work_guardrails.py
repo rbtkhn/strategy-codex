@@ -17,7 +17,7 @@ def test_plan_mission_has_agentic_risk_review_block():
     assert "deny" in text and "escalate" in text
 
 def test_agent_surface_template_has_agentic_safety_fields():
-    text = read("docs/skill-work/work-dev/agent-surface-template.yaml")
+    text = read("docs/archive/skill-work-legacy/work-dev/agent-surface-template.yaml")
 
     for expected in [
         "context:",
@@ -39,7 +39,7 @@ def test_agent_surface_template_has_agentic_safety_fields():
         assert expected in text
 
 def test_managed_agent_runbook_requires_revocation_and_review_cadence():
-    text = read("docs/skill-work/work-dev/managed-agent-design.md")
+    text = read("docs/archive/skill-work-legacy/work-dev/managed-agent-design.md")
 
     assert "Review cadence declared before first run" in text
     assert "Revocation path documented" in text
@@ -48,7 +48,7 @@ def test_managed_agent_runbook_requires_revocation_and_review_cadence():
     assert "Stop/revocation receipt written" in text
 
 def test_receipt_map_documents_existing_surfaces_and_future_gap():
-    text = read("docs/skill-work/work-dev/agentic-receipt-map.md")
+    text = read("docs/archive/skill-work-legacy/work-dev/agentic-receipt-map.md")
 
     for expected in [
         "Git history",
@@ -66,10 +66,10 @@ def test_receipt_map_documents_existing_surfaces_and_future_gap():
 def test_agentic_guardrail_docs_do_not_introduce_lily_role_name():
     paths = [
         "docs/templates/plan-mission.md",
-        "docs/skill-work/work-dev/agentic-environment-principles.md",
-        "docs/skill-work/work-dev/agent-surface-template.yaml",
-        "docs/skill-work/work-dev/managed-agent-design.md",
-        "docs/skill-work/work-dev/agentic-receipt-map.md",
+        "docs/archive/skill-work-legacy/work-dev/agentic-environment-principles.md",
+        "docs/archive/skill-work-legacy/work-dev/agent-surface-template.yaml",
+        "docs/archive/skill-work-legacy/work-dev/managed-agent-design.md",
+        "docs/archive/skill-work-legacy/work-dev/agentic-receipt-map.md",
     ]
 
     for path in paths:

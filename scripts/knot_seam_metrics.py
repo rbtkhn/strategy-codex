@@ -19,7 +19,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 DEFAULT_INDEX = (
     REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook/knot-index.yaml"
+    / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/knot-index.yaml"
 )
 
 # Markdown link target containing another knot basename (relative or bare filename).

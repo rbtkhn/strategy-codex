@@ -16,7 +16,7 @@ Gitignored (see repo `.gitignore`). Ephemeral scratch — not Record.
 
 Search under:
 
-- `docs/skill-work/`
+- `docs/archive/skill-work-legacy/`
 - `continuity/`
 - `statecraft/`
 - `runtime/artifacts/` (read-only sources; do not treat as SSOT)
@@ -34,7 +34,7 @@ Copy output to `runtime/prepared-context/working/<slug>/lane-orientation.md` if 
 
 ## Questions-as-spec template
 
-Host template: [docs/skill-work/questions-as-spec-template.md](../../../docs/skill-work/questions-as-spec-template.md)
+Host template: [docs/archive/skill-work-legacy/questions-as-spec-template.md](../../../docs/archive/skill-work-legacy/questions-as-spec-template.md)
 
 PLAN lane: [docs/operator-agent-lanes.md](../../../docs/operator-agent-lanes.md) — PLAN — questions-as-spec.
 

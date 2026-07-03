@@ -8,7 +8,7 @@ from scripts.work_dev.generate_scenarios import build_matrix, matrix_markdown_ma
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 HAND_BACK_MATRIX = (
-    REPO_ROOT / "docs/skill-work/work-dev/scenarios/handback_tail_stress.matrix.md"
+    REPO_ROOT / "docs/archive/skill-work-legacy/work-dev/scenarios/handback_tail_stress.matrix.md"
 )
 
 def test_handback_tail_stress_openclaw_stressors_by_risk_stance() -> None:

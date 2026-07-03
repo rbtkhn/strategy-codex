@@ -79,10 +79,10 @@ Promoted pattern examples: [lane-hardening-law.md](../../statecraft/patterns/lan
 | Journal SSOT | [statecraft/recursive-learning-journal.md](../../statecraft/recursive-learning-journal.md) |
 | Pattern promotion target | [statecraft/patterns/README.md](../../statecraft/patterns/README.md) |
 | Skill-wire gate | [statecraft/notes/skill-refinement-scorecard.md](../../statecraft/notes/skill-refinement-scorecard.md) |
-| Conductor arc journal | [conductor-arc-impact-journal.md](../../docs/skill-work/work-strategy/conductor-arc-impact-journal.md) |
+| Conductor arc journal | [conductor-arc-impact-journal.md](../../docs/archive/skill-work-legacy/work-strategy/conductor-arc-impact-journal.md) |
 | Cadence receipts | [cadence-events.md](../../continuity/cadence/cadence-events.md) |
 | Repair receipt pattern | [archive-truth-floor-audit-receipt-pattern.md](../../docs/archive-truth-floor-audit-receipt-pattern.md) |
-| Lineage memo | [interpretive-machine-lineage.md](../../docs/skill-work/work-strategy/interpretive-machine-lineage.md) |
+| Lineage memo | [interpretive-machine-lineage.md](../../docs/archive/skill-work-legacy/work-strategy/interpretive-machine-lineage.md) |
 
 Preflight: read journal entry shape + last 2–3 entries before proposing a new law. Cursor agents: see CURSOR_APPENDIX for preflight commands.
 

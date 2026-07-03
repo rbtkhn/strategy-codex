@@ -37,7 +37,7 @@ The graph is **rebuilt** from expert `thread.md` content via [strategy_page_read
 
 ```bash
 python3 scripts/build_strategy_notebook_graph.py
-python3 scripts/build_strategy_notebook_graph.py --notebook-dir docs/skill-work/work-strategy/strategy-notebook
+python3 scripts/build_strategy_notebook_graph.py --notebook-dir docs/archive/skill-work-legacy/work-strategy/strategy-notebook
 ```
 
 ## Links

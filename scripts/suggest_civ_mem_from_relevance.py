@@ -149,7 +149,7 @@ def _emit_markdown(entity: str, path: Path, max_per_section: int) -> str:
         f"_Source: `{path.relative_to(REPO_ROOT)}`_",
         "",
         "Heuristic mapping only — confirm against [CIV-MEM-TRI-FRAME-ROUTING.md]"
-        "(docs/skill-work/work-strategy/minds/CIV-MEM-TRI-FRAME-ROUTING.md).",
+        "(docs/archive/skill-work-legacy/work-strategy/minds/CIV-MEM-TRI-FRAME-ROUTING.md).",
         "",
     ]
     for w in warnings:

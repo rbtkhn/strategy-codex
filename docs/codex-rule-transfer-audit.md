@@ -15,7 +15,7 @@ Three practical buckets:
 | Bucket | What it means in Codex | Typical surfaces |
 |--------|-------------------------|------------------|
 | **Always-on in this repo** | Loaded as repo instruction context or otherwise treated as authoritative in-session | `AGENTS.md`; host-provided developer/system instructions; repo files explicitly surfaced into the session |
-| **Invocation-bound / read-to-apply** | Not auto-loaded, but should be consulted when the task clearly invokes that workflow | `.cursor/skills/*/SKILL.md`; lane specs under `docs/skill-work/**`; specific rule files read during work |
+| **Invocation-bound / read-to-apply** | Not auto-loaded, but should be consulted when the task clearly invokes that workflow | `.cursor/skills/*/SKILL.md`; lane specs under `docs/archive/skill-work-legacy/**`; specific rule files read during work |
 | **Cursor-only unless rewritten** | Depend on Cursor auto-application, UI assumptions, or menu mechanics that Codex does not inherit automatically | many `.cursor/rules/*.mdc`; UI/menu routing details tied to Cursor conventions |
 
 Short rule: in Codex, **`AGENTS.md` and instance doctrine carry the always-on load**. `.cursor/skills` are callable local protocols. `.cursor/rules` are **not** globally active just because they exist.
@@ -32,7 +32,7 @@ These already transfer well, or should be treated as the main cross-host doctrin
 - `instance-doctrine.md`
 - `docs/architecture.md`
 - `continuity/cadence/**`
-- `docs/skill-work/work-strategy/strategy-notebook/**` when that territory is active
+- `docs/archive/skill-work-legacy/work-strategy/strategy-notebook/**` when that territory is active
 
 ### Invocation-bound surfaces
 
@@ -69,7 +69,7 @@ These are important enough to be always-on across hosts:
    - Critical rules must live in `AGENTS.md`, instance doctrine, or a neutral doc under `docs/`.
 
 2. **Territory entry discipline**
-   - On entering `docs/skill-work/<territory>/`, read the territory README and key specs first.
+   - On entering `docs/archive/skill-work-legacy/<territory>/`, read the territory README and key specs first.
    - Respect lane boundaries and vocabulary.
 
 3. **Operator comfort / execution hygiene**
@@ -162,7 +162,7 @@ Promote only if missing from neutral docs:
 
 If we continue this cleanup, the next best transfers are:
 
-1. Audit strategy `.mdc` rules and make sure every real data contract has a neutral home in `docs/skill-work/work-strategy/strategy-notebook/`.
+1. Audit strategy `.mdc` rules and make sure every real data contract has a neutral home in `docs/archive/skill-work-legacy/work-strategy/strategy-notebook/`.
 2. Leave coffee / conductor / dream / bridge ritual detail in `.cursor/skills`, but keep their meaning and boundary rules in neutral docs.
 
 ---

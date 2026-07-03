@@ -12,11 +12,11 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 REQUIRED = [
-    REPO_ROOT / "docs/skill-work/WORK-LAYER-HARDENING-ROADMAP.md",
-    REPO_ROOT / "docs/skill-work/work-lane-contract.md",
-    REPO_ROOT / "docs/skill-work/work-strategy/promotion-ladder.md",
-    REPO_ROOT / "docs/skill-work/work-strategy/authorized-sources.yaml",
-    REPO_ROOT / "docs/skill-work/work-template/lane-contract.template.md",
+    REPO_ROOT / "docs/archive/skill-work-legacy/WORK-LAYER-HARDENING-ROADMAP.md",
+    REPO_ROOT / "docs/archive/skill-work-legacy/work-lane-contract.md",
+    REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/promotion-ladder.md",
+    REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/authorized-sources.yaml",
+    REPO_ROOT / "docs/archive/skill-work-legacy/work-template/lane-contract.template.md",
     REPO_ROOT / "schemas/work_strategy/authorized_sources.schema.json",
 ]
 

@@ -39,7 +39,7 @@ Overlays are **WORK-only**, **non-canonical**, and **inspectable** in the trace 
 ```bash
 python3 scripts/runtime/grace_mar_runtime_worker.py \
   --overlay strategy \
-  --scope docs/skill-work/work-strategy/strategy-notebook \
+  --scope docs/archive/skill-work-legacy/work-strategy/strategy-notebook \
   --dry-run \
   --repo-root /path/to/grace-mar
 ```

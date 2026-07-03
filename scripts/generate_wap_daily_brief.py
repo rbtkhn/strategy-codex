@@ -7,7 +7,7 @@ Generate a standard **daily brief** for work-politics + work-strategy.
   - Work-politics snapshot (calendar, gate, blockers)
   - Work-strategy focus (operator markdown)
   - Optional RSS ingest (configurable), keyword scores: **W** (campaign), **S** (product/AI/governance), **G** (geo/military)
-  - §**1c**: **Two horizons** — fast (RSS §2) vs **slow** (work-jiang); body from [work-strategy/daily-brief-jiang-layer.md](docs/skill-work/work-strategy/daily-brief-jiang-layer.md) § Active work-jiang hooks
+  - §**1c**: **Two horizons** — fast (RSS §2) vs **slow** (work-jiang); body from [work-strategy/daily-brief-jiang-layer.md](docs/archive/skill-work-legacy/work-strategy/daily-brief-jiang-layer.md) § Active work-jiang hooks
   - §**2a** / §**2b**: G-ranked headline digest + optional **civ-mem** token overlap (`docs/civilization-memory/`, index build script) — historical depth, not breaking news
   - Per-feed `locale` (e.g. fr, de, es, ar, en) plus `pol_keyword_phrases_by_locale` (legacy: `wap_*`) / `strategy_keyword_phrases_by_locale`
     in config — extra phrase lists for scoring **only** (no translation API; zero-API mode).
@@ -16,18 +16,18 @@ Generate a standard **daily brief** for work-politics + work-strategy.
   - Optional **`civ_mem_entity_hint`** in config (or CLI `--civ-mem-entity-hint`): inserts §**1b-civ** with upstream MEM–RELEVANCE paths.
 
 Config (default):
-  docs/skill-work/work-strategy/daily-brief-config.json
+  docs/archive/skill-work-legacy/work-strategy/daily-brief-config.json
 
 Legacy fallback:
-  docs/skill-work/work-politics/daily-brief-feeds.json (feeds only; built-in keyword lists)
+  docs/archive/skill-work-legacy/work-politics/daily-brief-feeds.json (feeds only; built-in keyword lists)
 
 Does not call paid news APIs. Output is operator WORK product — not Voice, not SELF.
 
-Optional **Tri-Frame mind overlays** (after the brief): see `docs/skill-work/work-strategy/daily-brief-minds-config.json`
-and `docs/skill-work/work-strategy/minds/DAILY-BRIEF-MINDS-WORKFLOW.md`. Scaffold-only — no LLM inside this script.
+Optional **Tri-Frame mind overlays** (after the brief): see `docs/archive/skill-work-legacy/work-strategy/daily-brief-minds-config.json`
+and `docs/archive/skill-work-legacy/work-strategy/minds/DAILY-BRIEF-MINDS-WORKFLOW.md`. Scaffold-only — no LLM inside this script.
 
 Optional **§7 Context efficiency (CEL)** footer: `platform/config/context_budgets/daily_brief.json` (`append_cel_footer`) — threads
-`docs/skill-work/context-efficiency-layer.md` into generated briefs; operator non-authoritative.
+`docs/archive/skill-work-legacy/context-efficiency-layer.md` into generated briefs; operator non-authoritative.
 """
 
 from __future__ import annotations
@@ -459,7 +459,7 @@ def _load_full_config(
 
 def _extract_strategy_focus() -> str:
     if not STRATEGY_FOCUS_MD.exists():
-        return "_No `docs/skill-work/work-strategy/daily-brief-focus.md` yet._"
+        return "_No `docs/archive/skill-work-legacy/work-strategy/daily-brief-focus.md` yet._"
     text = STRATEGY_FOCUS_MD.read_text(encoding="utf-8")
     m = re.search(r"## Active focus\s*\n+(.*?)(?=\n## |\Z)", text, re.DOTALL | re.IGNORECASE)
     body = (m.group(1).strip() if m else text)[:4000]
@@ -477,7 +477,7 @@ def _extract_jiang_layer() -> str:
     """§ Active work-jiang hooks from daily-brief-jiang-layer.md (slow structural pointers)."""
     if not JIANG_LAYER_MD.exists():
         return (
-            "_No `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` yet — "
+            "_No `docs/archive/skill-work-legacy/work-strategy/daily-brief-jiang-layer.md` yet — "
             "create it from the template in work-strategy._"
         )
     text = JIANG_LAYER_MD.read_text(encoding="utf-8")
@@ -1002,7 +1002,7 @@ def build_daily_brief(
             "",
             "## 1b. Work-strategy focus",
             "",
-            "_From `docs/skill-work/work-strategy/daily-brief-focus.md` § Active focus._",
+            "_From `docs/archive/skill-work-legacy/work-strategy/daily-brief-focus.md` § Active focus._",
             "",
         ]
     )
@@ -1019,7 +1019,7 @@ def build_daily_brief(
             "**Slow (work-jiang):** lecture extractions, compression JSON, comparative sweeps — **structural** context; not a substitute for dated facts. "
             f"Prefer [SELF-LIBRARY](../../../{user_id}/self-library.md) entries (e.g. reference / `lookup_priority`) when library-first lookup applies.",
             "",
-            "_From `docs/skill-work/work-strategy/daily-brief-jiang-layer.md` § Active work-jiang hooks._",
+            "_From `docs/archive/skill-work-legacy/work-strategy/daily-brief-jiang-layer.md` § Active work-jiang hooks._",
             "",
         ]
     )
@@ -1352,7 +1352,7 @@ def _format_mind_menus(cfg: dict) -> str:
             letter = chr(ord("A") + i - 1)
             lines.append(f"  {letter}. {opt['label']}  (`--mind {key} --mind-option {opt['id']}`)")
         lines.append("")
-    lines.append("Human-readable: docs/skill-work/work-strategy/daily-brief-minds-menu.md")
+    lines.append("Human-readable: docs/archive/skill-work-legacy/work-strategy/daily-brief-minds-menu.md")
     return "\n".join(lines)
 
 def _build_mind_scaffold_markdown(

@@ -1,6 +1,6 @@
 # Strategy-codex pass — doc-first activation (skill-strategy dissolved)
 
-**SSOT:** [`docs/skill-work/work-strategy/DEFAULT-PATH.md`](../../docs/skill-work/work-strategy/DEFAULT-PATH.md) · [`docs/skill-work/work-strategy/README.md`](../../docs/skill-work/work-strategy/README.md) · [`docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md`](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md)
+**SSOT:** [`docs/archive/skill-work-legacy/work-strategy/DEFAULT-PATH.md`](../../docs/archive/skill-work-legacy/work-strategy/DEFAULT-PATH.md) · [`docs/archive/skill-work-legacy/work-strategy/README.md`](../../docs/archive/skill-work-legacy/work-strategy/README.md) · [`docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md`](../../docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md)
 
 **There is no `.cursor/skills/skill-strategy/` skill.** **`strategy-codex`** /codex pass is doc-first; **`strategy-notebook`** is **deprecated compatibility** only.
 

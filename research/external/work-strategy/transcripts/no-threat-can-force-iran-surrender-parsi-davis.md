@@ -8,7 +8,7 @@
 
 **Participants:** Lt Col Daniel Davis (host); **Trita Parsi**, executive vice president, Quincy Institute (guest).
 
-**Scope:** [work-strategy](../../../../docs/skill-work/work-strategy/README.md) upstream — interview / analysis, not primary reporting. **Not** companion Record; treat numbers, percentages, and war-state claims as **speaker-sourced** until triangulated.
+**Scope:** [work-strategy](../../../../docs/archive/skill-work-legacy/work-strategy/README.md) upstream — interview / analysis, not primary reporting. **Not** companion Record; treat numbers, percentages, and war-state claims as **speaker-sourced** until triangulated.
 
 ---
 

@@ -51,15 +51,15 @@ Rules:
 
 ## Step 4 â€” Initialize business workspace (no terminal)
 
-Open `docs/skill-work/work-business/xavier/README.md`, then ask Cursor AI:
+Open `docs/archive/skill-work-legacy/work-business/xavier/README.md`, then ask Cursor AI:
 
 ```text
 Use my Session 0 capture and any business docs I provided to initialize work-business/xavier starter files.
 
 Create:
-- docs/skill-work/work-business/xavier/source-index.md
-- docs/skill-work/work-business/xavier/objectives-and-constraints.md
-- docs/skill-work/work-business/xavier/week-0-priority-stack.md
+- docs/archive/skill-work-legacy/work-business/xavier/source-index.md
+- docs/archive/skill-work-legacy/work-business/xavier/objectives-and-constraints.md
+- docs/archive/skill-work-legacy/work-business/xavier/week-0-priority-stack.md
 
 Rules:
 - non-authoritative (no self.md edits)

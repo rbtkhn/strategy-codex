@@ -1,7 +1,7 @@
 # Davis source-hygiene note - 2026-04-17 U.S. executive dual-register seam
 
 **Anchor item:** [davis-page-2026-04-17-pool-vs-truth-social-dual-register.md](davis-page-2026-04-17-pool-vs-truth-social-dual-register.md)  
-**Brief anchor:** [daily-brief-2026-04-17.md](../../docs/skill-work/work-strategy/daily-brief-2026-04-17.md  
+**Brief anchor:** [daily-brief-2026-04-17.md](../../docs/archive/skill-work-legacy/work-strategy/daily-brief-2026-04-17.md  
 **Thread anchor:** [davis-thread.md](davis-thread.md)
 
 This note packages the April 17 U.S. executive seam that the Davis lane preserved without resolving. Its job is to keep the evidence layers visible so later notebook work does not collapse same-day optimism and same-day maximalism into one false executive voice.

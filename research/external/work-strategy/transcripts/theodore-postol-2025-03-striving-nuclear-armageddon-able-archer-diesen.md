@@ -8,7 +8,7 @@
 
 **Ingested:** 2026-04-02 (operator durable transcript ingest).
 
-**Scope:** [work-strategy](../../../../docs/skill-work/work-strategy/README.md) upstream — historical exercise reconstruction + contemporary policy (Germany **2026** missiles, **INF**, **ABM**, **Poseidon**, civil effects pedagogy). **Not** companion Record.
+**Scope:** [work-strategy](../../../../docs/archive/skill-work-legacy/work-strategy/README.md) upstream — historical exercise reconstruction + contemporary policy (Germany **2026** missiles, **INF**, **ABM**, **Poseidon**, civil effects pedagogy). **Not** companion Record.
 
 **ASR note:** Captions render **Abel** / **Pol** / **posidon** / **egi** etc. — normalize **Able Archer**, **Postol**, **Poseidon**, **Aegis** in formal cites.
 

@@ -74,7 +74,7 @@ Later layers narrow but never contradict earlier ones ([`layer-architecture.md`]
 
 1. **Core** — `AGENTS.md`
 2. **Instance** — `instance-doctrine.md`
-3. **Lane** — `docs/skill-work/work-*/`
+3. **Lane** — `docs/archive/skill-work-legacy/work-*/`
 4. **Mode** — `.cursor/skills/` · `.cursor/rules/`
 
 ## Harness topology

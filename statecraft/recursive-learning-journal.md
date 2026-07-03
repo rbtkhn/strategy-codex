@@ -1501,7 +1501,7 @@ interpretive difficulty
 
 That is the sense in which the machine can now learn from its own interpretation: not by escaping source authority, but by making good interpretation more visible, more comparable, and more reusable.
 
-For a literature-tracing memo on the academic lineage behind this formulation, see [Interpretive Machine Lineage](../docs/skill-work/work-strategy/interpretive-machine-lineage.md).
+For a literature-tracing memo on the academic lineage behind this formulation, see [Interpretive Machine Lineage](../docs/archive/skill-work-legacy/work-strategy/interpretive-machine-lineage.md).
 
 ## 2026-06-05 - Doctrine hardening through falsification, authority-layer splitting, and bounded commits
 
@@ -1817,7 +1817,7 @@ with sequenced pressure types and explicit ship receipts.
 ```
 
 Cadence anchor: `continuity/cadence/cadence-events.md` (2026-06-08).
-Cross-journal: [conductor-arc-impact-journal.md](../docs/skill-work/work-strategy/conductor-arc-impact-journal.md) (wave evaluation — add June 8 row when next monthly review runs).
+Cross-journal: [conductor-arc-impact-journal.md](../docs/archive/skill-work-legacy/work-strategy/conductor-arc-impact-journal.md) (wave evaluation — add June 8 row when next monthly review runs).
 
 ## 2026-06-08 - Daily synthesis contract repair as four-tranche Kleiber stack
 
@@ -2897,7 +2897,7 @@ Three dashboards answer structural / statecraft / what-next;
 coffee answers orientation — the agent bridges them with a short nudge, not operator memory.
 ```
 
-Routing: [operator-dashboard-when-to-use.md](../docs/operator-dashboard-when-to-use.md) · [operator-dashboard-consolidation-phase0.md](../docs/skill-work/work-dev/operator-dashboard-consolidation-phase0.md) · [coffee SKILL Dashboard nudge](../.cursor/skills/coffee/SKILL.md) · RLJ [parallel ban EXECUTE ship](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship)
+Routing: [operator-dashboard-when-to-use.md](../docs/operator-dashboard-when-to-use.md) · [operator-dashboard-consolidation-phase0.md](../docs/archive/skill-work-legacy/work-dev/operator-dashboard-consolidation-phase0.md) · [coffee SKILL Dashboard nudge](../.cursor/skills/coffee/SKILL.md) · RLJ [parallel ban EXECUTE ship](#2026-06-18---parallel-ban-on-file-tools-and-shell-calls-windows-execute-ship)
 
 **Pattern promotion:** defer until Phase 4 umbrella or second aggregator reuse proves the ladder without new law.
 
@@ -4228,7 +4228,7 @@ Routing: [build_jiang_index.py](../scripts/build_jiang_index.py) · [jiang-index
 
 ### Trigger
 
-Jun 30 EXECUTE arc: schema/lifecycle + doctrine sweep shipped (`7036d835e`); quick-health triage exposed **repo routing** and **generated surfaces strict** failures. Option **B** enrolled five deferred work-dev orphans (`docs/skill-work/work-dev/generated/*`, `runtime/artifacts/work-dev/continuity-observability/continuity-blocks.md`). First strict pass failed: `export_continuity_blocks.py` raised `ModuleNotFoundError: repo_io` when `check_generated_surfaces.py` invoked it as a **subprocess**. After `sys.path` insert, import-order fix, and timestamp-pinned `--check`, strict passed. Slice committed and pushed (`8a8865969`); Freeman pilot + repo-map `source_index` routes remain local WIP. Handoff flagged parallel `StrReplace` on repo-map/work-dev files mid-ship.
+Jun 30 EXECUTE arc: schema/lifecycle + doctrine sweep shipped (`7036d835e`); quick-health triage exposed **repo routing** and **generated surfaces strict** failures. Option **B** enrolled five deferred work-dev orphans (`docs/archive/skill-work-legacy/work-dev/generated/*`, `runtime/artifacts/work-dev/continuity-observability/continuity-blocks.md`). First strict pass failed: `export_continuity_blocks.py` raised `ModuleNotFoundError: repo_io` when `check_generated_surfaces.py` invoked it as a **subprocess**. After `sys.path` insert, import-order fix, and timestamp-pinned `--check`, strict passed. Slice committed and pushed (`8a8865969`); Freeman pilot + repo-map `source_index` routes remain local WIP. Handoff flagged parallel `StrReplace` on repo-map/work-dev files mid-ship.
 
 ### Extracted law
 

@@ -31,7 +31,7 @@ Local and deterministic tools are preferred when the task is repetitive, private
 | `docs/trust-layers.md` | Separates reliability failures from trust/adversarial risk |
 | `docs/memory-template.md` | Keeps memory scoped to continuity and process |
 | `docs/runtime/model-tier-routing.md` | Documents runtime-only model tier routing |
-| `docs/skill-work/work-dev/decision-ledger.md` | Records durable operator decisions without claiming Record authority |
+| `docs/archive/skill-work-legacy/work-dev/decision-ledger.md` | Records durable operator decisions without claiming Record authority |
 
 ## Design Test
 

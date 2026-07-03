@@ -2,7 +2,7 @@
 
 **Source:** YouTube, channel [AI News & Strategy Daily (Nate B Jones)](https://www.youtube.com/@NateBJones). Approximate title: *The AI Job Market Split in Two / $400K roles and hiring friction* (2026). **Transcript:** supplied by operator (Cursor session); cite exact URL when pinned.
 
-**Scope:** External research for [work-dev](../../../../docs/skill-work/work-dev/README.md). Not Record truth until merged through the pipeline.
+**Scope:** External research for [work-dev](../../../../docs/archive/skill-work-legacy/work-dev/README.md). Not Record truth until merged through the pipeline.
 
 ---
 
@@ -54,20 +54,20 @@
 
 | Transcript idea | Repo anchor |
 |-----------------|-------------|
-| Spec precision | [templates/specification-precision.md](../../../../docs/skill-work/work-dev/templates/specification-precision.md), OpenClaw skills, handback specs |
-| Eval / quality | [quality-gates-narrative.md](../../../../docs/skill-work/work-dev/quality-gates-narrative.md), [variation-types.md](../../../../docs/skill-work/work-dev/variation-types.md), `validate-change-review.py` (template) |
-| Multi-agent / harness | [PARALLEL-MACRO-ACTIONS.md](../../../../docs/skill-work/work-dev/PARALLEL-MACRO-ACTIONS.md), [agentic-environment-principles.md](../../../../docs/skill-work/work-dev/agentic-environment-principles.md) |
-| Failure modes | [agent-reliability-playbook.md](../../../../docs/skill-work/work-dev/agent-reliability-playbook.md), [failure-pattern-checklist.md](../../../../archive/grace-mar-instance/recursion-gate-staging/failure-pattern-checklist.md) |
-| Trust / guardrails | [AGENTS.md](../../../../AGENTS.md) stage-only merge, [safety-story-ux.md](../../../../docs/skill-work/work-dev/safety-story-ux.md) |
-| Context architecture | Canonical paths, export bundles, SESSION-LOG / RECURSION-GATE read order ([session-continuity-contract.md](../../../../docs/skill-work/work-dev/session-continuity-contract.md)) |
-| Token economics | [economic-benchmarks.md](../../../../docs/skill-work/work-dev/economic-benchmarks.md), `scripts/token_economics.py`, [emit_compute_ledger.py](../../../../scripts/emit_compute_ledger.py) |
+| Spec precision | [templates/specification-precision.md](../../../../docs/archive/skill-work-legacy/work-dev/templates/specification-precision.md), OpenClaw skills, handback specs |
+| Eval / quality | [quality-gates-narrative.md](../../../../docs/archive/skill-work-legacy/work-dev/quality-gates-narrative.md), [variation-types.md](../../../../docs/archive/skill-work-legacy/work-dev/variation-types.md), `validate-change-review.py` (template) |
+| Multi-agent / harness | [PARALLEL-MACRO-ACTIONS.md](../../../../docs/archive/skill-work-legacy/work-dev/PARALLEL-MACRO-ACTIONS.md), [agentic-environment-principles.md](../../../../docs/archive/skill-work-legacy/work-dev/agentic-environment-principles.md) |
+| Failure modes | [agent-reliability-playbook.md](../../../../docs/archive/skill-work-legacy/work-dev/agent-reliability-playbook.md), [failure-pattern-checklist.md](../../../../archive/grace-mar-instance/recursion-gate-staging/failure-pattern-checklist.md) |
+| Trust / guardrails | [AGENTS.md](../../../../AGENTS.md) stage-only merge, [safety-story-ux.md](../../../../docs/archive/skill-work-legacy/work-dev/safety-story-ux.md) |
+| Context architecture | Canonical paths, export bundles, SESSION-LOG / RECURSION-GATE read order ([session-continuity-contract.md](../../../../docs/archive/skill-work-legacy/work-dev/session-continuity-contract.md)) |
+| Token economics | [economic-benchmarks.md](../../../../docs/archive/skill-work-legacy/work-dev/economic-benchmarks.md), `scripts/token_economics.py`, [emit_compute_ledger.py](../../../../scripts/emit_compute_ledger.py) |
 
 ---
 
 ## Operational artifacts (this repo)
 
 - Digest (this file).
-- Template: [specification-precision.md](../../../../docs/skill-work/work-dev/templates/specification-precision.md).
+- Template: [specification-precision.md](../../../../docs/archive/skill-work-legacy/work-dev/templates/specification-precision.md).
 - Checklist: [failure-pattern-checklist.md](../../../../archive/grace-mar-instance/recursion-gate-staging/failure-pattern-checklist.md).
 - Estimator CLI: [token_economics.py](../../../../scripts/token_economics.py).
 

@@ -1,6 +1,6 @@
 # companion-xavier deletion readiness checklist
 
-**Update (2026-03):** The **monorepo subtree** (`docs/skill-work/work-cici/companion-xavier/`) was removed from grace-mar; **work-cici** (advisor module) remains. Xavier’s **sovereign instance** is expected in **her own** `companion-xavier` GitHub repo. This checklist still applies if you need a **clean-room** proof that onboarding works from **companion-self** alone.
+**Update (2026-03):** The **monorepo subtree** (`singularity/work-cici/companion-xavier/`) was removed from grace-mar; **work-cici** (advisor module) remains. Xavier’s **sovereign instance** is expected in **her own** `companion-xavier` GitHub repo. This checklist still applies if you need a **clean-room** proof that onboarding works from **companion-self** alone.
 
 Use this before deleting or archiving **`companion-xavier` as her standalone repository** (not the old grace-mar subtree).
 

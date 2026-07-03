@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Draft WORK / COMPANION markdown blocks for self-history.md from:
-  - docs/skill-work/work-*/*-history.md (## Log bullets)
+  - docs/archive/skill-work-legacy/work-*/*-history.md (## Log bullets)
   - self-archive.md § V ACTIVITY LOG (YAML activities)
 
 Default: print drafted log sections to stdout. Use --write to replace log sections in self-history.md.
@@ -90,7 +90,7 @@ def companion_per_act_lines(
     return lines
 
 def territory_from_path(path: Path) -> str:
-    # docs/skill-work/work-dev/work-dev-history.md -> work-dev
+    # docs/archive/skill-work-legacy/work-dev/work-dev-history.md -> work-dev
     return path.parent.name
 
 def extract_work_log_bullets(path: Path) -> list[str]:

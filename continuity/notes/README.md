@@ -3,7 +3,7 @@
 
 This surface is non-authoritative and subject to revision.
 
-> **Tri-mind:** Demo and exercise docs that mention **tri-frame** are **legacy archive** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md).
+> **Tri-mind:** Demo and exercise docs that mention **tri-frame** are **legacy archive** — [TRI-MIND-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/TRI-MIND-DEPRECATED.md).
 
 **Purpose:** **Non-core** operator artifacts live here so the [strategy-notebook `README`](../README.md) root stays navigable. **SSOT** for lane doctrine remains [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../STRATEGY-NOTEBOOK-ARCHITECTURE.md) and [NOTEBOOK-PREFERENCES.md](../NOTEBOOK-PREFERENCES.md).
 

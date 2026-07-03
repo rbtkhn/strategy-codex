@@ -299,7 +299,7 @@ none this pass
 
 ### References
 
-- [daily-brief-2026-04-12.md](../../../docs/skill-work/work-strategy/daily-brief-2026-04-12.md)
+- [daily-brief-2026-04-12.md](../../../docs/archive/skill-work-legacy/work-strategy/daily-brief-2026-04-12.md)
 - [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md) Ã¢â‚¬â€ **Expert-thread continuity** / **batch-analysis** tails
 - **`### Web verification (2026-04-12)`** table in [`days.md`](../../../continuity/chapters/2026/2026-04/days.md#2026-04-12) Ã¢â‚¬â€ AP/Dawn/NBC triage rows
 

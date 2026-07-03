@@ -3,7 +3,7 @@
 Public intake command: `predictive-history`. Legacy `work-jiang` is retained only as a compatibility alias in older docs and wrappers.
 
 > [!IMPORTANT]
-> **Legacy snapshot only:** this folder is a frozen local Predictive History transcript snapshot inside `strategy-codex`. Canonical Predictive History work now belongs in **[`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history)**. Do **not** refresh or extend this tree as if it were the active ingest lane. Use it only for migration lookup, legacy comparison, and bounded review context. Review interface: [docs/skill-work/work-strategy/predictive-history-review-packets.md](../../../../docs/skill-work/work-strategy/predictive-history-review-packets.md).
+> **Legacy snapshot only:** this folder is a frozen local Predictive History transcript snapshot inside `strategy-codex`. Canonical Predictive History work now belongs in **[`rbtkhn/predictive-history`](https://github.com/rbtkhn/predictive-history)**. Do **not** refresh or extend this tree as if it were the active ingest lane. Use it only for migration lookup, legacy comparison, and bounded review context. Review interface: [docs/archive/skill-work-legacy/work-strategy/predictive-history-review-packets.md](../../../../docs/archive/skill-work-legacy/work-strategy/predictive-history-review-packets.md).
 
 **Purpose:** legacy local operator research snapshot (YouTube captions). **Not** part of the companion Record; do not merge into SELF or treat as Voice knowledge.
 
@@ -11,18 +11,18 @@ Public intake command: `predictive-history`. Legacy `work-jiang` is retained onl
 
 ## Work-strategy wiring
 
-Historically, this was the **default bulk transcript spine** for **[work-strategy](../../../../docs/skill-work/work-strategy/README.md)** — long-horizon lectures, game-theory arcs, and civilization framing that feed **Perceiver**, **LEARN MODE**, and **current-events** synthesis. During migration it remains a **read-only legacy snapshot**. Any current canonical PH curation happens in the external repo, not here.
+Historically, this was the **default bulk transcript spine** for **[work-strategy](../../../../docs/archive/skill-work-legacy/work-strategy/README.md)** — long-horizon lectures, game-theory arcs, and civilization framing that feed **Perceiver**, **LEARN MODE**, and **current-events** synthesis. During migration it remains a **read-only legacy snapshot**. Any current canonical PH curation happens in the external repo, not here.
 
 | Doc / path | Role |
 |------------|------|
-| [common-inputs.md](../../../../docs/skill-work/work-strategy/common-inputs.md) | **§ Predictive History** — how PH reaches work-strategy vs work-politics |
+| [common-inputs.md](../../../../docs/archive/skill-work-legacy/work-strategy/common-inputs.md) | **§ Predictive History** — how PH reaches work-strategy vs work-politics |
 | [work-strategy/transcripts/README.md](../../work-strategy/transcripts/README.md) | Downstream digests and “copy here or point to PH” ingest rule |
-| [current-events-analysis.md](../../../../docs/skill-work/work-strategy/current-events-analysis.md) | Perceiver → hooks → synthesis; PH `.txt` is valid step-1 input |
-| [LEARN_MODE_RULES.md](../../../../docs/skill-work/work-strategy/LEARN_MODE_RULES.md) | Extraction format when learning from PH-scale transcripts |
-| [daily-brief-jiang-layer.md](../../../../docs/skill-work/work-strategy/daily-brief-jiang-layer.md) | **§1c** slow layer; PH lectures are the usual **work-jiang** book spine |
+| [current-events-analysis.md](../../../../docs/archive/skill-work-legacy/work-strategy/current-events-analysis.md) | Perceiver → hooks → synthesis; PH `.txt` is valid step-1 input |
+| [LEARN_MODE_RULES.md](../../../../docs/archive/skill-work-legacy/work-strategy/LEARN_MODE_RULES.md) | Extraction format when learning from PH-scale transcripts |
+| [daily-brief-jiang-layer.md](../../../../docs/archive/skill-work-legacy/work-strategy/daily-brief-jiang-layer.md) | **§1c** slow layer; PH lectures are the usual **work-jiang** book spine |
 | [work-jiang-sources.md](../../../../continuity/predictive-history/work-jiang-sources.md) | Canonical channel URL + index/transcript CLI notes |
 
-**Strategy-codex membrane:** Predictive History remains an upstream work-strategy transcript spine, but this local tree is now **read-only legacy residue**. For strategy-codex-facing use, PH material must be mediated through the Jiang strategy-author lane (`strategy-expert-jiang` in the current filename contract) before weave. Direct PH → knot routing is disallowed. See [strategy-notebook/README.md](../../../../docs/skill-work/work-strategy/strategy-notebook/README.md) § **Predictive History routing rule**.
+**Strategy-codex membrane:** Predictive History remains an upstream work-strategy transcript spine, but this local tree is now **read-only legacy residue**. For strategy-codex-facing use, PH material must be mediated through the Jiang strategy-author lane (`strategy-expert-jiang` in the current filename contract) before weave. Direct PH → knot routing is disallowed. See [strategy-notebook/README.md](../../../../docs/archive/skill-work-legacy/work-strategy/strategy-notebook/README.md) § **Predictive History routing rule**.
 
 ---
 
@@ -138,7 +138,7 @@ Use the same CLI; optional `--since-last-run` is not implemented — use manifes
 
 ## See also
 
-- **[work-strategy](../../../../docs/skill-work/work-strategy/README.md)** — territory README; **Predictive History** is indexed as **work-strategy–first** in [common-inputs.md § PH](../../../../docs/skill-work/work-strategy/common-inputs.md).
+- **[work-strategy](../../../../docs/archive/skill-work-legacy/work-strategy/README.md)** — territory README; **Predictive History** is indexed as **work-strategy–first** in [common-inputs.md § PH](../../../../docs/archive/skill-work-legacy/work-strategy/common-inputs.md).
 - **[tucker-carlson-book](../tucker-carlson-book/README.md)** — curated Tucker Carlson Network transcript volume (operator book; sibling under `youtube-channels/`).
 
 ## Git

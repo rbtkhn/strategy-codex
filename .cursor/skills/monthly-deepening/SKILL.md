@@ -41,7 +41,7 @@ Grace-mar paths and commands for this repository (from `.cursor/skills/monthly-d
 |--------|------|
 | Canonical archive root | [source-archive/statecraft/](../../statecraft) |
 | Local observability receipts | [runtime/artifacts/cognition-streams/](../../runtime/artifacts/cognition-streams) |
-| Deprecated raw-input (archaeology) | [RAW-INPUT-DEPRECATED.md](../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md) · [continuity/raw-input/README.md](../../continuity/raw-input/README.md) |
+| Deprecated raw-input (archaeology) | [RAW-INPUT-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/RAW-INPUT-DEPRECATED.md) · [continuity/raw-input/README.md](../../continuity/raw-input/README.md) |
 | Mercouris local index cache | [\.codex-tmp/youtube-alex-mercouris-index/](../../runtime/artifacts/statecraft-intake-queue/) |
 | Day README generator | [scripts/build_statecraft_day_indices.py](../../scripts/build_statecraft_day_indices.py) |
 | Day dashboard generator | [scripts/build_statecraft_day_dashboard.py](../../scripts/build_statecraft_day_dashboard.py) |

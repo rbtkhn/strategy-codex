@@ -39,7 +39,7 @@ Each `coffee` should include:
 Run my daily work-dev mirror sync check.
 
 Use:
-- docs/skill-work/work-dev/
+- docs/archive/skill-work-legacy/work-dev/
 - singularity/work-cici/work-dev-mirror/SYNC-CONTRACT.md
 - singularity/work-cici/work-dev-mirror/SYNC-LOG.md
 
@@ -67,7 +67,7 @@ Each `coffee` should include:
 Run my daily work-politics mirror sync check.
 
 Use:
-- docs/skill-work/work-politics/
+- docs/archive/skill-work-legacy/work-politics/
 - singularity/work-cici/work-politics-mirror/SYNC-CONTRACT.md
 - singularity/work-cici/work-politics-mirror/SYNC-LOG.md
 
@@ -111,9 +111,9 @@ Use template upstream:
 - ref: main (or a pinned tag/commit if set in SYNC-DAILY)
 
 Compare:
-- companion-self/docs/skill-work/self-work/sync-pack/SYNC-CONTRACT.template.md
-- companion-self/docs/skill-work/self-work/sync-pack/SYNC-LOG.template.md
-- companion-self/docs/skill-work/self-work/sync-pack/SYNC-DAILY.template.md
+- companion-self/docs/archive/skill-work-legacy/self-work/sync-pack/SYNC-CONTRACT.template.md
+- companion-self/docs/archive/skill-work-legacy/self-work/sync-pack/SYNC-LOG.template.md
+- companion-self/docs/archive/skill-work-legacy/self-work/sync-pack/SYNC-DAILY.template.md
 
 Against:
 - singularity/work-cici/work-dev-mirror/SYNC-CONTRACT.md

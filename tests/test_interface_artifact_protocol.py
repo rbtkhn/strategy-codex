@@ -26,7 +26,7 @@ def _example_data() -> dict:
         "title": "Strategy Notebook Structure Map",
         "artifactKind": "html-visualizer",
         "status": "draft",
-        "sourceInputs": ["docs/skill-work/work-strategy/strategy-notebook/"],
+        "sourceInputs": ["docs/archive/skill-work-legacy/work-strategy/strategy-notebook/"],
         "generatedPaths": [
             "runtime/artifacts/work-dev/interface-runtime/artifacts/strategy-notebook-map.html"
         ],
@@ -39,7 +39,7 @@ def _example_data() -> dict:
         "relatedWorkbenchReceipt": None,
         "typicalNextStep": "inspect-in-workbench",
         "sourceContractRef": (
-            "docs/skill-work/work-strategy/strategy-notebook/"
+            "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/"
             "demo-runs/workbench-visualizer/README.md"
         ),
     }
@@ -56,7 +56,7 @@ def test_new_interface_artifact_creates_valid_json(tmp_path) -> None:
             "--generated-path",
             "runtime/artifacts/work-dev/interface-runtime/artifacts/example.html",
             "--source-input",
-            "docs/skill-work/work-strategy/strategy-notebook",
+            "docs/archive/skill-work-legacy/work-strategy/strategy-notebook",
             "--intended-use",
             "Example protocol smoke test",
             "--output",

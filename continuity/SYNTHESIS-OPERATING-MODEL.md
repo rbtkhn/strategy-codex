@@ -326,7 +326,7 @@ Historical accounts emphasize **rarity, selectivity, and perfection through narr
 | Ensemble metaphor (score / parts / conductor) | [STRATEGY-NOTEBOOK-ARCHITECTURE.md Â§ Ensemble metaphor](STRATEGY-NOTEBOOK-ARCHITECTURE.md#ensemble-metaphor-chamber-group-gloss) |
 | **Polyphony + compiled views** | [compiled-views/README.md](compiled-views/README.md) Â· [expert-polyphony 001](compiled-views/recipes/expert-polyphony-synthesis.md) Â· [five-conductors 003](compiled-views/recipes/expert-polyphony-synthesis-five-conductors.md) |
 | Minds recipes | [MINDS-SKILL-STRATEGY-PATTERNS.md](../minds/MINDS-SKILL-STRATEGY-PATTERNS.md) |
-| Skill behavior | [.cursor/skills/skill-strategy/SKILL.md](../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md) |
+| Skill behavior | [.cursor/skills/skill-strategy/SKILL.md](../docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md) |
 
 ### Adjacent lane (Cici notebook)
 

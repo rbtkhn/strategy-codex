@@ -9,7 +9,7 @@
 - Generated: 2026-04-24T15:30:00Z
 - Mode: crisis
 - Watch filter: iran
-- Notebook root: `docs/skill-work/work-strategy/strategy-notebook`
+- Notebook root: `docs/archive/skill-work-legacy/work-strategy/strategy-notebook`
 - Current month: 2026-04
 - Current day: 2026-04-24
 - Output status: ok

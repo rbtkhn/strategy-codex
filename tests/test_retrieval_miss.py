@@ -112,7 +112,7 @@ class TestLogRetrievalMiss:
             "--query", "skill card for work-strategy",
             "--failure-class", "missing_content",
             "--related-path", "runtime/artifacts/skill-cards/",
-            "--related-path", "docs/skill-work/work-strategy/",
+            "--related-path", "docs/archive/skill-work-legacy/work-strategy/",
         )
         assert result.returncode == 0
         ledger = _ledger_path(tmp_path)

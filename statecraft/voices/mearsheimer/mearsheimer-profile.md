@@ -71,7 +71,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Legacy redirects (compatibility)
 
-[`mearsheimer-mind.md`](mearsheimer-mind.md) · [CIV-MIND-MEARSHEIMER.md](../../../continuity/minds/CIV-MIND-MEARSHEIMER.md) → this profile. [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
+[`mearsheimer-mind.md`](mearsheimer-mind.md) · [CIV-MIND-MEARSHEIMER.md](../../../continuity/minds/CIV-MIND-MEARSHEIMER.md) → this profile. [VOICES-SUPERSEDE-MINDS.md](../../../docs/archive/skill-work-legacy/work-strategy/VOICES-SUPERSEDE-MINDS.md)
 
 ## Convergence fingerprint
 

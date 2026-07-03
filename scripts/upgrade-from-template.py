@@ -99,7 +99,7 @@ def main() -> int:
         "templateVersion": template_version,
         "syncedAt": datetime.now(timezone.utc).isoformat(),
         "syncedBy": "scripts/upgrade-from-template.py",
-        "syncedPaths": [f"docs/skill-work/self-work/sync-pack/{name}" for name in changed],
+        "syncedPaths": [f"docs/archive/skill-work-legacy/self-work/sync-pack/{name}" for name in changed],
     }
     if not args.dry_run and changed:
         template_source_path = grace_root / "platform/template/template-source.json"

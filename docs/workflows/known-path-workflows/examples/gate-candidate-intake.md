@@ -10,9 +10,9 @@ trigger: "Weekly steward pass or operator-invoked after batch WORK edits"
 authority_class: review_required
 maximum_action: "Prepare candidate summaries and suggested YAML blocks for human paste into recursion-gate; never append to recursion-gate.md without operator action."
 input_surfaces:
-  - docs/skill-work/work-*/**/*-history.md
+  - docs/archive/skill-work-legacy/work-*/**/*-history.md
   - runtime/artifacts/
-  - docs/skill-work/work-strategy/strategy-notebook/
+  - docs/archive/skill-work-legacy/work-strategy/strategy-notebook/
 output_surfaces:
   - operator clipboard or scratch markdown only
 related_existing_surfaces:
@@ -48,7 +48,7 @@ Scan **eligible WORK artifacts** (lane histories, derived summaries, notebook ca
 
 | Surface | Use |
 |---------|-----|
-| `docs/skill-work/work-*/*-history.md` | Recent WORK events |
+| `docs/archive/skill-work-legacy/work-*/*-history.md` | Recent WORK events |
 | `runtime/artifacts/` | Derived rebuildables that may motivate staging |
 | Strategy notebook paths | Judgment / ingest signals (read-only) |
 

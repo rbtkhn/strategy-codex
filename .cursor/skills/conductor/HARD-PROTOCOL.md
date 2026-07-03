@@ -32,7 +32,7 @@ Bare `conductor` asks for a name only. Do not show a lettered master picker.
 4. Ground every option in the repo by naming a file path, command, artifact, or precise edit target.
 5. Give every option one main verb and a distinct job. If A/B/C/D could be swapped without changing the work, rewrite them.
 6. Offer `D. Finale` only when a durable close, receipt, log, benchmark, or handoff is actually available.
-7. **Kleiber compact:** `D. Finale` may be `log_cadence_event` + ship receipt without composition benchmark. Reserve benchmark for `kleiber finale` / explicit full-mode picks ([kleiber-composition-benchmark.md](../../../docs/skill-work/work-dev/kleiber-composition-benchmark.md)).
+7. **Kleiber compact:** `D. Finale` may be `log_cadence_event` + ship receipt without composition benchmark. Reserve benchmark for `kleiber finale` / explicit full-mode picks ([kleiber-composition-benchmark.md](../../../docs/archive/skill-work-legacy/work-dev/kleiber-composition-benchmark.md)).
 
 ## Fail-Closed Rule
 

@@ -9,7 +9,7 @@ Usage (from repo root):
   python3 scripts/founding_lexical_compare.py
   python3 scripts/founding_lexical_compare.py --json
 
-Canon: 32 rows aligned with `docs/skill-work/work-strategy/founding-influences-graeco-roman-vs-english.md` (Table 1).
+Canon: 32 rows aligned with `docs/archive/skill-work-legacy/work-strategy/founding-influences-graeco-roman-vs-english.md` (Table 1).
 Row 3 (*Farmer*) concatenates twelve Wikisource letter URLs. Sources are frozen in FOUNDING_CANON.
 
 Word lists (lowercase, whole-token match, min length 3 from [a-z]+):

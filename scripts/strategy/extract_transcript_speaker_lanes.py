@@ -4,11 +4,11 @@ Extract speaker-tagged blocks from a cleaned strategy raw-input transcript (mark
 
 Use when building **lane-split** refined pages: `### Verbatim` for each expert must be
 **that speaker’s lines from the shared raw file** (same words as raw), not paraphrase.
-See docs/skill-work/work-strategy/strategy-notebook/refined-page-template.md (SSOT stack).
+See docs/archive/skill-work-legacy/work-strategy/strategy-notebook/refined-page-template.md (SSOT stack).
 
 Example (Diesen × Crooke):
   python3 scripts/strategy/extract_transcript_speaker_lanes.py \\
-    docs/skill-work/work-strategy/strategy-notebook/provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md
+    docs/archive/skill-work-legacy/work-strategy/strategy-notebook/provenance/2026-04-27/source-diesen-crooke-iran-global-war-world-order-2026-04-27.md
 """
 from __future__ import annotations
 

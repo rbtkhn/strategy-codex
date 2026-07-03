@@ -2,7 +2,7 @@
 """
 Stateless helper: suggest branch names and merge order for parallel macro-actions.
 
-Does not modify git state or the Record. See docs/skill-work/work-dev/PARALLEL-MACRO-ACTIONS.md
+Does not modify git state or the Record. See docs/archive/skill-work-legacy/work-dev/PARALLEL-MACRO-ACTIONS.md
 """
 
 from __future__ import annotations

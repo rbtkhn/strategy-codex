@@ -133,7 +133,7 @@ This is a maintenance pass, not a merge pass.
 
 **AI frontier watch:** Successful dream may include **`frontier_source_hint`** from The Innermost Loop RSS. This is metadata-only (`title`, `url`, `published_at`, `status`, `source_mode=live_lookup`) and exists only to help tomorrow notice a possible AI-frontier seam. Dream does **not** read the full post, generate a summary, create raw-input/source-pack material, compose strategy pages/chapters, or treat the source as Record authority. If the post matters, route tomorrow through Coffee C / strategy source hygiene.
 
-**Kleiber benchmark carry-forward:** Dream may carry forward composition benchmark residue only when a Kleiber benchmark result is `Open`, `Broke`, or `Weakened` twice on the same scoring dimension. Dream does **not** generate benchmark prompts, run benchmarks, or add a benchmark route outside Kleiber **D. Finale**. Protocol: [kleiber-composition-benchmark.md](../../../docs/skill-work/work-dev/kleiber-composition-benchmark.md).
+**Kleiber benchmark carry-forward:** Dream may carry forward composition benchmark residue only when a Kleiber benchmark result is `Open`, `Broke`, or `Weakened` twice on the same scoring dimension. Dream does **not** generate benchmark prompts, run benchmarks, or add a benchmark route outside Kleiber **D. Finale**. Protocol: [kleiber-composition-benchmark.md](../../../docs/archive/skill-work-legacy/work-dev/kleiber-composition-benchmark.md).
 
 ## What to return
 
@@ -162,7 +162,7 @@ Include only what matters this run:
 - **Strategy notebook** / **Cici notebook** / **Dev journal:** one line each when relevant (strategy-notebook **deferred** unless operator asked **`strategy page`**, **`strategy page compose`**, or **EOD notebook compose** in-thread; Cici notebook per § below)
 - **`last30days` breadcrumb (advisory only):** If strategy residue needs fresh external provenance, mention at most **one** tomorrow query; see the strategy-notebook behavior below.
 - **`skill-elicitation` breadcrumb (advisory only):** If strategy residue needs operator judgment before it can be routed or composed, mention at most **one** tomorrow checkpoint, such as stream profile calibration, page shape, **source archive** routing, contrapuntal comparison, or civ-mem lens choice. Do not ask the questions inside `dream`.
-- **`source archive` hygiene (advisory):** If cadence shows pasted **strategy inputs** (long verbatim + URL) today, note whether matching captures exist under **`source-archive/statecraft/`** — **WORK only**; not merge authority. When unsure, run [`scripts/strategy_raw_input_gap_hint.py`](../../../scripts/strategy_raw_input_gap_hint.py) (**advisory** heuristic). See [RAW-INPUT-DEPRECATED.md](../../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md).
+- **`source archive` hygiene (advisory):** If cadence shows pasted **strategy inputs** (long verbatim + URL) today, note whether matching captures exist under **`source-archive/statecraft/`** — **WORK only**; not merge authority. When unsure, run [`scripts/strategy_raw_input_gap_hint.py`](../../../scripts/strategy_raw_input_gap_hint.py) (**advisory** heuristic). See [RAW-INPUT-DEPRECATED.md](../../../docs/archive/skill-work-legacy/work-strategy/RAW-INPUT-DEPRECATED.md).
 
 If nothing important changed, say so plainly. A quiet run is success.
 
@@ -242,13 +242,13 @@ If **strict** dream halts for the **same** integrity or governance **reason** mo
 
 ## Strategy notebook (strategy-codex (`continuity/`)) — optional FYI; **not** owned by `dream`
 
-**Contract (repo):** [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Entry model* / § *End-of-day strategy session* — **hybrid** dated + episodic sections; **inbox + source archive = capture**, **notebook = synthesized** in the **EOD strategy session** when the operator says **`strategy page`**, **`strategy page compose`**, or runs **`strategy`** with **notebook compose** intent — **not** because night close ran. *Deprecated:* operator token **`weave`**; deprecated **`continuity/raw-input/`** — [RAW-INPUT-DEPRECATED.md](../../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md).
+**Contract (repo):** [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Entry model* / § *End-of-day strategy session* — **hybrid** dated + episodic sections; **inbox + source archive = capture**, **notebook = synthesized** in the **EOD strategy session** when the operator says **`strategy page`**, **`strategy page compose`**, or runs **`strategy`** with **notebook compose** intent — **not** because night close ran. *Deprecated:* operator token **`weave`**; deprecated **`continuity/raw-input/`** — [RAW-INPUT-DEPRECATED.md](../../../docs/archive/skill-work-legacy/work-strategy/RAW-INPUT-DEPRECATED.md).
 
 **Morning conductor → night settle (optional):** If you ran a **[strategy coffee cadence (conductor protocol)](../../../continuity/COFFEE-CADENCE-CONDUCTOR-PROTOCOL.md)** in the morning, the notebook holds **seeds** (`[watch]`, `[decision]`, `[promote]` only in WORK). **Step 0 "Recent rhythm"** in `dream` *may* acknowledge that arc in plain language (rehearsal → rest) when it helps closure — it does **not** add merge obligations, does **not** auto-compose `days.md`, and does **not** replace an explicit **`strategy` / EOD compose** when you want the notebook written.
 
 **Telemetry only:** `python3 scripts/auto_dream.py` (and `last-dream.json`) still include **`dream_catchup`**: `local_calendar_dates`, `previous_dream_generated_at`, `timezone`, and **`strategy_notebook_missing_day_headers`** (dates in the catch-up window with no matching `## YYYY-MM-DD` in the relevant `chapters/YYYY-MM/days.md` files). Treat this as **optional FYI** if you track calendar coverage — **not** a mandatory stub list and **not** a reason for the agent to auto-write the notebook during `dream`.
 
-**What `dream` does *not* do:** **`dream` does not** require **EOD-composing** [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md) + [**source archive**](../../../source-archive/statecraft/README.md) into `days.md`, does **not** require minimal daily registers, and does **not** replace a **`strategy`** **EOD session**. If the operator **asks** in the same `dream` thread to **compose the strategy notebook** / **fold** the strategy inbox, treat that as **explicit direction** — same synthesis rules as [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) + [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Daily strategy inbox*.
+**What `dream` does *not* do:** **`dream` does not** require **EOD-composing** [daily-strategy-inbox.md](../../../continuity/daily-strategy-inbox.md) + [**source archive**](../../../source-archive/statecraft/README.md) into `days.md`, does **not** require minimal daily registers, and does **not** replace a **`strategy`** **EOD session**. If the operator **asks** in the same `dream` thread to **compose the strategy notebook** / **fold** the strategy inbox, treat that as **explicit direction** — same synthesis rules as [DEFAULT-PATH.md](../../../docs/archive/skill-work-legacy/work-strategy/DEFAULT-PATH.md) + [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md) § *Daily strategy inbox*.
 
 **STATUS:** [STATUS.md](../../../continuity/STATUS.md) tracks **last substantive entry** when you close real work — update there after **EOD compose**; `dream` does not bump it by default.
 
@@ -264,7 +264,7 @@ If **strict** dream halts for the **same** integrity or governance **reason** mo
 2. **Do not** auto-compose strategy notebook, **do not** add stubs, **do not** edit `days.md` unless the operator **explicitly** asks in this thread.
 3. If strategy residue needs fresh external provenance, recommend at most **one** `last30days "<topic>"` as a tomorrow breadcrumb; do not run it inside dream unless the operator explicitly asks for research in that same message.
 4. If strategy residue needs tacit operator judgment before it can be routed or composed, recommend at most **one** `skill-elicitation` checkpoint as a tomorrow breadcrumb; do not run elicitation inside dream unless the operator explicitly asks in that same message.
-5. If the operator **explicitly** asks to run **`strategy page`**, **`strategy page compose`**, **EOD strategy notebook**, fold strategy inbox, or add stubs in the same message, follow [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md) and [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md); otherwise defer to a later **`strategy`** session.
+5. If the operator **explicitly** asks to run **`strategy page`**, **`strategy page compose`**, **EOD strategy notebook**, fold strategy inbox, or add stubs in the same message, follow [DEFAULT-PATH.md](../../../docs/archive/skill-work-legacy/work-strategy/DEFAULT-PATH.md) and [STRATEGY-NOTEBOOK-ARCHITECTURE.md](../../../continuity/STRATEGY-NOTEBOOK-ARCHITECTURE.md); otherwise defer to a later **`strategy`** session.
 
 **Boundaries:** , not `self.md` / EVIDENCE / gate merge.
 
@@ -288,16 +288,16 @@ This reads **`last-dream.json` before overwrite**, computes the same local dates
 
 1. After **Step 0**, run Step 1 (`auto_dream.py`) so **`dream_catchup`** is fresh in JSON / handoff; then run the **catch-up** command above on a **network**-capable path (operator machine or agent with `full_network`).
 2. Optional: `GITHUB_TOKEN` / `GH_TOKEN` for API rate limits — public repo works for light use.
-3. Optional: operator drops Cursor exports or notes into **`docs/skill-work/work-cici/cici-notebook/inbox/`** before catch-up (same-day file names). For **transcript + geopolitical synthesis** on the journal page, prefer **`--full-day-synthesis`** (or `CICI_JOURNAL_FULL_DAY_SYNTHESIS=1`) so **strategy-notebook** and **session-transcript** merge in; use inbox for spillover.
+3. Optional: operator drops Cursor exports or notes into **`singularity/work-cici/cici-notebook/inbox/`** before catch-up (same-day file names). For **transcript + geopolitical synthesis** on the journal page, prefer **`--full-day-synthesis`** (or `CICI_JOURNAL_FULL_DAY_SYNTHESIS=1`) so **strategy-notebook** and **session-transcript** merge in; use inbox for spillover.
 4. If **GitHub API** or **network** fails, record **Cici notebook:** `skipped (API/network)` — do **not** fail the whole `dream` maintenance story on this alone.
 
 **Boundaries:** **WORK / operator coaching** — not Xavier's **Record** in her repo, not grace-mar **SELF** / gate merge. **No secrets** in prose (generated overview + commit links are safe; inbox/session content is operator-vetted).
 
 **Return brief:** **Cici notebook:** `catch-up written N file(s)` / `skipped (exists|network)` — list paths or dates.
 
-## Dev journal (dev journal (`docs/skill-work/work-dev/dev-notebook/work-dev/journal/`)) — optional fold
+## Dev journal (dev journal (`docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/`)) — optional fold
 
-**Purpose:** Same **rolling inbox → fold** contract as strategy-notebook and the Cici notebook (no mandatory nightly reset; length-based prune) — see [daily-dev-journal-inbox.md](../../../docs/skill-work/work-dev/dev-notebook/work-dev/journal/daily-dev-journal-inbox.md) and [dev-journal README](../../../docs/skill-work/work-dev/dev-notebook/work-dev/journal/README.md). No digest script; the agent **synthesizes** into **`docs/skill-work/work-dev/dev-notebook/work-dev/journal/YYYY-MM-DD-day-NN.md`** when the operator uses the buffer.
+**Purpose:** Same **rolling inbox → fold** contract as strategy-notebook and the Cici notebook (no mandatory nightly reset; length-based prune) — see [daily-dev-journal-inbox.md](../../../docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/daily-dev-journal-inbox.md) and [dev-journal README](../../../docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/README.md). No digest script; the agent **synthesizes** into **`docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/YYYY-MM-DD-day-NN.md`** when the operator uses the buffer.
 
 **Return brief:** **Dev journal:** `inbox folded` / `empty` / `deferred` — cite path if written.
 

@@ -23,8 +23,8 @@ Read only the minimum needed from:
 - `self-library.md`
 - `self-skills.md`
 - `self-archive.md` / evidence surfaces
-- `docs/skill-work/work-cici/README.md`
-- `docs/skill-work/work-cici/cici-ai-lanes.md`
+- `singularity/work-cici/README.md`
+- `singularity/work-cici/cici-ai-lanes.md`
 
 ## Outputs
 

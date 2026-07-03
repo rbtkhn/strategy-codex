@@ -8,7 +8,7 @@
 
 **`self-history`** holds a **systematic, dense** timeline that combines:
 
-1. **WORK stream** — consolidation of per-lane operator milestones from **`docs/skill-work/work-*/*-history.md`** (see [work-modules-history-principle.md](../../docs/skill-work/work-modules-history-principle.md)).
+1. **WORK stream** — consolidation of per-lane operator milestones from **`docs/archive/skill-work-legacy/work-*/*-history.md`** (see [work-modules-history-principle.md](../../docs/archive/skill-work-legacy/work-modules-history-principle.md)).
 2. **COMPANION stream** — **gate-approved** companion-relevant events and facts already merged into **SELF / EVIDENCE** (summaries or pointers with **ACT ids / dates / merge receipts** — never **pending** gate text as fact).
 
 ---

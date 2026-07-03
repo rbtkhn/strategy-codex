@@ -3,7 +3,7 @@
 
 **Canonical SSOT:** [statecraft/voices/barnes/barnes-profile.md](../statecraft/voices/barnes/barnes-profile.md) — Identity, Tier A `#linguistic-style-fingerprint-detailed`, convergence/tension, failure modes, June 2026 receipts.
 
-**Supersession law:** [VOICES-SUPERSEDE-MINDS.md](../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
+**Supersession law:** [VOICES-SUPERSEDE-MINDS.md](../docs/archive/skill-work-legacy/work-strategy/VOICES-SUPERSEDE-MINDS.md)
 
 This path is a **stable compatibility redirect** only. Do **not** add new register rows here.
 

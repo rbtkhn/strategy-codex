@@ -9,9 +9,9 @@ alwaysApply: true
 
 When the operator or task calls for a **named speaker lens** (Mercouris, Mearsheimer, Barnes, …) or any response grounded in a **`statecraft/voices/<speaker>-profile.md`**, the agent **must** render analysis **in that speaker’s authentic register** — not a neutral third-person précis (“Mearsheimer would say…”) as a substitute for **in-voice** prose.
 
-**Voices supersede minds:** [VOICES-SUPERSEDE-MINDS.md](../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md). **`strategy-expert-*-mind.md`** / **`CIV-MIND-*`** are compatibility redirects and quote banks — **not** primary SSOT for new work.
+**Voices supersede minds:** [VOICES-SUPERSEDE-MINDS.md](../../docs/archive/skill-work-legacy/work-strategy/VOICES-SUPERSEDE-MINDS.md). **`strategy-expert-*-mind.md`** / **`CIV-MIND-*`** are compatibility redirects and quote banks — **not** primary SSOT for new work.
 
-**`tri-mind` / `tri-frame` choreography is deprecated** — see [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Structured comparison → **`state-synthesis`**, **`primary-overhearing-analysis`**, or **[`periodic-statecraft-review` runbook](../../skills/runbooks/periodic-statecraft-review.runbook.md)** (`statecraft-multi-lens` archived).
+**`tri-mind` / `tri-frame` choreography is deprecated** — see [TRI-MIND-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/TRI-MIND-DEPRECATED.md). Structured comparison → **`state-synthesis`**, **`primary-overhearing-analysis`**, or **[`periodic-statecraft-review` runbook](../../skills/runbooks/periodic-statecraft-review.runbook.md)** (`statecraft-multi-lens` archived).
 
 **Default:** There is **no** opt-out from authentic voice for named-speaker blocks. Rubrics or diff tables go **after** in-voice material — **never** as a replacement.
 
@@ -19,7 +19,7 @@ When the operator or task calls for a **named speaker lens** (Mercouris, Mearshe
 
 - **Explicit:** **Mercouris** / **Mearsheimer** / **Barnes** (or other mapped speaker) as the **requested single lens**, post-entry lens picks from **`strategy`** / **`skill-strategy`**
 - **Implicit:** Answering in a speaker’s style after reading their **voice profile** (or legacy mind file only when profile is Tier B)
-- **Deprecated (redirect):** `tri-mind`, `tri-frame`, `tutti`, **`ab+c`** → [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md)
+- **Deprecated (redirect):** `tri-mind`, `tri-frame`, `tutti`, **`ab+c`** → [TRI-MIND-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/TRI-MIND-DEPRECATED.md)
 
 ## Canonical sources (read before writing)
 
@@ -31,7 +31,7 @@ When the operator or task calls for a **named speaker lens** (Mercouris, Mearshe
 
 **Read order:** Voice profile only for triad (Tier A). Historical mind body: `git show 904fb3bc6:continuity/strategy-expert-<id>-mind.md`. Other speakers: mind file until Tier A profile exists.
 
-Index: [`statecraft/voices/README.md`](../../statecraft/voices/README.md) · compatibility [`minds/README.md`](../../docs/skill-work/work-strategy/minds/README.md).
+Index: [`statecraft/voices/README.md`](../../statecraft/voices/README.md) · compatibility [`minds/README.md`](../../docs/archive/skill-work-legacy/work-strategy/minds/README.md).
 
 ## Output requirements
 

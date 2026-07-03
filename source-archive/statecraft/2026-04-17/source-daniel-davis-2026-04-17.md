@@ -5,7 +5,7 @@ thread: davis
 channel_slug: daniel-davis
 kind: transcript
 source_form: post
-source_path: docs/skill-work/work-strategy/strategy-notebook/experts/davis/transcript.md
+source_path: docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/davis/transcript.md
 ---
 ## 2026-04-17
 - X | cold: @DanielLDavis1 **2026-04-17 ~06:30** — QT **@araghchi**: Hormuz passage **open** for **all commercial vessels** for **remaining ceasefire period** on **coordinated route** (Ports & Maritime Organisation); Davis — back-channel diplomacy, **zero-give** warning re U.S. posture // hook: [daily-brief-2026-04-17.md](../daily-brief-2026-04-17.md) **§1h** + expert mesh; **pin** @araghchi + Davis status URLs | verify:pin-x-urls+IRI-primary-chain | thread:davis | IRI+TEHRAN

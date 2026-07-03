@@ -77,7 +77,7 @@ python3 scripts/prepared_context/build_budgeted_context.py \
   --lane work-strategy --mode medium \
   -q "mission" \
   -o runtime/prepared-context/tacit-mission-demo.md \
-  --include-mission docs/skill-work/work-moonshots/missions/demo-christianity-islam-bridge/mission-spec.md
+  --include-mission docs/archive/skill-work-legacy/work-moonshots/missions/demo-christianity-islam-bridge/mission-spec.md
 ```
 
 Same budget, inclusion/exclusion reporting, and boundary footer as other prepared-context builds. **`--include-checkpoint`** is equivalent priority; **`--include-mission`** labels pieces as `mission_workspace` in the Included list.

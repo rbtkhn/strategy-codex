@@ -4,7 +4,7 @@
 
 **work-ciciâ€“only** changes (`singularity/work-cici/**`, including `work-dev-mirror/` and `work-politics-mirror/`) should use GitHub label **`lane/work-cici`**. See [.github/pull_request_template.md](../../../.github/pull_request_template.md).
 
-If the PR also touches **parent lane** trees outside this folder (e.g. `docs/skill-work/work-dev/**` beyond the mirror, `docs/skill-work/work-politics/**` beyond the mirror), **`scripts/**`**, **`**`**, **`bot/**`**, or another laneâ€™s canonical paths, add **`lane/cross`** and a non-empty **Cross-lane justification**.
+If the PR also touches **parent lane** trees outside this folder (e.g. `docs/archive/skill-work-legacy/work-dev/**` beyond the mirror, `docs/archive/skill-work-legacy/work-politics/**` beyond the mirror), **`scripts/**`**, **`**`**, **`bot/**`**, or another laneâ€™s canonical paths, add **`lane/cross`** and a non-empty **Cross-lane justification**.
 
 ## Gate shape (Record / Voice)
 

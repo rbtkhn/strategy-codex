@@ -45,7 +45,7 @@ These files originate in academy theology. They are not copied from civ-mem sate
 
 | Academy file | Source context | Category | Role |
 |---|---|---|---|
-| [bookshelf-crosswalk.md](bookshelf-crosswalk.md) | `docs/skill-work/work-strategy/history-notebook/research/bookshelf-catalog.yaml` | crosswalk | ordered 25-book bridge from Bookshelf into academy theology, including the Kaldellis/Wilson comparison |
+| [bookshelf-crosswalk.md](bookshelf-crosswalk.md) | `docs/archive/skill-work-legacy/work-strategy/history-notebook/research/bookshelf-catalog.yaml` | crosswalk | ordered 25-book bridge from Bookshelf into academy theology, including the Kaldellis/Wilson comparison |
 
 ## Workshop
 

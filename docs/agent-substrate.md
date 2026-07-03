@@ -13,7 +13,7 @@ Grace-Mar already has the primitives agent systems need for long-running work:
 - **Durable state:** `self.md`, `self-skills.md`, `self-library.md`, and `self-archive.md` define approved identity, capability, reference, and evidence surfaces.
 - **Status machine:** `recursion-gate.md` separates proposed changes from approved Record truth.
 - **Audit trail:** git history, merge receipts, pipeline events, runtime bundles, and cadence logs make changes replayable.
-- **Work lanes:** `docs/skill-work/` gives agents bounded operating surfaces for strategy, development, Cici, politics, coffee, dream, and related WORK.
+- **Work lanes:** `docs/archive/skill-work-legacy/` gives agents bounded operating surfaces for strategy, development, Cici, politics, coffee, dream, and related WORK.
 - **Runtime boundary:** `memory.md`, handoffs, prepared context, MCP receipts, and runtime complements improve continuity without becoming Record truth.
 
 The substrate is useful because state is outside any one model context window. An agent can enter late, read the governed surfaces, and understand what is canonical, what is proposed, and what is only runtime continuity.

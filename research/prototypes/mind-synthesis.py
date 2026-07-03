@@ -1,7 +1,7 @@
 """
 Simple templating synthesis for three-lens output (non-authoritative; draft).
 Run after the three analytical lenses; output is draft until operator approves.
-In production: may call LLM wrapper; see docs/skill-work/work-strategy/synthesis-engine.md.
+In production: may call LLM wrapper; see docs/archive/skill-work-legacy/work-strategy/synthesis-engine.md.
 """
 
 def synthesize_minds(

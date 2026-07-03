@@ -17,10 +17,10 @@ Optional upstream (diff / governance-only; if civ-mem present): `docs/templates/
 
 **CIV-MEM (upstream repo) × mind grounding (legacy tri-frame table):** [CIV-MEM-TRI-FRAME-ROUTING.md](../../minds/CIV-MEM-TRI-FRAME-ROUTING.md) — **deprecated** as tri-frame choreography; column hints still apply per mind. **Search / index:** [CIV-MEM-UPSTREAM-SEARCH.md](../../minds/CIV-MEM-UPSTREAM-SEARCH.md).
 
-**Tri-mind:** **Deprecated** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md). Prefer **`state-synthesis`**, **`primary-overhearing-analysis`**, or **[`periodic-statecraft-review` runbook](../../skills/runbooks/periodic-statecraft-review.runbook.md)**.
+**Tri-mind:** **Deprecated** — [TRI-MIND-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/TRI-MIND-DEPRECATED.md). Prefer **`state-synthesis`**, **`primary-overhearing-analysis`**, or **[`periodic-statecraft-review` runbook](../../skills/runbooks/periodic-statecraft-review.runbook.md)**.
 
 **Recipes and post-entry lens offer:** [MINDS-SKILL-STRATEGY-PATTERNS.md](../../minds/MINDS-SKILL-STRATEGY-PATTERNS.md)
 
-**Cursor skill:** [skill-strategy SKILL.md](../../docs/skill-work/work-strategy/SKILL-STRATEGY-DEPRECATED.md) — loads mind fingerprints via expert `-mind.md` or `CIV-MIND-*.md` redirects.
+**Cursor skill:** [skill-strategy SKILL.md](../../docs/archive/skill-work-legacy/work-strategy/SKILL-STRATEGY-DEPRECATED.md) — loads mind fingerprints via expert `-mind.md` or `CIV-MIND-*.md` redirects.
 
 **Granular control:** [strategy-minds-granular.mdc](../../../.cursor/rules/strategy-minds-granular.mdc) — no tri-frame; zero or one named lens by default.

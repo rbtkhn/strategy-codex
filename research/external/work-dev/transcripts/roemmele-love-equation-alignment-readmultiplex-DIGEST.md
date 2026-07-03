@@ -84,6 +84,6 @@ Plus **Empirical Distrust Algorithm** (linked on X above; not reproduced here).
 
 ## See also
 
-- [work-dev README](../../../../docs/skill-work/work-dev/README.md)  
-- [external-signals.md](../../../../docs/skill-work/work-dev/external-signals.md)  
+- [work-dev README](../../../../docs/archive/skill-work-legacy/work-dev/README.md)  
+- [external-signals.md](../../../../docs/archive/skill-work-legacy/work-dev/external-signals.md)  
 - [research/external/work-dev/README.md](../README.md)  

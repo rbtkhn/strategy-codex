@@ -6,7 +6,7 @@ This close records the design gain from the recent prose-routing pass.
 
 - [docs/prose-index.md](prose-index.md) now clearly owns prose-class routing.
 - local shelf READMEs in `singularity/` and `statecraft/` now behave more like local orientation surfaces than rival taxonomy owners
-- [docs/prose-cluster-placement-comparison.md](prose-cluster-placement-comparison.md) now gives one small live test for how the same cluster should behave differently in `essays/`, `notes/`, and `docs/skill-work/`
+- [docs/prose-cluster-placement-comparison.md](prose-cluster-placement-comparison.md) now gives one small live test for how the same cluster should behave differently in `essays/`, `notes/`, and `docs/archive/skill-work-legacy/`
 
 ## The Real Lesson
 
@@ -26,7 +26,7 @@ When local READMEs start restating the whole prose theory, drift becomes likely.
 - `essays/` should own transportable arguments
 - `notes/` should own bounded promoted objects
 - `synthesis/` should remain an extraction layer rather than trying to become a general prose shelf
-- `docs/skill-work/` should hold operator doctrine, procedure, or compatibility residue, not hidden canonical prose ownership
+- `docs/archive/skill-work-legacy/` should hold operator doctrine, procedure, or compatibility residue, not hidden canonical prose ownership
 
 ## Best Future Test
 

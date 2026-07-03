@@ -47,7 +47,7 @@ from pathlib import Path
 from typing import List
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-NOTEBOOK_DIR = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK_DIR = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 OUT_DIR = REPO_ROOT / "runtime/artifacts/skill-work/work-strategy/historical-expert-context"
 
 THREAD_MARKER_START = "<!-- strategy-expert-thread:start -->"

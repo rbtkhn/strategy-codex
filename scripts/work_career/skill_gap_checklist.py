@@ -31,7 +31,7 @@ def main() -> int:
     parser.add_argument(
         "--worksheet",
         type=Path,
-        default=ROOT / "docs/skill-work/work-career/skill-demo-worksheet.md",
+        default=ROOT / "docs/archive/skill-work-legacy/work-career/skill-demo-worksheet.md",
     )
     args = parser.parse_args()
 

@@ -61,7 +61,7 @@ Durable state that affects future companion behavior and commitments **after** v
 The **three layers** above are **conceptual** and bind governance (what may become Record, how drafts move). They are **not** fully mirrored as a working tree at the **repository root**.
 
 - **[`archive/placeholders/evidence/`](../archive/placeholders/evidence/)** and **[`runtime/prepared-context/`](../runtime/prepared-context/)** at the top level of this repo exist as **minimal placeholders** (so the directories stay tracked). They are **not** the primary dump for operator uploads or MCP capture in grace-mar.
-- **WORK and advisor evidence** usually lives under **territory paths** â€” for example [`docs/skill-work/work-cici/archive/placeholders/evidence/`](../archive/placeholders/evidence) â€” with policy on each territoryâ€™s [`archive/placeholders/evidence/README.md`](../archive/placeholders/evidence/README.md).
+- **WORK and advisor evidence** usually lives under **territory paths** â€” for example [`singularity/work-cici/archive/placeholders/evidence/`](../archive/placeholders/evidence) â€” with policy on each territoryâ€™s [`archive/placeholders/evidence/README.md`](../archive/placeholders/evidence/README.md).
 - **Governed Record state** lives under **``** (e.g. ``) per instance doctrine, not under generic root folders.
 
 This layout avoids confusing this instance with a **small OB1 instance repo** (e.g. [Cici](https://github.com/Xavier-x01/Cici)) that intentionally adds a **Phase 1** tree (`archive/placeholders/evidence/`, `proposals/`, `<instance>/`) in one place. For a side-by-side conceptual map of OB1 vs Cici vs grace-mar, see [OB1 bridge mapping â€” Conceptual map](integrations/ob1/mapping.md#conceptual-map-ob1-cici-grace-mar).

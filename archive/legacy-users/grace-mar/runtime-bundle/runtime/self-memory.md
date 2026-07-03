@@ -25,7 +25,7 @@ Analytical register confirmed as Voice persona. Companion prefers structural-fir
 
 - Batch-gate discipline confirmed for IX entries. Direct-write for structural metadata (sections I-VII).
 - Operator uses "approve all" for batch review — no per-candidate friction needed.
-- High trust in elicitation files (`docs/skill-work/work-elicitation/`) as IX-C source material — no second-guessing needed when those files are the basis for personality candidates.
+- High trust in elicitation files (`docs/archive/skill-work-legacy/work-elicitation/`) as IX-C source material — no second-guessing needed when those files are the basis for personality candidates.
 
 ### Resistance Notes
 
@@ -36,7 +36,7 @@ Analytical register confirmed as Voice persona. Companion prefers structural-fir
 - **Record gaps:** Sections III (Family), IV (Education), V (Health) are empty. Operator will populate III manually. IV and V not discussed — do not push.
 - **IX-A deferred:** Knowledge section is empty by operator choice. The 5 rejected candidates were well-formed but deferred. May revisit in a future session if the operator brings it up.
 - **self.md Status field:** Currently reads `SEEDING`. Should be updated to `ACTIVE` or equivalent once the operator considers the initial population complete.
-- **Dev-journal state (work-dev):** Latest entry is [Day 2 (2026-04-11)](../../docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-04-11-day-02.md). Day 2 "tomorrow" item still open: run a real Tri-Frame overlay on a fresh daily brief end-to-end. Day 2 friction: CLI flag growth on `generate_wap_daily_brief.py` — consider splitting into `daily_brief_minds_*.py` if it grows again. Journal is ~6 days behind the active work window (last entry 04-11 vs current 04-17) — next dev-journal day file should fold any accumulated inbox or reflect recent portability / MCP / reseed work. Inbox is currently empty.
+- **Dev-journal state (work-dev):** Latest entry is [Day 2 (2026-04-11)](../../docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/2026-04-11-day-02.md). Day 2 "tomorrow" item still open: run a real Tri-Frame overlay on a fresh daily brief end-to-end. Day 2 friction: CLI flag growth on `generate_wap_daily_brief.py` — consider splitting into `daily_brief_minds_*.py` if it grows again. Journal is ~6 days behind the active work window (last entry 04-11 vs current 04-17) — next dev-journal day file should fold any accumulated inbox or reflect recent portability / MCP / reseed work. Inbox is currently empty.
 
 ## Long-term
 
@@ -46,5 +46,5 @@ Analytical register confirmed as Voice persona. Companion prefers structural-fir
 - **Agent substrate lens:** When evaluating agent/MCP/runtime ideas, treat Grace-Mar as a governed personal agent substrate: agents may read approved surfaces and stage proposals, but canonical truth still lives in the gated Record. Keep full doctrine in docs such as architecture/runtime/MCP; self-memory only carries this as a reentry lens, not as Record truth.
 - **Companion identity:** Robert (reseeded 2026-04-14, populated 2026-04-17). Previous companion Abby frozen in cold storage (`archive/companion-freeze-abby-2026-04-14/`, git tag `companion-freeze/abby-2026-04-14`).
 - **Voice register:** Analytical — structural, precise, framework-oriented. Set in `archive/grace-mar-instance/bot/prompt.py` HOW YOU SPEAK section.
-- **Dev-journal pointer:** [`docs/skill-work/work-dev/dev-notebook/work-dev/journal/`](../../docs/skill-work/work-dev/dev-notebook/work-dev/journal/README.md) (LIB-0155) — canonical surface for work-dev reflection and learning; check latest day file and inbox for work-dev continuity on reentry. Inbox: [`daily-dev-journal-inbox.md`](../../docs/skill-work/work-dev/dev-notebook/work-dev/journal/daily-dev-journal-inbox.md). Fold at dream.
+- **Dev-journal pointer:** [`docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/`](../../docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/README.md) (LIB-0155) — canonical surface for work-dev reflection and learning; check latest day file and inbox for work-dev continuity on reentry. Inbox: [`daily-dev-journal-inbox.md`](../../docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/daily-dev-journal-inbox.md). Fold at dream.
 - **Promotion flow:** Medium-term items that survive rotation and look like stable identity, knowledge, or personality claims should be staged as CANDIDATE blocks in `recursion-gate.md`, not left in memory as shadow Record. Memory observes; the gate governs; SELF is authoritative. Pipeline: `self-memory` (observe/accumulate) → `recursion-gate` (stage + companion review) → `self.md` IX-A/B/C (Record truth). See `docs/memory-template.md` v2.0 § II Promotion rule.

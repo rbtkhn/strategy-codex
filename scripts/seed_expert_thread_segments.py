@@ -32,7 +32,7 @@ import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-NOTEBOOK_DIR = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK_DIR = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 THREAD_MARKER_START = "<!-- strategy-expert-thread:start -->"
 
 def read_text(path: Path) -> str:

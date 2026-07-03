@@ -345,7 +345,7 @@ entries:
         - "build_prediction_event_pages.py"
 
   - id: work-dev-integration-status
-    path: docs/skill-work/work-dev/generated/integration-status.generated.md
+    path: docs/archive/skill-work-legacy/work-dev/generated/integration-status.generated.md
     category: generated
     generator: scripts/work_dev/render_control_plane_docs.py
     check_args: ["--check"]
@@ -357,7 +357,7 @@ entries:
         - "render_control_plane_docs.py"
 
   - id: work-dev-known-gaps
-    path: docs/skill-work/work-dev/generated/known-gaps.generated.md
+    path: docs/archive/skill-work-legacy/work-dev/generated/known-gaps.generated.md
     category: generated
     generator: scripts/work_dev/render_control_plane_docs.py
     check_args: ["--check"]
@@ -369,7 +369,7 @@ entries:
         - "render_control_plane_docs.py"
 
   - id: work-dev-proof-ledger
-    path: docs/skill-work/work-dev/generated/proof-ledger.generated.md
+    path: docs/archive/skill-work-legacy/work-dev/generated/proof-ledger.generated.md
     category: generated
     generator: scripts/work_dev/render_control_plane_docs.py
     check_args: ["--check"]
@@ -381,7 +381,7 @@ entries:
         - "render_control_plane_docs.py"
 
   - id: work-dev-target-registry
-    path: docs/skill-work/work-dev/generated/target-registry.generated.md
+    path: docs/archive/skill-work-legacy/work-dev/generated/target-registry.generated.md
     category: generated
     generator: scripts/work_dev/render_control_plane_docs.py
     check_args: ["--check"]

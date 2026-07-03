@@ -23,16 +23,16 @@ from check_lane_scope import (  # noqa: E402
 from infer_lane_from_paths import infer_dominant  # noqa: E402
 
 def test_path_matches_glob_starstar() -> None:
-    assert path_matches_glob("docs/skill-work/work-dev/README.md", "docs/skill-work/work-dev/**")
-    assert path_matches_glob("docs/skill-work/work-dev/a/b.md", "docs/skill-work/work-dev/**")
-    assert not path_matches_glob("continuity/predictive-history/x.md", "docs/skill-work/work-dev/**")
+    assert path_matches_glob("docs/archive/skill-work-legacy/work-dev/README.md", "docs/archive/skill-work-legacy/work-dev/**")
+    assert path_matches_glob("docs/archive/skill-work-legacy/work-dev/a/b.md", "docs/archive/skill-work-legacy/work-dev/**")
+    assert not path_matches_glob("continuity/predictive-history/x.md", "docs/archive/skill-work-legacy/work-dev/**")
     assert path_matches_glob("tests/test_work_jiang_foo.py", "tests/test_work_jiang*.py")
 
 def test_check_lane_work_dev_clean() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
     code, msgs = check_lane(
         "work-dev",
-        ["docs/skill-work/work-dev/README.md", "scripts/work_dev/foo.py"],
+        ["docs/archive/skill-work-legacy/work-dev/README.md", "scripts/work_dev/foo.py"],
         doc,
         allow_cross_lane=False,
         justification="",
@@ -67,7 +67,7 @@ def test_mixed_fails_without_override() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
     code, msgs = check_lane(
         "work-dev",
-        ["docs/skill-work/work-politics/README.md"],
+        ["docs/archive/skill-work-legacy/work-politics/README.md"],
         doc,
         allow_cross_lane=False,
         justification="",
@@ -79,7 +79,7 @@ def test_allow_cross_lane_requires_justification() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
     code, msgs = check_lane(
         "work-dev",
-        ["docs/skill-work/work-politics/README.md"],
+        ["docs/archive/skill-work-legacy/work-politics/README.md"],
         doc,
         allow_cross_lane=True,
         justification="",
@@ -91,7 +91,7 @@ def test_allow_cross_lane_with_justification() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
     code, msgs = check_lane(
         "work-dev",
-        ["docs/skill-work/work-politics/README.md"],
+        ["docs/archive/skill-work-legacy/work-politics/README.md"],
         doc,
         allow_cross_lane=True,
         justification="cross-lane doc sync",
@@ -100,14 +100,14 @@ def test_allow_cross_lane_with_justification() -> None:
 
 def test_infer_dominant_single_lane() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
-    assert infer_dominant(["docs/skill-work/work-dev/README.md"], doc) == "work-dev"
+    assert infer_dominant(["docs/archive/skill-work-legacy/work-dev/README.md"], doc) == "work-dev"
 
 def test_infer_mixed_two_lanes() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
     assert (
         infer_dominant(
             [
-                "docs/skill-work/work-dev/README.md",
+                "docs/archive/skill-work-legacy/work-dev/README.md",
                 "continuity/predictive-history/README.md",
             ],
             doc,
@@ -120,7 +120,7 @@ def test_infer_work_strategy_lane() -> None:
     assert (
         infer_dominant(
             [
-                "docs/skill-work/work-strategy/README.md",
+                "docs/archive/skill-work-legacy/work-strategy/README.md",
                 "research/prototypes/mind-synthesis.py",
             ],
             doc,
@@ -146,7 +146,7 @@ def test_check_any_lane_mixed_fails() -> None:
     doc = load_lanes(REPO_ROOT / "lanes.yaml")
     code, _, _matched = check_any_lane(
         [
-            "docs/skill-work/work-dev/README.md",
+            "docs/archive/skill-work-legacy/work-dev/README.md",
             "continuity/predictive-history/README.md",
         ],
         doc,

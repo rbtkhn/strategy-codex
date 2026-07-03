@@ -2,7 +2,7 @@
 
 ## Purpose
 
-**Cici AI** is the active singularity-native and human-facing name for this lane; the live folder now sits at `singularity/work-cici/`, while `docs/skill-work/work-cici/` remains a compatibility pointer.
+**Cici AI** is the active singularity-native and human-facing name for this lane; the live folder now sits at `singularity/work-cici/`, while `singularity/work-cici/` remains a compatibility pointer.
 
 `work-cici` is a WORK territory in the grace-mar repo for coordinating advisor/project work with Cici, formerly tracked as Xavier. It preserves the prior Xavier / BrewMind / SMM materials while normalizing the active workspace name to Cici.
 
@@ -89,7 +89,7 @@ Active onboarding, coordination, and daily operating text should remain Cici-fir
 
 **Read first:** [INDEX.md](INDEX.md) Â· [ALIGNMENT.md](ALIGNMENT.md) Â· [LANES.md](LANES.md) Â· [TERMS-XAVIER.md](TERMS-XAVIER.md) Â· [legacy-aliases.yml](legacy-aliases.yml).
 
-Template baseline (canonical): [work-companion-self/TEMPLATE-BASELINE.md](../../docs/skill-work/work-companion-self/TEMPLATE-BASELINE.md).  
+Template baseline (canonical): [work-companion-self/TEMPLATE-BASELINE.md](../../docs/archive/skill-work-legacy/work-companion-self/TEMPLATE-BASELINE.md).  
 Boundaries: [audit-boundary-grace-mar-companion-self.md](../../docs/audit-boundary-grace-mar-companion-self.md) (grace-mar Â· template); her instance follows the same rules **in her repo**.
 
 **Never copy** `**` into another companionâ€™s instance tree. See [LEAKAGE-CHECKLIST.md](LEAKAGE-CHECKLIST.md).
@@ -116,19 +116,19 @@ Ciciâ€™s **companion** or **chosen instance** repository (Identity Fork Pro
 
 **Active `cici-ai` work lanes:** [cici-ai-lanes.md](cici-ai-lanes.md) splits the current operator surface into [cici-ai-telegram](cici-ai-telegram/README.md), [cici-ai-core](cici-ai-core/README.md), and [cici-ai-progress](cici-ai-progress/README.md). These lanes route action for the `cici-ai` team; they do not replace evidence, governed-state, or Cici's own repo.
 
-**Portability:** Patterns in this module are intended to be **mirrored or adapted** for other companion-self operator/agent workspaces; the instance Record stays in each companionâ€™s repo. Reusable pattern: see [docs/skill-work/work-template/external-companion-workspace-template.md](../../docs/skill-work/work-template/external-companion-workspace-template.md) (generic advisor-lane template; this folder remains not Ciciâ€™s Record).
+**Portability:** Patterns in this module are intended to be **mirrored or adapted** for other companion-self operator/agent workspaces; the instance Record stays in each companionâ€™s repo. Reusable pattern: see [docs/archive/skill-work-legacy/work-template/external-companion-workspace-template.md](../../docs/archive/skill-work-legacy/work-template/external-companion-workspace-template.md) (generic advisor-lane template; this folder remains not Ciciâ€™s Record).
 
-**Template alignment:** [work-cici-sources.md](work-cici-sources.md) (feeds / pointers), [LANE-CI.md](LANE-CI.md) (PR labels), [WORK-LEDGER.md](WORK-LEDGER.md) (watches + compounding). Concept map: [work-template/MAPPING.md](../../docs/skill-work/work-template/MAPPING.md) (section *work-cici (advisor module)*).
+**Template alignment:** [work-cici-sources.md](work-cici-sources.md) (feeds / pointers), [LANE-CI.md](LANE-CI.md) (PR labels), [WORK-LEDGER.md](WORK-LEDGER.md) (watches + compounding). Concept map: [work-template/MAPPING.md](../../docs/archive/skill-work-legacy/work-template/MAPPING.md) (section *work-cici (advisor module)*).
 
 ## Path-status close note
 
 After the `work-cici` shelf move, treat path residue in three classes:
 
 - **Live authority:** `singularity/work-cici/` is the only live shelf for this lane inside strategy-codex, and Cici AI should be treated as singularity-native by default when discussing the program.
-- **Compatibility only:** `docs/skill-work/work-cici/` remains a pointer surface during cutover, not a second authority.
+- **Compatibility only:** `singularity/work-cici/` remains a pointer surface during cutover, not a second authority.
 - **Historical only:** legacy `work-xavier`, `companion-xavier`, and older path strings may remain when they identify real historical artifacts, filename compatibility, or past repo structure.
 
-Regression rule: if a runbook, source list, script constant, workshop link, or operator prompt treats `docs/skill-work/work-cici/` as the live execution shelf again, that is stale continuity and should be corrected rather than preserved.
+Regression rule: if a runbook, source list, script constant, workshop link, or operator prompt treats `singularity/work-cici/` as the live execution shelf again, that is stale continuity and should be corrected rather than preserved.
 
 ## Scripts (repo)
 
@@ -171,7 +171,7 @@ Regression rule: if a runbook, source list, script constant, workshop link, or o
 
 ## Risk mitigation (template â€” Tier 1+)
 
-Per [work-template/README.md](../../docs/skill-work/work-template/README.md) Â§ *Risk-mitigation checklist*. Filled for **advisor module** obligations (mirrors, sync cadence, leakage boundary).
+Per [work-template/README.md](../../docs/archive/skill-work-legacy/work-template/README.md) Â§ *Risk-mitigation checklist*. Filled for **advisor module** obligations (mirrors, sync cadence, leakage boundary).
 
 ### 1. Quantitative success criteria
 

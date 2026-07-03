@@ -69,7 +69,7 @@ Decision rule:
 Run my daily work-politics mirror sync check.
 
 Use:
-- docs/skill-work/work-politics/
+- docs/archive/skill-work-legacy/work-politics/
 - singularity/work-cici/work-politics-mirror/SYNC-CONTRACT.md
 - singularity/work-cici/work-politics-mirror/SYNC-LOG.md
 
@@ -91,7 +91,7 @@ Tasks:
 From repo root:
 
 ```bash
-git log --since="7 days ago" --name-only -- docs/skill-work/work-politics
+git log --since="7 days ago" --name-only -- docs/archive/skill-work-legacy/work-politics
 ```
 
 Review candidates manually before mirroring.

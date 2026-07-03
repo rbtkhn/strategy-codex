@@ -10,7 +10,7 @@ Use this before any live Printing Press `scrape-creators` run enters Strategy-Co
 - Comments, replies, DMs, and social graph data are excluded.
 - Tool version, command shape, source URL, fetched date, and output paths are recorded in a receipt.
 - Transcript output is labeled WORK-only and is not treated as Record truth.
-- Strong claims downstream are corroborated per `docs/skill-work/work-strategy/brief-source-registry.md`.
+- Strong claims downstream are corroborated per `docs/archive/skill-work-legacy/work-strategy/brief-source-registry.md`.
 
 ## Reject
 

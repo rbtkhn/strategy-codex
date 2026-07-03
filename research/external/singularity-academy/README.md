@@ -29,7 +29,7 @@ Normal flow:
    The script enforces validation locally and uses `jsonschema` when available.
 3. Optionally emit:
    - an academy brief under `briefs/`
-   - an offer memo under `docs/skill-work/work-business/singularity-academy-research-memos/`
+   - an offer memo under `docs/archive/skill-work-legacy/work-business/singularity-academy-research-memos/`
    - a derived self-proposal draft only when a durable self-facing claim truly exists
 4. Curate any durable workshop or work-business reuse explicitly elsewhere.
 

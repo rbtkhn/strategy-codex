@@ -8,7 +8,7 @@
 
 **Ingested:** 2026-04-10 (operator paste).
 
-**Scope:** [work-strategy](../../../../docs/skill-work/work-strategy/README.md) upstream — monologue citing **Financial Times**, **Der Spiegel**, **Daily Telegraph**, **Iranian** text, **Russian** spokespeople, battlefield **commentary**. **Not** companion Record. Verify **prices**, **military**, and **diplomatic** claims against primaries before ship-facing copy.
+**Scope:** [work-strategy](../../../../docs/archive/skill-work-legacy/work-strategy/README.md) upstream — monologue citing **Financial Times**, **Der Spiegel**, **Daily Telegraph**, **Iranian** text, **Russian** spokespeople, battlefield **commentary**. **Not** companion Record. Verify **prices**, **military**, and **diplomatic** claims against primaries before ship-facing copy.
 
 ---
 

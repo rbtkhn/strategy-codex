@@ -12,7 +12,7 @@
 |------|------|
 | **[INDEX.md](INDEX.md)** | Master table — one row per ingested appearance (or per file if one file = one episode). |
 | **`transcripts/*.md`** | Default location for full transcript + Perceiver summary (existing convention). |
-| **`analysts/<slug>/`** (optional) | Per-analyst add-ons: `RECURRING-MOVES.md`, `VERIFY.md`, links to triangulation stubs under `docs/skill-work/work-strategy/`. **No requirement** to create this until an analyst is high-volume. |
+| **`analysts/<slug>/`** (optional) | Per-analyst add-ons: `RECURRING-MOVES.md`, `VERIFY.md`, links to triangulation stubs under `docs/archive/skill-work-legacy/work-strategy/`. **No requirement** to create this until an analyst is high-volume. |
 
 **`<slug>`** — lowercase kebab-case, stable over time: `theodore-postol`, `pape`, `mercouris`.
 
@@ -35,6 +35,6 @@ A meta-skill (e.g. analyst-ingest) can point here: **INDEX** for discovery, **tr
 
 ## See also
 
-- [work-strategy README](../../../../docs/skill-work/work-strategy/README.md)
-- [current-events-analysis.md](../../../../docs/skill-work/work-strategy/current-events-analysis.md)
+- [work-strategy README](../../../../docs/archive/skill-work-legacy/work-strategy/README.md)
+- [current-events-analysis.md](../../../../docs/archive/skill-work-legacy/work-strategy/current-events-analysis.md)
 - [transcripts README](../transcripts/README.md)

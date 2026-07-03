@@ -3,7 +3,7 @@ from repo_io import ARTIFACTS_DIR
 """Strategy run wrapper — start / inspect / resume / complete (non-authoritative).
 
 Derived operational state; does not mutate canonical strategy notebook Markdown.
-See docs/run-contract.md, docs/skill-work/work-strategy/STRATEGY-RUN-OPERATOR.md
+See docs/run-contract.md, docs/archive/skill-work-legacy/work-strategy/STRATEGY-RUN-OPERATOR.md
 """
 
 from __future__ import annotations

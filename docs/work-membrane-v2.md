@@ -196,7 +196,7 @@ Practical rule:
 | `statecraft/bridges/*.md` | `governed adjacent` |
 | `statecraft/synthesis/METHOD.md`, audit rubric, benchmark manifest | `governed adjacent` |
 | `singularity/notes/*.md`, `singularity/essays/*.md`, architecture/protocol doctrine | `governed adjacent` |
-| `docs/skill-work/work-*` | `instrumental work` |
+| `docs/archive/skill-work-legacy/work-*` | `instrumental work` |
 | `work-*.md` instance work contexts | `instrumental work` |
 | `runtime/artifacts/*`, runtime payloads, generated indexes, skill cards | `runtime / derived` |
 | `runtime/runtime-complements/*` | `external complements` |

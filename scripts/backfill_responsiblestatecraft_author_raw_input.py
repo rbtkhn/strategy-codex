@@ -29,7 +29,7 @@ from urllib.parse import urljoin, urlparse
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_RAW_ROOT = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook/raw-input"
+    REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/raw-input"
 )
 DEFAULT_AUTHOR_URL = "https://responsiblestatecraft.org/author/tparsi/"
 USER_AGENT = (

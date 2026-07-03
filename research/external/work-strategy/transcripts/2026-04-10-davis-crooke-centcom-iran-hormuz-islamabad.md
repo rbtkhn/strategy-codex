@@ -10,7 +10,7 @@
 
 **Participants:** **Daniel Davis** (host); **Alastair Crooke** (guest — **Conflicts Forum** / former diplomat).
 
-**Scope:** [work-strategy](../../../../docs/skill-work/work-strategy/README.md) upstream — interview + cited secondaries (**WSJ**, **Hebrew** press, **Foreign Minister** lines on-screen). **Not** companion Record. **Verify** all numbers, battle claims, and quotes before ship-facing copy.
+**Scope:** [work-strategy](../../../../docs/archive/skill-work-legacy/work-strategy/README.md) upstream — interview + cited secondaries (**WSJ**, **Hebrew** press, **Foreign Minister** lines on-screen). **Not** companion Record. **Verify** all numbers, battle claims, and quotes before ship-facing copy.
 
 ---
 

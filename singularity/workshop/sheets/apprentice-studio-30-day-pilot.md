@@ -122,7 +122,7 @@ Strong evidence:
 
 Primary companion docs for execution:
 
-- [Grace Gems apprentice task pack](../../../docs/skill-work/work-business/grace-gems/apprentice-studio-task-pack.md)
+- [Grace Gems apprentice task pack](../../../docs/archive/skill-work-legacy/work-business/grace-gems/apprentice-studio-task-pack.md)
 - [Apprentice Studio pilot ops](../../work-cici/apprentice-studio-pilot-ops.md)
 - [cici-ai Community Dashboard](../../work-cici/cici-ai-community-dashboard.md)
 - [cici-ai First Task Proof Packet](../../work-cici/cici-ai-first-task-proof-packet.md)

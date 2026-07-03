@@ -37,7 +37,7 @@ flowchart TD
 - **Regeneration infrastructure** refreshes derived views; it does not write notebook truth.
 - **Rebuild-health** is observability, not a writing surface.
 
-See [interface-artifacts README](../docs/skill-work/work-dev/interface-artifacts/README.md).
+See [interface-artifacts README](../docs/archive/skill-work-legacy/work-dev/interface-artifacts/README.md).
 
 ## Continuity vs statecraft handoff
 

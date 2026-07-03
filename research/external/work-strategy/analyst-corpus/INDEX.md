@@ -16,7 +16,7 @@
 | `topics` | no | Semicolon-separated tags: `iran; nuclear; bmd; ukraine`. |
 | `digest_one_line` | no | Single-line thesis for search skimming. |
 | `verify_focus` | no | What to check before ship-facing copy (comma-separated hints). |
-| `notes_path` | no | Optional `analysts/<slug>/…` or `docs/skill-work/...` stub. |
+| `notes_path` | no | Optional `analysts/<slug>/…` or `docs/archive/skill-work-legacy/...` stub. |
 
 ---
 

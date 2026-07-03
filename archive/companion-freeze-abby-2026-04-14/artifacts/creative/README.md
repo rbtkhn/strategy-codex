@@ -1,6 +1,6 @@
 # Creative artifacts (operator)
 
-Exports and working files from the [creative pipeline](../../../../docs/skill-work/work-dev/creative-pipeline.md): UI mocks, Remotion projects, reference frames, portfolio bundles, etc.
+Exports and working files from the [creative pipeline](../../../../docs/archive/skill-work-legacy/work-dev/creative-pipeline.md): UI mocks, Remotion projects, reference frames, portfolio bundles, etc.
 
 **Not** canonical EVIDENCE. Durable activity and gated merges still live in [`self-archive.md`](../../self-archive.md) per [canonical-paths.md](../../../../docs/canonical-paths.md). Do not use `self-archive/placeholders/evidence/` as a parallel evidence tree.
 

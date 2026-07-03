@@ -11,7 +11,7 @@ from scripts.coffee_lane_next_hints import (
 )
 
 def test_next_work_dev_finds_first_open_item(tmp_path: Path) -> None:
-    ws = tmp_path / "docs/skill-work/work-dev"
+    ws = tmp_path / "docs/archive/skill-work-legacy/work-dev"
     ws.mkdir(parents=True)
     (ws / "workspace.md").write_text(
         """# workspace
@@ -29,7 +29,7 @@ def test_next_work_dev_finds_first_open_item(tmp_path: Path) -> None:
     assert "#2" in line or "(#2)" in line
 
 def test_next_work_dev_all_struck(tmp_path: Path) -> None:
-    ws = tmp_path / "docs/skill-work/work-dev"
+    ws = tmp_path / "docs/archive/skill-work-legacy/work-dev"
     ws.mkdir(parents=True)
     (ws / "workspace.md").write_text(
         """## Next actions
@@ -85,7 +85,7 @@ def test_next_academy_singularity_falls_back_to_workshop_readme(tmp_path: Path) 
     assert "singularity/workshop/README.md" in line
 
 def test_format_lane_next_hints_two_lines(tmp_path: Path) -> None:
-    ws = tmp_path / "docs/skill-work/work-dev"
+    ws = tmp_path / "docs/archive/skill-work-legacy/work-dev"
     ws.mkdir(parents=True)
     (ws / "workspace.md").write_text("## Next actions\n\n1. Alpha\n", encoding="utf-8")
     sdir = tmp_path / "singularity/workshop/sheets"

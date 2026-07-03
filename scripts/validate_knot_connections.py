@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate docs/skill-work/work-strategy/strategy-notebook/knot-connections.yaml.
+"""Validate docs/archive/skill-work-legacy/work-strategy/strategy-notebook/knot-connections.yaml.
 
 Checks: schema keys, paths exist on disk, both endpoints present in
 knot-index.yaml, relation is allowed, reason is non-empty, no duplicate
@@ -17,12 +17,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 DEFAULT_CONNECTIONS = (
     REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook/knot-connections.yaml"
+    / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/knot-connections.yaml"
 )
 
 DEFAULT_INDEX = (
     REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook/knot-index.yaml"
+    / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/knot-index.yaml"
 )
 
 ALLOWED_RELATIONS = frozenset(

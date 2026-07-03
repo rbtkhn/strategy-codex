@@ -1,6 +1,6 @@
 """Append-only JSONL receipts for strategy-notebook script runs.
 
-See docs/skill-work/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-TRACE-CONTRACT.md
+See docs/archive/skill-work-legacy/work-strategy/strategy-notebook/STRATEGY-NOTEBOOK-TRACE-CONTRACT.md
 """
 
 from __future__ import annotations

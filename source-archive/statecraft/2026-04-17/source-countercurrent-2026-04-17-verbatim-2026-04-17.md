@@ -3,7 +3,7 @@ ingest_date: 2026-04-17
 pub_date: 2026-04-17
 kind: verbatim-sidecar
 source_form: post
-source_path: docs/skill-work/work-strategy/strategy-notebook/source-countercurrent-2026-04-17-verbatim-2026-04-17.md
+source_path: docs/archive/skill-work-legacy/work-strategy/strategy-notebook/source-countercurrent-2026-04-17-verbatim-2026-04-17.md
 ---
 # Verbatim — Robert Barnes on Larry Johnson *Countercurrent* (WORK)
 

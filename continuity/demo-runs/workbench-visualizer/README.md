@@ -36,7 +36,7 @@ Details: [GENERATED-FIXTURE.md](GENERATED-FIXTURE.md).
 Browsers may block `fetch()` when the page is opened as `file://`. Serve this directory, then open the HTML over HTTP:
 
 ```bash
-python3 -m http.server 8765 --directory docs/skill-work/work-strategy/strategy-notebook/demo-runs/workbench-visualizer
+python3 -m http.server 8765 --directory docs/archive/skill-work-legacy/work-strategy/strategy-notebook/demo-runs/workbench-visualizer
 ```
 
 Open:

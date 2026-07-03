@@ -19,11 +19,11 @@ Do not hand-edit counts. Large `source-archive/statecraft/YYYY-MM-DD/` captures 
 
 ## Derived session wrapper
 
-Optional: [STRATEGY-RUN-OPERATOR.md](../docs/skill-work/work-strategy/STRATEGY-RUN-OPERATOR.md) — `run_id` + `state.json` under `artifacts/`. Trace contract: [STRATEGY-NOTEBOOK-TRACE-CONTRACT.md](STRATEGY-NOTEBOOK-TRACE-CONTRACT.md).
+Optional: [STRATEGY-RUN-OPERATOR.md](../docs/archive/skill-work-legacy/work-strategy/STRATEGY-RUN-OPERATOR.md) — `run_id` + `state.json` under `artifacts/`. Trace contract: [STRATEGY-NOTEBOOK-TRACE-CONTRACT.md](STRATEGY-NOTEBOOK-TRACE-CONTRACT.md).
 
 ## Workbench visualizer (WORK-only)
 
-Static structure map: [demo-runs/workbench-visualizer/README.md](demo-runs/workbench-visualizer/README.md). Part of [work-dev Workbench](../docs/skill-work/work-dev/workbench/README.md).
+Static structure map: [demo-runs/workbench-visualizer/README.md](demo-runs/workbench-visualizer/README.md). Part of [work-dev Workbench](../docs/archive/skill-work-legacy/work-dev/workbench/README.md).
 
 ## Derived interface artifacts
 

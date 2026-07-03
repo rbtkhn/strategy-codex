@@ -67,7 +67,7 @@ These academy texts are **manual curated forks** from the strategy-codex civ-mem
 
 - source satellite: [docs/civilization-memory/](../../../docs/civilization-memory)
 - governed library entries: [self-library.md](../../../archive/grace-mar-instance/self-library.md) museum theology entries (archive)
-- theology notebook: [docs/skill-work/work-strategy/theology-notebook/README.md](../../../README.md) / `docs/skill-work/work-strategy/theology-notebook/`
+- theology notebook: [docs/archive/skill-work-legacy/work-strategy/theology-notebook/README.md](../../../README.md) / `docs/archive/skill-work-legacy/work-strategy/theology-notebook/`
 
 Do not assume automatic sync. Update academy copies deliberately when the source changes matter for study.
 

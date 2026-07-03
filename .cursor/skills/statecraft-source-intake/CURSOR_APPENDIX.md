@@ -8,7 +8,7 @@
   - `statecraft daily intake`
   - `statecraft daily intake / source-archive first`
 - Deprecated compatibility surfaces that must **not** receive new captures:
-  - [continuity/raw-input/README.md](../../../continuity/raw-input/README.md) — [RAW-INPUT-DEPRECATED.md](../../../docs/skill-work/work-strategy/RAW-INPUT-DEPRECATED.md)
+  - [continuity/raw-input/README.md](../../../continuity/raw-input/README.md) — [RAW-INPUT-DEPRECATED.md](../../../docs/archive/skill-work-legacy/work-strategy/RAW-INPUT-DEPRECATED.md)
   - [continuity/years/2026/raw-input](../../../continuity/years/2026/raw-input)
   - [continuity/years/2026/provenance](../../../continuity/years/2026/provenance)
 - Primary neighboring families this skill should check before writing:

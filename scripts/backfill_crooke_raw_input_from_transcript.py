@@ -102,7 +102,7 @@ def main() -> int:
     ap.add_argument(
         "--notebook-root",
         type=Path,
-        default=Path("docs/skill-work/work-strategy/strategy-notebook"),
+        default=Path("docs/archive/skill-work-legacy/work-strategy/strategy-notebook"),
         help="Strategy notebook root",
     )
     ap.add_argument(

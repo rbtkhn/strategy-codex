@@ -121,7 +121,7 @@ def build_fork_scores(user_id: str) -> list[tuple[float, str, str, str]]:
             float(sscore),
             "work_strategy",
             "WORK-strategy — daily brief, focus, Putin watch",
-            "docs/skill-work/work-strategy/ + generate_work_politics_daily_brief.py",
+            "docs/archive/skill-work-legacy/work-strategy/ + generate_work_politics_daily_brief.py",
         )
     )
 

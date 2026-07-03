@@ -31,7 +31,7 @@ from repo_io import DEFAULT_PROFILE_ID, profile_dir
 
 DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", DEFAULT_PROFILE_ID)
 
-TERRITORY_GLOB = "docs/skill-work/work-*/work-*-history.md"
+TERRITORY_GLOB = "docs/archive/skill-work-legacy/work-*/work-*-history.md"
 RECENCY_DAYS = 7
 
 # ── Snapshot capture ────────────────────────────────────────────────

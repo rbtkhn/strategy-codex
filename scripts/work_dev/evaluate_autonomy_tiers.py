@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Summarize shadow JSONL and emit stay_shadow | limited_expand | insufficient_data.
 
-Thresholds load from docs/skill-work/work-dev/autonomy/tier_thresholds.yaml (BUILD-AI-GAP-007).
+Thresholds load from docs/archive/skill-work-legacy/work-dev/autonomy/tier_thresholds.yaml (BUILD-AI-GAP-007).
 """
 
 from __future__ import annotations

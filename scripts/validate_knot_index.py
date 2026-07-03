@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate docs/skill-work/work-strategy/strategy-notebook/knot-index.yaml.
+"""Validate docs/archive/skill-work-legacy/work-strategy/strategy-notebook/knot-index.yaml.
 
 Checks: schema keys, unique paths, paths exist under repo root, basenames contain
 ``knot``, ISO dates, optional ``knot_label`` kebab-case, list types for
@@ -24,7 +24,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 DEFAULT_INDEX = (
     REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook/knot-index.yaml"
+    / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/knot-index.yaml"
 )
 
 # Lowercase kebab: segments of [a-z0-9]+ separated by single hyphens.
@@ -195,7 +195,7 @@ def days_md_link_warnings(data: Any, *, repo_root: Path) -> list[str]:
 
     notebook = (
         repo_root
-        / "docs/skill-work/work-strategy/strategy-notebook/chapters"
+        / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/chapters"
     )
 
     for i, row in enumerate(knots):

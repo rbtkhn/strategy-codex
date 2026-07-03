@@ -27,7 +27,7 @@ It is **not**:
 - arc motion (→ `*-arc.md`)
 - task routing (→ `*-routing.md`)
 - load-bearing synthesis (→ `statecraft/notes/`, daily, essays)
-- **`strategy-expert-<id>-mind.md`** as structured register SSOT — **compatibility quote bank only** ([VOICES-SUPERSEDE-MINDS.md](../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md))
+- **`strategy-expert-<id>-mind.md`** as structured register SSOT — **compatibility quote bank only** ([VOICES-SUPERSEDE-MINDS.md](../../docs/archive/skill-work-legacy/work-strategy/VOICES-SUPERSEDE-MINDS.md))
 
 ---
 
@@ -170,7 +170,7 @@ Optional footer when captures anchor the profile:
 - **Last reviewed** = month of last operator or assistant pass on compact table **and** detailed linguistic tables (when Tier A).
 - **Structured register SSOT** = profile `#linguistic-style-fingerprint-detailed` when Tier A; mind file = extended quote bank + role/contrast until rows migrate.
 - Do not merge wire-grade operational claims into voice fingerprint; keep those in failure modes or ingest notes.
-- **`tri-mind` choreography deprecated** — [TRI-MIND-DEPRECATED.md](../../docs/skill-work/work-strategy/TRI-MIND-DEPRECATED.md).
+- **`tri-mind` choreography deprecated** — [TRI-MIND-DEPRECATED.md](../../docs/archive/skill-work-legacy/work-strategy/TRI-MIND-DEPRECATED.md).
 
 ---
 

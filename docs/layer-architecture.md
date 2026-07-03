@@ -22,7 +22,7 @@ The instruction architecture splits into four layers. Later layers may narrow bu
 |-------|-------------------|-------|-----------------|
 | **1. Core Doctrine** | `AGENTS.md` | State separation, authority classes, promotion law, knowledge boundary, gated pipeline, terminology, permission boundaries | Always loaded |
 | **2. Instance Doctrine** | `instance-doctrine.md` | Operating modes, repo structure, file update protocol, success metrics, prompt architecture | Always loaded for the active instance |
-| **3. Lane Overlays** | `docs/skill-work/work-*/` | Per-lane focus, ledger, history, framing, background context | Loaded when the lane is active |
+| **3. Lane Overlays** | `docs/archive/skill-work-legacy/work-*/` | Per-lane focus, ledger, history, framing, background context | Loaded when the lane is active |
 | **4. Mode Overlays** | `.cursor/skills/*/SKILL.md` | Cadence rituals (coffee, dream, bridge, harvest, thanks), review passes, specialized workflows | Loaded when the mode is triggered |
 
 ---
@@ -49,8 +49,8 @@ Core Doctrine (always)
 | Merge script paths | Instance | `python scripts/process_approved_candidates.py --apply` |
 | Repository tree | Instance | `self.md`, `archive/grace-mar-instance/bot/prompt.py` |
 | Success metric commands | Instance | `python scripts/run_voice_benchmark.py` |
-| Lane-specific strategy | Lane | `docs/skill-work/work-politics/STRATEGY.md` |
-| Lane history log | Lane | `docs/skill-work/work-dev/work-dev-history.md` |
+| Lane-specific strategy | Lane | `docs/archive/skill-work-legacy/work-politics/STRATEGY.md` |
+| Lane history log | Lane | `docs/archive/skill-work-legacy/work-dev/work-dev-history.md` |
 | Cadence ritual steps | Mode | `.cursor/skills/coffee/SKILL.md` |
 | Bridge packet format | Mode | `.cursor/skills/bridge/SKILL.md` |
 
@@ -62,7 +62,7 @@ companion-self provides:
 - `AGENTS.md` â€” core doctrine (template version, near-identical across instances)
 - `platform/template/instance-doctrine.md` â€” scaffold with placeholder sections
 - `demo/instance-doctrine.md` â€” demo content
-- Lane overlay structure in `docs/skill-work/work-template/`
+- Lane overlay structure in `docs/archive/skill-work-legacy/work-template/`
 - Mode overlay structure in `.cursor/skills/`
 
 When `companion_factory.py` creates a new instance, it copies the template scaffold. The instance operator fills in instance-specific paths, scripts, and metrics.
@@ -74,5 +74,5 @@ When `companion_factory.py` creates a new instance, it copies the template scaff
 - [AGENTS.md](../AGENTS.md) â€” Core Doctrine (Layer 1)
 - [harness-architecture-map.md](harness-architecture-map.md) â€” Work membrane + execution routing hub (orthogonal to this instruction-load model)
 - [architectural-principles.md](architectural-principles.md) â€” Named design principles including this layer model
-- [docs/skill-work/work-template/MAPPING.md](skill-work/work-template/MAPPING.md) â€” Lane overlay mapping
+- [docs/archive/skill-work-legacy/work-template/MAPPING.md](skill-work/work-template/MAPPING.md) â€” Lane overlay mapping
 

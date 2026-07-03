@@ -14,8 +14,8 @@
 | Deliverable | Path |
 |-------------|------|
 | Staging surface | `self-moonshots.md` |
-| Template | [docs/skill-work/work-moonshots/moonshot-template.md](skill-work/work-moonshots/moonshot-template.md) |
-| Lane README | [docs/skill-work/work-moonshots/README.md](skill-work/work-moonshots/README.md) |
+| Template | [docs/archive/skill-work-legacy/work-moonshots/moonshot-template.md](skill-work/work-moonshots/moonshot-template.md) |
+| Lane README | [docs/archive/skill-work-legacy/work-moonshots/README.md](skill-work/work-moonshots/README.md) |
 
 **Out of v0.1:** Bot/CLI commands, data-ingestion connectors, HTML dashboards, â€œagent swarmâ€ automation.
 

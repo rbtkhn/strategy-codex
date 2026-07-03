@@ -14,21 +14,21 @@ REPO = Path(__file__).resolve().parent.parent
 
 # Order matters. Paths relative to REPO.
 BUNDLE_PARTS: list[tuple[str, Path]] = [
-    ("Handbook — operator summary (Xavier)", REPO / "docs/skill-work/work-politics/smm-xavier-handbook.md"),
-    ("SMM training — civics, voice, allies/adversaries, checklist", REPO / "docs/skill-work/work-politics/smm-training.md"),
-    ("Account spec — @usa_first_ky", REPO / "docs/skill-work/work-politics/account-x.md"),
-    ("Principal profile — Thomas Massie (KY-4)", REPO / "docs/skill-work/work-politics/principal-profile.md"),
-    ("Principal profile — Ro Khanna (CA-17, demo context)", REPO / "docs/skill-work/work-politics/khanna-principal-profile.md"),
-    ("Opposition brief — Gallrein, Trump/MAGA", REPO / "docs/skill-work/work-politics/opposition-brief.md"),
-    ("Massie KY-4 — operator checklist (doctrine, brief template, monitoring)", REPO / "docs/skill-work/work-politics/clients/massie-ky4-operator-checklist.md"),
-    ("Massie — issue asymmetry map (primary + general)", REPO / "docs/skill-work/work-politics/clients/massie-issue-asymmetry.md"),
-    ("SMM onboarding curriculum — modules M0–M5", REPO / "docs/skill-work/work-politics/smm-onboarding-curriculum.md"),
-    ("SMM — Day 1 checklist", REPO / "docs/skill-work/work-politics/smm-day1-checklist.md"),
-    ("SMM — job description & compensation", REPO / "docs/skill-work/work-politics/smm-job-description.md"),
-    ("SMM — access checklist (companion)", REPO / "docs/skill-work/work-politics/smm-access-checklist.md"),
-    ("Content queue — @usa_first_ky", REPO / "docs/skill-work/work-politics/content-queue.md"),
-    ("Calendar — KY-4 2026", REPO / "docs/skill-work/work-politics/calendar-2026.md"),
-    ("Iran / foreign policy — Massie context", REPO / "docs/skill-work/work-politics/iran-foreign-policy-brief.md"),
+    ("Handbook — operator summary (Xavier)", REPO / "docs/archive/skill-work-legacy/work-politics/smm-xavier-handbook.md"),
+    ("SMM training — civics, voice, allies/adversaries, checklist", REPO / "docs/archive/skill-work-legacy/work-politics/smm-training.md"),
+    ("Account spec — @usa_first_ky", REPO / "docs/archive/skill-work-legacy/work-politics/account-x.md"),
+    ("Principal profile — Thomas Massie (KY-4)", REPO / "docs/archive/skill-work-legacy/work-politics/principal-profile.md"),
+    ("Principal profile — Ro Khanna (CA-17, demo context)", REPO / "docs/archive/skill-work-legacy/work-politics/khanna-principal-profile.md"),
+    ("Opposition brief — Gallrein, Trump/MAGA", REPO / "docs/archive/skill-work-legacy/work-politics/opposition-brief.md"),
+    ("Massie KY-4 — operator checklist (doctrine, brief template, monitoring)", REPO / "docs/archive/skill-work-legacy/work-politics/clients/massie-ky4-operator-checklist.md"),
+    ("Massie — issue asymmetry map (primary + general)", REPO / "docs/archive/skill-work-legacy/work-politics/clients/massie-issue-asymmetry.md"),
+    ("SMM onboarding curriculum — modules M0–M5", REPO / "docs/archive/skill-work-legacy/work-politics/smm-onboarding-curriculum.md"),
+    ("SMM — Day 1 checklist", REPO / "docs/archive/skill-work-legacy/work-politics/smm-day1-checklist.md"),
+    ("SMM — job description & compensation", REPO / "docs/archive/skill-work-legacy/work-politics/smm-job-description.md"),
+    ("SMM — access checklist (companion)", REPO / "docs/archive/skill-work-legacy/work-politics/smm-access-checklist.md"),
+    ("Content queue — @usa_first_ky", REPO / "docs/archive/skill-work-legacy/work-politics/content-queue.md"),
+    ("Calendar — KY-4 2026", REPO / "docs/archive/skill-work-legacy/work-politics/calendar-2026.md"),
+    ("Iran / foreign policy — Massie context", REPO / "docs/archive/skill-work-legacy/work-politics/iran-foreign-policy-brief.md"),
     ("Work-politics internal dashboard (/pol)", REPO / "docs/pol-dashboard.md"),
     ("Externals — Day 1 quickstart", REPO / "docs/externals/massie/smm-training/day-1-quickstart.md"),
     ("Externals — Week 1 ramp", REPO / "docs/externals/massie/smm-training/week-1-ramp-plan.md"),
@@ -37,8 +37,8 @@ BUNDLE_PARTS: list[tuple[str, Path]] = [
     ("Externals — KPI scorecard", REPO / "docs/externals/massie/smm-training/kpi-scorecard.md"),
     ("Externals — Content playbook", REPO / "docs/externals/massie/smm-training/content-playbook.md"),
     ("Externals — Templates", REPO / "docs/externals/massie/smm-training/templates.md"),
-    ("High-stakes messaging — guardrail stress-test", REPO / "docs/skill-work/work-politics/america-first-ky/guardrail-stress-test.md"),
-    ("High-stakes messaging — stress-test brief template", REPO / "docs/skill-work/work-politics/america-first-ky/stress-test-brief-template.md"),
+    ("High-stakes messaging — guardrail stress-test", REPO / "docs/archive/skill-work-legacy/work-politics/america-first-ky/guardrail-stress-test.md"),
+    ("High-stakes messaging — stress-test brief template", REPO / "docs/archive/skill-work-legacy/work-politics/america-first-ky/stress-test-brief-template.md"),
 ]
 
 def strip_pdf_export_section(text: str) -> str:
@@ -75,7 +75,7 @@ def demote_headings(text: str) -> str:
     return "\n".join(out_lines)
 
 def main() -> int:
-    out_path = REPO / "docs/skill-work/work-politics/smm-xavier-handbook-bundle.md"
+    out_path = REPO / "docs/archive/skill-work-legacy/work-politics/smm-xavier-handbook-bundle.md"
     mission_path = REPO / "docs/externals/massie/mission-short.md"
     if not mission_path.exists():
         print(f"Missing {mission_path}", file=sys.stderr)

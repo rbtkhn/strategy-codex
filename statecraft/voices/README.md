@@ -132,13 +132,13 @@ When the real question is host-law rather than speaker identity, open [statecraf
 
 ## Speaker profile law
 
-**Voices supersede minds:** [VOICES-SUPERSEDE-MINDS.md](../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md) — profile SSOT; mind files compatibility-only during migration.
+**Voices supersede minds:** [VOICES-SUPERSEDE-MINDS.md](../../docs/archive/skill-work-legacy/work-strategy/VOICES-SUPERSEDE-MINDS.md) — profile SSOT; mind files compatibility-only during migration.
 
 A **speaker profile** (`<speaker>-profile.md`) is the identity-and-voice hub: expert_id, role, pairing tags, compact voice tier, **structured linguistic style fingerprint (detailed when Tier A)**, convergence/tension stubs, and links — not transcript provenance, arc motion, or load-bearing synthesis.
 
 **Shape contract:** [voice-profile-template.md](voice-profile-template.md) — required sections, Tier B/A linguistic law, seed vs mature tiers, migration checklist. Upstream minimal scaffold: [strategy-codex-template-profile.md](../../continuity/strategy-codex-template-profile.md).
 
-**Linguistic register SSOT:** When Tier **A**, agents read `#linguistic-style-fingerprint-detailed` in the profile first. **`strategy-expert-<id>-mind.md`** is **compatibility only** during migration — see [VOICES-SUPERSEDE-MINDS.md](../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md).
+**Linguistic register SSOT:** When Tier **A**, agents read `#linguistic-style-fingerprint-detailed` in the profile first. **`strategy-expert-<id>-mind.md`** is **compatibility only** during migration — see [VOICES-SUPERSEDE-MINDS.md](../../docs/archive/skill-work-legacy/work-strategy/VOICES-SUPERSEDE-MINDS.md).
 
 Canonical placement:
 

@@ -115,7 +115,7 @@ Header fields: `blocking_count`, `warning_count`, `status`, `categories[]`.
 | `../../...`, Windows absolute paths under `dev` | repo-relative path |
 | `continuity/years/.../provenance/` | `source-archive/statecraft/YYYY-MM-DD/` |
 | `strategy-notebook/` docs paths | `continuity/` or [STRATEGY-NOTEBOOK-DEPRECATED.md](../skill-work/work-strategy/STRATEGY-NOTEBOOK-DEPRECATED.md) |
-| `../../AGENTS.md` from `docs/skill-work/**` | correct depth to repo root `AGENTS.md` |
+| `../../AGENTS.md` from `docs/archive/skill-work-legacy/**` | correct depth to repo root `AGENTS.md` |
 | Live workflow into Record without framing | `archive/grace-mar-instance/...` + **fork revive only** |
 
 ---

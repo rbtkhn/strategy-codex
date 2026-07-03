@@ -121,12 +121,12 @@ def main() -> int:
             )
         if dom == "work-politics":
             lines.append(
-                "- Work-politics reference: **`docs/skill-work/work-politics/LANE-CI.md`** "
+                "- Work-politics reference: **`docs/archive/skill-work-legacy/work-politics/LANE-CI.md`** "
                 "(PR labels, `territory: work-politics`, `operator:wap:*` channel_key, paste helpers)."
             )
         if dom == "work-strategy":
             lines.append(
-                "- Work-strategy reference: **`docs/skill-work/work-strategy/LANE-CI.md`** "
+                "- Work-strategy reference: **`docs/archive/skill-work-legacy/work-strategy/LANE-CI.md`** "
                 "(PR labels; gate paste defaults: `territory: work-politics` + `channel_key: operator:work-strategy`)."
             )
     elif dom == "mixed":

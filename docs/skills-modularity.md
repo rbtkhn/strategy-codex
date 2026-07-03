@@ -48,7 +48,7 @@ The **formal minimal pair** for Voice linguistics and core capability indexing r
 
 | Surface | Standard label | Location | Scope |
 |---------|----------------|----------|-------|
-| Work territory | `work-territory` | `docs/skill-work/work-*/` | Reusable execution domain, prompts, doctrine, and operator workflow |
+| Work territory | `work-territory` | `docs/archive/skill-work-legacy/work-*/` | Reusable execution domain, prompts, doctrine, and operator workflow |
 | Instance work context | `work-context` | `work-*.md` | Live project state, goals, planning, and delivery context |
 
 **Historical compatibility:** `BUILD` remains a legacy compatibility term in older docs, evidence references, and analyses. `CREATE-*` and `ACT-*` remain valid evidence IDs and are not renamed by this refactor.
@@ -136,7 +136,7 @@ Input (conversation, artifact, "we did X")
 
 - **Record** = SELF + SKILLS + EVIDENCE (and related pipeline files). The Record belongs to the companion.
 - **Voice** = f(Record). Implemented by bot (e.g. Telegram, WeChat) + prompt + retrieval. Linguistic output = f(skill-write).
-- **Work layer** = designated integration point for external APIs, agent loops, planning systems, delivery tooling, and **`docs/skill-work/**` territories**. It is adjacent to the Record, not a self-skill.
+- **Work layer** = designated integration point for external APIs, agent loops, planning systems, delivery tooling, and **`docs/archive/skill-work-legacy/**` territories**. It is adjacent to the Record, not a self-skill.
 - **work execution layer** = operator + tooling + AI assistant that **executes** work-layer and skill-work tasks (draft, mirror, template diff). Same **stage-only** rule for Record: no direct merge into SELF / EVIDENCE / prompt without companion approval.
 
 **Discipline as a capability surface.** The companion's value in work execution includes superhuman consistency â€” maintaining runbooks, mirrors, and protocol adherence without fatigue or emotional drift. The transcript evidence: bots on Polymarket won not with better strategies but with flawless execution (no fatigue at 3 a.m., no oversized positions on confident bets, no missed trades during lunch). When auditing skill-work patterns, track not just what the system can do but how reliably it does it. Execution discipline gaps are a primary leverage point.

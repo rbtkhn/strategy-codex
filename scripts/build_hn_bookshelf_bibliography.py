@@ -1,7 +1,7 @@
 ﻿#!/usr/bin/env python3
 """Generate Chicago-style (author–date, simplified) bibliography Markdown from bookshelf-catalog.yaml.
 
-Source of truth: docs/skill-work/work-strategy/history-notebook/research/bookshelf-catalog.yaml
+Source of truth: docs/archive/skill-work-legacy/work-strategy/history-notebook/research/bookshelf-catalog.yaml
 Outputs: research/bibliography/REFERENCES-shelf-by-era.md, REFERENCES-shelf-by-shelf-id.md
 
 Author strings are emitted as stored in the catalog (usually First Last). For formal publication,

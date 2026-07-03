@@ -21,7 +21,7 @@ from scripts.fetch_strategy_raw_input import (
 REPO_ROOT = Path(__file__).resolve().parent.parent
 FETCH_SOURCES = (
     REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook/raw-input/fetch-sources.json"
+    / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/raw-input/fetch-sources.json"
 )
 
 _SUBSTACK_RSS_ONE_ITEM = b"""<?xml version="1.0"?>
@@ -138,7 +138,7 @@ def test_build_rss_item_document_includes_optional_thread_in_yaml() -> None:
 def test_load_config_example_exists() -> None:
     p = (
         Path(__file__).resolve().parent.parent
-        / "docs/skill-work/work-strategy/strategy-notebook/raw-input/fetch-sources.example.json"
+        / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/raw-input/fetch-sources.example.json"
     )
     assert p.is_file()
 

@@ -111,7 +111,7 @@ def test_build_dashboard_autonomy_with_shadow_log(tmp_path: Path) -> None:
     aut = root / "docs" / "skill-work" / "work-dev" / "autonomy"
     aut.mkdir(parents=True)
     (aut / "tier_thresholds.yaml").write_text(
-        (REPO_ROOT / "docs/skill-work/work-dev/autonomy/tier_thresholds.yaml").read_text(
+        (REPO_ROOT / "docs/archive/skill-work-legacy/work-dev/autonomy/tier_thresholds.yaml").read_text(
             encoding="utf-8"
         ),
         encoding="utf-8",

@@ -21,7 +21,7 @@ from urllib.parse import parse_qs, urlparse
 from youtube_transcripts.ytdlp_adapter import YtDlpError, fetch_video_metadata_subprocess
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-NOTEBOOK_ROOT = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK_ROOT = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 DEFAULT_PROFILE = NOTEBOOK_ROOT / "experts" / "diesen" / "profile.md"
 
 WATCH_URL_RE = re.compile(r"https?://(?:www\.)?youtube\.com/watch\?v=[A-Za-z0-9_-]{6,}")

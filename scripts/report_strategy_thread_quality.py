@@ -45,7 +45,7 @@ from strategy_expert_corpus import (
 from strategy_expert_transcript import parse_transcript_file
 
 DEFAULT_NOTEBOOK_DIR = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+    REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 )
 DEFAULT_THREADS_INDEX = DEFAULT_NOTEBOOK_DIR / "strategy-commentator-threads.md"
 DEFAULT_INBOX = DEFAULT_NOTEBOOK_DIR / "daily-strategy-inbox.md"
@@ -442,9 +442,9 @@ def log_misses_from_report(report: QualityReport) -> int:
                 "--failure-class", "aggregation_failure",
                 "--notes", f"Transcript has {e.transcript_line_count} lines but machine layer is empty",
                 "--related-path",
-                f"docs/skill-work/work-strategy/strategy-notebook/experts/{e.expert_id}/thread.md",
+                f"docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/{e.expert_id}/thread.md",
                 "--related-path",
-                f"docs/skill-work/work-strategy/strategy-notebook/experts/{e.expert_id}/transcript.md",
+                f"docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/{e.expert_id}/transcript.md",
                 "--lane", "work-strategy",
                 "--recorded-by", "report_strategy_thread_quality",
             ]
@@ -463,7 +463,7 @@ def log_misses_from_report(report: QualityReport) -> int:
                 "--failure-class", "stale_ranking",
                 "--notes", f"No transcript content within lookback window; newest date: {e.newest_transcript_date or 'none'}",
                 "--related-path",
-                f"docs/skill-work/work-strategy/strategy-notebook/experts/{e.expert_id}/transcript.md",
+                f"docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/{e.expert_id}/transcript.md",
                 "--lane", "work-strategy",
                 "--recorded-by", "report_strategy_thread_quality",
             ]
@@ -481,7 +481,7 @@ def log_misses_from_report(report: QualityReport) -> int:
             "--query", f"batch-analysis thread:{bi.raw_tag}",
             "--failure-class", "vocabulary_mismatch",
             "--notes", bi.reason,
-            "--related-path", "docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md",
+            "--related-path", "continuity/daily-strategy-inbox.md",
             "--lane", "work-strategy",
             "--recorded-by", "report_strategy_thread_quality",
         ]

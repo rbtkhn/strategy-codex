@@ -24,4 +24,4 @@ This folder contains campaign-shareable documents with external-safe language.
 
 - This pack avoids internal system naming and internal operational paths.
 - Legislative references are included at a campaign-communication level for usability.
-- **Internal only (next-agent handoff):** full factorial spec + agent tasks: `docs/skill-work/work-politics/america-first-ky/AGENT-SESSION-BRIEF.md` (do not paste that path in public copy). Advisors use `guardrail-stress-test-advisor-one-pager.md` in this folder instead.
+- **Internal only (next-agent handoff):** full factorial spec + agent tasks: `docs/archive/skill-work-legacy/work-politics/america-first-ky/AGENT-SESSION-BRIEF.md` (do not paste that path in public copy). Advisors use `guardrail-stress-test-advisor-one-pager.md` in this folder instead.

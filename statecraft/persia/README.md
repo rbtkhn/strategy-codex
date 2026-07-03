@@ -129,7 +129,7 @@ India clarifies the metric. India may be stronger as a comprehensive power, but 
 
 ## Wire verification
 
-**News-verify:** Persia lane is **lane 2** of the five-lane CIV-STATE sweep — [WIRE-VERIFY-CIV-STATE-SOURCES.md § Persia](../../docs/skill-work/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md#persia-lane) (`fa` when wording load-bears). 48h companion: [daily-brief-iran-watch.md](../../docs/skill-work/work-strategy/daily-brief-iran-watch.md).
+**News-verify:** Persia lane is **lane 2** of the five-lane CIV-STATE sweep — [WIRE-VERIFY-CIV-STATE-SOURCES.md § Persia](../../docs/archive/skill-work-legacy/work-strategy/WIRE-VERIFY-CIV-STATE-SOURCES.md#persia-lane) (`fa` when wording load-bears). 48h companion: [daily-brief-iran-watch.md](../../docs/archive/skill-work-legacy/work-strategy/daily-brief-iran-watch.md).
 
 ## Drafting Prompts
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Validate docs/skill-work/work-strategy/strategy-notebook/strategy-expert-predictions.md:
+Validate docs/archive/skill-work-legacy/work-strategy/strategy-notebook/strategy-expert-predictions.md:
   - expert_id in the main roster table of strategy-commentator-threads.md (not other tables)
   - topic_slug in the numbered prediction-topic registry (+ EXTENDED_TOPIC_SLUGS)
   - pred_id rows: expert_id and topic_slug recognized

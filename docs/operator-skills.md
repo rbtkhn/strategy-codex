@@ -75,7 +75,7 @@ When **`gate review`** recommendations repeatedly mis-rank or duplicate-hint wro
 1. Start with `coffee` when opening a new work block or a new agent thread. Work-start `coffee` runs Step 1 (scripts, branch snapshot, lane context) and then the fixed A-D Coffee Hub Menu: **A Steward**, **B Engineer**, **C Statecraft**, **D Singularity**. Coffee **C** opens the civilizational-state lane chooser: America, China, Persia, or Russia. Conductor is standalone by `conductor` or master name, not a coffee hub letter. Use `coffee light` / `coffee minimal` for lighter repeat passes. Route commercial/write-shaped work by explicit `write`, `skill-write`, `work-business`, or named commercial request, not by Coffee D.
 2. When the day includes campaign work, brief prep, or X/content operations, run `python3 scripts/operator_work_politics_pulse.py -u grace-mar` (territory pulse ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â no dedicated skill).
 3. Use `politics-massie` when you want breaking-news hooks and draft tweets for the Massie shadow X account.
-4. Use `weekly-brief-run` for the actual work-politics brief cycle after checking source freshness. If the cycle covers **high-stakes** topics (war powers, ethics/insider, cartel-economy legal claims, border + civil liberties), complete **weekly brief ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§8** / `docs/skill-work/work-politics/america-first-ky/` stress-test before treating drafts as final.
+4. Use `weekly-brief-run` for the actual work-politics brief cycle after checking source freshness. If the cycle covers **high-stakes** topics (war powers, ethics/insider, cartel-economy legal claims, border + civil liberties), complete **weekly brief ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§8** / `docs/archive/skill-work-legacy/work-politics/america-first-ky/` stress-test before treating drafts as final.
 5. Use `gate-review-pass` when you want a queue review recommendation without taking action yet.
 6. End the day with **`coffee`** + **signing-off** intent: **`handoff-check`** (or `operator_coffee.py --mode closeout`) is **Step 1**; agent then shows the **same** menu as work-start (**A ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â Steward** alone = system pick). To resume mid-thread without the full `coffee` flow, use `handoff-check` alone per `../../../../../../../../../.cursor/skills/handoff-check/SKILL.md`.
 
@@ -106,7 +106,7 @@ Must answer:
 - What must be refreshed first?
 - Was a scaffold emitted or intentionally withheld?
 - What human review is still required before use?
-- If the brief touches high-stakes areas (see `weekly-brief-template.md` ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§8), has the operator been pointed at the factorial stress-test template and framework under `docs/skill-work/work-politics/america-first-ky/`?
+- If the brief touches high-stakes areas (see `weekly-brief-template.md` ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§8), has the operator been pointed at the factorial stress-test template and framework under `docs/archive/skill-work-legacy/work-politics/america-first-ky/`?
 
 ### `gate-review-pass`
 

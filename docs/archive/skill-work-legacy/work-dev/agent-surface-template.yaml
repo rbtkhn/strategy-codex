@@ -1,0 +1,68 @@
+# Agent surface evaluation — template
+#
+# Use when comparing agent products or new integration shells (see agentic-environment-principles.md).
+# Three axes from ecosystem framing: where it runs, who orchestrates, interface contract.
+# Plus Grace-Mar trust fields: Record authority, staging, gate.
+# Plus agentic safety fields: context boundary, permissions, receipts, revocation, pressure default.
+
+version: 1
+integration_name: ""
+evaluated_at: "" # optional ISO-8601 date
+
+# Which workload shape this integration matches (optional; leave blank if unknown).
+# coding_harness = IC/project tools + human judgment; dark_factory = spec→eval, minimal human mid-flight;
+# auto_research = optimize a metric; workflow_orchestration = multi-role handoffs at scale.
+agent_species: "" # coding_harness | dark_factory | auto_research | workflow_orchestration
+
+# Context boundary - agents do not inherit human screens, judgment, or private context.
+context:
+  human_context: "" # what the operator can see/do outside the agent
+  agent_context: "" # explicit files, prompts, tools, memory, and credentials available to the agent
+  withheld_context: "" # private/account-specific data, screens, or credentials intentionally unavailable
+
+# Axis 1 — Where compute and primary data live (privacy, security surface, ops burden)
+runtime:
+  placement: "" # local | cloud | hybrid
+  data_residency_notes: ""
+
+# Axis 2 — Who routes models / tools / sub-agents (cost, lock-in, quality trade-offs)
+orchestration:
+  who_decides: "" # self | vendor | hybrid
+  notes: ""
+
+# Axis 3 — How you drive it (habits, channels, assumptions about the user)
+interface:
+  channels: [] # e.g. [telegram, desktop, cli, web]
+  notes: ""
+
+# Permission scope - smallest useful surface, with explicit denied actions.
+permissions:
+  authority_class: "" # operator | agent_supervised | agent_autonomous | not_applicable
+  allowed_actions: []
+  denied_actions: []
+  delegation_allowed: false
+  blast_radius: "" # low | medium | high | boundary | unknown
+
+# Grace-Mar — identity and governance (companion sovereign Record; stage-only automation)
+grace_mar:
+  record_authority: companion # companion | not_applicable
+  staging_surface: "" # e.g. platform/integrations/openclaw_stage.py / HTTP /stage
+  merge_requires_companion_gate: true
+  continuity_contract: "" # e.g. session-continuity-contract.md paths or not_applicable
+  observability: "" # e.g. runtime/observability/*.jsonl or unknown
+
+# Audit and revocation - receipts first; stop path before persistent operation.
+audit:
+  receipt_surfaces: [] # e.g. [git history, pipeline-events.jsonl, compute-ledger.jsonl]
+  review_cadence: "" # per_run | daily | weekly | on_event | not_applicable
+
+revocation:
+  stop_path: "" # command, UI action, owner action, or not_applicable
+  owner: ""
+  target_shutdown_time: "" # e.g. <60s, same_session, manual
+
+pressure_default: "" # deny_and_escalate | read_only | operator_review | other
+
+decision:
+  fit_summary: "" # one paragraph
+  proceed: "" # yes | no | pilot

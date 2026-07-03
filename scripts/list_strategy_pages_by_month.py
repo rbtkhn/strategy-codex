@@ -35,7 +35,7 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from strategy_expert_corpus import CANONICAL_EXPERT_IDS  # noqa: E402
 from strategy_page_reader import PageBlock, discover_all_pages  # noqa: E402
 
-NOTEBOOK_DIR = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK_DIR = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 
 YM_RE = re.compile(r"^\d{4}-\d{2}$")
 # Signal body, with Chronicle as legacy fallback: from heading through next ### or EOF.

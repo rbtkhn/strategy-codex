@@ -16,12 +16,12 @@ def test_work_strategy_lane_payload():
     assert "current_objective" in p
     assert "relevant_source_paths" in p
     paths = p["relevant_source_paths"]
-    assert any("docs/skill-work/work-strategy/" in x for x in paths)
+    assert any("docs/archive/skill-work-legacy/work-strategy/" in x for x in paths)
     assert any("self-work.md" in x for x in paths)
 
     md = compress_active_lane.build_active_lane_markdown(p)
     assert "work-strategy" in md
-    assert "docs/skill-work/work-strategy" in md
+    assert "docs/archive/skill-work-legacy/work-strategy" in md
 
 def test_unknown_lane_errors():
     import compress_active_lane

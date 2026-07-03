@@ -7,7 +7,7 @@ scope_class: repo-governed
 ---
 # History notebook — Bookshelf writer lookup
 
-**non-authoritative;** not Record. **SSOT:** [bookshelf-catalog.yaml](../../../docs/skill-work/work-strategy/history-notebook/research/bookshelf-catalog.yaml) (Shelf rows) and [book-architecture.yaml](../../../docs/skill-work/work-strategy/history-notebook/book-architecture.yaml) (chapter ids and `file` paths).
+**non-authoritative;** not Record. **SSOT:** [bookshelf-catalog.yaml](../../../docs/archive/skill-work-legacy/work-strategy/history-notebook/research/bookshelf-catalog.yaml) (Shelf rows) and [book-architecture.yaml](../../../docs/archive/skill-work-legacy/work-strategy/history-notebook/book-architecture.yaml) (chapter ids and `file` paths).
 
 ## When to use
 
@@ -27,16 +27,16 @@ scope_class: repo-governed
 
 ## Artifacts (read)
 
-- [SHELF-ANCHORS-BY-CHAPTER.md](../../../docs/skill-work/work-strategy/history-notebook/research/SHELF-ANCHORS-BY-CHAPTER.md) — `hn-*` → Shelf list (generated).
-- [BOOKSHELF.md](../../../docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF.md) — collection rules.
+- [SHELF-ANCHORS-BY-CHAPTER.md](../../../docs/archive/skill-work-legacy/work-strategy/history-notebook/research/SHELF-ANCHORS-BY-CHAPTER.md) — `hn-*` → Shelf list (generated).
+- [BOOKSHELF.md](../../../docs/archive/skill-work-legacy/work-strategy/history-notebook/research/BOOKSHELF.md) — collection rules.
 
 ## Rules
 
-- `candidate_hn_chapters` is **planning** only; [book-architecture.yaml](../../../docs/skill-work/work-strategy/history-notebook/book-architecture.yaml) and chapter prose remain SSOT.
+- `candidate_hn_chapters` is **planning** only; [book-architecture.yaml](../../../docs/archive/skill-work-legacy/work-strategy/history-notebook/book-architecture.yaml) and chapter prose remain SSOT.
 - Do not merge catalog facts into the **Record** without the recursion-gate pipeline.
 
 ## Codex `days.md` — History resonance (optional)
 
 On **`strategy page compose`**, when a mechanism pattern applies, add under the day block:
 
-`### History resonance (optional)` — chapter id(s) (e.g. `hn-i-v1-04`) + one mechanism line + Links. **None** or **deferred** if no chapter applies. See [DEFAULT-PATH.md](../../../docs/skill-work/work-strategy/DEFAULT-PATH.md).
+`### History resonance (optional)` — chapter id(s) (e.g. `hn-i-v1-04`) + one mechanism line + Links. **None** or **deferred** if no chapter applies. See [DEFAULT-PATH.md](../../../docs/archive/skill-work-legacy/work-strategy/DEFAULT-PATH.md).

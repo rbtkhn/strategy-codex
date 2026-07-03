@@ -33,7 +33,7 @@ from strategy_expert_corpus import (  # noqa: E402
     month_thread_paths_by_month,
 )
 
-NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 
 RE_MONTH_H2 = re.compile(r"^##\s+(\d{4}-\d{2})\s*$")
 

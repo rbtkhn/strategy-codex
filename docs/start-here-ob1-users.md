@@ -14,7 +14,7 @@ Plain-language bridge for people who know **Open Brain (OB1)**-style systems. Pr
 | **Skills** (executable packs) | Two layers: **SKILLS** (Record capability in `self-skills.md`) vs **portable skills** (`skills/`). See [skills-explained.md](skills-explained.md). |
 | **Evidence / activity log** | **EVIDENCE** â€” canonical body on `self-archive.md` |
 | **Pending approvals / review queue** | **Approval Inbox** â€” user-facing name for pending candidates in [`recursion-gate.md`](../archive/grace-mar-instance/recursion-gate.md) (canonical file name: **recursion-gate**). **Boundary Review** (classification hints) is related but not the whole inbox; see [boundary-review-queue.md](boundary-review-queue.md). |
-| **Workflows / recipes** | `docs/skill-work/**`, scripts, bridges â€” [workflow-catalog.md](workflow-catalog.md) |
+| **Workflows / recipes** | `docs/archive/skill-work-legacy/**`, scripts, bridges â€” [workflow-catalog.md](workflow-catalog.md) |
 | **Imports / capture** | [imports-and-capture.md](imports-and-capture.md) |
 | **Dashboard** | [observability.md](observability.md), `runtime/observability/`, family hub / miniapp: [simple-user-interface.md](simple-user-interface.md) |
 

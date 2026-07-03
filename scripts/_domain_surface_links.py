@@ -42,10 +42,10 @@ def assert_domain_surface_links_rebased(content: str, output_file: Path | None =
     """Fail if template-relative links remain where they would be wrong for depth.
 
     Under repo-root ``work-*/``, ``../AGENTS.md`` matches ``os.path.relpath``; skip strict check.
-    Under ``docs/skill-work/work-*/``, template ``../`` links must be rewritten.
+    Under ``docs/archive/skill-work-legacy/work-*/``, template ``../`` links must be rewritten.
     """
     path_s = str(output_file.resolve()) if output_file is not None else ""
-    if "/docs/skill-work/" in path_s.replace("\\", "/"):
+    if "/docs/archive/skill-work-legacy/" in path_s.replace("\\", "/"):
         if f"]({_TEMPLATE_HREF_AGENTS})" in content:
             raise ValueError("unrebased AGENTS.md link (../AGENTS.md) still in content")
         if "](../" in content and "self.md)" in content:

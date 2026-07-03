@@ -19,7 +19,7 @@ Alexander Mercouris is the long-form diplomatic-and-narrative synthesis lane: es
 | **expert_id** | `mercouris` |
 | **Role** | Independent geopolitical analyst; co-host **The Duran** (with Alex Christoforou); long-form diplomatic and multipolar commentary. **Prior:** UK barrister (called 2006); regulatory history on file with UK Bar Standards Board (see **Failure modes** — primary only for professional-conduct facts). |
 | **Default grep tags** | `Mercouris`, `The Duran`, `multipolar`, mind cite in cold |
-| **Typical pairings** | × `mearsheimer`, × `diesen`, × `sachs`, × `marandi`, × Tri-Frame [minds/](../../../docs/skill-work/work-strategy/minds/README.md) |
+| **Typical pairings** | × `mearsheimer`, × `diesen`, × `sachs`, × `marandi`, × Tri-Frame [minds/](../../../docs/archive/skill-work-legacy/work-strategy/minds/README.md) |
 | **Notebook-use tags** | `orient`, `negotiate`, `narrate`, `historicize` |
 
 <a id="voice-fingerprint-compact"></a>
@@ -71,7 +71,7 @@ Promotion and refresh defaults: [voice-profile-template.md § Voice fingerprint 
 
 ## Legacy redirects (compatibility)
 
-[`strategy-expert-mercouris-mind.md`](../../../continuity/strategy-expert-mercouris-mind.md) · [CIV-MIND-MERCOURIS.md](../../../continuity/minds/CIV-MIND-MERCOURIS.md) → this profile. [VOICES-SUPERSEDE-MINDS.md](../../../docs/skill-work/work-strategy/VOICES-SUPERSEDE-MINDS.md)
+[`strategy-expert-mercouris-mind.md`](../../../continuity/strategy-expert-mercouris-mind.md) · [CIV-MIND-MERCOURIS.md](../../../continuity/minds/CIV-MIND-MERCOURIS.md) → this profile. [VOICES-SUPERSEDE-MINDS.md](../../../docs/archive/skill-work-legacy/work-strategy/VOICES-SUPERSEDE-MINDS.md)
 
 ## Convergence fingerprint
 
@@ -157,7 +157,7 @@ The block below **Rolling ingest** is replaced on each `strategy_thread.py` / `s
 
 | expert_id | Name | Role (one line) | Default grep tag | Typical `batch-analysis` pairings |
 |-----------|--------|-----------------|------------------|-----------------------------------|
-| `mercouris` | Alexander Mercouris | **Institutional / narrative** diplomatic read (Hormuz, Lebanon, Islamabad) | `Mercouris` or mind cite in cold | × `mearsheimer`, × `diesen`, × `sachs`, × `marandi`, × Tri-Frame [minds/](../../../docs/skill-work/work-strategy/minds/README.md) |
+| `mercouris` | Alexander Mercouris | **Institutional / narrative** diplomatic read (Hormuz, Lebanon, Islamabad) | `Mercouris` or mind cite in cold | × `mearsheimer`, × `diesen`, × `sachs`, × `marandi`, × Tri-Frame [minds/](../../../docs/archive/skill-work-legacy/work-strategy/minds/README.md) |
 
 ### Quantitative metrics (illustrative — from index)
 

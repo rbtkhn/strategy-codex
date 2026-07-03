@@ -32,7 +32,7 @@ from strategy_expert_transcript import parse_transcript_file
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 DEFAULT_NOTEBOOK = (
-    REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+    REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 )
 DEFAULT_RAW_ROOT = DEFAULT_NOTEBOOK / "raw-input"
 

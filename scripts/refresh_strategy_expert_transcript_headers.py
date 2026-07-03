@@ -22,7 +22,7 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from strategy_expert_transcript import TRIAGE_MARKER, canonical_transcript_header
 
-NOTEBOOK = REPO_ROOT / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK = REPO_ROOT / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 RE_TRANSCRIPT = re.compile(r"^strategy-expert-(.+)-transcript\.md$")
 
 def main() -> int:

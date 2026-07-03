@@ -8,7 +8,7 @@
 
 **Ingested:** 2026-03-30 (operator paste).
 
-**Scope:** [work-strategy](../../../../docs/skill-work/work-strategy/README.md) upstream — monologue + cited secondary sources (**Military Watch**, **Haaretz**, **Global Times**, **G7**, **Bloomberg**, **Daily Telegraph**). **Not** companion Record. Verify all **battle** and **intercept** claims independently.
+**Scope:** [work-strategy](../../../../docs/archive/skill-work-legacy/work-strategy/README.md) upstream — monologue + cited secondary sources (**Military Watch**, **Haaretz**, **Global Times**, **G7**, **Bloomberg**, **Daily Telegraph**). **Not** companion Record. Verify all **battle** and **intercept** claims independently.
 
 ---
 

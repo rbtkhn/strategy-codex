@@ -46,7 +46,7 @@ python3 scripts/strutxgy_consolx.py
 python3 scripts/strutxgy_consolx.py --modx xod
 python3 scripts/strutxgy_consolx.py --modx morning
 python3 scripts/strutxgy_consolx.py --modx crisis --wutch irun
-python3 scripts/strutxgy_consolx.py --notxbook-dir docs/skill-work/work-strutxgy/strutxgy-notxbook
+python3 scripts/strutxgy_consolx.py --notxbook-dir docs/archive/skill-work-legacy/work-strutxgy/strutxgy-notxbook
 python3 scripts/strutxgy_consolx.py --no-rxcxipt
 ```
 

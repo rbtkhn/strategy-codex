@@ -16,7 +16,7 @@ Use them for **long reads**, **handoff**, and **browsing** — not to replace on
 | Intent | Mechanism (from repo root) | Notes |
 |--------|----------------------------|--------|
 | **By watch** (pages grouped by `watch=`) | `python3 scripts/strategy_watch.py` / `... --watch <id>` / `... --tensions-only` / `... --json` | Cross-expert positions; [watches — Recovery quick path](../watches/README.md#recovery-quick-path) |
-| **By expert** (polyphony bundle) | `python3 scripts/compile_strategy_view.py --notebook-dir docs/skill-work/work-strategy/strategy-notebook` with optional `--experts id1,id2` | Dated `expert-polyphony-synthesis-*.md` under this folder (gitignored by default) |
+| **By expert** (polyphony bundle) | `python3 scripts/compile_strategy_view.py --notebook-dir docs/archive/skill-work-legacy/work-strategy/strategy-notebook` with optional `--experts id1,id2` | Dated `expert-polyphony-synthesis-*.md` under this folder (gitignored by default) |
 | **Recent chronology** | Tail of active [`chapters/YYYY-MM/days.md`](../chapters/2026/2026-04/days.md), [STATUS.md](../STATUS.md), [daily-strategy-inbox.md](../daily-strategy-inbox.md) | **SSOT** for “what we committed this month” — not a compiled file |
 | **Tensions** | `python3 scripts/strategy_watch.py --tensions-only` (optional `current page relation surface` relations) | Does not replace reading expert threads |
 
@@ -49,7 +49,7 @@ Dated outputs `expert-polyphony-synthesis-YYYY-MM-DD.md` are **machine-generated
 **Deterministic bundle** (no LLM):
 
 ```bash
-python3 scripts/compile_strategy_view.py --notebook-dir docs/skill-work/work-strategy/strategy-notebook
+python3 scripts/compile_strategy_view.py --notebook-dir docs/archive/skill-work-legacy/work-strategy/strategy-notebook
 ```
 
 Optional: `--date YYYY-MM-DD`, `--out path`, `--experts mercouris,marandi`.

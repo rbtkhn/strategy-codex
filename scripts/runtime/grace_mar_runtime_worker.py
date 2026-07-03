@@ -47,7 +47,7 @@ from worker_router import (  # noqa: E402
     routing_receipt_payload,
 )
 
-DEFAULT_SCOPE = "docs/skill-work/work-strategy/strategy-notebook"
+DEFAULT_SCOPE = "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 DEFAULT_MAX_FILES = 400
 DEFAULT_MAX_CHARS = 200_000
 

@@ -49,7 +49,7 @@ def test_inspect_work_area_dry_run_writes_only_worker_home(
             "--repo-root",
             str(REPO_ROOT),
             "--scope",
-            "docs/skill-work/work-strategy/strategy-notebook",
+            "docs/archive/skill-work-legacy/work-strategy/strategy-notebook",
             "--max-files",
             "8",
             "--max-chars",
@@ -121,7 +121,7 @@ def test_overlay_strategy_applies_scope_and_task_type_and_runtime_receipt(
     trace_path = wh / "traces" / "index.jsonl"
     line = trace_path.read_text(encoding="utf-8").strip().splitlines()[-1]
     obj = json.loads(line)
-    assert obj["scope"] == "docs/skill-work/work-strategy/strategy-notebook"
+    assert obj["scope"] == "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
     prov = obj["provenance"]
     assert prov.get("overlay") == "strategy"
     assert "scope" in prov.get("overlay_defaults_applied", [])
@@ -191,7 +191,7 @@ def test_task_type_strategy_records_worker_routing_in_trace(
             "--repo-root",
             str(REPO_ROOT),
             "--scope",
-            "docs/skill-work/work-strategy/strategy-notebook",
+            "docs/archive/skill-work-legacy/work-strategy/strategy-notebook",
             "--max-files",
             "8",
             "--max-chars",

@@ -210,7 +210,7 @@ def _build_cmc_strategy_card(out_dir: Path, markdown: bool) -> bool:
         "purpose": "Bridge CMC SCHOLAR ledgers, case-index mechanisms, and strategy-notebook judgment into reusable civilizational patterns for work-strategy.",
         "runtime_snippet": _normalize_snippet(snippet),
         "operator_view": "\n".join(operator_lines),
-        "source_path": "docs/skill-work/work-strategy/civilizational-strategy-surface.md",
+        "source_path": "docs/archive/skill-work-legacy/work-strategy/civilizational-strategy-surface.md",
         "last_updated": now,
         "card_type": "THINK-CIVILIZATIONAL-STRATEGY",
         "cmc_available": cmc_root is not None,

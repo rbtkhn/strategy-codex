@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Remove strategy raw-input date folders older than N days (default 7).
 
-Scans ``docs/skill-work/work-strategy/strategy-notebook/raw-input/`` for
+Scans ``docs/archive/skill-work-legacy/work-strategy/strategy-notebook/raw-input/`` for
 subdirectories named ``YYYY-MM-DD`` (by convention **pub_date** / air day — see
 ``provenance/README.md`` § Layout) and deletes those strictly before the cutoff
 date (local timezone). Non-date dirs (e.g. ``_aired-pending``) are skipped.
@@ -28,7 +28,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 DEFAULT_ROOT = (
     REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook/raw-input"
+    / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook/raw-input"
 )
 
 _RE_DATE_DIR = re.compile(r"^\d{4}-\d{2}-\d{2}$")

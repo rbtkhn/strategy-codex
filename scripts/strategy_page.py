@@ -14,7 +14,7 @@ Usage::
     python3 scripts/strategy_page.py davis barnes --dry-run
 
 **Refined pages (`experts/<id>/*-page-*.md`):** target **~3000** words, **~70–80%** verbatim; see
-`docs/skill-work/work-strategy/strategy-notebook/refined-page-template.md` and
+`docs/archive/skill-work-legacy/work-strategy/strategy-notebook/refined-page-template.md` and
 `python3 scripts/strategy/refined_page_word_budget.py check|condense`.
 
 """
@@ -46,7 +46,7 @@ from strategy_page_reader import discover_pages
 
 DEFAULT_INBOX = (
     REPO_ROOT
-    / "docs/skill-work/work-strategy/strategy-notebook/daily-strategy-inbox.md"
+    / "continuity/daily-strategy-inbox.md"
 )
 DEFAULT_NOTEBOOK = (
     REPO_ROOT / "codex"

@@ -10,8 +10,8 @@ Operator snapshot of **@Xavier-x01**’s public GitHub profile for **advisor / c
 
 ## Disambiguation (important)
 
-- **Grace-mar `docs/skill-work/work-cici/`** = advisor **territory** in this repo (BrewMind, runbooks, evidence). It is **not** automatically the same thing as any **GitHub repository name** on her account.
-- **Strategy / diplomacy drafts** (e.g. Islamabad framework files) live under **`docs/skill-work/work-strategy/`** and **work-jiang** intakes — **not** under work-cici evidence.
+- **Grace-mar `singularity/work-cici/`** = advisor **territory** in this repo (BrewMind, runbooks, evidence). It is **not** automatically the same thing as any **GitHub repository name** on her account.
+- **Strategy / diplomacy drafts** (e.g. Islamabad framework files) live under **`docs/archive/skill-work-legacy/work-strategy/`** and **work-jiang** intakes — **not** under work-cici evidence.
 
 ## Live profile index (public page, capture window)
 

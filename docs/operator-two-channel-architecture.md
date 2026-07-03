@@ -30,9 +30,9 @@ Use that distinction first before reaching for older lane labels.
 | --- | --- | --- |
 | `singularity/` | `singularity` | Primary acceleration channel and architecture / doctrine / workshop owner |
 | `statecraft/` | `statecraft` | Primary judgment channel and live geopolitical / legitimacy / settlement owner |
-| `docs/skill-work/work-dev/` | `singularity` | Technical proving ground for agents, control planes, substrate, evals, and recursive tooling |
+| `docs/archive/skill-work-legacy/work-dev/` | `singularity` | Technical proving ground for agents, control planes, substrate, evals, and recursive tooling |
 | `singularity/work-cici/` | `singularity` | Beginner-compounding, cohort, and advisor testbed for whether AI raises the floor durably |
-| `docs/skill-work/work-business/` | `singularity` | Deployment, compression, and venture testbed for whether AI compounds real commercial work |
+| `docs/archive/skill-work-legacy/work-business/` | `singularity` | Deployment, compression, and venture testbed for whether AI compounds real commercial work |
 | `statecraft/<lane>/` and `statecraft/compact/` | `statecraft` | Subchannels and drafting surfaces inside the statecraft judgment channel |
 | `continuity/` | beneath both | Chronology, accumulation, and continuity infrastructure beneath both channels |
 | Record / governed identity surfaces | outside both | Museum archaeology under `archive/grace-mar-instance/`; not part of the two-channel operator model |

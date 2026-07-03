@@ -92,7 +92,7 @@ def main() -> int:
     parser.add_argument(
         "--brief-path",
         default="",
-        help="Target brief path (default: docs/skill-work/work-strategy/daily-brief-YYYY-MM-DD.md)",
+        help="Target brief path (default: docs/archive/skill-work-legacy/work-strategy/daily-brief-YYYY-MM-DD.md)",
     )
     parser.add_argument(
         "--no-fetch",

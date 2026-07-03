@@ -25,7 +25,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO / "scripts"))
-NOTEBOOK = REPO / "docs/skill-work/work-strategy/strategy-notebook"
+NOTEBOOK = REPO / "docs/archive/skill-work-legacy/work-strategy/strategy-notebook"
 
 from strategy_expert_corpus import (  # noqa: E402
     RE_FLAT_MONTH_THREAD,

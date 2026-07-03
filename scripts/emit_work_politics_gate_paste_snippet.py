@@ -3,7 +3,7 @@
 Emit a canonical ### CANDIDATE-* markdown snippet for work-politics (RECURSION-GATE paste).
 
 Writes <user>/archive/grace-mar-instance/recursion-gate-staging/work-politics-<date>.paste-snippet.md.
-Does not modify recursion-gate.md. See docs/skill-work/work-politics/LANE-CI.md.
+Does not modify recursion-gate.md. See docs/archive/skill-work-legacy/work-politics/LANE-CI.md.
 """
 
 from __future__ import annotations
@@ -55,7 +55,7 @@ def build_snippet(
             f"summary: {safe_summary}",
             "```",
             "",
-            "_Add source_exchange, suggested_entry, profile_target per docs/skill-work/work-politics/pol-candidate-template.md before paste._",
+            "_Add source_exchange, suggested_entry, profile_target per docs/archive/skill-work-legacy/work-politics/pol-candidate-template.md before paste._",
             "",
         ]
     )

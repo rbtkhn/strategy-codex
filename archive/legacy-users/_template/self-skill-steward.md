@@ -4,7 +4,7 @@
 
 **Module intent:** STEWARD captures **evidenced capability** for participating in the companion-self **membrane**: reading what a candidate proposes, using boundary vocabulary (chat vs Record, retrieval vs approval), and practicing consent-aware review with a trusted adult. It does **not** grant merge authority or replace **Mind** (human) as the approval seat. Human-gated; evidence-linked.
 
-**Non-goals:** Autonomous merges; treating search rank or session logs as Record truth; operator-only workflow (that stays in `docs/skill-work/` and `self-work.md`).
+**Non-goals:** Autonomous merges; treating search rank or session logs as Record truth; operator-only workflow (that stays in `docs/archive/skill-work-legacy/` and `self-work.md`).
 
 ---
 

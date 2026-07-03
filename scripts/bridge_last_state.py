@@ -26,7 +26,7 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_USER = os.getenv("GRACE_MAR_USER_ID", "grace-mar")
 STATE_NAME = "last-bridge-state.json"
-TERRITORY_GLOB = "docs/skill-work/work-*/work-*-history.md"
+TERRITORY_GLOB = "docs/archive/skill-work-legacy/work-*/work-*-history.md"
 TERRITORY_RECENCY_DAYS = 7
 
 try:

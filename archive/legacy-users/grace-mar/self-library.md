@@ -16,20 +16,20 @@ A governed retrieval substrate for reference-facing knowledge. Active entries sh
 
 ## Operator analytical books
 
-**Purpose:** A named shelf for **operator-authored “books”** in grace-mar — structured corpora built for **analysis, judgment, and synthesis** (not third-party canon). Each has a canonical README under `docs/skill-work/` or `research/external/work-jiang/`; **`platform/users/grace-mar/SELF-LIBRARY/`** may symlink the same tree for discoverability.
+**Purpose:** A named shelf for **operator-authored “books”** in grace-mar — structured corpora built for **analysis, judgment, and synthesis** (not third-party canon). Each has a canonical README under `docs/archive/skill-work-legacy/` or `research/external/work-jiang/`; **`platform/users/grace-mar/SELF-LIBRARY/`** may symlink the same tree for discoverability.
 
 **How it works:** Entries use normal **lanes** and **`type: book`** ([library-schema.md](../../docs/library-schema.md)). Tag **`scope`** with **`operator_analytical`** plus territory tags (`work_jiang`, `work_strategy`, `work_cici`, `work_dev`, …). Nothing here bypasses the **gated pipeline** for companion-facing Record claims.
 
-**History notebook (LIB-0156):** The **SELF-LIBRARY** index (governed entries) is the **curated fact base** for `hn-*` and civ-thread drafting; **CIV-MEM (LIB-0157)** remains the adjacent MEM-reservoir. See [History Notebook README](../../docs/skill-work/work-strategy/history-notebook/README.md).
+**History notebook (LIB-0156):** The **SELF-LIBRARY** index (governed entries) is the **curated fact base** for `hn-*` and civ-thread drafting; **CIV-MEM (LIB-0157)** remains the adjacent MEM-reservoir. See [History Notebook README](../../docs/archive/skill-work-legacy/work-strategy/history-notebook/README.md).
 
 | ID | Title | Canonical README |
 |----|--------|-------------------|
 | **LIB-0149** | Predictive History (work-jiang multivolume spine) | [`research/external/work-jiang/BOOK-ARCHITECTURE.md`](../../research/external/work-jiang/BOOK-ARCHITECTURE.md) |
-| **LIB-0153** | Strategy notebook | [`docs/skill-work/work-strategy/strategy-notebook/README.md`](../../docs/skill-work/work-strategy/strategy-notebook/README.md) |
-| **LIB-0154** | Cici notebook | [`docs/skill-work/work-cici/cici-notebook/README.md`](../../docs/skill-work/work-cici/cici-notebook/README.md) |
-| **LIB-0155** | Dev journal | [`docs/skill-work/work-dev/dev-notebook/work-dev/journal/README.md`](../../docs/skill-work/work-dev/dev-notebook/work-dev/journal/README.md) |
-| **LIB-0156** | History notebook — **operator-authored** `hn-*` chapters (deliverable) | [`docs/skill-work/work-strategy/history-notebook/README.md`](../../docs/skill-work/work-strategy/history-notebook/README.md) |
-| **LIB-0159** | Theology notebook — define own beliefs through creating the book | [`docs/skill-work/work-strategy/theology-notebook/README.md`](../../docs/skill-work/work-strategy/theology-notebook/README.md) |
+| **LIB-0153** | Strategy notebook | [`docs/archive/skill-work-legacy/work-strategy/strategy-notebook/README.md`](../../docs/archive/skill-work-legacy/work-strategy/strategy-notebook/README.md) |
+| **LIB-0154** | Cici notebook | [`singularity/work-cici/cici-notebook/README.md`](../../singularity/work-cici/cici-notebook/README.md) |
+| **LIB-0155** | Dev journal | [`docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/README.md`](../../docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/README.md) |
+| **LIB-0156** | History notebook — **operator-authored** `hn-*` chapters (deliverable) | [`docs/archive/skill-work-legacy/work-strategy/history-notebook/README.md`](../../docs/archive/skill-work-legacy/work-strategy/history-notebook/README.md) |
+| **LIB-0159** | Theology notebook — define own beliefs through creating the book | [`docs/archive/skill-work-legacy/work-strategy/theology-notebook/README.md`](../../docs/archive/skill-work-legacy/work-strategy/theology-notebook/README.md) |
 | **LIB-0157** | Civilization Memory (upstream repository) | Local: [`research/repos/civilization_memory/`](../../research/repos/civilization_memory/README.md) · symlink: [`SELF-LIBRARY/civilization_memory`](SELF-LIBRARY/civilization_memory) |
 
 **Related (not on this shelf):** [LIB-0151](#entries) (YouTube transcript library) and [LIB-0152](#entries) (TCN curated transcript book) are **bundled channel books** — operator analytical, but listed under the YouTube subsection in **Entries**.
@@ -41,13 +41,13 @@ A governed retrieval substrate for reference-facing knowledge. Active entries sh
 <a id="self-library-bookshelf"></a>
 **self-library-bookshelf** is the operator’s name for this collection: **third-party books the operator physically owns**, cataloged as **`HNSRC-*`** in the machine SSOT. Same scope as **Bookshelf** / [LIB-0158](#bookshelf) below; use *self-library-bookshelf* when you want to stress **shelf** + **self-library** routing in one phrase.
 
-**Purpose:** A **separate container** from [Operator analytical books](#operator-analytical-books). **Concept & contrast** (enhanced bibliography, not full text, not operator books): [`BOOKSHELF.md`](../../docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF.md).
+**Purpose:** A **separate container** from [Operator analytical books](#operator-analytical-books). **Concept & contrast** (enhanced bibliography, not full text, not operator books): [`BOOKSHELF.md`](../../docs/archive/skill-work-legacy/work-strategy/history-notebook/research/BOOKSHELF.md).
 
-**Bookshelf** holds **third-party books the operator physically owns** — cataloged as **`HNSRC-*`** seed rows for drafting and shelf order, **not** operator-authored corpora. **Enumerated list (SSOT):** [`docs/skill-work/work-strategy/history-notebook/research/bookshelf-catalog.yaml`](../../docs/skill-work/work-strategy/history-notebook/research/bookshelf-catalog.yaml) · runbook [`BOOKSHELF-RUNBOOK.md`](../../docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF-RUNBOOK.md). **Do not** tag these with **`shelf_intent: operator_book`** or **`scope: operator_analytical`**; use **[LIB-0158](#bookshelf)**.
+**Bookshelf** holds **third-party books the operator physically owns** — cataloged as **`HNSRC-*`** seed rows for drafting and shelf order, **not** operator-authored corpora. **Enumerated list (SSOT):** [`docs/archive/skill-work-legacy/work-strategy/history-notebook/research/bookshelf-catalog.yaml`](../../docs/archive/skill-work-legacy/work-strategy/history-notebook/research/bookshelf-catalog.yaml) · runbook [`BOOKSHELF-RUNBOOK.md`](../../docs/archive/skill-work-legacy/work-strategy/history-notebook/research/BOOKSHELF-RUNBOOK.md). **Do not** tag these with **`shelf_intent: operator_book`** or **`scope: operator_analytical`**; use **[LIB-0158](#bookshelf)**.
 
 | ID | Title | SSOT |
 |----|--------|------|
-| **LIB-0158** | Bookshelf (**self-library-bookshelf** — owned print catalog) | [BOOKSHELF.md](../../docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF.md) · [`bookshelf-catalog.yaml`](../../docs/skill-work/work-strategy/history-notebook/research/bookshelf-catalog.yaml) · [runbook](../../docs/skill-work/work-strategy/history-notebook/research/BOOKSHELF-RUNBOOK.md) |
+| **LIB-0158** | Bookshelf (**self-library-bookshelf** — owned print catalog) | [BOOKSHELF.md](../../docs/archive/skill-work-legacy/work-strategy/history-notebook/research/BOOKSHELF.md) · [`bookshelf-catalog.yaml`](../../docs/archive/skill-work-legacy/work-strategy/history-notebook/research/bookshelf-catalog.yaml) · [runbook](../../docs/archive/skill-work-legacy/work-strategy/history-notebook/research/BOOKSHELF-RUNBOOK.md) |
 
 **Contrast:** [LIB-0156](#operator-analytical-books) is the **History Notebook** project (your compressed **chapters**). [LIB-0158](#bookshelf) is the **owned print** set on the **bookshelf** that **informs** those chapters.
 
@@ -88,7 +88,7 @@ entries:
     lookup_priority: "high"
     scope: ["work_strategy", "strategy_notebook", "operator_analytical", "journal"]
     source: "url"
-    url: "https://github.com/rbtkhn/grace-mar/blob/main/docs/skill-work/work-strategy/strategy-notebook/README.md"
+    url: "https://github.com/rbtkhn/grace-mar/blob/main/docs/archive/skill-work-legacy/work-strategy/strategy-notebook/README.md"
     reviewed_at: 2026-04-16
     added_at: 2026-04-09
     notes: "Operator analytical book: one dated page per day in chapters/YYYY-MM/days.md (~1000 words consolidated analysis per STRATEGY-NOTEBOOK-ARCHITECTURE) + meta.md. Tricameral polyphony in meta.md § Polyphony — parallel research/external/work-jiang/operator-polyphony.md (LIB-0149); update both when month or PH arc moves. WORK; discoverability symlink platform/users/grace-mar/SELF-LIBRARY/strategy-notebook. Not companion Record or Voice knowledge until gated."
@@ -105,7 +105,7 @@ entries:
     lookup_priority: "high"
     scope: ["work_cici", "cici_notebook", "open_brain", "operator_analytical", "journal"]
     source: "url"
-    url: "https://github.com/rbtkhn/grace-mar/blob/main/docs/skill-work/work-cici/cici-notebook/README.md"
+    url: "https://github.com/rbtkhn/grace-mar/blob/main/singularity/work-cici/cici-notebook/README.md"
     reviewed_at: 2026-04-16
     added_at: 2026-04-09
     notes: "Operator analytical book: Open Brain / work-cici learning day log in grace-mar. WORK coaching; symlink platform/users/grace-mar/SELF-LIBRARY/cici-notebook. Not Xavier Record or Voice knowledge until gated."
@@ -122,7 +122,7 @@ entries:
     lookup_priority: "high"
     scope: ["work_dev", "dev_journal", "operator_analytical", "journal"]
     source: "url"
-    url: "https://github.com/rbtkhn/grace-mar/blob/main/docs/skill-work/work-dev/dev-notebook/work-dev/journal/README.md"
+    url: "https://github.com/rbtkhn/grace-mar/blob/main/docs/archive/skill-work-legacy/work-dev/dev-notebook/work-dev/journal/README.md"
     reviewed_at: 2026-04-16
     added_at: 2026-04-09
     notes: "Operator analytical book: work-dev integration and tooling learning log. WORK; not Record or Voice knowledge until gated. Contrast work-dev-history.md (milestones) vs narrative journal."
@@ -139,7 +139,7 @@ entries:
     lookup_priority: "high"
     scope: ["work_strategy", "history_notebook", "operator_analytical"]
     source: "url"
-    url: "https://github.com/rbtkhn/grace-mar/blob/main/docs/skill-work/work-strategy/history-notebook/README.md"
+    url: "https://github.com/rbtkhn/grace-mar/blob/main/docs/archive/skill-work-legacy/work-strategy/history-notebook/README.md"
     reviewed_at: 2026-04-18
     added_at: 2026-04-18
     notes: "Operator analytical book: compressed civilizational chapters (hn-*), book-architecture.yaml SSOT. SELF-LIBRARY shelf is the curated fact base for HN (lookup and drafting discipline) alongside CIV-MEM as MEM reservoir. Distinct from LIB-0158 (Bookshelf / third-party owned books in bookshelf-catalog.yaml). WORK; not Record until gated."
@@ -156,7 +156,7 @@ entries:
     lookup_priority: "high"
     scope: ["work_strategy", "theology", "theology_notebook", "operator_analytical"]
     source: "url"
-    url: "https://github.com/rbtkhn/grace-mar/blob/main/docs/skill-work/work-strategy/theology-notebook/README.md"
+    url: "https://github.com/rbtkhn/grace-mar/blob/main/docs/archive/skill-work-legacy/work-strategy/theology-notebook/README.md"
     reviewed_at: 2026-04-26
     added_at: 2026-04-26
     notes: "Operator analytical book: define own theological beliefs through the activity of writing the book; research/ + ideas/ + optional chapters/. Complements governed Theology entries in this file (LIB-0140+); not CIV-MEM corpus. WORK; not Record until gated."
@@ -172,7 +172,7 @@ entries:
     lookup_priority: "medium"
     scope: ["personal_library", "history", "work_strategy", "physical_shelf", "HNSRC"]
     source: "url"
-    url: "https://github.com/rbtkhn/grace-mar/blob/main/docs/skill-work/work-strategy/history-notebook/research/bookshelf-catalog.yaml"
+    url: "https://github.com/rbtkhn/grace-mar/blob/main/docs/archive/skill-work-legacy/work-strategy/history-notebook/research/bookshelf-catalog.yaml"
     reviewed_at: 2026-04-18
     added_at: 2026-04-18
     notes: "Collection name: self-library-bookshelf. Third-party print books the operator owns; HNSRC-* rows in bookshelf-catalog.yaml. Concept: BOOKSHELF.md (enhanced bibliography, not full text). Separate from operator_analytical shelf (LIB-0149, LIB-0153, LIB-0156, …). Informs History Notebook drafting; not companion Record. Runbook: BOOKSHELF-RUNBOOK.md."
@@ -192,7 +192,7 @@ entries:
     url: "https://github.com/rbtkhn/grace-mar/blob/main/research/repos/civilization_memory/README.md"
     reviewed_at: 2026-04-16
     added_at: 2026-04-11
-    notes: "Full CMC checkout: MEM, CIV–CORE, CIV–STATE, CIV–SCHOLAR, ARC, templates, governance. WORK/reference retrieval only — not SELF; aligns with docs/cmc-routing.md. Symlink under platform/users/grace-mar/SELF-LIBRARY/civilization_memory. Distinct from LIB-0132 (Grace-Mar satellite essays under docs/civilization-memory/). Tri-frame routing: docs/skill-work/work-strategy/minds/CIV-MEM-TRI-FRAME-ROUTING.md."
+    notes: "Full CMC checkout: MEM, CIV–CORE, CIV–STATE, CIV–SCHOLAR, ARC, templates, governance. WORK/reference retrieval only — not SELF; aligns with docs/cmc-routing.md. Symlink under platform/users/grace-mar/SELF-LIBRARY/civilization_memory. Distinct from LIB-0132 (Grace-Mar satellite essays under docs/civilization-memory/). Tri-frame routing: docs/archive/skill-work-legacy/work-strategy/minds/CIV-MEM-TRI-FRAME-ROUTING.md."
 
   # --- Civilization-memory / theology (grace-mar) ---
 

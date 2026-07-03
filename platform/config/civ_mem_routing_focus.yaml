@@ -1,5 +1,5 @@
 # Optional time-bounded overlap bonuses for scripts/route_civ_mem_topic.py
-# See docs/skill-work/work-civ-mem/TOPIC-ROUTING.md — ignored when outside valid_* (UTC).
+# See docs/archive/skill-work-legacy/work-civ-mem/TOPIC-ROUTING.md — ignored when outside valid_* (UTC).
 #
 # Rotate after heavy strategy weeks: bump focus_version, adjust window, paste
 # suggestions from: python3 scripts/suggest_routing_focus.py --days 14

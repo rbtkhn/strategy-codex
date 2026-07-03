@@ -181,7 +181,7 @@ This skill is directly about source hygiene and maturity ladders, so any drift h
 **Before**
 
 ```md
-- Use [packet-crosswalk.md](../docs/skill-work/work-strategy/packet-crosswalk.md) if the choice is not obvious.
+- Use [packet-crosswalk.md](../docs/archive/skill-work-legacy/work-strategy/packet-crosswalk.md) if the choice is not obvious.
 ```
 
 ```md

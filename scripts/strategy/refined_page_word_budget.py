@@ -6,7 +6,7 @@ Refined page word budget: target ~3000 words per page, ~70–80% verbatim (from 
 - **Condense** lane text from a raw transcript (e.g. from `extract_transcript_speaker_lanes.py`)
   when the lane exceeds the verbatim budget, using head+tail + omission marker (default).
 
-See: docs/skill-work/work-strategy/strategy-notebook/refined-page-template.md
+See: docs/archive/skill-work-legacy/work-strategy/strategy-notebook/refined-page-template.md
 
 """
 from __future__ import annotations

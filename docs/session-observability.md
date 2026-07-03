@@ -47,7 +47,7 @@ python3 scripts/session_observability.py -u grace-mar --oneline
 
 Files are classified as:
 - **Durable:** `self.md`, `self-archive.md`, `self-skills.md`, `recursion-gate.md`, `archive/grace-mar-instance/bot/prompt.py`
-- **Exploratory:** `memory.md`, `session-log.md`, `session-transcript.md`, `docs/skill-work/`, `.cursor/`
+- **Exploratory:** `memory.md`, `session-log.md`, `session-transcript.md`, `docs/archive/skill-work-legacy/`, `.cursor/`
 - **Other:** Everything else
 
 ## Cross-references

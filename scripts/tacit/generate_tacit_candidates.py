@@ -29,10 +29,10 @@ DEST_MAP = {
 def _surface(ctype: str, lane: str) -> str:
     lane = lane or "work-*"
     m = {
-        "moonshot_insight_candidate": "docs/skill-work/work-moonshots/missions/ (pick or create slug)",
+        "moonshot_insight_candidate": "docs/archive/skill-work-legacy/work-moonshots/missions/ (pick or create slug)",
         "skill_candidate": "skills/ or .cursor/skills/ (operator choice)",
         "library_candidate": "SELF-LIBRARY/ (gate if promoted)",
-        "work_doctrine_candidate": f"docs/skill-work/{lane}/ (WORK)",
+        "work_doctrine_candidate": f"docs/archive/skill-work-legacy/{lane}/ (WORK)",
     }
     return m[ctype]
 

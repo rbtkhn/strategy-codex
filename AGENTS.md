@@ -88,7 +88,7 @@ Durable chronology and notebook continuity live at **`continuity/`** (formerly `
 |---|---|
 | 1 Core | This file (`AGENTS.md`) |
 | 2 Instance | [`instance-doctrine.md`](instance-doctrine.md) |
-| 3 Lane | `docs/skill-work/work-*/` |
+| 3 Lane | `docs/archive/skill-work-legacy/work-*/` |
 | 4 Mode | `.cursor/skills/*/SKILL.md` · `.cursor/rules/*.mdc` |
 
 ## Editing and validation

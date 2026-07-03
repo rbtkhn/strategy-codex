@@ -47,9 +47,9 @@ The best shape depends on what remains useful:
 
 ## Live Examples
 
-- [docs/skill-work/work-strategy/interpretive-machine-lineage.md](skill-work/work-strategy/interpretive-machine-lineage.md)
-- [docs/skill-work/work-strategy/interpretive-machine-corporate-applications.md](skill-work/work-strategy/interpretive-machine-corporate-applications.md)
-- [docs/skill-work/work-strategy/interpretive-machine-workflow-manifestations.md](skill-work/work-strategy/interpretive-machine-workflow-manifestations.md)
+- [docs/archive/skill-work-legacy/work-strategy/interpretive-machine-lineage.md](skill-work/work-strategy/interpretive-machine-lineage.md)
+- [docs/archive/skill-work-legacy/work-strategy/interpretive-machine-corporate-applications.md](skill-work/work-strategy/interpretive-machine-corporate-applications.md)
+- [docs/archive/skill-work-legacy/work-strategy/interpretive-machine-workflow-manifestations.md](skill-work/work-strategy/interpretive-machine-workflow-manifestations.md)
 
 These work because they no longer pretend to be doctrine owners. They preserve the old path, name the new canonical home, and get out of the way.
 

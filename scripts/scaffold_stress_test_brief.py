@@ -2,7 +2,7 @@
 """
 Copy the America First KY stress-test brief template to a dated WORK file.
 
-Writes under docs/skill-work/work-politics/america-first-ky/ only.
+Writes under docs/archive/skill-work-legacy/work-politics/america-first-ky/ only.
 Does not touch , self-evidence, or Record files.
 
 Usage:
@@ -20,8 +20,8 @@ from datetime import date
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-TEMPLATE_REL = Path("docs/skill-work/work-politics/america-first-ky/stress-test-brief-template.md")
-OUT_DIR_REL = Path("docs/skill-work/work-politics/america-first-ky")
+TEMPLATE_REL = Path("docs/archive/skill-work-legacy/work-politics/america-first-ky/stress-test-brief-template.md")
+OUT_DIR_REL = Path("docs/archive/skill-work-legacy/work-politics/america-first-ky")
 
 def sanitize_slug(raw: str) -> str:
     s = raw.lower().strip()

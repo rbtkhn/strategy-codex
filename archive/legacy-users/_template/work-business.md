@@ -16,7 +16,7 @@ Boundary notes:
 
 - `self-skill-work` tracks work-related skill claims and capability surfaces.
 - `work-business.md` tracks user-specific business and commercial context for this companion.
-- This file is distinct from the operator-facing **`docs/skill-work/work-business/`** tree in instance repos (deep research, territory READMEs, Grace Gems, etc.). That folder is documentation and execution space; this file is **instance context** for the companion.
+- This file is distinct from the operator-facing **`docs/archive/skill-work-legacy/work-business/`** tree in instance repos (deep research, territory READMEs, Grace Gems, etc.). That folder is documentation and execution space; this file is **instance context** for the companion.
 
 Canonical machine-readable seed shape:
 

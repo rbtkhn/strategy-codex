@@ -2,7 +2,7 @@
 
 This is a small live comparison note for one recurring placement question:
 
-`how should a doctrine cluster behave differently when it lives in essays/, notes/, or docs/skill-work/?`
+`how should a doctrine cluster behave differently when it lives in essays/, notes/, or docs/archive/skill-work-legacy/?`
 
 The goal is not to create a new taxonomy. The goal is to make future placement decisions faster.
 
@@ -14,7 +14,7 @@ The same subject can appear in all three places, but it should behave differentl
 
 - repo-root [`essays/`](../essays/README.md) (primary) or channel `*/essays/` (compatibility) carries the **thesis-bearing owner**
 - `singularity/notes/` carries the **bounded promoted object**
-- `docs/skill-work/` carries the **operator doctrine or legacy compatibility layer**
+- `docs/archive/skill-work-legacy/` carries the **operator doctrine or legacy compatibility layer**
 
 If one file is trying to do all three jobs at once, the placement is probably wrong.
 
@@ -66,7 +66,7 @@ Live examples:
 
 These are reusable, but they are still bounded promoted seams rather than stand-alone theses.
 
-## 3. When A Cluster Lives In `docs/skill-work/`
+## 3. When A Cluster Lives In `docs/archive/skill-work-legacy/`
 
 Here the object is not primarily a prose shelf item at all.
 
@@ -85,7 +85,7 @@ What should not be true:
 
 Live example:
 
-- [docs/skill-work/work-strategy/README.md](skill-work/work-strategy/README.md)
+- [docs/archive/skill-work-legacy/work-strategy/README.md](skill-work/work-strategy/README.md)
 
 The recent interpretive-machine relocation is the model case. Once the cluster had a real singularity essay home, the old `work-strategy` files no longer needed to own the doctrine. Their honest role became compatibility redirects.
 
@@ -94,7 +94,7 @@ The recent interpretive-machine relocation is the model case. Once the cluster h
 Ask these in order:
 
 1. Is this object mainly helping the operator work, route, or preserve compatibility?
-   If yes, it probably belongs in `docs/skill-work/`.
+   If yes, it probably belongs in `docs/archive/skill-work-legacy/`.
 2. Is it a reusable but still bounded seam, packet, comparison, or promoted local argument?
    If yes, it probably belongs in `notes/`.
 3. Is it now a stand-alone thesis that should travel outside the original route?

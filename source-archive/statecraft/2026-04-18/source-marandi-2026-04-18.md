@@ -4,7 +4,7 @@ pub_date: 2026-04-18
 thread: marandi
 kind: transcript
 source_form: post
-source_path: docs/skill-work/work-strategy/strategy-notebook/experts/marandi/transcript.md
+source_path: docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/marandi/transcript.md
 ---
 ## 2026-04-18
 - Show | cold: **Dialogue Works** (**Nima**) + Seyed Mohammad Marandi (**2026-04-18**, Saturday — operator session title: **Iran Just Put the Strait of Hormuz on LIMITED MODE - Signs Point to MAJOR Escalation**) — **Hormuz** **limited mode** / reopen–reclose chain tied to **Lebanon ceasefire** narrative, **Trump** “capitulation” tweets vs **SNSC** process; **Islamabad** **Vance** authority (Netanyahu phone); **port siege** vs **Strait**; **SNSC** **fees** + **Iran retains Hormuz control** thesis; **GCC** (**UAE** war-push, **Saudi** unclear); **summer** attack window + **electricity** retaliation scenario; **Lebanon** PM / Iran pressure read // hook: **§1e–§1h** + **Islamabad** week; **tri-mind `abc`** in [`strategy-expert-marandi-thread.md`](strategy-expert-marandi-thread.md); seam × **pape** 04-18 zero-sum **same object different voice** | https://www.youtube.com/watch?v=TBD-pin-Nima-Marandi-2026-04-18 | verify:operator-transcript+pin-canonical-URL | thread:marandi | membrane:single | grep:Marandi+Hormuz+LIMITED+2026-04-18

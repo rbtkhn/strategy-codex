@@ -34,7 +34,7 @@ flowchart TB
   subgraph instructionLoad [Instruction load order]
     L1[AGENTS.md]
     L2[instance-doctrine.md]
-    L3[docs/skill-work/work-*]
+    L3[docs/archive/skill-work-legacy/work-*]
     L4[.cursor/skills invocation-bound]
     L1 --> L2 --> L3 --> L4
   end

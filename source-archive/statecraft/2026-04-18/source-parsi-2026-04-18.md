@@ -4,7 +4,7 @@ pub_date: 2026-04-18
 thread: parsi
 kind: transcript
 source_form: post
-source_path: docs/skill-work/work-strategy/strategy-notebook/experts/parsi/transcript.md
+source_path: docs/archive/skill-work-legacy/work-strategy/strategy-notebook/experts/parsi/transcript.md
 ---
 ## 2026-04-18
 - X | cold: @tparsi (2026-04-17, earlier) — US–Iran framework reportedly close via **Pakistani** mediation within days; **30–60** day window to final agreement; warns **Israel** may sabotage any deal ending US–Iran hostility or lifting sanctions; **Trump** must be tougher on **Netanyahu** than before // hook: **Beltway mechanism** — pair **04-16** Marandi BP **Islamabad** authority + sabotage vocabulary; not same evidence tier | https://x.com/tparsi | verify:pin-exact-status-URL+screenshot | thread:parsi
