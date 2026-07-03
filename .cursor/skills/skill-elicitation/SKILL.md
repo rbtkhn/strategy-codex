@@ -59,7 +59,7 @@ Run one layer only. Same interview discipline, scoped to that layer's file.
 
 ### Telemetry-grounded pass (`elicit from telemetry`)
 
-Skip the interview. Read `work-cadence-events.md`, session transcripts, and git history to populate layers from observed data. Present findings for operator review before writing.
+Skip the interview. Read `cadence-events.md`, session transcripts, and git history to populate layers from observed data. Present findings for operator review before writing.
 
 ### Strategy-codex elicitation (`elicit strategy`, `elicit codex`, `elicit stream`)
 

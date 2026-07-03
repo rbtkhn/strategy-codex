@@ -64,7 +64,7 @@ Use when shipping **speaker profile migration** (`continuity/profiles/` → `sta
 4. **`git push origin main`** when the menu pick includes push; report network failure separately from validator failure.
 5. On pass after ship: optional `operator_handoff_check.py --fast` receipt.
 
-**Do not** mix telemetry (`work-cadence-events.md`, `memory.md`), `.gitignore`, or unrelated validator WIP into the same commit unless the operator names that combo.
+**Do not** mix telemetry (`cadence-events.md`, `memory.md`), `.gitignore`, or unrelated validator WIP into the same commit unless the operator names that combo.
 
 ## Stall recovery
 

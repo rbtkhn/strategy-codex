@@ -178,7 +178,7 @@ def test_illustration_dream_long_arc_hint_prefers_karajan():
 
 def test_illustration_outcome_parsed_from_snippet(tmp_path):
     user = "grace-mar"
-    log = tmp_path / "work-cadence-events.md"
+    log = tmp_path / "cadence-events.md"
     log.write_text(
         "# Cadence events\n\n_(Append below this line.)_\n"
         f"- **2026-04-20 12:00 UTC** — coffee_pick ({user}) ok=true picked=D5 conductor=kleiber\n"

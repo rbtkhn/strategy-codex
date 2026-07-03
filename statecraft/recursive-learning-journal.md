@@ -1675,7 +1675,7 @@ Persia/America/Russia lane objects, Lebanon third-party gate work, and pending
 multi-lane commits — the operator ran a **full conductor sequence** before ship,
 not as style rotation but as **pre-merge governance**.
 
-Cadence receipts (`work-cadence-events.md`, 2026-06-08 06:36–07:38 UTC) show five
+Cadence receipts (`cadence-events.md`, 2026-06-08 06:36–07:38 UTC) show five
 picks and five outcomes with `verdict=held`, each carrying `notebook_ref=` and
 `falsify=`.
 
@@ -1816,7 +1816,7 @@ the same way it closes an archive family:
 with sequenced pressure types and explicit ship receipts.
 ```
 
-Cadence anchor: `docs/skill-work/work-cadence/work-cadence-events.md` (2026-06-08).
+Cadence anchor: `continuity/cadence/cadence-events.md` (2026-06-08).
 Cross-journal: [conductor-arc-impact-journal.md](../docs/skill-work/work-strategy/conductor-arc-impact-journal.md) (wave evaluation — add June 8 row when next monthly review runs).
 
 ## 2026-06-08 - Daily synthesis contract repair as four-tranche Kleiber stack

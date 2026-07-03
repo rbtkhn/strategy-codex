@@ -51,7 +51,7 @@ This document describes **what feeds** the generated day file from [`scripts/cic
 Not implemented in the digest by default; candidates if current L2 still feels insufficient:
 
 - Same-day anchor line from **work-cici-history.md** (parse or manual).
-- **work-cadence-events.md** lines for the calendar day (UTC date matching policy TBD).
+- **cadence-events.md** lines for the calendar day (UTC date matching policy TBD).
 - Cici **PRs/issues** and **GitHub Actions** conclusions (extra API scope).
 
 Optional **LLM summarization** of operator context remains out of scope unless added later with an explicit flag and policy.

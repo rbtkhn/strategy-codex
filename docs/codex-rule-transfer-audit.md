@@ -31,7 +31,7 @@ These already transfer well, or should be treated as the main cross-host doctrin
 - `AGENTS.md`
 - `instance-doctrine.md`
 - `docs/architecture.md`
-- `docs/skill-work/work-cadence/**`
+- `continuity/cadence/**`
 - `docs/skill-work/work-strategy/strategy-notebook/**` when that territory is active
 
 ### Invocation-bound surfaces

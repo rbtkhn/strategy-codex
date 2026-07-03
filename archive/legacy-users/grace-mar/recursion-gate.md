@@ -935,7 +935,7 @@ proposed_change: |
   In platform/users/grace-mar/self.md IX-C `entries`, remove the entire list item with id PERS-004
   ("Work rhythm — punctuated resets" / coffee / thanks / dream wording).
   Do not replace it with another IX-C row for cadence — ritual choices, frequencies, and
-  work-cadence-events.md telemetry stay under docs/skill-work/work-cadence/, work-coffee/,
+  cadence-events.md telemetry stay under continuity/cadence/, work-coffee/,
   .cursor/skills (coffee, dream, bridge, conductor, thanks), and work-dev scripts (see
   docs/skill-work/work-dev/ for runners and logging).
   Renumbering other PERS-* ids is not required; only remove the PERS-004 block.

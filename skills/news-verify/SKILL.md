@@ -405,7 +405,7 @@ Sub-hook passes may use a **short** lane table (combatant rows + mesh lanes) but
 | PRC 48h watch (neutral Iran-war triangulation) | [docs/skill-work/work-strategy/daily-brief-prc-watch.md](../../docs/skill-work/work-strategy/daily-brief-prc-watch.md) |
 | U.S. executive / VP watch | [docs/skill-work/work-strategy/daily-brief-jd-vance-watch.md](../../docs/skill-work/work-strategy/daily-brief-jd-vance-watch.md) |
 | Iran war source hierarchy (research) | [research/repos/civilization_memory/content/civilizations/PERSIA/IRAN–WAR–CHRONICLE.md](../../research/repos/civilization_memory/content/civilizations/PERSIA/IRAN–WAR–CHRONICLE.md) |
-| Work menu conventions | [docs/skill-work/work-menu-conventions.md](../../docs/skill-work/work-menu-conventions.md) |
+| Work menu conventions | [continuity/menu-conventions.md](../../continuity/menu-conventions.md) |
 
 ## Repo defaults
 

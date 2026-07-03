@@ -16,4 +16,4 @@ JSON files here cap **operator ritual paste size** and dream **write-path** payl
 
 **Reserved (v2):** `max_rollup_lines` — rollup line truncation is not implemented yet; do not add to JSON expecting enforcement.
 
-**Semantics:** `min_civ_mem_overlap` applies to **index overlap counts** from `query_inrepo_civmem`. `require_specific_civ_mem_token` is a **query-side** specificity gate (see `docs/skill-work/work-dream/README.md`).
+**Semantics:** `min_civ_mem_overlap` applies to **index overlap counts** from `query_inrepo_civmem`. `require_specific_civ_mem_token` is a **query-side** specificity gate (see `continuity/dream/README.md`).

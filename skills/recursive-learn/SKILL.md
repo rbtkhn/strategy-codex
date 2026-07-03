@@ -80,7 +80,7 @@ Promoted pattern examples: [lane-hardening-law.md](../../statecraft/patterns/lan
 | Pattern promotion target | [statecraft/patterns/README.md](../../statecraft/patterns/README.md) |
 | Skill-wire gate | [statecraft/notes/skill-refinement-scorecard.md](../../statecraft/notes/skill-refinement-scorecard.md) |
 | Conductor arc journal | [conductor-arc-impact-journal.md](../../docs/skill-work/work-strategy/conductor-arc-impact-journal.md) |
-| Cadence receipts | [work-cadence-events.md](../../docs/skill-work/work-cadence/work-cadence-events.md) |
+| Cadence receipts | [cadence-events.md](../../continuity/cadence/cadence-events.md) |
 | Repair receipt pattern | [archive-truth-floor-audit-receipt-pattern.md](../../docs/archive-truth-floor-audit-receipt-pattern.md) |
 | Lineage memo | [interpretive-machine-lineage.md](../../docs/skill-work/work-strategy/interpretive-machine-lineage.md) |
 
@@ -159,7 +159,7 @@ When law may be ready for pattern or skill wire (canonical #4, #6, or operator r
 
 ## Cadence integration
 
-RLJ is **post-encoding consolidation** (conductor is **mid-day pressure**). Standalone activation by name — not coffee hub letter E. Coffee/dream hub seeds and handoff detail: **CURSOR_APPENDIX** (Cursor) or [work-coffee README](../../docs/skill-work/work-coffee/README.md).
+RLJ is **post-encoding consolidation** (conductor is **mid-day pressure**). Standalone activation by name — not coffee hub letter E. Coffee/dream hub seeds and handoff detail: **CURSOR_APPENDIX** (Cursor) or [work-coffee README](../../continuity/coffee/README.md).
 
 | Job | Primary surface | RLJ role |
 |-----|-----------------|----------|

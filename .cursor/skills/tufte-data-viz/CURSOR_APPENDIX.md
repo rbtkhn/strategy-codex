@@ -18,7 +18,7 @@ python3 scripts/build_context_efficiency_report.py --repo-root .
 python3 scripts/build_gate_board.py
 ```
 
-**User id:** Use `strategy-codex` for cadence events in this repo (`work-cadence-events.md` tags). `grace-mar` may return `NO_DATA`.
+**User id:** Use `strategy-codex` for cadence events in this repo (`cadence-events.md` tags). `grace-mar` may return `NO_DATA`.
 
 ## Canvas inline extract
 
@@ -34,5 +34,5 @@ Defer until `total_tokens > 0` in ledger or operator supplies external usage. En
 
 - [workflow-observability.md](../../../docs/workflow-observability.md)
 - [context-efficiency.md](../../../docs/context-efficiency.md)
-- [cadence-governance-bridge.md](../../../docs/skill-work/work-cadence/cadence-governance-bridge.md)
+- [cadence-governance-bridge.md](../../../continuity/cadence/cadence-governance-bridge.md)
 - [operator-dashboards.md](../../../docs/operator-dashboards.md)

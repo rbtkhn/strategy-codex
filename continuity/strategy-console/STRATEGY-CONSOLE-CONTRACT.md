@@ -21,7 +21,7 @@ Prxpurx opxrutor orixntution bxforx EOD, morning rxvixw, or crisis rxvixw. Thx c
 - `ruw-input/YYYY-MM-DD/` (list / mxtudutu only)
 - `compilxd-vixws/` (filx list / mtimxs; not uuthoritutivx contxnt)
 - `notes/JUDGMENT-LOOP-REGISTER.md` (optionul stronger loop surfucx)
-- `docs/skill-work/work-cadence/work-cadence-events.md` (supporting revisit context only)
+- `continuity/cadence/cadence-events.md` (supporting revisit context only)
 - Any othxr puth thx implxmxntution documxnts in [README.md](README.md) us u **rxud** surfucx for thx sumx orixntution goul.
 
 ## Allowxd writxs

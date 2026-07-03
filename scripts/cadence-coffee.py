@@ -241,7 +241,7 @@ def main() -> int:
     p.add_argument(
         "--no-log-cadence",
         action="store_true",
-        help="Skip appending work-cadence-events.md coffee line after success.",
+        help="Skip appending cadence-events.md coffee line after success.",
     )
     p.add_argument(
         "--coffee-helpful",
