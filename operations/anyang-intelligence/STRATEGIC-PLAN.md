@@ -4,7 +4,9 @@ WORK only; not Record.
 
 **Scope:** `operations/anyang-intelligence/` commercial venture operating shelf.
 
-**Prospectus version:** v1.2
+**Prospectus version:** v1.3
+
+**v1.3 note:** Adds [human weight-update conceptual layer](HUMAN-WEIGHT-UPDATE-SYSTEM.md) (ML metaphor, optional Bitcoin settlement model) and [`settlement/`](settlement/README.md) stub. Operational [3-agent OS](AI-OPERATING-SYSTEM.md) and pilot kit unchanged. No rewrite of §1–15 financial or product body.
 
 **v1.2 note:** Adds [3-agent AI operating system](AI-OPERATING-SYSTEM.md) (Strategist / Builder / Growth), output shelves (`strategy/`, `builder/`, `growth/`), and documented loop stubs. No rewrite of §1–15 financial or product body.
 
@@ -49,6 +51,10 @@ Anyang Intelligence runs as a **3-agent closed loop** — Strategist (what), Bui
 | **Growth** | WHO pays / distribution | §7 GTM, §8 growth engine | [`growth/`](growth/), [`reports/`](reports/) |
 
 China wedge (`singularity/work-anyang/`) is **Builder proof** — not a fourth agent. Mentor/sponsor ops stay in [OPERATOR-RUNBOOK.md](../../singularity/work-anyang/OPERATOR-RUNBOOK.md).
+
+### Conceptual architecture (v1.3)
+
+Anyang can also be modeled as a **human weight-update system** — skills as weights, training as updates, performance as measurable output. This is a **modeling lens**, not a replacement for the vocational-training prospectus above. Full metaphor, conceptual agent prompts, optional Bitcoin settlement model, and mapping to the Workflow Ship Sprint pilot: [HUMAN-WEIGHT-UPDATE-SYSTEM.md](HUMAN-WEIGHT-UPDATE-SYSTEM.md). Future settlement design notes: [`settlement/`](settlement/README.md).
 
 ---
 

@@ -22,6 +22,10 @@ Anyang Intelligence operates as a **minimal 3-agent intelligence system** — a 
 
 **One-line system definition:** Strategy, execution, and growth form a continuous closed-loop system that generates, delivers, and monetizes AI vocational training products globally.
 
+### Conceptual model (parallel layer)
+
+Human capability can also be modeled as a **weight-updating system** (ML analogy) with an optional future settlement layer. That framing lives in [HUMAN-WEIGHT-UPDATE-SYSTEM.md](HUMAN-WEIGHT-UPDATE-SYSTEM.md) — **conceptual prompts only**. Operational agent prompts in this document drive pilot execution (Workflow Ship Sprint and successors).
+
 ---
 
 ## System architecture
@@ -47,6 +51,8 @@ Anyang Intelligence operates as a **minimal 3-agent intelligence system** — a 
                              ↺
 ```
 
+Extended conceptual stack (modeling only — see [HUMAN-WEIGHT-UPDATE-SYSTEM.md](HUMAN-WEIGHT-UPDATE-SYSTEM.md)): Human System State → Economic Output → optional Bitcoin settlement (future) → feedback.
+
 Market signals land in [`reports/`](reports/) and [`strategy/`](strategy/). Builder outputs land in [`builder/`](builder/) and (when curriculum ships) root [`education/`](../../education/README.md). Growth outputs land in [`growth/`](growth/) and proof receipts in [`reports/`](reports/).
 
 ---
@@ -60,6 +66,7 @@ Market signals land in [`reports/`](reports/) and [`strategy/`](strategy/). Buil
 | **Curriculum under `education/<subject-slug>/`** | Never `education/anyang-intelligence/` — see [README.md](README.md) layout invariant |
 | **Mentor ops stay in runbook** | [OPERATOR-RUNBOOK.md](../../singularity/work-anyang/OPERATOR-RUNBOOK.md) = cohort/sponsor modes, not Growth or Strategist |
 | **Loops documented, not declared** | Proposed singularity loop ids below — YAML deferred to follow-up PR |
+| **Bitcoin settlement = optional/future** | Modeled in [HUMAN-WEIGHT-UPDATE-SYSTEM.md](HUMAN-WEIGHT-UPDATE-SYSTEM.md) · [settlement/](settlement/README.md) — no wallet or payment product |
 
 ---
 

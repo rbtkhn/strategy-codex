@@ -10,6 +10,8 @@ Operating shelf for **Anyang Intelligence** — the AI-native vocational trainin
 | --- | --- |
 | [STRATEGIC-PLAN.md](STRATEGIC-PLAN.md) | Commercial venture prospectus — investor-facing strategy |
 | [AI-OPERATING-SYSTEM.md](AI-OPERATING-SYSTEM.md) | 3-agent org architecture (Strategist / Builder / Growth) |
+| [HUMAN-WEIGHT-UPDATE-SYSTEM.md](HUMAN-WEIGHT-UPDATE-SYSTEM.md) | Conceptual layer — human weight-update + optional settlement model |
+| [`settlement/`](settlement/) | Future settlement-layer design stub (no implementation) |
 | [`strategy/`](strategy/) | Strategist outputs — opportunity briefs, segment picks |
 | [`builder/`](builder/) | Builder outputs — module specs, ship-sprint designs |
 | [`growth/`](growth/) | Growth outputs — funnel briefs, campaign specs |
@@ -47,6 +49,8 @@ anyang-intelligence/
   README.md
   STRATEGIC-PLAN.md
   AI-OPERATING-SYSTEM.md
+  HUMAN-WEIGHT-UPDATE-SYSTEM.md
+  settlement/
   strategy/
   builder/
   growth/
