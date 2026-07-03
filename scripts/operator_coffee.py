@@ -13,7 +13,7 @@ Modes
   work-start  Full work-start coffee: daily warmup + harness warmup + branch snapshot
   light       Lighter pass: daily warmup + compact harness + one-line branch
   minimal     Minimal pass: compact harness only (no daily warmup unless --include-warmup)
-  closeout    Signing-off Step 1: handoff check (gate, PH closeout, commits, worktree) - same coffee A-D hub menu after; conductor remains name-only
+  closeout    Signing-off Step 1: handoff check (gate, PH closeout, commits, worktree) - same coffee A-D hub menu after
   reentry     Cold-thread stack: handoff + daily warmup + harness (same as operator_reentry_stack)
   first-command
               New-chat bootstrap: Coffee Bootstrap Brief + inline fast Step 1 (one Python
@@ -395,32 +395,6 @@ def main() -> int:
             if show_details and memory_report.get("overall_status") != "ok":
                 print(f"\n{'=' * 60}\n$ memory observability\n{'=' * 60}\n", flush=True)
                 print(format_observability_one_liner(memory_report))
-        except Exception:
-            pass
-
-    try:
-        from cadence_conductor_resolution import format_coffee_hub_e_line
-
-        if show_details:
-            print(
-                f"\n{'=' * 60}\n"
-                f"$ Standalone Conductor note (not a coffee hub line)\n"
-                f"{'=' * 60}\n",
-                flush=True,
-            )
-            print(format_coffee_hub_e_line(user), flush=True)
-    except Exception:
-        try:
-            from scripts.cadence_conductor_resolution import format_coffee_hub_e_line
-
-            if show_details:
-                print(
-                    f"\n{'=' * 60}\n"
-                    f"$ Standalone Conductor note (not a coffee hub line)\n"
-                    f"{'=' * 60}\n",
-                    flush=True,
-                )
-                print(format_coffee_hub_e_line(user), flush=True)
         except Exception:
             pass
 

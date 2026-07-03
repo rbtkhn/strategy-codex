@@ -2,7 +2,7 @@
 """
 Cadence rhythm auditor â€” read-only discipline audit of cadence events.
 
-Parses work-cadence-events.md and reports dream frequency, bridge coverage,
+Parses cadence-events.md and reports dream frequency, bridge coverage,
 coffee cadence, and longest gap.  Exposes compute_rhythm_summary() for
 import by harness_warmup.py.
 
@@ -24,7 +24,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-EVENTS_PATH = REPO_ROOT / "docs" / "skill-work" / "work-cadence" / "work-cadence-events.md"
+EVENTS_PATH = REPO_ROOT / "continuity" / "cadence" / "cadence-events.md"
 
 try:
     from repo_io import DEFAULT_USER_ID, profile_dir

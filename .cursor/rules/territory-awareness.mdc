@@ -22,9 +22,11 @@ When working in `docs/skill-work/`, treat each subdirectory as a **territory** â
 
 | Territory | Path | Key context |
 |-----------|------|-------------|
-| work-coffee | `docs/skill-work/work-coffee/` | README, work-coffee-history, `.cursor/skills/coffee/SKILL.md` |
-| work-cadence | `docs/skill-work/work-cadence/` | README, work-cadence-events, `.cursor/skills/bridge/SKILL.md` |
-| work-dream | `docs/skill-work/work-dream/` | README, work-dream-history, `.cursor/skills/dream/SKILL.md` |
+| coffee | `continuity/coffee/` | README, coffee-history, `.cursor/skills/coffee/SKILL.md` |
+| cadence | `continuity/cadence/` | README, cadence-events.md, bridge/harvest contracts |
+| dream | `continuity/dream/` | README, `.cursor/skills/dream/SKILL.md` |
+| work-cadence | `continuity/cadence/` | README, work-cadence-events, `.cursor/skills/bridge/SKILL.md` |
+| work-dream | `continuity/dream/` | README, work-dream-history, `.cursor/skills/dream/SKILL.md` |
 | work-politics | `docs/skill-work/work-politics/` | README, principal-profile, revenue-log, seed-allocation-plan, opposition-brief, sentient-framing |
 | work-health-fitness | `docs/skill-work/work-health-fitness/` | README, roadmap |
 | work-human-teacher | `docs/skill-work/work-human-teacher/` | README, roadmap |

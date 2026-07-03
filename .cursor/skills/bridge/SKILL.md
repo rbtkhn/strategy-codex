@@ -36,7 +36,7 @@ This is event-driven: the operator says `bridge` when they're ready. There is no
 
 ## Step 0 — Recent rhythm
 
-1. Open **`docs/skill-work/work-cadence/work-cadence-events.md`**.
+1. Open **`continuity/cadence/cadence-events.md`**.
 2. Take the **last 4** event lines already in the file. If fewer than four exist, use what exists; if none, say **Recent rhythm:** _(no prior events)_.
 3. Synthesize them using the cadence voice principle:
    - acknowledge what we settled or clarified
@@ -53,9 +53,9 @@ If the file is missing or empty below the anchor, note that and continue.
 
 When the operator says `bridge`, read the following files if they exist:
 
-1. **`docs/skill-work/work-cadence/work-cadence-events.md`** — recent cadence rhythm
-2. **`docs/skill-work/work-coffee/work-coffee-history.md`** — recent coffee lane activity
-3. **`docs/skill-work/work-dream/work-dream-history.md`** — recent dream lane activity
+1. **`continuity/cadence/cadence-events.md`** — recent cadence rhythm
+2. **`continuity/coffee/coffee-history.md`** — recent coffee lane activity
+3. **`continuity/dream/dream-history.md`** — recent dream lane activity
 4. **`docs/skill-work/work-strategy/`** surfaces that clearly anchored the session, if relevant
 5. **`docs/skill-work/work-dev/work-dev-history.md`** — recent dev activity, if relevant
 6. **`docs/skill-work/work-politics/work-politics-history.md`** — recent politics activity, if relevant
@@ -149,7 +149,7 @@ If the repo uses cadence event logging for bridge, append that event after a suc
 
 ## Step 4 — Generate the transfer prompt
 
-Now synthesize the readings from Step 1 into a single markdown block using the canonical contract in `docs/skill-work/work-cadence/bridge-packet-contract.md`.
+Now synthesize the readings from Step 1 into a single markdown block using the canonical contract in `continuity/cadence/bridge-packet-contract.md`.
 
 Required shape:
 
@@ -245,7 +245,7 @@ If verification cannot be completed:
 
 ## Related files
 
-- `docs/skill-work/work-cadence/README.md`
-- `docs/skill-work/work-cadence/bridge-packet-contract.md`
+- `continuity/cadence/README.md`
+- `continuity/cadence/bridge-packet-contract.md`
 - `.cursor/skills/coffee/SKILL.md`
 - `.cursor/skills/dream/SKILL.md`

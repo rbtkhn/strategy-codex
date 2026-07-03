@@ -50,7 +50,7 @@ RUNTIME_NOISE_MARKERS = (
     "memory.md",
     "night-handoff.json",
     "runtime/daily-handoff/",
-    "work-cadence-events.md",
+    "cadence-events.md",
     "memory-observability",
     ".capability-shift-cache.json",
     ".capability-shift-last-check",

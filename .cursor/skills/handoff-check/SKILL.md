@@ -8,7 +8,7 @@ description: >-
   `operator_coffee.py --mode closeout`) is **coffee Step 1**; **Step 2** is the
   same fixed **A–D** hub (**Confirm / Test / Deepen / Reframe**). See
   [coffee/SKILL.md](../coffee/SKILL.md) and [menu-reference — signing-off
-  intent](../../../docs/skill-work/work-coffee/menu-reference.md#signing-off-intent).
+  intent](../../../continuity/coffee/menu-reference.md#signing-off-intent).
   Also use when resuming work or checking safe-to-ignore before commit/push.
 category: operator-coherence
 status: active
@@ -21,7 +21,7 @@ scope_class: repo-governed
 
 Use this skill when the operator wants to pause or resume work without losing the active thread.
 
-**Preset — signing-off `coffee`:** When the operator says **`coffee`** with **signing-off** intent (session end, wrapping the day; legacy **`hey`** still works), the agent runs **signing-off Step 1** (this command + short summary paragraph) then the **same** **A–D** hub as work-start: **Confirm / Test / Deepen / Reframe**. There is **no** separate closeout menu and **no** closeout-only letter — exit the hub by normal workflow or **no menu**. On follow-up turns, **A**, **B**, and **D** re-offer the full hub after the branch settles; **C** exits to normal workflow unless **`stay in coffee`**. Per-letter signing-off add-ons: [menu-reference — signing-off intent](../../../docs/skill-work/work-coffee/menu-reference.md#signing-off-intent).
+**Preset — signing-off `coffee`:** When the operator says **`coffee`** with **signing-off** intent (session end, wrapping the day; legacy **`hey`** still works), the agent runs **signing-off Step 1** (this command + short summary paragraph) then the **same** **A–D** hub as work-start: **Confirm / Test / Deepen / Reframe**. There is **no** separate closeout menu and **no** closeout-only letter — exit the hub by normal workflow or **no menu**. On follow-up turns, **A**, **B**, and **D** re-offer the full hub after the branch settles; **C** exits to normal workflow unless **`stay in coffee`**. Per-letter signing-off add-ons: [menu-reference — signing-off intent](../../../continuity/coffee/menu-reference.md#signing-off-intent).
 
 **Work-start `coffee`:** Re-offer and exit behavior for **A–D** match [coffee/SKILL.md](../coffee/SKILL.md): **A**, **B**, and **D** → full hub by default after the branch settles; **C** → exit unless **`stay in coffee`**. Hub letters choose a **learning action first**; downstream steward / engineer / statecraft / singularity routing is second-layer only when that action needs a specific bench.
 

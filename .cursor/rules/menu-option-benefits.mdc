@@ -38,11 +38,11 @@ Benefit after a second sentence, on the next line, or implied without **because*
 
 ## Exceptions
 
-- **Fixed verbatim menus** copied from skill SSOT without assistant rewording (e.g. coffee **A–D** hub, steward **Implement now / Later** when wording comes straight from [menu-reference](../../docs/skill-work/work-coffee/menu-reference.md)).
+- **Fixed verbatim menus** copied from skill SSOT without assistant rewording (e.g. coffee **A–D** hub, steward **Implement now / Later** when wording comes straight from [menu-reference](../../continuity/coffee/menu-reference.md)).
 - Operator says **no menu** / **no options**.
 - **Single straight answer** with no multi-choice block.
 
 ## Related
 
 - [operator-style.mdc](operator-style.mdc) — WORK menus, present-don’t-pre-develop, execution hygiene
-- [work-menu-conventions.md](../../docs/skill-work/work-menu-conventions.md) — combo lines, receipts, logging
+- [work-menu-conventions.md](../../continuity/menu-conventions.md) — combo lines, receipts, logging

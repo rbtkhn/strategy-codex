@@ -41,7 +41,7 @@ _TIME_SENSITIVE_RE = re.compile(
     re.IGNORECASE,
 )
 
-EVENTS_PATH = REPO_ROOT / "docs" / "skill-work" / "work-cadence" / "work-cadence-events.md"
+EVENTS_PATH = REPO_ROOT / "continuity" / "cadence" / "cadence-events.md"
 
 _EVENT_LINE_RE = re.compile(
     r"- \*\*(\d{4}-\d{2}-\d{2}) \d{2}:\d{2} UTC\*\* — (\w+) \(([^)]+)\)"

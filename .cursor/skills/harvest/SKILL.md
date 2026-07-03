@@ -39,7 +39,7 @@ One skill; adjust emphasis via operator wording or optional script flag:
 | **`default`** | Balanced outcomes + insights + next steps |
 | **`technical`** | Files, modules, commands, failure modes |
 | **`strategic`** | Decisions, tradeoffs, tensions, executive compression |
-| **`minimal`** | Short packet; still follow [harvest-packet-contract](../../../docs/skill-work/work-cadence/harvest-packet-contract.md) (omit empty sections) |
+| **`minimal`** | Short packet; still follow [harvest-packet-contract](../../../continuity/cadence/harvest-packet-contract.md) (omit empty sections) |
 
 ---
 
@@ -50,7 +50,7 @@ One skill; adjust emphasis via operator wording or optional script flag:
 - **No Record authority** — the packet is operator/tooling context, not SELF/EVIDENCE truth.
 - **Signal over volume** — compress; tag brittle lines `{fact}` / `{proposal}` / `{uncertain}`.
 - **Preserve uncertainty** — do not flatten open questions into false closure.
-- **Cadence voice (where applicable):** Harvest does not include Step 0 rhythm synthesis, but any companion-facing prose in the packet (e.g. `## Current session purpose`, `## Important developments`) should still follow the **cadence voice principle** ([work-cadence README](../../../docs/skill-work/work-cadence/README.md#cadence-voice-principle-all-rituals)) — forward-oriented, "we" framing, felt not listed.
+- **Cadence voice (where applicable):** Harvest does not include Step 0 rhythm synthesis, but any companion-facing prose in the packet (e.g. `## Current session purpose`, `## Important developments`) should still follow the **cadence voice principle** ([work-cadence README](../../../continuity/cadence/README.md#cadence-voice-principle-all-rituals)) — forward-oriented, "we" framing, felt not listed.
 
 ---
 
@@ -65,7 +65,7 @@ The agent **does not** receive a full Cursor thread export API. Do **not** promi
 
 **Soft exchange heuristic (not a hard cap):** Treat roughly the **last 15–25** user/assistant **message groups** visible in this chat as the **primary spine** for narrative extraction. If fewer are visible, use everything available. Cursor context length varies; this number is **orientation for the model**, not a product guarantee.
 
-**Truncation honesty:** If early turns are clearly **not** in context, **do not** imply the packet summarizes the entire session from hour one. Add **`## Thread coverage`** (see [harvest-packet-contract](../../../docs/skill-work/work-cadence/harvest-packet-contract.md)) with a one-line caveat, **or** fold the same caveat into **`## Current session purpose`**.
+**Truncation honesty:** If early turns are clearly **not** in context, **do not** imply the packet summarizes the entire session from hour one. Add **`## Thread coverage`** (see [harvest-packet-contract](../../../continuity/cadence/harvest-packet-contract.md)) with a one-line caveat, **or** fold the same caveat into **`## Current session purpose`**.
 
 **Disk vs chat:** Step 1 on-disk reads (gate, git, `work-*-history`, etc.) are **anchors** for facts; chat extraction is **compression** of the visible arc. When in doubt, tag narrative `{uncertain}` and lean on disk.
 
@@ -87,8 +87,8 @@ Resolve **`<id>`** from the instance (default **`grace-mar`** in this repo). Rea
 1. **`memory.md`** — pointers, open loops, calibrations
 2. **`recursion-gate.md`** — pending candidates (ids, summaries; **do not** merge)
 3. **`last-dream.json`** — last dream summary (hints only)
-4. **`docs/skill-work/work-coffee/work-coffee-history.md`**
-5. **`docs/skill-work/work-dream/work-dream-history.md`**
+4. **`continuity/coffee/coffee-history.md`**
+5. **`continuity/dream/dream-history.md`**
 6. **`docs/skill-work/work-politics/work-politics-history.md`** — if present
 7. **`docs/skill-work/work-dev/work-dev-history.md`** — if present
 8. **`session-transcript.md`** — if **missing**, skip. If **present**, read per **Thread depth and honesty** (default **tail 200 lines**; **deep** = full file or last 500 if huge).
@@ -119,7 +119,7 @@ If context is thin, ask **one** short question before emitting the packet **only
 
 ## Step 3 — Emit packet
 
-Output **one** markdown block following **[harvest-packet-contract](../../../docs/skill-work/work-cadence/harvest-packet-contract.md)** — section order, **`## Agent surface`** with **Cursor model:** from the Cursor UI (see contract), **no** trailing **`coffee`**, **required final line** last per contract.
+Output **one** markdown block following **[harvest-packet-contract](../../../continuity/cadence/harvest-packet-contract.md)** — section order, **`## Agent surface`** with **Cursor model:** from the Cursor UI (see contract), **no** trailing **`coffee`**, **required final line** last per contract.
 
 ---
 
@@ -131,17 +131,17 @@ Output **one** markdown block following **[harvest-packet-contract](../../../doc
 2. **Accuracy** — Any wrong `{fact}` or missing caveat?
 3. **Action** — Did **Suggested asks** produce useful work without scope creep?
 
-**Recursive tightening:** If the **same friction** shows up **twice** (e.g. missing git-scope warning, wrong `##` headings, weak suggested asks), patch **[harvest-packet-contract](../../../docs/skill-work/work-cadence/harvest-packet-contract.md)** or **this skill** — not the Record. Optional: save an especially good packet under `harvest-packets/` as an informal quality bar.
+**Recursive tightening:** If the **same friction** shows up **twice** (e.g. missing git-scope warning, wrong `##` headings, weak suggested asks), patch **[harvest-packet-contract](../../../continuity/cadence/harvest-packet-contract.md)** or **this skill** — not the Record. Optional: save an especially good packet under `harvest-packets/` as an informal quality bar.
 
 **Cadence telemetry** (`log_cadence_event.py --kind harvest` or `session_harvest.py --log`) stays **optional**; this loop does not require it. When logging, pass **`--cursor-model`** (or **`CURSOR_MODEL`**) so the line matches bridge/coffee/dream **Agent surface** audit.
 
-**Step 0 recent rhythm in reply:** **None.** Unlike **thanks** / **coffee** / **dream** / **bridge**, **harvest** does **not** prepend a read of `work-cadence-events.md`. The **Session Harvest Packet** is already the compressed handoff; adding the same rhythm strip would overlap the packet's arc without clear load-bearing value. See [work-cadence README — Step 0 recent rhythm](../../../docs/skill-work/work-cadence/README.md#step-0-recent-rhythm-companion-facing).
+**Step 0 recent rhythm in reply:** **None.** Unlike **thanks** / **coffee** / **dream** / **bridge**, **harvest** does **not** prepend a read of `cadence-events.md`. The **Session Harvest Packet** is already the compressed handoff; adding the same rhythm strip would overlap the packet's arc without clear load-bearing value. See [work-cadence README — Step 0 recent rhythm](../../../continuity/cadence/README.md#step-0-recent-rhythm-companion-facing).
 
 ---
 
 ## Optional persistence
 
-Default: packet **only in chat**. If the operator says **save:** suggest `docs/skill-work/work-cadence/harvest-packets/YYYY-MM-DD-harvest.md` or a rolling `last-harvest.md` — **operator-owned**, not Record.
+Default: packet **only in chat**. If the operator says **save:** suggest `continuity/cadence/harvest-packets/YYYY-MM-DD-harvest.md` or a rolling `last-harvest.md` — **operator-owned**, not Record.
 
 ---
 
@@ -150,8 +150,8 @@ Default: packet **only in chat**. If the operator says **save:** suggest `docs/s
 - **`bridge`** — [SKILL.md](../bridge/SKILL.md)
 - **`coffee`** — [SKILL.md](../coffee/SKILL.md)
 - **`dream`** — [SKILL.md](../dream/SKILL.md)
-- **Cadence hub** — [work-cadence README](../../../docs/skill-work/work-cadence/README.md)
-- **Packet contract** — [harvest-packet-contract.md](../../../docs/skill-work/work-cadence/harvest-packet-contract.md)
+- **Cadence hub** — [work-cadence README](../../../continuity/cadence/README.md)
+- **Packet contract** — [harvest-packet-contract.md](../../../continuity/cadence/harvest-packet-contract.md)
 
 ---
 

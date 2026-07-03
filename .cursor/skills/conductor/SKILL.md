@@ -13,8 +13,8 @@ review_date: 2026-12-31
 
 **Superseded by:** **`coffee`** hub (external host skill `~/.continuity/skills/coffee/`) + default-from-hub attention.
 
-**Activation:** `conductor`, `toscanini`, `karajan`, `kleiber`, `bernstein` — say **`coffee`**, pick hub **A–D** per [CONDUCTOR-COMPRESSION-SPEC.md](../../../docs/skill-work/work-coffee/CONDUCTOR-COMPRESSION-SPEC.md).
+**Activation:** Legacy aliases (`conductor`, `toscanini`, `karajan`, `kleiber`, `bernstein`) → say **`coffee`**, pick hub **A–D** per [menu-reference.md](../../../continuity/coffee/menu-reference.md). Historical map (deprecated): [CONDUCTOR-COMPRESSION-SPEC.md](../../../continuity/_deprecated/conductor/CONDUCTOR-COMPRESSION-SPEC.md).
 
-**Do not** emit Conductor Action Menu on new sessions.
+**Do not** emit Conductor Action Menu on new sessions. **Do not** start standalone conductor Symphonies.
 
 **Preferred name (new work):** **`coffee`** + hub letter or plain attention phrase.

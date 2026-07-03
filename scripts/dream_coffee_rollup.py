@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Parse work-cadence-events.md for coffee runs in a rolling UTC window.
+"""Parse cadence-events.md for coffee runs in a rolling UTC window.
 
 Operator maintenance only — not Record truth. Used by auto_dream for last-dream.json.
 """
@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_EVENTS_PATH = REPO_ROOT / "docs" / "skill-work" / "work-cadence" / "work-cadence-events.md"
+DEFAULT_EVENTS_PATH = REPO_ROOT / "continuity" / "cadence" / "cadence-events.md"
 
 # - **2026-04-02 20:46 UTC** — coffee (grace-mar) ok=true mode=work-start
 _COFFEE_LINE = re.compile(

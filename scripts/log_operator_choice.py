@@ -31,7 +31,7 @@ HEADER = (
     "> Raw conversation log for operator continuity. Not part of the Record. "
     "Approved content is written to SELF-ARCHIVE on merge.\n\n"
     "> Operator menu picks: blocks with heading level-3 tag **WORK-choice** — see "
-    "docs/skill-work/work-menu-conventions.md\n\n---\n\n"
+    "continuity/menu-conventions.md\n\n---\n\n"
 )
 
 def append_work_choice(

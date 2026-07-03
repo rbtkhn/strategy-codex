@@ -1,0 +1,862 @@
+﻿# Cadence events
+
+> Append-only audit of **coffee**, **coffee_pick**, **coffee_close**, **coffee_conductor_outcome**, **dream**, **bridge**, legacy **`thanks`**, and optional **harvest** runs. (**`thanks`** is a deprecated grace-mar operator beat; new work prefers **conductor** + **`coffee`**.)
+> **Not** Record truth. **Not** memory. **Not** a replacement for
+> handoff artifacts or `session-transcript.md`.
+>
+> **Format:** `- **YYYY-MM-DD HH:MM UTC** — kind (user) key=value …` (machine-audit line).
+> **coffee_conductor_outcome** — optional closure after a conductor run (**verdict=** e.g. watch / promote / shelf / no_action); optional **notebook_ref=**, **falsify=**, **conductor=** (see [CONDUCTOR-IMPROVEMENT-LOOP](../../../continuity/CONDUCTOR-IMPROVEMENT-LOOP.md) § 3).
+> **coffee_close** — optional close receipt after a coffee-selected branch materially settles (**picked=**, **outcome=**, **readiness=**, optional **artifacts=**, **loops=**, **next=**, **conductor=**, **conductor_state=**).
+> **coffee_pick** may include optional **focus=** or **arc=** (named work object).
+> **Companion-facing:** Skills read this file and speak **Recent rhythm** in chat — plain
+> language, concrete specifics, no clock times in that prose. See [work-cadence README](README.md).
+
+_(Append below this line.)_
+- **2026-04-05 21:07 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-05 23:57 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-05 23:57 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-05 23:57 UTC** — dream (demo) ok=false mode=default cursor_model=unknown integrity=pass governance=fail mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-05 23:57 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=2 civmem_suppressed=false
+- **2026-04-05 23:57 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-06 00:00 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-06 00:00 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-06 00:00 UTC** — dream (demo) ok=false mode=default cursor_model=unknown integrity=pass governance=fail mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-06 00:00 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=2 civmem_suppressed=false
+- **2026-04-06 00:00 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-06 00:07 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-06 00:07 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-06 00:07 UTC** — dream (demo) ok=false mode=default cursor_model=unknown integrity=pass governance=fail mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-06 00:07 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=2 civmem_suppressed=false
+- **2026-04-06 00:07 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-06 00:10 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=none
+- **2026-04-06 00:11 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-06 00:11 UTC** — coffee (grace-mar) ok=true mode=standard cursor_model=unknown
+- **2026-04-06 00:17 UTC** — bridge (grace-mar) ok=true cursor_model=unknown refs=7d96575,f16104b
+- **2026-04-06 00:31 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=—
+- **2026-04-06 00:54 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-06 02:17 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-06 04:21 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=none
+- **2026-04-06 04:47 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=none
+- **2026-04-06 05:01 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=none
+- **2026-04-06 05:05 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=none
+- **2026-04-06 05:36 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-06 12:10 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-06 14:52 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=none
+- **2026-04-06 15:44 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=none
+- **2026-04-06 15:58 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-06 15:59 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-06 16:05 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=none
+- **2026-04-06 16:51 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=none
+- **2026-04-06 17:12 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-06 17:12 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-06 17:12 UTC** — dream (demo) ok=false mode=default cursor_model=unknown integrity=pass governance=fail mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-06 17:12 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=2 civmem_suppressed=false
+- **2026-04-06 17:12 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-06 17:26 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-06 18:34 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-06 18:34 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-06 18:34 UTC** — dream (demo) ok=false mode=default cursor_model=unknown integrity=pass governance=fail mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-06 18:34 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=2 civmem_suppressed=false
+- **2026-04-06 18:34 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-06 18:56 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-06 19:32 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-06 19:52 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=none
+- **2026-04-06 19:55 UTC** — bridge (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking refs=8f5baf5,a3adc8c
+- **2026-04-06 20:14 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=claude-4.6-opus-high-thinking
+- **2026-04-07 00:15 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-07 00:15 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-07 00:15 UTC** — dream (demo) ok=false mode=default cursor_model=unknown integrity=pass governance=fail mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-07 00:15 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=2 civmem_suppressed=false
+- **2026-04-07 00:15 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-07 00:44 UTC** — bridge (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking refs=43b7605,0b11573
+- **2026-04-07 00:45 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=claude-4.6-opus-high-thinking
+- **2026-04-07 01:29 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-07 01:29 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-07 01:29 UTC** — dream (demo) ok=false mode=default cursor_model=unknown integrity=pass governance=fail mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-07 01:29 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=2 civmem_suppressed=false
+- **2026-04-07 01:29 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-07 01:46 UTC** — thanks (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking park=none
+- **2026-04-07 02:11 UTC** — thanks (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking park=parked-15pt-proposal-remaining-gaps
+- **2026-04-07 03:16 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-07 03:16 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-07 03:16 UTC** — dream (demo) ok=false mode=default cursor_model=unknown integrity=pass governance=fail mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-07 03:16 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=2 civmem_suppressed=false
+- **2026-04-07 03:16 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-07 04:23 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-07 04:23 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-07 04:23 UTC** — dream (demo) ok=false mode=default cursor_model=unknown integrity=pass governance=fail mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-07 04:23 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=2 civmem_suppressed=false
+- **2026-04-07 04:23 UTC** — dream (demo) ok=true mode=default cursor_model=unknown integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-07 04:26 UTC** — thanks (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking park=none
+- **2026-04-07 04:45 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=mediamap curated into three lane sources files
+- **2026-04-07 05:12 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-07 05:46 UTC** — thanks (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking park=cadence-auto-park-impl-both-repos
+- **2026-04-07 06:06 UTC** — dream (grace-mar) ok=true mode=default cursor_model=claude-4.6-opus-high-thinking phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-07 12:05 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=claude-4.6-opus-high-thinking
+- **2026-04-07 13:20 UTC** — thanks (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking park=ob1-epistemological-audit-and-substack-reply
+- **2026-04-07 17:44 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=claude-4.6-opus-high-thinking
+- **2026-04-07 19:28 UTC** — thanks (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking park=retrieval-engineering-mempalace-mem0-supabase-eval
+- **2026-04-07 20:02 UTC** — coffee (grace-mar) ok=true mode=minimal cursor_model=unknown
+- **2026-04-07 20:08 UTC** — coffee (grace-mar) ok=true mode=minimal cursor_model=unknown
+- **2026-04-07 20:53 UTC** — bridge (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking refs=f11fb7b,8899808
+- **2026-04-07 20:56 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=claude-4.6-opus-high-thinking
+- **2026-04-08 04:30 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=work-jiang-ingest-push-and-normalizer-ship
+- **2026-04-08 05:21 UTC** — dream (grace-mar) ok=true mode=default cursor_model=claude-4.6-opus-high-thinking phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-08 14:49 UTC** — bridge (grace-mar) ok=true cursor_model=unknown refs=c2af946
+- **2026-04-08 17:17 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-08 18:03 UTC** — bridge (grace-mar) ok=true cursor_model=unknown refs=06a9088
+- **2026-04-08 18:05 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=claude-4.6-opus-high-thinking
+- **2026-04-08 18:53 UTC** — thanks (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking park=islamabad-v06-diplomatic-dual-audience-pushed
+- **2026-04-08 20:33 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-08 22:29 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=claude-4.6-opus-high-thinking
+- **2026-04-08 22:32 UTC** — bridge (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking refs=fd1967e
+- **2026-04-08 22:35 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-08 22:35 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-08 22:59 UTC** — thanks (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking park=islamabad-v08-trimmed-800w-alignment-swept-ceasefire-window-open
+- **2026-04-09 04:03 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-09 04:53 UTC** — bridge (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking refs=f636d95
+- **2026-04-09 04:54 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-09 04:56 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-09 05:27 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-09 05:56 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-09 06:17 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-09 12:02 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-09 12:56 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-09 14:48 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=coffee-A-G-xavier-dev-next-shipped
+- **2026-04-09 15:02 UTC** — bridge (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking refs=af6eaca
+- **2026-04-09 15:10 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=claude-4.6-opus-high-thinking
+- **2026-04-09 15:32 UTC** — thanks (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking park=ob1-bridge-doctrine-locked-90d-eval
+- **2026-04-09 15:41 UTC** — thanks (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking park=cadence-voice-principle-shipped-and-demonstrated
+- **2026-04-09 16:02 UTC** — thanks (grace-mar) ok=true cursor_model=claude-4.6-opus-high-thinking park=risk-mitigation-4-patterns-5-territories-template-locked
+- **2026-04-09 17:23 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=skill-strategy-ph-wiring-notebook-policy
+- **2026-04-09 17:32 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-09 17:46 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-09 18:12 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=template-upstream-triage-grace-mar
+- **2026-04-09 18:50 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-09 19:29 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-09 23:23 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-10 14:28 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-10 14:31 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-10 15:29 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-10 16:25 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=claude-4.6-opus-high-thinking
+- **2026-04-10 19:11 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-10 19:58 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-10 22:07 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-10 22:24 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=dream-strategy-notebook-operator-eod
+- **2026-04-10 23:28 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-10 23:54 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown
+- **2026-04-11 01:26 UTC** — thanks (grace-mar) ok=true cursor_model=unknown park=history-notebook-scaffold-committed-next-vol-i-chapters
+- **2026-04-11 02:39 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=b7ac32b
+- **2026-04-11 02:41 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-11 04:45 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-11 05:43 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-11 12:25 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-11 13:57 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-11 14:05 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=coffee-a-tri-frame-doc-default
+- **2026-04-11 15:06 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-12 00:06 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-12 00:47 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown
+- **2026-04-12 00:48 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-12 00:49 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-12 01:23 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=context-efficiency-layer-landed
+- **2026-04-12 02:40 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-12 06:35 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-12 12:40 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-12 13:59 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-12 14:28 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=civ-mem-MEM-handles-clarified
+- **2026-04-12 15:26 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-12 16:54 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-12 21:17 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-13 01:32 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-13 04:00 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-13 05:21 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-13 05:22 UTC** — dream (demo) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=fail mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true
+- **2026-04-13 05:53 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-13 12:11 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-13 15:58 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=strategy-helpers-index-architecture-related
+- **2026-04-13 16:43 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-13 17:30 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-13 18:25 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-13 22:00 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-13 22:19 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=31c81247,87d6c4b note=work-forecast lane shipped; bridge seal; push main
+- **2026-04-13 22:22 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-13 23:59 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-14 03:30 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-14 05:59 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-14 14:21 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-14 14:47 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-14 15:54 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-14 17:10 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-14 20:09 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=d85e0952,dd756744 note=PH_lectures_essays_docs_plus_cadence_push_main
+- **2026-04-14 20:13 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-15 06:11 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false
+- **2026-04-15 14:40 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-15 14:59 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=external-digest-gates-prefs-skill
+- **2026-04-15 15:16 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=cmc-integration-plus-brief-derived-enhancements-shipped
+- **2026-04-15 16:17 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=d78471f7,20f58ae
+- **2026-04-15 17:42 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-15 18:10 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=critique-response-shipped-observability-v2-status-bumped
+- **2026-04-15 19:24 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-15 22:23 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-15 23:16 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=wire-harvest-knot-distill-connections-wired
+- **2026-04-16 00:07 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=cadence-telemetry-wired-notebook-distill-next
+- **2026-04-16 00:35 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=batch-analysis-emitter-shipped-alias-tuning-or-ci-next
+- **2026-04-16 03:09 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-16 05:28 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-04-16 12:29 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-16 15:38 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-16 16:21 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=self-library-archive-sharpening-dream-recursive-learning-shipped
+- **2026-04-16 16:44 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-16 16:46 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-16 17:20 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-16 20:07 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=3a2a9e3f,companion-self-unchanged
+- **2026-04-17 00:00 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-17 01:16 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=84980712,20f58ae
+- **2026-04-17 01:21 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-17 05:23 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-17 05:25 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-17 12:26 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-17 15:04 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-17 15:16 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=B steward=template
+- **2026-04-17 16:22 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=mcp-adapter-wave-4b-shipped-portability-live
+- **2026-04-17 19:19 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-17 20:21 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-17 22:11 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-17 22:24 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=B steward=template
+- **2026-04-17 22:26 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=C
+- **2026-04-18 06:13 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-04-18 06:14 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-04-18 06:17 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-04-18 13:04 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-18 14:05 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-18 15:11 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=thanks-skill-two-block-commit
+- **2026-04-18 16:38 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-18 17:29 UTC** — bridge (grace-mar) ok=true cursor_model=Composer model_tier=unknown refs=d395c3ae,87d6c4b
+- **2026-04-18 17:34 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-19 02:04 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-19 03:29 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=strategy-tri-mind-davis-pape-freeman
+- **2026-04-19 05:14 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-04-19 13:17 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-19 14:15 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-19 16:26 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-19 17:10 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-19 17:14 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-19 17:24 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-19 17:26 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-19 17:27 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-19 20:15 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-20 06:06 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-04-20 14:22 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-20 16:40 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-20 17:46 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-20 18:00 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-20 18:54 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-20 18:55 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=2 civmem_suppressed=false handoff_written=true
+- **2026-04-20 20:43 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-20 23:21 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-21 05:12 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=strategy-state-iran-april-notebook-shipped
+- **2026-04-21 14:39 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-21 15:50 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=e5455e5a
+- **2026-04-21 18:02 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-21 19:02 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-22 04:31 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-22 04:32 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-22 05:31 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-04-22 14:49 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-22 15:10 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=B steward=template
+- **2026-04-22 16:27 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=git-ship-buckets-exports-strategy-tooling
+- **2026-04-22 17:44 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-22 17:45 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown lane=git-ship-bucket
+- **2026-04-23 01:18 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-23 01:22 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown lane=git-ship-bucket
+- **2026-04-23 01:26 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown lane=git-ship-bucket
+- **2026-04-23 04:56 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-04-23 13:01 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-23 23:11 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-23 23:12 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D1 conductor=toscanini+karajan d1_fallback=d2
+- **2026-04-23 23:13 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=B steward=template
+- **2026-04-24 00:47 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-24 01:26 UTC** — bridge (grace-mar) ok=true cursor_model=Auto model_tier=unknown refs=dd1c411d
+- **2026-04-24 01:28 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-24 01:28 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D2 conductor=toscanini+karajan
+- **2026-04-24 01:31 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-24 03:53 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=strategy-mercouris-apr23-raw-capture
+- **2026-04-24 05:32 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-04-24 05:33 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-04-24 13:56 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-24 14:56 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=9f11ebe6,20f58ae
+- **2026-04-24 18:42 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=dev-notebook-ifp-pause
+- **2026-04-24 18:44 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=pr8-preflight-review-pause
+- **2026-04-25 00:24 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=a72f3fad,20f58ae
+- **2026-04-25 00:26 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-25 02:02 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=deterministic-diagnostics-ci
+- **2026-04-25 02:28 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-25 02:30 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=B steward=template
+- **2026-04-25 04:39 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-25 04:40 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D2 conductor=kleiber
+- **2026-04-25 04:41 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D1 conductor=kleiber
+- **2026-04-25 13:18 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-25 13:21 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D1 conductor=kleiber
+- **2026-04-25 16:37 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-25 16:49 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D1 conductor=kleiber
+- **2026-04-25 17:20 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-25 18:04 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-25 18:06 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D2 conductor=toscanini
+- **2026-04-26 00:28 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-26 01:22 UTC** — thanks (grace-mar) ok=true cursor_model=unknown model_tier=unknown park=work-dev-examples-readme-push
+- **2026-04-26 01:39 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-26 01:44 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D3 conductor=bernstein
+- **2026-04-26 05:15 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-26 05:16 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=2 civmem_suppressed=false handoff_written=true
+- **2026-04-26 05:16 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=1 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-04-26 05:17 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=1 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-04-26 05:17 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-26 05:17 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-26 05:21 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=1 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-04-26 13:11 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-26 13:21 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D conductor=toscanini
+- **2026-04-26 13:28 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D conductor=kleiber
+- **2026-04-26 13:52 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-26 13:54 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D conductor=kleiber
+- **2026-04-26 14:22 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-26 14:24 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D conductor=karajan
+- **2026-04-26 14:27 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D conductor=karajan
+- **2026-04-26 14:32 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=watch conductor=karajan notebook_ref=strategy-notebook/hormuz-strait-transit-agreement-v0.md note=dedupe_map_plus_cluster_backpointer
+- **2026-04-26 15:35 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D conductor=bernstein
+- **2026-04-27 05:57 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-04-27 12:24 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-27 13:28 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=hold conductor=bernstein notebook_ref=theology-notebook/research/2026-04-26-ra-potentiation-civ-mem-lineage.md
+- **2026-04-27 14:30 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=cfe07ae8,983bfba
+- **2026-04-27 16:05 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-27 16:11 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=toscanini
+- **2026-04-27 16:20 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=oembed-title-author-match
+- **2026-04-27 16:26 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=dbceacd5
+- **2026-04-27 16:34 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=furtwangler
+- **2026-04-27 16:36 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=two-column-judgment-no-winner
+- **2026-04-27 16:51 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-27 16:57 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein
+- **2026-04-27 16:59 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=lead-themes-section-3
+- **2026-04-27 17:01 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
+- **2026-04-27 17:02 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=mem-boundary-crosslink
+- **2026-04-27 17:19 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
+- **2026-04-27 17:22 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=no_action conductor=kleiber action=integrity_c falsify=validate-integrity-ok
+- **2026-04-27 17:24 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=watch conductor=kleiber action=derived_A notebook_ref=docs/skill-work/work-dev/derived-regeneration.md
+- **2026-04-28 04:00 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-28 04:26 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=65ad506f
+- **2026-04-28 05:03 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-28 14:35 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-28 15:05 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein
+- **2026-04-28 15:09 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown notebook_ref=docs/skill-work/work-strategy/strategy-notebook/chapters/2026-04/days.md
+- **2026-04-28 15:14 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-28 15:17 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=C
+- **2026-04-28 15:59 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
+- **2026-04-28 16:02 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
+- **2026-04-29 05:14 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=fail mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-04-29 05:15 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-04-29 15:07 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-29 15:10 UTC** — coffee (grace-mar) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-04-29 15:10 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=a2e4c066
+- **2026-04-29 15:26 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-29 15:29 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=E conductor=bernstein
+- **2026-04-29 17:21 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=faa32d0d
+- **2026-04-29 23:59 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-30 00:04 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown steward=template
+- **2026-04-30 00:38 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=bernstein
+- **2026-04-30 04:00 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown action=public-stake-batch-analysis
+- **2026-04-30 04:39 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-30 04:40 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=B
+- **2026-04-30 04:53 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
+- **2026-04-30 04:54 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown commit=e81a89ce
+- **2026-04-30 04:54 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
+- **2026-04-30 04:55 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=cadence-log-plus-one-substantive-cluster
+- **2026-04-30 05:04 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=toscanini
+- **2026-04-30 05:05 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=sample-has-three-live-options-no-refusal-slot
+- **2026-04-30 05:06 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=no-staging-shape-only
+- **2026-04-30 05:06 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=furtwangler
+- **2026-04-30 05:07 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=redesign-not-patch
+- **2026-04-30 05:09 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown commit=6c5e1533
+- **2026-04-30 05:09 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein
+- **2026-04-30 05:11 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown commit=1df4a540
+- **2026-04-30 05:29 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=fail mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-04-30 14:20 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-30 14:21 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=A steward=integrity
+- **2026-04-30 14:24 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=A steward=git
+- **2026-04-30 14:34 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
+- **2026-04-30 14:35 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=karajan action=runtime-residue-classified falsify=commit-trail-vs-regenerate-cache
+- **2026-04-30 14:40 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein
+- **2026-04-30 14:41 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=bernstein action=thread-index-helper-trust-check falsify=default-pass-strict-migration-fail
+- **2026-04-30 14:44 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
+- **2026-04-30 14:47 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=kleiber action=tighten-strategy-inbox-public-stake falsify=commit-only-surviving-content-wedge
+- **2026-04-30 15:37 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=786c49cf
+- **2026-04-30 16:38 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-30 16:39 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=A steward=git
+- **2026-04-30 16:43 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-30 16:44 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=furtwangler
+- **2026-04-30 16:46 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-30 16:48 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=D capitalist=work-cici-commercial-teaching
+- **2026-04-30 19:01 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-30 19:02 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=E conductor=furtwangler
+- **2026-04-30 19:12 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=furtwangler action=cici-ai-telegram-ob1-fork-proof-post falsify=single-artifact-ask-before-progress-dashboard
+- **2026-04-30 19:15 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=toscanini
+- **2026-04-30 19:16 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=toscanini action=cici-ai-ob1-fork-receipt-path falsify=no-scholarship-readiness-from-fork-proof
+- **2026-04-30 19:16 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
+- **2026-04-30 19:17 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=karajan action=cici-ai-lanes-monthly-operating-arc falsify=three-lanes-are-sequence-not-equal-buckets
+- **2026-04-30 19:19 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=karajan action=grace-mar-rhythm-scan falsify=period-rhythm-only-where-existing-cadence-pressure
+- **2026-04-30 19:22 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=karajan action=grace-gems-monthly-operating-review falsify=monthly-review-is-checklist-not-advice
+- **2026-04-30 19:25 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
+- **2026-04-30 19:27 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein
+- **2026-04-30 19:28 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=bernstein action=grace-gems-live-judgment-close falsify=review-answers-what-mattered-and-next
+- **2026-04-30 22:54 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-04-30 22:56 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=B
+- **2026-04-30 23:51 UTC** — coffee (grace-mar) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-05-01 00:27 UTC** — coffee (grace-mar) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-05-01 00:31 UTC** — coffee (grace-mar) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-05-01 01:51 UTC** — coffee (grace-mar) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-05-01 01:57 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=B
+- **2026-05-01 02:00 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=bernstein
+- **2026-05-01 03:47 UTC** — coffee (grace-mar) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-05-01 03:51 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=C
+- **2026-05-01 03:56 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=toscanini
+- **2026-05-01 04:03 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=kleiber
+- **2026-05-01 04:17 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=bernstein
+- **2026-05-01 04:40 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=furtwangler
+- **2026-05-01 05:43 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-01 14:23 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-01 14:24 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=A steward=gate
+- **2026-05-01 14:25 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=B
+- **2026-05-01 14:42 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=de7f5578,8fd1fad5
+- **2026-05-01 14:47 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-01 14:49 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=B
+- **2026-05-01 15:09 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=furtwangler
+- **2026-05-01 15:10 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=explicit-export-or-retention-path-added
+- **2026-05-01 15:44 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
+- **2026-05-01 15:47 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=queue-starts-carrying-compose-judgment
+- **2026-05-01 15:48 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown focus=memory+self-library
+- **2026-05-01 15:58 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=memory-library-collapse-or-shadow-record-drift
+- **2026-05-01 15:59 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown focus=museum identity knowledge (archive)
+- **2026-05-01 16:01 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=bulk-library-promotion-to-ix-a
+- **2026-05-01 18:16 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-01 18:16 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=C
+- **2026-05-01 18:57 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown cursor-model=codex
+- **2026-05-01 19:01 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=git-diff-check-clean
+- **2026-05-01 19:18 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown cursor-model=codex
+- **2026-05-01 19:22 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown notebook_ref=dirty-tree-split
+- **2026-05-01 19:38 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-01 19:41 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown cursor-model=codex
+- **2026-05-01 19:44 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown falsify=dialogue-bom-mojibake-before-stage
+- **2026-05-01 22:05 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=toscanini cursor-model=codex
+- **2026-05-01 22:06 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=toscanini verdict=verified falsify=no-spawn-no-gate-no-record-authority-claims
+- **2026-05-01 22:07 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-01 22:46 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=furtwangler cursor-model=codex
+- **2026-05-01 22:48 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-01 22:49 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=furtwangler verdict=reflection-brief-created notebook_ref=runtime/artifacts/work-dev/conductor-delegations/cdel-20260501-224915-reflection-capture-what-the-ten-point-critique-taught-the-o-brief.md falsify=no-final-verdict-from-critique
+- **2026-05-01 22:52 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan cursor-model=codex
+- **2026-05-02 03:02 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=toscanini cursor-model=codex
+- **2026-05-02 03:05 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=toscanini verdict=gate-shape-pass-evidence-boundary-watch falsify=mcq-candidates-pass-readiness-but-lack-shelf-or-stem-answer-receipts
+- **2026-05-02 04:03 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-02 04:30 UTC** — bridge (grace-mar) ok=true cursor_model=unknown model_tier=unknown refs=grace-mar:61651c46 scope=local-first-substrate skipped_dirty_arcs=conductor-cici-strategy
+- **2026-05-02 04:48 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-02 04:49 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=C cursor-model=codex
+- **2026-05-02 04:56 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan cursor-model=codex
+- **2026-05-02 04:58 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=karajan verdict=stage-set-ready falsify=record-merge-files-only-cici-strategy-conductor-residue-excluded
+- **2026-05-02 05:32 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=toscanini cursor-model=codex
+- **2026-05-02 05:33 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=toscanini verdict=verified falsify=manifest-and-recursion-gate-untouched-skill-sync-verify-pass
+- **2026-05-02 05:42 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber cursor-model=codex
+- **2026-05-02 06:17 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=4 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-02 06:18 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=4 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-02 06:19 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=4 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-02 14:21 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-02 14:25 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=furtwangler cursor-model=codex
+- **2026-05-02 14:28 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=furtwangler verdict=source-boundary-tension-held falsify=massie-anchors-secondary-not-primary-gate-readiness-clean
+- **2026-05-02 14:29 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-03 02:32 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=toscanini
+- **2026-05-03 02:33 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=seam-clean notebook_ref=docs/agent-substrate.md falsify=would fail if doc implied external agents can approve or merge canonical truth
+- **2026-05-03 02:33 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=furtwangler
+- **2026-05-03 03:42 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
+- **2026-05-03 03:44 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=coherence-trimmed notebook_ref=docs/skills/research/last30days.md falsify=would fail if last30days became a new hub line or automatic dream runner
+- **2026-05-03 03:44 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
+- **2026-05-03 03:46 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=sync-drift-clean notebook_ref=.cursor/skills/last30days/SKILL.md falsify=would fail if generated skill diverged from portable core plus appendix
+- **2026-05-03 03:54 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-03 04:01 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=A steward=integrity
+- **2026-05-03 04:04 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=B
+- **2026-05-03 04:07 UTC** — coffee_pick (grace-mar) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein
+- **2026-05-03 04:08 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown conductor=bernstein verdict=public-legibility-tightened notebook_ref=docs/agent-substrate.md
+- **2026-05-03 13:51 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-03 22:06 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-03 22:48 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-04 05:25 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-04 05:26 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-04 16:33 UTC** — coffee (grace-mar) ok=true mode=reentry cursor_model=unknown model_tier=unknown
+- **2026-05-04 16:34 UTC** — coffee_pick (grace-mar) ok=true cursor_model=codex model_tier=unknown picked=B
+- **2026-05-04 16:35 UTC** — coffee (grace-mar) ok=true mode=reentry cursor_model=unknown model_tier=unknown
+- **2026-05-04 16:37 UTC** — coffee_pick (grace-mar) ok=true cursor_model=codex model_tier=unknown picked=conductor conductor=karajan
+- **2026-05-04 17:09 UTC** — coffee_pick (grace-mar) ok=true cursor_model=codex model_tier=unknown picked=conductor conductor=kleiber
+- **2026-05-04 19:03 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-04 19:04 UTC** — coffee_pick (grace-mar) ok=true cursor_model=codex model_tier=unknown picked=A steward=integrity
+- **2026-05-04 20:22 UTC** — coffee (grace-mar) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-05-04 20:29 UTC** — coffee_pick (grace-mar) ok=true cursor_model=codex model_tier=unknown picked=conductor conductor=kleiber
+- **2026-05-05 01:16 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-05 03:39 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-05 03:44 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-05 05:17 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-05 05:19 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-05 15:15 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-06 04:28 UTC** — coffee (strategy-codex) ok=true mode=light cursor_model=unknown model_tier=unknown
+- **2026-05-06 06:00 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-06 14:10 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-06 14:37 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-07 05:19 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-07 14:52 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-08 04:15 UTC** — coffee (grace-mar) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-05-08 05:55 UTC** — dream (grace-mar) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-08 17:00 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-08 19:16 UTC** — coffee (strategy-codex) ok=true mode=reentry cursor_model=unknown model_tier=unknown
+- **2026-05-08 20:43 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-09 01:40 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-09 05:39 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-09 06:23 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=furtwangler cursor-model=codex
+- **2026-05-09 06:24 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=furtwangler verdict=source-pack-held-tension-preserved notebook_ref=runtime/artifacts/benchmarks/composition/2026-05-08/codex-gpt-5-source-pack/cm-1-humanoid-robots/furtwangler-close-after-source-pack.md falsify=held-score-treated-as-final-domain-settlement
+- **2026-05-09 06:30 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=furtwangler verdict=revisit-register-noise-audited notebook_ref=runtime/artifacts/skill-work/work-strategy/revisit-register-audit-2026-05-09.md falsify=treating-107-generated-groups-as-107-real-conflicts
+- **2026-05-09 07:02 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-09 15:18 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-09 15:19 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=A steward=gate
+- **2026-05-09 16:47 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-09 16:48 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-09 16:49 UTC** — dream (demo) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=fail mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-10 14:42 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-11 00:25 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-11 00:31 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=A steward=integrity
+- **2026-05-11 00:33 UTC** — coffee (strategy-codex) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-05-11 04:22 UTC** — coffee (strategy-codex) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-05-11 04:49 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-11 20:13 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=watch conductor=karajan notebook_ref=continuity/daily-strategy-inbox.md falsify=If the accumulator date or raw-input gap list changes on the next refresh, this long-arc read was stale.
+- **2026-05-11 22:53 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=youtube-adapter-arc-held conductor=karajan notebook_ref=a7eba9f1 falsify=If a=true future=true YouTube=true caller=true reintroduces=true direct=true yt-dlp=true execution=true or=true duplicate=true normalization=true outside=true ytdlp_adapter.py this=true centralization=true arc=true did=true not=true hold.=true
+- **2026-05-12 06:21 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-12 15:38 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-13 05:47 UTC** — dream (grace-mar) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-13 14:41 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-14 00:25 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-14 00:28 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=A steward=template
+- **2026-05-14 00:49 UTC** — coffee (strategy-codex) ok=true mode=minimal cursor_model=unknown model_tier=unknown
+- **2026-05-14 04:29 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=verified conductor=kleiber notebook_ref=continuity/CONDUCTOR-IMPROVEMENT-LOOP.md falsify=focused-warmup-conductor-tests-fail
+- **2026-05-14 06:20 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-14 12:37 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-14 13:23 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=codex model_tier=unknown conductor=toscanini verdict=sufficient-answer-stop falsify=conductor-menu-added-after-task-already-complete
+- **2026-05-14 23:24 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-14 23:50 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=worktree-arcs-ranked conductor=karajan notebook_ref=runtime/artifacts/review-packets/karajan-worktree-steward-review-2026-05-14.md falsify=If the next staged commit mixes PH corpus runtime exports protected Record surfaces or cache churn with the cici member-profile slice this hierarchy failed.
+- **2026-05-15 01:48 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=cognition-streams-probe-green conductor=kleiber notebook_ref=scripts/cognition_streams_audit.py falsify=If tests/test_cognition_streams_audit.py or tests/test_agentic_safety_work_guardrails.py fail with a fresh workspace basetemp this source-test slice is not alive enough to ship.
+- **2026-05-15 04:19 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-15 06:07 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-15 12:21 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-15 12:22 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A hub=steward
+- **2026-05-15 12:32 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan focus=post-commit-ship-shape
+- **2026-05-15 12:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=karajan verdict=speaker-writer-shelves-shaped notebook_ref=commit:4ad3d3fa falsify=If raw-input dependencies remain uncommitted or speaker validation fails after the raw-input wave, the shelf shape is incomplete.
+- **2026-05-15 16:30 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-15 16:32 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A hub=steward
+- **2026-05-15 16:35 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=partial readiness=execution_ready artifacts=archive/grace-mar-instance/museum-knowledge.md loops=ship-shape-large-dirty-tree next=stage-record-split-first
+- **2026-05-15 18:37 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-16 03:07 UTC** — coffee (strategy-codex) ok=true mode=light cursor_model=unknown model_tier=unknown
+- **2026-05-16 04:33 UTC** — coffee (strategy-codex) ok=true mode=light cursor_model=unknown model_tier=unknown
+- **2026-05-16 04:35 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=D hub=capitalist
+- **2026-05-16 04:42 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-16 04:43 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber focus=predictive-history-external-repo
+- **2026-05-16 04:44 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=kleiber verdict=civ-01-route-held-with-index-wording-note notebook_ref=github:rbtkhn/predictive-history:civ-01 falsify=If chapter-manifest civ-01 no longer routes to corpus transcript commentary civ-ph and orientation payload the public one-chapter load contract is broken.
+- **2026-05-16 04:47 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=kleiber verdict=ph-public-front-door-held notebook_ref=runtime/artifacts/benchmarks/composition/2026-05-16/continuity/ph-public-front-door-kleiber.md falsify=Fresh route audit finds nontrivial chapter-manifest rows pointing to missing transcript commentary civ-ph or orientation files or README llms roadmap drift into conflicting second-semester/review-stat
+- **2026-05-16 05:13 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=furtwangler focus=predictive-history-roadmap-tensions
+- **2026-05-16 06:26 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-16 13:04 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-16 18:18 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-16 18:19 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=B
+- **2026-05-16 18:20 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-16 18:21 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-17 05:16 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-17 05:17 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A steward=git cursor-model=codex
+- **2026-05-17 05:39 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-17 13:35 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-17 18:35 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-17 18:40 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-17 18:47 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-17 18:48 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-18 04:44 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-18 04:57 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=gpt-5 model_tier=unknown picked=A steward=gate
+- **2026-05-18 05:00 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=docs/skill-work/work-dev/kleiber-composition-benchmark.md loops=conductor-actionability-close next=commit-staged-conductor-actionability-bundle
+- **2026-05-18 05:03 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=gpt-5 model_tier=unknown picked=conductor conductor=furtwangler
+- **2026-05-18 06:06 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-18 12:30 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-18 14:35 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=codex model_tier=unknown conductor=toscanini verdict=backfill-falsify-weakened notebook_ref=skill:academy-backfill-falsify falsify=If origin/main is treated as containing eb27d532 watchlist and lowercase voice fixes before push, the falsification target drifted.
+- **2026-05-18 15:03 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-18 15:04 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=C hub=strategist
+- **2026-05-18 15:06 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A steward=git
+- **2026-05-18 19:00 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-18 19:01 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=C
+- **2026-05-18 23:18 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-19 03:37 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-19 03:49 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
+- **2026-05-19 04:43 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=toscanini verdict=bridge-commit-clean notebook_ref=commit:50474f60 falsify=davis-batch-mixed-into-sovereignty-slice
+- **2026-05-19 05:09 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=karajan verdict=davis-title-inference-fixed notebook_ref=commit:d7c91835 falsify=host-only-davis-title-routes-as-guest-or-known-nonhost-title-remains-unresolved
+- **2026-05-19 05:10 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein
+- **2026-05-19 06:04 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-19 12:35 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-19 12:36 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A steward=git
+- **2026-05-19 12:51 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-19 15:33 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-19 16:36 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
+- **2026-05-20 01:09 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-20 01:14 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-20 01:15 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-20 01:16 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-05-20 01:32 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-20 01:33 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=B
+- **2026-05-20 01:40 UTC** — coffee_close (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=B outcome=done readiness=ship_ready artifacts=scripts/canonical_change_detector.py,tests/test_derived_regeneration.py,docs/skill-work/work-dev/derived-regeneration.md next=review-stage-commit
+- **2026-05-20 02:04 UTC** — coffee_close (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=B outcome=done readiness=ship_ready artifacts=docs/skill-work/work-dev/scenarios/baseline_scenarios/handback_tail_stress.yaml,docs/skill-work/work-dev/scenarios/handback_tail_stress.matrix.md,scripts/work_dev/validate_handback_analysis.py,scripts next=review-stage-commit-gap-005-006
+- **2026-05-20 02:11 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=C
+- **2026-05-20 05:59 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-20 12:29 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=codex model_tier=unknown
+- **2026-05-20 12:29 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=A steward=git
+- **2026-05-20 14:25 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=codex model_tier=unknown
+- **2026-05-20 14:28 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=codex model_tier=unknown picked=C
+- **2026-05-20 16:05 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-20 16:09 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A steward=git
+- **2026-05-20 16:11 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=partial readiness=ship_ready artifacts=docs/skill-work/work-dev/scenarios/baseline_scenarios/handback_tail_stress.yaml,docs/skill-work/work-dev/scenarios/handback_tail_stress.matrix.md,scripts/work_dev/validate_handback_analysis.py next=commit-verified-handback-tail-slice
+- **2026-05-20 16:17 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=D
+- **2026-05-20 16:19 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein
+- **2026-05-20 17:22 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
+- **2026-05-20 17:27 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=receipt-crosswalk-brief-sealed conductor=karajan notebook_ref=docs/skill-work/work-dev/control-plane/receipt-crosswalk-job-brief.md
+- **2026-05-20 18:17 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
+- **2026-05-20 18:19 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=Held conductor=kleiber notebook_ref=docs/skill-work/work-dev/control-plane/receipt-crosswalk.md falsify=no-fake-universal-log-no-duplicate-doctrine-no-file-dump
+- **2026-05-21 05:46 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-21 11:56 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-21 15:50 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-21 15:50 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=C
+- **2026-05-21 16:09 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-21 16:35 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-22 06:12 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-22 06:13 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-22 14:31 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-22 15:05 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-23 06:25 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-23 12:45 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-23 13:13 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-23 13:16 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-23 13:26 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-24 03:29 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-24 03:47 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-24 05:49 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-24 14:05 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-24 14:06 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=C
+- **2026-05-24 14:15 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
+- **2026-05-24 14:17 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=karajan verdict=hormuz-authority-split-shaped notebook_ref=docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-05-24-day-07.md falsify=compact-iran-summary-diverges-from-canonical-iran-transaction
+- **2026-05-24 16:47 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-24 17:28 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-25 13:16 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-05-25 18:15 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-25 18:27 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-25 20:22 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-26 04:35 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-26 15:14 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-26 16:23 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-27 04:05 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-27 04:09 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=C
+- **2026-05-27 06:13 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-05-27 06:14 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-27 19:12 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-27 22:23 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-27 22:32 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=furtwangler
+- **2026-05-27 22:39 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
+- **2026-05-27 22:42 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=kleiber verdict=task-6-held notebook_ref=runtime/artifacts/benchmarks/composition/2026-05-27/codex-gpt-5/task-6-ai-co-author-fired-me/closeout.md falsify=chapter-benchmark-cannot-be-converted-into-page-level-prediction-without-collapsing-its-reflective-stakes
+- **2026-05-27 22:47 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-28 12:35 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-29 05:31 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-05-29 14:22 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-29 15:26 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-30 23:38 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-05-31 01:03 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-01 03:39 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-01 18:32 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-01 18:36 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A steward=git
+- **2026-06-01 18:39 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-01 18:39 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=scripts/assess_session_load.py,scripts/coffee_bootstrap_brief.py next=stage-commit-bootstrap-drift-fix
+- **2026-06-01 21:13 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-02 13:55 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-06-02 13:57 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-06-02 13:58 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-06-02 14:50 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-06-02 21:46 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-02 21:51 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm
+- **2026-06-02 21:54 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-04 06:12 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-05 14:04 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-06 05:02 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-07 22:00 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-07 22:01 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=D learning_action=reframe
+- **2026-06-07 22:07 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-07 22:09 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=B learning_action=test
+- **2026-06-08 03:13 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-08 06:36 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=toscanini
+- **2026-06-08 06:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=toscanini notebook_ref=continuity/_deprecated/conductor/CONDUCTOR-PASS.md falsify=skill-mount-integrity-fails-or-handoff-hub-diverges-from-coffee
+- **2026-06-08 06:40 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=furtwangler
+- **2026-06-08 06:43 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=furtwangler notebook_ref=docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md falsify=statecraft-batch-commit-without-deploy-ownership-or-explicit-multi-lane-receipt
+- **2026-06-08 06:48 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=kleiber
+- **2026-06-08 07:00 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown conductor=kleiber verdict=held notebook_ref=runtime/artifacts/benchmarks/composition/2026-06-07/cursor-composer/lebanon-third-party-gate-kleiber/closeout.md falsify=statecraft-commit-without-persia-slice-receipt-or-america-primary-ownership
+- **2026-06-08 07:01 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=bernstein
+- **2026-06-08 07:33 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown conductor=bernstein verdict=held notebook_ref=docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md falsify=verification-commit-restages-2ec582124-or-batches-civ-lens-without-separate-intent
+- **2026-06-08 07:36 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=karajan
+- **2026-06-08 07:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown conductor=karajan verdict=held notebook_ref=docs/skill-work/work-dev/dev-notebook/work-dev/journal/2026-06-07-day-08.md falsify=hierarchy-commit-batches-civ-lens-or-reopens-2ec582124-lane-order
+- **2026-06-08 17:52 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-08 17:53 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=A learning_action=confirm
+- **2026-06-08 17:57 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=e6807c348,4aeb4da73 loops=stage-commit-bootstrap-drift-fix next=push-parent-and-ph-civ-remote-when-ready
+- **2026-06-08 17:58 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=D learning_action=reframe
+- **2026-06-08 18:00 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=D learning_action=reframe subpick=C substrate_warning=true
+- **2026-06-08 21:39 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-08 22:24 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=docs/kleiber-close-daily-companion-notes-stopping-rules-2026-06-08.md falsify=migrated-daily-regains-Statecraft-Notes-tail-or-validator-reports-tail-label-errors-again
+- **2026-06-08 22:27 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=docs/kleiber-close-june-section-order-stopping-rules-2026-06-08.md falsify=june-03-08-daily-regains-Lane-Pressure-or-top-level-Mechanism-Comparison-heading
+- **2026-06-08 22:28 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=docs/kleiber-close-june-five-volume-stopping-rules-2026-06-08.md falsify=june-03-08-five-volume-block-not-China-Persia-Rome-Russia-America-with-backtick-labels
+- **2026-06-08 22:30 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=docs/kleiber-close-june-quote-anchor-stopping-rules-2026-06-08.md falsify=june-03-04-06-07-quote-anchor-floor-regresses-below-twelve-words
+- **2026-06-08 22:53 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=statecraft/recursive-learning-journal.md falsify=june-daily-or-2026-06-monthly-regresses-on-validate_statecraft_daily_synthesis
+- **2026-06-09 03:34 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=karajan notebook_ref=statecraft/america/transactions/foreign-client-mesh-separation-and-command-review.md falsify=karajan-slice1-not-batched-with-validator-or-napolitano
+- **2026-06-09 03:35 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-09 03:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=docs/kleiber-close-march-quote-anchor-stopping-rules-2026-06-08.md falsify=march-daily-quote-anchor-errors-return-on-03-16-23-27-31
+- **2026-06-09 03:39 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=D learning_action=reframe
+- **2026-06-09 03:41 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=D learning_action=reframe subpick=B control_plane=true
+- **2026-06-09 03:43 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=A learning_action=confirm
+- **2026-06-09 04:41 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-09 04:43 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=D learning_action=reframe
+- **2026-06-09 04:46 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm
+- **2026-06-09 05:38 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=bernstein focus=2026-06-08-ceasefire-triad
+- **2026-06-09 05:38 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=bernstein notebook_ref=statecraft/synthesis/day/2026-06-08.md falsify=Beirut-strike-within-72h-collapses-episodic-alive-read movements=allegro andante scherzo finale commit=98415d277
+- **2026-06-09 10:02 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=statecraft/synthesis/day/2026-06-08.md falsify=Section_224_unchanged_after_pushback_week_fires_AMER-224-RCPT-03 benchmark_ref=runtime/artifacts/benchmarks/composition/2026-06-08/cursor-composer/ceasefire-anchor-trio-kleiber/
+- **2026-06-09 10:07 UTC** — coffee_conductor_outcome (grace-mar) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=ph-civ@ec64d2b;strategy-codex@e1442b0d6 falsify=volume_i_parts_valid_and_pytest_4of4_before_push movements=allegro_parked andante_complete scherzo_complete finale_pushed
+- **2026-06-09 12:33 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-09 13:47 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-09 19:47 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-09 19:48 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=B learning_action=test
+- **2026-06-09 19:51 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=A learning_action=confirm
+- **2026-06-09 19:54 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=920680d7f next=push-cadence-closeout-when-ready
+- **2026-06-09 19:57 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=toscanini
+- **2026-06-09 20:12 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=toscanini notebook_ref=source-archive/statecraft/2026-06-09/README.md falsify=day-readme-stale-returns-on-check commit=70a9060c0 movements=allegro_andante_scherzo_finale
+- **2026-06-09 20:12 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=furtwangler
+- **2026-06-09 20:19 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=furtwangler focus=worktree-fracture-vs-single-ship-story
+- **2026-06-09 20:21 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=furtwangler notebook_ref=singularity/notes/review-as-bottleneck-and-interpretive-pause.md falsify=multi-intent-batch-collapses-fracture-note movements=allegro_andante_finale_push_blocked commit=920680d7f 70a9060c0
+- **2026-06-09 20:25 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=kleiber
+- **2026-06-09 21:19 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=conductor conductor=bernstein
+- **2026-06-09 21:36 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=composer model_tier=unknown verdict=held conductor=bernstein notebook_ref=statecraft/notes/intake/2026-06-09-intake-readiness.md falsify=daily-compose-before-intake-readiness-and-verify-receipts movements=allegro_andante_scherzo_finale
+- **2026-06-10 00:30 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-10 07:30 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=tensions-held-no-false-closure conductor=furtwangler notebook_ref=singularity/work-anyang/anyang-open-tensions.md falsify=recruitment-before-wechat-pin-and-mentor-rules
+- **2026-06-10 07:44 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-10 10:26 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=ai_bench_hierarchy_closed conductor=karajan notebook_ref=statecraft/notes/trend-china-ai-implementation.md falsify=palantir_only_minab_attribution_lugansk_palantir_ai_forensics
+- **2026-06-10 13:33 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-10 20:22 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-10 20:25 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm
+- **2026-06-10 20:26 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=ph-civ-7c52452 next=parent-dirty-tree-separate-slices
+- **2026-06-10 20:41 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=gb02_seams_held conductor=kleiber notebook_ref=public/public/predictive-history/book/volume-v/gb-02/gb-02-commentary.md falsify=part_ii_gb02_anchor_dead
+- **2026-06-11 12:33 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-12 10:10 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-12 10:12 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=D learning_action=reframe
+- **2026-06-12 10:16 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=D learning_action=reframe subpick=A stage_slice1=true
+- **2026-06-12 13:24 UTC** — coffee (grace-mar) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-12 13:28 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=A learning_action=confirm
+- **2026-06-12 13:31 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=ph-civ-faf189c next=phase1-visual-or-intake-hygiene
+- **2026-06-12 22:29 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=composer model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-12 22:31 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-12 22:37 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber
+- **2026-06-12 22:37 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=statecraft/synthesis/day/2026-06-11.md falsify=archive-daily-desync
+- **2026-06-12 23:33 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-12 23:43 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-12 23:44 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-12 23:46 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-12 23:47 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=D learning_action=reframe
+- **2026-06-12 23:49 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=D learning_action=reframe subpick=B
+- **2026-06-12 23:52 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=B learning_action=test
+- **2026-06-12 23:53 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-12 23:54 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm slice=coffee-cadence-infra
+- **2026-06-13 10:41 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
+- **2026-06-13 10:41 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=karajan verdict=shaped notebook_ref=statecraft/notes/watch/2026-06-12-72h-watch-run.md falsify=RCPT-04-stressed-A-prime-south-open
+- **2026-06-13 15:19 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-13 15:20 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=recent integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-13 15:21 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=structural integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-06-13 15:22 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-15 10:26 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=shaped conductor=kleiber notebook_ref=README.md#door-f falsify=2026-06-14-intake-daily-sync-ok
+- **2026-06-15 11:47 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=karajan verdict=shaped notebook_ref=statecraft/states/table-of-contents.md falsify=origin/main-still-behind-after-push export_tree=5f581c599d53904a
+- **2026-06-15 12:48 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown conductor=furtwangler verdict=held notebook_ref=statecraft/states/volumes/README.md falsify=prose-merge-before-triggers-exist
+- **2026-06-15 12:51 UTC** — coffee (strategy-codex) ok=true mode=reentry cursor_model=unknown model_tier=unknown
+- **2026-06-15 15:30 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=held conductor=kleiber notebook_ref=essays/leo-barnes-jiang-on-ai.md falsify=prose_slop_lint_strict_full_exit_0
+- **2026-06-15 15:37 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=shaped conductor=karajan notebook_ref=essays/README.md falsify=essay_voice_shelf_hierarchy_aligned
+- **2026-06-15 16:49 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-16 13:28 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-16 15:23 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-17 09:19 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-17 09:21 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=D learning_action=reframe
+- **2026-06-17 09:46 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=karajan
+- **2026-06-17 09:51 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor outcome=partial readiness=execution_ready artifacts=docs/skill-work/work-business/sid-desk-offer-spine.md loops=sid-first-wave-send next=sid-pilot-sow-excerpt conductor=karajan
+- **2026-06-17 11:24 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-17 11:26 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm
+- **2026-06-17 11:28 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=a93bceccf loops=sid-pilot-sow-excerpt next=wip-slice-commits
+- **2026-06-17 11:31 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm
+- **2026-06-17 12:12 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-17 12:22 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-17 12:26 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-17 12:39 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=conductor conductor=kleiber movement=A B C D
+- **2026-06-17 12:39 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=shaped conductor=kleiber notebook_ref=statecraft/notes/watch/2026-06-16-72h-watch-run.md falsify=Geneva-19-Jun-pseudo-gate-J16-K1-vs-J16-ME1
+- **2026-06-17 15:14 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-17 21:46 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-17 23:44 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-18 00:41 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-18 07:35 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-18 10:50 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=watch conductor=kleiber notebook_ref=statecraft/notes/watch/2026-06-17-72h-watch-run.md falsify=kleiber-ceremony-fork-j17-5-j17-17-fri19
+- **2026-06-18 10:55 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=promote conductor=karajan notebook_ref=statecraft/synthesis/day/2026-06-17.md falsify=karajan-jun17-stack-finish
+- **2026-06-18 11:21 UTC** — coffee_conductor_outcome (strategy-codex) ok=true cursor_model=unknown model_tier=unknown verdict=promote conductor=bernstein notebook_ref=statecraft/synthesis/day/2026-06-17.md falsify=bernstein-mou-meaning-held
+- **2026-06-19 08:27 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-19 08:28 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=A learning_action=confirm
+- **2026-06-19 08:54 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready runtime/artifacts=7a79247e9
+- **2026-06-19 09:14 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-06-19 09:16 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-06-19 09:19 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-06-19 09:21 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-06-19 09:22 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-06-19 09:37 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-19 09:42 UTC** — dream (demo) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=true reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-06-19 09:48 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=C outcome=done readiness=ship_ready artifacts=pytest-155-gate loops=compression-boundary-named next=compression-commit-1 object_ref=continuity/_deprecated/conductor/CONDUCTOR-COMPRESSION-SPEC.md falsify=mixed-dirty-tree-still-passes-compression-gate attention=hold tension
+- **2026-06-19 14:04 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-19 14:39 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-19 15:52 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-19 23:27 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-20 05:19 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-20 17:12 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=composer model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-20 23:30 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-20 23:31 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=329d2dd1f fb9c085b7 loops=civ-state-push-or-fix-link object_ref=civ-state-v0.1.48-rome-civic-chain falsify=essay-prose-qa-exit-nonzero
+- **2026-06-21 01:08 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-21 14:51 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=composer model_tier=unknown picked=A learning_action=confirm
+- **2026-06-21 14:51 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=b2fa3b848 loops=mixed-dirty-tree next=archive-index-slice
+- **2026-06-21 14:53 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=67e120188 loops=mixed-dirty-tree next=mercouris-land-or-civ-state-mirror object_ref=statecraft/notes/arc-freeman-india-global-left-iran.md falsify=archive-indices-match-freeman-captures
+- **2026-06-21 16:25 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-22 12:14 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-22 15:28 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-23 08:53 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-23 15:22 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-06-23 23:58 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-24 14:43 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-24 14:46 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm slice=statecraft-wire
+- **2026-06-24 14:48 UTC** — coffee_close (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A outcome=done readiness=ship_ready artifacts=f2a06af2c loops=ph-civ-drift next=archive-index-or-ph-civ-slice object_ref=statecraft/notes/wire/2026-06-23-news-verify-matrix.md falsify=origin-main-matches-f2a06af2c
+- **2026-06-24 14:50 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=A learning_action=confirm slice=archive-intake-jun23-24
+- **2026-06-24 23:50 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-25 15:46 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-06-25 23:36 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-26 16:20 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-06-26 23:44 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-27 01:31 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-27 01:48 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=structural integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-06-27 01:58 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-27 02:04 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=structural integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=false handoff_written=true
+- **2026-06-27 16:29 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-28 00:09 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-06-28 00:11 UTC** — coffee_pick (strategy-codex) ok=true cursor_model=unknown model_tier=unknown picked=C learning_action=deepen slice=j25-verify-receipts
+- **2026-06-28 16:34 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-29 01:22 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-29 15:32 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-06-30 10:26 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-30 10:27 UTC** — coffee (strategy-codex) ok=true mode=first-command cursor_model=unknown model_tier=unknown
+- **2026-06-30 14:33 UTC** — dream (strategy-codex) ok=true mode=default cursor_model=unknown model_tier=unknown phase=both integrity=pass governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=1 civmem_suppressed=false handoff_written=true
+- **2026-07-03 05:17 UTC** — coffee (strategy-codex) ok=true mode=work-start cursor_model=unknown model_tier=unknown
+- **2026-07-03 05:18 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-07-03 05:19 UTC** — dream (strategy-codex) ok=false mode=default cursor_model=unknown model_tier=unknown phase=both integrity=fail governance=pass mem_changed=false reviewable=0 contradictions=0 civmem_echo_count=0 civmem_suppressed=true handoff_written=true
+- **2026-07-03 05:23 UTC** — coffee (strategy-codex) ok=true mode=minimal cursor_model=unknown model_tier=unknown

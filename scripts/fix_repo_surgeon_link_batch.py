@@ -152,9 +152,9 @@ TARGET_REWRITES: dict[str, str] = {
     "evolving-practice-recursive-improvement.md": "docs/agent-rules/deep-rules.md",
     "export_manifest": "docs/portable-record/export-contract.md",
     "progressive-disclosure.md": "runtime/prepared-context/budgeted-work-strategy.md",
-    "good-morning-brief-spec.md": "docs/skill-work/work-cadence/README.md",
-    "good-night-brief-spec.md": "docs/skill-work/work-cadence/README.md",
-    "good-night-template.md": "docs/skill-work/work-cadence/decision-fatigue-reduction.md",
+    "good-morning-brief-spec.md": "continuity/cadence/README.md",
+    "good-night-brief-spec.md": "continuity/cadence/README.md",
+    "good-night-template.md": "continuity/cadence/decision-fatigue-reduction.md",
     "speaker-accuracy-ledger.md": "statecraft/notes/speaker-audit-workflow.md",
     "speaker-credibility-accuracy-bridge.md": "statecraft/notes/speaker-audit-workflow.md",
     "speaker-credibility-matrix.md": "statecraft/notes/speaker-audit-workflow.md",
@@ -1689,7 +1689,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
     if rel.startswith("docs/automation/"):
         replacements.append(("../../../.cursor/", "../../.cursor/"))
 
-    if rel.startswith("docs/skill-work/work-coffee/"):
+    if rel.startswith("continuity/coffee/"):
         replacements.extend(
             [
                 ("../operator-agent-lanes.md", "../../operator-agent-lanes.md"),
@@ -1793,7 +1793,7 @@ def fix_bulk_text_patterns(text: str, file_path: Path) -> tuple[str, int]:
             )
         )
 
-    if rel.startswith("docs/skill-work/work-dream/"):
+    if rel.startswith("continuity/dream/"):
         replacements.append(
             (
                 "../work-cici/cici-notebook/",
@@ -2129,7 +2129,7 @@ def fix_regex_patterns(text: str, file_path: Path) -> tuple[str, int]:
         )
     if rel.startswith("docs/skill-work/work-strategy/"):
         patterns.append((r"(?:\.\./)+\.cursor/rules/", "../../../.cursor/rules/"))
-    if rel.startswith("docs/skill-work/work-coffee/"):
+    if rel.startswith("continuity/coffee/"):
         patterns.append(
             (r"(?:\.\./)+\.cursor/skills/coffee/", "../../../.cursor/skills/coffee/"),
         )

@@ -1,8 +1,8 @@
 # Conductor Hard Protocol — archived (Phase 2)
 
-**Redirect:** New operator entry uses [CONDUCTOR-COMPRESSION-SPEC.md](../../../docs/skill-work/work-coffee/CONDUCTOR-COMPRESSION-SPEC.md) + [coffee SKILL](../coffee/SKILL.md). Do **not** emit Conductor Action Menu on new sessions.
+**Redirect:** New operator entry uses [CONDUCTOR-COMPRESSION-SPEC.md](../../../continuity/_deprecated/conductor/CONDUCTOR-COMPRESSION-SPEC.md) + [coffee SKILL](../coffee/SKILL.md). Do **not** emit Conductor Action Menu on new sessions.
 
-The body below is **read-only compatibility** for archaeology and tests against [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md).
+The body below is **read-only compatibility** for archaeology and tests against [CONDUCTOR-PASS.md](../../../continuity/_deprecated/conductor/CONDUCTOR-PASS.md).
 
 ---
 

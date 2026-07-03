@@ -29,7 +29,7 @@ def _clear_cursor_model_env(monkeypatch: pytest.MonkeyPatch) -> None:
 @pytest.fixture()
 def events_file(tmp_path: Path) -> Path:
     """Pre-seeded events file with header and anchor."""
-    p = tmp_path / "work-cadence-events.md"
+    p = tmp_path / "cadence-events.md"
     p.write_text(HEADER, encoding="utf-8")
     return p
 
@@ -430,5 +430,5 @@ def test_log_coffee_close_cli_main_with_artifact(
     )
     assert lcc.main() == 0
     out = capsys.readouterr().out.strip()
-    assert out.endswith("work-cadence-events.md") or "cadence" in out
+    assert out.endswith("cadence-events.md") or "cadence" in out
 

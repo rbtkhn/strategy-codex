@@ -727,7 +727,7 @@ def build_judgment_loop_report(
     register_loops = _iter_register_loops(notebook_root)
     cadence_events = parse_events(
         user_id,
-        events_path=(cadence_events_path or Path(__file__).resolve().parents[2] / "docs" / "skill-work" / "work-cadence" / "work-cadence-events.md"),
+        events_path=(cadence_events_path or Path(__file__).resolve().parents[2] / "continuity" / "cadence" / "cadence-events.md"),
     )
     cadence_outcomes = [event for event in cadence_events if event.get("kind") == "coffee_conductor_outcome"]
 

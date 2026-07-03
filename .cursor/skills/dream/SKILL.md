@@ -1,6 +1,6 @@
 ---
 name: dream
-description: "Grace-Mar night-close maintenance ritual. Primary trigger: dream. Dream is the end-of-day consolidation pass: a bounded maintenance ritual that settles continuity, checks integrity and governance, refreshes contradiction visibility, and prepares governed follow-up without merge authority. Agent steps also cover strategy-notebook closeout and Cici notebook day-file generation (see skill body). Before auto_dream.py runs, synthesize the last four cadence lines (eight when the operator asks for full day-close rhythm) from work-cadence-events.md into **Recent rhythm** prose (no internal ops jargon or timestamps in chat). Usually one dream session per day."
+description: "Grace-Mar night-close maintenance ritual. Primary trigger: dream. Dream is the end-of-day consolidation pass: a bounded maintenance ritual that settles continuity, checks integrity and governance, refreshes contradiction visibility, and prepares governed follow-up without merge authority. Agent steps also cover strategy-notebook closeout and Cici notebook day-file generation (see skill body). Before auto_dream.py runs, synthesize the last four cadence lines (eight when the operator asks for full day-close rhythm) from cadence-events.md into **Recent rhythm** prose (no internal ops jargon or timestamps in chat). Usually one dream session per day."
 preferred_activation: dream
 activation: dream
 category: operator-coherence
@@ -63,9 +63,9 @@ If **`auto_dream.py --strict`** halted, **`last-dream.json` was not updated** �
 
 **Read first** — `auto_dream.py` (and `operator_end_of_day.py`) append a new **`dream`** line when the pass completes successfully, so the log must be read **before** those commands if the rhythm read is to exclude this run.
 
-1. Open **`docs/skill-work/work-cadence/work-cadence-events.md`**. Below `_(Append below this line.)_`, collect lines matching `- **YYYY-MM-DD HH:MM UTC** — kind (user) …`.
+1. Open **`continuity/cadence/cadence-events.md`**. Below `_(Append below this line.)_`, collect lines matching `- **YYYY-MM-DD HH:MM UTC** — kind (user) …`.
 2. **How many lines:** **Default: last 4** (lighter, aligned with coffee/bridge depth). **Full day-close: last 8** when the operator signals a wider rhythm window—e.g. **`dream full`**, **`deep rhythm`**, **`wide rhythm`**, or explicit ask for the full cadence tail. If fewer lines exist than requested, use what exists; if none, **Recent rhythm:** _(no prior events)_ in the reply.
-3. **Synthesize in a short paragraph** using the **cadence voice principle** ([work-cadence README](../../../docs/skill-work/work-cadence/README.md#cadence-voice-principle-all-rituals)): acknowledge the day's arc in *felt* terms (what was productive, what was settled, what was a good call), then name what **tomorrow inherits** — where the energy naturally goes next. Use **"we"** framing. The operator should feel **settled and ready to rest**, not debriefed. **Do not** put dates, clock times, commit hashes, or process names in this prose. Anchor in the **actual** log lines you read (no generic filler); the day is *felt and closed forward*, not recapped. Script output below still carries the full machine snapshot.
+3. **Synthesize in a short paragraph** using the **cadence voice principle** ([work-cadence README](../../../continuity/cadence/README.md#cadence-voice-principle-all-rituals)): acknowledge the day's arc in *felt* terms (what was productive, what was settled, what was a good call), then name what **tomorrow inherits** — where the energy naturally goes next. Use **"we"** framing. The operator should feel **settled and ready to rest**, not debriefed. **Do not** put dates, clock times, commit hashes, or process names in this prose. Anchor in the **actual** log lines you read (no generic filler); the day is *felt and closed forward*, not recapped. Script output below still carries the full machine snapshot.
 4. Hold this synthesis for **What to return** — it belongs **at the top** of the night-close brief, before run status / integrity lines.
 
 If the file is missing or empty below the anchor, note that under **Recent rhythm** and continue.
@@ -216,7 +216,7 @@ When **`auto_dream.py --strict`** halts because integrity or governance failed, 
 ### When `--strict` halts — recovery (three steps)
 
 1. **Read the failure** — stderr and the **`auto_dream.py` stdout** (headline line first, then the rest). Identify whether integrity, governance, or another check failed.
-2. **Fix operationally** — stale derived exports: [work-cadence README](../../../docs/skill-work/work-cadence/README.md) § *When integrity reports stale derived exports* and **Guardrails** below; governance / integrity per script messages; config or parity issues. **Do not** merge **RECURSION-GATE** candidates to "fix" integrity or governance.
+2. **Fix operationally** — stale derived exports: [work-cadence README](../../../continuity/cadence/README.md) § *When integrity reports stale derived exports* and **Guardrails** below; governance / integrity per script messages; config or parity issues. **Do not** merge **RECURSION-GATE** candidates to "fix" integrity or governance.
 3. **Re-run** — `python3 scripts/auto_dream.py --strict` after the fix; treat handoff as fresh only after **exit 0**.
 
 ---
@@ -225,7 +225,7 @@ When **`auto_dream.py --strict`** halts because integrity or governance failed, 
 
 If **strict** dream halts for the **same** integrity or governance **reason** more than once, the fix is usually **operational** (refresh exports, resolve parity, adjust platform/config) — not a gate merge.
 
-**Recursive tightening:** Add **one** bullet to **this skill** (e.g. under *Step 1* or this section) or to `docs/skill-work/work-dream/README.md` describing the recurring cause and the **first** recovery step. Do not use this loop to bypass companion merge authority.
+**Recursive tightening:** Add **one** bullet to **this skill** (e.g. under *Step 1* or this section) or to `continuity/dream/README.md` describing the recurring cause and the **first** recovery step. Do not use this loop to bypass companion merge authority.
 
 ---
 
@@ -238,7 +238,7 @@ If **strict** dream halts for the **same** integrity or governance **reason** mo
 - Do not let `dream` become an autonomous merge agent.
 - Prefer bounded maintenance over speculative semantic intervention.
 - A quiet run is normal; do not manufacture significance.
-- If **integrity** fails with **stale derived export** (not contradictions), refresh exports: `python3 scripts/refresh_derived_exports.py` from repo root, then `python3 scripts/validate-integrity.py --json` — see [`docs/skill-work/work-cadence/README.md`](../../../docs/skill-work/work-cadence/README.md) § *When integrity reports stale derived exports*.
+- If **integrity** fails with **stale derived export** (not contradictions), refresh exports: `python3 scripts/refresh_derived_exports.py` from repo root, then `python3 scripts/validate-integrity.py --json` — see [`continuity/cadence/README.md`](../../../continuity/cadence/README.md) § *When integrity reports stale derived exports*.
 
 ## Strategy notebook (strategy-codex (`continuity/`)) — optional FYI; **not** owned by `dream`
 
@@ -325,7 +325,7 @@ Usually one `dream` session per day is normal.
 |------|--------|-------------|
 | **Morning** | `coffee` (work-start) | Read dream handoff, grounding scripts, fixed coffee menu (**A-D**) |
 | **During day** | `coffee` (reorientation) | Re-sip as needed — many per day is normal |
-| **During day** | `conductor` / master name (Symphony / execution emphasis) | Master pick -> orientation -> Conductor Action Menu; `coffee_pick` + optional `coffee_conductor_outcome` - see [CONDUCTOR-PASS.md](../../../docs/skill-work/work-coffee/CONDUCTOR-PASS.md) |
+| **During day** | `conductor` / master name (Symphony / execution emphasis) | Master pick -> orientation -> Conductor Action Menu; `coffee_pick` + optional `coffee_conductor_outcome` - see [CONDUCTOR-PASS.md](../../../continuity/_deprecated/conductor/CONDUCTOR-PASS.md) |
 | **End of day** | `dream` | Memory normalization, integrity, governance, contradiction digest; optional strategy-notebook **FYI** + **Cici notebook** day file generation (see §§ Strategy notebook, Cici notebook) |
 | **Session close** | `bridge` | Seal repos (commit/push), synthesize transfer prompt for next session |
 
@@ -343,11 +343,11 @@ Usually one `dream` session per day is normal.
 
 For the full decision tree including signing-off **`coffee`** (lightweight alternative to bridge), see [bridge SKILL.md](../bridge/SKILL.md).
 
-**Deeper choreography** (ordering, data flow, synthesis depths, harvest vs clocks): [work-cadence README — Cadence choreography](../../../docs/skill-work/work-cadence/README.md#cadence-choreography).
+**Deeper choreography** (ordering, data flow, synthesis depths, harvest vs clocks): [work-cadence README — Cadence choreography](../../../continuity/cadence/README.md#cadence-choreography).
 
 ## Cadence audit
 
-Each successful dream run appends one line to `docs/skill-work/work-cadence/work-cadence-events.md` via `scripts/log_cadence_event.py`. This is automatic — no operator action required; the line includes **`cursor_model=…`** (see **Morning handoff** above for how to set it). **`operator_end_of_day.py`** forwards **`--cursor-model`** to `auto_dream.py`.
+Each successful dream run appends one line to `continuity/cadence/cadence-events.md` via `scripts/log_cadence_event.py`. This is automatic — no operator action required; the line includes **`cursor_model=…`** (see **Morning handoff** above for how to set it). **`operator_end_of_day.py`** forwards **`--cursor-model`** to `auto_dream.py`.
 
 ## Verification / Proof Standard
 
@@ -383,9 +383,9 @@ If verification cannot be completed:
 
 ## Related files
 
-- `docs/skill-work/work-dream/README.md` — territory doctrine and boundaries
-- `docs/skill-work/work-dream/work-dream-history.md` — design history (architecture changes, not per-run telemetry)
-- `docs/skill-work/work-cadence/work-cadence-events.md` — per-run cadence telemetry
+- `continuity/dream/README.md` — territory doctrine and boundaries
+- `continuity/dream/dream-history.md` — design history (architecture changes, not per-run telemetry)
+- `continuity/cadence/cadence-events.md` — per-run cadence telemetry
 - `.cursor/skills/coffee/SKILL.md` — morning-side counterpart
 - `.cursor/skills/thanks/SKILL.md` — **deprecated** micro-pause beat; prefer **conductor** / **`coffee` light**
 - `.cursor/skills/bridge/SKILL.md` — session-scale handoff

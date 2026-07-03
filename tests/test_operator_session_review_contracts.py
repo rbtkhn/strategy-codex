@@ -1,7 +1,7 @@
 """
 Contract tests: operator session-review mitigations stay documented in-repo.
 
-Maps to docs/skill-work/work-coffee/operator-session-review-checklist.md and
+Maps to continuity/coffee/operator-session-review-checklist.md and
 session-review verification design (coffee / harness / lanes / memory audit).
 """
 
@@ -25,7 +25,7 @@ def test_coffee_skill_step1_and_compass_and_exit_rule():
     assert "exit to normal workflow" in md.lower()
 
 def test_menu_reference_bare_compass_vs_full_coffee():
-    md = _read("docs/skill-work/work-coffee/menu-reference.md")
+    md = _read("continuity/coffee/menu-reference.md")
     assert "### Bare **`compass`** vs **`coffee`** then **`C`**" in md
     assert "Bare `compass`" in md
     assert "operator_coffee.py --mode reentry" in md

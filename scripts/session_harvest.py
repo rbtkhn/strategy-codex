@@ -3,7 +3,7 @@
 Thin checklist + optional template for the session harvest ritual.
 
 Does not author insights — the agent fills narrative from the visible thread.
-See .cursor/skills/harvest/SKILL.md and docs/skill-work/work-cadence/harvest-packet-contract.md.
+See .cursor/skills/harvest/SKILL.md and continuity/cadence/harvest-packet-contract.md.
 
 Usage:
   python3 scripts/session_harvest.py -u demo
@@ -25,8 +25,8 @@ MODES = ("default", "technical", "strategic", "minimal")
 
 # Common instance territory histories (optional; marked missing if absent).
 TERRITORY_HISTORIES = [
-    "docs/skill-work/work-coffee/work-coffee-history.md",
-    "docs/skill-work/work-dream/work-dream-history.md",
+    "continuity/coffee/coffee-history.md",
+    "continuity/dream/dream-history.md",
     "docs/skill-work/work-politics/work-politics-history.md",
     "docs/skill-work/work-dev/work-dev-history.md",
 ]
@@ -133,7 +133,7 @@ def main() -> int:
     ap.add_argument(
         "--log",
         action="store_true",
-        help="Append work-cadence-events.md line via log_cadence_event.py --kind harvest",
+        help="Append cadence-events.md line via log_cadence_event.py --kind harvest",
     )
     args = ap.parse_args()
 

@@ -97,7 +97,7 @@ def _classify_age(age_hours: float | None, *, ok_h: float, watch_h: float) -> st
     return "stale"
 
 def parse_cadence_event_times(text: str, user_id: str = DEFAULT_USER) -> list[datetime]:
-    """Parse cadence timestamps for a user from work-cadence-events.md text."""
+    """Parse cadence timestamps for a user from cadence-events.md text."""
     rows: list[datetime] = []
     pat = re.compile(r"^- \*\*(?P<ts>[^*]+)\*\* .+?\((?P<user>[^)]+)\)", re.MULTILINE)
     for m in pat.finditer(text):
@@ -155,7 +155,7 @@ def _resolve_handoff_path(user_id: str, filename: str) -> Path:
 def build_report(user_id: str = DEFAULT_USER, *, now: datetime | None = None) -> dict[str, Any]:
     now = (now or datetime.now(timezone.utc)).astimezone(timezone.utc)
 
-    cadence_path = REPO_ROOT / "docs" / "skill-work" / "work-cadence" / "work-cadence-events.md"
+    cadence_path = REPO_ROOT / "continuity" / "cadence" / "cadence-events.md"
     cadence_text = cadence_path.read_text(encoding="utf-8") if cadence_path.is_file() else ""
     cadence_times = parse_cadence_event_times(cadence_text, user_id)
     last_cadence = max(cadence_times) if cadence_times else None

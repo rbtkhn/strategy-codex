@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Append a cadence event (coffee / coffee_pick / coffee_close / coffee_conductor_outcome / dream / bridge / harvest / thanks)
-to work-cadence-events.md.
+to cadence-events.md.
 
 One line per run. Not Record truth; not self-memory; not a replacement for
-night-handoff.json or session-transcript.md. See docs/skill-work/work-cadence/.
+night-handoff.json or session-transcript.md. See continuity/cadence/.
 Skills summarize recent lines for the companion as **Recent rhythm** in plain language (no
 clock times in that prose); the lines below remain machine-audit format.
 
@@ -44,7 +44,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-EVENTS_PATH = REPO_ROOT / "docs" / "skill-work" / "work-cadence" / "work-cadence-events.md"
+EVENTS_PATH = REPO_ROOT / "continuity" / "cadence" / "cadence-events.md"
 ANCHOR = "_(Append below this line.)_"
 KINDS = (
     "coffee",

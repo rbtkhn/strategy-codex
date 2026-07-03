@@ -40,7 +40,7 @@ def test_render_markdown_has_exactly_one_recommended_next_action():
         "surfaces": {
             "cadence": {
                 "name": "cadence events",
-                "path": "docs/skill-work/work-cadence/work-cadence-events.md",
+                "path": "continuity/cadence/cadence-events.md",
                 "status": "ok",
                 "observed_at": now.isoformat(),
                 "age_hours": 0,

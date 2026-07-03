@@ -31,6 +31,19 @@ The **continuity layer** beneath [statecraft](../statecraft/README.md): dated no
 | Status | [STATUS.md](STATUS.md) |
 | Inbox | [daily-strategy-inbox.md](daily-strategy-inbox.md) |
 
+## Cadence (coffee · dream)
+
+Operator ritual doctrine lives here — not Record, not `memory.md`.
+
+| Territory | Role |
+|-----------|------|
+| [cadence/](cadence/README.md) | Daily rhythm, **`cadence-events.md`** append log, bridge/harvest contracts |
+| [coffee/](coffee/README.md) | **`coffee`** hub **A–D**, [menu-reference.md](coffee/menu-reference.md) |
+| [dream/](dream/README.md) | **`dream`** night closeout boundaries |
+| [menu-conventions.md](menu-conventions.md) | Labeled fork shape, benefit clauses, ship receipts |
+
+Standalone **`conductor`** is **deprecated** — [\_deprecated/conductor/](_deprecated/conductor/README.md). Use **`coffee`**.
+
 ## Contract owners
 
 | Doc | Owns |
