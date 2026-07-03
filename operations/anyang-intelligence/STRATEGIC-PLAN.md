@@ -4,7 +4,11 @@ Operator material; not Record.
 
 **Scope:** `operations/anyang-intelligence/` commercial venture operating shelf.
 
-**Prospectus version:** v1.6
+**Prospectus version:** v1.6.2
+
+**v1.6.2 note:** Adds [Exponential Organization Design](#exponential-organization-design) section (ExO SCALE/IDEAS; MTP = tagline; Ismail lineage disclaimer). No financial rewrite; proof obligations unchanged.
+
+**v1.6.1 note:** Adds §1 Guiding purpose prose (Diamandis abundance lineage; conceptual attribution only). Header tagline and Core Objectives unchanged.
 
 **v1.6 note:** Adds guiding purpose tagline, [Core Objectives](#core-objectives) section, and expanded §15 closing vision. Light echo on shelf [README.md](README.md), [AI-OPERATING-SYSTEM.md](AI-OPERATING-SYSTEM.md), [HUMAN-WEIGHT-UPDATE-SYSTEM.md](HUMAN-WEIGHT-UPDATE-SYSTEM.md), and agent v1.5 Core Thesis blocks (link here). No financial rewrite; proof obligations unchanged.
 
@@ -73,6 +77,16 @@ Anyang Intelligence is an AI-native vocational training company that teaches ind
 Founded by builders from Anyang, the company combines industrial-rooted practical thinking with a global online delivery model to address one of the fastest-growing labor transitions in modern history: the shift toward AI-augmented work.
 
 We are not a course marketplace. We are a **workforce transformation system** for the AI era — **AI behavior transformation**, not skills-only training.
+
+### Guiding purpose
+
+Our guiding purpose is simple yet powerful:
+
+**Mastery of intelligence for abundance in life, work, and community.**
+
+Building on the abundance mindset pioneered by Peter Diamandis and other exponential thinkers, Anyang Intelligence makes this vision practical. We help individuals and organizations move beyond scarcity and limitation — mastering AI not as passive users, but as sovereign operators who create more freedom in their lives, greater impact and fulfillment in their work, and stronger, more supportive communities through generous contribution and shared capability.
+
+*Conceptual lineage only — not affiliation, endorsement, or partnership.*
 
 ### Core thesis
 
@@ -176,6 +190,38 @@ market signals
 **Behavior embed (v1.1):** Closed-loop curriculum (above) plus **Embed** phase mechanics — 60–66 day micro-usage logs, accountability structures, cue-routine-reward loops — create dual reinforcement. See [behavior change layer](#behavior-change-layer-v11) and [execution mechanics](#execution-mechanics-borrowed-patterns-v11).
 
 **Repo alignment:** Closed-loop outputs land in [`reports/`](reports/) (venture proof) and, when curriculum ships, in root [`education/`](../../education/README.md) under a **subject-based** slug — never under the venture brand path.
+
+---
+
+## Exponential Organization Design
+
+Anyang Intelligence is intentionally built as an **Exponential Organization (ExO)** — a model pioneered by Salim Ismail and the Singularity University community — designed to harness exponential technologies like AI to achieve outsized impact with lean resources. This is **design intent and modeling language**, not a certification claim.
+
+### Massive Transformative Purpose (MTP)
+
+**Mastery of intelligence for abundance in life, work, and community.**
+
+See [Core Objectives](#core-objectives) for how this purpose unfolds across life, work, and community.
+
+### How Anyang embodies the ExO framework
+
+#### SCALE (external leverage)
+
+- **Staff on Demand & Community:** Global network of operators, mentors, and alumni rather than large fixed teams. The [China proof cell](../../singularity/work-anyang/README.md) serves as a living R&D lab and talent pipeline.
+- **Algorithms & Autonomy:** [3-agent operating system](AI-OPERATING-SYSTEM.md) (Strategist, Builder, Growth) and closed-loop intelligence layer use AI to drive continuous improvement with minimal overhead.
+- **Leveraged Assets:** Open ecosystems, shared intelligence commons, and hybrid human + agent tools — not heavy owned infrastructure.
+- **Engagement:** Accountability pairs, ship sprints, leaderboards, and community contribution mechanics ([Embed phase](#behavior-change-layer-v11), [growth/](growth/) funnels) create high participation and viral proof-sharing.
+
+#### IDEAS (internal control and agility)
+
+- **Interfaces:** Workflow-first learning experiences and agent supervision tools designed for natural operator use.
+- **Dashboards & Experimentation:** Real-time ROI checkpoints, ship-sprint milestones ([`builder/templates/`](builder/templates/)), and rapid hybrid module iteration ([`builder/`](builder/)) — receipts in [`reports/`](reports/).
+- **Autonomy:** Decentralized commercial motion through the 3-agent model and **sovereign operator** identity.
+- **Social Technologies:** [Proof obligations](#proof-obligations-90-day), governance rituals, and community mechanics that align individual mastery with collective abundance.
+
+This ExO design enables Anyang to scale training impact globally while remaining agile and mission-focused. As agentic AI accelerates, our structure positions us to evolve faster than traditional education organizations — turning exponential technology into shared human abundance.
+
+*Conceptual framework lineage only — not affiliation with Singularity University, ExO Works, or Salim Ismail.*
 
 ---
 
