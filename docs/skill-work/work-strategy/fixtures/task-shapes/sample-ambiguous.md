@@ -1,3 +1,0 @@
-# Ambiguous stub
-
-Work continues.
