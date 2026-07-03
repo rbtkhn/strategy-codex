@@ -4,7 +4,9 @@ Operator material; not Record.
 
 **Scope:** `operations/anyang-intelligence/` commercial venture operating shelf.
 
-**Prospectus version:** v1.6.4
+**Prospectus version:** v1.6.5
+
+**v1.6.5 note:** Adds §4 [Latent space and operator authorship](#latent-space-and-operator-authorship) (Andreessen conceptual lineage; operator authorship framing). No financial rewrite; proof obligations unchanged.
 
 **v1.6.4 note:** Expands ExO [IDEAS](#ideas-internal-control-and-agility) subsection (five canonical attributes; Dashboards and Experimentation split; repo cross-links). Parity with v1.6.3 SCALE depth. No financial rewrite; proof obligations unchanged.
 
@@ -194,6 +196,16 @@ market signals
 **Behavior embed (v1.1):** Closed-loop curriculum (above) plus **Embed** phase mechanics — 60–66 day micro-usage logs, accountability structures, cue-routine-reward loops — create dual reinforcement. See [behavior change layer](#behavior-change-layer-v11) and [execution mechanics](#execution-mechanics-borrowed-patterns-v11).
 
 **Repo alignment:** Closed-loop outputs land in [`reports/`](reports/) (venture proof) and, when curriculum ships, in root [`education/`](../../education/README.md) under a **subject-based** slug — never under the venture brand path.
+
+### Latent space and operator authorship
+
+At the heart of modern AI lies the concept of **latent space** — a highly compressed, multi-dimensional representation of essentially all human knowledge, culture, and creativity. As Marc Andreessen describes it, large language models do not simply retrieve information; they probe this latent space, surfacing echoes and patterns from collective humanity to generate responses.
+
+*Conceptual lineage only — not affiliation, endorsement, or partnership.*
+
+For Anyang Intelligence, [mastery of intelligence](#guiding-purpose) means learning to navigate and shape this latent space deliberately. Our operators do not treat AI as an inscrutable oracle or inevitable force, but as a powerful mirror of human stories and context that we can probe, steer, and expand. Combined with our [3-agent operating system](AI-OPERATING-SYSTEM.md) and emphasis on narrative — proof narratives, operator identity ([§10](#10-brand-origin-narrative)) — this enables sovereign operators to move from passive prompting to active authorship, turning compressed collective knowledge into personal and communal abundance aligned with our purpose: **Mastery of intelligence for abundance in life, work, and community.**
+
+This is **modeling language** for operator training design — not a claim that Anyang ships latent-space infrastructure or model-internals access.
 
 ---
 
