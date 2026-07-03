@@ -4,7 +4,11 @@ Operator material; not Record.
 
 **Scope:** `operations/anyang-intelligence/` commercial venture operating shelf.
 
-**Prospectus version:** v1.6.5
+**Prospectus version:** v1.6.7
+
+**v1.6.7 note:** Operational Strategist / Builder / Growth prompts bumped to v1.6 in [AI-OPERATING-SYSTEM.md](AI-OPERATING-SYSTEM.md) — proof-gate Constraints, wedge-scope guards, insufficient-proof halt phrases. No financial rewrite; proof obligations unchanged.
+
+**v1.6.6 note:** Adds §4 [Manifold hypothesis and operator navigation](#manifold-hypothesis-and-operator-navigation) (complement to latent-space framing). No financial rewrite; proof obligations unchanged.
 
 **v1.6.5 note:** Adds §4 [Latent space and operator authorship](#latent-space-and-operator-authorship) (Andreessen conceptual lineage; operator authorship framing). No financial rewrite; proof obligations unchanged.
 
@@ -206,6 +210,14 @@ At the heart of modern AI lies the concept of **latent space** — a highly comp
 For Anyang Intelligence, [mastery of intelligence](#guiding-purpose) means learning to navigate and shape this latent space deliberately. Our operators do not treat AI as an inscrutable oracle or inevitable force, but as a powerful mirror of human stories and context that we can probe, steer, and expand. Combined with our [3-agent operating system](AI-OPERATING-SYSTEM.md) and emphasis on narrative — proof narratives, operator identity ([§10](#10-brand-origin-narrative)) — this enables sovereign operators to move from passive prompting to active authorship, turning compressed collective knowledge into personal and communal abundance aligned with our purpose: **Mastery of intelligence for abundance in life, work, and community.**
 
 This is **modeling language** for operator training design — not a claim that Anyang ships latent-space infrastructure or model-internals access.
+
+### Manifold hypothesis and operator navigation
+
+Underlying modern AI is the **Manifold Hypothesis** — the insight that complex real-world data does not fill high-dimensional space randomly, but lies on lower-dimensional, structured manifolds. Large language models learn to compress and navigate these manifolds, effectively creating a dense, navigable map of collective human knowledge and culture.
+
+For Anyang Intelligence, [mastery of intelligence](#guiding-purpose) means becoming skilled navigators of these manifolds. Our operators learn not only to probe [latent space](#latent-space-and-operator-authorship) effectively, but to do so with purpose and sovereignty — turning compressed human wisdom into new paths aligned with our purpose: **Mastery of intelligence for abundance in life, work, and community.** This perspective shifts AI from an alien force to a mirror of human potential that we can deliberately explore, shape, and expand.
+
+This is **modeling language** for operator training design — not a claim that Anyang ships manifold-learning infrastructure or model-internals access.
 
 ---
 
