@@ -12,6 +12,12 @@ WORK only; not Record. Not `skill-write` public copy without review.
 
 Published case studies, ROI checkpoints, and GTM receipts land in [`../reports/`](../reports/).
 
+## Briefs
+
+| Date | Brief | Status |
+| --- | --- | --- |
+| 2026-07-02 | [2026-07-02-paid-pilot-cohort-funnel.md](2026-07-02-paid-pilot-cohort-funnel.md) | Outline — outbound not started |
+
 ## Related
 
 | Topic | Link |

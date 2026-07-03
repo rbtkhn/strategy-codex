@@ -12,6 +12,12 @@ WORK only; not Record. Not `skill-write` public copy without review.
 
 Market digests and competitive benchmarks stay in [`../reports/`](../reports/).
 
+## Briefs
+
+| Date | Brief | Status |
+| --- | --- | --- |
+| 2026-07-02 | [2026-07-02-workflow-ship-sprint-wedge.md](2026-07-02-workflow-ship-sprint-wedge.md) | Active — Builder handoff |
+
 ## Related
 
 | Topic | Link |

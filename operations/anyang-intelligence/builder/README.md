@@ -16,6 +16,16 @@ China cohort proof artifacts live in [`singularity/work-anyang/`](../../../singu
 
 Workflow proof write-ups may also land in [`../reports/`](../reports/).
 
+## Specs (Workflow Ship Sprint pilot)
+
+| Date | Artifact | Role |
+| --- | --- | --- |
+| 2026-07-02 | [2026-07-02-accelerator-module-map.md](2026-07-02-accelerator-module-map.md) | 12-week module map |
+| 2026-07-02 | [2026-07-02-workflow-ship-rubric.md](2026-07-02-workflow-ship-rubric.md) | 100-point pass rubric (≥80) |
+| — | [templates/](templates/) | Week 4/6/8/12 milestone + ROI checkpoint |
+
+**Strategist input:** [2026-07-02-workflow-ship-sprint-wedge.md](../strategy/2026-07-02-workflow-ship-sprint-wedge.md)
+
 ## Related
 
 | Topic | Link |
