@@ -4,7 +4,9 @@ Operator material; not Record.
 
 **Scope:** `operations/anyang-intelligence/` commercial venture operating shelf.
 
-**Prospectus version:** v1.6.2
+**Prospectus version:** v1.6.3
+
+**v1.6.3 note:** Expands ExO [SCALE](#scale-external-leverage) subsection (five canonical attributes; Staff on Demand and Community split; repo cross-links). Promotes IDEAS to `###`. No financial rewrite; proof obligations unchanged.
 
 **v1.6.2 note:** Adds [Exponential Organization Design](#exponential-organization-design) section (ExO SCALE/IDEAS; MTP = tagline; Ismail lineage disclaimer). No financial rewrite; proof obligations unchanged.
 
@@ -203,16 +205,23 @@ Anyang Intelligence is intentionally built as an **Exponential Organization (ExO
 
 See [Core Objectives](#core-objectives) for how this purpose unfolds across life, work, and community.
 
-### How Anyang embodies the ExO framework
+### SCALE: External Leverage
 
-#### SCALE (external leverage)
+Anyang Intelligence is designed to harness the SCALE attributes of Exponential Organizations, allowing us to achieve global impact with lean resources and rapid iteration:
 
-- **Staff on Demand & Community:** Global network of operators, mentors, and alumni rather than large fixed teams. The [China proof cell](../../singularity/work-anyang/README.md) serves as a living R&D lab and talent pipeline.
-- **Algorithms & Autonomy:** [3-agent operating system](AI-OPERATING-SYSTEM.md) (Strategist, Builder, Growth) and closed-loop intelligence layer use AI to drive continuous improvement with minimal overhead.
-- **Leveraged Assets:** Open ecosystems, shared intelligence commons, and hybrid human + agent tools — not heavy owned infrastructure.
-- **Engagement:** Accountability pairs, ship sprints, leaderboards, and community contribution mechanics ([Embed phase](#behavior-change-layer-v11), [growth/](growth/) funnels) create high participation and viral proof-sharing.
+- **Staff on Demand** — Rather than building a large permanent team, we operate with a small core group and flexibly engage skilled operators, mentors, alumni, and regional partners. The [China proof cell](../../singularity/work-anyang/README.md) serves as a living R&D lab and talent pipeline — scaling capacity quickly while keeping overhead low.
 
-#### IDEAS (internal control and agility)
+- **Community & Crowd** — We cultivate an active global (and China-specific) community of Agent Supervisors who co-create, share proofs, mentor newcomers, and contribute to public intelligence commons via [`growth/`](growth/) and [`reports/`](reports/). This turns users into collaborators and accelerates both learning and distribution.
+
+- **Algorithms** — Our closed-loop intelligence layer combined with the [3-agent operating system](AI-OPERATING-SYSTEM.md) (Strategist, Builder, Growth) uses AI to analyze market signals, update curriculum, and drive autonomous execution — continuously improving outcomes without proportional increases in human effort.
+
+- **Leveraged Assets** — We maximize use of open-source tools, shared templates in [`builder/`](builder/) and root [`education/`](../../education/README.md), external agent platforms, and partner ecosystems rather than owning heavy infrastructure. This lowers barriers to experimentation and speeds deployment.
+
+- **Engagement** — Through ship sprints, [7-day agent challenges](growth/2026-07-03-seven-day-agent-challenge-funnel.md), accountability pairs, leaderboards, and proof-sharing rituals ([behavior change layer](#behavior-change-layer-v11)), we create high levels of participation, retention, and organic growth. Learners are motivated not just by individual gain but by the opportunity to contribute to collective abundance.
+
+Together, these SCALE elements enable Anyang Intelligence to train and empower thousands of operators worldwide while remaining agile, cost-effective, and deeply aligned with our purpose: **Mastery of intelligence for abundance in life, work, and community.**
+
+### IDEAS: Internal Control and Agility
 
 - **Interfaces:** Workflow-first learning experiences and agent supervision tools designed for natural operator use.
 - **Dashboards & Experimentation:** Real-time ROI checkpoints, ship-sprint milestones ([`builder/templates/`](builder/templates/)), and rapid hybrid module iteration ([`builder/`](builder/)) — receipts in [`reports/`](reports/).

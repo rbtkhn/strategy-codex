@@ -24,6 +24,8 @@ Bitcoin is modeled as a **potential external settlement layer** for economic val
 
 - **In Life:** Weight updates aim at freedom and calm possibility, not anxiety-driven tool churn.
 
+**ExO alignment:** Weight-update cycles mirror ExO **IDEAS** experimentation (measurable before → after deltas, rapid module iteration); shared proof outputs compound **SCALE** engagement. Full framework: [Exponential Organization Design](STRATEGIC-PLAN.md#exponential-organization-design). *Conceptual framework lineage only.*
+
 **Agentic era (v1.4):** The shift to autonomous agents steepens the gradient on human weights — operators are the **supervision layer** in multi-agent systems. See [STRATEGIC-PLAN §2](STRATEGIC-PLAN.md#2-market-opportunity).
 
 ---

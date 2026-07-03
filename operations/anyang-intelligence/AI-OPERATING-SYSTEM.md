@@ -26,6 +26,8 @@ Anyang Intelligence operates as a **minimal 3-agent intelligence system** — a 
 
 - **In Work:** Closed-loop agents exist to produce measurable capability abundance, not content volume.
 
+**ExO design:** This 3-agent loop operationalizes [Exponential Organization Design](STRATEGIC-PLAN.md#exponential-organization-design) — **SCALE** (algorithms/autonomy via agents, staff-on-demand via mentors/alumni, engagement via proof loops) and **IDEAS** (experimentation via ship sprints, dashboards in `reports/`, decentralized sovereign-operator motion). *Conceptual framework lineage only.*
+
 ### Conceptual model (parallel layer)
 
 Human capability can also be modeled as a **weight-updating system** (ML analogy) with an optional future settlement layer. That framing lives in [HUMAN-WEIGHT-UPDATE-SYSTEM.md](HUMAN-WEIGHT-UPDATE-SYSTEM.md) — **conceptual prompts only**. Operational agent prompts in this document drive pilot execution (Workflow Ship Sprint and successors).
