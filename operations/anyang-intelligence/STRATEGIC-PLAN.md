@@ -4,7 +4,9 @@ Operator material; not Record.
 
 **Scope:** `operations/anyang-intelligence/` commercial venture operating shelf.
 
-**Prospectus version:** v1.6.3
+**Prospectus version:** v1.6.4
+
+**v1.6.4 note:** Expands ExO [IDEAS](#ideas-internal-control-and-agility) subsection (five canonical attributes; Dashboards and Experimentation split; repo cross-links). Parity with v1.6.3 SCALE depth. No financial rewrite; proof obligations unchanged.
 
 **v1.6.3 note:** Expands ExO [SCALE](#scale-external-leverage) subsection (five canonical attributes; Staff on Demand and Community split; repo cross-links). Promotes IDEAS to `###`. No financial rewrite; proof obligations unchanged.
 
@@ -223,10 +225,19 @@ Together, these SCALE elements enable Anyang Intelligence to train and empower t
 
 ### IDEAS: Internal Control and Agility
 
-- **Interfaces:** Workflow-first learning experiences and agent supervision tools designed for natural operator use.
-- **Dashboards & Experimentation:** Real-time ROI checkpoints, ship-sprint milestones ([`builder/templates/`](builder/templates/)), and rapid hybrid module iteration ([`builder/`](builder/)) — receipts in [`reports/`](reports/).
-- **Autonomy:** Decentralized commercial motion through the 3-agent model and **sovereign operator** identity.
-- **Social Technologies:** [Proof obligations](#proof-obligations-90-day), governance rituals, and community mechanics that align individual mastery with collective abundance.
+Anyang Intelligence is designed to harness the IDEAS attributes of Exponential Organizations, giving us internal control and agility while we scale externally:
+
+- **Interfaces** — Workflow-first learning experiences and agent supervision tools designed for natural operator use — not theory decks or passive video. Every module surfaces tangible human + agent artifacts (shipped workflows, governance playbooks) that operators can deploy immediately. Hybrid supervision patterns: [hybrid supervision rubric](builder/2026-07-03-hybrid-supervision-rubric.md).
+
+- **Dashboards** — Real-time visibility into capability deltas, ROI checkpoints, and ship-sprint progress. Proof receipts live in [`reports/`](reports/); milestone templates in [`builder/templates/`](builder/templates/) keep cohorts and enterprise pilots accountable to measurable outcomes.
+
+- **Experimentation** — Rapid iteration on transformation modules — especially hybrid human + agent overlays — without bureaucratic gatekeeping. [`builder/`](builder/) ships specs, rubrics, and [week-12 hybrid pilots](builder/templates/milestone-week-12-hybrid-pilot.md); falsifiers in [proof obligations](#proof-obligations-90-day) kill weak bets early.
+
+- **Autonomy** — Decentralized commercial motion through the [3-agent model](AI-OPERATING-SYSTEM.md) and **sovereign operator** identity. Strategist, Builder, and Growth agents run a closed loop; human operators graduate into self-directed capability stewardship rather than dependency on fixed instruction.
+
+- **Social Technologies** — Governance rituals, accountability pairs, and community mechanics ([behavior change layer](#behavior-change-layer-v11)) align individual mastery with collective abundance. [Proof obligations](#proof-obligations-90-day) and Embed-phase micro-logs create shared norms — operator strength compounds across alumni networks.
+
+Together, these IDEAS elements keep Anyang Intelligence internally agile — experimenting fast, measuring honestly, and governing human + agent workflows responsibly — while remaining aligned with our purpose: **Mastery of intelligence for abundance in life, work, and community.**
 
 This ExO design enables Anyang to scale training impact globally while remaining agile and mission-focused. As agentic AI accelerates, our structure positions us to evolve faster than traditional education organizations — turning exponential technology into shared human abundance.
 
